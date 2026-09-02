@@ -609,127 +609,28 @@ reuseGovernance: New question-led concept using the governed Family-10 no-same-s
 ---
 
 # Item
+
 ## label
-Metastatic calcification occurs in viable tissue with hypercalcaemia
+The two calcifications look identical; only the serum calcium tells them apart
+
 ## id
 CON-FND-718662116D90C4
+
 ## canonical_key
-calcification.dystrophic-versus-metastatic.serum-calcium
-## aliases
-Metastatic versus dystrophic calcification
-Calcification and serum calcium
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Metastatic calcification deposits calcium in otherwise viable tissues in the setting of raised serum calcium. Calcification in nonviable tissue with normal serum calcium instead describes dystrophic calcification.
-## explicit_objective
-Differentiate metastatic from dystrophic calcification by tissue viability and serum calcium.
-## pitfalls
-Reversing the two patterns or assuming that every calcification occurs in necrotic tissue.
-## concept_type
-comparison
-## status
-Draft
-## subject
-fnd
-## primary_node_id
-SYS-FND-T03-S01
-## secondary_node_ids
-DIS-PAT-T01
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Pathologic calcification > Metastatic versus dystrophic
-## article_ids
-ART-HU-BMS102-PAT-F10TF2-STEATOSIS-CALCIFICATION-AMYLOID
-## related_article_ids
-ART-HU-BMS102-PAT-F10TF2-HAEMORRHAGE-THROMBOSIS-OEDEMA
-ART-HU-BMS102-PAT-F10TF2-TUBERCULOSIS-SPREAD-RISK
-ART-HU-BMS102-PAT-F10TF2-CHRONIC-INFLAMMATION-MORPHOLOGY
-## related_concept_ids
-CON-FND-4CAD16D517ABF4
-CON-FND-4867DD3814D088
-## resource_ids
-src_a2b7d25d987469febab8
-src_f777eedff88b6dca2166
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.8
-## academic_relevance
-0.98
-## weight_confidence
-0.64
-## support_mode
-direct_statement
-## confidence
-0.92
-## exam_signal
-src_a2b7d25d987469febab8 | tier-3 local keyed study bank | undated | PDF p6 | Family-10 T28 | visibly printed False
-## atomic_claim_ids
-CLM-HU102-F10TF2-T28-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p31] The Helwan cell-injury lecture contrasts metastatic calcification in viable tissue with hypercalcaemia against dystrophic calcification in dead tissue with normal calcium.
-[Assessment p6 T28] Metastatic calcification occurs in nonviable tissue with normal blood calcium Answer: False.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the assigned canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned canonical placement.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 10 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID, canonical key and meaning.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 The Family-10 bank links tuberculosis with poverty, crowding, old age and debilitating disease
@@ -974,127 +875,28 @@ reuseGovernance: Standalone-complete HU overlay preserving the exact governed co
 ---
 
 # Item
+
 ## label
-Amyloid is identified with Congo red rather than Oil Red staining
+Congo red under polarised light gives amyloid its apple-green birefringence
+
 ## id
 CON-FND-4867DD3814D088
+
 ## canonical_key
-amyloid.staining.congo-red-apple-green-birefringence
-## aliases
-Amyloid Congo red stain
-Amyloid versus Oil Red
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Amyloid is stained by Congo red and shows apple-green birefringence under polarized light. Oil Red is a lipid stain and is not the defining stain for amyloid.
-## explicit_objective
-Identify Congo red as the defining amyloid stain and reject Oil Red.
-## pitfalls
-Confusing amyloid with intracellular lipid accumulation or omitting the apple-green birefringence confirmation.
-## concept_type
-diagnostic_feature
-## status
-Draft
-## subject
-fnd
-## primary_node_id
-SYS-FND-T03-S01
-## secondary_node_ids
-DIS-PAT-T01
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Amyloidosis > Staining
-## article_ids
-ART-HU-BMS102-PAT-F10TF2-STEATOSIS-CALCIFICATION-AMYLOID
-## related_article_ids
-ART-HU-BMS102-PAT-F10TF2-HAEMORRHAGE-THROMBOSIS-OEDEMA
-ART-HU-BMS102-PAT-F10TF2-TUBERCULOSIS-SPREAD-RISK
-ART-HU-BMS102-PAT-F10TF2-CHRONIC-INFLAMMATION-MORPHOLOGY
-## related_concept_ids
-CON-FND-4CAD16D517ABF4
-CON-FND-718662116D90C4
-## resource_ids
-src_a2b7d25d987469febab8
-src_f777eedff88b6dca2166
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.8
-## academic_relevance
-0.98
-## weight_confidence
-0.64
-## support_mode
-direct_statement
-## confidence
-0.92
-## exam_signal
-src_a2b7d25d987469febab8 | tier-3 local keyed study bank | undated | PDF p6 | Family-10 T31 | visibly printed False
-## atomic_claim_ids
-CLM-HU102-F10TF2-T31-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p22] The Helwan cell-injury lecture identifies Congo red staining and apple-green birefringence as the characteristic amyloid reaction.
-[Assessment p6 T31] Amyloid is stained red by oil red stain. Answer: False.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the assigned canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned canonical placement.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 10 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID, canonical key and meaning.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 The Family-10 bank prints blood spread as the most important primary-tuberculosis complication

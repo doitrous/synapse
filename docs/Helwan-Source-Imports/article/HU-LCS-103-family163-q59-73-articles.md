@@ -878,7 +878,7 @@ Repairing a printed answer without authority.
 Treating local evidence as independent medical verification.
 
 ## related_concepts
-CON-REN-B9E0531973510E
+CON-MSK-B37643A373463E
 CON-MSK-3B5E21D11A3B3B
 CON-MSK-5AD256E28E4183
 CON-MSK-9B52018C4649BD
@@ -921,7 +921,7 @@ HU-LCS-103 > Integrated Musculoskeletal Assessment
 hu: Restricted to governed Family-163 assessment evidence and listed Helwan teaching sources.
 
 ## annotations
-### definition_of · CON-REN-B9E0531973510E
+### definition_of · CON-MSK-B37643A373463E
 Quote: Family-163 Q18 keys Leukemia for the oncology-associated gout occurrence and Q22 keys uric acid of 15.7 mg/dL; only the urate and hyperuricaemia context is independently supported by the Helwan joint lecture.
 Block: body
 
@@ -937,11 +937,11 @@ Block: body
 Quote: Family-163 Q33 and Q43 preserve two separate osteoarthritis occurrences with activity-related pain and osteophytes; their distinct stems and option sets are not collapsed.
 Block: Family-163 Q29-Q43 extension
 
-### definition_of · CON-REN-B9E0531973510E
+### definition_of · CON-MSK-B37643A373463E
 Quote: Family-163 Q39 keys Hyperuricemia for recurrent first-metatarsophalangeal attacks with symptom-free intervals.
 Block: Family-163 Q29-Q43 extension
 
-### definition_of · CON-REN-B9E0531973510E
+### definition_of · CON-MSK-B37643A373463E
 Quote: Family-163 Q48 keys Hyperuricemia for the first-metatarsophalangeal mass containing long slender needle-shaped crystals.
 Block: Family-163 Q44-Q58 extension
 
@@ -957,7 +957,7 @@ Block: Family-163 Q44-Q58 extension
 Quote: Family-163 Q56 keys Osteoarthritis for use-related knee pain, Heberden’s nodes and prominent knee osteophytes.
 Block: Family-163 Q44-Q58 extension
 
-### definition_of · CON-REN-B9E0531973510E
+### definition_of · CON-MSK-B37643A373463E
 Quote: Family-163 Q60 and Q63 preserve two separate gout occurrences: recurrent thiazide-associated podagra and a renal-failure-associated first-MTP mass with needle-shaped crystals.
 Block: Family-163 Q59-Q73 extension
 

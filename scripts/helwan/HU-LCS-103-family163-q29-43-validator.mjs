@@ -84,10 +84,14 @@ assert.match(loaded.questions[9].question, /However;/, 'Q39 exact punctuation')
 assert.match(loaded.questions[10].question, /mature white adipocytes/, 'Q40 exact morphology wording')
 assert.match(loaded.questions[11].question, /Radiograph show/, 'Q43 exact grammar')
 
+// 2026-09-02 Helwan ID-collision audit fix: 'gout' is now a freshly minted
+// Helwan id, not the hand-typed live Kasr id it used to be. See
+// docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md and
+// scripts/helwan/HU-LCS-103-family163-q15-28-author.mjs.
 const conceptIds = [
   'CON-MSK-10AAC235A192FD', 'CON-FND-2B59FDDFCEDFA6', 'CON-MSK-8D8A075B265F7B',
   'CON-MSK-5AD256E28E4183', 'CON-MSK-9C7E37FE296254', 'CON-MSK-E92754368B0B07',
-  'CON-MSK-89674D65B2316B', 'CON-MSK-4ABB70C236E69B', 'CON-REN-B9E0531973510E',
+  'CON-MSK-89674D65B2316B', 'CON-MSK-4ABB70C236E69B', 'CON-MSK-B37643A373463E',
   'CON-MSK-EE1AB4607BE982',
 ]
 const newConcepts = new Map([

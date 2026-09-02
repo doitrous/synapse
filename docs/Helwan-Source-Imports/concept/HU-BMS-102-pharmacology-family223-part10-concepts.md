@@ -647,184 +647,28 @@ exclusionReason: Not excluded; publication_status carries the evidence gate.
 ---
 
 # Item
+
 ## label
 The liver is the main site of drug metabolism, but the gut wall, plasma, lung and kidney all metabolise drugs too
+
 ## id
 CON-FND-C3B843D7032C7F
+
 ## canonical_key
-teaching.pharma.metabolism.sites
-## definition
-Biotransformation converts a drug into a more polar metabolite that the kidney can excrete. The liver does most of it, which is why hepatic disease and first-pass metabolism matter so much, but the intestinal wall, plasma esterases, the lung and the kidney also carry out drug metabolism, and for some drugs they carry out most of it.
-## explicit_objective
-Name the sites of drug metabolism in order of importance and say why extrahepatic metabolism changes what happens to a drug given by mouth.
-## pitfalls
-Equating drug metabolism with the liver, and then being unable to explain why a drug is inactivated in the gut wall before it ever reaches a hepatocyte.
-## concept_type
-classification
-## status
-under review
-## support_mode
-direct_statement
-## subject
-pharm
-## primary_node_id
-SYS-FND-T04-S01-M03
-## secondary_node_ids
-DIS-PHA-T01 | DIS-PHA
-## topic
-General pharmacology
-## subtopic
-Pharmacokinetics
-## microtopic
-Metabolism
-## nanotopic
+
+## universities
++hu
+
+## learner_years
++1
 
 ## modules
-108 INT
-## module_subject
-108 INT > Pharmacology > Pharmacokinetics > Metabolism (Biotransformation) > Site of Metabolism
-## universities
-kau
-## learner_years
-1
-## aliases
-Sites of drug metabolism
-Biotransformation sites
-Extrahepatic drug metabolism
-Organs of drug metabolism
-## arabic_label
-مواقع استقلاب الأدوية
-## arabic_aliases
-أماكن التحول الحيوي للدواء
-## article_ids
-ART-108-PHA-PHARMACOKINETICS-ADME
-ART-HU-BMS102-PHA-F223P1-DRUG-METABOLISM
-ART-HU-BMS102-PHA-F223P4-BIOTRANSFORMATION
-ART-HU-BMS102-PHA-F223P5-BIOTRANSFORMATION
-ART-HU-BMS102-PHA-F223P6-PHASE-CLASSIFICATION-EXCRETION
-ART-HU-BMS102-PHA-F223P10-METABOLISM-FIRST-PASS-BIOAVAILABILITY
-## related_article_ids
-ART-108-PHA-ROUTES
-ART-HU-BMS102-PHA-F223P10-METABOLISM-FIRST-PASS-BIOAVAILABILITY
-## related_concept_ids
-CON-FND-44B6AE3E7DDA55 | CON-FND-E34035C5B4FF80 | CON-FND-CF40F32A8A74A0
-## exam_signal
-src_b4f736e3bd809dbee187
-orientation_ilo_mcq_only
-2026
-p1
-108 INT
-src_ec50845c4498e17b9b6b
-department_bank_chapter_pharmacokinetics
-2025
-p6
-108 INT
-src_992325268b40230b61a5
-Family223 Part1 Q01
-PDF p1
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part4 Q48
-PDF source p10
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part5 Q55
-PDF source p11
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part6 Q65
-PDF source p14
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5 | Family223 Part10 Q194 | PDF source p41 | tier-6 keyed review bank; not official key
-## blueprint_weight
-0.45
-## exam_weight_by_year
-KAU_Y1=0.45
-## clinical_relevance
-0.5
-## academic_relevance
-0.8
-## weight_confidence
-0.45
-## confidence
-0.85
-## original_wording
-[Orientation ILO 14, MCQ tick] To enumerate the sites of metabolism of drugs
-[Family223 Part1 Q01] What is the primary site for drug metabolism? [printed answer B]
-[Family223 Part4 Q48] About biotransformation. Which of the following is untrue? [printed answer C]
-[Family223 Part5 Q55] Biotransformation of the drugs is to render them: [printed answer D]
-[Family223 Part6 Q65] Biotransformation of a medicinal substance results in: [printed answer A]
-[Family223 Part10 Q194] Which tissue has the greatest capacity to bio-transform drugs? [printed answer B]
-## resource_ids
-src_992325268b40230b61a5
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-FND-METABOLISM-SITES-01
-CLM-HU102-F223-P1-Q01-01
-CLM-HU102-F223-P4-Q48-01
-CLM-HU102-F223-P5-Q55-01
-CLM-HU102-F223-P6-Q65-01
-CLM-HU102-F223-P10-Q194-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Evidence must be attached before publication; no claim or citation exists for this module yet.
-## owner
-Claude
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-microtopicId: Filled — SYS-FND-T04-S01-M03 is Metabolism and the overlay microtopic matches it.
-nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-resourceOccurrenceIds: Hand-authored from the ILO sheet and the book's "Site of Metabolism (Organs)" heading; no corpus extraction record exists.
-sourceCandidateIds: Searched the corpus concept index for "biotransformation" and "drug metabolism" — no candidate record exists for this module.
-approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
-approvedVideoResourceIds: This department distributes no video for 108 INT.
-lastReviewed: New record; no reviewer has seen it.
-reviewDue: Set when the first review completes.
-exclusionReason: Not excluded — awaiting evidence.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: Searched live state for "metabolism" and "microsomal" across all 1,718 concepts unfiltered — the single "metabolism" hit is an obstetric physiology record about human chorionic somatomammotropin. No merge was proposed or rejected.
-conflicts: No source disagreement found.
-uncertainty: The book lists the organs but does not rank the extrahepatic sites against each other, and no source read here does.
-relationships: prerequisite_of CON-FND-44B6AE3E7DDA55 and part_of the first-pass mechanism on CON-FND-CF40F32A8A74A0. Typed edges are owed in a relations batch this task did not author.
-family223Part1Reuse: Exact governed ID, canonical key and teaching semantics are preserved; reciprocal Helwan article, source, claim and wording links are supplied.
-standaloneLiveCreate: The baseline graph lacks this governed concept and its historical resources; resource_ids therefore names only the Family223 source included in this atomic batch.
-family223Part4Reuse: Exact governed ID, canonical key, core teaching and prior fields are preserved; reciprocal Part4 article, source, claim and wording links are appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part5Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part5 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part6Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part6 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part10Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part10 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Oral administration is the listed route most likely to produce a first-pass effect.
@@ -1214,242 +1058,28 @@ exclusionReason: Not excluded; publication_status carries the evidence gate.
 ---
 
 # Item
+
 ## label
 Bioavailability is the fraction of an oral dose that reaches the systemic circulation, and first-pass metabolism is what removes the rest
+
 ## id
 CON-FND-CF40F32A8A74A0
+
 ## canonical_key
-teaching.pharma.bioavailability.first-pass
-## definition
-Bioavailability is the fraction of an administered dose that reaches the systemic circulation unchanged. An intravenous dose is by definition completely bioavailable. An oral dose is not, because it must survive the gut lumen, the gut wall and then the liver, which it passes through before reaching the rest of the body — the first-pass effect.
-## explicit_objective
-Define bioavailability and first-pass metabolism, and explain why the same drug needs a larger dose by mouth than by vein.
-## pitfalls
-Treating incomplete bioavailability as a failure of absorption. A drug can be absorbed completely and still have low bioavailability, because the liver removed it before it reached the circulation.
-## concept_type
-definition
-## status
-under review
-## support_mode
-direct_statement
-## subject
-pharm
-## primary_node_id
-SYS-FND-T04-S01-M01
-## secondary_node_ids
-DIS-PHA-T01 | DIS-PHA
-## topic
-General pharmacology
-## subtopic
-Pharmacokinetics
-## microtopic
-Absorption
-## nanotopic
+
+## universities
++hu
+
+## learner_years
++1
 
 ## modules
-108 INT
-## module_subject
-108 INT > Pharmacology > Pharmacokinetics > Absorption > Bioavailability
-## universities
-kau
-## learner_years
-1
-## aliases
-Bioavailability
-First-pass effect
-First pass metabolism
-Presystemic elimination
-Oral bioavailability
-## arabic_label
-التوافر الحيوي
-## arabic_aliases
-تأثير المرور الأول
-الاستقلاب قبل الجهازي
-## article_ids
-ART-108-PHA-PHARMACOKINETICS-ADME
-ART-HU-BMS102-PHA-F223P1-PHARMACOKINETIC-PARAMETERS
-ART-HU-BMS102-PHA-F223P2-BIOAVAILABILITY-FIRST-PASS
-ART-HU-BMS102-PHA-F223P3-BIOAVAILABILITY
-ART-HU-BMS102-PHA-F223P4-IV-BIOAVAILABILITY
-ART-HU-BMS102-PHA-F223P5-ABSORPTION-BIOAVAILABILITY
-ART-HU-BMS102-PHA-F223P10-METABOLISM-FIRST-PASS-BIOAVAILABILITY
-## related_article_ids
-ART-108-PHA-ROUTES
-ART-HU-BMS102-PHA-F223P10-METABOLISM-FIRST-PASS-BIOAVAILABILITY
-## related_concept_ids
-CON-FND-F2DD5E50875917 | CON-FND-3CC8853A7D6DA8 | CON-FND-450B67836EBF1A
-## exam_signal
-src_b4f736e3bd809dbee187
-orientation_ilo_saq_and_mcq
-2026
-p1
-108 INT
-src_bd1595e59d116b78436a
-end_of_year_written
-2025
-p9
-108 INT
-src_3deab75f7f81cc5f5260
-end_of_year_written
-2024
-p6
-108 INT
-src_ec50845c4498e17b9b6b
-department_bank_chapter_pharmacokinetics
-2025
-p6
-108 INT
-src_992325268b40230b61a5
-Family223 Part1 Q04
-PDF p1
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part2 Q16
-PDF source p3
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part2 Q17
-PDF source p3
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part3 Q25
-PDF source p5
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part3 Q31
-PDF source p6
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part3 Q34
-PDF source p7
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part3 Q35
-PDF source p7
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part4 Q40
-PDF source p8
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part5 Q57
-PDF source p12
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part5 Q59
-PDF source p12
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5 | Family223 Part10 Q198 | PDF source p42 | tier-6 keyed review bank; not official key
-## blueprint_weight
-0.9
-## exam_weight_by_year
-KAU_Y1=0.9
-## clinical_relevance
-0.75
-## academic_relevance
-0.95
-## weight_confidence
-0.7
-## confidence
-0.95
-## original_wording
-[EOY 2025 Section 2 Q3a, 1 mark] Bioavailability
-[EOY 2024 Section 2 QIIIc, 1 mark] Bioavailability.
-[Orientation ILO 8, SAQ and MCQ ticks] To define bioavailability and first-pass effect
-[Family223 Part1 Q04] What does bioavailability represent? [printed answer B]
-[Family223 Part2 Q16] Bioavailability is the fraction or percentage of administered drug that
-  reaches the systemic circulation via a given route as compared to what
-  route? [printed answer B]
-[Family223 Part2 Q17] What organ is responsible for metabolism in the “first pass effect”? [printed answer D]
-[Family223 Part3 Q25] Bioavailability is: [printed answer C]
-[Family223 Part3 Q31] One of the following bioavailability values is assumed for IV dosage: [printed answer E]
-[Family223 Part3 Q34] The bioavailability of a drug: [printed answer C]
-[Family223 Part3 Q35] Which of the following is the amount of a drug absorbed to systemic
-  circulation per the amount administered? [printed answer A]
-[Family223 Part4 Q40] Drugs that are administered IV are [printed answer C]
-[Family223 Part5 Q57] Medication A is administered in a 100 mg daily dose orally and 60 mg of
-  the drug is absorbed from the gastrointestinal tract unchanged. Thus, the
-  bioavailability of Medication A is: [printed answer B]
-[Family223 Part5 Q59] Drug administered through the following route is most likely to be subjected
-  to first-pass metabolism: [printed answer A]
-[Family223 Part10 Q198] Bioavailability of drug refers to ……………………….. [printed answer A]
-## resource_ids
-src_992325268b40230b61a5
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-FND-BIOAVAILABILITY-01
-CLM-HU102-F223-P1-Q04-01
-CLM-HU102-F223-P2-Q16-01
-CLM-HU102-F223-P2-Q17-01
-CLM-HU102-F223-P3-Q25-01
-CLM-HU102-F223-P3-Q31-01
-CLM-HU102-F223-P3-Q34-01
-CLM-HU102-F223-P3-Q35-01
-CLM-HU102-F223-P4-Q40-01
-CLM-HU102-F223-P5-Q57-01
-CLM-HU102-F223-P5-Q59-01
-CLM-HU102-F223-P10-Q198-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-The 2024 paper offers "First-pass metabolism occurs only in the liver" as a distractor, so the department treats gut-wall metabolism as part of the first pass. The book's section on the oral route names the liver alone. Both positions are recorded; the paper is the more recent statement.
-## uncertainty
-[clear]
-## evidence_gaps
-Evidence must be attached before publication; no claim or citation exists for this module yet.
-## owner
-Claude
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-microtopicId: Filled — SYS-FND-T04-S01-M01 is Absorption and the overlay microtopic matches it.
-nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-resourceOccurrenceIds: Hand-authored from both exam papers and the ILO sheet; no corpus extraction record exists.
-sourceCandidateIds: Searched the corpus concept index for "bioavailability" and "first pass" — no candidate record exists for this module.
-approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
-approvedVideoResourceIds: This department distributes no video for 108 INT.
-lastReviewed: New record; no reviewer has seen it.
-reviewDue: Set when the first review completes.
-exclusionReason: Not excluded — awaiting evidence.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: Searched live state for "bioavail", "first-pass" and "first pass" across all 1,718 concepts unfiltered — no hit. No merge was proposed or rejected.
-uncertainty: Nothing about the definition is unclear; the scope of the first pass is recorded on conflicts.
-relationships: This is the most heavily weighted record in the kinetics half — ILO 8 carries both ticks and it was asked as a written definition in both sittings. prerequisite_of CON-FND-3CC8853A7D6DA8 (oral route) and caused_by CON-FND-450B67836EBF1A (hepatic metabolism). Typed edges are owed in a relations batch this task did not author.
-family223Part1Reuse: Exact governed ID, canonical key and teaching semantics are preserved; reciprocal Helwan article, source, claim and wording links are supplied.
-standaloneLiveCreate: The baseline graph lacks this governed concept and its historical resources; resource_ids therefore names only the Family223 source included in this atomic batch.
-family223Part2Reuse: Exact governed ID, canonical key and teaching semantics are preserved; reciprocal Family223 Part2 article, source, claim and wording links are appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live; resource_ids therefore names only the source supplied in this atomic batch.
-family223Part3Reuse: Exact governed ID, canonical key and teaching semantics are preserved; reciprocal Family223 Part3 article, source, claim and wording links are appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live; resource_ids therefore names only the source supplied in this atomic batch.
-family223Part4Reuse: Exact governed ID, canonical key, core teaching and prior fields are preserved; reciprocal Part4 article, source, claim and wording links are appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part5Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part5 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part10Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part10 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Lipid solubility is a major determinant of drug absorption through intact skin

@@ -1,128 +1,26 @@
 # Item
+
 ## label
-Beta-lactamase destroys penicillin by enzymatically inactivating the drug
+Beta-lactamase causes antibiotic resistance by inactivating the beta-lactam drug
+
 ## id
 CON-INF-64A7823DCEC6E5
+
 ## canonical_key
-antibiotic-resistance.mechanism.beta-lactamase-inactivation
-## aliases
-Beta-lactamase drug inactivation
-Penicillin-destroying enzyme
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Bacterial beta-lactamases enzymatically hydrolyse and inactivate susceptible beta-lactam antibiotics before the drugs can act on their cell-wall target. This mechanism changes the drug itself and differs from target modification, reduced permeability and active efflux.
-## explicit_objective
-Identify beta-lactamase production as enzymatic drug inactivation and distinguish it from other resistance mechanisms.
-## pitfalls
-Calling altered PBPs, porin loss or efflux examples of enzymatic destruction merely because each produces resistance.
-## concept_type
-mechanism
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Resistance mechanisms > Enzymatic drug inactivation
-## article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-570A1012DB9324
-CON-INF-39978E6864743D
-CON-INF-DFC3D949513ED2
-CON-INF-0096D0AC9CB83E
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q17
-## atomic_claim_ids
-CLM-HU102-F11P2-Q17-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p21] Bacteria produce enzymes that inactivate the drug e.g. production of penicillin-destroying enzymes (β-lactamases).
-[Assessment p5 Q17] A bacteria's production of an enzyme that modifies and inactivates a drug is a common resistance mechanism. An example is: Answer: Production of beta-lactamases that destroy penicillin.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Alteration of penicillin-binding proteins creates modified-target beta-lactam resistance
@@ -249,255 +147,51 @@ reuseGovernance: New Family-11 question-led concept after the governed no-same-s
 ---
 
 # Item
+
 ## label
-Sulphonamide-resistant bacteria can bypass PABA by using preformed folic acid
+Development of an alternative metabolic pathway confers resistance to sulfonamides
+
 ## id
 CON-INF-39978E6864743D
+
 ## canonical_key
-antibiotic-resistance.mechanism.alternative-metabolic-pathway
-## aliases
-Sulphonamide folate bypass
-Alternative metabolic pathway resistance
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Some sulphonamide-resistant bacteria acquire the ability to use preformed folic acid and therefore no longer depend on the PABA-requiring synthesis step blocked by the drug. This is metabolic bypass, not drug degradation, efflux or DNA-gyrase alteration.
-## explicit_objective
-Identify use of preformed folate as the metabolic-bypass mechanism of sulphonamide resistance.
-## pitfalls
-Selecting active export or drug-degrading enzymes simply because these are other legitimate resistance mechanisms.
-## concept_type
-mechanism
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Resistance mechanisms > Folate bypass
-## article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-64A7823DCEC6E5
-CON-INF-570A1012DB9324
-CON-INF-DFC3D949513ED2
-CON-INF-0096D0AC9CB83E
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q19
-## atomic_claim_ids
-CLM-HU102-F11P2-Q19-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p24] Sulphonamide resistant bacteria acquire the ability to use preformed folic acid with no need for extracellular PABA.
-[Assessment p5 Q19] Some bacteria resist the effects of sulphonamides by: Answer: Acquiring the ability to use preformed folic acid, bypassing the need for PABA.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
+
 ## label
-Porin changes reduce antimicrobial permeability and intracellular drug concentration
+Altered drug permeability confers resistance to tetracycline and amikacin
+
 ## id
 CON-INF-DFC3D949513ED2
+
 ## canonical_key
-antibiotic-resistance.mechanism.altered-permeability
-## aliases
-Porin-mediated reduced permeability
-Reduced antimicrobial entry
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Changes in bacterial outer-membrane porins can reduce drug entry so that an effective intracellular concentration is not achieved. This altered-permeability mechanism reduces influx and is distinct from enzymatic drug inactivation or active efflux after entry.
-## explicit_objective
-Explain how altered porins cause resistance by lowering antimicrobial permeability and intracellular concentration.
-## pitfalls
-Treating reduced entry through porins as proton-coupled efflux or as alteration of a ribosomal target.
-## concept_type
-mechanism
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Resistance mechanisms > Reduced permeability
-## article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-64A7823DCEC6E5
-CON-INF-570A1012DB9324
-CON-INF-39978E6864743D
-CON-INF-0096D0AC9CB83E
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q20
-## atomic_claim_ids
-CLM-HU102-F11P2-Q20-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p25] Changes in porins (hollow membrane proteins) can reduce the amount of penicillin entering bacteria.
-[Assessment p6 Q20] Changes in porin proteins in the bacterial outer membrane can lead to resistance by: Answer: Decreasing the drug's permeability, preventing it from reaching an effective intracellular concentration.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Multidrug-resistance pumps actively export antibiotics and lower intracellular concentration
@@ -624,377 +318,74 @@ reuseGovernance: New Family-11 question-led concept after the governed no-same-s
 ---
 
 # Item
+
 ## label
-Mycoplasma is intrinsically resistant to penicillin because it lacks a cell wall
+Penicillin resistance by S. aureus is acquired genetic resistance; Mycoplasma resistance to cell-wall antibiotics is intrinsic
+
 ## id
 CON-INF-DCD82D2A1D396C
+
 ## canonical_key
-antibiotic-resistance.acquired-vs-intrinsic-genetic
-## aliases
-Mycoplasma natural penicillin resistance
-Absent-target intrinsic resistance
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Mycoplasma has intrinsic natural resistance to penicillin because it lacks the bacterial cell wall that beta-lactams target. Failure therefore reflects absence of the target structure, not acquired beta-lactamase, host immunity or sequestration in an abscess.
-## explicit_objective
-Explain Mycoplasma penicillin failure as intrinsic resistance due to absence of a cell wall.
-## pitfalls
-Inferring an acquired resistance enzyme when the organism naturally lacks the drug target.
-## concept_type
-mechanism
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Resistance origins and genetics > Intrinsic Mycoplasma resistance
-## article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-134BE2C9B827D5
-CON-INF-D6A264E108B348
-CON-INF-D69C8C4C6B0D6D
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q22
-## atomic_claim_ids
-CLM-HU102-F11P2-Q22-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p29] Mycoplasma are naturally resistant to penicillin because they lack a cell wall.
-[Assessment p6 Q22] A patient with a chronic infection caused by Mycoplasma is treated with penicillin, but the treatment fails. This is likely due to: Answer: The bacteria's intrinsic natural resistance, as Mycoplasma lack a cell wall.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
+
 ## label
-Resistance factors are plasmids carrying resistance to one or more antimicrobial agents
+R-plasmids carry genes for bacterial antibiotic resistance
+
 ## id
 CON-INF-134BE2C9B827D5
+
 ## canonical_key
-antibiotic-resistance.mobile-genetic-elements.r-plasmid
-## aliases
-R factor
-Resistance plasmid
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-A resistance factor, or R plasmid, is a plasmid carrying genes that mediate resistance to one or more antimicrobial agents. It differs from a transposon, an integron and a prophage even though these genetic elements can interact in resistance dissemination.
-## explicit_objective
-Identify a plasmid carrying multiple antimicrobial-resistance genes as a resistance factor.
-## pitfalls
-Choosing transposon or integron merely because each can contain resistance genes when the stem explicitly asks for the plasmid class.
-## concept_type
-definition
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Resistance origins and genetics > R factors
-## article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-DCD82D2A1D396C
-CON-INF-D6A264E108B348
-CON-INF-D69C8C4C6B0D6D
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q23
-## atomic_claim_ids
-CLM-HU102-F11P2-Q23-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p30] Resistance (R) factors are a class of plasmids that mediate resistance to one or more antimicrobial agent.
-[Assessment p7 Q23] A plasmid that carries genes for resistance to multiple antimicrobial agents is known as a(n): Answer: Resistance (R) factor.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
+
 ## label
-Movement of a transposon between plasmids and chromosomes is transposition
+Transposons are mobile 'jumping genes' able to relocate within or between DNA molecules
+
 ## id
 CON-INF-D6A264E108B348
+
 ## canonical_key
-bacteria.genetics.transposons
-## aliases
-Transposition
-Transposon gene movement
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Transposons are mobile DNA elements that can move resistance genes between plasmids and chromosomes. The movement process is called transposition and differs from cell-to-cell conjugation, uptake of naked DNA by transformation and spontaneous mutation.
-## explicit_objective
-Name movement of a transposon between plasmid and chromosome as transposition.
-## pitfalls
-Naming a DNA-transfer route instead of the movement of the transposable element itself.
-## concept_type
-definition
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Resistance origins and genetics > Transposition
-## article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-DCD82D2A1D396C
-CON-INF-134BE2C9B827D5
-CON-INF-D69C8C4C6B0D6D
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q24
-## atomic_claim_ids
-CLM-HU102-F11P2-Q24-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p30] As they move between plasmids and chromosomes they can transfer this property to bacteria. The process is called transposition.
-[Assessment p7 Q24] The transfer of resistance genes via transposons, which can move between plasmids and chromosomes, is a process called: Answer: Transposition.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Chromosomal drug resistance develops through spontaneous mutation of a susceptibility gene
@@ -1120,127 +511,28 @@ reuseGovernance: New Family-11 question-led concept after the governed no-same-s
 ---
 
 # Item
+
 ## label
-Antibiotic suppression of normal flora can permit Candida oral superinfection
+Antibiotic eradication of susceptible normal flora can permit resistant organisms to cause superinfection
+
 ## id
 CON-INF-86D082D1785D7A
+
 ## canonical_key
-teaching.microv1.chemotherapy.superinfection
-## aliases
-Antibiotic-associated oral thrush
-Candida superinfection
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Prolonged antimicrobial therapy can suppress susceptible normal flora and allow resistant organisms to overgrow. Candida overgrowth in the mouth with oral thrush is the source example of superinfection, not direct drug toxicity, hypersensitivity or resistance developing in the patient.
-## explicit_objective
-Recognize oral Candida overgrowth after prolonged antibiotics as superinfection caused by suppression of normal flora.
-## pitfalls
-Calling thrush drug toxicity or hypersensitivity without identifying replacement of suppressed normal flora.
-## concept_type
-clinical_application
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Complications of therapy > Candida superinfection
-## article_ids
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-303D18B5BF2499
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q26
-## atomic_claim_ids
-CLM-HU102-F11P2-Q26-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p34] Another type of superinfection is due to suppression of normal flora by the antibiotic used and their replacement with drug resistant organisms which cause disease, e.g. overgrowth of Candida in the mouth causing oral thrush.
-[Assessment p7 Q26] A patient on long-term, high-dose antibiotic therapy develops oral thrush caused by Candida overgrowth. This is a classic example of which complication? Answer: Superinfection.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Streptomycin can injure the eighth cranial nerve and cause deafness
@@ -1364,127 +656,28 @@ reuseGovernance: New Family-11 question-led concept after the governed no-same-s
 ---
 
 # Item
+
 ## label
-Synergism means a combined drug effect significantly greater than the sum of separate effects
+Two drugs together may summate, synergise, potentiate or reverse each other, and the four are not interchangeable words
+
 ## id
 CON-FND-CE72B2E63A736B
+
 ## canonical_key
-teaching.pharma.interactions.combination-effects
-## aliases
-Antimicrobial synergism
-Greater-than-additive combination
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Synergism occurs when two drugs together produce an effect significantly greater than the sum of their separate effects. Addition equals the sum, indifference is no greater than the most effective drug alone, and antagonism reduces the effect.
-## explicit_objective
-Distinguish synergism from addition, indifference and antagonism using the magnitude of the combined effect.
-## pitfalls
-Calling an effect equal to the sum synergism, or treating all beneficial combinations as greater-than-additive.
-## concept_type
-classification
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-pharm
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Drug combinations and stewardship > Synergism
-## article_ids
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-## related_concept_ids
-CON-INF-CFAD0540F6E8F9
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q29
-## atomic_claim_ids
-CLM-HU102-F11P2-Q29-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p41] Synergism, i.e., the combined action is significantly greater than the sum of the two drugs acting separately.
-[Assessment p8 Q29] When two drugs are combined, and the resulting effect is significantly greater than the sum of their individual effects, this interaction is known as: Answer: Synergism.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Antibiotic treatment should be based on a clear clinical and bacteriological diagnosis whenever possible

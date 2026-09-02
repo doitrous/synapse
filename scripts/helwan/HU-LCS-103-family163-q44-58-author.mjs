@@ -41,7 +41,10 @@ const source = {
 }
 const conceptIds = {
   myeloma: 'CON-FND-2B59FDDFCEDFA6',
-  gout: 'CON-REN-B9E0531973510E',
+  // Re-minted 2026-09-02 — was a hand-typed live Kasr id; see
+  // docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md and
+  // scripts/helwan/HU-LCS-103-family163-q15-28-author.mjs, which mints it.
+  gout: 'CON-MSK-B37643A373463E',
   hypercalcemia: 'CON-MSK-CCA1BD5332E366',
   chondrosarcoma: 'CON-MSK-DDF3A03342A247',
   carpal: 'CON-MSK-9B52018C4649BD',

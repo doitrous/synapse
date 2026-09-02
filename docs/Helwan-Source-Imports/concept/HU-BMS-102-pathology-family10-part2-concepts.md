@@ -367,127 +367,28 @@ reuseGovernance: Standalone-complete HU overlay preserving the exact governed co
 ---
 
 # Item
+
 ## label
 Coagulative necrosis keeps the cell outline because denaturation outruns autolysis
+
 ## id
 CON-FND-5285A9707E61CA
+
 ## canonical_key
-necrosis.coagulative.ischaemic-protein-denaturation
-## aliases
-Coagulative necrosis
-Ischaemic necrosis
-Ghost outlines
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Coagulative necrosis follows ischaemic injury in most solid organs. Protein denaturation predominates over enzymatic digestion, so basic cellular outlines are preserved even though intracellular details are lost. Cerebral infarction is the important exception because ischaemic injury in brain undergoes liquefactive rather than coagulative necrosis.
-## explicit_objective
-Recognize the preserved-outline morphology of coagulative necrosis and exclude brain infarction from its usual organ pattern.
-## pitfalls
-Assuming every infarct is coagulative. Cerebral infarction is liquefactive despite being ischaemic.
-## concept_type
-comparison
-## status
-Draft
-## subject
-fnd
-## primary_node_id
-SYS-FND-T03-S01-M02
-## secondary_node_ids
-DIS-PAT-T01
-DIS-PAT-T08
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Cell injury > Coagulative necrosis
-## article_ids
-ART-HU-BMS102-PAT-F10P2-NECROSIS-MORPHOLOGY
-## related_article_ids
-ART-HU-BMS102-PAT-F10P2-GRANULOMATOUS-PYEMIC-INFECTION
-ART-HU-BMS102-PAT-F10P2-PRIMARY-TB-SPREAD-SITES
-## related_concept_ids
-
-## resource_ids
-src_a2b7d25d987469febab8
-src_7c79d90e00f17c534be6
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.82
-## academic_relevance
-0.98
-## weight_confidence
-0.64
-## support_mode
-direct_statement
-## confidence
-0.92
-## exam_signal
-src_a2b7d25d987469febab8 | tier-3 local keyed study bank | undated | PDF p4 | Family-10 M21
-## atomic_claim_ids
-CLM-HU102-F10P2-M21-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p38] The Helwan lecture states that protein coagulation predominates over enzymatic digestion, the basic cell outline is preserved, details are lost, and myocardial infarction is an example.
-[Assessment p4 M21] Coagulative necrosis characterized by except Answer: Occur in brain infarction.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 10 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID, canonical key and meaning.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Primary tuberculosis may disseminate through lymphatic and blood routes

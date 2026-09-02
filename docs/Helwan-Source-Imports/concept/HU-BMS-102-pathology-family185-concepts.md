@@ -1967,147 +1967,28 @@ exclusionReason: Not excluded; held at needs_evidence.
 ---
 
 # Item
+
 ## label
 Venous thrombosis follows Virchow triad
+
 ## id
 CON-CVS-1DBCD5D81337B5
+
 ## canonical_key
-virchow-triad
-## aliases
-Virchow triad | Deep vein thrombosis pathogenesis
-## arabic_label
-الخثار الوريدي يتبع ثالوث فيرشو
-## arabic_aliases
-ثالوث فيرشو
-## definition
-Thrombosis requires some combination of stasis, endothelial injury and hypercoagulability. Every risk factor for deep vein thrombosis — immobility, surgery, malignancy, pregnancy, oestrogen, inherited thrombophilia — acts through one or more of these three.
-## explicit_objective
-Assign any risk factor for venous thrombosis to one or more elements of the triad.
-## pitfalls
-Memorising risk factor lists instead of the mechanism. The triad generates the list and, more usefully, explains why prophylaxis targets stasis and coagulability.
-## concept_type
-pathophysiological_mechanism
-## status
-under review
-## subject
-cvs
-## learner_years
-2
-3
-4
-1
+
 ## universities
-kau
-hu
-## exam_weight_by_year
-kau_y2=0.8 | kau_y3=0.95 | kau_y4=0.9
-## weight_confidence
-0.5
-## support_mode
-direct_statement
-## last_reviewed
-2026-08-13
-## review_due
-2029-08-13
-## owner
-Dr Omar
-## reviewer
-Dr Omar
-## final_publisher
-Dr Omar
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## primary_node_id
-SYS-CVS-T07-S02-M04
-## secondary_node_ids
-SYS-HEM
-## article_ids
-ART-CVS-DVT
-ART-HU-BMS102-PAT-THROMBI
-ART-HU-BMS102-PAT-F185-CIRCULATORY-PRINCIPLES
-## blueprint_weight
-0.88
-## clinical_relevance
-0.7
-## academic_relevance
-0.9
-## confidence
-0.7
-## related_article_ids
-ART-HU-BMS102-PAT-EMBOLI
-ART-HU-BMS102-PAT-F185-CIRCULATORY-CASES
-## field_notes
-resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
-atomicClaimIds: Deferred to the evidence pass. Thrombosis as a haematological topic is owned by SYS-HEM; this node covers the venous vascular presentation.
-moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
-microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
-nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
-approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
-approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
-sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
-family118Part1Reuse: Exact-ID reuse preserves the prior record and appends only Family118 source, claims, article reciprocity and authority limits for Q01/Q03/Q04/Q06/Q07/Q08/Q10/Q12.
-family185Reuse: Complete prior row preserved; Family185 reciprocity appended.
-## topic
-General pathology
-## subtopic
-Circulatory disturbances
-## microtopic
-Thrombosis
-## nanotopic
-Family118 Q01/Q03/Q04/Q06/Q07/Q08/Q10/Q12
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Circulatory disturbances > Thrombosis
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-Family118 supplies instructor-bank prompt/key evidence only; no official institutional key is claimed.
-## exclusion_reason
++HU-BMS-102
 
-## resource_ids
-src_932f5302a132003041e5
-src_78d43325a1bdcfbceab8
-## atomic_claim_ids
-CLM-HU102-F118-Q01-01
-CLM-HU102-F118-Q03-01
-CLM-HU102-F118-Q04-01
-CLM-HU102-F118-Q06-01
-CLM-HU102-F118-Q07-01
-CLM-HU102-F118-Q08-01
-CLM-HU102-F118-Q10-01
-CLM-HU102-F118-Q12-01
-CLM-HU102-F185-B1-Q18-01
-## exam_signal
-src_932f5302a132003041e5 | tier-3 instructor-attributed Lecture 13 bank | Family118 Part1 Q01/Q03/Q04/Q06/Q07/Q08/Q10/Q12 | printed right-margin study keys, not an official institutional key
-## original_wording
-[Family118 Q01] Thrombosis is caused by one of the following: [printed answer B]
-[Family118 Q03] One of the following isn’t a part of Virchow’s triad: [printed answer D]
-[Family118 Q04] Which one of the following events usually occurs first during thrombosis: [printed answer D]
-[Family118 Q06] Thrombosis is caused by: [printed answer D]
-[Family118 Q07] Three major factors that predispose to thrombosis are: [printed answer C]
-[Family118 Q08] Which of the following isn’t associated with thrombosis? [printed answer D]
-[Family118 Q10] The factors predisposing to thrombosis include: [printed answer C]
-[Family118 Q12] Which of the followings has no relation to thrombus formation? [printed answer E]
-[Family185 B1-Q18] The major factors predisposing to thrombogenesis include all of the following except [supplied answer C]
-## evidence_gaps
-Family118 supplies instructor-bank prompt/key occurrences only. Independent medical verification and Helwan faculty review remain required before publication.
+## field_notes
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
+
 ---
-
 # Item
 ## label
 Which of the following being is the most frequent site of thrombus? — source-selected Veins of lower extremities
@@ -2232,133 +2113,28 @@ exclusionReason: Not excluded; held at needs_evidence.
 ---
 
 # Item
+
 ## label
 Coagulative necrosis keeps the cell outline because denaturation outruns autolysis
+
 ## id
 CON-FND-5285A9707E61CA
+
 ## canonical_key
-necrosis.coagulative.ischaemic-protein-denaturation
-## aliases
-Coagulative necrosis
-Ischaemic necrosis
-Ghost outlines
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Coagulative necrosis follows ischaemic injury in most solid organs. Protein denaturation predominates over enzymatic digestion, so basic cellular outlines are preserved even though intracellular details are lost. Cerebral infarction is the important exception because ischaemic injury in brain undergoes liquefactive rather than coagulative necrosis.
-## explicit_objective
-Recognize the preserved-outline morphology of coagulative necrosis and exclude brain infarction from its usual organ pattern.
-## pitfalls
-Assuming every infarct is coagulative. Cerebral infarction is liquefactive despite being ischaemic.
-## concept_type
-comparison
-## status
-Draft
-## subject
-fnd
-## primary_node_id
-SYS-FND-T03-S01-M02
-## secondary_node_ids
-DIS-PAT-T01
-DIS-PAT-T08
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Cell injury > Coagulative necrosis
-## article_ids
-ART-HU-BMS102-PAT-F10P2-NECROSIS-MORPHOLOGY
-ART-HU-BMS102-PAT-F185-CIRCULATORY-PRINCIPLES
-## related_article_ids
-ART-HU-BMS102-PAT-F10P2-GRANULOMATOUS-PYEMIC-INFECTION
-ART-HU-BMS102-PAT-F10P2-PRIMARY-TB-SPREAD-SITES
-ART-HU-BMS102-PAT-F185-CIRCULATORY-CASES
-## related_concept_ids
-
-## resource_ids
-src_a2b7d25d987469febab8
-src_7c79d90e00f17c534be6
-src_78d43325a1bdcfbceab8
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.82
-## academic_relevance
-0.98
-## weight_confidence
-0.64
-## support_mode
-direct_statement
-## confidence
-0.92
-## exam_signal
-src_a2b7d25d987469febab8 | tier-3 local keyed study bank | undated | PDF p4 | Family-10 M21
-## atomic_claim_ids
-CLM-HU102-F10P2-M21-01
-CLM-HU102-F185-B1-Q20-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p38] The Helwan lecture states that protein coagulation predominates over enzymatic digestion, the basic cell outline is preserved, details are lost, and myocardial infarction is an example.
-[Assessment p4 M21] Coagulative necrosis characterized by except Answer: Occur in brain infarction.
-[Family185 B1-Q20] An infarct is most frequently characterized by what type of necrosis? [supplied answer B]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 10 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID, canonical key and meaning.
-family185Reuse: Complete prior row preserved; Family185 reciprocity appended.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Embolism
@@ -3238,94 +3014,28 @@ family185Reuse: Complete prior row preserved; Family185 reciprocity appended.
 ---
 
 # Item
+
 ## label
 An atrial septal defect allows a venous clot to reach the systemic circulation
+
 ## id
 CON-CVS-B5692258332FC3
-## canonical_key
-paradoxical-embolism
-## aliases
-Paradoxical embolism | Cryptogenic stroke and shunt
-## arabic_label
-عيب الحاجز الأذيني يسمح لخثرة وريدية ببلوغ الدوران الجهازي
-## arabic_aliases
-الانصمام المتناقض
-## definition
-An interatrial communication provides a route by which thrombus from the systemic veins bypasses the pulmonary filter and enters the arterial circulation. Transient right-to-left flow — during straining or coughing — is enough, which is why paradoxical embolism can occur despite a predominantly left-to-right shunt.
-## explicit_objective
-Explain paradoxical embolism as bypass of the pulmonary filter through a transiently right-to-left communication.
-## pitfalls
-Excluding the mechanism because the shunt is left-to-right overall. Direction reverses momentarily whenever right atrial pressure exceeds left, which happens routinely.
-## concept_type
-clinical_consequence
-## status
-under review
-## subject
-cvs
-## learner_years
-3 | 4
-## universities
-kau
-## exam_weight_by_year
-kau_y3=0.85 | kau_y4=0.9
-## weight_confidence
-0.5
-## support_mode
-direct_statement
-## last_reviewed
-2026-08-13
-## review_due
-2029-08-13
-## owner
-Dr Omar
-## reviewer
-Dr Omar
-## final_publisher
-Dr Omar
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## primary_node_id
-SYS-CVS-T08-S01-M01
-## secondary_node_ids
-SYS-NEU
-## article_ids
-+ART-HU-BMS102-PAT-VASCULAR-THROMBOEMBOLISM
-ART-HU-BMS102-PAT-F185-CIRCULATORY-PRINCIPLES
-## blueprint_weight
-0.88
-## clinical_relevance
-0.9
-## academic_relevance
-0.85
-## confidence
-0.7
-## related_article_ids
-ART-CVS-TETRALOGY-OF-FALLOT
-ART-HU-BMS102-PAT-F185-CIRCULATORY-CASES
-## field_notes
-resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
-atomicClaimIds: Deferred to the evidence pass.
-moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
-microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
-nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
-approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
-approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
-sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
-family185Reuse: Complete prior row preserved; Family185 reciprocity appended.
-## atomic_claim_ids
-+CLM-HU102-F6P2-UC11-01
-CLM-HU102-F185-B1-Q28-01
-## resource_ids
-+src_ece98ba3324ee657c538
-src_11e4f2b9f8bdbdb51806
-src_78d43325a1bdcfbceab8
-## original_wording
-+[Solved pp7, 9 UC11] Patients with deep vein thrombosis (DVT) are at risk of developing a paradoxical embolism if they have a patent foramen ovale. (True/False) Answer: True.
-[Family185 B1-Q28] Each of the following pairs is correctly associated EXCEPT [supplied answer B]
----
 
+## canonical_key
+
+## universities
++hu
+
+## learner_years
++1
+
+## modules
++HU-BMS-102
+
+## field_notes
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
+
+---
 # Item
 ## label
 Which of the following statements accurately describes wet gangrene? — source-selected Is usually the cause of gangrene in people with diabetes

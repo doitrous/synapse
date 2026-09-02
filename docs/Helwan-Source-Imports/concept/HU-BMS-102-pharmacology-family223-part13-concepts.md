@@ -1,200 +1,26 @@
 # Item
+
 ## label
 The blood-brain barrier, the placenta and breast milk each let only some drugs through, and each has a clinical consequence
+
 ## id
 CON-FND-3CECD012838275
+
 ## canonical_key
-teaching.pharma.distribution.barriers
-## definition
-The blood-brain barrier admits lipid-soluble, non-ionised, unbound drug and excludes the rest, which is why some antibiotics never reach the meninges and why a centrally acting drug must be lipid-soluble. The placenta is a far weaker barrier and most drugs cross it, so a drug given to a pregnant woman is given to the fetus. Weak bases are trapped in the relatively acidic breast milk and reach the infant.
-## explicit_objective
-Predict whether a named drug will cross the blood-brain barrier or the placenta, and state the clinical consequence of it doing so.
-## pitfalls
-Calling the placenta a barrier and then reasoning as though it protects the fetus. It delays some drugs; it excludes very few.
-## concept_type
-mechanism
-## status
-under review
-## support_mode
-direct_statement
-## subject
-pharm
-## primary_node_id
-SYS-FND-T04-S01-M02
-## secondary_node_ids
-DIS-PHA-T01 | DIS-PHA-T08 | SYS-FND-T04-S03-M03 | DIS-PHA
-## topic
-General pharmacology
-## subtopic
-Pharmacokinetics
-## microtopic
-Distribution
-## nanotopic
+
+## universities
++hu
+
+## learner_years
++1
 
 ## modules
-108 INT
-## module_subject
-108 INT > Pharmacology > Pharmacokinetics > Distribution > Factors affecting distribution of drugs
-## universities
-kau
-## learner_years
-1
-## aliases
-Blood-brain barrier and drugs
-Placental transfer of drugs
-Drugs in breast milk
-Drug passage across biological barriers
-## arabic_label
-عبور الأدوية للحاجز الدموي الدماغي والمشيمة ولبن الأم
-## arabic_aliases
-الحاجز الدموي الدماغي
-انتقال الأدوية عبر المشيمة
-## article_ids
-ART-108-PHA-PHARMACOKINETICS-ADME
-ART-HU-BMS102-PHA-F223P2-MEMBRANE-TRANSFER
-ART-HU-BMS102-PHA-F223P3-PH-IONISATION
-ART-HU-BMS102-PHA-F223P5-ABSORPTION-BIOAVAILABILITY
-ART-HU-BMS102-PHA-F223P12-CNS-PLACENTA-BINDING-ABSORPTION
-ART-HU-BMS102-PHA-F223P13-ABSORPTION-DISTRIBUTION-RESPONSE
-## related_article_ids
-ART-108-PHA-MEMBRANE-PASSAGE
-ART-108-PHA-ADVERSE-DRUG-REACTIONS
-ART-HU-BMS102-PHA-F223P12-CNS-PLACENTA-BINDING-ABSORPTION
-ART-HU-BMS102-PHA-F223P13-ABSORPTION-DISTRIBUTION-RESPONSE
-## related_concept_ids
-CON-FND-53FF18E42BC94B | CON-FND-97E55D75DE9ED1 | CON-FND-2A5DE8657047E4
-## exam_signal
-src_b4f736e3bd809dbee187
-orientation_ilo_mcq_only
-2026
-p1
-108 INT
-src_ec50845c4498e17b9b6b
-department_bank_chapter_pharmacokinetics
-2025
-p6
-108 INT
-src_992325268b40230b61a5
-Family223 Part2 Q18
-PDF source p4
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part3 Q36
-PDF source p8
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part5 Q58
-PDF source p12
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part12 Q215
-PDF source p45
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part12 Q220
-PDF source p46
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part12 Q221
-PDF source p46
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5 | Family223 Part13 Q225 | PDF source p47 | tier-6 keyed review bank; not official key
-## blueprint_weight
-0.5
-## exam_weight_by_year
-KAU_Y1=0.5
-## clinical_relevance
-0.85
-## academic_relevance
-0.8
-## weight_confidence
-0.45
-## confidence
-0.85
-## original_wording
-[Orientation ILO 11, MCQ tick] To understand the clinical implications of drug passage across the blood brain barrier and the placental barrier and through breast milk
-[Family223 Part2 Q18] In order for drugs to cross the blood-brain barrier, they must be: [printed answer D]
-[Family223 Part3 Q36] Which of the following drugs, tend to be ionized in breast milk and thus,
-  become trapped inside it? [printed answer A]
-[Family223 Part5 Q58] Diazepam must cross the blood-brain barrier to be effective. Which of the
-  following characteristics would help a drug molecule cross this barrier? [printed answer C]
-[Family223 Part12 Q215] Entry of a drug in the central nervous system is enhanced if the drug is [printed answer B]
-[Family223 Part12 Q220] The passage of drugs into the fetus from placenta [printed answer B]
-[Family223 Part12 Q221] Which type of drugs penetrate CNS better [printed answer A]
-[Family223 Part13 Q225] Once the drug enters the blood, the rate at which it subsequently
-      penetrates the tissues and other body fluids depends on [printed answer D]
-## resource_ids
-src_992325268b40230b61a5
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-FND-BARRIER-PASSAGE-01
-CLM-HU102-F223-P2-Q18-01
-CLM-HU102-F223-P3-Q36-01
-CLM-HU102-F223-P5-Q58-01
-CLM-HU102-F223-P12-Q215-01
-CLM-HU102-F223-P12-Q220-01
-CLM-HU102-F223-P12-Q221-01
-CLM-HU102-F223-P13-Q225-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Evidence must be attached before publication; no claim or citation exists for this module yet.
-## owner
-Claude
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-microtopicId: Filled — SYS-FND-T04-S01-M02 is Distribution and the overlay microtopic matches it.
-nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-resourceOccurrenceIds: Hand-authored from the ILO sheet; no corpus extraction record exists.
-sourceCandidateIds: Searched the corpus concept index for "blood brain barrier" and "placental transfer" — no candidate record exists for this module.
-approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
-approvedVideoResourceIds: This department distributes no video for 108 INT.
-lastReviewed: New record; no reviewer has seen it.
-reviewDue: Set when the first review completes.
-exclusionReason: Not excluded — awaiting evidence.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: Searched live state for "blood brain", "blood-brain" and "placenta" across all 1,718 concepts unfiltered. The 37 placenta hits are embryology and obstetric physiology records under DIS-EMB and DIS-PHY-T06, all about the organ rather than about drug transfer; none is a near-miss. No merge was proposed or rejected.
-conflicts: No source disagreement found.
-uncertainty: The book states that most drugs cross the placenta but does not quantify it, and no local source gives an Egyptian figure; the claim is therefore taught qualitatively.
-relationships: The secondary placement SYS-FND-T04-S03-M03 (Special populations) is genuine — this is the record that pregnancy and lactation prescribing rests on. is_a specialisation of CON-FND-53FF18E42BC94B. Typed edges are owed in a relations batch this task did not author.
-family223Part2Reuse: Exact governed ID, canonical key and teaching semantics are preserved; reciprocal Family223 Part2 article, source, claim and wording links are appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live; resource_ids therefore names only the source supplied in this atomic batch.
-family223Part3Reuse: Exact governed ID, canonical key and teaching semantics are preserved; reciprocal Family223 Part3 article, source, claim and wording links are appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live; resource_ids therefore names only the source supplied in this atomic batch.
-family223Part5Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part5 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part12Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part12 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part13Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part13 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Dissolution rate, lipid solubility, and particle size can all affect drug absorption

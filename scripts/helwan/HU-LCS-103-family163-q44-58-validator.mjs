@@ -87,8 +87,12 @@ assert.match(loaded.questions[8].question, /radiograph of the lower limb.*Heberd
 assert.match(loaded.questions[9].question, /no birthmark.*followed by regression/s)
 assert.equal(loaded.questions[10].answer_b, 'Cortisol of 75 microgm/dL')
 
+// 2026-09-02 Helwan ID-collision audit fix: 'gout' is now a freshly minted
+// Helwan id, not the hand-typed live Kasr id it used to be. See
+// docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md and
+// scripts/helwan/HU-LCS-103-family163-q15-28-author.mjs.
 const conceptIds = [
-  'CON-FND-2B59FDDFCEDFA6', 'CON-REN-B9E0531973510E', 'CON-MSK-DDF3A03342A247',
+  'CON-FND-2B59FDDFCEDFA6', 'CON-MSK-B37643A373463E', 'CON-MSK-DDF3A03342A247',
   'CON-MSK-9B52018C4649BD', 'CON-MSK-CFE4B805DB79CC', 'CON-MSK-5AD256E28E4183',
   'CON-MSK-CCA1BD5332E366', 'CON-MSK-5968997CD38FBA', 'CON-MSK-E2CD193CEF4060',
 ]

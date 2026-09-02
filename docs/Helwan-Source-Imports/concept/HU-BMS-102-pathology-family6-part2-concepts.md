@@ -512,88 +512,28 @@ exclusionReason: Not excluded; held at needs_evidence.
 ---
 
 # Item
+
 ## label
 An atrial septal defect allows a venous clot to reach the systemic circulation
+
 ## id
 CON-CVS-B5692258332FC3
-## canonical_key
-paradoxical-embolism
-## aliases
-Paradoxical embolism | Cryptogenic stroke and shunt
-## arabic_label
-عيب الحاجز الأذيني يسمح لخثرة وريدية ببلوغ الدوران الجهازي
-## arabic_aliases
-الانصمام المتناقض
-## definition
-An interatrial communication provides a route by which thrombus from the systemic veins bypasses the pulmonary filter and enters the arterial circulation. Transient right-to-left flow — during straining or coughing — is enough, which is why paradoxical embolism can occur despite a predominantly left-to-right shunt.
-## explicit_objective
-Explain paradoxical embolism as bypass of the pulmonary filter through a transiently right-to-left communication.
-## pitfalls
-Excluding the mechanism because the shunt is left-to-right overall. Direction reverses momentarily whenever right atrial pressure exceeds left, which happens routinely.
-## concept_type
-clinical_consequence
-## status
-under review
-## subject
-cvs
-## learner_years
-3 | 4
-## universities
-kau
-## exam_weight_by_year
-kau_y3=0.85 | kau_y4=0.9
-## weight_confidence
-0.5
-## support_mode
-direct_statement
-## last_reviewed
-2026-08-13
-## review_due
-2029-08-13
-## owner
-Dr Omar
-## reviewer
-Dr Omar
-## final_publisher
-Dr Omar
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## primary_node_id
-SYS-CVS-T08-S01-M01
-## secondary_node_ids
-SYS-NEU
-## article_ids
-+ART-HU-BMS102-PAT-VASCULAR-THROMBOEMBOLISM
-## blueprint_weight
-0.88
-## clinical_relevance
-0.9
-## academic_relevance
-0.85
-## confidence
-0.7
-## related_article_ids
-ART-CVS-TETRALOGY-OF-FALLOT
-## field_notes
-resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
-atomicClaimIds: Deferred to the evidence pass.
-moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
-microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
-nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
-approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
-approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
-sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
-## atomic_claim_ids
-+CLM-HU102-F6P2-UC11-01
-## resource_ids
-+src_ece98ba3324ee657c538
-src_11e4f2b9f8bdbdb51806
-## original_wording
-+[Solved pp7, 9 UC11] Patients with deep vein thrombosis (DVT) are at risk of developing a paradoxical embolism if they have a patent foramen ovale. (True/False) Answer: True.
----
 
+## canonical_key
+
+## universities
++hu
+
+## learner_years
++1
+
+## modules
++HU-BMS-102
+
+## field_notes
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
+
+---
 # Item
 ## label
 Right heart failure causes systemic congestion whereas left heart failure causes pulmonary congestion
@@ -722,141 +662,28 @@ exclusionReason: Not excluded; held at needs_evidence.
 ---
 
 # Item
+
 ## label
 The mast cell stores heparin and histamine and releases them when allergen binds its IgE — which is what an anaphylactic reaction is
+
 ## id
 CON-FND-7D406E91EA3BF2
+
 ## canonical_key
-mast-cell-granule-contents-and-the-anaphylactic-reaction
-## definition
-The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and serotonin; it also releases eosinophil chemotactic factor and leukotrienes. Its surface carries receptors for IgE, so that when an allergen binds antibody already fixed to the cell, the granules are discharged at once. That discharge is the immediate allergic reaction: locally, itching, swelling and wheal; systemically, the vasodilatation and increased permeability that produce oedema, bronchospasm and a sudden fall in blood pressure — anaphylactic shock, as after a penicillin injection or a peanut in a sensitised child. The mast cell does not make histaminase; that is the eosinophil's enzyme, and it is what ends the reaction the mast cell began.
-## explicit_objective
-List what the mast cell releases, explain how IgE triggers the release, and connect each mediator to a sign of the allergic reaction.
-## pitfalls
-Giving the mast cell histaminase. It releases histamine and the eosinophil destroys it — the two cells are the two ends of one reaction, and swapping the enzyme for the amine reverses which cell is causing the trouble.
-## concept_type
-clinical_correlation
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
 ## universities
-kau
++hu
+
 ## learner_years
-1
-## exam_signal
-src_4e481d399b2ffd65b97a | question_book | | p11 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p9 | 101 ISK
-src_c30d9391aa0861f41e44 | question_book | | p5 | 101 ISK
-src_c30d9391aa0861f41e44 | question_book | | p7 | 101 ISK
-src_7449943b97c0e18d37b0 | question_book | | p4 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.71
-## exam_weight_by_year
-KAU_Y1=0.71
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Connective Tissue
-## aliases
-Anaphylaxis | Histamine release | IgE receptors | Allergic reaction
-## article_ids
-+ART-HU-BMS102-PAT-SHOCK-SIDED-CONGESTION
-## support_mode
-direct_statement
-## original_wording
-+[Solved pp7, 9 UC13] Anaphylactic shock is caused by IgE-mediated hypersensitivity leading to systemic vasodilation and increased vascular permeability. (True/False) Answer: True.
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
++1
 
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-GRANULAR-LEUKOCYTES
-## resource_ids
-+src_ece98ba3324ee657c538
-src_50d9ef5f2db5dc46e3e3
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-+CLM-HU102-F6P2-UC13-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
+## modules
++HU-BMS-102
 
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## id
 CON-FND-D35F7F5AFB4F18

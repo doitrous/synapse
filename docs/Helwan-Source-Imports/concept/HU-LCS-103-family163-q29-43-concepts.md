@@ -739,198 +739,26 @@ arabicAliases: Blank pending review.
 # Item
 
 ## label
-Intervertebral-disc herniation can compress neural structures and is source-keyed to MRI-demonstrated protrusion in Q15
+The intervertebral disc has an outer annulus fibrosus of white fibrocartilage around an inner jelly-like nucleus pulposus, and herniation of the nucleus compresses nerve roots
 
 ## id
 CON-MSK-9C7E37FE296254
 
 ## canonical_key
-cartilage.intervertebral-disc.annulus-nucleus-herniation
-
-## aliases
-Disc protrusion on MRI
-Nucleus pulposus herniation
-Radicular pain from disc disease
-
-## arabic_label
-
-
-## arabic_aliases
-
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-msk
-
-## primary_node_id
-SYS-MSK
-
-## secondary_node_ids
-DIS-PAT-T03
-
-## topic
-Musculoskeletal system
-
-## subtopic
-Bone and joint disorders
-
-## nanotopic
-
-
-## modules
-HU-LCS-103
-
-## module_subject
-HU-LCS-103 > Integrated Musculoskeletal Assessment
 
 ## universities
-hu
++hu
 
 ## learner_years
-1
++1
 
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## blueprint_weight
-0.84
-
-## exam_weight_by_year
-HU_Y1=0.84
-
-## clinical_relevance
-0.82
-
-## academic_relevance
-0.98
-
-## weight_confidence
-0.58
-
-## confidence
-0.84
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-Exact-ID update selected; no rival concept ID is introduced.
-
-## evidence_gaps
-Independent medical verification and named Helwan faculty review are required before publication.
-
-## owner
-Helwan Year-1 authoring lane
-
-## reviewer
-Medical team, Helwan faculty
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## definition
-The intervertebral disc contains an annulus fibrosus around a nucleus pulposus, and herniation can compress neural structures. Family-163 Q15 repeats the radicular-pain vignette and keys MRI showing disc protrusion, while its lead-in calls that investigation a confirmatory diagnosis.
-
-Family-163 Q35 prints Tear in the surrounding annulus fibrosus as the underlying etiology after the MRI diagnosis of Lumbar Prolapsed Nucleus Pulposus.
-
-## explicit_objective
-Recognise the exact MRI disc-protrusion response without rewriting the source lead-in.
-
-Identify the exact annulus-fibrosus tear response while preserving source capitalisation.
-
-## pitfalls
-Do not call an investigation a diagnosis outside this exact source occurrence. Preserve the distinction from Q12, which asks for the diagnosis.
-
-Do not rewrite the diagnosis or substitute nerve compression for the printed underlying etiology.
-
-## concept_type
-diagnostic investigation
-
-## microtopic
-Disc protrusion confirmation
-
-## article_ids
-ART-103-HIS-CARTILAGE-TYPES
-ART-HU-LCS103-MSK-F163-DISC-COMPRESSION
-
-## related_article_ids
-ART-103-HIS-CARTILAGE-TYPES
-ART-HU-LCS103-MSK-F163-DISC-COMPRESSION
-
-## resource_ids
-src_79b5752c4d6f23e6dafc
-src_252ae116a3911d2020a2
-
-## exam_signal
-Family-163 Q15 prints B in both answer layers.
-
-Family-163 Q35 prints E in both answer layers.
-
-## atomic_claim_ids
-CLM-MSK-IV-DISC-01
-CLM-MSK-IV-DISC-02
-CLM-HULCS103-F163-DISC-01
-CLM-HULCS103-F163-DISC-Q15-01
-CLM-HULCS103-F163-DISC-Q35-01
-
-## original_wording
-Family-163 Q15 prints B in both answer layers.
-
-Family-163 Q35 prints E in both answer layers.
-
-## conflicts
-[clear]
-
-## uncertainty
-The lead-in asks for a confirmatory diagnosis but the keyed option is an MRI finding; retained without repair.
-The exact capitalisation is source wording and not an editorial recommendation.
+## modules
++HU-LCS-103
 
 ## field_notes
-microtopicId: The reviewed taxonomy stops at the assigned canonical node; source-specific scope remains prose.
-nanotopicId: No reviewed nanotopic ID is assigned.
-approvedFileResourceIds: No source is rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from governed Family-163 and local Helwan sources.
-sourceCandidateIds: Reconciled before authoring.
-mergeIds: No concept was merged.
-lastReviewed: No named faculty review.
-reviewDue: Set after first named review.
-exclusionReason: Not excluded.
-arabicLabel: Blank pending review.
-arabicAliases: Blank pending review.
-
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
 ---
-
 # Item
 
 ## label
@@ -1127,201 +955,26 @@ arabicAliases: Blank pending reviewed Arabic terminology.
 # Item
 
 ## label
-Bone matrix composition and the linked osteoporosis density-loss and recurrent-fracture pattern
+Bone matrix is 35% organic type I collagen and ground substance and 65% inorganic calcium salts that harden it
 
 ## id
 CON-MSK-89674D65B2316B
 
 ## canonical_key
-bone.matrix.organic-inorganic-composition
-
-## aliases
-Osteoporosis density and fragility
-Recurrent fractures
-Bone matrix and strength
-
-## arabic_label
-
-
-## arabic_aliases
-
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-msk
-
-## primary_node_id
-DIS-HIS-T02
-
-## secondary_node_ids
-DIS-HIS-T01
-DIS-HIS-T04
-
-## topic
-Basic tissues
-
-## subtopic
-Bone
-
-## nanotopic
-
-
-## modules
-HU-LCS-103
-
-## module_subject
-HU-LCS-103 > Integrated Musculoskeletal Assessment
 
 ## universities
-hu
++hu
 
 ## learner_years
-1
++1
 
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## blueprint_weight
-0.84
-
-## exam_weight_by_year
-HU_Y1=0.84
-
-## clinical_relevance
-0.82
-
-## academic_relevance
-0.98
-
-## weight_confidence
-0.58
-
-## confidence
-0.84
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-Exact-ID update selected; no rival concept ID is introduced.
-
-## evidence_gaps
-Independent medical verification and named Helwan faculty review are required before publication.
-
-## owner
-Helwan Year-1 authoring lane
-
-## reviewer
-Medical team, Helwan faculty
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## definition
-Bone matrix contains organic type-I-collagen and inorganic calcium-salt components. The governed concept links osteoporosis with density loss and fracture risk, and Family-163 Q23 adds a recurrent-fracture occurrence that prints Osteoporosis.
-
-Family-163 Q37 adds a low-trauma femoral-head fracture with a compressed T11 fracture in an inactive older woman and prints Osteoporosis.
-
-## explicit_objective
-Recognise osteoporosis as the exact source-keyed diagnosis in Q23 while retaining the bone-matrix scope.
-
-Recognise the exact paired fragility-fracture occurrence.
-
-## pitfalls
-Do not erase the original bone-matrix teaching scope. The pronoun mismatch in Q23 must remain explicit.
-
-Preserve femoral head and compressed fracture wording without silent correction.
-
-## concept_type
-diagnostic pattern
-
-## microtopic
-Osteoporosis and recurrent fracture
-
-## article_ids
-ART-103-HIS-BONE-MATRIX-CLASSIFICATION
-ART-HU-LCS103-MSK-F163-FRAGILITY-HEALING
-ART-HU-LCS103-MSK-F163-SYSTEMIC-BONE-DISEASES
-
-## related_article_ids
-ART-103-HIS-BONE-MATRIX-CLASSIFICATION
-ART-HU-LCS103-MSK-F163-FRAGILITY-HEALING
-ART-HU-LCS103-MSK-F163-SYSTEMIC-BONE-DISEASES
-
-## resource_ids
-src_79b5752c4d6f23e6dafc
-src_718e08dfb6d19109dabf
-
-## exam_signal
-Family-163 Q23 prints D in both answer layers.
-
-Family-163 Q37 prints C in both answer layers.
-
-## atomic_claim_ids
-CLM-MSK-BONE-MATRIX-COMPOSITION-01
-CLM-MSK-BONE-MATRIX-COMPOSITION-02
-CLM-HULCS103-F163-OSTEOPOROSIS-01
-CLM-HULCS103-F163-OSTEOPOROSIS-Q17-23-01
-CLM-HULCS103-F163-OSTEOPOROSIS-Q37-01
-
-## original_wording
-Family-163 Q23 prints D in both answer layers.
-
-Family-163 Q37 prints C in both answer layers.
-
-## conflicts
-[clear]
-
-## uncertainty
-The female patient is followed by “What is his diagnosis?”; preserved without repair.
-The source’s exact fracture wording is retained pending review.
+## modules
++HU-LCS-103
 
 ## field_notes
-microtopicId: The reviewed taxonomy stops at the assigned canonical node; source-specific scope remains prose.
-nanotopicId: No reviewed nanotopic ID is assigned.
-approvedFileResourceIds: No source is rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from governed Family-163 and local Helwan sources.
-sourceCandidateIds: Reconciled before authoring.
-mergeIds: No concept was merged.
-lastReviewed: No named faculty review.
-reviewDue: Set after first named review.
-exclusionReason: Not excluded.
-arabicLabel: Blank pending review.
-arabicAliases: Blank pending review.
-
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
 ---
-
 # Item
 
 ## label
@@ -1521,10 +1174,10 @@ arabicAliases: Blank pending independently verified Arabic terminology review.
 Gout produces needle-shaped negatively birefringent urate crystals and hyperuricaemia in the local assessment pattern
 
 ## id
-CON-REN-B9E0531973510E
+CON-MSK-B37643A373463E
 
 ## canonical_key
-teaching.bio2.secondary-metabolic-gout
+teaching.msk.gout.secondary-crystal-lab-pattern
 
 ## aliases
 Secondary metabolic gout
@@ -1677,7 +1330,7 @@ Family-163 Q18 prints D and Q22 prints E in both answer layers.
 Family-163 Q39 prints C in both answer layers.
 
 ## atomic_claim_ids
-CLM-REN-B9E0531973510E
+CLM-MSK-B37643A373463E
 CLM-MSK-HULCS103-F96-GOUT-01
 CLM-HULCS103-F163-GOUT-Q18-22-01
 CLM-HULCS103-F163-GOUT-Q39-01

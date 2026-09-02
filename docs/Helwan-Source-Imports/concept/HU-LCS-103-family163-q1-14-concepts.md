@@ -1,187 +1,26 @@
 # Item
 
 ## label
-Bone matrix composition and the linked osteoporosis density-loss and fragility pattern
+Bone matrix is 35% organic type I collagen and ground substance and 65% inorganic calcium salts that harden it
 
 ## id
 CON-MSK-89674D65B2316B
 
 ## canonical_key
-bone.matrix.organic-inorganic-composition
-
-## aliases
-Osteoporosis density and fragility diagnosis
-Low bone mass and fracture risk
-Bone resorption exceeding formation
-
-## arabic_label
-
-
-## arabic_aliases
-
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-msk
-
-## primary_node_id
-DIS-HIS-T02
-
-## secondary_node_ids
-DIS-HIS-T01
-DIS-HIS-T04
-
-## topic
-Basic tissues
-
-## subtopic
-Bone
-
-## nanotopic
-
-
-## modules
-HU-LCS-103
-
-## module_subject
-HU-LCS-103 > Integrated Musculoskeletal Assessment
 
 ## universities
-hu
++hu
 
 ## learner_years
-1
++1
 
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## blueprint_weight
-0.84
-
-## exam_weight_by_year
-HU_Y1=0.84
-
-## clinical_relevance
-0.82
-
-## academic_relevance
-0.98
-
-## weight_confidence
-0.58
-
-## confidence
-0.84
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-Exact-ID update selected; no rival concept ID is introduced.
-
-## evidence_gaps
-Independent medical verification and named Helwan faculty review are required before publication.
-
-## owner
-Helwan Year-1 authoring lane
-
-## reviewer
-Medical team, Helwan faculty
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## definition
-Bone matrix contains an organic type-I-collagen and ground-substance component and an inorganic calcium-salt component that provides hardness. The governed prior concept also states that osteoporosis involves progressive loss of bone density with increased fracture risk when bone resorption exceeds bone formation. Family-163 Q1 adds an exact densitometry-based assessment occurrence while preserving its threshold wording without converting it into an independently verified diagnostic rule.
-
-## explicit_objective
-Retain the bone-matrix composition scope and associate its osteoporosis density-loss statement with the source-keyed Family-163 response.
-
-## pitfalls
-Do not erase the existing bone-matrix composition scope. Do not silently replace the source phrase “more than 2 standard deviations” with a different threshold.
-
-## concept_type
-diagnostic pattern
-
-## microtopic
-Osteoporosis density and fragility
-
-## article_ids
-ART-103-HIS-BONE-MATRIX-CLASSIFICATION
-ART-HU-LCS103-MSK-F163-FRAGILITY-HEALING
-
-## related_article_ids
-ART-103-HIS-BONE-MATRIX-CLASSIFICATION
-ART-HU-LCS103-MSK-F163-FRAGILITY-HEALING
-
-## resource_ids
-src_2bf25a6864c9f6ce3283
-src_79b5752c4d6f23e6dafc
-src_718e08dfb6d19109dabf
-
-## exam_signal
-Family-163 Q1 prints B, Osteoporosis; the formal and red key layers agree.
-
-## atomic_claim_ids
-CLM-MSK-BONE-MATRIX-COMPOSITION-01
-CLM-MSK-BONE-MATRIX-COMPOSITION-02
-CLM-HULCS103-F163-OSTEOPOROSIS-01
-
-## original_wording
-Family-163 Q1 prints B, Osteoporosis; the formal and red key layers agree.
-
-## conflicts
-[clear]
-
-## uncertainty
-The source states more than 2 standard deviations below the adult mean, rather than the conventional 2.5-SD osteoporosis threshold. It remains Draft without repair.
+## modules
++HU-LCS-103
 
 ## field_notes
-microtopicId: The reviewed taxonomy stops at the assigned canonical node; the source-specific microtopic is retained as prose.
-nanotopicId: No reviewed nanotopic ID is assigned.
-approvedFileResourceIds: No source file is rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from the governed Family-163 source and local teaching support; no extraction occurrence is asserted.
-sourceCandidateIds: Governed reconciliation established same-ID reuse before authoring.
-mergeIds: No concept was merged in this slice.
-lastReviewed: Draft record; no named faculty review has occurred.
-reviewDue: Set after the first named review.
-exclusionReason: Not excluded; held at needs_evidence.
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: Blank pending independently verified Arabic terminology review.
-
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
 ---
-
 # Item
 
 ## label
@@ -731,186 +570,26 @@ arabicAliases: Blank pending independently verified Arabic terminology review.
 # Item
 
 ## label
-Fibrosarcoma shows uniform spindle cells arranged in a herringbone pattern
+Fibrosarcoma spindle cells form fascicles with a herringbone pattern
 
 ## id
 CON-DER-78AF0815FE7330
 
 ## canonical_key
-teaching.pathopractical.fibrosarcoma.herringbone
-
-## aliases
-Fibrosarcoma herringbone pattern
-Uniform malignant spindle cells
-Fibroblastic sarcoma morphology
-
-## arabic_label
-
-
-## arabic_aliases
-
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-derm
-
-## primary_node_id
-DIS-PAT-T07
-
-## secondary_node_ids
-SYS-DER
-DIS-PAT
-
-## topic
-Soft tissue pathology
-
-## subtopic
-Fibroblastic tumours
-
-## nanotopic
-
-
-## modules
-HU-LCS-103
-
-## module_subject
-HU-LCS-103 > Integrated Musculoskeletal Assessment
 
 ## universities
-hu
++hu
 
 ## learner_years
-1
++1
 
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## blueprint_weight
-0.84
-
-## exam_weight_by_year
-HU_Y1=0.84
-
-## clinical_relevance
-0.82
-
-## academic_relevance
-0.98
-
-## weight_confidence
-0.58
-
-## confidence
-0.84
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-Exact-ID update selected; no rival concept ID is introduced.
-
-## evidence_gaps
-Independent medical verification and named Helwan faculty review are required before publication.
-
-## owner
-Helwan Year-1 authoring lane
-
-## reviewer
-Medical team, Helwan faculty
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## definition
-Family-163 Q7 describes a destructive thigh lesion composed of uniform spindle cells in a herringbone pattern and prints fibrosarcoma as the answer. This exact morphology already exists in the governed concept and is extended only with the new article and assessment occurrence.
-
-## explicit_objective
-Recognise fibrosarcoma from the exact herringbone spindle-cell pattern.
-
-## pitfalls
-Do not substitute fibromatosis, fibrous dysplasia, liposarcoma or osteosarcoma for the source-keyed herringbone spindle-cell lesion.
-
-## concept_type
-histopathology pattern
-
-## microtopic
-Fibrosarcoma herringbone pattern
-
-## article_ids
-ART-DER-TOP-070DD897F2
-ART-HU-LCS103-PAT-F163-TUMOUR-PATTERNS
-
-## related_article_ids
-ART-DER-TOP-070DD897F2
-ART-HU-LCS103-PAT-F163-TUMOUR-PATTERNS
-
-## resource_ids
-src_8751ab3eeecf2851237c
-src_79b5752c4d6f23e6dafc
-src_237f83bb42bf143fefdf
-
-## exam_signal
-Family-163 Q7 prints B, Fibrosarcoma; both key layers agree.
-
-## atomic_claim_ids
-CLM-DER-78AF0815FE7330
-CLM-HULCS103-F163-BONE-TUMOURS-01
-
-## original_wording
-Family-163 Q7 prints B, Fibrosarcoma; both key layers agree.
-
-## conflicts
-[clear]
-
-## uncertainty
-[clear]
+## modules
++HU-LCS-103
 
 ## field_notes
-microtopicId: The reviewed taxonomy stops at the assigned canonical node; the source-specific microtopic is retained as prose.
-nanotopicId: No reviewed nanotopic ID is assigned.
-approvedFileResourceIds: No source file is rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from the governed Family-163 source and local teaching support; no extraction occurrence is asserted.
-sourceCandidateIds: Governed reconciliation established same-ID reuse before authoring.
-mergeIds: No concept was merged in this slice.
-lastReviewed: Draft record; no named faculty review has occurred.
-reviewDue: Set after the first named review.
-exclusionReason: Not excluded; held at needs_evidence.
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: Blank pending independently verified Arabic terminology review.
-
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
 ---
-
 # Item
 
 ## label
@@ -1448,187 +1127,26 @@ arabicAliases: Blank pending independently verified Arabic terminology review.
 # Item
 
 ## label
-The intervertebral disc has an annulus fibrosus around the nucleus pulposus, whose herniation can compress nerve roots
+The intervertebral disc has an outer annulus fibrosus of white fibrocartilage around an inner jelly-like nucleus pulposus, and herniation of the nucleus compresses nerve roots
 
 ## id
 CON-MSK-9C7E37FE296254
 
 ## canonical_key
-cartilage.intervertebral-disc.annulus-nucleus-herniation
-
-## aliases
-Intervertebral disc prolapse
-Lumbar prolapsed nucleus pulposus
-Disc herniation and radicular pain
-
-## arabic_label
-
-
-## arabic_aliases
-
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-msk
-
-## primary_node_id
-DIS-HIS-T02
-
-## secondary_node_ids
-DIS-HIS-T01
-DIS-HIS-T04
-
-## topic
-Basic tissues
-
-## subtopic
-Cartilage
-
-## nanotopic
-
-
-## modules
-HU-LCS-103
-
-## module_subject
-HU-LCS-103 > Integrated Musculoskeletal Assessment
 
 ## universities
-hu
++hu
 
 ## learner_years
-1
++1
 
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## blueprint_weight
-0.84
-
-## exam_weight_by_year
-HU_Y1=0.84
-
-## clinical_relevance
-0.82
-
-## academic_relevance
-0.98
-
-## weight_confidence
-0.58
-
-## confidence
-0.84
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-Exact-ID update selected; no rival concept ID is introduced.
-
-## evidence_gaps
-Independent medical verification and named Helwan faculty review are required before publication.
-
-## owner
-Helwan Year-1 authoring lane
-
-## reviewer
-Medical team, Helwan faculty
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## definition
-The intervertebral disc consists of an outer annulus fibrosus of white fibrocartilage around an inner gelatinous nucleus pulposus. Herniation of the nucleus through the annulus can compress nerve roots and cause pain. Family-163 Q12 adds the exact lower-back pain, posterior-leg radiation and straight-leg-raising occurrence with a printed lumbar prolapsed nucleus pulposus key.
-
-## explicit_objective
-Retain the disc structure and collagen scope and recognise the exact source-keyed lumbar disc-prolapse clinical pattern.
-
-## pitfalls
-Do not erase the annulus, nucleus and collagen teaching scope. Do not claim that Q12 supplies confirmatory imaging.
-
-## concept_type
-clinical pattern
-
-## microtopic
-Lumbar disc prolapse
-
-## article_ids
-ART-103-HIS-CARTILAGE-TYPES
-ART-HU-LCS103-MSK-F163-DISC-COMPRESSION
-
-## related_article_ids
-ART-103-HIS-CARTILAGE-TYPES
-ART-HU-LCS103-MSK-F163-DISC-COMPRESSION
-
-## resource_ids
-src_2bf25a6864c9f6ce3283
-src_79b5752c4d6f23e6dafc
-src_252ae116a3911d2020a2
-
-## exam_signal
-Family-163 Q12 prints D, Lumbar prolapsed nucleus pulposus; both key layers agree.
-
-## atomic_claim_ids
-CLM-MSK-IV-DISC-01
-CLM-MSK-IV-DISC-02
-CLM-HULCS103-F163-DISC-01
-
-## original_wording
-Family-163 Q12 prints D, Lumbar prolapsed nucleus pulposus; both key layers agree.
-
-## conflicts
-[clear]
-
-## uncertainty
-No imaging confirmation is printed in Q12; the keyed diagnosis remains source-bound and Draft.
+## modules
++HU-LCS-103
 
 ## field_notes
-microtopicId: The reviewed taxonomy stops at the assigned canonical node; the source-specific microtopic is retained as prose.
-nanotopicId: No reviewed nanotopic ID is assigned.
-approvedFileResourceIds: No source file is rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from the governed Family-163 source and local teaching support; no extraction occurrence is asserted.
-sourceCandidateIds: Governed reconciliation established same-ID reuse before authoring.
-mergeIds: No concept was merged in this slice.
-lastReviewed: Draft record; no named faculty review has occurred.
-reviewDue: Set after the first named review.
-exclusionReason: Not excluded; held at needs_evidence.
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: Blank pending independently verified Arabic terminology review.
-
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
 ---
-
 # Item
 
 ## label

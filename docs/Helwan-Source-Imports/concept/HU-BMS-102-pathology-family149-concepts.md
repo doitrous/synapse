@@ -2162,312 +2162,50 @@ family149Reuse: Complete prior row preserved; Family149 reciprocity appended.
 
 # Item
 
-## id
-CON-FND-022049C93C4CD0
-
 ## label
 ASU hyperplasia increases organ size by increasing cell number
 
+## id
+CON-FND-022049C93C4CD0
+
 ## canonical_key
-pathology.hyperplasia.organ-size-cell-number
-
-## definition
-In the ASU Year 1 General Pathology practical slide, hyperplasia is increased size of an organ due to increased number of cells.
-
-## explicit_objective
-Define hyperplasia using the ASU practical slide's organ-size and cell-number wording.
-
-## concept_type
-definition
-
-## status
-Draft
-## support_mode
-direct_statement
-
-## subject
-fnd
-
-## primary_node_id
-SYS-FND-T03-S01-M04
-
-## article_ids
-+ART-HU-BMS102-PAT-F125-INTRO-ADAPTATION
-ART-HU-BMS102-PAT-F149-ADAPTATION
-## learner_years
-1
 
 ## universities
-hu
-## blueprint_weight
-0.5
++hu
 
-## exam_weight_by_year
-HU_Y1=0.60
-## clinical_relevance
-0.45
-
-## academic_relevance
-0.85
-
-## module_subject
-HU-BMS-102 > Pathology > Family-125 > hyperplasia
-## exam_signal
-
-## weight_confidence
-0.35
-
-## confidence
-0.88
-
-## atomic_claim_ids
-+CLM-HU102-F125-Q07-01
-CLM-HU102-F149-Q19-01
-CLM-HU102-F149-Q20-01
-## resource_ids
-+src_f660b7c9959ce8d1cde0
-src_e446a1e064b3d421e312
-## related_article_ids
-ART-FND-ASU-GPATH-PRACTICAL-OBSERVATION
-ART-HU-BMS102-PAT-F149-METAPLASIA
-ART-HU-BMS102-PAT-F149-CELL-INJURY
-## original_wording
-Hyperplasia:
-[Family125 Q07] Increase number of cellular element is called [printed answer D]
-[Family149 Q19] Hyperplasia means: [supplied answer B]
-[Family149 Q20] Increased number of cellular elements is called: [supplied answer D]
-## owner
-Dr. Omar
-
-## reviewer
-Dr. Omar
-
-## final_publisher
-Dr. Omar
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-
-## topic
-General pathology
-
-## subtopic
-SUB_FND_GENERAL_PATHOLOGY_CELL_INJURY_AND_ADAPTATION
-
-## microtopic
-MIC_FND_GENERAL_PATHOLOGY_CELL_INJURY_AND_ADAPTATION_ADAPTATIONS
-
-## nanotopic
-
-## secondary_node_ids
-SYS-FND-T03-S01
-
-## related_concept_ids
-CON-FND-17749B4D053D04
-CON-FND-4CCD215339376F
+## learner_years
++1
 
 ## modules
-HU-BMS-102
-## aliases
-Hyperplasia cell number
-Hyperplasia organ size
-Cellular adaptation hyperplasia
-
-## arabic_label
-
-## arabic_aliases
-
-## pitfalls
-Defining hyperplasia as larger cells rather than increased cell number.
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## conflicts
-[clear]
-
-## uncertainty
-[clear]
-
-## evidence_gaps
-Independent pathology reference not yet attached; current support is local ASU curriculum only. Family125 adds instructor-bank prompt/key evidence only; independent verification and Helwan faculty review remain required.
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-CON-FND-DF726F864C8BC3
-
-## last_reviewed
-
-## review_due
-
-## exclusion_reason
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Existing terminology is preserved when present; otherwise blank pending reviewed Arabic terminology.
-arabicAliases: Existing reviewed aliases are preserved; [clear] means none is assigned.
-microtopicId: Existing placement is preserved when present; otherwise no reviewed microtopic ID exists beneath the assigned node.
-nanotopicId: Existing placement is preserved when present; otherwise no reviewed nanotopic ID exists.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Family125 was hand-authored from exact prompt and printed-key rows, not a pipeline occurrence.
-sourceCandidateIds: Governed source-first adjudication is recorded in the triage ledger; no unresolved candidate pointer is carried.
-mergeIds: No merge occurred in Family125.
-rejectedMergeCandidateIds: Existing exact-ID reuse avoids a rival ID.
-lastReviewed: New Draft overlay; no Helwan faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-family125Reuse: Exact-ID reuse appends source, question, claim and article traceability without changing the earlier concept meaning.
-priorNotes: examSignal: No assessment source was used in this batch.
-family149Reuse: Complete prior row preserved; Family149 reciprocity appended.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
+
 ## label
 Metaplasia replaces one epithelium with another, and the cost is whatever the original one did — cilia in the smoker's bronchus, distensibility in the bilharzial bladder
+
 ## id
 CON-FND-5AD09BF9FC2420
+
 ## canonical_key
-epithelial-metaplasia-in-smoking-and-bilharziasis
-## definition
-Metaplasia is the transformation of one type of epithelium into another under abnormal conditions. In heavy cigarette smokers the pseudostratified columnar ciliated epithelium of the bronchi may transform into stratified squamous epithelium: the new epithelium protects against abrasion but has no cilia, so the mucociliary escalator that cleared the airway stops working. In bilharziasis the transitional epithelium of the urinary bladder may change into stratified squamous epithelium, and what is lost is the dome-shaped superficial cell with its plaques — the very things that made the bladder both distensible and impermeable to urine.
-## explicit_objective
-Name what each epithelium becomes in metaplasia and state exactly which function is lost with the change.
-## pitfalls
-Learning the two examples as facts rather than as consequences. Both convert to stratified squamous, because that is the epithelium of protection, and in both cases the price is the specialisation that the organ actually needed.
-## concept_type
-clinical_correlation
-## status
-Draft
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-[clear]
-## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Family-125 > bronchial
+
 ## universities
-hu
++hu
+
 ## learner_years
-1
-## exam_signal
-src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
-src_bb081b0479f7a33666cd | question_book | | p12 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p14 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.39
-## exam_weight_by_year
-HU_Y1=0.60
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Epithelial Tissues
-## aliases
-Metaplasia | Squamous metaplasia | Bilharziasis
-## article_ids
-+ART-HU-BMS102-PAT-F125-INTRO-ADAPTATION
-ART-HU-BMS102-PAT-F149-METAPLASIA
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] An Egyptian farmer suffers from blood in urine as a complication of | bilharziasis. Bladder biopsy could show change of epithelium into: |
-[Family125 Q11] An area of keratinising squamous epithelium lining a major bronchus is an example of [printed answer B]
-[Family149 Q21] In habitual cigarette smoker, the normal ciliated columnar epithelial cells of the trachea and bronchi are often replaced by stratified squamous epithelial cells. this is an example of: [supplied answer D]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear] Family125 adds instructor-bank prompt/key evidence only; independent verification and Helwan faculty review remain required.
-## arabic_label
++1
 
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
-ART-HU-BMS102-PAT-F149-ADAPTATION
-ART-HU-BMS102-PAT-F149-CELL-INJURY
-## resource_ids
-+src_f660b7c9959ce8d1cde0
-src_e446a1e064b3d421e312
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-+CLM-HU102-F125-Q11-01
-CLM-HU102-F149-Q21-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
+## modules
++HU-BMS-102
 
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Existing terminology is preserved when present; otherwise blank pending reviewed Arabic terminology.
-arabicAliases: Existing reviewed aliases are preserved; [clear] means none is assigned.
-microtopicId: Existing placement is preserved when present; otherwise no reviewed microtopic ID exists beneath the assigned node.
-nanotopicId: Existing placement is preserved when present; otherwise no reviewed nanotopic ID exists.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Family125 was hand-authored from exact prompt and printed-key rows, not a pipeline occurrence.
-sourceCandidateIds: Governed source-first adjudication is recorded in the triage ledger; no unresolved candidate pointer is carried.
-mergeIds: No merge occurred in Family125.
-rejectedMergeCandidateIds: Existing exact-ID reuse avoids a rival ID.
-lastReviewed: New Draft overlay; no Helwan faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-family125Reuse: Exact-ID reuse appends source, question, claim and article traceability without changing the earlier concept meaning.
-priorNotes: aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-family149Reuse: Complete prior row preserved; Family149 reciprocity appended.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Metaplasia is replacement of one adult cell type by another adult cell type

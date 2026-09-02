@@ -733,7 +733,7 @@ The option “Osteosarcoma” is preserved exactly from Family-163, but both sou
 
 
 ## main_concept
-CON-REN-B9E0531973510E
+CON-MSK-B37643A373463E
 
 ## library_ids
 ART-HU-LCS103-MSK-F163-GOUT-OA-CARPAL-ASSOCIATIONS
@@ -1300,7 +1300,7 @@ Family-163 prints E in both its formal key and red handwritten answer layer for 
 
 
 ## main_concept
-CON-REN-B9E0531973510E
+CON-MSK-B37643A373463E
 
 ## library_ids
 ART-HU-LCS103-MSK-F163-GOUT-OA-CARPAL-ASSOCIATIONS

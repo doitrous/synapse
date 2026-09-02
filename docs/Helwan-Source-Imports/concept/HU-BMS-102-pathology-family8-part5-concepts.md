@@ -617,21 +617,28 @@ exclusionReason: Not excluded; held at needs_evidence.
 ---
 
 # Item
-## id
-CON-IMM-DA2EA4EC41707C
+
 ## label
 An opsonin is a molecule that facilitates phagocytosis
-## canonical_key
-teaching.microv2.opsonin.definition
-## article_ids
-+ART-HU-BMS102-PAT-F8P5-EXUDATE-LEUKOCYTE-RESPONSE
-## atomic_claim_ids
-+CLM-HU102-F8P5-OPSONIN-01
-## resource_ids
-+src_eaea111707b57559a904
-src_6050cec97addd49101a3
----
 
+## id
+CON-IMM-DA2EA4EC41707C
+
+## canonical_key
+
+## universities
++hu
+
+## learner_years
++1
+
+## modules
++HU-BMS-102
+
+## field_notes
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
+
+---
 # Item
 ## id
 CON-INF-AE18C72950A28C

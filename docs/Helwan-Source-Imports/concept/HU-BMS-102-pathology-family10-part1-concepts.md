@@ -123,128 +123,28 @@ reuseGovernance: New Family-10 question-led concept after the governed no-same-s
 ---
 
 # Item
+
 ## label
-Cellular adaptation preserves viability in a new altered steady state
+Adaptation takes four forms: hypertrophy, hyperplasia, atrophy and metaplasia
+
 ## id
 CON-FND-DF726F864C8BC3
+
 ## canonical_key
-cell.adaptation.hypertrophy-hyperplasia-atrophy-metaplasia
-## aliases
-Cellular adaptation
-Adaptive cellular response
-Hypertrophy hyperplasia atrophy metaplasia
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Cellular adaptation is a reversible modification of cell structure and function that establishes a new steady state while preserving viability during environmental stress. Its four major forms are hypertrophy, hyperplasia, atrophy and metaplasia.
-## explicit_objective
-Define cellular adaptation and identify it as a reversible viable response to adverse environmental change.
-## pitfalls
-Calling adaptation cell death or assuming that every change caused by stress is irreversible.
-## concept_type
-classification
-## status
-Draft
-## subject
-fnd
-## primary_node_id
-SYS-FND-T03-S01
-## secondary_node_ids
-DIS-PAT-T01
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Cellular adaptation > Adaptation definition
-## article_ids
-ART-HU-BMS102-PAT-F10P1-FOUNDATIONS-CELL-INJURY
-## related_article_ids
-ART-HU-BMS102-PAT-F10P1-ACUTE-INFLAMMATION
-ART-HU-BMS102-PAT-F10P1-OEDEMA-EXUDATE
-## related_concept_ids
-CON-FND-138A2385CB2CB5
-CON-FND-084E7714F4E0B6
-CON-FND-2CDE9A5C884133
-## resource_ids
-src_d270bc32d14620134e75
-src_a2b7d25d987469febab8
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## support_mode
-direct_statement
-## confidence
-0.92
-## exam_signal
-src_a2b7d25d987469febab8 | tier-3 local keyed study bank | undated | Family-10 M03
-## atomic_claim_ids
-CLM-HU102-F10P1-M03-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p67] Adaptation modifies cell structure and function to achieve a new altered steady state while preserving vitality.
-[Assessment p1 M03] The changes made by a cell in response to adverse environmental changes, which are reversible if the cause is ceased defined as: Answer: Cellular adaptation.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 10 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID, canonical key and meaning.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Atrophy is shrinkage caused by loss of cell substance
@@ -369,128 +269,28 @@ reuseGovernance: New Family-10 question-led concept after the governed no-same-s
 ---
 
 # Item
+
 ## label
-Necrosis affects groups of cells, disrupts membranes and provokes inflammation
+Necrosis and apoptosis differ in cell size, membrane integrity and inflammation
+
 ## id
 CON-FND-2CDE9A5C884133
+
 ## canonical_key
-celldeath.contrast.necrosis-versus-apoptosis
-## aliases
-Necrosis versus apoptosis
-Necrotic cell death
-Group cell death with inflammation
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Necrosis is irreversible death of groups of cells with loss of membrane integrity, enzymatic digestion and leakage of cellular contents. It provokes inflammation and necrotic tissue may calcify. Apoptosis instead removes individual cells while preserving membrane integrity and avoiding a surrounding inflammatory reaction.
-## explicit_objective
-Recognize necrosis from grouped cell death, autolysis, inflammation and possible calcification.
-## pitfalls
-Choosing apoptosis when the stem explicitly describes groups of cells, autolysis and inflammation, or treating granulomatous inflammation and hyalinosis as forms of cell death.
-## concept_type
-comparison
-## status
-Draft
-## subject
-fnd
-## primary_node_id
-SYS-FND-T03-S01-M03
-## secondary_node_ids
-DIS-PAT-T01
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Cell injury > Necrosis versus apoptosis
-## article_ids
-ART-HU-BMS102-PAT-F10P1-FOUNDATIONS-CELL-INJURY
-## related_article_ids
-ART-HU-BMS102-PAT-F10P1-ACUTE-INFLAMMATION
-ART-HU-BMS102-PAT-F10P1-OEDEMA-EXUDATE
-## related_concept_ids
-CON-FND-138A2385CB2CB5
-CON-FND-DF726F864C8BC3
-CON-FND-084E7714F4E0B6
-## resource_ids
-src_7c79d90e00f17c534be6
-src_a2b7d25d987469febab8
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## support_mode
-direct_statement
-## confidence
-0.92
-## exam_signal
-src_a2b7d25d987469febab8 | tier-3 local keyed study bank | undated | Family-10 M05
-## atomic_claim_ids
-CLM-HU102-F10P1-M05-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p34] Necrosis is death of a group of cells with loss of membrane integrity and leakage; cytoplasmic organelles rupture and may calcify.
-[Assessment p1 M05] The form of cell injury in which the living cells (in groups following exposure respond by autolysis, with subsequent inflammation & calcification: Answer: Necrosis.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 10 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID, canonical key and meaning.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Acute inflammation is an immediate early host response
@@ -1238,252 +1038,48 @@ reuseGovernance: Standalone-complete HU overlay preserving the exact governed co
 ---
 
 # Item
+
 ## label
-Neutrophils phagocytose bacteria as first-line inflammatory cells
+The neutrophil carries two granule populations and is the first line of non-specific defence
+
 ## id
 CON-HEM-3899015C5024C0
+
 ## canonical_key
-neutrophil-granules-and-first-line-defence
-## aliases
-Neutrophil phagocytic function
-Neutrophil bacterial ingestion
-Polymorph function
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Neutrophils are motile first-line phagocytes in acute inflammation. After recruitment into tissue, they ingest and destroy bacteria using phagosomes, granule enzymes and oxidative killing mechanisms; immunoglobulin production belongs to plasma cells and lymphokine production to lymphocytes.
-## explicit_objective
-Identify bacterial phagocytosis as a core neutrophil function.
-## pitfalls
-Assigning antibody production, lymphokine production or orchestration of repair to the neutrophil when the option set asks for its direct effector function.
-## concept_type
-structure_function_relationship
-## status
-Draft
-## subject
-haem
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-SYS-INF
-DIS-PAT-T02
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Inflammatory cells > Neutrophil phagocytosis
-## article_ids
-ART-HU-BMS102-PAT-F10P1-ACUTE-INFLAMMATION
-## related_article_ids
-ART-HU-BMS102-PAT-F10P1-FOUNDATIONS-CELL-INJURY
-ART-HU-BMS102-PAT-F10P1-OEDEMA-EXUDATE
-## related_concept_ids
-CON-INF-4502B7A8891300
-CON-INF-47F33376E995DE
-CON-INF-8E61F598EFD892
-CON-INF-91A505FE18153C
-CON-IMM-075EC1A6A3022D
-## resource_ids
-src_eaea111707b57559a904
-src_a2b7d25d987469febab8
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## support_mode
-direct_statement
-## confidence
-0.92
-## exam_signal
-src_a2b7d25d987469febab8 | tier-3 local keyed study bank | undated | Family-10 M12
-## atomic_claim_ids
-CLM-HU102-F10P1-M12-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p31] Phagocytosis is ingestion and destruction of bacteria, necrotic debris and foreign particles by phagocytic inflammatory cells.
-[Assessment p2 M12] Neutrophils function is to Answer: Phagocytose the bacteria.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 10 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID, canonical key and meaning.
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
+
 ---
-
 # Item
+
 ## label
-Basophils and mast cells contain and release histamine
+Basophil and mast-cell granules contain mediators such as histamine
+
 ## id
 CON-IMM-075EC1A6A3022D
+
 ## canonical_key
-teaching.microv2.basophil-mast.histamine
-## aliases
-Basophil histamine source
-Mast-cell histamine
-Inflammatory histamine release
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Basophils and mast cells contain histamine in cytoplasmic granules and can release it during inflammatory and allergic responses. Neutrophils, monocytes and eosinophils have other effector roles and are not the source selected by the printed comparison.
-## explicit_objective
-Identify basophils as the histamine-producing option in the source comparison.
-## pitfalls
-Choosing any leukocyte merely because it participates in inflammation, without distinguishing mediator storage and release from phagocytic or antiparasitic functions.
-## concept_type
-structure_function_relationship
-## status
-Draft
-## subject
-imm
-## primary_node_id
-DIS-IMU-T01
-## secondary_node_ids
-SYS-INF
-DIS-PAT-T02
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Inflammatory mediators > Histamine source
-## article_ids
-ART-HU-BMS102-PAT-F10P1-ACUTE-INFLAMMATION
-## related_article_ids
-ART-HU-BMS102-PAT-F10P1-FOUNDATIONS-CELL-INJURY
-ART-HU-BMS102-PAT-F10P1-OEDEMA-EXUDATE
-## related_concept_ids
-CON-INF-4502B7A8891300
-CON-INF-47F33376E995DE
-CON-INF-8E61F598EFD892
-CON-INF-91A505FE18153C
-CON-HEM-3899015C5024C0
-## resource_ids
-src_eaea111707b57559a904
-src_a2b7d25d987469febab8
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## support_mode
-direct_statement
-## confidence
-0.92
-## exam_signal
-src_a2b7d25d987469febab8 | tier-3 local keyed study bank | undated | Family-10 M13
-## atomic_claim_ids
-CLM-HU102-F10P1-M13-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p34] The inflammatory-mediator map lists histamine among leukocyte-derived mediators.
-[Assessment p2 M13] Histamine can be produced by: Answer: basophils.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 10 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID, canonical key and meaning.
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
+
+---

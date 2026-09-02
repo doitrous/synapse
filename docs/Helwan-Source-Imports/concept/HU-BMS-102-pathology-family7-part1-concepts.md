@@ -479,21 +479,28 @@ exclusionReason: Not excluded; held at needs_evidence.
 ---
 
 # Item
-## id
-CON-INF-58732B86935585
+
 ## label
 Bacteremia as low-dose or low-virulence organisms in blood
-## canonical_key
-teaching.pathobook.bacteremia.definition
-## article_ids
-+ART-HU-BMS102-PAT-BLOODSTREAM-INFECTION-DEFINITIONS
-## atomic_claim_ids
-+CLM-HU102-F7P1-BACTEREMIA-01
-## resource_ids
-+src_618d482aa23f51f29cf0
-src_f4017e73dcc32d5e9934
----
 
+## id
+CON-INF-58732B86935585
+
+## canonical_key
+
+## universities
++hu
+
+## learner_years
++1
+
+## modules
++HU-BMS-102
+
+## field_notes
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
+
+---
 # Item
 ## label
 Septicaemia is multiplication of virulent bacteria and their toxins in blood

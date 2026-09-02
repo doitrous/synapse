@@ -265,168 +265,28 @@ standaloneLiveCreate: This complete row may create the governed concept if absen
 ---
 
 # Item
+
 ## label
 Apparent volume of distribution
+
 ## id
 CON-FND-CBA2A73AE9A6D8
-## canonical_key
-teaching.pharma.vd.definition
-## definition
-Apparent volume of distribution is the hypothetical volume that relates the amount of drug in the body to its plasma concentration: Vd = amount in the body divided by plasma concentration.
-## explicit_objective
-Define apparent volume of distribution and calculate it from the amount of drug in the body and measured plasma concentration.
-## pitfalls
-Treating Vd as a literal anatomical compartment or using urine concentration, effect, or a rate unit in the calculation.
-## concept_type
-directly_taught_pharmacology_concept
-## status
-under review
-## support_mode
-direct
-## subject
-pharm
-## primary_node_id
-SYS-FND-T04-S01-M02
-## secondary_node_ids
-DIS-PHA-T01
-DIS-PHA
-## topic
-General pharmacology
-## subtopic
-Pharmacokinetics
-## microtopic
-Distribution
-## nanotopic
-Apparent volume of distribution
-## modules
-108 INT
-## module_subject
-108 INT > Pharmacology > Pharmacokinetics > Distribution > Apparent volume of distribution
-## universities
-kau
-## learner_years
-1
-## aliases
-Vd
-Volume of distribution
-## arabic_label
-حجم التوزيع الظاهري
-## arabic_aliases
-حجم التوزيع
-## article_ids
-ART-108-PHA-PHARMACOKINETICS-ADME
-ART-HU-BMS102-PHA-F223P3-VOLUME-DISTRIBUTION
-ART-HU-BMS102-PHA-F223P4-LOADING-DOSE
-ART-HU-BMS102-PHA-F223P5-DISTRIBUTION-RENAL-DOSING
-ART-HU-BMS102-PHA-F223P6-FIRST-PASS-VD-CALCULATIONS
-## related_article_ids
-ART-HU-BMS102-PHA-F223P3-PROTEIN-BINDING
-## related_concept_ids
-CON-FND-040D2633B0A2FE
-CON-FND-53FF18E42BC94B
-CON-FND-955AD7B6FE6F03
-## exam_signal
-src_992325268b40230b61a5
-Family223 Part3 Q26
-PDF source p5
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part3 Q27
-PDF source p5
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part4 Q47
-PDF source p10
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part5 Q54
-PDF source p11
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5 | Family223 Part6 Q63 | PDF source p13 | tier-6 keyed review bank; not official key
-## blueprint_weight
-0.85
-## exam_weight_by_year
-KAU_Y1=0.85
-## clinical_relevance
-0.65
-## academic_relevance
-0.90
-## weight_confidence
-0.70
-## confidence
-0.96
-## original_wording
-[Family223 Part3 Q26] For calculating the volume of distribution (Vd), one must consider: [printed answer A]
-[Family223 Part3 Q27] A 65-year-old woman was given Tobramycin 150 mg IV. After 20 minutes,
-  the plasma concentration was 3 mg/L. Assuming no elimination, what is the
-  apparent volume of distribution? [printed answer C]
-[Family223 Part4 Q47] The loading dose of a drug is governed by its: [printed answer C]
-[Family223 Part5 Q54] The volume of distribution (Vd) relates: [printed answer D]
-[Family223 Part6 Q63] 400 mg of a drug is administered to a patient and the drug is later
-  measured in plasma to be 1 µg/mL. What is the apparent volume of
-  distribution (Vd)? [printed answer D]
-## resource_ids
-src_992325268b40230b61a5
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-HU102-F223-P3-Q26-01
-CLM-HU102-F223-P3-Q27-01
-CLM-HU102-F223-P4-Q47-01
-CLM-HU102-F223-P5-Q54-01
-CLM-HU102-F223-P6-Q63-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan pharmacology faculty review are required before publication.
-## owner
-Admin team
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-2026-08-11
-## review_due
 
-## publication_status
-needs_evidence
-## editorial_review_status
-editorially_revised_needs_independent_evidence
-## exclusion_reason
+## canonical_key
+
+## universities
++hu
+
+## learner_years
++1
+
+## modules
++HU-BMS-102
 
 ## field_notes
-exactIdReuse: Existing governed ID, canonical key, core definition, Kasr placement and ownership are preserved; the Family223 source/article/claims are appended as a complete standalone-safe overlay.
-microtopicId: Filled at the canonical Distribution level; no overlay MIC_ id exists.
-nanotopicId: No NAN_ ids exist for first-year general pharmacology.
-approvedFileResourceIds: No source is rights-cleared for redistribution.
-approvedVideoResourceIds: No video is attached.
-resourceOccurrenceIds: Historical occurrences are not required for this standalone Helwan evidence overlay.
-sourceCandidateIds: Cleared because the governed ID is established.
-mergeIds: Historical merge state is not changed by this source overlay.
-rejectedMergeCandidateIds: No new rival was found.
-reviewDue: Set by the record owner after the next independent review.
-exclusionReason: Not excluded; publication_status carries the evidence gate.
-family223Part4Reuse: Exact governed ID, canonical key, core teaching and prior fields are preserved; reciprocal Part4 article, source, claim and wording links are appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part5Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part5 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part6Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part6 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Phase I metabolic transformation includes oxidation, reduction, and hydrolysis
@@ -578,174 +438,28 @@ standaloneLiveCreate: This complete row may create the governed concept if absen
 ---
 
 # Item
+
 ## label
 The liver is the main site of drug metabolism, but the gut wall, plasma, lung and kidney all metabolise drugs too
+
 ## id
 CON-FND-C3B843D7032C7F
+
 ## canonical_key
-teaching.pharma.metabolism.sites
-## definition
-Biotransformation converts a drug into a more polar metabolite that the kidney can excrete. The liver does most of it, which is why hepatic disease and first-pass metabolism matter so much, but the intestinal wall, plasma esterases, the lung and the kidney also carry out drug metabolism, and for some drugs they carry out most of it.
-## explicit_objective
-Name the sites of drug metabolism in order of importance and say why extrahepatic metabolism changes what happens to a drug given by mouth.
-## pitfalls
-Equating drug metabolism with the liver, and then being unable to explain why a drug is inactivated in the gut wall before it ever reaches a hepatocyte.
-## concept_type
-classification
-## status
-under review
-## support_mode
-direct_statement
-## subject
-pharm
-## primary_node_id
-SYS-FND-T04-S01-M03
-## secondary_node_ids
-DIS-PHA-T01 | DIS-PHA
-## topic
-General pharmacology
-## subtopic
-Pharmacokinetics
-## microtopic
-Metabolism
-## nanotopic
+
+## universities
++hu
+
+## learner_years
++1
 
 ## modules
-108 INT
-## module_subject
-108 INT > Pharmacology > Pharmacokinetics > Metabolism (Biotransformation) > Site of Metabolism
-## universities
-kau
-## learner_years
-1
-## aliases
-Sites of drug metabolism
-Biotransformation sites
-Extrahepatic drug metabolism
-Organs of drug metabolism
-## arabic_label
-مواقع استقلاب الأدوية
-## arabic_aliases
-أماكن التحول الحيوي للدواء
-## article_ids
-ART-108-PHA-PHARMACOKINETICS-ADME
-ART-HU-BMS102-PHA-F223P1-DRUG-METABOLISM
-ART-HU-BMS102-PHA-F223P4-BIOTRANSFORMATION
-ART-HU-BMS102-PHA-F223P5-BIOTRANSFORMATION
-ART-HU-BMS102-PHA-F223P6-PHASE-CLASSIFICATION-EXCRETION
-## related_article_ids
-ART-108-PHA-ROUTES
-## related_concept_ids
-CON-FND-44B6AE3E7DDA55 | CON-FND-E34035C5B4FF80 | CON-FND-CF40F32A8A74A0
-## exam_signal
-src_b4f736e3bd809dbee187
-orientation_ilo_mcq_only
-2026
-p1
-108 INT
-src_ec50845c4498e17b9b6b
-department_bank_chapter_pharmacokinetics
-2025
-p6
-108 INT
-src_992325268b40230b61a5
-Family223 Part1 Q01
-PDF p1
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part4 Q48
-PDF source p10
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5
-Family223 Part5 Q55
-PDF source p11
-tier-6 keyed review bank; not official key
-src_992325268b40230b61a5 | Family223 Part6 Q65 | PDF source p14 | tier-6 keyed review bank; not official key
-## blueprint_weight
-0.45
-## exam_weight_by_year
-KAU_Y1=0.45
-## clinical_relevance
-0.5
-## academic_relevance
-0.8
-## weight_confidence
-0.45
-## confidence
-0.85
-## original_wording
-[Orientation ILO 14, MCQ tick] To enumerate the sites of metabolism of drugs
-[Family223 Part1 Q01] What is the primary site for drug metabolism? [printed answer B]
-[Family223 Part4 Q48] About biotransformation. Which of the following is untrue? [printed answer C]
-[Family223 Part5 Q55] Biotransformation of the drugs is to render them: [printed answer D]
-[Family223 Part6 Q65] Biotransformation of a medicinal substance results in: [printed answer A]
-## resource_ids
-src_992325268b40230b61a5
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-FND-METABOLISM-SITES-01
-CLM-HU102-F223-P1-Q01-01
-CLM-HU102-F223-P4-Q48-01
-CLM-HU102-F223-P5-Q55-01
-CLM-HU102-F223-P6-Q65-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Evidence must be attached before publication; no claim or citation exists for this module yet.
-## owner
-Claude
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-microtopicId: Filled — SYS-FND-T04-S01-M03 is Metabolism and the overlay microtopic matches it.
-nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-resourceOccurrenceIds: Hand-authored from the ILO sheet and the book's "Site of Metabolism (Organs)" heading; no corpus extraction record exists.
-sourceCandidateIds: Searched the corpus concept index for "biotransformation" and "drug metabolism" — no candidate record exists for this module.
-approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
-approvedVideoResourceIds: This department distributes no video for 108 INT.
-lastReviewed: New record; no reviewer has seen it.
-reviewDue: Set when the first review completes.
-exclusionReason: Not excluded — awaiting evidence.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: Searched live state for "metabolism" and "microsomal" across all 1,718 concepts unfiltered — the single "metabolism" hit is an obstetric physiology record about human chorionic somatomammotropin. No merge was proposed or rejected.
-conflicts: No source disagreement found.
-uncertainty: The book lists the organs but does not rank the extrahepatic sites against each other, and no source read here does.
-relationships: prerequisite_of CON-FND-44B6AE3E7DDA55 and part_of the first-pass mechanism on CON-FND-CF40F32A8A74A0. Typed edges are owed in a relations batch this task did not author.
-family223Part1Reuse: Exact governed ID, canonical key and teaching semantics are preserved; reciprocal Helwan article, source, claim and wording links are supplied.
-standaloneLiveCreate: The baseline graph lacks this governed concept and its historical resources; resource_ids therefore names only the Family223 source included in this atomic batch.
-family223Part4Reuse: Exact governed ID, canonical key, core teaching and prior fields are preserved; reciprocal Part4 article, source, claim and wording links are appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part5Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part5 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
-family223Part6Reuse: Exact governed ID, canonical key, teaching, and prior fields are preserved; Part6 reciprocity is appended.
-standaloneLiveCreate: This complete row may create the governed concept if absent live.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 A source exercise uses total body water and a target concentration to calculate 210 mg

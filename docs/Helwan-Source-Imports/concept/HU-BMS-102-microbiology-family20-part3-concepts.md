@@ -259,136 +259,28 @@ reuseGovernance: New Family-11 question-led concept after the governed no-same-s
 ---
 
 # Item
+
 ## label
-Mycoplasma is intrinsically resistant to penicillin because it lacks a cell wall
+Penicillin resistance by S. aureus is acquired genetic resistance; Mycoplasma resistance to cell-wall antibiotics is intrinsic
+
 ## id
 CON-INF-DCD82D2A1D396C
+
 ## canonical_key
-antibiotic-resistance.acquired-vs-intrinsic-genetic
-## aliases
-Mycoplasma natural penicillin resistance
-Absent-target intrinsic resistance
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Mycoplasma has intrinsic natural resistance to penicillin because it lacks the bacterial cell wall that beta-lactams target. Failure therefore reflects absence of the target structure, not acquired beta-lactamase, host immunity or sequestration in an abscess.
-## explicit_objective
-Explain Mycoplasma penicillin failure as intrinsic resistance due to absence of a cell wall.
-## pitfalls
-Inferring an acquired resistance enzyme when the organism naturally lacks the drug target.
-## concept_type
-mechanism
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Resistance origins and genetics > Intrinsic Mycoplasma resistance
-## article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-ART-HU-BMS102-MIC-F20P3-RESISTANCE-MECHANISMS
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-134BE2C9B827D5
-CON-INF-D6A264E108B348
-CON-INF-D69C8C4C6B0D6D
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-src_e89478440e99a6b8a854
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q22
-src_e89478440e99a6b8a854 | tier-6 auxiliary study bank | Family-20 Q27; printed study answer only, no official-key authority
-## atomic_claim_ids
-CLM-HU102-F11P2-Q22-01
-CLM-HU102-F20P3-Q27-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p29] Mycoplasma are naturally resistant to penicillin because they lack a cell wall.
-[Family-20 Q27] 27- Which of the following is a correct epample of non-genetic resistance? [printed answer B]
-[Assessment p6 Q22] A patient with a chronic infection caused by Mycoplasma is treated with penicillin, but the treatment fails. This is likely due to: Answer: The bacteria's intrinsic natural resistance, as Mycoplasma lack a cell wall.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-family20Part3Reuse: Exact-ID reuse preserves the earlier record and appends only Family-20 Part3 article, source-occurrence and claim links. Exact-ID reuse preserves Mycoplasma intrinsic resistance from absence of a cell wall and appends only this source occurrence.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Bactericidal therapy is selected for endocarditis when rapid irreversible killing is required
@@ -764,137 +656,28 @@ reuseGovernance: New Family-20 question-led concept after governed no-same-scope
 ---
 
 # Item
+
 ## label
-Porin changes reduce antimicrobial permeability and intracellular drug concentration
+Altered drug permeability confers resistance to tetracycline and amikacin
+
 ## id
 CON-INF-DFC3D949513ED2
+
 ## canonical_key
-antibiotic-resistance.mechanism.altered-permeability
-## aliases
-Porin-mediated reduced permeability
-Reduced antimicrobial entry
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Changes in bacterial outer-membrane porins can reduce drug entry so that an effective intracellular concentration is not achieved. This altered-permeability mechanism reduces influx and is distinct from enzymatic drug inactivation or active efflux after entry.
-## explicit_objective
-Explain how altered porins cause resistance by lowering antimicrobial permeability and intracellular concentration.
-## pitfalls
-Treating reduced entry through porins as proton-coupled efflux or as alteration of a ribosomal target.
-## concept_type
-mechanism
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Resistance mechanisms > Reduced permeability
-## article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-ART-HU-BMS102-MIC-F20P3-RESISTANCE-MECHANISMS
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-64A7823DCEC6E5
-CON-INF-570A1012DB9324
-CON-INF-39978E6864743D
-CON-INF-0096D0AC9CB83E
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-src_e89478440e99a6b8a854
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q20
-src_e89478440e99a6b8a854 | tier-6 auxiliary study bank | Family-20 Q32; printed study answer only, no official-key authority
-## atomic_claim_ids
-CLM-HU102-F11P2-Q20-01
-CLM-HU102-F20P3-Q32-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p25] Changes in porins (hollow membrane proteins) can reduce the amount of penicillin entering bacteria.
-[Family-20 Q32] 32- Decreased drug entry due to altered porins is a resistance mechanism against: [printed answer C]
-[Assessment p6 Q20] Changes in porin proteins in the bacterial outer membrane can lead to resistance by: Answer: Decreasing the drug's permeability, preventing it from reaching an effective intracellular concentration.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-family20Part3Reuse: Exact-ID reuse preserves the earlier record and appends only Family-20 Part3 article, source-occurrence and claim links. Exact-ID reuse preserves reduced antimicrobial entry through altered permeability and appends the source’s penicillin/porin occurrence without widening the definition.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Increasing drug concentration in the host is not a bacterial antimicrobial-resistance mechanism
@@ -1016,137 +799,28 @@ reuseGovernance: New Family-20 question-led concept after governed no-same-scope
 ---
 
 # Item
+
 ## label
-Sulphonamide-resistant bacteria can bypass PABA by using preformed folic acid
+Development of an alternative metabolic pathway confers resistance to sulfonamides
+
 ## id
 CON-INF-39978E6864743D
+
 ## canonical_key
-antibiotic-resistance.mechanism.alternative-metabolic-pathway
-## aliases
-Sulphonamide folate bypass
-Alternative metabolic pathway resistance
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Some sulphonamide-resistant bacteria acquire the ability to use preformed folic acid and therefore no longer depend on the PABA-requiring synthesis step blocked by the drug. This is metabolic bypass, not drug degradation, efflux or DNA-gyrase alteration.
-## explicit_objective
-Identify use of preformed folate as the metabolic-bypass mechanism of sulphonamide resistance.
-## pitfalls
-Selecting active export or drug-degrading enzymes simply because these are other legitimate resistance mechanisms.
-## concept_type
-mechanism
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Resistance mechanisms > Folate bypass
-## article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-ART-HU-BMS102-MIC-F20P3-RESISTANCE-MECHANISMS
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-64A7823DCEC6E5
-CON-INF-570A1012DB9324
-CON-INF-DFC3D949513ED2
-CON-INF-0096D0AC9CB83E
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-src_e89478440e99a6b8a854
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q19
-src_e89478440e99a6b8a854 | tier-6 auxiliary study bank | Family-20 Q34; printed study answer only, no official-key authority
-## atomic_claim_ids
-CLM-HU102-F11P2-Q19-01
-CLM-HU102-F20P3-Q34-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p24] Sulphonamide resistant bacteria acquire the ability to use preformed folic acid with no need for extracellular PABA.
-[Family-20 Q34] 34- How do sulphonamide-resistant bacteria survive? [printed answer B]
-[Assessment p5 Q19] Some bacteria resist the effects of sulphonamides by: Answer: Acquiring the ability to use preformed folic acid, bypassing the need for PABA.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-family20Part3Reuse: Exact-ID reuse preserves the earlier record and appends only Family-20 Part3 article, source-occurrence and claim links. Exact-ID reuse preserves sulphonamide resistance through use of preformed folic acid and appends only this distinct occurrence.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Beta-lactams bind PBPs and inhibit the final steps of peptidoglycan synthesis

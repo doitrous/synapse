@@ -160,7 +160,7 @@ Rheumatoid arthritis
 The option “Rheumatoid arthritis” is preserved exactly from Family-163, but both source answer layers select B instead. The linked Draft article explains only the bounded local distinction without rewriting the source or inferring another answer. The thiazide duration, repeated attacks and crystal wording are preserved exactly. This record remains Draft pending independent medical verification and named Helwan faculty review.
 
 ## main_concept
-CON-REN-B9E0531973510E
+CON-MSK-B37643A373463E
 
 ## library_ids
 ART-HU-LCS103-MSK-F163-GOUT-OA-CARPAL-ASSOCIATIONS
@@ -708,7 +708,7 @@ Systemic lupus erythematosus
 The option “Systemic lupus erythematosus” is preserved exactly from Family-163, but both source answer layers select A instead. The linked Draft article explains only the bounded local distinction without rewriting the source or inferring another answer. The source changes laterality from a left-great-toe complaint to a right first-MTP mass; no repair is made. This record remains Draft pending independent medical verification and named Helwan faculty review.
 
 ## main_concept
-CON-REN-B9E0531973510E
+CON-MSK-B37643A373463E
 
 ## library_ids
 ART-HU-LCS103-MSK-F163-GOUT-OA-CARPAL-ASSOCIATIONS

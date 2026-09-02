@@ -1867,7 +1867,7 @@ The option “High rheumatoid factor titer” is preserved exactly from Family-1
 
 
 ## main_concept
-CON-REN-B9E0531973510E
+CON-MSK-B37643A373463E
 
 ## library_ids
 ART-HU-LCS103-MSK-F163-GOUT-OA-CARPAL-ASSOCIATIONS

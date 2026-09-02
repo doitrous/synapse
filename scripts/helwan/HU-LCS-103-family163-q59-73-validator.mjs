@@ -78,8 +78,12 @@ assert.equal(loaded.questions[9].answer_a, "Phalen's test")
 assert.equal(loaded.questions[10].answer_e, 'Rapid plasma regain')
 assert.match(loaded.questions[11].question, /\(<1cm\)/)
 
+// 2026-09-02 Helwan ID-collision audit fix: 'gout' is now a freshly minted
+// Helwan id, not the hand-typed live Kasr id it used to be. See
+// docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md and
+// scripts/helwan/HU-LCS-103-family163-q15-28-author.mjs.
 const conceptIds = [
-  'CON-REN-B9E0531973510E', 'CON-MSK-4A6E1433462500', 'CON-MSK-D11FA83681C5C6',
+  'CON-MSK-B37643A373463E', 'CON-MSK-4A6E1433462500', 'CON-MSK-D11FA83681C5C6',
   'CON-MSK-9B52018C4649BD', 'CON-END-E46176A2C11CE5', 'CON-GYN-35EC443C05BB12',
   'CON-MSK-9DA5311A7BF9C2', 'CON-MSK-C5E2A428D599AE', 'CON-MSK-D8EB03B685E55C',
   'CON-MSK-F6F560B9332DCB', 'CON-MSK-3AD186B4605AF2',

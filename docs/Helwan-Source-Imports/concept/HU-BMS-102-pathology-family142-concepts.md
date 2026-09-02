@@ -1,153 +1,26 @@
 # Item
+
 ## label
 Venous thrombosis follows Virchow triad
+
 ## id
 CON-CVS-1DBCD5D81337B5
+
 ## canonical_key
-virchow-triad
-## aliases
-Virchow triad | Deep vein thrombosis pathogenesis
-## arabic_label
-الخثار الوريدي يتبع ثالوث فيرشو
-## arabic_aliases
-ثالوث فيرشو
-## definition
-Thrombosis requires some combination of stasis, endothelial injury and hypercoagulability. Every risk factor for deep vein thrombosis — immobility, surgery, malignancy, pregnancy, oestrogen, inherited thrombophilia — acts through one or more of these three.
-## explicit_objective
-Assign any risk factor for venous thrombosis to one or more elements of the triad.
-## pitfalls
-Memorising risk factor lists instead of the mechanism. The triad generates the list and, more usefully, explains why prophylaxis targets stasis and coagulability.
-## concept_type
-pathophysiological_mechanism
-## status
-under review
-## subject
-cvs
-## learner_years
-2
-3
-4
-1
+
 ## universities
-kau
-hu
-## exam_weight_by_year
-kau_y2=0.8 | kau_y3=0.95 | kau_y4=0.9
-## weight_confidence
-0.5
-## support_mode
-direct_statement
-## last_reviewed
-2026-08-13
-## review_due
-2029-08-13
-## owner
-Dr Omar
-## reviewer
-Dr Omar
-## final_publisher
-Dr Omar
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## primary_node_id
-SYS-CVS-T07-S02-M04
-## secondary_node_ids
-SYS-HEM
-## article_ids
-ART-CVS-DVT
-ART-HU-BMS102-PAT-THROMBI
-ART-HU-BMS102-PAT-F133P1-THROMBOSIS
-ART-HU-BMS102-PAT-F142-THROMBOSIS-EMBOLISM
-## blueprint_weight
-0.88
-## clinical_relevance
-0.7
-## academic_relevance
-0.9
-## confidence
-0.7
-## related_article_ids
-ART-HU-BMS102-PAT-EMBOLI
-ART-HU-BMS102-PAT-F133P1-ISCHEMIA-GANGRENE
-ART-HU-BMS102-PAT-F133P1-HEMORRHAGE
-ART-HU-BMS102-PAT-F142-ISCHEMIA-INFARCTION
-ART-HU-BMS102-PAT-F142-DIC
-## field_notes
-resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
-atomicClaimIds: Deferred to the evidence pass. Thrombosis as a haematological topic is owned by SYS-HEM; this node covers the venous vascular presentation.
-moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
-microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
-nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
-approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
-approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
-sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
-family118Part1Reuse: Exact-ID reuse preserves the prior record and appends only Family118 source, claims, article reciprocity and authority limits for Q01/Q03/Q04/Q06/Q07/Q08/Q10/Q12.
-family133Part1Reuse: Preserves the full Family118 row and appends Family133 source, article and claim reciprocity.
-family142Reuse: Preserves the complete prior row and appends Family142 article, source, claim and wording reciprocity.
-## topic
-General pathology
-## subtopic
-Circulatory disturbances
-## microtopic
-Thrombosis
-## nanotopic
-Family118 Q01/Q03/Q04/Q06/Q07/Q08/Q10/Q12
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Circulatory disturbances > Thrombosis
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-Family118 supplies instructor-bank prompt/key evidence only; no official institutional key is claimed.
-## exclusion_reason
++HU-BMS-102
 
-## resource_ids
-src_932f5302a132003041e5
-src_bcfda49896dd7495479f
-src_aa147d841f217a789ced
-## atomic_claim_ids
-CLM-HU102-F118-Q01-01
-CLM-HU102-F118-Q03-01
-CLM-HU102-F118-Q04-01
-CLM-HU102-F118-Q06-01
-CLM-HU102-F118-Q07-01
-CLM-HU102-F118-Q08-01
-CLM-HU102-F118-Q10-01
-CLM-HU102-F118-Q12-01
-CLM-HU102-F133-Q08-01
-CLM-HU102-F142-Q01-01
-## exam_signal
-src_932f5302a132003041e5 | tier-3 instructor-attributed Lecture 13 bank | Family118 Part1 Q01/Q03/Q04/Q06/Q07/Q08/Q10/Q12 | printed right-margin study keys, not an official institutional key
-## original_wording
-[Family118 Q01] Thrombosis is caused by one of the following: [printed answer B]
-[Family118 Q03] One of the following isn’t a part of Virchow’s triad: [printed answer D]
-[Family118 Q04] Which one of the following events usually occurs first during thrombosis: [printed answer D]
-[Family118 Q06] Thrombosis is caused by: [printed answer D]
-[Family118 Q07] Three major factors that predispose to thrombosis are: [printed answer C]
-[Family118 Q08] Which of the following isn’t associated with thrombosis? [printed answer D]
-[Family118 Q10] The factors predisposing to thrombosis include: [printed answer C]
-[Family118 Q12] Which of the followings has no relation to thrombus formation? [printed answer E]
-[Family133 Q08] Which of the following doesn`t contribute to thrombus formation? [printed answer C]
-[Family142 Q01] A 54-year-old previously healthy woman is hospitalized for pneumonia. On the 10th hospital day she is found to have swelling and tenderness of her right leg, which has developed over the past 48 hours. Raising the leg elicits pain. An ultrasound examination reveals findings suggestive of femoral vein thrombosis. Which of the following conditions is most likely to have contributed the most to the appearance of these findings? [printed answer B]
-## evidence_gaps
-Family118 supplies instructor-bank prompt/key occurrences only. Independent medical verification and Helwan faculty review remain required before publication.
+## field_notes
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
+
 ---
-
 # Item
 ## label
 Longstanding poorly controlled diabetes may accompany mesenteric atherosclerotic occlusion presenting as postprandial abdominal angina

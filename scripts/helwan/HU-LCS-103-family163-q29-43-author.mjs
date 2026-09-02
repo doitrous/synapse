@@ -46,7 +46,10 @@ const conceptIds = {
   ewing: 'CON-MSK-E92754368B0B07',
   osteoporosis: 'CON-MSK-89674D65B2316B',
   diabetic: 'CON-MSK-4ABB70C236E69B',
-  gout: 'CON-REN-B9E0531973510E',
+  // Re-minted 2026-09-02 — was a hand-typed live Kasr id; see
+  // docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md and
+  // scripts/helwan/HU-LCS-103-family163-q15-28-author.mjs, which mints it.
+  gout: 'CON-MSK-B37643A373463E',
   lipoma: 'CON-MSK-EE1AB4607BE982',
 }
 const articleIds = {

@@ -119,268 +119,51 @@ reuseGovernance: New Family-20 question-led concept after governed no-same-scope
 ---
 
 # Item
+
 ## label
-Beta-lactamase destroys penicillin by enzymatically inactivating the drug
+Beta-lactamase causes antibiotic resistance by inactivating the beta-lactam drug
+
 ## id
 CON-INF-64A7823DCEC6E5
+
 ## canonical_key
-antibiotic-resistance.mechanism.beta-lactamase-inactivation
-## aliases
-Beta-lactamase drug inactivation
-Penicillin-destroying enzyme
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Bacterial beta-lactamases enzymatically hydrolyse and inactivate susceptible beta-lactam antibiotics before the drugs can act on their cell-wall target. This mechanism changes the drug itself and differs from target modification, reduced permeability and active efflux.
-## explicit_objective
-Identify beta-lactamase production as enzymatic drug inactivation and distinguish it from other resistance mechanisms.
-## pitfalls
-Calling altered PBPs, porin loss or efflux examples of enzymatic destruction merely because each produces resistance.
-## concept_type
-mechanism
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Resistance mechanisms > Enzymatic drug inactivation
-## article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-ART-HU-BMS102-MIC-F20P1-DEFINITIONS-RESISTANCE
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-570A1012DB9324
-CON-INF-39978E6864743D
-CON-INF-DFC3D949513ED2
-CON-INF-0096D0AC9CB83E
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-src_e89478440e99a6b8a854
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q17
-src_e89478440e99a6b8a854 | tier-6 auxiliary study bank | Family-20 Q02; printed study answer only, no official-key authority
-## atomic_claim_ids
-CLM-HU102-F11P2-Q17-01
-CLM-HU102-F20P1-Q02-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p21] Bacteria produce enzymes that inactivate the drug e.g. production of penicillin-destroying enzymes (β-lactamases).
-[Family-20 Q02] 2- Which enzyme destroys penicillin and causes resistance? [printed answer C]
-[Assessment p5 Q17] A bacteria's production of an enzyme that modifies and inactivates a drug is a common resistance mechanism. An example is: Answer: Production of beta-lactamases that destroy penicillin.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-family20Reuse: Exact-ID reuse preserves the earlier semantic record and appends only the Family-20 article, source occurrence and claim links. This exact-ID Helwan reuse adds the Family-20 occurrence without changing the established beta-lactamase drug-inactivation scope.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
+
 ## label
-Antibiotic suppression of normal flora can permit Candida oral superinfection
+Antibiotic eradication of susceptible normal flora can permit resistant organisms to cause superinfection
+
 ## id
 CON-INF-86D082D1785D7A
+
 ## canonical_key
-teaching.microv1.chemotherapy.superinfection
-## aliases
-Antibiotic-associated oral thrush
-Candida superinfection
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Prolonged antimicrobial therapy can suppress susceptible normal flora and allow resistant organisms to overgrow. Candida overgrowth in the mouth with oral thrush is the source example of superinfection, not direct drug toxicity, hypersensitivity or resistance developing in the patient.
-## explicit_objective
-Recognize oral Candida overgrowth after prolonged antibiotics as superinfection caused by suppression of normal flora.
-## pitfalls
-Calling thrush drug toxicity or hypersensitivity without identifying replacement of suppressed normal flora.
-## concept_type
-clinical_application
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-inf
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Complications of therapy > Candida superinfection
-## article_ids
-ART-HU-BMS102-MIC-F11P2-ANTIMICROBIAL-COMPLICATIONS
-ART-HU-BMS102-MIC-F20P1-ACTION-SELECTION
-## related_article_ids
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-MECHANISMS
-ART-HU-BMS102-MIC-F11P2-RESISTANCE-ORIGINS-GENETICS
-ART-HU-BMS102-MIC-F11P2-COMBINATIONS-STEWARDSHIP
-## related_concept_ids
-CON-INF-303D18B5BF2499
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-src_e89478440e99a6b8a854
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q26
-src_e89478440e99a6b8a854 | tier-6 auxiliary study bank | Family-20 Q04; printed study answer only, no official-key authority
-## atomic_claim_ids
-CLM-HU102-F11P2-Q26-01
-CLM-HU102-F20P1-Q04-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p34] Another type of superinfection is due to suppression of normal flora by the antibiotic used and their replacement with drug resistant organisms which cause disease, e.g. overgrowth of Candida in the mouth causing oral thrush.
-[Family-20 Q04] 4- A 65-year-old male with a history of chronic urinary tract infections has been on long-term antibiotic
-therapy. He presents with white patches in his mouth and discomfort while eating. Which complication of
-antibiotic therapy is most likely? [printed answer B]
-[Assessment p7 Q26] A patient on long-term, high-dose antibiotic therapy develops oral thrush caused by Candida overgrowth. This is a classic example of which complication? Answer: Superinfection.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-family20Reuse: Exact-ID reuse preserves the earlier semantic record and appends only the Family-20 article, source occurrence and claim links. The oral Candida presentation is retained as the source example of superinfection after long-term antibacterial therapy.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Enterococci are intrinsically resistant to cephalosporins in the source because they lack the drug receptor
@@ -502,272 +285,51 @@ reuseGovernance: New Family-20 question-led concept after governed no-same-scope
 ---
 
 # Item
+
 ## label
-Sulphonamides are PABA analogues that competitively inhibit bacterial folate synthesis
+Sulfonamides are bacteriostatic because they are structural analogues of PABA and competitively inhibit the bacterial enzyme that builds folic acid from it
+
 ## id
 CON-INF-5A15540CA80809
+
 ## canonical_key
-sulfonamide-competitive-inhibition-of-folate-synthesis
-## aliases
-Sulfonamide PABA competition
-Competitive folate-synthesis inhibition
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Sulphonamides structurally resemble para-aminobenzoic acid and compete with PABA for the active centre of the bacterial enzyme that incorporates it into folate synthesis. Blocking folate formation limits nucleotide synthesis and bacterial multiplication.
-## explicit_objective
-Explain sulphonamide action as competitive inhibition produced by structural analogy to PABA.
-## pitfalls
-Assigning sulphonamides to DNA gyrase, irreversible protein-synthesis inhibition or cell-wall autolysis.
-## concept_type
-mechanism
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-pharm
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Protein and folate mechanisms > Sulphonamide competitive inhibition
-## article_ids
-ART-HU-BMS102-MIC-F11P1-RIBOSOME-FOLATE-MECHANISMS
-ART-HU-BMS102-MIC-F20P1-DEFINITIONS-RESISTANCE
-## related_article_ids
-ART-HU-BMS102-MIC-F11P1-DEFINITIONS-CIDALITY
-ART-HU-BMS102-MIC-F11P1-SPECTRUM-SELECTIVE-TOXICITY
-ART-HU-BMS102-MIC-F11P1-CELL-WALL-MECHANISMS
-## related_concept_ids
-CON-INF-29351FD540E214
-CON-INF-6F6F8F6ABEE2FC
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-src_e89478440e99a6b8a854
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.72
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q16
-src_e89478440e99a6b8a854 | tier-6 auxiliary study bank | Family-20 Q06; printed study answer only, no official-key authority
-## atomic_claim_ids
-CLM-HU102-F11P1-Q16-01
-CLM-HU102-F20P1-Q06-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p18] Sulphonamides are structural analogues to PABA so they enter into the reaction in place of PABA and compete for the active center of the enzyme thus inhibiting folic acid synthesis.
-[Family-20 Q06] 6- A drug that acts by competing with PABA and blocks folic acid synthesis
-is: [printed answer B]
-[Assessment p5 Q16] The mechanism of action of sulphonamides is best described as: Answer: Competitive inhibition, as they are structural analogues of PABA.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-family20Reuse: Exact-ID reuse preserves the earlier semantic record and appends only the Family-20 article, source occurrence and claim links. This exact-ID reuse preserves sulphonamide competition with PABA and does not broaden the mechanism beyond folate synthesis.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
+
 ## label
-A bacteriostatic drug inhibits multiplication and leaves clearance to host defences
+A bacteriostatic agent reversibly inhibits bacterial multiplication
+
 ## id
 CON-INF-4E8ECDA3106CD7
+
 ## canonical_key
-teaching.microv1.bacteriostatic.definition
-## aliases
-Bacteriostatic definition
-Reversible bacterial growth inhibition
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-A bacteriostatic drug inhibits bacterial multiplication without directly killing the organisms. Growth can resume after withdrawal, so host defence mechanisms such as phagocytosis are required to clear the inhibited bacteria.
-## explicit_objective
-Define bacteriostatic action and explain why intact host defence is needed for microbial clearance.
-## pitfalls
-Calling reversible growth inhibition rapid irreversible killing, or assuming that inhibition alone eliminates bacteria in a severely immunocompromised host.
-## concept_type
-definition
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-pharm
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Bacteriostatic and bactericidal action > Bacteriostatic action
-## article_ids
-ART-HU-BMS102-MIC-F11P1-DEFINITIONS-CIDALITY
-ART-HU-BMS102-MIC-F20P1-ACTION-SELECTION
-## related_article_ids
-ART-HU-BMS102-MIC-F11P1-SPECTRUM-SELECTIVE-TOXICITY
-ART-HU-BMS102-MIC-F11P1-CELL-WALL-MECHANISMS
-ART-HU-BMS102-MIC-F11P1-RIBOSOME-FOLATE-MECHANISMS
-## related_concept_ids
-CON-INF-25871D95E4E1D3
-CON-INF-ABF1EA01540430
-CON-INF-D410FB0D3DDFA8
-CON-INF-7D05204BF47C67
-CON-INF-8779E4885B09B8
-## resource_ids
-src_bd6d792541ed79e0e692
-src_4abfcc7807e4409a34dd
-src_e89478440e99a6b8a854
-src_4abfcc7807e4409a34dd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.72
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## confidence
-0.92
-## exam_signal
-src_4abfcc7807e4409a34dd | tier-3 local keyed study bank | undated | Family-11 Q04
-src_e89478440e99a6b8a854 | tier-6 auxiliary study bank | Family-20 Q07/Q09; printed study answer only, no official-key authority
-## atomic_claim_ids
-CLM-HU102-F11P1-Q04-01
-CLM-HU102-F20P1-Q07-01
-CLM-HU102-F20P1-Q09-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p5] Inhibit bacterial multiplication, but do not kill them. The host defence mechanisms, such as phagocytosis, are required to kill bacteria.
-[Family-20 Q07] 7- A patient with a mild bacterial infection is prescribed a bacteriostatic agent. What is eppected to
-contribute to the clearance of the infection? [printed answer C]
-[Family-20 Q09] 9- Bacteriostatic drugs act by: [printed answer C]
-[Assessment p2 Q04] A bacteriostatic drug is best described as an agent that: Answer: Inhibits bacterial multiplication, allowing the host's immune system to kill the bacteria.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan microbiology faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Microbiology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-family20Reuse: Exact-ID reuse preserves the earlier semantic record and appends only the Family-20 article, source occurrence and claim links. The two distinct Family-20 occurrences preserve the existing composite concept: growth inhibition without killing and subsequent host-defence clearance.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 11 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID and canonical scope.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Vancomycin has a narrow spectrum focused on selected Gram-positive cocci

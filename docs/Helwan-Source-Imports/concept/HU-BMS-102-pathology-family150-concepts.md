@@ -863,151 +863,28 @@ exclusionReason: Not excluded; held at needs_evidence.
 ---
 
 # Item
+
 ## label
 Liquefactive necrosis turns the dead tissue to fluid, in the brain and in pus
+
 ## id
 CON-FND-88508ABAB84A67
+
 ## canonical_key
-necrosis.liquefactive.cns-infarct-and-pus
-## aliases
-Liquefactive necrosis
-Colliquative necrosis
-Colliquative
-Pus
-Abscess
-## arabic_label
-النخر التميعي
-## arabic_aliases
-النخر الاستحالي
-القيح
-## definition
-Liquefactive or colliquative necrosis occurs in central nervous system infarction, where the tissue is rich in lipid, soft and lacking supporting stroma. The necrotic area becomes surrounded by glial tissue and is changed into a cyst. Pus in suppurative inflammation is the other example.
-## explicit_objective
-Name the two settings in which liquefactive necrosis occurs, and explain from tissue structure why the brain liquefies where the kidney does not.
-## pitfalls
-Answering "brain" alone. The 2024 paper's correct option was the centre of a pyogenic abscess, with three solid-organ infarcts as distractors — pus is liquefactive necrosis and it is the answer the examiner reaches for.
-## concept_type
-mechanism
-## status
-Draft
-## support_mode
-direct_statement
-## subject
-fnd
-## primary_node_id
-SYS-FND-T03-S01-M02
-## secondary_node_ids
-DIS-PAT-T01
-## topic
-General pathology
-## subtopic
-Cellular Response to Injury
-## microtopic
-Types of necrosis
-## nanotopic
-Liquefactive or colliquative necrosis
-## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Family-125 > liquefactive
+
 ## universities
-hu
++hu
+
 ## learner_years
-1
-## article_ids
-+ART-HU-BMS102-PAT-F125-CELL-INJURY-DEPOSITS
-ART-HU-BMS102-PAT-F150-NECROSIS
-## related_article_ids
-ART-108-PAT-CELL-INJURY-AND-ADAPTATION
-ART-HU-BMS102-PAT-F150-FAT-NECROSIS-APOPTOSIS
-## related_concept_ids
-CON-FND-5285A9707E61CA
-CON-FND-4CD77608FB35DF
-## resource_ids
-+src_f660b7c9959ce8d1cde0
-src_92a00e70d341f27e46fd
-## approved_file_resource_ids
-[clear]
++1
 
-## approved_video_resource_ids
-[clear]
-
-## blueprint_weight
-0.7
-## exam_weight_by_year
-HU_Y1=0.60
-## clinical_relevance
-0.7
-## academic_relevance
-0.95
-## weight_confidence
-0.85
-## confidence
-0.95
-## exam_signal
-src_e294bafc730fe7111b06 | department_book | 2026 | p7 | 108 INT
-src_2606a244d9623c339871 | Helwan-branded tier-6 CBL deck | Family-86 CQ04 | red teaching-answer repeat, not an official key
-## atomic_claim_ids
-+CLM-HU102-F125-Q57-01
-CLM-HU102-F150-Q08-01
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-[Department book p7] Occurs in CNS infarctions, where the tissues are rich in lipid, soft and lack supporting stroma. The necrotic area becomes surrounded by glial tissue and is changed into a cyst. Pus in suppurative inflammation is also an example of liquefactive necrosis.
-[Family125 Q57] A patient suffered from a stroke and had left sided weakness and paralysis in the upper extremity. Which type of necrosis is associated with a well-developed brain infarction? [printed answer C]
-[Family150 Q08] Which tissue is the most susceptible to liquefactive necrosis following ischemic injury: [supplied answer D]
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-CON-RES-EA9A6089817998
-## conflicts
-[clear]
-
-## uncertainty
-[clear]
-
-## evidence_gaps
-Evidence must be attached before publication. Family125 adds instructor-bank prompt/key evidence only; independent verification and Helwan faculty review remain required.
-## owner
-Claude
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
+## modules
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Existing terminology is preserved when present; otherwise blank pending reviewed Arabic terminology.
-arabicAliases: Existing reviewed aliases are preserved; [clear] means none is assigned.
-microtopicId: Existing placement is preserved when present; otherwise no reviewed microtopic ID exists beneath the assigned node.
-nanotopicId: Existing placement is preserved when present; otherwise no reviewed nanotopic ID exists.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Family125 was hand-authored from exact prompt and printed-key rows, not a pipeline occurrence.
-sourceCandidateIds: Governed source-first adjudication is recorded in the triage ledger; no unresolved candidate pointer is carried.
-mergeIds: No merge occurred in Family125.
-rejectedMergeCandidateIds: Existing exact-ID reuse avoids a rival ID.
-lastReviewed: New Draft overlay; no Helwan faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-family125Reuse: Exact-ID reuse appends source, question, claim and article traceability without changing the earlier concept meaning.
-priorNotes: arabicLabel: Blank pending independently verified Arabic terminology review.
-family150Reuse: Complete prior row preserved; Family150 reciprocity appended.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Caseation necrosis is the cheese-like necrosis of tuberculosis
@@ -1158,134 +1035,28 @@ family150Reuse: Complete prior row preserved; Family150 reciprocity appended.
 ---
 
 # Item
+
 ## label
-Necrosis affects groups of cells, disrupts membranes and provokes inflammation
+Necrosis and apoptosis differ in cell size, membrane integrity and inflammation
+
 ## id
 CON-FND-2CDE9A5C884133
+
 ## canonical_key
-celldeath.contrast.necrosis-versus-apoptosis
-## aliases
-Necrosis versus apoptosis
-Necrotic cell death
-Group cell death with inflammation
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Necrosis is irreversible death of groups of cells with loss of membrane integrity, enzymatic digestion and leakage of cellular contents. It provokes inflammation and necrotic tissue may calcify. Apoptosis instead removes individual cells while preserving membrane integrity and avoiding a surrounding inflammatory reaction.
-## explicit_objective
-Recognize necrosis from grouped cell death, autolysis, inflammation and possible calcification.
-## pitfalls
-Choosing apoptosis when the stem explicitly describes groups of cells, autolysis and inflammation, or treating granulomatous inflammation and hyalinosis as forms of cell death.
-## concept_type
-comparison
-## status
-Draft
-## subject
-fnd
-## primary_node_id
-SYS-FND-T03-S01-M03
-## secondary_node_ids
-DIS-PAT-T01
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Cell injury > Necrosis versus apoptosis
-## article_ids
-ART-HU-BMS102-PAT-F10P1-FOUNDATIONS-CELL-INJURY
-ART-HU-BMS102-PAT-F150-NECROSIS
-## related_article_ids
-ART-HU-BMS102-PAT-F10P1-ACUTE-INFLAMMATION
-ART-HU-BMS102-PAT-F10P1-OEDEMA-EXUDATE
-ART-HU-BMS102-PAT-F150-FAT-NECROSIS-APOPTOSIS
-## related_concept_ids
-CON-FND-138A2385CB2CB5
-CON-FND-DF726F864C8BC3
-CON-FND-084E7714F4E0B6
-## resource_ids
-src_7c79d90e00f17c534be6
-src_a2b7d25d987469febab8
-src_92a00e70d341f27e46fd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.78
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## support_mode
-direct_statement
-## confidence
-0.92
-## exam_signal
-src_a2b7d25d987469febab8 | tier-3 local keyed study bank | undated | Family-10 M05
-## atomic_claim_ids
-CLM-HU102-F10P1-M05-01
-CLM-HU102-F150-Q10-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p34] Necrosis is death of a group of cells with loss of membrane integrity and leakage; cytoplasmic organelles rupture and may calcify.
-[Assessment p1 M05] The form of cell injury in which the living cells (in groups following exposure respond by autolysis, with subsequent inflammation & calcification: Answer: Necrosis.
-[Family150 Q10] All of the following are reversible pathological changes except: [supplied answer E]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 10 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID, canonical key and meaning.
-family150Reuse: Complete prior row preserved; Family150 reciprocity appended.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 The printed right-column key identifies D) Cell death as the answer to this exact source question.
@@ -1779,133 +1550,28 @@ exclusionReason: Not excluded; held at needs_evidence.
 ---
 
 # Item
+
 ## label
 Coagulative necrosis keeps the cell outline because denaturation outruns autolysis
+
 ## id
 CON-FND-5285A9707E61CA
+
 ## canonical_key
-necrosis.coagulative.ischaemic-protein-denaturation
-## aliases
-Coagulative necrosis
-Ischaemic necrosis
-Ghost outlines
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Coagulative necrosis follows ischaemic injury in most solid organs. Protein denaturation predominates over enzymatic digestion, so basic cellular outlines are preserved even though intracellular details are lost. Cerebral infarction is the important exception because ischaemic injury in brain undergoes liquefactive rather than coagulative necrosis.
-## explicit_objective
-Recognize the preserved-outline morphology of coagulative necrosis and exclude brain infarction from its usual organ pattern.
-## pitfalls
-Assuming every infarct is coagulative. Cerebral infarction is liquefactive despite being ischaemic.
-## concept_type
-comparison
-## status
-Draft
-## subject
-fnd
-## primary_node_id
-SYS-FND-T03-S01-M02
-## secondary_node_ids
-DIS-PAT-T01
-DIS-PAT-T08
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Cell injury > Coagulative necrosis
-## article_ids
-ART-HU-BMS102-PAT-F10P2-NECROSIS-MORPHOLOGY
-ART-HU-BMS102-PAT-F150-NECROSIS
-## related_article_ids
-ART-HU-BMS102-PAT-F10P2-GRANULOMATOUS-PYEMIC-INFECTION
-ART-HU-BMS102-PAT-F10P2-PRIMARY-TB-SPREAD-SITES
-ART-HU-BMS102-PAT-F150-FAT-NECROSIS-APOPTOSIS
-## related_concept_ids
-
-## resource_ids
-src_a2b7d25d987469febab8
-src_7c79d90e00f17c534be6
-src_92a00e70d341f27e46fd
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.84
-## exam_weight_by_year
-HU_Y1=0.84
-## clinical_relevance
-0.82
-## academic_relevance
-0.98
-## weight_confidence
-0.64
-## support_mode
-direct_statement
-## confidence
-0.92
-## exam_signal
-src_a2b7d25d987469febab8 | tier-3 local keyed study bank | undated | PDF p4 | Family-10 M21
-## atomic_claim_ids
-CLM-HU102-F10P2-M21-01
-CLM-HU102-F150-Q15-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p38] The Helwan lecture states that protein coagulation predominates over enzymatic digestion, the basic cell outline is preserved, details are lost, and myocardial infarction is an example.
-[Assessment p4 M21] Coagulative necrosis characterized by except Answer: Occur in brain infarction.
-[Family150 Q15] You are asked to write a microscopic description of the coagulative necrosis that was noted in the heart of a patient who died of a heart attack because of cocaine abuse. Which of the following best describes coagulative necrosis: [supplied answer A]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 10 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New HU overlay; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
-reuseGovernance: Standalone-complete HU overlay preserving the exact governed concept ID, canonical key and meaning.
-family150Reuse: Complete prior row preserved; Family150 reciprocity appended.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 The printed right-column key identifies B) Liquefaction necrosis as the answer to this exact source question.

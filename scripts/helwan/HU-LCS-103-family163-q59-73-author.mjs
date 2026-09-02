@@ -31,7 +31,10 @@ const source = {
   anatomy: 'src_aa8bb730fbccdbf7d6e0',
 }
 const conceptIds = {
-  gout: 'CON-REN-B9E0531973510E',
+  // Re-minted 2026-09-02 — was a hand-typed live Kasr id; see
+  // docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md and
+  // scripts/helwan/HU-LCS-103-family163-q15-28-author.mjs, which mints it.
+  gout: 'CON-MSK-B37643A373463E',
   debridement: 'CON-MSK-4A6E1433462500',
   prognosis: 'CON-MSK-D11FA83681C5C6',
   carpal: 'CON-MSK-9B52018C4649BD',

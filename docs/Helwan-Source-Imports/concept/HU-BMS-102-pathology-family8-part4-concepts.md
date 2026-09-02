@@ -137,129 +137,28 @@ src_6050cec97addd49101a3
 ---
 
 # Item
+
 ## label
 Both immune responses start with a macrophage presenting antigen to a helper T cell
+
 ## id
 CON-HEM-681584C9DC1F94
+
 ## canonical_key
-macrophage-and-t-helper-start-both-immune-responses
-## aliases
-Macrophage antigen presentation
-Macrophage-helper T-cell initiation
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Cell-mediated and humoral immune responses share an opening step: a macrophage phagocytoses and presents antigen, and a helper T cell recognizes the presented antigen and becomes activated.
-## explicit_objective
-Identify macrophage as the source-keyed antigen-presenting cell.
-## pitfalls
-Choosing the antibody-producing plasma cell or an acute granulocyte as the initiating antigen-presenting cell in this source comparison.
-## concept_type
-mechanism
-## status
-under review
-## subject
-haem
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-SYS-HEM-T01-S01-M02
-SYS-INF
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Inflammation > Macrophage functions
-## article_ids
-ART-101-HIS-NON-GRANULAR-LEUKOCYTES
-ART-HU-BMS102-PAT-F8P4-MACROPHAGE-CHRONICITY
-## related_article_ids
-ART-HU-BMS102-PAT-F8P4-GRANULOMA-PATHOGENESIS
-ART-101-HIS-NON-GRANULAR-LEUKOCYTES
-## related_concept_ids
-CON-HEM-157B01DD5EAEB6
-CON-INF-65FB4A491E31E5
-CON-INF-7B5A8F2C984934
-## resource_ids
-src_165dec8b80c5561564ec
-src_6050cec97addd49101a3
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.86
-## exam_weight_by_year
-HU_Y1=0.86
-## clinical_relevance
-0.84
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## support_mode
-direct_statement
-## confidence
-0.93
-## exam_signal
-src_6050cec97addd49101a3 | tier-3 local keyed study bank | undated | Family-8 Q38, Q48
-## atomic_claim_ids
-CLM-HU102-F8P4-MACROPHAGE-APC-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p8] The revision handout identifies antigen presentation by macrophages.
-[Assessment p8 Q38] The main cell responsible for antigen presentation to immune system is: Answer: Macrophage.
-[Assessment p9 Q48] The main cell responsible for antigen presentation to the immune system is: Answer: Macrophages.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical inflammation placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned canonical node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 8 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New record; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Granuloma pathogenesis is related to type IV hypersensitivity
@@ -506,128 +405,28 @@ exclusionReason: Not excluded; held at needs_evidence.
 ---
 
 # Item
+
 ## label
 The reticulo-endothelial system is the body's tissue-macrophage network, and its defence is phagocytosis
+
 ## id
 CON-HEM-157B01DD5EAEB6
+
 ## canonical_key
-reticuloendothelialsystem.function.defence
-## aliases
-Mononuclear phagocyte system
-Tissue macrophage network
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-The reticulo-endothelial or mononuclear phagocyte system is a diffuse tissue-macrophage network. Its defensive role is phagocytosis of particulate matter, spent cells and microorganisms from blood and tissues.
-## explicit_objective
-Identify macrophage as a phagocytic cell.
-## pitfalls
-Choosing a lymphocyte, plasma cell, basophil or platelet when the question asks for a professional tissue phagocyte.
-## concept_type
-definition
-## status
-under review
-## subject
-imm
-## primary_node_id
-SYS-IMM-T01-S01-M03
-## secondary_node_ids
-SYS-HEM-T01-S01-M02
-SYS-INF
-## learner_years
-1
 ## universities
-hu
++hu
+
+## learner_years
++1
+
 ## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Pathology > Inflammation > Macrophage functions
-## article_ids
-ART-HEM-AU103-LYMPHOID-ORGANS
-ART-HU-BMS102-PAT-F8P4-MACROPHAGE-CHRONICITY
-## related_article_ids
-ART-HU-BMS102-PAT-F8P4-GRANULOMA-PATHOGENESIS
-ART-HEM-AU103-LYMPHOID-ORGANS
-## related_concept_ids
-CON-HEM-681584C9DC1F94
-CON-INF-65FB4A491E31E5
-CON-INF-7B5A8F2C984934
-## resource_ids
-src_165dec8b80c5561564ec
-src_6050cec97addd49101a3
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.86
-## exam_weight_by_year
-HU_Y1=0.86
-## clinical_relevance
-0.84
-## academic_relevance
-0.98
-## weight_confidence
-0.65
-## support_mode
-direct_statement
-## confidence
-0.93
-## exam_signal
-src_6050cec97addd49101a3 | tier-3 local keyed study bank | undated | Family-8 Q46
-## atomic_claim_ids
-CLM-HU102-F8P4-MACROPHAGE-PHAGOCYTE-01
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## original_wording
-[Teaching p8] The revision handout lists macrophages among phagocytic cells.
-[Assessment p9 Q46] Which of the following cells can act as a phagocytic cell: Answer: Macrophage.
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Independent medical verification and Helwan faculty review remain required before publication.
-## owner
-Helwan Year-1 authoring lane
-## reviewer
-Medical team, Helwan Pathology faculty
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-## editorial_review_status
-drafted_not_reviewed
-## exclusion_reason
++HU-BMS-102
 
 ## field_notes
-arabicLabel: Blank pending independently verified Arabic terminology review.
-arabicAliases: No distinct source-supported Arabic alias has been reviewed.
-microtopicId: No reviewed microtopic ID exists beneath the canonical inflammation placement.
-nanotopicId: No reviewed nanotopic ID exists beneath the assigned canonical node.
-approvedFileResourceIds: Local source files are not rights-cleared for redistribution.
-approvedVideoResourceIds: No video is assigned.
-resourceOccurrenceIds: Hand-authored from exact governed pages.
-sourceCandidateIds: Family 8 completed the four-query search-before-mint gate in the governing triage.
-mergeIds: No merge occurred; the exact canonical scope is represented once.
-rejectedMergeCandidateIds: No rival same-scope concept survived triage.
-lastReviewed: New record; no faculty review has occurred.
-reviewDue: Set after first faculty review.
-exclusionReason: Not excluded; held at needs_evidence.
----
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
+---
 # Item
 ## label
 Fibroblastic proliferation is reliable evidence of chronic inflammation

@@ -4,10 +4,10 @@
 Gout produces needle-shaped negatively birefringent urate crystals and hyperuricaemia in the local assessment pattern
 
 ## id
-CON-REN-B9E0531973510E
+CON-MSK-B37643A373463E
 
 ## canonical_key
-teaching.bio2.secondary-metabolic-gout
+teaching.msk.gout.secondary-crystal-lab-pattern
 
 ## aliases
 Secondary metabolic gout
@@ -174,7 +174,7 @@ Family-163 Q48 adds a distinct gouty-mass occurrence with exact 1st metatarsopha
 Family-163 Q60 prints B and Q63 prints A in both answer layers.
 
 ## atomic_claim_ids
-CLM-REN-B9E0531973510E
+CLM-MSK-B37643A373463E
 CLM-MSK-HULCS103-F96-GOUT-01
 CLM-HULCS103-F163-GOUT-Q18-22-01
 CLM-HULCS103-F163-GOUT-Q39-01
@@ -589,220 +589,20 @@ Carpal tunnel syndrome is the median nerve compressed under the flexor retinacul
 CON-MSK-9B52018C4649BD
 
 ## canonical_key
-carpal-tunnel-median-nerve-compression
-
-## definition
-Carpal tunnel syndrome is compression of the median nerve as it passes deep to the flexor retinaculum. Sensation is impaired over the palmar surface of the lateral three and a half fingers and over the dorsal aspect of their distal phalanges, which matters because touch and proprioception there are what fine manipulation depends on. The thenar muscles and the lateral two lumbricals are impaired, and loss of opposition of the thumb markedly affects the fine function of the hand and the hand grip. The deformity is the ape (monkey's) hand: the thenar eminence wasted and flattened, the thumb laterally rotated and adducted with loss of opposition.
-
-Family-163 Q53 adds a nocturnal paresthesia occurrence while preserving the radial-aspect Tinel wording as a visible source risk.
-
-Family-163 Q64 repeats the Q53 clinical body but asks for the diagnosis and prints Carpal tunnel syndrome from a distinct option set.
-
-## explicit_objective
-Localise the lesion in carpal tunnel syndrome, give its sensory and motor territory, and explain why each loss disables the hand.
-Identify Median nerve compression without repairing the source phrase tapping over the radial aspect.
-
-Keep the diagnosis occurrence distinct from Q53’s etiology objective.
-
-## pitfalls
-Calling the numbness the disability. The sensory loss is over the fingers that do fine work, but it is losing opposition of the thumb that costs the hand its grip.
-
-Preserve the exact Family-163 wording, option order and agreeing key; do not infer held answers or clinical guidance.
-
-Preserve tapping over the radial aspect of the wrist; do not silently repair the Tinel wording.
-
-## concept_type
-clinical_correlation
-
-## status
-under review
-
-## subject
-msk
-
-## primary_node_id
-DIS-ANA-T02
-
-## secondary_node_ids
-SYS-MSK-T01-S01-M03
-
-## modules
-101 ISK
-
-## module_subject
-101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
 
 ## universities
-kau
++hu
 
 ## learner_years
-1
++1
 
-## exam_signal
-src_0f1171705349e98b44e6 | question_book | | p13 | 101 ISK
-src_0f68f0c75a8effe74782 | question_book | | p17 | 101 ISK
-src_69103a53ec28a93958d5 | question_book | | p32 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p52 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p31 | 101 ISK
-src_08bc782553366518791e | question_book | | p69 | 101 ISK
-src_0f1171705349e98b44e6 | question_book | | p33 | 101 ISK
-src_69103a53ec28a93958d5 | question_book | | p5 | 101 ISK
-src_08bc782553366518791e | question_book | | p65 | 101 ISK
-src_b7301bfcd7d002317e40 | question_book | | p80 | 101 ISK
-src_08bc782553366518791e | question_book | | p71 | 101 ISK
-src_08bc782553366518791e | question_book | | p62 | 101 ISK
-src_08bc782553366518791e | question_book | | p58 | 101 ISK
-
-Family-163 Q53 adds a nocturnal paresthesia occurrence while preserving the radial-aspect Tinel wording as a visible source risk.
-
-Family-163 Q64 prints B in both answer layers.
-
-## weight_confidence
-0.8
-
-## blueprint_weight
-1.00
-
-## exam_weight_by_year
-KAU_Y1=1.00
-
-## clinical_relevance
-0.3
-
-## academic_relevance
-0.9
-
-## confidence
-0.85
-
-## topic
-Anatomy
-
-## subtopic
-Upper Limb
-
-## aliases
-[clear]
-
-## article_ids
-+ART-HU-LCS103-MSK-F163-GOUT-OA-CARPAL-ASSOCIATIONS
-ART-HU-LCS103-MSK-F163-GOUT-OA-CARPAL-ASSOCIATIONS
-
-## support_mode
-direct_statement
-
-## original_wording
-[asked 4x across the question books] Motor loss resulting from carpal tunnel syndrome induces; mark the most acceptable answer:
-
-Family-163 Q53 adds a nocturnal paresthesia occurrence while preserving the radial-aspect Tinel wording as a visible source risk.
-
-Family-163 Q64 prints B in both answer layers.
-
-## conflicts
-[clear]
-
-## uncertainty
-[clear]
-The formal and red answers agree for the included occurrence, but both layers belong to the same local course-bank source and are not independent verification.
-The literal radial-aspect wording remains a visible source risk.
-
-## evidence_gaps
-[clear]
-
-## arabic_label
-
-
-## arabic_aliases
-[clear]
-
-## microtopic
-[clear]
-
-## nanotopic
-[clear]
-
-## related_concept_ids
-[clear]
-
-## related_article_ids
-+ART-HU-LCS103-MSK-F163-GOUT-OA-CARPAL-ASSOCIATIONS
-ART-HU-LCS103-MSK-F163-GOUT-OA-CARPAL-ASSOCIATIONS
-
-## resource_ids
-+src_79b5752c4d6f23e6dafc
-src_aa8bb730fbccdbf7d6e0
-src_79b5752c4d6f23e6dafc
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## atomic_claim_ids
-+CLM-HULCS103-F163-CARPAL-Q53-01
-CLM-HULCS103-F163-CARPAL-DIAGNOSIS-Q64-01
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-[clear]
-
-## exclusion_reason
-
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## owner
-Claude
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-authored_needs_independent_evidence
+## modules
++HU-LCS-103
 
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
 
 ---
-
 # Item
 
 ## label

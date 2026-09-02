@@ -1123,130 +1123,25 @@ reuseGovernance: New Family-20 question-led concept after governed no-same-scope
 ---
 
 # Item
+
 ## label
 Addition means combined action equals the sum of each antimicrobial action
+
 ## id
 CON-INF-EAF4C14131FA44
+
 ## canonical_key
-teaching.microv1.combined-therapy.addition
-## aliases
-[clear]
-## arabic_label
 
-## arabic_aliases
-[clear]
-## definition
-Addition means combined action equals the sum of each antimicrobial action.
-## explicit_objective
-Explain the concept, its stated qualifiers, and its evidence limits: Addition means combined action equals the sum of each antimicrobial action.
-## pitfalls
-
-## concept_type
-directly_taught_microbiology_concept
-## status
-Draft
-## support_mode
-direct
-## subject
-pharm
-## primary_node_id
-DIS-MIC-T01
-## secondary_node_ids
-SYS-INF
-DIS-MIC
-## learner_years
-1
-2
-3
 ## universities
-kau
-hu
-## modules
-HU-BMS-102
-## module_subject
-HU-BMS-102 > Microbiology > Antimicrobial chemotherapy > Combination effects > Addition
-## article_ids
-ART-INF-TOP-65C8E5125F
-ART-HU-BMS102-MIC-F20P2-FOLATE-AND-COMBINATION-EFFECTS
-## related_article_ids
-ART-INF-TOP-65C8E5125F
-ART-HU-BMS102-MIC-F20P2-RESISTANCE-AND-DRUG-TARGETS
-ART-HU-BMS102-MIC-F20P2-SPECTRUM-TOXICITY-AND-CLASSIFICATION
-## related_concept_ids
-[clear]
-## resource_ids
-src_1fb61f5578a8ec61b107
-src_e89478440e99a6b8a854
-src_bd6d792541ed79e0e692
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## blueprint_weight
-0.5800000000000001
-## exam_weight_by_year
-KAU_Y1=0.75
-KAU_Y2=0.75
-KAU_Y3=0.75
-HU_Y1=0.62
-## clinical_relevance
-0.65
-## academic_relevance
-0.9
-## weight_confidence
-0.6000000000000001
-## confidence
-0.96
-## exam_signal
-src_e89478440e99a6b8a854 | tier-6 auxiliary study bank | Family-20 Q24, printed study answer only; src_bd6d792541ed79e0e692 | tier-4 Helwan teaching carrier | direct addition definition, no official-key authority
-## atomic_claim_ids
-CLM-INF-EAF4C14131FA44
-CLM-HU102-F20P2-Q24-01
-## resource_occurrence_ids
-OCC-DEC34023E60958
-## source_candidate_ids
-concept_3fae5bbc3f994c734996d340
-## original_wording
-Addition means combined action equals the sum of each antimicrobial action
-[Family-20 Q24] 24- In antibiotic combinations, which term describes a situation where the total effect is equal to the sum of
-the individual effects? [printed answer B]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## conflicts
-[clear]
-## uncertainty
-Live exact-ID reuse preserves the KAU-authored fields and appends the distinct Helwan occurrence, article and evidence links without replacing the existing source state.
-## evidence_gaps
-A second independent eligible source or current authoritative verification is required before publication.
-No official Helwan examination key, sitting or marks are available for the Family-20 occurrence.
-## owner
-Admin team
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-2026-08-11
-## review_due
++hu
 
-## publication_status
-needs_evidence
-## editorial_review_status
-editorially_reviewed_needs_independent_evidence
-## exclusion_reason
+## learner_years
++1
+
+## modules
++HU-BMS-102
 
 ## field_notes
-arabicLabel: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-aliases: No distinct source-supported synonym or abbreviation was supplied.
-pitfalls: No concept-specific misconception was explicitly supported by the qualified source.
-moduleIds: No verified live module ID was supplied; curriculum mapping remains explicit and unguessed.
-topicTagId: No truthful topic exists in the optional eight-system curriculum overlay; canonical placement is complete.
-subtopicId: No truthful subtopic exists in the optional eight-system curriculum overlay; canonical placement is complete.
-microtopicId: Optional legacy overlay; the canonical medical taxonomy placement remains the source of truth.
-nanotopicId: Optional legacy overlay; no verified nanotopic ID was supplied.
-approvedFileResourceIds: Qualified local files retain exact occurrences but remain pending secure upload.
-approvedVideoResourceIds: No qualified video source was supplied for this concept.
-reviewDue: Not scheduled until initial evidence review is complete.
-family20Part2Reuse: Live exact-ID reuse preserves the KAU-authored fields and appends the distinct Helwan occurrence, article and evidence links without replacing the existing source state.
+Sparse Helwan overlay, converted from a bare full-record update row that risked replacing this record's universityIds/learnerYears/moduleIds instead of appending to them (Helwan ID-collision audit, docs/chief-of-staff/HELWAN-ID-COLLISION-AUDIT-2026-09-02.md). Adds Helwan tagging only; the live label, definition and every other field are left untouched.
+
+---
