@@ -414,3 +414,67 @@ Primary cartilaginous joints are hyaline and temporary; secondary ones are fibro
 
 ## field_notes
 scu: FOMSCU Foundation 2 QBank, Formative 2025 Q7 — tests the epiphyseal growth plate as the textbook example of a primary (hyaline, temporary) cartilaginous joint. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-concepts.md.
+
+---
+
+<!--
+  BATCH 3 (same author lane, scu-fbs103-author1) — appended below the
+  batch-2 divider above. Covers the 2 reuse questions in the sibling
+  SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (the
+  batch's other 14 questions mint fresh concepts instead, in
+  docs/FOMSCU-Source-Imports/concept/SCU-FBS103-s2-author1-batch2-mint-concepts.md).
+  PENDING (2) — exist only in Ain Shams's/6October's own unimported
+  batches (checked directly against the live JSON: neither id is in it).
+
+  Gate together with:
+  node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-s2-physiology-pathology-parasitology-questions.md \
+    --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-overlay-concepts.md \
+    --with docs/FOMSCU-Source-Imports/concept/SCU-FBS103-s2-author1-batch2-mint-concepts.md \
+    --with docs/FOMSCU-Source-Imports/article/SCU-FBS103-s2-author1-batch2-mint-articles.md \
+    --with docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md \
+    --with docs/Ain-Shams-Source-Imports/article/ASU-INF-microbiology-articles.md \
+    --with docs/6October-Source-Imports/concept/O6U-IMP-106-new-concepts.md \
+    --with docs/6October-Source-Imports/article/O6U-IMP-106-new-articles.md
+-->
+
+# Item
+
+## id
+CON-INF-7213E96DAD38D1
+
+## label
+The macroscopic aggregation of fungal hyphae is known as the mycelium
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOY 2025 Q23 — tests the mycelium as the macroscopic mass of fungal hyphae. Target — apply after docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-INF-5B65FB27C77C1C
+
+## label
+Continuous cell culture used for viral isolation consists of immortalized cell lines, such as tumour cell lines
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOY 2025 Q24 — tests the continuous cell line as the immortalized culture type used for extended viral replication. Target — apply after docs/6October-Source-Imports/concept/O6U-IMP-106-new-concepts.md.

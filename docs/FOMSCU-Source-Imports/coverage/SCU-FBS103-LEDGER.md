@@ -41,26 +41,16 @@
 | microbiology-a-protein-coat-and-nucleic-acid | 0 | 0 | 1 | 1 |
 | microbiology-aspergillus-species | 0 | 0 | 1 | 1 |
 | microbiology-cell-wall | 0 | 0 | 1 | 1 |
-| microbiology-continuous-cell-line | 0 | 0 | 1 | 1 |
 | microbiology-exoenzymes-invasion-factors | 0 | 0 | 1 | 1 |
 | microbiology-heterotrophs | 0 | 0 | 1 | 1 |
-| microbiology-mycelium | 0 | 0 | 1 | 1 |
 | microbiology-outer-membrane | 0 | 0 | 1 | 1 |
-| parasitology-diagnostic-stage | 0 | 0 | 1 | 1 |
 | parasitology-direct-life-cycle | 0 | 0 | 1 | 1 |
 | parasitology-eating-undercooked-infected-fish | 0 | 0 | 1 | 1 |
 | parasitology-golden-brown | 0 | 0 | 1 | 1 |
 | parasitology-molluscs-and-snails | 0 | 0 | 1 | 1 |
-| parasitology-parasite | 0 | 0 | 1 | 1 |
 | parasitology-sarcodina | 0 | 0 | 1 | 1 |
-| parasitology-scolex | 0 | 0 | 1 | 1 |
 | parasitology-skin-penetration-by-larva | 0 | 0 | 1 | 1 |
 | parasitology-their-site-of-living-in-the-host | 0 | 0 | 1 | 1 |
-| pathology-activation-of-caspases | 0 | 0 | 1 | 1 |
-| pathology-it-is-only-a-pathological-process | 0 | 0 | 1 | 1 |
-| pathology-necrosis | 0 | 0 | 1 | 1 |
-| pathology-pathogenesis | 0 | 0 | 1 | 1 |
-| pathology-the-expected-further-outcome-of-a-disease | 0 | 0 | 1 | 1 |
 | pending-live-reuse-batch1 | 15 | 0 | 0 | 15 |
 | pharmacology-acetylsalicylic-acid | 0 | 0 | 1 | 1 |
 | pharmacology-cross-tolerance | 0 | 0 | 1 | 1 |
@@ -72,12 +62,7 @@
 | pharmacology-the-study-of-absorption-distribution-metaboli | 0 | 0 | 1 | 1 |
 | pharmacology-type-b-bizarre | 0 | 0 | 1 | 1 |
 | pharmacology-type-e-end-of-dose-adverse-effect | 0 | 0 | 1 | 1 |
-| physiology-beta-2-receptors | 0 | 0 | 1 | 1 |
-| physiology-exhaustion-of-the-neurotransmitter-storage | 0 | 0 | 1 | 1 |
-| physiology-inward-movement-of-chloride-ions | 0 | 0 | 1 | 1 |
-| physiology-k-leaves-the-neuron-causing-hyperpolarization | 0 | 0 | 1 | 1 |
-| physiology-ligand-gated-potassium-channels | 0 | 0 | 1 | 1 |
-| physiology-peripheral-nervous-system-pns | 0 | 0 | 1 | 1 |
+| physiology-pathology-parasitology-mints | 16 | 0 | 0 | 16 |
 
 ## Held
 (none)
@@ -124,26 +109,16 @@
 - microbiology-a-protein-coat-and-nucleic-acid
 - microbiology-aspergillus-species
 - microbiology-cell-wall
-- microbiology-continuous-cell-line
 - microbiology-exoenzymes-invasion-factors
 - microbiology-heterotrophs
-- microbiology-mycelium
 - microbiology-outer-membrane
-- parasitology-diagnostic-stage
 - parasitology-direct-life-cycle
 - parasitology-eating-undercooked-infected-fish
 - parasitology-golden-brown
 - parasitology-molluscs-and-snails
-- parasitology-parasite
 - parasitology-sarcodina
-- parasitology-scolex
 - parasitology-skin-penetration-by-larva
 - parasitology-their-site-of-living-in-the-host
-- pathology-activation-of-caspases
-- pathology-it-is-only-a-pathological-process
-- pathology-necrosis
-- pathology-pathogenesis
-- pathology-the-expected-further-outcome-of-a-disease
 - pharmacology-acetylsalicylic-acid
 - pharmacology-cross-tolerance
 - pharmacology-full-agonist
@@ -154,9 +129,3 @@
 - pharmacology-the-study-of-absorption-distribution-metaboli
 - pharmacology-type-b-bizarre
 - pharmacology-type-e-end-of-dose-adverse-effect
-- physiology-beta-2-receptors
-- physiology-exhaustion-of-the-neurotransmitter-storage
-- physiology-inward-movement-of-chloride-ions
-- physiology-k-leaves-the-neuron-causing-hyperpolarization
-- physiology-ligand-gated-potassium-channels
-- physiology-peripheral-nervous-system-pns

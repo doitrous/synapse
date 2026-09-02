@@ -69,32 +69,32 @@ microbiology-a-protein-coat-and-nucleic-acid  # new · Q: The basic structure of
 microbiology-aspergillus-species  # new · Q: Aflatoxin acts as a potent mycotoxin that is primarily produced by whi
 # microbiology-binary-fission  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: What is the primary method by which bacteria replicate?
 microbiology-cell-wall  # pending · Q: Which structural component of Gram-positive bacteria contains a thick 
-microbiology-continuous-cell-line  # pending · Q: A type of cell culture that can reproduce for an extended number of ge
+# microbiology-continuous-cell-line  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: A type of cell culture that can reproduce for an extended number of ge
 # microbiology-either-dna-or-rna  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: The genome of a virus is exclusively composed of:
 microbiology-exoenzymes-invasion-factors  # new · Q: The enzymes produced by some bacteria to break down tissue barriers an
 microbiology-heterotrophs  # pending · Q: The bacteria that require preformed organic compounds as a carbon sour
-microbiology-mycelium  # pending · Q: A mass of hyphae forming the vegetative portion of a fungus is called:
+# microbiology-mycelium  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: A mass of hyphae forming the vegetative portion of a fungus is called:
 # microbiology-obligate-anaerobes  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: Bacteria that can live only in the complete absence of oxygen and die 
 microbiology-outer-membrane  # pending · Q: Which of the following structures is characteristically present in the
 # --- Parasitology ---
-parasitology-diagnostic-stage  # pending · Q: The specific stage of a parasite that is detected in laboratory specim
+# parasitology-diagnostic-stage  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The specific stage of a parasite that is detected in laboratory specim
 parasitology-direct-life-cycle  # new · Q: What is the life cycle of a parasite that needs only one host?
 parasitology-eating-undercooked-infected-fish  # new · Q: Heterophyes heterophyes is transmitted to humans by:
 parasitology-golden-brown  # new · Q: What is the characteristic color of Heterophyes heterophyes eggs?
 parasitology-molluscs-and-snails  # new · Q: In the context of parasitology, the term malacology refers to the scie
-parasitology-parasite  # live · Q: A living organism that depends temporarily or permanently upon another
+# parasitology-parasite  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: A living organism that depends temporarily or permanently upon another
 # parasitology-rhabditiform-larvae  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: What is the diagnostic stage for some nematodes like Strongyloides ste
 parasitology-sarcodina  # new · Q: According to its old taxonomic classification, which group of protozoa
-parasitology-scolex  # pending · Q: The head of a tapeworm is called:
+# parasitology-scolex  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The head of a tapeworm is called:
 parasitology-skin-penetration-by-larva  # new · Q: In the direct life cycle of Hymenolepis nana, which of the following r
 parasitology-their-site-of-living-in-the-host  # new · Q: The distinction between a parasitic infection and an infestation is pr
 # --- Pathology ---
-pathology-activation-of-caspases  # new · Q: Which of the following is considered a characteristic sign of apoptosi
+# pathology-activation-of-caspases  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: Which of the following is considered a characteristic sign of apoptosi
 # pathology-hypertrophy  # authored-in SCU-FBS103-questions.md (was: live)  · Q: When skeletal muscles increase in size following weightlifting exercis
-pathology-it-is-only-a-pathological-process  # new · Q: Which of the following statements is true regarding necrosis?
-pathology-necrosis  # live · Q: Upon microscopic examination of a hepatocyte from a female patient wit
-pathology-pathogenesis  # live · Q: The sequence of events in the response of cells or tissues to an etiol
-pathology-the-expected-further-outcome-of-a-disease  # new · Q: The definition of prognosis in pathology refers to:
+# pathology-it-is-only-a-pathological-process  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: Which of the following statements is true regarding necrosis?
+# pathology-necrosis  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: Upon microscopic examination of a hepatocyte from a female patient wit
+# pathology-pathogenesis  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: The sequence of events in the response of cells or tissues to an etiol
+# pathology-the-expected-further-outcome-of-a-disease  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The definition of prognosis in pathology refers to:
 # --- Pharmacology ---
 pharmacology-acetylsalicylic-acid  # new · Q: Aspirin is the brand or common name for which of the following chemica
 pharmacology-cross-tolerance  # new · Q: What term is used to describe the development of tolerance to a specif
@@ -110,9 +110,9 @@ pharmacology-type-b-bizarre  # new · Q: Which of the following types of adverse
 pharmacology-type-e-end-of-dose-adverse-effect  # new · Q: The withdrawal manifestations experienced by an addicted patient upon 
 # --- Physiology ---
 # physiology-70-mv  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: The resting membrane potential of a typical neuron is approximately:
-physiology-beta-2-receptors  # new · Q: Which type of sympathetic autonomic nervous system receptors is predom
-physiology-exhaustion-of-the-neurotransmitter-storage  # new · Q: What is the primary cause of synaptic fatigue during prolonged and int
-physiology-inward-movement-of-chloride-ions  # new · Q: An inhibitory postsynaptic potential (IPSP) is primarily generated by 
-physiology-k-leaves-the-neuron-causing-hyperpolarization  # new · Q: What happens when voltage-gated potassium (K+) channels open in a rest
-physiology-ligand-gated-potassium-channels  # new · Q: Inhibitory postsynaptic potentials (IPSPs) are most likely caused by t
-physiology-peripheral-nervous-system-pns  # new · Q: The nervous system division that links the Central Nervous System with
+# physiology-beta-2-receptors  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: Which type of sympathetic autonomic nervous system receptors is predom
+# physiology-exhaustion-of-the-neurotransmitter-storage  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: What is the primary cause of synaptic fatigue during prolonged and int
+# physiology-inward-movement-of-chloride-ions  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: An inhibitory postsynaptic potential (IPSP) is primarily generated by 
+# physiology-k-leaves-the-neuron-causing-hyperpolarization  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: What happens when voltage-gated potassium (K+) channels open in a rest
+# physiology-ligand-gated-potassium-channels  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: Inhibitory postsynaptic potentials (IPSPs) are most likely caused by t
+# physiology-peripheral-nervous-system-pns  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The nervous system division that links the Central Nervous System with
