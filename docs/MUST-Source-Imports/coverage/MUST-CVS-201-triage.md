@@ -686,3 +686,130 @@ pass are even started.
 | Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | Pending-hit (new overlay row) | Live-hit (already live-in-lane) | New mints | Authored | Held |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|
 | MUST-CVS-201 Physiology (Blood Flow + Arterial BP) | 70 (30 Blood Flow + 40 Arterial BP) | 70/70 | 24 | 15 | 1 | 9 | 56 | 1 |
+
+## S3 -- tranche 8 (2026-09-02, lane 8, branch `must-cvs201-author8`) -- Physiology continued
+
+Eighth authoring pass, per this module's own dispatch order: (1) the 11
+Arterial Blood Pressure items tranche 7 left un-selected (Q8-Q12, Q26, Q28-30,
+Q32, Q38 -- physiological variation, exercise, hydrostatic effect, atrial
+reflex, cutaneous-pain pressor reflex, Alam-Smirk, capillary fluid shift and
+the excitatory/inhibitory receptor classification), (2) the Capillary
+Circulation & Oedema topic in full (20 questions), untouched before this
+pass. Q7 (garbled "C & D" option) stays held, unchanged from tranche 7's own
+determination -- re-checked against the printed page this pass and still not
+resolvable to a clean option set. Shock (30) and Coronary & Pulmonary
+Circulation (30) remain entirely untouched.
+
+### Arterial Blood Pressure -- 11 remaining items -- AUTHORED
+
+All 11 read directly off `src_165188e079f0f475e54d` pp.11-19 (own printed
+key, p.20; sha re-verified against the manifest before reading). 70 raw
+questions collapse to 9 distinct concept candidates via `find-existing.mjs`
+plus grep across `docs/*-Source-Imports/concept`, `docs/*-Source-Imports/
+pending-live` and `docs/import-ready/concept`:
+
+- **8 new MUST mints** -- physiological variations in ABP by age/sex/emotion
+  (one concept serving Q8, Q9 and Q10, the paediatric-BP, post-45-hormonal
+  and emotional-pressor facts, all grouped under the source's own
+  "physiological variations" heading), exercise's systolic-up/diastolic-down
+  pattern (Q11), the ~0.77 mmHg/cm hydrostatic column effect (Q12), the
+  cutaneous pain pressor reflex (Q28), the Alam-Smirk (proprioceptor) reflex
+  (Q29), the hypothalamic ABP control centre for emotion/temperature (Q30),
+  the capillary-fluid-shift compensatory mechanism (Q32), and the
+  chemoreceptor-excitatory/baroreceptor-inhibitory classification (Q38) --
+  all in `concept/MUST-CVS-201-physiology-2-concepts.md`,
+  `article/MUST-CVS-201-physiology-2-articles.md`,
+  `evidence/MUST-CVS-201-physiology-2-{claims,citations,spans}.md` (a new,
+  separate own-lane file set for this tranche, not appended to the tranche
+  1-7 files).
+- **1 pending reuse, first MUST-CVS-201 tag** -- Q26 (atrial receptor
+  stimulation by high central venous pressure, key C, vasodilation and
+  tachycardia) matches `CON-CVS-5419DA4CEFDBB6`, the Bainbridge reflex, in
+  `docs/Menoufia-Source-Imports/concept/MU-MED105-concepts.md` -- the first
+  time this lane has reused a Menoufia concept. New sparse overlay row in
+  `pending-live/MUST-CVS-201-physiology-concepts-overlay.md`, `##
+  module_subject` intentionally omitted (see that file's own new field_notes
+  on this row for why).
+
+10 of the 11 are in `question/MUST-CVS-201-physiology-2-mcq.md`
+(main_concept new-minted this batch); Q26 is in `pending-live/MUST-CVS-201-
+physiology-2-questions.md` (main_concept pending). 0 held for want of a key
+this pass -- the source printed a key for every item selected (Q7 stays held
+from tranche 7, unchanged).
+
+### Capillary Circulation & Oedema (20) -- AUTHORED IN FULL
+
+`src_165188e079f0f475e54d` pp.21-26, own printed key p.26. 20/20 keyed, no
+garbled options, no defects noted. 20 raw questions collapse to 9 distinct
+concepts:
+
+- **4 new MUST mints** -- the capillary fragility test (scurvy / purpura /
+  allergy, serving Q2 and Q20), the law-of-Laplace capillary-wall-tension
+  fact (Q5), the white-line reaction / precapillary-sphincter-constriction
+  mechanism (Q12), and normal lymphatic return of unabsorbed capillary
+  filtrate (Q15) -- all in this tranche's own `concept/article/evidence`
+  `-physiology-2-` file set.
+- **2 pending reuses, first MUST-CVS-201 tag, new overlay rows** -- Q7, Q9,
+  Q10 and Q17 (four Starling-forces facts: venous-end absorption force,
+  arterial-end filtration force, factors decreasing filtration rate, and the
+  force falling from 35 to 15 mmHg along the capillary) reuse
+  `CON-CVS-98657F1E7D300D`; Q11 and Q14 (electrolyte diffusion, vesicular
+  transport of large molecules) reuse `CON-CVS-D3D1AF25EFA406` -- both full
+  records in `docs/Kasr-Source-Imports/concept/104-CPS-physiology-
+  concepts.md`, both new sparse overlay rows in `pending-live/MUST-CVS-201-
+  physiology-concepts-overlay.md` (no `module_subject`, same pattern as the
+  Bainbridge row above).
+- **1 pending reuse, extends an existing MUST-CVS-201 overlay row** -- Q3
+  (precapillary sphincters relax in response to accumulated metabolites)
+  reuses `CON-CVS-56A68328FD03C7` (local blood-flow autoregulation), already
+  sparse-overlaid onto this lane by tranche 7 for five Blood-Flow questions
+  -- extended with one more field_notes line, not a new row, per the
+  standing "extend, never twin" rule.
+- **1 pending reuse, extends a tranche-1 overlay row** -- Q1, Q4, Q8, Q13,
+  Q16 and Q19 (six oedema-mechanism facts: hypoalbuminaemic oedema, the
+  general four-mechanism classification, DVT-driven venous-hydrostatic
+  oedema, nephrotic-syndrome oedema, elephantiasis, and right-heart-failure
+  oedema) all reuse `CON-CVS-6D8E2D62A9F51E`, already sparse-overlaid onto
+  this lane by tranche 1 -- extended with one more field_notes line, not a
+  new row.
+- **2 own-lane live reuses, no overlay needed** -- Q6 (the spreading flare,
+  axon reflex) and Q18 (the wheal, histamine) both reuse
+  `CON-CVS-7F05227FE0970F`, tranche 7's own "skin flare reaction" concept in
+  `concept/MUST-CVS-201-concepts.md` -- its definition, aliases, article and
+  `hold_these`/`callout_evidence` were extended directly (own-lane record,
+  not a foreign one) to state the wheal's separate histamine mechanism
+  alongside the flare's axon-reflex mechanism it already covered, plus one
+  new claim/citation/span pair
+  (`CLM-CVS-TRIPLE-RESPONSE-HISTAMINE-WHEAL-01`) in the tranche 1-7 shared
+  evidence files.
+
+7 of the 20 are in `question/MUST-CVS-201-physiology-2-mcq.md` (main_concept
+new-minted this batch or the extended live CON-CVS-7F05227FE0970F); 13 are in
+`pending-live/MUST-CVS-201-physiology-2-questions.md` (main_concept
+pending). 0 held.
+
+### Not authored this pass (queued, next pass)
+
+Shock (30 MCQs, triaged in full this pass -- see below) and Coronary &
+Pulmonary Circulation (30 MCQs, not opened this pass) remain. Total
+remaining question volume in this source: 60 MCQs, before the ~12 Midterm
+papers and 87 MCQ-bank folders inventoried in the first-tranche pass are even
+started.
+
+**Shock section triaged in full but not authored** (own scope note: this
+tranche's dispatch named it as in-scope "as far as ~55 authored"; 31
+questions were authored across Arterial BP + Capillary Circulation, near
+enough to that target that Shock's own 30 questions were read and keyed for
+the next pass rather than partially authored this one). `src_165188e079f0f475e54d`
+pp.27-35, own printed key p.35. 30/30 keyed, no garbled options, no defects
+noted. Topics: hypovolaemic/cardiogenic/anaphylactic/neurogenic/septic/
+obstructive shock classification, compensatory mechanisms (baroreceptor,
+renin-angiotensin, ADH, aldosterone, tissue fluid shift), and irreversible
+(refractory) shock's positive-feedback mechanisms. Full question-by-question
+triage recorded in `-triage-keys.txt`.
+
+### Checkpoint table (tranche 8)
+
+| Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | New mints | Pending-hit (new overlay row) | Pending-hit (extended existing row) | Live-hit (own-lane, extended) | Authored | Held |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| MUST-CVS-201 Physiology (Arterial BP remainder + Capillary Circulation, Shock triaged only) | 61 authored-scope + 30 Shock triage-only | 91/91 | 18 | 12 | 3 | 2 | 1 | 31 | 0 |
