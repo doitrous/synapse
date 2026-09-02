@@ -1,0 +1,41 @@
+# ZU-MED-107 (GIT and Nutrition) — triage keys, `Fakous GIT final 2024.pdf`
+# <source-slug>-qNN, one per SBA item. The 10 written/essay questions on p.1
+# carry no single-letter key (graded by rubric) and are out of scope this
+# pass — not listed here, see coverage/ZU-MED-107-triage.md "Out of scope".
+
+git-final24-q01
+git-final24-q02
+git-final24-q03
+git-final24-q04
+git-final24-q05
+git-final24-q06
+git-final24-q07
+git-final24-q08
+git-final24-q09
+git-final24-q10
+git-final24-q11
+git-final24-q12
+git-final24-q13
+git-final24-q14
+git-final24-q15
+git-final24-q16
+git-final24-q17
+git-final24-q18
+git-final24-q19
+git-final24-q20
+git-final24-q21
+git-final24-q22
+git-final24-q23
+git-final24-q24
+git-final24-q25
+git-final24-q26
+git-final24-q27
+git-final24-q28
+git-final24-q29
+git-final24-q30
+git-final24-q31
+git-final24-q32
+git-final24-q33
+git-final24-q34
+git-final24-q35
+git-final24-q36
