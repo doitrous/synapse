@@ -20495,3 +20495,718 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "ceftriaxone bactericidal" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-AFBFED85C86B2C
+
+## label
+Type IV collagenase degrades the ECM in tumour spread
+
+## canonical_key
+neoplasia.ecm-degradation.type-iv-collagenase
+
+## aliases
+Type IV collagenase
+ECM degradation by tumour cells
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Malignant tumour cells secrete type IV collagenase, a matrix metalloproteinase that degrades type IV collagen, the main structural protein of the basement membrane, as one of the key enzymatic steps that lets them breach the basement membrane and invade surrounding tissue -- distinct from elastase (which degrades elastin), lipase (which hydrolyses fat) or amylase (which digests starch), none of which targets this collagen type.
+
+## explicit_objective
+State that tumour cells secrete type IV collagenase to degrade the basement membrane's extracellular matrix, enabling invasion.
+
+## pitfalls
+Confusing type IV collagenase with a general digestive enzyme such as elastase, lipase or amylase -- the printed key specifically names type IV collagenase for basement-membrane degradation in tumour invasion.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+Extracellular matrix degradation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Degradation of the ECM occurs by proteolytic enzymes secreted by tumour cells as: ... type IV collagenase" (Quiz 41 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 41 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "type IV collagenase" -- 0 hits. A grep sweep for "collagenase" across every docs/*-Source-Imports concept dir hit only bacterial-collagenase concepts (Ain Shams ASU-INF, Assiut AUN-INI-105, MUST FHB-102-2, Kasr 208-INT/101-ISK) -- unrelated to tumour-cell type IV collagenase. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-B8CF57D24CAAA0
+
+## label
+Malignant cells first appear in a lymph node's subcapsular sinus
+
+## canonical_key
+neoplasia.lymph-node-metastasis.subcapsular-sinus-first-site
+
+## aliases
+Subcapsular sinus metastasis
+First site of nodal metastasis
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Afferent lymphatics draining a tumour empty first into the subcapsular (marginal) sinus immediately beneath a lymph node's capsule, so malignant cells travelling via lymph are expected to be trapped and first detectable there, ahead of the medullary sinuses, the lymphoid follicles, the efferent vessel or the paracortex.
+
+## explicit_objective
+State that malignant cells reaching a lymph node via afferent lymphatics are expected to appear first in the subcapsular sinus.
+
+## pitfalls
+Assuming malignant cells first appear in the medullary sinuses, the follicles or the paracortex -- these lie deeper within or serve a different function from the subcapsular sinus, which is the first structure afferent lymph (and any tumour cells it carries) reaches.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+Lymphatic spread and nodal metastasis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In examining a lymph node microscopically for suspicion of metastasis, the malignant cells are expected to appear first in: ... the sub-capsular lymph sinuses" (Quiz 41 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 41 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "subcapsular sinus metastasis" -- 0 hits. A grep sweep for "subcapsular" hit only a Kasr 104-CPS normal lymph-node histology concept (cortex/medulla/paracortex zones and cell distribution, CON-HEM-60C0AFCC9A1F88) -- a different grain (normal histology, not the pathology of where metastatic cells first localise). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-93098A5E0650BC
+
+## label
+Cadherins glue normal cells to each other
+
+## canonical_key
+neoplasia.cell-adhesion.cadherins-glue-normal-cells
+
+## aliases
+Cadherins
+Cell adhesion molecules
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cadherins are calcium-dependent transmembrane adhesion molecules that mediate cell-to-cell adhesion, holding normal cells together within a tissue and to their surroundings -- distinct from fibronectin and laminin (extracellular matrix glycoproteins) or type IV collagenase and cathepsin D (degradative enzymes), none of which is the general adhesion molecule the printed key names. Loss of cadherin function is one of the changes that allows malignant cells to detach and invade.
+
+## explicit_objective
+Identify cadherins as the adhesion molecules that glue normal cells to each other and to their surroundings.
+
+## pitfalls
+Confusing cadherins with a matrix glycoprotein (fibronectin, laminin) or a degradative enzyme (type IV collagenase, cathepsin D) -- the printed key specifically names cadherins as the general cell-to-cell adhesion molecule.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+Cell adhesion molecules
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Normal cells are glued to each other and to their surroundings by a variety of adhesion molecules as: ... cadherins." (Quiz 41 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 41 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "cadherins cell adhesion" -- 0 hits. A grep sweep for "cadherin" hit only a Helwan HU-GIT-301 concept about E-cadherin LOSS in diffuse gastric carcinoma -- a different grain (a specific cancer's cadherin loss, not this general normal-physiology adhesion fact). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-506895F21F8431
+
+## label
+Perineural invasion in malignant tumours causes pain
+
+## canonical_key
+neoplasia.perineural-invasion.pain
+
+## aliases
+Perineural invasion
+Perineural spread
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Perineural invasion, malignant cells tracking along the perineural (Schwann cell sheath) space surrounding a nerve, characteristically produces pain, since it irritates and compresses nerve fibres along the route of spread -- a distinct pattern of local extension from haemorrhage, mass formation or ulceration.
+
+## explicit_objective
+State that perineural invasion by a malignant tumour characteristically causes pain.
+
+## pitfalls
+Assuming perineural invasion characteristically produces haemorrhage, a mass effect or ulceration -- these are consequences of other tumour behaviours (bleeding, bulk, surface breach), not of nerve-sheath tracking specifically, whose hallmark symptom is pain.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+Perineural invasion
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Perineural invasion in malignant tumors cause: ... Pain" (Quiz 41 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 41 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "perineural invasion pain" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-BFC4491084FD14
+
+## label
+Tumour-associated angiogenic factors drive tumour angiogenesis
+
+## canonical_key
+neoplasia.tumour-angiogenesis.taf
+
+## aliases
+Tumour angiogenesis
+Tumour-associated angiogenic factors
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tumour angiogenesis, the formation of new blood vessels supplying a growing tumour, occurs under the influence of tumour-associated angiogenic factors (such as VEGF) secreted by the tumour cells themselves, which stimulate proliferation and sprouting of nearby endothelial cells -- distinct from matrix-degrading enzymes (collagenase, elastase), complement components or general inflammatory mediators such as TNF, none of which is the driver the printed key names.
+
+## explicit_objective
+State that tumour angiogenesis occurs under the influence of tumour-associated angiogenic factors secreted by the tumour.
+
+## pitfalls
+Attributing tumour angiogenesis to matrix-degrading enzymes, complement components or a general inflammatory mediator such as TNF -- the printed key specifically names tumour-associated angiogenic factors as the driver of new vessel formation around a tumour.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+Tumour angiogenesis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Tumour angiogenesis occurs under the influence of: ... tumour associated angiogenic factors" (Quiz 41 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 41 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "tumour angiogenic factors" -- 0 hits. A grep sweep for "angiogenesis|angiogenic" hit Helwan chronic-inflammation, Ain Shams glioblastoma-histology and Kasr granulation-tissue concepts -- none is this tumour-specific angiogenic-driver fact. New concept.

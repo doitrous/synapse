@@ -4213,4 +4213,162 @@ Block: body
 
 ### definition_of · CON-FND-A64FEC0DBC4146
 Quote: Ceftriaxone, a third-generation cephalosporin, is bactericidal via cell wall synthesis inhibition, given parenterally only
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## title
+Neoplasia: mechanisms of spread of malignant tumors -- ECM degradation, adhesion loss, nodal seeding, perineural spread and angiogenesis
+
+## arabic_title
+انتشار الأورام الخبيثة: تحلل المادة خارج الخلوية، فقدان الالتصاق، غزو العقد الليمفاوية، الانتشار حول الأعصاب وتكوّن الأوعية الدموية
+
+## aliases
+Neoplasia: Mechanisms of spread of malignant tumors
+Lecture 41
+
+## subject
+fnd
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+ECM degradation, cell adhesion molecules, nodal metastasis, perineural invasion, tumour angiogenesis
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 41 opens the Mechanisms of spread of malignant tumors block with the cellular and molecular steps that let a tumour invade and disseminate. Tumour cells secrete type IV collagenase to degrade the basement membrane's extracellular matrix, while normal cells are instead held together by cadherins, calcium-dependent adhesion molecules whose loss favours detachment and invasion. Once malignant cells reach a lymph node via afferent lymphatics, they are first trapped in the subcapsular sinus, immediately beneath the capsule. Perineural invasion, tracking along a nerve's Schwann cell sheath, characteristically produces pain, and tumour angiogenesis, the new vessel growth that supplies an expanding tumour, occurs under the influence of tumour-associated angiogenic factors the tumour itself secretes.
+
+## sections
+### Definition
+Lecture 41 covers the cellular and molecular mechanisms that let a malignant tumour degrade surrounding tissue, detach from its neighbours, seed a regional lymph node, spread along a nerve, and recruit the blood supply it needs to keep growing.
+
+### Mechanism
+Type IV collagenase, a matrix metalloproteinase secreted by tumour cells, degrades type IV collagen, the main structural protein of the basement membrane, letting the tumour breach this barrier and invade surrounding tissue. Cadherins are calcium-dependent transmembrane adhesion molecules that glue normal cells to each other and to their surroundings; loss of cadherin function is one of the changes that allows malignant cells to detach and invade. Afferent lymphatics draining a tumour empty first into a lymph node's subcapsular sinus, immediately beneath the capsule, so malignant cells travelling via lymph are expected to be trapped and first detectable there. Perineural invasion, malignant cells tracking along the perineural (Schwann cell sheath) space surrounding a nerve, irritates and compresses nerve fibres along the route of spread, producing pain. Tumour angiogenesis, the formation of new blood vessels that supply a growing tumour, occurs under the influence of tumour-associated angiogenic factors (such as VEGF) secreted by the tumour cells themselves, stimulating proliferation and sprouting of nearby endothelial cells.
+
+### Key determinants
+Type IV collagenase specifically targets the basement membrane's collagen, distinguishing it from a general digestive enzyme such as elastase, lipase or amylase. Cadherins, not a matrix glycoprotein (fibronectin, laminin) or a degradative enzyme, are the general cell-to-cell adhesion molecule. The subcapsular sinus, not the medullary sinuses, the follicles or the paracortex, is the first nodal structure afferent lymph reaches. Perineural invasion's hallmark symptom is pain, distinguishing it from haemorrhage, mass effect or ulceration. Tumour-associated angiogenic factors, not matrix-degrading enzymes, complement components or general inflammatory mediators such as TNF, drive tumour angiogenesis.
+
+### Clinical significance
+Recognising type IV collagenase activity and cadherin loss as invasion-enabling steps explains why some tumours infiltrate locally before ever reaching a lymph node or vessel. Knowing that the subcapsular sinus is a metastasis's first likely site guides how a pathologist examines a sentinel or regional lymph node for early micrometastasis. Pain out of proportion to a tumour's visible size can raise suspicion for perineural invasion, particularly in tumours such as pancreatic or head-and-neck carcinomas. Tumour angiogenesis is the biological rationale behind anti-angiogenic (anti-VEGF) cancer therapies.
+
+### Common misconceptions
+Assuming a general digestive enzyme (elastase, lipase, amylase) rather than type IV collagenase specifically degrades the basement membrane in tumour invasion. Confusing cadherins with a matrix glycoprotein or a degradative enzyme. Assuming malignant cells first appear in a lymph node's medullary sinuses, follicles or paracortex rather than the subcapsular sinus. Attributing perineural invasion's pain to haemorrhage, mass effect or ulceration instead. Attributing tumour angiogenesis to a matrix-degrading enzyme, complement or a general inflammatory mediator rather than tumour-associated angiogenic factors specifically.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Type IV collagenase degrades the basement membrane's type IV collagen, enabling tumour invasion.
+Cadherins glue normal cells together; their loss favours detachment and invasion.
+Malignant cells reaching a lymph node via afferent lymphatics are first trapped in the subcapsular sinus.
+Perineural invasion characteristically causes pain.
+Tumour-associated angiogenic factors (e.g. VEGF), secreted by the tumour, drive tumour angiogenesis.
+
+## lose_the_mark
+Naming a general digestive enzyme instead of type IV collagenase for basement-membrane degradation.
+Confusing cadherins with a matrix glycoprotein or a degradative enzyme.
+Naming the medullary sinuses, follicles or paracortex instead of the subcapsular sinus as the first metastatic site.
+Attributing perineural invasion's pain to another tumour behaviour.
+Naming a matrix-degrading enzyme, complement or TNF instead of tumour-associated angiogenic factors as the driver of tumour angiogenesis.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-AFBFED85C86B2C
+CON-FND-B8CF57D24CAAA0
+CON-FND-93098A5E0650BC
+CON-FND-506895F21F8431
+CON-FND-BFC4491084FD14
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 41 (Neoplasia: Mechanisms of spread of malignant tumors) -- no department slide deck exists in the corpus past Lecture 8, so all five new mints cite the quiz bank's own printed-answer text instead. Quiz 41 Q2 (q337) reuses a pending Kasr 208-INT concept (CON-FND-AE5841979FCFAE) instead of minting a twin; its question cites the existing Kasr article ART-FND-208INT-NEOPLASIA-BASICS instead of this one. This opens the lane's dispatched Quiz 41-47 range.
+
+## annotations
+### definition_of · CON-FND-AFBFED85C86B2C
+Quote: Type IV collagenase, a matrix metalloproteinase secreted by tumour cells, degrades type IV collagen, the main structural protein of the basement membrane
+Block: body
+
+### definition_of · CON-FND-B8CF57D24CAAA0
+Quote: Afferent lymphatics draining a tumour empty first into a lymph node's subcapsular sinus, immediately beneath the capsule, so malignant cells travelling via lymph are expected to be trapped and first detectable there
+Block: body
+
+### definition_of · CON-FND-93098A5E0650BC
+Quote: Cadherins are calcium-dependent transmembrane adhesion molecules that glue normal cells to each other and to their surroundings
+Block: body
+
+### definition_of · CON-FND-506895F21F8431
+Quote: Perineural invasion, malignant cells tracking along the perineural (Schwann cell sheath) space surrounding a nerve, irritates and compresses nerve fibres along the route of spread, producing pain
+Block: body
+
+### definition_of · CON-FND-BFC4491084FD14
+Quote: Tumour angiogenesis, the formation of new blood vessels that supply a growing tumour, occurs under the influence of tumour-associated angiogenic factors (such as VEGF) secreted by the tumour cells themselves
 Block: body
