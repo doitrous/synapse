@@ -1,5 +1,30 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
+| Quiz3&6-Q3 p2 key=e HELD (near-dup of Q4's classification axis, cap) only ketogenic amino acid = leucine | 0 | 0 | 1 | 1 |
+| Quiz3&6-Q4 p2 key=b HELD (cap) neutral amino acid with aliphatic side chain = leucine | 0 | 0 | 1 | 1 |
+| Quiz3&6-Q7 p4-5 key=a HELD (near-dup of Q4, same beta-sheet fact via a different vignette) amyloidosis fibrils = beta-pleated sheet | 0 | 0 | 1 | 1 |
+| Quiz4&5-Q3 p9 key=b HELD (True/False, not SBA-shape) phospholipids are not the only plasma-membrane lipid | 0 | 0 | 1 | 1 |
+| Quiz4&5-Q4 p9 key=voltage-gated HELD (fill-in-blank, not SBA-shape) gated channels opened/closed by voltage | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q3 p12 key=b HELD (near-dup of Q12/deficiency side of same vitamin-C teaching point, cap) scurvy caused by vitamin C deficiency | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q32 p22 key=c HELD (near-verbatim dup of cbfquiz-q26/Q17, cap) PLP is required as coenzyme in transamination | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q33 p23 key=b HELD (near-verbatim dup of cbfquiz-q29/Q20, cap) biotin required as coenzyme by carboxylases | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q34 p23 key=a HELD (near-verbatim dup of cbfquiz-q36/Q27's B12 half, cap) methylcobalamin required to form methionine from homocysteine | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q35 p23 key=a REMAINING (keyed, not authored this pass) B12 absorption requires intrinsic factor | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q36 p23 key=d REMAINING intrinsic factor is chemically a glycoprotein | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q37 p24 key=d REMAINING B12 deficiency causes: all of intestinal malabsorption/gastric atrophy/low intake | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q38 p24 key=a REMAINING ascorbic acid required for synthesis of all listed EXCEPT bile pigments | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q39 p24 key=c REMAINING vitamin C enhances intestinal iron absorption | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q40 p25 key=c REMAINING vitamin B12 is the cyanide-containing form (cyanocobalamin) | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q41 p25 key=b REMAINING pyridoxine deficiency convulsions attributed to reduced GABA synthesis | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q42 p25 key=d REMAINING pellagra's classic triad = diarrhoea, dermatitis and dementia | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q43 p26 key=a REMAINING thiamine is the sulphur-containing B vitamin | 0 | 0 | 1 | 1 |
+| Quiz7&8-Q44 p26 key=a REMAINING lemon is a rich source of vitamin C | 0 | 0 | 1 | 1 |
+| Quiz9-10-Q2 p29 key=c REMAINING (keyed, not authored this pass) irreversible inhibition unaffected by raising substrate concentration | 0 | 0 | 1 | 1 |
+| Quiz9-10-Q3 p29 key=d REMAINING enzymes do not themselves provide activation energy (false-statement item) | 0 | 0 | 1 | 1 |
+| Quiz9-10-Q4 p29 key=d REMAINING enzyme-substrate relationship = temporary association | 0 | 0 | 1 | 1 |
+| Quiz9-10-Q5 p30 key=b REMAINING active site differs from an antibody's binding site by catalysing a reaction | 0 | 0 | 1 | 1 |
+| Quiz9-10-Q6 p30 key=c REMAINING molecular weight does not affect rate of enzymatic reaction | 0 | 0 | 1 | 1 |
+| Quiz9-10-Q7 p30 key=c REMAINING enzyme concentration remains constant in a rate-vs-[S] plot | 0 | 0 | 1 | 1 |
 | cbf-bank-new | 18 | 0 | 0 | 18 |
 | cbf-bank-pending-102int | 7 | 0 | 0 | 7 |
 | cbf-bank-pending-102int-2 | 6 | 0 | 0 | 6 |
@@ -141,11 +166,79 @@
 | cbf-bank-q132 p17 key=c  internal body environment refers to the ECF | 0 | 0 | 1 | 1 |
 | cbf-bank-q31-80-new | 23 | 0 | 0 | 23 |
 | cbf-bank-q81-132-new | 28 | 0 | 0 | 28 |
+| cbfquiz-new | 18 | 0 | 0 | 18 |
+| cbfquiz-pending-103bms | 21 | 0 | 0 | 21 |
+| cbfquiz-pending-asuibm | 1 | 0 | 0 | 1 |
+| cbfquiz-q01 Quiz3&6 p1 key=a  essential amino acid under growth/surgical-recovery stress = arginine -- new CON-FND-0B3EDEDA3E7646 | 0 | 0 | 1 | 1 |
+| cbfquiz-q02 Quiz3&6 p2 key=d  alpha-helix H-bonds between carbonyl O and amide H of different peptide bonds -- new CON-FND-1F2201622F1E93 | 0 | 0 | 1 | 1 |
+| cbfquiz-q03 Quiz3&6 p3 key=d  sulphur-containing amino acid = methionine -- new CON-FND-E05A3006C73A8C | 0 | 0 | 1 | 1 |
+| cbfquiz-q04 Quiz3&6 p4 key=a  Alzheimer amyloid plaques = high beta-pleated-sheet content -- new CON-FND-3B0373D2FE4F62 | 0 | 0 | 1 | 1 |
+| cbfquiz-q05 Quiz3&6 p5 key=a  bortezomib/proteasome inhibition spares non-ubiquitinated classes -- new CON-FND-5E0E65A67E996C | 0 | 0 | 1 | 1 |
+| cbfquiz-q06 Quiz3&6 p5 key=e  albumin is a NEGATIVE acute-phase reactant -- new CON-FND-93F44EA42F3CF7 | 0 | 0 | 1 | 1 |
+| cbfquiz-q07 Quiz3&6 p6 key=a  denaturation does NOT decrease viscosity (it increases it) -- new CON-FND-B7F89828D2FCAA | 0 | 0 | 1 | 1 |
+| cbfquiz-q08 Quiz4&5 p8 key=c  endoplasmic reticulum function = synthesize proteins -- new CON-FND-82A0A5A141043A | 0 | 0 | 1 | 1 |
+| cbfquiz-q09 Quiz4&5 p9 key=c  Golgi body packages and exports proteins -- new CON-FND-82A0A5A141043A | 0 | 0 | 1 | 1 |
+| cbfquiz-q10 Quiz9-10 p28 key=d  enzyme's intricately shaped substrate-binding surface = active site -- reused CON-FND-D17966222A3693 | 0 | 0 | 1 | 1 |
+| cbfquiz-q11 Quiz7&8 p11 key=c  vitamins are accessory food factors (general definition) -- new CON-FND-4591EE53066451 | 0 | 0 | 1 | 1 |
+| cbfquiz-q12 Quiz7&8 p12 key=a  vitamin C required for hydroxyproline formation in collagen -- new CON-FND-115161771B581B | 0 | 0 | 1 | 1 |
+| cbfquiz-q13 Quiz7&8 p12 key=c  Wernicke's disease and beriberi both reversed by thiamin -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q14 Quiz7&8 p13 key=d  vitamin B1 deficiency causes beriberi -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q15 Quiz7&8 p13 key=c  raised blood pyruvic/lactic acid from thiamin deficiency -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q16 Quiz7&8 p13 key=b  vitamin B1 coenzyme TPP runs oxidative decarboxylation -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q17 Quiz7&8 p14 key=a  glossitis found in riboflavin deficiency -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q18 Quiz7&8 p14 key=d  corneal vascularisation found in vitamin B2 deficiency -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q19 Quiz7&8 p14 key=d  the pellagra preventive factor is niacin -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q20 Quiz7&8 p15 key=a  pellagra caused by niacin deficiency -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q21 Quiz7&8 p15 key=a  niacin is synthesized in the body from tryptophan -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q22 Quiz7&8 p15 key=a  corn protein is deficient in tryptophan -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q23 Quiz7&8 p16 key=a  60 mg tryptophan needed to produce 1 mg niacin -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q24 Quiz7&8 p16 key=d  pellagra occurs in populations dependent on corn -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q25 Quiz7&8 p16 key=a  pantothenate is the precursor of coenzyme A -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q26 Quiz7&8 p17 key=c  pyridoxal phosphate is central to transamination -- new CON-FND-DBD5091832BBDE | 0 | 0 | 1 | 1 |
+| cbfquiz-q27 Quiz7&8 p17 key=c  PLP is the coenzyme required for transaminase action -- new CON-FND-DBD5091832BBDE | 0 | 0 | 1 | 1 |
+| cbfquiz-q28 Quiz7&8 p17 key=c  infant convulsions attributed to vitamin B6 deficiency -- new CON-FND-DBD5091832BBDE | 0 | 0 | 1 | 1 |
+| cbfquiz-q29 Quiz7&8 p18 key=b  biotin is a coenzyme of carboxylase enzymes -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q30 Quiz7&8 p18 key=a  pyruvate-to-oxaloacetate coenzyme = biotin (pyruvate carboxylase) -- reused CON-FND-CA0F9E019BC5BA | 0 | 0 | 1 | 1 |
+| cbfquiz-q31 Quiz7&8 p18 key=b  raw-egg consumption can cause biotin deficiency -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q32 Quiz7&8 p19 key=d  acetyl-CoA-to-malonyl-CoA cofactor = biotin (acetyl-CoA carboxylase) -- reused CON-FND-2F3A652B8E3104 | 0 | 0 | 1 | 1 |
+| cbfquiz-q33 Quiz7&8 p19 key=d  B12's corrin ring system is centred on cobalt -- new CON-FND-E9418C0A160C8E | 0 | 0 | 1 | 1 |
+| cbfquiz-q34 Quiz7&8 p19 key=a  vitamin B12 deficiency causes pernicious anaemia -- new CON-FND-E9418C0A160C8E | 0 | 0 | 1 | 1 |
+| cbfquiz-q35 Quiz7&8 p20 key=b  B12 deficiency diagnosed by urinary methylmalonate excretion -- new CON-FND-E9418C0A160C8E | 0 | 0 | 1 | 1 |
+| cbfquiz-q36 Quiz7&8 p20 key=c  folate and methylcobalamin both required to methylate homocysteine to methionine -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q37 Quiz7&8 p21 key=a  folate/folic acid = pteridine base + PABA + glutamate -- new CON-FND-E9418C0A160C8E | 0 | 0 | 1 | 1 |
+| cbfquiz-q38 Quiz7&8 p21 key=b  folate coenzyme transfers single-carbon moieties -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q39 Quiz7&8 p21 key=a  folate deficiency causes megaloblastic anaemia -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz-q40 Quiz7&8 p22 key=d  riboflavin deficiency causes angular stomatitis -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
 
 ## Held
 (none)
 
 ## Remaining
+- Quiz3&6-Q3 p2 key=e HELD (near-dup of Q4's classification axis, cap) only ketogenic amino acid = leucine
+- Quiz3&6-Q4 p2 key=b HELD (cap) neutral amino acid with aliphatic side chain = leucine
+- Quiz3&6-Q7 p4-5 key=a HELD (near-dup of Q4, same beta-sheet fact via a different vignette) amyloidosis fibrils = beta-pleated sheet
+- Quiz4&5-Q3 p9 key=b HELD (True/False, not SBA-shape) phospholipids are not the only plasma-membrane lipid
+- Quiz4&5-Q4 p9 key=voltage-gated HELD (fill-in-blank, not SBA-shape) gated channels opened/closed by voltage
+- Quiz7&8-Q3 p12 key=b HELD (near-dup of Q12/deficiency side of same vitamin-C teaching point, cap) scurvy caused by vitamin C deficiency
+- Quiz7&8-Q32 p22 key=c HELD (near-verbatim dup of cbfquiz-q26/Q17, cap) PLP is required as coenzyme in transamination
+- Quiz7&8-Q33 p23 key=b HELD (near-verbatim dup of cbfquiz-q29/Q20, cap) biotin required as coenzyme by carboxylases
+- Quiz7&8-Q34 p23 key=a HELD (near-verbatim dup of cbfquiz-q36/Q27's B12 half, cap) methylcobalamin required to form methionine from homocysteine
+- Quiz7&8-Q35 p23 key=a REMAINING (keyed, not authored this pass) B12 absorption requires intrinsic factor
+- Quiz7&8-Q36 p23 key=d REMAINING intrinsic factor is chemically a glycoprotein
+- Quiz7&8-Q37 p24 key=d REMAINING B12 deficiency causes: all of intestinal malabsorption/gastric atrophy/low intake
+- Quiz7&8-Q38 p24 key=a REMAINING ascorbic acid required for synthesis of all listed EXCEPT bile pigments
+- Quiz7&8-Q39 p24 key=c REMAINING vitamin C enhances intestinal iron absorption
+- Quiz7&8-Q40 p25 key=c REMAINING vitamin B12 is the cyanide-containing form (cyanocobalamin)
+- Quiz7&8-Q41 p25 key=b REMAINING pyridoxine deficiency convulsions attributed to reduced GABA synthesis
+- Quiz7&8-Q42 p25 key=d REMAINING pellagra's classic triad = diarrhoea, dermatitis and dementia
+- Quiz7&8-Q43 p26 key=a REMAINING thiamine is the sulphur-containing B vitamin
+- Quiz7&8-Q44 p26 key=a REMAINING lemon is a rich source of vitamin C
+- Quiz9-10-Q2 p29 key=c REMAINING (keyed, not authored this pass) irreversible inhibition unaffected by raising substrate concentration
+- Quiz9-10-Q3 p29 key=d REMAINING enzymes do not themselves provide activation energy (false-statement item)
+- Quiz9-10-Q4 p29 key=d REMAINING enzyme-substrate relationship = temporary association
+- Quiz9-10-Q5 p30 key=b REMAINING active site differs from an antibody's binding site by catalysing a reaction
+- Quiz9-10-Q6 p30 key=c REMAINING molecular weight does not affect rate of enzymatic reaction
+- Quiz9-10-Q7 p30 key=c REMAINING enzyme concentration remains constant in a rate-vs-[S] plot
 - cbf-bank-q001 p1 key=b  total body water = 60% of adult body weight -- reused CON-HEM-428F8B432AF540
 - cbf-bank-q002 p1 key=a  total body water in 70kg adult = 42 L -- new
 - cbf-bank-q003 p1 key=c  ICF = 40% of adult body weight -- reused CON-HEM-428F8B432AF540
@@ -278,3 +371,43 @@
 - cbf-bank-q130 p17 key=a  negative feedback tries to reverse or stop the original change
 - cbf-bank-q131 p17 key=b  keeping the internal body environment constant = homeostasis
 - cbf-bank-q132 p17 key=c  internal body environment refers to the ECF
+- cbfquiz-q01 Quiz3&6 p1 key=a  essential amino acid under growth/surgical-recovery stress = arginine -- new CON-FND-0B3EDEDA3E7646
+- cbfquiz-q02 Quiz3&6 p2 key=d  alpha-helix H-bonds between carbonyl O and amide H of different peptide bonds -- new CON-FND-1F2201622F1E93
+- cbfquiz-q03 Quiz3&6 p3 key=d  sulphur-containing amino acid = methionine -- new CON-FND-E05A3006C73A8C
+- cbfquiz-q04 Quiz3&6 p4 key=a  Alzheimer amyloid plaques = high beta-pleated-sheet content -- new CON-FND-3B0373D2FE4F62
+- cbfquiz-q05 Quiz3&6 p5 key=a  bortezomib/proteasome inhibition spares non-ubiquitinated classes -- new CON-FND-5E0E65A67E996C
+- cbfquiz-q06 Quiz3&6 p5 key=e  albumin is a NEGATIVE acute-phase reactant -- new CON-FND-93F44EA42F3CF7
+- cbfquiz-q07 Quiz3&6 p6 key=a  denaturation does NOT decrease viscosity (it increases it) -- new CON-FND-B7F89828D2FCAA
+- cbfquiz-q08 Quiz4&5 p8 key=c  endoplasmic reticulum function = synthesize proteins -- new CON-FND-82A0A5A141043A
+- cbfquiz-q09 Quiz4&5 p9 key=c  Golgi body packages and exports proteins -- new CON-FND-82A0A5A141043A
+- cbfquiz-q10 Quiz9-10 p28 key=d  enzyme's intricately shaped substrate-binding surface = active site -- reused CON-FND-D17966222A3693
+- cbfquiz-q11 Quiz7&8 p11 key=c  vitamins are accessory food factors (general definition) -- new CON-FND-4591EE53066451
+- cbfquiz-q12 Quiz7&8 p12 key=a  vitamin C required for hydroxyproline formation in collagen -- new CON-FND-115161771B581B
+- cbfquiz-q13 Quiz7&8 p12 key=c  Wernicke's disease and beriberi both reversed by thiamin -- reused CON-FND-C9E5128193029E
+- cbfquiz-q14 Quiz7&8 p13 key=d  vitamin B1 deficiency causes beriberi -- reused CON-FND-C9E5128193029E
+- cbfquiz-q15 Quiz7&8 p13 key=c  raised blood pyruvic/lactic acid from thiamin deficiency -- reused CON-FND-C9E5128193029E
+- cbfquiz-q16 Quiz7&8 p13 key=b  vitamin B1 coenzyme TPP runs oxidative decarboxylation -- reused CON-FND-C9E5128193029E
+- cbfquiz-q17 Quiz7&8 p14 key=a  glossitis found in riboflavin deficiency -- reused CON-FND-C9E5128193029E
+- cbfquiz-q18 Quiz7&8 p14 key=d  corneal vascularisation found in vitamin B2 deficiency -- reused CON-FND-C9E5128193029E
+- cbfquiz-q19 Quiz7&8 p14 key=d  the pellagra preventive factor is niacin -- reused CON-FND-C9E5128193029E
+- cbfquiz-q20 Quiz7&8 p15 key=a  pellagra caused by niacin deficiency -- reused CON-FND-C9E5128193029E
+- cbfquiz-q21 Quiz7&8 p15 key=a  niacin is synthesized in the body from tryptophan -- reused CON-FND-C9E5128193029E
+- cbfquiz-q22 Quiz7&8 p15 key=a  corn protein is deficient in tryptophan -- reused CON-FND-C9E5128193029E
+- cbfquiz-q23 Quiz7&8 p16 key=a  60 mg tryptophan needed to produce 1 mg niacin -- reused CON-FND-C9E5128193029E
+- cbfquiz-q24 Quiz7&8 p16 key=d  pellagra occurs in populations dependent on corn -- reused CON-FND-C9E5128193029E
+- cbfquiz-q25 Quiz7&8 p16 key=a  pantothenate is the precursor of coenzyme A -- reused CON-FND-C9E5128193029E
+- cbfquiz-q26 Quiz7&8 p17 key=c  pyridoxal phosphate is central to transamination -- new CON-FND-DBD5091832BBDE
+- cbfquiz-q27 Quiz7&8 p17 key=c  PLP is the coenzyme required for transaminase action -- new CON-FND-DBD5091832BBDE
+- cbfquiz-q28 Quiz7&8 p17 key=c  infant convulsions attributed to vitamin B6 deficiency -- new CON-FND-DBD5091832BBDE
+- cbfquiz-q29 Quiz7&8 p18 key=b  biotin is a coenzyme of carboxylase enzymes -- reused CON-FND-C9E5128193029E
+- cbfquiz-q30 Quiz7&8 p18 key=a  pyruvate-to-oxaloacetate coenzyme = biotin (pyruvate carboxylase) -- reused CON-FND-CA0F9E019BC5BA
+- cbfquiz-q31 Quiz7&8 p18 key=b  raw-egg consumption can cause biotin deficiency -- reused CON-FND-C9E5128193029E
+- cbfquiz-q32 Quiz7&8 p19 key=d  acetyl-CoA-to-malonyl-CoA cofactor = biotin (acetyl-CoA carboxylase) -- reused CON-FND-2F3A652B8E3104
+- cbfquiz-q33 Quiz7&8 p19 key=d  B12's corrin ring system is centred on cobalt -- new CON-FND-E9418C0A160C8E
+- cbfquiz-q34 Quiz7&8 p19 key=a  vitamin B12 deficiency causes pernicious anaemia -- new CON-FND-E9418C0A160C8E
+- cbfquiz-q35 Quiz7&8 p20 key=b  B12 deficiency diagnosed by urinary methylmalonate excretion -- new CON-FND-E9418C0A160C8E
+- cbfquiz-q36 Quiz7&8 p20 key=c  folate and methylcobalamin both required to methylate homocysteine to methionine -- reused CON-FND-C9E5128193029E
+- cbfquiz-q37 Quiz7&8 p21 key=a  folate/folic acid = pteridine base + PABA + glutamate -- new CON-FND-E9418C0A160C8E
+- cbfquiz-q38 Quiz7&8 p21 key=b  folate coenzyme transfers single-carbon moieties -- reused CON-FND-C9E5128193029E
+- cbfquiz-q39 Quiz7&8 p21 key=a  folate deficiency causes megaloblastic anaemia -- reused CON-FND-C9E5128193029E
+- cbfquiz-q40 Quiz7&8 p22 key=d  riboflavin deficiency causes angular stomatitis -- reused CON-FND-C9E5128193029E
