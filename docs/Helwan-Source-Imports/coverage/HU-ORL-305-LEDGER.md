@@ -61,10 +61,96 @@ concept — are different facts from what this cluster tests, documented as
 non-merges in the concept `field_notes`, not formally rejected merge
 candidates since they were never real merge candidates).
 
-## Remaining (921 keys)
+## Lane-2 pass (this commit)
 
-Chapter 3 items #21-96 (76 keys) plus the whole of Chapters 4-15 (845 keys) —
-see `HU-ORL-305-triage-keys.txt` for the full sequential list
-(`ophth-q0060` through `ophth-q0980`). Bank order, ready for the next
-cluster/lane pass; no further triage beyond the structural join was performed
-on this remainder (see `HU-ORL-305-triage.md`'s own scope note).
+Authored ophth-q0060 through ophth-q0128 (Chapter 3 items #21-96, minus 7
+held) against the 980-key triage list, extending lane-1's ophth-q0001..q0059
+without touching it:
+
+- Chapter 3 (The protective system of the eye), items #21-96 of 96:
+  ophth-q0060..q0135 — 69/76 authored, 7 held.
+
+69 keys authored, direct set-diff of the 71 `joined` triage keys in this
+range (`ch3-q21`..`ch3-q96` minus the 5 unjoined) against every
+`question[].key` present in `coverage/seeds/HU-ORL-305/ch3b.json` — all 69
+match exactly, `ophth-ch3b-qNN` form (2 more triage-`joined` keys, Q48/Q49,
+were additionally held this pass — see below). 852 keys remain in the 980-key
+triage after this pass.
+
+Held this pass (7, all Chapter 3):
+
+- Q32, Q36, Q47, Q50, Q53 — unjoined-no-key (printed answer key has no row
+  for these 5 bank items; see `HU-ORL-305-triage.md`). Unchanged from
+  lane-1's triage; still held, not authored.
+- Q48, Q49 — printed with only 2 options (True/False), below even the
+  3-option build-time-4th-option precedent lane-1 used once (Ch1 Q20).
+  Fabricating a second AND third distractor to reach the 4-option minimum
+  would go beyond that narrow precedent, so both are held rather than
+  authored. Both have valid printed keys (Q48=B/False, Q49=A/True) and are
+  ready to author if a future pass adopts a T/F-specific build path.
+
+Cross-check: every one of the 69 transcribed keys was independently verified
+by a second, from-scratch regex parse of the cached `pdftotext -layout` text
+of the answer key's Chapter 3 block (91 printed `Qn <letter>` cells,
+`Q(\d+)\s+([A-E])` pattern) — 0 mismatches against the hand-transcribed
+`scripts/helwan/extract/HU-ORL-305/mcq-bank-ophthalmology-ch3b.json`.
+
+| cluster | authored | held | remaining | total |
+|---|---:|---:|---:|---:|
+| ch1 (Brief anatomy of the eye and its adnexa) | 26 | 0 | 0 | 26 |
+| ch2 (Clinical examination of the eye) | 13 | 0 | 0 | 13 |
+| ch3 items #1-20 (The protective system of the eye) | 20 | 0 | 0 | 20 |
+| ch3 items #21-96 (The protective system of the eye, remainder) | 69 | 7 | 0 | 76 |
+| **subtotal ch3 (whole chapter)** | **89** | **7** | **0** | **96** |
+| **subtotal all lanes to date** | **128** | **7** | **0** | **135** |
+| ch4 (Normal and abnormal image capture) | 0 | 0 | 91 | 91 |
+| ch5 (Ocular motility in health and disease) | 0 | 0 | 63 | 63 |
+| ch6 (The Glaucomas) | 0 | 0 | 71 | 71 |
+| ch7 (The red eye) | 0 | 0 | 203 | 203 |
+| ch8 (The retina: function and diseases) | 0 | 0 | 90 | 90 |
+| ch9 (The eye and the brain) | 0 | 0 | 73 | 73 |
+| ch10 (Eye diseases in infancy and early childhood) | 0 | 0 | 60 | 60 |
+| ch11 (The eye in systemic diseases) | 0 | 0 | 43 | 43 |
+| ch12 (Ocular and orbital injuries) | 0 | 0 | 81 | 81 |
+| ch13 (Medications and the eye) | 0 | 0 | 43 | 43 |
+| ch14 (Lasers in ophthalmology) | 0 | 0 | 23 | 23 |
+| ch15 (Some related topics) | 0 | 0 | 4 | 4 |
+| **total (bank)** | **128** | **7** | **845** | **980** |
+
+Note: "remaining" for ch4-ch15 still excludes each chapter's own unjoined
+items (16 more, outside ch3) pending future triage/authoring of those
+chapters — see `HU-ORL-305-triage.md`'s own per-chapter unjoined counts.
+
+## Concepts / overlay this pass
+
+28 new concepts minted (`CON-OPH-*`, continuing lane-1's ophthalmology reuse
+family). 7 facts reuse lane-1's already-minted concepts unchanged
+(`ptosisMechanisms`, `lagophthalmos`, `nasolacrimalDuct`, `thyroidEyeDisease`,
+`proptosisDifferential`, `blepharitisTypes`, `dacryocystitisMgmt` — ids
+recomputed deterministically via the same canonical-key hash, not re-minted,
+not re-emitted). No new pending-live overlay this pass (lane-1's
+`CON-NEU-3FF95D30CD5825` overlay is untouched). 0 rejected-merge-candidate
+near-misses recorded this pass — `find-existing.mjs` and a
+`docs/*/concept|pending-live` grep were run for every new concept's shortest
+distinctive term before minting (see
+`scripts/helwan/HU-ORL-305-ophthalmology-data-2.mjs`'s header note for the
+full search-result summary); the closest hits (cavernous haemangioma
+histology, cavernous sinus thrombosis/orbital cellulitis anatomy, vitamin A
+deficiency biochemistry, retinoblastoma/rhabdomyosarcoma molecular biology,
+orbicularis oculi sustained-closure anatomy) were each a different specific
+fact from a different subject, never real merge candidates, so none are
+listed as `rejected_merge_candidate_ids`.
+
+## Remaining (852 keys)
+
+Chapter 3's 7 held items (Q32, Q36, Q47, Q48, Q49, Q50, Q53) plus the whole
+of Chapters 4-15 (845 keys) — see `HU-ORL-305-triage-keys.txt` for the full
+sequential list (`ophth-q0136` through `ophth-q0980`, plus the 7 held Ch3
+keys interspersed at q0071/q0075/q0086/q0087/q0088/q0089/q0092). Bank order,
+ready for the next cluster/lane pass; no further triage beyond the
+structural join was performed on this remainder (see
+`HU-ORL-305-triage.md`'s own scope note).
+
+HANDOFF: next chapter/item = Chapter 4 (Normal and abnormal image capture),
+item #1 of 91 (`ophth-q0136`, all 91 items joined, no unjoined gaps in this
+chapter per the triage table).
