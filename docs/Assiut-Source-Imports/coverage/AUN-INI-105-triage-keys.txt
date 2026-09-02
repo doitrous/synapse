@@ -56,3 +56,68 @@ ini-mcq-q047  # -- bacterial spores: false is "metabolically active" -- live (CO
 ini-mcq-q048  # -- pili occur in motile and non-motile strains -- pending (ASU-INF CON-INF-BC446C9816D9CE)
 ini-mcq-q049  # -- lipopolysaccharide responsible for endotoxin activity -- pending (ASU-INF CON-INF-0DD46C0FD80938)
 ini-mcq-q050  # -- NOT exotoxin property: coded by chromosome -- pending (ASU-INF CON-INF-C87DF729E2ADDF)
+
+# AUN-INI-105 -- Chapter 2 "Bacterial growth" triage keys (source: INI MCQ .pdf,
+# pp.28-37, 60 items, answer table p37). Key format ini-mcq-ch2-qNNN (chapter-2-scoped,
+# per the ch1 triage's own note that a later chapter must disambiguate its Q-numbers).
+
+ini-mcq-ch2-q001  # -- growth = orderly increase in protoplasm -- new
+ini-mcq-ch2-q002  # -- bacterial multiplication usually by binary fission -- new
+ini-mcq-ch2-q003  # -- bacteria multiply by simple binary fission -- new
+ini-mcq-ch2-q004  # -- facultative anaerobic: ordinarily aerobe, can grow without O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q005  # -- metabolic peak during logarithmic phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q006  # -- new cells balance declining cells: stationary phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q007  # -- microaerophilic: small amount of O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q008  # -- convalescence corresponds to decline phase -- new
+ini-mcq-ch2-q009  # -- division at maximum rate: log phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q010  # -- obligate anaerobe: grow/multiply in complete absence of O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q011  # -- lag phase correlates with incubation period -- new
+ini-mcq-ch2-q012  # -- facultative anaerobe: most pathogenic bacteria belong to it -- pending (ASU-INF CON-INF-3528D1EAF3F9B4)
+ini-mcq-ch2-q013  # -- only true statement: stationary phase accompanied by bacterial death -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q014  # -- stationary phase correlates with symptoms & signs -- new
+ini-mcq-ch2-q015  # -- facultative anaerobe: equal facility with/without O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q016  # -- only molecular O2 as final acceptor: obligate aerobes -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q017  # -- growth rate during stationary phase: zero -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q018  # -- lack peroxidase: obligate anaerobes -- pending (ASU-INF CON-INF-2E9D6F833A7D5E)
+ini-mcq-ch2-q019  # -- division max & constant rate: exponential phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q020  # -- HELD, figure-dependent (growth-curve diagram phases A-D not extractable as text)
+ini-mcq-ch2-q021  # -- obligate anaerobes lack SOD and catalase -- pending (ASU-INF CON-INF-2E9D6F833A7D5E)
+ini-mcq-ch2-q022  # -- binary fission enabled by single chromosome -- new
+ini-mcq-ch2-q023  # -- mesosome initiates DNA replication -- pending (ASU-INF CON-INF-E4012E20B5A13D, already overlaid ch1)
+ini-mcq-ch2-q024  # -- zero growth rate: lag phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q025  # -- susceptible to antimicrobials: exponential/log phase -- pending (ASU-INF CON-INF-2E629B81136A05)
+ini-mcq-ch2-q026  # -- invasion period corresponds to logarithmic phase -- new
+ini-mcq-ch2-q027  # -- H. pylori: microaerophilic -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q028  # -- HELD, duplicate-of ini-mcq-ch2-q016
+ini-mcq-ch2-q029  # -- recovery corresponds to decline phase -- new
+ini-mcq-ch2-q030  # -- generation time calculated in exponential phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q031  # -- HELD, duplicate-of ini-mcq-ch2-q008
+ini-mcq-ch2-q032  # -- hydrogen peroxide: byproduct of aerobic respiration -- pending (ASU-INF CON-INF-2E9D6F833A7D5E)
+ini-mcq-ch2-q033  # -- size & number increase: exponential phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q034  # -- 50-55C: thermophilic -- pending (ASU-INF CON-INF-3D845DC6B07880)
+ini-mcq-ch2-q035  # -- obligate anaerobes grow in absence of O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q036  # -- not killed by O2 exposure: aerotolerant anaerobes -- new
+ini-mcq-ch2-q037  # -- HELD, duplicate-of ini-mcq-ch2-q017
+ini-mcq-ch2-q038  # -- net increase zero: lag and stationary phases -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q039  # -- bacterial cell multiplies by binary fission -- new
+ini-mcq-ch2-q040  # -- facultative anaerobes: presence or absence of O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q041  # -- autotrophic: only inorganic salts, water, CO2 -- pending (ASU-INF CON-INF-841FAB7F11BA18)
+ini-mcq-ch2-q042  # -- HELD, printed key (C, Pathogenic) conflicts with expected answer (D, All of the above) for heterotrophic bacteria
+ini-mcq-ch2-q043  # -- grow best in traces of O2: microaerophilic -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q044  # -- grow only in absence of O2: obligate anaerobes -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q045  # -- synthesize organic from inorganic: autotrophs -- pending (ASU-INF CON-INF-841FAB7F11BA18)
+ini-mcq-ch2-q046  # -- most pathogenic bacteria: mesophilic -- pending (ASU-INF CON-INF-3528D1EAF3F9B4)
+ini-mcq-ch2-q047  # -- most pathogenic bacteria grow in: neutral pH -- pending (ASU-INF CON-INF-3528D1EAF3F9B4)
+ini-mcq-ch2-q048  # -- lacking SOD/catalase: obligate anaerobes -- pending (ASU-INF CON-INF-2E9D6F833A7D5E)
+ini-mcq-ch2-q049  # -- lag phase: enzymes accumulating for multiplication -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q050  # -- exponential phase: viable bacteria increase by time -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q051  # -- growth of bacteria: increase in size and number -- new
+ini-mcq-ch2-q052  # -- lag phase length depends EXCEPT morphology -- pending (ASU-INF CON-INF-73C7354E3479CD)
+ini-mcq-ch2-q053  # -- cell death balanced by new cells: stationary phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q054  # -- grows above 50C: thermophilic -- pending (ASU-INF CON-INF-3D845DC6B07880)
+ini-mcq-ch2-q055  # -- log phase due to regular division at maximal rate -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q056  # -- HELD, duplicate-of ini-mcq-ch2-q029
+ini-mcq-ch2-q057  # -- capnophilic: high CO2 -- pending (ASU-INF CON-INF-3D845DC6B07880)
+ini-mcq-ch2-q058  # -- HELD, duplicate-of ini-mcq-ch2-q025
+ini-mcq-ch2-q059  # -- depends on organic sources for energy: heterotrophs -- pending (ASU-INF CON-INF-841FAB7F11BA18)
+ini-mcq-ch2-q060  # -- HELD, duplicate-of ini-mcq-ch2-q005
