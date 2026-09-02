@@ -174,9 +174,46 @@ export const LEAF: McqLeafSeed = {
       type: "mechanism",
       aliases: ["Cushing reflex", "Raised intracranial pressure and blood pressure"],
     },
+    // Sparse reuse, not a fresh mint: this leaf's own bank row about
+    // vasodilator metabolites is the exact fact this module's already-
+    // pinned local-blood-flow-regulation concept teaches (CON-CVS-
+    // 56A68328FD03C7, docs/Kasr-Source-Imports/concept/104-CPS-physiology-
+    // concepts.md, pinned to ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL, this
+    // exact leaf's module_subject) — CO2, H+ and adenosine are its named
+    // examples; p.57 of the department book separately names potassium
+    // ions among the metabolites driving vasomotion, and endothelin-1 is
+    // this leaf's own newly-mounted concept's named vasoconstrictor, never
+    // a vasodilator metabolite. No new search needed — same concept.
+    {
+      key: "local-blood-flow-regulation.myogenic-and-metabolic-autoregulation",
+      label: "Active hyperaemia is the rise in blood flow that accompanies a rise in tissue metabolic activity, produced by arteriolar and precapillary-sphincter dilation from local hypoxia, vasodilator metabolites (CO2, H+, adenosine) and local heat.",
+      definition: "Restated here only to satisfy the seed type; the pinned record's own wording (CON-CVS-56A68328FD03C7) governs. Vasodilator metabolites (CO2, H+, adenosine, and — per the department book's vasomotion section — potassium ions) are what active hyperaemia and reactive hyperaemia both work through; endothelin-1 is a vasoconstrictor peptide, not a vasodilator metabolite.",
+      objective: "Identify CO2, H+, adenosine and potassium ions as vasodilator metabolites, and endothelin-1 as a vasoconstrictor rather than a vasodilator metabolite.",
+      pitfall: "Mistaking endothelin-1 for a vasodilator because it is secreted by the endothelium alongside NO and prostacyclin — endothelin-1 is described as the most potent vasoconstrictor known, the opposite direction from the true vasodilator metabolites.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      type: "mechanism",
+      aliases: ["Vasodilator metabolites", "Active hyperaemia metabolites"],
+    },
   ],
 
   questions: [
+    // run44 — sparse reuse question, paired with the reuse concept above.
+    {
+      key: "which-of-the-following-is-not-a-vasodilator-metabolite-8da91769",
+      conceptKey: "local-blood-flow-regulation.myogenic-and-metabolic-autoregulation",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Identify endothelin-1, not adenosine, potassium ions or hydrogen ions, as the option that is not a vasodilator metabolite.",
+      explanations: {
+        A: "Adenosine is a vasodilator metabolite — a breakdown product of ATP that is especially important in cardiac muscle, one of the department book's own named examples.",
+        B: "Potassium ions are a vasodilator metabolite — the department book's vasomotion section names potassium ions, alongside O2 lack, CO2 excess and lactic acid, among the metabolites that relax metarterioles and precapillary sphincters.",
+        C: "Hydrogen ions (low pH from acidic metabolites such as lactic acid) are a vasodilator metabolite, one of the department book's own named examples of active hyperaemia's vasodilator metabolites.",
+        D: "This is the correct answer. Endothelin-1 is not a vasodilator metabolite — it is described as the most potent vasoconstrictor yet known, secreted by the endothelium itself, the opposite direction from adenosine, potassium ions and hydrogen ions.",
+      },
+    },
     {
       key: "asa-rapid-compensatory-reaction-to-hemorrhagic-shock-the-sec-e85732b4",
       conceptKey: "hemorrhagic-shock.rapid-compensatory-hormone-response",
@@ -751,6 +788,28 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: "Only 3 options survive extraction (A, B, D — no C), below the platform's 4-to-5-option import contract; the stem itself also carries a stray corrupted fragment ('tePret'). Independently of the missing option, this row's own content is the same mean-systemic-filling-pressure/venous-capacitance fact already flagged as a genuine conflict against this pipeline's own sourced veins.capacitance-compliance-and-blood-volume-reservoir concept (see mean-systemic-filling-pressure-is-decreased-by-d3f1a38e, left unclaimed above, run36) — not authored either way.",
+    },
+    // run44 — endothelium/RAS/NO content, the other 12 remaining rows this
+    // leaf's own coverage/104-CPS-LEDGER.md recompute surfaced, is authored
+    // in its own file (physiology-endothelium-and-vasoactive-hormones.ts)
+    // against ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL (extended with new
+    // sections, not this file's own pinned articleId
+    // ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL, which does not teach
+    // that content — a fresh-mint concept is tagged with its own leaf's
+    // articleId by build-batches.ts, so routing it here would have wrongly
+    // credited this file's chemoreceptor article with teaching endothelium/
+    // RAS/NO). `mean-systemic-filling-pressure-is-decreased-by-d3f1a38e` is
+    // left unclaimed unchanged (a genuine content conflict needing an Omar
+    // ruling, run36/41's own escalation, not re-litigated here).
+    {
+      key: "it-is-correct-to-say-8f7e9d38",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Extraction yields only 4 lettered options — A, B, C, E, with no D — the same missing-option corruption pattern already excluded twice elsewhere in this file. The printed/external answer E ('B & C are correct') is also internally inconsistent with this pipeline's own already-authored, sourced concepts on this same leaf: option B ('stimulation of baroreceptors leads to a pressor response') directly contradicts the arterial-baroreceptor-reflex concept above, whose sourced mechanism is that a RISE in baroreceptor discharge inhibits the vasomotor area and produces a DEPRESSOR (pressure-lowering) response, not a pressor one — option A, not B, is what that concept supports. Crediting a combination that includes a statement contradicting this leaf's own sourced physiology, with a option letter missing from the extraction, is not authored either way.",
     },
   ],
 }

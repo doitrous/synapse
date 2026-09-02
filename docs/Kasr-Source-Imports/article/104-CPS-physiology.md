@@ -831,7 +831,7 @@ en
 ## learner_stage
 Years 1–3 foundation
 ## reading_time
-7
+13
 ## high_yield
 Core
 ## time_sensitive
@@ -845,10 +845,10 @@ Medical team, Admin team
 ## final_publisher
 Admin team
 ## summary
-Not every adjustment of blood flow is nervous. This article covers the local mechanisms that match a single tissue's flow to its own metabolism, the two catecholamines that pull the vasculature in opposite directions, and what actually happens — and what can go wrong — when a person simply stands up.
+Not every adjustment of blood flow is nervous. This article covers the local mechanisms that match a single tissue's flow to its own metabolism, the two catecholamines that pull the vasculature in opposite directions, what actually happens — and what can go wrong — when a person simply stands up, the endothelium's own vasoactive secretions (nitric oxide, endothelin, prostacyclin), the classification of circulating vasoconstrictor and vasodilator hormones, the renin-angiotensin system's formation cascade and AT1/AT2 receptor actions, and carotid sinus syndrome as a clinical extension of the baroreceptor reflex.
 ## sections
 ### Definition
-Blood flow is matched to local demand without any nervous or hormonal input by two local mechanisms, redirected regionally by two catecholamines that pull the vasculature in opposite directions, and — on simply standing up — challenged and then restored by gravity and the baroreflex.
+Blood flow is matched to local demand without any nervous or hormonal input by two local mechanisms, redirected regionally by two catecholamines that pull the vasculature in opposite directions, and — on simply standing up — challenged and then restored by gravity and the baroreflex. Beyond these, the vascular endothelium itself secretes vasoactive substances, a further set of circulating hormones acts on the vasculature systemically, and the renin-angiotensin system provides both an acute vasoconstrictor and the module's own account of long-term arterial pressure regulation.
 
 ### Mechanism
 Active hyperaemia is the rise in flow that accompanies a rise in tissue metabolism, driven by local hypoxia, vasodilator metabolites (CO2, H+, adenosine) and local heat dilating the arterioles and precapillary sphincters. Autoregulation is the separate tendency of flow to drift back toward normal within under a minute after a change in perfusion pressure, by two mechanisms: myogenic (a pressure rise stretches the arteriolar wall, driving calcium entry and constriction; a fall does the opposite) and metabolic (a fall in flow itself causes local hypoxia and metabolite build-up that dilates the vessels; a rise does the opposite). Reactive hyperaemia — the marked overshoot in flow seen once a period of vascular occlusion is released — is an extreme case of the metabolic mechanism.
@@ -861,9 +861,21 @@ On standing, gravity pools blood in the leg veins, lowering venous return, cardi
 ### Clinical significance
 The compensatory reflex to standing can fail — a slow or weak sympathetic response after bed rest, in old age, in autonomic neuropathy (e.g. diabetes) or with sympatholytic drugs — or be overwhelmed by hypovolaemia (haemorrhage, dehydration), and either failure lets postural hypotension appear, with dizziness or syncope as the presenting complaint. Reactive hyperaemia is exploited at the bedside as a rough test of arterial supply (e.g. capillary refill after releasing a cuff or compression), and epinephrine's dose-dependent switch from net vasodilation to vasoconstriction is why its clinical effect on blood pressure differs at physiological versus pharmacological doses.
 
+Carotid sinus syndrome is a clinical extension of the same baroreceptor reflex driving the standing response above: in some people the carotid sinus baroreceptors become abnormally sensitive, so trivial external pressure (a tight collar, or the pressure of shaving) activates the reflex strongly enough to produce marked bradycardia and a fall in arterial pressure, which can cause cerebral ischaemia and fainting — an acquired hypersensitivity, not a normal finding especially in young adults. Severe or recurrent cases may need denervation of the hypersensitive carotid sinus or implantation of a permanent artificial cardiac pacemaker.
+
+### Endothelium-derived vasoactive substances
+The vascular endothelium is not a passive lining: it continuously secretes nitric oxide (NO), formed by endothelial NO synthase (eNOS) acting on L-arginine, with a short half-life (about 6 seconds) that keeps its action mainly local. Shear stress, acetylcholine, and the inflammatory mediators bradykinin and histamine all raise NO secretion; NO itself acts on vascular smooth muscle via guanylate cyclase, raising cGMP and relaxing the myocyte — the target of PDE-5 inhibitors such as sildenafil, which prolong this effect. A primary deficiency of NO synthesis contributes to chronic hypertension, since it removes a vasodilator tone the vasculature depends on. Endothelin-1, by contrast, is the most potent vasoconstrictor known, released in response to endothelial injury, thrombin and hypoxia, and reduced by NO, prostacyclin and atrial natriuretic peptide. Prostacyclin (PGI2), formed from arachidonic acid, is a vasodilator that also inhibits platelet aggregation and facilitates NO release, working alongside it rather than independently.
+
+### The renin-angiotensin system
+Renin, secreted by the kidney's juxtaglomerular apparatus in response to hypovolaemia/hypotension, renal ischaemia, reduced distal tubular Na+ delivery, or sympathetic (β1) stimulation — not in response to hypertension — cleaves hepatic angiotensinogen to angiotensin I, which angiotensin-converting enzyme (ACE, concentrated in pulmonary vascular endothelium) converts to angiotensin II. Angiotensin II acts through two receptor types with opposing profiles: AT1 receptors, widespread in adult tissue, mediate vasoconstriction, aldosterone secretion, direct renal Na+/water reabsorption, renin-secretion inhibition, increased sympathetic and vasopressin drive, thirst, and cardiac/vascular hypertrophy; AT2 receptors, much more limited in adults, counterbalance AT1 with vasodilatation, diuresis and natriuresis. Because angiotensin II's downstream renal Na+/water-retaining effect builds and persists over minutes to days, the renin-angiotensin system — unlike the second-to-second baroreceptor and chemoreceptor reflexes — is the module's own account of long-term arterial pressure regulation.
+
 ### Common misconceptions
 Treating active hyperaemia and autoregulation as one mechanism. Active hyperaemia responds to a rise in tissue metabolism; autoregulation responds to a change in perfusion pressure — they share the same metabolic logic but different triggers.
 Assuming epinephrine and norepinephrine both raise total peripheral resistance because both are catecholamines. Epinephrine's β2 vasodilation in muscle and liver normally wins out and lowers TPR; norepinephrine has no such vasodilator arm.
+Confusing NO's second messenger (cGMP) with cAMP, or assuming adrenaline directly stimulates NO synthase — the book's own listed stimuli are shear stress, acetylcholine, bradykinin and histamine.
+Assuming AT1 and AT2 share the same direction of effect because both are angiotensin II receptors — AT2 specifically counterbalances AT1, and diuresis/natriuresis are AT2, not AT1, actions.
+Assuming hypertension itself raises renin secretion — the reverse is true: hypovolaemia/hypotension, not hypertension, is what raises it.
+Treating carotid sinus syndrome as a normal finding in healthy young adults rather than an acquired abnormal hypersensitivity.
 ## published_summary
 
 ## published_sections
@@ -874,10 +886,17 @@ Reactive hyperaemia is an extreme case of the metabolic autoregulation mechanism
 Epinephrine (β2, muscle/liver) usually lowers TPR overall; norepinephrine (α1, almost everywhere) raises it.
 Postural hypotension = fall of >20 mmHg on standing; normally prevented by the rapid baroreflex (tachycardia, arterial/venous constriction, RAAS).
 Postural hypotension appears when the reflex is weak/slow (age, bed rest, autonomic neuropathy, sympatholytics) or overwhelmed by hypovolaemia.
+Carotid sinus syndrome = acquired baroreceptor hypersensitivity, not a normal young-adult finding; can need denervation or a pacemaker.
+NO: eNOS on L-arginine, cGMP-mediated, short half-life; deficiency contributes to chronic hypertension. Endothelin-1 = most potent known vasoconstrictor. Prostacyclin = vasodilator, facilitates NO release.
+Vasoconstrictor hormones: angiotensin II, epinephrine, norepinephrine, vasopressin. Vasodilator hormones: kinins, natriuretic peptide.
+RAS: renin (JGA) on hepatic angiotensinogen → angiotensin I; ACE → angiotensin II. AT1 = vasoconstriction/Na+ retention; AT2 = vasodilatation/diuresis/natriuresis. RAS = long-term BP regulation.
 ## lose_the_mark
 Conflating active hyperaemia with autoregulation.
 Assuming epinephrine always raises TPR like norepinephrine does.
 Treating any fall in standing blood pressure as pathological rather than a normal, rapidly-compensated gravitational effect.
+Assuming carotid sinus syndrome is a normal young-adult variant rather than acquired hypersensitivity.
+Swapping cGMP for cAMP as NO's second messenger, or L-arginine for another amino acid as its substrate.
+Assuming AT1 and AT2 receptor stimulation produce the same effects, or that hypertension raises renin secretion.
 ## callout_evidence
 
 ## related_concepts
@@ -922,10 +941,10 @@ Rights: must be CC-BY or public domain, or newly drawn for this product
 ## publication_gate
 needs_evidence
 ## evidence_basis
-Kasr Alainy physiology department book, "Cardiopulmonary (Cardiovascular)", Chapter 5 ("Basic Mechanisms of Circulatory Control"), printed pages 62-70, 90 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction.
+Kasr Alainy physiology department book, "Cardiopulmonary (Cardiovascular)", Chapter 5 ("Basic Mechanisms of Circulatory Control"), printed pages 62-70, 78, 82-84, 90 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction. run44 extended this article's own page range (originally 62-70, 90) to include pp.78 and 82-84 after checking the department book directly for the endothelium/RAS/carotid-sinus-syndrome material this article's own evidence_gaps had previously scoped out — the book covers it in full at those pages, so the earlier scope call was about this article's own summary, not a source gap.
 ## evidence_gaps
 No independent citation has been attached to any figure here; every number is traceable to one department book.
-The book names further vasoactive hormones (angiotensin II, vasopressin, natriuretic peptides, kinins, endothelium-derived NO/endothelin/prostacyclin) in this same chapter that are not covered by this article for reasons of scope — see the lane report.
+Vasopressin (ADH) and natriuretic peptides are still not covered by this article — the book's own vasoconstrictor/vasodilator hormone classification names them, but their fuller physiology (osmoregulation, V1/V2 receptors; ANP/BNP/CNP receptor subtypes and actions) is out of scope for this pass and remains for a future run if the question banks demand it.
 ## conflicts
 [clear]
 ## last_reviewed
@@ -933,7 +952,7 @@ The book names further vasoactive hormones (angiotensin II, vasopressin, natriur
 ## review_due
 
 ## notes
-Written from the department book only; no rival article on this exact scope was found in the module's existing batches.
+Written from the department book only; no rival article on this exact scope was found in the module's existing batches. run44 extended the original local/hormonal-control scope with endothelium-derived substances (NO, endothelin, prostacyclin), the circulating vasoconstrictor/vasodilator hormone classification, the renin-angiotensin system (formation, AT1/AT2 receptors, long-term role), and carotid sinus syndrome — all confirmed present in this same department-book chapter, following the precedent set by the Gas Transport article's own hypoxia/cyanosis/CO-poisoning section addition (bdcb7e72).
 
 ## field_notes
 lastReviewed: New record, not yet reviewed.
