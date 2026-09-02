@@ -36,8 +36,8 @@
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 9 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
-    Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
-    Cytogenetics — Cell Renewal Classification — 3 questions, 1 concepts
+    Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 7 questions, 1 concepts
+    Cytogenetics — Cell Renewal Classification — 6 questions, 1 concepts
     Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 26 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  211 questions were excluded and 0 held back for having no
+  212 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -30753,6 +30753,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-28A334F66413
+## title
+Apoptosis is characterized by the following:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Apoptosis is characterized by the following:
+## answer_a
+It is only pathological condition
+## explanation_a
+Reversed. Apoptosis is not exclusively pathological — this leaf's own concept states it 'may also be pathological or physiological', occurring normally at the end of a cell's lifespan; being purely pathological is instead true of necrosis.
+## answer_b
+Is an active programmed cell death
+## explanation_b
+Apoptosis is an active, programmed cell death, occurring normally at the end of a cell's lifespan and, unlike necrosis, may be entirely physiological rather than always pathological.
+
+Why this is right:
+- Two forms of cell death are recognised.
+## answer_c
+Cells and organelles are swell & burst
+## explanation_c
+Reversed. Cells and organelles swelling and bursting is this leaf's own description of necrosis; apoptotic cells instead decrease in size rather than swell.
+## answer_d
+Results from anoxia or exposure to toxins
+## explanation_d
+Reversed. Anoxia, mechanical injury and toxin exposure are this leaf's own stated causes of necrosis, not of apoptosis, which is an internally programmed process rather than one triggered by external injury.
+## correct_answer
+B
+## main_concept
+CON-FND-E44369E755E9F7
+## library_ids
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+## topic
+Cytogenetics — Cell Death (Necrosis vs Apoptosis)
+## subtopic
+Cytogenetics — Cell Death (Necrosis vs Apoptosis)
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Comparison
+## learning_objective
+State that apoptosis is an active, programmed cell death, against three statements that instead describe necrosis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q107. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-1ACB014DB89A
 ## title
 nuclei become small, dark
@@ -31300,6 +31392,282 @@ Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-104-ABE296408706
+## title
+Cannot divide but replaced from stem cell such as blood cells
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cannot divide but replaced from stem cell such as blood cells
+## answer_a
+non renewing cell
+## explanation_a
+Non-renewing cells are never replaced once lost at all; blood cells, by contrast, are continually replaced throughout life from stem cells.
+## answer_b
+potentially renewable cells
+## explanation_b
+A potentially renewable cell can itself re-enter the cycle and divide when needed; the stem describes an end cell that cannot divide at all, which is not this class.
+## answer_c
+continuously renewing cell
+## explanation_c
+Continuously renewing cells are end cells that cannot themselves divide but are replaced from stem cells — blood cells are this leaf's own concept's named example. A common trap: reading 'continuously renewing' as continuously dividing, when it is the stem cell behind the end cell that divides, not the end cell itself.
+
+Why this is right:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells.
+## answer_d
+None of the above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+C
+## main_concept
+CON-FND-A2E40256517389
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Cell Renewal Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name continuously renewing cells as end cells that cannot themselves divide but are replaced from stem cells, the class blood cells belong to.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q11. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-91544DBE9EE5
+## title
+Non renewing cells are characterized by All the following except
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Non renewing cells are characterized by All the following except
+## answer_a
+leave cycle, go to G0
+## explanation_a
+True of non-renewing cells, so not the exception — this leaf's own concept states they leave the cycle in G1 for G0 permanently.
+## answer_b
+Permanent exit that never divide again
+## explanation_b
+True, so not the exception. A non-renewing cell's exit is permanent — it never divides again once it has left the cycle.
+## answer_c
+return to continue cycle on need for replacement
+## explanation_c
+The exception, and the answer. Returning to continue the cycle when replacement is needed describes a potentially renewable cell (this leaf's own liver-cell example), not a non-renewing one, which by definition is not replaced when lost. A common trap: reading 'continuously renewing' as continuously dividing.
+
+Why this is right:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells.
+## answer_d
+heart, nerve cells are examples for that type
+## explanation_d
+True, so not the exception. Cardiac muscle and nerve cells are this leaf's own concept's named examples of non-renewing cells.
+## correct_answer
+C
+## main_concept
+CON-FND-A2E40256517389
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Cell Renewal Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that returning to the cycle when replacement is needed describes a potentially renewable cell, not a non-renewing one, against three genuine non-renewing-cell characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q10. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-637E4879346B
+## title
+One of the following is a potentially renewable cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a potentially renewable cell:
+## answer_a
+Liver cell
+## explanation_a
+The liver cell is this leaf's own named example of a potentially renewable cell — it enters G0 after destruction or partial removal but can re-enter the cycle and divide when replacement is needed.
+
+Why this is right:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells.
+## answer_b
+Skin epidermal cell
+## explanation_b
+Skin epidermal cells are continuously renewing, not potentially renewable — this leaf's own sibling question (one-of-the-following-is-a-non-renewing-cell-bbe76c3a) already establishes they are replaced throughout life from the epidermis's basal stem cells, the opposite class from a cell that itself re-enters the cycle.
+## answer_c
+Plasma cell
+## explanation_c
+Plasma cells are not this leaf's own potentially-renewable, liver-cell example — they are terminally differentiated antibody-secreting cells, not a working cell type this leaf's concept classes as able to re-enter the cycle.
+## answer_d
+Macrophages
+## explanation_d
+Macrophages are not this leaf's own potentially-renewable, liver-cell example — they are differentiated phagocytic cells, not a working cell type this leaf's concept classes as able to re-enter the cycle.
+## correct_answer
+A
+## main_concept
+CON-FND-A2E40256517389
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Cell Renewal Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the liver cell as this leaf's own potentially-renewable example, against skin epidermal cells (continuously renewing) and two undifferentiated distractors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q3. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
