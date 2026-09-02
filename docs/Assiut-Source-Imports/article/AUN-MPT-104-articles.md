@@ -344,3 +344,168 @@ AUN: taught in Assiut University's Mechanisms and Principles of Diseases and The
 ### definition_of · CON-FND-47418DE70D5CDC
 Quote: hsp90, normally bound to the receptor in the ligand's absence, dissociates on binding, and the receptor-ligand complex translocates to the nucleus to bind a DNA response element and alter gene transcription
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-RECEPTOR-VARIATION-ADR-TRANSPORT
+
+## title
+Receptor regulation, individual variation in drug response, and additional membrane transport routes
+
+## arabic_title
+تنظيم المستقبلات وتباين الاستجابة الدوائية بين الأفراد وطرق نقل إضافية عبر الغشاء
+
+## aliases
+Receptor Regulation and Variation in Drug Responsiveness
+Adverse drug reaction
+Pharmacokinetics 1 (Absorption & distribution)
+AUN-MPT-104 Lectures 6, 8, 10
+
+## subject
+pharm
+
+## topic
+Receptor Regulation and Variation in Drug Responsiveness
+
+## subtopic
+Spare receptors, up-/down-regulation, tachyphylaxis, response variation, transport mechanisms
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Five teaching points from AUN-MPT-104's Lectures 6, 8 and 10 that were not already covered by the module's existing concepts or by the pending Kasr 108-INT pharmacology batch reused elsewhere in this course: spare receptors (a tissue can reach its maximal response before every receptor is occupied), receptor up- and down-regulation (chronic agonist exposure desensitises a tissue, chronic antagonist exposure sensitises it), tachyphylaxis (a rapid loss of response within the first few doses, distinct from gradual tolerance), the vocabulary separating quantitative (hyper-/hyporeactive), qualitative/genetic (idiosyncratic) and immunological (hypersensitive) individual variation in drug response, and two further membrane-crossing routes -- filtration and pinocytosis -- alongside the named transporter proteins MRP and SLC.
+
+## sections
+### Definition
+Spare receptors are the unoccupied receptors left over once a tissue's maximal response (Emax) has already been reached by a smaller, occupied fraction. Receptor down-regulation is desensitisation from continued agonist exposure; receptor up-regulation is supersensitivity from continued antagonist exposure. Tachyphylaxis is tolerance that develops rapidly, within the first dose or first few doses, rather than gradually. Hyperreactive/hyporeactive describe an individual's quantitative departure from the expected dose-response relationship; idiosyncrasy is a qualitatively different response from a genetic cause; hypersensitivity is an allergic/immunological drug response -- the three must not be used interchangeably. Filtration moves small water-soluble drugs through aqueous membrane pores; pinocytosis engulfs fluid and dissolved substances (iron being the worked example) by membrane invagination; MRP excretes some drugs into urine at the renal tubule, and SLC transporters take up some neurotransmitters at nerve terminals.
+
+### Mechanism
+A tissue develops spare receptors when its receptor number exceeds what its downstream signalling machinery needs to reach its own ceiling response -- once that ceiling is reached, further receptor occupancy adds nothing, so the tissue's measured EC50 for an agonist sits below that agonist's Kd for the receptor. Receptor down-regulation follows chronic agonist stimulation through decreased signal sensitivity, feedback-regulated receptor synthesis, or reduced receptor number or effectiveness; receptor up-regulation follows chronic antagonist occupancy driving compensatory synthesis of new receptors, so that when the antagonist is abruptly withdrawn, the enlarged receptor population is suddenly exposed to endogenous agonist unopposed. Tachyphylaxis and ordinary tolerance are the same underlying phenomenon -- reduced response to a repeated dose -- differing only in how quickly the reduction appears. Idiosyncratic responses trace to an inherited difference in a drug-metabolising enzyme or receptor (such as an atypical pseudocholinesterase prolonging succinylcholine's action), while hypersensitivity requires prior immune sensitisation to the drug or a related compound. Filtration and pinocytosis both move a drug across a membrane without dissolving through its lipid core -- filtration through aqueous pores along a bulk flow of water, pinocytosis by engulfing the drug together with surrounding fluid in a membrane-derived vesicle -- while MRP and SLC are single named proteins each dedicated to one transport job (efflux into urine; neurotransmitter reuptake) rather than a general class of carrier.
+
+### Key determinants
+The distinguishing fact for spare receptors is that the drug's intracellular effect outlasts its own receptor binding -- a purely kinetic signature, not something inferred from dose alone. For up-/down-regulation, the direction of exposure (agonist vs antagonist) is what determines the direction of regulation, and the two run in opposite directions from what intuition might suggest. Tachyphylaxis is separated from tolerance purely by timescale (first few doses versus a longer course), not by mechanism. The hyperreactive/idiosyncratic/hypersensitive triad is separated by mechanism (dose-response quantity, genetics, immunology respectively), not by severity or by how "unusual" the reaction looks. Filtration, pinocytosis, MRP and SLC are each defined by a specific substrate and direction, not interchangeable synonyms for "transport."
+
+### Clinical significance
+Recognising receptor up-regulation is why beta-blockers are tapered rather than stopped abruptly in patients with ischaemic heart disease -- sudden withdrawal exposes an enlarged, sensitised receptor population to endogenous catecholamines. Recognising tachyphylaxis is why calcitonin for severe hypercalcaemia is paired from the outset with a slower-acting bisphosphonate, so therapy does not lapse when calcitonin's effect fades within days. Correctly identifying an idiosyncratic reaction (as opposed to a dose-related toxic one) points toward a pharmacogenetic cause and changes both acute management and future drug avoidance for that patient (and potentially their relatives). Knowing that highly protein-bound drugs and transporter-dependent excretion (such as MRP-mediated renal clearance) can be affected by co-administered drugs is part of anticipating clinically important drug interactions.
+
+### Common misconceptions
+Assuming a tissue must have 100% receptor occupancy to reach its maximal response, when spare receptors mean many tissues reach Emax well before full occupancy. Expecting antagonist exposure to reduce receptor activity the way agonist exposure does, when chronic antagonism instead produces compensatory up-regulation. Treating tachyphylaxis and ordinary tolerance as different phenomena rather than the same phenomenon on different timescales. Using "hypersensitive" as a loose synonym for "hyperreactive," when the two name mechanistically distinct kinds of individual variation.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Spare receptors: detected when the intracellular effect outlasts drug-receptor binding, or EC50 < Kd.
+Receptor down-regulation: chronic AGONIST exposure -> desensitisation. Receptor up-regulation: chronic ANTAGONIST exposure -> supersensitivity (beta-blocker withdrawal example).
+Tachyphylaxis: RAPID (first few doses) fall in response; distinct from gradual tolerance. Calcitonin/bisphosphonate is the worked clinical example.
+Hyperreactive/hyporeactive = quantitative; Idiosyncratic = qualitative/genetic; Hypersensitive = immunological/allergic. Not interchangeable.
+Filtration = small water-soluble drugs, aqueous pores. Pinocytosis = iron, membrane invagination. MRP = renal excretion transporter. SLC = neurotransmitter uptake transporter.
+
+## lose_the_mark
+Answering that maximal response requires full receptor occupancy.
+Reversing agonist/antagonist exposure with down-/up-regulation direction.
+Calling a gradual tolerance response "tachyphylaxis," or vice versa.
+Substituting "hypersensitive" for "hyperreactive" or "idiosyncratic."
+
+## callout_evidence
+
+## related_concepts
+CON-FND-DE8DB40917BBE0
+CON-FND-EB925681CC1A5C
+CON-FND-18F93F68713FEF
+CON-FND-5A06E7B21A762A
+CON-FND-3FA9935F6B0949
+
+## related_articles
+ART-FND-AUN-MPT104-DRUG-RECEPTORS: the receptor-superfamily article this course's Lecture 6 continues from
+
+## question_ids
+
+## resource_ids
+src_aaf88a7a6d5e696214b3
+src_0c1c461395b2ab03cb43
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+src_aaf88a7a6d5e696214b3
+src_0c1c461395b2ab03cb43
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lectures 6, 8 and 10, from the department's own Lecture 6 and Lecture 8 slide decks (Lectures 9-10 have no separate deck in the corpus, so their two gap-fill concepts here cite the quiz bank's own printed-answer text instead).
+
+## annotations
+### definition_of · CON-FND-DE8DB40917BBE0
+Quote: Spare receptors are the unoccupied receptors left over once a tissue's maximal response (Emax) has already been reached by a smaller, occupied fraction
+Block: body
+
+### definition_of · CON-FND-EB925681CC1A5C
+Quote: Receptor down-regulation is desensitisation from continued agonist exposure; receptor up-regulation is supersensitivity from continued antagonist exposure
+Block: body
+
+### definition_of · CON-FND-18F93F68713FEF
+Quote: Tachyphylaxis is tolerance that develops rapidly, within the first dose or first few doses, rather than gradually
+Block: body
+
+### definition_of · CON-FND-5A06E7B21A762A
+Quote: hypersensitivity is an allergic/immunological drug response -- the three must not be used interchangeably
+Block: body
+
+### definition_of · CON-FND-3FA9935F6B0949
+Quote: MRP excretes some drugs into urine at the renal tubule, and SLC transporters take up some neurotransmitters at nerve terminals
+Block: body

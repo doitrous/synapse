@@ -1522,3 +1522,758 @@ drafted_not_reviewed
 sourceCandidateIds: find-existing.mjs run for "receptor time scale response", "muscarinic adrenergic G protein coupled", "insulin receptor tyrosine kinase", "receptor superfamilies transmembrane", "G-protein second messenger cAMP", "steroid receptor lipid soluble hsp90", "receptor macromolecule proteins", "four types of receptors", "enzyme-linked receptor" and "receptor classification" -- 0 hits each, safe to create. "ligand-gated ion channel" search returned CON-NEU-22613E658C5DB1 (pending Alexandria AU-MED-102) and a glossary term (108-INT-glossary.md), reused for the ionotropic-example question via pending-live overlay rather than re-minted.
 crossModuleNote: this concept also answers the AUN-MPT-104 final exam's Q9 ("hsp90-chaperoned intracellular receptors for lipid-soluble ligands"), listed as one of the 38 "new" concepts identified but not minted in the first author lane's triage (coverage/AUN-MPT-104-triage.md, Q9 row) -- authored here per the second lane's dispatch instruction to mint once and let the final's matching row ride on it (see question/AUN-MPT-104-final-2022-q9-hsp90-mcq.md).
 relationships: often_confused_with the second-messenger vs receptor-type distinction (a student who knows the four superfamilies still needs to separately recall which second messengers are "well established" -- this record states both). No typed-edge relations batch written this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-DE8DB40917BBE0
+
+## label
+A drug can reach its maximal tissue response while occupying only a fraction of its receptors -- the unoccupied ones are "spare"
+
+## canonical_key
+teaching.pharma.receptor.spare-receptors
+
+## aliases
+Spare receptors
+Receptor reserve
+Silent receptors
+
+## arabic_label
+المستقبلات الاحتياطية (الفائضة)
+
+## arabic_aliases
+احتياطي المستقبلات
+
+## definition
+Spare receptors exist when a tissue's maximal response (Emax) is reached with less than full receptor occupancy, so unoccupied receptors remain available as a reserve. This happens when the receptor number in a tissue exceeds what is needed to saturate the downstream signalling machinery at its own maximum -- once enough receptors are occupied to drive that machinery to its ceiling, occupying additional receptors adds nothing further to the response. The defining way spare receptors are detected experimentally is that the intracellular effect of the drug-receptor interaction lasts longer than the drug-receptor interaction itself, or equivalently that a tissue's measured EC50 for an agonist is lower than that same agonist's equilibrium dissociation constant (Kd) for the receptor -- full effect is reached before the receptor population is fully occupied.
+
+## explicit_objective
+Recognise spare receptors from the description that a drug's intracellular effect outlasts the drug-receptor binding itself, or from an EC50 lower than the receptor's Kd for the agonist.
+
+## pitfalls
+Assuming a tissue's maximal response requires 100% receptor occupancy -- spare receptor theory shows this is not always true, and many tissues reach Emax at well under full occupancy. Also assuming "spare" receptors are functionally irrelevant because they are unoccupied at Emax -- their presence is exactly what increases a tissue's apparent sensitivity to an agonist, shifting EC50 below Kd.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Receptor Regulation and Variation in Drug Responsiveness
+
+## subtopic
+Spare receptors
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-RECEPTOR-VARIATION-ADR-TRANSPORT
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-17149EED384DCA
+CON-FND-38CD8C0BD5B4DE
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following statements about spare receptors is most correct? ... Spare receptors will be detected if the intracellular effect of drug-receptor interaction lasts longer than the drug-receptor interaction itself" (Quiz 6, Q1, printed correct answer).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+This is a Katzung-style pharmacodynamics vignette; the department's own Lecture 6 slide deck (src_aaf88a7a6d5e696214b3, pp.1-21, fully read) does not contain the term "spare receptor" anywhere in its text, so the quiz bank's own printed-answer text is this concept's only available source rather than a lecture-deck citation like its siblings.
+
+## evidence_gaps
+Evidence must be attached before publication. No department lecture-deck source found for this specific term (see uncertainty) -- worth flagging to Omar in case a supplementary reading or textbook chapter for Lecture 6 exists outside the scanned corpus.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "spare receptor" and "receptor reserve" -- 0 hits each, safe to create.
+relationships: related to CON-FND-17149EED384DCA (efficacy vs potency) and CON-FND-38CD8C0BD5B4DE (affinity) -- spare-receptor theory refines both by showing occupancy and effect are not linearly tied. No typed-edge relations batch written this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-EB925681CC1A5C
+
+## label
+Continued agonist exposure down-regulates a tissue's receptors (desensitisation); continued antagonist exposure up-regulates them (supersensitivity)
+
+## canonical_key
+teaching.pharma.receptor.up-and-down-regulation
+
+## aliases
+Receptor down-regulation
+Receptor up-regulation
+Receptor desensitisation
+Receptor supersensitivity
+
+## arabic_label
+التنظيم التصاعدي والتنازلي للمستقبلات
+
+## arabic_aliases
+إزالة حساسية المستقبل
+فرط حساسية المستقبل
+
+## definition
+Both the number and the effectiveness of a tissue's receptors are controlled by regulatory factors that change with sustained drug exposure. Receptor down-regulation is continued stimulation by an agonist leading to desensitisation: repeated use of beta-agonists in bronchial asthma, for example, produces a diminished response from a fall in the number of available receptors, through decreased signal sensitivity, feedback regulation of receptor synthesis, or decreased receptor effectiveness. Receptor up-regulation is the opposite process: long-term exposure of cells to an antagonist frequently produces hyperactivity or supersensitivity of the receptors, because prolonged antagonist contact drives synthesis of new receptors. This is why abrupt withdrawal of a chronically-taken beta-antagonist can precipitate worsening angina or cardiac dysrhythmias -- the newly up-regulated receptor population is suddenly exposed to endogenous agonist with nothing left to block it.
+
+## explicit_objective
+State that chronic agonist exposure down-regulates receptors (desensitisation) while chronic antagonist exposure up-regulates them (supersensitivity), and explain the beta-blocker withdrawal example as the clinical consequence of up-regulation.
+
+## pitfalls
+Reversing which direction of exposure produces which regulation direction -- it is intuitive to expect antagonist exposure to also reduce receptor activity, but chronic antagonism instead produces compensatory up-regulation, the opposite of what agonist exposure does. Also assuming the danger of abruptly stopping a chronic antagonist comes from the antagonist itself, when it in fact comes from the up-regulated receptor population it leaves behind, suddenly unblocked.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Receptor Regulation and Variation in Drug Responsiveness
+
+## subtopic
+Receptor up- and down-regulation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-RECEPTOR-VARIATION-ADR-TRANSPORT
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-A1E2092A49359C
+
+## resource_ids
+src_aaf88a7a6d5e696214b3
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.9
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Receptor down-regulation = continued stimulation by an agonist leads to desensitization. For eg., repeated use of beta-agonists in bronchial asthma leads to diminished response due to a decrease in the number of Rs... Receptor up-regulation = long-term exposure of cells to antagonists frequently leads to hyperactivity or super sensitivity to Rs" (Lecture 6, p.11); "abrupt withdrawal of a beta-antagonist leads to worsening of angina pectoris or cardiac dysrythmias in some patients. This is because prolonged contact of beta-Rs with the antagonist results in synthesis of new Rs" (p.12). Quiz bank printed answer: "Regarding receptor up regulation, one of the following statements is true: ... It occurs after chronic administration of an antagonist" (Quiz 6, Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "receptor up-regulation", "receptor down-regulation" and "receptor desensitization" -- 0 hits each, safe to create.
+relationships: related to CON-FND-A1E2092A49359C (chemical/physiological antagonism), same lecture's antagonism teaching. No typed-edge relations batch written this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-18F93F68713FEF
+
+## label
+Tachyphylaxis is a rapid loss of drug response after the first or first few doses, distinct from gradual tolerance
+
+## canonical_key
+teaching.pharma.tolerance.tachyphylaxis
+
+## aliases
+Tachyphylaxis
+Acute tolerance
+Rapid drug desensitisation
+
+## arabic_label
+تسرع التعود (تاكيفيلاكسيس)
+
+## arabic_aliases
+فقدان سريع لفعالية الدواء
+
+## definition
+Drug tolerance is a decrease in the intensity of response upon repeated administration of a drug during a course of treatment. When this decrease occurs rapidly -- after the first dose or after only a few doses -- it is specifically called tachyphylaxis, distinguishing it from ordinary (chronic) tolerance, which develops gradually over a longer course of repeated dosing. A clinical worked example is calcitonin used for severe hypercalcaemia: calcitonin lowers serum calcium quickly, but its effect fades within 2-3 days of repeated dosing (tachyphylaxis), so a bisphosphonate -- which takes 2-3 days to become effective but does not tachyphylax -- is started simultaneously, so that it takes over calcium control as the calcitonin's effect wears off.
+
+## explicit_objective
+Define tachyphylaxis as a rapid decrease in drug response after repeated administration, distinct from gradual tolerance, and apply it to a clinical example such as calcitonin in hypercalcaemia.
+
+## pitfalls
+Confusing tachyphylaxis (rapid, evident within the first few doses) with ordinary tolerance (gradual, over a longer course of repeated dosing) -- both are a fall in response with repeated dosing, but the timescale is the distinguishing fact tested. Also misreading an "increased" response option as tachyphylaxis, when the definition is specifically a decrease.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Adverse drug reaction
+
+## subtopic
+Tachyphylaxis and tolerance
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-RECEPTOR-VARIATION-ADR-TRANSPORT
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5A06E7B21A762A
+
+## resource_ids
+src_0c1c461395b2ab03cb43
+src_aaf88a7a6d5e696214b3
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.9
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"This means the decrease in intensity of response upon repeated administration of a drug during the course of ttt. When this occurs rapidly after the first or few doses of drug administration, it is called 'Tachyphylaxis'" (Lecture 6, p.14). Quiz bank printed answer: "Tachyphylaxis refers to which of the following? ... Responsiveness decreased rapidly after administration of a drug" (Quiz 8, Q3); calcitonin vignette (Quiz 8, Q9): "calcitonin alone is insufficient because it is known to rapidly and suddenly lose its effectiveness within 2 to 3 days of repeated dosing ... What is the term for the rapid decrease in response to calcitonin? ... Tachyphylaxis."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "tachyphylaxis" -- 2 hits, both glossary terms (docs/import-ready/glossary/108-INT-glossary.md, docs/Kasr-Source-Imports/glossary/108-INT-glossary.md), not a concept record; safe to create this concept alongside the existing glossary term rather than a duplicate glossary entry.
+relationships: related to CON-FND-5A06E7B21A762A (hyperreactive/idiosyncratic/hypersensitive vocabulary), same lecture's variation-in-response teaching. No typed-edge relations batch written this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-5A06E7B21A762A
+
+## label
+Hyperreactive/hyporeactive describe quantitative variation in drug response; idiosyncrasy is genetically determined; hypersensitivity is immunological -- the three are not interchangeable
+
+## canonical_key
+teaching.pharma.adr.response-variation-vocabulary
+
+## aliases
+Hyperreactive
+Hyporeactive
+Idiosyncratic drug response
+Hypersensitivity (drug allergy)
+
+## arabic_label
+مفردات تباين الاستجابة الدوائية بين الأفراد
+
+## arabic_aliases
+فرط التفاعل الدوائي
+الاستجابة الشاذة (الخصوصية)
+فرط الحساسية الدوائية
+
+## definition
+Individuals vary in their response to a standard drug dose in two conceptually distinct ways. Quantitative variation -- more common and more clinically important -- describes an individual as hyporeactive (showing less response than expected) or hyperreactive (showing an increased intensity of response) to the same dose most people receive. Idiosyncrasy is a different, qualitative kind of variation: an idiosyncratic response is one that is qualitatively different from most individuals' response, caused by genetic differences in drug metabolism or receptor structure -- the classic example is prolonged apnoea after succinylcholine in a patient with an inherited abnormal (atypical) pseudocholinesterase, who cannot hydrolyse the drug at the normal rate. "Hyporeactive/hyperreactive" should never be substituted for "hyposensitive/hypersensitive": the latter pair names a third, separate mechanism -- an allergic or immunological response to the drug -- not a quantitative or genetic one.
+
+## explicit_objective
+Distinguish hyperreactive (quantitative, an increased intensity of response to a standard dose), idiosyncratic (qualitative, genetically determined), and hypersensitive (immunological/allergic) as three separate mechanisms of individual variation in drug response.
+
+## pitfalls
+Treating "hypersensitive" and "hyperreactive" as synonyms because they sound alike -- they name different mechanisms (immunological/allergic versus quantitative dose-response variation) and the distinction is explicitly taught as one not to blur. Also assuming every unexpected or exaggerated drug reaction must be idiosyncratic, when many are simply quantitative (hyper- or hyporeactive) variation around an otherwise normal dose-response relationship.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Adverse drug reaction
+
+## subtopic
+Variation in drug responses
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-RECEPTOR-VARIATION-ADR-TRANSPORT
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-18F93F68713FEF
+
+## resource_ids
+src_0c1c461395b2ab03cb43
+src_aaf88a7a6d5e696214b3
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.9
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Some individuals exhibit 'ideosyncratic' response which is frequently qualitatively different from most individuals, due to genetic differences in drug metabolism... Some are hyporeactive (showing less response) or hyperreactive. Hypo- & hypersensitivity should not be used instead of hypo- or hyperreactivity, since the former refer to allergic or immunological response to drugs" (Lecture 6, p.13); idiosyncrasy examples including succinylcholine/pseudocholinesterase (Lecture 8, p.14). Quiz bank printed answer: "Which of the following refers to an increased intensity of response to a drug? ... Hyperreactive" (Quiz 8, Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "hyperreactive idiosyncratic" and "hypersensitive tolerance" -- 0 hits each, safe to create.
+relationships: related to CON-FND-18F93F68713FEF (tachyphylaxis), same lecture's variation-in-response teaching. No typed-edge relations batch written this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-3FA9935F6B0949
+
+## label
+Beyond passive diffusion and carrier-mediated transport, drugs also cross membranes by filtration and pinocytosis; MRP and SLC are named transporters for renal excretion and neurotransmitter uptake
+
+## canonical_key
+teaching.pharma.membrane.filtration-pinocytosis-and-named-transporters
+
+## aliases
+Filtration (drug absorption)
+Pinocytosis (drug absorption)
+MRP transporter
+SLC transporter
+
+## arabic_label
+الترشيح والاحتساء الخلوي وناقلات الأدوية المسماة
+
+## arabic_aliases
+الترشيح
+الاحتساء الخلوي (البلعمة السائلة)
+
+## definition
+Beyond passive diffusion (small, lipid-soluble, non-ionised molecules dissolving through the lipid bilayer) and carrier-mediated transport (facilitated diffusion or active transport, both requiring a protein carrier), two further mechanisms move substances across membranes. Filtration moves small, water-soluble drugs through aqueous membrane pores or paracellular channels, carried along with bulk water flow rather than dissolving through lipid. Pinocytosis engulfs fluid together with dissolved or particulate substances by membrane invagination, forming a vesicle that carries the material into the cell -- iron is the worked pharmacokinetic example of a substance absorbed mainly by this route. Alongside these routes, specific named transporter proteins move particular substrates in a defined direction: MRP (multidrug resistance-associated protein) is responsible for excreting some drugs into the urine at the renal tubule, while SLC (solute carrier) transporters are responsible for the cellular uptake of some neurotransmitters, such as at a presynaptic nerve terminal.
+
+## explicit_objective
+Name filtration and pinocytosis as membrane-crossing mechanisms distinct from passive diffusion and carrier-mediated transport, with their typical substrates (small water-soluble drugs; iron, respectively), and identify MRP and SLC as named transporter proteins for renal drug excretion and neurotransmitter uptake respectively.
+
+## pitfalls
+Assuming every "carrier-mediated" process shares one generic mechanism -- MRP and SLC are specific, differently-directed transporter families (excretion out of the body versus uptake into a cell), not interchangeable generic carriers. Also confusing filtration (passive, driven by a concentration or pressure gradient through pores, no carrier) with active transport (energy-dependent, carrier-driven, saturable) -- both move water-soluble substances, but by different mechanisms.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Pharmacokinetics 1 (Absorption & distribution)
+
+## subtopic
+Absorption and transport mechanisms
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-RECEPTOR-VARIATION-ADR-TRANSPORT
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-584FCF6897C35E
+CON-FND-9D7D3A5B015805
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Water soluble drugs are absorbed mainly by: ... Filtration" (Quiz 10, Q10); "Iron is absorbed mainly by: ... Pinocytosis" (Q11); "The transporter protein which responsible for the excretion of some drugs into the urine is: ... MRP" (Q5); "The transporter protein which responsible for the uptake of some neurotransmitters is: ... SLC" (Q8) -- all printed correct answers, `All Quizzes MPT 2022.pdf` Quiz 10.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-FND-584FCF6897C35E (pending Kasr 108-INT, simple diffusion) and CON-FND-9D7D3A5B015805 (pending Kasr 108-INT, carrier-mediated transport) both concern membrane-crossing mechanisms but neither names filtration, pinocytosis, MRP or SLC specifically; related, not merged. A 101-ISK cell-biology concept ("The membrane takes material in by phagocytosis, pinocytosis or receptor-mediated endocytosis, and puts it out by exocytosis") also names pinocytosis, but as a general cell-biology transport process, not in the specific pharmacokinetic context (drug/iron absorption) this record teaches; not a merge candidate.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source found for Lecture 9 or Lecture 10 in the corpus (only Lectures 1-8 exist as separate slide-deck PDFs) -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication. No department lecture-deck source for Lecture 10 exists in the corpus -- worth flagging to Omar in case one exists outside the scanned material.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "MRP transporter", "SLC transporter", "filtration aqueous pores" -- 0 hits each; "pinocytosis" returned only the unrelated 101-ISK cell-biology concept (general membrane transport, not pharmacokinetic drug absorption), documented above as not a merge candidate.
+relationships: related to CON-FND-584FCF6897C35E (simple diffusion) and CON-FND-9D7D3A5B015805 (carrier-mediated transport), same lecture's absorption-mechanism teaching. No typed-edge relations batch written this pass.

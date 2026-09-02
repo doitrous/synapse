@@ -276,3 +276,124 @@ time scales, including the hsp90-chaperoned intracellular-receptor mechanism
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+src_aaf88a7a6d5e696214b3
+
+## title
+MPT Week 1 Lecture 6 -- Receptor Regulation and Variation in Drug Responsiveness
+
+## institution
+Assiut University -- Faculty of Medicine, Department of Clinical Pharmacology
+
+## processing_status
+text-extracted
+
+## collection_id
+
+## source_relative_path
+Year 1/MPT/_Telegram 64 Newer/MPT Week 1 Lecture 6.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+## accessed_at
+
+## page_count
+21
+
+## sha256
+aaf88a7a6d5e696214b373e9650735aba6fb91b4e8f87ceaffd40053b7ee238d
+
+## rights
+Faculty teaching material, used under the university's own licence.
+
+## qualification
+Department lecture slide deck for Lecture 6 (Dr Hanan S. M. Farghaly), fully
+text-native. Its own end-of-deck practice content (pp.4-9) prints the drug
+antagonism vignettes (chemical, physiological, competitive, non-competitive)
+that appear, worded near-identically, in `All Quizzes MPT 2022.pdf`'s Quiz 6.
+Cited for receptor down-/up-regulation (p.11-12: continued agonist exposure
+desensitises receptors; continued antagonist exposure sensitises them, e.g.
+beta-blocker withdrawal worsening angina) and for the idiosyncratic/hypo-
+and hyperreactive/hypo- and hypersensitive vocabulary distinguishing
+qualitative from quantitative drug-response variation (p.13). Does not cover
+"spare receptors" -- that quiz row's own printed-answer text is the only
+source for that specific concept (see field_notes on the concept record).
+
+## confidence
+0.9
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_0c1c461395b2ab03cb43
+
+## title
+MPT Week 1 Lecture 8 -- Adverse Drug Reaction
+
+## institution
+Assiut University -- Faculty of Medicine, Department of Clinical Pharmacology
+
+## processing_status
+text-extracted
+
+## collection_id
+
+## source_relative_path
+Year 1/MPT/_Telegram 64 Newer/MPT Week 1 Lecture 8.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+## accessed_at
+
+## page_count
+23
+
+## sha256
+0c1c461395b2ab03cb43a6e285eca0d0f3ae38123d4b608f93c8a7113e4e39a1
+
+## rights
+Faculty teaching material, used under the university's own licence.
+
+## qualification
+Department lecture slide deck for Lecture 8, fully text-native. Pages 4-6
+print the exact tachyphylaxis, therapeutic-index and hyperreactive/
+idiosyncratic/hypersensitive/tolerance vignette questions (with options, no
+marked answer visible in the extracted text) that appear verbatim in
+`All Quizzes MPT 2022.pdf`'s Quiz 8 -- confirming the quiz bank draws
+directly from this deck. Cited for the tachyphylaxis definition (p.5,
+cross-referenced with the tolerance/tachyphylaxis teaching on Lecture 6
+p.14) and for toxic/allergic/idiosyncratic adverse-reaction classification
+and the quantitative (hypo-/hyperreactive) vs qualitative
+(idiosyncratic)/immunological (hypersensitive) distinction (p.12-14).
+
+## confidence
+0.9
+
+## is_assessment
+no
