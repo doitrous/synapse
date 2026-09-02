@@ -51,3 +51,57 @@ pp1-past-q14-team-development-stages-exception  # held-indefensible-key · two g
 pp1-past-q24-equity-definition  # held-malformed-source · only 2 options (A/B) printed in source, C/D missing
 pp1-past-q31-unmarked  # held-no-printed-key (page 5, not authored — beyond this pass's Q1-29 scope, logged for next pass)
 pp1-past-q33-unmarked  # held-no-printed-key (page 5, not authored — beyond this pass's scope)
+
+# === pp1-cluster2 (امتحانات سابقه.pdf pages 5-13, Q30-76, second pass) ===
+# Gray fill-rectangle key, ad hoc PyMuPDF detection (x-overlap fixed for two-column
+# layout on Q75), render-confirmed pages 8, 9, 10, 11, 13 (5 renders, 0 mismatches).
+pp1-past-q39-leadership-style-selection-factors  # new · key: D) All of the above
+pp1-past-q40-group-dynamics-definition  # new · key: C) It is the interactions between people who are talking together in a group setting
+pp1-past-q41-self-awareness-definition  # new · key: C) Self-awareness
+pp1-past-q45-patient-confidentiality-exam-privacy  # new · key: A) Patient confidentiality
+pp1-past-q46-informal-communication-substance-impairment  # new · key: C) Informal communication (uncertainty flagged — 'Student health' is the more conventional fit)
+pp1-past-q47-interested-learner-stage  # new · key: B) Interested learner
+pp1-past-q48-learning-needs-definition  # new · key: C) Learning needs
+pp1-past-q49-genital-exam-student-presence-conduct  # new · key: C) In the presence of another medical student (uncertainty flagged — incomplete/ambiguous stem)
+pp1-past-q50-double-effect-beneficence-nonmaleficence  # new · key: D) Beneficence and Non maleficence
+pp1-past-q51-ethics-definition-public-trust  # new · key: A) Ethics (uncertainty flagged — 'Professionalism' is the more conventional fit)
+pp1-past-q52-altruism-related-ethic  # new · key: A) Autonomy (uncertainty flagged — 'Beneficence' is the more conventional fit)
+pp1-past-q53-self-awareness-professionalism-attribute  # new · key: C) Self-awareness (shares concept with pp1-past-q55, professional-development wording)
+pp1-past-q54-non-maleficence-street-wound-scenario  # new · key: C) Non-maleficence
+pp1-past-q55-self-awareness-professionalism-attribute-2  # new · key: B) Self-Awareness (shares concept with pp1-past-q53, emotional-intelligence wording, same paper)
+pp1-past-q56-interpersonal-skills-conflict-of-interest  # new · key: A) Interpersonal skills (uncertainty flagged — 'Altruism' is the more conventional fit)
+pp1-past-q57-competence-definition  # new · key: B) Competence
+pp1-past-q58-seek-permission-first-step-patient-contact  # new · key: B) Seek permission for those responsible for the care of the patent
+pp1-past-q59-dress-professionally-name-badge  # new · key: A) Dress professionally and wear a name/identity badge
+pp1-past-q60-competent-patient-final-say-exception  # new · key: B) Competent (option C prints as 'Minot', likely typo for 'Minor')
+pp1-past-q62-implied-consent-must-be-signed  # new · key: C) Implied consent must be signed by the patient (uncertainty flagged — conflicts with standard consent doctrine)
+pp1-past-q63-team-characteristics-except-same-personnel  # new · key: C) Same personnel characters of all team members
+pp1-past-q64-genetic-factors-non-modifiable-determinant  # new · key: A) Genetic factors
+# --- held: duplicates of pp1-cluster1's 40 (named twin, not re-authored) ---
+pp1-past-q30-time-management-productive-duplicate  # held-duplicate · dup of pp1-past-q17 (identical stem/options)
+pp1-past-q32-self-awareness-remedy-duplicate  # held-duplicate · dup of pp1-past-q01/pp1-past-q27
+pp1-past-q34-self-awareness-sources-duplicate  # held-duplicate · dup of pp1-past-q29
+pp1-past-q37-leadership-definition-duplicate  # held-duplicate · dup of pp1-past-q20 (options reordered, same fact)
+pp1-past-q38-democratic-leadership-duplicate  # held-duplicate · dup of pp1-past-q19 (identical stem/options)
+pp1-past-q42-self-awareness-sources-duplicate-2  # held-duplicate · dup of pp1-past-q29 (third copy)
+pp1-past-q61-vertical-equity-duplicate  # held-duplicate · dup of pp1-fakous24-q02
+pp1-past-q69-vertical-equity-duplicate-2  # held-duplicate · dup of pp1-fakous24-q02 (second copy)
+pp1-past-q70-justice-organ-transplant-duplicate  # held-duplicate · dup of pp1-fakous24-q03 (identical stem/options)
+pp1-past-q71-mental-capacity-conflicting-key  # held-duplicate-conflicting-key · dup of pp1-fakous24-q04 (identical stem/options) but this bank marks C 'Legally authority' vs Fakous Final's B 'His physician' — cross-source key disagreement
+pp1-past-q72-checklist-tool-duplicate  # held-duplicate · third copy of pp1-zag24-q01/pp1-fakous24-q05
+pp1-past-q74-negotiation-duplicate  # held-duplicate · dup of pp1-fakous24-q06 (identical stem/options)
+pp1-past-q75-storming-duplicate  # held-duplicate · dup of pp1-fakous24-q07 (identical stem/options, two-column layout)
+# --- held: unmarked (held-no-printed-key) ---
+pp1-past-q36-time-management-unmarked  # held-no-printed-key (also dup of pp1-past-q17/Q30 in stem/options)
+pp1-past-q43-unmarked  # held-no-printed-key (also dup of pp1-past-q01/q27/Q32 in stem/options)
+pp1-past-q44-unmarked  # held-no-printed-key (also dup of pp1-past-q15/q28 in stem/options)
+pp1-past-q68-unmarked  # held-no-printed-key (also literal dup of pp1-fakous24-q01 in stem/options)
+pp1-past-q73-unmarked  # held-no-printed-key (also dup of Q72/pp1-zag24-q01/pp1-fakous24-q05 in stem/options)
+# --- held: malformed source ---
+pp1-past-q35-sources-of-self-awareness-malformed  # held-malformed-source · only 3 options (A/B/C) printed, no D; also unmarked
+# --- out of scope: not SBA format (definitions/enumerate/fill-in-the-blank), not held, not counted ---
+pp1-past-q65-define-terms  # not-sba-format (define human dignity / stigmatization)
+pp1-past-q66-list-items  # not-sba-format (list four examples / three importance)
+pp1-past-q67-spectrum-of-health-enumerate  # not-sba-format (enumerate first three aspects)
+pp1-past-q76-complete-statements  # not-sba-format (fill-in-the-blank)
+# mcq شامل.pdf (tier-2 bank, 44 pages) — still status-checked only, not opened this pass
