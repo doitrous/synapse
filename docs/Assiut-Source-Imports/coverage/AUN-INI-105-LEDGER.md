@@ -1,8 +1,15 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | ini-mcq | 89 | 11 | 0 | 100 |
+| ini-mcq-ch10 | 51 | 4 | 0 | 55 |
 | ini-mcq-ch2 | 52 | 8 | 0 | 60 |
+| ini-mcq-ch3 | 21 | 3 | 0 | 24 |
+| ini-mcq-ch4 | 48 | 10 | 0 | 58 |
+| ini-mcq-ch5 | 65 | 9 | 0 | 74 |
 | ini-mcq-ch6 | 94 | 8 | 0 | 102 |
+| ini-mcq-ch7 | 26 | 7 | 0 | 33 |
+| ini-mcq-ch8 | 16 | 0 | 0 | 16 |
+| ini-mcq-ch9 | 16 | 5 | 0 | 21 |
 
 ## Held
 - ini-mcq-q003 — printed key (A, Cocci) conflicts with the expected textbook answer (Bacilli, C) for "rod shaped bacteria"
@@ -16,6 +23,10 @@
 - ini-mcq-q074 — near-verbatim restatement of ini-mcq-q039 (lophotrichous): "tuft of flagella at one pole ... is called" vs Q39's "group of flagella at one pole ... is known as" -- duplicate-of ini-mcq-q039
 - ini-mcq-q080 — near-verbatim restatement of ini-mcq-q024 (bacterial locomotion = flagella): "Bacterial locomotion (motility) is accomplished by?" vs Q24's "Bacterial locomotion is accomplished by?" -- duplicate-of ini-mcq-q024
 - ini-mcq-q085 — near-verbatim restatement of ini-mcq-q011 (peritrichous): "distributed over the entire cell ... is known as" vs Q11's "distributed all around a bacterial cell ... is called" -- duplicate-of ini-mcq-q011
+- ini-mcq-ch10-q002 — printed key (D, "Coenurus cerebralis") conflicts with the expected textbook answer -- man is not the intermediate host for Taenia saginata (its larva, cysticercus bovis, develops only in cattle), so cysticercus bovis, not coenurus cerebralis, is the larva "not present in man": cysticercus cellulosae (T. solium), hydatid (E. granulosus) and coenurus cerebralis (Multiceps multiceps) can all occur in man as an accidental intermediate host, while cysticercus bovis cannot, since man never acts as T. saginata's intermediate host
+- ini-mcq-ch10-q023 — printed key (A, "Diphyllobothrium latum") is doubtful against the stem's own wording, "the ONLY larval host": D. latum needs Cyclops AND a second, fish, intermediate host to become infective, so Cyclops is not its only larval host, whereas Dracunculus medinensis (Guinea worm, option C) truly needs no second intermediate host -- man is infected directly by ingesting Cyclops carrying the infective L3 larva -- making C the better fit for "only" larval host; held rather than resolved by inference, since the source's own intent for this EXCEPT-less "only" wording is not certain
+- ini-mcq-ch10-q028 — duplicate-of ini-mcq-ch10-q011 -- near-verbatim restatement of "Cysticercus cellulosae is the infective stage of T. solium" (same fact and key A, differing only in the fourth distractor option, Diphyllobothrium latum here vs. Hymenolepis diminuta in Q11)
+- ini-mcq-ch10-q029 — duplicate-of ini-mcq-ch10-q009 -- near-verbatim restatement of "Cysticercus bovis is the infective stage of T. saginata" (same fact and correct content, T. saginata, differing only in option lettering/order and the fourth distractor, Diphyllobothrium latum here vs. Dipylidium caninum in Q9)
 - ini-mcq-ch2-q020 — figure-dependent question -- the stem refers to "this Figure" showing growth-curve phases labelled A/B/C/D, but the source's diagram is not extractable as text (pagetext.mjs reads plain text only, per the lane's text-only reading method); without seeing which curve segment is labelled A/B/C/D, the printed key (B) cannot be verified or authored from the stem alone
 - ini-mcq-ch2-q028 — duplicate-of ini-mcq-ch2-q016 -- near-verbatim restatement of "organism that can use only molecular oxygen as the final acceptor" (Obligate aerobes), differing only in swapping the fourth distractor (Microaerophilic vs Strict anaerobes) and adding a fifth "None of these" option
 - ini-mcq-ch2-q031 — duplicate-of ini-mcq-ch2-q008 -- near-verbatim restatement of "convalescence phase of an infectious disease corresponds to which phase of bacterial growth" (Decline phase), differing only by an added fifth "Retardation phase" distractor
@@ -24,6 +35,28 @@
 - ini-mcq-ch2-q056 — duplicate-of ini-mcq-ch2-q029 -- near-verbatim restatement of "recovery from infectious diseases correlates with" (Decline phase)
 - ini-mcq-ch2-q058 — duplicate-of ini-mcq-ch2-q025 -- near-verbatim restatement of "bacteria highly susceptible to antimicrobial agents when growth occurs in the" (Log/exponential phase)
 - ini-mcq-ch2-q060 — duplicate-of ini-mcq-ch2-q005 -- identical stem and options to Q5 ("The bacterial cells are at their metabolic peak during?", Log phase)
+- ini-mcq-ch3-q013 — source prints only 3 options (Virulent phage/Prophage/Temperate phage), short of the seed schema's 4-option floor; also a near-literal duplicate of ini-mcq-ch3-q004 ("Bacteriophage responsible for lysogenic cycle is called? -> Temperate phage" vs "Bacteriophage which undergoes a lysogenic cycle? -> Temperate phage") -- held on both grounds
+- ini-mcq-ch3-q016 — source prints only 3 options (Virulent phage/Temperate phage/Prophage), short of the seed schema's 4-option floor
+- ini-mcq-ch3-q015 — True/False item (2 printed options: True/False), short of the seed schema's 4-option floor
+- ini-mcq-ch4-q010 — True/False item (2 printed options: True/False), short of the seed schema's 4-option floor
+- ini-mcq-ch4-q013 — True/False item (2 printed options: True/False), short of the seed schema's 4-option floor
+- ini-mcq-ch4-q015 — source prints only 3 options (Bacitracins/Bacteriocins/R-Factors, D blank), short of the seed schema's 4-option floor; the printed key (B, Bacteriocins) is also debatable against the textbook example Bacitracin (A), a bacterially-produced antibiotic proper, so held on both grounds
+- ini-mcq-ch4-q020 — 2 printed options only (Coding DNA/Non-Coding DNA), short of the seed schema's 4-option floor
+- ini-mcq-ch4-q025 — 2 printed options only (Conservative replication/Semiconservative replication), short of the seed schema's 4-option floor
+- ini-mcq-ch4-q040 — near-literal duplicate of ini-mcq-ch4-q035 ("Short labeled single stranded sequences of DNA or RNA that can detect the presence of complementary sequences are known as? -> Probes" restates Q35's DNA-probe definition)
+- ini-mcq-ch4-q041 — near-literal duplicate of ini-mcq-ch4-q033 ("Enzymes that recognize a specific short nucleotide sequence on a double stranded DNA molecule and cleave DNA at this site are known as? -> Restriction endonucleases" restates Q33's definition)
+- ini-mcq-ch4-q044 — near-literal duplicate of ini-mcq-ch4-q022 ("It breaks hydrogen bonds between nucleotides leading to unwinding of double-stranded DNA? -> Helicase" restates Q22's fact)
+- ini-mcq-ch4-q052 — near-literal duplicate of ini-mcq-ch4-q003 ("Genetic information essential for bacterial life is a function of? -> Chromosome", same four terms reordered)
+- ini-mcq-ch4-q058 — literal duplicate of chapter 1's ini-mcq-q001 ("The functions of plasmid are?" -- identical stem, identical four options, identical key D "None of the above")
+- ini-mcq-ch5-q013 — duplicate-of ini-mcq-ch5-q002 -- near-verbatim restatement of "Tetracyclines are identical in their [over-all] mechanism of action to?", but prints a different key (Chloramphenicol, D) among a different option set (Sulfonamides/Penicillin/Isoniazid/Chloramphenicol/Nalidixic acid); Chloramphenicol's 50S ribosomal target is less consistent with the shared-mechanism framing than Q2's 30S-sharing Aminoglycosides answer, so Q2 is authored and this is held rather than re-keyed
+- ini-mcq-ch5-q030 — duplicate-of ini-mcq-ch5-q006 -- near-identical stem "Toxoid is?" tests the same fact (a toxin that has lost its toxicity but retained its antigenicity) with a differently-ordered option set; both keys agree on the same underlying fact, so this instance is held as a duplicate rather than authored a second time
+- ini-mcq-ch5-q035 — printed double answer "B,D" (Glycocalyx and Ordinary pili both mediate adherence to epithelial surfaces) -- the seed schema's `correct` field accepts exactly one option letter, so a genuinely multi-correct printed key cannot be represented without arbitrarily discarding one of the two correct answers; held rather than force-picking a single letter
+- ini-mcq-ch5-q052 — only 3 options are printed (A-Act on RNA synthesis, B-Act as competitive inhibitors for the conversion of PABA to folic acid, C-Sulfonamides and trimethoprim are antagonists; the source page ends at C, no D option), short of the seed schema's 4-option floor -- the printed key (B) is otherwise uncontested and consistent with ini-mcq-ch5-q016's authored fact, but held on option-count grounds
+- ini-mcq-ch5-q057 — only 3 options are printed (A-Minimal bactericidal concentration, B-Minimal bacteriostatic concentration, C-Serum peak level; the source page ends at C, no D option), short of the seed schema's 4-option floor
+- ini-mcq-ch5-q061 — duplicate-of ini-mcq-ch5-q003 -- near-verbatim restatement of "Resistance of [L forms / Mycoplasma] to penicillin is due to?" with an identical option set and key (A, Absence of cell wall); Q3 authors the fact via the reused Mycoplasma/L-forms intrinsic-resistance concept, so this instance is held as a duplicate
+- ini-mcq-ch5-q064 — printed key (B, Chloramphenicol) conflicts with the expected clinical answer for "In renal impairment it is contraindicated to use?" (options: Amoxicillin/Chloramphenicol/Gentamycin/Ciprofloxacin) -- aminoglycosides (Gentamycin, option C) are the textbook example of a renally-cleared, nephrotoxic drug class requiring dose adjustment or avoidance in renal impairment, whereas chloramphenicol is chiefly hepatically metabolised and is not the standard renal-impairment-contraindication teaching point; held per the rule that a printed key contradicting the expected textbook answer is not re-keyed
+- ini-mcq-ch5-q066 — ambiguous EXCEPT -- "All of the following drugs inhibit cell wall synthesis EXCEPT?" (options: Cephalosporins/Penicillins/Cyclosporine/Vancomycin/Aminoglycosides, printed key E) is only unambiguous if option C's printed "Cyclosporine" is a source-side typo for "Cycloserine" (a genuine cell-wall-synthesis inhibitor used in second-line TB treatment); read literally, "Cyclosporine" (the calcineurin-inhibitor immunosuppressant) is also not a cell-wall-synthesis inhibitor, making both C and E defensible EXCEPT answers with nothing in the stem to disambiguate which was intended -- held as genuinely ambiguous rather than assuming the typo, per the same standard applied to chapter 1's Q35 (Plasmids vs Cell membrane, both arguably non-protein)
+- ini-mcq-ch5-q067 — only 3 options are printed (A-Bacteriostatic, B-Bactericidal, C-Sporicidal; the source page ends at C, no D option), short of the seed schema's 4-option floor
 - ini-mcq-ch6-q032 — source prints only 2 options (Need host cell / Reproduce by binary fission) for an EXCEPT stem, short of the seed schema's 4-option floor
 - ini-mcq-ch6-q038 — source prints only 2 options (Culture dish / Host cell), short of the seed schema's 4-option floor
 - ini-mcq-ch6-q052 — near-verbatim restatement of ini-mcq-ch6-q034 (capsomeres = individual units of capsid): "Capsomeres are?" vs Q34's "Which of the following statements are true about the capsomeres?", same four distractor concepts reordered, same correct fact -- duplicate-of ini-mcq-ch6-q034
@@ -32,6 +65,18 @@
 - ini-mcq-ch6-q078 — near-verbatim duplicate of ini-mcq-ch6-q005 -- identical stem ("How do enveloped viruses exit their host?") and identical five-option set (Rupturing the virus/Bursting the host cell/Budding or exocytosis/None of these are correct/Endocytosis).
 - ini-mcq-ch6-q086 — printed key (D, "Vaccines containing viral subunits") conflicts with the fact that classical viral interference requires a live, replicating virus competing for the same host cell -- a non-replicating subunit vaccine cannot cause interference. Compounded by a source-side data-quality issue: options B and C both print "Recombinant vaccines" verbatim (a duplicate/typo in the printed option list), undermining confidence in this row generally. Held per the rule that a printed key contradicting the fact is held with the doubt written out.
 - ini-mcq-ch6-q097 — near-verbatim duplicate of ini-mcq-ch6-q048 -- stem "A structural component that is found in all viruses is?" vs Q48's "Structural component that is found in all viruses is?", identical four options (The envelope/DNA/The capsid/Tail fibers) and identical key.
+- ini-mcq-ch7-q003 — options A and B both print "Budding" verbatim -- source-side duplicate-option defect, ambiguous which was intended as distinct from C/D distractors
+- ini-mcq-ch7-q013 — printed key (A, Pathogenicity) conflicts with the expected textbook answer (Virulence, C) for "the MEASURED ability of an organism to cause a disease" -- virulence is textbook-defined as the quantitative/measured degree of pathogenicity
+- ini-mcq-ch7-q014 — printed key (C) conflicts with the expected EXCEPT answer (D, "both yeasts and moulds have a cell wall made of peptidoglycan" is false -- fungal walls are chitin, not peptidoglycan); option C as printed is actually a true statement (thermal dimorphism definition)
+- ini-mcq-ch7-q022 — duplicate-of ini-mcq-ch7-q019 -- near-verbatim restatement of "fungi producing mycotoxin called aflatoxin" (Aspergillus flavus), same key
+- ini-mcq-ch7-q026 — duplicate-of ini-mcq-ch7-q016 -- near-verbatim restatement of "tinea versicolor is" (superficial mycosis), shuffled option order/lettering
+- ini-mcq-ch7-q027 — source prints a blank option D ("D-" with no text), leaving only 3 usable options, short of the seed schema 4-option floor
+- ini-mcq-ch7-q031 — exact duplicate-of ini-mcq-ch7-q001 -- identical stem, options and key ("Yeasts reproduce by?", Budding)
+- ini-mcq-ch9-q009 — printed key (D, Fasciola hepatica) conflicts with the well-established textbook fact that Fasciolopsis buski (B), not Fasciola hepatica, is the largest trematode parasitizing humans
+- ini-mcq-ch9-q015 — printed key (A, Bile ducts) conflicts with the textbook fact that Fasciolopsis buski lives in the intestines (C) -- it is the giant intestinal fluke, not a biliary fluke
+- ini-mcq-ch9-q017 — printed key (A, Lymnaea cailliaudi) conflicts with the textbook fact that Fasciolopsis buski's snail host is a species of Segmentina (D); Lymnaea is instead the snail host of Fasciola hepatica
+- ini-mcq-ch9-q019 — printed key (B, systemic circulation) conflicts with standard teaching that the schistosomulum matures to adult in the portal circulation/liver (C), before migrating against portal flow to its final venous site
+- ini-mcq-ch9-q021 — options A and B both print "Both benefit" verbatim -- source-side duplicate-option defect
 
 ## Remaining
 (none)
