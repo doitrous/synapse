@@ -2367,3 +2367,129 @@ the three named clusters (Basic Mechanisms of Circulatory Control,
 Mechanics of Breathing, Lungs — Gross Anatomy) — the next-largest
 untouched clusters (Pulmonary Compliance 18, Gas exchange in the lung 15,
 Chromosomal Aberrations 13) are candidates for a future run.
+
+## run42 — Pulmonary Compliance CLOSED, Gas exchange in the lung CLOSED,
+Chromosomal Aberrations (Abnormalities) CLOSED (base branch: main at
+dda7838d, the run22-41 lineage now landed; run41's own simulate was never
+actually run before this session started, per the note above — this
+session's own simulate, below, is the first to cover the full cumulative
+104-CPS output).
+
+**Pulmonary Compliance (18 -> 0)**: 17 kept, 1 excluded. Two rows were
+leaf-mismatch (tagged "Pulmonary Compliance" by the stem's own word
+"compliance" but genuinely about vessel-wall, not lung, compliance) and
+routed to `physiology-vascular-function-hemodynamics.ts` instead, reusing
+the pinned `vascular-tree.pressure-and-compliance-distribution`
+(CON-CVS-78E74CAC3AE5E5, `104-CPS-physiology-concepts.md`) — not
+previously claimed by any 104-CPS MCQ seed. New concept `transpulmonary-
+pressure.definition-and-intrapleural-pressure-extremes` is a sparse reuse
+of another already-pinned record (CON-RES-97B778DE471E7E), grounding 3
+kept questions. `chest-wall-compliance.reduced-by-skeletal-and-
+neuromuscular-restriction` is this cluster's one fresh mint (find-
+existing.mjs and a grep of `104-CPS-*-concepts.md` for "chest wall
+compliance" both came back empty; standard, undisputed respiratory
+physiology, disclosed as a gap). The existing `pulmonary-compliance.
+rises-in-emphysema...` concept's definition was extended in place (same
+canonical_key, same file — this pipeline's own prior fresh mint, not a
+pinned written-paper record) to add the normal-value fact (~200 mL/
+cmH2O) rather than minting a whole new concept for one number. **1
+excluded**: `concerning-compliance-of-the-stomach-one-is-true-ec247c63` —
+clean, answerable, but genuinely gastrointestinal physiology with no home
+anywhere in this module (no GI leaf/concept/article exists across any
+104-CPS seed file) — the same class of exclusion as the ledger's own
+"out-of-module" category, not a corruption call.
+
+**Gas exchange in the lung (15 -> 0)**: 14 kept, 1 excluded. One row
+(`av-shunt-include-the-following-except-99b84173`) was leaf-mismatch —
+the stem's own "Av shunt" wording pulled a pure arteriovenous-anastomosis
+histology question into this leaf tag — and was routed into
+`cardiovascular-av-connections-histology.ts` against its own already-
+authored `arteriovenous-anastomosis.direct-shunt-sites-and-innervation`
+concept, matching that file's own established "leaf-mismatch routing"
+pattern (it already carries two such routed questions from an earlier
+run). A second row (`with-respect-to-gas-exchange-across-the-alveolar-
+membrane-e168f662`) tested O2 capacity and the Bohr effect, not diffusion
+mechanics, and was routed into `physiology-gas-transport.ts`, reusing the
+pinned `oxygen-transport.content-capacity-and-p50` (CON-RES-228D7C6B6FDE80)
+for the credited answer and cross-referencing that file's own `gas-
+transport.hb-o2-dissociation-curve-shifts` concept for the two Bohr-
+effect distractors. The pinned `ventilation-perfusion-ratio.regional-
+variation-in-the-lung` (CON-RES-317D54C114B246) — named as a pinned
+sibling in this file's own header comment when the hypoxaemia concept was
+minted in an earlier run, but never actually claimed by any seed until
+now — grounds 5 questions testing the same apex-vs-base V/Q relation from
+different angles (V/Q value, capillary PCO2, alveolar radii, blood-flow
+distribution), the same "one relation, several source occurrences"
+pattern documented repeatedly elsewhere in this branch. One fresh mint,
+`ventilation-perfusion-ratio.extremes-of-shunt-and-dead-space` (V/Q=0
+shunt vs V/Q=infinity dead space, e.g. pulmonary embolism) — find-
+existing.mjs and a grep for "V/Q shunt dead space" found no distinct
+pinned record (the regional-variation concept above covers the normal
+gradient, not these two extremes; a separate pinned physiologic-shunt
+concept, CON-RES-4A773ABA9943BE, covers bronchial-venous admixture and
+capillary fluid balance instead, a different fact) — grounded in the
+bank's own editorial explanation for the two rows it covers, disclosed as
+a gap. **1 excluded**: `all-about-ventilation-and-perfusion-of-different-
+regions-of-be381b3b` — the bank's own CORRECT answer (option D, an
+"except" question's exception) is truncated mid-sentence at extraction
+("...more efficient for oxygenating blood than is"); per the law of
+priority, a garbled key is rendered by eye or left unkeyed, never
+completed from what a textbook probably says, the same reasoning this
+leaf's sibling exclusion (`with-respect-to-gas-exchange-across-the-
+alyeolar-membrane-ea528c00`, from an earlier run) already applied to a
+corrupted correct-answer option.
+
+**Chromosomal Aberrations (Abnormalities) (13 -> 0)**: 12 kept, 1
+excluded, 0 fresh mints — every kept question is a sparse reuse across 3
+already-authored cytogenetics concepts (`structural-chromosomal-
+aberration...`, `down-syndrome.causes-and-features`, `sex-chromosome-
+aberration...`, `numerical-chromosomal-aberration...`), including two
+Philadelphia-chromosome rows joining the two already testing that same
+fact in `cytogenetics-structural-aberrations-full.ts`. **1 excluded**:
+`cause-non-disjunction-cacb3a17` — a genuine two-correct-answer
+ambiguity, not a corruption call: this leaf's own pinned `chromosomal-
+aberration.general-causes` concept states BOTH advanced maternal age
+(option A) AND autoimmune disease (option B, the bank's credited answer)
+as true causes of non-disjunction, and the stem gives no way to prefer
+one over the other — left unauthored per the law of priority rather than
+picking a single answer the source itself does not privilege.
+
+**3 rows initially drafted as "keep" were reconsidered against a
+precedent found while authoring**: two already-excluded sibling rows in
+`cytogenetics-numerical-aberrations-full.ts` cite a "platform's 4-to-5-
+option import contract" for rows with fewer than 4 surviving options —
+but on inspection, both of those specific exclusions turned on positive
+evidence of extraction corruption (missing-option text demonstrably
+bled into the stem, or `optionsRepaired`/`pairsOk` markers absent where
+expected), not the bare option count. Three of this run's own kept
+questions have only 3 surviving options each (`if-the-lungs-
+experimentally-filled-completely-with-saline-so-4d4a1047`, `which-
+disease-increase-lung-compliance-a-emphysema-572250fc`, `which-of-the-
+following-is-correct-regarding-type-il-pneumocy-1e2dfdfa`); each was
+checked against the bank's own row for a smoking gun of corruption (none
+found — one is cross-validated against an external solved book with
+`pairsOk: 3`, one was actively repaired from 2 to 3 options with a
+sourced third option, one is a high-confidence handwritten-mark
+recovery) and kept, consistent with the ~12 other already-kept 3-option
+questions already living across this module's seed files.
+
+Gate (three commits together): `build-batches.ts "104 CPS"`: 788 -> 831
+kept (+43), 178 -> 181 excluded (+3), 188 -> 193 MCQ concepts (+5, all
+sparse reuses of already-pinned or already-authored records except one
+fresh mint each in the pulmonary-compliance and gas-exchange clusters).
+`gate.mjs batch --with` (10-file recipe), both touched output files each
+time: errors=0. `gate.mjs simulate` (24-file, positional, apply order,
+run once at the very end of this session): `batches=24 created=2105
+updated=126 rejected=0 skipped=0 errors=0`. `kasr:ledger-104`: all three
+dispatched clusters now remaining=0 — CLOSED.
+
+HANDOFF: kasr-104-author-run42@<this commit's sha, see `git log -1`> ·
+resume-first: next-largest untouched clusters per the regenerated ledger
+are Cardiac Function (12 remaining, 24 already excluded — check for
+genuine remaining headroom vs. mostly-exhausted bank rows first),
+Vascular Function (12 remaining), Gas Transport by the Blood (11
+remaining) and Lung Volumes and Capacities (9 remaining, wholly
+unclaimed — 0 authored, 0 excluded, a clean new leaf). Basic Mechanisms
+of Circulatory Control (17 remaining) stays deliberately unclaimed
+per standing chief-of-staff guidance (out-of-article-scope RAAS/NO
+depth).

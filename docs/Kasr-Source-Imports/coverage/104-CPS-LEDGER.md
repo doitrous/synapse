@@ -4,22 +4,19 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 788 | excluded: 178 | remaining: 186
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 831 | excluded: 181 | remaining: 140
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 788
+- authored (by key, this ledger): 831
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 788
+- authored minus held-back = build-style "kept": 831
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| Pulmonary Compliance | 45 | 24 | 3 | 18 |
 | Basic Mechanisms of Circulatory Control | 36 | 13 | 6 | 17 |
-| Gas exchange in the lung | 21 | 4 | 2 | 15 |
-| Chromosomal Aberrations (Abnormalities) | 22 | 9 | 0 | 13 |
 | Cardiac Function | 80 | 44 | 24 | 12 |
 | Vascular Function | 44 | 27 | 5 | 12 |
 | Gas Transport by the Blood | 35 | 23 | 1 | 11 |
@@ -42,11 +39,14 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Tonsils | 18 | 10 | 4 | 1 |
 | (untagged) | 219 | 88 | 4 | 0 |
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
+| Chromosomal Aberrations (Abnormalities) | 22 | 21 | 1 | 0 |
 | Electrical Activity of the Heart | 82 | 57 | 25 | 0 |
+| Gas exchange in the lung | 21 | 18 | 3 | 0 |
 | Human Chromosome | 48 | 43 | 4 | 0 |
 | Lungs — Gross Anatomy | 21 | 16 | 5 | 0 |
 | Mechanics of Breathing | 22 | 18 | 4 | 0 |
 | Mediastinum | 41 | 30 | 11 | 0 |
+| Pulmonary Compliance | 45 | 41 | 4 | 0 |
 | The Cell Cycle | 5 | 5 | 0 | 0 |
 | The heart | 43 | 31 | 12 | 0 |
 | Thoracic Wall | 33 | 28 | 5 | 0 |
@@ -54,27 +54,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### Pulmonary Compliance (18)
-
-- `among-the-functions-of-surfactant-c9e14838` — Among the functions of surfactant:
-- `an-infant-born-prematurely-in-gestational-week-25-has-neonat-f5ecfb0b` — An infant born prematurely in gestational week 25 has neonatal respiratory linc;…
-- `concerning-compliance-of-large-arterial-blood-vessels-one-is-9eea479c` — Concerning compliance of large arterial blood vessels, one is true:
-- `concerning-compliance-of-the-stomach-one-is-true-ec247c63` — Concerning compliance of the stomach, one is true:
-- `if-the-lungs-experimentally-filled-completely-with-saline-so-4d4a1047` — If the lungs experimentally filled completely with saline, so the surface tensio…
-- `normal-value-of-lung-compliance-is-about-b1eb2ab0` — Normal value of lung‘ compliance is about....:
-- `regarding-transpulmonary-pressure-all-is-correct-except-eb323f99` — Regarding transpulmonary pressure all is correct, except:
-- `the-recoil-tendency-of-the-lungs-b4d2cfea` — The recoil tendency of the lungs:
-- `the-resistance-of-the-lungs-to-inflation-is-increase-by-ee943cea` — The resistance of the lungs to inflation is increase by:
-- `which-disease-increase-lung-compliance-a-emphysema-572250fc` — Which disease increase lung compliance: ‏ظ‎ ‎a- Emphysema
-- `which-disorder-decreases-the-chest-compliance-a178c097` — Which disorder decreases the chest compliance:
-- `which-of-the-following-is-correct-regarding-type-il-pneumocy-1e2dfdfa` — Which of the following is correct regarding type Il pneumocytes?
-- `which-of-the-following-is-not-true-concerning-respiratory-di-1e77d3bd` — Which of the following is NOT true concerning respiratory distress syndrome in p…
-- `which-of-the-following-is-not-true-concerning-respiratory-di-95a783aa` — Which of the following is NOT true concerning respiratory distress sy ndrome in …
-- `which-of-the-following-is-not-true-concerning-respiratory-di-a84e357a` — Which of the following is NOT true concerning respiratory distress = syndrome in…
-- `which-of-the-following-represents-the-pressure-difference-th-3a447d91` — Which of the following represents the pressure difference that acts to distend t…
-- `which-of-tne-following-represents-the-pressure-difference-th-8e096a02` — Which of tne following represents the pressure difference that acts to distend t…
-- `which-one-can-increase-the-compliance-of-blood-vessels-3a01102d` — Which one can increase the compliance of blood vessels
 
 ### Basic Mechanisms of Circulatory Control (17)
 
@@ -95,40 +74,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `systemic-arteriolar-constriction-may-result-from-an-increase-fdd3c641` — Systemic arteriolar constriction may result from an increase in local concentrat…
 - `the-following-are-true-regarding-no-except-870b8ec2` — The following are true, regarding NO, except
 - `which-of-the-following-is-not-a-vasodilator-metabolite-8da91769` — Which of the following is not a vasodilator metabolite?
-
-### Gas exchange in the lung (15)
-
-- `a-49-year-old-man-has-a-pulmonary-embolism-that-completely-b-5ba07ffa` — A 49-year-old man has a pulmonary embolism that completely blocks blood flow to …
-- `all-about-diffusion-of-o2-across-a-membrane-is-correct-excep-e804fcae` — All about diffusion of O2 across a membrane is correct, except:
-- `all-about-ventilation-and-perfusion-of-different-regions-of-be381b3b` — All about ventilation and perfusion of different regions of the lung is correct,…
-- `av-shunt-include-the-following-except-99b84173` — Av shunt include the following except
-- `compared-with-the-apex-of-the-lung-the-base-of-the-lung-has-bcf708af` — Compared with the apex of the lung, the base of the lung has 3
-- `compared-with-the-base-of-the-lung-in-a-person-who-is-standi-ccaa8882` — Compared with the base of the lung, in a person who is standing, the apex of the…
-- `concerning-distribution-of-ventilation-and-perfusion-cf1c1193` — Concerning distribution of ventilation and perfusion:
-- `lung-emphysema-decreases-the-pulmonary-diffusing-capacity-fo-ead15150` — Lung emphysema decreases the pulmonary diffusing capacity for gases due to:
-- `the-alveoli-at-the-top-of-the-lungs-differ-from-those-at-the-1a0a9d30` — The alveoli at the top of the lungs differ from those at the bottom in:
-- `ventilation-perfusion-v4-q-ratio-a45d5f6c` — Ventilation/perfusion (V4/Q) ratio: : :
-- `when-a-person-is-standing-blood-flow-in-the-lungs-is-d559a19e` — When a person is standing, blood flow in the lungs is
-- `which-of-following-conditions-would-limit-the-diffusion-of-o-63690754` — Which of following conditions would limit the diffusion of O; from alveoli to pu…
-- `which-of-the-following-conditions-would-limit-the-diffusion-199d5c2b` — Which of the following conditions would limit the diffusion of O, from alveoli t…
-- `which-person-would-be-expected-to-have-the-largest-alveolar-7d341e19` — Which person would be expected to have the largest Alveolar PO2-arterial PO2 gra…
-- `with-respect-to-gas-exchange-across-the-alveolar-membrane-e168f662` — With respect to gas exchange across the alveolar membrane:
-
-### Chromosomal Aberrations (Abnormalities) (13)
-
-- `a-patient-was-diagnosed-as-having-chronic-myeloid-leukemia-h-e370e170` — A patient was diagnosed as having chronic myeloid leukemia. His | condition migh…
-- `a-swab-from-the-buccal-mucosa-of-a-newly-born-infant-showed-ed97054a` — A swab from the buccal mucosa of a newly born infant showed more | than one Barr…
-- `achild-presented-with-mental-retardation-muscular-hypotonia-7cd5aa87` — Achild presented with mental retardation, muscular hypotonia, cardiac abnormalit…
-- `all-characters-of-trisomy-except-c611b9d6` — All characters of trisomy except
-- `cause-non-disjunction-cacb3a17` — Cause non-disjunction
-- `down-syndrome-mongolism-is-characterized-by-a-it-is-a-form-o-449c5e95` — Down syndrome (mongolism) is characterized by: ‏ظ‎ ‎| a. It is a form of triploi…
-- `ifa-parent-is-a-carrier-of-a-chromosome-21-translocation-he-2f86d27d` — Ifa parent is a carrier of a chromosome 21 translocation, he might have a child …
-- `it-is-absent-in-klinefelter-syndrome-9-addition-of-a-fragmen-4f0b50c3` — It is absent in Klinefelter syndrome | 9- Addition of a fragmented segment of on…
-- `may-be-due-to-47-chromosomes-xxy-15-structural-aberrations-i-304914be` — May be due to 47 chromosomes (XXY). 15, Structural aberrations include:
-- `monosomy-of-sex-chromosome-is-4dd33dcd` — Monosomy of sex chromosome is: |
-- `philadelphia-chromosome-6245c1ec` — Philadelphia chromosome:
-- `structural-aberrations-include-9c106da4` — Structural aberrations include:
-- `trisomy-of-chromosome-x-is-d0d549ba` — Trisomy of chromosome X is:
 
 ### Cardiac Function (12)
 
