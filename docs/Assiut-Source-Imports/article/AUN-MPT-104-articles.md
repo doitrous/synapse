@@ -3222,3 +3222,202 @@ Block: body
 ### definition_of · CON-FND-F0A43C29DC304E
 Quote: Diphenhydramine, a first-generation antihistamine, readily crosses the blood-brain barrier and produces significant CNS sedation, unlike a second-generation antihistamine such as loratadine or fexofenadine, which are designed to minimise CNS penetration
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## title
+Gangrene, haemorrhage and oedema: dry vs moist gangrene, bleeding patterns and oedema mechanisms
+
+## arabic_title
+الغرغرينا والنزيف والوذمة: الغرغرينا الجافة والرطبة، وأنماط النزيف وآليات الوذمة
+
+## aliases
+Heamodynamic disorders: Gangrene, heamorhage and edema
+Lecture 35
+
+## subject
+fnd
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Gangrene mechanisms, haemorrhage classification, oedema mechanisms and classification, exudate vs transudate
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+11
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 35 links three hemodynamic disturbances -- oedema, haemorrhage and gangrene -- through their shared vascular and fluid mechanisms. Oedema is classified as generalized (cardiac, renal, hepatic, nutritional causes, each raising hydrostatic or lowering oncotic pressure systemically) or local (lymphatic obstruction, allergy, acute inflammation, blocking drainage or increasing permeability at one site only); cardiac oedema is gravity-dependent, starting in the legs, while lymphatic oedema is the classic non-pitting exception. An exudate (protein-rich, clots on standing) is distinguished from a transudate (protein-poor, does not clot) such as cardiac oedema's ascitic fluid. Haemorrhage is classified as external (exits the body: haematuria, haematemesis, epistaxis, haemoptysis) or internal (contained within the body: ecchymosis, hemothorax, hematoma), and chronic small-volume loss causes anemia, not shock. Gangrene's bad odour comes from bacterial hydrogen sulphide production, and moist gangrene -- as in a volvulus, which occludes venous as well as arterial supply -- lacks the well-developed line of demarcation that dry gangrene (arterial occlusion alone) develops.
+
+## sections
+### Definition
+Oedema is the accumulation of excess fluid in the interstitial tissue or a body cavity. It is generalized when a systemic mechanism -- raised hydrostatic pressure (cardiac), lowered oncotic pressure (hepatic, renal, nutritional/malnutrition) -- affects the whole body, and local when a mechanism acts at one site only (lymphatic obstruction, an allergic reaction, acute inflammation). Haemorrhage is external when blood exits the body through a natural passage (haematuria, haematemesis, epistaxis, haemoptysis) and internal when it remains contained within the body, whether subcutaneously (ecchymosis, petechiae, purpura, hematoma) or within a serous cavity (hemothorax). Gangrene is massive tissue necrosis with superadded putrefaction, occurring in a dry form (arterial occlusion alone) or a moist form (combined arterial and venous occlusion, as in a volvulus).
+
+### Mechanism
+Cardiac oedema is a gravity-dependent, low-protein transudate: raised systemic venous hydrostatic pressure from right-heart failure pushes fluid out at the most dependent site (the legs in an ambulant patient), and its ascitic fluid does not clot on standing, has few cells and a specific gravity under 1015 -- the opposite of an inflammatory exudate's high-protein, clotting, cellular profile. Hepatic oedema/ascites arises from hypoproteinemia (impaired albumin synthesis), lowering oncotic pressure. Lymphatic oedema is non-pitting because its protein-rich fluid drives chronic tissue fibrosis, unlike the pitting oedema of cardiac, nutritional and nephritic causes. For gangrene, dry gangrene (arterial occlusion alone, e.g. senile gangrene from atherosclerosis) develops a well-demarcated, dry, mummified lesion with minimal putrefaction; moist gangrene (combined arterial-and-venous occlusion, e.g. a volvulus's torsion) engorges tissue with stagnant blood, favouring rapid bacterial putrefaction, severe toxaemia and no clear line of demarcation -- and produces the characteristic bad odour through bacterial hydrogen sulphide production.
+
+### Key determinants
+A patient with chronic liver disease, bilateral pitting leg oedema and ascites is expected to show hypoproteinemia. An elderly patient with a delayed head injury and a fluid collection compressing the brain on CT has a hematoma. Frequent small-volume blood loss over a long period causes anemia, not shock (which requires a large, acute loss). Among cardiac, renal and hepatic oedema, only lymphatic obstruction (and allergy, acute inflammation) produces local rather than generalized oedema; malnutrition produces generalized oedema through systemic hypoproteinemia. An intestinal volvulus, by occluding venous as well as arterial supply, produces moist rather than dry gangrene.
+
+### Clinical significance
+Recognising cardiac oedema's dependent, transudative pattern (legs, low protein, no clotting) versus an inflammatory exudate's clotting, cellular, high-protein pattern guides bedside fluid classification. Distinguishing internal from external haemorrhage, and a hematoma from congestion, petechiae or ecchymosis, is basic descriptive vocabulary for any bleeding presentation. Recognising volvulus as a cause of moist (not dry) gangrene, with its poor demarcation and severe toxaemia, underlines why it is a surgical emergency requiring urgent resection rather than a lesion that can be watched for natural, dry-gangrene-style separation.
+
+### Common misconceptions
+Assuming ecchymosis, because it is visible on the skin, counts as external rather than internal haemorrhage. Attributing gangrene's bad odour to bacterial numbers or tissue destruction alone rather than to hydrogen sulphide production specifically. Assuming any organ-failure cause of oedema (cardiac, renal, hepatic) is localized, or that all oedema is pitting (lymphatic oedema is the classic non-pitting exception). Assuming moist gangrene, like dry gangrene, develops a clear line of demarcation.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Cardiac oedema is a gravity-dependent, low-protein transudate that starts in the legs; hepatic oedema/ascites arises from hypoproteinemia; lymphatic oedema is the classic non-pitting exception.
+An exudate is protein-rich and clots on standing; a transudate (e.g. cardiac ascitic fluid) is protein-poor and does not clot.
+External haemorrhage exits the body (haematuria, haematemesis, epistaxis, haemoptysis); internal haemorrhage stays contained (ecchymosis, hemothorax, hematoma).
+Frequent small-volume blood loss causes anemia, not shock; a large acute loss causes shock.
+Moist gangrene (combined arterial-and-venous occlusion, e.g. volvulus) lacks dry gangrene's clear line of demarcation and has severe toxaemia; gangrene's bad odour comes from bacterial hydrogen sulphide production.
+
+## lose_the_mark
+Naming a non-dependent site, or an exudate-type fluid profile, for cardiac oedema.
+Classifying ecchymosis as external haemorrhage, or a subcutaneous bleeding pattern as internal haemorrhage.
+Confusing the chronic-small-loss (anemia) and acute-large-loss (shock) consequences of haemorrhage.
+Naming a systemic (cardiac/renal/hepatic) cause of oedema as localized, or missing lymphatic oedema as the non-pitting exception.
+Assuming moist gangrene shows a clear line of demarcation, or misattributing gangrene's odour to organism count rather than hydrogen sulphide.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-37DB89CCC6F059
+CON-FND-E9C75D708151B5
+CON-FND-0CFD7C6059B858
+CON-FND-6AC322F5109ADB
+CON-FND-C771B70391CB03
+CON-FND-1285B5A86515DA
+CON-FND-82DE35F0E9CF40
+CON-FND-D809577C431021
+CON-FND-94AC7220623687
+CON-FND-19158A048CC02C
+CON-FND-87F011172E24D8
+CON-FND-1025F8970116D6
+CON-FND-A24E254A253910
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 35 (Heamodynamic disorders: Gangrene, heamorhage and edema) -- no department slide deck exists in the corpus past Lecture 8, so all thirteen new mints cite the quiz bank's own printed-answer text instead. Quiz 35 Q9 (q292, moist gangrene lacking a line of demarcation) reuses a pending Kasr 208-INT concept (CON-FND-116B0060AF7B6B) rather than minting a fourteenth; its question cites the existing Kasr article ART-FND-208INT-HEMODYNAMICS instead of this one. Q15-Q21 (q298-q304) are True/False- or Match-formatted and held as format-incompatible with this platform's 4-5-option MCQ contract.
+
+## annotations
+### definition_of · CON-FND-37DB89CCC6F059
+Quote: A patient with chronic liver disease, bilateral pitting leg oedema and ascites is expected to show hypoproteinemia
+Block: body
+
+### definition_of · CON-FND-E9C75D708151B5
+Quote: An elderly patient with a delayed head injury and a fluid collection compressing the brain on CT has a hematoma
+Block: body
+
+### definition_of · CON-FND-0CFD7C6059B858
+Quote: internal when it remains contained within the body, whether subcutaneously (ecchymosis, petechiae, purpura, hematoma) or within a serous cavity (hemothorax)
+Block: body
+
+### definition_of · CON-FND-6AC322F5109ADB
+Quote: local when a mechanism acts at one site only (lymphatic obstruction, an allergic reaction, acute inflammation)
+Block: body
+
+### definition_of · CON-FND-C771B70391CB03
+Quote: raised systemic venous hydrostatic pressure from right-heart failure pushes fluid out at the most dependent site (the legs in an ambulant patient)
+Block: body
+
+### definition_of · CON-FND-1285B5A86515DA
+Quote: the opposite of an inflammatory exudate's high-protein, clotting, cellular profile
+Block: body
+
+### definition_of · CON-FND-82DE35F0E9CF40
+Quote: Frequent small-volume blood loss over a long period causes anemia, not shock (which requires a large, acute loss)
+Block: body
+
+### definition_of · CON-FND-D809577C431021
+Quote: its ascitic fluid does not clot on standing, has few cells and a specific gravity under 1015
+Block: body
+
+### definition_of · CON-FND-94AC7220623687
+Quote: malnutrition produces generalized oedema through systemic hypoproteinemia
+Block: body
+
+### definition_of · CON-FND-19158A048CC02C
+Quote: produces the characteristic bad odour through bacterial hydrogen sulphide production
+Block: body
+
+### definition_of · CON-FND-87F011172E24D8
+Quote: within a serous cavity (hemothorax)
+Block: body
+
+### definition_of · CON-FND-1025F8970116D6
+Quote: Lymphatic oedema is non-pitting because its protein-rich fluid drives chronic tissue fibrosis, unlike the pitting oedema of cardiac, nutritional and nephritic causes
+Block: body
+
+### definition_of · CON-FND-A24E254A253910
+Quote: An intestinal volvulus, by occluding venous as well as arterial supply, produces moist rather than dry gangrene
+Block: body
