@@ -88,20 +88,21 @@ med105-end43-cvs-q73
 # q71-q73: this triage's own note flagged a "second, inconsistent red-text marking" (E/D/E) on p16, unreconciled with the primary yellow-highlight convention. Lane-2's fresh p16 render (2026-09-02) found no such thing — p16 keys cleanly by the same yellow-highlight convention as every other page (q71=d, q72=a, q73=b, q74=a). The red-text guess was a tool misread; resolved, all three authored.
 med105-end43-cvs-q74
 
-## med105-final43-p1 — CVS Final 43 - Paper 1 Answered.pdf / CVS Final 43 - Paper 1 Unanswered.pdf (mu_b2fc082f072c18432ad3 / mu_a3aa1fdea67779294c75; twin pair — Unanswered is stems-only, not double-counted; 51 raw numbered-stem hits, ~37 true continuous MCQ (q01-q37) + a second short MCQ block on p12 (q01-q08, own local numbering, not yet reconciled into this running list) + an essay/short-answer tail from p13 on — out of MCQ scope) — key convention: yellow highlight, confirmed p1 (q01=b, q02=c, q03=b); tool's own "red-text" hits (q18=E, q29=E, q37=B, plus the p12 block q01=B/q02=C/q03=D/q04=E/q08=A) are a second marking layer on top, not yet reconciled with the highlight convention
+## med105-final43-p1 — CVS Final 43 - Paper 1 Answered.pdf / CVS Final 43 - Paper 1 Unanswered.pdf (mu_b2fc082f072c18432ad3 / mu_a3aa1fdea67779294c75; twin pair — Unanswered is stems-only, not double-counted; 51 raw numbered-stem hits, ~37 true continuous MCQ (q01-q37) + a second short MCQ block on p12 (q01-q08, own local numbering, not yet reconciled into this running list) + an essay/short-answer tail from p13 on — out of MCQ scope) — key convention: yellow highlight, confirmed p1 (q01=b, q02=c, q03=b). Lane-3 (2026-09-02): rendered p1-p11 (11 renders) to key q01-q37 in full. The triage's own "red-text" tool guesses were checked against the render and found WRONG on q18 (guessed E, actual highlight D) and q29 (guessed E, actual highlight B) — highlight is authoritative, matching lane-2's own p16 finding; q37's red text (plain, no highlight) was correct. 30 authored, 7 held: q05/q11/q19 image-dependent (q11's X-ray-with-circled-fracture stem is a new find beyond this note's original keyword-scan count), q27 double-marked (both A and C highlighted), q06/q10/q13 duplicate already-authored end43-cvs facts (see coverage/MU-MED105-LEDGER.md's Held section for full reasons).
 med105-final43-p1-q01
 med105-final43-p1-q02
 med105-final43-p1-q03
 med105-final43-p1-q04
 # q05: "structure marked by arrow" — image-dependent, rule 3/9 hold
-med105-final43-p1-q06
+# q06: duplicate of already-authored QST-MUMED105-END43-Q01 (cardiac muscle fibre character) — held, not authored
 med105-final43-p1-q07
 med105-final43-p1-q08
 med105-final43-p1-q09
-med105-final43-p1-q10
+# q10: duplicate of already-authored QST-MUMED105-END43-Q10 (SA node at SVC/RA junction) — held, not authored
 med105-final43-p1-q11
+# q11: "X-ray reveals a fracture...indicated by the black circle" — image-dependent, rule 3/9 hold (new find, not in this note's original keyword scan)
 med105-final43-p1-q12
-med105-final43-p1-q13
+# q13: duplicate of already-authored QST-MUMED105-END43-Q71 (gluteal arteries from internal iliac) — held, not authored
 med105-final43-p1-q14
 med105-final43-p1-q15
 med105-final43-p1-q16
