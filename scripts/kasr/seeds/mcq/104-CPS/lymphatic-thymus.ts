@@ -32,9 +32,114 @@ export const LEAF: McqLeafSeed = {
       type: "structural_description",
       aliases: ["Hassall's corpuscles", "Thymic cortex and medulla", "Thymus absences", "Epithelial reticular cell functions"],
     },
+    // kasr-104-author-run45: sparse reuse, not a fresh mint — same
+    // canonical_key already declared in lymphatic-lymph-node.ts
+    // (CON-HEM pinned record; mintConceptId is module-salted, not file-
+    // salted, so this file's own declaration resolves to the identical
+    // concept id). Declared again here only because build-batches.ts
+    // requires a question's conceptKey to resolve within its own leaf
+    // file's concepts array; every other field below is inert for the
+    // build and restated close to the original so a reader of this file
+    // does not have to open the sibling file to know what is reused.
+    {
+      key: "lymphatic-organs.primary-vs-secondary-classification",
+      label: "Thymus and bone marrow are the primary (central) lymphatic organs, where lymphocytes are produced — the thymus specifically producing CD4+ and CD8+ T-lymphocytes — while lymph nodes, spleen and tonsils are secondary (peripheral) organs, where mature lymphocytes mount immune responses",
+      definition: "Restated here only to satisfy the seed type; the pinned record's own wording (declared in lymphatic-lymph-node.ts) governs. The primary organs are the thymus and bone marrow, the sites where lymphocytes are produced: the thymus's cortex and medulla complete T-lymphocyte production and maturation, including the CD4+ and CD8+ T-lymphocyte populations, before they seed the peripheral organs. The secondary organs are the lymph nodes, spleen and tonsils, where those already-produced lymphocytes encounter antigen and mount the immune response.",
+      objective: "Classify thymus and bone marrow as primary (central) lymphatic organs and lymph node, spleen and tonsil as secondary (peripheral) ones.",
+      pitfall: "Placing the spleen, lymph node or tonsil among the primary lymphatic organs, or attributing a primary-organ function (production of new lymphocytes) to a secondary organ.",
+      subject: "haem",
+      primary: "DIS-HIS-T02",
+      secondary: [],
+      modulePath: "104 CPS > Histology > Lymphatic and Macrophage System > Thymus",
+      type: "classification",
+      aliases: ["Primary lymphatic organs", "Secondary lymphatic organs", "Central vs peripheral lymphoid organs"],
+    },
   ],
 
   questions: [
+    {
+      // kasr-104-author-run45: Thymus cluster. Matches this leaf's own
+      // sourced concept directly — epithelial reticular cells nurse the
+      // developing lymphocytes in both cortex and medulla.
+      key: "concerning-thymus-gland-the-nursing-cells-are-3e67d3a8",
+      conceptKey: "thymus.hassalls-corpuscles-cortex-medulla-contrast-and-reticular-cell-functions",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Name the epithelial reticular cell, in both cortex and medulla, as the thymus's nursing cell for its developing lymphocytes.",
+      explanations: {
+        A: "T-lymphocytes are the developing cells being nursed, not the nursing cells themselves.",
+        B: "Lymphoblasts in the outer cortex are, likewise, developing lymphocytes under the epithelial reticular cells' care, not the nursing cells doing the caring.",
+        C: "Macrophages sit within the cortex, intercepting blood-borne antigen as part of the blood-thymic barrier, but nursing the developing lymphocytes is this leaf's own concept's named epithelial-reticular-cell function, not a macrophage one.",
+        D: "Epithelial reticular cells, present in both cortex and medulla, act as nursing cells for the developing lymphocytes — one of the three functions this leaf's own concept credits them with, alongside secreting thymic hormones and sheathing the septa and blood vessels.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Thymus cluster. Matches this leaf's own
+      // sourced concept text almost verbatim: lymphoblasts in the outer
+      // cortex, thymocytes (T-lineage cells) in the inner cortex.
+      key: "outer-part-of-thymus-cortex-contain-while-inner-part-contain-e2cc156d",
+      conceptKey: "thymus.hassalls-corpuscles-cortex-medulla-contrast-and-reticular-cell-functions",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that the thymic cortex holds lymphoblasts in its outer part and thymocytes (T-lineage cells) in its inner part.",
+      explanations: {
+        A: "This leaf's own concept states the cortex is densely populated with lymphocytes — lymphoblasts in its outer part, thymocytes in its inner part — exactly this progression from less to more mature T-lineage cells as they move inward toward the medulla.",
+        B: "Reversed — this leaf's own concept places lymphoblasts outward and thymocytes inward, not the other way round.",
+        C: "The thymus has no B-lymphocytes at all, in either cortex zone — its lymphocyte population is entirely T-lineage, so a B-lymphocyte-based pairing does not describe the cortex's own outer-to-inner progression.",
+        D: "The thymus has no B-lymphocytes at all, so this pairing is doubly wrong — B-lymph does not belong in the inner cortex, and lymphoblast-to-B-lymph is not this leaf's own stated outer-to-inner progression.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Thymus cluster. Blends this leaf's own
+      // sourced concept (no plasma cells, no afferent lymphatics — only
+      // efferent) with the sparse-reuse primary/secondary lymphatic-organ
+      // classification concept already declared in lymphatic-lymph-node.ts
+      // (thymus, a primary organ, completes T-lymphocyte production).
+      key: "regarding-thymus-gland-it-is-i-16460019",
+      conceptKey: "lymphatic-organs.primary-vs-secondary-classification",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that the thymus is the site of T-cell production, against antibody production (a secondary-organ function), a spleen function, and this leaf's own no-afferent-lymphatics fact.",
+      explanations: {
+        A: "Antibody production is a secondary (peripheral) lymphoid organ function, carried out by plasma cells — and this leaf's own concept states the thymus has no plasma cells at all.",
+        B: "Red blood cell degradation and bilirubin recycling is a spleen function, not a function of the thymus, a primary lymphoid organ that produces and matures T-lymphocytes rather than processing blood cells.",
+        C: "Reversed. This leaf's own concept states the thymus has no afferent lymphatic vessels at all — only efferent ones, carrying mature cells onward — the opposite of 'having both'.",
+        D: "The thymus is a primary (central) lymphoid organ whose cortex and medulla complete T-lymphocyte production and maturation before these cells seed the secondary organs — exactly the classification concept's own stated thymic role.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Thymus cluster. Directly established by
+      // both this leaf's own concept and the sparse-reuse classification
+      // concept: the thymus is where T-lymphocytes complete maturation
+      // into immunocompetent cells.
+      key: "where-do-t-lymphocytes-acquire-their-immunocompetence-7eafb30a",
+      conceptKey: "thymus.dual-origin-and-epithelial-reticular-cells",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "Name the thymus as the site where T-lymphocytes complete their maturation into immunocompetent cells, against the thyroid, bone marrow and lymph node.",
+      explanations: {
+        A: "The thymus is where T-lymphocytes acquire their immunocompetence — its epithelial reticular cells secrete thymic hormones that promote T-lymphocyte differentiation and maturation before these cells seed the peripheral (secondary) lymphoid organs.",
+        B: "The thyroid is an endocrine gland producing thyroid hormones; it plays no part in lymphocyte maturation.",
+        C: "Bone marrow is the other primary lymphoid organ, and the source of T-lymphocyte precursors, but the classification concept's own thymus-specific role is what completes their maturation into immunocompetent T-cells — T-lymphocyte precursors still require the thymic environment to finish that process.",
+        D: "The lymph node is a secondary (peripheral) lymphoid organ, where already-mature lymphocytes encounter antigen — not where T-lymphocytes acquire their immunocompetence in the first place.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Thymus cluster. Directly established by the
+      // sparse-reuse classification concept: thymus and bone marrow are
+      // the primary (central) lymphatic organs.
+      key: "which-of-the-following-is-considered-a-central-lymphatic-org-81ba1e71",
+      conceptKey: "lymphatic-organs.primary-vs-secondary-classification",
+      difficulty: "Easy",
+      questionType: "Classification",
+      learningObjective: "Name the thymus as a central (primary) lymphatic organ, against the peripheral (secondary) lymph node, spleen and tonsils.",
+      explanations: {
+        A: "The thymus is, with bone marrow, one of the two primary (central) lymphatic organs — the classification concept's own stated pairing.",
+        B: "Lymph nodes are a secondary (peripheral) lymphatic organ, where already-produced lymphocytes mount immune responses, not a central one.",
+        C: "The spleen is likewise a secondary (peripheral) lymphatic organ, filtering blood and mounting immune responses rather than producing lymphocytes.",
+        D: "Tonsils are a secondary (peripheral) lymphatic organ too, protecting the digestive and respiratory systems' entry points rather than producing lymphocytes centrally.",
+      },
+    },
     {
       key: "origin-of-epithelial-reticular-cell-4455e8b2",
       conceptKey: "thymus.dual-origin-and-epithelial-reticular-cells",
