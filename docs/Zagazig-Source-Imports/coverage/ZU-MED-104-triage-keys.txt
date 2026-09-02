@@ -1,0 +1,42 @@
+# Fakous MSK Final 2024.pdf — 36 keyed SBA + 9 held (essay, no letter key)
+# Format: <source-slug>-qNN
+
+msk-final24-q01
+msk-final24-q02
+msk-final24-q03
+msk-final24-q04
+msk-final24-q05
+msk-final24-q06
+msk-final24-q07
+msk-final24-q08
+msk-final24-q09
+msk-final24-q10
+msk-final24-q11
+msk-final24-q12
+msk-final24-q13
+msk-final24-q14
+msk-final24-q15
+msk-final24-q16
+msk-final24-q17
+msk-final24-q18
+msk-final24-q19
+msk-final24-q20
+msk-final24-q21
+msk-final24-q22
+msk-final24-q23
+msk-final24-q24
+msk-final24-q25
+msk-final24-q26
+msk-final24-q27
+msk-final24-q28
+msk-final24-q29
+msk-final24-q30
+msk-final24-q31
+msk-final24-q32
+msk-final24-q33
+msk-final24-q34
+msk-final24-q35
+msk-final24-q36
+
+# 9 structured essay questions (SEQ1-SEQ9) — no single-letter key, essay-format,
+# graded by rubric/department book; not authored this pass, no triage key minted.

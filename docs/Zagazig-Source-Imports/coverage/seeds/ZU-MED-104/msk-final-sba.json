@@ -1,0 +1,1367 @@
+{
+  "lane": "ZU-MED-104",
+  "cluster": "msk-final-sba",
+  "header": "ZU-MED-104 · Musculoskeletal & Integumentary — 36 single-best-answer questions authored from Fakous MSK Final 2024.pdf (Zagazig University, Fakous campus; provenance ruled usable, LANE-CARD.md §7). This paper had no PDF text layer at all (Microsoft Lens scan, `pagetext.mjs status` reported words=0/garbled=yes on every page) and needed `pagetext.mjs ocr --pages 1-5` before the hand-drawn-ink key trap (LANE-CARD.md §7) could even be read; every key below was then confirmed by `render --force` against the scanned image, one render per page (coverage/ZU-MED-104-triage.md). The 9 structured-essay questions in the same paper are not authored in this pass (no single-letter key).",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "zu"
+    ],
+    "years": [
+      "ZU_Y1"
+    ],
+    "module": "ZU-MED-104",
+    "exam_weight_by_year": {
+      "ZU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "source_citation": "Fakous MSK Final 2024.pdf (Zagazig University, Fakous campus, Faculty of Medicine), Q{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "cognitive_effort": "Moderate",
+    "reasoning_level": 2,
+    "question_type": "Application"
+  },
+  "questions": [
+    {
+      "key": "msk-final24-q01",
+      "page": 2,
+      "title": "Paralysis causing loss of ring-finger MCP adduction",
+      "question": "A 16-year-old patient is unable to adduct the metacarpophalangeal joint of the ring finger. Which of the following muscles is most likely to be paralyzed?",
+      "options": {
+        "A": "Flexor digitorum profundus",
+        "B": "Lumbrical",
+        "C": "Palmar interossei",
+        "D": "Dorsal interossei"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Flexor digitorum profundus flexes the interphalangeal joints of the fingers; it plays no role in metacarpophalangeal abduction or adduction.",
+        "B": "Incorrect. The lumbricals flex the metacarpophalangeal joints and extend the interphalangeal joints via the extensor expansion, but they do not abduct or adduct the fingers.",
+        "C": "Correct. The three palmar interossei adduct the index, ring and little fingers toward the axis of the middle finger. Losing ring-finger adduction specifically points to the palmar interosseous supplying that finger, all of which — like every interosseous muscle — are supplied by the deep branch of the ulnar nerve. Dorsal interossei, by contrast, abduct the fingers away from the same axis, the opposite action.",
+        "D": "Incorrect. The dorsal interossei abduct the fingers away from the axis of the middle finger — the opposite action to the adduction described, which the palmar interossei alone perform."
+      },
+      "main_concept": "CON-MSK-24A0858459A59D",
+      "concept_ids": [
+        "CON-MSK-24A0858459A59D"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Upper limb anatomy",
+      "subtopic": "Hand",
+      "difficulty": "Moderate",
+      "learning_objective": "Identify the palmar interossei as the adductors of the fingers toward the axis of the middle finger, and dorsal interossei as the abductors.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Hand intrinsic muscles",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-101-ANA-HAND-ARTERIES"
+      ]
+    },
+    {
+      "key": "msk-final24-q02",
+      "page": 2,
+      "title": "The axis of the hand",
+      "question": "The axis of the hand is a line that passes through which of the following fingers?",
+      "options": {
+        "A": "Index",
+        "B": "Middle",
+        "C": "Ring",
+        "D": "Little"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The index finger abducts away from and adducts toward the reference axis; it does not define the axis itself.",
+        "B": "Correct. Finger abduction and adduction are described relative to a reference line through the middle finger. Fingers moving away from this line are abducting, and fingers moving toward it are adducting, so the middle finger is conventionally treated as having no abduction/adduction of its own. This is the same axis the palmar and dorsal interossei use to define their actions, and it is distinct from the foot's own reference digit, the second toe.",
+        "C": "Incorrect. The ring finger abducts away from and adducts toward the reference axis through the middle finger; it does not define the axis itself.",
+        "D": "Incorrect. The little finger abducts away from and adducts toward the reference axis through the middle finger; it does not define the axis itself."
+      },
+      "main_concept": "CON-MSK-A9C1424E9CB9B1",
+      "concept_ids": [
+        "CON-MSK-A9C1424E9CB9B1"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Upper limb anatomy",
+      "subtopic": "Hand",
+      "difficulty": "Easy",
+      "learning_objective": "State that the axis of the hand for finger abduction/adduction passes through the middle finger.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Hand intrinsic muscles",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option b), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-UPPER-LIMB-ANATOMY"
+      ]
+    },
+    {
+      "key": "msk-final24-q03",
+      "page": 2,
+      "title": "Fifth extensor compartment mass",
+      "question": "A localized mass compresses the fifth compartment of the extensor retinaculum. Which of the following actions may result?",
+      "options": {
+        "A": "Weakness of flexion of the wrist joint",
+        "B": "Loss of extension of the wrist joint",
+        "C": "Loss of extension of the joints of the little finger",
+        "D": "Loss of extension of the joints of the index finger"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The extensor retinaculum's compartments hold extensor, not flexor, tendons; a mass here has no effect on wrist flexion.",
+        "B": "Incorrect. Wrist extension is produced by extensor carpi radialis longus/brevis (compartment 2) and extensor carpi ulnaris (compartment 6), both outside the fifth compartment, so wrist extension itself is preserved.",
+        "C": "Correct. The fifth compartment of the extensor retinaculum holds extensor digiti minimi alone. Compressing it selectively entraps this one tendon, so the deficit is confined to loss of extension at the little finger's metacarpophalangeal and interphalangeal joints, with the other fingers (extended by extensor digitorum in compartment 4) unaffected.",
+        "D": "Incorrect. The index finger is extended by extensor digitorum and extensor indicis, both in the fourth compartment, not the fifth — a fifth-compartment mass spares the index finger."
+      },
+      "main_concept": "CON-MSK-9F295DCA61C8E6",
+      "concept_ids": [
+        "CON-MSK-9F295DCA61C8E6"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Upper limb anatomy",
+      "subtopic": "Forearm and wrist",
+      "difficulty": "Moderate",
+      "learning_objective": "Name extensor digiti minimi as the sole tenant of the fifth extensor compartment, and state that its compression selectively loses little-finger extension.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Forearm and wrist",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-UPPER-LIMB-ANATOMY"
+      ]
+    },
+    {
+      "key": "msk-final24-q04",
+      "page": 2,
+      "title": "Muscle spared by posterior interosseous nerve injury",
+      "question": "A 38-year-old male sustains a deep penetrating stab wound to the back of the forearm that causes severe damage to the posterior interosseous nerve. Which of the following muscles is normally functioning?",
+      "options": {
+        "A": "Extensor pollicis brevis",
+        "B": "Extensor indicis",
+        "C": "Extensor carpi radialis longus",
+        "D": "Extensor carpi radialis brevis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Extensor pollicis brevis is part of the deep extensor group, supplied by the posterior interosseous nerve after it pierces supinator, so it is paralysed by this injury.",
+        "B": "Incorrect. Extensor indicis is part of the deep extensor group, supplied by the posterior interosseous nerve, so it is paralysed by this injury.",
+        "C": "Correct. At the lateral epicondyle the radial nerve divides into a superficial (sensory) branch and a deep branch that becomes the posterior interosseous nerve after piercing supinator. Extensor carpi radialis longus, along with brachioradialis and anconeus, is supplied by the radial nerve proper above this division, so it is spared by an isolated posterior interosseous nerve injury — which is also why a posterior interosseous lesion causes finger drop without wrist drop.",
+        "D": "Incorrect. Extensor carpi radialis brevis, unlike extensor carpi radialis longus, is part of the deep extensor group supplied by the posterior interosseous nerve, so it is paralysed by this injury."
+      },
+      "main_concept": "CON-MSK-1FC89E36FFD98E",
+      "concept_ids": [
+        "CON-MSK-1FC89E36FFD98E"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Upper limb anatomy",
+      "subtopic": "Forearm nerve injuries",
+      "difficulty": "Hard",
+      "learning_objective": "State that extensor carpi radialis longus is spared by an isolated posterior interosseous nerve injury because it is supplied by the radial nerve proper above the division.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Forearm nerve injuries",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-101-ANA-RADIAL-NERVE"
+      ]
+    },
+    {
+      "key": "msk-final24-q05",
+      "page": 2,
+      "title": "Wrist deficit after medial epicondyle fracture",
+      "question": "A 17-year-old girl comes to the local hospital after a fracture of her medial epicondyle. Examination reveals severe injury to the nerve lying behind the fractured bone. Which of the following conditions at the wrist occurs secondary to this injured nerve?",
+      "options": {
+        "A": "Loss of extension",
+        "B": "Weakness of extension",
+        "C": "Loss of flexion",
+        "D": "Weakness of flexion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The nerve behind the medial epicondyle is the ulnar nerve, which is not a wrist extensor; extension is entirely a radial-nerve function and is unaffected here.",
+        "B": "Incorrect. Wrist extension is unaffected by an ulnar nerve injury, since extension is produced by the radial-nerve-supplied extensor group.",
+        "C": "Incorrect. Flexion is not lost, because flexor carpi radialis (median nerve) continues to flex the wrist even when the ulnar-supplied flexors are paralysed.",
+        "D": "Correct. The ulnar nerve grooves the back of the medial epicondyle, making it the nerve at risk in this fracture. Wrist flexion is produced jointly by flexor carpi radialis (median) and flexor carpi ulnaris (ulnar); an ulnar nerve injury removes flexor carpi ulnaris and the ulnar half of flexor digitorum profundus from the flexor group, but flexor carpi radialis and the radial half of flexor digitorum profundus are spared. The result is weakness, not loss, of wrist flexion."
+      },
+      "main_concept": "CON-MSK-D8CF9BB2FF6C77",
+      "concept_ids": [
+        "CON-MSK-D8CF9BB2FF6C77"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-24A0858459A59D"
+      ],
+      "subject": "msk",
+      "topic": "Upper limb anatomy",
+      "subtopic": "Elbow and forearm nerve injuries",
+      "difficulty": "Moderate",
+      "learning_objective": "State that a medial epicondyle fracture injures the ulnar nerve, and that the wrist deficit is weakness (not loss) of flexion because the median-supplied flexors are spared.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Elbow and forearm nerve injuries",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option d), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-UPPER-LIMB-ANATOMY"
+      ]
+    },
+    {
+      "key": "msk-final24-q06",
+      "page": 2,
+      "title": "Forearm muscle with double nerve supply",
+      "question": "Which of the following muscles in the forearm has a double nerve supply?",
+      "options": {
+        "A": "Flexor carpi radialis",
+        "B": "Flexor carpi ulnaris",
+        "C": "Flexor digitorum superficialis",
+        "D": "Flexor digitorum profundus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Flexor carpi radialis is supplied entirely by the median nerve, with no ulnar contribution.",
+        "B": "Incorrect. Flexor carpi ulnaris is supplied entirely by the ulnar nerve, with no median contribution — it is one of only two forearm flexors the median nerve does not reach.",
+        "C": "Incorrect. Flexor digitorum superficialis is supplied entirely by the median nerve.",
+        "D": "Correct. The median nerve supplies every muscle of the forearm's anterior compartment except flexor carpi ulnaris and the medial (ulnar) half of flexor digitorum profundus, which the ulnar nerve takes instead. This split gives flexor digitorum profundus a genuine dual median/ulnar supply, the lateral half to the index and middle fingers from the median nerve (via the anterior interosseous branch) and the medial half to the ring and little fingers from the ulnar nerve."
+      },
+      "main_concept": "CON-MSK-2A322BCDAEBFFD",
+      "concept_ids": [
+        "CON-MSK-2A322BCDAEBFFD"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Upper limb anatomy",
+      "subtopic": "Forearm",
+      "difficulty": "Moderate",
+      "learning_objective": "Identify flexor digitorum profundus as the forearm muscle with a dual median/ulnar nerve supply, split between its lateral and medial halves.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Forearm anterior compartment",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option d), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-AU105-FOREARM-NERVES"
+      ]
+    },
+    {
+      "key": "msk-final24-q07",
+      "page": 2,
+      "title": "Artery injured with a scaphoid fracture",
+      "question": "A 20-year-old boy falls on his outstretched hand and subsequently fractures his scaphoid bone. The fracture was accompanied by injury of which of the following arteries?",
+      "options": {
+        "A": "Ulnar",
+        "B": "Radial",
+        "C": "Princeps pollicis",
+        "D": "Deep palmar arch"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The ulnar artery runs on the medial side of the wrist and does not cross the scaphoid or the anatomical snuff box.",
+        "B": "Correct. The anatomical snuff box is floored by the scaphoid and crossed by the radial artery as it winds around the lateral wrist toward the deep palmar arch. A scaphoid fracture from a fall on the outstretched hand places the radial artery, lying directly against the fractured bone at the snuff box floor, at risk of injury.",
+        "C": "Incorrect. Princeps pollicis is a distal branch of the radial artery within the hand, given off after the artery has already crossed the snuff box, not the vessel directly overlying the fracture site.",
+        "D": "Incorrect. The deep palmar arch is the radial artery's own termination in the palm, distal to the snuff box, not the vessel directly at risk at the fracture site itself."
+      },
+      "main_concept": "CON-MSK-1B2BD8EC2B44B8",
+      "concept_ids": [
+        "CON-MSK-1B2BD8EC2B44B8"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Upper limb anatomy",
+      "subtopic": "Wrist and hand vasculature",
+      "difficulty": "Moderate",
+      "learning_objective": "State that the radial artery, crossing the floor of the anatomical snuff box, is the vessel at risk in a scaphoid fracture.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Wrist and hand vasculature",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option b), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-101-ANA-AXILLA-BREAST"
+      ]
+    },
+    {
+      "key": "msk-final24-q08",
+      "page": 2,
+      "title": "Bony attachment of the mid-prone-position muscle",
+      "question": "A 51-year-old man presents with inability to put his forearm in the mid-prone position. Which of the following bony attachments is related to the affected muscle?",
+      "options": {
+        "A": "Styloid process of ulna",
+        "B": "Ulnar tuberosity",
+        "C": "Lateral supracondylar humeral ridge",
+        "D": "Radial tuberosity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The styloid process of the ulna is a distal landmark unrelated to brachioradialis, the muscle that holds the forearm in mid-prone position.",
+        "B": "Incorrect. The ulnar tuberosity is the insertion of brachialis, an elbow flexor unrelated to establishing the mid-prone resting position of the forearm.",
+        "C": "Correct. Brachioradialis is the muscle that brings and holds the forearm in the mid-prone position, the position from which it contracts most efficiently. Unlike the rest of the posterior forearm's superficial extensor group, which arises from the common extensor origin on the lateral epicondyle, brachioradialis arises higher, from the upper part of the lateral supracondylar ridge of the humerus.",
+        "D": "Incorrect. The radial tuberosity is the insertion of biceps brachii, a supinator, not the origin of brachioradialis."
+      },
+      "main_concept": "CON-MSK-E04D8A31AEAC23",
+      "concept_ids": [
+        "CON-MSK-E04D8A31AEAC23"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Upper limb anatomy",
+      "subtopic": "Forearm posterior compartment",
+      "difficulty": "Moderate",
+      "learning_objective": "Name the lateral supracondylar ridge of the humerus as brachioradialis's origin, the muscle that holds the forearm in mid-prone position.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Forearm posterior compartment",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-101-ANA-FOREARM-RETINACULUM-ROTATION"
+      ]
+    },
+    {
+      "key": "msk-final24-q09",
+      "page": 2,
+      "title": "Structure spared in a severe wrist joint injury",
+      "question": "A 19-year-old boy falls from a motorcycle onto his wrist joint. On examination the physician reveals severe damage of his wrist joint. Which of the following structures is normal?",
+      "options": {
+        "A": "Distal end of radius",
+        "B": "Distal end of ulna",
+        "C": "Scaphoid carpal bone",
+        "D": "Fibrocartilaginous disc"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The distal radius is the principal weight-bearing structure of the forearm at the wrist and is classically damaged in a severe fall-related wrist injury.",
+        "B": "Correct. A fall onto the wrist loads the radial side of the joint first, since the distal radius carries the great majority of the axial load. A severe fall-related wrist injury pattern therefore classically damages the distal radius, the scaphoid, and the triangular fibrocartilage complex, while the distal end of the ulna — which does not directly articulate with the carpal row — is the structure most likely to remain structurally normal.",
+        "C": "Incorrect. The scaphoid, floored by the snuff box and loaded directly in a fall on the outstretched hand, is one of the structures classically damaged in this injury pattern.",
+        "D": "Incorrect. The fibrocartilaginous disc (triangular fibrocartilage complex) separates the ulnar head from the carpus and is among the structures classically injured in a severe fall-related wrist injury."
+      },
+      "main_concept": "CON-MSK-FFB8E902B96AD0",
+      "concept_ids": [
+        "CON-MSK-FFB8E902B96AD0"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Upper limb anatomy",
+      "subtopic": "Wrist joint",
+      "difficulty": "Hard",
+      "learning_objective": "State that the distal ulna is the structure most likely spared in a severe fall-related wrist injury, since the distal radius bears the direct carpal load.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Wrist joint",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option b), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-UPPER-LIMB-ANATOMY"
+      ]
+    },
+    {
+      "key": "msk-final24-q10",
+      "page": 3,
+      "title": "Structure protected by upper lateral quadrant gluteal injection",
+      "question": "Injection into the gluteal region is done through the upper lateral quadrant to protect which of the following structures?",
+      "options": {
+        "A": "Superior gluteal artery",
+        "B": "Superior gluteal nerve",
+        "C": "Sciatic nerve",
+        "D": "Internal pudendal artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The superior gluteal artery runs in the upper gluteal region, not the structure the upper lateral quadrant rule is designed to protect.",
+        "B": "Incorrect. The superior gluteal nerve also runs in the upper gluteal region; it is not the structure at greatest risk from a poorly placed lower- or medial-quadrant injection.",
+        "C": "Correct. The gluteal region is divided into four quadrants by lines crossing at the greater trochanter. The sciatic nerve descends through the lower quadrants, roughly midway between the ischial tuberosity and the greater trochanter, so an injection placed in the upper lateral quadrant — over gluteus medius — stays well clear of it, avoiding the serious complication of direct sciatic nerve injury.",
+        "D": "Incorrect. The internal pudendal artery lies medially, in the perineal/pudendal region, not in the path of an upper-lateral-quadrant gluteal injection."
+      },
+      "main_concept": "CON-MSK-FD71E5AF4A7E33",
+      "concept_ids": [
+        "CON-MSK-FD71E5AF4A7E33"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Lower limb anatomy",
+      "subtopic": "Gluteal region",
+      "difficulty": "Easy",
+      "learning_objective": "State that gluteal intramuscular injection targets the upper lateral quadrant to avoid the sciatic nerve.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Gluteal region",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-LOWER-LIMB-ANATOMY"
+      ]
+    },
+    {
+      "key": "msk-final24-q11",
+      "page": 3,
+      "title": "Muscle protecting the knee synovial membrane in extension",
+      "question": "A 39-year-old patient suffers damage of his knee synovial membrane during extension of his leg. Which of the following muscles is most likely to be affected?",
+      "options": {
+        "A": "Vastus medialis",
+        "B": "Vastus lateralis",
+        "C": "Articularis genu",
+        "D": "Tensor fasciae latae"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Vastus medialis is a prime extensor of the knee but does not insert into the synovial membrane or suprapatellar bursa.",
+        "B": "Incorrect. Vastus lateralis is a prime extensor of the knee but, like vastus medialis, does not insert into the synovial membrane or suprapatellar bursa.",
+        "C": "Correct. Articularis genu, a thin muscle functionally detached from vastus intermedius, arises from the lower femoral shaft and inserts directly into the synovial membrane of the knee joint capsule and the suprapatellar bursa. During extension it retracts this redundant, loose tissue proximally, protecting it from being pinched between the femur and patella; damage to this specific muscle is what a synovial-membrane injury pattern during extension points to.",
+        "D": "Incorrect. Tensor fasciae latae acts at the hip (flexion, abduction, medial rotation) and tenses the iliotibial tract; it has no insertion into the knee's synovial membrane."
+      },
+      "main_concept": "CON-MSK-C68B915B0A6EBD",
+      "concept_ids": [
+        "CON-MSK-C68B915B0A6EBD"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Lower limb anatomy",
+      "subtopic": "Thigh and knee",
+      "difficulty": "Hard",
+      "learning_objective": "Name articularis genu as the muscle that retracts the suprapatellar synovial membrane/bursa during knee extension.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Thigh and knee",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-LOWER-LIMB-ANATOMY"
+      ]
+    },
+    {
+      "key": "msk-final24-q12",
+      "page": 3,
+      "title": "Muscle affected in L5-S1-S2 disc prolapse with weak hip extension",
+      "question": "An elderly female patient complains of difficulty walking upstairs due to a disc prolapse affecting the nerve root of L5, S1, S2. Tests reveal weakness in hip extension with normal flexion. Which of the following muscles is most likely to be affected?",
+      "options": {
+        "A": "Gluteus minimus",
+        "B": "Gluteus maximus",
+        "C": "Gluteus medius",
+        "D": "Adductor longus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Gluteus minimus is an abductor of the hip, supplied by the superior gluteal nerve (L4, L5, S1), not the extensor described here.",
+        "B": "Correct. Gluteus maximus is the chief extensor of the flexed hip (needed to climb stairs) and is supplied by the inferior gluteal nerve, roots L5, S1, S2 — exactly the root level described. Its weakness selectively impairs hip extension while sparing flexion, which is produced by other muscles (iliopsoas, sartorius, rectus femoris) with different nerve supplies.",
+        "C": "Incorrect. Gluteus medius is an abductor of the hip, supplied by the superior gluteal nerve, not the extensor affected by an L5-S1-S2 lesion presenting with weak extension.",
+        "D": "Incorrect. Adductor longus is supplied by the obturator nerve (L2-L4) and adducts, rather than extends, the hip."
+      },
+      "main_concept": "CON-MSK-F12505C48037BB",
+      "concept_ids": [
+        "CON-MSK-F12505C48037BB"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Lower limb anatomy",
+      "subtopic": "Gluteal region",
+      "difficulty": "Moderate",
+      "learning_objective": "Identify gluteus maximus as the L5-S1-S2, inferior-gluteal-nerve-supplied chief extensor of the hip.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Gluteal region",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option b), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-AU105-GLUTEAL-HIP-JOINT"
+      ]
+    },
+    {
+      "key": "msk-final24-q13",
+      "page": 3,
+      "title": "Muscle damaged in inability to sit in tailor position",
+      "question": "A patient comes to your clinic with inability to flex the hip and knee joints. He cannot sit in a tailor position. Which of the following muscles is damaged?",
+      "options": {
+        "A": "Pectineus",
+        "B": "Adductor longus",
+        "C": "Sartorius",
+        "D": "Adductor brevis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Pectineus flexes and adducts the hip but does not act at the knee, and adduction is the opposite of the abduction the tailor position requires.",
+        "B": "Incorrect. Adductor longus flexes and adducts the hip but has no knee action and, like the other adductors, adducts rather than abducts.",
+        "C": "Correct. Sartorius, the longest muscle in the body, crosses both the hip (flexion, abduction, lateral rotation) and the knee (flexion, weak medial rotation). It is the one muscle among these options whose combined actions reproduce the tailor's cross-legged sitting position — hip flexed, abducted and laterally rotated, knee flexed — the pattern that gives the muscle its name.",
+        "D": "Incorrect. Adductor brevis flexes and adducts the hip, with no knee action, and adducts rather than abducts."
+      },
+      "main_concept": "CON-MSK-6BC15702C41224",
+      "concept_ids": [
+        "CON-MSK-6BC15702C41224"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Lower limb anatomy",
+      "subtopic": "Thigh",
+      "difficulty": "Moderate",
+      "learning_objective": "Name sartorius as the muscle whose combined hip-and-knee actions produce the tailor (cross-legged) sitting position.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Thigh",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-LOWER-LIMB-ANATOMY"
+      ]
+    },
+    {
+      "key": "msk-final24-q14",
+      "page": 3,
+      "title": "Hip action lost with nerve injury above piriformis",
+      "question": "A patient sustains a stab wound in the gluteal region affecting the nerve that passes above piriformis muscle. Which of the following actions on the hip joint is affected?",
+      "options": {
+        "A": "Abduction",
+        "B": "Extension",
+        "C": "Adduction",
+        "D": "Flexion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The nerve leaving the pelvis above piriformis, through the greater sciatic foramen, is the superior gluteal nerve, which supplies gluteus medius, gluteus minimus and tensor fasciae latae — the hip abductors, and the muscles that stabilise the pelvis in single-leg stance. Its injury weakens abduction and produces a Trendelenburg gait.",
+        "B": "Incorrect. Hip extension is produced by gluteus maximus, supplied by the inferior gluteal nerve, which leaves the pelvis below piriformis, not above it.",
+        "C": "Incorrect. Hip adduction is produced by the adductor group, supplied by the obturator nerve, unrelated to the nerve passing above piriformis.",
+        "D": "Incorrect. Hip flexion is produced chiefly by iliopsoas (femoral/lumbar plexus branches) and sartorius/rectus femoris, none of which are the nerve passing above piriformis."
+      },
+      "main_concept": "CON-MSK-8D5275EEE05F98",
+      "concept_ids": [
+        "CON-MSK-8D5275EEE05F98"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Lower limb anatomy",
+      "subtopic": "Gluteal region",
+      "difficulty": "Moderate",
+      "learning_objective": "State that the superior gluteal nerve, leaving the pelvis above piriformis, supplies the hip abductors, so its injury impairs abduction.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Gluteal region",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option a), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-AU105-GLUTEAL-HIP-JOINT"
+      ]
+    },
+    {
+      "key": "msk-final24-q15",
+      "page": 3,
+      "title": "Muscle functioning normally after a fibula fracture",
+      "question": "A 17-year-old boy is involved in a car accident. X-ray examination shows severe damage to the fibula with the muscles attached to it. Which of the following muscles is normally functioning?",
+      "options": {
+        "A": "Extensor hallucis longus",
+        "B": "Extensor digitorum longus",
+        "C": "Peroneus tertius",
+        "D": "Tibialis anterior"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Extensor hallucis longus arises mainly from the fibula and interosseous membrane, so it is damaged along with the fracture.",
+        "B": "Incorrect. Extensor digitorum longus arises mainly from the fibula and interosseous membrane, so it is damaged along with the fracture.",
+        "C": "Incorrect. Peroneus (fibularis) tertius, part of the same anterior-compartment group, arises from the fibula, so it is damaged along with the fracture.",
+        "D": "Correct. Unlike its three anterior-compartment neighbours, tibialis anterior arises mainly from the lateral surface of the tibia and the interosseous membrane, not the fibula. A fibula fracture that damages the fibula-attached muscles directly leaves tibialis anterior's bony origin intact, so it keeps functioning — even though all four muscles share the same deep peroneal nerve supply, which is why the deciding factor here is bony attachment, not nerve supply."
+      },
+      "main_concept": "CON-MSK-03F3DA894D0C4D",
+      "concept_ids": [
+        "CON-MSK-03F3DA894D0C4D"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Lower limb anatomy",
+      "subtopic": "Leg",
+      "difficulty": "Hard",
+      "learning_objective": "State that tibialis anterior's tibial (not fibular) origin lets it survive a fibula fracture that disables the other anterior-compartment dorsiflexors.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Leg",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option d), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-LOWER-LIMB-ANATOMY"
+      ]
+    },
+    {
+      "key": "msk-final24-q16",
+      "page": 3,
+      "title": "Artery palpable in lower-limb vaso-occlusive disease",
+      "question": "An elderly man is suffering from vaso-occlusive disease in the lower limb. Which of the following arteries is most probably palpable in this patient?",
+      "options": {
+        "A": "Anterior tibial",
+        "B": "Posterior tibial",
+        "C": "Dorsalis pedis",
+        "D": "Lateral plantar"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The anterior tibial artery lies deep between the leg muscles and is not the classic site palpated for a peripheral pulse in this setting.",
+        "B": "Incorrect. The posterior tibial pulse, felt behind the medial malleolus, is a standard peripheral-vascular-exam site, but the anterior-tibial-territory pulse most classically checked and referenced in vaso-occlusive disease of the lower limb is dorsalis pedis.",
+        "C": "Correct. Anterior to the ankle, midway between the malleoli, the anterior tibial artery becomes the dorsalis pedis artery, where it is superficial and readily palpable. It is the classic peripheral pulse checked in suspected lower-limb vaso-occlusive (peripheral arterial) disease, since its presence or absence signals the patency of the anterior tibial/dorsalis pedis line.",
+        "D": "Incorrect. The lateral plantar artery lies deep in the sole and is not a routinely palpable peripheral pulse site."
+      },
+      "main_concept": "CON-MSK-F656F96F575FFB",
+      "concept_ids": [
+        "CON-MSK-F656F96F575FFB"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Lower limb anatomy",
+      "subtopic": "Leg and foot vasculature",
+      "difficulty": "Easy",
+      "learning_objective": "Name dorsalis pedis as the palpable continuation of the anterior tibial artery anterior to the ankle.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Lower limb vascular anatomy",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-TOP-BD3D529647"
+      ]
+    },
+    {
+      "key": "msk-final24-q17",
+      "page": 3,
+      "title": "Deficit secondary to tibial nerve injury",
+      "question": "A 16-year-old boy comes to the local hospital after a motorcycle accident. Examination reveals severe injury to the tibial nerve. Which of the following conditions occurs secondary to this injury?",
+      "options": {
+        "A": "Loss of dorsiflexion of the ankle",
+        "B": "Weakness of inversion",
+        "C": "Weakness of dorsiflexion",
+        "D": "Loss of inversion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Dorsiflexion is a deep-peroneal-nerve, anterior-compartment function, entirely unrelated to the posterior-compartment tibial nerve.",
+        "B": "Correct. The tibial nerve supplies the entire posterior compartment of the leg, including tibialis posterior, the strongest invertor of the foot. Because tibialis anterior (deep peroneal nerve) also contributes a smaller share of inversion, an isolated tibial nerve injury denervates the chief invertor but does not remove the whole inversion function, so the deficit is weakness rather than complete loss.",
+        "C": "Incorrect. Dorsiflexion, an anterior-compartment (deep peroneal nerve) function, is unaffected by a tibial nerve injury.",
+        "D": "Incorrect. Inversion is not completely lost, because tibialis anterior's deep-peroneal-nerve-supplied contribution to inversion persists even when tibialis posterior is denervated."
+      },
+      "main_concept": "CON-MSK-56D528233B4749",
+      "concept_ids": [
+        "CON-MSK-56D528233B4749"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Lower limb anatomy",
+      "subtopic": "Leg",
+      "difficulty": "Hard",
+      "learning_objective": "State that tibial nerve injury weakens, rather than abolishes, inversion, because tibialis anterior's contribution is spared.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Leg",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option b), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-LOWER-LIMB-ANATOMY"
+      ]
+    },
+    {
+      "key": "msk-final24-q18",
+      "page": 3,
+      "title": "Deficit secondary to upper lateral popliteal fossa injury",
+      "question": "On examination, the doctor reveals injury to the upper lateral angle of the popliteal fossa. Which of the following conditions may occur secondary to this injury?",
+      "options": {
+        "A": "Loss of plantar flexion at the ankle joint",
+        "B": "Loss of sensation on the lateral aspect of the little toe",
+        "C": "Talipes calcaneo-valgus",
+        "D": "Loss of sensation on the first web space between the big and second toe"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Plantar flexion is a tibial-nerve, posterior-compartment function; the common peroneal nerve at the upper lateral popliteal fossa does not supply it.",
+        "B": "Incorrect. Sensation on the lateral little toe is sural nerve territory, not the common peroneal nerve's own cutaneous distribution.",
+        "C": "Incorrect. Talipes calcaneo-valgus is associated with tibial nerve palsy (unopposed dorsiflexion/eversion), not a common peroneal nerve injury, which instead produces foot drop with an equinovarus pattern.",
+        "D": "Correct. The common peroneal nerve crosses the upper lateral angle of the popliteal fossa before winding around the fibular neck. Its deep peroneal branch, despite driving the whole anterior-compartment motor function, is reduced on the sensory side to just the first (great-toe/second-toe) web space — so an injury here characteristically causes loss of sensation confined to that small area."
+      },
+      "main_concept": "CON-MSK-583524B3AE47F7",
+      "concept_ids": [
+        "CON-MSK-583524B3AE47F7"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Lower limb anatomy",
+      "subtopic": "Leg and foot cutaneous nerves",
+      "difficulty": "Hard",
+      "learning_objective": "State that a common peroneal nerve injury at the popliteal fossa causes sensory loss confined to the first web space, via its deep peroneal branch.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Leg and foot cutaneous nerves",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option d), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-AU105-LEG-NERVES-CUTANEOUS"
+      ]
+    },
+    {
+      "key": "msk-final24-q19",
+      "page": 3,
+      "title": "Collagen type forming a network in hyaline cartilage",
+      "question": "Which of the following types of collagen fiber form a network found in hyaline cartilage?",
+      "options": {
+        "A": "Type I",
+        "B": "Type II",
+        "C": "Type III",
+        "D": "Type IV"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Type I collagen is the principal collagen of bone, tendon, and dermis, not hyaline cartilage.",
+        "B": "Correct. Hyaline cartilage's extracellular matrix is built around a fine network of type II collagen fibrils, which are too thin to be seen with routine light microscopy. This is why hyaline cartilage looks glassy and homogeneous under light microscopy despite genuinely containing a collagen framework, and it is what gives the matrix its resistance to tensile stress.",
+        "C": "Incorrect. Type III collagen forms reticular fibres, found in organs such as lymphoid tissue, liver and blood vessel walls, not the network of hyaline cartilage.",
+        "D": "Incorrect. Type IV collagen forms the meshwork of basement membranes, not the fibrillar network of hyaline cartilage matrix."
+      },
+      "main_concept": "CON-FND-E6C216AED80ED8",
+      "concept_ids": [
+        "CON-FND-E6C216AED80ED8"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "fnd",
+      "topic": "Cartilage biochemistry",
+      "subtopic": "Extracellular matrix collagens",
+      "difficulty": "Easy",
+      "learning_objective": "Identify type II collagen as the fibril type forming the network of hyaline cartilage.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Cartilage biochemistry",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option b), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX"
+      ]
+    },
+    {
+      "key": "msk-final24-q20",
+      "page": 4,
+      "title": "Cells initiating bone matrix mineralization",
+      "question": "Which of the following cells initiate the mineralization of the bone matrix during growth and bone remodeling?",
+      "options": {
+        "A": "Osteoprogenitor cells",
+        "B": "Osteoclasts",
+        "C": "Osteocytes",
+        "D": "Osteoblasts"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Osteoprogenitor cells are the undifferentiated precursors that give rise to osteoblasts; they do not themselves secrete or mineralize matrix.",
+        "B": "Incorrect. Osteoclasts resorb (break down) bone matrix, the opposite process to mineralization.",
+        "C": "Incorrect. Osteocytes are mature, matrix-embedded osteoblasts that maintain bone matrix and sense mechanical strain; they do not initiate new matrix mineralization.",
+        "D": "Correct. Osteoblasts are the bone-forming cells that secrete osteoid, the unmineralized organic matrix. They then initiate its mineralization by depositing calcium hydroxyapatite crystals within it, a process that drives both skeletal growth and the formative phase of ongoing bone remodeling."
+      },
+      "main_concept": "CON-MSK-967E873EEEACE0",
+      "concept_ids": [
+        "CON-MSK-967E873EEEACE0"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Bone histology",
+      "subtopic": "Bone cells",
+      "difficulty": "Easy",
+      "learning_objective": "Identify osteoblasts as the bone cells that initiate matrix mineralization.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Bone histology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option d), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-TOP-3E60C20647"
+      ]
+    },
+    {
+      "key": "msk-final24-q21",
+      "page": 4,
+      "title": "Boundaries of the sarcomere",
+      "question": "Sarcomere is the basic contractile unit of skeletal muscle. It lies between which of the following successive structures in myofibrils?",
+      "options": {
+        "A": "A bands",
+        "B": "I bands",
+        "C": "M lines",
+        "D": "Z lines"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A bands are internal features spanning part of each sarcomere, not the repeating boundary that defines where one sarcomere ends and the next begins.",
+        "B": "Incorrect. I bands are internal features that straddle successive Z lines, not the boundary structures themselves.",
+        "C": "Incorrect. The M line marks the centre of a single sarcomere's A band, not its boundary with the next sarcomere.",
+        "D": "Correct. The sarcomere is by definition the segment of a myofibril between two successive Z lines. The Z lines are the dense transverse structures that anchor the thin (actin) filaments, and they repeat regularly along the myofibril's length. This repeating pattern of sarcomeres end to end is what gives skeletal and cardiac muscle their striated appearance."
+      },
+      "main_concept": "CON-MSK-0824FE988ADA00",
+      "concept_ids": [
+        "CON-MSK-0824FE988ADA00"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Muscle histology",
+      "subtopic": "Sarcomere",
+      "difficulty": "Easy",
+      "learning_objective": "State that the sarcomere is the segment of myofibril between two successive Z lines.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Skeletal muscle histology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option d), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE"
+      ]
+    },
+    {
+      "key": "msk-final24-q22",
+      "page": 4,
+      "title": "Hair follicle stem cell region",
+      "question": "Cells in which of the following regions of the hair follicle are considered as stem cells?",
+      "options": {
+        "A": "Dermal papilla",
+        "B": "External root sheath",
+        "C": "Hair matrix",
+        "D": "Internal root sheath"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The dermal papilla is a connective-tissue, non-epithelial inductive structure that signals to the matrix; it is not itself the proliferative stem-cell source.",
+        "B": "Incorrect. The external root sheath is a differentiated epithelial layer continuous with the epidermis, not the follicle's proliferative stem-cell compartment.",
+        "C": "Correct. The hair matrix, a cap-shaped layer of cells at the base of the hair bulb surrounding the dermal papilla, divides continually to produce the hair shaft and internal root sheath. Its cells, along with a separate bulge-region population higher in the follicle, are the ones regarded as stem/progenitor cells for hair growth.",
+        "D": "Incorrect. The internal root sheath is a differentiated epithelial product of the matrix's own division, not the proliferative source itself."
+      },
+      "main_concept": "CON-DER-B4778F5BB4C3FF",
+      "concept_ids": [
+        "CON-DER-B4778F5BB4C3FF"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "derm",
+      "topic": "Integumentary histology",
+      "subtopic": "Hair follicle",
+      "difficulty": "Moderate",
+      "learning_objective": "Identify the hair matrix as the hair follicle region whose cells are considered stem cells.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Integumentary histology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-HISTOLOGY"
+      ]
+    },
+    {
+      "key": "msk-final24-q23",
+      "page": 4,
+      "title": "What Sharpey's fibers represent",
+      "question": "What do Sharpey's fibers represent in bone structure?",
+      "options": {
+        "A": "Collagen fibers present in interstitial lamellae",
+        "B": "Periosteal fibers in the outer fibrous layer of periosteum",
+        "C": "Collagen fibers attaching tendons and ligaments to bone",
+        "D": "Collagen fibers binding lamellae together"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Interstitial lamellae are remnants of remodeled osteons lying between intact osteons; Sharpey's fibres are a periosteal-attachment structure, not an interstitial-lamella feature.",
+        "B": "Correct. Sharpey's (perforating) fibres are coarse bundles of collagen continuous with the outer fibrous layer of the periosteum. They penetrate into the outer circumferential lamellae of the underlying bone, physically anchoring the periosteum to the bone surface. This anchorage is what prevents the periosteum from lifting off the bone, and it is especially dense wherever a tendon or ligament attaches.",
+        "C": "Incorrect. This describes the general mechanism of tendon/ligament-to-bone attachment, a related but distinct concept from Sharpey's fibres' specific role anchoring the periosteum itself.",
+        "D": "Incorrect. The collagen fibres binding adjacent lamellae together within bone tissue are a separate structural feature from Sharpey's fibres, which specifically anchor the periosteum to the bone surface."
+      },
+      "main_concept": "CON-MSK-813357B2DDE44E",
+      "concept_ids": [
+        "CON-MSK-813357B2DDE44E"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Bone histology",
+      "subtopic": "Periosteum",
+      "difficulty": "Moderate",
+      "learning_objective": "State that Sharpey's fibres are periosteal collagen bundles that anchor the periosteum's outer fibrous layer to the underlying bone.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Bone histology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option b), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-AU105-BONE-HISTOGENESIS-HEALING"
+      ]
+    },
+    {
+      "key": "msk-final24-q24",
+      "page": 4,
+      "title": "Location of thick filaments in skeletal muscle",
+      "question": "What is correct about the thick filaments of skeletal muscle fibers?",
+      "options": {
+        "A": "Are present in the A bands",
+        "B": "Consist of actin and myosin",
+        "C": "Are crossed by the Z line",
+        "D": "Are present in the I bands"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The A band of the sarcomere is defined by, and contains, the thick (myosin) filaments. It is the only sarcomere zone that has them at all, whether alone (in the central H zone at rest, before any overlap) or overlapping thin filaments (toward the outer edges of the A band). Neither the I band nor the Z line itself contains thick filaments.",
+        "B": "Incorrect. Thick filaments are composed of myosin alone; actin forms the thin filaments, a separate structure.",
+        "C": "Incorrect. The Z line is crossed by, and anchors, the thin (actin) filaments, not the thick (myosin) filaments, which lie centrally within the A band away from the Z line.",
+        "D": "Incorrect. The I band contains thin (actin) filaments only; thick filaments do not extend into it."
+      },
+      "main_concept": "CON-MSK-770450C94FB6C2",
+      "concept_ids": [
+        "CON-MSK-770450C94FB6C2"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-0824FE988ADA00"
+      ],
+      "subject": "msk",
+      "topic": "Muscle histology",
+      "subtopic": "Sarcomere",
+      "difficulty": "Moderate",
+      "learning_objective": "State that thick (myosin) filaments are confined to the A band of the sarcomere.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Skeletal muscle histology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option a), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-HISTOLOGY"
+      ]
+    },
+    {
+      "key": "msk-final24-q25",
+      "page": 4,
+      "title": "Feature not characteristic of thin skin's dermis",
+      "question": "Which one of the following is not a character of the dermis of thin skin?",
+      "options": {
+        "A": "Numerous dermal papillae",
+        "B": "Melanophores",
+        "C": "Hair follicles",
+        "D": "Sensory corpuscles"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Numerous, tall dermal papillae are a feature of thick skin (palms and soles), where they interdigitate with a thick, ridged epidermis and produce fingerprints. Thin skin, covering most of the body, has a flatter dermo-epidermal junction with comparatively few and shallow papillae, making this the one listed feature that is not characteristic of thin skin's dermis.",
+        "B": "Incorrect. Melanophores (pigment-containing dermal cells) are present in thin skin's dermis, so this is a genuine character of it.",
+        "C": "Incorrect. Hair follicles are present in thin (hairy) skin's dermis — indeed thin skin is defined partly by having hair, unlike hairless thick skin — so this is a genuine character of it.",
+        "D": "Incorrect. Sensory corpuscles are present within thin skin's dermis, so this is a genuine character of it."
+      },
+      "main_concept": "CON-DER-F007227C0C1633",
+      "concept_ids": [
+        "CON-DER-F007227C0C1633"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "derm",
+      "topic": "Integumentary histology",
+      "subtopic": "Skin",
+      "difficulty": "Moderate",
+      "learning_objective": "State that numerous dermal papillae is a thick-skin, not thin-skin, dermal feature.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Integumentary histology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option a), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-HISTOLOGY"
+      ]
+    },
+    {
+      "key": "msk-final24-q26",
+      "page": 4,
+      "title": "Connective tissue investment around an individual muscle fiber",
+      "question": "The connective tissue investment seen with the light microscope around an individual muscle fiber of skeletal muscle is called which one of the following?",
+      "options": {
+        "A": "Endomysium",
+        "B": "Epimysium",
+        "C": "Sarcolemma",
+        "D": "Perimysium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Endomysium is the fine connective-tissue layer of reticular fibres that surrounds each individual skeletal muscle fiber. It carries the small vessels and fine nerve twigs that supply that fiber. It is the innermost of the three nested connective-tissue coats, inside perimysium (which wraps a fascicle) and epimysium (which wraps the whole muscle).",
+        "B": "Incorrect. Epimysium is the dense connective-tissue sheath surrounding the whole muscle, not an individual fiber.",
+        "C": "Incorrect. Sarcolemma is the muscle fiber's own cell membrane, not a connective-tissue layer around it.",
+        "D": "Incorrect. Perimysium surrounds a fascicle (bundle of fibers), the middle of the three nested coats, not an individual fiber."
+      },
+      "main_concept": "CON-MSK-0E3AE8E79060E1",
+      "concept_ids": [
+        "CON-MSK-0E3AE8E79060E1"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Muscle histology",
+      "subtopic": "Connective tissue investments",
+      "difficulty": "Easy",
+      "learning_objective": "Identify endomysium as the connective-tissue layer surrounding an individual skeletal muscle fiber.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Skeletal muscle histology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option a), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-TOP-B54C248DF1"
+      ]
+    },
+    {
+      "key": "msk-final24-q27",
+      "page": 4,
+      "title": "Best description of the efferent neuron",
+      "question": "Regarding the efferent neuron, which of the following best describes it?",
+      "options": {
+        "A": "Is a sensory impulse from the skin",
+        "B": "Is usually a type C nerve fiber",
+        "C": "Is motor autonomic to the skeletal muscle",
+        "D": "Carries nerve orders from the CNS to the tissue"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Carrying sensory impulses from the skin to the CNS describes an afferent, not an efferent, neuron — the opposite direction of conduction.",
+        "B": "Incorrect. Type C fibers are small, unmyelinated (often autonomic or pain) fibers; being an efferent neuron does not by itself specify a particular fiber type, most somatic efferents being fast, myelinated A-alpha fibers.",
+        "C": "Incorrect. Skeletal muscle is supplied by somatic (not autonomic) motor efferents; describing efferent supply to skeletal muscle as autonomic is incorrect.",
+        "D": "Correct. Peripheral nerve fibres are functionally classed as afferent (sensory, carrying impulses from receptors to the CNS) or efferent (motor, carrying impulses from the CNS out to effector organs). The efferent neuron is, by this classification, the one carrying nerve orders from the CNS to the tissue, whether the effector is skeletal muscle (somatic efferent) or glands/smooth muscle/cardiac muscle (autonomic efferent)."
+      },
+      "main_concept": "CON-NEU-449C26E1F64F74",
+      "concept_ids": [
+        "CON-NEU-449C26E1F64F74"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "neuro",
+      "topic": "Nerve physiology",
+      "subtopic": "Neuron classification",
+      "difficulty": "Easy",
+      "learning_objective": "State that the efferent neuron carries nerve impulses from the CNS to the tissue, the functional opposite of the afferent neuron.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Nerve fibre classification",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option d), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-102-PHY-THE-NERVOUS-SYSTEM"
+      ]
+    },
+    {
+      "key": "msk-final24-q28",
+      "page": 4,
+      "title": "Best description of nerve conduction",
+      "question": "Which of the following best describes nerve conduction?",
+      "options": {
+        "A": "In myelinated nerve the impulses jump through the nodes of Ranvier",
+        "B": "Rate of saltatory conduction in myelinated nerve is about 5-10 m/s",
+        "C": "Saltatory conduction in unmyelinated nerve is less energy consuming",
+        "D": "In unmyelinated nerve fiber, the whole membrane is depolarized at the same time"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In myelinated fibres, the insulating myelin sheath forces the action potential to regenerate only at the exposed nodes of Ranvier. The impulse therefore appears to jump from node to node, a pattern called saltatory conduction. This is both considerably faster and more energy-efficient than the continuous, point-by-point depolarization seen in unmyelinated fibres.",
+        "B": "Incorrect. Saltatory conduction in myelinated fibres is much faster than 5-10 m/s (large myelinated fibres conduct at speeds up to roughly 120 m/s); that slower range is closer to some unmyelinated or smaller fibre conduction speeds.",
+        "C": "Incorrect. Saltatory conduction is a property of myelinated, not unmyelinated, nerve fibres — unmyelinated fibres conduct continuously along the whole membrane and lack nodes of Ranvier to saltate between.",
+        "D": "Incorrect. Sequential (continuous), not simultaneous, depolarization of the membrane point-by-point is what propagates an impulse along an unmyelinated fibre; the whole membrane does not depolarize at once."
+      },
+      "main_concept": "CON-NEU-5664D7AB68AD8D",
+      "concept_ids": [
+        "CON-NEU-5664D7AB68AD8D"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "neuro",
+      "topic": "Nerve physiology",
+      "subtopic": "Nerve conduction",
+      "difficulty": "Moderate",
+      "learning_objective": "State that saltatory conduction in myelinated nerve fibres regenerates the impulse only at the nodes of Ranvier.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Nerve conduction",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option a), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-103-PHY-NERVE-FIBRE-AND-CONDUCTION"
+      ]
+    },
+    {
+      "key": "msk-final24-q29",
+      "page": 4,
+      "title": "Distinguishing characteristic of smooth muscle contractility",
+      "question": "Which of these characteristics distinguishes smooth muscle contractility?",
+      "options": {
+        "A": "It is easily fatigued",
+        "B": "Has rapid onset of contraction and relaxation",
+        "C": "Its contraction is maintained longer than skeletal muscle",
+        "D": "Its tension is maintained and continuously increases during stretching"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Smooth muscle is comparatively resistant to fatigue, able to sustain tension for prolonged periods at low energy cost, the opposite of being easily fatigued.",
+        "B": "Incorrect. Smooth muscle has a slow, not rapid, onset of contraction and relaxation compared with skeletal muscle.",
+        "C": "Correct. Smooth muscle's defining contractile advantage is the ability to sustain tension for far longer than skeletal muscle can — the so-called latch state. This sustained contraction is achieved at low energy cost. It does not show the rapid fatigue that skeletal muscle shows under sustained tetanic contraction.",
+        "D": "Incorrect. Smooth muscle actually shows stress relaxation on sustained stretch — its tension falls back toward baseline over time rather than continuously increasing."
+      },
+      "main_concept": "CON-MSK-F9DD4BBAC7D900",
+      "concept_ids": [
+        "CON-MSK-F9DD4BBAC7D900"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Muscle physiology",
+      "subtopic": "Smooth muscle",
+      "difficulty": "Moderate",
+      "learning_objective": "State that smooth muscle's distinguishing contractile property is a maintained (latch) contraction longer than skeletal muscle can sustain.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Muscle physiology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-MUSCLE-NERVE-PHYSIOLOGY"
+      ]
+    },
+    {
+      "key": "msk-final24-q30",
+      "page": 4,
+      "title": "Skeletal muscle changes with nerve denervation",
+      "question": "During nerve denervation, which of the following happens in the skeletal muscle?",
+      "options": {
+        "A": "Atrophy of muscle within 2-4 months",
+        "B": "Loss of movement and increase in muscle tone",
+        "C": "Appearance of muscle fibrillations visible to the naked eye",
+        "D": "Compensatory increase in blood supply to the muscle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Denervated skeletal muscle progressively wastes, passing through atrophy over the following weeks to months, in the range of about 2-4 months for substantial loss. This is followed by visible fasciculations from the dying nerve fibres. Later still, fine fibrillations appear, from the muscle's own denervation hypersensitivity to acetylcholine.",
+        "B": "Incorrect. Denervation causes loss of movement together with decreased, not increased, muscle tone (flaccidity), since the muscle no longer receives its normal nervous drive.",
+        "C": "Incorrect. Fibrillations following denervation are fine, individual muscle-fiber contractions detectable electromyographically, not visible to the naked eye — visible naked-eye twitching corresponds to fasciculations of remaining motor units, a distinct phenomenon.",
+        "D": "Incorrect. Denervated muscle shows reduced, not increased, blood supply and metabolic activity as it atrophies."
+      },
+      "main_concept": "CON-MSK-7253D390093A21",
+      "concept_ids": [
+        "CON-MSK-7253D390093A21"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Muscle physiology",
+      "subtopic": "Denervation",
+      "difficulty": "Moderate",
+      "learning_objective": "State that denervated skeletal muscle undergoes progressive atrophy over roughly 2-4 months.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Muscle physiology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option a), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-103-PHY-INJURY-DEATH"
+      ]
+    },
+    {
+      "key": "msk-final24-q31",
+      "page": 4,
+      "title": "Cause of the staircase (treppe) phenomenon",
+      "question": "What is the cause of the stair-case (treppe) phenomenon?",
+      "options": {
+        "A": "Increasing intracellular K+",
+        "B": "Decreasing intracellular Na+",
+        "C": "Decreased temperature of the muscle",
+        "D": "Increased Ca2+ release from the sarcoplasmic reticulum"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Rising intracellular potassium is not the mechanism of treppe; it is more associated with fatigue and altered membrane excitability than with progressively increasing twitch tension.",
+        "B": "Incorrect. Falling intracellular sodium is not the mechanism responsible for the progressive rise in twitch tension seen in treppe.",
+        "C": "Incorrect. Warming, not cooling, a muscle favours the staircase phenomenon; decreased temperature slows the contractile and calcium-handling machinery rather than enhancing it.",
+        "D": "Correct. With repeated identical low-frequency twitches, each stimulus releases calcium from the sarcoplasmic reticulum faster than the muscle's calcium pumps can fully re-sequester it. Residual cytosolic calcium therefore accumulates over the first several twitches. This progressively increases cross-bridge activation and tension until a new steady state is reached, producing the treppe (staircase) phenomenon."
+      },
+      "main_concept": "CON-MSK-C901502C99C892",
+      "concept_ids": [
+        "CON-MSK-C901502C99C892"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Muscle physiology",
+      "subtopic": "Twitch properties",
+      "difficulty": "Moderate",
+      "learning_objective": "State that the treppe (staircase) phenomenon is caused by progressively increased calcium release from the sarcoplasmic reticulum across successive twitches.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Muscle physiology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option d), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-MUSCLE-NERVE-PHYSIOLOGY"
+      ]
+    },
+    {
+      "key": "msk-final24-q32",
+      "page": 5,
+      "title": "Characteristic of muscle rigors",
+      "question": "Which of the following is a characteristic of muscle rigors?",
+      "options": {
+        "A": "Ca2+ rigors may stop the heart in diastole",
+        "B": "Physiological rigor commonly occurs in trained muscles",
+        "C": "Rigor mortis starts 5 hours after death due to depletion of ATP",
+        "D": "Heat rigor occurs due to destruction of enzymes needed for muscle contraction"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Calcium rigor, an excess-calcium contracture, characteristically stops the heart in systole (sustained contraction), not diastole.",
+        "B": "Incorrect. Physiological rigor (rigor mortis) is a post-mortem phenomenon affecting all muscle after death, not a phenomenon specific to trained muscles during life.",
+        "C": "Correct. Rigor mortis, the total, permanent contracture of every muscle after death, results from loss of the ATP needed to separate actin and myosin cross-bridges once metabolism stops. It characteristically begins around 5 hours after death (variable with ambient conditions), making its timing a useful medico-legal indicator for estimating time of death.",
+        "D": "Incorrect. Heat rigor results from heat-induced protein (enzyme and contractile-protein) denaturation at high temperature, but the option as stated attributes it broadly to \"enzymes needed for contraction\" without the defining heat-denaturation mechanism the printed key credits to option C's ATP-depletion explanation instead."
+      },
+      "main_concept": "CON-MSK-1030B9F3A5996A",
+      "concept_ids": [
+        "CON-MSK-1030B9F3A5996A"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Muscle physiology",
+      "subtopic": "Rigor mortis",
+      "difficulty": "Moderate",
+      "learning_objective": "State that rigor mortis begins around 5 hours after death due to ATP depletion preventing actin-myosin separation.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Muscle physiology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-103-PHY-INJURY-DEATH"
+      ]
+    },
+    {
+      "key": "msk-final24-q33",
+      "page": 5,
+      "title": "Appropriate statement about myasthenia gravis",
+      "question": "Regarding myasthenia gravis, which of the following is appropriate?",
+      "options": {
+        "A": "Improves with muscular exercise",
+        "B": "Is more frequent in males than females",
+        "C": "If it affects the respiratory muscles it leads to death",
+        "D": "Occurs as a result of decreased cholinesterase activity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Myasthenia gravis characteristically worsens, not improves, with sustained or repeated muscular exercise, as fewer functional acetylcholine receptors remain available with each successive contraction.",
+        "B": "Incorrect. Myasthenia gravis is more frequent in females than males (particularly in younger adults), the opposite of what this option states.",
+        "C": "Correct. Myasthenia gravis is autoimmune neuromuscular junction disease caused by antibodies against the postsynaptic acetylcholine receptor, producing fatigable skeletal muscle weakness. When the weakness involves the respiratory muscles (diaphragm and intercostals), it can progress to a myasthenic crisis — respiratory failure severe enough to be fatal without ventilatory support — making respiratory muscle involvement the mechanism by which the disease can cause death.",
+        "D": "Incorrect. Myasthenia gravis results from autoantibodies against the acetylcholine receptor, not from decreased cholinesterase activity — decreased cholinesterase activity would, if anything, prolong acetylcholine's action rather than cause the receptor-loss pathology of myasthenia."
+      },
+      "main_concept": "CON-NEU-1A249087FE95F2",
+      "concept_ids": [
+        "CON-NEU-1A249087FE95F2"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "neuro",
+      "topic": "Neuromuscular junction physiology",
+      "subtopic": "Myasthenia gravis",
+      "difficulty": "Moderate",
+      "learning_objective": "State that myasthenia gravis can be fatal specifically when it involves the respiratory muscles.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Muscle physiology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-MUSCLE-NERVE-PHYSIOLOGY"
+      ]
+    },
+    {
+      "key": "msk-final24-q34",
+      "page": 5,
+      "title": "Factor that decreases nerve excitability",
+      "question": "Which of the following factors decreases nerve excitability?",
+      "options": {
+        "A": "Warming",
+        "B": "Alkalosis",
+        "C": "Mechanical pressure",
+        "D": "Decreased extracellular Ca2+"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Warming raises, rather than lowers, nerve excitability.",
+        "B": "Incorrect. Alkalosis raises nerve excitability (by lowering the threshold), the opposite of a decreasing factor.",
+        "C": "Correct. Mechanical pressure applied to a nerve trunk distorts the axon and impairs local ion channel function. This raises the threshold for excitation, decreasing excitability. Sustained pressure can progress to a full conduction block, the physiological basis of a pressure-induced nerve palsy.",
+        "D": "Incorrect. Decreased extracellular calcium raises, rather than lowers, nerve excitability by lowering the threshold for depolarization (the mechanism behind hypocalcaemic tetany)."
+      },
+      "main_concept": "CON-NEU-53A1528D25C66A",
+      "concept_ids": [
+        "CON-NEU-53A1528D25C66A"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "neuro",
+      "topic": "Nerve physiology",
+      "subtopic": "Nerve excitability",
+      "difficulty": "Moderate",
+      "learning_objective": "State that mechanical pressure on a nerve decreases its excitability, unlike warming, alkalosis, and decreased extracellular calcium, which increase it.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Nerve conduction",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option c), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-MUSCLE-NERVE-PHYSIOLOGY"
+      ]
+    },
+    {
+      "key": "msk-final24-q35",
+      "page": 5,
+      "title": "Differences between isotonic and isometric contraction",
+      "question": "Concerning the differences between isotonic and isometric contractions, which of the following best describes these differences?",
+      "options": {
+        "A": "Length of muscle is constant in isotonic contraction",
+        "B": "Muscle tension is increased in isometric contraction",
+        "C": "Duration of contraction is longer in isometric contraction",
+        "D": "Waste heat is greater in isotonic contraction"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Muscle length is held fixed in isometric, not isotonic, contraction — isotonic contraction is defined by the muscle shortening at constant tension once its load is overcome.",
+        "B": "Correct. In isometric contraction the muscle's length is held fixed while its tension rises, because the load is too great for the muscle to shorten. In isotonic contraction, by contrast, tension is held fixed (once developed tension exceeds the load) while the muscle shortens and length changes — the two contraction types are distinguished by which variable, length or tension, stays constant.",
+        "C": "Incorrect. The duration of contraction is not the defining difference between the two contraction types; both are defined by which mechanical variable (length or tension) is held constant.",
+        "D": "Incorrect. Waste heat production is not the property this comparison is built around; the defining distinction is the length-versus-tension relationship, not heat output."
+      },
+      "main_concept": "CON-MSK-242998842BE25C",
+      "concept_ids": [
+        "CON-MSK-242998842BE25C"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "msk",
+      "topic": "Muscle physiology",
+      "subtopic": "Contraction types",
+      "difficulty": "Moderate",
+      "learning_objective": "State that isometric contraction is defined by rising tension at constant length, while isotonic contraction is defined by constant tension with changing length.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Muscle physiology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option b), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-103-PHY-SKELETAL-STRUCTURE-RESPONSE"
+      ]
+    },
+    {
+      "key": "msk-final24-q36",
+      "page": 5,
+      "title": "Ion mainly involved in the cardiac plateau phase",
+      "question": "In the cardiac muscle action potential curve, label (2) represents the plateau phase. Which of the following ions is mainly involved in this phase?",
+      "options": {
+        "A": "Ca2+",
+        "B": "Na+",
+        "C": "K+",
+        "D": "Cl-"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The plateau (phase 2) of the cardiac ventricular action potential is sustained mainly by a slow inward calcium current through L-type calcium channels, balanced against a small outward potassium current. This calcium influx both prolongs the action potential — giving cardiac muscle its long refractory period and preventing tetanic contraction of the heart — and triggers calcium-induced calcium release from the sarcoplasmic reticulum, coupling excitation to contraction.",
+        "B": "Incorrect. Sodium influx dominates phase 0, the rapid upstroke of the action potential, not the plateau phase.",
+        "C": "Incorrect. Potassium efflux dominates phase 3, repolarization, not the plateau phase (though a small outward K+ current does help balance the plateau's calcium influx).",
+        "D": "Incorrect. Chloride current is not the principal current of the cardiac plateau phase."
+      },
+      "main_concept": "CON-CVS-C6E888D47E1254",
+      "concept_ids": [
+        "CON-CVS-C6E888D47E1254"
+      ],
+      "contextual_concept_ids": [],
+      "subject": "cvs",
+      "topic": "Cardiac muscle physiology",
+      "subtopic": "Cardiac action potential",
+      "difficulty": "Moderate",
+      "learning_objective": "State that calcium influx sustains the plateau phase of the cardiac ventricular action potential.",
+      "module_subject": "ZU-MED-104 > Musculoskeletal & Integumentary > Muscle physiology",
+      "field_notes": {
+        "keySource": "hand-drawn-ink key (corrupted glyph on option a), confirmed by render --force (coverage/ZU-MED-104-triage.md)",
+        "sourceProvenance": "Fakous campus"
+      },
+      "library_ids": [
+        "ART-MSK-ZU104-MUSCLE-NERVE-PHYSIOLOGY"
+      ]
+    }
+  ]
+}
