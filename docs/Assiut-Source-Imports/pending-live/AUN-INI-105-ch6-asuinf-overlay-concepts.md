@@ -21,6 +21,19 @@
   concepts.md batch (for the interferon row). Import: Admin > Concepts
   import. Then apply this file. Then apply
   AUN-INI-105-ch6-asuinf-questions.md.
+
+  Appended by lane 8 (chapter 6, Q59-102 window): three more rows, same
+  sparse-overlay treatment. Two reuse concepts already staged in
+  docs/import-ready/concept/ASU-INF-microbiology-concepts.md -- cell
+  tropism (CON-INF-CE64E7CD7B4393) and Negri bodies/rabies
+  (CON-INF-8989679385BD3C) -- so they apply after the same step 1) above,
+  no new source batch needed. The third, opportunistic pathogen definition
+  (CON-INF-17893AA3303251), is still only in
+  docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md
+  (not yet promoted to docs/import-ready) -- apply this row only after
+  MUST's own FHB-102-2 batch lands. These three rows feed
+  AUN-INI-105-ch6b-asuinf-questions.md (a separate pending-live question
+  file, not the ch6-asuinf-questions.md above).
 -->
 
 # Item
@@ -125,6 +138,63 @@ CON-IMM-E92EE28916590A
 
 ## canonical_key
 cytokine.typeI-ifn.source-antiviral-state-nk-activation
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-INI-105
+
+---
+
+# Item
+
+## id
+CON-INF-CE64E7CD7B4393
+
+## canonical_key
+virus.cell-tropism.determinants
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-INI-105
+
+---
+
+# Item
+
+## id
+CON-INF-8989679385BD3C
+
+## canonical_key
+rabies-virus.negri-bodies
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-INI-105
+
+---
+
+# Item
+
+## id
+CON-INF-17893AA3303251
+
+## canonical_key
+microbiology.opportunism.opportunistic-pathogen-definition
 
 ## universities
 +aun

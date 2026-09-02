@@ -3891,3 +3891,3231 @@ drafted_not_reviewed
 sourceCandidateIds: find-existing.mjs run for "capsid symmetry" -- 0 hits, safe to create.
 
 ---
+
+# Item
+
+## id
+CON-INF-1D064999E370F5
+
+## label
+Enveloped viruses penetrate the host cell by fusion of the viral envelope with the host membrane
+
+## canonical_key
+virus.entry.enveloped-penetration-by-fusion
+
+## aliases
+Viral penetration
+Enveloped virus entry
+Fusion vs viropexis
+
+## arabic_label
+دخول الفيروس المغلف بالغشاء
+
+## arabic_aliases
+اندماج الغلاف الفيروسي مع غشاء الخلية
+
+## definition
+Penetration -- the step immediately following adsorption in the viral replication cycle -- is the process by which the virus (or its genome) actually crosses into the host cell. For an enveloped virus, the standard route is fusion: the lipid envelope fuses directly with the host plasma membrane (or, after endocytic uptake, with the endosomal membrane), releasing the nucleocapsid into the cytoplasm. This differs from the uptake route available to naked (non-enveloped) viruses, which lack a fusable lipid layer and instead rely on receptor-mediated endocytosis (viropexis) alone, without a membrane-fusion step.
+
+## explicit_objective
+State that enveloped viruses penetrate the host cell principally by membrane fusion between the viral envelope and the host membrane.
+
+## pitfalls
+Confusing fusion (envelope-to-membrane fusion, needs an envelope) with viropexis/endocytosis (vesicle engulfment, the route naked viruses must use since they cannot fuse); assuming phagocytosis, a macrophage-specific bulk-uptake process, is the standard viral entry route for any virus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Viral entry and penetration
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"Penetration of enveloped viruses is through? ... C. Fusion" (Q60/Q65).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "penetration enveloped virus fusion" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-42C40FA223CBB7
+
+## label
+Retrovirus reverse transcription occurs in the cytoplasm; only the resulting proviral DNA enters the nucleus to integrate
+
+## canonical_key
+virus.retrovirus.reverse-transcription-site-and-genome-expression
+
+## aliases
+Retrovirus replication cycle
+Reverse transcription site
+Proviral DNA integration
+
+## arabic_label
+دورة تضاعف الفيروس القهقري
+
+## arabic_aliases
+النسخ العكسي يحدث في السيتوبلازم
+
+## definition
+A retrovirus carries a diploid, positive-sense single-stranded RNA genome, but it does not replicate that RNA directly the way most other positive-sense RNA viruses do. Instead, its virion-packaged reverse transcriptase converts the RNA genome into double-stranded DNA in the cytoplasm; only this DNA product (not the original RNA) is then transported into the nucleus, where it integrates into the host chromosome as a provirus. Describing the intact RNA genome itself as "replicating in the nucleus" therefore mischaracterizes the cycle -- the RNA-to-DNA conversion is a cytoplasmic event, and it is the DNA, not the RNA, that is nuclear; once integrated, the provirus is transcribed by host RNA polymerase II (not host DNA polymerase) to generate both progeny genomic RNA and viral mRNAs.
+
+## explicit_objective
+State that retroviral reverse transcription (RNA to DNA) occurs in the cytoplasm, and that only the resulting proviral DNA -- not the RNA genome itself -- undergoes nuclear integration and subsequent host-RNA-polymerase-driven expression.
+
+## pitfalls
+Assuming the retroviral RNA genome itself is replicated inside the nucleus; crediting host DNA polymerase (rather than the virus's own reverse transcriptase, and later host RNA polymerase for provirus transcription) with the retrovirus's genome-copying steps.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Retrovirus and HIV
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-6
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-95D8FD3C7D470C
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"Regarding the replication cycle of retrovirus, which sentence is wrong? ... C. Retrovirus is +ssRNA and replicates in the nucleus" (Q59).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "retrovirus reverse transcription cytoplasm nucleus" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-BBE9814E81F4D0
+
+## label
+A positive-sense RNA virus genome can be translated directly as mRNA
+
+## canonical_key
+virus.replication.positive-sense-rna-acts-as-mrna
+
+## aliases
+Positive-sense RNA virus
++ssRNA genome function
+
+## arabic_label
+الحمض النووي الريبي موجب القطبية
+
+## arabic_aliases
+يعمل مباشرة كرسول وراثي
+
+## definition
+A positive-sense (+) single-stranded RNA virus genome has the same base sequence and polarity as messenger RNA, so host ribosomes can translate it directly into viral protein immediately upon entering the cytoplasm, with no transcription step needed first. This is the defining functional property that distinguishes +ssRNA viruses (for example poliovirus) from negative-sense (-) ssRNA viruses, whose genome is the mirror-image complement of mRNA and must first be transcribed into a +sense copy by a virion-packaged RNA-dependent RNA polymerase before any viral protein can be made. A +ssRNA genome is also not segmented as a rule (segmentation is a separate structural feature seen in some negative-sense and double-stranded RNA virus families), and it is linear, not circular.
+
+## explicit_objective
+State that a positive-sense RNA virus genome can be translated directly as mRNA, without a prior transcription step.
+
+## pitfalls
+Assuming every RNA virus genome must first be transcribed into a separate mRNA copy -- true for negative-sense RNA viruses, but not for positive-sense ones, whose genome already reads as mRNA.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Viral replication cycle
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-79EA32FB3BCA62
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"Positive stranded RNA viruses have which of the following characteristics? ... A. Their genome RNA can be translated directly as mRNA" (Q62).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "positive sense RNA translated directly mRNA" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-F1A9D6BF211D76
+
+## label
+Antibodies limit virus infection by neutralization, opsonization and ADCC, not by upregulating MHC-I expression
+
+## canonical_key
+virus.antiviral-immunity.antibody-mechanisms
+
+## aliases
+Antibody antiviral mechanisms
+Neutralization opsonization ADCC
+
+## arabic_label
+آليات الأجسام المضادة المضادة للفيروسات
+
+## arabic_aliases
+التعادل والتذويب المناعي والسمية الخلوية المعتمدة على الأجسام المضادة
+
+## definition
+Antibodies contribute to antiviral defense through several distinct mechanisms: neutralization (binding free virions and blocking their attachment/entry), opsonization (coating virions to enhance phagocytic uptake), and antibody-dependent cell-mediated cytotoxicity (ADCC, in which antibody bound to an infected cell's surface antigens recruits an NK cell or other Fc-receptor-bearing effector cell to kill it). Increasing MHC class I expression on the surface of a virus-infected cell is not one of these antibody-mediated effects -- MHC-I upregulation is instead a response driven mainly by interferons (part of the innate/early antiviral response), which enhances recognition of infected cells by cytotoxic CD8+ T cells, a cell-mediated rather than antibody-mediated pathway. Distinguishing which arm of the immune response (humoral/antibody vs interferon/cell-mediated) is responsible for a given antiviral effect is a common source of confusion in this topic.
+
+## explicit_objective
+List neutralization, opsonization and ADCC as antibody-mediated antiviral mechanisms, and recognize that MHC-I upregulation on infected cells is not one of them (it is interferon-driven).
+
+## pitfalls
+Attributing MHC-I upregulation on infected cells to antibody action, when it is actually driven by interferons and feeds into the cell-mediated (cytotoxic T cell), not humoral, arm of antiviral defense.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Antiviral immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-6
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"Antibodies can prevent virus infection by all of the following EXCEPT? ... D. Increase expression of MHC-1 on surface of virus infected cells" (Q63).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "antibody neutralization opsonization ADCC MHC" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-74F9726F0F64A1
+
+## label
+A lytic (productive) viral infection ends in host cell death with release of progeny virions
+
+## canonical_key
+virus.infection-outcomes.lytic-infection
+
+## aliases
+Lytic infection
+Productive infection
+
+## arabic_label
+العدوى الفيروسية الحالة للخلية
+
+## arabic_aliases
+موت الخلية المضيفة وإطلاق الفيروسات الجديدة
+
+## definition
+A lytic (productive) infection is the outcome in which viral replication proceeds to completion, generating a full crop of progeny virions that are released as the host cell lyses (bursts) and dies. This is one of several possible outcomes of a virus-cell encounter, standing in contrast to an abortive infection (replication halts incompletely, no progeny released, cell may survive), a latent infection (viral genome persists in an occult, non-replicating form with periodic reactivation) and a chronic/persistent infection (low-level ongoing production without necessarily killing the cell outright). Whether an infection resolves lytically depends on both the virus (its replication strategy and cytopathic potential) and the host cell (permissiveness and immune status).
+
+## explicit_objective
+State that a lytic (productive) viral infection is characterized by host cell death with release of progeny virions, and distinguish it from abortive, latent and persistent outcomes.
+
+## pitfalls
+Confusing lytic (productive, cell-killing, virion-releasing) infection with a persistent or latent infection, in which the host cell characteristically survives.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Viral infection outcomes
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-6
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-287B280E76A56D
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"When the viral infection results in host cell death and release of progeny virions? ... B. Lytic infection" (Q69).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "lytic infection host cell death progeny virions" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-287B280E76A56D
+
+## label
+Persistent viral infection (chronic, latent or slow, but not acute) is maintained by genome integration, antigenic variation, cell-to-cell spread and immunosuppression
+
+## canonical_key
+virus.infection-outcomes.persistent-infection-classification-and-mechanisms
+
+## aliases
+Persistent infection
+Mechanisms of viral persistence
+
+## arabic_label
+العدوى الفيروسية المستمرة
+
+## arabic_aliases
+التكامل الجيني والتنوع المستضدي والانتشار بين الخلايا وكبت المناعة
+
+## definition
+A persistent viral infection is one in which the virus is not fully cleared and continues to be present in the host over the long term; its recognized sub-types are chronic infection (ongoing low-level production), latent infection (occult, reactivating) and slow infection (long incubation, progressive disease) -- an acute infection, which resolves (with clearance or death) over a short course, is explicitly NOT a form of persistence. Several distinct mechanisms allow a virus to establish and maintain persistence: integrating its genome into host cell DNA (so the viral genetic material survives as long as the host cell and its descendants do), undergoing rapid antigenic variation (staying a step ahead of the adaptive immune response), spreading directly from cell to cell without an extracellular phase (evading antibody, which can only act on free, extracellular virus), and inducing immunosuppression in the host (for example HIV/AIDS, which cripples the very immune response that would otherwise clear it). These mechanisms are not mutually exclusive -- a given persistent virus commonly relies on more than one simultaneously.
+
+## explicit_objective
+Classify persistent viral infection as chronic, latent or slow (not acute), and list genome integration, antigenic variation, cell-to-cell spread and immunosuppression as mechanisms that maintain persistence.
+
+## pitfalls
+Classifying an acute infection as a form of viral persistence, when it is defined precisely by resolving over a short course rather than persisting; assuming only one mechanism (rather than several, often combined) maintains a given persistent infection.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Viral infection outcomes
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-6
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-74F9726F0F64A1
+CON-INF-4EC402ABB55946
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"All of the following are examples of persistent virus infection EXCEPT? ... A. Acute infection" and "Mechanisms that help persistence of viral infection? ... E. All of the above" (Q72, Q73); also "Integration of viral genome to host cell DNA leads to? ... C. Persistent infection" (Q68).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "persistent viral infection mechanisms integration antigenic variation" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-395918ADB0FFAF
+
+## label
+Interferon activity is host-species-specific but not virus-specific
+
+## canonical_key
+virus.antiviral-immunity.interferon-species-specificity
+
+## aliases
+Interferon host specificity
+Interferon broad antiviral spectrum
+
+## arabic_label
+خصوصية الإنترفيرون
+
+## arabic_aliases
+خاص بالنوع وليس بالفيروس
+
+## definition
+Interferon produced by a cell of a given host species is effective at inducing an antiviral state only in cells of that same (or a closely related) species -- it is host-species-specific. Within that species, however, a single interferon is broadly effective against many different, unrelated viruses (it is not virus-specific), because its antiviral action works by inducing a general intracellular antiviral state in the responding cell rather than by directly targeting any one virus's particular structure. This dual property -- narrow across species, broad across viruses -- is a classic distinguishing feature of interferon relative to antibody, which is by contrast highly virus/antigen-specific but not host-species-restricted in the same way.
+
+## explicit_objective
+State that interferon is host-species-specific (works best within the species that produced it) but not virus-specific (a given interferon is broadly antiviral against many viruses).
+
+## pitfalls
+Reversing the two properties -- assuming interferon is narrowly virus-specific (like an antibody) rather than broadly antiviral, or assuming it works across host species rather than being largely restricted to the producing species.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Antiviral immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-6
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-1C226124CB5DA4
+CON-INF-1CD7D3DDAE7AA9
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"The following feature is true for Interferons? ... D. Host species specific" (Q77).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "interferon host species specific virus" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-79EA32FB3BCA62
+
+## label
+Negative-sense ssRNA viruses use a virion-packaged RNA-dependent RNA polymerase to make a positive-sense RNA copy before translation
+
+## canonical_key
+virus.replication.negative-sense-rna-requires-rdrp
+
+## aliases
+Negative-sense RNA virus replication
+RNA-dependent RNA polymerase
+
+## arabic_label
+الحمض النووي الريبي سالب القطبية
+
+## arabic_aliases
+بوليميريز الرنا المعتمد على الرنا
+
+## definition
+A negative-sense (-) single-stranded RNA virus carries a genome that is the mirror-image complement of mRNA, so host ribosomes cannot translate it directly. Because no host cell enzyme can copy RNA from an RNA template, the virus must carry its own RNA-dependent RNA polymerase inside the virion, which it uses immediately after uncoating to transcribe the genome into a positive-sense RNA copy that then serves as mRNA for translation. This is a defining structural requirement of negative-sense RNA viruses (for example rabies and measles virus) not shared by positive-sense RNA viruses, whose genome already functions as mRNA with no such enzyme needed on entry, nor by retroviruses, which instead carry reverse transcriptase to make a DNA copy.
+
+## explicit_objective
+State that negative-sense ssRNA viruses must first transcribe their genome into positive-sense RNA using a virion-packaged RNA-dependent RNA polymerase, before any viral protein can be translated.
+
+## pitfalls
+Assuming a negative-sense RNA virus can be translated directly like a positive-sense one; confusing the RNA-dependent RNA polymerase a negative-sense RNA virus needs with the reverse transcriptase (RNA-dependent DNA polymerase) a retrovirus needs -- different enzymes for different genome strategies.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Viral replication cycle
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-BBE9814E81F4D0
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"Negative sense ssRNA viruses use ...................................during genome replication? ... B. RNA-dependent RNA polymerase" (Q82); "A particular virus genetic material first needs to be copied into positive sense SS-RNA ... What type of virus is this? ... B. SS Negative-Sense RNA" (Q96).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "negative sense RNA virus RNA dependent RNA polymerase" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-1C226124CB5DA4
+
+## label
+Type I interferon acts by inducing host proteins that inhibit viral mRNA translation in neighbouring cells
+
+## canonical_key
+virus.antiviral-immunity.interferon-mechanism-inhibits-translation
+
+## aliases
+Interferon mechanism of action
+Interferon-induced antiviral proteins
+
+## arabic_label
+آلية عمل الإنترفيرون
+
+## arabic_aliases
+تحفيز بروتينات تثبط ترجمة الرنا الرسول الفيروسي
+
+## definition
+When a cell is infected with a virus, it secretes type I interferon (IFN-alpha/beta), which binds receptors on neighbouring, still-uninfected cells and induces those cells to synthesize a set of antiviral proteins (such as protein kinase R and 2'-5'-oligoadenylate synthetase). These induced proteins act chiefly by inhibiting viral mRNA translation (and, in some pathways, transcription), establishing an intracellular antiviral state that blocks viral protein synthesis before an incoming virus can complete its replication cycle in that cell. This mechanism -- inducing a protective protein response in nearby cells before they are even infected -- is what allows interferon to act as an early, non-specific first line of antiviral defense, well ahead of the slower, antigen-specific antibody and cytotoxic T cell responses.
+
+## explicit_objective
+State that type I interferon acts by inducing host cell proteins that inhibit viral mRNA translation (and transcription), establishing an antiviral state in neighbouring cells.
+
+## pitfalls
+Attributing interferon's antiviral effect directly to killing the virus or the infected cell, rather than to inducing a protein-synthesis-inhibiting antiviral state in surrounding, not-yet-infected cells; confusing this translation-inhibition mechanism with an antibody-mediated or cytotoxic-T-cell mechanism.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Antiviral immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-6
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-395918ADB0FFAF
+CON-INF-1CD7D3DDAE7AA9
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"Interferons inhibit? ... C. Viral mRNA translation" (Q83); "Which one ... best describes interferon's suspected mode of action ... ? ... D. Its action is related to the synthesis of a protein that inhibits translation or transcription" (Q89).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "interferon inhibits viral mRNA translation mechanism" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-491B13F15A4AE1
+
+## label
+Synthesis of viral mRNA is a phenomenon common to the replication cycle of every virus
+
+## canonical_key
+virus.replication.mrna-synthesis-universal-step
+
+## aliases
+Common step of viral replication
+mRNA synthesis in all viruses
+
+## arabic_label
+تخليق الرنا الرسول الفيروسي
+
+## arabic_aliases
+خطوة مشتركة بين جميع الفيروسات
+
+## definition
+Whatever a virus's genome type -- DNA, positive-sense RNA, negative-sense RNA, double-stranded RNA, or an RNA genome reverse-transcribed to DNA -- every virus must ultimately produce mRNA that host ribosomes can translate into viral protein, since translation itself only ever reads mRNA. DNA viruses transcribe their DNA genome into mRNA using host (or, for some, viral) RNA polymerase; positive-sense RNA viruses use their genome directly as mRNA; negative-sense and double-stranded RNA viruses transcribe an mRNA copy using a virion-packaged RNA-dependent RNA polymerase; and retroviruses transcribe mRNA from their integrated proviral DNA using host RNA polymerase II. Because the specific route to mRNA differs by genome type but the requirement for mRNA synthesis itself does not, it is this step -- not DNA replication, glycoprotein synthesis, or RNA-dependent DNA synthesis, each of which applies only to some virus families -- that is common to all viral infections.
+
+## explicit_objective
+State that mRNA synthesis, though achieved by different routes depending on genome type, is the one phenomenon common to the replication cycle of every virus.
+
+## pitfalls
+Selecting a genome-type-specific step (such as DNA replication or RNA-dependent DNA synthesis) as the universal common phenomenon, when in fact only mRNA synthesis (via whichever route a given genome type requires) applies to every virus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Viral replication cycle
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-BBE9814E81F4D0
+CON-INF-79EA32FB3BCA62
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"What is the common phenomenon in all viral infections? ... B. mRNA synthesis" (Q84).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "mRNA synthesis common phenomenon viral infections" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-46A94B5E89274B
+
+## label
+The eclipse period is the interval, from adsorption through assembly, when no infectious virus can be detected inside the infected cell
+
+## canonical_key
+virus.replication.eclipse-period
+
+## aliases
+Eclipse period
+Eclipse phase of viral replication
+
+## arabic_label
+فترة الكسوف
+
+## arabic_aliases
+لا يمكن الكشف عن فيروس معدٍ داخل الخلية
+
+## definition
+The eclipse period is the stretch of the viral replication cycle, beginning with adsorption (attachment) and lasting until assembly of new virions, during which no infectious (intact, assembled) virus particle can be recovered from inside the infected cell -- the incoming virion has been taken apart (uncoated) and its components are being replicated and synthesized separately, not yet reassembled into infectious progeny. This is distinct from the latent period (the longer interval from infection until the first new infectious virus is released extracellularly, which includes the eclipse period plus the time needed for assembly, maturation and release) and from the burst size (the total number of progeny virions eventually released per infected cell). Recognizing the eclipse period is central to understanding one-step growth curve experiments, the classic method used to characterize a virus's replication kinetics.
+
+## explicit_objective
+Define the eclipse period as the interval from adsorption to assembly during which no infectious virus is detectable inside the cell.
+
+## pitfalls
+Confusing the eclipse period (no infectious virus detectable, ends at assembly) with the latent period (no infectious virus released extracellularly, ends later, at release) -- the two terms mark different endpoints of the same growth curve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Viral replication cycle
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"Between ........... is the Eclipse period? ... B. Adsorption & Assembly" (Q85).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "eclipse period viral replication" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-47640C0D2CFB07
+
+## label
+Ultraviolet radiation's primary antiviral target on a virion is the genome (nucleic acid)
+
+## canonical_key
+virus.disinfection.uv-target-is-genome
+
+## aliases
+UV radiation antiviral target
+UV damage to viral nucleic acid
+
+## arabic_label
+الأشعة فوق البنفسجية والفيروسات
+
+## arabic_aliases
+الحمض النووي هو الهدف الأساسي
+
+## definition
+Ultraviolet (UV) radiation inactivates a virus principally by damaging its genome (nucleic acid) -- most classically by inducing pyrimidine dimers (covalent cross-links between adjacent thymine or uracil bases) that block accurate replication and transcription of the viral genetic material. This is why UV is used as a disinfection method effective against viruses in general, regardless of whether they are enveloped or naked, since the target (nucleic acid) is present in every virus, unlike the capsid, matrix or envelope, which UV does not primarily act on and which vary in presence across virus families.
+
+## explicit_objective
+State that UV radiation's primary antiviral target is the viral genome (nucleic acid), via pyrimidine dimer formation, not the capsid, matrix or envelope.
+
+## pitfalls
+Assuming UV primarily damages the capsid or envelope (structural proteins/lipid) rather than the nucleic acid, when its principal, best-characterized antiviral action is genomic (pyrimidine dimer formation blocking replication).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+General viral properties
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"What is the primary target of ultraviolet radiation on a virion? ... B. Genome" (Q88).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ultraviolet radiation virion genome target" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-1CD7D3DDAE7AA9
+
+## label
+Type I interferon production in tissue culture is induced by viral infection (and synthetic double-stranded RNA), not by polypeptides or bacteria
+
+## canonical_key
+virus.antiviral-immunity.interferon-induction-stimulus
+
+## aliases
+Interferon induction
+Stimuli for interferon production
+
+## arabic_label
+محفزات إنتاج الإنترفيرون
+
+## arabic_aliases
+العدوى الفيروسية وليس الببتيدات الاصطناعية
+
+## definition
+In tissue culture, cells are induced to produce type I interferon chiefly by viral infection itself -- the classic, most reliable stimulus -- and, separately, by synthetic double-stranded RNA/polynucleotides (which mimic a common viral replication intermediate and are used experimentally as interferon inducers). Synthetic polypeptides (proteins) are not an effective interferon-inducing stimulus, since interferon induction is triggered through nucleic-acid-sensing pathways, not protein-sensing ones; Gram-positive bacteria and non-viral toxins such as botulinum toxin are likewise not standard interferon inducers, that pathway belonging instead to the antibacterial (rather than antiviral) arm of innate immunity.
+
+## explicit_objective
+State that viral infection (and experimentally, synthetic double-stranded RNA) induces type I interferon production in tissue culture, and that synthetic polypeptides or bacteria do not.
+
+## pitfalls
+Selecting a protein-based stimulus (synthetic polypeptides) or a bacterial stimulus as an interferon inducer, when interferon induction is triggered by viral infection and nucleic-acid-based (not protein-based or bacterial) signals.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Antiviral immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-6
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-395918ADB0FFAF
+CON-INF-1C226124CB5DA4
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"Interferon, a protein that inhibits viral replication, is produced by cells in tissue culture when the cells are stimulated with which of the following? ... C. Viruses" (Q91).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "interferon production tissue culture induced viruses" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-8B30E0466E7EDE
+
+## label
+Cell-mediated immunity is the principal adaptive arm responsible for clearing established viral infection
+
+## canonical_key
+virus.antiviral-immunity.cell-mediated-immunity-primary-clearance
+
+## aliases
+Cell-mediated immunity and viral clearance
+Cytotoxic T cells vs viral infection
+
+## arabic_label
+المناعة الخلوية ومكافحة الفيروسات
+
+## arabic_aliases
+الخلايا التائية السامة للخلايا هي المسؤول الرئيسي
+
+## definition
+Because viruses replicate inside host cells, out of reach of circulating antibody once intracellular, clearing an established viral infection depends chiefly on cell-mediated immunity -- principally cytotoxic CD8+ T cells, which recognize viral peptides presented on MHC class I and kill the infected cell directly, eliminating the intracellular factory of new virions. Humoral (antibody) immunity remains important, but mainly for a complementary role -- neutralizing free extracellular virions and preventing spread to new cells -- rather than for clearing virus already established inside a cell; innate immunity (interferon, NK cells) acts earliest but is comparatively non-specific and does not by itself achieve definitive clearance of an established, ongoing infection.
+
+## explicit_objective
+State that cell-mediated immunity (cytotoxic T cells) is the principal adaptive mechanism for clearing established (intracellular) viral infection, with humoral immunity playing a complementary, mainly extracellular role.
+
+## pitfalls
+Assuming humoral (antibody) immunity is the primary mechanism for clearing viral infection generally, when antibody's reach is limited to extracellular virus and cell-mediated immunity is what eliminates the intracellular infection itself.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Antiviral immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-6
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-F1A9D6BF211D76
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"What type of immunity is most responsible for fighting viral infections? ... B. Cell-Mediated immunity" (Q93).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "cell mediated immunity viral infection clearance" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-EDAB3A242EDDAB
+
+## label
+Viruses differ fundamentally from bacteria: they do not multiply by binary fission and are smaller, obligate intracellular parasites
+
+## canonical_key
+virus.classification.differs-from-bacteria
+
+## aliases
+Virus vs bacteria differences
+Viral vs bacterial replication
+
+## arabic_label
+الفرق بين الفيروس والبكتيريا
+
+## arabic_aliases
+لا ينقسم بالانشطار الثنائي وأصغر حجماً وطفيلي إجباري داخل الخلية
+
+## definition
+Viruses differ from bacteria in several fundamental ways relevant to this comparison: they do not replicate by binary fission (the simple splitting-in-two of a growing bacterial cell) but instead by an entirely different process -- separate synthesis of viral components inside a host cell, followed by their assembly into many new progeny particles at once; they are generally much smaller than bacteria (tens to a few hundred nanometres, versus roughly a micrometre or more for typical bacteria); and, unlike bacteria (which are independently living, free-metabolizing cells, even if some are obligate intracellular like Rickettsia), viruses are obligate intracellular parasites with no independent metabolism, unable to replicate outside a living host cell at all. All three of these properties hold simultaneously, which is why a question asking how viruses differ from bacteria commonly keys to "all of the above" rather than any single point in isolation.
+
+## explicit_objective
+List binary fission (absent in viruses), smaller size, and obligate intracellular parasitism as ways viruses differ from bacteria.
+
+## pitfalls
+Treating only one of these differences (size, replication mode, or obligate intracellular status) as the complete answer, when all three simultaneously and correctly distinguish viruses from bacteria.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Virus classification and structure
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-99427A317A9586
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"How are viruses different from bacteria? ... E. All of above" (Q94).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "virus different from bacteria binary fission size obligate" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-EE196859DD5221
+
+## label
+Viral adsorption is a passive, receptor-mediated process that does not require ATP
+
+## canonical_key
+virus.replication.adsorption-passive-receptor-mediated
+
+## aliases
+Adsorption mechanism
+Viral attachment
+
+## arabic_label
+الالتصاق الفيروسي
+
+## arabic_aliases
+عملية سلبية لا تحتاج إلى طاقة
+
+## definition
+Adsorption (attachment) is the first step of the viral replication cycle, in which a virion binds to a specific receptor on the host cell surface -- for a non-enveloped virus, via an exposed region of its capsid; for an enveloped virus, typically via an envelope glycoprotein. Adsorption is a passive process driven by receptor-ligand binding, not an energy-dependent one, so it does not require ATP; the initial contact is also random and reversible (low-affinity binding that can detach) before progressing, with sufficient receptor engagement, to firmer, effectively irreversible attachment. This receptor specificity is also the molecular basis of viral cell tropism -- a virus can only productively adsorb to, and so infect, cells that display the receptor it requires.
+
+## explicit_objective
+State that viral adsorption uses specific host-cell receptors, is passive and does not require ATP, and begins as a random, reversible low-affinity contact.
+
+## pitfalls
+Assuming adsorption is an active, energy-requiring process (it is passive, receptor-driven); confusing adsorption's receptor-mediated mechanism with lysozyme action or a general "synthetic machinery of the host cell," neither of which describes attachment.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Viral replication cycle
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-CE64E7CD7B4393
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"For adsorption, viruses use? ... A. Specific receptors" (Q67); "Which is not true regarding adsorption? ... C. Requires ATP" (Q95).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "viral adsorption passive receptor ATP" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-837DCB9D3D89FD
+
+## label
+Protein is the one chemical component found in every virus; nucleic acid type and lipid content both vary
+
+## canonical_key
+virus.structure.protein-universal-chemical-component
+
+## aliases
+Universal viral chemical component
+Protein in every virus
+
+## arabic_label
+المكون الكيميائي المشترك بين كل الفيروسات
+
+## arabic_aliases
+البروتين موجود في كل الفيروسات
+
+## definition
+Every virus, without exception, contains protein -- forming at minimum its capsid (and, for enveloped viruses, envelope glycoproteins as well), since even the simplest viable virus needs a protein coat around its genome. By contrast, the other candidate "universal" chemical components are not in fact universal: nucleic acid type varies (a given virus carries DNA or RNA, never both, and never neither), lipid is present only in the minority of viruses that are enveloped (naked viruses have none), and glycoproteins specifically are an envelope feature, again absent from naked viruses. Protein is therefore the single chemical component every virus, enveloped or not, DNA or RNA, is guaranteed to contain.
+
+## explicit_objective
+State that protein is the one chemical component found in every virus, unlike nucleic acid type (DNA or RNA, varies) or lipid (present only if enveloped).
+
+## pitfalls
+Assuming DNA, RNA, or lipid is a universal viral component, when each of these in fact varies by virus family -- only protein is guaranteed to be present in every virus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Capsid and envelope structure
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-5544B0DB9FAF82
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"A chemical component that is found in all viruses is? ... A. Protein" (Q98); "All viruses? ... C. Protein" (Q100).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "protein chemical component found in all viruses" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-AEE30BC81A73F8
+
+## label
+A virion may package enzymes it needs for its own replication, since it has no independent metabolism of its own
+
+## canonical_key
+virus.general-properties.may-contain-replication-enzymes
+
+## aliases
+Virion-packaged enzymes
+Viral enzymes for replication
+
+## arabic_label
+الإنزيمات الفيروسية المعبأة
+
+## arabic_aliases
+الفيروس يفتقر إلى الأيض المستقل
+
+## definition
+A virus has no independent metabolism and cannot synthesize its own proteins until it is inside a host cell; some virus families solve the problem of needing an enzyme immediately on entry, before any viral protein can be made, by packaging that enzyme ready-made inside the virion itself. Classic examples are the reverse transcriptase carried inside a retrovirus particle and the RNA-dependent RNA polymerase carried inside a negative-sense RNA virus particle, both needed at the very start of the replication cycle. This ability to package pre-formed enzymes is one of several true statements about viruses in general -- alongside their complete lack of independent metabolism and (for all viruses) their lack of a cell wall -- that a general virus-properties question may test.
+
+## explicit_objective
+State that a virus may contain enzymes it needs for its own replication (packaged in the virion, since it has no independent metabolism to synthesize them de novo on entry) -- for example reverse transcriptase or RNA-dependent RNA polymerase.
+
+## pitfalls
+Assuming a virus can never carry its own enzymes since it "has no metabolism" -- it lacks independent metabolism for general biosynthesis, but several virus families do package specific replication enzymes as pre-formed virion components for exactly this reason.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+General viral properties
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-95D8FD3C7D470C
+CON-INF-79EA32FB3BCA62
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"Viruses? ... C. May contain enzymes for replication" (Q79).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "virus contain enzymes replication packaged virion" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-810348AFA34224
+
+## label
+Transcription produces mRNA from a nucleic acid template; translation produces protein from mRNA -- the two are not interchangeable
+
+## canonical_key
+virus.general-properties.transcription-vs-translation-definitions
+
+## aliases
+Transcription vs translation
+mRNA formation vs protein formation
+
+## arabic_label
+النسخ مقابل الترجمة
+
+## arabic_aliases
+تكوين الرنا الرسول مقابل تكوين البروتين
+
+## definition
+Transcription is the synthesis of RNA (specifically mRNA, in this context) using a DNA or RNA template, carried out by an RNA polymerase; translation is the separate, subsequent step in which ribosomes read that mRNA to synthesize protein. Describing transcription as "the formation of protein" swaps the two processes' defining products -- transcription's product is mRNA, and it is translation, not transcription, that produces protein. This distinction applies across viral genome types just as it does in host cells: whichever route a given virus uses to reach mRNA (direct use of a +sense genome, transcription of a -sense or DNA genome, or transcription of an integrated provirus), the mRNA it thereby obtains must then still be translated, by ribosomes, into protein -- transcription alone never yields a protein product.
+
+## explicit_objective
+State that transcription produces mRNA (from a nucleic acid template) and translation produces protein (from mRNA), and that these are distinct, non-interchangeable steps.
+
+## pitfalls
+Describing transcription as protein synthesis (that is translation's product, not transcription's) -- a swap of the two steps' defining outputs.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+General viral properties
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-491B13F15A4AE1
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"In structure and classification of viruses, which is the WRONG STATEMENT? ... C. Transcription is the formation of protein" (Q102).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "transcription formation mRNA translation formation protein" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-918F0F277477B8
+
+## label
+Assembly of RNA viruses occurs in the host cell cytoplasm
+
+## canonical_key
+virus.replication.rna-virus-assembly-site-cytoplasm
+
+## aliases
+RNA virus assembly site
+Site of viral assembly
+
+## arabic_label
+موقع تجميع الفيروسات الريبية
+
+## arabic_aliases
+السيتوبلازم
+
+## definition
+Because RNA viruses (with the notable exception of retroviruses, whose replication has a nuclear, DNA-integration phase) generally both replicate their genome and synthesize their structural proteins in the host cell cytoplasm, the assembly of new RNA virus particles -- packaging replicated genome together with newly made capsid protein -- likewise takes place in the cytoplasm, not the nucleus. This mirrors the broader rule that most RNA viruses complete their entire replication cycle in the cytoplasm, in contrast to most DNA viruses, whose replication (and, correspondingly, assembly) occurs mainly in the nucleus, with poxvirus a well-known cytoplasmic exception among DNA viruses.
+
+## explicit_objective
+State that assembly of RNA viruses occurs in the host cell cytoplasm, consistent with most RNA viruses completing their replication cycle there.
+
+## pitfalls
+Assuming RNA virus assembly, like most DNA virus assembly, occurs in the nucleus -- the general rule for RNA viruses (retrovirus aside) is cytoplasmic replication and assembly.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+General virology
+
+## subtopic
+Viral replication cycle
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-INF-2E497D2AC72D73
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"Assembly of RNA viruses occurs in? ... B. Cytoplasm" (Q66).
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "assembly of RNA viruses occurs in cytoplasm" -- 0 hits, safe to create.
+
+---

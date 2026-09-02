@@ -826,3 +826,376 @@ Quote: Exaltation is the phenomenon in which one virus, through co-infection, en
 Block: body
 
 ---
+
+# Item
+
+## id
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-6
+
+## title
+General virology V: infection outcomes and antiviral immunity
+
+## arabic_title
+علم الفيروسات العام ٥: نتائج العدوى والمناعة المضادة للفيروسات
+
+## aliases
+General virology infection outcomes
+AUN-INI-105 Chapter 6 antiviral immunity
+
+## subject
+inf
+
+## topic
+General virology
+
+## subtopic
+Viral infection outcomes and antiviral immunity
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+This fifth General virology article covers how a virus-cell encounter can resolve (lytic, persistent, or held latent), the mechanisms that let a virus persist against host defenses, and the host's antiviral toolkit -- antibody-mediated mechanisms, interferon's species-specific but broadly antiviral action and its translation-blocking mechanism, and the primacy of cell-mediated immunity for clearing an infection already established inside a cell.
+
+## sections
+### Definition
+When a virus infects a cell, the encounter can resolve in one of several ways. A lytic (productive) infection is characterized by host cell death with release of progeny virions, the outcome of a completed replication cycle. A persistent viral infection, by contrast, is not fully cleared and continues over the long term -- its recognized sub-types are chronic, latent and slow infection, and an acute infection, which resolves over a short course, is explicitly not a form of persistence.
+
+### Mechanism
+Persistent infection is maintained through several distinct mechanisms: integrating the viral genome into host cell DNA, undergoing rapid antigenic variation, spreading directly from cell to cell without an extracellular phase, and inducing immunosuppression in the host -- mechanisms that are not mutually exclusive and are often combined. On the host side, antibodies limit virus infection by neutralization, opsonization and ADCC, not by upregulating MHC-I expression on infected cells, since MHC-I upregulation is instead a response driven mainly by interferons. When a cell is infected, it secretes type I interferon, which binds receptors on neighbouring, still-uninfected cells and induces those cells to synthesize antiviral proteins; these induced proteins act chiefly by inhibiting viral mRNA translation, establishing an antiviral state before an incoming virus can complete its cycle in that cell. In tissue culture, cells are induced to produce type I interferon chiefly by viral infection itself, and, separately, by synthetic double-stranded RNA, but not by synthetic polypeptides or bacteria.
+
+### Key determinants
+Interferon produced by a cell of a given host species is effective at inducing an antiviral state only in cells of that same (or a closely related) species -- it is host-species-specific -- yet within that species a single interferon is broadly effective against many different, unrelated viruses, so it is not virus-specific. Because viruses replicate inside host cells, out of reach of circulating antibody once intracellular, clearing an established viral infection depends chiefly on cell-mediated immunity -- principally cytotoxic CD8+ T cells, which recognize viral peptides presented on MHC class I and kill the infected cell directly.
+
+### Clinical significance
+Recognising which outcome a given infection is heading toward -- lytic clearance, or persistence via one or more of the mechanisms above -- underlies both the natural history of chronic viral disease (for example HIV/AIDS, hepatitis B and C) and the rationale for antiviral and immune-based therapy: interferon-based treatment leverages the same translation-inhibiting antiviral-state mechanism the body itself uses, and vaccine strategies that prime cell-mediated immunity target the arm of the immune system actually responsible for clearing intracellular infection, rather than antibody alone.
+
+### Common misconceptions
+Classifying an acute infection as a form of viral persistence, when it is defined precisely by resolving over a short course. Attributing MHC-I upregulation on infected cells to antibody action, when it is interferon-driven. Assuming interferon is narrowly virus-specific like an antibody, or that it crosses host species freely, when in fact the reverse is true on both counts. Assuming humoral (antibody) immunity is the primary mechanism for clearing viral infection generally, when antibody's reach is limited to extracellular virus and cell-mediated immunity is what eliminates infection already established inside a cell.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Lytic infection = host cell death + progeny virion release; persistent infection = chronic/latent/slow, NOT acute.
+Persistence mechanisms: genome integration, antigenic variation, cell-to-cell spread, immunosuppression.
+Antibody mechanisms: neutralization, opsonization, ADCC -- NOT MHC-I upregulation (that is interferon-driven).
+Interferon: host-species-specific, NOT virus-specific; induced by viral infection (and synthetic dsRNA), NOT polypeptides/bacteria; acts by inducing proteins that block viral mRNA translation.
+Cell-mediated immunity (cytotoxic T cells), not antibody, is primary for clearing established (intracellular) viral infection.
+
+## lose_the_mark
+Calling acute infection a persistent infection type.
+Crediting antibody with MHC-I upregulation.
+Reversing interferon's species-specificity and virus-specificity.
+Naming humoral immunity as the principal clearer of established viral infection.
+
+## callout_evidence
+
+## related_concepts
+CON-INF-74F9726F0F64A1
+CON-INF-287B280E76A56D
+CON-INF-F1A9D6BF211D76
+CON-INF-395918ADB0FFAF
+CON-INF-1C226124CB5DA4
+CON-INF-1CD7D3DDAE7AA9
+CON-INF-8B30E0466E7EDE
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## article_source_ids
+src_6f2f4188bb0cbf848733
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-INI-105
+
+## university_notes
+AUN: taught in Assiut University's Infection and Immunity module (Year 1, Semester 2) as part of the department's own INI MCQ bank's General virology chapter (Q59-102 window) -- no separate lecture deck exists for this module in the source corpus, so this article's teaching text is written from standard microbiology/immunology teaching and evidenced against the bank's own question stems.
+
+## annotations
+### definition_of · CON-INF-74F9726F0F64A1
+Quote: A lytic (productive) infection is characterized by host cell death with release of progeny virions, the outcome of a completed replication cycle
+Block: body
+
+### definition_of · CON-INF-287B280E76A56D
+Quote: A persistent viral infection, by contrast, is not fully cleared and continues over the long term -- its recognized sub-types are chronic, latent and slow infection, and an acute infection, which resolves over a short course, is explicitly not a form of persistence
+Block: body
+
+### definition_of · CON-INF-F1A9D6BF211D76
+Quote: antibodies limit virus infection by neutralization, opsonization and ADCC, not by upregulating MHC-I expression on infected cells, since MHC-I upregulation is instead a response driven mainly by interferons
+Block: body
+
+### definition_of · CON-INF-395918ADB0FFAF
+Quote: Interferon produced by a cell of a given host species is effective at inducing an antiviral state only in cells of that same (or a closely related) species -- it is host-species-specific -- yet within that species a single interferon is broadly effective against many different, unrelated viruses, so it is not virus-specific
+Block: body
+
+### definition_of · CON-INF-1C226124CB5DA4
+Quote: When a cell is infected, it secretes type I interferon, which binds receptors on neighbouring, still-uninfected cells and induces those cells to synthesize antiviral proteins; these induced proteins act chiefly by inhibiting viral mRNA translation, establishing an antiviral state before an incoming virus can complete its cycle in that cell
+Block: body
+
+### definition_of · CON-INF-1CD7D3DDAE7AA9
+Quote: In tissue culture, cells are induced to produce type I interferon chiefly by viral infection itself, and, separately, by synthetic double-stranded RNA, but not by synthetic polypeptides or bacteria
+Block: body
+
+### definition_of · CON-INF-8B30E0466E7EDE
+Quote: Because viruses replicate inside host cells, out of reach of circulating antibody once intracellular, clearing an established viral infection depends chiefly on cell-mediated immunity -- principally cytotoxic CD8+ T cells, which recognize viral peptides presented on MHC class I and kill the infected cell directly
+Block: body
+
+---
+
+# Item
+
+## id
+ART-INF-AUN-INI105-GENERAL-VIROLOGY-7
+
+## title
+General virology VI: replication cycle mechanics and general viral properties
+
+## arabic_title
+علم الفيروسات العام ٦: آليات دورة التضاعف والخصائص العامة للفيروسات
+
+## aliases
+General virology replication mechanics
+AUN-INI-105 Chapter 6 replication details
+
+## subject
+inf
+
+## topic
+General virology
+
+## subtopic
+Replication cycle mechanics and general viral properties
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+This sixth General virology article fills in replication-cycle mechanics not covered by the first four articles -- adsorption, penetration by fusion, the eclipse period, genome-type-specific routes to mRNA, retrovirus reverse transcription's cytoplasmic site, and where RNA virus assembly occurs -- alongside general viral properties tested across the chapter's Q59-102 window: the one universal chemical component, the difference from bacteria, UV's genomic target, and the distinction between transcription and translation.
+
+## sections
+### Definition
+Adsorption (attachment) is the first step of the viral replication cycle, in which a virion binds to a specific receptor on the host cell surface; it is a passive process driven by receptor-ligand binding, not an energy-dependent one, so it does not require ATP, and the initial contact is random and reversible before firmer attachment follows. Penetration, the step immediately following adsorption, is the process by which the virus crosses into the host cell -- for an enveloped virus, the standard route is fusion of the lipid envelope with the host membrane, releasing the nucleocapsid into the cytoplasm.
+
+### Mechanism
+A positive-sense RNA virus genome can be translated directly as mRNA, with no transcription step needed first, while a negative-sense ssRNA virus must first transcribe its genome into a positive-sense RNA copy using a virion-packaged RNA-dependent RNA polymerase before any viral protein can be made. A retrovirus's reverse transcriptase converts its RNA genome into double-stranded DNA in the cytoplasm; only this DNA product is then transported into the nucleus to integrate as a provirus, which is later transcribed by host RNA polymerase II, not host DNA polymerase. Because RNA viruses generally both replicate their genome and synthesize their structural proteins in the cytoplasm, assembly of RNA viruses occurs in the cytoplasm too, not the nucleus. Whatever a virus's genome type, it must ultimately produce mRNA that host ribosomes can translate into viral protein, which is why mRNA synthesis, achieved by different routes depending on genome type, is the one phenomenon common to the replication cycle of every virus. The eclipse period is the interval, from adsorption through assembly, when no infectious virus can be detected inside the infected cell.
+
+### Key determinants
+Protein is the one chemical component found in every virus, since even the simplest viable virus needs a protein coat around its genome, while nucleic acid type and lipid content both vary by virus family. Transcription is the synthesis of RNA using a nucleic acid template, and translation is the separate, subsequent step in which ribosomes read that mRNA to synthesize protein -- the two are not interchangeable, and transcription alone never yields a protein product. A virus has no independent metabolism and cannot synthesize its own proteins until it is inside a host cell; some virus families solve the problem of needing an enzyme immediately on entry by packaging that enzyme ready-made inside the virion itself, such as reverse transcriptase or RNA-dependent RNA polymerase.
+
+### Clinical significance
+Ultraviolet radiation inactivates a virus principally by damaging its genome, most classically by inducing pyrimidine dimers that block accurate replication and transcription of the viral genetic material -- the basis of UV disinfection against viruses in general. Viruses differ from bacteria in several fundamental ways: they do not replicate by binary fission, they are generally much smaller, and they are obligate intracellular parasites with no independent metabolism, unlike bacteria, which are independently living cells.
+
+### Common misconceptions
+Assuming every RNA virus genome must first be transcribed into mRNA, when a positive-sense genome already reads as mRNA directly. Assuming adsorption is an active, energy-requiring process, when it is passive and receptor-driven. Assuming the retroviral RNA genome itself replicates inside the nucleus, when reverse transcription is cytoplasmic and only the resulting DNA is nuclear. Assuming DNA, RNA, or lipid is a universal viral component, when only protein is guaranteed present in every virus. Describing transcription as protein synthesis, a swap of transcription's and translation's defining outputs.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Adsorption: passive, ATP-independent, receptor-mediated, initially random/reversible.
+Enveloped-virus penetration = fusion; naked-virus uptake = viropexis/endocytosis (no fusion).
++ssRNA translated directly as mRNA; -ssRNA needs RNA-dependent RNA polymerase to make +sense RNA first.
+Retrovirus reverse transcription (RNA to DNA) = cytoplasmic; only proviral DNA is nuclear/integrates.
+RNA virus assembly = cytoplasm. Eclipse period = adsorption to assembly, no infectious virus detectable.
+mRNA synthesis is common to every virus's replication cycle, by whichever route its genome type requires.
+Protein is the one chemical component in every virus (nucleic acid type and lipid both vary).
+Transcription -> mRNA; translation -> protein. UV's primary target = viral genome (nucleic acid).
+Virus vs bacteria: no binary fission, smaller, obligate intracellular parasite.
+
+## lose_the_mark
+Requiring ATP for adsorption.
+Calling retrovirus RNA itself nuclear-replicating.
+Placing RNA virus assembly in the nucleus.
+Naming DNA, RNA or lipid as the universal viral chemical component.
+Swapping transcription's and translation's products.
+
+## callout_evidence
+
+## related_concepts
+CON-INF-EE196859DD5221
+CON-INF-1D064999E370F5
+CON-INF-BBE9814E81F4D0
+CON-INF-79EA32FB3BCA62
+CON-INF-42C40FA223CBB7
+CON-INF-918F0F277477B8
+CON-INF-491B13F15A4AE1
+CON-INF-46A94B5E89274B
+CON-INF-837DCB9D3D89FD
+CON-INF-810348AFA34224
+CON-INF-AEE30BC81A73F8
+CON-INF-47640C0D2CFB07
+CON-INF-EDAB3A242EDDAB
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## article_source_ids
+src_6f2f4188bb0cbf848733
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-INI-105
+
+## university_notes
+AUN: taught in Assiut University's Infection and Immunity module (Year 1, Semester 2) as part of the department's own INI MCQ bank's General virology chapter (Q59-102 window) -- no separate lecture deck exists for this module in the source corpus, so this article's teaching text is written from standard microbiology teaching and evidenced against the bank's own question stems.
+
+## annotations
+### definition_of · CON-INF-EE196859DD5221
+Quote: Adsorption (attachment) is the first step of the viral replication cycle, in which a virion binds to a specific receptor on the host cell surface; it is a passive process driven by receptor-ligand binding, not an energy-dependent one, so it does not require ATP, and the initial contact is random and reversible before firmer attachment follows
+Block: body
+
+### definition_of · CON-INF-1D064999E370F5
+Quote: Penetration, the step immediately following adsorption, is the process by which the virus crosses into the host cell -- for an enveloped virus, the standard route is fusion of the lipid envelope with the host membrane, releasing the nucleocapsid into the cytoplasm
+Block: body
+
+### definition_of · CON-INF-BBE9814E81F4D0
+Quote: A positive-sense RNA virus genome can be translated directly as mRNA, with no transcription step needed first
+Block: body
+
+### definition_of · CON-INF-79EA32FB3BCA62
+Quote: a negative-sense ssRNA virus must first transcribe its genome into a positive-sense RNA copy using a virion-packaged RNA-dependent RNA polymerase before any viral protein can be made
+Block: body
+
+### definition_of · CON-INF-42C40FA223CBB7
+Quote: A retrovirus's reverse transcriptase converts its RNA genome into double-stranded DNA in the cytoplasm; only this DNA product is then transported into the nucleus to integrate as a provirus, which is later transcribed by host RNA polymerase II, not host DNA polymerase
+Block: body
+
+### definition_of · CON-INF-918F0F277477B8
+Quote: Because RNA viruses generally both replicate their genome and synthesize their structural proteins in the cytoplasm, assembly of RNA viruses occurs in the cytoplasm too, not the nucleus
+Block: body
+
+### definition_of · CON-INF-491B13F15A4AE1
+Quote: mRNA synthesis, achieved by different routes depending on genome type, is the one phenomenon common to the replication cycle of every virus
+Block: body
+
+### definition_of · CON-INF-46A94B5E89274B
+Quote: The eclipse period is the interval, from adsorption through assembly, when no infectious virus can be detected inside the infected cell
+Block: body
+
+### definition_of · CON-INF-837DCB9D3D89FD
+Quote: Protein is the one chemical component found in every virus, since even the simplest viable virus needs a protein coat around its genome, while nucleic acid type and lipid content both vary by virus family
+Block: body
+
+### definition_of · CON-INF-810348AFA34224
+Quote: Transcription is the synthesis of RNA using a nucleic acid template, and translation is the separate, subsequent step in which ribosomes read that mRNA to synthesize protein -- the two are not interchangeable, and transcription alone never yields a protein product
+Block: body
+
+### definition_of · CON-INF-AEE30BC81A73F8
+Quote: A virus has no independent metabolism and cannot synthesize its own proteins until it is inside a host cell; some virus families solve the problem of needing an enzyme immediately on entry by packaging that enzyme ready-made inside the virion itself, such as reverse transcriptase or RNA-dependent RNA polymerase
+Block: body
+
+### definition_of · CON-INF-47640C0D2CFB07
+Quote: Ultraviolet radiation inactivates a virus principally by damaging its genome, most classically by inducing pyrimidine dimers that block accurate replication and transcription of the viral genetic material
+Block: body
+
+### definition_of · CON-INF-EDAB3A242EDDAB
+Quote: Viruses differ from bacteria in several fundamental ways: they do not replicate by binary fission, they are generally much smaller, and they are obligate intracellular parasites with no independent metabolism, unlike bacteria, which are independently living cells
+Block: body
+
+---

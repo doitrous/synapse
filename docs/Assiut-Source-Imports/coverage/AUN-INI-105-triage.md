@@ -522,3 +522,86 @@ first time and authored the first 55 keyed items in order.
   remaining in this chapter (expect the Q56-77 duplicate cluster
   described above) plus chapter 11 ("Nematoda," 164 items) entirely
   unread beyond the structural chapter map already recorded above.
+### Chapter 6 closed -- lane 8 authored Q59-102 (44 items, pp.71-77)
+
+Read via `pagetext.mjs show`, pages 71-77 (four calls, each ≤3 pages),
+resuming exactly at lane 6's stated hand-off point (Q59, "Regarding the
+replication cycle of retrovirus...", p.71) and keying every item against the
+same plain-text ANSWERS table on p.77 lane 6 had already located and read in
+full. **39 of 44 authored, 5 held.**
+
+- **Held (5):** Q74, Q75 and Q78 are near-verbatim duplicates of Q1, Q2 and
+  Q5 respectively (identical stems and options -- the chapter recycling its
+  own earlier questions, exactly the pattern lane 6's triage flagged in
+  advance from the Q51-100 window of chapter 1). Q97 is a near-verbatim
+  duplicate of Q48 (same "structural component found in all viruses" stem
+  and options, one word added). Q86 ("Interference can be happened during
+  the usage of?", printed key D "Vaccines containing viral subunits") is
+  held on a printed-key conflict: classical viral interference requires a
+  live, replicating virus competing for the same host cell, which a
+  non-replicating subunit vaccine cannot provide -- compounded by a
+  source-side data-quality issue, since the printed options B and C both
+  read "Recombinant vaccines" verbatim (a duplicate/typo in the option
+  list itself).
+- **No other printed-key vs. expected-answer conflicts** found in this
+  window -- all other 39 authored keys check out against the obvious
+  textbook fact.
+- **Two within-window near-duplicates authored, not held:** Q60 and Q65 both
+  test "enveloped virus penetration = fusion" with different stems/option
+  sets (same-fact-different-phrasing, the pattern lane 1's triage already
+  established as authored-not-held, e.g. Q44/Q49 on endotoxin-LPS) -- both
+  authored, sharing one concept. Likewise Q68/Q72/Q73 (persistent infection
+  classification and mechanisms), Q82/Q96 (negative-sense RNA needs
+  RNA-dependent RNA polymerase to make +sense RNA) and Q83/Q89 (interferon's
+  translation-inhibiting mechanism) and Q98/Q100 (protein as the one
+  universal viral chemical component) are each same-fact pairs authored
+  together under one shared concept, not held.
+- **20 new AUN-INI-105 concepts minted** (appended to `concept/AUN-INI-105-
+  ch6-concepts.md`), each cleared by `find-existing.mjs` first (search
+  terms: penetration enveloped virus fusion, retrovirus reverse
+  transcription cytoplasm, positive sense RNA translated directly mRNA,
+  antibody neutralization opsonization ADCC, lytic infection host cell
+  death, persistent viral infection mechanisms, interferon host species
+  specific, negative sense RNA virus RNA dependent RNA polymerase,
+  interferon inhibits viral mRNA translation, mRNA synthesis common
+  phenomenon viral infections, eclipse period, ultraviolet radiation
+  virion, interferon production tissue culture induced viruses, cell
+  mediated immunity viral infection, virus different from bacteria binary
+  fission size obligate, viral adsorption passive receptor ATP, protein
+  chemical component found in all viruses, virus contain enzymes
+  replication packaged virion, transcription formation mRNA translation
+  formation protein, assembly of RNA viruses occurs in cytoplasm). Backed
+  by two new article records appended to `article/AUN-INI-105-ch6-
+  article.md` (article 6, infection outcomes and antiviral immunity;
+  article 7, replication cycle mechanics and general viral properties),
+  each with `annotations` whose `Quote:` text is verified (by script) as a
+  verbatim substring of its article's own body section.
+- **4 reused directly from lane 6's own AUN-INI-105 mints** (own-tree
+  reuse, no overlay needed): DNA/RNA replication site
+  (`CON-INF-2E497D2AC72D73`, Q61), reverse transcriptase/HIV
+  (`CON-INF-95D8FD3C7D470C`, Q64), defective virus/complementation
+  (`CON-INF-10B88E390F1161`, Q99), obligate intracellular parasite
+  (`CON-INF-99427A317A9586`, Q101).
+- **1 reused directly, live, no overlay** (Q80: virion, `CON-INF-
+  BBB25C0749A8D4`).
+- **7 reused via pending-live** (`pending-live/AUN-INI-105-ch6b-asuinf-
+  questions.md`, apply-after chain in its own header): 4 already-overlaid
+  ASU-INF concepts from lane 6's own `pending-live/AUN-INI-105-ch6-asuinf-
+  overlay-concepts.md` (latent infection Q70, viroid Q81, envelope
+  lipoprotein Q87, capsid universal component Q92 -- no new overlay row
+  needed); 3 newly overlaid this pass, appended to that same overlay file:
+  cell tropism (`CON-INF-CE64E7CD7B4393`, Q71, from ASU-INF's own "Viral
+  oncogenesis, tropism and retroviral integration" article, already in
+  `docs/import-ready`), Negri bodies/rabies (`CON-INF-8989679385BD3C`, Q90,
+  same ASU-INF batch), and opportunistic pathogen definition (`CON-INF-
+  17893AA3303251`, Q76, from Menoufia MUST's own `FHB-102-2-microbiology-
+  introduction-concepts.md`, not yet promoted to `docs/import-ready` -- this
+  one row's apply-after chain therefore also names that MUST batch).
+- **Gates:** `gate.mjs batch` on the own-concept question file (32 items,
+  `--with` the extended concept + article + evidence-resource files) --
+  `errors=0`. `gate.mjs simulate` on the full six-file pending apply chain
+  (ASU-INF concepts, ASU-INF articles, MUST FHB-102-2 concepts, MUST
+  FHB-102-2 articles, the (updated) AUN overlay file, the 7-item pending
+  question file) -- `errors=0`, `rejected=0`.
+- Chapter 6 ("General virology," 102 items) is now **fully triaged and
+  authored end to end**: 94 authored, 8 held, 0 remaining.
