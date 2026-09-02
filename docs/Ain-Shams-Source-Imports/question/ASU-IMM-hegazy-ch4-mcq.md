@@ -1335,7 +1335,7 @@ Cell-mediated immunity
 T-cell markers
 
 ## main_concept
-CON-IMM-0E8641D21D4210
+CON-IMM-FBBBE2775F5FB2
 
 ## concept_ids
 
@@ -1415,6 +1415,7 @@ yes
 ## author_notes
 keySource: printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.12)
 hegazy: Chapter 4 Q10, key = c
+siblingMerge: main_concept repointed from the deleted ASU mint CON-IMM-0E8641D21D4210 ("CD3 is the pan-T-cell marker...") to the live kau concept CON-IMM-FBBBE2775F5FB2 ("CD3 labels total T cells, while CD4 and CD8 label T-cell subsets...") — same tested fact, sparse overlay in pending-live/ASU-IMM-sibling-merge-overlay-concepts.md.
 
 ---
 
@@ -3988,7 +3989,7 @@ Cell-mediated immunity
 Anergy
 
 ## main_concept
-CON-IMM-DAEBF3B95AFFC1
+CON-IMM-50DBC7E2B378BE
 
 ## concept_ids
 
@@ -4068,6 +4069,7 @@ yes
 ## author_notes
 keySource: printed answer table, hegazy.pdf (Q27-35 strip, bottom of p.14)
 hegazy: Chapter 4 Q29, key = d
+siblingMerge: main_concept repointed from the deleted ASU mint CON-IMM-DAEBF3B95AFFC1 ("T-cell anergy is the functional unresponsiveness...") to the live kau concept CON-IMM-50DBC7E2B378BE ("Absent costimulation makes a naive T cell nonresponsive or anergic") — same tested fact, sparse overlay in pending-live/ASU-IMM-sibling-merge-overlay-concepts.md.
 
 ---
 
@@ -4967,7 +4969,7 @@ Cell-mediated immunity
 Lymphocyte development
 
 ## main_concept
-CON-IMM-2C9A5E12E169CD
+CON-IMM-4D0073E7453DD7
 
 ## concept_ids
 
@@ -5047,6 +5049,7 @@ yes
 ## author_notes
 keySource: printed answer table, hegazy.pdf (Q36-42 strip, bottom of p.15)
 hegazy: Chapter 4 Q36, key = b
+siblingMerge: main_concept repointed from the deleted ASU mint CON-IMM-2C9A5E12E169CD ("Naive B and T lymphocytes are mature cells...") to the live kau concept CON-IMM-4D0073E7453DD7 ("A naive lymphocyte is mature but has not yet encountered antigen") — same tested fact, sparse overlay in pending-live/ASU-IMM-sibling-merge-overlay-concepts.md.
 
 ---
 
@@ -5680,7 +5683,7 @@ Cell-mediated immunity
 T-cell markers
 
 ## main_concept
-CON-IMM-0E8641D21D4210
+CON-IMM-FBBBE2775F5FB2
 
 ## concept_ids
 
@@ -5760,6 +5763,7 @@ yes
 ## author_notes
 keySource: printed answer table, hegazy.pdf (Q36-42 strip, bottom of p.15)
 hegazy: Chapter 4 Q41, key = c
+siblingMerge: main_concept repointed from the deleted ASU mint CON-IMM-0E8641D21D4210 ("CD3 is the pan-T-cell marker...") to the live kau concept CON-IMM-FBBBE2775F5FB2 ("CD3 labels total T cells, while CD4 and CD8 label T-cell subsets...") — same tested fact, sparse overlay in pending-live/ASU-IMM-sibling-merge-overlay-concepts.md.
 
 ---
 

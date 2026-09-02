@@ -2897,7 +2897,7 @@ Innate immunity
 IL-1 properties
 
 ## main_concept
-CON-IMM-A15EC6751FF401
+CON-IMM-2AE767715E0D7D
 
 ## concept_ids
 
@@ -2977,6 +2977,7 @@ yes
 ## author_notes
 keySource: printed answer table, hegazy.pdf p.7
 hegazy: Chapter 2 Q30, key = a
+siblingMerge: main_concept repointed from the deleted ASU mint CON-IMM-A15EC6751FF401 ("IL-1 is a macrophage-derived product") to the live kau concept CON-IMM-2AE767715E0D7D ("IL-1 is an important mediator of innate inflammatory responses") — same tested fact, sparse overlay in pending-live/ASU-IMM-sibling-merge-overlay-concepts.md.
 
 ---
 
