@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-three-point-six",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'biochemistry-three-point-six'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Protein Structure"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-three-point-six",
+      "id": "QST-SCUFBS102-S2-BIOCHEMISTRY-ALPHA-HELIX-PITCH",
+      "title": "Residues per turn of an alpha helix",
+      "question": "How many intact amino acid residues are typically present in exactly one complete turn of an alpha helix structure?",
+      "options": {
+        "A": "Exactly precisely perfectly two and a half full total complete residues",
+        "B": "Just exactly precisely entirely three totally full complete solid residues",
+        "C": "Three point six",
+        "D": "Exactly precisely absolutely four point six total full complete residues"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. 2.5 residues per turn is not the alpha helix's pitch; it does not match the characteristic hydrogen-bonding period of this secondary structure.",
+        "B": "Incorrect. Rounding to a whole 3 residues per turn misses the alpha helix's actual non-integer pitch, which is precisely why the helix does not repeat on a whole-residue period.",
+        "C": "Correct. The alpha helix coils the polypeptide backbone with 3.6 amino acid residues per complete turn, stabilised by intra-chain hydrogen bonds between the backbone NH and C=O groups of residues one turn (four positions) apart. This specific non-integer pitch is what gives the helix its regular, repeating hydrogen-bonding pattern along its length.",
+        "D": "Incorrect. 4.6 residues per turn overstates the alpha helix's actual pitch of 3.6 residues per turn."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Protein structure",
+      "main_concept": "CON-FND-52781380EFEB16",
+      "concept_ids": [
+        "CON-FND-52781380EFEB16"
+      ],
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.35,
+      "reasoning_level": 2,
+      "inferred_difficulty": 40,
+      "exam_relevance": 3,
+      "clinical_relevance": 0.1,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-BIOCHEM-MOLECULAR-BASICS"
+      ],
+      "learning_objective": "State the alpha helix's characteristic pitch of 3.6 residues per turn.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q82 (also 2022 Q61)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q82 / 2022 Q61; source-JSON extraction."
+      }
+    }
+  ]
+}

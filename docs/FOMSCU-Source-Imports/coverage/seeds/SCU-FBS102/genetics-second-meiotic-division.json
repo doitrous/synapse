@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-second-meiotic-division",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'genetics-second-meiotic-division'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "dev",
+    "module_subject": "SCU-FBS102 > Genetics > Meiosis"
+  },
+  "questions": [
+    {
+      "key": "genetics-second-meiotic-division",
+      "id": "QST-SCUFBS102-S2-GENETICS-SECOND-MEIOTIC-DIVISION",
+      "title": "How a secondary spermatocyte becomes a spermatid",
+      "question": "By which specific cellular division process does a secondary spermatocyte produce a spermatid with a haploid number of chromosomes?",
+      "options": {
+        "A": "The first meiotic division",
+        "B": "Second meiotic division",
+        "C": "The standard mitotic cellular division",
+        "D": "The simple binary fission process"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The first meiotic division is what already happened to create the secondary spermatocyte from the primary spermatocyte, separating homologous chromosomes and halving the chromosome number to 23 (still duplicated).",
+        "B": "Correct. Each secondary spermatocyte (23 duplicated chromosomes) completes the second meiotic division — separating sister chromatids, with no further DNA replication beforehand — to give two spermatids, each with a genuinely haploid 23 single chromosomes. The first division is reductional (halves the number); the second is equational (separates sister chromatids), and it is specifically the second division that turns a secondary spermatocyte into a spermatid.",
+        "C": "Incorrect. Mitosis produces two genetically identical diploid daughter cells and plays no part in the reductional divisions of spermatogenesis.",
+        "D": "Incorrect. Binary fission is a prokaryotic (bacterial) mode of cell division, not a process human germ cells use."
+      },
+      "topic": "Genetics",
+      "subtopic": "Meiosis and gametogenesis",
+      "main_concept": "CON-DEV-874A4B94DBF067",
+      "concept_ids": [
+        "CON-DEV-874A4B94DBF067"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.3,
+      "reasoning_level": 2,
+      "inferred_difficulty": 50,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-GENETICS-MEIOSIS"
+      ],
+      "learning_objective": "State that a secondary spermatocyte becomes a spermatid via the second meiotic division.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q6 (also Formative 2023 Q6, EOY Final 2026 Q44)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q6 / 2023 Q6, EOY Final 2026 Q44; source-JSON extraction. Lane 2's fourth and final deferred candidate — no meiosis-II/spermatid concept existed anywhere in the corpus; concept minted by this lane."
+      }
+    }
+  ]
+}

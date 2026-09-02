@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-nasal-bone",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-nasal-bone'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "msk",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Osteology of the Skull"
+  },
+  "questions": [
+    {
+      "key": "anatomy-nasal-bone",
+      "id": "QST-SCUFBS102-S2-ANATOMY-NASAL-BONE",
+      "title": "Classifying the nasal bone as facial or cranial",
+      "question": "Which of the following bones is anatomically considered a facial bone?",
+      "options": {
+        "A": "Occipital bone",
+        "B": "Sphenoid bone",
+        "C": "Ethmoid bone",
+        "D": "Nasal bone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The occipital bone is part of the neurocranium, forming part of the vault and base of the skull that encloses the brain.",
+        "B": "Incorrect. The sphenoid bone is also neurocranial — it forms much of the middle cranial fossa floor and carries the skull-base foramina (rotundum, ovale, spinosum).",
+        "C": "Incorrect. The ethmoid bone, despite bordering the nasal cavity, is classified as neurocranial because it also contributes to the anterior cranial fossa floor — a common trap in this question.",
+        "D": "Correct. The skull's bones split into the neurocranium (occipital, sphenoid, ethmoid, frontal, and the paired parietal and temporal bones), which vaults the brain, and the viscerocranium or facial skeleton, which frames the face. The nasal bone, forming the bridge of the nose, belongs to the facial group. The other three options — occipital, sphenoid and ethmoid — are all neurocranial bones despite two of them (sphenoid, ethmoid) also bordering facial structures."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system: skull",
+      "main_concept": "CON-MSK-D1FA39D2D2AEA6",
+      "concept_ids": [
+        "CON-MSK-D1FA39D2D2AEA6"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 60,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-SKULL-OSTEOLOGY"
+      ],
+      "learning_objective": "Sort the nasal bone correctly into the facial (viscerocranial) group rather than the neurocranial group.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q17",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q17; source-JSON extraction."
+      }
+    }
+  ]
+}

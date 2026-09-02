@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-posteriolateral",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-posteriolateral'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "msk",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Anatomical Terminology"
+  },
+  "questions": [
+    {
+      "key": "anatomy-posteriolateral",
+      "id": "QST-SCUFBS102-S2-ANATOMY-POSTERIOLATERAL",
+      "title": "Naming a position behind and to the side of the midline",
+      "question": "Which of the following terms correctly describes a position that is both behind and outside of the body midline?",
+      "options": {
+        "A": "Anteriomedial",
+        "B": "Posteriolateral",
+        "C": "Anteriolateral position",
+        "D": "Posteriomedial"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Anteromedial names a position that is in front (anterior) and toward the midline (medial) — the opposite combination on both axes from the one described.",
+        "B": "Correct. Anatomical position terms combine a front/back axis (anterior/posterior) with a side axis (medial/lateral). Posterolateral names a position that is both posterior (behind) and lateral (away from the midline), the specific combination asked for here.",
+        "C": "Incorrect. Anterolateral is in front (anterior) and away from the midline (lateral) — correct on the side axis but wrong on the front/back axis.",
+        "D": "Incorrect. Posteromedial is behind (posterior) but toward the midline (medial) — correct on the front/back axis but wrong on the side axis."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Anatomical position and terminology",
+      "main_concept": "CON-MSK-FBEAFF9582394D",
+      "concept_ids": [
+        "CON-MSK-FBEAFF9582394D"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Definition",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 55,
+      "exam_relevance": 3,
+      "clinical_relevance": 0.15,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-JOINTS-TERMINOLOGY"
+      ],
+      "learning_objective": "Combine the anterior/posterior and medial/lateral axes correctly to define posterolateral.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q4",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q4; source-JSON extraction. Stem in the source reads \"both below and outside of the body midline\" (below = inferior), yet all four options are antero-/postero- x medial/lateral pairs with no superior/inferior option — read here as the paper's own loose phrasing for \"behind\", consistent with the option set actually offered and the printed key (Posteriolateral)."
+      }
+    }
+  ]
+}

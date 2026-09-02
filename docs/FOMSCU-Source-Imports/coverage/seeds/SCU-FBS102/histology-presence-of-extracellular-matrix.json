@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-presence-of-extracellular-matrix",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'histology-presence-of-extracellular-matrix'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Connective Tissue"
+  },
+  "questions": [
+    {
+      "key": "histology-presence-of-extracellular-matrix",
+      "id": "QST-SCUFBS102-S2-HISTOLOGY-PRESENCE-OF-EXTRACELLULAR-MATRIX",
+      "title": "The defining feature of connective tissue",
+      "question": "Which of the following is considered a main characteristic feature of connective tissue?",
+      "options": {
+        "A": "Absence of any blood vessels",
+        "B": "Presence of extracellular matrix",
+        "C": "Cells closely packed together",
+        "D": "Resting on a basement membrane"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Avascularity is a feature of epithelium (which is nourished by diffusion from underlying connective tissue), not connective tissue itself, which is generally well vascularised.",
+        "B": "Correct. Connective tissue is defined by having relatively few cells widely separated by an abundant extracellular matrix — ground substance plus fibres — that the cells themselves secrete. This is the opposite arrangement from epithelium, whose cells sit closely packed with minimal matrix between them. The sheer bulk of matrix relative to cells is what a histology slide of connective tissue shows at a glance.",
+        "C": "Incorrect. Closely packed cells with minimal intervening material describe epithelium, not connective tissue.",
+        "D": "Incorrect. Resting on a basement membrane is a feature of epithelium, which sits on this specialised layer separating it from the underlying connective tissue."
+      },
+      "topic": "Histology",
+      "subtopic": "Basic tissue types",
+      "main_concept": "CON-FND-BCC7B2E4FDB202",
+      "concept_ids": [
+        "CON-FND-BCC7B2E4FDB202"
+      ],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.15,
+      "reasoning_level": 1,
+      "inferred_difficulty": 70,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-HIST-CELL-TISSUE-BASICS"
+      ],
+      "learning_objective": "Name an abundant extracellular matrix as connective tissue's defining feature.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q32",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q32; source-JSON extraction."
+      }
+    }
+  ]
+}

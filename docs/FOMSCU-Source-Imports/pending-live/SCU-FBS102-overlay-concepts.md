@@ -780,6 +780,7 @@ SCU-FBS102 > Histology > Cytology > Cell Membrane
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q30 (also 2022 Q10) — tests phospholipids as the membrane-forming component. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+scu2: (lane 3, scu-fbs102-author3) EOY Final 2026 Q53 — same concept, different question: tests the membrane's full phospholipid/protein/glycolipid/glycoprotein composition, stated in this concept's own definition.
 
 ---
 
@@ -1005,6 +1006,7 @@ SCU-FBS102 > Histology > Cytology > Cytoplasmic Organelles
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, EOM 2026 Q10 and EOY 2026 Q23 — same Golgi packaging/modification function, asked from two source papers. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+scu2: (lane 3, scu-fbs102-author3) EOM Mid 2026 Q15 — same concept, different question: tests the Golgi's stacked-saccule EM structure directly, rather than its packaging function.
 
 ---
 
@@ -1055,6 +1057,7 @@ SCU-FBS102 > Histology > Nervous Tissue > Peripheral Nerve Coverings
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q46 (also 2022 Q26) — tests the perineurium as the per-fascicle covering. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-105-histology-concepts.md.
+scu2: (lane 3, scu-fbs102-author3) Formative and Past Exams 2021 Q22 (also 2022 Q2) — same concept, different question: tests the epineurium as the whole-trunk covering, the other of the three coverings this concept's own explicit_objective names.
 
 ---
 
@@ -1130,3 +1133,185 @@ SCU-FBS102 > Physiology > Cell Physiology > Membrane Transport
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, EOY 2026 Q57 — tests receptor-mediated endocytosis as the route lipoproteins take into cells. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---------------------------------------------------------------------------
+BATCH 3 (third author lane, scu-fbs102-author3) — the S2 minting pass's own
+9 pending-reuse rows. These 9 concepts started this lane's "new" bucket
+(from the Anatomy/Histology/Biochemistry triage clusters), but a closer
+find-existing.mjs + grep pass found each one already stated in another
+module's own pending concept batch — a gap in find-existing.mjs itself
+(its pending-batch scanner reads only a `##` heading's first line; a fact
+sitting past line 1 of a multi-line `aliases` or `definition` block is
+invisible to it). Sparse SCU tags only, never a full record, so this can
+never evict another university's data. 10 FOMSCU questions cover these 9
+concepts (alpha-glucose and glucose-alpha-linkages share one concept, the
+starch/glycogen record) — see docs/FOMSCU-Source-Imports/pending-live/
+SCU-FBS102-s2-pending-reuse-questions.md.
+
+Gate batch 3's questions together with each row's own source file (named in
+its field_notes) plus this overlay file:
+node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-s2-pending-reuse-questions.md \
+  --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md \
+  --with docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md \
+  --with docs/Kasr-Source-Imports/article/103-BMS-mcq-lipid.md \
+  --with docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md \
+  --with docs/Alexandria-Source-Imports/article/AU-MED-102-biochem-structural-articles.md \
+  --with docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md \
+  --with docs/Kasr-Source-Imports/article/102-INT-coverage.md \
+  --with docs/Kasr-Source-Imports/article/102-INT-biochemistry.md \
+  --with docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md \
+  --with docs/Kasr-Source-Imports/article/101-ISK-histology.md \
+  --with docs/Kasr-Source-Imports/article/101-ISK-histology-2.md \
+  --with docs/Kasr-Source-Imports/article/101-ISK-histology-3.md \
+  --with docs/Alexandria-Source-Imports/concept/AU-MED-105-histology-concepts.md \
+  --with docs/Alexandria-Source-Imports/article/AU-MED-105-histology-articles.md
+
+---
+
+# Item
+
+## id
+CON-FND-177A829022AC8F
+
+## label
+A fatty acid is activated to acyl-CoA in the cytosol, and only carnitine can carry it across the inner mitochondrial membrane
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Lipid Metabolism
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q55 (also 2022 Q35) — tests acyl-CoA synthetase as the fatty-acid-activating enzyme, stated in this concept's own definition. Target — apply after docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-BCF22EBBACF9E8
+
+## label
+The induced-fit model describes an enzyme's active site as flexible, reshaping around the substrate as it binds -- lipase is a textbook example of this flexible catalytic-site behaviour, contrasted with the older, rigid lock-and-key model
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Enzymes
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q70 (also 2022 Q49) — tests Fischer's lock-and-key model, stated in this concept's own pitfalls field as the contrasted rigid model. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-4706C1246E4B76
+
+## label
+Starch is the storage polysaccharide of chlorophyll-containing plants and glycogen the storage polysaccharide of animals, both branched or unbranched polymers of D-glucose linked by alpha1,4 (and, where branched, alpha1,6) glucosidic bonds
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Carbohydrates
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q25 and Q59 (also 2022 Q5 and Q39) — two FOMSCU questions on this one concept: starch's alpha-glucose composition, and amylose's alpha-1,4 linkage specifically. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-028C50A610B2A2
+
+## label
+Km is the substrate concentration that gives half the maximal velocity, and a smaller Km means higher enzyme-substrate affinity
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Enzymes
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q50 — tests the Michaelis constant's definition directly. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-B22A5E7A56EC8F
+
+## label
+The goblet cell is a unicellular exocrine gland: one flask-shaped mucous-secreting cell sitting within a surface epithelium
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Glandular Epithelium
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q28 — tests the goblet cell as the unicellular exocrine gland example directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-0E38E21957DB05
+
+## label
+Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytoplasmic Organelles
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q25 — tests rough ER's role in synthesising protein for export directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.

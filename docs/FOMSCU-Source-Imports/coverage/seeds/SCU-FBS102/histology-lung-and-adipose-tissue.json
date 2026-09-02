@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-lung-and-adipose-tissue",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'histology-lung-and-adipose-tissue'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Connective and Vascular Tissue"
+  },
+  "questions": [
+    {
+      "key": "histology-lung-and-adipose-tissue",
+      "id": "QST-SCUFBS102-S2-HISTOLOGY-LUNG-AND-ADIPOSE-TISSUE",
+      "title": "Where continuous capillaries with narrow clefts are found",
+      "question": "Continuous capillaries characterized by having narrow intercellular clefts are typically found in which of the following tissues?",
+      "options": {
+        "A": "The large liver and spleen sinusoids",
+        "B": "Lung and adipose tissue",
+        "C": "The filtering renal glomeruli structures",
+        "D": "The hormone secreting endocrine gland tissues"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The liver and spleen are the classic example of SINUSOIDAL capillaries — wide-open gaps and a discontinuous basement membrane for whole-cell and plasma-protein traffic — the structural opposite of the sealed continuous type.",
+        "B": "Correct. Continuous (somatic) capillaries have an unbroken endothelium with only narrow intercellular clefts between adjacent cells. They are built for tissue where solutes cross gradually rather than in bulk. Lung and adipose tissue, along with muscle and skin, are the classic examples of this continuous type.",
+        "C": "Incorrect. Renal glomeruli are lined by fenestrated capillaries, with pores covered by diaphragms for fast fluid filtration — a third, intermediate type between continuous and sinusoidal.",
+        "D": "Incorrect. Endocrine glands are also supplied by fenestrated capillaries, allowing rapid passage of hormones into the bloodstream — not the continuous type this question asks about."
+      },
+      "topic": "Histology",
+      "subtopic": "Vascular histology",
+      "main_concept": "CON-FND-FFB55EEEDBE376",
+      "concept_ids": [
+        "CON-FND-FFB55EEEDBE376"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.3,
+      "reasoning_level": 2,
+      "inferred_difficulty": 50,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.25,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-HIST-CELL-TISSUE-BASICS"
+      ],
+      "learning_objective": "Name lung and adipose tissue as classic sites of continuous capillaries with narrow intercellular clefts.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q18 (also Formative 2023 Q18)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q18 / 2023 Q18; source-JSON extraction."
+      }
+    }
+  ]
+}

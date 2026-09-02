@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-intracellular-receptors",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'biochemistry-intracellular-receptors'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Cell Signalling"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-intracellular-receptors",
+      "id": "QST-SCUFBS102-S2-BIOCHEMISTRY-INTRACELLULAR-RECEPTORS",
+      "title": "How steroid hormones signal",
+      "question": "Which of the following intracellular components is primarily involved in the signaling mechanism of steroid hormones?",
+      "options": {
+        "A": "The specialized surface membrane coupled G proteins",
+        "B": "Intracellular receptors",
+        "C": "The completely external cell surface membrane receptors",
+        "D": "The highly specific specialized tyrosine kinase enzymes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. G protein-coupled receptors sit on the cell SURFACE and are used by water-soluble hormones, not lipid-soluble steroid hormones.",
+        "B": "Correct. Because steroid hormones are lipid-soluble, they cross the plasma membrane freely rather than needing a surface receptor. They bind instead to intracellular receptors in the cytoplasm or nucleus. The hormone-receptor complex then acts directly on gene expression, which is why steroid effects are slower in onset but longer-lasting than peptide-hormone effects.",
+        "C": "Incorrect. Surface membrane receptors are the mechanism for water-soluble peptide hormones, which cannot cross the membrane on their own — the opposite mechanism from a lipid-soluble steroid hormone.",
+        "D": "Incorrect. Tyrosine kinase receptors are another surface-membrane mechanism, used by hormones such as insulin, not by lipid-soluble steroid hormones."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Cell signalling mechanisms",
+      "main_concept": "CON-FND-DDD7B6BEBE1FA3",
+      "concept_ids": [
+        "CON-FND-DDD7B6BEBE1FA3"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.3,
+      "reasoning_level": 2,
+      "inferred_difficulty": 50,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.3,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-BIOCHEM-MOLECULAR-BASICS"
+      ],
+      "learning_objective": "State that steroid hormones signal through intracellular receptors because they are lipid-soluble.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q50 (also 2022 Q30)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q50 / 2022 Q30; source-JSON extraction."
+      }
+    }
+  ]
+}
