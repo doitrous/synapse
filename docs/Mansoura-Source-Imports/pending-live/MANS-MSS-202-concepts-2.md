@@ -116,6 +116,7 @@ The cephalic vein starts laterally and ends in the axillary vein; the basilic st
 
 ## field_notes
 universityNotes: mans: MSS Past Years.pdf p.8 tests "the cephalic vein drains its venous blood into..." (keyed D, the axillary vein), authored directly against this concept.
+universityNotes: mans: lane 3 also authors p.29's "the cephalic vein: arises in the region of the anatomical snuffbox" (keyed A), against the same concept.
 sourceFile: docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md
 
 ---
@@ -142,6 +143,7 @@ A fracture of the humeral shaft catches the radial nerve in the spiral groove an
 
 ## field_notes
 universityNotes: mans: MSS Past Years.pdf p.9 tests "fracture of the mid shaft of the humerus usually causes the following deformity" (keyed C, wrist drop), authored directly against this concept.
+universityNotes: mans: lane 3 also authors p.39's horse-riding vignette (elbow drop, wrist drop, finger drop, keyed B, radial nerve), against the same concept.
 sourceFile: docs/Kasr-Source-Imports/concept/101-ISK-concepts.md
 
 ---
