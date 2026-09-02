@@ -49,12 +49,13 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 229 | 4 | 208 | 441 |
+| quizzes-2022 | 239 | 5 | 197 | 441 |
 
 ## Held
 - quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q204 — Printed key names neutrophils as the cell whose fusion forms Langhans' giant cells (Quiz 25 Q7: 'Langhans' giant cells result from fusion of: ... The correct answer is: neutrophils'), but this is pathologically wrong -- Langhans giant cells form from the fusion of activated epithelioid macrophages, not neutrophils, a fact this same lecture's own Q3/Q5 rows (macrophage as the key granuloma cell; epithelioid cells as modified macrophages) directly contradict. Held per the printed-key-vs-pathology-fact conflict rule (same handling as Q19, Q25, Q47, Q166 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q224 — Printed key names Norepinephrine as least likely to cause tachycardia in a recent heart-transplant patient (Quiz 28 Q3: 'Which one of the following drugs is least likely to cause tachycardia in this patient? ... The correct answer is: Norepinephrine'). This is a printed-key/pharmacology conflict: in a normally innervated patient, norepinephrine's alpha1-mediated pressor effect triggers baroreceptor-mediated reflex (vagal) bradycardia that partially offsets its own direct beta1 chronotropic effect, making its net heart-rate effect comparatively small -- but the standard teaching point about a denervated transplanted heart is that this vagal reflex arc to the heart is severed and does not return, so the compensatory bradycardia cannot occur and norepinephrine's direct chronotropic effect would be unopposed, if anything producing MORE tachycardia in a transplant patient than in a normally innervated one, not less. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47, Q166, Q204 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q238 — Printed key names Benign prostatic hypertrophy as the least likely clinical use of alpha1-adrenoceptor antagonists (Quiz 30 Q5: 'Which of the following is the least likely clinical use for alpha-adrenoceptor antagonists? ... The correct answer is: Benign prostatic hypertrophy'), but this contradicts standard pharmacology and this same quiz's own teaching: alpha1 blockers are a mainstay of BPH treatment by relaxing prostatic/bladder-neck smooth muscle. Q3 of this same quiz (q236) names tamsulosin's alpha1A selectivity as specifically suited to BPH, and Q11 (q244) states as a FALSE statement that prazosin 'is not beneficial in patients with BPH' -- confirming prazosin IS beneficial in BPH. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47, Q166, Q204, Q224 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
@@ -103,17 +104,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q234
-- quizzes-2022-q235
-- quizzes-2022-q236
-- quizzes-2022-q237
-- quizzes-2022-q238
-- quizzes-2022-q239
-- quizzes-2022-q240
-- quizzes-2022-q241
-- quizzes-2022-q242
-- quizzes-2022-q243
-- quizzes-2022-q244
 - quizzes-2022-q245
 - quizzes-2022-q246
 - quizzes-2022-q247

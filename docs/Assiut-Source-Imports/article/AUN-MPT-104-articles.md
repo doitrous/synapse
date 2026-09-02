@@ -2367,3 +2367,186 @@ Block: body
 ### definition_of · CON-FND-3C513E02CB8362
 Quote: Keloid formation is an exaggerated variant of the same repair process: fibroblasts lay down abundant, disorganised collagen well beyond the original wound margin, producing a firm, raised, non-tender nodule under intact epithelium
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## title
+Sympathetic antagonists 1: alpha and beta blockade, subtype selectivity and pheochromocytoma
+
+## arabic_title
+مضادات الودي 1: حصار ألفا وبيتا، الانتقائية الفرعية، والفيوكروموسيتوما
+
+## aliases
+Sympathetic nervous system (antagonists) 1
+Lecture 30
+Alpha blockers
+Beta blockers
+
+## subject
+fnd
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Alpha/beta blockade, subtype selectivity, pheochromocytoma
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 30 turns from sympathetic agonists to antagonists: drugs that block alpha- and/or beta-adrenoceptors. Labetalol blocks both alpha1 and beta receptors together, unlike a pure beta-blocker such as propranolol. Among the alpha1-selective agents, prazosin dilates arterioles and veins (useful in hypertension and BPH, but prone to first-dose postural hypotension), while tamsulosin's alpha1A subtype selectivity makes it the preferred choice specifically for BPH, and doxazosin's long, roughly 36-hour duration supports once-daily dosing. Clonidine works differently again, stimulating presynaptic alpha2 autoreceptors to inhibit further norepinephrine release. Phentolamine, a nonselective alpha1/alpha2 antagonist, pairs with a beta blocker such as nadolol to manage pheochromocytoma's combined alpha- and beta-mediated catecholamine excess. Underlying all of this is the alpha1 receptor's own Gq-coupled signalling: stimulation raises IP3 and DAG, increasing intracellular calcium.
+
+## sections
+### Definition
+Labetalol is an antihypertensive that antagonises both alpha1-adrenoceptors and beta-adrenoceptors, combining the peripheral vasodilation of alpha1 blockade with the reduced heart rate and cardiac output of beta blockade -- the property that distinguishes it from a pure beta-blocker such as propranolol, which has no alpha1-blocking action of its own. Prazosin is a selective alpha1-adrenoceptor antagonist: it blocks epinephrine's alpha1-mediated mydriasis (without affecting epinephrine's beta-mediated heart-rate or stroke-volume effects), dilates arterioles and veins, and is beneficial in benign prostatic hypertrophy (BPH) by relaxing prostatic and bladder-neck smooth muscle -- though its abrupt vasodilation on the first dose can cause postural hypotension with dizziness and fainting.
+
+### Mechanism
+Among the alpha1 blockers, subtype selectivity matters clinically: tamsulosin is selective for the alpha1A subtype that predominates in prostatic/bladder-neck smooth muscle, making it the most appropriate choice specifically for BPH among the options, with comparatively less vascular alpha1 blockade than a nonselective agent. Doxazosin, another alpha1 blocker, has a long duration of action of about 36 hours, supporting once-daily dosing. Clonidine acts through a different receptor: it stimulates presynaptic alpha2-adrenoceptors, which function as autoreceptors providing negative feedback -- their stimulation inhibits further norepinephrine release from the sympathetic nerve ending, the mechanism behind clonidine's centrally-mediated antihypertensive effect. Phentolamine is a nonselective alpha-adrenoceptor antagonist, blocking both alpha1 and alpha2 receptors and lowering blood pressure through this combined action; paired with a beta blocker such as nadolol, it treats pheochromocytoma by controlling both the alpha-mediated vasoconstriction/hypertension and the beta-mediated tachycardia the tumour's catecholamine excess drives. At the receptor level, alpha1-adrenoceptors are Gq-protein-coupled: their stimulation activates phospholipase C, generating IP3 and DAG as second messengers, with IP3 releasing calcium from intracellular stores to raise cytosolic calcium.
+
+### Key determinants
+A 34-year-old man on labetalol for hypertension experiences a cardiovascular effect from combined alpha1 and beta blockade, not beta blockade alone. Prazosin, given for hypertension or BPH, is expected to cause postural hypotension and dizziness specifically after the first dose, dilate both arterioles and veins, and remain beneficial (not contraindicated) in a patient with BPH. A 14-year-old given IV phentolamine mesylate receives it because it decreases blood pressure by blocking both alpha1 and alpha2 receptors -- its nonselective mechanism -- while a hypertensive patient prescribed prazosin should be warned about first-dose postural hypotension as a known effect, not treated as an unrelated adverse event.
+
+### Clinical significance
+Choosing labetalol over propranolol for a patient in whom alpha1 blockade's added vasodilation is desirable, or tamsulosin over prazosin when the treatment goal is specifically BPH symptom relief with less blood-pressure effect, both depend on recognising each drug's specific receptor-selectivity profile rather than treating "alpha blocker" or "beta blocker" as one interchangeable class. Pheochromocytoma management specifically requires alpha blockade (e.g. phentolamine) before or together with beta blockade (e.g. nadolol) -- never a beta blocker started first or alone, which would leave the tumour's alpha-mediated vasoconstriction unopposed. Warning a patient starting prazosin about the first-dose postural-hypotension effect, and dosing accordingly, avoids a preventable fall or syncope.
+
+### Common misconceptions
+Treating labetalol as just another beta-blocker like propranolol, missing its defining added alpha1-blocking action. Assuming any alpha1 blocker is equally suited to BPH, rather than recognising tamsulosin's alpha1A subtype selectivity as the specific reason it is preferred. Assuming alpha2-receptor stimulation (as with clonidine) enhances rather than inhibits further norepinephrine release, or confusing a presynaptic autoreceptor's negative-feedback role with a postsynaptic receptor's excitatory one. Believing prazosin is not beneficial in BPH, or that phentolamine's mechanism is alpha1-selective rather than nonselective (alpha1 and alpha2 together). Confusing alpha1's Gq/IP3/DAG/calcium signalling with the Gs/cAMP pathway of beta receptors.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Labetalol blocks both alpha1 and beta receptors; propranolol blocks beta receptors only.
+Prazosin blocks epinephrine's alpha1-mediated mydriasis, dilates arterioles and veins, benefits BPH, and can cause first-dose postural hypotension.
+Tamsulosin's alpha1A subtype selectivity makes it the preferred alpha blocker for BPH; doxazosin's duration of action is about 36 hours.
+Clonidine stimulates presynaptic alpha2 autoreceptors, inhibiting further norepinephrine release.
+Phentolamine is a nonselective alpha1/alpha2 antagonist; combined with a beta blocker (e.g. nadolol), it treats pheochromocytoma.
+Alpha1-receptor stimulation raises IP3 and DAG, increasing intracellular calcium (Gq-coupled signalling).
+
+## lose_the_mark
+Naming only beta blockade, not combined alpha1+beta blockade, as labetalol's mechanism.
+Naming a drug or action prazosin does not have, or claiming prazosin is not beneficial in BPH.
+Choosing any alpha1 blocker other than tamsulosin as most appropriate for BPH via alpha1A selectivity, or misstating doxazosin's duration of action.
+Reversing clonidine's presynaptic alpha2 effect (claiming it enhances rather than inhibits norepinephrine release).
+Selecting an alpha-blocker-only or beta-blocker-only combination for pheochromocytoma instead of a combined alpha+beta pair.
+Naming a Gs/cAMP pathway instead of Gq/IP3/DAG/calcium for alpha1-receptor signalling.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-336D4E2FB4FDE2
+CON-FND-1E5ADF2DEB83AF
+CON-FND-04576C33B4A433
+CON-FND-122E61D54D6B33
+CON-FND-60671E2F8BA372
+CON-FND-EE37B17A3F012A
+CON-FND-72AE046215C924
+CON-FND-533365E0002414
+CON-FND-079D093B2D302D
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 30 (Sympathetic nervous system (antagonists) 1) -- no department slide deck exists in the corpus past Lecture 8, so all nine mints cite the quiz bank's own printed-answer text instead. Q5 (least likely clinical use of alpha1-adrenoceptor antagonists, printed key "Benign prostatic hypertrophy") is held: this same lecture's own Q3 (tamsulosin for BPH via alpha1A selectivity) and Q11 (prazosin confirmed beneficial in BPH) directly contradict BPH as a "least likely" alpha-blocker use, a printed-key/pharmacology conflict.
+
+## annotations
+### definition_of · CON-FND-336D4E2FB4FDE2
+Quote: Labetalol is an antihypertensive that antagonises both alpha1-adrenoceptors and beta-adrenoceptors, combining the peripheral vasodilation of alpha1 blockade with the reduced heart rate and cardiac output of beta blockade
+Block: body
+
+### definition_of · CON-FND-1E5ADF2DEB83AF
+Quote: Prazosin is a selective alpha1-adrenoceptor antagonist: it blocks epinephrine's alpha1-mediated mydriasis (without affecting epinephrine's beta-mediated heart-rate or stroke-volume effects)
+Block: body
+
+### definition_of · CON-FND-04576C33B4A433
+Quote: tamsulosin is selective for the alpha1A subtype that predominates in prostatic/bladder-neck smooth muscle, making it the most appropriate choice specifically for BPH among the options
+Block: body
+
+### definition_of · CON-FND-122E61D54D6B33
+Quote: Doxazosin, another alpha1 blocker, has a long duration of action of about 36 hours, supporting once-daily dosing
+Block: body
+
+### definition_of · CON-FND-60671E2F8BA372
+Quote: Clonidine acts through a different receptor: it stimulates presynaptic alpha2-adrenoceptors, which function as autoreceptors providing negative feedback -- their stimulation inhibits further norepinephrine release from the sympathetic nerve ending
+Block: body
+
+### definition_of · CON-FND-EE37B17A3F012A
+Quote: paired with a beta blocker such as nadolol, it treats pheochromocytoma by controlling both the alpha-mediated vasoconstriction/hypertension and the beta-mediated tachycardia the tumour's catecholamine excess drives
+Block: body
+
+### definition_of · CON-FND-72AE046215C924
+Quote: alpha1-adrenoceptors are Gq-protein-coupled: their stimulation activates phospholipase C, generating IP3 and DAG as second messengers, with IP3 releasing calcium from intracellular stores to raise cytosolic calcium
+Block: body
+
+### definition_of · CON-FND-533365E0002414
+Quote: Phentolamine is a nonselective alpha-adrenoceptor antagonist, blocking both alpha1 and alpha2 receptors and lowering blood pressure through this combined action
+Block: body
+
+### definition_of · CON-FND-079D093B2D302D
+Quote: Prazosin, given for hypertension or BPH, is expected to cause postural hypotension and dizziness specifically after the first dose, dilate both arterioles and veins, and remain beneficial (not contraindicated) in a patient with BPH
+Block: body

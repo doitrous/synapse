@@ -9490,3 +9490,1324 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "factors affecting wound healing" and "wound healing sutures" -- 0 hits, new concept.
 relationships: paired with CON-FND-DA7931EDFB7CDF (first vs second intention) as the lecture's other tissue-repair-factors grain.
+
+---
+
+# Item
+
+## id
+CON-FND-336D4E2FB4FDE2
+
+## label
+Labetalol antagonises both alpha1 and beta adrenoceptors, unlike a pure beta-blocker such as propranolol
+
+## canonical_key
+teaching.pharmacology.labetalol.combined-alpha-beta-blockade
+
+## aliases
+Combined alpha and beta blockade
+Labetalol mechanism
+
+## arabic_label
+لابيتالول: حصار مستقبلات ألفا وبيتا معاً
+
+## arabic_aliases
+حصار مشترك لمستقبلات ألفا وبيتا
+
+## definition
+Labetalol is an antihypertensive that antagonises both alpha1-adrenoceptors and beta-adrenoceptors, rather than beta receptors alone. Its cardiovascular effect therefore combines the peripheral vasodilation of alpha1 blockade with the reduction in heart rate and cardiac output of beta blockade. This dual action is the key feature distinguishing labetalol from a pure beta-blocker such as propranolol, which blocks only beta-adrenoceptors and has no alpha1-blocking activity of its own.
+
+## explicit_objective
+State that labetalol acts as a combined alpha1- and beta-adrenoceptor antagonist, and identify alpha1-receptor blockade as the specific property that distinguishes it from a pure beta-blocker like propranolol.
+
+## pitfalls
+Assuming labetalol is simply another selective or nonselective beta-blocker like propranolol -- its defining pharmacological feature, tested repeatedly, is that it also blocks alpha1-adrenoceptors, which propranolol does not.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Labetalol combined blockade
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-079D093B2D302D
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 34-year-old man is prescribed labetalol for hypertension. The effect on the cardiovascular system is a result of its action as an antagonist at which of the following? ... Both alpha and beta-adrenoceptors" (Quiz 30 Q1); "Labetalol is an effective antihypertensive agent that, like propranolol, is capable of blocking beta receptors. An important difference between the two drugs is that labetalol: ... has alpha1 receptor blocking actions" (Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "labetalol alpha beta blocker" -- 0 hits, new concept.
+relationships: two quiz rows (Q1/Q7) collapsed onto this one concept -- the same labetalol dual-blockade fact tested by mechanism (Q1) and by contrast with propranolol (Q7).
+
+---
+
+# Item
+
+## id
+CON-FND-1E5ADF2DEB83AF
+
+## label
+Prazosin (alpha1 blockade) prevents epinephrine's mydriasis without blocking its other adrenergic actions
+
+## canonical_key
+teaching.pharmacology.prazosin.blocks-alpha1-mediated-mydriasis
+
+## aliases
+Alpha1 blockade and mydriasis
+Prazosin mechanism
+
+## arabic_label
+البرازوسين يمنع توسع الحدقة الناتج عن الأدرينالين
+
+## arabic_aliases
+حصار مستقبلات ألفا 1 وتوسع الحدقة
+
+## definition
+Epinephrine produces mydriasis (pupil dilation) by activating alpha1-adrenoceptors on the iris dilator muscle. Prazosin is a selective alpha1-adrenoceptor antagonist, so pretreatment with prazosin blocks this specific alpha1-mediated action of epinephrine, preventing the mydriasis that would otherwise occur. Epinephrine's other actions mediated through beta-adrenoceptors -- such as increased heart rate and increased cardiac stroke volume -- are not blocked by prazosin, since those depend on a different receptor family that prazosin does not antagonise.
+
+## explicit_objective
+Identify mydriasis as the specific epinephrine action blocked by the alpha1-selective antagonist prazosin, distinguishing it from epinephrine's beta-receptor-mediated cardiac actions, which prazosin does not block.
+
+## pitfalls
+Assuming an alpha1 blocker like prazosin blocks every action of epinephrine -- prazosin blocks only the alpha1-mediated actions (such as mydriasis), leaving epinephrine's beta-mediated cardiac effects (heart rate, stroke volume) and beta2-mediated bronchodilation unaffected.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Alpha1 blockade selectivity
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-079D093B2D302D
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following actions of epinephrine is blocked by prazosin? ... Mydriasis" (Quiz 30 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "prazosin blocks mydriasis" -- 0 hits, new concept.
+relationships: paired with CON-FND-079D093B2D302D (prazosin's own clinical profile) as a second, mechanism-level prazosin grain.
+
+---
+
+# Item
+
+## id
+CON-FND-04576C33B4A433
+
+## label
+Tamsulosin's alpha1A selectivity makes it the preferred alpha blocker for benign prostatic hypertrophy
+
+## canonical_key
+teaching.pharmacology.tamsulosin.alpha1a-selectivity-bph
+
+## aliases
+Alpha1A subtype selectivity
+Tamsulosin for BPH
+
+## arabic_label
+تامسولوسين وانتقائية مستقبلات ألفا 1أ في تضخم البروستاتا
+
+## arabic_aliases
+انتقائية تامسولوسين لعلاج تضخم البروستاتا الحميد
+
+## definition
+Alpha1-adrenoceptors have subtypes, and the alpha1A subtype predominates in prostatic and lower-urinary-tract smooth muscle. Tamsulosin is selective for the alpha1A subtype, which relaxes prostatic and bladder-neck smooth muscle to relieve the obstructive symptoms of benign prostatic hypertrophy (BPH) while producing comparatively less vascular (blood-pressure-lowering) alpha1 blockade than a nonselective alpha1 antagonist. This alpha1A selectivity is why tamsulosin, among the alpha blockers, is the one most specifically favoured for BPH.
+
+## explicit_objective
+State that tamsulosin's selectivity for the alpha1A receptor subtype, concentrated in prostatic/bladder-neck smooth muscle, is why it is the most appropriate alpha blocker choice for benign prostatic hypertrophy among nonselective alternatives.
+
+## pitfalls
+Assuming any alpha1 blocker is equally suited to BPH -- the exam point is specifically alpha1A subtype selectivity, which concentrates the drug's effect on prostatic/bladder-neck smooth muscle rather than the vasculature broadly.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Alpha1 subtype selectivity
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-079D093B2D302D
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following drugs is the most appropriate for treating patients with BPH (benign prostatic hypertrophy) because of selectivity on alpha1A: ... Tamsulosin" (Quiz 30 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "tamsulosin BPH alpha1A" -- 0 hits, new concept.
+relationships: distinguished from CON-FND-079D093B2D302D (prazosin's own BPH benefit/postural-hypotension profile) -- a different specific drug and its subtype-selectivity rationale.
+
+---
+
+# Item
+
+## id
+CON-FND-122E61D54D6B33
+
+## label
+Doxazosin has a long duration of action, about 36 hours
+
+## canonical_key
+teaching.pharmacology.doxazosin.duration-of-action
+
+## aliases
+Doxazosin pharmacokinetics
+Long-acting alpha blocker
+
+## arabic_label
+دوكسازوسين ومدة تأثيره الطويلة
+
+## arabic_aliases
+مدة فعالية الدوكسازوسين
+
+## definition
+Doxazosin is a long-acting alpha1-adrenoceptor antagonist used in hypertension and benign prostatic hypertrophy. Its duration of action is approximately 36 hours, considerably longer than shorter-acting alpha1 blockers such as prazosin, which allows for once-daily dosing. This pharmacokinetic property is the specific fact the exam tests about doxazosin, distinguishing it numerically from the other duration options offered.
+
+## explicit_objective
+State that doxazosin's duration of action is approximately 36 hours, supporting once-daily dosing.
+
+## pitfalls
+Confusing doxazosin's long duration with the shorter action of other alpha blockers such as prazosin -- the specific number tested here (36 hours) is what distinguishes doxazosin's dosing convenience.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Alpha blocker pharmacokinetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The duration of action of doxazosin is: ... 36 hours" (Quiz 30 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "doxazosin duration action" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone alpha-blocker pharmacokinetic fact.
+
+---
+
+# Item
+
+## id
+CON-FND-60671E2F8BA372
+
+## label
+Clonidine stimulates presynaptic alpha2 autoreceptors, inhibiting further norepinephrine release
+
+## canonical_key
+teaching.pharmacology.clonidine.presynaptic-alpha2-autoreceptor
+
+## aliases
+Presynaptic alpha2 negative feedback
+Clonidine mechanism
+
+## arabic_label
+كلونيدين ومستقبلات ألفا 2 قبل المشبكية
+
+## arabic_aliases
+تثبيط إفراز النورادرينالين عبر مستقبلات ألفا 2
+
+## definition
+Presynaptic alpha2-adrenoceptors on sympathetic nerve endings act as autoreceptors, providing negative feedback on the nerve's own neurotransmitter release. Clonidine is an alpha2 agonist that stimulates these presynaptic alpha2 receptors, which inhibits further release of norepinephrine from the nerve ending. This presynaptic inhibitory feedback -- reducing, not enhancing, transmitter release -- is the mechanism behind clonidine's centrally-mediated antihypertensive effect.
+
+## explicit_objective
+State that stimulating presynaptic alpha2 receptors (as clonidine does) inhibits norepinephrine release from the sympathetic nerve ending, rather than enhancing it or acting on postsynaptic/cholinergic pathways.
+
+## pitfalls
+Confusing a presynaptic alpha2 autoreceptor's negative-feedback role with a postsynaptic receptor's excitatory role, or assuming alpha2 stimulation enhances rather than inhibits further transmitter release.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Presynaptic alpha2 autoreceptors
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Stimulation of presynaptic alpha2 receptors by clonidine results in: ... Inhibition of NEP release from nerve ending" (Quiz 30 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "clonidine presynaptic alpha2 autoreceptor" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone autonomic-pharmacology mechanism.
+
+---
+
+# Item
+
+## id
+CON-FND-EE37B17A3F012A
+
+## label
+Combined alpha and beta blockade (phentolamine plus nadolol) treats pheochromocytoma
+
+## canonical_key
+teaching.pharmacology.pheochromocytoma.combined-alpha-beta-blockade-treatment
+
+## aliases
+Pheochromocytoma pharmacotherapy
+Phentolamine plus beta blocker
+
+## arabic_label
+علاج الفيوكروموسيتوما بحصار ألفا وبيتا معاً
+
+## arabic_aliases
+فينتولامين مع نادولول لعلاج الفيوكروموسيتوما
+
+## definition
+Pheochromocytoma is a catecholamine-secreting tumour whose excess epinephrine and norepinephrine drive both alpha-mediated vasoconstriction/hypertension and beta-mediated tachycardia. Management combines an alpha blocker such as phentolamine with a beta blocker such as nadolol, controlling both arms of the catecholamine excess. Among the drug pairs offered, phentolamine plus nadolol is the combination that supplies both an alpha antagonist and a beta antagonist together, which is why it is the better choice for this patient.
+
+## explicit_objective
+State that pheochromocytoma is managed with combined alpha- and beta-adrenoceptor blockade (e.g. phentolamine plus nadolol), rather than an alpha-blocker-only or beta-blocker-only combination.
+
+## pitfalls
+Choosing a combination of two alpha blockers (no beta component) or omitting the alpha blocker altogether -- pheochromocytoma management specifically needs both receptor families blocked, and alpha blockade must never be started after an unopposed beta blocker.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Pheochromocytoma pharmacotherapy
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-533365E0002414
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pheochromocytoma is better to be treated by: ... Phentolamine + nadolol" (Quiz 30 Q8).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "phentolamine pheochromocytoma nadolol" -- 0 hits, new concept.
+relationships: paired with CON-FND-533365E0002414 (phentolamine's own nonselective-blockade mechanism) as the lecture's second phentolamine grain.
+
+---
+
+# Item
+
+## id
+CON-FND-72AE046215C924
+
+## label
+Alpha1-adrenoceptor stimulation raises IP3 and DAG, increasing intracellular calcium
+
+## canonical_key
+teaching.pharmacology.alpha1-receptor.ip3-dag-calcium-signalling
+
+## aliases
+Alpha1 receptor second messengers
+Gq-coupled alpha1 signalling
+
+## arabic_label
+مستقبلات ألفا 1 ومسار IP3 وDAG
+
+## arabic_aliases
+إشارات الكالسيوم عبر مستقبلات ألفا 1
+
+## definition
+Alpha1-adrenoceptors are Gq-protein-coupled receptors. Their stimulation activates phospholipase C, generating the second messengers IP3 (inositol trisphosphate) and DAG (diacylglycerol); IP3 releases calcium from intracellular stores, raising cytosolic calcium and producing the receptor's downstream effects such as smooth-muscle contraction. This IP3/DAG/calcium signalling pathway is specific to Gq-coupled receptors like alpha1, distinguishing it from beta-adrenoceptors (Gs-coupled, cAMP) or muscarinic M2 receptors (Gi-coupled, decreased cAMP).
+
+## explicit_objective
+Identify alpha1-adrenoceptor stimulation as the autonomic receptor pathway that raises IP3 and DAG and increases intracellular calcium, distinguishing it from beta-adrenergic, dopaminergic and muscarinic M2 signalling.
+
+## pitfalls
+Confusing Gq-coupled alpha1 signalling (IP3/DAG/calcium) with Gs-coupled beta-receptor signalling (cAMP) or Gi-coupled M2/alpha2 signalling (decreased cAMP) -- each receptor family uses a distinct second-messenger system.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Alpha1 receptor signal transduction
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Stimulation of which of the following autonomic receptors would be expected to increase IP3 and DAG 'second messengers' resulting in rise of calcium? ... A1-adrenergic receptors" (Quiz 30 Q9).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "alpha1 receptor IP3 DAG calcium second messenger" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone receptor-signal-transduction fact, related in theme to Lecture 4's G-protein-coupled receptor concepts (CON-FND-47418DE70D5CDC) authored earlier in this module.
+
+---
+
+# Item
+
+## id
+CON-FND-533365E0002414
+
+## label
+Phentolamine is a nonselective alpha1/alpha2 antagonist that lowers blood pressure by blocking both alpha subtypes
+
+## canonical_key
+teaching.pharmacology.phentolamine.nonselective-alpha-blockade-mechanism
+
+## aliases
+Nonselective alpha blocker mechanism
+Phentolamine mechanism
+
+## arabic_label
+فينتولامين وحصار مستقبلات ألفا غير الانتقائي
+
+## arabic_aliases
+آلية عمل الفينتولامين
+
+## definition
+Phentolamine is a nonselective alpha-adrenoceptor antagonist, blocking both alpha1 and alpha2 receptors rather than one subtype alone. Blocking alpha1 receptors on vascular smooth muscle produces vasodilation, and this combined alpha1/alpha2 blockade is the mechanism by which phentolamine lowers blood pressure. This nonselective action is what makes it useful for acute, reversible alpha blockade -- for example in a pheochromocytoma crisis -- distinguishing it from an alpha1-selective agent such as prazosin or tamsulosin.
+
+## explicit_objective
+State that phentolamine lowers blood pressure by blocking both alpha1 and alpha2 receptors (nonselective alpha blockade), not by an alpha1-selective mechanism alone.
+
+## pitfalls
+Confusing phentolamine's nonselective alpha1/alpha2 blockade with the alpha1-selective mechanism of prazosin, tamsulosin or doxazosin -- the exam distinguishes phentolamine specifically by naming both alpha subtypes.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Nonselective alpha blockade
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-EE37B17A3F012A
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Phentolamine was used in this patient, because: ... It decreases BP by blocking receptors, both alpha 1 [and alpha 2]" (Quiz 30 Q10; the printed option text truncates after "both alpha 1," read as "both alpha 1 and alpha 2" given phentolamine's known nonselective mechanism).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+Q10's option text truncates mid-sentence in the extracted PDF text ("both alpha 1"); completed as "both alpha 1 and alpha 2" based on phentolamine's standard nonselective mechanism, since the other three options (anxiolytic effect, antipsychotic effects, increases BP) are clearly wrong regardless. No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "phentolamine nonselective alpha blocker" -- 0 hits, new concept.
+relationships: paired with CON-FND-EE37B17A3F012A (phentolamine's own pheochromocytoma-combination use) as the lecture's other phentolamine grain.
+
+---
+
+# Item
+
+## id
+CON-FND-079D093B2D302D
+
+## label
+Prazosin dilates arterioles and veins, benefits BPH, and causes postural hypotension as a first-dose effect
+
+## canonical_key
+teaching.pharmacology.prazosin.clinical-profile
+
+## aliases
+Prazosin clinical effects
+First-dose effect
+
+## arabic_label
+الخصائص السريرية للبرازوسين
+
+## arabic_aliases
+تأثير الجرعة الأولى للبرازوسين
+
+## definition
+Prazosin is a selective alpha1-adrenoceptor antagonist that dilates both arterioles and veins, lowering peripheral resistance and venous return. It is beneficial in patients with benign prostatic hypertrophy, since alpha1 blockade relaxes prostatic and bladder-neck smooth muscle. A well-known adverse effect is postural (orthostatic) hypotension with dizziness and fainting, most pronounced after the very first dose (the "first-dose effect"), a consequence of the abrupt venous and arteriolar dilation before compensatory mechanisms adjust.
+
+## explicit_objective
+State that prazosin dilates arterioles and veins, benefits patients with BPH, and causes first-dose postural hypotension with dizziness/fainting -- and identify "not beneficial in BPH" as the false statement among prazosin's properties.
+
+## pitfalls
+Believing prazosin is not beneficial in BPH -- alpha1 blockade specifically relaxes prostatic/bladder-neck smooth muscle, making prazosin (like other alpha1 blockers) beneficial in BPH, not contraindicated or ineffective.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Prazosin clinical profile
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-1E5ADF2DEB83AF
+CON-FND-336D4E2FB4FDE2
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding PRAZOSIN, one is false: ... It is not beneficial in patients with BPH [marked as the FALSE statement]" (Quiz 30 Q11).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "prazosin BPH postural hypotension first dose" -- 0 hits, new concept.
+relationships: paired with CON-FND-1E5ADF2DEB83AF (prazosin's mydriasis-blocking mechanism) and CON-FND-336D4E2FB4FDE2 (labetalol, the lecture's other combined/selective-blockade drug); this concept's own printed-key answer directly evidences why Q238 (alpha-blocker least-likely-use, marking BPH) is held as a conflict -- prazosin is confirmed beneficial in BPH by this same quiz.
