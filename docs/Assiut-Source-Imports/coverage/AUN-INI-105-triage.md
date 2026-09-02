@@ -350,3 +350,79 @@ the table itself confirms exactly 102 items).
   general properties; replication cycle; prions/fungi/HIV; genetics and
   interactions) since one flat article would have been unwieldy at this
   concept count.
+
+## Lane 7 -- Chapters 7-9 (General Mycology, Introduction to parasitology,
+## start of Trematodes)
+
+Lane 7's cluster: Chapter 7 "General Mycology" (pp.78-82, 33 items, answer
+table p82 headed "ANSWES" -- a typo) + Chapter 8 "Introduction to
+parasitology" (pp.84-85, 16 items, answer table p86; a parasitology-only
+contents page sits on p83) + the start of Chapter 9 "Trematodes" (pp.87-100,
+98 items, answer table wraps pp.99-100) until ~55 authored total.
+
+| Module | Questions read | Keys recovered | Authored | Held | Concepts -- live | pending | new |
+|---|--:|--:|--:|--:|--:|--:|--:|
+| AUN-INI-105 (ch7, Q1-33, full chapter) | 33 | 33 (100%) | 26 | 7 | 1 | 8 | 25* |
+| AUN-INI-105 (ch8, Q1-16, full chapter) | 16 | 16 (100%) | 16 | 0 | 0 | 7 | 9* |
+| AUN-INI-105 (ch9, Q1-21 of 98) | 21 | 21 (100%) | 16 | 5 | 0 | 4 | 12* |
+
+\* "new" here means newly minted **for this lane's own AUN-INI-105 concept
+files** (concept/AUN-INI-105-ch7/8/9-concepts.md); several ch9 questions
+reuse ch8's own new mints (a same-lane cross-chapter reuse, not a fresh
+mint), and "pending" counts every reuse of an already-existing
+Ain-Shams/MUST/AUN-lane-1 pending concept, including two ch9 items that
+reuse a concept already overlaid earlier in this same lane (chapters 1 and
+8), needing no second overlay row.
+
+- **Chapter 7 holds (7 of 33):** Q3 and Q21 are source-side duplicate-option
+  defects (two options print identical text, e.g. both "Budding" or both
+  "Both benefit") -- held rather than presented to students with a
+  duplicate distractor. Q13 and Q14 are printed-key-vs-textbook conflicts
+  (Q13: "the MEASURED ability to cause disease" keyed Pathogenicity where
+  the textbook term is Virulence; Q14: the printed EXCEPT key names a
+  statement that is actually true, missing the real false statement,
+  "fungal walls are peptidoglycan"). Q22, Q26, Q31 are near/exact
+  duplicates of earlier chapter-7 items (aflatoxin, tinea versicolor,
+  yeast budding respectively). Q27 prints a blank option D, leaving only 3
+  usable options.
+- **Chapter 8:** all 16 items check out against the printed key with no
+  conflicts and no duplicates -- a clean, fully-authored chapter.
+- **Chapter 9 holds (5 of 21 read):** four are printed-key-vs-textbook
+  conflicts, all involving Fasciolopsis buski or the schistosomulum: Q9
+  (largest human trematode is Fasciolopsis buski, not Fasciola hepatica,
+  the printed key); Q15 (Fasciolopsis buski lives in the intestines, not
+  the bile ducts, the printed key); Q17 (Fasciolopsis buski's snail host is
+  Segmentina, not Lymnaea -- Lymnaea is Fasciola's own snail host, the
+  printed key); Q19 (the schistosomulum matures to adult in the portal
+  circulation/liver per standard teaching, not "systemic circulation," the
+  printed key). Q21 is a duplicate-option defect (A and B both print "Both
+  benefit").
+- **Rich reuse families found this pass:** a dedicated "Fungal morphology
+  and cell wall" / "Fungal diagnosis and antifungal mechanisms" concept
+  cluster inside the pending Ain-Shams `ASU-INF-microbiology-concepts.md`
+  covers chitin, glucan/mannan, filamentous-mold morphology, dimorphism and
+  hyphae/mycelium -- reused for 6 of chapter 7's questions via a sparse
+  `+aun` overlay. A pending MUST `FHB-102-2-parasitology-introduction-
+  concepts.md` batch covers facultative/obligatory/opportunistic parasite
+  and vector definitions almost verbatim to chapter 8's own items -- reused
+  for 7 of chapter 8's questions and, again, for 4 of chapter 9's, via the
+  same overlay mechanism (two of the four ch9 reuses needed no *new*
+  overlay row at all, since chapters 1 and 8 had already overlaid the same
+  concept ids earlier in this lane's own sequence). Helwan's `HU-GIT-301`
+  parasitology batch and Mansoura's `MANS-HIS-203` were searched but turned
+  up only species-specific facts (e.g. "sheep is Echinococcus's
+  intermediate host") at a different grain from this pass's own
+  general-definition and Fasciolopsis/Heterophyes-specific questions --
+  not reused, cross-referenced in field_notes instead.
+- **Known tool gap found this pass:** `gate.mjs simulate` reported
+  `errors=0` on two pending-live overlay batches (chapter 7's and chapter
+  8's ASU-INF/MUST question files) that `validate-content-batch.mjs` then
+  caught as genuinely broken -- three questions with no `library_ids` at
+  all, so their main concept was "not covered by any article." All fixed
+  before landing; per the lane card's known-bug warning, always run the
+  direct validator, not just `gate.mjs`, on a lone pending-live batch.
+- **Stop point:** chapter 9 Q1-21 read, keyed and (16 of 21) authored; Q22
+  of 98 is the exact resume point for a later lane. Chapters 10 ("Cestode,"
+  86 items) and 11 ("Nematoda," 164 items) are entirely unread beyond the
+  structural chapter map already recorded above (page ranges, item counts,
+  answer-table locations) by lane 1's original full-source-map pass.

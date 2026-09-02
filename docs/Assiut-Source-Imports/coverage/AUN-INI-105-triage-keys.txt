@@ -346,3 +346,90 @@ ini-mcq-ch5-q071  # -- narrow spectrum antibiotics EXCEPT Levofloxacin -- new
 ini-mcq-ch5-q072  # -- drugs inhibiting cell wall synthesis: Monobactams -- new
 ini-mcq-ch5-q073  # -- chloramphenicol destroys bacteria by binding 50S ribosomal subunit -- new
 ini-mcq-ch5-q074  # -- most serious disadvantage of chloramphenicol: bone marrow suppression -- new
+# --- Chapter 7 "General Mycology" (pp.78-82, 33 items, answer table p82
+# headed "ANSWES" -- a typo) -- lane 7. All 33 items read and keyed.
+ini-mcq-ch7-q001  # -- yeasts reproduce by budding -- new
+ini-mcq-ch7-q002  # -- mycoplasma resistant to penicillin (no cell wall) -- pending (ASU-INF CON-INF-271E9930B4B73A, already overlaid by chapter 1)
+ini-mcq-ch7-q003  # -- HELD, options A and B both print "Budding" verbatim -- source-side duplicate-option defect
+ini-mcq-ch7-q004  # -- fungi are eukaryotes with nucleus and chromosomes -- new
+ini-mcq-ch7-q005  # -- mold hyphae may or may not be septate -- new
+ini-mcq-ch7-q006  # -- fungal cell wall major components chitin/glucan/mannan -- pending (ASU-INF CON-INF-37160A7BC0B002 + CON-INF-5711F66EFF586F)
+ini-mcq-ch7-q007  # -- selective toxicity of antifungals based on ergosterol -- new
+ini-mcq-ch7-q008  # -- chitin is a component of fungal cell wall -- pending (ASU-INF CON-INF-5711F66EFF586F)
+ini-mcq-ch7-q009  # -- sterol in cytoplasmic membrane of fungi -- new
+ini-mcq-ch7-q010  # -- fungi with true mycelium = filamentous fungi -- pending (ASU-INF CON-INF-8D2EDDBECE528D)
+ini-mcq-ch7-q011  # -- dimorphic fungi show yeast and filamentous forms -- pending (ASU-INF CON-INF-44400FF4328CA8)
+ini-mcq-ch7-q012  # -- flucytosine inhibits fungal DNA synthesis -- live (CON-INF-EA7790A02A4D5F)
+ini-mcq-ch7-q013  # -- HELD, printed key A (Pathogenicity) conflicts with expected answer (Virulence, C) for "the MEASURED ability to cause disease"
+ini-mcq-ch7-q014  # -- HELD, printed key C conflicts with expected EXCEPT answer (D, "peptidoglycan cell wall" is false for fungi)
+ini-mcq-ch7-q015  # -- mycelium = collection of intertwined hyphae -- pending (ASU-INF CON-INF-7213E96DAD38D1)
+ini-mcq-ch7-q016  # -- tinea versicolor = superficial mycosis -- new
+ini-mcq-ch7-q017  # -- Candida albicans recognized by yeasts + pseudohyphae -- new
+ini-mcq-ch7-q018  # -- Cryptococcus neoformans EXCEPT mycotoxins -- new
+ini-mcq-ch7-q019  # -- Aspergillus flavus produces aflatoxin -- new
+ini-mcq-ch7-q020  # -- zoospores EXCEPT non-motile (they are motile) -- new
+ini-mcq-ch7-q021  # -- Candida albicans EXCEPT respiratory-aerosol transmission -- new
+ini-mcq-ch7-q022  # -- HELD, duplicate-of ini-mcq-ch7-q019 (aflatoxin)
+ini-mcq-ch7-q023  # -- Cryptococcus neoformans causes meningitis -- new (same concept as Q18)
+ini-mcq-ch7-q024  # -- dermatophytes live in superficial keratinized tissue -- new
+ini-mcq-ch7-q025  # -- pseudohyphae seen in Candida -- new (same concept as Q17)
+ini-mcq-ch7-q026  # -- HELD, duplicate-of ini-mcq-ch7-q016 (tinea versicolor)
+ini-mcq-ch7-q027  # -- HELD, blank option D in source, only 3 usable options
+ini-mcq-ch7-q028  # -- fungal cell wall composed of chitin -- pending (ASU-INF CON-INF-5711F66EFF586F, same as Q8)
+ini-mcq-ch7-q029  # -- morphological classification of Candida = yeast -- pending (MUST CON-INF-3CCC561E727F2C)
+ini-mcq-ch7-q030  # -- fragmentation regrows mycelium -- new (same concept as Q1)
+ini-mcq-ch7-q031  # -- HELD, exact duplicate-of ini-mcq-ch7-q001 (yeasts reproduce by budding)
+ini-mcq-ch7-q032  # -- fungal cell membrane contains ergosterol -- new (same concept as Q7)
+ini-mcq-ch7-q033  # -- opportunistic fungal infection risk factors EXCEPT anaerobic wound conditions -- new
+
+# --- Chapter 8 "Introduction to parasitology" (pp.84-85, 16 items, answer
+# table p86; a parasitology-only contents page sits on p83) -- lane 7. All
+# 16 items read and keyed; none held.
+ini-mcq-ch8-q001  # -- facultative parasite: either free-living or parasitic -- pending (MUST CON-INF-F82C6307A7B7E3)
+ini-mcq-ch8-q002  # -- pseudoparasite mistaken for a parasite during exam -- new
+ini-mcq-ch8-q003  # -- obligate parasite can't live outside host -- pending (MUST CON-INF-6E41B8C3F902AD)
+ini-mcq-ch8-q004  # -- incidental parasite in a host not its ordinary one -- new
+ini-mcq-ch8-q005  # -- coprozoic: foreign species passes through gut undigested -- new (same concept as Q2)
+ini-mcq-ch8-q006  # -- erratic parasite: another site than normal within the host -- new (same concept as Q4)
+ini-mcq-ch8-q007  # -- vector may act as intermediate/definitive/transfer host -- pending (MUST CON-INF-8C35F4B1A206DE)
+ini-mcq-ch8-q008  # -- definitive host harbours adult/sexual stage -- new
+ini-mcq-ch8-q009  # -- intermediate host: all larval stages -- new (same concept as Q8)
+ini-mcq-ch8-q010  # -- reservoir host: another animal harbouring same parasite -- new (same concept as Q8)
+ini-mcq-ch8-q011  # -- paratenic host: arrested state of development -- new (same concept as Q8)
+ini-mcq-ch8-q012  # -- transfer host propagates parasite place to place -- new (same concept as Q8)
+ini-mcq-ch8-q013  # -- vector: arthropod sharing actively in life cycle -- pending (MUST CON-INF-8C35F4B1A206DE, same as Q7)
+ini-mcq-ch8-q014  # -- opportunistic parasite: disease in immunocompromised -- pending (MUST CON-INF-C79E84EB999C31)
+ini-mcq-ch8-q015  # -- parasitism: one benefits, other harmed -- pending (ASU-INF CON-INF-0B4BAFFD525FDF, already overlaid by chapter 1)
+ini-mcq-ch8-q016  # -- commensalism: one benefits, other unaffected -- pending (ASU-INF CON-INF-0B4BAFFD525FDF, same as Q15)
+
+# --- Chapter 9 "Trematodes" (pp.87-100, 98 items, answer table wraps
+# pp.99-100) -- lane 7. This pass reads/keys only Q1-21 of 98 -- the window
+# needed to bring this lane's total authored count to ~55 across chapters
+# 7-9. Q22-98 remain unread at per-question level; keys for the full 1-98
+# range were incidentally captured while reading the p99-100 answer table
+# but only Q1-21 stems/options were read, so only Q1-21 are logged here.
+# STOP POINT for this lane: chapter 9 Q21 (page 89). A later lane resumes
+# at chapter 9 Q22 (page 89-90), with 77 items remaining in this chapter
+# plus chapters 10 ("Cestode", 86 items) and 11 ("Nematoda", 164 items)
+# entirely unread.
+ini-mcq-ch9-q001  # -- symbiosis: essential association, both benefit -- pending (ASU-INF CON-INF-0B4BAFFD525FDF, already overlaid)
+ini-mcq-ch9-q002  # -- facultative parasites: either free-living or parasitic -- pending (MUST CON-INF-F82C6307A7B7E3, already overlaid)
+ini-mcq-ch9-q003  # -- obligatory parasite: completely dependent on host -- pending (MUST CON-INF-6E41B8C3F902AD, already overlaid)
+ini-mcq-ch9-q004  # -- spurious parasite = coprozoic parasite (this bank's own key) -- new (ch8 concept CON-INF-66A57CFB78A21F)
+ini-mcq-ch9-q005  # -- opportunistic parasite: disease in immunocompromised host -- pending (MUST CON-INF-C79E84EB999C31, already overlaid)
+ini-mcq-ch9-q006  # -- definitive host harbours sexual stages -- new (ch8 concept CON-INF-2541991F249506)
+ini-mcq-ch9-q007  # -- reservoir host: all of the above -- new (ch8 concept CON-INF-2541991F249506)
+ini-mcq-ch9-q008  # -- mode of parasitic infection: all of the above -- new
+ini-mcq-ch9-q009  # -- HELD, printed key D (Fasciola hepatica) conflicts with expected answer (B, Fasciolopsis buski is the largest human trematode)
+ini-mcq-ch9-q010  # -- Diphyllobothrium latum needs two intermediate hosts (EXCEPT) -- new
+ini-mcq-ch9-q011  # -- Heterophyes heterophyes: salt-water fish 2nd intermediate host -- new
+ini-mcq-ch9-q012  # -- Schistosoma mansoni eggs non-operculate (EXCEPT) -- new
+ini-mcq-ch9-q013  # -- Taenia solium needs one intermediate host (EXCEPT) -- new (same concept as Q10)
+ini-mcq-ch9-q014  # -- eggs are main pathology agent in schistosomiasis -- new
+ini-mcq-ch9-q015  # -- HELD, printed key A (Bile ducts) conflicts with expected answer (C, Intestines -- Fasciolopsis buski is the giant intestinal fluke)
+ini-mcq-ch9-q016  # -- Fasciolopsis buski infection via ingestion of metacercariae -- new
+ini-mcq-ch9-q017  # -- HELD, printed key A (Lymnaea cailliaudi) conflicts with expected answer (D, species of Segmentina -- Fasciolopsis buski's actual snail host)
+ini-mcq-ch9-q018  # -- schistosomulum = cercaria without tail -- new
+ini-mcq-ch9-q019  # -- HELD, printed key B (systemic circulation) conflicts with expected answer (C, portal circulation -- standard teaching for schistosomulum maturation)
+ini-mcq-ch9-q020  # -- trematodes require snail as intermediate host -- new
+ini-mcq-ch9-q021  # -- HELD, options A and B both print "Both benefit" verbatim -- source-side duplicate-option defect

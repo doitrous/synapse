@@ -6,6 +6,9 @@
 | ini-mcq-ch4 | 48 | 10 | 0 | 58 |
 | ini-mcq-ch5 | 65 | 9 | 0 | 74 |
 | ini-mcq-ch6 | 55 | 3 | 0 | 58 |
+| ini-mcq-ch7 | 26 | 7 | 0 | 33 |
+| ini-mcq-ch8 | 16 | 0 | 0 | 16 |
+| ini-mcq-ch9 | 16 | 5 | 0 | 21 |
 
 ## Held
 - ini-mcq-q003 — printed key (A, Cocci) conflicts with the expected textbook answer (Bacilli, C) for "rod shaped bacteria"
@@ -52,6 +55,18 @@
 - ini-mcq-ch6-q032 — source prints only 2 options (Need host cell / Reproduce by binary fission) for an EXCEPT stem, short of the seed schema's 4-option floor
 - ini-mcq-ch6-q038 — source prints only 2 options (Culture dish / Host cell), short of the seed schema's 4-option floor
 - ini-mcq-ch6-q052 — near-verbatim restatement of ini-mcq-ch6-q034 (capsomeres = individual units of capsid): "Capsomeres are?" vs Q34's "Which of the following statements are true about the capsomeres?", same four distractor concepts reordered, same correct fact -- duplicate-of ini-mcq-ch6-q034
+- ini-mcq-ch7-q003 — options A and B both print "Budding" verbatim -- source-side duplicate-option defect, ambiguous which was intended as distinct from C/D distractors
+- ini-mcq-ch7-q013 — printed key (A, Pathogenicity) conflicts with the expected textbook answer (Virulence, C) for "the MEASURED ability of an organism to cause a disease" -- virulence is textbook-defined as the quantitative/measured degree of pathogenicity
+- ini-mcq-ch7-q014 — printed key (C) conflicts with the expected EXCEPT answer (D, "both yeasts and moulds have a cell wall made of peptidoglycan" is false -- fungal walls are chitin, not peptidoglycan); option C as printed is actually a true statement (thermal dimorphism definition)
+- ini-mcq-ch7-q022 — duplicate-of ini-mcq-ch7-q019 -- near-verbatim restatement of "fungi producing mycotoxin called aflatoxin" (Aspergillus flavus), same key
+- ini-mcq-ch7-q026 — duplicate-of ini-mcq-ch7-q016 -- near-verbatim restatement of "tinea versicolor is" (superficial mycosis), shuffled option order/lettering
+- ini-mcq-ch7-q027 — source prints a blank option D ("D-" with no text), leaving only 3 usable options, short of the seed schema 4-option floor
+- ini-mcq-ch7-q031 — exact duplicate-of ini-mcq-ch7-q001 -- identical stem, options and key ("Yeasts reproduce by?", Budding)
+- ini-mcq-ch9-q009 — printed key (D, Fasciola hepatica) conflicts with the well-established textbook fact that Fasciolopsis buski (B), not Fasciola hepatica, is the largest trematode parasitizing humans
+- ini-mcq-ch9-q015 — printed key (A, Bile ducts) conflicts with the textbook fact that Fasciolopsis buski lives in the intestines (C) -- it is the giant intestinal fluke, not a biliary fluke
+- ini-mcq-ch9-q017 — printed key (A, Lymnaea cailliaudi) conflicts with the textbook fact that Fasciolopsis buski's snail host is a species of Segmentina (D); Lymnaea is instead the snail host of Fasciola hepatica
+- ini-mcq-ch9-q019 — printed key (B, systemic circulation) conflicts with standard teaching that the schistosomulum matures to adult in the portal circulation/liver (C), before migrating against portal flow to its final venous site
+- ini-mcq-ch9-q021 — options A and B both print "Both benefit" verbatim -- source-side duplicate-option defect
 
 ## Remaining
 (none)
