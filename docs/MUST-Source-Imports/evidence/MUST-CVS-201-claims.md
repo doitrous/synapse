@@ -3079,3 +3079,49 @@ no
 
 ## qualifiers
 population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-TRIPLE-RESPONSE-HISTAMINE-WHEAL-01
+
+## concept_id
+CON-CVS-7F05227FE0970F
+
+## subject
+The wheal component of the skin's triple response is mediated by histamine, released locally from mast cells
+
+## predicate
+is
+
+## object
+Histamine, released locally from mast cells activated by a stimulus such as a bee sting, directly increases capillary permeability, producing the localised swelling (wheal) and contributing to the surrounding redness of the triple response — a mechanism separate from the axon-reflex vasodilation that produces the flare.
+
+## display_text
+Histamine, released locally from mast cells activated by a stimulus such as a bee sting, directly increases capillary permeability, producing the localised swelling (wheal) and contributing to the surrounding redness of the triple response — a mechanism separate from the axon-reflex vasodilation that produces the flare.
+
+## risk_class
+treatment_or_action
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students

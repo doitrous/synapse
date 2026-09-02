@@ -2763,3 +2763,43 @@ Printed answer key on p.20 of the EOM MCQ paper (Arterial Blood Pressure section
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-TRIPLE-RESPONSE-HISTAMINE-WHEAL-01
+
+## claim_id
+CLM-CVS-TRIPLE-RESPONSE-HISTAMINE-WHEAL-01
+
+## resource_id
+src_165188e079f0f475e54d
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Physiology CVS201 Questions (Final), Capillary Circulation & Oedema Q18, key p.26] A patient presents after a bee sting with localized swelling, redness, and a pale central wheal. This "triple response" is primarily mediated by: C) Histamine.
+
+## locator_type
+printed_page
+
+## locator_page
+26
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed answer key on p.26 of the EOM MCQ paper (Capillary Circulation & Oedema section, Q1-20).
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes

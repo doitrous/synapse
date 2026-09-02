@@ -9754,10 +9754,13 @@ When skin is injured or firmly stimulated, the red "flare" that spreads beyond t
 An impulse travelling centrally along one branch of a sensory afferent fibre from the stimulated site can also travel antidromically down neighbouring branches of that same afferent neuron that innervate adjacent skin, triggering local release of vasodilator neuropeptides from the nerve terminals themselves.
 
 ### Key determinants
-Assuming the flare reflects ordinary efferent parasympathetic vasodilation. The flare's mechanism is antidromic conduction in sensory fibres, not a centrally-driven autonomic reflex.
+Assuming the flare reflects ordinary efferent parasympathetic vasodilation. The flare's mechanism is antidromic conduction in sensory fibres, not a centrally-driven autonomic reflex. Also assuming the whole triple response shares one mechanism: the flare is axon-reflex vasodilation, but the wheal is a separate, histamine-driven increase in capillary permeability.
+
+### Wheal formation
+The wheal, the localised swelling seen after a sting, is mediated by histamine released locally from mast cells, which directly increases capillary permeability — a mechanism separate from the axon-reflex vasodilation that produces the flare.
 
 ### Clinical significance
-[EOM MCQs - Physiology CVS201 Questions (Final), Q16, key p.9] The "flare reaction" in the skin is an example of vasodilation mediated by: B) Antidromic vasodilator fibers.
+[EOM MCQs - Physiology CVS201 Questions (Final), Blood Flow Q16, key p.9] The "flare reaction" in the skin is an example of vasodilation mediated by: B) Antidromic vasodilator fibers. [EOM MCQs - Physiology CVS201 Questions (Final), Capillary Circulation & Oedema Q18, key p.26] A patient presents after a bee sting with localized swelling, redness, and a pale central wheal. This "triple response" is primarily mediated by: C) Histamine.
 
 ## published_summary
 
@@ -9767,6 +9770,7 @@ Assuming the flare reflects ordinary efferent parasympathetic vasodilation. The 
 
 ## hold_these
 The skin flare reaction is vasodilation via the axon reflex, in which antidromic impulses in sensory nerve branches release local vasodilator peptides
+The wheal component of the skin's triple response is mediated by histamine, released locally from mast cells
 
 ## lose_the_mark
 Assuming the flare reflects ordinary efferent parasympathetic vasodilation. The flare's mechanism is antidromic conduction in sensory fibres, not a centrally-driven autonomic reflex.
@@ -9775,6 +9779,12 @@ Assuming the flare reflects ordinary efferent parasympathetic vasodilation. The 
 ### The skin flare reaction is vasodilation via the axon reflex, in which antidromic impulses in sensory nerve branches release local vasodilator peptides
 Claims: CLM-CVS-FLARE-REACTION-AXON-REFLEX-01
 Citations: CIT-FLARE-REACTION-AXON-REFLEX-01
+Reviewed by: Claude
+Reviewed at: 
+
+### The wheal component of the skin's triple response is mediated by histamine, released locally from mast cells
+Claims: CLM-CVS-TRIPLE-RESPONSE-HISTAMINE-WHEAL-01
+Citations: CIT-TRIPLE-RESPONSE-HISTAMINE-WHEAL-01
 Reviewed by: Claude
 Reviewed at: 
 
