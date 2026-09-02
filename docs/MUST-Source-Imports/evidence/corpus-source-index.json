@@ -5,7 +5,7 @@
   "docs/MUST-Source-Imports/manifest/y2-sources.json"
  ],
  "manifestGeneratedOn": "2026-09-02",
- "count": 35,
+ "count": 36,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -847,6 +847,30 @@
    ],
    "categories": [
     "MCQs",
+    "EOM Exam"
+   ]
+  },
+  "src_ac0704bd16ff99889463": {
+   "sourceRelativePath": "Semester 201/CVS 201/Anatomy/06 EOM Exams/EOM MCQs - Anatomy CVS201 Questions (Final).pdf",
+   "sourceRelativePaths": [
+    "Semester 201/CVS 201/Anatomy/06 EOM Exams/EOM MCQs - Anatomy CVS201 Questions (Final).pdf"
+   ],
+   "sha256": "ac0704bd16ff998894639eaf708215abe87a13b6d4aad454d0c525a755ac64e8",
+   "processingStatus": "visually_read_native_text",
+   "pageCount": 32,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y2"
+   ],
+   "moduleIds": [
+    "MUST-CVS-201"
+   ],
+   "categories": [
+    "MCQ",
     "EOM Exam"
    ]
   }

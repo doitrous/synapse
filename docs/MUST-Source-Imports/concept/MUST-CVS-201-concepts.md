@@ -1849,3 +1849,185 @@ uncertainty: Nothing about this concept is genuinely unsettled at undergraduate 
 lastReviewed: New record; no reviewer has seen it yet.
 reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
 exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+The short abdominal oesophagus is supplied by oesophageal branches of the left gastric artery, continuous with the coeliac-trunk supply of the stomach it joins
+
+## id
+CON-GIT-1817A46BEDC8BD
+
+## canonical_key
+esophagus.abdominal-part.left-gastric-artery-supply
+
+## definition
+The abdominal part of the oesophagus is its shortest segment, only about 1.25 cm long, running from the diaphragm's oesophageal hiatus in the right crus to the cardiac orifice of the stomach. Unlike the thoracic oesophagus above it, which receives oesophageal branches directly from the descending thoracic aorta, this short abdominal segment is supplied instead by oesophageal branches of the left gastric artery, itself the first and largest branch of the coeliac trunk — the same artery that supplies the lesser curvature of the stomach the abdominal oesophagus is continuous with.
+
+## explicit_objective
+State that the abdominal oesophagus is supplied by the left gastric artery, distinct from the thoracic oesophagus's direct aortic branches.
+
+## pitfalls
+Assuming the aorta's own thoracic oesophageal branches continue to supply the abdominal segment below the diaphragm. The hand-off to the coeliac-trunk-derived left gastric artery occurs exactly at the diaphragm, mirroring the same transition on the venous side (azygos system above, portal system below) that underlies oesophageal varices in portal hypertension.
+
+## concept_type
+structural_description
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+gi
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Abdominal oesophagus blood supply | Left gastric artery oesophageal branches
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Anatomy
+
+## subtopic
+Esophagus
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-GIT-ABDOMINAL-ESOPHAGUS-BLOOD-SUPPLY
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_ac0704bd16ff99889463
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GIT-ABDOMINAL-ESOPHAGUS-SUPPLY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Anatomy > Esophagus > Abdominal Part
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[Anatomy CVS201 Questions (Final), Esophagus Q15, p.22] The abdominal part of the esophagus is supplied by which artery? A) Inferior thyroid artery B) Descending thoracic aorta C) Left gastric artery D) Splenic artery — printed answer C, key p.24.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for this tranche; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+searchedBeforeMint: find-existing.mjs "left gastric artery", "abdominal esophagus" and "blood supply of abdominal esophagus" all returned no hit; a direct check of docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md's own oesophagus concept (CON-GIT-4E4EC465826CF2) confirmed it is scoped to the thoracic segment's constrictions and relations only, not the abdominal segment's blood supply — genuinely new, not a reuse miss.

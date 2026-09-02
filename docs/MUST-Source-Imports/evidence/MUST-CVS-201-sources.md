@@ -160,3 +160,58 @@ A department/student-carried MCQ EOM (End of Module) exam compilation with a pri
 
 ## is_assessment
 yes
+
+---
+
+# Item
+
+## id
+src_ac0704bd16ff99889463
+
+## title
+Anatomy CVS201 Questions (Final)
+
+## institution
+MUST — Faculty of Medicine
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-CVS-201
+
+## source_relative_path
+Semester 201/CVS 201/Anatomy/06 EOM Exams/EOM MCQs - Anatomy CVS201 Questions (Final).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-02
+
+## page_count
+32
+
+## sha256
+ac0704bd16ff998894639eaf708215abe87a13b6d4aad454d0c525a755ac64e8
+
+## rights
+Locally supplied study material; internal curriculum authoring only.
+
+## qualification
+A department/student-carried Anatomy EOM (End of Module) exam compilation with printed answer keys on each section's own final page — curriculum exam signal for what MUST CVS-201 tests, not an independent medical authority. Added to this evidence-source registry (previously only carried in resource/MUST-CVS-201-resources.md's catalogue entry) because this tranche's new mint (ESO-Q15, abdominal esophagus / left gastric artery) is the first citation in this lane to cite this resource — see evidence/MUST-CVS-201-citations.md's CIT-ABDOMINAL-ESOPHAGUS-SUPPLY-01.
+
+## confidence
+0.6
+
+## is_assessment
+yes

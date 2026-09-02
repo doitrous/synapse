@@ -323,3 +323,64 @@ rather than pushed past the ~40-50 target.
 | Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | Pending-hit (sparse overlay) | Live-hit (direct) | New mints | Authored |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | MUST-CVS-201 Anatomy (full) | 106 (100 MCQ + 6 essay) | 106/106 | 21 | 21 | 0 | 0 | 49 |
+
+## S3 — tranche 4 (2026-09-02, lane 4, branch `must-cvs201-author4`)
+
+Fourth authoring pass, closing out the Anatomy CVS201 EOM Final paper's
+remaining half: the 51 MCQs (across all five sections) tranche 3 left
+un-authored, plus the specific items its own S3 note flagged as "not
+searched/not mapped to a concept" (azygos vein AO-Q16, abdominal oesophagus
+/ left gastric artery ESO-Q15, Eisenmenger HD-Q19, situs inversus HD-Q17,
+patent-ductus-arteriosus-as-diagnosis HD-Q16). Worked directly from
+`-triage-keys.txt`'s `[A]`-tag record rather than trusting
+`MUST-CVS-201-anatomy-LEDGER.md`'s own "Remaining" list, which turned out to
+be a cosmetic artifact of tranche 3's two-segment key naming colliding with
+`ledger.mjs`'s cluster-split regex (see that file's own new "Superseded"
+note) — every source question's own [A]-tag in the triage-keys file was
+re-checked page-by-page against the actual PDF (native text,
+`pagetext.mjs status`: no garbled pages) rather than trusted from the gloss
+alone, and one gloss (ESO-Q04) turned out to describe the wrong option
+letter, caught and corrected against the printed key.
+
+50 of the 51 remaining MCQs authored (10 Blood Supply, 4 Conducting System,
+18 Arch/Descending Aorta, 10 Esophagus, 9 Heart Development), single-segment
+seed keys (`anatomy2-qNN`, cluster `anatomy2`) precisely to avoid tranche 3's
+key-collision bug. 48 of the 50 reuse the same 21 concepts tranche 3 already
+sparse-overlaid onto Kasr 104-CPS's own unimported anatomy batch and the
+Year-3 SYS-CVS catalogue (no new overlay rows needed for those); 1
+(Eisenmenger, HD-Q19) reuses a second, different pending concept from the
+same SYS-CVS-CONCEPT-T08.md file tranche 3 already overlaid for Tetralogy of
+Fallot; 1 (situs inversus, HD-Q17) extends a pending Kasr concept
+(dextrocardia/cardiac looping) whose own definition covers the mechanism but
+not the whole-body term, confirmed via `find-existing.mjs` before extending
+rather than minting; 1 (abdominal oesophagus / left gastric artery, ESO-Q15)
+is a genuine new mint — no existing concept anywhere in the corpus covers
+the abdominal segment's blood supply, confirmed by both `find-existing.mjs`
+and a direct read of the Kasr thoracic-oesophagus concept's own scope.
+
+1 question held: BS-Q15 ("Which artery supplies the conus arteriosus from
+the left side?", key B) — neither the LCA nor RCA concept's own definition
+mentions conus-artery branches, `find-existing.mjs` returned no hit for
+"conus artery" or "left conus branch" either, and minting a whole new
+concept (plus article/claims/citations) for this one narrow fact was judged
+not worth it this pass. 6 essay questions still un-authored (skipped per the
+tranche-4 dispatch scope; printed model answers on p.32 whenever a later
+pass wants them).
+
+**The Anatomy CVS201 EOM Final paper is now closed: 99/100 MCQs authored, 1
+held, 0 remaining** (6 essays outstanding, separately). New files: seed
+`coverage/seeds/MUST-CVS-201/anatomy2-pending.json`,
+`pending-live/MUST-CVS-201-anatomy2-questions.md` (50),
+`pending-live/MUST-CVS-201-anatomy2-concepts-overlay.md` (2 new overlay
+rows), `coverage/MUST-CVS-201-anatomy2-LEDGER.md`. Extended:
+`concept/`, `article/`, `evidence/{claims,citations,spans,sources}.md`
+(the ESO-Q15 new mint) and `evidence/corpus-source-index.json` (this
+lane's first citation against the Anatomy paper's own resource id,
+`src_ac0704bd16ff99889463` — not previously registered there since
+tranches 1-3 authored 0 new mints against it).
+
+## Checkpoint table (tranche 4)
+
+| Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | Pending-hit (sparse overlay, reused) | Pending-hit (new overlay row) | Live-hit | New mints | Authored | Held |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| MUST-CVS-201 Anatomy (remaining 51) | 51 (all MCQ) | 51/51 | 24 | 20 | 2 | 0 | 1 | 50 | 1 |

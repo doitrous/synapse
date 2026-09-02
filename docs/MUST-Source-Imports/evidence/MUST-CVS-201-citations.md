@@ -521,3 +521,43 @@ MCQ Q15 with the printed answer key on p.14 of the Histology CVS201 EOM paper.
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-ABDOMINAL-ESOPHAGUS-SUPPLY-01
+
+## claim_id
+CLM-GIT-ABDOMINAL-ESOPHAGUS-SUPPLY-01
+
+## resource_id
+src_ac0704bd16ff99889463
+
+## evidence_role
+local_curriculum
+
+## support_span
+The abdominal part of the esophagus is supplied by which artery? A) Inferior thyroid artery B) Descending thoracic aorta C) Left gastric artery D) Splenic artery — printed answer C
+
+## locator_type
+printed_page
+
+## locator_page
+22
+
+## locator_section
+
+
+## locator_detail
+Esophagus Q15; printed answer key on p.24.
+
+## context_note
+Printed answer key on the Esophagus section's own answer page of the Anatomy CVS201 EOM Final paper.
+
+## confidence
+0.75
+
+## counts_as_claim_evidence
+yes

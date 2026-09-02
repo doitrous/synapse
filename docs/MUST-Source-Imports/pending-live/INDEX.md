@@ -157,3 +157,63 @@ limitation as above (a sparse update's `module_subject` and a question's
 `library_ids`/`resource_ids` pointing at another lane's not-yet-committed
 concept/article both error under `--with`; `gate.mjs simulate` with the real
 dependency files is the correct check here).
+
+## Anatomy2 tranche (2026-09-02, lane 4, branch `must-cvs201-author4`) — two more files, closes the Anatomy paper
+
+Two more files, from the same Anatomy CVS201 EOM Final paper the tranche-3
+pair above already covers — this tranche authors the remaining half (50 of
+51 un-authored MCQs; 1 held). Depends on 22 concept ids: 20 already pending
+in `104-CPS-anatomy-concepts.md` (reused directly, no new overlay row — the
+tranche-3 overlay file above already carries them), 1 more pending in
+`SYS-CVS-CONCEPT-T08.md` (Eisenmenger physiology, a second record from the
+same file already overlaid there for Tetralogy of Fallot), and 1 more
+pending in `104-CPS-anatomy-concepts.md` (cardiac looping / dextrocardia,
+extended to cover "situs inversus"). One MCQ (ESO-Q15, abdominal oesophagus
+/ left gastric artery) is a genuine new mint instead — no existing concept
+anywhere in the corpus covers it — in `concept/`, `article/`,
+`evidence/{claims,citations,spans,sources}.md` (own lane files, not
+pending-live).
+
+| File | Target ids | Records |
+|---|---|---|
+| `MUST-CVS-201-anatomy2-concepts-overlay.md` | 2 concept ids: 1 in `104-CPS-anatomy-concepts.md` (cardiac looping/dextrocardia), 1 in `SYS-CVS-CONCEPT-T08.md` (Eisenmenger physiology) | 2 sparse updates — same `+must`/`+2`/`+MUST-CVS-201` pattern as the tranche-3 overlay; the SYS-CVS-CONCEPT-T08 row has no prior `module_subject` to restate, same as that file's Tetralogy row |
+| `MUST-CVS-201-anatomy2-questions.md` | 50 MCQ records (`QST-MUSTCVS201-ANATOMY2-PENDING-…`), `main_concept` pointing at the 22 ids above (20 already covered by the tranche-3 overlay, 2 new in this tranche's own overlay) plus the 1 new-mint concept (`library_ids` names its own new article, not pending) | New records, not sparse updates |
+
+**Apply after**: `MUST-CVS-201-anatomy2-concepts-overlay.md` applies after
+its two named dependency files (`104-CPS-anatomy-concepts.md`,
+`SYS-CVS-CONCEPT-T08.md`) are live, same as the tranche-3 overlay row it
+sits alongside; `MUST-CVS-201-anatomy2-questions.md` applies after both
+overlay files above AND `docs/Kasr-Source-Imports/article/104-CPS-anatomy.md`
+/ the SYS-CVS Eisenmenger article (`docs/import-ready/article/SYS-CVS-ARTICLE-T08.md`,
+already live-dependent for Tetralogy) are live. The one new-mint question
+(ESO-Q15) has no pending-live dependency at all — its concept, article and
+evidence chain are this lane's own committed files.
+
+Full-tree `gate.mjs simulate` (34 files: the 32-file tree tranche 3 ran plus
+this tranche's 2 new pending-live files, real dependency files first):
+`batches=34 created=663 updated=165 rejected=0 skipped=0 errors=0`. The new
+anatomy2 overlay batch alone reports `created:0, updated:2` — confirms both
+rows are genuine updates onto ids that already exist in their two named
+dependency files, not duplicates. `MUST-CVS-201-anatomy2-questions.md`
+reports `created:50, updated:0, rejected:0`. Direct `node
+scripts/validate-content-batch.mjs` and `node scripts/simulate-content-import.mjs`
+re-runs (same file list) both confirm the same zero-error result, ruling out
+the `gate.mjs`-prints-`errors=0`-on-crash failure mode.
+
+`gate.mjs batch` was not run on either new pending-live file, same tool
+limitation as above. One extra wrinkle this tranche hit and fixed: a
+citation against `src_ac0704bd16ff99889463` (the Anatomy paper's own
+resource, for the ESO-Q15 new mint) failed `gate.mjs batch`'s "Resource …
+does not exist" check even with `resource/MUST-CVS-201-resources.md` passed
+via `--with` — traced to `scripts/validate-content-batch.mjs`'s citation
+check only counting sibling rows whose batch-kind is `resource` (needs
+`institution`+`processing_status` fields) towards a citable resource set,
+never `catalogue-resource` (needs `source`+`type`, what
+`resource/MUST-CVS-201-resources.md` actually is). Fixed by adding this
+resource's own record to `evidence/MUST-CVS-201-sources.md` (the `resource`-kind
+evidence-source registry already sitting beside `citations.md`, which
+`gate.mjs`'s directory scan picks up automatically) — the 3 tranche-1/2
+resources already had entries there, this tranche's new one (the Anatomy
+paper, first cited only now that a new mint needs it) did not. Also merged
+one new entry into the shared `evidence/corpus-source-index.json` (35 → 36
+sources) for the same resource, needed by a separate, independent check.

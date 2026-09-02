@@ -1768,3 +1768,179 @@ secondaryNodeIds: Same as primaryNodeId.
 lastReviewed: New record; no reviewer has seen it yet.
 reviewDue: Set when the first review completes.
 conflicts: The source paper states this without qualification; nothing was found to record.
+
+---
+
+# Item
+
+## id
+ART-GIT-ABDOMINAL-ESOPHAGUS-BLOOD-SUPPLY
+
+## title
+Abdominal oesophagus: blood supply from the left gastric artery
+
+## arabic_title
+
+
+## aliases
+
+
+## subject
+gi
+
+## topic
+Anatomy
+
+## subtopic
+Esophagus
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+The short abdominal segment of the oesophagus, below the diaphragm's oesophageal hiatus, is supplied by oesophageal branches of the left gastric artery rather than by the aorta's own thoracic oesophageal branches.
+
+## sections
+### Definition
+The abdominal part of the oesophagus is its shortest segment, only about 1.25 cm long, running from the diaphragm's oesophageal hiatus in the right crus to the cardiac orifice of the stomach.
+
+### Mechanism
+Oesophageal branches of the left gastric artery, the first and largest branch of the coeliac trunk, supply this abdominal segment — a hand-off from the aorta's own direct oesophageal branches, which supply only the thoracic segment above the diaphragm.
+
+### Key determinants
+This coeliac-trunk-derived supply is continuous with the left gastric artery's supply to the stomach's lesser curvature, reflecting the abdominal oesophagus's developmental and functional continuity with the stomach rather than with the thoracic oesophagus above it.
+
+### Clinical significance
+The venous side of this same transition — oesophageal veins draining into the portal system via the left gastric vein below the diaphragm, but into the systemic azygos system above it — is the anatomical basis for oesophageal varices forming exactly at this junction in portal hypertension.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+The abdominal oesophagus is supplied by the left gastric artery, a coeliac trunk branch, not by the aorta's own thoracic oesophageal branches.
+
+## lose_the_mark
+Assuming the aorta's thoracic oesophageal branches continue to supply the abdominal segment below the diaphragm.
+
+## callout_evidence
+### The abdominal oesophagus is supplied by the left gastric artery, a coeliac trunk branch, not by the aorta's own thoracic oesophageal branches.
+Claims: CLM-GIT-ABDOMINAL-ESOPHAGUS-SUPPLY-01
+Citations: CIT-ABDOMINAL-ESOPHAGUS-SUPPLY-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-GIT-1817A46BEDC8BD
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_ac0704bd16ff99889463
+
+## article_source_ids
+src_ac0704bd16ff99889463
+
+## claim_ids
+CLM-GIT-ABDOMINAL-ESOPHAGUS-SUPPLY-01
+
+## span_ids
+SPN-ABDOMINAL-ESOPHAGUS-SUPPLY-01
+
+## universities
+must
+
+## years
+MUST_Y2
+
+## module
+MUST-CVS-201
+
+## university_notes
+must: MUST-CVS-201 > Anatomy > Esophagus > Abdominal Part, from MUST-CVS-201's tranche-4 Anatomy EOM paper (Esophagus Q15).
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Abdominal esophagus supplied by the left gastric artery (printed answer key), Anatomy CVS201 Questions (Final), src_ac0704bd16ff99889463 p22, key p.24.
+
+## evidence_gaps
+Only the printed exam answer supports this article's claim so far; a second, independent authoritative source has not yet been cross-checked.
+
+## conflicts
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Authored from MUST-CVS-201 tranche-4 triage (docs/MUST-Source-Imports/coverage/MUST-CVS-201-triage.md, Anatomy tranche 3 section); concept CON-GIT-1817A46BEDC8BD minted in the same batch after find-existing.mjs and a direct check of the Kasr thoracic-oesophagus concept both confirmed no existing record covers the abdominal segment's blood supply.
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+primaryNodeId: No canonical taxonomy crosswalk has been run for this module yet; left explicit and unguessed rather than inventing a mapping.
+secondaryNodeIds: Same as primaryNodeId.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes.
+conflicts: The source paper states this without qualification; nothing was found to record.

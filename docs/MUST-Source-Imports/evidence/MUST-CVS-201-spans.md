@@ -219,3 +219,25 @@ CLM-CVS-ELASTIC-LAMINA-STAIN-01
 
 ## citation_ids
 CIT-ELASTIC-LAMINA-STAIN-01
+
+---
+
+# Item
+
+## id
+SPN-ABDOMINAL-ESOPHAGUS-SUPPLY-01
+
+## article_id
+ART-GIT-ABDOMINAL-ESOPHAGUS-BLOOD-SUPPLY
+
+## section_id
+art-git-abdominal-esophagus-blood-supply-blood-supply
+
+## text
+Oesophageal branches of the left gastric artery, the first and largest branch of the coeliac trunk, supply this abdominal segment — a hand-off from the aorta's own direct oesophageal branches, which supply only the thoracic segment above the diaphragm.
+
+## claim_ids
+CLM-GIT-ABDOMINAL-ESOPHAGUS-SUPPLY-01
+
+## citation_ids
+CIT-ABDOMINAL-ESOPHAGUS-SUPPLY-01

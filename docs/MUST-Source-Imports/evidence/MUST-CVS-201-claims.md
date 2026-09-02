@@ -501,3 +501,49 @@ no
 
 ## qualifiers
 population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-GIT-ABDOMINAL-ESOPHAGUS-SUPPLY-01
+
+## concept_id
+CON-GIT-1817A46BEDC8BD
+
+## subject
+Abdominal oesophagus: blood supply from the left gastric artery
+
+## predicate
+is
+
+## object
+The abdominal part of the oesophagus is supplied by oesophageal branches of the left gastric artery, a branch of the coeliac trunk, rather than by the descending thoracic aorta's own oesophageal branches which supply the thoracic segment.
+
+## display_text
+The abdominal part of the oesophagus is supplied by oesophageal branches of the left gastric artery, a branch of the coeliac trunk, rather than by the descending thoracic aorta's own oesophageal branches which supply the thoracic segment.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
