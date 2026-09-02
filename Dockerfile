@@ -23,8 +23,18 @@ RUN npm run build           # → /web/dist
 # download is unavailable at build time.
 FROM node:20-bookworm-slim
 WORKDIR /app
+# mediasoup's install step downloads a prebuilt worker; when that download is
+# unavailable it compiles the worker instead, which needs a C++ toolchain and
+# Python (meson/ninja are fetched by pip). Installed before `npm ci` so either
+# path succeeds. `ca-certificates` is what the download itself needs.
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends ca-certificates python3 python3-pip make g++ pkg-config \
+ && rm -rf /var/lib/apt/lists/*
 COPY server/package.json server/package-lock.json* ./
 RUN npm ci --omit=dev
+# Fail the build here, with the reason in the build log, rather than ship an
+# image whose rooms say "voice is unavailable" at runtime.
+RUN node -e "import('mediasoup').then((m) => console.log('mediasoup', m.version, 'ready'))"
 COPY server/ .
 COPY --from=web /web/dist ./public
 ENV PORT=8080
