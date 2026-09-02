@@ -1,0 +1,45 @@
+# ZU-MED-103 (Structure and Function) — triage keys
+# <source-slug>-qNN, one per SBA item. The 11 written/essay questions on p.1
+# of the Final paper carry no single-letter key (graded by rubric) and are
+# out of scope this pass — not listed here, see
+# coverage/ZU-MED-103-triage.md.
+# Q9 is HELD (indefensible double-mark) — listed for completeness, not seeded.
+
+# --- Final S&F 2024 .pdf (author1 pass) ---
+
+sf-final24-q01
+sf-final24-q02
+sf-final24-q03
+sf-final24-q04
+sf-final24-q05
+sf-final24-q06
+sf-final24-q07
+sf-final24-q08
+sf-final24-q09  # HELD — held-indefensible-key, double mark (a and d)
+sf-final24-q10
+sf-final24-q11
+sf-final24-q12
+sf-final24-q13
+sf-final24-q14
+sf-final24-q15
+sf-final24-q16
+sf-final24-q17
+sf-final24-q18
+sf-final24-q19
+sf-final24-q20
+sf-final24-q21
+sf-final24-q22
+sf-final24-q23
+sf-final24-q24
+sf-final24-q25
+sf-final24-q26
+sf-final24-q27
+sf-final24-q28
+sf-final24-q29
+sf-final24-q30
+sf-final24-q31
+sf-final24-q32
+sf-final24-q33
+sf-final24-q34
+sf-final24-q35
+sf-final24-q36

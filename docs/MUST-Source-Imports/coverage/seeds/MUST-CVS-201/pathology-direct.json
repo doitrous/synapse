@@ -1,0 +1,1461 @@
+{
+  "lane": "MUST-CVS201",
+  "cluster": "pathology-direct",
+  "header": "MUST-CVS-201 - Pathology tranche (author6) - direct MCQs (main_concept already committed in this lane's own concept/MUST-CVS-201-concepts.md -- 4 concepts already live-in-lane since tranche 1, 14 new mints this tranche -- from the Pathology CVS201 EOM Final paper, keys read from the paper's own printed combined answer key (p.16).",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "must"
+    ],
+    "years": [
+      "MUST_Y2"
+    ],
+    "module": "MUST-CVS-201",
+    "exam_weight_by_year": {
+      "MUST_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "topic": "Pathology",
+    "setting": "Clinical",
+    "estimated_seconds": 75,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "resource_ids": [
+      "src_67efbd148b42c6593611"
+    ],
+    "source_citation": "Pathology CVS201 Questions (Final), key p.16."
+  },
+  "questions": [
+    {
+      "key": "patho-q06",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q06",
+      "page": 2,
+      "title": "Pericardial effusion classification from lymphatic obstruction",
+      "question": "Pericardial effusion due to obstruction of lymphatic drainage is classified as:",
+      "options": {
+        "A": "Exudative",
+        "B": "Transudative",
+        "C": "Hemorrhagic",
+        "D": "Suppurative"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. An exudative effusion is protein-rich and driven by inflammation or infection, not by a mechanical drainage problem.",
+        "B": "Correct. Pericardial effusion is classified by the character of its fluid, and a transudate is the low-protein fluid produced by a mechanical or hydrostatic disturbance rather than inflammation of the pericardium itself. Obstruction of the pericardial lymphatic drainage prevents normal fluid clearance and lets low-protein fluid accumulate, the same mechanism (impaired drainage or raised hydrostatic pressure, as in heart failure or hypoproteinaemia) that produces a transudate elsewhere in the body. This distinguishes it from an exudate, which requires inflamed, more permeable pericardial vessels.",
+        "C": "Incorrect. A haemorrhagic effusion contains blood, typically from trauma, malignant invasion, or aortic dissection into the pericardium, not from lymphatic obstruction.",
+        "D": "Incorrect. A suppurative effusion is frank pus from direct pyogenic bacterial infection of the pericardium, an inflammatory process rather than a drainage problem."
+      },
+      "main_concept": "CON-CVS-197847608085B6",
+      "concept_ids": [
+        "CON-CVS-197847608085B6"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Pericardial Disease",
+      "module_subject": "MUST-CVS-201 > Pathology > Pericardial Disease > Pericardial Effusion Classification",
+      "library_ids": [
+        "ART-CVS-PERICARDIAL-EFFUSION-CLASSIFICATION"
+      ],
+      "learning_objective": "Recognise that pericardial effusion is classified by the character of its fluid, and a transudate is the low-protein fluid produced by a mechanical or hydrostatic disturbance rather than inflammation of the pericardium itself."
+    },
+    {
+      "key": "patho-q08",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q08",
+      "page": 3,
+      "title": "Bread and butter pericarditis appearance",
+      "question": "The \"bread and butter\" appearance is characteristic of which type of pericarditis?",
+      "options": {
+        "A": "Suppurative",
+        "B": "Fibrinous",
+        "C": "Serous",
+        "D": "Hemorrhagic"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Suppurative pericarditis shows frank pus on the pericardial surface, not the rough, shaggy bread-and-butter texture.",
+        "B": "Correct. Fibrinous pericarditis is the commonest type of pericarditis and produces the classic \"bread and butter\" gross appearance — rough, shaggy fibrin strands coating the visceral and parietal pericardial surfaces, resembling two slices of bread pulled apart after being buttered. It follows causes such as rheumatic fever, lobar pneumonia, tuberculosis, uraemia, or as a complication overlying a myocardial infarction.",
+        "C": "Incorrect. Serous pericarditis produces a clear, watery effusion with a smooth pericardial surface, not the rough fibrinous texture described.",
+        "D": "Incorrect. Haemorrhagic pericarditis is characterised by blood-stained fluid, typically from tuberculosis or malignant invasion, not the fibrin-coated bread-and-butter surface."
+      },
+      "main_concept": "CON-CVS-D7459E7855802A",
+      "concept_ids": [
+        "CON-CVS-D7459E7855802A"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Pericardial Disease",
+      "module_subject": "MUST-CVS-201 > Pathology > Pericardial Disease > Fibrinous Pericarditis",
+      "library_ids": [
+        "ART-CVS-FIBRINOUS-PERICARDITIS"
+      ],
+      "learning_objective": "Recognise that fibrinous pericarditis is the commonest type of pericarditis and produces the classic \"bread and butter\" gross appearance — rough, shaggy fibrin strands coating the visceral and parietal pericardial surfaces, resembling two slices of bread pulled apart after being buttered."
+    },
+    {
+      "key": "patho-q09",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q09",
+      "page": 3,
+      "title": "TB pericarditis exudate character",
+      "question": "A patient with TB pericarditis is likely to have pericardial exudate that is:",
+      "options": {
+        "A": "Clear and straw-colored",
+        "B": "Purulent",
+        "C": "Fibrinous and hemorrhagic",
+        "D": "Serous only"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A clear, straw-coloured effusion is typical of a serous, often viral or idiopathic, process, not the tuberculous pericardium.",
+        "B": "Incorrect. Frank pus (purulent exudate) characterises pyogenic bacterial (suppurative) pericarditis, a different infective process from tuberculosis.",
+        "C": "Correct. Tuberculous pericarditis characteristically produces a fibrinous and haemorrhagic exudate, reflecting caseating granulomatous inflammation with vascular involvement of the pericardium. This distinguishes it from the clear, serous fluid seen in viral pericarditis and from the frank pus of pyogenic (suppurative) pericarditis, and it is a feature examiners use specifically to flag tuberculosis among the causes of pericardial disease.",
+        "D": "Incorrect. A purely serous exudate is not the characteristic tuberculous pattern; TB pericarditis is fibrinous and haemorrhagic rather than clear."
+      },
+      "main_concept": "CON-CVS-70D38691002F4A",
+      "concept_ids": [
+        "CON-CVS-70D38691002F4A"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Pericardial Disease",
+      "module_subject": "MUST-CVS-201 > Pathology > Pericardial Disease > Tuberculous Pericarditis",
+      "library_ids": [
+        "ART-CVS-TB-PERICARDITIS-EXUDATE"
+      ],
+      "learning_objective": "Recognise that tuberculous pericarditis characteristically produces a fibrinous and haemorrhagic exudate, reflecting caseating granulomatous inflammation with vascular involvement of the pericardium."
+    },
+    {
+      "key": "patho-q12",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q12",
+      "page": 4,
+      "title": "First grossly visible lesion in atherosclerosis",
+      "question": "The first grossly visible lesion in atherosclerosis is:",
+      "options": {
+        "A": "Fibrous plaque",
+        "B": "Complicated plaque",
+        "C": "Fatty streak",
+        "D": "Atheroma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The fibrous (atheromatous) plaque is the basic, more advanced lesion of established atherosclerosis, developing after the fatty streak, not before it.",
+        "B": "Incorrect. A complicated plaque — with ulceration, calcification, haemorrhage or thrombosis — is the most advanced stage, far later than the first visible change.",
+        "C": "Correct. The fatty streak is the earliest grossly visible lesion of developing atherosclerosis, seen as a flat, yellow streak in the arterial intima. Microscopically it is made of foam cells — lipid-laden macrophages and smooth muscle cells — and it occurs characteristically at the aortic valve and in the thoracic aorta. It can be found even in children in some populations and is potentially reversible, which is why it is taught as the earliest lesion rather than as established disease.",
+        "D": "Incorrect. \"Atheroma\" describes the lipid-rich core of an established plaque, a later structure than the first visible fatty streak."
+      },
+      "main_concept": "CON-CVS-E87E4CDC5DE594",
+      "concept_ids": [
+        "CON-CVS-E87E4CDC5DE594"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Fatty Streak",
+      "library_ids": [
+        "ART-CVS-FATTY-STREAK"
+      ],
+      "learning_objective": "Recognise that the fatty streak is the earliest grossly visible lesion of developing atherosclerosis, seen as a flat, yellow streak in the arterial intima."
+    },
+    {
+      "key": "patho-q13",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q13",
+      "page": 4,
+      "title": "Characteristic site of fatty streaks",
+      "question": "Fatty streaks are most commonly found in:",
+      "options": {
+        "A": "Abdominal aorta",
+        "B": "Coronary arteries",
+        "C": "Aortic valve and thoracic aorta",
+        "D": "Carotid arteries"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The abdominal aorta is the classic site for the later, established atherosclerotic aneurysm, not for the earliest fatty streak.",
+        "B": "Incorrect. The coronary arteries are a major site of clinically significant established plaque, but they are not the characteristic first site named for the fatty streak.",
+        "C": "Correct. Fatty streaks are found characteristically at the aortic valve and in the thoracic aorta, the sites this source names for the earliest grossly visible lesion of atherosclerosis. This site pattern is part of what distinguishes the earliest, reversible fatty streak from the later, clinically dangerous plaque distribution in the coronary, cerebral and peripheral circulations.",
+        "D": "Incorrect. The carotid arteries are a classic site for later, complicated plaque causing stroke, not the characteristic earliest fatty-streak location."
+      },
+      "main_concept": "CON-CVS-E87E4CDC5DE594",
+      "concept_ids": [
+        "CON-CVS-E87E4CDC5DE594"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Fatty Streak",
+      "library_ids": [
+        "ART-CVS-FATTY-STREAK"
+      ],
+      "learning_objective": "Recognise that fatty streaks are found characteristically at the aortic valve and in the thoracic aorta, the sites this source names for the earliest grossly visible lesion of atherosclerosis."
+    },
+    {
+      "key": "patho-q14",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q14",
+      "page": 4,
+      "title": "Basic lesion of atherosclerosis",
+      "question": "The basic lesion of atherosclerosis is the:",
+      "options": {
+        "A": "Fatty streak",
+        "B": "Fibrous atheromatous plaque",
+        "C": "Complicated plaque",
+        "D": "Calcified nodule"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The fatty streak is the earliest precursor lesion, not the basic (fully developed) lesion of established atherosclerosis.",
+        "B": "Correct. The fibrous atheromatous plaque is the basic lesion of atherosclerosis, developing from the fatty streak within the tunica intima. It is organised into three zones — a fibrous cap of collagen and smooth muscle cells covering a lipid zone of foam cells, extracellular lipid and cholesterol, over a basal zone of collagen, smooth muscle cells and macrophages — and this structure is what is meant whenever \"the atherosclerotic lesion\" is discussed without further qualification.",
+        "C": "Incorrect. A complicated plaque is a fibrous atheromatous plaque that has gone on to ulcerate, calcify, haemorrhage or thrombose; it is an advanced complication, not the basic lesion itself.",
+        "D": "Incorrect. Calcified nodule is a specific, less common plaque morphology, not the term for the basic atherosclerotic lesion."
+      },
+      "main_concept": "CON-CVS-217CCB33D34DB0",
+      "concept_ids": [
+        "CON-CVS-217CCB33D34DB0"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Plaque Structure",
+      "library_ids": [
+        "ART-CVS-ATHEROMA-PLAQUE-STRUCTURE"
+      ],
+      "learning_objective": "Recognise that the fibrous atheromatous plaque is the basic lesion of atherosclerosis, developing from the fatty streak within the tunica intima."
+    },
+    {
+      "key": "patho-q15",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q15",
+      "page": 4,
+      "title": "Plaque zone with foam cells and cholesterol",
+      "question": "Which zone of the fibrous atheromatous plaque contains foam cells and cholesterol?",
+      "options": {
+        "A": "Fibrous cap",
+        "B": "Lipid zone",
+        "C": "Basal zone",
+        "D": "Necrotic core"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The fibrous cap is composed of collagen and smooth muscle cells and covers the lipid zone; it does not itself hold the foam cells and cholesterol.",
+        "B": "Correct. The lipid zone of the fibrous atheromatous plaque is the layer that contains the foam cells (lipid-laden macrophages and smooth muscle cells), extracellular lipid and cholesterol. It sits beneath the fibrous cap and above the basal zone, and it is this lipid-rich core that gives the plaque its soft, yellow, atheromatous appearance on cut section.",
+        "C": "Incorrect. The basal zone contains collagen, smooth muscle cells and macrophages at the base of the plaque, not the characteristic foam-cell/cholesterol population.",
+        "D": "Incorrect. \"Necrotic core\" is a term used for advanced, complicated plaques rather than one of the three named zones of the basic fibrous atheromatous plaque in this source."
+      },
+      "main_concept": "CON-CVS-217CCB33D34DB0",
+      "concept_ids": [
+        "CON-CVS-217CCB33D34DB0"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Plaque Structure",
+      "library_ids": [
+        "ART-CVS-ATHEROMA-PLAQUE-STRUCTURE"
+      ],
+      "learning_objective": "Recognise that the lipid zone of the fibrous atheromatous plaque is the layer that contains the foam cells (lipid-laden macrophages and smooth muscle cells), extracellular lipid and cholesterol."
+    },
+    {
+      "key": "patho-q16",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q16",
+      "page": 5,
+      "title": "Complication not caused by atherosclerosis",
+      "question": "Complications of atherosclerosis include all EXCEPT:",
+      "options": {
+        "A": "Aneurysms",
+        "B": "Limb claudication",
+        "C": "Hypertrophic cardiomyopathy",
+        "D": "Cerebral infarction"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. This is a recognised complication. Weakening of the arterial wall by atherosclerosis is the classic mechanism for an atherosclerotic (typically abdominal aortic) aneurysm, so it is not the exception.",
+        "B": "Incorrect. This is a recognised complication. Atherosclerotic narrowing of the peripheral (classically popliteal) arteries produces intermittent limb claudication, so it is not the exception.",
+        "C": "Correct. Hypertrophic cardiomyopathy is a primary disease of the sarcomere, most often caused by an inherited mutation in a gene encoding a sarcomere protein, and is not a downstream complication of atherosclerosis. Atherosclerosis instead causes complications through vessel-wall weakening (aneurysm), luminal narrowing (claudication, infarction) and plaque instability (thromboembolism, haemorrhage), none of which produces the primary myocardial hypertrophy that defines HCM.",
+        "D": "Incorrect. This is a recognised complication. Atherosclerotic occlusion of a cerebral vessel is a classic cause of cerebral infarction (stroke), so it is not the exception."
+      },
+      "main_concept": "CON-CVS-E03F9800584C73",
+      "concept_ids": [
+        "CON-CVS-E03F9800584C73"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Complications",
+      "library_ids": [
+        "ART-CVS-ATHEROSCLEROSIS-COMPLICATIONS"
+      ],
+      "learning_objective": "Recognise that hypertrophic cardiomyopathy is a primary disease of the sarcomere, most often caused by an inherited mutation in a gene encoding a sarcomere protein, and is not a downstream complication of atherosclerosis."
+    },
+    {
+      "key": "patho-q17",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q17",
+      "page": 5,
+      "title": "Artery responsible for limb claudication",
+      "question": "Limb claudication is primarily due to atherosclerosis in the:",
+      "options": {
+        "A": "Coronary artery",
+        "B": "Renal artery",
+        "C": "Popliteal artery",
+        "D": "Carotid artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Coronary artery atherosclerosis produces angina and myocardial infarction, not limb claudication.",
+        "B": "Incorrect. Renal artery atherosclerosis produces renovascular hypertension and renal infarction, not limb claudication.",
+        "C": "Correct. Intermittent limb claudication — exertional calf pain relieved by rest — is primarily due to atherosclerotic narrowing of the popliteal artery and its neighbouring lower-limb vessels, which limits the increase in blood flow the exercising calf muscle needs. This is the classic peripheral-artery-disease presentation examiners link to popliteal atherosclerosis specifically.",
+        "D": "Incorrect. Carotid artery atherosclerosis is linked to cerebral ischaemia and stroke, not limb claudication."
+      },
+      "main_concept": "CON-CVS-E03F9800584C73",
+      "concept_ids": [
+        "CON-CVS-E03F9800584C73"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Complications",
+      "library_ids": [
+        "ART-CVS-ATHEROSCLEROSIS-COMPLICATIONS"
+      ],
+      "learning_objective": "Recognise that intermittent limb claudication — exertional calf pain relieved by rest — is primarily due to atherosclerotic narrowing of the popliteal artery and its neighbouring lower-limb vessels, which limits the increase in blood flow the exercising calf muscle needs."
+    },
+    {
+      "key": "patho-q21",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q21",
+      "page": 6,
+      "title": "Blood pressure characterizing benign hypertension",
+      "question": "Benign hypertension is characterized by a blood pressure below:",
+      "options": {
+        "A": "180/110 mmHg",
+        "B": "200/110 mmHg",
+        "C": "220/120 mmHg",
+        "D": "240/140 mmHg"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. 180/110 mmHg is below the printed threshold for benign hypertension in this source.",
+        "B": "Correct. This source characterises benign hypertension as chronic, sustained blood pressure below about 200/110 mmHg. Above this range, and especially with acute target-organ damage such as retinal haemorrhage or papilloedema, the disease is instead classified as malignant (accelerated) hypertension.",
+        "C": "Incorrect. 220/120 mmHg is well above the printed benign-hypertension threshold and sits in the range associated with malignant disease.",
+        "D": "Incorrect. 240/140 mmHg is well above the printed benign-hypertension threshold and sits in the range associated with malignant disease."
+      },
+      "main_concept": "CON-CVS-F7B45A1E821B0A",
+      "concept_ids": [
+        "CON-CVS-F7B45A1E821B0A"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Benign Hypertension",
+      "library_ids": [
+        "ART-CVS-BENIGN-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that this source characterises benign hypertension as chronic, sustained blood pressure below about 200/110 mmHg."
+    },
+    {
+      "key": "patho-q22",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q22",
+      "page": 6,
+      "title": "Kidney change in benign hypertension",
+      "question": "In benign hypertension, the kidney may show:",
+      "options": {
+        "A": "Fibrinoid necrosis",
+        "B": "Hyaline arteriolosclerosis",
+        "C": "Onion-skin thickening",
+        "D": "Primary contracted kidney"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Fibrinoid necrosis of the arterioles is the change specific to malignant, not benign, hypertension.",
+        "B": "Correct. Benign hypertension produces hyaline arteriolosclerosis in the kidney — pink, structureless, homogeneous thickening of the arteriolar wall from deposition of an abnormal (plasma) protein. This is the same hyaline change seen in diabetes and, to a lesser degree, as an ageing change in otherwise normotensive elderly patients, and it is distinct from the hyperplastic (\"onion-skin\") change with fibrinoid necrosis specific to malignant hypertension.",
+        "C": "Incorrect. Onion-skin (hyperplastic) arteriolar thickening is the change specific to malignant, not benign, hypertension.",
+        "D": "Incorrect. A \"primary contracted kidney\" describes the end-stage small, granular kidney of long-standing benign nephrosclerosis, a late structural outcome rather than the characteristic early arteriolar histological change being asked for here."
+      },
+      "main_concept": "CON-CVS-F7B45A1E821B0A",
+      "concept_ids": [
+        "CON-CVS-F7B45A1E821B0A"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Benign Hypertension",
+      "library_ids": [
+        "ART-CVS-BENIGN-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that benign hypertension produces hyaline arteriolosclerosis in the kidney — pink, structureless, homogeneous thickening of the arteriolar wall from deposition of an abnormal (plasma) protein."
+    },
+    {
+      "key": "patho-q23",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q23",
+      "page": 6,
+      "title": "Diastolic pressure threshold for malignant hypertension",
+      "question": "Malignant hypertension is defined by diastolic pressure above:",
+      "options": {
+        "A": "150 mmHg",
+        "B": "160 mmHg",
+        "C": "180 mmHg",
+        "D": "180 mmHg"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. 150 mmHg is below the printed threshold for malignant hypertension in this source.",
+        "B": "Incorrect. 160 mmHg is below the printed threshold for malignant hypertension in this source.",
+        "C": "Correct. Malignant hypertension is severe, progressive hypertension, classically defined here by a diastolic pressure above 180 mmHg (systolic classically above about 280 mmHg in the fullest description), together with retinal haemorrhage, papilloedema and renal impairment. Its kidney changes are fibrinoid necrosis and hyperplastic (\"onion-skin\") arteriolar thickening, and untreated it causes death, in order of frequency, from renal failure, heart failure, coronary heart disease and cerebral haemorrhage.",
+        "D": "Note: the source paper prints \"180 mmHg\" for both options C and D, an apparent duplication rather than a distinct fourth distractor; the printed answer key selects option C by position, and that is the key this record follows."
+      },
+      "main_concept": "CON-CVS-8BFFDE83CC4617",
+      "concept_ids": [
+        "CON-CVS-8BFFDE83CC4617"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Malignant Hypertension",
+      "library_ids": [
+        "ART-CVS-MALIGNANT-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that malignant hypertension is severe, progressive hypertension, classically defined here by a diastolic pressure above 180 mmHg (systolic classically above about 280 mmHg in the fullest description), together with retinal haemorrhage, papilloedema and renal impairment."
+    },
+    {
+      "key": "patho-q24",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q24",
+      "page": 7,
+      "title": "Most common cause of death in benign hypertension",
+      "question": "The most common cause of death in benign hypertension is:",
+      "options": {
+        "A": "Renal failure",
+        "B": "Cerebral hemorrhage",
+        "C": "Congestive heart failure",
+        "D": "Coronary insufficiency"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Renal failure is a recognised cause of death in hypertension but is not the most common cause in the benign form specifically, this source's printed order places it last.",
+        "B": "Incorrect. Cerebral haemorrhage is a recognised cause of death in benign hypertension but ranks below congestive heart failure and coronary infarction in this source's printed order.",
+        "C": "Correct. In benign hypertension, death occurs, in order of frequency, from congestive heart failure first, then coronary infarction, then cerebral haemorrhage, and then renal failure. The sustained afterload from chronic hypertension drives progressive left ventricular strain and eventual pump failure, which is why heart failure tops this particular list, in contrast with malignant hypertension where renal failure is instead the leading cause of death.",
+        "D": "Incorrect. Coronary insufficiency (infarction) is the second most common cause of death in this source's printed order, not the first."
+      },
+      "main_concept": "CON-CVS-F7B45A1E821B0A",
+      "concept_ids": [
+        "CON-CVS-F7B45A1E821B0A"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Benign Hypertension",
+      "library_ids": [
+        "ART-CVS-BENIGN-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that in benign hypertension, death occurs, in order of frequency, from congestive heart failure first, then coronary infarction, then cerebral haemorrhage, and then renal failure."
+    },
+    {
+      "key": "patho-q25",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q25",
+      "page": 7,
+      "title": "Vascular finding characteristic of malignant hypertension",
+      "question": "Fibrinoid necrosis of arterioles is characteristic of:",
+      "options": {
+        "A": "Benign hypertension",
+        "B": "Malignant hypertension",
+        "C": "Both",
+        "D": "Neither"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Benign hypertension produces hyaline, not fibrinoid necrotic, arteriolar change.",
+        "B": "Correct. Fibrinoid necrosis of the arterioles, together with hyperplastic (\"onion-skin\") intimal thickening, is a defining vascular change of malignant hypertension. It reflects acute, severe vessel-wall injury from the very high pressures involved, in contrast with the gradual, protein-deposition-driven hyaline change of benign hypertension.",
+        "C": "Incorrect. Fibrinoid necrosis is specific to malignant hypertension; benign hypertension shows hyaline arteriolosclerosis instead, so it is not shared by both.",
+        "D": "Incorrect. Fibrinoid necrosis is a real and defining finding in malignant hypertension, so \"neither\" is wrong."
+      },
+      "main_concept": "CON-CVS-8BFFDE83CC4617",
+      "concept_ids": [
+        "CON-CVS-8BFFDE83CC4617"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Malignant Hypertension",
+      "library_ids": [
+        "ART-CVS-MALIGNANT-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that fibrinoid necrosis of the arterioles, together with hyperplastic (\"onion-skin\") intimal thickening, is a defining vascular change of malignant hypertension."
+    },
+    {
+      "key": "patho-q26",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q26",
+      "page": 7,
+      "title": "Wall composition defining a true aneurysm",
+      "question": "A true aneurysm is defined as having a wall composed of:",
+      "options": {
+        "A": "Adjacent connective tissue only",
+        "B": "Complete vessel wall layers",
+        "C": "Thrombus only",
+        "D": "Fibrous scar tissue"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A wall made only of adjacent connective tissue describes a false (pseudo-) aneurysm, a contained rupture, not a true aneurysm.",
+        "B": "Correct. A true aneurysm is an abnormal, localised dilation of a vessel whose wall is formed of the complete, though typically weakened, layers of the original vessel wall (intima, media and adventitia). This distinguishes it from a false aneurysm, in which the \"wall\" is really just surrounding connective tissue around a contained rupture, with no intact vessel-wall layer of its own.",
+        "C": "Incorrect. Thrombus can line the lumen of an aneurysm but does not itself form the defining wall of a true aneurysm.",
+        "D": "Incorrect. Fibrous scar tissue alone, without any native vessel-wall layer, again describes the wall of a false aneurysm, not a true one."
+      },
+      "main_concept": "CON-CVS-F3E95B92367825",
+      "concept_ids": [
+        "CON-CVS-F3E95B92367825"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Classification, Site and Complications",
+      "library_ids": [
+        "ART-CVS-ANEURYSM-CLASSIFICATION"
+      ],
+      "learning_objective": "Recognise that a true aneurysm is an abnormal, localised dilation of a vessel whose wall is formed of the complete, though typically weakened, layers of the original vessel wall (intima, media and adventitia)."
+    },
+    {
+      "key": "patho-q27",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q27",
+      "page": 7,
+      "title": "Circumferential extent of a fusiform aneurysm",
+      "question": "Fusiform aneurysm involves:",
+      "options": {
+        "A": "Part of the circumference",
+        "B": "The entire circumference",
+        "C": "A false lumen",
+        "D": "Only the intima"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Involvement of only part of the circumference describes a saccular, not a fusiform, aneurysm.",
+        "B": "Correct. A fusiform aneurysm is a spindle-shaped dilation that involves the entire circumference of the vessel over a length of its course, producing a smooth, symmetric bulge. This contrasts with a saccular aneurysm, which dilates only part of the circumference as a focal, sac-like outpouching.",
+        "C": "Incorrect. A false lumen is the hallmark of a dissecting aneurysm, a different entity from the true, entire-circumference dilation of a fusiform aneurysm.",
+        "D": "Incorrect. A fusiform aneurysm involves the full thickness of the vessel wall circumferentially, not the intima alone."
+      },
+      "main_concept": "CON-CVS-F3E95B92367825",
+      "concept_ids": [
+        "CON-CVS-F3E95B92367825"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Classification, Site and Complications",
+      "library_ids": [
+        "ART-CVS-ANEURYSM-CLASSIFICATION"
+      ],
+      "learning_objective": "Recognise that a fusiform aneurysm is a spindle-shaped dilation that involves the entire circumference of the vessel over a length of its course, producing a smooth, symmetric bulge."
+    },
+    {
+      "key": "patho-q28",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q28",
+      "page": 8,
+      "title": "Most common site for an atherosclerotic aneurysm",
+      "question": "The most common site for an atherosclerotic aneurysm is the:",
+      "options": {
+        "A": "Thoracic aorta",
+        "B": "Abdominal aorta",
+        "C": "Cerebral arteries",
+        "D": "Coronary arteries"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The thoracic aorta is more classically associated with dissecting aneurysm (linked to hypertension and connective-tissue disease such as Marfan syndrome) than with the atherosclerotic type.",
+        "B": "Correct. The abdominal aorta, especially the infrarenal segment, is the most common site for an atherosclerotic aneurysm. The heavy atherosclerotic burden and comparatively weaker elastic support of this segment of the aorta make it the classic location examiners test for this specific aneurysm type.",
+        "C": "Incorrect. Cerebral (berry) aneurysms are typically congenital/saccular at arterial branch points, a different mechanism from the atherosclerotic aortic aneurysm being asked about here.",
+        "D": "Incorrect. Coronary artery aneurysms are uncommon and, when present, are more often linked to conditions such as Kawasaki disease than to typical atherosclerosis at this classic site."
+      },
+      "main_concept": "CON-CVS-F3E95B92367825",
+      "concept_ids": [
+        "CON-CVS-F3E95B92367825"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Classification, Site and Complications",
+      "library_ids": [
+        "ART-CVS-ANEURYSM-CLASSIFICATION"
+      ],
+      "learning_objective": "Recognise that the abdominal aorta, especially the infrarenal segment, is the most common site for an atherosclerotic aneurysm."
+    },
+    {
+      "key": "patho-q29",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q29",
+      "page": 8,
+      "title": "Association of dissecting aneurysm",
+      "question": "Dissecting aneurysm is most associated with:",
+      "options": {
+        "A": "Syphilis",
+        "B": "Atherosclerosis",
+        "C": "Marfan syndrome",
+        "D": "Trauma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Syphilis (tertiary, syphilitic aortitis) is classically linked to thoracic aortic aneurysm from vasa vasorum obliteration, a different mechanism from dissection.",
+        "B": "Incorrect. Atherosclerosis is the classic association for a fusiform, abdominal aortic aneurysm, not the most-associated cause of dissection tested here.",
+        "C": "Correct. Dissecting aortic aneurysm — a tear in the intima that allows blood to track within the media and create a false lumen — is most strongly associated with Marfan syndrome, whose cystic medial degeneration weakens the aortic wall's connective-tissue support. It classically presents with sudden, severe tearing chest or back pain and hypotension from blood loss into the false lumen or pericardium.",
+        "D": "Incorrect. Trauma can cause acute aortic injury, but it is not the association this source names as most linked to dissection."
+      },
+      "main_concept": "CON-CVS-4A3DD926C2BCE4",
+      "concept_ids": [
+        "CON-CVS-4A3DD926C2BCE4"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Dissecting Aneurysm",
+      "library_ids": [
+        "ART-CVS-DISSECTING-AORTIC-ANEURYSM"
+      ],
+      "learning_objective": "Recognise that dissecting aortic aneurysm — a tear in the intima that allows blood to track within the media and create a false lumen — is most strongly associated with Marfan syndrome, whose cystic medial degeneration weakens the aortic wall's connective-tissue support."
+    },
+    {
+      "key": "patho-q30",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q30",
+      "page": 8,
+      "title": "Vessel affected by Rasmussen aneurysm",
+      "question": "Rasmussen aneurysm affects the:",
+      "options": {
+        "A": "Aorta",
+        "B": "Pulmonary artery in TB",
+        "C": "Coronary artery",
+        "D": "Mesenteric artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The aorta is not the vessel involved in a Rasmussen aneurysm.",
+        "B": "Correct. A Rasmussen aneurysm is a pseudoaneurysm of a pulmonary artery branch, forming within the wall of a chronic tuberculous lung cavity as the vessel is progressively weakened by adjacent caseous necrosis and inflammation. Its rupture is a classic cause of life-threatening haemoptysis in pulmonary tuberculosis, which is why the name is tied specifically to the TB cavity and the pulmonary, not the systemic, arterial tree.",
+        "C": "Incorrect. The coronary artery is not the vessel involved in a Rasmussen aneurysm.",
+        "D": "Incorrect. The mesenteric artery is not the vessel involved in a Rasmussen aneurysm."
+      },
+      "main_concept": "CON-CVS-0FFB81F3C1CC4B",
+      "concept_ids": [
+        "CON-CVS-0FFB81F3C1CC4B"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Rasmussen Aneurysm",
+      "library_ids": [
+        "ART-CVS-RASMUSSEN-ANEURYSM"
+      ],
+      "learning_objective": "Recognise that a Rasmussen aneurysm is a pseudoaneurysm of a pulmonary artery branch, forming within the wall of a chronic tuberculous lung cavity as the vessel is progressively weakened by adjacent caseous necrosis and inflammation."
+    },
+    {
+      "key": "patho-q31",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q31",
+      "page": 8,
+      "title": "Arterial layer where atherosclerosis occurs",
+      "question": "In which Layers does atherosclerosis occurs?",
+      "options": {
+        "A": "Tunica intima",
+        "B": "Tunica Media",
+        "C": "Tunica adventitia",
+        "D": "None of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Atherosclerosis is, by definition, a disease of the tunica intima: the fatty streak and the fibrous atheromatous plaque that follows it both develop within this innermost layer of the arterial wall, beneath the endothelium. Advanced plaques can secondarily thin or weaken the underlying media, but the primary lesion itself is intimal.",
+        "B": "Incorrect. The tunica media can be secondarily affected or weakened by an overlying plaque, but it is not the primary layer in which the atherosclerotic lesion itself develops.",
+        "C": "Incorrect. The tunica adventitia is the outermost connective-tissue layer and is not the site of the primary atherosclerotic lesion.",
+        "D": "Incorrect. A specific layer, the tunica intima, is correct, so \"none of the above\" is wrong."
+      },
+      "main_concept": "CON-CVS-217CCB33D34DB0",
+      "concept_ids": [
+        "CON-CVS-217CCB33D34DB0"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Plaque Structure",
+      "library_ids": [
+        "ART-CVS-ATHEROMA-PLAQUE-STRUCTURE"
+      ],
+      "learning_objective": "Recognise that atherosclerosis is, by definition, a disease of the tunica intima: the fatty streak and the fibrous atheromatous plaque that follows it both develop within this innermost layer of the arterial wall, beneath the endothelium."
+    },
+    {
+      "key": "patho-q32",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q32",
+      "page": 9,
+      "title": "Not a complication of aneurysm",
+      "question": "Complications of aneurysms include all EXCEPT:",
+      "options": {
+        "A": "Thromboembolism",
+        "B": "Improved blood flow",
+        "C": "Rupture and hemorrhage",
+        "D": "Pressure on surrounding organs"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. This is a recognised complication. Turbulent flow within a dilated, aneurysmal segment predisposes to mural thrombus formation and distal embolisation, so it is not the exception.",
+        "B": "Correct. An aneurysm does not improve blood flow; the dilated, turbulent segment instead predisposes to thrombus formation, embolism, and eventual rupture, and the sac itself can compress adjacent structures. \"Improved blood flow\" is the opposite of what an aneurysm produces, which is exactly why it is the complication that does not belong on this list.",
+        "C": "Incorrect. This is a recognised complication. Rupture with haemorrhage is the most feared complication of any aneurysm, so it is not the exception.",
+        "D": "Incorrect. This is a recognised complication. A large aneurysm can compress adjacent organs, nerves or vertebrae by direct pressure effect, so it is not the exception."
+      },
+      "main_concept": "CON-CVS-F3E95B92367825",
+      "concept_ids": [
+        "CON-CVS-F3E95B92367825"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Classification, Site and Complications",
+      "library_ids": [
+        "ART-CVS-ANEURYSM-CLASSIFICATION"
+      ],
+      "learning_objective": "Recognise that an aneurysm does not improve blood flow; the dilated, turbulent segment instead predisposes to thrombus formation, embolism, and eventual rupture, and the sac itself can compress adjacent structures."
+    },
+    {
+      "key": "patho-q33",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q33",
+      "page": 9,
+      "title": "Population typically affected by Takayasu arteritis",
+      "question": "Takayasu arteritis typically affects:",
+      "options": {
+        "A": "Young men",
+        "B": "Women of childbearing age",
+        "C": "Elderly males",
+        "D": "Children"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Takayasu arteritis has a strong female predominance, not a predilection for young men.",
+        "B": "Correct. Takayasu arteritis is a large-vessel vasculitis that typically affects women of childbearing age. Granulomatous inflammation of the aorta and its major branches leads to wall thickening, stenosis and, over time, diminished or absent peripheral pulses, which is why it is also called \"pulseless disease\".",
+        "C": "Incorrect. Elderly patients are the typical population for giant cell (temporal) arteritis, a different large-vessel vasculitis, not Takayasu arteritis.",
+        "D": "Incorrect. Children are not the typical population for Takayasu arteritis, which classically presents in young adult women."
+      },
+      "main_concept": "CON-CVS-AA3A2E6B6084F2",
+      "concept_ids": [
+        "CON-CVS-AA3A2E6B6084F2"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Vasculitis",
+      "module_subject": "MUST-CVS-201 > Pathology > Vasculitis > Takayasu Arteritis",
+      "library_ids": [
+        "ART-CVS-TAKAYASU-ARTERITIS"
+      ],
+      "learning_objective": "Recognise that takayasu arteritis is a large-vessel vasculitis that typically affects women of childbearing age."
+    },
+    {
+      "key": "patho-q34",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q34",
+      "page": 9,
+      "title": "Arterial territory most involved in polyarteritis nodosa",
+      "question": "Polyarteritis nodosa most commonly involves arteries of the:",
+      "options": {
+        "A": "Brain",
+        "B": "Heart",
+        "C": "GIT",
+        "D": "Kidneys"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cerebral arterial involvement is not the territory this source names as most common in polyarteritis nodosa.",
+        "B": "Incorrect. Cardiac arterial involvement is not the territory this source names as most common in polyarteritis nodosa.",
+        "C": "Correct. Polyarteritis nodosa is a necrotising vasculitis of medium-sized muscular arteries that most commonly involves the arteries of the gastrointestinal tract, producing segmental, transmural inflammation with fibrinoid necrosis and a classic \"beading\" pattern of small aneurysms on angiography. Renal, musculoskeletal, skin and peripheral-nerve arteries are also frequently affected, but the GIT is the site this source credits as most common.",
+        "D": "Incorrect. Renal arterial involvement is common and clinically important in polyarteritis nodosa, but this source names the GIT, not the kidneys, as the most common site."
+      },
+      "main_concept": "CON-CVS-00545B736FF8F7",
+      "concept_ids": [
+        "CON-CVS-00545B736FF8F7"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Vasculitis",
+      "module_subject": "MUST-CVS-201 > Pathology > Vasculitis > Polyarteritis Nodosa",
+      "library_ids": [
+        "ART-CVS-POLYARTERITIS-NODOSA"
+      ],
+      "learning_objective": "Recognise that polyarteritis nodosa is a necrotising vasculitis of medium-sized muscular arteries that most commonly involves the arteries of the gastrointestinal tract, producing segmental, transmural inflammation with fibrinoid necrosis and a classic \"beading\" pattern of small aneurysms on angiography."
+    },
+    {
+      "key": "patho-q35",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q35",
+      "page": 9,
+      "title": "Hypertension type associated with hyperplastic arteriolosclerosis",
+      "question": "Hyperplastic arteriolosclerosis is typically seen in:",
+      "options": {
+        "A": "Malignant hypertension",
+        "B": "Benign hypertension",
+        "C": "Both",
+        "D": "Neither"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hyperplastic arteriolosclerosis — concentric, \"onion-skin\" thickening of the arteriolar wall from layered smooth-muscle-cell proliferation — is a change specific to malignant hypertension, occurring together with fibrinoid necrosis as the acute, severe vascular injury of this form. This distinguishes it from the gradual, protein-deposition-driven hyaline arteriolosclerosis of benign hypertension.",
+        "B": "Incorrect. Benign hypertension is characterised by hyaline, not hyperplastic, arteriolosclerosis.",
+        "C": "Incorrect. Hyperplastic arteriolosclerosis is specific to malignant hypertension, not shared with the benign form, so \"both\" is wrong.",
+        "D": "Incorrect. Hyperplastic arteriolosclerosis is a real and defining finding in malignant hypertension, so \"neither\" is wrong."
+      },
+      "main_concept": "CON-CVS-8BFFDE83CC4617",
+      "concept_ids": [
+        "CON-CVS-8BFFDE83CC4617"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Malignant Hypertension",
+      "library_ids": [
+        "ART-CVS-MALIGNANT-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that hyperplastic arteriolosclerosis — concentric, \"onion-skin\" thickening of the arteriolar wall from layered smooth-muscle-cell proliferation — is a change specific to malignant hypertension, occurring together with fibrinoid necrosis as the acute, severe vascular injury of this form."
+    },
+    {
+      "key": "patho-q36",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q36",
+      "page": 10,
+      "title": "Hypertension type characterized by hyaline arteriolosclerosis",
+      "question": "Hyaline arteriolosclerosis is characteristic of:",
+      "options": {
+        "A": "Benign hypertension",
+        "B": "Malignant hypertension",
+        "C": "Atherosclerosis",
+        "D": "Vasculitis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hyaline arteriolosclerosis — pink, structureless, homogeneous thickening of the arteriolar wall from deposition of an abnormal (plasma) protein — is characteristic of benign hypertension. The same hyaline change is also seen in diabetes and as a senescent (ageing) change in otherwise normotensive elderly patients, but among the hypertension subtypes it specifically marks the benign, not the malignant, form.",
+        "B": "Incorrect. Malignant hypertension is characterised by hyperplastic (\"onion-skin\") arteriolosclerosis with fibrinoid necrosis, not the hyaline pattern.",
+        "C": "Incorrect. Atherosclerosis is a disease of larger, elastic and muscular arteries with an intimal plaque, a different process and different vessel calibre from arteriolar hyaline change.",
+        "D": "Incorrect. Vasculitis is inflammatory injury of the vessel wall, a different mechanism from the non-inflammatory protein deposition of hyaline arteriolosclerosis."
+      },
+      "main_concept": "CON-CVS-F7B45A1E821B0A",
+      "concept_ids": [
+        "CON-CVS-F7B45A1E821B0A"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Benign Hypertension",
+      "library_ids": [
+        "ART-CVS-BENIGN-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that hyaline arteriolosclerosis — pink, structureless, homogeneous thickening of the arteriolar wall from deposition of an abnormal (plasma) protein — is characteristic of benign hypertension."
+    },
+    {
+      "key": "patho-q37",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q37",
+      "page": 10,
+      "title": "Vignette: smoker with hypertension and calf claudication",
+      "question": "A 55-year-old male with a history of smoking and hypertension presents with intermittent cramping in his calves when walking. The most likely cause is:",
+      "options": {
+        "A": "Deep vein thrombosis",
+        "B": "Atherosclerosis of popliteal artery",
+        "C": "Venous insufficiency",
+        "D": "Neuropathy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Deep vein thrombosis typically causes constant swelling and pain, not exertional cramping that is relieved by rest.",
+        "B": "Correct. Exertional calf cramping relieved by rest (intermittent claudication) in an older smoker with hypertension — two major atherosclerosis risk factors — points to atherosclerotic narrowing of the popliteal artery limiting the increase in blood flow the exercising calf muscle needs. This is the classic peripheral-artery-disease presentation, and the risk-factor profile (age, smoking, hypertension) reinforces the atherosclerotic mechanism.",
+        "C": "Incorrect. Venous insufficiency causes aching and swelling that typically worsens with standing and improves with elevation, not the exertional claudication pattern described.",
+        "D": "Incorrect. Neuropathic pain is typically a burning or tingling sensation unrelated to exertion, not an exertion-triggered cramp relieved by rest."
+      },
+      "main_concept": "CON-CVS-E03F9800584C73",
+      "concept_ids": [
+        "CON-CVS-E03F9800584C73"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Complications",
+      "library_ids": [
+        "ART-CVS-ATHEROSCLEROSIS-COMPLICATIONS"
+      ],
+      "learning_objective": "Recognise that exertional calf cramping relieved by rest (intermittent claudication) in an older smoker with hypertension — two major atherosclerosis risk factors — points to atherosclerotic narrowing of the popliteal artery limiting the increase in blood flow the exercising calf muscle needs."
+    },
+    {
+      "key": "patho-q38",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q38",
+      "page": 10,
+      "title": "Vignette: severe hypertension with retinal hemorrhages and renal impairment",
+      "question": "A 40-year-old woman presents with severe hypertension (210/180), retinal hemorrhages, and renal impairment. The most likely diagnosis is:",
+      "options": {
+        "A": "Benign hypertension",
+        "B": "Malignant hypertension",
+        "C": "Essential hypertension",
+        "D": "Secondary hypertension due to renal artery stenosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Benign hypertension does not produce this acute picture of very severe pressure with retinal haemorrhage and renal impairment.",
+        "B": "Correct. This is the classic picture of malignant hypertension: severe, progressive hypertension (here far above the roughly 200/110 mmHg benign ceiling) with acute target-organ damage — retinal haemorrhage and renal impairment — matching the fibrinoid-necrosis/onion-skin arteriolar injury that defines this form. The diagnosis rests on this combination of a very high pressure with acute damage, not the blood pressure number alone.",
+        "C": "Incorrect. Essential hypertension describes the absence of an identifiable secondary cause, not this specific acute severe presentation with target-organ damage.",
+        "D": "Incorrect. Renal artery stenosis is a specific secondary cause that could underlie severe hypertension, but the vignette itself, with acute retinal and renal damage at this pressure, is describing the malignant hypertension picture rather than naming its underlying aetiology."
+      },
+      "main_concept": "CON-CVS-8BFFDE83CC4617",
+      "concept_ids": [
+        "CON-CVS-8BFFDE83CC4617"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Malignant Hypertension",
+      "library_ids": [
+        "ART-CVS-MALIGNANT-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that this is the classic picture of malignant hypertension: severe, progressive hypertension (here far above the roughly 200/110 mmHg benign ceiling) with acute target-organ damage — retinal haemorrhage and renal impairment — matching the fibrinoid-necrosis/onion-skin arteriolar injury that defines this form."
+    },
+    {
+      "key": "patho-q40",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q40",
+      "page": 11,
+      "title": "Vignette: atherosclerosis with tearing back pain and hypotension",
+      "question": "A 60-year-old male with atherosclerosis presents with sudden, tearing back pain and hypotension. The most likely diagnosis is:",
+      "options": {
+        "A": "Myocardial infarction",
+        "B": "Pulmonary embolism",
+        "C": "Dissecting aortic aneurysm",
+        "D": "Renal colic"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Myocardial infarction classically causes crushing anterior chest pain, not sudden tearing back pain.",
+        "B": "Incorrect. Pulmonary embolism classically causes pleuritic chest pain and dyspnoea, not the tearing back-pain quality described here.",
+        "C": "Correct. Sudden, severe, tearing chest or back pain with hypotension is the classic presentation of a dissecting aortic aneurysm — an intimal tear that lets blood track within the media, creating a false lumen and causing hypotension from blood loss into that false lumen or the pericardium. Hypertension and atherosclerosis (as in this vignette) are recognised predisposing factors alongside connective-tissue disease such as Marfan syndrome.",
+        "D": "Incorrect. Renal colic classically causes colicky flank pain radiating to the groin, without the tearing quality or hypotension described."
+      },
+      "main_concept": "CON-CVS-4A3DD926C2BCE4",
+      "concept_ids": [
+        "CON-CVS-4A3DD926C2BCE4"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Dissecting Aneurysm",
+      "library_ids": [
+        "ART-CVS-DISSECTING-AORTIC-ANEURYSM"
+      ],
+      "learning_objective": "Recognise that sudden, severe, tearing chest or back pain with hypotension is the classic presentation of a dissecting aortic aneurysm — an intimal tear that lets blood track within the media, creating a false lumen and causing hypotension from blood loss into that false lumen or the pericardium."
+    },
+    {
+      "key": "patho-q41",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q41",
+      "page": 11,
+      "title": "Vignette: fever, murmur and pulsating groin mass with positive staph cultures",
+      "question": "A young woman presents with fever, heart murmur, and a pulsating mass in the groin. Blood cultures are positive for Staphylococcus. The most likely diagnosis is:",
+      "options": {
+        "A": "Atherosclerotic aneurysm",
+        "B": "Mycotic aneurysm",
+        "C": "Traumatic aneurysm",
+        "D": "Syphilitic aneurysm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. An atherosclerotic aneurysm develops gradually from chronic vessel-wall disease, not acutely alongside fever, a murmur and positive blood cultures.",
+        "B": "Correct. Fever, a heart murmur (suggesting infective endocarditis) and positive Staphylococcus blood cultures, together with a pulsatile groin mass, describe a mycotic aneurysm: septic emboli shed from an infected heart valve seed and weaken a distal artery wall, here the femoral artery in the groin. This is the classic link between infective endocarditis and a mycotic aneurysm at a distant arterial site.",
+        "C": "Incorrect. A traumatic aneurysm follows a specific injury, not a systemic infective picture with fever and positive blood cultures.",
+        "D": "Incorrect. A syphilitic aneurysm classically involves the thoracic aorta from tertiary syphilitic aortitis, a distinct, chronic process unrelated to this acute staphylococcal-bacteraemia picture."
+      },
+      "main_concept": "CON-CVS-5916244D7A012F",
+      "concept_ids": [
+        "CON-CVS-5916244D7A012F"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Mycotic Aneurysm",
+      "library_ids": [
+        "ART-CVS-MYCOTIC-ANEURYSM"
+      ],
+      "learning_objective": "Recognise that fever, a heart murmur (suggesting infective endocarditis) and positive Staphylococcus blood cultures, together with a pulsatile groin mass, describe a mycotic aneurysm: septic emboli shed from an infected heart valve seed and weaken a distal artery wall, here the femoral artery in the groin."
+    },
+    {
+      "key": "patho-q42",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q42",
+      "page": 11,
+      "title": "Order of causes of death in benign hypertension",
+      "question": "Which of the following is the correct order of most common cause of death in benign hypertension?",
+      "options": {
+        "A": "Congestive heart failure -> Renal Failure -> Coronary infarction -> Cerebral hemorrhage",
+        "B": "Renal Failure -> Coronary infarction -> Cerebral hemorrhage -> Congestive heart failure",
+        "C": "Cerebral hemorrhage -> Renal Failure -> Congestive heart failure -> Coronary infarction",
+        "D": "Congestive heart failure -> Coronary infarction -> Cerebral hemorrhage -> Renal Failure"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. This order places renal failure second and coronary infarction third, not matching the printed order.",
+        "B": "Incorrect. This order starts with renal failure, which is the malignant-hypertension order, not the benign-hypertension order.",
+        "C": "Incorrect. This order starts with cerebral haemorrhage, not congestive heart failure, so it does not match the printed benign-hypertension order.",
+        "D": "Correct. In benign hypertension, death occurs, in order of frequency, from congestive heart failure, then coronary infarction, then cerebral haemorrhage, and then renal failure last. The sustained chronic afterload of benign hypertension drives progressive left-ventricular strain, which is why pump failure (CHF) leads this particular ranking, in contrast with the renal-failure-first order specific to malignant hypertension."
+      },
+      "main_concept": "CON-CVS-F7B45A1E821B0A",
+      "concept_ids": [
+        "CON-CVS-F7B45A1E821B0A"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Benign Hypertension",
+      "library_ids": [
+        "ART-CVS-BENIGN-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that in benign hypertension, death occurs, in order of frequency, from congestive heart failure, then coronary infarction, then cerebral haemorrhage, and then renal failure last."
+    },
+    {
+      "key": "patho-q43",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q43",
+      "page": 11,
+      "title": "Order of causes of death in malignant hypertension",
+      "question": "Which of the following is the correct order of most common cause of death in malignant hypertension?",
+      "options": {
+        "A": "Renal Failure -> Heart failure -> Coronary heart disease -> Cerebral hemorrhage",
+        "B": "Heart failure-> Renal Failure -> Coronary heart disease -> Cerebral hemorrhage",
+        "C": "Cerebral hemorrhage -> Renal Failure -> Heart failure-> Coronary infarction",
+        "D": "Heart failure -> Coronary heart disease -> Cerebral hemorrhage -> Renal Failure"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Untreated malignant hypertension causes death, in order of frequency, from renal failure first, then heart failure, then coronary heart disease, and then cerebral haemorrhage. This renal-failure-first order reflects the severity of the fibrinoid-necrosis/hyperplastic-arteriolosclerosis renal injury specific to the malignant form, and it is the opposite emphasis from benign hypertension, where congestive heart failure leads instead.",
+        "B": "Incorrect. This order starts with heart failure, not renal failure, so it does not match the printed malignant-hypertension order.",
+        "C": "Incorrect. This order starts with cerebral haemorrhage, not renal failure, so it does not match the printed malignant-hypertension order.",
+        "D": "Incorrect. This order places renal failure last rather than first; that is the benign-hypertension order, not the malignant one."
+      },
+      "main_concept": "CON-CVS-8BFFDE83CC4617",
+      "concept_ids": [
+        "CON-CVS-8BFFDE83CC4617"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Malignant Hypertension",
+      "library_ids": [
+        "ART-CVS-MALIGNANT-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that untreated malignant hypertension causes death, in order of frequency, from renal failure first, then heart failure, then coronary heart disease, and then cerebral haemorrhage."
+    },
+    {
+      "key": "patho-q44",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q44",
+      "page": 12,
+      "title": "Component not found in the lipid zone",
+      "question": "The lipid zone of an atheromatous plaque contains all EXCEPT:",
+      "options": {
+        "A": "Collagen",
+        "B": "Foam cells",
+        "C": "Cholesterol",
+        "D": "Extracellular lipid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Collagen is the structural component of the fibrous cap and basal zone of the plaque, not of the lipid zone. The lipid zone itself is defined by its foam cells, extracellular lipid and cholesterol; collagen belongs to the surrounding fibrous framework rather than to this lipid-rich core.",
+        "B": "Incorrect. This is a recognised component. Foam cells (lipid-laden macrophages and smooth muscle cells) are a defining component of the lipid zone, so it is not the exception.",
+        "C": "Incorrect. This is a recognised component. Cholesterol is a defining component of the lipid zone, so it is not the exception.",
+        "D": "Incorrect. This is a recognised component. Extracellular lipid is a defining component of the lipid zone, so it is not the exception."
+      },
+      "main_concept": "CON-CVS-217CCB33D34DB0",
+      "concept_ids": [
+        "CON-CVS-217CCB33D34DB0"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Plaque Structure",
+      "library_ids": [
+        "ART-CVS-ATHEROMA-PLAQUE-STRUCTURE"
+      ],
+      "learning_objective": "Recognise that collagen is the structural component of the fibrous cap and basal zone of the plaque, not of the lipid zone."
+    },
+    {
+      "key": "patho-q45",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q45",
+      "page": 12,
+      "title": "Factor that is not a risk for atherosclerosis",
+      "question": "Which of the following is NOT a risk factor for atherosclerosis?",
+      "options": {
+        "A": "Young age",
+        "B": "Smoking",
+        "C": "Hypertension",
+        "D": "Hyperlipidemia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Atherosclerosis risk rises with advancing age, not with young age; age is one of its named non-modifiable risk factors, but in the opposite direction from what this option states. Older age, not younger age, is the recognised predisposing factor, alongside hyperlipidaemia, hypertension, smoking, diabetes, male sex, obesity, stress and family history. That is exactly why young age is the one factor on this list that does not predispose to atherosclerosis.",
+        "B": "Incorrect. This is a recognised risk factor. Smoking damages the endothelium and independently predisposes to atherosclerosis, so it is not the exception.",
+        "C": "Incorrect. This is a recognised risk factor. Hypertension independently damages the endothelium and predisposes to atherosclerosis, so it is not the exception.",
+        "D": "Incorrect. This is a recognised risk factor. Hyperlipidaemia (raised LDL, lowered HDL) is a core predisposing factor for atherosclerosis, so it is not the exception."
+      },
+      "main_concept": "CON-CVS-F44EBF69D14F3B",
+      "concept_ids": [
+        "CON-CVS-F44EBF69D14F3B"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Risk Factors",
+      "library_ids": [
+        "ART-CVS-ATHEROSCLEROSIS-RISK-FACTORS"
+      ],
+      "learning_objective": "Recognise that atherosclerosis risk rises with advancing age, not with young age; age is one of its named non-modifiable risk factors, but in the opposite direction from what this option states."
+    },
+    {
+      "key": "patho-q46",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q46",
+      "page": 12,
+      "title": "Factors associated with pre-eclampsia",
+      "question": "Pre-eclampsia is associated with:",
+      "options": {
+        "A": "First pregnancy",
+        "B": "Old age",
+        "C": "Diabetes",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect on its own. First pregnancy (nulliparity) is a genuine risk factor, but it is not the only one being tested — this is one of several correct factors, not the single best answer.",
+        "B": "Incorrect on its own. Older maternal age is a genuine risk factor, but it is not the only one being tested — this is one of several correct factors, not the single best answer.",
+        "C": "Incorrect on its own. Pre-existing diabetes mellitus is a genuine risk factor, but it is not the only one being tested — this is one of several correct factors, not the single best answer.",
+        "D": "Correct. Pre-eclampsia — new-onset hypertension with proteinuria after 20 weeks of pregnancy — has its risk independently raised by nulliparity (first pregnancy), older maternal age, and pre-existing diabetes mellitus, each a separately creditable factor rather than a single dominant cause. This multifactorial risk profile is why \"all of the above\" is the complete and correct answer rather than any one factor alone."
+      },
+      "main_concept": "CON-CVS-C400BC47E85D70",
+      "concept_ids": [
+        "CON-CVS-C400BC47E85D70"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Pre-eclampsia",
+      "library_ids": [
+        "ART-CVS-PREECLAMPSIA-HYPERTENSION-RISK"
+      ],
+      "learning_objective": "Recognise that pre-eclampsia — new-onset hypertension with proteinuria after 20 weeks of pregnancy — has its risk independently raised by nulliparity (first pregnancy), older maternal age, and pre-existing diabetes mellitus, each a separately creditable factor rather than a single dominant cause."
+    },
+    {
+      "key": "patho-q47",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q47",
+      "page": 12,
+      "title": "Cardiovascular risks associated with sleep apnea",
+      "question": "Sleep apnea is a risk factor for:",
+      "options": {
+        "A": "Hypertension",
+        "B": "Stroke",
+        "C": "Heart attack",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect on its own. Sleep apnoea raising the risk of hypertension is true, but it is not the only cardiovascular endpoint it affects — this is one of several correct answers, not the single best one.",
+        "B": "Incorrect on its own. Sleep apnoea raising the risk of stroke is true, but it is not the only cardiovascular endpoint it affects — this is one of several correct answers, not the single best one.",
+        "C": "Incorrect on its own. Sleep apnoea raising the risk of heart attack is true, but it is not the only cardiovascular endpoint it affects — this is one of several correct answers, not the single best one.",
+        "D": "Correct. Obstructive sleep apnoea causes repeated nocturnal hypoxia and sympathetic surges that raise systemic blood pressure over time. This mechanism makes it an independent risk factor across multiple cardiovascular endpoints — hypertension, stroke and myocardial infarction (heart attack) — rather than for just one of them. That breadth of effect is why \"all of the above\" is the complete answer here, not any single option alone."
+      },
+      "main_concept": "CON-CVS-E0908501269680",
+      "concept_ids": [
+        "CON-CVS-E0908501269680"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Sleep Apnoea",
+      "library_ids": [
+        "ART-CVS-SLEEP-APNEA-HYPERTENSION-RISK"
+      ],
+      "learning_objective": "Recognise that obstructive sleep apnoea causes repeated nocturnal hypoxia and sympathetic surges that raise systemic blood pressure over time."
+    },
+    {
+      "key": "patho-q48",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q48",
+      "page": 13,
+      "title": "Deposition producing hyaline arteriolar change",
+      "question": "Hyaline changes in arterioles in benign hypertension are due to deposition of:",
+      "options": {
+        "A": "Lipid",
+        "B": "Calcium",
+        "C": "Abnormal protein",
+        "D": "Fibrin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Lipid deposition characterises the fatty streak and atheromatous plaque of atherosclerosis, a different process affecting larger arteries, not arteriolar hyaline change.",
+        "B": "Incorrect. Calcium deposition (dystrophic calcification) is a feature of advanced atherosclerotic plaque, not the mechanism of arteriolar hyaline change.",
+        "C": "Correct. Hyaline arteriolosclerosis in benign hypertension arises from the deposition of an abnormal (plasma) protein within the arteriolar wall, producing the pink, structureless, homogeneous thickening characteristic of this change. The same protein-deposition mechanism explains why the identical hyaline pattern is also seen in diabetes and as a senescent change in normotensive elderly patients.",
+        "D": "Incorrect. Fibrin deposition (fibrinoid necrosis) is the acute vascular-injury pattern of malignant, not benign, hypertension."
+      },
+      "main_concept": "CON-CVS-F7B45A1E821B0A",
+      "concept_ids": [
+        "CON-CVS-F7B45A1E821B0A"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Benign Hypertension",
+      "library_ids": [
+        "ART-CVS-BENIGN-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that hyaline arteriolosclerosis in benign hypertension arises from the deposition of an abnormal (plasma) protein within the arteriolar wall, producing the pink, structureless, homogeneous thickening characteristic of this change."
+    },
+    {
+      "key": "patho-q49",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q49",
+      "page": 13,
+      "title": "Pericarditis type most likely after a penetrating chest wound",
+      "question": "Which type of pericarditis is most likely to follow a penetrating chest wound?",
+      "options": {
+        "A": "Serous pericarditis",
+        "B": "Suppurative pericarditis",
+        "C": "Fibrinous pericarditis",
+        "D": "Tuberculous pericarditis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Serous pericarditis is a sterile, often viral or idiopathic process, not the expected result of direct penetrating contamination.",
+        "B": "Correct. Suppurative (purulent) pericarditis follows direct pyogenic bacterial contamination of the pericardial sac, and a penetrating chest wound is the classic route for exactly this kind of direct inoculation, producing frank purulent exudate. This route contrasts with the haematogenous or contiguous spread that more often underlies suppurative pericarditis from a distant infective source.",
+        "C": "Incorrect. Fibrinous pericarditis follows causes such as rheumatic fever, uraemia or myocardial infarction, not direct penetrating trauma.",
+        "D": "Incorrect. Tuberculous pericarditis follows haematogenous or contiguous spread of Mycobacterium tuberculosis, not direct penetrating injury."
+      },
+      "main_concept": "CON-CVS-BE0B74CF459B26",
+      "concept_ids": [
+        "CON-CVS-BE0B74CF459B26"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Pericardial Disease",
+      "module_subject": "MUST-CVS-201 > Pathology > Pericardial Disease > Suppurative Pericarditis",
+      "library_ids": [
+        "ART-CVS-SUPPURATIVE-PERICARDITIS"
+      ],
+      "learning_objective": "Recognise that suppurative (purulent) pericarditis follows direct pyogenic bacterial contamination of the pericardial sac, and a penetrating chest wound is the classic route for exactly this kind of direct inoculation, producing frank purulent exudate."
+    },
+    {
+      "key": "patho-q51",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q51",
+      "page": 13,
+      "title": "Effect of dystrophic calcification in atherosclerotic plaques",
+      "question": "In atherosclerotic plaques, dystrophic calcification leads to:",
+      "options": {
+        "A": "Softening of vessels",
+        "B": "Hardening of vessels",
+        "C": "Ulceration",
+        "D": "Hemorrhage"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Calcification stiffens tissue; it does not soften the vessel wall.",
+        "B": "Correct. Dystrophic calcification of an atherosclerotic plaque deposits calcium within the degenerating, lipid-rich lesion. This deposited calcium hardens rather than softens the vessel wall, reducing its compliance. The result contributes to the brittle, easily fractured quality of advanced (\"pipe-stem\") atherosclerotic arteries.",
+        "C": "Incorrect. Ulceration is a separate complication of plaque instability, caused by breakdown of the fibrous cap rather than by calcification itself.",
+        "D": "Incorrect. Haemorrhage into a plaque is a separate complication, from bleeding of fragile new vessels within the plaque, not a direct effect of calcification."
+      },
+      "main_concept": "CON-CVS-E03F9800584C73",
+      "concept_ids": [
+        "CON-CVS-E03F9800584C73"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Complications",
+      "library_ids": [
+        "ART-CVS-ATHEROSCLEROSIS-COMPLICATIONS"
+      ],
+      "learning_objective": "Recognise that dystrophic calcification of an atherosclerotic plaque deposits calcium within the degenerating, lipid-rich lesion."
+    },
+    {
+      "key": "patho-q52",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q52",
+      "page": 14,
+      "title": "Consequences of atherosclerotic renal artery stenosis",
+      "question": "Atherosclerotic renal artery stenosis can lead to:",
+      "options": {
+        "A": "Hypertension",
+        "B": "Renal infarction",
+        "C": "Both",
+        "D": "Neither"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect on its own. Hypertension is a real consequence, but it is not the only one — renal infarction is also a recognised consequence, so this option alone is incomplete.",
+        "B": "Incorrect on its own. Renal infarction is a real consequence, but it is not the only one — hypertension is also a recognised consequence, so this option alone is incomplete.",
+        "C": "Correct. Atherosclerotic renal artery stenosis can lead to both consequences: hypertension, through reduced renal perfusion activating the renin-angiotensin system (renovascular hypertension), and renal infarction, when a plaque acutely occludes or embolises to interrupt the kidney's own blood supply. These are two separate downstream effects of the same narrowed vessel, not alternatives to each other.",
+        "D": "Incorrect. Both hypertension and renal infarction are real, recognised consequences of atherosclerotic renal artery stenosis, so \"neither\" is wrong."
+      },
+      "main_concept": "CON-CVS-E03F9800584C73",
+      "concept_ids": [
+        "CON-CVS-E03F9800584C73"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Atherosclerosis",
+      "module_subject": "MUST-CVS-201 > Pathology > Atherosclerosis > Complications",
+      "library_ids": [
+        "ART-CVS-ATHEROSCLEROSIS-COMPLICATIONS"
+      ],
+      "learning_objective": "Recognise that atherosclerotic renal artery stenosis can lead to both consequences: hypertension, through reduced renal perfusion activating the renin-angiotensin system (renovascular hypertension), and renal infarction, when a plaque acutely occludes or embolises to interrupt the kidney's own blood supply."
+    },
+    {
+      "key": "patho-q53",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q53",
+      "page": 14,
+      "title": "Feature of suppurative pericarditis",
+      "question": "Which of the following is a feature of suppurative pericarditis?",
+      "options": {
+        "A": "Clear straw-colored fluid",
+        "B": "Fibrinous exudate",
+        "C": "Purulent exudate",
+        "D": "Hemorrhagic exudate"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Clear, straw-coloured fluid is the serous pattern, not the suppurative one.",
+        "B": "Incorrect. A fibrinous exudate is the pattern of fibrinous pericarditis (the \"bread and butter\" appearance), a different, sterile-cause-predominant type from suppurative disease.",
+        "C": "Correct. Suppurative (purulent) pericarditis, from direct pyogenic bacterial contamination of the pericardial sac — for example, following a penetrating chest wound — is characterised by frank purulent exudate. This distinguishes it from the clear serous fluid of viral disease and the fibrinous coating of rheumatic or uraemic pericarditis.",
+        "D": "Incorrect. A haemorrhagic exudate is the pattern more typical of tuberculous or malignant pericarditis, not the classic suppurative picture."
+      },
+      "main_concept": "CON-CVS-BE0B74CF459B26",
+      "concept_ids": [
+        "CON-CVS-BE0B74CF459B26"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Pericardial Disease",
+      "module_subject": "MUST-CVS-201 > Pathology > Pericardial Disease > Suppurative Pericarditis",
+      "library_ids": [
+        "ART-CVS-SUPPURATIVE-PERICARDITIS"
+      ],
+      "learning_objective": "Recognise that suppurative (purulent) pericarditis, from direct pyogenic bacterial contamination of the pericardial sac — for example, following a penetrating chest wound — is characterised by frank purulent exudate."
+    },
+    {
+      "key": "patho-q54",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q54",
+      "page": 14,
+      "title": "Retinal findings in malignant hypertension",
+      "question": "In malignant hypertension, retinal findings include:",
+      "options": {
+        "A": "Hemorrhages",
+        "B": "Exudates",
+        "C": "Papilledema",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect on its own. Retinal haemorrhage is a genuine finding, but it is not the only one being tested — this is one of several correct findings, not the single best answer.",
+        "B": "Incorrect on its own. Retinal exudates are a genuine finding, but it is not the only one being tested — this is one of several correct findings, not the single best answer.",
+        "C": "Incorrect on its own. Papilloedema is a genuine finding, but it is not the only one being tested — this is one of several correct findings, not the single best answer.",
+        "D": "Correct. Malignant hypertension produces acute target-organ damage in the eye, and its retinal findings include haemorrhages, exudates and papilloedema together, reflecting the same acute severe vascular injury (fibrinoid necrosis) seen in the kidney. This combination of retinal signs, together with renal impairment, is part of what defines malignant hypertension as more than just a very high blood-pressure reading."
+      },
+      "main_concept": "CON-CVS-8BFFDE83CC4617",
+      "concept_ids": [
+        "CON-CVS-8BFFDE83CC4617"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Malignant Hypertension",
+      "library_ids": [
+        "ART-CVS-MALIGNANT-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that malignant hypertension produces acute target-organ damage in the eye, and its retinal findings include haemorrhages, exudates and papilloedema together, reflecting the same acute severe vascular injury (fibrinoid necrosis) seen in the kidney."
+    },
+    {
+      "key": "patho-q55",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q55",
+      "page": 14,
+      "title": "Contexts in which hyaline arteriolosclerosis is seen",
+      "question": "Hyaline arteriolosclerosis is seen in:",
+      "options": {
+        "A": "Malignant hypertension",
+        "B": "Diabetes",
+        "C": "Elderly normotensives",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Note: hyaline arteriolosclerosis is the benign-hypertension pattern; malignant hypertension instead shows hyperplastic (\"onion-skin\") change with fibrinoid necrosis. This option alone would be an incomplete/incorrect single answer, but the printed key selects \"all of the above\" for this item.",
+        "B": "Incorrect on its own. Hyaline change in diabetes is genuine, but it is not the only context being tested — this is one of several correct contexts, not the single best answer.",
+        "C": "Incorrect on its own. Hyaline change as an ageing finding in normotensive elderly patients is genuine, but it is not the only context being tested — this is one of several correct contexts, not the single best answer.",
+        "D": "Correct (printed key). Hyaline arteriolosclerosis — protein deposition producing pink, structureless arteriolar thickening — is seen in benign hypertension, in diabetes, and as a senescent change in otherwise normotensive elderly patients. The printed key selects \"all of the above\" for this item; note that this reads as the *benign*, not malignant, hypertension association given this same source's own Q35/Q36 pairing of hyperplastic change with malignant disease and hyaline change with benign disease — flagged here rather than silently reconciled, per the lane rule that printed keys stand."
+      },
+      "main_concept": "CON-CVS-F7B45A1E821B0A",
+      "concept_ids": [
+        "CON-CVS-F7B45A1E821B0A"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Hypertension",
+      "module_subject": "MUST-CVS-201 > Pathology > Hypertension > Benign Hypertension",
+      "library_ids": [
+        "ART-CVS-BENIGN-HYPERTENSION"
+      ],
+      "learning_objective": "Recognise that hyaline arteriolosclerosis — protein deposition producing pink, structureless arteriolar thickening — is seen in benign hypertension, in diabetes, and as a senescent change in otherwise normotensive elderly patients."
+    },
+    {
+      "key": "patho-q56",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q56",
+      "page": 15,
+      "title": "Circumferential extent of a saccular aneurysm",
+      "question": "A saccular aneurysm involves:",
+      "options": {
+        "A": "Entire circumference",
+        "B": "Part of circumference",
+        "C": "Dissection of wall",
+        "D": "False lumen"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Involvement of the entire circumference describes a fusiform, not a saccular, aneurysm.",
+        "B": "Correct. A saccular aneurysm dilates only part of the circumference of the vessel, forming a focal, sac-like outpouching. This contrasts with a fusiform aneurysm, which dilates the entire circumference symmetrically over a length of the vessel. The shape distinction matters clinically because a saccular aneurysm's narrow neck and eccentric sac carry a different rupture risk profile from a fusiform one.",
+        "C": "Incorrect. Dissection of the wall, with blood tracking within the media, describes a dissecting aneurysm, a mechanistically distinct entity from a saccular true aneurysm.",
+        "D": "Incorrect. A false lumen is the hallmark of a dissecting aneurysm, not of a saccular true aneurysm."
+      },
+      "main_concept": "CON-CVS-F3E95B92367825",
+      "concept_ids": [
+        "CON-CVS-F3E95B92367825"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Classification, Site and Complications",
+      "library_ids": [
+        "ART-CVS-ANEURYSM-CLASSIFICATION"
+      ],
+      "learning_objective": "Recognise that a saccular aneurysm dilates only part of the circumference of the vessel, forming a focal, sac-like outpouching."
+    },
+    {
+      "key": "patho-q57",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q57",
+      "page": 15,
+      "title": "Condition most associated with mycotic aneurysms",
+      "question": "Mycotic aneurysms are most associated with:",
+      "options": {
+        "A": "Atherosclerosis",
+        "B": "Syphilis",
+        "C": "Infective endocarditis",
+        "D": "Trauma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Atherosclerosis is the classic association for a fusiform, degenerative aneurysm, a different mechanism from an infected, mycotic one.",
+        "B": "Incorrect. Syphilis is the classic association for syphilitic (thoracic aortic) aneurysm from tertiary aortitis, a different, non-embolic mechanism.",
+        "C": "Correct. A mycotic aneurysm is a localised arterial dilation caused by infection of the vessel wall, most commonly from septic embolisation of infected material — classically vegetations shed from infective endocarditis, which seed and weaken a distal artery wall. This embolic, infective mechanism is the specific association this source is testing, distinguishing it from the degenerative (atherosclerotic) or connective-tissue (Marfan/dissecting) mechanisms tested elsewhere in this paper.",
+        "D": "Incorrect. Trauma is the classic association for a false (pseudo-) aneurysm, not the infective, embolic mechanism of a mycotic one."
+      },
+      "main_concept": "CON-CVS-5916244D7A012F",
+      "concept_ids": [
+        "CON-CVS-5916244D7A012F"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Mycotic Aneurysm",
+      "library_ids": [
+        "ART-CVS-MYCOTIC-ANEURYSM"
+      ],
+      "learning_objective": "Recognise that a mycotic aneurysm is a localised arterial dilation caused by infection of the vessel wall, most commonly from septic embolisation of infected material — classically vegetations shed from infective endocarditis, which seed and weaken a distal artery wall."
+    },
+    {
+      "key": "patho-q58",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q58",
+      "page": 15,
+      "title": "Vessels affected by Takayasu arteritis",
+      "question": "Takayasu arteritis affects the:",
+      "options": {
+        "A": "Small vessels only",
+        "B": "Aorta and main branches",
+        "C": "Coronary arteries only",
+        "D": "Pulmonary arteries"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Takayasu arteritis is a large-vessel, not a small-vessel, vasculitis.",
+        "B": "Correct. Takayasu arteritis is a large-vessel vasculitis involving the aorta and its major branches, with granulomatous inflammation leading to wall thickening, stenosis and, over time, diminished or absent peripheral pulses (\"pulseless disease\"). This large-vessel distribution, together with the typical young-female demographic, is what distinguishes it from other vasculitides of different vessel calibre.",
+        "C": "Incorrect. Isolated coronary artery involvement is not the characteristic distribution of Takayasu arteritis, which affects the aorta and its major branches broadly.",
+        "D": "Incorrect. The pulmonary arteries can occasionally be involved in Takayasu arteritis, but they are not the primary vessels this source names; the aorta and its main branches are."
+      },
+      "main_concept": "CON-CVS-AA3A2E6B6084F2",
+      "concept_ids": [
+        "CON-CVS-AA3A2E6B6084F2"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Vasculitis",
+      "module_subject": "MUST-CVS-201 > Pathology > Vasculitis > Takayasu Arteritis",
+      "library_ids": [
+        "ART-CVS-TAKAYASU-ARTERITIS"
+      ],
+      "learning_objective": "Recognise that takayasu arteritis is a large-vessel vasculitis involving the aorta and its major branches, with granulomatous inflammation leading to wall thickening, stenosis and, over time, diminished or absent peripheral pulses (\"pulseless disease\")."
+    },
+    {
+      "key": "patho-q59",
+      "id": "QST-MUSTCVS201-PATHOLOGY-Q59",
+      "page": 15,
+      "title": "Effect of bone erosion by a descending aortic aneurysm",
+      "question": "In descending aortic aneurysm, bone erosion may cause:",
+      "options": {
+        "A": "Chest pain",
+        "B": "Back pain",
+        "C": "Abdominal pain",
+        "D": "Headache"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Chest pain is the classic presenting symptom of the aneurysm itself (or its dissection), not the specific symptom of adjacent bone erosion by a descending aortic lesion.",
+        "B": "Correct. A descending aortic aneurysm lies directly against the vertebral bodies. As it enlarges, it can erode the adjacent bone by sustained mechanical pressure over time. This direct erosive pressure effect on the vertebrae produces back pain, distinct from the acute tearing pain of dissection itself.",
+        "C": "Incorrect. Abdominal pain is more typical of an abdominal, not a descending thoracic, aortic aneurysm eroding adjacent structures.",
+        "D": "Incorrect. Headache is not the expected symptom of vertebral bone erosion by a descending aortic aneurysm."
+      },
+      "main_concept": "CON-CVS-4A3DD926C2BCE4",
+      "concept_ids": [
+        "CON-CVS-4A3DD926C2BCE4"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Aneurysms",
+      "module_subject": "MUST-CVS-201 > Pathology > Aneurysms > Dissecting Aneurysm",
+      "library_ids": [
+        "ART-CVS-DISSECTING-AORTIC-ANEURYSM"
+      ],
+      "learning_objective": "Recognise that a descending aortic aneurysm lies directly against the vertebral bodies."
+    }
+  ]
+}

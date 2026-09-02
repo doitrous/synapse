@@ -452,46 +452,6 @@ no
 # Item
 
 ## id
-CIT-CVS-C0ADE9E8979F5A
-
-## claim_id
-CLM-CVS-C0ADE9E8979F5A
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Right coronary artery. Origin: from the anterior aortic sinus of the ascending aorta.
-
-## locator_type
-page
-
-## locator_page
-36
-
-## locator_section
-Anatomy section, coronary arteries
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.8
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-D6166DE26FC349
 
 ## claim_id
@@ -612,46 +572,6 @@ no
 # Item
 
 ## id
-CIT-CVS-C2C8702CBA09CC
-
-## claim_id
-CLM-CVS-C2C8702CBA09CC
-
-## resource_id
-src_876c2bd15d1bf71629c5
-
-## evidence_role
-local_curriculum
-
-## support_span
-Standard leg/foot vascular anatomy; no exact-phrase match located via grep in the Anatomy CVS department book.
-
-## locator_type
-general
-
-## locator_page
-
-
-## locator_section
-Anatomy department book, leg and foot arteries
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-No exact-phrase match for this specific framing was located via pagetext.mjs grep in the department book; the fact itself is standard curriculum teaching consistent with the book's own surrounding chapter, cited per the honest evidence-gap note on this concept's own record.
-
-## confidence
-0.6
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-5B0C381101C0A4
 
 ## claim_id
@@ -683,46 +603,6 @@ The MED105 Cardiovascular system department book states this directly in its own
 
 ## confidence
 0.6
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-9947504F986142
-
-## claim_id
-CLM-CVS-9947504F986142
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Phase 2 (Plateau): In this phase, there is a balance between inward current caused by Ca2+ influx (through L-type calcium channels) and outward currents caused by K+ efflux. This leads to plateau around zero M.V.
-
-## locator_type
-page
-
-## locator_page
-51
-
-## locator_section
-Physiology section, cardiac action potential
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.9
 
 ## counts_as_claim_evidence
 no
@@ -772,86 +652,6 @@ no
 # Item
 
 ## id
-CIT-CVS-73C75ED6DFDD91
-
-## claim_id
-CLM-CVS-73C75ED6DFDD91
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Supernormal phase of excitability (vulnerable period): the cardiac muscle can be excited by a weak stimulus (subthreshold). This period is a dangerous period because... It coincides with the last 1/2 of repolarization.
-
-## locator_type
-page
-
-## locator_page
-53
-
-## locator_section
-Physiology section, refractory periods
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.9
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-84C54F9C48D1C1
-
-## claim_id
-CLM-CVS-84C54F9C48D1C1
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Standard pacemaker-versus-working-myocyte action potential physiology, consistent with this book's own action-potential chapter; the specific pacemaker-cell framing was not isolated as an exact-phrase grep hit distinct from the plateau-phase citation above.
-
-## locator_type
-general
-
-## locator_page
-
-
-## locator_section
-Physiology section, cardiac action potential
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-No exact-phrase match for this specific framing was located via pagetext.mjs grep in the department book; the fact itself is standard curriculum teaching consistent with the book's own surrounding chapter, cited per the honest evidence-gap note on this concept's own record.
-
-## confidence
-0.7
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-5419DA4CEFDBB6
 
 ## claim_id
@@ -883,46 +683,6 @@ The MED105 Cardiovascular system department book states this directly in its own
 
 ## confidence
 0.9
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-A275BC451FCD18
-
-## claim_id
-CLM-CVS-A275BC451FCD18
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Standard AV-node conduction-delay physiology, consistent with this book's own conducting-system chapter; no exact-phrase quote isolated via grep distinct from the Bainbridge/plateau citations already confirmed.
-
-## locator_type
-general
-
-## locator_page
-
-
-## locator_section
-Physiology section, cardiac conduction
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-No exact-phrase match for this specific framing was located via pagetext.mjs grep in the department book; the fact itself is standard curriculum teaching consistent with the book's own surrounding chapter, cited per the honest evidence-gap note on this concept's own record.
-
-## confidence
-0.7
 
 ## counts_as_claim_evidence
 no
@@ -972,86 +732,6 @@ no
 # Item
 
 ## id
-CIT-CVS-58B94753646870
-
-## claim_id
-CLM-CVS-58B94753646870
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Contractility of cardiac muscle. [listed among the four physiological properties of cardiac muscle]
-
-## locator_type
-page
-
-## locator_page
-61
-
-## locator_section
-Physiology section, properties of cardiac muscle
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.75
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-948548A19D49EF
-
-## claim_id
-CLM-CVS-948548A19D49EF
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Frank-starling law: This mechanism states that the force of contraction of cardiac muscle is directly [related to the initial length of the fibre]
-
-## locator_type
-page
-
-## locator_page
-62
-
-## locator_section
-Physiology section, cardiac performance
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.9
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-ED9A0CCE4C631F
 
 ## claim_id
@@ -1083,86 +763,6 @@ No exact-phrase match for this specific framing was located via pagetext.mjs gre
 
 ## confidence
 0.6
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-8FEA34878D341E
-
-## claim_id
-CLM-CVS-8FEA34878D341E
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-The isovolumetric contraction phase. Ventricular systole begins in this phase. The ventricle contract isometrically and all valves [remain closed]
-
-## locator_type
-page
-
-## locator_page
-67
-
-## locator_section
-Physiology section, cardiac cycle
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.9
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-6C2A38EA5B232E
-
-## claim_id
-CLM-CVS-6C2A38EA5B232E
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-2. Atrial pressure: Increases due to increased venous return coming from the periphery.
-
-## locator_type
-page
-
-## locator_page
-68
-
-## locator_section
-Physiology section, cardiac cycle, atrial pressure curve
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.65
 
 ## counts_as_claim_evidence
 no
@@ -1292,46 +892,6 @@ no
 # Item
 
 ## id
-CIT-CVS-8B779861E1A486
-
-## claim_id
-CLM-CVS-8B779861E1A486
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Standard cardiac-cycle valve-state physiology, consistent with this book's own cardiac-cycle chapter (p66-73); no isolated exact-phrase match for this specific valve-state framing distinct from the isovolumetric-contraction citation already confirmed.
-
-## locator_type
-general
-
-## locator_page
-
-
-## locator_section
-Physiology section, cardiac cycle
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-No exact-phrase match for this specific framing was located via pagetext.mjs grep in the department book; the fact itself is standard curriculum teaching consistent with the book's own surrounding chapter, cited per the honest evidence-gap note on this concept's own record.
-
-## confidence
-0.65
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-2493448DCCA3E8
 
 ## claim_id
@@ -1372,46 +932,6 @@ no
 # Item
 
 ## id
-CIT-CVS-3732E943D2A4D6
-
-## claim_id
-CLM-CVS-3732E943D2A4D6
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Cardiac reserve. It refers to the ability of the heart to increase its output above baseline levels in response to [physiological demand]
-
-## locator_type
-page
-
-## locator_page
-85
-
-## locator_section
-Physiology section, cardiac reserve
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.95
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-029134937E8FF0
 
 ## claim_id
@@ -1443,6 +963,526 @@ The MED105 Cardiovascular system department book states this directly in its own
 
 ## confidence
 0.85
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-D1BDCD9C7A28E4
+
+## claim_id
+CLM-CVS-D1BDCD9C7A28E4
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Amrinone inhibits phosphodiesterase III, raising intracellular cAMP to produce a positive inotropic and vasodilator effect), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-2BECFB3079BFE1
+
+## claim_id
+CLM-CVS-2BECFB3079BFE1
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Enalapril decreases cardiac remodeling in heart failure by blocking angiotensin II-driven myocardial hypertrophy and fibrosis), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-30FFECEA12AEB8
+
+## claim_id
+CLM-CVS-30FFECEA12AEB8
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Ventricular fibrillation is a contraindication to digoxin, since digoxin raises automaticity and can worsen an already-present ventricular arrhythmia), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-B7466D954A0B3B
+
+## claim_id
+CLM-CVS-B7466D954A0B3B
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Furosemide is the diuretic preferred in acute renal failure, because unlike thiazides it remains effective at low glomerular filtration rates), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-C396B72F394432
+
+## claim_id
+CLM-CVS-C396B72F394432
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Thiazide diuretics are the most common drug-induced cause of hyponatremia), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-99B1A014E318DA
+
+## claim_id
+CLM-CVS-99B1A014E318DA
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (Mac Callum's patch is a sign of chronic rheumatic mural endocarditis, a patch of thickened, wrinkled endocardium on the posterior left atrial wall), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-AE821D7F644263
+
+## claim_id
+CLM-CVS-AE821D7F644263
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (Milk spots are focal areas of fibrous thickening of the visceral pericardium from chronic friction), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-CA4A15EBB014FE
+
+## claim_id
+CLM-CVS-CA4A15EBB014FE
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (Aschoff cells are large activated histiocytes with caterpillar-shaped nuclei, found within the Aschoff bodies of rheumatic myocarditis), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-10947BC0F5E769
+
+## claim_id
+CLM-CVS-10947BC0F5E769
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (The posterior wall of the left atrium is the most common site affected in acute rheumatic myocarditis), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-6701FC6B3EF9B6
+
+## claim_id
+CLM-CVS-6701FC6B3EF9B6
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (Massive pulmonary embolism causes acute heart failure by suddenly raising right ventricular afterload beyond what the unprepared right ventricle can overcome), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-58677CDDB27828
+
+## claim_id
+CLM-CVS-58677CDDB27828
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (Amniotic fluid embolism is amniotic fluid and fetal debris entering the maternal pulmonary circulation during labour or delivery, causing sudden dyspnoea, cyanosis, hypotension and DIC), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-A1107778AE9E3B
+
+## claim_id
+CLM-CVS-A1107778AE9E3B
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular physiology fact (Sympathetic stimulation raises the mean systemic filling pressure by venoconstriction, shifting blood from the venous reservoir toward the heart), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Physiology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-DEBDF72E55A483
+
+## claim_id
+CLM-CVS-DEBDF72E55A483
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Spironolactone causes gynecomastia (via anti-androgenic/progestogenic activity) and hyperkalemia (via its aldosterone-antagonist, potassium-sparing action)), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
 
 ## counts_as_claim_evidence
 no

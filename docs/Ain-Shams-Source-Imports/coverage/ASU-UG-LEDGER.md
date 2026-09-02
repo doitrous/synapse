@@ -1,7 +1,7 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | ass1-ug-2020 | 0 | 0 | 26 | 26 |
-| assessment-1-mcq | 20 | 0 | 42 | 62 |
+| assessment-1-mcq | 54 | 4 | 20 | 78 |
 | eom-final-ug1-2020 | 0 | 0 | 19 | 19 |
 | eom-ug-final1-2024 | 0 | 0 | 19 | 19 |
 | eom-ug-final2-2024 | 0 | 0 | 23 | 23 |
@@ -9,6 +9,10 @@
 | first-assessment-ug-2024 | 0 | 0 | 24 | 24 |
 
 ## Held
+- assessment-1-mcq-q46 — duplicate — Physio Q46 ("Psychic hyperventilation? Decrease in excretion of titratable urine acidity") re-asks the same fact tested in Physio Q10 ("which condition is associated with a decrease in urinary titratable acid excretion? Psychic hyperventilation"), authored as assessment-1-mcq-q10; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
+- assessment-1-mcq-q47 — duplicate — Physio Q47 ("One of the factors affecting kF (filtration coefficient)? Surface area of GBM") re-asks the same fact tested in Physio Q28 ("Affects filtration coefficient kF? surface area of capillary membrane"), authored as assessment-1-mcq-q28; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
+- assessment-1-mcq-patho-q06 — duplicate — Patho Q6 ("Oliguria, hematuria, hypertension, and periorbital edema are characteristic clinical features for which type of glomerulonephritis? Poststreptococcal GN") re-asks the same nephritic-syndrome-to-post-infectious-GN fact tested in Patho Q1 ("Nephritic syndrome S/S: hematuria, HTN etc? Post infection GN"), authored as assessment-1-mcq-patho-q01; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
+- assessment-1-mcq-patho-q15 — duplicate — Patho Q15 ("a diabetic patient with high WBCS count, casts, costovertebral loin pain? Acute pyelonephritis") re-asks the same casts-plus-costovertebral-tenderness-diagnoses-pyelonephritis fact tested in Patho Q3 ("sexually active female, high wbcs count, casts, costovertebral loin pain? Pyelonephritis"), authored as assessment-1-mcq-patho-q03; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - eom-ug-final2-collection-q047 — duplicate of q044 (Histo Q2) — Histo Q5 ("cells lining the seminiferous tubules -> Sertoli cell with indistinct cell boundary") re-asks the same apical-infoldings/indistinct-border fact tested in Histo Q2; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - eom-ug-final2-collection-q085 — duplicate — Micro Q14 (page 12, genital ulcer + adenopathy + multinucleated giant cells + intranuclear inclusions on tissue culture, causative pathogen HSV) re-asks the same HSV/multinucleated-giant-cell fact tested in Micro Q13 (page 11, vesicular lesions turning to ulcers, Tzanck/Giemsa smear finding); collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - eom-ug-final2-collection-q108 — duplicate — Patho Q12 ("mucinous cysts in cervical mucosa obstructed by a squamous tumor -> Nabothian cyst") re-asks the same Nabothian-cyst-from-obstructed-endocervical-gland fact tested in Patho Q1 ("finding in chronic cervicitis -> Nabothian cysts (dt obstruction in endocervical glands)"), authored as eom-ug-final2-collection-q097; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
@@ -47,28 +51,6 @@
 - assessment-1-mcq-q08
 - assessment-1-mcq-q23
 - assessment-1-mcq-q24
-- assessment-1-mcq-q26
-- assessment-1-mcq-q27
-- assessment-1-mcq-q28
-- assessment-1-mcq-q29
-- assessment-1-mcq-q30
-- assessment-1-mcq-q31
-- assessment-1-mcq-q32
-- assessment-1-mcq-q33
-- assessment-1-mcq-q34
-- assessment-1-mcq-q35
-- assessment-1-mcq-q36
-- assessment-1-mcq-q37
-- assessment-1-mcq-q38
-- assessment-1-mcq-q39
-- assessment-1-mcq-q40
-- assessment-1-mcq-q41
-- assessment-1-mcq-q42
-- assessment-1-mcq-q43
-- assessment-1-mcq-q44
-- assessment-1-mcq-q45
-- assessment-1-mcq-q46
-- assessment-1-mcq-q47
 - assessment-1-mcq-q48
 - assessment-1-mcq-q49
 - assessment-1-mcq-q50

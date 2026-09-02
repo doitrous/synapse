@@ -899,13 +899,14 @@ Gastrulation makes the trilaminar disc in the third week, and all three of its l
 +1
 
 ## modules
-+SCU-FBS102
++SCU-FBS102 | +SCU-FBS103
 
 ## module_subject
 SCU-FBS102 > Embryology > Gastrulation
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q33 (also 2022 Q13) — tests the epiblast origin of the trilaminar disc. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+scu-fbs103 (scu-fbs103-author1): a second FOMSCU printing of the same fact, FOMSCU Foundation 2 EOM MID 2026 Q29 — same epiblast-origin trilaminar-disc claim. Per LANE-CARD.md §7's standing rule, this extends the existing row's `modules`/field_notes rather than creating a new overlay row. Question lives in docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-questions.md. Same apply-after target.
 
 ---
 

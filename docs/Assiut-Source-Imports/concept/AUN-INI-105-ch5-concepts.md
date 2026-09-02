@@ -14,14 +14,22 @@
   and chapter 2's own overlay files, needing no further overlay row here.
   One question (Q1, bactericidal definition) reuses a concept that is
   already LIVE (CON-INF-1249475C90F47B), cited directly with no overlay.
-  Genuine near-duplicate matches were also found in Helwan's
-  HU-BMS-102-microbiology concepts (selective toxicity) and MUST's
-  FHB-102-2-microbiology-introduction concepts (carrier state,
-  opportunistic pathogen); reuse was deliberately not extended to those two
-  lanes' still-pending batches to avoid stacking a three-source cross-lane
-  apply dependency onto this chapter's own publish path -- this module's own
-  concepts are minted instead, and the near-duplicates are logged below
-  rather than merged, per the university-blind minting rule.
+
+  Repair pass (chief-of-staff ruling, lane10): this file originally minted
+  three more concepts -- selective toxicity, carrier state, opportunistic
+  pathogen -- after finding genuine same-grain siblings in Helwan's
+  HU-BMS-102-microbiology concepts and MUST's FHB-102-2-microbiology-
+  introduction concepts, and logged those siblings under
+  `rejected_merge_candidate_ids` "to keep a single ASU-INF dependency."
+  That is not what rejected-merge is for: a genuine duplicate is an
+  overlay, and a module's pending-dependency list simply grows as needed.
+  All three twins have been deleted from this file (and from
+  article/AUN-INI-105-ch5-article.md); the six questions that tested them
+  now cite the sibling ids directly via a sparse pending-live overlay
+  (pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md) onto
+  CON-INF-05D590078F3DCC (Helwan, selective toxicity),
+  CON-INF-C4C74A0874FF61 (MUST, carrier state) and
+  CON-INF-17893AA3303251 (MUST, opportunistic pathogen).
 
   Teaching text has no dedicated department lecture deck for this module
   (the INI folder holds only the MCQ bank itself plus three garbled/excluded
@@ -2670,156 +2678,6 @@ relationships: two question stems (Q29, Q45) test the identical mechanism fact f
 # Item
 
 ## id
-CON-INF-BCEB5307771256
-
-## label
-Selective toxicity is an antimicrobial's ability to harm the pathogen without significantly harming the host, achieved by targeting a structure or pathway unique to, or markedly different in, the microorganism -- cell-wall synthesis inhibition is the clearest example, since bacterial peptidoglycan has no eukaryotic counterpart
-
-## canonical_key
-teaching.pharmacology.antimicrobials.selective-toxicity-and-cell-wall-example
-
-## aliases
-Selective toxicity definition
-Cell wall synthesis inhibitors as the clearest selective-toxicity example
-
-## arabic_label
-السمية الانتقائية للمضادات الحيوية
-
-## arabic_aliases
-مثال جدار الخلية البكتيري على السمية الانتقائية
-
-## definition
-Selective toxicity is the property of an antimicrobial agent that lets it inhibit or kill the pathogen without significantly harming the host, achieved by targeting a microbial structure or metabolic pathway that is absent from, or sufficiently different in, host cells. Cell-wall synthesis inhibitors are the clearest illustration: because peptidoglycan is a bacterial cell-wall component with no eukaryotic counterpart, drugs that block its synthesis are highly selective for bacteria and largely harmless to human cells, which have no cell wall to disrupt.
-
-## explicit_objective
-Define selective toxicity as harming the pathogen without significantly harming the host via a microbe-unique target, and identify bacterial cell-wall synthesis inhibition as the clearest example of this principle.
-
-## pitfalls
-Interpreting selective toxicity as meaning "toxic to only one bacterial species" or "toxic to fungi only" rather than the pathogen-vs-host distinction it actually names.
-
-## concept_type
-definition
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-inf
-
-## primary_node_id
-
-## secondary_node_ids
-
-## topic
-Antimicrobial chemotherapy
-
-## subtopic
-Principles of antimicrobial selectivity
-
-## microtopic
-
-## nanotopic
-
-## modules
-AUN-INI-105
-
-## article_ids
-ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS
-
-## related_article_ids
-
-## related_concept_ids
-CON-INF-88F95673CA38E8
-
-## resource_ids
-src_6f2f4188bb0cbf848733
-
-## approved_file_resource_ids
-
-## approved_video_resource_ids
-
-## learner_years
-1
-
-## universities
-aun
-
-## blueprint_weight
-0.4
-
-## exam_weight_by_year
-AUN_Y1=0.4
-
-## clinical_relevance
-0.4
-
-## academic_relevance
-0.65
-
-## weight_confidence
-0.5
-
-## confidence
-0.85
-
-## atomic_claim_ids
-
-## resource_occurrence_ids
-
-## source_candidate_ids
-
-## original_wording
-"The most selective antibacterial agents are those that interfere with bacterial cell wall synthesis. This is because? ... Bacterial cell walls have a unique structure not found in eukaryotic host cells" (Q4). "The ability of the antimicrobial to inhibit or kill the organism without harming the host is known as? ... Selective toxicity" (Q28). "Selective toxicity of antimicrobial agent means? ... Is toxic to the microorganism but not toxic to the host" (Q43). "Penicillin is non-toxic for human cell because? ... Target site is unique in bacteria" (Q50).
-
-## merge_ids
-
-## rejected_merge_candidate_ids
-
-## conflicts
-No source disagreement found.
-
-## uncertainty
-None beyond standard undergraduate teaching level.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-## field_notes
-sourceCandidateIds: find-existing.mjs run for "selective toxicity" -- a genuinely same-grain pending concept exists in Helwan's HU-BMS-102-microbiology-family11/family20 batches ("Selective toxicity harms the pathogen without significantly harming the host", CON-INF-05D590078F3DCC); not reused here to avoid stacking a second, unrelated cross-lane pending dependency (this module already depends on the ASU-INF batch for other chapter-5 facts) onto this chapter's own publish path -- logged as a rejected-merge candidate for a later consolidation pass if Omar rules on cross-lane merging.
-relationships: four question stems (Q4, Q28, Q43, Q50) test the same selective-toxicity fact from the general definition (Q28, Q43) and the cell-wall-inhibitor example (Q4, Q50); collapsed into one record.
-
-## rejected_merge_candidate_ids
-CON-INF-05D590078F3DCC (Helwan HU-BMS-102, same-grain "selective toxicity" definition -- not reused, see field_notes)
-
----
-
-# Item
-
-## id
 CON-INF-8B5B9FAD59E176
 
 ## label
@@ -3030,7 +2888,7 @@ ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS
 ## related_article_ids
 
 ## related_concept_ids
-CON-INF-B1C6C40BD3A509
+CON-INF-C4C74A0874FF61
 
 ## resource_ids
 src_6f2f4188bb0cbf848733
@@ -3617,7 +3475,7 @@ ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS
 ## related_article_ids
 
 ## related_concept_ids
-CON-INF-BCEB5307771256
+CON-INF-05D590078F3DCC
 CON-INF-A5A90309AED2E6
 
 ## resource_ids
@@ -4572,301 +4430,5 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "narrow spectrum broad spectrum" -- 0 hits, safe to create.
-
----
-
-# Item
-
-## id
-CON-INF-B1C6C40BD3A509
-
-## label
-A carrier is an apparently healthy individual who harbors a pathogenic organism and constitutes an important, often overlooked, source of infection for others
-
-## canonical_key
-teaching.microbiology.pathogenesis.carrier-state-apparently-healthy
-
-## aliases
-Carrier state
-Apparently healthy carrier of pathogens
-
-## arabic_label
-الحامل للمرض
-
-## arabic_aliases
-الشخص السليم ظاهريا الحامل للكائن الممرض
-
-## definition
-A carrier is an individual who harbors a pathogenic organism while appearing outwardly healthy -- showing no overt symptoms -- and who can, unlike the common misconception, transmit that organism to others at any time, not only during epidemics, and not necessarily for only a short period. Carriers are epidemiologically important precisely because their apparent health means they are not isolated or treated the way an obviously symptomatic case would be, making them an easily overlooked source of ongoing transmission.
-
-## explicit_objective
-State that a carrier is an apparently healthy individual harboring a pathogen who can transmit it to others, and that this transmission is not restricted to short periods or to epidemic times only.
-
-## pitfalls
-Assuming a carrier is symptomatic, transmits only briefly, or transmits only during epidemics -- the defining feature of a carrier is precisely the combination of apparent health with an ongoing capacity to transmit the organism.
-
-## concept_type
-definition
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-inf
-
-## primary_node_id
-
-## secondary_node_ids
-
-## topic
-Pathogenesis of bacterial infections
-
-## subtopic
-Patterns of infection persistence
-
-## microtopic
-
-## nanotopic
-
-## modules
-AUN-INI-105
-
-## article_ids
-ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS
-
-## related_article_ids
-
-## related_concept_ids
-CON-INF-837A04FFAD5A95
-
-## resource_ids
-src_6f2f4188bb0cbf848733
-
-## approved_file_resource_ids
-
-## approved_video_resource_ids
-
-## learner_years
-1
-
-## universities
-aun
-
-## blueprint_weight
-0.3
-
-## exam_weight_by_year
-AUN_Y1=0.3
-
-## clinical_relevance
-0.4
-
-## academic_relevance
-0.5
-
-## weight_confidence
-0.45
-
-## confidence
-0.8
-
-## atomic_claim_ids
-
-## resource_occurrence_ids
-
-## source_candidate_ids
-
-## original_wording
-"Carriers constitute an important source of infection. The following is CORRECT regarding carriers? ... They are apparently healthy" (Q36).
-
-## merge_ids
-
-## rejected_merge_candidate_ids
-
-## conflicts
-No source disagreement found.
-
-## uncertainty
-None beyond standard undergraduate teaching level.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-## field_notes
-sourceCandidateIds: find-existing.mjs run for "carrier state" -- a genuinely same-grain pending concept exists in MUST's FHB-102-2-microbiology-introduction batch ("Carrier state permits asymptomatic pathogen shedding", CON-INF-C4C74A0874FF61); not reused here for the same reason given under the selective-toxicity concept above (avoiding a second unrelated cross-lane pending dependency) -- logged as a rejected-merge candidate.
-
-## rejected_merge_candidate_ids
-CON-INF-C4C74A0874FF61 (MUST FHB-102-2, same-grain "carrier state" definition -- not reused, see field_notes)
-
----
-
-# Item
-
-## id
-CON-INF-8B02B0EFEE96F5
-
-## label
-Opportunistic pathogens are usually members of the normal flora, known as potential pathogens, that cause disease chiefly in immunocompromised patients rather than frequently in healthy subjects
-
-## canonical_key
-teaching.microbiology.pathogenesis.opportunistic-pathogen-definition
-
-## aliases
-Opportunistic pathogen
-Potential pathogen
-
-## arabic_label
-الممرض الانتهازي
-
-## arabic_aliases
-كائنات الفلورا الطبيعية الممرضة عند نقص المناعة
-
-## definition
-Opportunistic pathogens are usually members of an individual's own normal flora -- organisms that coexist harmlessly under ordinary conditions -- that become pathogenic ("potential pathogens") specifically when host defences are compromised, as in immunocompromised patients. They are not true pathogens in the sense of frequently causing disease in healthy subjects; that pattern instead describes an obligate/true pathogen.
-
-## explicit_objective
-State that opportunistic pathogens are usually normal-flora members that cause disease chiefly in immunocompromised patients, not frequently in healthy subjects.
-
-## pitfalls
-Assuming opportunistic pathogens frequently cause disease in healthy subjects -- that pattern instead describes a true (obligate) pathogen; opportunists specifically require a compromised host to become clinically significant.
-
-## concept_type
-definition
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-inf
-
-## primary_node_id
-
-## secondary_node_ids
-
-## topic
-Pathogenesis of bacterial infections
-
-## subtopic
-Virulence and pathogenicity
-
-## microtopic
-
-## nanotopic
-
-## modules
-AUN-INI-105
-
-## article_ids
-ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS
-
-## related_article_ids
-
-## related_concept_ids
-CON-INF-8B5B9FAD59E176
-
-## resource_ids
-src_6f2f4188bb0cbf848733
-
-## approved_file_resource_ids
-
-## approved_video_resource_ids
-
-## learner_years
-1
-
-## universities
-aun
-
-## blueprint_weight
-0.35
-
-## exam_weight_by_year
-AUN_Y1=0.35
-
-## clinical_relevance
-0.45
-
-## academic_relevance
-0.55
-
-## weight_confidence
-0.45
-
-## confidence
-0.8
-
-## atomic_claim_ids
-
-## resource_occurrence_ids
-
-## source_candidate_ids
-
-## original_wording
-"All the following is correct regarding opportunistic pathogens EXCEPT? ... Frequently cause infection in healthy subjects" (Q39).
-
-## merge_ids
-
-## rejected_merge_candidate_ids
-CON-INF-17893AA3303251 (MUST FHB-102-2, same-grain "opportunistic pathogen" definition -- not reused, see field_notes)
-
-## conflicts
-No source disagreement found.
-
-## uncertainty
-None beyond standard undergraduate teaching level.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-## review_due
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-## field_notes
-sourceCandidateIds: find-existing.mjs run for "opportunistic pathogen" -- a genuinely same-grain pending concept exists in MUST's FHB-102-2-microbiology-introduction batch ("An opportunistic pathogen causes disease under permissive host or habitat conditions", CON-INF-17893AA3303251); not reused here for the same reason given under the selective-toxicity and carrier-state concepts above (avoiding a third unrelated cross-lane pending dependency) -- logged as a rejected-merge candidate for a later consolidation pass.
 
 ---

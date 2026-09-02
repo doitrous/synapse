@@ -23,7 +23,7 @@
     Histology Cardiovascular System — Artery Classification — 39 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 36 questions, 5 concepts
-    Physiology Cardiovascular System — Capillary Exchange and Permeability — 8 questions, 2 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 9 questions, 3 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
@@ -37,17 +37,17 @@
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 7 questions, 1 concepts
-    Cytogenetics — Cell Renewal Classification — 6 questions, 1 concepts
+    Cytogenetics — Cell Renewal Classification — 7 questions, 1 concepts
     Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 26 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 28 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 18 questions, 1 concepts
-    Macrophage system — 5 questions, 1 concepts
-    Lymphatic and Macrophage System — Lymph Node — 22 questions, 8 concepts
-    Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
+    Macrophage system — 7 questions, 1 concepts
+    Lymphatic and Macrophage System — Lymph Node — 29 questions, 8 concepts
+    Lymphatic and Macrophage System — Spleen — 26 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 19 questions, 3 concepts
-    Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
+    Lymphatic and Macrophage System — Tonsils — 18 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
@@ -56,11 +56,11 @@
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 46 questions, 11 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 26 questions, 5 concepts
-    Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
+    Physiology Cardiovascular System — Special Circulation (Coronary) — 4 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Cardiovascular System — Endothelium and Vasoactive Hormones — 14 questions, 7 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 30 questions, 5 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 32 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
     Pulmonary Compliance — 29 questions, 3 concepts
@@ -68,11 +68,11 @@
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 7 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 27 questions, 7 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 28 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 40 questions, 4 concepts
-    Respiratory System — Larynx and Airway Wall — 43 questions, 3 concepts
-    Respiratory System — Respiratory Portion Pneumocytes — 49 questions, 6 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 43 questions, 6 concepts
+    Respiratory System — Larynx and Airway Wall — 43 questions, 4 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 53 questions, 7 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  214 questions were excluded and 0 held back for having no
+  221 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -3080,6 +3080,23 @@ canonical_key "capillary-exchange.starling-forces-and-trans-capillary-filtration
 ---
 
 # Item
+## id
+CON-CVS-2C65CCE1C08853
+## label
+Lymph forms because capillary filtration normally exceeds absorption, and valve-fitted peristaltic lymphatics, the skeletal muscle pump and negative intrathoracic pressure drive about 2-4 L/day of it back into the great veins
+## canonical_key
+lymphatic-circulation.drainage-mechanisms-and-functions
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p10 | 104 CPS
+## article_ids
++ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## field_notes
+canonical_key "lymphatic-circulation.drainage-mechanisms-and-functions" already has a pinned id in this module (CON-CVS-2C65CCE1C08853); mintConceptId derives the same id fresh (CON-CVS-2C65CCE1C08853) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
 ## label
 Purkinje fibres are large, pale, vacuolated cardiac muscle fibres of the AV bundle's branches that conduct fast via gap junctions and carry no intercalated discs
 ## id
@@ -5462,6 +5479,7 @@ mononuclear-phagocyte-system.definition-origin-and-distribution
 src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
 src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p6 | 104 CPS
 ## article_ids
 +ART-104-HIS-MACROPHAGE-SYSTEM | +ART-104-HIS-LYMPHOID-ORGANS
 ## field_notes
@@ -6034,6 +6052,7 @@ kau
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p9 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
 src_2b531af1f3f6eace5974 | question_book | | p2 | 104 CPS
 src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p7 | 104 CPS
@@ -6041,9 +6060,9 @@ src_2b531af1f3f6eace5974 | question_book | | p3 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -6898,6 +6917,7 @@ The palatine tonsil is stratified squamous epithelium dipping in as crypts, nodu
 tonsil.palatine-epithelium-crypts-and-deep-capsule
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-LYMPHOID-ORGANS
 ## field_notes
@@ -9183,19 +9203,20 @@ kau
 1
 ## exam_signal
 src_5465875dc14a998b7b21 | question_book | | p10 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Physiology
 ## subtopic
@@ -12289,6 +12310,8 @@ Pulmonary vascular resistance, lowest at functional residual capacity, rises tow
 pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p24 | 104 CPS
 ## article_ids
 +ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
 ## field_notes
@@ -13717,6 +13740,8 @@ hemodynamics.flow-pressure-resistance-relationship
 src_e569449acf8dc2af471e | question_book | | p16 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p17 | 104 CPS
 ## article_ids
 +ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
 ## field_notes
@@ -14364,6 +14389,7 @@ src_12ecc23fe206a928203d | question_book | | p1 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
 src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
 src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
 ## article_ids
 +ART-104-HIS-NASAL-MUCOSA
 ## field_notes
@@ -14432,6 +14458,268 @@ ART-104-HIS-NASAL-MUCOSA
 direct_statement
 ## original_wording
 [asked 1x across the question books] What type of tissues lines the paranasal sinuses:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LYMPHOID-ORGANS | ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Parasympathetic (vagal) stimulation and chemical mediators such as histamine cause bronchoconstriction, while sympathetic β2-receptor stimulation causes bronchodilation
+## id
+CON-RES-42CB3060B8374C
+## canonical_key
+airway-resistance.nervous-and-chemical-regulation
+## definition
+Airway resistance is regulated by nervous and chemical factors, alongside the passive lateral traction alveolar expansion exerts on small-airway walls during inspiration. Parasympathetic (vagal) stimulation causes bronchoconstriction and increased mucus secretion, raising airway resistance; sympathetic stimulation, acting through β2 receptors, causes bronchodilation instead. Many chemical substances also cause bronchoconstriction and raise airway resistance: histamine, released from mast cells during allergic reactions; leukotrienes, produced in the lungs in response to inflammation; and various environmental factors such as plant pollen.
+## explicit_objective
+State that vagal (parasympathetic) stimulation and chemical mediators such as histamine both cause bronchoconstriction, while sympathetic β2-receptor stimulation causes bronchodilation — the opposite autonomic direction from the vagal effect.
+## pitfalls
+Assuming any autonomic or chemical mediator with a cardiovascular vasodilator or vasoconstrictor role acts the same way on airway smooth muscle. Histamine, a vasodilator in most systemic vessels, is instead a bronchoCONSTRICTOR; sympathetic stimulation, often a vasoconstrictor systemically, is instead a bronchoDILATOR via β2 receptors — the two organ systems do not share one autonomic rulebook.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p7 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Airway resistance regulation | Bronchoconstriction | Bronchodilation
+## article_ids
+ART-104-HIS-NASAL-MUCOSA
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Bronchoconstriction is produced by:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LYMPHOID-ORGANS | ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Beyond gas exchange, the respiratory system regulates blood acid-base balance, defends against pathogens, aids venous return, olfaction, vocalization, water balance, temperature regulation, heparin secretion and ACE secretion, while the conducting zone specifically transports, humidifies/warms and filters inspired air
+## id
+CON-RES-77C80472558840
+## canonical_key
+respiratory-system.non-respiratory-functions-and-conducting-zone-roles
+## definition
+External respiration comprises four major functional events: pulmonary ventilation, gas exchange between alveoli and blood, transport of O2 and CO2 in the blood, and gas exchange between blood and tissues. Beyond this primary gas-exchange function, the respiratory tract carries nine named non-respiratory functions: regulation of acid-base balance in blood; protection against pathogens and foreign particles; enhancing venous return; olfaction (via receptors in the upper nasal mucosa); vocalization (via the larynx); maintenance of water balance (evaporative water loss during expiration); regulation of body temperature (heat loss during expiration); an anticoagulant function (mast-cell heparin secretion); and secretion of angiotensin-converting enzyme. The lower respiratory passages divide functionally into a conducting zone (trachea to terminal bronchioles, ciliated epithelium) with three functions — transporting air from the upper airways to the respiratory zone, humidifying and warming inspired air, and serving as part of the body's defence system by removing particulates such as dust and bacteria — and a respiratory zone, the site of gas exchange across the alveoli.
+## explicit_objective
+List the respiratory system's non-respiratory functions (acid-base regulation, defence, venous return, olfaction, vocalization, water balance, temperature regulation, anticoagulation, ACE secretion) and the conducting zone's own three functions (transport, humidification/warming, defence).
+## pitfalls
+Treating gas exchange as the respiratory system's only function. The department book names eight further non-respiratory roles, and separately gives the conducting zone its own three functions distinct from the respiratory zone's gas-exchange role.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p28 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Organization of the Respiratory System | Non-respiratory functions | Conducting zone functions
+## article_ids
+ART-104-HIS-NASAL-MUCOSA
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which of the following are functions of components of the respiratory system?
 ## conflicts
 [clear]
 ## uncertainty
@@ -14659,6 +14947,137 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ---
 
 # Item
+## label
+The trachea's four wall layers run mucosa, submucosa, fibrocartilaginous coat and adventitia, with the C-shaped cartilage rings' posterior gap bridged by a fibro-elastic ligament (preventing overdistension) and the trachealis muscle (constricting the lumen)
+## id
+CON-RES-AA521B50D2ACAD
+## canonical_key
+trachea.wall-layers-and-cartilage-gap-bridging-structures
+## definition
+The trachea, about 12 cm long, runs from the larynx to its bifurcation into the two primary bronchi. Its wall has four layers: a mucosa of respiratory epithelium over a lamina propria of loose connective tissue with elastic fibres and an elastic membrane; a submucosa of loose connective tissue with lymphoid nodules and mucous and serous glands; a fibrocartilaginous coat of about twenty C-shaped incomplete hyaline cartilage rings that keep the trachea open, whose posterior gap (facing the oesophagus) is bridged by a fibro-elastic ligament, which prevents overdistension, and by smooth trachealis muscle bundles, which constrict the lumen and increase the force of airflow during coughing and forced expiration; and an outer adventitia of loose connective tissue.
+## explicit_objective
+List the trachea's four wall layers in order, and name the two distinct structures bridging the cartilage rings' posterior gap along with each one's own function (fibro-elastic ligament against overdistension, trachealis muscle for forced expiration).
+## pitfalls
+Crediting the trachealis muscle, rather than the fibro-elastic ligament, with preventing overdistension. The book assigns each gap-bridging structure a distinct job: the ligament resists overdistension, while the muscle actively constricts the lumen during coughing and forced expiration.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-RES-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p24 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Trachea wall layers | Fibro-elastic ligament | Trachealis muscle
+## article_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] prevent over distension in trachea
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-NASAL-MUCOSA | ART-104-HIS-RESPIRATORY-PORTION
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
 ## id
 CON-RES-94F66D51DB5B4D
 ## label
@@ -14672,6 +15091,7 @@ src_a80db7ee55cde84f8ec8 | question_book | | p16 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
 src_d0d3d52a9b3b79169a9c | question_book | | p3 | 104 CPS
 src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
 ## article_ids
 +ART-104-HIS-RESPIRATORY-PORTION
 ## field_notes
@@ -15031,6 +15451,137 @@ ART-104-HIS-RESPIRATORY-PORTION
 direct_statement
 ## original_wording
 [asked 1x across the question books] abnormal permanent enlargement of alveoli
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The functionless, collapsed fetal lung resembles a gland (bronchiolar tree like ducts, alveoli like acini, distinguished from a true gland by cartilage plates), has clear lobes/lobules from thick septa, folded airways and congested vessels, and sinks whole in water — the basis of a forensic lung-flotation test
+## id
+CON-RES-20906FBD38031D
+## canonical_key
+fetal-lung.collapsed-gland-like-histology
+## definition
+The fetal lung has no respiratory function and so remains collapsed throughout intrauterine life. It is characterized by: resembling a gland, in that branches of the bronchiolar tree resemble ducts and the alveoli resemble acini, while cartilage plates around the bronchi are exactly what differentiates the fetal lung from a true gland; clear lobes and lobules, owing to thick connective-tissue septa (unlike the less distinct lobulation of the mature, expanded lung); folded bronchi and bronchioles; congested lung blood vessels; alveoli that are themselves collapsed and lined by simple cuboidal epithelium (rather than the mature lung's simple squamous type I pneumocytes); and, because it has never been aerated, the whole fetal lung sinks in water — a finding with medico-legal importance, forming the basis of the forensic lung-flotation (hydrostatic) test used to distinguish a stillborn infant (lung never aerated, sinks) from one born alive and breathing (lung aerated, floats).
+## explicit_objective
+State the fetal lung's gland-like resemblance (bronchiolar tree as ducts, alveoli as acini, cartilage as the differentiating feature), its clear lobulation from thick septa, its folded airways, its collapsed cuboidal-lined alveoli, and the medico-legal significance of it sinking whole in water.
+## pitfalls
+Reversing which structure resembles which gland component. It is the ALVEOLI that resemble acini, not the bronchioles — the bronchiolar tree itself resembles a gland's ducts. Also reversing the lobulation direction: thick, not thin, septa are what make the fetal lung's lobes and lobules clear.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p26 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Fetal lung histology | Lung flotation test | Hydrostatic test
+## article_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] fetal lung is characterized by:
 ## conflicts
 [clear]
 ## uncertainty

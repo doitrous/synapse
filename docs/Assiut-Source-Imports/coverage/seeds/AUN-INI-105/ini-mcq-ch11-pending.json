@@ -1,0 +1,540 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch11",
+  "header": "AUN-INI-105 -- pending-live overlay questions from the INI MCQ .pdf, Chapter 11 \"Nematoda\" triage (pp.112-130), 16 of this lane's 56 authored-window questions whose tested idea reuses 13 already-pending concepts: 9 from Helwan's own HU-GIT-301-parasitology-part2-concepts.md, 1 from Ain-Shams's ASU-LOCO-inf-parasitology-concepts.md, 1 from Mansoura's MANS-HIS-203-concepts.md, and 1 from MUST's FHB-102-2-parasitology-introduction-concepts.md. Omar applies this batch only after: 1) docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, 2) docs/Ain-Shams-Source-Imports/concept/ASU-LOCO-inf-parasitology-concepts.md, 3) docs/Mansoura-Source-Imports/concept/MANS-HIS-203-concepts.md, 4) docs/MUST-Source-Imports/concept/FHB-102-2-parasitology-introduction-concepts.md, 5) pending-live/AUN-INI-105-ch11-overlay-concepts.md (the sparse +aun overlay on all 13 concepts, same directory). Import order: 1-4 in any order, then 5, then this file, each via Admin > Bulk import -> question/concept as appropriate.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-INI-105",
+    "module_subject": "AUN-INI-105 > Nematoda",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_6f2f4188bb0cbf848733"],
+    "source_citation": "INI MCQ .pdf, Nematoda, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "topic": "Nematoda",
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch11-q001",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q001",
+      "page": 112,
+      "title": "Adult Ascaris may be found in faeces",
+      "question": "Ova and Sometimes adult Parasites in faeces are found in?",
+      "options": {
+        "A": "Fasciola hepatica",
+        "B": "Heterophyes heterophyes",
+        "C": "Hymenolepis nana",
+        "D": "Ascaris lumbricoides"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Fasciola hepatica is diagnosed by its egg on stool or duodenal-aspirate examination; the small adult fluke is not a stool finding.",
+        "B": "Incorrect. Heterophyes heterophyes is diagnosed by its small egg on stool examination; the tiny adult fluke is not a stool finding.",
+        "C": "Incorrect. Hymenolepis nana is diagnosed by eggs alone in stool; its small adult worm is not a practical stool finding.",
+        "D": "Correct. Ascaris lumbricoides adult worms may themselves be passed in stool or vomited and directly identified, in addition to the more usual egg finding -- the adult worm itself can be a diagnostic finding, unlike Ancylostomiasis, which by contrast is diagnosed in routine practice by finding eggs, since its adult worms remain firmly attached to the intestinal mucosa. The large size of the adult female (up to 20-35 cm) makes it easily recognisable when passed."
+      },
+      "main_concept": "CON-GIT-A2A06601B4D8A4",
+      "concept_ids": ["CON-GIT-A2A06601B4D8A4"],
+      "contextual_concept_ids": [],
+      "subtopic": "Ascaris lumbricoides",
+      "learning_objective": "State that Ascaris lumbricoides adult worms may occasionally be passed in faeces, alongside ova.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p112",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-A2A06601B4D8A4 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key intestinal-nematodes.diagnostic-stage.adult-worm-not-ancylostomiasis -- this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q003",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q003",
+      "page": 112,
+      "title": "Enterobius causes nocturnal enuresis",
+      "question": "The commonest parasite causing nocturnal enuresis in children is?",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Ancylostoma duodenale",
+        "C": "Hymenolepis nana",
+        "D": "Enterobius vermicularis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Ascaris lumbricoides does not classically cause perianal irritation or nocturnal enuresis; its symptoms relate to intestinal bulk or pulmonary migration.",
+        "B": "Incorrect. Ancylostoma duodenale causes iron-deficiency anaemia and skin (ground itch) symptoms, not nocturnal enuresis.",
+        "C": "Incorrect. Hymenolepis nana causes nonspecific abdominal symptoms in heavy infection, not the perianal-itch-driven nocturnal enuresis classically linked to pinworm.",
+        "D": "Correct. Enterobius vermicularis infection classically presents with perianal pruritus and, in children, nocturnal enuresis -- the gravid female's nighttime migration to the perianal skin to lay eggs causes intense itching that disturbs sleep and is the commonest parasitic cause of nocturnal enuresis. This clinical picture is one of the most frequently tested associations for this species."
+      },
+      "main_concept": "CON-GIT-45DA03F58B4D64",
+      "concept_ids": ["CON-GIT-45DA03F58B4D64"],
+      "contextual_concept_ids": [],
+      "subtopic": "Enterobius vermicularis",
+      "learning_objective": "Identify Enterobius vermicularis as the commonest parasitic cause of nocturnal enuresis in children.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p112",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-45DA03F58B4D64 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key enterobius-vermicularis.clinical-features.perianal-pruritus-and-nocturnal-enuresis -- this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q007",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q007",
+      "page": 112,
+      "title": "Ascaris, hookworm and Strongyloides migrate through the lung",
+      "question": "The following helminthes have migratory cycle in the lung?",
+      "options": {
+        "A": "Ancylostoma duodenale",
+        "B": "Ascaris lumbricoides",
+        "C": "Strongyloides stercoralis",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. It is true Ancylostoma duodenale's larva migrates through the lung, but this is only one of three species sharing the same migratory pattern.",
+        "B": "Incorrect alone. It is true Ascaris lumbricoides's larva migrates through the lung, but this is only one of three species sharing the same migratory pattern.",
+        "C": "Incorrect alone. It is true Strongyloides stercoralis's larva migrates through the lung, but this is only one of three species sharing the same migratory pattern.",
+        "D": "Correct. Ascaris lumbricoides, Ancylostoma duodenale and Strongyloides stercoralis larvae all migrate through the lungs as part of their normal life cycle -- gut wall to bloodstream to lung to airway, then swallowed back to the small intestine. This shared pulmonary migratory phase is why acute or heavy infection with any of the three can produce Loeffler's syndrome (chest symptoms and high blood eosinophilia)."
+      },
+      "main_concept": "CON-GIT-C4679409F59219",
+      "concept_ids": ["CON-GIT-C4679409F59219"],
+      "contextual_concept_ids": [],
+      "subtopic": "Comparative larval migration",
+      "learning_objective": "State that Ascaris lumbricoides, Ancylostoma duodenale and Strongyloides stercoralis all have a pulmonary larval migratory phase.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p112",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-C4679409F59219 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key ascaris-lumbricoides.loefflers-syndrome.hookworm-and-strongyloides-shared -- this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q008",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q008",
+      "page": 112,
+      "title": "Trichuris does not inhabit the small intestine",
+      "question": "The following nematodes inhabit the small intestine EXCEPT?",
+      "options": {
+        "A": "Anyclostoma duodenale",
+        "B": "Ascaris lumbricoides",
+        "C": "Strongyloides stercoralis",
+        "D": "Trichuris trichiura"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Ancylostoma duodenale inhabits the small intestine, so it is not the exception.",
+        "B": "Incorrect. Ascaris lumbricoides inhabits the small intestine as an adult, so it is not the exception.",
+        "C": "Incorrect. Strongyloides stercoralis inhabits the small intestine (its adult female burrows into the mucosa of the duodenum/upper jejunum), so it is not the exception.",
+        "D": "Correct. Trichuris trichiura and Enterobius vermicularis both inhabit the large intestine, unlike the small-intestinal Ancylostoma duodenale, Ascaris lumbricoides and Strongyloides stercoralis. Trichuris specifically anchors in the caecum and adjacent large-bowel segments by its thin, whip-like anterior end, making it the exception in this small-intestine-habitat list."
+      },
+      "main_concept": "CON-GIT-4E44AA38D16CB4",
+      "concept_ids": ["CON-GIT-4E44AA38D16CB4"],
+      "contextual_concept_ids": [],
+      "subtopic": "Habitat by intestinal segment",
+      "learning_objective": "Identify Trichuris trichiura as the exception that does not inhabit the small intestine.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p112",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-4E44AA38D16CB4 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key nematodes.large-intestine-habitat.trichuris-and-enterobius -- this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q010",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q010",
+      "page": 113,
+      "title": "Trichuriasis causes rectal prolapse",
+      "question": "Parasitic infection complicated by rectal prolapse is?",
+      "options": {
+        "A": "Trichuriasis",
+        "B": "Ascariasis",
+        "C": "Ancylostomiasis",
+        "D": "Strongyloidiasis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Rectal prolapse is a recognised complication of heavy Trichuris trichiura infection (trichuriasis) in children -- the sheer worm burden anchored in the rectum and distal colon, combined with straining from associated diarrhoea, can pull the rectal mucosa outward. This complication is a classic clinical association tested for this species.",
+        "B": "Incorrect. Ascariasis's classic complications are intestinal obstruction, appendicitis and biliary obstruction from bulk worm masses, not rectal prolapse.",
+        "C": "Incorrect. Ancylostomiasis's classic complication is iron-deficiency anaemia from chronic blood loss, not rectal prolapse.",
+        "D": "Incorrect. Strongyloidiasis's classic severe complication is hyperinfection syndrome (especially with corticosteroid use), not rectal prolapse."
+      },
+      "main_concept": "CON-GIT-5DEAC87AB891C0",
+      "concept_ids": ["CON-GIT-5DEAC87AB891C0"],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichuris trichiura",
+      "learning_objective": "Identify trichuriasis as the parasitic infection complicated by rectal prolapse.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p113",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-5DEAC87AB891C0 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key trichuris-trichiura.complication.rectal-prolapse-in-heavy-infection -- this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q016",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q016",
+      "page": 113,
+      "title": "Ancylostoma infects by skin penetration",
+      "question": "Infection with Ancylostoma duodenale is through?",
+      "options": {
+        "A": "Ingestion of egg",
+        "B": "Ingestion of Cyclops",
+        "C": "Skin penetration by larva",
+        "D": "None of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ancylostoma duodenale is not acquired by egg ingestion, unlike Ascaris, Trichuris or Enterobius.",
+        "B": "Incorrect. Ingestion of Cyclops is the transmission route for Dracunculus medinensis, not Ancylostoma duodenale.",
+        "C": "Correct. Ground itch is caused by penetration of human skin by the infective filariform larva of Ancylostoma duodenale. This skin-penetration route, from larvae on contaminated soil, is the standard portal of entry for hookworm. It produces an itchy local reaction (ground itch) at the site of penetration before the larva migrates onward through the bloodstream and lungs.",
+        "D": "Incorrect. Skin penetration by the filariform larva (option C) is the correct route, so 'none of the above' is wrong."
+      },
+      "main_concept": "CON-GIT-BF9B52E4E0D9D6",
+      "concept_ids": ["CON-GIT-BF9B52E4E0D9D6"],
+      "contextual_concept_ids": [],
+      "subtopic": "Ancylostoma duodenale",
+      "learning_objective": "State that Ancylostoma duodenale infects man through skin penetration by its filariform larva.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p113",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-BF9B52E4E0D9D6 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key ancylostoma-duodenale.ground-itch.filariform-larva-skin-penetration -- this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q020",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q020",
+      "page": 114,
+      "title": "Ascaris pneumonitis features dyspnea, cough and eosinophilia",
+      "question": "Ascaris pneumonitis is characterized by?",
+      "options": {
+        "A": "Dyspnea",
+        "B": "Cough",
+        "C": "Eosinophilia",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. It is true dyspnea is a feature of Ascaris pneumonitis, but this is only one of three jointly true features offered.",
+        "B": "Incorrect alone. It is true cough is a feature of Ascaris pneumonitis, but this is only one of three jointly true features offered.",
+        "C": "Incorrect alone. It is true eosinophilia is a feature of Ascaris pneumonitis, but this is only one of three jointly true features offered.",
+        "D": "Correct. Ascaris pneumonitis (part of Loeffler's syndrome, with chest symptoms and high eosinophilia during pulmonary larval migration) is characterised by dyspnea, cough and eosinophilia together, all three jointly true. This same pulmonary migratory pattern, and its resulting Loeffler-type picture, is shared by hookworm and Strongyloides as well."
+      },
+      "main_concept": "CON-GIT-C4679409F59219",
+      "concept_ids": ["CON-GIT-C4679409F59219"],
+      "contextual_concept_ids": [],
+      "subtopic": "Ascaris lumbricoides",
+      "learning_objective": "State that Ascaris pneumonitis is characterised by dyspnea, cough and eosinophilia.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p114",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-C4679409F59219 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key ascaris-lumbricoides.loefflers-syndrome.hookworm-and-strongyloides-shared -- reused a second time in this lane (see Q7); this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q024",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q024",
+      "page": 114,
+      "title": "Trichuris trichiura inhabits the caecum",
+      "question": "Trichuris trichiura?",
+      "options": {
+        "A": "Called pin worm",
+        "B": "Has migratory phase",
+        "C": "Mature eggs passed with faeces",
+        "D": "Inhabits caecum and adjacent parts"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Pin worm is the common name for Enterobius vermicularis, not Trichuris trichiura, whose own common name is whip worm.",
+        "B": "Incorrect. Trichuris trichiura has no larval migratory phase outside the intestine, unlike Ascaris, hookworm or Strongyloides.",
+        "C": "Incorrect. Trichuris trichiura eggs are passed immature (unembryonated), not mature, requiring further development in soil before becoming infective.",
+        "D": "Correct. Trichuris trichiura is a whip-like worm with an oviparous female that anchors in the caecum by its attenuated end, and has no migratory phase outside the intestine. This caecum-and-adjacent-large-bowel habitat, together with its lack of a migratory phase, is the correct description among the four options."
+      },
+      "main_concept": "CON-GIT-652CB5E7405E53",
+      "concept_ids": ["CON-GIT-652CB5E7405E53"],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichuris trichiura",
+      "learning_objective": "State that Trichuris trichiura inhabits the caecum and adjacent large-bowel segments, with no migratory phase.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p114",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-652CB5E7405E53 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key trichuris-trichiura.no-migratory-phase-and-attachment-anatomy -- this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q031",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q031",
+      "page": 115,
+      "title": "Cutaneous larva migrans is caused by Ancylostoma caninum",
+      "question": "Cutaneous larva migrans resulting from exposure to the following parasite?",
+      "options": {
+        "A": "Ancylostoma caninum",
+        "B": "Ancylostoma duodenale",
+        "C": "Necator americanus",
+        "D": "None of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cutaneous larva migrans is an itchy, serpiginous, slowly advancing red track in the skin caused by an animal hookworm larva (classically Ancylostoma braziliense or A. caninum, dog/cat hookworms) that cannot penetrate past the human dermis. Because these larvae are adapted to a non-human host, they lack the enzymes to cross the dermal basement membrane and instead wander only within the epidermis, producing the visible track.",
+        "B": "Incorrect. Ancylostoma duodenale is the human hookworm; its larva completes a normal human infection (penetrating to the bloodstream and lungs) rather than wandering harmlessly in the skin.",
+        "C": "Incorrect. Necator americanus is the other human hookworm; like A. duodenale, its larva completes normal human infection rather than causing cutaneous larva migrans.",
+        "D": "Incorrect. Ancylostoma caninum (option A) is the correct cause, so 'none of the above' is wrong."
+      },
+      "main_concept": "CON-INF-C5B97ED116A7D4",
+      "concept_ids": ["CON-INF-C5B97ED116A7D4"],
+      "contextual_concept_ids": [],
+      "subtopic": "Zoonotic larva migrans syndromes",
+      "learning_objective": "Identify Ancylostoma caninum (an animal hookworm) as the classic cause of cutaneous larva migrans.",
+      "library_ids": [],
+      "source_citation": "INI MCQ .pdf, Nematoda, p115",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-INF-C5B97ED116A7D4 is pending in docs/Ain-Shams-Source-Imports/concept/ASU-LOCO-inf-parasitology-concepts.md, canonical_key cutaneouslarvamigrans.presentation.clinical-features (no article authored yet for this concept in its own source batch) -- this question and its +aun overlay apply only after Omar imports that Ain-Shams batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q036",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q036",
+      "page": 116,
+      "title": "Strongyloides infects by skin penetration",
+      "question": "Strongyloides stercoralis infects man through?",
+      "options": {
+        "A": "Ingestion of egg",
+        "B": "Ingestion of filariform larva",
+        "C": "Skin penetration by rhabditiform larva",
+        "D": "Skin penetration by filariform larva"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Strongyloides stercoralis is not acquired by egg ingestion; it does not even pass an infective egg to the environment.",
+        "B": "Incorrect. The filariform larva is the infective stage, but it infects by skin penetration, not by being ingested.",
+        "C": "Incorrect. The rhabditiform larva is a non-infective, developmental stage; it is the filariform larva that penetrates skin.",
+        "D": "Correct. The usual portal of entry of Strongyloides stercoralis into the human body is the skin, penetrated by its infective filariform larva. This is the same skin-penetration mechanism used by Ancylostoma duodenale. Strongyloides's filariform larva is nonetheless unsheathed and notch-tailed, unlike hookworm's sheathed larva."
+      },
+      "main_concept": "CON-GIT-5D42E39D871090",
+      "concept_ids": ["CON-GIT-5D42E39D871090"],
+      "contextual_concept_ids": [],
+      "subtopic": "Strongyloides stercoralis",
+      "learning_objective": "State that Strongyloides stercoralis infects man by skin penetration of its filariform larva.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p116",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-5D42E39D871090 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key strongyloides-stercoralis.portal-of-entry.skin-penetration-by-filariform-larva -- this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q037",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q037",
+      "page": 116,
+      "title": "Strongyloides larva develops to adult under favourable soil conditions",
+      "question": "Strongyloides stercoralis larva changes to adult when?",
+      "options": {
+        "A": "Soil conditions are favourable",
+        "B": "Soil conditions are unfavourable",
+        "C": "Temperature are unsuitable",
+        "D": "None of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The life cycle of Strongyloides stercoralis can proceed by a direct cycle, an indirect (free-living) cycle, or internal autoinfection; under favourable soil conditions (adequate warmth and moisture), rhabditiform larvae shed in stool can develop into free-living adult males and females in soil, completing an entire generation outside the human host. This free-living generation is a feature unique to Strongyloides among the nematodes in this chapter.",
+        "B": "Incorrect. Under unfavourable soil conditions, rhabditiform larvae instead moult directly into infective filariform larvae (the direct cycle) rather than developing into free-living adults.",
+        "C": "Incorrect. Unsuitable temperature is one form of unfavourable condition, which instead favours direct development to the infective filariform larva, not to a free-living adult.",
+        "D": "Incorrect. Favourable soil conditions (option A) is the correct answer, so 'none of the above' is wrong."
+      },
+      "main_concept": "CON-GIT-C963D99A43B1D0",
+      "concept_ids": ["CON-GIT-C963D99A43B1D0"],
+      "contextual_concept_ids": [],
+      "subtopic": "Strongyloides stercoralis",
+      "learning_objective": "State that Strongyloides stercoralis larvae develop into free-living adults under favourable soil conditions.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p116",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-C963D99A43B1D0 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key strongyloides-stercoralis.life-cycle-forms.direct-indirect-and-autoinfective -- this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q041",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q041",
+      "page": 116,
+      "title": "Strongyloides alone migrates outside the human body",
+      "question": "Parasite migration outside the body occurs in?",
+      "options": {
+        "A": "Strongyloides stercoralis",
+        "B": "Ancylostoma duodenale",
+        "C": "Trichostrongylus colubriformis",
+        "D": "Trichuris trichiura"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The life cycle of Strongyloides stercoralis can proceed by a direct cycle, an indirect (free-living) cycle, or internal autoinfection. Its free-living (indirect) cycle allows an entire generation of free-living adult worms to develop and reproduce in soil, independent of a human host. This pattern of development and migration outside the body is not shared by Ancylostoma duodenale, Trichostrongylus colubriformis or Trichuris trichiura.",
+        "B": "Incorrect. Ancylostoma duodenale's larvae develop through free-living larval stages in soil, but the species has no free-living adult generation reproducing outside a host, unlike Strongyloides.",
+        "C": "Incorrect. Trichostrongylus colubriformis's larvae develop in soil/vegetation to the infective stage, but it has no free-living adult generation reproducing outside a host, unlike Strongyloides.",
+        "D": "Incorrect. Trichuris trichiura's eggs mature in soil, but it has no free-living adult generation reproducing outside a host, unlike Strongyloides."
+      },
+      "main_concept": "CON-GIT-C963D99A43B1D0",
+      "concept_ids": ["CON-GIT-C963D99A43B1D0"],
+      "contextual_concept_ids": [],
+      "subtopic": "Strongyloides stercoralis",
+      "learning_objective": "Identify Strongyloides stercoralis as uniquely capable of a free-living generation outside the human body.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p116",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-C963D99A43B1D0 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key strongyloides-stercoralis.life-cycle-forms.direct-indirect-and-autoinfective -- reused a second time in this lane (see Q37); this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q045",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q045",
+      "page": 117,
+      "title": "Capillaria philippinensis is acquired from undercooked fish",
+      "question": "Man gets infected with Capillaria Philippinensis when eating?",
+      "options": {
+        "A": "Undercooked pork",
+        "B": "Undercooked fish",
+        "C": "Undercooked beef",
+        "D": "Infected liver"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Undercooked pork is the source of Trichinella spiralis, not Capillaria philippinensis.",
+        "B": "Correct. Capillaria philippinensis is acquired by eating insufficiently cooked fish, not by improperly washed vegetables, and causes watery diarrhoea diagnosed by its egg. Freshwater fish serve as the intermediate host carrying the infective larval stage. This is why undercooked fish, not another food source, is the specific transmission route tested for this species.",
+        "C": "Incorrect. Undercooked beef is the source of Taenia saginata, not Capillaria philippinensis.",
+        "D": "Incorrect. Eating infected liver is associated with spurious (false) Fasciola infection, not Capillaria philippinensis."
+      },
+      "main_concept": "CON-GIT-663BF173017BE0",
+      "concept_ids": ["CON-GIT-663BF173017BE0"],
+      "contextual_concept_ids": [],
+      "subtopic": "Capillaria philippinensis",
+      "learning_objective": "State that Capillaria philippinensis is acquired by eating undercooked fish.",
+      "library_ids": ["ART-HU-GIT301-PARA-NEMATODES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p117",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-GIT-663BF173017BE0 is pending in docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md, canonical_key capillaria-philippinensis.mode-of-infection.fish-not-vegetables -- this question and its +aun overlay apply only after Omar imports that Helwan batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q051",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q051",
+      "page": 118,
+      "title": "Culex is the vector of Wuchereria bancrofti",
+      "question": "The vector of Wuchereria bancrofti is?",
+      "options": {
+        "A": "Culicine mosquito",
+        "B": "Simulium",
+        "C": "Mansonia",
+        "D": "Chrysops"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Bancroftian filariasis (Wuchereria bancrofti) is transmitted by the Culex mosquito, adult worms live in the lymphatics, and chronic lymphatic obstruction and fibrosis from dead worms produces elephantiasis. Culex, a culicine mosquito, is the standard vector taught for this species, distinguishing it from the vectors of other filariae tested in this chapter.",
+        "B": "Incorrect. Simulium (the blackfly) is the vector of Onchocerca volvulus, not Wuchereria bancrofti.",
+        "C": "Incorrect. Mansonia is a vector for Brugia malayi in some regions, not the standard vector taught for Wuchereria bancrofti.",
+        "D": "Incorrect. Chrysops (the deer fly) is the vector of Loa loa, not Wuchereria bancrofti."
+      },
+      "main_concept": "CON-INF-3DEFB880DFF98F",
+      "concept_ids": ["CON-INF-3DEFB880DFF98F"],
+      "contextual_concept_ids": [],
+      "subtopic": "Wuchereria bancrofti",
+      "learning_objective": "State that Culex is the mosquito vector of Wuchereria bancrofti.",
+      "library_ids": ["ART-MANS-HIS-FILARIASIS-WUCHERERIA-BASICS"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p118",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-INF-3DEFB880DFF98F is pending in docs/Mansoura-Source-Imports/concept/MANS-HIS-203-concepts.md, canonical_key filariasis.wuchereria-bancrofti-basics -- this question and its +aun overlay apply only after Omar imports that Mansoura batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q055",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q055",
+      "page": 118,
+      "title": "Adult W. bancrofti worms live in lymph nodes",
+      "question": "The adult worms of Wuchereria bancrofti are found in?",
+      "options": {
+        "A": "Blood",
+        "B": "Lymph nodes",
+        "C": "Subcutaneous tissues",
+        "D": "Muscles"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Blood carries the circulating microfilariae, not the adult worms, which instead reside in the lymphatics.",
+        "B": "Correct. Bancroftian filariasis (Wuchereria bancrofti) is transmitted by the Culex mosquito, adult worms live in the lymphatics, and chronic lymphatic obstruction and fibrosis from dead worms produces elephantiasis. Adult worms reside in the lymphatic vessels and nodes, mainly of the lower limbs and genital organs, where their presence (living or dying) triggers the inflammatory and, eventually, obstructive changes underlying the disease's clinical picture.",
+        "C": "Incorrect. Subcutaneous tissue is instead the habitat of the adult Dracunculus medinensis and Onchocerca volvulus, not Wuchereria bancrofti.",
+        "D": "Incorrect. Muscle is instead the site where Trichinella spiralis larvae encyst, not where adult Wuchereria bancrofti worms are found."
+      },
+      "main_concept": "CON-INF-3DEFB880DFF98F",
+      "concept_ids": ["CON-INF-3DEFB880DFF98F"],
+      "contextual_concept_ids": [],
+      "subtopic": "Wuchereria bancrofti",
+      "learning_objective": "State that adult Wuchereria bancrofti worms live in the lymphatics.",
+      "library_ids": ["ART-MANS-HIS-FILARIASIS-WUCHERERIA-BASICS"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p118",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-INF-3DEFB880DFF98F is pending in docs/Mansoura-Source-Imports/concept/MANS-HIS-203-concepts.md, canonical_key filariasis.wuchereria-bancrofti-basics -- reused a second time in this lane (see Q51); this question and its +aun overlay apply only after Omar imports that Mansoura batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q056",
+      "id": "QST-AUNINI105-INI-MCQ-CH11-Q056",
+      "page": 118,
+      "title": "Culex transmits W. bancrofti cyclodevelopmentally",
+      "question": "Mode of transmission of Wuchereria bancrofti by female culex?",
+      "options": {
+        "A": "Cyclodevelopmental",
+        "B": "Cyclopropagative",
+        "C": "Mechanical",
+        "D": "Transovarian"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Culex transmits Wuchereria bancrofti cyclodevelopmentally: the ingested microfilaria develops through successive larval stages (L1 to L3) within the mosquito to reach the infective filariform larva, but does not multiply in number along the way -- one ingested microfilaria yields, at most, one infective larva. This distinguishes cyclodevelopmental transmission from cyclopropagative transmission, in which the organism both develops and multiplies within the vector.",
+        "B": "Incorrect. Cyclopropagative transmission (development plus multiplication in the vector) describes organisms such as the malaria parasite in Anopheles, not the filarial larva in Culex, which develops without multiplying.",
+        "C": "Incorrect. Mechanical transmission (no development within the vector, simple physical carriage) does not apply to filariasis, which requires larval development inside the mosquito.",
+        "D": "Incorrect. Transovarian transmission (passage of the organism to the vector's own offspring via the egg) is not how Wuchereria bancrofti is transmitted by Culex."
+      },
+      "main_concept": "CON-INF-476CFE4CB1DE34",
+      "concept_ids": ["CON-INF-476CFE4CB1DE34"],
+      "contextual_concept_ids": [],
+      "subtopic": "Wuchereria bancrofti",
+      "learning_objective": "State that Culex transmits Wuchereria bancrofti cyclodevelopmentally.",
+      "library_ids": ["ART-INF-MUST-FHB1022-MOSQUITO-DISEASES"],
+      "source_citation": "INI MCQ .pdf, Nematoda, p118",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132",
+        "pendingConcept": "CON-INF-476CFE4CB1DE34 is pending in docs/MUST-Source-Imports/concept/FHB-102-2-parasitology-introduction-concepts.md, canonical_key parasitology.mosquitoes.culex-filariasis-cyclodevelopmental -- this question and its +aun overlay apply only after Omar imports that MUST batch and AUN-INI-105-ch11-overlay-concepts.md."
+      },
+      "author_notes": ""
+    }
+  ]
+}

@@ -9192,3 +9192,5590 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "beta2 adrenomimetic tachycardia side effect" -- 0 hits, new concept.
 relationships: closes the Lecture 28 sympathetic-agonists-2 set and the whole Quiz 23-28 cluster; paired with CON-FND-50FB4649C59276 (ipratropium, the other airway-adrenoceptor-adjacent concept in this lane).
+
+---
+
+# Item
+
+## id
+CON-FND-DA7931EDFB7CDF
+
+## label
+Healing by first intention (apposed edges, low complications) versus second intention (tissue defect, more granulation tissue and complications)
+
+## canonical_key
+teaching.pathology.wound-healing.first-vs-second-intention
+
+## aliases
+Primary union
+Primary intention
+Secondary intention
+Wound healing patterns
+
+## arabic_label
+الشفاء بالنية الأولى مقابل النية الثانية
+
+## arabic_aliases
+الالتحام الأولي
+الشفاء بالنية الثانوية
+
+## definition
+Wound healing follows one of two patterns depending on the size of the tissue defect and whether the wound edges can be apposed. Healing by first intention (primary union) occurs in a clean, incised wound whose edges are closely apposed -- a sutured surgical incision is the standard example -- and needs only a thin fibrin seal and minimal granulation tissue, heals quickly, and carries a low complication rate. Healing by second intention occurs when there is a larger tissue defect and the wound edges cannot be apposed (an abscess cavity, an area of ulceration, an infarct undergoing organisation) -- it requires abundant granulation tissue to fill the gap and heals by wound contraction over a longer period, carrying a higher rate of complications than first intention. A clean surgical wound with apposed edges is the standard example of a lesion that does NOT heal by second intention, precisely because its edges are close enough for primary union instead.
+
+## explicit_objective
+Given a description of a wound (edges cleanly apposed vs. a defect with tissue loss/gaping edges), classify it as healing by first or second intention and predict which pathway has more granulation tissue, more complications, and a longer healing time.
+
+## pitfalls
+Assuming a surgical wound heals by second intention because an instrument caused it -- what determines the healing pathway is whether the edges are apposed (first intention), not the mechanism of injury. Assuming granulation tissue and complication rates are equal between the two pathways, when second intention specifically means more granulation tissue and more complications precisely because of the larger defect it must fill.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Tissue repair: Factors affecting and complications
+
+## subtopic
+First versus second intention healing
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-TISSUE-REPAIR-FACTORS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-EF9B8220E32D3F
+CON-FND-FEDFC8ABD0A7E9
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following lesion does NOT heal by second intention: ... Surgical wound" (Quiz 29 Q3); "Which of the following is a feature of healing by second intention? ... More common complications" (Q4); "Which of the following is characteristic for healing by first intention? ... Occur in clean cut wound" (Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 29 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "healing by second intention" and "healing first intention second intention" -- 0 hits, new concept.
+relationships: three quiz rows (Q3/Q4/Q5) collapsed onto this one concept -- the same first-vs-second-intention classification tested three ways (which lesion excludes second intention; second intention's own feature; first intention's own feature).
+
+---
+
+# Item
+
+## id
+CON-FND-FEDFC8ABD0A7E9
+
+## label
+Apposing wound edges with sutures helps healing; corticosteroids, poor perfusion and bacterial contamination impair it
+
+## canonical_key
+teaching.pathology.wound-healing.factors-affecting-outcome
+
+## aliases
+Factors affecting wound healing
+Wound healing complications
+
+## arabic_label
+العوامل المؤثرة على شفاء الجروح
+
+## arabic_aliases
+عوامل تعيق الشفاء
+
+## definition
+Several local and systemic factors determine whether a wound heals well or poorly. Apposing the wound edges -- for example with sutures -- helps healing by minimising the gap the tissue must bridge, favouring first-intention repair with less granulation tissue and fewer complications. By contrast, corticosteroid therapy impairs healing by suppressing the inflammatory and fibroblastic phases of repair, decreased tissue perfusion impairs healing by limiting the oxygen and nutrient delivery repair depends on, and the presence of bacteria impairs healing by prolonging the inflammatory phase and directly damaging newly formed tissue. A laceration closed with sutures over the following week is expected to heal favourably specifically because apposition, not any of these impairing factors, is present.
+
+## explicit_objective
+Given a clinical scenario describing a wound-care factor (sutures/apposition, corticosteroid use, tissue perfusion, bacterial contamination), classify it as helping or impairing wound healing.
+
+## pitfalls
+Assuming any intervention around a wound (such as suturing) could only be neutral or that all systemic factors (steroids, perfusion, infection) act the same direction -- apposition specifically helps, while corticosteroids, poor perfusion and bacteria specifically impair, and the exam question tests recognising which single option among the four is the helping one.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Tissue repair: Factors affecting and complications
+
+## subtopic
+Factors affecting wound healing
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-TISSUE-REPAIR-FACTORS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-DA7931EDFB7CDF
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 20-year-old woman sustains an injury to her right calf ... This wound is closed with sutures. Wound healing proceeds over the next week. Which of the following factors will be most likely to help wound healing in this patient? ... Presence of sutures" (Quiz 29 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 29 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "factors affecting wound healing" and "wound healing sutures" -- 0 hits, new concept.
+relationships: paired with CON-FND-DA7931EDFB7CDF (first vs second intention) as the lecture's other tissue-repair-factors grain.
+
+---
+
+# Item
+
+## id
+CON-FND-336D4E2FB4FDE2
+
+## label
+Labetalol antagonises both alpha1 and beta adrenoceptors, unlike a pure beta-blocker such as propranolol
+
+## canonical_key
+teaching.pharmacology.labetalol.combined-alpha-beta-blockade
+
+## aliases
+Combined alpha and beta blockade
+Labetalol mechanism
+
+## arabic_label
+لابيتالول: حصار مستقبلات ألفا وبيتا معاً
+
+## arabic_aliases
+حصار مشترك لمستقبلات ألفا وبيتا
+
+## definition
+Labetalol is an antihypertensive that antagonises both alpha1-adrenoceptors and beta-adrenoceptors, rather than beta receptors alone. Its cardiovascular effect therefore combines the peripheral vasodilation of alpha1 blockade with the reduction in heart rate and cardiac output of beta blockade. This dual action is the key feature distinguishing labetalol from a pure beta-blocker such as propranolol, which blocks only beta-adrenoceptors and has no alpha1-blocking activity of its own.
+
+## explicit_objective
+State that labetalol acts as a combined alpha1- and beta-adrenoceptor antagonist, and identify alpha1-receptor blockade as the specific property that distinguishes it from a pure beta-blocker like propranolol.
+
+## pitfalls
+Assuming labetalol is simply another selective or nonselective beta-blocker like propranolol -- its defining pharmacological feature, tested repeatedly, is that it also blocks alpha1-adrenoceptors, which propranolol does not.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Labetalol combined blockade
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-079D093B2D302D
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 34-year-old man is prescribed labetalol for hypertension. The effect on the cardiovascular system is a result of its action as an antagonist at which of the following? ... Both alpha and beta-adrenoceptors" (Quiz 30 Q1); "Labetalol is an effective antihypertensive agent that, like propranolol, is capable of blocking beta receptors. An important difference between the two drugs is that labetalol: ... has alpha1 receptor blocking actions" (Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "labetalol alpha beta blocker" -- 0 hits, new concept.
+relationships: two quiz rows (Q1/Q7) collapsed onto this one concept -- the same labetalol dual-blockade fact tested by mechanism (Q1) and by contrast with propranolol (Q7).
+
+---
+
+# Item
+
+## id
+CON-FND-1E5ADF2DEB83AF
+
+## label
+Prazosin (alpha1 blockade) prevents epinephrine's mydriasis without blocking its other adrenergic actions
+
+## canonical_key
+teaching.pharmacology.prazosin.blocks-alpha1-mediated-mydriasis
+
+## aliases
+Alpha1 blockade and mydriasis
+Prazosin mechanism
+
+## arabic_label
+البرازوسين يمنع توسع الحدقة الناتج عن الأدرينالين
+
+## arabic_aliases
+حصار مستقبلات ألفا 1 وتوسع الحدقة
+
+## definition
+Epinephrine produces mydriasis (pupil dilation) by activating alpha1-adrenoceptors on the iris dilator muscle. Prazosin is a selective alpha1-adrenoceptor antagonist, so pretreatment with prazosin blocks this specific alpha1-mediated action of epinephrine, preventing the mydriasis that would otherwise occur. Epinephrine's other actions mediated through beta-adrenoceptors -- such as increased heart rate and increased cardiac stroke volume -- are not blocked by prazosin, since those depend on a different receptor family that prazosin does not antagonise.
+
+## explicit_objective
+Identify mydriasis as the specific epinephrine action blocked by the alpha1-selective antagonist prazosin, distinguishing it from epinephrine's beta-receptor-mediated cardiac actions, which prazosin does not block.
+
+## pitfalls
+Assuming an alpha1 blocker like prazosin blocks every action of epinephrine -- prazosin blocks only the alpha1-mediated actions (such as mydriasis), leaving epinephrine's beta-mediated cardiac effects (heart rate, stroke volume) and beta2-mediated bronchodilation unaffected.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Alpha1 blockade selectivity
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-079D093B2D302D
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following actions of epinephrine is blocked by prazosin? ... Mydriasis" (Quiz 30 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "prazosin blocks mydriasis" -- 0 hits, new concept.
+relationships: paired with CON-FND-079D093B2D302D (prazosin's own clinical profile) as a second, mechanism-level prazosin grain.
+
+---
+
+# Item
+
+## id
+CON-FND-04576C33B4A433
+
+## label
+Tamsulosin's alpha1A selectivity makes it the preferred alpha blocker for benign prostatic hypertrophy
+
+## canonical_key
+teaching.pharmacology.tamsulosin.alpha1a-selectivity-bph
+
+## aliases
+Alpha1A subtype selectivity
+Tamsulosin for BPH
+
+## arabic_label
+تامسولوسين وانتقائية مستقبلات ألفا 1أ في تضخم البروستاتا
+
+## arabic_aliases
+انتقائية تامسولوسين لعلاج تضخم البروستاتا الحميد
+
+## definition
+Alpha1-adrenoceptors have subtypes, and the alpha1A subtype predominates in prostatic and lower-urinary-tract smooth muscle. Tamsulosin is selective for the alpha1A subtype, which relaxes prostatic and bladder-neck smooth muscle to relieve the obstructive symptoms of benign prostatic hypertrophy (BPH) while producing comparatively less vascular (blood-pressure-lowering) alpha1 blockade than a nonselective alpha1 antagonist. This alpha1A selectivity is why tamsulosin, among the alpha blockers, is the one most specifically favoured for BPH.
+
+## explicit_objective
+State that tamsulosin's selectivity for the alpha1A receptor subtype, concentrated in prostatic/bladder-neck smooth muscle, is why it is the most appropriate alpha blocker choice for benign prostatic hypertrophy among nonselective alternatives.
+
+## pitfalls
+Assuming any alpha1 blocker is equally suited to BPH -- the exam point is specifically alpha1A subtype selectivity, which concentrates the drug's effect on prostatic/bladder-neck smooth muscle rather than the vasculature broadly.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Alpha1 subtype selectivity
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-079D093B2D302D
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following drugs is the most appropriate for treating patients with BPH (benign prostatic hypertrophy) because of selectivity on alpha1A: ... Tamsulosin" (Quiz 30 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "tamsulosin BPH alpha1A" -- 0 hits, new concept.
+relationships: distinguished from CON-FND-079D093B2D302D (prazosin's own BPH benefit/postural-hypotension profile) -- a different specific drug and its subtype-selectivity rationale.
+
+---
+
+# Item
+
+## id
+CON-FND-122E61D54D6B33
+
+## label
+Doxazosin has a long duration of action, about 36 hours
+
+## canonical_key
+teaching.pharmacology.doxazosin.duration-of-action
+
+## aliases
+Doxazosin pharmacokinetics
+Long-acting alpha blocker
+
+## arabic_label
+دوكسازوسين ومدة تأثيره الطويلة
+
+## arabic_aliases
+مدة فعالية الدوكسازوسين
+
+## definition
+Doxazosin is a long-acting alpha1-adrenoceptor antagonist used in hypertension and benign prostatic hypertrophy. Its duration of action is approximately 36 hours, considerably longer than shorter-acting alpha1 blockers such as prazosin, which allows for once-daily dosing. This pharmacokinetic property is the specific fact the exam tests about doxazosin, distinguishing it numerically from the other duration options offered.
+
+## explicit_objective
+State that doxazosin's duration of action is approximately 36 hours, supporting once-daily dosing.
+
+## pitfalls
+Confusing doxazosin's long duration with the shorter action of other alpha blockers such as prazosin -- the specific number tested here (36 hours) is what distinguishes doxazosin's dosing convenience.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Alpha blocker pharmacokinetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The duration of action of doxazosin is: ... 36 hours" (Quiz 30 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "doxazosin duration action" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone alpha-blocker pharmacokinetic fact.
+
+---
+
+# Item
+
+## id
+CON-FND-60671E2F8BA372
+
+## label
+Clonidine stimulates presynaptic alpha2 autoreceptors, inhibiting further norepinephrine release
+
+## canonical_key
+teaching.pharmacology.clonidine.presynaptic-alpha2-autoreceptor
+
+## aliases
+Presynaptic alpha2 negative feedback
+Clonidine mechanism
+
+## arabic_label
+كلونيدين ومستقبلات ألفا 2 قبل المشبكية
+
+## arabic_aliases
+تثبيط إفراز النورادرينالين عبر مستقبلات ألفا 2
+
+## definition
+Presynaptic alpha2-adrenoceptors on sympathetic nerve endings act as autoreceptors, providing negative feedback on the nerve's own neurotransmitter release. Clonidine is an alpha2 agonist that stimulates these presynaptic alpha2 receptors, which inhibits further release of norepinephrine from the nerve ending. This presynaptic inhibitory feedback -- reducing, not enhancing, transmitter release -- is the mechanism behind clonidine's centrally-mediated antihypertensive effect.
+
+## explicit_objective
+State that stimulating presynaptic alpha2 receptors (as clonidine does) inhibits norepinephrine release from the sympathetic nerve ending, rather than enhancing it or acting on postsynaptic/cholinergic pathways.
+
+## pitfalls
+Confusing a presynaptic alpha2 autoreceptor's negative-feedback role with a postsynaptic receptor's excitatory role, or assuming alpha2 stimulation enhances rather than inhibits further transmitter release.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Presynaptic alpha2 autoreceptors
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Stimulation of presynaptic alpha2 receptors by clonidine results in: ... Inhibition of NEP release from nerve ending" (Quiz 30 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "clonidine presynaptic alpha2 autoreceptor" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone autonomic-pharmacology mechanism.
+
+---
+
+# Item
+
+## id
+CON-FND-EE37B17A3F012A
+
+## label
+Combined alpha and beta blockade (phentolamine plus nadolol) treats pheochromocytoma
+
+## canonical_key
+teaching.pharmacology.pheochromocytoma.combined-alpha-beta-blockade-treatment
+
+## aliases
+Pheochromocytoma pharmacotherapy
+Phentolamine plus beta blocker
+
+## arabic_label
+علاج الفيوكروموسيتوما بحصار ألفا وبيتا معاً
+
+## arabic_aliases
+فينتولامين مع نادولول لعلاج الفيوكروموسيتوما
+
+## definition
+Pheochromocytoma is a catecholamine-secreting tumour whose excess epinephrine and norepinephrine drive both alpha-mediated vasoconstriction/hypertension and beta-mediated tachycardia. Management combines an alpha blocker such as phentolamine with a beta blocker such as nadolol, controlling both arms of the catecholamine excess. Among the drug pairs offered, phentolamine plus nadolol is the combination that supplies both an alpha antagonist and a beta antagonist together, which is why it is the better choice for this patient.
+
+## explicit_objective
+State that pheochromocytoma is managed with combined alpha- and beta-adrenoceptor blockade (e.g. phentolamine plus nadolol), rather than an alpha-blocker-only or beta-blocker-only combination.
+
+## pitfalls
+Choosing a combination of two alpha blockers (no beta component) or omitting the alpha blocker altogether -- pheochromocytoma management specifically needs both receptor families blocked, and alpha blockade must never be started after an unopposed beta blocker.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Pheochromocytoma pharmacotherapy
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-533365E0002414
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pheochromocytoma is better to be treated by: ... Phentolamine + nadolol" (Quiz 30 Q8).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "phentolamine pheochromocytoma nadolol" -- 0 hits, new concept.
+relationships: paired with CON-FND-533365E0002414 (phentolamine's own nonselective-blockade mechanism) as the lecture's second phentolamine grain.
+
+---
+
+# Item
+
+## id
+CON-FND-72AE046215C924
+
+## label
+Alpha1-adrenoceptor stimulation raises IP3 and DAG, increasing intracellular calcium
+
+## canonical_key
+teaching.pharmacology.alpha1-receptor.ip3-dag-calcium-signalling
+
+## aliases
+Alpha1 receptor second messengers
+Gq-coupled alpha1 signalling
+
+## arabic_label
+مستقبلات ألفا 1 ومسار IP3 وDAG
+
+## arabic_aliases
+إشارات الكالسيوم عبر مستقبلات ألفا 1
+
+## definition
+Alpha1-adrenoceptors are Gq-protein-coupled receptors. Their stimulation activates phospholipase C, generating the second messengers IP3 (inositol trisphosphate) and DAG (diacylglycerol); IP3 releases calcium from intracellular stores, raising cytosolic calcium and producing the receptor's downstream effects such as smooth-muscle contraction. This IP3/DAG/calcium signalling pathway is specific to Gq-coupled receptors like alpha1, distinguishing it from beta-adrenoceptors (Gs-coupled, cAMP) or muscarinic M2 receptors (Gi-coupled, decreased cAMP).
+
+## explicit_objective
+Identify alpha1-adrenoceptor stimulation as the autonomic receptor pathway that raises IP3 and DAG and increases intracellular calcium, distinguishing it from beta-adrenergic, dopaminergic and muscarinic M2 signalling.
+
+## pitfalls
+Confusing Gq-coupled alpha1 signalling (IP3/DAG/calcium) with Gs-coupled beta-receptor signalling (cAMP) or Gi-coupled M2/alpha2 signalling (decreased cAMP) -- each receptor family uses a distinct second-messenger system.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Alpha1 receptor signal transduction
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Stimulation of which of the following autonomic receptors would be expected to increase IP3 and DAG 'second messengers' resulting in rise of calcium? ... A1-adrenergic receptors" (Quiz 30 Q9).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "alpha1 receptor IP3 DAG calcium second messenger" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone receptor-signal-transduction fact, related in theme to Lecture 4's G-protein-coupled receptor concepts (CON-FND-47418DE70D5CDC) authored earlier in this module.
+
+---
+
+# Item
+
+## id
+CON-FND-533365E0002414
+
+## label
+Phentolamine is a nonselective alpha1/alpha2 antagonist that lowers blood pressure by blocking both alpha subtypes
+
+## canonical_key
+teaching.pharmacology.phentolamine.nonselective-alpha-blockade-mechanism
+
+## aliases
+Nonselective alpha blocker mechanism
+Phentolamine mechanism
+
+## arabic_label
+فينتولامين وحصار مستقبلات ألفا غير الانتقائي
+
+## arabic_aliases
+آلية عمل الفينتولامين
+
+## definition
+Phentolamine is a nonselective alpha-adrenoceptor antagonist, blocking both alpha1 and alpha2 receptors rather than one subtype alone. Blocking alpha1 receptors on vascular smooth muscle produces vasodilation, and this combined alpha1/alpha2 blockade is the mechanism by which phentolamine lowers blood pressure. This nonselective action is what makes it useful for acute, reversible alpha blockade -- for example in a pheochromocytoma crisis -- distinguishing it from an alpha1-selective agent such as prazosin or tamsulosin.
+
+## explicit_objective
+State that phentolamine lowers blood pressure by blocking both alpha1 and alpha2 receptors (nonselective alpha blockade), not by an alpha1-selective mechanism alone.
+
+## pitfalls
+Confusing phentolamine's nonselective alpha1/alpha2 blockade with the alpha1-selective mechanism of prazosin, tamsulosin or doxazosin -- the exam distinguishes phentolamine specifically by naming both alpha subtypes.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Nonselective alpha blockade
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-EE37B17A3F012A
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Phentolamine was used in this patient, because: ... It decreases BP by blocking receptors, both alpha 1 [and alpha 2]" (Quiz 30 Q10; the printed option text truncates after "both alpha 1," read as "both alpha 1 and alpha 2" given phentolamine's known nonselective mechanism).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+Q10's option text truncates mid-sentence in the extracted PDF text ("both alpha 1"); completed as "both alpha 1 and alpha 2" based on phentolamine's standard nonselective mechanism, since the other three options (anxiolytic effect, antipsychotic effects, increases BP) are clearly wrong regardless. No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "phentolamine nonselective alpha blocker" -- 0 hits, new concept.
+relationships: paired with CON-FND-EE37B17A3F012A (phentolamine's own pheochromocytoma-combination use) as the lecture's other phentolamine grain.
+
+---
+
+# Item
+
+## id
+CON-FND-079D093B2D302D
+
+## label
+Prazosin dilates arterioles and veins, benefits BPH, and causes postural hypotension as a first-dose effect
+
+## canonical_key
+teaching.pharmacology.prazosin.clinical-profile
+
+## aliases
+Prazosin clinical effects
+First-dose effect
+
+## arabic_label
+الخصائص السريرية للبرازوسين
+
+## arabic_aliases
+تأثير الجرعة الأولى للبرازوسين
+
+## definition
+Prazosin is a selective alpha1-adrenoceptor antagonist that dilates both arterioles and veins, lowering peripheral resistance and venous return. It is beneficial in patients with benign prostatic hypertrophy, since alpha1 blockade relaxes prostatic and bladder-neck smooth muscle. A well-known adverse effect is postural (orthostatic) hypotension with dizziness and fainting, most pronounced after the very first dose (the "first-dose effect"), a consequence of the abrupt venous and arteriolar dilation before compensatory mechanisms adjust.
+
+## explicit_objective
+State that prazosin dilates arterioles and veins, benefits patients with BPH, and causes first-dose postural hypotension with dizziness/fainting -- and identify "not beneficial in BPH" as the false statement among prazosin's properties.
+
+## pitfalls
+Believing prazosin is not beneficial in BPH -- alpha1 blockade specifically relaxes prostatic/bladder-neck smooth muscle, making prazosin (like other alpha1 blockers) beneficial in BPH, not contraindicated or ineffective.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Prazosin clinical profile
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-1E5ADF2DEB83AF
+CON-FND-336D4E2FB4FDE2
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding PRAZOSIN, one is false: ... It is not beneficial in patients with BPH [marked as the FALSE statement]" (Quiz 30 Q11).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 30 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "prazosin BPH postural hypotension first dose" -- 0 hits, new concept.
+relationships: paired with CON-FND-1E5ADF2DEB83AF (prazosin's mydriasis-blocking mechanism) and CON-FND-336D4E2FB4FDE2 (labetalol, the lecture's other combined/selective-blockade drug); this concept's own printed-key answer directly evidences why Q238 (alpha-blocker least-likely-use, marking BPH) is held as a conflict -- prazosin is confirmed beneficial in BPH by this same quiz.
+
+---
+
+# Item
+
+## id
+CON-FND-B74CD5B149F399
+
+## label
+Active hyperemia is arteriolar dilation increasing blood flow into a tissue, as in blushing
+
+## canonical_key
+teaching.pathology.hemodynamics.active-hyperemia
+
+## aliases
+Physiological hyperemia
+Blushing
+
+## arabic_label
+الاحتقان الفعال (فرط الدم النشط)
+
+## arabic_aliases
+احتقان فسيولوجي
+
+## definition
+Active hyperemia is an increase in blood flow into a tissue caused by arteriolar dilation, an active physiological process. Blushing after an embarrassing moment is the standard example: sympathetic withdrawal and local vasodilator mechanisms dilate facial arterioles, increasing arterial inflow and reddening the skin. This is distinct from passive congestion, in which impaired venous outflow (not increased arterial inflow) causes blood to accumulate in a tissue, and from reactive hyperemia, the specific post-ischaemic subtype of increased flow that follows a period of arterial occlusion rather than a physiological trigger.
+
+## explicit_objective
+Identify blushing (arteriolar dilation increasing arterial inflow) as an example of active hyperemia, distinguishing it from passive/venous congestion and from the post-ischaemic subtype, reactive hyperemia.
+
+## pitfalls
+Confusing active hyperemia (arteriolar dilation, increased arterial inflow, an active process) with passive congestion (impaired venous outflow, a passive process) -- both redden or discolour tissue, but by opposite vascular mechanisms. Also confusing general active hyperemia with reactive hyperemia specifically, which names the post-ischaemic subtype rather than every case of arteriolar-dilation-driven increased flow.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Active hyperemia
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 22-year-old second-year medical student develops a 'red' face after being asked a question during lecture. Which of the following statements best describes this vascular reaction? ... Active hyperemia" (Quiz 31 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+docs/Kasr-Source-Imports/glossary/104-CPS-glossary.md "Reactive hyperemia" -- near-match term (both are hyperemia subtypes), but reactive hyperemia specifically names the post-ischaemic increase-in-flow subtype (e.g. after releasing a tourniquet), while this concept tests the general active-hyperemia mechanism via a purely physiological trigger (blushing, no preceding ischaemia) -- not the same concept, per the standing near-match-confirm-before-merge rule (coverage/AUN-MPT-104-triage.md §7).
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "active hyperemia blushing" and "reactive hyperemia" -- the second query hit a pending Kasr 104-CPS-glossary term ("Reactive hyperemia"), checked and rejected as a near-match, not the same concept (see rejected_merge_candidate_ids); minted new.
+relationships: none within this cluster; a standalone hemodynamics-vocabulary concept.
+
+---
+
+# Item
+
+## id
+CON-FND-11AE7596C68944
+
+## label
+Phlebothrombosis is thrombus formation in a non-inflamed vein, typically from immobilization
+
+## canonical_key
+teaching.pathology.hemodynamics.phlebothrombosis
+
+## aliases
+Deep vein thrombosis
+Venous thrombosis in non-inflamed veins
+
+## arabic_label
+تجلط الأوردة (فليبوثرومبوزس)
+
+## arabic_aliases
+تجلط الأوردة العميقة
+
+## definition
+Phlebothrombosis is thrombus formation within a non-inflamed vein, distinguishing it from thrombophlebitis, in which the thrombus forms in a vein already inflamed. Immobilization -- for example after a fracture requiring bed rest -- is a classic precipitating factor, since venous stasis (one arm of Virchow's triad) promotes clot formation in the stagnant blood of a non-inflamed deep vein. Local swelling, warmth, pain and tenderness in the affected limb, appearing days to weeks after immobilization began, are the clinical picture that should raise phlebothrombosis (deep vein thrombosis) as the diagnosis.
+
+## explicit_objective
+Given a vignette of immobilization followed by limb swelling, warmth, pain and tenderness, identify phlebothrombosis as the underlying process, and state that it forms in non-inflamed veins with immobilization as a precipitating mechanism.
+
+## pitfalls
+Confusing phlebothrombosis (a non-inflamed vein) with thrombophlebitis (an already-inflamed vein) -- these are distinguished by whether inflammation preceded the thrombus, not by the presence of a thrombus itself, and the exam names "non-inflamed veins" specifically as phlebothrombosis's defining site.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Phlebothrombosis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-7C0F3DB1C2FE5E
+CON-FND-9968E677B951D2
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 60-year-old woman sustained fractures ... During a physical examination 3 weeks later, the physician observes swelling and warmth in the left leg, and there is local pain and tenderness in the left thigh. Which of the following processes is most likely occurring in the femoral vein? ... Phlebothrombosis" (Quiz 31 Q2); "In phlebothrombosis the thrombus is formed in: ... non inflamed veins" (Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "phlebothrombosis" -- 0 hits, new concept.
+relationships: two quiz rows (Q2/Q5) collapsed onto this one concept -- the same phlebothrombosis fact tested by clinical vignette (Q2) and by direct definition (Q5, non-inflamed veins).
+
+---
+
+# Item
+
+## id
+CON-FND-38DC299E60FE95
+
+## label
+Chronic general venous congestion is caused by right-sided heart failure
+
+## canonical_key
+teaching.pathology.hemodynamics.chronic-venous-congestion-right-heart-failure
+
+## aliases
+Chronic passive congestion
+Right heart failure and congestion
+
+## arabic_label
+الاحتقان الوريدي المزمن العام والفشل القلبي الأيمن
+
+## arabic_aliases
+قصور القلب الأيمن والاحتقان الوريدي
+
+## definition
+Chronic general (systemic) venous congestion occurs when the right side of the heart fails to pump venous return forward effectively, so blood backs up in the systemic venous system. Right-sided heart failure is the classic cause of this generalized, chronic pattern of congestion, producing findings such as hepatic and splenic congestion, dependent oedema and elevated jugular venous pressure. This is distinct from a localized cause of venous obstruction, such as compression by a tumour or an enlarged lymph node, which produces regional rather than systemic congestion.
+
+## explicit_objective
+State that chronic general (systemic) venous congestion is caused by right-sided heart failure, distinguishing it from a localized compressive cause of venous obstruction.
+
+## pitfalls
+Confusing a systemic/general pattern of chronic venous congestion (right heart failure) with a localized cause of venous obstruction (compression by a tumour or enlarged lymph node), which would produce regional, not generalized, congestion.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Chronic venous congestion
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Chronic general venous congestion is noticed in patients with: ... Right sided heart failure" (Quiz 31 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "chronic venous congestion right heart failure" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone hemodynamics-vocabulary concept.
+
+---
+
+# Item
+
+## id
+CON-FND-7C0F3DB1C2FE5E
+
+## label
+A detached non-septic venous thrombus embolises to the lung
+
+## canonical_key
+teaching.pathology.hemodynamics.venous-thrombus-embolises-to-lung
+
+## aliases
+Pulmonary embolism source
+Venous thromboembolism destination
+
+## arabic_label
+الجلطة الوريدية المنفصلة تنتقل إلى الرئة
+
+## arabic_aliases
+الانصمام الرئوي من جلطة وريدية
+
+## definition
+A thrombus that forms in the systemic venous circulation and detaches (becoming an embolus) travels with venous blood flow back to the right side of the heart and out into the pulmonary arterial circulation, lodging in the lung as a pulmonary embolus. This venous-to-pulmonary pathway is why a detached non-septic venous thrombus (as opposed to an arterial or left-heart thrombus, which would embolise systemically) specifically goes to the lung.
+
+## explicit_objective
+State that a detached non-septic venous thrombus embolises to the lung, via the venous-return pathway to the right heart and pulmonary circulation.
+
+## pitfalls
+Confusing the destination of a venous embolus (the lung, via the right heart) with that of an arterial or left-heart embolus (which travels systemically to the brain, kidney, spleen or limbs) -- the venous side of the circulation empties specifically into the pulmonary arteries.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Venous embolism pathway
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-11AE7596C68944
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Detached non septic venous thrombus goes to the: ... Lung" (Quiz 31 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "detached venous thrombus lung" -- 0 hits, new concept.
+relationships: paired with CON-FND-11AE7596C68944 (phlebothrombosis) as the lecture's venous-thromboembolism pair.
+
+---
+
+# Item
+
+## id
+CON-FND-E1D44B7FCA92D9
+
+## label
+Lines of Zahn -- alternating platelet-rich pale layers seen in an antemortem thrombus
+
+## canonical_key
+teaching.pathology.hemodynamics.lines-of-zahn
+
+## aliases
+Antemortem thrombus microscopy
+Zahn lines
+
+## arabic_label
+خطوط زان في الجلطة
+
+## arabic_aliases
+الخطوط المميزة للجلطة الحية
+
+## definition
+Lines of Zahn are alternating pale and dark bands seen grossly and microscopically within a thrombus that formed in flowing blood during life (antemortem), distinguishing a true thrombus from a postmortem clot, which lacks this layered structure. The pale bands correspond to layers of platelets (with fibrin), laid down in sequence as the thrombus builds up within the vessel, giving the platelet component its identity as the structural feature named by Lines of Zahn among the option set.
+
+## explicit_objective
+State that Lines of Zahn consist of columns/layers of platelets, and that their presence distinguishes an antemortem thrombus from a postmortem clot.
+
+## pitfalls
+Naming red blood cells, fibrin alone or white blood cells rather than platelets as the component that defines Lines of Zahn's pale layers, or forgetting that their presence (not their absence) is what indicates a thrombus formed during life.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Antemortem thrombus features
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-9968E677B951D2
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Lines of Zahn consist of: ... columns of platelets" (Quiz 31 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "lines of zahn platelets fibrin thrombus" -- 0 hits, new concept.
+relationships: paired with CON-FND-9968E677B951D2 (Virchow's triad/thrombus formation) as the lecture's other thrombus-morphology grain; also the direct pharmacology-fact evidence behind the Q7 (q251) hold, since "during life" is the defining feature of a thrombus, not a clot.
+
+---
+
+# Item
+
+## id
+CON-FND-9968E677B951D2
+
+## label
+Virchow's triad concerns the three factors predisposing to thrombus formation
+
+## canonical_key
+teaching.pathology.hemodynamics.virchows-triad-thrombus-formation
+
+## aliases
+Virchow triad
+Thrombosis risk factors
+
+## arabic_label
+ثالوث فيرشو وتكوين الجلطة
+
+## arabic_aliases
+عوامل تكوين الجلطة الدموية
+
+## definition
+Virchow's triad names the three broad categories of factors that predispose to thrombus formation: endothelial injury, stasis (or turbulence) of blood flow, and hypercoagulability of the blood. The triad is specifically about thrombus formation, not about embolus, ecchymosis or haematoma, which are separate hemodynamic entities that do not share this same three-factor causal framework.
+
+## explicit_objective
+State that Virchow's triad concerns the formation of a thrombus, not an embolus, ecchymosis or haematoma.
+
+## pitfalls
+Confusing Virchow's triad's target concept (thrombus formation) with a related but distinct hemodynamic entity such as embolus (a thrombus fragment that has already detached and travelled) or a haemorrhagic lesion (ecchymosis, haematoma), which are not what the triad's three risk factors explain.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Virchow's triad
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-E1D44B7FCA92D9
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Virchow's triad is concerned with the formation of: ... Thrombus" (Quiz 31 Q8).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "virchow triad thrombus" -- 0 hits, new concept.
+relationships: paired with CON-FND-E1D44B7FCA92D9 (Lines of Zahn) as the lecture's other thrombus-vocabulary grain; also the direct evidence behind the Q7 (q251) hold, since this question confirms "thrombus," not "clot," is this lecture's own consistently-used term for antemortem intravascular solidification.
+
+---
+
+# Item
+
+## id
+CON-FND-B7FEBDE2C2B183
+
+## label
+Esmolol is an ultra-short-acting beta blocker used for perioperative tachyarrhythmias
+
+## canonical_key
+teaching.pharmacology.esmolol.ultra-short-acting-perioperative
+
+## aliases
+Esmolol mechanism
+Perioperative beta blockade
+
+## arabic_label
+إسمولول: حاصر بيتا فائق قصر المفعول
+
+## arabic_aliases
+حاصر بيتا لعلاج اضطراب النظم بعد الجراحة
+
+## definition
+Esmolol is a cardioselective (beta1-selective) beta-adrenoceptor antagonist with an ultra-short duration of action, metabolised rapidly by plasma esterases. This short, easily-titratable action makes it the preferred beta blocker for controlling acute perioperative tachycardia and extrasystoles, such as those appearing after recovery from general anaesthesia, where a rapidly reversible drug is needed. Its brief action distinguishes it from longer-acting beta blockers, which would be harder to titrate safely in this acute perioperative setting.
+
+## explicit_objective
+State that esmolol, an ultra-short-acting beta blocker, is the preferred agent for controlling acute perioperative tachycardia and extrasystoles.
+
+## pitfalls
+Choosing a longer-acting beta blocker or a non-beta-blocking drug for acute perioperative arrhythmia control -- esmolol's specific advantage here is its ultra-short, easily-titratable duration of action, not general beta-blocking potency.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 2
+
+## subtopic
+Esmolol perioperative use
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.55
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"35 years old patient was operated for inguinal hernia ... tachycardia and extrasystoles were observed ... which drugs are helpful? ... Esmolol is special beta blocker used in this case" (Quiz 32 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 32 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "esmolol perioperative arrhythmia" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone beta-blocker-selection concept, thematically related to CON-FND-18D519B39F98A4 and CON-FND-BB97C931CB8423 as the lecture's other beta-blocker grains.
+
+---
+
+# Item
+
+## id
+CON-FND-18D519B39F98A4
+
+## label
+Propranolol masks the adrenergic warning symptoms of hypoglycemia in diabetics, rather than causing hyperglycemia
+
+## canonical_key
+teaching.pharmacology.propranolol.masks-hypoglycemia-symptoms
+
+## aliases
+Nonselective beta blocker and hypoglycemia
+Propranolol in diabetics
+
+## arabic_label
+بروبرانولول وإخفاء أعراض نقص السكر في الدم
+
+## arabic_aliases
+حاصرات بيتا ونقص السكر في الدم لدى مرضى السكري
+
+## definition
+Propranolol, a nonselective beta blocker, is used with extra caution in a diabetic patient treated with insulin, because it masks the adrenergic warning symptoms of hypoglycemia -- tachycardia, tremor and palpitations -- that would normally alert the patient to falling blood glucose. This masking effect, not a direct hyperglycemic action, is propranolol's actual metabolic concern in diabetes: the statement that propranolol "causes hyperglycemia" is false, since its real risk is concealing, and potentially prolonging recognition of, an existing hypoglycemic episode.
+
+## explicit_objective
+State that propranolol's concern in insulin-treated diabetics is masking the adrenergic symptoms of hypoglycemia, and identify "propranolol causes hyperglycemia" as a false statement about beta blockers.
+
+## pitfalls
+Believing propranolol's diabetic concern is that it directly causes hyperglycemia -- the actual, tested mechanism is that it masks the adrenergic warning symptoms of hypoglycemia, which is a different and more dangerous problem (delayed recognition of low blood sugar), not elevated blood sugar itself.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 2
+
+## subtopic
+Beta blockers and hypoglycemia masking
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-BB97C931CB8423
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In a hypertensive patient who is treated with insulin for diabetes mellitus, which of the following drugs is to be used with extra caution as it masks manifestations of hypoglycemia? ... Propranolol" (Quiz 32 Q2); "One of the following statements is FALSE regarding Beta-blockers: ... Propranolol is contraindicated in diabetics as it causes hyperglycemia [marked FALSE]" (Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 32 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "propranolol masks hypoglycemia symptoms" -- 0 hits, new concept.
+relationships: two quiz rows (Q2/Q3) collapsed onto this one concept -- the same propranolol-and-diabetes fact tested by direct recall (Q2) and by identifying the false statement (Q3).
+
+---
+
+# Item
+
+## id
+CON-FND-BB97C931CB8423
+
+## label
+Acebutolol is beta1-selective with intrinsic sympathomimetic activity and membrane-stabilizing property, and its ISA can worsen exertional angina
+
+## canonical_key
+teaching.pharmacology.acebutolol.beta1-selective-isa-membrane-stabilizing
+
+## aliases
+Acebutolol properties
+Intrinsic sympathomimetic activity and angina
+
+## arabic_label
+أسيبوتولول: انتقائية بيتا 1 ونشاط ودي جزئي
+
+## arabic_aliases
+النشاط الودي الذاتي للأسيبوتولول وتأثيره على الذبحة الصدرية
+
+## definition
+Acebutolol is a beta blocker combining three properties: beta1 selectivity (cardioselectivity), intrinsic sympathomimetic activity (ISA, meaning it is a partial agonist that provides some low-level receptor stimulation even while blocking the receptor), and a membrane-stabilizing (local anaesthetic-like) property. Because ISA means acebutolol does not fully suppress beta-receptor activity the way a pure antagonist does, it can worsen exertional angina pectoris in a patient who needs the heart-rate- and workload-lowering effect of full beta blockade during exercise, since the partial agonism blunts that protective reduction.
+
+## explicit_objective
+Identify acebutolol as the beta1-selective blocker with intrinsic sympathomimetic activity and membrane-stabilizing property, and state that its ISA can worsen exertional angina by blunting the full heart-rate-lowering effect of beta blockade.
+
+## pitfalls
+Assuming intrinsic sympathomimetic activity is simply a neutral or beneficial extra property -- in a patient with exertional angina, ISA specifically works against the therapeutic goal of beta blockade by providing partial agonist stimulation instead of full blockade during exercise.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 2
+
+## subtopic
+Acebutolol properties and ISA
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-18D519B39F98A4
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The beta adrenergic blocker having BETA 1 selectivity, intrinsic sympathomimetic activity and membrane stabilizing property is: ... Acebutolol" (Quiz 32 Q4); "Which of the following beta-blockers would be most likely to worsen exertional angina pectoris because of its intrinsic sympathomimetic activity? ... Acebutolol" (Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 32 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "acebutolol intrinsic sympathomimetic activity membrane stabilizing" -- 0 hits, new concept.
+relationships: two quiz rows (Q4/Q5) collapsed onto this one concept -- acebutolol's identifying property profile (Q4) and the clinical consequence of its ISA component (Q5).
+
+---
+
+# Item
+
+## id
+CON-FND-EF6008CE1515E5
+
+## label
+A leg-vein deep vein thrombosis embolises as pulmonary thromboembolism
+
+## canonical_key
+teaching.pathology.hemodynamics.dvt-leg-vein-source-of-pulmonary-embolism
+
+## aliases
+DVT complication
+Leg vein thrombus source of PE
+
+## arabic_label
+جلطة أوردة الساق ومصدر الانصمام الرئوي
+
+## arabic_aliases
+تجلط الأوردة العميقة ومصدر الانصمام الرئوي
+
+## definition
+Deep vein thrombosis of the leg veins is the most important source of pulmonary thromboembolism: a thrombus forming in the stagnant blood of an immobilized limb can detach and travel via venous return to lodge in the pulmonary arteries. A patient who develops leg-vein DVT weeks after a major fracture, with continued immobilization, is therefore at risk of pulmonary thromboembolism as the expected downstream complication, and leg veins are the site of thrombi most often implicated as the source of a pulmonary embolus.
+
+## explicit_objective
+State that leg-vein deep vein thrombosis is the classic source of pulmonary thromboembolism, and identify pulmonary thromboembolism as the expected complication of an immobilized, fracture-related DVT.
+
+## pitfalls
+Naming a site other than leg veins (e.g. the aorta, an artery, or the left ventricle) as the classic source of thrombi causing pulmonary embolism -- only a VENOUS thrombus (most often leg veins) embolises to the lung via the right heart.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+DVT as source of pulmonary embolism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-11AE7596C68944
+CON-FND-9175888AAAC2F0
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"76-year-old woman is hospitalized after falling and fracturing her left femoral trochanter. Two weeks later, the left leg is swollen ... Which of the following complications is most likely to occur after these events? ... Pulmonary thromboembolism" (Quiz 33 Q1); "which of the following sites of thrombi can be the source pulmonary embolism? ... Leg veins" (Q15).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "chronic venous congestion right heart failure" and related embolism queries -- 0 hits, new concept.
+relationships: two quiz rows (Q1/Q15) collapsed onto this one concept -- the same leg-vein-DVT-to-PE fact tested by clinical vignette (Q1) and by direct site recall (Q15); related to Lecture 31's CON-FND-11AE7596C68944 (phlebothrombosis) and CON-FND-7C0F3DB1C2FE5E (venous thrombus embolises to lung).
+
+---
+
+# Item
+
+## id
+CON-FND-9175888AAAC2F0
+
+## label
+Immobilization causes deep vein thrombosis through venous stasis
+
+## canonical_key
+teaching.pathology.hemodynamics.immobilization-dvt-stasis-mechanism
+
+## aliases
+Venous stasis and DVT
+Immobilization thrombosis risk
+
+## arabic_label
+عدم الحركة وتجلط الأوردة العميقة
+
+## arabic_aliases
+الركود الوريدي وتجلط الأوردة
+
+## definition
+Immobilization is a classic mechanism for deep vein thrombosis because it produces venous stasis -- stagnant, slow-moving blood in the leg veins -- one of the three arms of Virchow's triad predisposing to thrombus formation. A patient with a swollen, difficult-to-move leg after a period of immobility, confirmed by venogram to have deep leg-vein thrombosis, has this stasis mechanism as the most likely explanation, rather than a coagulation-factor or vessel-wall-injury mechanism specifically.
+
+## explicit_objective
+State that immobilization causes deep vein thrombosis through the mechanism of venous stasis, one arm of Virchow's triad.
+
+## pitfalls
+Attributing an immobilization-related DVT to turbulent flow, hypercalcemia or a drug effect instead of venous stasis -- immobilization's specific mechanism is stagnant, slow blood flow, not vessel injury or a hypercoagulable trigger.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+DVT mechanism (stasis)
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-EF6008CE1515E5
+CON-FND-9968E677B951D2
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 55-year-old woman has had discomfort and swelling of the left leg for the past week ... A venogram shows thrombosis of deep left leg veins. Which of the following mechanisms is most likely to cause this condition? ... Immobilization" (Quiz 33 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "immobilization DVT stasis Virchow" -- 0 hits, new concept.
+relationships: paired with CON-FND-EF6008CE1515E5 (leg-vein DVT as PE source) as the lecture's DVT-mechanism-and-complication pair; also related to Lecture 31's CON-FND-9968E677B951D2 (Virchow's triad).
+
+---
+
+# Item
+
+## id
+CON-FND-AA58C1D1394257
+
+## label
+An embolus is a detached intravascular mass carried by the blood to a distant site
+
+## canonical_key
+teaching.pathology.hemodynamics.embolus-definition
+
+## aliases
+Embolism vocabulary
+Definition of embolus
+
+## arabic_label
+تعريف الصمة (الإمبولوس)
+
+## arabic_aliases
+الكتلة المنفصلة داخل الأوعية الدموية
+
+## definition
+An embolus is a detached intravascular mass -- solid, liquid or gaseous -- carried by the bloodstream from its point of origin to a distant site, where it lodges and can obstruct flow. This is distinct from an infarct (the area of tissue necrosis that can result once an embolus obstructs a vessel), a thrombus (the mass before it detaches and starts travelling), and a clot (coagulated blood without this in-vessel, during-life, travelling character).
+
+## explicit_objective
+State that an embolus is a detached intravascular mass carried by the blood to a distant site, distinguishing it from an infarct, a thrombus and a clot.
+
+## pitfalls
+Confusing embolus (the travelling mass) with infarct (the resulting area of necrosis), thrombus (the mass before detachment) or clot (a non-thrombus coagulum) -- these are four distinct hemodynamic-pathology terms often confused with one another.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Embolism vocabulary
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A detached intravascular mass carried by the blood from its point of origin to a distant site is called: ... Embolus" (Quiz 33 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "embolus definition detached intravascular mass" -- 0 hits, new concept.
+relationships: the lecture's core vocabulary concept, related to every other embolism/infarction grain in this cluster.
+
+---
+
+# Item
+
+## id
+CON-FND-2048DC4715C0DE
+
+## label
+A neck vein injury can cause air embolism
+
+## canonical_key
+teaching.pathology.hemodynamics.air-embolism-neck-vein-injury
+
+## aliases
+Venous air embolism
+Air embolism mechanism
+
+## arabic_label
+الانصمام الهوائي وإصابة وريد الرقبة
+
+## arabic_aliases
+انصمام هوائي بعد جرح وريدي بالرقبة
+
+## definition
+An open, low-pressure venous injury near the heart -- such as a stab wound to a neck vein -- allows atmospheric air to be drawn into the venous circulation during inspiration, producing an air embolism. This is the specific hemodynamic risk of a neck vein injury, distinct from the thrombotic, fat or tumour emboli that arise from other clinical settings.
+
+## explicit_objective
+State that a neck vein stab wound carries a specific risk of air embolism, given the low venous pressure and proximity to the heart.
+
+## pitfalls
+Assuming any vascular injury carries the same embolism risk profile -- a neck vein injury's specific danger is air embolism (from atmospheric air entrainment), not fat, tumour or ordinary thrombotic emboli, which arise from different clinical settings (fracture, malignancy, DVT respectively).
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Air embolism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient admits to the emergency unit after a neck vein stabbing wound. What type of emboli would you most suspect to occur in this patient? ... Air emboli" (Quiz 33 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "air embolism neck vein" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone embolism-type concept, paired thematically with CON-FND-D8BF76229CC959 (fat embolism) and CON-FND-E6A4425324881A (most frequent embolism type) as the lecture's embolism-type triad.
+
+---
+
+# Item
+
+## id
+CON-FND-456F4BFCEAFBD8
+
+## label
+Red (hemorrhagic) infarcts occur in organs with a dual blood supply, such as the lung
+
+## canonical_key
+teaching.pathology.hemodynamics.red-infarct-dual-blood-supply
+
+## aliases
+Hemorrhagic infarct
+Dual blood supply and infarct colour
+
+## arabic_label
+الاحتشاء الأحمر (النزفي) في الأعضاء ذات الإمداد الدموي المزدوج
+
+## arabic_aliases
+الرئة كمثال على الاحتشاء الأحمر
+
+## definition
+A red (hemorrhagic) infarct occurs when blood re-enters the necrotic area, typically in an organ with a dual or collateral blood supply -- the lung, supplied by both pulmonary and bronchial arteries, is the standard example. This contrasts with a pale (anaemic) infarct, which occurs in a solid organ with a single, end-arterial blood supply (kidney, heart, spleen), where no second source of blood re-enters the necrotic zone.
+
+## explicit_objective
+State that red infarcts occur in dual-blood-supply organs such as the lung, distinguishing them from pale infarcts in single-blood-supply solid organs.
+
+## pitfalls
+Naming a single-blood-supply organ (kidney, heart) as the site of a red infarct, or a dual-blood-supply organ (lung) as the site of a pale infarct -- the colour of an infarct tracks the organ's vascular supply pattern.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Red vs pale infarct
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-FA99A919A9BB4E
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A red infarction is seen in: ... lung" (Quiz 33 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "red infarct dual blood supply lung" -- 0 hits, new concept.
+relationships: paired with CON-FND-FA99A919A9BB4E (pale infarct in solid organs) as the lecture's infarct-colour pair.
+
+---
+
+# Item
+
+## id
+CON-FND-3DC23DAEB405BC
+
+## label
+Cerebral infarction undergoes liquefactive necrosis
+
+## canonical_key
+teaching.pathology.hemodynamics.cerebral-infarction-liquefactive-necrosis
+
+## aliases
+Brain infarct necrosis type
+Cerebral infarction pathology
+
+## arabic_label
+احتشاء المخ والتنخر التميعي
+
+## arabic_aliases
+النخر التميعي في احتشاء الدماغ
+
+## definition
+Cerebral infarction, unlike infarction in most other organs, undergoes liquefactive necrosis rather than coagulative necrosis. The brain's high lipid content and lack of a firm connective-tissue stroma mean that dead neural tissue is digested by its own and infiltrating enzymes into a soft, liquefied cavity, rather than retaining the firm, cell-outline-preserved architecture typical of a coagulative infarct elsewhere.
+
+## explicit_objective
+State that cerebral infarction undergoes liquefactive, not coagulative, necrosis, given the brain's lipid-rich composition and lack of supportive stroma.
+
+## pitfalls
+Applying the general "solid-organ infarcts undergo coagulative necrosis" rule to the brain -- cerebral infarction is the standard, specifically-tested exception, undergoing liquefactive necrosis instead.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Cerebral infarction necrosis type
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-7B4DA968F5BE76
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Cerebral infarction is: ... liquifactive necrosis" (Quiz 33 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "cerebral infarction liquefactive necrosis" -- 0 hits, new concept.
+relationships: paired with CON-FND-7B4DA968F5BE76 (coagulative necrosis in solid-organ infarcts) as the deliberate exception/rule pair of this lecture's necrosis-type teaching.
+
+---
+
+# Item
+
+## id
+CON-FND-D8BF76229CC959
+
+## label
+Fat embolism originates from bone fracture
+
+## canonical_key
+teaching.pathology.hemodynamics.fat-embolism-bone-fracture-origin
+
+## aliases
+Fat embolism source
+Bone fracture embolism risk
+
+## arabic_label
+الانصمام الدهني ومصدره من كسر العظام
+
+## arabic_aliases
+كسر العظام كمصدر للانصمام الدهني
+
+## definition
+Fat embolism arises when marrow fat is released into the venous circulation, most commonly from a long-bone fracture, where disrupted marrow fat globules enter torn venules at the fracture site. This is the standard clinical origin of fat embolism, distinct from the origins of other embolus types -- pregnancy (amniotic fluid), congestive heart failure or a detached thrombus (thromboembolism).
+
+## explicit_objective
+State that bone fracture is the classic origin of fat embolism, among pregnancy, congestive heart failure and detached thrombi as alternative embolus sources.
+
+## pitfalls
+Confusing fat embolism's origin (bone fracture, marrow fat) with amniotic fluid embolism's origin (pregnancy/delivery) or ordinary thromboembolism's origin (a detached thrombus) -- each embolus type has a distinct clinical trigger.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Fat embolism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-2048DC4715C0DE
+CON-FND-E6A4425324881A
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Fat embolism can originate from: ... bone fracture" (Quiz 33 Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "fat embolism bone fracture origin" -- 0 hits, new concept.
+relationships: part of the lecture's embolism-type triad with CON-FND-2048DC4715C0DE (air embolism) and CON-FND-E6A4425324881A (most frequent embolism type, thromboembolism, distinguishing frequency from fat embolism's specific fracture-associated origin).
+
+---
+
+# Item
+
+## id
+CON-FND-F1AE9BB7549A71
+
+## label
+Infarction results from acute ischaemia in the presence of poor collateral circulation
+
+## canonical_key
+teaching.pathology.hemodynamics.infarction-requires-poor-collateral-circulation
+
+## aliases
+Infarction mechanism
+Collateral circulation and infarction
+
+## arabic_label
+الاحتشاء ونقص التروية الحاد مع ضعف الدوران الجانبي
+
+## arabic_aliases
+الدوران الجانبي وحدوث الاحتشاء
+
+## definition
+Infarction (tissue death from vascular occlusion) results specifically from acute ischaemia occurring in the presence of poor collateral circulation, since good collateral supply can maintain enough perfusion to prevent necrosis despite the primary vessel's occlusion. Gradual ischaemia, by contrast, allows time for collateral vessels to develop, which is why sudden (acute) occlusion combined with poor collaterals -- not gradual occlusion or occlusion with good collaterals -- is what produces infarction.
+
+## explicit_objective
+State that infarction results from acute ischaemia specifically when collateral circulation is poor, distinguishing this from gradual ischaemia or ischaemia with good collateral supply, neither of which typically produces infarction.
+
+## pitfalls
+Assuming any acute ischaemia produces infarction regardless of collateral status, or that gradual ischaemia is equally likely to cause infarction -- the specific combination tested is acute onset PLUS poor collaterals.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Infarction mechanism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-FA99A919A9BB4E
+CON-FND-C6E88AC53F7F2B
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Infarction is due to: ... acute ischaemia in presence of poor collateral circulation" (Quiz 33 Q8).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "poor collateral circulation infarction" -- 0 hits, new concept.
+relationships: related to CON-FND-FA99A919A9BB4E (pale infarct in solid organs, which typically have poor collateral supply) and CON-FND-C6E88AC53F7F2B (ischaemia's own causes) as the lecture's infarction-mechanism cluster.
+
+---
+
+# Item
+
+## id
+CON-FND-FA99A919A9BB4E
+
+## label
+Pale (anaemic) infarcts occur in solid organs with a single blood supply, such as kidney and heart
+
+## canonical_key
+teaching.pathology.hemodynamics.pale-infarct-solid-organ-single-blood-supply
+
+## aliases
+Anaemic infarct
+Solid organ infarct colour
+
+## arabic_label
+الاحتشاء الشاحب (فقر الدم) في الأعضاء الصلبة ذات الإمداد الدموي الأحادي
+
+## arabic_aliases
+الكلية والقلب كمثال على الاحتشاء الشاحب
+
+## definition
+A pale (anaemic) infarct occurs in a solid organ supplied by a single, end-arterial blood supply -- the kidney and the heart are the standard examples -- so that arterial occlusion cuts off blood entirely, with no second source re-entering the necrotic zone to give it a red, hemorrhagic appearance. This is the counterpart to a red (hemorrhagic) infarct, which occurs in an organ such as the lung with a dual blood supply.
+
+## explicit_objective
+State that pale infarcts occur in solid, single-blood-supply organs such as the kidney and heart, following arterial occlusion.
+
+## pitfalls
+Naming a dual-blood-supply organ (lung) as the site of a pale infarct, or a single-blood-supply solid organ (kidney, heart) as the site of a red infarct -- infarct colour tracks whether a second blood source can re-perfuse the necrotic area.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Red vs pale infarct
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-456F4BFCEAFBD8
+CON-FND-F1AE9BB7549A71
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Infarcts occurs due to of arterial occlusion in solid organs such as the kidneys and heart are: ... Pale" (Quiz 33 Q9).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "pale infarct solid organ kidney heart" -- 0 hits, new concept.
+relationships: paired with CON-FND-456F4BFCEAFBD8 (red infarct) as the infarct-colour pair; related to CON-FND-F1AE9BB7549A71 (infarction mechanism).
+
+---
+
+# Item
+
+## id
+CON-FND-C6E88AC53F7F2B
+
+## label
+Ischaemia results from arterial obstruction
+
+## canonical_key
+teaching.pathology.hemodynamics.ischaemia-from-arterial-obstruction
+
+## aliases
+Ischaemia causes
+Arterial obstruction and ischaemia
+
+## arabic_label
+نقص التروية والانسداد الشرياني
+
+## arabic_aliases
+انسداد الشريان كسبب لنقص التروية
+
+## definition
+Ischaemia -- inadequate blood supply to a tissue -- most directly results from arterial obstruction, which cuts off the arterial inflow a tissue depends on. Capillary damage and venous obstruction can also compromise tissue perfusion in other ways, but arterial obstruction is the direct, standard mechanism tested for producing ischaemia, since it removes the tissue's arterial supply at its source.
+
+## explicit_objective
+State that arterial obstruction is the direct cause of ischaemia, among capillary damage, chronic venous congestion and venous obstruction as related but distinct mechanisms.
+
+## pitfalls
+Confusing ischaemia's arterial-obstruction mechanism with venous obstruction or chronic venous congestion, which primarily impair drainage rather than arterial inflow -- ischaemia specifically names inadequate arterial supply.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Ischaemia causes
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-F1AE9BB7549A71
+CON-FND-E4AEBC2AA036D4
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Ischaemia can result from: ... arterial obstruction" (Quiz 33 Q10).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ischaemia arterial obstruction causes" -- 0 hits, new concept.
+relationships: related to CON-FND-F1AE9BB7549A71 (infarction mechanism, which follows ischaemia) and CON-FND-E4AEBC2AA036D4 (atherosclerosis, the commonest cause of chronic ischaemia specifically).
+
+---
+
+# Item
+
+## id
+CON-FND-7B4DA968F5BE76
+
+## label
+Solid-organ infarcts undergo coagulative necrosis
+
+## canonical_key
+teaching.pathology.hemodynamics.coagulative-necrosis-solid-organ-infarct
+
+## aliases
+Coagulative necrosis pattern
+Infarct necrosis type
+
+## arabic_label
+النخر التخثري في احتشاء الأعضاء الصلبة
+
+## arabic_aliases
+نمط النخر في الكلية والطحال
+
+## definition
+Infarcts in solid organs -- the kidney and spleen are standard examples -- undergo coagulative necrosis, in which the cells die but their basic outline and tissue architecture are preserved for some days, because intracellular proteins denature and resist proteolysis before eventually being cleared by inflammatory cells. A pyramidal, pale, wedge-shaped renal lesion with preserved cell outlines but lost cellular detail, or a tan-to-white wedge-shaped splenic lesion with its base on the capsule (as seen in a septic-embolus-related splenic infarct), are both classic coagulative-necrosis pictures.
+
+## explicit_objective
+Identify a pale, wedge-shaped lesion with preserved cell outlines but lost cellular detail, in a solid organ such as the kidney or spleen, as coagulative necrosis.
+
+## pitfalls
+Confusing coagulative necrosis (architecture preserved, cell outlines intact) with liquefactive necrosis (tissue liquefies, architecture lost) -- solid organs such as kidney and spleen classically show coagulative necrosis on infarction, in contrast to the brain's liquefactive pattern.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Coagulative necrosis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-3DC23DAEB405BC
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Microscopic examination of tissue taken from pyramidal shape pale lesion of the kidney showed that the outline of the cells still present but cellular details are lost. Which of the following pathologic conditions most likely present? ... Coagulative necrosis" (Quiz 33 Q11); "The spleen of a 26 year old male who died from complications of subacute bacterial endocarditis is seen at autopsy. On sectioning reveals a tan to white, wedge-shaped lesion with base on the capsule. This finding most likely represents the result of: ... Coagulative necrosis" (Q14).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "coagulative necrosis kidney spleen infarct" -- 0 hits, new concept.
+relationships: two quiz rows (Q11/Q14) collapsed onto this one concept -- the identical coagulative-necrosis fact tested in two solid organs (kidney and spleen); paired with CON-FND-3DC23DAEB405BC (cerebral/liquefactive necrosis) as the module's deliberate rule/exception necrosis-type pair.
+
+---
+
+# Item
+
+## id
+CON-FND-E4AEBC2AA036D4
+
+## label
+Atherosclerosis is the commonest cause of chronic ischaemia
+
+## canonical_key
+teaching.pathology.hemodynamics.atherosclerosis-commonest-chronic-ischaemia-cause
+
+## aliases
+Chronic ischaemia etiology
+Atherosclerosis and ischaemia
+
+## arabic_label
+تصلب الشرايين كأشيع سبب لنقص التروية المزمن
+
+## arabic_aliases
+السبب الأشيع لنقص التروية المزمن
+
+## definition
+Atherosclerosis -- progressive narrowing of arteries by lipid-laden plaque -- is the commonest cause of chronic ischaemia, gradually reducing arterial luminal calibre over years and limiting blood flow to the tissue it supplies. This gradual, atherosclerotic narrowing contrasts with an acute cause of vascular compromise such as surgical ligation, infection, or spasmodic vascular disease, which are less common causes overall of chronic (as opposed to acute) ischaemia.
+
+## explicit_objective
+State that atherosclerosis is the commonest cause of chronic ischaemia, among surgical ligation, infection and spasmodic vascular disease as less common alternatives.
+
+## pitfalls
+Naming an acute or uncommon cause (surgical ligation, infection, vascular spasm) as the commonest cause of chronic ischaemia, rather than recognising atherosclerosis's gradual, progressive narrowing as the dominant, population-level cause.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Chronic ischaemia etiology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-C6E88AC53F7F2B
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The commonest cause of chronic ischaemia is: ... Atherosclerosis" (Quiz 33 Q12).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "atherosclerosis chronic ischemia common cause" -- 0 hits, new concept.
+relationships: paired with CON-FND-C6E88AC53F7F2B (ischaemia's own arterial-obstruction cause) as the lecture's ischaemia-etiology pair.
+
+---
+
+# Item
+
+## id
+CON-FND-E6A4425324881A
+
+## label
+Detached thrombi (thromboembolism) are the most frequent type of embolism
+
+## canonical_key
+teaching.pathology.hemodynamics.thromboembolism-most-frequent-embolism-type
+
+## aliases
+Thromboembolism frequency
+Commonest embolus type
+
+## arabic_label
+الانصمام الخثاري كأشيع نوع للانصمام
+
+## arabic_aliases
+الجلطة المنفصلة كأشيع سبب للانصمام
+
+## definition
+Among the recognised embolus types -- fat, malignant/tumour cells, air and detached thrombi -- detached thrombi (thromboembolism) are the most frequent, since deep vein thrombosis and cardiac mural thrombi are common clinical events that regularly source emboli, compared with the less common triggers behind fat, tumour or air embolism.
+
+## explicit_objective
+State that detached thrombi (thromboembolism) are the most frequent type of embolism, among fat, malignant-cell and air emboli as less common alternatives.
+
+## pitfalls
+Assuming fat embolism (from bone fracture) is the most frequent embolus type because it is a well-known named entity -- by overall frequency, ordinary thromboembolism from a detached thrombus is far more common than fat, tumour or air embolism.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Embolism frequency
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-D8BF76229CC959
+CON-FND-2048DC4715C0DE
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The most frequent type of embolism is produced by: ... detached thrombi" (Quiz 33 Q13).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "detached thrombi most frequent embolism" -- 0 hits, new concept.
+relationships: completes the lecture's embolism-type triad with CON-FND-D8BF76229CC959 (fat embolism) and CON-FND-2048DC4715C0DE (air embolism), distinguishing overall frequency from the specific-origin facts of the other two.
+
+---
+
+# Item
+
+## id
+CON-FND-39051880D8AFFB
+
+## label
+5HT2 receptor blockers counteract the bronchoconstriction and diarrhea of carcinoid syndrome
+
+## canonical_key
+teaching.pharmacology.serotonin.5ht2-blockade-carcinoid
+
+## aliases
+Carcinoid syndrome pharmacology
+Serotonin receptor antagonism in carcinoid
+
+## arabic_label
+حاصرات مستقبلات السيروتونين 5HT2 والمتلازمة السرطاوية
+
+## arabic_aliases
+علاج أعراض المتلازمة السرطاوية بحصار 5HT2
+
+## definition
+Carcinoid tumours secrete excess serotonin (5-HT), producing bronchoconstriction and diarrhea through serotonin's action at 5HT2 receptors. A 5HT2 receptor blocker (such as ketanserin) counteracts these specific symptoms by antagonising serotonin at that receptor, distinguishing this drug class from other serotonin-pathway agents such as buspirone (a 5HT1A partial agonist used for anxiety), sumatriptan (a 5HT1 agonist for migraine) and ondansetron (a 5HT3 antagonist used as an antiemetic, not for migraine).
+
+## explicit_objective
+State that a 5HT2 receptor blocker counteracts carcinoid syndrome's bronchoconstriction and diarrhea, distinguishing this correct statement from incorrect claims about buspirone, sumatriptan and ondansetron's serotonin-receptor actions.
+
+## pitfalls
+Confusing 5HT2 blockade's carcinoid application with unrelated serotonin-receptor drugs and their actual uses: buspirone is a 5HT1A partial agonist for anxiety (not psychosis, not 5HT2a), sumatriptan is a 5HT1 agonist for migraine (not an antiemetic, not a 5HT3 blocker), and ondansetron is a 5HT3 antagonist used as an antiemetic (not for migraine, and it blocks rather than activates 5HT3).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 1
+
+## subtopic
+Serotonin receptor pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which one of the following statements regarding drug effects on serotonin receptor systems is accurate? ... 5HT2 receptor blockers counteract bronchoconstriction and diarrhea of carcinoid." (Quiz 34 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 34 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "5HT2 receptor blocker carcinoid bronchoconstriction diarrhea" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone autacoid/serotonin-pharmacology concept, opening the lecture's autacoids topic.
+
+---
+
+# Item
+
+## id
+CON-FND-EB9C944D139E7A
+
+## label
+Cimetidine inhibits phenytoin metabolism, raising phenytoin's half-life
+
+## canonical_key
+teaching.pharmacology.cimetidine.cyp-inhibition-raises-phenytoin-half-life
+
+## aliases
+Cimetidine drug interaction
+CYP450 inhibition and phenytoin
+
+## arabic_label
+سيميتيدين وتفاعله الدوائي مع الفينيتوين
+
+## arabic_aliases
+تثبيط إنزيمات الكبد وزيادة نصف عمر الفينيتوين
+
+## definition
+Cimetidine is a cytochrome P450 (CYP450) enzyme inhibitor. In a patient taking phenytoin, an anticonvulsant metabolised by CYP450, co-administered cimetidine inhibits that metabolism, so phenytoin is cleared more slowly and its half-life increases -- raising the risk of phenytoin toxicity if the dose is not adjusted. This CYP-inhibitor property is the same mechanism by which cimetidine interacts with other CYP450-metabolised drugs.
+
+## explicit_objective
+State that cimetidine, as a CYP450 inhibitor, increases phenytoin's half-life when the two drugs are co-administered, raising phenytoin toxicity risk.
+
+## pitfalls
+Confusing cimetidine's CYP-inhibitor action (raising, not lowering, another drug's half-life and increasing toxicity risk) with a CYP-inducer's opposite effect -- cimetidine specifically slows, not speeds, phenytoin's clearance.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 1
+
+## subtopic
+Drug interactions via CYP450
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The widely used anticonvulsant phenytoin is often implicated in drug interactions. If phenytoin is used by a patient taking cimetidine for a GI ulcer, which one of the following is likely to occur? ... increase half-life of phenytoin" (Quiz 34 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 34 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "phenytoin cimetidine CYP inhibitor half life" -- 0 hits, new concept.
+relationships: related in theme (cimetidine's CYP-inhibitor property) to the final-2022 triage's unauthored Q3 (cimetidine and oral-contraceptive effectiveness), a different specific drug interaction sharing the same underlying CYP-inhibition mechanism -- not the same concept, linked only by mechanism, not merged.
+
+---
+
+# Item
+
+## id
+CON-FND-7BC222629BD73F
+
+## label
+Ondansetron is the drug of choice for cisplatin-induced chemotherapy nausea
+
+## canonical_key
+teaching.pharmacology.ondansetron.cisplatin-induced-nausea
+
+## aliases
+5HT3 antagonist antiemetic
+Chemotherapy-induced nausea treatment
+
+## arabic_label
+أوندانسيترون لعلاج الغثيان الناتج عن العلاج الكيميائي بالسيسبلاتين
+
+## arabic_aliases
+مضاد مستقبلات 5HT3 لعلاج غثيان العلاج الكيميائي
+
+## definition
+Ondansetron is a selective 5HT3 (serotonin) receptor antagonist, and is the preferred drug for severe nausea associated with highly emetogenic chemotherapy such as cisplatin. Cisplatin triggers nausea largely through serotonin release acting on 5HT3 receptors in the gut and chemoreceptor trigger zone, so blocking this receptor with ondansetron is the targeted, standard approach, distinguishing it from other antiemetic or antihistamine agents used for different types of nausea.
+
+## explicit_objective
+State that ondansetron, a 5HT3 receptor antagonist, is the preferred drug for cisplatin-induced (chemotherapy) nausea.
+
+## pitfalls
+Choosing a general antihistamine or anticholinergic antiemetic (e.g. cimetidine, scopolamine, cyclizine) for cisplatin-induced nausea instead of a 5HT3-receptor-targeted agent like ondansetron, which is specifically effective against the serotonin-mediated mechanism of highly emetogenic chemotherapy.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 1
+
+## subtopic
+5HT3 antagonist antiemetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.55
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient undergoing chemotherapy with cisplatin has severe nausea. Which of the following would be the drug to use in this patient? ... Ondansetron" (Quiz 34 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 34 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ondansetron cisplatin chemotherapy nausea" -- 0 hits, new concept.
+relationships: tests the same underlying fact as the still-unauthored final-2022 triage row "Q24 ondansetron for chemotherapy-induced nausea" (see coverage/AUN-MPT-104-triage.md, Remaining list) -- future authoring of that final-exam row should reuse this concept id rather than re-mint, since both test the identical ondansetron/cisplatin fact.
+
+---
+
+# Item
+
+## id
+CON-FND-D97F86DAF65FA2
+
+## label
+Ranitidine blocks histamine binding to parietal-cell H2 receptors
+
+## canonical_key
+teaching.pharmacology.ranitidine.h2-receptor-blockade-parietal-cells
+
+## aliases
+H2 receptor antagonist mechanism
+Ranitidine mechanism
+
+## arabic_label
+رانيتيدين وحصار مستقبلات H2 في الخلايا الجدارية
+
+## arabic_aliases
+آلية عمل رانيتيدين كحاصر H2
+
+## definition
+Ranitidine is a histamine H2-receptor antagonist. It works by blocking histamine binding to H2 receptors on gastric parietal cells, which reduces the histamine-driven stimulation of acid secretion. This mechanism -- blocking histamine's own receptor, not gastrin binding, prostaglandin receptors, or the H+/K+-ATPase pump directly -- is what distinguishes an H2 blocker like ranitidine from a proton pump inhibitor, which acts on the H+/K+-ATPase itself.
+
+## explicit_objective
+State that ranitidine reduces gastric acid secretion by blocking histamine binding to H2 receptors on parietal cells, distinguishing this mechanism from gastrin-receptor blockade, prostaglandin-receptor blockade, or direct H+/K+-ATPase inhibition.
+
+## pitfalls
+Confusing an H2-receptor antagonist's mechanism (blocking histamine at its receptor) with a proton pump inhibitor's mechanism (blocking the H+/K+-ATPase pump directly) -- ranitidine acts one step upstream of the pump, at the histamine receptor.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 1
+
+## subtopic
+H2 receptor antagonists
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Ranitidine inhibits which of the following: ... Histamine binding to parietal cells" (Quiz 34 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 34 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ranitidine H2 histamine parietal cell" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone autacoid/histamine-pharmacology mechanism concept.
+
+---
+
+# Item
+
+## id
+CON-FND-F0A43C29DC304E
+
+## label
+Diphenhydramine, a sedating antihistamine, can significantly impair a driver's ability to drive
+
+## canonical_key
+teaching.pharmacology.diphenhydramine.sedation-impairs-driving
+
+## aliases
+First-generation antihistamine sedation
+Sedating antihistamine and driving
+
+## arabic_label
+ديفينهيدرامين وتأثيره المهدئ على القيادة
+
+## arabic_aliases
+مضادات الهيستامين المسببة للنعاس وتأثيرها على القيادة
+
+## definition
+Diphenhydramine is a first-generation antihistamine that readily crosses the blood-brain barrier and produces significant CNS sedation, unlike a second-generation antihistamine such as loratadine or fexofenadine. In a patient who needs to remain alert -- such as a long-distance truck driver with allergic rhinitis -- diphenhydramine is the drug among typical options that could significantly impair the ability to drive, due to this sedating property.
+
+## explicit_objective
+Identify diphenhydramine, among antihistamine and other options, as the drug that could significantly impair a driver's ability to drive, due to its first-generation, sedating profile.
+
+## pitfalls
+Assuming all antihistamines are equally sedating -- second-generation agents (loratadine, fexofenadine) are specifically designed to minimise CNS penetration and sedation, unlike first-generation diphenhydramine.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 1
+
+## subtopic
+Antihistamine sedation profile
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"You see a 43-year-old man long-distance truck driver in the clinic who complains of serious allergic rhinitis. Which one of the following drugs could signiﬁcantly impair his ability to drive? ... Diphenhydramine." (Quiz 34 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 34 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "sedating antihistamine impairs driving" -- 0 hits, new concept.
+relationships: this quiz's own correctly-keyed answer (diphenhydramine impairs driving) is the direct pharmacology-fact evidence behind the Q1 (q278) hold, where the printed key wrongly names a sedating antihistamine (meclizine) as appropriate for a patient needing to stay alert.

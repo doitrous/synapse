@@ -3980,3 +3980,2945 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "cri du chat" -- returned a pending Ain Shams question (ASU-MBG-chromosomal-aberrations-mcq.md, "Cri du chat syndrome results from which structural aberration?") testing the same fact from a different university's bank; no live/pending concept record exists for the underlying fact itself (only another university's question), so this concept is minted new rather than reused, university-blind per the id-mint rule -- flagged for a future cross-lane check once that ASU question's own concept linkage is known.
+
+
+---
+
+# Item
+
+## id
+CON-NEU-E98BD7E9D4CC9A
+
+## label
+There are 31 pairs of spinal nerves, one pair per spinal cord segment (8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal)
+
+## canonical_key
+neuroanatomy.spinal-nerves.count
+
+## aliases
+Spinal nerve count
+31 pairs of spinal nerves
+Number of spinal nerves
+
+## arabic_label
+عدد الأعصاب الشوكية 31 زوجًا
+
+## arabic_aliases
+الأعصاب الشوكية
+
+## definition
+The spinal cord gives rise to 31 pairs of spinal nerves, one pair for each of its 31 segments: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal. Each spinal nerve forms from the union of a dorsal (sensory) root and a ventral (motor) root just distal to the dorsal root ganglion, making every spinal nerve mixed -- carrying both sensory and motor fibres. This count of 31 is distinct from the 33 vertebrae (the sacral vertebrae fuse into one sacrum and there is a single coccyx) and from the 12 pairs of cranial nerves, which arise from the brain rather than the cord.
+
+## explicit_objective
+State the total number of spinal nerve pairs and their segmental breakdown, and distinguish this count from the vertebral count and the cranial nerve count.
+
+## pitfalls
+Confusing the 31 spinal nerve pairs with the 12 cranial nerve pairs, or with the 33 vertebrae (a mismatch explained by sacral fusion and the coccyx).
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neuroanatomy
+
+## subtopic
+Nervous System Overview
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-NEU-AUN-PMS102-NERVOUS-SYSTEM-BASICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-NEU-4027FFDDA9C52F
+CON-NEU-64ECDE7104294C
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The number of spinal nerves ... The correct answer is: 31 pairs" (QUIZ21&22 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "spinal nerves 31 pairs" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-NEU-4027FFDDA9C52F
+
+## label
+Neurons are the structural and functional units of the nervous system
+
+## canonical_key
+neuroanatomy.neuron.structural-functional-unit
+
+## aliases
+Neuron as structural and functional unit
+Basic unit of the nervous system
+
+## arabic_label
+الخلية العصبية هي الوحدة البنائية والوظيفية للجهاز العصبي
+
+## arabic_aliases
+الوحدة الأساسية للجهاز العصبي
+
+## definition
+The neuron is the structural and functional unit of the nervous system: every task the nervous system performs -- receiving a stimulus, conducting an impulse, and transmitting it onward -- is carried out by neurons acting individually or in circuits. A neuron has a cell body (soma) and two kinds of processes, dendrites and an axon; axons are the neuron's own processes, distinct from glial cells, which support and insulate neurons but do not themselves generate or conduct nerve impulses.
+
+## explicit_objective
+Identify the neuron as the structural and functional unit of the nervous system, distinguishing it from its own processes (axons, dendrites) and from glial cells.
+
+## pitfalls
+Naming a neuron's process (an axon) or a supporting cell (glial cell) as the functional unit instead of the neuron itself, which is the complete cell that performs the function.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neuroanatomy
+
+## subtopic
+Nervous System Overview
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-NEU-AUN-PMS102-NERVOUS-SYSTEM-BASICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-NEU-E98BD7E9D4CC9A
+CON-NEU-CDF7D84493E7AA
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The structural and functional units of the nervous system are ... The correct answer is: Neurons" (QUIZ21&22 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "neuron structural functional unit" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-NEU-64ECDE7104294C
+
+## label
+The central nervous system is subdivided into the brain and the spinal cord
+
+## canonical_key
+neuroanatomy.cns.subdivisions-brain-spinal-cord
+
+## aliases
+CNS subdivisions
+Brain and spinal cord
+
+## arabic_label
+ينقسم الجهاز العصبي المركزي إلى المخ والحبل الشوكي
+
+## arabic_aliases
+تقسيم الجهاز العصبي المركزي
+
+## definition
+The nervous system is divided into the central nervous system (CNS) and the peripheral nervous system (PNS). The CNS itself is subdivided into the brain, housed in the cranial cavity, and the spinal cord, housed in the vertebral canal and continuous with the brain through the foramen magnum. The PNS -- the cranial and spinal nerves and their ganglia -- lies outside this division and connects the CNS to the rest of the body.
+
+## explicit_objective
+State that the CNS is subdivided into the brain and the spinal cord, distinguishing this division from the CNS/PNS split and from any subdivision naming the cerebrum alone.
+
+## pitfalls
+Naming "brainstem and cerebrum" or "brainstem and spinal cord" as the CNS subdivision -- the brainstem and cerebrum are both parts of the brain, not co-equal partners with the spinal cord in this division.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neuroanatomy
+
+## subtopic
+Nervous System Overview
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-NEU-AUN-PMS102-NERVOUS-SYSTEM-BASICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-NEU-4027FFDDA9C52F
+CON-NEU-CDF7D84493E7AA
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The CNS subdivided into ... The correct answer is: Brain and spinal cord" (QUIZ21&22 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "central nervous system subdivided brain spinal cord" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-NEU-CDF7D84493E7AA
+
+## label
+Gray matter consists of the bodies of nerve cells embedded in neuroglia
+
+## canonical_key
+neuroanatomy.gray-matter.composition
+
+## aliases
+Gray matter composition
+Grey matter
+
+## arabic_label
+المادة الرمادية تتكون من أجسام الخلايا العصبية المدمجة في الدبقية العصبية
+
+## arabic_aliases
+المادة الرمادية
+
+## definition
+Gray matter is composed of the bodies (perikarya) of nerve cells, together with dendrites, synapses and unmyelinated fibres, all embedded in a supporting network of neuroglia. This is what gives gray matter its darker appearance relative to white matter, which is instead composed of myelinated axons collected into tracts running between different gray matter regions. In the spinal cord, gray matter occupies the central, butterfly-shaped core; in the cerebrum and cerebellum, it forms the outer cortex.
+
+## explicit_objective
+State that gray matter is composed of nerve cell bodies embedded in neuroglia, distinguishing it from white matter (myelinated axon tracts).
+
+## pitfalls
+Describing gray matter as "collections of neuronal axons outside the CNS" (a description closer to a peripheral nerve) or as "axons embedded in neuroglia" (a description closer to white matter), rather than nerve cell bodies.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neuroanatomy
+
+## subtopic
+Nervous System Overview
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-NEU-AUN-PMS102-NERVOUS-SYSTEM-BASICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-NEU-64ECDE7104294C
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Gray matter consist of ... The correct answer is: Bodies of nerve cells embeded in neuroglia" (QUIZ21&22 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "gray matter neuroglia" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-NEU-412B68B5906A03
+
+## label
+Efferent nerves carry impulses away from the CNS to the periphery (e.g. from the brain to the body)
+
+## canonical_key
+neuroanatomy.efferent-nerves.definition
+
+## aliases
+Efferent nerves
+Motor (efferent) pathway
+
+## arabic_label
+الأعصاب الصادرة تنقل النبضات من الجهاز العصبي المركزي إلى الجسم
+
+## arabic_aliases
+الأعصاب الصادرة
+
+## definition
+Efferent (motor) nerves carry impulses away from the central nervous system out to effector organs such as muscles and glands. This is the opposite direction to afferent (sensory) nerves, which carry impulses from receptors in the periphery towards the CNS. Somatic efferent fibres innervate skeletal muscle, while autonomic efferent fibres innervate smooth muscle, cardiac muscle and glands; both are still classed as efferent because both conduct away from the CNS.
+
+## explicit_objective
+State that efferent nerves carry impulses from the CNS to the periphery, distinguishing efferent from afferent, receptor and somatic as answer options for this direction.
+
+## pitfalls
+Choosing "afferent" (the opposite, sensory direction) or "receptor" (a structure, not a nerve fibre class) when asked which fibre type carries impulses from the CNS outward.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neuroanatomy
+
+## subtopic
+Nervous System Overview
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-NEU-AUN-PMS102-NERVOUS-SYSTEM-BASICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-NEU-64ECDE7104294C
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The nerves carry impulses from the brain to the body ... The correct answer is: Efferent" (QUIZ21&22 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "efferent nerve impulses" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-CVS-686BD8735B1B39
+
+## label
+The base of the heart is formed mainly by the left atrium
+
+## canonical_key
+heart.base.left-atrium
+
+## aliases
+Base of the heart
+Left atrium as heart base
+
+## arabic_label
+قاعدة القلب يتكوّن معظمها من الأذين الأيسر
+
+## arabic_aliases
+قاعدة القلب
+
+## definition
+The heart is a pyramid-shaped organ with an apex, pointing anteroinferiorly and to the left, and a base, which faces posteriorly. The base of the heart is formed mainly by the left atrium, with a smaller contribution from the right atrium, and it receives the four pulmonary veins and lies against the oesophagus and descending aorta. This is distinct from the apex, which is formed by the left ventricle, and from the right border, formed by the right atrium.
+
+## explicit_objective
+Identify the left atrium as the chamber forming the base of the heart, distinguishing it from the apex (left ventricle) and right border (right atrium).
+
+## pitfalls
+Confusing the base (left atrium, posterior) with the apex (left ventricle, anteroinferior) -- both are named heart landmarks but formed by different chambers.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cardiovascular Anatomy
+
+## subtopic
+Heart and Great Vessels
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-CVS-AUN-PMS102-CVS-LYMPHATIC-BASICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-B8931C7FD43608
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The base of the heart is formed mainly by ... The correct answer is: Left atrium" (QUIZ 25 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "base of the heart left atrium" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-CVS-B8931C7FD43608
+
+## label
+Arterioles are the final distributing vessels, delivering oxygenated blood to capillaries
+
+## canonical_key
+vasculature.arterioles.final-distributing-vessels
+
+## aliases
+Arterioles as final distributing vessels
+Arteriole function
+
+## arabic_label
+الشرينات هي الأوعية الموزعة النهائية التي توصل الدم المؤكسج إلى الشعيرات الدموية
+
+## arabic_aliases
+الشرينات
+
+## definition
+Arterioles are the smallest branches of the arterial tree and act as the final distributing vessels, regulating blood flow into the capillary beds and delivering oxygenated blood to them. This is distinct from venules, which drain deoxygenated blood and metabolic waste away from capillaries into larger veins, and from the largest veins (SVC, IVC), which carry blood towards the heart rather than distributing it. The actual interchange of oxygen and waste with the extracellular fluid occurs at the capillary level, not at the arteriole or venule.
+
+## explicit_objective
+Identify arterioles as the final distributing vessels delivering oxygenated blood to capillaries, distinguishing their role from venules and from the largest veins.
+
+## pitfalls
+Assigning the "final distributing" role to venules, or claiming that exchange with extracellular fluid happens through venules rather than capillaries.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cardiovascular Anatomy
+
+## subtopic
+Heart and Great Vessels
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-CVS-AUN-PMS102-CVS-LYMPHATIC-BASICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-4FCE28FE696AD7
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding the blood vessels, the correct statement is ... The correct answer is: The final distributing vessels, arterioles, deliver oxygenated blood to capillaries" (QUIZ 25 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "arterioles deliver oxygenated blood capillaries" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-CVS-4FCE28FE696AD7
+
+## label
+The pulmonary artery is a classic example of an anatomic end artery
+
+## canonical_key
+vasculature.end-arteries.pulmonary-artery-example
+
+## aliases
+Anatomic end arteries
+Pulmonary artery as end artery
+
+## arabic_label
+الشريان الرئوي مثال كلاسيكي على الشرايين الانتهائية التشريحية
+
+## arabic_aliases
+الشرايين الانتهائية
+
+## definition
+An anatomic (true) end artery supplies a region of tissue without any effective anastomosis to a neighbouring artery's territory, so its occlusion causes ischaemia or infarction of the tissue it supplies. The pulmonary artery and its branches are a classic teaching example of anatomic end arteries, in contrast to arteries such as the femoral, common carotid or lingual arteries, which take part in rich collateral anastomotic networks and are not end arteries in this strict sense.
+
+## explicit_objective
+Identify the pulmonary artery as an example of an anatomic end artery, distinguishing it from arteries with collateral circulation (femoral, common carotid, lingual).
+
+## pitfalls
+Naming a well-anastomosed artery (femoral, common carotid, lingual) as an anatomic end artery instead of the pulmonary artery.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cardiovascular Anatomy
+
+## subtopic
+Heart and Great Vessels
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-CVS-AUN-PMS102-CVS-LYMPHATIC-BASICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-B8931C7FD43608
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of these arteries is an example of anatomic end arteries ... The correct answer is: Pulmonary artery" (QUIZ 25 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "anatomic end arteries pulmonary" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-CVS-47E2C76B40E318
+
+## label
+Unlike arteries, veins do not pulsate and do not squirt or spurt blood when severed
+
+## canonical_key
+vasculature.arteries-vs-veins.pulsation-and-wall
+
+## aliases
+Artery vs vein differences
+Veins do not pulsate
+
+## arabic_label
+الأوردة لا تنبض ولا يتدفق منها الدم بقوة عند قطعها بعكس الشرايين
+
+## arabic_aliases
+الفرق بين الشرايين والأوردة
+
+## definition
+Arteries carry blood under pulsatile pressure generated by the heartbeat, so a severed artery pulsates and blood spurts or squirts from it. Veins carry blood under low, non-pulsatile pressure, so a severed vein neither pulsates nor spurts blood -- this bedside distinction is a practical way to identify arterial versus venous bleeding. Structurally, arterial walls are thicker and more muscular than venous walls (not the reverse), and it is specifically the medium and large veins of the limbs, not arteries, that contain valves permitting one-directional flow toward the heart.
+
+## explicit_objective
+State that severed veins do not pulsate or spurt blood, distinguishing veins from arteries on wall thickness and the presence of valves in limb veins.
+
+## pitfalls
+Reversing the wall-thickness comparison (claiming artery walls are thinner than vein walls) or placing valves in arteries rather than in medium/large limb veins.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cardiovascular Anatomy
+
+## subtopic
+Heart and Great Vessels
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-CVS-AUN-PMS102-CVS-LYMPHATIC-BASICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-B8931C7FD43608
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The difference between the arteries and veins is: ... The correct answer is: Veins do not pulsate and do not squirt or spurt blood when severed" (QUIZ 25 Q4, restated Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "veins do not pulsate spurt blood severed" -- 0 hits, safe to create. Quiz 25 Q5 restates Q4's stem and answer with a different option order -- authored once, Q5 logged as duplicate-of q0XX in triage-keys.
+
+---
+
+# Item
+
+## id
+CON-CVS-A456DDC4FE9E77
+
+## label
+Lymphatic vessels have a beaded (nodular) appearance because of their numerous valves
+
+## canonical_key
+lymphatics.vessels.beaded-appearance
+
+## aliases
+Lymph vessel appearance
+Beaded lymphatics
+
+## arabic_label
+الأوعية اللمفاوية تبدو متسبحة الشكل بسبب كثرة الصمامات فيها
+
+## arabic_aliases
+شكل الأوعية اللمفاوية
+
+## definition
+Lymphatic vessels have a characteristic beaded, or nodular, appearance along their length, produced by the numerous valves within them that keep lymph flowing in one direction, towards the venous system. This distinguishes lymphatics from the description in the source's distractor statements: lymphoid tissue is in fact found in the walls of the digestive tract (e.g. Peyer's patches), lymph itself is typically clear and colourless to pale yellow rather than resembling plasma exactly, and lymphatic vessels are not present in every tissue (e.g. they are absent from avascular tissues such as cartilage and from the CNS parenchyma, which instead uses a distinct drainage system).
+
+## explicit_objective
+State that lymphatic vessels have a beaded/nodular appearance due to their numerous valves, as the correct statement among distractors about lymphoid tissue distribution and lymph composition.
+
+## pitfalls
+Accepting a distractor claiming lymphoid tissue is absent from the digestive tract wall, or that lymphatics are present in literally every tissue and organ, instead of the valve-beading fact.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cardiovascular Anatomy
+
+## subtopic
+Lymphatic System
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-CVS-AUN-PMS102-CVS-LYMPHATIC-BASICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AUN_Y1=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding the lymphatic system, the correct statement is: ... The correct answer is: Lymph vessels have a beaded appearance" (QUIZ 25 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "lymph vessels beaded appearance" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-REN-B1523793F26852
+
+## label
+The kidneys extend from the level of T12 to the level of L3
+
+## canonical_key
+kidney.anatomy.vertebral-level-t12-l3
+
+## aliases
+Kidney vertebral level
+Kidney extent T12-L3
+
+## arabic_label
+تمتد الكلية من مستوى الفقرة الصدرية الثانية عشرة إلى الفقرة القطنية الثالثة
+
+## arabic_aliases
+مستوى الكلية الفقري
+
+## definition
+The kidneys lie retroperitoneally against the posterior abdominal wall, extending vertically from the level of the twelfth thoracic vertebra (T12) to the level of the third lumbar vertebra (L3). Because the right kidney is displaced slightly inferiorly by the liver above it, it sits about half a vertebral level lower than the left, but the T12-L3 span describes the overall extent of the pair. This span is a fixed anatomical landmark distinct from the neighbouring, but incorrect, T11-L2 or T11-L3 combinations sometimes offered as distractors.
+
+## explicit_objective
+State that the kidneys extend from the T12 to the L3 vertebral level, rejecting nearby but incorrect T11-based or L2-based combinations.
+
+## pitfalls
+Selecting a plausible neighbouring span (T11-L3, T12-L2 or T11-L2) instead of the correct T12-L3 extent.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Urinary System Anatomy
+
+## subtopic
+Kidney
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-REN-AUN-PMS102-URINARY-SYSTEM-ANATOMY
+
+## related_article_ids
+
+## related_concept_ids
+CON-REN-2B7CC1982D4B1E
+CON-REN-F9CC30F9279CD6
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The kidneys extend from ... The correct answer is: From the level of T12 to the level of L3" (Quiz28 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "kidney extend T12 L3" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-REN-50D97BAC2FE0D6
+
+## label
+The membranous part is the narrowest part of the male urethra
+
+## canonical_key
+urethra.male.membranous-part-narrowest
+
+## aliases
+Narrowest part of male urethra
+Membranous urethra
+
+## arabic_label
+الجزء الغشائي هو أضيق جزء في مجرى البول الذكري
+
+## arabic_aliases
+أضيق جزء من مجرى البول
+
+## definition
+The male urethra has four named parts -- preprostatic (intramural), prostatic, membranous and spongy (penile) -- and the membranous part, the short segment passing through the urogenital diaphragm, is the narrowest of the four. This narrowing is clinically relevant because it is a common site of urethral injury (e.g. in pelvic fracture) and of resistance during catheterisation, in contrast to the wider prostatic and spongy parts.
+
+## explicit_objective
+Identify the membranous part as the narrowest segment of the male urethra, among the preprostatic, prostatic and spongy alternatives.
+
+## pitfalls
+Naming the prostatic or spongy (penile) part as narrowest instead of the membranous part.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Urinary System Anatomy
+
+## subtopic
+Ureter and Urethra
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-REN-AUN-PMS102-URINARY-SYSTEM-ANATOMY
+
+## related_article_ids
+
+## related_concept_ids
+CON-REN-3995B4987178E0
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The narrowest part of male urethra is ... The correct answer is: Membranous" (Quiz28 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "narrowest part male urethra membranous" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-REN-2B7CC1982D4B1E
+
+## label
+The liver is an anterior relation of the right kidney
+
+## canonical_key
+kidney.anatomy.right-kidney-anterior-relation-liver
+
+## aliases
+Right kidney anterior relations
+Kidney-liver relation
+
+## arabic_label
+الكبد من العلاقات الأمامية للكلية اليمنى
+
+## arabic_aliases
+العلاقات الأمامية للكلية اليمنى
+
+## definition
+The right kidney's anterior surface is related, from superior to inferior, to the right suprarenal gland, the liver, the second part of the duodenum and the right colic (hepatic) flexure, with the liver forming a large part of its anterior relation via the bare area and the hepatorenal recess. This differs from the left kidney's anterior relations, which include the spleen, stomach, pancreas, jejunum and splenic flexure, so "the liver" and "the spleen" are not interchangeable answers between the two sides.
+
+## explicit_objective
+Identify the liver as an anterior relation of the right kidney specifically, distinguishing right-sided from left-sided anterior relations (spleen, pancreas, descending colon).
+
+## pitfalls
+Assigning the spleen or descending colon (left kidney anterior relations, or a distractor) as an anterior relation of the right kidney instead of the liver.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Urinary System Anatomy
+
+## subtopic
+Kidney
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-REN-AUN-PMS102-URINARY-SYSTEM-ANATOMY
+
+## related_article_ids
+
+## related_concept_ids
+CON-REN-B1523793F26852
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the Anterior relations of the right kidney is ... The correct answer is: the liver" (Quiz28 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "anterior relation right kidney liver" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-REN-3995B4987178E0
+
+## label
+The intramural (preprostatic) part of the male urethra is surrounded by the internal urethral sphincter
+
+## canonical_key
+urethra.male.intramural-part-internal-sphincter
+
+## aliases
+Intramural urethra
+Preprostatic urethra and internal sphincter
+
+## arabic_label
+الجزء داخل الجدار من مجرى البول الذكري يحيط به العاصرة البولية الداخلية
+
+## arabic_aliases
+العاصرة البولية الداخلية
+
+## definition
+The most proximal part of the male urethra, the intramural (preprostatic) part, passes through the bladder wall and is surrounded by the internal urethral sphincter, a smooth-muscle sphincter under autonomic control that prevents retrograde ejaculation and involuntary leakage. This is distinct from the external urethral sphincter, a skeletal-muscle sphincter under voluntary control that surrounds the membranous part instead.
+
+## explicit_objective
+Identify the intramural (preprostatic) part as the segment surrounded by the internal urethral sphincter, distinguishing it from the membranous part (external sphincter).
+
+## pitfalls
+Naming the spongy, prostatic or membranous part as surrounded by the internal sphincter instead of the intramural part.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Urinary System Anatomy
+
+## subtopic
+Ureter and Urethra
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-REN-AUN-PMS102-URINARY-SYSTEM-ANATOMY
+
+## related_article_ids
+
+## related_concept_ids
+CON-REN-50D97BAC2FE0D6
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The part of male urethra which surrounded by internal urethral sphincter is ... The correct answer is: Intramural" (Quiz28 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "internal urethral sphincter intramural urethra" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-REN-C5A7E3203D2EA4
+
+## label
+The ureters are continuous superiorly with the renal pelvis
+
+## canonical_key
+ureter.anatomy.continuous-with-renal-pelvis
+
+## aliases
+Ureter and renal pelvis continuity
+Ureter origin
+
+## arabic_label
+يتصل الحالب من أعلى بحوض الكلية
+
+## arabic_aliases
+اتصال الحالب بحوض الكلية
+
+## definition
+Each ureter is a muscular tube continuous superiorly with the funnel-shaped renal pelvis, which itself collects urine from the major and minor calyces, and continuous inferiorly with the bladder, which it enters obliquely. This is distinct from the source's distractor claims: the ureter conveys urine to the bladder, not the urethra; it has three, not two, points of constriction along its course (the pelviureteric junction, the pelvic brim, and the point where it enters the bladder wall); and its length is closer to 25-30 cm rather than 23 cm exactly.
+
+## explicit_objective
+State that the ureter is continuous superiorly with the renal pelvis, rejecting distractors about its termination point, number of constrictions and length.
+
+## pitfalls
+Accepting a distractor that has the ureter conveying urine to the urethra (rather than the bladder), or misstating its number of constrictions or exact length.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Urinary System Anatomy
+
+## subtopic
+Ureter and Urethra
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-REN-AUN-PMS102-URINARY-SYSTEM-ANATOMY
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The ureters are ... The correct answer is: They are continuous superiorly with the renal pelvis" (Quiz28 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ureters continuous renal pelvis" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-REN-F9CC30F9279CD6
+
+## label
+Renal pyramids lie in the medulla, not the cortex, of the kidney
+
+## canonical_key
+kidney.anatomy.pyramids-in-medulla-not-cortex
+
+## aliases
+Renal pyramids location
+Kidney medulla pyramids
+
+## arabic_label
+الأهرامات الكلوية توجد في النخاع وليس في القشرة
+
+## arabic_aliases
+موقع الأهرامات الكلوية
+
+## definition
+On coronal section, the kidney shows an outer cortex and an inner medulla; the renal (Malpighian) pyramids -- cone-shaped structures whose bases face the cortex and whose apices (papillae) project into the minor calyces -- lie within the medulla, not the cortex. This is why "pyramids lie in the renal cortex" is the incorrect statement among otherwise-true descriptions of kidney anatomy (calyces funnelling urine to the pelvis, a collagenous renal capsule, and the right kidney sitting lower than the left).
+
+## explicit_objective
+State that renal pyramids are medullary, not cortical, structures, recognising this as the false statement among true statements about calyces, the renal capsule and kidney height asymmetry.
+
+## pitfalls
+Accepting "pyramids lie in the renal cortex" as true, rather than recognising it as the deliberately false statement in an EXCEPT/incorrect-statement question.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Urinary System Anatomy
+
+## subtopic
+Kidney
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-REN-AUN-PMS102-URINARY-SYSTEM-ANATOMY
+
+## related_article_ids
+
+## related_concept_ids
+CON-REN-B1523793F26852
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding the anatomy of the kidney, choose the Incorrect statement ... The correct answer is: Pyramids lie in the renal cortex" ("Quiz for organ systems" Q3, p101).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "renal pyramids medulla cortex kidney" -- 0 hits, safe to create. This item is the one on-topic (urinary) question authored from the mixed-topic "Quiz for organ systems" interlude (p100-102); its other items (oesophagus, bone ossification, trachea anatomy) fall outside this dispatch's nervous/histology/urogenital/chromosome cluster and are logged, not authored, in coverage/AUN-PMS-102-triage-keys.txt.
+
+
+---
+
+# Item
+
+## id
+CON-GYN-B9B8FC632784DB
+
+## label
+The ovary is suspended from the pelvic wall by the suspensory ligament of the ovary
+
+## canonical_key
+ovary.anatomy.suspensory-ligament
+
+## aliases
+Suspensory ligament of the ovary
+Infundibulopelvic ligament
+
+## arabic_label
+يتعلق المبيض بجدار الحوض بواسطة الرباط المعلق للمبيض
+
+## arabic_aliases
+الرباط المعلق للمبيض
+
+## definition
+The ovary is suspended from the lateral pelvic wall by the suspensory ligament of the ovary (infundibulopelvic ligament), a peritoneal fold that carries the ovarian vessels, nerves and lymphatics; it is a separate structure from the ovarian ligament proper, which anchors the ovary medially to the uterus. This is distinct from the source's distractor claims: the ovarian medulla, not the cortex, is the more vascular region; the ovary is almond-shaped, not diamond-shaped; and its surface epithelium is called the "germinal" epithelium for historical reasons (it was once mistakenly thought to give rise to germ cells), not because it truly is their source.
+
+## explicit_objective
+Identify the suspensory ligament of the ovary as the structure suspending it from the pelvic wall, distinguishing this from the ovarian ligament and rejecting distractors about ovarian vascularity, shape and the surface epithelium's true origin.
+
+## pitfalls
+Confusing the suspensory ligament of the ovary (to the pelvic wall, carries vessels) with the ovarian ligament proper (to the uterus), or accepting that the germinal epithelium is truly the source of germ cells.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+gyn
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Genital System Anatomy
+
+## subtopic
+Female Genital Anatomy
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-GYN-AUN-PMS102-FEMALE-GENITAL-ANATOMY
+
+## related_article_ids
+
+## related_concept_ids
+CON-GYN-D6C92DF7A6CD5E
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The true statement regarding the ovary is ... The correct answer is: The ovaries are suspended by the suspensory ligament of the ovary from the pelvic wall" (Quiz29 [second occurrence] Q2, p105).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ovary suspensory ligament pelvic wall" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-AND-484A544CA03AE9
+
+## label
+The posterior border of the tunica albuginea of the testis is thickened to form the mediastinum testis
+
+## canonical_key
+testis.anatomy.tunica-albuginea-mediastinum-testis
+
+## aliases
+Mediastinum testis
+Tunica albuginea posterior thickening
+
+## arabic_label
+يتكاثف الحد الخلفي للغلالة البيضاء للخصية ليكوّن المنصف الخصوي
+
+## arabic_aliases
+المنصف الخصوي
+
+## definition
+The testis is covered by three coats -- tunica vaginalis (outermost, a peritoneal remnant with parietal and visceral layers separated by a cavity), tunica albuginea (a dense white fibrous coat), and tunica vasculosa (innermost, vascular) -- not four. The tunica albuginea's posterior border is thickened to form the mediastinum testis, a fibrous wedge that projects into the gland and gives off septa dividing it into lobules, and through which the rete testis and efferent ductules pass.
+
+## explicit_objective
+State that the mediastinum testis is a thickening of the posterior tunica albuginea, correcting distractors about the testis's coat count and the tunica vaginalis's cavity.
+
+## pitfalls
+Accepting that the testis has four coats (it has three), or that the tunica vaginalis's parietal and visceral layers have no cavity between them (they do, the cavity of the tunica vaginalis).
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+androl
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Genital System Anatomy
+
+## subtopic
+Male Genital Anatomy
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-AND-AUN-PMS102-MALE-GENITAL-ANATOMY
+
+## related_article_ids
+
+## related_concept_ids
+CON-AND-BF59EEBCE1D05B
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The true fact regarding the testis is ... The correct answer is: The posterior border of the tunica albuginea is thickened to form the mediastinum testis" (Quiz29 [second occurrence] Q3, p105).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "tunica albuginea mediastinum testis" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-GYN-D6C92DF7A6CD5E
+
+## label
+The normal position of the uterus is anteverted and anteflexed
+
+## canonical_key
+uterus.anatomy.normal-position-anteverted-anteflexed
+
+## aliases
+Uterine position
+Anteversion and anteflexion
+
+## arabic_label
+الوضع الطبيعي للرحم هو أمامي الميل وأمامي الانثناء
+
+## arabic_aliases
+وضع الرحم الطبيعي
+
+## definition
+The normal uterine position combines two separate angulations: anteversion, the angle between the long axis of the cervix and the long axis of the vagina (normally bent forward), and anteflexion, the angle between the long axis of the uterine body and the long axis of the cervix (also normally bent forward). The standard descriptive term for the normal position is therefore "anteverted and anteflexed" together, not either angulation named alone, and this combined position is what tips the uterine fundus forward over the bladder.
+
+## explicit_objective
+State that the normal uterine position is described as anteverted and anteflexed together, distinguishing this from anteversion or anteflexion named in isolation and from the abnormal retroverted position.
+
+## pitfalls
+Selecting "anteversion" or "anteflexion" alone as the complete description of normal position, rather than the combined term, or selecting "retroversion" as normal rather than abnormal.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+gyn
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Genital System Anatomy
+
+## subtopic
+Female Genital Anatomy
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-GYN-AUN-PMS102-FEMALE-GENITAL-ANATOMY
+
+## related_article_ids
+
+## related_concept_ids
+CON-GYN-B9B8FC632784DB
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The normal position of the uterus is described as ... The correct answer is: anteverted and anteflexed" (Quiz29 [second occurrence] Q4, p105).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "uterus anteverted anteflexed position" -- 0 hits, safe to create.
+
+
+---
+
+# Item
+
+## id
+CON-AND-BF59EEBCE1D05B
+
+## label
+The vas deferens is approximately 45 cm long
+
+## canonical_key
+vasdeferens.anatomy.length
+
+## aliases
+Vas deferens length
+Ductus deferens length
+
+## arabic_label
+طول القناة الناقلة للحيوانات المنوية حوالي 45 سم
+
+## arabic_aliases
+طول الأسهر
+
+## definition
+The vas deferens (ductus deferens) is a thick-walled muscular tube roughly 45 cm long, running from the tail of the epididymis, through the spermatic cord and inguinal canal, over the pelvic brim, and down to join the duct of the seminal vesicle to form the ejaculatory duct. Its considerable length and thick muscular wall (allowing peristaltic propulsion of sperm at ejaculation) distinguish it from the much shorter alternatives sometimes offered as distractors (10 cm, 30 cm or 4 cm).
+
+## explicit_objective
+State the approximate length of the vas deferens as 45 cm, rejecting shorter distractor lengths.
+
+## pitfalls
+Selecting a shorter length (30 cm, 10 cm or 4 cm) instead of the correct approximately 45 cm.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+androl
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Genital System Anatomy
+
+## subtopic
+Male Genital Anatomy
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-PMS-102
+
+## article_ids
+ART-AND-AUN-PMS102-MALE-GENITAL-ANATOMY
+
+## related_article_ids
+
+## related_concept_ids
+CON-AND-484A544CA03AE9
+
+## resource_ids
+src_05a52683963c6bdc3136
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Length of the vas deferens is ... The correct answer is: 45 cm" (Quiz29 [second occurrence] Q5, p106).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "vas deferens length 45 cm" -- 0 hits, safe to create.

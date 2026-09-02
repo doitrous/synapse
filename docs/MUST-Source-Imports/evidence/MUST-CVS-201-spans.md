@@ -945,3 +945,312 @@ CLM-INF-6E83C5F7AAA95B
 
 ## citation_ids
 CIT-INF-6E83C5F7AAA95B
+
+
+---
+
+# Item
+
+## id
+SPN-PERICARDIAL-EFFUSION-CLASSIFICATION-01
+
+## article_id
+ART-CVS-PERICARDIAL-EFFUSION-CLASSIFICATION
+
+## section_id
+art-cvs-pericardial-effusion-classification-definition
+
+## text
+Pericardial effusion is classified by the character of the accumulated fluid: transudative (low-protein, from obstruction of lymphatic drainage, heart failure or hypoproteinaemia), exudative (protein-rich, from inflammation or infection), haemorrhagic (blood, from trauma, malignancy or dissection) or suppurative (frank pus, from pyogenic infection). Obstruction of pericardial lymphatic drainage specifically produces a transudative effusion rather than an inflammatory one.
+
+## claim_ids
+CLM-CVS-PERICARDIAL-EFFUSION-CLASSIFICATION-01
+
+## citation_ids
+CIT-PERICARDIAL-EFFUSION-CLASSIFICATION-01
+
+---
+
+# Item
+
+## id
+SPN-TB-PERICARDITIS-EXUDATE-01
+
+## article_id
+ART-CVS-TB-PERICARDITIS-EXUDATE
+
+## section_id
+art-cvs-tb-pericarditis-exudate-definition
+
+## text
+Tuberculous pericarditis characteristically produces a fibrinous and haemorrhagic exudate, reflecting caseating granulomatous inflammation and vascular involvement of the pericardium, distinct from the clear, serous fluid of viral pericarditis and the frank pus of pyogenic (suppurative) pericarditis.
+
+## claim_ids
+CLM-CVS-TB-PERICARDITIS-EXUDATE-01
+
+## citation_ids
+CIT-TB-PERICARDITIS-EXUDATE-01
+
+---
+
+# Item
+
+## id
+SPN-SUPPURATIVE-PERICARDITIS-01
+
+## article_id
+ART-CVS-SUPPURATIVE-PERICARDITIS
+
+## section_id
+art-cvs-suppurative-pericarditis-definition
+
+## text
+Suppurative (purulent) pericarditis follows direct pyogenic bacterial contamination of the pericardial sac — classically a penetrating chest wound, but also contiguous spread from pneumonia or empyema, or haematogenous seeding — and produces frank purulent exudate. It carries a high risk of subsequent constrictive pericarditis as the purulent exudate organises into dense fibrous scar.
+
+## claim_ids
+CLM-CVS-SUPPURATIVE-PERICARDITIS-01
+
+## citation_ids
+CIT-SUPPURATIVE-PERICARDITIS-01
+
+---
+
+# Item
+
+## id
+SPN-ATHEROMA-PLAQUE-STRUCTURE-01
+
+## article_id
+ART-CVS-ATHEROMA-PLAQUE-STRUCTURE
+
+## section_id
+art-cvs-atheroma-plaque-structure-definition
+
+## text
+The fibrous atheromatous plaque is the basic lesion of atherosclerosis, developing from the fatty streak within the tunica intima. It has three zones: a fibrous cap (collagen and smooth muscle cells) covering a lipid zone (foam cells, extracellular lipid and cholesterol), overlying a basal zone (collagen, smooth muscle cells and macrophages). Atherosclerosis is by definition an intimal disease — the plaque does not primarily involve the tunica media or adventitia.
+
+## claim_ids
+CLM-CVS-ATHEROMA-PLAQUE-STRUCTURE-01
+
+## citation_ids
+CIT-ATHEROMA-PLAQUE-STRUCTURE-01
+
+---
+
+# Item
+
+## id
+SPN-ATHEROSCLEROSIS-COMPLICATIONS-01
+
+## article_id
+ART-CVS-ATHEROSCLEROSIS-COMPLICATIONS
+
+## section_id
+art-cvs-atherosclerosis-complications-definition
+
+## text
+Complications of atherosclerosis include thromboembolism, plaque rupture and haemorrhage, dystrophic calcification (which hardens rather than softens the vessel wall), aneurysm formation, and downstream ischaemia specific to the artery involved — popliteal-artery atherosclerosis causes intermittent limb claudication, and atherosclerotic renal artery stenosis causes both hypertension (via reduced renal perfusion activating the renin-angiotensin system) and renal infarction. Hypertrophic cardiomyopathy is a primary sarcomere disease, not a complication of atherosclerosis.
+
+## claim_ids
+CLM-CVS-ATHEROSCLEROSIS-COMPLICATIONS-01
+
+## citation_ids
+CIT-ATHEROSCLEROSIS-COMPLICATIONS-01
+
+---
+
+# Item
+
+## id
+SPN-BENIGN-HYPERTENSION-01
+
+## article_id
+ART-CVS-BENIGN-HYPERTENSION
+
+## section_id
+art-cvs-benign-hypertension-definition
+
+## text
+Benign hypertension is chronic, sustained blood pressure characteristically below about 200/110 mmHg. Its characteristic renal arteriolar change is hyaline arteriolosclerosis — pink, structureless, homogeneous thickening of the arteriolar wall from the deposition of an abnormal (plasma) protein, seen also in diabetes and in otherwise-normotensive elderly patients as an ageing change. In benign hypertension, death occurs, in order of frequency, from congestive heart failure, coronary infarction, cerebral haemorrhage, and then renal failure.
+
+## claim_ids
+CLM-CVS-BENIGN-HYPERTENSION-01
+
+## citation_ids
+CIT-BENIGN-HYPERTENSION-01
+
+---
+
+# Item
+
+## id
+SPN-PREECLAMPSIA-HYPERTENSION-RISK-01
+
+## article_id
+ART-CVS-PREECLAMPSIA-HYPERTENSION-RISK
+
+## section_id
+art-cvs-preeclampsia-hypertension-risk-definition
+
+## text
+Pre-eclampsia — new-onset hypertension with proteinuria after 20 weeks of pregnancy — has its risk raised by nulliparity (first pregnancy), older maternal age, and pre-existing diabetes mellitus, among other factors (multiple gestation, obesity, chronic hypertension, autoimmune disease).
+
+## claim_ids
+CLM-CVS-PREECLAMPSIA-HYPERTENSION-RISK-01
+
+## citation_ids
+CIT-PREECLAMPSIA-HYPERTENSION-RISK-01
+
+---
+
+# Item
+
+## id
+SPN-SLEEP-APNEA-HYPERTENSION-RISK-01
+
+## article_id
+ART-CVS-SLEEP-APNEA-HYPERTENSION-RISK
+
+## section_id
+art-cvs-sleep-apnea-hypertension-risk-definition
+
+## text
+Obstructive sleep apnoea causes repeated nocturnal hypoxia and sympathetic surges that raise systemic blood pressure over time, and is an independent risk factor for hypertension, stroke and myocardial infarction (heart attack).
+
+## claim_ids
+CLM-CVS-SLEEP-APNEA-HYPERTENSION-RISK-01
+
+## citation_ids
+CIT-SLEEP-APNEA-HYPERTENSION-RISK-01
+
+---
+
+# Item
+
+## id
+SPN-ANEURYSM-CLASSIFICATION-01
+
+## article_id
+ART-CVS-ANEURYSM-CLASSIFICATION
+
+## section_id
+art-cvs-aneurysm-classification-definition
+
+## text
+A true aneurysm is an abnormal, localised dilation whose wall is formed of the complete, though often weakened, vessel wall layers — distinguishing it from a false (pseudo-) aneurysm, whose wall is adjacent connective tissue around a contained rupture. A fusiform aneurysm dilates the entire circumference of the vessel; a saccular aneurysm dilates only part of the circumference, as a sac-like outpouching. Atherosclerotic aneurysms characteristically form in the abdominal aorta. Aneurysm complications include thromboembolism, rupture and haemorrhage, and pressure effects on surrounding organs; an aneurysm does not improve blood flow.
+
+## claim_ids
+CLM-CVS-ANEURYSM-CLASSIFICATION-01
+
+## citation_ids
+CIT-ANEURYSM-CLASSIFICATION-01
+
+---
+
+# Item
+
+## id
+SPN-DISSECTING-AORTIC-ANEURYSM-01
+
+## article_id
+ART-CVS-DISSECTING-AORTIC-ANEURYSM
+
+## section_id
+art-cvs-dissecting-aortic-aneurysm-definition
+
+## text
+Dissecting aortic aneurysm — a tear in the intima allowing blood to track within the media, creating a false lumen — is most strongly associated with Marfan syndrome (cystic medial degeneration weakening the aortic wall), though hypertension and atherosclerosis also predispose. It classically presents with sudden, severe "tearing" chest or back pain and hypotension from blood loss into the false lumen or pericardium. A descending aortic aneurysm, dissecting or not, can erode adjacent vertebral bone and cause back pain from that direct pressure effect.
+
+## claim_ids
+CLM-CVS-DISSECTING-AORTIC-ANEURYSM-01
+
+## citation_ids
+CIT-DISSECTING-AORTIC-ANEURYSM-01
+
+---
+
+# Item
+
+## id
+SPN-RASMUSSEN-ANEURYSM-01
+
+## article_id
+ART-CVS-RASMUSSEN-ANEURYSM
+
+## section_id
+art-cvs-rasmussen-aneurysm-definition
+
+## text
+A Rasmussen aneurysm is a pseudoaneurysm of a pulmonary artery branch, forming within the wall of a chronic tuberculous cavity as the vessel is progressively weakened by adjacent caseous necrosis and inflammation. Its rupture is a classic cause of life-threatening haemoptysis in pulmonary tuberculosis.
+
+## claim_ids
+CLM-CVS-RASMUSSEN-ANEURYSM-01
+
+## citation_ids
+CIT-RASMUSSEN-ANEURYSM-01
+
+---
+
+# Item
+
+## id
+SPN-MYCOTIC-ANEURYSM-01
+
+## article_id
+ART-CVS-MYCOTIC-ANEURYSM
+
+## section_id
+art-cvs-mycotic-aneurysm-definition
+
+## text
+A mycotic aneurysm is a localised arterial dilation caused by infection of the vessel wall, most commonly from septic embolisation of infected material — classically vegetations shed from infective endocarditis, which seed and weaken a distal artery wall, or from direct bacteraemic seeding of an already-diseased wall. It presents as a pulsatile, tender mass at the affected site, often with systemic signs of the underlying infection (fever, positive blood cultures, a murmur).
+
+## claim_ids
+CLM-CVS-MYCOTIC-ANEURYSM-01
+
+## citation_ids
+CIT-MYCOTIC-ANEURYSM-01
+
+---
+
+# Item
+
+## id
+SPN-TAKAYASU-ARTERITIS-01
+
+## article_id
+ART-CVS-TAKAYASU-ARTERITIS
+
+## section_id
+art-cvs-takayasu-arteritis-definition
+
+## text
+Takayasu arteritis is a large-vessel vasculitis typically affecting women of childbearing age, involving the aorta and its major branches with granulomatous inflammation that leads to wall thickening, stenosis and, later, absent or diminished peripheral pulses ("pulseless disease").
+
+## claim_ids
+CLM-CVS-TAKAYASU-ARTERITIS-01
+
+## citation_ids
+CIT-TAKAYASU-ARTERITIS-01
+
+---
+
+# Item
+
+## id
+SPN-POLYARTERITIS-NODOSA-01
+
+## article_id
+ART-CVS-POLYARTERITIS-NODOSA
+
+## section_id
+art-cvs-polyarteritis-nodosa-definition
+
+## text
+Polyarteritis nodosa is a necrotising vasculitis of medium-sized muscular arteries that most commonly involves the arteries of the gastrointestinal tract, producing segmental, transmural inflammation with fibrinoid necrosis and a classic "beading" of small aneurysms on angiography; renal, musculoskeletal, skin and peripheral-nerve arteries are also frequently affected, but GIT involvement is the printed, most-common site tested here.
+
+## claim_ids
+CLM-CVS-POLYARTERITIS-NODOSA-01
+
+## citation_ids
+CIT-POLYARTERITIS-NODOSA-01

@@ -1,0 +1,145 @@
+{
+  "lane": "MU-MED105",
+  "cluster": "med105-end43-cvs",
+  "header": "Ledger-tracking stub for lane-1's Q1-45 batch (question/MU-MED105-end43-mcq.md, first 45 items) -- lane-1 did not create a seeds/ directory, so this stub exists only so ledger.mjs can see those keys as authored/held. No question content lives here; the real authored records are in the question batch file itself.",
+  "questions": [
+    {
+      "key": "med105-end43-cvs-q01"
+    },
+    {
+      "key": "med105-end43-cvs-q02"
+    },
+    {
+      "key": "med105-end43-cvs-q03"
+    },
+    {
+      "key": "med105-end43-cvs-q04"
+    },
+    {
+      "key": "med105-end43-cvs-q05"
+    },
+    {
+      "key": "med105-end43-cvs-q06",
+      "hold": "image-dependent (arrow/labelled-diagram stem) -- rule 3/9"
+    },
+    {
+      "key": "med105-end43-cvs-q07"
+    },
+    {
+      "key": "med105-end43-cvs-q08"
+    },
+    {
+      "key": "med105-end43-cvs-q09"
+    },
+    {
+      "key": "med105-end43-cvs-q10"
+    },
+    {
+      "key": "med105-end43-cvs-q11"
+    },
+    {
+      "key": "med105-end43-cvs-q12"
+    },
+    {
+      "key": "med105-end43-cvs-q13"
+    },
+    {
+      "key": "med105-end43-cvs-q14"
+    },
+    {
+      "key": "med105-end43-cvs-q15"
+    },
+    {
+      "key": "med105-end43-cvs-q16"
+    },
+    {
+      "key": "med105-end43-cvs-q17"
+    },
+    {
+      "key": "med105-end43-cvs-q18",
+      "hold": "image-dependent (arrow/labelled-diagram stem) -- rule 3/9"
+    },
+    {
+      "key": "med105-end43-cvs-q19"
+    },
+    {
+      "key": "med105-end43-cvs-q20",
+      "hold": "printed stem corrupted/garbled in the source PDF itself; key legible via yellow highlight but the clinical-vignette wording cannot be faithfully reconstructed -- held per rule 10"
+    },
+    {
+      "key": "med105-end43-cvs-q21"
+    },
+    {
+      "key": "med105-end43-cvs-q22"
+    },
+    {
+      "key": "med105-end43-cvs-q23"
+    },
+    {
+      "key": "med105-end43-cvs-q24"
+    },
+    {
+      "key": "med105-end43-cvs-q25"
+    },
+    {
+      "key": "med105-end43-cvs-q26"
+    },
+    {
+      "key": "med105-end43-cvs-q27"
+    },
+    {
+      "key": "med105-end43-cvs-q28"
+    },
+    {
+      "key": "med105-end43-cvs-q29"
+    },
+    {
+      "key": "med105-end43-cvs-q30"
+    },
+    {
+      "key": "med105-end43-cvs-q31"
+    },
+    {
+      "key": "med105-end43-cvs-q32"
+    },
+    {
+      "key": "med105-end43-cvs-q33"
+    },
+    {
+      "key": "med105-end43-cvs-q34"
+    },
+    {
+      "key": "med105-end43-cvs-q35"
+    },
+    {
+      "key": "med105-end43-cvs-q36"
+    },
+    {
+      "key": "med105-end43-cvs-q37"
+    },
+    {
+      "key": "med105-end43-cvs-q38"
+    },
+    {
+      "key": "med105-end43-cvs-q39"
+    },
+    {
+      "key": "med105-end43-cvs-q40"
+    },
+    {
+      "key": "med105-end43-cvs-q41"
+    },
+    {
+      "key": "med105-end43-cvs-q42"
+    },
+    {
+      "key": "med105-end43-cvs-q43"
+    },
+    {
+      "key": "med105-end43-cvs-q44"
+    },
+    {
+      "key": "med105-end43-cvs-q45"
+    }
+  ]
+}

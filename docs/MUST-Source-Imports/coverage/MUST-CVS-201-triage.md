@@ -481,3 +481,98 @@ unrecoverable. The 10 essay questions (5 per paper) are triaged and keyed in
 | Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | Pending-hit (sparse overlay, reused) | Live-hit (sparse update, reused) | Live-hit (already tagged) | New mints | Authored | Held (duplicate-of) |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | MUST-CVS-201 Microbiology (both papers, full) | 60 MCQ + 10 essay | 70/70 | 38 | 3 | 2 | 1 | 32 | 45 | 15 |
+
+## S3 -- tranche 6 (2026-09-02, lane 6, branch `must-cvs201-author6`) -- Pathology
+
+Sixth authoring pass, the Pathology CVS201 EOM Final paper tranche 2's own
+inventory table named as the module's other remaining Pathology source (Dr.
+Maria's written paper is the sibling tranche 1 already closed). The
+inventory line estimated 23 pages / 70 questions; the actual PDF is 19 pages
+(`pagetext.mjs status` and `mdls` agree) -- a source page-count
+discrepancy, noted rather than corrected. The paper's own intro page states
+"70 Questions (60 MCQs + 10 Essay Questions)", confirmed exact.
+
+### Full triage -- Pathology CVS201 Questions (Final) -- AUTHORED
+
+`Pathology/06 EOM Exams/EOM MCQs - Pathology CVS201 Questions (Final).pdf`,
+by Absalam101 & Shahd, `src_67efbd148b42c6593611`. Native-text
+(`pagetext.mjs status`: no garbled pages, no OCR needed). All 60 MCQs sit on
+pp.1-16, with a single combined answer key printed on p.16 itself
+(unusually, not on its own separate key page) -- 60/60 keyed. 10 essay
+questions follow on p.17 with model answers on pp.18-19 -- 10/10 keyed, not
+authored (out of scope). One source typo: Q23 prints "180 mmHg" for both
+options C and D, a duplication rather than a genuine fourth distractor; the
+printed key (C) stands per LANE-CARD.md rule 2, flagged in that question's
+author_notes rather than silently corrected.
+
+All 60 keyed MCQs authored, 0 held. This is the module's only Pathology MCQ
+source -- the sibling written paper (Dr. Maria's, tranche 1) tests several
+of the same facts (cardiomyopathies, tamponade, fibrinous pericarditis,
+fatty streak, malignant hypertension, hypertension definition), and per
+tranche 5's own precedent for an already-MUST-CVS-201-tagged concept
+(contrast the duplicate-*question*-holding rule that dispatch set for the
+sibling Microbiology papers, a different call for a genuinely redundant
+question within one syllabus), those questions are dual-sourced against the
+same shared concept rather than held as duplicate-of.
+
+24 concepts serve the 60 authored questions:
+
+- **14 new MUST mints** -- pericardial effusion classification (transudate
+  from lymphatic obstruction), tuberculous pericarditis exudate character,
+  suppurative pericarditis (penetrating-wound cause, purulent exudate),
+  atheroma plaque structure (basic lesion, three zones, tunica intima),
+  atherosclerosis complications (claudication, dystrophic calcification,
+  renal artery stenosis; not hypertrophic cardiomyopathy), benign
+  hypertension (BP range, hyaline arteriolosclerosis, death-order,
+  abnormal-protein deposition), pre-eclampsia risk, sleep-apnoea
+  cardiovascular risk, aneurysm classification/site/complications (true vs
+  false wall, fusiform vs saccular, abdominal-aortic site), dissecting
+  aortic aneurysm (Marfan association, tearing-pain vignette, bone
+  erosion), Rasmussen aneurysm (TB-cavity pulmonary artery), mycotic
+  aneurysm (infective-endocarditis association), Takayasu arteritis (young
+  women, aorta and branches), polyarteritis nodosa (GIT arteries) -- all in
+  `concept/`, `article/`, `evidence/{claims,citations,spans}.md` (own lane
+  files, not pending-live).
+- **3 pending sparse-overlay reuses**, in `pending-live/MUST-CVS-201-
+  pathology-concepts-overlay.md`: `CON-CVS-D65416DBAEAA0E` (hypertrophic
+  cardiomyopathy definition) and `CON-CVS-4A41D59159ED61` (restrictive
+  cardiomyopathy definition), both from `docs/import-ready/concept/
+  SYS-CVS-CONCEPT-T04.md`, the Year-3 SYS-CVS catalogue; `CON-CVS-
+  E1FE73100F1688` (tuberculosis as a leading cause of constrictive
+  pericarditis, aliased "Constrictive pericarditis aetiology"), from
+  `SYS-CVS-CONCEPT-T06.md`, extended (not duplicated) to also cover the
+  Pick's-disease naming, the suppurative-pericarditis complication route
+  and the small-quiet-heart/no-hypertrophy physiology -- the same "extend
+  rather than duplicate" call tranche 4 made for situs inversus.
+- **3 already-MUST-CVS-201-tagged reuses**, no new overlay row needed:
+  `CON-CVS-C531A645354244` (dilated cardiomyopathy), `CON-CVS-
+  ABE9CE4B64FEF8` (cardiac tamponade) and `CON-CVS-F4BBA78E076D30`
+  (hypertension definition and secondary causes) were all already sparse-
+  overlaid onto `MUST-CVS-201` by tranche 1's own `pending-live/
+  MUST-CVS-201-concepts-overlay.md`; this tranche's questions citing them
+  need no new overlay row, only the new question records in `pending-live/
+  MUST-CVS-201-pathology-questions.md`.
+- **4 already-live-in-lane direct reuses**, no pending-live dependency at
+  all -- `CON-CVS-D7459E7855802A` (fibrinous pericarditis), `CON-CVS-
+  E87E4CDC5DE594` (fatty streak), `CON-CVS-F44EBF69D14F3B` (atherosclerosis
+  risk factors) and `CON-CVS-8BFFDE83CC4617` (malignant hypertension) were
+  all committed directly into `concept/MUST-CVS-201-concepts.md` by
+  tranche 1 (from Dr. Maria's written paper), no overlay involved.
+
+All 60 authored as MCQ seed -> `emit-mcq.mjs`, the paper being genuine
+multiple-choice with a full printed combined key. 46 (main_concept
+already-tagged, live-in-lane or new-minted this batch) are in `question/
+MUST-CVS-201-pathology-mcq.md`; 14 (main_concept pending in SYS-CVS-
+CONCEPT-T04.md/T06.md, or already-tagged-but-still-pending-dependency) are
+in `pending-live/MUST-CVS-201-pathology-questions.md` alongside the 3-record
+sparse concept overlay above. Full apply order and simulate log in
+`pending-live/INDEX.md`. 0 questions held for want of a key -- the source
+printed a combined key for every item. The 10 essay questions are triaged
+and keyed in `-triage-keys.txt` but not authored -- out of scope for this
+lane.
+
+### Checkpoint table (tranche 6)
+
+| Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | Pending-hit (new overlay row) | Pending-hit (already tagged, no new row) | Live-hit (already live-in-lane) | New mints | Authored | Held |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| MUST-CVS-201 Pathology (full, second paper) | 60 MCQ + 10 essay | 70/70 | 24 | 3 | 3 | 4 | 14 | 60 | 0 |

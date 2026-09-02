@@ -2,7 +2,7 @@
 |---|---:|---:|---:|---:|
 | ini-mcq | 89 | 11 | 0 | 100 |
 | ini-mcq-ch10 | 51 | 4 | 0 | 55 |
-| ini-mcq-ch11 | 27 | 27 | 0 | 54 |
+| ini-mcq-ch11 | 83 | 27 | 0 | 110 |
 | ini-mcq-ch2 | 52 | 8 | 0 | 60 |
 | ini-mcq-ch3 | 21 | 3 | 0 | 24 |
 | ini-mcq-ch4 | 48 | 10 | 0 | 58 |
@@ -10,7 +10,7 @@
 | ini-mcq-ch6 | 94 | 8 | 0 | 102 |
 | ini-mcq-ch7 | 26 | 7 | 0 | 33 |
 | ini-mcq-ch8 | 16 | 0 | 0 | 16 |
-| ini-mcq-ch9 | 16 | 5 | 0 | 21 |
+| ini-mcq-ch9 | 49 | 49 | 0 | 98 |
 
 ## Held
 - ini-mcq-q003 — printed key (A, Cocci) conflicts with the expected textbook answer (Bacilli, C) for "rod shaped bacteria"
@@ -105,6 +105,50 @@
 - ini-mcq-ch9-q017 — printed key (A, Lymnaea cailliaudi) conflicts with the textbook fact that Fasciolopsis buski's snail host is a species of Segmentina (D); Lymnaea is instead the snail host of Fasciola hepatica
 - ini-mcq-ch9-q019 — printed key (B, systemic circulation) conflicts with standard teaching that the schistosomulum matures to adult in the portal circulation/liver (C), before migrating against portal flow to its final venous site
 - ini-mcq-ch9-q021 — options A and B both print "Both benefit" verbatim -- source-side duplicate-option defect
+- ini-mcq-ch9-q022 — duplicate-of ini-mcq-ch9-q001 -- "Mutualism is a relationship between two organisms in which? Both benefit" restates Q1's already-authored fact (symbiosis in the mutualistic sense = both organisms benefit), just naming the relationship "mutualism" instead of "symbiosis"
+- ini-mcq-ch9-q023 — duplicate-of ini-mcq-ch9-q005 -- "An opportunistic parasite is one which? Produces disease in immunodeficient patients only" restates Q5's already-authored fact (opportunistic parasite = disease in immunocompromised host) against a different distractor set
+- ini-mcq-ch9-q024 — duplicate-of ini-mcq-ch9-q004 -- "A spurious parasite is one which? Passes through the alimentary tract without infecting the host" restates Q4's already-authored fact (spurious = coprozoic, passes through unchanged) against a different distractor set
+- ini-mcq-ch9-q025 — duplicate-of ini-mcq-ch9-q006 -- "The final host? Harbours the mature (adult) stage of the parasite" restates Q6's already-authored fact (definitive host harbours the sexual/adult stage)
+- ini-mcq-ch9-q026 — duplicate-of ini-mcq-ch9-q007 -- "The reservoir host? Is any animal other than man that can harbour the adult parasite" restates one clause of Q7's already-authored fuller definition (reservoir host = non-human host, harbours without disease, additional infection source)
+- ini-mcq-ch9-q031 — duplicate-of ini-mcq-ch9-q014 -- "The main agent of pathology in schistosomiasis is? Egg" is an exact restatement of Q14's already-authored fact, with a shorter option set
+- ini-mcq-ch9-q039 — printed key (B, Ingestion of metacercaria found in plants) conflicts with the near-identical Q38 ("Mode of transmission of Schistosoma species is by?"), which this same source keys correctly as D (skin penetration by furcocercous cercaria) -- Schistosoma has no ingestion route at all; the two stems differ only in option C's wording ("undercooked fish" vs "undercooked boury fish"), so this is very likely a source-side answer-table misalignment rather than a genuine second fact
+- ini-mcq-ch9-q041 — printed key (C, Furcocercous) for "Type of cercaria in Fasciola is?" conflicts with this bank's own internal consistency: Q48 keys leptocercous as the simple-tailed type and Q73 keys furcocercous specifically as Schistosoma's type, and a pending Helwan concept (HU-GIT-301-parasitology-concepts.md) states outright that Lymnaeid/planorbid snails (Fasciola's own snail family) shed leptocercous cercariae -- Fasciola's cercaria should be leptocercous (A), not furcocercous
+- ini-mcq-ch9-q042 — source prints only 3 options (A-Operculum, B-Terminal spine, C-Lateral spine), short of the seed schema's 4-option floor -- printed key (C, Lateral spine) is otherwise textbook-consistent with this pass's own Q35
+- ini-mcq-ch9-q043 — source prints only 3 options (A-Operculum, B-Terminal spine, C-Lateral spine), short of the seed schema's 4-option floor -- printed key (B, Terminal spine) is otherwise textbook-consistent with this pass's own Q35
+- ini-mcq-ch9-q044 — source prints only 3 options (A-Fasciola, B-Schistosoma, C-Heterophyes heterophyes), short of the seed schema's 4-option floor -- printed key (B, Schistosoma has no redia stage) is otherwise textbook-consistent
+- ini-mcq-ch9-q049 — duplicate-of ini-mcq-ch8-q011 -- "A host that harbours the organism in an arrested state of development that can be continued in a subsequent suitable host is a? Paratenic host" is a near-verbatim restatement of ch8's already-authored Q011 ("The host that harbors the organism in an arrested state of development? Paratenic host")
+- ini-mcq-ch9-q056 — duplicate-of ini-mcq-ch8-q006 -- "An erratic parasite is? Lives in another place than its normal one of the host" is a near-verbatim restatement of ch8's already-authored Q006 ("Erratic parasite? Lives in another place than its normal one of the host"), same stem and same correct-option wording
+- ini-mcq-ch9-q057 — source prints only 3 options (A-H hetrophys, B-Schistosoma, C-Fasciola), short of the seed schema's 4-option floor
+- ini-mcq-ch9-q058 — source prints only 3 options (A-Cercaria, B-Encysted metacercaria, C-Miracidium), short of the seed schema's 4-option floor, and duplicate-of ini-mcq-ch9-q046 -- "Fasciola hepatica infective stage is? Encysted metacercaria" restates this pass's own Q46
+- ini-mcq-ch9-q059 — source prints only 3 options (A-Furcocercus cercaria, B-Miracidium, C-Egg), short of the seed schema's 4-option floor, and duplicate-of ini-mcq-ch9-q045 -- exact restatement of this pass's own Q45 (diagnostic stage of S. haematobium = egg)
+- ini-mcq-ch9-q061 — duplicate-of ini-mcq-ch9-q006 -- "The adult stage of the parasite presents in the life cycle inside? Definitive host" restates Q6's already-authored fact (definitive host harbours the adult stage)
+- ini-mcq-ch9-q063 — duplicate-of ini-mcq-ch9-q014 -- exact restatement of this bank's own already-authored "main agent of pathology in schistosomiasis = eggs" fact, third occurrence after Q14 and Q31
+- ini-mcq-ch9-q064 — duplicate-of ini-mcq-ch9-q033 -- "First Intermediate host of schistosoona haematobium is? Bulnus truncates" restates this pass's own Q33 (Bulinus truncatus = S. haematobium host); source also prints a blank, textless option E
+- ini-mcq-ch9-q065 — duplicate-of ini-mcq-ch9-q012 -- "All trematoda eggs are operculated EXCEPT? Schistosoma" restates ch9's already-authored Q12 (operculate-eggs-EXCEPT-Schistosoma fact) with a shorter option set
+- ini-mcq-ch9-q066 — duplicate-of ini-mcq-ch9-q050 -- restates this pass's own Q50 (miracidium infective for the snail); option A is also garbled in the source, printing "Cercaria Miracidium" as a single run-together option
+- ini-mcq-ch9-q068 — duplicate-of ini-mcq-ch9-q053 -- exact restatement (identical stem and options) of this pass's own Q53 (Fasciola gigantica habitat = large bile ducts)
+- ini-mcq-ch9-q069 — duplicate-of ini-mcq-ch9-q060 -- "Trematodes are hermaphrodite EXCEPT? Schistorome" restates this pass's own Q60 (Schistosoma = hermaphroditism exception) with a differently-ordered, misspelled option set
+- ini-mcq-ch9-q070 — source-side option-text defect -- the four-way species list is printed as "A-Schistasoma B-Mansoni C-Hymenolopis nana D-Heterophyes heterophyes," splitting the single species name "Schistosoma mansoni" across separate options A and B, leaving no valid, distinct four-option set to author
+- ini-mcq-ch9-q075 — duplicate-of ini-mcq-ch9-q046 -- "Encysted metacercaria in aquatic plants is the infective stage of? Fasciola" combines this pass's own Q29 (transmission route) and Q46 (infective stage) facts about Fasciola; also only 3 options are printed (A-Fasciola, B-Heterophyes, C-Dipylidium), short of the seed schema's 4-option floor
+- ini-mcq-ch9-q076 — source prints only 3 options (A-Fasciola hepatica, B-Paragonimus, C-Fasciola gigantica), short of the seed schema's 4-option floor
+- ini-mcq-ch9-q078 — duplicate-of ini-mcq-ch9-q027 -- exact restatement (identical stem, options and key) of this pass's own Q27 (Schistosoma = separate sexes)
+- ini-mcq-ch9-q079 — source-side incomplete stem -- "Which of the following trematodes inhibit?" is truncated, missing the object of "inhibit/inhabit" (a body site), so the question as printed cannot be authored
+- ini-mcq-ch9-q080 — duplicate-of ini-mcq-ch9-q029 -- exact restatement (identical stem, options and key) of this pass's own Q29 (Fasciola transmission = plant-borne metacercaria ingestion)
+- ini-mcq-ch9-q081 — duplicate-of ini-mcq-ch9-q030 -- exact restatement (identical stem, options and key) of this pass's own Q30 (Heterophyes heterophyes = smallest human trematode)
+- ini-mcq-ch9-q082 — duplicate-of ini-mcq-ch9-q014 -- exact restatement of the already-authored "main agent of pathology in schistosomiasis = eggs" fact, fourth occurrence after Q14, Q31 and Q63
+- ini-mcq-ch9-q083 — duplicate-of ini-mcq-ch9-q032 -- exact restatement (identical stem, options and key) of this pass's own Q32 (Biomphalaria = S. mansoni host)
+- ini-mcq-ch9-q084 — duplicate-of ini-mcq-ch9-q033 -- exact restatement (identical stem, options and key) of this pass's own Q33 (Bulinus = S. haematobium host)
+- ini-mcq-ch9-q085 — duplicate-of ini-mcq-ch9-q034 -- exact restatement (identical stem, options and key) of this pass's own Q34 (Lymnaea = Fasciola host)
+- ini-mcq-ch9-q086 — duplicate-of ini-mcq-ch9-q036 -- exact restatement (identical stem, options and key) of this pass's own Q36 (trematodes = leaf-shaped worms)
+- ini-mcq-ch9-q087 — duplicate-of ini-mcq-ch9-q037 -- exact restatement (identical stem, options and key) of this pass's own Q37 (Heterophyes heterophyes = small intestine habitat)
+- ini-mcq-ch9-q088 — duplicate-of ini-mcq-ch9-q040 -- exact restatement (identical stem, options and key) of this pass's own Q40 (Pirenella conica = Heterophyes heterophyes host)
+- ini-mcq-ch9-q089 — duplicate-of ini-mcq-ch9-q044 -- exact restatement of the already-held Q44 (Schistosoma has no redia stage), same 3-option floor defect
+- ini-mcq-ch9-q090 — duplicate-of ini-mcq-ch9-q045 -- exact restatement (identical stem, options and key) of this pass's own Q45 (diagnostic stage of S. haematobium = egg)
+- ini-mcq-ch9-q091 — duplicate-of ini-mcq-ch9-q046 -- exact restatement (identical stem, options and key, bar a spelling variant on option A) of this pass's own Q46 (Fasciola infective stage = encysted metacercaria)
+- ini-mcq-ch9-q093 — duplicate-of ini-mcq-ch9-q034 -- "the first intermediate snail host of Fasciola is? Lymnea caudi" restates this pass's own Q34 (Lymnaea = Fasciola host) with a differently-ordered option set
+- ini-mcq-ch9-q094 — printed key (A, Lymnea caudi) for "the first intermediate snail host of schistosoma mansoni is?" conflicts with the standard textbook fact and with this pass's own correctly-keyed Q32 (Biomphalaria alexandrina, option D here, is S. mansoni's snail host, not Lymnaea, which is Fasciola's) -- very likely a source-side answer-table misalignment
+- ini-mcq-ch9-q095 — printed key (B, Biomphelaria Alexandrena) for "the first intermediate snail host of schistosoma haematobium?" conflicts with the standard textbook fact and with this pass's own correctly-keyed Q33 (Bulinus truncatus, option A here, is S. haematobium's snail host, not Biomphalaria, which is S. mansoni's) -- very likely a source-side answer-table misalignment
+- ini-mcq-ch9-q096 — duplicate-of ini-mcq-ch9-q050 -- exact restatement (identical stem, options and key) of this pass's own Q50 (miracidium infective for the snail)
 
 ## Remaining
 (none)

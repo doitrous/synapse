@@ -45,6 +45,26 @@ export const LEAF: McqLeafSeed = {
       type: "comparison",
       aliases: ["Extrapulmonary versus intrapulmonary bronchus", "Bronchus versus bronchiole", "Clara cells"],
     },
+    {
+      // kasr-104-author-run46: fresh mint. find-existing.mjs "trachea wall
+      // layers fibro-elastic ligament" / "trachea histology" both returned
+      // "safe to create" — no pinned or live record states this leaf's own
+      // trachea-specific wall-layer detail. Grounded directly in this
+      // file's own articleId (ART-104-HIS-LARYNX-TRACHEA-BRONCHI), whose
+      // Definition section already states this exact fact — no article gap
+      // to disclose.
+      key: "trachea.wall-layers-and-cartilage-gap-bridging-structures",
+      label: "The trachea's four wall layers run mucosa, submucosa, fibrocartilaginous coat and adventitia, with the C-shaped cartilage rings' posterior gap bridged by a fibro-elastic ligament (preventing overdistension) and the trachealis muscle (constricting the lumen)",
+      definition: "The trachea, about 12 cm long, runs from the larynx to its bifurcation into the two primary bronchi. Its wall has four layers: a mucosa of respiratory epithelium over a lamina propria of loose connective tissue with elastic fibres and an elastic membrane; a submucosa of loose connective tissue with lymphoid nodules and mucous and serous glands; a fibrocartilaginous coat of about twenty C-shaped incomplete hyaline cartilage rings that keep the trachea open, whose posterior gap (facing the oesophagus) is bridged by a fibro-elastic ligament, which prevents overdistension, and by smooth trachealis muscle bundles, which constrict the lumen and increase the force of airflow during coughing and forced expiration; and an outer adventitia of loose connective tissue.",
+      objective: "List the trachea's four wall layers in order, and name the two distinct structures bridging the cartilage rings' posterior gap along with each one's own function (fibro-elastic ligament against overdistension, trachealis muscle for forced expiration).",
+      pitfall: "Crediting the trachealis muscle, rather than the fibro-elastic ligament, with preventing overdistension. The book assigns each gap-bridging structure a distinct job: the ligament resists overdistension, while the muscle actively constricts the lumen during coughing and forced expiration.",
+      subject: "resp",
+      primary: "DIS-HIS-T03",
+      secondary: ["SYS-RES-T01-S01-M01"],
+      modulePath: "104 CPS > Histology > Respiratory System > Conducting Portion",
+      type: "structural_description",
+      aliases: ["Trachea wall layers", "Fibro-elastic ligament", "Trachealis muscle"],
+    },
   ],
 
   questions: [
@@ -637,23 +657,31 @@ export const LEAF: McqLeafSeed = {
       excludeReason: "Only 3 lettered options survived extraction (B, C, D — option A's text is missing entirely), below the platform's 4-to-5-option import contract. The credited fact (intrapulmonary bronchus's smooth muscle is spirally arranged, more developed than the trachea's own posteriorly confined muscle) is already taught cleanly this same run via less-developed-spirally-arranged-smooth-muscles-are-a-featur-adbb9056's own distractor A, and via this leaf's own sourced concept text — no unique teaching content is lost.",
     },
     {
-      // kasr-104-author-run45: Conducting Portion cluster, excluded. The
-      // specific claim (a fibro-elastic ligament, distinct from the
-      // trachealis muscle, preventing tracheal overdistension) goes beyond
-      // what this leaf's own concept and this module's gross-anatomy
-      // concept (trachea.structure-relations-and-constrictions) establish
-      // — both name the trachealis muscle bridging the cartilage gap, but
-      // neither names a separate fibro-elastic ligament or credits either
-      // structure with preventing overdistension specifically (as opposed
-      // to allowing the oesophagus to distend, or to preventing collapse).
+      // kasr-104-author-run46: revisited AND CORRECTED. Run 45 excluded this
+      // for "no PDF or cached page-text access" — false. My own first
+      // re-check this run used a shell-escaped "\|" alternation in the grep
+      // pattern, which this tool's regex does not support the way a shell
+      // pipe does — that produced a false "0 hits" I initially trusted and
+      // nearly re-excluded on. Re-running with a plain "|" alternation
+      // found it immediately: histology dept book p32 states, verbatim,
+      // "Gaps between free ends of the rings face esophagus posteriorly and
+      // are bridged by fibro-elastic ligament (prevents overdistension) and
+      // by smooth trachialis muscle bundles" — an exact match for this
+      // row's own printed answer. The live article ART-104-HIS-LARYNX-
+      // TRACHEA-BRONCHI already states the same fact in its own Definition
+      // section, so this mints against that existing article rather than
+      // needing a new one.
       key: "prevent-over-distension-in-trachea-3478dfd1",
-      conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
-      difficulty: "Hard",
-      questionType: "Not sittable as extracted.",
-      learningObjective: "Not sittable as extracted.",
-      explanations: {},
-      exclude: true,
-      excludeReason: "The specific claim (a fibro-elastic ligament, distinct from the trachealis muscle, preventing tracheal overdistension) goes beyond what this leaf's own sourced concept and this module's gross-anatomy trachea concept establish. Both name the trachealis muscle bridging the C-shaped rings' open backs — one to let the oesophagus distend during swallowing, the other (this leaf's own text) crediting cartilage and collagen generally with preventing collapse — but neither credits a separate fibro-elastic ligament with preventing overdistension specifically, a different failure mode from collapse. This session had no PDF or cached page-text access to the department book, so the claim cannot be verified against the source rather than asserted from outside knowledge.",
+      conceptKey: "trachea.wall-layers-and-cartilage-gap-bridging-structures",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "Name the fibro-elastic ligament, not the trachealis muscle, elastic membrane or epithelium, as the structure the department book credits with preventing tracheal overdistension.",
+      explanations: {
+        A: "The trachealis smooth muscle also bridges the C-shaped rings' posterior gap, but the department book credits it with constricting the lumen and increasing airflow force during coughing/forced expiration — a different function from preventing overdistension.",
+        B: "Correct. The department book states directly that the fibro-elastic ligament bridging the tracheal rings' posterior gap 'prevents overdistension' (p.22 of the histology book) — the one structure this exact function is credited to, distinct from the trachealis muscle that shares the same gap.",
+        C: "The elastic membrane is a condensation of elastic fibres within the tracheal mucosa's lamina propria, a different layer entirely from the fibrocartilaginous coat's posterior gap this question turns on.",
+        D: "Respiratory epithelium lines the tracheal mucosa's free surface; it plays no structural role in bridging the cartilage rings' posterior gap or resisting overdistension.",
+      },
     },
     {
       key: "intra-pulmonary-bronchi-is-characterized-by-all-except-a-pse-f23160d8",

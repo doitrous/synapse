@@ -189,6 +189,131 @@ Prenatal Diagnosis) -- following 00-START-HERE.md's placement rule and
 this lane's own system-code precedent (`DEV`, confirmed live via the
 cloacal-membrane search hit above).
 
+## Cluster authored this pass (lane 2): pp.65-107
+
+Nervous system, general histology, cardiovascular/lymphatic and urinary/
+genital -- the next span of source (b)'s clean pp.34-169 range, read in
+page order per LANE-CARD's dispatch: QUIZ21&22 (nervous system, p65-66),
+Quiz23/Quiz24 (general histology: basement membrane, intercellular
+junctions, p68-79), QUIZ 25 (cardiovascular/lymphatic, p81-83),
+Quiz26/Quiz27 (general histology: covering/lining and glandular
+epithelium, p85-91), Quiz28 (urinary system, p93-94), a mixed-topic
+"Quiz for organ systems" interlude (p100-102, mislabeled under "Lecture
+29: Genital system" but actually spanning GI/urinary/skeletal/
+respiratory topics -- only its one on-topic urinary item is authored),
+and Quiz29's second occurrence (genital system, p104-106; its first
+occurrence at p96-98 is entirely image-dependent/matching/fill-in-the-
+blank and unusable).
+
+| Quiz | Raw Qs | Distinct usable | Held | Fill-in/matching/image (log only) | Out-of-cluster |
+|---|--:|--:|--:|--:|--:|
+| QUIZ21&22 (nervous system) | 5 | 5 | 0 | 0 | 0 |
+| Quiz23 (basement membrane) | 17 | 5 | 0 | 12 | 0 |
+| Quiz24 (junctions) | 5 | 3 | 1 | 10 (Q6-15) + 1 dup (Q4) | 0 |
+| QUIZ 25 (CVS/lymphatic) | 6 | 5 | 0 | 1 dup (Q5) | 0 |
+| Quiz26 (covering epithelium) | 8 | 4 | 0 | 3 (Q6-8) + 1 dup (Q3) | 0 |
+| Quiz27 (glandular epithelium) | 9 | 6 | 0 | 3 (Q7-9, incl. 1 dup) | 0 |
+| Quiz28 (urinary) | 5 | 5 | 0 | 0 | 0 |
+| Quiz29 [1st, p96-98] (genital) | 5 | 0 | 0 | 5 | 0 |
+| "Quiz for organ systems" [p100-102] | 6 | 1 | 0 | 0 | 5 |
+| Quiz29 [2nd, p104-107] (genital) | 5 | 4 | 1 | 0 | 0 |
+| **Total** | **71** | **38** | **2** | **35** (incl. 3 dup) | **5** |
+
+**38 questions authored** (`coverage/seeds/AUN-PMS-102/quiz-nervous-
+histology-urogenital.json` -> `question/AUN-PMS-102-quiz-nervous-
+histology-urogenital-mcq.md`). **20 newly-minted concepts** (nervous
+system 5, cardiovascular/lymphatic 5, urinary 6, genital 4 --
+`concept/AUN-PMS-102-concepts.md`) with **5 new articles**
+(`article/AUN-PMS-102-articles.md`). **18 questions reuse 14 existing
+concepts** from `docs/Kasr-Source-Imports/concept/101-ISK-mcq-
+concepts.md` (general histology is saturated per LANE-CARD.md's search-
+before-mint rule) via a sparse overlay,
+`pending-live/AUN-PMS-102-histology-overlay.md` (`+aun`, `+1`,
+`+AUN-PMS-102` tag additions only), reusing that concept's own existing
+article (`ART-101-HIS-*`, in `docs/Kasr-Source-Imports/article/101-ISK-
+histology.md`, `-2.md`, `-3.md` and `101-ISK-identification.md`) rather
+than minting a duplicate one.
+
+### Held items (this pass)
+
+- **Quiz24 Q5** (p76, "Intercellular ionic exchange is achieved by"):
+  printed key marks "Tight junction" correct, directly contradicting
+  Q2's and Q4's own printed key ("Gap junction" / "Nexus") for the
+  **identical stem** within the same quiz, and contradicting the real
+  fact (gap junctions, not tight junctions, mediate ionic exchange).
+  Held per the standing rule that a printed-key conflict is held, not
+  resolved by inference (MPT Q47 / embryology-cluster Quiz54-57 Q9/Q19
+  precedent).
+- **Quiz29 [2nd occurrence] Q1** (p104, "The widest part of the uterine
+  tube"): options A and D are both printed as "The infundibulum" --
+  collapsing 4 printed options to 3 distinct ones. Held per LANE-CARD
+  S2's floor rule (Quiz54-57 Q16/Q26 precedent), independent of the
+  underlying fact being correct (the ampulla genuinely is the widest
+  part).
+
+### Excluded, not authored (this pass)
+
+Quiz23 Q6-17 (12 fill-in-the-blank items), Quiz24 Q6-15 (10 fill-in-the-
+blank items, Q13 duplicates Q12), Quiz26 Q6-8 (3 fill-in-the-blank
+items), Quiz27 Q7-9 (3 fill-in-the-blank items, Q8=Q9 duplicate), and
+Quiz29's first occurrence (p96-98: one image-dependent drag-drop match,
+one text match with no discrete options, three fill-in-the-blank items)
+are all format-dependent or content-free without their source image/
+interaction and are logged only, matching the "Label the diagram"
+exclusion precedent from the embryology cluster. Three items are exact
+or near-exact duplicates of an authored item within this same pass
+(Quiz24 Q4 of q046, QUIZ 25 Q5 of q051, Quiz26 Q3 of q054) and are
+logged as `duplicate-of`, not authored twice. The "Quiz for organ
+systems" interlude's five non-urinary items (oesophagus x2, bone
+ossification, trachea x2) fall outside this dispatch's nervous/
+histology/urogenital/chromosome cluster and are flagged for whichever
+future lane covers GI/skeletal/respiratory anatomy.
+
+### Concept search notes (this pass)
+
+`find-existing.mjs` run for every distinct tested idea before minting
+(24 queries; key results below):
+
+- **General histology (Quiz23/24/26/27) is saturated**, confirming
+  LANE-CARD S7's warning: a broad "basement membrane" search alone
+  returned 65 existing records, dominated by
+  `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md`. Reading
+  that file directly (not just find-existing's substring matches) found
+  a same-fact concept for all 14 distinct general-histology ideas
+  tested in this pass's Quiz23/24/26/27 cluster -- every one reused via
+  overlay rather than minted (see table above). None of these 101-ISK
+  concepts are live yet (they sit in a pending Kasr batch), so the
+  overlay carries `+aun`/`+1`/`+AUN-PMS-102` tag additions against a
+  pending id per 00-START-HERE.md S3's "pending-live" pattern, following
+  the exact precedent of `docs/Alexandria-Source-Imports/pending-live/
+  AU-MED-102-histology.md`.
+- **Nervous system, cardiovascular/lymphatic, urinary and genital
+  facts had zero find-existing.mjs hits** across all 20 tested ideas
+  (spinal nerve count, neuron as functional unit, CNS subdivision, gray
+  matter, efferent nerves; heart base, arterioles, pulmonary end
+  artery, artery/vein differences, lymph vessel appearance; kidney
+  vertebral level, urethral parts x2, kidney anterior relation, ureter
+  continuity, renal pyramid location; ovarian suspension, testicular
+  coats, uterine position, vas deferens length) -- safe to create, all
+  minted new.
+- **"gap junction nexus"** (combined query) returned 0 hits, but
+  **"gap junction"** alone returned 43 records including the exact-fact
+  101-ISK concept -- a reminder that find-existing.mjs is a literal
+  substring search and a short, single-term query surfaces more than a
+  compound phrase.
+
+## Placement (this pass)
+
+The 20 newly-minted concepts split by subject: `neuro` (5, topic
+Neuroanatomy), `cvs` (5, topic Cardiovascular Anatomy), `renal` (6,
+topic Urinary System Anatomy), `gyn` (2, topic Genital System Anatomy /
+Female) and `androl` (2, topic Genital System Anatomy / Male) -- per
+00-START-HERE.md's 20-subject list and `mint-concept-id.mjs`'s
+per-subject `CON-` system codes. The 14 reused general-histology
+concepts keep their original `fnd` subject and `CON-FND-` ids from
+101-ISK, unchanged by the overlay (only `universities`/`learner_years`/
+`modules` are appended).
+
 ## Source (c): `06 EOM/Formative - PMS Week 1.pdf`
 
 9 pages, fully garbled (0-word native, `pagetext.mjs status`). OCR'd in
@@ -205,13 +330,13 @@ yet answered" states). **0/9 questions keyed.** Not authored this pass.
 | Module | Questions triaged | Keys recovered | Held (conflict/corrupted) | Distinct concepts identified | Live-hit | Pending-hit | New |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | AUN-PMS-102 (source b, pp.34-64 cluster) | 68 raw / 34 distinct usable | 34/34 (100% of the authored batch; 310/314 of the whole clean range) | 5 | 27 | 0 direct reuse (2 checked-not-merged) | 5 checked-not-merged | 27 |
+| AUN-PMS-102 (source b, pp.65-107 cluster) | 71 raw / 38 distinct usable | 38/38 (100% of the authored batch) | 2 | 34 (14 reused + 20 new) | 0 direct reuse | 14 reused (101-ISK, overlay) | 20 |
 
-Concept search this pass covered the full pp.34-64 authoring cluster (not
-a partial ~30-question slice, since this cluster's total usable count was
-already 34). pp.65-169 (nervous system, general histology, urinary/
-genital systems, chromosome theory) are triaged as part of source (b)'s
-overall key-recovery rate (98.7%) but not yet concept-searched or
-authored -- queued for the next lane.
+Concept search across both passes now covers pp.34-107 of source (b) in
+full. pp.108-169 (chromosome theory, Quiz30 -- a single 62-page quiz
+bank) are triaged as part of source (b)'s overall key-recovery rate
+(98.7%) but not yet concept-searched or authored -- queued for the next
+lane, along with the garbled pp.1-33/170-217 (needs OCR first).
 
 ## Needs Omar / open items
 
@@ -219,12 +344,20 @@ authored -- queued for the next lane.
   - PMS Week 1.pdf`) are both effectively unkeyed despite their names/
   listing as candidate sources -- worth flagging in case Omar has a true
   answer-key copy of either.
-- The 6 held items above (4-layer placental-barrier conflict, duplicate-
-  option placental-barrier-except, amniotic-fluid Q9/Q19 conflict,
-  corrupted Q18, illogical-except Q1/Q6, Klinefelter numeral ambiguity)
-  are candidates for a second-copy check.
-- pp.65-169 of `All quizzes PMS.pdf` (nervous system Quiz21&22, general
-  histology Quiz23-27, urinary/genital Quiz28-29, chromosome theory
-  Quiz30) are keyed (98.7% of the whole clean range) and page-mapped but
-  not yet authored -- queued for the next AUN-PMS-102 lane, along with
-  the garbled pp.1-33/170-217 (needs OCR first).
+- The 6 held items from the pp.34-64 pass (4-layer placental-barrier
+  conflict, duplicate-option placental-barrier-except, amniotic-fluid
+  Q9/Q19 conflict, corrupted Q18, illogical-except Q1/Q6, Klinefelter
+  numeral ambiguity) plus the 2 held items from this pp.65-107 pass
+  (Quiz24 Q5 ionic-exchange key conflict, Quiz29 [2nd] Q1 duplicate
+  options) are candidates for a second-copy check.
+- The mixed-topic "Quiz for organ systems" interlude (p100-102) has 5
+  items outside this lane's cluster (oesophagus x2, bone ossification,
+  trachea x2) -- flagged for whichever future lane covers GI/skeletal/
+  respiratory anatomy for Assiut Year 1.
+- pp.108-169 of `All quizzes PMS.pdf` (chromosome theory, Quiz30 -- a
+  single 62-page quiz bank, the largest undivided section of this
+  source) are keyed as part of the 98.7% clean-range rate and
+  page-mapped but not yet concept-searched or authored -- queued for
+  the next AUN-PMS-102 lane, a clean topic boundary immediately after
+  Quiz29's second occurrence ends at p107. The garbled pp.1-33/170-217
+  still need OCR before triage.

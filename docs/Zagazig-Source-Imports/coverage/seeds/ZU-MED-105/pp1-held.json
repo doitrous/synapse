@@ -1,0 +1,16 @@
+{
+  "lane": "ZU-MED-105",
+  "cluster": "pp1-held",
+  "header": "ZU-MED-105 · Professional Practice I — 2 held items from امتحانات سابقه.pdf pages 1-4, not authored this pass. Recorded only so ledger.mjs counts the hold; see coverage/ZU-MED-105-triage.md and coverage/ZU-MED-105-triage-keys.txt for the full reasoning.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["zu"],
+    "years": ["ZU_Y1"],
+    "module": "ZU-MED-105"
+  },
+  "questions": [
+    { "key": "pp1-past-q14-team-development-stages-exception", "hold": "held-indefensible-key — p2 \"stages of team development EXCEPT\" (A Forming, B Performing, C Adjuring, D Co-coordination); two gray-fill marks disagree (C and D both marked), render-confirmed, امتحانات سابقه.pdf" },
+    { "key": "pp1-past-q24-equity-definition", "hold": "held-malformed-source — p4 \"reduce/eliminate unfair health differences ... called\" prints only 2 options (A Equity, B Confidentiality), C/D missing, confirmed by plain text and render, امتحانات سابقه.pdf" }
+  ]
+}

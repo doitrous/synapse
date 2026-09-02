@@ -27,3 +27,42 @@ Q111.D  Q112.A  Q113.A  Q114.C  Q115.D  Q116.B  Q117.B  Q118.A  Q119.C  Q120.D
 inference needed). Remaining 208 INT papers (23 more tier 1-3 files, see
 coverage/KAU-Y2-priority-sources.md) not yet triaged — this file covers the first paper
 only.
+
+---
+
+Second paper (lane 4): EOM - End of Module INT-208 2024 ANS .pdf (sitting year 2024,
+manifest sourceId src_1904964b1c8502ef5410, corpusRelativePath "208 INT/EOM/EOM - End of
+Module INT-208 2024 ANS .pdf")
+Method: green highlight annotation on the correct option, one per question, no separate
+printed key table (unlike the 2023 paper). Recovered via `node scripts/content/pagetext.mjs
+keys <pdf> --json` (PyMuPDF span/annotation reader) — 119/120 keyed cleanly as
+`highlight-annot`, 1 unmarked (Q74, "0 marked"). Confirmed by two renders (p.1, p.16, both
+matching the tool's readings exactly by eye) before trusting the rest; a page-wide yellow
+highlight marks the question STEM on every question (a "read/reviewed" marker, not a key)
+and must not be confused with the green option highlight, which is the actual key.
+Q74 (p.16, alpha-receptor-blocker comparison stem) was rendered and confirmed genuinely
+unmarked — no green highlight on any of its four options, unlike its neighbours Q75-78,
+which each show exactly one. Held, not guessed.
+
+Q1.B      Q2.D      Q3.C      Q4.B      Q5.B      Q6.A      Q7.B      Q8.A      Q9.D      Q10.D
+Q11.D     Q12.C     Q13.C     Q14.C     Q15.B     Q16.A     Q17.C     Q18.C     Q19.A     Q20.C
+Q21.D     Q22.C     Q23.C     Q24.C     Q25.D     Q26.A     Q27.C     Q28.C     Q29.C     Q30.D
+Q31.B     Q32.A     Q33.B     Q34.C     Q35.B     Q36.D     Q37.C     Q38.A     Q39.C     Q40.D
+Q41.C     Q42.C     Q43.A     Q44.B     Q45.A     Q46.D     Q47.A     Q48.A     Q49.C     Q50.C
+Q51.B     Q52.C     Q53.B     Q54.A     Q55.C     Q56.C     Q57.C     Q58.B     Q59.D     Q60.C
+Q61.A     Q62.C     Q63.D     Q64.D     Q65.D     Q66.C     Q67.B     Q68.D     Q69.D     Q70.A
+Q71.C     Q72.D     Q73.D     Q74.?     Q75.A     Q76.B     Q77.A     Q78.B     Q79.A     Q80.B
+Q81.A     Q82.A     Q83.A     Q84.A     Q85.A     Q86.D     Q87.C     Q88.A     Q89.A     Q90.A
+Q91.B     Q92.B     Q93.B     Q94.C     Q95.A     Q96.D     Q97.C     Q98.B     Q99.C     Q100.B
+Q101.B    Q102.B    Q103.C    Q104.D    Q105.A    Q106.B    Q107.A    Q108.C    Q109.A    Q110.D
+Q111.D    Q112.A    Q113.B    Q114.B    Q115.A    Q116.B    Q117.C    Q118.B    Q119.C    Q120.C
+
+119/120 keys recovered (Q74 unmarked, held). Of these, 38 authored in this pass (lane 4,
+docs/Kasr-Source-Imports/coverage/seeds/208-INT/2024eom.json), spanning general pathology
+(growth disorders, healing, hemodynamics, techniques), bacterial/fungal/viral infections
+and autonomic pharmacology — a representative slice, not the whole paper. Many of this
+paper's remaining ~81 items duplicate 2023 EOM questions closely (same stem/options,
+different letter order or minor rewording — e.g. this paper's Q26 "Chemotaxis is..." is
+the 2023 paper's Q1 restated) or retest the same concepts from new angles; neither
+duplicates nor untriaged items were authored here and remain for a future pass. Remaining
+208 INT papers: 22 more tier 1-3 files (coverage/KAU-Y2-priority-sources.md) untriaged.

@@ -1,0 +1,42 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank Lecture 33 (Heamodynamic disorders: Embolism, ischemia and infarction) True/False-formatted rows (Quiz 33 Q16-Q20, q273-q277) -- this source PDF's only True/False question block anywhere in the 52-lecture quiz bank (confirmed by grep for '^ *True$' across all 212 pages: hits only appear on pp.134, 145, 146, 171, 183-185, 191 -- pp.134 is this block, later pages belong to future lanes' clusters). Held as format-incompatible: the emit-mcq.mjs/validate-content-batch.mjs contract requires 4-5 lettered options with a per-option explanation, which a True/False stem has no way to supply without inventing three additional distractor options and their explanations the source never tested -- the same reasoning already applied to the match-type q046 hold in an earlier cluster of this lane. Three of the five (Q16/Q17/Q18) restate facts already covered by this same lecture's authored MCQ rows: Q16 (leg-vein thrombus complicating to pulmonary embolism) duplicates Q1/Q15 (q258/q272); Q17 (fat embolism frequency) duplicates Q13 (q270, detached thrombi as the most frequent type); Q18 (pale infarct vascularity) duplicates Q5/Q9 (q262/q266, red vs pale infarct by organ blood supply). The remaining two (Q19's embolism definition, Q20's septic-thrombophlebitis/pyaemic-abscess fact) are genuinely new ideas not covered elsewhere in this lane, but are equally untranslatable into a genuine 4-5-option MCQ without fabricating a distractor set the source never printed.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q273",
+      "hold": "True/False-formatted question (Quiz 33 Q16, p133: 'A thrombus in leg veins can be complicated by pulmonary embolism' -- printed answer 'True'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed (same reasoning as the q046 match-type hold in an earlier cluster). The underlying fact is already covered by this same lecture's authored Q1 (q258, DVT after fracture complicating to pulmonary thromboembolism) and Q15 (q272, leg veins as the source of pulmonary embolism) -- not a coverage gap."
+    },
+    {
+      "key": "quizzes-2022-q274",
+      "hold": "True/False-formatted question (Quiz 33 Q17, p134: 'Fat embolism is the most common type of emboli' -- printed answer 'False'). Held as format-incompatible, same reasoning as q273. The underlying fact (fat embolism is NOT the most frequent embolism type) is already covered by this same lecture's authored Q13 (q270, detached thrombi/thromboembolism confirmed as the most frequent type) -- not a coverage gap."
+    },
+    {
+      "key": "quizzes-2022-q275",
+      "hold": "True/False-formatted question (Quiz 33 Q18, p134: 'Pale infarct occurs in highly vascular organs' -- printed answer 'False'). Held as format-incompatible, same reasoning as q273. The underlying fact (pale infarcts occur in single-blood-supply solid organs, not highly vascular/dual-supply ones) is already covered by this same lecture's authored Q5 (q262, red infarct in the dual-supply lung) and Q9 (q266, pale infarct in the single-supply kidney/heart) -- not a coverage gap."
+    },
+    {
+      "key": "quizzes-2022-q276",
+      "hold": "True/False-formatted question (Quiz 33 Q19, p134: 'Embolism means circulation of an embolus in a blood vessel.' -- printed answer 'False', since the standard definition of embolism requires the embolus to lodge/obstruct at a distant site, not merely circulate). Held as format-incompatible, same reasoning as q273. This is a genuinely new idea not duplicated elsewhere in this lane's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong definitions the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q277",
+      "hold": "True/False-formatted question (Quiz 33 Q20, p134: 'Septic thrombophlebitis plays an important role in the pathogenesis of pyaemic abscesses' -- printed answer 'True'). Held as format-incompatible, same reasoning as q273. This is a genuinely new idea not duplicated elsewhere in this lane's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong mechanisms the source never tested -- not resolvable without fabricating content."
+    }
+  ]
+}

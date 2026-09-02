@@ -1841,3 +1841,564 @@ Printed answer key on the EOM MCQ paper.
 
 ## counts_as_claim_evidence
 yes
+
+
+---
+
+# Item
+
+## id
+CIT-PERICARDIAL-EFFUSION-CLASSIFICATION-01
+
+## claim_id
+CLM-CVS-PERICARDIAL-EFFUSION-CLASSIFICATION-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q6, key p.16] Pericardial effusion due to obstruction of lymphatic drainage is classified as: B) Transudative.
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-TB-PERICARDITIS-EXUDATE-01
+
+## claim_id
+CLM-CVS-TB-PERICARDITIS-EXUDATE-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q9, key p.16] A patient with TB pericarditis is likely to have pericardial exudate that is: C) Fibrinous and hemorrhagic.
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-SUPPURATIVE-PERICARDITIS-01
+
+## claim_id
+CLM-CVS-SUPPURATIVE-PERICARDITIS-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q49, key p.16] Which type of pericarditis is most likely to follow a penetrating chest wound?: B) Suppurative pericarditis. [Q53, key p.16] Which of the following is a feature of suppurative pericarditis?: C) Purulent exudate.
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-ATHEROMA-PLAQUE-STRUCTURE-01
+
+## claim_id
+CLM-CVS-ATHEROMA-PLAQUE-STRUCTURE-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q14, key p.16] The basic lesion of atherosclerosis is the: B) Fibrous atheromatous plaque. [Q15] Which zone... contains foam cells and cholesterol?: B) Lipid zone. [Q31] In which Layers does atherosclerosis occurs?: A) Tunica intima. [Q44] The lipid zone... contains all EXCEPT: A) Collagen.
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-ATHEROSCLEROSIS-COMPLICATIONS-01
+
+## claim_id
+CLM-CVS-ATHEROSCLEROSIS-COMPLICATIONS-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q16, key p.16] Complications of atherosclerosis include all EXCEPT: C) Hypertrophic cardiomyopathy. [Q17] Limb claudication is primarily due to atherosclerosis in the: C) Popliteal artery. [Q37 vignette] smoker+HTN+calf claudication -> B) Atherosclerosis of popliteal artery. [Q51] Dystrophic calcification leads to: B) Hardening of vessels. [Q52] Atherosclerotic renal artery stenosis can lead to: C) Both (hypertension and renal infarction).
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-BENIGN-HYPERTENSION-01
+
+## claim_id
+CLM-CVS-BENIGN-HYPERTENSION-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q21, key p.16] Benign hypertension is characterized by a blood pressure below: B) 200/110 mmHg. [Q22] In benign hypertension, the kidney may show: B) Hyaline arteriolosclerosis. [Q24] The most common cause of death in benign hypertension is: C) Congestive heart failure. [Q36] Hyaline arteriolosclerosis is characteristic of: A) Benign hypertension. [Q42] order of death causes -> D) CHF -> Coronary infarction -> Cerebral hemorrhage -> Renal Failure. [Q48] Hyaline changes... due to deposition of: C) Abnormal protein. [Q55] Hyaline arteriolosclerosis is seen in: D) All of the above (malignant hypertension, diabetes, elderly normotensives).
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-PREECLAMPSIA-HYPERTENSION-RISK-01
+
+## claim_id
+CLM-CVS-PREECLAMPSIA-HYPERTENSION-RISK-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q46, key p.16] Pre-eclampsia is associated with: D) All of the above (First pregnancy, Old age, Diabetes).
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-SLEEP-APNEA-HYPERTENSION-RISK-01
+
+## claim_id
+CLM-CVS-SLEEP-APNEA-HYPERTENSION-RISK-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q47, key p.16] Sleep apnea is a risk factor for: D) All of the above (Hypertension, Stroke, Heart attack).
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-ANEURYSM-CLASSIFICATION-01
+
+## claim_id
+CLM-CVS-ANEURYSM-CLASSIFICATION-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q26, key p.16] A true aneurysm is defined as having a wall composed of: B) Complete vessel wall layers. [Q27] Fusiform aneurysm involves: B) The entire circumference. [Q28] The most common site for an atherosclerotic aneurysm is the: B) Abdominal aorta. [Q32] Complications of aneurysms include all EXCEPT: B) Improved blood flow. [Q56] A saccular aneurysm involves: B) Part of circumference.
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-DISSECTING-AORTIC-ANEURYSM-01
+
+## claim_id
+CLM-CVS-DISSECTING-AORTIC-ANEURYSM-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q29, key p.16] Dissecting aneurysm is most associated with: C) Marfan syndrome. [Q40 vignette] atherosclerosis+tearing back pain+hypotension -> C) Dissecting aortic aneurysm. [Q59] In descending aortic aneurysm, bone erosion may cause: B) Back pain.
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-RASMUSSEN-ANEURYSM-01
+
+## claim_id
+CLM-CVS-RASMUSSEN-ANEURYSM-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q30, key p.16] Rasmussen aneurysm affects the: B) Pulmonary artery in TB.
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-MYCOTIC-ANEURYSM-01
+
+## claim_id
+CLM-CVS-MYCOTIC-ANEURYSM-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q41 vignette, key p.16] fever+murmur+pulsating groin mass+Staph+ -> B) Mycotic aneurysm. [Q57] Mycotic aneurysms are most associated with: C) Infective endocarditis.
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-TAKAYASU-ARTERITIS-01
+
+## claim_id
+CLM-CVS-TAKAYASU-ARTERITIS-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q33, key p.16] Takayasu arteritis typically affects: B) Women of childbearing age. [Q58] Takayasu arteritis affects the: B) Aorta and main branches.
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-POLYARTERITIS-NODOSA-01
+
+## claim_id
+CLM-CVS-POLYARTERITIS-NODOSA-01
+
+## resource_id
+src_67efbd148b42c6593611
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Pathology CVS201 Questions (Final), Q34, key p.16] Polyarteritis nodosa most commonly involves arteries of the: C) GIT.
+
+## locator_type
+printed_page
+
+## locator_page
+16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed combined answer key on p.16 of the EOM MCQ paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes

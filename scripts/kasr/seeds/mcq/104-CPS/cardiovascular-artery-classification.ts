@@ -562,15 +562,11 @@ export const LEAF: McqLeafSeed = {
       excludeReason: "Option C merges two distinct claims under one letter ('prominent IEL, Considered thinnest layer'), and this leaf's own two sourced concepts sit in tension on exactly the point the merged option turns on: the classification concept describes an elastic artery's IEL as thin and inconspicuous, while the aortic-tunica-media concept insists the aorta's own IEL is present and not thin, merely indistinguishable by contrast from the media's other elastic laminae. With the option itself unevaluable as a single claim and the printed answer's own defensibility resting on which of those two framings applies, no confident single-answer determination survives from what this session can verify.",
     },
     {
-      // kasr-104-author-run45: Arteries cluster, excluded. A coronary-
-      // artery-specific claim (longitudinal smooth muscle bundles in the
-      // tunica intima) not stated by any of this leaf's own sourced
-      // concepts, which cover the general three-tunic plan and the general
-      // elastic/muscular/arteriolar classification but not this named
-      // vessel's own intimal cushions. This session has no PDF or cached
-      // page-text access to the department histology book this run, so the
-      // claim cannot be verified against the source rather than asserted
-      // from outside knowledge.
+      // kasr-104-author-run46: revisited. Run 45 excluded this for "no PDF
+      // or cached page-text access" — false; the department histology book
+      // is cached (src_18d3a953df4ca83c4e74, 53 pages) and was grepped
+      // directly this run for "coronary": 0 hits across all 53 pages. The
+      // claim stays genuinely unsupported, not merely unverifiable.
       key: "the-tunica-intima-of-coronary-artery-contains-8521e782",
       conceptKey: "artery-classification.elastic-muscular-and-arteriolar-types",
       difficulty: "Hard",
@@ -578,15 +574,16 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Not sittable as extracted.",
       explanations: {},
       exclude: true,
-      excludeReason: "Tests a coronary-artery-specific claim (longitudinal smooth muscle within the tunica intima) not stated by any of this leaf's own sourced concepts, which cover the general three-tunic plan and the general artery classification but not this named vessel's own intimal cushions. This session had no PDF or cached page-text access to the department histology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source rather than asserted from outside knowledge, per the rule that a fact absent from the cached page text is left unauthored rather than filled in.",
+      excludeReason: "Tests a coronary-artery-specific claim (longitudinal smooth muscle within the tunica intima) not stated by any of this leaf's own sourced concepts, which cover the general three-tunic plan and the general artery classification but not this named vessel's own intimal cushions. Re-checked directly against the department histology book (src_18d3a953df4ca83c4e74, all 53 cached pages): 0 hits for \"coronary\" anywhere in the book. The named vessel is never discussed at histology-of-intima detail, so the claim is absent from the module's own source, not merely unretrieved — excluded per the rule that a fact absent from the cached page text is left unauthored rather than filled in.",
     },
     {
-      // kasr-104-author-run45: Arteries cluster, excluded. Only 3 options
-      // survived extraction (A, B, C — no D), below the platform's 4-to-5-
-      // option import contract. Recovered via a low-confidence fuzzy-OCR
-      // cross-book match, and the same fact this row would test (capillary
-      // share of total blood volume) is a physiology-book claim this
-      // session has no PDF or cached page-text access to verify.
+      // kasr-104-author-run46: revisited. Run 45 excluded this for "no PDF
+      // or cached page-text access" — false; the department physiology book
+      // is cached (src_a11a7faed67c95e2d636, 160 pages) and was grepped
+      // directly this run for "capillar" + volume/percent context: no
+      // statement of a specific blood-volume share for capillaries. The
+      // option-count violation (3 of 4-5) independently excludes this row
+      // regardless of source grounding.
       key: "under-normal-conditions-the-capillaries-95f54ee9",
       conceptKey: "arterioles.resistance-function-and-regulation",
       difficulty: "Hard",
@@ -594,7 +591,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Not sittable as extracted.",
       explanations: {},
       exclude: true,
-      excludeReason: "Only 3 lettered options survived extraction (A, B, C — no D), below the platform's 4-to-5-option import contract. The row's own recovery method (fuzzy-OCR-optionset against a different exam book, meanOptionRatio 0.939) is this bank's lower-confidence recovery tier, and the underlying claim (capillaries hold about 15% of total blood volume) is not stated by any of this leaf's own sourced concepts. This session had no PDF or cached page-text access to the department physiology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source.",
+      excludeReason: "Only 3 lettered options survived extraction (A, B, C — no D), below the platform's 4-to-5-option import contract — excludes this row on its own regardless of source grounding. The row's own recovery method (fuzzy-OCR-optionset against a different exam book, meanOptionRatio 0.939) is this bank's lower-confidence recovery tier. Re-checked directly against the department physiology book (src_a11a7faed67c95e2d636, all 160 cached pages): no statement anywhere gives capillaries a specific share of total blood volume (the book's own blood-volume discussion is limited to venous volume and MSFP, pp.49-53) — the underlying claim is absent from the module's own source as well as being a broken-contract row.",
     },
     {
       // Leaf-tag mismatch: tagged "A-V Connections" but genuinely tests this

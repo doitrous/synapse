@@ -605,3 +605,77 @@ full. **39 of 44 authored, 5 held.**
   question file) -- `errors=0`, `rejected=0`.
 - Chapter 6 ("General virology," 102 items) is now **fully triaged and
   authored end to end**: 94 authored, 8 held, 0 remaining.
+
+## Lane 11 -- Chapter 9 "Trematodes" Q22-98 (closing the chapter)
+
+Lane 11's cluster: the remainder of chapter 9 (pp.89-100), Q22 through Q98
+(77 items), the exact resume point lane 7 recorded above. All 77 are read
+and keyed -- the plain-text ANSWERS table (pp.99-100) was cross-checked
+position-by-position two ways (`pagetext.mjs show` display and a direct
+`pdftotext -layout` extraction parsed programmatically into a number->letter
+map), both agreeing on all 98 keys.
+
+| Module | Questions read | Keys recovered | Authored | Held | Concepts -- new |
+|---|--:|--:|--:|--:|--:|
+| AUN-INI-105 (ch9, Q22-98 of 98) | 77 | 77 (100%) | 33 | 44 | 27 |
+
+- **32 authored on newly minted concepts** (appended to this lane's own
+  `concept/AUN-INI-105-ch9-concepts.md` and `article/AUN-INI-105-ch9-
+  article.md`, four new sections plus 27 new `definition_of` annotations,
+  each verified by script as a verbatim substring of its section body) --
+  `question/AUN-INI-105-ch9b-mcq.md`. **1 more authored via pending-live**
+  (Q51, reusing the pending MUST opportunistic-parasite concept
+  `CON-INF-C79E84EB999C31`, already overlaid for this lane by chapter 8 --
+  no new overlay row needed) -- `pending-live/AUN-INI-105-ch9b-must-
+  questions.md`.
+- **44 held.** The source bank recycles a small set of core facts (snail
+  hosts, habitats, transmission routes, the pathology-agent fact,
+  hermaphroditism) across many pages, several verbatim -- Q78-98 in
+  particular largely re-runs the Q27-Q40 pattern almost item-for-item. 24
+  are near/exact duplicates of facts already authored either earlier in
+  this same pass or by lane 7's Q1-21 (e.g. Q22 restates Q1's mutualism/
+  symbiosis fact; Q31/Q63/Q82 each restate Q14's "eggs drive schistosomiasis
+  pathology" fact a second, third and fourth time). 4 are printed-key-vs-
+  textbook conflicts, each corroborated by this bank's *own* internal
+  consistency rather than external teaching alone: Q39's transmission key
+  contradicts the near-identical Q38, keyed correctly by the same source;
+  Q41's Fasciola-cercaria-type key (furcocercous) contradicts this bank's
+  own Q48 (leptocercous = simple tail) and Q73 (furcocercous = Schistosoma
+  specifically), further corroborated by a pending Helwan concept stating
+  Lymnaeid/planorbid snails (Fasciola's family) shed leptocercous cercariae;
+  Q94/Q95's snail-host keys for S. mansoni/S. haematobium each contradict
+  this very pass's own correctly-keyed Q32/Q33 -- likely one answer-table
+  row misaligned by one position. 6 are short of the seed schema's 4-option
+  floor (Q42, Q43, Q44, Q57, Q58, Q59, Q76 all print only 3 options). 2 have
+  source-side option-text defects: Q70 splits the species name "Schistosoma
+  mansoni" across separate A/B options, leaving no valid 4-option set; Q79's
+  stem is truncated ("...trematodes inhibit?" with no object).
+- **New concepts this pass (27):** snail intermediate hosts by species
+  (Biomphalaria/Bulinus/Lymnaea/Pirenella conica); habitat, transmission
+  route and infective stage by species (Fasciola's bile ducts and
+  plant-borne route; Heterophyes heterophyes's small intestine, smallest-
+  trematode size and fish-eating reservoir hosts; Schistosoma's skin-
+  penetration/furcocercous-cercaria route, portal-vein staging site, and
+  each species' own oviposition site and egg spine location; the
+  mature-vs-immature-egg pathology refinement); general morphology and
+  classification (leaf-shaped body, suckers as attachment organs,
+  Heterophyes heterophyes's extra genital sucker, Schistosoma's separate
+  sexes, the mollusc-host rule for Trematoda); and host-count/cercaria
+  vocabulary (heteroxenous, monoxenous, leptocercous, miracidium-infects-
+  snail). All cleared by `find-existing.mjs` first; two searches
+  ("pirenella", "leptocercous") turned up a directly relevant pending Helwan
+  concept (`HU-GIT-301-parasitology-concepts.md`) confirming Fasciola's
+  cercaria is leptocercous, not furcocercous -- used as corroborating
+  evidence for holding Q41 rather than merged (a related but
+  differently-framed record).
+- **Gates:** `gate.mjs batch` on the own-concept question file (32 items,
+  `--with` the extended concept + article + evidence-resource files) --
+  `errors=0`. `gate.mjs batch` on the 1-item pending-live file (`--with` the
+  MUST FHB-102-2 concept + article + evidence-resource files) -- `errors=0`.
+  `gate.mjs simulate` on each file's own positional apply chain --
+  `errors=0`, `rejected=0` both times. `validate-content-batch.mjs` run
+  directly on all four files (question, pending-live, concept, article),
+  per the lane card's known-bug warning -- `errors: []` on all four.
+- **Chapter 9 ("Trematodes," 98 items) is now fully triaged and authored
+  end to end**, combining lane 7's Q1-21 and this pass's Q22-98: 49
+  authored, 49 held, 0 remaining.

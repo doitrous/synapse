@@ -51,6 +51,31 @@ export const LEAF: McqLeafSeed = {
       type: "mechanism",
       aliases: ["Starling forces", "Starling equation", "Trans-capillary filtration", "Net filtration pressure"],
     },
+    {
+      // Sparse reuse, not a fresh mint: this exact canonical_key already has
+      // a hand-authored, pinned record in 104-CPS-physiology-concepts.md
+      // (CON-CVS-2C65CCE1C08853, module_subject "Vascular Function", same
+      // article as the two concepts above), found via find-existing.mjs
+      // "lymph drainage mechanisms" returning "safe to create" only because
+      // the pinned record surfaces under its own aliases ("Mechanisms of
+      // lymph drainage" / "Functions of the lymphatic circulation"),
+      // confirmed by reading the record directly before declaring this.
+      // Declaring the same key here makes resolveConceptId resolve to the
+      // pinned id and emit a sparse reuse row — every other field below is
+      // inert for the build, kept only to satisfy the McqConcept type, and
+      // restated close to the pinned record's own wording (book pp.58-59).
+      key: "lymphatic-circulation.drainage-mechanisms-and-functions",
+      label: "Lymph forms because capillary filtration normally exceeds absorption, and valve-fitted peristaltic lymphatics, the skeletal muscle pump and negative intrathoracic pressure drive about 2-4 L/day of it back into the great veins",
+      definition: "Normally the fluid efflux across the capillary wall exceeds the fluid influx, and this extra fluid enters the lymphatics and drains back to the blood; normal lymph flow is 2-4 L/day. Three mechanisms drive lymph drainage: collecting lymphatics have smooth muscle and one-way valves, and their peristaltic contraction is the main force pushing lymph centrally; contraction of the surrounding skeletal muscles squeezes lymph centrally; and negative intra-thoracic pressure sucks lymph upwards. Lymphatics drain excess filtered fluid not recovered at the venous end of the capillary, carry proteins and large particles away from the tissue spaces, transport absorbed long-chain fatty acids and cholesterol from the intestine, and remove bacteria, delivering them to lymph nodes.",
+      objective: "Name the three mechanisms that drive lymph centrally toward the great veins (peristaltic contraction of valved collecting lymphatics, the skeletal muscle pump, negative intrathoracic pressure) and state that lymph drainage depends on negative, not positive, intrathoracic pressure.",
+      pitfall: "Reversing the intrathoracic-pressure direction: it is NEGATIVE intrathoracic pressure that sucks lymph upward toward the great veins, not positive pressure, which would oppose lymph flow rather than assist it.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Vascular Function",
+      type: "mechanism",
+      aliases: ["Mechanisms of lymph drainage", "Functions of the lymphatic circulation"],
+    },
   ],
 
   questions: [
@@ -165,6 +190,26 @@ export const LEAF: McqLeafSeed = {
         C: "Correct. Nervous tissue is supplied by continuous capillaries, the least permeable of the three types, with a tightly joined, unbroken endothelium that lets nothing cross except by transport through the cell itself — the structural basis of the blood-brain barrier.",
         D: "Fenestrated capillaries without a diaphragm (fenestrae with no covering diaphragm at all) are the pattern seen in the renal glomerulus, not nervous tissue.",
       },
+    },
+    // kasr-104-author-run46: bank-tagged "Lymph node", genuinely this
+    // file's own lymphatic-circulation physiology content (leaf-mismatch
+    // reroute) — no printed key (answerConfidence: editorial-no-printed-key)
+    // but verified directly against the department physiology book (p.60,
+    // "Mechanisms that help drainage of lymph") before authoring.
+    {
+      key: "all-of-the-following-help-drainage-of-lymph-except-6cd27447",
+      conceptKey: "lymphatic-circulation.drainage-mechanisms-and-functions",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify that POSITIVE intrathoracic pressure does not help lymph drainage — the book credits NEGATIVE intrathoracic pressure with sucking lymph upward — as the exception among the genuine lymph-drainage mechanisms.",
+      explanations: {
+        A: "The exception, and the answer. The department book credits NEGATIVE intra-thoracic pressure with sucking lymph upward toward the great veins (p.60) — positive intrathoracic pressure would oppose that flow, not help it, making this the false statement among otherwise genuine mechanisms.",
+        B: "True, so not the exception. Contraction of the skeletal muscles surrounding the lymphatics squeezes lymph centrally, one of the book's own three named drainage mechanisms.",
+        C: "True, so not the exception. The peristaltic contraction of the collecting lymphatics is the book's own stated main factor pushing lymph centrally.",
+        D: "True, so not the exception. Valves in the lymphatic wall allow lymph to flow in only one direction (centrally) and prevent it flowing backwards, exactly as the book states.",
+      },
+      answerOverride: "A",
+      answerOverrideReason: "No printed key exists in the bank (answerConfidence: editorial-no-printed-key). Re-verified directly against the department physiology book (p.60, 'Mechanisms that help drainage of lymph'): the book names peristaltic contraction of collecting lymphatics, contraction of surrounding skeletal muscles, and NEGATIVE intra-thoracic pressure as the three genuine mechanisms — 'positive intrathoracic pressure' is the reverse of what the book actually credits, confirming option A as the exception.",
     },
   ],
 }

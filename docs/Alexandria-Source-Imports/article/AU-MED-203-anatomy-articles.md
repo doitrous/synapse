@@ -116,6 +116,12 @@ Among the dural folds, the tentorium cerebelli is the intermediate fold between 
 
 The cavernous sinus itself receives a fuller anatomical treatment. Its lateral wall carries the oculomotor, trochlear, ophthalmic and maxillary nerves (but NOT the facial nerve, which takes an entirely separate course through the temporal bone), while the abducens nerve and internal carotid artery run freely within its body; inferiorly and medially it is related to the sphenoid bone and its air sinus. The anterior and posterior intercavernous sinuses connect the two cavernous sinuses across the midline, running within the borders of the diaphragma sellae and forming, together with the cavernous sinuses, a venous ring called the circular sinus — though, unlike the cavernous sinuses themselves, the intercavernous sinuses are not bilaterally paired structures. Cavernous sinus thrombosis, most often from spread of facial/paranasal infection, classically produces ophthalmoplegia (squint), proptosis (exophthalmos), and can progress to death if untreated.
 
+Continuing directly past Q50, the Week 1 EOM Final's second half (Q51-100) extends the dural-fold/venous-sinus grid with several further discriminations. A dural fold itself is formed by reduplication of the dura's inner, MENINGEAL layer alone (not by pairing it with the outer periosteal layer, which stays applied to bone), and the tentorium cerebelli's ATTACHED (peripheral) margin reaches the transverse sulcus along the occipital/parietal/petrous-temporal bones, distinct from its FREE margin's own anterior clinoid process attachment. Among the falx cerebri's three carried sinuses (superior sagittal on its attached border, inferior sagittal on its free border, straight at its posterior junction with the tentorium), the occipital sinus is the odd one out, belonging instead to the falx cerebelli; and of the single midline sinuses (occipital, intercavernous, basilar plexus), the cavernous sinus alone is bilaterally paired. The cavernous sinus's own venous communications and pathology receive further detail: the superior ophthalmic vein is the valveless conduit linking it to the facial vein (the anatomical route for danger-triangle infections to spread), while an abnormal direct arteriovenous communication between the internal carotid artery and the sinus (a carotid-cavernous fistula, distinct from thrombosis) produces pulsating exophthalmos; and its true immediate relations put the internal carotid artery WITHIN the sinus's body, not superior to it as sometimes misdescribed, with the sphenoid bone and air sinus as its genuine inferomedial relations.
+
+A parallel facial-nerve/scalp cluster in this same half extends the module's cranial-nerve grid. The facial nerve (CN VII) is the sole motor supply to the face and, embryologically, to every second-pharyngeal-arch derivative (the muscles of facial expression, stapedius, stylohyoid, posterior belly of digastric); orbicularis oculi's ORBITAL part is the one that stays tonically active for forceful, sustained lid closure (including during sleep), distinct from its palpebral part's light blink. Two 'buccal branch' nerves are routinely confused: the mandibular (trigeminal) buccal branch is purely SENSORY to the cheek, while the facial nerve's own buccal branch is purely MOTOR to the facial muscles — and a facial nerve lesion, by paralysing buccinator and orbicularis oris, produces both drooling and food-pocketing in the vestibule of the mouth together, while orbicularis oris on its own is the muscle essential for pronunciation. Vascular and nerve-branch pairs round out this cluster: the facial artery's own branches (labial, nasal, angular) exclude both the infraorbital artery (a maxillary-artery branch) and the lingual artery (a direct external-carotid branch); the ophthalmic (V1) nerve's own branches (supraorbital, supratrochlear, infratrochlear, lacrimal) exclude the infraorbital nerve (a maxillary/V2 branch); the great auricular nerve (C2-C3, cervical plexus) supplies skin over the angle of the mandible, distinct from the trigeminal and facial nerves; and this source specifically credits the zygomaticotemporal nerve (V2) for anterior-scalp sensory loss, alongside the module's already-established occipital-artery/posterior-scalp and supratrochlear-supraorbital/anterior-scalp facts.
+
+The posterior triangle of the neck and its immediate neighbours receive a dedicated cluster. Its floor is formed together by splenius capitis, levator scapulae and scalenus medius, its one true muscular content is the INFERIOR belly of omohyoid (the superior belly instead lying in the anterior triangle), and dissecting down to a mass confined within it reaches skin, platysma and the investing layer of deep fascia but not the prevertebral fascia, which lies deep to the triangle's floor entirely. The accessory nerve (CN XI), having already branched to sternocleidomastoid before crossing the triangle, paralyses trapezius alone if injured at that level — complementing sternocleidomastoid's own already-established action (ipsilateral head tilt, contralateral face rotation, dividing the neck into anterior and posterior triangles). Nearby, the retromandibular vein's anterior division joins the facial vein (onward to the internal jugular vein) while its posterior division joins the posterior auricular vein to form the external jugular vein, whose own dangerous point lies roughly 1½ inches above the clavicle where it pierces the deep cervical fascia (risking air embolism from a penetrating injury there); the ansa cervicalis (C1-C3) supplies omohyoid alongside sternohyoid and sternothyroid; and digastric's intermediate tendon characteristically perforates stylohyoid, a separate fact from its already-established dual (V3/CN VII) innervation. Rounding out this region, the vertebral artery, after leaving the atlas's foramen transversarium, runs within the suboccipital triangle (not the posterior triangle proper); the carotid sheath's contents are the common/internal carotid arteries, internal jugular vein and vagus nerve, but NOT the sympathetic chain, which lies posterior to the sheath in the prevertebral fascia; emissary veins are the valveless vessels directly connecting scalp veins to the dural venous sinuses through skull foramina; and the head and neck's lymphatic drainage splits into a superficial (transverse) pericervical collar (submental, submandibular, preauricular — but NOT pretracheal, a deep-group node) and a deep (vertical) chain that includes the retropharyngeal nodes.
+
 ## published_summary
 
 
@@ -295,6 +301,37 @@ CON-NEU-B1C6C40BD3A509
 CON-NEU-BCEB5307771256
 CON-NEU-C4B0A8489B265C
 CON-NEU-C867DCBD689779
+CON-NEU-F3FB27700BE4CF
+CON-NEU-55414891CA46FB
+CON-NEU-182720E0F0F0C3
+CON-NEU-87308E84EC5296
+CON-NEU-2877B4F8771424
+CON-NEU-818A4F14FD6378
+CON-NEU-16C4408D38EC18
+CON-NEU-681FDB1E55A5A0
+CON-NEU-EE9C1F8648A1C6
+CON-NEU-0A90A49264068F
+CON-NEU-B893B7C48F2154
+CON-NEU-F59B0F0B0797C9
+CON-NEU-94153A6816FFE9
+CON-NEU-35A269034066EB
+CON-NEU-BA080161837F03
+CON-NEU-E30CEA00BB4C3F
+CON-NEU-BBDC83EF719120
+CON-NEU-78EF99889CE564
+CON-NEU-BEC73868FF964D
+CON-NEU-1EC086DA9BFBE9
+CON-NEU-AA3EC009F3BC6E
+CON-NEU-24A31F97048FBC
+CON-NEU-02BEAF5AB68C54
+CON-NEU-C299342502BEE2
+CON-NEU-B9B3A32EDA3C42
+CON-NEU-F2AA9E14F64076
+CON-NEU-94E3325FD7E50D
+CON-NEU-0BC37627246BB5
+CON-NEU-16964870332712
+CON-NEU-5437A2F1BF3461
+CON-NEU-55AC808921C89F
 
 ## related_articles
 

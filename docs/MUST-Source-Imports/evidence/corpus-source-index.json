@@ -1,11 +1,11 @@
 {
-  "note": "Minimal shared corpus source index \u2014 module lanes append their own sources here rather than replacing the file. Holds MUST-CVS-201 (3 EOM papers, from manifest/y2-sources.json) and MUST-FHB-102-2 (governed local-source evidence and direct visual reads) so far.",
+  "note": "Minimal shared corpus source index — module lanes append their own sources here rather than replacing the file. Holds MUST-CVS-201 (3 EOM papers, from manifest/y2-sources.json) and MUST-FHB-102-2 (governed local-source evidence and direct visual reads) so far.",
   "generatedFrom": [
     "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json",
     "docs/MUST-Source-Imports/manifest/y2-sources.json"
   ],
   "manifestGeneratedOn": "2026-09-02",
-  "count": 38,
+  "count": 39,
   "sources": {
     "src_b9989e9ef3c314f6c771": {
       "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -906,6 +906,30 @@
       "sha256": "79f275c14b581a4187c2abaea87db3015cc327f7e37c7eaa4a649851eb7da412",
       "processingStatus": "visually_read_native_text",
       "pageCount": 10,
+      "languages": [
+        "en"
+      ],
+      "exclusionReason": null,
+      "universityId": "must",
+      "yearIds": [
+        "MUST_Y2"
+      ],
+      "moduleIds": [
+        "MUST-CVS-201"
+      ],
+      "categories": [
+        "MCQ",
+        "EOM Exam"
+      ]
+    },
+    "src_67efbd148b42c6593611": {
+      "sourceRelativePath": "Semester 201/CVS 201/Pathology/06 EOM Exams/EOM MCQs - Pathology CVS201 Questions (Final).pdf",
+      "sourceRelativePaths": [
+        "Semester 201/CVS 201/Pathology/06 EOM Exams/EOM MCQs - Pathology CVS201 Questions (Final).pdf"
+      ],
+      "sha256": "67efbd148b42c6593611e30ae4117f31edfea2d095b7c6e962f7d47cd7cdba83",
+      "processingStatus": "visually_read_native_text",
+      "pageCount": 19,
       "languages": [
         "en"
       ],

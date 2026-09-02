@@ -2217,3 +2217,1008 @@ Block: body
 ### definition_of · CON-FND-D7B70CF66505F4
 Quote: Selective beta2-adrenomimetics, despite their receptor selectivity, can still produce tachycardia as a side-effect
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-TISSUE-REPAIR-FACTORS
+
+## title
+Wound healing: first versus second intention, the factors that decide the outcome, and keloid
+
+## arabic_title
+شفاء الجروح: النية الأولى مقابل الثانية، والعوامل المحددة للنتيجة، والجُدرة
+
+## aliases
+Tissue repair: Factors affecting and complications
+Lecture 29
+First and second intention healing
+Keloid formation
+
+## subject
+fnd
+
+## topic
+Tissue repair: Factors affecting and complications
+
+## subtopic
+First versus second intention, healing factors, keloid
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 29 follows Lecture 27's regeneration-versus-organization classification with the two ways a wound actually closes and the factors that swing the outcome between them. Healing by first intention (primary union) happens in a clean, apposed wound such as a sutured incision, needs little granulation tissue and carries few complications; healing by second intention happens across a larger, gaping defect, needs abundant granulation tissue and wound contraction, and carries more complications. What decides which pathway a given wound follows, and how well it goes, includes apposing the edges (sutures help) against corticosteroid therapy, poor tissue perfusion and bacterial contamination (all of which impair healing). A firm, non-tender, well-demarcated nodule of fibroblasts and abundant collagen appearing weeks after a clean stab-wound repair, with intact overlying epithelium, is a different, exaggerated-collagen outcome of the same repair process: keloid formation.
+
+## sections
+### Definition
+Healing by first intention (primary union) occurs in a clean, incised wound whose edges are closely apposed -- needing only a thin fibrin seal and minimal granulation tissue, healing quickly with few complications. Healing by second intention occurs across a larger tissue defect whose edges cannot be apposed -- an abscess cavity or an area of ulceration -- and needs abundant granulation tissue to fill the gap, healing by wound contraction over a longer time with more complications. A clean surgical wound with apposed edges is the standard example of a lesion that does NOT heal by second intention, since its edges are close enough for primary union instead.
+
+### Mechanism
+Apposing the wound edges -- for example with sutures -- helps healing by minimising the gap the repair process must bridge, favouring first-intention repair with less granulation tissue and fewer complications. Corticosteroid therapy impairs healing by suppressing the inflammatory and fibroblastic phases of repair; decreased tissue perfusion impairs healing by limiting the oxygen and nutrient delivery repair depends on; and the presence of bacteria impairs healing by prolonging the inflammatory phase and directly damaging newly formed tissue. Keloid formation is an exaggerated variant of the same repair process: fibroblasts lay down abundant, disorganised collagen well beyond the original wound margin, producing a firm, raised, non-tender nodule under intact epithelium, distinct from a foreign-body response, a fistula or a wound infection.
+
+### Key determinants
+A 19-year-old man's stab-wound repair, two months on, showing a firm 3x2 cm nodule of fibroblasts and abundant collagen under intact, non-tender, non-erythematous epithelium, matches keloid formation rather than a foreign-body reaction to suturing (which would show giant cells and refractile material, not this fibroblast/collagen picture), a fistula (an abnormal tract, not a solid nodule) or a staphylococcal wound infection (which would show erythema, tenderness and typically pus, not a firm painless mass). A 20-year-old woman's calf laceration, closed with sutures and healing uneventfully over a week, is expected to do well specifically because apposition -- not corticosteroid therapy, decreased perfusion or bacterial contamination -- is the factor present.
+
+### Clinical significance
+Recognising which pathway a wound is expected to follow predicts its complication risk and cosmetic result: a surgical incision closed cleanly should heal by first intention with a fine scar, while a large soft-tissue defect, an abscess cavity or an ulcer will need second-intention healing, with the attendant higher complication rate and longer course clinicians should anticipate and counsel for. Identifying the modifiable factors -- avoiding unnecessary corticosteroids, optimising perfusion, controlling bacterial contamination, and apposing edges surgically where possible -- is the practical lever for improving a wound's healing outcome. A firm post-wound nodule of fibroblasts and collagen under intact skin should be read as keloid, not as infection or a foreign-body reaction, before reflexively re-exploring or treating it as sepsis.
+
+### Common misconceptions
+Assuming a surgical wound heals by second intention because an instrument caused it, rather than by whether its edges are apposed. Assuming granulation tissue and complication rates are the same for both pathways, when second intention specifically means more granulation tissue and more complications precisely because of the larger defect it must fill. Assuming any wound-care factor could only be neutral, rather than recognising apposition as specifically helpful and corticosteroids, poor perfusion and bacterial contamination as specifically harmful. Misreading a firm, non-tender, collagen-rich post-wound nodule with intact overlying epithelium as a foreign-body response, a fistula or an infection instead of keloid formation.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+First intention needs apposed edges, minimal granulation tissue, fewer complications, faster healing; second intention needs a larger defect, abundant granulation tissue, wound contraction, more complications, slower healing.
+A clean surgical wound with apposed edges does NOT heal by second intention.
+Apposing edges (sutures) helps wound healing; corticosteroid therapy, decreased tissue perfusion and bacterial contamination impair it.
+A firm, non-tender nodule of fibroblasts and abundant collagen appearing weeks after a clean wound, under intact epithelium, is keloid formation.
+
+## lose_the_mark
+Classifying a wound's healing pathway by mechanism of injury rather than by whether its edges are apposed.
+Reversing which pathway has more granulation tissue and more complications.
+Naming corticosteroid therapy, decreased perfusion or bacterial contamination as helping healing, or sutures/apposition as impairing it.
+Misreading a firm collagen-rich post-wound nodule under intact skin as a foreign-body reaction, fistula or infection instead of keloid.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-DA7931EDFB7CDF
+CON-FND-FEDFC8ABD0A7E9
+CON-FND-3C513E02CB8362
+
+## related_articles
+ART-FND-AUN-MPT104-TISSUE-REPAIR
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 29 (Tissue repair: Factors affecting and complications) -- no department slide deck exists in the corpus past Lecture 8, so the two mints here cite the quiz bank's own printed-answer text instead. The keloid grain (Quiz 29 Q1) reuses a pending Helwan HU-BMS-102 concept (CON-FND-3C513E02CB8362) rather than minting a twin; that concept's own article_ids entry (ART-HU-BMS102-PAT-F143-REPAIR) is a dangling reference inside the Helwan family-143 concept batch itself, so the reusing AUN-MPT-104 question cites this article instead, appended to that concept's article_ids via the pending-live overlay so the library_ids-coverage check has a real article to point to.
+
+## annotations
+### definition_of · CON-FND-DA7931EDFB7CDF
+Quote: A clean surgical wound with apposed edges is the standard example of a lesion that does NOT heal by second intention, since its edges are close enough for primary union instead.
+Block: body
+
+### definition_of · CON-FND-FEDFC8ABD0A7E9
+Quote: Apposing the wound edges -- for example with sutures -- helps healing by minimising the gap the repair process must bridge, favouring first-intention repair with less granulation tissue and fewer complications.
+Block: body
+
+### definition_of · CON-FND-3C513E02CB8362
+Quote: Keloid formation is an exaggerated variant of the same repair process: fibroblasts lay down abundant, disorganised collagen well beyond the original wound margin, producing a firm, raised, non-tender nodule under intact epithelium
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-1
+
+## title
+Sympathetic antagonists 1: alpha and beta blockade, subtype selectivity and pheochromocytoma
+
+## arabic_title
+مضادات الودي 1: حصار ألفا وبيتا، الانتقائية الفرعية، والفيوكروموسيتوما
+
+## aliases
+Sympathetic nervous system (antagonists) 1
+Lecture 30
+Alpha blockers
+Beta blockers
+
+## subject
+fnd
+
+## topic
+Sympathetic nervous system (antagonists) 1
+
+## subtopic
+Alpha/beta blockade, subtype selectivity, pheochromocytoma
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 30 turns from sympathetic agonists to antagonists: drugs that block alpha- and/or beta-adrenoceptors. Labetalol blocks both alpha1 and beta receptors together, unlike a pure beta-blocker such as propranolol. Among the alpha1-selective agents, prazosin dilates arterioles and veins (useful in hypertension and BPH, but prone to first-dose postural hypotension), while tamsulosin's alpha1A subtype selectivity makes it the preferred choice specifically for BPH, and doxazosin's long, roughly 36-hour duration supports once-daily dosing. Clonidine works differently again, stimulating presynaptic alpha2 autoreceptors to inhibit further norepinephrine release. Phentolamine, a nonselective alpha1/alpha2 antagonist, pairs with a beta blocker such as nadolol to manage pheochromocytoma's combined alpha- and beta-mediated catecholamine excess. Underlying all of this is the alpha1 receptor's own Gq-coupled signalling: stimulation raises IP3 and DAG, increasing intracellular calcium.
+
+## sections
+### Definition
+Labetalol is an antihypertensive that antagonises both alpha1-adrenoceptors and beta-adrenoceptors, combining the peripheral vasodilation of alpha1 blockade with the reduced heart rate and cardiac output of beta blockade -- the property that distinguishes it from a pure beta-blocker such as propranolol, which has no alpha1-blocking action of its own. Prazosin is a selective alpha1-adrenoceptor antagonist: it blocks epinephrine's alpha1-mediated mydriasis (without affecting epinephrine's beta-mediated heart-rate or stroke-volume effects), dilates arterioles and veins, and is beneficial in benign prostatic hypertrophy (BPH) by relaxing prostatic and bladder-neck smooth muscle -- though its abrupt vasodilation on the first dose can cause postural hypotension with dizziness and fainting.
+
+### Mechanism
+Among the alpha1 blockers, subtype selectivity matters clinically: tamsulosin is selective for the alpha1A subtype that predominates in prostatic/bladder-neck smooth muscle, making it the most appropriate choice specifically for BPH among the options, with comparatively less vascular alpha1 blockade than a nonselective agent. Doxazosin, another alpha1 blocker, has a long duration of action of about 36 hours, supporting once-daily dosing. Clonidine acts through a different receptor: it stimulates presynaptic alpha2-adrenoceptors, which function as autoreceptors providing negative feedback -- their stimulation inhibits further norepinephrine release from the sympathetic nerve ending, the mechanism behind clonidine's centrally-mediated antihypertensive effect. Phentolamine is a nonselective alpha-adrenoceptor antagonist, blocking both alpha1 and alpha2 receptors and lowering blood pressure through this combined action; paired with a beta blocker such as nadolol, it treats pheochromocytoma by controlling both the alpha-mediated vasoconstriction/hypertension and the beta-mediated tachycardia the tumour's catecholamine excess drives. At the receptor level, alpha1-adrenoceptors are Gq-protein-coupled: their stimulation activates phospholipase C, generating IP3 and DAG as second messengers, with IP3 releasing calcium from intracellular stores to raise cytosolic calcium.
+
+### Key determinants
+A 34-year-old man on labetalol for hypertension experiences a cardiovascular effect from combined alpha1 and beta blockade, not beta blockade alone. Prazosin, given for hypertension or BPH, is expected to cause postural hypotension and dizziness specifically after the first dose, dilate both arterioles and veins, and remain beneficial (not contraindicated) in a patient with BPH. A 14-year-old given IV phentolamine mesylate receives it because it decreases blood pressure by blocking both alpha1 and alpha2 receptors -- its nonselective mechanism -- while a hypertensive patient prescribed prazosin should be warned about first-dose postural hypotension as a known effect, not treated as an unrelated adverse event.
+
+### Clinical significance
+Choosing labetalol over propranolol for a patient in whom alpha1 blockade's added vasodilation is desirable, or tamsulosin over prazosin when the treatment goal is specifically BPH symptom relief with less blood-pressure effect, both depend on recognising each drug's specific receptor-selectivity profile rather than treating "alpha blocker" or "beta blocker" as one interchangeable class. Pheochromocytoma management specifically requires alpha blockade (e.g. phentolamine) before or together with beta blockade (e.g. nadolol) -- never a beta blocker started first or alone, which would leave the tumour's alpha-mediated vasoconstriction unopposed. Warning a patient starting prazosin about the first-dose postural-hypotension effect, and dosing accordingly, avoids a preventable fall or syncope.
+
+### Common misconceptions
+Treating labetalol as just another beta-blocker like propranolol, missing its defining added alpha1-blocking action. Assuming any alpha1 blocker is equally suited to BPH, rather than recognising tamsulosin's alpha1A subtype selectivity as the specific reason it is preferred. Assuming alpha2-receptor stimulation (as with clonidine) enhances rather than inhibits further norepinephrine release, or confusing a presynaptic autoreceptor's negative-feedback role with a postsynaptic receptor's excitatory one. Believing prazosin is not beneficial in BPH, or that phentolamine's mechanism is alpha1-selective rather than nonselective (alpha1 and alpha2 together). Confusing alpha1's Gq/IP3/DAG/calcium signalling with the Gs/cAMP pathway of beta receptors.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Labetalol blocks both alpha1 and beta receptors; propranolol blocks beta receptors only.
+Prazosin blocks epinephrine's alpha1-mediated mydriasis, dilates arterioles and veins, benefits BPH, and can cause first-dose postural hypotension.
+Tamsulosin's alpha1A subtype selectivity makes it the preferred alpha blocker for BPH; doxazosin's duration of action is about 36 hours.
+Clonidine stimulates presynaptic alpha2 autoreceptors, inhibiting further norepinephrine release.
+Phentolamine is a nonselective alpha1/alpha2 antagonist; combined with a beta blocker (e.g. nadolol), it treats pheochromocytoma.
+Alpha1-receptor stimulation raises IP3 and DAG, increasing intracellular calcium (Gq-coupled signalling).
+
+## lose_the_mark
+Naming only beta blockade, not combined alpha1+beta blockade, as labetalol's mechanism.
+Naming a drug or action prazosin does not have, or claiming prazosin is not beneficial in BPH.
+Choosing any alpha1 blocker other than tamsulosin as most appropriate for BPH via alpha1A selectivity, or misstating doxazosin's duration of action.
+Reversing clonidine's presynaptic alpha2 effect (claiming it enhances rather than inhibits norepinephrine release).
+Selecting an alpha-blocker-only or beta-blocker-only combination for pheochromocytoma instead of a combined alpha+beta pair.
+Naming a Gs/cAMP pathway instead of Gq/IP3/DAG/calcium for alpha1-receptor signalling.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-336D4E2FB4FDE2
+CON-FND-1E5ADF2DEB83AF
+CON-FND-04576C33B4A433
+CON-FND-122E61D54D6B33
+CON-FND-60671E2F8BA372
+CON-FND-EE37B17A3F012A
+CON-FND-72AE046215C924
+CON-FND-533365E0002414
+CON-FND-079D093B2D302D
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 30 (Sympathetic nervous system (antagonists) 1) -- no department slide deck exists in the corpus past Lecture 8, so all nine mints cite the quiz bank's own printed-answer text instead. Q5 (least likely clinical use of alpha1-adrenoceptor antagonists, printed key "Benign prostatic hypertrophy") is held: this same lecture's own Q3 (tamsulosin for BPH via alpha1A selectivity) and Q11 (prazosin confirmed beneficial in BPH) directly contradict BPH as a "least likely" alpha-blocker use, a printed-key/pharmacology conflict.
+
+## annotations
+### definition_of · CON-FND-336D4E2FB4FDE2
+Quote: Labetalol is an antihypertensive that antagonises both alpha1-adrenoceptors and beta-adrenoceptors, combining the peripheral vasodilation of alpha1 blockade with the reduced heart rate and cardiac output of beta blockade
+Block: body
+
+### definition_of · CON-FND-1E5ADF2DEB83AF
+Quote: Prazosin is a selective alpha1-adrenoceptor antagonist: it blocks epinephrine's alpha1-mediated mydriasis (without affecting epinephrine's beta-mediated heart-rate or stroke-volume effects)
+Block: body
+
+### definition_of · CON-FND-04576C33B4A433
+Quote: tamsulosin is selective for the alpha1A subtype that predominates in prostatic/bladder-neck smooth muscle, making it the most appropriate choice specifically for BPH among the options
+Block: body
+
+### definition_of · CON-FND-122E61D54D6B33
+Quote: Doxazosin, another alpha1 blocker, has a long duration of action of about 36 hours, supporting once-daily dosing
+Block: body
+
+### definition_of · CON-FND-60671E2F8BA372
+Quote: Clonidine acts through a different receptor: it stimulates presynaptic alpha2-adrenoceptors, which function as autoreceptors providing negative feedback -- their stimulation inhibits further norepinephrine release from the sympathetic nerve ending
+Block: body
+
+### definition_of · CON-FND-EE37B17A3F012A
+Quote: paired with a beta blocker such as nadolol, it treats pheochromocytoma by controlling both the alpha-mediated vasoconstriction/hypertension and the beta-mediated tachycardia the tumour's catecholamine excess drives
+Block: body
+
+### definition_of · CON-FND-72AE046215C924
+Quote: alpha1-adrenoceptors are Gq-protein-coupled: their stimulation activates phospholipase C, generating IP3 and DAG as second messengers, with IP3 releasing calcium from intracellular stores to raise cytosolic calcium
+Block: body
+
+### definition_of · CON-FND-533365E0002414
+Quote: Phentolamine is a nonselective alpha-adrenoceptor antagonist, blocking both alpha1 and alpha2 receptors and lowering blood pressure through this combined action
+Block: body
+
+### definition_of · CON-FND-079D093B2D302D
+Quote: Prazosin, given for hypertension or BPH, is expected to cause postural hypotension and dizziness specifically after the first dose, dilate both arterioles and veins, and remain beneficial (not contraindicated) in a patient with BPH
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## title
+Hemodynamic disorders: hyperemia, congestion, thrombosis and Virchow's triad
+
+## arabic_title
+اضطرابات الدورة الدموية: الاحتقان، الازدحام الوريدي، تجلط الدم، وثالوث فيرشو
+
+## aliases
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+Lecture 31
+Phlebothrombosis
+Lines of Zahn
+
+## subject
+fnd
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Hyperemia, congestion, phlebothrombosis, thrombus morphology
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 31 opens the hemodynamics block with the vocabulary of altered blood flow and its solid consequence, thrombus. Active hyperemia is an active, arteriolar-dilation-driven increase in arterial inflow -- blushing is the standard example -- distinct from chronic general venous congestion, a passive backup of systemic venous blood caused by right-sided heart failure. Phlebothrombosis names thrombus formation specifically in a non-inflamed vein, classically precipitated by immobilization, and a detached venous thrombus travels with venous return to lodge in the lung as a pulmonary embolus. Within the thrombus itself, Lines of Zahn -- alternating pale, platelet-rich layers -- mark it as having formed in flowing blood during life, and Virchow's triad (endothelial injury, stasis, hypercoagulability) names the three broad predisposing factors behind its formation.
+
+## sections
+### Definition
+Active hyperemia is an increase in blood flow into a tissue caused by arteriolar dilation, an active physiological process -- blushing is the standard example, distinct from passive congestion, where impaired venous outflow, not increased arterial inflow, causes blood to accumulate. Chronic general (systemic) venous congestion occurs when the right side of the heart fails to pump venous return forward effectively, backing blood up in the systemic venous system; right-sided heart failure is its classic cause, distinct from a localized cause of venous obstruction such as compression by a tumour or enlarged lymph node.
+
+### Mechanism
+Phlebothrombosis is thrombus formation within a non-inflamed vein -- distinguishing it from thrombophlebitis, where the thrombus forms in a vein already inflamed -- and immobilization (venous stasis, one arm of Virchow's triad) is a classic precipitating factor. A thrombus that forms in the systemic venous circulation and detaches travels with venous blood flow back to the right heart and into the pulmonary circulation, lodging in the lung as a pulmonary embolus -- the pathway that makes the lung, not a systemic organ, the destination of a detached venous thrombus. Within a thrombus that formed in flowing blood during life, Lines of Zahn -- alternating pale, platelet-rich layers laid down in sequence -- distinguish it from a postmortem clot, which lacks this layered structure. Virchow's triad names the three broad factors predisposing to this thrombus formation: endothelial injury, stasis or turbulence of flow, and hypercoagulability of the blood.
+
+### Key determinants
+A 22-year-old student's red face after being questioned in lecture is active hyperemia (arteriolar dilation), not passive congestion, oedema or haemorrhage. A 60-year-old woman with a femoral fracture who develops left-leg swelling, warmth, pain and tenderness three weeks later is showing phlebothrombosis in the femoral vein, precipitated by immobilization -- and if that thrombus detaches, it embolises to the lung, not to a systemic organ, as a pulmonary embolus. A thrombus's Lines of Zahn (platelet layers) confirm it formed during life, distinguishing it from a postmortem clot; a soft mass of blood constituents that forms in stagnant blood during life is properly called a thrombus, and Virchow's triad explains why it formed there.
+
+### Clinical significance
+Recognising active hyperemia (a benign, reversible, physiological vasodilation) against a background of hemodynamic pathology avoids over-interpreting a blush as a sign of disease. Recognising post-fracture limb swelling and tenderness as phlebothrombosis, driven by immobilization, is the clinical trigger for anticoagulation and mobilization measures to prevent its most feared complication, pulmonary embolism -- the destination a detached venous thrombus specifically travels to. Applying Virchow's triad (endothelial injury, stasis, hypercoagulability) to a patient's risk profile -- surgery, immobility, malignancy, inherited thrombophilia -- is the standard framework for anticipating and preventing thrombosis before it occurs.
+
+### Common misconceptions
+Confusing active hyperemia (arteriolar dilation, increased arterial inflow) with passive venous congestion (impaired venous outflow), or with the post-ischaemic subtype, reactive hyperemia, specifically. Confusing phlebothrombosis (non-inflamed vein) with thrombophlebitis (already-inflamed vein). Assuming a detached venous thrombus travels to a systemic organ such as the brain or kidney, rather than to the lung via the right heart. Naming red blood cells, fibrin alone or white blood cells, rather than platelets, as the pale-layer component of Lines of Zahn. Applying Virchow's triad to embolus, ecchymosis or haematoma formation rather than to thrombus formation specifically, or calling a solid mass formed from blood constituents during life a "clot" rather than a "thrombus."
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Active hyperemia is arteriolar-dilation-driven increased arterial inflow (e.g. blushing); passive congestion is impaired venous outflow.
+Chronic general venous congestion is caused by right-sided heart failure.
+Phlebothrombosis forms in a non-inflamed vein, classically from immobilization; a detached venous thrombus embolises to the lung.
+Lines of Zahn (platelet layers) mark an antemortem thrombus, distinct from a postmortem clot.
+Virchow's triad (endothelial injury, stasis, hypercoagulability) concerns thrombus formation specifically.
+
+## lose_the_mark
+Confusing active hyperemia with passive congestion, or with reactive (post-ischaemic) hyperemia specifically.
+Naming a localized cause (tumour/lymph node compression) instead of right-sided heart failure for chronic general venous congestion.
+Confusing phlebothrombosis with thrombophlebitis, or naming a destination other than the lung for a detached venous thrombus.
+Naming red blood cells, fibrin alone or white blood cells as the component of Lines of Zahn instead of platelets.
+Applying Virchow's triad to embolus/ecchymosis/haematoma instead of thrombus formation, or calling an antemortem intravascular mass a "clot."
+
+## callout_evidence
+
+## related_concepts
+CON-FND-B74CD5B149F399
+CON-FND-11AE7596C68944
+CON-FND-38DC299E60FE95
+CON-FND-7C0F3DB1C2FE5E
+CON-FND-E1D44B7FCA92D9
+CON-FND-9968E677B951D2
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 31 (Heamodynamic disorders: Hyperemia, congestion and thrombosis) -- no department slide deck exists in the corpus past Lecture 8, so all six mints cite the quiz bank's own printed-answer text instead. Q7 (least likely candidate for a "clot ... during life" definition, printed key "clot") is held: this lecture's own teaching (Q2/Q5 phlebothrombosis, Q6 Lines of Zahn, Q8 Virchow's triad) consistently uses "thrombus," not "clot," for an antemortem intravascular solidification -- "clot" instead denotes a postmortem or extravascular coagulum -- a printed-key/pathology-vocabulary conflict.
+
+## annotations
+### definition_of · CON-FND-B74CD5B149F399
+Quote: Active hyperemia is an increase in blood flow into a tissue caused by arteriolar dilation, an active physiological process -- blushing is the standard example, distinct from passive congestion, where impaired venous outflow, not increased arterial inflow, causes blood to accumulate
+Block: body
+
+### definition_of · CON-FND-11AE7596C68944
+Quote: Phlebothrombosis is thrombus formation within a non-inflamed vein -- distinguishing it from thrombophlebitis, where the thrombus forms in a vein already inflamed -- and immobilization (venous stasis, one arm of Virchow's triad) is a classic precipitating factor
+Block: body
+
+### definition_of · CON-FND-38DC299E60FE95
+Quote: Chronic general (systemic) venous congestion occurs when the right side of the heart fails to pump venous return forward effectively, backing blood up in the systemic venous system; right-sided heart failure is its classic cause
+Block: body
+
+### definition_of · CON-FND-7C0F3DB1C2FE5E
+Quote: A thrombus that forms in the systemic venous circulation and detaches travels with venous blood flow back to the right heart and into the pulmonary circulation, lodging in the lung as a pulmonary embolus
+Block: body
+
+### definition_of · CON-FND-E1D44B7FCA92D9
+Quote: Within a thrombus that formed in flowing blood during life, Lines of Zahn -- alternating pale, platelet-rich layers laid down in sequence -- distinguish it from a postmortem clot, which lacks this layered structure
+Block: body
+
+### definition_of · CON-FND-9968E677B951D2
+Quote: Virchow's triad names the three broad factors predisposing to this thrombus formation: endothelial injury, stasis or turbulence of flow, and hypercoagulability of the blood
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-2
+
+## title
+Sympathetic antagonists 2: esmolol, propranolol and diabetes, and acebutolol's ISA
+
+## arabic_title
+مضادات الودي 2: إسمولول، بروبرانولول ومرض السكري، والنشاط الودي الجزئي للأسيبوتولول
+
+## aliases
+Sympathetic nervous system (antagonists) 2
+Lecture 32
+Beta blocker selection
+
+## subject
+fnd
+
+## topic
+Sympathetic nervous system (antagonists) 2
+
+## subtopic
+Beta blocker selection: esmolol, propranolol, acebutolol
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 32 continues sympathetic antagonists with three beta-blocker-selection scenarios. Esmolol's ultra-short, easily-titratable action makes it the preferred beta blocker for acute perioperative tachycardia. Propranolol needs extra caution in insulin-treated diabetics, not because it causes hyperglycemia, but because it masks the adrenergic warning symptoms of hypoglycemia. Acebutolol combines beta1 selectivity, intrinsic sympathomimetic activity (ISA) and a membrane-stabilizing property -- and it is specifically that partial-agonist ISA that can worsen exertional angina, by blunting the full heart-rate-lowering effect beta blockade is meant to provide during exercise.
+
+## sections
+### Definition
+Esmolol is a cardioselective beta blocker with an ultra-short duration of action, metabolised rapidly by plasma esterases -- a property that makes it the preferred agent for controlling acute, easily-titratable perioperative tachycardia and extrasystoles. Propranolol, a nonselective beta blocker, is used with extra caution in insulin-treated diabetics because it masks the adrenergic warning symptoms of hypoglycemia (tachycardia, tremor, palpitations), not because it directly causes hyperglycemia.
+
+### Mechanism
+Esmolol's brief, rapidly reversible action, distinct from longer-acting beta blockers, is specifically what suits it to the acute perioperative setting, where a drug that can be titrated and stopped quickly is needed. Propranolol's masking effect works by blunting the adrenergic (sympathetic) response that normally alerts a patient to falling blood glucose -- the real diabetic concern with nonselective beta blockade is this concealment of hypoglycemia, not a direct metabolic effect raising blood sugar. Acebutolol combines beta1 selectivity, intrinsic sympathomimetic activity (ISA -- partial agonism, providing low-level receptor stimulation even while blocking the receptor) and a membrane-stabilizing property; because ISA means acebutolol does not fully suppress beta-receptor activity the way a pure antagonist does, it can worsen exertional angina pectoris by blunting the full heart-rate- and workload-lowering effect that beta blockade is meant to provide during exercise.
+
+### Key determinants
+A patient with postoperative tachycardia and extrasystoles after recovery from general anaesthesia is best managed with esmolol, given its ultra-short, titratable action, over other beta blockers with a longer duration. A hypertensive, insulin-treated diabetic patient needs propranolol used with extra caution specifically because it masks hypoglycemia's adrenergic warning symptoms -- the false statement to reject is that propranolol "causes hyperglycemia." A patient needing beta1 selectivity plus ISA plus membrane-stabilizing action points to acebutolol; and it is acebutolol's own ISA, among these beta blockers, that would be expected to worsen exertional angina.
+
+### Clinical significance
+Choosing esmolol over a longer-acting beta blocker for acute perioperative arrhythmia control avoids over-titration risk in a setting where rapid reversibility matters. Recognising that propranolol's diabetic risk is masking, not causing, hypoglycemia-adjacent symptoms changes patient counselling: the warning is to monitor blood glucose more directly, since the usual adrenergic warning signs may not appear. Avoiding a partial-agonist (ISA-containing) beta blocker such as acebutolol in a patient with exertional angina, in favour of a beta blocker without ISA, better protects against exercise-induced angina by fully suppressing the heart-rate response.
+
+### Common misconceptions
+Choosing a longer-acting beta blocker over esmolol for acute perioperative arrhythmia control, missing esmolol's specific titratability advantage. Believing propranolol's diabetic concern is that it directly causes hyperglycemia, rather than that it masks hypoglycemia's adrenergic warning symptoms. Treating intrinsic sympathomimetic activity as a neutral or purely beneficial property, rather than recognising that it can specifically worsen exertional angina by blunting full beta blockade.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Esmolol's ultra-short, titratable action makes it the preferred beta blocker for acute perioperative tachyarrhythmia.
+Propranolol masks the adrenergic warning symptoms of hypoglycemia in insulin-treated diabetics; it does not cause hyperglycemia.
+Acebutolol is beta1-selective with intrinsic sympathomimetic activity (ISA) and a membrane-stabilizing property; its ISA can worsen exertional angina.
+
+## lose_the_mark
+Choosing a longer-acting beta blocker instead of esmolol for acute perioperative tachyarrhythmia.
+Believing propranolol causes hyperglycemia in diabetics, rather than masking hypoglycemia's warning symptoms.
+Naming a beta blocker other than acebutolol for the beta1-selective/ISA/membrane-stabilizing profile, or missing that ISA specifically can worsen exertional angina.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-B7FEBDE2C2B183
+CON-FND-18D519B39F98A4
+CON-FND-BB97C931CB8423
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 32 (Sympathetic nervous system (antagonists) 2) -- no department slide deck exists in the corpus past Lecture 8, so all three mints cite the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-B7FEBDE2C2B183
+Quote: Esmolol is a cardioselective beta blocker with an ultra-short duration of action, metabolised rapidly by plasma esterases -- a property that makes it the preferred agent for controlling acute, easily-titratable perioperative tachycardia and extrasystoles
+Block: body
+
+### definition_of · CON-FND-18D519B39F98A4
+Quote: Propranolol, a nonselective beta blocker, is used with extra caution in insulin-treated diabetics because it masks the adrenergic warning symptoms of hypoglycemia (tachycardia, tremor, palpitations), not because it directly causes hyperglycemia
+Block: body
+
+### definition_of · CON-FND-BB97C931CB8423
+Quote: Acebutolol combines beta1 selectivity, intrinsic sympathomimetic activity (ISA -- partial agonism, providing low-level receptor stimulation even while blocking the receptor) and a membrane-stabilizing property; because ISA means acebutolol does not fully suppress beta-receptor activity the way a pure antagonist does, it can worsen exertional angina pectoris
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## title
+Embolism, ischaemia and infarction: DVT to PE, embolus types, and infarct patterns
+
+## arabic_title
+الانصمام ونقص التروية والاحتشاء: من تجلط الأوردة إلى الانصمام الرئوي، وأنواع الصمات وأنماط الاحتشاء
+
+## aliases
+Heamodynamic disorders: Embolism, ischemia and infarction
+Lecture 33
+Infarct colour and necrosis type
+
+## subject
+fnd
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Embolism types, ischaemia, infarct colour and necrosis pattern
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+10
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 33 completes the hemodynamics block by tracing a thrombus through to its downstream consequences. Immobilization produces deep vein thrombosis via venous stasis, and a leg-vein DVT is the classic source of pulmonary thromboembolism -- the most frequent type of embolism overall, ahead of fat embolism (from bone fracture) and air embolism (from an open neck-vein injury). Once a vessel is occluded, whether infarction follows depends on acute onset plus poor collateral circulation; solid organs with a single blood supply (kidney, spleen) infarct pale and undergo coagulative necrosis, while dual-supply organs (lung) infarct red, and the brain is the standard exception, undergoing liquefactive rather than coagulative necrosis. Atherosclerosis is the commonest cause of the underlying chronic ischaemia.
+
+## sections
+### Definition
+An embolus is a detached intravascular mass -- solid, liquid or gaseous -- carried by the bloodstream from its point of origin to a distant site, distinct from a thrombus (the mass before detachment), an infarct (the resulting necrosis) and a clot (a non-thrombus coagulum). Deep vein thrombosis of the leg veins, most often precipitated by immobilization through venous stasis, is the classic source of pulmonary thromboembolism, since a detached venous thrombus travels via the right heart into the pulmonary circulation.
+
+### Mechanism
+Among embolus types, detached thrombi (thromboembolism) are the most frequent overall, ahead of fat embolism, which classically originates from a long-bone fracture releasing marrow fat into torn venules, and air embolism, which arises from an open, low-pressure venous injury near the heart such as a neck vein stab wound. Infarction results from acute ischaemia occurring specifically in the presence of poor collateral circulation, since good collaterals or a gradual onset can maintain enough perfusion to prevent necrosis; atherosclerosis, through progressive arterial narrowing, is the commonest underlying cause of the chronic ischaemia this depends on. The colour of an infarct tracks the organ's vascular supply: a pale (anaemic) infarct occurs in a solid, single-blood-supply organ such as the kidney or heart, while a red (hemorrhagic) infarct occurs in a dual-blood-supply organ such as the lung, where a second blood source re-enters the necrotic zone. The necrosis pattern within an infarct is usually coagulative -- cell outlines preserved, cellular detail lost, as in kidney or spleen -- except in the brain, whose lipid-rich, stroma-poor tissue instead undergoes liquefactive necrosis.
+
+### Key determinants
+A 76-year-old woman with a hip fracture who develops leg swelling two weeks later is at risk of pulmonary thromboembolism, the expected complication of an immobilization-driven deep vein thrombosis; a 55-year-old woman with a venogram-confirmed leg DVT after a week of reduced mobility has venous stasis, not turbulent flow or hypercalcemia, as the mechanism. A neck vein stab wound specifically raises suspicion for air embolism, not fat or tumour emboli. A pyramidal, pale renal lesion with preserved cell outlines but lost cellular detail, and a tan-white wedge-shaped splenic lesion with its base on the capsule after septic embolism from endocarditis, are both coagulative necrosis -- while a cerebral infarct is expected to show liquefactive necrosis instead. Cerebral infarction itself is liquefactive necrosis; a red infarct is expected in the lung, a pale infarct in the kidney or heart.
+
+### Clinical significance
+Recognising immobilization as a DVT risk factor, and DVT as a pulmonary-embolism risk factor, is the basis for prophylactic anticoagulation and early mobilization after major fracture or surgery. Suspecting air embolism specifically after an open neck-vein injury changes immediate management (positioning, aspiration) compared with a fat- or thrombus-embolism scenario. Predicting an infarct's likely colour (pale in a single-supply solid organ, red in a dual-supply organ) and necrosis pattern (coagulative except in brain) guides the expected histological and imaging picture, and recognising atherosclerosis as the commonest chronic-ischaemia driver focuses risk-factor modification (lipids, blood pressure, smoking) as the mainstay of prevention.
+
+### Common misconceptions
+Assuming any acute vessel occlusion causes infarction regardless of collateral status, rather than requiring the specific combination of acute onset and poor collaterals. Reversing which organs show red versus pale infarcts, or forgetting that the brain is the standard exception to the solid-organ coagulative-necrosis rule. Assuming fat embolism, because it is a well-known named entity, is more frequent overall than ordinary thromboembolism. Confusing embolus, thrombus, infarct and clot as interchangeable terms rather than four distinct steps/entities in the same causal chain.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Immobilization causes DVT via venous stasis; a leg-vein DVT is the classic source of pulmonary thromboembolism.
+An embolus is a detached intravascular mass carried by the blood to a distant site; detached thrombi are the most frequent embolus type, ahead of fat (bone fracture) and air (neck vein injury) emboli.
+Infarction requires acute ischaemia with poor collateral circulation; atherosclerosis is the commonest cause of chronic ischaemia.
+Pale infarcts occur in single-blood-supply solid organs (kidney, heart); red infarcts occur in dual-blood-supply organs (lung).
+Solid-organ infarcts (kidney, spleen) undergo coagulative necrosis; cerebral infarction is the exception, undergoing liquefactive necrosis.
+
+## lose_the_mark
+Naming a mechanism other than venous stasis for immobilization-related DVT, or a destination other than the lung for a detached venous thrombus.
+Confusing embolus, thrombus, infarct and clot, or naming fat/air embolism as more frequent overall than thromboembolism.
+Assuming any acute occlusion causes infarction without regard to collateral circulation, or naming a cause other than atherosclerosis as commonest for chronic ischaemia.
+Reversing red-infarct and pale-infarct organ examples.
+Naming coagulative necrosis for a cerebral infarct, or liquefactive necrosis for a kidney/spleen infarct.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-EF6008CE1515E5
+CON-FND-9175888AAAC2F0
+CON-FND-AA58C1D1394257
+CON-FND-2048DC4715C0DE
+CON-FND-456F4BFCEAFBD8
+CON-FND-3DC23DAEB405BC
+CON-FND-D8BF76229CC959
+CON-FND-F1AE9BB7549A71
+CON-FND-FA99A919A9BB4E
+CON-FND-C6E88AC53F7F2B
+CON-FND-7B4DA968F5BE76
+CON-FND-E4AEBC2AA036D4
+CON-FND-E6A4425324881A
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 33 (Heamodynamic disorders: Embolism, ischemia and infarction) -- no department slide deck exists in the corpus past Lecture 8, so all thirteen mints cite the quiz bank's own printed-answer text instead. This is the source PDF's only True/False-formatted quiz range (Q16-Q20, q273-q277): held as format-incompatible with this platform's 4-5-option MCQ contract (no genuine distractor set exists to convert them into, the same reasoning applied to the match-type q046 hold in an earlier cluster of this lane) -- three (Q16/Q17/Q18, testing DVT-to-PE, thromboembolism frequency and infarct-colour-by-vascularity respectively) restate facts already covered by this same lecture's MCQ rows (Q1/Q15, Q13, Q5+Q9), and two (Q19's embolism definition, Q20's septic-thrombophlebitis-and-pyaemic-abscess fact) are genuinely new ideas but equally untranslatable without inventing options the source never tested.
+
+## annotations
+### definition_of · CON-FND-EF6008CE1515E5
+Quote: Deep vein thrombosis of the leg veins, most often precipitated by immobilization through venous stasis, is the classic source of pulmonary thromboembolism, since a detached venous thrombus travels via the right heart into the pulmonary circulation
+Block: body
+
+### definition_of · CON-FND-9175888AAAC2F0
+Quote: a 55-year-old woman with a venogram-confirmed leg DVT after a week of reduced mobility has venous stasis, not turbulent flow or hypercalcemia, as the mechanism
+Block: body
+
+### definition_of · CON-FND-AA58C1D1394257
+Quote: An embolus is a detached intravascular mass -- solid, liquid or gaseous -- carried by the bloodstream from its point of origin to a distant site, distinct from a thrombus (the mass before detachment), an infarct (the resulting necrosis) and a clot (a non-thrombus coagulum)
+Block: body
+
+### definition_of · CON-FND-2048DC4715C0DE
+Quote: A neck vein stab wound specifically raises suspicion for air embolism, not fat or tumour emboli
+Block: body
+
+### definition_of · CON-FND-456F4BFCEAFBD8
+Quote: a red (hemorrhagic) infarct occurs in a dual-blood-supply organ such as the lung, where a second blood source re-enters the necrotic zone
+Block: body
+
+### definition_of · CON-FND-3DC23DAEB405BC
+Quote: a cerebral infarct is expected to show liquefactive necrosis instead. Cerebral infarction itself is liquefactive necrosis
+Block: body
+
+### definition_of · CON-FND-D8BF76229CC959
+Quote: fat embolism, which classically originates from a long-bone fracture releasing marrow fat into torn venules
+Block: body
+
+### definition_of · CON-FND-F1AE9BB7549A71
+Quote: Infarction results from acute ischaemia occurring specifically in the presence of poor collateral circulation, since good collaterals or a gradual onset can maintain enough perfusion to prevent necrosis
+Block: body
+
+### definition_of · CON-FND-FA99A919A9BB4E
+Quote: a pale (anaemic) infarct occurs in a solid, single-blood-supply organ such as the kidney or heart
+Block: body
+
+### definition_of · CON-FND-C6E88AC53F7F2B
+Quote: atherosclerosis, through progressive arterial narrowing, is the commonest underlying cause of the chronic ischaemia this depends on
+Block: body
+
+### definition_of · CON-FND-7B4DA968F5BE76
+Quote: A pyramidal, pale renal lesion with preserved cell outlines but lost cellular detail, and a tan-white wedge-shaped splenic lesion with its base on the capsule after septic embolism from endocarditis, are both coagulative necrosis
+Block: body
+
+### definition_of · CON-FND-E4AEBC2AA036D4
+Quote: atherosclerosis, through progressive arterial narrowing, is the commonest underlying cause of the chronic ischaemia this depends on
+Block: body
+
+### definition_of · CON-FND-E6A4425324881A
+Quote: Among embolus types, detached thrombi (thromboembolism) are the most frequent overall, ahead of fat embolism
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## title
+Autacoids 1: serotonin, histamine and drug interactions in nausea and allergy management
+
+## arabic_title
+الأوتاكويدات 1: السيروتونين والهيستامين وتفاعلات الأدوية في علاج الغثيان والحساسية
+
+## aliases
+Autacoids 1
+Lecture 34
+Serotonin and histamine pharmacology
+
+## subject
+fnd
+
+## topic
+Autacoids 1
+
+## subtopic
+Serotonin/histamine receptors, CYP450 interaction, antihistamine sedation
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 34 opens the autacoids block with serotonin and histamine pharmacology and a classic drug-interaction case. A 5HT2 receptor blocker counteracts the bronchoconstriction and diarrhea of carcinoid syndrome, distinct from other serotonin-pathway drugs (buspirone for anxiety, sumatriptan for migraine, ondansetron as a 5HT3-blocking antiemetic). Cimetidine, a CYP450 inhibitor, raises phenytoin's half-life when co-administered, a classic drug interaction. Ondansetron, a 5HT3 antagonist, is the drug of choice for cisplatin-induced chemotherapy nausea, while ranitidine, an H2 blocker, reduces acid secretion by blocking histamine at parietal-cell H2 receptors. Finally, diphenhydramine's first-generation sedation, unlike a second-generation antihistamine, can significantly impair a driver's ability to drive.
+
+## sections
+### Definition
+Carcinoid tumours secrete excess serotonin, producing bronchoconstriction and diarrhea through serotonin's action at 5HT2 receptors; a 5HT2 receptor blocker counteracts these specific symptoms by antagonising serotonin at that receptor. Cimetidine is a cytochrome P450 (CYP450) enzyme inhibitor: in a patient taking phenytoin, an anticonvulsant metabolised by CYP450, co-administered cimetidine inhibits that metabolism, so phenytoin's half-life increases and clearance slows.
+
+### Mechanism
+Ondansetron is a selective 5HT3 receptor antagonist and the preferred drug for severe nausea from highly emetogenic chemotherapy such as cisplatin, which triggers nausea largely through serotonin acting on 5HT3 receptors in the gut and chemoreceptor trigger zone. Ranitidine, a histamine H2-receptor antagonist, works by blocking histamine binding to H2 receptors on gastric parietal cells, reducing histamine-driven acid secretion -- one step upstream of a proton pump inhibitor, which instead blocks the H+/K+-ATPase pump directly. Diphenhydramine, a first-generation antihistamine, readily crosses the blood-brain barrier and produces significant CNS sedation, unlike a second-generation antihistamine such as loratadine or fexofenadine, which are designed to minimise CNS penetration.
+
+### Key determinants
+Among four serotonin-pathway statements, only "5HT2 receptor blockers counteract bronchoconstriction and diarrhea of carcinoid" is accurate -- buspirone is a 5HT1A partial agonist for anxiety (not psychosis, not 5HT2a), sumatriptan is a 5HT1 agonist for migraine (not an antiemetic), and ondansetron is a 5HT3 antagonist used as an antiemetic (not for migraine). A patient on phenytoin who starts cimetidine for a GI ulcer is expected to show an increased phenytoin half-life, not a decreased one. A cisplatin chemotherapy patient with severe nausea should receive ondansetron, targeting the serotonin-mediated mechanism specifically, over a general antihistamine or anticholinergic antiemetic. A long-distance truck driver with allergic rhinitis is at risk of significant driving impairment specifically from diphenhydramine, not from a second-generation antihistamine such as loratadine or fexofenadine.
+
+### Clinical significance
+Recognising a 5HT2 blocker's specific role in carcinoid syndrome, distinct from other serotonin-receptor drugs with entirely different indications, avoids reaching for the wrong serotonergic agent. Anticipating cimetidine's CYP-inhibitor interaction with phenytoin (and other CYP450-metabolised drugs) prompts dose adjustment or choosing a non-interacting alternative (e.g. an H2 blocker without this property, or a proton pump inhibitor) in a patient on multiple relevant medications. Choosing ondansetron specifically for highly emetogenic chemotherapy, and an H2 blocker or proton pump inhibitor appropriately for acid-related disease, reflects matching mechanism to indication. Choosing a second-generation antihistamine over diphenhydramine for a patient who must remain alert (a driver, a machine operator) avoids a preventable sedation-related accident.
+
+### Common misconceptions
+Attributing carcinoid syndrome's bronchoconstriction/diarrhea relief, migraine treatment, or antiemesis to the wrong serotonin-receptor subtype or drug. Assuming cimetidine's phenytoin interaction lowers rather than raises phenytoin's half-life. Choosing a non-5HT3-targeted antiemetic for highly emetogenic chemotherapy instead of ondansetron. Confusing an H2 blocker's histamine-receptor mechanism with a proton pump inhibitor's direct pump-blocking mechanism. Assuming all antihistamines are equally sedating, rather than distinguishing first-generation (diphenhydramine, sedating) from second-generation (loratadine, fexofenadine, non-sedating) agents -- the same distinction that makes the Q1 (q278) hold a genuine printed-key conflict, since this lecture's own Q6 confirms diphenhydramine, not a second-generation agent, is the one that impairs driving.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+A 5HT2 receptor blocker counteracts carcinoid syndrome's bronchoconstriction and diarrhea.
+Cimetidine, a CYP450 inhibitor, raises phenytoin's half-life when co-administered.
+Ondansetron (5HT3 antagonist) is the drug of choice for cisplatin-induced nausea.
+Ranitidine (H2 antagonist) blocks histamine binding to parietal-cell H2 receptors.
+Diphenhydramine, a first-generation sedating antihistamine, can significantly impair a driver's ability to drive; second-generation agents (loratadine, fexofenadine) do not share this sedation.
+
+## lose_the_mark
+Attributing carcinoid relief to a serotonin-receptor drug/subtype other than a 5HT2 blocker.
+Reversing cimetidine's phenytoin interaction (claiming it lowers rather than raises phenytoin's half-life).
+Choosing a non-5HT3-targeted antiemetic for cisplatin-induced nausea instead of ondansetron.
+Confusing H2-receptor blockade with direct H+/K+-ATPase inhibition for ranitidine's mechanism.
+Naming a second-generation antihistamine, instead of diphenhydramine, as the one that significantly impairs driving ability.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-39051880D8AFFB
+CON-FND-EB9C944D139E7A
+CON-FND-7BC222629BD73F
+CON-FND-D97F86DAF65FA2
+CON-FND-F0A43C29DC304E
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 34 (Autacoids 1) -- no department slide deck exists in the corpus past Lecture 8, so all five mints cite the quiz bank's own printed-answer text instead. Q1 (a ship's captain with seasonal allergies, printed key "Meclizine") is held: meclizine is a first-generation, sedating antihistamine primarily used for motion sickness/vertigo, an inappropriate and inconsistent choice for a patient (a ship's captain operating a vessel) who needs to remain alert -- this same lecture's own Q6 confirms a sedating first-generation antihistamine (diphenhydramine) is exactly what would impair, not suit, such a patient, and the obviously intended answer (fexofenadine, a non-sedating second-generation agent, option D) is not what the key marks. A printed-key/pharmacology conflict, held per the standing rule.
+
+## annotations
+### definition_of · CON-FND-39051880D8AFFB
+Quote: Carcinoid tumours secrete excess serotonin, producing bronchoconstriction and diarrhea through serotonin's action at 5HT2 receptors; a 5HT2 receptor blocker counteracts these specific symptoms by antagonising serotonin at that receptor
+Block: body
+
+### definition_of · CON-FND-EB9C944D139E7A
+Quote: Cimetidine is a cytochrome P450 (CYP450) enzyme inhibitor: in a patient taking phenytoin, an anticonvulsant metabolised by CYP450, co-administered cimetidine inhibits that metabolism, so phenytoin's half-life increases and clearance slows
+Block: body
+
+### definition_of · CON-FND-7BC222629BD73F
+Quote: Ondansetron is a selective 5HT3 receptor antagonist and the preferred drug for severe nausea from highly emetogenic chemotherapy such as cisplatin, which triggers nausea largely through serotonin acting on 5HT3 receptors in the gut and chemoreceptor trigger zone
+Block: body
+
+### definition_of · CON-FND-D97F86DAF65FA2
+Quote: Ranitidine, a histamine H2-receptor antagonist, works by blocking histamine binding to H2 receptors on gastric parietal cells, reducing histamine-driven acid secretion
+Block: body
+
+### definition_of · CON-FND-F0A43C29DC304E
+Quote: Diphenhydramine, a first-generation antihistamine, readily crosses the blood-brain barrier and produces significant CNS sedation, unlike a second-generation antihistamine such as loratadine or fexofenadine, which are designed to minimise CNS penetration
+Block: body

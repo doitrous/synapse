@@ -59,3 +59,33 @@ its own article_ids target does not exist as an authored article anywhere in the
 a gap in Helwan's own batch; Q9 mints its own concept instead.) This file only records
 where each overlay row's target lives so Omar (or a validator lane) applies in the right
 order.
+
+## `ZU-MED-103-sf-final24-pending-overlays.md`
+
+4 sparse concept overlays (`+zu`, `+ZU-MED-103`) onto ids that exist only in another
+lane's unimported batch — none is in `server/data/medical-library-v1.json` yet (checked
+directly against the JSON). **Apply each row only after its own named source file is
+live**:
+
+| id | Target source file | Module |
+|---|---|---|
+| `CON-FND-0A988681FF1ABF` | `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` | 101 ISK |
+| `CON-FND-D716C3939DB217` | `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` | 101 ISK |
+| `CON-FND-68DA70C4BBE2A1` | `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` | 101 ISK |
+| `CON-IMM-CCB3049ABF5021` | `docs/Ain-Shams-Source-Imports/concept/ASU-IMM-immunology-concepts.md` | ASU-IMM |
+
+None of these 2 source files were authored or touched by this lane — they are
+pre-existing pending batches from the Kasr and Ain Shams lanes. (A 5th candidate,
+`CON-FND-3660CDEFA054C3` from Kasr's 102-INT, was dropped for Q1/Q28 — its own
+`article_ids` is empty, no article covers it anywhere in the corpus; those two questions
+mint a fresh, covered concept instead, `CON-FND-9604144A11BB6A`.) This file only records
+where each overlay row's target lives so Omar (or a validator lane) applies in the right
+order.
+
+Simulate together with the target file each row applies to, e.g.:
+
+```
+node scripts/content/gate.mjs simulate \
+  docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md \
+  docs/Zagazig-Source-Imports/pending-live/ZU-MED-103-sf-final24-pending-overlays.md
+```

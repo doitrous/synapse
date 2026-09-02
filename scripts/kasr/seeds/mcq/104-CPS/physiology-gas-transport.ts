@@ -277,6 +277,43 @@ export const LEAF: McqLeafSeed = {
         D: "Skeletal muscle vasculature, like most systemic vascular beds, vasodilates in local hypoxia as part of active hyperaemia driven by falling ATP/O2 and rising vasodilator metabolites — the opposite of the pulmonary response.",
       },
     },
+    // kasr-104-author-run46: bank-tagged "Special Circulation" (leaf-
+    // mismatch reroute onto this file's own pulmonary-circulation concept
+    // — the ledger's earlier "0 hits for pulmonary vascular resistance"
+    // grep result was a false negative: this leaf's own sourced concept,
+    // pinned from CON-CVS-76412894FAD01C and evidenced against the same
+    // department physiology book (src_a11a7faed67c95e2d636), already states
+    // both facts this question turns on).
+    {
+      key: "all-of-the-following-cause-pulmonary-vasoconstriction-except-44323c47",
+      conceptKey: "pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that low alveolar PO2 and high alveolar PCO2 both cause pulmonary vasoconstriction, while nitric oxide, an endothelial vasodilator, is the exception.",
+      explanations: {
+        A: "True, so not the exception. This leaf's own sourced concept states pulmonary arterioles constrict in response to local alveolar hypoxia — low alveolar PO2 is exactly that trigger.",
+        B: "True, so not the exception. This leaf's own sourced concept names high alveolar PCO2 alongside hypoxia as a trigger for pulmonary vasoconstriction.",
+        C: "True, so not the exception. Histamine is a pulmonary vasoconstrictor — the reverse of its systemic vasodilator action, one of the pulmonary bed's several exceptions to the usual rules.",
+        D: "The exception, and the answer. Nitric oxide is an endothelial vasoDILATOR everywhere in this module's own vascular-endothelium content, not a constrictor — the opposite direction from what this EXCEPT-question asks for.",
+      },
+      answerOverride: "D",
+      answerOverrideReason: "No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept: hypoxia and high alveolar PCO2 are both explicitly named as pulmonary vasoconstriction triggers, while nitric oxide is this module's own consistently-cited endothelial vasodilator (physiology-endothelium-and-vasoactive-hormones.ts), confirming D as the exception.",
+    },
+    {
+      key: "pulmonary-vascular-resistance-f5ca3914",
+      conceptKey: "pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "State that pulmonary vascular resistance rises toward total lung capacity (not falls), and that high alveolar PCO2 raises, rather than lowers, PVR by causing vasoconstriction.",
+      explanations: {
+        A: "Correct. This leaf's own sourced concept states PVR is lowest at functional residual capacity and rises toward both total lung capacity and residual volume — confirming that PVR increases as lung volume rises toward TLC.",
+        B: "Reversed. This leaf's own sourced concept states pulmonary arterioles constrict — raising, not lowering, resistance — in response to high alveolar PCO2, the same trigger as hypoxia.",
+        C: "Overstated. Pulmonary vascular resistance is influenced by more than the arterioles alone — this leaf's own concept ties PVR to lung-volume-dependent compression of both alveolar and extra-alveolar vessels, not arteriolar tone in isolation.",
+        D: "This leaf's own sibling concept (hemodynamics.flow-pressure-resistance-relationship) states the pulmonary circulation's own resistance works out to about 1.4 mmHg/L/min, not 18 — 18 mmHg/L/min is instead the SYSTEMIC circulation's resistance, a classic pulmonary/systemic figure swap.",
+      },
+      answerOverride: "A",
+      answerOverrideReason: "The bank's own recovered answer (B, from a different solved question book, answerConfidence: external-solved-book-recovered — not a same-file printed key) directly contradicts this leaf's own sourced concept, which states pulmonary vasoconstriction (raised resistance) follows high alveolar PCO2, not a fall in resistance. Re-verified against the same concept's own PVR-by-lung-volume curve (lowest at FRC, rising toward both TLC and RV): option A is the concept's own directly-stated relationship. Overridden to A.",
+    },
 
     // --- Non-chemical (nervous) respiratory drive: shared with Control of Respiration ---
     {

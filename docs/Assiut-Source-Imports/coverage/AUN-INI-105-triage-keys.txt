@@ -678,3 +678,146 @@ ini-mcq-ch11-q161  # -- creeping eruption = non-human hookworm larvae -- reuse (
 ini-mcq-ch11-q162  # -- bare-footed soil infection EXCEPT Schistosoma (water-transmitted) -- new (CON-INF-164C9D4030DB90; same fact as unauthored Q97)
 ini-mcq-ch11-q163  # -- elephantiasis diagnosed by microfilaria in blood -- new (CON-INF-070AC9CFD60DE2; same fact as unauthored Q100)
 ini-mcq-ch11-q164  # -- Loa loa vector = Chrysops/mango fly -- new (CON-INF-145E1F440A3814; same fact as unauthored Q101)
+
+# --- Chapter 9 "Trematodes" continued, Q22-98 of 98 (lane 11; Q1-21 keys
+# are listed in the Chapter 9 block above) ---
+ini-mcq-ch9-q022  # -- HELD, duplicate-of ini-mcq-ch9-q001 (mutualism = symbiosis, both benefit)
+ini-mcq-ch9-q023  # -- HELD, duplicate-of ini-mcq-ch9-q005 (opportunistic parasite)
+ini-mcq-ch9-q024  # -- HELD, duplicate-of ini-mcq-ch9-q004 (spurious = coprozoic)
+ini-mcq-ch9-q025  # -- HELD, duplicate-of ini-mcq-ch9-q006 (definitive host = adult stage)
+ini-mcq-ch9-q026  # -- HELD, duplicate-of ini-mcq-ch9-q007 (reservoir host)
+ini-mcq-ch9-q027  # -- Schistosoma has separate sexes -- new (mint)
+ini-mcq-ch9-q028  # -- Fasciola inhabits large bile ducts -- new (mint)
+ini-mcq-ch9-q029  # -- Fasciola transmission = ingestion of metacercaria on plants -- new (mint)
+ini-mcq-ch9-q030  # -- Heterophyes heterophyes = smallest human trematode -- new (mint)
+ini-mcq-ch9-q031  # -- HELD, duplicate-of ini-mcq-ch9-q014 (main pathology agent = eggs)
+ini-mcq-ch9-q032  # -- Biomphalaria = S. mansoni snail host -- new (mint)
+ini-mcq-ch9-q033  # -- Bulinus = S. haematobium snail host -- new (mint)
+ini-mcq-ch9-q034  # -- Lymnaea = Fasciola snail host -- new (mint)
+ini-mcq-ch9-q035  # -- S. mansoni egg has lateral spine -- new (mint)
+ini-mcq-ch9-q036  # -- trematodes = leaf-shaped worms -- new (mint)
+ini-mcq-ch9-q037  # -- Heterophyes heterophyes inhabits small intestine -- new (mint)
+ini-mcq-ch9-q038  # -- Schistosoma transmission = skin penetration by furcocercous cercaria -- new (mint)
+ini-mcq-ch9-q039  # -- HELD, printed key contradicts near-identical Q38's own correct key (transmission route)
+ini-mcq-ch9-q040  # -- Pirenella conica = Heterophyes heterophyes host -- new (mint)
+ini-mcq-ch9-q041  # -- HELD, printed key (furcocercous) contradicts this bank's own Q48/Q73 and a pending Helwan concept (Fasciola's cercaria is leptocercous)
+ini-mcq-ch9-q042  # -- HELD, 3-option floor (egg spine, otherwise consistent with Q35)
+ini-mcq-ch9-q043  # -- HELD, 3-option floor (egg spine, otherwise consistent with Q35)
+ini-mcq-ch9-q044  # -- HELD, 3-option floor (Schistosoma has no redia stage)
+ini-mcq-ch9-q045  # -- diagnostic stage of S. haematobium = egg -- new (mint)
+ini-mcq-ch9-q046  # -- Fasciola infective stage = encysted metacercaria -- new (mint)
+ini-mcq-ch9-q047  # -- heteroxenous parasite = needs >1 host -- new (mint)
+ini-mcq-ch9-q048  # -- leptocercous = simple-tailed cercaria -- new (mint)
+ini-mcq-ch9-q049  # -- HELD, duplicate-of ini-mcq-ch8-q011 (paratenic host)
+ini-mcq-ch9-q050  # -- miracidium infective for the snail -- new (mint)
+ini-mcq-ch9-q051  # -- opportunistic parasite, fuller definition -- pending (MUST CON-INF-C79E84EB999C31, already overlaid)
+ini-mcq-ch9-q052  # -- Trematoda needs mollusc intermediate host -- new (mint)
+ini-mcq-ch9-q053  # -- Fasciola gigantica habitat = large bile ducts -- reuse (own mint, same concept as q028)
+ini-mcq-ch9-q054  # -- Heterophyes heterophyes has a genital sucker -- new (mint)
+ini-mcq-ch9-q055  # -- S. haematobium lacks significant reservoir hosts -- new (mint)
+ini-mcq-ch9-q056  # -- HELD, duplicate-of ini-mcq-ch8-q006 (erratic parasite)
+ini-mcq-ch9-q057  # -- HELD, 3-option floor (Schistosoma cercaria infective)
+ini-mcq-ch9-q058  # -- HELD, 3-option floor + duplicate-of ini-mcq-ch9-q046 (Fasciola infective stage)
+ini-mcq-ch9-q059  # -- HELD, 3-option floor + duplicate-of ini-mcq-ch9-q045 (diagnostic stage)
+ini-mcq-ch9-q060  # -- Schistosoma = hermaphroditism EXCEPT -- reuse (own mint, same concept as q027)
+ini-mcq-ch9-q061  # -- HELD, duplicate-of ini-mcq-ch9-q006 (definitive host = adult stage)
+ini-mcq-ch9-q062  # -- monoxenous parasite = needs 1 host -- new (mint)
+ini-mcq-ch9-q063  # -- HELD, duplicate-of ini-mcq-ch9-q014 (main pathology agent = eggs)
+ini-mcq-ch9-q064  # -- HELD, duplicate-of ini-mcq-ch9-q033 (Bulinus = S. haematobium host); blank option E
+ini-mcq-ch9-q065  # -- HELD, duplicate-of ini-mcq-ch9-q012 (operculate eggs EXCEPT Schistosoma)
+ini-mcq-ch9-q066  # -- HELD, duplicate-of ini-mcq-ch9-q050 (miracidium); garbled option A
+ini-mcq-ch9-q067  # -- mature eggs drive schistosomiasis pathology -- new (mint)
+ini-mcq-ch9-q068  # -- HELD, duplicate-of ini-mcq-ch9-q053 (Fasciola gigantica habitat)
+ini-mcq-ch9-q069  # -- HELD, duplicate-of ini-mcq-ch9-q060 (hermaphroditism EXCEPT)
+ini-mcq-ch9-q070  # -- HELD, source-side option-text defect (species name split across A/B)
+ini-mcq-ch9-q071  # -- Fasciola gigantica = small-intestine EXCEPT -- reuse (own mint, same concept as q028)
+ini-mcq-ch9-q072  # -- Heterophyes reservoir hosts = fish-eating animals -- new (mint)
+ini-mcq-ch9-q073  # -- Schistosoma infective stage = furcocercous cercaria -- reuse (own mint, same concept as q038)
+ini-mcq-ch9-q074  # -- S. haematobium habitat = urinary bladder venules -- new (mint)
+ini-mcq-ch9-q075  # -- HELD, duplicate-of ini-mcq-ch9-q046 (Fasciola infective stage) + 3-option floor
+ini-mcq-ch9-q076  # -- HELD, 3-option floor (Lymnaea cailliaudi snail host)
+ini-mcq-ch9-q077  # -- trematode attachment organs = suckers -- new (mint)
+ini-mcq-ch9-q078  # -- HELD, duplicate-of ini-mcq-ch9-q027 (Schistosoma separate sexes)
+ini-mcq-ch9-q079  # -- HELD, source-side incomplete/truncated stem
+ini-mcq-ch9-q080  # -- HELD, duplicate-of ini-mcq-ch9-q029 (Fasciola transmission)
+ini-mcq-ch9-q081  # -- HELD, duplicate-of ini-mcq-ch9-q030 (smallest trematode)
+ini-mcq-ch9-q082  # -- HELD, duplicate-of ini-mcq-ch9-q014 (main pathology agent = eggs)
+ini-mcq-ch9-q083  # -- HELD, duplicate-of ini-mcq-ch9-q032 (Biomphalaria host)
+ini-mcq-ch9-q084  # -- HELD, duplicate-of ini-mcq-ch9-q033 (Bulinus host)
+ini-mcq-ch9-q085  # -- HELD, duplicate-of ini-mcq-ch9-q034 (Lymnaea host)
+ini-mcq-ch9-q086  # -- HELD, duplicate-of ini-mcq-ch9-q036 (leaf-shaped worms)
+ini-mcq-ch9-q087  # -- HELD, duplicate-of ini-mcq-ch9-q037 (Heterophyes small intestine)
+ini-mcq-ch9-q088  # -- HELD, duplicate-of ini-mcq-ch9-q040 (Pirenella host)
+ini-mcq-ch9-q089  # -- HELD, duplicate-of ini-mcq-ch9-q044 (no redia stage) + 3-option floor
+ini-mcq-ch9-q090  # -- HELD, duplicate-of ini-mcq-ch9-q045 (diagnostic stage)
+ini-mcq-ch9-q091  # -- HELD, duplicate-of ini-mcq-ch9-q046 (infective stage)
+ini-mcq-ch9-q092  # -- Schistosoma inhabits portal vein -- new (mint)
+ini-mcq-ch9-q093  # -- HELD, duplicate-of ini-mcq-ch9-q034 (Lymnaea host)
+ini-mcq-ch9-q094  # -- HELD, printed key contradicts this pass's own correctly-keyed Q32 (S. mansoni snail host)
+ini-mcq-ch9-q095  # -- HELD, printed key contradicts this pass's own correctly-keyed Q33 (S. haematobium snail host)
+ini-mcq-ch9-q096  # -- HELD, duplicate-of ini-mcq-ch9-q050 (miracidium)
+ini-mcq-ch9-q097  # -- S. mansoni deposits eggs in large-intestinal venules -- new (mint)
+ini-mcq-ch9-q098  # -- S. haematobium deposits eggs in bladder venules -- reuse (own mint, same concept as q074)
+
+# Chapter 11 "Nematoda" (pp.112-130, 164 items, answer table wraps
+# pp.131-132; lane author10). Q1-Q56 window read and keyed against the
+# printed table; 0 held (no printed-key conflicts, no ambiguous EXCEPT, no
+# schema-floor holds, no near-verbatim duplicates in this window). STOP
+# POINT for the next lane: resume at Q57 (Onchocerca volvulus cluster
+# begins -- "Onchocerca volvulus is called?").
+ini-mcq-ch11-q001  # -- adult Ascaris sometimes found in faeces -- pending (Helwan CON-GIT-A2A06601B4D8A4)
+ini-mcq-ch11-q002  # -- Heterophyes heterophyes distribution restricted, not cosmopolitan -- new
+ini-mcq-ch11-q003  # -- Enterobius causes nocturnal enuresis -- pending (Helwan CON-GIT-45DA03F58B4D64)
+ini-mcq-ch11-q004  # -- hydatid disease not characteristically a childhood parasite -- new
+ini-mcq-ch11-q005  # -- Trichinella spiralis viviparous exception -- new
+ini-mcq-ch11-q006  # -- Oxyuris (Enterobius) oviparous exception -- new
+ini-mcq-ch11-q007  # -- Ascaris/hookworm/Strongyloides migrate through lung -- pending (Helwan CON-GIT-C4679409F59219)
+ini-mcq-ch11-q008  # -- Trichuris does not inhabit small intestine -- pending (Helwan CON-GIT-4E44AA38D16CB4)
+ini-mcq-ch11-q009  # -- guinea worm does not inhabit caecum -- new
+ini-mcq-ch11-q010  # -- trichuriasis complicated by rectal prolapse -- pending (Helwan CON-GIT-5DEAC87AB891C0)
+ini-mcq-ch11-q011  # -- Enterobius eggs hatch in duodenum -- new
+ini-mcq-ch11-q012  # -- Enterobius has no cycle outside the body -- new
+ini-mcq-ch11-q013  # -- Ascaris eggs hatch in small intestine -- new
+ini-mcq-ch11-q014  # -- Trichuris trichiura belongs to Nematoda -- new
+ini-mcq-ch11-q015  # -- Dipylidium caninum is not a nematode (cestode) -- new
+ini-mcq-ch11-q016  # -- Ancylostoma infects by skin penetration -- pending (Helwan CON-GIT-BF9B52E4E0D9D6)
+ini-mcq-ch11-q017  # -- Trichostrongylus does not enter through skin -- new
+ini-mcq-ch11-q018  # -- Ancylostoma duodenale inhabits small intestine -- new
+ini-mcq-ch11-q019  # -- Ancylostoma filariform larva is sheathed -- new
+ini-mcq-ch11-q020  # -- Ascaris pneumonitis: dyspnea/cough/eosinophilia -- pending (Helwan CON-GIT-C4679409F59219, 2nd use)
+ini-mcq-ch11-q021  # -- Ascaris lumbricoides general biology (egg maturation/giant/migratory) -- new
+ini-mcq-ch11-q022  # -- fertilized Ascaris egg immature when passed -- new
+ini-mcq-ch11-q023  # -- Enterobius vermicularis is called pin worm -- new
+ini-mcq-ch11-q024  # -- Trichuris trichiura inhabits caecum -- pending (Helwan CON-GIT-652CB5E7405E53)
+ini-mcq-ch11-q025  # -- Trichuris egg barrel-shaped/brownish/immature -- new
+ini-mcq-ch11-q026  # -- Enterobius does not lay eggs in the intestine -- new
+ini-mcq-ch11-q027  # -- Necator americanus belongs to Nematoda -- new
+ini-mcq-ch11-q028  # -- Ancylostoma vs Necator differ in geographical distribution -- new
+ini-mcq-ch11-q029  # -- Ancylostoma eggs pass immature in faeces -- new
+ini-mcq-ch11-q030  # -- Ancylostoma egg thin-shelled/translucent/immature -- new
+ini-mcq-ch11-q031  # -- cutaneous larva migrans caused by Ancylostoma caninum -- pending (Ain-Shams CON-INF-C5B97ED116A7D4)
+ini-mcq-ch11-q032  # -- Hymenolepis nana larvae not found in sputum -- new
+ini-mcq-ch11-q033  # -- visceral larva migrans due to Toxocara (dog/cat ascarid) -- new
+ini-mcq-ch11-q034  # -- Strongyloides stercoralis named dwarf thread worm -- new
+ini-mcq-ch11-q035  # -- Strongyloides differs from Ancylostoma (autoinfection/rhabditiform/free-living) -- new
+ini-mcq-ch11-q036  # -- Strongyloides infects by skin penetration (filariform larva) -- pending (Helwan CON-GIT-5D42E39D871090)
+ini-mcq-ch11-q037  # -- Strongyloides larva to adult under favourable soil conditions -- pending (Helwan CON-GIT-C963D99A43B1D0)
+ini-mcq-ch11-q038  # -- Trichostrongylus infects by ingestion of filariform larva -- new
+ini-mcq-ch11-q039  # -- Trichostrongylus egg differs from Ancylostoma by morula stage -- new
+ini-mcq-ch11-q040  # -- Strongyloides filariform larva differs from Ancylostoma's (unsheathed/notched/shorter) -- new
+ini-mcq-ch11-q041  # -- Strongyloides alone migrates outside the human body -- pending (Helwan CON-GIT-C963D99A43B1D0, 2nd use)
+ini-mcq-ch11-q042  # -- Trichinella spiralis acquired from undercooked pork -- new
+ini-mcq-ch11-q043  # -- Trichinella infective stage is the encysted larva -- new
+ini-mcq-ch11-q044  # -- Trichinella larvae carried to striated muscle -- new
+ini-mcq-ch11-q045  # -- Capillaria philippinensis acquired from undercooked fish -- pending (Helwan CON-GIT-663BF173017BE0)
+ini-mcq-ch11-q046  # -- Capillaria philippinensis egg peanut-shaped/immature -- new
+ini-mcq-ch11-q047  # -- Dracunculus medinensis habitat is subcutaneous tissue -- new
+ini-mcq-ch11-q048  # -- Cyclops is intermediate host of Dracunculus -- new
+ini-mcq-ch11-q049  # -- niclosamide not used for Dracunculus (anticestode drug) -- new
+ini-mcq-ch11-q050  # -- W. bancrofti infective stage: filariform larva in mosquito labium -- new
+ini-mcq-ch11-q051  # -- Culex is vector of Wuchereria bancrofti -- pending (Mansoura CON-INF-3DEFB880DFF98F)
+ini-mcq-ch11-q052  # -- W. bancrofti microfilaria sheathed/nucleus-free tip/periodic/Culex -- new
+ini-mcq-ch11-q053  # -- W. bancrofti microfilaria differs from Loa loa's -- new
+ini-mcq-ch11-q054  # -- Onchocerca volvulus microfilariae show no periodicity -- new
+ini-mcq-ch11-q055  # -- adult W. bancrofti worms live in lymph nodes -- pending (Mansoura CON-INF-3DEFB880DFF98F, 2nd use)
+ini-mcq-ch11-q056  # -- Culex transmits W. bancrofti cyclodevelopmentally -- pending (MUST CON-INF-476CFE4CB1DE34)

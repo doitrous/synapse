@@ -1,0 +1,1101 @@
+{
+  "lane": "MU-MED105",
+  "cluster": "med105-end43-cvs",
+  "header": "MU-MED105 (Cardiovascular system) lane-2 authored batch, continuing lane-1's CVS End Module 43 batch. Source: 'CVS End Module 43.pdf' (mu_9ac9f79f9ed25404b19b). Q46-Q74 (29 questions): 28 authored, Q70 held (image-dependent, rule 3/9 -- 'structure marked by (A)', a hand-drawn heart diagram). Key convention: yellow highlight, not detected by pagetext.mjs keys -- recovered by rendering p10-p16 (7 renders, this dispatch's budget) and reading the highlighted option by eye. Search-before-mint: every concept searched via find-existing.mjs against live state and every pending batch first; 13 new concepts minted (Kasr 208-INT pharm, MUST-CVS-201, Helwan HU-BMS-102, Ain-Shams ASU-UG and the import-ready SYS-CVS-CONCEPT-Tnn family all searched but no close match found for these 13 specific facts) plus 15 sparse overlays onto 12 distinct pending siblings across those same families (see concept/MU-MED105-concepts.md's own header and each overlay row's field_notes). Apply after concept/MU-MED105-concepts.md, article/MU-MED105-articles.md, evidence/MU-MED105-{resources,claims,citations}.md and the 12 sibling concept/article dependency files are live.",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "mu"
+    ],
+    "years": [
+      "MU_Y1"
+    ],
+    "module": "MU-MED105",
+    "exam_weight_by_year": {
+      "MU_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_5ca028d96bdca72569d0"
+    ],
+    "source_citation": "CVS End Module 43.pdf, Q{page} (Menoufia MED105 CVS end-module exam)",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Moderate",
+    "reasoning_level": 2,
+    "exam_relevance": 5
+  },
+  "questions": [
+    {
+      "key": "med105-end43-cvs-q46",
+      "id": "QST-MUMED105-END43-Q46",
+      "page": 46,
+      "title": "Amrinone mechanism of action",
+      "question": "Which of the following describes the mechanism of action of amrinone in heart failure?",
+      "options": {
+        "A": "Decreases intracellular calcium",
+        "B": "Decreases cardiac contractility",
+        "C": "Increases CAMP",
+        "D": "Activates phosphodiesterase",
+        "E": "Inhibit phosphodiesterase IV enzyme"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Amrinone raises, not decreases, intracellular calcium in cardiac myocytes -- the rise in cAMP from its phosphodiesterase III inhibition increases calcium entry through L-type channels, which is what produces its positive inotropic effect.",
+        "B": "Incorrect. Amrinone raises cardiac contractility as a positive inotrope; a drug that decreased contractility would be of no use in heart failure, the opposite of amrinone's therapeutic role.",
+        "C": "Correct. Amrinone inhibits phosphodiesterase III, the enzyme that normally breaks down cyclic AMP inside cardiac and vascular smooth muscle cells. Blocking this breakdown lets intracellular cAMP accumulate, raising calcium entry into cardiac myocytes for a positive inotropic effect and relaxing vascular smooth muscle for a vasodilator effect. This combined inotrope-plus-vasodilator action is why amrinone is used short-term in severe, refractory heart failure.",
+        "D": "Incorrect. Amrinone inhibits, not activates, phosphodiesterase -- activating phosphodiesterase would lower cAMP and reduce contractility, the opposite of amrinone's mechanism and therapeutic use.",
+        "E": "Incorrect. Amrinone inhibits phosphodiesterase III specifically, not phosphodiesterase IV; PDE III is the cardiac/vascular-smooth-muscle isoform responsible for amrinone's inotropic and vasodilator effects."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Positive inotropic agents",
+      "main_concept": "CON-CVS-D1BDCD9C7A28E4",
+      "concept_ids": [
+        "CON-CVS-D1BDCD9C7A28E4"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that amrinone's mechanism is phosphodiesterase III inhibition, raising cAMP for a combined inotropic/vasodilator effect.",
+      "library_ids": [
+        "ART-CVS-MU105-HF-DIURETIC-PHARM"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p10, Q46",
+        "mu": "CVS End Module 43.pdf, Q46"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q47",
+      "id": "QST-MUMED105-END43-Q47",
+      "page": 47,
+      "title": "Drug with clinically useful positive inotropic effect",
+      "question": "Which one of the following drugs is associated with clinically useful or physiologically important positive inotropic effect?",
+      "options": {
+        "A": "Captopril",
+        "B": "Dobutamine",
+        "C": "Enalapril",
+        "D": "Losartan",
+        "E": "Nesiritide"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Captopril is an ACE inhibitor that lowers afterload and slows cardiac remodeling; it has no direct positive inotropic action of its own.",
+        "B": "Correct. Dobutamine is a synthetic, selective beta1 agonist with a strong positive inotropic effect and only a minimal chronotropic effect, increasing cardiac output with little rise in heart rate or peripheral resistance. This combination -- more contractile force without a large increase in afterload or arrhythmia risk -- makes it a first-line inotrope for acute decompensated heart failure and cardiogenic shock.",
+        "C": "Incorrect. Enalapril, like captopril, is an ACE inhibitor; it improves heart failure outcomes by reducing afterload and cardiac remodeling, not through a direct inotropic effect.",
+        "D": "Incorrect. Losartan is an angiotensin II receptor blocker, working downstream of ACE inhibition on the same renin-angiotensin pathway, again without a direct inotropic action.",
+        "E": "Incorrect. Nesiritide is recombinant BNP, used for its vasodilator and natriuretic effects in acute decompensated heart failure, not for any positive inotropic action."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Positive inotropic agents",
+      "main_concept": "CON-FND-1F4B558BD69110",
+      "concept_ids": [
+        "CON-FND-1F4B558BD69110"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify dobutamine as a selective beta1 agonist with clinically useful positive inotropic effect.",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p10-p11, Q47",
+        "mu": "CVS End Module 43.pdf, Q47"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q48",
+      "id": "QST-MUMED105-END43-Q48",
+      "page": 48,
+      "title": "Drug that decreases cardiac remodeling",
+      "question": "Which of the following drugs decreases remodeling of cardiac muscle?",
+      "options": {
+        "A": "Digoxin",
+        "B": "Amrinone",
+        "C": "Enalapril",
+        "D": "Furosemide",
+        "E": "Thiazide"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Digoxin is a positive inotrope that raises contractility via Na+/K+ ATPase inhibition; it does not itself slow the angiotensin II-driven remodeling process.",
+        "B": "Incorrect. Amrinone raises contractility through phosphodiesterase III inhibition and cAMP, an inotropic mechanism with no specific anti-remodeling action of its own.",
+        "C": "Correct. Enalapril is an ACE inhibitor that blocks the conversion of angiotensin I to angiotensin II. Because angiotensin II itself directly drives myocyte hypertrophy and interstitial fibrosis in the failing heart, suppressing its formation slows or partially reverses this pathological remodeling, which is why ACE inhibitors improve long-term heart-failure survival rather than only relieving symptoms.",
+        "D": "Incorrect. Furosemide is a loop diuretic that relieves volume overload; it does not act on the angiotensin II pathway that drives remodeling.",
+        "E": "Incorrect. Thiazide diuretics act at the distal convoluted tubule to reduce volume; like furosemide, they have no specific anti-remodeling mechanism."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "ACE inhibitors",
+      "main_concept": "CON-CVS-2BECFB3079BFE1",
+      "concept_ids": [
+        "CON-CVS-2BECFB3079BFE1"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that enalapril decreases cardiac remodeling by suppressing angiotensin II.",
+      "library_ids": [
+        "ART-CVS-MU105-HF-DIURETIC-PHARM"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p10, Q48",
+        "mu": "CVS End Module 43.pdf, Q48"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q49",
+      "id": "QST-MUMED105-END43-Q49",
+      "page": 49,
+      "title": "Digoxin as drug of choice",
+      "question": "In which of the following cases digoxin is a drug of choice?",
+      "options": {
+        "A": "Heart failure with renal failure",
+        "B": "Heart failure with hypertension",
+        "C": "Heart failure with Diabetes mellitus",
+        "D": "Heart failure with Atrial Fibrillation",
+        "E": "Hypertrophic obstructive cardiomyopathy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Digoxin is renally cleared, so renal failure is a caution requiring dose reduction, not a specific indication for choosing digoxin.",
+        "B": "Incorrect. Heart failure with hypertension is managed primarily with afterload-reducing agents (ACE inhibitors, diuretics); it is not the specific scenario digoxin is chosen for.",
+        "C": "Incorrect. Diabetes mellitus alongside heart failure does not itself make digoxin the preferred agent; standard heart-failure therapy applies regardless of glycaemic status.",
+        "D": "Correct. Digoxin is the drug of choice when heart failure coexists with atrial fibrillation. At low doses it increases vagal tone and slows AV nodal conduction, controlling ventricular rate in the fibrillating atria. It also provides a positive inotropic benefit for the failing heart, so the two actions together suit this specific comorbid picture.",
+        "E": "Incorrect. Digoxin is contraindicated, not indicated, in hypertrophic obstructive cardiomyopathy: its positive inotropic effect worsens the dynamic left ventricular outflow tract obstruction that defines this condition."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Digoxin",
+      "main_concept": "CON-FND-C058332F0BFD90",
+      "concept_ids": [
+        "CON-FND-C058332F0BFD90"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that digoxin is the drug of choice for heart failure complicated by atrial fibrillation, via AV-nodal rate control.",
+      "library_ids": [
+        "ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p11, Q49",
+        "mu": "CVS End Module 43.pdf, Q49"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q50",
+      "id": "QST-MUMED105-END43-Q50",
+      "page": 50,
+      "title": "Contraindication of digoxin",
+      "question": "Which of the following is a contraindication of digoxin?",
+      "options": {
+        "A": "Atrial Flutter",
+        "B": "Heart failure",
+        "C": "Old age",
+        "D": "Paroxysmal atrial tachycardia",
+        "E": "Ventricular fibrillation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Atrial flutter, a supraventricular arrhythmia, is a scenario where digoxin's AV-nodal-slowing effect is useful for rate control, not a contraindication.",
+        "B": "Incorrect. Heart failure is a primary indication for digoxin's positive inotropic effect, not a contraindication.",
+        "C": "Incorrect. Old age alone is not a contraindication, though it may prompt more cautious dosing given reduced renal clearance; it does not forbid digoxin use outright.",
+        "D": "Incorrect. Paroxysmal atrial tachycardia is another supraventricular rhythm where digoxin's AV-nodal effect can be therapeutically useful, not contraindicated.",
+        "E": "Correct. Ventricular fibrillation is a contraindication to digoxin. By inhibiting the cardiac Na+/K+ ATPase, digoxin raises intracellular calcium and, at inappropriate levels, increases automaticity and ectopic activity in ventricular tissue -- exactly the property that can worsen, not treat, a ventricular arrhythmia that is already in progress."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Digoxin",
+      "main_concept": "CON-CVS-30FFECEA12AEB8",
+      "concept_ids": [
+        "CON-CVS-30FFECEA12AEB8"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that ventricular fibrillation is a contraindication to digoxin because of its pro-automaticity effect.",
+      "library_ids": [
+        "ART-CVS-MU105-HF-DIURETIC-PHARM"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p11, Q50",
+        "mu": "CVS End Module 43.pdf, Q50"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q51",
+      "id": "QST-MUMED105-END43-Q51",
+      "page": 51,
+      "title": "Digoxin actions at therapeutic dose",
+      "question": "Digoxin can cause which of the following actions in therapeutic dose",
+      "options": {
+        "A": "Tachycardia",
+        "B": "Positive inotropic effect",
+        "C": "Increase A-V conduction",
+        "D": "Decrease cardiac output",
+        "E": "Increase automaticity"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. At therapeutic dose digoxin's vagally-mediated action tends to slow, not speed, heart rate; tachycardia is more a feature of toxicity than of a normal therapeutic effect.",
+        "B": "Correct. Digoxin inhibits the cardiac Na+/K+ ATPase, raising intracellular sodium and, via the Na+/Ca2+ exchanger, intracellular calcium. This is digoxin's positive inotropic mechanism at therapeutic dose, strengthening the force of ventricular contraction.",
+        "C": "Incorrect. Digoxin decreases, not increases, AV conduction -- its vagally-mediated slowing of the AV node is exactly what makes it useful for rate control in atrial fibrillation.",
+        "D": "Incorrect. Digoxin's positive inotropic effect raises, not decreases, cardiac output at therapeutic dose; a fall in cardiac output would be the opposite of its intended therapeutic action.",
+        "E": "Incorrect. A marked increase in automaticity is a feature of digoxin toxicity, not of a normal therapeutic dose; at appropriate doses the drug's calcium-raising effect is contained within a beneficial inotropic range."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Digoxin",
+      "main_concept": "CON-FND-2379F34ADE2AB1",
+      "concept_ids": [
+        "CON-FND-2379F34ADE2AB1"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that digoxin's therapeutic-dose action is a positive inotropic effect via Na+/K+ ATPase inhibition.",
+      "library_ids": [
+        "ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p11, Q51",
+        "mu": "CVS End Module 43.pdf, Q51"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q52",
+      "id": "QST-MUMED105-END43-Q52",
+      "page": 52,
+      "title": "Mechanism of action of digoxin",
+      "question": "The Mechanism of action of Digoxin is:",
+      "options": {
+        "A": "Inhibition of phosphodiesterase III enzyme",
+        "B": "Inhibition of phosphodiesterase IV enzyme",
+        "C": "Stimulation of B1 receptors",
+        "D": "Inhibition of cardiac Na+ - K+ ATPase",
+        "E": "Decrease vagal activity"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Inhibition of phosphodiesterase III is amrinone's cAMP-based mechanism, a different, non-glycoside route to raising contractility than digoxin's.",
+        "B": "Incorrect. No major heart-failure inotrope used in this module works by phosphodiesterase IV inhibition; digoxin's mechanism does not involve phosphodiesterase at all.",
+        "C": "Incorrect. Stimulation of beta1 receptors is dobutamine's mechanism, a cAMP-dependent inotropic route distinct from digoxin's direct enzyme-inhibition mechanism.",
+        "D": "Correct. Digoxin directly inhibits the cardiac Na+/K+ ATPase enzyme. This raises intracellular sodium, which in turn reduces the gradient the Na+/Ca2+ exchanger relies on to pump calcium out of the cell, so intracellular calcium rises -- a direct, non-cAMP-dependent route to digoxin's positive inotropic effect.",
+        "E": "Incorrect. Digoxin increases, not decreases, vagal activity; this raised vagal tone is exactly what slows AV nodal conduction and heart rate."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Digoxin",
+      "main_concept": "CON-FND-2379F34ADE2AB1",
+      "concept_ids": [
+        "CON-FND-2379F34ADE2AB1"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that digoxin's mechanism is inhibition of the cardiac Na+/K+ ATPase.",
+      "library_ids": [
+        "ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p12, Q52",
+        "mu": "CVS End Module 43.pdf, Q52"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q53",
+      "id": "QST-MUMED105-END43-Q53",
+      "page": 53,
+      "title": "Digoxin toxicity risk factors (EXCEPT)",
+      "question": "Digoxin toxicity is increased by all EXCEPT:",
+      "options": {
+        "A": "Renal impairment",
+        "B": "Hyperkalemia",
+        "C": "Hypercalcemia",
+        "D": "Hypomagnesemia",
+        "E": "Hypothyroidism"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this IS a risk factor). Renal impairment reduces digoxin clearance, raising plasma levels and toxicity risk -- so it belongs among the risk factors, not the exception.",
+        "B": "Correct (this is the EXCEPT). Digoxin toxicity risk factors include renal impairment, hypokalemia, hypomagnesemia and hypercalcemia -- notably hypokalemia, not hyperkalemia. Because digoxin and potassium compete for the same binding site on the Na+/K+ ATPase enzyme, low (not high) potassium lets more digoxin bind and inhibit the pump, effectively increasing its action; hyperkalemia does the opposite and is not a recognised toxicity risk factor.",
+        "C": "Incorrect (this IS a risk factor). Hypercalcemia is a recognised digoxin toxicity risk factor, additive to the drug's own calcium-raising mechanism.",
+        "D": "Incorrect (this IS a risk factor). Hypomagnesemia increases digoxin toxicity risk, often alongside the diuretic-induced hypokalemia that commonly accompanies it.",
+        "E": "Incorrect (this IS a risk factor). Hypothyroidism reduces digoxin clearance and metabolism, raising plasma levels and toxicity risk, similar in effect to renal impairment."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Digoxin",
+      "main_concept": "CON-FND-B929F5B301F1E1",
+      "concept_ids": [
+        "CON-FND-B929F5B301F1E1"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify hyperkalemia (not hypokalemia) as the option that does NOT increase digoxin toxicity risk.",
+      "library_ids": [
+        "ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p12, Q53",
+        "mu": "CVS End Module 43.pdf, Q53"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q54",
+      "id": "QST-MUMED105-END43-Q54",
+      "page": 54,
+      "title": "Diuretic preferred in acute renal failure",
+      "question": "The diuretic preferred in cases of acute renal failure is:",
+      "options": {
+        "A": "Frusemide",
+        "B": "Thiazide",
+        "C": "Mannitol",
+        "D": "Acetazolamide",
+        "E": "Spironolactone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Furosemide (frusemide), a loop diuretic, is preferred in acute renal failure because it acts at the thick ascending limb of the loop of Henle, a site that remains accessible even at markedly reduced glomerular filtration rate. It can still produce a meaningful diuresis when thiazides, which depend on adequate filtered sodium load reaching the distal tubule, would no longer be effective.",
+        "B": "Incorrect. Thiazide diuretics act at the distal convoluted tubule and lose efficacy as GFR falls, making them a poor choice in acute renal failure compared with a loop diuretic.",
+        "C": "Incorrect. Mannitol, an osmotic diuretic, requires adequate glomerular filtration to be effective and can worsen fluid overload if filtration is severely impaired, making it a poor first choice in acute renal failure.",
+        "D": "Incorrect. Acetazolamide is a weak carbonic anhydrase inhibitor diuretic, not the preferred agent for acute renal failure's volume management.",
+        "E": "Incorrect. Spironolactone is a weak, potassium-sparing diuretic acting at the collecting tubule; it is not the diuretic of choice for acute renal failure and carries added hyperkalemia risk in that setting."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Diuretics",
+      "main_concept": "CON-CVS-B7466D954A0B3B",
+      "concept_ids": [
+        "CON-CVS-B7466D954A0B3B"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that furosemide is the diuretic preferred in acute renal failure because it remains effective at low GFR.",
+      "library_ids": [
+        "ART-CVS-MU105-HF-DIURETIC-PHARM"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p12, Q54",
+        "mu": "CVS End Module 43.pdf, Q54"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q55",
+      "id": "QST-MUMED105-END43-Q55",
+      "page": 55,
+      "title": "Furosemide ototoxicity interaction",
+      "question": "Concomitant administration of furosemide with the following agent can induce severe ototoxicity:",
+      "options": {
+        "A": "Captopril",
+        "B": "Acetazolamide",
+        "C": "Gentamicin",
+        "D": "Mannitol",
+        "E": "Amiloride"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Captopril, an ACE inhibitor, is not itself ototoxic and does not compound furosemide's ototoxicity risk.",
+        "B": "Incorrect. Acetazolamide is a diuretic with its own distinct adverse-effect profile (metabolic acidosis) but no recognised ototoxic interaction with furosemide.",
+        "C": "Correct. Loop diuretics such as furosemide carry an ototoxicity risk on their own, especially in renal insufficiency. This risk is markedly increased when combined with other ototoxic drugs such as the aminoglycoside gentamicin. Given together, the two can produce severe, sometimes irreversible ototoxicity.",
+        "D": "Incorrect. Mannitol is an osmotic diuretic without a recognised ototoxic interaction with furosemide.",
+        "E": "Incorrect. Amiloride, a potassium-sparing diuretic, has no recognised ototoxic interaction with furosemide."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Diuretics",
+      "main_concept": "CON-FND-8CDAE2FC566F9E",
+      "concept_ids": [
+        "CON-FND-8CDAE2FC566F9E"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that furosemide combined with an aminoglycoside such as gentamicin raises ototoxicity risk.",
+      "library_ids": [
+        "ART-FND-208INT-DIURETIC-PHARMACOLOGY"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p12, Q55",
+        "mu": "CVS End Module 43.pdf, Q55"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q56",
+      "id": "QST-MUMED105-END43-Q56",
+      "page": 56,
+      "title": "Thiazide diuretic indication",
+      "question": "Thiazide diuretic is prescribed for:",
+      "options": {
+        "A": "Bradycardia",
+        "B": "Essential Hypertension",
+        "C": "Hypokalemia secondary to other drugs",
+        "D": "Angina pectoris",
+        "E": "Arrythmia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Thiazide diuretics have no role in treating bradycardia, which is unrelated to their site of renal action.",
+        "B": "Correct. Thiazide diuretics block the Na+/Cl- transporter in the distal convoluted tubule. This produces a natriuresis that lowers blood pressure. That effect is why thiazides are a first-line, guideline-recommended treatment for essential hypertension.",
+        "C": "Incorrect. Thiazides themselves cause, rather than treat, hypokalemia (by increasing distal sodium delivery and sodium/potassium exchange), so they would worsen, not correct, hypokalemia from another cause.",
+        "D": "Incorrect. Thiazide diuretics are not an established treatment for angina pectoris, which is managed with anti-anginal drugs such as nitrates, beta blockers or calcium channel blockers.",
+        "E": "Incorrect. Thiazide diuretics are not an antiarrhythmic class; they are prescribed for hypertension and oedema, not for arrhythmia control."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Diuretics",
+      "main_concept": "CON-FND-B8F8442BE9266F",
+      "concept_ids": [
+        "CON-FND-B8F8442BE9266F"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that thiazide diuretics are prescribed for essential hypertension.",
+      "library_ids": [
+        "ART-FND-208INT-DIURETIC-PHARMACOLOGY"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p12, Q56",
+        "mu": "CVS End Module 43.pdf, Q56"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q57",
+      "id": "QST-MUMED105-END43-Q57",
+      "page": 57,
+      "title": "Most common drug cause of hyponatremia",
+      "question": "A patient develops hyponatremia in response to drug therapy. Which one of the following drug groups is the most common cause?",
+      "options": {
+        "A": "Beta-adrenergic blockers",
+        "B": "Angiotensin converting enzyme inhibitor",
+        "C": "Alpha- adrenergic blockers.",
+        "D": "Thiazide diuretics",
+        "E": "Tetracycline antibiotics"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Beta-adrenergic blockers are not a classic drug cause of hyponatremia; their adverse-effect profile centres on bradycardia, bronchospasm and metabolic effects, not sodium/water balance.",
+        "B": "Incorrect. ACE inhibitors more commonly cause hyperkalemia (via reduced aldosterone) than hyponatremia; they are not the most common drug cause of low sodium.",
+        "C": "Incorrect. Alpha-adrenergic blockers are not a recognised major cause of drug-induced hyponatremia.",
+        "D": "Correct. Thiazide diuretics are the most common drug-induced cause of hyponatremia. By blocking the Na+/Cl- transporter in the distal convoluted tubule, a segment normally responsible for diluting urine, they impair the kidney's ability to excrete free water; combined with sodium loss stimulating thirst and ADH release, this lets water intake outstrip excretion and dilutes plasma sodium.",
+        "E": "Incorrect. Tetracycline antibiotics are not a recognised cause of hyponatremia; their notable adverse effects are photosensitivity, tooth discolouration and, rarely, hepatotoxicity."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Diuretics",
+      "main_concept": "CON-CVS-C396B72F394432",
+      "concept_ids": [
+        "CON-CVS-C396B72F394432"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that thiazide diuretics are the most common drug-induced cause of hyponatremia.",
+      "library_ids": [
+        "ART-CVS-MU105-HF-DIURETIC-PHARM"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p13, Q57",
+        "mu": "CVS End Module 43.pdf, Q57"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q58",
+      "id": "QST-MUMED105-END43-Q58",
+      "page": 58,
+      "title": "Mac Callum's patch",
+      "question": "Mac Callum' s Patch is a sign of:",
+      "options": {
+        "A": "chronic mural endocarditis",
+        "B": "chronic valvular endocarditis",
+        "C": "rheumatic pericarditis",
+        "D": "large joint lesion",
+        "E": "rheumatic myocarditis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Mac Callum's patch is an area of thickened, wrinkled, grey-white mural endocardium on the posterior wall of the left atrium in chronic rheumatic heart disease. It is produced by the repeated trauma of a regurgitant mitral jet striking the atrial wall. This makes it a form of chronic mural (endocardial-surface) endocarditis, not a valvular lesion.",
+        "B": "Incorrect. Mac Callum's patch is specifically a mural finding on the atrial wall, distinct from valvular endocarditis, which affects the valve leaflets themselves.",
+        "C": "Incorrect. Rheumatic pericarditis is a separate component of rheumatic pancarditis, affecting the pericardium rather than the endocardium where Mac Callum's patch forms.",
+        "D": "Incorrect. A large joint lesion describes migratory polyarthritis, a separate (musculoskeletal) manifestation of acute rheumatic fever, not the endocardial finding Mac Callum's patch represents.",
+        "E": "Incorrect. Rheumatic myocarditis is the myocardial component of rheumatic pancarditis (marked by Aschoff bodies), a different tissue layer from the endocardium where Mac Callum's patch is found."
+      },
+      "topic": "Pathology",
+      "subtopic": "Rheumatic heart disease",
+      "main_concept": "CON-CVS-99B1A014E318DA",
+      "concept_ids": [
+        "CON-CVS-99B1A014E318DA"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that Mac Callum's patch is a sign of chronic mural rheumatic endocarditis.",
+      "library_ids": [
+        "ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p13, Q58",
+        "mu": "CVS End Module 43.pdf, Q58"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q59",
+      "id": "QST-MUMED105-END43-Q59",
+      "page": 59,
+      "title": "Milk spots",
+      "question": "Milk spots are signs of:",
+      "options": {
+        "A": "congestion",
+        "B": "inflammation",
+        "C": "necrosis",
+        "D": "fibrosis",
+        "E": "hyalinosis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Milk spots are not a sign of congestion; congestion would present as vascular engorgement, not a focal fibrous patch.",
+        "B": "Incorrect. Milk spots are not a sign of active inflammation -- they are old, fibrous, and clinically silent, the endpoint of chronic friction rather than an ongoing inflammatory process.",
+        "C": "Incorrect. Milk spots do not represent necrosis; they are organised fibrous tissue, not dead tissue awaiting resorption.",
+        "D": "Correct. Milk spots (soldier's patches) are focal, opaque, white-grey patches of fibrous thickening on the visceral pericardium, most often over the right ventricle. They are produced by chronic low-grade mechanical friction between the pericardial layers over years. This makes them fibrosis, not an active process.",
+        "E": "Incorrect. Hyalinosis describes a different, glassy degenerative change in connective tissue or vessel walls, not the specific fibrous friction-patch appearance of milk spots."
+      },
+      "topic": "Pathology",
+      "subtopic": "Pericardial disease",
+      "main_concept": "CON-CVS-AE821D7F644263",
+      "concept_ids": [
+        "CON-CVS-AE821D7F644263"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify milk spots as fibrosis of the visceral pericardium from chronic friction.",
+      "library_ids": [
+        "ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p13, Q59",
+        "mu": "CVS End Module 43.pdf, Q59"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q60",
+      "id": "QST-MUMED105-END43-Q60",
+      "page": 60,
+      "title": "Aschoff cells",
+      "question": "Aschoff cells are :",
+      "options": {
+        "A": "lymphocytes",
+        "B": "large histiocytes",
+        "C": "mast cells",
+        "D": "plasma cells",
+        "E": "eosinophils"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Lymphocytes can be present within an Aschoff body's inflammatory infiltrate, but the Aschoff (Anitschkow) cell itself is a distinct, larger histiocytic cell type, not a lymphocyte.",
+        "B": "Correct. Aschoff cells (Anitschkow cells) are large, activated histiocytes (macrophages) with abundant cytoplasm and a distinctive nucleus showing a central, slender ribbon of chromatin -- classically caterpillar-shaped in longitudinal section. They are the characteristic cell of the Aschoff body, the pathognomonic lesion of acute rheumatic myocarditis.",
+        "C": "Incorrect. Mast cells are not the defining cell of the Aschoff body; that role belongs to the large activated histiocyte.",
+        "D": "Incorrect. Plasma cells may accompany the inflammatory infiltrate of an Aschoff body, but the Aschoff cell itself is specifically a histiocyte, not a plasma cell.",
+        "E": "Incorrect. Eosinophils are not a feature of the Aschoff body's cellular composition; the diagnostic cell there is the large activated histiocyte."
+      },
+      "topic": "Pathology",
+      "subtopic": "Rheumatic heart disease",
+      "main_concept": "CON-CVS-CA4A15EBB014FE",
+      "concept_ids": [
+        "CON-CVS-CA4A15EBB014FE"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify Aschoff cells as large activated histiocytes within the Aschoff body.",
+      "library_ids": [
+        "ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p13, Q60",
+        "mu": "CVS End Module 43.pdf, Q60"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q61",
+      "id": "QST-MUMED105-END43-Q61",
+      "page": 61,
+      "title": "Site of acute rheumatic myocarditis",
+      "question": "The most common site affected in acute rheumatic myocarditis is:",
+      "options": {
+        "A": "right atrium",
+        "B": "posterior wall of left atrium",
+        "C": "anterior wall of left atrium",
+        "D": "posterior wall of left ventricle",
+        "E": "anterior wall of left ventricle"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The right atrium is not the preferentially affected chamber in acute rheumatic myocarditis; the disease process favours the left-sided chambers, particularly the posterior left atrial wall.",
+        "B": "Correct. Acute rheumatic myocarditis, with its Aschoff bodies, most commonly affects the posterior wall of the left atrium. This is the same general region where Mac Callum's patch forms on the adjacent endocardium. Both findings reflect the shared anatomical predilection of rheumatic carditis for this area.",
+        "C": "Incorrect. The anterior wall of the left atrium is not the classically preferred site; rheumatic myocarditis favours the posterior wall instead.",
+        "D": "Incorrect. The posterior wall of the left ventricle is not the site most commonly cited for acute rheumatic myocarditis; the left atrial posterior wall is.",
+        "E": "Incorrect. The anterior wall of the left ventricle is likewise not the classic site of predilection for acute rheumatic myocarditis."
+      },
+      "topic": "Pathology",
+      "subtopic": "Rheumatic heart disease",
+      "main_concept": "CON-CVS-10947BC0F5E769",
+      "concept_ids": [
+        "CON-CVS-10947BC0F5E769"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the posterior wall of the left atrium is the most commonly affected site in acute rheumatic myocarditis.",
+      "library_ids": [
+        "ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p13, Q61",
+        "mu": "CVS End Module 43.pdf, Q61"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q62",
+      "id": "QST-MUMED105-END43-Q62",
+      "page": 62,
+      "title": "Cause of vegetation development",
+      "question": "Vegetation develop as a result of:",
+      "options": {
+        "A": "necrosis",
+        "B": "hypertension",
+        "C": "stasis",
+        "D": "infection",
+        "E": "endothelial cell injury"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Necrosis is not the initiating event; vegetation formation begins with endothelial damage, not tissue death.",
+        "B": "Incorrect. Hypertension is not the mechanism tested here; it is turbulent flow or a foreign surface damaging the endothelium that initiates vegetation formation.",
+        "C": "Incorrect. Stasis is a Virchow's-triad mechanism relevant to venous thrombosis, not the specific initiating event for cardiac valve vegetations.",
+        "D": "Incorrect. Infection (bacteraemia) is a necessary second step that seeds an already-formed sterile platelet-fibrin deposit, but the deposit itself first requires endothelial injury -- infection alone, without a damaged surface to colonise, is not the root cause being asked about here.",
+        "E": "Correct. Turbulent flow or a foreign surface damages the endothelium, and a sterile platelet-fibrin deposit forms at the site of injury. Transient bacteraemia can then seed that deposit, but the endothelial cell injury is the initiating event that creates the surface a vegetation forms on."
+      },
+      "topic": "Pathology",
+      "subtopic": "Infective endocarditis",
+      "main_concept": "CON-CVS-45B20CE90AF6EE",
+      "concept_ids": [
+        "CON-CVS-45B20CE90AF6EE"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that endothelial cell injury is the initiating event in vegetation formation.",
+      "library_ids": [
+        "ART-CVS-INFECTIVE-ENDOCARDITIS"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p14, Q62",
+        "mu": "CVS End Module 43.pdf, Q62"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q63",
+      "id": "QST-MUMED105-END43-Q63",
+      "page": 63,
+      "title": "Gross features of acute infective endocarditis vegetations",
+      "question": "One of the following is true about the gross features of vegetations associated with acute infective endocarditis:",
+      "options": {
+        "A": "small",
+        "B": "single",
+        "C": "white",
+        "D": "friable",
+        "E": "tightly adherent"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Acute infective endocarditis vegetations are typically large and bulky, not small -- a small, tightly adherent vegetation is more typical of the sterile vegetations of nonbacterial thrombotic endocarditis.",
+        "B": "Incorrect. Acute infective endocarditis vegetations are often multiple, not single, and can be quite destructive of the underlying valve.",
+        "C": "Incorrect. Acute infective endocarditis vegetations are typically bulky and friable rather than described primarily by colour; a small white lesion is more characteristic of a healed or sterile process.",
+        "D": "Correct. Vegetations of acute infective endocarditis are classically bulky and friable -- easily fragmented. They form rapidly around actively multiplying organisms with relatively little organisation. This same friability is also why they readily embolise.",
+        "E": "Incorrect. Acute infective endocarditis vegetations tend to be loosely, not tightly, adherent, contributing to their tendency to fragment and embolise; a small, tightly adherent lesion instead describes the vegetations of nonbacterial thrombotic (marantic) endocarditis or rheumatic endocarditis."
+      },
+      "topic": "Pathology",
+      "subtopic": "Infective endocarditis",
+      "main_concept": "CON-CVS-45B20CE90AF6EE",
+      "concept_ids": [
+        "CON-CVS-45B20CE90AF6EE"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify friable as the classic gross description of acute infective endocarditis vegetations.",
+      "library_ids": [
+        "ART-CVS-INFECTIVE-ENDOCARDITIS"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p14, Q63",
+        "mu": "CVS End Module 43.pdf, Q63"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q64",
+      "id": "QST-MUMED105-END43-Q64",
+      "page": 64,
+      "title": "Cause of restrictive cardiomyopathy",
+      "question": "Which is a cause of restrictive cardiomyopathy?",
+      "options": {
+        "A": "Rheumatic fever",
+        "B": "Viral infection",
+        "C": "Sarcoidosis",
+        "D": "Alcohol toxicity",
+        "E": "Septicemia."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Rheumatic fever causes rheumatic valvular and myocardial disease, not the infiltrative stiffening of restrictive cardiomyopathy.",
+        "B": "Incorrect. Viral infection is a classic cause of dilated cardiomyopathy (via myocarditis), not restrictive cardiomyopathy.",
+        "C": "Correct. Sarcoidosis is a recognised infiltrative cause of restrictive cardiomyopathy. Granulomatous infiltration of the myocardium stiffens the ventricular wall and impairs diastolic filling. Systolic function and cavity size remain relatively preserved, the defining haemodynamic picture of restriction.",
+        "D": "Incorrect. Alcohol toxicity is a classic cause of dilated, not restrictive, cardiomyopathy.",
+        "E": "Incorrect. Septicaemia is associated with septic cardiomyopathy (a form of reversible myocardial depression), not the infiltrative stiffening seen in restrictive cardiomyopathy."
+      },
+      "topic": "Pathology",
+      "subtopic": "Cardiomyopathy",
+      "main_concept": "CON-CVS-4A41D59159ED61",
+      "concept_ids": [
+        "CON-CVS-4A41D59159ED61"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify sarcoidosis as an infiltrative cause of restrictive cardiomyopathy.",
+      "library_ids": [
+        "ART-CVS-RESTRICTIVE-CARDIOMYOPATHY"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p14, Q64",
+        "mu": "CVS End Module 43.pdf, Q64"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q65",
+      "id": "QST-MUMED105-END43-Q65",
+      "page": 65,
+      "title": "Cause of acute heart failure",
+      "question": "Which of the following is associated with acute heart failure?",
+      "options": {
+        "A": "Systemic hypertension",
+        "B": "Mitral valve stenosis",
+        "C": "Coarctation of the Aorta",
+        "D": "Fibrinous pricarditis",
+        "E": "Massive pulmonary embolism"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Systemic hypertension raises afterload gradually, over months to years, giving the left ventricle time to hypertrophy and compensate -- a cause of chronic, not acute, heart failure.",
+        "B": "Incorrect. Mitral valve stenosis is typically a slowly progressive condition that produces chronic left atrial and pulmonary pressure changes, not a sudden precipitant of acute heart failure on its own.",
+        "C": "Incorrect. Coarctation of the aorta imposes a chronic, gradually developing pressure load on the left ventricle, again a substrate for chronic rather than acute heart failure.",
+        "D": "Incorrect. Fibrinous pericarditis is an inflammatory pericardial process; it is not a classic cause of acute heart failure through sudden ventricular strain.",
+        "E": "Correct. Massive pulmonary embolism causes acute heart failure by abruptly raising pulmonary vascular resistance and right ventricular afterload. Because this rise happens over minutes, the thin-walled right ventricle has no time to hypertrophy and compensate, so it acutely dilates and fails, producing sudden right heart failure and a fall in cardiac output."
+      },
+      "topic": "Pathology",
+      "subtopic": "Heart failure",
+      "main_concept": "CON-CVS-6701FC6B3EF9B6",
+      "concept_ids": [
+        "CON-CVS-6701FC6B3EF9B6"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that massive pulmonary embolism is a cause of acute heart failure via sudden right ventricular strain.",
+      "library_ids": [
+        "ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p14, Q65",
+        "mu": "CVS End Module 43.pdf, Q65"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q66",
+      "id": "QST-MUMED105-END43-Q66",
+      "page": 66,
+      "title": "Right-sided venous distention with low cardiac output",
+      "question": "Which of the following produces a combination of right-sided venous distention and low cardiac output?",
+      "options": {
+        "A": "Constrictive pericarditis",
+        "B": "Uremic pericarditis",
+        "C": "Serofibrinous pericarditis",
+        "D": "Rheumatic pericarditis",
+        "E": "Lobar pneumonia-associated pericarditis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In constrictive pericarditis, a thickened, non-compliant pericardium fixes the total cardiac volume, so filling of one ventricle occurs at the expense of the other and overall diastolic filling is limited. This produces both systemic (right-sided) venous congestion, from impaired venous return into the fixed-volume heart, and low cardiac output, from the ventricles' inability to fill adequately.",
+        "B": "Incorrect. Uremic pericarditis is one possible cause of pericardial inflammation, but the specific haemodynamic combination of venous distention plus low output described here reflects the constrictive physiology, not simply the presence of a uremic aetiology.",
+        "C": "Incorrect. Serofibrinous pericarditis describes an inflammatory exudate type, not the fixed-volume constrictive physiology that specifically produces this combination of findings.",
+        "D": "Incorrect. Rheumatic pericarditis is a cause of pericardial inflammation, but on its own it does not describe the constrictive, fixed-volume physiology responsible for the venous distention plus low output combination.",
+        "E": "Incorrect. Lobar pneumonia-associated pericarditis is a reactive pericarditis from adjacent infection, not the specific constrictive process that limits ventricular filling and produces this haemodynamic picture."
+      },
+      "topic": "Pathology",
+      "subtopic": "Pericardial disease",
+      "main_concept": "CON-CVS-268E5C530580B6",
+      "concept_ids": [
+        "CON-CVS-268E5C530580B6"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that constrictive pericarditis produces right-sided venous distention with low cardiac output through fixed-volume ventricular interdependence.",
+      "library_ids": [
+        "ART-CVS-CONSTRICTIVE-PERICARDITIS"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p14, Q66",
+        "mu": "CVS End Module 43.pdf, Q66"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q67",
+      "id": "QST-MUMED105-END43-Q67",
+      "page": 67,
+      "title": "Definition of thrombophlebitis",
+      "question": "Thrombophlebitis is defined as:",
+      "options": {
+        "A": "venous thrombosis",
+        "B": "thrombosis in inflamed vein.",
+        "C": "thrombosis in inflamed artery",
+        "D": "vein thrombosis due to blood stagnation",
+        "E": "thrombosis in myocardial wall"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Plain venous thrombosis (DVT) can be silent and asymptomatic; thrombophlebitis is specifically the inflamed variant, not thrombosis in general.",
+        "B": "Correct. When a thrombosed venous segment also becomes inflamed, the clinical diagnosis is thrombophlebitis. It presents with leg pain, swelling, warmth and redness over a palpable venous cord. This distinguishes it from a silent, asymptomatic deep vein thrombosis.",
+        "C": "Incorrect. Thrombophlebitis is a venous, not arterial, condition; arterial thrombosis with inflammation is a different clinical entity.",
+        "D": "Incorrect. Blood stagnation (venous stasis) is one of the three arms of Virchow's triad contributing to DVT formation, but it describes a mechanism of thrombosis, not the inflamed-vein definition specific to thrombophlebitis.",
+        "E": "Incorrect. Thrombosis in the myocardial wall describes a mural thrombus, an intracardiac finding unrelated to the venous, inflamed-vessel definition of thrombophlebitis."
+      },
+      "topic": "Pathology",
+      "subtopic": "Thrombosis",
+      "main_concept": "CON-CVS-92BB03F3D57E33",
+      "concept_ids": [
+        "CON-CVS-92BB03F3D57E33"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that thrombophlebitis is thrombosis occurring within an inflamed vein.",
+      "library_ids": [
+        "ART-CVS-DVT-THROMBOPHLEBITIS"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p15, Q67",
+        "mu": "CVS End Module 43.pdf, Q67"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q68",
+      "id": "QST-MUMED105-END43-Q68",
+      "page": 68,
+      "title": "Peripartum sudden dyspnoea and pulmonary artery finding",
+      "vignette": "A 32 year old female with uncomplicated pregnancy develops sudden dysnea with cyanosis and hypotension during normal vaginal delivery. Her condition doesn't improve in the next two days.",
+      "question": "Which of the following finding most likely to be present in the peripheral pulmonary arteries?",
+      "options": {
+        "A": "Aggregates of red blood cells.",
+        "B": "Amniotic fluid",
+        "C": "Fat globules",
+        "D": "Gas bubbles",
+        "E": "Tumor cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Aggregates of red blood cells describe an ordinary thromboembolus, not the specific peripartum presentation of sudden dyspnoea, cyanosis and hypotension during delivery, which points to amniotic fluid embolism.",
+        "B": "Correct. This is the classic presentation of amniotic fluid embolism. During labour or delivery, amniotic fluid and fetal debris (squamous cells, lanugo hair) enter the maternal circulation through breaches in uterine veins or the placental bed and embolise to the pulmonary arteries. This produces sudden dyspnoea, cyanosis and hypotension, often with subsequent disseminated intravascular coagulation.",
+        "C": "Incorrect. Fat globules are the classic finding in fat embolism syndrome, typically following long-bone fracture or orthopaedic trauma, not a peripartum delivery.",
+        "D": "Incorrect. Gas bubbles indicate air embolism, associated with vascular access procedures, decompression sickness or surgery, not this classic peripartum vignette.",
+        "E": "Incorrect. Tumor cells would indicate a tumour embolus from a malignancy, not the clinical picture of a healthy pregnant patient developing sudden collapse during delivery."
+      },
+      "topic": "Pathology",
+      "subtopic": "Embolism",
+      "main_concept": "CON-CVS-58677CDDB27828",
+      "concept_ids": [
+        "CON-CVS-58677CDDB27828"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Recognise amniotic fluid embolism from its classic peripartum presentation and pulmonary arterial finding.",
+      "library_ids": [
+        "ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p15, Q68",
+        "mu": "CVS End Module 43.pdf, Q68"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q69",
+      "id": "QST-MUMED105-END43-Q69",
+      "page": 69,
+      "title": "Elderly fracture patient with leg pain and tenderness",
+      "vignette": "A 77-year-old woman sustained multiple lower limb fractures in a motor vehicle accident. She develops warmth in the left leg, and there is local pain and tenderness in the left thigh.",
+      "question": "Which of the following processes is most likely occurring?",
+      "options": {
+        "A": "Atherosclerosis",
+        "B": "Deep venous thrombosis",
+        "C": "Frostbite",
+        "D": "Mural thrombosis",
+        "E": "Vegetations."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Atherosclerosis is a chronic arterial disease process; it does not present acutely as warmth, pain and tenderness in a limb after trauma and immobilisation.",
+        "B": "Correct. Deep vein thrombosis follows Virchow's triad: venous stasis (here, immobility after multiple lower limb fractures), hypercoagulability and endothelial injury (from the trauma itself). Local warmth, pain and tenderness in the leg/thigh are the classic clinical picture of a DVT forming in this immobilised, injured patient.",
+        "C": "Incorrect. Frostbite is a cold-injury process producing tissue damage from freezing, unrelated to this patient's trauma-and-immobility scenario, and would not present as localised warmth.",
+        "D": "Incorrect. Mural thrombosis describes an intracardiac thrombus, not a peripheral leg finding after limb fractures.",
+        "E": "Incorrect. Vegetations are valvular or endocardial lesions, not a peripheral leg finding, and are unrelated to this post-traumatic, immobility-driven presentation."
+      },
+      "topic": "Pathology",
+      "subtopic": "Thrombosis",
+      "main_concept": "CON-CVS-92BB03F3D57E33",
+      "concept_ids": [
+        "CON-CVS-92BB03F3D57E33"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Recognise deep vein thrombosis in an immobilised, post-traumatic patient via Virchow's triad.",
+      "library_ids": [
+        "ART-CVS-DVT-THROMBOPHLEBITIS"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p15, Q69",
+        "mu": "CVS End Module 43.pdf, Q69"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q70",
+      "hold": "image-dependent (\"structure marked by (A)\", a hand-drawn heart diagram) -- rule 3/9"
+    },
+    {
+      "key": "med105-end43-cvs-q71",
+      "id": "QST-MUMED105-END43-Q71",
+      "page": 71,
+      "title": "Origin of the gluteal arteries",
+      "question": "The superior and inferior gluteal arteries are branches of which of the following?",
+      "options": {
+        "A": "Femoral artery",
+        "B": "Popliteal artery",
+        "C": "External iliac artery",
+        "D": "Internal iliac artery",
+        "E": "Common iliac artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The femoral artery is the continuation of the external iliac artery into the thigh; it does not give rise to the gluteal arteries, which supply the buttock from the pelvis.",
+        "B": "Incorrect. The popliteal artery is the femoral artery's own continuation behind the knee, well distal to and unrelated to the gluteal arteries' pelvic origin.",
+        "C": "Incorrect. The external iliac artery continues as the femoral artery to supply the lower limb; it does not give the gluteal branches, which arise from the internal (not external) iliac artery.",
+        "D": "Correct. Both the superior and inferior gluteal arteries are branches of the internal iliac artery. The superior gluteal artery is the principal branch of its posterior division. The inferior gluteal artery arises as a parietal branch of the anterior division, so together the two cover both of the internal iliac artery's divisions.",
+        "E": "Incorrect. The common iliac artery is the parent trunk that divides into the internal and external iliac arteries; the gluteal arteries branch specifically from the internal iliac artery, one step further along, not directly from the common iliac artery."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Pelvic wall anatomy",
+      "main_concept": "CON-MSK-7F7CF4EEB4DA70",
+      "concept_ids": [
+        "CON-MSK-7F7CF4EEB4DA70"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that both the superior and inferior gluteal arteries branch from the internal iliac artery.",
+      "library_ids": [
+        "ART-MSK-ASU-UG-INTERNAL-ILIAC-POSTERIOR-DIVISION-SUPERIOR-GLUTEAL-ARTERY"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Anatomy",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p16, Q71",
+        "mu": "CVS End Module 43.pdf, Q71"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q72",
+      "id": "QST-MUMED105-END43-Q72",
+      "page": 72,
+      "title": "Effect of sympathetic stimulation on the heart",
+      "question": "Which of the following is the effect of sympathetic stimulation to the heart?",
+      "options": {
+        "A": "Increase in the mean systemic filling pressure.",
+        "B": "Decrease in the heart rate.",
+        "C": "Collapse of the veins entering the chest.",
+        "D": "Decrease in the afterload."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Sympathetic stimulation constricts the systemic veins (venoconstriction), reducing their capacitance and shifting blood out of the low-pressure venous reservoir toward the heart. Because mean systemic filling pressure (MSFP) is set by blood volume relative to vascular capacitance, this venoconstriction raises MSFP even though total blood volume has not changed.",
+        "B": "Incorrect. Sympathetic stimulation increases, not decreases, heart rate, via beta1-adrenergic action on the SA node; a decrease in heart rate is instead a parasympathetic (vagal) effect.",
+        "C": "Incorrect. Sympathetic venoconstriction shifts blood toward the chest, increasing venous filling there, not causing the veins entering the chest to collapse.",
+        "D": "Incorrect. Sympathetic stimulation increases, not decreases, afterload, through arteriolar vasoconstriction raising systemic vascular resistance."
+      },
+      "topic": "Physiology",
+      "subtopic": "Venous return",
+      "main_concept": "CON-CVS-A1107778AE9E3B",
+      "concept_ids": [
+        "CON-CVS-A1107778AE9E3B"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that sympathetic stimulation raises mean systemic filling pressure through venoconstriction.",
+      "library_ids": [
+        "ART-CVS-MU105-VENOUS-RETURN-RESERVE"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p16, Q72",
+        "mu": "CVS End Module 43.pdf, Q72"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q73",
+      "id": "QST-MUMED105-END43-Q73",
+      "page": 73,
+      "title": "Gynecomastia and hyperkalemia side effects",
+      "question": "Gynecomastia and hyperkalemia in males are side effects of:",
+      "options": {
+        "A": "Thiazide diuretic",
+        "B": "Spironolactone",
+        "C": "Mannitol",
+        "D": "Amiloride",
+        "E": "Acetazolamide"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Thiazide diuretics characteristically cause hypokalemia, not hyperkalemia, and are not associated with gynecomastia.",
+        "B": "Correct. Spironolactone, an aldosterone-receptor antagonist, is potassium-sparing and can cause clinically significant hyperkalemia through this mechanism. It also has off-target anti-androgenic and progestogenic activity at steroid receptors, which is the separate mechanism responsible for its characteristic gynecomastia in male patients.",
+        "C": "Incorrect. Mannitol is an osmotic diuretic with no aldosterone-antagonist or hormonal receptor activity, so it causes neither hyperkalemia nor gynecomastia by these mechanisms.",
+        "D": "Incorrect. Amiloride is a potassium-sparing diuretic that can cause hyperkalemia, but it works by directly blocking collecting-tubule sodium channels rather than by aldosterone-receptor antagonism, and it lacks spironolactone's anti-androgenic/progestogenic activity, so it is not associated with gynecomastia.",
+        "E": "Incorrect. Acetazolamide, a carbonic anhydrase inhibitor, tends to cause metabolic acidosis and is not associated with hyperkalemia or gynecomastia."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Diuretics",
+      "main_concept": "CON-CVS-DEBDF72E55A483",
+      "concept_ids": [
+        "CON-CVS-DEBDF72E55A483"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that spironolactone causes both gynecomastia and hyperkalemia, through separate mechanisms.",
+      "library_ids": [
+        "ART-CVS-MU105-HF-DIURETIC-PHARM"
+      ],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p16, Q73",
+        "mu": "CVS End Module 43.pdf, Q73"
+      }
+    },
+    {
+      "key": "med105-end43-cvs-q74",
+      "id": "QST-MUMED105-END43-Q74",
+      "page": 74,
+      "title": "Thrombus type with grossly identifiable lines of Zahn",
+      "question": "Which of the following is most likely to have grossly identifiable lines of Zahn:",
+      "options": {
+        "A": "arterial Thrombus",
+        "B": "capillary Thrombus",
+        "C": "postmortem Clot",
+        "D": "pulmonary congestion.",
+        "E": "venous Thrombus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Lines of Zahn are alternating pale platelet-fibrin layers and darker erythrocyte-rich layers formed in flowing blood. Their lamination is most grossly conspicuous in a thrombus formed under the fast, high-pressure flow of the arterial circulation. That fast flow produces well-organised, clearly visible layers.",
+        "B": "Incorrect. Capillary thrombi are far too small in scale for grossly identifiable lamination to be visible.",
+        "C": "Incorrect. A postmortem clot forms after death in static, non-flowing blood and characteristically lacks lines of Zahn altogether, instead showing gravity-dependent separation into a dark red ('currant jelly') layer and a paler ('chicken fat') layer -- the opposite of an antemortem, flowing-blood thrombus.",
+        "D": "Incorrect. Pulmonary congestion is a passive vascular engorgement, not a thrombus, and has no lines of Zahn to identify.",
+        "E": "Incorrect. Venous thrombi form under the much slower, lower-pressure flow of the venous system, so while lines of Zahn can still be present, they are typically far less grossly distinct than in an arterial thrombus formed under fast flow."
+      },
+      "topic": "Pathology",
+      "subtopic": "Thrombosis",
+      "main_concept": "CON-FND-7E61964BE1D637",
+      "concept_ids": [
+        "CON-FND-7E61964BE1D637"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that lines of Zahn are most grossly identifiable in an arterial thrombus, formed under fast flowing-blood conditions.",
+      "library_ids": [],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p16, Q74",
+        "mu": "CVS End Module 43.pdf, Q74"
+      }
+    }
+  ]
+}

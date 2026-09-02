@@ -7847,3 +7847,2538 @@ MUST_Y2=0.6
 
 ## field_notes
 must: Sparse LIVE update (Microbiology tranche, author5) -- tested three times: M1-Q19 (best statement describing rheumatic fever, printed answer "characterized by inflammatory lesions that may involve the heart, joints, subcutaneous tissues, and CNS"), M1-Q27 (which finding is NOT part of the Jones major criteria, printed answer "painless macular hemorrhages on palms" -- a distractor resembling Janeway lesions, not a rheumatic-fever feature this concept or the true Jones major criteria name) and M2-Q7 (vignette of migratory polyarthritis, fever and recent pharyngitis with elevated ASO, printed answer rheumatic fever). Already live, checked directly against server/data/medical-library-v1.json (universityIds=['kau'], learnerYears=[1,2,3], moduleIds=[]) -- this row adds MUST-CVS-201's own module tag only. find-existing.mjs "rheumatic fever" surfaced it directly. src_89011691408ee232b5ff p4,6; src_79f275c14b581a4187c2 p2.
+
+
+---
+
+# Item
+
+## label
+Pericardial effusion is classified by the character of the fluid, and lymphatic obstruction produces a transudative effusion
+
+## id
+CON-CVS-197847608085B6
+
+## canonical_key
+pericarditis.effusion-classification-by-fluid-type
+
+## definition
+Pericardial effusion is classified by the character of the accumulated fluid: transudative (low-protein, from obstruction of lymphatic drainage, heart failure or hypoproteinaemia), exudative (protein-rich, from inflammation or infection), haemorrhagic (blood, from trauma, malignancy or dissection) or suppurative (frank pus, from pyogenic infection). Obstruction of pericardial lymphatic drainage specifically produces a transudative effusion rather than an inflammatory one.
+
+## explicit_objective
+Classify pericardial effusion by fluid character and identify obstructed lymphatic drainage as a cause of the transudative type specifically.
+
+## pitfalls
+Assuming every pericardial effusion is inflammatory. A transudate reflects a mechanical or hydrostatic problem — lymphatic obstruction or a systemic fluid-balance disturbance — not pericardial disease itself.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Pericardial effusion types | Transudative pericardial effusion
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Pericardial Disease
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-PERICARDIAL-EFFUSION-CLASSIFICATION
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-PERICARDIAL-EFFUSION-CLASSIFICATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Pericardial Disease > Pericardial Effusion Classification
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q6, key p.16] Pericardial effusion due to obstruction of lymphatic drainage is classified as: B) Transudative.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Tuberculous pericarditis characteristically produces a fibrinous and haemorrhagic exudate
+
+## id
+CON-CVS-70D38691002F4A
+
+## canonical_key
+pericarditis.tb-exudate-character
+
+## definition
+Tuberculous pericarditis characteristically produces a fibrinous and haemorrhagic exudate, reflecting caseating granulomatous inflammation and vascular involvement of the pericardium, distinct from the clear, serous fluid of viral pericarditis and the frank pus of pyogenic (suppurative) pericarditis.
+
+## explicit_objective
+Name the characteristic exudate of tuberculous pericarditis and distinguish it from the serous and purulent patterns of other causes.
+
+## pitfalls
+Expecting TB pericarditis to look like TB pleural effusion (typically serous/straw-coloured). The pericardial disease is fibrinous and haemorrhagic, not clear.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+TB pericarditis exudate | Tuberculous pericardial exudate
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Pericardial Disease
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-TB-PERICARDITIS-EXUDATE
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-TB-PERICARDITIS-EXUDATE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Pericardial Disease > Tuberculous Pericarditis
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q9, key p.16] A patient with TB pericarditis is likely to have pericardial exudate that is: C) Fibrinous and hemorrhagic.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Suppurative pericarditis follows direct pyogenic contamination (e.g. a penetrating wound) and produces purulent exudate
+
+## id
+CON-CVS-BE0B74CF459B26
+
+## canonical_key
+pericarditis.suppurative-cause-and-exudate
+
+## definition
+Suppurative (purulent) pericarditis follows direct pyogenic bacterial contamination of the pericardial sac — classically a penetrating chest wound, but also contiguous spread from pneumonia or empyema, or haematogenous seeding — and produces frank purulent exudate. It carries a high risk of subsequent constrictive pericarditis as the purulent exudate organises into dense fibrous scar.
+
+## explicit_objective
+Name a penetrating chest wound as a cause of suppurative pericarditis and purulent exudate as its characteristic finding.
+
+## pitfalls
+Confusing suppurative with fibrinous pericarditis. Fibrinous pericarditis gives a rough "bread and butter" surface with serofibrinous fluid; suppurative pericarditis is frank pus, from direct bacterial contamination.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Purulent pericarditis | Penetrating-wound pericarditis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Pericardial Disease
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-SUPPURATIVE-PERICARDITIS
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-SUPPURATIVE-PERICARDITIS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Pericardial Disease > Suppurative Pericarditis
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q49, key p.16] Which type of pericarditis is most likely to follow a penetrating chest wound?: B) Suppurative pericarditis. [Q53, key p.16] Which of the following is a feature of suppurative pericarditis?: C) Purulent exudate.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+The fibrous atheromatous plaque, the basic lesion of atherosclerosis, sits in the tunica intima with a fibrous cap, lipid zone and basal zone
+
+## id
+CON-CVS-217CCB33D34DB0
+
+## canonical_key
+atherosclerosis.plaque-structure-and-layer
+
+## definition
+The fibrous atheromatous plaque is the basic lesion of atherosclerosis, developing from the fatty streak within the tunica intima. It has three zones: a fibrous cap (collagen and smooth muscle cells) covering a lipid zone (foam cells, extracellular lipid and cholesterol), overlying a basal zone (collagen, smooth muscle cells and macrophages). Atherosclerosis is by definition an intimal disease — the plaque does not primarily involve the tunica media or adventitia.
+
+## explicit_objective
+Name the fibrous atheromatous plaque as the basic lesion of atherosclerosis, locate it in the tunica intima, and describe its three zones.
+
+## pitfalls
+Confusing the lipid zone with the fibrous cap. The lipid zone holds the foam cells, extracellular lipid and cholesterol; the fibrous cap is the collagen-and-smooth-muscle layer that covers it, and does not itself contain collagen as a lipid-zone component.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Fibrous atheromatous plaque | Atheroma zones | Basic lesion of atherosclerosis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Atherosclerosis
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-ATHEROMA-PLAQUE-STRUCTURE
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-ATHEROMA-PLAQUE-STRUCTURE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Atherosclerosis > Plaque Structure
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q14, key p.16] The basic lesion of atherosclerosis is the: B) Fibrous atheromatous plaque. [Q15] Which zone... contains foam cells and cholesterol?: B) Lipid zone. [Q31] In which Layers does atherosclerosis occurs?: A) Tunica intima. [Q44] The lipid zone... contains all EXCEPT: A) Collagen.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Atherosclerotic plaques complicate by thromboembolism, rupture/haemorrhage, calcification, aneurysm formation and organ-specific ischaemia
+
+## id
+CON-CVS-E03F9800584C73
+
+## canonical_key
+atherosclerosis.complications-and-ischaemic-consequences
+
+## definition
+Complications of atherosclerosis include thromboembolism, plaque rupture and haemorrhage, dystrophic calcification (which hardens rather than softens the vessel wall), aneurysm formation, and downstream ischaemia specific to the artery involved — popliteal-artery atherosclerosis causes intermittent limb claudication, and atherosclerotic renal artery stenosis causes both hypertension (via reduced renal perfusion activating the renin-angiotensin system) and renal infarction. Hypertrophic cardiomyopathy is a primary sarcomere disease, not a complication of atherosclerosis.
+
+## explicit_objective
+List the complications of an atherosclerotic plaque and apply them to site-specific presentations — popliteal claudication and renal artery stenosis.
+
+## pitfalls
+Assuming calcification of a plaque softens the vessel. Dystrophic calcification hardens the wall, reducing compliance and contributing to the vessel’s brittleness. Also, not confusing atherosclerosis (an intimal, vessel-wall disease) with a primary myocardial disease such as hypertrophic cardiomyopathy — they are not causally linked.
+
+## concept_type
+clinical_consequence
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Atherosclerosis complications | Limb claudication | Atherosclerotic renal artery stenosis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Atherosclerosis
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-ATHEROSCLEROSIS-COMPLICATIONS
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-ATHEROSCLEROSIS-COMPLICATIONS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Atherosclerosis > Complications
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q16, key p.16] Complications of atherosclerosis include all EXCEPT: C) Hypertrophic cardiomyopathy. [Q17] Limb claudication is primarily due to atherosclerosis in the: C) Popliteal artery. [Q37 vignette] smoker+HTN+calf claudication -> B) Atherosclerosis of popliteal artery. [Q51] Dystrophic calcification leads to: B) Hardening of vessels. [Q52] Atherosclerotic renal artery stenosis can lead to: C) Both (hypertension and renal infarction).
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Benign hypertension is sustained pressure below about 200/110 mmHg, producing hyaline arteriolosclerosis from plasma-protein deposition and death chiefly from congestive heart failure
+
+## id
+CON-CVS-F7B45A1E821B0A
+
+## canonical_key
+hypertension.benign-definition-renal-change-and-mortality-order
+
+## definition
+Benign hypertension is chronic, sustained blood pressure characteristically below about 200/110 mmHg. Its characteristic renal arteriolar change is hyaline arteriolosclerosis — pink, structureless, homogeneous thickening of the arteriolar wall from the deposition of an abnormal (plasma) protein, seen also in diabetes and in otherwise-normotensive elderly patients as an ageing change. In benign hypertension, death occurs, in order of frequency, from congestive heart failure, coronary infarction, cerebral haemorrhage, and then renal failure.
+
+## explicit_objective
+Define benign hypertension by its blood-pressure range, name hyaline arteriolosclerosis and its protein basis as its renal change, and give the order of causes of death.
+
+## pitfalls
+Interchanging hyaline and hyperplastic ("onion-skin") arteriolosclerosis. Hyaline change is the benign-hypertension (and diabetic, and senescent) pattern from protein deposition; hyperplastic change with fibrinoid necrosis is specific to malignant hypertension.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Benign essential hypertension | Hyaline arteriolosclerosis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Hypertension
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-BENIGN-HYPERTENSION
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-BENIGN-HYPERTENSION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Hypertension > Benign Hypertension
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q21, key p.16] Benign hypertension is characterized by a blood pressure below: B) 200/110 mmHg. [Q22] In benign hypertension, the kidney may show: B) Hyaline arteriolosclerosis. [Q24] The most common cause of death in benign hypertension is: C) Congestive heart failure. [Q36] Hyaline arteriolosclerosis is characteristic of: A) Benign hypertension. [Q42] order of death causes -> D) CHF -> Coronary infarction -> Cerebral hemorrhage -> Renal Failure. [Q48] Hyaline changes... due to deposition of: C) Abnormal protein. [Q55] Hyaline arteriolosclerosis is seen in: D) All of the above (malignant hypertension, diabetes, elderly normotensives).
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Pre-eclampsia risk is raised by first pregnancy, older maternal age and pre-existing diabetes
+
+## id
+CON-CVS-C400BC47E85D70
+
+## canonical_key
+hypertension.preeclampsia-risk-factors
+
+## definition
+Pre-eclampsia — new-onset hypertension with proteinuria after 20 weeks of pregnancy — has its risk raised by nulliparity (first pregnancy), older maternal age, and pre-existing diabetes mellitus, among other factors (multiple gestation, obesity, chronic hypertension, autoimmune disease).
+
+## explicit_objective
+List first pregnancy, older age and diabetes as risk factors for pre-eclampsia.
+
+## pitfalls
+Treating pre-eclampsia risk as tied to only one factor. It is multifactorial, and a first pregnancy, older maternal age and diabetes are each independently creditable risk factors on their own.
+
+## concept_type
+clinical_consequence
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Pre-eclampsia risk factors | Pregnancy-induced hypertension risk
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Hypertension
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-PREECLAMPSIA-HYPERTENSION-RISK
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-PREECLAMPSIA-HYPERTENSION-RISK-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Hypertension > Pre-eclampsia
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q46, key p.16] Pre-eclampsia is associated with: D) All of the above (First pregnancy, Old age, Diabetes).
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Obstructive sleep apnoea is a risk factor for hypertension, stroke and heart attack
+
+## id
+CON-CVS-E0908501269680
+
+## canonical_key
+hypertension.sleep-apnoea-cardiovascular-risk
+
+## definition
+Obstructive sleep apnoea causes repeated nocturnal hypoxia and sympathetic surges that raise systemic blood pressure over time, and is an independent risk factor for hypertension, stroke and myocardial infarction (heart attack).
+
+## explicit_objective
+Name sleep apnoea as a risk factor across hypertension, stroke and heart attack, not for one alone.
+
+## pitfalls
+Treating sleep apnoea as only a sleep-quality issue. Its repeated hypoxic and sympathetic surges make it an independent cardiovascular risk factor across multiple endpoints.
+
+## concept_type
+clinical_consequence
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Obstructive sleep apnoea and hypertension | Sleep apnoea cardiovascular risk
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Hypertension
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-SLEEP-APNEA-HYPERTENSION-RISK
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-SLEEP-APNEA-HYPERTENSION-RISK-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Hypertension > Sleep Apnoea
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q47, key p.16] Sleep apnea is a risk factor for: D) All of the above (Hypertension, Stroke, Heart attack).
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+A true aneurysm carries all vessel-wall layers and is either fusiform (entire circumference) or saccular (part of it); atherosclerotic aneurysms characteristically form in the abdominal aorta and can rupture, embolise or compress
+
+## id
+CON-CVS-F3E95B92367825
+
+## canonical_key
+vascular.true-aneurysm-classification-site-and-complications
+
+## definition
+A true aneurysm is an abnormal, localised dilation whose wall is formed of the complete, though often weakened, vessel wall layers — distinguishing it from a false (pseudo-) aneurysm, whose wall is adjacent connective tissue around a contained rupture. A fusiform aneurysm dilates the entire circumference of the vessel; a saccular aneurysm dilates only part of the circumference, as a sac-like outpouching. Atherosclerotic aneurysms characteristically form in the abdominal aorta. Aneurysm complications include thromboembolism, rupture and haemorrhage, and pressure effects on surrounding organs; an aneurysm does not improve blood flow.
+
+## explicit_objective
+Define a true aneurysm by its wall composition, distinguish fusiform from saccular shape, name the abdominal aorta as the classic atherosclerotic-aneurysm site, and list aneurysm complications.
+
+## pitfalls
+Confusing a true aneurysm with a false aneurysm (contained rupture, wall of surrounding tissue only) or assuming any aneurysm improves downstream flow — a dilated, turbulent segment predisposes to thrombus and embolism rather than to better perfusion.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+True vs false aneurysm | Fusiform and saccular aneurysm | Abdominal aortic aneurysm
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Aneurysms
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-ANEURYSM-CLASSIFICATION
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-ANEURYSM-CLASSIFICATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Aneurysms > Classification, Site and Complications
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q26, key p.16] A true aneurysm is defined as having a wall composed of: B) Complete vessel wall layers. [Q27] Fusiform aneurysm involves: B) The entire circumference. [Q28] The most common site for an atherosclerotic aneurysm is the: B) Abdominal aorta. [Q32] Complications of aneurysms include all EXCEPT: B) Improved blood flow. [Q56] A saccular aneurysm involves: B) Part of circumference.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Dissecting aortic aneurysm is associated with Marfan syndrome, presents with tearing pain and hypotension, and can erode adjacent bone to cause pain
+
+## id
+CON-CVS-4A3DD926C2BCE4
+
+## canonical_key
+vascular.dissecting-aneurysm-association-and-presentation
+
+## definition
+Dissecting aortic aneurysm — a tear in the intima allowing blood to track within the media, creating a false lumen — is most strongly associated with Marfan syndrome (cystic medial degeneration weakening the aortic wall), though hypertension and atherosclerosis also predispose. It classically presents with sudden, severe "tearing" chest or back pain and hypotension from blood loss into the false lumen or pericardium. A descending aortic aneurysm, dissecting or not, can erode adjacent vertebral bone and cause back pain from that direct pressure effect.
+
+## explicit_objective
+Name Marfan syndrome as the association tested for dissecting aneurysm, recognise its tearing-pain-and-hypotension presentation, and explain bone erosion as a cause of back pain in a descending aortic aneurysm.
+
+## pitfalls
+Defaulting to atherosclerosis as the answer for every aneurysm question. Dissection specifically points to a wall-weakening connective-tissue disorder such as Marfan syndrome, distinct from the atherosclerotic mechanism tested for fusiform, abdominal-aortic aneurysms.
+
+## concept_type
+clinical_consequence
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Aortic dissection | Marfan syndrome and aortic aneurysm
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Aneurysms
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-DISSECTING-AORTIC-ANEURYSM
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-DISSECTING-AORTIC-ANEURYSM-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Aneurysms > Dissecting Aneurysm
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q29, key p.16] Dissecting aneurysm is most associated with: C) Marfan syndrome. [Q40 vignette] atherosclerosis+tearing back pain+hypotension -> C) Dissecting aortic aneurysm. [Q59] In descending aortic aneurysm, bone erosion may cause: B) Back pain.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+A Rasmussen aneurysm is a pulmonary artery aneurysm within a tuberculous lung cavity
+
+## id
+CON-CVS-0FFB81F3C1CC4B
+
+## canonical_key
+vascular.rasmussen-aneurysm-tb-pulmonary-artery
+
+## definition
+A Rasmussen aneurysm is a pseudoaneurysm of a pulmonary artery branch, forming within the wall of a chronic tuberculous cavity as the vessel is progressively weakened by adjacent caseous necrosis and inflammation. Its rupture is a classic cause of life-threatening haemoptysis in pulmonary tuberculosis.
+
+## explicit_objective
+Locate the Rasmussen aneurysm in the pulmonary artery within a TB cavity and link it to haemoptysis.
+
+## pitfalls
+Confusing a Rasmussen aneurysm with a mycotic aneurysm. Both are infection-related, but a Rasmussen aneurysm is a specific pulmonary-artery lesion within a TB cavity wall, not a systemic-artery aneurysm seeded by bacteraemia from endocarditis.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Rasmussen aneurysm | TB cavity pulmonary artery aneurysm
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Aneurysms
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-RASMUSSEN-ANEURYSM
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-RASMUSSEN-ANEURYSM-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Aneurysms > Rasmussen Aneurysm
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q30, key p.16] Rasmussen aneurysm affects the: B) Pulmonary artery in TB.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+A mycotic aneurysm arises from septic embolisation of infected material, classically from infective endocarditis
+
+## id
+CON-CVS-5916244D7A012F
+
+## canonical_key
+vascular.mycotic-aneurysm-infective-endocarditis-association
+
+## definition
+A mycotic aneurysm is a localised arterial dilation caused by infection of the vessel wall, most commonly from septic embolisation of infected material — classically vegetations shed from infective endocarditis, which seed and weaken a distal artery wall, or from direct bacteraemic seeding of an already-diseased wall. It presents as a pulsatile, tender mass at the affected site, often with systemic signs of the underlying infection (fever, positive blood cultures, a murmur).
+
+## explicit_objective
+Link mycotic aneurysm formation to septic embolisation from infective endocarditis and recognise its presentation.
+
+## pitfalls
+The name "mycotic" suggesting a fungal cause. It denotes an infected (usually bacterial, from a septic embolus) aneurysm, not specifically a fungal one.
+
+## concept_type
+clinical_consequence
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Mycotic aneurysm | Infected aneurysm
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Aneurysms
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-MYCOTIC-ANEURYSM
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-MYCOTIC-ANEURYSM-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Aneurysms > Mycotic Aneurysm
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q41 vignette, key p.16] fever+murmur+pulsating groin mass+Staph+ -> B) Mycotic aneurysm. [Q57] Mycotic aneurysms are most associated with: C) Infective endocarditis.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Takayasu arteritis typically affects young women, involving the aorta and its major branches
+
+## id
+CON-CVS-AA3A2E6B6084F2
+
+## canonical_key
+vasculitis.takayasu-arteritis-demographic-and-distribution
+
+## definition
+Takayasu arteritis is a large-vessel vasculitis typically affecting women of childbearing age, involving the aorta and its major branches with granulomatous inflammation that leads to wall thickening, stenosis and, later, absent or diminished peripheral pulses ("pulseless disease").
+
+## explicit_objective
+Name the typical demographic (young women) and the vessel distribution (aorta and its major branches) of Takayasu arteritis.
+
+## pitfalls
+Confusing Takayasu arteritis with giant cell (temporal) arteritis, a different large-vessel vasculitis typically affecting elderly patients rather than young women.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Takayasu disease | Aortic arch arteritis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Vasculitis
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-TAKAYASU-ARTERITIS
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-TAKAYASU-ARTERITIS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Vasculitis > Takayasu Arteritis
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q33, key p.16] Takayasu arteritis typically affects: B) Women of childbearing age. [Q58] Takayasu arteritis affects the: B) Aorta and main branches.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Polyarteritis nodosa most commonly involves the medium-sized arteries of the gastrointestinal tract
+
+## id
+CON-CVS-00545B736FF8F7
+
+## canonical_key
+vasculitis.polyarteritis-nodosa-gi-artery-involvement
+
+## definition
+Polyarteritis nodosa is a necrotising vasculitis of medium-sized muscular arteries that most commonly involves the arteries of the gastrointestinal tract, producing segmental, transmural inflammation with fibrinoid necrosis and a classic "beading" of small aneurysms on angiography; renal, musculoskeletal, skin and peripheral-nerve arteries are also frequently affected, but GIT involvement is the printed, most-common site tested here.
+
+## explicit_objective
+Name the gastrointestinal tract as the most commonly involved arterial territory in polyarteritis nodosa.
+
+## pitfalls
+Assuming the kidney is always named as the single most common site. Polyarteritis nodosa is multi-territory; this source specifically credits the GIT as the most common answer, and the renal, skin and neural territories are also separately examinable.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+PAN | Polyarteritis nodosa distribution
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Pathology
+
+## subtopic
+Vasculitis
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-POLYARTERITIS-NODOSA
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-POLYARTERITIS-NODOSA-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Vasculitis > Polyarteritis Nodosa
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Pathology CVS201 Questions (Final), Q34, key p.16] Polyarteritis nodosa most commonly involves arteries of the: C) GIT.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 6; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
