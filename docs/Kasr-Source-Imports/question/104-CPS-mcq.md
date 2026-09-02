@@ -70,8 +70,8 @@
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 7 questions, 1 concepts
     Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 26 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
-    Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 40 questions, 4 concepts
+    Respiratory System — Larynx and Airway Wall — 42 questions, 3 concepts
     Respiratory System — Respiratory Portion Pneumocytes — 49 questions, 6 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  204 questions were excluded and 0 held back for having no
+  206 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -75954,6 +75954,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-B82B6A495FBA
+## title
+venous plexuses (swell bodies) is present in
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+venous plexuses (swell bodies) is present in
+## answer_a
+Vestibule
+## explanation_a
+The vestibule is the nasal cavity's anterior, hair-lined entrance, defined by its keratinized epithelium and vibrissae, not by venous plexuses.
+## answer_b
+trachea
+## explanation_b
+The trachea's lamina propria carries tracheal glands, not the venous plexuses (swell bodies) this leaf's own concept places specifically in the conchae.
+## answer_c
+C.T of concha
+## explanation_c
+The connective tissue of the conchae carries large venous plexuses (swell bodies), part of the same lamina propria whose glands and vascular supply help condition inspired air — this leaf's own concept text names this structure directly.
+
+Why this is right:
+- The nasal cavity is the external vestibule and the internal nasal fossae.
+## answer_d
+All the above
+## explanation_d
+'All the above' overstates it: the venous plexuses (swell bodies) are this leaf's own concept's named feature of the conchae specifically, not a feature shared equally by the vestibule and trachea too.
+## correct_answer
+C
+## main_concept
+CON-RES-1FF74892D5B943
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Locate venous plexuses (swell bodies) in the conchae's connective-tissue lamina propria, against the vestibule, trachea and nasal cartilage generally.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q10. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-A903E968EC80
 ## title
 Para nasal sinus is lined by
@@ -78884,6 +78976,374 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q3. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-976BD83C469A
+## title
+All characters of extra pulmonary bronchi except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of extra pulmonary bronchi except:
+## answer_a
+wide lumen, less folded
+## explanation_a
+True of the extrapulmonary bronchus, so not the exception — this leaf's own concept describes it as structurally identical to the trachea, with a wide, less-folded lumen.
+## answer_b
+C-shaped in complete ringe of hyaline
+## explanation_b
+True, so not the exception. Incomplete C-shaped rings of hyaline cartilage are exactly what the extrapulmonary bronchus keeps from the trachea.
+## answer_c
+Spirally, smooth muscle encircling whole lumen
+## explanation_c
+The exception, and the answer. Spirally arranged smooth muscle encircling the whole lumen is the intrapulmonary bronchus's own feature — the extrapulmonary bronchus instead keeps its smooth muscle lying posteriorly, at the ends of the cartilage, the same limited arrangement as the trachea.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_d
+muco-Serous gland in sub mucosa
+## explanation_d
+True, so not the exception. Mucoserous glands in the submucosa are part of the extrapulmonary bronchus's true submucosa, the same layer the trachea itself carries.
+## correct_answer
+C
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that spirally arranged smooth muscle encircling the whole lumen is the intrapulmonary bronchus's own feature, not the extrapulmonary bronchus's, against three true statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q39. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6D8E4C3D3B2E
+## title
+Less developed spirally arranged smooth muscles are a feature of:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Less developed spirally arranged smooth muscles are a feature of:
+## answer_a
+Intrapulmonary bronchus
+## explanation_a
+The intrapulmonary bronchus's smooth muscle is already more developed than the trachea's, arranged spirally around the whole lumen rather than confined posteriorly — not the less-developed end of this progression.
+## answer_b
+Bronchiole
+## explanation_b
+The bronchiole carries the most developed, circularly arranged smooth muscle of the whole progression, controlling airflow to the gas-exchange sites directly — the opposite extreme from 'less developed'.
+## answer_c
+Alveolar sac
+## explanation_c
+Alveolar sacs carry only minimal, unorganised smooth muscle rather than a spiral arrangement at any stage of development, so this progression's 'less developed spiral muscle' description does not apply to them.
+## answer_d
+Trachea
+## explanation_d
+The trachea's smooth muscle lies only posteriorly, at the ends of the cartilage rings — the least developed point on the same progression that becomes spirally arranged around the whole lumen at the intrapulmonary bronchus and most developed, circularly arranged at the bronchiole.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## correct_answer
+D
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory System — Larynx and Airway Wall
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Place the trachea at the least-developed end of the airway's smooth-muscle progression, against the intrapulmonary bronchus and bronchiole's more developed spiral/circular arrangements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p13 q14. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-198ED3D0BA97
+## title
+The glandular epithelium of the trachea exists in:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The glandular epithelium of the trachea exists in:
+## answer_a
+Mucosa
+## explanation_a
+The mucosa is the epithelial lining and its immediate lamina propria; the glands themselves sit deeper, in the submucosa proper.
+## answer_b
+Connective tissue corium
+## explanation_b
+Connective tissue corium is not a named layer of the tracheal wall in this leaf's own three-layer (mucosa/submucosa/adventitia) account.
+## answer_c
+Submucosa
+## explanation_c
+The trachea's glandular epithelium sits in the submucosa — the same layer this leaf's own concept credits with mucoserous glands in the extrapulmonary bronchus, which it describes as structurally identical to the trachea.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_d
+Adventitia
+## explanation_d
+The adventitia is the tracheal wall's outermost connective-tissue coat, not the layer carrying its mucoserous glands.
+## correct_answer
+C
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Locate the trachea's glandular epithelium in the submucosa, the same layer this leaf's own concept credits with mucoserous glands in the structurally identical extrapulmonary bronchus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p30 q17; DPT HISTO MCQ [Respiratory].pdf p2 q17. Manifest src_9cf32ada2b25fa54f0e9, src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-873084CFB2DF
+## title
+trachea is characterized by All except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+trachea is characterized by All except
+## answer_a
+20 C-shaped in complete ring of hyaline
+## explanation_a
+True of the trachea, so not the exception — it is held patent by incomplete, C-shaped rings of hyaline cartilage, sixteen to twenty of them along its length.
+## answer_b
+gap between ends of ring face oesophagus anteriorly
+## explanation_b
+The exception, and the answer. This module's own gross-anatomy account places the oesophagus immediately BEHIND (posterior to) the trachea, and the cartilage rings' open backs — bridged by the trachealis muscle — face that same posterior direction, not anteriorly; the gap and the oesophagus are on the trachea's posterior aspect together.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_c
+bridged by fibro elastic ligament
+## explanation_c
+True, so not the exception. The trachealis muscle bridges the open backs of the C-shaped rings, exactly the structure this module's own gross-anatomy concept names for that role.
+## answer_d
+Contain smooth muscle bundle, loose CT
+## explanation_d
+True, so not the exception. A smooth muscle bundle within loose connective tissue, at the ends of the cartilage rings, is this leaf's own described location for the trachea's (and extrapulmonary bronchus's) smooth muscle.
+## correct_answer
+B
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the tracheal cartilage rings' gap faces the oesophagus posteriorly, not anteriorly, cross-referencing this module's own gross-anatomy account of the trachealis muscle and the oesophagus's position behind the trachea.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q37. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.

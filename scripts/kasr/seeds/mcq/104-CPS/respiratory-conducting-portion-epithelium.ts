@@ -538,6 +538,23 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // kasr-104-author-run45: Conducting Portion cluster (bank-tagged
+      // "Conducting Portion"). Matches this leaf's own sourced concept
+      // verbatim: the conchae's lamina propria carries "large venous
+      // plexuses (swell bodies)".
+      key: "venous-plexuses-swell-bodies-is-present-in-c13eea5d",
+      conceptKey: "nasal-cavity.vestibule-and-fossae-regions",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "Locate venous plexuses (swell bodies) in the conchae's connective-tissue lamina propria, against the vestibule, trachea and nasal cartilage generally.",
+      explanations: {
+        A: "The vestibule is the nasal cavity's anterior, hair-lined entrance, defined by its keratinized epithelium and vibrissae, not by venous plexuses.",
+        B: "The trachea's lamina propria carries tracheal glands, not the venous plexuses (swell bodies) this leaf's own concept places specifically in the conchae.",
+        C: "The connective tissue of the conchae carries large venous plexuses (swell bodies), part of the same lamina propria whose glands and vascular supply help condition inspired air — this leaf's own concept text names this structure directly.",
+        D: "'All the above' overstates it: the venous plexuses (swell bodies) are this leaf's own concept's named feature of the conchae specifically, not a feature shared equally by the vestibule and trachea too.",
+      },
+    },
+    {
       // Duplicate occurrence 4 of the paranasal-sinus-lining fact already
       // kept three times above (what-type-of-tissues-lines-the-paranasal-
       // sinuses-*), extracted from a fourth question book with shorter
