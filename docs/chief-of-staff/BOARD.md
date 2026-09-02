@@ -548,3 +548,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — 6 OCTOBER O6U-IPH-108 Pharmacology lane 1 LANDED (b5ac955b)
 - `all Practical pharma questions` (Moodle attempt+review pairs, "The correct answer is:" text key): pp.1-90 sampled Q1-44, 77% keyed → 33 authored, 1 held (Q35 internally contradictory EXCEPT key). `pharma MCQs bank` pp.1-40: 100% keyed via green checkmark (7 render-confirmed) → APPROVED, reserved. 14 mints + 4 articles + 1 catalogue resource; 3 Kasr 108-INT overlays. Validator errors=[] ×6; batch errors=0 ×6; 8-file simulate rejected=0. ≈1.85k tok/q. Flag: O6U-IPA-107's overlay-articles file has the same missing-arabic-title gap (not touched).
 - Lane 2 dispatched on `pharma MCQs bank` (checkmark key, 216 pp unsampled). Fleet 20/20.
+
+### 2026-09-02 — ASSIUT MPT-104 lane 8 (Quiz 35-40) LANDED (9451a5d0 … 0d0aea38)
+- 45 authored, 7 held (5 T/F + 2 matching in Quiz 35), 0 key conflicts. 40 mints, 5 reuses of Kasr 208 concepts via `+aun` overlays. Per-quiz batch errors=0 ×6; validator clean; simulate: own files rejected=0, the 5 overlay questions reject only in the Assiut-only glob (need the Kasr article files in the chain — dependency class). ≈4-5k tok/q. Ledger quizzes-2022: 316 / 19 held / 106 remaining / 441.
+- Lane 9 dispatched on Quiz 41+ (q336, p.169). Fleet 20/20.
