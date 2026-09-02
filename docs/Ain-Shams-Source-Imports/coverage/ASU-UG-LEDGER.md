@@ -5,11 +5,15 @@
 | eom-final-ug1-2020 | 0 | 0 | 19 | 19 |
 | eom-ug-final1-2024 | 0 | 0 | 19 | 19 |
 | eom-ug-final2-2024 | 0 | 0 | 23 | 23 |
-| eom-ug-final2-collection | 40 | 0 | 88 | 128 |
+| eom-ug-final2-collection | 89 | 5 | 34 | 128 |
 | first-assessment-ug-2024 | 0 | 0 | 24 | 24 |
 
 ## Held
-(none)
+- eom-ug-final2-collection-q047 — duplicate of q044 (Histo Q2) — Histo Q5 ("cells lining the seminiferous tubules -> Sertoli cell with indistinct cell boundary") re-asks the same apical-infoldings/indistinct-border fact tested in Histo Q2; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
+- eom-ug-final2-collection-q052 — doubtful key — Histo Q11 asks the predominant source of progesterone after ovulation and the source keys "theca lutein cells"; standard two-cell corpus luteum physiology attributes the predominant progesterone secretion to granulosa lutein cells (which lack 17-alpha-hydroxylase and so cannot make androgens), while theca lutein cells mainly supply androgen substrate for aromatization to estrogen. This reverses, rather than merely debates, an accepted mechanism, so it is held rather than authored with a doubt note per the "printed keys stand unless unrecoverable" rule — teaching the reversed mechanism as correct risks misleading students on core reproductive endocrinology; flagged to chief-of-staff / Omar for a ruling before this item is authored.
+- eom-ug-final2-collection-q076 — doubtful key — Micro Q4 asks which virus is an important cause of urinary tract infection and the source keys HSV-2; standard microbiology teaching identifies adenovirus (particularly type 11) as the classic viral cause of (hemorrhagic) cystitis/viral UTI, not HSV-2, which causes genital ulceration and can cause urinary retention via sacral radiculitis but is not the textbook answer to "virus causing UTI". Held rather than authored with a doubt note per the "printed keys stand unless unrecoverable" rule, given the risk of teaching a materially different organism as the standard answer; flagged to chief-of-staff / Omar for a ruling.
+- eom-ug-final2-collection-q082 — doubtful key — Micro Q10 asks the best treatment for latent syphilis in a pregnant woman and the source keys a 3-week ampicillin course followed by one further dose after one week; standard guidance (CDC/WHO) is that penicillin is the only proven-effective therapy against congenital syphilis transmission, so a penicillin-allergic pregnant patient should undergo penicillin desensitization and still be treated with penicillin rather than substituted onto an alternative regimen, and the specific ampicillin schedule printed here does not match a guideline this lane could verify. Held rather than authored with a doubt note given the risk of teaching a non-standard antenatal antibiotic regimen; flagged to chief-of-staff / Omar for a ruling, ideally with the source page re-checked for a possible transcription issue.
+- eom-ug-final2-collection-q085 — duplicate — Micro Q14 (page 12, genital ulcer + adenopathy + multinucleated giant cells + intranuclear inclusions on tissue culture, causative pathogen HSV) re-asks the same HSV/multinucleated-giant-cell fact tested in Micro Q13 (page 11, vesicular lesions turning to ulcers, Tzanck/Giemsa smear finding); collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 
 ## Remaining
 - ass1-ug-2020-q01
@@ -163,60 +167,6 @@
 - eom-ug-final2-2024-q23
 - eom-ug-final2-collection-q018
 - eom-ug-final2-collection-q023
-- eom-ug-final2-collection-q043
-- eom-ug-final2-collection-q044
-- eom-ug-final2-collection-q045
-- eom-ug-final2-collection-q046
-- eom-ug-final2-collection-q047
-- eom-ug-final2-collection-q048
-- eom-ug-final2-collection-q049
-- eom-ug-final2-collection-q050
-- eom-ug-final2-collection-q051
-- eom-ug-final2-collection-q052
-- eom-ug-final2-collection-q053
-- eom-ug-final2-collection-q054
-- eom-ug-final2-collection-q055
-- eom-ug-final2-collection-q056
-- eom-ug-final2-collection-q057
-- eom-ug-final2-collection-q058
-- eom-ug-final2-collection-q059
-- eom-ug-final2-collection-q060
-- eom-ug-final2-collection-q061
-- eom-ug-final2-collection-q062
-- eom-ug-final2-collection-q063
-- eom-ug-final2-collection-q064
-- eom-ug-final2-collection-q065
-- eom-ug-final2-collection-q066
-- eom-ug-final2-collection-q067
-- eom-ug-final2-collection-q068
-- eom-ug-final2-collection-q069
-- eom-ug-final2-collection-q070
-- eom-ug-final2-collection-q071
-- eom-ug-final2-collection-q072
-- eom-ug-final2-collection-q073
-- eom-ug-final2-collection-q074
-- eom-ug-final2-collection-q075
-- eom-ug-final2-collection-q076
-- eom-ug-final2-collection-q077
-- eom-ug-final2-collection-q078
-- eom-ug-final2-collection-q079
-- eom-ug-final2-collection-q080
-- eom-ug-final2-collection-q081
-- eom-ug-final2-collection-q082
-- eom-ug-final2-collection-q083
-- eom-ug-final2-collection-q084
-- eom-ug-final2-collection-q085
-- eom-ug-final2-collection-q086
-- eom-ug-final2-collection-q087
-- eom-ug-final2-collection-q088
-- eom-ug-final2-collection-q089
-- eom-ug-final2-collection-q090
-- eom-ug-final2-collection-q091
-- eom-ug-final2-collection-q092
-- eom-ug-final2-collection-q093
-- eom-ug-final2-collection-q094
-- eom-ug-final2-collection-q095
-- eom-ug-final2-collection-q096
 - eom-ug-final2-collection-q097
 - eom-ug-final2-collection-q098
 - eom-ug-final2-collection-q099

@@ -5604,3 +5604,6863 @@ yes
 keySource: printed key, Pharma Q8
 asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Pharma Q8
 keyDoubt: The printed key frames breast-cancer risk as an estrogen-driven, "unrelated to progesterone" effect; the epidemiological evidence on OCP and breast cancer risk is mixed and not cleanly attributable to one hormonal component alone in current literature — flagged as a doubtful key per the source's own framing (LANE-CARD "note doubts in author_notes"), printed key retained as correct per "printed keys stand".
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q043
+
+## title
+Which of the following is true regarding the peripheral zone of the prostate?
+
+## question
+Which of the following is true regarding the peripheral zone of the prostate?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Contains corpora amylacea
+
+## explanation_a
+Correct. The peripheral zone, which makes up roughly 70% of prostatic glandular tissue and gives rise to the majority of prostate carcinomas, characteristically contains corpora amylacea — eosinophilic, concentrically laminated proteinaceous concretions that form within gland lumina and increase in number and size with advancing age. Their presence is a normal histologic feature of aging peripheral-zone acini rather than a marker of disease, and they are a classic teaching point distinguishing peripheral from central and transition zone tissue.
+
+## answer_b
+Is the most common site of origin of BPH nodules
+
+## explanation_b
+Incorrect. Benign prostatic hyperplasia nodules characteristically arise in the transition zone surrounding the urethra, not the peripheral zone, which is why BPH and peripheral-zone carcinoma can coexist without one causing the other.
+
+## answer_c
+Is relatively resistant to both carcinoma and inflammatory processes
+
+## explanation_c
+Incorrect. It is the central zone, not the peripheral zone, that is relatively resistant to both carcinoma and inflammatory prostatitis.
+
+## answer_d
+Is lined by a single layer of secretory cells with no basal cell layer
+
+## explanation_d
+Incorrect. Normal prostatic glandular epithelium is composed of two cell layers — a luminal secretory columnar layer overlying a discontinuous basal cell layer — and loss of this basal layer is a key histologic clue to adenocarcinoma.
+
+## topic
+Male reproductive histology
+
+## subtopic
+Prostate
+
+## main_concept
+CON-AND-6A3410620887B1
+
+## concept_ids
+CON-AND-6A3410620887B1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Prostate
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-PROSTATE-PERIPHERAL-ZONE-CORPORA-AMYLACEA
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The peripheral zone of the prostate contains corpora amylacea and is the main site of origin of prostate carcinoma.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Histo Q1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Histo Q1
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Histo Q1
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q044
+
+## title
+Which of the following is true regarding Sertoli cells?
+
+## question
+Which of the following is true regarding Sertoli cells?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Have apical cytoplasmic infoldings with an indistinct lateral cell border
+
+## explanation_a
+Correct. Sertoli cells are tall, irregularly shaped supporting cells extending from the basement membrane to the lumen of the seminiferous tubule; their lateral and apical plasma membranes form complex, deeply interdigitating folds around developing germ cells, which is why their cell boundaries appear indistinct on routine light microscopy. This irregular, folded architecture lets a single Sertoli cell physically support and nurture many germ cells at different stages of spermatogenesis simultaneously.
+
+## answer_b
+Are the primary source of testosterone within the testis
+
+## explanation_b
+Incorrect. Testosterone is produced by Leydig (interstitial) cells lying between seminiferous tubules, not by Sertoli cells, although Sertoli cells concentrate testosterone via androgen-binding protein to support spermatogenesis.
+
+## answer_c
+Undergo continuous mitotic division throughout adult life
+
+## explanation_c
+Incorrect. Sertoli cells are terminally differentiated after puberty and essentially do not divide in the adult testis; it is the spermatogonia at the base of the epithelium that continue to divide.
+
+## answer_d
+Have their tight junctions located outside the tubule wall, at the interstitium
+
+## explanation_d
+Incorrect. The tight junctions that form the blood-testis barrier lie between adjacent Sertoli cells near the base of the seminiferous epithelium, not at the outer boundary between the tubule and the interstitium.
+
+## topic
+Male reproductive histology
+
+## subtopic
+Spermatogenesis
+
+## main_concept
+CON-AND-CD9F2F41AD9CC3
+
+## concept_ids
+CON-AND-CD9F2F41AD9CC3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Spermatogenesis
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-SERTOLI-CELL-APICAL-INFOLDINGS-INDISTINCT-BORDER
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Sertoli cells show apical infoldings and an indistinct border on light microscopy, distinct from Leydig cell and germ cell features.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Histo Q2.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Histo Q2
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Histo Q2
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q045
+
+## title
+Which part of the spermatozoon is surrounded by mitochondria?
+
+## question
+Which part of the spermatozoon is surrounded by mitochondria?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Head
+
+## explanation_a
+Incorrect. The head contains the condensed nucleus and the acrosomal cap, not a mitochondrial sheath.
+
+## answer_b
+Middle piece
+
+## explanation_b
+Correct. The middle piece of the sperm tail contains the axoneme wrapped in a helical sheath of mitochondria arranged end-to-end. This generate the ATP needed to power flagellar beating and sperm motility.
+
+## answer_c
+Principal piece
+
+## explanation_c
+Incorrect. The principal piece, the longest segment of the tail, is surrounded by a fibrous sheath rather than mitochondria.
+
+## answer_d
+End piece
+
+## explanation_d
+Incorrect. The end piece is the short terminal segment containing only the axoneme, without an organized mitochondrial or fibrous sheath.
+
+## topic
+Male reproductive histology
+
+## subtopic
+Spermatogenesis
+
+## main_concept
+CON-AND-395897DFC6D9E7
+
+## concept_ids
+CON-AND-395897DFC6D9E7
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Spermatogenesis
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-SPERM-MIDDLE-PIECE-MITOCHONDRIAL-SHEATH
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The mitochondrial sheath that powers sperm motility is located in the middle piece.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Histo Q3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Histo Q3
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Histo Q3
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q046
+
+## title
+The vas deferens is characterized by which of the following features?
+
+## question
+The vas deferens is characterized by which of the following features?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It has a thick, three-layered muscularis
+
+## explanation_a
+Correct. The vas deferens is characterized by an unusually thick three-layered smooth muscle coat — inner longitudinal, middle circular, and outer longitudinal — surrounding a narrow, irregular lumen. This thick musculosa is the single most useful histologic feature for identifying the vas deferens and provides the strong peristaltic contractions that propel sperm during ejaculation.
+
+## answer_b
+It has the widest lumen of any part of the male excretory duct system
+
+## explanation_b
+Incorrect. The vas deferens lumen is narrow and irregular in outline; it is the epididymis, particularly its proximal portion, that has a wider, more regular lumen.
+
+## answer_c
+It lacks a muscularis and relies on ciliary transport of sperm
+
+## explanation_c
+Incorrect. The vas deferens is a highly muscular duct whose thick wall generates the peristaltic contractions responsible for expelling sperm at emission, not a passive ciliary conduit.
+
+## answer_d
+Its epithelium and wall are histologically identical to the epididymis
+
+## explanation_d
+Incorrect. While the vas deferens shares a pseudostratified columnar epithelium with stereocilia similar to the epididymis, what distinguishes it is precisely its markedly thicker three-layered muscular wall, which the epididymal duct lacks.
+
+## topic
+Male reproductive histology
+
+## subtopic
+Epididymis and vas deferens
+
+## main_concept
+CON-AND-44E49B30F2F0D0
+
+## concept_ids
+CON-AND-44E49B30F2F0D0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Epididymis and vas deferens
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-VAS-DEFERENS-THICK-THREE-LAYER-MUSCULARIS
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The vas deferens is identified histologically by its thick three-layered muscularis around a narrow lumen.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Histo Q4.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Histo Q4
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Histo Q4
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q048
+
+## title
+Sertoli cells help maintain a supply of high levels of local testosterone by which of the following?
+
+## question
+Sertoli cells help maintain a supply of high levels of local testosterone by which of the following?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Synthesizing testosterone de novo from cholesterol
+
+## explanation_a
+Incorrect. Testosterone is synthesized de novo from cholesterol by Leydig cells, not Sertoli cells; Sertoli cells instead concentrate testosterone that Leydig cells have already produced.
+
+## answer_b
+Secreting androgen-binding protein (ABP)
+
+## explanation_b
+Correct. Sertoli cells secrete androgen-binding protein (ABP) into the seminiferous tubule lumen; ABP binds testosterone and keeps it at a high local concentration within the tubular fluid, which is necessary to sustain the later stages of spermatogenesis. ABP secretion is stimulated by FSH acting on Sertoli cells.
+
+## answer_c
+Converting testosterone to dihydrotestosterone via 5-alpha reductase
+
+## explanation_c
+Incorrect. Conversion of testosterone to the more potent dihydrotestosterone by 5-alpha reductase occurs mainly in peripheral androgen target tissues such as the prostate and skin, and is not the mechanism by which Sertoli cells raise intratubular testosterone.
+
+## answer_d
+Secreting inhibin, which directly raises testosterone levels
+
+## explanation_d
+Incorrect. Inhibin acts on the anterior pituitary to suppress FSH secretion; it does not directly raise testosterone levels.
+
+## topic
+Male reproductive histology
+
+## subtopic
+Androgens
+
+## main_concept
+CON-AND-32C8756AFCAB4F
+
+## concept_ids
+CON-AND-32C8756AFCAB4F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Androgens
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-SERTOLI-CELL-ABP-TESTOSTERONE-CONCENTRATION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Sertoli cells concentrate testosterone locally via androgen-binding protein rather than synthesizing it.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Histo Q6.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Histo Q6
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Histo Q6
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q049
+
+## title
+Which of the following is true regarding the CatSper protein?
+
+## question
+Which of the following is true regarding the CatSper protein?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It is present in the plasma membrane of the sperm tail
+
+## explanation_a
+Correct. CatSper is a sperm-specific calcium channel located in the plasma membrane of the principal piece of the tail. Calcium influx through CatSper drives the whip-like, high-amplitude flagellar beating known as hyperactivated motility, which sperm need to penetrate the cumulus oophorus and zona pellucida.
+
+## answer_b
+It is located in the acrosome and mediates the acrosome reaction
+
+## explanation_b
+Incorrect. The acrosome reaction is mediated by a distinct set of membrane receptors and exocytotic machinery in the sperm head, not by CatSper, which is confined to the tail.
+
+## answer_c
+It is a mitochondrial protein of the middle piece involved in ATP synthesis
+
+## explanation_c
+Incorrect. ATP synthesis in the middle piece is carried out by the mitochondrial sheath, a structurally and functionally distinct component from the CatSper channel.
+
+## answer_d
+It is a nuclear protein that compacts sperm chromatin
+
+## explanation_d
+Incorrect. Sperm chromatin compaction is achieved by protamines replacing histones in the nucleus, an unrelated process to the CatSper tail-membrane channel.
+
+## topic
+Male reproductive histology
+
+## subtopic
+Spermatogenesis
+
+## main_concept
+CON-AND-C93E1FD9D30F2C
+
+## concept_ids
+CON-AND-C93E1FD9D30F2C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Spermatogenesis
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-CATSPER-CHANNEL-SPERM-TAIL
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+CatSper is a calcium channel in the sperm tail membrane that drives hyperactivated motility.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Histo Q8.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Histo Q8
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Histo Q8
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q050
+
+## title
+What is the lining of the intralobular and smaller interlobular ducts of the resting breast?
+
+## question
+What is the lining of the intralobular and smaller interlobular ducts of the resting breast?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Two layers of cuboidal cells with an underlying myoepithelial layer
+
+## explanation_a
+Correct. In the resting breast, the intralobular and smaller interlobular ducts are lined by two layers of cuboidal epithelial cells with an underlying, discontinuous layer of myoepithelial cells. This contract to aid fluid movement and provide a supportive basal layer.
+
+## answer_b
+A single layer of tall columnar secretory cells without myoepithelial cells
+
+## explanation_b
+Incorrect. A single layer of tall secretory columnar cells describes the alveolar epithelium of the actively lactating breast, not the resting ducts, and it too retains an outer myoepithelial layer.
+
+## answer_c
+Stratified squamous epithelium continuous with the nipple skin
+
+## explanation_c
+Incorrect. Stratified squamous epithelium is found only at the nipple surface and the most proximal segment of the lactiferous duct near its orifice, not throughout the intralobular and interlobular ducts.
+
+## answer_d
+Simple squamous epithelium
+
+## explanation_d
+Incorrect. Simple squamous epithelium is not a normal lining of the breast ductal system at any level.
+
+## topic
+Female reproductive histology
+
+## subtopic
+Breast
+
+## main_concept
+CON-GYN-59D1FE60B17A67
+
+## concept_ids
+CON-GYN-59D1FE60B17A67
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Breast
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-BREAST-INTRALOBULAR-INTERLOBULAR-DUCT-LINING
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Resting breast intralobular/interlobular ducts have a two-layer cuboidal-plus-myoepithelial lining.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Histo Q9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Histo Q9
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Histo Q9
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q051
+
+## title
+Which of the following is a characteristic histologic feature of the fallopian tube, particularly its ampulla?
+
+## question
+Which of the following is a characteristic histologic feature of the fallopian tube, particularly its ampulla?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Its mucosa is thrown into complex primary, secondary, and tertiary folds
+
+## explanation_a
+Correct. The fallopian tube mucosa is elaborately folded into primary, secondary, and even tertiary plicae, an arrangement most complex in the ampulla. The folds are lined by simple columnar epithelium containing both ciliated cells, which help transport the oocyte, and secretory (peg) cells.
+
+## answer_b
+It has a smooth, unfolded mucosa lined by simple squamous epithelium
+
+## explanation_b
+Incorrect. The tubal mucosa is highly folded, not smooth, and is lined by simple columnar epithelium, not simple squamous epithelium.
+
+## answer_c
+It has a thick keratinized stratified squamous lining similar to the vagina
+
+## explanation_c
+Incorrect. A thick keratinized stratified squamous lining is characteristic of the vagina and ectocervix, not the fallopian tube.
+
+## answer_d
+It has glandular endometrial-type mucosa with spiral arteries
+
+## explanation_d
+Incorrect. Glandular mucosa with spiral arteries describes the uterine endometrium, a structurally distinct organ from the fallopian tube.
+
+## topic
+Female reproductive histology
+
+## subtopic
+Pelvic organs
+
+## main_concept
+CON-GYN-DE8B63B8B48DEB
+
+## concept_ids
+CON-GYN-DE8B63B8B48DEB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Pelvic organs
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-FALLOPIAN-TUBE-AMPULLA-MUCOSAL-FOLDS
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The fallopian tube, especially its ampulla, has a mucosa folded into primary/secondary/tertiary plicae.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Histo Q10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Histo Q10
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Histo Q10
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q053
+
+## title
+Arrest and failure of chromosome separation during the first meiotic division of a primary oocyte most typically results in which of the following?
+
+## question
+Arrest and failure of chromosome separation during the first meiotic division of a primary oocyte most typically results in which of the following?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Turner syndrome
+
+## explanation_a
+Incorrect. Turner syndrome (45,X) most often arises from loss of a sex chromosome, frequently of paternal origin or through a post-zygotic mitotic error, rather than being the classic teaching consequence of maternal meiosis I nondisjunction.
+
+## answer_b
+Down syndrome
+
+## explanation_b
+Correct. Human primary oocytes remain arrested in prophase of the first meiotic division from before birth until ovulation, sometimes for decades. This prolonged arrest is thought to predispose to nondisjunction — failure of homologous chromosome pairs to separate correctly — which is the classic mechanism producing trisomy 21 (Down syndrome), with risk rising sharply with advancing maternal age.
+
+## answer_c
+Klinefelter syndrome
+
+## explanation_c
+Incorrect. While Klinefelter syndrome (47,XXY) can also arise from meiotic nondisjunction, it is trisomy 21 that is the standard teaching example most closely linked to maternal meiosis I errors and advanced maternal age.
+
+## answer_d
+A balanced reciprocal translocation carrier state
+
+## explanation_d
+Incorrect. A balanced translocation is a structural chromosomal rearrangement transmitted from a carrier parent, an entirely different mechanism from numerical nondisjunction during meiosis.
+
+## topic
+Female reproductive histology
+
+## subtopic
+Pelvic organs
+
+## main_concept
+CON-GYN-40648C1EFC7C3F
+
+## concept_ids
+CON-GYN-40648C1EFC7C3F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Pelvic organs
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-OOCYTE-MEIOSIS-I-NONDISJUNCTION-DOWN-SYNDROME
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Maternal meiosis I nondisjunction is the classic mechanism linked to trisomy 21 (Down syndrome).
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Histo Q12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Histo Q12
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Histo Q12
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q054
+
+## title
+Which of the following induces penile erection?
+
+## question
+Which of the following induces penile erection?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Increased cGMP and nitric oxide (NO) release from cavernosal nerve endings and endothelium
+
+## explanation_a
+Correct. Parasympathetic stimulation releases nitric oxide from cavernosal nerve endings and vascular endothelium, which activates guanylate cyclase in cavernosal smooth muscle to raise intracellular cyclic GMP; cGMP lowers intracellular calcium and relaxes the smooth muscle of the corpora cavernosa and their arterioles, allowing blood inflow and veno-occlusive trapping that produces erection. This is also the target of phosphodiesterase type 5 inhibitors, which prolong cGMP action by blocking its breakdown.
+
+## answer_b
+Increased sympathetic norepinephrine release causing cavernosal artery vasoconstriction
+
+## explanation_b
+Incorrect. Sympathetic activity, via norepinephrine on alpha-adrenergic receptors, maintains cavernosal smooth muscle contraction and penile flaccidity; withdrawal of sympathetic tone, not an increase, permits erection.
+
+## answer_c
+Increased circulating angiotensin II acting on cavernosal smooth muscle
+
+## explanation_c
+Incorrect. Angiotensin II is a potent vasoconstrictor that would oppose, not produce, the smooth muscle relaxation required for erection.
+
+## answer_d
+Increased calcium influx into cavernosal smooth muscle
+
+## explanation_d
+Incorrect. Erection depends on a fall, not a rise, in cavernosal smooth muscle intracellular calcium; increased calcium influx would instead promote contraction and detumescence.
+
+## topic
+Male reproductive physiology
+
+## subtopic
+Erectile function
+
+## main_concept
+CON-AND-C5CCC38086AC9D
+
+## concept_ids
+CON-AND-C5CCC38086AC9D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Erectile function
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-ERECTION-CGMP-NO-MEDIATED-RELAXATION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+NO-mediated cGMP elevation relaxes cavernosal smooth muscle to produce erection.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q1
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q1
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q055
+
+## title
+Which of the following statements about the scrotum is true?
+
+## question
+Which of the following statements about the scrotum is true?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It keeps testicular temperature cooler than core body temperature, favoring spermatogenesis
+
+## explanation_a
+Correct. The scrotum actively maintains testicular temperature roughly 2-3°C below core body temperature, through the contractile dartos and cremaster muscles that adjust testicular position relative to the body and the pampiniform venous plexus, which cools incoming arterial blood by countercurrent exchange. This cooler environment is required for normal spermatogenesis, which is impaired at core body temperature.
+
+## answer_b
+It has no independent thermoregulatory mechanism and simply follows ambient temperature
+
+## explanation_b
+Incorrect. The scrotum has active thermoregulatory mechanisms — the dartos and cremaster muscles and the pampiniform plexus — rather than passively following ambient temperature alone.
+
+## answer_c
+Scrotal temperature is normally 2-3°C higher than core body temperature
+
+## explanation_c
+Incorrect. Scrotal/testicular temperature is normally lower, not higher, than core body temperature; a temperature elevation, as in cryptorchidism, impairs spermatogenesis.
+
+## answer_d
+The pampiniform plexus warms incoming testicular arterial blood before it reaches the testis
+
+## explanation_d
+Incorrect. The pampiniform plexus cools incoming testicular arterial blood by countercurrent heat exchange with the cooler venous blood leaving the testis, rather than warming it.
+
+## topic
+Male reproductive physiology
+
+## subtopic
+Spermatogenesis
+
+## main_concept
+CON-AND-F15F316F534D6D
+
+## concept_ids
+CON-AND-F15F316F534D6D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Spermatogenesis
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-SCROTUM-THERMOREGULATION-SPERMATOGENESIS
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The scrotum actively cools the testis below core temperature to support spermatogenesis.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q2.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q2
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q2
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q056
+
+## title
+Which of the following represents a function of the prostate?
+
+## question
+Which of the following represents a function of the prostate?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Secretes a thin, milky, alkaline fluid
+
+## explanation_a
+Correct. The prostate secretes a thin, milky, alkaline fluid containing prostatic acid phosphatase, citrate, zinc, and prostate-specific antigen (PSA). This alkaline fluid helps neutralize the acidic vaginal and residual urethral environment and, through PSA-mediated proteolysis, contributes to liquefaction of the coagulated ejaculate.
+
+## answer_b
+Produces the bulk of seminal fructose that nourishes sperm
+
+## explanation_b
+Incorrect. The bulk of seminal fructose, the main energy substrate for ejaculated sperm, is produced by the seminal vesicles, not the prostate.
+
+## answer_c
+Secretes an acidic fluid that activates sperm motility
+
+## explanation_c
+Incorrect. Prostatic fluid is alkaline, not acidic, and sperm motility activation classically occurs after mixing of seminal vesicle and prostatic secretions in the ejaculate, not within the prostate alone.
+
+## answer_d
+Is the primary site of spermatozoa storage before ejaculation
+
+## explanation_d
+Incorrect. Spermatozoa are stored mainly in the epididymis (and to some extent the ampulla of the vas deferens) before ejaculation, not in the prostate.
+
+## topic
+Male reproductive physiology
+
+## subtopic
+Prostate
+
+## main_concept
+CON-AND-F126C097A6FDFE
+
+## concept_ids
+CON-AND-F126C097A6FDFE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Prostate
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-PROSTATE-MILKY-ALKALINE-SECRETION-FUNCTION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The prostate contributes an alkaline, liquefying secretion to semen, distinct from the seminal vesicles' fructose-rich fluid.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q3
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q3
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q057
+
+## title
+A 28-year-old man who looks like a 10-year-old, has little facial hair, and is diagnosed with hypogonadotropic hypogonadism. Which of the following describes this condition?
+
+## question
+A 28-year-old man who looks like a 10-year-old, has little facial hair, and is diagnosed with hypogonadotropic hypogonadism. Which of the following describes this condition?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+High-pitched voice
+
+## explanation_a
+Correct. Without adequate testosterone during puberty, the larynx and vocal cords fail to undergo the normal androgen-driven growth and thickening, so the voice remains high-pitched into adulthood. This is one of several eunuchoid features, alongside sparse facial hair and immature genital development, seen in hypogonadotropic hypogonadism.
+
+## answer_b
+Premature closure of epiphyseal growth plates with short stature
+
+## explanation_b
+Incorrect. Absent sex steroids actually delay, not accelerate, epiphyseal growth plate closure, producing relatively long limbs and eunuchoid body proportions rather than short stature.
+
+## answer_c
+Excessive facial and body hair growth
+
+## explanation_c
+Incorrect. Low androgen levels reduce, rather than increase, facial and body hair growth, consistent with the sparse facial hair already described in this patient.
+
+## answer_d
+Early puberty with accelerated bone age
+
+## explanation_d
+Incorrect. Hypogonadotropic hypogonadism causes delayed or absent puberty with low, not accelerated, bone age, the opposite of what is described.
+
+## topic
+Male reproductive physiology
+
+## subtopic
+Endocrine causes of infertility
+
+## main_concept
+CON-AND-B9AA17471584E3
+
+## concept_ids
+CON-AND-B9AA17471584E3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Endocrine causes of infertility
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-HYPOGONADOTROPIC-HYPOGONADISM-EUNUCHOID-FEATURES
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Hypogonadotropic hypogonadism produces eunuchoid features including a persistently high-pitched voice.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q4.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q4
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q4
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q058
+
+## title
+Which of the following hormones is dominant during the proliferative phase of the uterine cycle?
+
+## question
+Which of the following hormones is dominant during the proliferative phase of the uterine cycle?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Estrogen
+
+## explanation_a
+Correct. Rising estrogen secreted by the developing ovarian follicle dominates the proliferative phase of the uterine cycle, driving mitotic proliferation of the endometrial glands and stroma to rebuild the functional layer shed at the previous menstruation. This estrogen-driven regrowth restores the endometrium after the previous cycle's shedding and sets up the tissue that progesterone will later transform in the secretory phase.
+
+## answer_b
+Progesterone
+
+## explanation_b
+Incorrect. Progesterone becomes dominant only after ovulation, during the secretory (luteal) phase, once the corpus luteum begins secreting it.
+
+## answer_c
+Prolactin
+
+## explanation_c
+Incorrect. Prolactin is not the driving hormone of the normal menstrual cycle; sustained hyperprolactinemia actually suppresses the cycle by inhibiting GnRH pulsatility.
+
+## answer_d
+Testosterone
+
+## explanation_d
+Incorrect. Testosterone is not a normal driver of the uterine cycle in women, although small amounts are produced by the ovary and adrenal gland.
+
+## topic
+Female reproductive physiology
+
+## subtopic
+Menstrual cycle
+
+## main_concept
+CON-GYN-068334FAF30E64
+
+## concept_ids
+CON-GYN-068334FAF30E64
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Menstrual cycle
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-PROLIFERATIVE-PHASE-ESTROGEN-DOMINANCE
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Estrogen dominates the proliferative phase; progesterone dominates the secretory phase.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q5.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q5
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q5
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q059
+
+## title
+Fertilization of the oocyte can occur up to how long after ovulation?
+
+## question
+Fertilization of the oocyte can occur up to how long after ovulation?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+24 hours
+
+## explanation_a
+Correct. The ovulated secondary oocyte remains viable and capable of being fertilized for approximately 24 hours after ovulation. Beyond this window it degenerates and loses fertilizability, which is why the fertile window depends more on sperm surviving in the tract before ovulation than on the oocyte surviving after it.
+
+## answer_b
+72 hours
+
+## explanation_b
+Incorrect. 72 hours considerably overstates the oocyte's fertilizable lifespan, which is closer to 24 hours.
+
+## answer_c
+6 hours
+
+## explanation_c
+Incorrect. 6 hours understates the oocyte's viability window, which extends to roughly a full day.
+
+## answer_d
+5 days
+
+## explanation_d
+Incorrect. Five days approximates how long sperm, not the oocyte, can survive and remain capable of fertilizing within the female reproductive tract.
+
+## topic
+Female reproductive physiology
+
+## subtopic
+Menstrual cycle
+
+## main_concept
+CON-GYN-F8BAA553BC8A3D
+
+## concept_ids
+CON-GYN-F8BAA553BC8A3D
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Menstrual cycle
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-FERTILIZATION-24-HOUR-WINDOW-POST-OVULATION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The ovulated oocyte remains fertilizable for about 24 hours.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q6.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q6
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q6
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q060
+
+## title
+Which of the following is true regarding the regulation of the follicular phase?
+
+## question
+Which of the following is true regarding the regulation of the follicular phase?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+FSH stimulates proliferation of granulosa cells
+
+## explanation_a
+Correct. FSH from the anterior pituitary is the principal stimulus for granulosa cell proliferation within developing ovarian follicles during the follicular phase, and it also induces granulosa cell aromatase activity. This converts theca-derived androgens into estrogen.
+
+## answer_b
+LH is the principal stimulus for granulosa cell proliferation in the early follicular phase
+
+## explanation_b
+Incorrect. LH acts mainly on theca cells to stimulate androgen precursor production in the early follicular phase; it is FSH, not LH, that principally drives granulosa cell proliferation.
+
+## answer_c
+Inhibin stimulates FSH secretion from the anterior pituitary
+
+## explanation_c
+Incorrect. Inhibin, secreted by granulosa cells, suppresses rather than stimulates FSH secretion, forming a negative feedback loop.
+
+## answer_d
+Estrogen from the dominant follicle exerts only positive feedback on FSH throughout the follicular phase
+
+## explanation_d
+Incorrect. Estrogen exerts negative feedback on FSH for most of the follicular phase; only when estrogen reaches a sustained high level near mid-cycle does it switch to positive feedback, triggering the LH surge.
+
+## topic
+Female reproductive physiology
+
+## subtopic
+Menstrual cycle
+
+## main_concept
+CON-GYN-CB31162C18BD17
+
+## concept_ids
+CON-GYN-CB31162C18BD17
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Menstrual cycle
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-FOLLICULAR-PHASE-FSH-GRANULOSA-PROLIFERATION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+FSH drives granulosa cell proliferation and aromatase activity during the follicular phase.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q9
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q9
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q061
+
+## title
+Which of the following may be present in a 60-year-old woman as a consequence of the menopausal transition?
+
+## question
+Which of the following may be present in a 60-year-old woman as a consequence of the menopausal transition?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Increased serum cholesterol
+
+## explanation_a
+Correct. Estrogen normally favors a more protective lipid profile. Its loss after menopause is associated with a rise in serum total and LDL cholesterol, contributing to the increase in cardiovascular disease risk seen in postmenopausal women.
+
+## answer_b
+Increased vaginal lubrication and epithelial thickness
+
+## explanation_b
+Incorrect. Estrogen loss after menopause causes vaginal atrophy, with thinning of the epithelium and reduced lubrication, not increased lubrication and thickness.
+
+## answer_c
+Increased bone density
+
+## explanation_c
+Incorrect. Estrogen loss accelerates bone resorption, causing decreased, not increased, bone density (osteoporosis) after menopause.
+
+## answer_d
+Regular, predictable menstrual cycles
+
+## explanation_d
+Incorrect. Menopause is defined by the permanent cessation of menstrual cycles (amenorrhea), not by continued regular cycles.
+
+## topic
+Female reproductive physiology
+
+## subtopic
+Menopause
+
+## main_concept
+CON-GYN-B033B364B468B3
+
+## concept_ids
+CON-GYN-B033B364B468B3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Menopause
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-MENOPAUSE-LIPID-PROFILE-CHOLESTEROL-RISE
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Loss of estrogen at menopause raises serum cholesterol and cardiovascular risk.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q10
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q10
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q062
+
+## title
+Which fetal cell type secretes Müllerian-inhibiting hormone (anti-Müllerian hormone), driving regression of the Müllerian ducts in the male fetus?
+
+## question
+Which fetal cell type secretes Müllerian-inhibiting hormone (anti-Müllerian hormone), driving regression of the Müllerian ducts in the male fetus?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Sertoli cell
+
+## explanation_a
+Correct. Fetal Sertoli cells secrete Müllerian-inhibiting hormone (anti-Müllerian hormone). This acts on the ipsilateral paramesonephric (Müllerian) duct to cause its regression, preventing development of the uterus, fallopian tubes, and upper vagina in the male fetus.
+
+## answer_b
+Leydig cell
+
+## explanation_b
+Incorrect. Leydig cells secrete testosterone, which maintains and virilizes the Wolffian ducts and external genitalia; they do not secrete Müllerian-inhibiting hormone.
+
+## answer_c
+Theca cell
+
+## explanation_c
+Incorrect. Theca cells are a component of the postnatal ovarian follicle in the female, not a fetal testicular cell type, and are not the source of MIH.
+
+## answer_d
+Germ cell (spermatogonium)
+
+## explanation_d
+Incorrect. Germ cells (spermatogonia) give rise to sperm and are not endocrine cells; they do not secrete Müllerian-inhibiting hormone.
+
+## topic
+Male reproductive physiology
+
+## subtopic
+Sexual differentiation
+
+## main_concept
+CON-AND-A8D64E65F6A5FE
+
+## concept_ids
+CON-AND-A8D64E65F6A5FE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Sexual differentiation
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-FETAL-SERTOLI-CELL-MULLERIAN-INHIBITING-HORMONE
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Fetal Sertoli cells secrete MIH, causing Müllerian duct regression in males.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q11
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q11
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q063
+
+## title
+Which of the following is an action of progesterone on the female reproductive tract?
+
+## question
+Which of the following is an action of progesterone on the female reproductive tract?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Formation of thick, sticky cervical mucus hostile to sperm
+
+## explanation_a
+Correct. Progesterone. This dominates after ovulation, causes the cervix to secrete thick, scanty, sticky mucus that forms a barrier hostile to sperm penetration, contrasting with the thin, elastic mucus estrogen produces around ovulation to facilitate sperm transport.
+
+## answer_b
+Production of thin, watery, elastic cervical mucus that facilitates sperm penetration
+
+## explanation_b
+Incorrect. Thin, watery, elastic ("spinnbarkeit") mucus that facilitates sperm penetration is produced under estrogen dominance around ovulation, the opposite of progesterone's effect.
+
+## answer_c
+Proliferation of the endometrial glands and stroma
+
+## explanation_c
+Incorrect. Proliferation of endometrial glands and stroma is driven by estrogen in the proliferative phase; progesterone instead promotes secretory transformation and glandular differentiation, not further proliferation.
+
+## answer_d
+Increased cervical os dilation to facilitate sperm entry
+
+## explanation_d
+Incorrect. Progesterone tends to keep the cervix firm and closed, not to increase dilation for sperm entry, which instead is favored around ovulation under estrogen.
+
+## topic
+Female reproductive physiology
+
+## subtopic
+Menstrual cycle
+
+## main_concept
+CON-GYN-035023D831E2F2
+
+## concept_ids
+CON-GYN-035023D831E2F2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Menstrual cycle
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-PROGESTERONE-THICK-SCANTY-CERVICAL-MUCUS
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Progesterone thickens cervical mucus, opposing estrogen's thin, sperm-friendly periovulatory mucus.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q12
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q12
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q064
+
+## title
+What causes bleeding at the onset of menstruation?
+
+## question
+What causes bleeding at the onset of menstruation?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Rapid withdrawal of progesterone as the corpus luteum regresses
+
+## explanation_a
+Correct. In the absence of pregnancy the corpus luteum regresses at the end of the luteal phase, causing progesterone and estrogen levels to fall rapidly. This hormone withdrawal triggers spiral artery vasoconstriction and ischemic shedding of the endometrial functional layer, producing menstrual bleeding.
+
+## answer_b
+A sudden surge of luteinizing hormone (LH) at midcycle
+
+## explanation_b
+Incorrect. The LH surge occurs at mid-cycle and triggers ovulation, an event roughly two weeks before menstruation, not the bleeding itself.
+
+## answer_c
+A rise in progesterone maintaining the endometrium
+
+## explanation_c
+Incorrect. A rise in progesterone maintains and stabilizes the secretory endometrium; it is a fall, not a rise, in progesterone that precipitates shedding.
+
+## answer_d
+Rupture of the dominant ovarian follicle
+
+## explanation_d
+Incorrect. Follicular rupture at ovulation is an ovarian event that precedes menstruation by about two weeks and does not itself cause endometrial shedding.
+
+## topic
+Female reproductive physiology
+
+## subtopic
+Menstrual cycle
+
+## main_concept
+CON-GYN-37621F78CF5F3F
+
+## concept_ids
+CON-GYN-37621F78CF5F3F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Menstrual cycle
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-MENSTRUATION-PROGESTERONE-WITHDRAWAL-TRIGGER
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Menstruation is triggered by progesterone (and estrogen) withdrawal at corpus luteum regression.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q13
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q13
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q065
+
+## title
+What happens in the endometrium during the secretory phase under progesterone influence?
+
+## question
+What happens in the endometrium during the secretory phase under progesterone influence?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+A decidual reaction occurs, with glandular glycogen storage
+
+## explanation_a
+Correct. Progesterone acting on the estrogen-primed endometrium during the secretory phase induces glandular glycogen accumulation and stromal decidual change, transforming the endometrium into a nutrient-rich, secretory tissue prepared to support a possible implanting blastocyst. This secretory transformation, unlike the earlier proliferative phase, is not primarily about further glandular growth but about functional differentiation in readiness for pregnancy.
+
+## answer_b
+The endometrial glands proliferate rapidly under mitotic stimulation
+
+## explanation_b
+Incorrect. Rapid mitotic proliferation of the glands is the hallmark of the earlier, estrogen-driven proliferative phase, not the secretory phase, in which glandular growth slows and secretory activity dominates instead.
+
+## answer_c
+The functional layer of the endometrium sloughs off and is shed
+
+## explanation_c
+Incorrect. Shedding of the functional layer is the event of menstruation, which follows the secretory phase after progesterone withdrawal, not an event of the secretory phase itself.
+
+## answer_d
+Spiral arteries first form and become newly vascularized for the first time
+
+## explanation_d
+Incorrect. Spiral arteries are already present from earlier in the cycle and elongate and coil further during the secretory phase; they do not first form at this stage.
+
+## topic
+Female reproductive physiology
+
+## subtopic
+Menstrual cycle
+
+## main_concept
+CON-GYN-19EFCFA1F00FCF
+
+## concept_ids
+CON-GYN-19EFCFA1F00FCF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Menstrual cycle
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-SECRETORY-PHASE-DECIDUAL-REACTION-GLYCOGEN
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The secretory phase, under progesterone, produces decidual change and glandular glycogen storage.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q14.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q14
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q14
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q066
+
+## title
+Which of the following induces the onset of puberty?
+
+## question
+Which of the following induces the onset of puberty?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Pulsatile release of GnRH from the hypothalamus
+
+## explanation_a
+Correct. Puberty is triggered when the hypothalamus resumes pulsatile GnRH release. This reactivates pituitary gonadotroph responsiveness and drives the pubertal rise in LH, FSH, and downstream gonadal sex steroid secretion.
+
+## answer_b
+Continuous, non-pulsatile high-dose GnRH secretion from the hypothalamus
+
+## explanation_b
+Incorrect. Continuous, non-pulsatile GnRH exposure actually desensitizes and downregulates pituitary GnRH receptors, suppressing rather than stimulating gonadotropin secretion — the principle exploited by GnRH agonist therapy to treat precocious puberty.
+
+## answer_c
+A sudden fall in circulating leptin levels
+
+## explanation_c
+Incorrect. Rising, not falling, leptin levels are thought to be permissive for pubertal onset, signaling adequate energy reserves to the hypothalamus.
+
+## answer_d
+Loss of adrenal cortex sensitivity to ACTH
+
+## explanation_d
+Incorrect. The adrenal cortex-ACTH axis is a separate endocrine system from the hypothalamic-pituitary-gonadal axis that governs puberty.
+
+## topic
+Female reproductive physiology
+
+## subtopic
+Puberty
+
+## main_concept
+CON-GYN-337E94ECB60B7F
+
+## concept_ids
+CON-GYN-337E94ECB60B7F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Puberty
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-PUBERTY-ONSET-PULSATILE-GNRH-RELEASE
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Pulsatile, not continuous, GnRH release triggers pubertal reactivation of the gonadal axis.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q15
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q15
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q067
+
+## title
+The follicular phase of the ovarian cycle coincides with which of the following?
+
+## question
+The follicular phase of the ovarian cycle coincides with which of the following?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Proliferative phase of the uterine cycle
+
+## explanation_a
+Correct. The follicular phase of the ovarian cycle, during which a dominant follicle matures under rising FSH and estrogen, runs in parallel with the proliferative phase of the uterine cycle, in which that same rising estrogen drives regrowth of the endometrium. Both phases are driven by the same rising follicular estrogen, which is why they are named for parallel, hormonally linked events in the ovary and uterus respectively.
+
+## answer_b
+Secretory phase of the uterine cycle
+
+## explanation_b
+Incorrect. The secretory phase of the uterine cycle corresponds to the luteal, not the follicular, phase of the ovarian cycle, driven by post-ovulatory progesterone.
+
+## answer_c
+Menstrual phase of the uterine cycle
+
+## explanation_c
+Incorrect. The menstrual phase marks the very start of a new cycle, overlapping only the earliest days of the follicular phase, not the whole follicular phase.
+
+## answer_d
+Luteal phase of the uterine cycle
+
+## explanation_d
+Incorrect. "Luteal phase" is itself the ovarian-cycle term paired with the uterine secretory phase; it is not a named phase of the uterine cycle and does not correspond to the follicular phase.
+
+## topic
+Female reproductive physiology
+
+## subtopic
+Menstrual cycle
+
+## main_concept
+CON-GYN-E7D981A7F4844F
+
+## concept_ids
+CON-GYN-E7D981A7F4844F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Menstrual cycle
+
+## question_only_for
+
+## library_ids
+ART-GYN-ASU-UG-FOLLICULAR-PHASE-PROLIFERATIVE-PHASE-CORRESPONDENCE
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The follicular (ovarian) phase corresponds to the proliferative (uterine) phase.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q16
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q16
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q068
+
+## title
+Which of the following is an effect of testosterone, via its conversion to dihydrotestosterone, on the male fetus?
+
+## question
+Which of the following is an effect of testosterone, via its conversion to dihydrotestosterone, on the male fetus?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Masculinization of the external genitalia
+
+## explanation_a
+Correct. Testosterone is converted by 5-alpha reductase to dihydrotestosterone (DHT) in genital skin, and DHT drives masculinization of the external genitalia, transforming the genital tubercle, folds, and swellings into the penis and scrotum rather than the female-pattern default structures. Wolffian duct structures such as the epididymis and vas deferens, by contrast, are maintained directly by testosterone itself rather than by its DHT metabolite.
+
+## answer_b
+Development of the uterus and fallopian tubes from the Müllerian ducts
+
+## explanation_b
+Incorrect. Development of the uterus and fallopian tubes from the Müllerian ducts is the female default pathway that occurs in the absence of Müllerian-inhibiting hormone, not an effect of testosterone.
+
+## answer_c
+Regression of the Wolffian ducts
+
+## explanation_c
+Incorrect. Testosterone maintains and virilizes the Wolffian ducts into the epididymis, vas deferens, and seminal vesicles; it does not cause their regression.
+
+## answer_d
+Formation of the labia majora and minora
+
+## explanation_d
+Incorrect. The labia majora and minora are the female-pattern structures that form from the same embryonic swellings and folds in the absence of DHT, not because of testosterone/DHT action.
+
+## topic
+Male reproductive physiology
+
+## subtopic
+Androgens
+
+## main_concept
+CON-AND-60CB723C7C8BEC
+
+## concept_ids
+CON-AND-60CB723C7C8BEC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Androgens
+
+## question_only_for
+
+## library_ids
+ART-AND-ASU-UG-TESTOSTERONE-EXTERNAL-GENITALIA-MASCULINIZATION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Testosterone, via DHT, masculinizes the external genitalia, distinct from its direct maintenance of the Wolffian ducts.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q17.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q17
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q17
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q069
+
+## title
+Which of the following is an effect of placental estrogen in late pregnancy?
+
+## question
+Which of the following is an effect of placental estrogen in late pregnancy?
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Increases myometrial excitability
+
+## explanation_a
+Correct. Placental estrogen upregulates myometrial oxytocin receptors and gap junctions in late pregnancy, increasing uterine muscle excitability and coordination between muscle fibers, helping prepare the uterus for effective contractions at labor. Progesterone opposes this effect for most of pregnancy, so the shift toward estrogen dominance near term is part of what helps the uterus become primed for labor.
+
+## answer_b
+Decreases myometrial excitability, maintaining uterine quiescence
+
+## explanation_b
+Incorrect. Maintaining uterine quiescence by decreasing myometrial excitability is progesterone's role throughout most of pregnancy, not estrogen's role in late pregnancy.
+
+## answer_c
+Suppresses maternal prolactin secretion
+
+## explanation_c
+Incorrect. Estrogen actually stimulates pituitary lactotroph proliferation and prolactin secretion during pregnancy, rather than suppressing it.
+
+## answer_d
+Inhibits development of the mammary ductal system
+
+## explanation_d
+Incorrect. Estrogen stimulates, rather than inhibits, proliferation of the mammary ductal system during pregnancy, in preparation for lactation.
+
+## topic
+Pregnancy physiology
+
+## subtopic
+Maternal adaptation to pregnancy
+
+## main_concept
+CON-OBS-121385E7AD8DD9
+
+## concept_ids
+CON-OBS-121385E7AD8DD9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Maternal adaptation to pregnancy
+
+## question_only_for
+
+## library_ids
+ART-OBS-ASU-UG-PLACENTAL-ESTROGEN-MYOMETRIAL-EXCITABILITY-INCREASE
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Placental estrogen raises myometrial excitability in late pregnancy, opposing progesterone's quiescence effect.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q18
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q18
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q070
+
+## title
+Which of the following is true concerning human chorionic gonadotropin (hCG)?
+
+## question
+Which of the following is true concerning human chorionic gonadotropin (hCG)?
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It appears in maternal blood approximately 6 days after conception
+
+## explanation_a
+Correct. hCG, secreted by the syncytiotrophoblast of the implanting blastocyst, appears in maternal blood approximately six days after conception, around the time of implantation, and its detection is what allows sensitive pregnancy tests to be positive before a missed period. The alpha subunit hCG shares with LH is also why hCG can cross-react in some older LH assays and why it can bind and stimulate the LH receptor to sustain the corpus luteum.
+
+## answer_b
+It is first detectable only after the first missed menstrual period
+
+## explanation_b
+Incorrect. hCG is detectable well before a missed period, around the time of implantation roughly six days after conception, which is precisely why early sensitive pregnancy tests work.
+
+## answer_c
+It is synthesized exclusively by the maternal corpus luteum
+
+## explanation_c
+Incorrect. hCG is synthesized by the syncytiotrophoblast of the developing placenta, not the corpus luteum; hCG is in fact what rescues the corpus luteum from regression, not the other way round.
+
+## answer_d
+It shares no structural homology with pituitary LH
+
+## explanation_d
+Incorrect. hCG shares an identical alpha subunit and a highly homologous beta subunit with pituitary LH, which is why hCG can bind and activate the LH receptor to maintain the corpus luteum.
+
+## topic
+Pregnancy physiology
+
+## subtopic
+Maternal adaptation to pregnancy
+
+## main_concept
+CON-OBS-8615CC140D33CE
+
+## concept_ids
+CON-OBS-8615CC140D33CE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Maternal adaptation to pregnancy
+
+## question_only_for
+
+## library_ids
+ART-OBS-ASU-UG-HCG-DETECTION-SIX-DAYS-POST-CONCEPTION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+hCG from the syncytiotrophoblast appears around implantation, about 6 days after conception, and rescues the corpus luteum.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q19
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q19
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q071
+
+## title
+Which of the following is an action of progesterone during pregnancy?
+
+## question
+Which of the following is an action of progesterone during pregnancy?
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Inhibits uterine smooth muscle contraction
+
+## explanation_a
+Correct. Progesterone inhibits uterine smooth muscle contractility throughout most of pregnancy, maintaining myometrial quiescence and helping prevent preterm labor. A functional fall in progesterone action near term is thought to help permit the onset of labor.
+
+## answer_b
+Stimulates rhythmic uterine contractions to initiate labor
+
+## explanation_b
+Incorrect. Stimulating rhythmic contractions to initiate labor is the opposite of progesterone's quiescence-maintaining role; contraction-promoting signals instead come from rising estrogen, prostaglandins, and oxytocin.
+
+## answer_c
+Increases the density of myometrial gap junctions and oxytocin receptors
+
+## explanation_c
+Incorrect. Increasing gap junction and oxytocin receptor density is an estrogen-driven change that promotes contractility, opposing rather than reflecting progesterone's action.
+
+## answer_d
+Promotes cervical ripening and effacement
+
+## explanation_d
+Incorrect. Cervical ripening and effacement near term are driven mainly by prostaglandins and estrogen; progesterone tends to keep the cervix firm, opposing ripening.
+
+## topic
+Pregnancy physiology
+
+## subtopic
+Maternal adaptation to pregnancy
+
+## main_concept
+CON-OBS-6057491494CFC4
+
+## concept_ids
+CON-OBS-6057491494CFC4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Maternal adaptation to pregnancy
+
+## question_only_for
+
+## library_ids
+ART-OBS-ASU-UG-PROGESTERONE-MYOMETRIAL-QUIESCENCE-PREGNANCY
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Progesterone maintains myometrial quiescence during pregnancy, opposing uterine contraction.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q20.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q20
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q20
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q072
+
+## title
+Why is there no significant milk secretion during pregnancy despite high prolactin levels and full mammary gland development?
+
+## question
+Why is there no significant milk secretion during pregnancy despite high prolactin levels and full mammary gland development?
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+High estrogen and progesterone directly inhibit prolactin's action on the breast
+
+## explanation_a
+Correct. Despite rising prolactin and full mammary ductal and alveolar development during pregnancy, the very high circulating levels of estrogen and progesterone directly block prolactin's milk-secretory action on the alveolar epithelium. Only after delivery, when placental estrogen and progesterone fall sharply, is this block removed and copious milk secretion begins.
+
+## answer_b
+Prolactin receptor expression is completely absent from the mammary gland until after delivery
+
+## explanation_b
+Incorrect. Prolactin receptors are present and are in fact upregulated in the breast during pregnancy (partly under estrogen's influence); the block is at the level of prolactin's downstream action, not receptor absence.
+
+## answer_c
+Maternal oxytocin levels are too low during pregnancy to permit milk ejection
+
+## explanation_c
+Incorrect. This confuses milk ejection (the let-down reflex, mediated by oxytocin in response to suckling) with milk secretion/synthesis, which is what the question addresses and which is hormonally blocked during pregnancy regardless of oxytocin.
+
+## answer_d
+The anterior pituitary does not secrete prolactin until parturition
+
+## explanation_d
+Incorrect. Prolactin rises progressively throughout pregnancy, well before delivery, driven partly by rising estrogen; it is not withheld until parturition.
+
+## topic
+Pregnancy physiology
+
+## subtopic
+Lactation
+
+## main_concept
+CON-OBS-F922C618CE3466
+
+## concept_ids
+CON-OBS-F922C618CE3466
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Lactation
+
+## question_only_for
+
+## library_ids
+ART-OBS-ASU-UG-LACTATION-SUPPRESSION-ESTROGEN-PROGESTERONE-ANTEPARTUM
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Antepartum estrogen and progesterone block prolactin's milk-secretory action; their postpartum fall unmasks lactation.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Physio Q21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q21
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Physio Q21
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q073
+
+## title
+Which of the following statements regarding E. coli urinary tract infections is true?
+
+## question
+Which of the following statements regarding E. coli urinary tract infections is true?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+About 90% occur in patients with no underlying anatomical abnormality
+
+## explanation_a
+Correct. E. coli is the leading cause of urinary tract infection, and approximately 90% of these infections are uncomplicated, occurring in patients with a structurally and functionally normal urinary tract, ascending from the periurethral/vaginal flora.
+
+## answer_b
+E. coli UTIs occur almost exclusively in patients with a structural urinary tract abnormality
+
+## explanation_b
+Incorrect. The great majority of E. coli UTIs occur without any underlying structural abnormality; a minority (complicated UTI) occurs in patients with anatomic or functional defects, catheters, or stones.
+
+## answer_c
+E. coli is a rare cause of community-acquired UTI
+
+## explanation_c
+Incorrect. E. coli is in fact the single most common cause of community-acquired UTI, accounting for the large majority of cases, not a rare one.
+
+## answer_d
+E. coli UTIs require an indwelling catheter or recent instrumentation in most cases
+
+## explanation_d
+Incorrect. Catheterization and instrumentation are risk factors for complicated/catheter-associated UTI, but most E. coli UTIs are uncomplicated community-acquired infections without any device involved.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Urinary tract infection
+
+## main_concept
+CON-INF-5DAB313C9153A1
+
+## concept_ids
+CON-INF-5DAB313C9153A1
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Urinary tract infection
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-ECOLI-UTI-MAJORITY-UNCOMPLICATED
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Most E. coli UTIs are uncomplicated, without an underlying urinary tract abnormality.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q1
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q1
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q074
+
+## title
+Which of the following is a true laboratory characteristic of E. coli?
+
+## question
+Which of the following is a true laboratory characteristic of E. coli?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Oxidase-negative, lactose-fermenting gram-negative bacillus
+
+## explanation_a
+Correct. E. coli is a gram-negative bacillus of the family Enterobacteriaceae that is oxidase-negative and ferments lactose, producing pink colonies on MacConkey agar — a combination used routinely to distinguish it from oxidase-positive or non-lactose-fermenting gram-negative organisms.
+
+## answer_b
+Oxidase-positive, lactose-negative gram-negative bacillus
+
+## explanation_b
+Incorrect. Oxidase-positive, lactose-negative describes organisms such as Pseudomonas aeruginosa, not E. coli, which is oxidase-negative and lactose-fermenting.
+
+## answer_c
+Gram-positive, catalase-negative coccus
+
+## explanation_c
+Incorrect. E. coli is a gram-negative bacillus, not a gram-positive coccus.
+
+## answer_d
+Oxidase-negative, non-lactose-fermenting bacillus
+
+## explanation_d
+Incorrect. E. coli does ferment lactose (it is lactose-positive), unlike non-lactose-fermenting Enterobacteriaceae such as Salmonella and Shigella.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Enteric bacteria
+
+## main_concept
+CON-INF-1A9DED669F0874
+
+## concept_ids
+CON-INF-1A9DED669F0874
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Enteric bacteria
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-ECOLI-OXIDASE-NEGATIVE-LACTOSE-FERMENTING
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+E. coli is identified as oxidase-negative and lactose-fermenting on routine laboratory media.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q2.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q2
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q2
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q075
+
+## title
+A female patient tests positive for VDRL but has no history of syphilis and is asymptomatic. What is the most likely explanation?
+
+## question
+A female patient tests positive for VDRL but has no history of syphilis and is asymptomatic. What is the most likely explanation?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+A biological false-positive VDRL result
+
+## explanation_a
+Correct. VDRL is a nontreponemal test that can give a biological false-positive result — reacting in the absence of true Treponema pallidum infection — in conditions such as autoimmune disease, pregnancy, or other infections. An unexpected positive VDRL in an asymptomatic patient with no history warrants confirmation with a treponemal-specific test (e.g., FTA-ABS) before diagnosing syphilis.
+
+## answer_b
+This confirms primary syphilis and treatment should begin immediately without further testing
+
+## explanation_b
+Incorrect. VDRL is a screening, not confirmatory, test, and an unexpected positive in this clinical context should be confirmed with a treponemal-specific test before treatment, not acted on alone.
+
+## answer_c
+VDRL is a treponemal-specific confirmatory test that essentially never gives false positives
+
+## explanation_c
+Incorrect. VDRL is a nontreponemal (not treponemal-specific) test and is well recognized for producing false positives in a variety of non-syphilitic conditions.
+
+## answer_d
+This pattern indicates successfully treated past syphilis
+
+## explanation_d
+Incorrect. Treponemal-specific tests, not VDRL, typically remain positive for life after treated syphilis; this scenario also has no history of syphilis at all, making past treated infection an unlikely explanation.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Sexually transmitted infection diagnostics
+
+## main_concept
+CON-INF-B9C7BB562FF2A4
+
+## concept_ids
+CON-INF-B9C7BB562FF2A4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Sexually transmitted infection diagnostics
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-VDRL-BIOLOGICAL-FALSE-POSITIVE
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+An unexpected positive VDRL without supporting history may be a biological false positive, requiring confirmatory treponemal testing.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q3
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q3
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q077
+
+## title
+Chancroid is caused by which of the following organisms?
+
+## question
+Chancroid is caused by which of the following organisms?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Haemophilus ducreyi
+
+## explanation_a
+Correct. Chancroid is caused by Haemophilus ducreyi, a gram-negative bacillus that produces painful genital ulcers with ragged, undermined edges and tender, sometimes suppurative, inguinal lymphadenopathy. This painful, ragged ulcer with tender lymphadenopathy contrasts with the classically painless chancre of primary syphilis, a key distinguishing feature in the genital ulcer differential.
+
+## answer_b
+Treponema pallidum
+
+## explanation_b
+Incorrect. Treponema pallidum causes syphilis, whose primary chancre is classically painless, unlike the painful ulcer of chancroid.
+
+## answer_c
+Klebsiella granulomatis
+
+## explanation_c
+Incorrect. Klebsiella granulomatis causes granuloma inguinale (donovanosis), a different chronic, progressive genital ulcer disease.
+
+## answer_d
+Chlamydia trachomatis (serovars L1-L3)
+
+## explanation_d
+Incorrect. Chlamydia trachomatis serovars L1-L3 cause lymphogranuloma venereum, characterized more by prominent lymphadenopathy than a persistent ulcer.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Sexually transmitted infection diagnostics
+
+## main_concept
+CON-INF-8A506E02522786
+
+## concept_ids
+CON-INF-8A506E02522786
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Sexually transmitted infection diagnostics
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-CHANCROID-HAEMOPHILUS-DUCREYI
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Haemophilus ducreyi causes chancroid, a painful genital ulcer disease.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q5.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q5
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q5
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q078
+
+## title
+A male patient with urethritis has a swab showing intracellular gram-negative diplococci. What is the diagnosis?
+
+## question
+A male patient with urethritis has a swab showing intracellular gram-negative diplococci. What is the diagnosis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Neisseria gonorrhoeae
+
+## explanation_a
+Correct. Intracellular gram-negative diplococci seen within neutrophils on a urethral Gram stain are diagnostic of Neisseria gonorrhoeae, and this finding is sensitive and specific enough in symptomatic men to support presumptive treatment while culture or NAAT confirmation is pending. Chlamydia, by contrast, is diagnosed by nucleic acid amplification testing rather than Gram stain, since it does not appear as visible diplococci.
+
+## answer_b
+Chlamydia trachomatis
+
+## explanation_b
+Incorrect. Chlamydia trachomatis is an obligate intracellular organism that does not Gram stain as visible diplococci; it is diagnosed by nucleic acid amplification testing, not microscopy.
+
+## answer_c
+Ureaplasma urealyticum
+
+## explanation_c
+Incorrect. Ureaplasma urealyticum lacks a cell wall and therefore does not Gram stain at all, let alone appear as gram-negative diplococci.
+
+## answer_d
+Trichomonas vaginalis
+
+## explanation_d
+Incorrect. Trichomonas vaginalis is a flagellated protozoan identified by its motility on a wet mount preparation, not as gram-negative diplococci on Gram stain.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Urethritis
+
+## main_concept
+CON-INF-AC873FE98E856F
+
+## concept_ids
+CON-INF-AC873FE98E856F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Application
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Urethritis
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-GONORRHEA-DIPLOCOCCI-URETHRITIS-IDENTIFICATION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Intracellular gram-negative diplococci on urethral Gram stain diagnose gonococcal urethritis.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q6.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q6
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q6
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q079
+
+## title
+Which of the following best indicates latent syphilis?
+
+## question
+Which of the following best indicates latent syphilis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+An asymptomatic patient with positive serology and no clinical signs
+
+## explanation_a
+Correct. Latent syphilis is defined by reactive treponemal and nontreponemal serology in a patient who is entirely asymptomatic, with no clinical signs of primary, secondary, or tertiary disease. Latent syphilis still requires staged antibiotic treatment despite the absence of symptoms, in order to prevent progression to tertiary disease.
+
+## answer_b
+A patient with a painless genital chancre and positive serology
+
+## explanation_b
+Incorrect. A painless genital chancre with positive serology describes primary syphilis, which has an overt clinical sign, not the asymptomatic latent stage.
+
+## answer_c
+A patient with a diffuse maculopapular rash involving the palms and soles
+
+## explanation_c
+Incorrect. A diffuse maculopapular rash involving the palms and soles is the classic finding of secondary syphilis, a symptomatic stage.
+
+## answer_d
+A patient with gummatous skin lesions and positive serology
+
+## explanation_d
+Incorrect. Gummatous skin lesions are a feature of tertiary syphilis, a symptomatic, destructive late stage, not latent (asymptomatic) disease.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Sexually transmitted infection diagnostics
+
+## main_concept
+CON-INF-9A283547FD279D
+
+## concept_ids
+CON-INF-9A283547FD279D
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Sexually transmitted infection diagnostics
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-LATENT-SYPHILIS-ASYMPTOMATIC-SEROLOGY-DEFINITION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Latent syphilis is asymptomatic seroreactivity, without the clinical signs of primary, secondary, or tertiary disease.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q7.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q7
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q7
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q080
+
+## title
+Which of the following is a diagnostic test used to identify Candida albicans in vaginal candidiasis?
+
+## question
+Which of the following is a diagnostic test used to identify Candida albicans in vaginal candidiasis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Germ tube test
+
+## explanation_a
+Correct. The germ tube test is a rapid presumptive identification method in which Candida albicans forms characteristic germ tubes when incubated briefly in serum at 37°C, distinguishing it from most other Candida species. Because it is only presumptive, a positive germ tube test is often followed by culture or further biochemical testing when species-level confirmation is clinically important.
+
+## answer_b
+India ink preparation
+
+## explanation_b
+Incorrect. India ink preparation is used to visualize the polysaccharide capsule of Cryptococcus neoformans, not to identify Candida.
+
+## answer_c
+Tzanck smear
+
+## explanation_c
+Incorrect. The Tzanck smear identifies multinucleated giant cells characteristic of herpesvirus infection, an unrelated fungal-versus-viral distinction.
+
+## answer_d
+Darkfield microscopy
+
+## explanation_d
+Incorrect. Darkfield microscopy is used to visualize Treponema pallidum spirochetes in syphilis, not to identify Candida.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Vaginitis
+
+## main_concept
+CON-INF-38207DC816706E
+
+## concept_ids
+CON-INF-38207DC816706E
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Vaginitis
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-CANDIDA-GERM-TUBE-TEST-IDENTIFICATION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The germ tube test is the rapid presumptive test for identifying Candida albicans.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q8.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q8
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q8
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q081
+
+## title
+What is the best regimen for a patient with latent syphilis who is allergic to penicillin?
+
+## question
+What is the best regimen for a patient with latent syphilis who is allergic to penicillin?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Doxycycline 100mg twice daily for 28 days
+
+## explanation_a
+Correct. For a non-pregnant, penicillin-allergic patient with late latent syphilis (or latent syphilis of unknown duration), the recommended alternative regimen is oral doxycycline 100mg twice daily for 28 days, an accepted substitute when penicillin, the preferred agent, cannot be used. This regimen substitutes for the preferred benzathine penicillin G when a documented penicillin allergy makes penicillin therapy inappropriate outside of desensitization.
+
+## answer_b
+A single intramuscular dose of benzathine penicillin G despite the allergy
+
+## explanation_b
+Incorrect. Giving benzathine penicillin despite a documented allergy is contraindicated; the whole premise of this question is finding an appropriate alternative for a penicillin-allergic patient.
+
+## answer_c
+A single oral dose of azithromycin 1g
+
+## explanation_c
+Incorrect. A single dose of azithromycin is not a recommended regimen for latent syphilis; resistance and adequacy-of-cure concerns limit azithromycin's role in syphilis treatment.
+
+## answer_d
+Topical antiviral therapy for 7 days
+
+## explanation_d
+Incorrect. Syphilis is a bacterial, not viral, infection, so topical antiviral therapy has no role in its treatment.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Sexually transmitted infection diagnostics
+
+## main_concept
+CON-INF-721718EEC51C75
+
+## concept_ids
+CON-INF-721718EEC51C75
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Sexually transmitted infection diagnostics
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-LATENT-SYPHILIS-DOXYCYCLINE-PENICILLIN-ALLERGY-REGIMEN
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Doxycycline 100mg twice daily for 28 days is the standard penicillin-allergy alternative for late latent syphilis.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q9
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q9
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q083
+
+## title
+What is the significance of lactic acid-producing bacteria (lactobacilli) normally present in the vagina?
+
+## question
+What is the significance of lactic acid-producing bacteria (lactobacilli) normally present in the vagina?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+They maintain an acidic vaginal pH that provides natural protection against pathogens
+
+## explanation_a
+Correct. Vaginal lactobacilli produce lactic acid, maintaining a normally acidic vaginal pH that inhibits overgrowth of pathogenic bacteria and yeast, an important component of the vagina's natural defense against infection. Loss of this protective lactobacillus-dominated flora and the resulting rise in vaginal pH is what predisposes to overgrowth of anaerobes such as Gardnerella vaginalis in bacterial vaginosis.
+
+## answer_b
+They are pathogenic commensals that predispose to bacterial vaginosis when present in high numbers
+
+## explanation_b
+Incorrect. It is loss, not overgrowth, of protective lactobacilli that predisposes to bacterial vaginosis, allowing anaerobic organisms such as Gardnerella vaginalis to overgrow as vaginal pH rises.
+
+## answer_c
+They raise vaginal pH to alkaline levels
+
+## explanation_c
+Incorrect. Lactobacilli lower, not raise, vaginal pH through lactic acid production, which is precisely how they inhibit pathogen overgrowth.
+
+## answer_d
+They have no role in host defense and are simply incidental flora
+
+## explanation_d
+Incorrect. Lactobacilli play an active, protective role in host defense by maintaining an inhospitable acidic environment for pathogens, not a purely incidental one.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Vaginitis
+
+## main_concept
+CON-INF-613CC1473BE7A0
+
+## concept_ids
+CON-INF-613CC1473BE7A0
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Vaginitis
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-VAGINAL-LACTOBACILLI-PROTECTIVE-FLORA
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Vaginal lactobacilli protect against infection by maintaining an acidic pH via lactic acid production.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q11
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q11
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q084
+
+## title
+A woman complains of a fishy-odor vaginal discharge with a grayish, thin, homogeneous quality. What is the most likely diagnosis?
+
+## question
+A woman complains of a fishy-odor vaginal discharge with a grayish, thin, homogeneous quality. What is the most likely diagnosis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Gardnerella vaginalis (bacterial vaginosis)
+
+## explanation_a
+Correct. A thin, homogeneous, grayish discharge with a characteristic fishy odor, especially after intercourse, is the classic presentation of bacterial vaginosis, caused by an overgrowth of Gardnerella vaginalis and other anaerobes displacing normal lactobacilli. A positive amine ("whiff") test on adding potassium hydroxide to the discharge further supports this diagnosis over candidiasis or trichomoniasis.
+
+## answer_b
+Candida albicans (vaginal candidiasis)
+
+## explanation_b
+Incorrect. Candida albicans classically produces a thick, white, curd-like ("cottage cheese") discharge that is typically odorless, not a thin, fishy-odor grayish discharge.
+
+## answer_c
+Trichomonas vaginalis
+
+## explanation_c
+Incorrect. Trichomonas vaginalis classically produces a frothy, yellow-green, malodorous discharge often with a "strawberry cervix," a different picture from the thin grayish fishy discharge of bacterial vaginosis.
+
+## answer_d
+Neisseria gonorrhoeae
+
+## explanation_d
+Incorrect. Neisseria gonorrhoeae typically produces a purulent, not grayish/fishy, discharge, and is not the classic cause of this presentation.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Vaginitis
+
+## main_concept
+CON-INF-1DD6705402441F
+
+## concept_ids
+CON-INF-1DD6705402441F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Application
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Vaginitis
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-BACTERIAL-VAGINOSIS-GARDNERELLA-FISHY-ODOR
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+A fishy-odor grayish discharge is characteristic of Gardnerella vaginalis-associated bacterial vaginosis.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q12
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q12
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q086
+
+## title
+Painful vesicular genital lesions progress to ulcers; a skin smear is taken. Which of the following microscopic findings would be expected?
+
+## question
+Painful vesicular genital lesions progress to ulcers; a skin smear is taken. Which of the following microscopic findings would be expected?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Multinucleated giant cells with intranuclear inclusion bodies
+
+## explanation_a
+Correct. A Tzanck smear (Giemsa or Wright stain) of a herpes simplex virus vesicle or early ulcer classically shows multinucleated giant cells with intranuclear inclusion bodies, reflecting the cytopathic effect of HSV replication. Because the Tzanck smear cannot distinguish HSV from varicella-zoster virus and has only moderate sensitivity, PCR or viral culture is used for definitive confirmation.
+
+## answer_b
+Gram-negative intracellular diplococci within neutrophils
+
+## explanation_b
+Incorrect. Intracellular gram-negative diplococci within neutrophils are the finding in gonococcal infection, a bacterial rather than viral process, not seen in HSV lesions.
+
+## answer_c
+Motile flagellated organisms on a wet mount
+
+## explanation_c
+Incorrect. Motile flagellated organisms on wet mount identify Trichomonas vaginalis, an unrelated protozoan infection.
+
+## answer_d
+Spirochetes visualized on darkfield microscopy
+
+## explanation_d
+Incorrect. Spirochetes on darkfield microscopy identify Treponema pallidum in syphilis, a different genital ulcer pathogen from HSV.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Sexually transmitted infection diagnostics
+
+## main_concept
+CON-INF-F05BC014AD8514
+
+## concept_ids
+CON-INF-F05BC014AD8514
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Sexually transmitted infection diagnostics
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-HSV-TZANCK-MULTINUCLEATED-GIANT-CELLS-GENITAL-ULCER
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Multinucleated giant cells with intranuclear inclusions on Tzanck smear indicate HSV.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q13
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q13
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q087
+
+## title
+A pregnant woman at 36 weeks has a positive Group B Streptococcus screening culture. What is the recommended management?
+
+## question
+A pregnant woman at 36 weeks has a positive Group B Streptococcus screening culture. What is the recommended management?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+IV intrapartum antibiotic prophylaxis given during labor
+
+## explanation_a
+Correct. A pregnant woman with a positive Group B Streptococcus screening culture should receive intravenous intrapartum antibiotic prophylaxis, typically penicillin G or ampicillin, given during labor. This substantially reduces the risk of neonatal early-onset GBS sepsis and meningitis.
+
+## answer_b
+Oral antibiotics completed antenatally, with no further treatment at labor
+
+## explanation_b
+Incorrect. A one-time antenatal oral antibiotic course is not adequate because GBS recolonization commonly occurs before delivery; prophylaxis must be given intravenously during labor itself.
+
+## answer_c
+No treatment is needed since GBS is a normal commensal organism
+
+## explanation_c
+Incorrect. Although GBS can be a normal vaginal/rectal commensal, a positive screening culture in pregnancy specifically mandates intrapartum prophylaxis to protect the neonate from early-onset disease.
+
+## answer_d
+Elective cesarean section is mandatory for all GBS-positive mothers
+
+## explanation_d
+Incorrect. Vaginal delivery with intrapartum antibiotic prophylaxis is standard management; cesarean section is not required for GBS colonization alone.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Perinatal infection
+
+## main_concept
+CON-INF-EE98AAB02C6C74
+
+## concept_ids
+CON-INF-EE98AAB02C6C74
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Perinatal infection
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-GROUP-B-STREP-INTRAPARTUM-PROPHYLAXIS
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+GBS-positive pregnant women receive IV intrapartum antibiotic prophylaxis to prevent neonatal early-onset disease.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q16
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q16
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q088
+
+## title
+A newborn develops ophthalmia neonatorum (conjunctivitis) at two weeks of age. What is the most likely causative agent?
+
+## question
+A newborn develops ophthalmia neonatorum (conjunctivitis) at two weeks of age. What is the most likely causative agent?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Chlamydia trachomatis
+
+## explanation_a
+Correct. Chlamydial ophthalmia neonatorum typically presents later than gonococcal disease, around 5 to 14 days after birth (and can appear up to several weeks later), making Chlamydia trachomatis the most likely cause of conjunctivitis presenting at two weeks of age. Gonococcal ophthalmia neonatorum, in contrast, presents earlier, within the first two to five days of life, with a more acute, hyperpurulent discharge.
+
+## answer_b
+Neisseria gonorrhoeae
+
+## explanation_b
+Incorrect. Gonococcal ophthalmia neonatorum typically presents earlier, within the first 2 to 5 days of life, with a more acute, hyperpurulent conjunctivitis, not at two weeks.
+
+## answer_c
+Herpes simplex virus
+
+## explanation_c
+Incorrect. Neonatal HSV conjunctivitis or keratitis is less common and usually accompanies other signs of localized skin-eye-mouth or disseminated disease, and is not the classic explanation for isolated conjunctivitis at this age.
+
+## answer_d
+Staphylococcus aureus
+
+## explanation_d
+Incorrect. Staphylococcus aureus is a less specific and less classically age-timed cause of neonatal conjunctivitis than chlamydia at this particular two-week presentation.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Perinatal infection
+
+## main_concept
+CON-INF-F734B6C4A77F26
+
+## concept_ids
+CON-INF-F734B6C4A77F26
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Perinatal infection
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-CHLAMYDIA-LATE-ONSET-OPHTHALMIA-NEONATORUM
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Chlamydial ophthalmia neonatorum classically presents later (around 1-2 weeks) than gonococcal ophthalmia (within days).
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q17.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q17
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q17
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q089
+
+## title
+What is the highest risk to the fetus if maternal rubella infection occurs during the first trimester?
+
+## question
+What is the highest risk to the fetus if maternal rubella infection occurs during the first trimester?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Congenital defects in developing organs
+
+## explanation_a
+Correct. First-trimester maternal rubella infection occurs during the period of fetal organogenesis, when the developing heart, eyes, and inner ear are most vulnerable to teratogenic insult, giving the highest risk of congenital rubella syndrome — cardiac defects, cataracts, and sensorineural deafness — of any gestational window. Risk falls progressively with infection later in gestation, which is why documenting rubella immunity before conception is emphasized in preconception care.
+
+## answer_b
+Risk is negligible in the first trimester and rises only in the third trimester
+
+## explanation_b
+Incorrect. The risk of severe congenital malformation is highest, not negligible, with first-trimester infection, and falls progressively with infection later in pregnancy.
+
+## answer_c
+The main risk is maternal, not fetal, morbidity
+
+## explanation_c
+Incorrect. Maternal rubella infection is typically mild in the mother; the major clinical concern is teratogenic risk to the fetus, not maternal morbidity.
+
+## answer_d
+The fetus develops passive lifelong immunity with no adverse effects
+
+## explanation_d
+Incorrect. Congenital rubella causes serious, sometimes permanent, organ damage rather than conferring simple, harmless passive immunity to the fetus.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Congenital and perinatal viral infection
+
+## main_concept
+CON-INF-F8023498786EFF
+
+## concept_ids
+CON-INF-F8023498786EFF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Congenital and perinatal viral infection
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-CONGENITAL-RUBELLA-FIRST-TRIMESTER-ORGAN-DEFECT-RISK
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+First-trimester maternal rubella infection carries the highest risk of congenital organ defects.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q18
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q18
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q090
+
+## title
+A female patient with prolonged rupture of membranes has a neonate who develops late-onset neonatal listeriosis. Which of the following is a possible complication?
+
+## question
+A female patient with prolonged rupture of membranes has a neonate who develops late-onset neonatal listeriosis. Which of the following is a possible complication?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Meningitis/encephalitis
+
+## explanation_a
+Correct. Late-onset neonatal listeriosis, typically acquired perinatally around the time of delivery and presenting days after birth, classically involves the central nervous system, with meningitis or meningoencephalitis as its hallmark complication. This CNS tropism is why Listeria monocytogenes is a leading cause of neonatal bacterial meningitis and why empiric neonatal sepsis coverage often includes ampicillin.
+
+## answer_b
+Congenital heart defects
+
+## explanation_b
+Incorrect. Congenital heart defects are not a recognized complication of listeriosis; they are more typically associated with first-trimester teratogenic infections such as rubella.
+
+## answer_c
+Hemolytic disease of the newborn
+
+## explanation_c
+Incorrect. Hemolytic disease of the newborn is an Rh or ABO alloimmunization process, unrelated to Listeria infection.
+
+## answer_d
+Neonatal hypothyroidism
+
+## explanation_d
+Incorrect. Neonatal hypothyroidism is not a recognized complication of listeriosis.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Perinatal infection
+
+## main_concept
+CON-INF-7B75BC962B45DC
+
+## concept_ids
+CON-INF-7B75BC962B45DC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Perinatal infection
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-NEONATAL-LISTERIOSIS-LATE-ONSET-MENINGITIS
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Late-onset neonatal listeriosis classically causes meningitis/meningoencephalitis.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q19
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q19
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q091
+
+## title
+A recently born baby develops cutaneous skin lesions consistent with neonatal herpes. Which of the following is a possible complication that may develop?
+
+## question
+A recently born baby develops cutaneous skin lesions consistent with neonatal herpes. Which of the following is a possible complication that may develop?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Encephalitis
+
+## explanation_a
+Correct. Neonatal HSV disease that initially presents as localized skin-eye-mouth lesions carries a real risk of progression to central nervous system or disseminated disease, with encephalitis a recognized and serious complication. This is why systemic antiviral therapy is started promptly.
+
+## answer_b
+Congenital rubella syndrome
+
+## explanation_b
+Incorrect. Congenital rubella syndrome is caused by an entirely different virus (rubella), not HSV, and is not a complication of neonatal herpes.
+
+## answer_c
+Erythroblastosis fetalis
+
+## explanation_c
+Incorrect. Erythroblastosis fetalis is an Rh-alloimmunization process unrelated to HSV infection.
+
+## answer_d
+Permanent immunity with no further risk of disease
+
+## explanation_d
+Incorrect. Neonatal HSV carries a real risk of severe complications, including recurrence, and does not confer simple permanent protective immunity, understating the clinical risk.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Congenital and perinatal viral infection
+
+## main_concept
+CON-INF-461E0C334AE294
+
+## concept_ids
+CON-INF-461E0C334AE294
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Congenital and perinatal viral infection
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-NEONATAL-HERPES-CUTANEOUS-CNS-PROGRESSION-RISK
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Cutaneous neonatal HSV disease can progress to encephalitis, warranting prompt systemic antiviral therapy.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q20.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q20
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q20
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q092
+
+## title
+Regarding congenital rubella, which of the following statements is true?
+
+## question
+Regarding congenital rubella, which of the following statements is true?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The rubella vaccine is live attenuated and is not given during pregnancy
+
+## explanation_a
+Correct. The rubella vaccine, typically given as the combined MMR vaccine, is a live attenuated vaccine and is therefore not given during pregnancy, particularly not in the first trimester, as a precaution against theoretical fetal infection, even though the vaccine strain has not been definitively shown to cause congenital rubella syndrome. Because of this precaution, rubella immunity is ideally confirmed and any needed vaccination completed before conception, or otherwise given postpartum once the mother has delivered.
+
+## answer_b
+The rubella vaccine is inactivated and safe to give at any point in pregnancy
+
+## explanation_b
+Incorrect. The rubella vaccine is live attenuated, not inactivated, and is contraindicated in pregnancy, not safe to give at any point.
+
+## answer_c
+Maternal rubella vaccination during pregnancy has been definitively proven to cause congenital malformations in every documented case
+
+## explanation_c
+Incorrect. This overstates the evidence; the contraindication is precautionary rather than based on definitively proven congenital malformation in every documented case of inadvertent vaccination during pregnancy.
+
+## answer_d
+Postpartum rubella vaccination is contraindicated in breastfeeding mothers
+
+## explanation_d
+Incorrect. Postpartum rubella vaccination is actually recommended for non-immune mothers and is considered safe during breastfeeding, not contraindicated.
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Congenital and perinatal viral infection
+
+## main_concept
+CON-INF-F7459249D7FC34
+
+## concept_ids
+CON-INF-F7459249D7FC34
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Congenital and perinatal viral infection
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-RUBELLA-VACCINE-LIVE-ATTENUATED-PREGNANCY-CONTRAINDICATION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+The live attenuated rubella vaccine is avoided in pregnancy as a precaution against fetal infection.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Micro Q21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q21
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q21
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q093
+
+## title
+In urinary bilharziasis, terminal hematuria occurs at which stage of the parasite's life cycle in the host?
+
+## question
+In urinary bilharziasis, terminal hematuria occurs at which stage of the parasite's life cycle in the host?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Stage of egg extrusion through the bladder mucosa
+
+## explanation_a
+Correct. Schistosoma haematobium eggs deposited in the bladder wall are extruded through the mucosa into the lumen to reach the urine. This extrusion causes local mucosal hemorrhage that is most pronounced at the end of micturition, when contraction of the bladder base and trigone — where egg deposition is densest — squeezes out blood, producing the classic terminal hematuria.
+
+## answer_b
+Stage of cercarial skin penetration
+
+## explanation_b
+Incorrect. Cercarial skin penetration is the early infective stage, producing at most a transient local dermatitis (cercarial dermatitis), not urinary tract hematuria.
+
+## answer_c
+Stage of migration of schistosomula through the lungs
+
+## explanation_c
+Incorrect. Pulmonary migration of schistosomula is an early, largely asymptomatic or mildly symptomatic (cough) stage of the life cycle, unrelated to bladder hematuria.
+
+## answer_d
+Stage of adult worm pairing in the mesenteric venules
+
+## explanation_d
+Incorrect. Adult worm pairing occurs in the venous plexus (vesical venules for S. haematobium), a stage that precedes egg deposition and does not itself cause the mucosal bleeding responsible for terminal hematuria.
+
+## topic
+Medical parasitology
+
+## subtopic
+Schistosomiasis
+
+## main_concept
+CON-INF-A260AA4476A441
+
+## concept_ids
+CON-INF-A260AA4476A441
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Parasitology > Schistosomiasis
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-URINARY-SCHISTOSOMIASIS-EGG-EXTRUSION-TERMINAL-HEMATURIA
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Terminal hematuria in urinary schistosomiasis results from egg extrusion through the bladder mucosa.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Para Q1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Para Q1
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Para Q1
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q094
+
+## title
+In a case of schistosoma infection, how is the intensity of the infection measured?
+
+## question
+In a case of schistosoma infection, how is the intensity of the infection measured?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Examination of urine by the filtration method with quantitative egg counting
+
+## explanation_a
+Correct. The intensity of Schistosoma haematobium infection is measured by filtering a fixed volume of urine (commonly 10mL) through a membrane or syringe filter and counting the recovered eggs, expressed as eggs per fixed urine volume — the standard technique used in both clinical assessment and schistosomiasis control programs. This quantitative approach is used both to classify individual infections as light or heavy intensity and to monitor the impact of community-level mass drug administration programs.
+
+## answer_b
+A single qualitative wet-mount slide with no counting
+
+## explanation_b
+Incorrect. A simple qualitative wet mount without counting can detect eggs but does not quantify infection intensity, which requires a standardized filtration and counting method.
+
+## answer_c
+Serum antibody titer alone, without any urine or stool examination
+
+## explanation_c
+Incorrect. Serum antibody testing indicates exposure but does not reliably quantify current egg burden or infection intensity the way direct egg counting does.
+
+## answer_d
+Peripheral blood eosinophil count alone
+
+## explanation_d
+Incorrect. Peripheral eosinophilia can accompany schistosomiasis but is a nonspecific finding and not a validated method for measuring infection intensity.
+
+## topic
+Medical parasitology
+
+## subtopic
+Schistosomiasis
+
+## main_concept
+CON-INF-173734F4E8E8EA
+
+## concept_ids
+CON-INF-173734F4E8E8EA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Parasitology > Schistosomiasis
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-SCHISTOSOMIASIS-URINE-FILTRATION-EGG-COUNT-INTENSITY
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Urine filtration with quantitative egg counting is the standard method for measuring schistosomiasis infection intensity.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Para Q2.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Para Q2
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Para Q2
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q095
+
+## title
+Swimmer's itch (cercarial dermatitis) is due to which of the following?
+
+## question
+Swimmer's itch (cercarial dermatitis) is due to which of the following?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Furcocercous cercariae penetration of the skin
+
+## explanation_a
+Correct. Swimmer's itch (cercarial dermatitis) results from penetration of the skin by furcocercous (fork-tailed) schistosome cercariae released from infected freshwater snails. The resulting pruritic papular eruption is a local hypersensitivity reaction to the penetrating larvae.
+
+## answer_b
+Deposition of eggs in the dermis
+
+## explanation_b
+Incorrect. Egg deposition occurs later in the life cycle, within blood vessels of the definitive host's viscera (bladder or intestine), not in the skin, and is not the cause of swimmer's itch.
+
+## answer_c
+Migration of adult worms through subcutaneous tissue
+
+## explanation_c
+Incorrect. Adult schistosome worms reside in venous plexuses of the viscera, not in subcutaneous tissue, and do not cause this skin reaction.
+
+## answer_d
+An allergic reaction to schistosome antigens released during treatment
+
+## explanation_d
+Incorrect. Swimmer's itch is caused by the initial cercarial penetration event itself, not by an antigen-release reaction during antiparasitic treatment (which describes a different phenomenon, such as a post-treatment inflammatory response).
+
+## topic
+Medical parasitology
+
+## subtopic
+Schistosomiasis
+
+## main_concept
+CON-INF-25AA98296F68B1
+
+## concept_ids
+CON-INF-25AA98296F68B1
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Parasitology > Schistosomiasis
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-CERCARIAL-DERMATITIS-FURCOCERCOUS-SWIMMERS-ITCH
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Swimmer's itch results from furcocercous cercarial skin penetration, a local hypersensitivity reaction.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Para Q3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Para Q3
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Para Q3
+
+---
+
+# Item
+
+## id
+QST-ASUUG-EOMCOLL-Q096
+
+## title
+A pregnant female with trichomonas vaginalis infection is at risk of which of the following complications?
+
+## question
+A pregnant female with trichomonas vaginalis infection is at risk of which of the following complications?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Premature labor
+
+## explanation_a
+Correct. Trichomonas vaginalis infection during pregnancy is associated with an increased risk of preterm labor, premature rupture of membranes, and low birth weight, an association thought to relate to the local inflammatory response the infection provokes in the genital tract. Recognizing this association supports screening for and treating symptomatic trichomoniasis in pregnancy, alongside its more familiar role as a common cause of vaginal discharge.
+
+## answer_b
+Fetal cardiac malformation
+
+## explanation_b
+Incorrect. Fetal cardiac malformation is a first-trimester teratogenic risk associated with certain viral infections (e.g., rubella), not with trichomoniasis, which is a local vaginal/cervical infection rather than a teratogen.
+
+## answer_c
+Molar pregnancy
+
+## explanation_c
+Incorrect. Molar pregnancy is a gestational trophoblastic disease arising from abnormal fertilization, unrelated to Trichomonas infection.
+
+## answer_d
+Postmaturity (prolonged gestation)
+
+## explanation_d
+Incorrect. Trichomoniasis is associated with an increased risk of preterm, not prolonged, labor.
+
+## topic
+Medical parasitology
+
+## subtopic
+Protozoal disease of the reproductive tract
+
+## main_concept
+CON-INF-2630333668012C
+
+## concept_ids
+CON-INF-2630333668012C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Parasitology > Protozoal disease of the reproductive tract
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-TRICHOMONIASIS-PREGNANCY-PRETERM-LABOR-COMPLICATION
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## learning_objective
+Trichomonas vaginalis infection in pregnancy is associated with an increased risk of preterm labor.
+
+## source_citation
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection ("EOM MCQs - UG Final 2 MCQ Collection.pdf", 2018/19/20 sitting), Para Q4.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Para Q4
+asu: ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Para Q4
