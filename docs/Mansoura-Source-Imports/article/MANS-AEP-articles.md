@@ -966,3 +966,687 @@ src_68a72cf039eada5508f3
 
 ## article_source_ids
 src_68a72cf039eada5508f3
+
+---
+
+# Item
+
+## id
+ART-MANS-AEP-JOINT-SHAPE-CLASSIFICATION
+
+## title
+Synovial joints by shape: six types
+
+## arabic_title
+
+
+## aliases
+Types of synovial joints
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Anatomy
+
+## subtopic
+Basis of Anatomy
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-ANA-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+2
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > Articular system
+
+## summary
+Synovial joints are grouped into six types by the shape of their articulating surfaces, and each shape predicts the movement the joint allows. The AEP question bank tests this scheme directly on the knee, which by shape is a condylar joint.
+
+## sections
+### The six shapes
+Plane joints have flat, gliding surfaces (e.g. the intertarsal joints). Hinge joints are uniaxial, allowing flexion/extension only (e.g. the elbow, the ankle). Pivot joints are uniaxial for rotation (e.g. the radio-ulnar joints). Condylar joints have rounded condyles on one bone against flatter surfaces on the other, giving mainly flexion/extension with a little added rotation (e.g. the knee). Saddle joints have reciprocally concave-convex surfaces and are biaxial (e.g. the carpometacarpal joint of the thumb). Ball-and-socket joints are multiaxial, a rounded head in a cup-shaped socket (e.g. the shoulder, the hip).
+
+### The knee as a condylar joint
+The knee's femoral condyles articulate with the flatter tibial condyles, which classifies it as condylar rather than a simple hinge — a distinction that matters because it is what allows the knee its small extra rotation once flexed. A related, more detailed corpus record instead calls the knee a "modified-hinge" joint; both descriptions are used in different texts for the same joint, and this article follows the printed exam key (condylar).
+
+## hold_these
+Six shape-based types: plane, hinge, pivot, condylar, saddle, ball-and-socket.
+The knee is condylar; a pure hinge such as the elbow moves in one plane only.
+
+## lose_the_mark
+Treating "condylar" and "hinge" as interchangeable. A condylar joint like the knee adds a small rotation a true hinge cannot perform.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+AEP Full Exams (VIP).pdf, Anatomy Lecture (3) "Joints", p.18, source id src_68a72cf039eada5508f3.
+
+## evidence_gaps
+Independent anatomy reference not yet cross-checked against this department-source framing; see the concept's own `conflicts` field for the one in-corpus terminology variant found.
+
+## notes
+Authored from the Mansoura AEP Anatomy Lecture 3 "Joints" set (printed answer-column key recovered).
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: See the concept's own `conflicts` field for the knee shape-classification wording variant found in-corpus.
+
+## related_concepts
+CON-MSK-7F3A9C21D8B056
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## article_source_ids
+src_68a72cf039eada5508f3
+
+---
+
+# Item
+
+## id
+ART-MANS-AEP-JOINT-CLASSIFICATION-BY-BONES
+
+## title
+Simple, compound and complex joints
+
+## arabic_title
+
+
+## aliases
+Joint classification by number of bones
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Anatomy
+
+## subtopic
+Basis of Anatomy
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-ANA-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+2
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > Articular system
+
+## summary
+Joints are also classified by how many bones take part and whether an intra-articular disc or meniscus divides the cavity. The AEP question bank tests this directly, naming the knee as the standard example of a complex joint.
+
+## sections
+### Simple, compound, complex
+A simple joint has two articulating bones (e.g. the hip). A compound joint has more than two bones meeting at one joint (e.g. the elbow: humerus, radius and ulna). A complex joint additionally contains an intra-articular disc or meniscus dividing the cavity, whatever its bone count — the knee is the standard example, its two menisci dividing the femorotibial compartments.
+
+### Why the knee, not the elbow
+The elbow has three bones but no meniscus, so it is compound, not complex. The knee's menisci are what earn it the "complex" label, on top of — not instead of — its bone count.
+
+## hold_these
+Simple = 2 bones; compound = more than 2 bones; complex = has an intra-articular disc/meniscus.
+The knee is complex because of its menisci, not just because of how many bones meet there.
+
+## lose_the_mark
+Calling any multi-bone joint "complex". The elbow is compound (3 bones, no meniscus); only a disc or meniscus makes a joint complex.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+AEP Full Exams (VIP).pdf, Anatomy Lecture (3) "Joints", p.18, source id src_68a72cf039eada5508f3.
+
+## evidence_gaps
+Independent anatomy reference not yet cross-checked; the classification itself is standard and uncontested.
+
+## notes
+Authored from the Mansoura AEP Anatomy Lecture 3 "Joints" set (printed answer-column key recovered).
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source page.
+
+## related_concepts
+CON-MSK-2E88451CF6A093
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## article_source_ids
+src_68a72cf039eada5508f3
+
+---
+
+# Item
+
+## id
+ART-MANS-AEP-JOINT-DEFINITION
+
+## title
+What a joint is
+
+## arabic_title
+
+
+## aliases
+Definition of a joint
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Anatomy
+
+## subtopic
+Basis of Anatomy
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-ANA-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+1
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > Articular system
+
+## summary
+A joint is the point of union between two or more bones, permitting or restricting movement between them. Every finer classification of joints — by tissue, by shape, by bone count — describes this same basic union in more detail.
+
+## sections
+### Definition
+A joint, or articulation, is the point of union between two or more bones, or between bone and cartilage, and this union permits or restricts the movement possible between the parts it connects.
+
+### Why this matters
+Naming a component found within some joints, such as a cushion or meniscus, is not the same as defining a joint. The definition is about the union between bones itself, not any one structure inside it.
+
+## hold_these
+A joint = the point of union between two or more bones, permitting or restricting movement between them.
+
+## lose_the_mark
+Describing a joint by a component (a cushion, a disc) rather than stating the union between bones.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+AEP Full Exams (VIP).pdf, Anatomy Lecture (3) "Joints", p.20, source id src_68a72cf039eada5508f3.
+
+## evidence_gaps
+Independent anatomy reference not yet cross-checked; the definition itself is standard and uncontested.
+
+## notes
+Authored from the Mansoura AEP Anatomy Lecture 3 "Joints" set (printed answer-column key recovered).
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source page.
+
+## related_concepts
+CON-MSK-B45D0F937EC218
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## article_source_ids
+src_68a72cf039eada5508f3
+
+---
+
+# Item
+
+## id
+ART-MANS-AEP-ZONA-PELLUCIDA-SHED-BEFORE-IMPLANTATION
+
+## title
+Why the zona pellucida is not needed at implantation
+
+## arabic_title
+
+
+## aliases
+Implantation requirements vs zona pellucida
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Embryology
+
+## subtopic
+General Embryology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-EMB-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+2
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Embryology > General Embryology > 2nd Week of Development
+
+## summary
+The zona pellucida is shed before the blastocyst implants, so it is not one of the structures implantation depends on. Implantation instead needs a secretory-phase endometrium and both trophoblast layers.
+
+## sections
+### Where the zona pellucida's job ends
+The zona pellucida blocks polyspermy at fertilisation and holds the dividing blastomeres together through cleavage. By the time the blastocyst reaches the endometrium it has already shed this coat (hatching), so an intact zona pellucida is not present at implantation.
+
+### What implantation actually needs
+A receptive, secretory-phase (progestational) endometrium, and a trophoblast already differentiated into an inner cytotrophoblast and an outer, invasive syncytiotrophoblast — the layer that erodes the endometrium and opens the implantation site.
+
+## hold_these
+The zona pellucida is shed before implantation; it is not a requirement for implantation.
+Implantation requires a secretory-phase endometrium and both trophoblast layers.
+
+## lose_the_mark
+Assuming a structure present at fertilisation is still present at implantation. The zona pellucida's role ends at cleavage, well before implantation.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+AEP Full Exams (VIP).pdf, Embryology Lecture (5) "2nd Week of Development", p.98, source id src_68a72cf039eada5508f3.
+
+## evidence_gaps
+Independent embryology reference not yet cross-checked; the underlying fact is standard and uncontested.
+
+## notes
+Authored from the Mansoura AEP Embryology Lecture 5 "2nd Week of Development" set (printed answer-column key recovered).
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source page.
+
+## related_concepts
+CON-DEV-9A6C31E7B0F452
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## article_source_ids
+src_68a72cf039eada5508f3
+
+---
+
+# Item
+
+## id
+ART-MANS-AEP-SYNCYTIOTROPHOBLAST-HCG
+
+## title
+Syncytiotrophoblast and HCG
+
+## arabic_title
+
+
+## aliases
+HCG source in early pregnancy
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Embryology
+
+## subtopic
+General Embryology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-EMB-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+2
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Embryology > General Embryology > 2nd Week of Development
+
+## summary
+The syncytiotrophoblast secretes HCG from very early in implantation, maintaining the corpus luteum and giving every standard pregnancy test its target hormone.
+
+## sections
+### Source and action
+The syncytiotrophoblast, the outer, invasive trophoblast layer, secretes human chorionic gonadotropin (HCG) from very early in implantation onward. HCG signals the maternal corpus luteum to keep producing progesterone, maintaining the decidua of pregnancy instead of allowing it to break down.
+
+### Why it matters clinically
+Because HCG rises early and is detectable in maternal blood and urine, it is the hormone every standard pregnancy test detects, well before the mature placenta has formed.
+
+## hold_these
+The syncytiotrophoblast secretes HCG.
+HCG maintains the corpus luteum and is what a pregnancy test detects.
+
+## lose_the_mark
+Attributing HCG to the mature placenta as a whole, or to the cytotrophoblast, instead of naming the syncytiotrophoblast specifically.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+AEP Full Exams (VIP).pdf, Embryology Lecture (5) "2nd Week of Development", p.101, source id src_68a72cf039eada5508f3.
+
+## evidence_gaps
+Independent embryology/endocrinology reference not yet cross-checked; the underlying fact is standard and uncontested.
+
+## notes
+Authored from the Mansoura AEP Embryology Lecture 5 "2nd Week of Development" set (printed answer-column key recovered).
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source page.
+
+## related_concepts
+CON-DEV-C207E9B4831ADF
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## article_source_ids
+src_68a72cf039eada5508f3
