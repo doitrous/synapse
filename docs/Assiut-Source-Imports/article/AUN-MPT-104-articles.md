@@ -4372,3 +4372,167 @@ Block: body
 ### definition_of · CON-FND-BFC4491084FD14
 Quote: Tumour angiogenesis, the formation of new blood vessels that supply a growing tumour, occurs under the influence of tumour-associated angiogenic factors (such as VEGF) secreted by the tumour cells themselves
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## title
+Antimicrobial therapy 1: clindamycin, macrolide/vancomycin classification, aminoglycoside spectrum, pregnancy safety and combination antagonism
+
+## arabic_title
+العلاج المضاد للميكروبات 1: الكليندامايسين، تصنيف الماكروليدات والفانكومايسين، طيف الأمينوغليكوزيدات، السلامة في الحمل والتضاد الدوائي
+
+## aliases
+Antimicrobial therapy 1
+Lecture 42
+
+## subject
+pharm
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Clindamycin adverse effects, macrolide classification, aminoglycoside spectrum, macrolide mechanism, pregnancy antibiotic safety, combination antagonism
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+10
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 42 opens the antimicrobial therapy block's second track with clindamycin, macrolide and aminoglycoside pharmacology. Clindamycin carries a counselling-worthy risk of Clostridium difficile diarrhea. Vancomycin, a glycopeptide, is not a macrolide, while macrolides themselves are 50S-subunit-binding, bacteriostatic protein synthesis inhibitors, and clindamycin antagonises erythromycin by competing for that same 50S site. Aminoglycosides need oxygen-dependent uptake, so they are mainly effective against aerobic, not anaerobic, gram-negative bacteria. Erythromycin is a standard safe antibiotic choice in pregnancy, unlike doxycycline, moxifloxacin or gentamicin.
+
+## sections
+### Definition
+Lecture 42 covers a second cluster of antimicrobial therapy facts: a specific adverse-effect association, class-identification distinctions, a mechanism/effect pairing, a combination-antagonism rule, and pregnancy safety.
+
+### Mechanism
+Clindamycin carries a well-recognised risk of Clostridium difficile diarrhea, including its severe form, pseudomembranous colitis, because it disrupts normal gut flora and allows C. difficile to overgrow. Vancomycin is a glycopeptide antibiotic that inhibits bacterial cell wall synthesis, not a macrolide, unlike azithromycin, erythromycin and clarithromycin, the true macrolides, which bind the bacterial ribosome's 50S subunit, blocking translocation during protein synthesis with a bacteriostatic, not bactericidal, effect. Aminoglycosides require oxygen-dependent active transport to cross the bacterial cell membrane and reach their ribosomal target, so they are mainly effective against aerobic, not anaerobic, gram-negative bacteria. Erythromycin is generally considered safe for use in pregnancy, a standard alternative when a pregnant patient needs antimicrobial treatment but cannot receive drug classes carrying recognised fetal risk. Clindamycin and erythromycin both bind overlapping sites on the bacterial ribosome's 50S subunit, so combining them is antagonistic.
+
+### Key determinants
+Clostridium difficile diarrhea, not pseudotumor cerebri, hyperbilirubinemia or nephrotoxicity, is clindamycin's characteristic counselling-worthy risk. Vancomycin's glycopeptide, cell-wall-active identity, not any 50S-binding mechanism, is why it is excluded from the macrolides. Aminoglycosides' oxygen-dependent uptake, not a broader spectrum claim, is why they are aerobic-only. Erythromycin's pregnancy safety contrasts with doxycycline, moxifloxacin and gentamicin, each carrying a specific fetal risk. Clindamycin/erythromycin's shared 50S binding site, not a pharmacokinetic interaction, is the basis of their antagonism.
+
+### Clinical significance
+Counselling a patient starting a multi-week clindamycin course about C. difficile diarrhea risk allows earlier recognition if it develops. Correctly classifying vancomycin outside the macrolides, and macrolides as bacteriostatic 50S inhibitors, avoids mechanism-based prescribing errors. Recognising aminoglycosides' aerobic-only spectrum prevents their use against anaerobic infections. Choosing erythromycin over doxycycline, a fluoroquinolone or an aminoglycoside protects a pregnant patient from a recognised fetal risk. Avoiding the clindamycin/erythromycin combination prevents an antagonistic, less effective regimen.
+
+### Common misconceptions
+Assuming clindamycin's main risk is nephrotoxicity or hepatic rather than C. difficile diarrhea. Classifying vancomycin as a macrolide, or assuming macrolides are bactericidal 30S inhibitors rather than bacteriostatic 50S inhibitors. Assuming aminoglycosides are effective against anaerobic organisms. Assuming any antibiotic besides erythromycin is the safe pregnancy choice among the options. Assuming clindamycin and erythromycin can be safely combined despite their shared ribosomal binding site.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Clindamycin's characteristic, counselling-worthy adverse effect is Clostridium difficile diarrhea/pseudomembranous colitis.
+Vancomycin is a glycopeptide, not a macrolide; macrolides are 50S-subunit-binding, bacteriostatic protein synthesis inhibitors.
+Aminoglycosides need oxygen-dependent uptake, so they are mainly effective against aerobic, not anaerobic, gram-negative bacteria.
+Erythromycin is a safe antibiotic choice in pregnancy, unlike doxycycline, moxifloxacin or gentamicin.
+Clindamycin and erythromycin antagonise each other by competing for an overlapping 50S ribosomal binding site.
+
+## lose_the_mark
+Naming another adverse effect instead of C. difficile diarrhea for clindamycin.
+Classifying vancomycin as a macrolide, or macrolides as 30S/bactericidal instead of 50S/bacteriostatic.
+Assuming aminoglycosides cover anaerobic gram-negative organisms.
+Naming a fetal-risk antibiotic instead of erythromycin as safe in pregnancy.
+Assuming clindamycin and erythromycin combine safely.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-1EA6F246BFB893
+CON-FND-FB8DF4269600C2
+CON-FND-E80D82F5AB996F
+CON-FND-AC1BF871C1B2B5
+CON-FND-7DB1D6CF02F3C6
+CON-FND-DAFCB3028F7BE6
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 42 (Antimicrobial therapy 1) -- no department slide deck exists in the corpus past Lecture 8, so all six new mints cite the quiz bank's own printed-answer text instead. Quiz 42 Q7/Q8 (q351/q352) reuse two pending Assiut AUN-INI-105-ch5 concepts instead of minting twins; their questions cite the existing AUN-INI-105 article ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS instead of this one.
+
+## annotations
+### definition_of · CON-FND-1EA6F246BFB893
+Quote: Clindamycin carries a well-recognised risk of Clostridium difficile diarrhea, including its severe form, pseudomembranous colitis, because it disrupts normal gut flora and allows C. difficile to overgrow
+Block: body
+
+### definition_of · CON-FND-FB8DF4269600C2
+Quote: Vancomycin is a glycopeptide antibiotic that inhibits bacterial cell wall synthesis, not a macrolide
+Block: body
+
+### definition_of · CON-FND-E80D82F5AB996F
+Quote: Aminoglycosides require oxygen-dependent active transport to cross the bacterial cell membrane and reach their ribosomal target, so they are mainly effective against aerobic, not anaerobic, gram-negative bacteria
+Block: body
+
+### definition_of · CON-FND-AC1BF871C1B2B5
+Quote: azithromycin, erythromycin and clarithromycin, the true macrolides, which bind the bacterial ribosome's 50S subunit, blocking translocation during protein synthesis with a bacteriostatic, not bactericidal, effect
+Block: body
+
+### definition_of · CON-FND-7DB1D6CF02F3C6
+Quote: Erythromycin is generally considered safe for use in pregnancy, a standard alternative when a pregnant patient needs antimicrobial treatment but cannot receive drug classes carrying recognised fetal risk
+Block: body
+
+### definition_of · CON-FND-DAFCB3028F7BE6
+Quote: Clindamycin and erythromycin both bind overlapping sites on the bacterial ribosome's 50S subunit, so combining them is antagonistic
+Block: body
