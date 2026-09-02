@@ -1090,3 +1090,708 @@ mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ nutritiona
 
 ## review_due
 
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-NEUTROPHIL-FIRST-LINE-DEFENCE
+
+## title
+Neutrophils: first-line defence, chemotaxis, diapedesis and killing
+
+## arabic_title
+
+
+## aliases
+Myeloperoxidase
+Phagocyte recruitment sequence
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Immunology
+
+## subtopic
+Innate immunity — phagocyte recruitment and killing
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-IMU-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+4
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Leukocyte function
+
+## summary
+Neutrophils are the innate immune system's first phagocytic responders to bacterial infection. Getting to the site and killing the organism take three linked, separately named mechanisms this department's bank tests individually: chemotaxis, diapedesis, and myeloperoxidase-mediated killing.
+
+## sections
+### Definition
+Neutrophils are the most numerous circulating granulocyte and the first phagocytic cell type to arrive at a bacterial infection site — the innate immune system's first line of defence.
+
+### Mechanism
+Three linked steps get a neutrophil from blood to a killed bacterium. Chemotaxis is directed movement along a rising chemical gradient (bacterial products, complement fragments, cytokines) toward the infection. Diapedesis is the neutrophil's physical passage between endothelial cells, from the bloodstream into the tissue space, after margination against the vessel wall. Once a bacterium is phagocytosed into a phagosome, myeloperoxidase — carried in the neutrophil's azurophilic granules — combines with hydrogen peroxide and a halide to generate hypochlorous acid and other oxidants that kill the ingested organism.
+
+### Key determinants
+Chemotaxis is the directed-movement property of the whole recruitment response; diapedesis is specifically the capillary-wall-crossing step within it — the department's bank tests both as separately named steps of one sequence.
+
+### Clinical significance
+Defects anywhere in this sequence (chemotaxis, adhesion/diapedesis, or the killing machinery itself, as in chronic granulomatous disease's defective oxidative burst) produce recurrent bacterial infection.
+
+## hold_these
+Chemotaxis = directed movement toward a chemical signal. Diapedesis = crossing the capillary wall into tissue. Myeloperoxidase = intracellular bacterial killing inside the phagosome.
+
+## lose_the_mark
+Treating chemotaxis and diapedesis as synonyms rather than as two separately named steps of one recruitment sequence.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology Important MCQ "Physio HIS 2" past-exam block, His Continuous Berlin Book 2026.pdf, p.112, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent immunology reference not yet cross-checked against this department-book framing; the three named mechanisms are standard and uncontested.
+
+## notes
+Authored from Mansoura HIS 203's own Physio HIS 2 past-exam block. Chemotaxis and opsonins already had live/pending homes and were reused directly rather than folded into this concept.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-IMM-AB99BAACAD2BC2
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continuous Berlin Book 2026.pdf, p.112, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-LEUKOCYTE-COUNT-DISORDERS
+
+## title
+Agranulocytosis and leukaemia: naming leukocyte count disorders
+
+## arabic_title
+
+
+## aliases
+Leukopenia vs agranulocytosis
+Leukocytosis vs leukaemia
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Immunology
+
+## subtopic
+Innate immunity — leukocyte count disorders
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-IMU-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Leukocyte function
+
+## summary
+Two named disorders of leukocyte count sit at the severe end of two familiar spectra: agranulocytosis is marrow failure to produce granulocytes (beyond ordinary leucopenia), and leukaemia is malignant, uncontrolled WBC proliferation (beyond ordinary leukocytosis).
+
+## sections
+### Definition
+Leucopenia and leukocytosis are the ordinary terms for a low or high white cell count. Agranulocytosis and leukaemia are the named, more severe conditions this department's bank distinguishes from those ordinary terms.
+
+### Mechanism
+Agranulocytosis is bone-marrow failure to produce neutrophils specifically, leaving the body essentially unprotected against infection — a production failure, not just a numerical dip. Leukaemia is uncontrolled, malignant proliferation of white blood cells or their marrow precursors, producing a very high count that displaces normal marrow elements — a malignant process, not a reactive rise.
+
+### Key determinants
+Severity and mechanism separate the pairs: agranulocytosis from leucopenia by marrow-failure mechanism and infection risk; leukaemia from leukocytosis by malignant transformation.
+
+### Clinical significance
+Agranulocytosis is a medical emergency (risk of overwhelming infection); leukaemia requires oncological workup and treatment, neither of which applies to ordinary leucopenia or leukocytosis.
+
+## hold_these
+Agranulocytosis = marrow failure to produce granulocytes, unprotected against infection. Leukaemia = malignant, uncontrolled WBC proliferation, distinct from reactive leukocytosis.
+
+## lose_the_mark
+Calling any high WBC count "leukaemia" when leukocytosis (a reactive, non-malignant rise, as in infection) is the far more common explanation.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology Important MCQ "Physio HIS 2" past-exam block, His Continuous Berlin Book 2026.pdf, p.113-114, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent haematology reference not yet cross-checked against this department-book framing; the definitions themselves are standard.
+
+## notes
+Authored from Mansoura HIS 203's own Physio HIS 2 past-exam block.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-IMM-4E62A6E8359D89
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continuous Berlin Book 2026.pdf, p.113-114, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-TISSUE-MACROPHAGE-NOMENCLATURE
+
+## title
+Tissue macrophages: organ-specific names and ameboid movement
+
+## arabic_title
+
+
+## aliases
+Kupffer cells
+Microglia
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Immunology
+
+## subtopic
+Innate immunity — tissue macrophages
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-IMU-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Leukocyte function
+
+## summary
+Monocyte-derived tissue macrophages take organ-specific names — Kupffer cells (liver), microglia (CNS), among others — and, like fibroblasts converging on a wound, migrate by ameboid movement.
+
+## sections
+### Definition
+Tissue macrophages are resident, monocyte-derived phagocytes that settle permanently in specific organs, each population carrying its own name.
+
+### Mechanism
+Kupffer cells line the hepatic sinusoids of the liver; microglia are the resident macrophage-lineage phagocyte of the CNS; alveolar macrophages patrol lung airspaces; osteoclasts resorb bone. Whichever organ they occupy, tissue macrophages — and other cells migrating toward injury, such as fibroblasts converging on a wound for repair — move by ameboid movement, the flowing, pseudopod-driven locomotion an amoeba uses, rather than ciliary or flagellar movement.
+
+### Key determinants
+The organ tells you the name: liver → Kupffer cell, CNS → microglia — a repeated pairing distractor in this bank.
+
+### Clinical significance
+Recognising organ-specific macrophage names matters for understanding organ-specific inflammatory and storage diseases (e.g. Kupffer cell hyperplasia in liver disease, microglial activation in neuroinflammation).
+
+## hold_these
+Kupffer cells = liver tissue macrophage. Microglia = CNS tissue macrophage. Ameboid movement = the locomotion mechanism both tissue macrophages and fibroblasts use.
+
+## lose_the_mark
+Swapping the liver/CNS macrophage names, or assuming a specialised term like chemotaxis names the locomotion mechanism itself rather than ameboid movement.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology Important MCQ "Physio HIS 2" past-exam block, His Continuous Berlin Book 2026.pdf, p.114-115, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent histology/immunology reference not yet cross-checked against this department-book framing; the nomenclature and locomotion facts are standard.
+
+## notes
+Authored from Mansoura HIS 203's own Physio HIS 2 past-exam block. An existing AU-MED-105 neuroglia concept mentions microglia among four glial cell types but does not test this nomenclature/locomotion angle, so was not reused.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-IMM-CE6C4EB32C6385
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continuous Berlin Book 2026.pdf, p.114-115, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-LEUKOCYTE-LIFESPAN
+
+## title
+Circulating leukocyte lifespan: granulocytes vs monocytes
+
+## arabic_title
+
+
+## aliases
+Granulocyte life span
+Monocyte life span
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Immunology
+
+## subtopic
+Innate immunity — leukocyte kinetics
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-IMU-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+2
+
+## high_yield
+Standard
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Leukocyte function
+
+## summary
+Granulocytes circulate briefly (about 4-5 days) as short-lived first responders, while monocytes have the longest circulating life span of any leukocyte before differentiating into long-lived tissue macrophages.
+
+## sections
+### Definition
+Different leukocyte types spend very different amounts of time circulating in blood before dying or migrating into tissue.
+
+### Mechanism
+Granulocytes (neutrophils, eosinophils, basophils) circulate for only about 4-5 days on average — consistent with their role as rapidly deployed, short-lived first responders. Monocytes, by contrast, have the longest circulating life span among the leukocytes, spending a comparatively long period in blood before migrating into tissue and differentiating into the long-lived tissue macrophage population.
+
+### Key determinants
+Numerous but short-lived (granulocytes) vs less numerous but long-lived (monocytes) is the contrast this bank tests.
+
+### Clinical significance
+Understanding granulocyte turnover matters for interpreting counts after marrow suppression (chemotherapy, radiation), where granulocyte recovery lags because of both short lifespan and interrupted production.
+
+## hold_these
+Granulocyte average circulating life span ≈ 4-5 days. Monocytes have the longest circulating life span among leukocytes.
+
+## lose_the_mark
+Confusing the granulocyte's short circulating life span with the much longer 120-day erythrocyte life span.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology Important MCQ "Physio HIS 2" past-exam block, His Continuous Berlin Book 2026.pdf, p.113,115, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the numeric values are standard.
+
+## notes
+Authored from Mansoura HIS 203's own Physio HIS 2 past-exam block.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-IMM-90C19E609496ED
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continuous Berlin Book 2026.pdf, p.113,115, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
