@@ -4,19 +4,18 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 888 | excluded: 193 | remaining: 71
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 892 | excluded: 197 | remaining: 63
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 888
+- authored (by key, this ledger): 892
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 888
+- authored minus held-back = build-style "kept": 892
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| Mechanical Properties of Cardiac Muscle | 42 | 26 | 8 | 8 |
 | A-V Connections | 54 | 40 | 7 | 7 |
 | Arteries | 62 | 45 | 10 | 7 |
 | Conducting Portion | 74 | 60 | 7 | 7 |
@@ -43,6 +42,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Human Chromosome | 48 | 43 | 4 | 0 |
 | Lung Volumes and Capacities | 9 | 6 | 3 | 0 |
 | Lungs — Gross Anatomy | 21 | 16 | 5 | 0 |
+| Mechanical Properties of Cardiac Muscle | 42 | 30 | 12 | 0 |
 | Mechanics of Breathing | 22 | 18 | 4 | 0 |
 | Mediastinum | 41 | 30 | 11 | 0 |
 | Pulmonary Compliance | 45 | 41 | 4 | 0 |
@@ -54,17 +54,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### Mechanical Properties of Cardiac Muscle (8)
-
-- `all-characters-of-cardiac-sarcoplasm-except-xxx-73ce223b` — All characters of cardiac sarcoplasm except: XXX
-- `increase-with-age-forming-brown-atrophy-of-heart-xxx-dc8cd7ee` — increase with age forming brown atrophy of heart XXX
-- `the-low-resistance-pathways-between-myocardial-cells-that-al-a0d4998c` — The low-resistance pathways between myocardial cells that allow for the spread o…
-- `the-plasticity-of-the-urinary-bladder-is-explained-by-8bf89a19` — The plasticity of the urinary bladder is explained by:
-- `the-poiseuille-law-is-concerned-with-which-of-the-following-501dd5db` — The Poiseuille law is concerned with which of the following factors:
-- `which-of-the-following-events-of-cardiac-myocyte-action-pote-3a3be2b8` — Which of the following events of cardiac myocyte action potential is correctly d…
-- `which-of-the-following-is-correct-as-regards-na-ca-exchanger-e0bfc7af` — Which of the following is correct as regards Na+ - Ca++ exchanger?
-- `which-of-the-following-maintain-the-ionic-concentrations-acr-20b74fb5` — Which of the following maintain the ionic concentrations across the sarcolemma o…
 
 ### A-V Connections (7)
 

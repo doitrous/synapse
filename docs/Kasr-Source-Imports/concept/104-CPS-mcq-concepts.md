@@ -51,7 +51,7 @@
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
+    Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 14 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 43 questions, 11 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  193 questions were excluded and 0 held back for having no
+  197 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4153,6 +4153,7 @@ cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
 ## article_ids
 +ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY | +ART-104-PHY-CARDIAC-MECHANICS
 ## field_notes
@@ -4532,18 +4533,19 @@ kau
 ## exam_signal
 src_d3160d222c8c55775511 | question_book | | p2 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p3 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Physiology
 ## subtopic
@@ -4663,12 +4665,13 @@ kau
 1
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p1 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p4 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
