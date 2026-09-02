@@ -1,0 +1,156 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "filariasis-mint",
+  "header": "MANS-HIS-203 · Parasitology — Bancroftian filariasis facts against a newly minted concept, authored from the His Continuous Berlin Book 2026 (Parasitology-HIS Lecture 3 and references block, p.72-76), printed keys.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "module_subject": "MANS-HIS-203 > Parasitology > Filariasis",
+    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-MANS-HIS-FILARIASIS-WUCHERERIA-BASICS"],
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, Parasitology-HIS, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "filaria-worm-site",
+      "page": 72,
+      "title": "Site of adult Wuchereria bancrofti worms",
+      "question": "Wuchereria bancrofti adult worms live in:",
+      "options": {
+        "A": "Eye",
+        "B": "Lung",
+        "C": "Lymphatics",
+        "D": "Blood",
+        "E": "Subcutaneous tissue"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The eye is the site adult worms of Loa loa (another filarial species) are classically found crossing, not Wuchereria bancrofti.",
+        "B": "Incorrect. The lung is where microfilariae can trigger tropical pulmonary eosinophilia by hypersensitivity, but the adult worms themselves do not live there.",
+        "C": "Correct. Adult Wuchereria bancrofti worms establish themselves in the lymphatic vessels and nodes, mainly of the lower limbs and genital organs. It is their presence there, and the years of obstruction and fibrosis this provokes, that drives the disease's chronic manifestations, including elephantiasis.",
+        "D": "Incorrect. Blood is where the adult worms' offspring, the microfilariae, circulate (with nocturnal periodicity); the adult worms themselves remain fixed in the lymphatics rather than circulating.",
+        "E": "Incorrect. Subcutaneous tissue is the site for adult Onchocerca volvulus worms (in nodules), not Wuchereria bancrofti."
+      },
+      "main_concept": "CON-INF-3DEFB880DFF98F",
+      "concept_ids": ["CON-INF-3DEFB880DFF98F"],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Filariasis",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the lymphatics as the site of adult Wuchereria bancrofti worms, as distinct from where microfilariae circulate.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.72 (L3 PARA questions, FORMATIVE + LECTURE MCQ, Q2)" },
+      "author_notes": ""
+    },
+    {
+      "key": "filaria-elephantiasis-mechanism",
+      "page": 72,
+      "title": "Mechanism of elephantiasis",
+      "question": "Elephantiasis, a chronic manifestation of lymphatic filariasis, occurs due to:",
+      "options": {
+        "A": "Dead microfilariae alone",
+        "B": "Obstruction of lymphatics",
+        "C": "Migration of worms in blood vessels",
+        "D": "Circulating microfilariae in blood",
+        "E": "Hyper-responsiveness to microfilarial antigens"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Dead microfilariae contribute to the inflammatory burden but are not, on their own, the mechanism named for elephantiasis; it is the years-long obstructive process around the adult worms that matters.",
+        "B": "Correct. Elephantiasis results from chronic obstruction of lymphatics, caused by worms blocking the lumen, endothelial proliferation and thickening of the lymphatic vessel wall, and fibrosis of the lymphatics and lymph nodes from repeated inflammation. This obstruction, built up over years, is what distinguishes the chronic phase from the acute inflammatory manifestations (lymphangitis, lymphadenitis, filarial fever) of the same infection.",
+        "C": "Incorrect. Adult filarial worms live fixed in the lymphatics, not migrating through blood vessels; this option describes neither the worm's location nor the mechanism of elephantiasis.",
+        "D": "Incorrect. Circulating microfilariae in the blood are the diagnostic finding used for blood-film detection, not the mechanism that produces elephantiasis, which instead follows from the adult worm's presence in the lymphatics.",
+        "E": "Incorrect. Hyper-responsiveness to microfilarial antigens is the mechanism of tropical pulmonary eosinophilia (TPE), a distinct hypersensitivity-driven manifestation, not of elephantiasis."
+      },
+      "main_concept": "CON-INF-3DEFB880DFF98F",
+      "concept_ids": ["CON-INF-3DEFB880DFF98F"],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Filariasis",
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain chronic lymphatic obstruction and fibrosis, not circulating microfilariae or hypersensitivity, as the mechanism of elephantiasis.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.72 (L3 PARA questions, FORMATIVE + LECTURE MCQ, Q1)" },
+      "author_notes": ""
+    },
+    {
+      "key": "filaria-tpe-hypersensitivity",
+      "page": 83,
+      "title": "Hypersensitivity type responsible for tropical pulmonary eosinophilia",
+      "question": "What type of hypersensitivity reaction is responsible for tropical pulmonary eosinophilia (TPE) in lymphatic filariasis?",
+      "options": {
+        "A": "Type I",
+        "B": "Type II",
+        "C": "Type III",
+        "D": "Type IV"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Tropical pulmonary eosinophilia is a type I (immediate, IgE-mediated) hypersensitivity reaction to microfilarial antigens, producing dyspnoea, cough and asthmatic attacks. Unlike elephantiasis, which follows years of lymphatic fibrosis and does not respond to antifilarial drugs once established, TPE responds well to diethylcarbamazine (Hetrazan), which is directed at the microfilariae driving the hypersensitivity.",
+        "B": "Incorrect. Type II (cytotoxic, antibody against a fixed cell-surface antigen) describes reactions such as Rh incompatibility, not the mechanism behind TPE.",
+        "C": "Incorrect. Type III (immune complex deposition) describes conditions such as serum sickness, not the mechanism responsible for TPE.",
+        "D": "Incorrect. Type IV (delayed, T-cell-mediated) reactions take 24-72 hours to develop, unlike the immediate IgE-mediated mechanism behind TPE."
+      },
+      "main_concept": "CON-INF-3DEFB880DFF98F",
+      "concept_ids": ["CON-INF-3DEFB880DFF98F"],
+      "contextual_concept_ids": ["CON-IMM-64B2E67A0AAF07"],
+      "topic": "Parasitology",
+      "subtopic": "Filariasis",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify TPE as a type I hypersensitivity reaction to microfilarial antigens, and that it (unlike elephantiasis) responds to diethylcarbamazine.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.83 (Parasitology-HIS references block, Q14)" },
+      "author_notes": ""
+    },
+    {
+      "key": "filaria-blood-collection-timing",
+      "page": 73,
+      "title": "Best time to collect blood for microfilariae",
+      "question": "What is the recommended time for blood collection when suspecting bancroftian filariasis, to detect circulating microfilariae?",
+      "options": {
+        "A": "Morning",
+        "B": "Noon",
+        "C": "Evening",
+        "D": "Night (10 PM-2 AM)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Microfilariae are far less numerous in peripheral blood in the morning; sampling then risks a false-negative result.",
+        "B": "Incorrect. Noon is, if anything, the time microfilariae are least numerous in peripheral blood, not the recommended collection window.",
+        "C": "Incorrect. Evening still precedes the peak of nocturnal periodicity; microfilarial density in peripheral blood has not yet reached its maximum.",
+        "D": "Correct. Wuchereria bancrofti microfilariae show nocturnal periodicity, becoming most numerous in peripheral blood between about 10 PM and 2 AM, so diagnostic blood films (thick Giemsa-stained smears) are timed to this window to maximise the chance of detecting them. Where clinical timing is impractical, a provocative test with a small dose of diethylcarbamazine can bring microfilariae into daytime peripheral blood instead."
+      },
+      "main_concept": "CON-INF-3DEFB880DFF98F",
+      "concept_ids": ["CON-INF-3DEFB880DFF98F"],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Filariasis",
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State the nocturnal-periodicity timing rule for collecting blood to detect W. bancrofti microfilariae.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.73 (Parasitology-HIS references block, Q1)" },
+      "author_notes": ""
+    }
+  ]
+}

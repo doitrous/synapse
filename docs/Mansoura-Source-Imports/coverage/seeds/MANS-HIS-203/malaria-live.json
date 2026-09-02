@@ -1,0 +1,250 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "malaria-live",
+  "header": "MANS-HIS-203 · Parasitology — malaria facts matching an existing live concept, authored from the His Continuous Berlin Book 2026 (Parasitology-HIS Lecture 1 and references block, p.63-66), printed keys.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "module_subject": "MANS-HIS-203 > Parasitology > Malaria",
+    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-INF-TOP-28EB55C385"],
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, Parasitology-HIS, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "malaria-paroxysm",
+      "page": 63,
+      "title": "Cause of the typical malaria paroxysm",
+      "question": "The typical malaria paroxysm (the cold, hot and sweating stages) occurs due to:",
+      "options": {
+        "A": "Invasion of the liver by sporozoites",
+        "B": "Invasion of RBCs by merozoites",
+        "C": "Rupture of the erythrocytic schizont",
+        "D": "Gametocyte formation",
+        "E": "Hypnozoite activation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Sporozoites invading the liver starts the pre-erythrocytic (exo-erythrocytic) cycle, which is clinically silent; it is not what triggers the paroxysm itself.",
+        "B": "Incorrect. Merozoites invading fresh RBCs begins a new erythrocytic cycle, but the paroxysm is triggered at the end of that cycle, not its start.",
+        "C": "Correct. The paroxysm's cold, hot and sweating stages are triggered by the synchronous rupture of erythrocytic schizonts, which releases merozoites, malarial pigment and cellular debris into the bloodstream. This debris acts on the body's temperature-regulating centre, producing the classic cycle of chills, high fever and then drenching sweats, timed to the parasite's own erythrocytic cycle length.",
+        "D": "Incorrect. Gametocyte formation produces the sexual stage that is infective to the mosquito; it does not itself provoke the paroxysm.",
+        "E": "Incorrect. Hypnozoite activation (in P. vivax and P. ovale) causes a relapse, restarting the erythrocytic cycle after a dormant period, but the paroxysm itself is still driven by schizont rupture, not by the hypnozoite's reactivation as such."
+      },
+      "main_concept": "CON-INF-5C4F5C2F22E10C",
+      "concept_ids": ["CON-INF-5C4F5C2F22E10C"],
+      "contextual_concept_ids": ["CON-INF-EF397F3C9D03B0"],
+      "topic": "Parasitology",
+      "subtopic": "Malaria",
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify rupture of the erythrocytic schizont as the trigger for the malaria paroxysm, as distinct from the other stages of the parasite's life cycle.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.63 (L1 PARA questions, FORMATIVE + LECTURE MCQ, Q4); repeated with the same key across the L1 lecture set (Q6) and two later past-exam blocks (دفعة 61 Q3, دفعة 57 Q3)" },
+      "author_notes": ""
+    },
+    {
+      "key": "malaria-relapse-species",
+      "page": 65,
+      "title": "Species most associated with relapse via hypnozoites",
+      "question": "Which Plasmodium species is most associated with relapses due to hypnozoite formation in the liver?",
+      "options": {
+        "A": "Plasmodium falciparum",
+        "B": "Plasmodium malariae",
+        "C": "Plasmodium vivax",
+        "D": "Plasmodium knowlesi"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. P. falciparum forms no hypnozoites and does not relapse; its persistence between treated attacks (when it occurs) is recrudescence from residual blood-stage parasites, not liver-stage reactivation.",
+        "B": "Incorrect. P. malariae also forms no hypnozoites; its own low-grade persistence is recrudescence, which can occur even years later, but again from the blood stage, not a dormant liver form.",
+        "C": "Correct. P. vivax (along with P. ovale) uniquely forms hypnozoites, a dormant liver stage that can reactivate months to years after the primary infection to cause a true relapse — a distinct clinical and mechanistic entity from recrudescence, and the basis for giving primaquine as causal (radical cure) prophylaxis against these two species specifically.",
+        "D": "Incorrect. P. knowlesi, a zoonotic species acquired from macaques, does not form hypnozoites either; it is notable instead for its very short (24-hour) erythrocytic cycle and potential for rapid parasitaemia rise."
+      },
+      "main_concept": "CON-INF-D22710A2184C60",
+      "concept_ids": ["CON-INF-D22710A2184C60"],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Malaria",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify P. vivax (with P. ovale) as the species that relapses via dormant hepatic hypnozoites, as distinct from recrudescence in the other species.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.65 (Parasitology-HIS references block, Q1)" },
+      "author_notes": ""
+    },
+    {
+      "key": "malaria-cerebral-species",
+      "page": 66,
+      "title": "Species most associated with cerebral malaria",
+      "question": "Cerebral malaria is a severe complication most commonly associated with which species?",
+      "options": {
+        "A": "Plasmodium vivax",
+        "B": "Plasmodium malariae",
+        "C": "Plasmodium ovale",
+        "D": "Plasmodium falciparum"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. P. vivax causes benign tertian malaria; its complications are far less severe than falciparum's, and cerebral involvement is not a recognised feature of vivax infection.",
+        "B": "Incorrect. P. malariae causes benign quartan malaria; its main long-term complication is immune-complex nephrotic syndrome, not cerebral disease.",
+        "C": "Incorrect. P. ovale, like vivax, causes a benign tertian pattern and is not associated with cerebral malaria.",
+        "D": "Correct. P. falciparum causes malignant (subtertian) malaria and is the species responsible for cerebral malaria, along with the rest of its complicated-malaria picture (blackwater fever, algid malaria, acute renal failure, severe anaemia and pulmonary oedema). This severity follows from falciparum's ability to invade RBCs of all ages, producing the highest parasitaemia of any human Plasmodium species, and from cytoadherence of parasitised cells to microvascular endothelium (the pernicious-syndrome mechanism)."
+      },
+      "main_concept": "CON-INF-A5691403C45F53",
+      "concept_ids": ["CON-INF-A5691403C45F53"],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Malaria",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify P. falciparum as the species responsible for cerebral malaria and the rest of the complicated-malaria picture.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.66 (Parasitology-HIS references block, Q6)" },
+      "author_notes": ""
+    },
+    {
+      "key": "malaria-algid",
+      "page": 63,
+      "title": "Algid malaria",
+      "question": "In complicated falciparum malaria, circulatory collapse with hypotension and peripheral circulatory failure is termed:",
+      "options": {
+        "A": "Cerebral malaria",
+        "B": "Algid malaria",
+        "C": "Blackwater fever",
+        "D": "Recrudescence"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cerebral malaria is a picture of decreased consciousness, convulsions and paralysis from cerebral involvement, not a circulatory-collapse picture.",
+        "B": "Correct. Algid malaria is the name given to the circulatory-collapse presentation of complicated falciparum malaria — low blood pressure and peripheral circulatory failure, analogous to septic-shock-like hypoperfusion. It is listed by the department's own book alongside cerebral malaria, acute renal failure, severe anaemia, pulmonary oedema, blackwater fever and metabolic acidosis as one of the recognised complications of severe falciparum disease. Recognising it matters clinically because it needs circulatory support, not just antimalarial treatment, to reverse the hypoperfusion.",
+        "C": "Incorrect. Blackwater fever is massive intravascular haemolysis with haemoglobinuria, a distinct complication from the circulatory-collapse picture algid malaria describes.",
+        "D": "Incorrect. Recrudescence is the recurrence of clinical attacks from persistent low-grade blood-stage parasitaemia, a chronic/relapsing pattern rather than an acute circulatory-collapse complication."
+      },
+      "main_concept": "CON-INF-7AED4BCB0638F3",
+      "concept_ids": ["CON-INF-7AED4BCB0638F3"],
+      "contextual_concept_ids": ["CON-INF-D52C8D8ED370EE", "CON-INF-A5691403C45F53"],
+      "topic": "Parasitology",
+      "subtopic": "Malaria",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify algid malaria as the circulatory-collapse complication of severe falciparum malaria, as distinct from cerebral malaria and blackwater fever.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "department book's own complicated-falciparum-malaria list, p.63, item 18 (\"Algid Malaria: ↓Bl.P, peripheral circulatory failure\")" },
+      "author_notes": ""
+    },
+    {
+      "key": "malaria-blackwater",
+      "page": 63,
+      "title": "Blackwater fever",
+      "question": "A patient with falciparum malaria develops massive intravascular haemolysis with haemoglobinuria, anaemia, jaundice and fever, and is at risk of renal failure. This complication is known as:",
+      "options": {
+        "A": "Algid malaria",
+        "B": "Blackwater fever",
+        "C": "Cerebral malaria",
+        "D": "Recrudescence"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Algid malaria is the circulatory-collapse/hypotension complication, not a haemolytic one; the two are listed separately in the department's own complicated-falciparum-malaria list.",
+        "B": "Correct. Blackwater fever is massive intravascular haemolysis producing haemoglobinuria (giving urine its dark, \"blackwater\" colour), together with anaemia, jaundice and fever, and it carries a real risk of progressing to acute renal failure from the haemoglobin load on the kidneys. It is one of the named complications of severe falciparum malaria in the department's own list.",
+        "C": "Incorrect. Cerebral malaria is a picture of decreased consciousness, convulsions and paralysis, not a haemolytic/renal complication.",
+        "D": "Incorrect. Recrudescence is the recurrence of clinical attacks from persisting low-grade parasitaemia, not an acute haemolytic event."
+      },
+      "main_concept": "CON-INF-D52C8D8ED370EE",
+      "concept_ids": ["CON-INF-D52C8D8ED370EE"],
+      "contextual_concept_ids": ["CON-INF-5DFBC7FBB17B73"],
+      "topic": "Parasitology",
+      "subtopic": "Malaria",
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify blackwater fever as massive intravascular haemolysis with haemoglobinuria in severe falciparum malaria, distinct from algid and cerebral malaria.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "department book's own complicated-falciparum-malaria list, p.63, item 18 (\"Black water fever\")" },
+      "author_notes": ""
+    },
+    {
+      "key": "malaria-renal-failure",
+      "page": 63,
+      "title": "Acute renal failure in complicated falciparum malaria",
+      "question": "Acute renal failure, one of the recognised complications of severe falciparum malaria, results mainly from:",
+      "options": {
+        "A": "Anoxic acute tubular necrosis",
+        "B": "Direct invasion of the kidney by merozoites",
+        "C": "Immune-complex deposition in the glomerulus",
+        "D": "Chronic dehydration alone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Acute renal failure in severe falciparum malaria is mainly the result of anoxic acute tubular necrosis, following from the same microvascular obstruction, hypoperfusion and haemoglobin/pigment load that produce the disease's other complications (blackwater fever, algid malaria). It is listed among these complications in the department's own complicated-falciparum-malaria summary.",
+        "B": "Incorrect. Plasmodium infects erythrocytes and hepatocytes, not renal tubular cells directly; the kidney injury is ischaemic/toxic, not from direct parasite invasion of renal tissue.",
+        "C": "Incorrect. Immune-complex glomerular disease (nephrotic syndrome) is the renal complication associated with chronic P. malariae infection, not the acute renal failure of severe falciparum malaria.",
+        "D": "Incorrect. Dehydration can contribute to renal hypoperfusion, but the acute renal failure of severe falciparum malaria is attributed specifically to anoxic tubular necrosis from the disease process itself, not simply to fluid loss."
+      },
+      "main_concept": "CON-INF-5DFBC7FBB17B73",
+      "concept_ids": ["CON-INF-5DFBC7FBB17B73"],
+      "contextual_concept_ids": ["CON-INF-D52C8D8ED370EE"],
+      "topic": "Parasitology",
+      "subtopic": "Malaria",
+      "difficulty": "Hard",
+      "question_type": "Mechanism",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify anoxic acute tubular necrosis as the mechanism of acute renal failure in severe falciparum malaria.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "department book's own complicated-falciparum-malaria list, p.63, item 18 (\"Acute renal failure\"); mechanism supplied from the live concept's own definition, consistent with the source's listing of renal failure alongside the other pernicious-syndrome complications" },
+      "author_notes": ""
+    },
+    {
+      "key": "malaria-suppressive-prophylaxis",
+      "page": 63,
+      "title": "Suppressive chemoprophylaxis for malaria",
+      "question": "Suppressive (chemo-) prophylaxis against malaria, which acts as a blood schizonticide during the trip rather than eradicating liver hypnozoites, uses:",
+      "options": {
+        "A": "Primaquine",
+        "B": "Chloroquine or mefloquine",
+        "C": "Only iron supplementation",
+        "D": "Interferon gamma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Primaquine is the causal (radical cure) prophylactic and the drug used to clear hypnozoites and prevent relapse; it is not the standard suppressive/blood-schizonticide agent for travel prophylaxis.",
+        "B": "Correct. Chloroquine (where the parasite remains sensitive) or mefloquine is used for suppressive prophylaxis. Each acts as a blood schizonticide that kills the erythrocytic stage and so prevents clinical attacks for as long as it is taken, consistent with chloroquine's and artemisinin's role as blood schizonticides for clinical attacks generally. Because it only clears the blood stage, this suppressive prophylaxis must still be continued for weeks after leaving the endemic area, to cover any parasites already released from the liver.",
+        "C": "Incorrect. Iron supplementation has no antimalarial action; it addresses iron deficiency, an unrelated problem, not malaria prophylaxis.",
+        "D": "Incorrect. Interferon gamma is used as adjunct systemic therapy in visceral leishmaniasis, not as antimalarial prophylaxis."
+      },
+      "main_concept": "CON-INF-27A615A943CBD0",
+      "concept_ids": ["CON-INF-27A615A943CBD0"],
+      "contextual_concept_ids": ["CON-INF-D22710A2184C60"],
+      "topic": "Parasitology",
+      "subtopic": "Malaria",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Distinguish suppressive (blood-schizonticide) prophylaxis from causal (hypnozoite-clearing) prophylaxis in malaria.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "department book's own list, p.63, item 24 (\"Suppressive prophylaxis chloroquine or mefloquine\"), contrasted with item 23 (\"Causal prophylaxis primaquine\")" },
+      "author_notes": ""
+    }
+  ]
+}
