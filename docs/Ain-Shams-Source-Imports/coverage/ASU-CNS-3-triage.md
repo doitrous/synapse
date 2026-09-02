@@ -181,6 +181,57 @@ spot-check, which only covered anatomy-paper terms. **The lesson for the next cl
 Phase-0 spot-check table is a starting point, not a substitute for a fresh per-item search once the
 actual items are in hand.
 
+## Addendum (cluster 3, physio-mcq items 49-65 + second paper)
+
+Finished the physiology paper: read pages 4-5 in full (17 items, matching the
+addendum above exactly — items 49-63 on p4, 64-65 spilling onto p5). 10
+authored (10 new mints; one fact, kinin/bradykinin as a pain mediator, matches
+a pending Helwan HU-BMS-102 pathology concept but was minted fresh since that
+concept has no article record anywhere to link a question to — logged as a
+`rejected_merge_candidate_id`, not silently ignored), 7 held as within-file
+duplicates of facts cluster 2 already authored in items 1-48 (crude touch/
+A-delta, gamma motor neuron/intrafusal, ankle clonus, corticostriatal
+glutamate, kinetic-vs-static tremor, spinocerebellar damping, and — cross-
+paper — gracile/cuneate kinesthesia already covered by this lane's own
+cluster 1 anatomy Q42). The physio-mcq cluster (cluster 2 + 3 combined) is
+now 54 authored / 11 held / 0 remaining / 65 total — fully triaged and
+authored.
+
+Opened the next paper per `coverage/ASU-Y3-priority-sources.md` §ASU-CNS-3:
+`EOM - CNS FINAL PAPER 1 2024.pdf` (source `src_a5a15b69f093397250ab`,
+3 pages, native text, 0 garbled). Page 1 is a 27-item embedded-answer MCQ
+block spanning biochemistry/anatomy/physiology/pharmacology (unlike the
+single-subject anatomy/physio banks cluster 1/2 read); pages 2-3 are a
+9-item essay block (short-answer facts, no printed options at all — this
+cluster converted 10 of those facts into standard MCQs with its own
+distractors). Of the MCQ block's 27 items: 4 (items 1-4) are biochemistry,
+out of this lane's neuro subject scope and not seeded; 1 (item 5) is an
+unrecoverably ambiguous printed key (a bare "T5" answer with no stem
+context); 1 (item 17) is diagram-dependent (an explicit "رسمة" — drawing —
+reference with no printed text stem); 13 are cross-paper duplicates of
+facts already authored in this lane's own cluster 1 anatomy or cluster 2/3
+physio batches (paracentral lobule, rubrospinal tract, gate control theory,
+syringomyelia, stretch reflex, motor learning/climbing fibres, foramen of
+Luschka/Magendie, deep petrosal nerve, inferior petrosal sinus,
+hemiballismus, and — same-cluster — the primary-motor-cortex/contralateral-
+hemiplegia fact shared with this cluster's own physio-mcq-q52); the
+remaining 10 (items 6, 10, 11, 13, 15, 16, 19, 20, 22, 24) are new mints.
+Of the essay block's 9 items (10 discrete facts, one essay item yielding
+two), 1 (Parkinson's static-tremor mechanism) duplicates cluster 2's own
+physio concept; the other 10 facts are new mints. `final2024-mcq` cluster:
+20 authored / 14 held / 0 remaining / 34 total.
+
+This cluster's combined output: 30 authored (30 new mints), 21 held — see
+`coverage/ASU-CNS-3-LEDGER.md`. `coverage/ASU-CNS-3-triage-keys.txt`
+extended with all `physio-mcq-q49`..`q65` and `final2024-mcq-q05`..`q38`
+keys (biochemistry items 1-4 excluded from the key list, not "remaining").
+Full per-item search-before-mint was re-run per item, not reused from this
+triage doc's Phase-0 spot-check table, per the addendum's own lesson above —
+several near-duplicates only surfaced this way (e.g. the internal-capsule-
+vs-cortex spastic-hemiplegia distinction against Alexandria's pending
+AU-MED-203 concept, kept as a `rejected_merge_candidate_id` rather than
+merged, since the lesion site genuinely differs).
+
 ## Needs Omar
 
 - None yet identified specific to CNS-3 (unlike ASU-IBM/Fayoum). The corpus is source-rich; no
