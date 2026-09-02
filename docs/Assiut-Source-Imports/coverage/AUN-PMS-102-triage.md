@@ -522,6 +522,227 @@ reused cartilage/bone/embryology concepts keep their original
 unchanged by the overlay (only `universities`/`learner_years`/
 `modules` are appended).
 
+## Cluster authored this pass (lane 4): pp.1-33 ("pmsfront") and pp.170-217 ("pmstail")
+
+These are the two garbled ranges left after lanes 1-3 cleared the clean
+pp.34-169 range. Both OCR'd cleanly in the foreground
+(`pagetext.mjs ocr --pages 1-33` and `--pages 170-217`): 15-336 words/page
+recovered, and the `"The correct answer is:"` key line survived OCR on
+every page of both ranges without the character-spacing corruption trap
+LANE-CARD S3 warns about. Both are the same Moodle attempt-review export
+as source (b)'s clean middle range, confirming the LMS-export key-reading
+method still applies.
+
+**Scope note.** pp.1-33 and pp.170-198 are gross anatomy (microscopy
+technique, plasma membrane and organelle cytology, anatomical planes/
+terms, bone classification, joints and muscle types, then the digestive,
+chromosome/nucleus, respiratory and cell-cycle/cell-death material) rather
+than the histology/embryology/genetics content lanes 1-3 happened to draw
+from their own page ranges. The source PDF's own Moodle breadcrumb reads
+"Lectures and quizzes of **Principles of microscopic and macroscopic
+structures**" on every page, matching AUN-PMS-102's full module name
+exactly -- gross ("macroscopic") anatomy is squarely in scope for this
+module, not a different one. This broadens the working description of the
+module beyond lanes 1-3's own framing; flagged here rather than left only
+in this lane's own commit history.
+
+### pp.1-33 ("pmsfront")
+
+`pagetext.mjs status` confirms all 33 pages 0-word native/garbled before
+OCR, matching the readability index. Ten per-lecture quizzes: Quiz 1
+(microscopy/specimen prep and histology methods, p1-5), Quiz 2 (cytology/
+plasma membrane, p6-11), Quiz 6&7 (membranous organelles, p12-19), Quiz 9
+(anatomical planes/terms, joints, bones, muscles, p20-28), Quiz 10
+(non-membranous organelles, p30-33).
+
+| Quiz | Raw Qs | SBA (options) | Fill-in/image (log only) |
+|---|--:|--:|--:|
+| Quiz 1 (microscopy) | 11 | 2 | 9 |
+| Quiz 2 (plasma membrane) | 10 | 4 | 6 |
+| Quiz 6&7 (organelles) | 20 | 12 | 8 |
+| Quiz 9 (planes/joints/bones/muscles) | 24 (p20-28) | 24 | 0 |
+| Quiz 10 (non-membranous organelles) | 9 | 1 | 8 |
+| **Total (p1-30)** | **74** | **43\*** | **31** |
+
+\*44 raw SBA facts once Quiz 9's own p28 Q25/Q26 duplicate (same stem,
+same key, printed twice) is counted once -- see below.
+
+**44 usable SBA items found reading p1-30 in order; 26 authored this
+pass** (`coverage/seeds/AUN-PMS-102/pmsfront.json` ->
+`question/AUN-PMS-102-pmsfront-mcq.md`), a deliberate subset chosen to
+balance authoring effort against the pmstail cluster below (matching lane
+3's own "target 40-50 per dispatch, not every usable item" precedent). The
+remaining 18 usable items (p23-p30: joints, bone types, fascia, muscle
+naming, deep-fascia duplicate Q25/Q26, centrosome) are logged in
+`coverage/AUN-PMS-102-triage-keys.txt` as top-up candidates, not triaged
+into individual keys this pass. pp.31-33 (Quiz 10 continued) are all
+fill-in-the-blank, logged only.
+
+7 newly-minted concepts (`concept/AUN-PMS-102-pmsfront-concepts.md`;
+microscopy technique, ER/lipid function, secretory transport pathway,
+anatomical planes, medial/lateral terms, patella). 19 questions reuse 10
+existing concepts: 8 from `docs/Kasr-Source-Imports/concept/101-ISK-
+concepts.md`, `101-ISK-mcq-concepts.md` and `101-ISK-practical-
+concepts.md` (cytology -- endocytosis, membrane composition, mitochondria
+structure/staining, Golgi structure, peroxisome/catalase, muscle-type
+comparison, pennate-muscle classification) via a sparse overlay,
+`pending-live/AUN-PMS-102-pmsfront-overlay.md`, plus 2 **live** concepts
+reused directly (bone-shape classification `CON-MSK-12504AAE2403E8`,
+shoulder circumduction `CON-MSK-9E9BBA40F75CE3`) with no overlay row
+needed, matching lane 3's own live-reuse precedent.
+
+**Library-article discipline.** Each reused concept's own `article_ids`
+field (not a title guess) decided which article a question's `library_ids`
+cites -- `find-existing.mjs`'s article hits are often alias-only or for a
+different specific claim, so the concept record's own declared article is
+the only reliable source. This caught three misassignments during this
+pass's own gate run (endocytosis and mitochondria's true home articles
+differ from what their titles suggested) before `validate-content-batch.mjs`
+flagged them as "not covered by any article in library_ids" -- fixed by
+reading each concept's `## article_ids` line directly rather than guessing
+from its title.
+
+### pp.170-217 ("pmstail")
+
+`pagetext.mjs status` confirms all 48 pages 0-word native/garbled before
+OCR. Per-lecture quizzes: QUIZ11&12 (skeletal system, p170-173), Quiz13
+(cell inclusions, p174-176), QUIZ14&15 (digestive system, p178-179),
+Quiz16&17 (chromosome structure/karyotyping, p181-188), QUIZ18
+(respiratory system, p190-192), Quiz19 (cell cycle, p194-196), Quiz20
+(cell death/stem and progenitor cells, p197-199), then a run of quizzes at
+p201-217 (Quiz 31-32 spermatogenesis, Quiz 33/34 connective tissue cells/
+fibres, Quiz 35 blood, Quiz 36-37 oogenesis, Quiz 38-41 fertilization/
+corpus luteum, Quiz 40) in a **different, two-column "quiz navigation"
+review layout** from the rest of the compilation.
+
+**A second OCR trap, distinct from character-spacing corruption.** On
+p201-217's own layout, `"The correct answer is:"` key lines OCR cleanly on
+every page, but many question **stems** render blank -- `pagetext.mjs
+show` returns e.g. `"Question 2\nCorrect\nMark 1.00 out of\n1.00\n... The
+correct answer is: 22- X or 22 Y."` with no stem text at all. Confirmed by
+rendering p202 (`mark-garbled` + `render`, one page, well under the
+14-render cap): the full stem ("Spermatid contains:") and options ARE
+printed clearly in the image -- this is an OCR text-extraction gap
+specific to this two-column collapsed layout (small-caps "Question N" /
+"Flag question" sidebar text likely confuses `psm=6`), not a missing or
+corrupted source. Several of the stem-blank items duplicate a later,
+fully-legible restatement within the same quiz or a sibling quiz (Quiz
+31-32's own Q1-5 duplicate its Q11-15; part of Quiz 36-37 duplicates Quiz
+38-41/Quiz 40). Not pursued further this pass since p170-198 alone already
+cleared the ~50-question combined authoring target with pmsfront -- logged
+in `coverage/AUN-PMS-102-triage-keys.txt` as a render-recoverable
+candidate for a future top-up lane (LANE-CARD S3's own render-on-doubt
+step, exercised but not required to reach target this time).
+
+| Quiz | Raw Qs (p170-198) | SBA authored | Fill-in/T-F/matching (log only) | Held |
+|---|--:|--:|--:|--:|
+| QUIZ11&12 (skeletal, gross anatomy) | 5 | 0\* | 0 | 0 |
+| Quiz13 (cell inclusions) | 9 | 0 | 9 | 0 |
+| QUIZ14&15 (digestive) | 5 | 4 | 0 | 1 |
+| Quiz16&17 (chromosome/karyotyping) | 24 | 9 | 13 | 1 |
+| QUIZ18 (respiratory) | 5 | 5 | 0 | 0 |
+| Quiz19 (cell cycle) | 4 | 3\*\* | 0 | 0 |
+| Quiz20 (cell death/stem cells) | 5 | 2 | 3 | 0 |
+| **Total** | **57** | **23** | **25** | **2** |
+
+\*QUIZ11&12 (p170-173, skeletal gross anatomy: clavicle/scapula/humerus/
+femur/fibula) reads cleanly and is fully usable SBA, but falls into the
+"remaining, not authored this pass" pool alongside pmsfront's own p23-30
+top-up candidates rather than being triaged into individual keys, since
+the target was already met without it; logged in the triage-keys file's
+comment block for a future pass. \*\*Quiz19 Q2/Q3 are the same fact
+(S-phase DNA replication) printed twice; authored once.
+
+**23 questions authored** (`coverage/seeds/AUN-PMS-102/pmstail.json` ->
+`question/AUN-PMS-102-pmstail-mcq.md`). 2 questions reuse 2 existing
+`docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` concepts
+(heterochromatin, Barr body) via a sparse overlay,
+`pending-live/AUN-PMS-102-pmstail-overlay.md`. 20 new concepts
+(`concept/AUN-PMS-102-pmstail-concepts.md`) with 3 new articles
+(`article/AUN-PMS-102-pmstail-articles.md`: digestive system, respiratory
+system, cell cycle/cell renewal) -- no existing article named or covered
+this content in the corpus.
+
+**A gap in the reused corpus, not this lane's own record.** The
+heterochromatin concept (`CON-FND-6C5ABFD844D630`, 101-ISK) carries no
+`article_ids` at all in its own source batch. Since a question's main
+concept must be covered by an article named in its own `library_ids`
+(`validate-content-batch.mjs`'s coverage check), this pass's overlay row
+adds `ART-101-HIS-NUCLEUS` to it -- the same article the sibling Barr-body
+record already names, and `conceptImport.ts` merges `article_ids`
+additively rather than overwriting, so this is a legitimate fill of a
+missing link, not a rewrite of someone else's record.
+
+### Held items (this pass)
+
+- **QUIZ14&15 Q5** (p179, "Salivary glands include the followings
+  except"): printed key marks "Parotid gland" as the exception, but the
+  parotid genuinely is a major salivary gland -- contradicts the real
+  fact. Compounded by a duplicate-naming defect ("Submaxillary gland" is
+  an old synonym for "Submandibular gland", also listed, so two of the
+  four options name the same real gland). Held per the standing
+  printed-key-conflict rule (MPT Q47 precedent).
+- **Quiz16&17 Q2** (p181, "Which of the following parts of the nucleus
+  makes ribosomes and RNA"): the printed options (Nuclear envelop /
+  Nucleus / Nucleoplasm / Chromatin pores) omit "Nucleolus" -- the real
+  answer, independently confirmed by this same quiz's own Q5 ("Protein
+  formation is enabled through... Nucleoli") and Q13 ("Ribosomal subunits
+  are synthesized in... nucleolus") -- and the printed key instead marks
+  "Nucleus" itself, which is incoherent as an answer to "which PART OF THE
+  NUCLEUS" (the nucleus cannot be a part of itself). Held as corrupted/
+  illogical rather than authored as printed.
+
+### Concept search notes (pmsfront + pmstail, this pass)
+
+`find-existing.mjs` run for every distinct tested idea before minting
+(40+ queries; key results below):
+
+- **Cytology (microscopy, plasma membrane, organelles) is saturated**,
+  extending the same `101-ISK-concepts.md` / `101-ISK-mcq-concepts.md` /
+  `101-ISK-practical-concepts.md` family lanes 2-3 already drew on: a
+  single "endocytosis" query returned the exact-fact concept
+  (`endocytosis-three-types-and-exocytosis`); "integral protein" returned
+  the exact plasma-membrane composition concept; "mitochondria",
+  "peroxisome" and "Golgi" each returned an exact-fact match on the first
+  short, single-term query. 8 of pmsfront's 26 questions reuse these
+  concepts (see table above).
+- **Bone-shape classification** ("bone shape classification" -- 0 hits;
+  "irregular bone" -- live hit `CON-MSK-12504AAE2403E8`, "Anatomical bone
+  classification by shape includes long, short, flat, and irregular
+  bones") reused directly for both the humerus (long) and vertebra
+  (irregular) questions, the first live-concept direct reuse for gross
+  anatomy in this AUN-PMS-102 lane.
+- **"circumduction"**: live hit `CON-MSK-9E9BBA40F75CE3` ("shoulder
+  circumduction... combines the previously described shoulder
+  movements") -- a near-match (this bank's own claim names the four
+  component movements explicitly; the live claim is framed at the
+  shoulder and phrased more generally) rather than a verbatim restatement,
+  reused directly per the "confirm before treating as the same concept"
+  rule for near-matches, since both describe the same underlying movement
+  fact.
+- **"heterochromatin"**: pending 101-ISK hit
+  (`euchromatin-versus-heterochromatin`, "heterochromatin is coiled and
+  inactive and makes it condensed") states this pass's own claim
+  verbatim; reused via overlay.
+- **"Barr body"**: pending 101-ISK hit (`sex-chromatin-barr-body-is-an-
+  inactivated-x-chromosome`) states this pass's own claim; reused via
+  overlay.
+- **"endosome"**: 1 pending Ain Shams hit
+  (`cell.lysosome.formation-rer-golgi-endosome`) -- a different claim
+  (lysosome-formation mechanism) from this pass's own nucleus-vs-cytoplasm
+  classification claim; no merge, new concept minted.
+- **"paranasal sinuses"**: pending hits were alias-only (101-ISK, Kasr
+  104-CPS) or a full concept on a different claim (Alexandria AU-MED-106,
+  sinus *drainage routes* rather than this pass's own *location/
+  definition* claim); no merge, new concept minted.
+- 30+ further queries (plastic sections, electron microscope, smooth ER
+  detoxification, secretory pathway, anatomical planes, medial/lateral,
+  patella, mouth vestibule, wisdom tooth, oesophagus, stomach curvatures,
+  chromatin network, nucleolus, centromere, diploid/haploid, colchicine,
+  respiratory portion, lung hilum, lung laterality, trachea bifurcation,
+  centrioles, cell cycle S phase, cell death, stem cell division,
+  progenitor cells) returned 0 hits -- safe to create, all minted new.
+
 ## Checkpoint table
 
 | Module | Questions triaged | Keys recovered | Held (conflict/corrupted) | Distinct concepts identified | Live-hit | Pending-hit | New |
@@ -529,11 +750,19 @@ unchanged by the overlay (only `universities`/`learner_years`/
 | AUN-PMS-102 (source b, pp.34-64 cluster) | 68 raw / 34 distinct usable | 34/34 (100% of the authored batch; 310/314 of the whole clean range) | 5 | 27 | 0 direct reuse (2 checked-not-merged) | 5 checked-not-merged | 27 |
 | AUN-PMS-102 (source b, pp.65-107 cluster) | 71 raw / 38 distinct usable | 38/38 (100% of the authored batch) | 2 | 34 (14 reused + 20 new) | 0 direct reuse | 14 reused (101-ISK, overlay) | 20 |
 | AUN-PMS-102 (source b, pp.108-169 cluster) | 165 raw / 65 distinct usable, 50 authored | 50/50 (100% of the authored batch) | 5 | 36 (15 reused + 21 new) | 2 direct reuse (ectopic pregnancy, placenta previa) | 13 reused (103-BMS + 101-ISK, overlay) | 21 |
+| AUN-PMS-102 (source b, pp.1-33 "pmsfront" cluster) | 74 raw (p1-30) / 44 distinct usable, 26 authored | 26/26 (100% of the authored batch) | 0 | 26 (19 reused + 7 new) | 2 direct reuse (bone classification, circumduction) | 8 reused (101-ISK, overlay) | 7 |
+| AUN-PMS-102 (source b, pp.170-217 "pmstail" cluster) | 57 raw (p170-198) / 23 authored | 23/23 (100% of the authored batch) | 2 | 22 (2 reused + 20 new) | 0 direct reuse | 2 reused (101-ISK, overlay) | 20 |
 
-Concept search across all three passes now covers the full clean
-pp.34-169 range of source (b). The garbled pp.1-33/170-217 still need
-OCR before triage; no further clean pages remain in source (b) for a
-future AUN-PMS-102 lane to author from without OCR work first.
+Concept search across all four passes now covers the full pp.1-33/34-169/
+170-217 range of source (b) -- every page of `All quizzes PMS.pdf` has
+now been triaged at least once. The only unaddressed content left in this
+source is: pmsfront's own p23-30 top-up pool (18 usable joint/bone/
+fascia/muscle items), pmstail's QUIZ11&12 (p170-173, skeletal gross
+anatomy, fully usable but not authored to stay within this pass's
+target), and pmstail's p201-217 render-recoverable pool (spermatogenesis/
+oogenesis/blood/connective-tissue facts whose stems need a render pass,
+not a re-OCR) -- all logged in `coverage/AUN-PMS-102-triage-keys.txt` as
+candidates for a future top-up lane.
 
 ## Needs Omar / open items
 
@@ -566,5 +795,23 @@ future AUN-PMS-102 lane to author from without OCR work first.
   minor mesoderm/embryonic-period facts trimmed to hit the 40-50
   dispatch target) are logged in `coverage/AUN-PMS-102-triage-keys.txt`
   as candidates for a future top-up pass if AUN-PMS-102 needs more
-  depth in these topics. The garbled pp.1-33/170-217 still need OCR
-  before any further triage of source (b).
+  depth in these topics. The garbled pp.1-33/170-217 have now been OCR'd
+  and triaged by lane 4 (see "Cluster authored this pass (lane 4)" above)
+  -- every page of source (b) has now been triaged at least once.
+- The 2 held items from this pp.1-33/170-217 pass (QUIZ14&15 Q5 salivary-
+  gland key conflict, Quiz16&17 Q2 nucleus-part illogical option list)
+  are candidates for a second-copy check, alongside the 12 held items
+  from passes 1-3 already listed above.
+- pmstail's p201-217 (Quiz 31-32 spermatogenesis through Quiz 40) prints
+  full "correct answer is" keys throughout, but many question stems did
+  not survive plain-text OCR extraction on that section's own two-column
+  "quiz navigation" review layout -- confirmed recoverable by rendering
+  (not re-OCR'ing) the affected pages, one render already done at p202 as
+  proof. A future top-up lane could `mark-garbled` + `render` the
+  remaining affected pages (well under the 14-render cap) to recover
+  these stems rather than treating them as unusable.
+- pmsfront's own p23-30 (18 usable joint/bone/fascia/muscle items) and
+  pmstail's QUIZ11&12 (p170-173, skeletal gross anatomy, 5 usable items)
+  are both logged as top-up candidates, trimmed from this pass only to
+  balance authoring effort against the combined ~50-question dispatch
+  target, not for any content defect.
