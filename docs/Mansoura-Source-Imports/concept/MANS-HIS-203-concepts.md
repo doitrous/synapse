@@ -3641,3 +3641,911 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 
 ---
+
+# Item
+
+## label
+Acute iron toxicity presents primarily as necrotizing gastroenteritis, and its specific decontamination antidote is desferrioxamine, an iron chelator
+
+## id
+CON-HEM-587EB75E7F6A20
+
+## canonical_key
+acute-iron-toxicity-presentation-and-antidote
+
+## aliases
+Iron toxicity
+Desferrioxamine
+Iron poisoning antidote
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Acute iron toxicity (classically from accidental ingestion of iron tablets, especially in children) primarily damages the gastrointestinal mucosa, producing necrotizing gastroenteritis as its primary manifestation — corrosive injury to the gut lining with vomiting, abdominal pain and gastrointestinal bleeding, which can progress to systemic toxicity (metabolic acidosis, shock, hepatic injury) if untreated. The specific antidote used for decontamination in acute iron toxicity is desferrioxamine (deferoxamine), an iron-chelating agent that binds free iron and allows its excretion, distinct from chelators used for other heavy-metal poisonings such as dimercaprol (arsenic, mercury, lead) or penicillamine (copper, lead).
+## explicit_objective
+Identify necrotizing gastroenteritis as the primary manifestation of acute iron toxicity, and desferrioxamine as its specific chelating antidote.
+
+## pitfalls
+Confusing acute iron toxicity's antidote (desferrioxamine, an iron chelator) with chelators for other metals (dimercaprol, penicillamine, deferasirox — an oral iron chelator used for chronic iron overload rather than acute poisoning) — this bank tests the specific pairing against exactly these distractors. Assuming iron toxicity causes hemochromatosis-type organ iron overload acutely, when the acute presentation is gastrointestinal corrosive injury, not chronic iron deposition.
+
+## concept_type
+directly_taught_pharmacology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron toxicity and chelation
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics > Acute iron toxicity
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p146 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-ACUTE-IRON-TOXICITY-ANTIDOTE
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+CON-HEM-358CC63951D1AF
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.65
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+What is the specific antidote used for decontamination in acute iron toxicity? [answer: Desferroxamine]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pharmacology/toxicology reference not yet cross-checked against this department-book framing; the presentation and antidote are standard USMLE-style facts.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: CON-HEM-358CC63951D1AF (this module, iron vs B12 deficiency and iron therapy routes) is the same haematinics-pharmacology neighbour this concept's toxicity/antidote angle complements.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "desferrioxamine iron toxicity antidote" / "iron toxicity necrotizing gastroenteritis" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Hydroxocobalamin (a vitamin B12 form) has a therapeutic use beyond correcting B12 deficiency: it is a specific antidote for cyanide poisoning, binding cyanide to form nontoxic cyanocobalamin for excretion
+
+## id
+CON-HEM-7EC22BADC5654B
+
+## canonical_key
+hydroxocobalamin-therapeutic-uses-beyond-b12-deficiency
+
+## aliases
+Hydroxocobalamin
+Cyanide poisoning antidote
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Hydroxocobalamin, one of the pharmaceutical forms of vitamin B12, has a therapeutic use beyond treating B12 deficiency: given in high dose, it is a specific antidote for cyanide poisoning. Its cobalt centre binds free cyanide ion with high affinity, converting hydroxocobalamin into cyanocobalamin (a stable, non-toxic form of vitamin B12) that is then excreted renally — removing cyanide from mitochondrial cytochrome oxidase, where it would otherwise block the electron transport chain and cause cellular asphyxiation.
+## explicit_objective
+Identify hydroxocobalamin as the vitamin-B12 form used as a specific antidote for cyanide poisoning, distinct from its ordinary role in treating B12 deficiency.
+
+## pitfalls
+Assuming hydroxocobalamin's only clinical role is correcting B12 deficiency (pernicious anaemia, etc.) and missing its distinct high-dose antidote use in cyanide poisoning — a repeated "unexpected therapeutic use" question format in this bank's pharmacology section.
+
+## concept_type
+directly_taught_pharmacology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — vitamin B12 therapeutics
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics > Hydroxocobalamin therapeutic uses
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p147 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-HYDROXOCOBALAMIN-CYANIDE-ANTIDOTE
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+CON-HEM-358CC63951D1AF
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.25
+
+## exam_weight_by_year
+MANS_Y1=0.25
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.45
+
+## confidence
+0.6
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+A therapeutic use of Vitamin B12 (specifically hydroxocobalamin) is in the treatment of which type of poisoning? [answer: Cyanide poisoning]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pharmacology/toxicology reference not yet cross-checked against this department-book framing; this is standard USMLE-style pharmacology.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: CON-HEM-358CC63951D1AF (this module, iron vs B12 deficiency and iron therapy routes) is the same haematinics-pharmacology neighbour this concept's antidote angle complements.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "hydroxocobalamin cyanide poisoning antidote" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Methotrexate, a dihydrofolate reductase inhibitor, can cause a folate-responsive anaemia by blocking the enzyme that regenerates active tetrahydrofolate
+
+## id
+CON-HEM-B3B11CB68B823A
+
+## canonical_key
+methotrexate-induced-folate-deficiency-anemia
+
+## aliases
+Methotrexate
+Dihydrofolate reductase inhibitor
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Dihydrofolate reductase (DHFR) regenerates active tetrahydrofolate from dihydrofolate, a step essential for the one-carbon transfers folate performs in purine and thymidylate synthesis (and therefore in DNA synthesis and cell division). Methotrexate is a drug that works precisely by inhibiting DHFR — its anticancer and immunosuppressive action comes from starving rapidly dividing cells of active folate — but this same mechanism, applied systemically, can also produce a folate-deficiency-pattern anaemia (megaloblastic) as an adverse effect, which is why folinic acid (leucovorin, a form of folate that bypasses the DHFR block) is given as rescue therapy in high-dose methotrexate regimens.
+## explicit_objective
+Identify methotrexate as a dihydrofolate reductase inhibitor whose mechanism can produce a folate-deficiency-pattern anaemia, alongside its intended anticancer/immunosuppressive action.
+
+## pitfalls
+Thinking of methotrexate purely as a chemotherapy/anti-rheumatic drug without connecting its DHFR-inhibition mechanism to the folate-deficiency anaemia it can cause as an adverse effect — the department's bank asks for the drug example behind this specific mechanism.
+
+## concept_type
+directly_taught_pharmacology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — folate-responsive anaemia
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics > Methotrexate and folate deficiency
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p148 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-METHOTREXATE-FOLATE-ANEMIA
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.25
+
+## exam_weight_by_year
+MANS_Y1=0.25
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.45
+
+## confidence
+0.6
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Folic acid can be used therapeutically to alleviate anemia associated with dihydrofolate reductase inhibitors. Which of the following is an example of such a drug? [answer: Methotrexate]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the mechanism is standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "methotrexate dihydrofolate reductase inhibitor folate anemia" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+A megaloblastic anaemia vignette with high MCV plus neurological symptoms (numbness, unsteady gait) points to vitamin B12 deficiency, whose specific neurological complication is subacute combined degeneration of the spinal cord
+
+## id
+CON-HEM-666AF38E1A9F1C
+
+## canonical_key
+b12-deficiency-neuro-vignette-subacute-combined-degeneration
+
+## aliases
+Subacute combined degeneration
+Megaloblastic anemia vignette
+Vitamin B12 deficiency neurological signs
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A clinical vignette combining anaemia with a raised mean corpuscular volume (MCV, macrocytosis) and neurological symptoms — numbness, unsteady gait (ataxia), and progressive weakness — should point to vitamin B12 deficiency rather than folate deficiency, because although both cause an identical megaloblastic anaemia picture on blood film, only B12 deficiency produces neurological disease. The specific neurological complication of B12 deficiency is subacute combined degeneration of the spinal cord, a demyelination of the dorsal columns and lateral corticospinal tracts that produces the characteristic combination of impaired proprioception/vibration sense and upper motor neuron signs; folate deficiency causes megaloblastic anaemia without this neurological picture, which is the key discriminating feature between the two in a vignette.
+## explicit_objective
+Recognise the combination of megaloblastic anaemia (raised MCV) with neurological symptoms as pointing to vitamin B12 deficiency, and name subacute combined degeneration of the spinal cord as B12 deficiency's specific neurological complication.
+
+## pitfalls
+Treating folate deficiency and B12 deficiency as interchangeable causes of megaloblastic anaemia — the presence of neurological symptoms is the specific discriminator that should redirect the diagnosis to B12 deficiency, since folate deficiency does not cause subacute combined degeneration. Misattributing the neuropathy to a more generic label (peripheral neuritis, diabetic neuropathy) rather than the specific dorsal-column/corticospinal-tract pattern this vignette is naming.
+
+## concept_type
+directly_taught_pharmacology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — B12 deficiency vignettes
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics > Vitamin B12 deficiency vignettes
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p147-148 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-B12-SUBACUTE-COMBINED-DEGENERATION
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+CON-HEM-358CC63951D1AF
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.65
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Neurological manifestation in this patient is due to: [answer: Subacute combined degeneration of spinal cord]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pharmacology/neurology reference not yet cross-checked against this department-book framing; this is standard USMLE-style clinical medicine.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: CON-HEM-358CC63951D1AF (this module, iron vs B12 deficiency clinical differentiation) is the same-vignette-family neighbour this concept's neurological-complication angle extends.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "subacute combined degeneration spinal cord B12" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+A vignette of anorexia, glossitis, diminished reflexes, hypersegmented neutrophils and atrophic gastritis on endoscopy points to pernicious anaemia, corrected by vitamin B12 supplementation
+
+## id
+CON-HEM-00676CD8A13120
+
+## canonical_key
+pernicious-anemia-atrophic-gastritis-vignette
+
+## aliases
+Pernicious anemia vignette
+Atrophic gastritis
+Hypersegmented neutrophils
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Pernicious anaemia is vitamin B12 deficiency caused by autoimmune destruction of gastric parietal cells (and the intrinsic factor they secrete), producing atrophic gastritis on endoscopy — visible loss of the normal gastric mucosal architecture. Its clinical vignette combines the general megaloblastic-anaemia picture (large red cells, low haemoglobin) with B12-specific findings: a red, smooth tongue (glossitis), diminished tendon reflexes, paraesthesia and mental changes from early neurological involvement, and hypersegmented neutrophils on blood film (a nucleus with six or more lobes instead of the normal three to five, reflecting impaired DNA synthesis in the myeloid line as well as the erythroid line). Supplementation with vitamin B12 corrects the anaemia and, if given before neurological damage becomes irreversible, the neurological findings too.
+## explicit_objective
+Recognise atrophic gastritis, hypersegmented neutrophils and the described neurological/mucosal findings as the vignette pattern for pernicious anaemia (autoimmune B12 deficiency), corrected by B12 supplementation.
+
+## pitfalls
+Treating hypersegmented neutrophils as specific to B12 deficiency alone — the finding actually reflects megaloblastic change generally (also seen in folate deficiency) and it is the atrophic gastritis / autoimmune parietal-cell-destruction mechanism, not the blood film alone, that specifically names this pernicious anaemia. Missing that the correct supplement is vitamin B12 (not folic acid), since folic acid can mask the anaemia while neurological damage from B12 deficiency continues.
+
+## concept_type
+directly_taught_pharmacology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — B12 deficiency vignettes
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics > Vitamin B12 deficiency vignettes
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p148 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-PERNICIOUS-ANEMIA-VIGNETTE
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+CON-HEM-666AF38E1A9F1C
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.65
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+A 60-year-old patient presented with anorexia, weakness, paresthesia and mental changes. His tongue was red, tendon reflexes were diminished, hemoglobin was 6 g% with large red cells and neutrophils had hypersegmented nuclei. Endoscopy revealed atrophic gastritis. Supplementation of which factor is likely to correct his condition? [answer: Vitamin B12]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pharmacology/haematology reference not yet cross-checked against this department-book framing; this is standard clinical medicine.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: CON-HEM-666AF38E1A9F1C (this module, B12 deficiency neuro vignette / subacute combined degeneration) is the same-vignette-family neighbour this concept's atrophic-gastritis/hypersegmented-neutrophil angle extends; the plain physiology fact "best treatment of pernicious anaemia = hydroxocobalamin injection" is already live/authored elsewhere in this module and reused, not duplicated.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for the atrophic-gastritis/hypersegmented-neutrophil pernicious-anaemia vignette specifically (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
