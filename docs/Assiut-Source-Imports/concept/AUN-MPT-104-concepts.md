@@ -11693,3 +11693,443 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "virchow triad thrombus" -- 0 hits, new concept.
 relationships: paired with CON-FND-E1D44B7FCA92D9 (Lines of Zahn) as the lecture's other thrombus-vocabulary grain; also the direct evidence behind the Q7 (q251) hold, since this question confirms "thrombus," not "clot," is this lecture's own consistently-used term for antemortem intravascular solidification.
+
+---
+
+# Item
+
+## id
+CON-FND-B7FEBDE2C2B183
+
+## label
+Esmolol is an ultra-short-acting beta blocker used for perioperative tachyarrhythmias
+
+## canonical_key
+teaching.pharmacology.esmolol.ultra-short-acting-perioperative
+
+## aliases
+Esmolol mechanism
+Perioperative beta blockade
+
+## arabic_label
+إسمولول: حاصر بيتا فائق قصر المفعول
+
+## arabic_aliases
+حاصر بيتا لعلاج اضطراب النظم بعد الجراحة
+
+## definition
+Esmolol is a cardioselective (beta1-selective) beta-adrenoceptor antagonist with an ultra-short duration of action, metabolised rapidly by plasma esterases. This short, easily-titratable action makes it the preferred beta blocker for controlling acute perioperative tachycardia and extrasystoles, such as those appearing after recovery from general anaesthesia, where a rapidly reversible drug is needed. Its brief action distinguishes it from longer-acting beta blockers, which would be harder to titrate safely in this acute perioperative setting.
+
+## explicit_objective
+State that esmolol, an ultra-short-acting beta blocker, is the preferred agent for controlling acute perioperative tachycardia and extrasystoles.
+
+## pitfalls
+Choosing a longer-acting beta blocker or a non-beta-blocking drug for acute perioperative arrhythmia control -- esmolol's specific advantage here is its ultra-short, easily-titratable duration of action, not general beta-blocking potency.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 2
+
+## subtopic
+Esmolol perioperative use
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.55
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"35 years old patient was operated for inguinal hernia ... tachycardia and extrasystoles were observed ... which drugs are helpful? ... Esmolol is special beta blocker used in this case" (Quiz 32 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 32 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "esmolol perioperative arrhythmia" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone beta-blocker-selection concept, thematically related to CON-FND-18D519B39F98A4 and CON-FND-BB97C931CB8423 as the lecture's other beta-blocker grains.
+
+---
+
+# Item
+
+## id
+CON-FND-18D519B39F98A4
+
+## label
+Propranolol masks the adrenergic warning symptoms of hypoglycemia in diabetics, rather than causing hyperglycemia
+
+## canonical_key
+teaching.pharmacology.propranolol.masks-hypoglycemia-symptoms
+
+## aliases
+Nonselective beta blocker and hypoglycemia
+Propranolol in diabetics
+
+## arabic_label
+بروبرانولول وإخفاء أعراض نقص السكر في الدم
+
+## arabic_aliases
+حاصرات بيتا ونقص السكر في الدم لدى مرضى السكري
+
+## definition
+Propranolol, a nonselective beta blocker, is used with extra caution in a diabetic patient treated with insulin, because it masks the adrenergic warning symptoms of hypoglycemia -- tachycardia, tremor and palpitations -- that would normally alert the patient to falling blood glucose. This masking effect, not a direct hyperglycemic action, is propranolol's actual metabolic concern in diabetes: the statement that propranolol "causes hyperglycemia" is false, since its real risk is concealing, and potentially prolonging recognition of, an existing hypoglycemic episode.
+
+## explicit_objective
+State that propranolol's concern in insulin-treated diabetics is masking the adrenergic symptoms of hypoglycemia, and identify "propranolol causes hyperglycemia" as a false statement about beta blockers.
+
+## pitfalls
+Believing propranolol's diabetic concern is that it directly causes hyperglycemia -- the actual, tested mechanism is that it masks the adrenergic warning symptoms of hypoglycemia, which is a different and more dangerous problem (delayed recognition of low blood sugar), not elevated blood sugar itself.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 2
+
+## subtopic
+Beta blockers and hypoglycemia masking
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-BB97C931CB8423
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In a hypertensive patient who is treated with insulin for diabetes mellitus, which of the following drugs is to be used with extra caution as it masks manifestations of hypoglycemia? ... Propranolol" (Quiz 32 Q2); "One of the following statements is FALSE regarding Beta-blockers: ... Propranolol is contraindicated in diabetics as it causes hyperglycemia [marked FALSE]" (Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 32 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "propranolol masks hypoglycemia symptoms" -- 0 hits, new concept.
+relationships: two quiz rows (Q2/Q3) collapsed onto this one concept -- the same propranolol-and-diabetes fact tested by direct recall (Q2) and by identifying the false statement (Q3).
+
+---
+
+# Item
+
+## id
+CON-FND-BB97C931CB8423
+
+## label
+Acebutolol is beta1-selective with intrinsic sympathomimetic activity and membrane-stabilizing property, and its ISA can worsen exertional angina
+
+## canonical_key
+teaching.pharmacology.acebutolol.beta1-selective-isa-membrane-stabilizing
+
+## aliases
+Acebutolol properties
+Intrinsic sympathomimetic activity and angina
+
+## arabic_label
+أسيبوتولول: انتقائية بيتا 1 ونشاط ودي جزئي
+
+## arabic_aliases
+النشاط الودي الذاتي للأسيبوتولول وتأثيره على الذبحة الصدرية
+
+## definition
+Acebutolol is a beta blocker combining three properties: beta1 selectivity (cardioselectivity), intrinsic sympathomimetic activity (ISA, meaning it is a partial agonist that provides some low-level receptor stimulation even while blocking the receptor), and a membrane-stabilizing (local anaesthetic-like) property. Because ISA means acebutolol does not fully suppress beta-receptor activity the way a pure antagonist does, it can worsen exertional angina pectoris in a patient who needs the heart-rate- and workload-lowering effect of full beta blockade during exercise, since the partial agonism blunts that protective reduction.
+
+## explicit_objective
+Identify acebutolol as the beta1-selective blocker with intrinsic sympathomimetic activity and membrane-stabilizing property, and state that its ISA can worsen exertional angina by blunting the full heart-rate-lowering effect of beta blockade.
+
+## pitfalls
+Assuming intrinsic sympathomimetic activity is simply a neutral or beneficial extra property -- in a patient with exertional angina, ISA specifically works against the therapeutic goal of beta blockade by providing partial agonist stimulation instead of full blockade during exercise.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (antagonists) 2
+
+## subtopic
+Acebutolol properties and ISA
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-18D519B39F98A4
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The beta adrenergic blocker having BETA 1 selectivity, intrinsic sympathomimetic activity and membrane stabilizing property is: ... Acebutolol" (Quiz 32 Q4); "Which of the following beta-blockers would be most likely to worsen exertional angina pectoris because of its intrinsic sympathomimetic activity? ... Acebutolol" (Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 32 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "acebutolol intrinsic sympathomimetic activity membrane stabilizing" -- 0 hits, new concept.
+relationships: two quiz rows (Q4/Q5) collapsed onto this one concept -- acebutolol's identifying property profile (Q4) and the clinical consequence of its ISA component (Q5).

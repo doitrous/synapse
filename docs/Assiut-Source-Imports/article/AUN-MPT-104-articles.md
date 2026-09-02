@@ -2716,3 +2716,149 @@ Block: body
 ### definition_of · CON-FND-9968E677B951D2
 Quote: Virchow's triad names the three broad factors predisposing to this thrombus formation: endothelial injury, stasis or turbulence of flow, and hypercoagulability of the blood
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-SYMPATHETIC-ANTAGONISTS-2
+
+## title
+Sympathetic antagonists 2: esmolol, propranolol and diabetes, and acebutolol's ISA
+
+## arabic_title
+مضادات الودي 2: إسمولول، بروبرانولول ومرض السكري، والنشاط الودي الجزئي للأسيبوتولول
+
+## aliases
+Sympathetic nervous system (antagonists) 2
+Lecture 32
+Beta blocker selection
+
+## subject
+fnd
+
+## topic
+Sympathetic nervous system (antagonists) 2
+
+## subtopic
+Beta blocker selection: esmolol, propranolol, acebutolol
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 32 continues sympathetic antagonists with three beta-blocker-selection scenarios. Esmolol's ultra-short, easily-titratable action makes it the preferred beta blocker for acute perioperative tachycardia. Propranolol needs extra caution in insulin-treated diabetics, not because it causes hyperglycemia, but because it masks the adrenergic warning symptoms of hypoglycemia. Acebutolol combines beta1 selectivity, intrinsic sympathomimetic activity (ISA) and a membrane-stabilizing property -- and it is specifically that partial-agonist ISA that can worsen exertional angina, by blunting the full heart-rate-lowering effect beta blockade is meant to provide during exercise.
+
+## sections
+### Definition
+Esmolol is a cardioselective beta blocker with an ultra-short duration of action, metabolised rapidly by plasma esterases -- a property that makes it the preferred agent for controlling acute, easily-titratable perioperative tachycardia and extrasystoles. Propranolol, a nonselective beta blocker, is used with extra caution in insulin-treated diabetics because it masks the adrenergic warning symptoms of hypoglycemia (tachycardia, tremor, palpitations), not because it directly causes hyperglycemia.
+
+### Mechanism
+Esmolol's brief, rapidly reversible action, distinct from longer-acting beta blockers, is specifically what suits it to the acute perioperative setting, where a drug that can be titrated and stopped quickly is needed. Propranolol's masking effect works by blunting the adrenergic (sympathetic) response that normally alerts a patient to falling blood glucose -- the real diabetic concern with nonselective beta blockade is this concealment of hypoglycemia, not a direct metabolic effect raising blood sugar. Acebutolol combines beta1 selectivity, intrinsic sympathomimetic activity (ISA -- partial agonism, providing low-level receptor stimulation even while blocking the receptor) and a membrane-stabilizing property; because ISA means acebutolol does not fully suppress beta-receptor activity the way a pure antagonist does, it can worsen exertional angina pectoris by blunting the full heart-rate- and workload-lowering effect that beta blockade is meant to provide during exercise.
+
+### Key determinants
+A patient with postoperative tachycardia and extrasystoles after recovery from general anaesthesia is best managed with esmolol, given its ultra-short, titratable action, over other beta blockers with a longer duration. A hypertensive, insulin-treated diabetic patient needs propranolol used with extra caution specifically because it masks hypoglycemia's adrenergic warning symptoms -- the false statement to reject is that propranolol "causes hyperglycemia." A patient needing beta1 selectivity plus ISA plus membrane-stabilizing action points to acebutolol; and it is acebutolol's own ISA, among these beta blockers, that would be expected to worsen exertional angina.
+
+### Clinical significance
+Choosing esmolol over a longer-acting beta blocker for acute perioperative arrhythmia control avoids over-titration risk in a setting where rapid reversibility matters. Recognising that propranolol's diabetic risk is masking, not causing, hypoglycemia-adjacent symptoms changes patient counselling: the warning is to monitor blood glucose more directly, since the usual adrenergic warning signs may not appear. Avoiding a partial-agonist (ISA-containing) beta blocker such as acebutolol in a patient with exertional angina, in favour of a beta blocker without ISA, better protects against exercise-induced angina by fully suppressing the heart-rate response.
+
+### Common misconceptions
+Choosing a longer-acting beta blocker over esmolol for acute perioperative arrhythmia control, missing esmolol's specific titratability advantage. Believing propranolol's diabetic concern is that it directly causes hyperglycemia, rather than that it masks hypoglycemia's adrenergic warning symptoms. Treating intrinsic sympathomimetic activity as a neutral or purely beneficial property, rather than recognising that it can specifically worsen exertional angina by blunting full beta blockade.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Esmolol's ultra-short, titratable action makes it the preferred beta blocker for acute perioperative tachyarrhythmia.
+Propranolol masks the adrenergic warning symptoms of hypoglycemia in insulin-treated diabetics; it does not cause hyperglycemia.
+Acebutolol is beta1-selective with intrinsic sympathomimetic activity (ISA) and a membrane-stabilizing property; its ISA can worsen exertional angina.
+
+## lose_the_mark
+Choosing a longer-acting beta blocker instead of esmolol for acute perioperative tachyarrhythmia.
+Believing propranolol causes hyperglycemia in diabetics, rather than masking hypoglycemia's warning symptoms.
+Naming a beta blocker other than acebutolol for the beta1-selective/ISA/membrane-stabilizing profile, or missing that ISA specifically can worsen exertional angina.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-B7FEBDE2C2B183
+CON-FND-18D519B39F98A4
+CON-FND-BB97C931CB8423
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 32 (Sympathetic nervous system (antagonists) 2) -- no department slide deck exists in the corpus past Lecture 8, so all three mints cite the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-B7FEBDE2C2B183
+Quote: Esmolol is a cardioselective beta blocker with an ultra-short duration of action, metabolised rapidly by plasma esterases -- a property that makes it the preferred agent for controlling acute, easily-titratable perioperative tachycardia and extrasystoles
+Block: body
+
+### definition_of · CON-FND-18D519B39F98A4
+Quote: Propranolol, a nonselective beta blocker, is used with extra caution in insulin-treated diabetics because it masks the adrenergic warning symptoms of hypoglycemia (tachycardia, tremor, palpitations), not because it directly causes hyperglycemia
+Block: body
+
+### definition_of · CON-FND-BB97C931CB8423
+Quote: Acebutolol combines beta1 selectivity, intrinsic sympathomimetic activity (ISA -- partial agonism, providing low-level receptor stimulation even while blocking the receptor) and a membrane-stabilizing property; because ISA means acebutolol does not fully suppress beta-receptor activity the way a pure antagonist does, it can worsen exertional angina pectoris
+Block: body
