@@ -90,6 +90,16 @@ CON-NEU-9A281DDFAA6242
 CON-NEU-EA414DEA907F9A
 CON-NEU-77981F7CA5F5D7
 CON-NEU-36C3E9C97641A7
+CON-NEU-CC062FB023FF03
+CON-NEU-3852AE1383DAB1
+CON-NEU-5CC40C261365E4
+CON-NEU-AE9ACDA40D8D0A
+CON-NEU-5E9B60B8E4B73B
+CON-NEU-BD62A264C6B252
+CON-NEU-32727BD31AF93E
+CON-NEU-F7C41A8B4E95BE
+CON-NEU-712F546C32E72E
+CON-NEU-78B5FE8653E03C
 
 ## included_articles
 ART-NEU-ASU-CNS3-KINETIC-INTENTION-TREMOR-RESULTS-FROM-A-SPINOCEREBELLAR-LESION
@@ -129,6 +139,16 @@ ART-NEU-ASU-CNS3-THE-STATIC-RESTING-TREMOR-OF-PARKINSON-DISEASE-REFLECTS
 ART-NEU-ASU-CNS3-UPPER-MOTOR-NEURON-LESION-HYPERTONIA-RESULTS-FROM-UNOPPOSED
 ART-NEU-ASU-CNS3-CRUDE-PROTOPATHIC-SENSATION-REACHES-CONSCIOUS-PERCEPTION-AT-THE
 ART-NEU-ASU-CNS3-THE-MEDIAL-DESCENDING-MOTOR-SYSTEM-CONTROLS-AXIAL-AND
+ART-NEU-ASU-CNS3-SECONDARY-HYPERALGESIA-IS-INCREASED-PAIN-SENSITIVITY-IN
+ART-NEU-ASU-CNS3-PRIMARY-HYPERALGESIA-RESULTS-FROM-SENSITISATION-OF
+ART-NEU-ASU-CNS3-THE-CEREBELLUM-COORDINATES-VOLUNTARY-MOVEMENT-ON-THE-SAME
+ART-NEU-ASU-CNS3-A-LESION-OF-THE-PRIMARY-MOTOR-CORTEX-SUCH-AS-AN-INFARCTION
+ART-NEU-ASU-CNS3-A-UNILATERAL-LESION-OF-THE-FASCICULUS-GRACILIS-CAUSES
+ART-NEU-ASU-CNS3-THE-AFFERENT-LIMB-OF-THE-FLEXOR-WITHDRAWAL-REFLEX-IS
+ART-NEU-ASU-CNS3-SUPERFICIAL-REFLEXES-SUCH-AS-THE-ABDOMINAL-REFLEX-ARE-LOST
+ART-NEU-ASU-CNS3-BRADYKININ-A-KININ-IS-CLASSICALLY-IDENTIFIED-AS-A-DIRECTLY
+ART-NEU-ASU-CNS3-THE-PACINIAN-CORPUSCLE-IS-THE-RECEPTOR-CHIEFLY-RESPONSIBLE
+ART-NEU-ASU-CNS3-GOLGI-TENDON-ORGAN-IB-AFFERENTS-INHIBIT-THE-ALPHA-MOTOR
 
 ## concept_locations
 CON-NEU-AE9CD2F605A1B3 | page | 1
@@ -168,6 +188,16 @@ CON-NEU-5EDD14F7B5859B | page | 3
 CON-NEU-D059F0E71ED786 | page | 3
 CON-NEU-CFE01CE2E2BC77 | page | 3
 CON-NEU-BD60B15B0A2F22 | page | 3
+CON-NEU-CC062FB023FF03 | page | 4
+CON-NEU-3852AE1383DAB1 | page | 4
+CON-NEU-5CC40C261365E4 | page | 4
+CON-NEU-AE9ACDA40D8D0A | page | 4
+CON-NEU-5E9B60B8E4B73B | page | 4
+CON-NEU-BD62A264C6B252 | page | 4
+CON-NEU-32727BD31AF93E | page | 4
+CON-NEU-F7C41A8B4E95BE | page | 4
+CON-NEU-712F546C32E72E | page | 4
+CON-NEU-78B5FE8653E03C | page | 4
 
 ## universities
 asu
@@ -176,4 +206,4 @@ asu
 ASU_Y3
 
 ## description
-Native-text, undated 5-page ASU Year 3 CNS EOM physiology MCQ compilation (65 items total, embedded-answer format — answer/topic stated before the stem, no printed distractors). This batch authors the first 48 items per the Phase-0 triage sample, collapsed to 44 distinct facts (37 new mints, 7 reused from cluster 1 or other lanes' pending/live concepts); items 49-65 (page 4-5) were outside the triage sample and are not yet authored — see coverage/ASU-CNS-3-triage.md. This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.
+Native-text, undated 5-page ASU Year 3 CNS EOM physiology MCQ compilation (65 items total, embedded-answer format — answer/topic stated before the stem, no printed distractors). Cluster 2 authored the first 48 items per the Phase-0 triage sample, collapsed to 44 distinct facts (37 new mints, 7 reused from cluster 1 or other lanes' pending/live concepts). Cluster 3 finished items 49-65 (page 4-5): 10 authored (10 new mints; one fact, kinin/bradykinin as a pain mediator, matches a pending Helwan pathology concept but was minted fresh since that concept has no linkable article), 7 held as within-file duplicates of facts already authored earlier in this same file — see coverage/ASU-CNS-3-triage.md and coverage/ASU-CNS-3-LEDGER.md. The full 65-item paper is now fully triaged and authored. This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.
