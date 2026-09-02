@@ -436,3 +436,14 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — HELWAN HU-ORL-305 ophthalmology lane 1 LANDED (ec65608b)
 - Bank 980 items + dedicated key: 959 joined (97.9%), 21 unkeyed. Ch1 (26) + Ch2 (13) + Ch3 #1-20 → 59/59 authored, 0 held. 34 mints (new `CON-OPH-*` family), 1 pending overlay onto Alexandria CON-NEU-3FF95D30CD5825 (ch1 batch shows errors=3 = that single dependency, same class as GIT-301 carcinoid). Self-caught a transcribed key (Q14 A not D) by cross-checking all 59 against the programmatic key extraction. ≈7.6k tok/q (no prior triage to reuse). Walls: no oph/ent subject id (pre-ruled `mul`), no DIS-OPH leaf for eyelid/lacrimal/orbit (T02 used).
 - Remaining 921/980. Lane 2 dispatched on Ch3 #21-96 + Ch4 (Y3 slot). Fleet 20/20.
+
+### 2026-09-02 — ASSIUT INI-105 lane 13 (ch11 Q111-164) LANDED BY CoS (03d16d7e merged; ledger regenerated)
+- Lane stopped at its branch waiting for lanes 10/12. Lane 10 was already on main; CoS merged the branch, resolved LEDGER + triage-keys conflicts (keys = union 823 lines; ledger regenerated with ledger.mjs: ini-mcq-ch11 now 83/27/0/110), tests 31/31, pushed. 27 authored / 27 held (22 dups of Q1-56, 4 printed-key conflicts vs the chapter's own sibling items Q140/143/150/156 → NEEDS OMAR convention, 1 blank option). 3 simulate rejects = cross-lane deps on lane 12 (clears when it lands). ≈11.5k tok/q (dedup-heavy window).
+- INI-105 open windows: ch10 Q56-86 + ch11 Q56-110 (lane 12), ch1 Q101-161 (lane 14). Chapter 11 closes on lane 12's landing.
+
+### 2026-09-02 — ASSIUT MPT-104 lane 7 LANDED (a132c57f)
+- Quiz 29-34 (q229-283): 47 authored, 8 held (q238/q251/q278 printed key contradicts the same quiz's own rows; q273-277 the bank's only True/False block). 38 mints, 1 Helwan keloid overlay (its dangling article resolved by appending this lane's article). Per-quiz batch errors=0 ×6; cumulative simulate 63 files errors=0. Ledger quizzes-2022: 271 authored / 12 held / 158 remaining / 441. Lane 8 dispatched on Quiz 35+ (q284, p.140).
+
+### 2026-09-02 — ZAGAZIG ZU-MED-105 PP I lane 1 LANDED (341ff01c)
+- Zag P.P1 Final 2024 (12/12 printed key), Fakous P.P1 Final 2024 (7/7 light-blue highlight, 2 renders), امتحانات سابقه (70 items, 57 keyed by GRAY FILL RECTANGLES — new corpus trap, `pagetext keys` misses it; recovered by a read-only PyMuPDF pass, 4 renders, 0 mismatches). 40 authored, 4 held. 34 mints, 0 overlays (professionalism/ethics is new territory; `subject: pop` used — no professionalism code in the catalogue). batch errors=0 ×3; simulate rejected=0. ≈2.1k tok/q. Format notes documented inline: `---` between `# Item` blocks in article/concept templates; articles need `## field_notes` with `arabicTitle:`.
+- Remaining: امتحانات سابقه pp.5-13 (~36 keyed) + mcq شامل (44 pp). Lane 2 dispatched on pp.5-13. Third freed slot → Alexandria AU-203 lane 6 (Y2, Week 1 Q101-151). Fleet 20/20.
