@@ -12133,3 +12133,1919 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "acebutolol intrinsic sympathomimetic activity membrane stabilizing" -- 0 hits, new concept.
 relationships: two quiz rows (Q4/Q5) collapsed onto this one concept -- acebutolol's identifying property profile (Q4) and the clinical consequence of its ISA component (Q5).
+
+---
+
+# Item
+
+## id
+CON-FND-EF6008CE1515E5
+
+## label
+A leg-vein deep vein thrombosis embolises as pulmonary thromboembolism
+
+## canonical_key
+teaching.pathology.hemodynamics.dvt-leg-vein-source-of-pulmonary-embolism
+
+## aliases
+DVT complication
+Leg vein thrombus source of PE
+
+## arabic_label
+جلطة أوردة الساق ومصدر الانصمام الرئوي
+
+## arabic_aliases
+تجلط الأوردة العميقة ومصدر الانصمام الرئوي
+
+## definition
+Deep vein thrombosis of the leg veins is the most important source of pulmonary thromboembolism: a thrombus forming in the stagnant blood of an immobilized limb can detach and travel via venous return to lodge in the pulmonary arteries. A patient who develops leg-vein DVT weeks after a major fracture, with continued immobilization, is therefore at risk of pulmonary thromboembolism as the expected downstream complication, and leg veins are the site of thrombi most often implicated as the source of a pulmonary embolus.
+
+## explicit_objective
+State that leg-vein deep vein thrombosis is the classic source of pulmonary thromboembolism, and identify pulmonary thromboembolism as the expected complication of an immobilized, fracture-related DVT.
+
+## pitfalls
+Naming a site other than leg veins (e.g. the aorta, an artery, or the left ventricle) as the classic source of thrombi causing pulmonary embolism -- only a VENOUS thrombus (most often leg veins) embolises to the lung via the right heart.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+DVT as source of pulmonary embolism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-11AE7596C68944
+CON-FND-9175888AAAC2F0
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"76-year-old woman is hospitalized after falling and fracturing her left femoral trochanter. Two weeks later, the left leg is swollen ... Which of the following complications is most likely to occur after these events? ... Pulmonary thromboembolism" (Quiz 33 Q1); "which of the following sites of thrombi can be the source pulmonary embolism? ... Leg veins" (Q15).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "chronic venous congestion right heart failure" and related embolism queries -- 0 hits, new concept.
+relationships: two quiz rows (Q1/Q15) collapsed onto this one concept -- the same leg-vein-DVT-to-PE fact tested by clinical vignette (Q1) and by direct site recall (Q15); related to Lecture 31's CON-FND-11AE7596C68944 (phlebothrombosis) and CON-FND-7C0F3DB1C2FE5E (venous thrombus embolises to lung).
+
+---
+
+# Item
+
+## id
+CON-FND-9175888AAAC2F0
+
+## label
+Immobilization causes deep vein thrombosis through venous stasis
+
+## canonical_key
+teaching.pathology.hemodynamics.immobilization-dvt-stasis-mechanism
+
+## aliases
+Venous stasis and DVT
+Immobilization thrombosis risk
+
+## arabic_label
+عدم الحركة وتجلط الأوردة العميقة
+
+## arabic_aliases
+الركود الوريدي وتجلط الأوردة
+
+## definition
+Immobilization is a classic mechanism for deep vein thrombosis because it produces venous stasis -- stagnant, slow-moving blood in the leg veins -- one of the three arms of Virchow's triad predisposing to thrombus formation. A patient with a swollen, difficult-to-move leg after a period of immobility, confirmed by venogram to have deep leg-vein thrombosis, has this stasis mechanism as the most likely explanation, rather than a coagulation-factor or vessel-wall-injury mechanism specifically.
+
+## explicit_objective
+State that immobilization causes deep vein thrombosis through the mechanism of venous stasis, one arm of Virchow's triad.
+
+## pitfalls
+Attributing an immobilization-related DVT to turbulent flow, hypercalcemia or a drug effect instead of venous stasis -- immobilization's specific mechanism is stagnant, slow blood flow, not vessel injury or a hypercoagulable trigger.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+DVT mechanism (stasis)
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-EF6008CE1515E5
+CON-FND-9968E677B951D2
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 55-year-old woman has had discomfort and swelling of the left leg for the past week ... A venogram shows thrombosis of deep left leg veins. Which of the following mechanisms is most likely to cause this condition? ... Immobilization" (Quiz 33 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "immobilization DVT stasis Virchow" -- 0 hits, new concept.
+relationships: paired with CON-FND-EF6008CE1515E5 (leg-vein DVT as PE source) as the lecture's DVT-mechanism-and-complication pair; also related to Lecture 31's CON-FND-9968E677B951D2 (Virchow's triad).
+
+---
+
+# Item
+
+## id
+CON-FND-AA58C1D1394257
+
+## label
+An embolus is a detached intravascular mass carried by the blood to a distant site
+
+## canonical_key
+teaching.pathology.hemodynamics.embolus-definition
+
+## aliases
+Embolism vocabulary
+Definition of embolus
+
+## arabic_label
+تعريف الصمة (الإمبولوس)
+
+## arabic_aliases
+الكتلة المنفصلة داخل الأوعية الدموية
+
+## definition
+An embolus is a detached intravascular mass -- solid, liquid or gaseous -- carried by the bloodstream from its point of origin to a distant site, where it lodges and can obstruct flow. This is distinct from an infarct (the area of tissue necrosis that can result once an embolus obstructs a vessel), a thrombus (the mass before it detaches and starts travelling), and a clot (coagulated blood without this in-vessel, during-life, travelling character).
+
+## explicit_objective
+State that an embolus is a detached intravascular mass carried by the blood to a distant site, distinguishing it from an infarct, a thrombus and a clot.
+
+## pitfalls
+Confusing embolus (the travelling mass) with infarct (the resulting area of necrosis), thrombus (the mass before detachment) or clot (a non-thrombus coagulum) -- these are four distinct hemodynamic-pathology terms often confused with one another.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Embolism vocabulary
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A detached intravascular mass carried by the blood from its point of origin to a distant site is called: ... Embolus" (Quiz 33 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "embolus definition detached intravascular mass" -- 0 hits, new concept.
+relationships: the lecture's core vocabulary concept, related to every other embolism/infarction grain in this cluster.
+
+---
+
+# Item
+
+## id
+CON-FND-2048DC4715C0DE
+
+## label
+A neck vein injury can cause air embolism
+
+## canonical_key
+teaching.pathology.hemodynamics.air-embolism-neck-vein-injury
+
+## aliases
+Venous air embolism
+Air embolism mechanism
+
+## arabic_label
+الانصمام الهوائي وإصابة وريد الرقبة
+
+## arabic_aliases
+انصمام هوائي بعد جرح وريدي بالرقبة
+
+## definition
+An open, low-pressure venous injury near the heart -- such as a stab wound to a neck vein -- allows atmospheric air to be drawn into the venous circulation during inspiration, producing an air embolism. This is the specific hemodynamic risk of a neck vein injury, distinct from the thrombotic, fat or tumour emboli that arise from other clinical settings.
+
+## explicit_objective
+State that a neck vein stab wound carries a specific risk of air embolism, given the low venous pressure and proximity to the heart.
+
+## pitfalls
+Assuming any vascular injury carries the same embolism risk profile -- a neck vein injury's specific danger is air embolism (from atmospheric air entrainment), not fat, tumour or ordinary thrombotic emboli, which arise from different clinical settings (fracture, malignancy, DVT respectively).
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Air embolism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient admits to the emergency unit after a neck vein stabbing wound. What type of emboli would you most suspect to occur in this patient? ... Air emboli" (Quiz 33 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "air embolism neck vein" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone embolism-type concept, paired thematically with CON-FND-D8BF76229CC959 (fat embolism) and CON-FND-E6A4425324881A (most frequent embolism type) as the lecture's embolism-type triad.
+
+---
+
+# Item
+
+## id
+CON-FND-456F4BFCEAFBD8
+
+## label
+Red (hemorrhagic) infarcts occur in organs with a dual blood supply, such as the lung
+
+## canonical_key
+teaching.pathology.hemodynamics.red-infarct-dual-blood-supply
+
+## aliases
+Hemorrhagic infarct
+Dual blood supply and infarct colour
+
+## arabic_label
+الاحتشاء الأحمر (النزفي) في الأعضاء ذات الإمداد الدموي المزدوج
+
+## arabic_aliases
+الرئة كمثال على الاحتشاء الأحمر
+
+## definition
+A red (hemorrhagic) infarct occurs when blood re-enters the necrotic area, typically in an organ with a dual or collateral blood supply -- the lung, supplied by both pulmonary and bronchial arteries, is the standard example. This contrasts with a pale (anaemic) infarct, which occurs in a solid organ with a single, end-arterial blood supply (kidney, heart, spleen), where no second source of blood re-enters the necrotic zone.
+
+## explicit_objective
+State that red infarcts occur in dual-blood-supply organs such as the lung, distinguishing them from pale infarcts in single-blood-supply solid organs.
+
+## pitfalls
+Naming a single-blood-supply organ (kidney, heart) as the site of a red infarct, or a dual-blood-supply organ (lung) as the site of a pale infarct -- the colour of an infarct tracks the organ's vascular supply pattern.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Red vs pale infarct
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-FA99A919A9BB4E
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A red infarction is seen in: ... lung" (Quiz 33 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "red infarct dual blood supply lung" -- 0 hits, new concept.
+relationships: paired with CON-FND-FA99A919A9BB4E (pale infarct in solid organs) as the lecture's infarct-colour pair.
+
+---
+
+# Item
+
+## id
+CON-FND-3DC23DAEB405BC
+
+## label
+Cerebral infarction undergoes liquefactive necrosis
+
+## canonical_key
+teaching.pathology.hemodynamics.cerebral-infarction-liquefactive-necrosis
+
+## aliases
+Brain infarct necrosis type
+Cerebral infarction pathology
+
+## arabic_label
+احتشاء المخ والتنخر التميعي
+
+## arabic_aliases
+النخر التميعي في احتشاء الدماغ
+
+## definition
+Cerebral infarction, unlike infarction in most other organs, undergoes liquefactive necrosis rather than coagulative necrosis. The brain's high lipid content and lack of a firm connective-tissue stroma mean that dead neural tissue is digested by its own and infiltrating enzymes into a soft, liquefied cavity, rather than retaining the firm, cell-outline-preserved architecture typical of a coagulative infarct elsewhere.
+
+## explicit_objective
+State that cerebral infarction undergoes liquefactive, not coagulative, necrosis, given the brain's lipid-rich composition and lack of supportive stroma.
+
+## pitfalls
+Applying the general "solid-organ infarcts undergo coagulative necrosis" rule to the brain -- cerebral infarction is the standard, specifically-tested exception, undergoing liquefactive necrosis instead.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Cerebral infarction necrosis type
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-7B4DA968F5BE76
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Cerebral infarction is: ... liquifactive necrosis" (Quiz 33 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "cerebral infarction liquefactive necrosis" -- 0 hits, new concept.
+relationships: paired with CON-FND-7B4DA968F5BE76 (coagulative necrosis in solid-organ infarcts) as the deliberate exception/rule pair of this lecture's necrosis-type teaching.
+
+---
+
+# Item
+
+## id
+CON-FND-D8BF76229CC959
+
+## label
+Fat embolism originates from bone fracture
+
+## canonical_key
+teaching.pathology.hemodynamics.fat-embolism-bone-fracture-origin
+
+## aliases
+Fat embolism source
+Bone fracture embolism risk
+
+## arabic_label
+الانصمام الدهني ومصدره من كسر العظام
+
+## arabic_aliases
+كسر العظام كمصدر للانصمام الدهني
+
+## definition
+Fat embolism arises when marrow fat is released into the venous circulation, most commonly from a long-bone fracture, where disrupted marrow fat globules enter torn venules at the fracture site. This is the standard clinical origin of fat embolism, distinct from the origins of other embolus types -- pregnancy (amniotic fluid), congestive heart failure or a detached thrombus (thromboembolism).
+
+## explicit_objective
+State that bone fracture is the classic origin of fat embolism, among pregnancy, congestive heart failure and detached thrombi as alternative embolus sources.
+
+## pitfalls
+Confusing fat embolism's origin (bone fracture, marrow fat) with amniotic fluid embolism's origin (pregnancy/delivery) or ordinary thromboembolism's origin (a detached thrombus) -- each embolus type has a distinct clinical trigger.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Fat embolism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-2048DC4715C0DE
+CON-FND-E6A4425324881A
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Fat embolism can originate from: ... bone fracture" (Quiz 33 Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "fat embolism bone fracture origin" -- 0 hits, new concept.
+relationships: part of the lecture's embolism-type triad with CON-FND-2048DC4715C0DE (air embolism) and CON-FND-E6A4425324881A (most frequent embolism type, thromboembolism, distinguishing frequency from fat embolism's specific fracture-associated origin).
+
+---
+
+# Item
+
+## id
+CON-FND-F1AE9BB7549A71
+
+## label
+Infarction results from acute ischaemia in the presence of poor collateral circulation
+
+## canonical_key
+teaching.pathology.hemodynamics.infarction-requires-poor-collateral-circulation
+
+## aliases
+Infarction mechanism
+Collateral circulation and infarction
+
+## arabic_label
+الاحتشاء ونقص التروية الحاد مع ضعف الدوران الجانبي
+
+## arabic_aliases
+الدوران الجانبي وحدوث الاحتشاء
+
+## definition
+Infarction (tissue death from vascular occlusion) results specifically from acute ischaemia occurring in the presence of poor collateral circulation, since good collateral supply can maintain enough perfusion to prevent necrosis despite the primary vessel's occlusion. Gradual ischaemia, by contrast, allows time for collateral vessels to develop, which is why sudden (acute) occlusion combined with poor collaterals -- not gradual occlusion or occlusion with good collaterals -- is what produces infarction.
+
+## explicit_objective
+State that infarction results from acute ischaemia specifically when collateral circulation is poor, distinguishing this from gradual ischaemia or ischaemia with good collateral supply, neither of which typically produces infarction.
+
+## pitfalls
+Assuming any acute ischaemia produces infarction regardless of collateral status, or that gradual ischaemia is equally likely to cause infarction -- the specific combination tested is acute onset PLUS poor collaterals.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Infarction mechanism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-FA99A919A9BB4E
+CON-FND-C6E88AC53F7F2B
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Infarction is due to: ... acute ischaemia in presence of poor collateral circulation" (Quiz 33 Q8).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "poor collateral circulation infarction" -- 0 hits, new concept.
+relationships: related to CON-FND-FA99A919A9BB4E (pale infarct in solid organs, which typically have poor collateral supply) and CON-FND-C6E88AC53F7F2B (ischaemia's own causes) as the lecture's infarction-mechanism cluster.
+
+---
+
+# Item
+
+## id
+CON-FND-FA99A919A9BB4E
+
+## label
+Pale (anaemic) infarcts occur in solid organs with a single blood supply, such as kidney and heart
+
+## canonical_key
+teaching.pathology.hemodynamics.pale-infarct-solid-organ-single-blood-supply
+
+## aliases
+Anaemic infarct
+Solid organ infarct colour
+
+## arabic_label
+الاحتشاء الشاحب (فقر الدم) في الأعضاء الصلبة ذات الإمداد الدموي الأحادي
+
+## arabic_aliases
+الكلية والقلب كمثال على الاحتشاء الشاحب
+
+## definition
+A pale (anaemic) infarct occurs in a solid organ supplied by a single, end-arterial blood supply -- the kidney and the heart are the standard examples -- so that arterial occlusion cuts off blood entirely, with no second source re-entering the necrotic zone to give it a red, hemorrhagic appearance. This is the counterpart to a red (hemorrhagic) infarct, which occurs in an organ such as the lung with a dual blood supply.
+
+## explicit_objective
+State that pale infarcts occur in solid, single-blood-supply organs such as the kidney and heart, following arterial occlusion.
+
+## pitfalls
+Naming a dual-blood-supply organ (lung) as the site of a pale infarct, or a single-blood-supply solid organ (kidney, heart) as the site of a red infarct -- infarct colour tracks whether a second blood source can re-perfuse the necrotic area.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Red vs pale infarct
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-456F4BFCEAFBD8
+CON-FND-F1AE9BB7549A71
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Infarcts occurs due to of arterial occlusion in solid organs such as the kidneys and heart are: ... Pale" (Quiz 33 Q9).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "pale infarct solid organ kidney heart" -- 0 hits, new concept.
+relationships: paired with CON-FND-456F4BFCEAFBD8 (red infarct) as the infarct-colour pair; related to CON-FND-F1AE9BB7549A71 (infarction mechanism).
+
+---
+
+# Item
+
+## id
+CON-FND-C6E88AC53F7F2B
+
+## label
+Ischaemia results from arterial obstruction
+
+## canonical_key
+teaching.pathology.hemodynamics.ischaemia-from-arterial-obstruction
+
+## aliases
+Ischaemia causes
+Arterial obstruction and ischaemia
+
+## arabic_label
+نقص التروية والانسداد الشرياني
+
+## arabic_aliases
+انسداد الشريان كسبب لنقص التروية
+
+## definition
+Ischaemia -- inadequate blood supply to a tissue -- most directly results from arterial obstruction, which cuts off the arterial inflow a tissue depends on. Capillary damage and venous obstruction can also compromise tissue perfusion in other ways, but arterial obstruction is the direct, standard mechanism tested for producing ischaemia, since it removes the tissue's arterial supply at its source.
+
+## explicit_objective
+State that arterial obstruction is the direct cause of ischaemia, among capillary damage, chronic venous congestion and venous obstruction as related but distinct mechanisms.
+
+## pitfalls
+Confusing ischaemia's arterial-obstruction mechanism with venous obstruction or chronic venous congestion, which primarily impair drainage rather than arterial inflow -- ischaemia specifically names inadequate arterial supply.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Ischaemia causes
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-F1AE9BB7549A71
+CON-FND-E4AEBC2AA036D4
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Ischaemia can result from: ... arterial obstruction" (Quiz 33 Q10).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ischaemia arterial obstruction causes" -- 0 hits, new concept.
+relationships: related to CON-FND-F1AE9BB7549A71 (infarction mechanism, which follows ischaemia) and CON-FND-E4AEBC2AA036D4 (atherosclerosis, the commonest cause of chronic ischaemia specifically).
+
+---
+
+# Item
+
+## id
+CON-FND-7B4DA968F5BE76
+
+## label
+Solid-organ infarcts undergo coagulative necrosis
+
+## canonical_key
+teaching.pathology.hemodynamics.coagulative-necrosis-solid-organ-infarct
+
+## aliases
+Coagulative necrosis pattern
+Infarct necrosis type
+
+## arabic_label
+النخر التخثري في احتشاء الأعضاء الصلبة
+
+## arabic_aliases
+نمط النخر في الكلية والطحال
+
+## definition
+Infarcts in solid organs -- the kidney and spleen are standard examples -- undergo coagulative necrosis, in which the cells die but their basic outline and tissue architecture are preserved for some days, because intracellular proteins denature and resist proteolysis before eventually being cleared by inflammatory cells. A pyramidal, pale, wedge-shaped renal lesion with preserved cell outlines but lost cellular detail, or a tan-to-white wedge-shaped splenic lesion with its base on the capsule (as seen in a septic-embolus-related splenic infarct), are both classic coagulative-necrosis pictures.
+
+## explicit_objective
+Identify a pale, wedge-shaped lesion with preserved cell outlines but lost cellular detail, in a solid organ such as the kidney or spleen, as coagulative necrosis.
+
+## pitfalls
+Confusing coagulative necrosis (architecture preserved, cell outlines intact) with liquefactive necrosis (tissue liquefies, architecture lost) -- solid organs such as kidney and spleen classically show coagulative necrosis on infarction, in contrast to the brain's liquefactive pattern.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Coagulative necrosis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-3DC23DAEB405BC
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Microscopic examination of tissue taken from pyramidal shape pale lesion of the kidney showed that the outline of the cells still present but cellular details are lost. Which of the following pathologic conditions most likely present? ... Coagulative necrosis" (Quiz 33 Q11); "The spleen of a 26 year old male who died from complications of subacute bacterial endocarditis is seen at autopsy. On sectioning reveals a tan to white, wedge-shaped lesion with base on the capsule. This finding most likely represents the result of: ... Coagulative necrosis" (Q14).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "coagulative necrosis kidney spleen infarct" -- 0 hits, new concept.
+relationships: two quiz rows (Q11/Q14) collapsed onto this one concept -- the identical coagulative-necrosis fact tested in two solid organs (kidney and spleen); paired with CON-FND-3DC23DAEB405BC (cerebral/liquefactive necrosis) as the module's deliberate rule/exception necrosis-type pair.
+
+---
+
+# Item
+
+## id
+CON-FND-E4AEBC2AA036D4
+
+## label
+Atherosclerosis is the commonest cause of chronic ischaemia
+
+## canonical_key
+teaching.pathology.hemodynamics.atherosclerosis-commonest-chronic-ischaemia-cause
+
+## aliases
+Chronic ischaemia etiology
+Atherosclerosis and ischaemia
+
+## arabic_label
+تصلب الشرايين كأشيع سبب لنقص التروية المزمن
+
+## arabic_aliases
+السبب الأشيع لنقص التروية المزمن
+
+## definition
+Atherosclerosis -- progressive narrowing of arteries by lipid-laden plaque -- is the commonest cause of chronic ischaemia, gradually reducing arterial luminal calibre over years and limiting blood flow to the tissue it supplies. This gradual, atherosclerotic narrowing contrasts with an acute cause of vascular compromise such as surgical ligation, infection, or spasmodic vascular disease, which are less common causes overall of chronic (as opposed to acute) ischaemia.
+
+## explicit_objective
+State that atherosclerosis is the commonest cause of chronic ischaemia, among surgical ligation, infection and spasmodic vascular disease as less common alternatives.
+
+## pitfalls
+Naming an acute or uncommon cause (surgical ligation, infection, vascular spasm) as the commonest cause of chronic ischaemia, rather than recognising atherosclerosis's gradual, progressive narrowing as the dominant, population-level cause.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Chronic ischaemia etiology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-C6E88AC53F7F2B
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The commonest cause of chronic ischaemia is: ... Atherosclerosis" (Quiz 33 Q12).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "atherosclerosis chronic ischemia common cause" -- 0 hits, new concept.
+relationships: paired with CON-FND-C6E88AC53F7F2B (ischaemia's own arterial-obstruction cause) as the lecture's ischaemia-etiology pair.
+
+---
+
+# Item
+
+## id
+CON-FND-E6A4425324881A
+
+## label
+Detached thrombi (thromboembolism) are the most frequent type of embolism
+
+## canonical_key
+teaching.pathology.hemodynamics.thromboembolism-most-frequent-embolism-type
+
+## aliases
+Thromboembolism frequency
+Commonest embolus type
+
+## arabic_label
+الانصمام الخثاري كأشيع نوع للانصمام
+
+## arabic_aliases
+الجلطة المنفصلة كأشيع سبب للانصمام
+
+## definition
+Among the recognised embolus types -- fat, malignant/tumour cells, air and detached thrombi -- detached thrombi (thromboembolism) are the most frequent, since deep vein thrombosis and cardiac mural thrombi are common clinical events that regularly source emboli, compared with the less common triggers behind fat, tumour or air embolism.
+
+## explicit_objective
+State that detached thrombi (thromboembolism) are the most frequent type of embolism, among fat, malignant-cell and air emboli as less common alternatives.
+
+## pitfalls
+Assuming fat embolism (from bone fracture) is the most frequent embolus type because it is a well-known named entity -- by overall frequency, ordinary thromboembolism from a detached thrombus is far more common than fat, tumour or air embolism.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Embolism frequency
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-D8BF76229CC959
+CON-FND-2048DC4715C0DE
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The most frequent type of embolism is produced by: ... detached thrombi" (Quiz 33 Q13).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 33 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "detached thrombi most frequent embolism" -- 0 hits, new concept.
+relationships: completes the lecture's embolism-type triad with CON-FND-D8BF76229CC959 (fat embolism) and CON-FND-2048DC4715C0DE (air embolism), distinguishing overall frequency from the specific-origin facts of the other two.

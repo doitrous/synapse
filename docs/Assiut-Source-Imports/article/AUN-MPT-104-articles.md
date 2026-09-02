@@ -2862,3 +2862,203 @@ Block: body
 ### definition_of · CON-FND-BB97C931CB8423
 Quote: Acebutolol combines beta1 selectivity, intrinsic sympathomimetic activity (ISA -- partial agonism, providing low-level receptor stimulation even while blocking the receptor) and a membrane-stabilizing property; because ISA means acebutolol does not fully suppress beta-receptor activity the way a pure antagonist does, it can worsen exertional angina pectoris
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-EMBOLISM-ISCHEMIA-INFARCTION
+
+## title
+Embolism, ischaemia and infarction: DVT to PE, embolus types, and infarct patterns
+
+## arabic_title
+الانصمام ونقص التروية والاحتشاء: من تجلط الأوردة إلى الانصمام الرئوي، وأنواع الصمات وأنماط الاحتشاء
+
+## aliases
+Heamodynamic disorders: Embolism, ischemia and infarction
+Lecture 33
+Infarct colour and necrosis type
+
+## subject
+fnd
+
+## topic
+Heamodynamic disorders: Embolism, ischemia and infarction
+
+## subtopic
+Embolism types, ischaemia, infarct colour and necrosis pattern
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+10
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 33 completes the hemodynamics block by tracing a thrombus through to its downstream consequences. Immobilization produces deep vein thrombosis via venous stasis, and a leg-vein DVT is the classic source of pulmonary thromboembolism -- the most frequent type of embolism overall, ahead of fat embolism (from bone fracture) and air embolism (from an open neck-vein injury). Once a vessel is occluded, whether infarction follows depends on acute onset plus poor collateral circulation; solid organs with a single blood supply (kidney, spleen) infarct pale and undergo coagulative necrosis, while dual-supply organs (lung) infarct red, and the brain is the standard exception, undergoing liquefactive rather than coagulative necrosis. Atherosclerosis is the commonest cause of the underlying chronic ischaemia.
+
+## sections
+### Definition
+An embolus is a detached intravascular mass -- solid, liquid or gaseous -- carried by the bloodstream from its point of origin to a distant site, distinct from a thrombus (the mass before detachment), an infarct (the resulting necrosis) and a clot (a non-thrombus coagulum). Deep vein thrombosis of the leg veins, most often precipitated by immobilization through venous stasis, is the classic source of pulmonary thromboembolism, since a detached venous thrombus travels via the right heart into the pulmonary circulation.
+
+### Mechanism
+Among embolus types, detached thrombi (thromboembolism) are the most frequent overall, ahead of fat embolism, which classically originates from a long-bone fracture releasing marrow fat into torn venules, and air embolism, which arises from an open, low-pressure venous injury near the heart such as a neck vein stab wound. Infarction results from acute ischaemia occurring specifically in the presence of poor collateral circulation, since good collaterals or a gradual onset can maintain enough perfusion to prevent necrosis; atherosclerosis, through progressive arterial narrowing, is the commonest underlying cause of the chronic ischaemia this depends on. The colour of an infarct tracks the organ's vascular supply: a pale (anaemic) infarct occurs in a solid, single-blood-supply organ such as the kidney or heart, while a red (hemorrhagic) infarct occurs in a dual-blood-supply organ such as the lung, where a second blood source re-enters the necrotic zone. The necrosis pattern within an infarct is usually coagulative -- cell outlines preserved, cellular detail lost, as in kidney or spleen -- except in the brain, whose lipid-rich, stroma-poor tissue instead undergoes liquefactive necrosis.
+
+### Key determinants
+A 76-year-old woman with a hip fracture who develops leg swelling two weeks later is at risk of pulmonary thromboembolism, the expected complication of an immobilization-driven deep vein thrombosis; a 55-year-old woman with a venogram-confirmed leg DVT after a week of reduced mobility has venous stasis, not turbulent flow or hypercalcemia, as the mechanism. A neck vein stab wound specifically raises suspicion for air embolism, not fat or tumour emboli. A pyramidal, pale renal lesion with preserved cell outlines but lost cellular detail, and a tan-white wedge-shaped splenic lesion with its base on the capsule after septic embolism from endocarditis, are both coagulative necrosis -- while a cerebral infarct is expected to show liquefactive necrosis instead. Cerebral infarction itself is liquefactive necrosis; a red infarct is expected in the lung, a pale infarct in the kidney or heart.
+
+### Clinical significance
+Recognising immobilization as a DVT risk factor, and DVT as a pulmonary-embolism risk factor, is the basis for prophylactic anticoagulation and early mobilization after major fracture or surgery. Suspecting air embolism specifically after an open neck-vein injury changes immediate management (positioning, aspiration) compared with a fat- or thrombus-embolism scenario. Predicting an infarct's likely colour (pale in a single-supply solid organ, red in a dual-supply organ) and necrosis pattern (coagulative except in brain) guides the expected histological and imaging picture, and recognising atherosclerosis as the commonest chronic-ischaemia driver focuses risk-factor modification (lipids, blood pressure, smoking) as the mainstay of prevention.
+
+### Common misconceptions
+Assuming any acute vessel occlusion causes infarction regardless of collateral status, rather than requiring the specific combination of acute onset and poor collaterals. Reversing which organs show red versus pale infarcts, or forgetting that the brain is the standard exception to the solid-organ coagulative-necrosis rule. Assuming fat embolism, because it is a well-known named entity, is more frequent overall than ordinary thromboembolism. Confusing embolus, thrombus, infarct and clot as interchangeable terms rather than four distinct steps/entities in the same causal chain.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Immobilization causes DVT via venous stasis; a leg-vein DVT is the classic source of pulmonary thromboembolism.
+An embolus is a detached intravascular mass carried by the blood to a distant site; detached thrombi are the most frequent embolus type, ahead of fat (bone fracture) and air (neck vein injury) emboli.
+Infarction requires acute ischaemia with poor collateral circulation; atherosclerosis is the commonest cause of chronic ischaemia.
+Pale infarcts occur in single-blood-supply solid organs (kidney, heart); red infarcts occur in dual-blood-supply organs (lung).
+Solid-organ infarcts (kidney, spleen) undergo coagulative necrosis; cerebral infarction is the exception, undergoing liquefactive necrosis.
+
+## lose_the_mark
+Naming a mechanism other than venous stasis for immobilization-related DVT, or a destination other than the lung for a detached venous thrombus.
+Confusing embolus, thrombus, infarct and clot, or naming fat/air embolism as more frequent overall than thromboembolism.
+Assuming any acute occlusion causes infarction without regard to collateral circulation, or naming a cause other than atherosclerosis as commonest for chronic ischaemia.
+Reversing red-infarct and pale-infarct organ examples.
+Naming coagulative necrosis for a cerebral infarct, or liquefactive necrosis for a kidney/spleen infarct.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-EF6008CE1515E5
+CON-FND-9175888AAAC2F0
+CON-FND-AA58C1D1394257
+CON-FND-2048DC4715C0DE
+CON-FND-456F4BFCEAFBD8
+CON-FND-3DC23DAEB405BC
+CON-FND-D8BF76229CC959
+CON-FND-F1AE9BB7549A71
+CON-FND-FA99A919A9BB4E
+CON-FND-C6E88AC53F7F2B
+CON-FND-7B4DA968F5BE76
+CON-FND-E4AEBC2AA036D4
+CON-FND-E6A4425324881A
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 33 (Heamodynamic disorders: Embolism, ischemia and infarction) -- no department slide deck exists in the corpus past Lecture 8, so all thirteen mints cite the quiz bank's own printed-answer text instead. This is the source PDF's only True/False-formatted quiz range (Q16-Q20, q273-q277): held as format-incompatible with this platform's 4-5-option MCQ contract (no genuine distractor set exists to convert them into, the same reasoning applied to the match-type q046 hold in an earlier cluster of this lane) -- three (Q16/Q17/Q18, testing DVT-to-PE, thromboembolism frequency and infarct-colour-by-vascularity respectively) restate facts already covered by this same lecture's MCQ rows (Q1/Q15, Q13, Q5+Q9), and two (Q19's embolism definition, Q20's septic-thrombophlebitis-and-pyaemic-abscess fact) are genuinely new ideas but equally untranslatable without inventing options the source never tested.
+
+## annotations
+### definition_of · CON-FND-EF6008CE1515E5
+Quote: Deep vein thrombosis of the leg veins, most often precipitated by immobilization through venous stasis, is the classic source of pulmonary thromboembolism, since a detached venous thrombus travels via the right heart into the pulmonary circulation
+Block: body
+
+### definition_of · CON-FND-9175888AAAC2F0
+Quote: a 55-year-old woman with a venogram-confirmed leg DVT after a week of reduced mobility has venous stasis, not turbulent flow or hypercalcemia, as the mechanism
+Block: body
+
+### definition_of · CON-FND-AA58C1D1394257
+Quote: An embolus is a detached intravascular mass -- solid, liquid or gaseous -- carried by the bloodstream from its point of origin to a distant site, distinct from a thrombus (the mass before detachment), an infarct (the resulting necrosis) and a clot (a non-thrombus coagulum)
+Block: body
+
+### definition_of · CON-FND-2048DC4715C0DE
+Quote: A neck vein stab wound specifically raises suspicion for air embolism, not fat or tumour emboli
+Block: body
+
+### definition_of · CON-FND-456F4BFCEAFBD8
+Quote: a red (hemorrhagic) infarct occurs in a dual-blood-supply organ such as the lung, where a second blood source re-enters the necrotic zone
+Block: body
+
+### definition_of · CON-FND-3DC23DAEB405BC
+Quote: a cerebral infarct is expected to show liquefactive necrosis instead. Cerebral infarction itself is liquefactive necrosis
+Block: body
+
+### definition_of · CON-FND-D8BF76229CC959
+Quote: fat embolism, which classically originates from a long-bone fracture releasing marrow fat into torn venules
+Block: body
+
+### definition_of · CON-FND-F1AE9BB7549A71
+Quote: Infarction results from acute ischaemia occurring specifically in the presence of poor collateral circulation, since good collaterals or a gradual onset can maintain enough perfusion to prevent necrosis
+Block: body
+
+### definition_of · CON-FND-FA99A919A9BB4E
+Quote: a pale (anaemic) infarct occurs in a solid, single-blood-supply organ such as the kidney or heart
+Block: body
+
+### definition_of · CON-FND-C6E88AC53F7F2B
+Quote: atherosclerosis, through progressive arterial narrowing, is the commonest underlying cause of the chronic ischaemia this depends on
+Block: body
+
+### definition_of · CON-FND-7B4DA968F5BE76
+Quote: A pyramidal, pale renal lesion with preserved cell outlines but lost cellular detail, and a tan-white wedge-shaped splenic lesion with its base on the capsule after septic embolism from endocarditis, are both coagulative necrosis
+Block: body
+
+### definition_of · CON-FND-E4AEBC2AA036D4
+Quote: atherosclerosis, through progressive arterial narrowing, is the commonest underlying cause of the chronic ischaemia this depends on
+Block: body
+
+### definition_of · CON-FND-E6A4425324881A
+Quote: Among embolus types, detached thrombi (thromboembolism) are the most frequent overall, ahead of fat embolism
+Block: body
