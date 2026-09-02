@@ -876,3 +876,583 @@ What determines whether a rheumatic endocardial/myocardial finding is Mac Callum
 
 ### Clinical significance
 Recognising Mac Callum's patch and the posterior left atrial predilection of rheumatic carditis helps explain why rheumatic mitral regurgitation's jet is classically posteriorly directed on echocardiography. Aschoff bodies (and their Aschoff cells) remain the pathognomonic histological marker used to confirm active rheumatic carditis. Milk spots are clinically silent and mainly relevant as an incidental autopsy or surgical finding not to be mistaken for active disease. Massive pulmonary embolism causing acute cor pulmonale is a medical emergency requiring urgent recognition, since untreated it can rapidly progress to cardiogenic shock and death. Amniotic fluid embolism is a rare but often catastrophic peripartum emergency, and its combination of sudden respiratory/cardiovascular collapse with coagulopathy in a labouring or recently delivered woman should prompt immediate consideration of the diagnosis. At autopsy or on gross pathology, identifying lines of Zahn is one of the ways a pathologist distinguishes an antemortem thrombus (a genuine clinical finding, relevant to the cause of death) from a postmortem clot (an artefact of blood settling after death, of no clinical significance).
+
+---
+
+<!--
+  Lane-3 additions below (2026-09-02), teaching the 28 concepts minted for
+  the med105-final43-p1 cluster. Six new grouped articles, all TPL-CONCEPT
+  (Definition, Mechanism, Key determinants, Clinical significance).
+-->
+
+# Item
+
+## id
+ART-CVS-MU105-P1-VESSEL-HISTOLOGY
+
+## title
+Vessel wall histology: sinusoids, the muscular artery's internal elastic lamina, and the large vein's adventitial muscle
+
+## arabic_title
+نسيج جدار الأوعية الدموية: الجيوب الدموية والصفيحة المرنة الداخلية للشريان العضلي والعضلات الملساء في الغلالة الخارجية للوريد الكبير
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Cardiovascular System
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Histology
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## related_concepts
+CON-CVS-426BDAEDF23FF3
+CON-CVS-A1CABEF78F7DC3
+CON-CVS-93386C33A22083
+
+## related_articles
+
+
+## aliases
+Blood sinusoids | Internal elastic lamina | Large vein adventitia | Vessel wall identification
+
+## reading_time
+7
+
+## summary
+Three Final-43-Paper-1 histology facts about identifying a vessel by its wall: blood sinusoids as the wide, slow-flow vessel of the splenic red pulp; a prominent wavy internal elastic lamina as the hallmark of a muscular artery like the basilar artery; and longitudinal smooth muscle within the thick adventitia as the defining feature of a large vein like the inferior vena cava.
+
+## sections
+### Definition
+Blood sinusoids are wide-calibre, thin-walled, often fenestrated vessels through which blood flows slowly; the spleen's red pulp is the classic sinusoidal bed. A muscular artery such as the basilar artery carries a thick internal elastic lamina at the intima-media junction, which buckles into a wavy line in fixed cross-section. A large vein such as the inferior vena cava has a thin intima and media but a very thick tunica adventitia, carrying longitudinally-arranged smooth muscle bundles on top of the usual circular muscle of the media.
+
+### Mechanism
+The spleen's sinusoidal architecture exists so that blood lingers in contact with the surrounding macrophage-rich cords long enough for aged or defective red cells to be identified and removed, the basis of the spleen's red-cell quality-control role. A muscular artery's prominent internal elastic lamina reflects its role as a distributing vessel whose smooth-muscle-rich media actively regulates regional blood flow; the elastic lamina itself buckles into its wavy appearance as the wall relaxes after death or during fixation, a purely mechanical artefact of a real anatomical structure. A large vein's adventitial, rather than medial, muscle placement is the reverse of an artery's pattern: because venous pressure is low, the vein does not need a thick, muscular media to withstand internal pressure the way an artery does, but it does need the mechanical reinforcement of adventitial muscle to resist collapse and overstretch, plus its own vasa vasorum in that thick outer coat since diffusion alone cannot nourish it.
+
+### Key determinants
+What determines whether a vessel is classed as a sinusoid rather than a true capillary is calibre and wall structure — wide and porous (sinusoid) versus narrow and continuous (true capillary) — not simply how well-perfused the organ is. What determines whether cross-sectional wall architecture identifies a muscular artery, an elastic artery or a vein is which layer dominates and how it is organised: a single prominent, buckled internal elastic lamina (muscular artery) versus multiple concentric elastic lamellae throughout the media (elastic artery, e.g. the aorta) versus a thick adventitia with longitudinal muscle (large vein).
+
+### Clinical significance
+Recognising sinusoidal architecture explains why the spleen, not the liver or bone marrow (which also have sinusoids), is the organ most classically tested for slow-flow, macrophage-mediated red cell removal, and underlies conditions of splenic sequestration. Identifying a muscular artery by its wavy internal elastic lamina is a basic histology skill for distinguishing vessel types in a tissue section, relevant to interpreting biopsies of muscular arteries in vasculitis. Knowing that a large vein's structural reinforcement is adventitial, not medial, muscle is relevant to understanding why veins, unlike arteries, are prone to collapse when empty and to distension (varicosity) when chronically overloaded.
+
+---
+
+# Item
+
+## id
+ART-CVS-MU105-P1-VASCULAR-ANATOMY
+
+## title
+Head, neck, thorax and limb vascular anatomy on the MED105 Final 43 Paper 1 exam
+
+## arabic_title
+تشريح الأوعية الدموية في الرأس والرقبة والصدر والأطراف في امتحان الورقة الأولى
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Cardiovascular System
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## related_concepts
+CON-CVS-7D3B6519AF9A70
+CON-CVS-F98FC7061B98E2
+CON-CVS-1D4229601F06C4
+CON-CVS-9542708C49288F
+CON-CVS-812D4C41C85A2F
+CON-CVS-FD3AF3387766EC
+CON-CVS-D4AD9E80701217
+
+## related_articles
+
+
+## aliases
+Tonsillar artery | Superficial palmar arch | Superior thyroid vein | Profunda brachii | Subclavian vein | Superior intercostal vein | Great saphenous vein
+
+## reading_time
+10
+
+## summary
+Seven Final-43-Paper-1 gross-anatomy facts spanning head-and-neck, upper-limb, root-of-neck, thoracic and lower-limb vasculature: the facial artery's tonsillar branch; the ulnar-dominant superficial palmar arch; the superior thyroid vein's drainage into the internal jugular; the profunda brachii artery's companionship with the radial nerve in the spiral groove; the subclavian vein's position anterior to scalenus anterior; the right superior intercostal vein's termination in the azygos arch; and the great saphenous vein's course anterior to the medial malleolus.
+
+## sections
+### Definition
+The main tonsillar artery is a branch of the facial artery, reaching the palatine tonsil's lower pole after piercing the superior constrictor muscle. The superficial palmar arch is formed mainly by the ulnar artery, completed by the radial artery's superficial palmar branch. The superior thyroid vein drains into the internal jugular vein. The profunda brachii artery accompanies the radial nerve through the spiral groove of the humerus. The subclavian vein lies anterior to scalenus anterior at the root of the neck, while the subclavian artery lies posterior to the same muscle. The right superior intercostal vein ends in the arch of the azygos vein. The great saphenous vein passes anterior to the medial malleolus.
+
+### Mechanism
+These seven facts share a common exam logic: each asks the learner to identify which named vessel occupies a specific anatomical relationship (branch-of, companion-to, anterior/posterior-to, drains-into), usually dressed in a short clinical vignette (tonsillectomy bleeding, athlete's spiral-groove injury, neck stab wound, coronary bypass vein harvest). The facial artery's tonsillar branch and the profunda brachii's spiral-groove course both matter surgically because the named vessel travels immediately alongside a structure being operated on or injured (the tonsil bed; the radial nerve). The subclavian vein/artery split around scalenus anterior and the superficial-versus-deep palmar arch's reversed dominant vessel are both "which side of a landmark" facts, testing whether the learner has the relationship the right way round rather than reversed. The superior thyroid vein's and right superior intercostal vein's drainage facts are both "where does this vessel end" facts, testing knowledge of the venous system's asymmetric, often non-mirrored channels. The great saphenous vein's course anterior to the medial malleolus is a surface-landmark fact, valued because the vein's superficial position there is exactly what makes it clinically accessible.
+
+### Key determinants
+What determines whether the tonsillar bleed vessel is the facial artery versus a minor contributor (ascending pharyngeal, lingual, descending palatine) is which vessel is the MAIN, surgically significant supply, not merely a contributor. What determines whether an arch is "superficial" (ulnar-dominant) or "deep" (radial-dominant) is which artery completes it on the minor side, not just which arteries are present. What determines whether the subclavian vein or artery lies anterior to scalenus anterior is the muscle's role as the physical divider between the two, with the vein anterior and the artery (plus the brachial plexus) posterior. What determines a vessel's venous termination (superior thyroid vein into internal jugular; right superior intercostal vein into the azygos arch) is simply which venous system it joins nearest to its origin, a fact of drainage anatomy rather than physiology.
+
+### Clinical significance
+Knowing the facial artery's tonsillar branch is essential for controlling tonsillectomy haemorrhage. The profunda brachii/radial nerve relationship in the spiral groove explains why a mid-shaft humeral fracture classically produces both wrist drop and bleeding from this specific artery. The subclavian vein's superficial, anterior position at the root of the neck is both a hazard (penetrating neck trauma) and an asset (it is a standard central venous access site, approached anterior to the muscle to avoid the artery and pleura). The great saphenous vein's constant, superficial course anterior to the medial malleolus is exactly why it is the standard vessel for peripheral cannulation and for harvest as a coronary artery bypass graft conduit.
+
+---
+
+# Item
+
+## id
+ART-CVS-MU105-P1-VALVES-PERICARDIUM
+
+## title
+Cardiac valve support, the pericardial sinuses, and surface anatomy of the heart
+
+## arabic_title
+الدعامة الصمامية للقلب والجيوب التأمورية والتشريح السطحي للقلب
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Cardiovascular System
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## related_concepts
+CON-CVS-9065C501E85979
+CON-CVS-CA0E298E19CEAD
+CON-CVS-D0EBC976A8D99F
+CON-CVS-1CD0584522E8BC
+
+## related_articles
+
+
+## aliases
+Chordae tendineae | Transverse pericardial sinus | Apex beat | Superior vena cava mediastinum
+
+## reading_time
+9
+
+## summary
+Four Final-43-Paper-1 facts about the heart's internal support structures, its pericardial recesses, and its surface projection: the chordae tendineae's role preventing AV valve cusp prolapse; the transverse pericardial sinus's surgical use for clamping the great arteries; the cardiac apex's surface landmark at the left fifth intercostal space, midclavicular line; and the superior vena cava's span across the superior and middle mediastinum.
+
+## sections
+### Definition
+The chordae tendineae are tendinous cords running from the mitral and tricuspid valve cusps to the ventricular papillary muscles; when the ventricle contracts, tension on the chordae holds the cusps taut and prevents them from prolapsing into the atrium. The transverse pericardial sinus is a passage behind the ascending aorta and pulmonary trunk and in front of the atria and venae cavae, distinct from the oblique sinus behind the left atrium. The cardiac apex, formed by the left ventricle, projects to the left fifth intercostal space in the midclavicular line, the landmark for the apex beat. The superior vena cava begins in the superior mediastinum and terminates, within the pericardial sac, in the middle mediastinum.
+
+### Mechanism
+The chordae tendineae work because papillary muscle contraction is timed with ventricular systole: as the ventricular wall (and its papillary muscles) contracts, the chordae are pulled taut at the exact moment systolic pressure is highest and would otherwise blow the cusps open backwards, so the mechanical restraint and the pressure it opposes rise together. The transverse sinus exists as a natural gap because the pericardium's arterial and venous ends of the developing heart tube fold in a way that leaves a tunnel between the arterial mesocardium (aorta and pulmonary trunk) and the venous structures behind it; a surgeon exploits this pre-existing anatomical tunnel rather than creating one. The apex beat is palpable specifically at the fifth left intercostal space because that is where the thin-walled, mobile apex of the beating left ventricle makes its closest approach to the chest wall during systole. The SVC's span across two mediastinal divisions reflects its long vertical course from the first costal cartilage down into the pericardial sac, crossing the somewhat arbitrary superior/middle mediastinal boundary along the way rather than beginning or ending exactly at it.
+
+### Key determinants
+What determines whether a valve cusp stays taut or prolapses during systole is the integrity of the chordae tendineae and their papillary muscle anchor — rupture of either releases the cusp to balloon backward, producing acute regurgitation. What determines which great vessels can be clamped together via a given pericardial sinus is that sinus's own anatomical boundaries: the transverse sinus for the arterial pair (aorta, pulmonary trunk), the oblique sinus instead bounding the venous side behind the left atrium. What determines the apex beat's normal location is the heart's normal size and position; a beat displaced lateral to or below the fifth left intercostal space, midclavicular line, signals cardiac (usually left ventricular) enlargement. What determines whether the SVC is described as superior, middle, or both is simply tracking its course against the mediastinal boundaries, not any single fixed compartment.
+
+### Clinical significance
+Chordae tendineae or papillary muscle rupture (classically post-myocardial-infarction) is a recognised cause of acute, severe mitral regurgitation, presenting with sudden pulmonary oedema. The transverse pericardial sinus is a genuine operative landmark used during cardiac surgery and cardiopulmonary bypass to safely encircle and cross-clamp the aorta and pulmonary trunk. The apex beat's location is a basic bedside cardiovascular examination finding, and its displacement is a sign of cardiomegaly. Understanding the SVC's mediastinal course is relevant to interpreting chest imaging and to central venous catheter placement, since the catheter tip's ideal position is at or near the SVC-right atrial junction, within the pericardial reflection in the middle mediastinum.
+
+---
+
+# Item
+
+## id
+ART-CVS-MU105-P1-VASCULAR-PATHOLOGY
+
+## title
+Vascular and thrombotic pathology: marantic endocarditis, Monckeberg sclerosis, thrombus propagation, oedema, infarction and aneurysm types
+
+## arabic_title
+أمراض الأوعية الدموية والتخثر: التهاب الشغاف الخثاري وتصلب مونكيبرغ وانتشار الخثرة والوذمة والاحتشاء وأنواع تمدد الأوعية الدموية
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Cardiovascular System
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## related_concepts
+CON-CVS-11A1CED5230C0D
+CON-CVS-E0F8E645000740
+CON-CVS-AF2F860A9D43D5
+CON-CVS-7EC2094D5081A6
+CON-CVS-DCD446F801232F
+CON-CVS-9C2C53AAE415CF
+CON-CVS-A6A1D83DD74BC0
+CON-CVS-CE2E5976F7BFBF
+
+## related_articles
+
+
+## aliases
+Marantic endocarditis | Monckeberg sclerosis | Thrombus propagation | Hydrostatic oedema | Strangulated hernia gangrene | Coagulative necrosis | Aneurysmal varix | Dissecting aneurysm
+
+## reading_time
+14
+
+## summary
+Eight Final-43-Paper-1 general-pathology facts organised around the vasculature: non-bacterial thrombotic (marantic) endocarditis in debilitated cancer patients; Monckeberg medial calcific sclerosis's patent-lumen calcification; thrombus propagation as continued platelet/fibrin/RBC deposition; late-pregnancy leg oedema from mechanical venous compression; strangulated-hernia gangrene from combined arterial and venous obstruction; coagulative necrosis's preserved connective-tissue architecture; the aneurysmal varix's venous-wall dilatation; and the dissecting aneurysm's hypertension-driven medial split.
+
+## sections
+### Definition
+Non-bacterial thrombotic (marantic) endocarditis produces small, sterile, loosely attached fibrin-platelet vegetations along the valve closure line in debilitated or cachectic patients, classically with advanced malignancy. Monckeberg medial calcific sclerosis is calcification confined to the media of a medium muscular artery, leaving the lumen patent. Thrombus propagation is a thrombus's continued growth by ongoing platelet/fibrin deposition, extending toward the heart. Late-pregnancy bilateral leg oedema with a normal blood pressure and urine exam reflects mechanical compression of the pelvic veins raising venous hydrostatic pressure. Strangulated-hernia gangrene results from combined arterial and venous obstruction at the constricted hernial neck. In coagulative necrosis, an infarct's basic architecture is preserved early on because the supporting connective tissue survives even as the parenchyma dies. An aneurysmal varix is an arteriovenous communication whose aneurysmal dilatation is part of the venous wall. A dissecting aneurysm arises from a hypertension-driven tear and dissection within the aortic media.
+
+### Mechanism
+Marantic endocarditis arises from endothelial injury combined with a hypercoagulable state, in the absence of any infecting organism — the mechanism is sterile thrombus formation on the valve surface, not infection, which is exactly why the vegetations are small, loosely adherent and sterile on culture, unlike an infective vegetation. Monckeberg sclerosis calcifies the media specifically, sparing the intima, so the lumen — which is bounded by the intima, not the media — stays patent even as the wall itself becomes rigid. Thrombus propagation happens because a partially occlusive or occlusive thrombus creates local stasis and a nidus onto which further platelets and fibrin continue to deposit, lengthening the clot in the direction of flow (proximally, toward the heart, for a vein). Late-pregnancy leg oedema follows simple Starling-forces logic: the gravid uterus raises venous hydrostatic pressure mechanically, pushing fluid out of the capillaries, with no change in oncotic pressure, capillary permeability or aldosterone needed to explain it. Strangulated-hernia gangrene follows a two-step vascular insult: the thin-walled vein is compressed first at the tight hernial neck, causing blood to pool and haemorrhage into the trapped segment, and then, as the resulting swelling increases pressure further, the artery is compressed too — the haemorrhagic, black appearance specifically requires this venous-first, then-arterial sequence. Coagulative necrosis preserves tissue outline because the connective tissue stroma (collagen and reticulin) is more resistant to the ischaemic insult than the parenchymal cells, which die first and are only later digested by infiltrating macrophages. An aneurysmal varix's dilatation occurs in the vein specifically because arterial pressure, once shunted across the abnormal communication, is a pressure the thin venous wall was never built to withstand, so it is the vein, not the artery, that balloons. A dissecting aneurysm's hypertension-driven mechanism works because sustained high pressure both weakens the media over time (cystic medial degeneration) and supplies the driving force once a tear lets blood enter that weakened plane.
+
+### Key determinants
+What determines whether valve vegetations are marantic or infective is sterility: marantic vegetations, formed without an organism, culture sterile, while infective ones do not. What determines whether arterial hardening is Monckeberg sclerosis or atherosclerosis is which layer is affected and whether the lumen narrows — media/patent lumen (Monckeberg) versus intima/narrowed lumen (atherosclerosis). What determines whether a thrombus's fate is called propagation, organization, resolution or recanalization is the specific process occurring — ongoing new deposition (propagation) versus granulation-tissue replacement (organization) versus complete dissolution (resolution) versus new channel formation through organized clot (recanalization). What determines whether late-pregnancy leg oedema is benign or a pre-eclampsia warning sign is the blood pressure and urine findings, not the oedema itself. What determines whether an ischaemic/strangulated bowel segment infarcts as pale (anaemic) or haemorrhagic is whether venous outflow is also obstructed, not just arterial inflow. What determines whether an infarct's early architecture is preserved (coagulative) or immediately liquefied (liquefactive, as in the brain) is the tissue's own connective-tissue content and enzymatic environment, not a universal rule for all infarcts. What determines whether an aneurysm is classified as a true aneurysm, a dissecting aneurysm, an aneurysmal varix or a false aneurysm is, respectively: atherosclerosis-driven wall dilatation, hypertension-driven medial dissection, an abnormal arteriovenous communication dilating the vein, or a contained rupture surrounded by a fibrous capsule.
+
+### Clinical significance
+Recognising marantic endocarditis matters because it signals an underlying hypercoagulable state (often occult malignancy) and carries embolic risk despite being sterile, so it is not treated with antibiotics the way infective endocarditis is. Monckeberg sclerosis is largely a benign, incidental finding (unlike atherosclerosis) precisely because the lumen stays patent, though it can affect the accuracy of ankle-brachial pressure index measurements by making the artery incompressible. Recognising propagation as a thrombus's growing, loosely attached leading edge is what makes deep vein thrombosis a pulmonary embolism risk. Distinguishing benign late-pregnancy oedema from pre-eclampsia by blood pressure and urinalysis is a routine antenatal safety check. Recognising the combined arterial-and-venous mechanism of strangulation gangrene is why a strangulated hernia is a surgical emergency requiring prompt reduction or resection before irreversible bowel necrosis sets in. Coagulative necrosis's preserved ghost architecture is a practical histopathology skill for dating and characterising an infarct. Distinguishing an aneurysmal varix, a true aneurysm, a dissecting aneurysm and a false aneurysm guides very different management: the varix and dissection are vascular emergencies of different mechanisms, while a stable true aneurysm is followed and electively repaired.
+
+---
+
+# Item
+
+## id
+ART-CVS-MU105-P1-HEART-FAILURE-RHEUMATIC
+
+## title
+Left-sided heart failure from aortic stenosis, rheumatic fever's non-erosive arthritis, and cardiac (nutmeg) liver cirrhosis
+
+## arabic_title
+فشل القلب الأيسر الناتج عن تضيق الأبهر والتهاب المفاصل الروماتيزمي غير التآكلي وتليف الكبد القلبي
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Cardiovascular System
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## related_concepts
+CON-CVS-4A6B6FAE038355
+CON-CVS-5777FDF4C26257
+CON-CVS-2C57180475285E
+
+## related_articles
+
+
+## aliases
+Aortic stenosis heart failure | Rheumatic arthritis | Cardiac cirrhosis | Nutmeg liver
+
+## reading_time
+8
+
+## summary
+Three Final-43-Paper-1 facts linking valve disease, rheumatic fever and chronic heart failure's downstream organ effects: aortic valve stenosis as a cause of left-sided heart failure through chronic pressure overload; acute rheumatic fever's non-erosive arthritis that spares the articular cartilage; and haemosiderin-driven cardiac (nutmeg) liver cirrhosis from chronic right-sided heart failure.
+
+## sections
+### Definition
+Aortic valve stenosis imposes a chronic pressure overload on the left ventricle, eventually causing left-sided heart failure. The arthritis of acute rheumatic fever is a non-erosive, migratory polyarthritis that leaves the articular cartilage preserved. Chronic right-sided heart failure raises central venous pressure, producing chronic passive congestion of the liver, centrilobular haemosiderin deposition, and eventually cardiac (nutmeg) cirrhosis.
+
+### Mechanism
+Aortic stenosis's pressure overload forces the left ventricle to generate higher systolic pressure to eject blood across the narrowed valve; this drives compensatory concentric hypertrophy, and once that compensation is exhausted, the ventricle dilates and fails. Rheumatic fever's arthritis is immune-mediated synovial inflammation without cartilage-destroying enzymatic or erosive activity, unlike an erosive arthropathy, which is why it resolves fully; this contrasts with the SAME illness's cardiac involvement, where Aschoff-body myocarditis and endocardial jet lesions (Mac Callum's patch) can leave permanent valve scarring. Chronic right heart failure's downstream liver injury follows a stepwise chain: raised central venous pressure engorges centrilobular sinusoids, engorged sinusoids cause centrilobular hepatocyte hypoxia and haemorrhage, macrophages clear the extravasated red cells and deposit haemosiderin, and, if the congestion is sustained for long enough, this centrilobular injury drives fibrosis and eventually cirrhosis.
+
+### Key determinants
+What determines whether a valve lesion causes left- or right-sided heart failure is which ventricle bears the pressure or volume overload — aortic and mitral valve disease load the left side, pulmonary and tricuspid valve disease load the right. What determines whether rheumatic fever's joint or cardiac involvement leaves lasting damage is the tissue affected: the joint's synovitis is fully reversible, while the heart's carditis can scar permanently. What determines whether chronic venous congestion of the liver progresses from simple engorgement to true cirrhosis is duration and severity — sustained, long-standing right heart failure, not a single acute episode, is what drives the centrilobular fibrosis into a true cirrhotic pattern.
+
+### Clinical significance
+Aortic stenosis progressing to left-sided heart failure is a key indication for timely valve replacement before irreversible ventricular decompensation sets in. Recognising rheumatic fever's arthritis as non-erosive and fully reversible helps focus clinical concern on the concurrent carditis, which is what determines long-term prognosis (chronic rheumatic valve disease), not the joints. Cardiac cirrhosis is a recognised complication of long-standing, poorly-controlled right heart failure or pulmonary hypertension, and an enlarged, tender liver in this setting should prompt evaluation for chronic passive congestion rather than a primary hepatic cause.
+
+---
+
+# Item
+
+## id
+ART-CVS-MU105-P1-ANTIARRHYTHMIC-PHARM
+
+## title
+Anti-arrhythmic drug classification: quinidine's Class I mechanism, lidocaine's AV-node-sparing selectivity, and cinchonism
+
+## arabic_title
+تصنيف أدوية اضطراب النظم: آلية الفئة الأولى للكينيدين وانتقائية الليدوكايين تجاه العقدة الأذينية البطينية والتسمم بالكينين
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Cardiovascular System
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pharmacology
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## related_concepts
+CON-CVS-136EF337EB578B
+CON-CVS-E5510D2D844FDB
+CON-CVS-DC7789864C39B9
+
+## related_articles
+
+
+## aliases
+Class I anti-arrhythmic | Quinidine | Lidocaine | Cinchonism | AV nodal conduction drugs
+
+## reading_time
+8
+
+## summary
+Three Final-43-Paper-1 anti-arrhythmic pharmacology facts centred on quinidine and lidocaine: quinidine's Class I, sodium-channel-blocking mechanism; lidocaine's selective action on ventricular tissue that spares the AV node, unlike beta-blockers, digitalis and verapamil; and quinidine's classic adverse effect, cinchonism.
+
+## sections
+### Definition
+Quinidine is a Class I anti-arrhythmic, blocking fast voltage-gated sodium channels to slow the action potential's phase 0 upstroke. Lidocaine, a Class IB sodium-channel blocker acting preferentially on depolarised ventricular tissue, has little effect on AV nodal conduction, unlike beta-blockers, digitalis and verapamil, which all slow it. Quinidine, like quinine, can cause cinchonism: tinnitus, headache, dizziness, blurred vision and gastrointestinal upset.
+
+### Mechanism
+The four anti-arrhythmic drug classes each target a different part of the cardiac action potential or a different receptor: Class I drugs (quinidine and lidocaine among them) block fast sodium channels, Class II drugs block beta-adrenergic receptors, Class III drugs block potassium channels, and Class IV drugs block calcium channels. Within Class I, quinidine (Class IA) and lidocaine (Class IB) both block sodium channels but differ in kinetics and tissue selectivity: lidocaine binds preferentially to sodium channels in already-depolarised, especially ischaemic, ventricular tissue and dissociates quickly, giving it little effect on normally-polarised AV nodal tissue, whereas the AV node's own conduction is instead controlled by drugs acting on its calcium-dependent pacemaker current or its autonomic input (beta-blockade for sympathetic drive, vagal enhancement for digitalis, direct calcium-channel blockade for verapamil). Cinchonism arises because quinidine shares its cinchona-alkaloid origin and much of its systemic toxicity profile with quinine, producing the same characteristic syndrome at sufficiently high doses regardless of which drug in the family is used.
+
+### Key determinants
+What determines a drug's anti-arrhythmic class is which channel or receptor it targets, not simply that it treats arrhythmia — quinidine and lidocaine both block sodium channels but still differ in subclass (IA vs IB) by their distinct kinetics and tissue preference. What determines whether a drug decreases AV nodal conduction is whether it acts on the AV node's own calcium-dependent, autonomically-modulated conduction (beta-blockers, digitalis, verapamil all do) or, like lidocaine, acts instead on ventricular sodium channels that the AV node does not rely on for its own conduction. What determines whether a drug causes cinchonism is whether it belongs to the quinine/quinidine (cinchona alkaloid) family specifically, not simply that it is an anti-arrhythmic.
+
+### Clinical significance
+Knowing quinidine's Class I, sodium-channel-blocking mechanism situates it correctly among anti-arrhythmic options and explains its use (and pro-arrhythmic risk) in atrial and ventricular arrhythmias. Lidocaine's selective action on ischaemic ventricular tissue, sparing the AV node, is exactly why it remains useful for ventricular arrhythmias (including in the peri-infarction setting) without the AV-block risk carried by AV-node-active agents. Recognising cinchonism's symptom cluster (tinnitus, headache, dizziness, blurred vision, GI upset) allows early identification of quinidine toxicity before it progresses to more dangerous cardiac effects.

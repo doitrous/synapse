@@ -1638,3 +1638,1237 @@ no
 ## qualifiers
 polarity: affirmative
 scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+<!-- Lane-3 additions below (2026-09-02), one claim per new concept minted for the med105-final43-p1 cluster. -->
+
+# Item
+
+## id
+CLM-CVS-426BDAEDF23FF3
+
+## concept_id
+CON-CVS-426BDAEDF23FF3
+
+## subject
+Blood sinusoids
+
+## predicate
+are seen at
+
+## object
+the spleen, where slow sinusoidal circulation lets macrophages screen and remove aged red cells
+
+## display_text
+Blood sinusoids are seen at the spleen, where slow sinusoidal circulation lets macrophages screen and remove aged red cells.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular histology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-A1CABEF78F7DC3
+
+## concept_id
+CON-CVS-A1CABEF78F7DC3
+
+## subject
+A prominent wavy internal elastic lamina in cross-section
+
+## predicate
+identifies
+
+## object
+a muscular artery such as the basilar artery, distinct from an elastic artery's concentric elastic lamellae
+
+## display_text
+A prominent wavy internal elastic lamina in cross-section identifies a muscular artery such as the basilar artery, distinct from an elastic artery's concentric elastic lamellae.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular histology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-93386C33A22083
+
+## concept_id
+CON-CVS-93386C33A22083
+
+## subject
+A large vein such as the inferior vena cava
+
+## predicate
+has
+
+## object
+longitudinally-arranged smooth muscle bundles within its thick tunica adventitia
+
+## display_text
+A large vein such as the inferior vena cava has longitudinally-arranged smooth muscle bundles within its thick tunica adventitia.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular histology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-7D3B6519AF9A70
+
+## concept_id
+CON-CVS-7D3B6519AF9A70
+
+## subject
+The main tonsillar artery
+
+## predicate
+is a branch of
+
+## object
+the facial artery, reaching the tonsil's lower pole after piercing the superior constrictor muscle
+
+## display_text
+The main tonsillar artery is a branch of the facial artery, reaching the tonsil's lower pole after piercing the superior constrictor muscle.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate head and neck anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-F98FC7061B98E2
+
+## concept_id
+CON-CVS-F98FC7061B98E2
+
+## subject
+The superficial palmar arch
+
+## predicate
+is formed mainly by
+
+## object
+the ulnar artery, completed by the radial artery's superficial palmar branch
+
+## display_text
+The superficial palmar arch is formed mainly by the ulnar artery, completed by the radial artery's superficial palmar branch.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate upper limb anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-1D4229601F06C4
+
+## concept_id
+CON-CVS-1D4229601F06C4
+
+## subject
+The superior thyroid vein
+
+## predicate
+drains into
+
+## object
+the internal jugular vein, directly or via a common trunk with the facial vein
+
+## display_text
+The superior thyroid vein drains into the internal jugular vein, directly or via a common trunk with the facial vein.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate neck anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-9542708C49288F
+
+## concept_id
+CON-CVS-9542708C49288F
+
+## subject
+The profunda brachii artery
+
+## predicate
+accompanies
+
+## object
+the radial nerve through the spiral (radial) groove of the humerus
+
+## display_text
+The profunda brachii artery accompanies the radial nerve through the spiral (radial) groove of the humerus.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate upper limb anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-812D4C41C85A2F
+
+## concept_id
+CON-CVS-812D4C41C85A2F
+
+## subject
+The subclavian vein
+
+## predicate
+lies anterior to
+
+## object
+scalenus anterior at the root of the neck, while the subclavian artery lies posterior to the same muscle
+
+## display_text
+The subclavian vein lies anterior to scalenus anterior at the root of the neck, while the subclavian artery lies posterior to the same muscle.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate neck anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-FD3AF3387766EC
+
+## concept_id
+CON-CVS-FD3AF3387766EC
+
+## subject
+The right superior intercostal vein
+
+## predicate
+ends in
+
+## object
+the arch of the azygos vein
+
+## display_text
+The right superior intercostal vein ends in the arch of the azygos vein.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate thoracic anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-D4AD9E80701217
+
+## concept_id
+CON-CVS-D4AD9E80701217
+
+## subject
+The great saphenous vein
+
+## predicate
+passes
+
+## object
+anterior to the medial malleolus as it ascends the leg
+
+## display_text
+The great saphenous vein passes anterior to the medial malleolus as it ascends the leg.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate lower limb anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-9065C501E85979
+
+## concept_id
+CON-CVS-9065C501E85979
+
+## subject
+The chordae tendineae, tensioned by papillary muscle contraction
+
+## predicate
+prevent
+
+## object
+AV valve cusps from prolapsing into the atrium during ventricular systole
+
+## display_text
+The chordae tendineae, tensioned by papillary muscle contraction, prevent AV valve cusps from prolapsing into the atrium during ventricular systole.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiac anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-CA0E298E19CEAD
+
+## concept_id
+CON-CVS-CA0E298E19CEAD
+
+## subject
+The transverse pericardial sinus
+
+## predicate
+lies behind
+
+## object
+the ascending aorta and pulmonary trunk, allowing them to be encircled and clamped together
+
+## display_text
+The transverse pericardial sinus lies behind the ascending aorta and pulmonary trunk, allowing them to be encircled and clamped together.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiac anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-D0EBC976A8D99F
+
+## concept_id
+CON-CVS-D0EBC976A8D99F
+
+## subject
+The apex of the heart
+
+## predicate
+projects to
+
+## object
+the left fifth intercostal space in the midclavicular line
+
+## display_text
+The apex of the heart projects to the left fifth intercostal space in the midclavicular line.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.75
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiac surface anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-1CD0584522E8BC
+
+## concept_id
+CON-CVS-1CD0584522E8BC
+
+## subject
+The superior vena cava
+
+## predicate
+lies in
+
+## object
+both the superior and middle mediastinum
+
+## display_text
+The superior vena cava lies in both the superior and middle mediastinum.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate thoracic anatomy teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-11A1CED5230C0D
+
+## concept_id
+CON-CVS-11A1CED5230C0D
+
+## subject
+Non-bacterial thrombotic (marantic) endocarditis
+
+## predicate
+produces
+
+## object
+small, sterile, loosely adherent valve vegetations in debilitated or cachectic patients, classically with advanced malignancy
+
+## display_text
+Non-bacterial thrombotic (marantic) endocarditis produces small, sterile, loosely adherent valve vegetations in debilitated or cachectic patients, classically with advanced malignancy.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-E0F8E645000740
+
+## concept_id
+CON-CVS-E0F8E645000740
+
+## subject
+Monckeberg medial calcific sclerosis
+
+## predicate
+calcifies
+
+## object
+the media of a medium muscular artery while leaving the lumen patent
+
+## display_text
+Monckeberg medial calcific sclerosis calcifies the media of a medium muscular artery while leaving the lumen patent.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-AF2F860A9D43D5
+
+## concept_id
+CON-CVS-AF2F860A9D43D5
+
+## subject
+Thrombus propagation
+
+## predicate
+is
+
+## object
+a thrombus's continued growth by ongoing platelet and fibrin deposition, extending along the vessel towards the heart
+
+## display_text
+Thrombus propagation is a thrombus's continued growth by ongoing platelet and fibrin deposition, extending along the vessel towards the heart.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-7EC2094D5081A6
+
+## concept_id
+CON-CVS-7EC2094D5081A6
+
+## subject
+Late-pregnancy bilateral leg oedema with a normal blood pressure and urine exam
+
+## predicate
+reflects
+
+## object
+mechanical compression of the pelvic veins by the gravid uterus, raising venous hydrostatic pressure
+
+## display_text
+Late-pregnancy bilateral leg oedema with a normal blood pressure and urine exam reflects mechanical compression of the pelvic veins by the gravid uterus, raising venous hydrostatic pressure.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-DCD446F801232F
+
+## concept_id
+CON-CVS-DCD446F801232F
+
+## subject
+Strangulated-hernia gangrene
+
+## predicate
+results from
+
+## object
+combined arterial and venous obstruction at the constricted hernial neck
+
+## display_text
+Strangulated-hernia gangrene results from combined arterial and venous obstruction at the constricted hernial neck.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate general pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-9C2C53AAE415CF
+
+## concept_id
+CON-CVS-9C2C53AAE415CF
+
+## subject
+An infarct's basic tissue architecture in its early phase (coagulative necrosis)
+
+## predicate
+is preserved by
+
+## object
+the surviving supporting connective tissue framework, even though the parenchymal cells die
+
+## display_text
+An infarct's basic tissue architecture in its early phase (coagulative necrosis) is preserved by the surviving supporting connective tissue framework, even though the parenchymal cells die.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate general pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-A6A1D83DD74BC0
+
+## concept_id
+CON-CVS-A6A1D83DD74BC0
+
+## subject
+An aneurysmal varix
+
+## predicate
+is
+
+## object
+an abnormal arteriovenous communication whose aneurysmal dilatation is part of the venous wall
+
+## display_text
+An aneurysmal varix is an abnormal arteriovenous communication whose aneurysmal dilatation is part of the venous wall.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-CE2E5976F7BFBF
+
+## concept_id
+CON-CVS-CE2E5976F7BFBF
+
+## subject
+A dissecting aneurysm
+
+## predicate
+is caused mainly by
+
+## object
+chronic hypertension, driving a tear and dissection within the weakened aortic media
+
+## display_text
+A dissecting aneurysm is caused mainly by chronic hypertension, driving a tear and dissection within the weakened aortic media.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-4A6B6FAE038355
+
+## concept_id
+CON-CVS-4A6B6FAE038355
+
+## subject
+Aortic valve stenosis
+
+## predicate
+is a cause of
+
+## object
+left-sided heart failure, via chronic left-ventricular pressure overload
+
+## display_text
+Aortic valve stenosis is a cause of left-sided heart failure, via chronic left-ventricular pressure overload.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-5777FDF4C26257
+
+## concept_id
+CON-CVS-5777FDF4C26257
+
+## subject
+The arthritis of acute rheumatic fever
+
+## predicate
+is
+
+## object
+a non-erosive, migratory polyarthritis that leaves the articular cartilage preserved
+
+## display_text
+The arthritis of acute rheumatic fever is a non-erosive, migratory polyarthritis that leaves the articular cartilage preserved.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-2C57180475285E
+
+## concept_id
+CON-CVS-2C57180475285E
+
+## subject
+Chronic right-sided heart failure
+
+## predicate
+produces
+
+## object
+chronic passive congestion of the liver with centrilobular haemosiderin deposition, driving cardiac (nutmeg) cirrhosis
+
+## display_text
+Chronic right-sided heart failure produces chronic passive congestion of the liver with centrilobular haemosiderin deposition, driving cardiac (nutmeg) cirrhosis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-136EF337EB578B
+
+## concept_id
+CON-CVS-136EF337EB578B
+
+## subject
+Quinidine
+
+## predicate
+is
+
+## object
+a Class I anti-arrhythmic, blocking fast voltage-gated sodium channels to slow the action potential's phase 0 upstroke
+
+## display_text
+Quinidine is a Class I anti-arrhythmic, blocking fast voltage-gated sodium channels to slow the action potential's phase 0 upstroke.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-E5510D2D844FDB
+
+## concept_id
+CON-CVS-E5510D2D844FDB
+
+## subject
+Lidocaine
+
+## predicate
+has little effect on
+
+## object
+AV nodal conduction, unlike beta-blockers, digitalis and verapamil, which all decrease it
+
+## display_text
+Lidocaine has little effect on AV nodal conduction, unlike beta-blockers, digitalis and verapamil, which all decrease it.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-DC7789864C39B9
+
+## concept_id
+CON-CVS-DC7789864C39B9
+
+## subject
+Quinidine
+
+## predicate
+can cause
+
+## object
+cinchonism: tinnitus, headache, dizziness, blurred vision and gastrointestinal upset
+
+## display_text
+Quinidine can cause cinchonism: tinnitus, headache, dizziness, blurred vision and gastrointestinal upset.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology teaching
