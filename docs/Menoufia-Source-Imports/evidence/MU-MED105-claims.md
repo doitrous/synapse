@@ -500,50 +500,6 @@ scope: Menoufia MED105 Cardiovascular system department book
 # Item
 
 ## id
-CLM-CVS-C0ADE9E8979F5A
-
-## concept_id
-CON-CVS-C0ADE9E8979F5A
-
-## subject
-The right coronary artery
-
-## predicate
-supplies
-
-## object
-the SA and AV nodes in most people, and gives the posterior interventricular artery accompanied by the middle cardiac vein
-
-## display_text
-The right coronary artery supplies the SA and AV nodes in most people, and gives the posterior interventricular artery accompanied by the middle cardiac vein.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.8
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
 CLM-CVS-D6166DE26FC349
 
 ## concept_id
@@ -676,50 +632,6 @@ scope: Menoufia MED105 Cardiovascular system department book
 # Item
 
 ## id
-CLM-CVS-C2C8702CBA09CC
-
-## concept_id
-CON-CVS-C2C8702CBA09CC
-
-## subject
-The anterior tibial artery
-
-## predicate
-continues as
-
-## object
-the dorsalis pedis artery at the front of the ankle
-
-## display_text
-The anterior tibial artery continues as the dorsalis pedis artery at the front of the ankle.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.6
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
 CLM-CVS-5B0C381101C0A4
 
 ## concept_id
@@ -748,50 +660,6 @@ none
 
 ## confidence
 0.6
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-9947504F986142
-
-## concept_id
-CON-CVS-9947504F986142
-
-## subject
-The cardiac action potential plateau (phase 2)
-
-## predicate
-is caused by
-
-## object
-a balance between inward Ca2+ influx (L-type channels) and outward K+ efflux
-
-## display_text
-The cardiac action potential plateau (phase 2) is caused by a balance between inward Ca2+ influx (L-type channels) and outward K+ efflux.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.9
 
 ## freshness
 stable_local_curriculum_fact
@@ -852,94 +720,6 @@ scope: Menoufia MED105 Cardiovascular system department book
 # Item
 
 ## id
-CLM-CVS-73C75ED6DFDD91
-
-## concept_id
-CON-CVS-73C75ED6DFDD91
-
-## subject
-The supernormal phase of excitability
-
-## predicate
-is
-
-## object
-a dangerous, vulnerable period, coinciding with late repolarisation, where a weak stimulus can excite the muscle
-
-## display_text
-The supernormal phase of excitability is a dangerous, vulnerable period, coinciding with late repolarisation, where a weak stimulus can excite the muscle.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.9
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-84C54F9C48D1C1
-
-## concept_id
-CON-CVS-84C54F9C48D1C1
-
-## subject
-Depolarization of an autorhythmic (pacemaker) cell
-
-## predicate
-is carried by
-
-## object
-Ca2+ influx through L-type calcium channels, unlike the Na+-driven upstroke of a working myocyte
-
-## display_text
-Depolarization of an autorhythmic (pacemaker) cell is carried by Ca2+ influx through L-type calcium channels, unlike the Na+-driven upstroke of a working myocyte.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.7
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
 CLM-CVS-5419DA4CEFDBB6
 
 ## concept_id
@@ -968,50 +748,6 @@ none
 
 ## confidence
 0.9
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-A275BC451FCD18
-
-## concept_id
-CON-CVS-A275BC451FCD18
-
-## subject
-The AV node's slow conduction
-
-## predicate
-delays the impulse to
-
-## object
-allow the atria to complete contraction before ventricular activation
-
-## display_text
-The AV node's slow conduction delays the impulse to allow the atria to complete contraction before ventricular activation.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.7
 
 ## freshness
 stable_local_curriculum_fact
@@ -1072,94 +808,6 @@ scope: Menoufia MED105 Cardiovascular system department book
 # Item
 
 ## id
-CLM-CVS-58B94753646870
-
-## concept_id
-CON-CVS-58B94753646870
-
-## subject
-Contractility
-
-## predicate
-is defined as
-
-## object
-the ability of cardiac muscle to generate force and contract, raised by positive inotropic agents
-
-## display_text
-Contractility is defined as the ability of cardiac muscle to generate force and contract, raised by positive inotropic agents.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.75
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-948548A19D49EF
-
-## concept_id
-CON-CVS-948548A19D49EF
-
-## subject
-The Frank-Starling law
-
-## predicate
-states that
-
-## object
-the force of cardiac muscle contraction is directly related to the initial length of the muscle fibre (end-diastolic volume)
-
-## display_text
-The Frank-Starling law states that the force of cardiac muscle contraction is directly related to the initial length of the muscle fibre (end-diastolic volume).
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.9
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
 CLM-CVS-ED9A0CCE4C631F
 
 ## concept_id
@@ -1188,94 +836,6 @@ none
 
 ## confidence
 0.6
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-8FEA34878D341E
-
-## concept_id
-CON-CVS-8FEA34878D341E
-
-## subject
-Ventricular pressure during isovolumetric contraction
-
-## predicate
-increases rapidly while
-
-## object
-ventricular volume remains constant and all valves stay closed
-
-## display_text
-Ventricular pressure during isovolumetric contraction increases rapidly while ventricular volume remains constant and all valves stay closed.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.9
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-6C2A38EA5B232E
-
-## concept_id
-CON-CVS-6C2A38EA5B232E
-
-## subject
-The ascending limb of the atrial pressure curve's a-wave
-
-## predicate
-is caused by
-
-## object
-atrial contraction
-
-## display_text
-The ascending limb of the atrial pressure curve's a-wave is caused by atrial contraction.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.65
 
 ## freshness
 stable_local_curriculum_fact
@@ -1424,50 +984,6 @@ scope: Menoufia MED105 Cardiovascular system department book
 # Item
 
 ## id
-CLM-CVS-8B779861E1A486
-
-## concept_id
-CON-CVS-8B779861E1A486
-
-## subject
-The atrioventricular valves
-
-## predicate
-remain open during
-
-## object
-ventricular diastole, including the maximum (rapid) filling phase
-
-## display_text
-The atrioventricular valves remain open during ventricular diastole, including the maximum (rapid) filling phase.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.65
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
 CLM-CVS-2493448DCCA3E8
 
 ## concept_id
@@ -1496,50 +1012,6 @@ none
 
 ## confidence
 0.9
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-3732E943D2A4D6
-
-## concept_id
-CON-CVS-3732E943D2A4D6
-
-## subject
-Cardiac reserve
-
-## predicate
-is defined as
-
-## object
-the ability of the heart to increase its output above baseline levels in response to physiological demands
-
-## display_text
-Cardiac reserve is defined as the ability of the heart to increase its output above baseline levels in response to physiological demands.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.95
 
 ## freshness
 stable_local_curriculum_fact

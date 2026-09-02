@@ -452,46 +452,6 @@ no
 # Item
 
 ## id
-CIT-CVS-C0ADE9E8979F5A
-
-## claim_id
-CLM-CVS-C0ADE9E8979F5A
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Right coronary artery. Origin: from the anterior aortic sinus of the ascending aorta.
-
-## locator_type
-page
-
-## locator_page
-36
-
-## locator_section
-Anatomy section, coronary arteries
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.8
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-D6166DE26FC349
 
 ## claim_id
@@ -612,46 +572,6 @@ no
 # Item
 
 ## id
-CIT-CVS-C2C8702CBA09CC
-
-## claim_id
-CLM-CVS-C2C8702CBA09CC
-
-## resource_id
-src_876c2bd15d1bf71629c5
-
-## evidence_role
-local_curriculum
-
-## support_span
-Standard leg/foot vascular anatomy; no exact-phrase match located via grep in the Anatomy CVS department book.
-
-## locator_type
-general
-
-## locator_page
-
-
-## locator_section
-Anatomy department book, leg and foot arteries
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-No exact-phrase match for this specific framing was located via pagetext.mjs grep in the department book; the fact itself is standard curriculum teaching consistent with the book's own surrounding chapter, cited per the honest evidence-gap note on this concept's own record.
-
-## confidence
-0.6
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-5B0C381101C0A4
 
 ## claim_id
@@ -683,46 +603,6 @@ The MED105 Cardiovascular system department book states this directly in its own
 
 ## confidence
 0.6
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-9947504F986142
-
-## claim_id
-CLM-CVS-9947504F986142
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Phase 2 (Plateau): In this phase, there is a balance between inward current caused by Ca2+ influx (through L-type calcium channels) and outward currents caused by K+ efflux. This leads to plateau around zero M.V.
-
-## locator_type
-page
-
-## locator_page
-51
-
-## locator_section
-Physiology section, cardiac action potential
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.9
 
 ## counts_as_claim_evidence
 no
@@ -772,86 +652,6 @@ no
 # Item
 
 ## id
-CIT-CVS-73C75ED6DFDD91
-
-## claim_id
-CLM-CVS-73C75ED6DFDD91
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Supernormal phase of excitability (vulnerable period): the cardiac muscle can be excited by a weak stimulus (subthreshold). This period is a dangerous period because... It coincides with the last 1/2 of repolarization.
-
-## locator_type
-page
-
-## locator_page
-53
-
-## locator_section
-Physiology section, refractory periods
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.9
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-84C54F9C48D1C1
-
-## claim_id
-CLM-CVS-84C54F9C48D1C1
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Standard pacemaker-versus-working-myocyte action potential physiology, consistent with this book's own action-potential chapter; the specific pacemaker-cell framing was not isolated as an exact-phrase grep hit distinct from the plateau-phase citation above.
-
-## locator_type
-general
-
-## locator_page
-
-
-## locator_section
-Physiology section, cardiac action potential
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-No exact-phrase match for this specific framing was located via pagetext.mjs grep in the department book; the fact itself is standard curriculum teaching consistent with the book's own surrounding chapter, cited per the honest evidence-gap note on this concept's own record.
-
-## confidence
-0.7
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-5419DA4CEFDBB6
 
 ## claim_id
@@ -883,46 +683,6 @@ The MED105 Cardiovascular system department book states this directly in its own
 
 ## confidence
 0.9
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-A275BC451FCD18
-
-## claim_id
-CLM-CVS-A275BC451FCD18
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Standard AV-node conduction-delay physiology, consistent with this book's own conducting-system chapter; no exact-phrase quote isolated via grep distinct from the Bainbridge/plateau citations already confirmed.
-
-## locator_type
-general
-
-## locator_page
-
-
-## locator_section
-Physiology section, cardiac conduction
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-No exact-phrase match for this specific framing was located via pagetext.mjs grep in the department book; the fact itself is standard curriculum teaching consistent with the book's own surrounding chapter, cited per the honest evidence-gap note on this concept's own record.
-
-## confidence
-0.7
 
 ## counts_as_claim_evidence
 no
@@ -972,86 +732,6 @@ no
 # Item
 
 ## id
-CIT-CVS-58B94753646870
-
-## claim_id
-CLM-CVS-58B94753646870
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Contractility of cardiac muscle. [listed among the four physiological properties of cardiac muscle]
-
-## locator_type
-page
-
-## locator_page
-61
-
-## locator_section
-Physiology section, properties of cardiac muscle
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.75
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-948548A19D49EF
-
-## claim_id
-CLM-CVS-948548A19D49EF
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Frank-starling law: This mechanism states that the force of contraction of cardiac muscle is directly [related to the initial length of the fibre]
-
-## locator_type
-page
-
-## locator_page
-62
-
-## locator_section
-Physiology section, cardiac performance
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.9
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-ED9A0CCE4C631F
 
 ## claim_id
@@ -1083,86 +763,6 @@ No exact-phrase match for this specific framing was located via pagetext.mjs gre
 
 ## confidence
 0.6
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-8FEA34878D341E
-
-## claim_id
-CLM-CVS-8FEA34878D341E
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-The isovolumetric contraction phase. Ventricular systole begins in this phase. The ventricle contract isometrically and all valves [remain closed]
-
-## locator_type
-page
-
-## locator_page
-67
-
-## locator_section
-Physiology section, cardiac cycle
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.9
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-6C2A38EA5B232E
-
-## claim_id
-CLM-CVS-6C2A38EA5B232E
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-2. Atrial pressure: Increases due to increased venous return coming from the periphery.
-
-## locator_type
-page
-
-## locator_page
-68
-
-## locator_section
-Physiology section, cardiac cycle, atrial pressure curve
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.65
 
 ## counts_as_claim_evidence
 no
@@ -1292,46 +892,6 @@ no
 # Item
 
 ## id
-CIT-CVS-8B779861E1A486
-
-## claim_id
-CLM-CVS-8B779861E1A486
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Standard cardiac-cycle valve-state physiology, consistent with this book's own cardiac-cycle chapter (p66-73); no isolated exact-phrase match for this specific valve-state framing distinct from the isovolumetric-contraction citation already confirmed.
-
-## locator_type
-general
-
-## locator_page
-
-
-## locator_section
-Physiology section, cardiac cycle
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-No exact-phrase match for this specific framing was located via pagetext.mjs grep in the department book; the fact itself is standard curriculum teaching consistent with the book's own surrounding chapter, cited per the honest evidence-gap note on this concept's own record.
-
-## confidence
-0.65
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
 CIT-CVS-2493448DCCA3E8
 
 ## claim_id
@@ -1363,46 +923,6 @@ The MED105 Cardiovascular system department book states this directly in its own
 
 ## confidence
 0.9
-
-## counts_as_claim_evidence
-no
-
----
-
-# Item
-
-## id
-CIT-CVS-3732E943D2A4D6
-
-## claim_id
-CLM-CVS-3732E943D2A4D6
-
-## resource_id
-src_5ca028d96bdca72569d0
-
-## evidence_role
-local_curriculum
-
-## support_span
-Cardiac reserve. It refers to the ability of the heart to increase its output above baseline levels in response to [physiological demand]
-
-## locator_type
-page
-
-## locator_page
-85
-
-## locator_section
-Physiology section, cardiac reserve
-
-## locator_detail
-Native text extracted with pagetext.mjs show/grep (pdftotext-backed) from the department book PDF; no OCR.
-
-## context_note
-The MED105 Cardiovascular system department book states this directly in its own text, extracted via pagetext.mjs (native pdftotext, no OCR).
-
-## confidence
-0.95
 
 ## counts_as_claim_evidence
 no

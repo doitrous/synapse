@@ -951,7 +951,7 @@ CON-CVS-FB707E448E503C
 CON-CVS-FB707E448E503C
 
 ## contextual_concept_ids
-CON-CVS-C2C8702CBA09CC
+CON-MSK-0415214C935D2D
 
 ## difficulty
 Moderate
@@ -1244,7 +1244,7 @@ CON-CVS-1BAC795EE1ECE7
 CON-CVS-1BAC795EE1ECE7
 
 ## contextual_concept_ids
-CON-CVS-A275BC451FCD18
+CON-CVS-9B1C94AF064C3D
 
 ## difficulty
 Moderate
@@ -1537,7 +1537,7 @@ CON-CVS-1457E145410C1C
 CON-CVS-1457E145410C1C
 
 ## contextual_concept_ids
-CON-CVS-C0ADE9E8979F5A
+CON-CVS-2A21F1B4F30B61
 
 ## difficulty
 Moderate
@@ -1678,10 +1678,10 @@ Anatomy
 Coronary vessels
 
 ## main_concept
-CON-CVS-C0ADE9E8979F5A
+CON-CVS-2A21F1B4F30B61
 
 ## concept_ids
-CON-CVS-C0ADE9E8979F5A
+CON-CVS-2A21F1B4F30B61
 
 ## contextual_concept_ids
 CON-CVS-1457E145410C1C
@@ -2265,10 +2265,10 @@ Anatomy
 Leg and foot arteries
 
 ## main_concept
-CON-CVS-C2C8702CBA09CC
+CON-MSK-0415214C935D2D
 
 ## concept_ids
-CON-CVS-C2C8702CBA09CC
+CON-MSK-0415214C935D2D
 
 ## contextual_concept_ids
 CON-CVS-FB707E448E503C
@@ -2558,10 +2558,10 @@ Anatomy
 Coronary vessels
 
 ## main_concept
-CON-CVS-C0ADE9E8979F5A
+CON-CVS-2A21F1B4F30B61
 
 ## concept_ids
-CON-CVS-C0ADE9E8979F5A
+CON-CVS-2A21F1B4F30B61
 
 ## contextual_concept_ids
 CON-CVS-1457E145410C1C
@@ -2699,13 +2699,13 @@ Physiology
 Cardiac action potential phases
 
 ## main_concept
-CON-CVS-9947504F986142
+CON-CVS-D0CD4A234205EF
 
 ## concept_ids
-CON-CVS-9947504F986142
+CON-CVS-D0CD4A234205EF
 
 ## contextual_concept_ids
-CON-CVS-84C54F9C48D1C1
+CON-CVS-A4657614AE6923
 
 ## difficulty
 Moderate
@@ -2755,7 +2755,7 @@ MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
 ## question_only_for
 
 ## library_ids
-ART-CVS-MU105-CONTRACTILITY-PLATEAU
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
 
 ## resource_ids
 src_5ca028d96bdca72569d0
@@ -2980,10 +2980,10 @@ Physiology
 Refractory periods and excitability
 
 ## main_concept
-CON-CVS-73C75ED6DFDD91
+CON-CVS-5288011D93888B
 
 ## concept_ids
-CON-CVS-73C75ED6DFDD91
+CON-CVS-5288011D93888B
 
 ## contextual_concept_ids
 
@@ -3120,13 +3120,13 @@ Physiology
 Pacemaker action potential
 
 ## main_concept
-CON-CVS-84C54F9C48D1C1
+CON-CVS-A4657614AE6923
 
 ## concept_ids
-CON-CVS-84C54F9C48D1C1
+CON-CVS-A4657614AE6923
 
 ## contextual_concept_ids
-CON-CVS-9947504F986142
+CON-CVS-D0CD4A234205EF
 
 ## difficulty
 Moderate
@@ -3176,7 +3176,7 @@ MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
 ## question_only_for
 
 ## library_ids
-ART-CVS-MU105-CONTRACTILITY-PLATEAU
+ART-CVS-CARDIAC-PACEMAKER-AP
 
 ## resource_ids
 src_5ca028d96bdca72569d0
@@ -3542,10 +3542,10 @@ Physiology
 AV node conduction
 
 ## main_concept
-CON-CVS-A275BC451FCD18
+CON-CVS-9B1C94AF064C3D
 
 ## concept_ids
-CON-CVS-A275BC451FCD18
+CON-CVS-9B1C94AF064C3D
 
 ## contextual_concept_ids
 
@@ -3682,10 +3682,10 @@ Physiology
 AV node conduction
 
 ## main_concept
-CON-CVS-A275BC451FCD18
+CON-CVS-9B1C94AF064C3D
 
 ## concept_ids
-CON-CVS-A275BC451FCD18
+CON-CVS-9B1C94AF064C3D
 
 ## contextual_concept_ids
 
@@ -3963,13 +3963,13 @@ Physiology
 Cardiac contractility
 
 ## main_concept
-CON-CVS-58B94753646870
+CON-CVS-859114E6FE6C90
 
 ## concept_ids
-CON-CVS-58B94753646870
+CON-CVS-859114E6FE6C90
 
 ## contextual_concept_ids
-CON-CVS-948548A19D49EF
+CON-CVS-3142C436848ABD
 
 ## difficulty
 Easy
@@ -4019,7 +4019,7 @@ MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
 ## question_only_for
 
 ## library_ids
-ART-CVS-MU105-CONTRACTILITY-PLATEAU
+ART-CVS-CONDUCTION-CONTRACTILITY
 
 ## resource_ids
 src_5ca028d96bdca72569d0
@@ -4104,13 +4104,13 @@ Physiology
 Frank-Starling law
 
 ## main_concept
-CON-CVS-948548A19D49EF
+CON-CVS-3142C436848ABD
 
 ## concept_ids
-CON-CVS-948548A19D49EF
+CON-CVS-3142C436848ABD
 
 ## contextual_concept_ids
-CON-CVS-58B94753646870
+CON-CVS-859114E6FE6C90
 
 ## difficulty
 Moderate
@@ -4160,7 +4160,7 @@ MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
 ## question_only_for
 
 ## library_ids
-ART-CVS-MU105-CONTRACTILITY-PLATEAU
+ART-CVS-CONDUCTION-CONTRACTILITY
 
 ## resource_ids
 src_5ca028d96bdca72569d0
@@ -4246,10 +4246,10 @@ Physiology
 Cardiac contractility
 
 ## main_concept
-CON-CVS-58B94753646870
+CON-CVS-859114E6FE6C90
 
 ## concept_ids
-CON-CVS-58B94753646870
+CON-CVS-859114E6FE6C90
 
 ## contextual_concept_ids
 
@@ -4301,7 +4301,7 @@ MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
 ## question_only_for
 
 ## library_ids
-ART-CVS-MU105-CONTRACTILITY-PLATEAU
+ART-CVS-CONDUCTION-CONTRACTILITY
 
 ## resource_ids
 src_5ca028d96bdca72569d0
@@ -4526,10 +4526,10 @@ Physiology
 Cardiac cycle phases
 
 ## main_concept
-CON-CVS-8FEA34878D341E
+CON-CVS-F51E391CCECE6A
 
 ## concept_ids
-CON-CVS-8FEA34878D341E
+CON-CVS-F51E391CCECE6A
 
 ## contextual_concept_ids
 CON-CVS-A7220E2C8D6103
@@ -4667,13 +4667,13 @@ Physiology
 Atrial pressure curve
 
 ## main_concept
-CON-CVS-6C2A38EA5B232E
+CON-CVS-B8AFC98120E132
 
 ## concept_ids
-CON-CVS-6C2A38EA5B232E
+CON-CVS-B8AFC98120E132
 
 ## contextual_concept_ids
-CON-CVS-8FEA34878D341E
+CON-CVS-F51E391CCECE6A
 
 ## difficulty
 Hard
@@ -5372,13 +5372,13 @@ Physiology
 Cardiac cycle valve states
 
 ## main_concept
-CON-CVS-8B779861E1A486
+CON-CVS-F51E391CCECE6A
 
 ## concept_ids
-CON-CVS-8B779861E1A486
+CON-CVS-F51E391CCECE6A
 
 ## contextual_concept_ids
-CON-CVS-8FEA34878D341E
+CON-CVS-F51E391CCECE6A
 
 ## difficulty
 Moderate
@@ -5795,13 +5795,13 @@ Physiology
 Cardiac reserve
 
 ## main_concept
-CON-CVS-3732E943D2A4D6
+CON-CVS-A99309543A270D
 
 ## concept_ids
-CON-CVS-3732E943D2A4D6
+CON-CVS-A99309543A270D
 
 ## contextual_concept_ids
-CON-CVS-58B94753646870
+CON-CVS-859114E6FE6C90
 
 ## difficulty
 Easy
