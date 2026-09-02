@@ -36,8 +36,8 @@
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 9 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
-    Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
-    Cytogenetics — Cell Renewal Classification — 3 questions, 1 concepts
+    Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 7 questions, 1 concepts
+    Cytogenetics — Cell Renewal Classification — 6 questions, 1 concepts
     Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 26 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  211 questions were excluded and 0 held back for having no
+  212 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -5078,6 +5078,7 @@ Necrosis is pathological cell swelling and rupture; apoptosis is a programmed, a
 necrosis-vs-apoptosis.comparison
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
 ## article_ids
 +ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH

@@ -49,6 +49,54 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // kasr-104-author-run45: Cell Division cluster. Matches this leaf's
+      // own concept definition almost verbatim.
+      key: "cannot-divide-but-replaced-from-stem-cell-such-as-blood-cell-142667f7",
+      conceptKey: "specialized-cell-renewal.classification-by-ability-to-reproduce",
+      difficulty: "Easy",
+      questionType: "Classification",
+      learningObjective: "Name continuously renewing cells as end cells that cannot themselves divide but are replaced from stem cells, the class blood cells belong to.",
+      explanations: {
+        A: "Non-renewing cells are never replaced once lost at all; blood cells, by contrast, are continually replaced throughout life from stem cells.",
+        B: "A potentially renewable cell can itself re-enter the cycle and divide when needed; the stem describes an end cell that cannot divide at all, which is not this class.",
+        C: "Continuously renewing cells are end cells that cannot themselves divide but are replaced from stem cells — blood cells are this leaf's own concept's named example. A common trap: reading 'continuously renewing' as continuously dividing, when it is the stem cell behind the end cell that divides, not the end cell itself.",
+        D: "Not applicable — a correct answer is listed among the options.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Cell Division cluster. Matches this leaf's
+      // own concept directly — potentially renewable cells, not non-
+      // renewing ones, are the class that can re-enter the cycle.
+      key: "non-renewing-cells-are-characterized-by-all-the-following-ex-5836a5c6",
+      conceptKey: "specialized-cell-renewal.classification-by-ability-to-reproduce",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that returning to the cycle when replacement is needed describes a potentially renewable cell, not a non-renewing one, against three genuine non-renewing-cell characters.",
+      explanations: {
+        A: "True of non-renewing cells, so not the exception — this leaf's own concept states they leave the cycle in G1 for G0 permanently.",
+        B: "True, so not the exception. A non-renewing cell's exit is permanent — it never divides again once it has left the cycle.",
+        C: "The exception, and the answer. Returning to continue the cycle when replacement is needed describes a potentially renewable cell (this leaf's own liver-cell example), not a non-renewing one, which by definition is not replaced when lost. A common trap: reading 'continuously renewing' as continuously dividing.",
+        D: "True, so not the exception. Cardiac muscle and nerve cells are this leaf's own concept's named examples of non-renewing cells.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Cell Division cluster. Matches this leaf's
+      // own concept directly, cross-referenced against its own kept
+      // sibling question distinguishing epidermal (continuously renewing)
+      // from potentially renewable cells.
+      key: "one-of-the-following-is-a-potentially-renewable-cell-04f21553",
+      conceptKey: "specialized-cell-renewal.classification-by-ability-to-reproduce",
+      difficulty: "Easy",
+      questionType: "Classification",
+      learningObjective: "Name the liver cell as this leaf's own potentially-renewable example, against skin epidermal cells (continuously renewing) and two undifferentiated distractors.",
+      explanations: {
+        A: "The liver cell is this leaf's own named example of a potentially renewable cell — it enters G0 after destruction or partial removal but can re-enter the cycle and divide when replacement is needed.",
+        B: "Skin epidermal cells are continuously renewing, not potentially renewable — this leaf's own sibling question (one-of-the-following-is-a-non-renewing-cell-bbe76c3a) already establishes they are replaced throughout life from the epidermis's basal stem cells, the opposite class from a cell that itself re-enters the cycle.",
+        C: "Plasma cells are not this leaf's own potentially-renewable, liver-cell example — they are terminally differentiated antibody-secreting cells, not a working cell type this leaf's concept classes as able to re-enter the cycle.",
+        D: "Macrophages are not this leaf's own potentially-renewable, liver-cell example — they are differentiated phagocytic cells, not a working cell type this leaf's concept classes as able to re-enter the cycle.",
+      },
+    },
+    {
       key: "one-of-the-following-is-a-non-renewing-cell-bbe76c3a",
       conceptKey: "specialized-cell-renewal.classification-by-ability-to-reproduce",
       difficulty: "Easy",

@@ -36,6 +36,21 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // kasr-104-author-run45: Cell Division cluster. Matches this leaf's
+      // own sourced concept directly, option for option.
+      key: "apoptosis-is-characterized-by-the-following-d02e77f3",
+      conceptKey: "necrosis-vs-apoptosis.comparison",
+      difficulty: "Easy",
+      questionType: "Comparison",
+      learningObjective: "State that apoptosis is an active, programmed cell death, against three statements that instead describe necrosis.",
+      explanations: {
+        A: "Reversed. Apoptosis is not exclusively pathological — this leaf's own concept states it 'may also be pathological or physiological', occurring normally at the end of a cell's lifespan; being purely pathological is instead true of necrosis.",
+        B: "Apoptosis is an active, programmed cell death, occurring normally at the end of a cell's lifespan and, unlike necrosis, may be entirely physiological rather than always pathological.",
+        C: "Reversed. Cells and organelles swelling and bursting is this leaf's own description of necrosis; apoptotic cells instead decrease in size rather than swell.",
+        D: "Reversed. Anoxia, mechanical injury and toxin exposure are this leaf's own stated causes of necrosis, not of apoptosis, which is an internally programmed process rather than one triggered by external injury.",
+      },
+    },
+    {
       key: "nuclei-become-small-dark-9d3f1c39",
       conceptKey: "necrosis-vs-apoptosis.comparison",
       difficulty: "Easy",
@@ -86,6 +101,23 @@ export const LEAF: McqLeafSeed = {
         C: "Dissolution and disappearance of the nucleus is karyolysis, not karyorrhexis.",
         D: "Karyorrhexis is the nucleus and its chromatin fragmenting into pieces, by an endonuclease enzyme. A common trap: assuming both forms of death end differently.",
       },
+    },
+    {
+      // kasr-104-author-run45: Cell Division cluster, excluded. Only 3
+      // options survive extraction (A, B, C — no D), below the platform's
+      // 4-to-5-option import contract, and the same underlying fact
+      // (apoptosis is programmed cell death, not swelling, not caused by
+      // toxins/anoxia) is already taught cleanly this same run via the
+      // sibling row apoptosis-is-characterized-by-the-following-d02e77f3,
+      // with a clean 4-option set.
+      key: "concerning-apoptosis-25140e67",
+      conceptKey: "necrosis-vs-apoptosis.comparison",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 lettered options survived extraction (A, B, C — option D's text is missing entirely), below the platform's 4-to-5-option import contract. The same underlying fact (apoptosis is programmed cell death, distinct from necrosis's swelling and its anoxia/toxin causes) is already taught cleanly this same run via apoptosis-is-characterized-by-the-following-d02e77f3, whose full 4-option set survived intact — no unique teaching content is lost.",
     },
   ],
 }
