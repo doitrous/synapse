@@ -542,3 +542,5 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - AUN-INI-105 (886-item bank): every chapter dispositioned across 15 lanes. Ledger sum printed in the next line of this entry. Held items awaiting Omar's printed-key-vs-fact convention are listed per chapter in the ledger.
 - Assiut still running: CBF-103 lane 2 (OCR), MPT-104 lane 8, PMS-102 lane 4 (OCR). Freed slot → Kasr 208-INT lane 5 (Y2). Fleet 20/20.
 - INI-105 ledger sum: authored=665, held=211, total=876.
+
+### 2026-09-02 — DISPATCHED Alexandria AU-MED-202 (GIT & Nutrition) lane 1, triage-first (Y2 slot; fleet recount showed 19 running). Running now (20): Assiut MPT-104 l8 / CBF-103 l2 / PMS-102 l4; Ain Shams UG l5 / AE l11; Alexandria 203 l7 / 202 l1; Zagazig 105 l3 / 108 l2; Mansoura HBG l2 / PPPM l2 / MSS l3 / AEP l3; FOMSCU MS105 l2 / FBS103 l3; Menoufia MED101 l1; 6 October IPH-108 l1; Kasr 208 l5; MUST CVS-201 t7; Helwan ORL-305 l3.
