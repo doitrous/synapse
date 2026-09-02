@@ -221,20 +221,72 @@ week1-q136/137 muscle spindle, week1-q139/140 Meissner's corpuscle) have `labeli
 left blank and `media_recommendations: Priority: required` per LANE-CARD §4. This closes out
 the Week 1 EOM Final paper (Q1-151) in full: 145 authored, 4 held, 0 remaining.
 
+## Week 2 EOM Final, Q1-60 — lane 7, 2026-09-02
+
+`EOM MCQs - CNS- week 2 Final.pdf` (`src_70b2ac8853db17b047ea`, twinPreferred over the `[from
+Alexandria University Updated]` copy) — `Nervous System/General/Questions/Alpha team/`,
+`textLayer: native`, 27 pages, no OCR needed. 120 numbered MCQs total, five questions/page
+throughout the MCQ pages, with two short-answer/discuss (essay) pages excluded from the
+numbering entirely, each page self-contained with its own inline per-page answer line (same
+reliable format as Week 1 EOM Final). Read `status` → `show` ≤3 pages/call per LANE-CARD §3.
+
+This pass read and triaged the first 60 numbered questions: Q1-30 (mixed cranial nerve
+anatomy and pain physiology, dated "Mon 12th Feb" on p2) and Q31-60 (cranial nerve lesion
+localisation and pharyngeal arch/pouch embryology, dated "Tue 18th Feb" on p9). One
+short-answer/discuss page (p8, 6 items) is essay questions, not MCQs, and was excluded, not
+counted as triaged. All 60 questions keyed from each page's own inline answer line.
+**Q40 held**: the extracted text carries only 3 answer options (a-c: Ectoderm/Endoderm/
+Mesoderm), no fourth choice, confirmed via `pagetext.mjs show` (not an OCR artifact) — a
+genuine source defect, per lane 5/6's <4-option precedent, not authored. **Q5 held from the
+main batch**: "which cranial nerve originates from a contralateral nucleus" (key: trochlear)
+is an exact hit against a live ASU-CNS-3 concept (`CON-NEU-44845BF496BE5F`, trochlear
+nerve/superior cerebellar peduncle decussation at the inferior midbrain level) in
+`docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-final2024-mcq-concepts.md`, not yet imported
+to production — reused via a sparse pending-live overlay
+(`pending-live/AU-MED-203-cns3-final2024-overlay-{concepts,questions}.md`, a separate file pair
+from lane 6's existing CNS-3 overlay since it depends on a different ASU-CNS-3 source file),
+not emitted into the main batch. 58 questions authored and emitted.
+
+All 58 emitted questions were checked via `find-existing.mjs` (label/alias/canonical_key/
+definition terms) against live state, every pending batch (incl. ASU-CNS-3, Helwan ORL-305,
+Kasr) and this module's own quiz1-4/week1a/week1b/week1c concept files before minting;
+`find-existing.mjs` alone was cross-checked by hand-grepping the module's own concept files
+for root terms per LANE-CARD-Y2's "the exact-substring match missed 3 of its own module's
+concepts" warning — this caught 3 more within-module reuses `find-existing.mjs` itself missed
+(`CON-NEU-1D667C44DC5A49` greater petrosal/lacrimal gland, reused for week2-q002 and
+week2-q021; `CON-FND-179C6C75DFDC76` second-arch/facial-nerve derivatives, reused for
+week2-q038 and week2-q059; `CON-NEU-85DFA113A48E73` ansa cervicalis/thyrohyoid C1 supply,
+reused for week2-q044 and week2-q047), plus the module's own `CON-NEU-0DA03F843C21EA`
+primary-cutaneous-hyperalgesia concept (a genuine `find-existing.mjs` hit, reused for
+week2-q016). Within this batch's own 60 questions, 7 near-duplicate angles on the same fact
+were collapsed to one concept each per the module's established precedent
+(vestibulocochlear-purely-sensory ×2, slow-pain-pathway ×2, deep/tendon-pain-character ×2,
+neuropathic-pain-mechanism ×2, eyelid-sensory-nerves ×2, accessory-nerve-posterior-triangle
+was NOT collapsed with the general-cervical-injury item after all — this source keys a
+different nerve, hypoglossal, for the general vignette — and hypoglossal-tongue-deviation ×2)
+— 45 concepts minted in total (34 anatomy incl. 11 pharyngeal-arch embryology `CON-FND-`, 11
+physiology), 49 distinct concepts tested overall counting the 4 own-module reuses. Five
+printed keys diverge from standard teaching or use non-standard framing and are kept per
+LANE-CARD with doubts/notes recorded on the concept record: week2-q013 (upper eyelid
+sensory-supply exception keyed to the frontal nerve rather than the more standard infraorbital
+nerve), week2-q019 (referred pain classed as "a type of secondary hyperalgesia" rather than
+the convergence-projection/facilitation framing tested elsewhere in the same paper),
+week2-q022 (nerve supply to the nasal tip keyed to a single option in the printed table
+despite the composite "all three contribute" teaching point — recorded, not corrected),
+week2-q043 (a general "cervical injury" vignette keyed to the hypoglossal nerve rather than
+the more classically vulnerable accessory nerve) and week2-q046 (stapes origin framed as a
+pharyngeal POUCH fact when standard teaching attributes it to the second pharyngeal ARCH's
+Reichert's cartilage). This closes out Q1-60 of the 120-question Week 2 EOM Final paper: 58
+authored, 2 held, 0 remaining. Q61-120 remain untriaged for a future pass.
+
 ## Not triaged this module (queued, see priority-sources doc for the full list)
 
 - 2 stream-specific EOM finals (`Final CNS مصريين 2027`, `Final CS وافدين 2027`)
 - Mock 2027 question+answer pair (43pg each)
 - `EOM MCQs - Previous Years CNS MCQ with answers.pdf` (87pg — largest single keyed source
   in the module)
-- Week 2 EOM Final (`EOM MCQs - CNS- week 2 Final.pdf`, `src_70b2ac8853db17b047ea`, twinPreferred
-  over the `[from Alexandria University Updated]` copy, 27pg, `textLayer: native`) — surveyed
-  by lane 6, 2026-09-02, not triaged in depth: 120 numbered MCQs (Q1-120, two essay-question
-  pages at p15/p26 excluded), same reliable per-page inline answer-key format as Week 1 EOM
-  Final, sampled at p2-3, p13-15 and p24-26 (start, middle, end) with every sampled page
-  cleanly keyed and no garbling/OCR/visual-key-trap signs — **100% keyed on this sample,
-  triage-ready for a future authoring pass**, not yet read question-by-question or searched
-  via find-existing.mjs.
+- Week 2 EOM Final, Q61-120 (60 of 120 questions remain untriaged after this pass — see the
+  Week 2 section above for Q1-60)
 - 2 further weekly EOM finals (`CNS- week 3/4+5 Final`, page counts not yet checked this pass)
 - 5 further Mock variants (`CNS mock`, `MOCK 1 CNS`, `cns mock exam`, `Mock CNS answers`,
   `mock CNS with answers`)
