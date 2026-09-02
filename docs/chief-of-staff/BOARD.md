@@ -515,3 +515,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ZAGAZIG ZU-MED-105 PP I lane 2 LANDED (32f4d392)
 - امتحانات سابقه pp.5-13 (Q30-76): 22 authored, 21 held (13 dups of lane 1, 7 unmarked, 1 three-option), 4 out of format. Gray-fill key method reused with a fixed x-overlap bug; 5 renders (module total 11/14), 0 mismatches. 21 mints, 0 overlays (professionalism is new territory). 4 keys diverge from conventional teaching, recorded as doubt with the mark standing. batch errors=0 ×3; simulate rejected=0. ≈1.8k tok/q. Source exhausted.
 - Remaining: `mcq شامل.pdf` (44 pp native, unkeyed status) → lane 3 dispatched to triage it. Fleet 20/20.
+
+### 2026-09-02 — FOMSCU SCU-FBS103 lane 2 LANDED (7a4feb34, cb824d01, 089ddf35)
+- 41 authored (27 mints, 14 reuses across Kasr 101/108, AU-105, Helwan GIT-301, Assiut PMS-102, own FBS102), 0 held, 20 keys left (mandibular nerve, 6 histology, 6 micro, sarcodina, 5 pharm, 1 ethics needs Omar). Validator/batch errors=0 ×4. ≈1.5-2k tok/q.
+- The FOMSCU whole-tree simulate rejected=78 is explained: all are FBS103 lane 1's reuse questions whose cited cross-university articles sit outside the FOMSCU tree (dependency class, pass with the deps in the chain); none from lane 2. Not a content defect. LANE-CARD fixes needed: simulate takes an explicit file list (EISDIR on a directory); reuse output goes to `pending-live/`.
+- Lane 3 dispatched on the FBS103 remainder (19 keys) + FBS102 leftovers (anatomy 5, embryology 4). Fleet 20/20.
