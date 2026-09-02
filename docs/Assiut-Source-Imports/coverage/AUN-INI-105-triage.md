@@ -203,20 +203,88 @@ convention for the same subject).
 | 16 | Which wall type has less peptidoglycan | A "Gram negative" | Key uncontested, but only 2 options are printed (Gram negative/Gram positive), short of the seed schema's 4-option floor. |
 | 35 | Structures containing protein EXCEPT | D "Cell membrane" | Defensible, but option A "Plasmids" (DNA, not protein) is equally arguable as the EXCEPT answer; the stem does not disambiguate which was intended. |
 
+## Checkpoint table -- Chapter 1, Q51-100 window (lane 2)
+
+| Module | Questions read | Keys recovered | Authored | Held | Concepts -- live | pending | new |
+|---|--:|--:|--:|--:|--:|--:|--:|
+| AUN-INI-105 (ch1, Q51-100) | 50 | 50 (100%) | 44 | 6 | 9 (incl. reuse of 3 lane-1 mints x 8 uses) | 24 uses across 10 ASU-INF ids | 4 |
+
+- **Questions read (50):** Q51-Q100 of chapter 1 (stems/options via
+  `pagetext.mjs show`, pages 10-18), keyed against the same plain-text
+  ANSWERS table (p26-27) lane 1 read.
+- **Printed-key vs. expected-answer conflicts:** none found in this window
+  -- all 50 keys check out against the obvious textbook fact (unlike Q3/Q5
+  in the Q1-50 window). No new "Needs Omar" ruling item from this window.
+- **Duplicates (6 of 50, all HELD as `duplicate-of`):** the chapter's own
+  recycling, flagged in advance by lane 1's triage, showed up concretely in
+  this window -- Q51 and Q74 both near-restate Q39 (lophotrichous, "...at
+  one pole ... is known as/called"); Q57 and Q68 both near-restate Q47
+  (bacterial spores, reusing its exact "are metabolically active" / "more
+  resistant than vegetative cells" phrasing); Q80 near-restates Q24
+  (bacterial locomotion = flagella, same stem plus a parenthetical);  Q85
+  near-restates Q11 (peritrichous, "distributed ... is known as/called").
+  Every hold is a near-verbatim stem/option match to an already-authored
+  Q1-50 item, not a same-fact-different-phrasing sibling (this bank pairs
+  several same-fact-different-phrasing questions deliberately, e.g. Q44/Q49
+  on endotoxin-LPS, both authored by lane 1 without a hold).
+- **Schema-shape holds:** none in this window -- every candidate question
+  prints 4-5 options.
+- **New concepts minted (4, all AUN-INI-105-native, article 2):** flagellar
+  antigenicity/H-antigen (`CON-INF-BF2E753EF92568`, Q55), protoplast vs.
+  spheroplast (`CON-INF-BD1B74226AE7B2`, Q65/Q82), taxonomy definition
+  (`CON-INF-1D7E6927DF52F6`, Q78), acellular-virus-vs-prokaryote-vs-
+  eukaryote classification (`CON-INF-E3C75AA9B1F5E5`, Q94/Q95). Each
+  cleared `find-existing.mjs` first; the 70S-ribosome and normal-flora
+  candidates initially planned as mints were dropped once
+  `find-existing.mjs` turned up existing pending ASU-INF records
+  (`CON-INF-29351FD540E214`, `CON-INF-0B4BAFFD525FDF`) -- reused instead.
+- **Concept reuse in this window:** live -- `CON-INF-3E6590C8AC2166`
+  (spores, x5), `CON-DEV-FE47A8F9B0768E` (plasmid, x1), `CON-INF-
+  398B4BA280679E` (inclusion granules -- found live via `find-existing.mjs`
+  "inclusion granule", subject tagged `pharm` in its disposition-ledger
+  entry, no local backing article, so this lane's own article 2 picked up
+  a short "Related structures" mention + `associated_with` annotation for
+  it rather than leaving library_ids empty); lane 1's own AUN-INI-105
+  mints -- `CON-INF-52E3C48A1A2AAA` (prokaryote architecture, x7),
+  `CON-INF-E4E8831D2BE517` (flagellar arrangement, x1), `CON-INF-
+  A1043E023CD6FB` (plasma membrane, x1); pending ASU-INF -- the 8 lane 1
+  already overlaid (24 uses across Q52/53/56/58-61/63/67/69/75/76/81/84/
+  87-91/97/100) plus 2 more found by this pass's own searches and newly
+  overlaid: `CON-INF-7CCB09F434AF06` (Mycoplasma sterol),
+  `CON-INF-271E9930B4B73A` (Mycoplasma vs. L-forms).
+
+## Live / pending / new -- Q51-100 search method
+
+Same method as the Q1-50 window: `find-existing.mjs` exact-substring
+search, one term per call. New terms searched this pass: `flagella
+antigen`, `H antigen`, `protoplast`, `spheroplast`, `mycoplasma`,
+`lysozyme`, `Corynebacterium diphtheriae`, `inclusion granule`, `70S
+ribosome`, `polysome`, `taxonomy`, `acellular`, `virus is not a true
+cell`, `virus obligate intracellular`, `normal flora`, `commensal`. Three
+of these (`mycoplasma`, `70S ribosome`, `normal flora`/`commensal`) turned
+up existing pending ASU-INF records that were reused instead of minting;
+one (`inclusion granule`) turned up an existing **live** record.
+
 ## Needs Omar / open items
 
 - Q3 and Q5's transposed-looking keys are worth checking against a second
   copy of this same bank or an official answer sheet, if Omar has one --
   they read as a genuine source-side slip, not an extraction artefact.
+- `CON-INF-398B4BA280679E` (live, reused for Q66) carries `subjectId:
+  pharm` in `docs/medical-library-program/evidence/SYS-INF-disposition-
+  ledger.json` despite being a microbiology/inclusion-granule fact and
+  having no locally-tracked backing article -- worth a look by whoever owns
+  that concept's canonical placement.
 - Chapters 2-11 (725 more items, all confirmed 100%-keyable by the same
-  plain-text-table mechanism) are triaged only at the structural level in
-  this pass -- per-question stems, keys and concept searches queued for a
-  later lane.
+  plain-text-table mechanism) are triaged only at the structural level so
+  far -- per-question stems, keys and concept searches queued for a later
+  lane. Chapter 1 itself still has Q101-Q161 outstanding.
 - `Week 6 INI Quizzes.pdf`, `Formative 7 INI answered .pdf` (both fully
   garbled) and `INI All GDs - solved.pdf` (40 garbled pages) remain out of
   scope per the dispatch -- left for a later lane with OCR budget.
-- The True/False block inside chapter 5 (Q75-84, 10 items) is a different
-  question shape (2-valued, no lettered options) from the rest of the bank
-  -- not authored this pass; a later lane should confirm whether the
-  standard MCQ seed schema is the right vehicle for it or whether it needs
-  its own handling.
+- The True/False block inside **chapter 5** (Q75-84 of chapter 5, 10 items
+  -- not to be confused with chapter 1's own Q75-84, both authored this
+  pass) is a different question shape (2-valued, no lettered options) --
+  not authored this pass; a later lane should confirm whether the standard
+  MCQ seed schema is the right vehicle for it or whether it needs its own
+  handling.

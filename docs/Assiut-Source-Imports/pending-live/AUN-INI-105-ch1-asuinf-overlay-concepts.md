@@ -1,5 +1,5 @@
 <!--
-  Sparse overlays on eight pending Ain-Shams ASU-INF microbiology concepts,
+  Sparse overlays on twelve pending Ain-Shams ASU-INF microbiology concepts,
   which are live only in the Ain-Shams Year-1 lane's unimported batch
   (docs/import-ready/concept/ASU-INF-microbiology-concepts.md /
   docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md).
@@ -10,9 +10,17 @@
   cell-wall, toxin, capsule, pili, flagellin and mesosome facts Ain Shams's
   own infection module already covers (coverage/AUN-INI-105-triage.md).
 
+  The first eight items were overlaid by lane 1 (Q1-Q50). Lane 2 (Q51-Q100)
+  appends four more rows below, found by this pass's own find-existing.mjs
+  searches: CON-INF-7CCB09F434AF06 (Mycoplasma membrane sterol),
+  CON-INF-271E9930B4B73A (Mycoplasma vs L-forms), CON-INF-29351FD540E214
+  (70S ribosome / protein synthesis) and CON-INF-0B4BAFFD525FDF
+  (host-microbe relationships: parasitism/commensalism/mutualism).
+
   Apply after: the ASU-INF-microbiology-concepts.md batch. Import: Admin >
   Concepts import. Then apply this file. Then apply
-  AUN-INI-105-ch1-asuinf-questions.md.
+  AUN-INI-105-ch1-asuinf-questions.md and
+  AUN-INI-105-ch1-part2-asuinf-questions.md.
 -->
 
 # Item
@@ -155,6 +163,82 @@ CON-INF-C87DF729E2ADDF
 
 ## canonical_key
 bacteria.toxins.exotoxin-vs-endotoxin
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-INI-105
+
+---
+
+# Item
+
+## id
+CON-INF-7CCB09F434AF06
+
+## canonical_key
+mycoplasma.cell-membrane.contains-sterol
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-INI-105
+
+---
+
+# Item
+
+## id
+CON-INF-271E9930B4B73A
+
+## canonical_key
+mycoplasma.vs-l-forms.genetic-vs-induced-wall-loss
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-INI-105
+
+---
+
+# Item
+
+## id
+CON-INF-29351FD540E214
+
+## canonical_key
+bacteria.ribosome.70s-protein-synthesis
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-INI-105
+
+---
+
+# Item
+
+## id
+CON-INF-0B4BAFFD525FDF
+
+## canonical_key
+bacteria.host-relationships.parasitism-commensalism-mutualism
 
 ## universities
 +aun

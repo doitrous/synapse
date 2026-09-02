@@ -1,10 +1,11 @@
 # AUN-INI-105 -- Chapter 1 "Bacterial cell structure" triage keys (source: INI MCQ .pdf)
-# One question per line, Q1-Q50 window (coverage/AUN-INI-105-triage.md).
+# One question per line. Q1-Q50 window from lane 1; Q51-Q100 window from
+# lane 2 (coverage/AUN-INI-105-triage.md).
 # Key format is chapter-1-scoped (`ini-mcq-qNNN` = chapter 1's own Q-number) --
 # every other chapter also restarts numbering at 1, so a later lane touching
 # chapter 2 onward must use a disambiguated prefix (e.g. ini-mcq-ch2-qNNN).
 # ledger.mjs strips everything from "#" onward before comparing against a seed's
-# short `key`, so these tokens reconcile exactly against the two seed files.
+# short `key`, so these tokens reconcile exactly against the four seed files.
 
 ini-mcq-q001  # -- plasmid: accessory extrachromosomal DNA -- live (CON-DEV-FE47A8F9B0768E)
 ini-mcq-q002  # -- clone: population from a single parent cell -- new
@@ -56,6 +57,57 @@ ini-mcq-q047  # -- bacterial spores: false is "metabolically active" -- live (CO
 ini-mcq-q048  # -- pili occur in motile and non-motile strains -- pending (ASU-INF CON-INF-BC446C9816D9CE)
 ini-mcq-q049  # -- lipopolysaccharide responsible for endotoxin activity -- pending (ASU-INF CON-INF-0DD46C0FD80938)
 ini-mcq-q050  # -- NOT exotoxin property: coded by chromosome -- pending (ASU-INF CON-INF-C87DF729E2ADDF)
+
+ini-mcq-q051  # -- lophotrichous: multiple polar flagella -- HELD, near-verbatim duplicate of q039
+ini-mcq-q052  # -- pilus mediates adherence to mucous membranes -- pending (ASU-INF CON-INF-BC446C9816D9CE)
+ini-mcq-q053  # -- thick vs thin peptidoglycan is the gram+/- wall difference -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q054  # -- bacterial spores: metabolically inactive, survive years -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q055  # -- flagella ARE antigenic (H antigen), unrelated to human structures -- new (mint) + pending contextual
+ini-mcq-q056  # -- peptidoglycan thicker in gram-positive, not thinner -- pending (ASU-INF CON-INF-3FBC905C4F778F)
+ini-mcq-q057  # -- bacterial spores EXCEPT (metabolic activity) -- HELD, near-verbatim duplicate of q047
+ini-mcq-q058  # -- mycoplasma membrane contains sterol -- pending (ASU-INF CON-INF-7CCB09F434AF06)
+ini-mcq-q059  # -- bacterial respiratory enzymes in cytoplasmic membrane/mesosome -- pending (ASU-INF CON-INF-E4012E20B5A13D)
+ini-mcq-q060  # -- peptidoglycan maintains rigidity and shape -- pending (ASU-INF CON-INF-3FBC905C4F778F)
+ini-mcq-q061  # -- Lipid A is the toxic moiety of endotoxin -- pending (ASU-INF CON-INF-C87DF729E2ADDF)
+ini-mcq-q062  # -- plasmids play no role in cell division -- live (CON-DEV-FE47A8F9B0768E)
+ini-mcq-q063  # -- cell wall responsible for staining affinity -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q064  # -- mycoplasma naturally resistant to penicillin (no wall) -- pending (ASU-INF CON-INF-271E9930B4B73A)
+ini-mcq-q065  # -- protoplast = gram-positive + lysozyme -- new (mint)
+ini-mcq-q066  # -- Corynebacterium diphtheriae stores metachromatic granules -- live (CON-INF-398B4BA280679E)
+ini-mcq-q067  # -- capsule not exclusively formed outside the host -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q068  # -- bacterial spores INCORRECT (metabolic activity) -- HELD, near-verbatim duplicate of q047
+ini-mcq-q069  # -- Bacillus anthracis capsule is polypeptide, not polysaccharide -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q070  # -- spore formation: adverse conditions + nucleoprotein concentration -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q071  # -- nuclear membrane absent from prokaryotic cell -- new (AUN mint, lane 1 concept)
+ini-mcq-q072  # -- bacterial chromosome double-stranded and circular -- new (AUN mint, lane 1 concept)
+ini-mcq-q073  # -- Vibrio cholerae is monotrichous -- new (AUN mint, lane 1 concept)
+ini-mcq-q074  # -- lophotrichous: tuft of flagella at one pole -- HELD, near-verbatim duplicate of q039
+ini-mcq-q075  # -- bacterial ribosomes found in polysomes -- pending (ASU-INF CON-INF-29351FD540E214)
+ini-mcq-q076  # -- lysozyme causes irregular shape -- pending (ASU-INF CON-INF-3FBC905C4F778F)
+ini-mcq-q077  # -- membrane-active antimicrobials alter selective permeability -- new (AUN mint, lane 1 concept)
+ini-mcq-q078  # -- taxonomy = naming/classifying organisms -- new (mint)
+ini-mcq-q079  # -- bacterial spores resistant to boiling, not sensitive -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q080  # -- bacterial locomotion = flagella -- HELD, near-verbatim duplicate of q024
+ini-mcq-q081  # -- outer membrane absent from gram-positive bacteria -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q082  # -- spheroplast = gram-negative + lysozyme -- new (mint)
+ini-mcq-q083  # -- cytoplasmic membrane present in prokaryotes -- pending (ASU-INF CON-INF-29351FD540E214 contextual)
+ini-mcq-q084  # -- cell wall plays no role in respiration -- pending (ASU-INF CON-INF-3FBC905C4F778F)
+ini-mcq-q085  # -- peritrichous: flagella distributed over entire cell -- HELD, near-verbatim duplicate of q011
+ini-mcq-q086  # -- bacterial chromosome circular, not linear -- new (AUN mint, lane 1 concept)
+ini-mcq-q087  # -- penicillin can induce bacterial L-forms -- pending (ASU-INF CON-INF-271E9930B4B73A)
+ini-mcq-q088  # -- capsule helps type (serotype) bacterial species -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q089  # -- endotoxin is a component of the gram-negative cell wall -- pending (ASU-INF CON-INF-0DD46C0FD80938)
+ini-mcq-q090  # -- pili: conjugation (sex pili) and adherence (ordinary pili) -- pending (ASU-INF CON-INF-BC446C9816D9CE)
+ini-mcq-q091  # -- bacterial flagella are protein in nature -- pending (ASU-INF CON-INF-83707B09F53803)
+ini-mcq-q092  # -- bacterial spores destroyed by autoclaving 121C ~20min -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q093  # -- endospores formed outside the host, inside the bacterium -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q094  # -- viruses are not true cells (acellular) -- new (mint)
+ini-mcq-q095  # -- fungi and human cells are eukaryotes -- new (mint)
+ini-mcq-q096  # -- bacterial cell has one circular chromosome, no histones -- new (AUN mint, lane 1 concept)
+ini-mcq-q097  # -- capsule associated with virulence -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q098  # -- prokaryotic cells have no true nucleus -- new (AUN mint, lane 1 concept)
+ini-mcq-q099  # -- bacteria are prokaryotes -- new (AUN mint, lane 1 concept)
+ini-mcq-q100  # -- normal flora best called commensals -- pending (ASU-INF CON-INF-0B4BAFFD525FDF)
 
 # AUN-INI-105 -- Chapter 2 "Bacterial growth" triage keys (source: INI MCQ .pdf,
 # pp.28-37, 60 items, answer table p37). Key format ini-mcq-ch2-qNNN (chapter-2-scoped,

@@ -1,6 +1,6 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
-| ini-mcq | 45 | 5 | 0 | 50 |
+| ini-mcq | 89 | 11 | 0 | 100 |
 | ini-mcq-ch2 | 52 | 8 | 0 | 60 |
 
 ## Held
@@ -9,6 +9,12 @@
 - ini-mcq-q013 — source prints only 2 options (Thicker/Thinner), short of the seed schema 4-option floor
 - ini-mcq-q016 — source prints only 2 options (Gram negative/Gram positive), short of the seed schema 4-option floor
 - ini-mcq-q035 — printed key (D, Cell membrane) is ambiguous against option A (Plasmids, also arguably not protein) for the EXCEPT stem
+- ini-mcq-q051 — near-verbatim restatement of ini-mcq-q039 (lophotrichous): "multiple polar flagella ... is known as" vs Q39's "group of flagella at one pole ... is known as" -- duplicate-of ini-mcq-q039
+- ini-mcq-q057 — near-identical EXCEPT template and false claim to ini-mcq-q047 (bacterial spores metabolic activity) -- duplicate-of ini-mcq-q047
+- ini-mcq-q068 — reuses ini-mcq-q047's exact option wording ("are metabolically active", "more resistant than vegetative cells") -- duplicate-of ini-mcq-q047
+- ini-mcq-q074 — near-verbatim restatement of ini-mcq-q039 (lophotrichous): "tuft of flagella at one pole ... is called" vs Q39's "group of flagella at one pole ... is known as" -- duplicate-of ini-mcq-q039
+- ini-mcq-q080 — near-verbatim restatement of ini-mcq-q024 (bacterial locomotion = flagella): "Bacterial locomotion (motility) is accomplished by?" vs Q24's "Bacterial locomotion is accomplished by?" -- duplicate-of ini-mcq-q024
+- ini-mcq-q085 — near-verbatim restatement of ini-mcq-q011 (peritrichous): "distributed over the entire cell ... is known as" vs Q11's "distributed all around a bacterial cell ... is called" -- duplicate-of ini-mcq-q011
 - ini-mcq-ch2-q020 — figure-dependent question -- the stem refers to "this Figure" showing growth-curve phases labelled A/B/C/D, but the source's diagram is not extractable as text (pagetext.mjs reads plain text only, per the lane's text-only reading method); without seeing which curve segment is labelled A/B/C/D, the printed key (B) cannot be verified or authored from the stem alone
 - ini-mcq-ch2-q028 — duplicate-of ini-mcq-ch2-q016 -- near-verbatim restatement of "organism that can use only molecular oxygen as the final acceptor" (Obligate aerobes), differing only in swapping the fourth distractor (Microaerophilic vs Strict anaerobes) and adding a fifth "None of these" option
 - ini-mcq-ch2-q031 — duplicate-of ini-mcq-ch2-q008 -- near-verbatim restatement of "convalescence phase of an infectious disease corresponds to which phase of bacterial growth" (Decline phase), differing only by an added fifth "Retardation phase" distractor

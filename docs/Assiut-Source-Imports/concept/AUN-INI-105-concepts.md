@@ -905,3 +905,590 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "virulence factor" -- returned only single-factor records (capsule-specific); the four-item overview list this question tests is not covered by any of them, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-BF2E753EF92568
+
+## label
+Bacterial flagella are strongly antigenic (the H antigen), unrelated to any human structure
+
+## canonical_key
+teaching.microbiology.flagella.h-antigen-antigenicity
+
+## aliases
+H antigen
+Flagellar antigen
+Somatic (O) vs flagellar (H) antigen
+
+## arabic_label
+الأسواط البكتيرية مستضدة بقوة (مستضد H)
+
+## arabic_aliases
+مستضد الأسواط
+
+## definition
+Bacterial flagella are strongly antigenic: their surface protein, flagellin, is recognised by the host immune system as the flagellar (H) antigen, used alongside the somatic (O) antigen to serotype organisms such as Salmonella and E. coli. This antigenicity is a direct consequence of the flagellum's protein composition, not a shared trait with any human structure -- human cells possess no flagellum built from bacterial-type flagellin, so the two are neither structurally nor antigenically related.
+
+## explicit_objective
+State that bacterial flagella are antigenic (the H antigen), used in serotyping, and are not shared with or similar to any human structure.
+
+## pitfalls
+Assuming flagella are "self-like" or nonantigenic because some human cells (e.g. sperm) carry flagella-like structures -- the bacterial flagellum's flagellin protein is antigenically and structurally distinct from any human structure, and it does provoke a specific antibody response (anti-H antibody).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial cell structure
+
+## subtopic
+Flagellar arrangement
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.25
+
+## exam_weight_by_year
+AUN_Y1=0.25
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Each of the following statements concerning the surface structures of bacteria is correct EXCEPT? ... Bacterial flagella are nonantigenic in humans because they closely resemble human flagella in chemical composition" (Q55).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "flagella antigen" and "H antigen" -- no matching record (the "H antigen" search returned only unrelated immunology hits on the bare substring "antigen"), safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-BD1B74226AE7B2
+
+## label
+Lysozyme strips the wall of a Gram-positive cell into a protoplast, and of a Gram-negative cell into a spheroplast
+
+## canonical_key
+teaching.microbiology.cell-wall.protoplast-vs-spheroplast
+
+## aliases
+Protoplast
+Spheroplast
+Wall-less bacterial forms
+
+## arabic_label
+البروتوبلاست والسفيروبلاست
+
+## arabic_aliases
+الخلية العارية من الجدار
+
+## definition
+Treating a bacterium with lysozyme (or another wall-degrading agent) in an osmotically protective medium strips away its peptidoglycan. A Gram-positive cell, which has only a peptidoglycan wall external to its membrane, is left as a fully wall-less protoplast; a Gram-negative cell, whose outer membrane survives lysozyme treatment, is left as a spheroplast that still carries a residual outer-membrane layer. Neither form can replicate, and both lyse osmotically without the protective medium.
+
+## explicit_objective
+Distinguish a protoplast (complete wall loss, from a Gram-positive cell) from a spheroplast (partial wall loss retaining the outer membrane, from a Gram-negative cell), and state that neither can replicate outside an osmotically protective medium.
+
+## pitfalls
+Reversing which Gram type yields which structure -- protoplast is the Gram-positive result (no outer membrane to begin with, so nothing is left but the membrane-bound cytoplasm), spheroplast is the Gram-negative result (the outer membrane persists as a residual layer).
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial cell structure
+
+## subtopic
+Cell-wall-deficient bacterial forms
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-INF-271E9930B4B73A
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Protoplasts have the following characters EXCEPT? ... Gram negative bacteria" (Q65); "They are formed from gram negative bacteria if they are treated with lysozyme? ... Spheroplast" (Q82).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+The pending ASU-INF Mycoplasma-vs-L-forms record (CON-INF-271E9930B4B73A) covers antibiotic/enzyme-induced wall loss in general terms (L-forms) but does not name or distinguish the protoplast/spheroplast pair specifically -- related via shared theme (linked in related_concept_ids), not merged.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "protoplast" and "spheroplast" -- 0 hits each, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-1D7E6927DF52F6
+
+## label
+Taxonomy is the science of naming, describing and classifying organisms
+
+## canonical_key
+teaching.microbiology.taxonomy.definition
+
+## aliases
+Nomenclature
+Classification of organisms
+
+## arabic_label
+علم التصنيف (التاكسونومي)
+
+## arabic_aliases
+علم تسمية الكائنات الحية
+
+## definition
+Taxonomy is the scientific discipline concerned with naming, describing and classifying organisms into a hierarchical, ordered system (e.g. genus and species). It is distinct from unrelated fields that share superficial vocabulary or subject matter, such as bioinformatics (computational analysis of biological data), molecular biology (the study of biological molecules and their interactions) and cosmology (the study of the universe's origin and structure), none of which concerns the naming and classification of organisms.
+
+## explicit_objective
+Identify taxonomy as the science of naming, describing and classifying organisms, distinct from bioinformatics, molecular biology and cosmology.
+
+## pitfalls
+Confusing taxonomy with the broader field of molecular biology or with bioinformatics, since modern classification increasingly uses molecular/genomic data as a tool -- the tool is not the discipline itself.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial cell structure
+
+## subtopic
+Foundations
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.15
+
+## exam_weight_by_year
+AUN_Y1=0.15
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.4
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Nomenclature of living organisms is a science called? ... Taxonomy" (Q78).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "taxonomy" -- only turned up narrower parasite-taxonomy article/concept records in an unrelated module (MUST FHB-102-2); no general definitional record for taxonomy itself, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-E3C75AA9B1F5E5
+
+## label
+A virus is acellular; fungi and human cells are eukaryotic, bacteria are prokaryotic
+
+## canonical_key
+teaching.microbiology.cell-biology.acellular-vs-prokaryote-vs-eukaryote
+
+## aliases
+Acellular organism
+True cell classification
+Prokaryote vs eukaryote membership
+
+## arabic_label
+تصنيف الخلايا: لا خلوي مقابل بدائي ومقابل حقيقي النواة
+
+## arabic_aliases
+الفيروس كائن لا خلوي
+
+## definition
+Every true, living cell is either prokaryotic (bacteria, with no membrane-bound nucleus) or eukaryotic (fungi, human and other animal cells, with a true membrane-bound nucleus and organelles). A virus is not a true cell at all -- it is an acellular, obligate intracellular particle that has no independent metabolism, no ribosomes of its own, and cannot reproduce outside a host cell, unlike bacteria and fungi, which are both independently living cellular organisms.
+
+## explicit_objective
+Classify bacteria as prokaryotic, fungi and human cells as eukaryotic, and viruses as acellular (not true cells at all).
+
+## pitfalls
+Treating a virus as a (very small) type of cell or bacterium, rather than as a fundamentally acellular particle that depends entirely on a host cell's machinery to replicate.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial cell structure
+
+## subtopic
+Prokaryotic cell architecture
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-INF-52E3C48A1A2AAA
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.25
+
+## exam_weight_by_year
+AUN_Y1=0.25
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"True cells include the following EXCEPT? ... Viruses" (Q94); "Eukaryotes include? ... Both C, D" (Q95).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+This lane's own prokaryote-architecture record (CON-INF-52E3C48A1A2AAA) covers prokaryote-vs-eukaryote genetic material specifically, not the broader virus/acellular distinction Q94-95 test -- related via related_concept_ids, not merged.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "acellular" (only unrelated "extracellular/intracellular" substring hits) and "virus is not a true cell" (0 hits) -- safe to create.

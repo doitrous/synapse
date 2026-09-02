@@ -176,3 +176,165 @@ Quote: Bacterial virulence factors -- the capsule, pili, extracellular enzymes a
 Block: body
 
 ---
+
+# Item
+
+## id
+ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE-2
+
+## title
+Bacterial cell structure continued: wall-deficient forms, flagellar antigenicity and classifying life's building blocks
+
+## arabic_title
+تركيب الخلية البكتيرية (تابع): الأشكال العارية من الجدار ومستضدية الأسواط وتصنيف الكائنات الحية
+
+## aliases
+Bacterial cell structure part 2
+AUN-INI-105 Chapter 1 continued
+
+## subject
+inf
+
+## topic
+Bacterial cell structure
+
+## subtopic
+Foundations
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+The second half of AUN-INI-105's Chapter 1 (Q51-Q100) adds four facts the first half's article did not cover: bacterial flagella are strongly antigenic despite having no human counterpart; lysozyme treatment converts a Gram-positive cell into a wall-less protoplast but a Gram-negative cell into a spheroplast that keeps a residual outer membrane; taxonomy is the specific science of naming and classifying organisms; and every true cell is prokaryotic or eukaryotic, while a virus is acellular altogether.
+
+## sections
+### Definition
+Bacterial flagella are strongly antigenic, recognised by the host immune system as the flagellar (H) antigen and used for serotyping -- they share no structural or antigenic relationship with any human structure. Taxonomy is the scientific discipline of naming, describing and classifying organisms into a hierarchical, ordered system, distinct from unrelated fields such as bioinformatics, molecular biology or cosmology. Every true, living cell is either prokaryotic (bacteria, no membrane-bound nucleus) or eukaryotic (fungi, human and other animal cells, with a true nucleus and organelles); a virus is not a true cell at all, but an acellular, obligate intracellular particle with no independent metabolism or ribosomes of its own.
+
+### Mechanism
+Treating a bacterium with lysozyme (or another wall-degrading agent) in an osmotically protective medium strips away its peptidoglycan. A Gram-positive cell, which has only a peptidoglycan wall external to its membrane, is left as a fully wall-less protoplast; a Gram-negative cell, whose outer membrane survives lysozyme treatment, is left as a spheroplast that still carries a residual outer-membrane layer. Neither wall-deficient form can replicate, and both lyse without the protective medium's osmotic support.
+
+### Key determinants
+The distinguishing fact between a protoplast and a spheroplast is which Gram type it came from: protoplast is the Gram-positive result (nothing external to the membrane survives), spheroplast is the Gram-negative result (the outer membrane persists). Flagellar antigenicity follows directly from flagellin being a bacterial protein foreign to the human body -- there is no structural kinship with any human appendage that would make it "self" and therefore nonantigenic. A virus's acellular status is the key determinant separating it from bacteria and fungi: no independent metabolism, no ribosomes, no replication outside a host cell.
+
+### Clinical significance
+Flagellar (H) antigen typing, alongside somatic (O) antigen typing, underlies the serological identification of organisms such as Salmonella and E. coli in outbreak investigation. Recognising cell-wall-deficient forms (protoplasts, spheroplasts, and the related L-forms) matters clinically because such forms can persist despite wall-active antibiotic therapy, since the drug's target (the wall) is already gone. Correctly classifying an infectious agent as bacterial, fungal or viral is the first branch point in choosing an antimicrobial class, since antibacterial and antifungal drugs act on cellular targets a virus does not have.
+
+### Common misconceptions
+Assuming bacterial flagella are nonantigenic because some human cells (e.g. sperm) also have flagella-like structures -- the two share neither composition nor antigenicity. Reversing which Gram type yields a protoplast versus a spheroplast. Treating a virus as a very small bacterium or a type of cell, rather than as a fundamentally acellular particle. Confusing taxonomy (naming and classifying organisms) with molecular biology or bioinformatics merely because modern taxonomy uses molecular data as one of its tools.
+
+### Related structures
+Some bacteria store nutrient reserves as cytoplasmic inclusion (storage) granules; Corynebacterium diphtheriae is the classic example, accumulating polyphosphate as metachromatic (Babes-Ernst) granules that stain a different colour from the surrounding cytoplasm and aid its microscopic identification. This storage role is unrelated to the protein-based, motility- and antigenicity-conferring surface structures (flagella, pili) discussed above.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Bacterial flagella are strongly antigenic (H antigen), used in serotyping, and unrelated to any human structure.
+Lysozyme + Gram-positive cell = protoplast (fully wall-less); lysozyme + Gram-negative cell = spheroplast (retains the outer membrane).
+Taxonomy is the science of naming, describing and classifying organisms -- not bioinformatics, molecular biology or cosmology.
+Every true cell is prokaryotic (bacteria) or eukaryotic (fungi, human cells); a virus is acellular, not a true cell.
+
+## lose_the_mark
+Saying bacterial flagella are nonantigenic because they "resemble" human structures.
+Swapping protoplast and spheroplast between Gram-positive and Gram-negative.
+Calling a virus a type of cell or bacterium.
+Defining taxonomy as a synonym for molecular biology or bioinformatics.
+
+## callout_evidence
+
+## related_concepts
+CON-INF-BF2E753EF92568
+CON-INF-BD1B74226AE7B2
+CON-INF-1D7E6927DF52F6
+CON-INF-E3C75AA9B1F5E5
+CON-INF-398B4BA280679E
+
+## related_articles
+ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE
+
+## question_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## article_source_ids
+src_6f2f4188bb0cbf848733
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-INI-105
+
+## university_notes
+AUN: taught in Assiut University's Infection and Immunity module (Year 1, Semester 2) as the continuation of the department's own INI MCQ bank chapter 1, "Bacterial cell structure" (Q51-Q100) -- no separate lecture deck exists for this module in the source corpus, so this article's teaching text is written from standard microbiology teaching and evidenced against the bank's own question stems.
+
+## annotations
+### definition_of · CON-INF-BF2E753EF92568
+Quote: Bacterial flagella are strongly antigenic, recognised by the host immune system as the flagellar (H) antigen and used for serotyping -- they share no structural or antigenic relationship with any human structure
+Block: body
+
+### definition_of · CON-INF-BD1B74226AE7B2
+Quote: A Gram-positive cell, which has only a peptidoglycan wall external to its membrane, is left as a fully wall-less protoplast; a Gram-negative cell, whose outer membrane survives lysozyme treatment, is left as a spheroplast that still carries a residual outer-membrane layer
+Block: body
+
+### definition_of · CON-INF-1D7E6927DF52F6
+Quote: Taxonomy is the scientific discipline of naming, describing and classifying organisms into a hierarchical, ordered system, distinct from unrelated fields such as bioinformatics, molecular biology or cosmology
+Block: body
+
+### definition_of · CON-INF-E3C75AA9B1F5E5
+Quote: Every true, living cell is either prokaryotic (bacteria, no membrane-bound nucleus) or eukaryotic (fungi, human and other animal cells, with a true nucleus and organelles); a virus is not a true cell at all, but an acellular, obligate intracellular particle with no independent metabolism or ribosomes of its own
+Block: body
+
+### associated_with · CON-INF-398B4BA280679E
+Quote: Corynebacterium diphtheriae is the classic example, accumulating polyphosphate as metachromatic (Babes-Ernst) granules that stain a different colour from the surrounding cytoplasm and aid its microscopic identification
+Block: body
+
+---
