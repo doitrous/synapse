@@ -1,0 +1,336 @@
+{
+  "lane": "MUST-CVS201",
+  "cluster": "physabp2-direct",
+  "header": "MUST-CVS-201 - Physiology tranche (author8) - Arterial Blood Pressure remaining MCQs (main_concept newly minted this tranche or already live-in-lane) - from the Physiology CVS201 EOM Final paper, keys read from the paper's own printed Arterial Blood Pressure answer key (p.20).",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "must"
+    ],
+    "years": [
+      "MUST_Y2"
+    ],
+    "module": "MUST-CVS-201",
+    "exam_weight_by_year": {
+      "MUST_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "topic": "Physiology",
+    "subtopic": "Arterial Blood Pressure Regulation",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "resource_ids": [
+      "src_165188e079f0f475e54d"
+    ],
+    "source_citation": "Physiology CVS201 Questions (Final), Arterial Blood Pressure section, key p.20."
+  },
+  "questions": [
+    {
+      "key": "physabp2-q01",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q01",
+      "page": 11,
+      "title": "Typical blood pressure of a 4-year-old child",
+      "question": "According to physiological variations, what is the typical blood pressure for a 4-year-old child?",
+      "options": {
+        "A": "80/40 mmHg",
+        "B": "100/65 mmHg",
+        "C": "120/70 mmHg",
+        "D": "150/90 mmHg"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. 80/40 mmHg is lower than the typical figure this source gives for a 4-year-old and would be unusually low even for an infant.",
+        "B": "Correct. This source's own teaching gives about 100/65 mmHg as the typical blood pressure of a 4-year-old child, well below the adult norm near 120/80 mmHg, because a young child's vessel calibre, cardiac output and sympathetic tone are all still maturing. Blood pressure rises progressively through childhood and adolescence toward the adult range as these systems develop. This physiological, age-linked figure is not itself a sign of disease \u2014 it is the expected reading for a healthy child of this age.",
+        "C": "Incorrect. 120/70 mmHg is close to the adult range this source distinguishes from the lower paediatric figure it gives for a 4-year-old.",
+        "D": "Incorrect. 150/90 mmHg would be a hypertensive reading even in an adult and is far above the typical paediatric figure this source states."
+      },
+      "main_concept": "CON-CVS-04186B68A522B8",
+      "concept_ids": [
+        "CON-CVS-04186B68A522B8"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-ABP-PHYSIOLOGICAL-VARIATIONS"
+      ],
+      "learning_objective": "State the typical blood pressure range for a young child as a normal physiological variation with age.",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Physiological Variations in Arterial Blood Pressure"
+    },
+    {
+      "key": "physabp2-q02",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q02",
+      "page": 12,
+      "title": "Blood pressure rise in women after age 45",
+      "question": "After the age of 45, why does blood pressure tend to rise in females?",
+      "options": {
+        "A": "Decreased physical activity",
+        "B": "Hormonal changes",
+        "C": "Increased salt intake",
+        "D": "All of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Decreased physical activity is not the specific mechanism this source names for the post-45 rise in women's blood pressure.",
+        "B": "Correct. This source attributes the tendency of blood pressure to rise in women after about age 45 to the hormonal changes of the perimenopausal and postmenopausal transition, rather than to any single lifestyle factor. The loss of oestrogen's protective vascular effects around this life stage is the physiological change most directly implicated. This is presented as a physiological (age- and sex-linked) variation, not as a diagnosis of hypertension in itself.",
+        "C": "Incorrect. Increased salt intake is a separate, general risk factor for hypertension, not the sex-and-age-specific mechanism this source names for the post-45 rise in women.",
+        "D": "Incorrect. The source names hormonal changes specifically as the answer, not a combination of all three listed factors."
+      },
+      "main_concept": "CON-CVS-04186B68A522B8",
+      "concept_ids": [
+        "CON-CVS-04186B68A522B8"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-ABP-PHYSIOLOGICAL-VARIATIONS"
+      ],
+      "learning_objective": "State that blood pressure tends to rise in women after about age 45, attributed to hormonal changes.",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Physiological Variations in Arterial Blood Pressure"
+    },
+    {
+      "key": "physabp2-q03",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q03",
+      "page": 12,
+      "title": "Strong emotions and blood pressure",
+      "question": "Which of the following factors elevates blood pressure, especially systolic pressure?",
+      "options": {
+        "A": "Sleep",
+        "B": "Strong emotions",
+        "C": "Rest",
+        "D": "Quiet environment"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Sleep is associated with a physiological dip in blood pressure, not a rise.",
+        "B": "Correct. Strong emotions (fear, anger, excitement) acutely raise blood pressure, especially the systolic component, through a burst of sympathetic outflow that increases heart rate, cardiac output and vasomotor tone together. This emotional pressor effect is reversible and physiological rather than pathological, distinguishing it from sustained hypertension. It is one of several named physiological variations in blood pressure alongside age and sex/hormonal status.",
+        "C": "Incorrect. Rest, like sleep, is associated with lower sympathetic tone and lower, not higher, blood pressure.",
+        "D": "Incorrect. A quiet environment tends to lower sympathetic drive and blood pressure, the opposite of the emotional pressor effect this question asks about."
+      },
+      "main_concept": "CON-CVS-04186B68A522B8",
+      "concept_ids": [
+        "CON-CVS-04186B68A522B8"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-ABP-PHYSIOLOGICAL-VARIATIONS"
+      ],
+      "learning_objective": "State that strong emotions acutely raise blood pressure, especially the systolic component, via sympathetic outflow.",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Physiological Variations in Arterial Blood Pressure"
+    },
+    {
+      "key": "physabp2-q04",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q04",
+      "page": 12,
+      "title": "Effect of muscular exercise on blood pressure",
+      "question": "During muscular exercise, what happens to blood pressure?",
+      "options": {
+        "A": "Systolic decreases and diastolic increases",
+        "B": "Both systolic and diastolic increase",
+        "C": "Systolic increases and diastolic decreases",
+        "D": "Both systolic and diastolic decrease"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Exercise raises, not lowers, systolic pressure, and does not typically raise diastolic pressure either.",
+        "B": "Incorrect. Diastolic pressure characteristically falls or stays level during dynamic exercise rather than rising alongside systolic pressure.",
+        "C": "Correct. During dynamic muscular exercise, systolic pressure rises (driven by increased cardiac output) while diastolic pressure falls (driven by marked vasodilation in the exercising skeletal muscle, which lowers total peripheral resistance). The combination widens the pulse pressure. This pattern distinguishes dynamic exercise from an emotional pressor response, where both systolic and diastolic pressure tend to rise together.",
+        "D": "Incorrect. Exercise raises cardiac output and systolic pressure; both pressures falling together does not match the exercise response."
+      },
+      "main_concept": "CON-CVS-FF330EB96D20EC",
+      "concept_ids": [
+        "CON-CVS-FF330EB96D20EC"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-ABP-EXERCISE-EFFECT"
+      ],
+      "learning_objective": "State that dynamic exercise raises systolic pressure while lowering diastolic pressure.",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Physiological Variations in Arterial Blood Pressure"
+    },
+    {
+      "key": "physabp2-q05",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q05",
+      "page": 12,
+      "title": "Hydrostatic effect on arterial pressure below heart level",
+      "question": "For each centimeter below the level of the heart, arterial blood pressure:",
+      "options": {
+        "A": "Decreases by 0.77 mmHg",
+        "B": "Increases by 0.77 mmHg",
+        "C": "Stays the same",
+        "D": "Decreases by 1.0 mmHg"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Pressure increases, not decreases, below heart level, from the added weight of the hydrostatic column of blood.",
+        "B": "Correct. For each centimetre a measurement point sits below heart level, arterial pressure is higher by about 0.77 mmHg, purely from the hydrostatic pressure of the extra column of blood between that point and the heart. The converse subtraction applies above heart level. This is why blood pressure measurement is standardised to heart level, and why a dependent limb reads a higher pressure than the arm at heart level.",
+        "C": "Incorrect. Pressure does change with vertical distance from the heart; it is not the same at every level.",
+        "D": "Incorrect. 1.0 mmHg/cm is not the figure this source gives; the stated hydrostatic correction is about 0.77 mmHg per centimetre."
+      },
+      "main_concept": "CON-CVS-3E457083BE5148",
+      "concept_ids": [
+        "CON-CVS-3E457083BE5148"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-ABP-HYDROSTATIC-COLUMN-EFFECT"
+      ],
+      "learning_objective": "State the approximate hydrostatic correction to arterial pressure per centimetre of vertical distance from heart level.",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Physiological Variations in Arterial Blood Pressure"
+    },
+    {
+      "key": "physabp2-q07",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q07",
+      "page": 16,
+      "title": "Cutaneous pain receptor pressor reflex",
+      "question": "Stimulation of cutaneous pain receptors typically causes:",
+      "options": {
+        "A": "Hypotension and bradycardia",
+        "B": "Hypotension and tachycardia",
+        "C": "Hypertension and tachycardia",
+        "D": "Hypertension and bradycardia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cutaneous pain stimulation produces a pressor (blood-pressure-raising), not a depressor, response.",
+        "B": "Incorrect. Hypotension does not match the sympathetic pressor pattern cutaneous pain stimulation produces; tachycardia is correct but paired with hypertension, not hypotension.",
+        "C": "Correct. Stimulation of cutaneous pain receptors reflexly raises sympathetic outflow, producing both hypertension and tachycardia \u2014 a pressor reflex. This places cutaneous pain alongside other excitatory afferent inputs (peripheral chemoreceptors, the Cushing reflex, the Alam-Smirk reflex) rather than with the inhibitory, pressure-lowering baroreceptor reflex. The response is the opposite of the hypotension and bradycardia a purely vagal reflex would produce.",
+        "D": "Incorrect. Bradycardia does not match the sympathetic pressor pattern of the cutaneous pain reflex; hypertension is correct but paired with tachycardia, not bradycardia."
+      },
+      "main_concept": "CON-CVS-FD51B226A4986D",
+      "concept_ids": [
+        "CON-CVS-FD51B226A4986D"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-ABP-CUTANEOUS-PAIN-PRESSOR-REFLEX"
+      ],
+      "learning_objective": "State that stimulation of cutaneous pain receptors produces a pressor response of hypertension and tachycardia.",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Reflex Control of Arterial Blood Pressure"
+    },
+    {
+      "key": "physabp2-q08",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q08",
+      "page": 17,
+      "title": "Trigger of the Alam-Smirk reflex",
+      "question": "The Alam-Smirk reflex is triggered by stimulation of:",
+      "options": {
+        "A": "Baroreceptors",
+        "B": "Chemoreceptors",
+        "C": "Proprioceptors",
+        "D": "Visceral pain receptors"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Baroreceptor stimulation is inhibitory to the vasomotor centre and lowers, not raises, blood pressure; the Alam-Smirk reflex is a distinct, proprioceptor-driven pressor reflex.",
+        "B": "Incorrect. Chemoreceptors respond to blood gas/pH changes, not to the mechanical stimulation of exercising muscle that triggers the Alam-Smirk reflex.",
+        "C": "Correct. The Alam-Smirk reflex is a rise in arterial blood pressure triggered by stimulation of proprioceptors in actively contracting skeletal muscle during exercise. Afferent signals from these muscle proprioceptors reflexly raise sympathetic outflow, adding a rapid, exercise-linked pressor drive alongside central command and metabolite-driven components of the overall exercise pressor response. It is named specifically for this proprioceptor trigger, distinguishing it from chemoreceptor- or baroreceptor-mediated reflexes.",
+        "D": "Incorrect. Visceral pain receptors are not the trigger this source names; the Alam-Smirk reflex is specifically a proprioceptor-driven exercise pressor reflex."
+      },
+      "main_concept": "CON-CVS-70A247C343C46D",
+      "concept_ids": [
+        "CON-CVS-70A247C343C46D"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-ABP-ALAM-SMIRK-REFLEX"
+      ],
+      "learning_objective": "Name proprioceptors in exercising muscle as the trigger for the Alam-Smirk pressor reflex.",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Reflex Control of Arterial Blood Pressure"
+    },
+    {
+      "key": "physabp2-q09",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q09",
+      "page": 17,
+      "title": "Brain centre for the emotional/temperature rise in blood pressure",
+      "question": "Which brain center is responsible for the rise in ABP during emotions and temperature regulation?",
+      "options": {
+        "A": "Cerebral Cortex",
+        "B": "Medulla Oblongata",
+        "C": "Cerebellum",
+        "D": "Hypothalamus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The cerebral cortex is not the centre this source names for coupling emotion and temperature regulation to blood pressure change.",
+        "B": "Incorrect. The medulla carries out beat-to-beat reflex control of blood pressure (the vasomotor and cardiac centres), but the higher, state-dependent modulation for emotion and temperature is attributed to the hypothalamus, not the medulla, in this source.",
+        "C": "Incorrect. The cerebellum coordinates movement and balance, not the cardiovascular changes linked to emotion and temperature regulation.",
+        "D": "Correct. The hypothalamus is the brain centre this source names as responsible for the rise in arterial blood pressure that accompanies strong emotional states and thermoregulatory demand. It integrates limbic and thermoregulatory input and drives descending pathways that raise medullary sympathetic outflow, a higher, state-dependent role distinct from the medulla's own beat-to-beat reflex regulation."
+      },
+      "main_concept": "CON-CVS-824C3CF60334ED",
+      "concept_ids": [
+        "CON-CVS-824C3CF60334ED"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-ABP-HYPOTHALAMIC-CONTROL-CENTRE"
+      ],
+      "learning_objective": "Identify the hypothalamus as the brain centre responsible for blood-pressure rises linked to emotion and temperature regulation.",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Reflex Control of Arterial Blood Pressure"
+    },
+    {
+      "key": "physabp2-q10",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q10",
+      "page": 17,
+      "title": "Capillary fluid shift after a drop in arterial pressure",
+      "question": "In the capillary fluid shift mechanism, a drop in arterial blood pressure causes:",
+      "options": {
+        "A": "Fluid to shift from capillaries to tissues",
+        "B": "Fluid to shift from tissues to capillaries",
+        "C": "No fluid movement",
+        "D": "Increased filtration from capillaries"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Fluid shifting from capillaries into tissues is the direction seen when capillary hydrostatic pressure rises (as in oedema-producing mechanisms), the opposite of what a fall in arterial pressure produces.",
+        "B": "Correct. A fall in arterial pressure lowers capillary hydrostatic pressure, tipping the Starling balance in favour of absorption over filtration, so fluid moves from the interstitial (tissue) space back into the capillaries. This capillary fluid shift expands plasma volume and partially restores the fall in arterial pressure, acting over minutes \u2014 more slowly than the near-instantaneous baroreceptor reflex but faster than renal fluid-retention mechanisms.",
+        "C": "Incorrect. Fluid movement does occur; the Starling balance shifts toward net absorption when capillary pressure falls, it does not simply stop.",
+        "D": "Incorrect. Filtration from the capillaries would raise, not restore, a fall in arterial pressure by moving fluid out of the vessels; the compensatory direction is absorption into the capillaries."
+      },
+      "main_concept": "CON-CVS-104B5D9F2EEF58",
+      "concept_ids": [
+        "CON-CVS-104B5D9F2EEF58"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-ABP-CAPILLARY-FLUID-SHIFT"
+      ],
+      "learning_objective": "State that a fall in arterial pressure shifts fluid from tissues into capillaries via the Starling-balance capillary fluid shift mechanism.",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Reflex Control of Arterial Blood Pressure"
+    },
+    {
+      "key": "physabp2-q11",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q11",
+      "page": 19,
+      "title": "Excitatory vs inhibitory receptors in vasomotor control",
+      "question": "Which of the following is excitatory:",
+      "options": {
+        "A": "Peripheral Chemoreceptors",
+        "B": "Arterial baroreceptors",
+        "C": "Atrial Receptors (volume receptors)",
+        "D": "Left ventricular receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Peripheral chemoreceptors are excitatory to the vasomotor centre: a rise in their discharge (from hypoxia, hypercapnia or acidosis) increases sympathetic outflow and raises arterial pressure. This is the opposite direction from the mechanoreceptor-based reflexes (baroreceptor, atrial, left ventricular), which are inhibitory.",
+        "B": "Incorrect. Arterial baroreceptors are inhibitory: raised baroreceptor discharge (from raised pressure) reduces sympathetic outflow and lowers arterial pressure, a depressor rather than excitatory signal.",
+        "C": "Incorrect. Atrial (volume) receptors are classed as inhibitory inputs to the vasomotor centre, alongside the arterial baroreceptors and left ventricular receptors, not as excitatory.",
+        "D": "Incorrect. Left ventricular receptors are inhibitory (their stimulation via the Bezold-Jarisch reflex causes bradycardia and hypotension), the opposite of an excitatory input."
+      },
+      "main_concept": "CON-CVS-DA8A3F5DA447A9",
+      "concept_ids": [
+        "CON-CVS-DA8A3F5DA447A9"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-ABP-CHEMORECEPTOR-EXCITATORY-CLASSIFICATION"
+      ],
+      "learning_objective": "Classify peripheral chemoreceptors as excitatory, and baroreceptor/atrial/left-ventricular receptors as inhibitory, inputs to the vasomotor centre.",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Reflex Control of Arterial Blood Pressure"
+    }
+  ]
+}
