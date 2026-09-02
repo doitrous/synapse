@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  DEFAULT_STUN_URL, MAX_TRANSPORTS_PER_PEER, describeConfig, iceServersFrom, loadSfu, resetSfu, sfuConfig, workerForRoom,
+  DEFAULT_STUN_URL, MAX_TRANSPORTS_PER_PEER, describeConfig, formatCandidates, iceServersFrom, loadSfu, resetSfu, sfuConfig, workerForRoom,
 } from './roomsSfu.js'
 
 test('the defaults are the documented ones', () => {
@@ -195,4 +195,30 @@ test('the boot line names the announced address, the port range and the relay, n
     'announced 203.0.113.9, udp/tcp 50000-50100, turn turn:203.0.113.9:3478?transport=udp turn:203.0.113.9:3478?transport=tcp',
   )
   assert.ok(!describeConfig(sfuConfig({ TURN_URLS: 'turn:x', TURN_USERNAME: 'u', TURN_CREDENTIAL: 'hunter2' })).includes('hunter2'))
+})
+
+test('candidates format as one dialable address per line entry, newer field first', () => {
+  assert.equal(
+    formatCandidates([
+      { protocol: 'udp', address: '203.0.113.9', port: 40012 },
+      { protocol: 'tcp', ip: '203.0.113.9', port: 40013 },
+    ]),
+    'udp://203.0.113.9:40012 tcp://203.0.113.9:40013',
+  )
+})
+
+test('the probe offers the announced address on both protocols and reuses its transport inside the window', { skip: !engineAvailable }, async () => {
+  resetSfu()
+  const sfu = await loadSfu({ SFU_RTC_MIN_PORT: '41200', SFU_RTC_MAX_PORT: '41300', SFU_ANNOUNCED_IP: '203.0.113.9' })
+  assert.equal(sfu.available, true)
+  try {
+    const first = await sfu.probe()
+    assert.deepEqual(first.candidates.map((c) => [c.protocol, c.address]).sort(), [['tcp', '203.0.113.9'], ['udp', '203.0.113.9']])
+    for (const candidate of first.candidates) assert.ok(candidate.port >= 41200 && candidate.port <= 41300)
+    const second = await sfu.probe()
+    assert.equal(second, first)
+  } finally {
+    await sfu.close()
+    resetSfu()
+  }
 })
