@@ -502,3 +502,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 
 ### 2026-09-02 — HELWAN HU-ORL-305 ophthalmology lane 2 LANDED (23afab31 scripts, 376adfc4 content)
 - Ch3 #21-96: 69 authored, 7 held (5 unkeyed, Q48/Q49 two-option True/False). 28 `CON-OPH-*` mints, 7 reuses of lane 1's. batch errors=0 ×4; whole-tree simulate 98 batches rejected=0; duplicate-keys / concept-ids clean. Chapter 3 closed (89/96). Remaining Ch4-15 = 845 items → lane 3 dispatched on Ch4 (91 items, `ophth-q0136` onward). Fleet 20/20.
+
+### 2026-09-02 — FOMSCU SCU-MS105 Musculoskeletal lane 1 LANDED (f9befb71, baab7aa6, 347a3fcc)
+- EOM MID 2026 23/23 keyed MCQ; EOY Final 2026 54 items are short-answer ("Answer:") → held whole (FBS104 trap); MCQ-Arm 17/17; Axilla & Shoulder 16/16; Khanfour L1/L2 11 of 28 stems OCR-recoverable. 31 authored (MID 23 + Arm 8), 0 held, 45 remaining. 21 mints + 6 articles; 8 overlays (Kasr 103, AU-105, ASU-LOCO, MUST FHB-102-2); several homonym false positives rejected and documented. Validator errors=0 ×4; batch errors=0 ×2. ≈2.2k tok/q.
+- CHECK NEEDED: a whole-directory simulate sweep of docs/FOMSCU-Source-Imports reports rejected=83 — 5 are named cross-university deps (pass with --with), 78 attributed to already-landed FBS102/FBS103 files. Lane 2 told to run the explicit apply-order chain and report whether the 78 are real (orphan pending-live files from the earlier FOMSCU ledger drift are the likely cause).
+- Lane 2 dispatched on Axilla & Shoulder (16) + Arm remainder (9) + Khanfour (11). Fleet 20/20.
