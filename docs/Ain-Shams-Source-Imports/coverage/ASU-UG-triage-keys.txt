@@ -360,7 +360,33 @@ assessment-1-mcq-micro-q03
 assessment-1-mcq-micro-q04
 assessment-1-mcq-micro-q05
 
-# assessment-2-mcq-1 = MCQs - Urogenital Assessment 2 MCQ-1.pdf — only pp.1-2 of 11 sampled
-# (Anatomy q01-q21), and that Anatomy block is VERBATIM-IDENTICAL to
-# eom-ug-final2-collection-q001..q021 (Anatomy) — author from eom-ug-final2-collection instead,
-# do not double-emit from this file. Remaining pages (3-11) not yet triaged.
+# assessment-2-mcq-1 = MCQs - Urogenital Assessment 2 MCQ-1.pdf. FULLY TRIAGED 2026-09-02
+# (lane 5, asu-ug-author5) by opening every page. Confirms and extends the earlier partial
+# note: Anatomy (pp.1-2, 21 items) is verbatim-identical to eom-ug-final2-collection's Anatomy
+# block. Pharma (p.3, 8 items), Histo (p.4, 9 items) and Physio (pp.5-6, 17 items) are each
+# verbatim-or-near-verbatim duplicates of content already authored in eom-ug-final2-collection
+# or assessment-1-mcq — confirmed item-by-item via find-existing.mjs plus grep, not by page or
+# count alone (two find-existing.mjs false negatives — a trichomonas-pregnancy fact and a
+# cervical-cancer-uremia fact, reworded just enough to dodge its raw substring match — were
+# only caught by grep; LANE-CARD-Y2-3's "read the hit row" warning cuts both ways). Most of
+# Micro (pp.8-10) and most of Patho (pp.6-8, items 1-5) are likewise duplicates (VDRL,
+# chancroid, latent syphilis, lactic acid/Gardnerella, HSV giant cells, candidiasis, Nabothian
+# cysts, the CIN-colonoscopy doubtful item, the corpora-amylacea-prostatic-carcinoma doubtful
+# item). Para (p.10) duplicates the collection's Para block (already authored as
+# eom-ug-final2-collection-q093..096). Do not re-author any of the above from this file.
+#
+# The only genuinely new content: a 21-alpha-hydroxylase CAH vignette (Bio item, collapsed
+# with a within-file duplicate in Patho — see held list), 6 Patho vignettes, and the file's
+# wholly new 4-item Community Medicine block. See cluster assessment-2-mcq-1 below.
+assessment-2-mcq-1-bio-q01
+assessment-2-mcq-1-patho-q09
+assessment-2-mcq-1-patho-q19
+assessment-2-mcq-1-patho-q10
+assessment-2-mcq-1-patho-q12
+assessment-2-mcq-1-patho-q14
+assessment-2-mcq-1-patho-q15
+assessment-2-mcq-1-patho-q19b
+assessment-2-mcq-1-community-q01
+assessment-2-mcq-1-community-q02
+assessment-2-mcq-1-community-q03
+assessment-2-mcq-1-community-q04
