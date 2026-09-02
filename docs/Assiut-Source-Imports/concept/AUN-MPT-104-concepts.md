@@ -21210,3 +21210,861 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "tumour angiogenic factors" -- 0 hits. A grep sweep for "angiogenesis|angiogenic" hit Helwan chronic-inflammation, Ain Shams glioblastoma-histology and Kasr granulation-tissue concepts -- none is this tumour-specific angiogenic-driver fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-1EA6F246BFB893
+
+## label
+Clindamycin carries a C difficile diarrhea risk to counsel on discharge
+
+## canonical_key
+antimicrobial.clindamycin.c-diff-diarrhea
+
+## aliases
+Clindamycin adverse effects
+Clindamycin-associated C difficile
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Clindamycin carries a well-recognised risk of Clostridium difficile diarrhea, including its severe form, pseudomembranous colitis, because it disrupts normal gut flora and allows C. difficile to overgrow -- a risk significant enough that any patient discharged on a multi-week clindamycin course should be specifically counselled about it, distinct from pseudotumor cerebri, hyperbilirubinemia or nephrotoxicity, none of which is clindamycin's characteristic adverse effect.
+
+## explicit_objective
+State that Clostridium difficile diarrhea is a clindamycin adverse effect that should be discussed with a patient discharged on a multi-week course.
+
+## pitfalls
+Attributing pseudotumor cerebri, hyperbilirubinemia or nephrotoxicity to clindamycin -- its characteristic, counselling-worthy risk is Clostridium difficile diarrhea/pseudomembranous colitis from gut flora disruption.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Clindamycin adverse effects
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AUN_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient is being discharged from the hospital on a 3-week course of clindamycin. Which of the following potential adverse effects should be discussed with her? ... Clostridium difficile diarrhea." (Quiz 42 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "clindamycin C diff diarrhea" -- 0 hits. A grep sweep for "clindamycin" hit only Assiut AUN-INI-105-ch5 (a general C. difficile/antibiotic-associated-diarrhea concept, not this clindamycin-specific drug association) and MUST FHB-102-2 -- different grain, not the same concept. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-FB8DF4269600C2
+
+## label
+Vancomycin is not a macrolide
+
+## canonical_key
+antimicrobial.vancomycin.not-a-macrolide
+
+## aliases
+Macrolide classification
+Vancomycin classification
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vancomycin is a glycopeptide antibiotic that inhibits bacterial cell wall synthesis, not a macrolide -- azithromycin, erythromycin and clarithromycin are the true macrolides, sharing the class's characteristic 50S-ribosomal-subunit-binding mechanism, which vancomycin does not share.
+
+## explicit_objective
+Identify vancomycin as a glycopeptide, not a macrolide, distinguishing it from azithromycin, erythromycin and clarithromycin.
+
+## pitfalls
+Grouping vancomycin among the macrolides because it is another well-known antibiotic name -- vancomycin is a cell-wall-active glycopeptide, unrelated to the 50S-binding macrolide class.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Macrolide classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All of them belongs to macrolides EXCEPT: ... Vancomycin" (Quiz 42 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "vancomycin not a macrolide" -- 0 hits. A grep sweep for "erythromycin|vancomycin" hit a related but non-identical Assiut AUN-INI-105-ch5 concept classifying vancomycin among cell-wall-synthesis inhibitors generally (not this specific macrolide-exclusion framing). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-E80D82F5AB996F
+
+## label
+Aminoglycosides are mainly effective against aerobic, not anaerobic, gram-negative bacteria
+
+## canonical_key
+antimicrobial.aminoglycosides.aerobic-gram-negative-only
+
+## aliases
+Aminoglycoside spectrum
+Aminoglycoside oxygen-dependent uptake
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Aminoglycosides require oxygen-dependent active transport to cross the bacterial cell membrane and reach their ribosomal target, so they are mainly effective against aerobic, not anaerobic, gram-negative bacteria, since anaerobic organisms lack the oxidative transport process aminoglycoside uptake depends on -- alongside their other class features (concentration-dependent killing, synergism with beta-lactams, and renal dose adjustment by creatinine clearance).
+
+## explicit_objective
+State that aminoglycosides are mainly effective against aerobic, not anaerobic, gram-negative bacteria, because their uptake requires oxygen-dependent active transport.
+
+## pitfalls
+Assuming aminoglycosides are mainly effective against anaerobic gram-negative bacteria -- their oxygen-dependent uptake mechanism instead limits them to aerobic organisms.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Aminoglycoside spectrum and dosing
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Concerning Aminoglycosides, the following are true except: ... They are mainly effective in anaerobic gram negative bacteria" (Quiz 42 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "aminoglycosides aerobic gram negative" -- 0 hits. A grep sweep for "aminoglycoside" hit a related but distinct Assiut AUN-INI-105-ch5 mechanism concept (30S binding/mRNA misreading, reused separately for q352) -- this spectrum/oxygen-dependence fact is a different grain. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-AC1BF871C1B2B5
+
+## label
+Macrolides are 50S-subunit inhibitors that are bacteriostatic
+
+## canonical_key
+antimicrobial.macrolides.50s-bacteriostatic
+
+## aliases
+Macrolide mechanism
+Macrolide ribosomal target
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Macrolides (erythromycin, azithromycin, clarithromycin) bind the bacterial ribosome's 50S subunit, blocking translocation during protein synthesis, and this inhibition is bacteriostatic rather than bactericidal -- distinguishing macrolides from 30S-targeting classes (aminoglycosides, tetracyclines) and from bactericidal protein synthesis inhibitors.
+
+## explicit_objective
+State that macrolides are 50S-ribosomal-subunit-targeting, bacteriostatic protein synthesis inhibitors.
+
+## pitfalls
+Assuming macrolides target the 30S subunit or are bactericidal -- they bind the 50S subunit and are bacteriostatic, the opposite pairing from aminoglycosides (30S, bactericidal).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Macrolide mechanism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Macrolids are -------- ribosomal subunit inhibitors that are ---------. ... 50s; Bacteriostatic" (Quiz 42 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "macrolides 50S bacteriostatic" -- 0 hits. A grep sweep of Assiut AUN-INI-105-ch5 for "50S|macrolide" found only the chloramphenicol-50S concept (reused for q351) and a cephalosporin cell-wall-vs-protein-synthesis classification concept -- neither is this macrolide-specific mechanism/effect pairing. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-7DB1D6CF02F3C6
+
+## label
+Erythromycin is used safely in pregnancy
+
+## canonical_key
+antimicrobial.erythromycin.safe-in-pregnancy
+
+## aliases
+Antibiotic safety in pregnancy
+Erythromycin pregnancy safety
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Erythromycin is generally considered safe for use in pregnancy, a standard alternative when a pregnant patient needs antimicrobial treatment but cannot receive drug classes carrying recognised fetal risk -- unlike doxycycline (fetal teeth discolouration and bone growth disturbance), moxifloxacin (risk to developing cartilage) or gentamicin (fetal ototoxicity/nephrotoxicity).
+
+## explicit_objective
+Identify erythromycin as safe to use in pregnancy, unlike doxycycline, moxifloxacin or gentamicin.
+
+## pitfalls
+Assuming any broad-spectrum antibiotic is acceptable in pregnancy -- doxycycline, moxifloxacin and gentamicin each carry a specific recognised fetal risk that erythromycin does not share.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Antibiotic safety in pregnancy
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is used safely in pregnancy? ... Erythromycin" (Quiz 42 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "erythromycin safe in pregnancy" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-DAFCB3028F7BE6
+
+## label
+Clindamycin and erythromycin antagonise each other at a shared ribosomal site
+
+## canonical_key
+antimicrobial.clindamycin-erythromycin.same-site-antagonism
+
+## aliases
+Antibiotic combination antagonism
+Clindamycin-macrolide antagonism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Clindamycin and erythromycin both bind overlapping sites on the bacterial ribosome's 50S subunit, so combining them is antagonistic -- one drug can displace or block the other's binding, reducing the combination's net antibacterial effect compared with either drug given alone, unlike ciprofloxacin/amoxicillin, tigecycline/azithromycin or doxycycline/amoxicillin, none of which shares this same-site antagonism.
+
+## explicit_objective
+State that clindamycin and erythromycin are antagonistic when combined, since both bind an overlapping site on the bacterial 50S ribosomal subunit.
+
+## pitfalls
+Assuming any two protein-synthesis-inhibiting antibiotics are safely combined -- clindamycin and erythromycin specifically compete for an overlapping 50S binding site, making their combination antagonistic rather than additive.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Antibiotic combination antagonism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following antibiotic combinations is inappropriate based on antagonism at the same site of action? ... Clindamycin and erythromycin." (Quiz 42 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "clindamycin erythromycin antagonism" -- 0 hits. New concept.
