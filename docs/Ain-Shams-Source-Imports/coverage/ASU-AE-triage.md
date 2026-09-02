@@ -352,6 +352,61 @@ every upstream source file the reused concepts live in — Kasr 101-ISK concept+
 concept+article) and `gate.mjs simulate` (14 files, same set plus the question batch) both clean
 (errors=0/rejected=0) for all three authoring chunks.
 
+## I — Embryo 3 Q1-55 pass (lane 11)
+
+`MCQs - Embryo 3.pdf` ("Part 3": week-3 events, gastrulation, intraembryonic mesoderm, neurulation,
+folding, germ-layer derivatives, fetal membranes, birth defects; 104 questions total) has its **first 55
+questions triaged, 53 authored** (2 held: Q21 and Q27 are reordered/near-verbatim duplicates of Q19,
+all three asking Klinefelter syndrome's genotype from the identical five-value option pool {44+XY,
+44+XXX, 44+XXY, 44+X, 44+XYY}, just reordered), seed `coverage/seeds/ASU-AE/embryo3.json`, batch
+`question/ASU-AE-embryo3-mcq.md`, triage-keys `embryo3-q01` … `embryo3-q55` (minus q21/q27). Q56-104
+(further chromosomal-syndrome matching rows and a run of derivative/EXCEPT questions) remain untriaged
+for a follow-up lane.
+
+**Answer-key recovery.** OCR (`pagetext.mjs ocr`) recovered the stem pages (1-9) with moderate garbling
+throughout, but the printed "Answers of MCQs" table (pp.17-20) OCR'd cleanly only for rows 1-35 (p.17);
+rows 36 onward (p.18) sit on a page with both scan curvature and a torn right edge, so the remark column
+is truncated or entirely absent for most rows past 35 even after forcing a fresh 400/600 dpi re-render —
+the letter column stayed intact and legible throughout. Every stem page and both key pages were rendered
+and read by eye; letters for rows 36-55 were cross-checked against each stem's own option wording (all
+self-consistent, including the internal cross-check of the Q55-59 syndrome-matching block, whose five
+letters independently reproduce the standard Klinefelter/Turner/Down/superfemale/supermale karyotypes
+when read against the block's own five-formula option pool). One apparent source key error survived
+this cross-check: Q10's printed letter is "e" (Heart) with remark "Pia matter" (matching neither the
+stem's own options nor standard teaching, under which melanocyte, option c, is correct) — the printed
+letter is retained per house rule (printed keys stand) with the discrepancy logged in the question's own
+`author_notes`, flagged for a human reviewer, per the same doubt-logging precedent as lane 10's Embryo 2
+Q69.
+
+**Search-before-mint.** A four-query `find-existing.mjs` pass per concept cluster found the same heavy
+pre-coverage block B predicted for gastrulation/neurulation-onward content: **8 concepts reused** as
+sparse pending-live overlays — 6 onto Kasr's pending `101-ISK-mcq-concepts.md` (gastrulation's three
+mesoderm sources/two absence sites, somite sclerotome/dermatome fate, somite-count-by-day timing,
+notochord formation/fate, neural tube/neural crest split, notochord-induces-neural-plate) and 2 onto
+Kasr's pending `104-CPS-histology-concepts.md` (Klinefelter/Turner/superfemale karyotypes, Down syndrome
+trisomy 21) — plus 1 already-pending concept reused from lane 10's own Embryo 2 pass (`CON-OBS-C095B75A61EA4F`
+battledore placenta, Q4, tags already carry +asu/+1/+ASU-AE so no new overlay row was needed) and 1
+pending Alexandria concept referenced only as related reading (`CON-DEV-3D26C14BF0AA28` oligohydramnios
+threshold, cross-linked rather than merged since it states a volume threshold, not the renal-agenesis
+cause-and-effect fact these questions test). **14 concepts newly minted** after all four
+`find-existing.mjs` queries came back empty for each, covering endoderm's shared gut/respiratory
+epithelial lining, the intermediate mesoderm's kidney fact, the adrenal cortex/medulla germ-layer split,
+vasculature from mesoderm, lateral folding forming the gut tube, skin's dual epidermis/dermis origin,
+the allantois's location, umbilical cord vessel count and ductus venosus location, oligohydramnios/
+polyhydramnios's classic causes, normal amniotic fluid volume, heparin's placental safety, anterior
+neuropore closure timing, and the neurenteric canal — grouped under 2 new articles by subject
+(`ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS`, `ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS`).
+Many facts anticipated by this cluster's own pending-live overlay `field_notes` (written ahead of the
+seed during an earlier, interrupted run of this same lane) served as a pre-verified key/reuse map for
+Q26-55, each independently re-confirmed against the rendered stem and key pages rather than trusted
+blind. `gate.mjs batch` (question + both new concept/article files + both overlays + the Kasr
+101-ISK/104-CPS concept+article files the overlays target + the Alexandria AU-MED-102 concept+article
+files the one contextual reuse depends on) and `gate.mjs simulate` (13 files, apply order: Kasr concepts,
+Kasr articles, Alexandria concept, Alexandria article, both overlays, the 2 new files, the resource file,
+the question file) both clean (errors=0/rejected=0), independently re-confirmed via
+`scripts/validate-content-batch.mjs` directly (0 errors; `needs_evidence` warnings on every question are
+expected at this draft stage, per house convention).
+
 ## Totals
 
 - **Papers read:** 6 MCQ/mixed sources, all triaged; 16 written (non-MCQ) prompts identified separately.
