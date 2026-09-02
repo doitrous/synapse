@@ -1,49 +1,17 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | quiz1 | 33 | 1 | 0 | 34 |
-| quiz2 | 0 | 0 | 35 | 35 |
+| quiz2 | 32 | 3 | 0 | 35 |
 | quiz3 | 0 | 0 | 31 | 31 |
 | quiz4 | 0 | 0 | 34 | 34 |
 
 ## Held
 - quiz1-q04 — HIT-PENDING concept (ciliary ganglion, Kasr 102-INT batch not yet imported) — authored now in pending-live/AU-MED-203-questions.md per LANE-BRIEF §21, not emitted into this batch.
+- quiz2-q03 — HIT-PENDING concept (Edinger-Westphal nucleus / near-response pathway, Kasr 102-INT batch not yet imported) — authored now in pending-live/AU-MED-203-questions.md alongside the sibling Quiz 1 Q4 question, per LANE-BRIEF §21 and coverage/AU-MED-203-triage.md's 'Confirmed HIT-PENDING (2)' note, not emitted into this batch.
+- quiz2-q24 — HIT-PENDING concept (prefrontal cortex / frontal lobe personality change, CON-NEU-B0F7899B8DFF50) reuses an ASU-CNS-3 concept not yet imported to production (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md) — authored as a sparse-overlay pending-live question per LANE-CARD-Y2's 'check CNS-3 first, reuse via sparse overlay' instruction, not emitted into this batch.
+- quiz2-q28 — HIT-PENDING concept (inferior petrosal sinus draining to the internal jugular vein, CON-NEU-D479D9227D90F9) reuses an ASU-CNS-3 concept not yet imported to production (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md) — authored as a sparse-overlay pending-live question per LANE-CARD-Y2's 'check CNS-3 first, reuse via sparse overlay' instruction, not emitted into this batch.
 
 ## Remaining
-- quiz2-q01
-- quiz2-q02
-- quiz2-q03
-- quiz2-q04
-- quiz2-q05
-- quiz2-q06
-- quiz2-q07
-- quiz2-q08
-- quiz2-q09
-- quiz2-q10
-- quiz2-q11
-- quiz2-q12
-- quiz2-q13
-- quiz2-q14
-- quiz2-q15
-- quiz2-q16
-- quiz2-q17
-- quiz2-q18
-- quiz2-q19
-- quiz2-q20
-- quiz2-q21
-- quiz2-q22
-- quiz2-q23
-- quiz2-q24
-- quiz2-q25
-- quiz2-q26
-- quiz2-q27
-- quiz2-q28
-- quiz2-q29
-- quiz2-q30
-- quiz2-q31
-- quiz2-q32
-- quiz2-q33
-- quiz2-q34
-- quiz2-q35
 - quiz3-q01
 - quiz3-q02
 - quiz3-q03
