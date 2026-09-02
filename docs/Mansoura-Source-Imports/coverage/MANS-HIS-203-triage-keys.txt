@@ -72,16 +72,33 @@ M-Q3 :: A :: type I mechanism — IgE production
 M-Q4 :: B :: penicillin + pollen hypersensitivity — both IgE-mediated
 M-Q5 :: B :: Rh(D) hemolytic disease of the newborn — type II hypersensitivity
 
-## src_59f4d49a6f6a2ef7c047 (HIS 1- MCQ-scan.pdf) — Physiology-flavored bank, OCR, keys largely lost
-# The correct-answer highlight did not survive OCR for most items on the pages sampled
-# (p.2-4). Recovered where a stray letter/marker survived OCR; unmarked stems below need
-# a second OCR pass (different psm) or a visual check before use.
-p2-Q2 (packed cell volume / normal values) :: C :: recovered (OCR, low confidence)
-p3-Q3 (old RBC removal by macrophages)     :: C :: recovered (OCR, low confidence)
-p3-Q5 (normal RBC count, adult females)    :: unclear "e" token :: recovered (OCR, very low confidence, verify)
-p2-Q1, p2-Q1(hematocrit-stmt), p2-Q3(erythrocyte-stmt), p2-Q4/5(RBC/biconcave-shape),
-p3-Q1(erythrocyte-structure-stmt), p3-Q2(RBC-function), p3-Q4/p3-Q6(RBC-count),
-p4-all(Hb-structure/content) :: NOT RECOVERED — key not legible in this OCR pass
+## src_59f4d49a6f6a2ef7c047 (HIS 1- MCQ-scan.pdf) — Physiology-flavored bank
+# UPDATE 2026-09-02: OCR (tesseract, --force --dpi 400) still left the key unclear on
+# 13/16 sampled items. Per the lane brief's OCR/keys escalation path, the page was then
+# rendered ONCE (pagetext.mjs render, after mark-garbled) and read visually: p.2-4 each
+# carry a PRINTED ANSWER-LETTER COLUMN beside the question table, not a colour highlight
+# — a different key mechanism from every other source in this triage. All 16/16 keys are
+# now recovered directly from that column, replacing the OCR-only values below.
+p2-Q1 (blood cell destruction site)         :: D (Spleen)
+p2-Q2 (packed cell volume / normal values)  :: C (mean corpuscular volume ~87 cubic microns)
+p2-Q3 (about erythrocytes)                  :: B (major part of blood viscosity)
+p2-Q4 (RBC false statement)                 :: D (count low in newborns, false)
+p2-Q5 (biconcave shape advantage)           :: B (squeezed through capillaries without rupture)
+p3-Q1 (erythrocyte structure, false)        :: D (nucleated biconcave disc — false, is anucleate)
+p3-Q2 (major function of RBCs)              :: A (carriage of oxygen)
+p3-Q3 (old RBC removal by macrophages)      :: C (Macrophages)
+p3-Q4 (normal RBC count, adult males)       :: B (5-5.5 million/mm3)
+p3-Q5 (normal RBC count, adult females)     :: C (4.5-5 million/mm3)
+p3-Q6 (structure of mature RBCs)            :: B (contain carbonic anhydrase enzyme)
+p4-Q1 (globin polypeptides, normal adult Hb):: A (2 alpha and 2 beta chains)
+p4-Q2 (Hb structure, false statement)       :: D (4 iron atoms in ferric state — false, ferrous)
+p4-Q3 (normal Hb content, adult males)      :: A (15 gm/dl)
+p4-Q4 (normal Hb content, adult females)    :: E (13 gm/dl)
+p4-Q5 (fetal Hb / HbF structure)            :: C (2 alpha and 2 gamma polypeptide chains)
+# Authored (MANS-HIS-203-author1, matched to an existing live concept): p2-Q1, p2-Q3,
+# p2-Q5, p3-Q1, p3-Q3. The other 11 (all numeric reference-range and haemoglobin/globin
+# structure facts) are held — no matching live or pending concept found in that pass; see
+# coverage/seeds/MANS-HIS-203/erythrocyte-physbank.json and the lane report.
 
 ## src_7d6804673006cadc10e0 (Histo HIS Important MCQ.pdf) — content-twin of Continuous
 ## Book's Lecture 1&2 Q1-10 (same stems, same option order), OCR

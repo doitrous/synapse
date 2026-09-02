@@ -105,12 +105,20 @@ from the disease-specific hypersensitivity concepts already live/pending.
 
 ## Needs Omar / needs a second pass (not blockers, logged so they aren't lost)
 
-- `HIS 1- MCQ-scan.pdf`: 13 of 16 sampled questions have no recoverable key from this
-  OCR pass (highlight lost). Worth a second OCR attempt at a different `psm`, or a
-  direct visual read of the source PDF, before this file is used to author questions.
+- `HIS 1- MCQ-scan.pdf`: RESOLVED 2026-09-02 by MANS-HIS-203-author1 — a one-time full-page
+  render of p.2-4 showed a printed answer-letter column (not a highlight), recovering all
+  16/16 keys; see the updated `coverage/MANS-HIS-203-triage-keys.txt`. 5 of the 16 matched
+  an existing live concept and were authored; the other 11 (numeric reference-range facts —
+  packed cell volume, RBC count, Hb content — and haemoglobin/globin structure facts) have
+  no matching live or pending concept and are held pending a dedicated concept-mapping or
+  minting pass.
 - Parasitology, Physiology, Biochemistry, Pharmacology sections of the Continuous Book
   (pages ~55-176 per its own table of contents) and ~100 remaining per-lecture HIS files
   are catalogued (manifest) but not yet triaged — next pass for this module once triage
   resumes past Phase-0.
-- Concepts #13 (B/T lymphocyte function) and #17 (Hb chain structure) were identified as
-  tested but not yet searched against live/pending state.
+- Concept #13 (B/T lymphocyte function) RESOLVED 2026-09-02: matches AU-authored pending
+  concept `CON-HEM-FDAC2D5F64032E` (`lymphocyte-types-t-b-and-nk-and-the-immunity-each-
+  mediates`, in `Alexandria-Source-Imports/concept/AU-MED-103-histology-concepts.md`) —
+  authored via `pending-live/MANS-HIS-203-questions.md`. Concept #17 (Hb chain structure)
+  is still not matched to any live/pending concept; the two HIS-1-MCQ-scan questions that
+  test it (globin chain composition, fetal Hb composition) are held above.

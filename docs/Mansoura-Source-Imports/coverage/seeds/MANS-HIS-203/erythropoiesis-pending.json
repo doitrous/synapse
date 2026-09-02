@@ -259,6 +259,40 @@
       "author_notes": ""
     },
     {
+      "key": "q20",
+      "page": 19,
+      "title": "First precursor cell for RBCs",
+      "question": "The first precursor cell for RBCs is:",
+      "options": {
+        "A": "CFU-erythrocyte",
+        "B": "Basophilic erythroblast",
+        "C": "Proerythroblast",
+        "D": "Polychromatic erythroblast",
+        "E": "Normoblast"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The CFU-erythrocyte (colony-forming unit) is a committed progenitor stage before any recognisable erythroblast morphology appears; it precedes the proerythroblast, the first RECOGNISABLE precursor this question is asking for.",
+        "B": "Incorrect. The basophilic erythroblast is the second recognisable stage of the series, coming after the proerythroblast, not the first.",
+        "C": "Correct. The proerythroblast is the first recognisable precursor cell of the erythroid series. From it the series proceeds through the basophilic, polychromatophilic and normoblast stages to the reticulocyte and finally the mature erythrocyte.",
+        "D": "Incorrect. The polychromatophilic erythroblast is the third stage of the series, well after the proerythroblast that begins it.",
+        "E": "Incorrect. The normoblast is the fourth stage, the last stage before the reticulocyte, far from the first precursor this question asks for."
+      },
+      "main_concept": "CON-HEM-2D18E46BA15483",
+      "concept_ids": ["CON-HEM-2D18E46BA15483"],
+      "contextual_concept_ids": [],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Erythropoiesis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the proerythroblast as the first recognisable precursor cell of the erythroid series.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.19" },
+      "author_notes": ""
+    },
+    {
       "key": "d63b-3",
       "page": 38,
       "title": "Duration of yolk sac hematopoiesis (past-exam block, دفعة 63)",
