@@ -188,10 +188,10 @@ The peripheral axon carries a neurilemmal sheath as its outermost covering, esse
 Working outward from the axon, a peripheral nerve fibre's coverings are the axolemma, the myelin sheath (where present), and outermost of all the neurilemmal sheath (sheath of Schwann) -- the Schwann cell's own cytoplasm and nucleus, surrounding every peripheral fibre whether myelinated or not. At rest, the nerve membrane is far more permeable to potassium than to sodium, through leak channels, which is why the resting potential sits close to the potassium equilibrium potential. Depolarization is the shift toward a less negative potential, caused by a rise in sodium permeability as voltage-gated Na+ channels open.
 
 ### Mechanism
-The size of a depolarization tracks the size of the sodium-permeability rise that causes it -- a bigger rise in Na+ permeability produces a bigger depolarization. How easily that depolarization reaches threshold (i.e. how excitable the fibre is) depends on how far the resting potential already sits from threshold: shifting the resting potential toward threshold (less negative) increases excitability, shifting it away (hyperpolarization) decreases it. Extracellular calcium sets part of that distance by a membrane-stabilising effect on Na+ channels -- a fall in extracellular calcium removes stabilisation and increases excitability (hypocalcaemic tetany), a rise increases stabilisation and decreases it. Once Na+ channels open, their separate inactivation gates close on a short delay regardless of continued depolarization; while enough of them stay closed (the absolute refractory period), no stimulus of any strength, however large, can trigger a second action potential, because the channels needed for one are simply unavailable.
+The size of a depolarization tracks the size of the sodium-permeability rise that causes it -- a bigger rise in Na+ permeability produces a bigger depolarization. How easily that depolarization reaches threshold (i.e. how excitable the fibre is) depends on how far the resting potential already sits from threshold: shifting the resting potential toward threshold (less negative) increases excitability, shifting it away (hyperpolarization) decreases it. Threshold itself is the membrane potential at which enough voltage-gated Na+ channels have opened that sodium influx becomes self-sustaining (regenerative) -- it is a condition where Na+ channels are triggered to open normally, not an arbitrary fixed voltage, and crossing it is what turns a fading local response into a full, propagated action potential. Extracellular calcium sets part of the resting-potential-to-threshold distance by a membrane-stabilising effect on Na+ channels -- a fall in extracellular calcium removes stabilisation and increases excitability (hypocalcaemic tetany), a rise increases stabilisation and decreases it. Once Na+ channels open, their separate inactivation gates close on a short delay regardless of continued depolarization; while enough of them stay closed (the absolute refractory period), no stimulus of any strength, however large, can trigger a second action potential, because the channels needed for one are simply unavailable.
 
 ### Key determinants
-The neurilemmal sheath is what makes peripheral (but not central) nerve regeneration possible after injury -- it provides a physical guide for a regrowing axon. The absolute refractory period is qualitatively different from reduced excitability: it is a hard block from channel unavailability, not a raised threshold.
+The neurilemmal sheath is what makes peripheral (but not central) nerve regeneration possible after injury -- it provides a physical guide for a regrowing axon. The absolute refractory period is qualitatively different from reduced excitability: it is a hard block from channel unavailability, not a raised threshold. Threshold and the absolute refractory period are two faces of the same channel population: threshold is crossed when enough Na+ channels are triggered to open normally, and the refractory period is what follows once those same channels' inactivation gates close.
 
 ### Clinical significance
 Hypocalcaemic tetany (spontaneous, repetitive nerve/muscle firing from lowered extracellular calcium) and the local anaesthetic's exploitation of sodium-channel block (preventing the same depolarizing permeability rise this article describes) are both direct clinical extensions of the mechanisms taught here. Peripheral nerve injury's recovery potential, unlike a central nervous system lesion's, rests on the neurilemmal sheath's guiding role.
@@ -208,10 +208,118 @@ The neurilemmal sheath is the outermost peripheral-axon covering and is essentia
 Resting membrane is more permeable to K+ than Na+; moving the resting potential toward threshold increases excitability, away from it decreases excitability.
 A fall in extracellular calcium increases excitability (hypocalcaemic tetany); a rise decreases it.
 Depolarization is caused by rising Na+ permeability, proportional to the size of that rise.
+Threshold is the potential at which Na+ channels are triggered to open normally, making sodium influx self-sustaining (regenerative).
 The absolute refractory period is caused by Na+ channel inactivation-gate closure and blocks re-excitation regardless of stimulus strength.
 
 ## lose_the_mark
 Confusing the neurilemmal sheath with the myelin sheath.
 Naming K+ instead of Na+ as the depolarizing ion.
 Reversing the calcium/excitability relationship (treating hypercalcaemia as the excitability-raising direction).
+Defining threshold as a fixed voltage rather than the point where Na+ channel opening becomes regenerative.
 Treating the absolute refractory period as merely reduced excitability rather than a hard block.
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-CBF103-METABOLISM
+
+## title
+Energy metabolism and thermoregulation: energy balance, heat value, respiratory quotient and BMR
+
+## arabic_title
+أيض الطاقة وتنظيم الحرارة: اتزان الطاقة والقيمة الحرارية والمعدل التنفسي ومعدل الأيض الأساسي
+
+## aliases
+Energy balance
+Heat value of foodstuffs
+Respiratory quotient
+Basal metabolic rate
+Specific dynamic action
+
+## subject
+fnd
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Foundations
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Energy balance compares intake against output: a weight-stable adult's intake equals output, growth requires a surplus, and a negative balance causes weight loss. Most catabolic energy is released as heat rather than captured work, and each foodstuff has a physical heat value (bomb calorimeter) and a physiological heat value (available to the body) that are equal for carbohydrate and fat but not for protein, whose nitrogen is lost as urea. The respiratory quotient (CO2 produced over O2 consumed) runs near 1.0 for carbohydrate and 0.7 for fat, tracking which fuel is being oxidised. The basal metabolic rate must be measured fasting, at thermoneutral temperature and complete rest, and the specific dynamic action that follows a meal is driven mainly by the metabolic processing of absorbed nutrients, not the mechanical work of digestion.
+
+## sections
+### Definition
+Energy balance is the relationship between energy intake (food) and energy output (expenditure). In a weight-stable adult, intake equals output; during growth, intake must exceed output; when output exceeds intake (a negative balance), the body draws on its own stores and loses weight. Most of the chemical energy released when a foodstuff is catabolised appears as heat, not as captured work or high-energy phosphate bonds. A foodstuff's physical heat value (measured by burning it in a bomb calorimeter) and its physiological heat value (the energy actually available to the body) are equal for carbohydrate and fat, since the body oxidises both completely; protein's physiological value is lower than its physical value because its nitrogen is excreted as urea rather than fully oxidised. The respiratory quotient (RQ) is the ratio of CO2 produced to O2 consumed, about 1.0 for carbohydrate and about 0.7 for fat. The basal metabolic rate (BMR) is the energy expenditure of the vital organs at complete rest, and specific dynamic action (SDA) is the rise in metabolic rate that follows a meal.
+
+### Mechanism
+Threshold facts anchor these figures: carbohydrate's physical and physiological heat value is about 4.1 Kcal/g, and metabolising 10 g of protein (at about 4.1 Kcal/g physiologically) yields about 41 Kcal. The energy equivalent of oxygen -- the heat produced when one litre of O2 is consumed -- restates the heat-value idea from the oxygen side, and its exact figure depends on which substrate is being oxidised. Because carbohydrate contains oxygen within its own molecule, oxidising it produces CO2 at almost the same rate O2 is consumed (RQ about 1.0); fat needs relatively more O2 to complete its oxidation, so its RQ runs lower, about 0.7. An RQ above 1 signals net conversion of carbohydrate into fat (lipogenesis) or a transient rise from hyperventilation, exercise, or fever and acidosis; gluconeogenesis that uses fat as the substrate for new glucose runs the opposite way and lowers RQ. For a valid BMR reading, the subject must be fasted overnight, resting completely, and in a thermoneutral room -- not fed, active, or cold, all of which would raise measured heat production above the true basal level. Specific dynamic action is caused mainly by the metabolic processing of absorbed nutrients afterward (chiefly deamination of amino acids in the liver for protein, whose SDA at about 30% is by far the largest of the three foodstuffs), not by the mechanical work of digesting and absorbing the food itself.
+
+### Key determinants
+Since the brain metabolises almost exclusively glucose, its RQ sits close to 1, distinguishing it from fat-reliant tissues. An uncontrolled diabetic, unable to use glucose and relying on fat oxidation, runs a low RQ rather than one near 1. Obesity reflects a sustained positive energy balance and an increase in the body's fat content, not its protein content.
+
+### Clinical significance
+Indirect calorimetry (measuring O2 consumption and CO2 production) lets clinicians estimate a patient's metabolic rate and substrate use non-invasively, using exactly the RQ and energy-equivalent-of-oxygen relationships taught here -- relevant to nutritional support planning in critically ill or metabolically stressed patients.
+
+### Common misconceptions
+Assuming a weight-stable adult's intake normally exceeds output, when a stable weight is itself the sign the two are matched. Inverting the RQ ratio (O2 over CO2 instead of CO2 over O2). Attributing specific dynamic action to the physical work of digestion rather than to the metabolic processing of absorbed nutrients afterward. Measuring BMR under fed or cold conditions instead of the required fasting, thermoneutral state.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+A weight-stable adult's intake equals output; growth needs a surplus; a negative balance causes weight loss.
+Carbohydrate's physical and physiological heat values are equal (~4.1 Kcal/g); protein's physiological value (~4.1 Kcal/g) is lower than its physical value (~5.3 Kcal/g) because nitrogen is lost as urea.
+RQ = CO2 produced / O2 consumed, about 1.0 for carbohydrate and 0.7 for fat; gluconeogenesis from fat lowers RQ rather than raising it.
+BMR must be measured fasting, at thermoneutral temperature, at complete rest.
+Specific dynamic action is caused mainly by metabolic processing of absorbed nutrients (protein's SDA ~30%, the largest of the three foodstuffs), not by the mechanical work of digestion.
+
+## lose_the_mark
+Assuming intake normally exceeds output in a weight-stable adult.
+Inverting the RQ ratio or assuming every fat-related process raises RQ.
+Measuring or imagining BMR measured fed or in a cold room.
+Attributing SDA to digestive work rather than post-absorptive metabolic processing.
