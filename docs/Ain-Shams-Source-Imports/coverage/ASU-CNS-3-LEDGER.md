@@ -1,7 +1,7 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | anatomy-mcq | 60 | 21 | 0 | 81 |
-| physio-mcq | 0 | 0 | 48 | 48 |
+| physio-mcq | 44 | 4 | 0 | 48 |
 
 ## Held
 - anatomy-mcq-q53 — collapsed into anatomy-mcq-q04 — same fact, within-file duplicate (see concept CON-NEU-039920144AF3A5 field_notes)
@@ -25,53 +25,10 @@
 - anatomy-mcq-q74 — collapsed into anatomy-mcq-q59 — same fact, within-file duplicate (see concept CON-NEU-9CE8FE54153CC8 field_notes)
 - anatomy-mcq-q76 — collapsed into anatomy-mcq-q59 — same fact, within-file duplicate (see concept CON-NEU-9CE8FE54153CC8 field_notes)
 - anatomy-mcq-q75 — collapsed into anatomy-mcq-q69 — same fact, within-file duplicate (see concept CON-NEU-7376722F64A101 field_notes)
+- physio-mcq-q30 — collapsed into physio-mcq-q02 — same fact, within-file duplicate (see concept CON-NEU-53B558B50820FB field_notes)
+- physio-mcq-q31 — collapsed into physio-mcq-q15 — same fact, within-file duplicate (see concept CON-NEU-F10C594762E315 field_notes)
+- physio-mcq-q38 — collapsed into physio-mcq-q12 — same fact, within-file duplicate (see concept CON-NEU-E41ECCD1C08B7E field_notes)
+- physio-mcq-q43 — collapsed into physio-mcq-q02 — same fact, within-file duplicate (see concept CON-NEU-53B558B50820FB field_notes)
 
 ## Remaining
-- physio-mcq-q01
-- physio-mcq-q02
-- physio-mcq-q03
-- physio-mcq-q04
-- physio-mcq-q05
-- physio-mcq-q06
-- physio-mcq-q07
-- physio-mcq-q08
-- physio-mcq-q09
-- physio-mcq-q10
-- physio-mcq-q11
-- physio-mcq-q12
-- physio-mcq-q13
-- physio-mcq-q14
-- physio-mcq-q15
-- physio-mcq-q16
-- physio-mcq-q17
-- physio-mcq-q18
-- physio-mcq-q19
-- physio-mcq-q20
-- physio-mcq-q21
-- physio-mcq-q22
-- physio-mcq-q23
-- physio-mcq-q24
-- physio-mcq-q25
-- physio-mcq-q26
-- physio-mcq-q27
-- physio-mcq-q28
-- physio-mcq-q29
-- physio-mcq-q30
-- physio-mcq-q31
-- physio-mcq-q32
-- physio-mcq-q33
-- physio-mcq-q34
-- physio-mcq-q35
-- physio-mcq-q36
-- physio-mcq-q37
-- physio-mcq-q38
-- physio-mcq-q39
-- physio-mcq-q40
-- physio-mcq-q41
-- physio-mcq-q42
-- physio-mcq-q43
-- physio-mcq-q44
-- physio-mcq-q45
-- physio-mcq-q46
-- physio-mcq-q47
-- physio-mcq-q48
+(none)

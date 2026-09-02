@@ -160,6 +160,27 @@ already-keyed source; the ~14 raw dated `EOM - paper N` files next, cross-checki
 content overlap noted above; the 6+ pharmacology/anatomy "[old]" tagged banks and dept books last)
 before any concept is minted, per LANE-CARD §4/§6 and the "TRIAGE APPROVED" gate.
 
+## Addendum (cluster 2, physio-mcq)
+
+The physiology paper's page count matched the sample (5 pp, native, 0 garbled), but its item count
+did not: `pagetext.mjs show` on all 5 pages returns **65 questions**, not the 48 this triage counted
+(48 stops mid-page-3; items 49-65 run through page 4 and into page 5). Cluster 2 authored only the
+scoped 48 (44 distinct facts after collapsing duplicates, matching this triage's "~40" estimate
+closely), per the dispatch's explicit "first 48 items" scope — **items 49-65 are untriaged and
+unauthored**, a real follow-on cluster, not a gap hidden in this count. Recommend the next CNS-3
+cluster start there (`## ASU-CNS-3` in `coverage/ASU-Y3-priority-sources.md`) rather than a fresh
+paper, since the source is already open, cached and partially triaged.
+
+Cross-paper duplication with the anatomy cluster ran deeper than the two facts (hemiballismus,
+flocculonodular/equilibrium) flagged above: physio Q3 (area 4 function) also turned out to be an
+exact duplicate of anatomy's own Q1 concept, caught only by re-running `find-existing.mjs`-equivalent
+checks per item rather than trusting this triage doc's spot-check table alone. Three more items
+(Q11, Q13, Q39) duplicated pending concepts in Alexandria's AU-MED-203 physiology batch, and one
+(Q34) duplicated a live Kasr concept — none of these were visible from this triage's own 22-term
+spot-check, which only covered anatomy-paper terms. **The lesson for the next cluster**: the
+Phase-0 spot-check table is a starting point, not a substitute for a fresh per-item search once the
+actual items are in hand.
+
 ## Needs Omar
 
 - None yet identified specific to CNS-3 (unlike ASU-IBM/Fayoum). The corpus is source-rich; no
