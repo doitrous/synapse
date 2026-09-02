@@ -1,0 +1,79 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch1b",
+  "header": "AUN-INI-105 -- pending-live overlay questions from the INI MCQ .pdf, Chapter 1 \"Bacterial cell structure\" triage (coverage/AUN-INI-105-triage.md, S3), lane 14's Q101-Q161 window. Both items in this small batch reuse one pending Menoufia MUST FHB-102-2 microbiology concept (CON-INF-4D65B20EBBAE83, \"Saprophytes feed on dead organic material\"), found by this pass's own find-existing.mjs search for \"saprophyte\" and newly overlaid this pass (AUN-INI-105-ch1b-must-overlay-concepts.md). Q160's printed key (\"Parasites\") is doubtful against the standard teaching that the majority of bacteria are saprophytic/non-pathogenic, but the bank shows no internal inconsistency about it (no other item in this source states the opposite), so it is authored with the key as printed and the doubt noted in author_notes, per the lane's standing rule that a printed key stands unless the bank itself is internally inconsistent. Omar applies this batch only after: 1) docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md (or its docs/import-ready equivalent once staged), 2) AUN-INI-105-ch1b-must-overlay-concepts.md (the sparse +aun overlay on that concept). Import order: 1, then 2, then this file, each via Admin > Bulk import -> question.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-INI-105",
+    "module_subject": "AUN-INI-105 > Bacterial cell structure",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS"],
+    "resource_ids": ["src_6f2f4188bb0cbf848733"],
+    "source_citation": "INI MCQ .pdf, Bacterial cell structure, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "topic": "Bacterial cell structure",
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "main_concept": "CON-INF-4D65B20EBBAE83",
+    "concept_ids": ["CON-INF-4D65B20EBBAE83"]
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch1b-q159",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q159",
+      "page": 25,
+      "title": "Molds feeding on dead matter are saprophytes",
+      "question": "The molds obtained nutrition from dead and decaying matter which are called ?",
+      "options": {
+        "A": "Saprophytes",
+        "B": "Parasites",
+        "C": "Commensals",
+        "D": "None of these"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Organisms, including moulds, that feed on dead animal or plant material and thereby decompose it are called saprophytes. Saprophytes are free-living decomposers, not organisms dependent on a living host. This decomposer role is the defining feature of a saprophyte.",
+        "B": "Incorrect. A parasite depends on a living host for nutrition, typically at the host's expense -- the reverse of feeding on dead, decaying matter.",
+        "C": "Incorrect. A commensal lives in or on a living host without harming it, benefiting from that living association -- not from decomposing dead matter.",
+        "D": "Incorrect. Since \"saprophytes\" correctly names organisms feeding on dead and decaying matter, \"none of these\" is wrong."
+      },
+      "subtopic": "Saprophytes",
+      "learning_objective": "State that moulds obtaining nutrition from dead and decaying matter are called saprophytes.",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "pendingConcept": "CON-INF-4D65B20EBBAE83 is pending in docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md, canonical_key microbiology.saprophytes.dead-organic-matter -- found by this pass's own find-existing.mjs search for \"saprophyte\"; newly overlaid this pass (AUN-INI-105-ch1b-must-overlay-concepts.md), this module's own chapter 8/9 lanes' established precedent for reusing MUST FHB-102-2 concepts." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q160",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q160",
+      "page": 26,
+      "title": "This source's printed answer for the majority-of-bacteria question",
+      "question": "Majority of bacteria are ?",
+      "options": {
+        "A": "Saprophytes",
+        "B": "Symbionts",
+        "C": "Commensals",
+        "D": "Parasites"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect per this source's printed key. Saprophytes -- free-living organisms decomposing dead organic matter -- are, by standard microbiology teaching, the majority ecological category of bacteria in nature; this source's own printed answer names Parasites instead.",
+        "B": "Incorrect. Symbionts (organisms in a mutually beneficial relationship with a host) are not the printed majority category here.",
+        "C": "Incorrect. Commensals (organisms benefiting from a host without helping or harming it, as with much of the normal flora) are not the printed majority category here either.",
+        "D": "Correct per this source's printed answer key. This bank's own plain-text ANSWERS table keys \"Parasites\" as the majority ecological category of bacteria. The key is followed as printed, per the lane's standing rule. This runs against the more commonly taught view that saprophytes, not parasites, make up the majority of bacteria in nature -- see author_notes for that doubt."
+      },
+      "subtopic": "Bacterial ecological classification",
+      "learning_objective": "State this source's own printed classification of the majority of bacteria as parasites, while noting the more standard teaching that saprophytes are the majority.",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "pendingConcept": "CON-INF-4D65B20EBBAE83 (saprophyte definition) is the most topically relevant existing record for this item's ecological-classification domain, reused as main_concept even though the printed correct answer is \"Parasites\" rather than \"Saprophytes\" -- see author_notes for the doubt this raises." },
+      "author_notes": "Printed key (D, Parasites) is doubtful against the standard microbiology/parasitology teaching that the majority of bacteria in nature are saprophytic (free-living decomposers), with only a minority being pathogenic parasites -- the same distinction this pass's own Q159 and this MUST concept both draw. However, no other item in this source (chapter 1 or elsewhere read so far) states the opposite outright, so the bank shows no internal inconsistency about this specific claim; per the lane's standing rule, the printed key stands and is authored as printed, with this doubt recorded here as a held-printed-key-conflict candidate for Omar to review against the source or an official answer sheet, rather than held outright."
+    }
+  ]
+}
