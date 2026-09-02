@@ -1,0 +1,869 @@
+{
+  "lane": "SCUFBS103",
+  "cluster": "fbs103b",
+  "header": "SCU-FBS103 S2 minting pass, second author lane (scu-fbs103-author2). 27 questions minting 26 genuinely new concepts (re-verified with find-existing.mjs on the final canonical key plus a grep -ril read of every hit body across docs/*-Source-Imports and docs/import-ready — none matched the specific fact tested; near-miss hits are named in each concept's own field_notes as rejected merge candidates). Covers biochemistry DNA replication/nucleotide structure, embryology weeks 1-4, nerve-cell-adjacent histology (astrocyte morphology, epineurium), general parasitology terminology and Heterophyes eggs, and pharmacology receptor/adverse-drug-reaction classification. Keys and stems read from the FOMSCU own-source quiz-app JSON (06 EOM Exams/EOM - Foundation 2 2026 - FOMSCU MID - MCQ.json, 07 EOY Exams/EOY - Foundation 2 2025 and 2026 - FOMSCU Final - MCQ.json, 03 Questions and QBank/Formative 2025 - Foundation 2 - MCQ.json); explanations written fresh in house voice, never pasted from the source JSON's own (FOMNINU-sourced) Arabic explanation field. Ids minted with mint-concept-id.mjs, checked against the live snapshot and taken-id scan. No claim/citation/media record minted — scoped to concept, article and question files, matching the standing convention (Kasr's 103-BMS-mcq-lipid-concepts.md, this lane's own SCU-FBS103-s2-mint-concepts.md); the evidence chain is owed and named in the hand-off report. Sibling reuse cluster (same cluster name 'fbs103b', continuing q28-q41) is fbs103b-reuse.json.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS103",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "exam_relevance": 5
+  },
+  "questions": [
+    {
+      "key": "fbs103b-q01",
+      "id": "QST-SCUFBS103-S2-A2-BIOCHEM-DNAPOLIIIACTIVITIES",
+      "title": "Activities of DNA polymerase III holoenzyme",
+      "question": "DNA polymerase III holoenzyme possesses which of the following activities?",
+      "subject": "fnd",
+      "options": {
+        "A": "Polymerase activity only",
+        "B": "3' to 5' exonuclease activity only",
+        "C": "5' to 3' exonuclease and polymerase activities",
+        "D": "5' to 3' polymerase and 3' to 5' exonuclease activities"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. DNA polymerase III does synthesise new strand in the 5' to 3' direction, but calling this its only activity ignores the proofreading function built into the same holoenzyme, which is what makes bacterial replication as accurate as it is.",
+        "B": "Incorrect. A standalone 3' to 5' exonuclease activity with no polymerase function describes a dedicated proofreading enzyme, not DNA polymerase III itself, which carries both functions in one holoenzyme rather than splitting them into separate proteins.",
+        "C": "Incorrect. Exonucleases that remove nucleotides in the 5' to 3' direction (as DNA polymerase I uses to excise RNA primers) are a different activity from the one DNA polymerase III carries; III's own proofreading exonuclease runs 3' to 5', the opposite direction.",
+        "D": "Correct. DNA polymerase III holoenzyme is the main replicative enzyme in bacteria, and it combines two activities in one molecule: 5' to 3' polymerase activity that adds nucleotides to the growing strand, and a proofreading 3' to 5' exonuclease activity that immediately removes a misincorporated nucleotide before the next one is added. This built-in proofreading step is why polymerase III achieves such high replication fidelity, catching most base-pairing errors as they happen rather than leaving them for a separate repair system to find later."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "DNA replication: DNA polymerase III activities",
+      "main_concept": "CON-FND-97729CC3ACABF8",
+      "concept_ids": ["CON-FND-97729CC3ACABF8"],
+      "library_ids": ["ART-SCU-FBS103-BIO-DNA-REPLICATION-NUCLEOTIDE"],
+      "learning_objective": "State that DNA polymerase III holoenzyme carries both 5' to 3' polymerase activity and a proofreading 3' to 5' exonuclease activity in the same molecule.",
+      "source_citation": "FOMSCU Foundation 2, EOY Final 2025, Q30",
+      "field_notes": {
+        "keySource": "printed answer \"5' to 3' polymerase and 3' to 5' exonuclease activities\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOY Final 2025 Q30; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q02",
+      "id": "QST-SCUFBS103-S2-A2-BIOCHEM-NUCLEOTIDECOMPONENTS",
+      "title": "The three components of a nucleotide",
+      "question": "A nucleotide is structurally composed of:",
+      "subject": "fnd",
+      "options": {
+        "A": "A pentose sugar and a phosphate group only",
+        "B": "A nitrogenous base and a pentose sugar only",
+        "C": "A nitrogenous base, a pentose sugar, and a phosphate group",
+        "D": "A nitrogenous base and a phosphate group only"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A pentose sugar joined to a phosphate group with no base attached describes a nucleotide missing its most defining part; without the nitrogenous base there is no way to encode or read genetic information, which is the whole point of a nucleic acid strand.",
+        "B": "Incorrect. A base attached to a sugar with no phosphate group describes a nucleoside, not a nucleotide; the phosphate group is what distinguishes the two terms and is also what allows successive units to be linked together into a strand.",
+        "C": "Correct. A nucleotide has three parts: a nitrogenous base (a purine or pyrimidine), a five-carbon pentose sugar (deoxyribose in DNA, ribose in RNA), and a phosphate group. The base attaches to the sugar's 1' carbon, and the phosphate attaches to the sugar's 5' carbon; polymerisation then links the phosphate of one nucleotide to the 3'-hydroxyl of the next sugar, so all three components are required both for the nucleotide's own identity and for the strand it becomes part of.",
+        "D": "Incorrect. A base bonded directly to a phosphate group with no pentose sugar between them is not how a nucleotide is built; the sugar is the structural scaffold that carries both the base and the phosphate and cannot be omitted."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Nucleic acid structure: nucleotide composition",
+      "main_concept": "CON-FND-4B34F00B9AC6EE",
+      "concept_ids": ["CON-FND-4B34F00B9AC6EE"],
+      "related_concept_ids": ["CON-FND-28BB941CB8376F"],
+      "library_ids": ["ART-SCU-FBS103-BIO-DNA-REPLICATION-NUCLEOTIDE"],
+      "learning_objective": "State that a nucleotide is composed of a nitrogenous base, a pentose sugar and a phosphate group, distinguishing it from a nucleoside (base plus sugar only).",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q42",
+      "field_notes": {
+        "keySource": "printed answer \"A nitrogenous base, a pentose sugar, and a phosphate group\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q42; source-JSON extraction.",
+        "rejectedMergeCandidateIds": "CON-FND-28BB941CB8376F (SCU-FBS102-s2-author5-mint-concepts.md) tests the narrower fact that the phosphate attaches specifically to the sugar's 5' carbon, not the broader three-component composition this stem asks about; read in full and judged a related but distinct explicit_objective, so minted fresh rather than reused."
+      }
+    },
+    {
+      "key": "fbs103b-q03",
+      "id": "QST-SCUFBS103-S2-A2-BIOCHEM-EUKARYOTICMANYORIGINS",
+      "title": "Eukaryotic replication origins versus prokaryotic",
+      "question": "Eukaryotic DNA replication differs from prokaryotic replication in that eukaryotes typically have:",
+      "subject": "fnd",
+      "options": {
+        "A": "A single circular chromosome",
+        "B": "Many origins of replication",
+        "C": "Only one origin of replication",
+        "D": "No requirement for DNA polymerase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A single circular chromosome describes the typical bacterial (prokaryotic) genome, not the eukaryotic one; eukaryotic DNA is instead organised into multiple linear chromosomes, which is part of why a different replication strategy is needed.",
+        "B": "Correct. Eukaryotic chromosomes are far longer than a bacterial chromosome, so replicating an entire chromosome from a single origin would take far too long. Eukaryotic cells solve this by firing many origins of replication along each chromosome simultaneously, each origin creating its own replication bubble; these bubbles then extend and fuse together, letting the whole chromosome finish replicating within the time available in S phase.",
+        "C": "Incorrect. A single origin of replication is the prokaryotic pattern (bacteria typically replicate their circular chromosome from one origin, oriC), the opposite of what makes eukaryotic replication distinctive.",
+        "D": "Incorrect. Eukaryotic replication absolutely requires DNA polymerase (several DNA polymerase enzymes, in fact, handling leading- and lagging-strand synthesis); the difference from prokaryotes lies in origin number and replication machinery complexity, not in whether a polymerase is needed at all."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "DNA replication: eukaryotic versus prokaryotic origins",
+      "main_concept": "CON-FND-FC1C2D276EFCB1",
+      "concept_ids": ["CON-FND-FC1C2D276EFCB1"],
+      "library_ids": ["ART-SCU-FBS103-BIO-DNA-REPLICATION-NUCLEOTIDE"],
+      "learning_objective": "State that eukaryotic chromosomes replicate from many origins of replication simultaneously, unlike the single origin typical of a bacterial chromosome.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q10",
+      "field_notes": {
+        "keySource": "printed answer \"Many origins of replication\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q10 (repeated verbatim as EOY Final 2026 Q10); source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q04",
+      "id": "QST-SCUFBS103-S2-A2-BIOCHEM-ORFINTRONSEUKARYOTIC",
+      "title": "Feature unique to eukaryotic genes: introns",
+      "question": "Which of the following exists in eukaryotic genes but NOT in prokaryotic genes?",
+      "subject": "fnd",
+      "options": {
+        "A": "Translation occurs simultaneously with transcription",
+        "B": "The DNA is circular and supercoiled",
+        "C": "The mRNA is polycistronic",
+        "D": "The open reading frame is interrupted by introns"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Simultaneous transcription and translation (coupled transcription-translation) is a prokaryotic feature, made possible because bacteria have no nucleus separating the two processes; eukaryotic transcription happens in the nucleus while translation happens afterward in the cytoplasm, so the two cannot occur simultaneously on the same transcript.",
+        "B": "Incorrect. A circular, supercoiled chromosome is the typical prokaryotic arrangement; eukaryotic DNA is instead linear and packaged into chromatin with histones, so this option again describes the prokaryotic rather than the eukaryotic pattern.",
+        "C": "Incorrect. Polycistronic mRNA, in which one transcript encodes several proteins read from multiple start codons (as in a bacterial operon), is a prokaryotic feature; eukaryotic mRNA is essentially always monocistronic, encoding a single protein.",
+        "D": "Correct. Eukaryotic genes are typically split into coding exons interrupted by noncoding introns, so the open reading frame is discontinuous in the genomic DNA and must be reunited by RNA splicing (removing the introns) before a continuous, translatable open reading frame exists on the mature mRNA. Prokaryotic genes are essentially never interrupted this way — their open reading frame runs continuously from start to stop codon with no introns to remove, which is one reason prokaryotic genes can be transcribed and translated together in real time."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Gene structure: introns and the eukaryotic open reading frame",
+      "main_concept": "CON-FND-7E45E94A441771",
+      "concept_ids": ["CON-FND-7E45E94A441771"],
+      "library_ids": ["ART-SCU-FBS103-BIO-DNA-REPLICATION-NUCLEOTIDE"],
+      "learning_objective": "State that the eukaryotic open reading frame is interrupted by introns, requiring splicing, unlike the continuous prokaryotic open reading frame.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q41",
+      "field_notes": {
+        "keySource": "printed answer \"The open reading frame is interrupted by introns\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q41; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q05",
+      "id": "QST-SCUFBS103-S2-A2-BIOCHEM-GCCONTENTFROMTHYMINE",
+      "title": "Guanine content from a given thymine percentage",
+      "question": "If a double-stranded DNA molecule contains 30% thymine, what is the amount of guanine in this molecule?",
+      "subject": "fnd",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. 10% does not satisfy Chargaff's rule once thymine is fixed at 30%; adenine must also equal 30% (A pairs with T), leaving only 40% for guanine and cytosine together, split evenly between them, so guanine cannot be as low as 10%.",
+        "B": "Correct. By Chargaff's base-pairing rule, adenine (A) always pairs with thymine (T) and guanine (G) always pairs with cytosine (C), so %A = %T and %G = %C in double-stranded DNA. If thymine is 30%, then adenine is also 30%, and together A+T account for 60% of the bases, leaving 40% for G+C combined; because %G = %C, guanine alone is half of that 40%, which is 20%.",
+        "C": "Incorrect. 30% would only be correct if guanine happened to equal thymine's own percentage by coincidence, but Chargaff's rule ties guanine to cytosine (not to thymine), and the arithmetic above gives 20%, not 30%, once adenine is fixed at 30% alongside thymine.",
+        "D": "Incorrect. 40% is the combined percentage of guanine and cytosine TOGETHER (100% minus the 60% taken by A+T), not guanine's own individual share; guanine alone is half of that combined figure, 20%."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "DNA composition: Chargaff's base-pairing rule",
+      "main_concept": "CON-FND-40504130316AEB",
+      "concept_ids": ["CON-FND-40504130316AEB"],
+      "library_ids": ["ART-SCU-FBS103-BIO-DNA-REPLICATION-NUCLEOTIDE"],
+      "learning_objective": "Apply Chargaff's rule (%A = %T, %G = %C) to calculate guanine content from a given thymine percentage in double-stranded DNA.",
+      "source_citation": "FOMSCU Foundation 2, EOY Final 2025, Q19",
+      "field_notes": {
+        "keySource": "printed answer \"20%\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOY Final 2025 Q19; source-JSON extraction.",
+        "rejectedMergeCandidateIds": "Automated find-existing pass on the bare answer \"20%\" during S3 triage surfaced unrelated cardiac-filling and renal-tumour percentage records (per coverage/SCU-FBS103-triage.md's manual QA table) — a homonym collision on a generic number, not a genuine hit; re-queried here with the full Chargaff-rule phrase and confirmed no existing record."
+      }
+    },
+    {
+      "key": "fbs103b-q06",
+      "id": "QST-SCUFBS103-S2-A2-BIOCHEM-VITAMINKGUTFLORA",
+      "title": "Vitamin synthesized by intestinal bacterial flora",
+      "question": "Which of the following vitamins is primarily synthesized by the normal bacterial flora in the human intestine?",
+      "subject": "fnd",
+      "options": {
+        "A": "Vitamin A complex",
+        "B": "Vitamin C",
+        "C": "Vitamin D precursors",
+        "D": "Vitamin K"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Vitamin A is obtained from the diet (preformed retinol from animal sources, or provitamin-A carotenoids from plant sources) and stored in the liver; it is not manufactured for the body by the resident gut bacteria.",
+        "B": "Incorrect. Vitamin C (ascorbic acid) must be obtained directly from the diet, since humans lack the enzyme needed to synthesise it themselves and gut bacterial flora do not supply it either; this is exactly why a dietary deficiency of vitamin C causes scurvy.",
+        "C": "Incorrect. Vitamin D precursors are produced in the skin from a cholesterol derivative on ultraviolet-light exposure (with further activation in the liver and kidney), a pathway that has nothing to do with intestinal bacterial flora.",
+        "D": "Correct. Vitamin K is unusual among the fat-soluble vitamins in that a significant portion of what the body uses is produced by the normal bacterial flora of the large intestine, in addition to what is obtained from green leafy vegetables in the diet. This bacterial source is clinically important: newborns, whose gut has not yet been colonised, and patients on prolonged broad-spectrum antibiotics, whose normal flora has been suppressed, are both at risk of vitamin K deficiency and the bleeding tendency that follows from it."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Fat-soluble vitamins: vitamin K's bacterial source",
+      "main_concept": "CON-FND-23AB2D963ED92A",
+      "concept_ids": ["CON-FND-23AB2D963ED92A"],
+      "library_ids": ["ART-SCU-FBS103-BIO-DNA-REPLICATION-NUCLEOTIDE"],
+      "learning_objective": "State that a clinically significant portion of the body's vitamin K is produced by normal intestinal bacterial flora, distinguishing this source from vitamins A, C and D.",
+      "source_citation": "FOMSCU Foundation 2, Formative 2025, Q10",
+      "field_notes": {
+        "keySource": "printed answer \"Vitamin K\", FOMSCU Foundation 2 QBank",
+        "fomscu": "Formative 2025 Q10; source-JSON extraction.",
+        "rejectedMergeCandidateIds": "CON-HEM-BC9F1F59205EC7 (Kasr 102-INT-physiology-concepts.md) mentions gut-flora synthesis inside its definition, but its label and explicit_objective are about deficiency's effect on coagulation factors II/VII/IX/X and proteins C/S, a different specific tested fact from this stem's source-of-the-vitamin question; read in full and judged not the same concept, matching the same automated \"live\" false positive already logged in coverage/SCU-FBS103-triage.md for the warfarin/coumarin hit on this same answer term."
+      }
+    },
+    {
+      "key": "fbs103b-q07",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-SOMITES28TO30",
+      "title": "Somite count by the end of the fourth week",
+      "question": "By the end of the fourth week of embryonic development, approximately how many pairs of somites have formed?",
+      "subject": "dev",
+      "options": {
+        "A": "10 to 12 pairs",
+        "B": "20 to 22 pairs",
+        "C": "28 to 30 pairs",
+        "D": "42 to 44 pairs"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. 10 to 12 pairs is far too few for the end of the fourth week; somite formation begins early in the third week and proceeds at a steady rate of roughly three pairs per day, so by four weeks the count is much higher than this.",
+        "B": "Incorrect. 20 to 22 pairs undercounts the total reached by the end of the fourth week; this figure would correspond to an earlier point in somite formation, several days short of the fourth week's end.",
+        "C": "Correct. Somites form in a craniocaudal sequence from paraxial mesoderm at a fairly constant rate of about three pairs per day, beginning around day 20. By the end of the fourth week, approximately 28 to 30 pairs of somites have formed, and because this formation is so regular, embryologists use the somite count itself as a way to stage (date) an embryo during this period.",
+        "D": "Incorrect. 42 to 44 pairs overshoots the fourth-week total considerably; the eventual adult-equivalent somite count is higher still (around 42-44 pairs total across the whole process, several of which later regress), but that final total is not reached until later in development, well beyond four weeks."
+      },
+      "topic": "Embryology",
+      "subtopic": "Fourth week: somite formation and embryo staging",
+      "main_concept": "CON-DEV-D3847B540C0E93",
+      "concept_ids": ["CON-DEV-D3847B540C0E93"],
+      "library_ids": ["ART-SCU-FBS103-DEV-WEEK3-4-COELOM-MESODERM"],
+      "learning_objective": "State that approximately 28-30 pairs of somites have formed by the end of the fourth week, and that somite counting is used to stage the embryo.",
+      "source_citation": "FOMSCU Foundation 2, EOY Final 2025, Q9",
+      "field_notes": {
+        "keySource": "printed answer \"28 to 30 pairs\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOY Final 2025 Q9; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q08",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-MORULADAY4",
+      "title": "Day the morula reaches the uterine cavity",
+      "question": "Following fertilization, the morula typically reaches the uterine cavity on which day?",
+      "subject": "dev",
+      "options": {
+        "A": "1st day",
+        "B": "7th day",
+        "C": "4th day",
+        "D": "10th day"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. On day 1 fertilization has only just occurred (typically in the ampulla of the uterine tube); the zygote has not yet even begun cleavage, let alone travelled the length of the tube to reach the uterine cavity.",
+        "B": "Incorrect. Day 7 is too late for the morula's arrival; by day 7 the conceptus has already progressed well past the morula stage into a blastocyst that is actively implanting into the endometrium.",
+        "C": "Correct. After fertilization in the ampulla of the uterine tube, the zygote undergoes cleavage divisions while being swept toward the uterus by tubal ciliary action and muscular contractions. By around the fourth day, the resulting solid ball of blastomeres — the morula — reaches the uterine cavity, where fluid begins to accumulate within it, marking the transition toward the blastocyst stage.",
+        "D": "Incorrect. Day 10 is well past the morula's arrival in the uterine cavity; by this point implantation is already well underway, with the trophoblast actively invading the endometrium."
+      },
+      "topic": "Embryology",
+      "subtopic": "First week: morula transport to the uterine cavity",
+      "main_concept": "CON-DEV-8495EC8CE23F95",
+      "concept_ids": ["CON-DEV-8495EC8CE23F95"],
+      "library_ids": ["ART-SCU-FBS103-DEV-WEEK1-2-CLEAVAGE-BILAMINAR"],
+      "learning_objective": "State that the morula typically reaches the uterine cavity on approximately the fourth day after fertilization.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q62",
+      "field_notes": {
+        "keySource": "printed answer \"4th day\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q62; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q09",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-BLASTOCYSTFIRSTWEEK",
+      "title": "Defining event of the first week of development",
+      "question": "Which of the following major events characterizes the first week of human development?",
+      "subject": "dev",
+      "options": {
+        "A": "Gastrulation",
+        "B": "Formation of the primitive streak",
+        "C": "Differentiation of the embryoblast into two layers",
+        "D": "Blastocyst formation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Gastrulation, which establishes the three germ layers (ectoderm, mesoderm and endoderm), is the defining event of the third week, well after the first week's events have already taken place.",
+        "B": "Incorrect. Formation of the primitive streak is the opening event of gastrulation and, like gastrulation itself, belongs to the third week, not the first.",
+        "C": "Incorrect. The embryoblast splitting into two layers (epiblast and hypoblast) is the defining event of the second week specifically, one week after the events being asked about here.",
+        "D": "Correct. The first week of human development runs from fertilization through cleavage (the zygote dividing into blastomeres), morula formation, and finally blastocyst formation, in which fluid accumulates within the morula to create a fluid-filled cavity (the blastocele) separating an outer trophoblast layer from an inner cell mass (embryoblast). The week closes with the blastocyst beginning to implant into the endometrium, making blastocyst formation the single event most characteristic of this first week."
+      },
+      "topic": "Embryology",
+      "subtopic": "First week: blastocyst formation",
+      "main_concept": "CON-DEV-C5B75FE3FD0D47",
+      "concept_ids": ["CON-DEV-C5B75FE3FD0D47"],
+      "library_ids": ["ART-SCU-FBS103-DEV-WEEK1-2-CLEAVAGE-BILAMINAR"],
+      "learning_objective": "Identify blastocyst formation as the event that characterizes the first week of development, distinct from the second week's bilaminar differentiation and the third week's gastrulation.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q60",
+      "field_notes": {
+        "keySource": "printed answer \"Blastocyst formation\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q60; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q10",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-BLASTOMERESFROMCLEAVAGE",
+      "title": "Cells formed immediately by cleavage of the zygote",
+      "question": "Which of the following cells are formed immediately by the mitotic divisions (cleavage) of the zygote?",
+      "subject": "dev",
+      "options": {
+        "A": "Fibroblasts",
+        "B": "Blastomeres",
+        "C": "Trophoblasts",
+        "D": "Epiblasts"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Fibroblasts are connective-tissue cells derived much later from mesenchyme, with no role in the earliest cleavage divisions of the zygote; they belong to a completely different lineage and developmental timepoint.",
+        "B": "Correct. Cleavage is the series of rapid mitotic divisions the zygote undergoes as it travels along the uterine tube, and each division produces progressively smaller daughter cells called blastomeres, packed within the same original zona pellucida. By around the third division, the blastomeres compact together to form the solid morula, so blastomeres are, by definition, the direct immediate product of cleavage.",
+        "C": "Incorrect. Trophoblast cells appear only once the morula has become a blastocyst, when the outer layer of blastomeres differentiates into the trophoblast (which will go on to form the placenta); trophoblasts are therefore a later, differentiated product, not the immediate result of cleavage itself.",
+        "D": "Incorrect. The epiblast arises still later, during the second week, when the embryoblast (inner cell mass) itself differentiates into an epiblast and a hypoblast layer — several developmental steps beyond the immediate products of cleavage."
+      },
+      "topic": "Embryology",
+      "subtopic": "First week: cleavage and blastomere formation",
+      "main_concept": "CON-DEV-CD3A7E5062F1BB",
+      "concept_ids": ["CON-DEV-CD3A7E5062F1BB"],
+      "library_ids": ["ART-SCU-FBS103-DEV-WEEK1-2-CLEAVAGE-BILAMINAR"],
+      "learning_objective": "State that blastomeres are the cells produced immediately by the zygote's cleavage divisions, distinct from the later trophoblast and epiblast/hypoblast differentiation events.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q32",
+      "field_notes": {
+        "keySource": "printed answer \"Blastomeres\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q32 (repeated verbatim as EOY Final 2026 Q32); source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q11",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-CRANIALNEUROPOREDAY25",
+      "title": "Day the cranial neuropore closes",
+      "question": "During embryonic development, the cranial neuropore typically closes around which day?",
+      "subject": "dev",
+      "options": {
+        "A": "Day 18",
+        "B": "Day 25",
+        "C": "Day 28",
+        "D": "Day 32"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Day 18 is before the neural tube has even begun to fuse; neural fold fusion starts in the cervical region around day 22 and proceeds in both directions from there, so the cranial neuropore is still wide open on day 18.",
+        "B": "Correct. The neural tube closes in a zipper-like fashion starting in the cervical (mid-embryonic) region and extending both cranially and caudally. The cranial neuropore, the temporary opening at the rostral end of the still-unfused neural tube, closes around day 25, roughly two days before the caudal neuropore closes.",
+        "C": "Incorrect. Day 28 is closer to when the caudal neuropore closes, not the cranial one; the two neuropores close roughly two days apart, with the cranial end finishing first.",
+        "D": "Incorrect. Day 32 is well beyond neural tube closure entirely; by this point both neuropores have already sealed, and failure of closure by this stage would instead be associated with a neural tube defect."
+      },
+      "topic": "Embryology",
+      "subtopic": "Fourth week: neural tube closure timing",
+      "main_concept": "CON-DEV-2EB4FBC84DF414",
+      "concept_ids": ["CON-DEV-2EB4FBC84DF414"],
+      "library_ids": ["ART-SCU-FBS103-DEV-WEEK3-4-COELOM-MESODERM"],
+      "learning_objective": "State that the cranial neuropore closes around day 25, roughly two days before the caudal neuropore.",
+      "source_citation": "FOMSCU Foundation 2, EOY Final 2025, Q5",
+      "field_notes": {
+        "keySource": "printed answer \"Day 25\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOY Final 2025 Q5; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q12",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-EMBRYOBLASTEPIBLASTHYPOBLAST",
+      "title": "Defining event of the second week: bilaminar differentiation",
+      "question": "The second week of human embryonic development is specifically characterized by the:",
+      "subject": "dev",
+      "options": {
+        "A": "Entry of the morula into the uterine cavity",
+        "B": "Differentiation of the embryoblast into the epiblast and hypoblast",
+        "C": "Formation of the trilaminar germ disc",
+        "D": "Formation of the morula"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The morula entering the uterine cavity happens around day 4, during the first week, not the second; by the start of the second week the conceptus is already implanting as a blastocyst.",
+        "B": "Correct. The second week is often called the week of twos: the trophoblast splits into cytotrophoblast and syncytiotrophoblast, and the embryoblast (inner cell mass) itself splits into two layers, the epiblast and the hypoblast, forming the bilaminar embryonic disc. This bilaminar-disc formation is the defining structural event of the second week, setting up the platform on which gastrulation will act the following week.",
+        "C": "Incorrect. The trilaminar germ disc is formed by gastrulation during the third week, a stage later than the bilaminar disc that defines the second week.",
+        "D": "Incorrect. Morula formation, the compaction of blastomeres into a solid ball of cells, happens during the first week, well before the second week's own bilaminar differentiation event."
+      },
+      "topic": "Embryology",
+      "subtopic": "Second week: embryoblast differentiation into epiblast and hypoblast",
+      "main_concept": "CON-DEV-517FE336846466",
+      "concept_ids": ["CON-DEV-517FE336846466"],
+      "library_ids": ["ART-SCU-FBS103-DEV-WEEK1-2-CLEAVAGE-BILAMINAR"],
+      "learning_objective": "State that the second week of development is defined by the embryoblast's differentiation into the epiblast and hypoblast, forming the bilaminar disc.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q61",
+      "field_notes": {
+        "keySource": "printed answer \"Differentiation of the embryoblast into the epiblast and hypoblast\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q61; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q13",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-ENDODERMSPLANCHNICPRIMITIVEGUT",
+      "title": "Germ layers forming the primitive gut",
+      "question": "Which layers of the trilaminar germ disc are involved in the formation of the primitive gut?",
+      "subject": "dev",
+      "options": {
+        "A": "Ectoderm and somatic mesoderm",
+        "B": "Endoderm and splanchnic mesoderm",
+        "C": "Endoderm and somatic mesoderm",
+        "D": "Ectoderm and splanchnic mesoderm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ectoderm gives rise to the skin and nervous system, not the gut lining, and somatic (parietal) mesoderm forms the body-wall side of the intraembryonic coelom rather than the gut-tube wall; neither belongs to the primitive gut's own tissue layers.",
+        "B": "Correct. As lateral folding brings the sides of the trilaminar disc together, the endoderm rolls up into a tube — the primitive gut — and the splanchnic (visceral) layer of the lateral plate mesoderm wraps around this endodermal tube from the outside. Endoderm therefore becomes the gut's epithelial lining, while splanchnic mesoderm becomes its surrounding muscular and connective-tissue wall, together making up the primitive gut tube.",
+        "C": "Incorrect. Endoderm is correctly named here as the lining, but somatic mesoderm is the wrong partner layer; somatic mesoderm forms the body-wall side of the coelom (contributing to the parietal peritoneum and abdominal wall), not the gut wall itself.",
+        "D": "Incorrect. Splanchnic mesoderm is correctly named as the gut's outer wall, but ectoderm is the wrong partner; ectoderm has no role in forming the primitive gut, which is lined by endoderm, not ectoderm."
+      },
+      "topic": "Embryology",
+      "subtopic": "Third week: endoderm and splanchnic mesoderm form the primitive gut",
+      "main_concept": "CON-DEV-42DB8406323467",
+      "concept_ids": ["CON-DEV-42DB8406323467"],
+      "library_ids": ["ART-SCU-FBS103-DEV-WEEK3-4-COELOM-MESODERM"],
+      "learning_objective": "State that the primitive gut tube is formed from endoderm (lining) and splanchnic mesoderm (wall), distinguishing splanchnic from somatic mesoderm's role in the body wall.",
+      "source_citation": "FOMSCU Foundation 2, EOY Final 2025, Q20",
+      "field_notes": {
+        "keySource": "printed answer \"Endoderm and splanchnic mesoderm\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOY Final 2025 Q20; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q14",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-EXTRAEMBRYONICCOELOMFORMATION",
+      "title": "Result of extraembryonic mesoderm cavity formation",
+      "question": "The formation and joining of cavities within the extraembryonic mesoderm directly results in the formation of the:",
+      "subject": "dev",
+      "options": {
+        "A": "Extraembryonic coelom (Chorionic cavity)",
+        "B": "Primary yolk sac",
+        "C": "Amniotic cavity",
+        "D": "Primitive streak"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. During the second week, isolated fluid-filled spaces (vacuoles) appear within the extraembryonic mesoderm surrounding the amniotic and yolk-sac cavities. These vacuoles enlarge and coalesce into one large cavity, the extraembryonic coelom, also called the chorionic cavity — this joining-together of small spaces into one large cavity is exactly the process the stem describes.",
+        "B": "Incorrect. The primary yolk sac forms earlier, when Heuser's (exocoelomic) membrane lines the blastocyst cavity directly, a separate event from the later coalescence of cavities within the extraembryonic mesoderm.",
+        "C": "Incorrect. The amniotic cavity forms by cavitation within the epiblast itself, not by cavities joining within the extraembryonic mesoderm; it is one of the two cavities the extraembryonic coelom subsequently comes to surround, not the coelom itself.",
+        "D": "Incorrect. The primitive streak is a linear thickening on the surface of the epiblast that appears during the third week, marking the start of gastrulation — an entirely different process from extraembryonic mesoderm cavity formation, which happens the week before."
+      },
+      "topic": "Embryology",
+      "subtopic": "Second week: extraembryonic coelom (chorionic cavity) formation",
+      "main_concept": "CON-DEV-35C976C7594D91",
+      "concept_ids": ["CON-DEV-35C976C7594D91"],
+      "related_concept_ids": ["CON-DEV-7E6D5DD34BEFF7"],
+      "library_ids": ["ART-SCU-FBS103-DEV-WEEK3-4-COELOM-MESODERM"],
+      "learning_objective": "State that coalescing vacuoles within the extraembryonic mesoderm form the extraembryonic coelom (chorionic cavity), distinct from the amniotic cavity and primary yolk sac.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q58",
+      "field_notes": {
+        "keySource": "printed answer \"Extraembryonic coelom (Chorionic cavity)\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q58; source-JSON extraction.",
+        "rejectedMergeCandidateIds": "CON-DEV-7E6D5DD34BEFF7 (live, kau) tests that the caudal ends of the INTRAembryonic coelom communicate with the extraembryonic coelom at the disc margin — a related but distinct fact from this stem's own formation-by-coalescence question; read in full and judged not the same concept, so minted fresh and linked as a related concept instead."
+      }
+    },
+    {
+      "key": "fbs103b-q15",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-INTERMEDIATEMESODERMUROGENITAL",
+      "title": "Mesoderm origin of the urogenital ridge",
+      "question": "The urogenital ridge, which gives rise to the urinary and genital systems, originates from the:",
+      "subject": "dev",
+      "options": {
+        "A": "Paraxial mesoderm",
+        "B": "Lateral plate mesoderm",
+        "C": "Intermediate mesoderm",
+        "D": "Splanchnic mesoderm"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Paraxial mesoderm lies alongside the notochord and organises into somites, giving rise to the axial skeleton, skeletal muscle and dermis — a different lineage entirely from the urogenital system.",
+        "B": "Incorrect. Lateral plate mesoderm is the outermost mesodermal column and gives rise to the body-wall and limb connective tissues and the coelomic linings; the urogenital ridge sits between the paraxial and lateral plate columns, not within the lateral plate itself.",
+        "C": "Correct. Trilaminar mesoderm organises, from medial to lateral, into paraxial mesoderm, intermediate mesoderm and lateral plate mesoderm. The intermediate mesoderm forms a longitudinal ridge, the urogenital ridge, that runs the length of the posterior body wall and gives rise to the components of both the urinary system (nephrogenic cord/kidneys) and the genital system (gonadal ridge) — its position between the other two mesodermal columns is exactly what makes it the correct source of this specific ridge.",
+        "D": "Incorrect. Splanchnic mesoderm is the visceral layer of the lateral plate mesoderm that wraps the primitive gut tube; it contributes to the gut wall and associated organs, not to the intermediate mesoderm's own urogenital ridge."
+      },
+      "topic": "Embryology",
+      "subtopic": "Third week: intermediate mesoderm and the urogenital ridge",
+      "main_concept": "CON-DEV-F103401B1603A1",
+      "concept_ids": ["CON-DEV-F103401B1603A1"],
+      "library_ids": ["ART-SCU-FBS103-DEV-WEEK3-4-COELOM-MESODERM"],
+      "learning_objective": "State that the urogenital ridge (source of the urinary and genital systems) arises from intermediate mesoderm, positioned between the paraxial and lateral plate columns.",
+      "source_citation": "FOMSCU Foundation 2, EOY Final 2025, Q10",
+      "field_notes": {
+        "keySource": "printed answer \"Intermediate mesoderm\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOY Final 2025 Q10; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q16",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-LIGAMENTUMTERESHEPATIS",
+      "title": "Adult fate of the umbilical vein",
+      "question": "Which of the following structures represents the fate of the umbilical vein in the adult?",
+      "subject": "dev",
+      "options": {
+        "A": "Medial umbilical ligament",
+        "B": "Median umbilical ligament",
+        "C": "Ligamentum teres hepatis",
+        "D": "Ligamentum venosum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The medial umbilical ligaments (paired) are the postnatal remnants of the paired umbilical arteries, not the single umbilical vein; they run from the internal iliac arteries to the umbilicus on the internal surface of the anterior abdominal wall.",
+        "B": "Incorrect. The median umbilical ligament is the postnatal remnant of the urachus (the allantoic duct connecting the fetal bladder to the umbilicus), an entirely separate fetal structure from the umbilical vein.",
+        "C": "Correct. In the fetus, the single umbilical vein carries oxygenated, nutrient-rich blood from the placenta to the fetus, running within the falciform ligament to reach the liver. After birth, once placental flow stops, the umbilical vein closes off and fibroses into a solid fibrous cord — the ligamentum teres hepatis (round ligament of the liver) — which remains visible within the free edge of the falciform ligament in the adult.",
+        "D": "Incorrect. The ligamentum venosum is the postnatal remnant of the ductus venosus, the fetal shunt that carried blood from the umbilical vein through the liver directly into the inferior vena cava, bypassing the hepatic sinusoids — a different vessel from the umbilical vein itself."
+      },
+      "topic": "Embryology",
+      "subtopic": "Fetal circulation: postnatal fate of the umbilical vein",
+      "main_concept": "CON-DEV-CC1CF93A090BEE",
+      "concept_ids": ["CON-DEV-CC1CF93A090BEE"],
+      "library_ids": ["ART-SCU-FBS103-DEV-FETAL-CIRCULATION-REMNANTS"],
+      "learning_objective": "State that the umbilical vein becomes the ligamentum teres hepatis after birth, distinguishing it from the postnatal fates of the umbilical arteries, urachus and ductus venosus.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q33",
+      "field_notes": {
+        "keySource": "printed answer \"Ligamentum teres hepatis\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q33 (repeated verbatim as EOY Final 2026 Q33); source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q17",
+      "id": "QST-SCUFBS103-S2-A2-EMBRYO-PERICARDIALCAVITYFROMCOELOM",
+      "title": "Fate of the intraembryonic coelom cranial to the oropharyngeal membrane",
+      "question": "The intraembryonic coelom located completely cranial to the oropharyngeal membrane eventually becomes the:",
+      "subject": "dev",
+      "options": {
+        "A": "Pericardial cavity",
+        "B": "Oral cavity",
+        "C": "Stomodeum",
+        "D": "Cranial foregut"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Before head folding, the horseshoe-shaped intraembryonic coelom has a part lying entirely cranial to the oropharyngeal membrane, in the region where the developing heart (the cardiogenic area) sits. As folding proceeds, this cranial portion of the coelom is carried ventrally along with the heart, and it becomes the pericardial cavity, the space that will surround the developing heart.",
+        "B": "Incorrect. The oral cavity develops from the stomodeum (a surface ectodermal depression) once the oropharyngeal membrane ruptures, an entirely different embryonic origin from the mesoderm-lined intraembryonic coelom.",
+        "C": "Incorrect. The stomodeum is the primitive mouth, a depression in the surface ectoderm lying just cranial to the oropharyngeal membrane, not a coelomic space at all — it belongs to a different germ layer and a different structural category than the coelom.",
+        "D": "Incorrect. The cranial foregut is endoderm-lined gut tube, the tube that the coelom surrounds rather than a fate of the coelomic cavity itself; the coelom cranial to the oropharyngeal membrane becomes the pericardial cavity, not a segment of gut."
+      },
+      "topic": "Embryology",
+      "subtopic": "Third week: pericardial cavity from the cranial intraembryonic coelom",
+      "main_concept": "CON-DEV-7678BBFF8E1462",
+      "concept_ids": ["CON-DEV-7678BBFF8E1462"],
+      "library_ids": ["ART-SCU-FBS103-DEV-WEEK3-4-COELOM-MESODERM"],
+      "learning_objective": "State that the part of the intraembryonic coelom lying cranial to the oropharyngeal membrane becomes the pericardial cavity.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q30",
+      "field_notes": {
+        "keySource": "printed answer \"Pericardial cavity\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q30 (repeated verbatim as EOY Final 2026 Q30); source-JSON extraction.",
+        "rejectedMergeCandidateIds": "find-existing.mjs \"pericardial cavity\" surfaced docs/Assiut-Source-Imports/concept/AUN-PMS-102-concepts.md (head-folding movement of the septum transversum/heart/pericardial cavity as a group) and docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md (pericardiocentesis needle-entry anatomy) — both read in full and confirmed as different specific facts from this stem's own coelom-fate question, matching the false-positive judgement already logged for this term in coverage/SCU-FBS103-triage.md."
+      }
+    },
+    {
+      "key": "fbs103b-q18",
+      "id": "QST-SCUFBS103-S2-A2-HIST-FIBROUSASTROCYTEPROCESSES",
+      "title": "Morphological difference: fibrous versus protoplasmic astrocytes",
+      "question": "What is the main morphological difference between fibrous and protoplasmic astrocytes?",
+      "subject": "neuro",
+      "options": {
+        "A": "Fibrous astrocytes lack intermediate filaments",
+        "B": "Protoplasmic astrocytes are mainly found in the white matter",
+        "C": "Fibrous astrocytes have long, thin, unbranched processes",
+        "D": "Protoplasmic astrocytes have long, thick, unbranched processes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Both astrocyte types contain the intermediate filament GFAP (glial fibrillary acidic protein), which is in fact especially prominent in the fibrous type — the opposite of lacking intermediate filaments — so this statement misdescribes fibrous, not protoplasmic, astrocytes.",
+        "B": "Incorrect. It is the fibrous astrocyte, not the protoplasmic one, that predominates in the white matter; protoplasmic astrocytes are instead the type mainly found in the grey matter, so this option has the two locations reversed.",
+        "C": "Correct. Fibrous astrocytes, found predominantly in white matter, have long, thin, sparsely branched processes that run between axon bundles and contact blood vessels and the pial surface. This slender, unbranched process shape is the defining morphological contrast with protoplasmic astrocytes, whose processes are short, thick and extensively (bushily) branched to fit the denser, synapse-rich environment of grey matter.",
+        "D": "Incorrect. Long, thick, unbranched processes describes neither astrocyte type accurately; protoplasmic astrocyte processes are short and thick, but they are extensively branched rather than unbranched, and it is the fibrous astrocyte whose processes are long."
+      },
+      "topic": "Histology",
+      "subtopic": "Neuroglia: fibrous versus protoplasmic astrocyte morphology",
+      "main_concept": "CON-NEU-1B7B4BA87B29B2",
+      "concept_ids": ["CON-NEU-1B7B4BA87B29B2"],
+      "library_ids": ["ART-SCU-FBS103-HIS-NEUROGLIA-NERVE-SHEATHS"],
+      "learning_objective": "Distinguish fibrous astrocytes (white matter; long, thin, unbranched processes) from protoplasmic astrocytes (grey matter; short, thick, branched processes) by their process morphology and location.",
+      "source_citation": "FOMSCU Foundation 2, EOY Final 2025, Q12",
+      "field_notes": {
+        "keySource": "printed answer \"Fibrous astrocytes have long, thin, unbranched processes\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOY Final 2025 Q12; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q19",
+      "id": "QST-SCUFBS103-S2-A2-HIST-PROTOPLASMICASTROCYTECYTOPLASM",
+      "title": "Protoplasmic astrocyte morphology versus fibrous",
+      "question": "Protoplasmic astrocytes differ from fibrous astrocytes primarily in having:",
+      "subject": "neuro",
+      "options": {
+        "A": "No intermediate filaments in their cytoplasm",
+        "B": "Long, thin, unbranched processes",
+        "C": "A location mainly in the white matter",
+        "D": "Abundant cytoplasm and short thick branched processes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Protoplasmic astrocytes do contain the intermediate filament GFAP, just in a lower amount than fibrous astrocytes; \"no intermediate filaments at all\" overstates the actual difference, which is one of relative abundance, not complete absence.",
+        "B": "Incorrect. Long, thin, unbranched processes describe the fibrous astrocyte, the opposite type from the one this stem asks about; protoplasmic astrocyte processes are short and thick, not long and thin.",
+        "C": "Incorrect. A predominantly white-matter location belongs to the fibrous astrocyte; protoplasmic astrocytes are instead the type found mainly in the grey matter, so this option has the locations swapped.",
+        "D": "Correct. Protoplasmic astrocytes, concentrated in the grey matter, have abundant cytoplasm and short, thick processes that branch extensively (a bushy appearance), an arrangement suited to their many contacts with neuronal cell bodies, dendrites and synapses in grey matter. This is the defining morphological contrast with the fibrous astrocyte's own sparser, longer, thinner white-matter processes."
+      },
+      "topic": "Histology",
+      "subtopic": "Neuroglia: protoplasmic astrocyte morphology",
+      "main_concept": "CON-NEU-1B7B4BA87B29B2",
+      "concept_ids": ["CON-NEU-1B7B4BA87B29B2"],
+      "library_ids": ["ART-SCU-FBS103-HIS-NEUROGLIA-NERVE-SHEATHS"],
+      "learning_objective": "Distinguish protoplasmic astrocytes (grey matter; abundant cytoplasm, short thick branched processes) from fibrous astrocytes (white matter; long thin unbranched processes).",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q23",
+      "field_notes": {
+        "keySource": "printed answer \"Abundant cytoplasm and short thick branched processes\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q23 (repeated verbatim as EOY Final 2026 Q23); source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q20",
+      "id": "QST-SCUFBS103-S2-A2-HIST-EPINEURIUMNERVETRUNKSHEATH",
+      "title": "Connective tissue sheath covering the entire nerve trunk",
+      "question": "The dense connective tissue sheath that surrounds and covers the entire nerve trunk is called the:",
+      "subject": "neuro",
+      "options": {
+        "A": "Perineurium",
+        "B": "Endoneurium",
+        "C": "Epineurium",
+        "D": "Epimysium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The perineurium is one layer inward from the epineurium: a specialised connective-tissue sleeve that wraps each individual fascicle (bundle of nerve fibres) within the nerve, not the entire nerve trunk as a whole.",
+        "B": "Incorrect. The endoneurium is the innermost and most delicate layer, a thin layer of loose connective tissue surrounding each individual nerve fibre within a fascicle, several layers removed from the outer sheath the stem is asking about.",
+        "C": "Correct. Peripheral nerve connective tissue is organised in three concentric layers: endoneurium around each nerve fibre, perineurium around each fascicle, and epineurium around the whole trunk. The epineurium is the outermost and thickest of the three, a dense irregular connective tissue layer that binds together all of the trunk's fascicles along with the blood vessels running with them. This outermost, whole-trunk position is exactly what the stem describes.",
+        "D": "Incorrect. The epimysium is the connective-tissue sheath surrounding an entire skeletal muscle, the muscular equivalent of the nerve's epineurium; it belongs to muscle histology, not the peripheral nerve sheath system this stem is asking about."
+      },
+      "topic": "Histology",
+      "subtopic": "Peripheral nerve: the three connective-tissue sheath layers",
+      "main_concept": "CON-NEU-81402D876C77D5",
+      "concept_ids": ["CON-NEU-81402D876C77D5"],
+      "library_ids": ["ART-SCU-FBS103-HIS-NEUROGLIA-NERVE-SHEATHS"],
+      "learning_objective": "Name the epineurium as the outermost connective-tissue layer surrounding an entire peripheral nerve trunk, distinguishing it from the perineurium (fascicle) and endoneurium (individual fibre) layers.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q54",
+      "field_notes": {
+        "keySource": "printed answer \"Epineurium\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q54; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q21",
+      "id": "QST-SCUFBS103-S2-A2-PARA-DIRECTLIFECYCLEONEHOST",
+      "title": "Life cycle needing only one host",
+      "question": "What is the life cycle of a parasite that needs only one host?",
+      "subject": "inf",
+      "options": {
+        "A": "Paratenic cycle",
+        "B": "Indirect life cycle",
+        "C": "Free-living cycle",
+        "D": "Direct life cycle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A paratenic host is a transport host that carries a parasite's larval stage without the parasite developing further in it, a concept about an optional extra host within a cycle, not a name for a one-host life-cycle type itself.",
+        "B": "Incorrect. An indirect life cycle is the opposite of what the stem describes: it requires an intermediate host (and sometimes more than one) in addition to the definitive host before the parasite can complete development and reach the next definitive host.",
+        "C": "Incorrect. A free-living cycle describes an organism that does not depend on a host at all for any stage of its life, a different concept entirely from a parasite completing its cycle within a single host.",
+        "D": "Correct. A direct (monoxenous) life cycle is one in which the parasite completes its entire development, from infective stage to reproductively mature adult, within a single host species, with no intermediate host required — transmission passes straight from one definitive host to the next. This is the defining feature that separates a direct cycle from an indirect (heteroxenous) one, which needs one or more intermediate hosts along the way."
+      },
+      "topic": "Parasitology",
+      "subtopic": "Parasite life cycles: direct (single-host) versus indirect cycles",
+      "main_concept": "CON-GIT-D76A567284E40B",
+      "concept_ids": ["CON-GIT-D76A567284E40B"],
+      "library_ids": ["ART-SCU-FBS103-PAR-LIFE-CYCLES-TERMINOLOGY"],
+      "learning_objective": "Define a direct (monoxenous) life cycle as one completed within a single host, distinguishing it from an indirect cycle requiring an intermediate host.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q35",
+      "field_notes": {
+        "keySource": "printed answer \"Direct life cycle\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q35 (repeated verbatim as EOY Final 2026 Q35); source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q22",
+      "id": "QST-SCUFBS103-S2-A2-PARA-HETEROPHYESEGGCOLOR",
+      "title": "Characteristic color of Heterophyes heterophyes eggs",
+      "question": "What is the characteristic color of Heterophyes heterophyes eggs?",
+      "subject": "inf",
+      "options": {
+        "A": "Transparent",
+        "B": "Golden brown",
+        "C": "Dark black",
+        "D": "Bright red"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Heterophyes heterophyes eggs are not transparent or colorless; like most trematode (fluke) eggs, the shell carries a distinct pigmented colour that is one of the features used to identify it on stool microscopy.",
+        "B": "Correct. Heterophyes heterophyes is the smallest trematode infecting humans, and it produces very small, operculated eggs measuring only about 30 by 15 micrometres. These eggs carry a characteristic golden-brown shell colour, a feature used alongside their small size to identify them on stool microscopy and distinguish them from the eggs of other intestinal flukes.",
+        "C": "Incorrect. A dark black shell colour is not the description associated with Heterophyes eggs; the characteristic colour reported for this species is golden-brown, a lighter shade than black.",
+        "D": "Incorrect. A bright red colour is not a feature of any typical helminth egg shell, Heterophyes heterophyes included; egg shells in this group range through shades of yellow-brown rather than red."
+      },
+      "topic": "Parasitology",
+      "subtopic": "Trematodes: Heterophyes heterophyes egg identification",
+      "main_concept": "CON-GIT-CA7E5195BF5F65",
+      "concept_ids": ["CON-GIT-CA7E5195BF5F65"],
+      "library_ids": ["ART-SCU-FBS103-PAR-LIFE-CYCLES-TERMINOLOGY"],
+      "learning_objective": "State that Heterophyes heterophyes eggs are characteristically golden-brown, a feature used with their small size to identify them on stool microscopy.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q4",
+      "field_notes": {
+        "keySource": "printed answer \"Golden brown\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q4 (repeated verbatim as EOY Final 2026 Q4); source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q23",
+      "id": "QST-SCUFBS103-S2-A2-PARA-MALACOLOGYMOLLUSCS",
+      "title": "Malacology: the study of molluscs and snails",
+      "question": "In the context of parasitology, the term malacology refers to the scientific study of:",
+      "subject": "inf",
+      "options": {
+        "A": "Insects",
+        "B": "Molluscs and snails",
+        "C": "Fungi",
+        "D": "Helminths"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The scientific study of insects is entomology, a discipline important to parasitology in its own right (many insects are vectors or intermediate hosts) but a different word from malacology.",
+        "B": "Correct. Malacology is the scientific study of molluscs, including the freshwater snails that serve as essential intermediate hosts for many medically important trematodes (flukes) such as Schistosoma species and Fasciola. In parasitology, malacological surveys of local snail populations are a standard tool for tracking and controlling the transmission of these fluke infections.",
+        "C": "Incorrect. The scientific study of fungi is mycology, a discipline concerned with a completely different kingdom of organisms from the molluscs that malacology studies.",
+        "D": "Incorrect. The scientific study of parasitic worms is helminthology, the broader parent discipline within which the intermediate-host snails studied by malacology often play a supporting role, but the two terms name different fields."
+      },
+      "topic": "Parasitology",
+      "subtopic": "Basic terminology: malacology as the study of molluscs and snails",
+      "main_concept": "CON-GIT-E77362A9C0FFFC",
+      "concept_ids": ["CON-GIT-E77362A9C0FFFC"],
+      "library_ids": ["ART-SCU-FBS103-PAR-LIFE-CYCLES-TERMINOLOGY"],
+      "learning_objective": "Define malacology as the study of molluscs and snails, distinguishing it from entomology (insects), mycology (fungi) and helminthology (worms).",
+      "source_citation": "FOMSCU Foundation 2, EOY Final 2025, Q7",
+      "field_notes": {
+        "keySource": "printed answer \"Molluscs and snails\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOY Final 2025 Q7; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q24",
+      "id": "QST-SCUFBS103-S2-A2-PARA-INFECTIONVSINFESTATIONSITE",
+      "title": "Distinction between parasitic infection and infestation",
+      "question": "The distinction between a parasitic infection and an infestation is primarily based on which of the following factors?",
+      "subject": "inf",
+      "options": {
+        "A": "The duration of the parasite's life cycle",
+        "B": "The severity of the disease produced",
+        "C": "Their site of living in the host",
+        "D": "The mode of reproduction of the parasite"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. How long a parasite's life cycle takes to complete does not determine whether the relationship is termed an infection or an infestation; both terms can apply to parasites with life cycles of very different lengths.",
+        "B": "Incorrect. Disease severity varies independently of whether a parasite is termed an infection or infestation; a mild infection and a severe infestation, or the reverse, are both possible, so severity is not the defining criterion.",
+        "C": "Correct. By convention, \"infection\" is used for parasites (or microorganisms) that live inside the host's tissues or internal organs — for example intestinal or blood parasites — while \"infestation\" is reserved for parasites living on the external body surface or in superficial body cavities, such as lice, mites or ticks on the skin. The site of living within versus on the host is therefore the primary distinguishing factor between the two terms.",
+        "D": "Incorrect. How a parasite reproduces (sexually, asexually, or both) does not determine whether it causes an infection or an infestation; parasites with very different reproductive strategies can fall into either category depending only on where they live on or in the host."
+      },
+      "topic": "Parasitology",
+      "subtopic": "Basic terminology: infection versus infestation",
+      "main_concept": "CON-GIT-9D0CDFBC5FAF24",
+      "concept_ids": ["CON-GIT-9D0CDFBC5FAF24"],
+      "library_ids": ["ART-SCU-FBS103-PAR-LIFE-CYCLES-TERMINOLOGY"],
+      "learning_objective": "Distinguish parasitic infection (internal tissues/organs) from infestation (external surface/superficial cavities) by the parasite's site of living in the host.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q5",
+      "field_notes": {
+        "keySource": "printed answer \"Their site of living in the host\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q5 (repeated verbatim as EOY Final 2026 Q5); source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q25",
+      "id": "QST-SCUFBS103-S2-A2-PHARM-NICOTINICSYMPATHETICGANGLIA",
+      "title": "Cholinergic receptor type in sympathetic ganglia",
+      "question": "Which type of cholinergic receptors is predominantly located in the ganglia of the sympathetic nervous system?",
+      "subject": "pharm",
+      "options": {
+        "A": "Muscarinic receptors",
+        "B": "Nicotinic receptors",
+        "C": "Alpha-adrenergic receptors",
+        "D": "Beta-adrenergic receptors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Muscarinic receptors are the cholinergic receptors located at the target organs of postganglionic PARASYMPATHETIC fibres (and at sympathetic sweat glands), not at the ganglionic synapse itself; they are activated by acetylcholine released from postganglionic, not preganglionic, fibres.",
+        "B": "Correct. In both the sympathetic and parasympathetic divisions of the autonomic nervous system, the preganglionic fibre releases acetylcholine onto the postganglionic neuron's cell body within the ganglion, and this ganglionic synapse is mediated by nicotinic (specifically Nn, neuronal-type nicotinic) receptors. This is true regardless of which division the ganglion belongs to, which is why nicotinic receptor blockade (ganglionic blockade) affects both sympathetic and parasympathetic transmission at once.",
+        "C": "Incorrect. Alpha-adrenergic receptors are adrenoceptors, activated by noradrenaline (or adrenaline) released from postganglionic sympathetic fibres at their target organs, not cholinergic receptors at the ganglion itself.",
+        "D": "Incorrect. Beta-adrenergic receptors are likewise adrenoceptors at postganglionic sympathetic target organs (such as the heart's beta-1 receptors), not the cholinergic receptors mediating transmission within the ganglion."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Cholinergic receptors: nicotinic receptors at the autonomic ganglion",
+      "main_concept": "CON-FND-AA5799FC98B2D4",
+      "concept_ids": ["CON-FND-AA5799FC98B2D4"],
+      "library_ids": ["ART-SCU-FBS103-PHARM-RECEPTORS-ADR-CLASSIFICATION"],
+      "learning_objective": "State that nicotinic (Nn) receptors mediate the preganglionic-to-postganglionic synapse in both sympathetic and parasympathetic ganglia, distinct from the muscarinic and adrenergic receptors found at postganglionic target organs.",
+      "source_citation": "FOMSCU Foundation 2, EOY Final 2025, Q16",
+      "field_notes": {
+        "keySource": "printed answer \"Nicotinic receptors\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOY Final 2025 Q16; source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q26",
+      "id": "QST-SCUFBS103-S2-A2-PHARM-TYPEBBIZARREADR",
+      "title": "Adverse drug reaction type: bizarre/idiosyncratic",
+      "question": "Which of the following types of adverse drug reactions is best described as a bizarre or idiosyncratic reaction?",
+      "subject": "pharm",
+      "options": {
+        "A": "Type C (Continuous)",
+        "B": "Type B (Bizarre)",
+        "C": "Type D (Delayed)",
+        "D": "Type A (Augmented)"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Type C reactions are continuous, dose- and time-related effects that develop with chronic use (such as analgesic nephropathy from long-term NSAID use), a predictable cumulative pattern rather than an unpredictable, idiosyncratic one.",
+        "B": "Correct. Type B (bizarre) adverse drug reactions are unpredictable and not related to the drug's known pharmacological action or dose — they occur only in susceptible individuals, often on an immunological or genetic (idiosyncratic) basis, such as a penicillin allergy or a genetically determined enzyme deficiency causing an abnormal drug response. Because they cannot be predicted from the drug's normal pharmacology, they are termed \"bizarre,\" distinguishing them from the dose-related, predictable Type A reactions.",
+        "C": "Incorrect. Type D reactions are delayed effects, such as teratogenicity or carcinogenicity, that appear only after a time lag following exposure — a timing-based category, not the mechanism-based \"unpredictable/idiosyncratic\" category the stem describes.",
+        "D": "Incorrect. Type A (augmented) reactions are predictable, dose-related exaggerations of the drug's own known pharmacological action (for example, hypoglycaemia from too much insulin) — the opposite of the unpredictable, non-dose-related pattern that defines a Type B reaction."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Adverse drug reactions: Type B (bizarre/idiosyncratic) classification",
+      "main_concept": "CON-FND-6F98091A586CF3",
+      "concept_ids": ["CON-FND-6F98091A586CF3"],
+      "library_ids": ["ART-SCU-FBS103-PHARM-RECEPTORS-ADR-CLASSIFICATION"],
+      "learning_objective": "Classify an unpredictable, non-dose-related adverse drug reaction (immunological or idiosyncratic) as Type B (bizarre), distinguishing it from the predictable, dose-related Type A reaction.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q16",
+      "field_notes": {
+        "keySource": "printed answer \"Type B (Bizarre)\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q16 (repeated verbatim as EOY Final 2026 Q16); source-JSON extraction."
+      }
+    },
+    {
+      "key": "fbs103b-q27",
+      "id": "QST-SCUFBS103-S2-A2-PHARM-TYPEEENDOFDOSEWITHDRAWAL",
+      "title": "Adverse drug reaction type: end-of-dose withdrawal",
+      "question": "The withdrawal manifestations experienced by an addicted patient upon stopping a drug are an example of which type of adverse drug reaction?",
+      "subject": "pharm",
+      "options": {
+        "A": "Type B (Bizarre) adverse effect",
+        "B": "Type A (Augmented) adverse effect",
+        "C": "Type C (Continuous) adverse effect",
+        "D": "Type E (End of dose) adverse effect"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Type B (bizarre) reactions are unpredictable, non-dose-related idiosyncratic or immunological effects; withdrawal symptoms, by contrast, are a predictable consequence of physiological dependence developing during regular use, not an idiosyncratic reaction.",
+        "B": "Incorrect. Type A (augmented) reactions are exaggerations of the drug's ongoing pharmacological action while it is still being taken, not an effect that appears specifically upon stopping the drug.",
+        "C": "Incorrect. Type C (continuous) reactions develop gradually with chronic, ongoing exposure to the drug; they describe a cumulative effect during use, not a rebound effect that appears when the drug is withdrawn.",
+        "D": "Correct. Type E (end of dose) adverse reactions occur when a drug is stopped abruptly after the body has adapted physiologically to its continuous presence. Withdrawal syndromes, such as those seen with opioids, benzodiazepines or corticosteroids, are the classic example. The body's compensatory adaptations are suddenly left unopposed once the drug is removed, producing the rebound withdrawal effect."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Adverse drug reactions: Type E (end of dose/withdrawal) classification",
+      "main_concept": "CON-FND-05FF1011EFFE2A",
+      "concept_ids": ["CON-FND-05FF1011EFFE2A"],
+      "library_ids": ["ART-SCU-FBS103-PHARM-RECEPTORS-ADR-CLASSIFICATION"],
+      "learning_objective": "Classify a withdrawal syndrome appearing on drug discontinuation as a Type E (end of dose) adverse drug reaction, distinguishing it from Types A, B and C.",
+      "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q46",
+      "field_notes": {
+        "keySource": "printed answer \"Type E (End of dose) adverse effect\", FOMSCU Foundation 2 QBank",
+        "fomscu": "EOM MID 2026 Q46; source-JSON extraction."
+      }
+    }
+  ]
+}
