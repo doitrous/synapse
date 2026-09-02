@@ -1,0 +1,246 @@
+{
+  "lane": "MUST-CVS201",
+  "cluster": "physcap-direct",
+  "header": "MUST-CVS-201 - Physiology tranche (author8) - Capillary Circulation & Oedema MCQs (main_concept newly minted this tranche or already live-in-lane) - from the Physiology CVS201 EOM Final paper, keys read from the paper's own printed Capillary Circulation & Oedema answer key (p.26).",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "must"
+    ],
+    "years": [
+      "MUST_Y2"
+    ],
+    "module": "MUST-CVS-201",
+    "exam_weight_by_year": {
+      "MUST_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "topic": "Physiology",
+    "subtopic": "Capillary Circulation and Oedema",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "resource_ids": [
+      "src_165188e079f0f475e54d"
+    ],
+    "source_citation": "Physiology CVS201 Questions (Final), Capillary Circulation & Oedema section, key p.26."
+  },
+  "questions": [
+    {
+      "key": "physcap-q02",
+      "id": "QST-MUSTCVS201-PHYSCAP-Q02",
+      "page": 21,
+      "title": "Capillary fragility in liver cirrhosis",
+      "question": "A 70-year-old man is diagnosed with liver cirrhosis. His capillary fragility test is positive. Which of the following is the most likely underlying cause of his fragile capillaries?",
+      "options": {
+        "A": "Non-Thrombocytopenic purpura",
+        "B": "Vitamin C deficiency",
+        "C": "Allergic condition",
+        "D": "All of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Non-thrombocytopenic purpura is one general cause of a positive capillary fragility test, but not the cause this vignette's liver cirrhosis points to specifically.",
+        "B": "Correct. In a patient with liver cirrhosis, vitamin C deficiency is the most likely explanation for fragile capillaries and a positive fragility test, reflecting the malnutrition and impaired vitamin handling that often accompanies chronic liver disease. Vitamin C is required for normal collagen synthesis, and its deficiency (scurvy) weakens the capillary basement membrane and surrounding connective tissue, making vessels fragile under a standardised rise in venous pressure.",
+        "C": "Incorrect. An allergic condition is a separate general cause of capillary fragility, not the one this vignette's liver-disease context points to.",
+        "D": "Incorrect. The vignette points to one specific mechanism (vitamin C deficiency via malnutrition), not an undifferentiated combination of all three causes."
+      },
+      "main_concept": "CON-CVS-7E970720F374BE",
+      "concept_ids": [
+        "CON-CVS-7E970720F374BE"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-CAPILLARY-FRAGILITY-TEST"
+      ],
+      "learning_objective": "Attribute fragile capillaries and a positive fragility test in a cirrhotic patient to vitamin C deficiency.",
+      "module_subject": "MUST-CVS-201 > Physiology > Capillary Circulation and Oedema > Capillary Wall Integrity"
+    },
+    {
+      "key": "physcap-q05",
+      "id": "QST-MUSTCVS201-PHYSCAP-Q05",
+      "page": 22,
+      "title": "Laplace law and capillary wall pressure tolerance",
+      "question": "According to the Laplace law, the capillary wall can withstand high pressure primarily due to its:",
+      "options": {
+        "A": "Thick basement membrane",
+        "B": "Fenestrated structure",
+        "C": "Very small diameter",
+        "D": "Single layer of endothelial cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The capillary basement membrane is thin, not thick; wall thickness is not the Laplace-law explanation for its pressure tolerance.",
+        "B": "Incorrect. Fenestration affects permeability to solutes and fluid, not the mechanical wall-tension relationship the law of Laplace describes.",
+        "C": "Correct. By the law of Laplace, wall tension is proportional to internal pressure multiplied by radius. Because the capillary's radius is so small, a given internal pressure produces far less wall tension than the same pressure would in a larger vessel, letting the capillary's thin, single-layer wall withstand its intraluminal pressure without needing a thick muscular or elastic coat.",
+        "D": "Incorrect. The single endothelial layer describes the capillary wall's structure, not the physical reason (small radius, via Laplace's law) that this thin wall can withstand its internal pressure."
+      },
+      "main_concept": "CON-CVS-4AB38E6549D5AF",
+      "concept_ids": [
+        "CON-CVS-4AB38E6549D5AF"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-CAPILLARY-LAPLACE-LAW-WALL-TENSION"
+      ],
+      "learning_objective": "Apply the law of Laplace to explain why the capillary's small radius, not its wall structure, lets it withstand high internal pressure.",
+      "module_subject": "MUST-CVS-201 > Physiology > Capillary Circulation and Oedema > Capillary Wall Integrity"
+    },
+    {
+      "key": "physcap-q06",
+      "id": "QST-MUSTCVS201-PHYSCAP-Q06",
+      "page": 22,
+      "title": "Mechanism of the spreading flare in the triple response",
+      "question": "In the triple response of the skin, the \"spreading flare\" is primarily caused by:",
+      "options": {
+        "A": "Constriction of precapillary sphincters",
+        "B": "Direct histamine release on capillaries",
+        "C": "Dilatation of arterioles via a local axon reflex",
+        "D": "Increased capillary permeability causing edema"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Constriction of precapillary sphincters describes the white-line reaction (pallor), the opposite component and opposite direction from the flare.",
+        "B": "Incorrect. Direct histamine release on capillaries drives the wheal (localised swelling) component of the triple response, a different mechanism from the flare's axon-reflex vasodilation.",
+        "C": "Correct. The spreading flare is produced by the axon reflex: an impulse travelling centrally along one branch of a stimulated sensory afferent fibre also travels antidromically down neighbouring branches of that same neuron, releasing local vasodilator neuropeptides that dilate arterioles in adjacent skin. This antidromic, peripherally-generated mechanism \u2014 not autonomic efferent outflow \u2014 is what gives the flare its spread beyond the directly stimulated site.",
+        "D": "Incorrect. Increased capillary permeability causing oedema describes the wheal, not the flare, component of the triple response."
+      },
+      "main_concept": "CON-CVS-7F05227FE0970F",
+      "concept_ids": [
+        "CON-CVS-7F05227FE0970F"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-CVS-FLARE-REACTION-AXON-REFLEX"
+      ],
+      "learning_objective": "State that the flare component of the triple response is produced by axon-reflex arteriolar dilation.",
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Local Vasodilator Mechanisms"
+    },
+    {
+      "key": "physcap-q12",
+      "id": "QST-MUSTCVS201-PHYSCAP-Q12",
+      "page": 24,
+      "title": "Mechanism of the white-line reaction",
+      "question": "The \"white-line reaction\" observed when the skin is gently stroked is due to:",
+      "options": {
+        "A": "Dilatation of capillary sphincters by histamine",
+        "B": "Constriction of precapillary sphincters",
+        "C": "Dilatation of arterioles",
+        "D": "Increased capillary permeability"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Histamine-driven dilatation describes the wheal component of the skin's vascular response, not the pale white-line reaction, and dilatation would not produce pallor.",
+        "B": "Correct. Firmly stroking the skin mechanically triggers local constriction of the precapillary sphincters supplying that strip of skin, transiently shutting off capillary inflow and emptying the superficial capillary bed of blood \u2014 producing the pale \"white line\" within seconds. This is the mirror-image, constrictive counterpart to the flare's vasodilation, and should not be conflated with it.",
+        "C": "Incorrect. Dilatation of arterioles would increase, not decrease, blood flow to the stroked skin, producing redness rather than the pallor of the white-line reaction.",
+        "D": "Incorrect. Increased capillary permeability produces swelling (the wheal), not the localised pallor of the white-line reaction."
+      },
+      "main_concept": "CON-CVS-739FEB1A01691B",
+      "concept_ids": [
+        "CON-CVS-739FEB1A01691B"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-CAPILLARY-WHITE-LINE-REACTION"
+      ],
+      "learning_objective": "State that the white-line reaction is precapillary-sphincter constriction triggered by mechanical stroking.",
+      "module_subject": "MUST-CVS-201 > Physiology > Capillary Circulation and Oedema > Local Vascular Responses of the Skin"
+    },
+    {
+      "key": "physcap-q15",
+      "id": "QST-MUSTCVS201-PHYSCAP-Q15",
+      "page": 24,
+      "title": "Fate of unabsorbed capillary filtrate in health",
+      "question": "In a healthy individual, what happens to the small excess of fluid filtered at the arterial end that is not absorbed at the venous end?",
+      "options": {
+        "A": "It remains as permanent tissue fluid",
+        "B": "It is absorbed by lymphatic vessels",
+        "C": "It is excreted by the kidneys",
+        "D": "It increases interstitial hydrostatic pressure indefinitely"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. This small excess does not simply accumulate as permanent tissue fluid in health; it is actively drained rather than left in place.",
+        "B": "Correct. In a healthy individual, the small net excess of fluid filtered at the capillary's arterial end but not reabsorbed at its venous end is picked up by lymphatic capillaries in the interstitium and returned to the venous circulation via the lymphatic vessels and thoracic duct. This continuous lymphatic drainage is the physiological safety valve that keeps interstitial fluid volume stable despite the everyday imbalance between capillary filtration and reabsorption.",
+        "C": "Incorrect. The kidneys regulate whole-body fluid and electrolyte balance, but they do not directly excrete the local excess of interstitial fluid from capillary exchange; that is the lymphatic system's role.",
+        "D": "Incorrect. Interstitial hydrostatic pressure does not rise indefinitely in health; the lymphatics continuously drain the small excess, keeping interstitial pressure and volume stable."
+      },
+      "main_concept": "CON-CVS-0FA0A2CA166B19",
+      "concept_ids": [
+        "CON-CVS-0FA0A2CA166B19"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-CAPILLARY-LYMPHATIC-RETURN-UNABSORBED-FILTRATE"
+      ],
+      "learning_objective": "State that lymphatic vessels normally return the small excess of unabsorbed capillary filtrate to the circulation.",
+      "module_subject": "MUST-CVS-201 > Physiology > Capillary Circulation and Oedema > Starling Forces and Capillary Exchange"
+    },
+    {
+      "key": "physcap-q18",
+      "id": "QST-MUSTCVS201-PHYSCAP-Q18",
+      "page": 25,
+      "title": "Mediator of the triple-response wheal",
+      "question": "A patient presents after a bee sting with localized swelling, redness, and a pale central wheal. This \"triple response\" is primarily mediated by:",
+      "options": {
+        "A": "Renin",
+        "B": "Aldosterone",
+        "C": "Histamine",
+        "D": "ADH"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Renin drives the renin-angiotensin system's long-term blood-pressure regulation, not the local skin reaction to a sting.",
+        "B": "Incorrect. Aldosterone acts on renal sodium reabsorption over hours to days, not the immediate local skin response to a sting.",
+        "C": "Correct. Histamine, released locally from mast cells activated by the sting, mediates the triple response's wheal and much of its redness: it directly increases capillary permeability, producing the localised swelling (wheal) and contributing to the surrounding redness, while the separate axon-reflex mechanism produces the spreading flare. Together these components (red line, flare, wheal) make up the classic triple response.",
+        "D": "Incorrect. ADH (vasopressin) regulates water reabsorption and, at high levels, vasoconstriction, not the local histamine-driven skin reaction to a sting."
+      },
+      "main_concept": "CON-CVS-7F05227FE0970F",
+      "concept_ids": [
+        "CON-CVS-7F05227FE0970F"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-CVS-FLARE-REACTION-AXON-REFLEX"
+      ],
+      "learning_objective": "State that histamine mediates the wheal (and contributes to the redness) of the skin's triple response to injury.",
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Local Vasodilator Mechanisms"
+    },
+    {
+      "key": "physcap-q20",
+      "id": "QST-MUSTCVS201-PHYSCAP-Q20",
+      "page": 26,
+      "title": "Causes of a positive capillary fragility test",
+      "question": "A positive capillary fragility test can be due to:",
+      "options": {
+        "A": "Non-Thrombocytopenic purpura",
+        "B": "Scurvy",
+        "C": "Allergy",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Non-thrombocytopenic purpura is one genuine cause, but not the only one this source lists.",
+        "B": "Incorrect. Scurvy (vitamin C deficiency) is one genuine cause, but not the only one this source lists.",
+        "C": "Incorrect. Allergic conditions can cause a positive fragility test, but this is not the only cause this source lists.",
+        "D": "Correct. A positive capillary fragility test reflects a structurally or functionally fragile capillary wall, and this source lists three classic causes together: non-thrombocytopenic purpura (a vessel-wall defect with a normal platelet count), vitamin C deficiency/scurvy (impaired collagen synthesis weakening the capillary wall), and allergic/hypersensitivity conditions. Any one of these three, acting alone, can produce the same positive test result, since the test detects fragility of the vessel wall itself rather than pointing to a single underlying cause. This is why the source's own answer groups all three together rather than singling one out."
+      },
+      "main_concept": "CON-CVS-7E970720F374BE",
+      "concept_ids": [
+        "CON-CVS-7E970720F374BE"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-CAPILLARY-FRAGILITY-TEST"
+      ],
+      "learning_objective": "List the three classic causes of a positive capillary fragility test: non-thrombocytopenic purpura, scurvy and allergy.",
+      "module_subject": "MUST-CVS-201 > Physiology > Capillary Circulation and Oedema > Capillary Wall Integrity"
+    }
+  ]
+}
