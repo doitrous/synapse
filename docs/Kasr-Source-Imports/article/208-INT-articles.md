@@ -970,3 +970,97 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead, same as the adrenergic and cholinergic pharmacology articles. This article's own source page (p.7) also directly grounds why 2023eom-q89 (thiazide-diuretic "deafness") is held -- see that item's held note in coverage/208-INT-LEDGER.md.
 ## reading_time
 12
+
+
+---
+
+# Item
+## id
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+## title
+Antianginal pharmacology: organic nitrates, calcium-channel blockers, nicorandil and ivabradine
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Antianginal drugs reduce myocardial oxygen demand or relieve coronary spasm through several distinct routes: organic nitrates (isosorbide mononitrate, nitroglycerin) release nitric oxide, raising cGMP to produce predominantly venous vasodilation (lowering preload) with a headache as their most predictable side effect; calcium-channel blockers split into dihydropyridines (nifedipine -- predominantly arteriolar, with ankle edema and reflex tachycardia as characteristic adverse effects) and non-dihydropyridines (verapamil, diltiazem -- consistently heart-rate-lowering, the calcium-channel blocker of choice for variant angina, but contraindicated in combination with a beta-blocker); nicorandil combines a nitrate-like mechanism with ATP-dependent potassium-channel opening; and ivabradine selectively inhibits the sinus node's If pacemaker current, lowering heart rate without a beta-blocker's or calcium-channel blocker's other effects. A single combination principle -- pairing a venous (nitrate) and an arteriolar (hydralazine) vasodilator balances preload and afterload reduction -- closes the cluster.
+## sections
+### Definition
+Organic nitrates are de-nitrated in the body, releasing nitric oxide that activates guanylyl cyclase to raise cGMP, dephosphorylating myosin light chain kinase and relaxing vascular smooth muscle -- predominantly in veins, giving powerful venodilation that reduces preload and myocardial oxygen demand. Calcium-channel blockers act at L-type calcium channels, but the two subclasses diverge sharply: dihydropyridines (nifedipine, amlodipine) act predominantly on arterioles with little direct cardiac-node effect, while non-dihydropyridines (verapamil, diltiazem) are powerful cardiac depressants, consistently slowing the SA node and AV conduction alongside their coronary vasodilator action. Nicorandil is unusual in carrying two separate antianginal mechanisms at once -- ATP-dependent potassium-channel opening and nitric oxide donation. Ivabradine is narrower still: a pure If-current inhibitor at the sinus node, with no receptor or channel action elsewhere.
+### Mechanism
+The nitrate mechanism (NO release, guanylyl cyclase activation, cGMP formation, MLCK dephosphorylation) is a single, ordered chain, and every step moves in one specific direction that the exam tests directly -- guanylyl cyclase is activated (not inhibited), MLCK is dephosphorylated (not phosphorylated), and intracellular calcium falls (not rises). The clinical consequence of nitrates being predominantly venodilators, with only some arteriolar effect, is that they reduce preload more than afterload, and meningeal vasodilation from the same NO/cGMP pathway is why headache -- not a cardiovascular symptom -- is the side effect a patient must be warned about. Among the calcium-channel blockers, nifedipine's imbalance between strong arteriolar and weak venous vasodilation is the direct mechanistic reason for its characteristic ankle edema (raised capillary hydrostatic pressure in the dependent limbs) and reflex tachycardia (from the hypotension its arteriolar dilation produces, unopposed by any nodal-depressant effect); verapamil and diltiazem, by contrast, depress the SA and AV nodes directly, giving them a consistent heart-rate-lowering effect that also explains why combining either with a beta-blocker risks severe additive cardiac depression -- bradycardia, heart failure, or asystole -- a risk dihydropyridines do not carry. Nicorandil's dual mechanism (potassium-channel opening plus NO donation) and ivabradine's single, narrow mechanism (If-current inhibition only) both sit outside this nitrate/calcium-channel-blocker framework, which is exactly why each is reached for when the standard agents are inadequate or contraindicated. The hydralazine-plus-nitrate combination works because the two drugs act on different vascular beds -- hydralazine arteriolar (afterload), the nitrate venous (preload) -- so their effects are additive rather than redundant, unlike pairing two agents that act on the same bed.
+### Key determinants
+Every antianginal item here turns on correctly placing a drug on two axes: which vascular bed it predominantly acts on (venous vs arteriolar vs both), and whether its heart-rate effect is direct (verapamil/diltiazem depressing the nodes, ivabradine inhibiting If) or reflex (nitrates and dihydropyridines triggering tachycardia via hypotension). Getting the vascular-bed axis right is also what separates a genuinely preload-and-afterload-reducing combination (hydralazine plus nitrate) from one that only reduces one or the other twice over.
+### Clinical significance
+Warning a patient starting sublingual nitroglycerine about headache, rather than a cardiovascular symptom, sets the right expectation for a common, mechanism-driven side effect. Choosing verapamil rather than a beta-blocker for variant angina prophylaxis, and never combining verapamil with a beta-blocker for any indication, are both direct, high-stakes applications of the same non-dihydropyridine mechanism. Recognising nifedipine's ankle edema as a vasodilation effect (not fluid overload from heart failure) avoids an unnecessary diuretic response to a benign, mechanism-driven side effect. Reaching for the hydralazine-nitrate combination, or for ivabradine, when standard first-line agents are inadequate or contraindicated reflects each drug's specific, narrower niche in the antianginal armamentarium.
+### Common misconceptions
+Assuming nitrate side effects run toward hypertension or bradycardia, when nitrates cause hypotension and reflex tachycardia. Assuming all calcium-channel blockers are interchangeable with respect to combining with a beta-blocker, when only the non-dihydropyridines (verapamil, diltiazem) carry that contraindication. Assuming beta-blockers are always the antianginal of choice, when they are specifically contraindicated in variant angina. Assuming nicorandil is simply "another nitrate," missing its separate potassium-channel-opening mechanism. Assuming any two vasodilators combined reduce both preload and afterload, rather than recognising that only pairing a venous agent with an arteriolar one does so.
+## universities
+kau
+## years
+KAU_Y2
+## module
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs
+## subtopic
+Antianginal pharmacology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## related_concepts
+CON-FND-FD7E27188CC273
+CON-FND-DA14F6FBEA362E
+CON-FND-417376B8A4CAA7
+CON-FND-FA510B86B8092C
+CON-FND-C4C0A4D648D184
+CON-FND-0356010F3C10AD
+CON-FND-908C679AD1C458
+CON-FND-B397E53B0C2C31
+## related_articles
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+## resource_ids
+src_9fa6c2788e36af56304e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead, same as the adrenergic, cholinergic and diuretic pharmacology articles.
+## reading_time
+12

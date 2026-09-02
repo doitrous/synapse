@@ -893,3 +893,228 @@ Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
 0.75
 ## counts_as_claim_evidence
 yes
+
+
+---
+
+# Item
+## id
+CIT-FND-208INT-IVABRADINE-IF-CURRENT-01
+## claim_id
+CLM-FND-208INT-IVABRADINE-IF-CURRENT-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+IVABRADINE: Treatment of chronic stable angina in adults with HR >70 and sinus rhythm. Selective inhibition of pacemaker "If" current in sinus node. Used if beta-blockers inadequate or contraindicated.
+## locator_type
+printed_page
+## locator_page
+9
+## locator_section
+Antianginal drugs — ivabradine
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-VERAPAMIL-BB-CONTRAINDICATED-01
+## claim_id
+CLM-FND-208INT-VERAPAMIL-BB-CONTRAINDICATED-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+VERAPAMIL & DILTIAZEM: Negative dromotropic effect (decreased AV conduction); contraindicated in heart block and not to be combined with beta-blockers or digoxin. VERAPAMIL + BB: Unfavourable; severe cardiac inhibition risk (bradycardia, HF, asystole).
+## locator_type
+printed_page
+## locator_page
+9
+## locator_section
+Antianginal drugs — calcium channel blockers, drug interactions
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-NITRATE-CGMP-MECHANISM-01
+## claim_id
+CLM-FND-208INT-NITRATE-CGMP-MECHANISM-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+ORGANIC NITRATES (NO): Activates guanylyl cyclase to form cyclic guanosine monophosphate (cGMP). ORGANIC NITRATES (CGMP): Causes dephosphorylation of Myosin Light Chain Kinase (MLCK), reducing availability of active MLCK leading to failed actin-myosin interaction and relaxation.
+## locator_type
+printed_page
+## locator_page
+8
+## locator_section
+Antianginal drugs — organic nitrates
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-NICORANDIL-DUAL-MECHANISM-01
+## claim_id
+CLM-FND-208INT-NICORANDIL-DUAL-MECHANISM-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+NICORANDIL: Opens ATP-dependent K+ channels (hyperpolarization, VD) and releases NO (nitratelike). Causes VD of epicardial coronaries; used orally for angina and heart failure.
+## locator_type
+printed_page
+## locator_page
+9
+## locator_section
+Antianginal drugs — nicorandil
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-NITRATE-HEADACHE-01
+## claim_id
+CLM-FND-208INT-NITRATE-HEADACHE-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+ORGANIC NITRATES: Cause meningeal vasodilation often resulting in headache.
+## locator_type
+printed_page
+## locator_page
+8
+## locator_section
+Antianginal drugs — organic nitrates, side effects
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-VERAPAMIL-VARIANT-ANGINA-01
+## claim_id
+CLM-FND-208INT-VERAPAMIL-VARIANT-ANGINA-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+VERAPAMIL & DILTIAZEM: Powerful cardiac depressants with negative chronotropic effects (inhibits SA node)... Potent coronary vasodilators with less hypotension/vasodilation than nifedipine. BBS: Prophylaxis for effort and unstable angina; contraindicated in variant angina (alpha-mediated constriction risk).
+## locator_type
+printed_page
+## locator_page
+9
+## locator_section
+Antianginal drugs — calcium channel blockers and beta-blockers
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-NIFEDIPINE-EDEMA-TACHYCARDIA-01
+## claim_id
+CLM-FND-208INT-NIFEDIPINE-EDEMA-TACHYCARDIA-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+NIFEDIPINE: Powerful arteriolar vasodilator that decreases TPR and afterload; weak venodilatory effect... causes hypotension followed by reflex sympathetic tachycardia. CCBS: Adverse effects include headache, flushing, hypotension, ankle edema (especially nifedipine), constipation (especially verapamil), and tachycardia (nifedipine).
+## locator_type
+printed_page
+## locator_page
+9
+## locator_section
+Antianginal drugs — calcium channel blockers, adverse effects
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-HYDRALAZINE-NITRATE-COMBINATION-01
+## claim_id
+CLM-FND-208INT-HYDRALAZINE-NITRATE-COMBINATION-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+ORGANIC NITRATES: Powerful venodilators that decrease venous return, end-diastolic volume (EDV), and preload. HYDRALAZINE: Mechanism involves direct relaxation of arteriolar smooth muscle via nitric oxide pathways and opening of potassium channels. HYDRALAZINE: Combined with nitrates for HFrEF.
+## locator_type
+printed_page
+## locator_page
+8
+## locator_section
+Antianginal drugs (nitrates) and antihypertensives (hydralazine)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference; hydralazine detail from p.10.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes

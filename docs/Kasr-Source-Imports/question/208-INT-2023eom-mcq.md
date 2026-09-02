@@ -11404,3 +11404,1115 @@ yes
 
 ## author_notes
 keySource: printed answer table p.21 ("92.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q93
+
+## title
+Drug inhibiting the cardiac pacemaker If current
+
+## question
+In treatment of angina pectoris, which of the following acts by inhibition of the cardiac pacemaker If current to control the heart rate?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Ranolazine
+
+## explanation_a
+Incorrect. Ranolazine works by preventing abnormal opening of late sodium channels, reducing calcium overload, not by acting on the sinus node's pacemaker current.
+
+## answer_b
+Trimetazidine metabolism
+
+## explanation_b
+Incorrect. Trimetazidine is an anti-ischemic cytoprotective agent that shifts myocardial metabolism from fatty-acid oxidation to glucose metabolism, an entirely metabolic mechanism unrelated to the pacemaker current.
+
+## answer_c
+Ivabradine
+
+## explanation_c
+Correct. Ivabradine treats chronic stable angina, in adults with heart rate above 70 and sinus rhythm, by selective inhibition of the pacemaker If current in the sinus node -- a heart-rate-lowering mechanism used specifically when beta-blockers are inadequate or contraindicated. This selective If-channel blockade is what distinguishes ivabradine from a beta-blocker or calcium-channel blocker, both of which also lower heart rate but through different receptor or channel targets, leaving ivabradine's own contractility and blood pressure effects minimal.
+
+## answer_d
+Verapamil
+
+## explanation_d
+Incorrect. Verapamil lowers heart rate by blocking L-type calcium channels at the sinus and AV nodes (a Class IV antiarrhythmic mechanism), not by inhibiting the If pacemaker current.
+
+## topic
+Pharmacology
+
+## subtopic
+Antianginal pharmacology
+
+## main_concept
+CON-FND-FD7E27188CC273
+
+## concept_ids
+CON-FND-FD7E27188CC273
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify ivabradine's selective inhibition of the sinus-node If pacemaker current as its heart-rate-lowering antianginal mechanism, distinct from ranolazine, trimetazidine and verapamil.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.16
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("93.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q94
+
+## title
+Contraindicated combination with propranolol in angina
+
+## question
+It is contraindicated to prescribe Propranolol for a patient suffering from angina pectoris who is already receiving:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Nifedipine
+
+## explanation_a
+Incorrect. Combining a beta-blocker with a dihydropyridine such as nifedipine is a favourable combination: the dihydropyridine's arteriolar vasodilation is offset by the beta-blocker preventing the reflex tachycardia it would otherwise cause.
+
+## answer_b
+Amlodipine
+
+## explanation_b
+Incorrect. Amlodipine is also a dihydropyridine calcium-channel blocker, and pairing a dihydropyridine with a beta-blocker is favourable for the same reflex-tachycardia-blunting reason as nifedipine.
+
+## answer_c
+Verapamil
+
+## explanation_c
+Correct. Verapamil, like diltiazem, is a non-dihydropyridine calcium-channel blocker with its own negative chronotropic (decreased AV conduction) and negative inotropic effects; combining it with a beta-blocker such as propranolol is unfavourable, carrying a severe risk of cardiac inhibition -- bradycardia, heart failure, or even asystole -- because both drugs suppress the sinus and AV nodes and myocardial contractility together. This is precisely why verapamil and diltiazem, unlike the dihydropyridines, are singled out as not to be combined with beta-blockers or digoxin.
+
+## answer_d
+Isosorbide mononitrate
+
+## explanation_d
+Incorrect. Combining a beta-blocker with a nitrate is favourable: the nitrate's venodilation and reflex tachycardia are offset by the beta-blocker, while the beta-blocker's tendency to raise preload (from bradycardia-driven longer diastolic filling) is offset by the nitrate.
+
+## topic
+Pharmacology
+
+## subtopic
+Antianginal pharmacology
+
+## main_concept
+CON-FND-DA14F6FBEA362E
+
+## concept_ids
+CON-FND-DA14F6FBEA362E
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify verapamil (a non-dihydropyridine calcium-channel blocker) as contraindicated in combination with a beta-blocker, owing to additive cardiac depression, unlike dihydropyridines or nitrates.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.16
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("94.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q95
+
+## title
+Molecular action of isosorbide mononitrate in angina
+
+## question
+A 53-year-old man diagnosed with exertional angina was prescribed oral isosorbide mononitrate. Which of the following molecular actions most likely mediate the therapeutic efficacy of this drug in the patient's disease?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Decreased synthesis of guanylyl cyclase
+
+## explanation_a
+Incorrect. Organic nitrates activate, rather than decrease the synthesis of, guanylyl cyclase -- and the mechanism is enzyme activation, not a change in how much of the enzyme is made.
+
+## answer_b
+Phosphorylation of the myosin light chain kinase
+
+## explanation_b
+Incorrect. Organic nitrates cause dephosphorylation, not phosphorylation, of myosin light chain kinase, which reduces active MLCK and leads to failed actin-myosin interaction and smooth-muscle relaxation -- the opposite direction from this option.
+
+## answer_c
+Increased intracellular Ca2+ concentration
+
+## explanation_c
+Incorrect. High intracellular cGMP from nitrate action tends to reduce, not increase, calcium entry into vascular smooth muscle, contributing further to relaxation.
+
+## answer_d
+Nitric oxide release and stimulated formation of cGMP
+
+## explanation_d
+Correct. Organic nitrates such as isosorbide mononitrate are de-nitrated in the body, releasing nitric oxide, which activates guanylyl cyclase to form cyclic guanosine monophosphate (cGMP). Elevated cGMP causes dephosphorylation of myosin light chain kinase and reduced calcium entry, producing vascular smooth-muscle relaxation -- powerful venodilation that reduces preload and myocardial oxygen demand, which is the mechanistic basis for nitrates' efficacy in exertional angina.
+
+## topic
+Pharmacology
+
+## subtopic
+Antianginal pharmacology
+
+## main_concept
+CON-FND-417376B8A4CAA7
+
+## concept_ids
+CON-FND-417376B8A4CAA7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Organic Nitrates
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Trace organic nitrates' mechanism -- NO release, guanylyl cyclase activation, cGMP formation, MLCK dephosphorylation -- as the basis for their antianginal, preload-reducing venodilation.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.16
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("95.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q96
+
+## title
+Dual-mechanism antianginal drug
+
+## question
+Select from the following the drug which is a potassium channel opener as well as a nitric oxide donor:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Diazoxide
+
+## explanation_a
+Incorrect. Diazoxide opens ATP-sensitive potassium channels in arterioles and pancreatic beta cells, but it is not a nitric oxide donor -- it lacks nicorandil's second, nitrate-like mechanism.
+
+## answer_b
+Sodium nitroprusside
+
+## explanation_b
+Incorrect. Sodium nitroprusside is a potent, non-selective nitric oxide donor, but it does not act as a potassium channel opener -- it lacks nicorandil's dual mechanism.
+
+## answer_c
+Hydralazine
+
+## explanation_c
+Incorrect. Hydralazine relaxes arteriolar smooth muscle partly via nitric-oxide-pathway involvement and potassium-channel opening in some accounts, but it is not classified with nicorandil's specific dual antianginal mechanism, and it has no established role as an antianginal drug.
+
+## answer_d
+Nicorandil
+
+## explanation_d
+Correct. Nicorandil opens ATP-dependent potassium channels, causing hyperpolarization and vasodilation, and separately releases nitric oxide, giving it a nitrate-like action -- combining both mechanisms is why it produces vasodilation of epicardial coronaries and is used orally for both angina and heart failure. This dual mechanism is exactly what distinguishes nicorandil from single-mechanism agents such as sodium nitroprusside (NO donor only) or diazoxide (K+-channel opener only).
+
+## topic
+Pharmacology
+
+## subtopic
+Antianginal pharmacology
+
+## main_concept
+CON-FND-FA510B86B8092C
+
+## concept_ids
+CON-FND-FA510B86B8092C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify nicorandil's dual mechanism -- ATP-dependent potassium-channel opening plus nitric oxide donation -- as distinguishing it from single-mechanism vasodilators.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.16
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("96.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q97
+
+## title
+Warning for sublingual nitroglycerine
+
+## question
+A 65-year-old man has intermittent angina when he exercises in cold weather. His primary care physician places him on sublingual nitroglycerine to be taken at the onset of symptoms. This patient must be warned of which of the following side effects?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Erectile dysfunction
+
+## explanation_a
+Incorrect. Nitrates do not cause erectile dysfunction; if anything, the concern with nitrates is the opposite direction -- sildenafil (used for erectile dysfunction) is absolutely contraindicated with nitrates because of severe, synergistic hypotension.
+
+## answer_b
+Headache
+
+## explanation_b
+Correct. Organic nitrates cause meningeal vasodilation, which often results in headache -- a very common and expected side effect that patients starting sublingual nitroglycerine should be warned about in advance, distinct from and more predictable than the drug's cutaneous flushing (nitroid reaction). This headache is a direct, mechanistic consequence of the same NO/cGMP-mediated vasodilation that gives nitroglycerine its antianginal effect, not an idiosyncratic reaction.
+
+## answer_c
+Hypertension
+
+## explanation_c
+Incorrect. Nitrates cause hypotension, not hypertension, by decreasing systolic blood pressure more than diastolic -- the reverse of this option.
+
+## answer_d
+Bradycardia
+
+## explanation_d
+Incorrect. Nitrates may trigger reflex sympathetic stimulation, causing tachycardia (and increased contractility), not bradycardia, as the compensatory response to the drop in blood pressure.
+
+## topic
+Pharmacology
+
+## subtopic
+Antianginal pharmacology
+
+## main_concept
+CON-FND-C4C0A4D648D184
+
+## concept_ids
+CON-FND-C4C0A4D648D184
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Organic Nitrates
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify headache, from meningeal vasodilation, as the characteristic side effect a patient starting sublingual nitroglycerine should be warned about.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.16
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("97.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q98
+
+## title
+Antianginal drug for vasospastic angina prophylaxis
+
+## question
+Which of the following is an antianginal drug that consistently decreases the heart rate and is used in prophylaxis of vasospastic (variant) angina?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+isosorbide dinitrate
+
+## explanation_a
+Incorrect. Isosorbide dinitrate is a venodilator that may trigger reflex tachycardia rather than consistently decreasing heart rate, and organic nitrates are not the specific prophylactic choice for variant angina.
+
+## answer_b
+Nitroglycerin
+
+## explanation_b
+Incorrect. Nitroglycerin shares the same reflex-tachycardia tendency as other organic nitrates, not a consistent heart-rate-lowering effect, and is used for acute relief rather than as the prophylactic drug of choice for vasospastic angina.
+
+## answer_c
+Verapamil
+
+## explanation_c
+Correct. Verapamil and diltiazem are powerful cardiac depressants with a consistent negative chronotropic effect (inhibiting the SA node) and are potent coronary vasodilators; because variant (vasospastic) angina is driven by coronary artery spasm rather than fixed atherosclerotic obstruction, a calcium-channel blocker that directly relieves that spasm -- rather than a beta-blocker -- is the prophylactic choice. This distinction matters because beta-blockers are specifically contraindicated in variant angina, since their unopposed alpha-mediated vasoconstriction risks worsening the coronary spasm that verapamil instead relieves.
+
+## answer_d
+Propranolol
+
+## explanation_d
+Incorrect. Propranolol, a non-selective beta-blocker, is contraindicated in variant angina because of the risk of unopposed alpha-mediated coronary constriction worsening the spasm -- it is used for prophylaxis of effort and unstable angina, not the vasospastic form.
+
+## topic
+Pharmacology
+
+## subtopic
+Antianginal pharmacology
+
+## main_concept
+CON-FND-0356010F3C10AD
+
+## concept_ids
+CON-FND-0356010F3C10AD
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Calcium Channel Blockers
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify verapamil (not a nitrate or beta-blocker) as the antianginal of choice for variant/vasospastic angina prophylaxis, and state why beta-blockers are contraindicated there.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.17
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("98.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q99
+
+## title
+Adverse effect of nifedipine
+
+## question
+Which of the following is an adverse effect of nifedipine?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Bronchospasm
+
+## explanation_a
+Incorrect. Nifedipine has no established respiratory adverse effect such as bronchospasm; that risk belongs instead to non-selective beta-blockers acting on airway beta2 receptors.
+
+## answer_b
+Bradycardia
+
+## explanation_b
+Incorrect. Nifedipine, a dihydropyridine calcium-channel blocker, is a very weak myocardial depressant that does not inhibit the SA or AV nodes -- if anything, it causes reflex tachycardia (from the hypotension its potent arteriolar vasodilation produces), not bradycardia.
+
+## answer_c
+Ankle edema
+
+## explanation_c
+Correct. Ankle edema is a recognised adverse effect of calcium-channel blockers, and is specifically named as more prominent with nifedipine among the dihydropyridines -- alongside headache, flushing and hypotension from its powerful arteriolar vasodilation. Because nifedipine causes little venodilation relative to its strong arteriolar effect, capillary hydrostatic pressure rises in the dependent limbs, which is the mechanistic reason this edema is peripheral (ankle) rather than generalized fluid retention from sodium and water handling.
+
+## answer_d
+Peripheral neuropathy
+
+## explanation_d
+Incorrect. Peripheral neuropathy is not a recognised nifedipine adverse effect; the drug's characteristic tolerability issues are vasodilation-related (edema, flushing, headache, reflex tachycardia), not neurological.
+
+## topic
+Pharmacology
+
+## subtopic
+Antianginal pharmacology
+
+## main_concept
+CON-FND-908C679AD1C458
+
+## concept_ids
+CON-FND-908C679AD1C458
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Calcium Channel Blockers
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify ankle edema (from nifedipine's strong arteriolar, weak venous, vasodilation) as its characteristic adverse effect, and rule out bronchospasm, bradycardia and neuropathy.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.17
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("99.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q100
+
+## title
+Combination reducing both preload and afterload
+
+## question
+Which of the following combinations of drugs reduce both preload and afterload?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Nitroglycerin and isosorbide dinitrate
+
+## explanation_a
+Incorrect. Nitroglycerin and isosorbide dinitrate are both organic nitrates, acting through the same mechanism -- powerful venodilation reducing preload, with only some arteriolar (afterload) effect -- so combining two nitrates does not add a distinct afterload-reducing mechanism.
+
+## answer_b
+Hydralazine and isosorbide dinitrate
+
+## explanation_b
+Correct. Organic nitrates such as isosorbide dinitrate are powerful venodilators, reducing venous return, end-diastolic volume and preload, while hydralazine is a direct arteriolar vasodilator, reducing total peripheral resistance and afterload. Combining an agent that predominantly lowers preload with one that predominantly lowers afterload gives balanced reduction of both, which is exactly why this hydralazine-plus-nitrate combination is used in heart failure with reduced ejection fraction, particularly when ACE inhibitors or ARBs are not tolerated.
+
+## answer_c
+Amlodipine and minoxidil
+
+## explanation_c
+Incorrect. Amlodipine (a dihydropyridine calcium-channel blocker) and minoxidil are both predominantly arteriolar vasodilators, reducing afterload -- neither contributes the venodilating, preload-reducing action a nitrate provides, so this pairing does not balance preload and afterload the way the hydralazine-nitrate combination does.
+
+## answer_d
+Hydralazine and diazoxide
+
+## explanation_d
+Incorrect. Hydralazine and diazoxide are both predominantly arteriolar vasodilators, both reducing afterload without a significant venodilating, preload-reducing partner drug in this pairing.
+
+## topic
+Pharmacology
+
+## subtopic
+Antianginal pharmacology
+
+## main_concept
+CON-FND-B397E53B0C2C31
+
+## concept_ids
+CON-FND-B397E53B0C2C31
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Organic Nitrates
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Explain that hydralazine (arteriolar, afterload) combined with a nitrate (venous, preload) gives balanced preload/afterload reduction, unlike pairing two agents acting on the same vascular bed.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.17
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("100.B")

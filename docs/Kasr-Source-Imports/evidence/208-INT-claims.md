@@ -989,3 +989,252 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Kasr Al Ainy 208 INT — Pharmacology, ACE Inhibitors
+
+
+---
+
+# Item
+## id
+CLM-FND-208INT-IVABRADINE-IF-CURRENT-01
+## concept_id
+CON-FND-FD7E27188CC273
+## subject
+Ivabradine
+## predicate
+treats chronic stable angina (HR>70, sinus rhythm) by
+## object
+selective inhibition of the sinus node's pacemaker If current, used when beta-blockers are inadequate or contraindicated
+## display_text
+Ivabradine lowers heart rate in chronic stable angina by selectively inhibiting the sinus node's If pacemaker current.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antianginal Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-VERAPAMIL-BB-CONTRAINDICATED-01
+## concept_id
+CON-FND-DA14F6FBEA362E
+## subject
+Verapamil and diltiazem combined with a beta-blocker
+## predicate
+is contraindicated, carrying a risk of
+## object
+severe additive cardiac inhibition (bradycardia, heart failure, asystole), unlike dihydropyridine calcium-channel blockers
+## display_text
+Combining verapamil or diltiazem with a beta-blocker risks severe additive cardiac depression.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antianginal Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-NITRATE-CGMP-MECHANISM-01
+## concept_id
+CON-FND-417376B8A4CAA7
+## subject
+Organic nitrates
+## predicate
+release nitric oxide, activating guanylyl cyclase to form cGMP, which
+## object
+dephosphorylates myosin light chain kinase, producing vascular smooth-muscle (predominantly venous) relaxation
+## display_text
+Organic nitrates work through NO release, guanylyl cyclase activation, and cGMP-driven MLCK dephosphorylation.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antianginal Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-NICORANDIL-DUAL-MECHANISM-01
+## concept_id
+CON-FND-FA510B86B8092C
+## subject
+Nicorandil
+## predicate
+combines two mechanisms:
+## object
+opening ATP-dependent potassium channels and releasing nitric oxide, unlike single-mechanism agents such as sodium nitroprusside or diazoxide
+## display_text
+Nicorandil is both a potassium-channel opener and a nitric oxide donor.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antianginal Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-NITRATE-HEADACHE-01
+## concept_id
+CON-FND-C4C0A4D648D184
+## subject
+Organic nitrates
+## predicate
+cause, via meningeal vasodilation,
+## object
+headache, a very common and expected side effect distinct from the cutaneous flushing (nitroid reaction) they also cause
+## display_text
+Nitrate-induced meningeal vasodilation causes headache, a common and expected side effect.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antianginal Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-VERAPAMIL-VARIANT-ANGINA-01
+## concept_id
+CON-FND-0356010F3C10AD
+## subject
+Verapamil and diltiazem
+## predicate
+are consistent heart-rate-lowering coronary vasodilators, making them the choice for
+## object
+vasospastic (variant) angina prophylaxis, unlike beta-blockers, which are contraindicated there
+## display_text
+Verapamil, not a beta-blocker, is the antianginal of choice for variant angina prophylaxis.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antianginal Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-NIFEDIPINE-EDEMA-TACHYCARDIA-01
+## concept_id
+CON-FND-908C679AD1C458
+## subject
+Nifedipine
+## predicate
+causes, from its strong arteriolar/weak venous vasodilation,
+## object
+ankle edema and reflex tachycardia, more prominently than other calcium-channel blockers
+## display_text
+Ankle edema and reflex tachycardia are nifedipine's characteristic adverse effects.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antianginal Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-HYDRALAZINE-NITRATE-COMBINATION-01
+## concept_id
+CON-FND-B397E53B0C2C31
+## subject
+Hydralazine combined with a nitrate
+## predicate
+gives balanced reduction of
+## object
+both afterload (from hydralazine's arteriolar vasodilation) and preload (from the nitrate's venodilation)
+## display_text
+Hydralazine plus a nitrate balances afterload and preload reduction, used in heart failure with reduced ejection fraction.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antianginal Drugs

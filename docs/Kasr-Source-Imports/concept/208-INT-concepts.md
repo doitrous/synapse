@@ -7674,3 +7674,917 @@ resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ..
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: Precursor to the fuller ACE-inhibitor cluster (adverse effects, renal-impairment dosing) authored in a later batch.
+
+
+---
+
+# Item
+## id
+CON-FND-FD7E27188CC273
+## label
+Ivabradine selectively inhibits the sinus node's pacemaker If current, lowering heart rate in chronic stable angina without direct effects on contractility or blood pressure
+## canonical_key
+ivabradine.if-current-inhibition.pacemaker
+## aliases
+Ivabradine mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ivabradine treats chronic stable angina, in adults with heart rate above 70 in sinus rhythm, by selective inhibition of the pacemaker If current in the sinus node -- used specifically when beta-blockers are inadequate or contraindicated. This is a distinct heart-rate-lowering mechanism from beta-blockade or non-dihydropyridine calcium-channel blockade, since ivabradine does not act on adrenergic receptors or L-type calcium channels.
+## explicit_objective
+Identify ivabradine's selective inhibition of the sinus-node If pacemaker current as its heart-rate-lowering, add-on antianginal mechanism, distinct from beta-blockers and calcium-channel blockers.
+## pitfalls
+Assuming ivabradine works through the same receptor/channel targets as a beta-blocker or verapamil -- its If-current inhibition is a mechanistically separate pathway to the same net effect (lower heart rate).
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antianginal pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs
+## article_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-IVABRADINE-IF-CURRENT-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In treatment of angina pectoris, which of the following acts by inhibition of the cardiac pacemaker If current to control the heart rate? a. Ranolazine b. Trimetazidine metabolism C. Ivabradine d. Verapamil" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("ivabradine pacemaker If current") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.9.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other antianginal-drug concepts minted from the same source in this batch.
+
+---
+
+# Item
+## id
+CON-FND-DA14F6FBEA362E
+## label
+Combining verapamil (or diltiazem) with a beta-blocker is contraindicated in angina, risking severe additive cardiac depression -- bradycardia, heart failure, or asystole
+## canonical_key
+beta-blocker-verapamil-combination.contraindicated.cardiac-depression
+## aliases
+Verapamil-beta-blocker interaction
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Verapamil and diltiazem are non-dihydropyridine calcium-channel blockers with their own negative chronotropic (decreased AV conduction) and negative inotropic effects. Combining either with a beta-blocker is unfavourable, carrying a severe risk of additive cardiac inhibition -- bradycardia, heart failure or asystole -- because both drug classes suppress the sinus/AV nodes and myocardial contractility together; dihydropyridines (nifedipine, amlodipine) do not carry this risk and instead combine favourably with beta-blockers.
+## explicit_objective
+Explain why combining a beta-blocker with a non-dihydropyridine calcium-channel blocker (verapamil, diltiazem) is contraindicated, while combining it with a dihydropyridine is favourable.
+## pitfalls
+Treating "calcium-channel blocker plus beta-blocker" as one undifferentiated combination -- the dihydropyridine and non-dihydropyridine subclasses interact with beta-blockers in opposite directions (favourable vs contraindicated).
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antianginal pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs
+## article_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-0356010F3C10AD
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-VERAPAMIL-BB-CONTRAINDICATED-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"It is contraindicated to prescribe Propranolol for a patient suffering from angina pectoris who is already receiving: a. Nifedipine b. Amlodipine C. Verapamil d. Isosorbide mononitrate" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("propranolol verapamil contraindication angina") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.9.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-0356010F3C10AD (verapamil in variant angina), the other verapamil-specific concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-417376B8A4CAA7
+## label
+Organic nitrates such as isosorbide mononitrate release nitric oxide, activating guanylyl cyclase to form cGMP and relax vascular smooth muscle
+## canonical_key
+isosorbide-mononitrate.no-donor.cgmp-mechanism-angina
+## aliases
+Organic nitrate cGMP mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Organic nitrates are de-nitrated in the body, releasing nitric oxide gas, which activates guanylyl cyclase to form cyclic guanosine monophosphate (cGMP). Elevated cGMP causes dephosphorylation of myosin light chain kinase and can reduce calcium entry, producing vascular smooth-muscle relaxation -- powerful venodilation that reduces preload and myocardial oxygen demand, the mechanistic basis for their antianginal efficacy.
+## explicit_objective
+Trace organic nitrates' molecular mechanism -- NO release, guanylyl cyclase activation, cGMP formation, MLCK dephosphorylation -- as the basis for their antianginal, preload-reducing venodilation.
+## pitfalls
+Reversing the direction of any single step (e.g. assuming nitrates decrease guanylyl cyclase synthesis, or phosphorylate rather than dephosphorylate MLCK) -- each step in the NO-cGMP-relaxation chain moves in one specific, testable direction.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antianginal pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Organic Nitrates
+## article_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-C4C0A4D648D184
+CON-FND-B397E53B0C2C31
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-NITRATE-CGMP-MECHANISM-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 53-year-old man diagnosed with exertional angina was prescribed oral isosorbide mononitrate. Which of the following molecular actions most likely mediate the therapeutic efficacy of this drug in the patient's disease? a. Decreased synthesis of guanylyl cyclase b. Phosphorylation of the myosin light chain kinase c. Increased intracellular Ca2+ concentration d. Nitric oxide release and stimulated formation of cGMP" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("isosorbide mononitrate nitric oxide cGMP") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.8.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-C4C0A4D648D184 (nitrate headache) and CON-FND-B397E53B0C2C31 (hydralazine-nitrate combination), the other nitrate concepts in this batch.
+
+---
+
+# Item
+## id
+CON-FND-FA510B86B8092C
+## label
+Nicorandil combines two antianginal mechanisms: opening ATP-dependent potassium channels and donating nitric oxide
+## canonical_key
+nicorandil.dual-mechanism.potassium-channel-opener-and-no-donor
+## aliases
+Nicorandil dual mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Nicorandil opens ATP-dependent potassium channels, causing hyperpolarization and vasodilation, and separately releases nitric oxide, giving it a nitrate-like action. Combining both mechanisms produces vasodilation of epicardial coronaries and is why it is used orally for both angina and heart failure, distinguishing it from single-mechanism agents such as sodium nitroprusside (NO donor only) or diazoxide (potassium-channel opener only).
+## explicit_objective
+Identify nicorandil's dual mechanism -- ATP-dependent potassium-channel opening plus nitric oxide donation -- as distinguishing it from single-mechanism vasodilators used in cardiovascular pharmacology.
+## pitfalls
+Classifying nicorandil as only a nitrate or only a potassium-channel opener -- both mechanisms are genuinely present and jointly explain its coronary vasodilator effect.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antianginal pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs
+## article_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-NICORANDIL-DUAL-MECHANISM-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Select from the following the drug which is a potassium channel opener as well as a nitric oxide donor: a. Diazoxide b. Sodium nitroprusside c. Hydralazine d. Nicorandil" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("nicorandil potassium channel opener nitrate") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.9.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other antianginal-drug concepts minted from the same source in this batch.
+
+---
+
+# Item
+## id
+CON-FND-C4C0A4D648D184
+## label
+Organic nitrates cause meningeal vasodilation, producing headache as a very common, expected, mechanism-driven side effect
+## canonical_key
+nitroglycerin.sublingual.headache-adverse-effect
+## aliases
+Nitrate headache
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Organic nitrates cause meningeal vasodilation, often resulting in headache -- a very common and expected side effect, distinct from and more predictable than the cutaneous flushing ("nitroid reaction") they also cause. This headache is a direct, mechanistic consequence of the same nitric-oxide/cGMP-mediated vasodilation that gives nitrates their antianginal effect, not an idiosyncratic reaction.
+## explicit_objective
+Explain that nitrate-induced headache comes from meningeal vasodilation, the same NO/cGMP mechanism responsible for the drug's antianginal effect, and is an expected, not idiosyncratic, side effect to warn patients about.
+## pitfalls
+Assuming nitrate side effects run toward hypertension or bradycardia -- nitrates instead cause hypotension and reflex tachycardia, and their most predictable warning-worthy side effect is headache, not a cardiovascular one.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antianginal pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Organic Nitrates
+## article_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-417376B8A4CAA7
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.7
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-NITRATE-HEADACHE-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 65-year-old man has intermittent angina when he exercises in cold weather. His primary care physician places him on sublingual nitroglycerine to be taken at the onset of symptoms. This patient must be warned of which of the following side effects? a. Erectile dysfunction b. Headache c. Hypertension d. Bradycardia" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("nitroglycerin sublingual headache side effect") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.8.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-417376B8A4CAA7 (nitrate cGMP mechanism), the other nitrate concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-0356010F3C10AD
+## label
+Verapamil's consistent heart-rate-lowering, coronary-vasodilating action makes it the calcium-channel blocker of choice for vasospastic (variant) angina prophylaxis, unlike beta-blockers
+## canonical_key
+verapamil.heart-rate-reduction.vasospastic-angina-prophylaxis
+## aliases
+Variant angina prophylaxis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Verapamil and diltiazem are powerful cardiac depressants with a consistent negative chronotropic effect (inhibiting the SA node) and are potent coronary vasodilators. Because variant (vasospastic) angina is driven by coronary artery spasm rather than fixed atherosclerotic obstruction, a calcium-channel blocker that directly relieves that spasm is the prophylactic drug of choice -- unlike beta-blockers, which are contraindicated in variant angina because their unopposed alpha-mediated vasoconstriction risks worsening the coronary spasm.
+## explicit_objective
+Identify verapamil as the calcium-channel blocker of choice for variant/vasospastic angina prophylaxis, given its consistent heart-rate reduction and coronary vasodilation, and explain why beta-blockers are contraindicated there.
+## pitfalls
+Assuming any heart-rate-lowering antianginal drug is interchangeable for variant angina prophylaxis -- beta-blockers are specifically contraindicated there, despite also lowering heart rate, because of their opposite (constrictor) effect on the spastic coronary vessel.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antianginal pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Calcium Channel Blockers
+## article_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-DA14F6FBEA362E
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-VERAPAMIL-VARIANT-ANGINA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is an antianginal drug that consistently decreases the heart rate and is used in prophylaxis of vasospastic (variant) angina? a. isosorbide dinitrate b. Nitroglycerin c. Verapamil d. Propranolol" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("verapamil variant angina prophylaxis heart rate") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.9.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-DA14F6FBEA362E (verapamil-beta-blocker contraindication), the other verapamil-specific concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-908C679AD1C458
+## label
+Nifedipine's strong arteriolar, weak venous vasodilation produces its characteristic adverse effects: ankle edema and reflex tachycardia
+## canonical_key
+nifedipine.vasodilation-adverse-effects.edema-and-tachycardia
+## aliases
+Nifedipine adverse effects
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Nifedipine is a powerful arteriolar vasodilator, decreasing total peripheral resistance and afterload, with only a weak venodilatory effect. This is a very weak myocardial depressant that does not inhibit the SA or AV nodes, so the hypotension it produces triggers reflex sympathetic tachycardia; among the adverse effects shared with other calcium-channel blockers (headache, flushing, hypotension, ankle edema), ankle edema and tachycardia are specifically named as more prominent with nifedipine, because its strong arteriolar/weak venous imbalance raises capillary hydrostatic pressure in the dependent limbs.
+## explicit_objective
+Explain nifedipine's characteristic adverse effects -- ankle edema and reflex tachycardia -- as consequences of its strong arteriolar, weak venous vasodilation, and its lack of direct SA/AV nodal depression.
+## pitfalls
+Assuming nifedipine causes bradycardia or bronchospasm like a beta-blocker -- as a dihydropyridine calcium-channel blocker with minimal cardiac-node effect, its own characteristic adverse effects are vasodilation-related (edema, flushing, reflex tachycardia), not cardiac-conduction or respiratory ones.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antianginal pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Calcium Channel Blockers
+## article_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.6
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-NIFEDIPINE-EDEMA-TACHYCARDIA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is an adverse effect of nifedipine? a. Bronchospasm b. Bradycardia C. Ankle edema d. Peripheral neuropathy" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("nifedipine ankle edema adverse effect" and "nifedipine reflex tachycardia antihypertensive") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.9 ("CCBS: Adverse effects include headache, flushing, hypotension, ankle edema (especially nifedipine), constipation (especially verapamil), and tachycardia (nifedipine)").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: This concept is reused as main_concept for both 2023eom-q99 (ankle edema) and 2023eom-q106 (tachycardia) -- the same underlying nifedipine-adverse-effects fact tested from two angles in this paper, minted once per the "same idea, same concept" rule rather than twice.
+
+---
+
+# Item
+## id
+CON-FND-B397E53B0C2C31
+## label
+Combining hydralazine (arteriolar, afterload) with a nitrate (venous, preload) gives balanced reduction of both preload and afterload
+## canonical_key
+hydralazine-isosorbide-dinitrate.combined-preload-afterload-reduction
+## aliases
+Hydralazine-nitrate combination
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Organic nitrates such as isosorbide dinitrate are powerful venodilators, reducing venous return, end-diastolic volume and preload, while hydralazine is a direct arteriolar vasodilator, reducing total peripheral resistance and afterload. Combining an agent that predominantly lowers preload with one that predominantly lowers afterload gives balanced reduction of both, which is why the hydralazine-plus-nitrate combination is used in heart failure with reduced ejection fraction, particularly when ACE inhibitors or ARBs are not tolerated.
+## explicit_objective
+Explain why the hydralazine-plus-nitrate combination reduces both preload and afterload, and why pairing two agents acting on the same vascular bed (two nitrates, or two arteriolar vasodilators) does not.
+## pitfalls
+Assuming any two vasodilators combined will reduce both preload and afterload -- only pairing a predominantly venous agent with a predominantly arteriolar one achieves that; two agents acting on the same vascular bed do not.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antianginal pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Organic Nitrates
+## article_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-417376B8A4CAA7
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-HYDRALAZINE-NITRATE-COMBINATION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following combinations of drugs reduce both preload and afterload? a. Nitroglycerin and isosorbide dinitrate b. Hydralazine and isosorbide dinitrate c. Amlodipine and minoxidil d. Hydralazine and diazoxide" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("hydralazine isosorbide dinitrate preload afterload") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.8 and p.10.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-417376B8A4CAA7 (nitrate cGMP mechanism); the same hydralazine-nitrate pair recurs conceptually in the heart-failure cluster authored in a later batch.
