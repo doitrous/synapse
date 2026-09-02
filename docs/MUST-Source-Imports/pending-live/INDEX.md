@@ -1,15 +1,15 @@
 # pending-live/ — apply order
 
-Two files here are sparse overlay updates / new written-question records that
-depend on concept ids MUST-CVS-201 shares with three other lanes' unimported
-batches — none of the seven target concept ids is in
-`server/data/medical-library-v1.json` (checked directly against the live JSON
-this checkout carries, not just `find-existing.mjs`). Neither file is staged
-in `docs/import-ready/` or anywhere else — by design, same convention as
-Alexandria's and Ain Shams's own `pending-live/` (see
-`docs/Alexandria-Source-Imports/pending-live/INDEX.md` and
-`docs/Ain-Shams-Source-Imports/pending-live/INDEX.md`). Omar applies these two
-files after confirming the dependency below is live.
+Four files here (two tranche-1 pairs, below) are sparse overlay updates / new
+question records that depend on concept ids MUST-CVS-201 shares with other
+lanes' unimported batches — none of the target concept ids (7 for tranche 1,
+8 more for the Histology tranche) is in `server/data/medical-library-v1.json`
+(checked directly against the live JSON this checkout carries, not just
+`find-existing.mjs`). No file here is staged in `docs/import-ready/` or
+anywhere else — by design, same convention as Alexandria's and Ain Shams's
+own `pending-live/` (see `docs/Alexandria-Source-Imports/pending-live/INDEX.md`
+and `docs/Ain-Shams-Source-Imports/pending-live/INDEX.md`). Omar applies each
+pair after confirming its own dependency, below, is live.
 
 ## Dependency status (2026-09-02)
 
@@ -84,3 +84,44 @@ article/resource likewise errors as "does not exist" under `--with`. Same
 tool limitation Ain Shams's own `ASU-IBM-biochem-mcq-overlay-*.md` hit and
 documented the same way — `gate.mjs simulate` with the real dependency
 files is the correct check here, not `gate.mjs batch`.
+
+## Histology tranche (2026-09-02) — two more files, same pattern
+
+Two more files, from the Histology CVS201 EOM MCQ paper (50 MCQs,
+`src_0511bc2ebb43a689a4c6`, printed key p.14), depend on 8 concept ids that
+exist only in Kasr's own unimported 104-CPS batch — checked directly against
+`server/data/medical-library-v1.json`, none of the 8 present. One ninth
+Histology concept this tranche also cites, `CON-CVS-CC810A201244F0`
+("Pericyte regulation of capillary flow"), IS confirmed live in that same
+snapshot — its question (Q19, MCQ key `histo-q19`) is not in either
+pending-live file; it is in `question/MUST-CVS-201-histology-mcq.md` instead,
+cited directly with no local tag-update record.
+
+| File | Target ids | Records |
+|---|---|---|
+| `MUST-CVS-201-histology-concepts-overlay.md` | 8 concept ids: 6 in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` (three-tunic plan, artery classification, metarteriole, vein classification, medium-artery-vs-vein, fenestrated capillary), 1 in `docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md` (arteriovenous anastomosis), 1 in `docs/Kasr-Source-Imports/concept/104-CPS-concepts.md` (continuous-vs-sinusoidal capillary) | 8 sparse updates — `+must`, `+2`, `+MUST-CVS-201` on `universities`/`learner_years`/`modules`; `module_subject` restates the source's existing line plus MUST-CVS-201's own |
+| `MUST-CVS-201-histology-questions.md` | 45 MCQ records (`QST-MUSTCVS201-HISTOLOGY-PENDING-…`), `main_concept` pointing at the 8 ids above | New records, not sparse updates — `library_ids` names each target concept's own existing article in `docs/Kasr-Source-Imports/article/104-CPS-histology.md` or `104-CPS-articles.md` |
+
+**Apply after**: `MUST-CVS-201-histology-concepts-overlay.md` applies after
+its three named dependency files
+(`104-CPS-histology-concepts.md`, `104-CPS-mcq-concepts.md`,
+`104-CPS-concepts.md`) are live; `MUST-CVS-201-histology-questions.md`
+applies after both the overlay file above AND its two article dependencies
+(`docs/Kasr-Source-Imports/article/104-CPS-histology.md` for
+`ART-104-HIS-HEART-AND-VESSEL-WALL`, `ART-104-HIS-ARTERIES-AND-VEINS` and
+`ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS`; `104-CPS-articles.md` for
+`ART-104-HIS-CAPILLARY-TYPES`) are live.
+
+Full-tree `gate.mjs simulate` (all 28 MUST-CVS-201-relevant files, tranche 1
+and this Histology tranche together, real dependency files first):
+`batches=28 created=529 updated=139 rejected=0 skipped=0 errors=0`. The new
+overlay batch alone reports `created:0, updated:8` — confirms all 8 rows are
+genuine updates onto ids that already exist in the three named dependency
+files, not duplicates. `MUST-CVS-201-histology-questions.md` reports
+`created:45, updated:0, rejected:0`; `question/MUST-CVS-201-histology-mcq.md`
+(the 5 direct, live-or-new-concept MCQs, gated normally with `gate.mjs
+batch`, errors=0) reports `created:5, updated:0, rejected:0` in the same
+simulate.
+
+`gate.mjs batch` was likewise not run on either new pending-live file, same
+tool limitation as above.

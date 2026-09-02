@@ -157,3 +157,75 @@ for every question.
 - `MUST-CVS-201-triage-keys.txt` — one line per triaged question (source,
   question number, key-recovery method, one-line answer excerpt) plus the
   raw `find-existing.mjs` query log for the 17 concept candidates.
+
+## S3 — tranche 2 (2026-09-02, lane 2, branch `must-cvs201-author2`)
+
+Second authoring pass, the 9 remaining tier-1 EOM papers named in
+`LANE-CARD-Y2.md`'s cluster order (Anatomy → Histology → Microbiology ×2 →
+Pathology ×2 → Pharmacology → Physiology). Triaged all 9 for page count,
+format and key-recovery method; authored the Histology paper (the shortest,
+cleanest single-subject MCQ source, 50/50 printed key) to completion, per the
+~50-question target.
+
+### Full triage — Histology CVS201 Questions (Final) — AUTHORED
+
+`Histology/06 EOM Exams/EOM MCQs - Histology CVS201 Questions (Final).pdf`,
+14 pages, single author (Absalam101), native-text (`pagetext.mjs status`: no
+garbled pages, no OCR needed). 50 genuine MCQs, one subject (blood-vessel-wall
+histology), no essay tail — the cleanest source in this cluster. Printed
+answer key on p.14, 50/50 recovered. `src_0511bc2ebb43a689a4c6`.
+
+50 raw questions collapse to 12 distinct concept candidates via
+`find-existing.mjs` plus a direct check against
+`server/data/medical-library-v1.json` (not just the tool, per the standing
+practice this file's S2 addendum set): 8 are sparse updates onto concepts
+that exist only in Kasr 104-CPS's own unimported batch (three-tunic plan,
+artery classification, metarteriole, vein classification, medium-artery-vs-
+vein, fenestrated capillary, arteriovenous anastomosis, continuous-vs-
+sinusoidal capillary — none in the live snapshot), 1 is a direct reference to
+a genuinely live cross-university concept (pericyte function,
+`CON-CVS-CC810A201244F0`, confirmed in the live snapshot — no local overlay
+row because no local file carries its verbatim label), and 3 are new MUST
+mints (varicose veins, DVT/thrombophlebitis, elastic-lamina Orcein stain —
+`find-existing.mjs` returned no hit and neither did a check of the Year-3
+SYS-CVS clinical catalogue's own "chronic venous insufficiency"/"deep vein
+thrombosis" articles, judged a different, coarser clinical-depth concept
+rather than reused, same call this file's S2 addendum made for malignant
+hypertension).
+
+All 50 questions authored as MCQ seed → `emit-mcq.mjs`, not hand-authored —
+the paper is genuine multiple-choice with a full printed key, exactly the
+case the lane brief reserves for the emitter. 45 (main_concept pending) are
+in `pending-live/MUST-CVS-201-histology-questions.md` alongside an 8-record
+sparse concept overlay (`pending-live/MUST-CVS-201-histology-concepts-
+overlay.md`); 5 (main_concept live or minted this batch) are in
+`question/MUST-CVS-201-histology-mcq.md`. Full apply order and simulate log
+in `pending-live/INDEX.md`. 0 questions held — the source printed a key for
+every item. 0 literal duplicates found within this single-source paper.
+
+### Inventory — remaining 8 papers (not authored this pass)
+
+| Paper | Pages | Format | Questions | Key | Notes |
+|---|--:|---|--:|---|---|
+| Anatomy CVS201 Questions (Final) | 32 | MCQ + essay | 105 (100 MCQ across 5 topics + 5 essay) | printed (page-1 stated; not opened past p.1 this pass) | Largest remaining source; next in cluster order |
+| Microbiology CVS Final (Mucize Doctors) | 8 | MCQ + essay | 35 (30 MCQ + 5 essay) | printed, 30/30 MCQ + 5/5 essay, verified in full | Endocarditis/myocarditis/pericarditis/rheumatic fever; same subject spread as the sibling paper below |
+| Microbiology CVS201 Questions (Final) | 10 | MCQ + essay | 35 (30 MCQ + 5 essay) | printed, 30/30 MCQ + 5/5 essay, verified in full | Same 4 topics as Mucize's paper, different authors (Absalam101 & Rehab) and largely different stems — not spot-checked for literal duplicates against the sibling paper; treat as a probable-overlap pair for the next pass |
+| Pathology CVS201 Questions (Final) | 23 | MCQ + essay | 70 (60 MCQ + 10 essay) | printed (page-1 stated; p.19's essay-answer tail verified) | Cardiomyopathy/atherosclerosis-heavy; not opened past p.1 and p.19 this pass |
+| EOM - CVS 2 Dr Nafessa (Final) | 19 | **not a question source** | 0 | n/a | Confirmed by reading pp.1-4: a lecture/revision slide deck (Cardiomyopathy, Pericardial Effusion, Cardiac Tamponade, Pericarditis, Atherosclerosis, Risk Factors, …), despite sitting in the "06 EOM Exams" folder — the LANE-CARD-Y2.md §5 trap, confirmed on a second file. No Q&A to extract; skip for authoring, keep as a possible study-reference asset only |
+| Pharmacology CVS201 Questions (Final) | 31 | MCQ | 110 (50 + 30 + 30 across 3 topics) | printed (page-1 stated; not opened past p.1 this pass) | Heart Failure & Hypertension / Arrhythmia / Hyperlipidaemia |
+| EOM - Pharma Final Summary (By Alhoda) | 8 | **unrecoverable** | — | — | LANE-CARD-Y2.md §5's flagged OCR case: `pagetext.mjs status` shows p1-5 garbled (words=0), p6-8 native (32/8/17 words, drug-therapy tables). Ran `pagetext.mjs ocr --pages 1-5` per the lane brief's explicit instruction — output is unreadable (handwritten hand-drawn tables, OCR text is garbage strings, not real words; the Kasr-lane trap "a text layer can be present and undecodable" applies here at the OCR layer itself). Held: no usable content recovered; needs a better scan or Omar, not a re-OCR |
+| Physiology CVS201 Questions (Final) | 46 | MCQ | 150 (30+40+20+30+30 across 5 topics) | printed (page-1 stated; not opened past p.1 this pass) | Blood Flow / Arterial BP / Capillary Circulation & Oedema / Shock / Coronary & Pulmonary Circulation; largest remaining source in the module |
+
+Total remaining tier-1 question volume in this cluster once Anatomy,
+Microbiology ×2, Pathology, Pharmacology and Physiology are triaged in full:
+approximately 490 MCQs + ~15 essay prompts (105+35+35+70+110+150 minus the
+Pharma-summary deck's unrecoverable content and the Dr Nafessa non-source),
+before the ~12 Midterm papers and 87 MCQ-bank folders inventoried in the
+first-tranche pass are even started.
+
+## Checkpoint table (tranche 2)
+
+| Module | Questions triaged this pass | Keys recovered | Concepts tested | Pending-hit (sparse overlay) | Live-hit (direct) | New mints | Authored |
+|---|--:|--:|--:|--:|--:|--:|--:|
+| MUST-CVS-201 Histology (full) | 50 | 50/50 | 12 | 8 | 1 | 3 | 50 |
+| Remaining 8 papers (inventory only) | 0 opened in full | n/a | n/a | n/a | n/a | n/a | 0 |
