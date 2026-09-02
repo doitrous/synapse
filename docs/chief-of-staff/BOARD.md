@@ -587,3 +587,15 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ZAGAZIG ZU-MED-105 PP I lane 3 LANDED (147312c0) · `mcq شامل` TRIAGE APPROVED
 - 142 items, 133 keyed (94%) by a yellow fill rectangle behind the correct option (another new key pattern; PyMuPDF detection, 2 renders, 0 mismatches). SDL section pp.2-11: 32 authored, 6 held. 31 mints, 3 articles, 0 reuses. batch errors=0 ×3; simulate rejected=0. ≈1.7k tok/q. ~101 keyed items left on pp.12-40 (bioethics, consent, leadership, health determinants) needing per-item dup review against lanes 1-2.
 - Lane 4 dispatched on pp.12-40. Fleet 20/20.
+
+### 2026-09-02 — HELWAN ORL-305 ophthalmology lane 3 LANDED (2b8eb9f6 scripts, 8037584b content) · Chapter 4 closed 91/91
+- Ch4 "Normal and abnormal image capture": 91 read / 91 authored / 0 held; transcribed keys cross-checked by regex parse of the key block, 0 mismatches. 34 `CON-OPH-*` mints (refraction/keratoconus 16, cataract/lens/cornea/vitreous 18), 0 reuses. Two factual slips caught and fixed pre-landing (hypermetropia complications, aphakia best correction). validate items=91 errors=[]; batch items=91 errors=0; whole-tree simulate batches=102 created=1539 updated=279 rejected=0 skipped=17; duplicate-keys / concept-ids clean.
+- Flagged pre-existing lane-1 defect: Ch1 Q8/Q9/Q12 fail validate ("not covered by any article in library_ids") — lane 4 told to repair in place. Module remaining: Ch3 held 7 + Ch5-15 = 761 of 980. Lane 4 dispatched on Ch5 (63 items from `ophth-q0227`).
+
+### 2026-09-02 — ALEXANDRIA AU-203 lane 7 LANDED (e993bfe6; 6 commits dc486357→e993bfe6) · Week 2 EOM Final Q1-60
+- Paper `src_70b2ac8853db17b047ea` triaged 60/60 keyed. 58 authored, 2 held (q040 three options; q005 moved to an ASU-CNS-3 overlay, trochlear decussation `CON-NEU-44845BF496BE5F`). 45 mints (34 anatomy incl. 11 `CON-FND-` pharyngeal-arch, 11 physiology), 4 own-module reuses missed by find-existing and caught by broad grep. validate items=58 errors=[]; batch errors=0 on all 5 files; 7-file simulate created=338 updated=0 rejected=0. ≈2.4k tok/q. Four printed-key doubts recorded in author_notes (q013, q019, q043, q046).
+- Lane 8 dispatched on Week 2 Q61-120.
+
+### 2026-09-02 — MANSOURA AEP lane 3 LANDED (16600e79) · CNS lectures pp.23-29
+- Brief's pp.23-77 range corrected: CNS is pp.23-29 only; pp.30-77 = Lecture 6 GIT (p.30-51), Urinary (p.52), Lymphatic (p.57), Scalp & Face (p.68-77). 28 authored / 15 held (13 cross-sitting duplicates, 2 printed-key doubts B5 "bundle", B9 afferent/efferent). 16 `CON-NEU-*` mints with articles, 7 reuses (Kasr 101/103, Assiut PMS-102, AU-105). validate items=28 errors=[]; batch items=28 errors=0; 26-file simulate created=705 updated=37 rejected=0. ≈7.2k tok/q (heavy on articles).
+- Lane-2 rejected=2 confirmed dependency class (clears with Kasr 101-ISK + AU-102 in the chain); three more dependency gaps in lanes 1-2's own rows likewise clear once sourced. Lane 4 dispatched on Lecture 6 GIT pp.30-51.
