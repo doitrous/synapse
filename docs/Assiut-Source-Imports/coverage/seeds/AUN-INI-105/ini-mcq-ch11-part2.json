@@ -176,7 +176,7 @@
         "A": "Incorrect alone. It is true the Ancylostoma egg is thin-shelled, but this is only one of three jointly true descriptors offered.",
         "B": "Incorrect alone. It is true the Ancylostoma egg is translucent (colourless), but this is only one of three jointly true descriptors offered.",
         "C": "Incorrect alone. It is true the Ancylostoma egg is an immature (unembryonated) ovum when passed, but this is only one of three jointly true descriptors offered.",
-        "D": "Correct. The Ancylostoma duodenale egg is thin-shelled, translucent (colourless), and immature (unembryonated) when passed in faeces -- a standard triad of descriptive features tested together as an 'all of the above' item, distinguishing it from the thicker-shelled, mamillated, bile-stained Ascaris egg."
+        "D": "Correct. The Ancylostoma duodenale egg is thin-shelled, translucent (colourless), and immature (unembryonated) when passed in faeces. These three descriptive features form a standard triad tested together as an 'all of the above' item. This description distinguishes the hookworm egg from the thicker-shelled, mamillated, bile-stained Ascaris egg."
       },
       "main_concept": "CON-INF-08359F3D33946C",
       "concept_ids": ["CON-INF-08359F3D33946C"],
@@ -365,7 +365,7 @@
         "A": "Incorrect alone. It is true the Strongyloides filariform larva is unsheathed, unlike Ancylostoma's sheathed larva, but this is only one of three jointly true differences offered.",
         "B": "Incorrect alone. It is true the Strongyloides filariform larva has a notched (forked) tail, but this is only one of three jointly true differences offered.",
         "C": "Incorrect alone. It is true the Strongyloides filariform larva is shorter, roughly 1/2 mm (500-600 micrometres), but this is only one of three jointly true differences offered.",
-        "D": "Correct. The filariform larva of Strongyloides stercoralis differs from that of Ancylostoma duodenale in three linked morphological features, combined here into one 'all of the above' item: it is unsheathed (has shed the second-stage cuticle, unlike Ancylostoma's retained sheath); it has a distinctively notched (forked) tail tip; and it is shorter overall, at roughly 1/2 mm, compared with Ancylostoma's longer filariform larva."
+        "D": "Correct. The filariform larva of Strongyloides stercoralis differs from that of Ancylostoma duodenale in three linked morphological features, combined here into one 'all of the above' item. It is unsheathed, having shed the second-stage cuticle, unlike Ancylostoma's retained sheath, and it has a distinctively notched (forked) tail tip. It is also shorter overall, at roughly 1/2 mm, compared with Ancylostoma's longer filariform larva."
       },
       "main_concept": "CON-INF-4C9AAC2302D8B4",
       "concept_ids": ["CON-INF-4C9AAC2302D8B4"],

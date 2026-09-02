@@ -200,7 +200,7 @@
       "explanations": {
         "A": "Incorrect. Ancylostoma duodenale is not acquired by egg ingestion, unlike Ascaris, Trichuris or Enterobius.",
         "B": "Incorrect. Ingestion of Cyclops is the transmission route for Dracunculus medinensis, not Ancylostoma duodenale.",
-        "C": "Correct. Ground itch is caused by penetration of human skin by the infective filariform larva of Ancylostoma duodenale -- this skin-penetration route, from larvae on contaminated soil, is the standard portal of entry for hookworm, producing an itchy local reaction (ground itch) at the site of penetration before the larva migrates onward through the bloodstream and lungs.",
+        "C": "Correct. Ground itch is caused by penetration of human skin by the infective filariform larva of Ancylostoma duodenale. This skin-penetration route, from larvae on contaminated soil, is the standard portal of entry for hookworm. It produces an itchy local reaction (ground itch) at the site of penetration before the larva migrates onward through the bloodstream and lungs.",
         "D": "Incorrect. Skin penetration by the filariform larva (option C) is the correct route, so 'none of the above' is wrong."
       },
       "main_concept": "CON-GIT-BF9B52E4E0D9D6",
@@ -329,7 +329,7 @@
         "A": "Incorrect. Strongyloides stercoralis is not acquired by egg ingestion; it does not even pass an infective egg to the environment.",
         "B": "Incorrect. The filariform larva is the infective stage, but it infects by skin penetration, not by being ingested.",
         "C": "Incorrect. The rhabditiform larva is a non-infective, developmental stage; it is the filariform larva that penetrates skin.",
-        "D": "Correct. The usual portal of entry of Strongyloides stercoralis into the human body is the skin, penetrated by its infective filariform larva -- the same skin-penetration mechanism used by Ancylostoma duodenale, though Strongyloides's filariform larva is unsheathed and notch-tailed, unlike hookworm's sheathed larva."
+        "D": "Correct. The usual portal of entry of Strongyloides stercoralis into the human body is the skin, penetrated by its infective filariform larva. This is the same skin-penetration mechanism used by Ancylostoma duodenale. Strongyloides's filariform larva is nonetheless unsheathed and notch-tailed, unlike hookworm's sheathed larva."
       },
       "main_concept": "CON-GIT-5D42E39D871090",
       "concept_ids": ["CON-GIT-5D42E39D871090"],
@@ -390,7 +390,7 @@
       },
       "correct": "A",
       "explanations": {
-        "A": "Correct. The life cycle of Strongyloides stercoralis can proceed by a direct cycle, an indirect (free-living) cycle, or internal autoinfection -- its free-living (indirect) cycle allows an entire generation of free-living adult worms to develop and reproduce in soil, independent of a human host, a pattern of development and migration outside the body not shared by Ancylostoma duodenale, Trichostrongylus colubriformis or Trichuris trichiura.",
+        "A": "Correct. The life cycle of Strongyloides stercoralis can proceed by a direct cycle, an indirect (free-living) cycle, or internal autoinfection. Its free-living (indirect) cycle allows an entire generation of free-living adult worms to develop and reproduce in soil, independent of a human host. This pattern of development and migration outside the body is not shared by Ancylostoma duodenale, Trichostrongylus colubriformis or Trichuris trichiura.",
         "B": "Incorrect. Ancylostoma duodenale's larvae develop through free-living larval stages in soil, but the species has no free-living adult generation reproducing outside a host, unlike Strongyloides.",
         "C": "Incorrect. Trichostrongylus colubriformis's larvae develop in soil/vegetation to the infective stage, but it has no free-living adult generation reproducing outside a host, unlike Strongyloides.",
         "D": "Incorrect. Trichuris trichiura's eggs mature in soil, but it has no free-living adult generation reproducing outside a host, unlike Strongyloides."
@@ -423,7 +423,7 @@
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Undercooked pork is the source of Trichinella spiralis, not Capillaria philippinensis.",
-        "B": "Correct. Capillaria philippinensis is acquired by eating insufficiently cooked fish, not by improperly washed vegetables, and causes watery diarrhoea diagnosed by its egg -- freshwater fish serve as the intermediate host carrying the infective larval stage, which is why undercooked fish is the specific transmission route tested for this species.",
+        "B": "Correct. Capillaria philippinensis is acquired by eating insufficiently cooked fish, not by improperly washed vegetables, and causes watery diarrhoea diagnosed by its egg. Freshwater fish serve as the intermediate host carrying the infective larval stage. This is why undercooked fish, not another food source, is the specific transmission route tested for this species.",
         "C": "Incorrect. Undercooked beef is the source of Taenia saginata, not Capillaria philippinensis.",
         "D": "Incorrect. Eating infected liver is associated with spurious (false) Fasciola infection, not Capillaria philippinensis."
       },

@@ -704,3 +704,66 @@ ini-mcq-ch9-q095  # -- HELD, printed key contradicts this pass's own correctly-k
 ini-mcq-ch9-q096  # -- HELD, duplicate-of ini-mcq-ch9-q050 (miracidium)
 ini-mcq-ch9-q097  # -- S. mansoni deposits eggs in large-intestinal venules -- new (mint)
 ini-mcq-ch9-q098  # -- S. haematobium deposits eggs in bladder venules -- reuse (own mint, same concept as q074)
+
+# Chapter 11 "Nematoda" (pp.112-130, 164 items, answer table wraps
+# pp.131-132; lane author10). Q1-Q56 window read and keyed against the
+# printed table; 0 held (no printed-key conflicts, no ambiguous EXCEPT, no
+# schema-floor holds, no near-verbatim duplicates in this window). STOP
+# POINT for the next lane: resume at Q57 (Onchocerca volvulus cluster
+# begins -- "Onchocerca volvulus is called?").
+ini-mcq-ch11-q001  # -- adult Ascaris sometimes found in faeces -- pending (Helwan CON-GIT-A2A06601B4D8A4)
+ini-mcq-ch11-q002  # -- Heterophyes heterophyes distribution restricted, not cosmopolitan -- new
+ini-mcq-ch11-q003  # -- Enterobius causes nocturnal enuresis -- pending (Helwan CON-GIT-45DA03F58B4D64)
+ini-mcq-ch11-q004  # -- hydatid disease not characteristically a childhood parasite -- new
+ini-mcq-ch11-q005  # -- Trichinella spiralis viviparous exception -- new
+ini-mcq-ch11-q006  # -- Oxyuris (Enterobius) oviparous exception -- new
+ini-mcq-ch11-q007  # -- Ascaris/hookworm/Strongyloides migrate through lung -- pending (Helwan CON-GIT-C4679409F59219)
+ini-mcq-ch11-q008  # -- Trichuris does not inhabit small intestine -- pending (Helwan CON-GIT-4E44AA38D16CB4)
+ini-mcq-ch11-q009  # -- guinea worm does not inhabit caecum -- new
+ini-mcq-ch11-q010  # -- trichuriasis complicated by rectal prolapse -- pending (Helwan CON-GIT-5DEAC87AB891C0)
+ini-mcq-ch11-q011  # -- Enterobius eggs hatch in duodenum -- new
+ini-mcq-ch11-q012  # -- Enterobius has no cycle outside the body -- new
+ini-mcq-ch11-q013  # -- Ascaris eggs hatch in small intestine -- new
+ini-mcq-ch11-q014  # -- Trichuris trichiura belongs to Nematoda -- new
+ini-mcq-ch11-q015  # -- Dipylidium caninum is not a nematode (cestode) -- new
+ini-mcq-ch11-q016  # -- Ancylostoma infects by skin penetration -- pending (Helwan CON-GIT-BF9B52E4E0D9D6)
+ini-mcq-ch11-q017  # -- Trichostrongylus does not enter through skin -- new
+ini-mcq-ch11-q018  # -- Ancylostoma duodenale inhabits small intestine -- new
+ini-mcq-ch11-q019  # -- Ancylostoma filariform larva is sheathed -- new
+ini-mcq-ch11-q020  # -- Ascaris pneumonitis: dyspnea/cough/eosinophilia -- pending (Helwan CON-GIT-C4679409F59219, 2nd use)
+ini-mcq-ch11-q021  # -- Ascaris lumbricoides general biology (egg maturation/giant/migratory) -- new
+ini-mcq-ch11-q022  # -- fertilized Ascaris egg immature when passed -- new
+ini-mcq-ch11-q023  # -- Enterobius vermicularis is called pin worm -- new
+ini-mcq-ch11-q024  # -- Trichuris trichiura inhabits caecum -- pending (Helwan CON-GIT-652CB5E7405E53)
+ini-mcq-ch11-q025  # -- Trichuris egg barrel-shaped/brownish/immature -- new
+ini-mcq-ch11-q026  # -- Enterobius does not lay eggs in the intestine -- new
+ini-mcq-ch11-q027  # -- Necator americanus belongs to Nematoda -- new
+ini-mcq-ch11-q028  # -- Ancylostoma vs Necator differ in geographical distribution -- new
+ini-mcq-ch11-q029  # -- Ancylostoma eggs pass immature in faeces -- new
+ini-mcq-ch11-q030  # -- Ancylostoma egg thin-shelled/translucent/immature -- new
+ini-mcq-ch11-q031  # -- cutaneous larva migrans caused by Ancylostoma caninum -- pending (Ain-Shams CON-INF-C5B97ED116A7D4)
+ini-mcq-ch11-q032  # -- Hymenolepis nana larvae not found in sputum -- new
+ini-mcq-ch11-q033  # -- visceral larva migrans due to Toxocara (dog/cat ascarid) -- new
+ini-mcq-ch11-q034  # -- Strongyloides stercoralis named dwarf thread worm -- new
+ini-mcq-ch11-q035  # -- Strongyloides differs from Ancylostoma (autoinfection/rhabditiform/free-living) -- new
+ini-mcq-ch11-q036  # -- Strongyloides infects by skin penetration (filariform larva) -- pending (Helwan CON-GIT-5D42E39D871090)
+ini-mcq-ch11-q037  # -- Strongyloides larva to adult under favourable soil conditions -- pending (Helwan CON-GIT-C963D99A43B1D0)
+ini-mcq-ch11-q038  # -- Trichostrongylus infects by ingestion of filariform larva -- new
+ini-mcq-ch11-q039  # -- Trichostrongylus egg differs from Ancylostoma by morula stage -- new
+ini-mcq-ch11-q040  # -- Strongyloides filariform larva differs from Ancylostoma's (unsheathed/notched/shorter) -- new
+ini-mcq-ch11-q041  # -- Strongyloides alone migrates outside the human body -- pending (Helwan CON-GIT-C963D99A43B1D0, 2nd use)
+ini-mcq-ch11-q042  # -- Trichinella spiralis acquired from undercooked pork -- new
+ini-mcq-ch11-q043  # -- Trichinella infective stage is the encysted larva -- new
+ini-mcq-ch11-q044  # -- Trichinella larvae carried to striated muscle -- new
+ini-mcq-ch11-q045  # -- Capillaria philippinensis acquired from undercooked fish -- pending (Helwan CON-GIT-663BF173017BE0)
+ini-mcq-ch11-q046  # -- Capillaria philippinensis egg peanut-shaped/immature -- new
+ini-mcq-ch11-q047  # -- Dracunculus medinensis habitat is subcutaneous tissue -- new
+ini-mcq-ch11-q048  # -- Cyclops is intermediate host of Dracunculus -- new
+ini-mcq-ch11-q049  # -- niclosamide not used for Dracunculus (anticestode drug) -- new
+ini-mcq-ch11-q050  # -- W. bancrofti infective stage: filariform larva in mosquito labium -- new
+ini-mcq-ch11-q051  # -- Culex is vector of Wuchereria bancrofti -- pending (Mansoura CON-INF-3DEFB880DFF98F)
+ini-mcq-ch11-q052  # -- W. bancrofti microfilaria sheathed/nucleus-free tip/periodic/Culex -- new
+ini-mcq-ch11-q053  # -- W. bancrofti microfilaria differs from Loa loa's -- new
+ini-mcq-ch11-q054  # -- Onchocerca volvulus microfilariae show no periodicity -- new
+ini-mcq-ch11-q055  # -- adult W. bancrofti worms live in lymph nodes -- pending (Mansoura CON-INF-3DEFB880DFF98F, 2nd use)
+ini-mcq-ch11-q056  # -- Culex transmits W. bancrofti cyclodevelopmentally -- pending (MUST CON-INF-476CFE4CB1DE34)
