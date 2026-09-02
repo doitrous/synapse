@@ -4988,3 +4988,170 @@ Block: body
 ### definition_of · CON-FND-D429C114778FFB
 Quote: Hepatitis C virus is taught as Egypt's most important carcinogenic virus given its historically high local prevalence and progression to hepatocellular carcinoma
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## title
+Antiviral, antihelminthic, antiprotozoal 1: amebiasis treatment tiers, praziquantel's hydatid exception, and antimalarial blood-stage-versus-hypnozoite pharmacology
+
+## arabic_title
+مضادات الفيروسات والديدان والأوليات 1: مستويات علاج الأميبيا، استثناء داء المشوكات من البرازيكوانتيل، وأدوية الملاريا بين الطور الدموي والكبدي الكامن
+
+## aliases
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+Lecture 46
+
+## subject
+pharm
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Amebiasis treatment tiers, praziquantel spectrum, antimalarial pharmacology, antimalarial prophylaxis
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+12
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 46 opens the antiparasitic block with a graded approach to amebiasis treatment and a first pass at antimalarial pharmacology. Mild-to-moderate intestinal amebiasis needs metronidazole plus diloxanide furoate together; asymptomatic cyst carriage needs diloxanide furoate alone; severe extraintestinal disease needs tinidazole plus diloxanide furoate. Praziquantel, broadly effective against trematodes and cestodes, notably fails against hydatid disease. Chloroquine and mefloquine both clear blood-stage malaria but leave P. vivax's liver hypnozoites untouched, so relapse can still occur despite treatment or prophylaxis; Malarone (atovaquone-proguanil) manages multidrug-resistant P. falciparum.
+
+## sections
+### Definition
+Lecture 46 covers a graded, severity-matched approach to amebiasis pharmacotherapy, one named exception to praziquantel's broad antihelminthic spectrum, and the blood-stage-versus-liver-hypnozoite distinction that runs through antimalarial pharmacology.
+
+### Mechanism
+Mild-to-moderate symptomatic intestinal amebiasis is treated with metronidazole (a tissue amebicide) plus diloxanide furoate (a luminal agent, eradicating residual cysts); diloxanide furoate alone treats the asymptomatic cyst-carrier state after acute infection resolves; severe extraintestinal disease (such as amebic liver abscess) is treated with tinidazole plus diloxanide furoate, the same tissue-plus-luminal pairing principle adapted for tissue-invasive disease. Praziquantel is broadly effective against trematode and cestode infections (paragonimiasis, pork tapeworm, schistosomiasis) but does not reliably treat hydatid disease (Echinococcus granulosus cysts), which needs albendazole instead. Chloroquine treats the acute blood-stage attack of P. vivax malaria but does not eradicate exoerythrocytic (liver hypnozoite) forms, requiring a follow-on course of primaquine to prevent relapse; mefloquine, effective prophylaxis in chloroquine-resistant P. falciparum regions, shares this same blood-stage-only limitation, so P. vivax can still relapse despite mefloquine prophylaxis. Malarone (atovaquone-proguanil) manages multidrug-resistant P. falciparum through a combined mitochondrial/antifolate mechanism.
+
+### Key determinants
+Amebiasis treatment tier tracks disease severity and location: mild-moderate intestinal needs a combination, asymptomatic carriage needs the luminal agent alone, and severe extraintestinal needs the tissue agent plus the luminal agent. Praziquantel's hydatid-disease exception is a standard, specifically testable fact against its otherwise broad spectrum. Chloroquine and mefloquine's shared blood-stage-only limitation, not any difference in potency, is why P. vivax relapse can occur despite either drug.
+
+### Clinical significance
+Matching amebiasis treatment tier to disease severity avoids under-treating tissue infection or leaving a luminal cyst reservoir behind. Recognising hydatid disease as a praziquantel-resistant condition directs clinicians to albendazole (and surgical/percutaneous options) instead. Anticipating P. vivax relapse despite chloroquine treatment or mefloquine prophylaxis (unless followed by primaquine) is essential for travellers and patients returning from endemic regions. Malarone is a key option for multidrug-resistant P. falciparum.
+
+### Common misconceptions
+Treating symptomatic intestinal amebiasis with a single agent instead of the tissue-plus-luminal combination. Assuming praziquantel's broad spectrum covers hydatid disease. Assuming chloroquine or mefloquine alone fully cures or prevents P. vivax malaria without addressing liver hypnozoites. Confusing Malarone's role (multidrug-resistant P. falciparum) with chloroquine, doxycycline or primaquine's roles.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Mild-to-moderate intestinal amebiasis: metronidazole plus diloxanide furoate. Asymptomatic carriage: diloxanide furoate alone. Severe extraintestinal disease: tinidazole plus diloxanide furoate.
+Hydatid disease does not respond to praziquantel; albendazole is used instead.
+Chloroquine and mefloquine clear blood-stage malaria but not P. vivax liver hypnozoites -- relapse needs primaquine to prevent.
+Malarone (atovaquone-proguanil) manages multidrug-resistant P. falciparum.
+
+## lose_the_mark
+Using a single-agent regimen for symptomatic intestinal or severe extraintestinal amebiasis.
+Assuming praziquantel treats hydatid disease.
+Assuming chloroquine or mefloquine alone prevents P. vivax relapse.
+Naming a drug other than Malarone for multidrug-resistant P. falciparum.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-7167065941596E
+CON-FND-9B0280F43F7BC7
+CON-FND-90BF44437DE710
+CON-FND-795A6173AED93F
+CON-FND-41B4A47B42B7E2
+CON-FND-757C35AF7B7008
+CON-FND-B745FB1C1BCD83
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 46 (Commonly used Antiviral, antihelmentics, antiprotozoal 1) -- no department slide deck exists in the corpus past Lecture 8, so all seven new mints cite the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-7167065941596E
+Quote: Mild-to-moderate symptomatic intestinal amebiasis is treated with metronidazole (a tissue amebicide) plus diloxanide furoate (a luminal agent, eradicating residual cysts)
+Block: body
+
+### definition_of · CON-FND-9B0280F43F7BC7
+Quote: Praziquantel is broadly effective against trematode and cestode infections (paragonimiasis, pork tapeworm, schistosomiasis) but does not reliably treat hydatid disease (Echinococcus granulosus cysts), which needs albendazole instead
+Block: body
+
+### definition_of · CON-FND-90BF44437DE710
+Quote: diloxanide furoate alone treats the asymptomatic cyst-carrier state after acute infection resolves
+Block: body
+
+### definition_of · CON-FND-795A6173AED93F
+Quote: Chloroquine treats the acute blood-stage attack of P. vivax malaria but does not eradicate exoerythrocytic (liver hypnozoite) forms, requiring a follow-on course of primaquine to prevent relapse
+Block: body
+
+### definition_of · CON-FND-41B4A47B42B7E2
+Quote: severe extraintestinal disease (such as amebic liver abscess) is treated with tinidazole plus diloxanide furoate, the same tissue-plus-luminal pairing principle adapted for tissue-invasive disease
+Block: body
+
+### definition_of · CON-FND-757C35AF7B7008
+Quote: Malarone (atovaquone-proguanil) manages multidrug-resistant P. falciparum through a combined mitochondrial/antifolate mechanism
+Block: body
+
+### definition_of · CON-FND-B745FB1C1BCD83
+Quote: mefloquine, effective prophylaxis in chloroquine-resistant P. falciparum regions, shares this same blood-stage-only limitation, so P. vivax can still relapse despite mefloquine prophylaxis
+Block: body
