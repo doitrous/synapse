@@ -4668,3 +4668,158 @@ AUN: taught in Assiut University's Mechanisms and Principles of Diseases and The
 ### definition_of · CON-FND-6798FF8F210C05
 Quote: Prostatic carcinoma characteristically produces osteosclerotic (osteoblastic) bone metastases, in which new bone formation dominates over resorption, giving a dense, radio-opaque appearance on imaging
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2
+
+## title
+Antimicrobial therapy 2: sulfasalazine, crystalluria, pseudomembranous colitis treatment and fluoroquinolone tendonitis
+
+## arabic_title
+العلاج المضاد للميكروبات 2: السلفاسالازين، تبلور البول، علاج التهاب القولون الغشائي الكاذب والتهاب الأوتار بالفلوروكينولون
+
+## aliases
+Antimicrobial therapy 2
+Lecture 44
+
+## subject
+pharm
+
+## topic
+Antimicrobial therapy 2
+
+## subtopic
+Sulfasalazine indication, sulfonamide adverse effects, co-trimoxazole composition, pseudomembranous colitis treatment, fluoroquinolone adverse effects
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 44 continues the antimicrobial therapy block with drug-specific indications and adverse effects. Sulfasalazine treats inflammatory bowel disease, not an infectious diarrheal illness, while co-trimoxazole correctly combines trimethoprim with sulfamethoxazole (not clavulanic acid), and sulfamethoxazole itself can cause crystalluria. Pseudomembranous colitis may be treated with either oral vancomycin or metronidazole, and ciprofloxacin carries a characteristic tendonitis/tendon rupture risk distinct from tetracycline's teeth discolouration or aminoglycosides' ototoxicity.
+
+## sections
+### Definition
+Lecture 44 covers a second cluster of antimicrobial therapy facts: a non-infectious indication for an antimicrobial-adjacent drug, a sulfonamide adverse effect, a combination drug's true composition, a colitis treatment choice, and a fluoroquinolone-specific adverse effect.
+
+### Mechanism
+Sulfasalazine is a standard treatment for inflammatory bowel disease, particularly ulcerative colitis, since gut bacteria cleave it into 5-aminosalicylic acid, which acts locally in the colon to reduce mucosal inflammation. Co-trimoxazole is a combination of trimethoprim and sulfamethoxazole, which block two sequential steps of the same bacterial folate synthesis pathway, giving a synergistic effect; sulfamethoxazole itself can precipitate out in acidic urine to cause crystalluria. Pseudomembranous colitis, typically from Clostridioides difficile overgrowth, may be treated with either oral vancomycin or metronidazole. Tendonitis, and in more severe cases tendon rupture, is a recognised, characteristic adverse effect of ciprofloxacin and other fluoroquinolones, thought to relate to the drug class's effect on collagen and connective tissue.
+
+### Key determinants
+Sulfasalazine's indication is inflammatory bowel disease, not an infectious cause. Co-trimoxazole's second component is sulfamethoxazole, not clavulanic acid, which instead pairs with amoxicillin as co-amoxiclav. Crystalluria is a sulfonamide-class effect, not shared by penicillin, doxycycline or gentamicin. Vancomycin and metronidazole both genuinely treat pseudomembranous colitis, while clindamycin causes rather than treats it. Tendonitis is ciprofloxacin's characteristic risk, distinct from tetracycline's teeth discolouration or aminoglycosides' ototoxicity.
+
+### Clinical significance
+Recognising sulfasalazine as an IBD treatment, not an antibiotic for infectious diarrhea, avoids a diagnostic misreading of why a gastroenterology patient is on it. Naming co-trimoxazole's true components correctly matters for recognising cross-reactivity and adverse-effect risk. Anticipating crystalluria with sulfonamides supports adequate hydration counselling. Knowing both vancomycin and metronidazole are valid pseudomembranous colitis treatments broadens prescribing options by severity and availability. Counselling a patient starting ciprofloxacin, especially if older or on corticosteroids, about tendon pain enables early recognition before rupture.
+
+### Common misconceptions
+Assuming sulfasalazine treats an infectious cause of diarrhea rather than inflammatory bowel disease. Naming clavulanic acid instead of sulfamethoxazole as co-trimoxazole's second component. Attributing crystalluria to a non-sulfonamide antibiotic. Assuming clindamycin treats, rather than causes, pseudomembranous colitis. Attributing teeth discolouration or ototoxicity, rather than tendonitis, to ciprofloxacin.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Sulfasalazine treats inflammatory bowel disease.
+Co-trimoxazole combines trimethoprim with sulfamethoxazole, not clavulanic acid.
+Sulfamethoxazole can cause crystalluria.
+Pseudomembranous colitis may be treated with either oral vancomycin or metronidazole.
+Tendonitis/tendon rupture is a characteristic ciprofloxacin adverse effect.
+
+## lose_the_mark
+Naming an infectious indication instead of IBD for sulfasalazine.
+Naming clavulanic acid instead of sulfamethoxazole as co-trimoxazole's partner drug.
+Attributing crystalluria to a non-sulfonamide antibiotic.
+Assuming clindamycin treats pseudomembranous colitis rather than causing it.
+Naming teeth discolouration or ototoxicity instead of tendonitis for ciprofloxacin.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-F551D7B7A61AB9
+CON-FND-BD49F8DB0D8F05
+CON-FND-FB5065BAC15156
+CON-FND-F9417E8EE7E655
+
+## related_articles
+ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 44 (Antimicrobial therapy 2) -- no department slide deck exists in the corpus past Lecture 8, so all four new mints cite the quiz bank's own printed-answer text instead. Quiz 44 Q2 (q360) reuses a pending Assiut AUN-INI-105-ch5 concept instead of minting a twin; its question cites the existing AUN-INI-105 article ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS instead of this one.
+
+## annotations
+### definition_of · CON-FND-F551D7B7A61AB9
+Quote: Sulfasalazine is a standard treatment for inflammatory bowel disease, particularly ulcerative colitis, since gut bacteria cleave it into 5-aminosalicylic acid, which acts locally in the colon to reduce mucosal inflammation
+Block: body
+
+### definition_of · CON-FND-BD49F8DB0D8F05
+Quote: sulfamethoxazole itself can precipitate out in acidic urine to cause crystalluria
+Block: body
+
+### definition_of · CON-FND-FB5065BAC15156
+Quote: Pseudomembranous colitis, typically from Clostridioides difficile overgrowth, may be treated with either oral vancomycin or metronidazole
+Block: body
+
+### definition_of · CON-FND-F9417E8EE7E655
+Quote: Tendonitis, and in more severe cases tendon rupture, is a recognised, characteristic adverse effect of ciprofloxacin and other fluoroquinolones, thought to relate to the drug class's effect on collagen and connective tissue
+Block: body

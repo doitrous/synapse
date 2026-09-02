@@ -1,0 +1,162 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank questions (Lecture 44: Antimicrobial therapy 2, Quiz 44 Q1/Q3/Q4/Q5, q359/q361/q362/q363) riding on four newly-minted AUN-MPT-104 concepts (concept/AUN-MPT-104-concepts.md, article/AUN-MPT-104-articles.md ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2), confirmed new by find-existing.mjs plus a grep sweep of every docs/*-Source-Imports concept dir -- no department slide deck exists past Lecture 8, so all four mints cite the quiz bank's own printed-answer text. Quiz 44 Q2 (q360) reuses a pending Assiut AUN-INI-105-ch5 concept (co-trimoxazole's sulfonamide-trimethoprim synergism, exact match) instead of minting a twin -- rides in the sibling pending-live batch. Every printed key checks out against standard pharmacology teaching -- no held-printed-key-conflicts.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q359",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q359",
+      "page": 178,
+      "title": "Sulfasalazine treats inflammatory bowel disease",
+      "question": "A patient admitted to the gastroenterology service is being treated with sulfasalazine. What is the most likely purpose for this drug to be given?",
+      "options": {
+        "A": "Inflammatory bowel disease",
+        "B": "Antibiotic associated pseudomembranous colitis",
+        "C": "Gastric H. pylori infections",
+        "D": "Echerichia coli induced diarrhea"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Sulfasalazine is a standard treatment for inflammatory bowel disease, particularly ulcerative colitis, since gut bacteria cleave it into 5-aminosalicylic acid, which acts locally in the colon to reduce mucosal inflammation. It is not a standard treatment for pseudomembranous colitis, H. pylori infection or E. coli diarrhea, so a gastroenterology patient on sulfasalazine is most likely being treated for inflammatory bowel disease.",
+        "B": "Incorrect. Pseudomembranous colitis, typically from Clostridioides difficile, is standardly treated with oral vancomycin or metronidazole, not sulfasalazine.",
+        "C": "Incorrect. H. pylori infection is standardly treated with a combination regimen (a proton pump inhibitor plus antibiotics such as clarithromycin and amoxicillin or metronidazole), not sulfasalazine.",
+        "D": "Incorrect. E. coli-induced diarrhea is not a standard indication for sulfasalazine."
+      },
+      "main_concept": "CON-FND-F551D7B7A61AB9",
+      "concept_ids": ["CON-FND-F551D7B7A61AB9"],
+      "contextual_concept_ids": [],
+      "topic": "Antimicrobial therapy 2",
+      "subtopic": "Sulfasalazine indication",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that sulfasalazine is used to treat inflammatory bowel disease, not pseudomembranous colitis, H. pylori infection or E. coli diarrhea.",
+      "media_recommendations": "",
+      "library_ids": ["ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2"],
+      "module_subject": "AUN-MPT-104 > Pharmacology > Antimicrobial therapy 2",
+      "field_notes": { "keySource": "printed \"The correct answer is: Inflammatory bowel disease\"" },
+      "author_notes": ""
+    },
+    {
+      "key": "quizzes-2022-q361",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q361",
+      "page": 179,
+      "title": "Sulfamethoxazole can cause crystalluria",
+      "question": "Which antibiotic produces crystalluria?",
+      "options": {
+        "A": "Sulfamethoxazole",
+        "B": "Penicillin",
+        "C": "Doxycycline",
+        "D": "Gentamycin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Sulfamethoxazole and other sulfonamides can precipitate out in acidic urine to form crystals in the renal tubules, a recognised adverse effect called crystalluria, which can be reduced by adequate hydration and urine alkalinisation. Penicillin, doxycycline and gentamicin do not characteristically cause this specific adverse effect.",
+        "B": "Incorrect. Penicillin is not characteristically associated with crystalluria.",
+        "C": "Incorrect. Doxycycline is not characteristically associated with crystalluria; its own recognised issues are photosensitivity and teeth/bone effects.",
+        "D": "Incorrect. Gentamicin's recognised toxicities are nephrotoxicity and ototoxicity, not crystalluria specifically."
+      },
+      "main_concept": "CON-FND-BD49F8DB0D8F05",
+      "concept_ids": ["CON-FND-BD49F8DB0D8F05"],
+      "contextual_concept_ids": [],
+      "topic": "Antimicrobial therapy 2",
+      "subtopic": "Sulfonamide adverse effects",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that sulfamethoxazole can cause crystalluria, unlike penicillin, doxycycline or gentamicin.",
+      "media_recommendations": "",
+      "library_ids": ["ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2"],
+      "module_subject": "AUN-MPT-104 > Pharmacology > Antimicrobial therapy 2",
+      "field_notes": { "keySource": "printed \"The correct answer is: Sulfamethoxazole\"" },
+      "author_notes": ""
+    },
+    {
+      "key": "quizzes-2022-q362",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q362",
+      "page": 179,
+      "title": "Pseudomembranous colitis may be treated with either vancomycin or metronidazole",
+      "question": "Pseudomembranous colitis may be treated with:",
+      "options": {
+        "A": "Metronidazole",
+        "B": "Clindamycin",
+        "C": "Vancomycin",
+        "D": "Both Vancomycin and Metronidazole"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (as the single answer). Metronidazole alone is a genuine treatment option, but the printed key names both agents together as the more complete answer.",
+        "B": "Incorrect. Clindamycin is not a treatment for pseudomembranous colitis; it is instead one of the antibiotics classically implicated in CAUSING it by disrupting normal gut flora.",
+        "C": "Incorrect (as the single answer). Vancomycin (given orally) alone is a genuine treatment option, but the printed key names both agents together as the more complete answer.",
+        "D": "Correct. Pseudomembranous colitis, typically caused by Clostridioides difficile overgrowth after gut flora disruption, may be treated with either oral vancomycin or metronidazole, both standard options depending on severity and local practice. Since both metronidazole and vancomycin are genuinely effective choices for this condition, the combined option is the most complete and correct answer among those given."
+      },
+      "main_concept": "CON-FND-FB5065BAC15156",
+      "concept_ids": ["CON-FND-FB5065BAC15156"],
+      "contextual_concept_ids": [],
+      "topic": "Antimicrobial therapy 2",
+      "subtopic": "Pseudomembranous colitis treatment",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that pseudomembranous colitis may be treated with either oral vancomycin or metronidazole, not clindamycin.",
+      "media_recommendations": "",
+      "library_ids": ["ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2"],
+      "module_subject": "AUN-MPT-104 > Pharmacology > Antimicrobial therapy 2",
+      "field_notes": { "keySource": "printed \"The correct answer is: Both Vancomycin and Metronidazole\"" },
+      "author_notes": ""
+    },
+    {
+      "key": "quizzes-2022-q363",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q363",
+      "page": 179,
+      "title": "Tendonitis is a side effect of ciprofloxacin",
+      "question": "Which of the following is a side effect of ciprofloxacin?",
+      "options": {
+        "A": "Pseudomembranous toxicity",
+        "B": "Teeth discolouration",
+        "C": "Ototoxicity",
+        "D": "Tendonitis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. \"Pseudomembranous toxicity\" is not a recognised term for a ciprofloxacin side effect; pseudomembranous colitis can follow broad-spectrum antibiotic use generally, but it is not ciprofloxacin's characteristic, defining adverse effect.",
+        "B": "Incorrect. Teeth discolouration is characteristic of tetracyclines, not fluoroquinolones such as ciprofloxacin.",
+        "C": "Incorrect. Ototoxicity is characteristic of aminoglycosides, not ciprofloxacin's characteristic adverse effect.",
+        "D": "Correct. Tendonitis, and in more severe cases tendon rupture (especially of the Achilles tendon), is a recognised, characteristic adverse effect of ciprofloxacin and other fluoroquinolones, thought to relate to the drug class's effect on collagen and connective tissue. This risk is heightened in older patients and those on concurrent corticosteroids, and is a distinctive teaching point that distinguishes fluoroquinolone toxicity from teeth discolouration (tetracyclines) or ototoxicity (aminoglycosides)."
+      },
+      "main_concept": "CON-FND-F9417E8EE7E655",
+      "concept_ids": ["CON-FND-F9417E8EE7E655"],
+      "contextual_concept_ids": [],
+      "topic": "Antimicrobial therapy 2",
+      "subtopic": "Fluoroquinolone adverse effects",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that tendonitis is a characteristic ciprofloxacin adverse effect, unlike teeth discolouration or ototoxicity.",
+      "media_recommendations": "",
+      "library_ids": ["ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2"],
+      "module_subject": "AUN-MPT-104 > Pharmacology > Antimicrobial therapy 2",
+      "field_notes": { "keySource": "printed \"The correct answer is: Tendonitis\"" },
+      "author_notes": ""
+    }
+  ]
+}
