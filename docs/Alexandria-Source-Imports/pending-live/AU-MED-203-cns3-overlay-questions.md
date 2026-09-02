@@ -1,14 +1,14 @@
 <!--
-  2 MCQs on the 2 HIT-PENDING ASU-CNS-3 concepts sparse-updated in
+  3 MCQs on the 3 HIT-PENDING ASU-CNS-3 concepts sparse-updated in
   AU-MED-203-cns3-overlay-concepts.md (CON-NEU-B0F7899B8DFF50 prefrontal cortex,
-  CON-NEU-D479D9227D90F9 inferior petrosal sinus), per LANE-CARD-Y2 §6: "check ASU-CNS-3
-  first, reuse via sparse overlay with tag additions only — never a twin." Both concepts and
-  their teaching articles are live only in the Ain Shams lane's own batch
-  (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md +
-  docs/Ain-Shams-Source-Imports/article/ASU-CNS-3-anatomy-mcq-articles.md), not yet imported
+  CON-NEU-D479D9227D90F9 inferior petrosal sinus, CON-NEU-94513EC37B29B8 cavernous sinus
+  lateral wall), per LANE-CARD-Y2 §6: "check ASU-CNS-3 first, reuse via sparse overlay with tag
+  additions only — never a twin." All three concepts and their teaching articles are live only
+  in the Ain Shams lane's own batch (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md
+  + docs/Ain-Shams-Source-Imports/article/ASU-CNS-3-anatomy-mcq-articles.md), not yet imported
   to production. Omar applies this file, and its sibling concept-overlay file, only after that
-  ASU-CNS-3 batch is live. Triage: AU-MED-203 Workshop Quiz 2 Q24 and Q28
-  (coverage/AU-MED-203-triage.md's per-item search-before-mint law; verified via
+  ASU-CNS-3 batch is live. Triage: AU-MED-203 Workshop Quiz 2 Q24 and Q28, and Week 1 EOM Final
+  Q149 (coverage/AU-MED-203-triage.md's per-item search-before-mint law; verified via
   find-existing.mjs before minting was even considered).
 
   Validate:
@@ -199,3 +199,93 @@ AU-MED-203 Nervous System Workshop Quiz 2 (src_e0ce8dbbc37fcf3b12e9), p8 q28, an
 yes
 ## author_notes
 Tests the same inferior-petrosal-sinus concept authored by the ASU-CNS-3 lane in CON-NEU-D479D9227D90F9 (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md), verified an exact hit via find-existing.mjs ("inferior petrosal sinus") before minting was even considered; this lane adds no new concept, only the AU-MED-203 exam signal and this question, plus the sparse overlay in AU-MED-203-cns3-overlay-concepts.md. keySource: printed answer table p10.
+
+---
+
+# Item
+
+## id
+QST-NEU-AU203-CAVERNOUS-SINUS-LATERAL-WALL-001
+## title
+Nerve in the lateral wall of the cavernous sinus
+## question
+Which nerve goes through the lateral side of the cavernous sinus?
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## answer_a
+Optic
+## explanation_a
+Incorrect. The optic nerve passes through its own separate opening, the optic canal, and has no course through the cavernous sinus or its walls.
+## answer_b
+Olfactory
+## explanation_b
+Incorrect. The olfactory nerve fibers pass from the nasal mucosa through the cribriform plate of the ethmoid bone to the olfactory bulb, an entirely different route from the cavernous sinus.
+## answer_c
+Oculomotor
+## explanation_c
+Correct. The lateral wall of the cavernous sinus contains, from superior to inferior, the oculomotor nerve (III), trochlear nerve (IV), and the ophthalmic (V1) and maxillary (V2) divisions of the trigeminal nerve, with the mandibular division (V3) excluded since it leaves the trigeminal ganglion for foramen ovale without entering the cavernous sinus region. The oculomotor nerve, the most superior structure in this wall, is therefore the nerve among these four options that genuinely runs through the lateral side of the cavernous sinus. This is the same lateral-wall fact this module's own Week 1 EOM Final paper also tests from the "EXCEPT" angle (week1-q47, held as a near-exact duplicate of this same ASU-CNS-3 concept), here approached through a simpler, single-nerve-identification stem.
+## answer_d
+Hypoglossal
+## explanation_d
+Incorrect. The hypoglossal nerve exits the skull through the hypoglossal canal to supply the tongue muscles, unrelated to the cavernous sinus.
+## format
+single best answer
+## correct_answer
+C
+
+## main_concept
+CON-NEU-94513EC37B29B8
+## topic
+Cavernous sinus
+## subtopic
+Cavernous sinus lateral wall contents
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.25
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+55
+## exam_relevance
+4
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## exam_weight_by_year
+AU_Y2=moderate
+## years
+AU_Y2
+## universities
+au
+## module
+AU-MED-203
+## module_subject
+AU-MED-203 > Nervous System > Week 1 EOM Final
+## library_ids
+ART-NEU-ASU-CNS3-CAVERNOUS-SINUS-LATERAL-WALL-CONTENTS
+## contextual_concept_ids
+
+## question_only_for
+
+## learning_objective
+Identify the oculomotor nerve as the nerve, among optic, olfactory, oculomotor and hypoglossal, that runs through the lateral wall of the cavernous sinus.
+## source_citation
+AU-MED-203 Week 1 EOM Final (src_f5698c4e06db91539a01), p35 q149, inline per-page answer line (key: c).
+## estimated_seconds
+45
+## randomise_answers
+yes
+## author_notes
+Tests the same cavernous-sinus-lateral-wall concept authored by the ASU-CNS-3 lane in CON-NEU-94513EC37B29B8 (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md), verified via find-existing.mjs ("cavernous sinus lateral wall", "oculomotor") before minting was even considered; this lane adds no new concept, only the AU-MED-203 exam signal and this question, plus the sparse overlay in AU-MED-203-cns3-overlay-concepts.md. keySource: inline per-page answer line, p35. Distinct from week1-q47 (Q51-100 batch, held with no new question authored as a near-exact duplicate of this same concept's own "EXCEPT" framing) — this item's simpler, materially different stem/distractor set earns its own overlay question.
