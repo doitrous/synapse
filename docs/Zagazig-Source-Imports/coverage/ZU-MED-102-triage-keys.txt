@@ -1,0 +1,28 @@
+# ZU-MED-102 (Medical Terminology) — triage keys
+# <source-slug>-qNN, one per SBA item. All 20 items on this 2-page Final paper
+# carry a clean digital highlight key — 0 held, see
+# coverage/ZU-MED-102-triage.md. The 61-page Medical_terms MCQ.pdf bank
+# carries 0 recoverable keys on any item and is not seeded (see triage doc).
+
+# --- Fakous Medical Terminology Final 2024.pdf (author1 pass) ---
+
+termfinal24-q01
+termfinal24-q02
+termfinal24-q03
+termfinal24-q04
+termfinal24-q05
+termfinal24-q06
+termfinal24-q07
+termfinal24-q08
+termfinal24-q09
+termfinal24-q10
+termfinal24-q11
+termfinal24-q12
+termfinal24-q13
+termfinal24-q14
+termfinal24-q15
+termfinal24-q16
+termfinal24-q17
+termfinal24-q18
+termfinal24-q19
+termfinal24-q20
