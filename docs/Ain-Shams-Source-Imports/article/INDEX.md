@@ -23,4 +23,6 @@ Import target: Bulk import → article. Articles are Draft/needs-evidence local 
 | ASU_Y2 | `ASU-CNS-2` | MRC power grading and UMN/LMN sign patterns | [ASU-CNS-2-motor-exam-foundations-articles.md](ASU-CNS-2-motor-exam-foundations-articles.md) | 2 | `neuro` | `ASU-CNS-2 > Clinical Medicine` | Reciprocal TPL-SKILL articles; focused-examination placement and simulate/audit checks passed; `publication_gate: needs_evidence`. |
 | ASU_Y2 | `ASU-ENDO-2` | Thyroid histology foundations | [ASU-ENDO-2-histology-foundations-articles.md](ASU-ENDO-2-histology-foundations-articles.md) | 2 | `end` | `ASU-ENDO-2 > Histology` | Reciprocal TPL-CONCEPT articles; normal-histology placement, exact evidence chains and simulate/audit checks passed; `publication_gate: needs_evidence`. |
 
+| ASU_Y1 | `ASU-IMM` | Immunology MCQ bank (Ashraf Pt1 + cytokines) | [ASU-IMM-immunology-articles.md](ASU-IMM-immunology-articles.md) | 5 (TPL-CONCEPT) | `imm` | `ASU-IMM > Immunology` | Two-sided concept<->article coverage confirmed; cross-linked to each other and to the live ASU-IMM foundations lymphoid-organ articles; simulate/audit clean; `publication_gate: needs_evidence`. |
+
 Import concepts first, then these articles, then complete the claim/citation/span evidence chain and audit the lane.

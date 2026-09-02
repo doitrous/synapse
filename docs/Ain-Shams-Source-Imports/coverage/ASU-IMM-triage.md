@@ -104,19 +104,34 @@ Concepts merged wherever multiple questions test the same fact (noted "→ same 
 **Totals for block A:** 113 questions, 2 unkeyed (Ashraf1-I:17, and none in the rest of Part 1/2/cytokines
 — Exam II and Extra are 100% keyed per the p.18 table), **46 distinct concepts**.
 
-## B — Topic-block concepts (hegazy.pdf, ~101 Qs, 6 chapters)
+## B — Topic-block concepts (hegazy.pdf, 6 chapters — revised after a full per-question read this sitting)
 
-| Block | Qs (approx) | Representative concepts (canonical key) |
-|---|---|---|
-| Ch1 Organs & cells | 1–12 | `lymphoid-organ.primary-vs-secondary-classification`, `lymph-node.function-not-b-cell-maturation-site`, `thymus.function.t-cell-education`, `monocyte.macrophage-differentiation`, `dendritic-cell.antigen-presentation-role`, `neutrophil.lysosomal-killing-mechanism`, `hematopoietic-stem-cell.pluripotency` |
-| Ch2 Innate immunity | ~13–20 | `phagocytosis.bactericidal-mechanisms`, `complement.opsonization-role-in-phagocytosis` (dup-check vs INF/IMM opsonization live-hit) |
-| Ch3 (unlabeled — antigens/self, by content) | ~21–29 | overlaps heavily with Ashraf1-II concepts already listed (epitope, hapten, MHC-I/II) |
-| Ch4 Cell-mediated immunity | ~30–37 | `t-cell.cytokine-profile.il2-ifn-gamma`, `bacterial-capsule.t-independent-b-cell-activation`, `antibody.paratope-affinity.variable-region-determinant`, `bcr-vs-tcr.signal-transduction-requirement` |
-| Ch5 Humoral IR | ~1–8 (own numbering) | `antibody.opsonization.major-opsonin-igg`, `cytokine.th-subset-secretion-il2-ifn-gamma-vs-il4-il5`, `nk-cell.adcc-mechanism` |
-| Ch6 Complement | 1–15 | `complement.classical-pathway.c1-c4-c2-c3-order`, `complement.alternative-pathway.c3-requirement-no-c1`, `complement.mac.c5b-9-composition`, `complement.c3a-c5a.anaphylatoxin-effects`, `complement.regulation.decay-accelerating-factor-role`, `complement.mbl-pathway.structural-similarity-to-c1q`, `complement.deficiency.c5-9-neisseria-susceptibility` (candidate live-hit — matches an INF-adjacent concept already noted for ASU-INF's Neisseria/complement question) |
+The original block-level pass below under-counted every chapter — a full page-image read (asu-imm-author7,
+2026-09-02) of all 24 pages found real per-chapter totals well above the original "~101 Qs" estimate:
 
-Keys: embedded mini-tables after nearly every block of 5–8 Qs; visually spot-checked, dense coverage,
-no large gaps like the 241-Q file's.
+| Block | Qs (actual, this sitting's read) | Representative concepts (canonical key) | Status |
+|---|---|---|---|
+| Ch1 Organs & cells | **12** (Q1–12) | `lymphnode.function.not-b-cell-maturation-site`, `thymus.function.t-lymphocyte-generation-dependency`, `neutrophil.count.rises-in-acute-bacterial-infection`, `lymphocyte.count.rises-in-viral-infection`, `neutrophil.killing.lysosomal-enzyme-mechanism`, `hematopoieticstemcell.property.pluripotency` (6 new); reused `CON-IMM-73557EF9FDCC99` (primary lymphoid organs, Q1/Q11), `spleen.function.blood-filter-role` (Q5), `eosinophil.identification.allergic-parasitic-marker` (Q7), `monocyte.differentiation.tissue-macrophage` (Q8), the dendritic-cell/naive-T-cell concept (Q9) | **12/12 fully keyed, 12/12 authored** this sitting — `question/ASU-IMM-hegazy-ch1-mcq.md` |
+| Ch2 Innate immunity | **32** (Q1–32) | Q1–9 and Q19–32 keyed (bacteria-killing mechanisms, phagocytosis, acute-phase proteins, PAMPs, oxidase enzyme, NK cells, innate-vs-adaptive contrasts); Q10 and Q11–18 concepts not yet triaged into canonical keys (held, see below) | **23/32 keyed** (Q1–9 = a,a,b,a,d,a,e,d,e; Q19–27 = b,c,b,c,e,d,c,d,b; Q28–32 = b,d,a,c,d) — **23/23 keyed questions authored** this sitting — `question/ASU-IMM-hegazy-ch2-mcq.md` (8 reuse existing Block A concepts, 1 reuses a live KAU concept's ASU-scoped sibling deferred to a new mint rather than a risky cross-university sparse update, 6 new concepts minted); **9/32 held**: Q10 has no visible printed key; Q11–18's key row straddles the page 5→6 scan boundary and is not reliably readable (OCR and image both garbled at that join) — not authored |
+| Ch3 Antigens & self molecules | **22** (Q1–22) | Heavy overlap with Block A's Ashraf1-II MHC/antigen/hapten/epitope concepts (MHC class I/II function, MHC restriction, hapten, epitope, codominant expression, maternal-fetal MHC tolerance, HLA-disease linkage) plus a few net-new ASU-specific framings (antigenic-determinant terminology, T-independent-lymphocyte-activation-site question) | **22/22 fully keyed** (Q1–9 = d,e,e,d,d,d,d,d,b; Q10–18 = d,b,e,c,c,b,a,d,a; Q19–22 = c,c,b,b) — **22/22 authored** this sitting — `question/ASU-IMM-hegazy-ch3-mcq.md` (13 Qs reuse 8 existing Block A concepts; 8 new concepts minted; Q6 flagged as a printed-key oddity — "MHC Ag receptors located on" keys "antigen presenting cells" against a stem that reads more naturally as asking where the TCR sits, kept as printed) |
+| Ch4 Cell-mediated immunity | **~42** (Q1–42, pages 11–15) | T-cell activation/anergy/positive-negative selection, CTL/NK killing mechanisms, cytokine sources, superantigen mechanism, MHC-restricted antigen recognition | Read via OCR only this sitting (not page-image verified); key strips not yet transcribed — **not yet triaged to per-question level** |
+| Ch4-tail "Cytokines" mini-section | **15** (own Q1–15, pages 16–17) | Th1/Th2 cytokine sources, IFN-γ, IL-10, type I interferon, MHC-II upregulation | Q1–15 keyed via OCR only (last row read `a,b,a,c,a,e,c,d,e,d,d,e,c,a,d` — **needs page-image confirmation**, not authored |
+| Ch5 Humoral IR | **~38** (Q1–38, pages 18–22) | Ig isotype function, Fc/Fab structure, class switching, secondary response kinetics, opsonization, BCR vs TCR, Th2/antibody-help cytokines | Read via OCR only this sitting; key strips not yet transcribed — **not yet triaged to per-question level** |
+| Ch6 Complement | **17** (Q1–17, pages 23–24) | Classical/alternative/MBL pathway order, MAC composition, C3a/C5a anaphylatoxins, CD59/DAF regulation, complement-deficiency susceptibility (C3, C5-9/Neisseria) | Read via OCR only this sitting; key strips not yet transcribed — **not yet triaged to per-question level** |
+
+**Grand total this pass: ≈178 questions actually present in the file** (not ~101 as the original block-level
+estimate had it) — Ch1–3 (66 Qs) got a full page-image read and per-question key transcription this sitting;
+Ch4–6 (≈112 Qs) were only OCR-skimmed for chapter boundaries and still need the same page-image treatment
+before any of them can be triaged or authored. `/tmp/asu-ocr` from the original triage pass no longer exists
+(private tmp cleared between sittings) — OCR text for Ch4–6 was regenerated this sitting via
+`pagetext.mjs ocr` and is not separately archived; re-run it fresh next sitting rather than searching for a
+stale cache.
+
+Keys for Ch1 and Ch3: embedded mini-tables read directly from 300dpi page-image renders (not OCR, which is
+heavily garbled on this file — tesseract's table logic scrambles the printed answer-key grids into noise).
+Ch2's Q11–18 key table is a genuine scan defect, not an OCR failure: the answer row is physically split across
+the page 5→6 boundary and the surviving fragments do not align to columns with confidence — held per the
+never-guess-a-key rule rather than reconstructed from partial fragments.
 
 ## C — Topic-block concepts (`Bg. MCQs immune.pdf`, 241 Qs, generic external bank)
 
@@ -132,12 +147,19 @@ Read continuously by topic drift (no headers); block boundaries are approximate.
 | Autoimmunity / transplant | ~191–225 | `autoimmunity.mechanisms.loss-of-tolerance`, `transplant.rejection.hyperacute-vs-acute-vs-chronic`, `graft-vs-host-disease.mechanism` (graft rejection is a **live-hit**, see §D) |
 | Immunodeficiency | ~226–241 | `immunodeficiency.common-variable.recurrent-sinopulmonary-infection`, `immunodeficiency.c8-deficiency.neisseria-susceptibility`, `immunodeficiency.digeorge.thymic-aplasia`, `immunodeficiency.selective-iga.presentation`, `immunodeficiency.scid.presentation` — **all in the unkeyed 181–241 range**, so none of this block's questions can be answer-validated from this source. |
 
-**Hazard to flag for a ruling:** 61 of 241 questions (the entire hypersensitivity tail + autoimmunity +
-transplant + immunodeficiency blocks) have no printed key in this file. Per Standing Order 4 ("missing
-key → key editorially with field_note"), these need either (a) cross-checking against the hegazy/Ashraf
-overlap where the same fact is asked and keyed elsewhere, or (b) an editorial key with field_note,
-decided at authoring time — flagging now so triage approval can rule on it rather than Phase 2 discovering
-it mid-batch.
+**Hazard flagged for a ruling — RESOLVED (2026-09-02, asu-imm-author10):** ~61 of 241 questions (the
+tail of the humoral block + hypersensitivity + autoimmunity/transplant + immunodeficiency blocks) have
+no printed key in this file. Per the chief-of-staff's 2026-08-27 answer-key ruling ("missing key →
+key editorially, held only if no defensible single answer exists"), Q181–242 were read page-by-page
+(OCR + render where OCR garbled the stem or digits) and keyed editorially: 48 of the 62 printed
+numbers in that range are present in the corpus and were authored (0 held — every stem had a
+defensible textbook answer); the other 14 (Q200–205, Q210–217) are genuinely ABSENT from the file —
+a scan gap between pp.31/32 and 32/33 with no room for an intervening page in the 39-page sequence,
+not merely unkeyed (see `resource/ASU-IMM-immunology-resources.md` src_cb4ccd618d3bb4539e08 and
+`coverage/ASU-IMM-LEDGER.md`). This also corrected the "≤180 only" scope: the bank's actual printed
+numbering runs to at least Q242, not 241 as this triage pass originally estimated. Seed:
+`coverage/seeds/ASU-IMM/generic-bank-tail.json`; questions:
+`question/ASU-IMM-generic-bank-tail-mcq.md`.
 
 ## D — Live-hit / pending-hit spot-checks run (`find-existing.mjs`, 15 representative terms)
 
