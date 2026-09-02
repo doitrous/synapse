@@ -1,0 +1,283 @@
+| cluster | authored | held | remaining | total |
+|---|---:|---:|---:|---:|
+| 15.1 3yo fever+irritable+purpuric rash on limbs/abdomen -> D) Meningococcal sepsis | 0 | 0 | 1 | 1 |
+| 15.10.1 Harry 21mo, rash+conjunctivitis (Fig 15.5) -> J [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 15.10.2 Maryam 10mo, fever+coryza+fine macular trunk rash -> O) Rhinovirus | 0 | 0 | 1 | 1 |
+| 15.10.3 Jennifer 12yo, amoxicillin-triggered rash (Fig 15.6) -> D [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 15.10.4 Sebastian 10yo, safari fever+rigors, blood film (Fig 15.7) -> I [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 15.10.5 Philip 4yo, itchy vesicular rash (Fig 15.8) -> B [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 15.10.6 Fiona 2yo, infected burn -> collapse, red lips, shock -> R) Staphylococcus aureus (toxic shock) | 0 | 0 | 1 | 1 |
+| 15.10.7 Katie 6yo, fever+lethargy+"slapped cheek" facial rash -> L) Parvovirus infection (fifth disease) | 0 | 0 | 1 | 1 |
+| 15.11.1 Mohammed 2yo, fever+cough+crackles, mild distress, SpO2 normal, mgmt -> J) Oral antibiotic | 0 | 0 | 1 | 1 |
+| 15.11.2 Imran 2yo, coryzal URTI, mgmt -> A) Antipyretic/analgesia | 0 | 0 | 1 | 1 |
+| 15.11.3 Mustafa 18mo, gastroenteritis, dehydrated not shocked, mgmt -> K) Oral rehydration solution | 0 | 0 | 1 | 1 |
+| 15.11.4 Josie 3yo, pneumonia+effusion, SpO2 92%, mgmt -> E) Intravenous antibiotics | 0 | 0 | 1 | 1 |
+| 15.11.5 Michael 2yo, Kawasaki disease, mgmt -> G) Intravenous immunoglobulin | 0 | 0 | 1 | 1 |
+| 15.2 Same case, definitive-diagnosis investigation -> C) Polymerase chain reaction (PCR) | 0 | 0 | 1 | 1 |
+| 15.3 CSF: 1200 neutrophils, 250 lymph, protein 0.6, glucose 2.1 (blood 7.2) -> A) Bacterial meningitis | 0 | 0 | 1 | 1 |
+| 15.4 CSF: 95 lymph/10 neut/0 RBC, protein 2.2, glucose 1.3 (blood 6.3), 4wk fever -> D) Tuberculosis meningitis | 0 | 0 | 1 | 1 |
+| 15.5 2yo vesicular painful lesions both feet+hands, well (Fig 15.2) -> A [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 15.6 1yo fever 1wk, injected eyes, cervical LAD, peeling fingers -> B) Kawasaki disease | 0 | 0 | 1 | 1 |
+| 15.7 4mo African infant, resp failure, SpO2 82%, CXR (Fig 15.3) -> B [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 15.8 3yo Bangladesh, weight loss+cough, CXR (Fig 15.4) -> E [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 15.9 Parent questioning immunisation necessity, best advice -> C) Immunisation protects child + reduces community spread | 0 | 0 | 1 | 1 |
+| 28.1 5yo, arm pain+fever post-finger abscess, likely organism -> D) Staphylococcus aureus | 0 | 0 | 1 | 1 |
+| 28.10 8yo, 5d leg pain, reduced hip ROM, pelvis X-ray (Fig 28.3) -> C [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 28.11 14yo tall boy, long fingers+wide arm span, chest inspection (Fig 28.4) -> C [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 28.12.1 3.5yo, thigh swollen+flexed+abducted, fever 38.9, tachycardic -> H) Septic arthritis | 0 | 0 | 1 | 1 |
+| 28.12.2 18mo, thigh swollen not warm, apyrexial, withdraws to tickle -> B) Fractured femur | 0 | 0 | 1 | 1 |
+| 28.12.3 5yo, swollen knee 3wk post-bloody-diarrhoea, mild limp -> G) Reactive arthritis (transient synovitis) | 0 | 0 | 1 | 1 |
+| 28.13.1 6yo, bilateral leg pain waking at night, normal exam -> D) Growing pains | 0 | 0 | 1 | 1 |
+| 28.13.2 12yo, ankle pain post-minor-trauma, allodynia, cold foot -> C) Complex regional pain syndrome | 0 | 0 | 1 | 1 |
+| 28.13.3 14yo, bilateral knee pain on stairs/standing, flat medial arch -> B) Chondromalacia patellae | 0 | 0 | 1 | 1 |
+| 28.13.4 14yo footballer, tibial-tuberosity swelling+pain -> F) Osgood-Schlatter disease | 0 | 0 | 1 | 1 |
+| 28.13.5 5yo, back pain 4wk, night waking, mild scoliosis, FHx back pain -> L) Tumour - osteoid osteoma | 0 | 0 | 1 | 1 |
+| 28.14.1 14mo, painless limp, asymmetric thigh skin folds, breech birth -> C) Developmental dysplasia of the hip - late diagnosis | 0 | 0 | 1 | 1 |
+| 28.14.2 4yo Asian girl, widely-spaced knees + swollen wrists -> B) Bow legs - rickets | 0 | 0 | 1 | 1 |
+| 28.14.3 2yo, flat feet on walking, arch demonstrable on tiptoe/big-toe extension -> E) Normal variant of childhood | 0 | 0 | 1 | 1 |
+| 28.14.4 2.5yo, persistent toe-walking since first steps, can heel-walk on request, normal tone -> E) Normal variant of childhood | 0 | 0 | 1 | 1 |
+| 28.2 14yo obese girl, hip/knee pain, normal bloods, hip X-ray (Fig 28.1) -> E [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 28.3 14yo footballer, tibial-tuberosity swelling, afebrile -> B) Osgood-Schlatter disease | 0 | 0 | 1 | 1 |
+| 28.4 3yo, red hot swollen knee+fever+tachycardia, insect bite hx -> D) Septic arthritis | 0 | 0 | 1 | 1 |
+| 28.5 5yo, polyarthritis+rash+splenomegaly, ANA/dsDNA/ASOT negative -> E) Systemic-onset juvenile idiopathic arthritis | 0 | 0 | 1 | 1 |
+| 28.6 8yo, joint pain but playing on iPad, purpuric+urticarial rash (Fig 28.2) -> A [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 28.7 3yo, acute limp post-coryza, decreased hip external rotation -> C) Reactive arthritis (transient synovitis) | 0 | 0 | 1 | 1 |
+| 28.8 Newborn, feet turned inward but passively correctable to neutral -> A) Positional talipes equinovarus | 0 | 0 | 1 | 1 |
+| 28.9 18mo, femur fracture no trauma hx, blue sclera, sibling similar hx -> C) Osteogenesis imperfecta | 0 | 0 | 1 | 1 |
+| 6.1 Cardiac compression hand position (Fig 6.1) -> B [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 6.10 2yo urticaria+flushing, no resp compromise, drug -> D) Oral antihistamine | 0 | 0 | 1 | 1 |
+| 6.11 3yo anaphylaxis (angioedema+wheeze+distress), first drug -> A) Intramuscular adrenaline | 0 | 0 | 1 | 1 |
+| 6.12 SIDS decline, single most important factor -> E) Supine sleeping | 0 | 0 | 1 | 1 |
+| 6.13.1 4yo SOB, SpO2 90%, talking, next step -> I) High-flow oxygen therapy | 0 | 0 | 1 | 1 |
+| 6.13.2 2yo unconscious, gasping/moaning, next step -> A) Airway opening manoeuvres | 0 | 0 | 1 | 1 |
+| 6.13.3 2mo HR 40, bag-mask ventilating well, next step -> G) Cardiac compressions, hand-encircling method | 0 | 0 | 1 | 1 |
+| 6.13.4 10yo diabetic, confused+sweaty, walks in, next step -> C) Check blood glucose | 0 | 0 | 1 | 1 |
+| 6.13.5 3yo post-seizure, unresponsive to pain incl. glucose check, next step -> E) Check pupils | 0 | 0 | 1 | 1 |
+| 6.2 3yo purpuric rash + fever, febrile+unwell -> E) Septicaemia | 0 | 0 | 1 | 1 |
+| 6.3 Bilateral pinpoint pupils + coma cause (Fig 6.3) -> E [HELD -- figure required] | 0 | 0 | 1 | 1 |
+| 6.4 GCS scoring, best motor=localizes(5)+verbal=2+eye=2 -> B) 9 | 0 | 0 | 1 | 1 |
+| 6.5 Submersion/drowning, next step after opening airway -> E) Stimulate baby, shout for help | 0 | 0 | 1 | 1 |
+| 6.6 8mo, crying+drawing legs up+shock, likely dx -> B) Intussusception | 0 | 0 | 1 | 1 |
+| 6.7 8kg shock, initial fluid bolus volume -> B) 160 ml (20 ml/kg) | 0 | 0 | 1 | 1 |
+| 6.8 8kg, 10% dehydrated, total 24h fluid requirement -> E) 1600 ml | 0 | 0 | 1 | 1 |
+| 6.9 Status epilepticus post-buccal midazolam, next step -> B) Check blood glucose level | 0 | 0 | 1 | 1 |
+| Chapter 15 -- Infection and immunity: | 0 | 0 | 1 | 1 |
+| Chapter 28 -- Musculoskeletal disorders: | 0 | 0 | 1 | 1 |
+| Chapter 6 -- Paediatric emergencies: | 0 | 0 | 1 | 1 |
+| F01 Heart murmur+cataract -> Congenital rubella | 0 | 0 | 1 | 1 |
+| F02 Most common cause of gastroenteritis -> Rotavirus | 0 | 0 | 1 | 1 |
+| F03 1wk jaundice -> Viral hepatitis A | 0 | 0 | 1 | 1 |
+| F04 Mountain travel+fever+thin blood film -> Malaria | 0 | 0 | 1 | 1 |
+| F05 Alopecia+"beach" (photosensitivity) -> SLE | 0 | 0 | 1 | 1 |
+| F06 Fish-party urticaria -> Oral antihistamine | 0 | 0 | 1 | 1 |
+| F07 Slapped cheek syndrome -> Parvovirus B19 | 0 | 0 | 1 | 1 |
+| F08 Mumps+abdominal pain -> Mumps pancreatitis | 0 | 0 | 1 | 1 |
+| F09 Low-grade fever+lymphadenitis -> Rubella | 0 | 0 | 1 | 1 |
+| F10 Toxoid vaccine example -> Diphtheria | 0 | 0 | 1 | 1 |
+| F11 Silent iridocyclitis screening -> Oligoarthritis (JIA) | 0 | 0 | 1 | 1 |
+| F12 HSP treatment -> Steroids | 0 | 0 | 1 | 1 |
+| F13 Scaled/vesicular rash -> Varicella | 0 | 0 | 1 | 1 |
+| F14 Insect bite+hypotension -> Anaphylactic shock | 0 | 0 | 1 | 1 |
+| F15 Diarrhoea followed by hypotension -> Hypovolemic shock | 0 | 0 | 1 | 1 |
+| F16 Common oligoarthritis joint -> Knee | 0 | 0 | 1 | 1 |
+| F17 Emergency case, first step -> Assisted airway | 0 | 0 | 1 | 1 |
+| F18 Lymphadenopathy+splenomegaly -> Infectious mononucleosis | 0 | 0 | 1 | 1 |
+| F19 Hand-foot syndrome (rash) -> Coxsackie A | 0 | 0 | 1 | 1 |
+| F20 Decreased wet diapers -> Gain IV access + correct dehydration | 0 | 0 | 1 | 1 |
+| F21 Least likely cause of reactive arthritis -> Clostridium difficile | 0 | 0 | 1 | 1 |
+| F22 Tachycardia+diffuse pain -> Check urine glucose | 0 | 0 | 1 | 1 |
+| F23 School abrasion -> Tetanus toxoid + tetanus immunoglobulin | 0 | 0 | 1 | 1 |
+| F24 Convulsion preceded by URTI -> Meningitis | 0 | 0 | 1 | 1 |
+| F25 Viral meningitis CSF -> 150 WBC, 80% lymphocytes | 0 | 0 | 1 | 1 |
+| F26 NOT a prognostic factor for oligoarthritis-associated uveitis -> Severity | 0 | 0 | 1 | 1 |
+| F27 NOT a constant feature of arthritis -> Erythema | 0 | 0 | 1 | 1 |
+| F28 MMR schedule -> 12-15 months | 0 | 0 | 1 | 1 |
+| F29 Meningitis confirmatory test -> Lumbar puncture | 0 | 0 | 1 | 1 |
+| F30 Purpose of vaccination -> Reduce infection risk to child + community spread | 0 | 0 | 1 | 1 |
+| F31 3yo sibling of newborn, prophylaxis -> Azithromycin | 0 | 0 | 1 | 1 |
+| F32 NOT a complication of Kawasaki acute phase -> Aortic aneurysm | 0 | 0 | 1 | 1 |
+| F33 Dad rib fracture + child rhinorrhea (pattern) -> Pertussis | 0 | 0 | 1 | 1 |
+| F34 [BLOCKED -- no answer recorded] child poor consciousness, bradycardia, decreased perfusion | 0 | 0 | 1 | 1 |
+| F35 Hydrocephalus + periventricular calcification -> CMV | 0 | 0 | 1 | 1 |
+| F36 NOT a feature of FMF -> Hepatitis | 0 | 0 | 1 | 1 |
+| F37 Roseola causative virus -> HHV6 | 0 | 0 | 1 | 1 |
+| F38 NOT a feature of Kawasaki -> Vesicular rash | 0 | 0 | 1 | 1 |
+| F39 15min seizure post-buccal-midazolam, next step -> Check blood glucose level | 0 | 0 | 1 | 1 |
+| F40 NOT a feature of dermatomyositis -> Sparing of nasolabial fold | 0 | 0 | 1 | 1 |
+| F41 NOT a feature of measles -> Rash appears at 8-12 (days, unclear unit -- verify before authoring) | 0 | 0 | 1 | 1 |
+| F42 [BLOCKED -- "???", no answer recorded] LAD + small aneurysm | 0 | 0 | 1 | 1 |
+| F43 NOT a complication of HSP -> Paralytic ileus | 0 | 0 | 1 | 1 |
+| F44 Cough+coryza (prodrome) -> Measles | 0 | 0 | 1 | 1 |
+| F45 Fever then rash -> Roseola infantum | 0 | 0 | 1 | 1 |
+| F46 NOT a feature of SLE -> More common before age 5 | 0 | 0 | 1 | 1 |
+| F47 Scarlet fever sign -> Strawberry tongue | 0 | 0 | 1 | 1 |
+| F48 Low-grade fever+posterior LAD, wrong statement -> "Measles is the most possible diagnosis" (i.e. NOT measles) | 0 | 0 | 1 | 1 |
+| F49 [BLOCKED -- stem absent] "case, one of its complications" -> Pneumothorax | 0 | 0 | 1 | 1 |
+| F50 Fever+recurrent abdominal pain -> FMF | 0 | 0 | 1 | 1 |
+| Final (clue -> answer, 47 usable of 50): | 0 | 0 | 1 | 1 |
+| M01 Non-atopic bronchial asthma -> dx/pathophys/environmental causes (full case, see source) | 0 | 0 | 1 | 1 |
+| M02 Bronchial asthma worse after cortisone -> DD of recurrent wheeze (full case) | 0 | 0 | 1 | 1 |
+| M03 Symmetrical weakness+areflexia+tongue fasciculation infant -> Werdnig-Hoffmann disease | 0 | 0 | 1 | 1 |
+| M04 Waddling gait, normal calf bulk -> Duchenne myopathy | 0 | 0 | 1 | 1 |
+| M05 Caucasian girl jaundice -> Hereditary spherocytosis | 0 | 0 | 1 | 1 |
+| M06 Sickle cell dactylitis -> cause=ischemia; crisis triggers=infection/hypoxia/exercise | 0 | 0 | 1 | 1 |
+| M07 Girl headache -> Hydrocephalus, non-surgical mgmt = carbonic anhydrase inhibitor+mannitol | 0 | 0 | 1 | 1 |
+| M08 Widespread rash post-URTI -> ITP | 0 | 0 | 1 | 1 |
+| M09 Stridor+bronchospasm post-nuts -> Food allergy | 0 | 0 | 1 | 1 |
+| M10 Mild proteinuria+URTI+dark urine -> Post-streptococcal glomerulonephritis | 0 | 0 | 1 | 1 |
+| MUST-PED501 triage keys | 0 | 0 | 1 | 1 |
+| Midterm (10 short cases, diagnosis/investigation/management sub-parts): | 0 | 0 | 1 | 1 |
+| Paediatrics MCQs and EMQs (Lissauer), printed "Correct." answer + full rationale per | 0 | 0 | 1 | 1 |
+| Source 1: 1- PED previous Questions mid & fin.pdf (08 Midterm Exams) -- student | 0 | 0 | 1 | 1 |
+| Source 9: EOM MCQs - Lissauer mcq final.pdf (06 EOM Exams) -- Self-Assessment in | 0 | 0 | 1 | 1 |
+| This is the paper authored this pass (best-keyed). | 0 | 0 | 1 | 1 |
+| answer-recall list, native text, no highlight/garble issue. Midterm section (10 short | 0 | 0 | 1 | 1 |
+| cases, each 2-4 sub-parts) fully usable. Final section (50 one-line clue->answer | 0 | 0 | 1 | 1 |
+| items) 47/50 usable, 3 blocked (no recoverable stem or answer). NOT authored this | 0 | 0 | 1 | 1 |
+| lissauer-ch28 | 19 | 0 | 0 | 19 |
+| lissauer-ch6-ch15 | 28 | 0 | 0 | 28 |
+| option, native text extraction, no highlight/garble issue. Chapters 6, 15, 28. | 0 | 0 | 1 | 1 |
+| pass -- Lissauer (source 9) chosen as the higher-fidelity best-keyed paper; source 1 | 0 | 0 | 1 | 1 |
+| recorded here for S2's reference, not converted into seed JSON this pass. | 0 | 0 | 1 | 1 |
+
+## Held
+(none)
+
+## Remaining
+- 15.1 3yo fever+irritable+purpuric rash on limbs/abdomen -> D) Meningococcal sepsis
+- 15.10.1 Harry 21mo, rash+conjunctivitis (Fig 15.5) -> J [HELD -- figure required]
+- 15.10.2 Maryam 10mo, fever+coryza+fine macular trunk rash -> O) Rhinovirus
+- 15.10.3 Jennifer 12yo, amoxicillin-triggered rash (Fig 15.6) -> D [HELD -- figure required]
+- 15.10.4 Sebastian 10yo, safari fever+rigors, blood film (Fig 15.7) -> I [HELD -- figure required]
+- 15.10.5 Philip 4yo, itchy vesicular rash (Fig 15.8) -> B [HELD -- figure required]
+- 15.10.6 Fiona 2yo, infected burn -> collapse, red lips, shock -> R) Staphylococcus aureus (toxic shock)
+- 15.10.7 Katie 6yo, fever+lethargy+"slapped cheek" facial rash -> L) Parvovirus infection (fifth disease)
+- 15.11.1 Mohammed 2yo, fever+cough+crackles, mild distress, SpO2 normal, mgmt -> J) Oral antibiotic
+- 15.11.2 Imran 2yo, coryzal URTI, mgmt -> A) Antipyretic/analgesia
+- 15.11.3 Mustafa 18mo, gastroenteritis, dehydrated not shocked, mgmt -> K) Oral rehydration solution
+- 15.11.4 Josie 3yo, pneumonia+effusion, SpO2 92%, mgmt -> E) Intravenous antibiotics
+- 15.11.5 Michael 2yo, Kawasaki disease, mgmt -> G) Intravenous immunoglobulin
+- 15.2 Same case, definitive-diagnosis investigation -> C) Polymerase chain reaction (PCR)
+- 15.3 CSF: 1200 neutrophils, 250 lymph, protein 0.6, glucose 2.1 (blood 7.2) -> A) Bacterial meningitis
+- 15.4 CSF: 95 lymph/10 neut/0 RBC, protein 2.2, glucose 1.3 (blood 6.3), 4wk fever -> D) Tuberculosis meningitis
+- 15.5 2yo vesicular painful lesions both feet+hands, well (Fig 15.2) -> A [HELD -- figure required]
+- 15.6 1yo fever 1wk, injected eyes, cervical LAD, peeling fingers -> B) Kawasaki disease
+- 15.7 4mo African infant, resp failure, SpO2 82%, CXR (Fig 15.3) -> B [HELD -- figure required]
+- 15.8 3yo Bangladesh, weight loss+cough, CXR (Fig 15.4) -> E [HELD -- figure required]
+- 15.9 Parent questioning immunisation necessity, best advice -> C) Immunisation protects child + reduces community spread
+- 28.1 5yo, arm pain+fever post-finger abscess, likely organism -> D) Staphylococcus aureus
+- 28.10 8yo, 5d leg pain, reduced hip ROM, pelvis X-ray (Fig 28.3) -> C [HELD -- figure required]
+- 28.11 14yo tall boy, long fingers+wide arm span, chest inspection (Fig 28.4) -> C [HELD -- figure required]
+- 28.12.1 3.5yo, thigh swollen+flexed+abducted, fever 38.9, tachycardic -> H) Septic arthritis
+- 28.12.2 18mo, thigh swollen not warm, apyrexial, withdraws to tickle -> B) Fractured femur
+- 28.12.3 5yo, swollen knee 3wk post-bloody-diarrhoea, mild limp -> G) Reactive arthritis (transient synovitis)
+- 28.13.1 6yo, bilateral leg pain waking at night, normal exam -> D) Growing pains
+- 28.13.2 12yo, ankle pain post-minor-trauma, allodynia, cold foot -> C) Complex regional pain syndrome
+- 28.13.3 14yo, bilateral knee pain on stairs/standing, flat medial arch -> B) Chondromalacia patellae
+- 28.13.4 14yo footballer, tibial-tuberosity swelling+pain -> F) Osgood-Schlatter disease
+- 28.13.5 5yo, back pain 4wk, night waking, mild scoliosis, FHx back pain -> L) Tumour - osteoid osteoma
+- 28.14.1 14mo, painless limp, asymmetric thigh skin folds, breech birth -> C) Developmental dysplasia of the hip - late diagnosis
+- 28.14.2 4yo Asian girl, widely-spaced knees + swollen wrists -> B) Bow legs - rickets
+- 28.14.3 2yo, flat feet on walking, arch demonstrable on tiptoe/big-toe extension -> E) Normal variant of childhood
+- 28.14.4 2.5yo, persistent toe-walking since first steps, can heel-walk on request, normal tone -> E) Normal variant of childhood
+- 28.2 14yo obese girl, hip/knee pain, normal bloods, hip X-ray (Fig 28.1) -> E [HELD -- figure required]
+- 28.3 14yo footballer, tibial-tuberosity swelling, afebrile -> B) Osgood-Schlatter disease
+- 28.4 3yo, red hot swollen knee+fever+tachycardia, insect bite hx -> D) Septic arthritis
+- 28.5 5yo, polyarthritis+rash+splenomegaly, ANA/dsDNA/ASOT negative -> E) Systemic-onset juvenile idiopathic arthritis
+- 28.6 8yo, joint pain but playing on iPad, purpuric+urticarial rash (Fig 28.2) -> A [HELD -- figure required]
+- 28.7 3yo, acute limp post-coryza, decreased hip external rotation -> C) Reactive arthritis (transient synovitis)
+- 28.8 Newborn, feet turned inward but passively correctable to neutral -> A) Positional talipes equinovarus
+- 28.9 18mo, femur fracture no trauma hx, blue sclera, sibling similar hx -> C) Osteogenesis imperfecta
+- 6.1 Cardiac compression hand position (Fig 6.1) -> B [HELD -- figure required]
+- 6.10 2yo urticaria+flushing, no resp compromise, drug -> D) Oral antihistamine
+- 6.11 3yo anaphylaxis (angioedema+wheeze+distress), first drug -> A) Intramuscular adrenaline
+- 6.12 SIDS decline, single most important factor -> E) Supine sleeping
+- 6.13.1 4yo SOB, SpO2 90%, talking, next step -> I) High-flow oxygen therapy
+- 6.13.2 2yo unconscious, gasping/moaning, next step -> A) Airway opening manoeuvres
+- 6.13.3 2mo HR 40, bag-mask ventilating well, next step -> G) Cardiac compressions, hand-encircling method
+- 6.13.4 10yo diabetic, confused+sweaty, walks in, next step -> C) Check blood glucose
+- 6.13.5 3yo post-seizure, unresponsive to pain incl. glucose check, next step -> E) Check pupils
+- 6.2 3yo purpuric rash + fever, febrile+unwell -> E) Septicaemia
+- 6.3 Bilateral pinpoint pupils + coma cause (Fig 6.3) -> E [HELD -- figure required]
+- 6.4 GCS scoring, best motor=localizes(5)+verbal=2+eye=2 -> B) 9
+- 6.5 Submersion/drowning, next step after opening airway -> E) Stimulate baby, shout for help
+- 6.6 8mo, crying+drawing legs up+shock, likely dx -> B) Intussusception
+- 6.7 8kg shock, initial fluid bolus volume -> B) 160 ml (20 ml/kg)
+- 6.8 8kg, 10% dehydrated, total 24h fluid requirement -> E) 1600 ml
+- 6.9 Status epilepticus post-buccal midazolam, next step -> B) Check blood glucose level
+- Chapter 15 -- Infection and immunity:
+- Chapter 28 -- Musculoskeletal disorders:
+- Chapter 6 -- Paediatric emergencies:
+- F01 Heart murmur+cataract -> Congenital rubella
+- F02 Most common cause of gastroenteritis -> Rotavirus
+- F03 1wk jaundice -> Viral hepatitis A
+- F04 Mountain travel+fever+thin blood film -> Malaria
+- F05 Alopecia+"beach" (photosensitivity) -> SLE
+- F06 Fish-party urticaria -> Oral antihistamine
+- F07 Slapped cheek syndrome -> Parvovirus B19
+- F08 Mumps+abdominal pain -> Mumps pancreatitis
+- F09 Low-grade fever+lymphadenitis -> Rubella
+- F10 Toxoid vaccine example -> Diphtheria
+- F11 Silent iridocyclitis screening -> Oligoarthritis (JIA)
+- F12 HSP treatment -> Steroids
+- F13 Scaled/vesicular rash -> Varicella
+- F14 Insect bite+hypotension -> Anaphylactic shock
+- F15 Diarrhoea followed by hypotension -> Hypovolemic shock
+- F16 Common oligoarthritis joint -> Knee
+- F17 Emergency case, first step -> Assisted airway
+- F18 Lymphadenopathy+splenomegaly -> Infectious mononucleosis
+- F19 Hand-foot syndrome (rash) -> Coxsackie A
+- F20 Decreased wet diapers -> Gain IV access + correct dehydration
+- F21 Least likely cause of reactive arthritis -> Clostridium difficile
+- F22 Tachycardia+diffuse pain -> Check urine glucose
+- F23 School abrasion -> Tetanus toxoid + tetanus immunoglobulin
+- F24 Convulsion preceded by URTI -> Meningitis
+- F25 Viral meningitis CSF -> 150 WBC, 80% lymphocytes
+- F26 NOT a prognostic factor for oligoarthritis-associated uveitis -> Severity
+- F27 NOT a constant feature of arthritis -> Erythema
+- F28 MMR schedule -> 12-15 months
+- F29 Meningitis confirmatory test -> Lumbar puncture
+- F30 Purpose of vaccination -> Reduce infection risk to child + community spread
+- F31 3yo sibling of newborn, prophylaxis -> Azithromycin
+- F32 NOT a complication of Kawasaki acute phase -> Aortic aneurysm
+- F33 Dad rib fracture + child rhinorrhea (pattern) -> Pertussis
+- F34 [BLOCKED -- no answer recorded] child poor consciousness, bradycardia, decreased perfusion
+- F35 Hydrocephalus + periventricular calcification -> CMV
+- F36 NOT a feature of FMF -> Hepatitis
+- F37 Roseola causative virus -> HHV6
+- F38 NOT a feature of Kawasaki -> Vesicular rash
+- F39 15min seizure post-buccal-midazolam, next step -> Check blood glucose level
+- F40 NOT a feature of dermatomyositis -> Sparing of nasolabial fold
+- F41 NOT a feature of measles -> Rash appears at 8-12 (days, unclear unit -- verify before authoring)
+- F42 [BLOCKED -- "???", no answer recorded] LAD + small aneurysm
+- F43 NOT a complication of HSP -> Paralytic ileus
+- F44 Cough+coryza (prodrome) -> Measles
+- F45 Fever then rash -> Roseola infantum
+- F46 NOT a feature of SLE -> More common before age 5
+- F47 Scarlet fever sign -> Strawberry tongue
+- F48 Low-grade fever+posterior LAD, wrong statement -> "Measles is the most possible diagnosis" (i.e. NOT measles)
+- F49 [BLOCKED -- stem absent] "case, one of its complications" -> Pneumothorax
+- F50 Fever+recurrent abdominal pain -> FMF
+- Final (clue -> answer, 47 usable of 50):
+- M01 Non-atopic bronchial asthma -> dx/pathophys/environmental causes (full case, see source)
+- M02 Bronchial asthma worse after cortisone -> DD of recurrent wheeze (full case)
+- M03 Symmetrical weakness+areflexia+tongue fasciculation infant -> Werdnig-Hoffmann disease
+- M04 Waddling gait, normal calf bulk -> Duchenne myopathy
+- M05 Caucasian girl jaundice -> Hereditary spherocytosis
+- M06 Sickle cell dactylitis -> cause=ischemia; crisis triggers=infection/hypoxia/exercise
+- M07 Girl headache -> Hydrocephalus, non-surgical mgmt = carbonic anhydrase inhibitor+mannitol
+- M08 Widespread rash post-URTI -> ITP
+- M09 Stridor+bronchospasm post-nuts -> Food allergy
+- M10 Mild proteinuria+URTI+dark urine -> Post-streptococcal glomerulonephritis
+- MUST-PED501 triage keys
+- Midterm (10 short cases, diagnosis/investigation/management sub-parts):
+- Paediatrics MCQs and EMQs (Lissauer), printed "Correct." answer + full rationale per
+- Source 1: 1- PED previous Questions mid & fin.pdf (08 Midterm Exams) -- student
+- Source 9: EOM MCQs - Lissauer mcq final.pdf (06 EOM Exams) -- Self-Assessment in
+- This is the paper authored this pass (best-keyed).
+- answer-recall list, native text, no highlight/garble issue. Midterm section (10 short
+- cases, each 2-4 sub-parts) fully usable. Final section (50 one-line clue->answer
+- items) 47/50 usable, 3 blocked (no recoverable stem or answer). NOT authored this
+- option, native text extraction, no highlight/garble issue. Chapters 6, 15, 28.
+- pass -- Lissauer (source 9) chosen as the higher-fidelity best-keyed paper; source 1
+- recorded here for S2's reference, not converted into seed JSON this pass.
