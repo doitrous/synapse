@@ -1,7 +1,7 @@
 {
   "lane": "au-203",
   "cluster": "week2",
-  "header": "AU-MED-203 · Nervous System — Week 2 EOM Final (Alpha Team), authored from Q1-60 of 120 native-text, per-page-keyed questions (src_70b2ac8853db17b047ea; Q40 held — source provides only 3 answer options (a-c), no fourth choice; 59 of 60 authored), coverage/AU-MED-203-triage.md.",
+  "header": "AU-MED-203 · Nervous System — Week 2 EOM Final (Alpha Team), authored from Q1-60 of 120 native-text, per-page-keyed questions (src_70b2ac8853db17b047ea; Q40 held — source provides only 3 answer options (a-c), no fourth choice; Q5 held from this batch — HIT-PENDING ASU-CNS-3 trochlear-decussation concept CON-NEU-44845BF496BE5F, not yet imported, authored instead as a sparse pending-live overlay question, docs/Alexandria-Source-Imports/pending-live/AU-MED-203-cns3-final2024-overlay-questions.md; 58 of 60 emitted into this batch, 60 of 60 authored counting the overlay), coverage/AU-MED-203-triage.md.",
   "defaults": {
     "subject": "neuro",
     "status": "Draft",
@@ -143,34 +143,11 @@
     },
     {
       "key": "week2-q005",
-      "id": "QST-AUMED203-WEEK2-Q005",
-      "title": "The cranial nerve originating from a contralateral nucleus",
-      "question": "Which of the following cranial nerves originates from Contralateral nucleus to its side?",
-      "options": {
-        "A": "Trochlear nerve",
-        "B": "Facial nerve",
-        "C": "Abducent nerve",
-        "D": "Glossopharyngeal nerve"
-      },
-      "correct": "A",
-      "explanations": {
-        "A": "Correct. The trochlear nerve is the only cranial nerve whose fibers fully decussate within the brainstem before emerging, at the inferior (inferior collicular) level of the midbrain, and the only cranial nerve to exit the brainstem dorsally. Because of this crossing, the LEFT trochlear nucleus supplies the RIGHT superior oblique muscle, meaning the nerve effectively originates from a nucleus contralateral to the side it supplies. In short: identify the trochlear nerve as the cranial nerve that originates from a nucleus contralateral to the side it supplies, since its fibers decussate before exiting the midbrain.",
-        "B": "Incorrect. The facial nerve's motor nucleus supplies the SAME (ipsilateral) side of the face; it does not decussate before exiting the pons.",
-        "C": "Incorrect. The abducent nerve's nucleus supplies the ipsilateral lateral rectus directly, with no crossing before the nerve exits the pontomedullary junction.",
-        "D": "Incorrect. The glossopharyngeal nerve's nuclei (nucleus ambiguus, solitary tract, inferior salivatory) supply ipsilateral structures without this dorsal midbrain decussation."
-      },
-      "main_concept": "CON-NEU-44845BF496BE5F",
-      "concept_ids": ["CON-NEU-44845BF496BE5F"],
-      "topic": "Brainstem cranial nerve nuclei",
-      "subtopic": "Trochlear nerve decussation",
-      "difficulty": "Hard",
-      "question_type": "Recall",
-      "cognitive_effort": "High",
-      "reasoning_level": 3,
-      "learning_objective": "Identify the trochlear nerve as the cranial nerve that originates from a nucleus contralateral to the side it supplies, since its fibers decussate at the inferior midbrain level before exiting dorsally.",
-      "library_ids": ["ART-NEU-AU-MED-203-QUIZ1-ANATOMY"],
-      "source_citation": "AU-MED-203 Week 2 EOM Final, p2 q5, inline per-page answer line.",
-      "author_notes": "keySource: inline per-page answer line, p2. HIT-PENDING: reuses ASU-CNS-3's concept CON-NEU-44845BF496BE5F ('The trochlear nerve and the superior cerebellar peduncle both decussate at the inferior (inferior collicular) level of the midbrain', docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-final2024-mcq-concepts.md), not yet imported to production — authored as a sparse pending-live overlay question per LANE-CARD-Y2's 'check CNS-3 first, reuse via sparse overlay' instruction, not emitted into this batch. find-existing.mjs surfaced this hit for 'trochlear nerve'."
+      "hold": "HIT-PENDING concept (trochlear nerve and superior cerebellar peduncle decussation at the inferior midbrain level, CON-NEU-44845BF496BE5F) reuses an ASU-CNS-3 concept not yet imported to production (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-final2024-mcq-concepts.md) — authored as a sparse-overlay pending-live question (docs/Alexandria-Source-Imports/pending-live/AU-MED-203-cns3-final2024-overlay-questions.md) per LANE-CARD-Y2's 'check CNS-3 first, reuse via sparse overlay' instruction, not emitted into this batch. find-existing.mjs surfaced this hit for 'trochlear nerve'."
+    },
+    {
+      "key": "week2-q040",
+      "hold": "malformed source — only 3 answer options (a-c) are present in the extracted text, no fourth choice ('40 The palatine tonsil is a proliferation of a Ectoderm b Endoderm c Mesoderm'); native-text extraction confirmed via pagetext.mjs show (not an OCR artifact), so a genuine source defect rather than a labelling/image question; below the 4-5 option contract emit-mcq.mjs enforces. Per LANE-CARD-Y2's standing rule and lane 5/6's week1-q99/week1-q130 precedent (<4 options → hold)."
     },
     {
       "key": "week2-q006",
