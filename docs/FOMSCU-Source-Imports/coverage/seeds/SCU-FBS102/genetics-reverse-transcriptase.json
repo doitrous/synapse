@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-reverse-transcriptase",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-reverse-transcriptase'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Genetics > Molecular Genetics > Telomerase"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-REVERSE-TRANSCRIPTASE",
+      "key": "genetics-reverse-transcriptase",
+      "title": "Telomerase is a reverse transcriptase",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Genetics > Molecular Genetics > Telomerase",
+      "question": "Which of the following enzyme classifications best describes the biochemical nature of telomerase?",
+      "options": {
+        "A": "DNA-dependent RNA polymerase",
+        "B": "Reverse transcriptase",
+        "C": "Specialized RNA endonuclease",
+        "D": "DNA restriction ligase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A DNA-dependent RNA polymerase synthesizes RNA from a DNA template — essentially the opposite of what telomerase does, since telomerase synthesizes DNA from an RNA template.",
+        "B": "Correct. Telomerase is a reverse transcriptase — an RNA-dependent DNA polymerase — that carries its own built-in RNA template as part of the enzyme complex and uses it to synthesize new telomeric DNA repeats onto the 3' end of chromosomes, compensating for the DNA lost with each round of replication. Its activity is high in germ cells and stem cells but low or absent in most differentiated somatic cells, one reason those cells have a finite replicative lifespan.",
+        "C": "Incorrect. Telomerase does not function as an endonuclease (which would cut nucleic acid internally); its catalytic role is polymerization of new DNA, not cleavage.",
+        "D": "Incorrect. There is no such combined 'restriction ligase' enzyme class, and telomerase's function (RNA-templated DNA synthesis) has nothing to do with restriction-enzyme cutting or DNA ligation."
+      },
+      "topic": "Genetics",
+      "subtopic": "Molecular genetics: enzymes",
+      "main_concept": "CON-FND-148204C419F5AF",
+      "concept_ids": [
+        "CON-FND-148204C419F5AF"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MOLECULAR-BIOLOGY-MITOCHONDRIAL"
+      ],
+      "learning_objective": "Classify telomerase as a reverse transcriptase that uses its own built-in RNA template to extend telomeric DNA, and explain why this compensates for the end-replication problem.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q10, Formative and Past Exams 2023 Q10",
+      "author_notes": ""
+    }
+  ]
+}

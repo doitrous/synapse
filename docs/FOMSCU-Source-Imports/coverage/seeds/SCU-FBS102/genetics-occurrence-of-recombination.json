@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-occurrence-of-recombination",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-occurrence-of-recombination'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "dev",
+    "module_subject": "SCU-FBS102 > Genetics > Cell Division > Meiosis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-OCCURRENCE-OF-RECOMBINATION",
+      "key": "genetics-occurrence-of-recombination",
+      "title": "Homologous pairing's evolutionary purpose: recombination",
+      "subject": "dev",
+      "module_subject": "SCU-FBS102 > Genetics > Cell Division > Meiosis",
+      "question": "What is the main evolutionary purpose served by the pairing of homologous chromosomes during meiosis I?",
+      "options": {
+        "A": "Separation of sister chromatids",
+        "B": "Formation of the mitotic spindle",
+        "C": "Occurrence of genetic recombination",
+        "D": "Condensation of chromosomes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Sister chromatid separation is a mechanical event of anaphase II, not the evolutionary purpose of homologous pairing at prophase I, which serves a different, recombination-enabling function.",
+        "B": "Incorrect. Spindle formation is a general mitotic and meiotic apparatus event, not specific to, or the purpose of, homologous chromosome pairing.",
+        "C": "Correct. Homologous pairing (synapsis) aligns maternal and paternal chromosomes closely enough for crossing-over to occur between non-sister chromatids, and this recombination shuffles alleles onto new chromosome combinations — the principal evolutionary benefit of pairing, generating genetic diversity among gametes beyond what independent assortment alone provides. Without synapsis holding the homologues in close alignment, this exchange of DNA segments between non-sister chromatids could not occur.",
+        "D": "Incorrect. Chromosome condensation is a general feature of both mitotic and meiotic prophase, not a purpose specific to homologous pairing."
+      },
+      "topic": "Genetics",
+      "subtopic": "Meiosis",
+      "main_concept": "CON-DEV-38EEEE71FB6A48",
+      "concept_ids": [
+        "CON-DEV-38EEEE71FB6A48"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MEIOSIS-SPERMATOGENESIS"
+      ],
+      "learning_objective": "State that pairing (synapsis) of homologous chromosomes during meiosis I is the structural requirement that permits crossing-over and thus genetic recombination between maternal and paternal chromatids.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOY Foundation 1 2026 Q46",
+      "author_notes": ""
+    }
+  ]
+}

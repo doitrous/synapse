@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-systolic-pressure",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-systolic-pressure'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "cvs",
+    "module_subject": "SCU-FBS102 > Physiology > Cardiovascular Physiology > Exercise Physiology"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-SYSTOLIC-PRESSURE",
+      "key": "physiology-systolic-pressure",
+      "title": "Strenuous exercise raises systolic blood pressure",
+      "subject": "cvs",
+      "module_subject": "SCU-FBS102 > Physiology > Cardiovascular Physiology > Exercise Physiology",
+      "question": "Performing maximal, strenuous exercise typically produces a significant increase in which of the following cardiovascular parameters?",
+      "options": {
+        "A": "Total peripheral (systemic vascular) resistance",
+        "B": "Systolic blood pressure",
+        "C": "Total body water volume",
+        "D": "Daily urinary output volume"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Total peripheral resistance actually falls during dynamic exercise, because vasodilation in the exercising skeletal muscle beds lowers overall resistance rather than raising it.",
+        "B": "Correct. The sharp rise in cardiac output during strenuous exercise, driven by increased heart rate and stroke volume, substantially raises systolic blood pressure, while diastolic pressure changes little because of the offsetting fall in peripheral resistance. This selective rise in systolic, rather than diastolic, pressure is exactly the pattern examiners expect for the cardiovascular response to dynamic exercise.",
+        "C": "Incorrect. Acute exercise does not meaningfully change total body water volume over the short term; fluid shifts and sweat losses are comparatively small relative to total body water.",
+        "D": "Incorrect. Urinary output typically decreases, not increases, during and immediately after strenuous exercise, as renal blood flow is reduced in favour of the exercising muscles."
+      },
+      "topic": "Physiology",
+      "subtopic": "Cardiovascular response to exercise",
+      "main_concept": "CON-CVS-69FF62DF5B6F9B",
+      "concept_ids": [
+        "CON-CVS-69FF62DF5B6F9B"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-CVS-EXERCISE-AND-CAPILLARY-DYNAMICS"
+      ],
+      "learning_objective": "State that maximal exercise raises systolic blood pressure substantially, mainly through increased cardiac output, while diastolic pressure remains relatively unchanged because of exercising-muscle vasodilation.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q49, Formative and Past Exams 2022 Q29",
+      "author_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-set-point-raised",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-set-point-raised'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Thermoregulation"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-SET-POINT-RAISED",
+      "key": "physiology-set-point-raised",
+      "title": "Influenza causes fever by raising the hypothalamic set point",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Thermoregulation",
+      "question": "How does an influenza viral infection typically cause the onset of a fever in a patient?",
+      "options": {
+        "A": "Complete failure of the sweat glands",
+        "B": "The hypothalamic set point is raised",
+        "C": "Total body heat production decreases",
+        "D": "Peripheral cold receptors are intensely activated"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Sweat gland failure is not the mechanism by which influenza produces fever; the driving event is upstream, at the level of the hypothalamic set point itself.",
+        "B": "Correct. Cytokines released during the immune response to influenza act as endogenous pyrogens on the hypothalamus, raising its thermoregulatory set point; the body then generates and conserves heat until core temperature reaches this new, higher target. This is the same set-point-elevation mechanism behind any infectious fever, not something unique to influenza.",
+        "C": "Incorrect. Heat production increases, not decreases, during the rising phase of fever, as shivering thermogenesis is recruited to reach the elevated set point.",
+        "D": "Incorrect. Peripheral cold receptor activation is not the mechanism; the hypothalamus behaves as though the body is cold because the set point itself has moved, not because peripheral cold sensing has intensified."
+      },
+      "topic": "Physiology",
+      "subtopic": "Thermoregulation and fever",
+      "main_concept": "CON-FND-B8F05CD464D977",
+      "concept_ids": [
+        "CON-FND-B8F05CD464D977"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-THERMOREGULATION-FEVER"
+      ],
+      "learning_objective": "Explain fever as pyrogen-mediated resetting of the hypothalamic set point upward, and state that the ensuing shivering and vasoconstriction are the normal response to a body temperature that is now below the new set point.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q28, Formative and Past Exams 2022 Q8",
+      "author_notes": ""
+    }
+  ]
+}

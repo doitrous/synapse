@@ -1,0 +1,98 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-sixteen-kilobases",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-sixteen-kilobases'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Genetics > Molecular Genetics > Mitochondrial DNA"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-SIXTEEN-KILOBASES-A",
+      "key": "genetics-sixteen-kilobases",
+      "title": "Human mitochondrial DNA is approximately 16 kilobases (source paper A)",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Genetics > Molecular Genetics > Mitochondrial DNA",
+      "question": "What is the approximate size of the human mitochondrial DNA sequence, expressed in kilobases?",
+      "options": {
+        "A": "1.6 kilobases",
+        "B": "16 kilobases",
+        "C": "160 kilobases",
+        "D": "1,600 kilobases"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. 1.6 kilobases is ten times too small; the human mitochondrial genome is substantially larger than this, at approximately 16 kilobases.",
+        "B": "Correct. The human mitochondrial genome is a small, circular DNA molecule of approximately 16 kilobases (16,569 base pairs precisely), densely packed with 37 genes and virtually no non-coding sequence — vastly smaller than the roughly 3.2 billion base pair nuclear genome. Despite this small size, the genome is densely packed, encoding 37 genes with essentially no intervening non-coding sequence.",
+        "C": "Incorrect. 160 kilobases is ten times too large for the human mitochondrial genome, though it approaches the size of some other organisms' mitochondrial or organellar genomes.",
+        "D": "Incorrect. 1,600 kilobases (1.6 megabases) is roughly one hundred times too large for the human mitochondrial genome, which is only about 16 kilobases."
+      },
+      "topic": "Genetics",
+      "subtopic": "Mitochondrial genetics",
+      "main_concept": "CON-FND-BB2CD983F9F0CE",
+      "concept_ids": [
+        "CON-FND-BB2CD983F9F0CE"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MOLECULAR-BIOLOGY-MITOCHONDRIAL"
+      ],
+      "learning_objective": "State that the human mitochondrial genome is approximately 16 kilobases (16,569 bp) in size, encoding 37 densely packed genes.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q67",
+      "author_notes": ""
+    },
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-SIXTEEN-KILOBASES-B",
+      "key": "genetics-sixteen-kilobases",
+      "title": "Human mitochondrial DNA is approximately 16 kilobases (source paper B)",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Genetics > Molecular Genetics > Mitochondrial DNA",
+      "question": "What is the approximate size of the human mitochondrial DNA sequence?",
+      "options": {
+        "A": "1.6 kilobases",
+        "B": "16 kilobases",
+        "C": "160 kilobases",
+        "D": "1,600 kilobases"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. 1.6 kilobases understates the true size of the human mitochondrial genome by a factor of ten; the correct figure is approximately 16 kilobases.",
+        "B": "Correct. The human mitochondrial genome measures approximately 16 kilobases (16,569 base pairs), a compact, gene-dense circular DNA molecule that encodes 13 oxidative-phosphorylation proteins along with the tRNAs and rRNAs mitochondria need for their own protein synthesis. Despite this small size, the genome is densely packed, encoding 37 genes with essentially no intervening non-coding sequence.",
+        "C": "Incorrect. 160 kilobases overstates the mitochondrial genome's size by a factor of ten.",
+        "D": "Incorrect. 1,600 kilobases overstates the mitochondrial genome's size by roughly a hundredfold; the true figure is approximately 16 kilobases."
+      },
+      "topic": "Genetics",
+      "subtopic": "Mitochondrial genetics",
+      "main_concept": "CON-FND-BB2CD983F9F0CE",
+      "concept_ids": [
+        "CON-FND-BB2CD983F9F0CE"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MOLECULAR-BIOLOGY-MITOCHONDRIAL"
+      ],
+      "learning_objective": "State that the human mitochondrial genome is approximately 16 kilobases (16,569 bp) in size, encoding 37 densely packed genes.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2022 Q47",
+      "author_notes": ""
+    }
+  ]
+}

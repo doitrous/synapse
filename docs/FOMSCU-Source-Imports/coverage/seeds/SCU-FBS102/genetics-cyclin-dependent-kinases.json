@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-cyclin-dependent-kinases",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-cyclin-dependent-kinases'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Genetics > Cell Cycle > Regulation"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-CYCLIN-DEPENDENT-KINASES",
+      "key": "genetics-cyclin-dependent-kinases",
+      "title": "Cyclin-dependent kinases as internal cell cycle signals",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Genetics > Cell Cycle > Regulation",
+      "question": "Which of the following is considered one of the internal signals that tightly regulate progression through the cell cycle?",
+      "options": {
+        "A": "Growth factors",
+        "B": "Cytokines",
+        "C": "Environmental stresses",
+        "D": "Cyclin-dependent kinases"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Growth factors are external (extracellular) signals that influence whether a cell enters the cycle at all, not the internal molecular machinery that drives progression once the cycle is underway.",
+        "B": "Incorrect. Cytokines are extracellular signalling molecules, typically involved in immune communication, not the internal regulatory machinery of the cell cycle itself.",
+        "C": "Incorrect. Environmental stresses are external factors that can trigger checkpoint arrest, but they are not themselves the internal regulatory signal that drives normal cycle progression.",
+        "D": "Correct. Cyclin-dependent kinases (CDKs), activated by binding their partner cyclins, are the internal molecular signal that phosphorylates target proteins and drives the cell past successive checkpoints through G1, S, G2 and M — the cell's own built-in progression machinery, not an external cue. Because different cyclins peak at different times, sequential cyclin-CDK complexes impose an ordered, one-way progression through the cycle's stages."
+      },
+      "topic": "Genetics",
+      "subtopic": "Cell cycle regulation",
+      "main_concept": "CON-FND-E4791BA5E06846",
+      "concept_ids": [
+        "CON-FND-E4791BA5E06846"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-CELL-CYCLE-BASICS"
+      ],
+      "learning_objective": "State that cyclin-dependent kinases are internal regulators of cell cycle progression, activated only when bound to their partner cyclin, and that sequential cyclin-CDK complexes drive the cell through successive checkpoints.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOY Foundation 1 2026 Q41",
+      "author_notes": ""
+    }
+  ]
+}

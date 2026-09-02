@@ -47,26 +47,26 @@
 | embryology-amniotic-cavity | 0 | 0 | 2 | 2 |
 | embryology-cloacal-membrane | 0 | 0 | 1 | 1 |
 | embryology-three-days | 0 | 0 | 1 | 1 |
-| genetics-23-duplicated-chromosome | 0 | 0 | 1 | 1 |
-| genetics-carbon-five | 0 | 0 | 1 | 1 |
-| genetics-cyclin-dependent-kinases | 0 | 0 | 1 | 1 |
-| genetics-four-sperms | 0 | 0 | 1 | 1 |
-| genetics-genetic-recombination | 0 | 0 | 1 | 1 |
-| genetics-homologous-chromosomes-separate | 0 | 0 | 1 | 1 |
-| genetics-metaphase-checkpoint | 0 | 0 | 1 | 1 |
-| genetics-mitochondria | 0 | 0 | 1 | 1 |
-| genetics-mitosis | 0 | 0 | 1 | 1 |
-| genetics-occurrence-of-recombination | 0 | 0 | 1 | 1 |
-| genetics-pairing-of-homologous-chromosomes | 0 | 0 | 1 | 1 |
-| genetics-pairing-of-homologous-chromosomes-along- | 0 | 0 | 1 | 1 |
-| genetics-repair | 0 | 0 | 1 | 1 |
-| genetics-reverse-transcriptase | 0 | 0 | 1 | 1 |
+| genetics-23-duplicated-chromosome | 1 | 0 | 0 | 1 |
+| genetics-carbon-five | 1 | 0 | 0 | 1 |
+| genetics-cyclin-dependent-kinases | 1 | 0 | 0 | 1 |
+| genetics-four-sperms | 1 | 0 | 0 | 1 |
+| genetics-genetic-recombination | 1 | 0 | 0 | 1 |
+| genetics-homologous-chromosomes-separate | 1 | 0 | 0 | 1 |
+| genetics-metaphase-checkpoint | 1 | 0 | 0 | 1 |
+| genetics-mitochondria | 1 | 0 | 0 | 1 |
+| genetics-mitosis | 1 | 0 | 0 | 1 |
+| genetics-occurrence-of-recombination | 1 | 0 | 0 | 1 |
+| genetics-pairing-of-homologous-chromosomes | 1 | 0 | 0 | 1 |
+| genetics-pairing-of-homologous-chromosomes-along- | 1 | 0 | 0 | 1 |
+| genetics-repair | 1 | 0 | 0 | 1 |
+| genetics-reverse-transcriptase | 1 | 0 | 0 | 1 |
 | genetics-second-meiotic-division | 1 | 0 | 0 | 1 |
-| genetics-sixteen-kilobases | 0 | 0 | 2 | 2 |
-| genetics-twenty-two-autosomes-and-one-x-chromosom | 0 | 0 | 1 | 1 |
-| genetics-two | 0 | 0 | 1 | 1 |
-| genetics-two-identical-daughter-cells | 0 | 0 | 1 | 1 |
-| genetics-x-chromosome-only | 0 | 0 | 1 | 1 |
+| genetics-sixteen-kilobases | 2 | 0 | 0 | 2 |
+| genetics-twenty-two-autosomes-and-one-x-chromosom | 1 | 0 | 0 | 1 |
+| genetics-two | 1 | 0 | 0 | 1 |
+| genetics-two-identical-daughter-cells | 1 | 0 | 0 | 1 |
+| genetics-x-chromosome-only | 1 | 0 | 0 | 1 |
 | histology-absorption-and-secretion | 1 | 0 | 0 | 1 |
 | histology-cristae | 1 | 0 | 0 | 1 |
 | histology-epineurium | 1 | 0 | 0 | 1 |
@@ -93,31 +93,31 @@
 | medical-ethics-respect-patient-autonomy | 0 | 0 | 1 | 1 |
 | pending-live-reuse-batch1 | 13 | 0 | 0 | 13 |
 | pending-live-reuse-batch2 | 35 | 0 | 0 | 35 |
-| physiology-300-mosm-per-liter | 0 | 0 | 1 | 1 |
-| physiology-bulk-flow | 0 | 0 | 1 | 1 |
-| physiology-carbon-dioxide | 0 | 0 | 1 | 1 |
-| physiology-chemicals-cells | 0 | 0 | 1 | 1 |
-| physiology-conduction | 0 | 0 | 1 | 1 |
-| physiology-control-center | 0 | 0 | 1 | 1 |
-| physiology-decreased-sodium-excretion | 0 | 0 | 1 | 1 |
-| physiology-delayed-potassium-closure | 0 | 0 | 1 | 1 |
-| physiology-effector | 0 | 0 | 1 | 1 |
-| physiology-elevation-of-set-point | 0 | 0 | 1 | 1 |
-| physiology-exhaustion | 0 | 0 | 1 | 1 |
-| physiology-exocytosis | 0 | 0 | 1 | 1 |
-| physiology-hypothalamic-set-point-decreased | 0 | 0 | 1 | 1 |
-| physiology-hypothalamic-set-point-resetting | 0 | 0 | 1 | 1 |
-| physiology-increasing-contraction | 0 | 0 | 1 | 1 |
-| physiology-inhibits-sodium-reabsorption | 0 | 0 | 2 | 2 |
-| physiology-it-prepares-the-body-for-anticipated-act | 0 | 0 | 1 | 1 |
-| physiology-lesser-in-females | 0 | 0 | 1 | 1 |
-| physiology-opening-of-potassium-channels | 0 | 0 | 1 | 1 |
-| physiology-pumps-constantly-active | 0 | 0 | 1 | 1 |
-| physiology-resetting-of-set-point | 0 | 0 | 1 | 1 |
-| physiology-set-point-raised | 0 | 0 | 1 | 1 |
-| physiology-sodium-channels-inactive | 0 | 0 | 1 | 1 |
-| physiology-systolic-pressure | 0 | 0 | 1 | 1 |
-| physiology-the-pumps-are-constantly-active-in-all-c | 0 | 0 | 1 | 1 |
+| physiology-300-mosm-per-liter | 1 | 0 | 0 | 1 |
+| physiology-bulk-flow | 1 | 0 | 0 | 1 |
+| physiology-carbon-dioxide | 1 | 0 | 0 | 1 |
+| physiology-chemicals-cells | 1 | 0 | 0 | 1 |
+| physiology-conduction | 1 | 0 | 0 | 1 |
+| physiology-control-center | 1 | 0 | 0 | 1 |
+| physiology-decreased-sodium-excretion | 1 | 0 | 0 | 1 |
+| physiology-delayed-potassium-closure | 1 | 0 | 0 | 1 |
+| physiology-effector | 1 | 0 | 0 | 1 |
+| physiology-elevation-of-set-point | 1 | 0 | 0 | 1 |
+| physiology-exhaustion | 1 | 0 | 0 | 1 |
+| physiology-exocytosis | 1 | 0 | 0 | 1 |
+| physiology-hypothalamic-set-point-decreased | 1 | 0 | 0 | 1 |
+| physiology-hypothalamic-set-point-resetting | 1 | 0 | 0 | 1 |
+| physiology-increasing-contraction | 1 | 0 | 0 | 1 |
+| physiology-inhibits-sodium-reabsorption | 2 | 0 | 0 | 2 |
+| physiology-it-prepares-the-body-for-anticipated-act | 1 | 0 | 0 | 1 |
+| physiology-lesser-in-females | 1 | 0 | 0 | 1 |
+| physiology-opening-of-potassium-channels | 1 | 0 | 0 | 1 |
+| physiology-pumps-constantly-active | 1 | 0 | 0 | 1 |
+| physiology-resetting-of-set-point | 1 | 0 | 0 | 1 |
+| physiology-set-point-raised | 1 | 0 | 0 | 1 |
+| physiology-sodium-channels-inactive | 1 | 0 | 0 | 1 |
+| physiology-systolic-pressure | 1 | 0 | 0 | 1 |
+| physiology-the-pumps-are-constantly-active-in-all-c | 1 | 0 | 0 | 1 |
 
 ## Held
 (none)
@@ -133,55 +133,9 @@
 - embryology-amniotic-cavity
 - embryology-cloacal-membrane
 - embryology-three-days
-- genetics-23-duplicated-chromosome
-- genetics-carbon-five
-- genetics-cyclin-dependent-kinases
-- genetics-four-sperms
-- genetics-genetic-recombination
-- genetics-homologous-chromosomes-separate
-- genetics-metaphase-checkpoint
-- genetics-mitochondria
-- genetics-mitosis
-- genetics-occurrence-of-recombination
-- genetics-pairing-of-homologous-chromosomes
-- genetics-pairing-of-homologous-chromosomes-along-
-- genetics-repair
-- genetics-reverse-transcriptase
-- genetics-sixteen-kilobases
-- genetics-sixteen-kilobases
-- genetics-twenty-two-autosomes-and-one-x-chromosom
-- genetics-two
-- genetics-two-identical-daughter-cells
-- genetics-x-chromosome-only
 - medical-ethics-a-judge-or-legal-guardian
 - medical-ethics-a-unique-professional-bond-for-effective
 - medical-ethics-adolescent-sexuality
 - medical-ethics-competent-adult
 - medical-ethics-publishing-in-journals
 - medical-ethics-respect-patient-autonomy
-- physiology-300-mosm-per-liter
-- physiology-bulk-flow
-- physiology-carbon-dioxide
-- physiology-chemicals-cells
-- physiology-conduction
-- physiology-control-center
-- physiology-decreased-sodium-excretion
-- physiology-delayed-potassium-closure
-- physiology-effector
-- physiology-elevation-of-set-point
-- physiology-exhaustion
-- physiology-exocytosis
-- physiology-hypothalamic-set-point-decreased
-- physiology-hypothalamic-set-point-resetting
-- physiology-increasing-contraction
-- physiology-inhibits-sodium-reabsorption
-- physiology-inhibits-sodium-reabsorption
-- physiology-it-prepares-the-body-for-anticipated-act
-- physiology-lesser-in-females
-- physiology-opening-of-potassium-channels
-- physiology-pumps-constantly-active
-- physiology-resetting-of-set-point
-- physiology-set-point-raised
-- physiology-sodium-channels-inactive
-- physiology-systolic-pressure
-- physiology-the-pumps-are-constantly-active-in-all-c

@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-the-pumps-are-constantly-active-in-all-c",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-the-pumps-are-constantly-active-in-all-c'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Cell Physiology > Membrane Transport"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-THE-PUMPS-ARE-CONSTANTLY-ACTIVE-IN-ALL-C",
+      "key": "physiology-the-pumps-are-constantly-active-in-all-c",
+      "title": "The sodium-potassium pump is active in all cells",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Cell Physiology > Membrane Transport",
+      "question": "Based on the fact that the Na+/K+-ATPase is a vital active transporter across the cell membrane, which of the following best describes its pattern of activity?",
+      "options": {
+        "A": "Sodium is actively transported into the cell",
+        "B": "Potassium is actively transported out of the cell",
+        "C": "Equal numbers of sodium and potassium ions are transported with each cycle",
+        "D": "The pumps are constantly active in essentially all cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The pump actively moves sodium out of the cell, not into it — sodium entry is passive, occurring through leak channels and other transport pathways, not through this ATPase.",
+        "B": "Incorrect. This reverses the direction for potassium; the pump actively brings potassium into the cell rather than pumping it out.",
+        "C": "Incorrect. The pump's stoichiometry is unequal (three Na+ out for every two K+ in per cycle), not a matched one-for-one exchange.",
+        "D": "Correct. Virtually every cell in the body expresses this pump, and because leak channels constantly dissipate the ionic gradients it establishes, the pump must remain continuously active — not merely active occasionally — to hold the resting gradients steady, making it one of the largest baseline consumers of cellular ATP. Without this continuous activity, the ionic gradients that make resting membrane potential, action potentials and secondary active transport possible would collapse."
+      },
+      "topic": "Physiology",
+      "subtopic": "Cell membrane transport",
+      "main_concept": "CON-FND-A644A33FBF4FAE",
+      "concept_ids": [
+        "CON-FND-A644A33FBF4FAE"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-CELL-MEMBRANE-AND-FLUID-BASICS"
+      ],
+      "learning_objective": "State that the Na+/K+-ATPase is continuously (not intermittently) active in nearly all cells, pumping 3 Na+ out for every 2 K+ in per cycle, to maintain resting ionic gradients against constant leak.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2022 Q55",
+      "author_notes": ""
+    }
+  ]
+}

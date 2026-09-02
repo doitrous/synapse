@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-control-center",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-control-center'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Feedback Mechanisms"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-CONTROL-CENTER",
+      "key": "physiology-control-center",
+      "title": "The control center compares sensed variables to the set point",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Feedback Mechanisms",
+      "question": "Which physiological component of a homeostatic control loop compares the sensed value of a variable with the set point and initiates a corrective response if needed?",
+      "options": {
+        "A": "Receptor",
+        "B": "Effector",
+        "C": "Control center",
+        "D": "Sensory (afferent) pathway"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The receptor's role is to sense the current value of the variable and generate a signal; it is the control center, not the receptor, that performs the comparison against the set point.",
+        "B": "Incorrect. The effector is what carries out the corrective response once it has been commanded; it does not itself compare the sensed value to the set point.",
+        "C": "Correct. The control center — commonly a region of the brain such as the hypothalamus, or another integrating structure — receives the sensory signal, compares it against the desired set point, and, if the two differ, generates the command that drives the effector's corrective response. The receptor senses the variable and the effector carries out the response, leaving the comparison-and-decision step specifically to the control center.",
+        "D": "Incorrect. The sensory (afferent) pathway simply carries the receptor's signal toward the control center; it does not itself perform the comparison against the set point."
+      },
+      "topic": "Physiology",
+      "subtopic": "Feedback control systems",
+      "main_concept": "CON-FND-820BADBE514D1B",
+      "concept_ids": [
+        "CON-FND-820BADBE514D1B"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-HOMEOSTASIS-CONTROL-SYSTEMS"
+      ],
+      "learning_objective": "Identify the control center as the component of a homeostatic loop that compares the sensed variable against the set point and issues the corrective command, distinct from the receptor and the effector.",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOY Foundation 1 2026 Q54",
+      "author_notes": ""
+    }
+  ]
+}

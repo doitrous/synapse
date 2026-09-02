@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-pumps-constantly-active",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-pumps-constantly-active'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Cell Physiology > Membrane Transport"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-PUMPS-CONSTANTLY-ACTIVE",
+      "key": "physiology-pumps-constantly-active",
+      "title": "The sodium-potassium pump is constantly active",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Cell Physiology > Membrane Transport",
+      "question": "Based on the fact that the Na+/K+-ATPase is a vital active transporter across the cell membrane, which of the following statements about it is true?",
+      "options": {
+        "A": "Sodium is actively transported exclusively into the cell",
+        "B": "Potassium is actively transported exclusively out of the cell",
+        "C": "An exactly equal number of sodium and potassium ions are transported each cycle",
+        "D": "The pump is constantly active, continuously exchanging sodium and potassium"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The Na+/K+-ATPase actively pumps sodium out of the cell, not into it; sodium moves into the cell passively down its gradient through leak channels and other transporters, not via this pump.",
+        "B": "Incorrect. This reverses the pump's direction for potassium — the pump actively transports potassium into the cell, not out of it.",
+        "C": "Incorrect. The exchange is unequal: the pump moves three Na+ ions out for every two K+ ions it brings in per cycle, making it electrogenic rather than a one-for-one swap.",
+        "D": "Correct. Because leak channels constantly allow some Na+ back into the cell and some K+ back out, the Na+/K+-ATPase must run continuously, not intermittently, in essentially every cell of the body, simply to maintain the resting ionic gradients against this ongoing leak. This baseline activity is a major consumer of the cell's ATP and is what maintains the negative resting membrane potential shared by virtually every cell."
+      },
+      "topic": "Physiology",
+      "subtopic": "Cell membrane transport",
+      "main_concept": "CON-FND-A644A33FBF4FAE",
+      "concept_ids": [
+        "CON-FND-A644A33FBF4FAE"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-CELL-MEMBRANE-AND-FLUID-BASICS"
+      ],
+      "learning_objective": "State that the Na+/K+-ATPase is continuously (not intermittently) active in nearly all cells, pumping 3 Na+ out for every 2 K+ in per cycle, to maintain resting ionic gradients against constant leak.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q76",
+      "author_notes": ""
+    }
+  ]
+}

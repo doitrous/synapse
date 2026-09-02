@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-increasing-contraction",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-increasing-contraction'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Feedback Mechanisms"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-INCREASING-CONTRACTION",
+      "key": "physiology-increasing-contraction",
+      "title": "Positive feedback: labor contractions intensify progressively",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Feedback Mechanisms",
+      "question": "Which of the following physiological scenarios is the classic, well-known example of a positive feedback mechanism?",
+      "options": {
+        "A": "Uterine contractions becoming progressively stronger and more frequent during labor",
+        "B": "The body shivering to generate heat that has been lost",
+        "C": "Insulin being released to stop rapidly rising blood glucose",
+        "D": "Blood vessels dilating to lower a raised body temperature"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. As the fetal head stretches the cervix, oxytocin is released and strengthens uterine contractions, which stretch the cervix further and trigger yet more oxytocin release — the Ferguson reflex — so each cycle amplifies the next, driving the process to completion (delivery) rather than back to a stable set point, the defining feature of positive feedback. This self-reinforcing amplification, rather than a return to a stable baseline, is exactly what marks a loop as positive rather than negative feedback.",
+        "B": "Incorrect. Shivering in response to heat loss is a negative feedback response: it corrects a deviation (falling temperature) by driving the variable back toward its normal set point, the opposite pattern from positive feedback.",
+        "C": "Incorrect. Insulin release in response to rising glucose is a classic negative feedback loop, lowering glucose back toward its set point rather than amplifying the rise.",
+        "D": "Incorrect. Vasodilation to lower a raised body temperature is also negative feedback, correcting the deviation back toward the normal set point rather than reinforcing it further."
+      },
+      "topic": "Physiology",
+      "subtopic": "Feedback control systems",
+      "main_concept": "CON-FND-012CF9158E1FCB",
+      "concept_ids": [
+        "CON-FND-012CF9158E1FCB"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-HOMEOSTASIS-CONTROL-SYSTEMS"
+      ],
+      "learning_objective": "State that progressively strengthening uterine contractions during labor, mediated by the oxytocin-driven Ferguson reflex, are the classic example of positive feedback, and contrast this with negative feedback.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q75, Formative and Past Exams 2022 Q54",
+      "author_notes": ""
+    }
+  ]
+}

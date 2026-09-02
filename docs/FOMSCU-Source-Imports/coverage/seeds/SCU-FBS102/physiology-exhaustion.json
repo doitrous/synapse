@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-exhaustion",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-exhaustion'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "neuro",
+    "module_subject": "SCU-FBS102 > Physiology > Nerve and Muscle Physiology > Synaptic Transmission"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-EXHAUSTION",
+      "key": "physiology-exhaustion",
+      "title": "Synaptic fatigue results from neurotransmitter depletion",
+      "subject": "neuro",
+      "module_subject": "SCU-FBS102 > Physiology > Nerve and Muscle Physiology > Synaptic Transmission",
+      "question": "What is the fundamental physiological cause of synaptic fatigue (exhaustion) at a repeatedly, rapidly stimulated synapse?",
+      "options": {
+        "A": "Rapid inactivation of postsynaptic receptors",
+        "B": "Depletion of the presynaptic terminal's readily releasable neurotransmitter stores",
+        "C": "Complete lack of oxygen reaching the nerve terminal",
+        "D": "Massive local accumulation of lactic acid"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Postsynaptic receptor inactivation is not the principal mechanism of synaptic fatigue; the limiting step is presynaptic, not postsynaptic.",
+        "B": "Correct. With sustained high-frequency stimulation, vesicle mobilization and release cannot keep pace with demand, so the presynaptic terminal's readily releasable neurotransmitter pool becomes depleted, and each successive action potential releases less neurotransmitter, weakening the postsynaptic response. Fatigue in this sense is protective, preventing a synapse from firing indefinitely, and it resolves once the terminal has time to replenish its vesicle stores.",
+        "C": "Incorrect. Local hypoxia is not the described mechanism of synaptic fatigue in this context; the fatigue is a presynaptic neurotransmitter-supply phenomenon, not an oxygen-delivery one.",
+        "D": "Incorrect. Lactic acid accumulation is a feature of fatigued skeletal muscle metabolism, not the mechanism of synaptic fatigue at a nerve terminal."
+      },
+      "topic": "Physiology",
+      "subtopic": "Synaptic transmission",
+      "main_concept": "CON-NEU-89D6CDB4D82195",
+      "concept_ids": [
+        "CON-NEU-89D6CDB4D82195"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-ACTION-POTENTIAL-IONIC-BASIS"
+      ],
+      "learning_objective": "State that synaptic fatigue (exhaustion) after repetitive stimulation is caused chiefly by depletion of presynaptic neurotransmitter stores, not by receptor damage or oxygen lack.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q31, Formative and Past Exams 2022 Q11",
+      "author_notes": ""
+    }
+  ]
+}

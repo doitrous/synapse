@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-pairing-of-homologous-chromosomes",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-pairing-of-homologous-chromosomes'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "dev",
+    "module_subject": "SCU-FBS102 > Genetics > Cell Division > Meiosis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-PAIRING-OF-HOMOLOGOUS-CHROMOSOMES",
+      "key": "genetics-pairing-of-homologous-chromosomes",
+      "title": "Synapsis: pairing of homologous chromosomes in prophase I",
+      "subject": "dev",
+      "module_subject": "SCU-FBS102 > Genetics > Cell Division > Meiosis",
+      "question": "What exactly occurs during the biological process of synapsis in the prophase of the first meiotic division?",
+      "options": {
+        "A": "Separation of sister chromatids",
+        "B": "Pairing of homologous chromosomes",
+        "C": "Division of the cellular cytoplasm",
+        "D": "Condensation of the nuclear envelope"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Sister chromatid separation happens much later, at anaphase II, not during prophase I synapsis, which involves an entirely different pair of structures — homologous chromosomes, not chromatids of the same chromosome.",
+        "B": "Correct. Synapsis is the process, specific to prophase I of meiosis, in which each chromosome pairs closely with its homologous partner along its full length, held together by the synaptonemal complex, forming a structure called a bivalent and enabling crossing-over between them. This pairing has no equivalent step in mitosis, where homologous chromosomes never pair with one another at all.",
+        "C": "Incorrect. Division of the cytoplasm (cytokinesis) is a separate, later event that follows nuclear division, not something that occurs during prophase I synapsis.",
+        "D": "Incorrect. The nuclear envelope actually breaks down, rather than condenses, as prophase I progresses toward metaphase I; this is unrelated to the pairing process of synapsis."
+      },
+      "topic": "Genetics",
+      "subtopic": "Meiosis",
+      "main_concept": "CON-DEV-4D3DBC3BD2FDCC",
+      "concept_ids": [
+        "CON-DEV-4D3DBC3BD2FDCC"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MEIOSIS-SPERMATOGENESIS"
+      ],
+      "learning_objective": "Define synapsis as the length-wise pairing of homologous chromosomes during prophase I of meiosis via the synaptonemal complex, distinct from any pairing of sister chromatids.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q9, Formative and Past Exams 2023 Q9",
+      "author_notes": ""
+    }
+  ]
+}
