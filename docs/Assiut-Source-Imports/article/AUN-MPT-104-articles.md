@@ -2217,3 +2217,153 @@ Block: body
 ### definition_of · CON-FND-D7B70CF66505F4
 Quote: Selective beta2-adrenomimetics, despite their receptor selectivity, can still produce tachycardia as a side-effect
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-TISSUE-REPAIR-FACTORS
+
+## title
+Wound healing: first versus second intention, the factors that decide the outcome, and keloid
+
+## arabic_title
+شفاء الجروح: النية الأولى مقابل الثانية، والعوامل المحددة للنتيجة، والجُدرة
+
+## aliases
+Tissue repair: Factors affecting and complications
+Lecture 29
+First and second intention healing
+Keloid formation
+
+## subject
+fnd
+
+## topic
+Tissue repair: Factors affecting and complications
+
+## subtopic
+First versus second intention, healing factors, keloid
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 29 follows Lecture 27's regeneration-versus-organization classification with the two ways a wound actually closes and the factors that swing the outcome between them. Healing by first intention (primary union) happens in a clean, apposed wound such as a sutured incision, needs little granulation tissue and carries few complications; healing by second intention happens across a larger, gaping defect, needs abundant granulation tissue and wound contraction, and carries more complications. What decides which pathway a given wound follows, and how well it goes, includes apposing the edges (sutures help) against corticosteroid therapy, poor tissue perfusion and bacterial contamination (all of which impair healing). A firm, non-tender, well-demarcated nodule of fibroblasts and abundant collagen appearing weeks after a clean stab-wound repair, with intact overlying epithelium, is a different, exaggerated-collagen outcome of the same repair process: keloid formation.
+
+## sections
+### Definition
+Healing by first intention (primary union) occurs in a clean, incised wound whose edges are closely apposed -- needing only a thin fibrin seal and minimal granulation tissue, healing quickly with few complications. Healing by second intention occurs across a larger tissue defect whose edges cannot be apposed -- an abscess cavity or an area of ulceration -- and needs abundant granulation tissue to fill the gap, healing by wound contraction over a longer time with more complications. A clean surgical wound with apposed edges is the standard example of a lesion that does NOT heal by second intention, since its edges are close enough for primary union instead.
+
+### Mechanism
+Apposing the wound edges -- for example with sutures -- helps healing by minimising the gap the repair process must bridge, favouring first-intention repair with less granulation tissue and fewer complications. Corticosteroid therapy impairs healing by suppressing the inflammatory and fibroblastic phases of repair; decreased tissue perfusion impairs healing by limiting the oxygen and nutrient delivery repair depends on; and the presence of bacteria impairs healing by prolonging the inflammatory phase and directly damaging newly formed tissue. Keloid formation is an exaggerated variant of the same repair process: fibroblasts lay down abundant, disorganised collagen well beyond the original wound margin, producing a firm, raised, non-tender nodule under intact epithelium, distinct from a foreign-body response, a fistula or a wound infection.
+
+### Key determinants
+A 19-year-old man's stab-wound repair, two months on, showing a firm 3x2 cm nodule of fibroblasts and abundant collagen under intact, non-tender, non-erythematous epithelium, matches keloid formation rather than a foreign-body reaction to suturing (which would show giant cells and refractile material, not this fibroblast/collagen picture), a fistula (an abnormal tract, not a solid nodule) or a staphylococcal wound infection (which would show erythema, tenderness and typically pus, not a firm painless mass). A 20-year-old woman's calf laceration, closed with sutures and healing uneventfully over a week, is expected to do well specifically because apposition -- not corticosteroid therapy, decreased perfusion or bacterial contamination -- is the factor present.
+
+### Clinical significance
+Recognising which pathway a wound is expected to follow predicts its complication risk and cosmetic result: a surgical incision closed cleanly should heal by first intention with a fine scar, while a large soft-tissue defect, an abscess cavity or an ulcer will need second-intention healing, with the attendant higher complication rate and longer course clinicians should anticipate and counsel for. Identifying the modifiable factors -- avoiding unnecessary corticosteroids, optimising perfusion, controlling bacterial contamination, and apposing edges surgically where possible -- is the practical lever for improving a wound's healing outcome. A firm post-wound nodule of fibroblasts and collagen under intact skin should be read as keloid, not as infection or a foreign-body reaction, before reflexively re-exploring or treating it as sepsis.
+
+### Common misconceptions
+Assuming a surgical wound heals by second intention because an instrument caused it, rather than by whether its edges are apposed. Assuming granulation tissue and complication rates are the same for both pathways, when second intention specifically means more granulation tissue and more complications precisely because of the larger defect it must fill. Assuming any wound-care factor could only be neutral, rather than recognising apposition as specifically helpful and corticosteroids, poor perfusion and bacterial contamination as specifically harmful. Misreading a firm, non-tender, collagen-rich post-wound nodule with intact overlying epithelium as a foreign-body response, a fistula or an infection instead of keloid formation.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+First intention needs apposed edges, minimal granulation tissue, fewer complications, faster healing; second intention needs a larger defect, abundant granulation tissue, wound contraction, more complications, slower healing.
+A clean surgical wound with apposed edges does NOT heal by second intention.
+Apposing edges (sutures) helps wound healing; corticosteroid therapy, decreased tissue perfusion and bacterial contamination impair it.
+A firm, non-tender nodule of fibroblasts and abundant collagen appearing weeks after a clean wound, under intact epithelium, is keloid formation.
+
+## lose_the_mark
+Classifying a wound's healing pathway by mechanism of injury rather than by whether its edges are apposed.
+Reversing which pathway has more granulation tissue and more complications.
+Naming corticosteroid therapy, decreased perfusion or bacterial contamination as helping healing, or sutures/apposition as impairing it.
+Misreading a firm collagen-rich post-wound nodule under intact skin as a foreign-body reaction, fistula or infection instead of keloid.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-DA7931EDFB7CDF
+CON-FND-FEDFC8ABD0A7E9
+CON-FND-3C513E02CB8362
+
+## related_articles
+ART-FND-AUN-MPT104-TISSUE-REPAIR
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 29 (Tissue repair: Factors affecting and complications) -- no department slide deck exists in the corpus past Lecture 8, so the two mints here cite the quiz bank's own printed-answer text instead. The keloid grain (Quiz 29 Q1) reuses a pending Helwan HU-BMS-102 concept (CON-FND-3C513E02CB8362) rather than minting a twin; that concept's own article_ids entry (ART-HU-BMS102-PAT-F143-REPAIR) is a dangling reference inside the Helwan family-143 concept batch itself, so the reusing AUN-MPT-104 question cites this article instead, appended to that concept's article_ids via the pending-live overlay so the library_ids-coverage check has a real article to point to.
+
+## annotations
+### definition_of · CON-FND-DA7931EDFB7CDF
+Quote: A clean surgical wound with apposed edges is the standard example of a lesion that does NOT heal by second intention, since its edges are close enough for primary union instead.
+Block: body
+
+### definition_of · CON-FND-FEDFC8ABD0A7E9
+Quote: Apposing the wound edges -- for example with sutures -- helps healing by minimising the gap the repair process must bridge, favouring first-intention repair with less granulation tissue and fewer complications.
+Block: body
+
+### definition_of · CON-FND-3C513E02CB8362
+Quote: Keloid formation is an exaggerated variant of the same repair process: fibroblasts lay down abundant, disorganised collagen well beyond the original wound margin, producing a firm, raised, non-tender nodule under intact epithelium
+Block: body

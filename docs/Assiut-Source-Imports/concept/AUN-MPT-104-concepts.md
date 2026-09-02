@@ -9192,3 +9192,301 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "beta2 adrenomimetic tachycardia side effect" -- 0 hits, new concept.
 relationships: closes the Lecture 28 sympathetic-agonists-2 set and the whole Quiz 23-28 cluster; paired with CON-FND-50FB4649C59276 (ipratropium, the other airway-adrenoceptor-adjacent concept in this lane).
+
+---
+
+# Item
+
+## id
+CON-FND-DA7931EDFB7CDF
+
+## label
+Healing by first intention (apposed edges, low complications) versus second intention (tissue defect, more granulation tissue and complications)
+
+## canonical_key
+teaching.pathology.wound-healing.first-vs-second-intention
+
+## aliases
+Primary union
+Primary intention
+Secondary intention
+Wound healing patterns
+
+## arabic_label
+الشفاء بالنية الأولى مقابل النية الثانية
+
+## arabic_aliases
+الالتحام الأولي
+الشفاء بالنية الثانوية
+
+## definition
+Wound healing follows one of two patterns depending on the size of the tissue defect and whether the wound edges can be apposed. Healing by first intention (primary union) occurs in a clean, incised wound whose edges are closely apposed -- a sutured surgical incision is the standard example -- and needs only a thin fibrin seal and minimal granulation tissue, heals quickly, and carries a low complication rate. Healing by second intention occurs when there is a larger tissue defect and the wound edges cannot be apposed (an abscess cavity, an area of ulceration, an infarct undergoing organisation) -- it requires abundant granulation tissue to fill the gap and heals by wound contraction over a longer period, carrying a higher rate of complications than first intention. A clean surgical wound with apposed edges is the standard example of a lesion that does NOT heal by second intention, precisely because its edges are close enough for primary union instead.
+
+## explicit_objective
+Given a description of a wound (edges cleanly apposed vs. a defect with tissue loss/gaping edges), classify it as healing by first or second intention and predict which pathway has more granulation tissue, more complications, and a longer healing time.
+
+## pitfalls
+Assuming a surgical wound heals by second intention because an instrument caused it -- what determines the healing pathway is whether the edges are apposed (first intention), not the mechanism of injury. Assuming granulation tissue and complication rates are equal between the two pathways, when second intention specifically means more granulation tissue and more complications precisely because of the larger defect it must fill.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Tissue repair: Factors affecting and complications
+
+## subtopic
+First versus second intention healing
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-TISSUE-REPAIR-FACTORS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-EF9B8220E32D3F
+CON-FND-FEDFC8ABD0A7E9
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following lesion does NOT heal by second intention: ... Surgical wound" (Quiz 29 Q3); "Which of the following is a feature of healing by second intention? ... More common complications" (Q4); "Which of the following is characteristic for healing by first intention? ... Occur in clean cut wound" (Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 29 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "healing by second intention" and "healing first intention second intention" -- 0 hits, new concept.
+relationships: three quiz rows (Q3/Q4/Q5) collapsed onto this one concept -- the same first-vs-second-intention classification tested three ways (which lesion excludes second intention; second intention's own feature; first intention's own feature).
+
+---
+
+# Item
+
+## id
+CON-FND-FEDFC8ABD0A7E9
+
+## label
+Apposing wound edges with sutures helps healing; corticosteroids, poor perfusion and bacterial contamination impair it
+
+## canonical_key
+teaching.pathology.wound-healing.factors-affecting-outcome
+
+## aliases
+Factors affecting wound healing
+Wound healing complications
+
+## arabic_label
+العوامل المؤثرة على شفاء الجروح
+
+## arabic_aliases
+عوامل تعيق الشفاء
+
+## definition
+Several local and systemic factors determine whether a wound heals well or poorly. Apposing the wound edges -- for example with sutures -- helps healing by minimising the gap the tissue must bridge, favouring first-intention repair with less granulation tissue and fewer complications. By contrast, corticosteroid therapy impairs healing by suppressing the inflammatory and fibroblastic phases of repair, decreased tissue perfusion impairs healing by limiting the oxygen and nutrient delivery repair depends on, and the presence of bacteria impairs healing by prolonging the inflammatory phase and directly damaging newly formed tissue. A laceration closed with sutures over the following week is expected to heal favourably specifically because apposition, not any of these impairing factors, is present.
+
+## explicit_objective
+Given a clinical scenario describing a wound-care factor (sutures/apposition, corticosteroid use, tissue perfusion, bacterial contamination), classify it as helping or impairing wound healing.
+
+## pitfalls
+Assuming any intervention around a wound (such as suturing) could only be neutral or that all systemic factors (steroids, perfusion, infection) act the same direction -- apposition specifically helps, while corticosteroids, poor perfusion and bacteria specifically impair, and the exam question tests recognising which single option among the four is the helping one.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Tissue repair: Factors affecting and complications
+
+## subtopic
+Factors affecting wound healing
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-TISSUE-REPAIR-FACTORS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-DA7931EDFB7CDF
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 20-year-old woman sustains an injury to her right calf ... This wound is closed with sutures. Wound healing proceeds over the next week. Which of the following factors will be most likely to help wound healing in this patient? ... Presence of sutures" (Quiz 29 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 29 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "factors affecting wound healing" and "wound healing sutures" -- 0 hits, new concept.
+relationships: paired with CON-FND-DA7931EDFB7CDF (first vs second intention) as the lecture's other tissue-repair-factors grain.

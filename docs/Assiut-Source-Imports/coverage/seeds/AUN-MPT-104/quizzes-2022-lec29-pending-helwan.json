@@ -1,0 +1,60 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank questions (Lecture 29: Tissue repair: Factors affecting and complications, Quiz 29 Q1, q229) reusing one pending Helwan HU-BMS-102 concept (keloid formation, confirmed exact match by find-existing.mjs) instead of minting a twin. Emitted to pending-live/ rather than question/ because the reused concept is not yet live; apply only after the Helwan HU-BMS-102 family-143 concept batch, plus the sparse +aun overlay file in this same directory (AUN-MPT-104-quizzes-2022-lec29-pending-helwan-concept.md).",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q229",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q229",
+      "page": 110,
+      "title": "Firm collagen-rich post-stab-wound nodule is keloid formation",
+      "question": "A 19-year-old man incurs a stab wound to the chest. The wound is treated in the emergency room. Two months later there is a firm, 3 x 2 cm nodular mass with intact overlying epithelium in the region of the wound. On examination the scar is firm, but not tender, with no erythema. This mass is excised and microscopically shows fibroblasts with abundant collagen. Which of the following mechanisms has most likely produced this series of events?",
+      "options": {
+        "A": "Keloid formation",
+        "B": "Foreign body response from suturing",
+        "C": "Fistula formation",
+        "D": "Staphylococcal wound infection"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A firm, non-tender, non-erythematous nodule under intact epithelium, showing fibroblasts with abundant collagen on excision, matches keloid formation. Keloid is an exaggerated variant of normal repair in which fibroblasts lay down excess, disorganised collagen beyond the original wound margin. Its bland, painless, non-inflamed appearance distinguishes it from the other options here.",
+        "B": "Incorrect. A foreign-body response to retained suture material would show macrophages and multinucleated giant cells around refractile foreign material on histology, not a picture of fibroblasts with abundant collagen alone.",
+        "C": "Incorrect. A fistula is an abnormal communicating tract between two epithelial or endothelial surfaces, not a solid, firm, collagen-rich nodule under intact skin.",
+        "D": "Incorrect. A staphylococcal wound infection would present with erythema, tenderness and typically purulent discharge, none of which this scar shows -- it is firm, non-tender and non-erythematous."
+      },
+      "main_concept": "CON-FND-3C513E02CB8362",
+      "concept_ids": ["CON-FND-3C513E02CB8362"],
+      "contextual_concept_ids": [],
+      "topic": "Tissue repair: Factors affecting and complications",
+      "subtopic": "Keloid formation",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise a firm, non-tender, collagen-rich nodule under intact epithelium appearing weeks after a wound as keloid formation, distinct from a foreign-body response, a fistula or a wound infection.",
+      "media_recommendations": "",
+      "library_ids": ["ART-FND-AUN-MPT104-TISSUE-REPAIR-FACTORS"],
+      "module_subject": "AUN-MPT-104 > Pathology > Tissue repair: Factors affecting and complications",
+      "field_notes": {
+        "keySource": "printed \"The correct answer is: Keloid formation\"",
+        "pendingConcept": "CON-FND-3C513E02CB8362 pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-pathology-family143-concepts.md, canonical_key keloid-gross-diagnosis -- this question applies only after Omar imports that Helwan batch and the sparse +aun overlay"
+      },
+      "author_notes": ""
+    }
+  ]
+}
