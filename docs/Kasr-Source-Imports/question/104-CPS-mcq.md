@@ -22,8 +22,8 @@
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
-    Histology Cardiovascular System — A-V Connections — 35 questions, 5 concepts
-    Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
+    Histology Cardiovascular System — A-V Connections — 36 questions, 5 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 8 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
@@ -49,25 +49,25 @@
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
     Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
+    Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 41 questions, 10 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 18 questions, 5 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 30 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
-    Pulmonary Compliance — 20 questions, 3 concepts
+    Pulmonary Compliance — 29 questions, 3 concepts
     Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 20 questions, 6 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 26 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  181 questions were excluded and 0 held back for having no
+  191 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -19388,6 +19388,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-00EF6881D330
+## title
+is non-membranous Cartwheel-like, derived from glycocalyx
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+is non-membranous Cartwheel-like, derived from glycocalyx
+## answer_a
+basal lamina
+## explanation_a
+The basal lamina is a distinct extracellular-matrix layer underlying the endothelium, not the non-membranous, cartwheel-like structure that specifically covers a fenestra — and a fenestrated capillary's basal lamina stays continuous, unlike the diaphragm covering its pores.
+## answer_b
+macrophage
+## explanation_b
+A macrophage is a phagocytic cell type, not a non-membranous structural covering derived from the glycocalyx — an unrelated category of answer.
+## answer_c
+diaphragm
+## explanation_c
+Correct. The diaphragm is a non-membranous, cartwheel-like structure with a central thickening and fourteen wedge-shaped gaps, derived from the glycocalyx, that covers the pores (fenestrae) of a fenestrated capillary's endothelium.
+
+Why this is right:
+- The fenestrated, or visceral, capillary is the second of the three capillary types, between the continuous (somatic) capillary and the sinusoidal capillary.
+## answer_d
+pericyte
+## explanation_d
+A pericyte is a contractile cell wrapped around the outside of small vessels, not a non-membranous structure covering an endothelial pore — an unrelated category of answer.
+## correct_answer
+C
+## main_concept
+CON-CVS-132A76916FEC05
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify the diaphragm as the non-membranous, cartwheel-like structure derived from the glycocalyx that covers a fenestrated capillary's pores.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q47. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-8BAE61B1B783
 ## title
 Regarding the blood vessels: 1 |
@@ -19933,6 +20025,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-399EF983CDD5
+## title
+The capillaries which are present in the nervous tissue are:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The capillaries which are present in the nervous tissue are:
+## answer_a
+Non fenestrated with diaphragm
+## explanation_a
+"Non-fenestrated with diaphragm" does not describe any of the three standard capillary types; a capillary either has fenestrae (covered by a diaphragm, or open in a sinusoid) or, like the continuous type, has no fenestrae at all.
+## answer_b
+Fenestrated with diaphragm
+## explanation_b
+Fenestrated capillaries with diaphragmed pores are sited in tissues built for fast fluid/solute exchange, such as the intestine and endocrine glands — not nervous tissue, whose capillaries must instead tightly restrict what crosses, forming the blood-brain barrier.
+## answer_c
+Continuous
+## explanation_c
+Correct. Nervous tissue is supplied by continuous capillaries, the least permeable of the three types, with a tightly joined, unbroken endothelium that lets nothing cross except by transport through the cell itself — the structural basis of the blood-brain barrier.
+
+Why this is right:
+- Capillary permeability increases across the sequence continuous capillaries (lowest permeability), fenestrated capillaries, and discontinuous capillaries (highest permeability).
+## answer_d
+Fenestrated without diaphragm
+## explanation_d
+Fenestrated capillaries without a diaphragm (fenestrae with no covering diaphragm at all) are the pattern seen in the renal glomerulus, not nervous tissue.
+## correct_answer
+C
+## main_concept
+CON-CVS-D3D1AF25EFA406
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Histology-general
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify continuous capillaries as the type present in nervous tissue, consistent with the blood-brain barrier's low permeability.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p15 q4. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
 
 
 
@@ -48059,6 +48243,374 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-BA7570FD3983
+## title
+Diacrotic notch is due to: |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Diacrotic notch is due to: |
+## answer_a
+sudden closure of AV valves
+## explanation_a
+Closure of the AV valves produces the first heart sound at the start of ventricular systole, an entirely different event from the dicrotic notch, which sits on the aortic pressure curve at the end of systole.
+## answer_b
+sudden closure of aortic valve
+## explanation_b
+Correct. The dicrotic notch is the sharp drop on the descending (catacrotic) limb of the aortic pressure curve caused by the sudden closure of the aortic valve at the end of ejection, once ventricular pressure has fallen below aortic pressure.
+
+Why this is right:
+- On the aortic pressure curve, the dicrotic notch is a sharp drop in pressure caused by closure of the aortic valve at the end of systole, and is followed by the dicrotic wave, a small rise caused by backwardly moving blood bouncing against the closed elastic aortic valve during isovolumetric relaxation.
+## answer_c
+sudden decrease in aortic pressure. ‏ظ‎
+## explanation_c
+A decrease in aortic pressure is what is observed around the notch, but the direct mechanical cause of the notch itself is the aortic valve slamming shut, not the pressure fall in isolation.
+## answer_d
+marked decrease in ventricular pressure.
+## explanation_d
+A marked decrease in ventricular pressure is a related, concurrent event on the other side of the now-closed aortic valve, but the dicrotic notch is specifically a feature of the aortic pressure trace, directly caused by aortic valve closure.
+## correct_answer
+B
+## main_concept
+CON-CVS-F8BD2261B8CBDA
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the dicrotic notch is caused by sudden closure of the aortic valve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q52. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7545D7AA89B9
+## title
+During the reduced ejection phase, which one of the following is true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During the reduced ejection phase, which one of the following is true:
+## answer_a
+left atrial pressure is falling.
+## explanation_a
+Left atrial pressure is rising, not falling, during reduced ejection: the AV valves are shut, so venous blood returning to the atrium accumulates there with nowhere else to go, building the v wave of the atrial pressure curve.
+## answer_b
+aortic pressure is falling below left ventricular pressure.
+## explanation_b
+Aortic pressure has not yet fallen below left ventricular pressure during reduced ejection — the two remain close, with a small forward pressure gradient still driving the tail of ejection; aortic pressure only clearly overtakes ventricular pressure at the transition into isovolumetric relaxation, ending ejection.
+## answer_c
+the A-V valves are closed.
+## explanation_c
+Correct. The AV valves are held shut throughout both ejection phases (rapid and reduced), since ventricular pressure remains above atrial pressure the whole time — they only reopen once ventricular pressure falls below atrial pressure during rapid filling.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_d
+left ventricular pressure is constant.
+## explanation_d
+Left ventricular pressure is not constant during reduced ejection; it has already passed its peak (reached during rapid ejection) and is beginning to fall as the rate of ejection slows.
+## correct_answer
+C
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the AV valves stay closed throughout the reduced ejection phase, along with the rest of ventricular systole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q75. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-03D1A49A48C7
+## title
+The atrial component of ventricular filling is
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The atrial component of ventricular filling is
+## answer_a
+10% ,
+## explanation_a
+10% understates the atrial contribution; atrial systole normally tops up roughly 30% of end-diastolic volume, not a tenth of it.
+## answer_b
+30%
+## explanation_b
+Correct. Atrial systole is an active top-up of ventricular filling that normally contributes roughly the last 30% of end-diastolic volume, on top of the passive filling (rapid and reduced filling phases) that fills the rest.
+
+Why this is right:
+- The atria have three functions beyond acting as a simple entry chamber.
+## answer_c
+50%
+## explanation_c
+50% overstates the atrial contribution; the larger share of ventricular filling happens passively, before atrial systole ever begins, chiefly during the rapid filling phase.
+## answer_d
+80% |
+## explanation_d
+80% overstates the atrial contribution even further; passive filling, not atrial systole, is responsible for most of ventricular filling.
+## correct_answer
+B
+## main_concept
+CON-CVS-60749EA9A6B0A5
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that atrial systole normally contributes roughly 30% of ventricular filling.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q49. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F4498627A7D3
+## title
+C wave in jugular venous pulse occurs in:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+C wave in jugular venous pulse occurs in:
+## answer_a
+isometric contraction phase.
+## explanation_a
+Correct. The c wave is caused by the closed AV valve bulging backward into the atrium as ventricular pressure rises sharply at the start of isovolumetric (isometric) ventricular contraction, immediately after atrial systole has ended.
+
+Why this is right:
+- The atrial pressure curve traces right (or left) atrial pressure across one cardiac cycle and shows three positive waves.
+## answer_b
+isometric relaxation phase.
+## explanation_b
+Isovolumetric relaxation is instead when the closed semilunar valve produces the second heart sound; the atrial pressure curve is quiet at this point, between the v wave's peak and the AV valves reopening for filling.
+## answer_c
+maximum ejection phase,
+## explanation_c
+The maximum ejection phase is well after the c wave, which occurs at the very start of ventricular systole, not during its main ejection period.
+## answer_d
+atrial systole phase. ١
+## explanation_d
+Atrial systole itself produces the larger a wave, which peaks and is already falling by the time the AV valves shut to start isovolumetric contraction and produce the c wave — the c wave is a ventricular event that follows atrial systole, not part of it.
+## correct_answer
+A
+## main_concept
+CON-CVS-B8AFC98120E132
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the c wave of the atrial (jugular venous) pressure curve occurs at the start of isovolumetric ventricular contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p9 q64. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-F175091CC11D
 ## title
 Digitalis has positive inotropic effect through the following mechanism:
@@ -50363,6 +50915,466 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-368C003B2FAC
+## title
+Cardiac output is: |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Cardiac output is: |
+## answer_a
+Amount of blood moving into the aorta each minute
+## explanation_a
+Blood moving into the aorta each minute is close to the concept of cardiac output but does not itself state the formula the question is testing (stroke volume x beats per minute); it also describes left-ventricular output alone, not "the amount of blood ejected from a ventricle" generically.
+## answer_b
+Amount of blood ejected from a ventricle in each systole times beats per minute
+## explanation_b
+Correct. Cardiac output is the amount of blood ejected from a ventricle in each systole (stroke volume) multiplied by the number of beats per minute (heart rate): CO = SV x HR.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_c
+Amount of blood ejected from both ventricles in each systole. °
+## explanation_c
+The amount of blood ejected from BOTH ventricles in one systole double-counts what a single ventricle ejects (the two ventricles in series eject essentially equal stroke volumes) and, like the other wrong options, omits the per-minute (heart-rate) component entirely.
+## answer_d
+Amount of blood ejected from the left ventricle in each systole
+## explanation_d
+The amount of blood ejected from the left ventricle in one systole is stroke volume, a per-beat quantity — cardiac output additionally requires multiplying by heart rate to reach a per-minute quantity.
+## correct_answer
+B
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State the formula CO = stroke volume x heart rate as the correct definition of cardiac output.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p14 q104. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C2026C9525AC
+## title
+What's the correct definition of cardiac output?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+What's the correct definition of cardiac output?
+## answer_a
+Amount of blood delivered through both vena cava per minute
+## explanation_a
+The amount of blood delivered through both venae cavae per minute describes venous return, which equals cardiac output only at haemodynamic steady state — it is not the definition of cardiac output itself.
+## answer_b
+Amount of blood ejected from a ventricle in each systole times beats per
+## explanation_b
+Correct. Cardiac output is the amount of blood ejected from a ventricle in each systole (stroke volume) multiplied by the number of beats per minute (heart rate): CO = SV x HR.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_c
+Amount of blood ejected from both ventricles in each systole
+## explanation_c
+The amount of blood ejected from both ventricles in one systole describes a single beat's total output, missing the essential "per minute" (heart-rate) component of the true definition.
+## answer_d
+Amount of blood ejected frorn the left ventricle in each systole
+## explanation_d
+The amount of blood ejected from the left ventricle in one systole is stroke volume, a per-beat quantity, not cardiac output's per-minute quantity.
+## correct_answer
+B
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State the formula CO = stroke volume x heart rate as the correct definition of cardiac output.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p7 q23. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D5E30C293D12
+## title
+The left ventricle has a thicker wall than the right ventricle because a, itis richer i…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The left ventricle has a thicker wall than the right ventricle because a, itis richer in blood supply
+## answer_a
+itis richer in blood supply
+## explanation_a
+A richer blood supply is not the reason for a thicker wall; a thicker, harder-working muscle needs more perfusion as a consequence of its greater workload, not as the cause of that thickness.
+## answer_b
+it ejects blood through a narrower orifice
+## explanation_b
+The left ventricle does not eject through a narrower orifice than the right; aortic and pulmonary valve orifices are comparable in size, so orifice narrowing is not what drives the wall-thickness difference.
+## answer_c
+it ejects a greater cardiac output .
+## explanation_c
+The left and right ventricles eject essentially equal stroke volumes in series at steady state, so a greater cardiac output is not the left ventricle's distinguishing feature or the reason for its thicker wall.
+## answer_d
+it ejects blood against a higher pressure
+## explanation_d
+Correct. The left ventricle ejects against systemic arterial pressure (~120-130 mmHg), roughly five to six times the right ventricle's pulmonary afterload (~25 mmHg); this higher afterload is the causal driver of greater workload, and the thicker wall is the structural (hypertrophic) adaptation to that chronic extra work.
+
+Why this is right:
+- The right and left ventricles eject the same stroke volume in series, but against very different loads.
+## correct_answer
+D
+## main_concept
+CON-CVS-CFB335FDD7B477
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the left ventricle's thicker wall is caused by it ejecting against a higher pressure (afterload) than the right ventricle, not by blood supply, orifice size or output volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p1 q7. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-67F59B84EBC8
+## title
+The systolic pressure in the left ventricle is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The systolic pressure in the left ventricle is:
+## answer_a
+130 mmHg
+## explanation_a
+Correct. Normal left ventricular systolic pressure is approximately 120-130 mmHg, matching the systemic arterial systolic pressure it must generate to eject blood into the aorta — roughly five to six times the right ventricle's pulmonary systolic pressure.
+
+Why this is right:
+- The right and left ventricles eject the same stroke volume in series, but against very different loads.
+## answer_b
+110 mmHg
+## explanation_b
+110 mmHg understates normal left ventricular systolic pressure, which needs to at least match systemic arterial systolic pressure for the aortic valve to open and ejection to occur.
+## answer_c
+150 mmHg
+## explanation_c
+150 mmHg overstates normal resting left ventricular systolic pressure; a value this high would suggest hypertension rather than a normal resting figure.
+## answer_d
+80 mmHg
+## explanation_d
+80 mmHg is close to normal systemic diastolic pressure, not left ventricular systolic pressure — the ventricle must exceed aortic diastolic pressure substantially before the aortic valve opens at all.
+## correct_answer
+A
+## main_concept
+CON-CVS-CFB335FDD7B477
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that normal left ventricular systolic pressure is approximately 120-130 mmHg, matching systemic arterial systolic pressure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q79. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-209B833933A4
+## title
+The work performed by left ventricle is greater than that performed by right ventricle …
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The work performed by left ventricle is greater than that performed by right ventricle because a, The wall is thicker
+## answer_a
+The wall is thicker
+## explanation_a
+Wall thickness is a structural adaptation resulting from the left ventricle's greater workload over time, not the cause of that greater work — reasoning from wall thickness reverses cause and effect.
+## answer_b
+The stroke volume is greater
+## explanation_b
+In series circulation, right and left ventricular stroke volumes are essentially equal at steady state, so a greater stroke volume does not explain the work difference between the two ventricles.
+## answer_c
+The preload is greater
+## explanation_c
+Preload (end-diastolic volume, filling) is similar for both ventricles in a normal series circulation and is not the source of the work disparity between them.
+## answer_d
+The afterload is greater
+## explanation_d
+Correct. Cardiac work per beat is proportional to afterload (the pressure the ventricle must generate) multiplied by the volume ejected; since stroke volumes are essentially equal, the left ventricle's far higher afterload — systemic arterial pressure, roughly five to six times the right ventricle's pulmonary arterial pressure — is what makes its work per beat greater.
+
+Why this is right:
+- The right and left ventricles eject the same stroke volume in series, but against very different loads.
+## correct_answer
+D
+## main_concept
+CON-CVS-CFB335FDD7B477
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the left ventricle's greater work, relative to the right ventricle's, is caused by its greater afterload, not by wall thickness, stroke volume or preload.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q123. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-30851052ECE6
 ## title
 All about cardiac preload is true, EXCEPT:
@@ -51273,6 +52285,190 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p6 q44. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-30EDE96DF248
+## title
+If the EDV is increased (within limits):
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+If the EDV is increased (within limits):
+## answer_a
+COP would be decreased 1
+## explanation_a
+By Frank-Starling's law, a higher end-diastolic volume raises stroke volume, and cardiac output (CO = SV x HR) would rise with it at an unchanged heart rate, not decrease.
+## answer_b
+The force of cardiac contraction would be decreased
+## explanation_b
+Frank-Starling's law states the opposite: a greater stretch (higher preload) increases, not decreases, the force of cardiac contraction.
+## answer_c
+The output of the right ventricle would exceed the output of the left ventricle
+## explanation_c
+The right and left ventricles operate in series and eject essentially equal outputs at steady state; a rising end-diastolic volume does not make one ventricle's output exceed the other's.
+## answer_d
+The stroke volume would be increased
+## explanation_d
+Correct. By Frank-Starling's law, a higher end-diastolic volume stretches the ventricle further before contraction, raising the degree of shortening and so the stroke volume it ejects.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## correct_answer
+D
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a higher end-diastolic volume (preload) raises stroke volume, by Frank-Starling's law.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p15 q111. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7A05FE5019D4
+## title
+If the EDV is increased (within limits), which of the following will occur?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+If the EDV is increased (within limits), which of the following will occur?
+## answer_a
+COP would be decreased
+## explanation_a
+By Frank-Starling's law, a higher end-diastolic volume raises stroke volume, and cardiac output (CO = SV x HR) would rise with it at an unchanged heart rate, not decrease.
+## answer_b
+The force of cardiac contraction would be decreased
+## explanation_b
+Frank-Starling's law states the opposite: a greater stretch (higher preload) increases, not decreases, the force of cardiac contraction.
+## answer_c
+The output of the right ventricle would exceed the output of the left
+## explanation_c
+The right and left ventricles operate in series and eject essentially equal outputs at steady state; a rising end-diastolic volume does not make one ventricle's output exceed the other's.
+## answer_d
+The stroke volume would be increased
+## explanation_d
+Correct. By Frank-Starling's law, a higher end-diastolic volume stretches the ventricle further before contraction, raising the degree of shortening and so the stroke volume it ejects — the same fact this file's own if-the-edv-is-increased-within-limits-1a718833 question tests from a second, independent source occurrence.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## correct_answer
+D
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a higher end-diastolic volume (preload) raises stroke volume, by Frank-Starling's law.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p8 q31. Manifest src_ab84e963639b236e0951.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -58377,6 +59573,926 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-8A5F6B7319E7
+## title
+As the blood passes along the tissues:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+As the blood passes along the tissues:
+## answer_a
+HCO; ions is formed inside RBCs
+## explanation_a
+Correct. As blood passes along the tissues, CO2 diffuses into red blood cells and carbonic anhydrase rapidly hydrates it to carbonic acid, which dissociates into bicarbonate and H+ — bicarbonate is formed inside the red blood cell, the majority form of CO2 transport.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+CTI ions falls inside RBCs
+## explanation_b
+Chloride RISES, not falls, inside red blood cells at the tissue level: as the newly formed bicarbonate diffuses out to plasma, chloride moves in to replace the negative charge it takes with it — the chloride shift.
+## answer_c
+decreased osmolarity of RBCs
+## explanation_c
+Osmolarity of red blood cells INCREASES, not decreases, as chloride (and bicarbonate before it leaves) accumulate inside the cell, drawing water in by osmosis.
+## answer_d
+decreased RBC volume. 1
+## explanation_d
+RBC volume INCREASES, not decreases, at the tissue level: the osmotic water influx that follows the chloride shift makes venous red blood cells swell slightly, raising venous haematocrit above arterial haematocrit.
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that bicarbonate is formed inside red blood cells, not that chloride falls or that RBC osmolarity/volume decreases, as blood passes through the tissues.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p43 q136. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0710F9E5E0BC
+## title
+About 70% of the carbon dioxide is transported to the lungs: 1 ‏ا‎
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+About 70% of the carbon dioxide is transported to the lungs: 1 ‏ا‎
+## answer_a
+In the form of bicarbonate ions i
+## explanation_a
+Correct. About 42 of the 48 ml/100 ml of arterial blood's total CO2 — the clear majority, roughly 70% — travels as bicarbonate ions (HCO3-), formed inside red blood cells via carbonic anhydrase and exported to plasma by the chloride shift.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+In the form of carbonic acid ‏ا‎
+## explanation_b
+Carbonic acid (H2CO3) is only a fleeting intermediate in the reaction CO2 + H2O -> H2CO3 -> H+ + HCO3-, not a form CO2 is actually carried or stored as in any meaningful quantity.
+## answer_c
+In the form of carbaminohemoglobin :
+## explanation_c
+Carbaminohaemoglobin carries only about 3 of the 48 ml/100 ml of arterial blood's total CO2 — a small minority, not the majority form.
+## answer_d
+In chemical combination with albumin ‏ا‎
+## explanation_d
+Albumin is not a significant CO2-carrying protein; the haemoglobin inside red blood cells, not plasma albumin, forms the carbamino compounds that carry the (small) protein-bound share of CO2.
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the majority of transported CO2 travels as bicarbonate ions, not carbonic acid, carbaminohaemoglobin or bound to albumin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q101. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7132292A4652
+## title
+All about hemoglobin is (rue, except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All about hemoglobin is (rue, except:
+## answer_a
+A higher P50 than normal means that the O2 binds less tightly to Hb
+## explanation_a
+True of P50, so not the exception. A higher-than-normal P50 means haemoglobin requires a higher PO2 to reach 50% saturation, indicating weaker (less tight) O2 binding.
+## answer_b
+An increase in 2, 3-DPG shifts the 02 dissociation curve to the left
+## explanation_b
+The exception, and the answer. An increase in 2,3-DPG shifts the O2 dissociation curve to the RIGHT, not the left — 2,3-DPG binds deoxygenated Hb and lowers its O2 affinity, favouring O2 release, the same direction as a rise in temperature, PCO2 or a fall in pH.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## answer_c
+An increase in PCO) causes a right shift of the O dissociation curve,
+## explanation_c
+True, so not the exception. An increase in PCO2 causes a rightward shift of the O2 dissociation curve via the Bohr effect, lowering Hb's O2 affinity.
+## answer_d
+A decrease in pH increases P50
+## explanation_d
+True, so not the exception. A decrease in pH (more acidic conditions) increases P50, consistent with the same rightward-shifting Bohr effect.
+## correct_answer
+B
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that an increase in 2,3-DPG shifts the O2 dissociation curve to the right, not the left, identifying this as the false statement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p38 q99. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8D56E102DFC1
+## title
+During the release of carbon dioxide in the lungs:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+During the release of carbon dioxide in the lungs:
+## answer_a
+The binding of oxygen to haemoglobin displaces carbon dioxide from blood
+## explanation_a
+True, but incomplete alone. At the lungs, O2 binding to haemoglobin does displace CO2 (via the Haldane effect, since oxygenated Hb carries less CO2 than reduced Hb) — but this happens together with the other two listed changes, not instead of them.
+## answer_b
+The binding of oxygen to haemoglobin causes the release of hydrogen ions
+## explanation_b
+True, but incomplete alone. O2 binding to haemoglobin does release H+ from what was buffered on reduced Hb (oxyhaemoglobin is a poorer buffer) — but again, together with the other two listed changes, not alone.
+## answer_c
+Hydrogen ions combine with bicarbonate to form carbonic acid
+## explanation_c
+True, but incomplete alone. The released H+ does combine with bicarbonate to re-form carbonic acid, reversing the tissue-level reaction and regenerating CO2 for exhalation — but this is one part of a single coordinated sequence, not an isolated fact.
+## answer_d
+All of the above
+## explanation_d
+Correct. At the lungs, the whole tissue-level sequence reverses in one coordinated process: O2 binding to haemoglobin displaces CO2 and releases H+ from oxyhaemoglobin (a poorer buffer than reduced Hb), and that H+ combines with HCO3- to regenerate carbonic acid (and so CO2) for exhalation — all three listed changes are genuine, interconnected parts of this reversal, so the comprehensive option is correct.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## correct_answer
+D
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a comprehensive true statement
+## learning_objective
+State that O2 binding to Hb displaces CO2, releases H+ from oxyhaemoglobin, and lets that H+ combine with bicarbonate to regenerate carbonic acid, all together as the lungs reverse the chloride shift.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q106. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8256886CDA26
+## title
+How much oxygen is normally carried in the blood?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+How much oxygen is normally carried in the blood?
+## answer_a
+2 ml oxygen/100 ml blood
+## explanation_a
+2 ml oxygen/100 ml blood substantially understates the normal arterial oxygen content.
+## answer_b
+5 ml oxygen/100m! blood
+## explanation_b
+5 ml oxygen/100 ml blood substantially understates the normal arterial oxygen content.
+## answer_c
+10 ml oxygen/100mI blood
+## explanation_c
+10 ml oxygen/100 ml blood understates the normal arterial oxygen content, being roughly half the accepted normal value.
+## answer_d
+20 mi oxygen/100mI bload
+## explanation_d
+Correct. Normal arterial blood carries approximately 20 ml of oxygen per 100 ml of blood, combining the small amount dissolved directly in plasma (about 0.3 ml/100 ml) with the much larger amount bound to haemoglobin (about 19.5-20.1 ml/100 ml at a normal 15 g Hb/100 ml), which accounts for roughly 98% of the total.
+
+Why this is right:
+- P50 is the PO2 at which haemoglobin is 50% saturated with oxygen; the normal P50 for human blood is 27 mmHg.
+## correct_answer
+D
+## main_concept
+CON-RES-228D7C6B6FDE80
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that normal arterial blood carries approximately 20 ml of oxygen per 100 ml, combining dissolved and haemoglobin-bound O2.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p19 q28. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-DC691DD48694
+## title
+In the transport of CO2 from the tissues to the lungs, which of the following occurs in…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In the transport of CO2 from the tissues to the lungs, which of the following occurs in ‏ا‎ venous blood? ||
+## answer_a
+Conversion of CO2 and 1120 to H+ and HCO3- in the red blood cells (RBCs) /
+## explanation_a
+Correct. In venous blood, CO2 diffuses into red blood cells where carbonic anhydrase rapidly converts it (with water) into H+ and bicarbonate (HCO3-) — the first step of the tissue-level chloride-shift sequence.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+. Buffering of H+ by oxyhemoglobin /
+## explanation_b
+Deoxyhaemoglobin, not oxyhaemoglobin, is the better buffer for the H+ released by this reaction — venous blood is largely deoxygenated, so oxyhaemoglobin is not the buffer actually doing this work.
+## answer_c
+Shifting of HCO3~ into the RBCs from plasma in exchange for Cl- /
+## explanation_c
+Bicarbonate moves OUT of the red blood cell into plasma (in exchange for chloride moving IN), the reverse direction from what this option states — the chloride shift exports newly formed HCO3-, it does not import it.
+## answer_d
+Alkalinization of the RBCs
+## explanation_d
+The red blood cell becomes very slightly more acidic, not alkaline, at the tissue level, since some of the H+ released escapes buffering by deoxyhaemoglobin and lowers pH slightly (about 7.4 to 7.37 in venous blood).
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that venous blood carries the conversion of CO2 and water to H+ and bicarbonate inside red blood cells, as opposed to buffering by oxyhaemoglobin, HCO3- entering (rather than leaving) the RBC, or RBC alkalinisation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q103. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AE4747899777
+## title
+pH of venous blood is only slightly more acidic than pH of arterial blood because:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+pH of venous blood is only slightly more acidic than pH of arterial blood because:
+## answer_a
+there is no carbonic anhydrase in venous blood
+## explanation_a
+Carbonic anhydrase is present within red blood cells in both arterial and venous blood; its presence does not differ between the two, so this cannot explain the small pH difference.
+## answer_b
+the H+ generated from CO2 and 1120 is buffered by HCO3 in venous blood
+## explanation_b
+Bicarbonate buffering does play some role, but it is not the specific, classically emphasised mechanism for this minimal pH change — that role belongs to deoxyhaemoglobin's buffering, timed exactly with tissue-level CO2 uptake.
+## answer_c
+the H+ generated from 002 and H20 is buffered by deoxyhemoglobin in venous blood
+## explanation_c
+Correct. As blood becomes venous, haemoglobin releases its bound O2 and becomes deoxyhaemoglobin, a substantially better buffer for H+ than oxyhaemoglobin — precisely timed with the moment CO2 (converted to H+ and bicarbonate) is being picked up from the tissues, so venous blood absorbs a large amount of H+ with only a minimal drop in pH.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_d
+oxyhemoglobin is a better buffer for H+ than is deoxyhemoglobin
+## explanation_d
+This reverses the correct relationship: deoxyhaemoglobin, not oxyhaemoglobin, is the better buffer for hydrogen ions.
+## correct_answer
+C
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that deoxyhaemoglobin's superior buffering of H+, timed with tissue-level CO2 uptake, is why venous blood pH falls only slightly.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q104. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-357B7966285F
+## title
+The oxygen-hemoglobin dissociation curve will shift to the right with:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The oxygen-hemoglobin dissociation curve will shift to the right with:
+## answer_a
+Acute alkalosis
+## explanation_a
+Acute alkalosis (a rise in pH) shifts the curve to the LEFT, not the right, raising Hb's O2 affinity — the opposite of what this option claims.
+## answer_b
+Decrease in Pco2
+## explanation_b
+A decrease in PCO2 shifts the curve to the LEFT, not the right, since falling CO2 (like falling H+) raises rather than lowers Hb's O2 affinity.
+## answer_c
+Decrease in temperature 0
+## explanation_c
+A decrease in temperature shifts the curve to the LEFT, not the right, raising Hb's O2 affinity — the opposite of what this option claims.
+## answer_d
+Exercise
+## explanation_d
+Correct. Exercise raises PCO2, H+ (falling pH), temperature and 2,3-DPG together in active muscle, all four of which shift the O2-Hb dissociation curve to the right, lowering Hb's O2 affinity and favouring O2 release exactly where the exercising tissue needs it.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## correct_answer
+D
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify exercise as the condition that shifts the O2-Hb dissociation curve to the right, as opposed to alkalosis, a fall in PCO2 or a fall in temperature.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p40 q112. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-8EE4092D1EEB
+## title
+The oxyhemoglobin dissociation curve:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The oxyhemoglobin dissociation curve:
+## answer_a
+Is rectangular hyperpola in shape
+## explanation_a
+The oxyhaemoglobin dissociation curve is sigmoid (S-shaped), not a rectangular hyperbola, reflecting haemoglobin's cooperative O2 binding across its four subunits — a rectangular hyperbola instead describes myoglobin's single-subunit binding curve.
+## answer_b
+Is shifted to the left by acidosis
+## explanation_b
+Acidosis shifts the curve to the RIGHT, via the Bohr effect, decreasing O2 affinity — not to the left as this option claims.
+## answer_c
+Shows higher affinity of hemoglobin at the exercising tissue
+## explanation_c
+Haemoglobin's O2 affinity DECREASES, not increases, at exercising tissue — the raised CO2, H+, temperature and 2,3-DPG there all shift the curve right, facilitating O2 release exactly where increased metabolic demand needs it.
+## answer_d
+The normal P50 for human is 27mmHg
+## explanation_d
+Correct. The normal P50 for human haemoglobin — the PO2 at which it is 50% saturated — is a well-established standard reference value of approximately 27 mmHg under normal physiological conditions.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## correct_answer
+D
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the normal P50 for human haemoglobin is approximately 27 mmHg, as opposed to false claims about the curve's shape, acidosis shifting it left, or higher affinity at exercising tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p12 q85. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-CF9CC8245315
+## title
+Which statement about hemoglobin is Incorrect?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which statement about hemoglobin is Incorrect?
+## answer_a
+A higher P50 than normal means that the O; binds less tightly to Hb
+## explanation_a
+True of P50, so not the answer. A higher-than-normal P50 does indicate that O2 binds less tightly to haemoglobin (a rightward-shifted curve with lower affinity).
+## answer_b
+An increase in 2, 3-DPG shifts the 02 dissociation curve 6 the left
+## explanation_b
+Correct — the incorrect statement, and the answer. An increase in 2,3-DPG decreases haemoglobin's affinity for O2, shifting the dissociation curve to the RIGHT (facilitating O2 unloading to tissues), not to the left as this option claims.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## answer_c
+An increase in PCO; causes a right shift of the Oz dissociation curve
+## explanation_c
+True, so not the answer. An increase in PCO2 does cause a rightward shift of the curve via the Bohr effect, decreasing O2 affinity.
+## answer_d
+A decrease in pH increases P50
+## explanation_d
+True, so not the answer. A decrease in pH (increased acidity) does increase P50, consistent with the same rightward-shifting Bohr effect.
+## correct_answer
+B
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that an increase in 2,3-DPG shifts the O2 dissociation curve to the right, not the left, identifying this as the incorrect statement — the same fact tested from a second, independent source occurrence.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q55. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-ADBCF0E0F6C9
 ## title
 Cyanosis: 1
@@ -61127,6 +63243,558 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p7 q47. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C3404E394048
+## title
+The residual volume: :
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The residual volume: :
+## answer_a
+Cannot be measured directly with a spirometer
+## explanation_a
+Correct. Residual volume is the air remaining in the lungs after a maximal forced expiration, and because it can never be exhaled, a spirometer — which measures only volumes of air actually moved in and out — cannot record it directly; it must instead be inferred indirectly, for example by helium dilution, nitrogen washout or body plethysmography.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_b
+Is part of vital capacity
+## explanation_b
+Residual volume is specifically excluded from vital capacity: VC = IRV + TV + ERV deliberately leaves RV out, since RV is by definition the air that no maximal expiratory effort can remove.
+## answer_c
+Is part of the expiratory reserve volume
+## explanation_c
+Residual volume is not part of expiratory reserve volume; the two are separate, non-overlapping volumes that together make up functional residual capacity (FRC = ERV + RV), with RV lying beyond the point ERV can reach.
+## answer_d
+Is the volume at which the lungs tend to recoil outwards
+## explanation_d
+The lung's own elastic tissue always recoils inward, tending to collapse it, at every lung volume from TLC down to RV; residual volume is reached only because further expiration is limited by the chest wall's growing outward recoil and the limits of expiratory muscle strength, not because the lung itself starts recoiling outward.
+## correct_answer
+A
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State that residual volume cannot be measured directly by spirometry and is excluded from vital capacity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p34 q70. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4095DBBDC86C
+## title
+Tidal volume is air:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Tidal volume is air:
+## answer_a
+Remaining in the lungs after forced expiration ‏ا‎
+## explanation_a
+Air remaining in the lungs after a forced expiration describes residual volume, not tidal volume — tidal volume is the air actually moved during a breath, not what is left behind afterward.
+## answer_b
+Exchanged during normal breathing ْ
+## explanation_b
+Correct. Tidal volume is the volume of air moved into and out of the lungs during one normal, quiet breathing cycle — the air genuinely exchanged in ordinary resting breathing, before any reserve volume is called on.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_c
+Inhaled after quiet inspiration 1 ‏ا‎
+## explanation_c
+Air inhaled beyond a normal quiet inspiration describes inspiratory reserve volume, the extra volume available above tidal volume, not tidal volume itself.
+## answer_d
+Forcibly expelled after normal expiration
+## explanation_d
+Air forcibly expelled after a normal expiration describes expiratory reserve volume, not tidal volume; tidal volume is exchanged passively during quiet breathing, not by an additional forced effort.
+## correct_answer
+B
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define tidal volume as the air exchanged during normal quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q56. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BAB76EF84990
+## title
+Vital capacity is reduced by all except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Vital capacity is reduced by all except:
+## answer_a
+Lung fibrosis
+## explanation_a
+Reduces vital capacity — not the exception. Lung fibrosis stiffens the lung, lowering its compliance, and this restrictive pattern reduces all lung volumes together, including vital capacity.
+## answer_b
+Kyphosis
+## explanation_b
+Reduces vital capacity — not the exception. A deformed, stiffened chest wall lowers overall thoracic compliance by the same restrictive mechanism as lung fibrosis, shrinking vital capacity along with the other lung volumes.
+## answer_c
+Atheletes
+## explanation_c
+Correct. Athletes typically have a normal or even increased vital capacity, reflecting greater respiratory muscle strength and often larger lung and thoracic volumes from training, rather than any process that stiffens the lung or chest wall — the exception, and the answer.
+
+Why this is right:
+- Obstructive disease (e.g.
+## answer_d
+Decreased secretion of surfactant
+## explanation_d
+Reduces vital capacity — not the exception. Less surfactant raises alveolar surface tension, stiffening the lung and lowering its compliance, the same restrictive mechanism by which fibrosis and chest-wall deformity shrink vital capacity.
+## correct_answer
+C
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify normal athletic training, rather than a restrictive process, as not reducing vital capacity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q59. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-250EBCA54ADF
+## title
+Which of the following concerning average lung volumes and capacities of a person at re…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following concerning average lung volumes and capacities of a person at rest is correct?
+## answer_a
+TLC>VC>TV>FRC
+## explanation_a
+TLC > VC > TV > FRC is not correct: functional residual capacity (about 2300 mL, ERV + RV) is larger than tidal volume (about 500 mL) in a resting adult, so this ordering places FRC too low relative to TV.
+## answer_b
+TLC>FRC>VC>TV
+## explanation_b
+TLC > FRC > VC > TV is not correct: vital capacity (about 4600 mL) is larger than functional residual capacity (about 2300 mL) — VC sums IRV, TV and ERV, while FRC is only ERV + RV, so VC must exceed FRC, not the reverse.
+## answer_c
+TLC>VC>FRC>TV
+## explanation_c
+Correct. Using typical resting adult values, total lung capacity (about 6000 mL) exceeds vital capacity (about 4600 mL), which exceeds functional residual capacity (about 2300 mL), which exceeds tidal volume (about 500 mL): TLC > VC > FRC > TV.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_d
+TLC>FRC>TV>VC
+## explanation_d
+TLC > FRC > TV > VC reverses the relationship between vital capacity and both functional residual capacity and tidal volume: vital capacity (about 4600 mL) is by far the largest of the three, not the smallest.
+## correct_answer
+C
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Rank total lung capacity, vital capacity, functional residual capacity and tidal volume by typical resting size.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p35 q77. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7EFAB11B5A67
+## title
+Which one of the following components of a pulmonary function test will be normal or in…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following components of a pulmonary function test will be normal or increased in a patient with restrictive lung disease?
+## answer_a
+FEV1
+## explanation_a
+FEV1 falls in restrictive lung disease, since the stiffened lung has an overall smaller volume to expire from in the first second, even though it empties that smaller volume quickly.
+## answer_b
+FVC
+## explanation_b
+FVC falls in restrictive lung disease: a stiffened lung or chest wall reduces all lung volumes together, including the maximum volume that can be forcibly exhaled.
+## answer_c
+TLC
+## explanation_c
+TLC falls in restrictive lung disease, since reduced compliance shrinks all the lung volumes and capacities that sum into it — unlike in obstructive disease, and especially emphysema, where TLC is preserved or increased.
+## answer_d
+FEV 1/FVC
+## explanation_d
+Correct. In restrictive lung disease the stiffened lung still empties quickly relative to its now-smaller volume, so the FEV1/FVC ratio is preserved or even increased, the opposite of obstructive disease, where airway narrowing lowers the ratio.
+
+Why this is right:
+- Obstructive disease (e.g.
+## correct_answer
+D
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify a preserved or increased FEV1/FVC ratio as the defining PFT signature of restrictive lung disease.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q55. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-33B1DB12E27B
+## title
+Which volume remains in the lungs after a maximal expiration?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which volume remains in the lungs after a maximal expiration?
+## answer_a
+Tidal volume (VT)
+## explanation_a
+Tidal volume is the air moved during a normal quiet breath, not what remains after a maximal forced expiration.
+## answer_b
+Vital capacity (VC)
+## explanation_b
+Vital capacity is the volume that CAN be expired by a maximal effort, not what is left behind afterward — the two describe opposite ends of the same manoeuvre.
+## answer_c
+Expiratory reserve volume (ERV) :
+## explanation_c
+Expiratory reserve volume is the extra air that can still be forcibly expired beyond a normal tidal expiration; by definition it has already been expelled once expiration is maximal, so it is not what remains afterward.
+## answer_d
+Residual volume (RV)
+## explanation_d
+Correct. Residual volume is the air that remains in the lungs after even a maximal forced expiration — it can never be exhaled by any voluntary effort, which is also why it cannot be measured directly by spirometry.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## correct_answer
+D
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Identify residual volume as what remains in the lungs after a maximal forced expiration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p34 q64. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -66367,6 +69035,466 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q14. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0B6E64F38EEE
+## title
+Concerning laminar blood flow, one is incorrect:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning laminar blood flow, one is incorrect:
+## answer_a
+Blood flow occurs in layers |
+## explanation_a
+True of laminar flow, so not the exception. Laminar flow genuinely occurs as concentric, parallel layers (laminae) of fluid moving smoothly together.
+## answer_b
+Blood flow is silent
+## explanation_b
+True of laminar flow, so not the exception. Laminar flow is characteristically silent, unlike the audible turbulent flow that produces murmurs and bruits.
+## answer_c
+Re below 400
+## explanation_c
+The exception, and the answer. Laminar flow is maintained up to a Reynolds number of roughly 2000, not as low as 400 — stating 400 as the threshold badly understates how far the Reynolds number must rise before flow tips into turbulence.
+
+Why this is right:
+- Whether blood flow is smooth (laminar) or turbulent is predicted by the Reynolds number, which rises with blood velocity, vessel diameter and blood density, and falls as blood viscosity rises.
+## answer_d
+Re above 2000
+## explanation_d
+True, so not the exception. A Reynolds number above roughly 2000 does mark the standard threshold for the transition toward turbulent flow.
+## correct_answer
+C
+## main_concept
+CON-CVS-BE644093FBBA69
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that laminar flow is maintained up to a Reynolds number of roughly 2000, not as low as 400, identifying the understated threshold as the false statement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p49 q23. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BD64EC3327BE
+## title
+Turbulence is almost always present when Reynolds number is more than:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Turbulence is almost always present when Reynolds number is more than:
+## answer_a
+2000
+## explanation_a
+Correct. Standard cardiovascular physiology teaching states that once the Reynolds number rises above approximately 2000, turbulent flow will usually (almost always) occur, even in an otherwise straight, smooth vessel — the standard, most commonly cited figure for this threshold.
+
+Why this is right:
+- Whether blood flow is smooth (laminar) or turbulent is predicted by the Reynolds number, which rises with blood velocity, vessel diameter and blood density, and falls as blood viscosity rises.
+## answer_b
+2500
+## explanation_b
+2500 is not the standard, most commonly cited threshold figure for this specific teaching point.
+## answer_c
+3000
+## explanation_c
+3000 is not the standard, most commonly cited threshold figure for this specific teaching point.
+## answer_d
+3500
+## explanation_d
+3500 is not the standard, most commonly cited threshold figure for this specific teaching point.
+## correct_answer
+A
+## main_concept
+CON-CVS-BE644093FBBA69
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that turbulent flow is almost always present once the Reynolds number rises above approximately 2000.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p49 q20. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-910396F80F4A
+## title
+Which of the following describes the pulse pressure?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following describes the pulse pressure?
+## answer_a
+It’s determined by the stroke volume ١
+## explanation_a
+Correct. Pulse pressure -- the difference between systolic and diastolic arterial pressure -- is directly determined by stroke volume for a given arterial compliance: a larger stroke volume ejects more blood into the arterial tree per beat, producing a larger swing in pressure between systole and diastole.
+
+Why this is right:
+- Mean arterial pressure approximately equals diastolic pressure plus one-third of the pulse pressure, not the arithmetic mean of systolic and diastolic pressure, because systole is shorter than diastole.
+## answer_b
+It's decreased when arterial resistance decreases
+## explanation_b
+Pulse pressure is most directly governed by stroke volume and arterial compliance; peripheral arterial resistance primarily determines mean arterial pressure rather than being the main driver of pulse pressure changes.
+## answer_c
+It’s the highest pressure measured in the arteries
+## explanation_c
+The highest pressure measured in the arteries is the systolic pressure itself, not the pulse pressure, which is instead the difference between systolic and diastolic pressure.
+## answer_d
+It’s the lowest pressure measured in the arteries
+## explanation_d
+The lowest pressure measured in the arteries is the diastolic pressure itself, not the pulse pressure.
+## correct_answer
+A
+## main_concept
+CON-CVS-A0579343614BCD
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that pulse pressure is determined by stroke volume (for a given arterial compliance), not by arterial resistance or by naming the highest or lowest arterial pressure directly.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p8 q32. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-78844D4F6AC6
+## title
+Atrial natriuretic peptide
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Atrial natriuretic peptide
+## answer_a
+Secretion is increased when the ECF volume is decreased
+## explanation_a
+A decreased, not increased, ECF volume removes the atrial-stretch stimulus for ANP secretion — the opposite of the direction that triggers its release.
+## answer_b
+Secretion is increased during immersion in water up to the neck
+## explanation_b
+Correct. Immersion in water up to the neck shifts peripheral venous blood centrally, raising central blood volume and stretching the atrial wall — exactly the stimulus that raises ANP secretion.
+
+Why this is right:
+- The renin-angiotensin-aldosterone system (RAAS) and atrial natriuretic peptide (ANP) are a matched pair of opposing hormonal systems for blood pressure and sodium balance.
+## answer_c
+Causes contraction of the vascular smooth muscle cells
+## explanation_c
+ANP promotes vasodilation, not contraction, of vascular smooth muscle — part of how it lowers, rather than raises, blood pressure.
+## answer_d
+Causes rise of the arterial blood pressure
+## explanation_d
+ANP lowers, not raises, arterial blood pressure, via vasodilation and increased renal sodium excretion — the physiological opposite of what this option states.
+## correct_answer
+B
+## main_concept
+CON-CVS-D1F75A76748E54
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that ANP secretion is increased by atrial stretch from a rising central blood volume, such as during water immersion up to the neck.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p5 q31; DPT BOOK Physio MCQ [104][2022].pdf p21 q161. Manifest src_d3160d222c8c55775511, src_e569449acf8dc2af471e.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-248C1FA1CBC8
+## title
+Which of the following changes would not occur following inhibition of angiotensin conv…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following changes would not occur following inhibition of angiotensin converting enzyme?
+## answer_a
+Rennin secretion will fall
+## explanation_a
+Correct, and the exception the question asks for: renin secretion would NOT fall following ACE inhibition -- it would RISE, because angiotensin II normally suppresses renin secretion by negative feedback, and removing angiotensin II (by blocking the enzyme that makes it) removes that brake.
+
+Why this is right:
+- The renin-angiotensin-aldosterone system (RAAS) and atrial natriuretic peptide (ANP) are a matched pair of opposing hormonal systems for blood pressure and sodium balance.
+## answer_b
+Aldosterone level in plasma will fall
+## explanation_b
+Aldosterone level genuinely would fall following ACE inhibition, since aldosterone secretion depends on angiotensin II, which ACE inhibition lowers — this change would occur, so it is not the exception.
+## answer_c
+Proximal tubular sodium reabsorption will decrease
+## explanation_c
+Proximal tubular sodium reabsorption genuinely would decrease following ACE inhibition, since it is partly driven by angiotensin II and the aldosterone it stimulates, both of which fall — this change would occur, so it is not the exception.
+## answer_d
+Peripheral resistance will decrease
+## explanation_d
+Peripheral resistance genuinely would decrease following ACE inhibition, since angiotensin II is a direct vasoconstrictor and ACE inhibition lowers angiotensin II — this change would occur, so it is not the exception.
+## correct_answer
+A
+## main_concept
+CON-CVS-D1F75A76748E54
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that ACE inhibition raises, rather than lowers, renin secretion, by removing angiotensin II's own negative feedback on renin release.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q158. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

@@ -150,5 +150,21 @@ export const LEAF: McqLeafSeed = {
         D: "Albuminuria lowers, not raises, plasma oncotic pressure — protein is being lost from the plasma, not added to it.",
       },
     },
+    // Leaf-mismatch routing (bank-tagged "Vascular Function" — a histology
+    // question on capillary permeability type by organ, genuinely this
+    // file's own diffusion/permeability content).
+    {
+      key: "the-capillaries-which-are-present-in-the-nervous-tissue-are-28dee5ce",
+      conceptKey: "capillary-exchange.diffusion-permeability-and-vesicular-transport",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Identify continuous capillaries as the type present in nervous tissue, consistent with the blood-brain barrier's low permeability.",
+      explanations: {
+        A: "\"Non-fenestrated with diaphragm\" does not describe any of the three standard capillary types; a capillary either has fenestrae (covered by a diaphragm, or open in a sinusoid) or, like the continuous type, has no fenestrae at all.",
+        B: "Fenestrated capillaries with diaphragmed pores are sited in tissues built for fast fluid/solute exchange, such as the intestine and endocrine glands — not nervous tissue, whose capillaries must instead tightly restrict what crosses, forming the blood-brain barrier.",
+        C: "Correct. Nervous tissue is supplied by continuous capillaries, the least permeable of the three types, with a tightly joined, unbroken endothelium that lets nothing cross except by transport through the cell itself — the structural basis of the blood-brain barrier.",
+        D: "Fenestrated capillaries without a diaphragm (fenestrae with no covering diaphragm at all) are the pattern seen in the renal glomerulus, not nervous tissue.",
+      },
+    },
   ],
 }

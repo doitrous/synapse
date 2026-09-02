@@ -1,0 +1,153 @@
+{
+  "lane": "AUN-CBF-103",
+  "cluster": "cbf-bank-pending-103bms",
+  "header": "AUN-CBF-103 -- CBF question bank.pdf, Q1-30 batch. Q22, Q26, Q27 and Q30 reuse three pending Kasr 103-BMS nerve/muscle physiology concepts (CON-NEU-7E784A50D2BBAF local response, CON-NEU-77596C8A899A7E excitability factors, CON-NEU-A0C8307D2825A6 saltatory conduction -- docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md) rather than re-minting. Omar applies this batch only after: 1) the Kasr 103-BMS-mcq-vitamins-nerve concept batch, 2) AUN-CBF-103-cbf-bank-pending-103bms-concept.md (the sparse +aun overlay). Import order: 1 then 2 then this file, each via Admin > Bulk import -> question.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-CBF-103",
+    "module_subject": "AUN-CBF-103 > Physiology > Nerve Excitability",
+    "exam_weight_by_year": { "AUN_Y1": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-103-PHY-NERVE-FIBRE-AND-CONDUCTION", "ART-103-PHY-NERVE-ACTION-POTENTIAL"],
+    "resource_ids": ["src_76eae135453cd8432f14"],
+    "source_citation": "CBF question bank.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Nerve Excitability"
+  },
+  "questions": [
+    {
+      "key": "cbf-bank-q022",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS-Q022",
+      "page": 3,
+      "title": "Local response, EXCEPT: it does not propagate long distances",
+      "question": "Regarding the local response in a nerve fibre, the following is true, EXCEPT:",
+      "options": {
+        "A": "it can result from application of subthreshold stimulus",
+        "B": "it is proportional to the strength of the stimulus",
+        "C": "it can propagate along the nerve fiber for long distance",
+        "D": "it is accompanied by increased excitability"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect as the exception -- this statement is true. A subthreshold stimulus is exactly what produces a local response: it opens some sodium activation gates, partially depolarising the membrane without reaching the firing level.",
+        "B": "Incorrect as the exception -- this statement is true. The local response is graded, so its size varies directly with the strength of the subthreshold stimulus that produces it, unlike the fixed, all-or-none action potential.",
+        "C": "Correct -- this is the exception (the false statement). The local response is non-propagated and fades within one to two millimetres. It does not propagate along the nerve fibre for any real distance. A true action potential, by contrast, regenerates itself node-to-node or point-to-point over the fibre's whole length, which is exactly the propagating behaviour the local response lacks.",
+        "D": "Incorrect as the exception -- this statement is true. Excitability is increased during a local response, because the membrane has already moved partway toward the firing level, making a further stimulus more likely to trigger a full action potential."
+      },
+      "main_concept": "CON-NEU-7E784A50D2BBAF",
+      "concept_ids": ["CON-NEU-7E784A50D2BBAF"],
+      "contextual_concept_ids": [],
+      "subtopic": "Local response",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify that the local response does NOT propagate along the nerve fibre for any real distance, unlike a true action potential.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer table p.18, \"22- c\"", "pendingConcept": "CON-NEU-7E784A50D2BBAF is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/import-ready/concept/103-BMS-mcq-vitamins-nerve-concepts.md, canonical_key nerve.local-response.graded-summation -- this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q026",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS-Q026",
+      "page": 3,
+      "title": "Local response is accompanied by increased excitability",
+      "question": "Local response :",
+      "options": {
+        "A": "is a state of passive depolarization at the anode",
+        "B": "it is accompanied by increased excitability",
+        "C": "it obeys all or non law",
+        "D": "it can propagate and generate another local response within a distance of 3-4 cm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Passive depolarization at the anode describes anodal break excitation, a separate phenomenon from the general local response; the local response itself is an active, graded event driven by sodium activation-gate opening at any stimulated point, not specifically anodal.",
+        "B": "Correct. The local response is accompanied by increased excitability. The partial depolarization it produces moves the membrane potential closer to the firing level. A further stimulus is then more likely to reach threshold and trigger a full action potential, which is also why rapid subthreshold stimuli can summate to threshold.",
+        "C": "Incorrect. The local response specifically does NOT obey the all-or-none law -- it is graded, varying in size and duration with the stimulus strength, which is the opposite of the fixed, all-or-none action potential.",
+        "D": "Incorrect. The local response does not propagate at all; it fades within one to two millimetres, nowhere near the 3-4 cm distance this option describes, and it does not generate a fresh local response further along the fibre."
+      },
+      "main_concept": "CON-NEU-7E784A50D2BBAF",
+      "concept_ids": ["CON-NEU-7E784A50D2BBAF"],
+      "contextual_concept_ids": [],
+      "subtopic": "Local response",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the local response is accompanied by increased excitability, since it moves the membrane closer to the firing level.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer table p.18, \"26- b\"", "pendingConcept": "CON-NEU-7E784A50D2BBAF, same pending Kasr 103-BMS concept as Q022 above -- applies only after that batch is live" },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q027",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS-Q027",
+      "page": 3,
+      "title": "Excitability decreased by a fall in extracellular potassium",
+      "question": "Excitability of the nerve fiber is decreased in the following condition :",
+      "options": {
+        "A": "a decrease in ECF Na+ concentration",
+        "B": "a decrease in ECF K+ concentration",
+        "C": "an increase in ECF K+ concentration",
+        "D": "low Ca++ concentration in ECF"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A decrease in extracellular Na+ reduces the driving force for Na+ influx during depolarization (reducing action-potential amplitude), but this is not the factor named here as decreasing baseline excitability the way potassium changes do.",
+        "B": "Correct. Extracellular potassium concentration sets the resting membrane potential. A decrease in ECF K+ hyperpolarizes the membrane, moving the resting potential further away from threshold, which decreases nerve fibre excitability.",
+        "C": "Incorrect. An increase in ECF K+ concentration instead depolarizes the resting membrane, moving it closer to threshold, which initially increases (not decreases) excitability -- the opposite direction from what this question asks about; sustained severe hyperkalaemia can later paralyse the nerve by inactivating Na+ channels, a different, later effect.",
+        "D": "Incorrect. Low extracellular calcium removes some of calcium's membrane-stabilising effect on Na+ channels, lowering the threshold and increasing, not decreasing, excitability (hypocalcaemic tetany)."
+      },
+      "main_concept": "CON-NEU-77596C8A899A7E",
+      "concept_ids": ["CON-NEU-77596C8A899A7E"],
+      "contextual_concept_ids": [],
+      "subtopic": "Factors affecting excitability",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that a decrease in extracellular potassium hyperpolarizes the nerve membrane and decreases excitability.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer table p.18, \"27- b\"", "pendingConcept": "CON-NEU-77596C8A899A7E is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/import-ready/concept/103-BMS-mcq-vitamins-nerve-concepts.md, canonical_key nerve.excitability.factors -- this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q030",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS-Q030",
+      "page": 4,
+      "title": "Myelinated fibres conduct faster than unmyelinated fibres",
+      "question": "Regarding conduction of action potential along a nerve fiber:",
+      "options": {
+        "A": "propagation of action potential requires ATP",
+        "B": "large myelinated nerve fibers conduct faster than unmyelinated nerve fibers",
+        "C": "saltatory conduction is associated with slowing of action potential propagation",
+        "D": "the action potential magnitude declines as it propagates along the nerve fiber"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Propagation of a single action potential itself is driven by passive ionic current flow down the axon, not a direct ATP-consuming step; ATP is instead needed afterward, to run the Na+-K+ pump that restores the ionic gradients the many action potentials have run down.",
+        "B": "Correct. Large myelinated nerve fibres conduct faster than unmyelinated fibres. In a myelinated axon the internodal membrane is insulated and only the nodes of Ranvier are exposed with voltage-gated Na+ channels, so the impulse jumps from node to node (saltatory conduction) instead of regenerating continuously along the whole membrane -- this increases conduction velocity up to fifty-fold over an unmyelinated fibre of similar diameter.",
+        "C": "Incorrect. Saltatory conduction is associated with speeding up, not slowing, action potential propagation -- jumping between nodes is exactly what makes myelinated conduction faster than the continuous, point-to-point conduction of an unmyelinated fibre.",
+        "D": "Incorrect. The action potential does not decline in magnitude as it propagates; it is regenerated at full size at each point (or each node, in myelinated fibres) along the way, which is why it can travel the full length of a long axon without decrement."
+      },
+      "main_concept": "CON-NEU-A0C8307D2825A6",
+      "concept_ids": ["CON-NEU-A0C8307D2825A6"],
+      "contextual_concept_ids": [],
+      "subtopic": "Saltatory conduction",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that large myelinated nerve fibres conduct faster than unmyelinated fibres, as a direct consequence of saltatory conduction.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer table p.18, \"30- b\"", "pendingConcept": "CON-NEU-A0C8307D2825A6 is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/import-ready/concept/103-BMS-mcq-vitamins-nerve-concepts.md, canonical_key nerve.saltatory-conduction.velocity -- this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    }
+  ]
+}

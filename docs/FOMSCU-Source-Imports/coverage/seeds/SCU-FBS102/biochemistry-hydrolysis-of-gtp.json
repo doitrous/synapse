@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-hydrolysis-of-gtp",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'biochemistry-hydrolysis-of-gtp'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Cell Signalling"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-hydrolysis-of-gtp",
+      "id": "QST-SCUFBS102-S2-BIOCHEMISTRY-HYDROLYSIS-OF-GTP",
+      "title": "Switching off G protein signalling",
+      "question": "In G protein coupled receptors the G protein action is switched off by which one of the following specific biochemical processes?",
+      "options": {
+        "A": "The extremely fast direct total activation of the target functional protein",
+        "B": "The completely full alpha subunit totally replacement of GDP for GTP",
+        "C": "The extremely rapid total dissociation of the beta and delta subunits from alpha",
+        "D": "Hydrolysis of GTP"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Activation of the target protein is part of the signal being ON, downstream of an already-active G protein — not the step that switches it off.",
+        "B": "Incorrect. Exchanging GDP for GTP on the alpha subunit is exactly what turns the G protein ON, the reverse of the switch-off step being asked about.",
+        "C": "Incorrect. Dissociation of the beta-gamma pair from alpha happens when the G protein is activated, not when it is switched off.",
+        "D": "Correct. A G protein-coupled receptor activates its heterotrimeric G protein by prompting the alpha subunit to exchange bound GDP for GTP, letting alpha dissociate and activate its downstream target. Signalling switches off when the alpha subunit's own intrinsic GTPase activity hydrolyses that bound GTP back to GDP, allowing alpha to re-associate with beta-gamma and return the complex to its resting state."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Cell signalling mechanisms",
+      "main_concept": "CON-FND-FC87EE0F527D55",
+      "concept_ids": [
+        "CON-FND-FC87EE0F527D55"
+      ],
+      "difficulty": "Hard",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.4,
+      "reasoning_level": 2,
+      "inferred_difficulty": 40,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.3,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-BIOCHEM-MOLECULAR-BASICS"
+      ],
+      "learning_objective": "State that hydrolysis of bound GTP switches off G protein signalling.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q80 (also 2022 Q59)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q80 / 2022 Q59; source-JSON extraction."
+      }
+    }
+  ]
+}

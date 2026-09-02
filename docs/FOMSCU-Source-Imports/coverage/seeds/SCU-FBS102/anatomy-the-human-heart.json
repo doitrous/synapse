@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-the-human-heart",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-the-human-heart'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "cvs",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Thorax"
+  },
+  "questions": [
+    {
+      "key": "anatomy-the-human-heart",
+      "id": "QST-SCUFBS102-S2-ANATOMY-THE-HUMAN-HEART",
+      "title": "What the sternum protects",
+      "question": "Which of the following major organs is directly protected by the sternum?",
+      "options": {
+        "A": "The large liver organ",
+        "B": "The human heart",
+        "C": "The brain tissue",
+        "D": "The spinal cord"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The liver is protected mainly by the lower ribs, not the sternum, which sits higher and more anteriorly.",
+        "B": "Correct. The sternum lies in the midline of the anterior thoracic wall, directly in front of the heart and great vessels. Together with the rib cage, it forms the bony shield that protects the heart from anterior blunt trauma. This is why closed chest compressions in CPR work by compressing the heart between the sternum and the vertebral column.",
+        "C": "Incorrect. The brain's dedicated bony guard is the cranium, not the sternum.",
+        "D": "Incorrect. The spinal cord is protected by the vertebral column, a completely separate bony structure from the sternum."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Thoracic wall and mediastinum",
+      "main_concept": "CON-CVS-BC96A4B3426085",
+      "concept_ids": [
+        "CON-CVS-BC96A4B3426085"
+      ],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.15,
+      "reasoning_level": 1,
+      "inferred_difficulty": 75,
+      "exam_relevance": 3,
+      "clinical_relevance": 0.3,
+      "academic_relevance": 0.75,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-THORAX-HEART"
+      ],
+      "learning_objective": "State that the sternum directly protects the heart.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q6",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q6; source-JSON extraction."
+      }
+    }
+  ]
+}

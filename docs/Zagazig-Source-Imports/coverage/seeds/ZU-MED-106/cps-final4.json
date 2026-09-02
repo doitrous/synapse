@@ -1,0 +1,16 @@
+{
+  "lane": "ZU-MED-106",
+  "cluster": "cps-final4",
+  "header": "ZU-MED-106 · Cardiopulmonary — author2 triage of the 2 embedded case-study MCQs in `Cardio-Pulmonary Module Final (4).pdf` (a 244-page lecture/study-guide book, not an exam paper — see coverage/ZU-MED-106-triage.md). Both are held: neither option carries a printed, coloured, bold, underlined, highlighted or hand-drawn mark of any kind, so no key exists to recover. This seed carries no authored questions — it exists only so ledger.mjs records the hold.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["zu"],
+    "years": ["ZU_Y1"],
+    "module": "ZU-MED-106"
+  },
+  "questions": [
+    { "key": "cps-final4-q01", "hold": "held-no-printed-key — p144 Gaucher disease case study item 1 (\"deficit of which of the following?\" A) cytosol enzyme B) hormone sensetive lipase C) Lysosomal enzyme D) Peroxisomal enzyme); no colour/bold/underline/highlight/hand-mark on any option in Cardio-Pulmonary Module Final (4).pdf" },
+    { "key": "cps-final4-q02", "hold": "held-no-printed-key — p144 Gaucher disease case study item 2 (\"defect of which of the following enzyme?\" A) Sphingomyelinase B) Galactocerebrosidase C) Glucocerebroside D) Heexosaminidase); no colour/bold/underline/highlight/hand-mark on any option in Cardio-Pulmonary Module Final (4).pdf" }
+  ]
+}

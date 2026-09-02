@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-regulating-calcium-concentration-inside-",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'histology-regulating-calcium-concentration-inside-'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Cytoplasmic Organelles"
+  },
+  "questions": [
+    {
+      "key": "histology-regulating-calcium-concentration-inside-",
+      "id": "QST-SCUFBS102-S2-HISTOLOGY-SER-CALCIUM",
+      "title": "The primary function of smooth endoplasmic reticulum",
+      "question": "What is the primary function of the smooth endoplasmic reticulum in a cell?",
+      "options": {
+        "A": "Packaging newly synthesized cellular proteins",
+        "B": "Digesting old cellular waste materials",
+        "C": "Regulating calcium concentration inside the cell",
+        "D": "Producing energy molecules for the cell"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Packaging finished secretory protein is a Golgi apparatus function, not one performed by the smooth ER itself, even though the smooth ER's membranes feed material into the Golgi.",
+        "B": "Incorrect. Digesting cellular waste is the lysosome's job, using its own set of hydrolytic enzymes — a separate organelle from smooth ER.",
+        "C": "Correct. Smooth endoplasmic reticulum has several functions depending on the cell type, including lipid and steroid synthesis and detoxification of drugs and toxins. Especially in muscle cells, where it is specialised as the sarcoplasmic reticulum, it regulates intracellular calcium concentration. It does this by sequestering and releasing calcium ions to drive and then terminate contraction.",
+        "D": "Incorrect. ATP production is the mitochondrion's role, achieved through oxidative phosphorylation — unrelated to the smooth ER's membrane network."
+      },
+      "topic": "Histology",
+      "subtopic": "Cytoplasmic organelles",
+      "main_concept": "CON-FND-C38F8E29E9FA1D",
+      "concept_ids": [
+        "CON-FND-C38F8E29E9FA1D"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 55,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.3,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-HIST-CELL-TISSUE-BASICS"
+      ],
+      "learning_objective": "Name calcium regulation as a primary function of smooth endoplasmic reticulum, especially in muscle.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q24",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q24; source-JSON extraction."
+      }
+    }
+  ]
+}

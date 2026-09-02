@@ -1,0 +1,1020 @@
+{
+  "lane": "W1-102-EMBR",
+  "cluster": "anatomy-wagih-embryology",
+  "header": "AU-MED-102 Embryology — the Wagih bank (src_84b91e011582f2b53494, MCQs - Dr. Wagih Anatomy MCQ (1-7).pdf), Embryology section, pp.9-16 (32 items, 4 per page). This file is catalogued under the Anatomy department folder (coverage/AU-MED-102-anatomy-triage.md HAZARDS flagged its Embryology sub-section as out of the Anatomy lane's own scope and owed to whichever lane owns AU-MED-102's Embryology department); the same OCR-collapsed-answer-key problem the Anatomy General-Anatomy section had applies here too — pp.9-16 were mark-garbled and rendered to images, and each page's own printed answer table (row 1/2/3/4 over row a/b/c/d) was read directly off the scan. Cross-referencing the 32 items against docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md (a dense, HIT-PENDING general-embryology bank) found that every one of the 32 facts already exists as a Kasr concept — 12 already sparse-overlaid for AU-MED-102 by the existing embryology lane, 9 more overlaid this pass, plus one fact (capacitation) that lane's own prior NEW mint (CON-DEV-CA422E559742A2) already covers. This batch is entirely sparse reuse (16 concepts, 32 questions), no minting.",
+  "defaults": {
+    "subject": "dev",
+    "status": "Draft",
+    "owner": "Admin team",
+    "universities": ["au"],
+    "years": ["AU_Y1"],
+    "module": "AU-MED-102",
+    "exam_weight_by_year": { "AU_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_84b91e011582f2b53494"],
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true,
+    "topic": "Anatomy",
+    "subtopic": "General Embryology",
+    "module_subject": "AU-MED-102 > Embryology > General Embryology",
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "embryo-q01",
+      "id": "QST-DEV-FERTILIZATION-SITE-01",
+      "title": "Fertilization occurs in the:",
+      "question": "Fertilization occurs in ...............",
+      "options": {
+        "A": "Ampulla",
+        "B": "Fundus",
+        "C": "Cervix",
+        "D": "Vagina"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Fertilisation normally takes place in the ampulla of the uterine tube, the widest and longest part of the tube, where the ovulated oocyte is met by sperm that have travelled up through the cervix, uterus and tube. The ampulla's width gives the sperm and oocyte enough space and time together for the sperm to complete capacitation and the acrosome reaction before penetrating the corona radiata and zona pellucida. If fertilisation does not occur within about 24 hours of ovulation, the oocyte degenerates before reaching this site.",
+        "B": "Incorrect. The fundus is the upper part of the uterine body; it is where the fertilised egg's blastocyst normally implants roughly a week later, not where fertilisation itself happens.",
+        "C": "Incorrect. The cervix is the lower, narrow part of the uterus through which sperm must first pass on their way to the tube; fertilisation happens much further along the sperm's journey.",
+        "D": "Incorrect. The vagina is where semen is deposited at intercourse, the very start of the sperm's journey, well before fertilisation occurs in the tube."
+      },
+      "main_concept": "CON-DEV-F33BB68138377B",
+      "concept_ids": ["CON-DEV-F33BB68138377B"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the ampulla of the uterine tube as the normal site of fertilization.",
+      "library_ids": ["ART-101-ANA-FERTILIZATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q1, keyed a).",
+      "page": 9,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = a/a/a/c) at the foot of p.9",
+        "au": "Filed under the Anatomy department folder in the source PDF, but this and the rest of the p.9-16 items are Embryology content, authored under AU-MED-102's Embryology department per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q02",
+      "id": "QST-DEV-CAPACITATION-DEFINITION-01",
+      "title": "Loss of the glycoprotein coat over the sperm head is called:",
+      "question": "The process of loss of glycoprotein coat present over the head of the sperm is called",
+      "options": {
+        "A": "Capacitation",
+        "B": "Acrosomal reaction",
+        "C": "Cortical reaction",
+        "D": "Implantation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Capacitation is the process, occurring in the female genital tract, that strips the glycoprotein coat and seminal plasma proteins from the plasma membrane overlying the sperm's acrosomal region. It is a prerequisite step, not the fertilising event itself: only a capacitated sperm can go on to bind zona pellucida receptors and undergo the acrosome reaction. Without capacitation first removing this surface coat, a sperm cannot penetrate the corona radiata and zona pellucida around the oocyte.",
+        "B": "Incorrect. The acrosome reaction is the release of acrosomal enzymes (acrosin, hyaluronidase) that happens after capacitation, when the sperm binds the zona pellucida — it is a different, later step, not the coat-loss step itself.",
+        "C": "Incorrect. The cortical reaction is the oocyte's own response after a sperm has fused with it, releasing cortical granules that block polyspermy; it happens in the egg, not on the sperm's surface.",
+        "D": "Incorrect. Implantation is the blastocyst embedding into the endometrium about a week after fertilisation, unrelated to the sperm's own surface coat."
+      },
+      "main_concept": "CON-DEV-CA422E559742A2",
+      "concept_ids": ["CON-DEV-CA422E559742A2"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name capacitation as the process that strips the glycoprotein coat from the sperm surface, distinct from the acrosome and cortical reactions.",
+      "library_ids": ["ART-AU-MED-102-EMBR-FERTILIZATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q2, keyed a).",
+      "page": 9,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = a/a/a/c) at the foot of p.9",
+        "au": "This concept was already minted AU-native (CON-DEV-CA422E559742A2) by the existing AU-MED-102 embryology lane, since capacitation is not covered at this definitional grain by the Kasr 101-ISK bank; cited directly, not overlaid."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q03",
+      "id": "QST-DEV-MORULA-CELL-COUNT-01",
+      "title": "The morula consists of how many cells?",
+      "question": "The morula consists of ........... cells.",
+      "options": {
+        "A": "16",
+        "B": "32",
+        "C": "4",
+        "D": "64"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. After fertilisation the zygote divides mitotically inside the zona pellucida, doubling from 2 blastomeres on the first day to 4 on the second and 8 on the third; at 16 cells the solid ball of blastomeres is named the morula. The morula has no internal cavity yet and its zona pellucida is still intact around it. This 16-cell stage is the department bank's own fixed reference point for the term, distinct from the fluid-filled blastocyst that follows it.",
+        "B": "Incorrect. 32 cells is past the morula stage; by then the cavity that defines the blastocyst has begun to form.",
+        "C": "Incorrect. 4 cells is the second-day cleavage stage, two divisions before the morula is reached.",
+        "D": "Incorrect. 64 cells is well past the morula stage, into a much more advanced blastocyst."
+      },
+      "main_concept": "CON-DEV-F5A87FDF5D911C",
+      "concept_ids": ["CON-DEV-F5A87FDF5D911C"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the morula is the 16-cell stage of cleavage, reached inside the intact zona pellucida.",
+      "library_ids": ["ART-101-ANA-FERTILIZATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q3, keyed a).",
+      "page": 9,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = a/a/a/c) at the foot of p.9",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q04",
+      "id": "QST-DEV-MORULA-FORMATION-DAY-01",
+      "title": "The morula forms on which day after fertilization?",
+      "question": "The morula formed at ........... Day after fertilization.",
+      "options": {
+        "A": "First",
+        "B": "Second",
+        "C": "Third",
+        "D": "Fourth"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Cleavage proceeds day by day inside the intact zona pellucida — 2 blastomeres on day one, 4 on day two, and the 16-cell morula forms within the uterine tube by the third day after fertilisation. It is carried toward the uterine cavity by a combination of tubal peristalsis, ciliary beating and tubal mucus, reaching the uterine cavity on the fourth day, one day after the morula itself has formed. The zona pellucida stays intact through the morula stage and only begins to degenerate at the end of the fifth day.",
+        "A": "Incorrect. On the first day the zygote has only just begun dividing, at the 2-cell stage, far short of the 16-cell morula.",
+        "B": "Incorrect. On the second day the embryo is at the 4-cell stage, still two divisions short of the morula.",
+        "D": "Incorrect. By the fourth day the morula has already formed (on day three) and is arriving at the uterine cavity, not forming for the first time."
+      },
+      "main_concept": "CON-DEV-F5A87FDF5D911C",
+      "concept_ids": ["CON-DEV-F5A87FDF5D911C"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the morula forms on the third day after fertilization, within the uterine tube.",
+      "library_ids": ["ART-101-ANA-FERTILIZATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q4, keyed c).",
+      "page": 9,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = a/a/a/c) at the foot of p.9",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q05",
+      "id": "QST-DEV-FIRST-WEEK-CAVITY-01",
+      "title": "The cavity present in the embryo at the first week is:",
+      "question": "The cavity which presents in the embryo at the first week is ...........",
+      "options": {
+        "A": "Chorionic cavity",
+        "B": "Blastocyst",
+        "C": "Blastocele",
+        "D": "Amniotic cavity"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Once the morula reaches the uterine cavity, the zona pellucida begins to degenerate and uterine fluid seeps in between the blastomeres; these fluid-filled spaces run together into a single cavity, the blastocele, completing the blastocyst by the end of the sixth day — still within the first week. The blastocele is the first true cavity to appear in the conceptus, before the amniotic cavity or the chorionic cavity exist. Its appearance is what turns the solid morula into the hollow blastocyst.",
+        "A": "Incorrect. The chorionic cavity appears later, in the second week, once extra-embryonic mesoderm has formed around the yolk sac.",
+        "B": "Incorrect. Blastocyst names the whole structure (trophoblast wall, blastocele and embryoblast together), not the cavity itself.",
+        "D": "Incorrect. The amniotic cavity opens above the epiblast during the second week, after the blastocele and bilaminar disc have already formed."
+      },
+      "main_concept": "CON-DEV-28CF4D241BE607",
+      "concept_ids": ["CON-DEV-28CF4D241BE607"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the blastocele as the first cavity to appear in the conceptus, formed within the first week.",
+      "library_ids": ["ART-101-ANA-FERTILIZATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q1, keyed c).",
+      "page": 10,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = c/c/c/a) at the foot of p.10",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q06",
+      "id": "QST-DEV-EMBRYONIC-POLE-DEFINITION-01",
+      "title": "The part of trophoblast covering the embryoblast is called:",
+      "question": "A part of trophoblast that covers the embryo blast is called ...........",
+      "options": {
+        "A": "Ampulla",
+        "B": "Coelom",
+        "C": "Embryonic pole",
+        "D": "Amnioblast"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The blastocyst wall (trophoblast) surrounds the blastocele, and the inner cell mass (embryoblast) lies against one side of that wall, inside it. The trophoblast directly covering the embryoblast is named the embryonic pole; the opposite side, over empty blastocele, is the abembryonic pole. It is by the embryonic pole that the blastocyst attaches to the endometrium and begins implantation, so this naming is not just descriptive — it marks the side that actually implants first.",
+        "A": "Incorrect. The ampulla is a region of the uterine tube where fertilisation occurs, unrelated to trophoblast anatomy.",
+        "B": "Incorrect. A coelom is a body cavity that appears much later in development (extra-embryonic and intra-embryonic coelom), not a part of the trophoblast.",
+        "D": "Incorrect. The amnioblast is a cell layer that appears later, roofing the amniotic cavity above the epiblast, not the trophoblast covering the embryoblast."
+      },
+      "main_concept": "CON-DEV-28CF4D241BE607",
+      "concept_ids": ["CON-DEV-28CF4D241BE607"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the embryonic pole as the trophoblast overlying the embryoblast, and state that it is the pole by which implantation begins.",
+      "library_ids": ["ART-101-ANA-FERTILIZATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q2, keyed c).",
+      "page": 10,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = c/c/c/a) at the foot of p.10",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q07",
+      "id": "QST-DEV-IMPLANTATION-BEGIN-DAY-01",
+      "title": "Implantation begins on which day after fertilization?",
+      "question": "The implantation begins at ........... after fertilization.",
+      "options": {
+        "A": "Day 5",
+        "B": "Day 6",
+        "C": "Day 7",
+        "D": "Day 8"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. On the seventh day after fertilisation the blastocyst begins implantation, attaching to the endometrium by its embryonic pole, and the trophoblast differentiates into an inner cytotrophoblast and an outer syncytiotrophoblast at this same point. The following days each add a further step — day 8 forms the bilaminar disc, days 9-10 embed the blastocyst fully and form the primary yolk sac — but the process of implantation itself is described as beginning on day 7. This day-by-day timetable is the department bank's own preferred way of testing second-week embryology, one fact at a time.",
+        "A": "Incorrect. Day 5 is when the zona pellucida is only just beginning to degenerate, before the blastocyst is even complete.",
+        "B": "Incorrect. Day 6 is when the blastocyst becomes complete (blastocele, trophoblast and embryoblast all present), the step just before implantation begins.",
+        "D": "Incorrect. By day 8 the blastocyst is already partly embedded and forming the bilaminar disc, one day after implantation began."
+      },
+      "main_concept": "CON-DEV-22C6EB6EB88448",
+      "concept_ids": ["CON-DEV-22C6EB6EB88448"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that implantation begins on day 7 after fertilization, when the trophoblast splits into cytotrophoblast and syncytiotrophoblast.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA", "ART-101-ANA-IMPLANTATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q3, keyed c).",
+      "page": 10,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = c/c/c/a) at the foot of p.10",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q08",
+      "id": "QST-DEV-ECTOPIC-COMMON-SITE-01",
+      "title": "The most common abnormal site of implantation is:",
+      "question": "The most common abnormal site of implantation ................",
+      "options": {
+        "A": "Fallopian tube",
+        "B": "Cervix of the uterus",
+        "C": "Ovary",
+        "D": "Peritoneal cavity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Abnormal implantation is grouped in two ways: intrauterine but too low (placenta previa) and entirely outside the uterine cavity (ectopic pregnancy). Ectopic pregnancy itself is overwhelmingly tubal — most often in the ampulla, but also the isthmus or intramural part of the tube — making the fallopian tube by far the most common site of abnormal implantation overall. Ovarian and peritoneal (abdominal) ectopic pregnancies do occur but are much rarer than tubal implantation.",
+        "B": "Incorrect. The cervix is an abnormal site of intrauterine, not ectopic, implantation, and is far less common than tubal implantation.",
+        "C": "Incorrect. Ovarian implantation is a recognised but rare form of ectopic pregnancy, much less common than tubal implantation.",
+        "D": "Incorrect. Peritoneal (abdominal) implantation is the rarest of the ectopic sites, well behind the tube."
+      },
+      "main_concept": "CON-DEV-89FC3BBB3C9BCE",
+      "concept_ids": ["CON-DEV-89FC3BBB3C9BCE"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the fallopian (uterine) tube as the most common site of ectopic (abnormal outside-uterus) implantation.",
+      "library_ids": ["ART-101-ANA-FERTILIZATION", "ART-101-ANA-IMPLANTATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q4, keyed a).",
+      "page": 10,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = c/c/c/a) at the foot of p.10",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q09",
+      "id": "QST-DEV-IMPLANTATION-ZONA-RUPTURE-01",
+      "title": "Implantation occurs when which structure ruptures?",
+      "question": "The implantation occurs when …........... ruptures:",
+      "options": {
+        "A": "Cytotrophoblast",
+        "B": "Zona pellucida",
+        "C": "Chorionic vesicle",
+        "D": "Placenta"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The morula and early blastocyst are held together and protected inside the zona pellucida, an acellular glycoprotein coat, which must first degenerate — beginning at the end of the fifth day — before the blastocyst can hatch out and its trophoblast can make direct contact with, and then invade, the endometrium. Implantation itself cannot begin while the zona pellucida is still intact, since it is a physical barrier between the trophoblast and the uterine lining. This is why the zona pellucida's own breakdown is described as the event that permits implantation to occur.",
+        "A": "Incorrect. The cytotrophoblast is a cell layer of the trophoblast that forms after implantation has begun, not a structure that ruptures to allow implantation.",
+        "C": "Incorrect. The chorionic vesicle is a later structure of the second week, formed well after implantation has already started.",
+        "D": "Incorrect. The placenta does not exist yet at the time of implantation; it develops over subsequent weeks from the trophoblast and decidua."
+      },
+      "main_concept": "CON-DEV-28CF4D241BE607",
+      "concept_ids": ["CON-DEV-28CF4D241BE607"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the zona pellucida must degenerate before the blastocyst can hatch and implantation can begin.",
+      "library_ids": ["ART-101-ANA-FERTILIZATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q1, keyed b).",
+      "page": 11,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/a/c) at the foot of p.11",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q10",
+      "id": "QST-DEV-SECOND-WEEK-EMBRYO-NAME-01",
+      "title": "The embryo at the beginning of the second week is called:",
+      "question": "The embryo at beginning of the second week is called...........",
+      "options": {
+        "A": "Morula",
+        "B": "Blastocyst",
+        "C": "Bilaminar germ disc",
+        "D": "Chorionic vesicle"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. At the start of the second week the embryoblast splits into two layers — epiblast and hypoblast — separated by the amniotic cavity that opens above the epiblast, giving the bilaminar (two-layered) germ disc. This is the named stage the embryo carries throughout the second week, until gastrulation converts it into a trilaminar disc in the third week. Naming the embryo correctly by its own current stage, rather than an earlier or later one, is exactly what this item tests.",
+        "A": "Incorrect. The morula is the first-week, 16-cell stage, well before the second week begins.",
+        "B": "Incorrect. Blastocyst names the first-week structure that implants; by the second week it has already differentiated further into the bilaminar disc within it.",
+        "D": "Incorrect. The chorionic vesicle forms later in the second week, once a single chorionic cavity has formed around the yolk sac — a later stage than the disc's own naming at the week's start."
+      },
+      "main_concept": "CON-DEV-59DB99C028C33F",
+      "concept_ids": ["CON-DEV-59DB99C028C33F"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the bilaminar germ disc as the embryo's stage at the beginning of the second week.",
+      "library_ids": ["ART-101-ANA-IMPLANTATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q2, keyed c).",
+      "page": 11,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/a/c) at the foot of p.11",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q11",
+      "id": "QST-DEV-AMNIOTIC-CAVITY-FLOOR-01",
+      "title": "The floor of the amniotic cavity is formed by:",
+      "question": "The floor of the amniotic cavity is formed by ...............",
+      "options": {
+        "A": "Epiblast",
+        "B": "Hypoblast",
+        "C": "Amnioblast",
+        "D": "Heusser's membrane"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When the embryoblast splits into epiblast and hypoblast, a cavity opens directly above the epiblast layer — the amniotic cavity — so the epiblast itself forms the floor of that cavity. The roof and walls of the cavity are instead formed by amnioblast cells, a separate population derived from the epiblast's own margin. This floor/roof distinction — epiblast below, amnioblast above — is a fine point the department bank tests directly rather than leaving to inference.",
+        "B": "Incorrect. The hypoblast lies on the opposite side of the bilaminar disc from the amniotic cavity; it instead roofs the primary yolk sac, not the amniotic cavity.",
+        "C": "Incorrect. Amnioblast cells form the roof and walls of the amniotic cavity, not its floor.",
+        "D": "Incorrect. Heuser's membrane lines the primary yolk sac (from hypoblast-derived cells), an entirely different cavity from the amniotic one."
+      },
+      "main_concept": "CON-DEV-59DB99C028C33F",
+      "concept_ids": ["CON-DEV-59DB99C028C33F"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the epiblast as the floor of the amniotic cavity, distinct from the amnioblast that forms its roof.",
+      "library_ids": ["ART-101-ANA-IMPLANTATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q3, keyed a).",
+      "page": 11,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/a/c) at the foot of p.11",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q12",
+      "id": "QST-DEV-CYTOTROPHOBLAST-DERIVATIVES-EXCEPT-01",
+      "title": "All of the following are derived from the cytotrophoblast, EXCEPT:",
+      "question": "All of the following derived from the cytotrophoblast except :",
+      "options": {
+        "A": "Amnioblast",
+        "B": "Heusser's membrane",
+        "C": "Epiblast",
+        "D": "Extra-embryonic mesoderm"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The epiblast is one of the two layers of the embryoblast (inner cell mass) itself, not a derivative of the trophoblast at all — the embryoblast and trophoblast are the blastocyst's two separate cell populations from the start. Amnioblast cells, Heuser's membrane and extra-embryonic mesoderm are all, by contrast, cell populations that trace back to the cytotrophoblast (or to cells closely associated with it) during the second week. Keeping straight which structures come from the embryoblast versus the trophoblast is exactly the distinction this exception item is testing.",
+        "A": "Incorrect. Amnioblast cells are a genuine cytotrophoblast-associated derivative, not the exception.",
+        "B": "Incorrect. Heuser's membrane is a genuine derivative associated with this lineage, not the exception.",
+        "D": "Incorrect. Extra-embryonic mesoderm is a genuine derivative associated with this lineage, not the exception."
+      },
+      "main_concept": "CON-DEV-59DB99C028C33F",
+      "concept_ids": ["CON-DEV-59DB99C028C33F"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Recognise the epiblast as part of the embryoblast, not a derivative of the trophoblast/cytotrophoblast.",
+      "library_ids": ["ART-101-ANA-IMPLANTATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q4, keyed c).",
+      "page": 11,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/a/c) at the foot of p.11",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q13",
+      "id": "QST-DEV-BLASTOCELE-DEVELOPS-INTO-01",
+      "title": "The blastocele develops into:",
+      "question": "The blastocele develops into ...............",
+      "options": {
+        "A": "Amniotic cavity",
+        "B": "Extra-embryonic coelom",
+        "C": "Intra-embryonic coelom",
+        "D": "Yolk sac"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. On the ninth day, flat hypoblast-derived cells line the blastocele, forming Heuser's membrane and converting the blastocele into the primary yolk sac. That primary yolk sac is later replaced by a second, definitive (secondary) yolk sac lined by a further wave of hypoblast cells. The blastocele is therefore not lost or discarded — it is the space the primary yolk sac is built directly inside.",
+        "A": "Incorrect. The amniotic cavity opens above the epiblast, on the opposite side of the disc from the blastocele/yolk sac, and is a separate space entirely.",
+        "B": "Incorrect. The extra-embryonic coelom (chorionic cavity) forms later still, within the extra-embryonic mesoderm, once the secondary yolk sac has already formed.",
+        "C": "Incorrect. The intra-embryonic coelom is a much later structure (third week), formed within the lateral plate mesoderm of the embryo proper, unrelated to the first-week blastocele."
+      },
+      "main_concept": "CON-DEV-1D10DF3B716A70",
+      "concept_ids": ["CON-DEV-1D10DF3B716A70"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the blastocele becomes the primary yolk sac once Heuser's membrane lines it.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q1, keyed d).",
+      "page": 12,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = d/a/c/b) at the foot of p.12",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q14",
+      "id": "QST-DEV-YOLK-SAC-VITELLINE-DUCT-01",
+      "title": "The definitive yolk sac is connected to the mid gut by:",
+      "question": "The definitive yolk sac is connected to the mid gut by .........••.....",
+      "options": {
+        "A": "Vitello-intestinal duct",
+        "B": "Neuro-enteric canal",
+        "C": "Aortic opening",
+        "D": "Embryonic pole"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. After embryonic folding compresses the definitive (secondary) yolk sac, the part that stays connected to the midgut narrows into the vitello-intestinal (vitelline) duct, which carries the yolk sac's own blood vessels alongside it. This duct and the remaining part of the sac outside the folded embryo gradually degenerate as development continues, and their obliteration is exactly why a persistent vitello-intestinal duct (Meckel's diverticulum) is a recognised congenital anomaly. Naming this duct is the key link between the yolk sac, an extra-embryonic structure, and the midgut, which lies inside the folded embryo proper.",
+        "B": "Incorrect. The neuro-enteric canal is a temporary communication between the amniotic cavity and the yolk sac formed via the notochordal canal, not the connection between the yolk sac and the midgut.",
+        "C": "Incorrect. An 'aortic opening' is not a named embryological structure connecting the yolk sac to the gut.",
+        "D": "Incorrect. The embryonic pole is a first-week feature of the blastocyst's trophoblast, unrelated to the yolk sac-midgut connection formed much later."
+      },
+      "main_concept": "CON-DEV-1D10DF3B716A70",
+      "concept_ids": ["CON-DEV-1D10DF3B716A70"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the vitello-intestinal (vitelline) duct as the connection between the definitive yolk sac and the midgut.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q2, keyed a).",
+      "page": 12,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = d/a/c/b) at the foot of p.12",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q15",
+      "id": "QST-DEV-EXTRAEMBRYONIC-COELOM-EXCEPT-01",
+      "title": "Which part of the embryo is NOT surrounded by the extra-embryonic coelom?",
+      "question": "All parts of the embryo surrounded by extra-embryonic coelum, except:",
+      "options": {
+        "A": "Somatopleuric mesoderm",
+        "B": "Splanchnopleuric mesoderm",
+        "C": "Connecting stalk",
+        "D": "Amnion"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The extra-embryonic coelom (chorionic cavity) forms within the extra-embryonic mesoderm, which splits into a somatic (somatopleuric) layer lining the cytotrophoblast and amnion and a splanchnic (splanchnopleuric) layer covering the yolk sac — both of these layers, and the amnion they line, sit at the boundary of and are surrounded by the coelom. The connecting stalk, by contrast, is the structure that bridges the embryo to the chorion directly through the coelom, so it is not itself surrounded by the cavity in the same way — it is the one part of the extra-embryonic mesoderm the coelom does not extend around. This is exactly the exception the department bank's own item is testing: three genuinely coelom-bounded structures against the one bridging structure that is not.",
+        "A": "Incorrect. Somatopleuric mesoderm is genuinely bounded by the extra-embryonic coelom, not the exception.",
+        "B": "Incorrect. Splanchnopleuric mesoderm is genuinely bounded by the extra-embryonic coelom, not the exception.",
+        "D": "Incorrect. The amnion, lined by somatopleuric mesoderm, is genuinely bounded by the extra-embryonic coelom, not the exception."
+      },
+      "main_concept": "CON-DEV-B87D52797068D2",
+      "concept_ids": ["CON-DEV-B87D52797068D2"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Recognise the connecting stalk as the structure that bridges through, rather than being surrounded by, the extra-embryonic coelom.",
+      "library_ids": ["ART-101-ANA-IMPLANTATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q3, keyed c).",
+      "page": 12,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = d/a/c/b) at the foot of p.12",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q16",
+      "id": "QST-DEV-PRIMITIVE-STREAK-CRANIAL-END-01",
+      "title": "The cranial end of the primitive streak is called:",
+      "question": "The cranial end of the primitive streak is called .............",
+      "options": {
+        "A": "Primitive notochord",
+        "B": "Primitive node",
+        "C": "Primitive pit",
+        "D": "Lateral plate mesoderm"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. During gastrulation the primitive streak appears in the third week as a groove in the midline of the epiblast, and its cranial end is a swelling named the primitive node (Hensen's node). The node itself contains a central depression, the primitive pit, which is a distinct but related landmark right at the node. From the primitive node, a solid cord of epiblast cells — the prenotochordal process — invaginates and extends cranially to form the notochord, so the node's own position marks where axial development begins.",
+        "A": "Incorrect. 'Primitive notochord' is not the standard name for this structure; the notochord itself develops from the prenotochordal process that grows out of the primitive node, not the node itself.",
+        "C": "Incorrect. The primitive pit is the depression found within the primitive node, a related but distinct landmark from the node as a whole.",
+        "D": "Incorrect. Lateral plate mesoderm is one of the three columns intra-embryonic mesoderm divides into, arising from the caudal part of the streak — not the streak's cranial end."
+      },
+      "main_concept": "CON-DEV-215BD7E9E58872",
+      "concept_ids": ["CON-DEV-215BD7E9E58872"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the primitive node as the cranial end of the primitive streak, and distinguish it from the primitive pit within it.",
+      "library_ids": ["ART-101-ANA-EMBRYONIC-FOLDING"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q4, keyed b).",
+      "page": 12,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = d/a/c/b) at the foot of p.12",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q17",
+      "id": "QST-DEV-UROGENITAL-INTERMEDIATE-MESODERM-01",
+      "title": "The urogenital system is derived from:",
+      "question": "The urogenital system is derived from :",
+      "options": {
+        "A": "Para-axial mesoderm",
+        "B": "Inter-mediate mesoderm",
+        "C": "Lateral plate mesoderm",
+        "D": "Intra-embryonic coelom"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Intra-embryonic mesoderm arises from the primitive streak and splits into three columns on each side: paraxial mesoderm (from the streak's cranial part, forming somites, vertebrae, dermis and skeletal muscle), intermediate mesoderm (from the streak's middle, forming the urogenital system), and lateral plate mesoderm (from the streak's caudal part, split by the coelom into the body wall and gut/viscera layers). The urogenital system's derivation from intermediate mesoderm specifically is the department book's own fixed pairing, distinguishing it clearly from the paraxial column's musculoskeletal fate and the lateral plate's serosal fate.",
+        "A": "Incorrect. Paraxial mesoderm segments into somites, forming the vertebrae, dermis and skeletal muscles, not the urogenital system.",
+        "C": "Incorrect. Lateral plate mesoderm forms the body wall's connective tissue, the serous membranes and gut/cardiac smooth and cardiac muscle, not the urogenital system.",
+        "D": "Incorrect. The intra-embryonic coelom is a cavity formed within the lateral plate mesoderm, not the source of the urogenital system."
+      },
+      "main_concept": "CON-DEV-2E3E3098D90C0C",
+      "concept_ids": ["CON-DEV-2E3E3098D90C0C"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name intermediate mesoderm as the source of the urogenital system, one of intra-embryonic mesoderm's three columns.",
+      "library_ids": ["ART-101-ANA-NERVOUS-SYSTEM"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q1, keyed b).",
+      "page": 13,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/c/a) at the foot of p.13",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q18",
+      "id": "QST-DEV-INTRAEMBRYONIC-COELOM-EXCEPT-01",
+      "title": "The intra-embryonic coelom gives rise to all of the following, EXCEPT:",
+      "question": "The intra-embryonic coelom gives all of the following, except:",
+      "options": {
+        "A": "Pleura",
+        "B": "Peritoneum",
+        "C": "Portal vein",
+        "D": "Pericardium"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The intra-embryonic coelom is a horse-shoe-shaped cavity inside the lateral plate mesoderm, and it directly forms the body's serous sacs — the pericardium (around the heart), the pleura (around the lungs) and the peritoneum (lining the abdominal cavity) — by splitting that mesoderm into a somatopleuric (parietal) layer and a splanchnopleuric (visceral) layer around each cavity. The portal vein, by contrast, is a blood vessel that develops from the vitelline (yolk sac) venous system, not from the coelom itself. Naming a vessel among three genuine serous-membrane derivatives is exactly the kind of exception this item is built to catch.",
+        "A": "Incorrect. The pleura is a genuine derivative of the intra-embryonic coelom, not the exception.",
+        "B": "Incorrect. The peritoneum is a genuine derivative of the intra-embryonic coelom, not the exception.",
+        "D": "Incorrect. The pericardium is a genuine derivative of the intra-embryonic coelom, not the exception."
+      },
+      "main_concept": "CON-DEV-2E3E3098D90C0C",
+      "concept_ids": ["CON-DEV-2E3E3098D90C0C"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name pleura, peritoneum and pericardium as the intra-embryonic coelom's serous-sac derivatives, and recognise the portal vein as a vessel, not a coelom derivative.",
+      "library_ids": ["ART-101-ANA-NERVOUS-SYSTEM"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q2, keyed c).",
+      "page": 13,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/c/a) at the foot of p.13",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q19",
+      "id": "QST-DEV-AMNIOTIC-FLUID-FUNCTION-EXCEPT-01",
+      "title": "Which of the following is NOT a function of amniotic fluid?",
+      "question": "All of the following are functions of amniotic fluid except:",
+      "options": {
+        "A": "Protection of the embryo from trauma",
+        "B": "Allow the embryo to practice suckling",
+        "C": "Helps in premature labour",
+        "D": "Lubricate the birth canal during labour"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Amniotic fluid's genuine roles are grouped by stage: early in pregnancy it is a shock absorber that protects the embryo from external trauma, a thermal insulator, and a barrier against adhesion between fetal parts; later it gives the fetus space to move (developing its muscles) and a medium it swallows to practise suckling; and during delivery it cushions uterine contractions, its fore bag helps dilate the cervix, and it lubricates the birth canal as a sterile fluid just before the fetus passes. Helping cause premature labour is not one of these roles at all — amniotic fluid's rupture (the 'waters breaking') signals that labour has started, but the fluid itself is not described as a cause of prematurity. This item asks a student to spot the one plausible-sounding statement that is not actually part of the department book's own list of functions.",
+        "A": "Incorrect. Protection of the embryo from trauma is a genuine, early-pregnancy function of amniotic fluid, not the exception.",
+        "B": "Incorrect. Allowing the embryo to practise suckling by swallowing the fluid is a genuine, late-pregnancy function, not the exception.",
+        "D": "Incorrect. Lubricating the birth canal during labour is a genuine, delivery-stage function, not the exception."
+      },
+      "main_concept": "CON-DEV-F356C3B8CFD31E",
+      "concept_ids": ["CON-DEV-F356C3B8CFD31E"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the genuine functions of amniotic fluid across early pregnancy, late pregnancy and delivery, and recognise 'helping premature labour' as not one of them.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q3, keyed c).",
+      "page": 13,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/c/a) at the foot of p.13",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q20",
+      "id": "QST-DEV-AMNIOTIC-FLUID-SOURCE-01",
+      "title": "The main source of amniotic fluid is:",
+      "question": "The main source of the amniotic fluid i...............",
+      "options": {
+        "A": "Amnioblast",
+        "B": "Hypoblast",
+        "C": "Trophoblast",
+        "D": "Embryoblast"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Amniotic fluid is first produced by the amnioblast cells that line the amniotic cavity; later in pregnancy it is increasingly derived from maternal blood by osmosis, and fetal urine is added from the fifth month onward. The department book names the amnioblast specifically as the fluid's original, defining source, even though other contributions are added as pregnancy proceeds. Naming the amnioblast, not a later contributor, is what this item is testing.",
+        "B": "Incorrect. The hypoblast forms the roof of the primary yolk sac, not the amniotic cavity, and is not the source of amniotic fluid.",
+        "C": "Incorrect. The trophoblast forms the outer wall of the blastocyst and later the fetal membranes/placenta, not the amniotic fluid itself.",
+        "D": "Incorrect. The embryoblast is the inner cell mass that gives rise to the embryo and its bilaminar disc, not a direct source of amniotic fluid."
+      },
+      "main_concept": "CON-DEV-F356C3B8CFD31E",
+      "concept_ids": ["CON-DEV-F356C3B8CFD31E"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the amnioblast as the original source of amniotic fluid, before maternal and fetal contributions are added later in pregnancy.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q4, keyed a).",
+      "page": 13,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/c/a) at the foot of p.13",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q21",
+      "id": "QST-DEV-ENDOMETRIUM-AFTER-IMPLANTATION-01",
+      "title": "The endometrium after implantation is called:",
+      "question": "The endometrium after implantation called ...........",
+      "options": {
+        "A": "Pervia",
+        "B": "Decidua",
+        "C": "Myometrium",
+        "D": "Placenta"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. After implantation the functional layer of the endometrium is renamed the decidua, so called because it is shed at birth along with the placenta and membranes. The decidua is described in three named parts by their relation to the conceptus: decidua basalis lies deep to it and becomes the maternal part of the placenta, decidua capsularis covers it and is progressively stretched thin, and decidua parietalis lines the rest of the uterine cavity. This naming applies to the whole functional endometrial layer once pregnancy has begun, not to any one part of it alone.",
+        "A": "Incorrect. 'Pervia' is not a term for the pregnant endometrium; it is part of the term placenta previa, describing an abnormal placental position.",
+        "C": "Incorrect. The myometrium is the uterus's muscular wall, a separate layer from the endometrium/decidua entirely.",
+        "D": "Incorrect. The placenta is the organ formed from decidua basalis (maternal part) together with the chorion frondosum (fetal part); it is not itself the name for the pregnant endometrium."
+      },
+      "main_concept": "CON-DEV-B84639AB8FF5DE",
+      "concept_ids": ["CON-DEV-B84639AB8FF5DE"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the decidua as the pregnant endometrium, so named because it is shed at birth.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA", "ART-101-ANA-FERTILIZATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q1, keyed b).",
+      "page": 14,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/a/c/c) at the foot of p.14",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q22",
+      "id": "QST-DEV-DECIDUA-BASALIS-MATERNAL-PART-01",
+      "title": "The maternal part forming the placenta is called:",
+      "question": "The maternal part forming the placenta is called ................",
+      "options": {
+        "A": "Decidua basalis",
+        "B": "Decidua capsularis",
+        "C": "Decidua parietalis",
+        "D": "Chorionic villi"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Of the decidua's three named parts, decidua basalis is the one lying deep to the conceptus, directly opposite the implantation site, and it is this part specifically that becomes the maternal (decidual) plate of the placenta. Decidua capsularis instead covers the conceptus and is stretched thin and eventually lost as the sac grows, while decidua parietalis lines the rest of the uterine cavity and later fuses with the capsularis. Only decidua basalis persists as a functioning part of the mature placenta, which is why it — and not the other two parts — is the maternal component named in that structure.",
+        "B": "Incorrect. Decidua capsularis covers the conceptus and is progressively stretched and lost, not retained as part of the placenta.",
+        "C": "Incorrect. Decidua parietalis lines the rest of the uterine cavity away from the conceptus and fuses with the capsularis; it does not form the placenta.",
+        "D": "Incorrect. Chorionic villi are the fetal, not maternal, contribution to the placenta, projecting from the chorion frondosum."
+      },
+      "main_concept": "CON-DEV-B84639AB8FF5DE",
+      "concept_ids": ["CON-DEV-B84639AB8FF5DE"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name decidua basalis as the maternal part of the decidua that becomes the maternal plate of the placenta.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA", "ART-101-ANA-FERTILIZATION"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q2, keyed a).",
+      "page": 14,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/a/c/c) at the foot of p.14",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q23",
+      "id": "QST-DEV-BATTLEDORE-PLACENTA-01",
+      "title": "Umbilical cord attached to the margin of the placenta is called:",
+      "question": "If the umbilical cord is attached to the margin of the placenta, the congenital anomaly is called:",
+      "options": {
+        "A": "Placenta previa",
+        "B": "Placenta marginalis",
+        "C": "Battledore's placenta",
+        "D": "Short umbilical cord"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The umbilical cord anomalies grouped by attachment to the placenta are named battledore, where the cord attaches at the placenta's margin (edge) rather than centrally, and velamentous, where the cord attaches through the amniotic membrane before reaching the placental edge at all. Battledore attachment is named for its resemblance to the handle of a battledore (an old racquet-like bat) meeting the paddle at its edge. Distinguishing this margin attachment from a truly membrane-only (velamentous) attachment is the fine point the department bank's cord-anomaly items are built to test.",
+        "A": "Incorrect. Placenta previa is an abnormality of the placenta's own site relative to the cervix (the lower uterine segment), not of where the cord attaches to it.",
+        "B": "Incorrect. 'Placenta marginalis' is not the standard term used; the correct name for margin attachment of the cord is battledore placenta.",
+        "D": "Incorrect. A short umbilical cord is an anomaly of the cord's own length, unrelated to where it attaches to the placenta."
+      },
+      "main_concept": "CON-DEV-3E918A4C74B56D",
+      "concept_ids": ["CON-DEV-3E918A4C74B56D"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name battledore placenta as marginal attachment of the umbilical cord, distinct from velamentous attachment and from placenta previa.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q3, keyed c).",
+      "page": 14,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/a/c/c) at the foot of p.14",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q24",
+      "id": "QST-DEV-PLACENTA-PREVIA-SITE-01",
+      "title": "Placenta previa is attached to which part of the endometrium?",
+      "question": "The placenta previa attatched to the endometrium of :",
+      "options": {
+        "A": "Uterine tube",
+        "B": "Upper part of the body of the uterus",
+        "C": "Lower segment of the body of the uterus",
+        "D": "Fundus"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Abnormal intrauterine implantation is defined by being too low, in the lower uterine segment, and placenta previa is exactly this: the placenta lies related to (near, partially over, or completely over) the internal cervical os, in the lower part of the uterine body rather than its normal upper posterior wall near the fundus. This low position is what puts placenta previa at risk of painless antepartum haemorrhage as the lower segment stretches later in pregnancy, and it is also why it causes obstructed labour rather than the rupture risk of an ectopic pregnancy. Naming the lower uterine segment, not the fundus or tube, is the specific location this item is testing.",
+        "A": "Incorrect. The uterine tube is the site of ectopic (outside-uterus), not intrauterine low, implantation — a different abnormality from placenta previa.",
+        "B": "Incorrect. The upper part of the uterine body, especially near the fundus, is the normal site of implantation, the opposite of placenta previa's abnormally low site.",
+        "D": "Incorrect. The fundus is the normal, upper implantation site; placenta previa is specifically defined by a low, not fundal, position."
+      },
+      "main_concept": "CON-DEV-723B31B1B9ED2E",
+      "concept_ids": ["CON-DEV-723B31B1B9ED2E"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that placenta previa is attached in the lower segment of the uterus, related to the internal os.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q4, keyed c — printed option order e/a/b/c in the source; relabelled to standard A-D order here).",
+      "page": 14,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/a/c/c) at the foot of p.14",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card. Source prints this item's options in the irregular order e (Fundus), a (Uterine tube), b (Upper part of the body of the uterus), c (Lower segment of the body of the uterus) — relabelled A-D in printed order here; the printed key 'c' refers to the source's own option lettered c ('Lower segment'), which is option D in this record."
+      },
+      "author_notes": "Option relettering note: this bank's own Q4 on p.14 prints a 4th option lettered oddly as 'e' first, then a/b/c — the printed key 'c' maps to the 4th listed option (Lower segment of the body of the uterus), preserved here as option D."
+    },
+    {
+      "key": "embryo-q25",
+      "id": "QST-DEV-CIRCUMVALLATE-PLACENTA-01",
+      "title": "The placenta with a central depression is called:",
+      "question": "The placenta with central depression is called...........",
+      "options": {
+        "A": "Circumvallate placenta",
+        "B": "Placenta succenturiata",
+        "C": "Placenta bipartita",
+        "D": "Placenta acreta"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Placental anomalies are grouped by what is abnormal about the placenta — position (previa), shape, number, cord attachment, diameter, or infiltration — and circumvallate placenta is a shape anomaly in which the chorionic plate is smaller than the basal plate, so the membranes double back at the edge, giving the fetal surface a raised ring and a central depression. This is a distinct shape abnormality from placenta succenturiata (an accessory lobe connected by vessels) or placenta bipartita (a placenta split into two roughly equal lobes). Recognising the central-depression appearance as specifically circumvallate is the fact this item tests.",
+        "B": "Incorrect. Placenta succenturiata is a small accessory lobe separate from the main placental mass, connected to it by vessels running through the membranes — a different anomaly (number, not shape) from a central depression.",
+        "C": "Incorrect. Placenta bipartita (or bilobed) describes a placenta divided into two nearly equal lobes, not a placenta with a central depression.",
+        "D": "Incorrect. Placenta accreta is an anomaly of infiltration (abnormal attachment into the myometrium), not of the placenta's own shape."
+      },
+      "main_concept": "CON-DEV-723B31B1B9ED2E",
+      "concept_ids": ["CON-DEV-723B31B1B9ED2E"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name circumvallate placenta as the shape anomaly producing a central depression, distinct from succenturiate and bipartite placentas.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q1, keyed a).",
+      "page": 15,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = a/d/b/b) at the foot of p.15",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q26",
+      "id": "QST-DEV-PLACENTA-PERCRETA-01",
+      "title": "Placenta invading the myometrium and reaching the perimetrium is called:",
+      "question": "If the placenta invades the myometrium and reach the perimetrium. It's called:",
+      "options": {
+        "A": "Placenta acreta",
+        "B": "Placenta increta",
+        "C": "Placenta previa",
+        "D": "Placenta percreta"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The infiltration group of placental anomalies is ranked by depth: placenta accreta attaches directly to the myometrium without the usual decidua basalis in between (but does not invade it), placenta increta invades into the myometrium's own substance, and placenta percreta invades all the way through the myometrium to reach — and sometimes beyond — the perimetrium (the uterus's outer serosal covering). Reaching the perimetrium specifically is what marks percreta as the deepest and most severe of the three, distinguishing it from increta, which stops within the muscle itself. Ordering these three terms by depth of invasion (accreta < increta < percreta) is exactly what this item is testing.",
+        "A": "Incorrect. Placenta accreta attaches to the myometrium's surface without invading into it at all, a shallower abnormality than reaching the perimetrium.",
+        "B": "Incorrect. Placenta increta invades into the myometrium's substance but does not reach as far as the perimetrium.",
+        "C": "Incorrect. Placenta previa is a positional abnormality (low in the uterus), unrelated to depth of invasion into the uterine wall."
+      },
+      "main_concept": "CON-DEV-723B31B1B9ED2E",
+      "concept_ids": ["CON-DEV-723B31B1B9ED2E"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Order placenta accreta, increta and percreta by depth of myometrial invasion, and name percreta as the deepest, reaching the perimetrium.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q2, keyed d).",
+      "page": 15,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = a/d/b/b) at the foot of p.15",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q27",
+      "id": "QST-DEV-UMBILICAL-CORD-LENGTH-01",
+      "title": "The normal length of the umbilical cord is:",
+      "question": "The normal length of the umbilical cord is:",
+      "options": {
+        "A": "2 cm",
+        "B": "55 cm",
+        "C": "30 cm",
+        "D": "100 cm"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The definitive umbilical cord, formed once the herniated intestinal loops have returned to the abdomen and the primitive cord's contents (yolk sac remnant, vitelline duct, allantois) have degenerated, normally measures around 55 cm in length by term, sheathed in amnion and packed with Wharton's jelly. This is the department bank's own reference figure for a normal cord, against which abnormally short or abnormally long cords are judged clinically. A cord well short of or well beyond this length is what defines the recognised 'short cord' and 'long cord' anomalies.",
+        "A": "Incorrect. 2 cm is far too short to be a normal umbilical cord length; a cord this short would itself be the 'short cord' anomaly.",
+        "C": "Incorrect. 30 cm is shorter than the normal reference length of about 55 cm.",
+        "D": "Incorrect. 100 cm is longer than the normal reference length, well into the range of an abnormally long cord."
+      },
+      "main_concept": "CON-DEV-134C8B5E98D759",
+      "concept_ids": ["CON-DEV-134C8B5E98D759"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the definitive umbilical cord normally measures about 55 cm in length.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q3, keyed b).",
+      "page": 15,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = a/d/b/b) at the foot of p.15",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card. The 55 cm figure is the Wagih bank's own printed key, consistent with but not itself stated as a number in the Kasr concept body cited here (which covers the cord's structure and composition)."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q28",
+      "id": "QST-DEV-UMBILICAL-CORD-ATTACHMENT-01",
+      "title": "The umbilical cord is attached to the embryo and to:",
+      "question": "The umbilical cord attached to the embryo and ..........",
+      "options": {
+        "A": "Maternal surface of the placenta",
+        "B": "Fetal surface of placenta",
+        "C": "Endometrium",
+        "D": "Myometrium"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The umbilical cord runs from the embryo (fetus) to the placenta's fetal surface, where the umbilical vessels spread out over the surface covered by amnion before diving into the chorionic plate. The placenta's fetal surface is smooth and amnion-covered, in contrast to the rough, cotyledon-marked maternal surface facing the decidua basalis — and the cord's own attachment point (central, marginal/battledore, or velamentous) is always described relative to this fetal surface. Naming the fetal, not maternal, surface as the cord's attachment is the key distinction this item is testing.",
+        "A": "Incorrect. The maternal surface of the placenta faces the decidua basalis and is where the placenta attaches to the uterine wall, not where the umbilical cord attaches.",
+        "C": "Incorrect. The endometrium (as decidua) surrounds the placenta and pregnancy generally; the cord itself attaches to the placenta's own fetal surface, not directly to the endometrium.",
+        "D": "Incorrect. The myometrium is the uterine muscle wall, deep to the endometrium/decidua; the cord has no direct attachment to it."
+      },
+      "main_concept": "CON-DEV-134C8B5E98D759",
+      "concept_ids": ["CON-DEV-134C8B5E98D759"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the umbilical cord attaches to the fetal (amnion-covered) surface of the placenta, not the maternal surface.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q4, keyed b).",
+      "page": 15,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = a/d/b/b) at the foot of p.15",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q29",
+      "id": "QST-DEV-DEFINITIVE-CORD-EXCEPT-01",
+      "title": "Which is NOT present in the definitive umbilical cord?",
+      "question": "All of the following presents in the definitive umbilical cord, except:",
+      "options": {
+        "A": "Two umbilical arteries",
+        "B": "Right umbilical vein",
+        "C": "Left umbilical vein",
+        "D": "All of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. As the primitive cord matures into the definitive cord, one of the two original umbilical veins — the right umbilical vein — obliterates, leaving only the left umbilical vein in the definitive cord alongside the two umbilical arteries. The definitive cord therefore holds two umbilical arteries and one umbilical vein (the left), all embedded in Wharton's jelly and sheathed by amnion. Naming the right, not the left, umbilical vein as the one that disappears is the specific fact this exception item tests.",
+        "A": "Incorrect. Two umbilical arteries are genuinely present in the definitive cord, not the exception.",
+        "C": "Incorrect. The left umbilical vein genuinely persists in the definitive cord (only the right vein obliterates), not the exception.",
+        "D": "Incorrect. Since only the right umbilical vein is absent, 'all of the above' is not correct — the arteries and the left vein are both genuinely present."
+      },
+      "main_concept": "CON-DEV-134C8B5E98D759",
+      "concept_ids": ["CON-DEV-134C8B5E98D759"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the definitive umbilical cord holds two umbilical arteries and the left (not right) umbilical vein, the right having obliterated.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q1, keyed b).",
+      "page": 16,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/a/a) at the foot of p.16",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q30",
+      "id": "QST-DEV-PLACENTA-FUNCTIONS-EXCEPT-01",
+      "title": "Which of the following is NOT a function of the placenta?",
+      "question": "All of the followings are functions of placenta, except:",
+      "options": {
+        "A": "Endocrine function",
+        "B": "Metabolic function",
+        "C": "Regulate temperature",
+        "D": "Transport function"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The placenta's genuine functions are exchange (transport of gases and metabolic products), excretion of fetal waste, transmission of maternal antibodies, and acting as an endocrine gland secreting progesterone, oestrogen, human chorionic gonadotropin and somatomammotropin. Regulating fetal temperature is not among these — that role belongs instead to the amniotic fluid, which acts as a thermal insulator keeping the fetal temperature constant. Splitting these two roles between two different structures (temperature to the fluid, exchange/endocrine/transport to the placenta) is exactly what this exception item is testing.",
+        "A": "Incorrect. Endocrine function (secreting progesterone, oestrogen, hCG and somatomammotropin) is a genuine placental function, not the exception.",
+        "B": "Incorrect. Metabolic (exchange) function is a genuine placental function, not the exception.",
+        "D": "Incorrect. Transport function is a genuine placental function, not the exception."
+      },
+      "main_concept": "CON-DEV-AB990D329EBEC2",
+      "concept_ids": ["CON-DEV-AB990D329EBEC2"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name the placenta's genuine functions (exchange, excretion, immune transfer, endocrine) and recognise temperature regulation as the amniotic fluid's role, not the placenta's.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q2, keyed c).",
+      "page": 16,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/a/a) at the foot of p.16",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q31",
+      "id": "QST-DEV-EXOMPHALOS-DEFINITION-01",
+      "title": "Loops of small intestine in the umbilical cord is called:",
+      "question": "The presence of loops of small intestine in the umbilical cord is called ...........",
+      "options": {
+        "A": "Exompholus",
+        "B": "Congenital hernia",
+        "C": "Battledore's cord",
+        "D": "Velamentous"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Normally the herniated intestinal loops of the primitive umbilical cord (a physiological umbilical hernia) return fully to the abdominal cavity by about the tenth week; when they fail to return, the proximal cord persists containing loops of small intestine, and this congenital anomaly is named exomphalos (omphalocele). The department book files this specifically as an anomaly of the cord's contents, distinct from anomalies of its length, vessels or attachment. Naming it exomphalos, rather than the more generic 'congenital hernia', is the precise term this item is testing.",
+        "B": "Incorrect. 'Congenital hernia' is a generic term; the specific named anomaly of intestinal loops persisting in the umbilical cord is exomphalos.",
+        "C": "Incorrect. Battledore's cord is an anomaly of the cord's attachment to the placenta (at its margin), unrelated to intestinal contents.",
+        "D": "Incorrect. Velamentous is an anomaly of the cord's attachment (through the amniotic membrane before reaching the placenta), unrelated to intestinal contents."
+      },
+      "main_concept": "CON-DEV-3E918A4C74B56D",
+      "concept_ids": ["CON-DEV-3E918A4C74B56D"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name exomphalos (omphalocele) as the anomaly in which intestinal loops persist in the umbilical cord after failing to return to the abdomen.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q3, keyed a).",
+      "page": 16,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/a/a) at the foot of p.16",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "embryo-q32",
+      "id": "QST-DEV-UMBILICAL-CORD-FACTS-EXCEPT-01",
+      "title": "Which of the following is NOT true about the umbilical cord?",
+      "question": "All of the followings are true about the umbilical cord, except:",
+      "options": {
+        "A": "Carry the blood from the mother through the umbilical arteries",
+        "B": "Carry the blood from the fetus through the umbilical arteries",
+        "C": "Allow free movement to the embryo",
+        "D": "Contains jelly material"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The two umbilical arteries carry deoxygenated blood away from the fetus, toward the placenta — from the fetus, not from the mother — while the single umbilical vein carries oxygenated blood back from the placenta to the fetus. Describing the arteries as carrying blood from the mother reverses both the direction of flow and which vessel does which job, which is exactly the error this exception item is built to catch. The cord's other listed features — allowing the fetus free movement within the amniotic cavity and containing Wharton's jelly for protection — are both genuinely true.",
+        "B": "Incorrect. This is the genuinely true statement (the umbilical arteries do carry blood from the fetus), so it is not the exception.",
+        "C": "Incorrect. Allowing free fetal movement within the amniotic cavity is a genuine, true feature of the umbilical cord, not the exception.",
+        "D": "Incorrect. Containing Wharton's jelly (a mucoid connective tissue) is a genuine, true feature of the umbilical cord, not the exception."
+      },
+      "main_concept": "CON-DEV-134C8B5E98D759",
+      "concept_ids": ["CON-DEV-134C8B5E98D759"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the umbilical arteries carry blood from the fetus to the placenta, not from the mother, correcting a reversed-direction distractor.",
+      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "source_citation": "Alexandria University AU-MED-102 Anatomy department bank (Embryology sub-section), MCQs - Dr. Wagih Anatomy MCQ (1-7), p.{page} (Embryology Q4, keyed a).",
+      "page": 16,
+      "field_notes": {
+        "keySource": "rendered page image, printed answer table (1/2/3/4 = b/c/a/a) at the foot of p.16",
+        "au": "Filed under Anatomy in the source PDF; authored under Embryology per the card."
+      },
+      "author_notes": ""
+    }
+  ]
+}

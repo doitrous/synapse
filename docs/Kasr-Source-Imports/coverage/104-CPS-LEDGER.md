@@ -4,24 +4,20 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 831 | excluded: 181 | remaining: 140
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 865 | excluded: 191 | remaining: 96
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 831
+- authored (by key, this ledger): 865
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 831
+- authored minus held-back = build-style "kept": 865
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
 | Basic Mechanisms of Circulatory Control | 36 | 13 | 6 | 17 |
-| Cardiac Function | 80 | 44 | 24 | 12 |
-| Vascular Function | 44 | 27 | 5 | 12 |
-| Gas Transport by the Blood | 35 | 23 | 1 | 11 |
 | Control of Respiration | 25 | 9 | 6 | 10 |
-| Lung Volumes and Capacities | 9 | 0 | 0 | 9 |
 | Mechanical Properties of Cardiac Muscle | 42 | 26 | 8 | 8 |
 | A-V Connections | 54 | 40 | 7 | 7 |
 | Arteries | 62 | 45 | 10 | 7 |
@@ -39,10 +35,13 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Tonsils | 18 | 10 | 4 | 1 |
 | (untagged) | 219 | 88 | 4 | 0 |
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
+| Cardiac Function | 80 | 54 | 26 | 0 |
 | Chromosomal Aberrations (Abnormalities) | 22 | 21 | 1 | 0 |
 | Electrical Activity of the Heart | 82 | 57 | 25 | 0 |
 | Gas exchange in the lung | 21 | 18 | 3 | 0 |
+| Gas Transport by the Blood | 35 | 32 | 3 | 0 |
 | Human Chromosome | 48 | 43 | 4 | 0 |
+| Lung Volumes and Capacities | 9 | 6 | 3 | 0 |
 | Lungs — Gross Anatomy | 21 | 16 | 5 | 0 |
 | Mechanics of Breathing | 22 | 18 | 4 | 0 |
 | Mediastinum | 41 | 30 | 11 | 0 |
@@ -50,6 +49,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | The Cell Cycle | 5 | 5 | 0 | 0 |
 | The heart | 43 | 31 | 12 | 0 |
 | Thoracic Wall | 33 | 28 | 5 | 0 |
+| Vascular Function | 44 | 36 | 8 | 0 |
 
 ## Remaining keys by cluster
 
@@ -75,50 +75,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `the-following-are-true-regarding-no-except-870b8ec2` — The following are true, regarding NO, except
 - `which-of-the-following-is-not-a-vasodilator-metabolite-8da91769` — Which of the following is not a vasodilator metabolite?
 
-### Cardiac Function (12)
-
-- `cardiac-output-is-17967bd3` — Cardiac output is: |
-- `diacrotic-notch-is-due-to-e9c90ebf` — Diacrotic notch is due to: |
-- `during-the-reduced-ejection-phase-which-one-of-the-following-a7159cd9` — During the reduced ejection phase, which one of the following is true:
-- `if-the-edv-is-increased-within-limits-1a718833` — If the EDV is increased (within limits):
-- `if-the-edv-is-increased-within-limits-which-of-the-following-e4707b02` — If the EDV is increased (within limits), which of the following will occur?
-- `systolic-pressure-in-right-ventricle-is-84464eed` — Systolic pressure in right ventricle is:
-- `the-atrial-component-of-ventricular-filling-is-46a00baf` — The atrial component of ventricular filling is
-- `the-left-ventricle-has-a-thicker-wall-than-the-right-ventric-466aa2d9` — The left ventricle has a thicker wall than the right ventricle because a, itis r…
-- `the-strength-of-contraction-of-left-ventricular-muscle-incre-09963bab` — The strength of contraction of left ventricular muscle increases when : |
-- `the-systolic-pressure-in-the-left-ventricle-is-c234e41a` — The systolic pressure in the left ventricle is:
-- `the-work-performed-by-left-ventricle-is-greater-than-that-pe-eec8e8ca` — The work performed by left ventricle is greater than that performed by right ven…
-- `what-s-the-correct-definition-of-cardiac-output-f23eae83` — What's the correct definition of cardiac output?
-
-### Vascular Function (12)
-
-- `as-the-blood-passes-along-the-tissues-332a11e2` — As the blood passes along the tissues:
-- `atrial-natriuretic-peptide-6fd6b3d3` — Atrial natriuretic peptide
-- `c-wave-in-jugular-venous-pulse-occurs-in-99804bb7` — C wave in jugular venous pulse occurs in:
-- `concerning-laminar-blood-flow-one-is-incorrect-eb00a7cf` — Concerning laminar blood flow, one is incorrect:
-- `is-non-membranous-cartwheel-like-derived-from-glycocalyx-9fb74d62` — is non-membranous Cartwheel-like, derived from glycocalyx
-- `the-capillaries-which-are-present-in-the-nervous-tissue-are-28dee5ce` — The capillaries which are present in the nervous tissue are:
-- `turbulence-is-almost-always-present-when-reynolds-number-is-afc8cefe` — Turbulence is almost always present when Reynolds number is more than:
-- `which-combination-of-the-following-local-factors-leads-to-ar-c8779f94` — Which combination of the following local factors leads to arteriolar vasodilatat…
-- `which-of-the-following-changes-would-not-occur-following-inh-ff65be24` — Which of the following changes would not occur following inhibition of angiotens…
-- `which-of-the-following-describes-the-pulse-pressure-212b2ae7` — Which of the following describes the pulse pressure?
-- `y-wave-in-jugular-venous-pulse-occurs-in-1-e831e3a0` — Y wave in jugular venous pulse occurs in: 1
-- `y-wave-in-jugular-venous-pulse-occurs-in-5dec9a19` — Y wave in jugular venous pulse occurs in:
-
-### Gas Transport by the Blood (11)
-
-- `about-70-of-the-carbon-dioxide-is-transported-to-the-lungs-1-5ecaaa90` — About 70% of the carbon dioxide is transported to the lungs: 1 ‏ا‎
-- `all-about-hemoglobin-is-rue-except-d59e6077` — All about hemoglobin is (rue, except:
-- `during-the-release-of-carbon-dioxide-in-the-lungs-ba73316c` — During the release of carbon dioxide in the lungs:
-- `how-much-oxygen-is-normally-carried-in-the-blood-a1f343e8` — How much oxygen is normally carried in the blood?
-- `in-the-transport-of-co2-from-the-tissues-to-the-lungs-which-b9c9fd6b` — In the transport of CO2 from the tissues to the lungs, which of the following oc…
-- `ph-of-venous-blood-is-only-slightly-more-acidic-than-ph-of-a-93c10913` — pH of venous blood is only slightly more acidic than pH of arterial blood becaus…
-- `select-the-correct-statement-about-o-transport-in-the-blood-c34350a2` — Select the correct statement about O, transport in the blood: 12 0 ‏خ146ا1ا1ا[| …
-- `the-largest-amount-of-co-is-transported-by-the-blood-as-691eba1c` — The largest amount of CO; is transported by the blood as:
-- `the-oxygen-hemoglobin-dissociation-curve-will-shift-to-the-r-6cda5909` — The oxygen-hemoglobin dissociation curve will shift to the right with:
-- `the-oxyhemoglobin-dissociation-curve-fa89718b` — The oxyhemoglobin dissociation curve:
-- `which-statement-about-hemoglobin-is-incorrect-e6822bc0` — Which statement about hemoglobin is Incorrect?
-
 ### Control of Respiration (10)
 
 - `immediate-stoppage-of-respiration-can-be-caused-by-transecti-82f47191` — Immediate stoppage of respiration can be caused by transection:
@@ -131,18 +87,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-of-the-following-discharge-spontaneously-during-quiet-b30226e7` — Which of the following discharge spontaneously during quiet breathing? ‏ا‎ ‎a- S…
 - `which-of-the-following-discharge-spontaneously-during-quist-89974900` — Which of the following discharge spontaneously during quist breathing?
 - `which-of-the-following-discharges-spontaneously-during-quiet-20ea9248` — Which of the following discharges spontaneously during quiet breathing?
-
-### Lung Volumes and Capacities (9)
-
-- `a-72-kg-woman-would-have-approximately-how-much-dead-space-i-055268e0` — A 72 kg woman would have approximately how much dead space in her lungs?
-- `how-do-you-calculate-how-much-inspired-air-actually-ventilat-91ab164f` — How do you calculate how much inspired air actually ventilates the alveoli durin…
-- `the-residual-volume-37dc4b1c` — The residual volume: :
-- `tidal-volume-is-air-66461af4` — Tidal volume is air:
-- `vital-capacity-e6eee7c9` — Vital capacity:
-- `vital-capacity-is-reduced-by-all-except-75ee187f` — Vital capacity is reduced by all except:
-- `which-of-the-following-concerning-average-lung-volumes-and-c-ade8fafa` — Which of the following concerning average lung volumes and capacities of a perso…
-- `which-one-of-the-following-components-of-a-pulmonary-functio-1aeacf86` — Which one of the following components of a pulmonary function test will be norma…
-- `which-volume-remains-in-the-lungs-after-a-maximal-expiration-1d4cbfd2` — Which volume remains in the lungs after a maximal expiration?
 
 ### Mechanical Properties of Cardiac Muscle (8)
 

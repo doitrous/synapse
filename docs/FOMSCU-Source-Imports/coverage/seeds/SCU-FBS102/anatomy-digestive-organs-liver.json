@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-digestive-organs-liver",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-digestive-organs-liver'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "gi",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Abdomen"
+  },
+  "questions": [
+    {
+      "key": "anatomy-digestive-organs-liver",
+      "id": "QST-SCUFBS102-S2-ANATOMY-DIGESTIVE-ORGANS-LIVER",
+      "title": "The circulation with two sequential capillary beds",
+      "question": "The specific circulatory pathway that is well known to contain exactly two sequential capillary beds is the circulation located between which organs?",
+      "options": {
+        "A": "The completely entire circulation located between the heart and the kidneys",
+        "B": "The entirely complete systemic circulation between the heart and the external skin",
+        "C": "The completely separate pulmonary circulation between the active lungs and the heart",
+        "D": "Digestive organs liver"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Blood flows from the heart to the kidneys and back through a single renal capillary bed (the glomerulus and peritubular capillaries in series counts as one functional organ circuit), not two beds separated by a portal vein without an intervening pass through the heart.",
+        "B": "Incorrect. The systemic circulation to the skin is a single capillary bed returning directly to the heart, the ordinary pattern, not the two-bed exception this question tests.",
+        "C": "Incorrect. The pulmonary circulation is a single capillary bed sitting between two chambers of the heart (right ventricle to left atrium) — a different arrangement from two beds in series with no pass through the heart between them.",
+        "D": "Correct. Blood leaves capillary beds in the stomach, intestines, pancreas and spleen, collects into the portal vein, and passes through a second capillary-like bed — the hepatic sinusoids — inside the liver before finally draining into the hepatic veins and the systemic circulation. This is the hepatic portal circulation: two capillary beds in series, with no pass through the heart in between, letting the liver process absorbed nutrients before they reach general circulation."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Abdominal viscera and circulation",
+      "main_concept": "CON-GIT-4B253B4F700C58",
+      "concept_ids": [
+        "CON-GIT-4B253B4F700C58"
+      ],
+      "difficulty": "Hard",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.4,
+      "reasoning_level": 2,
+      "inferred_difficulty": 40,
+      "exam_relevance": 5,
+      "clinical_relevance": 0.4,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "high"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-ABDOMEN-PORTAL"
+      ],
+      "learning_objective": "Name the hepatic portal circulation as the pathway with two sequential capillary beds.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q63 (also 2022 Q43)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q63 / 2022 Q43; source-JSON extraction."
+      }
+    }
+  ]
+}

@@ -221,5 +221,43 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "The bank extraction recovered only 3 options (A, B, C) — no D — below the platform's 4-to-5-option import contract (medical:batch rejects it outright: \"3 options — the contract is 4 to 5\"). Frank-Starling's law is already fully tested by this file's own 8 other kept questions, so no teaching content is lost by excluding this corrupted row.",
     },
+
+    // --- run43: 3 of the Cardiac Function cluster's 12 remaining ---
+    {
+      key: 'if-the-edv-is-increased-within-limits-1a718833',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Mechanism',
+      learningObjective: 'State that a higher end-diastolic volume (preload) raises stroke volume, by Frank-Starling\'s law.',
+      explanations: {
+        A: 'By Frank-Starling\'s law, a higher end-diastolic volume raises stroke volume, and cardiac output (CO = SV x HR) would rise with it at an unchanged heart rate, not decrease.',
+        B: 'Frank-Starling\'s law states the opposite: a greater stretch (higher preload) increases, not decreases, the force of cardiac contraction.',
+        C: 'The right and left ventricles operate in series and eject essentially equal outputs at steady state; a rising end-diastolic volume does not make one ventricle\'s output exceed the other\'s.',
+        D: 'Correct. By Frank-Starling\'s law, a higher end-diastolic volume stretches the ventricle further before contraction, raising the degree of shortening and so the stroke volume it ejects.',
+      },
+    },
+    {
+      key: 'if-the-edv-is-increased-within-limits-which-of-the-following-e4707b02',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Mechanism',
+      learningObjective: 'State that a higher end-diastolic volume (preload) raises stroke volume, by Frank-Starling\'s law.',
+      explanations: {
+        A: 'By Frank-Starling\'s law, a higher end-diastolic volume raises stroke volume, and cardiac output (CO = SV x HR) would rise with it at an unchanged heart rate, not decrease.',
+        B: 'Frank-Starling\'s law states the opposite: a greater stretch (higher preload) increases, not decreases, the force of cardiac contraction.',
+        C: 'The right and left ventricles operate in series and eject essentially equal outputs at steady state; a rising end-diastolic volume does not make one ventricle\'s output exceed the other\'s.',
+        D: 'Correct. By Frank-Starling\'s law, a higher end-diastolic volume stretches the ventricle further before contraction, raising the degree of shortening and so the stroke volume it ejects — the same fact this file\'s own if-the-edv-is-increased-within-limits-1a718833 question tests from a second, independent source occurrence.',
+      },
+    },
+    {
+      key: 'the-strength-of-contraction-of-left-ventricular-muscle-incre-09963bab',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 2 options (A, C) survived extraction — no B or D — well below the platform's 4-to-5-option import contract. The credited fact (rising end-diastolic volume raises the strength of ventricular contraction, Frank-Starling's law) is already fully tested by this file's own 8+ other kept questions, so no teaching content is lost.",
+    },
   ],
 }

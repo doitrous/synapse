@@ -1,0 +1,124 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "pharmacology-iron-b12",
+  "header": "MANS-HIS-203 · Pharmacology — nutritional anaemia clinical differentiation and iron therapy routes, authored from the His Continuous Berlin Book 2026 (Pharmacology Important MCQ Lecture 1, p.145), printed keys, against this batch's newly minted concept.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "module_subject": "MANS-HIS-203 > Pharmacology > Haematinics",
+    "exam_weight_by_year": { "MANS_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, Pharmacology Important MCQ, p.{page}",
+    "setting": "Clinical",
+    "estimated_seconds": 65,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "iron-deficiency-pica-treatment",
+      "page": 145,
+      "title": "Treatment for iron-deficiency anaemia presenting with pica and koilonychia",
+      "question": "Which is an appropriate treatment for a nutritional anaemia that presents as a hunger for ice (pagophagia) and/or upward curvature of the fingernails (koilonychia)?",
+      "options": {
+        "A": "Vitamin B12",
+        "B": "Folic acid",
+        "C": "Vitamin D",
+        "D": "Iron"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Vitamin B12 treats pernicious/B12-deficiency anaemia, which presents with neurological signs rather than pica or koilonychia.",
+        "B": "Incorrect. Folic acid treats folate-deficiency megaloblastic anaemia; the clinical picture described (pica, koilonychia) is specific to iron deficiency, not folate deficiency.",
+        "C": "Incorrect. Vitamin D treats disorders of calcium and bone metabolism; it has no role in the anaemia this vignette describes.",
+        "D": "Correct. Pica (craving non-food substances, including ice — pagophagia) and koilonychia (spoon-shaped, brittle nails) are clinical signs specific to iron-deficiency anaemia, and iron replacement is the appropriate treatment. Oral iron is first-line for most patients; parenteral iron is reserved for those who cannot tolerate or absorb oral iron, or need a faster response."
+      },
+      "main_concept": "CON-HEM-358CC63951D1AF",
+      "concept_ids": ["CON-HEM-358CC63951D1AF"],
+      "contextual_concept_ids": ["CON-HEM-7F0EF6B0D6F2FB"],
+      "library_ids": ["ART-MANS-HIS-IRON-B12-DEFICIENCY-THERAPY"],
+      "topic": "Pharmacology",
+      "subtopic": "Haematinics",
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify pica and koilonychia as iron-deficiency-specific signs pointing to iron as the appropriate treatment.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.145 (Pharmacology Important MCQ Lecture 1, Q1, marginal note \"Power Qs\")" },
+      "author_notes": ""
+    },
+    {
+      "key": "b12-vs-iron-elderly-vignette",
+      "page": 145,
+      "title": "Deficiency priority in an elderly patient with pallor but no koilonychia",
+      "question": "An 81-year-old woman presents with progressive weakness, fatigue, and confusion. Her physical exam is positive for pallor but negative for koilonychia or cracking at the corners of the mouth (angular stomatitis). Which deficiency would be the highest priority in this patient's workup?",
+      "options": {
+        "A": "Vitamin B12",
+        "B": "Iron",
+        "C": "Folate",
+        "D": "Calcium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The absence of koilonychia and angular stomatitis argues against iron deficiency as the leading explanation, since those are iron deficiency's own characteristic signs. Combined with the neurological/cognitive picture (progressive weakness, fatigue, confusion), vitamin B12 deficiency becomes the higher-priority differential in an elderly patient — B12 deficiency can progress to subacute combined degeneration of the cord if not identified and treated.",
+        "B": "Incorrect. Iron deficiency would be expected to show its own additional signs (koilonychia, angular stomatitis, pica), which this patient specifically lacks, making iron a lower priority than B12 here.",
+        "C": "Incorrect. Folate deficiency can also cause megaloblastic anaemia, but it does not typically produce the neurological/cognitive picture this patient shows; B12 deficiency is the more specific explanation for confusion in this context.",
+        "D": "Incorrect. Calcium deficiency causes neuromuscular irritability (tetany) and bone disease, not the anaemia-with-confusion picture described here."
+      },
+      "main_concept": "CON-HEM-358CC63951D1AF",
+      "concept_ids": ["CON-HEM-358CC63951D1AF"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-MANS-HIS-IRON-B12-DEFICIENCY-THERAPY"],
+      "topic": "Pharmacology",
+      "subtopic": "Haematinics",
+      "difficulty": "Hard",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Use the absence of iron deficiency's own clinical signs to prioritise vitamin B12 deficiency in an elderly, confused, anaemic patient.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.145 (Pharmacology Important MCQ Lecture 1, Q2, marginal note \"Power Qs\"); repeated identically as Q4 on the same page, not separately authored" },
+      "author_notes": ""
+    },
+    {
+      "key": "iron-sucrose-iv-only",
+      "page": 145,
+      "title": "Parenteral iron preparation given intravenously only",
+      "question": "Which of the following parenteral iron preparations is administered intravenously (IV) ONLY?",
+      "options": {
+        "A": "Iron dextran",
+        "B": "Iron sucrose",
+        "C": "Ferrous sulfate",
+        "D": "Ferrous fumarate",
+        "E": "Carbonyl iron"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Iron dextran can be given either intramuscularly or intravenously; it is not restricted to the IV route the way iron sucrose is.",
+        "B": "Correct. Iron sucrose is a parenteral iron preparation given intravenously only. This route restriction is a specific, testable fact distinguishing it from iron dextran, which offers the clinician the choice of IM or IV administration.",
+        "C": "Incorrect. Ferrous sulfate is an oral iron preparation, not a parenteral one at all.",
+        "D": "Incorrect. Ferrous fumarate is also an oral iron preparation, not a parenteral one.",
+        "E": "Incorrect. Carbonyl iron is likewise an oral iron preparation, not a parenteral one."
+      },
+      "main_concept": "CON-HEM-358CC63951D1AF",
+      "concept_ids": ["CON-HEM-358CC63951D1AF"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-MANS-HIS-IRON-B12-DEFICIENCY-THERAPY"],
+      "topic": "Pharmacology",
+      "subtopic": "Haematinics",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify iron sucrose as an IV-only parenteral iron preparation, distinct from oral iron salts and from iron dextran's IM/IV flexibility.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.145 (Pharmacology Important MCQ Lecture 1, Q3)" },
+      "author_notes": ""
+    }
+  ]
+}

@@ -110,6 +110,27 @@ export const LEAF: McqLeafSeed = {
       type: 'mechanism',
       aliases: ['Fourth heart sound S4', 'Origin of S4'],
     },
+    // Same concept as `atria.functions-beyond-pumping` in
+    // `physiology-circulatory-control-hemorrhagic-shock.ts` (Basic
+    // Mechanisms of Circulatory Control leaf) -- declared identically here
+    // so this file's own atrial-filling-percentage row can share it, per
+    // build-batches.ts's cross-leaf concept merge (first leaf's definition
+    // wins). This is a reuse of an *existing* concept for a Cardiac
+    // Function-tagged bank row, not new authoring of that other, deliberately
+    // unclaimed cluster; keep the two copies in sync if either is edited.
+    {
+      key: "atria.functions-beyond-pumping",
+      label: "Beyond pumping blood into the ventricles, the atria act as venous reservoirs during ventricular systole, contribute roughly 30% of ventricular filling through atrial systole, and carry stretch receptors that trigger cardiac reflexes",
+      definition: "The atria have three functions beyond acting as a simple entry chamber. First, while the AV valves are shut throughout ventricular systole, venous blood returning from the body has nowhere to go but the atria, which act as a reservoir that accumulates it until the AV valves reopen. Second, atrial systole is an active top-up of ventricular filling, normally contributing roughly the last 30% of end-diastolic volume on top of the passive filling that came before it. Third, the atria — especially the right atrium — carry stretch (low-pressure) receptors that trigger cardiac reflexes, including reflex tachycardia when atrial filling rises (the Bainbridge reflex) and secretion of atrial natriuretic peptide when atrial stretch is sustained.",
+      objective: "State the three functions of the atria beyond receiving venous blood: acting as a reservoir during ventricular systole, contributing roughly 30% of ventricular filling via atrial systole, and carrying stretch receptors for cardiac reflexes.",
+      pitfall: "Treating the atria as passive holding chambers with no active role. Atrial systole is an active contraction contributing a real fraction of ventricular filling, and atrial stretch receptors actively drive reflexes rather than merely sensing pressure for no functional purpose.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      type: "mechanism",
+      aliases: ["Functions of the atria", "Atrial reservoir function", "Atrial stretch receptors"],
+    },
   ],
 
   questions: [
@@ -587,6 +608,86 @@ export const LEAF: McqLeafSeed = {
         C: 'Aortic regurgitation is a pathological backflow of blood through an incompetent aortic valve; it is not the mechanism of the normal dicrotic wave, which occurs even with a perfectly competent valve.',
         D: 'The dicrotic wave reflects a brief further stretch from rebounding blood, not a sustained increase in aortic distension as such; describing it as increased distension does not capture that the wave comes specifically from elastic recoil against the closed valve.',
       },
+    },
+
+    // --- run43: 3 of the Cardiac Function cluster's 12 remaining ---
+    {
+      key: 'diacrotic-notch-is-due-to-e9c90ebf',
+      conceptKey: 'aortic-pressure-curve.limbs-and-dicrotic-notch',
+      difficulty: 'Easy',
+      questionType: 'Recall',
+      learningObjective: 'State that the dicrotic notch is caused by sudden closure of the aortic valve.',
+      explanations: {
+        A: 'Closure of the AV valves produces the first heart sound at the start of ventricular systole, an entirely different event from the dicrotic notch, which sits on the aortic pressure curve at the end of systole.',
+        B: 'Correct. The dicrotic notch is the sharp drop on the descending (catacrotic) limb of the aortic pressure curve caused by the sudden closure of the aortic valve at the end of ejection, once ventricular pressure has fallen below aortic pressure.',
+        C: 'A decrease in aortic pressure is what is observed around the notch, but the direct mechanical cause of the notch itself is the aortic valve slamming shut, not the pressure fall in isolation.',
+        D: 'A marked decrease in ventricular pressure is a related, concurrent event on the other side of the now-closed aortic valve, but the dicrotic notch is specifically a feature of the aortic pressure trace, directly caused by aortic valve closure.',
+      },
+    },
+    {
+      key: 'during-the-reduced-ejection-phase-which-one-of-the-following-a7159cd9',
+      conceptKey: 'cardiac-cycle.valve-states-and-heart-sounds-by-phase',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that the AV valves stay closed throughout the reduced ejection phase, along with the rest of ventricular systole.',
+      explanations: {
+        A: 'Left atrial pressure is rising, not falling, during reduced ejection: the AV valves are shut, so venous blood returning to the atrium accumulates there with nowhere else to go, building the v wave of the atrial pressure curve.',
+        B: 'Aortic pressure has not yet fallen below left ventricular pressure during reduced ejection — the two remain close, with a small forward pressure gradient still driving the tail of ejection; aortic pressure only clearly overtakes ventricular pressure at the transition into isovolumetric relaxation, ending ejection.',
+        C: 'Correct. The AV valves are held shut throughout both ejection phases (rapid and reduced), since ventricular pressure remains above atrial pressure the whole time — they only reopen once ventricular pressure falls below atrial pressure during rapid filling.',
+        D: 'Left ventricular pressure is not constant during reduced ejection; it has already passed its peak (reached during rapid ejection) and is beginning to fall as the rate of ejection slows.',
+      },
+    },
+    {
+      key: 'the-atrial-component-of-ventricular-filling-is-46a00baf',
+      conceptKey: 'atria.functions-beyond-pumping',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that atrial systole normally contributes roughly 30% of ventricular filling.',
+      explanations: {
+        A: '10% understates the atrial contribution; atrial systole normally tops up roughly 30% of end-diastolic volume, not a tenth of it.',
+        B: 'Correct. Atrial systole is an active top-up of ventricular filling that normally contributes roughly the last 30% of end-diastolic volume, on top of the passive filling (rapid and reduced filling phases) that fills the rest.',
+        C: '50% overstates the atrial contribution; the larger share of ventricular filling happens passively, before atrial systole ever begins, chiefly during the rapid filling phase.',
+        D: '80% overstates the atrial contribution even further; passive filling, not atrial systole, is responsible for most of ventricular filling.',
+      },
+    },
+    {
+      // Bank-tagged leaf: "Vascular Function" (a jugular venous pulse
+      // question genuinely tests cardiac-cycle timing, this file's own
+      // content) -- routed here per the leaf-field-unreliable hazard.
+      key: 'c-wave-in-jugular-venous-pulse-occurs-in-99804bb7',
+      conceptKey: 'atrial-pressure-curve.a-c-v-waves',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that the c wave of the atrial (jugular venous) pressure curve occurs at the start of isovolumetric ventricular contraction.',
+      explanations: {
+        A: 'Correct. The c wave is caused by the closed AV valve bulging backward into the atrium as ventricular pressure rises sharply at the start of isovolumetric (isometric) ventricular contraction, immediately after atrial systole has ended.',
+        B: 'Isovolumetric relaxation is instead when the closed semilunar valve produces the second heart sound; the atrial pressure curve is quiet at this point, between the v wave\'s peak and the AV valves reopening for filling.',
+        C: 'The maximum ejection phase is well after the c wave, which occurs at the very start of ventricular systole, not during its main ejection period.',
+        D: 'Atrial systole itself produces the larger a wave, which peaks and is already falling by the time the AV valves shut to start isovolumetric contraction and produce the c wave — the c wave is a ventricular event that follows atrial systole, not part of it.',
+      },
+    },
+    {
+      // Bank-tagged leaf: "Vascular Function"; genuinely this file's own
+      // jugular-venous-pulse content, but excluded rather than kept — see
+      // excludeReason.
+      key: 'y-wave-in-jugular-venous-pulse-occurs-in-1-e831e3a0',
+      conceptKey: 'atrial-pressure-curve.a-c-v-waves',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 options survived extraction/repair (A, B, C) — no D — below the platform's 4-to-5-option import contract. This row's own sibling occurrence, y-wave-in-jugular-venous-pulse-occurs-in-5dec9a19 below, tests the identical fact but is itself also below the option-count contract (also only 3 surviving options), so this is a genuine, not merely duplicate, gap — flagged for whoever next finds a clean-option copy of this question in the corpus.",
+    },
+    {
+      key: 'y-wave-in-jugular-venous-pulse-occurs-in-5dec9a19',
+      conceptKey: 'atrial-pressure-curve.a-c-v-waves',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 options survived extraction (A, B, C) — no D — below the platform's 4-to-5-option import contract. The tested fact (the y wave/descent of the jugular venous pulse falls during the maximum filling phase, as the AV valves reopen and the atrium drains rapidly into the ventricle) is real, correctly keyed (C), and consistent with this file's own atrial-pressure-curve.a-c-v-waves concept, but this row's sibling occurrence above (y-wave-in-jugular-venous-pulse-occurs-in-1-e831e3a0) is also stuck at 3 options rather than 4, so no complete-option occurrence of this fact survives anywhere in this leaf's bank rows — a genuine, not merely duplicate, gap, flagged for whoever next finds a clean-option copy of this question in the corpus.",
     },
   ],
 }

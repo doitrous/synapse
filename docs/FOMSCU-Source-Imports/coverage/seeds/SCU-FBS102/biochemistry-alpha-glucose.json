@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-alpha-glucose",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'biochemistry-alpha-glucose'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Carbohydrates"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-alpha-glucose",
+      "id": "QST-SCUFBS102-S2-PENDING-BIOCHEMISTRY-ALPHA-GLUCOSE",
+      "title": "The monosaccharide unit of starch",
+      "question": "Starch is a polysaccharide composed entirely of which of the following repeating monosaccharide units?",
+      "options": {
+        "A": "The beta one four linked glucose",
+        "B": "Alpha glucose",
+        "C": "The beta one six linked glucose",
+        "D": "The alpha one two linked fructose"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Beta 1,4 linkages join glucose units in cellulose, a structural plant polysaccharide humans cannot digest — not starch.",
+        "B": "Correct. Starch is a homopolysaccharide (glucan) built of D-glucose, occurring as amylose (a linear, unbranched chain with alpha-1,4-glucosidic bonds) and amylopectin (branched, with alpha-1,4 bonds within branches and alpha-1,6 bonds at branch points). Its main digestion product, via amylase, is maltose.",
+        "C": "Incorrect. Beta 1,6 linkages are not the bond type found in starch; starch's branch points use alpha-1,6 bonds, and its backbone uses alpha-1,4 bonds — both alpha, not beta.",
+        "D": "Incorrect. Fructose is the monosaccharide of fructans (like inulin), not of starch, which is built entirely of glucose."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Carbohydrate biochemistry",
+      "main_concept": "CON-FND-4706C1246E4B76",
+      "concept_ids": [
+        "CON-FND-4706C1246E4B76"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 55,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE"
+      ],
+      "learning_objective": "State that starch is built of D-glucose in alpha-1,4 (and, at branch points, alpha-1,6) glucosidic linkages.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q25 (also 2022 Q5)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q25 / 2022 Q5; source-JSON extraction. Re-verification note: originally triaged 'new'; a grep pass found CON-FND-4706C1246E4B76 ('starch-and-glycogen-as-storage-polysaccharides', Kasr 102-INT-mcq-concepts.md / docs/import-ready) states the alpha-1,4/alpha-1,6 linkage fact explicitly — overlaid here rather than minted twin. Same concept as biochemistry-glucose-alpha-linkages. Apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md."
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-serous-acini",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'histology-serous-acini'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Glandular Epithelium"
+  },
+  "questions": [
+    {
+      "key": "histology-serous-acini",
+      "id": "QST-SCUFBS102-S2-HISTOLOGY-SEROUS-ACINI",
+      "title": "Pyramidal cells with basophilic base and acidophilic apex",
+      "question": "Which structure consists of pyramidal cells with ill defined boundaries where the apical part is acidophilic and the basal part is basophilic?",
+      "options": {
+        "A": "Mucous acini",
+        "B": "Serous acini",
+        "C": "Myoepithelial cells",
+        "D": "Endocrine follicles"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Mucous acinar cells are pale-staining with sharply defined cell boundaries — the opposite polarity and appearance from the cells described.",
+        "B": "Correct. Serous acinar cells are pyramidal with poorly defined lateral boundaries. Basal cytoplasm is basophilic, reflecting the abundant rough endoplasmic reticulum making the protein-rich secretion, while the apical cytoplasm is acidophilic, reflecting the zymogen (secretory) granules stored there before release.",
+        "C": "Incorrect. Myoepithelial cells are flattened, contractile basket cells that surround acini and ducts to help expel secretion — a different cell type from the secretory acinar cell described.",
+        "D": "Incorrect. Endocrine follicles (as in the thyroid) store colloid within a lumen and secrete internally into the bloodstream, a different structural arrangement from an exocrine serous acinus."
+      },
+      "topic": "Histology",
+      "subtopic": "Glandular epithelium",
+      "main_concept": "CON-FND-4D2D9F6F9DE232",
+      "concept_ids": [
+        "CON-FND-4D2D9F6F9DE232"
+      ],
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.35,
+      "reasoning_level": 2,
+      "inferred_difficulty": 40,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-HIST-CELL-TISSUE-BASICS"
+      ],
+      "learning_objective": "Describe the serous acinus's pyramidal cells with basophilic base and acidophilic apex.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q29",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q29; source-JSON extraction."
+      }
+    }
+  ]
+}

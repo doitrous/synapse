@@ -133,3 +133,74 @@ MUST_Y2
 
 ## description
 MUST CVS-201 Pathology's own written EOM final, by Dr.Maria — 8 short-answer questions on cardiac and vascular pathology (dilated cardiomyopathy, tamponade, fibrinous pericarditis, atherosclerosis, fatty streak, hypertension, secondary hypertension, malignant hypertension), with printed model answers throughout. Native-text PDF, no OCR needed.
+
+---
+
+# Item
+
+## id
+src_0511bc2ebb43a689a4c6
+
+## title
+Histology CVS201 Questions (Final)
+
+## subject
+cvs
+
+## type
+Deck
+
+## source
+MUST — Faculty of Medicine, CVS 201 course team
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+
+## year
+2024
+
+## topics
+
+
+## chapter
+
+
+## module_ids
+MUST-CVS-201
+
+## included_concepts
+CON-CVS-30053920BDC07F
+CON-CVS-712BA581C8AF88
+CON-CVS-E6F658EEC11072
+CON-CVS-B29610035B568D
+CON-CVS-3C04F2DED454C9
+CON-CVS-132A76916FEC05
+CON-CVS-4BE9D0F74D4377
+CON-CVS-9585A65D9EDA4D
+CON-CVS-CC810A201244F0
+CON-CVS-F048262BCB7EED
+CON-CVS-92BB03F3D57E33
+CON-CVS-0AD4BCDFB88035
+
+## included_articles
+ART-CVS-VARICOSE-VEINS
+ART-CVS-DVT-THROMBOPHLEBITIS
+ART-CVS-ELASTIC-LAMINA-STAIN
+
+## concept_locations
+
+
+## universities
+must
+
+## years
+MUST_Y2
+
+## description
+MUST CVS-201 Histology's own EOM final, single author (Absalam101) — 50 MCQs on blood-vessel-wall histology (tunica intima/media/adventitia, elastic vs muscular arteries vs arterioles, veins and valves, metarteriole/precapillary sphincter, fenestrated and sinusoidal capillaries, arteriovenous anastomoses, varicose veins/DVT, elastic-stain histotechnique), with a printed answer key on p.14. Native-text PDF, no OCR needed. 8 of 12 concepts are sparse updates onto pending Kasr 104-CPS histology concepts (see pending-live/MUST-CVS-201-histology-concepts-overlay.md); 1 (pericyte, CON-CVS-CC810A201244F0) is referenced directly from a live cross-university concept with no local tag update, because this checkout holds no local record carrying its verbatim label to restate; 3 are new MUST mints.

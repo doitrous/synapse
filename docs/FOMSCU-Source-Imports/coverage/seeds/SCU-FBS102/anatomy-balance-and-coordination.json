@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-balance-and-coordination",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-balance-and-coordination'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "neuro",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Central Nervous System"
+  },
+  "questions": [
+    {
+      "key": "anatomy-balance-and-coordination",
+      "id": "QST-SCUFBS102-S2-ANATOMY-BALANCE-AND-COORDINATION",
+      "title": "The cerebellum's main function",
+      "question": "The cerebellum in the human brain is mainly responsible for which specific function?",
+      "options": {
+        "A": "Smell",
+        "B": "Speech",
+        "C": "Balance and coordination",
+        "D": "Processing visual information from the eyes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Smell is processed by the temporal lobe (and olfactory pathways), not the cerebellum.",
+        "B": "Incorrect. Speech production is primarily a frontal lobe function (Broca's area), a separate structure from the cerebellum.",
+        "C": "Correct. The cerebellum sits below the occipital lobes and is mainly responsible for balance and the coordination of voluntary muscle movement, refining motor commands generated elsewhere in the brain rather than initiating them. It does not initiate movement itself; it compares the intended movement with the actual movement being performed and smooths out the difference. Damage to it produces ataxia and incoordination, not a primary sensory deficit.",
+        "D": "Incorrect. Visual processing is the job of the occipital lobe, not the cerebellum."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Central nervous system: brain overview",
+      "main_concept": "CON-NEU-28024BBAF8753A",
+      "concept_ids": [
+        "CON-NEU-28024BBAF8753A"
+      ],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.15,
+      "reasoning_level": 1,
+      "inferred_difficulty": 75,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.3,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-AUTONOMIC-CEREBELLUM"
+      ],
+      "learning_objective": "State that the cerebellum's main function is balance and motor coordination, distinct from the sensory/language lobes.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q16",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q16; source-JSON extraction."
+      }
+    }
+  ]
+}

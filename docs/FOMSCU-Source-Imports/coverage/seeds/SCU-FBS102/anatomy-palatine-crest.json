@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-palatine-crest",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-palatine-crest'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "msk",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Osteology of the Skull"
+  },
+  "questions": [
+    {
+      "key": "anatomy-palatine-crest",
+      "id": "QST-SCUFBS102-S2-ANATOMY-PALATINE-CREST",
+      "title": "The landmark separating the palatine foramina",
+      "question": "What anatomical landmark separates the greater palatine foramen from the lesser palatine foramen?",
+      "options": {
+        "A": "Posterior nasal spine",
+        "B": "Maxillary tuberosity",
+        "C": "Palatine crest",
+        "D": "Incisive foramen"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The posterior nasal spine is a midline projection at the back of the hard palate, not the ridge separating the two palatine foramina.",
+        "B": "Incorrect. The maxillary tuberosity is a rounded elevation on the maxilla behind the last molar tooth, a separate landmark from the ridge between the two foramina.",
+        "C": "Correct. The greater and lesser palatine foramina sit close together at the posterolateral corner of the hard palate. The palatine crest, a bony ridge, is the landmark that separates them from each other. The greater foramen transmits the greater palatine nerve and vessels, and the lesser transmits the lesser palatine nerve and vessels.",
+        "D": "Incorrect. The incisive foramen sits anteriorly in the midline of the palate, transmitting the nasopalatine nerve, and plays no role in separating the greater and lesser palatine foramina, which are posterolateral structures."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system: skull",
+      "main_concept": "CON-MSK-2F3F55341C91C0",
+      "concept_ids": [
+        "CON-MSK-2F3F55341C91C0"
+      ],
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.35,
+      "reasoning_level": 2,
+      "inferred_difficulty": 40,
+      "exam_relevance": 3,
+      "clinical_relevance": 0.15,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-SKULL-OSTEOLOGY"
+      ],
+      "learning_objective": "Name the palatine crest as the ridge separating the greater and lesser palatine foramina.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q19",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q19; source-JSON extraction."
+      }
+    }
+  ]
+}

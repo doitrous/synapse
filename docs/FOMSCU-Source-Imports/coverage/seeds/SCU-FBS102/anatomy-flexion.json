@@ -1,0 +1,118 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-flexion",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-flexion'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "msk",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Anatomical Terminology"
+  },
+  "questions": [
+    {
+      "key": "anatomy-flexion",
+      "id": "QST-SCUFBS102-S2-ANATOMY-FLEXION-A",
+      "title": "The movement that decreases joint angle",
+      "question": "Which of the following movements decreases the angle between two articulating body segments?",
+      "options": {
+        "A": "Hyperextension movement",
+        "B": "Flexion",
+        "C": "Abduction",
+        "D": "Adduction"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hyperextension carries a joint beyond its normal extended (straightened) position, further increasing rather than decreasing the angle.",
+        "B": "Correct. Flexion is the movement that decreases the angle between two articulating body segments — bending the elbow, for instance, brings the forearm closer to the angle it makes with the arm. Extension is its opposite, increasing that angle back out.",
+        "C": "Incorrect. Abduction moves a limb away from the body's midline, a movement on a different axis entirely from the joint-angle change flexion describes.",
+        "D": "Incorrect. Adduction moves a limb toward the body's midline — again a different axis from flexion/extension, not a change in joint angle."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Anatomical position and terminology",
+      "main_concept": "CON-MSK-8CFED26E6528B0",
+      "concept_ids": [
+        "CON-MSK-8CFED26E6528B0"
+      ],
+      "difficulty": "Easy",
+      "question_type": "Definition",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.15,
+      "reasoning_level": 1,
+      "inferred_difficulty": 70,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-JOINTS-TERMINOLOGY"
+      ],
+      "learning_objective": "Define flexion as the movement decreasing the angle between two articulating segments.",
+      "source_citation": "FOMSCU Foundation 1 EOM Mid 2026, Q5",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOM Mid 2026 Q5; source-JSON extraction. Lane 2's deferred candidate (no generic movement-terminology concept existed anywhere in the corpus); concept minted by this lane."
+      }
+    },
+    {
+      "key": "anatomy-flexion-2",
+      "id": "QST-SCUFBS102-S2-ANATOMY-FLEXION-B",
+      "title": "Bending a joint to decrease its angle, restated",
+      "question": "Which movement involves bending the joint to decrease the angle between two body surfaces?",
+      "options": {
+        "A": "Extension",
+        "B": "Abduction",
+        "C": "Flexion",
+        "D": "Adduction"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Extension is flexion's opposite — it increases the angle between two body segments, straightening the joint rather than bending it.",
+        "B": "Incorrect. Abduction is movement of a limb away from the body's midline, a separate axis of movement from bending a joint's angle.",
+        "C": "Correct. Flexion is the bending movement that decreases the angle between two articulating body segments. It is the term specifically for a joint-angle change, distinct from abduction and adduction, which move a limb relative to the midline rather than change a joint's own angle.",
+        "D": "Incorrect. Adduction is movement of a limb toward the body's midline, again a different axis of movement from bending a joint."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Anatomical position and terminology",
+      "main_concept": "CON-MSK-8CFED26E6528B0",
+      "concept_ids": [
+        "CON-MSK-8CFED26E6528B0"
+      ],
+      "difficulty": "Easy",
+      "question_type": "Definition",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.15,
+      "reasoning_level": 1,
+      "inferred_difficulty": 70,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-JOINTS-TERMINOLOGY"
+      ],
+      "learning_objective": "Define flexion as the bending movement decreasing joint angle (restated phrasing).",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q2",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q2; source-JSON extraction. Second of lane 2's two deferred flexion candidates; shares the concept minted for anatomy-flexion above."
+      }
+    }
+  ]
+}

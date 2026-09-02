@@ -49,3 +49,71 @@ B-Q8  key=printed  Malignant hypertension: definition (>280/180), features, kidn
 "secondary hypertension" -> 4 hits, pending (import-ready/article/SYS-CVS-ARTICLE-T07.md, concept/SYS-CVS-CONCEPT-T07.md)
 
 Tally: pending=11 (edema and smooth-muscle-histology counted pending but flagged borderline/needs S2 re-verify), new=6, live=0, total distinct=17
+
+MUST-CVS-201 tranche-2 triage keys (Histology, full triage + authoring)
+Source C = Histology/06 EOM Exams/EOM MCQs - Histology CVS201 Questions (Final).pdf (14 pages, 50 MCQ, single author Absalam101, src_0511bc2ebb43a689a4c6)
+
+--- Source C (50/50 keyed, printed answer table p.14) ---
+C-Q01 key=printed C  Endothelium is in the tunica intima
+C-Q02 key=printed A  IEL separates tunica intima and tunica media
+C-Q03 key=printed C  Elastic artery: 40-60 concentric elastic laminae in media
+C-Q04 key=printed D  Valves present in veins to prevent backflow
+C-Q05 key=printed C  Continuous capillary: tight junctions, skeletal muscle
+C-Q06 key=printed B  Internal elastic lamina prevents complete occlusion in arteries
+C-Q07 key=printed C  Vasa vasorum in tunica adventitia
+C-Q08 key=printed B  Enlarged tortuous superficial leg veins = varicose veins
+C-Q09 key=printed B  Basilar artery: well-developed IEL, no EEL
+C-Q10 key=printed B  Sinusoidal capillaries in liver
+C-Q11 key=printed B  Pre-capillary sphincter in metarterioles
+C-Q12 key=printed B  Fenestrated capillary, pores without diaphragms, kidney glomeruli
+C-Q13 key=printed B  Large veins: longitudinal smooth muscle in adventitia
+C-Q14 key=printed B  Arterioles: gradual disappearance of IEL
+C-Q15 key=printed B  Orcein stain visualises elastic laminae
+C-Q16 key=printed B  AV shunts: temperature regulation
+C-Q17 key=printed C  Nervi vasorum in tunica adventitia
+C-Q18 key=printed C  NOT a muscular-artery feature: abundant vasa vasorum
+C-Q19 key=printed B  Pericyte role: contractility and repair
+C-Q20 key=printed A  DVT risk factor after bed rest: varicose veins
+C-Q21 key=printed C  Thickest adventitia relative to other layers: vein
+C-Q22 key=printed B  AV shunts commonly found: fingertips
+C-Q23 key=printed C  Aorta: tunica media rich in elastic laminae
+C-Q24 key=printed B  Subendothelium: loose connective tissue
+C-Q25 key=printed C  Largest lumen relative to wall thickness: vein
+C-Q26 key=printed B  Metarteriole = direct connection artery-vein
+C-Q27 key=printed B  Coronary arteries: longitudinal smooth muscle in intima
+C-Q28 key=printed B  Valves unique to veins, aid blood return
+C-Q29 key=printed C  Gas/nutrient exchange primarily in capillaries
+C-Q30 key=printed C  Muscular-artery media: mainly smooth muscle fibres
+C-Q31 key=printed D  Most permeable capillary, bone marrow: sinusoidal
+C-Q32 key=printed B  External elastic lamina separates media from adventitia
+C-Q33 key=printed B  Elastic artery: indistinct IEL due to elastic-rich media
+C-Q34 key=printed B  Diaphragmed fenestrated capillaries: kidney glomeruli (per key, see C-Q12 for the diaphragm-free exception)
+C-Q35 key=printed C  Arterioles: primarily responsible for peripheral resistance
+C-Q36 key=printed B  Vasa vasorum: nourishment of large vessel walls
+C-Q37 key=printed B  Large-vein adventitia: longitudinal smooth muscle
+C-Q38 key=printed B  Metarteriole = "vascular shunt"
+C-Q39 key=printed C  EEL may be indistinct in small muscular arteries
+C-Q40 key=printed C  Sinusoidal capillaries in bone marrow
+C-Q41 key=printed B  Primary artery-vs-vein difference: tunica media thickness
+C-Q42 key=printed A  AV shunts in digestion: constriction diverts blood to GIT
+C-Q43 key=printed B  Continuous capillaries in skin
+C-Q44 key=printed B  Sinusoidal capillaries lack a continuous basement membrane
+C-Q45 key=printed A  IEL prevents complete occlusion of arteries
+C-Q46 key=printed B  Clotted, inflamed deep leg vein = thrombophlebitis
+C-Q47 key=printed D  Arteriole: all three tunics, very reduced form
+C-Q48 key=printed B  Capillary wall: endothelium + pericytes only
+C-Q49 key=printed B  Basilar artery lacks vasa vasorum
+C-Q50 key=printed B  Macrophages in sinusoid walls, phagocytosis
+
+--- find-existing.mjs / live-snapshot query log (12 distinct concept candidates) ---
+"blood vessel wall layers" -> no hit (tool query too broad; targeted terms below found it)
+"capillary types" -> 2 hits, pending (Kasr 104-CPS-histology.md article + 104-CPS-mcq-authored.md question, "capillary types and A-V connections")
+"varicose veins" -> 1 hit, pending (import-ready/article/SYS-CVS-ARTICLE-T07.md, alias only, Year-3 clinical depth) -> judged different/coarser, confirmed NEW
+grep of docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md by label -> 6 direct concept matches (three-tunic plan CON-CVS-30053920BDC07F, artery classification CON-CVS-712BA581C8AF88, metarteriole CON-CVS-E6F658EEC11072, vein classification CON-CVS-B29610035B568D, medium-artery-vs-vein CON-CVS-3C04F2DED454C9, fenestrated capillary CON-CVS-132A76916FEC05) -> all checked against server/data/medical-library-v1.json, none live -> PENDING, sparse overlay
+grep of docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md for "shunt" -> arteriovenous anastomosis CON-CVS-4BE9D0F74D4377 -> checked against live snapshot, not live -> PENDING, sparse overlay
+grep of docs/Kasr-Source-Imports/concept/104-CPS-concepts.md for continuous-vs-sinusoidal -> CON-CVS-9585A65D9EDA4D -> a sibling Kasr file's own field_notes called this id "live", contradicted by a direct server/data/medical-library-v1.json check (0 hits) -> PENDING, sparse overlay (stale in-file note, not trusted over the live snapshot)
+pericyte function -> CON-CVS-CC810A201244F0 / CON-CVS-5D4C49C48AA325, both confirmed LIVE in server/data/medical-library-v1.json (10 and 11 hits respectively) -> CC810A201244F0 chosen (label closer match: "Pericyte regulation of capillary flow"), cited directly, no local overlay row (no local file carries its verbatim label)
+"elastic lamina stain" / "Orcein" -> no hit -> NEW
+"deep vein thrombosis" / "thrombophlebitis" -> hit only the Year-3 SYS-CVS-ARTICLE-T07.md clinical-depth article (epidemiology/burden, not the basic risk-factor/diagnosis facts tested here) -> judged different/coarser, confirmed NEW
+
+Tally: pending=8 (sparse overlay), live-direct=1, new=3, total distinct=12

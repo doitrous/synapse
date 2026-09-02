@@ -22,8 +22,8 @@
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
-    Histology Cardiovascular System — A-V Connections — 35 questions, 5 concepts
-    Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
+    Histology Cardiovascular System — A-V Connections — 36 questions, 5 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 8 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
@@ -49,25 +49,25 @@
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
     Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
+    Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 41 questions, 10 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 18 questions, 5 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 30 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
-    Pulmonary Compliance — 20 questions, 3 concepts
+    Pulmonary Compliance — 29 questions, 3 concepts
     Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 20 questions, 6 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 26 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  181 questions were excluded and 0 held back for having no
+  191 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -3047,6 +3047,7 @@ capillary-exchange.diffusion-permeability-and-vesicular-transport
 ## exam_signal
 src_437b45e5de1d97a26dc6 | question_book | | p2 | 104 CPS
 src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
 ## article_ids
 +ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
 ## field_notes
@@ -7739,6 +7740,7 @@ aortic-pressure-curve.limbs-and-dicrotic-notch
 src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p10 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p9 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p7 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
 ## field_notes
@@ -7780,12 +7782,13 @@ kau
 1
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p9 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -8403,6 +8406,138 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ---
 
 # Item
+## label
+Beyond pumping blood into the ventricles, the atria act as venous reservoirs during ventricular systole, contribute roughly 30% of ventricular filling through atrial systole, and carry stretch receptors that trigger cardiac reflexes
+## id
+CON-CVS-60749EA9A6B0A5
+## canonical_key
+atria.functions-beyond-pumping
+## definition
+The atria have three functions beyond acting as a simple entry chamber. First, while the AV valves are shut throughout ventricular systole, venous blood returning from the body has nowhere to go but the atria, which act as a reservoir that accumulates it until the AV valves reopen. Second, atrial systole is an active top-up of ventricular filling, normally contributing roughly the last 30% of end-diastolic volume on top of the passive filling that came before it. Third, the atria — especially the right atrium — carry stretch (low-pressure) receptors that trigger cardiac reflexes, including reflex tachycardia when atrial filling rises (the Bainbridge reflex) and secretion of atrial natriuretic peptide when atrial stretch is sustained.
+## explicit_objective
+State the three functions of the atria beyond receiving venous blood: acting as a reservoir during ventricular systole, contributing roughly 30% of ventricular filling via atrial systole, and carrying stretch receptors for cardiac reflexes.
+## pitfalls
+Treating the atria as passive holding chambers with no active role. Atrial systole is an active contraction contributing a real fraction of ventricular filling, and atrial stretch receptors actively drive reflexes rather than merely sensing pressure for no functional purpose.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Functions of the atria | Atrial reservoir function | Atrial stretch receptors
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS | ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The atrial component of ventricular filling is
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE | ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
 ## id
 CON-CVS-BF82D6F52B72C9
 ## label
@@ -8842,6 +8977,139 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ---
 
 # Item
+## label
+Left ventricular systolic pressure (~120-130 mmHg, against systemic afterload) is roughly five times right ventricular systolic pressure (~25 mmHg, against pulmonary afterload); the left ventricle therefore performs more work per beat and hypertrophies a proportionally thicker wall
+## id
+CON-CVS-CFB335FDD7B477
+## canonical_key
+ventricular-afterload.rv-vs-lv-systolic-pressure-work-and-wall-thickness
+## definition
+The right and left ventricles eject the same stroke volume in series, but against very different loads. The right ventricle ejects into the low-resistance pulmonary circulation, so its normal systolic pressure is only about 25 mmHg (typically cited in the 15-30 mmHg range); the left ventricle ejects into the high-resistance systemic circulation, so its normal systolic pressure is roughly 120-130 mmHg, some five to six times higher. Because cardiac work per beat is proportional to the pressure a ventricle must generate (afterload) multiplied by the volume it ejects, and the two ventricles eject essentially equal stroke volumes, the left ventricle's far higher afterload means it performs substantially more work per beat than the right. Over time this greater habitual workload is the causal driver of the left ventricle's thicker wall (roughly three times the right ventricle's) — the wall thickness is a structural adaptation (hypertrophy) to the higher pressure-work, not an independent cause of it.
+## explicit_objective
+State the approximate normal systolic pressures of the right ventricle (~25 mmHg) and left ventricle (~120-130 mmHg), and explain that the left ventricle's greater afterload is what causes it to perform more work per beat and to hypertrophy a thicker wall, rather than wall thickness being the primary cause.
+## pitfalls
+Treating the left ventricle's thicker wall as the reason it does more work, reversing cause and effect. The higher systemic afterload is the cause: it is what makes the left ventricle perform more work per beat in the first place, and the thicker wall is the ventricle's structural adaptation to that chronic extra workload, not the other way around.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p1 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p16 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+RV vs LV systolic pressure | Left ventricular afterload and work | Why the left ventricle is thicker
+## article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Systolic pressure in right ventricle is:
+## conflicts
+The ~3x wall-thickness ratio is also stated, without the pressure/work causal reasoning, inside cardiovascular-heart-gross-anatomy.ts's own heart.external-features concept (a broad positional/structural anatomy concept, different subject_id DIS-ANA-T04 vs this concept's DIS-PHY-T02). Not merged: the two concepts teach the same numeric ratio for different pedagogical purposes (gross anatomy vs cardiac physiology) and build-batches.ts's cross-leaf merge only unifies concepts sharing an identical key, which these do not.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
 ## id
 CON-CVS-CEB3B0EC313DC9
 ## label
@@ -8859,6 +9127,7 @@ src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p7 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p6 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p15 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-MECHANICS
 ## field_notes
@@ -8925,137 +9194,6 @@ ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
 direct_statement
 ## original_wording
 [asked 1x across the question books] Asa rapid compensatory reaction to hemorrhagic shock, the secretion of the following hormones is increased EXCEPT:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
-## resource_ids
-src_a11a7faed67c95e2d636
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Beyond pumping blood into the ventricles, the atria act as venous reservoirs during ventricular systole, contribute roughly 30% of ventricular filling through atrial systole, and carry stretch receptors that trigger cardiac reflexes
-## id
-CON-CVS-60749EA9A6B0A5
-## canonical_key
-atria.functions-beyond-pumping
-## definition
-The atria have three functions beyond acting as a simple entry chamber. First, while the AV valves are shut throughout ventricular systole, venous blood returning from the body has nowhere to go but the atria, which act as a reservoir that accumulates it until the AV valves reopen. Second, atrial systole is an active top-up of ventricular filling, normally contributing roughly the last 30% of end-diastolic volume on top of the passive filling that came before it. Third, the atria — especially the right atrium — carry stretch (low-pressure) receptors that trigger cardiac reflexes, including reflex tachycardia when atrial filling rises (the Bainbridge reflex) and secretion of atrial natriuretic peptide when atrial stretch is sustained.
-## explicit_objective
-State the three functions of the atria beyond receiving venous blood: acting as a reservoir during ventricular systole, contributing roughly 30% of ventricular filling via atrial systole, and carrying stretch receptors for cardiac reflexes.
-## pitfalls
-Treating the atria as passive holding chambers with no active role. Atrial systole is an active contraction contributing a real fraction of ventricular filling, and atrial stretch receptors actively drive reflexes rather than merely sensing pressure for no functional purpose.
-## concept_type
-mechanism
-## status
-under review
-## subject
-cvs
-## primary_node_id
-DIS-PHY-T02
-## secondary_node_ids
-[clear]
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Physiology
-## subtopic
-Cardiovascular System
-## aliases
-Functions of the atria | Atrial reservoir function | Atrial stretch receptors
-## article_ids
-ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] Functions of atria :
 ## conflicts
 [clear]
 ## uncertainty
@@ -10679,12 +10817,14 @@ src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p40 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p39 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -10940,6 +11080,7 @@ About 98% of blood oxygen is carried bound to haemoglobin rather than dissolved,
 oxygen-transport.content-capacity-and-p50
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p19 | 104 CPS
 ## article_ids
 +ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
 ## field_notes
@@ -11142,12 +11283,13 @@ src_e569449acf8dc2af471e | question_book | | p33 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p34 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p40 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p35 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -11408,12 +11550,13 @@ src_e569449acf8dc2af471e | question_book | | p35 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p6 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p33 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -12429,12 +12572,13 @@ kau
 1
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p15 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p49 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -12671,6 +12815,138 @@ src_e569449acf8dc2af471e | question_book | | p48 | 104 CPS
 +ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
 ## field_notes
 canonical_key "vascular-tree.pressure-and-compliance-distribution" already has a pinned id in this module (CON-CVS-78E74CAC3AE5E5); mintConceptId derives the same id fresh (CON-CVS-78E74CAC3AE5E5) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The renin-angiotensin-aldosterone system raises blood pressure and retains sodium (triggered by low renal perfusion), while atrial natriuretic peptide lowers blood pressure and excretes sodium (triggered by atrial stretch from a rising central blood volume) — physiological opposites
+## id
+CON-CVS-D1F75A76748E54
+## canonical_key
+raas-vs-anp.opposing-blood-pressure-and-sodium-hormones
+## definition
+The renin-angiotensin-aldosterone system (RAAS) and atrial natriuretic peptide (ANP) are a matched pair of opposing hormonal systems for blood pressure and sodium balance. RAAS begins when reduced renal perfusion pressure (or reduced NaCl delivery to the macula densa, or increased renal sympathetic activity) raises renin secretion; renin cleaves angiotensinogen to angiotensin I, angiotensin-converting enzyme (ACE, secreted by pulmonary vascular endothelium among other sites) converts this to angiotensin II, which directly vasoconstricts (raising total peripheral resistance and arterial pressure) and stimulates adrenal cortex aldosterone secretion, which in turn raises renal sodium (and secondarily water) reabsorption. Inhibiting ACE therefore lowers angiotensin II and aldosterone, lowering peripheral resistance and sodium reabsorption — but because angiotensin II normally suppresses renin secretion by negative feedback, removing angiotensin II removes that brake, so renin secretion itself RISES with ACE inhibition, not falls. Atrial natriuretic peptide runs in the opposite direction on both fronts: it is secreted by atrial myocytes when a rising central (extracellular fluid) blood volume stretches the atrial wall — as in water immersion up to the neck, which shifts peripheral venous blood centrally — and it lowers blood pressure by promoting vasodilation and increasing renal sodium excretion (natriuresis), the physiological opposite of what RAAS does on both the vascular and renal fronts.
+## explicit_objective
+Contrast RAAS (low renal perfusion -> renin -> angiotensin II -> vasoconstriction + aldosterone -> sodium retention -> raised blood pressure) with ANP (atrial stretch from rising central blood volume, e.g. water immersion -> vasodilation + natriuresis -> lowered blood pressure), and state that ACE inhibition raises, not lowers, renin secretion by removing angiotensin II's negative feedback on it.
+## pitfalls
+Assuming every step of the renin-angiotensin-aldosterone cascade moves in the same direction when the cascade is blocked. ACE inhibition lowers angiotensin II and aldosterone, but renin secretion itself RISES, because angiotensin II's own negative feedback on renin release is what falls away — the one step in the cascade that reverses direction rather than following the others down.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p5 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p21 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+RAAS | Renin-angiotensin-aldosterone system | ACE inhibition | Atrial natriuretic peptide | ANP stimulus and action
+## article_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Atrial natriuretic peptide
+## conflicts
+No conflicting record found; find-existing.mjs returned no match, and the only related pinned content (a postural-hypotension concept naming RAAS as one item in a reflex list, and the hemorrhagic-shock concept covering why ANP does NOT rise in hemorrhage) states neither this concept's RAAS cascade mechanism nor ANP's own stimulus/action as a standalone fact.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---

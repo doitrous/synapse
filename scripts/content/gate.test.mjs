@@ -39,3 +39,48 @@ test('log files are written under .gates/', () => {
   assert.ok(existsSync('.gates'));
   assert.ok(readdirSync('.gates').some(f => /^batch-\d{8}-\d{6}\.json$/.test(f)));
 });
+
+test('batch: space-separated --with list is rejected before spawning, not reported as errors=0', () => {
+  const r = run('batch', 'scripts/content/fixtures/gate/concepts-ok.md', '--with', 'a.md', 'b.md');
+  assert.notEqual(r.status, 0, r.stdout + r.stderr);
+  assert.doesNotMatch(r.stdout, /errors=\d+/);
+  assert.match(r.stdout, /repeat/i);
+});
+
+test('batch: a validator crash with no JSON on stdout prints FAILED, not errors=0, and exits non-zero', () => {
+  // validate-content-batch.mjs throws on ENOENT before it ever prints JSON —
+  // confirmed by running it directly against this same missing path.
+  const r = run('batch', 'scripts/content/fixtures/gate/does-not-exist.md');
+  assert.notEqual(r.status, 0, r.stdout + r.stderr);
+  assert.doesNotMatch(r.stdout, /errors=\d+/);
+  assert.match(r.stdout, /FAILED/);
+  assert.match(r.stdout, /full log:/);
+  assert.match(r.stdout, /ENOENT|no such file/i);
+});
+
+test('simulate: nonexistent file path prints FAILED and exits non-zero', () => {
+  // simulate-content-import.mjs also throws on ENOENT before printing JSON —
+  // confirmed by running it directly against this same missing path.
+  const r = run('simulate', 'scripts/content/fixtures/gate/does-not-exist.md');
+  assert.notEqual(r.status, 0, r.stdout + r.stderr);
+  assert.doesNotMatch(r.stdout, /errors=\d+/);
+  assert.match(r.stdout, /FAILED/);
+  assert.match(r.stdout, /full log:/);
+  assert.match(r.stdout, /ENOENT|no such file/i);
+});
+
+test('usage text (no args) mentions repeating --with per file', () => {
+  const r = run();
+  assert.equal(r.status, 2);
+  assert.match(r.stdout + r.stderr, /repeat/i);
+});
+
+test('batch: a thrown validator Error shows its message inline, not just stack frames', () => {
+  // A trailing --with with no file makes the validator throw. Node prints the
+  // message above the stack, so a naive tail loses it.
+  const r = run('batch', 'scripts/content/fixtures/gate/concepts-ok.md', '--with');
+  assert.notEqual(r.status, 0);
+  assert.match(r.stdout, /FAILED/);
+  assert.match(r.stdout, /--with was given with no file after it/);
+  assert.doesNotMatch(r.stdout, /^\s+\[stderr\]\s+at\s/m);
+});

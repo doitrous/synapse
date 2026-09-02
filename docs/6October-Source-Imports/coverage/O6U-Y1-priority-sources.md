@@ -26,7 +26,7 @@ pool sitting behind these files on Desktop.
 
 | Tier | Source | Readability |
 |--:|---|---|
-| 3 | `Pathology Q Bank.pdf` | 401p / 13,301 words, 0 garbled -- the single largest fully-native source in the whole corpus. Printed keys exist only in its "True or False" sections at the end of each of its 6 chapters (pages 246-248, 279-280, 299, 399-401 -- 9 of 401 pages); the much larger MCQ ("choose the correct answer") portion in between carries no printed/inferable key in plain-text extraction. Not yet triaged beyond the sample read for source selection. |
+| 3 | `Pathology Q Bank.pdf` | 401p / 13,301 words, 0 garbled -- the single largest fully-native source in the whole corpus. Triaged and authored 2026-09-02: printed keys exist only in its 6 chapter-ending "True or False" sections (pages 246-248, 279-280, 299, 399-401 -- 9 of 401 pages, ~90 statements), each printing its own inline `( true )`/`( false )` answer, all independently cross-checked against fact. 40/~90 authored as single-best-answer questions (seed contract requires 4-5 options, so each T/F statement was recast with 3 author-constructed distractors around the one printed-key fact); 24 new concepts + 6 new articles minted, only 1 genuine reuse hit found (Kasr `208-INT` anaplasia, cross-year) despite the coordinator's steer toward `104-CPS`/`108-INT`/ASU-INF overlaps. The 392-page "choose the correct answer" MCQ portion between chapters remains unkeyed and unauthored. See `coverage/O6U-IPA-107-triage.md`. |
 | 2 | `Practical & Oral patho (O6U bot).pdf` | 20p, fully garbled -- needs OCR. |
 | 4 | `haemodynamic- رباب.pdf` | 7p, fully garbled -- needs OCR. |
 | 4 | `neoplasia- رباب.pdf` | 9p, fully garbled -- needs OCR. |

@@ -317,3 +317,187 @@ no
 
 ## qualifiers
 population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-VARICOSE-VEINS-01
+
+## concept_id
+CON-CVS-F048262BCB7EED
+
+## subject
+Varicose veins
+
+## predicate
+is
+
+## object
+A varicose vein is a superficial vein permanently dilated and tortuous, most often in the leg, from sustained raised venous pressure combined with valve incompetence.
+
+## display_text
+A varicose vein is a superficial vein permanently dilated and tortuous, most often in the leg, from sustained raised venous pressure combined with valve incompetence.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-DVT-THROMBOPHLEBITIS-01
+
+## concept_id
+CON-CVS-92BB03F3D57E33
+
+## subject
+Deep vein thrombosis and thrombophlebitis
+
+## predicate
+is
+
+## object
+Deep vein thrombosis arises from Virchow's triad — venous stasis (immobility, bed rest, varicose veins), hypercoagulability (pregnancy, malignancy, oral contraceptives) and endothelial injury (trauma, surgery).
+
+## display_text
+Deep vein thrombosis arises from Virchow's triad — venous stasis (immobility, bed rest, varicose veins), hypercoagulability (pregnancy, malignancy, oral contraceptives) and endothelial injury (trauma, surgery).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-DVT-THROMBOPHLEBITIS-02
+
+## concept_id
+CON-CVS-92BB03F3D57E33
+
+## subject
+Deep vein thrombosis and thrombophlebitis
+
+## predicate
+is
+
+## object
+Thrombophlebitis is a deep vein thrombosis whose thrombosed segment is also inflamed, presenting with leg pain, swelling, warmth and redness over a palpable venous cord.
+
+## display_text
+Thrombophlebitis is a deep vein thrombosis whose thrombosed segment is also inflamed, presenting with leg pain, swelling, warmth and redness over a palpable venous cord.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-ELASTIC-LAMINA-STAIN-01
+
+## concept_id
+CON-CVS-0AD4BCDFB88035
+
+## subject
+Elastic-lamina histologic stain (Orcein)
+
+## predicate
+is
+
+## object
+Orcein is the special stain used to visualise elastic laminae in the arterial wall, since routine H&E does not resolve them clearly.
+
+## display_text
+Orcein is the special stain used to visualise elastic laminae in the arterial wall, since routine H&E does not resolve them clearly.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
