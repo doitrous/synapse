@@ -384,3 +384,100 @@ tranches 1-3 authored 0 new mints against it).
 | Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | Pending-hit (sparse overlay, reused) | Pending-hit (new overlay row) | Live-hit | New mints | Authored | Held |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | MUST-CVS-201 Anatomy (remaining 51) | 51 (all MCQ) | 51/51 | 24 | 20 | 2 | 0 | 1 | 50 | 1 |
+
+## S3 -- tranche 5 (2026-09-02, lane 5, branch `must-cvs201-author5`) -- Microbiology
+
+Fifth authoring pass, the Microbiology cluster tranche 2's own inventory
+table named as a "probable-overlap pair": the two sibling Microbiology
+CVS201 EOM Final papers, each 30 MCQ + 5 essay, both fully verified in full
+by tranche 2 (30/30 MCQ + 5/5 essay keyed). This tranche re-triaged both to
+completion (single-segment `micro1-qNN` / `micro2-qNN` keys, per the
+dispatch) and authored every keyed MCQ not held as a duplicate.
+
+### Full triage -- both Microbiology CVS201 papers -- AUTHORED
+
+`Microbiology/06 EOM Exams/EOM MCQs - CVS Final Microbiology Questions_Mucize
+Doctors.pdf` (8 pages, by Youssef BenAhmed & Hamza Elmeadawy,
+`src_89011691408ee232b5ff`, "micro1"/"m1") and `Microbiology/06 EOM
+Exams/EOM MCQs - Microbiology CVS201 Questions (Final).pdf` (10 pages, by
+Absalam101 & Rehab, `src_79f275c14b581a4187c2`, "micro2"/"m2"). Both
+native-text (`pagetext.mjs status`: no garbled pages, no OCR needed). Both
+cover the same four disease groups -- infective endocarditis, myocarditis,
+pericarditis, rheumatic fever -- with a full printed key: 30/30 MCQ +
+5/5 essay per paper, 60/60 MCQ + 10/10 essay total, all read in full
+(`pagetext.mjs show`, <=3 pages/call).
+
+**Cross-paper duplicates, held.** Because both papers drill the identical
+four-topic syllabus, a systematic pass matched every raw question to the
+single fact it tests and grouped questions testing the *same* fact (not
+merely the same topic) into one cluster, authoring one representative MCQ
+per cluster and holding the rest as `duplicate-of <key>` -- per the lane
+dispatch's explicit rule for this cluster (contrast tranche 1's own
+concept-level dual-sourcing of a genuine duplicate pair, which authored
+both questions against one shared concept; this dispatch calls for holding
+the redundant *question* instead). 15 of the 60 raw MCQs were held this way:
+3 intra-paper (micro1 asks the same fact twice under a different vignette --
+ASO specificity, novobiocin/epidermidis, and the optochin/bile-insolubility
+lab test each appear twice in micro1 alone) and 12 cross-paper (the sibling
+paper restates a micro1 fact, almost always as a shorter direct-recall stem
+against micro1's own fuller clinical vignette). Every hold names its
+duplicate-of key and a one-line reason in `-triage-keys.txt`.
+
+45 of the 60 raw MCQs were authored (27 of micro1's 30, 18 of micro2's 30).
+38 concepts serve the 45 authored questions:
+
+- **32 new MUST mints** -- `find-existing.mjs` returned no hit for any of
+  these specific facts (Coxsackievirus biology and disease associations,
+  Janeway lesions, empiric endocarditis-therapy scope, amoxicillin dental
+  prophylaxis, S. epidermidis glycocalyx pathogenesis, ASO-titer specificity,
+  penicillin-timing-and-carditis, optochin/bile-insolubility lab
+  differentiation, pericarditis transmission routes/etiology, diphtheria
+  myocarditis, Candida myocarditis, and the acute-vs-subacute IE
+  discriminator facts) -- all in `concept/`, `article/`,
+  `evidence/{claims,citations,spans}.md` (own lane files, not pending-live).
+- **4 live reuses, all in the CON-INF-* rheumatic-fever family** --
+  `CON-INF-311E67B2C55A90` (molecular mimicry) was **already
+  MUST-CVS-201-tagged by tranche 1**, so micro1-q16 cites it directly with
+  no new overlay row; `CON-INF-2B28DE9528D471` (S. pyogenes as the RF
+  pathogen) and `CON-INF-C8230A1A39D4A9` (RF's own clinical-feature list)
+  needed a first MUST-CVS-201 sparse LIVE update, written directly into
+  `concept/MUST-CVS-201-concepts.md` (same pattern as tranche 1's own row 1,
+  not pending-live, since the target is already live) -- checked directly
+  against `server/data/medical-library-v1.json` (`universityIds: ['kau']`,
+  `learnerYears: [1,2,3]`, `moduleIds: []` for all three) before writing.
+- **3 pending sparse-overlay reuses**, in `pending-live/MUST-CVS-201-
+  microbiology-concepts-overlay.md`: `CON-INF-2E4D9F498F4B12` (Viridans
+  streptococci = normal oral flora / classic subacute-IE cause, from
+  `docs/import-ready/concept/ASU-INF-microbiology-concepts.md`, identical
+  record also in Ain Shams's own tree) serves four questions (micro1-q02,
+  micro1-q17, micro2-q03, micro2-q29 -- dental-procedure risk,
+  congenital-heart-disease risk, and normal-flora framing are three facets
+  of the one concept, not three); `CON-INF-C0123F8DDE0DAA` (S. saprophyticus
+  differentiated from other coagulase-negative staphylococci, including S.
+  epidermidis, by novobiocin) already names S. epidermidis by contrast in
+  its own definition, so micro1-q04's inverse fact (epidermidis is
+  novobiocin-*sensitive*) **extends rather than duplicates** it, the same
+  call tranche 4 made for situs inversus; `CON-INF-D5C29272FC4BC9`
+  (benzathine penicillin prevents recurrent RF, from MUST's own
+  `FHB-102-2-microbiology-introduction-concepts.md`, a different Year-1
+  lane's unimported file within this same university) serves micro1-q20 and
+  micro1-q30 (standard regimen and the penicillin-allergic alternative,
+  erythromycin, extending rather than duplicating the standard-regimen
+  fact).
+
+All 45 authored as MCQ seed -> `emit-mcq.mjs`, both papers being genuine
+multiple-choice with a full printed key. 38 (main_concept live-tagged or
+new-minted this batch) are in
+`question/MUST-CVS-201-microbiology-mcq.md`; 7 (main_concept pending
+elsewhere) are in `pending-live/MUST-CVS-201-microbiology-questions.md`
+alongside the 3-record sparse concept overlay above. Full apply order in
+`pending-live/INDEX.md`. 0 questions held for want of a key -- both sources
+printed a key for every item; the 15 holds are all duplicate-of, not
+unrecoverable. The 10 essay questions (5 per paper) are triaged and keyed in
+`-triage-keys.txt` but not authored -- out of scope for this lane.
+
+### Checkpoint table (tranche 5)
+
+| Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | Pending-hit (sparse overlay, reused) | Live-hit (sparse update, reused) | Live-hit (already tagged) | New mints | Authored | Held (duplicate-of) |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| MUST-CVS-201 Microbiology (both papers, full) | 60 MCQ + 10 essay | 70/70 | 38 | 3 | 2 | 1 | 32 | 45 | 15 |

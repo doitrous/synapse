@@ -217,3 +217,68 @@ resources already had entries there, this tranche's new one (the Anatomy
 paper, first cited only now that a new mint needs it) did not. Also merged
 one new entry into the shared `evidence/corpus-source-index.json` (35 → 36
 sources) for the same resource, needed by a separate, independent check.
+
+## Microbiology tranche (2026-09-02, lane 5, branch `must-cvs201-author5`) — two more files, closes the Microbiology cluster
+
+Two more files, from the two sibling Microbiology CVS201 EOM Final papers
+(60 MCQs across both: 30 by Mucize Doctors, `src_89011691408ee232b5ff`,
+printed key p.7; 30 by Absalam101 & Rehab, `src_79f275c14b581a4187c2`,
+printed key p.9). 45 of the 60 raw MCQs are authored (15 held as
+duplicate-of another key testing the identical fact, 3 intra-paper + 12
+cross-paper — see `coverage/MUST-CVS-201-triage.md`'s Microbiology tranche
+section). Depends on 3 concept ids: 2 in
+`docs/import-ready/concept/ASU-INF-microbiology-concepts.md` (identical
+record also in `docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-
+concepts.md`), 1 in `docs/MUST-Source-Imports/concept/FHB-102-2-
+microbiology-introduction-concepts.md` (MUST's own Year-1 Foundation
+module, a different lane's unimported file within this same university) —
+checked directly against `server/data/medical-library-v1.json`, none of the
+3 present. 38 of the 45 authored questions instead cite concepts that are
+either brand new mints this tranche (32, own lane files, not pending-live)
+or already live: 2 needed a first MUST-CVS-201 sparse LIVE update (written
+directly into `concept/MUST-CVS-201-concepts.md`, not pending-live, since
+the target concept is already live — same pattern as tranche 1's own row 1)
+and 1 (`CON-INF-311E67B2C55A90`, molecular mimicry) was **already**
+MUST-CVS-201-tagged by tranche 1, so it needed no new row at all.
+
+| File | Target ids | Records |
+|---|---|---|
+| `MUST-CVS-201-microbiology-concepts-overlay.md` | 3 concept ids: 2 in `ASU-INF-microbiology-concepts.md` (Viridans streptococci = normal oral flora / classic subacute-IE cause; S. saprophyticus-vs-other-CoNS novobiocin differentiation, extended for the S. epidermidis inverse fact), 1 in `FHB-102-2-microbiology-introduction-concepts.md` (benzathine penicillin RF prophylaxis, extended for the penicillin-allergic alternative) | 3 sparse updates — `+MUST-CVS-201`, `+2` on `modules`/`learner_years`; the FHB-102-2 row is already `must` so it takes no `+must` (only the two ASU-INF rows do) |
+| `MUST-CVS-201-microbiology-questions.md` | 7 MCQ records (`QST-MUSTCVS201-MICROBIOLOGY-PENDING-…`), `main_concept` pointing at the 3 ids above (one id, the Viridans/normal-flora concept, serves 4 of the 7 questions) | New records, not sparse updates — `library_ids` names each target concept's own existing article, `ART-INF-STAPHYLOCOCCUS-STREPTOCOCCUS-ID` (both ASU-INF concepts) or `ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY` (the FHB-102-2 concept) |
+
+**Apply after**: `MUST-CVS-201-microbiology-concepts-overlay.md` applies
+after its two named dependency files (`ASU-INF-microbiology-concepts.md`,
+`FHB-102-2-microbiology-introduction-concepts.md`) are live;
+`MUST-CVS-201-microbiology-questions.md` applies after both the overlay
+file above AND `docs/import-ready/article/ASU-INF-microbiology-articles.md`
+/ `docs/MUST-Source-Imports/article/FHB-102-2-microbiology-introduction-
+articles.md` (the two article dependencies named above) are live. The 38
+direct questions in `question/MUST-CVS-201-microbiology-mcq.md` have no
+pending-live dependency — their concepts, articles and evidence chains are
+either this lane's own new mints or an already-live concept updated in the
+same batch.
+
+Full-tree `gate.mjs simulate` (41 files: the 34-file tree tranche 4 ran plus
+this tranche's 7 new files — 2 pending-live, 1 direct-question, 2 ASU-INF,
+2 FHB-102-2 — real dependency files first):
+`batches=41 created=1142 updated=177 rejected=0 skipped=0 errors=0`. The new
+microbiology overlay batch alone reports `created:0, updated:3` — confirms
+all 3 rows are genuine updates onto ids that already exist in their two
+named dependency files, not duplicates. `MUST-CVS-201-microbiology-
+questions.md` reports `created:7, updated:0, rejected:0`. Direct `node
+scripts/validate-content-batch.mjs` and `node scripts/simulate-content-
+import.mjs` re-runs (same file list) both confirm the same zero-error
+result, ruling out the `gate.mjs`-prints-`errors=0`-on-crash failure mode.
+`node scripts/validate-content-batch.mjs` was also run standalone on every
+new/changed file individually (concept, article, claims, citations, spans,
+resource, evidence-source, both question files) — 0 errors on each.
+
+`gate.mjs batch` was not run on either new pending-live file, same tool
+limitation as above. Two new resource records this tranche's own citations
+needed and registered in `evidence/MUST-CVS-201-sources.md` (the `resource`-
+kind evidence-source registry, alongside `resource/MUST-CVS-201-
+resources.md`'s own `catalogue-resource` entries for the same two papers) —
+both papers are cited for the first time only now that this tranche's new
+mints need them. Also merged two new entries into the shared
+`evidence/corpus-source-index.json` (36 → 38 sources) for the same two
+resources.

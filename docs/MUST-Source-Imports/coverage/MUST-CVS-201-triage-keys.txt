@@ -248,3 +248,102 @@ grep of docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md by label fo
 "azygos vein", "left gastric artery" (abdominal esophagus, Q15), "moderator band" (name only, concept content already covers it under conducting-system), "eisenmenger", "situs inversus", "patent ductus arteriosus" (as a named diagnosis rather than the ductus-arteriosus-becomes-ligamentum fact already covered) -> not searched/not mapped to a concept this pass; their questions (AO-Q16, ESO-Q15, HD-Q15/16/17/19) were left un-authored rather than force-mapped or new-minted, queued for the next pass
 
 Tally: 106 questions triaged (100 MCQ + 6 essay), 106/106 keyed, 21 distinct concepts used by the 49 authored questions (20 pending in 104-CPS-anatomy-concepts.md, 1 pending in SYS-CVS-CONCEPT-T08.md), 0 live, 0 new mints, 49 authored / 57 remaining (51 MCQ + 6 essay)
+
+
+--- Microbiology tranche (2026-09-02, lane 5, branch must-cvs201-author5) ---
+
+Two sibling Microbiology CVS201 EOM Final papers, both 30 MCQ + 5 essay (essay
+out of scope for this lane). Triage keys below use single-segment "micro1"/
+"micro2" cluster prefixes per the dispatch; the seed/question-record keys
+this tranche actually emitted use the equivalent short form "m1-qNN" /
+"m2-qNN" (same paper mapping: micro1 = m1 = Mucize Doctors, micro2 = m2 =
+Absalam101 & Rehab) -- documented here so the two naming schemes are not
+mistaken for different papers.
+
+Source A (micro1) = Microbiology/06 EOM Exams/EOM MCQs - CVS Final Microbiology Questions_Mucize Doctors.pdf (8 pages, by Youssef BenAhmed & Hamza Elmeadawy, src_89011691408ee232b5ff)
+Source B (micro2) = Microbiology/06 EOM Exams/EOM MCQs - Microbiology CVS201 Questions (Final).pdf (10 pages, by Absalam101 & Rehab, src_79f275c14b581a4187c2)
+
+--- Source A / micro1 (30/30 MCQ keyed, 5/5 essay keyed, key p.7, essay answers p.8) ---
+micro1-q01 key=B  Acute IE in IVDU -> Staphylococcus aureus [AUTHORED m1-q01]
+micro1-q02 key=C  Subacute IE after dental extraction, prior rheumatic valve disease -> Viridans streptococci [AUTHORED m1-q02, pending]
+micro1-q03 key=B  Viridans virulence: dextran (biofilm) synthesis from glucose [AUTHORED m1-q03]
+micro1-q04 key=B  Prosthetic valve, non-hemolytic/catalase+/coagulase-/novobiocin-sensitive -> S. epidermidis [AUTHORED m1-q04, pending]
+micro1-q05 key=C  Best initial IE test -> serial blood cultures before antibiotics [AUTHORED m1-q05]
+micro1-q06 key=A  Micro-embolic palm/sole lesion in acute IE -> Janeway lesions [AUTHORED m1-q06]
+micro1-q07 key=D  Empiric IE coverage EXCEPT -> Coxsackievirus B (not covered, viral) [AUTHORED m1-q07]
+micro1-q08 key=B  Prosthetic valve dental-extraction prophylaxis -> oral amoxicillin [AUTHORED m1-q08]
+micro1-q09 key=B  S. epidermidis prosthetic-valve pathogenesis -> glycocalyx formation on biomedical devices [AUTHORED m1-q09]
+micro1-q10 key=B  Most common viral cause of myocarditis -> Coxsackievirus [AUTHORED m1-q10]
+micro1-q11 key=A  Myocarditis diagnostic features -> elevated cardiac enzymes + HF presentation [AUTHORED m1-q11]
+micro1-q12 key=D  Cardiac manifestations 2-4wk post-pharyngitis, cross-reaction + serology -> Streptococcus pyogenes [AUTHORED m1-q12, live sparse update]
+micro1-q13 key=B  Chest pain worse w/ inspiration/cough post-pneumonia -> pericarditis [AUTHORED m1-q13]
+micro1-q14 key=A  Purulent (infective) pericarditis pathogen -> Streptococcus pneumoniae [AUTHORED m1-q14]
+micro1-q15 key=b  Teen w/ myocarditis signs, enterovirus isolated from stool -> Coxsackievirus B [AUTHORED m1-q15]
+micro1-q16 key=B  Cardiac mechanism post-pharyngitis w/ migratory polyarthritis -> immune cross-reactivity (molecular mimicry) [AUTHORED m1-q16, live CON-INF-311E67B2C55A90 already MUST-CVS-201-tagged by tranche 1]
+micro1-q17 key=d  Wisdom-tooth extraction + congenital heart disease, alpha-hemolytic/catalase- -> Streptococcus viridans [AUTHORED m1-q17, pending]
+micro1-q18 key=A  Specific test for past strep infection in suspected RF -> ASO titer >200 IU/mL [AUTHORED m1-q18]
+micro1-q19 key=b  Best statement describing RF -> lesions may involve heart/joints/subcut tissue/CNS [AUTHORED m1-q19, live sparse update]
+micro1-q20 key=A  RF recurrence prevention -> monthly long-acting penicillin injections [AUTHORED m1-q20, pending]
+micro1-q21 key=A  Viridans vs S. pneumoniae lab clue -> optochin resistant + bile insoluble [AUTHORED m1-q21]
+micro1-q22 key=B  Staph sepsis -> acute valve destruction + emboli brain/spleen -> acute IE due to S. aureus [AUTHORED m1-q22]
+micro1-q23 key=B  Myocarditis management -> most causes no specific cure, supportive care [AUTHORED m1-q23]
+micro1-q24 key=a  GPC clusters catalase+/coagulase+, tricuspid murmur -> S. aureus [AUTHORED m1-q24]
+micro1-q25 key=B  ASO testing valid statement -> specific for past GAS, >200 diagnostic RF [HELD duplicate-of micro1-q18 -- same fact restated within the same paper]
+micro1-q26 key=b  Chemo patient, prosthetic valve, catalase+/coag-/mannitol-neg/novobiocin-inhibited -> S. epidermidis [HELD duplicate-of micro1-q04 -- same novobiocin-sensitivity fact restated within the same paper]
+micro1-q27 key=D  NOT part of Jones major criteria -> painless macular hemorrhages on palms (Janeway-lesion distractor) [AUTHORED m1-q27, live sparse update]
+micro1-q28 key=B  Lab report alpha-hemolytic/bile-insoluble/optochin-resistant subacute IE organism -> Viridans streptococci [HELD duplicate-of micro1-q21 -- same optochin/bile-insolubility fact restated within the same paper]
+micro1-q29 key=B  Penicillin given after RF onset -> no benefit reversing established carditis [AUTHORED m1-q29]
+micro1-q30 key=B  RF hx + penicillin allergy -> oral erythromycin secondary prophylaxis [AUTHORED m1-q30, pending]
+--- Source A essay (5/5 keyed, model answers p.8; not authored, out of scope) ---
+micro1-essay1 key=printed  Pathogenesis of Acute Rheumatic Fever
+micro1-essay2 key=printed  Pathogenesis of Coxsackie-B viral myocarditis
+micro1-essay3 key=printed  Treatment of MRSA endocarditis
+micro1-essay4 key=printed  Pathogenesis of subacute endocarditis caused by S. Viridans
+micro1-essay5 key=printed  Modes of transmission in pericarditis
+
+--- Source B / micro2 (30/30 MCQ keyed, 5/5 essay keyed, key p.9, essay answers p.10) ---
+micro2-q01 key=D  Most common cause of subacute IE -> Viridans streptococci [HELD duplicate-of micro1-q02 -- same "most common cause of subacute IE" fact]
+micro2-q02 key=A  Coxsackie B in suckling mice -> focal myositis and encephalitis [AUTHORED m2-q02]
+micro2-q03 key=C  Poor dental hygiene + rheumatic heart disease, alpha-hemolytic/bile-insoluble/optochin-resistant -> Viridans streptococci [AUTHORED m2-q03, pending]
+micro2-q04 key=C  Most common cause of acute IE in IVDU -> Staphylococcus aureus [HELD duplicate-of micro1-q01 -- same "acute IE in IVDU" fact]
+micro2-q05 key=B  Viridans virulence in subacute IE -> dextran synthesis [HELD duplicate-of micro1-q03 -- same dextran-biofilm fact]
+micro2-q06 key=C  NOT a typical pericarditis transmission mode -> inhalation of contaminated air [AUTHORED m2-q06]
+micro2-q07 key=B  Migratory polyarthritis + fever + recent pharyngitis + raised ASO -> rheumatic fever [AUTHORED m2-q07, live sparse update]
+micro2-q08 key=B  Coxsackie transmission -> fecal-oral route [AUTHORED m2-q08]
+micro2-q09 key=C  Coxsackie B most closely associated with -> myocarditis [HELD duplicate-of micro1-q10 -- same coxsackie-B-causes-myocarditis fact, inverse framing]
+micro2-q10 key=C  Coxsackie primary multiplication site -> lymphoid tissue of the GIT [AUTHORED m2-q10]
+micro2-q11 key=C  RF chemoprophylaxis in penicillin allergy -> erythromycin [HELD duplicate-of micro1-q30 -- same allergy-alternative-prophylaxis fact]
+micro2-q12 key=D  Diseases caused by Coxsackie B -> pleurodynia + myocarditis + diabetes mellitus (all) [AUTHORED m2-q12]
+micro2-q13 key=D  NOT a common pericarditis causative agent -> Streptococcus pyogenes [AUTHORED m2-q13]
+micro2-q14 key=C  Prosthetic valve, coagulase-neg/novobiocin-sensitive staph -> S. epidermidis [HELD duplicate-of micro1-q04 -- same novobiocin-sensitivity fact]
+micro2-q15 key=B  Test specific for RF diagnosis -> ASO [HELD duplicate-of micro1-q18 -- same ASO-specificity fact]
+micro2-q16 key=A  NOT typical subacute IE feature -> high spiking fever with rigors [AUTHORED m2-q16]
+micro2-q17 key=B  Coxsackie virus family -> Picornaviridae [AUTHORED m2-q17]
+micro2-q18 key=D  Pericarditis clinical picture -> chest pain with inspiration or coughing [HELD duplicate-of micro1-q13 -- same pleuritic-chest-pain fact]
+micro2-q19 key=D  Non-specific RF test(s) -> ESR + CRP (B&C) [AUTHORED m2-q19]
+micro2-q20 key=A  Corynebacterium diphtheriae complication -> myocarditis [AUTHORED m2-q20]
+micro2-q21 key=A  Most common cause of pericarditis -> S. aureus + M. tuberculosis [AUTHORED m2-q21]
+micro2-q22 key=C  Virus most commonly associated with myocarditis -> Coxsackie virus [HELD duplicate-of micro1-q10 -- same fact]
+micro2-q23 key=D  Viridans vs S. pneumoniae lab distinction -> bile insoluble [HELD duplicate-of micro1-q21 -- same optochin/bile fact]
+micro2-q24 key=A  Endocarditis treatment -> penicillin + aminoglycosides [AUTHORED m2-q24]
+micro2-q25 key=B  Damaged valve, dental extraction prophylaxis -> amoxicillin [HELD duplicate-of micro1-q08 -- same amoxicillin-prophylaxis fact]
+micro2-q26 key=B  Coxsackie B feature in infants -> generalized disease affecting heart/liver/brain [AUTHORED m2-q26]
+micro2-q27 key=B  RF pathogenesis best described as -> Type II hypersensitivity [HELD duplicate-of micro1-q16 -- same molecular-mimicry/type-II-hypersensitivity mechanism fact]
+micro2-q28 key=A  Myocarditis cause in immunocompromised patients -> Candida albicans [AUTHORED m2-q28]
+micro2-q29 key=C  Normal flora of human oropharynx -> Viridans Streptococci [AUTHORED m2-q29, pending]
+micro2-q30 key=D  NOT typical acute IE symptom -> migratory polyarthritis (that is RF, not IE) [AUTHORED m2-q30]
+--- Source B essay (5/5 keyed, model answers p.10; not authored, out of scope) ---
+micro2-essay1 key=printed  Pathogenesis of subacute endocarditis
+micro2-essay2 key=printed  Virulence factor of S. epidermidis & S. Viridans
+micro2-essay3 key=printed  Treatment of endocarditis and prevention
+micro2-essay4 key=printed  Pathogenesis + clinical picture + diagnosis of myocarditis
+micro2-essay5 key=printed  Pathogenesis of rheumatic fever
+
+--- find-existing.mjs / direct-grep query log (Microbiology tranche) ---
+"infective endocarditis" -> 8 hits, including live claim/citation CLM/CIT-INF-311E67B2C55A90 and pending docs/import-ready/concept/ASU-INF-microbiology-concepts.md "Streptococcus viridans, part of normal oral flora, causes infective endocarditis after dental procedures" (CON-INF-2E4D9F498F4B12) -> reused via sparse pending-live overlay for micro1-q02/q17, micro2-q03/q29
+"rheumatic fever" -> 17 hits, 3 live concepts (CON-INF-2B28DE9528D471, CON-INF-C8230A1A39D4A9, CON-INF-311E67B2C55A90 -- the last already MUST-CVS-201-tagged by tranche 1) plus pending docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md "Benzathine penicillin prevents recurrent rheumatic fever" (CON-INF-D5C29272FC4BC9) -> all four reused (2 live sparse updates, 1 already-tagged direct reuse, 1 pending sparse overlay)
+"novobiocin" -> pending docs/import-ready/concept/ASU-INF-microbiology-concepts.md "Staphylococcus saprophyticus is differentiated from other coagulase-negative staphylococci by novobiocin resistance" (CON-INF-C0123F8DDE0DAA), definition already names S. epidermidis by contrast -> extended (not duplicated) for micro1-q04
+"myocarditis" -> 10 hits, none matching this tranche's specific facts (SYS-CVS-CONCEPT-T04's own myocarditis concept is "mimics ACS", a different fact) -> all myocarditis facts this tranche tests are new mints
+"coxsackie", "janeway lesions", "antistreptolysin", "jones criteria", "dextran biofilm", "picornaviridae", "prosthetic valve", "blood culture endocarditis", "corynebacterium diphtheriae" (for the myocarditis-complication fact specifically), "normal flora oropharynx", "glycocalyx medical device", "acute bacterial endocarditis", "empiric antibiotic coverage endocarditis" -> no hit on any of these specific facts -> new mints (31 of the 32 total; the 32nd, embolic-pattern S. aureus endocarditis, was minted alongside the IVDU-risk-factor S. aureus concept as a distinct facet)
+
+Tally: 60 MCQs triaged across both papers (30+30), 60/60 keyed, 45 authored (27 micro1 + 18 micro2), 15 held (3 intra-paper micro1 duplicates + 12 cross-paper duplicates, each with duplicate-of and a one-line reason), 10 essay questions triaged and logged out of scope (not authored). 38 concepts used by the 45 authored questions: 32 new mints, 4 live (2 pre-existing sparse updates this tranche wrote, 1 already MUST-CVS-201-tagged by tranche 1, all CON-INF-* rheumatic-fever family), 2 pending sparse-overlay reuses (Viridans/dental-IE and novobiocin/epidermidis, both ASU-INF), 1 more pending sparse-overlay reuse (penicillin RF prophylaxis, MUST's own FHB-102-2).

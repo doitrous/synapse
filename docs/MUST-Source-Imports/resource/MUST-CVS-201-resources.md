@@ -292,3 +292,186 @@ MUST_Y2
 
 ## description
 MUST CVS-201 Anatomy's own EOM final, by Absalam101 & Shahd — 105 questions across five topics (20 Blood Supply of the Heart, 10 Conducting System, 30 Arch of Aorta & Descending Thoracic Aorta, 20 Esophagus, 20 Heart Development & Fetal Circulation, plus 6 essay questions on the source's own page 31, one more than the intro page's stated "5 Essay Questions"), each with its own printed answer key (pp.7, 10, 18, 24, 30 for the five MCQ sections, p.32 for the essay model answers). Native-text PDF, no OCR needed. 20 of the 21 concepts tested by this tranche's authored questions are sparse updates onto pending Kasr 104-CPS anatomy concepts (see pending-live/MUST-CVS-201-anatomy-concepts-overlay.md); 1 (Tetralogy of Fallot, CON-CVS-AF9212C18AAF03) is a sparse update onto the pending Year-3 SYS-CVS congenital heart disease catalogue. 0 new MUST mints this tranche.
+
+---
+
+# Item
+
+## id
+src_89011691408ee232b5ff
+
+## title
+CVS Final Microbiology Questions (Mucize Doctors)
+
+## subject
+inf
+
+## type
+Deck
+
+## source
+MUST -- Faculty of Medicine, CVS 201 course team
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+
+## year
+2024
+
+## topics
+
+
+## chapter
+
+
+## module_ids
+MUST-CVS-201
+
+## included_concepts
+CON-INF-B85BC8B6AAB51A
+CON-INF-5CE506A0EE2F49
+CON-INF-5D7344B6B2EC3C
+CON-INF-DDBD3BC0EBA46E
+CON-INF-9E294C0B1846C2
+CON-INF-E7C02DE64681D8
+CON-INF-96FA06BB80E670
+CON-INF-921BB840F59775
+CON-INF-B5EFF86198FE83
+CON-INF-605E48CC7E4DE4
+CON-INF-9D42060DD85811
+CON-INF-710B2DE024DB74
+CON-INF-ABCFBB77F6B9F5
+CON-INF-7A4574086BD96A
+CON-INF-4C3F7A81008817
+CON-INF-8D4ADBA83C4DA9
+CON-INF-A34594329B91AD
+CON-INF-2E4D9F498F4B12
+CON-INF-C0123F8DDE0DAA
+CON-INF-2B28DE9528D471
+CON-INF-C8230A1A39D4A9
+CON-INF-311E67B2C55A90
+CON-INF-D5C29272FC4BC9
+
+## included_articles
+ART-INF-STAPH-AUREUS-ACUTE-ENDOCARDITIS
+ART-INF-STAPH-AUREUS-EMBOLIC-PATTERN
+ART-INF-VIRIDANS-DEXTRAN-ADHERENCE
+ART-INF-ENDOCARDITIS-BLOOD-CULTURE-DIAGNOSIS
+ART-INF-JANEWAY-LESIONS
+ART-INF-ENDOCARDITIS-EMPIRIC-THERAPY-TARGETS
+ART-INF-ENDOCARDITIS-DENTAL-PROPHYLAXIS
+ART-INF-EPIDERMIDIS-GLYCOCALYX-DEVICE
+ART-INF-COXSACKIE-B-MYOCARDITIS-CAUSE
+ART-INF-MYOCARDITIS-DIAGNOSTIC-FEATURES
+ART-INF-PERICARDITIS-PLEURITIC-CHEST-PAIN
+ART-INF-PURULENT-PERICARDITIS-PNEUMOCOCCUS
+ART-INF-COXSACKIE-B-STOOL-ISOLATION
+ART-INF-MYOCARDITIS-SUPPORTIVE-MANAGEMENT
+ART-INF-ASO-TITER-RHEUMATIC-FEVER
+ART-INF-PENICILLIN-TIMING-RHEUMATIC-CARDITIS
+ART-INF-VIRIDANS-VS-PNEUMONIAE-LAB-ID
+
+## concept_locations
+
+
+## universities
+must
+
+## years
+MUST_Y2
+
+## description
+MUST CVS-201 Microbiology's first EOM final, by Youssef BenAhmed & Hamza Elmeadawy ("Mucize Doctors") -- 30 MCQs + 5 short-essay questions on infective endocarditis (acute/subacute, S. aureus/Viridans/S. epidermidis), myocarditis (Coxsackievirus B), pericarditis and rheumatic fever, with a printed answer key on p.7 and model essay answers on p.8. Native-text PDF, no OCR needed. 27 of 30 MCQs authored this pass (3 held as within-paper duplicates); the 5 essay questions are out of scope for this lane.
+
+---
+
+# Item
+
+## id
+src_79f275c14b581a4187c2
+
+## title
+Microbiology CVS201 Questions (Final)
+
+## subject
+inf
+
+## type
+Deck
+
+## source
+MUST -- Faculty of Medicine, CVS 201 course team
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+
+## year
+2024
+
+## topics
+
+
+## chapter
+
+
+## module_ids
+MUST-CVS-201
+
+## included_concepts
+CON-INF-33D503C0F8E835
+CON-INF-7FF5FE97568DA6
+CON-INF-F4CDAB96CB55F9
+CON-INF-AB05714C0C8981
+CON-INF-2608E0642A91AF
+CON-INF-1FF0B557692436
+CON-INF-8B8271500495E1
+CON-INF-D756F46B795F18
+CON-INF-F82B27A0C7E03F
+CON-INF-963A049A93D8FA
+CON-INF-FD94F6ED59BCBF
+CON-INF-3F8F9D6E7F52AF
+CON-INF-8C1DE35DE714DD
+CON-INF-A9C4520FA0EB77
+CON-INF-6E83C5F7AAA95B
+CON-INF-2E4D9F498F4B12
+
+## included_articles
+ART-INF-COXSACKIE-B-SUCKLING-MICE-MODEL
+ART-INF-PERICARDITIS-TRANSMISSION-ROUTES
+ART-INF-COXSACKIE-FECAL-ORAL-TRANSMISSION
+ART-INF-COXSACKIE-GI-REPLICATION-SITE
+ART-INF-COXSACKIE-B-DISEASE-SPECTRUM
+ART-INF-PERICARDITIS-NOT-STREP-PYOGENES
+ART-INF-SUBACUTE-ENDOCARDITIS-FEVER-PATTERN
+ART-INF-COXSACKIE-PICORNAVIRIDAE-CLASSIFICATION
+ART-INF-RHEUMATIC-FEVER-NONSPECIFIC-MARKERS
+ART-INF-DIPHTHERIA-TOXIN-MYOCARDITIS
+ART-INF-PERICARDITIS-STAPH-TB-MOST-COMMON
+ART-INF-ENDOCARDITIS-PENICILLIN-AMINOGLYCOSIDE-SYNERGY
+ART-INF-COXSACKIE-B-INFANT-GENERALIZED-DISEASE
+ART-INF-CANDIDA-MYOCARDITIS-IMMUNOCOMPROMISED
+ART-INF-ACUTE-ENDOCARDITIS-NOT-POLYARTHRITIS
+
+## concept_locations
+
+
+## universities
+must
+
+## years
+MUST_Y2
+
+## description
+MUST CVS-201 Microbiology's second EOM final, by Absalam101 & Rehab -- 30 MCQs + 5 short-essay questions covering the same four disease groups (infective endocarditis, myocarditis, pericarditis, rheumatic fever) as the sibling Mucize Doctors paper, largely different stems and a wider Coxsackievirus-biology and pericarditis-etiology spread. Printed answer key on p.9, model essay answers on p.10. Native-text PDF, no OCR needed. 18 of 30 MCQs authored this pass (12 held as duplicate-of a Mucize Doctors question testing the identical fact); the 5 essay questions are out of scope for this lane.
