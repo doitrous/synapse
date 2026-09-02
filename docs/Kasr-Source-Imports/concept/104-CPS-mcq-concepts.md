@@ -33,7 +33,7 @@
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
     Physiology Cardiovascular System — Working Myocyte Action Potential — 8 questions, 2 concepts
-    Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
+    Cytogenetics — Aneuploidy Mechanisms and General Causes — 9 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
@@ -41,8 +41,8 @@
     Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 26 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
-    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 21 questions, 3 concepts
-    Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
+    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 28 questions, 3 concepts
+    Cytogenetics — Structural Aberrations — 18 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 20 questions, 8 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  180 questions were excluded and 0 held back for having no
+  181 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -5384,6 +5384,8 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p37 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p38 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
 src_79af3b3857ba47239529 | question_book | | p2 | 104 CPS
+src_be181ad1f0be0dab13c9 | question_book | | p3 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p15 | 104 CPS
 ## article_ids
 +ART-104-HIS-NUMERICAL-ABERRATIONS
 ## field_notes
@@ -5407,6 +5409,7 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p39 | 104 CPS
 src_be181ad1f0be0dab13c9 | question_book | | p3 | 104 CPS
 src_79af3b3857ba47239529 | question_book | | p2 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+src_be181ad1f0be0dab13c9 | question_book | | p2 | 104 CPS
 ## article_ids
 +ART-104-HIS-NUMERICAL-ABERRATIONS
 ## field_notes
@@ -5426,6 +5429,11 @@ structural-chromosomal-aberration.deletion-inversion-translocation-duplication-i
 src_9cf32ada2b25fa54f0e9 | question_book | | p37 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p38 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+src_be181ad1f0be0dab13c9 | question_book | | p4 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p31 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p68 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p2 | 104 CPS
+src_be181ad1f0be0dab13c9 | question_book | | p2 | 104 CPS
 ## article_ids
 +ART-104-HIS-STRUCTURAL-ABERRATIONS
 ## field_notes

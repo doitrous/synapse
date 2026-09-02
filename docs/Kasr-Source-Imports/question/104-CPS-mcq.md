@@ -33,7 +33,7 @@
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
     Physiology Cardiovascular System — Working Myocyte Action Potential — 8 questions, 2 concepts
-    Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
+    Cytogenetics — Aneuploidy Mechanisms and General Causes — 9 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
@@ -41,8 +41,8 @@
     Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 26 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
-    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 21 questions, 3 concepts
-    Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
+    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 28 questions, 3 concepts
+    Cytogenetics — Structural Aberrations — 18 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 20 questions, 8 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  180 questions were excluded and 0 held back for having no
+  181 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -36831,6 +36831,650 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-F877EF8D83D4
+## title
+A swab from the buccal mucosa of a newly born infant showed more | than one Barr bodies…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+A swab from the buccal mucosa of a newly born infant showed more | than one Barr bodies in the nuclei of nearly all epithelial cells. This condition may be diagnosed as:
+## answer_a
+Multiple X syndrome
+## explanation_a
+Correct. The number of Barr bodies always equals the total number of X chromosomes minus one. More than one Barr body in nearly every cell means three or more X chromosomes are present (47,XXX or higher) — multiple X (triple X) syndrome.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_b
+Klinefelter syndrome :
+## explanation_b
+Klinefelter syndrome (47,XXY) has only two X chromosomes, giving exactly one Barr body, not more than one.
+## answer_c
+Normal female
+## explanation_c
+A normal female (46,XX) shows exactly one Barr body, not more than one.
+## answer_d
+Turner syndrome i
+## explanation_d
+Turner syndrome (45,X) has only a single X chromosome and shows NO Barr bodies at all, not more than one.
+## correct_answer
+A
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Application
+## learning_objective
+Deduce multiple X syndrome from more than one Barr body in nearly every epithelial cell, using the Barr-body-count-equals-X-count-minus-one rule.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p2 q3. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-A999213C5E1B
+## title
+Achild presented with mental retardation, muscular hypotonia, cardiac abnormalities, sm…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Achild presented with mental retardation, muscular hypotonia, cardiac abnormalities, small genital organs. You have to think about:
+## answer_a
+Klinefelter’s syndrome
+## explanation_a
+Klinefelter's syndrome typically presents at or after puberty with tall stature and small testes, not in infancy with hypotonia and cardiac defects.
+## answer_b
+Down syndrome
+## explanation_b
+Correct. This combination — mental retardation, muscular hypotonia (a classically prominent early feature), cardiac abnormalities and small genital organs — is a well-recognised presentation of Down syndrome (trisomy 21).
+
+Why this is right:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_c
+Monosomy of chromosome 21. : |
+## explanation_c
+Monosomy of chromosome 21 is not a recognised, viable clinical entity presenting this way; it is generally incompatible with survival to term.
+## answer_d
+Turner syndrome
+## explanation_d
+Turner syndrome does not typically cause mental retardation (intelligence is usually normal) and presents with short stature and gonadal dysgenesis, not this cardiac/hypotonia/mental-retardation cluster.
+## correct_answer
+B
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+Recognise mental retardation, muscular hypotonia, cardiac abnormalities and small genital organs as a classic Down syndrome presentation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics].pdf p3 q5. Manifest src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-44E1AD3BF988
+## title
+All characters of trisomy except
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of trisomy except
+## answer_a
+addition of extra chromosome
+## explanation_a
+True of trisomy, so not the exception — trisomy is defined by the addition of an extra chromosome.
+## answer_b
+turner syndrome with 47 chromosome
+## explanation_b
+The exception, and the answer. Turner syndrome is a monosomy (45 chromosomes, one X chromosome missing), not a trisomy with 47 chromosomes — it is the opposite numerical direction from trisomy.
+
+Why this is right:
+- Numerical aberrations are anomalies of chromosome number, occurring in germ or somatic cells, and are of two kinds.
+## answer_c
+Down syndrome with trisomy 21
+## explanation_c
+True, so not the exception — Down syndrome, trisomy 21, is a genuine example of trisomy.
+## answer_d
+three copies of chromosome instead of two
+## explanation_d
+True, so not the exception — trisomy is, by definition, three copies of one chromosome instead of the normal two.
+## correct_answer
+B
+## main_concept
+CON-DEV-451A64C9445CAB
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that Turner syndrome (45 chromosomes, a monosomy) is not an example of trisomy, as the exception among true statements about trisomy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q53. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-61229719D9EF
+## title
+Down syndrome (mongolism) is characterized by: ‏ظ‎ ‎| a. It is a form of triploid chrom…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Down syndrome (mongolism) is characterized by: ‏ظ‎ ‎| a. It is a form of triploid chromosomal aberration
+## answer_a
+It is a form of triploid chromosomal aberration.
+## explanation_a
+Triploidy refers to an extra complete haploid set of all chromosomes (69 total), a distinct and generally non-viable condition, not what causes Down syndrome.
+## answer_b
+Cells of the mongol child contain 45 chromosomes.
+## explanation_b
+Down syndrome cells contain 47 chromosomes (one extra), not 45, which would instead represent a monosomy, the opposite numerical abnormality.
+## answer_c
+It is an aberration in sex chromosomes.
+## explanation_c
+Chromosome 21 is an autosome, not a sex chromosome, so Down syndrome is not a sex-chromosome aberration.
+## answer_d
+Trisomy 21.
+## explanation_d
+Correct. Down syndrome is trisomy 21 — three copies, rather than the normal two, of chromosome 21, giving 47 total chromosomes.
+
+Why this is right:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## correct_answer
+D
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that Down syndrome is trisomy 21, distinct from triploidy, monosomy and a sex-chromosome aberration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p15 q10. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-466AA2EFD2FF
+## title
+Ifa parent is a carrier of a chromosome 21 translocation, he might have a child with:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Ifa parent is a carrier of a chromosome 21 translocation, he might have a child with:
+## answer_a
+Turner’s syndrome
+## explanation_a
+Turner's syndrome results from monosomy of the X chromosome, unrelated to a chromosome 21 translocation.
+## answer_b
+Down syndrome. :
+## explanation_b
+Correct. A parent who is a balanced carrier of a translocation between chromosome 21 and 14 is phenotypically normal but can pass on an unbalanced combination at meiosis, giving the child effectively three copies of chromosome-21 material — translocation Down syndrome, the route accounting for 3 to 4% of Down syndrome cases.
+
+Why this is right:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_c
+Klinefelter’s syndrome
+## explanation_c
+Klinefelter's syndrome results from an extra X chromosome (47,XXY), unrelated to a chromosome 21 translocation.
+## answer_d
+Chronic myeloid leukaemia
+## explanation_d
+Chronic myeloid leukaemia results from a reciprocal translocation between chromosomes 9 and 22 (the Philadelphia chromosome), an entirely different translocation from one involving chromosome 21.
+## correct_answer
+B
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Application
+## learning_objective
+State that a parent carrying a chromosome 21 translocation risks having a child with Down syndrome, the translocation route accounting for a minority of cases.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p3 q6. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-FBB5A074EEA8
+## title
+Monosomy of sex chromosome is: |
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Monosomy of sex chromosome is: |
+## answer_a
+Turner's syndrome
+## explanation_a
+Correct. Turner syndrome, karyotype 45,X, results from monosomy of a sex chromosome — the complete absence of one of the two sex chromosomes — and is the only human sex-chromosome monosomy generally compatible with live birth.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_b
+Klinefelter’s syndrome. i
+## explanation_b
+Klinefelter's syndrome (47,XXY) is a sex-chromosome TRISOMY (an extra chromosome), not a monosomy.
+## answer_c
+Robertsonian translocation
+## explanation_c
+A Robertsonian translocation is a structural rearrangement between two acrocentric chromosomes, not a numerical monosomy of a sex chromosome.
+## answer_d
+Mongolism
+## explanation_d
+Mongolism (Down syndrome) is caused by trisomy of an autosome (chromosome 21), unrelated to sex-chromosome count.
+## correct_answer
+A
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name Turner syndrome (45,X) as the sex-chromosome monosomy, against Klinefelter (a trisomy), Robertsonian translocation, and Down syndrome distractors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p2 q17. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-6D951967B93D
+## title
+Trisomy of chromosome X is:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Trisomy of chromosome X is:
+## answer_a
+Turner's syndrome
+## explanation_a
+Turner's syndrome is a monosomy (45,X, one X chromosome missing), not a trisomy.
+## answer_b
+Klinefelter's syndrome
+## explanation_b
+Klinefelter's syndrome (47,XXY) is a trisomy that includes a Y chromosome, not a pure trisomy of the X chromosome alone.
+## answer_c
+Down's syndrome
+## explanation_c
+Down's syndrome is trisomy of an autosome (chromosome 21), not a sex-chromosome trisomy.
+## answer_d
+Multiple X syndrome
+## explanation_d
+Correct. Multiple X (triple X) syndrome, karyotype 47,XXX, is trisomy of the X chromosome — three X chromosomes instead of the normal two.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## correct_answer
+D
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name multiple X syndrome as trisomy of the X chromosome, against Turner (a monosomy), Klinefelter (a Y-bearing trisomy), and Down syndrome (an autosomal trisomy) distractors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q16; DPT HISTO MCQ [Cytogenetics].pdf p2 q16. Manifest src_9cf32ada2b25fa54f0e9, src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-A3B79217AA06
 ## title
 break occurs in either side of Chromosome then rejoined in inverted form
@@ -38022,6 +38666,466 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-104-78ABD26CCB30
+## title
+A patient was diagnosed as having chronic myeloid leukemia. His | condition might be du…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient was diagnosed as having chronic myeloid leukemia. His | condition might be due to:
+## answer_a
+Reciprocal translocation between chromosome 22 and 9. ١ |
+## explanation_a
+Correct. Chronic myeloid leukaemia is classically caused by a reciprocal translocation between chromosomes 9 and 22, which creates the Philadelphia chromosome and fuses the BCR gene (chromosome 22) with the ABL1 gene (chromosome 9), producing a constitutively active BCR-ABL tyrosine kinase that drives uncontrolled myeloid proliferation.
+
+Why this is right:
+- Structural aberrations are abnormalities in chromosome structure.
+## answer_b
+Deletion of short arm of chromosome 4. 0 |
+## explanation_b
+Deletion of the short arm of chromosome 4 causes Wolf-Hirschhorn syndrome, an unrelated congenital disorder, not chronic myeloid leukaemia.
+## answer_c
+Deletion of short arm of chromosome 5
+## explanation_c
+Deletion of the short arm of chromosome 5 causes Cri-du-chat syndrome, an unrelated congenital disorder, not chronic myeloid leukaemia.
+## answer_d
+Centric fusion of chromosomes 14 and 21
+## explanation_d
+Centric (Robertsonian) fusion of chromosomes 14 and 21 is associated with familial translocation Down syndrome, not chronic myeloid leukaemia.
+## correct_answer
+A
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Identify a reciprocal translocation between chromosomes 22 and 9 (the Philadelphia chromosome) as the cause of chronic myeloid leukaemia, against deletion and centric-fusion distractors naming unrelated syndromes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics].pdf p4 q8. Manifest src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-AEA38E4E1753
+## title
+It is absent in Klinefelter syndrome | 9- Addition of a fragmented segment of one chrom…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+It is absent in Klinefelter syndrome | 9- Addition of a fragmented segment of one chromosome to the homologous chromosome is known as:
+## answer_a
+Duplication
+## explanation_a
+Correct. Duplication is the structural aberration in which a fragmented segment of one chromosome becomes added onto its homologous chromosome, so that segment is present in an extra copy.
+
+Why this is right:
+- Structural aberrations are abnormalities in chromosome structure.
+## answer_b
+lsochromosome
+## explanation_b
+An isochromosome results from abnormal transverse (rather than longitudinal) division of the centromere, producing a chromosome with two identical arms — an unrelated mechanism to segment addition between homologues.
+## answer_c
+Translocation
+## explanation_c
+Translocation moves a segment to a non-homologous chromosome, not addition of a segment to its own homologous chromosome.
+## answer_d
+Inversion
+## explanation_d
+Inversion reverses a segment's orientation within the same chromosome, not addition of material from elsewhere.
+## correct_answer
+A
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Cytogenetics — Structural Aberrations
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name duplication as the structural aberration in which a fragmented segment of one chromosome is added to its homologous chromosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p31 q0; EOY 104 exams Not answerd (1) (1).pdf p68 q0. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-FF10B822813C
+## title
+May be due to 47 chromosomes (XXY). 15, Structural aberrations include:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+May be due to 47 chromosomes (XXY). 15, Structural aberrations include:
+## answer_a
+Aneuploidy
+## explanation_a
+Aneuploidy is a numerical chromosomal aberration (an abnormal chromosome count), not a structural one.
+## answer_b
+Deletion. i
+## explanation_b
+Correct. Deletion — the loss of a chromosomal segment — is a classic structural chromosomal aberration, changing chromosome architecture rather than chromosome count.
+
+Why this is right:
+- Structural aberrations are abnormalities in chromosome structure.
+## answer_c
+Turner's syndrome
+## explanation_c
+Turner's syndrome is a clinical condition resulting from a numerical aberration (monosomy X), not itself a category of structural aberration.
+## answer_d
+Klinefelter’s syndrome. , i
+## explanation_d
+Klinefelter's syndrome is a clinical condition resulting from a numerical aberration (an extra X chromosome), not itself a category of structural aberration.
+## correct_answer
+B
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify deletion, rather than aneuploidy or a clinical syndrome, as a category of structural chromosomal aberration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p2 q0. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9FC1BA5A8240
+## title
+Philadelphia chromosome:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Philadelphia chromosome:
+## answer_a
+Translocation between chromosomes 22 & 9. |
+## explanation_a
+Correct. The Philadelphia chromosome arises from a reciprocal translocation between chromosomes 9 and 22, fusing the BCR (chromosome 22) and ABL1 (chromosome 9) genes and driving the constitutively active tyrosine kinase seen in chronic myeloid leukaemia.
+
+Why this is right:
+- Structural aberrations are abnormalities in chromosome structure.
+## answer_b
+Duplication of chromosome 22
+## explanation_b
+The Philadelphia chromosome results from a translocation — an exchange of material between chromosomes 9 and 22 — not a duplication of chromosome 22.
+## answer_c
+Terminal deletion of chromosome 9. |
+## explanation_c
+The Philadelphia chromosome results from a reciprocal translocation, not a terminal deletion.
+## answer_d
+Inversion affecting chromosome 9. ١
+## explanation_d
+The Philadelphia chromosome results from a translocation between two different chromosomes, not an inversion within a single chromosome.
+## correct_answer
+A
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Confirm, against a second, independently-extracted source occurrence, that the Philadelphia chromosome is a reciprocal translocation between chromosomes 22 and 9.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics].pdf p2 q13. Manifest src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-444EACC61FFF
+## title
+Structural aberrations include:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Structural aberrations include:
+## answer_a
+Aneuploidy
+## explanation_a
+Aneuploidy is a numerical, not structural, chromosomal aberration.
+## answer_b
+Deletion.. |
+## explanation_b
+Correct. Deletion — the loss of a chromosomal segment — is a classic structural chromosomal aberration, involving altered chromosome architecture rather than altered chromosome count.
+
+Why this is right:
+- Structural aberrations are abnormalities in chromosome structure.
+## answer_c
+Turners syndrome
+## explanation_c
+Turner's syndrome results from a numerical aberration (monosomy X), not a structural aberration category.
+## answer_d
+Klinefelter’s syndrome. ٠
+## explanation_d
+Klinefelter's syndrome results from a numerical aberration (an extra X chromosome), not a structural aberration category.
+## correct_answer
+B
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Confirm, against a second, independently-extracted source occurrence, that deletion is a structural (not numerical) chromosomal aberration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics].pdf p2 q15. Manifest src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 

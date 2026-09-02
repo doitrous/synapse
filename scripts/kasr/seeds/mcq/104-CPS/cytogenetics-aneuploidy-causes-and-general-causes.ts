@@ -139,5 +139,15 @@ export const LEAF: McqLeafSeed = {
         D: "Simple loss is a chromosome failing to align or lagging, a different mechanism from a chromatid-separation failure producing this specific daughter-cell split.",
       },
     },
+    {
+      key: "cause-non-disjunction-cacb3a17",
+      conceptKey: "chromosomal-aberration.general-causes",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Genuine two-correct-answer ambiguity, not an extraction corruption: the bank's own editorial answer is B (autoimmune disease), but this leaf's own pinned concept (chromosomal-aberration.general-causes, sourced from the same department book) states BOTH 'pregnancy at an advanced maternal age increases the risk of non-disjunction' AND 'autoimmune diseases are usually associated with non-disjunction' as true causes — so option A is exactly as defensible as the credited option B on this leaf's own source material, and the stem gives no way to prefer one over the other (no 'except', no 'best answer' framing, no distinguishing detail). Per the law of priority (register ambiguity as an exclude with a reason, never author around it), left unauthored rather than picking a single answer the source itself does not privilege. The two remaining distractors are genuinely wrong and already well understood: German measles (rubella) causes chromosome fragmentation, a distinct mechanism from non-disjunction, and colchicine inhibits mitotic spindle formation, arresting cells in metaphase rather than causing non-disjunction itself.",
+    },
   ],
 }
