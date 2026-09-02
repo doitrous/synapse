@@ -1,0 +1,552 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch11",
+  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 11 \"Nematoda\" (pp.112-130, 164 items; plain-text ANSWERS table wraps pp.131-132). This lane, author15, read and keyed Q57-110 of 164 -- the chapter's middle window, left open after lane 10 (Q1-56) and lane 13 (Q111-164). Lane 12 had also been dispatched this same Q56-110 window, read and keyed it, then discarded its own authoring pass after misreading the ledger's `ini-mcq-ch11 | 83 | 27 | 0 | 110` row (a sum of only the 110 seeded items of 164) as chapter closure; this lane confirmed the window was genuinely open by reading the source pages directly (pagetext.mjs show, pp.118-124) and cross-checking every fact against the already-landed ch11 seed files (part1-3, pending, c-part1, c-part2, c-held) before authoring anything. Of the 54 items in this window (Q57-110): 19 are authored here (11 on new AUN-INI-105 concepts, 8 reusing 6 already-minted concepts from lanes 10/13); the remaining 35 are held (see the seed's ledger-computed Held section) -- mostly duplicates of items already authored elsewhere in this heavily-recycled chapter (some now a 3rd or 4th recurrence of the same fact), three held for a printed-key conflict against a chapter sibling (Q82, Q89, Q92, matching lane 13's own precedent for Q133/Q140/Q143), and one held for the same 'ONLY larval host' wording ambiguity lane 9 already flagged for ch10-q023.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-INI-105",
+    "module_subject": "AUN-INI-105 > Nematoda",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-INF-AUN-INI105-NEMATODA-6"],
+    "resource_ids": ["src_6f2f4188bb0cbf848733"],
+    "source_citation": "INI MCQ .pdf, Nematoda, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "topic": "Nematoda",
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch11-q058",
+      "page": 118,
+      "title": "Onchocerca volvulus microfilariae are subcutaneous",
+      "question": "Microfilaria of Onchocerca volvulus Present in ?",
+      "options": {
+        "A": "Blood",
+        "B": "Lymphatics",
+        "C": "Subcutaneous",
+        "D": "Serous Cavity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Blood is where the microfilariae of Wuchereria bancrofti, Brugia malayi and Loa loa circulate, not Onchocerca volvulus, whose own microfilariae remain in the skin.",
+        "B": "Incorrect. Lymphatics are the habitat of adult Wuchereria bancrofti and Brugia malayi, not the site where Onchocerca volvulus microfilariae are found.",
+        "C": "Correct. Microfilariae of Onchocerca volvulus are found in the skin and subcutaneous tissue, not circulating in peripheral blood like most other human filarial worms. They migrate through the dermis after being released from adult worms coiled within a fixed subcutaneous nodule, and it is this skin-dwelling location that makes a skin snip, not a blood film, the standard diagnostic sample for onchocerciasis. This same skin-dwelling behaviour is also why Onchocerca volvulus microfilariae show no defined blood periodicity, unlike Wuchereria bancrofti, Brugia malayi or Loa loa, whose microfilariae circulate in blood on a timed schedule.",
+        "D": "Incorrect. A serous cavity is not a recognised site for Onchocerca volvulus microfilariae, which are instead found in the skin and subcutaneous tissue."
+      },
+      "main_concept": "CON-INF-1CE00268409419",
+      "concept_ids": ["CON-INF-1CE00268409419"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-INF-AUN-INI105-NEMATODA-3"],
+      "subtopic": "Onchocerca volvulus",
+      "learning_objective": "State that Onchocerca volvulus microfilariae are found in the skin and subcutaneous tissue, not blood, lymphatics or a serous cavity.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132; reuses lane 10's ini-mcq-ch11-q054 concept CON-INF-1CE00268409419 (Onchocerca volvulus microfilariae are skin-dwelling, hence no blood periodicity) since this item tests the same underlying location fact" },
+      "author_notes": "A later occurrence of this identical stem/options in this chapter (ini-mcq-ch11-q156, already landed) prints a conflicting key (A, Blood) and is held there as held-printed-key-conflict; this occurrence's printed key (C, Subcutaneous) is the textbook-correct one and stands."
+    },
+    {
+      "key": "ini-mcq-ch11-q061",
+      "page": 119,
+      "title": "Adult Loa loa inhabits subcutaneous tissue",
+      "question": "The habitat of adult Loa loa is ?",
+      "options": {
+        "A": "Lymphatics",
+        "B": "Blood",
+        "C": "Serous cavity",
+        "D": "Subcutaneous tissues"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Lymphatics are the habitat of adult Wuchereria bancrofti and Brugia malayi, not Loa loa.",
+        "B": "Incorrect. Blood carries the circulating microfilariae released by the adult worm, not the adult Loa loa itself.",
+        "C": "Incorrect. A serous cavity is not the habitat of adult Loa loa, which instead migrates through subcutaneous and connective tissue.",
+        "D": "Correct. The adult Loa loa worm lives in subcutaneous and connective tissue, migrating slowly through these planes over months to years rather than settling in one fixed site. This migratory subcutaneous habitat is why the worm can sometimes be seen, and even felt, crossing beneath the conjunctiva of the eye, and why it produces transient Calabar swellings wherever it currently passes. This is unlike Wuchereria bancrofti and Brugia malayi, whose adults live fixed within the lymphatics, and unlike Onchocerca volvulus, whose adult becomes sedentary within a fixed subcutaneous nodule rather than continuing to migrate."
+      },
+      "main_concept": "CON-INF-AB7F0FC90B835D",
+      "concept_ids": ["CON-INF-AB7F0FC90B835D"],
+      "contextual_concept_ids": [],
+      "subtopic": "Loa loa",
+      "learning_objective": "State that the adult Loa loa worm inhabits subcutaneous and connective tissue, not lymphatics, blood or a serous cavity.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q062",
+      "page": 119,
+      "title": "Calabar swelling is transient, unlike the Onchocerca nodule",
+      "question": "Calabar swelling differs from Onchocerca nodule in ?",
+      "options": {
+        "A": "Being present in subcutaneous tissues",
+        "B": "Common in Tropical Africa",
+        "C": "Being caused by tissue nematodes",
+        "D": "Transient"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Both Calabar swelling and the Onchocerca nodule occur in subcutaneous tissue, so this is a shared feature, not the distinguishing one.",
+        "B": "Incorrect. Both conditions are common in tropical Africa, so this is a shared feature, not the distinguishing one.",
+        "C": "Incorrect. Both are caused by tissue-dwelling nematodes (Loa loa and Onchocerca volvulus respectively), so this is a shared feature, not the distinguishing one.",
+        "D": "Correct. Calabar swelling, produced by the migrating adult Loa loa, is transient: it appears suddenly, lasts only a few days, and resolves on its own, only to recur elsewhere as the worm continues to move through the tissue. This is unlike the Onchocerca volvulus nodule, which is fixed and persistent, since its adult worm becomes sedentary within the nodule rather than continuing to migrate, so the nodule remains at the same site for as long as the worm survives there. The other three features offered are shared, not distinguishing, since both reactions occur in subcutaneous tissue, both are common in tropical Africa, and both are caused by tissue-dwelling nematodes."
+      },
+      "main_concept": "CON-INF-F024AF54753747",
+      "concept_ids": ["CON-INF-F024AF54753747"],
+      "contextual_concept_ids": ["CON-INF-AB7F0FC90B835D"],
+      "subtopic": "Loa loa and Onchocerca volvulus",
+      "learning_objective": "Identify that Calabar swelling is transient, unlike the fixed nodule of Onchocerca volvulus.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q063",
+      "page": 119,
+      "title": "Ancylostoma is the exception to infection by ingestion of larva",
+      "question": "Those nematodes are infections by ingestion of larva EXCEPT ?",
+      "options": {
+        "A": "Dracunculus medinensis",
+        "B": "Ancylostoma duodenale",
+        "C": "Trichostrongylus colubriformis",
+        "D": "Trichinella"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Dracunculus medinensis is acquired by ingestion of drinking water containing an infected Cyclops carrying the larva, so it is not the exception.",
+        "B": "Correct. Ancylostoma duodenale is the exception: its infective filariform larva actively penetrates intact human skin rather than being swallowed, unlike the other three organisms listed. Dracunculus medinensis is acquired by swallowing drinking water containing an infected Cyclops carrying the larva, Trichostrongylus colubriformis is acquired by ingesting its filariform larva present on contaminated vegetation, and Trichinella spiralis is acquired by ingesting undercooked meat containing its encysted larva. Because Ancylostoma's own portal of entry is the skin rather than the mouth, it stands apart from this otherwise ingestion-based group.",
+        "C": "Incorrect. Trichostrongylus colubriformis is acquired by ingestion of its filariform larva present on contaminated vegetation, so it is not the exception.",
+        "D": "Incorrect. Trichinella spiralis is acquired by ingestion of undercooked meat containing its encysted larva, so it is not the exception."
+      },
+      "main_concept": "CON-INF-8D5BDC5317135A",
+      "concept_ids": ["CON-INF-8D5BDC5317135A"],
+      "contextual_concept_ids": ["CON-INF-873793A1A9183E"],
+      "subtopic": "Comparative nematode transmission routes",
+      "learning_objective": "Identify Ancylostoma duodenale as the exception among nematodes infective by ingestion of a larval stage, since it instead infects by skin penetration.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q065",
+      "page": 119,
+      "title": "Strongyloides stercoralis is diagnosed by larvae, not eggs",
+      "question": "Eggs are the diagnostic stage for the following Parasites EXCEPT ?",
+      "options": {
+        "A": "Fasciola hepatica",
+        "B": "Schistosoma mansoni",
+        "C": "Strongyloides stercoralis",
+        "D": "Ascaris lumbricoides"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Fasciola hepatica is diagnosed by finding its characteristic egg in stool or duodenal aspirate, so it is not the exception.",
+        "B": "Incorrect. Schistosoma mansoni is diagnosed by finding its characteristic egg in stool, so it is not the exception.",
+        "C": "Correct. Strongyloides stercoralis is the exception: its diagnostic stage recovered in stool is the rhabditiform larva, not an egg, since the female worm releases larvae directly within the intestinal mucosa rather than passing an egg stage into the lumen. Fasciola hepatica, Schistosoma mansoni and Ascaris lumbricoides are all instead diagnosed by finding their characteristic egg in stool. This larvae-not-eggs diagnostic pattern is one of several features, alongside its capacity for autoinfection and a free-living generation, that sets Strongyloides stercoralis apart from the other intestinal helminths in this chapter.",
+        "D": "Incorrect. Ascaris lumbricoides is diagnosed by finding its characteristic egg in stool, so it is not the exception."
+      },
+      "main_concept": "CON-INF-A15A4D2A82ECD0",
+      "concept_ids": ["CON-INF-A15A4D2A82ECD0"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-INF-AUN-INI105-NEMATODA-2"],
+      "subtopic": "Strongyloides stercoralis",
+      "learning_objective": "Identify Strongyloides stercoralis as the exception whose diagnostic stage is the larva, not an egg.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132; reuses lane 10's ini-mcq-ch11-q035 concept CON-INF-A15A4D2A82ECD0 (Strongyloides differs from Ancylostoma in shedding rhabditiform larvae, not eggs, in stool)" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q066",
+      "page": 119,
+      "title": "Trichostrongylus does not invade the lung",
+      "question": "larvae of the following nematodes can invade the lung EXCEPT ?",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Trichostrongylus colubriformis",
+        "C": "Strongyloides Stercoralis",
+        "D": "Ancylostoma duodenale"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ascaris lumbricoides larvae migrate through the lungs as part of their normal hepato-pulmonary migratory phase, so it is not the exception.",
+        "B": "Correct. Trichostrongylus colubriformis is the exception: because man swallows its already-infective filariform larva directly from contaminated vegetation, the larva has no need to penetrate tissue or migrate through the bloodstream and lungs before reaching the small intestine, unlike the skin- or tissue-invasive nematodes in this chapter. Ascaris lumbricoides, Strongyloides stercoralis and Ancylostoma duodenale all instead undergo an obligatory pulmonary migratory phase, travelling from the gut wall or skin through the bloodstream to the lungs, up the airway, and back down to the small intestine after being swallowed again. This shared oral, non-migratory route is the same reason Trichostrongylus colubriformis is also the exception when this group is instead tested by portal of entry, since its larva enters by ingestion rather than skin penetration.",
+        "C": "Incorrect. Strongyloides stercoralis larvae migrate through the lungs on their way to the small intestine, so it is not the exception.",
+        "D": "Incorrect. Ancylostoma duodenale larvae migrate through the lungs after penetrating the skin, so it is not the exception."
+      },
+      "main_concept": "CON-INF-873793A1A9183E",
+      "concept_ids": ["CON-INF-873793A1A9183E"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-INF-AUN-INI105-NEMATODA-2"],
+      "subtopic": "Trichostrongylus colubriformis",
+      "learning_objective": "Identify Trichostrongylus colubriformis as the exception whose larva does not migrate through the lung.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132; reuses lane 10's ini-mcq-ch11-q017/q038 concept CON-INF-873793A1A9183E (Trichostrongylus's oral portal of entry), extended here to its consequence for lung migration" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q067",
+      "page": 119,
+      "title": "Hookworm is controlled by wearing shoes",
+      "question": "Recommendation for control of human hook worms ?",
+      "options": {
+        "A": "Through washing of raw vegetables",
+        "B": "Wearing shoes",
+        "C": "Deworming of dogs",
+        "D": "Use of insecticides to control flies"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Washing raw vegetables helps prevent ingestion-borne infections such as Ascaris or Trichuris, not hookworm, which is acquired through the skin rather than by ingestion.",
+        "B": "Correct. Because Ancylostoma duodenale infects man when its infective filariform larva penetrates bare skin in contact with contaminated soil, wearing shoes is the standard recommendation for controlling human hookworm, since it physically blocks that skin-penetration route. This measure targets the parasite's own specific portal of entry, rather than a general hygiene practice, which is why it is more effective for hookworm control than measures aimed at entirely different parasites. Sanitary disposal of faeces, to reduce soil contamination with eggs in the first place, is the complementary public-health measure alongside footwear.",
+        "C": "Incorrect. Deworming dogs addresses zoonotic parasites such as Ancylostoma caninum (a cause of cutaneous larva migrans), not the human hookworm Ancylostoma duodenale.",
+        "D": "Incorrect. Insecticide control of flies is unrelated to hookworm, which is transmitted by direct skin penetration of a soil-dwelling larva, not by a fly vector."
+      },
+      "main_concept": "CON-INF-386D2DD9ADCBD1",
+      "concept_ids": ["CON-INF-386D2DD9ADCBD1"],
+      "contextual_concept_ids": [],
+      "subtopic": "Ancylostoma duodenale",
+      "learning_objective": "State that wearing shoes is the standard control recommendation for human hookworm, since it blocks skin penetration by the infective larva.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q068",
+      "page": 119,
+      "title": "W. bancrofti infects via larva in the mosquito's proboscis",
+      "question": "Infection with Wuchereria bancrofti occurs by ?",
+      "options": {
+        "A": "Microfilaria in the Proboscis of Culex",
+        "B": "Microfilaria in the Proboscis of Anopheles",
+        "C": "Larva in the proboscis Of Culex",
+        "D": "Larva in the Proboscis of Simulium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The microfilaria itself is not the infective stage transmitted to man; it must first develop into the filariform larva within the mosquito.",
+        "B": "Incorrect. Anopheles mosquitoes are the standard vector for malaria, not the standard vector taught for Wuchereria bancrofti, whose vector is Culex.",
+        "C": "Correct. Man is infected with Wuchereria bancrofti when the infective filariform larva, which develops from the ingested microfilaria within the mosquito's thoracic muscles, migrates to the mosquito's mouthparts (proboscis/labium) and is deposited on the skin during a Culex mosquito's blood meal, from where it actively penetrates the bite wound. It is the larval stage, not the circulating microfilaria itself, that is infective to man, since the microfilaria must first develop into the filariform larva within the mosquito before transmission can occur. Culex, a culicine mosquito, is the standard vector taught for Wuchereria bancrofti, distinguishing this route from the vectors and mouthpart locations tested for other filariae in this chapter.",
+        "D": "Incorrect. Simulium (the blackfly) is the vector of Onchocerca volvulus, not Wuchereria bancrofti, which is transmitted by Culex."
+      },
+      "main_concept": "CON-INF-3C9F720722D14E",
+      "concept_ids": ["CON-INF-3C9F720722D14E"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-INF-AUN-INI105-NEMATODA-3"],
+      "subtopic": "Wuchereria bancrofti",
+      "learning_objective": "State that Wuchereria bancrofti infects man via the filariform larva deposited by Culex's mouthparts, not the microfilaria itself.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132; reuses lane 10's ini-mcq-ch11-q050 concept CON-INF-3C9F720722D14E (filariform larva infective stage in the mosquito's labium/mouthparts)" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q069",
+      "page": 120,
+      "title": "Baermann's technique detects Ancylostoma larvae in soil",
+      "question": "A technique used to detect larvae of Ancylostoma in the soil is ?",
+      "options": {
+        "A": "Knott's technique",
+        "B": "Stoll's technique",
+        "C": "Baermann's technique",
+        "D": "None of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Knott's technique is used to concentrate microfilariae from a blood sample, not to detect larvae in soil.",
+        "B": "Incorrect. Stoll's technique is a dilution egg-counting method applied to a faecal sample, not a soil-larvae detection method.",
+        "C": "Correct. Baermann's technique is used to detect and recover Ancylostoma larvae from soil samples: a soil sample is suspended over warm water, and the larvae, drawn by their own active motility and thermotropism, migrate out of the soil and sediment in the water below, where they can be collected and examined. This technique specifically exploits the larva's living behaviour, which is why it works only for a viable, motile larval stage rather than for eggs. Knott's technique instead concentrates microfilariae from a blood sample, and Stoll's technique is a dilution egg-count method applied to faeces, so neither is the soil-based method being tested here.",
+        "D": "Incorrect. Baermann's technique (option C) is the correct soil-larvae detection method, so 'none of the above' is wrong."
+      },
+      "main_concept": "CON-INF-5D62EBBD25C831",
+      "concept_ids": ["CON-INF-5D62EBBD25C831"],
+      "contextual_concept_ids": [],
+      "subtopic": "Ancylostoma duodenale diagnosis",
+      "learning_objective": "Identify Baermann's technique as the method used to detect Ancylostoma larvae in soil.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q072",
+      "page": 120,
+      "title": "Strongyloides stercoralis patients pass larvae in stool",
+      "question": "Patients infected with the following parasite pass larvae in the stools ?",
+      "options": {
+        "A": "Trichostrongylus colubriformis",
+        "B": "Strongyloides stercoralis",
+        "C": "Cryptosporidium",
+        "D": "Isospora belli"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Trichostrongylus colubriformis is diagnosed by finding its egg in stool, not larvae.",
+        "B": "Correct. Patients infected with Strongyloides stercoralis pass rhabditiform larvae, not eggs, in their stool, since the adult female releases larvae directly within the intestinal mucosa rather than laying an egg that is shed into the lumen. This larvae-in-stool finding is the standard diagnostic feature for strongyloidiasis and is also the basis of the parasite's own capacity for autoinfection, since some of these larvae can moult to the infective filariform stage before ever leaving the bowel or perianal skin. Trichostrongylus colubriformis, by contrast, is diagnosed by its egg, and Cryptosporidium and Isospora belli, both protozoa, are diagnosed by their oocysts, not by helminth larvae.",
+        "C": "Incorrect. Cryptosporidium is a protozoan diagnosed by its oocyst in stool, not by helminth larvae.",
+        "D": "Incorrect. Isospora belli is a protozoan diagnosed by its oocyst in stool, not by helminth larvae."
+      },
+      "main_concept": "CON-INF-A15A4D2A82ECD0",
+      "concept_ids": ["CON-INF-A15A4D2A82ECD0"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-INF-AUN-INI105-NEMATODA-2"],
+      "subtopic": "Strongyloides stercoralis",
+      "learning_objective": "State that Strongyloides stercoralis is the parasite whose infected patients pass larvae, not eggs, in the stool.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132; reuses lane 10's ini-mcq-ch11-q035 concept CON-INF-A15A4D2A82ECD0 a second time in this batch (see Q65)" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q073",
+      "page": 120,
+      "title": "Nematode attachment organs are teeth or plates",
+      "question": "Nematodes are characterized by ?",
+      "options": {
+        "A": "Being elongated and rectangled in cross section",
+        "B": "Having a circulatory system",
+        "C": "Hermaphrodites",
+        "D": "Organs of attachment are teeth or plates"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Nematodes are round, not 'elongated and rectangled,' in cross-section; their name (roundworms) reflects this cylindrical shape.",
+        "B": "Incorrect. Nematodes have no circulatory system at all, unlike some other animal phyla.",
+        "C": "Incorrect. Nematodes have separate sexes (males and females are distinct individuals), unlike the hermaphroditic cestodes and most trematodes.",
+        "D": "Correct. Nematodes are characterised by organs of attachment that are teeth or cutting plates, such as the toothed or plated buccal capsule that hookworms use to grip the intestinal mucosa. Nematodes are round, not rectangled, in cross-section, they possess no circulatory system at all, and, unlike the hermaphroditic cestodes and most trematodes, nematodes have separate sexes rather than being hermaphrodites. Of the four statements offered, only the attachment-organ description correctly applies to this class."
+      },
+      "main_concept": "CON-INF-87584700948565",
+      "concept_ids": ["CON-INF-87584700948565"],
+      "contextual_concept_ids": ["CON-INF-13D403F8A0555C"],
+      "subtopic": "Nematoda classification",
+      "learning_objective": "State that nematodes are characterised by organs of attachment that are teeth or cutting plates.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q074",
+      "page": 120,
+      "title": "Tissue nematode females are larviparous",
+      "question": "Tissue nematodes are characterized by ?",
+      "options": {
+        "A": "The adult worms live in the blood",
+        "B": "The female is larviparous",
+        "C": "A snail is required for their transmission",
+        "D": "The adults are hermaphrodites"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Tissue nematodes' adult worms live in muscle, subcutaneous tissue or the lymphatics depending on species, not circulating in the blood.",
+        "B": "Correct. Tissue nematodes such as Trichinella spiralis, Dracunculus medinensis and the filariae are characterised by a larviparous female, one that releases live first-stage larvae directly rather than laying eggs, unlike the oviparous intestinal nematodes such as Ascaris lumbricoides, Trichuris trichiura and Enterobius vermicularis. This reproductive pattern means the diagnostic finding for these tissue nematodes is a larva (or, for the filariae, a microfilaria), never an egg, which is why muscle biopsy for Trichinella or a blood film for the filariae look for larvae rather than eggs. The adult worms of tissue nematodes do not live in blood, do not require a snail intermediate host (a mollusc-borne cycle instead belongs to the trematodes), and are not hermaphrodites, since nematodes as a class have separate sexes.",
+        "C": "Incorrect. A snail intermediate host is a feature of trematode life cycles, not of tissue nematodes, none of which requires a mollusc intermediate host.",
+        "D": "Incorrect. Nematodes, including tissue nematodes, have separate sexes and are not hermaphrodites, unlike the cestodes."
+      },
+      "main_concept": "CON-INF-AB7240400CE546",
+      "concept_ids": ["CON-INF-AB7240400CE546"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-INF-AUN-INI105-NEMATODA-1"],
+      "subtopic": "General nematode biology",
+      "learning_objective": "State that tissue nematodes are characterised by a larviparous female, unlike the oviparous intestinal nematodes.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132; reuses lane 10's ini-mcq-ch11-q005/q006 concept CON-INF-AB7240400CE546 (oviparous vs viviparous/larviparous nematodes)" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q080",
+      "page": 121,
+      "title": "Enterobius is never transmitted by skin penetration",
+      "question": "Enterobias is not transmitted by ?",
+      "options": {
+        "A": "Skin penetration",
+        "B": "Inhalation",
+        "C": "Ingestion",
+        "D": "Autoinfection"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Enterobius vermicularis is never transmitted by skin penetration, since it has no larval stage adapted to penetrate intact skin, unlike the hookworms and Strongyloides stercoralis tested elsewhere in this chapter. It is instead transmitted by ingestion of the mature (embryonated) egg, by inhalation of airborne eggs shed from contaminated dust or bedding, and by autoinfection (retrofection), in which larvae hatching on the perianal skin migrate back through the anus to mature. This absence of a skin-penetrating stage is consistent with Enterobius's unusually short, direct life cycle, which has no obligatory external development or tissue migration at all.",
+        "B": "Incorrect. Enterobius vermicularis can be transmitted by inhalation of airborne eggs shed from contaminated dust, bedding or clothing.",
+        "C": "Incorrect. Enterobius vermicularis is classically transmitted by ingestion of the mature egg, typically via contaminated hands or fomites.",
+        "D": "Incorrect. Enterobius vermicularis is transmitted by autoinfection (retrofection), in which larvae hatching on the perianal skin migrate back into the anus."
+      },
+      "main_concept": "CON-INF-29A32AAEE04DD8",
+      "concept_ids": ["CON-INF-29A32AAEE04DD8"],
+      "contextual_concept_ids": ["CON-INF-A40D261834938C"],
+      "subtopic": "Enterobius vermicularis",
+      "learning_objective": "State that Enterobius vermicularis is transmitted by ingestion, inhalation and autoinfection, but never by skin penetration.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q098",
+      "page": 123,
+      "title": "Wuchereria bancrofti: vector, infective stage, clinical picture and diagnosis",
+      "question": "The following is correct about Wuchereria bancrofti ?",
+      "options": {
+        "A": "Female mosquitoes of the genera Culex,Aedes,and Anopheles are the vectors",
+        "B": "The infective stage is the filariform larva",
+        "C": "Edema and elephantiasis usually affect the lower limbs",
+        "D": "Diagnosed by demonstration of microfilaria in peripheral blood",
+        "E": "All of the above"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect alone. It is true that culicine mosquitoes, including Culex, Aedes and Anopheles species in various settings, transmit Wuchereria bancrofti, but this is only one of four jointly true statements offered.",
+        "B": "Incorrect alone. It is true that the filariform larva is the infective stage of Wuchereria bancrofti, but this is only one of four jointly true statements offered.",
+        "C": "Incorrect alone. It is true that oedema and elephantiasis from Wuchereria bancrofti usually affect the lower limbs, but this is only one of four jointly true statements offered.",
+        "D": "Incorrect alone. It is true that Wuchereria bancrofti is diagnosed by demonstrating microfilariae in peripheral blood, but this is only one of four jointly true statements offered.",
+        "E": "Correct. All four statements about Wuchereria bancrofti are individually true: it is transmitted by culicine mosquitoes, chiefly Culex but also Aedes and Anopheles in some endemic settings; its infective stage is the filariform larva deposited on the skin during a mosquito bite; its chronic lymphatic disease classically produces oedema and elephantiasis most often affecting the lower limbs; and it is diagnosed by demonstrating microfilariae in a peripheral blood film, best timed to the parasite's nocturnal periodicity. Because each of these four facts about vector, infective stage, clinical picture and diagnosis is independently correct, 'all of the above' is the intended combined answer rather than any single statement alone."
+      },
+      "main_concept": "CON-INF-B421F371CC3D06",
+      "concept_ids": ["CON-INF-B421F371CC3D06"],
+      "contextual_concept_ids": ["CON-INF-3C9F720722D14E"],
+      "subtopic": "Wuchereria bancrofti",
+      "learning_objective": "State, as an integrated summary, that Wuchereria bancrofti is transmitted by culicine mosquitoes, has a filariform infective larva, classically causes lower-limb elephantiasis, and is diagnosed by peripheral blood microfilariae.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q102",
+      "page": 124,
+      "title": "Retrofection is Enterobius's own form of autoinfection",
+      "question": "Retrofection occurs in infection with ?",
+      "options": {
+        "A": "Strongyloides stercoralis",
+        "B": "Taenia solium",
+        "C": "Enterobius vermicularis",
+        "D": "All of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Strongyloides stercoralis undergoes internal autoinfection, a distinct intraluminal mechanism, not retrofection, which is the specific term for Enterobius vermicularis's perianal-skin route.",
+        "B": "Incorrect. Taenia solium's life cycle has no retrofection mechanism; man can become an accidental intermediate host by ingesting its eggs, a different process entirely.",
+        "C": "Correct. Retrofection is the specific term for Enterobius vermicularis's own form of autoinfection: eggs laid on the perianal skin by the gravid female can hatch there, and the newly hatched larvae migrate back through the anus into the rectum to mature, entirely at and outside the perianal skin surface. This external route is distinct from Strongyloides stercoralis's internal autoinfection, in which rhabditiform larvae shed within the intestinal lumen itself moult directly to the infective filariform stage before ever reaching the perianal skin, and it has no counterpart in Taenia solium, whose life cycle involves no comparable self-reinfection mechanism of this kind. Because retrofection specifically names Enterobius's own perianal-skin mechanism, it is not a general term shared with Strongyloides's different, internal route.",
+        "D": "Incorrect. Retrofection specifically names Enterobius vermicularis's own mechanism, not a term shared by Strongyloides stercoralis or Taenia solium, so 'all of the above' is wrong."
+      },
+      "main_concept": "CON-INF-5071C8E891935D",
+      "concept_ids": ["CON-INF-5071C8E891935D"],
+      "contextual_concept_ids": ["CON-INF-A15A4D2A82ECD0"],
+      "subtopic": "Enterobius vermicularis and Strongyloides stercoralis",
+      "learning_objective": "Distinguish Enterobius vermicularis's retrofection from Strongyloides stercoralis's internal autoinfection.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q103",
+      "page": 124,
+      "title": "Man is also a blind host in trichiniasis",
+      "question": "In hydatid disease, man is a blind host for the parasite as in ?",
+      "options": {
+        "A": "Trichiniasis",
+        "B": "Enterobiasis",
+        "C": "Ascariasis",
+        "D": "Taeniasis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Man is a 'blind' (dead-end) intermediate host for Echinococcus granulosus in hydatid disease, since the hydatid cyst that forms in his tissue is not naturally eaten by the dog definitive host, so the parasite's cycle cannot continue onward from man. Trichiniasis (Trichinella spiralis infection) shares this same dead-end pattern: the encysted larvae in human muscle are not, in ordinary circumstances, eaten by another host that would carry the infection forward, so man is likewise a blind host for Trichinella. Enterobiasis, ascariasis and taeniasis, by contrast, each complete their own life cycle within or through man in the ordinary sense, since Enterobius and Ascaris use man as their definitive host and Taenia solium uses man as a genuine, transmission-capable intermediate host, so none of them illustrates this dead-end 'blind host' pattern the way hydatid disease and trichiniasis do.",
+        "B": "Incorrect. Man is the normal definitive host for Enterobius vermicularis, completing its life cycle in the ordinary sense, not a dead-end blind host.",
+        "C": "Incorrect. Man is the normal definitive host for Ascaris lumbricoides, completing its life cycle in the ordinary sense, not a dead-end blind host.",
+        "D": "Incorrect. In taeniasis, man is Taenia solium's genuine definitive host (harbouring the adult worm), not the dead-end 'blind' intermediate-host role being tested here."
+      },
+      "main_concept": "CON-INF-C5335C8176B1C6",
+      "concept_ids": ["CON-INF-C5335C8176B1C6"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"],
+      "subtopic": "Comparative dead-end host relationships",
+      "learning_objective": "Identify trichiniasis as sharing hydatid disease's 'blind' (dead-end) intermediate-host pattern in man.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132; reuses ch10's ini-mcq-ch10-q051 concept CON-INF-C5335C8176B1C6 (man as a blind intermediate host for Echinococcus granulosus), extended here to Trichinella spiralis" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q104",
+      "page": 124,
+      "title": "Rats are a definitive host for H. nana, H. diminuta and Trichinella",
+      "question": "Rats act as a definitive host for ?",
+      "options": {
+        "A": "Hymenolepis nana",
+        "B": "Hymenolepis diminuta",
+        "C": "Trichinella spiralis",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. It is true that rats act as a definitive host for Hymenolepis nana, but this is only one of three jointly true statements offered.",
+        "B": "Incorrect alone. It is true that rats act as a definitive host for Hymenolepis diminuta, via its arthropod intermediate host, but this is only one of three jointly true statements offered.",
+        "C": "Incorrect alone. It is true that rats participate as a host in Trichinella spiralis's sylvatic cycle, but this is only one of three jointly true statements offered.",
+        "D": "Correct. Rats act as a definitive host for all three of Hymenolepis nana, Hymenolepis diminuta and Trichinella spiralis: rodents sustain their own Hymenolepis cycles (H. nana directly, H. diminuta via an arthropod intermediate host) independent of man, and rats also take part in the sylvatic rat-to-rat (and rat-to-pig) cycle that maintains Trichinella spiralis in nature alongside its separate pork-to-man cycle. Because each of these three individual facts is true, 'all of the above' is the intended combined answer rather than any single organism alone. This rodent-reservoir pattern is one reason all three of these parasites are harder to eliminate from an environment than a purely human-cycle parasite such as Enterobius vermicularis."
+      },
+      "main_concept": "CON-INF-18BBEC963B4503",
+      "concept_ids": ["CON-INF-18BBEC963B4503"],
+      "contextual_concept_ids": [],
+      "subtopic": "Comparative helminth reservoir hosts",
+      "learning_objective": "State that rats act as a definitive host for Hymenolepis nana, Hymenolepis diminuta and Trichinella spiralis together.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q106",
+      "page": 124,
+      "title": "Taenia saginata eggs are not infective to man",
+      "question": "The eggs of the following parasites are infective to man when passed in the faeces EXCEPT ?",
+      "options": {
+        "A": "Taenia saginata",
+        "B": "Taenia solium",
+        "C": "Echinococcus granulosus",
+        "D": "Enterobius vermicularis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Taenia saginata eggs are the exception: man cannot act as its intermediate host at all, so its eggs, even if swallowed, cannot establish any infection in man, and are instead infective only to cattle, the species's true intermediate host. Taenia solium eggs and Echinococcus granulosus eggs, by contrast, are both directly infective to man, since man can act as an accidental intermediate host for each, developing cysticercosis or hydatid disease respectively. Enterobius vermicularis eggs are likewise directly infective to man, since man is its normal, only host, and swallowing or inhaling its mature egg establishes ordinary enterobiasis.",
+        "B": "Incorrect. Taenia solium eggs are directly infective to man, since man can act as an accidental intermediate host, developing cysticercosis, so it is not the exception.",
+        "C": "Incorrect. Echinococcus granulosus eggs are directly infective to man, since man can act as an accidental intermediate host, developing hydatid disease, so it is not the exception.",
+        "D": "Incorrect. Enterobius vermicularis eggs are directly infective to man, who is its normal host, so it is not the exception."
+      },
+      "main_concept": "CON-INF-E9A037D4A0E626",
+      "concept_ids": ["CON-INF-E9A037D4A0E626"],
+      "contextual_concept_ids": [],
+      "subtopic": "Comparative helminth egg infectivity",
+      "learning_objective": "Identify Taenia saginata eggs as not infective to man, unlike T. solium, Echinococcus granulosus and Enterobius eggs.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q110",
+      "page": 124,
+      "title": "Cyclops is intermediate host for Dracunculus and both Diphyllobothrium species",
+      "question": "Cyclops acts as intermediate host of ?",
+      "options": {
+        "A": "Dracunculus medinensis",
+        "B": "Diphyllobothrium latum",
+        "C": "Diphyllobthrium mansoni",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. It is true that Cyclops is an intermediate host of Dracunculus medinensis, but this is only one of three jointly true statements offered.",
+        "B": "Incorrect alone. It is true that Cyclops is an intermediate host of Diphyllobothrium latum, but this is only one of three jointly true statements offered.",
+        "C": "Incorrect alone. It is true that Cyclops is an intermediate host of Diphyllobothrium mansoni, but this is only one of three jointly true statements offered.",
+        "D": "Correct. Cyclops, a small freshwater crustacean, acts as an intermediate host for all three of Dracunculus medinensis, Diphyllobothrium latum and Diphyllobothrium mansoni: each species' larva must first develop within an ingested Cyclops before it can go on to infect man, whether directly (Dracunculus, via drinking water) or after a second intermediate host (the two Diphyllobothrium species, via fish). Because each of these three individual host relationships is true, 'all of the above' is the intended combined answer. Trichinella spiralis, tested elsewhere in this chapter, is the clear contrast, since it has no Cyclops or other aquatic intermediate host stage at all, being acquired directly by ingesting infected meat."
+      },
+      "main_concept": "CON-INF-96D49B675BE976",
+      "concept_ids": ["CON-INF-96D49B675BE976"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-INF-AUN-INI105-NEMATODA-5"],
+      "subtopic": "Cyclops-borne helminths",
+      "learning_objective": "State that Cyclops acts as an intermediate host for Dracunculus medinensis, Diphyllobothrium latum and Diphyllobothrium mansoni.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132; reuses lane 13's ini-mcq-ch11-q147 concept CON-INF-96D49B675BE976 (Cyclops-borne helminths), phrased here as a positive 'intermediate host of' item rather than lane 13's 'EXCEPT Trichinella' framing -- kept distinct from the held ini-mcq-ch11-q105 (same three organisms, but its 'ONLY larval host' wording is the ambiguous framing lane 9 already flagged for ch10-q023)" },
+      "author_notes": ""
+    }
+  ]
+}
