@@ -385,7 +385,7 @@ This article's evidence chain currently rests on one exam paper rather than a na
 
 
 ## notes
-Seven of the module's 36 SBA questions (Q22, Q23, Q24, Q25, Q26, Q29, Q30) are taught by this article.
+Seven of the module's 36 SBA questions (Q22, Q23, Q24, Q25, Q26, Q29, Q30) are taught by this article. Q24's concept (CON-GIT-E879C58362EAB0) was extended by the git-summer24 cluster to also cover somatostatin's direct inhibitory action on the parietal cell, reused there by git-summer24-q24 — see that concept's own original_wording.
 
 ## field_notes
 sourceProvenance: Fakous campus (Zagazig's second Faculty of Medicine) — see LANE-CARD.md §7.

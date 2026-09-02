@@ -991,7 +991,7 @@ primaryNodeId: No verified canonical taxonomy node supplied; left unguessed rath
 CON-GIT-E879C58362EAB0
 
 ## label
-Somatostatin inhibits gastrin secretion
+Somatostatin inhibits gastrin secretion and directly inhibits parietal cell acid secretion
 
 ## canonical_key
 somatostatin.function.inhibits-gastrin-secretion
@@ -1000,6 +1000,7 @@ somatostatin.function.inhibits-gastrin-secretion
 Gastrin inhibition
 D cell secretion
 Regulation of gastrin release
+Inhibition of gastric HCl secretion
 
 ## arabic_label
 
@@ -1008,13 +1009,13 @@ Regulation of gastrin release
 
 
 ## definition
-Somatostatin, released by antral D cells in response to acid in the antrum, inhibits gastrin secretion from G cells, forming a negative feedback loop that limits acid output once the stomach is already acidic. This is opposite to protein digestive products and gastric distension, both of which stimulate gastrin release, and to caffeine, which stimulates acid secretion by a different, gastrin-independent route.
+Somatostatin, released by antral D cells in response to acid in the antrum, inhibits gastric acid secretion by two routes at once: indirectly, by inhibiting gastrin secretion from G cells, and directly, by binding inhibitory (Gi-coupled) receptors on the parietal cell itself, lowering intracellular cAMP. Together these form the principal negative-feedback brake on gastric acid output, opposite to acetylcholine, histamine and gastrin, all three of which stimulate parietal cell acid secretion (directly or via ECL-cell histamine release), and opposite to protein digestive products and gastric distension, which stimulate gastrin release.
 
 ## explicit_objective
-Identify somatostatin as the inhibitor of gastrin secretion, distinguishing it from the stimulatory effects of protein digestion products, gastric distension and caffeine.
+Identify somatostatin as the principal inhibitor of gastric acid secretion, acting both indirectly (inhibiting gastrin release) and directly on the parietal cell, distinguishing it from the stimulatory effects of acetylcholine, histamine, gastrin, protein digestion products and gastric distension.
 
 ## pitfalls
-Assuming every listed factor in a gastrin-regulation question is stimulatory — somatostatin is the deliberate inhibitory outlier, part of the antral acid-feedback loop, not another trigger for gastrin release.
+Assuming every listed factor in a gastric-secretion regulation question is stimulatory — somatostatin is the deliberate inhibitory outlier, part of the antral acid-feedback loop, not another trigger for gastrin or acid release. Also assuming somatostatin's inhibitory action is confined to the G cell — it acts directly on the parietal cell too, not only indirectly via gastrin.
 
 ## concept_type
 mechanism
@@ -1102,6 +1103,7 @@ ZU_Y1=0.6
 
 ## original_wording
 "Regarding Gastrin hormone secretion which of the following inhibits it? a. Caffeine. b. Stomach distension. c. Somatostatin. d. Protein digestive products." ANSWER: c (hand-drawn-ink key, Fakous GIT final 2024.pdf p.4 Q22)
+"Which of the following factors decreases HCL secretion? a. Acetyl choline (Ach) b. Somatostatin c. histamine d. gastrin" ANSWER: b (hand-drawn-ink key, Fakous GIT Summer 2024.pdf p.13 Q24, render-confirmed) — this second question, from the module's Summer resit, tests somatostatin's direct action on parietal-cell acid secretion rather than its indirect action via gastrin; the definition above was extended to cover both, per the merge tiebreaker (00-START-HERE.md §4: one record answers both without becoming two stapled paragraphs).
 
 ## merge_ids
 

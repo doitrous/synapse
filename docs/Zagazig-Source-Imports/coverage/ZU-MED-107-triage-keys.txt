@@ -1,7 +1,10 @@
-# ZU-MED-107 (GIT and Nutrition) — triage keys, `Fakous GIT final 2024.pdf`
-# <source-slug>-qNN, one per SBA item. The 10 written/essay questions on p.1
-# carry no single-letter key (graded by rubric) and are out of scope this
-# pass — not listed here, see coverage/ZU-MED-107-triage.md "Out of scope".
+# ZU-MED-107 (GIT and Nutrition) — triage keys
+# <source-slug>-qNN, one per SBA item. The 10 written/essay questions on p.1-2
+# of each paper carry no single-letter key (graded by rubric) and are out of
+# scope this pass — not listed here, see coverage/ZU-MED-107-triage.md
+# "Out of scope".
+
+# --- Fakous GIT final 2024.pdf (author1 pass) ---
 
 git-final24-q01
 git-final24-q02
@@ -39,3 +42,41 @@ git-final24-q33
 git-final24-q34
 git-final24-q35
 git-final24-q36
+
+# --- Fakous GIT Summer 2024.pdf (author2 pass) ---
+git-summer24-q01
+git-summer24-q02
+git-summer24-q03
+git-summer24-q04
+git-summer24-q05
+git-summer24-q06
+git-summer24-q07
+git-summer24-q08
+git-summer24-q09
+git-summer24-q10
+git-summer24-q11
+git-summer24-q12
+git-summer24-q13
+git-summer24-q14
+git-summer24-q15
+git-summer24-q16
+git-summer24-q17
+git-summer24-q18
+git-summer24-q19
+git-summer24-q20
+git-summer24-q21
+git-summer24-q22
+git-summer24-q23
+git-summer24-q24
+git-summer24-q25
+git-summer24-q26
+git-summer24-q27
+git-summer24-q28
+git-summer24-q29
+git-summer24-q30
+git-summer24-q31
+git-summer24-q32
+git-summer24-q33
+git-summer24-q34
+git-summer24-q35
+git-summer24-q36

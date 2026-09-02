@@ -28,7 +28,7 @@ node scripts/content/gate.mjs simulate \
 
 ## `ZU-MED-107-git-pending-overlays.md`
 
-11 sparse concept overlays (`+zu`, `+ZU-MED-107`) onto ids that exist only in another
+15 sparse concept overlays (`+zu`, `+ZU-MED-107`) onto ids that exist only in another
 lane's unimported batch — none is in `server/data/medical-library-v1.json` yet (checked
 directly against the JSON). **Apply each row only after its own named source file is
 live**:
@@ -46,8 +46,16 @@ live**:
 | `CON-FND-3806EF570B0A1C` | `docs/Kasr-Source-Imports/concept/103-BMS-mcq-nitrogen-concepts.md` | 103 BMS |
 | `CON-GIT-6CB618DBA50596` | `docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md` | 103 BMS |
 | `CON-FND-880D165894A5EC` | `docs/Kasr-Source-Imports/concept/103-BMS-mcq-protein-concepts.md` | 103 BMS |
+| `CON-FND-0CA8047810DF78` | `docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md` | 103 BMS |
+| `CON-FND-CFB54F33867C57` | `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-metabolism-concepts.md` | AU-MED-102 |
+| `CON-FND-25DCFA3B0D1322` | `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md` | AU-MED-102 |
+| `CON-FND-596FDA58EEEF0A` | `docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md` | 103 BMS |
 
-None of these 11 source files were authored or touched by this lane — they are
-pre-existing pending batches from the Kasr, Alexandria and Mansoura lanes. This file only
-records where each overlay row's target lives so Omar (or a validator lane) applies in
-the right order.
+The first 11 rows were added by the git-final24 cluster; the last 4 by git-summer24
+(2026-09-02). None of these 15 source files were authored or touched by this lane — they
+are pre-existing pending batches from the Kasr, Alexandria and Mansoura lanes. (A 5th
+git-summer24 candidate, CON-FND-906A83DAC6C37F from Helwan's HU-BMS-102, was dropped —
+its own article_ids target does not exist as an authored article anywhere in the corpus,
+a gap in Helwan's own batch; Q9 mints its own concept instead.) This file only records
+where each overlay row's target lives so Omar (or a validator lane) applies in the right
+order.

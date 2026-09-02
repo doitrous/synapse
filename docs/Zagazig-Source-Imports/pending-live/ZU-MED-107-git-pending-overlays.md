@@ -1,5 +1,14 @@
 <!--
-  ZU-MED-107 (GIT and Nutrition) — 11 sparse PENDING-LIVE concept overlays.
+  ZU-MED-107 (GIT and Nutrition) — 15 sparse PENDING-LIVE concept overlays
+  (11 from the git-final24 cluster, 4 added by the git-summer24 cluster:
+  CON-FND-0CA8047810DF78, CON-FND-CFB54F33867C57, CON-FND-25DCFA3B0D1322,
+  CON-FND-596FDA58EEEF0A). A 5th candidate, CON-FND-906A83DAC6C37F (Helwan
+  HU-BMS-102, for Q9's Phase-2 glucuronidation fact), was found by search
+  but dropped: its own `article_ids` (ART-HU-BMS102-PHA-F223P11-
+  BIOTRANSFORMATION-P450-CONJUGATION) does not exist as an authored article
+  anywhere in the corpus — a gap in Helwan's own batch, not fixable from
+  here. Q9 mints its own concept instead (CON-FND-A4DD110313B183, in
+  `concept/ZU-MED-107-git-summer24-concepts.md`).
 
   Every ## id below targets a concept that exists ONLY in another lane's
   unimported batch — none is in server/data/medical-library-v1.json yet
@@ -11,8 +20,14 @@
   the same sparse update, written into <import root>/pending-live/<slug>.md")
   — same logic ZU-MED-106's pending-live overlay file applied. Most targets
   are Kasr's `103-BMS` biochemistry batch (docs/Kasr-Source-Imports/concept/
-  103-BMS-*-concepts.md); one is Alexandria's AU-MED-103, one is Mansoura's
-  MANS-HIS-203.
+  103-BMS-*-concepts.md); others are Alexandria's AU-MED-102/AU-MED-103,
+  Mansoura's MANS-HIS-203, and Helwan's HU-BMS-102.
+
+  4 of the 15 rows carry a "Also tested by the Summer resit's git-summer24-qNN"
+  addendum in field_notes — those target concepts are reused by a second
+  question, in the same cluster (git-final24) or across clusters
+  (git-summer24), without a second overlay row: one concept id, one overlay
+  row, cited by every question in this lane that needs it.
 
   `## label` restates the target's own live-record label verbatim (required
   discriminator). `## universities`/`## modules` are true ID-list columns —
@@ -206,7 +221,7 @@ ZU-MED-107 > GIT and Nutrition > Amino acid metabolism
 103 BMS > Biochemistry > Nitrogen Metabolism
 
 ## field_notes
-zu: Fakous GIT final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q17, "L-Glutamate dehydrogenase is an enzyme for deamination reaction. Which of the following is a character of this reaction? a. Produce ammonia and alpha-keto glutaric acid" (hand-drawn-ink key). Direct match — glutamate dehydrogenase's deamination product (ammonia + alpha-ketoglutarate) is the physiological product the live concept identifies this enzyme by. Found by `find-existing.mjs "glutamate dehydrogenase"`.
+zu: Fakous GIT final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q17, "L-Glutamate dehydrogenase is an enzyme for deamination reaction. Which of the following is a character of this reaction? a. Produce ammonia and alpha-keto glutaric acid" (hand-drawn-ink key). Direct match — glutamate dehydrogenase's deamination product (ammonia + alpha-ketoglutarate) is the physiological product the live concept identifies this enzyme by. Found by `find-existing.mjs "glutamate dehydrogenase"`. Also tested, near-identically, by the Summer resit's git-summer24-q20 ("Which of the following is a character of this reaction? a. Produce ammonia and alpha-keto glutaric acid", same hand-drawn-ink key) — same concept, no second overlay row needed.
 
 ---
 
@@ -229,7 +244,7 @@ ZU-MED-107 > GIT and Nutrition > Urea cycle
 103 BMS > Biochemistry > Nitrogen Metabolism > Urea Cycle
 
 ## field_notes
-zu: Fakous GIT final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q18, "Which one of the following is the rate-limiting enzyme in Urea cycle? c. Carbonyl phosphate synthase I" (hand-drawn-ink key; the paper's own stem/option print "Carbonyl", almost certainly a typo for "Carbamoyl" — kept as printed in the question, per source fidelity). Direct match — the live concept's own label names carbamoyl phosphate synthetase I as the enzyme N-acetylglutamate commits, i.e. the rate-limiting/committed step ZU's question tests. Found by `find-existing.mjs "N-acetylglutamate"` after an exact-spelling search on "carbamoyl phosphate synthase" (matching the printed stem) returned nothing.
+zu: Fakous GIT final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q18, "Which one of the following is the rate-limiting enzyme in Urea cycle? c. Carbonyl phosphate synthase I" (hand-drawn-ink key; the paper's own stem/option print "Carbonyl", almost certainly a typo for "Carbamoyl" — kept as printed in the question, per source fidelity). Direct match — the live concept's own label names carbamoyl phosphate synthetase I as the enzyme N-acetylglutamate commits, i.e. the rate-limiting/committed step ZU's question tests. Found by `find-existing.mjs "N-acetylglutamate"` after an exact-spelling search on "carbamoyl phosphate synthase" (matching the printed stem) returned nothing. Also tested by the Summer resit's git-summer24-q17 ("which one of the following amino acids acts as activator for carbamoylphosphate synthetase I enzyme? a. N-acetyl glutamate", same hand-drawn-ink key) — same concept, no second overlay row needed.
 
 ---
 
@@ -252,7 +267,7 @@ ZU-MED-107 > GIT and Nutrition > Lipid metabolism
 103 BMS > Biochemistry > Lipid Metabolism
 
 ## field_notes
-zu: Fakous GIT final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q19, "Lipoprotein lipase secreted post-prandial helping digestion of lipids. This enzyme is characterized by which of the following? d. Hydrolyses TAG in chylomicrons" (hand-drawn-ink key). Direct match — the live concept's own label states this enzyme empties triacylglycerol-rich particles (chylomicrons among them) at the capillary wall. Found by `find-existing.mjs "lipoprotein lipase"`.
+zu: Fakous GIT final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q19, "Lipoprotein lipase secreted post-prandial helping digestion of lipids. This enzyme is characterized by which of the following? d. Hydrolyses TAG in chylomicrons" (hand-drawn-ink key). Direct match — the live concept's own label states this enzyme empties triacylglycerol-rich particles (chylomicrons among them) at the capillary wall. Found by `find-existing.mjs "lipoprotein lipase"`. Also tested by the Summer resit's git-summer24-q18 ("Post-prandial turbidity occurs after ingestion of lipid meal... b. Lipoprotein lipase", same hand-drawn-ink key) — same concept, no second overlay row needed.
 
 ---
 
@@ -275,4 +290,96 @@ ZU-MED-107 > GIT and Nutrition > Amino acid metabolism
 103 BMS > Biochemistry > Nitrogen Metabolism
 
 ## field_notes
-zu: Fakous GIT final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q7, "Ammonia (NH3) is detoxified in the brain in the form of which of the following? b. Glutamine" (hand-drawn-ink key). Direct match — the live concept's own label states ammonia travels as glutamine from brain exactly. Found by `find-existing.mjs "glutamine"`.
+zu: Fakous GIT final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q7, "Ammonia (NH3) is detoxified in the brain in the form of which of the following? b. Glutamine" (hand-drawn-ink key). Direct match — the live concept's own label states ammonia travels as glutamine from brain exactly. Found by `find-existing.mjs "glutamine"`. Also tested, near-verbatim, by the Summer resit's git-summer24-q08 (identical stem, same hand-drawn-ink key) — same concept, no second overlay row needed.
+
+---
+
+# Item
+
+## id
+CON-FND-0CA8047810DF78
+
+## label
+Complexes I, III and IV pump the protons; the gradient they build is what drives ATP synthase
+
+## universities
++zu
+
+## modules
++ZU-MED-107
+
+## module_subject
+ZU-MED-107 > GIT and Nutrition > Bioenergetics
+103 BMS > Biochemistry > Bioenergetics > Generation of High Energy Phosphate Bonds
+
+## field_notes
+zu: Fakous GIT Summer 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q1, "What is the direction of the movement of protons through ATP synthase? c. Intermembrane space to the matrix" (hand-drawn-ink key, render-confirmed). Direct match — the live concept's own definition states protons return through the F0 channel of ATP synthase from the intermembrane space to the matrix, exactly the direction ZU's question tests. Found by `find-existing.mjs "ATP synthase"`.
+
+---
+
+# Item
+
+## id
+CON-FND-CFB54F33867C57
+
+## label
+Cyanide poisoning is fatal because it blocks cytochrome oxidase (Complex IV), stopping oxidative phosphorylation despite normal oxygen delivery
+
+## universities
++zu
+
+## modules
++ZU-MED-107
+
+## module_subject
+ZU-MED-107 > GIT and Nutrition > Bioenergetics
+AU-MED-102 > Biochemistry > Bioenergetics > Electron transport chain inhibitors
+
+## field_notes
+zu: Fakous GIT Summer 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q2, "Cyanide inhibits electron transport chain at which of the following? d. Complex IV" (hand-drawn-ink key, render-confirmed). Direct match — the live concept's own definition names Complex IV (cytochrome c oxidase) as cyanide's site of block. Found by `find-existing.mjs "cyanide"`.
+
+---
+
+# Item
+
+## id
+CON-FND-25DCFA3B0D1322
+
+## label
+Digestive proteases cleave peptide bonds at specific residues -- pepsin at the bond formed by an aromatic amino acid's amino group, trypsin at the bond formed by a basic amino acid's carboxyl group
+
+## universities
++zu
+
+## modules
++ZU-MED-107
+
+## module_subject
+ZU-MED-107 > GIT and Nutrition > Bioenergetics
+AU-MED-102 > Biochemistry > Biomolecules > Enzyme classification
+
+## field_notes
+zu: Fakous GIT Summer 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q19, "Which of the following enzymes is an endopeptidase acting on the peptide linkage between arginine & lysine amino acids? b. Trypsin" (hand-drawn-ink key, render-confirmed). Direct match — the live concept's own definition states trypsin cleaves at the carboxyl side of basic amino acids (lysine, arginine), exactly the specificity ZU's question tests. Found by `find-existing.mjs "trypsin"`.
+
+---
+
+# Item
+
+## id
+CON-FND-596FDA58EEEF0A
+
+## label
+The Cori cycle carries lactate from muscle and red cells to the liver, which makes glucose from it and sends it back
+
+## universities
++zu
+
+## modules
++ZU-MED-107
+
+## module_subject
+ZU-MED-107 > GIT and Nutrition > Bioenergetics
+103 BMS > Biochemistry > Carbohydrate Metabolism > Gluconeogenesis
+
+## field_notes
+zu: Fakous GIT Summer 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q11, "Fasting for more than 18 hours encouraged the process of gluconeogenesis, lactate formed in muscles can be utilized through which of the following cycles? d. Cori's cycle" (hand-drawn-ink key, render-confirmed). Direct match — the live concept's own definition states the Cori cycle carries lactate from muscle to the liver for gluconeogenesis, exactly the route ZU's question tests. Found by `find-existing.mjs "Cori"`.

@@ -140,18 +140,116 @@ ultrastructural feature (apical zymogen granules) Q35 tests — genuinely distin
 objective, cross-referenced in the new concept's `rejected_merge_candidate_ids` rather
 than merged; the live record's own back-link is owed (not edited by this pass).
 
-## The other 2 Fakous GIT sources (not this pass)
+## Source: `Fakous GIT Summer 2024.pdf` (author2 pass)
 
-- `Fakous GIT Summer 2024.pdf` (resit paper) — `pagetext.mjs status` reports
-  `garbled=yes` on all pages sampled (p1-20), unlike the Final paper. Needs OCR before
-  triage; not attempted this pass (LANE-CARD.md §1 sequence is Final paper first, then
-  Summer).
-- `GIT Module - Practical revision 2.pdf` (35 MB, large) — spot-checked `status` on
-  pp.41-70: mixed `garbled=yes`/`garbled=no`, very low word counts even on non-garbled
-  pages (0-23 words), consistent with an image-heavy practical/OSPE-style file. Not
-  triaged this pass; flagged for a future pass to confirm whether it holds any
-  letter-option MCQ content at all, per LANE-CARD.md §1 item 3 ("skip image-identification
-  stations").
+The module's resit exam paper. 20 pages, `pagetext.mjs status` reports `garbled=yes`
+(0 words) on every page — unlike the Final paper, this scan's text layer is unusable as-is.
+OCR'd in full in the foreground (`pagetext.mjs ocr --pages 1-10` then `--pages 11-20`,
+two chunks), then read with `show`. 46 questions total: 10 short-essay questions
+(pp.1-2) + 36 single-best-answer MCQs (pp.3-18), the same 36 SBA/10 essay/72-mark
+structure as the Final paper. Pages 19-20 are a trailing watermark/footer, no content.
+
+### Key-recovery method
+
+The same hand-drawn-ink trap named in LANE-CARD.md §7 and confirmed on the Final paper:
+`pagetext.mjs keys` reports "no text layer — keys need ocr+render" (the OCR text layer
+does exist but the tool still needs a render to attribute marks) — the correct option is
+marked by a diagonal pen stroke through its letter, added before scanning, which
+corrupts that option's leading glyph in the OCR output itself (e.g. "c." reads as "ff",
+"b." reads as "#" or "go", "d." reads as "A." or "MA."). Every one of the 36 SBA answers
+was first read from this OCR-corruption pattern, then **render-confirmed independently**
+(`pagetext.mjs render --force`, one render per page, pp.3-18 — 16 renders total) by
+viewing the rendered PNG and reading the pen mark directly. All 16 renders matched the
+OCR-inferred key exactly, with no discrepancies.
+
+### Checkpoint table
+
+| Source | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|--:|--:|--:|--:|--:|--:|---|
+| `Fakous GIT Summer 2024.pdf` | 46 (10 written + 36 SBA) | 36/36 SBA legible + render-confirmed (0 held); written = essay, no single-letter key | 36 questions on 35 distinct concepts (Q24 shares Q22's own git-final24 concept, extended rather than duplicated) — 5 reused directly from git-final24's own zu overlays, 4 new pending overlays, 1 new live overlay, 26 new | 1 | 4 | 26 | `fnd`/`pharm` (bioenergetics, vitamins, heme synthesis, nitrogen metabolism, xenobiotic metabolism), `gi` (gastric/intestinal regulation, hepatobiliary/pancreatic anatomy, GI histology) |
+
+**36/36 = 100% of the Summer resit's SBA items keyed with real, legible stems and
+render-confirmed** — no held items this pass, unlike the Final paper's one indefensible
+double-mark.
+
+### Concept search — 5 reused (own overlays), 1 live-hit, 4 pending-hit, 26 new
+
+`find-existing.mjs` run for every distinct concept before minting. 5 of the 36 questions
+land on concepts already overlaid onto zu/ZU-MED-107 by this lane's own `git-final24`
+cluster — reused directly, no new overlay row needed: Q8 (ammonia/glutamine), Q17
+(N-acetylglutamate/CPS1), Q18 (lipoprotein lipase), Q20 (glutamate dehydrogenase). A
+5th, Q24 (`Which of the following factors decreases HCL secretion? Somatostatin`), lands
+on the *same* concept `git-final24`'s Q22 already overlaid (`CON-GIT-E879C58362EAB0`,
+"Somatostatin inhibits gastrin secretion") but tests a materially different fact (direct
+parietal-cell inhibition, not just gastrin suppression) — resolved by **extending that
+concept's own definition** in `concept/ZU-MED-107-git-concepts.md` to cover both
+mechanisms, per the merge tiebreaker (00-START-HERE.md §4), rather than minting a
+near-duplicate.
+
+4 pending hits (Kasr 103-BMS, Alexandria AU-MED-102) are sparse pending-live overlays
+added to the existing `pending-live/ZU-MED-107-git-pending-overlays.md`: ATP synthase
+proton direction (Q1), cyanide/Complex IV (Q2), Cori cycle (Q11 — a *different* Kasr
+concept from the one `git-final24` used elsewhere in this same module, since that paper
+never asked a Cori cycle question), trypsin specificity (Q19). A 5th candidate (Helwan
+HU-BMS-102, for Q9's glucuronidation fact) was found but **dropped** — its own
+`article_ids` target does not exist as an authored article anywhere in the corpus, a gap
+in Helwan's own batch, not fixable from here; Q9 mints its own concept instead.
+
+1 live hit: Q36 ("Chief cells... secrete pepsinogen") overlays the same live concept
+(`CON-GIT-E10E05FE786B9A`) the Final paper's own triage considered and rejected merging
+for a *different* Final-paper question (Q35, "apical zymogen granules" — an
+ultrastructural fact, not the secretory-product fact this Summer question tests) — here
+the fact genuinely matches, so it is overlaid, not minted, unlike that earlier near-miss.
+
+26 new concepts minted (`concept/ZU-MED-107-git-summer24-concepts.md`), covered by 5 new
+articles (`article/ZU-MED-107-git-summer24-articles.md`): a carbohydrate/energy-metabolism
+article (TCA yield, erythrocyte tissue restriction, odd-chain fatty acid gluconeogenesis,
+anaerobic glycolysis yield, glycogen phosphorylase, McArdle disease — 6 concepts), a
+vitamins/nitrogen article (vitamin E, ALA synthase/B6, urea cycle localisation, lead
+porphyria, proline transamination exception, glucuronidation — 6 concepts), a GI
+regulation article (Meissner's plexus, lingual lipase, gastric H+ active transport, VIP,
+gastric emptying, vomiting mechanics, specific dynamic action, mucosal prostaglandins — 8
+concepts), a GI anatomy article (portal vein pressure, splenic artery/duodenum,
+hepatopancreatic ampulla, internal anal sphincter — 4 concepts), and a GI histology
+article (sublingual gland, esophagus epithelium — 2 concepts).
+
+### A defensible reading of an apparently-wrong key — Q35, esophageal epithelium
+
+Q35's marked key ("a. Lined by simple columnar epithelium") is, read as a blanket claim
+about the whole esophagus, medically wrong — the esophagus is lined predominantly by
+stratified squamous non-keratinised epithelium; option "c. Contains striated muscles"
+is also a true statement (upper third). Render-confirmed as a single, unambiguous mark
+on option a (no second mark, unlike the Final paper's held Q20), so this does not qualify
+as `held-indefensible-key` under LANE-CARD.md §7's own test (recoverable, not
+unrecoverable). Per 00-START-HERE.md's answer-key ruling ("a printed key on a real exam
+paper stands as printed, full stop, even if it looks wrong... explanation_<correct>
+teaches the correct reasoning and names the discrepancy explicitly"), option a is kept as
+`correct` and its explanation states the genuine, narrower fact the option supports: the
+esophagus's short terminal segment at the gastroesophageal junction does transition to
+simple columnar epithelium matching the adjacent gastric mucosa, distinct from (and not
+contradicting) its predominant stratified squamous lining stated in the same explanation.
+
+### Printed typos kept as printed (lane1 precedent continued)
+
+Q12's option c prints "Porpionyl CoA" — almost certainly a typo for "Propionyl CoA" —
+kept as printed in the question option text; the concept and explanation state the
+correct name. Q25's stem prints "vasoactive intestinal Histamine peptide (VIP)" — almost
+certainly a typo for "vasoactive intestinal peptide" — kept as printed; the concept and
+explanation name VIP correctly without the spurious "Histamine".
+
+## Source: `GIT Module - Practical revision 2.pdf` (verdict logged, not triaged)
+
+Confirmed this pass, per LANE-CARD.md §1 item 3's authoring rule ("if under ~35
+authored, confirm whether... otherwise log the verdict") — 36 SBA questions were already
+authored from the Summer resit paper above, above the ~35 threshold, so this second
+source was not triaged for authoring, only spot-read to confirm the verdict.
+`pagetext.mjs status` on pp.1-70 (the full opening run, not just a sample): a
+`garbled=no`/`garbled=yes` checkerboard with very low word counts even on clean pages
+(0-23 words). `show` on pp.1, 4-6 confirms the content directly: page 1 reads "HISTOLOGY
+OF GASTRO-INTESTINAL TRACT" as a title slide, and pp.4-6 read "Oral Cavity" / "5" /
+"(filliform papillae)" — single-word image captions on a histology slide deck, not
+letter-option MCQ content. **Verdict: no MCQ content; image-identification/practical
+atlas format, skipped per LANE-CARD.md §1 item 3.** Not triaged further.
 
 ## Skipped per LANE-CARD.md §1
 
