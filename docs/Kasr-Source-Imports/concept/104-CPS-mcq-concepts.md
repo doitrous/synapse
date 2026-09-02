@@ -55,7 +55,7 @@
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 43 questions, 11 concepts
-    Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
+    Physiology Respiratory System — Non-Chemical Control of Respiration — 26 questions, 5 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Cardiovascular System — Endothelium and Vasoactive Hormones — 12 questions, 5 concepts
@@ -9924,14 +9924,15 @@ kau
 ## exam_signal
 src_5465875dc14a998b7b21 | question_book | | p12 | 104 CPS
 src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p22 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p23 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p45 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -10036,6 +10037,9 @@ src_ab84e963639b236e0951 | question_book | | p23 | 104 CPS
 src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p44 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p41 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p21 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
 ## article_ids
 +ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
 ## field_notes
@@ -10055,6 +10059,9 @@ chemoreceptors-respiratory.central-and-peripheral-drive-contributions
 src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p44 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p42 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p45 | 104 CPS
 ## article_ids
 +ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
 ## field_notes
@@ -10076,6 +10083,139 @@ src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
 +ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
 ## field_notes
 canonical_key "hering-breuer-reflex.pulmonary-stretch-receptors" already has a pinned id in this module (CON-RES-B68E39C6B4178F); mintConceptId derives the same id fresh (CON-RES-B68E39C6B4178F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Transecting the brainstem at four successively lower levels shows breathing is unaffected until the pontine centres are progressively removed (irregular by level 3), and stops completely only when level 4 disconnects the medulla from the spinal respiratory motor neurons entirely
+## id
+CON-RES-59CCF474F362ED
+## canonical_key
+brainstem-transection.effect-on-breathing-by-level
+## definition
+Level 1 (upper border of the pons, above both pontine centres): respiration is unaffected, since every respiratory centre below the cut is intact; adding bilateral vagotomy at this level makes breathing slower and deeper, showing vagal (Hering-Breuer) afferents normally help set tidal volume and rate. Level 2 (mid-pons, between the pneumotaxic and apneustic centres): breathing becomes slightly slower and deeper, confirming the pneumotaxic centre's role in adjusting rate and depth; adding bilateral vagotomy at this level removes the apneustic centre's only remaining source of inhibition, and breathing stops in full inspiration — apneusis. Level 3 (between pons and medulla, removing both pontine centres): respiration continues, but irregularly, on the DRG's own crude intrinsic rhythm alone. Level 4 (between medulla and the upper border of the spinal cord): respiration stops completely, leading to death, because the DRG/VRG are entirely disconnected from the phrenic and intercostal motor neurons that actually drive breathing — clinically equivalent to a high cervical cord or brainstem injury above the phrenic outflow (C3-C5), unlike a lower injury (e.g. below C7) which spares diaphragmatic breathing.
+## explicit_objective
+State what each of the four brainstem transection levels does to breathing, with and without added vagotomy, and identify level 4 as the only one that stops breathing completely.
+## pitfalls
+Assuming any brainstem transection stops breathing, or that vagotomy or a mid-pontine cut alone (rather than both together) produces apneusis. Only level 4 (medulla-to-spinal-cord) stops breathing outright; apneusis at level 2 needs BOTH the pneumotaxic-centre cut AND vagotomy, since either one alone still leaves an inhibitory input reaching the apneustic centre.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p44 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p9 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Brainstem transection levels | Apneusis experiment | Level 4 transection | Spinal cord transection and breathing
+## article_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Transection between medulla oblongata and upper border of spinal cord causes:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
