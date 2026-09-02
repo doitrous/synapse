@@ -340,10 +340,10 @@ Antimicrobial chemotherapy & pathogenesis of bacterial infections
 Principles of antimicrobial selectivity
 
 ## main_concept
-CON-INF-BCEB5307771256
+CON-INF-05D590078F3DCC
 
 ## concept_ids
-CON-INF-BCEB5307771256
+CON-INF-05D590078F3DCC
 
 ## contextual_concept_ids
 CON-INF-88F95673CA38E8
@@ -421,6 +421,7 @@ yes
 
 ## author_notes
 keySource: printed plain-text ANSWERS table, chapter 5, p62
+pendingConcept: CON-INF-05D590078F3DCC is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family11-part1-concepts.md, canonical_key antimicrobial-selective-toxicity-definition -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that Helwan batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md. No article_ids target of that sibling concept (ART-HU-BMS102-MIC-F11P1-SPECTRUM-SELECTIVE-TOXICITY) is authored anywhere in the corpus, so library_ids stays on this lane's own ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS article (default), which already carries the selective-toxicity prose.
 
 ---
 
@@ -3485,10 +3486,10 @@ Antimicrobial chemotherapy & pathogenesis of bacterial infections
 Principles of antimicrobial selectivity
 
 ## main_concept
-CON-INF-BCEB5307771256
+CON-INF-05D590078F3DCC
 
 ## concept_ids
-CON-INF-BCEB5307771256
+CON-INF-05D590078F3DCC
 
 ## contextual_concept_ids
 
@@ -3565,6 +3566,7 @@ yes
 
 ## author_notes
 keySource: printed plain-text ANSWERS table, chapter 5, p62
+pendingConcept: CON-INF-05D590078F3DCC is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family11-part1-concepts.md, canonical_key antimicrobial-selective-toxicity-definition -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that Helwan batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md. No article_ids target of that sibling concept (ART-HU-BMS102-MIC-F11P1-SPECTRUM-SELECTIVE-TOXICITY) is authored anywhere in the corpus, so library_ids stays on this lane's own ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS article (default), which already carries the selective-toxicity prose.
 
 ---
 
@@ -3776,10 +3778,10 @@ Antimicrobial chemotherapy & pathogenesis of bacterial infections
 Patterns of infection persistence
 
 ## main_concept
-CON-INF-B1C6C40BD3A509
+CON-INF-C4C74A0874FF61
 
 ## concept_ids
-CON-INF-B1C6C40BD3A509
+CON-INF-C4C74A0874FF61
 
 ## contextual_concept_ids
 CON-INF-837A04FFAD5A95
@@ -3832,7 +3834,7 @@ AUN-INI-105 > Antimicrobial chemotherapy & pathogenesis of bacterial infections
 ## question_only_for
 
 ## library_ids
-ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
 
 ## resource_ids
 src_6f2f4188bb0cbf848733
@@ -3857,6 +3859,7 @@ yes
 
 ## author_notes
 keySource: printed plain-text ANSWERS table, chapter 5, p62
+pendingConcept: CON-INF-C4C74A0874FF61 is pending in docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md, canonical_key microbiology.infection.carrier-state-asymptomatic-shedding -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that MUST batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md.
 
 ---
 
@@ -4067,7 +4070,7 @@ CON-INF-837A04FFAD5A95
 CON-INF-837A04FFAD5A95
 
 ## contextual_concept_ids
-CON-INF-B1C6C40BD3A509
+CON-INF-C4C74A0874FF61
 
 ## difficulty
 Easy
@@ -4208,10 +4211,10 @@ Antimicrobial chemotherapy & pathogenesis of bacterial infections
 Virulence and pathogenicity
 
 ## main_concept
-CON-INF-8B02B0EFEE96F5
+CON-INF-17893AA3303251
 
 ## concept_ids
-CON-INF-8B02B0EFEE96F5
+CON-INF-17893AA3303251
 
 ## contextual_concept_ids
 
@@ -4263,7 +4266,7 @@ AUN-INI-105 > Antimicrobial chemotherapy & pathogenesis of bacterial infections
 ## question_only_for
 
 ## library_ids
-ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
 
 ## resource_ids
 src_6f2f4188bb0cbf848733
@@ -4288,6 +4291,7 @@ yes
 
 ## author_notes
 keySource: printed plain-text ANSWERS table, chapter 5, p62
+pendingConcept: CON-INF-17893AA3303251 is pending in docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md, canonical_key microbiology.opportunism.opportunistic-pathogen-definition -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that MUST batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md.
 
 ---
 
@@ -4777,10 +4781,10 @@ Antimicrobial chemotherapy & pathogenesis of bacterial infections
 Principles of antimicrobial selectivity
 
 ## main_concept
-CON-INF-BCEB5307771256
+CON-INF-05D590078F3DCC
 
 ## concept_ids
-CON-INF-BCEB5307771256
+CON-INF-05D590078F3DCC
 
 ## contextual_concept_ids
 
@@ -4857,6 +4861,7 @@ yes
 
 ## author_notes
 keySource: printed plain-text ANSWERS table, chapter 5, p62
+pendingConcept: CON-INF-05D590078F3DCC is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family11-part1-concepts.md, canonical_key antimicrobial-selective-toxicity-definition -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that Helwan batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md. No article_ids target of that sibling concept (ART-HU-BMS102-MIC-F11P1-SPECTRUM-SELECTIVE-TOXICITY) is authored anywhere in the corpus, so library_ids stays on this lane's own ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS article (default), which already carries the selective-toxicity prose.
 
 ---
 
@@ -5758,10 +5763,10 @@ Antimicrobial chemotherapy & pathogenesis of bacterial infections
 Principles of antimicrobial selectivity
 
 ## main_concept
-CON-INF-BCEB5307771256
+CON-INF-05D590078F3DCC
 
 ## concept_ids
-CON-INF-BCEB5307771256
+CON-INF-05D590078F3DCC
 
 ## contextual_concept_ids
 CON-INF-88F95673CA38E8
@@ -5839,6 +5844,7 @@ yes
 
 ## author_notes
 keySource: printed plain-text ANSWERS table, chapter 5, p62
+pendingConcept: CON-INF-05D590078F3DCC is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family11-part1-concepts.md, canonical_key antimicrobial-selective-toxicity-definition -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that Helwan batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md. No article_ids target of that sibling concept (ART-HU-BMS102-MIC-F11P1-SPECTRUM-SELECTIVE-TOXICITY) is authored anywhere in the corpus, so library_ids stays on this lane's own ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS article (default), which already carries the selective-toxicity prose.
 
 ---
 

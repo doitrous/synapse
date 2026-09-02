@@ -1,11 +1,24 @@
 <!--
-  AUN-INI-105 -- teaching article backing the 33 concepts minted from the
+  AUN-INI-105 -- teaching article backing 30 concepts minted from the
   "INI MCQ .pdf" bank triage, Chapter 5 "Antimicrobial chemotherapy &
   Pathogenesis of bacterial infections" (pp.51-62, 74 MCQ). No dedicated
   department lecture deck exists for this module (the INI folder holds only
   the MCQ bank plus three excluded/garbled files); text is written from
   standard microbiology/pharmacology teaching, evidenced by the bank's own
   stems/options (evidence/AUN-INI-105-mcq-resources.md).
+
+  Repair pass (chief-of-staff ruling, lane10): three of the concepts this
+  article originally backed -- selective toxicity, carrier state,
+  opportunistic pathogen -- were deleted after their genuine same-grain
+  pending siblings (Helwan HU-BMS-102, MUST FHB-102-2) were confirmed
+  duplicates; those three had been logged under `rejected_merge_candidate_ids`
+  instead of overlaid, which is not what that field is for. The six
+  questions that tested them (Q4/Q28/Q36/Q38/Q39/Q43/Q50) now cite the
+  sibling ids directly via a sparse pending-live overlay
+  (pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md); their prose
+  stays in this article's sections as general teaching text, but their
+  formal `## annotations` entries and `related_concepts` rows were removed
+  since this article no longer backs those concept records.
 
   Import: Admin > Bulk import > article.
 -->
@@ -146,7 +159,6 @@ CON-INF-8FD623568F7735
 CON-INF-8FABD01DF54147
 CON-INF-48876D379A97FC
 CON-INF-63261E1F45420D
-CON-INF-BCEB5307771256
 CON-INF-8B5B9FAD59E176
 CON-INF-837A04FFAD5A95
 CON-INF-05FF149DC51874
@@ -159,8 +171,6 @@ CON-INF-C4B0A8489B265C
 CON-INF-B123D909CFF636
 CON-INF-E4D4D279028FBE
 CON-INF-3216CACCF7AD97
-CON-INF-B1C6C40BD3A509
-CON-INF-8B02B0EFEE96F5
 
 ## related_articles
 
@@ -261,10 +271,6 @@ Block: body
 Quote: rifampicin, an antituberculous agent, instead inhibits RNA polymerase, blocking transcription
 Block: body
 
-### definition_of · CON-INF-BCEB5307771256
-Quote: This selective-toxicity principle -- harming the pathogen without significantly harming the host by targeting a microbe-unique structure -- is the organizing idea behind why cell-wall-active drugs remain a first-line antimicrobial class
-Block: body
-
 ### definition_of · CON-INF-8B5B9FAD59E176
 Quote: Virulence is the quantitative measure of a pathogen's pathogenicity, often expressed as the number of organisms needed to cause disease; because virulence genes are frequently carried on a plasmid or phage, often clustered in pathogenicity islands, virulence -- like antibiotic resistance -- can be transmitted between bacteria, not fixed to a species
 Block: body
@@ -311,14 +317,6 @@ Block: body
 
 ### definition_of · CON-INF-3216CACCF7AD97
 Quote: Antibiotic spectrum classifies a drug by how many bacterial groups it acts against -- narrow-spectrum agents (vancomycin, clindamycin) target a limited range, while broad-spectrum agents (levofloxacin) act against a wide range of both Gram-positive and Gram-negative organisms
-Block: body
-
-### definition_of · CON-INF-B1C6C40BD3A509
-Quote: a carrier is an apparently healthy individual harboring a pathogen who can transmit it at any time, not only briefly or only during epidemics
-Block: body
-
-### definition_of · CON-INF-8B02B0EFEE96F5
-Quote: an opportunistic pathogen is usually a normal-flora member that turns pathogenic specifically in an immunocompromised host, rather than frequently causing disease in healthy subjects
 Block: body
 
 ---
