@@ -1,0 +1,701 @@
+{
+  "lane": "HU-GIT-301",
+  "cluster": "pharmacology-part2",
+  "header": "HU-GIT-301 · Pharmacology — Part 2 (items #30-52), authored from the department pharmacology MCQ bank.",
+  "defaults": {
+    "subject": "gi",
+    "status": "Draft",
+    "owner": "Helwan Year-3 authoring lane",
+    "universities": [
+      "hu"
+    ],
+    "years": [
+      "HU_Y3"
+    ],
+    "module": "HU-GIT-301",
+    "module_subject": "HU-GIT-301 > Pharmacology > Drugs for GI motility, secretory and biliary disorders",
+    "exam_weight_by_year": {
+      "HU_Y3": 0.4
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-HU-GIT301-PHARM-GIT-DRUGS"
+    ],
+    "resource_ids": [],
+    "setting": "Clinical",
+    "estimated_seconds": 75,
+    "randomise_answers": true,
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "learning_objective": "Apply the correct GI pharmacology fact — mechanism, indication, adverse effect or classification — to select the accepted (or, in an \"except\"/\"not\" stem, the excepted) statement."
+  },
+  "questions": [
+    {
+      "key": "paediatric-diarrhoea.fluid-electrolyte-correction",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q30",
+      "page": 3,
+      "title": "Diarrhoea in children is best managed by:",
+      "question": "Diarrhoea in children is best managed by:",
+      "options": {
+        "A": "Anticholinergic drug",
+        "B": "Loperamide",
+        "C": "Pectin and kaolin",
+        "D": "Correction of fluid and electrolyte disturbance"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "An anticholinergic drug is not the best management for diarrhoea in children; it does not address the primary danger of dehydration and carries its own risks in young children.",
+        "B": "Loperamide is not the best management for diarrhoea in children; antimotility agents carry particular risks in young children and do not address the underlying fluid loss.",
+        "C": "Pectin and kaolin, adsorbent agents, are not the best management for diarrhoea in children, since they do not correct the fluid and electrolyte loss that poses the real danger.",
+        "D": "Diarrhoea in children is best managed by correction of fluid and electrolyte disturbance, typically through oral rehydration therapy, because the primary life-threatening risk in paediatric diarrhoea is dehydration itself rather than the diarrhoea as a symptom. This fluid-and-electrolyte-first approach is safer and more directly effective in children than reaching for an antimotility or adsorbent drug, which do not correct the underlying fluid loss and, in the case of antimotility agents, can carry particular risks in young children. Recognising fluid and electrolyte correction as the mainstay of paediatric diarrhoea management is the fact this question tests."
+      },
+      "main_concept": "CON-GIT-454DCB5E7956C6",
+      "topic": "GI pharmacology",
+      "subtopic": "Paediatric diarrhoea",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #30, p.3; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "antiemetics.motion-sickness.dimenhydrinate",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q31",
+      "page": 3,
+      "title": "Which of the following drugs is the best choice to prevent vomiting of motion sickness?",
+      "question": "Which of the following drugs is the best choice to prevent vomiting of motion sickness?",
+      "options": {
+        "A": "Domperidone",
+        "B": "Metoclopramide",
+        "C": "Dimenhydrinate",
+        "D": "Ondansetron"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Domperidone, a peripheral dopamine D2 antagonist, targets the chemoreceptor trigger zone and gut motility rather than the vestibular pathway that drives motion sickness.",
+        "B": "Metoclopramide’s D2-antagonist, prokinetic mechanism targets the chemoreceptor trigger zone and gut motility, not the vestibular pathway of motion sickness.",
+        "C": "Dimenhydrinate, an H1-antihistamine with central anticholinergic activity, is the best choice to prevent vomiting of motion sickness, since it blocks the histaminergic and cholinergic transmission along the vestibular pathway responsible for motion-triggered nausea and vomiting. This vestibular-blocking mechanism is what distinguishes it from the dopamine- or serotonin-receptor-targeting antiemetics among the other options, which act on different vomiting pathways more relevant to chemotherapy- or drug-induced emesis. Recognising dimenhydrinate as the preferred agent for this specific, vestibular trigger is the fact this question tests.",
+        "D": "Ondansetron, a 5-HT3 receptor antagonist, is not the preferred choice for motion sickness; its established use is chemotherapy-induced nausea and vomiting, a different triggering pathway."
+      },
+      "main_concept": "CON-GIT-6D48CB2F136312",
+      "topic": "GI pharmacology",
+      "subtopic": "Antiemetics",
+      "difficulty": "Easy",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #31, p.3; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "gerd.proton-pump-inhibitor-for-full-acid-suppression",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q32",
+      "page": 4,
+      "title": "A patient has severe GERD. In addition to a combination antacid product for symptomatic relief, which drug is most likely prescribed to fully suppress gastric acid secretion?",
+      "question": "A patient has severe GERD. In addition to a combination antacid product for symptomatic relief, which drug is most likely prescribed to fully suppress gastric acid secretion?",
+      "options": {
+        "A": "Atropine",
+        "B": "Calcium carbonate",
+        "C": "Cimetidine",
+        "D": "Omeprazole"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Atropine, an anticholinergic, is not used to fully suppress gastric acid secretion in GERD; its anticholinergic side effects and incomplete acid suppression make it unsuitable for this purpose.",
+        "B": "Calcium carbonate is an antacid, providing symptomatic relief by direct neutralisation, but it does not fully suppress gastric acid secretion the way a proton pump inhibitor does.",
+        "C": "Cimetidine, an H2-receptor blocker, reduces but does not fully suppress gastric acid secretion, since histamine is only one of several pathways stimulating acid production.",
+        "D": "Omeprazole, a proton pump inhibitor, is most likely prescribed to fully suppress gastric acid secretion in a patient with severe GERD, since it irreversibly blocks the H+/K+-ATPase, the parietal cell’s final common secretory step, giving more complete acid suppression than an H2 blocker, an anticholinergic, or an antacid alone. This is why, alongside a combination antacid for immediate symptomatic relief, a proton pump inhibitor is added specifically to achieve full acid suppression in severe disease. Recognising omeprazole as the drug for this purpose is the fact this question tests."
+      },
+      "main_concept": "CON-GIT-752166EB547A26",
+      "topic": "GI pharmacology",
+      "subtopic": "Acid-suppressing drugs",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #32, p.4; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "cimetidine.cytochrome-p450-drug-interactions",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q33",
+      "page": 4,
+      "title": "A patient on theophylline, warfarin, quinidine and phenytoin starts a drug for GI distress and develops toxicity from all other medications with raised serum concentrations. Which drug did he most likely take?",
+      "question": "A patient on theophylline, warfarin, quinidine and phenytoin starts a drug for GI distress and develops toxicity from all other medications with raised serum concentrations. Which drug did he most likely take?",
+      "options": {
+        "A": "Cimetidine",
+        "B": "Sucralfate",
+        "C": "Famotidine",
+        "D": "Nizatidine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cimetidine is a potent inhibitor of hepatic cytochrome P450 enzymes, which slows the metabolism of many drugs cleared through this pathway, including theophylline, warfarin, quinidine and phenytoin, raising their serum concentrations and precipitating toxicity from all of them at once when cimetidine is started. This broad, multi-drug interaction pattern is one of cimetidine’s most clinically important features, and it is far less prominent with the newer H2 blockers, which do not share cimetidine’s potent cytochrome P450-inhibiting effect. Recognising cimetidine as the drug behind this pattern of interactions is the fact this question tests.",
+        "B": "Sucralfate, a mucosal protectant with minimal systemic absorption, does not produce this pattern of cytochrome P450-mediated drug interactions.",
+        "C": "Famotidine, unlike cimetidine, has little to no clinically significant cytochrome P450-inhibiting effect and does not produce this pattern of multi-drug interactions.",
+        "D": "Nizatidine, unlike cimetidine, has little to no clinically significant cytochrome P450-inhibiting effect and does not produce this pattern of multi-drug interactions."
+      },
+      "main_concept": "CON-GIT-72B8C2320F4820",
+      "topic": "GI pharmacology",
+      "subtopic": "Drug interactions",
+      "difficulty": "Hard",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #33, p.4; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "metoclopramide.dual-antiemetic-prokinetic-action",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q34",
+      "page": 4,
+      "title": "One patient needs suppression of emesis from an anticancer drug; another has diabetic gastroparesis and GERD needing relief. Which drug suits both indications?",
+      "question": "One patient needs suppression of emesis from an anticancer drug; another has diabetic gastroparesis and GERD needing relief. Which drug suits both indications?",
+      "options": {
+        "A": "Diphenoxylate",
+        "B": "Aprepitant",
+        "C": "Pyridoxine",
+        "D": "Metoclopramide"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Diphenoxylate is an antidiarrhoeal opioid derivative, with neither an antiemetic-for-chemotherapy nor a prokinetic-for-gastroparesis/GERD profile suited to both indications described.",
+        "B": "Aprepitant, a neurokinin-1 (NK1) receptor antagonist, is used for chemotherapy-induced nausea and vomiting but has no prokinetic effect useful for diabetic gastroparesis or GERD relief.",
+        "C": "Pyridoxine (vitamin B6) is used in some nausea contexts, such as pregnancy-related nausea, but it is not the drug that combines antiemetic and prokinetic action for these two indications.",
+        "D": "Metoclopramide suits both indications described, since its dopamine D2-receptor antagonism gives it a genuine antiemetic effect useful in suppressing chemotherapy-induced emesis, while its separate prokinetic effect enhances gastric motility and emptying, directly addressing the delayed emptying and reflux of diabetic gastroparesis with coexisting GERD. This dual mechanism, uniting central antiemetic action with peripheral prokinetic action, is uncommon among GI drugs and is exactly why metoclopramide, rather than a pure antiemetic or a pure prokinetic-only agent, fits both clinical needs described here. No other option on this list combines both a genuine antiemetic and a genuine prokinetic effect the way metoclopramide does."
+      },
+      "main_concept": "CON-GIT-DD2C322C78B158",
+      "topic": "GI pharmacology",
+      "subtopic": "Prokinetics",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #34, p.4; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "lactulose.hepatic-encephalopathy-treatment",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q35",
+      "page": 4,
+      "title": "A patient with hepatitis C presents with hepatic portosystemic encephalopathy. Which drug, in relatively high doses, is most suitable for relief of signs and symptoms?",
+      "question": "A patient with hepatitis C presents with hepatic portosystemic encephalopathy. Which drug, in relatively high doses, is most suitable for relief of signs and symptoms?",
+      "options": {
+        "A": "Diphenoxylate",
+        "B": "Lansoprazole",
+        "C": "Lactulose",
+        "D": "Loperamide"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Diphenoxylate, an antidiarrhoeal opioid derivative, has no role in relieving hepatic encephalopathy and could risk worsening constipation-related ammonia retention.",
+        "B": "Lansoprazole, a proton pump inhibitor, addresses acid-related disease, not the ammonia-driven pathophysiology of hepatic encephalopathy.",
+        "C": "Lactulose, a non-absorbable synthetic disaccharide, is most suitable for relief of the signs and symptoms of hepatic (portosystemic) encephalopathy when given in relatively high doses. Colonic bacteria ferment it to acidic by-products that trap ammonia in the gut lumen as the non-absorbable ammonium ion, which is then excreted in the faeces, lowering the blood ammonia level thought to drive the encephalopathy in a patient with chronic liver disease such as hepatitis C. Recognising lactulose’s ammonia-trapping mechanism, and its high-dose use for this specific indication, is the fact this question tests.",
+        "D": "Loperamide, an antimotility antidiarrhoeal, has no role in relieving hepatic encephalopathy and could risk worsening constipation-related ammonia retention."
+      },
+      "main_concept": "CON-GIT-82E7F579636129",
+      "topic": "GI pharmacology",
+      "subtopic": "Hepatic encephalopathy",
+      "difficulty": "Hard",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #35, p.4; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "antacid-combination.mg-al-balancing-bowel-effects",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q36",
+      "page": 4,
+      "title": "A patient is prescribed an OTC antacid combining a magnesium salt and an aluminium salt. Why do most such products contain these two particular salts?",
+      "question": "A patient is prescribed an OTC antacid combining a magnesium salt and an aluminium salt. Why do most such products contain these two particular salts?",
+      "options": {
+        "A": "Al salts counteract the gastric mucosal-irritating effects of Mg salts",
+        "B": "Al salts require activation by an Mg-dependent enzyme to inhibit the parietal cell proton pump",
+        "C": "Mg salts cause a diuresis that helps reduce systemic accumulation of the Al salt",
+        "D": "Mg salts tend to cause a laxative effect that counteracts the constipating tendency of the Al salt"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Aluminium salts do not counteract a mucosal-irritating effect of magnesium salts; magnesium salts are not known for mucosal irritation, so this is not the reason for the combination.",
+        "B": "Aluminium salts do not require activation by a magnesium-dependent enzyme to inhibit the parietal cell proton pump; antacids act by direct chemical neutralisation of acid in the lumen, not by inhibiting the proton pump enzymatically.",
+        "C": "Magnesium salts do not cause a diuresis that reduces systemic aluminium accumulation; this is not the pharmacological basis for combining the two salts.",
+        "D": "Magnesium salts tend to cause a laxative (diarrhoea-producing) effect through their osmotic action, while aluminium salts tend to cause constipation; most combination OTC antacids pair a magnesium salt with an aluminium salt specifically so that these two opposite bowel effects counteract one another, giving a more tolerable overall bowel effect than either salt alone. This balancing strategy is a deliberate formulation choice built on the well-known, opposite GI side-effect profiles of the two cation types. Recognising this bowel-effect-balancing rationale is the fact this question tests."
+      },
+      "main_concept": "CON-GIT-6CAAD2E752A2A9",
+      "topic": "GI pharmacology",
+      "subtopic": "Antacid combinations",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #36, p.4; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "antacids.rapid-onset-brief-duration",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q37",
+      "page": 5,
+      "title": "A patient with severe abdominal pain and a burning sensation in the upper abdomen has several benign gastric ulcers on endoscopy. Which drug gives the fastest, albeit briefest, relief with a single dose?",
+      "question": "A patient with severe abdominal pain and a burning sensation in the upper abdomen has several benign gastric ulcers on endoscopy. Which drug gives the fastest, albeit briefest, relief with a single dose?",
+      "options": {
+        "A": "Antacids",
+        "B": "Belladonna alkaloids",
+        "C": "Cimetidine",
+        "D": "Misoprostol"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Antacids give the fastest, though briefest, symptomatic relief of any anti-ulcer drug class, because they act by immediate direct chemical neutralisation of acid already present in the stomach, unlike the H2 blockers, proton pump inhibitors or prostaglandin analogues, which must first alter ongoing acid secretion and take longer to produce an effect. This immediate-but-short-lived pattern is why antacids are best suited to rapid symptomatic relief of a single episode of burning pain, as described here, rather than to sustained, longer-term acid suppression. Recognising this fast-onset, brief-duration profile is the fact this question tests.",
+        "B": "Belladonna alkaloids (anticholinergics) do not provide the rapid, direct-neutralisation relief of an antacid, and their effect is neither the fastest nor specific to acid neutralisation.",
+        "C": "Cimetidine, an H2 blocker, acts by reducing ongoing acid secretion rather than immediately neutralising acid already present, so it does not give the fastest single-dose relief.",
+        "D": "Misoprostol, a prostaglandin analogue, acts by replacing protective prostaglandins over a sustained dosing course, not by providing the fastest, briefest single-dose relief."
+      },
+      "main_concept": "CON-GIT-6CAAD2E752A2A9",
+      "topic": "GI pharmacology",
+      "subtopic": "Antacid onset of action",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #37, p.5; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "h-pylori-eradication.triple-therapy",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q38",
+      "page": 5,
+      "title": "A patient is taking a proton pump inhibitor, metronidazole and clarithromycin. What is the most likely purpose of this drug combination?",
+      "question": "A patient is taking a proton pump inhibitor, metronidazole and clarithromycin. What is the most likely purpose of this drug combination?",
+      "options": {
+        "A": "Antibiotic-associated pseudomembranous colitis",
+        "B": "Irritable bowel syndrome (IBS)",
+        "C": "Refractory or recurrent, severe gastric or duodenal ulcers secondary to H. pylori",
+        "D": "Severe traveller's diarrhoea from E. coli"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Antibiotic-associated pseudomembranous colitis is treated with metronidazole or vancomycin alone, not with the proton-pump-inhibitor-plus-two-antibiotic combination described here.",
+        "B": "Irritable bowel syndrome is not treated with a proton pump inhibitor plus metronidazole and clarithromycin; its management targets motility and symptom control, not acid suppression combined with H. pylori-active antibiotics.",
+        "C": "A proton pump inhibitor combined with metronidazole and clarithromycin is a recognised H. pylori eradication regimen, most likely being used here for refractory or recurrent, severe gastric or duodenal ulcers secondary to H. pylori infection. Combining acid suppression with two antibiotics active against H. pylori reflects the standard eradication strategy used when ulcer disease is severe or has not responded to simpler treatment, aiming to clear the underlying infection driving the ulcer. Recognising this combination as an H. pylori eradication regimen for refractory ulcer disease is the fact this question tests.",
+        "D": "Severe traveller’s diarrhoea from E. coli is managed with rehydration and, if needed, an antimotility agent or a different antibiotic choice, not this proton-pump-inhibitor/antibiotic combination aimed at H. pylori."
+      },
+      "main_concept": "CON-GIT-30993F476C9C94",
+      "topic": "GI pharmacology",
+      "subtopic": "H. pylori eradication",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #38, p.5; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "sodium-bicarbonate.systemic-antacid-rebound-and-bleeding-risk",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q39",
+      "page": 5,
+      "title": "A patient with multiple gastric ulcers takes an OTC heartburn remedy after a large meal and develops severe pain and upper GI blood loss with multiple bleeds on endoscopy. Which drug or product did he most likely take?",
+      "question": "A patient with multiple gastric ulcers takes an OTC heartburn remedy after a large meal and develops severe pain and upper GI blood loss with multiple bleeds on endoscopy. Which drug or product did he most likely take?",
+      "options": {
+        "A": "An aluminium salt",
+        "B": "Sodium bicarbonate",
+        "C": "Magnesium hydroxide",
+        "D": "Ranitidine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An aluminium salt is a non-absorbable, locally acting antacid and would not produce the systemic effects, or the acid-rebound bleeding risk, described in this scenario.",
+        "B": "Sodium bicarbonate is a systemic, absorbable antacid whose rapid acid-neutralising action can trigger an acid-rebound effect, in which gastric acid secretion increases again shortly after the antacid’s effect wears off; in a patient with multiple existing gastric ulcers, this repeated rebound can worsen mucosal injury and precipitate upper gastrointestinal bleeding with multiple bleeding points on endoscopy. This systemic, rebound-prone profile distinguishes sodium bicarbonate from the non-absorbable, locally acting antacids such as aluminium or magnesium salts, which do not carry this same rebound risk. Recognising sodium bicarbonate as the OTC remedy behind this bleeding presentation is the fact this question tests.",
+        "C": "Magnesium hydroxide is a non-absorbable, locally acting antacid, more likely to cause diarrhoea than the systemic acid-rebound bleeding described here.",
+        "D": "Ranitidine, an H2-receptor blocker, reduces acid secretion rather than provoking an acid-rebound bleeding pattern, and is not the OTC heartburn remedy implicated by this scenario."
+      },
+      "main_concept": "CON-GIT-6CAAD2E752A2A9",
+      "topic": "GI pharmacology",
+      "subtopic": "Systemic antacids",
+      "difficulty": "Hard",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #39, p.5; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "misoprostol.nsaid-ulcer-prophylaxis",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q40",
+      "page": 5,
+      "title": "A patient is being treated with misoprostol. What is the most likely purpose for which this drug is being administered?",
+      "question": "A patient is being treated with misoprostol. What is the most likely purpose for which this drug is being administered?",
+      "options": {
+        "A": "Routine management of GERD",
+        "B": "Prophylaxis of GI ulcers during long-term NSAID therapy",
+        "C": "Eradicating H. pylori in acute and recurrent gastric ulcers",
+        "D": "Prevention of acute stress ulcers postoperatively"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Misoprostol is not used for routine management of GERD; its established, specific role is different from general acid-reflux management.",
+        "B": "Misoprostol, a synthetic prostaglandin E1 analogue, is most likely being administered for prophylaxis of gastrointestinal ulcers during long-term NSAID therapy, replacing the protective mucosal prostaglandins that NSAIDs deplete through cyclooxygenase inhibition. This replacement strategy directly addresses the mechanism by which NSAIDs cause mucosal injury, making misoprostol a targeted prophylactic choice specifically for patients who need continued NSAID treatment. Recognising this NSAID-ulcer-prophylaxis role, rather than a general anti-ulcer or eradication use, is the fact this question tests.",
+        "C": "Misoprostol is not used to eradicate H. pylori in acute and recurrent gastric ulcers; that role belongs to antibiotic-based eradication regimens.",
+        "D": "Misoprostol is not specifically indicated for prevention of acute stress ulcers postoperatively; that setting typically uses acid-suppressing drugs such as H2 blockers or proton pump inhibitors."
+      },
+      "main_concept": "CON-GIT-9C4494CBE4FEC4",
+      "topic": "GI pharmacology",
+      "subtopic": "NSAID ulcer prophylaxis",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #40, p.5; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "sulfasalazine.indication.inflammatory-bowel-disease",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q41",
+      "page": 5,
+      "title": "A patient is being treated with sulfasalazine. What is the most likely purpose for which it is being given?",
+      "question": "A patient is being treated with sulfasalazine. What is the most likely purpose for which it is being given?",
+      "options": {
+        "A": "Antibiotic-associated pseudomembranous colitis",
+        "B": "E. coli-induced diarrhoea",
+        "C": "Gastric H. pylori infections",
+        "D": "Inflammatory bowel disease"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Antibiotic-associated pseudomembranous colitis is treated with metronidazole or vancomycin, not with sulfasalazine.",
+        "B": "E. coli-induced diarrhoea is managed with rehydration and, if needed, an antimicrobial or antimotility agent, not with sulfasalazine.",
+        "C": "Gastric H. pylori infections are treated with combination antibiotic-and-acid-suppression regimens, not with sulfasalazine.",
+        "D": "Sulfasalazine, a combination of sulfapyridine and 5-aminosalicylic acid (5-ASA), is most likely being given for the purpose of treating inflammatory bowel disease, chiefly ulcerative colitis, where the 5-ASA component is released in the colon to provide local anti-inflammatory action against the underlying immune-driven inflammation. This is a distinct therapeutic purpose from treating an infection, since inflammatory bowel disease is an immune-mediated, not infective, process. Recognising sulfasalazine’s inflammatory bowel disease indication is the fact this question tests."
+      },
+      "main_concept": "CON-GIT-22D8D8B869BFF0",
+      "topic": "GI pharmacology",
+      "subtopic": "Inflammatory bowel disease drugs",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #41, p.5; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "aluminium-hydroxide.phosphate-binding-in-renal-failure",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q42",
+      "page": 5,
+      "title": "A patient with renal failure on periodic haemodialysis needs to reduce dietary phosphate absorption and remove some phosphate already in the blood. Which drug is most suitable?",
+      "question": "A patient with renal failure on periodic haemodialysis needs to reduce dietary phosphate absorption and remove some phosphate already in the blood. Which drug is most suitable?",
+      "options": {
+        "A": "Aluminium hydroxide gel",
+        "B": "Bismuth subsalicylate",
+        "C": "Magnesium hydroxide/oxide",
+        "D": "Sodium bicarbonate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Aluminium hydroxide gel is the most suitable choice for a patient with renal failure who needs to reduce dietary phosphate absorption and remove phosphate already in the blood, since aluminium hydroxide binds dietary phosphate in the gut, preventing its absorption, and can also bind and remove some circulating phosphate that diffuses back into the gut lumen. This phosphate-binding property is a specific, additional use of aluminium hydroxide beyond its role as a simple antacid, making it useful in the phosphate management of chronic renal failure patients on haemodialysis. Recognising this renal-failure-specific phosphate-binding use is the fact this question tests.",
+        "B": "Bismuth subsalicylate does not have a recognised phosphate-binding role useful for reducing phosphate in renal failure.",
+        "C": "Magnesium hydroxide/oxide is generally avoided in renal failure because impaired renal excretion allows magnesium to accumulate and cause toxicity, and it lacks aluminium hydroxide’s phosphate-binding property.",
+        "D": "Sodium bicarbonate does not bind dietary phosphate; it is a systemic, absorbable antacid used for different purposes, such as correcting metabolic acidosis, not phosphate reduction."
+      },
+      "main_concept": "CON-GIT-6CAAD2E752A2A9",
+      "topic": "GI pharmacology",
+      "subtopic": "Antacids in renal failure",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #42, p.5; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "ondansetron.mechanism.5ht3-receptor-blockade",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q43",
+      "page": 6,
+      "title": "A patient undergoing cancer chemotherapy gets ondansetron for prophylaxis of drug-induced nausea and vomiting. What best describes this drug's main mechanism of action here?",
+      "question": "A patient undergoing cancer chemotherapy gets ondansetron for prophylaxis of drug-induced nausea and vomiting. What best describes this drug's main mechanism of action here?",
+      "options": {
+        "A": "Activates mu-type opioid receptors in the chemoreceptor trigger zone",
+        "B": "Blocks central serotonin (5-HT3) receptors",
+        "C": "Blocks dopamine receptors",
+        "D": "Blocks histamine H1 receptors in the brainstem and inner ear"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ondansetron does not activate mu-type opioid receptors; that mechanism belongs to opioid analgesics, not to a 5-HT3 receptor antagonist.",
+        "B": "Ondansetron blocks central serotonin (5-HT3) receptors, both in the chemoreceptor trigger zone of the brainstem and on peripheral vagal afferents in the gut, which is its main mechanism of action in preventing chemotherapy-induced nausea and vomiting. Chemotherapy triggers the release of serotonin from enterochromaffin cells in the gut, which stimulates these vagal 5-HT3 receptors and relays the emetic signal centrally; blocking this pathway is what makes ondansetron effective specifically for chemotherapy-induced emesis. Recognising 5-HT3 receptor blockade as ondansetron’s mechanism here is the fact this question tests.",
+        "C": "Ondansetron does not act by blocking dopamine receptors; that mechanism belongs to drugs such as metoclopramide or chlorpromazine, not to ondansetron.",
+        "D": "Ondansetron does not act by blocking histamine H1 receptors; that mechanism belongs to antihistamines such as dimenhydrinate, used for a different emetic trigger (motion sickness), not chemotherapy-induced vomiting."
+      },
+      "main_concept": "CON-GIT-4A441C6FB51E0D",
+      "topic": "GI pharmacology",
+      "subtopic": "5-HT3 receptor antagonists",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #43, p.6; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "metoclopramide.diabetic-gastroparesis",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q44",
+      "page": 6,
+      "title": "A 55-year-old woman with long-standing insulin-dependent diabetes has severe bloating and abdominal distress after meals, consistent with diabetic gastroparesis. Which prokinetic drug would you most likely recommend?",
+      "question": "A 55-year-old woman with long-standing insulin-dependent diabetes has severe bloating and abdominal distress after meals, consistent with diabetic gastroparesis. Which prokinetic drug would you most likely recommend?",
+      "options": {
+        "A": "Granisetron",
+        "B": "Cimetidine",
+        "C": "Droperidol",
+        "D": "Metoclopramide"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Granisetron, a 5-HT3 receptor antagonist antiemetic, has no prokinetic effect useful for diabetic gastroparesis.",
+        "B": "Cimetidine, an H2-receptor blocker, reduces gastric acid secretion but has no prokinetic effect on gastric emptying, so it would not address the delayed emptying of diabetic gastroparesis.",
+        "C": "Droperidol, a dopamine antagonist antiemetic, is not established as a prokinetic drug for diabetic gastroparesis.",
+        "D": "Metoclopramide would most likely be recommended for this patient’s diabetic gastroparesis, since its dopamine D2-receptor antagonism produces a genuine prokinetic effect, enhancing gastric motility and emptying, which directly addresses the delayed gastric emptying that causes the bloating and abdominal distress after meals in gastroparesis. This prokinetic property, distinct from a purely antiemetic drug, is what makes metoclopramide a standard choice for symptomatic diabetic gastroparesis. Recognising this prokinetic use is the fact this question tests."
+      },
+      "main_concept": "CON-GIT-DD2C322C78B158",
+      "topic": "GI pharmacology",
+      "subtopic": "Prokinetics",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #44, p.6; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "magnesium-hydroxide.osmotic-laxative",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q45",
+      "page": 6,
+      "title": "A patient taking verapamil for hypertension and angina has become constipated. Which drug is an osmotic laxative that could treat this constipation?",
+      "question": "A patient taking verapamil for hypertension and angina has become constipated. Which drug is an osmotic laxative that could treat this constipation?",
+      "options": {
+        "A": "Aluminium hydroxide",
+        "B": "Diphenoxylate",
+        "C": "Magnesium hydroxide",
+        "D": "Metoclopramide"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Aluminium hydroxide characteristically causes constipation rather than relieving it, the opposite effect needed for this patient.",
+        "B": "Diphenoxylate is an antidiarrhoeal opioid derivative; giving it to a constipated patient would worsen, not relieve, the constipation.",
+        "C": "Magnesium hydroxide is an osmotic laxative, drawing water into the bowel lumen to soften the stool and stimulate bowel movement, making it a suitable treatment for a patient who has become constipated, in this case as a side effect of verapamil, a calcium channel blocker well known to slow gut motility. This osmotic mechanism is the same property that makes magnesium-containing antacids prone to causing diarrhoea, since the underlying drug action, drawing water into the bowel, is identical whichever indication it is used for. Recognising magnesium hydroxide as an osmotic laxative option here is the fact this question tests.",
+        "D": "Metoclopramide is a prokinetic/antiemetic drug, not classified as an osmotic laxative for treating constipation."
+      },
+      "main_concept": "CON-GIT-6CAAD2E752A2A9",
+      "topic": "GI pharmacology",
+      "subtopic": "Osmotic laxatives",
+      "difficulty": "Easy",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #45, p.6; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "zollinger-ellison-syndrome.proton-pump-inhibitor-treatment",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q46",
+      "page": 6,
+      "title": "Which drug is most appropriate for treatment of a patient presenting with Zollinger-Ellison syndrome resulting from a gastrinoma?",
+      "question": "Which drug is most appropriate for treatment of a patient presenting with Zollinger-Ellison syndrome resulting from a gastrinoma?",
+      "options": {
+        "A": "Metoclopramide",
+        "B": "Omeprazole",
+        "C": "Ondansetron",
+        "D": "Ranitidine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Metoclopramide, a prokinetic/antiemetic, does not address the marked gastric acid hypersecretion driven by a gastrinoma in Zollinger-Ellison syndrome.",
+        "B": "Omeprazole, a proton pump inhibitor, is the most appropriate treatment for Zollinger-Ellison syndrome, since it irreversibly blocks the parietal cell’s H+/K+-ATPase, giving the degree of acid suppression needed to control the marked gastric acid hypersecretion driven by the gastrin-secreting tumour (gastrinoma). Weaker acid-suppressing drugs such as H2 blockers are typically insufficient to control the extreme acid output seen in this syndrome, which is why a proton pump inhibitor, capable of the most complete acid suppression, is preferred. Recognising omeprazole as the treatment of choice here is the fact this question tests.",
+        "C": "Ondansetron, an antiemetic, does not address the acid hypersecretion driven by a gastrinoma in Zollinger-Ellison syndrome.",
+        "D": "Ranitidine, an H2-receptor blocker, gives less complete acid suppression than a proton pump inhibitor and is typically insufficient to control the marked hypersecretion of Zollinger-Ellison syndrome."
+      },
+      "main_concept": "CON-GIT-752166EB547A26",
+      "topic": "GI pharmacology",
+      "subtopic": "Zollinger-Ellison syndrome",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #46, p.6; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "granisetron.mechanism.5ht3-receptor-antagonist",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q47",
+      "page": 6,
+      "title": "A 34-year-old woman has irritable bowel syndrome with diarrhoea not responsive to conventional therapy and begins granisetron. This drug acts as a:",
+      "question": "A 34-year-old woman has irritable bowel syndrome with diarrhoea not responsive to conventional therapy and begins granisetron. This drug acts as a:",
+      "options": {
+        "A": "5-HT3 receptor antagonist",
+        "B": "5-HT4 receptor agonist",
+        "C": "D2 receptor antagonist",
+        "D": "Muscarinic receptor antagonist"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Granisetron acts as a 5-HT3 receptor antagonist, blocking serotonin signalling both centrally and on peripheral gut vagal afferents. This same serotonergic gut mechanism that makes 5-HT3 antagonists effective antiemetics also underlies their off-label use in diarrhoea-predominant irritable bowel syndrome that has not responded to conventional therapy, since excess gut serotonin signalling is thought to contribute to the increased motility and secretion seen in this condition. Recognising granisetron as a 5-HT3 receptor antagonist, sharing its mechanism with ondansetron, is the fact this question tests.",
+        "B": "Granisetron is not a 5-HT4 receptor agonist; that mechanism describes a different class of prokinetic drugs, not the 5-HT3 antagonist mechanism of granisetron.",
+        "C": "Granisetron is not a D2 receptor antagonist; that mechanism describes dopamine-blocking drugs such as metoclopramide, not granisetron.",
+        "D": "Granisetron is not a muscarinic receptor antagonist; that mechanism describes anticholinergic drugs such as atropine, not granisetron."
+      },
+      "main_concept": "CON-GIT-4A441C6FB51E0D",
+      "topic": "GI pharmacology",
+      "subtopic": "5-HT3 receptor antagonists",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #47, p.6; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "loperamide.opioid-derivative-otc-status",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q48",
+      "page": 6,
+      "title": "Which anti-diarrhoeal drug, related chemically to the strong opioid analgesic meperidine, could be bought without a prescription?",
+      "question": "Which anti-diarrhoeal drug, related chemically to the strong opioid analgesic meperidine, could be bought without a prescription?",
+      "options": {
+        "A": "Aluminium hydroxide",
+        "B": "Sulfasalazine",
+        "C": "Loperamide",
+        "D": "Magnesium hydroxide"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Aluminium hydroxide is an antacid, not an anti-diarrhoeal drug related to an opioid analgesic.",
+        "B": "Sulfasalazine is used in inflammatory bowel disease, not chemically related to an opioid analgesic, and not the OTC anti-diarrhoeal being described.",
+        "C": "Loperamide is an anti-diarrhoeal drug chemically related to the strong opioid analgesic meperidine (pethidine), yet its poor penetration of the central nervous system at ordinary doses spares it from significant central opioid effects, which is exactly what allows it to be sold without a prescription despite its opioid-related structure. This combination of an opioid-related mechanism acting locally on the bowel, without the systemic opioid effects of its parent compound, is the fact this question tests. Recognising this OTC status as the reward for its poor CNS penetration is the key distinction from meperidine itself.",
+        "D": "Magnesium hydroxide is an osmotic laxative, not chemically related to an opioid analgesic, and not the OTC anti-diarrhoeal being described."
+      },
+      "main_concept": "CON-GIT-24C04F5BDAA140",
+      "topic": "GI pharmacology",
+      "subtopic": "Antidiarrhoeal drugs",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #48, p.6; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "h-pylori-eradication.clarithromycin",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q49",
+      "page": 6,
+      "title": "An antibacterial drug commonly used to eradicate intestinal Helicobacter pylori is:",
+      "question": "An antibacterial drug commonly used to eradicate intestinal Helicobacter pylori is:",
+      "options": {
+        "A": "Cefazolin",
+        "B": "Ciprofloxacin",
+        "C": "Clarithromycin",
+        "D": "Clindamycin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cefazolin is a cephalosporin antibiotic, not commonly used to eradicate intestinal Helicobacter pylori.",
+        "B": "Ciprofloxacin is a fluoroquinolone antibiotic, not one of the standard first-line antibiotics used to eradicate Helicobacter pylori.",
+        "C": "Clarithromycin is an antibacterial drug commonly used, together with a proton pump inhibitor and a second antibiotic such as amoxicillin, to eradicate intestinal Helicobacter pylori infection. Its inclusion in standard triple therapy regimens, and its activity against H. pylori specifically, is what makes it the antibiotic most associated with this indication among the options given. Recognising clarithromycin as a core H. pylori eradication antibiotic is the fact this question tests.",
+        "D": "Clindamycin is a lincosamide antibiotic, not commonly used to eradicate intestinal Helicobacter pylori."
+      },
+      "main_concept": "CON-GIT-30993F476C9C94",
+      "topic": "GI pharmacology",
+      "subtopic": "H. pylori eradication",
+      "difficulty": "Easy",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #49, p.6; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "chemotherapy-induced-nausea.corticosteroid-adjunct",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q50",
+      "page": 7,
+      "title": "A patient receiving emetogenic chemotherapy for metastatic carcinoma, to prevent chemotherapy-induced nausea and vomiting, is likely to be treated with:",
+      "question": "A patient receiving emetogenic chemotherapy for metastatic carcinoma, to prevent chemotherapy-induced nausea and vomiting, is likely to be treated with:",
+      "options": {
+        "A": "Levodopa",
+        "B": "Methotrexate",
+        "C": "Misoprostol",
+        "D": "Dexamethasone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Levodopa is a dopamine precursor used in Parkinson disease, unrelated to preventing chemotherapy-induced nausea and vomiting, and would in fact tend to worsen nausea through dopaminergic stimulation.",
+        "B": "Methotrexate is itself a chemotherapy agent that can cause emesis, not a drug used to prevent it.",
+        "C": "Misoprostol, a prostaglandin analogue used for NSAID-ulcer prophylaxis, is not a standard treatment for chemotherapy-induced nausea and vomiting.",
+        "D": "Dexamethasone, a corticosteroid, is commonly used as an adjunct antiemetic alongside a 5-HT3 receptor antagonist such as ondansetron to prevent chemotherapy-induced nausea and vomiting from emetogenic chemotherapy. Adding a corticosteroid to the antiemetic regimen improves overall control of nausea and vomiting beyond what a 5-HT3 antagonist achieves alone, making this combination standard practice for patients receiving highly emetogenic chemotherapy. Recognising dexamethasone’s adjunct antiemetic role is the fact this question tests."
+      },
+      "main_concept": "CON-GIT-4A441C6FB51E0D",
+      "topic": "GI pharmacology",
+      "subtopic": "Chemotherapy-induced nausea and vomiting",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #50, p.7; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "loperamide.travellers-diarrhoea",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q51",
+      "page": 7,
+      "title": "A couple visiting Machu Picchu asks their doctor to prescribe an agent for diarrhoea. Which of the following would be effective?",
+      "question": "A couple visiting Machu Picchu asks their doctor to prescribe an agent for diarrhoea. Which of the following would be effective?",
+      "options": {
+        "A": "Omeprazole",
+        "B": "Loperamide",
+        "C": "Famotidine",
+        "D": "Lorazepam"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Omeprazole, a proton pump inhibitor, treats acid-related disease and has no role in managing acute diarrhoea.",
+        "B": "Loperamide would be an effective agent for this couple’s diarrhoea while travelling, since it is the standard antidiarrhoeal choice for travellers’ diarrhoea, slowing gut motility through an opioid-receptor mechanism in the bowel wall while producing minimal central effects at normal doses. Its ready availability without prescription and rapid symptomatic relief make it a practical choice for travellers needing quick control of acute diarrhoea. Recognising loperamide as the standard travellers’-diarrhoea treatment is the fact this question tests.",
+        "C": "Famotidine, an H2-receptor blocker, treats acid-related disease and has no role in managing acute diarrhoea.",
+        "D": "Lorazepam, a benzodiazepine anxiolytic, has no role in managing acute diarrhoea."
+      },
+      "main_concept": "CON-GIT-24C04F5BDAA140",
+      "topic": "GI pharmacology",
+      "subtopic": "Traveller's diarrhoea",
+      "difficulty": "Easy",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #51, p.7; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    },
+    {
+      "key": "metoclopramide.mechanism.d2-receptor-antagonist",
+      "id": "QST-HUGIT301-PHARMACOLOGY-Q52",
+      "page": 7,
+      "title": "A 58-year-old woman with diabetic gastroparesis is prescribed metoclopramide, a drug that acts as a:",
+      "question": "A 58-year-old woman with diabetic gastroparesis is prescribed metoclopramide, a drug that acts as a:",
+      "options": {
+        "A": "Beta1-adrenoceptor antagonist",
+        "B": "Dopamine D2-receptor antagonist",
+        "C": "Muscarinic cholinoreceptor antagonist",
+        "D": "Serotonin 5-HT1-receptor antagonist"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Metoclopramide is not a beta1-adrenoceptor antagonist; that mechanism describes a different drug class entirely, unrelated to its actual dopaminergic action.",
+        "B": "Metoclopramide acts as a dopamine D2-receptor antagonist, blocking D2 receptors both centrally, for its antiemetic effect, and peripherally in the gut, where this blockade enhances acetylcholine release and gastric motility for its prokinetic effect. This D2-antagonist mechanism is what makes metoclopramide useful in diabetic gastroparesis, where delayed gastric emptying from autonomic neuropathy benefits from the drug’s prokinetic action. Recognising metoclopramide’s D2-receptor antagonist mechanism is the fact this question tests.",
+        "C": "Metoclopramide is not a muscarinic cholinoreceptor antagonist; its prokinetic effect works by enhancing, not blocking, cholinergic transmission in the gut, opposite to what this option describes.",
+        "D": "Metoclopramide is not a serotonin 5-HT1-receptor antagonist; its established mechanism is dopamine D2-receptor antagonism, not action at the 5-HT1 receptor."
+      },
+      "main_concept": "CON-GIT-DD2C322C78B158",
+      "topic": "GI pharmacology",
+      "subtopic": "Prokinetics",
+      "difficulty": "Moderate",
+      "question_type": "Pharmacology",
+      "source_citation": "HU-GIT-301 Pharmacology MCQ bank (\"MCQs - Pharma MCQ [GIT].pdf\"), item #52, p.7; printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise",
+      "field_notes": {
+        "keySource": "printed key table rendered from the bank's own p.8 ('G.I.T. KEY ANSWERS'), not OCR text, which is unreadable noise"
+      }
+    }
+  ]
+}
