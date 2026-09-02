@@ -11281,3 +11281,630 @@ sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU
 relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
 au: Week 1 EOM Final, p7, q28
 
+---
+
+# Item
+
+## id
+CON-NEU-4463B2CC8A2A30
+
+## label
+The dorsal column (medial lemniscus) tract carries fine, discriminative touch
+
+## canonical_key
+physiology.sensory-pathway.fine-touch-dorsal-column
+
+## definition
+Fine (discriminative) touch, along with vibration sense and conscious proprioception, ascends via the dorsal column-medial lemniscus pathway: primary afferents run uncrossed in the fasciculus gracilis/cuneatus to the gracile/cuneate nuclei of the medulla, decussate as internal arcuate fibers to form the medial lemniscus, and reach the thalamus (VPL) before the cortex — carrying much higher spatial and temporal resolution than the cruder anterolateral (spinothalamic) system, which instead carries crude touch, pain and temperature.
+
+## explicit_objective
+State that the dorsal column (medial lemniscus) tract carries fine, discriminative touch.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Ascending sensory pathways
+
+## subtopic
+Fine touch: the dorsal column pathway
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Dorsal column medial lemniscus|Fine touch pathway|Fasciculus gracilis and cuneatus
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Attributing fine, discriminative touch to the anterior spinothalamic tract — that tract carries only crude touch and pressure; fine touch is dorsal column territory.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Spinal cord tracts > Somatosensory pathways
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p23 q91 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4463B2CC8A2A30
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Fine sensations of touch are transmitted by: A- Posterior spinocerebellar tract. B- Anterior spinothalamic tract. C- Anterior spinocerebellar tract. D- Dorsal column tract. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q51-100; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p23, q91
+
+---
+
+# Item
+
+## id
+CON-NEU-10FEF1B2C339C7
+
+## label
+This source's key for the lesion sparing left-foot thermal sensation
+
+## canonical_key
+physiology.sensory-pathway.thermal-sensation-lesion-localisation
+
+## definition
+Thermal sensation from the left foot ascends via the anterolateral (spinothalamic) pathway: second-order neurons decussate near their level of entry in the spinal cord and continue in the RIGHT anterolateral tract to the right thalamus (VPL) and cortex. Standard teaching therefore expects a right thalamic lesion to abolish, not spare, left-foot thermal sensation — but this source's own printed key marks 'right thalamus ablated' as the option that does NOT affect it, an apparent inversion of the expected laterality (see uncertainty).
+
+## explicit_objective
+Reproduce this source's printed answer for which lesion spares left-foot thermal sensation, while recognising the standard contralateral spinothalamic pathway it appears to invert.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Ascending sensory pathways
+
+## subtopic
+Thermal sensation pathway and lesion localisation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Spinothalamic tract lesion|Thermal sensation lateralisation|Anterolateral system decussation
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Applying the standard contralateral spinothalamic rule directly against this specific source's key without checking it — this particular paper's printed answer runs the opposite way from the textbook rule.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+This source's printed key (right thalamic ablation spares left-foot thermal sensation) runs against the standard contralateral spinothalamic pathway (a right thalamic lesion should abolish left-foot thermal sensation, since that pathway has already crossed). Kept as printed per LANE-CARD's 'printed keys stand' rule; the discrepancy is recorded here rather than silently corrected.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Spinal cord tracts > Somatosensory pathways
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p23 q92 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-10FEF1B2C339C7
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Thermal sensation from the left foot may not defected if: A- The right thalamus was ablated. B- The left cervical spinal cord is damaged. C- The left medulla ablongata is damaged. D- All of the above. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q51-100; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p23, q92
+
+---
+
+# Item
+
+## id
+CON-NEU-7AE3BE79AFEA3C
+
+## label
+This source's paired receptors for position sense: tactile and joint capsule
+
+## canonical_key
+physiology.proprioception.receptors-for-position-sense
+
+## definition
+Alongside the muscle spindle (the principal proprioceptor signalling muscle length and stretch), this source credits BOTH cutaneous (tactile) receptors and joint capsule receptors as contributors to position sense. Cutaneous input adds skin-stretch cues around a moving joint, while joint capsule mechanoreceptors signal joint angle directly, together supplementing the muscle spindle's own length information.
+
+## explicit_objective
+State that this source credits position sense to the muscle spindle together with both tactile and joint capsule receptors.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptor physiology
+
+## subtopic
+Receptors contributing to proprioception/position sense
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Proprioception receptors|Joint capsule receptor|Position sense muscle spindle
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Substituting the Golgi tendon organ for the tactile/joint-capsule pairing this specific source credits alongside the muscle spindle for position sense.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+The extracted option text reads 'tractile,' most plausibly a typo for 'tactile' (cutaneous), read literally here; standard teaching more often credits the Golgi tendon organ alongside joint receptors for proprioception rather than cutaneous receptors, but the printed key is kept per LANE-CARD.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p23 q94 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-7AE3BE79AFEA3C
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Position sense or more commonly proproceptive sensation involves muscle spindle and which of the following: A- Skin tractile receptor. B- Deep receptor in joints. C- Both tractile and joint capsule receptor. D- Pacinian corpusle. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q51-100; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p23, q94
+
+---
+
+# Item
+
+## id
+CON-NEU-84C30C501F11A6
+
+## label
+The action potential is the non-graded potential among receptor, end-plate and postsynaptic potentials
+
+## canonical_key
+physiology.membrane-potential.graded-vs-action-potential
+
+## definition
+The action potential is all-or-none: once threshold is reached it fires at a fixed amplitude regardless of how far the stimulus exceeds threshold. The end-plate potential, the receptor (generator) potential, and the postsynaptic potential (EPSP/IPSP) are all graded instead — their amplitude varies continuously with stimulus or synaptic input strength, and they can summate spatially and temporally, unlike the action potential.
+
+## explicit_objective
+Identify the action potential as the one non-graded (all-or-none) potential among these four.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Membrane physiology
+
+## subtopic
+Graded potentials vs. the action potential
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Graded potential vs action potential|All-or-none law|End-plate potential
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Treating the receptor or end-plate potential as all-or-none like the action potential — those are graded, summating potentials; only the action potential obeys the all-or-none law.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p23 q95 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-84C30C501F11A6
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following is not a graded potential: A- End palate potential. B- Action potential. C- Receptor potential. D- Post synaptic potential. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q51-100; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p23, q95

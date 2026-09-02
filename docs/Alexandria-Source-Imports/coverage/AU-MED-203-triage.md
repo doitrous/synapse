@@ -116,6 +116,7 @@ specific artery-origin facts, sleep-stage EEG details, receptor-adaptation physi
 |---|--:|--:|--:|--:|--:|--:|---|
 | AU-MED-203 (Quizzes 1-4 only) | 134 | 134 | ~121 | 4 (confirmed) | 2 (confirmed) | ~115 (49 confirmed + ~66 not yet individually searched) | TBD — see field_notes; concepts split roughly Anatomy (cranial nerves, pharyngeal arch derivatives, cerebellar/thalamic nuclei), Physiology (reflexes, receptor physiology, sleep, pain pathways), Histology (retina layers, cerebellar cortex layers) |
 | AU-MED-203 Week 1 EOM Final (first 50 of 151) | 48 | 48 | 47 | 0 | 1 (confirmed) | 47 confirmed NEW, all minted | Anatomy 19 (facial nerve/scalp, dural folds/venous sinuses), Physiology 23 (general sensory receptor physiology, muscle spindle/Golgi tendon organ), Histology 5 (muscle spindle, craniospinal ganglion, Pacinian corpuscle) |
+| AU-MED-203 Week 1 EOM Final (Q51-100 of 151) | 50 | 50 | 38 | 0 | 0 | 35 confirmed NEW, all minted; 3 reuse existing week1a/Quiz-3-4 concepts | Anatomy 31 (dural folds/cavernous sinus extension, facial nerve/scalp, posterior triangle/neck veins/lymphatics), Physiology 4 (ascending sensory pathways, receptor coding) |
 
 ## Week 1 EOM Final — chief-of-staff STEP2 dispatch, lane 4, 2026-09-02
 
@@ -140,13 +141,46 @@ ASU-CNS-3 concept + question pair (not yet imported to production) and was HELD 
 duplicate-of, not re-authored — see `AU-MED-203-LEDGER.md`'s Held section. Q101-151 (past
 this pass's first-50 read) remain untriaged for a future pass.
 
+## Week 1 EOM Final, Q51-100 — lane 5, 2026-09-02
+
+Continued directly from lane 4's stop point (`00aa997a`, Q1-50 done, Q101-151 remaining).
+Read `status` → `show` ≤3 pages/call, pages 13-24 (Q51-100 span these 12 pages at 5
+questions/page, with two intervening essay-question pages at p15 and p22 that reset their
+own 1-6 numbering and were excluded, not counted). Q51-98 and Q100 (49 questions) keyed
+from each page's own inline answer line and authored; **Q99 held** — the extracted text
+carries only 3 answer options (a-c), no fourth choice, confirmed via `pagetext.mjs grep`
+against the raw text (not an OCR artifact) — a genuine source defect, not authored rather
+than inventing a distractor.
+
+All 49 keyed questions were checked via `find-existing.mjs` (label/alias/canonical_key/
+definition terms) against live state, every pending batch (incl. ASU-CNS-3, Kasr) and this
+module's own quiz1-4/week1a concept files before minting. This half of the paper continues
+directly into topics the first half (Q1-50) had already opened — dural folds, the cavernous
+sinus, sternocleidomastoid — so several questions were cross-checked BY HAND against the
+already-minted week1a/Quiz-3-4 concept list (not just `find-existing.mjs`, whose exact-
+substring matching missed at least one same-fact restatement): 3 questions (week1-q55, a
+straight-sinus-formation restatement; week1-q93, a stimulus-intensity-coding restatement)
+reuse an existing week1a concept outright, and 3 more (week1-q74/75/86) reuse the existing
+Workshop Quiz 3-4 sternocleidomastoid-action concept. Within this half's own 49 questions,
+8 near-duplicate angles on the same fact were collapsed to one concept each per the
+module's established precedent (occipital-artery/anterior-auricle, orbicularis-oculi-
+orbital-part-action, facial-artery-branches, great-auricular-nerve/angle-of-mandible x3,
+buccal-branch-mandibular-vs-facial, second-arch-facial-expression-muscles, buccinator-
+function, ophthalmic-nerve-branches) — 35 concepts minted in total for 49 questions, 38
+distinct concepts tested overall. No HIT-LIVE or HIT-PENDING found this pass. Two printed
+keys diverge from standard teaching and are kept per LANE-CARD with doubts recorded on the
+concept record: week1-q92 (thermal sensation lesion localisation — the key's laterality
+appears inverted against the standard crossed spinothalamic pathway) and week1-q94
+(position-sense receptors — the source's "tractile" option is read literally as a probable
+typo for "tactile"). Q101-151 remain untriaged for a future pass.
+
 ## Not triaged this module (queued, see priority-sources doc for the full list)
 
 - 2 stream-specific EOM finals (`Final CNS مصريين 2027`, `Final CS وافدين 2027`)
 - Mock 2027 question+answer pair (43pg each)
 - `EOM MCQs - Previous Years CNS MCQ with answers.pdf` (87pg — largest single keyed source
   in the module)
-- Week 1 EOM Final's own Q101-151 tail (see section above — first 50 of 151 triaged)
+- Week 1 EOM Final's own Q101-151 tail (see sections above — first 100 of 151 triaged)
 - 3 further weekly EOM finals (`CNS- week 2/3/4+5 Final`, 27-48pg each)
 - 5 further Mock variants (`CNS mock`, `MOCK 1 CNS`, `cns mock exam`, `Mock CNS answers`,
   `mock CNS with answers`)
@@ -159,6 +193,6 @@ this pass's first-50 read) remain untriaged for a future pass.
 - 259 lecture-slide files, 62 practical files, 33 department-book files (not exam
   material — module content, read at S2 when authoring the module's articles)
 
-`ledger.mjs` triage-keys file: `coverage/AU-MED-203-triage-keys.txt` (182 keys, one per
+`ledger.mjs` triage-keys file: `coverage/AU-MED-203-triage-keys.txt` (241 keys, one per
 triaged question, `quiz1-q01`…`quiz4-q34` plus `week1-q01`…`week1-q28`,`week1-q31`…
-`week1-q50`).
+`week1-q100`).

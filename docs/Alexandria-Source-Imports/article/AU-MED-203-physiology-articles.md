@@ -112,6 +112,8 @@ The Week 1 EOM Final adds a general sensory-receptor physiology cluster the earl
 
 The muscle spindle and Golgi tendon organ receive further, more granular treatment in this cluster, building on the pair's basic length-vs-tension distinction already established. Muscle tissue as a whole carries pain receptors/nociceptors and Pacinian-type receptors alongside its classical proprioceptors. The intrafusal fiber's central equatorial region is specialised by being filled with a gelatinous substance (most pronounced in the nuclear bag fiber) rather than ordinary contractile sarcomeres; the muscle spindle is the ONLY receptor with both sensory AND motor innervation, its motor supply specifically via MYELINATED gamma efferent fibers (not alpha efferents, which supply extrafusal fibers instead), while the Golgi tendon organ remains purely sensory. Functionally, the muscle spindle monitors the degree of muscle STRETCH while the Golgi tendon organ monitors the FORCE of muscle contraction, and it is the muscle spindle, not the tendon organ, that is responsible for the (myotatic) stretch reflex. Among the spindle's own sensory endings, the flower-spray (secondary, group II) ending characteristically encircles the more peripheral part of the nuclear region, chiefly on nuclear chain fibers, complementing the annulospiral (primary, Ia) ending's central/equatorial position already established.
 
+Continuing past Q50, the Week 1 EOM Final's second half (Q51-100) turns from single-receptor physiology to the ascending pathways that carry their signals centrally, plus two further general receptor-coding facts. Fine, discriminative touch (together with vibration and conscious proprioception) ascends via the dorsal column-medial lemniscus pathway — uncrossed to the gracile/cuneate nuclei, then crossing as internal arcuate fibers to the medial lemniscus and thalamus — a higher-resolution route than the cruder anterolateral (spinothalamic) system already established for pain, temperature and crude touch. This source separately credits position sense to the muscle spindle together with both cutaneous (tactile) and joint capsule receptors, and restates the module's stimulus-intensity coding rule (action potential frequency rising directly, not inversely, with stimulus strength) alongside a complementary fact: among receptor, end-plate and postsynaptic potentials — all graded and summating — only the action potential itself remains genuinely all-or-none (non-graded). A lesion-localisation question on thermal sensation from the left foot is also drawn from this source, with a printed key ('right thalamic ablation spares it') that runs against the standard contralateral spinothalamic pathway (a right-thalamic lesion, receiving already-crossed left-body input, would be expected to abolish rather than spare left-foot thermal sensation); the printed key is kept per the module's sourcing rules, with the discrepancy flagged on the concept's own record.
+
 ## published_summary
 
 
@@ -263,6 +265,10 @@ CON-NEU-88F95673CA38E8
 CON-NEU-8B02B0EFEE96F5
 CON-NEU-8B5B9FAD59E176
 CON-NEU-8B7331C065515B
+CON-NEU-4463B2CC8A2A30
+CON-NEU-10FEF1B2C339C7
+CON-NEU-7AE3BE79AFEA3C
+CON-NEU-84C30C501F11A6
 
 ## related_articles
 
