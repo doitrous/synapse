@@ -1,0 +1,112 @@
+{
+  "lane": "ASU-HCB",
+  "cluster": "cell",
+  "header": "ASU-HCB · Cell biology — all 46 questions of the ASU HCB Dr. Hegazy cell-biology MCQ bank (\"Cell MCQ set2\", sourceId src_6c35f6fae7691b0bdcc8), native text, keys read from the printed answer key table at the foot of PDF page 8. 43 of the 46 questions reuse existing pending Kasr 101-ISK (or 108-INT) cytology/pathology concepts via a sparse overlay (pending-live/ASU-HCB-cell-mcq-overlay-concepts.md) after a per-concept find-existing.mjs search; the remaining 3 (constitutive/regulated secretion, tubular mitochondrial cristae, phase-contrast microscopy) had no existing match and are minted fresh in concept/ASU-HCB-cell-mcq-concepts.md with a matching new article. See coverage/ASU-HCB-triage.md block A for the source triage.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-HCB",
+    "module_subject": "ASU-HCB > Histology > Questions > Cell biology",
+    "exam_weight_by_year": {
+      "ASU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-FND-LYSOSOMAL-MEMBRANE-PROTECTION"
+    ],
+    "resource_ids": [
+      "src_6c35f6fae7691b0bdcc8"
+    ],
+    "source_citation": "Cell MCQ set2 (Dr. Hegazy), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "cell-q06",
+      "page": 2,
+      "title": "How a lysosome resists its own enzymes",
+      "question": "Lysosomes resist digestion by their own hydrolytic enzymes due to presence of:",
+      "options": {
+        "A": "surrounding monolayer of phospholipid.",
+        "B": "7.2 pH",
+        "C": "surrounding Lipopolysaccharides.",
+        "D": "highly glycosylated membrane proteins.",
+        "E": "inactive proton pumps"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The lysosome is bounded by a single unit (bilayer) membrane like other cytoplasmic membranes, not by a monolayer, and a monolayer is not the protective feature being tested here.",
+        "B": "Incorrect. A pH of 7.2 is roughly neutral/cytosolic, not the acidic lysosomal environment, and pH alone is not the membrane-protection mechanism being asked about.",
+        "C": "Incorrect. Lipopolysaccharide is a bacterial cell-wall component, not a feature of the mammalian lysosomal membrane.",
+        "D": "Correct. The lysosomal membrane resists its own hydrolytic enzymes through unusual phospholipid content together with highly glycosylated membrane proteins, which present a protective sugar coat on the luminal face that shields the membrane proteins from the very enzymes the lysosome contains. This structural, membrane-based protection is why the lysosome can hold active digestive enzymes without digesting itself. It is a commonly tested cell-biology mechanism distinguishing structural protection from any idea that the enzymes are simply too weak to act on their own membrane.",
+        "E": "Incorrect. Lysosomal proton pumps are active, not inactive — they actively transport hydrogen ions into the lumen to keep it acidic, which is a different mechanism (enzyme activation) from membrane self-protection."
+      },
+      "main_concept": "CON-FND-723422089B7EC1",
+      "concept_ids": [
+        "CON-FND-723422089B7EC1"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Lysosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Explain how the lysosomal membrane protects itself from digestion by its own hydrolytic enzymes.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-FND-LYSOSOMAL-MEMBRANE-PROTECTION"
+      ]
+    },
+    {
+      "key": "cell-q08",
+      "page": 2,
+      "title": "Optimal pH for lysosomal enzyme activity",
+      "question": "Lysosomal enzymes are active at which of the following pH?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A pH of 4 is more acidic than the lysosomal lumen's typical working range and is not the value given for hydrolase activity here.",
+        "B": "Correct. Lysosomal proton pumps transport hydrogen ions into the lumen, creating a low, acidic medium — around pH 5 — that is the condition needed to activate the lysosome's hydrolytic enzymes. Outside this acidic range the same hydrolases are far less active, which both protects the neutral-pH cytosol if a lysosome should leak and confines effective digestion to the lysosomal compartment itself. This pairing of proton-pump acidification with hydrolase activation is a core, frequently tested lysosome fact.",
+        "C": "Incorrect. A pH of 6 is closer to neutral than the acidic optimum described for lysosomal hydrolase activity.",
+        "D": "Incorrect. A pH of 7 is essentially neutral, the cytosolic pH the lysosome's acidic lumen is specifically distinguished from.",
+        "E": "Incorrect. A pH of 8 is alkaline, the opposite direction from the acidic lysosomal lumen."
+      },
+      "main_concept": "CON-FND-C13668BA5E6CED",
+      "concept_ids": [
+        "CON-FND-C13668BA5E6CED"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Lysosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State the acidic pH at which lysosomal hydrolytic enzymes are active.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-FND-LYSOSOMAL-MEMBRANE-PROTECTION"
+      ]
+    }
+  ]
+}

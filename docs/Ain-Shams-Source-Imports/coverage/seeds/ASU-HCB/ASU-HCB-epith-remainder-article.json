@@ -1,0 +1,210 @@
+{
+  "lane": "ASU-HCB",
+  "cluster": "epith",
+  "header": "ASU-HCB · Epithelium — remaining questions of the ASU HCB Dr. Hegazy epithelium MCQ bank (\"MCQs - epith MCQ.pdf\", sourceId src_b86ae41ff2e749179215) not covered by the first epithelium-classification/gland-secretion batch: metaplasia terminology (epith-q02, epith-q26, both reuse the existing growth-abnormality concept), the terminal web (epith-q12/q15, newly minted — no existing concept named it as its own idea) and the false 'constant thickness' statement (epith-q16, newly minted). Native text, keys read from the printed answer key table at the foot of PDF page 6.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-HCB",
+    "module_subject": "ASU-HCB > Histology > Questions > Epithelium classification",
+    "exam_weight_by_year": {
+      "ASU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-FND-ASU-HCB-EPITHELIUM-CLASSIFICATION"
+    ],
+    "resource_ids": [
+      "src_b86ae41ff2e749179215"
+    ],
+    "source_citation": "epith MCQ (Dr. Hegazy), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "epith-q02",
+      "page": 1,
+      "title": "Term for change of one epithelium type to another",
+      "question": "Change of type of epithelium into another type is called :",
+      "options": {
+        "A": "Hyperplasia",
+        "B": "Metaplasia",
+        "C": "Increased mitosis",
+        "D": "Tumor formation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hyperplasia is an increase in cell number of the same type, not a change from one epithelial type to another.",
+        "B": "Correct. Metaplasia is defined as a reversible change of one epithelial type into another — the cell population itself is replaced by a different, better-adapted epithelial type, without the epithelium becoming a tumour. This is the specific term the bank is testing whenever a question describes an epithelium changing its type, as opposed to changing in number (hyperplasia), degree of disorder (dysplasia) or becoming neoplastic.",
+        "C": "Incorrect. Increased mitosis alone describes more cell division, not a change of epithelial type.",
+        "D": "Incorrect. Tumour formation is neoplasia, an abnormal increase in the growth of cells, a different and more serious process than the reversible type-change of metaplasia."
+      },
+      "main_concept": "CON-FND-7D2D2317ED6E46",
+      "concept_ids": [
+        "CON-FND-7D2D2317ED6E46"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Epithelium",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name metaplasia as the term for a reversible change of one epithelial type into another.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q26",
+      "page": 5,
+      "title": "Term for a reversible change in lining epithelium type",
+      "question": "Reversible abnormal change in the type of lining epithelium of a tissue is called",
+      "options": {
+        "A": "Dysplasia",
+        "B": "Metaplasia",
+        "C": "Neoplasia",
+        "D": "Elasticity",
+        "E": "Plasticity"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Dysplasia is disordered growth that falls short of tumour formation, not specifically a reversible change of epithelial type.",
+        "B": "Correct. Metaplasia is exactly this: a reversible abnormal change in the type of lining epithelium of a tissue — the tissue swaps one epithelial type for another better suited to a changed local condition (for example chronic irritation), and the change can revert if the stimulus is removed. This reversibility is the specific feature this rephrasing of the question is testing, distinguishing metaplasia from the non-reversible, more severe categories dysplasia and neoplasia.",
+        "C": "Incorrect. Neoplasia is an abnormal increase in the growth of cells (tumour formation), not a reversible change of epithelial type.",
+        "D": "Incorrect. Elasticity is a mechanical property of tissue, not a term for epithelial type change.",
+        "E": "Incorrect. Plasticity is not the specific histological term used for a reversible epithelial type change; that term is metaplasia."
+      },
+      "main_concept": "CON-FND-7D2D2317ED6E46",
+      "concept_ids": [
+        "CON-FND-7D2D2317ED6E46"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Epithelium",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that metaplasia is specifically defined as reversible.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q12",
+      "page": 2,
+      "title": "Characteristic of the terminal web",
+      "question": "Which of the following is a characteristic of the terminal web of the epithelial cells?",
+      "options": {
+        "A": "It is located at the basal cytoplasm of the cell.",
+        "B": "It is associated with the axoneme of the cilia.",
+        "C": "It is associated with the basal body of the cilia,",
+        "D": "It is formed of actin and intermediate filaments",
+        "E": "It is associated with mitochondria."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The terminal web lies in the apical cytoplasm, just beneath the free surface, not the basal cytoplasm.",
+        "B": "Incorrect. The axoneme is the microtubular core of the cilium itself; the terminal web is a separate actin/intermediate-filament network, not part of the axoneme.",
+        "C": "Incorrect. While the terminal web does anchor the basal bodies of cilia, this option names the basal body rather than the terminal web's own composition, which is the specific feature this question tests.",
+        "D": "Correct. The terminal web is a dense network of cytoskeletal filaments — actin and intermediate filaments — lying in the apical cytoplasm of an absorptive or ciliated epithelial cell. Microvillus actin cores insert into it and it anchors the basal bodies of cilia, giving the apical cytoplasm structural support distinct from the rest of the cell. This actin-plus-intermediate-filament composition is precisely the characteristic being tested.",
+        "E": "Incorrect. Mitochondria are not a structural component of the terminal web; the terminal web is a cytoskeletal filament network, not an organelle association."
+      },
+      "main_concept": "CON-FND-32F71AC8F702D5",
+      "concept_ids": [
+        "CON-FND-32F71AC8F702D5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Epithelium",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the terminal web is formed of actin and intermediate filaments.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q15",
+      "page": 3,
+      "title": "Name for the apical filament network",
+      "question": "A dense network of cytoskeletal filaments in the apical cytoplasm of the epithelial cells is called....",
+      "options": {
+        "A": "Terminal web.",
+        "B": "Basal body.",
+        "C": "Axoneme.",
+        "D": "Microtubule organizing center.",
+        "E": "Centrosome"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The terminal web is exactly this: a dense network of cytoskeletal filaments — actin and intermediate filaments — lying in the apical cytoplasm of an absorptive or ciliated epithelial cell, giving that region structural support and anchoring microvillus cores and ciliary basal bodies. This apical-location-plus-dense-filament-network description is the defining feature this question is testing.",
+        "B": "Incorrect. The basal body is a single centriole-derived structure at the base of one cilium, not a filament network filling the apical cytoplasm generally.",
+        "C": "Incorrect. The axoneme is the microtubular core running the length of a single cilium, not the apical cytoplasm's filament network.",
+        "D": "Incorrect. The microtubule organising centre is the centrosome/centriole-containing structure that nucleates microtubules, an entirely different structure from the actin/intermediate-filament terminal web.",
+        "E": "Incorrect. The centrosome is the microtubule organising centre near the nucleus, not the apical cytoplasmic filament network being described."
+      },
+      "main_concept": "CON-FND-32F71AC8F702D5",
+      "concept_ids": [
+        "CON-FND-32F71AC8F702D5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Epithelium",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name the terminal web as the dense apical cytoskeletal filament network of the epithelial cell.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q16",
+      "page": 3,
+      "title": "False statement about epithelium",
+      "question": "Each of the following statements concerning the epithelium is true EXCEPT:",
+      "options": {
+        "A": "They have constant thickness.",
+        "B": "They have a strong lateral adhesions.",
+        "C": "They do not contain blood vesseles.",
+        "D": "They have polarity."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct — this is the false statement. Epithelium does not have a constant thickness: thickness varies by epithelial type and body site, from a single layer in simple epithelium to many layers in stratified epithelium, so \"constant thickness\" is the one listed property that does not describe epithelium as a tissue class. Recognising thickness as the variable feature, alongside the genuinely constant ones listed in the other options, is exactly what this \"except\" question is testing.",
+        "B": "Incorrect (i.e. a true statement). Epithelium genuinely has strong lateral adhesions between its cells, provided by the lateral junctions (tight junction, adherens junctions, desmosomes and gap junctions).",
+        "C": "Incorrect (i.e. a true statement). Epithelium genuinely does not contain blood vessels — it is avascular and nourished by diffusion from the underlying connective tissue.",
+        "D": "Incorrect (i.e. a true statement). Epithelium genuinely does show polarity, the structural and functional difference between its apical and basal surfaces."
+      },
+      "main_concept": "CON-FND-02F82BC3FA3ACC",
+      "concept_ids": [
+        "CON-FND-02F82BC3FA3ACC"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Epithelium",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that epithelium does not have a constant thickness, unlike its genuinely constant features (avascularity, lateral adhesion, polarity).",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    }
+  ]
+}
