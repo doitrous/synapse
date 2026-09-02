@@ -919,4 +919,473 @@ Block: body
 ### definition_of · CON-FND-01FE2E5920BF31
 Quote: Chemotaxis is the directed movement of leukocytes along a chemical gradient toward the site of injury or infection
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANS-CHOLINERGIC-ADRENERGIC-TRANSMISSION
+
+## title
+Introduction to the autonomic nervous system: cholinergic transmission, receptor specificity and muscarinic subtypes
+
+## arabic_title
+مقدمة في الجهاز العصبي الذاتي: الانتقال الكوليني ونوعية المستقبلات وأنواع مستقبلات المسكارين
+
+## aliases
+Introduction to Autonomic Nervous System
+AUN-MPT-104 Lecture 18
+
+## subject
+fnd
+
+## topic
+Introduction to Autonomic Nervous System
+
+## subtopic
+Cholinergic transmission, receptor specificity, muscarinic subtypes
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Four teaching points from AUN-MPT-104's Lecture 18 quiz, no department slide deck existing in the corpus past Lecture 8: acetylcholine's dual muscarinic/nicotinic receptor activation versus noradrenaline's exclusively adrenergic activation; the parasympathetic system's craniosacral origin and rest-and-digest functions; calcium-triggered presynaptic acetylcholine release and its termination by acetylcholinesterase; and the Gq/IP3-DAG signalling of M3 muscarinic receptors, contrasted with the Gi/cAMP signalling of the M2 receptor reused from a pending Kasr 208-INT concept.
+
+## sections
+### Definition
+Acetylcholine is the transmitter of the cholinergic system, activating both muscarinic receptors (at postganglionic parasympathetic effector junctions) and nicotinic receptors (at every autonomic ganglion and the neuromuscular junction); noradrenaline is the transmitter of the adrenergic system and activates only adrenergic receptors, with no cross-over between the two. The parasympathetic division is craniosacral in origin (cranial nerve nuclei III, VII, IX, X plus sacral cord segments S2-S4) and governs rest-and-digest functions: near-vision accommodation, GI motility and urination. Neurotransmitter release, including of acetylcholine, happens at the presynaptic terminal and is triggered by calcium influx following an arriving action potential; the released transmitter is then terminated by acetylcholinesterase. M3 muscarinic receptors, unlike the Gi-coupled, cAMP-lowering M2 receptor, are Gq-coupled and signal through IP3/DAG.
+
+### Mechanism
+An arriving action potential opens voltage-gated calcium channels at the presynaptic nerve terminal; the resulting Ca2+ influx is the proximate trigger for vesicular acetylcholine release into the synaptic cleft. Once released, acetylcholine can act on muscarinic receptors (Gi-coupled M2 in the heart, lowering cAMP and slowing heart rate; Gq-coupled M3 on glands and smooth muscle, raising IP3/DAG) or nicotinic receptors (ligand-gated ion channels at ganglia and the neuromuscular junction), before acetylcholinesterase hydrolyses it and ends its action. Sympathetic ganglionic transmission and all parasympathetic transmission (both pre- and postganglionic) is cholinergic; only the postganglionic sympathetic synapse onto the effector organ (with a few cholinergic exceptions) switches the transmitter to noradrenaline acting on adrenergic receptors.
+
+### Key determinants
+Which receptor a transmitter activates (acetylcholine: muscarinic and nicotinic; noradrenaline: adrenergic only), which anatomical outflow a division uses (parasympathetic: craniosacral; sympathetic: thoracolumbar), and which second messenger a muscarinic subtype uses (M2: Gi/cAMP-down; M3: Gq/IP3-DAG-up) are the three axes this lecture's quiz items test against plausible-sounding distractors.
+
+### Clinical significance
+Recognising M2 (cardiac, Gi/cAMP) versus M3 (glandular/smooth-muscle, Gq/IP3-DAG) signalling explains, at the bedside, why a muscarinic antagonist given for one indication (for example antispasmodic use via M3) predictably also raises heart rate (an M2 effect) as a side effect -- the two subtypes are pharmacologically inseparable in a non-selective antimuscarinic.
+
+### Common misconceptions
+Assuming noradrenaline can activate muscarinic receptors, or that sympathetic activation lowers blood pressure. Confusing the craniosacral (parasympathetic) and thoracolumbar (sympathetic) outflow labels. Saying neurotransmitter release is triggered postsynaptically rather than by presynaptic calcium influx. Treating all muscarinic receptor subtypes as using the same second messenger.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Acetylcholine activates muscarinic AND nicotinic receptors; noradrenaline activates adrenergic receptors only -- no cross-over.
+Parasympathetic = craniosacral outflow (III, VII, IX, X + S2-S4); functions = accommodation, GI motility, urination.
+Calcium influx at the presynaptic terminal triggers ACh release; acetylcholinesterase terminates it.
+M3 = Gq-coupled, IP3/DAG, raised by stimulation and lowered by blockade. M2 (reused concept) = Gi-coupled, cAMP lowered.
+
+## lose_the_mark
+Pairing acetylcholine with an adrenergic receptor, or noradrenaline with a muscarinic receptor.
+Reversing the craniosacral/thoracolumbar outflow labels.
+Saying neurotransmitter release is triggered by the postsynaptic cell rather than presynaptic calcium influx.
+Treating M2 and M3 as sharing one second-messenger pathway.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-8D4CB02987AB8A
+CON-FND-393530A59974BE
+CON-FND-DFCB638ECE2899
+CON-FND-5530C30545ED40
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 18 -- no department slide deck exists in the corpus past Lecture 8, so these four gap-fill concepts cite the quiz bank's own printed-answer text instead, same handling already used for the Lecture 9-17 gap-fill concepts.
+
+## annotations
+### definition_of · CON-FND-8D4CB02987AB8A
+Quote: Acetylcholine is the transmitter of the cholinergic system, activating both muscarinic receptors (at postganglionic parasympathetic effector junctions) and nicotinic receptors (at every autonomic ganglion and the neuromuscular junction); noradrenaline is the transmitter of the adrenergic system and activates only adrenergic receptors, with no cross-over between the two
+Block: body
+
+### definition_of · CON-FND-393530A59974BE
+Quote: The parasympathetic division is craniosacral in origin (cranial nerve nuclei III, VII, IX, X plus sacral cord segments S2-S4) and governs rest-and-digest functions: near-vision accommodation, GI motility and urination
+Block: body
+
+### definition_of · CON-FND-DFCB638ECE2899
+Quote: Neurotransmitter release, including of acetylcholine, happens at the presynaptic terminal and is triggered by calcium influx following an arriving action potential; the released transmitter is then terminated by acetylcholinesterase
+Block: body
+
+### definition_of · CON-FND-5530C30545ED40
+Quote: M3 muscarinic receptors, unlike the Gi-coupled, cAMP-lowering M2 receptor, are Gq-coupled and signal through IP3/DAG
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-CATARRHAL-INFLAMMATION
+
+## title
+Catarrhal inflammation: definition and outcome
+
+## arabic_title
+الالتهاب النزلي: التعريف والمآل
+
+## aliases
+Acute non suppurative inflammation
+AUN-MPT-104 Lecture 21
+
+## subject
+fnd
+
+## topic
+Acute non suppurative inflammation
+
+## subtopic
+Catarrhal inflammation
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+One teaching point from AUN-MPT-104's Lecture 21 quiz, no department slide deck existing in the corpus past Lecture 8 and no pending concept matching this general definitional grain (existing hits were specific to acute laryngitis): catarrhal inflammation's definition and its usual outcome.
+
+## sections
+### Definition
+Catarrhal inflammation is a pattern of acute non-suppurative inflammation whose main feature is excess mucous or serous secretion from a superficial mucosal surface. Because it involves only the superficial mucosal epithelium without substantial tissue destruction, its usual outcome is complete resolution with tissue repair, rather than suppuration, fibrosis or ulceration/perforation.
+
+### Mechanism
+Mild irritation or infection of a mucosal surface (respiratory or gastrointestinal) stimulates the mucosa's own secretory cells without the substantial neutrophilic, pus-forming response of suppurative inflammation or the deeper necrosis of more destructive patterns -- so once the irritant is cleared, the epithelium repairs itself completely.
+
+### Key determinants
+The feature tested (excess mucosal secretion) and the outcome tested (resolution and repair, not suppuration/fibrosis/ulceration) are the two axes this lecture's quiz items test against plausible-sounding distractors.
+
+### Clinical significance
+The common cold's runny nose and a mild bout of gastroenteritis are everyday examples of catarrhal inflammation resolving completely once the irritant clears.
+
+### Common misconceptions
+Assuming catarrhal inflammation's outcome is suppuration, fibrosis, or ulceration/perforation, which describe other, more destructive inflammatory patterns.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Catarrhal inflammation = excess secretion from a mucosal surface.
+Usual outcome = resolution and tissue repair, NOT suppuration/fibrosis/ulceration.
+
+## lose_the_mark
+Answering that catarrhal inflammation typically progresses to suppuration, fibrosis, or ulceration/perforation.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-31FA684CE9E7C9
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 21 -- no department slide deck exists in the corpus past Lecture 8, so this gap-fill concept cites the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-31FA684CE9E7C9
+Quote: Catarrhal inflammation is a pattern of acute non-suppurative inflammation whose main feature is excess mucous or serous secretion from a superficial mucosal surface
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## title
+Parasympathetic pharmacology: direct-acting agonists, cholinesterase inhibitors and organophosphate poisoning
+
+## arabic_title
+أدوية الجهاز نظير الودي: المنشطات المباشرة، مثبطات الكولينستريز، والتسمم بالفوسفات العضوي
+
+## aliases
+Parasympathetic nervous system (Agonists) 1
+Parasympathetic nervous system (Agonists) 2
+AUN-MPT-104 Lectures 20, 22
+
+## subject
+fnd
+
+## topic
+Parasympathetic nervous system (Agonists) 1 and 2
+
+## subtopic
+Direct-acting cholinomimetics, cholinesterase inhibitors, organophosphate poisoning
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Nine teaching points from AUN-MPT-104's Lecture 20 and 22 quizzes, no department slide deck existing in the corpus past Lecture 8: why acetylcholine itself is not used clinically; muscarinic ocular/glandular effects; bethanechol and carbachol as direct-acting, AChE-resistant agonists; the direct-vs-indirect-acting overdose distinction; edrophonium's diagnostic use; echothiophate as an irreversible inhibitor; the muscarinic-excess picture of organophosphate poisoning; and why muscarinic antagonists worsen radiation-induced xerostomia.
+
+## sections
+### Definition
+Acetylcholine itself is unsuitable for clinical use: it lacks receptor selectivity and is hydrolysed almost instantly, so the doses needed for a sustained effect would be impractically high. Muscarinic stimulation in the eye produces miosis and spasm of accommodation, not mydriasis. Bethanechol and carbachol are direct-acting, acetylcholinesterase-resistant muscarinic agonists -- bethanechol for postoperative bowel/bladder atony and urinary retention, carbachol for its dual nicotinic/muscarinic ocular miotic effect. A direct-acting agonist can act at non-innervated muscarinic receptors (causing hypotension on overdose), while an indirect-acting acetylcholinesterase inhibitor like neostigmine also potentiates nicotinic transmission at the neuromuscular junction, affecting skeletal muscle and producing a cholinergic crisis on overdose. Edrophonium's brief action makes it the diagnostic test for myasthenic versus cholinergic crisis. Echothiophate is an irreversible, organophosphate-type inhibitor used topically for glaucoma. Organophosphate and nerve-agent poisoning produces a muscarinic-excess picture: salivation, lacrimation, GI cramps/diarrhoea, urination and miosis. Muscarinic antagonists reduce, rather than improve, salivary secretion, and would worsen radiation-induced xerostomia.
+
+### Mechanism
+Direct-acting agonists (bethanechol, carbachol, pilocarpine) bind muscarinic receptors themselves and resist acetylcholinesterase, giving a longer duration of action than endogenous acetylcholine; because they can reach muscarinic receptors with no cholinergic innervation (such as vascular endothelium), an overdose can produce effects -- like hypotension -- that an indirect-acting agent cannot. Indirect-acting acetylcholinesterase inhibitors (neostigmine, physostigmine, edrophonium, echothiophate) instead let endogenous acetylcholine accumulate wherever it is already released, including the neuromuscular junction's nicotinic receptors, which is why they (unlike a muscarinic-selective direct agonist) affect skeletal muscle and can precipitate a cholinergic crisis on overdose. Reversible inhibitors (neostigmine, physostigmine, edrophonium, rivastigmine) form a temporary enzyme complex; echothiophate's organophosphate-type phosphorylation is essentially irreversible, matching the mechanism of organophosphate pesticide and nerve-agent poisoning itself, which floods muscarinic receptors with endogenous acetylcholine and produces the muscarinic-excess (salivation, lacrimation, diarrhoea, urination, miosis) picture.
+
+### Key determinants
+Direct-acting versus indirect-acting mechanism, reversible versus irreversible cholinesterase inhibition, and muscarinic-excess versus antimuscarinic clinical pictures are the three axes this lecture pair's quiz items test against plausible-sounding distractors.
+
+### Clinical significance
+The edrophonium (Tensilon) test remains a bedside way to distinguish myasthenic from cholinergic crisis quickly, because its effect wears off within minutes. Recognising the muscarinic-excess (SLUDGE-type) picture at the bedside is what identifies organophosphate or nerve-agent exposure and prompts the atropine-plus-pralidoxime treatment protocol.
+
+### Common misconceptions
+Assuming carbachol causes mydriasis (it causes miosis). Assuming a direct-acting agonist and an indirect-acting inhibitor share an identical overdose profile. Assuming echothiophate is a reversible inhibitor like neostigmine or rivastigmine. Expecting organophosphate poisoning itself, before treatment, to look antimuscarinic (dry, dilated, retentive) rather than muscarinic-excess (wet, constricted, hypermotile). Assuming any cholinergic-pathway drug helps xerostomia, including a muscarinic antagonist.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Acetylcholine: not clinically useful (rapid hydrolysis + non-selectivity -> impractically high doses needed).
+Muscarinic ocular effect: miosis + spasm of accommodation, NOT mydriasis.
+Bethanechol: postoperative bowel/bladder atony, urinary retention. Carbachol: dual nicotinic/muscarinic, AChE-resistant, miosis, decreases IOP.
+Direct agonist overdose -> hypotension (non-innervated vascular receptors). Indirect inhibitor overdose -> cholinergic crisis (NMJ nicotinic).
+Edrophonium = diagnostic (brief action) for myasthenic vs cholinergic crisis.
+Echothiophate = irreversible, organophosphate-type, topical for glaucoma.
+Organophosphate/nerve-agent poisoning = muscarinic excess (salivation, lacrimation, diarrhoea, urination, miosis).
+Muscarinic antagonists worsen, not improve, radiation-induced xerostomia.
+
+## lose_the_mark
+Saying acetylcholine is unsuitable clinically only because of toxicity or cost, not dosing impracticality.
+Pairing muscarinic stimulation with mydriasis or dry mouth.
+Confusing bethanechol's and carbachol's indications, or assuming either causes mydriasis.
+Assuming carbachol overdose cannot cause hypotension, or that neostigmine overdose cannot cause cholinergic crisis.
+Confusing edrophonium's diagnostic role with a maintenance therapeutic role.
+Classing echothiophate as reversible.
+Expecting an antimuscarinic-type picture from untreated organophosphate poisoning.
+Including a muscarinic antagonist among agents useful for radiation-induced xerostomia.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-6B410DA4B612B9
+CON-FND-3F462938902705
+CON-FND-A1A577616D7186
+CON-FND-5D875E0EC6053C
+CON-FND-7044CBD216CDEC
+CON-FND-6B5BC774037EBC
+CON-FND-C95C991F4315CC
+CON-FND-26A28E75EA8E52
+CON-FND-3D217227A6222C
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lectures 20 and 22 -- no department slide deck exists in the corpus past Lecture 8, so these nine gap-fill concepts cite the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-6B410DA4B612B9
+Quote: Acetylcholine itself is unsuitable for clinical use: it lacks receptor selectivity and is hydrolysed almost instantly, so the doses needed for a sustained effect would be impractically high
+Block: body
+
+### definition_of · CON-FND-3F462938902705
+Quote: Muscarinic stimulation in the eye produces miosis and spasm of accommodation, not mydriasis
+Block: body
+
+### definition_of · CON-FND-A1A577616D7186
+Quote: bethanechol for postoperative bowel/bladder atony and urinary retention, carbachol for its dual nicotinic/muscarinic ocular miotic effect
+Block: body
+
+### definition_of · CON-FND-5D875E0EC6053C
+Quote: bethanechol for postoperative bowel/bladder atony and urinary retention, carbachol for its dual nicotinic/muscarinic ocular miotic effect
+Block: body
+
+### definition_of · CON-FND-7044CBD216CDEC
+Quote: A direct-acting agonist can act at non-innervated muscarinic receptors (causing hypotension on overdose), while an indirect-acting acetylcholinesterase inhibitor like neostigmine also potentiates nicotinic transmission at the neuromuscular junction, affecting skeletal muscle and producing a cholinergic crisis on overdose
+Block: body
+
+### definition_of · CON-FND-6B5BC774037EBC
+Quote: Edrophonium's brief action makes it the diagnostic test for myasthenic versus cholinergic crisis
+Block: body
+
+### definition_of · CON-FND-C95C991F4315CC
+Quote: Echothiophate is an irreversible, organophosphate-type inhibitor used topically for glaucoma
+Block: body
+
+### definition_of · CON-FND-26A28E75EA8E52
+Quote: Organophosphate and nerve-agent poisoning produces a muscarinic-excess picture: salivation, lacrimation, GI cramps/diarrhoea, urination and miosis
+Block: body
+
+### definition_of · CON-FND-3D217227A6222C
+Quote: Muscarinic antagonists reduce, rather than improve, salivary secretion, and would worsen radiation-induced xerostomia
 Block: body

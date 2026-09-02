@@ -3024,3 +3024,2041 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "chemotaxis" -- hits documented above (208-INT pending, not merged); "directed leukocyte migration" -- 0 further hits.
 relationships: related to CON-FND-BA06C8C3B76102 (vascular response) and CON-FND-11BD591A50EB8E (chemical mediators), same Lecture 15/17 quizzes. No typed-edge relations batch written this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-8D4CB02987AB8A
+
+## label
+Acetylcholine activates both muscarinic and nicotinic receptors; noradrenaline activates adrenergic receptors -- the two transmitter-receptor systems do not cross over
+
+## canonical_key
+teaching.pharmacology.ans.acetylcholine-vs-noradrenaline-receptor-specificity
+
+## aliases
+Acetylcholine receptor specificity
+Cholinergic vs adrenergic transmitter-receptor pairing
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acetylcholine (ACh) is the transmitter of the cholinergic system and activates both muscarinic and nicotinic receptors -- muscarinic receptors at postganglionic parasympathetic (and select sympathetic) effector junctions, nicotinic receptors at every autonomic ganglion and the skeletal neuromuscular junction. Noradrenaline is the transmitter of the adrenergic system and activates adrenergic (alpha/beta) receptors instead. Neither transmitter activates the other system's receptors, so a statement pairing acetylcholine with an adrenergic receptor, or noradrenaline with a muscarinic receptor, is always wrong. Sympathetic activation itself raises, not drops, blood pressure (via alpha-1-mediated vasoconstriction and beta-1-mediated cardiac stimulation), which is a separate error some distractors make.
+
+## explicit_objective
+State that acetylcholine activates muscarinic and nicotinic receptors while noradrenaline activates adrenergic receptors, with no cross-over between the two systems, and that sympathetic activation raises rather than lowers blood pressure.
+
+## pitfalls
+Assuming noradrenaline can activate muscarinic receptors, or that acetylcholine can activate adrenergic receptors -- the two transmitter-receptor systems are exclusive. Assuming sympathetic activation lowers blood pressure, when alpha-1 vasoconstriction and beta-1 cardiac stimulation together raise it.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Autonomic Nervous System
+
+## subtopic
+Cholinergic and adrenergic receptor specificity
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANS-CHOLINERGIC-ADRENERGIC-TRANSMISSION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-DFCB638ECE2899
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following statements is correct regarding the sympathetic and parasympathetic systems? ... Acetylcholine activates muscarinic receptors." / "The correct statement about acetylcholine: ... It acts on both muscarinic and nicotinic receptors" (Quiz 18, Q1 and Q3, `All Quizzes MPT 2022.pdf` p.66-67).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for "nicotinic and muscarinic receptors", "cholinergic receptor subtypes" returned no hit in live state or any pending batch.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 18 in the corpus (the last department slide deck reaches only Lecture 8) -- the quiz bank's own printed-answer text is this concept's only available source, same handling as the Lecture 9-17 gap-fill concepts already minted for this module.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "nicotinic and muscarinic receptors" and "cholinergic receptor subtypes" -- 0 hits, new concept.
+relationships: sibling of CON-FND-DFCB638ECE2899 (ACh release mechanics), same Quiz 18 cluster.
+
+---
+
+# Item
+
+## id
+CON-FND-393530A59974BE
+
+## label
+The parasympathetic nervous system has a craniosacral anatomical origin and governs rest-and-digest functions including near-vision accommodation, GI motility and urination
+
+## canonical_key
+teaching.pharmacology.ans.parasympathetic-craniosacral-and-functions
+
+## aliases
+Parasympathetic craniosacral outflow
+Parasympathetic rest-and-digest functions
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The parasympathetic division of the autonomic nervous system is described as craniosacral because its outflow leaves the CNS from cranial nerve nuclei (III, VII, IX, X) and the sacral spinal cord (S2-S4), in contrast with the sympathetic system's thoracolumbar outflow. Functionally, the parasympathetic system is the "rest-and-digest" division: it governs near-vision accommodation (ciliary muscle contraction), gut motility and secretion, and bladder emptying (detrusor contraction) -- functions distinct from the sympathetic system's "fight-or-flight" role.
+
+## explicit_objective
+State that the parasympathetic nervous system is craniosacral in origin and that its functions include near-vision accommodation, movement of food through the gut, and urination.
+
+## pitfalls
+Confusing the craniosacral (parasympathetic) and thoracolumbar (sympathetic) outflow labels -- they name the exact opposite anatomical levels for each division. Attributing rest-and-digest functions (accommodation, GI motility, urination) to the sympathetic rather than the parasympathetic system.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Autonomic Nervous System
+
+## subtopic
+Parasympathetic anatomy and function
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANS-CHOLINERGIC-ADRENERGIC-TRANSMISSION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following statements concerning the parasympathetic nervous system is Correct? ... Is considered cranio-sacral." / "Which of the following statements concerning the parasympathetic nervous system is correct? ... The parasympathetic division is involved in accommodation of near vision, movement of food, and urination." (Quiz 18, Q2 and Q11, `All Quizzes MPT 2022.pdf` p.66, 69).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+docs/Ain-Shams-Source-Imports/concept/ASU-AE-youssef1-spinal-circ-new-concepts.md carries a pending anatomy concept (CON-NEU-AB8200C11B6993, canonical_key autonomic.parasympathetic-outflow.craniosacral-origin) covering only the craniosacral-origin fact, module-blind (curriculum-node-tagged via primary_node_id DIS-ANA-T01, no `modules` field to overlay AUN-MPT-104 onto, unlike the sparse-overlay precedent which targets records that already carry a `modules` field), and narrower grain (origin only, not the functional rest-and-digest content this quiz also tests). Merging a module-tied AUN mint into a module-blind cross-curriculum record without a ruling risks the silent-merge trap this lane's card already warns against for a near-identical case (the Alexandria DVT/108-INT rejection) -- flagging for the chief of staff rather than reusing unilaterally; minted as its own module-tied concept instead.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 18 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "craniosacral" -- 1 pending near-match documented above (ASU, module-blind, not merged); "preganglionic" -- 27 hits reviewed, none an exact match for the functional (accommodation/GI/urination) half of this fact.
+relationships: sibling of CON-FND-8D4CB02987AB8A (ACh/NE receptor specificity), same Quiz 18 cluster.
+
+---
+
+# Item
+
+## id
+CON-FND-DFCB638ECE2899
+
+## label
+Calcium influx into the presynaptic nerve terminal triggers acetylcholine release into the synaptic cleft, which is then terminated by acetylcholinesterase
+
+## canonical_key
+teaching.pharmacology.ans.acetylcholine-release-calcium-trigger
+
+## aliases
+Calcium-triggered acetylcholine release
+Presynaptic neurotransmitter release mechanics
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Neurotransmitters, including acetylcholine, are released from presynaptic nerve terminals, not from the postsynaptic cell. Release is triggered by the arrival of an action potential at the terminal, which opens voltage-gated calcium channels; the resulting influx of Ca2+ into the terminal is the proximate trigger that causes acetylcholine-containing vesicles to fuse with the presynaptic membrane and release their contents into the synaptic cleft. Once released, acetylcholine acts briefly on postsynaptic (or, at some junctions, presynaptic) receptors before being rapidly hydrolysed by acetylcholinesterase, which terminates its action.
+
+## explicit_objective
+State that neurotransmitters are released from the presynaptic terminal, that calcium influx triggered by an arriving action potential is what causes acetylcholine release, and that acetylcholinesterase terminates the released acetylcholine's action.
+
+## pitfalls
+Saying neurotransmitter release is triggered by an action potential arriving in the postsynaptic cell, rather than the presynaptic terminal -- release is a presynaptic event. Saying intracellular calcium falls before release -- calcium influx rises and is the trigger, it does not fall.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Autonomic Nervous System
+
+## subtopic
+Acetylcholine synthesis, release and termination
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANS-CHOLINERGIC-ADRENERGIC-TRANSMISSION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-8D4CB02987AB8A
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is correct regarding neurotransmitters and neurotransmission? ... Neurotransmitters are released from the presynaptic nerve terminals." / "Influx of what ion causes ACh release into the synaptic cleft, prior to ACh being terminated by acetylcholinesterase (AChE)? ... Ca2+" (Quiz 18, Q4 and Q6, `All Quizzes MPT 2022.pdf` p.67-68).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for "acetylcholine release calcium influx" and "botulinum toxin" returned no hit in live state or any pending batch.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 18 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "acetylcholine release calcium influx", "botulinum toxin" -- 0 hits, new concept.
+relationships: sibling of CON-FND-8D4CB02987AB8A (ACh/NE receptor specificity), same Quiz 18 cluster.
+
+---
+
+# Item
+
+## id
+CON-FND-5530C30545ED40
+
+## label
+M3 muscarinic receptors are Gq-coupled, signalling through IP3/DAG to raise intracellular calcium -- distinct from the Gi-coupled M2 receptor
+
+## canonical_key
+teaching.pharmacology.ans.m3-receptor-gq-ip3-dag-signalling
+
+## aliases
+M3 receptor signal transduction
+Gq-coupled muscarinic receptors
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+M3 muscarinic receptors, found on glandular tissue (such as the salivary glands) and on smooth muscle (such as bronchiolar smooth muscle), are Gq-protein coupled: their stimulation activates phospholipase C, generating IP3 and DAG (diacylglycerol) as second messengers, which raise intracellular calcium and, in smooth muscle, drive contraction. Blocking M3 receptors with a muscarinic antagonist therefore decreases IP3/DAG signalling (for example, reducing DAG-driven secretion in salivary gland tissue), while stimulating them increases IP3/DAG (for example, increasing IP3/DAG-driven contraction of bronchiolar smooth muscle, producing bronchoconstriction). This Gq/IP3-DAG pathway is distinct from the Gi-coupled, cAMP-lowering M2 receptor found in the heart.
+
+## explicit_objective
+Identify M3 muscarinic receptors as Gq-coupled, signalling through IP3/DAG, and predict that blocking M3 receptors decreases IP3/DAG-mediated effects (for example glandular secretion) while stimulating them increases IP3/DAG-mediated effects (for example bronchiolar smooth muscle contraction).
+
+## pitfalls
+Assuming all muscarinic receptor subtypes work through the same second messenger -- M2 (heart) is Gi-coupled and lowers cAMP, while M3 (glands, smooth muscle) is Gq-coupled and raises IP3/DAG; they are not interchangeable. Assuming muscarinic stimulation of bronchiolar smooth muscle causes bronchodilation -- it causes bronchoconstriction via this same Gq/IP3-DAG pathway.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Autonomic Nervous System
+
+## subtopic
+Muscarinic receptor subtypes and signal transduction
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANS-CHOLINERGIC-ADRENERGIC-TRANSMISSION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is an expected effect of a therapeutic dose of a drug that blocks muscarinic-3 receptors? ... Decreased DAG in salivary gland tissue" / "The activation of muscarinic receptors in bronchiolar smooth muscle is associated with ... increase in IP3 and DAG" (Quiz 18, Q5 and Q13, `All Quizzes MPT 2022.pdf` p.67, 70).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for "M3 receptor" returned no hit in live state or any pending batch; the pending Kasr 208-INT M2-receptor concept (CON-FND-F9E1875546E70D, reused elsewhere in this lane) covers a different subtype's mechanism (Gi/cAMP, cardiac) and was not merged onto for this Gq/IP3-DAG fact.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 18 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "M3 receptor", "muscarinic receptor bronchiolar smooth muscle IP3" -- 0 hits, new concept.
+relationships: contrasts with CON-FND-F9E1875546E70D (pending Kasr 208-INT M2/Gi/cAMP concept, reused for Q7/Q9 of this same quiz). Also reused for Quiz 20 Q9 (bronchi dilation is NOT a muscarinic effect).
+
+---
+
+# Item
+
+## id
+CON-FND-31FA684CE9E7C9
+
+## label
+Catarrhal inflammation is excess secretion from a superficial mucosal surface, and usually resolves completely with tissue repair
+
+## canonical_key
+teaching.pathology.inflammation.catarrhal-definition-and-outcome
+
+## aliases
+Catarrhal inflammation
+Acute non-suppurative inflammation
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Catarrhal inflammation is a pattern of acute non-suppurative inflammation whose main feature is excess secretion (mucous or serous) from a superficial mucosal surface, such as the respiratory or gastrointestinal lining -- distinct from the pus-forming pattern of suppurative inflammation and from the deep ulceration of some other inflammatory patterns. Because it involves only the superficial mucosal epithelium without substantial tissue destruction, its usual outcome is complete resolution with tissue repair, rather than suppuration, fibrosis or ulceration/perforation.
+
+## explicit_objective
+State that catarrhal inflammation is defined by excess mucosal secretion and that its usual outcome is complete resolution with tissue repair, not suppuration or fibrosis.
+
+## pitfalls
+Confusing catarrhal inflammation's outcome (resolution and repair) with suppuration, ulceration or fibrosis, which describe other, more destructive inflammatory patterns. Confusing catarrhal inflammation (excess secretion) with granulomatous or cellulitic patterns.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Acute non suppurative inflammation
+
+## subtopic
+Catarrhal inflammation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CATARRHAL-INFLAMMATION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-342EB8A955CCAE
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The main feature of catarrhal inflammation is: ... Excess secretions from superficial mucosal surface" / "The usual outcome of acute catarrhal inflammation: ... Resolution and tissue repair" (Quiz 21, Q1-Q2, `All Quizzes MPT 2022.pdf` p.79).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+find-existing.mjs run for "catarrhal" returned three live/pending hits, all specific to acute laryngitis (a named clinical entity whose definition happens to use the word "catarrhal") rather than a general definition of the catarrhal inflammation pattern itself -- different grain, not merged.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 21 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "catarrhal" -- 3 hits reviewed (all acute-laryngitis specific, different grain, not merged); "suppurative" -- reused CON-FND-342EB8A955CCAE for the Quiz 19 cluster instead of merging here.
+relationships: related to CON-FND-342EB8A955CCAE (pending Kasr 208-INT suppurative-inflammation-types concept, reused for Quiz 19).
+
+---
+
+# Item
+
+## id
+CON-FND-6B410DA4B612B9
+
+## label
+Acetylcholine is unsuitable for clinical use because it lacks receptor selectivity and is hydrolysed almost instantly, so the doses required for a therapeutic effect are impractically high
+
+## canonical_key
+teaching.pharmacology.ans.acetylcholine-clinical-unsuitability
+
+## aliases
+Why acetylcholine is not used clinically
+Acetylcholine dosing impracticality
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acetylcholine itself is not used as a clinical drug even though it is the body's own cholinergic transmitter. It acts non-selectively on both muscarinic and nicotinic receptors throughout the body, producing diffuse, hard-to-control effects, and it is hydrolysed almost instantly by acetylcholinesterase and plasma cholinesterase once given, giving it an extremely short duration of action. Together these mean the doses required to sustain any therapeutic effect would be impractically high, which is why more selective and longer-acting cholinomimetics (such as carbachol, bethanechol or pilocarpine) are used instead.
+
+## explicit_objective
+State that acetylcholine is unsuitable for clinical use because the doses required for a sustained therapeutic effect are impractically high, a consequence of its non-selectivity and near-instant hydrolysis.
+
+## pitfalls
+Attributing acetylcholine's clinical unsuitability simply to toxicity or cost, rather than to the impractically high doses its rapid hydrolysis and non-selectivity would require.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Agonists) 1
+
+## subtopic
+Direct-acting cholinomimetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Acetylcholine is not used in clinical practice because: ... The doses required are very high" (Quiz 20, Q2, `All Quizzes MPT 2022.pdf` p.74).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for terms describing this fact returned no hit in live state or any pending batch.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 20 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "acetylcholine" clinical-use terms -- 0 exact-fact hits, new concept.
+relationships: sibling of the other Quiz 20/22 cholinomimetic gap-fill concepts minted in this same pass.
+
+---
+
+# Item
+
+## id
+CON-FND-3F462938902705
+
+## label
+Muscarinic receptor stimulation in the eye causes miosis and spasm of accommodation (ciliary muscle contraction for near vision), not mydriasis or dry mouth
+
+## canonical_key
+teaching.pharmacology.ans.muscarinic-ocular-effects
+
+## aliases
+Muscarinic effects on the eye
+Spasm of accommodation
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Stimulating muscarinic receptors in the eye contracts the sphincter pupillae (producing miosis, pupillary constriction) and the ciliary muscle (producing spasm of accommodation, a fixed near-vision focus from sustained ciliary contraction) -- the opposite of the mydriasis and cycloplegia (loss of accommodation) produced by a muscarinic antagonist. Muscarinic stimulation also increases, not decreases, glandular secretion (for example salivary flow), so it does not cause xerostomia (dry mouth); dry mouth is instead an antimuscarinic effect.
+
+## explicit_objective
+State that muscarinic receptor stimulation in the eye produces miosis and spasm of accommodation, not mydriasis, and that it increases rather than decreases secretions.
+
+## pitfalls
+Pairing muscarinic stimulation with mydriasis or xerostomia -- both are antimuscarinic effects, the pharmacological opposite of what a muscarinic agonist produces.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Agonists) 1
+
+## subtopic
+Muscarinic ocular and glandular effects
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5530C30545ED40
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is the effect of stimulating muscarinic receptors? ... Spasm of accommodation" (Quiz 20, Q3, `All Quizzes MPT 2022.pdf` p.75).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for "intraocular pressure" and ocular-effect terms returned no hit in live state or any pending batch.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 20 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "intraocular pressure" -- 0 hits, new concept.
+relationships: contrasts with CON-FND-5530C30545ED40 (M3/Gq/IP3-DAG mechanism concept, same signalling family).
+
+---
+
+# Item
+
+## id
+CON-FND-A1A577616D7186
+
+## label
+Bethanechol is a direct-acting, acetylcholinesterase-resistant muscarinic agonist used to restore GI and bladder motility after surgery, and for non-obstructive urinary retention
+
+## canonical_key
+teaching.pharmacology.ans.bethanechol-indications
+
+## aliases
+Bethanechol
+Direct-acting muscarinic agonist for bowel/bladder atony
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bethanechol is a direct-acting muscarinic agonist that, unlike acetylcholine, resists hydrolysis by acetylcholinesterase and so has a long enough duration of action for clinical use. Its selective action on GI and urinary smooth muscle, with minimal cardiovascular or ganglionic activity, makes it the drug of choice for restoring bowel motility in postoperative (non-obstructive) ileus, when a patient remains constipated with absent bowel sounds after abdominal or pelvic surgery, and equally for treating non-obstructive urinary retention by stimulating detrusor contraction.
+
+## explicit_objective
+State that bethanechol is a direct-acting, AChE-resistant muscarinic agonist used for postoperative bowel atony/ileus and for non-obstructive urinary retention.
+
+## pitfalls
+Confusing bethanechol's indication (restoring GI/bladder motility) with the opposite effect of an antimuscarinic such as atropine, which would worsen rather than treat atony. Assuming bethanechol's only use is urinary retention when postoperative bowel atony is an equally standard indication.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Agonists) 1
+
+## subtopic
+Direct-acting cholinomimetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5D875E0EC6053C
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Following gastrointestinal surgery, your patient remains severely constipated. Bowel sounds are absent. The drug you are most likely to prescribe to treat this problem is: ... Bethanechol" / "What is bethanechol most commonly used for? ... For urinary retention" (Quiz 20, Q4 and Q11, `All Quizzes MPT 2022.pdf` p.75, 77).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for "bethanechol" returned no hit in live state or any pending batch. This lane's own triage-keys.txt documents a separate earlier-cluster row (Q15, `bethanechol stimulates post-op bowel motility`) not yet authored at the time of this mint; the same canonical_key/id is intended for reuse when that row is authored, rather than minting a second bethanechol concept.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 20 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "bethanechol" -- 0 hits, new concept.
+relationships: sibling of CON-FND-5D875E0EC6053C (carbachol pharmacology, same direct-acting-agonist family).
+
+---
+
+# Item
+
+## id
+CON-FND-5D875E0EC6053C
+
+## label
+Carbachol is a direct-acting agonist with both nicotinic and muscarinic activity, resistant to acetylcholinesterase, that lowers intraocular pressure via miosis (not mydriasis)
+
+## canonical_key
+teaching.pharmacology.ans.carbachol-pharmacology
+
+## aliases
+Carbachol
+Direct-acting cholinomimetic with dual nicotinic/muscarinic activity
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Carbachol is a direct-acting cholinomimetic that, unlike acetylcholine, exerts both nicotinic and muscarinic activity and resists hydrolysis by acetylcholinesterase, giving it a longer duration of action. As a parasympathetic (miotic) agent it constricts the pupil (miosis), opening the trabecular drainage angle to decrease intraocular pressure -- it does not cause mydriasis, which is the opposite, antimuscarinic effect. An overdose of carbachol can also act on muscarinic receptors of tissues with no cholinergic innervation, such as vascular endothelium, producing pronounced hypotension that an equivalent overdose of an indirect-acting acetylcholinesterase inhibitor (which can only potentiate acetylcholine at already-innervated sites) would not.
+
+## explicit_objective
+State that carbachol is a direct-acting agonist with both nicotinic and muscarinic activity, AChE-resistant, that decreases intraocular pressure via miosis, and that its overdose (unlike an AChE inhibitor's) can act at non-innervated vascular muscarinic receptors to cause hypotension.
+
+## pitfalls
+Attributing mydriasis to carbachol -- as a muscarinic agonist it produces miosis, the opposite. Assuming carbachol and indirect-acting AChE inhibitors have identical overdose profiles -- carbachol's direct action at non-innervated receptors (like vascular endothelium) makes it capable of effects an indirect agent limited to innervated synapses cannot produce.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Agonists) 1
+
+## subtopic
+Direct-acting cholinomimetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-A1A577616D7186
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Characteristics of carbachol include all of the following Except: ... It causes mydriasis." (Quiz 20, Q6-Q7, `All Quizzes MPT 2022.pdf` p.76).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for "carbachol" returned no hit in live state or any pending batch.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 20 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "carbachol" -- 0 hits, new concept.
+relationships: sibling of CON-FND-A1A577616D7186 (bethanechol) and CON-FND-7044CBD216CDEC (direct-vs-indirect-acting overdose distinction, same quiz item Q5).
+
+---
+
+# Item
+
+## id
+CON-FND-7044CBD216CDEC
+
+## label
+A direct-acting muscarinic agonist (carbachol) can act at non-innervated muscarinic receptors and cause hypotension on overdose; an indirect-acting acetylcholinesterase inhibitor (neostigmine) instead potentiates nicotinic transmission at the neuromuscular junction, affecting skeletal muscle and producing a cholinergic crisis the direct agonist does not
+
+## canonical_key
+teaching.pharmacology.ans.direct-vs-indirect-acting-cholinomimetic-overdose
+
+## aliases
+Direct vs indirect-acting cholinomimetic overdose profile
+Neostigmine vs carbachol vs pilocarpine
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Direct-acting muscarinic agonists such as carbachol act only at muscarinic receptors, including ones with no cholinergic innervation (for example vascular endothelium), so an overdose can produce pronounced hypotension. Indirect-acting acetylcholinesterase inhibitors such as neostigmine instead work by letting endogenous acetylcholine accumulate wherever it is already being released -- which includes the skeletal neuromuscular junction's nicotinic receptors, a site a muscarinic-selective agonist like pilocarpine or carbachol does not significantly affect. This is why neostigmine, unlike pilocarpine, has an effect on skeletal muscle, and why an overdose of neostigmine (but not of carbachol) produces a cholinergic crisis -- excess nicotinic stimulation at the neuromuscular junction causing muscle weakness and potential paralysis, on top of muscarinic excess.
+
+## explicit_objective
+Distinguish the overdose/effect profile of a direct-acting muscarinic agonist (hypotension from action at non-innervated vascular muscarinic receptors, no skeletal-muscle nicotinic effect) from an indirect-acting acetylcholinesterase inhibitor (skeletal-muscle nicotinic potentiation, cholinergic crisis on overdose).
+
+## pitfalls
+Assuming a direct-acting muscarinic agonist and an indirect-acting acetylcholinesterase inhibitor have identical overdose effects -- the indirect agent's action depends on existing cholinergic innervation (including the neuromuscular junction), while the direct agonist can also act at non-innervated muscarinic sites like blood vessels.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Agonists) 2
+
+## subtopic
+Direct vs indirect-acting cholinomimetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5D875E0EC6053C
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"An overdose of muscarinic agonist carbachol but not an overdose of acetylcholinesterase inhibitor neostigmine could cause the following: ... Hypotension" / "Neostigmine differs from pilocarpine in having effects on ... skeletal muscle" / "An overdose of acetylcholinesterase inhibitor neostigmine but not an overdose of muscarinic agonist carbachol could cause the following: ... Cholinergic crisis" (Quiz 20 Q5, Quiz 22 Q1 and Q2, `All Quizzes MPT 2022.pdf` p.75, 80-81).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for "neostigmine" returned pending Kasr 208-INT hits on a different fact (neostigmine's reversal of competitive neuromuscular blockade), not this direct-vs-indirect overdose-profile fact -- not merged, different grain.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lectures 20/22 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "neostigmine" -- 4 hits reviewed, all a different fact (NMJ block reversal), not merged.
+relationships: sibling of CON-FND-5D875E0EC6053C (carbachol) and CON-FND-A1A577616D7186 (bethanechol). Ties together one Quiz 20 row and two Quiz 22 rows on the same underlying direct-vs-indirect distinction.
+
+---
+
+# Item
+
+## id
+CON-FND-6B5BC774037EBC
+
+## label
+Edrophonium's brief, fast-onset acetylcholinesterase inhibition makes it the diagnostic ("Tensilon") test to distinguish myasthenic crisis (undertreatment) from cholinergic crisis (overtreatment)
+
+## canonical_key
+teaching.pharmacology.ans.edrophonium-diagnostic-use
+
+## aliases
+Edrophonium
+Tensilon test
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Edrophonium is a very short-acting, indirect-acting acetylcholinesterase inhibitor whose brief action makes it useful diagnostically rather than for maintenance therapy. In a myasthenia gravis patient whose worsening weakness could reflect either myasthenic crisis (insufficient anticholinesterase therapy) or cholinergic crisis (excessive therapy, causing a nicotinic depolarising block at the neuromuscular junction), a test dose of edrophonium transiently improves strength if the cause is myasthenic crisis, but worsens weakness if the cause is cholinergic crisis -- letting the two, which present similarly, be told apart quickly and safely because edrophonium's effect wears off within minutes.
+
+## explicit_objective
+State that edrophonium's short duration of action makes it the diagnostic agent of choice for distinguishing myasthenic crisis from cholinergic crisis in a myasthenia gravis patient.
+
+## pitfalls
+Confusing edrophonium's diagnostic role with a longer-acting anticholinesterase's therapeutic role -- its whole clinical value here is its brief action, letting the test be repeated or reversed quickly rather than committing the patient to a prolonged effect.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Agonists) 2
+
+## subtopic
+Cholinesterase inhibitors -- clinical indications
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is the best drug for distinguishing between myasthenic crisis (insufficient therapy) and cholinergic crisis (excessive therapy)? ... Edrophonium" (Quiz 22, Q4, `All Quizzes MPT 2022.pdf` p.81).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for "edrophonium" and "myasthenic crisis" returned no hit in live state or any pending batch.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 22 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "edrophonium", "myasthenic crisis" -- 0 hits, new concept.
+relationships: sibling of CON-FND-C95C991F4315CC (echothiophate) and the reused pending Kasr 208-INT rivastigmine/Alzheimer's concept -- all part of the anticholinesterase-by-indication teaching set spanning Quiz 22.
+
+---
+
+# Item
+
+## id
+CON-FND-C95C991F4315CC
+
+## label
+Echothiophate is an irreversible, organophosphate-type acetylcholinesterase inhibitor used topically for glaucoma
+
+## canonical_key
+teaching.pharmacology.ans.echothiophate-irreversible-glaucoma
+
+## aliases
+Echothiophate
+Irreversible cholinesterase inhibitors
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Echothiophate is an organophosphate-type acetylcholinesterase inhibitor that phosphorylates the enzyme's active site essentially irreversibly, distinguishing it from the reversible carbamate-type inhibitors (such as neostigmine, physostigmine, pyridostigmine and rivastigmine) whose action wanes as the enzyme-inhibitor complex breaks down. Despite its systemic organophosphate-like toxicity potential, echothiophate is used clinically as a topical eye drop for glaucoma, where its irreversible, long-duration miotic effect lowers intraocular pressure.
+
+## explicit_objective
+Identify echothiophate as an irreversible, organophosphate-type acetylcholinesterase inhibitor used topically for glaucoma, distinct from the reversible inhibitors.
+
+## pitfalls
+Classing echothiophate with the reversible cholinesterase inhibitors (neostigmine, physostigmine, pyridostigmine, rivastigmine) -- its organophosphate-type, essentially irreversible mechanism sets it apart from all of them.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Agonists) 2
+
+## subtopic
+Cholinesterase inhibitors -- reversible vs irreversible
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-6B5BC774037EBC
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following drugs is irreversible cholinesterase inhibitor? ... Echothiophate" (Quiz 22, Q5, `All Quizzes MPT 2022.pdf` p.82).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for "echothiophate" and "irreversible cholinesterase" returned no hit in live state or any pending batch (the pending Kasr 208-INT rivastigmine concept's own definition text names echothiophate only in passing, in a `## definition` field the search tool does not index for pending batches; not a structural hit).
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 22 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "echothiophate", "irreversible cholinesterase" -- 0 structural hits (see rejected_merge_candidate_ids), new concept.
+relationships: sibling of CON-FND-6B5BC774037EBC (edrophonium) and the reused pending Kasr rivastigmine concept.
+
+---
+
+# Item
+
+## id
+CON-FND-26A28E75EA8E52
+
+## label
+Organophosphate (nerve agent or insecticide) poisoning floods muscarinic receptors with acetylcholine, producing a muscarinic-excess picture: salivation, lacrimation, diarrhoea/GI cramps, urination, and miosis
+
+## canonical_key
+teaching.pharmacology.ans.organophosphate-poisoning-muscarinic-excess-recognition
+
+## aliases
+Organophosphate poisoning recognition
+Muscarinic excess (SLUDGE) picture
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Organophosphate compounds -- whether insecticides or military nerve agents such as sarin -- irreversibly inhibit acetylcholinesterase, letting acetylcholine accumulate at muscarinic receptors throughout the body. The resulting clinical picture is one of muscarinic excess: excessive salivation and lacrimation, GI cramps with vomiting and diarrhoea, increased urination, and miosis (pupillary constriction) -- the opposite of the dry mouth, mydriasis and urinary retention an antimuscarinic would produce. This pattern, recognisable at the bedside (for example in a child or farm worker exposed to insecticide, or a patient exposed to a nerve agent), is what identifies organophosphate poisoning and distinguishes it from other toxidromes.
+
+## explicit_objective
+Recognise the muscarinic-excess clinical picture (salivation, lacrimation, GI cramps/diarrhoea, urination, miosis) as organophosphate/nerve-agent poisoning, and contrast it with the opposite antimuscarinic picture.
+
+## pitfalls
+Expecting an antimuscarinic-type picture (dry mouth, mydriasis, urinary retention, tachycardia) from organophosphate poisoning -- the untreated poisoning itself produces the opposite, muscarinic-excess picture; the antimuscarinic picture only appears after atropine treatment reverses it.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Agonists) 2
+
+## subtopic
+Organophosphate poisoning
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"His symptoms include severe abdominal cramps with vomiting and diarrhea and profuse lacrimation and salivation. Pupillary constriction is marked. The most likely cause is exposure to ... insecticides" / "She most likely consumed an organophosphate pesticide." / "Sarin is a volatile nerve agent that inhibits cholinesterase enzymes. Which of the following symptoms would you expect to see in a patient exposed to sarin? ... Miosis." (Quiz 22, Q8-Q10, `All Quizzes MPT 2022.pdf` p.83-84).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+The pending Kasr 208-INT concept CON-FND-E2A3372187494C (`atropine.organophosphate-poisoning.treatment-effects`) covers the reversed picture after atropine treatment (tachycardia, bronchodilatation), a different fact from this one (the untreated poisoning's own muscarinic-excess presentation) -- not merged, different grain. find-existing.mjs run for "miosis" and "SLUDGE" returned no hit.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 22 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "organophosphate", "miosis", "SLUDGE" -- reviewed 7 organophosphate hits (treatment-effects and pralidoxime-mechanism concepts, different grain, not merged); miosis/SLUDGE 0 hits.
+relationships: contextual sibling of the reused pending Kasr pralidoxime-mechanism concept (CON-FND-F966C99135DCA0, Quiz 22 Q11) and atropine-treatment-effects concept (not directly reused in this pass).
+
+---
+
+# Item
+
+## id
+CON-FND-3D217227A6222C
+
+## label
+Muscarinic agonists and anticholinesterases increase salivary secretion, useful for radiation-induced xerostomia; muscarinic antagonists instead reduce secretion and would worsen it
+
+## canonical_key
+teaching.pharmacology.ans.sialagogue-vs-antimuscarinic-xerostomia
+
+## aliases
+Sialagogues for radiation-induced xerostomia
+Muscarinic antagonists worsen dry mouth
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Head and neck irradiation in cancer patients can damage salivary glands and cause dry mouth (xerostomia). Any agent that increases cholinergic tone at the remaining glandular tissue -- a direct-acting muscarinic agonist (such as pilocarpine), an anticholinesterase (such as neostigmine), or muscarinic agonists generally -- can theoretically improve secretion of saliva. A muscarinic antagonist, by contrast, blocks muscarinic receptors on the salivary glands and reduces secretion, which would worsen rather than help dry mouth, making it the one class of the options not useful for this purpose.
+
+## explicit_objective
+State that muscarinic agonists and anticholinesterases can improve salivary secretion in radiation-induced xerostomia, while muscarinic antagonists reduce secretion and would worsen it.
+
+## pitfalls
+Assuming any cholinergic-pathway drug helps xerostomia -- a muscarinic antagonist works in the opposite direction from an agonist or anticholinesterase and would make dry mouth worse, not better.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Agonists) 2
+
+## subtopic
+Clinical applications of cholinergic drugs
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Head and neck irradiation in cancer patients can decrease salivary secretion and cause dry mouth. All of the following drugs or classes of drugs are theoretically useful in improving secretion of saliva in these patients except: ... Muscarinic antagonists." (Quiz 22, Q12, `All Quizzes MPT 2022.pdf` p.84).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+None -- find-existing.mjs run for terms describing this fact returned no hit in live state or any pending batch.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture deck exists for Lecture 22 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for xerostomia/sialagogue terms -- 0 hits, new concept.
+relationships: closing concept of the Quiz 20/22 cholinergic-pharmacology gap-fill set.

@@ -49,9 +49,10 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 136 | 1 | 304 | 441 |
+| quizzes-2022 | 180 | 2 | 259 | 441 |
 
 ## Held
+- quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
@@ -100,51 +101,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q138
-- quizzes-2022-q139
-- quizzes-2022-q140
-- quizzes-2022-q141
-- quizzes-2022-q142
-- quizzes-2022-q143
-- quizzes-2022-q144
-- quizzes-2022-q145
-- quizzes-2022-q146
-- quizzes-2022-q147
-- quizzes-2022-q148
-- quizzes-2022-q149
-- quizzes-2022-q150
-- quizzes-2022-q151
-- quizzes-2022-q152
-- quizzes-2022-q153
-- quizzes-2022-q154
-- quizzes-2022-q155
-- quizzes-2022-q156
-- quizzes-2022-q157
-- quizzes-2022-q158
-- quizzes-2022-q159
-- quizzes-2022-q160
-- quizzes-2022-q161
-- quizzes-2022-q162
-- quizzes-2022-q163
-- quizzes-2022-q164
-- quizzes-2022-q165
-- quizzes-2022-q166
-- quizzes-2022-q167
-- quizzes-2022-q168
-- quizzes-2022-q169
-- quizzes-2022-q170
-- quizzes-2022-q171
-- quizzes-2022-q172
-- quizzes-2022-q173
-- quizzes-2022-q174
-- quizzes-2022-q175
-- quizzes-2022-q176
-- quizzes-2022-q177
-- quizzes-2022-q178
-- quizzes-2022-q179
-- quizzes-2022-q180
-- quizzes-2022-q181
-- quizzes-2022-q182
 - quizzes-2022-q183
 - quizzes-2022-q184
 - quizzes-2022-q185
