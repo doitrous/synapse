@@ -753,3 +753,85 @@ same chapter 10 plain-text ANSWERS table (p111) lane 9 already transcribed.
   a full authoring cycle before the shared ledger state was re-checked;
   worth confirming the dispatch board reflects chapter 11 as closed so no
   further lane repeats this.
+
+## Lane 14 -- Chapter 1 Q101-Q161 (closing the chapter)
+
+Lane 14's cluster: the remainder of chapter 1 (pp.18-26), Q101 through Q161
+(61 items), the exact resume point lane 2 recorded above. All 61 are read
+and keyed -- the plain-text ANSWERS table (pp.26-27) was cross-checked two
+ways (`pagetext.mjs show` display and a direct `pdftotext -layout`
+extraction), both agreeing on all 61 keys, including Q133's printed double
+answer "D,E".
+
+| Module | Questions read | Keys recovered | Authored | Held | Concepts -- mints | reuses |
+|---|--:|--:|--:|--:|--:|--:|
+| AUN-INI-105 (ch1, Q101-161 of 161) | 61 | 61 (100%) | 47 | 14 | 6 | 41 |
+
+- **47 authored**, split 26 own-direct (question/AUN-INI-105-ch1b-mcq.md,
+  reusing already-live/own-lane concepts or this pass's own 6 new mints) and
+  21 pending-live (19 reusing Ain-Shams ASU-INF concepts, one more newly
+  overlaid this pass -- CON-INF-BF26D7E563FB78, outer-membrane porins -- plus
+  2 reusing a newly-overlaid Menoufia MUST saprophyte concept).
+- **14 held**: 5 on the seed schema's 4-option floor (Q105, Q107, Q124,
+  Q140, Q143, each printing only 2-3 options), 1 on the printed double
+  answer (Q133), and 8 as near-duplicates of already-authored INI-105
+  items -- Q110/Q111 restate Q11/Q45 (peritrichous/amphitrichous), Q129
+  restates Q62's own "role in cell division EXCEPT" template with a
+  swapped option set, Q131 restates Q63 ("structure responsible for
+  staining") at a finer peptidoglycan-vs-cell-wall grain, Q149 restates
+  this same pass's own Q120 (near-identical anti-phagocytic-structure
+  option set), and Q152/Q154/Q155 restate Q36/Q17/Q18 -- the last three
+  flagged in advance by lane 1's own triage note (above) as later
+  recurrences within this chapter.
+- **No printed-key vs. expected-answer conflicts requiring a hold** were
+  found in this window under the dispatch's tightened standing rule (hold
+  only on the bank's own internal inconsistency, not a bare textbook
+  conflict) -- one doubtful case, Q160 ("Majority of bacteria are?",
+  printed key D "Parasites" against the more standard teaching that
+  saprophytes are the majority), was authored with the key as printed and
+  the doubt recorded in `author_notes` as a `held-printed-key-conflict`
+  candidate for Omar, since no other item in the source states the
+  opposite outright.
+- **6 new AUN-INI-105 concepts minted** (`concept/AUN-INI-105-ch1b-concepts.md`,
+  backed by a new small `article/AUN-INI-105-ch1b-article.md` since none of
+  this lane's existing articles fit their themes): antibiotic-inactivating-
+  enzyme excretion site, bacterial chromosome function, restriction
+  endonucleases not required for chromosomal replication, vibrio (curved-
+  rod) morphology, Corynebacterium diphtheriae as diphtheria's cause, and
+  spirochete/Treponema pallidum morphology. Each cleared by
+  `find-existing.mjs` first (search terms: opportunistic pathogen, volutin,
+  metachromatic granule, porin, virulence factor, beta-lactamase, vibrio,
+  bacterial chromosome function, restriction endonuclease, diphtheria,
+  corynebacterium diphtheriae, saprophyte, spirochete, treponema pallidum,
+  crystal violet, 70S ribosome).
+- **41 reused**: 26 own-tree (this lane's own chapter 1/5 mints and live
+  concepts, e.g. `CON-INF-8B02B0EFEE96F5` opportunistic pathogens from this
+  lane's own chapter-5 mint, `CON-INF-52E3C48A1A2AAA` prokaryote
+  architecture, `CON-DEV-FE47A8F9B0768E` plasmid, `CON-INF-3E6590C8AC2166`
+  spores, `CON-INF-398B4BA280679E` inclusion granules/volutin,
+  `CON-INF-A1043E023CD6FB` plasma membrane, `CON-INF-B775994AC7062B`
+  virulence factors, `CON-INF-BD1B74226AE7B2` protoplast/spheroplast,
+  `CON-INF-16E0B6ECB647D3` Gram stain); 15 pending-live (12 already-overlaid
+  ASU-INF concepts from lanes 1/2, one newly overlaid this pass -- porins --
+  plus a cross-chapter reuse of chapter 2's own overlaid autotroph/
+  heterotroph concept, and one newly-overlaid Menoufia MUST saprophyte
+  concept, `CON-INF-4D65B20EBBAE83`, reused for both Q159 and Q160).
+- **Gates**: `validate-content-batch.mjs` run directly on all six touched
+  files (`question/AUN-INI-105-ch1b-mcq.md`,
+  `pending-live/AUN-INI-105-ch1b-asuinf-questions.md`,
+  `pending-live/AUN-INI-105-ch1b-must-questions.md`,
+  `concept/AUN-INI-105-ch1b-concepts.md`,
+  `article/AUN-INI-105-ch1b-article.md`, plus the extended
+  `pending-live/AUN-INI-105-ch1-asuinf-overlay-concepts.md`), each with its
+  full `--with` sibling chain -- `errors: []` on every file.
+  `gate.mjs batch` on all three question files -- `errors=0` each.
+  `gate.mjs simulate` across the full 16-file apply chain (own concepts,
+  own article, own question file, the ASU-INF concept+article batch, both
+  AUN overlay files, the ASU-INF-reuse question file, the MUST concept+
+  article batch, the new MUST overlay file, the MUST-reuse question file)
+  -- `rejected=0 errors=0`; every authored question carries a non-empty
+  `library_ids`.
+- **Stop point**: chapter 1 ("Bacterial cell structure," 161 items) is now
+  **fully read, keyed and authored end to end** across all four lanes that
+  have touched it (lanes 1, 2 and 14; the chapter-2-onward structural map
+  in lane 1's own pass) -- 136 authored, 25 held, 0 remaining.

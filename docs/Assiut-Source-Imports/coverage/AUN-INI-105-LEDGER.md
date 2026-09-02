@@ -3,6 +3,7 @@
 | ini-mcq | 89 | 11 | 0 | 100 |
 | ini-mcq-ch10 | 56 | 30 | 0 | 86 |
 | ini-mcq-ch11 | 83 | 27 | 0 | 110 |
+| ini-mcq-ch1b | 47 | 14 | 0 | 61 |
 | ini-mcq-ch2 | 52 | 8 | 0 | 60 |
 | ini-mcq-ch3 | 21 | 3 | 0 | 24 |
 | ini-mcq-ch4 | 48 | 10 | 0 | 58 |
@@ -81,6 +82,20 @@
 - ini-mcq-ch11-q153 — duplicate-of ini-mcq-ch11-q053 -- identical stem/options (Wuchereria bancrofti microfilaria differs from Loa loa's)
 - ini-mcq-ch11-q154 — duplicate-of ini-mcq-ch11-q055 -- identical stem/options (adult Wuchereria bancrofti worms found in lymph nodes)
 - ini-mcq-ch11-q156 — printed key (A, Blood) conflicts with this chapter's own unauthored Q58 (identical stem/options, key C = Subcutaneous) -- Onchocerca volvulus microfilariae are classically skin/subcutaneous-dwelling (recovered by skin snip), not found circulating in peripheral blood like most other filarial worms
+- ini-mcq-ch1b-q105 — source prints only 3 options (A-Lipid A, B-Teichoic acid, C-Peptidoglycan) for "Cell wall of gram-positive bacteria contain the following EXCEPT?", short of the seed schema's 4-option floor
+- ini-mcq-ch1b-q107 — source prints only 3 options (A-A gene within the bacterial chromosome, B-Extra-chromosomal DNA, C-Bacteriophage gene) for "Plasmid is?", short of the seed schema's 4-option floor
+- ini-mcq-ch1b-q110 — duplicate-of ini-mcq-q011 -- near-verbatim restatement of "Bacteria with flagella around the cell is? Peritrichate" (Q11's already-authored peritrichous fact), differing only in option order/wording
+- ini-mcq-ch1b-q111 — duplicate-of ini-mcq-q045 -- near-verbatim restatement of "Bacterium with flagellum at each end? Amphitrichate" (Q45's already-authored amphitrichous fact), differing only in option order/wording
+- ini-mcq-ch1b-q124 — source prints only 3 options (A-Nutrient uptake and storage, B-Locomotion and nutrient uptake, C-Conjugation and adherence) for "Pili have 2 functions?", short of the seed schema's 4-option floor
+- ini-mcq-ch1b-q129 — near-verbatim duplicate template of ini-mcq-q062 -- "The following play role in cell division EXCEPT?" restates Q62's own "The following bacterial structures play a role in cell division EXCEPT?" almost word for word; this instance's printed exception (Ribosomes) differs from Q62's (Plasmids) only because the option set was swapped, the chapter's own recycled-EXCEPT-template pattern (already flagged for the cell-division template and others by this chapter's earlier lanes)
+- ini-mcq-ch1b-q131 — duplicate-of ini-mcq-ch1-q063 -- near-verbatim restatement of "The bacterial structure responsible for staining affinity is?" (Q63's already-authored cell-wall fact), tested here at the more specific peptidoglycan-vs-cell-wall granularity with a different distractor set
+- ini-mcq-ch1b-q133 — printed double answer "D,E" (Outside host tissues and In response to depletion of nutrients) for "Bacterial endospore is formed in the following condition?" -- the seed schema's correct field accepts exactly one option letter, so a genuinely multi-correct printed key cannot be represented without arbitrarily discarding one of the two correct answers
+- ini-mcq-ch1b-q140 — source prints only 3 options (A-Found in gram +ve, B-Found in gram -ve, C-Provide receptor for bacteriophage) for "Teichoic acid?", short of the seed schema's 4-option floor
+- ini-mcq-ch1b-q143 — source prints only 3 options (A-Play a role in cell division, B-Site of respirator enzymes, C-Play a role in protein synthesis) for "Functions of mesosomes are the following EXCEPT?", short of the seed schema's 4-option floor
+- ini-mcq-ch1b-q149 — duplicate-of ini-mcq-ch1b-q120 -- near-identical option set (Spores/Capsule/Cell wall/Flagella, reordered) to this same pass's own Q120 ("Protect the organism from phagocytosis?"), testing the identical anti-phagocytic-structure fact against the same four structures
+- ini-mcq-ch1b-q152 — duplicate-of ini-mcq-q036 -- near-verbatim restatement of "Endotoxin produced by gram-negative bacteria is present in? Lipopolysaccharide" (Q36's already-authored fact), flagged in advance by this chapter's own S3 triage note (coverage/AUN-INI-105-triage.md) as a later recurrence
+- ini-mcq-ch1b-q154 — duplicate-of ini-mcq-q017 -- near-verbatim restatement of "The bacterial pili mainly contain? Proteins" (Q17's already-authored fact), flagged in advance by this chapter's own S3 triage note as a later recurrence
+- ini-mcq-ch1b-q155 — duplicate-of ini-mcq-q018 -- near-verbatim restatement of "Mesosomes are the part of? Plasma membrane" (Q18's already-authored fact), flagged in advance by this chapter's own S3 triage note as a later recurrence
 - ini-mcq-ch2-q020 — figure-dependent question -- the stem refers to "this Figure" showing growth-curve phases labelled A/B/C/D, but the source's diagram is not extractable as text (pagetext.mjs reads plain text only, per the lane's text-only reading method); without seeing which curve segment is labelled A/B/C/D, the printed key (B) cannot be verified or authored from the stem alone
 - ini-mcq-ch2-q028 — duplicate-of ini-mcq-ch2-q016 -- near-verbatim restatement of "organism that can use only molecular oxygen as the final acceptor" (Obligate aerobes), differing only in swapping the fourth distractor (Microaerophilic vs Strict anaerobes) and adding a fifth "None of these" option
 - ini-mcq-ch2-q031 — duplicate-of ini-mcq-ch2-q008 -- near-verbatim restatement of "convalescence phase of an infectious disease corresponds to which phase of bacterial growth" (Decline phase), differing only by an added fifth "Retardation phase" distractor
