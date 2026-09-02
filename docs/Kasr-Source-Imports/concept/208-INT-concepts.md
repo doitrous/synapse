@@ -4583,3 +4583,1269 @@ resourceOccurrenceIds: Read by hand from the department book pages 123-124 (Chap
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: Sibling of the PAP-stain and radiation concepts in the same article; no typed relation authored yet.
+
+
+---
+
+# Item
+## id
+CON-FND-960CB57A05C308
+## label
+Neostigmine reverses competitive neuromuscular block by anticholinesterase-driven acetylcholine accumulation at nicotinic receptors
+## canonical_key
+anticholinesterase.reversal.competitive-neuromuscular-block
+## aliases
+Neostigmine reversal mechanism
+Anticholinesterase neuromuscular block reversal
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Neostigmine is an anticholinesterase that inhibits acetylcholinesterase, letting acetylcholine accumulate at nicotinic (Nm) receptors of the neuromuscular junction. This accumulated acetylcholine competes with, and displaces, a non-depolarizing (competitive) neuromuscular blocker from the receptor, relieving the block -- the same anticholinesterase mechanism neostigmine uses to diagnose and treat myasthenia gravis and manage post-operative ileus or urinary retention. Because it also raises acetylcholine at muscarinic sites, neostigmine is routinely co-administered with an antimuscarinic (atropine or glycopyrrolate) to prevent bradycardia.
+## explicit_objective
+Explain neostigmine's reversal of competitive neuromuscular block as anticholinesterase-driven acetylcholine accumulation outcompeting the blocker at nicotinic receptors.
+## pitfalls
+Attributing neostigmine's reversal to direct nicotinic agonism or CNS penetration -- it is an indirect, enzyme-inhibition mechanism, and as a quaternary amine it does not cross the blood-brain barrier appreciably.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-NEOSTIGMINE-REVERSAL-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following explains the wide use of neostigmine in reversing the action of competitive neuromuscular blockers used insurgical operations? a. A better return of memory after operation. b. Its anticholinesterase enzyme activity. c. Its good CNS penetration leading to better recovery. d. Anti-muscarinic actions leading to decreased secretions." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-F9E1875546E70D
+## label
+M2 muscarinic receptors are Gi-coupled and decrease intracellular cAMP, slowing heart rate
+## canonical_key
+muscarinic.m2-receptor.cardiac-camp-signaling
+## aliases
+M2 receptor signal transduction
+Gi-coupled receptors and cAMP
+## arabic_label
+
+## arabic_aliases
+
+## definition
+M2 muscarinic receptors, located in the heart, are Gi-protein coupled: their stimulation inhibits adenylate cyclase, decreasing intracellular cAMP, which produces the receptor's negative chronotropic (heart-rate-slowing) effect. This contrasts with Gs-coupled Beta2 receptors, whose stimulation activates adenylate cyclase and increases cAMP; Gq-coupled Alpha1 receptors, which signal through phospholipase C/IP3/DAG to raise intracellular calcium rather than through cAMP; and ligand-gated Nn (nicotinic) receptors, which produce fast depolarization directly without a second messenger at all.
+## explicit_objective
+Identify M2 muscarinic receptors as Gi-coupled, decreasing cAMP and slowing heart rate, distinguishing them from Gs-coupled Beta2, Gq-coupled Alpha1 and ligand-gated Nn receptors.
+## pitfalls
+Assuming every autonomic receptor works through cAMP -- Alpha1 signals through calcium via Gq, and Nn receptors are ligand-gated ion channels with no G-protein or second messenger involved at all.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Receptor Signal Transduction
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-M2-RECEPTOR-CAMP-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A decrease in intracellular c-AMP results from stimulation of which of the following receptors? a. Beta2 receptors. b. Alpha1 receptors. c. M2 receptors. d. Nn receptors." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-0D81DEF34D7EB9
+## label
+Pilocarpine is a direct muscarinic agonist used as a sialagogue for xerostomia and a miotic for glaucoma
+## canonical_key
+pilocarpine.therapeutic-uses.sialagogue-and-miotic
+## aliases
+Pilocarpine therapeutic uses
+Cholinomimetic alkaloid uses
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pilocarpine is a natural tertiary-amine cholinomimetic alkaloid and direct muscarinic agonist. Stimulating salivary-gland muscarinic receptors produces profuse watery secretion, making pilocarpine a sialagogue for xerostomia (dry mouth) from causes such as radiation or Sjogren's syndrome; stimulating the ciliary/iris muscarinic receptors makes it a miotic, and a first-line agent, for glaucoma, lowering intraocular pressure by opening the trabecular drainage angle -- the opposite of a mydriatic effect.
+## explicit_objective
+Name pilocarpine's therapeutic uses as a sialagogue for xerostomia and a miotic for glaucoma, and rule out mydriasis, hair-growth inhibition and parkinsonism therapy.
+## pitfalls
+Calling pilocarpine a mydriatic -- as a muscarinic agonist it is a miotic, constricting rather than dilating the pupil, the pharmacological opposite of a mydriatic.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-PILOCARPINE-USES-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following describes a therapeutic use of the cholinomimetic alkaloid, pilocarpine? a. Sialagogue in dryness of mouth. b. A mydriatic in cases of glaucoma. c. Inhibition of hair growth. d. As an add on therapy for cases of parkinsonism." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-F966C99135DCA0
+## label
+Pralidoxime reactivates phosphorylated acetylcholinesterase in organophosphorus poisoning, before enzyme aging occurs
+## canonical_key
+pralidoxime.mechanism.cholinesterase-reactivation
+## aliases
+Oxime therapy
+Cholinesterase reactivation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pralidoxime is an oxime that reactivates the acetylcholinesterase enzyme organophosphorus compounds have phosphorylated (inhibited), restoring its ability to break down accumulated acetylcholine. It must be given early, before the phosphorylated enzyme undergoes "aging" (a chemical change, typically within 24-48 hours, that makes reactivation impossible). Management protocol for organophosphorus poisoning pairs pralidoxime's enzyme-reactivating action with atropine's competitive antimuscarinic blockade and a benzodiazepine for seizure control, given concurrently.
+## explicit_objective
+Explain pralidoxime's mechanism in organophosphorus poisoning as reactivation of phosphorylated acetylcholinesterase, distinct from atropine's antimuscarinic role and benzodiazepine's anticonvulsant role.
+## pitfalls
+Attributing pralidoxime's benefit to a sedative, antimuscarinic or anticonvulsant action -- its only mechanism is direct enzyme reactivation, and it must be given before the phosphorylated enzyme ages.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-PRALIDOXIME-MECHANISM-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following explains the use of pralidoxime in the treatment of organophosphorus poisoning? a. Its sedative effect. b. Its antimuscarinic effect. c. Its anticonvulsant effect. d. It reactivates cholinesterase enzyme." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-22013B46637B40
+## label
+Atropine is contraindicated in glaucoma because pupillary dilation can precipitate angle closure
+## canonical_key
+atropine.contraindications.glaucoma
+## aliases
+Atropine contraindications
+Angle-closure glaucoma risk
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atropine's antimuscarinic blockade paralyzes the constrictor pupillae muscle, producing mydriasis; in a susceptible eye this can close the drainage angle of the anterior chamber, obstructing aqueous outflow and raising intraocular pressure, which can precipitate acute angle-closure glaucoma. This is why glaucoma is a strict contraindication, in contrast to heart block and organophosphorus poisoning, which are among atropine's own established clinical uses, and diarrhea, which is not a contraindication.
+## explicit_objective
+State that atropine is contraindicated in glaucoma, because pupillary dilation can precipitate angle closure, and is not contraindicated by heart block, organophosphorus poisoning or diarrhea.
+## pitfalls
+Confusing atropine's uses with its contraindications -- heart block and organophosphorus poisoning are indications for atropine, not reasons to avoid it.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ATROPINE-CONTRAINDICATIONS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Contraindications of atropine include which of the following? a. Heart block. b. Glaucoma. c. Organophosphorus poisoning. d. Diarrhea." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-44519EC1408937
+## label
+Antimuscarinic eye drops cause cycloplegia (loss of accommodation) alongside mydriasis
+## canonical_key
+antimuscarinic.eye-drops.cycloplegia-and-iop
+## aliases
+Cycloplegia
+Antimuscarinic ocular effects
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Antimuscarinic (parasympathetic depressant) eye drops paralyze the ciliary muscle -- cycloplegia -- abolishing near-vision accommodation, alongside pupillary dilation (mydriasis) and a potential rise in intraocular pressure. This is why agents such as atropine, homatropine, cyclopentolate and tropicamide are used before fundus or refractive examination, to hold the lens fixed in its far-vision shape while the pupil stays open; it is the opposite of the pupillary constriction and lowered IOP a muscarinic agonist such as pilocarpine produces.
+## explicit_objective
+State that antimuscarinic eye drops cause cycloplegia (loss of accommodation) alongside mydriasis, and rule out pupillary constriction, decreased IOP and bronchospasm.
+## pitfalls
+Assuming antimuscarinic eye drops lower intraocular pressure or constrict the pupil -- both are muscarinic-agonist effects, the pharmacological opposite of what an antimuscarinic produces.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ANTIMUSCARINIC-EYE-DROPS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is expected when using parasympathetic depressants as eye drops? a. Pupillary constriction. b. Decreased iOP. c. Loss of accommodation. d. Bronchospasm." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-8047A5BFDEE7E3
+## label
+Hyoscine is more markedly CNS depressant/sedating than atropine, which instead tends toward CNS stimulation and tachycardia
+## canonical_key
+hyoscine.vs-atropine.cns-depressant-effect
+## aliases
+Hyoscine vs atropine CNS effects
+Scopolamine sedation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Compared with atropine, hyoscine (scopolamine) crosses into the CNS more readily and produces marked sedation and amnesia at standard doses, which is why it is used as a premedication for its calming, amnestic effect and as a motion-sickness antiemetic, and is preferred over atropine when atropine's tendency to cause tachycardia would be undesirable. Atropine, by contrast, has minimal cardiac effect from hyoscine and instead reliably blocks vagal tone to raise heart rate, and shows biphasic CNS action -- stimulation (restlessness) before any depression -- rather than hyoscine's predominant sedation.
+## explicit_objective
+Contrast hyoscine's marked CNS depressant/sedative action with atropine's more prominent tachycardic, less sedating profile.
+## pitfalls
+Assuming hyoscine and atropine are interchangeable antimuscarinics -- their CNS and cardiovascular profiles diverge sharply, which is exactly why one or the other is preferred in different clinical situations (premedication/motion sickness vs heart block).
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-HYOSCINE-VS-ATROPINE-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Compared to atropine, hyoscine is more likely to: a. Induce vomiting. b. Precipitate tachycardia. c. Produce convulsions at toxic doses. d. Cause CNS depressant effect." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-AE3618871E840B
+## label
+Rivastigmine is the anticholinesterase used for Alzheimer's disease, distinct from anticholinesterases used for myasthenia or glaucoma
+## canonical_key
+anticholinesterase.alzheimers.rivastigmine
+## aliases
+Rivastigmine
+Anticholinesterases by indication
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rivastigmine is a reversible acetylcholinesterase inhibitor used specifically for Alzheimer's disease management, raising acetylcholine at central cholinergic synapses to partly offset the cholinergic-neuron loss underlying the disease's cognitive decline. This is a distinct clinical niche from other anticholinesterases: pyridostigmine (myasthenia gravis, neuromuscular blocker reversal) and echothiophate (an irreversible, organophosphate-type agent used topically for glaucoma).
+## explicit_objective
+Identify rivastigmine as the anticholinesterase used for Alzheimer's disease, distinct from anticholinesterases used for myasthenia gravis (pyridostigmine) or glaucoma (echothiophate).
+## pitfalls
+Treating all anticholinesterases as interchangeable by indication -- each of pyridostigmine, echothiophate and rivastigmine has a distinct, non-overlapping clinical niche in this book's own list.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ANTICHOLINESTERASE-ALZHEIMERS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is an anticholinesterase used in the treatment of Alzheimer's disease? a. Pyridostigmine. b. Rivastigmine. c. Tropicamide. d. Echothiophate." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-9682E927C0F810
+## label
+An antimuscarinic given for intestinal colic can precipitate acute urine retention in a patient with pre-existing BPH obstruction
+## canonical_key
+antimuscarinic.urine-retention.bph-precipitation
+## aliases
+Antimuscarinic urine retention
+BPH and antispasmodics
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atropine, an antimuscarinic antispasmodic used to relax visceral smooth muscle in intestinal colic, also blocks muscarinic receptors on the bladder detrusor, reducing its contractility. In a patient whose benign prostatic hypertrophy has already narrowed the bladder outflow tract, this drug-induced fall in detrusor activity can be enough to tip a partially obstructed bladder into acute retention -- one of the book's own listed atropine side effects, and the opposite effect from a muscarinic agonist such as carbachol or an anticholinesterase such as neostigmine, both of which are instead used to treat urinary retention.
+## explicit_objective
+Recognise an antimuscarinic antispasmodic (atropine) prescribed for intestinal colic as a cause of precipitated acute urine retention in a patient with pre-existing bladder outflow obstruction from BPH.
+## pitfalls
+Assuming a drug that treats retention (neostigmine, carbachol) could also cause it -- both increase detrusor activity, the opposite direction from what precipitates retention in an already-obstructed bladder.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ANTIMUSCARINIC-URINE-RETENTION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"An old male patient known to have benign prostatic hypertrophy complained recently from recurrent intestinal colic. A certain drug was prescribed but unfortunately this led to acute urine retention. Which of the following drugs could be the prescribed drug? a. Atropine. b. Neostigmine. c. Propranolol. d. Carbachol." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-E2A3372187494C
+## label
+Atropine treatment of organophosphorus poisoning reverses the muscarinic-excess picture toward tachycardia and bronchodilatation
+## canonical_key
+atropine.organophosphate-poisoning.treatment-effects
+## aliases
+Atropine reversal of OP poisoning
+Treatment endpoints in organophosphate poisoning
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Organophosphorus poisoning floods muscarinic receptors with excess acetylcholine, producing bradycardia and bronchoconstriction among its classic muscarinic poisoning signs. Because atropine is a competitive muscarinic receptor blocker, treating the poisoning with it reverses this muscarinic-excess picture toward atropine's own antimuscarinic effects: blocking vagal tone on the heart to produce tachycardia, and blocking bronchoconstrictor tone to produce bronchodilatation. Clinically, a rising heart rate above 80 and a clearing chest are read as endpoints showing atropine is adequately reversing the muscarinic poisoning.
+## explicit_objective
+Predict that atropine treatment of organophosphorus poisoning reverses the muscarinic-excess picture toward tachycardia and bronchodilatation, as endpoints of adequate antimuscarinic blockade.
+## pitfalls
+Assuming atropine treatment preserves the untreated poisoning's bradycardia or bronchoconstriction -- its whole mechanism is to competitively block the muscarinic excess causing those signs, flipping the picture toward its own antimuscarinic direction.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ATROPINE-OP-TREATMENT-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In a patient suffering from organophosphorus poisoning, which of the following pharmacological effects could you expect after he is being treated with atropine? a. Bradycardia and bronchodilatation. b. Tachycardia and bronchodilatation. c. Hypotension and bronchoconstriction. d. Bradycardia and hypotension." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-3C5B050221C5D8
+## label
+Sugammadex reverses rocuronium/vecuronium block by directly encapsulating the blocker, not by inhibiting acetylcholinesterase
+## canonical_key
+sugammadex.reversal.nondepolarizing-neuromuscular-block
+## aliases
+Sugammadex mechanism
+Selective relaxant binding agent
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sugammadex is a selective relaxant binding agent that forms a tight, inactive complex directly with the steroidal non-depolarizing neuromuscular blockers rocuronium and vecuronium. By encapsulating the blocker molecule itself, it lowers the free plasma concentration of the blocker, drawing more of it away from the neuromuscular junction into the circulation as the drug-complex, ultimately excreted in the urine. This is a fundamentally different, non-enzymatic mechanism from the acetylcholinesterase inhibitors (edrophonium, neostigmine, pyridostigmine), which instead work indirectly by raising acetylcholine to compete with the blocker, and it allows rapid reversal even of a deep block.
+## explicit_objective
+Distinguish sugammadex's direct encapsulation mechanism for reversing rocuronium/vecuronium block from the indirect, acetylcholinesterase-inhibitor mechanism of edrophonium, neostigmine and pyridostigmine.
+## pitfalls
+Grouping sugammadex with the anticholinesterase reversal agents -- it works by directly binding and encapsulating the blocker molecule, not by raising acetylcholine to out-compete it.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Neuromuscular Blocker Reversal
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-SUGAMMADEX-REVERSAL-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following can cause reversal of a non-depolarizing neuromuscular blocker by forming with it a complex that diffuses away from the neuromuscular junction into circulation and is excreted in the urine? a. Edrophonium. b. Neostigmine. c. Pyridostigmine. d. Sugammadex." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting -- no hit for this exact concept in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e) and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da) -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the ANS pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.

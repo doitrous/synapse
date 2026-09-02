@@ -71,3 +71,79 @@ University teaching material held for internal extraction only. Not redistributa
 0.9
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_9fa6c2788e36af56304e
+## title
+Dr Abdallah Salah - PHARMA IN POINTS 2026
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+208 INT/Pharmacology Dr. Abdallah Salah [2nd priority]/Files/Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+15
+## sha256
+9fa6c2788e36af56304e3bc78d61e42a416fd773579292844c5610d2ad62f809
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it.
+## qualification
+Instructor-authored point-form pharmacology reference (Dr Abdallah Salah, 2nd priority instructor material, not the department's own book). Used for the ANS/cholinergic and cardiovascular pharmacology clusters because the [1st priority] department pharmacology book and bank are both garbled (0-word native text layer on every page checked). Native text layer, quotable verbatim. Local curriculum, not independent medical authority.
+## confidence
+0.75
+## is_assessment
+false
+
+---
+
+# Item
+## id
+src_fc27447d6751a9bab6da
+## title
+MCQS pharma - Dr Abdallah Salah 2026
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+208 INT/Pharmacology Dr. Abdallah Salah [2nd priority]/MCQs/MCQS pharma _dr.Abdallah Salah...2026 .pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+165
+## sha256
+fc27447d6751a9bab6da8ab90cc4279c2c655b4769d4f9dabec4d391ad2adb8c
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it.
+## qualification
+Instructor-authored MCQ bank with worked explanations (Dr Abdallah Salah, 2nd priority instructor material, not the department's own book), same instructor as the PHARMA IN POINTS notes. Its per-question explanations (e.g. atropine vs hyoscine, neostigmine's mechanism) ground several 208 INT EOM 2023 items directly. Native text layer, quotable verbatim. Local curriculum, not independent medical authority.
+## confidence
+0.75
+## is_assessment
+true

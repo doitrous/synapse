@@ -7651,3 +7651,1532 @@ yes
 ## author_notes
 keySource: printed answer table p.21 ("64.B")
 reuse: CON-FND-955AD7B6FE6F03 (plasma half-life) is pending in docs/Kasr-Source-Imports/concept/108-INT-concepts-pharmacology.md, module-tied to 108 INT / KAU_Y1 only -- confirmed via find-existing.mjs ("plasma half-life"). Reused via a sparse pending-live overlay (docs/Kasr-Source-Imports/pending-live/208-INT-concepts.md) adding +208 INT and +2, per the chief-of-staff ruling on reusing Year-1 108/102 INT ids for overlapping pharmacology.
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q65
+
+## title
+Neostigmine reversal of neuromuscular blockade
+
+## question
+Which of the following explains the wide use of neostigmine in reversing the action of competitive neuromuscular blockers used insurgical operations?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+A better return of memory after operation
+
+## explanation_a
+Incorrect. Return of memory after anaesthesia is a general anaesthetic-recovery consideration, not the mechanism by which neostigmine reverses a competitive neuromuscular block.
+
+## answer_b
+Its anticholinesterase enzyme activity
+
+## explanation_b
+Correct. Neostigmine is an anticholinesterase: by inhibiting acetylcholinesterase, it lets acetylcholine accumulate at the nicotinic (Nm) receptors of the neuromuscular junction, and this accumulated acetylcholine competes with — and outcompetes — the non-depolarizing (competitive) blocker for the receptor, relieving the block. This is the same anticholinesterase mechanism the drug uses in its other clinical roles, diagnosing and treating myasthenia gravis and managing post-operative ileus or urinary retention, and it is why neostigmine is routinely paired with an antimuscarinic (atropine or glycopyrrolate) to prevent the bradycardia that unopposed acetylcholine accumulation would otherwise cause at muscarinic sites.
+
+## answer_c
+Its good CNS penetration leading to better recovery
+
+## explanation_c
+Incorrect. Neostigmine is a quaternary amine and does not cross the blood-brain barrier appreciably, so it has poor CNS penetration, not good — the reversal it produces is peripheral, at the neuromuscular junction.
+
+## answer_d
+Anti-muscarinic actions leading to decreased secretions
+
+## explanation_d
+Incorrect. Neostigmine is an anticholinesterase, not an antimuscarinic; it increases, rather than decreases, cholinergic (including muscarinic) activity, which is exactly why it must be co-administered with an antimuscarinic to control secretions and bradycardia.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-960CB57A05C308
+
+## concept_ids
+CON-FND-960CB57A05C308
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Explain neostigmine's reversal of competitive (non-depolarizing) neuromuscular block as anticholinesterase-driven acetylcholine accumulation outcompeting the blocker at nicotinic receptors.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("65.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q66
+
+## title
+Receptor causing a decrease in intracellular cAMP
+
+## question
+A decrease in intracellular c-AMP results from stimulation of which of the following receptors?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Beta2 receptors
+
+## explanation_a
+Incorrect. Beta2 receptors are Gs-coupled: stimulation activates adenylate cyclase and increases, not decreases, intracellular cAMP — the reverse of what the question asks.
+
+## answer_b
+Alpha1 receptors
+
+## explanation_b
+Incorrect. Alpha1 receptors are Gq-coupled, signalling through phospholipase C to raise intracellular calcium via IP3/DAG, not through cAMP at all, so alpha1 stimulation neither raises nor lowers cAMP by this pathway.
+
+## answer_c
+M2 receptors
+
+## explanation_c
+Correct. M2 muscarinic receptors, found on the heart, are Gi-coupled: stimulation inhibits adenylate cyclase and so decreases intracellular cAMP, which is the cellular basis of their negative chronotropic action — slowing the heart rate by reducing the cAMP-dependent pacemaker current. This is the same Gi-coupled logic that alpha2 adrenergic receptors use elsewhere in the autonomic system, but among the four options given, M2 is the one whose Gi-mediated fall in cAMP the question is testing.
+
+## answer_d
+Nn receptors
+
+## explanation_d
+Incorrect. Nicotinic (Nn) receptors are ligand-gated cation channels producing fast synaptic depolarization directly, not G-protein-coupled receptors acting through a second messenger such as cAMP at all.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-F9E1875546E70D
+
+## concept_ids
+CON-FND-F9E1875546E70D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Receptor Signal Transduction
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify M2 muscarinic receptors as Gi-coupled, decreasing cAMP and slowing heart rate, distinguishing them from Gs-coupled Beta2, Gq-coupled Alpha1 and ligand-gated Nn receptors.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("66.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q67
+
+## title
+Therapeutic use of pilocarpine
+
+## question
+Which of the following describes a therapeutic use of the cholinomimetic alkaloid, pilocarpine?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Sialagogue in dryness of mouth
+
+## explanation_a
+Correct. Pilocarpine is a natural tertiary-amine cholinomimetic alkaloid and a direct muscarinic agonist. Stimulating muscarinic receptors on the salivary glands produces watery, profuse salivary secretion, which is why the drug is used as a sialagogue to treat xerostomia (dry mouth) from causes such as radiation therapy or Sjögren's syndrome. Because it is a tertiary amine, pilocarpine also crosses the blood-brain barrier, but its established clinical uses in this book are peripheral — the salivary and ocular effects — rather than any CNS indication.
+
+## answer_b
+A mydriatic in cases of glaucoma
+
+## explanation_b
+Incorrect. Pilocarpine is a miotic, not a mydriatic, and it is specifically named a first-line miotic for glaucoma — stimulating the ciliary muscle constricts the pupil and opens the trabecular meshwork drainage angle, lowering intraocular pressure, the opposite pharmacological direction from mydriasis.
+
+## answer_c
+Inhibition of hair growth
+
+## explanation_c
+Incorrect. Pilocarpine's cholinomimetic action stimulates secretory and smooth-muscle tissue; it is not described as an agent that inhibits hair growth, which is not among its recognised uses.
+
+## answer_d
+As an add on therapy for cases of parkinsonism
+
+## explanation_d
+Incorrect. Antiparkinsonian atropine substitutes such as benztropine and trihexyphenidyl work by blocking, not stimulating, muscarinic receptors in the basal ganglia to restore the acetylcholine/dopamine balance — pilocarpine, a muscarinic agonist, would push that balance in the wrong direction and is not used as parkinsonism therapy.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-0D81DEF34D7EB9
+
+## concept_ids
+CON-FND-0D81DEF34D7EB9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Name pilocarpine's therapeutic uses as a sialagogue for xerostomia and a miotic for glaucoma, and rule out mydriasis, hair-growth inhibition and parkinsonism therapy.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("67.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q68
+
+## title
+Mechanism of pralidoxime in organophosphorus poisoning
+
+## question
+Which of the following explains the use of pralidoxime in the treatment of organophosphorus poisoning?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Its sedative effect
+
+## explanation_a
+Incorrect. Pralidoxime has no sedative action of its own; sedation in organophosphorus poisoning management, if used, comes from a benzodiazepine given alongside atropine and pralidoxime, not from pralidoxime itself.
+
+## answer_b
+Its antimuscarinic effect
+
+## explanation_b
+Incorrect. The antimuscarinic action in organophosphorus poisoning treatment belongs to atropine, which competitively blocks the excess muscarinic effects of accumulated acetylcholine; pralidoxime's role is a different, enzyme-directed mechanism.
+
+## answer_c
+Its anticonvulsant effect
+
+## explanation_c
+Incorrect. Pralidoxime has no anticonvulsant effect; controlling the seizures and agitation of organophosphorus poisoning is the role of a benzodiazepine such as diazepam, given as part of the same treatment protocol.
+
+## answer_d
+It reactivates cholinesterase enzyme
+
+## explanation_d
+Correct. Pralidoxime is an oxime that reactivates the phosphorylated acetylcholinesterase enzyme that organophosphorus compounds have inhibited, restoring the enzyme's ability to break down accumulated acetylcholine. It must be given early, before "aging" of the phosphorylated enzyme occurs (a chemical change, typically within 24-48 hours, that makes the enzyme permanently resistant to reactivation), which is why prompt treatment matters. The full management protocol pairs pralidoxime's enzyme-reactivating action with atropine's competitive muscarinic blockade and a benzodiazepine for seizure control, given concurrently rather than any one of the three alone.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-F966C99135DCA0
+
+## concept_ids
+CON-FND-F966C99135DCA0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Explain pralidoxime's mechanism in organophosphorus poisoning as reactivation of phosphorylated acetylcholinesterase, distinct from atropine's antimuscarinic role and benzodiazepine's anticonvulsant role.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("68.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q69
+
+## title
+Contraindication of atropine
+
+## question
+Contraindications of atropine include which of the following?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Heart block
+
+## explanation_a
+Incorrect. Heart block is one of atropine's clinical uses, not a contraindication — atropine's antimuscarinic blockade of vagal tone on the heart is exactly what makes it useful for treating a bradyarrhythmia such as heart block.
+
+## answer_b
+Glaucoma
+
+## explanation_b
+Correct. Atropine is contraindicated in glaucoma because its antimuscarinic action paralyzes the constrictor pupillae muscle, producing mydriasis; a dilated pupil in a susceptible eye closes the drainage angle of the anterior chamber, obstructing aqueous outflow and raising intraocular pressure, which can precipitate an attack of angle-closure glaucoma. This same mydriasis-driven angle-closure risk is why the book also lists glaucoma as a contraindication for the closely related antimuscarinic hyoscine.
+
+## answer_c
+Organophosphorus poisoning
+
+## explanation_c
+Incorrect. Organophosphorus poisoning is one of atropine's core clinical uses, not a contraindication, since atropine's competitive muscarinic blockade directly counters the excess acetylcholine that organophosphorus compounds cause.
+
+## answer_d
+Diarrhea
+
+## explanation_d
+Incorrect. Diarrhea is not a contraindication to atropine; if anything, atropine's antimuscarinic action on the gut tends to reduce motility and secretions, and atropine-containing antispasmodics are among the drugs used to treat intestinal colic and hypermotility, not something diarrhea rules out.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-22013B46637B40
+
+## concept_ids
+CON-FND-22013B46637B40
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+State that atropine is contraindicated in glaucoma, because pupillary dilation can precipitate angle closure, and is not contraindicated by heart block, organophosphorus poisoning or diarrhea.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("69.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q70
+
+## title
+Effect of antimuscarinic eye drops
+
+## question
+Which of the following is expected when using parasympathetic depressants as eye drops?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Pupillary constriction
+
+## explanation_a
+Incorrect. Antimuscarinic (parasympatholytic) eye drops block muscarinic receptors on the iris constrictor pupillae, producing pupillary dilation (mydriasis), not constriction — constriction is what a muscarinic agonist such as pilocarpine causes.
+
+## answer_b
+Decreased iOP
+
+## explanation_b
+Incorrect. Antimuscarinics tend to raise, not decrease, intraocular pressure, since the pupillary dilation they cause can narrow the drainage angle and impede aqueous outflow — the reverse of the effect this option describes.
+
+## answer_c
+Loss of accommodation
+
+## explanation_c
+Correct. Antimuscarinic (parasympathetic depressant) eye drops paralyze the ciliary muscle — cycloplegia — which abolishes the eye's ability to accommodate for near vision, alongside the accompanying mydriasis and, potentially, a rise in intraocular pressure. This cycloplegic effect is exactly why agents such as atropine, homatropine, cyclopentolate and tropicamide are used before a fundus or refractive examination, to keep the lens fixed in its far-vision shape while the pupil is held open.
+
+## answer_d
+Bronchospasm
+
+## explanation_d
+Incorrect. Antimuscarinic eye drops act locally on the eye at ordinary ophthalmic doses; bronchospasm would require significant muscarinic blockade in the airway, and if anything a systemically absorbed antimuscarinic would tend to cause bronchodilation, not bronchospasm, by blocking bronchoconstrictor muscarinic tone.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-44519EC1408937
+
+## concept_ids
+CON-FND-44519EC1408937
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+State that antimuscarinic eye drops cause cycloplegia (loss of accommodation) alongside mydriasis, and rule out pupillary constriction, decreased IOP and bronchospasm.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("70.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q71
+
+## title
+Hyoscine compared to atropine
+
+## question
+Compared to atropine, hyoscine is more likely to:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Induce vomiting
+
+## explanation_a
+Incorrect. Hyoscine is instead known for antiemetic action, used against motion sickness, not for inducing vomiting; that direction is the reverse of its actual clinical use.
+
+## answer_b
+Precipitate tachycardia
+
+## explanation_b
+Incorrect. Hyoscine's cardiovascular action on the heart is minimal compared with atropine's — a related teaching source notes hyoscine is "selective on CNS with no effect on the heart" — so it is atropine, which reliably blocks vagal tone, that is more associated with tachycardia at ordinary doses.
+
+## answer_c
+Produce convulsions at toxic doses
+
+## explanation_c
+Incorrect. Convulsions at toxic doses are a feature more associated with atropine toxicity (biphasic CNS stimulation followed by depression, with agitation and, in severe cases, convulsions before coma), not with hyoscine, whose CNS action at these doses tends toward sedation rather than excitation.
+
+## answer_d
+Cause CNS depressant effect
+
+## explanation_d
+Correct. Compared with atropine, hyoscine is markedly more sedating: it crosses into the CNS more readily and produces sedation and amnesia at standard doses, which is why it is used as a premedication for its calming and amnestic effect and as a motion-sickness antiemetic, and why it is preferred over atropine specifically in situations where atropine's tendency to cause tachycardia would be undesirable. Atropine, by contrast, tends toward CNS stimulation (restlessness) before any depression appears, and has a much more prominent cardiovascular (tachycardic) effect at ordinary doses.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-8047A5BFDEE7E3
+
+## concept_ids
+CON-FND-8047A5BFDEE7E3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Contrast hyoscine's marked CNS depressant/sedative action with atropine's more prominent tachycardic, less sedating profile.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("71.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q72
+
+## title
+Anticholinesterase used in Alzheimer's disease
+
+## question
+Which of the following is an anticholinesterase used in the treatment of Alzheimer's disease?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Pyridostigmine
+
+## explanation_a
+Incorrect. Pyridostigmine is an anticholinesterase, but its established uses are myasthenia gravis and reversal of nondepolarizing neuromuscular blockade, not the CNS indication of Alzheimer's disease.
+
+## answer_b
+Rivastigmine
+
+## explanation_b
+Correct. Rivastigmine is a reversible acetylcholinesterase inhibitor specifically used for the management of Alzheimer's disease, working by raising acetylcholine levels at central cholinergic synapses to partially offset the cholinergic-neuron loss that underlies the disease's cognitive decline. This distinct central indication is why rivastigmine is grouped separately from the peripherally-acting anticholinesterases used for myasthenia or glaucoma, even though all of them share the same enzyme-inhibition mechanism.
+
+## answer_c
+Tropicamide
+
+## explanation_c
+Incorrect. Tropicamide is not an anticholinesterase at all — it is an antimuscarinic mydriatic/cycloplegic agent used for fundus examination, acting by the opposite pharmacological mechanism (receptor blockade rather than enzyme inhibition).
+
+## answer_d
+Echothiophate
+
+## explanation_d
+Incorrect. Echothiophate is an irreversible (organophosphate-type) anticholinesterase used topically as eye drops for glaucoma, not a treatment for Alzheimer's disease.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-AE3618871E840B
+
+## concept_ids
+CON-FND-AE3618871E840B
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify rivastigmine as the anticholinesterase used for Alzheimer's disease, distinct from anticholinesterases used for myasthenia gravis (pyridostigmine) or glaucoma (echothiophate).
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("72.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q73
+
+## title
+Antimuscarinic precipitating urine retention in BPH
+
+## question
+An old male patient known to have benign prostatic hypertrophy complained recently from recurrent intestinal colic. A certain drug was prescribed but unfortunately this led to acute urine retention. Which of the following drugs could be the prescribed drug?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Atropine
+
+## explanation_a
+Correct. Atropine is an antimuscarinic antispasmodic that would be prescribed for intestinal colic to relax visceral smooth muscle by blocking muscarinic receptors, but that same blockade acts on the bladder detrusor muscle too, decreasing its contractility. In a patient whose benign prostatic hypertrophy has already narrowed the bladder outflow tract, this drug-induced fall in detrusor activity can be enough to tip a partially obstructed bladder into acute retention — one of the book's own listed atropine side effects.
+
+## answer_b
+Neostigmine
+
+## explanation_b
+Incorrect. Neostigmine is an anticholinesterase that increases, rather than decreases, muscarinic activity at the bladder — it is used to treat urinary retention (by promoting detrusor contraction), not to cause it, and it would not be a rational choice for intestinal colic either, since it tends to increase gut motility rather than relieve spasm.
+
+## answer_c
+Propranolol
+
+## explanation_c
+Incorrect. Propranolol, a beta-blocker, has no established antispasmodic use for intestinal colic and no muscarinic mechanism to precipitate urine retention by relaxing the detrusor.
+
+## answer_d
+Carbachol
+
+## explanation_d
+Incorrect. Carbachol is a direct-acting muscarinic agonist, used clinically for postoperative urinary retention because it stimulates detrusor contraction — the opposite effect from causing retention — and it would also not be an antispasmodic choice for colic, since muscarinic stimulation increases, rather than relieves, smooth muscle contraction.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-9682E927C0F810
+
+## concept_ids
+CON-FND-9682E927C0F810
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Recognise an antimuscarinic antispasmodic (atropine) prescribed for intestinal colic as a cause of precipitated acute urine retention in a patient with pre-existing bladder outflow obstruction from BPH.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("73.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q74
+
+## title
+Effects expected after atropine treatment of organophosphorus poisoning
+
+## question
+In a patient suffering from organophosphorus poisoning, which of the following pharmacological effects could you expect after he is being treated with atropine?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Bradycardia and bronchodilatation
+
+## explanation_a
+Incorrect. Bradycardia is the untreated organophosphorus-poisoning picture, from unopposed excess acetylcholine on cardiac muscarinic receptors — atropine's job is to block that muscarinic excess, which converts bradycardia to tachycardia, not preserve it.
+
+## answer_b
+Tachycardia and bronchodilatation
+
+## explanation_b
+Correct. Organophosphorus poisoning floods muscarinic receptors with excess acetylcholine, producing bradycardia and bronchoconstriction, among the classic muscarinic (SLUDGE-type) poisoning signs. Atropine is a competitive muscarinic receptor blocker, so treating the poisoning with it reverses this muscarinic-excess picture toward atropine's own antimuscarinic effects: it blocks vagal tone on the heart to produce tachycardia, and it blocks bronchoconstrictor muscarinic tone to produce bronchodilatation. Clinically, this is exactly the direction the treatment endpoints are read in — heart rate rising above 80, the chest becoming clear — as a sign atropine is adequately reversing the muscarinic poisoning.
+
+## answer_c
+Hypotension and bronchoconstriction
+
+## explanation_c
+Incorrect. Atropine's antimuscarinic blockade tends to raise heart rate and cardiac output rather than cause hypotension, and it relieves bronchoconstriction rather than causing it — this option pairs an unlikely cardiovascular direction with the wrong respiratory one.
+
+## answer_d
+Bradycardia and hypotension
+
+## explanation_d
+Incorrect. Both bradycardia and hypotension describe the untreated muscarinic-excess state of organophosphorus poisoning itself, which is what atropine's antimuscarinic blockade is meant to reverse, not preserve.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-E2A3372187494C
+
+## concept_ids
+CON-FND-E2A3372187494C
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Organophosphorus Poisoning
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Predict that atropine treatment of organophosphorus poisoning reverses the muscarinic-excess picture toward tachycardia and bronchodilatation, as endpoints of adequate antimuscarinic blockade.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("74.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q75
+
+## title
+Sugammadex reversal of neuromuscular block
+
+## question
+Which of the following can cause reversal of a non-depolarizing neuromuscular blocker by forming with it a complex that diffuses away from the neuromuscular junction into circulation and is excreted in the urine?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Edrophonium
+
+## explanation_a
+Incorrect. Edrophonium is an anticholinesterase, reversing neuromuscular block indirectly by raising acetylcholine levels at the junction, not by directly binding and encapsulating the blocking drug itself.
+
+## answer_b
+Neostigmine
+
+## explanation_b
+Incorrect. Neostigmine, like edrophonium, works by inhibiting acetylcholinesterase to accumulate acetylcholine, which then competes with the blocker for the nicotinic receptor — an indirect, competition-based reversal, not a direct binding-and-removal mechanism.
+
+## answer_c
+Pyridostigmine
+
+## explanation_c
+Incorrect. Pyridostigmine is also an anticholinesterase, sharing neostigmine's indirect, acetylcholine-accumulation mechanism rather than directly binding the neuromuscular blocking agent.
+
+## answer_d
+Sugammadex
+
+## explanation_d
+Correct. Sugammadex is a selective relaxant binding agent that forms a tight, inactive complex directly with the steroidal non-depolarizing blockers rocuronium and vecuronium. By encapsulating the blocker molecule itself, sugammadex lowers the free plasma concentration of the blocker, which draws more of it away from the neuromuscular junction and into the circulation as the drug-complex, ultimately excreted in the urine — a fundamentally different, non-enzymatic mechanism from the acetylcholinesterase inhibitors, and one that allows rapid reversal even of a deep block.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-3C5B050221C5D8
+
+## concept_ids
+CON-FND-3C5B050221C5D8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Neuromuscular Blocker Reversal
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Distinguish sugammadex's direct encapsulation mechanism for reversing rocuronium/vecuronium block from the indirect, acetylcholinesterase-inhibitor mechanism of edrophonium, neostigmine and pyridostigmine.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("75.D")

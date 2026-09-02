@@ -681,3 +681,104 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
 ## reading_time
 8
+
+
+---
+
+# Item
+## id
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## title
+Cholinergic and antimuscarinic pharmacology: agonists, anticholinesterases, atropine, organophosphorus poisoning and neuromuscular blocker reversal
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Cholinergic pharmacology runs on two receptor families -- muscarinic (G-protein-coupled, smooth muscle/glands/heart) and nicotinic (ligand-gated, ganglia and neuromuscular junction) -- and four drug strategies acting on them: direct agonists (pilocarpine), anticholinesterases that raise acetylcholine indirectly (neostigmine, pralidoxime's target enzyme, rivastigmine), antimuscarinic blockers (atropine, hyoscine), and neuromuscular blocker reversal agents that work either indirectly (anticholinesterases) or directly (sugammadex). Organophosphorus poisoning and its three-drug antidote (atropine, pralidoxime, a benzodiazepine) is the clearest worked example of how these mechanisms combine.
+## sections
+### Definition
+Cholinergic pharmacology turns on two receptor families with opposite pharmacology: muscarinic receptors (five subtypes, M1-M5, G-protein-coupled, found on smooth muscle, glands and the heart) and nicotinic receptors (Nn at autonomic ganglia and the adrenal medulla, Nm at the skeletal neuromuscular junction, both ligand-gated ion channels). Direct muscarinic agonists (choline esters such as acetylcholine, carbachol; alkaloids such as pilocarpine) stimulate these receptors directly. Anticholinesterases (reversible: physostigmine, neostigmine, edrophonium, pyridostigmine, rivastigmine; irreversible: organophosphorus compounds, echothiophate) raise acetylcholine indirectly by blocking its breakdown. Antimuscarinics (atropine, hyoscine, and their many derivatives) competitively block muscarinic receptors. Neuromuscular blockers act at the Nm receptor itself: non-depolarizing (competitive) agents such as rocuronium and vecuronium can be reversed either indirectly (anticholinesterases raising acetylcholine to out-compete them) or directly (sugammadex, which physically encapsulates the blocker molecule).
+
+### Mechanism
+Atropine's pharmacology is a single mechanism -- competitive, reversible blockade of all muscarinic subtypes -- read out differently at each organ: mydriasis and cycloplegia in the eye (with a resulting risk of precipitating angle-closure glaucoma and a resulting benefit for fundus examination), tachycardia in the heart (by removing vagal M2 tone), decreased secretions and gut/bladder smooth-muscle relaxation elsewhere (useful for antispasmodic effect in colic, but capable of precipitating urinary retention in a patient whose bladder outflow is already narrowed by BPH), and a biphasic CNS effect -- stimulation before depression -- that is much less prominent than the CNS action of its close relative hyoscine, which crosses into the CNS more readily and instead produces marked sedation and amnesia with comparatively little cardiac effect. Organophosphorus poisoning and its treatment are the clearest illustration of how these mechanisms interact: the poison irreversibly phosphorylates acetylcholinesterase, so acetylcholine floods every cholinergic synapse, producing the muscarinic (SLUDGE, bradycardia, bronchoconstriction), nicotinic (fasciculations, weakness) and CNS (confusion, seizures) signs together; atropine's competitive muscarinic block reverses only the muscarinic component, pushing heart rate and bronchial tone toward atropine's own tachycardic, bronchodilating direction, while pralidoxime works upstream of that, physically reactivating the phosphorylated enzyme itself (only effective before the enzyme "ages" into a permanently resistant state), and a benzodiazepine separately controls the CNS/seizure component -- three drugs, three distinct mechanisms, given together. Receptor transduction explains why a given agonist produces the effect it does: M2 (Gi-coupled) lowers cAMP to slow the heart; Beta2 (Gs-coupled) raises cAMP; Alpha1 (Gq-coupled) raises intracellular calcium via IP3/DAG; and Nn/Nm (ligand-gated channels) act without any second messenger at all, which is also why anticholinesterases (working through the enzyme, upstream of any of these receptors) can restore transmission at the neuromuscular junction regardless of which receptor family is involved there. Reversal of a non-depolarizing neuromuscular block follows one of two logics: neostigmine, pyridostigmine and edrophonium raise acetylcholine indirectly, by blocking its breakdown, so it can out-compete the blocker at the Nm receptor (which is also why they need an antimuscarinic co-administered, to control the muscarinic side effects of the acetylcholine excess they cause everywhere else); sugammadex instead binds the blocker molecule directly, forming an inactive complex that is cleared into the urine, a mechanism fast enough to reverse even a deep block and specific enough to need no antimuscarinic co-administration.
+
+### Key determinants
+Every question here turns on tracking one drug's or one poisoning's action through the full chain from mechanism to organ effect: which receptor subtype and G-protein coupling a drug acts on (and hence which second messenger moves, and in which direction); whether an agent works directly at the receptor (agonist or antagonist) or indirectly through the enzyme (anticholinesterase); and, for combination questions (atropine's role in organophosphorus poisoning, an antimuscarinic precipitating retention in a patient with BPH), tracing which of a drug's several organ-level effects is the one being tested in that particular clinical frame.
+
+### Clinical significance
+Recognising hyoscine's much greater CNS sedation, and atropine's much greater cardiac (tachycardic) effect, guides the choice between them for premedication, motion sickness or bradycardia. Recognising that any antimuscarinic prescribed for a smooth-muscle indication (colic, IBS) can precipitate urinary retention in an older man with undiagnosed or under-treated BPH is a everyday prescribing-safety point, not just an exam fact. In organophosphorus poisoning, titrating atropine to its own antimuscarinic endpoints (heart rate, clear chest) is literally how the antidote's adequacy is judged at the bedside. Sugammadex's direct-binding mechanism is why it is increasingly preferred over neostigmine for reversing rocuronium or vecuronium in modern anaesthetic practice, particularly for a deep block that an anticholinesterase could not reverse in time.
+
+### Common misconceptions
+Assuming any drug that raises acetylcholine (an anticholinesterase) is the same class as a direct agonist (pilocarpine, carbachol) -- the two work at different points in the same pathway, with different receptor selectivity and different risk of nicotinic side effects. Confusing pilocarpine's miotic action with a mydriatic one. Assuming atropine and hyoscine are interchangeable antimuscarinics rather than agents with sharply different CNS and cardiac profiles. Assuming atropine's antimuscarinic action only ever helps, without weighing its own capacity to precipitate glaucoma or urinary retention. Grouping sugammadex with the acetylcholinesterase-inhibitor reversal agents, when its mechanism -- direct encapsulation of the blocker -- is fundamentally different.
+## universities
+kau
+## years
+KAU_Y2
+## module
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## related_concepts
+CON-FND-960CB57A05C308
+CON-FND-F9E1875546E70D
+CON-FND-0D81DEF34D7EB9
+CON-FND-F966C99135DCA0
+CON-FND-22013B46637B40
+CON-FND-44519EC1408937
+CON-FND-8047A5BFDEE7E3
+CON-FND-AE3618871E840B
+CON-FND-9682E927C0F810
+CON-FND-E2A3372187494C
+CON-FND-3C5B050221C5D8
+## related_articles
+
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead.
+## reading_time
+13
