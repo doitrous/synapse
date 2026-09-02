@@ -16,7 +16,12 @@ COPY . .
 RUN npm run build           # → /web/dist
 
 # Stage 2 — the API server, serving ./public (the built SPA)
-FROM node:20-alpine
+# Debian (glibc) rather than Alpine: mediasoup ships a prebuilt worker binary
+# for linux-x64 glibc, so `npm ci` fetches it instead of compiling. On Alpine
+# (musl) the fetch fails and the worker would need python3/make/g++ to build.
+# The dependency is optional, so the app still boots without voice if the
+# download is unavailable at build time.
+FROM node:20-bookworm-slim
 WORKDIR /app
 COPY server/package.json server/package-lock.json* ./
 RUN npm ci --omit=dev
