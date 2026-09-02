@@ -62,6 +62,62 @@ Embryology in particular is **heavily covered already** by Kasr's Development/OB
 | `corpus luteum` | Live `CON-GYN-*`/`CON-OBS-*` records (progesterone/estrogen secretion) |
 | `twinning`, `langer lines` | No hit — safe to create |
 
+## C — youssef1 / youssef2 disposition (this pass)
+
+Both files were OCR'd in full (youssef1 33 pages, youssef2 32 pages; `pagetext.mjs ocr`,
+word counts 19-319/page, none near 0 after OCR). Both are much larger and more varied than
+the block-A estimate above ("~51 MCQs on anatomical terms/planes/fascia/bone classification
++ a ~17-q gametogenesis tail" for youssef1; "Part I anatomy terminology + a ~13-q
+fertilization/implantation tail" for youssef2) — see the per-section breakdown below.
+
+**Authored: 27 questions, seed `coverage/seeds/ASU-AE/youssef-terminology.json`,
+batch `question/ASU-AE-youssef-terminology-mcq.md`.** youssef2's own Part I + "Extra MCQs"
+block (32 items, pages 1-6) is the keyed source of record — it carries a clean printed
+answer table on p.6 that was rendered and read by eye (OCR scattered the key letters
+across the wrong lines). youssef1 carries the identical 30 of these 32 stems (verbatim,
+confirmed by direct comparison) with an inline, OCR-garbled key — held as duplicate
+throughout rather than re-verified letter by letter. Disposition of youssef2's 32 items:
+27 authored, 5 held as within-file duplicates (q12/q19 dup-of-q03, q14 dup-of-q08, q18
+dup-of-q02, q30 dup-of-q20) — full detail in the ledger and seed `field_notes`.
+Search-before-mint: 12 concepts reused as sparse pending-live overlays onto 11 Kasr
+`101-ISK-mcq-concepts.md` records + 1 `103-BMS-histology-concepts.md` record (planes,
+bone-shape classes, ossification, cartilage types, fascia, axial/appendicular skeleton,
+long-bone regions, yellow marrow, thick skin); 3 concepts newly minted (Langer's lines,
+the toe-adduction reference axis, the eight-carpal-bones count) after all four
+`find-existing.mjs` queries came back empty for each. `gate.mjs batch` and `gate.mjs
+simulate` both clean (rejected=0 errors=0).
+
+**Written "Key Facts" / fill-in-the-blank prompts (skip — not this cluster, left
+not-started):** youssef1 alone carries far more than the "14" originally estimated —
+13 on pp.2-4 (anatomical position, planes, langer's lines, fascia, vertebral curves, bone
+classification, bone growth), 6 on pp.10-11 (joint classification), 8 on pp.20-21 (spinal
+nerve structure, circulation, arteries, arteriovenous connections, lymphatics), 15
+fill-in-the-blank items on pp.26-27, and 10 on pp.28-29 (spermatogenesis/oogenesis
+definitions) — roughly 52 written items in total. youssef2 carries the 2 written
+ectopic-pregnancy case-discussion prompts on p.32, as described. None of this is authored;
+all left in this triage as not-started, per the dispatch's written-track scope boundary.
+
+**Newly discovered, out-of-scope MCQ blocks in youssef1 (not part of the described
+cluster, not authored, needs a follow-up dispatch):** pp.12-17 joints/muscles
+classification (~51 items across two internal numbering resets), pp.18-19 spinal-nerve/ANS
+(~14 items, its own printed answer table on p.19 is OCR-garbled and unread), pp.22-25
+circulatory/lymphatic system (~27 items). These read as Locomotor-System- and
+Nervous/CVS-adjacent content filed under ASU-AE's own MCQ folder rather than as
+"Introduction to Anatomy" terminology, and are well beyond the "~35 distinct" scope this
+dispatch described — left untriaged here rather than authored speculatively.
+
+**Gametogenesis tails (both files) — expected duplicate of Embryo1/Bg-Embryology-Mcq,
+not authored, not individually cross-checked in this pass:** youssef1 pp.31-33
+(spermatogenesis/spermiogenesis, ~15 items, its own answer key on p.30 is a rotated/garbled
+OCR page); youssef2 pp.20-31 "General Embryology Part 1" (gametogenesis, oogenesis,
+ovulation, corpus luteum, fertilization, implantation, decidua, ectopic pregnancy — at
+least 39 numbered items, larger than the "~13-q" estimate, its own answer table on p.32 is
+also OCR-garbled). Every stem sampled matches a topic already named as tested in Embryo1 /
+`Bg Embryology Mcq.pdf` per block B above (chromosome-count-by-stage, spermiogenesis
+acrosome/Golgi origin, necrospermia/azoospermia terminology, the 64-day duration, corpus
+luteum progesterone timing, decidua/trophoblast/ectopic-pregnancy facts) — held as
+duplicate on topic match, not verified row by row against those files in this pass.
+
 **This triage does not resolve live/pending/new for every block-A concept individually** — the embryology
 catalogue (`CON-DEV`, `CON-OBS`, `CON-GYN`, `CON-AND`) is large enough that most facts in blocks
 "gametogenesis" and "fertilization/implantation" are likely sparse-update candidates, while block "week 3
