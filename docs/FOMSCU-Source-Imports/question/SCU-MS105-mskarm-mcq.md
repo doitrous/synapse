@@ -1,5 +1,5 @@
 <!--
-  SCU-MS105 S3 minting lane 1 (scu-ms105-author1) — cluster 'mskarm', 8 of 17 items from FOMSCU Musculoskeletal's tier-2 bank `Anatomy/03 Questions and QBank/MCQ - Arm.pdf` (native text, one item per odd page, single answer letter on the following even page, 17/17 keyed genuine 4-option MCQ). The remaining 9 items (pages 17-33) are triaged as authorable but not yet read/authored this pass — see coverage/SCU-MS105-triage-keys.txt. 5 concepts genuinely new (re-verified with find-existing.mjs plus a grep -ril read of every hit body, including rejecting substring/homonym collisions on the bare word 'brachialis') plus 2 sparse reuses of an existing live concept (used twice, once each for items 3 and 4) — see pending-live/SCU-MS105-author1-overlay-concepts.md. Keys read from the answer-letter page following each stem; every explanation is written fresh in house voice.
+  SCU-MS105 S3 minting lane 1 (scu-ms105-author1) — cluster 'mskarm', 8 of 17 items from FOMSCU Musculoskeletal's tier-2 bank `Anatomy/03 Questions and QBank/MCQ - Arm.pdf` (native text, one item per odd page, single answer letter on the following even page, 17/17 keyed genuine 4-option MCQ). The remaining 9 items (pages 17-33) are triaged as authorable but not yet read/authored this pass — see coverage/SCU-MS105-triage-keys.txt. 5 concepts genuinely new (re-verified with find-existing.mjs plus a grep -ril read of every hit body, including rejecting substring/homonym collisions on the bare word 'brachialis') plus 2 sparse reuses of an existing live concept (used twice, once each for items 3 and 4) — see pending-live/SCU-MS105-author1-overlay-concepts.md. Keys read from the answer-letter page following each stem; every explanation is written fresh in house voice. LANE 2 ADDENDUM (scu-ms105-author2): items q09-q17 (pages 17-33) appended below, completing all 17/17. All 9 reuse existing pending KAU (101-ISK) concepts, none minted fresh — see pending-live/SCU-MS105-author1-overlay-concepts.md addendum section for the reuse rows and match reasoning.
 
   Import: Admin › Bulk import → question.
 -->
@@ -1101,3 +1101,1245 @@ yes
 ## author_notes
 keySource: answer letter 'C' on the page following the stem, MCQ - Arm.pdf
 fomscu: MCQ - Arm.pdf p15 (stem) / p16 (key); native-text PDF extraction.
+
+---
+
+# Item
+
+## id
+QST-SCUMS105-MSKARM-Q09
+
+## title
+Insertion of triceps brachii
+
+## question
+Which of the following is the insertion of the triceps brachii muscle?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Coracoid process
+
+## explanation_a
+Incorrect. The coracoid process is an origin site for the short head of biceps brachii and coracobrachialis, not triceps brachii's insertion.
+
+## answer_b
+Olecranon process
+
+## explanation_b
+Correct. All three heads of triceps brachii converge into a single tendon that inserts onto the upper surface of the olecranon process of the ulna. Anconeus, a small muscle at the back of the elbow, continues triceps' action across the joint. This shared insertion is why all three heads act together as a single elbow extensor despite their separate origins.
+
+## answer_c
+Ulnar tuberosity
+
+## explanation_c
+Incorrect. The ulnar tuberosity is brachialis's insertion, a different elbow flexor, not triceps brachii's.
+
+## answer_d
+Radial tuberosity
+
+## explanation_d
+Incorrect. The radial tuberosity is biceps brachii's insertion, not triceps brachii's.
+
+## topic
+Anatomy
+
+## subtopic
+Arm: muscle insertions
+
+## main_concept
+CON-MSK-34E34E10280236
+
+## concept_ids
+CON-MSK-34E34E10280236
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-MS105
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-ARM
+
+## resource_ids
+
+## learning_objective
+State that triceps brachii inserts on the olecranon process of the ulna.
+
+## source_citation
+FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Arm.pdf, item 9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: answer letter 'B' on the page following the stem, MCQ - Arm.pdf
+fomscu: MCQ - Arm.pdf p17 (stem) / p18 (key); native-text PDF extraction.
+reuse: Reuses pending concept CON-MSK-34E34E10280236 (docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md), shared with mskarm-q12 — see pending-live overlay addendum.
+
+---
+
+# Item
+
+## id
+QST-SCUMS105-MSKARM-Q10
+
+## title
+Continuation nerve of the lateral cutaneous nerve of the forearm
+
+## question
+The lateral cutaneous nerve of the forearm is a continuation of which nerve?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Median nerve
+
+## explanation_a
+Incorrect. The median nerve has no lateral forearm cutaneous branch of this kind; its own cutaneous territory is the palmar hand and lateral three-and-a-half digits.
+
+## answer_b
+Ulnar nerve
+
+## explanation_b
+Incorrect. The ulnar nerve's cutaneous territory is the medial, not lateral, side of the hand and forearm.
+
+## answer_c
+Axillary nerve
+
+## explanation_c
+Incorrect. The axillary nerve's cutaneous territory is a small patch of skin over the lower deltoid, the 'regimental badge' area, not the forearm.
+
+## answer_d
+Musculocutaneous nerve
+
+## explanation_d
+Correct. The musculocutaneous nerve supplies coracobrachialis, biceps brachii and most of brachialis as it descends the anterior arm. Near the elbow it becomes superficial lateral to the tendon of biceps brachii and continues onward as the lateral cutaneous nerve of the forearm. This makes the two nerves, motor musculocutaneous proximally and sensory lateral cutaneous distally, a single continuous structure.
+
+## topic
+Anatomy
+
+## subtopic
+Arm: nerve continuation
+
+## main_concept
+CON-DER-1DE5C5192978EF
+
+## concept_ids
+CON-DER-1DE5C5192978EF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-MS105
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DER-TOP-258152CCD5
+
+## resource_ids
+
+## learning_objective
+State that the lateral cutaneous nerve of the forearm is the continuation of the musculocutaneous nerve.
+
+## source_citation
+FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Arm.pdf, item 10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: answer letter 'D' on the page following the stem, MCQ - Arm.pdf
+fomscu: MCQ - Arm.pdf p19 (stem) / p20 (key); native-text PDF extraction.
+reuse: Reuses live concept CON-DER-1DE5C5192978EF (kau), also cited by lane 1's mskarm-q03 and mskmid26-q01 — see pending-live/SCU-MS105-author1-overlay-concepts.md, extended row.
+
+---
+
+# Item
+
+## id
+QST-SCUMS105-MSKARM-Q11
+
+## title
+Main vein of the anterior compartment of the arm
+
+## question
+What is the main vein located in the anterior compartment of the arm?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Cephalic vein
+
+## explanation_a
+Incorrect. The cephalic vein ascends on the lateral side of the arm outside the anterior compartment proper, before crossing into the deltopectoral groove.
+
+## answer_b
+Basilic vein
+
+## explanation_b
+Correct. The basilic vein ascends on the medial side of the forearm and arm. It pierces the deep fascia at around the middle of the arm to run within the anterior compartment alongside the brachial neurovascular bundle. At the lower border of teres major it joins the venae comitantes of the brachial artery to form the axillary vein.
+
+## answer_c
+Median cubital vein
+
+## explanation_c
+Incorrect. The median cubital vein is a connecting vein at the elbow, in the cubital fossa, not a vessel of the arm's anterior compartment itself.
+
+## answer_d
+Axillary
+
+## explanation_d
+Incorrect. The axillary vein lies proximal to the arm, in the axilla, formed by the union of the basilic vein and brachial venae comitantes at the lower border of teres major.
+
+## topic
+Anatomy
+
+## subtopic
+Arm: superficial veins
+
+## main_concept
+CON-MSK-66A2E56C00F3A7
+
+## concept_ids
+CON-MSK-66A2E56C00F3A7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-MS105
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+
+## learning_objective
+State that the basilic vein is the main vein running within the anterior compartment of the arm.
+
+## source_citation
+FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Arm.pdf, item 11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: answer letter 'B' on the page following the stem, MCQ - Arm.pdf
+fomscu: MCQ - Arm.pdf p21 (stem) / p22 (key); native-text PDF extraction.
+reuse: Reuses pending concept CON-MSK-66A2E56C00F3A7 (docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md), shared with mskkhanfour-q10 — see pending-live overlay addendum.
+
+---
+
+# Item
+
+## id
+QST-SCUMS105-MSKARM-Q12
+
+## title
+Origin of the long head of triceps brachii
+
+## question
+Which of the following correctly matches the origin of the long head of the triceps brachii?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Coracoid process
+
+## explanation_a
+Incorrect. The coracoid process is an origin site for the short head of biceps brachii and coracobrachialis, not the long head of triceps.
+
+## answer_b
+Infraglenoid tubercle
+
+## explanation_b
+Correct. The long head of triceps brachii arises from the infraglenoid tubercle of the scapula, just below the glenoid cavity. The lateral and medial heads instead arise from the posterior humeral shaft, above and below the spiral groove respectively. The infraglenoid origin distinguishes the long head from biceps brachii's own long head, which arises above the glenoid at the supraglenoid tubercle.
+
+## answer_c
+Supraglenoid tubercle
+
+## explanation_c
+Incorrect. The supraglenoid tubercle is the origin of the long head of biceps brachii, not triceps; this pairing, infraglenoid for triceps and supraglenoid for biceps, is a classic exam trap.
+
+## answer_d
+Medial epicondyle
+
+## explanation_d
+Incorrect. The medial epicondyle of the humerus gives origin to the common flexor origin of the forearm, not to any head of triceps brachii.
+
+## topic
+Anatomy
+
+## subtopic
+Arm: muscle origins
+
+## main_concept
+CON-MSK-34E34E10280236
+
+## concept_ids
+CON-MSK-34E34E10280236
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-MS105
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-ARM
+
+## resource_ids
+
+## learning_objective
+State that the long head of triceps brachii originates from the infraglenoid tubercle of the scapula, distinguishing it from biceps brachii's supraglenoid origin.
+
+## source_citation
+FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Arm.pdf, item 12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: answer letter 'B' on the page following the stem, MCQ - Arm.pdf; the key page also carries a printed mnemonic, 'Infra = Tri, Supra = Bi'
+fomscu: MCQ - Arm.pdf p23 (stem) / p24 (key); native-text PDF extraction.
+reuse: Reuses pending concept CON-MSK-34E34E10280236 (docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md), shared with mskarm-q09 — see pending-live overlay addendum.
+
+---
+
+# Item
+
+## id
+QST-SCUMS105-MSKARM-Q13
+
+## title
+Muscle deep to biceps brachii
+
+## question
+Which muscle lies deep to the biceps brachii in the anterior compartment of the arm?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Brachioradialis
+
+## explanation_a
+Incorrect. Brachioradialis is a forearm muscle, distal to the arm's anterior compartment, not a muscle lying deep to biceps brachii in the arm.
+
+## answer_b
+Triceps brachii
+
+## explanation_b
+Incorrect. Triceps brachii occupies the posterior compartment of the arm, on the opposite side of the humerus from biceps brachii, not deep to it.
+
+## answer_c
+Brachialis
+
+## explanation_c
+Correct. Brachialis lies directly deep to biceps brachii in the anterior compartment. It arises from the anterior surface of the distal humerus and inserts on the ulnar tuberosity of the forearm. Because its insertion is on the ulna rather than the rotating radius, brachialis acts as the elbow's true flexor regardless of forearm position, unlike biceps brachii above it.
+
+## answer_d
+Deltoid
+
+## explanation_d
+Incorrect. Deltoid caps the shoulder, proximal to the arm, and takes no part in the anterior compartment's muscle layering.
+
+## topic
+Anatomy
+
+## subtopic
+Arm: muscle layering
+
+## main_concept
+CON-MSK-41AFC12F501D59
+
+## concept_ids
+CON-MSK-41AFC12F501D59
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-MS105
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-SCU-MS105-ANA-ARM-COMPARTMENTS
+
+## resource_ids
+
+## learning_objective
+State that brachialis lies deep to biceps brachii in the anterior compartment of the arm.
+
+## source_citation
+FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Arm.pdf, item 13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: answer letter 'C' on the page following the stem, MCQ - Arm.pdf
+fomscu: MCQ - Arm.pdf p25 (stem) / p26 (key); native-text PDF extraction.
+mint: Mints CON-MSK-41AFC12F501D59 — see concept/SCU-MS105-concepts-2.md.
+
+---
+
+# Item
+
+## id
+QST-SCUMS105-MSKARM-Q14
+
+## title
+Movement spared by a posterior cord lesion in the axilla
+
+## question
+Hard | A lesion at the posterior cord of the brachial plexus in the axilla would MOST LIKELY affect all the following EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Extension at the elbow joint
+
+## explanation_a
+Incorrect as the exception. Elbow extension is performed by triceps brachii, supplied by the radial nerve, a posterior cord branch, so this movement would indeed be affected.
+
+## answer_b
+Sensation over the posterior arm
+
+## explanation_b
+Incorrect as the exception. Sensation over the posterior arm is carried by the posterior cutaneous nerve of the arm, a branch of the radial nerve, so this too would be affected by a posterior cord lesion.
+
+## answer_c
+Abduction of the shoulder beyond 15 degrees
+
+## explanation_c
+Incorrect as the exception. Abduction of the shoulder beyond 15 degrees depends heavily on deltoid, supplied by the axillary nerve, another posterior cord branch, so this would also be affected.
+
+## answer_d
+Supination by biceps brachii
+
+## explanation_d
+Correct. The posterior cord's branches, the axillary and radial nerves, supply the extensor (posterior) side of the limb. Biceps brachii, an anterior-compartment flexor and supinator, is instead supplied by the musculocutaneous nerve, a lateral cord branch, so a posterior cord lesion spares biceps and its supination action, making this the exception the question asks for.
+
+## topic
+Anatomy
+
+## subtopic
+Brachial plexus: posterior cord lesion
+
+## main_concept
+CON-MSK-CF723B5FB24D70
+
+## concept_ids
+CON-MSK-CF723B5FB24D70
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-MS105
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+
+## resource_ids
+
+## learning_objective
+State that a posterior cord lesion spares supination by biceps brachii, since biceps is supplied by the musculocutaneous nerve (lateral cord), not the posterior cord.
+
+## source_citation
+FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Arm.pdf, item 14
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: answer letter 'D' on the page following the stem, MCQ - Arm.pdf
+fomscu: MCQ - Arm.pdf p27 (stem, printed 'Hard' difficulty tag) / p28 (key); native-text PDF extraction.
+reuse: Reuses pending concept CON-MSK-CF723B5FB24D70 (docs/Kasr-Source-Imports/concept/101-ISK-concepts.md), shared with mskkhanfour-q01/q03 — see pending-live overlay addendum.
+
+---
+
+# Item
+
+## id
+QST-SCUMS105-MSKARM-Q15
+
+## title
+Lesion causing loss of elbow/wrist extension and posterior forearm sensation
+
+## question
+A patient presents with inability to extend the elbow and wrist joints, and loss of sensation over the posterior forearm. The lesion is MOST LIKELY in the:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Radial nerve in the spiral groove
+
+## explanation_a
+Correct. The radial nerve, running in the spiral groove of the humerus, supplies triceps brachii for elbow extension, the forearm's extensor muscles including the wrist extensors, and the posterior cutaneous nerve of the forearm for posterior forearm sensation. A lesion here explains all three deficits together.
+
+## answer_b
+Musculocutaneous nerve at coracobrachialis
+
+## explanation_b
+Incorrect. Injury to the musculocutaneous nerve at coracobrachialis would weaken elbow flexion and cause lateral, not posterior, forearm sensory loss, not the pattern described.
+
+## answer_c
+Median nerve in the cubital fossa
+
+## explanation_c
+Incorrect. Median nerve injury in the cubital fossa affects forearm pronation and most long finger flexors, producing neither elbow/wrist extension loss nor posterior forearm sensory loss.
+
+## answer_d
+Ulnar nerve behind the medial epicondyle
+
+## explanation_d
+Incorrect. Ulnar nerve injury behind the medial epicondyle affects wrist flexion and the medial hand's intrinsic muscles and sensation, not elbow/wrist extension or posterior forearm sensation.
+
+## topic
+Anatomy
+
+## subtopic
+Arm: radial nerve injury
+
+## main_concept
+CON-MSK-712EBE5936F7E4
+
+## concept_ids
+CON-MSK-712EBE5936F7E4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-MS105
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+
+## resource_ids
+
+## learning_objective
+Localise a lesion causing combined loss of elbow/wrist extension and posterior forearm sensation to the radial nerve in the spiral groove.
+
+## source_citation
+FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Arm.pdf, item 15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: answer letter 'A' on the page following the stem, MCQ - Arm.pdf
+fomscu: MCQ - Arm.pdf p29 (stem) / p30 (key); native-text PDF extraction.
+reuse: Reuses pending concept CON-MSK-712EBE5936F7E4 (docs/Kasr-Source-Imports/concept/101-ISK-concepts.md) — see pending-live overlay addendum.
+
+---
+
+# Item
+
+## id
+QST-SCUMS105-MSKARM-Q16
+
+## title
+Nerve accompanying the profunda brachii in the spiral groove
+
+## question
+Which nerve passes through the spiral groove of the humerus accompanied by the profunda brachii artery?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Musculocutaneous nerve
+
+## explanation_a
+Incorrect. The musculocutaneous nerve runs in the anterior compartment of the arm, piercing coracobrachialis, and has no relationship to the spiral groove or the profunda brachii artery.
+
+## answer_b
+Ulnar nerve
+
+## explanation_b
+Incorrect. The ulnar nerve runs down the medial side of the arm before piercing the medial intermuscular septum, taking no part in the spiral groove or accompanying the profunda brachii.
+
+## answer_c
+Radial nerve
+
+## explanation_c
+Correct. The profunda brachii artery arises from the brachial artery just below the lower border of teres major. It then runs posteriorly with the radial nerve through the triangular interval into the spiral groove of the humerus. The two structures accompany each other along this whole course before the artery divides to feed the anastomosis around the elbow.
+
+## answer_d
+Median nerve
+
+## explanation_d
+Incorrect. The median nerve runs in the anterior compartment of the arm, crossing the brachial artery, and has no relationship to the posterior spiral groove.
+
+## topic
+Anatomy
+
+## subtopic
+Arm: arterial and nerve relations
+
+## main_concept
+CON-MSK-A4A49A26BA10E7
+
+## concept_ids
+CON-MSK-A4A49A26BA10E7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-MS105
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-ARM
+
+## resource_ids
+
+## learning_objective
+State that the radial nerve accompanies the profunda brachii artery through the spiral groove of the humerus.
+
+## source_citation
+FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Arm.pdf, item 16
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: answer letter 'C' on the page following the stem, MCQ - Arm.pdf
+fomscu: MCQ - Arm.pdf p31 (stem) / p32 (key); native-text PDF extraction.
+reuse: Reuses pending concept CON-MSK-A4A49A26BA10E7 (docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md) — see pending-live overlay addendum.
+
+---
+
+# Item
+
+## id
+QST-SCUMS105-MSKARM-Q17
+
+## title
+Site of injury affecting both the ulnar nerve and medial cutaneous nerve of the forearm
+
+## question
+Injury to which part of the arm would MOST LIKELY affect both the ulnar nerve and the medial cutaneous nerve of the forearm?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Midshaft of humerus
+
+## explanation_a
+Incorrect. The midshaft of the humerus is classically associated with radial nerve injury in the spiral groove, on the posterior/lateral aspect, not the ulnar nerve or medial cutaneous nerve of the forearm.
+
+## answer_b
+Lateral epicondyle
+
+## explanation_b
+Incorrect. The lateral epicondyle relates to the posterior interosseous nerve and the common extensor origin, not to the medially-running ulnar nerve or medial cutaneous nerve of the forearm.
+
+## answer_c
+Medial side of the arm
+
+## explanation_c
+Correct. The ulnar nerve and the medial cutaneous nerve of the forearm both descend together along the medial side of the arm, close to the medial intermuscular septum. They stay superficial together before diverging near the elbow, where the ulnar nerve passes behind the medial epicondyle. This shared course makes the medial side of the arm the single site most likely to injure both nerves together.
+
+## answer_d
+Deltoid region
+
+## explanation_d
+Incorrect. The deltoid region relates to the axillary nerve's territory, around the surgical neck of the humerus, not to the ulnar nerve or medial cutaneous nerve of the forearm.
+
+## topic
+Anatomy
+
+## subtopic
+Arm: medial neurovascular bundle
+
+## main_concept
+CON-MSK-B920ABEF3F31F8
+
+## concept_ids
+CON-MSK-B920ABEF3F31F8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-MS105
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-SCU-MS105-ANA-ARM-COMPARTMENTS
+
+## resource_ids
+
+## learning_objective
+State that injury to the medial side of the arm is the site most likely to injure both the ulnar nerve and the medial cutaneous nerve of the forearm together.
+
+## source_citation
+FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Arm.pdf, item 17
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: answer letter 'C' on the page following the stem, MCQ - Arm.pdf
+fomscu: MCQ - Arm.pdf p33 (stem) / p34 (key), p35 closing Arabic sign-off page not counted as an item; native-text PDF extraction.
+mint: Mints CON-MSK-B920ABEF3F31F8 — see concept/SCU-MS105-concepts-2.md.
