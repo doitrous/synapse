@@ -43,10 +43,59 @@ youssef1-spinalcirc-q35
 youssef1-spinalcirc-q36
 youssef1-spinalcirc-q37
 
-# youssef1-joints: joints/muscles classification block (pp.12-17, ~51 items
-# across two internal numbering resets, per coverage/ASU-AE-triage.md) --
-# NOT triaged this pass (only skimmed for scope-boundary purposes while
-# locating the spinal-nerve block start on p.18); left for a further
-# follow-up dispatch. No per-item keys recorded here since the block has not
-# had a real per-question triage pass yet -- do not infer a count from this
-# comment alone.
+# youssef1-jm: joints/muscles classification block (pp.12-17, 52 keyed items
+# in page order, two internal numbering resets and six genuine print gaps:
+# original Q21, Q26, Q35, Q47, Q55, Q57 are simply absent from the scan,
+# confirmed by rendering every page in range -- AUTHORED this session
+youssef1-jm-q01
+youssef1-jm-q02
+youssef1-jm-q03
+youssef1-jm-q04
+youssef1-jm-q05
+youssef1-jm-q06
+youssef1-jm-q07
+youssef1-jm-q08
+youssef1-jm-q09
+youssef1-jm-q10
+youssef1-jm-q11
+youssef1-jm-q12
+youssef1-jm-q13
+youssef1-jm-q14
+youssef1-jm-q15
+youssef1-jm-q16
+youssef1-jm-q17
+youssef1-jm-q18
+youssef1-jm-q19
+youssef1-jm-q20
+youssef1-jm-q21
+youssef1-jm-q22
+youssef1-jm-q23
+youssef1-jm-q24
+youssef1-jm-q25
+youssef1-jm-q26
+youssef1-jm-q27
+youssef1-jm-q28
+youssef1-jm-q29
+youssef1-jm-q30
+youssef1-jm-q31
+youssef1-jm-q32
+youssef1-jm-q33
+youssef1-jm-q34
+youssef1-jm-q35
+youssef1-jm-q36
+youssef1-jm-q37
+youssef1-jm-q38
+youssef1-jm-q39
+youssef1-jm-q40
+youssef1-jm-q41
+youssef1-jm-q42
+youssef1-jm-q43
+youssef1-jm-q44
+youssef1-jm-q45
+youssef1-jm-q46
+youssef1-jm-q47
+youssef1-jm-q48
+youssef1-jm-q49
+youssef1-jm-q50
+youssef1-jm-q51
+youssef1-jm-q52
