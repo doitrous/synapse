@@ -248,14 +248,23 @@ export function backoffDelay(attempt: number): number {
  * same Express server, which is production) resolves against the page. Returns
  * null when there is no base at all — demo mode has no socket and must never
  * open one.
+ *
+ * The configured base already ends in `/api` in every live deployment — every
+ * other call is `${base}/me/…`, `${base}/parties/…` — so the endpoint is
+ * `${base}/rooms/ws`. A trailing `/api` path segment is stripped before the
+ * `/api/rooms/ws` suffix is added, so a base written either way resolves to
+ * one `/api`, never the `/api/api/rooms/ws` that silently 404'd the upgrade and
+ * left every room reporting voice unavailable. Only a trailing path segment is
+ * touched; a host like `api.nishany.com` is left alone.
  */
 export function roomSocketUrl(base: string | undefined, code: string, origin?: string): string | null {
   if (!base || !code) return null
+  const normalised = base.replace(/\/+$/, '').replace(/\/api$/i, '')
   let resolved: URL
   try {
-    resolved = /^https?:\/\//i.test(base)
-      ? new URL(`${base.replace(/\/$/, '')}/api/rooms/ws`)
-      : new URL(`${base.replace(/\/$/, '')}/api/rooms/ws`, origin ?? 'http://localhost')
+    resolved = /^https?:\/\//i.test(normalised)
+      ? new URL(`${normalised}/api/rooms/ws`)
+      : new URL(`${normalised}/api/rooms/ws`, origin ?? 'http://localhost')
   } catch {
     return null
   }

@@ -173,6 +173,19 @@ test('an https api base becomes a wss socket', () => {
   )
 })
 
+test('a base that already ends in /api does not double it', () => {
+  // Production sets VITE_API_BASE to `https://host/api`; every other call is
+  // `${base}/me/…`. The socket must land on one `/api`, not `/api/api`.
+  assert.equal(
+    roomSocketUrl('https://nishany.com/api', 'KTP0R2'),
+    'wss://nishany.com/api/rooms/ws?code=KTP0R2',
+  )
+  assert.equal(
+    roomSocketUrl('https://nishany.com/api/', 'KTP0R2'),
+    'wss://nishany.com/api/rooms/ws?code=KTP0R2',
+  )
+})
+
 test('an http api base becomes a ws socket', () => {
   assert.equal(
     roomSocketUrl('http://localhost:8080', 'KTP0R2'),
