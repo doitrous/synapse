@@ -4026,3 +4026,319 @@ sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU
 relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
 au: Week 1 EOM Final, p5, q18
 
+
+---
+
+# Item
+
+## id
+CON-NEU-C53677C7402E85
+
+## label
+The muscle spindle contains intrafusal fibers only, not extrafusal fibers
+
+## canonical_key
+histology.muscle-spindle.intrafusal-extrafusal-fibre-composition
+
+## definition
+The muscle spindle is an encapsulated, fusiform (spindle-shaped) proprioceptive receptor lying in parallel with the ordinary contractile (extrafusal) muscle fibers, and is itself composed exclusively of small, specialised INTRAFUSAL fibers (nuclear bag and nuclear chain fibers) enclosed within its own connective-tissue capsule. Describing the spindle as 'composed of intrafusal and extrafusal fibers' is therefore the false statement about it: extrafusal fibers are the surrounding ordinary skeletal muscle the spindle sits within, not a component of the spindle itself.
+
+## explicit_objective
+Identify that the muscle spindle is composed of intrafusal fibers only, so describing it as containing both intrafusal and extrafusal fibers is the false statement about it.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+## topic
+Muscle spindle histology
+
+## subtopic
+Intrafusal fibre composition
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Muscle spindle structure|Intrafusal fibers|Nuclear bag and chain fibers
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Including extrafusal fibers as part of the muscle spindle's own composition — extrafusal fibers are the surrounding ordinary contractile muscle the spindle lies among, not fibers within the spindle's own capsule.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Muscle spindle histology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p33 q136 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C53677C7402E85
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+From the following figure answer these questions. 1. This receptor is characterized by the following except .. A- It's encapsulated and fusiform in shape. B- Composed of intrafusal and extrafusal fibers. C- Is present at the musulotendonous part of the muscles. D- None of the above. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs against this module's existing muscle spindle histology/physiology concepts (muscle spindle capsule, innervation, bag/chain fibers) before minting; the intrafusal-vs-extrafusal composition fact tested here is distinct from those already-minted angles (capsule location, innervation type, alpha-gamma coactivation) and is not a duplicate of any of them.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p33, q136
+
+---
+
+# Item
+
+## id
+CON-NEU-2F482522A2C6C3
+
+## label
+Meissner's corpuscle does not have longitudinally arranged Schwann cells
+
+## canonical_key
+histology.meissner-corpuscle.schwann-cell-arrangement-feature
+
+## definition
+Meissner's corpuscle is a small, oval, encapsulated rapidly-adapting mechanoreceptor found most densely at the palmar surface of the fingertips, with its afferent nerve fiber taking a characteristic SPIRAL (coiled) course as it winds between horizontally stacked, flattened Schwann (lamellar) cells within the capsule. Describing its Schwann cells as 'longitudinally arranged' is therefore the false statement about it: they are stacked in horizontal, disc-like layers around the spiralling nerve fiber, not arranged along the corpuscle's long axis.
+
+## explicit_objective
+Identify that Meissner's corpuscle's Schwann cells are horizontally stacked around a spiralling nerve fiber, not longitudinally arranged, making that description the false statement about it.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+## topic
+Cutaneous mechanoreceptor histology
+
+## subtopic
+Meissner's corpuscle structure
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Meissner corpuscle histology|Fine touch receptor structure|Palmar fingertip receptor
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming Meissner's corpuscle's lamellar Schwann cells run longitudinally along the corpuscle's axis, when they are instead stacked horizontally around the nerve fiber's own spiral course.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+CON-NEU-57EC6C7FBCDD1E
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Cutaneous mechanoreceptor histology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p33 q139 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2F482522A2C6C3
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The following receptor is characterized by the following except …. A- It's oval and small. B- Its nerve has spiral course. C- Has longitudinally arranged Schwan's cells. D- Is present more at the palmer surface of the finger tips. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p33, q139

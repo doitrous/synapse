@@ -17920,3 +17920,4111 @@ resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (
 sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
 relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
 au: Week 1 EOM Final, p24, q100
+
+---
+
+# Item
+
+## id
+CON-NEU-41AC56333B9651
+
+## label
+The spinal accessory nerve is tested by asking the patient to shrug the shoulder and turn the head against resistance
+
+## canonical_key
+anatomy.spinal-accessory-nerve.shoulder-shrug-head-turn-test
+
+## definition
+The spinal accessory nerve (CN XI) supplies trapezius (shoulder shrug against resistance) and sternocleidomastoid (turning the head to the opposite side against resistance). Its bedside motor examination therefore combines both actions in one test: asking the patient to shrug the shoulders against the examiner's downward resistance, and to turn the head to each side against resistance, while the examiner palpates or observes the corresponding muscle.
+
+## explicit_objective
+State that the spinal accessory nerve is examined by asking the patient to shrug the shoulder (trapezius) and turn the head against resistance (sternocleidomastoid).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Cranial nerve examination
+
+## subtopic
+Spinal accessory nerve motor test
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Accessory nerve examination|Trapezius and sternocleidomastoid test|Shoulder shrug test
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Testing only one of the two muscles (trapezius or sternocleidomastoid) and assuming that alone confirms accessory nerve function, when the standard bedside test combines shoulder shrug and resisted head turn.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve examination
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p25 q101 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-41AC56333B9651
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+How would you test for the spinal accessory nerve? A- Test for sensations over the face. B- Examine for the power of the muscles of mastication. C- Examine for the sense of smell. D- Ask the patient to shrug the shoulder and to turn the head against resistance. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p25, q101
+
+---
+
+# Item
+
+## id
+CON-NEU-1B902788328B89
+
+## label
+The transverse cervical and suprascapular arteries are found in the posterior triangle of the neck
+
+## canonical_key
+anatomy.posterior-triangle.transverse-cervical-suprascapular-arteries
+
+## definition
+The posterior triangle of the neck is crossed by two branches of the thyrocervical trunk: the transverse cervical artery, which runs across the floor toward the trapezius, and the suprascapular artery, which runs toward the suprascapular notch on its way to the scapula. Both arteries lie superficial to the deep cervical fascia covering the floor muscles and are encountered early in a posterior triangle dissection, unlike the lingual and facial arteries (branches of the external carotid, found in the anterior triangle) or the maxillary and superficial temporal arteries (terminal branches of the external carotid within the parotid region).
+
+## explicit_objective
+Identify the transverse cervical and suprascapular arteries as the arteries found within the posterior triangle of the neck.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Posterior triangle of the neck
+
+## subtopic
+Arterial content of the posterior triangle
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Posterior triangle arteries|Transverse cervical artery|Suprascapular artery
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the posterior triangle's own arterial content (transverse cervical, suprascapular) with the anterior triangle's external-carotid branches (lingual, facial) or its terminal branches within the parotid (maxillary, superficial temporal).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Posterior triangle of the neck
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p25 q102 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-1B902788328B89
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following arteries are found in the posterior triangle of the neck? A- Transverse cervical and suprascapular arteries. B- Lingual and facial arteries. C- Maxillary and superficial temporal arteries. D- Posterior auricular and maxillary arteries. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p25, q102
+
+---
+
+# Item
+
+## id
+CON-NEU-94ED12DE3C827B
+
+## label
+Weakness turning the head to one side with a drooped shoulder on the same side points to a spinal accessory nerve injury
+
+## canonical_key
+anatomy.spinal-accessory-nerve.contralateral-head-turn-ipsilateral-shoulder-droop
+
+## definition
+Sternocleidomastoid turns the head to the OPPOSITE side (a right sternocleidomastoid turns the head left), while trapezius elevates and helps stabilise the SAME-side shoulder. A spinal accessory nerve (CN XI) lesion on one side therefore produces weakness turning the head to the side opposite the lesion (the paralysed sternocleidomastoid cannot pull the chin across) together with a drooped, weak shoulder on the same side as the lesion (the paralysed trapezius can no longer hold it up) — the combination that distinguishes an accessory nerve lesion from a brachial plexus, suprascapular nerve, or ansa cervicalis injury, none of which produces this specific head-turn-plus-shoulder-droop pairing.
+
+## explicit_objective
+Identify the spinal accessory nerve as the nerve injured when head-turning weakness on one side accompanies a drooped shoulder on that same side.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Neck nerves
+
+## subtopic
+Accessory nerve injury: clinical presentation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Accessory nerve palsy presentation|Sternocleidomastoid and trapezius weakness|Shoulder droop and head turn weakness
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Expecting the sternocleidomastoid weakness and the shoulder droop to be on opposite sides — both signs of a single accessory nerve lesion appear on the SAME side as the lesion, because sternocleidomastoid turns the head away from its own side while trapezius elevates its own side's shoulder.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Neck nerves
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p25 q103 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-94ED12DE3C827B
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+A patient who experiences weakness when turning the head to the side opposite a nerve lesion, accompanied by a drooped shoulder on the same side of the lesion, MOST LIKELY has injured the: A- Brachial plexus. B- Spinal accessory nerve. C- Suprascapular nerve. D- Ansa cervicalis. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p25, q103
+
+---
+
+# Item
+
+## id
+CON-NEU-3B6E135CB56B6D
+
+## label
+A blow to the pterion risks an extradural haemorrhage from the middle meningeal artery
+
+## canonical_key
+anatomy.pterion.middle-meningeal-artery-extradural-haemorrhage
+
+## definition
+The pterion is a thin, H-shaped junction of the frontal, parietal, temporal and greater wing of the sphenoid bones on the lateral skull, deep to which runs the anterior (frontal) branch of the middle meningeal artery grooving the inner table of the skull. Because the bone here is thin and the artery lies directly against it, a blunt blow to the pterion can fracture the skull and lacerate the artery, producing an extradural (epidural) haemorrhage — classically presenting with a lucid interval followed by rapidly progressive unconsciousness as the arterial bleed strips the dura from the skull.
+
+## explicit_objective
+Identify the middle meningeal artery as the vessel most likely torn by a blunt injury to the pterion, causing extradural haemorrhage.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Skull and meninges
+
+## subtopic
+Pterion trauma and the middle meningeal artery
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Pterion fracture|Extradural haemorrhage|Middle meningeal artery injury
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the middle meningeal artery (extradural bleed, arterial, at the pterion) with the superficial temporal artery (a scalp vessel, not intracranial) or with a venous, slower-developing subdural bleed from bridging veins elsewhere on the skull.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Skull and meninges
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p25 q104 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-3B6E135CB56B6D
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+A 50 year old man was involved in an automobile accident and a blunt object hit him hard on the pterion of the skull. After three hours, patient became unconscious. Careful examination revealed that the patient was suffering from intracranial hemorrhage. Which of the following arteries is MOST LIKELY involved? A- Superficial temporal. B- Deep temporal. C- Middle meningeal. D- Occipital. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p25, q104
+
+---
+
+# Item
+
+## id
+CON-NEU-7D59C0BE2C4BAF
+
+## label
+The ansa cervicalis is a content of the carotid triangle
+
+## canonical_key
+anatomy.carotid-triangle.ansa-cervicalis-content
+
+## definition
+The carotid triangle, bounded by the posterior belly of digastric, the superior belly of omohyoid and the anterior border of sternocleidomastoid, contains the carotid sheath and its structures (common, internal and external carotid arteries, internal jugular vein, vagus nerve) together with the hypoglossal nerve and the ansa cervicalis, the C1-C3 loop that supplies the infrahyoid strap muscles. This source keys the ansa cervicalis alone as the answer, distinguishing it from the paired option naming cranial nerves X and IX (vagus is a true content, but glossopharyngeal is not primarily associated with this triangle) and from the option naming cranial nerves XII, IX and X together (hypoglossal and vagus are true contents, but again glossopharyngeal is not the triangle's own nerve).
+
+## explicit_objective
+State that the ansa cervicalis is a content of the carotid triangle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Carotid triangle
+
+## subtopic
+Nerve content of the carotid triangle
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Carotid triangle contents|Ansa cervicalis location|Hypoglossal and vagus nerve in the neck
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Including the glossopharyngeal nerve (cranial nerve IX) among the carotid triangle's named contents — it is not the triangle's own nerve, unlike the vagus, hypoglossal and ansa cervicalis.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Carotid triangle
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p25 q105 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-7D59C0BE2C4BAF
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+From contents of carotid triangle ... A- Cranial nerves X&IX. B- Cranial nerves XII, IX&X. C- Ansa cervicalis. D- B&c. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p25, q105
+
+---
+
+# Item
+
+## id
+CON-NEU-89FF8B2413B7E8
+
+## label
+The base of the anterior triangle of the neck is formed by the lower border of the body of the mandible
+
+## canonical_key
+anatomy.anterior-triangle.mandible-base
+
+## definition
+The anterior triangle of the neck is bounded by the anterior border of sternocleidomastoid laterally, the midline of the neck medially, and — as its base — the lower border of the body of the mandible (continued posteriorly by an imaginary line to the mastoid process) superiorly, with its apex at the sternum inferiorly. This base is what the anterior triangle's own subdivisions (submandibular, carotid, muscular and submental triangles) are further defined against.
+
+## explicit_objective
+State that the base of the anterior triangle of the neck is formed by the lower border of the body of the mandible.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Anterior triangle of the neck
+
+## subtopic
+Anterior triangle boundaries
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Anterior triangle base|Neck triangle boundaries|Mandible and anterior triangle
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the anterior triangle's base (mandible, superiorly) with its apex (the sternum, inferiorly) or its lateral boundary (sternocleidomastoid).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Anterior triangle of the neck
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p27 q111 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-89FF8B2413B7E8
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The base of the anterior triangle of the neck is formed by. A- Lower border of the body of mandible. B- Hyoid bone. C- Middle third of clavicle. D- None of the above. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p27, q111
+
+---
+
+# Item
+
+## id
+CON-NEU-9113E12DAD6149
+
+## label
+This source's key for the exception among the carotid triangle's contents
+
+## canonical_key
+anatomy.carotid-triangle.internal-carotid-artery-exception-doubt
+
+## definition
+The carotid triangle's contents (carotid sheath, the carotid bifurcation and both its branches, ansa cervicalis, sympathetic trunk posteriorly) conventionally include the internal carotid artery, since the common carotid artery bifurcates within or near the triangle into internal and external branches. This source nonetheless keys the internal carotid artery as the option that is NOT a content — most plausibly reasoning from the separate, genuinely true fact that the internal carotid artery gives off no branches in the neck (unlike the external carotid, whose several branches arise within the triangle), rather than from the artery's actual anatomical presence there (see uncertainty).
+
+## explicit_objective
+Reproduce this source's printed answer that the internal carotid artery is the option NOT counted among the carotid triangle's contents, while recognising that the artery does physically pass through the triangle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Carotid triangle
+
+## subtopic
+Contents of the carotid triangle — a keyed exception
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Carotid triangle contents except|Internal carotid artery in the neck|External carotid artery branches
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Applying the standard content list (internal carotid artery included) directly against this source's key without checking it — this paper's printed answer excludes the internal carotid artery, most likely conflating triangle membership with the separate fact that the ICA gives no branches in the neck.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+Standard anatomy texts list the internal carotid artery among the carotid triangle's contents, since the common carotid artery bifurcates into internal and external carotid within or adjacent to the triangle. This source's key instead marks the internal carotid artery as the exception, which appears to conflate triangle membership with the distinct, genuinely true teaching point that the internal carotid artery gives off no branches in the neck (unlike the external carotid's several intratriangular branches). Kept as printed per LANE-CARD's 'printed keys stand' rule; the discrepancy is recorded here rather than silently corrected.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Carotid triangle
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p27 q112 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-9113E12DAD6149
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the followings are from the contents of carotid triangle except. A- Internal carotid artery. B- Ansa cervicalis. C- Sympathetic trunk. D- External carotid artery. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p27, q112
+
+---
+
+# Item
+
+## id
+CON-NEU-74F7F660F5F865
+
+## label
+The floor of the digastric triangle is formed by mylohyoid and hyoglossus muscles
+
+## canonical_key
+anatomy.digastric-triangle.mylohyoid-hyoglossus-floor
+
+## definition
+The digastric (submandibular) triangle, bounded by the two bellies of digastric and the lower border of the mandible, has a floor formed by two muscles: mylohyoid anteriorly and hyoglossus (with a small contribution from the middle pharyngeal constrictor) posteriorly. The submandibular gland and its associated vessels and nerves lie superficial to this muscular floor within the triangle.
+
+## explicit_objective
+State that the floor of the digastric triangle is formed by mylohyoid and hyoglossus muscles.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Digastric triangle
+
+## subtopic
+Digastric triangle floor
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Digastric triangle floor|Submandibular triangle floor|Mylohyoid and hyoglossus
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Substituting the middle and inferior pharyngeal constrictors (pharyngeal wall muscles, not the digastric triangle's floor) for mylohyoid and hyoglossus.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Digastric triangle
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p27 q113 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-74F7F660F5F865
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The floor of digastric triangle is formed by. A- Myelohyoid muscle. B- Hyoglossus muscle. C- Middle and inferior constrictor muscles. D- A&b. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p27, q113
+
+---
+
+# Item
+
+## id
+CON-NEU-2654D529D9D871
+
+## label
+Sternohyoid is one of the superficial muscles forming the content of the muscular triangle
+
+## canonical_key
+anatomy.muscular-triangle.sternohyoid-superficial-muscle
+
+## definition
+The muscular triangle of the neck, bounded by the superior belly of omohyoid, the anterior border of sternocleidomastoid and the midline, contains the infrahyoid (strap) muscles arranged in two layers: sternohyoid superficially, with sternothyroid and thyrohyoid deep to it. Of the listed options, only sternohyoid is a superficial content, distinguishing it from sternothyroid and thyrohyoid, which sit in the deeper plane.
+
+## explicit_objective
+Identify sternohyoid as the superficial muscle content of the muscular triangle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Muscular triangle
+
+## subtopic
+Muscular triangle superficial content
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Muscular triangle contents|Sternohyoid muscle|Infrahyoid strap muscle layers
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Treating sternothyroid and thyrohyoid as superficial contents of the muscular triangle when they instead lie in the deep layer beneath sternohyoid.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Muscular triangle
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p27 q114 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2654D529D9D871
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following is one of the superficial muscles forming the content of muscular triangle? A- Sternohyoid muscle. B- Sternotyroid muscle. C- Thyrohyoid muscle. D- All of the above. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p27, q114
+
+---
+
+# Item
+
+## id
+CON-NEU-3E97DC7BA7AF39
+
+## label
+The paratracheal, upper deep cervical and infrahyoid nodes are all deep lymphatics of the head and neck
+
+## canonical_key
+anatomy.head-neck-lymphatics.deep-group-members
+
+## definition
+The deep cervical lymph nodes of the head and neck form a chain along the internal jugular vein and its named subgroups, including the paratracheal nodes (alongside the trachea, draining the thyroid and larynx), the upper deep cervical nodes (a major collecting group near the digastric/jugular confluence) and the infrahyoid nodes (draining the larynx and hypopharynx region below the hyoid). All three belong to the deep, rather than superficial, cervical lymphatic group.
+
+## explicit_objective
+State that the paratracheal, upper deep cervical and infrahyoid nodes are all members of the deep cervical lymphatic group.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Head and neck lymphatics
+
+## subtopic
+Deep cervical lymph node group
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Deep cervical lymph nodes|Paratracheal lymph nodes|Infrahyoid lymph nodes
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming only one named group (e.g. paratracheal alone) belongs to the deep cervical chain, when the paratracheal, upper deep cervical and infrahyoid nodes are all deep-group members.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Head and neck lymphatics
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p27 q115 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-3E97DC7BA7AF39
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following is one of the deep lymphatics of head & neck. A- paratracheal. B- Upper deep cervical. C- infrahyoid. D- All of the above. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p27, q115
+
+---
+
+# Item
+
+## id
+CON-NEU-7871D4AE4557C7
+
+## label
+The abducent nerve is not a pure sensory nerve
+
+## canonical_key
+anatomy.abducent-nerve.not-pure-sensory-exception
+
+## definition
+The abducent nerve (CN VI) is a PURE MOTOR nerve, supplying only the lateral rectus muscle, unlike the olfactory nerve (CN I, pure sensory, smell), the optic nerve (CN II, pure sensory, vision) and the vestibulocochlear nerve (CN VIII, pure sensory, hearing and balance), all three of which carry no motor fibers at all. Among these four cranial nerves, the abducent is therefore the exception to a 'pure sensory' description.
+
+## explicit_objective
+Identify the abducent nerve as the one nerve among these four that is NOT pure sensory, since it is instead pure motor.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Cranial nerve classification
+
+## subtopic
+Sensory vs motor cranial nerves
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Pure sensory cranial nerves|Abducent nerve is motor|Cranial nerve functional classification
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Overlooking that the abducent nerve, unlike the olfactory, optic and vestibulocochlear nerves, is purely motor and carries no sensory fibers at all.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve classification
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p30 q121 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-7871D4AE4557C7
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following are pure sensory except. A- Olfactory nerve. B- II nerve. C- Abducent nerve. D- vestibulocochlear. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p30, q121
+
+---
+
+# Item
+
+## id
+CON-NEU-8EFFA5F1BF9B8B
+
+## label
+The oculomotor, abducent and trochlear nerves all supply muscles of the eye
+
+## canonical_key
+anatomy.eye-muscle-nerve-supply.oculomotor-trochlear-abducent-set
+
+## definition
+The six extraocular muscles are supplied by three cranial nerves acting together: the oculomotor nerve (CN III, supplying medial rectus, superior rectus, inferior rectus, inferior oblique and levator palpebrae superioris), the trochlear nerve (CN IV, supplying superior oblique) and the abducent nerve (CN VI, supplying lateral rectus). As a set, all three nerves supply muscles of the eye, which is why 'all of the above' is the correct summary answer rather than any single nerve alone.
+
+## explicit_objective
+State that the oculomotor, abducent and trochlear nerves together supply the muscles of the eye.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Extraocular muscle innervation
+
+## subtopic
+The three nerves supplying eye muscles
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Extraocular muscle nerves|Oculomotor trochlear abducent|Eye muscle nerve supply
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Naming only one of the three nerves (oculomotor, trochlear or abducent) as 'the' nerve supplying eye muscles, when all three genuinely supply extraocular muscles, each its own subset.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Extraocular muscle innervation
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p30 q122 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8EFFA5F1BF9B8B
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The following nerve supplies muscles of the eye: A- oculomotor. B- abducent. C- trochlear. D- All of the above. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p30, q122
+
+---
+
+# Item
+
+## id
+CON-NEU-96A2BD2BBE312A
+
+## label
+The lateral rectus muscle of the eye is supplied by the abducent nerve
+
+## canonical_key
+anatomy.lateral-rectus.abducent-nerve-supply
+
+## definition
+The lateral rectus muscle, which abducts the eye (turns it laterally, away from the nose), is supplied by the abducent nerve (CN VI) — the single extraocular muscle exception to the oculomotor nerve's broad supply of the other recti and the inferior oblique, and distinct from the trochlear nerve (superior oblique) and the hypoglossal nerve (tongue muscles, unrelated to the eye).
+
+## explicit_objective
+State that the lateral rectus muscle is supplied by the abducent nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Extraocular muscle innervation
+
+## subtopic
+Lateral rectus nerve supply
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Lateral rectus innervation|Abducent nerve target muscle|Eye abduction nerve
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assigning the lateral rectus to the oculomotor nerve along with the other recti, when it is specifically the abducent nerve's own single extraocular muscle.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Extraocular muscle innervation
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p30 q123 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-96A2BD2BBE312A
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The lateral rectus muscle of the eye is supplied from …. A- oculomotor. B- trochlear. C- abducent. D- hypoglossal. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p30, q123
+
+---
+
+# Item
+
+## id
+CON-NEU-8BE868B53439E4
+
+## label
+This source's key for muscles supplied by the oculomotor nerve
+
+## canonical_key
+anatomy.oculomotor-supplied-muscle.all-of-the-above-doubt
+
+## definition
+The oculomotor nerve (CN III) supplies medial rectus, superior rectus, inferior rectus, inferior oblique and levator palpebrae superioris, but NOT superior oblique, which is supplied by the trochlear nerve. Of the three named options here (superior oblique, medial rectus, superior rectus), only medial and superior rectus are genuinely oculomotor-supplied; this source nonetheless keys 'all the above' as correct, which would require superior oblique to be oculomotor-supplied too, an apparent error against standard extraocular muscle innervation (see uncertainty).
+
+## explicit_objective
+Reproduce this source's printed answer that 'all the above' (including superior oblique) is supplied by the oculomotor nerve, while recognising that superior oblique is actually a trochlear nerve muscle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Extraocular muscle innervation
+
+## subtopic
+Oculomotor-supplied muscle — a keyed inconsistency
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Oculomotor nerve muscles|Superior oblique nerve supply|Extraocular muscle innervation exceptions
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Applying the standard oculomotor muscle list (which excludes superior oblique) directly against this source's key without checking it — this paper's printed 'all the above' answer would require superior oblique to be oculomotor-supplied, which contradicts standard teaching.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+Standard extraocular muscle innervation assigns superior oblique to the TROCHLEAR nerve (CN IV), not the oculomotor nerve (CN III); only medial rectus and superior rectus, among these three options, are genuinely oculomotor-supplied. This source's key of 'all the above' would require superior oblique to be oculomotor-supplied too, which is inconsistent with standard teaching (and with this module's own week1-q133, which correctly keys superior oblique as the EXCEPTION among CN III muscles). Kept as printed per LANE-CARD's 'printed keys stand' rule; the discrepancy is recorded here rather than silently corrected.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Extraocular muscle innervation
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p30 q124 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8BE868B53439E4
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which muscle is supplied by oculomotor nerve? A- Superior oblique. B- Medial rectus. C- Superior rectus. D- All the above. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p30, q124
+
+---
+
+# Item
+
+## id
+CON-NEU-978933B25877CA
+
+## label
+The oculomotor nerve is a pure motor nerve
+
+## canonical_key
+anatomy.oculomotor-nerve.pure-motor-classification
+
+## definition
+The oculomotor nerve (CN III) carries only motor (somatic to four extraocular muscles and levator palpebrae superioris, plus parasympathetic to the pupillary sphincter and ciliary muscle) and no general sensory fibers, making it a pure motor nerve, unlike the olfactory nerve (CN I, pure sensory) and the optic nerve (CN II, pure sensory), and unlike the trigeminal nerve (CN V, a mixed nerve with both large sensory and smaller motor components).
+
+## explicit_objective
+State that the oculomotor nerve (CN III) is a pure motor nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Cranial nerve classification
+
+## subtopic
+Pure motor cranial nerves
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Pure motor cranial nerve|Oculomotor nerve classification|CN III motor function
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming the oculomotor nerve carries general sensory fibers because it accompanies sensory-rich structures in the orbit, when in fact CN III itself is purely motor (somatic and parasympathetic), unlike the mixed trigeminal nerve.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve classification
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p30 q125 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-978933B25877CA
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+One of these nerves is pure motor. A- III. B- I. C- II. D- V. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p30, q125
+
+---
+
+# Item
+
+## id
+CON-NEU-FFD260A3B1F18F
+
+## label
+A tumour at the cribriform plate causing anosmia has injured the olfactory nerve (CN I)
+
+## canonical_key
+anatomy.anosmia.olfactory-nerve-cribriform-plate
+
+## definition
+The olfactory nerve fibers (CN I) pass from the nasal mucosa through the perforations of the cribriform plate of the ethmoid bone to synapse in the olfactory bulb; a tumour or fracture at the cribriform plate can shear these delicate fibers, producing anosmia (loss of smell) as the presenting sign, distinct from a facial (motor) or optic (visual) nerve deficit. This is the same underlying fact tested by this module's own directly-worded question naming olfactory nerve injury as the cause of anosmia, approached here through a cribriform-plate localisation vignette.
+
+## explicit_objective
+Identify the olfactory nerve (CN I) as the nerve injured when a cribriform plate lesion produces anosmia.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Olfactory nerve
+
+## subtopic
+Anosmia and the cribriform plate
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Anosmia|Cribriform plate fracture|Olfactory nerve injury
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Naming a different cranial nerve number for a cribriform plate injury — since olfactory fibers specifically traverse the cribriform plate, this localisation always points to CN I, not a nearby nerve like the optic (II).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Olfactory nerve
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p32 q131 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-FFD260A3B1F18F
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+A 46-year old patient attended the hospital complaining from headache and inability to smell. An MRI scan is performed and it shows that it has a tumor at the cribriform plate of the ethmoid bone. The number of the cranial nerve injured is …... A- 4. B- 5. C- 6. D- 1. Key: D. (Also tested as week1-q148 (same fact, restated without the cribriform-plate vignette: 'injury of which nerve causes anosmia', key C, olfactory).)
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p32, q131
+
+---
+
+# Item
+
+## id
+CON-NEU-A4408072A9865D
+
+## label
+Optic nerve injury causes ipsilateral blindness, while optic tract injury causes contralateral and same-side hemianopia
+
+## canonical_key
+anatomy.optic-nerve-vs-optic-tract.lesion-effect-comparison
+
+## definition
+An optic NERVE lesion (before the chiasm) causes complete blindness in the SAME eye, since all of that eye's fibers are interrupted before any crossing occurs. An optic TRACT lesion (after the chiasm, where the nasal-retina fibers from the contralateral eye have already crossed) instead causes a homonymous hemianopia: blindness in the temporal visual field of the SAME side eye and the nasal visual field of the OPPOSITE side eye, because the tract carries crossed fibers from the opposite eye's nasal retina together with uncrossed fibers from the same eye's temporal retina.
+
+## explicit_objective
+State that optic nerve injury causes complete same-side blindness, while optic tract injury causes a homonymous hemianopia affecting the temporal field of the same eye and the nasal field of the opposite eye.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Visual pathway
+
+## subtopic
+Optic nerve vs optic tract lesions
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Optic nerve lesion|Optic tract lesion|Homonymous hemianopia
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing an optic NERVE lesion (complete monocular blindness, before the chiasm) with an optic TRACT lesion (partial, homonymous hemianopia, after the chiasm) — the chiasm's crossing is what changes the deficit's pattern.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+CON-NEU-A190160C46FE72
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Visual pathway
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p32 q132 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-A4408072A9865D
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Injury of the optic nerve causes …......... while injury of the optic tract causes ….......... A- Complete blindness at the same side _ blindness at the temporal region of the both sides. B- Complete blindness of the same side _ blindness at the temporal region of the opposite side and nasal area of the same side. C- Blindness at the temporal region of the both sides _ complete blindness on the both sides. D- None of the above. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p32, q132
+
+---
+
+# Item
+
+## id
+CON-NEU-2F11CFF0DFB258
+
+## label
+Superior oblique is not supplied by the oculomotor (third cranial) nerve
+
+## canonical_key
+anatomy.oculomotor-supplied-muscles.superior-oblique-exception
+
+## definition
+The oculomotor nerve (CN III) supplies medial rectus, superior rectus, inferior rectus and inferior oblique, but superior oblique is the exception, supplied instead by the trochlear nerve (CN IV) — the standard rule that makes superior oblique the odd one out whenever a question lists extraocular muscles against CN III.
+
+## explicit_objective
+Identify superior oblique as the one extraocular muscle NOT supplied by the third (oculomotor) cranial nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Extraocular muscle innervation
+
+## subtopic
+Oculomotor-supplied muscles: the superior oblique exception
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+CN III muscle exceptions|Superior oblique innervation|Trochlear nerve muscle
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Including superior oblique among the oculomotor nerve's supplied muscles — it is the trochlear nerve's own muscle, the standard exception among the extraocular muscles.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+CON-NEU-8BE868B53439E4
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Extraocular muscle innervation
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p32 q133 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2F11CFF0DFB258
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All the following extra ocular muscles are supplied by the third cranial nerve except ...... A- Medial rectus. B- Superior rectus. C- Superior oblique. D- Inferior oblique. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p32, q133
+
+---
+
+# Item
+
+## id
+CON-NEU-0C93EB12ECAAAA
+
+## label
+Paralysis of the inferior oblique muscle causes diplopia looking upwards
+
+## canonical_key
+anatomy.inferior-oblique-paralysis.upward-diplopia
+
+## definition
+The inferior oblique muscle elevates the eye when it is adducted (turned toward the nose), working with superior rectus (which elevates the eye when abducted) to achieve full upward gaze. Paralysis of inferior oblique therefore causes double vision specifically on looking UPWARDS, most pronounced when the eye is also turned medially, since that is the direction the muscle would normally act in.
+
+## explicit_objective
+State that inferior oblique paralysis produces diplopia on looking upwards.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Extraocular muscle innervation
+
+## subtopic
+Inferior oblique muscle action
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Inferior oblique paralysis|Diplopia direction|Upward gaze muscles
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming inferior oblique's name implies a downward action — its actual action is elevation (upward movement) of the adducted eye, so its paralysis causes diplopia looking up, not down.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Extraocular muscle innervation
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p32 q134 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-0C93EB12ECAAAA
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+If the inferior oblique muscle of the eye is paralyzed diplopia occurs on looking ….. A- Downwards. B- Upwards. C- To the right. D- To the left. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p32, q134
+
+---
+
+# Item
+
+## id
+CON-NEU-97D33A5B6578CF
+
+## label
+The optic nerve does not pass through the superior orbital fissure
+
+## canonical_key
+anatomy.superior-orbital-fissure.optic-nerve-exception
+
+## definition
+The superior orbital fissure transmits the oculomotor, trochlear and abducent nerves together with the ophthalmic division of the trigeminal nerve, but NOT the optic nerve, which instead passes through its own separate opening, the optic canal, alongside the ophthalmic artery. This distinction — two adjacent but separate apertures for vision (optic canal) versus ocular motor and general sensory innervation (superior orbital fissure) — is the basis for this exception.
+
+## explicit_objective
+Identify the optic nerve as the one structure among these four that does NOT pass through the superior orbital fissure, since it instead passes through the optic canal.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Orbital apertures
+
+## subtopic
+Superior orbital fissure contents
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Superior orbital fissure contents|Optic canal vs superior orbital fissure|Orbital nerve foramina
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Grouping the optic nerve with the oculomotor, trochlear and abducent nerves as a superior orbital fissure content, when the optic nerve instead has its own dedicated opening, the optic canal.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Orbital apertures
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p32 q135 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-97D33A5B6578CF
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The following nerves pass through the superior orbital fissure except. A- Optic nerve. B- Oculomotor nerve. C- Abducent nerve. D- Trochlear nerve. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p32, q135
+
+---
+
+# Item
+
+## id
+CON-NEU-9BCA4392DCCC05
+
+## label
+Fibers of the cuneate tract ascend ipsilaterally
+
+## canonical_key
+anatomy.cuneate-tract.ipsilateral-ascent
+
+## definition
+The fasciculus cuneatus, carrying fine touch, vibration and conscious proprioception from the upper limb, ascends entirely on the SAME (ipsilateral) side of the spinal cord and lower medulla, only decussating once its second-order neurons (in the cuneate nucleus) give rise to the internal arcuate fibers that cross to form the contralateral medial lemniscus. Below that decussation point, cuneate tract fibers therefore remain ipsilateral, not crossed.
+
+## explicit_objective
+State that fibers of the cuneate tract ascend ipsilaterally, not crossing until the medulla.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Dorsal column pathway
+
+## subtopic
+Cuneate tract laterality
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Cuneate tract laterality|Dorsal column decussation level|Ipsilateral ascending fibers
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming the cuneate tract crosses at the spinal cord level like the spinothalamic tract — it instead remains ipsilateral until its second-order fibers decussate in the medulla as the internal arcuate fibers.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dorsal column pathway
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p34 q141 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-9BCA4392DCCC05
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Fibers of cuneate tract ascend ... A- ipsilateral. B- Counter side. C- both A and B. D- none of the above. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p34, q141
+
+---
+
+# Item
+
+## id
+CON-NEU-AAEBAEDA18102A
+
+## label
+The spino-olivary tract relays in the inferior olivary nucleus
+
+## canonical_key
+anatomy.spino-olivary-tract.inferior-olivary-nucleus-relay
+
+## definition
+The spino-olivary tract carries spinal (particularly proprioceptive and cutaneous) information up to the inferior olivary nucleus in the medulla, which then relays this information to the cerebellum as climbing fibers via the inferior cerebellar peduncle — the same inferior olivary nucleus this module already records as the origin of climbing fibers, here approached from the ascending-tract-relay angle rather than the climbing-fiber-origin angle.
+
+## explicit_objective
+State that the spino-olivary tract relays in the inferior olivary nucleus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Cerebellar afferent pathways
+
+## subtopic
+Spino-olivary tract relay
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Spino-olivary tract|Inferior olivary nucleus relay|Climbing fiber origin pathway
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the inferior olivary nucleus (the spino-olivary tract's relay, and the origin of climbing fibers) with the superior olivary nucleus, which instead functions in auditory sound localisation, not spinal relay.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+CON-NEU-8A71D5AFDB8D21
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebellar afferent pathways
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p34 q145 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-AAEBAEDA18102A
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Spino-olivary tract is in which nucleus... A- superior olivary. B- inferior olivary. C- spinal cord. D- non of the above. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p34, q145
+
+---
+
+# Item
+
+## id
+CON-NEU-311127D49364FD
+
+## label
+The accessory nerve (11th cranial nerve) is a motor nerve
+
+## canonical_key
+anatomy.cranial-nerve-classification.accessory-nerve-as-motor
+
+## definition
+Among cranial nerves I, II, V and XI, only the spinal accessory nerve (CN XI) is a motor nerve, supplying sternocleidomastoid and trapezius; the olfactory (I) and optic (II) nerves are pure sensory, and the trigeminal (V) is a mixed nerve with a large sensory component. Of the four numbered options, CN XI is therefore the one correctly identified as a motor nerve.
+
+## explicit_objective
+Identify the accessory nerve (CN XI) as the motor nerve among cranial nerves I, II, V and XI.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Cranial nerve classification
+
+## subtopic
+Motor cranial nerve identification by number
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Accessory nerve motor function|Cranial nerve XI|Motor cranial nerve by number
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Selecting the trigeminal nerve (V) as 'the' motor nerve among this set — it is a mixed nerve with substantial sensory function, unlike the accessory nerve, which is purely motor.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve classification
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p35 q146 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-311127D49364FD
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following is a motor nerve? A- 1. B- 2. C- 5. D- 11. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p35, q146
+
+---
+
+# Item
+
+## id
+CON-NEU-F0A6BBF31BB082
+
+## label
+The optic nerve is a sensory nerve
+
+## canonical_key
+anatomy.cranial-nerve-classification.optic-nerve-as-sensory
+
+## definition
+Among the optic, trigeminal, facial and vagus nerves, the optic nerve (CN II) is purely sensory, carrying visual information from the retina to the brain, unlike the trigeminal (mixed, mostly sensory but also motor to mastication), facial (mixed, mostly motor but with taste and other sensory components) and vagus (mixed, with substantial motor and autonomic function) nerves, none of which are purely sensory.
+
+## explicit_objective
+Identify the optic nerve as the purely sensory nerve among optic, trigeminal, facial and vagus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Cranial nerve classification
+
+## subtopic
+Sensory cranial nerve identification
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Optic nerve sensory function|Cranial nerve II|Pure sensory nerve identification
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Treating the trigeminal, facial or vagus nerves as purely sensory — all three are mixed nerves with genuine motor components, unlike the optic nerve, which carries only visual sensory information.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve classification
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p35 q147 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-F0A6BBF31BB082
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following is a sensory nerve? A- optic. B- 5. C- 7. D- Vagus. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p35, q147
+
+---
+
+# Item
+
+## id
+CON-NEU-29A46A3B254FE8
+
+## label
+The abducent nerve is the sixth cranial nerve in numerical order
+
+## canonical_key
+anatomy.abducent-nerve.sixth-cranial-nerve-order
+
+## definition
+Cranial nerves are numbered I through XII by their order of attachment to the brain from anterior (rostral) to posterior (caudal): olfactory (I), optic (II), oculomotor (III), trochlear (IV), trigeminal (V) and abducent (VI). Among trochlear, optic, facial and abducent, the abducent nerve is therefore the sixth in this standard numerical order.
+
+## explicit_objective
+Identify the abducent nerve as the sixth cranial nerve in numerical order.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Cranial nerve classification
+
+## subtopic
+Cranial nerve numbering
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Cranial nerve numbering|Sixth cranial nerve|Abducent nerve order
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Miscounting the cranial nerve sequence around the ocular motor nerves — trochlear is fourth and abducent is sixth, with trigeminal (fifth) intervening between them, not adjacent numbers.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve classification
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p35 q150 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-29A46A3B254FE8
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following nerves is 6th in terms of order? A- trochlear. B- optic. C- facial. D- abducent. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p35, q150
+
+---
+
+# Item
+
+## id
+CON-NEU-8F49338A4893B1
+
+## label
+The trochlear nerve controls the superior oblique muscle
+
+## canonical_key
+anatomy.trochlear-nerve.superior-oblique-muscle-supply
+
+## definition
+The trochlear nerve (CN IV) is the sole supplier of the superior oblique muscle, which depresses, abducts and medially rotates the adducted eye — the single extraocular muscle exception to the oculomotor nerve's broad supply of the other recti and inferior oblique, and unrelated to the abdominal muscle transversus abdominis or any 'lateral/medial oblique' naming used for other body regions.
+
+## explicit_objective
+State that the trochlear nerve controls the superior oblique muscle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Extraocular muscle innervation
+
+## subtopic
+Trochlear nerve muscle supply
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Trochlear nerve function|Superior oblique innervation|CN IV muscle supply
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the extraocular superior oblique muscle (trochlear nerve) with unrelated named muscles elsewhere in the body, such as transversus abdominis, when identifying the trochlear nerve's single target muscle.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Extraocular muscle innervation
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p35 q151 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8F49338A4893B1
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which muscle does the trochlear nerve control? A- superior oblique. B- Transversus abdominus. C- Lateral oblique. D- Medial oblique. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p35, q151
