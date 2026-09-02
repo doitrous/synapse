@@ -488,3 +488,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — MANSOURA HBG lane 1 LANDED (1569044a)
 - `Histo Previous MCQ Exams Final.pdf` pp.2-9: fully scanned (no text layer); printed answer-letter column recoverable only by render (OCR mis-places the letter's line — new trap instance, documented). 40/40 keyed, 40 authored, 0 held. 5 mints, 20 reuses across Kasr 101, Ain Shams, AU-105, FOMSCU, Zagazig. Validator errors=[]; batch items=40 errors=0; 21-file simulate rejected=0. Histology/genetics items interleave per question (PAEHC/PBBG split is per item; `MANS-HBG` prefix, module_subject per item).
 - Lane 2 dispatched on p.10 onward (Q41+) then `Histo MCQ Formatives + Exams Final.pdf`. Fleet 20/20.
+
+### 2026-09-02 — MANSOURA MSS-202 lane 2 LANDED (c376c505)
+- Past Years pp.7-19 + Most important pp.4-23: 46 authored, 0 held. 10 mints + 10 articles; 36 reuses (26 from Kasr 101/103/104 + AU-105) — narrow find-existing queries missed the whole Kasr NMJ/muscle-physiology family, broadened greps converted ~28 planned mints into reuses. 16 sparse overlays. Simulate 28 files rejected=0; ≈1k tok/q of emitted content. Module ledger 91 authored / 0 held.
+- TOOL NOTE: `gate.mjs batch` reports errors=N on every Mansoura question file — all `resource_ids … not a resource that exists` (the standalone corpus-source lookup, identical on lane 1's already-landed files); simulate is the gate for these. Same class as the Kasr Y2 corpus-source-index gap.
+- Lane 3 dispatched on Past Years pp.20-42 + Most important pp.24-48. Fleet 20/20.
