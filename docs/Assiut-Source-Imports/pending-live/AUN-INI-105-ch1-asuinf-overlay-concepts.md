@@ -15,12 +15,18 @@
   searches: CON-INF-7CCB09F434AF06 (Mycoplasma membrane sterol),
   CON-INF-271E9930B4B73A (Mycoplasma vs L-forms), CON-INF-29351FD540E214
   (70S ribosome / protein synthesis) and CON-INF-0B4BAFFD525FDF
-  (host-microbe relationships: parasitism/commensalism/mutualism).
+  (host-microbe relationships: parasitism/commensalism/mutualism). Lane 14
+  (Q101-Q161, chapter close) appends one more row: CON-INF-BF26D7E563FB78
+  (outer-membrane porins/Lipid A), found by this pass's own find-existing.mjs
+  search for "porin" -- it already shares this file's own backing article
+  (ART-INF-CELL-WALL-OUTER-MEMBRANE), so only a canonical_key/overlay row is
+  added here, no new article dependency.
 
   Apply after: the ASU-INF-microbiology-concepts.md batch. Import: Admin >
   Concepts import. Then apply this file. Then apply
-  AUN-INI-105-ch1-asuinf-questions.md and
-  AUN-INI-105-ch1-part2-asuinf-questions.md.
+  AUN-INI-105-ch1-asuinf-questions.md,
+  AUN-INI-105-ch1-part2-asuinf-questions.md and
+  AUN-INI-105-ch1b-asuinf-questions.md.
 -->
 
 # Item
@@ -239,6 +245,25 @@ CON-INF-0B4BAFFD525FDF
 
 ## canonical_key
 bacteria.host-relationships.parasitism-commensalism-mutualism
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-INI-105
+
+---
+
+# Item
+
+## id
+CON-INF-BF26D7E563FB78
+
+## canonical_key
+bacteria.outer-membrane.lps-porins-function
 
 ## universities
 +aun
