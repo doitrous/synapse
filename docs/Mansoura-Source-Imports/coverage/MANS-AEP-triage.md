@@ -147,3 +147,86 @@ key — every hold is a duplicate-management or scope decision):
   "facial bones" as pneumatic, but strictly only some facial bones (those with paranasal
   air sinuses, e.g. maxilla) are pneumatic — authored as printed per the lane's rule, with
   the doubt recorded in the question's own `author_notes`.
+
+## Lane 3 (mans-aep-author3) — Anatomy Lectures 4-5, "CNS" / "Nervous System"
+
+**Scope correction, read first:** the task brief assigned pp.23-77 for this cluster. Reading
+the entire range (`pagetext.mjs status` confirmed 0 garbled pages p.23-77; `pagetext.mjs show`
+read in full) found CNS/Nervous-System content confined to **p.23-29 (7 pages)** — p.30 is a
+divider page and p.31 begins a new lecture, "Lecture (6) – GIT", followed by further unrelated
+lectures within the assigned range (Lecture (10) "Urinary System" p.52, Lecture (11) "Lymphatic
+System" p.57, Lectures (13-14-15) "Scalp & Face" p.68-77). This is logged in
+`resource/MANS-AEP-resources.md` for whichever session next tackles this module's GIT/Urinary/
+Lymphatic/Scalp&Face lectures.
+
+Three compiled sittings cover the same CNS/Nervous-System territory: `p.23-24` and `p.28-29`
+both titled "Lectures (4&5) – CNS", and `p.25` titled "Lectures (4 & 5): Nervous System" — the
+same repeated-sitting pattern lanes 1-2 already documented for this source. `p.26-27` is a
+fourth, non-MCQ sitting: 18 "enumerate"/"compare" short-answer items, skipped per the lane's
+own rule (not counted in the totals below), though several of their printed model answers
+(e.g. the tract/bundle definitions, the sympathetic/parasympathetic comparison table) were
+used to cross-check and to write concept `definition` fields for facts also tested by MCQs.
+
+Two items carry an unresolved doubt severe enough to hold rather than author with a caveat,
+a stricter case than `L2B-Q06`'s precedent because the printed key directly contradicts the
+*same source's own* stated definition elsewhere, not merely an imprecise generalisation:
+- `B5` ("what is the meaning of a bundle") prints key B ("collection of nerve fibers which
+  have the same origin, termination, and function"), but the department's own p.27 enumerate
+  answer defines *tract* as exactly that phrase and *bundle* as its opposite ("do not all have
+  the same origin, termination or function", option D). Held rather than authored with a wrong
+  or contradictory fact; the concept minted for this item's twin question (`C3`, ganglion
+  definition, unambiguous key E) still carries the correct tract/bundle facts in its own
+  `definition` field, sourced from p.27's own answer rather than from the flawed MCQ.
+- `B9` ("direction of an impulse carrying information TO the CNS FROM the PNS") prints key B
+  ("an efferent neuron, impulse moving distally"), but a neuron carrying information *to* the
+  CNS *from* the PNS is by definition afferent, not efferent — option C ("an afferent neuron,
+  impulse moving proximally") is the biologically correct pairing. Held rather than authored.
+
+Search-before-mint ran broad greps for neuroanatomy basics per the brief's specific warning
+(`brainstem`, `medulla oblongata`, `ventricle`, `synapse`, `ganglion`, `satellite cell`, etc.)
+across every university's `concept/`, `pending-live/` and `import-ready/concept/` directories,
+confirming the same "basic classification framework absent, disease-specific/clinical
+instances present in bulk" pattern this lane's own Lecture 1-2 triage and `MANS-HIS-203`'s
+Gell-Coombs triage both already found: Kasr 101-ISK, Assiut AUN-PMS-102 and Alexandria
+AU-MED-105 hold enough basic neuron/neuroglia facts to reuse (7 concepts reused), but the
+brainstem's three-part stacking order, the four ventricles, the four major sulci, the
+nucleus/ganglion/tract/bundle terminology, the three synapse types, the sympathetic/
+parasympathetic functional-effects pairing, the dorsal/ventral root-versus-rami distinction,
+the CNS/PNS composition, cerebellar function, and the axillary-block vignette were all absent
+and minted new (16 concepts). One near-miss is logged in the new concepts' own `field_notes`:
+Kasr 102-INT's "three cranial nerves — III, VII and IX — carry the parasympathetic supply to
+the head and neck" record was read in full and rejected as a merge candidate for the
+brainstem-level cranial-outflow concept (`CON-NEU-5A28C40CF465E7`) — a materially different
+fact (head-and-neck-specific nerve set, omitting X/vagus) from this source's brainstem-level
+framing (midbrain/pons/medulla, including X).
+
+**Checkpoint table**
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Reused | New | Held |
+|---|--:|--:|--:|--:|--:|--:|
+| MANS-AEP Lectures 4-5 "CNS"/"Nervous System" (p.23-29, full range) | 43 raw MCQ items | 43/43 (100%) | 23 (7 reused, 16 new) | 7 | 16 | 15 |
+
+**Held items (15 of 43 raw MCQ items)** — all with keys recovered, no unrecoverable keys:
+- 13 near-duplicate or literal-duplicate restatements of a fact already authored from an
+  earlier sitting of the same three-sitting cluster (`A6`, `A13`, `B1`, `B3`, `C1`, `C6`, `C7`,
+  `C8`, `C9`, `C12`, `C15`, `C18`, `C19` — full list with reasons in `MANS-AEP-triage-keys.txt`).
+- 2 items (`B5`, `B9`) held for the printed-key-versus-source-contradiction doubt described
+  above.
+- 18 short-answer "enumerate"/"compare" items on p.26-27 are not MCQs and were not triaged as
+  questions at all — noted in `MANS-AEP-triage-keys.txt`'s totals line, not counted in the 43.
+
+**Simulate/lane-1-rejection check:** lane 2's 13-file simulate reported `rejected=2` on lane 1's
+own rows (`ART-101-HIS-HAEMOPOIESIS` "missing", `CON-MSK-88ABD88C19073F` "missing"). A 26-file
+simulate run this pass, in apply order (Kasr 101-ISK/103-BMS-anatomy/103-BMS-physiology
+concepts+articles, Assiut AUN-PMS-102, Alexandria AU-MED-105/AU-MED-102 concepts+articles,
+Ain Shams ASU-AE-embryo2, then this module's own concept/article/resource/pending-live/
+question files), returned `rejected=0 errors=0`: both original rejections clear once their
+dependency-class files (Kasr 101-ISK for the article, Alexandria AU-MED-102 for the concept)
+are included in the chain — a **dependency-class outcome, not a real defect**, per the task
+brief's own framing. Three further "missing" ids surfaced on the first attempt at this fuller
+chain (`ART-MSK-BONE-FUNCTIONS-PROPERTIES` in Alexandria `AU-MED-102-anatomy-articles.md`,
+`CON-MSK-C4AD88B60ADDB8` in Kasr `103-BMS-anatomy-concepts.md`, `CON-OBS-754F3A920D996F` in
+Ain Shams `ASU-AE-embryo2-new-concepts.md`) — these are additional, previously-untested
+dependency-class gaps in lane 1/2's own `MANS-AEP-vip-2-mcq.md` and
+`MANS-AEP-anatomy-terms-osteology-mcq.md` files (not this lane's own rows), and all three
+also cleared once their source files were added to the chain.
