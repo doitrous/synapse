@@ -87,6 +87,45 @@ both a narrow and a broadened query before being called pending/live.
 | Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
 |---|--:|--:|--:|--:|--:|--:|---|
 | MANS-HIS-203 (Phase-0 sample, not exhaustive) | 66 | 52 (+1 low-confidence) | 19 (17 searched, 2 not yet searched) | 6 | 10 | 1 | `imm` — Gell-Coombs hypersensitivity classification |
+| MANS-HIS-203 (author3 pass, Physiology p.110-130 + Biochemistry p.139-143 + Pharmacology p.146-148) | 141 raw items (Q36-140, BI2-Q6-31, PH2-Q5-12) | 141, all printed keys | 19 new mints + 6 reuses (2 live: chemotaxis, opsonins; 4 pending: intrinsic factor, sickle cell/hemoglobinopathies, vitamin-K-dependent factors ×2 questions) | 2 | 4 | 19 | see §Author3 addendum below |
+
+### Author3 addendum (2026-09-02) — Physiology p.110-130, Biochemistry p.139-143, Pharmacology p.146-148
+
+Physiology p.110-130 (footer numbers; PDF p.120-140) turned out to hold no blood-group
+content despite the task brief's expectation — the actual content across `Q36-Q140` is
+erythropoiesis extras, WBC/leukocyte/innate-immunity function (first-line defence,
+chemotaxis, diapedesis, myeloperoxidase, agranulocytosis, leukaemia, tissue-macrophage
+nomenclature, opsonins, leukocyte lifespan), hemostasis/coagulation (extrinsic pathway,
+factor Xa, hemophilia, thromboxane/von Willebrand factor, hemostasis sequence, clot
+retraction, vitamin-K-dependent factors), and plasma proteins (albumin, transferrin,
+transcobalamin, alpha-1-antitrypsin, C-reactive protein). Biochemistry p.139-143 (footer;
+PDF p.151-155) was almost entirely a literal duplicate of already-triaged BI-N/BI-N2/
+BI-Q/PH-Q facts from author2's pass — only 5 distinct new facts surfaced (porphyrin
+methylene bridges, methemoglobinemia/O2-binding-site bundle, hemoglobin-as-conjugated-
+protein, hepatocellular jaundice's mixed bilirubin pattern) plus a richer restatement of
+the sickle-cell mutation (codon 6, glutamate-to-valine) worth authoring in place of the
+plainer physiology-section version. Pharmacology p.146-148 (footer; PDF p.159-161) picks
+up immediately after author2's `pharmacology-iron-b12.json` (p.145) with a rich USMLE-
+style anemia-treatment vignette section — 7 of 8 distinct facts authored (iron toxicity/
+desferrioxamine, hydroxocobalamin/cyanide, methotrexate/folate, B12 neuro vignette with
+subacute combined degeneration, pernicious anaemia/atrophic gastritis), 2 held as complex
+multi-part clinical vignettes with no matching concept found this pass. Pharmacology
+p.149-176 (28 further pages) is untouched — flagged as the next pass's starting point.
+
+Full per-question detail is in `MANS-HIS-203-triage-keys.txt`'s author3 sections. 19 new
+concepts minted (10 `imm`/innate-immunity, 9 `haem`/`pharm` physiology-biochemistry-
+pharmacology), each with its own article (two-sided coverage). 4 pending concepts reused
+via sparse overlay in `pending-live/MANS-HIS-203-concepts.md` (intrinsic factor, sickle
+cell/hemoglobinopathies, vitamin-K-dependent factors); 2 live concepts (chemotaxis,
+opsonins) reused directly with no overlay needed, per the precedent that this file's own
+existing rows never overlay a live target. One data-integrity gap found in author2's own
+prior work, not fixed here: `biochemistry-heme.json`'s `hemolytic-jaundice-urobilinogen`
+question mints `CON-HEM-22375197AEE80D` as its `main_concept`, but no standalone concept
+record for that id exists anywhere in this lane's `concept/` file — `gate.mjs batch`
+rejects any new question that names it as a `contextual_concept_ids` reference (confirmed
+twice, on the hepatocellular-jaundice and obstructive-jaundice-hemorrhagic-tendency
+questions, both fixed by dropping the reference rather than fixing the gap). Flagged for
+whichever session next touches `biochemistry-heme.json`.
 
 `Keys recovered` = 40 (Continuous Book, Histology Lecture 1&2 + past-exam blocks) + 5
 (Continuous Book, Histology Lecture 3&4) + 5 (Continuous Book, Microbiology) + 2 solid

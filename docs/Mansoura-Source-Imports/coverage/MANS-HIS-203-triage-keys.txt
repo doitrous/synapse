@@ -323,14 +323,147 @@ PM-Q4 :: A :: same vignette as PM-Q2 [literal duplicate, not re-authored]
 # Pharmacology 1&2 — antimicrobials/antiparasitics per the department's own Pharma
 # Dr. Sherif Refaat authorship line) — not read beyond p.145 this pass; flagged.
 
-## Needs Omar / needs a second pass (author2, not blockers, logged so they aren't lost)
-- Physiology plasma-protein notes (printed p.98-103, 8 facts) — not triaged for concept
-  matches this pass; same "notes fact-list" format as the biochem heme section.
-- Physiology MCQ p.110-130 (blood groups, WBCs, platelets, haemostasis per the book's
-  own contents) — not read this pass.
-- Biochemistry MCQ p.139-143 (Bio HIS references + a full past-exam block) — not read
-  this pass beyond the p.138 block and the p.144 spot-read.
-- Pharmacology MCQ p.146-176 (31 pages, ~4 more lecture blocks per the Pharma section's
-  own internal "Lecture 1&2" framing) — not read this pass beyond p.145.
+## src_c4ee1e63536c22ca52d4 — Physiology Important MCQ, "Physio HIS 2/3" past-exam block
+## (printed p.111-120), author3 pass, printed keys
+Q36 :: B :: intrinsic factor produced by gastric parietal cells [AUTHORED]
+Q37 :: C :: substance NOT essential for RBC development (except nicotinic acid) [held, no matching concept]
+Q38 :: D :: oxidized iron in Hb -> methemoglobinemia [AUTHORED]
+Q39 :: A :: erythropoiesis = development of RBCs [literal duplicate of Q13/PH-Q2, not re-authored]
+Q40 :: C :: NOT accompanied with polycythemia = advanced liver disease [near-duplicate of existing polycythemia concept, not re-authored]
+Q41 :: E :: yellow (inactive) bone marrow site = shafts of long bones [near-duplicate of Q12 (Histology), not re-authored]
+Q42 :: C :: globin polypeptide chains = four [literal duplicate of Q12/PH-Q12, not re-authored]
+Q43 :: B :: sickle cell HbS mutation in beta-globin gene [near-duplicate of richer Q23 (Biochemistry Bio HIS 2), that version authored instead]
+Q44 :: B :: neutrophils first line of defense against bacteria [AUTHORED]
+Q45 :: A :: decreased leukocyte count = leucopenia [held, plain vocabulary, no dedicated concept warranted]
+Q46 :: C :: increased leukocyte count = leukocytosis [held, plain vocabulary, no dedicated concept warranted]
+Q47 :: B :: neutrophil myeloperoxidase kills ingested bacteria [AUTHORED]
+Q48 :: A :: chemotaxis = movement toward chemical stimulus [AUTHORED, reuse live CON-IMM-96D7626B256F92]
+Q49 :: E :: diapedesis = WBC movement through capillary wall [AUTHORED]
+Q50 :: A :: basophils = important effector cells in allergic reaction [near-duplicate of existing basophil/IgE concept CON-IMM-075EC1A6A3022D, not re-authored]
+Q51 :: C :: monocytes = largest leukocytes [near-duplicate of Histology Q9 "largest cell in blood smear", not re-authored]
+Q52 :: D :: agranulocytosis = marrow failure to produce WBCs [AUTHORED]
+Q53 :: A :: histamine released in violent Ag-Ab reaction [held, plain vocabulary fact, low yield]
+Q54 :: A :: average granulocyte life span = 4-5 days [AUTHORED]
+Q55 :: B :: monocyte can phagocytose up to 100 bacteria [held, numeric trivia fact, no matching concept]
+Q56 :: C :: uncontrolled WBC production = leukemia [AUTHORED]
+Q57 :: A :: Kupffer cells = liver tissue macrophage example [AUTHORED]
+Q58 :: A :: microglia = CNS tissue macrophage [AUTHORED]
+Q59 :: C :: NOT a function of tissue macrophages = production of antibodies [held, "except" framing near-duplicate of Q57/58 concept, not re-authored]
+Q60 :: B :: opsonins = molecules that facilitate phagocytosis [AUTHORED, reuse live CON-IMM-DA2EA4EC41707C]
+Q61 :: E :: IgE responsible for allergic disorders [near-duplicate of already-authored microbiology-hypersensitivity m2-m4, not re-authored]
+Q62 :: D :: monocytes = longest life span among WBCs [AUTHORED]
+Q63 :: B :: tissue macrophages & fibroblasts move to injury by ameboid movement [AUTHORED]
+Q64 :: B :: opsonization = IgG + complement 3 binding to microbe [near-duplicate of Q60 opsonin concept, not re-authored]
+Q65 :: B :: extrinsic pathway initiated by tissue thromboplastin [AUTHORED]
+Q66 :: D :: decreased platelets = thrombocytopenia [held, plain vocabulary, no dedicated concept warranted]
+Q67 :: E :: increased platelets = thrombocytosis [held, plain vocabulary, no dedicated concept warranted]
+Q68 :: C :: aspirin reduces platelet aggregation via decreased thromboxane synthesis [near-duplicate of Q82/Q83 (aspirin mechanism), not re-authored]
+Q69 :: C :: thrombocytes play a role in blood clotting [held, plain vocabulary fact]
+Q70 :: A :: factor Xa activates prothrombin -> thrombin [AUTHORED]
+Q71 :: E :: factor released from damaged tissue initiates clotting = tissue thromboplastin [literal duplicate of Q85, cross-referenced key since Q71's own line showed no printed letter; not separately authored]
+Q72 :: B :: hereditary deficiency of coagulation = hemophilia [AUTHORED]
+Q73 :: B (unclear) :: normal platelet life span, 8-12 days [near-duplicate of already-authored Histology Q3 "platelet life span", key not clearly printed on this render, held rather than re-rendering]
+Q74 :: D :: factor VIII deficiency causes Hemophilia [AUTHORED]
+Q75 :: E :: thromboxane A2 produces vasoconstriction of injured vessel [AUTHORED]
+Q76 :: E :: von Willebrand factor potentiates platelet adhesion [AUTHORED]
+Q77 :: A :: calcium ion required for prothrombin -> active thrombin conversion [AUTHORED]
+Q78 :: A :: von Willebrand factor potentiates platelet adhesion [literal duplicate of Q76, not re-authored]
+Q79 :: A :: vitamin K dependent factors = II, VII, IX, X [AUTHORED, reuse pending CON-HEM-BC9F1F59205EC7]
+Q80 :: B :: thrombin converts fibrinogen to fibrin [AUTHORED]
+Q81 :: D :: hemorrhagic tendency in obstructive jaundice = lack of factors II, VII, IX, X [AUTHORED, reuse pending CON-HEM-BC9F1F59205EC7 via vitamin K malabsorption mechanism]
+Q82 :: B :: aspirin mechanism = inhibiting COX/thromboxane synthesis [near-duplicate of Q68/Q75 theme, not separately authored]
+Q83 :: D :: aspirin prolongs bleeding time by inhibiting thromboxane A2 in platelets [near-duplicate of Q68/Q82, not separately authored]
+Q84 :: B :: prothrombin falls due to lack of vitamin K [near-duplicate of Q79, not separately authored]
+Q85 :: D :: factor released from damaged tissue initiates clotting = tissue thromboplastin [literal duplicate of Q71/Q65 theme; key clearly printed here]
+Q86 :: A :: prothrombin -> thrombin activation = factor Xa [literal duplicate of Q70, not re-authored]
+Q87 :: D :: hemostatic response depends mainly on blood coagulation factors [near-duplicate of Q88 hemostasis-sequence theme, not separately authored]
+Q88 :: C :: hemostasis order = vessel spasm, platelet plug, coagulation [AUTHORED]
+Q89 :: B :: activated platelets release ADP [AUTHORED]
+Q90 :: C :: platelets necessary for clot retraction [AUTHORED]
+Q91 :: C :: coagulation process prolonged in liver disease [held, plain vocabulary fact, no matching concept found this pass]
+Q92 :: B :: factors II, VII, IX, X fall due to lack of vitamin K [literal duplicate of Q79, not re-authored]
+Q131 :: B :: albumin synthesized in liver [AUTHORED]
+Q132 :: A :: alpha globulin (alpha-1-antitrypsin) deficiency causes emphysema [AUTHORED]
+Q133 :: E :: fibrinogen is the plasma protein that is a clotting factor [near-duplicate theme of thrombin-fibrinogen concept, not separately authored]
+Q134 :: D :: C-reactive protein = example of acute phase protein [AUTHORED]
+Q135 :: A :: plasma protein regulates blood volume/tissue fluid via capillary-wall-impermeable colloidal osmotic pressure [near-duplicate theme of out-of-scope plasma-protein-notes Q186, not authored]
+Q136 :: E :: carrier function of plasma protein acts as a reservoir [near-duplicate of out-of-scope plasma-protein-notes Q189, not authored]
+Q137 :: C :: iron carried by plasma protein = transferrin [AUTHORED]
+Q138 :: D :: plasma protein carrying vitamin B12 = transcobalamin [AUTHORED]
+Q139 :: A :: A/G ratio true statement, about 1.2-1.6 [held, numeric reference-range fact, no dedicated concept]
+Q140 :: A :: A/G ratio clinically detects liver disease [held, near-duplicate theme of Q139]
+
+## src_c4ee1e63536c22ca52d4 — Biochemistry Important MCQ, "Bio HIS 1/2" past-exam block
+## (printed p.139-143), author3 pass, printed keys — mostly literal duplicates of
+## already-triaged BI-N-Q1-12/BI-N2-Q62-73/BI-Q1-5/PH-Q1-35 facts; 5 distinct new facts found
+BI2-Q6 :: B :: enzyme most sensitive to lead poisoning = ALA dehydratase [literal duplicate of BI-N-Q2 theme, not re-authored]
+BI2-Q7 :: D :: heme synthesis occurs in cytosol and mitochondria [literal duplicate of BI-N-Q11, not re-authored]
+BI2-Q8 :: C :: product of uroporphyrinogen decarboxylase = coproporphyrinogen [literal duplicate of BI-N-Q1, not re-authored]
+BI2-Q9 :: B :: ALA dehydratase produces porphobilinogen [literal duplicate of BI-N-Q2, not re-authored]
+BI2-Q10 :: C :: most common cause of acquired porphyria = lead poisoning [literal duplicate of BI-N-Q8, not re-authored]
+BI2-Q11 :: C :: key rate limiting enzyme for heme synthesis = ALA synthase [literal duplicate of BI-N-Q12/ala-synthase-regulatory, not re-authored]
+BI2-Q12 :: A :: rate-controlling step = synthesis of delta-ALA [near-duplicate of BI2-Q11, not re-authored]
+BI2-Q13 :: D :: ALA dehydratase converts ALA to porphobilinogen [literal duplicate of BI-N-Q2/BI2-Q9, not re-authored]
+BI2-Q14 :: C :: 4 pyrrole rings united by methylene group [AUTHORED]
+BI2-Q15 :: C :: uroporphyrinogen -> coproporphyrinogen via decarboxylation [literal duplicate of BI-N-Q1 theme, not re-authored]
+BI2-Q16 :: A :: HbA = 2 alpha + 2 beta chains [literal duplicate of PH-Q10, not re-authored]
+BI2-Q17 :: D :: globin consists of 4 polypeptide chains [literal duplicate of PH-Q12, not re-authored]
+BI2-Q18 :: B :: sickle cell disease due to mutation in beta-globin gene [near-duplicate of richer Q23 below, not separately authored]
+BI2-Q19 :: C :: HbF = 2 alpha + 2 gamma chains [literal duplicate of PH-Q18, not re-authored]
+BI2-Q20 :: C :: hemoglobin degradation occurs in spleen [literal duplicate of PH-Q20, not re-authored]
+BI2-Q21 :: D :: oxidized iron in Hb -> methemoglobinemia [literal duplicate of physio Q38, authored under that key instead]
+BI2-Q22 :: C :: HbF = 2 alpha + 2 gamma chains [literal duplicate of BI2-Q19/PH-Q18, not re-authored]
+Q23 :: B :: sickle cell anemia = mutation at codon 6 of beta-globin gene, glutamic acid -> valine [AUTHORED, richer stem than BI2-Q18/physio Q43]
+BI2-Q24 :: C :: hepatocellular jaundice = elevation of both conjugated and unconjugated bilirubin [AUTHORED]
+BI2-Q25 :: B :: HbA1c increased >6.5% of total Hb in diabetes [literal duplicate of BI-R-Q36, not re-authored]
+BI2-Q26 :: C :: hemoglobin degradation occurs in spleen [literal duplicate of PH-Q20/BI2-Q20, not re-authored]
+BI2-Q27 :: B :: HbA tetramer = alpha2beta2 [literal duplicate of BI2-Q16, not re-authored]
+BI2-Q28 :: B :: hemoglobin = conjugated protein [AUTHORED]
+BI2-Q29 :: D :: oxygen binding site of Hb = ferrous ion (Fe2+) of heme [AUTHORED, bundled with physio Q38 methemoglobinemia concept]
+BI2-Q30 :: C :: hereditary spherocytosis jaundice = hemolytic jaundice [literal duplicate of BI-N2-Q70, not re-authored]
+BI2-Q31 :: E :: sickle cell malfunction basis = substitution of a single amino acid [near-duplicate of Q23 theme, not separately authored]
+# Biochemistry Important MCQ continues with "Bio HIS references" block (printed p.144,
+# already spot-read by author2) then Pharmacology from printed p.145 — boundary confirmed,
+# nothing further unread in the p.139-143 range assigned to this lane.
+
+## src_c4ee1e63536c22ca52d4 — Pharmacology Important MCQ, anemia-treatment vignette block
+## (printed p.146-148), author3 pass, printed keys — picks up immediately after
+## pharmacology-iron-b12.json's printed p.145 block
+PH2-Q5 :: B :: primary manifestation of acute iron toxicity = necrotizing gastroenteritis [AUTHORED]
+PH2-Q6 :: C :: CKD anemia best initial treatment = parenteral EPO + parenteral iron [held, complex clinical-reasoning vignette, no matching concept found this pass]
+PH2-Q7 :: D :: specific antidote for acute iron toxicity decontamination = desferrioxamine [AUTHORED]
+PH2-Q8 :: (vignette) :: microcytic hypochromic anemia, duodenal ulcer, no visible GI bleed -> most probable cause [held, multi-part clinical vignette, no matching concept found this pass]
+PH2-Q9 :: B :: hydroxocobalamin therapeutic use = cyanide poisoning [AUTHORED]
+PH2-Q10a :: D :: macrocytic anemia + neuro symptoms -> megaloblastic anemia [AUTHORED]
+PH2-Q10b :: E :: neurological manifestation = subacute combined degeneration of spinal cord [AUTHORED]
+PH2-Q10c :: E :: treatment of this patient = vitamin B12 [near-duplicate of already-authored "best treatment of pernicious anaemia = hydroxocobalamin" concept, not separately authored]
+PH2-Q11 :: C :: DHFR inhibitor causing folate-responsive anemia = methotrexate [AUTHORED]
+PH2-Q12 :: B :: atrophic gastritis + hypersegmented neutrophils vignette -> vitamin B12 [AUTHORED]
+# Pharmacology Important MCQ section continues to printed p.176 (28 more pages, further
+# lecture blocks per the Pharma section's own internal framing) — not read beyond p.148
+# this pass; flagged as remaining, not silently skipped.
+
+## Needs Omar / needs a second pass (author2/author3, not blockers, logged so they aren't lost)
+- Physiology plasma-protein notes (printed p.98-103, 8 facts, footer 101-103) — still not
+  triaged for concept matches; this is a DIFFERENT, earlier block than the in-scope
+  Physio HIS 2/3 plasma-protein past-exam questions (Q131-140), which ARE now triaged
+  above. Same "notes fact-list" format as the biochem heme section.
+- Physiology MCQ p.110-130 — RESOLVED 2026-09-02 by MANS-HIS-203-author3: fully triaged,
+  Q36-Q140 (105 raw items, 66 distinct after collapsing duplicates), see above. No blood-
+  group content was found in this range despite the task brief's expectation — the actual
+  content is erythropoiesis extras, WBC/leukocyte/innate-immunity function, hemostasis/
+  coagulation, and plasma proteins.
+- Biochemistry MCQ p.139-143 — RESOLVED 2026-09-02 by MANS-HIS-203-author3: fully triaged,
+  BI2-Q6-31 (26 raw items), see above. Almost entirely duplicate of already-triaged
+  BI-N/BI-N2/BI-Q/PH-Q facts; 5 distinct new facts authored (porphyrin structure,
+  methemoglobinemia/O2-binding-site, hemoglobin-as-conjugated-protein, hepatocellular
+  jaundice, plus the richer sickle-cell mutation detail at Q23).
+- Pharmacology MCQ p.146-148 — RESOLVED 2026-09-02 by MANS-HIS-203-author3: triaged,
+  PH2-Q5-12 (10 raw items across a rich USMLE-style anemia-treatment vignette section),
+  see above. 7 of 8 distinct facts authored; PH2-Q6/Q8 held as complex multi-part clinical
+  vignettes with no matching concept found this pass.
+- Pharmacology MCQ p.149-176 (28 pages, further lecture blocks per the Pharma section's
+  own internal "Lecture 1&2" framing) — not read this pass; flagged, next pass's starting
+  point for this module.
 - ~100 remaining per-lecture HIS bank/scan files (manifest, archive group HIS) — still
   not triaged, same note as author1's report.
