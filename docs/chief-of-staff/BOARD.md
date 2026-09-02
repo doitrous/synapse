@@ -480,3 +480,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — MANSOURA PPPM lane 1 LANDED (473e3c8b, 902770e5, 9ecfffed)
 - `PPPM Exam Bank (61,60,59,58)`: 218 items / 4 subjects, 216 keyed (99%) by printed red bold marks in a right-margin key column — `pagetext keys` mis-attributes the column (2/10 on spot-check); keys read from 6 renders. Pharmacology pp.1-6: 30/30 authored, 0 held. 13 pending reuses (Kasr 108/208/102, Helwan GIT-301, Assiut MPT-104), 10 mints (one prodrug near-dup in Helwan not reused because its article is an orphan reference). batch errors=0 ×3; 15-file simulate rejected=0. ≈8k tok/q (key investigation + full-schema mints).
 - Lane 2 dispatched on Pharmacology pp.7-16 (~50 items). Fleet 20/20.
+
+### 2026-09-02 — AIN SHAMS ASU-AE lane 10 (Embryo 2 Q11-69) LANDED (ae4fe64e)
+- 59 items, 8 renders (p.13 recovered by forced re-OCR at 400/600 dpi instead of a render): 55 authored, 4 held (q19 key row missing from OCR; q28/q33/q55 reordered duplicates). 24 mints + 4 articles; reuses: live battledore placenta, Alexandria AU-102 capacitation (pending), 3 of lane 9's own. Validator errors=0 ×3; simulate 14 files rejected=0. Ledger embryo2 65/69; ASU-AE total 210 authored.
+- Remaining AE: `MCQs - Embryo 3.pdf` (~104 items, untriaged) → lane 11 dispatched. Fleet 20/20.
