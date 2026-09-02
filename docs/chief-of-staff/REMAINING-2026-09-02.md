@@ -20,8 +20,8 @@ Three read-only surveys of the ledgers, triage docs and manifests on `origin/mai
 | Ain Shams | BLS / GPATH / GPHARM | 0 | 0 | no exam material | needs Omar sources |
 | Alexandria | 105 / 106 | 484 / 129 | 0 / 6 sub-items | 0 | closed |
 | Alexandria | 102 anatomy+enzymology | 391 | 0 | 0 | closed |
-| Alexandria | 102 biochem/histo/terminology | 0 | ~1,370 triaged | 0 | needs Step-2 dispatch |
-| Alexandria | 103 | 57 | ~507 triaged | 0 | needs Step-2 dispatch |
+| Alexandria | 102 biochem / histo / physio / terminology | 172 / 13 / 13 / 4 | histology ~120 (lane 1 running); physio ~37; terminology unscoped | 0 | Step-2 resumed today |
+| Alexandria | 103 biochem / physio / histo | 29 / 50 / 10 | biochem ~226 (lane 2 running); physio ~24; histo ~18 | 0 | Step-2 resumed today |
 | Alexandria | 101 | 0 | 0 | empty corpus | needs Omar sources |
 | Helwan | BMS-101/102, LCS-103 | in production | 0 | 0 | closed |
 | Helwan | PSY-104 | 0 | 0 | none matched | needs Omar |

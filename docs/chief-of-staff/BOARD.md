@@ -631,3 +631,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — 6 OCTOBER IPH-108 lane 2 LANDED (c7f138de) · pharma bank pp.7-100
 - Session reset before any file was written; rebuilt from origin/main, OCR cache intact. 42/42 candidates keyed by printed checkmark / highlighted feedback (0 renders; lane 1's heuristic held). 42 authored, cluster `pharmabank`; skipped garbled/multi-select/match/6-option pages, all listed. 9 mints, 10 reuses (8 from Assiut MPT-104). validate items=42 errors=[]; batch items=42 errors=0; 6-file simulate created=75 rejected=0. Very low tok/q.
 - Remaining: pp.101-223 unopened. Lane 3 dispatched on pp.101-160. PMS-102 lane 5 and AE lane 12 queued.
+
+### 2026-09-02 — REMAINING-WORK SURVEY delivered (`REMAINING-2026-09-02.md`) · three Y1 lanes dispatched on the biggest open backlogs
+- Three read-only survey agents over ledgers/triage docs on origin/main. Corrections applied by hand: the FOMSCU/6 October/Menoufia survey read a stale checkout (MED101, IPH-108, IMB/IMN, MS105 all have landed batches); Alexandria 102/103 Step-1 triage is far ahead of Step-2 (102 histology ≈120 keyed unauthored, 103 biochemistry ≈226).
+- Dispatched: AU-MED-103 biochemistry lane 2 (Step 2, seed+emit path, AGHA banks), AU-MED-102 histology lane 1 (Step 2), Assiut PMS-102 lane 5 (p.23-30 + QUIZ 11-12 + p.201-217 render pool). Fleet 20/20. Mansoura HIS-203 (≈440 open) waits for HBG lane 3's concepts-file repair to land before a lane opens on it.
