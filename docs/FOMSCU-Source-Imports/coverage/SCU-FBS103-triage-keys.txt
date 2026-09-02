@@ -4,7 +4,7 @@
 # --- Anatomy ---
 anatomy-buccal-branch-of-the-mandibular-nerve  # new · Q: An emergency physician used local anesthesia for surgery to drain an a
 anatomy-external-occipital-protuberance  # new · Q: Which of the following bony landmarks lies midway between the lambda a
-anatomy-facial-vein  # live · Q: The primary venous drainage of the superficial structures of the face 
+# anatomy-facial-vein  # authored-in SCU-FBS103-questions.md (was: live)  · Q: The primary venous drainage of the superficial structures of the face 
 anatomy-frontalis  # pending · Q: Which of the following muscles is responsible for elevating the eyebro
 anatomy-glabella  # new · Q: What is the name of the bony elevation located between the two superci
 anatomy-lateral-pterygoid  # pending · Q: Which of the following muscles of mastication is primarily responsible
@@ -21,8 +21,8 @@ anatomy-trigeminal-nerve  # live · Q: Which of the following nerves provides se
 biochemistry-20  # live · Q: If a double-stranded DNA molecule contains 30% thymine, what is the am
 biochemistry-5-to-3-polymerase-and-3-to-5-exonuclease-acti  # new · Q: DNA polymerase III holoenzyme possesses which of the following activit
 biochemistry-a-nitrogenous-base-a-pentose-sugar-and-a-phos  # new · Q: A nucleotide is structurally composed of:
-biochemistry-aminoacyl-trna-synthetase  # pending · Q: Which of the following enzymes is directly involved in aminoacyl-tRNA 
-biochemistry-dna-ligase  # pending · Q: Which of the following enzymes is responsible for joining the phosphod
+# biochemistry-aminoacyl-trna-synthetase  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: Which of the following enzymes is directly involved in aminoacyl-tRNA 
+# biochemistry-dna-ligase  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: Which of the following enzymes is responsible for joining the phosphod
 biochemistry-many-origins-of-replication  # new · Q: Eukaryotic DNA replication differs from prokaryotic replication in tha
 biochemistry-the-open-reading-frame-is-interrupted-by-intr  # new · Q: Which of the following exists in eukaryotic genes but NOT in prokaryot
 biochemistry-vitamin-k  # live · Q: Which of the following vitamins is primarily synthesized by the normal
@@ -33,16 +33,16 @@ embryology-4th-day  # new · Q: Following fertilization, the morula typically re
 embryology-blastocyst-formation  # new · Q: Which of the following major events characterizes the first week of hu
 embryology-blastomeres  # pending · Q: Which of the following cells are formed immediately by the mitotic div
 embryology-cloacal-membrane  # live · Q: The bilaminar area located at the most caudal part of the embryonic di
-embryology-cytotrophoblast-and-syncytiotrophoblast  # live · Q: On the 8th day of development, the trophoblast differentiates into two
+# embryology-cytotrophoblast-and-syncytiotrophoblast  # authored-in SCU-FBS103-questions.md (was: live)  · Q: On the 8th day of development, the trophoblast differentiates into two
 embryology-day-25  # new · Q: During embryonic development, the cranial neuropore typically closes a
 embryology-differentiation-of-the-embryoblast-into-the-e  # new · Q: The second week of human embryonic development is specifically charact
 embryology-endoderm-and-splanchnic-mesoderm  # new · Q: Which layers of the trilaminar germ disc are involved in the formation
 embryology-extraembryonic-coelom-chorionic-cavity  # new · Q: The formation and joining of cavities within the extraembryonic mesode
-embryology-gastrulation  # pending · Q: What is the main developmental event that occurs during the third week
+# embryology-gastrulation  # authored-in SCU-FBS103-questions.md (was: pending; extends SCU-FBS102's own +scu overlay row)  · Q: What is the main developmental event that occurs during the third week
 embryology-intermediate-mesoderm  # new · Q: The urogenital ridge, which gives rise to the urinary and genital syst
 embryology-ligamentum-teres-hepatis  # new · Q: Which of the following structures represents the fate of the umbilical
 embryology-pericardial-cavity  # pending · Q: The intraembryonic coelom located completely cranial to the oropharyng
-embryology-primary-yolk-sac  # pending · Q: During embryonic development, the blastocyst cavity (blastocele) event
+# embryology-primary-yolk-sac  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: During embryonic development, the blastocyst cavity (blastocele) event
 embryology-the-intraembryonic-coelom  # live · Q: After differentiation, the lateral plate mesoderm splits to enclose wh
 # --- Histology ---
 histology-abundant-cytoplasm-and-short-thick-branched-p  # new · Q: Protoplasmic astrocytes differ from fibrous astrocytes primarily in ha
@@ -60,21 +60,21 @@ histology-phagocytic-cells  # pending · Q: Microglial cells in the central nerv
 histology-pseudounipolar-neurons  # new · Q: Which specific type of neurons is characteristically found in the dors
 histology-pseudounipolar-neurons  # new · Q: Which of the following neurons are composing the dorsal root ganglia?
 histology-they-act-as-phagocytic-cells-to-remove-cellul  # new · Q: Which of the following statements best describes the function of micro
-histology-troponin-c  # pending · Q: During skeletal muscle contraction, calcium ions released from the sar
+# histology-troponin-c  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: During skeletal muscle contraction, calcium ions released from the sar
 histology-walls-of-the-blood-vessels  # new · Q: Which of the following structures is primarily composed of smooth musc
 # --- Medical Ethics ---
 medical-ethics-breach-of-confidentiality  # new · Q: A doctor discussing a patient's case with another doctor who is not in
 # --- Microbiology ---
 microbiology-a-protein-coat-and-nucleic-acid  # new · Q: The basic structure of a virus primarily consists of:
 microbiology-aspergillus-species  # new · Q: Aflatoxin acts as a potent mycotoxin that is primarily produced by whi
-microbiology-binary-fission  # pending · Q: What is the primary method by which bacteria replicate?
+# microbiology-binary-fission  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: What is the primary method by which bacteria replicate?
 microbiology-cell-wall  # pending · Q: Which structural component of Gram-positive bacteria contains a thick 
 microbiology-continuous-cell-line  # pending · Q: A type of cell culture that can reproduce for an extended number of ge
-microbiology-either-dna-or-rna  # pending · Q: The genome of a virus is exclusively composed of:
+# microbiology-either-dna-or-rna  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: The genome of a virus is exclusively composed of:
 microbiology-exoenzymes-invasion-factors  # new · Q: The enzymes produced by some bacteria to break down tissue barriers an
 microbiology-heterotrophs  # pending · Q: The bacteria that require preformed organic compounds as a carbon sour
 microbiology-mycelium  # pending · Q: A mass of hyphae forming the vegetative portion of a fungus is called:
-microbiology-obligate-anaerobes  # pending · Q: Bacteria that can live only in the complete absence of oxygen and die 
+# microbiology-obligate-anaerobes  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: Bacteria that can live only in the complete absence of oxygen and die 
 microbiology-outer-membrane  # pending · Q: Which of the following structures is characteristically present in the
 # --- Parasitology ---
 parasitology-diagnostic-stage  # pending · Q: The specific stage of a parasite that is detected in laboratory specim
@@ -83,14 +83,14 @@ parasitology-eating-undercooked-infected-fish  # new · Q: Heterophyes heterophy
 parasitology-golden-brown  # new · Q: What is the characteristic color of Heterophyes heterophyes eggs?
 parasitology-molluscs-and-snails  # new · Q: In the context of parasitology, the term malacology refers to the scie
 parasitology-parasite  # live · Q: A living organism that depends temporarily or permanently upon another
-parasitology-rhabditiform-larvae  # pending · Q: What is the diagnostic stage for some nematodes like Strongyloides ste
+# parasitology-rhabditiform-larvae  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: What is the diagnostic stage for some nematodes like Strongyloides ste
 parasitology-sarcodina  # new · Q: According to its old taxonomic classification, which group of protozoa
 parasitology-scolex  # pending · Q: The head of a tapeworm is called:
 parasitology-skin-penetration-by-larva  # new · Q: In the direct life cycle of Hymenolepis nana, which of the following r
 parasitology-their-site-of-living-in-the-host  # new · Q: The distinction between a parasitic infection and an infestation is pr
 # --- Pathology ---
 pathology-activation-of-caspases  # new · Q: Which of the following is considered a characteristic sign of apoptosi
-pathology-hypertrophy  # live · Q: When skeletal muscles increase in size following weightlifting exercis
+# pathology-hypertrophy  # authored-in SCU-FBS103-questions.md (was: live)  · Q: When skeletal muscles increase in size following weightlifting exercis
 pathology-it-is-only-a-pathological-process  # new · Q: Which of the following statements is true regarding necrosis?
 pathology-necrosis  # live · Q: Upon microscopic examination of a hepatocyte from a female patient wit
 pathology-pathogenesis  # live · Q: The sequence of events in the response of cells or tissues to an etiol
@@ -98,9 +98,9 @@ pathology-the-expected-further-outcome-of-a-disease  # new · Q: The definition 
 # --- Pharmacology ---
 pharmacology-acetylsalicylic-acid  # new · Q: Aspirin is the brand or common name for which of the following chemica
 pharmacology-cross-tolerance  # new · Q: What term is used to describe the development of tolerance to a specif
-pharmacology-full-agonist  # pending · Q: A drug that binds to a receptor and produces maximum activation with h
+# pharmacology-full-agonist  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: A drug that binds to a receptor and produces maximum activation with h
 pharmacology-full-agonist  # pending · Q: Which of the following represents the effect of a drug that produces m
-pharmacology-microorganisms  # live · Q: Natural penicillin is primarily obtained from which of the following s
+# pharmacology-microorganisms  # authored-in SCU-FBS103-questions.md (was: live)  · Q: Natural penicillin is primarily obtained from which of the following s
 pharmacology-nicotinic-receptors  # pending · Q: Which type of cholinergic receptors is predominantly located in the ga
 pharmacology-partial-agonist  # pending · Q: Which of the following drugs binds to a receptor and produces a submax
 pharmacology-plant-source  # new · Q: What is the natural source from which morphine is primarily derived?
@@ -109,7 +109,7 @@ pharmacology-the-study-of-absorption-distribution-metaboli  # new · Q: Which of
 pharmacology-type-b-bizarre  # new · Q: Which of the following types of adverse drug reactions is best describ
 pharmacology-type-e-end-of-dose-adverse-effect  # new · Q: The withdrawal manifestations experienced by an addicted patient upon 
 # --- Physiology ---
-physiology-70-mv  # pending · Q: The resting membrane potential of a typical neuron is approximately:
+# physiology-70-mv  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: The resting membrane potential of a typical neuron is approximately:
 physiology-beta-2-receptors  # new · Q: Which type of sympathetic autonomic nervous system receptors is predom
 physiology-exhaustion-of-the-neurotransmitter-storage  # new · Q: What is the primary cause of synaptic fatigue during prolonged and int
 physiology-inward-movement-of-chloride-ions  # new · Q: An inhibitory postsynaptic potential (IPSP) is primarily generated by 
