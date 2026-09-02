@@ -22783,3 +22783,861 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "ciprofloxacin tendonitis" -- 0 hits. A grep sweep for "tendonitis" hit only an unrelated Zagazig orthopaedic Achilles-tendon-rupture concept -- different grain, not this fluoroquinolone drug-adverse-effect fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-D3D567B1858979
+
+## label
+Chronic UV exposure is the most important risk factor for this fair-skinned man's skin cancer
+
+## canonical_key
+carcinogen.physical.uv-exposure-skin-cancer
+
+## aliases
+UV exposure skin cancer
+Physical carcinogens
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic exposure to ultraviolet (UV) rays is the most important risk factor for skin cancer, especially in fair-skinned individuals whose lower melanin content gives less natural photoprotection, distinct from inherited Rb gene mutation (retinoblastoma/sarcoma risk), asbestos exposure (mesothelioma/lung cancer risk) or cigarette smoking (lung/bladder cancer risk), none of which is the most important risk factor for a fair-skinned patient's sun-exposed skin lesion.
+
+## explicit_objective
+Identify chronic UV exposure as the most important risk factor for skin cancer in a fair-skinned patient.
+
+## pitfalls
+Attributing a fair-skinned patient's sun-exposed skin cancer to inherited Rb mutation, asbestos or smoking -- chronic UV exposure is the risk factor the printed key names as most important.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Physical carcinogens
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 42 years old fair skin man has a skin nodule on the right hand... Which of the following risk factor is most important for development of this tumor? ... Chronic exposure to UV rays" (Quiz 45 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "UV exposure skin cancer" -- 0 hits. A grep sweep for "ultraviolet|UV ray|UV exposure|UV radiation" found no existing concept anywhere in docs/*-Source-Imports. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-81533C95FE69F4
+
+## label
+Corticosteroids are not a chemical carcinogen
+
+## canonical_key
+carcinogen.chemical.corticosteroids-not-a-chemical-carcinogen
+
+## aliases
+Chemical carcinogens list
+Corticosteroids not carcinogenic
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Corticosteroids are not classed among the chemical carcinogens -- they are anti-inflammatory/immunosuppressive hormonal agents -- unlike azo compounds, polycyclic aromatic hydrocarbons and asbestos, which are genuine named chemical carcinogens in the department's teaching.
+
+## explicit_objective
+State that corticosteroids are not a chemical carcinogen, unlike azo compounds, polycyclic hydrocarbons or asbestos.
+
+## pitfalls
+Assuming corticosteroids belong on a chemical-carcinogen list simply because they are a well-known drug class -- the department's named chemical carcinogens are azo compounds, polycyclic hydrocarbons, asbestos, vinyl chloride, arsenic and aflatoxins, not corticosteroids.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Chemical carcinogens
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Chemical carcinogens include all EXCEPT: ... Corticosteroids" (Quiz 45 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "chemical carcinogens corticosteroids" -- 0 hits. A grep sweep for "chemical carcinogen" hit only the reused Kasr aflatoxin concept (which lists the full named-carcinogen set but is framed around aflatoxin specifically, not this EXCEPT/corticosteroid-exclusion framing) and an Assiut AUN-INI-105-ch7 aflatoxin/mycotoxicosis concept -- different grain. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-0C1014ADF53736
+
+## label
+H pylori infection is involved in the development of gastric lymphoma
+
+## canonical_key
+carcinogen.bacterial.h-pylori-gastric-lymphoma
+
+## aliases
+H pylori carcinogenesis
+Gastric MALT lymphoma
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic Helicobacter pylori infection is implicated in the development of gastric lymphoma, particularly MALT (mucosa-associated lymphoid tissue) lymphoma, through sustained antigenic stimulation of gastric lymphoid tissue, as well as gastric adenocarcinoma via chronic gastritis -- distinct from brain tumours, metastasis in general or colon carcinoma, none of which H. pylori is characteristically linked to.
+
+## explicit_objective
+State that H. pylori infection is implicated in the development of gastric lymphoma.
+
+## pitfalls
+Attributing H. pylori's carcinogenic association to brain tumours or colon carcinoma -- its established link is to gastric lymphoma (and gastric adenocarcinoma).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Bacterial carcinogenesis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"H pylori infection is involved in development of: ... Gastric lymphoma" (Quiz 45 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "H pylori gastric lymphoma" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-8B1A909A2138C4
+
+## label
+Human papilloma virus is associated with cervical cancer
+
+## canonical_key
+carcinogen.viral.hpv-cervical-cancer
+
+## aliases
+HPV cervical cancer
+Viral carcinogenesis
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Human papilloma virus (HPV), particularly high-risk strains such as HPV-16 and HPV-18, is strongly associated with cervical cancer, through viral oncoprotein inactivation of tumour suppressor gene products -- one of the best-established virus-cancer associations, distinct from endometrial, colorectal or breast cancer, none of which HPV characteristically causes.
+
+## explicit_objective
+State that human papilloma virus is associated with cervical cancer.
+
+## pitfalls
+Attributing HPV's carcinogenic association to endometrial, colorectal or breast cancer -- its best-established link is to cervical cancer.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Viral carcinogenesis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Human papilloma virus is associated with: ... Cervical cancer" (Quiz 45 Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "HPV cervical cancer" -- 0 hits. A grep sweep for "human papilloma|HPV" filtered to files also mentioning "cervical" hit only the reused Kasr EBV/oncogenic-viruses concept (which mentions HPV/cervical carcinoma in passing while its explicit_objective is EBV-focused) -- a different grain, not this HPV-specific fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-E7A5F2A0F170F0
+
+## label
+Breast cancer is not related to virus infection
+
+## canonical_key
+carcinogen.viral.breast-cancer-not-virus-related
+
+## aliases
+Non-viral cancers
+Breast cancer etiology
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Breast cancer is not classed as a virus-related malignancy in standard teaching, unlike Burkitt's lymphoma and nasopharyngeal cancer (both EBV-associated) or cervical cancer (HPV-associated), making it the one cancer among these options without an established viral carcinogenesis link.
+
+## explicit_objective
+State that breast cancer, unlike Burkitt's lymphoma, nasopharyngeal cancer or cervical cancer, is not classed as virus-related.
+
+## pitfalls
+Assuming every cancer in a virus-carcinogenesis question set has a viral association -- breast cancer is the standard teaching exception among malignancies commonly listed alongside EBV- and HPV-associated cancers.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Viral carcinogenesis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following cancer is NOT related to virus Infection: ... Breast cancer" (Quiz 45 Q8).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "breast cancer not related to virus" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-D429C114778FFB
+
+## label
+Hepatitis C virus is the most important carcinogenic virus in Egypt
+
+## canonical_key
+carcinogen.viral.hcv-most-important-in-egypt
+
+## aliases
+HCV Egypt carcinogenesis
+Most important carcinogenic virus Egypt
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hepatitis C virus (HCV) is taught as the most important carcinogenic virus in Egypt, reflecting the country's historically very high HCV prevalence and its strong association with chronic liver disease progressing to hepatocellular carcinoma -- a local-epidemiology teaching point distinct from HPV, HIV or EBV, each carcinogenic in its own right but not named as most important for this population.
+
+## explicit_objective
+State that hepatitis C virus is taught as the most important carcinogenic virus in Egypt.
+
+## pitfalls
+Naming HPV, HIV or EBV instead of HCV for this Egypt-specific "most important carcinogenic virus" question -- each is carcinogenic in its own right, but HCV is the one the printed key names as most important in this population.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Viral carcinogenesis in Egypt
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AUN_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The most important carcinogenic virus in Egypt is: ... Hepatitis C virus" (Quiz 45 Q9).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "most important carcinogenic virus Egypt" and "hepatitis C egypt" -- 0 hits. New concept.
