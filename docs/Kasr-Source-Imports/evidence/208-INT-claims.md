@@ -771,3 +771,221 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Kasr Al Ainy 208 INT — Pharmacology, Autacoids and Antiemetics
+
+
+---
+
+# Item
+## id
+CLM-FND-208INT-ANGIOTENSIN-II-ACTIONS-01
+## concept_id
+CON-FND-B3E07DF0A53380
+## subject
+Angiotensin II
+## predicate
+acts on AT1 receptors to cause vasoconstriction, aldosterone secretion, cardiac/vascular hypertrophy, and
+## object
+increased (not decreased) noradrenaline release via ganglionic and adrenal-medullary sympathetic stimulation
+## display_text
+Angiotensin II increases, not decreases, noradrenaline release, alongside vasoconstriction, aldosterone secretion and cardiac/vascular hypertrophy.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Renin-Angiotensin-Aldosterone System
+
+---
+
+# Item
+## id
+CLM-FND-208INT-THIAZIDE-DCT-SITE-01
+## concept_id
+CON-FND-B8F8442BE9266F
+## subject
+Thiazide diuretics
+## predicate
+act by blocking the Na+/Cl- transporter at
+## object
+the distal convoluted tubule, after being secreted into the proximal tubule by the organic acid secretory system
+## display_text
+Thiazide diuretics act at the distal convoluted tubule, blocking the Na+/Cl- transporter there.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Diuretics
+
+---
+
+# Item
+## id
+CLM-FND-208INT-MANNITOL-CEREBRAL-EDEMA-01
+## concept_id
+CON-FND-AF26F3F3A0D7BF
+## subject
+Mannitol
+## predicate
+is an intravenous osmotic diuretic used to lower
+## object
+intracerebral pressure in cerebral edema and intraocular pressure in glaucoma, by creating an osmotic gradient that draws water out of tissue
+## display_text
+Mannitol lowers intracerebral and intraocular pressure through an osmotic gradient, distinct from any tubular-transporter diuretic mechanism.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Diuretics
+
+---
+
+# Item
+## id
+CLM-FND-208INT-THIAZIDE-HYPERCALCIURIA-01
+## concept_id
+CON-FND-D59525994744D4
+## subject
+Thiazide diuretics
+## predicate
+decrease calcium excretion, making them useful for
+## object
+idiopathic hypercalciuria and renal calcium stones, the reverse of loop diuretics' calcium-wasting effect
+## display_text
+Thiazide diuretics decrease calcium excretion and are used for idiopathic hypercalciuria and renal stones.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Diuretics
+
+---
+
+# Item
+## id
+CLM-FND-208INT-TRIAMTERENE-ALDOSTERONE-INDEPENDENT-01
+## concept_id
+CON-FND-6D459888D3658B
+## subject
+Triamterene and amiloride
+## predicate
+directly block collecting-tubule sodium channels, a potassium-sparing action that is
+## object
+not dependent on aldosterone, unlike spironolactone's competitive aldosterone-receptor antagonism
+## display_text
+Triamterene and amiloride block sodium channels directly, independent of aldosterone, unlike spironolactone.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Diuretics
+
+---
+
+# Item
+## id
+CLM-FND-208INT-FUROSEMIDE-OTOTOXICITY-01
+## concept_id
+CON-FND-8CDAE2FC566F9E
+## subject
+Loop diuretics (furosemide)
+## predicate
+cause, especially in renal insufficiency or with a concurrent ototoxic drug,
+## object
+ototoxicity that can result in deafness — a class-specific effect not shared by thiazide diuretics
+## display_text
+Loop diuretics such as furosemide carry an ototoxicity risk; thiazide diuretics do not.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Diuretics
+
+---
+
+# Item
+## id
+CLM-FND-208INT-ACEI-CARDIAC-OUTPUT-01
+## concept_id
+CON-FND-70B7E26AAEE307
+## subject
+ACE inhibitors (captopril)
+## predicate
+raise cardiac output in heart failure through
+## object
+afterload and preload reduction from decreased angiotensin II formation, not through a direct inotropic action
+## display_text
+ACE inhibitors increase cardiac output in heart failure by reducing afterload and preload, without a direct inotropic effect.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, ACE Inhibitors

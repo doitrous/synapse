@@ -10431,3 +10431,976 @@ yes
 
 ## author_notes
 keySource: printed answer table p.21 ("84.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q85
+
+## title
+Actions of angiotensin II
+
+## question
+All of the following are actions of angiotensin II EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Powerful Vasoconstriction
+
+## explanation_a
+Incorrect (this IS a genuine action of angiotensin II, making it not the exception). Angiotensin II acts on AT1 receptors to produce powerful vasoconstriction, directly raising resistance and blood pressure.
+
+## answer_b
+inducing cardiac hypertrophy and remodeling
+
+## explanation_b
+Incorrect (this IS a genuine action of angiotensin II, making it not the exception). Angiotensin II promotes cardiac and vascular hypertrophy and remodeling, a mitogenic effect distinct from its acute hemodynamic actions.
+
+## answer_c
+Increasing biosynthesis and secretion of aldosterone
+
+## explanation_c
+Incorrect (this IS a genuine action of angiotensin II, making it not the exception). Angiotensin II stimulates aldosterone release from the adrenal cortex, leading to sodium and water retention and increased blood volume.
+
+## answer_d
+Decreasing the release of noradrenaline
+
+## explanation_d
+Correct. Angiotensin II enhances, rather than decreases, sympathetic activity -- it increases noradrenaline release by stimulating ganglia and the adrenal medulla, alongside stimulating central thirst and vasopressin (ADH) release. This option reverses the true direction of angiotensin II's sympathetic effect, which is exactly why it is the one action, among these four genuine effects, that angiotensin II does NOT produce.
+
+## topic
+Pharmacology
+
+## subtopic
+Renal and cardiovascular pharmacology
+
+## main_concept
+CON-FND-B3E07DF0A53380
+
+## concept_ids
+CON-FND-B3E07DF0A53380
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Renin-Angiotensin-Aldosterone System
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+List angiotensin II's actions (vasoconstriction, cardiac/vascular hypertrophy, aldosterone secretion, increased noradrenaline release) and identify a reversed-direction distractor.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.14
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("85.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q86
+
+## title
+Site of action of thiazide diuretics
+
+## question
+The site of action of thiazide diuretics is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The proximal convoluted tubules.
+
+## explanation_a
+Incorrect. Thiazides must be secreted into the proximal convoluted tubule by the organic acid secretory system to reach the nephron lumen, but that is how they get there, not where they act.
+
+## answer_b
+The distal convoluted tubules.
+
+## explanation_b
+Correct. Thiazide diuretics have moderate efficacy and work by blocking the sodium/chloride transporter in the distal convoluted tubule, causing increased luminal sodium and chloride to reach the late distal tubule, where part of the sodium is reabsorbed in exchange for potassium and hydrogen ions. This distal, sodium-for-potassium exchange step is exactly why thiazides cause the electrolyte pattern they do (hypokalemia, alkalosis) alongside their moderate diuretic efficacy, compared with the more potent loop diuretics acting further upstream.
+
+## answer_c
+The thick ascending loop of Henle.
+
+## explanation_c
+Incorrect. The thick ascending limb of the loop of Henle is the site of action of loop diuretics (furosemide, ethacrynic acid), which block the Na+/K+/2Cl- cotransporter there, not thiazides.
+
+## answer_d
+The collecting tubules.
+
+## explanation_d
+Incorrect. The collecting tubules are the site of action of potassium-sparing diuretics (spironolactone, triamterene, amiloride), not thiazides.
+
+## topic
+Pharmacology
+
+## subtopic
+Renal and cardiovascular pharmacology
+
+## main_concept
+CON-FND-B8F8442BE9266F
+
+## concept_ids
+CON-FND-B8F8442BE9266F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics > Thiazide Diuretics
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Name the distal convoluted tubule as the site of action of thiazide diuretics, distinct from the loop of Henle (loop diuretics) and collecting tubules (potassium-sparing diuretics).
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.14
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("86.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q87
+
+## title
+Diuretic to lower intracerebral pressure
+
+## question
+Which of the following diuretics would be most useful to lower Intracerebral pressure in a comatose patient with brain Injury and cerebral edema?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Amiloride
+
+## explanation_a
+Incorrect. Amiloride is a weak, potassium-sparing diuretic that acts on collecting-tubule sodium channels -- it has no role in shrinking cerebral or vitreous volume for acute intracranial-pressure control.
+
+## answer_b
+Ethacrynic acid
+
+## explanation_b
+Incorrect. Ethacrynic acid is a loop diuretic; while loop diuretics are used for edema, they are not the specific osmotic mechanism used to rapidly lower intracranial pressure.
+
+## answer_c
+Furosemide
+
+## explanation_c
+Incorrect. Furosemide is a loop diuretic used for edema of cardiac, hepatic or renal origin, but it is not the osmotic agent specifically used for emergency reduction of intracranial or intraocular pressure.
+
+## answer_d
+Mannitol
+
+## explanation_d
+Correct. Mannitol is an intravenous osmotic diuretic, inert and not metabolized, that creates an osmotic gradient across the blood-brain barrier, drawing water out of brain tissue and lowering intracerebral pressure -- the same osmotic mechanism it uses to lower intraocular pressure in acute angle-closure glaucoma. This osmotic, rather than tubular-transporter, mechanism is exactly why mannitol is chosen over furosemide or ethacrynic acid in a comatose patient with brain injury and cerebral edema, where a rapid reduction in intracranial pressure is the goal.
+
+## topic
+Pharmacology
+
+## subtopic
+Renal and cardiovascular pharmacology
+
+## main_concept
+CON-FND-AF26F3F3A0D7BF
+
+## concept_ids
+CON-FND-AF26F3F3A0D7BF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics > Osmotic Diuretics
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify mannitol's osmotic mechanism as the reason it is chosen to lower intracranial pressure in cerebral edema, distinct from loop and potassium-sparing diuretics.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("87.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q88
+
+## title
+Diuretic for idiopathic hypercalciuria
+
+## question
+Which of the following diuretics decreases calcium excretion and thus could be used in the treatment of idiopathic hypercalcuria and renal calcium stones?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Furosemide
+
+## explanation_a
+Incorrect. Furosemide, a loop diuretic, decreases calcium reabsorption and so increases urinary calcium excretion (used to treat hypercalcemia), the opposite effect from what is needed for hypercalciuria.
+
+## answer_b
+Spironolactone
+
+## explanation_b
+Incorrect. Spironolactone is a potassium-sparing aldosterone antagonist with no established calcium-lowering action of this kind; it is not the diuretic used for idiopathic hypercalciuria.
+
+## answer_c
+Hydrochlorothiazide
+
+## explanation_c
+Correct. Thiazide diuretics such as hydrochlorothiazide enhance passive calcium reabsorption from the proximal convoluted tubule and sodium/calcium exchange from the distal convoluted tubule, decreasing calcium excretion -- which is exactly why they are useful in idiopathic hypercalciuria and renal calcium stones. This calcium-retaining effect is the reverse of loop diuretics' calcium-wasting action, and it is a genuine therapeutic use distinct from thiazides' more familiar antihypertensive indication.
+
+## answer_d
+Mannitol
+
+## explanation_d
+Incorrect. Mannitol is an osmotic diuretic used for cerebral/intraocular edema and acute renal failure, with no established role in reducing calcium excretion for hypercalciuria.
+
+## topic
+Pharmacology
+
+## subtopic
+Renal and cardiovascular pharmacology
+
+## main_concept
+CON-FND-D59525994744D4
+
+## concept_ids
+CON-FND-D59525994744D4
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics > Thiazide Diuretics
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Explain that thiazide diuretics decrease calcium excretion (useful for idiopathic hypercalciuria and renal stones), the reverse of loop diuretics' calcium-wasting effect.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("88.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q90
+
+## title
+Triamterene versus spironolactone mechanism
+
+## question
+Although both spironolactone and triamterene are potassium sparing diuretics, triamterene differs in that:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It has a greater natriuretic action.
+
+## explanation_a
+Incorrect. Both spironolactone and triamterene are weak, low-efficacy diuretics -- neither has a notably greater natriuretic action than the other; their shared potassium-sparing efficacy is modest by design.
+
+## answer_b
+It induces powerful anti-androgenic effects.
+
+## explanation_b
+Incorrect. Anti-androgenic effects (gynecomastia, impotence in males; menstrual disturbances in females) are characteristic of spironolactone, which also blocks androgen receptors, not of triamterene, which lacks this endocrine action.
+
+## answer_c
+Its K retaining action is not dependent on the presence of aldosterone.
+
+## explanation_c
+Correct. Triamterene and amiloride directly inhibit sodium influx by blocking epithelial sodium channels in the cortical collecting tubule, and this blockade is effective even in the absence of aldosterone -- unlike spironolactone (and eplerenone, finerenone), which are competitive antagonists that must occupy the aldosterone receptor to work. This aldosterone-independent, direct-channel-blocking mechanism is exactly the distinction the question is testing, separating triamterene/amiloride from the aldosterone-receptor-antagonist route spironolactone uses.
+
+## answer_d
+It acts from the luminal membrane side of the proximal tubular cells.
+
+## explanation_d
+Incorrect. Triamterene acts in the cortical collecting tubule of the distal nephron, not the proximal tubule, and both potassium-sparing diuretics act from the luminal (apical) side of their respective tubular cells -- this option misplaces the nephron segment.
+
+## topic
+Pharmacology
+
+## subtopic
+Renal and cardiovascular pharmacology
+
+## main_concept
+CON-FND-6D459888D3658B
+
+## concept_ids
+CON-FND-6D459888D3658B
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics > Potassium-Sparing Diuretics
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Contrast triamterene/amiloride's direct, aldosterone-independent blockade of collecting-tubule sodium channels with spironolactone's aldosterone-receptor-antagonist mechanism.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("90.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q91
+
+## title
+Ototoxic diuretic causing deafness
+
+## question
+Which of the following diuretics has ototoxic effect and could result in deafness?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Furosemide
+
+## explanation_a
+Correct. Loop diuretics such as furosemide cause ototoxicity, especially in renal insufficiency or with concurrent use of other ototoxic drugs such as gentamicin -- an adverse effect distinct from, and more severe than, the electrolyte disturbances loop diuretics also cause. This ototoxicity risk is one of the reasons loop-diuretic dosing is watched carefully in patients with reduced renal function or those already on another ototoxic agent.
+
+## answer_b
+Amiloride
+
+## explanation_b
+Incorrect. Amiloride is a weak potassium-sparing diuretic with no established ototoxic effect.
+
+## answer_c
+Hydrochlorothiazide
+
+## explanation_c
+Incorrect. Hydrochlorothiazide's adverse-effect profile includes hypokalemia, hyperuricemia, hyperglycemia and hyperlipidemia, not ototoxicity, which is specific to the loop diuretics.
+
+## answer_d
+Acetazolamide
+
+## explanation_d
+Incorrect. Acetazolamide, a carbonic anhydrase inhibitor, causes metabolic acidosis, hypokalemia and renal stone formation, not ototoxicity.
+
+## topic
+Pharmacology
+
+## subtopic
+Renal and cardiovascular pharmacology
+
+## main_concept
+CON-FND-8CDAE2FC566F9E
+
+## concept_ids
+CON-FND-8CDAE2FC566F9E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics > Loop Diuretics
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify furosemide (a loop diuretic) as the diuretic class carrying ototoxicity risk, distinct from potassium-sparing, thiazide and carbonic-anhydrase-inhibitor diuretics.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("91.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q92
+
+## title
+Increasing cardiac output without an inotropic action
+
+## question
+Which of the following medications is the most likely to increase the cardiac output in a heart failure patient without having an inotropic action?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Captopril
+
+## explanation_a
+Correct. Captopril, an ACE inhibitor, decreases angiotensin II formation, producing arteriolar vasodilation that lowers total peripheral resistance and afterload, and mild venous vasodilation that lowers preload -- through this afterload/preload reduction alone, cardiac output is maintained or improved in heart failure, without any direct effect on myocardial contractility. This afterload-reduction route to a higher cardiac output is mechanistically distinct from -- and is exactly what the question is asking to be distinguished from -- a drug that raises cardiac output by directly increasing contractile force.
+
+## answer_b
+Digoxin
+
+## explanation_b
+Incorrect. Digoxin is a cardiac glycoside with a direct positive inotropic action, raising cardiac output specifically by increasing myocardial contractility -- the mechanism this question is asking to exclude.
+
+## answer_c
+Isoproterenol
+
+## explanation_c
+Incorrect. Isoproterenol is a non-selective beta agonist with a strong positive inotropic (and chronotropic) action at beta1 receptors -- it raises cardiac output through direct cardiac stimulation, not through vasodilation.
+
+## answer_d
+Theophylline
+
+## explanation_d
+Incorrect. Theophylline has a mild positive inotropic action (through phosphodiesterase inhibition raising cAMP), so any rise in cardiac output it produces is not free of an inotropic component.
+
+## topic
+Pharmacology
+
+## subtopic
+Renal and cardiovascular pharmacology
+
+## main_concept
+CON-FND-70B7E26AAEE307
+
+## concept_ids
+CON-FND-70B7E26AAEE307
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Angiotensin-Converting Enzyme Inhibitors
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Explain that ACE inhibitors such as captopril raise cardiac output in heart failure through afterload/preload reduction, not through a direct inotropic action, unlike digoxin, isoproterenol or theophylline.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("92.A")

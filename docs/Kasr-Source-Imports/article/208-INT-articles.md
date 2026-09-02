@@ -877,3 +877,96 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead, same as the cholinergic-pharmacology article.
 ## reading_time
 11
+
+
+---
+
+# Item
+## id
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+## title
+Renin-angiotensin physiology and diuretic pharmacology: thiazide, loop, osmotic and potassium-sparing agents, and non-inotropic afterload reduction
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Angiotensin II's actions -- vasoconstriction, aldosterone secretion, cardiac/vascular hypertrophy, and (often missed) an increase, not decrease, in noradrenaline release -- set up the diuretic and ACE-inhibitor pharmacology tested alongside it. Diuretics separate by nephron site and consequence: thiazides act at the distal convoluted tubule with moderate efficacy and decrease calcium excretion (useful in hypercalciuria); loop diuretics act at the thick ascending limb with high efficacy but carry an ototoxicity risk specific to that class; osmotic mannitol lowers intracranial and intraocular pressure by an osmotic gradient; and potassium-sparing triamterene/amiloride block collecting-tubule sodium channels directly, independent of aldosterone, unlike spironolactone's receptor antagonism. A single non-diuretic thread closes the cluster: ACE inhibitors such as captopril raise cardiac output in heart failure purely through afterload/preload reduction, without any direct inotropic action.
+## sections
+### Definition
+Angiotensin II acts on AT1 receptors to cause vasoconstriction, stimulates aldosterone release (raising blood volume via sodium and water retention), promotes cardiac and vascular hypertrophy, increases noradrenaline release and ganglionic/adrenal-medullary sympathetic activity, and raises ADH release and thirst, while inhibiting further renin release. Diuretics are grouped by the nephron segment they act on: thiazides (hydrochlorothiazide) block the Na+/Cl- transporter in the distal convoluted tubule; loop diuretics (furosemide) block the Na+/K+/2Cl- cotransporter in the thick ascending limb; the osmotic diuretic mannitol works throughout the tubule by an osmotic gradient rather than a transporter; and potassium-sparing agents split into a direct-channel-blocking pair (triamterene, amiloride) and an aldosterone-receptor-antagonist pair (spironolactone, eplerenone). ACE inhibitors (captopril) block the conversion of angiotensin I to angiotensin II.
+### Mechanism
+Thiazides are secreted into the proximal tubule by the organic acid secretory system but act further downstream, at the distal convoluted tubule, blocking Na+/Cl- reabsorption; the resulting excess luminal sodium reaching the late distal tubule is exchanged for potassium and hydrogen, which is the mechanistic root of thiazide-induced hypokalemia and alkalosis, and the same distal calcium-handling shift (enhanced proximal and distal calcium reabsorption) explains why thiazides decrease, rather than increase, calcium excretion. Loop diuretics act on a transporter responsible for roughly a quarter of filtered sodium reabsorption, giving them much higher ceiling efficacy than thiazides, but their ototoxicity (worsened by renal insufficiency or a concurrent ototoxic drug such as gentamicin) is a mechanistically separate adverse effect from their electrolyte disturbances. Mannitol's mechanism is purely osmotic -- an inert, non-metabolized, non-reabsorbed solute drawing water across a gradient -- which is why it works throughout the tubule and equally well at pulling water out of brain or vitreous tissue to lower intracranial or intraocular pressure. Triamterene and amiloride block epithelial sodium channels in the collecting tubule directly, so their potassium-sparing action does not require aldosterone at all, unlike spironolactone, whose action is entirely dependent on occupying (and thereby blocking) the aldosterone receptor -- which is also why spironolactone, but not triamterene, carries anti-androgenic side effects from its steroid-receptor activity. ACE inhibitors lower angiotensin II formation, producing arteriolar vasodilation (lowering afterload) and mild venous vasodilation (lowering preload); cardiac output rises in heart failure as a consequence of this reduced workload, not because the drug acts on the myocardium the way digoxin or isoproterenol does.
+### Key determinants
+Nearly every question here turns on matching a diuretic (or angiotensin/ACE-inhibitor fact) to its specific nephron site or specific, class-restricted adverse effect, rather than treating "diuretic" as one undifferentiated category -- ototoxicity is loop-specific, hypercalciuria-correcting calcium retention is thiazide-specific, and aldosterone-independence is specific to the direct-channel-blocking potassium-sparing pair. For the ACE-inhibitor/cardiac-output item, the deciding variable is whether a drug's rise in cardiac output comes from reduced afterload/preload (captopril) or from a direct inotropic action on the myocardium (digoxin, isoproterenol, theophylline).
+### Clinical significance
+Choosing mannitol specifically (not a loop diuretic) for a comatose, cerebral-edema patient is a direct application of its unique osmotic mechanism. Recognising thiazides' calcium-sparing effect is why they are prescribed specifically for idiopathic hypercalciuria and calcium stone prevention, not just for hypertension or edema. Watching renal function and co-administered ototoxic drugs before dosing a loop diuretic is a direct application of its class-specific ototoxicity risk. Choosing triamterene over spironolactone in a patient who cannot tolerate anti-androgenic side effects (gynecomastia) is a real prescribing decision built on the two potassium-sparing drugs' different mechanisms. Recognising that an ACE inhibitor's cardiac-output benefit in heart failure comes from unloading the heart, not from direct inotropy, is part of why ACE inhibitors are foundational (not merely adjunctive) heart-failure therapy.
+### Common misconceptions
+Assuming angiotensin II dampens sympathetic activity -- it instead facilitates noradrenaline release. Confusing where a thiazide is secreted (proximal tubule) with where it acts (distal tubule). Assuming ototoxicity is a general diuretic-class effect rather than one specific to loop diuretics. Assuming both potassium-sparing diuretics share one mechanism, when triamterene/amiloride block sodium channels directly while spironolactone blocks the aldosterone receptor. Assuming any drug that raises cardiac output in heart failure must act directly on the heart, rather than by reducing the load the heart works against.
+## universities
+kau
+## years
+KAU_Y2
+## module
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics and Renin-Angiotensin-Aldosterone System
+## subtopic
+Renal and cardiovascular pharmacology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## related_concepts
+CON-FND-B3E07DF0A53380
+CON-FND-B8F8442BE9266F
+CON-FND-AF26F3F3A0D7BF
+CON-FND-D59525994744D4
+CON-FND-6D459888D3658B
+CON-FND-8CDAE2FC566F9E
+CON-FND-70B7E26AAEE307
+## related_articles
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## resource_ids
+src_9fa6c2788e36af56304e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead, same as the adrenergic and cholinergic pharmacology articles. This article's own source page (p.7) also directly grounds why 2023eom-q89 (thiazide-diuretic "deafness") is held -- see that item's held note in coverage/208-INT-LEDGER.md.
+## reading_time
+12

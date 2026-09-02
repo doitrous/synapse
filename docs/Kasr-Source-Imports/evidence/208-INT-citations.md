@@ -696,3 +696,200 @@ Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
 0.75
 ## counts_as_claim_evidence
 yes
+
+
+---
+
+# Item
+## id
+CIT-FND-208INT-ANGIOTENSIN-II-ACTIONS-01
+## claim_id
+CLM-FND-208INT-ANGIOTENSIN-II-ACTIONS-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Angiotensin II acts on AT1 receptors to produce powerful vasoconstriction, stimulating increased resistance and blood pressure. Angiotensin II stimulates Aldosterone release... Angiotensin II enhances sympathetic activity by increasing Norepinephrine release and stimulating ganglia and the adrenal medulla, and promotes cardiac and vascular hypertrophy (mitogenic effect).
+## locator_type
+printed_page
+## locator_page
+6
+## locator_section
+Renin-angiotensin-aldosterone system
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-THIAZIDE-DCT-SITE-01
+## claim_id
+CLM-FND-208INT-THIAZIDE-DCT-SITE-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Thiazide Diuretics are well absorbed orally but must be secreted by the Organic Acid Secretory System in the Proximal Convoluted Tubule to act from inside the nephron. Thiazide Diuretics have moderate efficacy and work by blocking the Sodium/Chloride Transporter in the ... Distal Convoluted Tubule.
+## locator_type
+printed_page
+## locator_page
+7
+## locator_section
+Diuretics — thiazides
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-MANNITOL-CEREBRAL-EDEMA-01
+## claim_id
+CLM-FND-208INT-MANNITOL-CEREBRAL-EDEMA-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Mannitol is an Osmotic Diuretic given intravenously that is not metabolized, is inert, and non-toxic. Mannitol is used to lower intraocular pressure in glaucoma, lower intracerebral pressure, and in acute renal failure.
+## locator_type
+printed_page
+## locator_page
+8
+## locator_section
+Diuretics — osmotic agents
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-THIAZIDE-HYPERCALCIURIA-01
+## claim_id
+CLM-FND-208INT-THIAZIDE-HYPERCALCIURIA-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Thiazide Diuretics cause Hypercalcemia by enhancing passive Calcium reabsorption from the Proximal Convoluted Tubule and Sodium/Calcium exchange from the Distal Convoluted Tubule. Thiazide Diuretics are useful in treating Idiopathic Hypercalciuria and renal calcium stones because they decrease calcium excretion.
+## locator_type
+printed_page
+## locator_page
+7
+## locator_section
+Diuretics — thiazides
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-TRIAMTERENE-ALDOSTERONE-INDEPENDENT-01
+## claim_id
+CLM-FND-208INT-TRIAMTERENE-ALDOSTERONE-INDEPENDENT-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Triamterene and Amiloride are direct inhibitors of Sodium Influx in the Cortical Collecting Tubule. Triamterene and Amiloride block epithelial sodium channels and are effective even in the absence of aldosterone.
+## locator_type
+printed_page
+## locator_page
+8
+## locator_section
+Diuretics — potassium-sparing agents
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-FUROSEMIDE-OTOTOXICITY-01
+## claim_id
+CLM-FND-208INT-FUROSEMIDE-OTOTOXICITY-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Loop Diuretics cause Ototoxicity, especially in renal insufficiency or with concurrent ototoxic drugs like Gentamicin.
+## locator_type
+printed_page
+## locator_page
+7
+## locator_section
+Diuretics — loop diuretics
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference. Same page's thiazide adverse-effect list (no ototoxicity entry) grounds why 2023eom-q89 is held.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-ACEI-CARDIAC-OUTPUT-01
+## claim_id
+CLM-FND-208INT-ACEI-CARDIAC-OUTPUT-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+ACEIS: Arteriolar vasodilation decreases Total Peripheral Resistance (TPR) resulting in decreased After-load and Blood Pressure. ACEIS: Cause mild venous vasodilation which decreases Venous Return (VR), End-Diastolic Volume (EDV), and Pre-load. ACEIS: Cardiac Output (C.O.P.) is maintained or improved, which is especially beneficial in heart failure clinical settings.
+## locator_type
+printed_page
+## locator_page
+9
+## locator_section
+ACE inhibitors — hemodynamic effects
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes

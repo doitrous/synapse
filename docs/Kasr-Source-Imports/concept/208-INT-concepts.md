@@ -6875,3 +6875,802 @@ resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ..
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: Sibling of CON-FND-8F7613BF9B3306 (ondansetron), the other antiemetic/antihistamine concept in this batch.
+
+
+---
+
+# Item
+## id
+CON-FND-B3E07DF0A53380
+## label
+Angiotensin II vasoconstricts, drives cardiac/vascular hypertrophy, stimulates aldosterone secretion, and increases (not decreases) noradrenaline release
+## canonical_key
+angiotensin-ii.physiological-actions
+## aliases
+Angiotensin II actions
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Angiotensin II acts on AT1 receptors to produce powerful vasoconstriction, stimulates aldosterone release (leading to sodium and water retention and increased blood volume), and promotes cardiac and vascular hypertrophy (a mitogenic effect). It also enhances sympathetic activity by increasing noradrenaline release and stimulating ganglia and the adrenal medulla, and increases antidiuretic hormone release and thirst -- while inhibiting further renin release through negative feedback.
+## explicit_objective
+List angiotensin II's physiological actions (vasoconstriction, aldosterone secretion, cardiac/vascular hypertrophy, increased noradrenaline release, ADH release, thirst) and correctly state that it increases, not decreases, sympathetic noradrenaline release.
+## pitfalls
+Assuming angiotensin II dampens sympathetic tone -- it instead facilitates noradrenaline release and stimulates the adrenal medulla, reinforcing rather than opposing sympathetic activity.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Renal and cardiovascular pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Renin-Angiotensin-Aldosterone System
+## article_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ANGIOTENSIN-II-ACTIONS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All of the following are actions of angiotensin II EXCEPT: a. Powerful Vasoconstriction b. inducing cardiac hypertrophy and remodeling c. Increasing biosynthesis and secretion of aldosterone d. Decreasing the release of noradrenaline" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("angiotensin II noradrenaline release") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.6.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other renal/diuretic pharmacology concepts minted from the same source.
+
+---
+
+# Item
+## id
+CON-FND-B8F8442BE9266F
+## label
+Thiazide diuretics block the Na+/Cl- transporter in the distal convoluted tubule
+## canonical_key
+thiazide-diuretics.site-of-action.distal-convoluted-tubule
+## aliases
+Thiazide site of action
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thiazide diuretics are well absorbed orally but must be secreted into the proximal convoluted tubule by the organic acid secretory system to act; their actual site of action, and moderate efficacy, comes from blocking the sodium/chloride transporter in the distal convoluted tubule. This produces increased luminal sodium and chloride reaching the late distal tubule, where part of the sodium is reabsorbed in exchange for potassium and hydrogen ions -- the mechanism behind thiazides' characteristic hypokalemia and alkalosis.
+## explicit_objective
+Name the distal convoluted tubule as the site of thiazide diuretic action, distinguishing it from the tubule segment they are secreted into (proximal) and from loop/collecting-tubule diuretic sites.
+## pitfalls
+Confusing where a thiazide is secreted (proximal convoluted tubule, via the organic acid secretory system) with where it acts (distal convoluted tubule).
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Renal and cardiovascular pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics > Thiazide Diuretics
+## article_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-D59525994744D4
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-THIAZIDE-DCT-SITE-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The site of action of thiazide diuretics is: a. The proximal convoluted tubules. b. The distal convoluted tubules. c. The thick ascending loop of Henle. d. The collecting tubules." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("thiazide diuretics distal convoluted tubule") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.7.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-D59525994744D4 (hydrochlorothiazide hypercalciuria), the other thiazide concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-AF26F3F3A0D7BF
+## label
+Mannitol, an intravenous osmotic diuretic, lowers intracerebral and intraocular pressure by creating an osmotic gradient that draws water out of tissue
+## canonical_key
+mannitol.osmotic-diuretic.cerebral-edema
+## aliases
+Osmotic diuretic mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mannitol is an osmotic diuretic given intravenously that is inert, not metabolized, and not reabsorbed, so it inhibits water reabsorption throughout the tubule to increase urine volume. The same osmotic-gradient mechanism is used to lower intraocular pressure in glaucoma, lower intracerebral pressure in cerebral edema, and increase urine flow in acute renal failure.
+## explicit_objective
+Explain mannitol's osmotic mechanism and its use to rapidly lower intracerebral pressure in cerebral edema, distinct from loop, thiazide or potassium-sparing diuretics.
+## pitfalls
+Assuming any diuretic used for edema can substitute for mannitol in an intracranial-pressure emergency -- only the osmotic mechanism produces the rapid, tissue-dehydrating gradient needed here.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Renal and cardiovascular pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics > Osmotic Diuretics
+## article_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.7
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-MANNITOL-CEREBRAL-EDEMA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following diuretics would be most useful to lower Intracerebral pressure in a comatose patient with brain Injury and cerebral edema? a. Amiloride b. Ethacrynic acid c. Furosemide d. Mannitol" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("mannitol cerebral edema intracranial pressure") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.8.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other diuretic-class concepts minted from the same source.
+
+---
+
+# Item
+## id
+CON-FND-D59525994744D4
+## label
+Thiazide diuretics decrease calcium excretion (useful in idiopathic hypercalciuria and renal calcium stones), the reverse of loop diuretics' calcium-wasting effect
+## canonical_key
+hydrochlorothiazide.decreased-calcium-excretion.hypercalciuria
+## aliases
+Thiazide calcium-sparing effect
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thiazide diuretics such as hydrochlorothiazide cause hypercalcemia by enhancing passive calcium reabsorption from the proximal convoluted tubule and sodium/calcium exchange from the distal convoluted tubule -- decreasing calcium excretion. This is therapeutically useful in idiopathic hypercalciuria and renal calcium stones, and it is the reverse of loop diuretics, which decrease calcium reabsorption and increase urinary calcium excretion.
+## explicit_objective
+Explain that thiazide diuretics decrease calcium excretion, making them useful for idiopathic hypercalciuria and renal calcium stones, in contrast to loop diuretics' calcium-wasting effect.
+## pitfalls
+Confusing thiazide diuretics' calcium-sparing effect with loop diuretics' calcium-wasting one -- the two diuretic classes move urinary calcium in opposite directions.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Renal and cardiovascular pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics > Thiazide Diuretics
+## article_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-B8F8442BE9266F
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-THIAZIDE-HYPERCALCIURIA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following diuretics decreases calcium excretion and thus could be used in the treatment of idiopathic hypercalcuria and renal calcium stones? a. Furosemide b. Spironolactone C. Hydrochlorothiazide d. Mannitol" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("hydrochlorothiazide hypercalciuria") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.7.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-B8F8442BE9266F (thiazide site of action), the other thiazide concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-6D459888D3658B
+## label
+Triamterene and amiloride directly block collecting-tubule sodium channels, independent of aldosterone, unlike spironolactone's aldosterone-receptor antagonism
+## canonical_key
+triamterene.aldosterone-independent-potassium-sparing
+## aliases
+Triamterene mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Triamterene and amiloride are direct inhibitors of sodium influx, blocking epithelial sodium channels in the cortical collecting tubule; this blockade is effective even in the absence of aldosterone. Spironolactone, eplerenone and finerenone, by contrast, are competitive antagonists of the aldosterone receptor -- their potassium-sparing action depends on occupying that receptor, and spironolactone additionally carries anti-androgenic effects (gynecomastia, impotence) that triamterene lacks.
+## explicit_objective
+Distinguish triamterene/amiloride's direct, aldosterone-independent blockade of collecting-tubule sodium channels from spironolactone's aldosterone-receptor-antagonist mechanism and anti-androgenic side effects.
+## pitfalls
+Assuming both potassium-sparing diuretic classes work the same way because they share an electrolyte effect -- their mechanisms (direct channel block vs receptor antagonism) and side-effect profiles are genuinely different.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Renal and cardiovascular pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics > Potassium-Sparing Diuretics
+## article_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-TRIAMTERENE-ALDOSTERONE-INDEPENDENT-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Although both spironolactone and triamterene are potassium sparing diuretics, triamterene differs in that: a. It has a greater natriuretic action. b. It induces powerful anti-androgenic effects. C. Its K retaining action is not dependent on the presence of aldosterone. d. It acts from the luminal membrane side of the proximal tubular cells." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("triamterene aldosterone independent") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.8.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other diuretic-class concepts minted from the same source.
+
+---
+
+# Item
+## id
+CON-FND-8CDAE2FC566F9E
+## label
+Loop diuretics such as furosemide carry an ototoxicity risk, especially in renal insufficiency or with concurrent ototoxic drugs
+## canonical_key
+furosemide.ototoxicity
+## aliases
+Loop diuretic ototoxicity
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Loop diuretics (furosemide, torsemide, ethacrynic acid) cause ototoxicity, especially in renal insufficiency or with concurrent use of other ototoxic drugs such as gentamicin -- an adverse effect distinct from, and specific to, the loop diuretic class among the diuretics, not shared by thiazides, potassium-sparing agents or carbonic anhydrase inhibitors.
+## explicit_objective
+Identify loop diuretics (furosemide) as the diuretic class carrying ototoxicity risk, and state the factors (renal insufficiency, concurrent ototoxic drugs) that increase it.
+## pitfalls
+Attributing ototoxicity to thiazide diuretics -- that class's own adverse-effect profile is electrolyte and metabolic (hypokalemia, hyperuricemia, hyperglycemia, hyperlipidemia), not ototoxic; ototoxicity is specific to loop diuretics.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Renal and cardiovascular pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Diuretics > Loop Diuretics
+## article_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-FUROSEMIDE-OTOTOXICITY-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following diuretics has ototoxic effect and could result in deafness? a. Furosemide b. Amiloride c. Hydrochlorothiazide d. Acetazolamide" ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("furosemide ototoxicity deafness") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.7 ("Loop Diuretics cause Ototoxicity, especially in renal insufficiency or with concurrent ototoxic drugs like Gentamicin"). This same page's explicit thiazide adverse-effect list (Hypovolemia, Hyponatremia, Hypochloremia, Hypokalemia, Hypomagnesemia, Alkalosis, Hypercalcemia, Hyperglycemia, Hyperuricemia, Hyperlipidemia -- no ototoxicity) is the direct source contradiction behind holding 2023eom-q89 (the same fact tested from the thiazide side, where the printed key names deafness).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Directly grounds why 2023eom-q89 (thiazide deafness) is held -- this concept's own source page names ototoxicity as a loop-diuretic-specific effect.
+
+---
+
+# Item
+## id
+CON-FND-70B7E26AAEE307
+## label
+ACE inhibitors raise cardiac output in heart failure through afterload/preload reduction, not through a direct inotropic action
+## canonical_key
+aceinhibitors.increase-cardiac-output-without-inotropy
+## aliases
+ACE inhibitor non-inotropic cardiac output
+## arabic_label
+
+## arabic_aliases
+
+## definition
+ACE inhibitors such as captopril decrease angiotensin II formation, producing arteriolar vasodilation that decreases total peripheral resistance and afterload, and mild venous vasodilation that decreases venous return, end-diastolic volume and preload. Through this preload/afterload reduction, cardiac output is maintained or improved in heart failure -- a route to higher cardiac output that does not depend on any direct effect on myocardial contractility, unlike digoxin, isoproterenol or (to a lesser extent) theophylline.
+## explicit_objective
+Explain that ACE inhibitors increase cardiac output in heart failure via afterload/preload reduction rather than direct inotropy, distinguishing this mechanism from true inotropic agents.
+## pitfalls
+Assuming any drug that raises cardiac output in heart failure must be acting on the heart directly -- an ACE inhibitor raises it purely by unloading the heart (reducing the resistance and volume it must pump against), with no direct contractile effect.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Renal and cardiovascular pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Angiotensin-Converting Enzyme Inhibitors
+## article_ids
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ACEI-CARDIAC-OUTPUT-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following medications is the most likely to increase the cardiac output in a heart failure patient without having an inotropic action? a. Captopril b. Digoxin c. Isoproterenol d. Theophylline" ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("aceinhibitors increase cardiac output without inotropy") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.9.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Precursor to the fuller ACE-inhibitor cluster (adverse effects, renal-impairment dosing) authored in a later batch.
