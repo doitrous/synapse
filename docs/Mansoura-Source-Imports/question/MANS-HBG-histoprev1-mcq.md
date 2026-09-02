@@ -1,0 +1,5812 @@
+<!--
+  MANS-HBG · Histology/Genetics — authored from Histo Previous MCQ Exams Final.pdf (دفعة 63 Exams block, Q1-40), keys read from the printed answer-letter column, p.2-9, by render.
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q01
+
+## title
+Enzyme marker of mitochondria
+
+## question
+Succinic dehydrogenase enzyme is a marker of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Golgi apparatus
+
+## explanation_a
+Incorrect. The Golgi apparatus is identified histochemically by its own marker enzymes, such as thiamine pyrophosphatase, not by succinic dehydrogenase. It is also visualised by silver impregnation rather than an enzyme histochemical reaction tied to the citric acid cycle. Succinic dehydrogenase belongs to a different organelle's identification scheme entirely.
+
+## answer_b
+Free ribosomes
+
+## explanation_b
+Incorrect. Free ribosomes have no marker enzyme of this kind; they are identified structurally, as basophilic particles or rosettes, not by a specific histochemical enzyme reaction. Succinic dehydrogenase activity is not associated with them.
+
+## answer_c
+Attached ribosomes
+
+## explanation_c
+Incorrect. Attached (rough-ER-bound) ribosomes are likewise identified by their position on the rough endoplasmic reticulum, not by succinic dehydrogenase activity. Their marker is structural (attachment to membrane), not enzymatic.
+
+## answer_d
+Lysosomes
+
+## explanation_d
+Incorrect. Lysosomes are demonstrated histochemically by acid phosphatase activity, a different marker enzyme entirely. Confusing the two organelles' marker enzymes is a common exam trap. Succinic dehydrogenase points to the mitochondrion, not the lysosome.
+
+## answer_e
+Mitochondria
+
+## explanation_e
+Correct. Succinic dehydrogenase is an enzyme of the citric acid cycle, located on the inner mitochondrial membrane, and its histochemical demonstration is used as a specific marker for mitochondria. This is one of several organelle-marker-enzyme pairings basic histology teaches alongside acid phosphatase for lysosomes and thiamine pyrophosphatase for Golgi. Recognising which marker enzyme belongs to which organelle is the recurring exam pattern here.
+
+## topic
+Histology
+
+## subtopic
+Cell organelles
+
+## main_concept
+CON-FND-F1914E2CE56EBF
+
+## concept_ids
+CON-FND-F1914E2CE56EBF
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cell organelles
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-MITOCHONDRIA-AND-CYTOSKELETON
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify succinic dehydrogenase as a histochemical marker enzyme for mitochondria.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.2
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.2
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q02
+
+## title
+Organelle causing cytoplasmic basophilia
+
+## question
+Which of the following organelles causes basophilia of the cytoplasm?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Smooth Endoplasmic Reticulum
+
+## explanation_a
+Incorrect. Smooth endoplasmic reticulum has no bound ribosomes and produces acidophilia, not basophilia, when it is abundant in a cell. Its lack of ribosomes is exactly why it cannot be the answer here.
+
+## answer_b
+Golgi apparatus
+
+## explanation_b
+Incorrect. The Golgi apparatus is negative (unstained) on routine H&E and is not what makes cytoplasm basophilic; it typically appears as a pale area next to the nucleus. It carries no ribosomes to produce a basophilic reaction.
+
+## answer_c
+Mitochondria
+
+## explanation_c
+Incorrect. Mitochondria stain with acidic dyes and contribute to eosinophilia in some cell types, not to basophilia. They contain no ribosomal RNA of the kind that colours cytoplasm blue.
+
+## answer_d
+Lysosomes
+
+## explanation_d
+Incorrect. Lysosomes are not demonstrated on routine H&E and play no role in cytoplasmic basophilia. Like mitochondria, they carry no ribosomes.
+
+## answer_e
+Ribosomes
+
+## explanation_e
+Correct. Ribosomes are made of ribosomal RNA and protein, and the phosphate groups of that RNA are acidic, which is what makes ribosome-rich cytoplasm stain basophilic with haematoxylin. This applies whether the ribosomes are free (giving diffuse or focal basophilia) or attached to rough ER. The more ribosomes a cell packs in, the more basophilic its cytoplasm appears.
+
+## topic
+Histology
+
+## subtopic
+Cell organelles
+
+## main_concept
+CON-FND-1D529ACEC2E2F3
+
+## concept_ids
+CON-FND-1D529ACEC2E2F3
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cell organelles
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-SECRETORY-PATHWAY-ORGANELLES
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that ribosomal RNA's phosphate content is what makes ribosome-rich cytoplasm basophilic.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.2
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.2
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q03
+
+## title
+Organelle for calcium release/reuptake in muscle
+
+## question
+Which of the following organelles is involved in calcium release and reuptake in muscle cells?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Smooth Endoplasmic Reticulum
+
+## explanation_a
+Correct. In muscle cells the smooth endoplasmic reticulum is specialised as the sarcoplasmic reticulum, a calcium-storing membranous network that releases calcium to trigger contraction and pumps it back to relax the fibre. This is one of the tissue-specific jobs smooth ER performs alongside its general roles in lipid and steroid synthesis. The organelle's identity does not change between tissues, only which of its jobs is emphasised.
+
+## answer_b
+Rough Endoplasmic Reticulum
+
+## explanation_b
+Incorrect. Rough endoplasmic reticulum, studded with ribosomes, is dedicated to synthesising and segregating exported protein, not to calcium storage. Its ribosome coat is the visual clue that rules it out here.
+
+## answer_c
+Golgi apparatus
+
+## explanation_c
+Incorrect. The Golgi apparatus packages and modifies protein for secretion; it is not the calcium reservoir of the muscle cell. That role belongs to the smooth ER/sarcoplasmic reticulum instead.
+
+## answer_d
+Mitochondria
+
+## explanation_d
+Incorrect. Mitochondria can buffer some intracellular calcium but are not the organelle responsible for the rapid, regulated calcium release and reuptake that drives excitation-contraction coupling. That fast cycling is the sarcoplasmic reticulum's specific job.
+
+## answer_e
+Centrioles
+
+## explanation_e
+Incorrect. Centrioles organise the mitotic spindle and basal bodies; they have no role in calcium handling. They are unrelated to the contractile apparatus entirely.
+
+## topic
+Histology
+
+## subtopic
+Cell organelles
+
+## main_concept
+CON-FND-0B3CC0A79F9150
+
+## concept_ids
+CON-FND-0B3CC0A79F9150
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cell organelles
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify smooth endoplasmic reticulum (sarcoplasmic reticulum in muscle) as the organelle handling calcium release and reuptake.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.2
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.2
+The reused concept's own definition centers on smooth ER's steroid/lipid-synthesis role; the muscle-specific calcium-storage function (sarcoplasmic reticulum) is the same organelle-identification teaching point but not spelled out verbatim in that concept's text.
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q04
+
+## title
+Organelle for initial protein glycosylation
+
+## question
+Which organelle is concerned with initial glycosylation of protein?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Ribosomes
+
+## explanation_a
+Incorrect. Ribosomes synthesise the polypeptide chain itself; glycosylation is a modification added afterward, in the cisternal lumen of a different organelle. The ribosome's job ends once the chain is built.
+
+## answer_b
+Lysosomes
+
+## explanation_b
+Incorrect. Lysosomes are the destination for enzymes that have already been made and packaged; they do not perform initial glycosylation. That step happens far earlier in the secretory pathway.
+
+## answer_c
+SER
+
+## explanation_c
+Incorrect. Smooth endoplasmic reticulum lacks bound ribosomes and is concerned with lipid and steroid metabolism, not with the initial glycosylation step of an exported protein. It is the rough, not the smooth, ER that does this.
+
+## answer_d
+RER
+
+## explanation_d
+Correct. The rough endoplasmic reticulum synthesises exported protein and, in the same step, segregates it into its lumen and performs its initial glycosylation before packing it into transfer vesicles bound for the Golgi apparatus. Further glycosylation steps are then completed in the Golgi. This sequence is a standard exam pathway to know in order.
+
+## answer_e
+Mitochondria
+
+## explanation_e
+Incorrect. Mitochondria generate ATP and hold their own DNA; they play no part in glycosylating a secreted protein. Their function is unrelated to the secretory pathway.
+
+## topic
+Histology
+
+## subtopic
+Cell organelles
+
+## main_concept
+CON-FND-0E38E21957DB05
+
+## concept_ids
+CON-FND-0E38E21957DB05
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cell organelles
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that the rough endoplasmic reticulum performs a secreted protein's initial glycosylation.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.2
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.2
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q05
+
+## title
+Protein forming the cleavage furrow
+
+## question
+Which of the followings form the cleavage furrow during cell division?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Actin
+
+## explanation_a
+Correct. The microfilament, built of two coiled chains of actin, forms a contractile ring beneath the plasma membrane that pinches the cell in two at the cleavage furrow, the final step of cell division. This is a distinct function of actin from the mitotic spindle itself, which is built of microtubules. Handing the spindle's job to actin, or the furrow's job to tubulin, is the classic mix-up this question guards against.
+
+## answer_b
+Myosin
+
+## explanation_b
+Incorrect. Myosin partners with actin in muscle contraction and, together with actin, in the contractile ring of some non-muscle cells, but the filament naming this question tests (thin filament, cleavage furrow core) is actin, not myosin alone. Myosin is the thick-filament partner, a related but separate fact.
+
+## answer_c
+Tubulin
+
+## explanation_c
+Incorrect. Tubulin builds the microtubules of the mitotic spindle, which separates the chromosomes, a different structure and a different stage from the actin-based cleavage furrow that follows it. Confusing the spindle's protein with the furrow's is the classic exam trap.
+
+## answer_d
+Desmin
+
+## explanation_d
+Incorrect. Desmin is an intermediate filament protein of muscle cells, providing structural support, not a contractile ring protein. It plays no role in dividing the cell in two.
+
+## answer_e
+Cytokeratin
+
+## explanation_e
+Incorrect. Cytokeratin is the intermediate filament protein of epithelial cells and plays no part in the cleavage furrow. Like desmin, it is a structural, not a contractile, filament.
+
+## topic
+Histology
+
+## subtopic
+Cytoskeleton
+
+## main_concept
+CON-FND-DAF4EB4BC63077
+
+## concept_ids
+CON-FND-DAF4EB4BC63077
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cytoskeleton
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that the actin microfilament forms the contractile ring at the cleavage furrow of cell division.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.2
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.2
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q06
+
+## title
+Structure of the sperm tail
+
+## question
+Which of the followings represents the structure of the tail of the sperm?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+9 peripheral doublets and 2 singlets of microtubules
+
+## explanation_a
+Correct. The sperm tail is a flagellum built on the same 9+2 axoneme as a motile cilium: nine peripheral doublets of microtubules arranged around a central pair of single microtubules, with dynein arms on the doublets producing the beat. The flagellum is simply a much longer version of this same axoneme, long enough to move the whole cell rather than fluid over the cell surface. The dynein arms are what convert the microtubule scaffold into an actively beating structure.
+
+## answer_b
+7 triplets of microtubules
+
+## explanation_b
+Incorrect. Nine triplets with no central pair is the centriole's structure, not the axoneme of a cilium or flagellum. The two structures are built by the same protein but arranged differently.
+
+## answer_c
+9 singlets and 2 peripheral of doublets microtubules
+
+## explanation_c
+Incorrect. This reverses the correct arrangement: the nine peripheral units are doublets, and it is the two central units that are singlets, not the other way round. Getting the doublet/singlet placement backwards is the trap this option sets.
+
+## answer_d
+9 bundles of intermediate filaments
+
+## explanation_d
+Incorrect. The axoneme is built of microtubules, not intermediate filaments; intermediate filaments play no part in ciliary or flagellar motility. Motility specifically depends on the microtubule doublets and their dynein arms.
+
+## answer_e
+9 triplets and 2 singlets of microtubules
+
+## explanation_e
+Incorrect. Nine triplets belongs to the centriole, and the sperm tail's axoneme has two central singlets, not two central triplets. This option combines two separate wrong details into one distractor.
+
+## topic
+Histology
+
+## subtopic
+Cytoskeleton
+
+## main_concept
+CON-FND-0FAE59E00B748E
+
+## concept_ids
+CON-FND-0FAE59E00B748E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cytoskeleton
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State the 9+2 microtubule arrangement of the axoneme shared by the cilium and the sperm-tail flagellum.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.3
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.3
+Reused concept teaches the cilium's 9+2 axoneme; the sperm tail (flagellum) shares the identical axoneme structure, so the same organelle-identification fact is being tested in a different named structure.
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q07
+
+## title
+Endogenous pigment
+
+## question
+Which of the followings is an endogenous pigment?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Carotene
+
+## explanation_a
+Incorrect. Carotene is taken in from plant food and is therefore an exogenous pigment, not one made by the body itself. It is grouped with dust and tattoo dye as an outside-sourced pigment.
+
+## answer_b
+Dust
+
+## explanation_b
+Incorrect. Dust is inhaled particulate matter from outside the body, an exogenous pigment carried into tissue macrophages. It is never synthesised by the body's own cells.
+
+## answer_c
+Hemoglobin
+
+## explanation_c
+Correct. Endogenous pigments are those the body makes itself, and haemoglobin, along with melanin and lipofuscin, is a standard example. Its colour comes from the body's own iron-porphyrin chemistry, not from anything ingested or applied from outside. Sorting a pigment into endogenous or exogenous is exactly what this question tests.
+
+## answer_d
+Minerals
+
+## explanation_d
+Incorrect. Inhaled or ingested minerals are exogenous pigments, brought into the body from the environment rather than synthesised by it. They accumulate in tissue rather than being produced by it.
+
+## answer_e
+Tattoo marks
+
+## explanation_e
+Incorrect. Tattoo dye is deliberately introduced from outside the body, the clearest possible example of an exogenous pigment. It shares that outside origin with carotene, dust and minerals.
+
+## topic
+Histology
+
+## subtopic
+Cell inclusions
+
+## main_concept
+CON-FND-2560DB7970AF40
+
+## concept_ids
+CON-FND-2560DB7970AF40
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cell inclusions
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Sort a named pigment into the endogenous or exogenous class.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.3
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.3
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q08
+
+## title
+Stage of synapsis in meiosis
+
+## question
+Which stage does synapsis occur during meiosis?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Leptotene
+
+## explanation_a
+Incorrect. Leptotene is the first substage, in which the chromosomes merely condense into visible threads; homologous pairing has not yet begun. Pairing is what defines the next substage, zygotene, instead.
+
+## answer_b
+Zygotene
+
+## explanation_b
+Correct. Synapsis, the intimate pairing of homologous chromosomes along their length, defines the zygotene substage of meiotic prophase I. It is held together by a protein scaffold, the synaptonemal complex, and it is what makes the subsequent exchange of material between homologs possible. Ordering the five substages correctly is exactly what this question tests.
+
+## answer_c
+Diakinesis
+
+## explanation_c
+Incorrect. Diakinesis is the last substage of prophase I, when condensation finishes and the nuclear envelope breaks down, well after synapsis has already occurred. Synapsis happens three substages earlier.
+
+## answer_d
+Metaphase 1
+
+## explanation_d
+Incorrect. Metaphase 1 follows prophase I entirely; by this point the paired homologs are aligning at the metaphase plate, not pairing for the first time. Pairing itself happened back in zygotene.
+
+## answer_e
+Diplotene
+
+## explanation_e
+Incorrect. Diplotene is when the paired homologs begin to separate again, after both synapsis and crossing over have already taken place. It is two substages later than the pairing event itself.
+
+## topic
+Genetics
+
+## subtopic
+Meiosis
+
+## main_concept
+CON-FND-F49B945283FD0E
+
+## concept_ids
+CON-FND-F49B945283FD0E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Genetics > Meiosis
+
+## question_only_for
+
+## library_ids
+ART-MANS-HBG-MEIOSIS-PROPHASE-I-SUBSTAGES
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Name zygotene as the substage of meiotic prophase I at which synapsis (homologous chromosome pairing) occurs.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.3
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.3
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q09
+
+## title
+Chromosome number in G1
+
+## question
+The number of chromosomes in G1 stage of interphase is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+92-s
+
+## explanation_a
+Incorrect. 92 chromosomes never occurs in a normal cell; this option confuses a doubled chromatid count with a doubled chromosome count. The chromosome number stays 46 throughout the normal cell cycle.
+
+## answer_b
+46-s
+
+## explanation_b
+Correct. G1 comes before DNA replication (S-phase), so the cell still holds the normal diploid 46 chromosomes, each a single chromatid, written 46-s. Only after S-phase does each of these same 46 chromosomes become a double-chromatid (46-d) structure. G1's position before replication is the key fact this question tests.
+
+## answer_c
+23-s
+
+## explanation_c
+Incorrect. 23 is the haploid chromosome number reached only after meiosis, not the somatic-cell G1 count. G1 is a somatic-cell-cycle stage, not a meiotic product.
+
+## answer_d
+92-d
+
+## explanation_d
+Incorrect. 92-d would describe 92 double-chromatid chromosomes, which never occurs; the chromosome count stays 46 through the whole cell cycle, only the chromatid count per chromosome changes. This option compounds two separate errors.
+
+## answer_e
+46-d
+
+## explanation_e
+Incorrect. 46-d is the notation for after S-phase replication (G2 and mitotic prophase/metaphase), not for G1, which precedes replication. Confusing G1 with G2/mitosis is the trap this option sets.
+
+## topic
+Genetics
+
+## subtopic
+Karyotype and chromosome notation
+
+## main_concept
+CON-FND-364ACA29FFDBF4
+
+## concept_ids
+CON-FND-364ACA29FFDBF4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Genetics > Karyotype
+
+## question_only_for
+
+## library_ids
+ART-MANS-HBG-KARYOTYPE-NORMAL-CHROMOSOME-NOTATION
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State the chromosome/chromatid notation (46-s) for a somatic cell in G1, before DNA replication.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.3
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.3
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q10
+
+## title
+Terminal end of the chromatid
+
+## question
+The terminal end of the chromatid is called:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Centromere
+
+## explanation_a
+Incorrect. The centromere is the primary constriction where the spindle grips the chromosome, not the terminal end of a chromatid. Its position, not the tip, is what defines it.
+
+## answer_b
+Telomere
+
+## explanation_b
+Correct. The telomere is the repeated DNA sequence that caps each end of a chromatid, protecting it from degradation and from fusing with other chromosome ends. It is distinct from the kinetochore, the structure at the centromere where the spindle grips the chromosome. Telomere shortening with each division is also linked to cellular ageing.
+
+## answer_c
+Satellite
+
+## explanation_c
+Incorrect. A satellite is a small chromosomal segment separated from the main body by a secondary constriction, a different structure from the terminal cap itself. It sits near, not at, the very end of the chromatid.
+
+## answer_d
+Secondary constriction
+
+## explanation_d
+Incorrect. A secondary constriction is a narrowing elsewhere along the chromosome arm, not the structure at the very end of the chromatid. It is where a satellite, if present, attaches.
+
+## answer_e
+Acrocentric
+
+## explanation_e
+Incorrect. Acrocentric describes a chromosome shape (centromere near one end), not a structure found at the chromatid's terminal end. It classifies the whole chromosome, not a specific structure.
+
+## topic
+Genetics
+
+## subtopic
+Chromosome structure
+
+## main_concept
+CON-FND-EB83F2B16C479F
+
+## concept_ids
+CON-FND-EB83F2B16C479F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Genetics > Chromosome structure
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-NUCLEUS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Name the telomere as the structure capping the terminal end of a chromatid.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.3
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.3
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q11
+
+## title
+Female with one X chromosome
+
+## question
+The condition in which female has one X chromosome is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Cri du chat
+
+## explanation_a
+Incorrect. Cri du chat is a partial deletion of the short arm of chromosome 5, not a sex-chromosome condition. It affects either sex and does not describe a single-X karyotype.
+
+## answer_b
+Down syndrome
+
+## explanation_b
+Incorrect. Down syndrome is trisomy 21, an extra autosome, unrelated to sex chromosome number. It is a numerical autosomal, not sex-chromosome, aberration.
+
+## answer_c
+Turner's syndrome
+
+## explanation_c
+Correct. Turner syndrome affects females and has an XO constitution — a single X chromosome and no second sex chromosome. This gives 45 chromosomes in total, and the genital system is underdeveloped. It is the standard exam example of monosomy X.
+
+## answer_d
+YY syndrome
+
+## explanation_d
+Incorrect. "YY syndrome" as such does not occur in a viable karyotype in the way the option implies; a Y chromosome without an X is not a recognised viable human condition. It is a distractor with no real karyotype behind it.
+
+## answer_e
+Multiple X syndrome
+
+## explanation_e
+Incorrect. Multiple X syndrome (47,XXX) is an extra X chromosome, the opposite of Turner syndrome's missing one. The two are deliberately paired as opposite-direction distractors.
+
+## topic
+Genetics
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-FND-5097CA5BAB2E51
+
+## concept_ids
+CON-FND-5097CA5BAB2E51
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Genetics > Chromosomal syndromes
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-NUCLEUS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify Turner syndrome (45,XO) as the condition of a female with a single X chromosome.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.4
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.4
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q12
+
+## title
+Site of simple columnar ciliated epithelium
+
+## question
+What is the site of simple columnar ciliated epithelium?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Nasal sinuses
+
+## explanation_a
+Incorrect. The nasal sinuses are lined by pseudostratified ciliated columnar epithelium with goblet cells, a different (taller, multi-row) epithelium from simple columnar. Pseudostratified epithelium looks layered but is not truly a simple epithelium.
+
+## answer_b
+Trachea
+
+## explanation_b
+Incorrect. The trachea is also lined by pseudostratified ciliated columnar epithelium, the classic respiratory-tract lining, not a simple columnar one. It shares this lining with the rest of the conducting airway.
+
+## answer_c
+Eustachian tube
+
+## explanation_c
+Incorrect. The Eustachian tube likewise carries pseudostratified ciliated columnar epithelium along most of its length, distractor territory for this question rather than the answer. It groups with the nasal sinuses and trachea, not with the correct answer.
+
+## answer_d
+Uterus
+
+## explanation_d
+Correct. The printed key names the uterus for a simple columnar ciliated epithelium; the standard exam-bank example of this exact lining (simple columnar, ciliated, no goblet cells) is the uterine (Fallopian) tube, and the option here is understood as testing that same site. Distinguishing it from the taller pseudostratified linings of the other options is the point of the question.
+
+## answer_e
+Intestine
+
+## explanation_e
+Incorrect. The intestine is lined by simple columnar epithelium, but with a striated (microvillous) border for absorption, not with cilia. Absorptive function, not ciliary movement, is what its epithelium is built for.
+
+## topic
+Histology
+
+## subtopic
+Epithelium classification
+
+## main_concept
+CON-FND-626225395CE7C5
+
+## concept_ids
+CON-FND-626225395CE7C5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Epithelium
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-HCB-EPITHELIUM-CLASSIFICATION
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify the uterine (Fallopian) tube as the classic site of simple columnar ciliated epithelium, without goblet cells.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.4
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.4
+Printed key reads option D, "Uterus" — the standard teaching site for this exact epithelium (simple columnar ciliated, no goblet cells) is the uterine/Fallopian tube, so the option is treated as a shorthand for that site rather than the uterine body/endometrium proper. Printed key followed per lane rule; doubt flagged here rather than silently corrected.
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q13
+
+## title
+Endocrine gland
+
+## question
+Which one of the following is an endocrine gland?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Sebaceous gland
+
+## explanation_a
+Incorrect. The sebaceous gland releases sebum through a duct into the hair follicle, making it exocrine, not endocrine. Having a duct at all rules it out here.
+
+## answer_b
+Salivary gland
+
+## explanation_b
+Incorrect. The salivary gland releases saliva through a duct system into the mouth, another exocrine example among the distractors. It shares the duct-bearing pattern with the other wrong options.
+
+## answer_c
+Sweat gland
+
+## explanation_c
+Incorrect. The sweat gland releases its secretion through a duct that opens onto the skin surface (or into a hair follicle for the apocrine type), so it too is exocrine. Its duct is what disqualifies it from being endocrine.
+
+## answer_d
+Ceruminous gland
+
+## explanation_d
+Incorrect. The ceruminous gland of the external ear releases earwax through a duct, making it exocrine like the other skin-associated glands in this list. It follows the same duct-bearing pattern as the sebaceous and sweat glands.
+
+## answer_e
+Pituitary gland
+
+## explanation_e
+Correct. The pituitary gland has no duct: it releases its hormones directly into the surrounding capillaries for distribution by the blood, the defining feature of an endocrine gland, unlike the four duct-bearing exocrine glands offered as distractors. This duct-versus-no-duct distinction is exactly what the question tests.
+
+## topic
+Histology
+
+## subtopic
+Glands
+
+## main_concept
+CON-FND-1B037A042672DF
+
+## concept_ids
+CON-FND-1B037A042672DF
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Glands
+
+## question_only_for
+
+## library_ids
+ART-MANS-HBG-GLAND-ENDOCRINE-VS-EXOCRINE
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify the pituitary gland as endocrine (ductless) against a list of duct-bearing exocrine skin glands.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.4
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.4
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q14
+
+## title
+Direct ion passage between osteocytes
+
+## question
+Which of the following allows direct passage of ions between the osteocytes?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Zonula occludens
+
+## explanation_a
+Incorrect. The zonula occludens (tight junction) seals the intercellular space against passage of material; it does not let ions through between cells. Sealing, not conducting, is its job.
+
+## answer_b
+Fascia occludens
+
+## explanation_b
+Incorrect. A fascia occludens is a beltless, discontinuous version of the tight junction, also sealing rather than permitting intercellular passage. It shares the tight junction's sealing function, not a channel function.
+
+## answer_c
+Macula adherens
+
+## explanation_c
+Incorrect. The macula adherens (desmosome) is a spot-weld anchoring intermediate filaments; it provides mechanical strength, not a channel for ions. Adhesion, not communication, is its purpose.
+
+## answer_d
+Zonula adherens
+
+## explanation_d
+Incorrect. The zonula adherens anchors actin filaments in a belt around the cell for mechanical adhesion, again with no channel function. It reinforces the cell mechanically rather than connecting cells electrically.
+
+## answer_e
+Gap junctions
+
+## explanation_e
+Correct. The gap junction is the only junction type material passes through: paired channels of six subunits each, one from each of two adjacent cells, that carry ions, small molecules and electrical impulses directly between the cells, including between osteocytes across their canaliculi. This is what lets bone cells communicate metabolically despite being embedded in mineralised matrix.
+
+## topic
+Histology
+
+## subtopic
+Cell junctions
+
+## main_concept
+CON-FND-ACB35745EC9A5D
+
+## concept_ids
+CON-FND-ACB35745EC9A5D
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cell junctions
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify the gap junction as the cell junction that allows direct ion passage between cells, including osteocytes.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.4
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.4
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q15
+
+## title
+Connective tissue cell stained vitally by trypan blue
+
+## question
+Which of the following connective tissue cells is stained vitally by trypan blue?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Mast cells
+
+## explanation_a
+Incorrect. Mast cells are identified by their metachromatic granules on special stains, not by vital dye uptake. Their granules, not phagocytosis, are their defining feature.
+
+## answer_b
+Plasma cells
+
+## explanation_b
+Incorrect. Plasma cells are recognised by their cart-wheel nucleus and basophilic cytoplasm on fixed sections, not by trypan blue. They are not a phagocytic cell type.
+
+## answer_c
+Fibroblasts
+
+## explanation_c
+Incorrect. Fibroblasts are the ordinary spindle-shaped cell of connective tissue and are not phagocytic, so they do not take up a vital dye the way a phagocyte does. They synthesise matrix rather than ingesting particles.
+
+## answer_d
+Macrophages
+
+## explanation_d
+Correct. The macrophage, arising from the blood monocyte and fixed in connective tissue as the histiocyte, is a highly phagocytic cell demonstrated by vital stains such as trypan blue or India ink, both of which it actively takes up. This phagocytic uptake is precisely what a vital stain is designed to reveal.
+
+## answer_e
+Adipose cells
+
+## explanation_e
+Incorrect. Adipose cells store fat and are identified by their signet-ring appearance after fat is dissolved out in processing, not by vital staining. They are not phagocytic cells.
+
+## topic
+Histology
+
+## subtopic
+Connective tissue cells
+
+## main_concept
+CON-FND-45A380D5F6A77F
+
+## concept_ids
+CON-FND-45A380D5F6A77F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Connective Tissue
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify the macrophage as the connective tissue cell demonstrated by vital staining (trypan blue, India ink).
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.4
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.4
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q16
+
+## title
+Autosome pairs in a human buccal epithelial cell
+
+## question
+How many pairs of autosomes are there in the human Buccal epithelial cells?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+22 pairs
+
+## explanation_a
+Correct. A normal human somatic cell carries 46 chromosomes: 44 autosomes, arranged as 22 homologous pairs, plus one pair of sex chromosomes. The buccal epithelial cell, an ordinary diploid somatic cell, follows this same count. This 22-pairs figure is a fact worth memorising directly.
+
+## answer_b
+23 pairs
+
+## explanation_b
+Incorrect. 23 pairs would be the total number of chromosome pairs (autosomes plus the sex-chromosome pair), not the autosome pairs alone. Adding the one sex-chromosome pair to the 22 autosome pairs is what gives 23.
+
+## answer_c
+40 pairs
+
+## explanation_c
+Incorrect. 40 pairs (80 chromosomes) does not correspond to the normal human karyotype at all. It has no basis in the standard count.
+
+## answer_d
+44 pairs
+
+## explanation_d
+Incorrect. 44 is the total autosome count, not the number of autosome pairs; dividing 44 autosomes into homologous pairs gives 22 pairs, the correct answer. Confusing the total count with the pair count is the trap here.
+
+## answer_e
+46 pairs
+
+## explanation_e
+Incorrect. 46 pairs (92 chromosomes) would be double the normal diploid number, confusing a doubled chromatid state with a doubled chromosome count. The chromosome count itself never reaches 92 in a normal cell.
+
+## topic
+Genetics
+
+## subtopic
+Karyotype and chromosome notation
+
+## main_concept
+CON-FND-364ACA29FFDBF4
+
+## concept_ids
+CON-FND-364ACA29FFDBF4
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Genetics > Karyotype
+
+## question_only_for
+
+## library_ids
+ART-MANS-HBG-KARYOTYPE-NORMAL-CHROMOSOME-NOTATION
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that a normal somatic cell has 22 autosome pairs plus one sex-chromosome pair.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.5
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q17
+
+## title
+Organelle identified by acid phosphatase activity
+
+## question
+Which organelle is identified by acid phosphatase enzyme activity?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Golgi apparatus
+
+## explanation_a
+Incorrect. The Golgi apparatus has its own marker enzymes, such as thiamine pyrophosphatase, distinct from acid phosphatase. Confusing these two histochemical reactions is a common exam trap.
+
+## answer_b
+Free ribosomes
+
+## explanation_b
+Incorrect. Free ribosomes are identified structurally, not by a histochemical enzyme reaction. Acid phosphatase activity is not part of how they are recognised.
+
+## answer_c
+Attached ribosomes
+
+## explanation_c
+Incorrect. Attached ribosomes are likewise identified by their location on rough ER, not by acid phosphatase activity. Their position, not an enzyme reaction, is the identifying feature.
+
+## answer_d
+Lysosomes
+
+## explanation_d
+Correct. A lysosome cannot be seen as such in a routine section and needs a histochemical reaction to be identified; acid phosphatase, one of its hydrolytic enzymes, is the standard reaction used to demonstrate it. This is one of the paired organelle/marker-enzyme facts this exam bank repeats.
+
+## answer_e
+Mitochondria
+
+## explanation_e
+Incorrect. Mitochondria are identified by succinic dehydrogenase activity, a different marker enzyme from acid phosphatase. Each organelle in this list has its own distinct marker.
+
+## topic
+Histology
+
+## subtopic
+Cell organelles
+
+## main_concept
+CON-FND-1ACE68A9080772
+
+## concept_ids
+CON-FND-1ACE68A9080772
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cell organelles
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify acid phosphatase as the histochemical marker enzyme for lysosomes.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.5
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q18
+
+## title
+Organelle responsible for cholesterol metabolism
+
+## question
+Which organelle is responsible for cholesterol metabolism?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Smooth Endoplasmic Reticulum
+
+## explanation_a
+Correct. Smooth endoplasmic reticulum is a membranous organelle concerned with lipid and steroid metabolism, well developed in cells that synthesise steroid hormones and process cholesterol, such as liver cells. Its abundance is what produces the acidophilia seen in such cells on light microscopy. This same organelle also handles calcium storage in muscle, one organelle with several tissue-specific jobs.
+
+## answer_b
+Golgi apparatus
+
+## explanation_b
+Incorrect. The Golgi apparatus modifies and packages protein and lipid for export; it is not the site of cholesterol metabolism itself. Synthesis happens upstream, at the smooth ER.
+
+## answer_c
+Mitochondria
+
+## explanation_c
+Incorrect. Mitochondria generate ATP through oxidative metabolism; cholesterol metabolism is a smooth-ER, not a mitochondrial, function in this basic-science framing. Confusing energy production with lipid synthesis is the trap here.
+
+## answer_d
+Lysosomes
+
+## explanation_d
+Incorrect. Lysosomes digest material delivered to them; they are not the organelle responsible for synthesising or processing cholesterol. Their job is degradation, not synthesis.
+
+## answer_e
+Ribosomes
+
+## explanation_e
+Incorrect. Ribosomes synthesise protein, not lipid or cholesterol. Lipid synthesis is a smooth-ER job specifically.
+
+## topic
+Histology
+
+## subtopic
+Cell organelles
+
+## main_concept
+CON-FND-0B3CC0A79F9150
+
+## concept_ids
+CON-FND-0B3CC0A79F9150
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cell organelles
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify smooth endoplasmic reticulum as the organelle responsible for lipid and cholesterol metabolism.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.5
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q19
+
+## title
+Chromosome complement after the first meiotic division
+
+## question
+The daughter cell of 1st meiosis contains ..... chromosomes:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+46-d
+
+## explanation_a
+Incorrect. 46-d describes the primary spermatocyte before the first meiotic division, not its haploid daughter cell. Meiosis I halves the chromosome number, so 46 cannot be the daughter cell's count.
+
+## answer_b
+46-s
+
+## explanation_b
+Incorrect. 46-s is the somatic-cell G1 notation, before any meiotic reduction has occurred. It belongs to a different stage entirely, well before meiosis begins.
+
+## answer_c
+92-s
+
+## explanation_c
+Incorrect. 92-s does not correspond to any normal stage of spermatogenesis. No stage of meiosis reaches a chromosome count that high.
+
+## answer_d
+23-s
+
+## explanation_d
+Incorrect. 23-s would mean 23 single-chromatid chromosomes, but the first meiotic division separates homologous chromosome pairs, not sister chromatids, so each chromosome the daughter cell receives is still double-chromatid. Only meiosis II, not meiosis I, produces single-chromatid chromosomes.
+
+## answer_e
+23-d
+
+## explanation_e
+Correct. The first meiotic division separates homologous chromosomes, not sister chromatids, so the resulting secondary spermatocyte is haploid (23 chromosomes) but each of those chromosomes is still a duplicated, two-chromatid structure, written 23-d, or 46 chromatids in total. The sister chromatids only separate at the second meiotic division. This distinction between what meiosis I and meiosis II each separate is the core of the question.
+
+## topic
+Genetics
+
+## subtopic
+Meiosis
+
+## main_concept
+CON-DEV-77845EA568BC7D
+
+## concept_ids
+CON-DEV-77845EA568BC7D
+
+## contextual_concept_ids
+CON-FND-364ACA29FFDBF4
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Genetics > Meiosis
+
+## question_only_for
+
+## library_ids
+ART-SCU-FBS102-GEN-MEIOSIS-SPERMATOGENESIS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that a secondary spermatocyte (the daughter of meiosis I) is 23-d — haploid but still double-chromatid.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.5
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q20
+
+## title
+Most common human chromosomal abnormality
+
+## question
+What is the most common chromosomal abnormality in human?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Klinefelter's syndrome
+
+## explanation_a
+Incorrect. Klinefelter syndrome (47,XXY) is a recognised but less common sex-chromosome aneuploidy than Down syndrome. It affects males specifically, a narrower population than Down syndrome's reach.
+
+## answer_b
+Down's syndrome
+
+## explanation_b
+Correct. Down syndrome, trisomy 21, is the most common chromosomal abnormality in humans, most often from non-disjunction during meiosis and, less often, from a translocation. Its frequency rises with advancing maternal age.
+
+## answer_c
+Multiple X syndrome
+
+## explanation_c
+Incorrect. Multiple X syndrome (47,XXX) is a real but comparatively rare sex-chromosome aneuploidy, not the most common chromosomal abnormality overall. It occurs far less often than trisomy 21.
+
+## answer_d
+WOLF syndrome
+
+## explanation_d
+Incorrect. Wolf-Hirschhorn syndrome (a chromosome 4 deletion) is a rare structural aberration, far less common than trisomy 21. Structural deletions of this kind are generally rarer than trisomies.
+
+## answer_e
+Cri-du-chat syndrome
+
+## explanation_e
+Incorrect. Cri-du-chat syndrome, a partial deletion of chromosome 5's short arm, is also rare compared to trisomy 21. Like Wolf-Hirschhorn, it is a structural rather than the most common numerical aberration.
+
+## topic
+Genetics
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-FND-5097CA5BAB2E51
+
+## concept_ids
+CON-FND-5097CA5BAB2E51
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Genetics > Chromosomal syndromes
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-NUCLEUS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that Down syndrome (trisomy 21) is the most common chromosomal abnormality in humans.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.5
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q21
+
+## title
+Karyotype of a male with Cri-du-chat syndrome
+
+## question
+In male with Cri-du-chat syndrome, the karyotype is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+46, XY, 4p-
+
+## explanation_a
+Incorrect. Cri-du-chat is a deletion of chromosome 5, not chromosome 4, so a "4p-" notation names the wrong chromosome. Getting the chromosome number right is half of writing the karyotype correctly.
+
+## answer_b
+46, XY, 4q-
+
+## explanation_b
+Incorrect. This also names chromosome 4, and the deletion in cri-du-chat is of the short (p) arm, not the long (q) arm, in any case. Both the chromosome number and the arm are wrong here.
+
+## answer_c
+47, XXX, 4p-
+
+## explanation_c
+Incorrect. 47,XXX describes a female with an extra X chromosome (a different, unrelated aneuploidy), not a male karyotype, and again names chromosome 4 rather than 5. This option mixes an unrelated sex-chromosome aneuploidy into the answer.
+
+## answer_d
+46, XY, 5p-
+
+## explanation_d
+Correct. Cri-du-chat syndrome is a partial deletion of the short arm of chromosome 5; in a male, whose sex chromosomes are otherwise normal (46,XY), the karyotype is written 46,XY,5p-. Getting both the chromosome number (5) and the arm (p, short) right is what distinguishes this from the distractors.
+
+## answer_e
+46, XY, 5q-
+
+## explanation_e
+Incorrect. The deleted arm in cri-du-chat is the short (p) arm of chromosome 5, not the long (q) arm. Naming the correct chromosome but the wrong arm is the trap this option sets.
+
+## topic
+Genetics
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-FND-5097CA5BAB2E51
+
+## concept_ids
+CON-FND-5097CA5BAB2E51
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Genetics > Chromosomal syndromes
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-NUCLEUS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Write the karyotype notation for cri-du-chat syndrome in a male (46,XY,5p-).
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.6
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q22
+
+## title
+A true character of epithelium
+
+## question
+Choose one character of epithelium:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Highly innervated
+
+## explanation_a
+Correct. Epithelium is avascular but nerve fibres can and do penetrate it, unlike blood vessels, which stay confined to the underlying connective tissue. This is one of the general characteristics that separates epithelium from connective tissue. The avascular-but-innervated combination is a recurring exam contrast.
+
+## answer_b
+Highly vascular
+
+## explanation_b
+Incorrect. Epithelium is characteristically avascular, nourished by diffusion from the underlying connective tissue rather than by its own blood supply; "highly vascular" is the opposite of the true character. Vascularity belongs to the connective tissue beneath it, not to the epithelium itself.
+
+## answer_c
+Cannot regenerate
+
+## explanation_c
+Incorrect. Epithelium undergoes continuous turnover and regenerates readily, one of its defining general characteristics, not the reverse. Rapid renewal is in fact one of its hallmark features.
+
+## answer_d
+It has no polarity
+
+## explanation_d
+Incorrect. Cell polarity (a distinct apical and basal surface) is one of epithelium's defining features, so "no polarity" is the opposite of the true character. Polarity underlies much of how epithelial cells function.
+
+## answer_e
+It is formed of cells, fibers and matrix
+
+## explanation_e
+Incorrect. "Formed of cells, fibers and matrix" describes connective tissue, whose defining feature is abundant intercellular substance; epithelium instead has minimal intercellular substance between closely packed cells. Mixing up the two basic tissues' defining features is the trap here.
+
+## topic
+Histology
+
+## subtopic
+Epithelium classification
+
+## main_concept
+CON-FND-7DFC513C3682EF
+
+## concept_ids
+CON-FND-7DFC513C3682EF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Epithelium
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-HCB-EPITHELIUM-CLASSIFICATION
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify that epithelium, while avascular, can be innervated — one of its general distinguishing characteristics.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.6
+The reused concept's own definition lists avascularity, minimal intercellular substance, polarity and turnover; it does not explicitly state the innervation fact this question tests, but it is the same general-characteristics-of-epithelium teaching point.
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q23
+
+## title
+Cells originating from blood monocytes
+
+## question
+Which one of the following cells originate from the blood monocytes?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Plasma cells
+
+## explanation_a
+Incorrect. Plasma cells arise from B lymphocytes, not from monocytes. Their lineage is entirely separate from the monocyte-macrophage line.
+
+## answer_b
+Macrophages
+
+## explanation_b
+Correct. The macrophage arises from the blood monocyte: after about three days circulating in the blood, the monocyte enters connective tissue and differentiates into the macrophage (the fixed tissue histiocyte), the phagocytic cell of connective tissue. This monocyte-to-macrophage transition is a standard exam fact.
+
+## answer_c
+Mast cells
+
+## explanation_c
+Incorrect. Mast cells arise from their own bone-marrow progenitor line, distinct from the monocyte lineage. They are not derived from circulating monocytes.
+
+## answer_d
+Fibroblasts
+
+## explanation_d
+Incorrect. Fibroblasts arise from local mesenchymal cells, not from circulating monocytes. Their origin is entirely local rather than blood-derived.
+
+## answer_e
+Adipose cells
+
+## explanation_e
+Incorrect. Adipose cells (adipocytes) differentiate from mesenchymal precursors, not from monocytes. Fat storage, not phagocytosis, is their defining role.
+
+## topic
+Histology
+
+## subtopic
+Connective tissue cells
+
+## main_concept
+CON-FND-45A380D5F6A77F
+
+## concept_ids
+CON-FND-45A380D5F6A77F
+
+## contextual_concept_ids
+CON-HEM-22B546E0AA7D80
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Connective Tissue
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that the connective tissue macrophage arises from the circulating blood monocyte.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.6
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q24
+
+## title
+Connective tissue proper of the sclera
+
+## question
+Choose the type of CT proper present in the sclera of the eye:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Mucoid
+
+## explanation_a
+Incorrect. Mucoid connective tissue is the soft, gelatinous tissue typified by Wharton's jelly of the umbilical cord, not the tough coat of the sclera. It has essentially no mechanical protective role.
+
+## answer_b
+Elastic
+
+## explanation_b
+Incorrect. Elastic connective tissue, rich in elastic fibres for recoil, is typified by large artery walls and the vocal ligaments, not the sclera. Recoil, not rigid protection, is elastic tissue's purpose.
+
+## answer_c
+Loose
+
+## explanation_c
+Incorrect. Loose connective tissue is the soft packing and support tissue found beneath epithelium, far less dense than the sclera requires for its protective role. Its sparse fibre content could not withstand the mechanical stress the sclera is built for.
+
+## answer_d
+Irregular white fibrous
+
+## explanation_d
+Correct. The sclera is a tough coat of dense connective tissue whose thick collagen bundles run in every direction rather than in parallel, the defining feature of irregular white fibrous connective tissue, which gives it strength in multiple directions to resist deformation. This multidirectional arrangement is what a protective globe coat needs.
+
+## answer_e
+Regular white fibrous
+
+## explanation_e
+Incorrect. In regular white fibrous connective tissue (as in a tendon) the collagen bundles run parallel to resist force along one axis; the sclera's bundles run in multiple directions instead, which is what makes it irregular rather than regular. Confusing regular with irregular is the trap this option sets.
+
+## topic
+Histology
+
+## subtopic
+Connective tissue proper
+
+## main_concept
+CON-FND-B33D27A8517527
+
+## concept_ids
+CON-FND-B33D27A8517527
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Connective Tissue
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Classify the sclera's connective tissue as irregular (not regular) white fibrous connective tissue, and state why.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.6
+The reused concept's own definition covers the regular-vs-irregular distinction generally; the sclera as a specific site example is not named in its text but is the same classification fact.
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q25
+
+## title
+Site of multipolar neurons
+
+## question
+Where are multipolar neurons present?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Early embryonic stages of embryo
+
+## explanation_a
+Incorrect. Early embryonic neuroblasts pass through an apolar and then a bipolar stage before becoming multipolar; the early embryonic stage itself is not where the mature multipolar form is found. The multipolar shape is a later, mature stage, not an early embryonic one.
+
+## answer_b
+Spinal ganglia
+
+## explanation_b
+Incorrect. Spinal (dorsal root) ganglion cells are pseudounipolar, a single process that divides in two, not multipolar. Sensory ganglia are the classic site of this different neuron class.
+
+## answer_c
+Retinal neurons
+
+## explanation_c
+Incorrect. The bipolar cells of the retina are, as the name states, bipolar, with one process at each end of the cell body. Retinal bipolar cells are a named example of that separate class.
+
+## answer_d
+Olfactory epithelium
+
+## explanation_d
+Incorrect. Olfactory receptor cells are bipolar, another named example of that class rather than the multipolar one. They share this shape with the retinal bipolar cells and the vestibulocochlear ganglion cells.
+
+## answer_e
+Sympathetic ganglia
+
+## explanation_e
+Correct. A multipolar neuron has more than two processes leaving its cell body, one axon and many dendrites, and it is the commonest form, found in the motor cells of the spinal cord's ventral horn, Purkinje cells of the cerebellum, and the neurons of the autonomic (including sympathetic) ganglia. Its many-dendrite design suits a cell that must gather input from many sources.
+
+## topic
+Histology
+
+## subtopic
+Nervous tissue
+
+## main_concept
+CON-FND-14D80DE53DE835
+
+## concept_ids
+CON-FND-14D80DE53DE835
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Nervous Tissue
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-THE-CELL
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Name sympathetic ganglion neurons as multipolar, against bipolar and pseudounipolar distractor sites.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.6
+The reused concept's own definition names ventral-horn motor neurons and Purkinje cells as its worked multipolar examples; sympathetic ganglion neurons are the same class (autonomic ganglion cells are multipolar) but are not individually named in that concept's text.
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q26
+
+## title
+A true statement about astrocytes
+
+## question
+Which of the followings is true regarding astrocytes?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Important for nutrition of neurons
+
+## explanation_a
+Correct. Astrocytes, the most numerous CNS glial cell, support neurons metabolically besides inducing and maintaining the blood-brain barrier through end-feet applied to capillary walls. This dual role, nutrition plus barrier maintenance, is the astrocyte's signature.
+
+## answer_b
+Line ventricles and spinal canal
+
+## explanation_b
+Incorrect. Lining the ventricles and central canal is the job of ependymal cells, not astrocytes. Each glial cell type has its own distinct job in this classification.
+
+## answer_c
+Transform into macrophages
+
+## explanation_c
+Incorrect. Transforming into phagocytes under injury is a feature of microglia, which are of monocyte/macrophage lineage, unlike astrocytes, which are neuroectodermal. Their different embryological origin is why they behave so differently.
+
+## answer_d
+Responsible for myelin synthesis in CNS
+
+## explanation_d
+Incorrect. Myelinating CNS axons is the job of the oligodendrocyte, a separate glial cell type from the astrocyte. Myelination and metabolic support are two different glial jobs.
+
+## answer_e
+Responsible for myelin synthesis in PNS
+
+## explanation_e
+Incorrect. Myelinating PNS axons is the job of the Schwann cell, not a CNS glial cell at all, and certainly not the astrocyte. The Schwann cell sits outside the CNS glial classification entirely.
+
+## topic
+Histology
+
+## subtopic
+Nervous tissue — neuroglia
+
+## main_concept
+CON-NEU-93CD087BDE3F7B
+
+## concept_ids
+CON-NEU-93CD087BDE3F7B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Nervous Tissue
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU105-NEUROGLIA-NERVE-INJURY-HISTOLOGY
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Assign the metabolic-support (nutritive) function to astrocytes, against the ependymal, microglial, oligodendrocyte and Schwann-cell distractor functions.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.7
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q27
+
+## title
+Skin barrier layer
+
+## question
+Skin barrier layer is:
+
+## subject
+derm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Basal cell layer
+
+## explanation_a
+Incorrect. The basal cell layer is the deepest, mitotically active layer responsible for renewing the epidermis, not the barrier layer. Renewal, not sealing, is its job.
+
+## answer_b
+Spinous layer
+
+## explanation_b
+Incorrect. The spinous (prickle) layer provides mechanical strength via its desmosomal connections; it is not where the epidermal permeability barrier is built. Mechanical cohesion, not lipid sealing, is its role.
+
+## answer_c
+Horny layer
+
+## explanation_c
+Incorrect. The horny (keratin) layer is the dead, keratinised outer layer that the barrier protects, but the barrier lipids themselves are laid down one layer beneath it. It is the product the barrier layer protects, not the barrier itself.
+
+## answer_d
+Clear layer
+
+## explanation_d
+Incorrect. The clear layer (stratum lucidum) is a translucent zone found only in thick skin, not the layer that forms the permeability barrier. It is not even present in thin skin.
+
+## answer_e
+Granular layer
+
+## explanation_e
+Correct. The granular layer's lamellar granules discharge lipid into the intercellular spaces, forming lipid sheets that act as a barrier with a sealing effect, the epidermal permeability barrier, while its keratohyalin granules separately drive keratinisation. These two granule types give the granular layer two distinct jobs at once.
+
+## topic
+Histology
+
+## subtopic
+Skin — epidermis
+
+## main_concept
+CON-DER-867BD073CDD6D5
+
+## concept_ids
+CON-DER-867BD073CDD6D5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Skin
+
+## question_only_for
+
+## library_ids
+ART-103-HIS-EPIDERMIS-LAYERS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify the granular layer as the epidermal layer responsible for the skin's permeability barrier, via its lamellar granules.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.7
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q28
+
+## title
+Part responsible for hair growth
+
+## question
+Which part is responsible for growth of the hair?
+
+## subject
+derm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Inner root sheath
+
+## explanation_a
+Incorrect. The inner root sheath moulds and guides the growing hair shaft; it does not itself generate new hair cells. It is shaped by the matrix's activity, not the source of it.
+
+## answer_b
+Outer root sheath
+
+## explanation_b
+Incorrect. The outer root sheath is continuous with the epidermis and contains a stem-cell niche of its own (the bulge), but growth of the hair shaft itself is driven from the matrix. The bulge is a separate reserve population from the matrix.
+
+## answer_c
+The hair cortex
+
+## explanation_c
+Incorrect. The hair cortex is the bulk of the shaft above the bulb, already-formed keratinised tissue, not the site of active growth. It is the product of matrix activity, not the growth engine itself.
+
+## answer_d
+The hair matrix
+
+## explanation_d
+Correct. The hair matrix, at the base of the hair bulb, is the region whose cells are considered stem cells for hair growth: they proliferate and differentiate to build the hair shaft and inner root sheath as the hair grows. This is the growth engine of the whole follicle.
+
+## answer_e
+The hair medulla
+
+## explanation_e
+Incorrect. The hair medulla is the central core of the shaft in coarse hairs, formed tissue rather than the growth-driving region. Like the cortex, it is a product of the matrix, not its source.
+
+## topic
+Histology
+
+## subtopic
+Skin — hair follicle
+
+## main_concept
+CON-DER-B4778F5BB4C3FF
+
+## concept_ids
+CON-DER-B4778F5BB4C3FF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Skin
+
+## question_only_for
+
+## library_ids
+ART-MSK-ZU104-HISTOLOGY
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify the hair matrix, at the base of the hair bulb, as the stem-cell region responsible for hair growth.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.7
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q29
+
+## title
+A true statement about merocrine sweat glands
+
+## question
+Which of the followings is true regarding merocrine sweat glands?
+
+## subject
+derm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Open into hair follicle
+
+## explanation_a
+Incorrect. Opening into a hair follicle is the apocrine gland's excretory route, not the merocrine (eccrine) gland's. Confusing the two ducts' destinations is the trap here.
+
+## answer_b
+Has a wide lumen
+
+## explanation_b
+Incorrect. The eccrine secretory unit has a narrow lumen, in contrast to the wide lumen of the apocrine secretory unit. Lumen width is one of several features that separate the two gland types.
+
+## answer_c
+Open on skin surface
+
+## explanation_c
+Correct. The eccrine (merocrine) sweat gland's excretory duct spirals through the dermis and epidermis and opens directly onto the skin surface, unlike the apocrine gland, whose duct opens into a hair follicle instead. This duct destination is the clearest way to tell the two gland types apart.
+
+## answer_d
+Secrete characteristic sweat under effect of sex hormones
+
+## explanation_d
+Incorrect. Onset of function at puberty under sex-hormone influence, with a viscous, initially odourless secretion, describes the apocrine gland, not the merocrine (eccrine) one. Eccrine glands function from birth, not from puberty.
+
+## answer_e
+Less numerous
+
+## explanation_e
+Incorrect. Eccrine (merocrine) glands are the more numerous of the two sweat gland types and are distributed over almost the whole body; "less numerous" describes the apocrine gland instead. Apocrine glands are confined to a few specific body regions.
+
+## topic
+Histology
+
+## subtopic
+Skin — glands
+
+## main_concept
+CON-DER-9D049A8C76F844
+
+## concept_ids
+CON-DER-9D049A8C76F844
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Skin
+
+## question_only_for
+
+## library_ids
+ART-103-HIS-SWEAT-GLANDS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that the eccrine (merocrine) sweat gland's duct opens directly onto the skin surface, unlike the apocrine gland's.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.7
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q30
+
+## title
+Powerhouse of the cell
+
+## question
+Which is considered the powerhouse of the cell?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Golgi apparatus
+
+## explanation_a
+Incorrect. The Golgi apparatus modifies and packages secretory product; it does not generate the cell's ATP supply. Energy production is not among its jobs.
+
+## answer_b
+Free ribosomes
+
+## explanation_b
+Incorrect. Free ribosomes synthesise protein for use within the cell; they play no role in ATP generation. Their business is translation, not energy metabolism.
+
+## answer_c
+Attached ribosomes
+
+## explanation_c
+Incorrect. Attached ribosomes synthesise protein for export, likewise unrelated to the cell's energy production. Like free ribosomes, they only build protein.
+
+## answer_d
+Lysosomes
+
+## explanation_d
+Incorrect. Lysosomes digest material delivered to them; they do not generate the cell's energy supply. Digestion, not ATP synthesis, is their role.
+
+## answer_e
+Mitochondria
+
+## explanation_e
+Correct. Mitochondria are the power-house of the cell: their inner membrane cristae bear the elementary particles carrying ATP synthase activity, and their matrix holds the citric-acid-cycle enzymes that feed that ATP production, sited in the cell's most metabolically active areas. This is the same fact tested from the succinic-dehydrogenase-marker angle elsewhere in this bank.
+
+## topic
+Histology
+
+## subtopic
+Cell organelles
+
+## main_concept
+CON-FND-F1914E2CE56EBF
+
+## concept_ids
+CON-FND-F1914E2CE56EBF
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cell organelles
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-MITOCHONDRIA-AND-CYTOSKELETON
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that mitochondria are the cell's powerhouse, via ATP synthase on their cristae.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.7
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q31
+
+## title
+Origin of primary lysosomes
+
+## question
+Which of the following gives origin of the primary lysosomes?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Golgi apparatus
+
+## explanation_a
+Correct. A lysosome's hydrolytic enzymes are made on the rough endoplasmic reticulum, carried by transfer vesicles to the Golgi apparatus, and released from the Golgi as a primary lysosome, so the Golgi apparatus is the organelle that packages and gives origin to the primary lysosome. Two organelles cooperate here, but it is the Golgi that does the final packaging step.
+
+## answer_b
+Mitochondria
+
+## explanation_b
+Incorrect. Mitochondria generate ATP and play no part in packaging lysosomal enzymes. Energy production and lysosome formation are unrelated pathways.
+
+## answer_c
+SER
+
+## explanation_c
+Incorrect. Smooth endoplasmic reticulum handles lipid and steroid metabolism, not the packaging of hydrolytic enzymes into lysosomes. It is the rough, not the smooth, ER that starts the lysosomal enzyme pathway.
+
+## answer_d
+Polyribosomes
+
+## explanation_d
+Incorrect. Polyribosomes (free ribosomes) synthesise protein for use within the cell, a different pathway from the rough-ER-to-Golgi route that produces lysosomal enzymes. Lysosomal enzymes are exported proteins, made on attached, not free, ribosomes.
+
+## answer_e
+Plasma membrane
+
+## explanation_e
+Incorrect. The plasma membrane is the cell's outer boundary; it does not generate primary lysosomes, though secondary lysosomes can form when a primary lysosome fuses with an endocytosed vesicle derived from it. The primary lysosome itself still originates from the Golgi.
+
+## topic
+Histology
+
+## subtopic
+Cell organelles
+
+## main_concept
+CON-FND-1ACE68A9080772
+
+## concept_ids
+CON-FND-1ACE68A9080772
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cell organelles
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that the Golgi apparatus packages rough-ER-made hydrolytic enzymes into primary lysosomes.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.8
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.8
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q32
+
+## title
+Protein forming thick filaments
+
+## question
+What is the protein that forms thick filaments?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Actin
+
+## explanation_a
+Incorrect. Actin is the protein of the thin filament, roughly 5-7 nanometres across, not the thick one. It is myosin's partner in the sliding-filament mechanism, not the thick filament itself.
+
+## answer_b
+Myosin
+
+## explanation_b
+Correct. The thick filament, about 15 nanometres across, is built of myosin, a motor protein whose heads bind actin and hydrolyse ATP to generate the sliding force of contraction. Diameter is the clue that separates it from the thin (actin) filament, which is roughly half its width. This pairing (myosin/thick, actin/thin) is worth memorising as a pair.
+
+## answer_c
+Tubulin
+
+## explanation_c
+Incorrect. Tubulin builds microtubules, an entirely different cytoskeletal element from the thick or thin filaments of the actin-myosin system. Microtubules belong to the mitotic spindle and axoneme, not the contractile apparatus.
+
+## answer_d
+Desmin
+
+## explanation_d
+Incorrect. Desmin is an intermediate filament protein, providing structural support in muscle cells rather than generating contractile force as a thick filament. It reinforces the cell rather than contracting it.
+
+## answer_e
+Cytokeratin
+
+## explanation_e
+Incorrect. Cytokeratin is the intermediate filament protein of epithelial cells, unrelated to the thick or thin filament system. It plays a structural, not a contractile, role.
+
+## topic
+Histology
+
+## subtopic
+Cytoskeleton
+
+## main_concept
+CON-FND-2DDE69B311CAA5
+
+## concept_ids
+CON-FND-2DDE69B311CAA5
+
+## contextual_concept_ids
+CON-FND-DAF4EB4BC63077
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Cytology > Cytoskeleton
+
+## question_only_for
+
+## library_ids
+ART-MANS-HBG-MYOSIN-THICK-FILAMENT-PROTEIN
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Name myosin as the protein of the thick filament, against actin (thin filament), tubulin, and the intermediate filament proteins.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.8
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.8
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q33
+
+## title
+Stage of crossing over in prophase 1
+
+## question
+Which stage does crossing over occur in prophase 1?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Leptotene
+
+## explanation_a
+Incorrect. Leptotene is the earliest substage, mere condensation of the chromosomes into visible threads, before pairing or exchange. Both pairing and exchange come later.
+
+## answer_b
+Pachytene
+
+## explanation_b
+Correct. Pachytene follows zygotene: with the homologous chromosomes now fully paired (synapsed), non-sister chromatids exchange segments in this substage, the physical basis of genetic recombination. This exchange is what generates new allele combinations on each chromosome.
+
+## answer_c
+Zygotene
+
+## explanation_c
+Incorrect. Zygotene is when the homologous chromosomes pair (synapsis), the step that has to precede crossing over, but the exchange itself happens one substage later, at pachytene. Pairing and exchange are consecutive, not simultaneous, events.
+
+## answer_d
+Diplotene
+
+## explanation_d
+Incorrect. Diplotene follows crossing over, when the paired homologs begin to separate again, remaining joined only at the crossover points (chiasmata). By this stage the exchange has already happened.
+
+## answer_e
+Diakinesis
+
+## explanation_e
+Incorrect. Diakinesis is the last substage, further condensation and nuclear envelope breakdown, well after crossing over has already taken place. It is three substages later than pachytene.
+
+## topic
+Genetics
+
+## subtopic
+Meiosis
+
+## main_concept
+CON-FND-F49B945283FD0E
+
+## concept_ids
+CON-FND-F49B945283FD0E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Genetics > Meiosis
+
+## question_only_for
+
+## library_ids
+ART-MANS-HBG-MEIOSIS-PROPHASE-I-SUBSTAGES
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Name pachytene as the substage of meiotic prophase I at which crossing over occurs, distinct from zygotene's synapsis.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.8
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.8
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q34
+
+## title
+A structural chromosomal aberration
+
+## question
+Which of the followings is a structural chromosomal aberration?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Cri-du-chat
+
+## explanation_a
+Correct. Cri-du-chat syndrome is a partial deletion of the short arm of chromosome 5, a change to a chromosome's structure, which makes it a structural aberration, distinct from the numerical aberrations (an added or missing whole chromosome) in the other options. Structural aberrations change a chromosome's shape; numerical ones change how many chromosomes there are.
+
+## answer_b
+Down syndrome
+
+## explanation_b
+Incorrect. Down syndrome is trisomy 21, an extra whole chromosome, a numerical aberration rather than a structural one. The chromosome itself is structurally normal; there is simply one extra copy.
+
+## answer_c
+Turner's syndrome
+
+## explanation_c
+Incorrect. Turner syndrome (45,XO) is a missing whole sex chromosome, again a numerical aberration. No chromosome's internal structure is altered.
+
+## answer_d
+YY syndrome
+
+## explanation_d
+Incorrect. "YY syndrome" as an option describes a change in whole-chromosome count, the numerical category, not a structural change to a chromosome. It groups with the other numerical distractors.
+
+## answer_e
+Multiple X syndrome
+
+## explanation_e
+Incorrect. Multiple X syndrome (47,XXX) is an extra whole X chromosome, a numerical aberration. Like Down and Turner syndrome, it changes chromosome count, not chromosome structure.
+
+## topic
+Genetics
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-FND-5097CA5BAB2E51
+
+## concept_ids
+CON-FND-5097CA5BAB2E51
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Genetics > Chromosomal syndromes
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-NUCLEUS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Classify cri-du-chat syndrome as a structural (not numerical) chromosomal aberration.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.8
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.8
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q35
+
+## title
+A true statement about simple cubical epithelium
+
+## question
+Which is true about simple cubical epithelium?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Has basal oval nuclei
+
+## explanation_a
+Incorrect. A basal oval nucleus is more characteristic of columnar cells, whose nucleus sits toward the base of an elongated cell, not the cuboidal cell's own picture. The cuboidal cell's nucleus instead sits centrally.
+
+## answer_b
+Formed of many layers of cells
+
+## explanation_b
+Incorrect. "Many layers" describes a stratified epithelium; simple cuboidal epithelium is, by definition, a single layer. The word "simple" in its name signals this directly.
+
+## answer_c
+Shows vacuolated cytoplasm
+
+## explanation_c
+Incorrect. Vacuolated cytoplasm is not a defining feature of simple cuboidal epithelium in this basic-science framing. Its cytoplasm is described by its cell shape, not by vacuolation.
+
+## answer_d
+Shows central rounded nuclei
+
+## explanation_d
+Correct. Simple cubical (cuboidal) epithelium is one layer of square-profiled cells with a central rounded nucleus, the light-microscopic picture that distinguishes it from the flattened cell and flattened nucleus of simple squamous epithelium. Comparing it against squamous epithelium is the usual way this fact is tested.
+
+## answer_e
+Forms the lining of blood vessels
+
+## explanation_e
+Incorrect. Simple squamous epithelium, not cuboidal, lines blood vessels (as the endothelium). A flattened cell suits the thin, smooth lining vessels need.
+
+## topic
+Histology
+
+## subtopic
+Epithelium classification
+
+## main_concept
+CON-FND-8760847341DE80
+
+## concept_ids
+CON-FND-8760847341DE80
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Epithelium
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify simple cuboidal epithelium's light-microscopic picture: one layer of square cells with a central rounded nucleus.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.8
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.8
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q36
+
+## title
+Special stain for elastic fibers
+
+## question
+Which of the following stains is special for the elastic fibers?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Sudan black
+
+## explanation_a
+Incorrect. Sudan black demonstrates fat/lipid, not elastic fibres. It stains a completely different tissue component.
+
+## answer_b
+Periodic Acid Schiff
+
+## explanation_b
+Incorrect. Periodic Acid Schiff (PAS) demonstrates glycogen and basement membrane carbohydrate, not elastic fibres. Its chemistry targets carbohydrate, not the elastin protein.
+
+## answer_c
+Osmic acid
+
+## explanation_c
+Incorrect. Osmic acid is a fat/lipid fixative-stain, unrelated to elastic fibre demonstration. Like Sudan black, it belongs to the lipid-staining group instead.
+
+## answer_d
+Verhoeff's
+
+## explanation_d
+Correct. Verhoeff's stain is a special stain specific for elastic fibres, colouring them blue-black to purple-black; it is used because routine H&E and the standard collagen stain (Masson's trichrome) do not show elastic fibres reliably. Orcein and resorcin-fuchsin are alternative stains for the same purpose.
+
+## answer_e
+Mallory
+
+## explanation_e
+Incorrect. Mallory's stain is a trichrome-type stain used for collagen and other connective tissue components generally, not the dedicated elastic fibre stain. It groups with the collagen stains, not the elastic-fibre-specific ones.
+
+## topic
+Histology
+
+## subtopic
+Connective tissue — special stains
+
+## main_concept
+CON-FND-F0C32F89547AB1
+
+## concept_ids
+CON-FND-F0C32F89547AB1
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Connective Tissue
+
+## question_only_for
+
+## library_ids
+ART-MANS-HBG-ELASTIC-FIBER-SPECIAL-STAINS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Name Verhoeff's stain as the special stain specific for elastic fibres.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.9
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q37
+
+## title
+Connective tissue cell that secretes antibodies
+
+## question
+Which of the following CT cells secrete antibodies?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Fibroblasts
+
+## explanation_a
+Incorrect. Fibroblasts synthesise the connective tissue fibres and ground substance; they do not secrete antibodies. Matrix production, not immune defence, is their role.
+
+## answer_b
+Adipose cells
+
+## explanation_b
+Incorrect. Adipose cells store fat as their main function and play no part in antibody secretion. Energy storage, not immunity, is what they are built for.
+
+## answer_c
+Plasma cells
+
+## explanation_c
+Correct. The plasma cell arises from the B lymphocyte and is rich in rough endoplasmic reticulum, the machinery of a cell exporting protein continuously; its function is the synthesis and secretion of antibodies. It has no secretory granules because it exports antibody continuously rather than storing it.
+
+## answer_d
+Pigment cells
+
+## explanation_d
+Incorrect. Pigment cells store or produce pigment (such as melanin); they are not the antibody-secreting cell of connective tissue. Pigment handling, not antibody production, is their job.
+
+## answer_e
+Undifferentiated mesenchymal cells
+
+## explanation_e
+Incorrect. Undifferentiated mesenchymal cells are a reserve of pluripotent precursor cells, not a differentiated antibody-secreting cell. They must first differentiate before taking on a specialised function like antibody secretion.
+
+## topic
+Histology
+
+## subtopic
+Connective tissue cells
+
+## main_concept
+CON-FND-CC62175DBE7355
+
+## concept_ids
+CON-FND-CC62175DBE7355
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Connective Tissue
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify the plasma cell as the connective tissue cell that synthesises and secretes antibodies.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.9
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q38
+
+## title
+Processes of the bipolar nerve cell
+
+## question
+How many processes of the bipolar nerve cells?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Have one dendrite and one axon
+
+## explanation_a
+Correct. A neuron is classed by how many processes leave its cell body; a bipolar cell has two, one at each end of the cell body, functioning as one dendrite and one axon, exemplified by the bipolar cells of the retina and the olfactory receptor cells. This two-process design suits a cell relaying a single sensory line.
+
+## answer_b
+Have many dendrites and one axon
+
+## explanation_b
+Incorrect. Many dendrites and one axon describes the multipolar neuron, not the bipolar one. Multipolar cells suit gathering input from many sources, unlike the bipolar cell's single line.
+
+## answer_c
+Have single process which divides into two branches
+
+## explanation_c
+Incorrect. A single process that divides at once into two branches describes the pseudounipolar cell (such as a spinal or cranial sensory ganglion cell), not the true bipolar cell. Pseudounipolar cells are, developmentally, a fused version of the bipolar shape.
+
+## answer_d
+Have single process act as axon and dendrites
+
+## explanation_d
+Incorrect. A single process acting as both axon and dendrite does not describe any of the three standard neuron classes taught here (unipolar/pseudounipolar, bipolar, multipolar). It does not match any recognised neuron shape category.
+
+## answer_e
+Have many axons and one dendrite
+
+## explanation_e
+Incorrect. "Many axons and one dendrite" does not correspond to any of the standard neuron classes; a neuron has only one axon regardless of class. This rule holds across unipolar, bipolar and multipolar neurons alike.
+
+## topic
+Histology
+
+## subtopic
+Nervous tissue
+
+## main_concept
+CON-FND-14D80DE53DE835
+
+## concept_ids
+CON-FND-14D80DE53DE835
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Nervous Tissue
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-THE-CELL
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that a bipolar neuron has two processes, one dendrite and one axon, one at each end of the cell body.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.9
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q39
+
+## title
+Function of oligodendrocytes
+
+## question
+Which of the following is the function of oligodendrocytes?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Secretion of CSF
+
+## explanation_a
+Incorrect. CSF-related lining and circulation is the job of ependymal cells, not oligodendrocytes. Each of the four CNS glial types has a distinct, non-overlapping job.
+
+## answer_b
+Responsible for myelin production in the PNS
+
+## explanation_b
+Incorrect. Myelinating PNS axons is the Schwann cell's job; the Schwann cell is the PNS counterpart of the CNS oligodendrocyte. The two cell types perform the analogous job in different parts of the nervous system.
+
+## answer_c
+Sensitive for ganglionic injury
+
+## explanation_c
+Incorrect. Reacting to ganglionic (neuronal cell body) injury in the PNS is a satellite cell function, not an oligodendrocyte one. Satellite cells are the PNS's own supporting cell around ganglion cell bodies.
+
+## answer_d
+Responsible for myelin production in the CNS
+
+## explanation_d
+Correct. Oligodendrocytes myelinate CNS axons, and unlike the Schwann cell (which myelinates one internode of one PNS axon), a single oligodendrocyte can myelinate internodes on several different CNS axons at once. This one-to-many relationship is a key structural difference from the Schwann cell.
+
+## answer_e
+Phagocytosis
+
+## explanation_e
+Incorrect. Phagocytosis in the CNS is the microglia's job, a cell of monocyte/macrophage lineage distinct from the neuroectodermal oligodendrocyte. Their different embryological origins track their different functions.
+
+## topic
+Histology
+
+## subtopic
+Nervous tissue — neuroglia
+
+## main_concept
+CON-NEU-93CD087BDE3F7B
+
+## concept_ids
+CON-NEU-93CD087BDE3F7B
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Nervous Tissue
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU105-NEUROGLIA-NERVE-INJURY-HISTOLOGY
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+State that oligodendrocytes myelinate CNS axons, distinct from the Schwann cell's PNS role.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.9
+
+---
+
+# Item
+
+## id
+QST-MANSHBG-HISTOPREV1-Q40
+
+## title
+Epidermis layer showing mitotic figures
+
+## question
+Which layer of the epidermis shows mitotic figures?
+
+## subject
+derm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Basal cell layer
+
+## explanation_a
+Correct. The stratum basale (basal cell layer) is the single deepest keratinocyte layer, and by light microscopy its cells show intense mitotic figures, and this proliferation is what renews the epidermis every 2 to 4 weeks. Melanocytes and Merkel's cells are also found in this same proliferating layer.
+
+## answer_b
+Prickle cell layer
+
+## explanation_b
+Incorrect. The prickle (spinous) cell layer is where daughter cells from the basal layer mature and gain their desmosomal spines; active mitosis is a basal-layer feature, not this one's defining picture. This layer's job is maturation, not proliferation.
+
+## answer_c
+Granular layer
+
+## explanation_c
+Incorrect. The granular layer is where cells convert to keratinised cells via keratohyalin and lamellar granules, a late differentiation step, not a mitotically active one. Cells here are heading toward death, not division.
+
+## answer_d
+Clear layer
+
+## explanation_d
+Incorrect. The clear layer (stratum lucidum, in thick skin only) is a translucent zone of dead cells, with no mitotic activity. It sits well above the proliferating basal layer.
+
+## answer_e
+Horny layer
+
+## explanation_e
+Incorrect. The horny (keratin) layer is fully dead, keratinised tissue, incapable of mitosis. It is the endpoint of the differentiation process that began at the basal layer.
+
+## topic
+Histology
+
+## subtopic
+Skin — epidermis
+
+## main_concept
+CON-DER-743AA0CD69B8A4
+
+## concept_ids
+CON-DER-743AA0CD69B8A4
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HBG
+
+## module_subject
+MANS-HBG > Histology > Skin
+
+## question_only_for
+
+## library_ids
+ART-103-HIS-EPIDERMIS-LAYERS
+
+## resource_ids
+src_168d0f3dc020c263b89d
+
+## learning_objective
+Identify the stratum basale as the mitotically active epidermal layer responsible for renewal.
+
+## source_citation
+Histo Previous MCQ Exams Final.pdf, دفعة 63 Exams, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-letter column, render p.9
