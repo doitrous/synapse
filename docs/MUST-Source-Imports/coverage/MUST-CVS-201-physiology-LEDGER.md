@@ -9,8 +9,12 @@
 | pathology-pending | 14 | 0 | 0 | 14 |
 | physabp-direct | 9 | 0 | 0 | 9 |
 | physabp-pending | 19 | 1 | 0 | 20 |
+| physabp2-direct | 10 | 0 | 0 | 10 |
+| physabp2-pending | 1 | 0 | 0 | 1 |
 | physblood-direct | 12 | 0 | 0 | 12 |
 | physblood-pending | 18 | 0 | 0 | 18 |
+| physcap-direct | 7 | 0 | 0 | 7 |
+| physcap-pending | 13 | 0 | 0 | 13 |
 
 ## Held
 - anatomy2-q00-held — BS-Q15 ("Which artery supplies the conus arteriosus from the left side?", key B, Left conus artery) -- no existing concept covers the left/right conus arteries anywhere in the corpus (checked LCA CON-CVS-1F1AB4B70AB06D and RCA CON-CVS-2A21F1B4F30B61 directly, neither mentions conus branches; find-existing.mjs "conus artery" and "left conus branch" both no hit). Minting a whole new concept (plus article/claims/citations) for this one narrow fact was judged not worth it this pass -- queued for the next tranche alongside the true remaining pool.

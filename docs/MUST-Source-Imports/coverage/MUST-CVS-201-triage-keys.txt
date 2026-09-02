@@ -435,3 +435,94 @@ patho-essay10 key=printed  Risk factors for atherosclerosis
 "hypertension" bare (definition/secondary causes) -> pending docs/MUST-Source-Imports/pending-live/MUST-CVS-201-concepts-overlay.md (CON-CVS-F4BBA78E076D30, already MUST-CVS-201-tagged by tranche 1) -> reused, no new overlay row
 
 Tally: 70 items triaged (60 MCQ + 10 essay), 70/70 keyed. All 60 MCQs authored, 0 held -- this is the module's only Pathology MCQ source (the sibling Pathology paper, Dr. Maria's, is a short-answer/written compilation tranche 1 already authored; overlapping facts here are dual-sourced against the same concept, not held as duplicate-of, same call tranche 5's own precedent for an already-tagged concept makes). 10 essay questions triaged and keyed, not authored (out of scope). 24 concepts serve the 60 authored questions: 14 new mints, 6 pending reuses (3 already MUST-CVS-201-tagged by tranche 1 needing no new overlay row: DCM, tamponade, hypertension-definition; 3 needing a first MUST-CVS-201 pending-live overlay row this tranche: HCM, restrictive cardiomyopathy, constrictive pericarditis/SYS-CVS-CONCEPT-T06), 4 live-in-lane direct reuses (fibrinous pericarditis, fatty streak, atherosclerosis risk factors, malignant hypertension -- all already committed to concept/MUST-CVS-201-concepts.md by tranche 1, no pending-live dependency at all).
+
+--- Physiology tranche 8 (author8) -- Arterial BP remaining 11 items ---
+abp-q08 key=printed  Typical BP for a 4-year-old child: B) 100/65 mmHg
+abp-q09 key=printed  BP rise in females after 45: B) Hormonal changes
+abp-q10 key=printed  Factor elevating BP especially systolic: B) Strong emotions
+abp-q11 key=printed  Exercise BP change: C) Systolic increases, diastolic decreases
+abp-q12 key=printed  Hydrostatic effect per cm below heart: B) Increases by 0.77 mmHg
+abp-q26 key=printed  Atrial receptor stimulation by high CVP: C) Vasodilation and tachycardia (Bainbridge reflex)
+abp-q28 key=printed  Cutaneous pain receptor stimulation: C) Hypertension and tachycardia
+abp-q29 key=printed  Alam-Smirk reflex trigger: C) Proprioceptors
+abp-q30 key=printed  Brain centre for emotion/temperature BP rise: D) Hypothalamus
+abp-q32 key=printed  Capillary fluid shift on ABP drop: B) Fluid shifts tissues to capillaries
+abp-q38 key=printed  Excitatory receptor: A) Peripheral chemoreceptors
+
+--- Physiology tranche 8 (author8) -- Capillary Circulation & Oedema (20, full) ---
+cap-q01 key=printed  Generalised oedema, low plasma albumin: C) Decreased plasma colloidal osmotic pressure
+cap-q02 key=printed  Cirrhosis + positive fragility test, likely cause: B) Vitamin C deficiency
+cap-q03 key=printed  Precapillary sphincter relaxation trigger: B) Accumulation of metabolites
+cap-q04 key=printed  Edema can be caused by: A) Increased capillary hydrostatic pressure
+cap-q05 key=printed  Laplace law, capillary wall withstands pressure due to: C) Very small diameter
+cap-q06 key=printed  Spreading flare mechanism: C) Dilatation of arterioles via local axon reflex
+cap-q07 key=printed  Force absorbing fluid at venous end: C) Colloidal osmotic pressure of plasma proteins
+cap-q08 key=printed  DVT pitting oedema mechanism: C) Increased capillary hydrostatic pressure
+cap-q09 key=printed  Filtration at arterial end mainly due to: A) Hydrostatic pressure in capillaries
+cap-q10 key=printed  Factor decreasing capillary filtration rate: D) Decreased capillary water permeability
+cap-q11 key=printed  Mechanism most important for electrolyte exchange: A) Diffusion
+cap-q12 key=printed  White-line reaction mechanism: B) Constriction of precapillary sphincters
+cap-q13 key=printed  Nephrotic syndrome oedema mechanism: C) Decreased plasma colloidal osmotic pressure
+cap-q14 key=printed  Vesicular transport moves: C) Large molecules like proteins
+cap-q15 key=printed  Fate of unabsorbed arterial-end filtrate in health: B) Absorbed by lymphatic vessels
+cap-q16 key=printed  Elephantiasis pathophysiology: C) Lymphatic obstruction
+cap-q17 key=printed  Force decreasing 35->15 mmHg arterial to venous end: C) Hydrostatic capillary pressure
+cap-q18 key=printed  Bee-sting triple response wheal mediator: C) Histamine
+cap-q19 key=printed  Oedema cause via increased capillary hydrostatic pressure: B) Right-sided heart failure
+cap-q20 key=printed  Positive capillary fragility test causes: D) All of the above (purpura/scurvy/allergy)
+
+--- Physiology tranche 8 (author8) -- Shock (30, triaged only, not authored) ---
+shock-q01 key=printed  MVA, weak pulse, cold pale skin, low BP: C) Hypovolemic shock
+shock-q02 key=printed  Definition of circulatory shock: B) Inadequate tissue perfusion due to inadequate cardiac output
+shock-q03 key=printed  Rash, wheezing, sudden severe BP drop after bee sting: C) Anaphylactic shock
+shock-q04 key=printed  Rapid nervous compensatory mechanism in haemorrhagic shock: B) Stimulation of the vasoconstrictor centre
+shock-q05 key=printed  Oliguria in shock, primary reason: B) Vasoconstriction of renal vessels
+shock-q06 key=printed  Humoral factor from renal ischaemia, vasoconstriction + thirst: C) Angiotensin II
+shock-q07 key=printed  Discharge decreasing in haemorrhagic shock: D) A & B (arterial baroreceptors & atrial volume receptors)
+shock-q08 key=printed  Refractory shock, key splanchnic problem: B) Marked dilatation of capillaries
+shock-q09 key=printed  Normal blood volume, decreased peripheral resistance: B) Low Resistance Shock
+shock-q10 key=printed  Massive MI causing shock, mechanism: C) Impaired myocardial pumping action
+shock-q11 key=printed  NOT typical of haemorrhagic shock: A) Warm, flushed skin
+shock-q12 key=printed  Aldosterone compensation in shock: C) Promoting sodium retention
+shock-q13 key=printed  Cerebral blood flow maintained in compensatory shock because: B) Cerebral vessels are not constricted
+shock-q14 key=printed  Septic shock hypotension primarily due to: B) Bacterial endotoxins
+shock-q15 key=printed  RBC mass restoration after haemorrhagic shock takes: C) 4-8 weeks
+shock-q16 key=printed  Recommended general treatment for shock: B) Restoration of blood volume with fluids/blood products
+shock-q17 key=printed  Vasopressin increases BP in acute haemorrhage by: A) Acting on V1 receptors to cause vasoconstriction
+shock-q18 key=printed  Cardiac tamponade risk, shock type: C) Obstructive
+shock-q19 key=printed  Primary cause of acidosis in advanced shock: B) Tissue hypoxia
+shock-q20 key=printed  Neurogenic shock, severe emotions lead to: B) Vasodilation in skeletal muscle and bradycardia
+shock-q21 key=printed  Compensatory mechanism for tissue fluid shift restoring plasma volume: A) Increased capillary hydrostatic pressure forcing fluid into vessels [printed key as read; note: mechanism direction as printed, not independently re-derived]
+shock-q22 key=printed  Why give glucocorticoids in shock: B) To decrease capillary permeability
+shock-q23 key=printed  Irreversible shock positive feedback "deadly" because: B) Progressive self-perpetuating decrease in cardiac output and BP
+shock-q24 key=printed  Restless/apprehensive in shock due to: A) Action of catecholamines on the brain
+shock-q25 key=printed  Vessel type dilated in compensatory phase for O2 demand: C) Coronary vessels
+shock-q26 key=printed  Initial rapid correction of plasma proteins after shock: B) Addition of pre-formed albumin to the blood
+shock-q27 key=printed  Massive PE causing obstructive shock because: B) Right ventricle's output is obstructed
+shock-q28 key=printed  Direct effect of Angiotensin II: B) Arteriolar vasoconstriction
+shock-q29 key=printed  Shock type with high death percentage: A) Refractory shock
+shock-q30 key=printed  Supine position with elevated legs purpose: B) To help venous return to the heart
+
+--- find-existing.mjs / direct-grep query log (Physiology tranche 8) ---
+"physiological variation blood pressure age" -> no hit -> new mint
+"blood pressure menopause" -> no hit (hits were reproductive/gynaecology menopause records, different scope) -> new mint
+"strong emotions blood pressure" -> no hit -> new mint
+"exercise effect on blood pressure" -> no hit -> new mint
+"hydrostatic effect on arterial pressure" -> no hit; bare "hydrostatic" grep hits are all Starling-forces/oedema/lung-fluid records, none about the vertical-distance BP correction -> new mint
+"Bainbridge reflex" -> pending docs/Menoufia-Source-Imports/concept/MU-MED105-concepts.md (CON-CVS-5419DA4CEFDBB6) -> reused, new overlay row
+"cutaneous pain receptor pressor reflex" -> no hit -> new mint
+"Alam-Smirk reflex" -> no hit -> new mint
+"hypothalamus emotion temperature blood pressure center" -> no hit -> new mint
+"capillary fluid shift blood pressure drop" -> no hit -> new mint
+"chemoreceptors excitatory baroreceptors inhibitory" -> no hit -> new mint
+"hypoproteinemia edema decreased plasma colloidal osmotic pressure" -> no hit; grep "edema causes classification" -> pending docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md (CON-CVS-6D8E2D62A9F51E, already MUST-CVS-201-tagged by tranche 1) -> reused, extended existing overlay row (covers cap-q01/q04/q08/q13/q16/q19)
+"capillary fragility test vitamin C scurvy" -> no hit -> new mint
+"precapillary sphincter metabolites relaxation" -> no hit; grep "precapillary sphincter" -> pending docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md (CON-CVS-56A68328FD03C7, local blood-flow autoregulation, already MUST-CVS-201-tagged by tranche 7) -> reused, extended existing overlay row (covers cap-q03)
+"Laplace law capillary wall pressure" -> no hit; grep "laplace" -> only alveolar-surface-tension and aneurysm-expansion records, different application of the same law -> new mint
+"electrolyte diffusion capillary exchange mechanism" / "vesicular transport capillary large molecules" -> pending docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md (CON-CVS-D3D1AF25EFA406) -> reused, new overlay row (covers cap-q11, cap-q14)
+"white-line reaction stroking skin" -> no hit -> new mint
+"skin flare reaction axon reflex" -> no hit by that exact phrase; "triple response" alias hit docs/MUST-Source-Imports/concept/MUST-CVS-201-concepts.md (CON-CVS-7F05227FE0970F, own lane, tranche 7) -> reused directly, definition extended to add the wheal/histamine fact (covers cap-q06, cap-q18)
+"excess filtered fluid returns via lymphatics" -> no hit -> new mint
+Starling-forces venous/arterial-end absorption/filtration query ("force absorbing fluid venous end", "filtration arterial end capillary") -> pending docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md (CON-CVS-98657F1E7D300D) -> reused, new overlay row (covers cap-q07, cap-q09, cap-q10, cap-q17)
+
+Tally: 91 items triaged this tranche (11 ABP + 20 Capillary + 30 Shock triage-only + 30 Coronary/Pulmonary NOT triaged), 91/91 keyed where triaged. 31 authored (11 ABP + 20 Capillary), 0 held. 30 Shock keyed but not authored (queued next pass). 18 concepts serve the 31 authored questions: 12 new mints, 3 first-tag pending overlay rows (Bainbridge, Starling forces, diffusion/vesicular), 2 extended-existing pending overlay rows (oedema-determinants from tranche 1, local autoregulation from tranche 7), 1 extended own-lane live concept (skin flare/triple response from tranche 7, now covering both flare and wheal).
