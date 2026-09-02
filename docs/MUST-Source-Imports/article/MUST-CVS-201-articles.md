@@ -1236,3 +1236,535 @@ secondaryNodeIds: Same as primaryNodeId.
 lastReviewed: New record; no reviewer has seen it yet.
 reviewDue: Set when the first review completes.
 conflicts: The source paper states this without qualification; nothing was found to record.
+
+---
+
+# Item
+
+## id
+ART-CVS-VARICOSE-VEINS
+
+## title
+Varicose veins
+
+## arabic_title
+
+
+## aliases
+Varicosities
+
+## subject
+cvs
+
+## topic
+Histology
+
+## subtopic
+Cardiovascular System
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+A varicose vein is a superficial vein permanently dilated and tortuous from raised venous pressure and valve incompetence, most often in the leg.
+
+## sections
+### Definition
+A varicose vein is a superficial vein that has become permanently dilated and tortuous, most often in the leg.
+
+### Mechanism
+Sustained raised venous pressure combined with weakness or incompetence of the vein's valves lets blood reflux and pool distally, progressively distending and lengthening the wall into visible, palpable tortuous loops.
+
+### Key determinants
+Prolonged standing, pregnancy, obesity and a family history of weak vein walls all predispose by raising venous pressure or straining the valves over time; varicose veins are themselves a recognised risk factor for deep vein thrombosis through the same venous-stasis mechanism.
+
+### Clinical significance
+Varicose veins are a common, usually benign but sometimes symptomatic finding (aching, swelling); distinguishing them from an acute deep vein thrombosis on inspection alone is a common exam and clinical task.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+A varicose vein is a chronic, valve-failure disorder of a superficial vein — not the same disorder as an acute deep-vein clot.
+Varicose veins are themselves a risk factor for deep vein thrombosis, through venous stasis.
+
+## lose_the_mark
+Confusing varicose veins with deep vein thrombosis because both are "leg vein" stems — one is structural/valvular, the other thrombotic/inflammatory.
+
+## callout_evidence
+### A varicose vein is a chronic, valve-failure disorder of a superficial vein — not the same disorder as an acute deep-vein clot.
+Claims: CLM-CVS-VARICOSE-VEINS-01
+Citations: CIT-VARICOSE-VEINS-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-F048262BCB7EED
+
+## related_articles
+ART-CVS-DVT-THROMBOPHLEBITIS
+
+## question_ids
+
+
+## resource_ids
+src_0511bc2ebb43a689a4c6
+
+## article_source_ids
+src_0511bc2ebb43a689a4c6
+
+## claim_ids
+CLM-CVS-VARICOSE-VEINS-01
+
+## span_ids
+SPN-VARICOSE-VEINS-01
+
+## universities
+must
+
+## years
+MUST_Y2
+
+## module
+MUST-CVS-201
+
+## university_notes
+must: MUST-CVS-201 > Histology > Cardiovascular System > Veins > Varicose Veins, from MUST-CVS-201's Histology EOM paper.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Varicose veins (printed answer key), MUST CVS-201 Histology EOM paper, src_0511bc2ebb43a689a4c6 p1,p14.
+
+## evidence_gaps
+Only the printed exam answer supports this article's claim so far; a second, independent authoritative source has not yet been cross-checked.
+
+## conflicts
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Authored from MUST-CVS-201 tranche-2 Histology triage (docs/MUST-Source-Imports/coverage/MUST-CVS-201-triage.md); concept CON-CVS-F048262BCB7EED minted in the same batch.
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+primaryNodeId: No canonical taxonomy crosswalk has been run for this module yet; left explicit and unguessed rather than inventing a mapping.
+secondaryNodeIds: Same as primaryNodeId.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes.
+conflicts: The source paper states this without qualification; nothing was found to record.
+
+---
+
+# Item
+
+## id
+ART-CVS-DVT-THROMBOPHLEBITIS
+
+## title
+Deep vein thrombosis and thrombophlebitis
+
+## arabic_title
+
+
+## aliases
+DVT | Thrombophlebitis
+
+## subject
+cvs
+
+## topic
+Histology
+
+## subtopic
+Cardiovascular System
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+4
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Deep vein thrombosis follows Virchow's triad — venous stasis, hypercoagulability, endothelial injury; an inflamed thrombosed vein is thrombophlebitis.
+
+## sections
+### Definition
+Deep vein thrombosis (DVT) is thrombus formation within a deep vein, classically in the leg.
+
+### Mechanism
+DVT arises from Virchow's triad: venous stasis (immobility, prolonged bed rest, long-haul travel, varicose veins), hypercoagulability (pregnancy, malignancy, oral contraceptives, inherited thrombophilia) and endothelial injury (trauma, surgery, catheterisation).
+
+### Key determinants
+When the thrombosed segment also becomes inflamed — leg pain, swelling, warmth and redness over a palpable venous cord — the clinical diagnosis is thrombophlebitis, distinguishing it from a silent, asymptomatic DVT.
+
+### Clinical significance
+Untreated, DVT's principal danger is embolisation of the clot to the pulmonary circulation as a pulmonary embolism, which is why recognising the risk factors and the clinical picture matters beyond the leg itself.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Virchow's triad — stasis, hypercoagulability, endothelial injury — is the mechanism behind every DVT risk factor.
+Varicose veins are themselves a DVT risk factor, through the stasis arm of the triad.
+
+## lose_the_mark
+Naming immobility as the only DVT risk factor and missing the hypercoagulability and endothelial-injury arms.
+Calling every deep venous clot "thrombophlebitis" — the term specifically implies inflammation (pain, warmth, redness), not just the presence of a clot.
+
+## callout_evidence
+### Virchow's triad — stasis, hypercoagulability, endothelial injury — is the mechanism behind every DVT risk factor.
+Claims: CLM-CVS-DVT-THROMBOPHLEBITIS-01
+Citations: CIT-DVT-THROMBOPHLEBITIS-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-92BB03F3D57E33
+
+## related_articles
+ART-CVS-VARICOSE-VEINS
+
+## question_ids
+
+
+## resource_ids
+src_0511bc2ebb43a689a4c6
+
+## article_source_ids
+src_0511bc2ebb43a689a4c6
+
+## claim_ids
+CLM-CVS-DVT-THROMBOPHLEBITIS-01
+CLM-CVS-DVT-THROMBOPHLEBITIS-02
+
+## span_ids
+SPN-DVT-THROMBOPHLEBITIS-01
+
+## universities
+must
+
+## years
+MUST_Y2
+
+## module
+MUST-CVS-201
+
+## university_notes
+must: MUST-CVS-201 > Histology > Cardiovascular System > Veins > Deep Vein Thrombosis, from MUST-CVS-201's Histology EOM paper.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Deep vein thrombosis and thrombophlebitis (printed answer key), MUST CVS-201 Histology EOM paper, src_0511bc2ebb43a689a4c6 p6,p12,p14.
+
+## evidence_gaps
+Only the printed exam answer supports this article's claim so far; a second, independent authoritative source has not yet been cross-checked.
+
+## conflicts
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Authored from MUST-CVS-201 tranche-2 Histology triage (docs/MUST-Source-Imports/coverage/MUST-CVS-201-triage.md); concept CON-CVS-92BB03F3D57E33 minted in the same batch.
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+primaryNodeId: No canonical taxonomy crosswalk has been run for this module yet; left explicit and unguessed rather than inventing a mapping.
+secondaryNodeIds: Same as primaryNodeId.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes.
+conflicts: The source paper states this without qualification; nothing was found to record.
+
+---
+
+# Item
+
+## id
+ART-CVS-ELASTIC-LAMINA-STAIN
+
+## title
+Elastic-lamina histologic stain (Orcein)
+
+## arabic_title
+
+
+## aliases
+Orcein stain
+
+## subject
+cvs
+
+## topic
+Histology
+
+## subtopic
+Cardiovascular System
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+2
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Orcein is the special stain used to visualise elastic laminae in the arterial wall, since routine H&E does not resolve them clearly.
+
+## sections
+### Definition
+Ordinary haematoxylin and eosin (H&E) staining does not clearly resolve the elastic laminae of an artery wall, so a special elastic stain is used instead.
+
+### Mechanism
+Orcein selectively colours elastic fibres, so the internal and external elastic laminae and the concentric elastic membranes of the tunica media stand out sharply from the surrounding collagen and smooth muscle.
+
+### Key determinants
+This is the basis for counting elastic laminae to distinguish an elastic from a muscular artery, and for demonstrating the internal elastic lamina's fenestrations.
+
+### Clinical significance
+Recognising which stain a histology image uses is a common exam task, since an elastic-artery image is only interpretable as such once the elastic laminae are visible.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+H&E does not clearly resolve elastic laminae; Orcein (an elastic stain) does.
+
+## lose_the_mark
+Naming H&E, PAS or Masson's trichrome as the elastic-lamina stain — each highlights a different tissue component (general architecture, glycogen/basement membrane, and collagen respectively), not elastin.
+
+## callout_evidence
+### H&E does not clearly resolve elastic laminae; Orcein (an elastic stain) does.
+Claims: CLM-CVS-ELASTIC-LAMINA-STAIN-01
+Citations: CIT-ELASTIC-LAMINA-STAIN-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-0AD4BCDFB88035
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_0511bc2ebb43a689a4c6
+
+## article_source_ids
+src_0511bc2ebb43a689a4c6
+
+## claim_ids
+CLM-CVS-ELASTIC-LAMINA-STAIN-01
+
+## span_ids
+SPN-ELASTIC-LAMINA-STAIN-01
+
+## universities
+must
+
+## years
+MUST_Y2
+
+## module
+MUST-CVS-201
+
+## university_notes
+must: MUST-CVS-201 > Histology > Cardiovascular System > Arteries > Elastic-Lamina Stain, from MUST-CVS-201's Histology EOM paper.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Elastic-lamina histologic stain (printed answer key), MUST CVS-201 Histology EOM paper, src_0511bc2ebb43a689a4c6 p4,p14.
+
+## evidence_gaps
+Only the printed exam answer supports this article's claim so far; a second, independent authoritative source has not yet been cross-checked, and Orcein's staining mechanism has not been verified against a histology reference text.
+
+## conflicts
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Authored from MUST-CVS-201 tranche-2 Histology triage (docs/MUST-Source-Imports/coverage/MUST-CVS-201-triage.md); concept CON-CVS-0AD4BCDFB88035 minted in the same batch.
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+primaryNodeId: No canonical taxonomy crosswalk has been run for this module yet; left explicit and unguessed rather than inventing a mapping.
+secondaryNodeIds: Same as primaryNodeId.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes.
+conflicts: The source paper states this without qualification; nothing was found to record.

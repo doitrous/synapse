@@ -361,3 +361,163 @@ Printed answer under the numbered question on the EOM written-question paper.
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-VARICOSE-VEINS-01
+
+## claim_id
+CLM-CVS-VARICOSE-VEINS-01
+
+## resource_id
+src_0511bc2ebb43a689a4c6
+
+## evidence_role
+local_curriculum
+
+## support_span
+A patient presents with enlarged, tortuous superficial veins in the leg. This is most likely due to: Varicose veins
+
+## locator_type
+printed_page
+
+## locator_page
+1
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+MCQ Q8 with the printed answer key on p.14 of the Histology CVS201 EOM paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-DVT-THROMBOPHLEBITIS-01
+
+## claim_id
+CLM-CVS-DVT-THROMBOPHLEBITIS-01
+
+## resource_id
+src_0511bc2ebb43a689a4c6
+
+## evidence_role
+local_curriculum
+
+## support_span
+A patient with long bed rest after surgery develops deep vein thrombosis. Which condition is a risk factor? Varicose veins
+
+## locator_type
+printed_page
+
+## locator_page
+6
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+MCQ Q20 with the printed answer key on p.14 of the Histology CVS201 EOM paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-DVT-THROMBOPHLEBITIS-02
+
+## claim_id
+CLM-CVS-DVT-THROMBOPHLEBITIS-02
+
+## resource_id
+src_0511bc2ebb43a689a4c6
+
+## evidence_role
+local_curriculum
+
+## support_span
+A patient presents with leg pain, swelling, and redness. Ultrasound reveals a blood clot in a deep leg vein with inflammation. What is the most likely diagnosis? Thrombophlebitis
+
+## locator_type
+printed_page
+
+## locator_page
+12
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+MCQ Q46 with the printed answer key on p.14 of the Histology CVS201 EOM paper.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-ELASTIC-LAMINA-STAIN-01
+
+## claim_id
+CLM-CVS-ELASTIC-LAMINA-STAIN-01
+
+## resource_id
+src_0511bc2ebb43a689a4c6
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which stain is used to clearly visualize elastic laminae in arteries? Orcein
+
+## locator_type
+printed_page
+
+## locator_page
+4
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+MCQ Q15 with the printed answer key on p.14 of the Histology CVS201 EOM paper.
+
+## confidence
+0.75
+
+## counts_as_claim_evidence
+yes

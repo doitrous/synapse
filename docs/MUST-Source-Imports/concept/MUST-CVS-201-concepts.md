@@ -1305,3 +1305,547 @@ uncertainty: Nothing about this concept is genuinely unsettled at undergraduate 
 lastReviewed: New record; no reviewer has seen it yet.
 reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
 exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Varicose veins are enlarged, tortuous superficial veins from chronically raised venous pressure and incompetent valves
+
+## id
+CON-CVS-F048262BCB7EED
+
+## canonical_key
+varicoseveins.definition-and-superficial-vein-dilation
+
+## definition
+A varicose vein is a superficial vein that has become permanently dilated and tortuous, most often in the leg, from sustained increase in venous pressure combined with weakness or incompetence of its valves. Once a valve fails, blood refluxes and pools in the segment below it, raising the pressure there and progressively distending and lengthening the vein wall, so the vessel is thrown into visible, palpable tortuous loops beneath the skin. Predisposing factors include prolonged standing, pregnancy, obesity and a family history of weak vein walls, all of which raise venous pressure or strain the valves over time.
+
+## explicit_objective
+Define a varicose vein and state the mechanism — raised venous pressure with valve incompetence — that produces its tortuous, dilated appearance.
+
+## pitfalls
+Confusing varicose veins (a chronic, valve-failure disorder of superficial veins) with deep vein thrombosis (an acute clot in a deep vein) — both are common "leg vein" exam stems, but one is a structural/valvular disorder and the other a thrombotic/inflammatory one, tested against different vignettes in this same source paper.
+
+## concept_type
+clinical_correlation
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Varicosities | Varicose vein disease
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Histology
+
+## subtopic
+Cardiovascular System
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-VARICOSE-VEINS
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-CVS-B29610035B568D | CON-CVS-92BB03F3D57E33
+
+## resource_ids
+src_0511bc2ebb43a689a4c6
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-VARICOSE-VEINS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Histology > Cardiovascular System > Veins > Varicose Veins
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.15
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.8
+
+## exam_signal
+src_0511bc2ebb43a689a4c6 | end_of_module | 2024 | p1 | MUST-CVS-201
+
+## weight_confidence
+0.4
+
+## confidence
+0.7
+
+## original_wording
+[Histology CVS201 Questions (Final), Q8] A patient presents with enlarged, tortuous superficial veins in the leg. This is most likely due to: A) Atherosclerosis B) Varicose veins C) Arteritis D) Phlebosclerosis — printed answer B.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for this tranche; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+relatedConceptIds: CON-CVS-B29610035B568D (vein classification; valves are the structure that fails here) is a pending Kasr 104-CPS concept, sparse-updated in pending-live/MUST-CVS-201-histology-concepts-overlay.md. CON-CVS-92BB03F3D57E33 (DVT/thrombophlebitis) is this same source paper's other leg-vein disorder, minted alongside this one, kept separate per the pitfalls note above rather than merged — they are different pathologies (valvular incompetence vs thrombosis) despite both testing "leg vein" recognition.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Deep vein thrombosis follows Virchow's triad (stasis, hypercoagulability, endothelial injury); inflamed clot is thrombophlebitis
+
+## id
+CON-CVS-92BB03F3D57E33
+
+## canonical_key
+dvt.risk-factors-and-thrombophlebitis-diagnosis
+
+## definition
+Deep vein thrombosis (DVT) is thrombus formation within a deep vein, classically in the leg, arising from Virchow's triad: venous stasis (immobility, prolonged bed rest, long-haul travel, varicose veins), hypercoagulability (pregnancy, malignancy, oral contraceptives, inherited thrombophilia) and endothelial injury (trauma, surgery, catheterisation). When the thrombosed segment also becomes inflamed — presenting with leg pain, swelling, warmth and redness over a palpable venous cord — the clinical diagnosis is thrombophlebitis, distinguishing it from a silent, asymptomatic DVT. Untreated, DVT's principal danger is embolisation of the clot to the pulmonary circulation as a pulmonary embolism.
+
+## explicit_objective
+State Virchow's triad as the mechanism behind DVT, name a risk factor from each arm (including that varicose veins themselves are a stasis-arm risk factor), and recognise the clinical picture of thrombophlebitis.
+
+## pitfalls
+Treating "risk factor for DVT" questions as if only immobility counts. Varicose veins are themselves a recognised DVT risk factor through the venous-stasis arm of Virchow's triad, which is why one source paper can test both facts as separate questions without contradiction — post-surgical bed rest (Q20) and pre-existing varicose veins are two different routes to the same stasis mechanism.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Deep vein thrombosis | Thrombophlebitis | DVT
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Histology
+
+## subtopic
+Cardiovascular System
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-DVT-THROMBOPHLEBITIS
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-CVS-F048262BCB7EED
+
+## resource_ids
+src_0511bc2ebb43a689a4c6
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-DVT-THROMBOPHLEBITIS-01
+CLM-CVS-DVT-THROMBOPHLEBITIS-02
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Histology > Cardiovascular System > Veins > Deep Vein Thrombosis
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.15
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.75
+
+## academic_relevance
+0.8
+
+## exam_signal
+src_0511bc2ebb43a689a4c6 | end_of_module | 2024 | p6,p12 | MUST-CVS-201
+
+## weight_confidence
+0.4
+
+## confidence
+0.7
+
+## original_wording
+[Histology CVS201 Questions (Final), Q20] A patient with long bed rest after surgery develops deep vein thrombosis. Which condition is a risk factor? A) Varicose veins B) Arteriosclerosis C) Frostbite D) Hypertension — printed answer A. [Q46] A patient presents with leg pain, swelling, and redness. Ultrasound reveals a blood clot in a deep leg vein with inflammation. What is the most likely diagnosis? A) Varicose veins B) Thrombophlebitis C) Atherosclerosis D) Aneurysm — printed answer B.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for this tranche; see evidence/MUST-CVS-201-claims.md for the two claims minted alongside this concept (risk factors; thrombophlebitis diagnosis).
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+relatedConceptIds: CON-CVS-F048262BCB7EED (varicose veins) is this same source paper's other leg-vein disorder and is also named as one of this concept's own stasis-arm risk factors; kept separate per the pitfalls note — different pathologies (valvular incompetence vs thrombosis) even though one is a risk factor for the other.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Orcein is the histologic stain used to clearly visualise elastic laminae in the arterial wall
+
+## id
+CON-CVS-0AD4BCDFB88035
+
+## canonical_key
+elasticlamina.orcein-stain-for-arterial-wall-histology
+
+## definition
+Ordinary haematoxylin and eosin (H&E) staining does not clearly resolve the elastic laminae of an artery wall, so a special elastic stain is used instead. Orcein is the stain named for this purpose in the module's histology teaching: it selectively colours elastic fibres, so the internal and external elastic laminae and the concentric elastic membranes of the tunica media stand out sharply from the surrounding collagen and smooth muscle — the basis for counting elastic laminae to distinguish an elastic from a muscular artery, and for demonstrating the internal elastic lamina's fenestrations.
+
+## explicit_objective
+Name Orcein as the special stain used to visualise elastic laminae in the arterial wall, and state why H&E is insufficient for this purpose.
+
+## pitfalls
+Assuming any routine stain shows elastic fibres well. H&E stains the general tissue architecture but does not selectively highlight elastic fibres the way Orcein (or an equivalent elastic stain such as Verhoeff-Van Gieson) does, which is why counting elastic laminae to classify an artery specifically requires the special stain.
+
+## concept_type
+structural_description
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Elastic stain | Orcein stain
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Histology
+
+## subtopic
+Cardiovascular System
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-ELASTIC-LAMINA-STAIN
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-CVS-712BA581C8AF88
+
+## resource_ids
+src_0511bc2ebb43a689a4c6
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-ELASTIC-LAMINA-STAIN-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Histology > Cardiovascular System > Arteries > Elastic-Lamina Stain
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.08
+
+## exam_weight_by_year
+MUST_Y2=0.4
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.7
+
+## exam_signal
+src_0511bc2ebb43a689a4c6 | end_of_module | 2024 | p4 | MUST-CVS-201
+
+## weight_confidence
+0.4
+
+## confidence
+0.65
+
+## original_wording
+[Histology CVS201 Questions (Final), Q15] Which stain is used to clearly visualize elastic laminae in arteries? A) H&E B) Orcein C) PAS D) Masson's trichrome — printed answer B.
+
+## evidence_gaps
+Evidence must be attached before publication; only one source paper's printed key supports this, and Orcein's mechanism (why it selectively stains elastin) has not been independently verified against a histology reference text.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for this tranche; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+relatedConceptIds: CON-CVS-712BA581C8AF88 (artery classification; a pending Kasr 104-CPS concept, sparse-updated in pending-live/MUST-CVS-201-histology-concepts-overlay.md) is the classification this stain is used to demonstrate — kept as a separate, narrower histotechnique fact rather than folded into it, since the printed source tests the stain name on its own.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.

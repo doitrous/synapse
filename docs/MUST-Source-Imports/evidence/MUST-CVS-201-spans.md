@@ -151,3 +151,71 @@ CLM-CVS-LONG-TERM-BP-REGULATION-01
 
 ## citation_ids
 CIT-LONG-TERM-BP-REGULATION-01
+
+---
+
+# Item
+
+## id
+SPN-VARICOSE-VEINS-01
+
+## article_id
+ART-CVS-VARICOSE-VEINS
+
+## section_id
+art-cvs-varicose-veins-definition
+
+## text
+A varicose vein is a superficial vein that has become permanently dilated and tortuous, most often in the leg.
+
+## claim_ids
+CLM-CVS-VARICOSE-VEINS-01
+
+## citation_ids
+CIT-VARICOSE-VEINS-01
+
+---
+
+# Item
+
+## id
+SPN-DVT-THROMBOPHLEBITIS-01
+
+## article_id
+ART-CVS-DVT-THROMBOPHLEBITIS
+
+## section_id
+art-cvs-dvt-thrombophlebitis-definition
+
+## text
+Deep vein thrombosis (DVT) is thrombus formation within a deep vein, classically in the leg.
+
+## claim_ids
+CLM-CVS-DVT-THROMBOPHLEBITIS-01
+CLM-CVS-DVT-THROMBOPHLEBITIS-02
+
+## citation_ids
+CIT-DVT-THROMBOPHLEBITIS-01
+CIT-DVT-THROMBOPHLEBITIS-02
+
+---
+
+# Item
+
+## id
+SPN-ELASTIC-LAMINA-STAIN-01
+
+## article_id
+ART-CVS-ELASTIC-LAMINA-STAIN
+
+## section_id
+art-cvs-elastic-lamina-stain-definition
+
+## text
+Ordinary haematoxylin and eosin (H&E) staining does not clearly resolve the elastic laminae of an artery wall, so a special elastic stain is used instead.
+
+## claim_ids
+CLM-CVS-ELASTIC-LAMINA-STAIN-01
+
+## citation_ids
+CIT-ELASTIC-LAMINA-STAIN-01
