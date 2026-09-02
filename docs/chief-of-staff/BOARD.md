@@ -428,3 +428,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — FOMSCU SCU-FBS103 lane 1 LANDED (f6cbf7a2)
 - 4 Foundation-2 papers (MID 2026, EOY 2025, EOY 2026, Formative 2025): 138 raw → 105 distinct, 100% keyed. 44 authored, 0 held; 18 reuses (4 live, 13 pending, 1 extends FBS102's own gastrulation overlay), 26 mints in 3 grouped article sets. Simulate 32 files rejected=0; all batch gates errors=0. ≈1.6k tok/q. Trap: find-existing homonym false positives (frontalis, trigeminal, sartorius, necrosis…) — read the hit's body before reusing. Fix: `source_candidate_ids`/`rejected_merge_candidate_ids` take bare ids only (prose → field_notes).
 - Remaining 61 keys (biochem DNA replication, embryology wk 2-3, histology nerve cell, parasitology helminths, pharm classification; 1 ethics item needs Omar placement). Lane 2 dispatched on the DNA-replication + embryology clusters. Fleet 20/20.
+
+### 2026-09-02 — FOMSCU SCU-FBS104 lane 1: TRIAGE NOT APPROVED (117c7f82, triage docs only)
+- EOM MID 2026: 34 items, only 4 are ≥4-option MCQs with a marked key; 22 are declarative recall statements, 7 sub-4-option. MEQ Book: 57 essay prompts, 0 SBA sub-questions. Combined 4/91 keyed = 4.4%. No sibling JSON, `01 University Material` empty for all four subjects. 0 authored.
+- NEEDS OMAR: a keyed FBS104 paper, or a ruling to author Foundation 3 by cross-university reuse without a native anchor, or permission to search the unclassified `_Staging/Telegram Year 1/` backlog. Slot refilled with SCU-MS105 lane 1. Fleet 20/20.
