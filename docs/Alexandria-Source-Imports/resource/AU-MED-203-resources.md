@@ -412,3 +412,113 @@ AU_Y2
 
 ## description
 Native-text, fully-keyed 151-question Week 1 EOM Final PDF (37 pages, Alpha Team), each page self-contained with 5 MCQs and its own inline answer line (no single end-of-file table). This lane read and authored the first 50 numbered MCQs (Q1-28 general sensory receptor physiology/histology dated "Sun 9th Feb", Q31-50 facial nerve/scalp/dural sinus anatomy dated "Mon 10th Feb"; Q29-30 do not exist in the source; 4 essay/discuss items on p8 and p36 are not MCQs and were excluded). Q47 (cavernous sinus lateral-wall contents) was held as duplicate-of a live ASU-CNS-3 concept and question, not re-authored. Q101-151 remain untriaged for a future pass. This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.
+
+
+---
+
+# Item
+
+## id
+src_70b2ac8853db17b047ea
+
+## title
+Alexandria MED 203 Nervous System — Week 2 EOM Final, Alpha Team (120 MCQs, first 60 keyed)
+
+## subject
+neuro
+
+## type
+Deck
+
+## source
+Alexandria University — Faculty of Medicine, ENS Alpha Team ("EOM MCQs - CNS- week 2 Final.pdf")
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+
+## year
+
+
+## topics
+Cranial nerve classification and function (mixed vs pure sensory, brainstem origins)
+Trigeminal, facial, glossopharyngeal, vagus, accessory and hypoglossal nerve anatomy and lesions
+Pain physiology (cutaneous, deep, visceral, neuropathic, referred pain, hyperalgesia)
+Head and neck triangles, lymphatics and pharyngeal apparatus embryology
+
+## chapter
+Nervous System/General/Questions/Alpha team — Week 2 EOM Final (27 pages, native text, inline per-page answer lines; Q1-30 dated "Mon 12th Feb", Q31-60 dated "Tue 18th Feb"; 6 short-answer/discuss items on p8 are essay questions, not MCQs, excluded)
+
+## module_ids
+AU-MED-203
+
+## module_subject
+AU-MED-203 > Nervous System > Week 2 EOM Final
+
+## included_concepts
+CON-FND-097E3862FA8FCE
+CON-FND-38BF8C89F34CCE
+CON-FND-4BAD664DBB3998
+CON-FND-73237AE125C5C9
+CON-FND-8331F31EDCE35A
+CON-FND-89E02E7D1409A3
+CON-FND-A0560E870FA4C5
+CON-FND-AF8179545008B7
+CON-FND-BA7A8A5934B2BA
+CON-FND-DBC37B46349A5E
+CON-FND-EBAC15C2904500
+CON-NEU-03093E01BBD357
+CON-NEU-068777F86127A5
+CON-NEU-0A343CEAC598C1
+CON-NEU-0E1AD1E14C3088
+CON-NEU-102FFC80EE7C16
+CON-NEU-32D2A696432409
+CON-NEU-378C9E8B9B91A6
+CON-NEU-39B7CDFB3D7FE4
+CON-NEU-3B7B90E23527D3
+CON-NEU-3C205DB26642C8
+CON-NEU-4649FFAC1F90DE
+CON-NEU-4689B238B17881
+CON-NEU-470615524F25C3
+CON-NEU-47E49F6360D93E
+CON-NEU-52B4D3A41317CF
+CON-NEU-63F71C9958C656
+CON-NEU-6CF47DA4D7ED77
+CON-NEU-6E25E1DB8128E6
+CON-NEU-7BA62B22448AB4
+CON-NEU-869BE9A0BA4E6C
+CON-NEU-94863E8166807D
+CON-NEU-9838C56DF4C7B2
+CON-NEU-989FC46929147E
+CON-NEU-9EFFC066CBBCC6
+CON-NEU-A8C169E7E287D7
+CON-NEU-A8D15895A6AE03
+CON-NEU-A9E505605A7AC4
+CON-NEU-BC675C44EA6366
+CON-NEU-C26E4DF5275EFC
+CON-NEU-CA598782E7DB86
+CON-NEU-D41EDB0AAD89F2
+CON-NEU-E186E50A769611
+CON-NEU-E75B0117960FCC
+CON-NEU-F246724EF98DA3
+
+## included_articles
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## concept_locations
+
+
+## universities
+au
+
+## years
+AU_Y2
+
+## description
+Native-text, fully-keyed 120-question Week 2 EOM Final PDF (27 pages, Alpha Team), each page self-contained with 5 MCQs and its own inline answer line (no single end-of-file table). This lane read and authored the first 60 numbered MCQs (Q1-30 cranial nerve/pain physiology dated "Mon 12th Feb", Q31-60 cranial nerve lesion localisation and pharyngeal arch embryology dated "Tue 18th Feb"; 6 short-answer/discuss items on p8 are not MCQs and were excluded). Q40 (palatine tonsil germ layer) was held — only 3 answer options present, below the 4-5 option contract. Q5 (trochlear nerve contralateral nucleus) was held from this batch — HIT-PENDING against an ASU-CNS-3 concept not yet imported, authored instead as a sparse pending-live overlay question. Q61-120 remain untriaged for a future pass. This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.
