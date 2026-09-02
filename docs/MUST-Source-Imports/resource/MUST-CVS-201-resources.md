@@ -475,3 +475,87 @@ MUST_Y2
 
 ## description
 MUST CVS-201 Microbiology's second EOM final, by Absalam101 & Rehab -- 30 MCQs + 5 short-essay questions covering the same four disease groups (infective endocarditis, myocarditis, pericarditis, rheumatic fever) as the sibling Mucize Doctors paper, largely different stems and a wider Coxsackievirus-biology and pericarditis-etiology spread. Printed answer key on p.9, model essay answers on p.10. Native-text PDF, no OCR needed. 18 of 30 MCQs authored this pass (12 held as duplicate-of a Mucize Doctors question testing the identical fact); the 5 essay questions are out of scope for this lane.
+
+---
+
+# Item
+
+## id
+src_67efbd148b42c6593611
+
+## title
+Pathology CVS201 Questions (Final)
+
+## subject
+cvs
+
+## type
+Deck
+
+## source
+MUST -- Faculty of Medicine, CVS 201 course team
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+
+## year
+2024
+
+## topics
+
+
+## chapter
+
+
+## module_ids
+MUST-CVS-201
+
+## included_concepts
+CON-CVS-197847608085B6
+CON-CVS-70D38691002F4A
+CON-CVS-BE0B74CF459B26
+CON-CVS-217CCB33D34DB0
+CON-CVS-E03F9800584C73
+CON-CVS-F7B45A1E821B0A
+CON-CVS-C400BC47E85D70
+CON-CVS-E0908501269680
+CON-CVS-F3E95B92367825
+CON-CVS-4A3DD926C2BCE4
+CON-CVS-0FFB81F3C1CC4B
+CON-CVS-5916244D7A012F
+CON-CVS-AA3A2E6B6084F2
+CON-CVS-00545B736FF8F7
+
+## included_articles
+ART-CVS-PERICARDIAL-EFFUSION-CLASSIFICATION
+ART-CVS-TB-PERICARDITIS-EXUDATE
+ART-CVS-SUPPURATIVE-PERICARDITIS
+ART-CVS-ATHEROMA-PLAQUE-STRUCTURE
+ART-CVS-ATHEROSCLEROSIS-COMPLICATIONS
+ART-CVS-BENIGN-HYPERTENSION
+ART-CVS-PREECLAMPSIA-HYPERTENSION-RISK
+ART-CVS-SLEEP-APNEA-HYPERTENSION-RISK
+ART-CVS-ANEURYSM-CLASSIFICATION
+ART-CVS-DISSECTING-AORTIC-ANEURYSM
+ART-CVS-RASMUSSEN-ANEURYSM
+ART-CVS-MYCOTIC-ANEURYSM
+ART-CVS-TAKAYASU-ARTERITIS
+ART-CVS-POLYARTERITIS-NODOSA
+
+## concept_locations
+
+
+## universities
+must
+
+## years
+MUST_Y2
+
+## description
+MUST CVS-201 Pathology's second EOM final (the first, Dr. Maria's, is a short-answer written compilation tranche 1 already authored) -- 60 MCQs + 10 short-essay questions across cardiomyopathies, pericardial disease, atherosclerosis, hypertension, aneurysms and vasculitis, by Absalam101 & Shahd. A single combined answer key is printed on p.16 itself (not a separate page); model essay answers on pp.18-19. Native-text PDF, no OCR needed. 19 actual pages, not the 23 the tranche-2 inventory estimated. All 60 MCQs authored this pass (0 held -- overlapping facts with Dr. Maria's sibling paper are dual-sourced against the same already-tagged concept, not held as duplicate); the 10 essay questions are out of scope for this lane.

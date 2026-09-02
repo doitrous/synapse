@@ -1,0 +1,1935 @@
+<!--
+  MUST-CVS-201 - Pathology tranche (author6) - pending-live MCQs (main_concept pending in another lane's unimported batch: docs/import-ready/concept/SYS-CVS-CONCEPT-T04.md and docs/import-ready/concept/SYS-CVS-CONCEPT-T06.md, the Year-3 SYS-CVS catalogue, plus docs/Alexandria-Source-Imports/concept/AU-MED-106-physiology-concepts.md via docs/MUST-Source-Imports/pending-live/MUST-CVS-201-concepts-overlay.md) from the Pathology CVS201 EOM Final paper, keys read from the paper's own printed combined answer key (p.16).
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q01
+
+## title
+Cardiomyopathy with massive asymmetrical septal hypertrophy without dilatation
+
+## question
+Which type of cardiomyopathy is characterized by massive asymmetrical hypertrophy of the left ventricle, especially the interventricular septum, without dilatation?
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Dilated cardiomyopathy
+
+## explanation_a
+Incorrect. Dilated cardiomyopathy is chamber dilatation with systolic impairment, the opposite pattern to the massive, non-dilated hypertrophy described here.
+
+## answer_b
+Restrictive cardiomyopathy
+
+## explanation_b
+Incorrect. Restrictive cardiomyopathy impairs filling through a stiff, non-compliant myocardium; it does not classically produce massive asymmetrical septal hypertrophy.
+
+## answer_c
+Hypertrophic cardiomyopathy
+
+## explanation_c
+Correct. Hypertrophic cardiomyopathy is left ventricular hypertrophy, characteristically asymmetric and concentrated in the interventricular septum, occurring without loading conditions such as hypertension or aortic stenosis to explain it, and without ventricular dilatation. Most identified cases arise from mutations in genes encoding sarcomere proteins, and histology shows myocyte disarray and fibrosis, which forms the substrate for arrhythmia and sudden cardiac death in an otherwise well young person. Family screening is part of the diagnostic pathway because the inheritance is typically autosomal dominant.
+
+## answer_d
+Alcoholic cardiomyopathy
+
+## explanation_d
+Incorrect. Alcoholic cardiomyopathy is a specific cause of dilated, not hypertrophic, cardiomyopathy, from chronic ethanol-related myocardial toxicity.
+
+## topic
+Pathology
+
+## subtopic
+Cardiomyopathies
+
+## main_concept
+CON-CVS-D65416DBAEAA0E
+
+## concept_ids
+CON-CVS-D65416DBAEAA0E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Cardiomyopathies > Hypertrophic Cardiomyopathy
+
+## question_only_for
+
+## library_ids
+ART-CVS-HYPERTROPHIC-CARDIOMYOPATHY
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that hypertrophic cardiomyopathy is left ventricular hypertrophy, characteristically asymmetric and concentrated in the interventricular septum, occurring without loading conditions such as hypertension or aortic stenosis to explain it, and without ventricular dilatation.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q02
+
+## title
+Most common type of cardiomyopathy
+
+## question
+The most common type of cardiomyopathy is:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Hypertrophic
+
+## explanation_a
+Incorrect. Hypertrophic cardiomyopathy is an important cause of sudden cardiac death in the young but is less common overall than dilated cardiomyopathy.
+
+## answer_b
+Restrictive
+
+## explanation_b
+Incorrect. Restrictive cardiomyopathy is the rarest of the three classic cardiomyopathy types in most populations.
+
+## answer_c
+Dilated
+
+## explanation_c
+Correct. Dilated cardiomyopathy is the most common of the three classic cardiomyopathy types, defined as dilatation of the cardiac chambers with systolic impairment not explained by abnormal loading conditions or coronary artery disease. Its causes span inherited mutations, chronic alcohol use, heavy-metal exposure and viral infection. Gross examination typically shows dilatation of all four chambers with a pale, flabby myocardium and often a mural thrombus.
+
+## answer_d
+Ischemic
+
+## explanation_d
+Incorrect. "Ischemic cardiomyopathy" describes chamber dysfunction from coronary artery disease and is not one of the three classic primary cardiomyopathy categories being ranked here.
+
+## topic
+Pathology
+
+## subtopic
+Cardiomyopathies
+
+## main_concept
+CON-CVS-C531A645354244
+
+## concept_ids
+CON-CVS-C531A645354244
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Cardiomyopathies > Dilated Cardiomyopathy
+
+## question_only_for
+
+## library_ids
+ART-CVS-DILATED-CARDIOMYOPATHY
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that dilated cardiomyopathy is the most common of the three classic cardiomyopathy types, defined as dilatation of the cardiac chambers with systolic impairment not explained by abnormal loading conditions or coronary artery disease.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q03
+
+## title
+Rigid stiff myocardium with impaired diastolic filling
+
+## question
+A patient presents with rigid and stiff myocardium leading to impaired diastolic filling. This is most consistent with:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Dilated cardiomyopathy
+
+## explanation_a
+Incorrect. Dilated cardiomyopathy is a systolic (emptying) problem in a dilated chamber, not a diastolic (filling) problem in a stiff one.
+
+## answer_b
+Hypertrophic cardiomyopathy
+
+## explanation_b
+Incorrect. Hypertrophic cardiomyopathy can also impair filling, but its defining feature is asymmetric septal hypertrophy with dynamic outflow obstruction, not a globally rigid, non-hypertrophied myocardium.
+
+## answer_c
+Restrictive cardiomyopathy
+
+## explanation_c
+Correct. Restrictive cardiomyopathy impairs ventricular filling because the myocardium becomes rigid and non-compliant, without significant dilatation or hypertrophy of the chamber itself. Causes include infiltrative diseases such as amyloidosis and haemochromatosis, endomyocardial fibrosis, and effects of cancer treatments such as radiation. Because the muscle itself is the problem rather than the pericardial sac, it must be distinguished clinically from constrictive pericarditis, which produces a similar filling pattern from a rigid sac around an otherwise normal myocardium.
+
+## answer_d
+Viral myocarditis
+
+## explanation_d
+Incorrect. Viral myocarditis is inflammation of the myocardium, most often producing a dilated, hypocontractile pattern rather than the stiff, restrictive filling pattern described.
+
+## topic
+Pathology
+
+## subtopic
+Cardiomyopathies
+
+## main_concept
+CON-CVS-4A41D59159ED61
+
+## concept_ids
+CON-CVS-4A41D59159ED61
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Cardiomyopathies > Restrictive Cardiomyopathy
+
+## question_only_for
+
+## library_ids
+ART-CVS-RESTRICTIVE-CARDIOMYOPATHY
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that restrictive cardiomyopathy impairs ventricular filling because the myocardium becomes rigid and non-compliant, without significant dilatation or hypertrophy of the chamber itself.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q04
+
+## title
+Dilated cardiomyopathy microscopic findings
+
+## question
+Microscopically, dilated cardiomyopathy shows:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Myocyte hypertrophy and interstitial fibrosis
+
+## explanation_a
+Incorrect. Myocyte hypertrophy is the histological hallmark of a hypertrophic, not a dilated, process.
+
+## answer_b
+Myocyte thinning, interstitial fibrosis
+
+## explanation_b
+Correct. Dilated cardiomyopathy shows thinned myocytes together with interstitial fibrosis and scattered chronic inflammatory cells on microscopy, mirroring the gross picture of a dilated, thin-walled, pale and flabby heart. This thinning-plus-fibrosis pattern reflects progressive loss of contractile mass and its replacement by non-contractile scar, which is why the dominant functional consequence is impaired systolic pumping rather than a filling problem.
+
+## answer_c
+Fibrosis of papillary muscles and chordae tendineae
+
+## explanation_c
+Incorrect. Isolated papillary-muscle and chordal fibrosis describes a valvular/subvalvular process (such as post-ischaemic mitral regurgitation), not the diffuse myocardial change of dilated cardiomyopathy.
+
+## answer_d
+Amyloid deposition
+
+## explanation_d
+Incorrect. Amyloid deposition is the histological finding in restrictive (infiltrative) cardiomyopathy from amyloidosis, not in dilated cardiomyopathy.
+
+## topic
+Pathology
+
+## subtopic
+Cardiomyopathies
+
+## main_concept
+CON-CVS-C531A645354244
+
+## concept_ids
+CON-CVS-C531A645354244
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Cardiomyopathies > Dilated Cardiomyopathy
+
+## question_only_for
+
+## library_ids
+ART-CVS-DILATED-CARDIOMYOPATHY
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that dilated cardiomyopathy shows thinned myocytes together with interstitial fibrosis and scattered chronic inflammatory cells on microscopy, mirroring the gross picture of a dilated, thin-walled, pale and flabby heart.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q05
+
+## title
+Cause not typically producing restrictive cardiomyopathy
+
+## question
+Restrictive cardiomyopathy can be caused by all EXCEPT:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Amyloidosis
+
+## explanation_a
+Incorrect. This is a recognised cause. Amyloidosis is a classic infiltrative cause of restrictive cardiomyopathy, so it is not the exception being asked for.
+
+## answer_b
+Hemochromatosis
+
+## explanation_b
+Incorrect. This is a recognised cause. Haemochromatosis, with iron deposition stiffening the myocardium, is a classic infiltrative cause of restrictive cardiomyopathy, so it is not the exception.
+
+## answer_c
+Viral infection
+
+## explanation_c
+Correct. Viral infection is the classic cause of an inflammatory, usually dilated cardiomyopathy (myocarditis), not the infiltrative or fibrotic process that produces restrictive cardiomyopathy. The restrictive pattern is instead produced by deposition diseases (amyloidosis, haemochromatosis), endomyocardial fibrosis, or the late fibrotic effects of cancer treatments such as radiotherapy, which stiffen the myocardium without primarily inflaming or dilating it.
+
+## answer_d
+Cancer treatments
+
+## explanation_d
+Incorrect. This is a recognised cause. Radiation and other cancer-treatment-related fibrosis is a recognised cause of restrictive cardiomyopathy, so it is not the exception.
+
+## topic
+Pathology
+
+## subtopic
+Cardiomyopathies
+
+## main_concept
+CON-CVS-4A41D59159ED61
+
+## concept_ids
+CON-CVS-4A41D59159ED61
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Cardiomyopathies > Restrictive Cardiomyopathy
+
+## question_only_for
+
+## library_ids
+ART-CVS-RESTRICTIVE-CARDIOMYOPATHY
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that viral infection is the classic cause of an inflammatory, usually dilated cardiomyopathy (myocarditis), not the infiltrative or fibrotic process that produces restrictive cardiomyopathy.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q07
+
+## title
+Most common cause of cardiac tamponade
+
+## question
+Cardiac tamponade is most commonly caused by:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Viral pericarditis
+
+## explanation_a
+Incorrect. Viral pericarditis is a common cause of pericarditis generally, but it is not the leading cause of tamponade specifically, since its effusions usually accumulate slowly and are often modest in volume.
+
+## answer_b
+Malignant tumors
+
+## explanation_b
+Correct. Malignant tumours — either primary pericardial neoplasms or, more often, metastatic disease seeding the pericardium — are the most common cause of cardiac tamponade. Malignant effusions tend to be large and can also accumulate quickly enough to overcome the pericardium's slow-stretch compensation, producing the impaired ventricular filling that defines tamponade. Uraemia and idiopathic effusion are the other major causes named for this same clinical picture.
+
+## answer_c
+Autoimmune disease
+
+## explanation_c
+Incorrect. Autoimmune disease can cause pericardial effusion but is not ranked as the most common cause of tamponade.
+
+## answer_d
+Trauma
+
+## explanation_d
+Incorrect. Trauma is an important cause of tamponade, particularly when a small volume of blood accumulates rapidly (haemopericardium), but it is not the single most common cause overall.
+
+## topic
+Pathology
+
+## subtopic
+Pericardial Disease
+
+## main_concept
+CON-CVS-ABE9CE4B64FEF8
+
+## concept_ids
+CON-CVS-ABE9CE4B64FEF8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Pericardial Disease > Cardiac Tamponade
+
+## question_only_for
+
+## library_ids
+ART-CVS-CARDIAC-TAMPONADE
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that malignant tumours — either primary pericardial neoplasms or, more often, metastatic disease seeding the pericardium — are the most common cause of cardiac tamponade.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q10
+
+## title
+Constrictive pericarditis (Pick's disease) as a complication
+
+## question
+Constrictive pericarditis (Pick's disease) is a complication of:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Serous pericarditis
+
+## explanation_a
+Incorrect. Serous pericarditis typically resolves without the dense, organising fibrosis that produces constriction.
+
+## answer_b
+Suppurative pericarditis
+
+## explanation_b
+Correct. Constrictive pericarditis, historically called Pick's disease, is a late complication of pericardial inflammation that has organised into dense, often calcified, fibrous scar rigid enough to fix total cardiac volume. Suppurative (pyogenic) pericarditis and tuberculous pericarditis are the two infective causes most classically named as antecedents, because both leave behind exactly this kind of organising, scarring inflammation as they heal.
+
+## answer_c
+Hemopericardium
+
+## explanation_c
+Incorrect. Haemopericardium is blood in the pericardial space, most often causing acute tamponade rather than the chronic organising fibrosis that produces constriction.
+
+## answer_d
+Idiopathic pericarditis
+
+## explanation_d
+Incorrect. Idiopathic pericarditis is a recognised, usually self-limited cause of pericarditis, but it is not the classic antecedent named for constrictive disease the way suppurative or tuberculous pericarditis is.
+
+## topic
+Pathology
+
+## subtopic
+Pericardial Disease
+
+## main_concept
+CON-CVS-E1FE73100F1688
+
+## concept_ids
+CON-CVS-E1FE73100F1688
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Pericardial Disease > Constrictive Pericarditis
+
+## question_only_for
+
+## library_ids
+ART-CVS-CONSTRICTIVE-PERICARDITIS
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that constrictive pericarditis, historically called Pick's disease, is a late complication of pericardial inflammation that has organised into dense, often calcified, fibrous scar rigid enough to fix total cardiac volume.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q11
+
+## title
+Haemopericardium and death
+
+## question
+Hemopericardium is most likely to cause death due to:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Myocardial infarction
+
+## explanation_a
+Incorrect. Blood in the pericardial space does not itself infarct the myocardium; it compresses the heart from outside.
+
+## answer_b
+Cardiac tamponade
+
+## explanation_b
+Correct. Haemopericardium — blood accumulating in the pericardial space, from trauma, myocardial rupture or aortic dissection — is a rapid-accumulation effusion, and because the pericardium stretches slowly, even a relatively small volume arriving quickly raises intrapericardial pressure sharply. This impairs ventricular filling and produces cardiac tamponade, a haemodynamic emergency that is the proximate cause of death rather than the underlying bleeding itself.
+
+## answer_c
+Congestive heart failure
+
+## explanation_c
+Incorrect. Congestive heart failure is a chronic pump-failure syndrome, not the acute mechanical filling problem produced by blood compressing the heart.
+
+## answer_d
+Pulmonary edema
+
+## explanation_d
+Incorrect. Pulmonary oedema can be a downstream consequence of cardiac compromise, but it is not the direct, immediate mechanism by which haemopericardium kills.
+
+## topic
+Pathology
+
+## subtopic
+Pericardial Disease
+
+## main_concept
+CON-CVS-ABE9CE4B64FEF8
+
+## concept_ids
+CON-CVS-ABE9CE4B64FEF8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Pericardial Disease > Cardiac Tamponade
+
+## question_only_for
+
+## library_ids
+ART-CVS-CARDIAC-TAMPONADE
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that haemopericardium — blood accumulating in the pericardial space, from trauma, myocardial rupture or aortic dissection — is a rapid-accumulation effusion, and because the pericardium stretches slowly, even a relatively small volume arriving quickly raises intrapericardial pressure sharply.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q18
+
+## title
+Blood pressure threshold defining hypertension
+
+## question
+Hypertension is defined as sustained blood pressure above:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+120/80 mmHg
+
+## explanation_a
+Incorrect. 120/80 mmHg is the upper limit of normal blood pressure, not the sustained-hypertension threshold this paper prints.
+
+## answer_b
+130/85 mmHg
+
+## explanation_b
+Incorrect. 130/85 mmHg falls within the "high-normal"/pre-hypertension range in most classifications, not the printed hypertension threshold here.
+
+## answer_c
+140/90 mmHg
+
+## explanation_c
+Correct. This source defines hypertension as sustained blood pressure persistently above 140/90 mmHg. Hypertension is arterial blood pressure persistently elevated above the normal range, and when secondary rather than essential (primary), it is most often caused by endocrine disease (such as Conn's syndrome or phaeochromocytoma) or kidney disease (such as renal artery stenosis).
+
+## answer_d
+150/95 mmHg
+
+## explanation_d
+Incorrect. 150/95 mmHg is higher than the threshold this source prints for the definition of hypertension itself.
+
+## topic
+Pathology
+
+## subtopic
+Hypertension
+
+## main_concept
+CON-CVS-F4BBA78E076D30
+
+## concept_ids
+CON-CVS-F4BBA78E076D30
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Hypertension > Definition and Secondary Causes
+
+## question_only_for
+
+## library_ids
+ART-CVS-BP-PULSE-AUSCULTATION
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that this source defines hypertension as sustained blood pressure persistently above 140/90 mmHg.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q19
+
+## title
+Most common type of hypertension
+
+## question
+The most common type of hypertension is:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Malignant hypertension
+
+## explanation_a
+Incorrect. Malignant hypertension is a severe, acute-on-chronic emergency form, a small minority of all hypertension, not the most common type.
+
+## answer_b
+Secondary hypertension
+
+## explanation_b
+Incorrect. Secondary hypertension (from an identifiable endocrine, renal or other cause) accounts for a minority of cases compared with essential hypertension.
+
+## answer_c
+Essential hypertension
+
+## explanation_c
+Correct. Essential (primary) hypertension, with no single identifiable secondary cause, accounts for the large majority of hypertension cases seen clinically. It contrasts with secondary hypertension, whose specific endocrine or renal causes (such as Conn's syndrome or renal artery stenosis) are individually less common even though together they still form a clinically important minority.
+
+## answer_d
+Renal hypertension
+
+## explanation_d
+Incorrect. Renal hypertension is one specific subtype of secondary hypertension and is not the most common type overall.
+
+## topic
+Pathology
+
+## subtopic
+Hypertension
+
+## main_concept
+CON-CVS-F4BBA78E076D30
+
+## concept_ids
+CON-CVS-F4BBA78E076D30
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Hypertension > Definition and Secondary Causes
+
+## question_only_for
+
+## library_ids
+ART-CVS-BP-PULSE-AUSCULTATION
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that essential (primary) hypertension, with no single identifiable secondary cause, accounts for the large majority of hypertension cases seen clinically.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q20
+
+## title
+Cause of secondary hypertension
+
+## question
+Which of the following is a cause of secondary hypertension?
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Essential hypertension
+
+## explanation_a
+Incorrect. Essential hypertension is, by definition, hypertension without an identifiable secondary cause — it cannot itself be a cause of secondary hypertension.
+
+## answer_b
+Conn's syndrome
+
+## explanation_b
+Correct. Conn's syndrome (primary hyperaldosteronism) is a classic endocrine cause of secondary hypertension: excess aldosterone drives sodium and water retention and potassium loss, raising blood pressure independently of the kidney's own intrinsic disease. Secondary hypertension is most often caused by endocrine disease such as this, or by kidney disease such as renal artery stenosis, which is why a specific named endocrine syndrome like Conn's is the answer being tested here.
+
+## answer_c
+Idiopathic causes
+
+## explanation_c
+Incorrect. "Idiopathic" means no cause is identified, which describes essential hypertension's definition, not a cause of the secondary form.
+
+## answer_d
+Stress only
+
+## explanation_d
+Incorrect. Stress alone, without an identifiable endocrine or renal disease process, is not classified as a cause of secondary hypertension.
+
+## topic
+Pathology
+
+## subtopic
+Hypertension
+
+## main_concept
+CON-CVS-F4BBA78E076D30
+
+## concept_ids
+CON-CVS-F4BBA78E076D30
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Hypertension > Definition and Secondary Causes
+
+## question_only_for
+
+## library_ids
+ART-CVS-BP-PULSE-AUSCULTATION
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that conn's syndrome (primary hyperaldosteronism) is a classic endocrine cause of secondary hypertension: excess aldosterone drives sodium and water retention and potassium loss, raising blood pressure independently of the kidney's own intrinsic disease.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q39
+
+## title
+Vignette: TB history with distended neck veins and small quiet heart
+
+## question
+A patient with a history of TB now presents with dyspnea, distended neck veins, and a small, quiet heart on imaging. The most likely diagnosis is:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Cardiac tamponade
+
+## explanation_a
+Incorrect. Tamponade typically shows an enlarged, globular cardiac silhouette from the effusion itself, not a small, quiet heart.
+
+## answer_b
+Constrictive pericarditis
+
+## explanation_b
+Correct. Tuberculosis is a leading cause of constrictive pericarditis in regions where it is endemic, as tuberculous pericardial inflammation organises into dense, often calcified fibrous scar. The resulting rigid, non-compliant pericardium fixes total cardiac volume, producing distended neck veins from impaired filling and a small, quiet heart on imaging because the myocardium itself, unlike in dilated or hypertrophic disease, is not enlarged.
+
+## answer_c
+Dilated cardiomyopathy
+
+## explanation_c
+Incorrect. Dilated cardiomyopathy produces an enlarged, not small, cardiac silhouette from chamber dilatation.
+
+## answer_d
+Hypertrophic cardiomyopathy
+
+## explanation_d
+Incorrect. Hypertrophic cardiomyopathy produces a thickened, not small, ventricular wall and does not classically follow a TB history.
+
+## topic
+Pathology
+
+## subtopic
+Pericardial Disease
+
+## main_concept
+CON-CVS-E1FE73100F1688
+
+## concept_ids
+CON-CVS-E1FE73100F1688
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Pericardial Disease > Constrictive Pericarditis
+
+## question_only_for
+
+## library_ids
+ART-CVS-CONSTRICTIVE-PERICARDITIS
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that tuberculosis is a leading cause of constrictive pericarditis in regions where it is endemic, as tuberculous pericardial inflammation organises into dense, often calcified fibrous scar.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q50
+
+## title
+Finding not typically shown in constrictive pericarditis
+
+## question
+A patient with constrictive pericarditis would NOT typically show:
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Cardiac hypertrophy
+
+## explanation_a
+Correct. Constrictive pericarditis fixes total cardiac volume within a rigid, non-compliant, often calcified, fibrosed pericardium, and the myocardium itself is not primarily diseased and does not hypertrophy — the heart typically appears small, not enlarged, on imaging. Cardiac hypertrophy is therefore not a typical finding, unlike in a primary myocardial disease such as hypertension or hypertrophic cardiomyopathy.
+
+## answer_b
+Chronic venous congestion
+
+## explanation_b
+Incorrect. This is a typical finding. The fixed, rigid pericardium impairs venous return to the heart, producing chronic venous congestion (distended neck veins, hepatic congestion, oedema), so it is not the exception.
+
+## answer_c
+Small heart size
+
+## explanation_c
+Incorrect. This is a typical finding. Because the myocardium itself is not enlarged, the heart typically appears small on imaging, so it is not the exception.
+
+## answer_d
+Fibrosed pericardium
+
+## explanation_d
+Incorrect. This is a typical finding. A thickened, fibrosed (often calcified) pericardium is the defining structural change of constriction, so it is not the exception.
+
+## topic
+Pathology
+
+## subtopic
+Pericardial Disease
+
+## main_concept
+CON-CVS-E1FE73100F1688
+
+## concept_ids
+CON-CVS-E1FE73100F1688
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Pericardial Disease > Constrictive Pericarditis
+
+## question_only_for
+
+## library_ids
+ART-CVS-CONSTRICTIVE-PERICARDITIS
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that constrictive pericarditis fixes total cardiac volume within a rigid, non-compliant, often calcified, fibrosed pericardium, and the myocardium itself is not primarily diseased and does not hypertrophy — the heart typically appears small, not enlarged, on imaging.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-MUSTCVS201-PATHOLOGY-PENDING-Q60
+
+## title
+Feature not typical of dilated cardiomyopathy microscopy
+
+## question
+Which of the following is NOT a typical microscopic feature of dilated cardiomyopathy?
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Myocyte hypertrophy
+
+## explanation_a
+Correct. Dilated cardiomyopathy shows myocyte thinning, not myocyte hypertrophy, on microscopy — the chamber dilates and the muscle mass is stretched and attenuated rather than thickened. Hypertrophy is instead the histological hallmark of a hypertrophic, not a dilated, process, which is why it is the feature that does not belong on this list.
+
+## answer_b
+Myocyte thinning
+
+## explanation_b
+Incorrect. This is a typical microscopic feature. Myocyte thinning is part of the classic dilated cardiomyopathy picture, so it is not the exception.
+
+## answer_c
+Interstitial fibrosis
+
+## explanation_c
+Incorrect. This is a typical microscopic feature. Interstitial fibrosis is part of the classic dilated cardiomyopathy picture, so it is not the exception.
+
+## answer_d
+Chronic inflammation
+
+## explanation_d
+Incorrect. This is a typical microscopic feature. Scattered chronic inflammatory cells are part of the classic dilated cardiomyopathy picture, so it is not the exception.
+
+## topic
+Pathology
+
+## subtopic
+Cardiomyopathies
+
+## main_concept
+CON-CVS-C531A645354244
+
+## concept_ids
+CON-CVS-C531A645354244
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+MUST_Y2=moderate
+
+## years
+MUST_Y2
+
+## universities
+must
+
+## module
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Pathology > Cardiomyopathies > Dilated Cardiomyopathy
+
+## question_only_for
+
+## library_ids
+ART-CVS-DILATED-CARDIOMYOPATHY
+
+## resource_ids
+src_67efbd148b42c6593611
+
+## learning_objective
+Recognise that dilated cardiomyopathy shows myocyte thinning, not myocyte hypertrophy, on microscopy — the chamber dilates and the muscle mass is stretched and attenuated rather than thickened.
+
+## source_citation
+Pathology CVS201 Questions (Final), key p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes

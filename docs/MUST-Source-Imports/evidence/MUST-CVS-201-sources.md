@@ -325,3 +325,58 @@ A department/student-carried Microbiology EOM (End of Module) exam compilation w
 
 ## is_assessment
 yes
+
+---
+
+# Item
+
+## id
+src_67efbd148b42c6593611
+
+## title
+Pathology CVS201 Questions (Final)
+
+## institution
+MUST -- Faculty of Medicine
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-CVS-201
+
+## source_relative_path
+Semester 201/CVS 201/Pathology/06 EOM Exams/EOM MCQs - Pathology CVS201 Questions (Final).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-02
+
+## page_count
+19
+
+## sha256
+67efbd148b42c6593611e30ae4117f31edfea2d095b7c6e962f7d47cd7cdba83
+
+## rights
+Locally supplied study material; internal curriculum authoring only.
+
+## qualification
+A department/student-carried Pathology EOM (End of Module) exam compilation with a single combined answer key printed on p.16 (60 MCQ) and model essay answers on pp.18-19 (10 essay) -- curriculum exam signal for what MUST CVS-201 tests, not an independent medical authority. Its own intro page states "23 Questions" is not printed; the manifest/tranche-2 inventory line estimated 23 pages, the actual PDF is 19 (`pagetext.mjs status` and `mdls` agree) -- a source page-count discrepancy noted, not corrected.
+
+## confidence
+0.6
+
+## is_assessment
+yes

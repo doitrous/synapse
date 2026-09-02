@@ -347,3 +347,91 @@ micro2-essay5 key=printed  Pathogenesis of rheumatic fever
 "coxsackie", "janeway lesions", "antistreptolysin", "jones criteria", "dextran biofilm", "picornaviridae", "prosthetic valve", "blood culture endocarditis", "corynebacterium diphtheriae" (for the myocarditis-complication fact specifically), "normal flora oropharynx", "glycocalyx medical device", "acute bacterial endocarditis", "empiric antibiotic coverage endocarditis" -> no hit on any of these specific facts -> new mints (31 of the 32 total; the 32nd, embolic-pattern S. aureus endocarditis, was minted alongside the IVDU-risk-factor S. aureus concept as a distinct facet)
 
 Tally: 60 MCQs triaged across both papers (30+30), 60/60 keyed, 45 authored (27 micro1 + 18 micro2), 15 held (3 intra-paper micro1 duplicates + 12 cross-paper duplicates, each with duplicate-of and a one-line reason), 10 essay questions triaged and logged out of scope (not authored). 38 concepts used by the 45 authored questions: 32 new mints, 4 live (2 pre-existing sparse updates this tranche wrote, 1 already MUST-CVS-201-tagged by tranche 1, all CON-INF-* rheumatic-fever family), 2 pending sparse-overlay reuses (Viridans/dental-IE and novobiocin/epidermidis, both ASU-INF), 1 more pending sparse-overlay reuse (penicillin RF prophylaxis, MUST's own FHB-102-2).
+
+--- Pathology CVS201 Questions (Final), tranche 6 (2026-09-02, lane 6, branch must-cvs201-author6) ---
+`Pathology/06 EOM Exams/EOM MCQs - Pathology CVS201 Questions (Final).pdf`, by Absalam101 & Shahd, src_67efbd148b42c6593611. Native-text (`pagetext.mjs status`: no garbled pages, no OCR needed). 19 actual pages (`mdls`/`pagetext.mjs status` both agree), not the 23 the tranche-2 inventory line estimated -- a source page-count discrepancy noted, not corrected. Intro page states "70 Questions (60 MCQs + 10 Essay Questions)"; confirmed exact: 60 MCQ on pp.1-16 with a single combined answer key printed on p.16 itself (not a separate key page), 10 essay questions on p.17 with model answers on pp.18-19. 60/60 MCQ keyed, 10/10 essay keyed. One source typo: Q23's options C and D are both printed "180 mmHg" (a duplication, not a real fourth distractor); the printed key (C) stands per LANE-CARD.md rule 2, noted in that question's author_notes rather than silently corrected.
+
+patho-q01 key=C  Massive asymmetrical LV/septal hypertrophy without dilatation -> hypertrophic cardiomyopathy [AUTHORED patho-q01, pending]
+patho-q02 key=C  Most common type of cardiomyopathy -> dilated [AUTHORED patho-q02, pending]
+patho-q03 key=C  Rigid/stiff myocardium, impaired diastolic filling -> restrictive cardiomyopathy [AUTHORED patho-q03, pending]
+patho-q04 key=B  Dilated cardiomyopathy microscopy -> myocyte thinning, interstitial fibrosis [AUTHORED patho-q04, pending]
+patho-q05 key=C  Restrictive cardiomyopathy causes EXCEPT -> viral infection (not a cause) [AUTHORED patho-q05, pending]
+patho-q06 key=B  Pericardial effusion from lymphatic-drainage obstruction -> transudative [AUTHORED patho-q06]
+patho-q07 key=B  Cardiac tamponade most commonly caused by -> malignant tumors [AUTHORED patho-q07, pending]
+patho-q08 key=B  "Bread and butter" pericarditis appearance -> fibrinous [AUTHORED patho-q08]
+patho-q09 key=C  TB pericarditis exudate is likely -> fibrinous and hemorrhagic [AUTHORED patho-q09]
+patho-q10 key=B  Constrictive pericarditis (Pick's disease) is a complication of -> suppurative pericarditis [AUTHORED patho-q10, pending]
+patho-q11 key=B  Hemopericardium causes death most likely via -> cardiac tamponade [AUTHORED patho-q11, pending]
+patho-q12 key=C  First grossly visible lesion in atherosclerosis -> fatty streak [AUTHORED patho-q12]
+patho-q13 key=C  Fatty streaks most commonly found in -> aortic valve and thoracic aorta [AUTHORED patho-q13]
+patho-q14 key=B  Basic lesion of atherosclerosis -> fibrous atheromatous plaque [AUTHORED patho-q14]
+patho-q15 key=B  Zone of the plaque with foam cells and cholesterol -> lipid zone [AUTHORED patho-q15]
+patho-q16 key=C  Complications of atherosclerosis EXCEPT -> hypertrophic cardiomyopathy (not a complication) [AUTHORED patho-q16]
+patho-q17 key=C  Limb claudication primarily due to atherosclerosis of -> popliteal artery [AUTHORED patho-q17]
+patho-q18 key=C  Hypertension defined as sustained BP above -> 140/90 mmHg [AUTHORED patho-q18, pending]
+patho-q19 key=C  Most common type of hypertension -> essential [AUTHORED patho-q19, pending]
+patho-q20 key=B  Cause of secondary hypertension -> Conn's syndrome [AUTHORED patho-q20, pending]
+patho-q21 key=B  Benign hypertension characterized by BP below -> 200/110 mmHg [AUTHORED patho-q21]
+patho-q22 key=B  Kidney in benign hypertension may show -> hyaline arteriolosclerosis [AUTHORED patho-q22]
+patho-q23 key=C  Malignant hypertension diastolic pressure above -> 180 mmHg (source prints "180 mmHg" for both C and D; key selects C) [AUTHORED patho-q23]
+patho-q24 key=C  Most common cause of death in benign hypertension -> congestive heart failure [AUTHORED patho-q24]
+patho-q25 key=B  Fibrinoid necrosis of arterioles characteristic of -> malignant hypertension [AUTHORED patho-q25]
+patho-q26 key=B  True aneurysm wall composed of -> complete vessel wall layers [AUTHORED patho-q26]
+patho-q27 key=B  Fusiform aneurysm involves -> entire circumference [AUTHORED patho-q27]
+patho-q28 key=B  Most common site for atherosclerotic aneurysm -> abdominal aorta [AUTHORED patho-q28]
+patho-q29 key=C  Dissecting aneurysm most associated with -> Marfan syndrome [AUTHORED patho-q29]
+patho-q30 key=B  Rasmussen aneurysm affects -> pulmonary artery in TB [AUTHORED patho-q30]
+patho-q31 key=A  Atherosclerosis occurs in which layer -> tunica intima [AUTHORED patho-q31]
+patho-q32 key=B  Complications of aneurysms EXCEPT -> improved blood flow (not a complication) [AUTHORED patho-q32]
+patho-q33 key=B  Takayasu arteritis typically affects -> women of childbearing age [AUTHORED patho-q33]
+patho-q34 key=C  Polyarteritis nodosa most commonly involves arteries of -> GIT [AUTHORED patho-q34]
+patho-q35 key=A  Hyperplastic arteriolosclerosis typically seen in -> malignant hypertension [AUTHORED patho-q35]
+patho-q36 key=A  Hyaline arteriolosclerosis characteristic of -> benign hypertension [AUTHORED patho-q36]
+patho-q37 key=B  Vignette, smoker+HTN+calf claudication -> atherosclerosis of popliteal artery [AUTHORED patho-q37]
+patho-q38 key=B  Vignette, 210/180 + retinal hemorrhages + renal impairment -> malignant hypertension [AUTHORED patho-q38]
+patho-q39 key=B  Vignette, TB history + distended neck veins + small quiet heart -> constrictive pericarditis [AUTHORED patho-q39, pending]
+patho-q40 key=C  Vignette, atherosclerosis + tearing back pain + hypotension -> dissecting aortic aneurysm [AUTHORED patho-q40]
+patho-q41 key=B  Vignette, fever + murmur + pulsating groin mass + Staph+ -> mycotic aneurysm [AUTHORED patho-q41]
+patho-q42 key=D  Order of death causes, benign hypertension -> CHF -> coronary infarction -> cerebral hemorrhage -> renal failure [AUTHORED patho-q42]
+patho-q43 key=A  Order of death causes, malignant hypertension -> renal failure -> heart failure -> coronary heart disease -> cerebral hemorrhage [AUTHORED patho-q43, pending]
+patho-q44 key=A  Lipid zone contains all EXCEPT -> collagen (not a lipid-zone component) [AUTHORED patho-q44]
+patho-q45 key=A  NOT a risk factor for atherosclerosis -> young age [AUTHORED patho-q45]
+patho-q46 key=D  Pre-eclampsia is associated with -> all of the above (first pregnancy, old age, diabetes) [AUTHORED patho-q46]
+patho-q47 key=D  Sleep apnea is a risk factor for -> all of the above (hypertension, stroke, heart attack) [AUTHORED patho-q47]
+patho-q48 key=C  Hyaline changes in arterioles due to deposition of -> abnormal protein [AUTHORED patho-q48]
+patho-q49 key=B  Pericarditis most likely to follow a penetrating chest wound -> suppurative [AUTHORED patho-q49]
+patho-q50 key=A  Constrictive pericarditis would NOT typically show -> cardiac hypertrophy [AUTHORED patho-q50, pending]
+patho-q51 key=B  Dystrophic calcification in atherosclerotic plaques leads to -> hardening of vessels [AUTHORED patho-q51]
+patho-q52 key=C  Atherosclerotic renal artery stenosis can lead to -> both hypertension and renal infarction [AUTHORED patho-q52]
+patho-q53 key=C  Feature of suppurative pericarditis -> purulent exudate [AUTHORED patho-q53]
+patho-q54 key=D  Malignant hypertension retinal findings include -> all of the above (hemorrhages, exudates, papilledema) [AUTHORED patho-q54]
+patho-q55 key=D  Hyaline arteriolosclerosis is seen in -> all of the above (malignant HTN, diabetes, elderly normotensives) [AUTHORED patho-q55]
+patho-q56 key=B  Saccular aneurysm involves -> part of circumference [AUTHORED patho-q56]
+patho-q57 key=C  Mycotic aneurysms most associated with -> infective endocarditis [AUTHORED patho-q57]
+patho-q58 key=B  Takayasu arteritis affects -> aorta and main branches [AUTHORED patho-q58]
+patho-q59 key=B  Descending aortic aneurysm bone erosion may cause -> back pain [AUTHORED patho-q59]
+patho-q60 key=A  NOT a typical microscopic feature of dilated cardiomyopathy -> myocyte hypertrophy (DCM shows thinning, not hypertrophy) [AUTHORED patho-q60, pending]
+--- Essay (10/10 keyed, model answers pp.18-19; not authored, out of scope) ---
+patho-essay1 key=printed  Define cardiomyopathy and list its three main types
+patho-essay2 key=printed  DCM gross/microscopic findings and functional impairment
+patho-essay3 key=printed  Cardiac tamponade definition and three causes
+patho-essay4 key=printed  Six types of pericarditis and one cause each
+patho-essay5 key=printed  Fatty streak vs fibrous atheromatous plaque, one site each
+patho-essay6 key=printed  Four complications of an atherosclerotic plaque
+patho-essay7 key=printed  Benign vs malignant hypertension, renal arteriolar change
+patho-essay8 key=printed  True aneurysm definition; fusiform vs saccular
+patho-essay9 key=printed  Three pathological zones of a fibrous atheromatous plaque
+patho-essay10 key=printed  Risk factors for atherosclerosis
+
+--- find-existing.mjs / direct-grep query log (Pathology tranche) ---
+"hypertrophic cardiomyopathy" -> pending docs/import-ready/concept/SYS-CVS-CONCEPT-T04.md (CON-CVS-D65416DBAEAA0E) -> reused, new pending-live overlay row
+"dilated cardiomyopathy" -> pending docs/MUST-Source-Imports/pending-live/MUST-CVS-201-concepts-overlay.md (CON-CVS-C531A645354244, already MUST-CVS-201-tagged by tranche 1) -> reused, no new overlay row, question only
+"restrictive cardiomyopathy", "restriction is a muscle problem" -> pending docs/import-ready/concept/SYS-CVS-CONCEPT-T04.md (CON-CVS-4A41D59159ED61) -> reused, new pending-live overlay row
+"cardiac tamponade" -> pending docs/MUST-Source-Imports/pending-live/MUST-CVS-201-concepts-overlay.md (CON-CVS-ABE9CE4B64FEF8, already MUST-CVS-201-tagged by tranche 1) -> reused, no new overlay row
+"constrictive pericarditis" -> pending docs/import-ready/concept/SYS-CVS-CONCEPT-T06.md, "Tuberculosis is a leading cause of constrictive pericarditis where it is endemic" (CON-CVS-E1FE73100F1688, aliases include "Constrictive pericarditis aetiology") -> extended (not duplicated) to cover Pick's-disease naming, the suppurative-pericarditis complication route and the small-quiet-heart/no-hypertrophy physiology; new pending-live overlay row
+"benign hypertension" -> no hit; "malignant hypertension" -> live docs/MUST-Source-Imports/concept/MUST-CVS-201-concepts.md (CON-CVS-8BFFDE83CC4617, already carries fibrinoid necrosis, onion-skin/hyperplastic change and the death-order fact) -> reused directly, no new record
+"atherosclerosis" bare, "atheromatous plaque", "hyaline arteriolosclerosis", "dissecting aneurysm", "mycotic aneurysm", "takayasu" (hit only the unrelated Year-3 SYS-CVS-CONCEPT-T08 record, a different disease), "polyarteritis nodosa" (hit only a Helwan BMS-102 pending-live triage gloss row, not a real concept record) -> no usable hit on any of these specific facts -> new mints
+"fatty streak", "atherosclerosis risk factors" (this same wording) -> live docs/MUST-Source-Imports/concept/MUST-CVS-201-concepts.md (CON-CVS-E87E4CDC5DE594, CON-CVS-F44EBF69D14F3B) -> reused directly, no new record
+"hypertension" bare (definition/secondary causes) -> pending docs/MUST-Source-Imports/pending-live/MUST-CVS-201-concepts-overlay.md (CON-CVS-F4BBA78E076D30, already MUST-CVS-201-tagged by tranche 1) -> reused, no new overlay row
+
+Tally: 70 items triaged (60 MCQ + 10 essay), 70/70 keyed. All 60 MCQs authored, 0 held -- this is the module's only Pathology MCQ source (the sibling Pathology paper, Dr. Maria's, is a short-answer/written compilation tranche 1 already authored; overlapping facts here are dual-sourced against the same concept, not held as duplicate-of, same call tranche 5's own precedent for an already-tagged concept makes). 10 essay questions triaged and keyed, not authored (out of scope). 24 concepts serve the 60 authored questions: 14 new mints, 6 pending reuses (3 already MUST-CVS-201-tagged by tranche 1 needing no new overlay row: DCM, tamponade, hypertension-definition; 3 needing a first MUST-CVS-201 pending-live overlay row this tranche: HCM, restrictive cardiomyopathy, constrictive pericarditis/SYS-CVS-CONCEPT-T06), 4 live-in-lane direct reuses (fibrinous pericarditis, fatty streak, atherosclerosis risk factors, malignant hypertension -- all already committed to concept/MUST-CVS-201-concepts.md by tranche 1, no pending-live dependency at all).

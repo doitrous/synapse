@@ -282,3 +282,79 @@ both papers are cited for the first time only now that this tranche's new
 mints need them. Also merged two new entries into the shared
 `evidence/corpus-source-index.json` (36 → 38 sources) for the same two
 resources.
+
+## Pathology tranche (2026-09-02, lane 6, branch `must-cvs201-author6`) — two more files, closes the Pathology CVS201 EOM Final paper
+
+Two more files, from the Pathology CVS201 EOM Final paper (60 MCQ + 10
+essay, `src_67efbd148b42c6593611`, combined answer key printed on p.16
+itself). 60/60 MCQs authored, 0 held (this is the module's only Pathology
+MCQ source; overlapping facts with Dr. Maria's sibling written paper,
+tranche 1, are dual-sourced against the same already-tagged concept rather
+than held). Depends on 3 concept ids in the Year-3 SYS-CVS catalogue
+(import-ready, unimported): 2 in `docs/import-ready/concept/SYS-CVS-CONCEPT-T04.md`
+(hypertrophic and restrictive cardiomyopathy definitions), 1 in
+`docs/import-ready/concept/SYS-CVS-CONCEPT-T06.md` (constrictive
+pericarditis aetiology, extended to cover Pick's-disease naming, the
+suppurative-pericarditis complication route and the small-quiet-heart/
+no-hypertrophy physiology) — checked directly against
+`server/data/medical-library-v1.json`, none of the 3 present. 3 more
+questions reuse concepts already MUST-CVS-201-tagged by tranche 1 (dilated
+cardiomyopathy, cardiac tamponade, hypertension definition/secondary
+causes, `docs/MUST-Source-Imports/pending-live/MUST-CVS-201-concepts-overlay.md`)
+— no new overlay row needed for those. 46 of the 60 authored questions
+instead cite concepts that are either 14 brand-new mints this tranche (own
+lane files, not pending-live) or 4 already committed live-in-lane by
+tranche 1 (fibrinous pericarditis, fatty streak, atherosclerosis risk
+factors, malignant hypertension, in `concept/MUST-CVS-201-concepts.md`
+directly).
+
+| File | Target ids | Records |
+|---|---|---|
+| `MUST-CVS-201-pathology-concepts-overlay.md` | 3 concept ids: 2 in `SYS-CVS-CONCEPT-T04.md` (hypertrophic and restrictive cardiomyopathy), 1 in `SYS-CVS-CONCEPT-T06.md` (constrictive pericarditis aetiology) | 3 sparse updates — `+must`, `+2`, `+MUST-CVS-201` on `universities`/`learner_years`/`modules`; neither source file carries a `module_subject` field at all (this catalogue's schema has none), so each row writes only its own MUST-CVS-201 line, nothing to restate |
+| `MUST-CVS-201-pathology-questions.md` | 14 MCQ records (`QST-MUSTCVS201-PATHOLOGY-PENDING-…`), `main_concept` pointing at the 3 ids above plus the 3 already-tagged tranche-1 ids (dilated cardiomyopathy, tamponade, hypertension definition) | New records, not sparse updates — `library_ids` names each target concept's own existing article, in `docs/import-ready/article/SYS-CVS-ARTICLE-T04.md` / `-T06.md` or `docs/Alexandria-Source-Imports/article/AU-MED-106-physiology-articles.md` (`ART-CVS-BP-PULSE-AUSCULTATION`, the hypertension-definition question) |
+
+**Apply after**: `MUST-CVS-201-pathology-concepts-overlay.md` applies after
+its two named dependency files (`SYS-CVS-CONCEPT-T04.md`, `SYS-CVS-CONCEPT-T06.md`)
+are live; `MUST-CVS-201-pathology-questions.md` applies after both the
+overlay file above AND `docs/import-ready/article/SYS-CVS-ARTICLE-T04.md` /
+`-T06.md` / `docs/Alexandria-Source-Imports/article/AU-MED-106-physiology-articles.md`
+are live. The 46 direct questions in `question/MUST-CVS-201-pathology-mcq.md`
+have no pending-live dependency — their concepts, articles and evidence
+chains are either this lane's own new mints or an already-live-in-lane
+concept from tranche 1.
+
+Full-tree `gate.mjs simulate` (44 files: the 41-file tree tranche 5 ran plus
+this tranche's 3 new files — 2 pending-live, 1 direct-question, no new
+external dependency files, since both SYS-CVS-CONCEPT-T04.md and T06.md
+were already in the tree for the cardiomyopathy/tamponade concepts tranche 1
+sparse-overlaid, and AU-MED-106-physiology-articles.md was already in the
+tree for the same reason):
+`batches=44 created=1274 updated=180 rejected=0 skipped=0 errors=0`. The new
+pathology overlay batch alone reports `created:0, updated:3` — confirms all
+3 rows are genuine updates onto ids that already exist in their two named
+dependency files, not duplicates. `MUST-CVS-201-pathology-questions.md`
+reports (within the same simulate) 14 new question records with no
+rejections. Direct `node scripts/validate-content-batch.mjs` and `node
+scripts/simulate-content-import.mjs` re-runs (same file list) both confirm
+the same zero-error result, ruling out the `gate.mjs`-prints-`errors=0`-on-
+crash failure mode. `node scripts/validate-content-batch.mjs` was also run
+standalone on every new/changed file individually (concept, article,
+claims, citations, spans, resource, evidence-source, both question files,
+the new overlay file) — 0 errors on each (two fixes needed along the way:
+the overlay rows initially omitted `## label`, required for `concept`-kind
+detection — the tranche-1 convention of restating it verbatim was missing;
+and every new article needed a `field_notes` block naming why no Arabic
+title exists, the same LD-15 check other tranches' articles already carry).
+
+`gate.mjs batch` was not run on either new pending-live file, same tool
+limitation as above. One new resource record this tranche's own citations
+needed and registered in `evidence/MUST-CVS-201-sources.md` (alongside
+`resource/MUST-CVS-201-resources.md`'s own `catalogue-resource` entry for
+the same paper) — cited for the first time only now that this tranche's new
+mints need it. Also merged one new entry into the shared
+`evidence/corpus-source-index.json` (38 → 39 sources) for the same
+resource; this was also needed to satisfy the citation check's own corpus
+lookup (a resource without a `corpus-source-index.json` entry fails every
+citation naming it, the same "resource vs catalogue-resource" tool
+limitation tranche 4 first documented, but now surfacing at the shared-index
+layer rather than the per-lane registry layer).
