@@ -111,3 +111,28 @@ The anterior interosseous nerve branches from the median nerve just distal to pr
 CLM-C26414C85CA9
 ## citation_ids
 CIT-748601046A10
+
+
+---
+
+<!--
+  Added during the AU-MED-105 anatomy verify-and-stage pass (2026-09-02):
+  ART-MSK-AU105-CARPAL-BONES already declared span_ids SPN-AU105-CARPAL-BONES-01,
+  but it was never written into this file — see the matching note in
+  evidence/AU-MED-105-anatomy-claims.md. Text is quoted verbatim from the
+  article's own "Definition" section; section_id follows the same
+  `parseSections`/slugify convention every other span in this file uses.
+-->
+
+# Item
+## id
+SPN-AU105-CARPAL-BONES-01
+## article_id
+ART-MSK-AU105-CARPAL-BONES
+## section_id
+art-msk-au105-carpal-bones-definition
+## text
+Of the eight carpal bones, the scaphoid bridges the proximal and distal rows and is by far the one most often fractured — classically by a fall onto an outstretched, dorsiflexed hand (a "FOOSH" injury), which loads the bone against the radius. The pisiform, by contrast, is not one of the seven bones that ossify as part of the carpal row proper: it is a sesamoid bone, embedded within the tendon of flexor carpi ulnaris, and it forms the medial attachment of the flexor retinaculum.
+## claim_ids
+CLM-A6E0F27C9B4D | CLM-2F9C8E1B5A03
+## citation_ids
