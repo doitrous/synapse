@@ -2,6 +2,7 @@
 |---|---:|---:|---:|---:|
 | embryo1 | 45 | 0 | 0 | 45 |
 | embryo2 | 65 | 4 | 0 | 69 |
+| embryo3 | 53 | 0 | 0 | 53 |
 | youssef-terminology | 27 | 5 | 0 | 32 |
 | youssef1-jm | 52 | 0 | 0 | 52 |
 | youssef1-spinalcirc | 36 | 1 | 0 | 37 |

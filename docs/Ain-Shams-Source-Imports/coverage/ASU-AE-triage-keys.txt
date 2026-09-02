@@ -219,3 +219,63 @@ embryo2-q66
 embryo2-q67
 embryo2-q68
 embryo2-q69
+
+# embryo3: "MCQs - Embryo 3.pdf" (~104 items, week-3/gastrulation/neurulation/
+# fetal membranes) -- Q1-55 triaged and authored this lane (lane 11), 53
+# authored (2 held: Q21/Q27 are reordered duplicates of Q19's Klinefelter
+# genotype question, identical five-value option pool just reordered);
+# Q56-104 (further chromosomal-syndrome matching rows and a derivative/
+# EXCEPT run) remain untriaged for a follow-up lane.
+embryo3-q01
+embryo3-q02
+embryo3-q03
+embryo3-q04
+embryo3-q05
+embryo3-q06
+embryo3-q07
+embryo3-q08
+embryo3-q09
+embryo3-q10
+embryo3-q11
+embryo3-q12
+embryo3-q13
+embryo3-q14
+embryo3-q15
+embryo3-q16
+embryo3-q17
+embryo3-q18
+embryo3-q19
+embryo3-q20
+embryo3-q22
+embryo3-q23
+embryo3-q24
+embryo3-q25
+embryo3-q26
+embryo3-q28
+embryo3-q29
+embryo3-q30
+embryo3-q31
+embryo3-q32
+embryo3-q33
+embryo3-q34
+embryo3-q35
+embryo3-q36
+embryo3-q37
+embryo3-q38
+embryo3-q39
+embryo3-q40
+embryo3-q41
+embryo3-q42
+embryo3-q43
+embryo3-q44
+embryo3-q45
+embryo3-q46
+embryo3-q47
+embryo3-q48
+embryo3-q49
+embryo3-q50
+embryo3-q51
+embryo3-q52
+embryo3-q53
+embryo3-q54
+embryo3-q55
