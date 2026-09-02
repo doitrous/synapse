@@ -2,6 +2,7 @@
 |---|---:|---:|---:|---:|
 | ini-mcq | 89 | 11 | 0 | 100 |
 | ini-mcq-ch10 | 51 | 4 | 0 | 55 |
+| ini-mcq-ch11 | 27 | 27 | 0 | 54 |
 | ini-mcq-ch2 | 52 | 8 | 0 | 60 |
 | ini-mcq-ch3 | 21 | 3 | 0 | 24 |
 | ini-mcq-ch4 | 48 | 10 | 0 | 58 |
@@ -27,6 +28,33 @@
 - ini-mcq-ch10-q023 — printed key (A, "Diphyllobothrium latum") is doubtful against the stem's own wording, "the ONLY larval host": D. latum needs Cyclops AND a second, fish, intermediate host to become infective, so Cyclops is not its only larval host, whereas Dracunculus medinensis (Guinea worm, option C) truly needs no second intermediate host -- man is infected directly by ingesting Cyclops carrying the infective L3 larva -- making C the better fit for "only" larval host; held rather than resolved by inference, since the source's own intent for this EXCEPT-less "only" wording is not certain
 - ini-mcq-ch10-q028 — duplicate-of ini-mcq-ch10-q011 -- near-verbatim restatement of "Cysticercus cellulosae is the infective stage of T. solium" (same fact and key A, differing only in the fourth distractor option, Diphyllobothrium latum here vs. Hymenolepis diminuta in Q11)
 - ini-mcq-ch10-q029 — duplicate-of ini-mcq-ch10-q009 -- near-verbatim restatement of "Cysticercus bovis is the infective stage of T. saginata" (same fact and correct content, T. saginata, differing only in option lettering/order and the fourth distractor, Diphyllobothrium latum here vs. Dipylidium caninum in Q9)
+- ini-mcq-ch11-q111 — duplicate-of ini-mcq-ch11-q016 -- identical stem/options (Ancylostoma duodenale infection = skin penetration by larva)
+- ini-mcq-ch11-q112 — duplicate-of ini-mcq-ch11-q018 -- identical stem/options (Ancylostoma duodenale inhabits the small intestine)
+- ini-mcq-ch11-q113 — duplicate-of ini-mcq-ch11-q023 -- identical stem/options (Enterobius vermicularis is called the pin worm)
+- ini-mcq-ch11-q114 — duplicate-of ini-mcq-ch11-q026 -- identical stem/options (Enterobius does not lay eggs in the intestine)
+- ini-mcq-ch11-q115 — duplicate-of ini-mcq-ch11-q032 -- identical stem/options (Hymenolepis nana larvae not recovered from sputum)
+- ini-mcq-ch11-q116 — duplicate-of ini-mcq-ch11-q035 -- identical stem/options (Strongyloides differs from Ancylostoma)
+- ini-mcq-ch11-q117 — duplicate-of ini-mcq-ch11-q036 -- identical stem/options (Strongyloides infects man through skin penetration)
+- ini-mcq-ch11-q118 — duplicate-of ini-mcq-ch11-q037 -- identical stem/options (Strongyloides larva to adult when soil favourable)
+- ini-mcq-ch11-q119 — duplicate-of ini-mcq-ch11-q042 -- identical stem/options (Trichinella acquired from undercooked pork)
+- ini-mcq-ch11-q120 — duplicate-of ini-mcq-ch11-q043 -- identical stem/options (Trichinella infective stage = encysted larva)
+- ini-mcq-ch11-q121 — duplicate-of ini-mcq-ch11-q044 -- identical stem/options (Trichinella larvae carried to striated muscle)
+- ini-mcq-ch11-q122 — duplicate-of ini-mcq-ch11-q047 -- identical stem/options (Dracunculus medinensis habitat = subcutaneous tissue)
+- ini-mcq-ch11-q123 — duplicate-of ini-mcq-ch11-q048 -- identical stem/options (Cyclops = intermediate host of Dracunculus)
+- ini-mcq-ch11-q128 — duplicate-of ini-mcq-ch11-q016 -- identical stem/options (same repeated fact as q111, Ancylostoma infection = skin penetration by larva)
+- ini-mcq-ch11-q129 — source prints only 3 usable options (Small intestine/Large intestine/Lymphatic system; option D is blank), short of the seed schema's 4-option floor
+- ini-mcq-ch11-q130 — duplicate-of ini-mcq-ch11-q021 -- identical stem/options (Ascaris lumbricoides general biology, "all of the above")
+- ini-mcq-ch11-q131 — duplicate-of ini-mcq-ch11-q023 -- identical stem/options (same repeated fact as q113, Enterobius = pin worm)
+- ini-mcq-ch11-q140 — printed key (C, Enterobius vermicularis) conflicts with this chapter's own unauthored Q89 (identical stem/options, key D = Strongyloides stercoralis) -- Strongyloides is the textbook example of internal autoinfection (rhabditiform larvae maturing to filariform within the gut before re-penetrating), distinct from Enterobius's external retrofection; held per the rule that a printed key contradicting the expected fact is held with the doubt written out
+- ini-mcq-ch11-q143 — printed key (A, Trichinella spiralis) conflicts with this chapter's own unauthored Q92 (identical stem/options, key B = Strongyloides stercoralis) -- genuinely ambiguous besides, since both Trichinella spiralis and Strongyloides stercoralis are truly larviparous (lay live larvae rather than eggs), so neither printed key can be confirmed correct without further source clarification
+- ini-mcq-ch11-q148 — duplicate-of ini-mcq-ch11-q031 -- identical stem/options (cutaneous larva migrans caused by Ancylostoma caninum)
+- ini-mcq-ch11-q149 — duplicate-of ini-mcq-ch11-q033 -- identical stem/options (visceral larva migrans caused by ingestion of dog/cat Ascaris eggs)
+- ini-mcq-ch11-q150 — printed key (A, filariform larva in thoracic muscles of mosquito) conflicts with this chapter's own ini-mcq-ch11-q050 (identical stem/options, key B = filariform larva in labium of mosquito) -- the labium/proboscis, not the thoracic flight muscles where larval development merely occurs, is the textbook-correct location of the stage actually transmitted to man
+- ini-mcq-ch11-q151 — duplicate-of ini-mcq-ch11-q051 -- identical stem/options (vector of Wuchereria bancrofti = culicine mosquito)
+- ini-mcq-ch11-q152 — duplicate-of ini-mcq-ch11-q052 -- identical stem/options (Wuchereria bancrofti microfilaria is sheathed)
+- ini-mcq-ch11-q153 — duplicate-of ini-mcq-ch11-q053 -- identical stem/options (Wuchereria bancrofti microfilaria differs from Loa loa's)
+- ini-mcq-ch11-q154 — duplicate-of ini-mcq-ch11-q055 -- identical stem/options (adult Wuchereria bancrofti worms found in lymph nodes)
+- ini-mcq-ch11-q156 — printed key (A, Blood) conflicts with this chapter's own unauthored Q58 (identical stem/options, key C = Subcutaneous) -- Onchocerca volvulus microfilariae are classically skin/subcutaneous-dwelling (recovered by skin snip), not found circulating in peripheral blood like most other filarial worms
 - ini-mcq-ch2-q020 — figure-dependent question -- the stem refers to "this Figure" showing growth-curve phases labelled A/B/C/D, but the source's diagram is not extractable as text (pagetext.mjs reads plain text only, per the lane's text-only reading method); without seeing which curve segment is labelled A/B/C/D, the printed key (B) cannot be verified or authored from the stem alone
 - ini-mcq-ch2-q028 — duplicate-of ini-mcq-ch2-q016 -- near-verbatim restatement of "organism that can use only molecular oxygen as the final acceptor" (Obligate aerobes), differing only in swapping the fourth distractor (Microaerophilic vs Strict anaerobes) and adding a fifth "None of these" option
 - ini-mcq-ch2-q031 — duplicate-of ini-mcq-ch2-q008 -- near-verbatim restatement of "convalescence phase of an infectious disease corresponds to which phase of bacterial growth" (Decline phase), differing only by an added fifth "Retardation phase" distractor
