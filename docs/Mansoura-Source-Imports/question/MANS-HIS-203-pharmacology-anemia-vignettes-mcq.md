@@ -121,6 +121,7 @@ MANS-HIS-203 > Pharmacology > Haematinics
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-ACUTE-IRON-TOXICITY-ANTIDOTE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -266,6 +267,7 @@ MANS-HIS-203 > Pharmacology > Haematinics
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-ACUTE-IRON-TOXICITY-ANTIDOTE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -411,6 +413,7 @@ MANS-HIS-203 > Pharmacology > Haematinics
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-HYDROXOCOBALAMIN-CYANIDE-ANTIDOTE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -555,6 +558,7 @@ MANS-HIS-203 > Pharmacology > Haematinics
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-METHOTREXATE-FOLATE-ANEMIA
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -693,6 +697,7 @@ MANS-HIS-203 > Pharmacology > Haematinics
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-B12-SUBACUTE-COMBINED-DEGENERATION
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -837,6 +842,7 @@ MANS-HIS-203 > Pharmacology > Haematinics
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-B12-SUBACUTE-COMBINED-DEGENERATION
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -982,6 +988,7 @@ MANS-HIS-203 > Pharmacology > Haematinics
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-PERNICIOUS-ANEMIA-VIGNETTE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4

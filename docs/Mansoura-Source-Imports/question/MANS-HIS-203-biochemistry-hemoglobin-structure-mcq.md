@@ -122,6 +122,7 @@ MANS-HIS-203 > Biochemistry > Hemoglobin structure
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-PORPHYRIN-RING-STRUCTURE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -266,6 +267,7 @@ MANS-HIS-203 > Biochemistry > Hemoglobin structure
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-HEMOGLOBIN-IRON-OXIDATION-METHEMOGLOBINEMIA
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -410,6 +412,7 @@ MANS-HIS-203 > Biochemistry > Hemoglobin structure
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-HEMOGLOBIN-IRON-OXIDATION-METHEMOGLOBINEMIA
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -554,6 +557,7 @@ MANS-HIS-203 > Biochemistry > Hemoglobin structure
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-HEMOGLOBIN-CONJUGATED-PROTEIN
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -699,6 +703,7 @@ MANS-HIS-203 > Biochemistry > Hemoglobin structure
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-HEPATOCELLULAR-JAUNDICE-BILIRUBIN-PATTERN
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4

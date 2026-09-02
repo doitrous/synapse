@@ -6,13 +6,21 @@
     "subject": "haem",
     "status": "Draft",
     "owner": "Claude",
-    "universities": ["mans"],
-    "years": ["MANS_Y1"],
+    "universities": [
+      "mans"
+    ],
+    "years": [
+      "MANS_Y1"
+    ],
     "module": "MANS-HIS-203",
     "module_subject": "MANS-HIS-203 > Biochemistry > Hemoglobin structure",
-    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "exam_weight_by_year": {
+      "MANS_Y1": "high"
+    },
     "question_only_for": "",
-    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "resource_ids": [
+      "src_c4ee1e63536c22ca52d4"
+    ],
     "source_citation": "His Continuous Berlin Book 2026, Biochemistry Important MCQ, p.{page}",
     "setting": "Academic",
     "estimated_seconds": 55,
@@ -24,7 +32,13 @@
       "page": 140,
       "title": "Chemical group uniting the pyrrole rings of a porphyrin",
       "question": "The 4 pyrrole rings in porphyrin are united together by:",
-      "options": { "A": "Methyl group", "B": "Methenyl group", "C": "Methylene group", "D": "Methanol", "E": "None of the above" },
+      "options": {
+        "A": "Methyl group",
+        "B": "Methenyl group",
+        "C": "Methylene group",
+        "D": "Methanol",
+        "E": "None of the above"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. A methyl group (-CH3) is a substituent found on the porphyrin ring's side chains, not the bridge joining the pyrrole rings together.",
@@ -34,8 +48,12 @@
         "E": "Incorrect. Methylene group is a correct, listed answer, so \"none of the above\" is wrong."
       },
       "main_concept": "CON-HEM-84A5209FED7044",
-      "concept_ids": ["CON-HEM-84A5209FED7044"],
-      "contextual_concept_ids": ["CON-HEM-8F2329AD7AF440"],
+      "concept_ids": [
+        "CON-HEM-84A5209FED7044"
+      ],
+      "contextual_concept_ids": [
+        "CON-HEM-8F2329AD7AF440"
+      ],
       "topic": "Clinical biochemistry",
       "subtopic": "Heme synthesis",
       "difficulty": "Moderate",
@@ -44,15 +62,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify methylene groups as the bridge joining the four pyrrole rings of a porphyrin.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.140" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.140"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-PORPHYRIN-RING-STRUCTURE"
+      ]
     },
     {
       "key": "methemoglobinemia-from-iron-oxidation",
       "page": 110,
       "title": "Disease from oxidation of iron in hemoglobin",
       "question": "If iron in hemoglobin is oxidized, what disease may occur?",
-      "options": { "A": "Cystic fibrosis", "B": "Sickle cell anemia", "C": "Carbon monoxide poisoning", "D": "Methemoglobinemia", "E": "Haem-haem interactions" },
+      "options": {
+        "A": "Cystic fibrosis",
+        "B": "Sickle cell anemia",
+        "C": "Carbon monoxide poisoning",
+        "D": "Methemoglobinemia",
+        "E": "Haem-haem interactions"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Cystic fibrosis is a chloride-channel (CFTR) genetic disease unrelated to haemoglobin iron chemistry.",
@@ -62,7 +91,9 @@
         "E": "Incorrect. \"Haem-haem interaction\" describes the cooperative binding behaviour between the four haem groups of haemoglobin, not a disease from iron oxidation."
       },
       "main_concept": "CON-HEM-B48945E328456B",
-      "concept_ids": ["CON-HEM-B48945E328456B"],
+      "concept_ids": [
+        "CON-HEM-B48945E328456B"
+      ],
       "contextual_concept_ids": [],
       "topic": "Clinical biochemistry",
       "subtopic": "Hemoglobin structure and function",
@@ -72,15 +103,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify methemoglobinemia as the condition produced by oxidation of haemoglobin's iron from the ferrous to ferric state.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, Physiology Important MCQ p.110" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, Physiology Important MCQ p.110"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-HEMOGLOBIN-IRON-OXIDATION-METHEMOGLOBINEMIA"
+      ]
     },
     {
       "key": "hemoglobin-oxygen-binding-site",
       "page": 143,
       "title": "Oxygen binding site of hemoglobin",
       "question": "Which of the following is the oxygen binding site of the hemoglobin?",
-      "options": { "A": "N-terminal of the beta subunit", "B": "Carboxyl terminal of both alpha and beta subunits", "C": "Ferric ion (Fe+3) of the heme molecule", "D": "Ferrous ion (Fe+2) of the heme molecule", "E": "Histidine residue of the globin chain" },
+      "options": {
+        "A": "N-terminal of the beta subunit",
+        "B": "Carboxyl terminal of both alpha and beta subunits",
+        "C": "Ferric ion (Fe+3) of the heme molecule",
+        "D": "Ferrous ion (Fe+2) of the heme molecule",
+        "E": "Histidine residue of the globin chain"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. The N-terminal of the beta subunit is involved in 2,3-BPG binding, which modulates oxygen affinity, but it is not the actual oxygen-binding site itself.",
@@ -90,7 +132,9 @@
         "E": "Incorrect. A histidine residue of the globin chain (the proximal histidine) coordinates and anchors the haem group's iron within the pocket, but the oxygen itself binds directly to the ferrous iron, not to the histidine."
       },
       "main_concept": "CON-HEM-B48945E328456B",
-      "concept_ids": ["CON-HEM-B48945E328456B"],
+      "concept_ids": [
+        "CON-HEM-B48945E328456B"
+      ],
       "contextual_concept_ids": [],
       "topic": "Clinical biochemistry",
       "subtopic": "Hemoglobin structure and function",
@@ -100,15 +144,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify the ferrous (Fe2+) iron of haem as haemoglobin's actual oxygen-binding site.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.143" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.143"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-HEMOGLOBIN-IRON-OXIDATION-METHEMOGLOBINEMIA"
+      ]
     },
     {
       "key": "hemoglobin-conjugated-protein",
       "page": 143,
       "title": "Protein classification of hemoglobin",
       "question": "Hemoglobin is a:",
-      "options": { "A": "Simple protein", "B": "Conjugated protein", "C": "Derived protein", "D": "Lipoprotein", "E": "Nucleoprotein" },
+      "options": {
+        "A": "Simple protein",
+        "B": "Conjugated protein",
+        "C": "Derived protein",
+        "D": "Lipoprotein",
+        "E": "Nucleoprotein"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. A simple protein is composed only of amino acids; haemoglobin's globin portion alone would qualify, but the whole molecule also carries a non-protein haem group, disqualifying \"simple\" as the classification for haemoglobin overall.",
@@ -118,7 +173,9 @@
         "E": "Incorrect. A nucleoprotein combines protein with nucleic acid, unrelated to haemoglobin's actual haem-globin composition."
       },
       "main_concept": "CON-HEM-18D2F687975B5F",
-      "concept_ids": ["CON-HEM-18D2F687975B5F"],
+      "concept_ids": [
+        "CON-HEM-18D2F687975B5F"
+      ],
       "contextual_concept_ids": [],
       "topic": "Clinical biochemistry",
       "subtopic": "Hemoglobin structure and function",
@@ -128,15 +185,26 @@
       "reasoning_level": 2,
       "learning_objective": "Classify hemoglobin as a conjugated protein (globin plus haem prosthetic group).",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.143" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.143"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-HEMOGLOBIN-CONJUGATED-PROTEIN"
+      ]
     },
     {
       "key": "hepatocellular-jaundice-mixed-pattern",
       "page": 142,
       "title": "Jaundice type with both conjugated and unconjugated bilirubin elevated",
       "question": "Which type of jaundice is associated with elevation of both conjugated and unconjugated forms of bilirubin?",
-      "options": { "A": "Hemolytic jaundice", "B": "Obstructive jaundice", "C": "Hepatocellular jaundice", "D": "Physiological jaundice of neonate", "E": "Dubin-Johnson syndrome" },
+      "options": {
+        "A": "Hemolytic jaundice",
+        "B": "Obstructive jaundice",
+        "C": "Hepatocellular jaundice",
+        "D": "Physiological jaundice of neonate",
+        "E": "Dubin-Johnson syndrome"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. Haemolytic jaundice, from excess red cell breakdown, raises unconjugated bilirubin predominantly, not both fractions together.",
@@ -146,8 +214,12 @@
         "E": "Incorrect. Dubin-Johnson syndrome is a hereditary defect in conjugated bilirubin excretion, predominantly raising conjugated bilirubin, not both fractions together."
       },
       "main_concept": "CON-HEM-364A4A59515E8A",
-      "concept_ids": ["CON-HEM-364A4A59515E8A"],
-      "contextual_concept_ids": ["CON-HEM-22375197AEE80D"],
+      "concept_ids": [
+        "CON-HEM-364A4A59515E8A"
+      ],
+      "contextual_concept_ids": [
+        "CON-HEM-22375197AEE80D"
+      ],
       "topic": "Clinical biochemistry",
       "subtopic": "Heme metabolism",
       "difficulty": "Hard",
@@ -156,8 +228,13 @@
       "reasoning_level": 3,
       "learning_objective": "Identify hepatocellular jaundice as the pattern that elevates both conjugated and unconjugated bilirubin together.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.142" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.142"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-HEPATOCELLULAR-JAUNDICE-BILIRUBIN-PATTERN"
+      ]
     }
   ]
 }

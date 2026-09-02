@@ -6,13 +6,21 @@
     "subject": "imm",
     "status": "Draft",
     "owner": "Claude",
-    "universities": ["mans"],
-    "years": ["MANS_Y1"],
+    "universities": [
+      "mans"
+    ],
+    "years": [
+      "MANS_Y1"
+    ],
     "module": "MANS-HIS-203",
     "module_subject": "MANS-HIS-203 > Physiology > Blood > Leukocyte function",
-    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "exam_weight_by_year": {
+      "MANS_Y1": "high"
+    },
     "question_only_for": "",
-    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "resource_ids": [
+      "src_c4ee1e63536c22ca52d4"
+    ],
     "source_citation": "His Continuous Berlin Book 2026, Physiology Important MCQ, p.{page}",
     "setting": "Academic",
     "estimated_seconds": 55,
@@ -24,7 +32,13 @@
       "page": 112,
       "title": "First line of defense against bacterial infection",
       "question": "What is the first line of defense against bacterial infections?",
-      "options": { "A": "Basophils", "B": "Neutrophils", "C": "Eosinophils", "D": "Monocytes", "E": "Lymphocytes" },
+      "options": {
+        "A": "Basophils",
+        "B": "Neutrophils",
+        "C": "Eosinophils",
+        "D": "Monocytes",
+        "E": "Lymphocytes"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Basophils mediate immediate (type I) hypersensitivity through IgE-triggered histamine release; they are not the first phagocytic responder to bacterial infection.",
@@ -34,7 +48,9 @@
         "E": "Incorrect. Lymphocytes mediate adaptive, antigen-specific immunity, which takes days to develop; they play no role in the immediate innate response to bacteria."
       },
       "main_concept": "CON-IMM-AB99BAACAD2BC2",
-      "concept_ids": ["CON-IMM-AB99BAACAD2BC2"],
+      "concept_ids": [
+        "CON-IMM-AB99BAACAD2BC2"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — phagocyte recruitment and killing",
@@ -44,15 +60,26 @@
       "reasoning_level": 1,
       "learning_objective": "Identify neutrophils as the first-line phagocytic defence against bacterial infection.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.112" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.112"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-NEUTROPHIL-FIRST-LINE-DEFENCE"
+      ]
     },
     {
       "key": "neutrophil-myeloperoxidase",
       "page": 112,
       "title": "Enzyme that kills ingested bacteria in neutrophils",
       "question": "Which enzyme is present in neutrophils and kills the ingested bacteria?",
-      "options": { "A": "Carbonic anhydrase", "B": "Myeloperoxidase", "C": "Histaminase", "D": "G-6-P dehydrogenase", "E": "Major basic protein" },
+      "options": {
+        "A": "Carbonic anhydrase",
+        "B": "Myeloperoxidase",
+        "C": "Histaminase",
+        "D": "G-6-P dehydrogenase",
+        "E": "Major basic protein"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Carbonic anhydrase speeds the interconversion of carbon dioxide and bicarbonate in erythrocytes; it plays no part in neutrophil bacterial killing.",
@@ -62,7 +89,9 @@
         "E": "Incorrect. Major basic protein is an eosinophil granule constituent toxic mainly to parasites, not a neutrophil bacterial-killing enzyme."
       },
       "main_concept": "CON-IMM-AB99BAACAD2BC2",
-      "concept_ids": ["CON-IMM-AB99BAACAD2BC2"],
+      "concept_ids": [
+        "CON-IMM-AB99BAACAD2BC2"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — phagocyte recruitment and killing",
@@ -72,15 +101,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify myeloperoxidase as the neutrophil enzyme responsible for killing ingested bacteria.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.112" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.112"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-NEUTROPHIL-FIRST-LINE-DEFENCE"
+      ]
     },
     {
       "key": "diapedesis",
       "page": 113,
       "title": "WBC movement through the capillary wall into tissue",
       "question": "Which step in phagocytosis involves the movement of white blood cells through the capillary wall into tissue spaces?",
-      "options": { "A": "Phagosome formation", "B": "Chemotaxis", "C": "Opsonization", "D": "Margination", "E": "Diapedesis" },
+      "options": {
+        "A": "Phagosome formation",
+        "B": "Chemotaxis",
+        "C": "Opsonization",
+        "D": "Margination",
+        "E": "Diapedesis"
+      },
       "correct": "E",
       "explanations": {
         "A": "Incorrect. Phagosome formation is the step in which the ingested particle is enclosed within a membrane-bound vesicle inside the phagocyte, occurring after the cell has already reached the target, not the vessel-crossing step itself.",
@@ -90,7 +130,9 @@
         "E": "Correct. Diapedesis is the specific step in which the neutrophil physically squeezes between adjacent endothelial cells of the capillary wall, moving from the bloodstream into the tissue space. It occurs immediately after margination (rolling and adhesion against the vessel wall) and before the cell reaches the infection site by chemotaxis. This three-step sequence — margination, diapedesis, chemotaxis — is how a circulating neutrophil gets from blood to a tissue infection site."
       },
       "main_concept": "CON-IMM-AB99BAACAD2BC2",
-      "concept_ids": ["CON-IMM-AB99BAACAD2BC2"],
+      "concept_ids": [
+        "CON-IMM-AB99BAACAD2BC2"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — phagocyte recruitment and killing",
@@ -100,15 +142,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify diapedesis as the step in which a leukocyte crosses the capillary wall into tissue, as distinct from margination, chemotaxis and opsonization.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.113" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.113"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-NEUTROPHIL-FIRST-LINE-DEFENCE"
+      ]
     },
     {
       "key": "chemotaxis",
       "page": 112,
       "title": "Movement of phagocytic cells in response to a chemical stimulus",
       "question": "Movement of phagocytic cells in response to chemical stimulus is called:",
-      "options": { "A": "Chemotaxis", "B": "Opsonization", "C": "Ingestion", "D": "Digestion", "E": "Tolerance" },
+      "options": {
+        "A": "Chemotaxis",
+        "B": "Opsonization",
+        "C": "Ingestion",
+        "D": "Digestion",
+        "E": "Tolerance"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Chemotaxis is the directed movement of a phagocyte along a rising chemical gradient — bacterial products, complement fragments, or cytokines — toward the site generating that signal. It is the mechanism that brings a neutrophil or macrophage from the circulation to an infection site once it has crossed into tissue.",
@@ -118,7 +171,9 @@
         "E": "Incorrect. Tolerance describes the immune system's non-response to self or harmless antigens, an unrelated adaptive-immunity concept."
       },
       "main_concept": "CON-IMM-96D7626B256F92",
-      "concept_ids": ["CON-IMM-96D7626B256F92"],
+      "concept_ids": [
+        "CON-IMM-96D7626B256F92"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — phagocyte recruitment",
@@ -128,15 +183,27 @@
       "reasoning_level": 1,
       "learning_objective": "Define chemotaxis as directed phagocyte movement toward a chemical stimulus.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.112", "reuse": "CON-IMM-96D7626B256F92 is already live; reused directly, no overlay needed." },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.112",
+        "reuse": "CON-IMM-96D7626B256F92 is already live; reused directly, no overlay needed."
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ]
     },
     {
       "key": "agranulocytosis",
       "page": 113,
       "title": "Marrow failure to produce WBCs",
       "question": "Name of condition through which bone marrow fails to produce WBCs leaving body unprotected against infection is",
-      "options": { "A": "Anemia", "B": "Leukopenia", "C": "Leukocytosis", "D": "Agranulocytosis", "E": "Polycythemia" },
+      "options": {
+        "A": "Anemia",
+        "B": "Leukopenia",
+        "C": "Leukocytosis",
+        "D": "Agranulocytosis",
+        "E": "Polycythemia"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Anaemia is a reduction in red cell mass or haemoglobin, unrelated to white cell production or infection risk.",
@@ -146,7 +213,9 @@
         "E": "Incorrect. Polycythemia is an increased, not decreased, red cell count and is unrelated to white cell production."
       },
       "main_concept": "CON-IMM-4E62A6E8359D89",
-      "concept_ids": ["CON-IMM-4E62A6E8359D89"],
+      "concept_ids": [
+        "CON-IMM-4E62A6E8359D89"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — leukocyte count disorders",
@@ -156,15 +225,25 @@
       "reasoning_level": 2,
       "learning_objective": "Identify agranulocytosis as bone-marrow failure to produce granulocytes, leaving the body unprotected against infection.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.113" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.113"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-LEUKOCYTE-COUNT-DISORDERS"
+      ]
     },
     {
       "key": "leukemia-definition",
       "page": 114,
       "title": "Uncontrolled production of WBCs",
       "question": "Uncontrolled production of WBCs (very high number) is:",
-      "options": { "A": "Leukocytosis", "B": "Lymphocytosis", "C": "Leukemia", "D": "Leukopenia" },
+      "options": {
+        "A": "Leukocytosis",
+        "B": "Lymphocytosis",
+        "C": "Leukemia",
+        "D": "Leukopenia"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. Leukocytosis is an ordinary, reactive rise in white cell count (as in infection), without malignant transformation — a milder, physiological process compared to what this question describes.",
@@ -173,7 +252,9 @@
         "D": "Incorrect. Leukopenia is a low, not high, white cell count — the opposite direction from what this question describes."
       },
       "main_concept": "CON-IMM-4E62A6E8359D89",
-      "concept_ids": ["CON-IMM-4E62A6E8359D89"],
+      "concept_ids": [
+        "CON-IMM-4E62A6E8359D89"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — leukocyte count disorders",
@@ -183,15 +264,25 @@
       "reasoning_level": 1,
       "learning_objective": "Distinguish leukaemia (malignant, uncontrolled WBC proliferation) from ordinary leukocytosis.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.114" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.114"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-LEUKOCYTE-COUNT-DISORDERS"
+      ]
     },
     {
       "key": "kupffer-cells",
       "page": 114,
       "title": "Example of a tissue macrophage",
       "question": "Which of the following is an example of a tissue macrophage?",
-      "options": { "A": "Kupffer cells in the liver", "B": "Red blood cells in the bloodstream", "C": "Platelets in the bone marrow", "D": "Osteocytes in the bone" },
+      "options": {
+        "A": "Kupffer cells in the liver",
+        "B": "Red blood cells in the bloodstream",
+        "C": "Platelets in the bone marrow",
+        "D": "Osteocytes in the bone"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Kupffer cells are the resident, monocyte-derived tissue macrophage population lining the hepatic sinusoids of the liver. They phagocytose bacteria, debris and aged blood cells arriving from the portal circulation, giving the liver an important role in systemic immune surveillance. Kupffer cells are one of several organ-specific tissue-macrophage names this bank tests, alongside microglia in the CNS, alveolar macrophages in the lung, and osteoclasts in bone.",
@@ -200,7 +291,9 @@
         "D": "Incorrect. Osteocytes are the mature, non-phagocytic bone-maintaining cell derived from osteoblasts; the bone's own tissue-macrophage-lineage cell is instead the osteoclast."
       },
       "main_concept": "CON-IMM-CE6C4EB32C6385",
-      "concept_ids": ["CON-IMM-CE6C4EB32C6385"],
+      "concept_ids": [
+        "CON-IMM-CE6C4EB32C6385"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — tissue macrophages",
@@ -210,15 +303,25 @@
       "reasoning_level": 1,
       "learning_objective": "Name Kupffer cells as the liver's tissue-macrophage population.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.114" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.114"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-TISSUE-MACROPHAGE-NOMENCLATURE"
+      ]
     },
     {
       "key": "microglia",
       "page": 114,
       "title": "Tissue macrophage of the central nervous system",
       "question": "Which type of tissue macrophage is found in the central nervous system?",
-      "options": { "A": "Microglia", "B": "Alveolar macrophages", "C": "Kupffer cells", "D": "Langerhans cells" },
+      "options": {
+        "A": "Microglia",
+        "B": "Alveolar macrophages",
+        "C": "Kupffer cells",
+        "D": "Langerhans cells"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Microglia are the resident, macrophage-lineage phagocyte of the central nervous system. They continuously survey neural tissue at rest and become activated to phagocytose debris and pathogens when injury or infection occurs. Microglia are distinct from the CNS's other glial cell types (astrocytes, oligodendrocytes, ependymal cells), none of which are phagocytic in the same primary sense.",
@@ -227,7 +330,9 @@
         "D": "Incorrect. Langerhans cells are the skin epidermis's dendritic-cell population, not the CNS's tissue macrophage."
       },
       "main_concept": "CON-IMM-CE6C4EB32C6385",
-      "concept_ids": ["CON-IMM-CE6C4EB32C6385"],
+      "concept_ids": [
+        "CON-IMM-CE6C4EB32C6385"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — tissue macrophages",
@@ -237,15 +342,26 @@
       "reasoning_level": 1,
       "learning_objective": "Name microglia as the CNS's tissue-macrophage population.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.114" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.114"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-TISSUE-MACROPHAGE-NOMENCLATURE"
+      ]
     },
     {
       "key": "ameboid-movement",
       "page": 115,
       "title": "Locomotion mechanism of tissue macrophages and fibroblasts at a wound",
       "question": "Asim, a 5 years old boy falls from his bicycle and receives a cut over the knee. His tissue macrophages & fibroblasts will move to the site of injury for repair by:",
-      "options": { "A": "Ciliary movement", "B": "Ameboid movement", "C": "Chemotaxis", "D": "Margination", "E": "Whip-like movement" },
+      "options": {
+        "A": "Ciliary movement",
+        "B": "Ameboid movement",
+        "C": "Chemotaxis",
+        "D": "Margination",
+        "E": "Whip-like movement"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Ciliary movement is the coordinated beating of cilia (as on respiratory epithelium) that moves fluid or mucus over a stationary cell surface, not the locomotion of an individual migrating cell.",
@@ -255,7 +371,9 @@
         "E": "Incorrect. Whip-like (flagellar) movement propels cells such as spermatozoa or certain protozoa, not migrating macrophages or fibroblasts."
       },
       "main_concept": "CON-IMM-CE6C4EB32C6385",
-      "concept_ids": ["CON-IMM-CE6C4EB32C6385"],
+      "concept_ids": [
+        "CON-IMM-CE6C4EB32C6385"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — tissue macrophages",
@@ -265,15 +383,25 @@
       "reasoning_level": 2,
       "learning_objective": "Identify ameboid movement as the locomotion mechanism tissue macrophages and fibroblasts use to migrate to a site of injury.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.115" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.115"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-TISSUE-MACROPHAGE-NOMENCLATURE"
+      ]
     },
     {
       "key": "opsonin-definition",
       "page": 114,
       "title": "Definition of opsonins",
       "question": "Opsonins are molecules that:",
-      "options": { "A": "Are secreted by neutrophils to kill pathogens", "B": "Attach to pathogens to facilitate their recognition and uptake by neutrophils", "C": "Block the phagocytic receptors on neutrophils", "D": "Inhibit the release of inflammatory mediators by neutrophils" },
+      "options": {
+        "A": "Are secreted by neutrophils to kill pathogens",
+        "B": "Attach to pathogens to facilitate their recognition and uptake by neutrophils",
+        "C": "Block the phagocytic receptors on neutrophils",
+        "D": "Inhibit the release of inflammatory mediators by neutrophils"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Opsonins coat the pathogen itself rather than being secreted killing agents; the neutrophil's own granule enzymes (such as myeloperoxidase) are what actually kill the ingested organism.",
@@ -282,7 +410,9 @@
         "D": "Incorrect. Opsonins act on recognition and uptake, not on suppressing inflammatory mediator release."
       },
       "main_concept": "CON-IMM-DA2EA4EC41707C",
-      "concept_ids": ["CON-IMM-DA2EA4EC41707C"],
+      "concept_ids": [
+        "CON-IMM-DA2EA4EC41707C"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — phagocyte recruitment",
@@ -292,15 +422,27 @@
       "reasoning_level": 2,
       "learning_objective": "Define opsonins as molecules that coat pathogens to facilitate their recognition and uptake by phagocytes.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.114", "reuse": "CON-IMM-DA2EA4EC41707C is already live; reused directly, no overlay needed." },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.114",
+        "reuse": "CON-IMM-DA2EA4EC41707C is already live; reused directly, no overlay needed."
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-IMM-IMMUNOGLOBULIN-CLASSES",
+        "ART-IMM-TOP-35CFB732FE"
+      ]
     },
     {
       "key": "granulocyte-lifespan",
       "page": 113,
       "title": "Average life span of granulocytes",
       "question": "The average life span for granulocytes is:",
-      "options": { "A": "4-5 days", "B": "12-14 days", "C": "4-5 weeks", "D": "120 days" },
+      "options": {
+        "A": "4-5 days",
+        "B": "12-14 days",
+        "C": "4-5 weeks",
+        "D": "120 days"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Granulocytes (neutrophils, eosinophils, basophils) have a short average circulating life span of about 4-5 days from release into the blood to their eventual destruction or migration into tissue. This short lifespan reflects their role as rapidly deployed, short-lived first-responder cells, in contrast to the erythrocyte's much longer 120-day lifespan. Continuous marrow production is therefore needed to sustain a normal granulocyte count, which is why marrow suppression causes granulocyte counts to fall within days.",
@@ -309,7 +451,9 @@
         "D": "Incorrect. 120 days is the erythrocyte's life span, not the granulocyte's — a common distractor pairing in this bank's numeric reference-range questions."
       },
       "main_concept": "CON-IMM-90C19E609496ED",
-      "concept_ids": ["CON-IMM-90C19E609496ED"],
+      "concept_ids": [
+        "CON-IMM-90C19E609496ED"
+      ],
       "contextual_concept_ids": [],
       "topic": "Immunology",
       "subtopic": "Innate immunity — leukocyte kinetics",
@@ -319,15 +463,25 @@
       "reasoning_level": 1,
       "learning_objective": "State that the granulocyte's average circulating life span is about 4-5 days.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.113" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.113"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-LEUKOCYTE-LIFESPAN"
+      ]
     },
     {
       "key": "monocyte-lifespan",
       "page": 115,
       "title": "Leukocyte with the longest life span",
       "question": "Which of the following WBCs have the longest life span?",
-      "options": { "A": "Neutrophils", "B": "Eosinophils", "C": "Basophils", "D": "Monocytes" },
+      "options": {
+        "A": "Neutrophils",
+        "B": "Eosinophils",
+        "C": "Basophils",
+        "D": "Monocytes"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Neutrophils, despite being the most numerous leukocyte, circulate for only about 4-5 days on average — one of the shortest leukocyte lifespans, not the longest.",
@@ -336,8 +490,12 @@
         "D": "Correct. Monocytes have the longest circulating life span among the leukocytes, spending a comparatively long period in the blood before migrating into tissue. Once in tissue they differentiate into the long-lived tissue macrophage population (such as Kupffer cells or microglia), extending their functional lifespan far beyond that of the short-lived granulocytes. This contrast — numerous but short-lived granulocytes versus less numerous but long-lived monocytes — is the distinction this bank tests."
       },
       "main_concept": "CON-IMM-90C19E609496ED",
-      "concept_ids": ["CON-IMM-90C19E609496ED"],
-      "contextual_concept_ids": ["CON-IMM-CE6C4EB32C6385"],
+      "concept_ids": [
+        "CON-IMM-90C19E609496ED"
+      ],
+      "contextual_concept_ids": [
+        "CON-IMM-CE6C4EB32C6385"
+      ],
       "topic": "Immunology",
       "subtopic": "Innate immunity — leukocyte kinetics",
       "difficulty": "Moderate",
@@ -346,8 +504,13 @@
       "reasoning_level": 2,
       "learning_objective": "Identify monocytes as the leukocyte with the longest circulating life span.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.115" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.115"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-LEUKOCYTE-LIFESPAN"
+      ]
     }
   ]
 }

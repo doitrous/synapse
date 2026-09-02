@@ -6,13 +6,21 @@
     "subject": "haem",
     "status": "Draft",
     "owner": "Claude",
-    "universities": ["mans"],
-    "years": ["MANS_Y1"],
+    "universities": [
+      "mans"
+    ],
+    "years": [
+      "MANS_Y1"
+    ],
     "module": "MANS-HIS-203",
     "module_subject": "MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation",
-    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "exam_weight_by_year": {
+      "MANS_Y1": "high"
+    },
     "question_only_for": "",
-    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "resource_ids": [
+      "src_c4ee1e63536c22ca52d4"
+    ],
     "source_citation": "His Continuous Berlin Book 2026, Physiology Important MCQ, p.{page}",
     "setting": "Academic",
     "estimated_seconds": 55,
@@ -24,7 +32,13 @@
       "page": 116,
       "title": "Chemical that initiates the extrinsic phase of clotting",
       "question": "Which chemical initiates the extrinsic phase of clotting?",
-      "options": { "A": "Fibrin", "B": "Thromboplastin", "C": "Prothrombin", "D": "Christmas factor", "E": "Fibrinogin" },
+      "options": {
+        "A": "Fibrin",
+        "B": "Thromboplastin",
+        "C": "Prothrombin",
+        "D": "Christmas factor",
+        "E": "Fibrinogin"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Fibrin is the end product of the cascade, formed from fibrinogen by thrombin, not the substance that starts the extrinsic pathway.",
@@ -34,7 +48,9 @@
         "E": "Incorrect. Fibrinogen is the precursor of fibrin, converted late in the cascade by thrombin; it plays no role in initiating the extrinsic pathway."
       },
       "main_concept": "CON-HEM-D2DD281A978DBD",
-      "concept_ids": ["CON-HEM-D2DD281A978DBD"],
+      "concept_ids": [
+        "CON-HEM-D2DD281A978DBD"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — coagulation cascade",
@@ -44,15 +60,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify tissue thromboplastin as the trigger of the extrinsic coagulation pathway.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.116" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.116"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-COAGULATION-CASCADE-EXTRINSIC-PATHWAY"
+      ]
     },
     {
       "key": "factor-xa-thrombin",
       "page": 117,
       "title": "Factor that activates conversion of prothrombin to thrombin",
       "question": "Which factor activates the conversion of prothrombin to thrombin?",
-      "options": { "A": "Factor Xa", "B": "Factor III", "C": "Factor VIII", "D": "Factor IXa", "E": "Factor XIa" },
+      "options": {
+        "A": "Factor Xa",
+        "B": "Factor III",
+        "C": "Factor VIII",
+        "D": "Factor IXa",
+        "E": "Factor XIa"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Factor Xa is the activated clotting factor that directly converts prothrombin into active thrombin, the step common to both the extrinsic and intrinsic pathways once they converge. This conversion also requires calcium ions and phospholipid as cofactors, forming the prothrombinase complex.",
@@ -62,7 +89,9 @@
         "E": "Incorrect. Factor XIa acts further upstream still in the intrinsic pathway, activating factor IX; it is two steps removed from prothrombin conversion."
       },
       "main_concept": "CON-HEM-D2DD281A978DBD",
-      "concept_ids": ["CON-HEM-D2DD281A978DBD"],
+      "concept_ids": [
+        "CON-HEM-D2DD281A978DBD"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — coagulation cascade",
@@ -72,15 +101,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify factor Xa as the clotting factor that directly converts prothrombin to thrombin.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.117" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.117"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-COAGULATION-CASCADE-EXTRINSIC-PATHWAY"
+      ]
     },
     {
       "key": "calcium-clotting-cofactor",
       "page": 118,
       "title": "Ion required for conversion of prothrombin into active thrombin",
       "question": "Which of the following ions is required for conversion of prothrombin into active thrombin?",
-      "options": { "A": "Ca++", "B": "Fe++", "C": "Mg++", "D": "Mn++", "E": "Cl-" },
+      "options": {
+        "A": "Ca++",
+        "B": "Fe++",
+        "C": "Mg++",
+        "D": "Mn++",
+        "E": "Cl-"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Calcium ions (Ca++) are required as a cofactor for the conversion of prothrombin into active thrombin by factor Xa. They are also needed more broadly at multiple other steps of the coagulation cascade, so the cascade cannot proceed without calcium even when every clotting factor is present. This is why citrate (a calcium chelator) is used as an anticoagulant to prevent stored blood from clotting.",
@@ -90,7 +130,9 @@
         "E": "Incorrect. Chloride is the major extracellular anion involved in osmotic and acid-base balance, not a coagulation cofactor."
       },
       "main_concept": "CON-HEM-D2DD281A978DBD",
-      "concept_ids": ["CON-HEM-D2DD281A978DBD"],
+      "concept_ids": [
+        "CON-HEM-D2DD281A978DBD"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — coagulation cascade",
@@ -100,15 +142,26 @@
       "reasoning_level": 1,
       "learning_objective": "Identify calcium ions as a required cofactor for prothrombin-to-thrombin conversion.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.118" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.118"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-COAGULATION-CASCADE-EXTRINSIC-PATHWAY"
+      ]
     },
     {
       "key": "thrombin-fibrinogen-fibrin",
       "page": 118,
       "title": "Conversion of fibrinogen into fibrin is promoted by",
       "question": "The conversion of fibrinogen into fibrin promoted by:",
-      "options": { "A": "Factor X", "B": "Thrombin", "C": "Prothrombin", "D": "Platelets", "E": "Factor IX" },
+      "options": {
+        "A": "Factor X",
+        "B": "Thrombin",
+        "C": "Prothrombin",
+        "D": "Platelets",
+        "E": "Factor IX"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Factor X (as factor Xa) acts upstream, converting prothrombin to thrombin, not fibrinogen to fibrin directly.",
@@ -118,7 +171,9 @@
         "E": "Incorrect. Factor IX acts far upstream in the intrinsic pathway, activating factor X together with factor VIIIa; it does not act directly on fibrinogen."
       },
       "main_concept": "CON-HEM-D2DD281A978DBD",
-      "concept_ids": ["CON-HEM-D2DD281A978DBD"],
+      "concept_ids": [
+        "CON-HEM-D2DD281A978DBD"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — coagulation cascade",
@@ -128,15 +183,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify thrombin as the enzyme that converts fibrinogen to fibrin.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.118" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.118"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-COAGULATION-CASCADE-EXTRINSIC-PATHWAY"
+      ]
     },
     {
       "key": "hemophilia-definition",
       "page": 117,
       "title": "Hereditary deficiency of coagulation",
       "question": "A condition of heredity deficiency of coagulation is called:",
-      "options": { "A": "Anemia", "B": "Hemophilia", "C": "Hemolysis", "D": "Leukemia", "E": "Polycythemia" },
+      "options": {
+        "A": "Anemia",
+        "B": "Hemophilia",
+        "C": "Hemolysis",
+        "D": "Leukemia",
+        "E": "Polycythemia"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Anaemia is a reduction in red cell mass or haemoglobin, unrelated to a coagulation factor deficiency.",
@@ -146,7 +212,9 @@
         "E": "Incorrect. Polycythemia is an increased red cell count, unrelated to coagulation-factor deficiency."
       },
       "main_concept": "CON-HEM-DC8364E8254011",
-      "concept_ids": ["CON-HEM-DC8364E8254011"],
+      "concept_ids": [
+        "CON-HEM-DC8364E8254011"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — coagulation disorders",
@@ -156,15 +224,26 @@
       "reasoning_level": 1,
       "learning_objective": "Define haemophilia as a hereditary coagulation-factor deficiency.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.117" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.117"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-HEMOPHILIA-FACTOR-DEFICIENCY"
+      ]
     },
     {
       "key": "hemophilia-factor-viii",
       "page": 117,
       "title": "Factor deficient in Hemophilia",
       "question": "A deficiency of which of the following factors causes Hemophilia?",
-      "options": { "A": "Factor III", "B": "Factor V", "C": "Factor VII", "D": "Factor VIII", "E": "Factor X" },
+      "options": {
+        "A": "Factor III",
+        "B": "Factor V",
+        "C": "Factor VII",
+        "D": "Factor VIII",
+        "E": "Factor X"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Factor III (tissue thromboplastin) triggers the extrinsic pathway; its deficiency is not what defines haemophilia.",
@@ -174,7 +253,9 @@
         "E": "Incorrect. Factor X deficiency is a separate, rare bleeding disorder affecting the common pathway, not classic haemophilia."
       },
       "main_concept": "CON-HEM-DC8364E8254011",
-      "concept_ids": ["CON-HEM-DC8364E8254011"],
+      "concept_ids": [
+        "CON-HEM-DC8364E8254011"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — coagulation disorders",
@@ -184,15 +265,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify factor VIII deficiency as the cause of the classic form of haemophilia (haemophilia A).",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.117" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.117"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-HEMOPHILIA-FACTOR-DEFICIENCY"
+      ]
     },
     {
       "key": "thromboxane-vasoconstriction",
       "page": 118,
       "title": "Chemical that produces vasoconstriction of an injured blood vessel",
       "question": "Which chemical produces vasoconstriction of injured blood vessel?",
-      "options": { "A": "Fibrin stabilizing factor", "B": "Plasmin", "C": "Platelets F3", "D": "Stuart prewar factor", "E": "Thromboxane A2" },
+      "options": {
+        "A": "Fibrin stabilizing factor",
+        "B": "Plasmin",
+        "C": "Platelets F3",
+        "D": "Stuart prewar factor",
+        "E": "Thromboxane A2"
+      },
       "correct": "E",
       "explanations": {
         "A": "Incorrect. Fibrin stabilising factor (factor XIII) cross-links fibrin strands to strengthen the clot; it has no vasoconstrictor action.",
@@ -202,7 +294,9 @@
         "E": "Correct. Thromboxane A2, released from activated platelets, is a potent vasoconstrictor that narrows the injured vessel to reduce blood flow and blood loss while the platelet plug and coagulation cascade complete the job. It also promotes further platelet aggregation, which is why aspirin's inhibition of its synthesis both prolongs bleeding time and reduces vasoconstriction."
       },
       "main_concept": "CON-HEM-761D9E818B8285",
-      "concept_ids": ["CON-HEM-761D9E818B8285"],
+      "concept_ids": [
+        "CON-HEM-761D9E818B8285"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — primary haemostasis",
@@ -212,15 +306,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify thromboxane A2 as the mediator of vasoconstriction at an injured vessel.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.118" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.118"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-PLATELET-ADHESION-VASOCONSTRICTION"
+      ]
     },
     {
       "key": "vwf-platelet-adhesion",
       "page": 118,
       "title": "Factor that potentiates platelet adhesion",
       "question": "Which factor potentiates (increases) platelet adhesion?",
-      "options": { "A": "ADP", "B": "Fibrin stabilizing factor", "C": "Thromboxane A2", "D": "Tissue factor", "E": "Von Willebrand factor" },
+      "options": {
+        "A": "ADP",
+        "B": "Fibrin stabilizing factor",
+        "C": "Thromboxane A2",
+        "D": "Tissue factor",
+        "E": "Von Willebrand factor"
+      },
       "correct": "E",
       "explanations": {
         "A": "Incorrect. ADP, released from activated platelets, recruits and activates further platelets to reinforce aggregation, but it is not the molecule that potentiates the initial adhesion step to collagen.",
@@ -230,7 +335,9 @@
         "E": "Correct. Von Willebrand factor, a plasma glycoprotein, potentiates platelet adhesion to exposed subendothelial collagen at an injury site by bridging platelet surface receptors (glycoprotein Ib) to the collagen. Its deficiency (von Willebrand disease) is the most common inherited bleeding disorder, causing impaired primary haemostasis."
       },
       "main_concept": "CON-HEM-761D9E818B8285",
-      "concept_ids": ["CON-HEM-761D9E818B8285"],
+      "concept_ids": [
+        "CON-HEM-761D9E818B8285"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — primary haemostasis",
@@ -240,15 +347,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify von Willebrand factor as the molecule that potentiates platelet adhesion to the injured vessel wall.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.118" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.118"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-PLATELET-ADHESION-VASOCONSTRICTION"
+      ]
     },
     {
       "key": "hemostasis-sequence-order",
       "page": 120,
       "title": "Correct order of the steps of hemostasis",
       "question": "Choose the correct order for the steps of hemostasis:",
-      "options": { "A": "Blood coagulation, platelet plug formation, blood vessel spasm", "B": "Platelets plug formation, blood coagulation, blood vessel spasm", "C": "Blood vessel spasm, platelet plug formation, blood coagulation", "D": "Blood vessel spasm, blood coagulation, platelet plug formation", "E": "Platelet plug formation, blood vessel spasm, blood coagulation" },
+      "options": {
+        "A": "Blood coagulation, platelet plug formation, blood vessel spasm",
+        "B": "Platelets plug formation, blood coagulation, blood vessel spasm",
+        "C": "Blood vessel spasm, platelet plug formation, blood coagulation",
+        "D": "Blood vessel spasm, blood coagulation, platelet plug formation",
+        "E": "Platelet plug formation, blood vessel spasm, blood coagulation"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. This reverses the true order; blood vessel spasm is the fastest, most immediate response and comes first, not last.",
@@ -258,7 +376,9 @@
         "E": "Incorrect. This places vessel spasm after the platelet plug, when vessel spasm is actually the fastest, first response."
       },
       "main_concept": "CON-HEM-7704DD963194EC",
-      "concept_ids": ["CON-HEM-7704DD963194EC"],
+      "concept_ids": [
+        "CON-HEM-7704DD963194EC"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — haemostasis sequence",
@@ -268,15 +388,26 @@
       "reasoning_level": 2,
       "learning_objective": "State the correct order of the three haemostasis steps: vessel spasm, platelet plug formation, then coagulation.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.120" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.120"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-HEMOSTASIS-SEQUENCE-CLOT-RETRACTION"
+      ]
     },
     {
       "key": "platelet-adp-release",
       "page": 120,
       "title": "Substance released by activated platelets",
       "question": "Activated platelets release which of the following:",
-      "options": { "A": "Serotonin", "B": "ADP", "C": "Thromboplastin", "D": "Fibrin", "E": "Von Willebrand factor" },
+      "options": {
+        "A": "Serotonin",
+        "B": "ADP",
+        "C": "Thromboplastin",
+        "D": "Fibrin",
+        "E": "Von Willebrand factor"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect as the tested answer here. Serotonin is also released by activated platelets and contributes to vasoconstriction, but the department's own printed key for this item names ADP, testing recruitment/aggregation signalling specifically rather than the vasoactive amine.",
@@ -286,7 +417,9 @@
         "E": "Incorrect. Von Willebrand factor is a plasma glycoprotein (also stored in endothelial cells and platelet alpha granules) that potentiates platelet adhesion, but it is not the specific platelet-release product tested by this item."
       },
       "main_concept": "CON-HEM-7704DD963194EC",
-      "concept_ids": ["CON-HEM-7704DD963194EC"],
+      "concept_ids": [
+        "CON-HEM-7704DD963194EC"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — haemostasis sequence",
@@ -296,15 +429,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify ADP as a substance activated platelets release to recruit further platelets.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.120" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.120"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-HEMOSTASIS-SEQUENCE-CLOT-RETRACTION"
+      ]
     },
     {
       "key": "platelet-clot-retraction",
       "page": 120,
       "title": "Cells necessary for clot retraction",
       "question": "------------- are necessary for clot retraction to occur.",
-      "options": { "A": "Red blood cells", "B": "Lymphocytes", "C": "Platelets", "D": "Basophils", "E": "Monocytes" },
+      "options": {
+        "A": "Red blood cells",
+        "B": "Lymphocytes",
+        "C": "Platelets",
+        "D": "Basophils",
+        "E": "Monocytes"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. Red blood cells are passively trapped within the fibrin meshwork of a clot but play no active contractile role in clot retraction.",
@@ -314,7 +458,9 @@
         "E": "Incorrect. Monocytes are phagocytic precursor cells with no contractile role in clot retraction."
       },
       "main_concept": "CON-HEM-7704DD963194EC",
-      "concept_ids": ["CON-HEM-7704DD963194EC"],
+      "concept_ids": [
+        "CON-HEM-7704DD963194EC"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — haemostasis sequence",
@@ -324,15 +470,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify platelets as necessary for clot retraction after fibrin clot formation.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.120" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.120"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-HEMOSTASIS-SEQUENCE-CLOT-RETRACTION"
+      ]
     },
     {
       "key": "vitamin-k-dependent-factors",
       "page": 118,
       "title": "Vitamin K dependent coagulation factors",
       "question": "Vitamin K dependent coagulation factors are:",
-      "options": { "A": "Factor II, VII, IX and X", "B": "Factor XII and XI", "C": "Factor VIII and XI", "D": "Factor III, VIII and XI", "E": "Factor XI and XII" },
+      "options": {
+        "A": "Factor II, VII, IX and X",
+        "B": "Factor XII and XI",
+        "C": "Factor VIII and XI",
+        "D": "Factor III, VIII and XI",
+        "E": "Factor XI and XII"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Factors II (prothrombin), VII, IX and X, along with proteins C and S, require vitamin K for their hepatic synthesis — vitamin K is a cofactor for the enzyme that carboxylates specific glutamate residues on these factors, activating them for calcium binding. Vitamin K deficiency (or vitamin K antagonists such as warfarin) lowers the functional level of all four factors together, prolonging coagulation time.",
@@ -342,7 +499,9 @@
         "E": "Incorrect. Factors XI and XII are contact-activation factors, not part of the vitamin-K-dependent group."
       },
       "main_concept": "CON-HEM-BC9F1F59205EC7",
-      "concept_ids": ["CON-HEM-BC9F1F59205EC7"],
+      "concept_ids": [
+        "CON-HEM-BC9F1F59205EC7"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — coagulation cascade",
@@ -352,15 +511,27 @@
       "reasoning_level": 2,
       "learning_objective": "Name factors II, VII, IX and X as the vitamin-K-dependent coagulation factors.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.118", "reuse": "CON-HEM-BC9F1F59205EC7 is pending (Kasr 102-INT); overlay row added in pending-live/MANS-HIS-203-concepts.md." },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.118",
+        "reuse": "CON-HEM-BC9F1F59205EC7 is pending (Kasr 102-INT); overlay row added in pending-live/MANS-HIS-203-concepts.md."
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-102-PHY-ABNORMALITIES-OF-HAEMOSTASIS"
+      ]
     },
     {
       "key": "obstructive-jaundice-hemorrhagic-tendency",
       "page": 119,
       "title": "Cause of hemorrhagic tendency in obstructive jaundice",
       "question": "Hemorrhagic tendency in obstructive jaundice is due to:",
-      "options": { "A": "Deficiency of platelets", "B": "Increased serum bile salt concentration", "C": "Deficiency of factor VIII", "D": "Lack of factors II, VII, IX and X", "E": "Deficiency of fibrinogen" },
+      "options": {
+        "A": "Deficiency of platelets",
+        "B": "Increased serum bile salt concentration",
+        "C": "Deficiency of factor VIII",
+        "D": "Lack of factors II, VII, IX and X",
+        "E": "Deficiency of fibrinogen"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Obstructive jaundice's bleeding tendency is not primarily from a platelet deficiency; platelet counts are typically normal.",
@@ -370,8 +541,10 @@
         "E": "Incorrect. Fibrinogen deficiency is not the mechanism of obstructive jaundice's bleeding tendency; fibrinogen synthesis is not vitamin K dependent."
       },
       "main_concept": "CON-HEM-BC9F1F59205EC7",
-      "concept_ids": ["CON-HEM-BC9F1F59205EC7"],
-      "contextual_concept_ids": ["CON-HEM-22375197AEE80D"],
+      "concept_ids": [
+        "CON-HEM-BC9F1F59205EC7"
+      ],
+      "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — coagulation cascade",
       "difficulty": "Hard",
@@ -380,8 +553,14 @@
       "reasoning_level": 3,
       "learning_objective": "Explain that obstructive jaundice's hemorrhagic tendency comes from vitamin K malabsorption (via blocked bile flow) lowering factors II, VII, IX and X.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.119", "reuse": "CON-HEM-BC9F1F59205EC7 reused as main_concept, same clinical-application angle as vitamin-k-dependent-factors above but via a malabsorption mechanism." },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.119",
+        "reuse": "CON-HEM-BC9F1F59205EC7 reused as main_concept, same clinical-application angle as vitamin-k-dependent-factors above but via a malabsorption mechanism."
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-102-PHY-ABNORMALITIES-OF-HAEMOSTASIS"
+      ]
     }
   ]
 }

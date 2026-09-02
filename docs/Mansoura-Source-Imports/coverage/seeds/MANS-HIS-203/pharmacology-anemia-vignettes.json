@@ -6,13 +6,21 @@
     "subject": "pharm",
     "status": "Draft",
     "owner": "Claude",
-    "universities": ["mans"],
-    "years": ["MANS_Y1"],
+    "universities": [
+      "mans"
+    ],
+    "years": [
+      "MANS_Y1"
+    ],
     "module": "MANS-HIS-203",
     "module_subject": "MANS-HIS-203 > Pharmacology > Haematinics",
-    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "exam_weight_by_year": {
+      "MANS_Y1": "high"
+    },
     "question_only_for": "",
-    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "resource_ids": [
+      "src_c4ee1e63536c22ca52d4"
+    ],
     "source_citation": "His Continuous Berlin Book 2026, Pharmacology Important MCQ, p.{page}",
     "setting": "Academic",
     "estimated_seconds": 60,
@@ -24,7 +32,13 @@
       "page": 146,
       "title": "Primary manifestation of acute iron toxicity",
       "question": "Which of the following is a primary manifestation of acute iron toxicity?",
-      "options": { "A": "Hemochromatosis", "B": "Necrotizing gastroenteritis", "C": "Respiratory alkalosis", "D": "Hypertension", "E": "Bradycardia" },
+      "options": {
+        "A": "Hemochromatosis",
+        "B": "Necrotizing gastroenteritis",
+        "C": "Respiratory alkalosis",
+        "D": "Hypertension",
+        "E": "Bradycardia"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Haemochromatosis is a chronic iron-overload condition (organ iron deposition over years), not the acute manifestation of a single toxic ingestion.",
@@ -34,7 +48,9 @@
         "E": "Incorrect. Tachycardia (from hypovolaemia and shock), not bradycardia, is the expected cardiovascular finding in significant iron toxicity."
       },
       "main_concept": "CON-HEM-587EB75E7F6A20",
-      "concept_ids": ["CON-HEM-587EB75E7F6A20"],
+      "concept_ids": [
+        "CON-HEM-587EB75E7F6A20"
+      ],
       "contextual_concept_ids": [],
       "topic": "Pharmacology",
       "subtopic": "Haematinics — iron toxicity and chelation",
@@ -44,15 +60,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify necrotizing gastroenteritis as the primary manifestation of acute iron toxicity.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.146" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.146"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-ACUTE-IRON-TOXICITY-ANTIDOTE"
+      ]
     },
     {
       "key": "desferrioxamine-iron-antidote",
       "page": 146,
       "title": "Antidote for decontamination in acute iron toxicity",
       "question": "What is the specific antidote used for decontamination in acute iron toxicity?",
-      "options": { "A": "Deferasirox", "B": "Dimercaprol", "C": "Penicillamine", "D": "Desferroxamine", "E": "Flumazenil" },
+      "options": {
+        "A": "Deferasirox",
+        "B": "Dimercaprol",
+        "C": "Penicillamine",
+        "D": "Desferroxamine",
+        "E": "Flumazenil"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Deferasirox is an oral iron chelator used for chronic iron overload (as in repeated transfusions), not the specific decontamination antidote for acute iron poisoning.",
@@ -62,8 +89,12 @@
         "E": "Incorrect. Flumazenil is the antidote for benzodiazepine overdose, unrelated to iron toxicity."
       },
       "main_concept": "CON-HEM-587EB75E7F6A20",
-      "concept_ids": ["CON-HEM-587EB75E7F6A20"],
-      "contextual_concept_ids": ["CON-HEM-358CC63951D1AF"],
+      "concept_ids": [
+        "CON-HEM-587EB75E7F6A20"
+      ],
+      "contextual_concept_ids": [
+        "CON-HEM-358CC63951D1AF"
+      ],
       "topic": "Pharmacology",
       "subtopic": "Haematinics — iron toxicity and chelation",
       "difficulty": "Moderate",
@@ -72,15 +103,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify desferrioxamine as the specific antidote for acute iron toxicity decontamination.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.146" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.146"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-ACUTE-IRON-TOXICITY-ANTIDOTE"
+      ]
     },
     {
       "key": "hydroxocobalamin-cyanide-antidote",
       "page": 147,
       "title": "Poisoning treated by hydroxocobalamin",
       "question": "A therapeutic use of Vitamin B12 (specifically hydroxocobalamin) is in the treatment of which type of poisoning?",
-      "options": { "A": "Lead poisoning", "B": "Cyanide poisoning", "C": "Arsenic poisoning", "D": "Iron poisoning", "E": "Carbon monoxide poisoning" },
+      "options": {
+        "A": "Lead poisoning",
+        "B": "Cyanide poisoning",
+        "C": "Arsenic poisoning",
+        "D": "Iron poisoning",
+        "E": "Carbon monoxide poisoning"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Lead poisoning is treated with chelators such as dimercaprol, EDTA, or succimer, not hydroxocobalamin.",
@@ -90,8 +132,12 @@
         "E": "Incorrect. Carbon monoxide poisoning is treated with 100% oxygen (or hyperbaric oxygen), not hydroxocobalamin."
       },
       "main_concept": "CON-HEM-7EC22BADC5654B",
-      "concept_ids": ["CON-HEM-7EC22BADC5654B"],
-      "contextual_concept_ids": ["CON-HEM-358CC63951D1AF"],
+      "concept_ids": [
+        "CON-HEM-7EC22BADC5654B"
+      ],
+      "contextual_concept_ids": [
+        "CON-HEM-358CC63951D1AF"
+      ],
       "topic": "Pharmacology",
       "subtopic": "Haematinics — vitamin B12 therapeutics",
       "difficulty": "Moderate",
@@ -100,15 +146,26 @@
       "reasoning_level": 2,
       "learning_objective": "Identify hydroxocobalamin as the specific antidote for cyanide poisoning, distinct from its role in treating B12 deficiency.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.147" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.147"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-HYDROXOCOBALAMIN-CYANIDE-ANTIDOTE"
+      ]
     },
     {
       "key": "methotrexate-folate-anemia",
       "page": 148,
       "title": "Dihydrofolate reductase inhibitor causing folate-responsive anemia",
       "question": "Folic acid can be used therapeutically to alleviate anemia associated with dihydrofolate reductase inhibitors. Which of the following is an example of such a drug?",
-      "options": { "A": "Phenytoin", "B": "Oral contraceptives", "C": "Methotrexate", "D": "Erythropoietin", "E": "Iron dextran" },
+      "options": {
+        "A": "Phenytoin",
+        "B": "Oral contraceptives",
+        "C": "Methotrexate",
+        "D": "Erythropoietin",
+        "E": "Iron dextran"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. Phenytoin can reduce folate levels through altered absorption/metabolism, but it does not act as a dihydrofolate reductase inhibitor.",
@@ -118,7 +175,9 @@
         "E": "Incorrect. Iron dextran is a parenteral iron preparation, not a dihydrofolate reductase inhibitor."
       },
       "main_concept": "CON-HEM-B3B11CB68B823A",
-      "concept_ids": ["CON-HEM-B3B11CB68B823A"],
+      "concept_ids": [
+        "CON-HEM-B3B11CB68B823A"
+      ],
       "contextual_concept_ids": [],
       "topic": "Pharmacology",
       "subtopic": "Haematinics — folate-responsive anaemia",
@@ -128,15 +187,25 @@
       "reasoning_level": 2,
       "learning_objective": "Identify methotrexate as a dihydrofolate reductase inhibitor whose mechanism can produce a folate-deficiency-pattern anaemia.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.148" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.148"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-METHOTREXATE-FOLATE-ANEMIA"
+      ]
     },
     {
       "key": "megaloblastic-b12-vignette-diagnosis",
       "page": 147,
       "title": "Diagnosis in a vignette of macrocytic anemia with neurological symptoms",
       "question": "A 63-year-old woman came to the clinic because of tiredness. She has been increasingly fatigued over the past year but in recent weeks has become breathless on exertion. Her feet have become numb and she has started to become unsteady on her feet. Her lab investigations showed Haemoglobin 8.2 g/dL (normal 11.7-15.7 g/dL) and Mean corpuscular volume (MCV) 112 fL (normal 80-99 fL). What is the most probable diagnosis?",
-      "options": { "A": "Anemia of chronic disease", "B": "Hemolytic anemia", "C": "Iron deficiency anemia", "D": "Megaloblastic anemia" },
+      "options": {
+        "A": "Anemia of chronic disease",
+        "B": "Hemolytic anemia",
+        "C": "Iron deficiency anemia",
+        "D": "Megaloblastic anemia"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Anaemia of chronic disease is typically normocytic or mildly microcytic, not markedly macrocytic (raised MCV) as in this vignette.",
@@ -145,7 +214,9 @@
         "D": "Correct. The combination of anaemia, a markedly raised MCV (macrocytosis, 112 fL against a normal upper limit of 99 fL), and neurological symptoms (numbness, unsteady gait/ataxia) points to megaloblastic anaemia from vitamin B12 deficiency. Folate deficiency causes an identical megaloblastic blood picture, but only B12 deficiency produces this kind of neurological involvement, which is the key discriminator in this vignette."
       },
       "main_concept": "CON-HEM-666AF38E1A9F1C",
-      "concept_ids": ["CON-HEM-666AF38E1A9F1C"],
+      "concept_ids": [
+        "CON-HEM-666AF38E1A9F1C"
+      ],
       "contextual_concept_ids": [],
       "topic": "Pharmacology",
       "subtopic": "Haematinics — B12 deficiency vignettes",
@@ -155,15 +226,26 @@
       "reasoning_level": 3,
       "learning_objective": "Recognise macrocytic anaemia with neurological symptoms as pointing to megaloblastic (B12-deficiency) anaemia.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.147 (vignette continues to p.148)" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.147 (vignette continues to p.148)"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-B12-SUBACUTE-COMBINED-DEGENERATION"
+      ]
     },
     {
       "key": "subacute-combined-degeneration",
       "page": 148,
       "title": "Cause of the neurological manifestation in the B12-deficiency vignette",
       "question": "Neurological manifestation in this patient is due to:",
-      "options": { "A": "Autonomic neuropathy", "B": "Carpal tunnel syndrome", "C": "Diabetic neuropathy", "D": "Peripheral neuritis", "E": "Subacute combined degeneration of spinal cord" },
+      "options": {
+        "A": "Autonomic neuropathy",
+        "B": "Carpal tunnel syndrome",
+        "C": "Diabetic neuropathy",
+        "D": "Peripheral neuritis",
+        "E": "Subacute combined degeneration of spinal cord"
+      },
       "correct": "E",
       "explanations": {
         "A": "Incorrect. Autonomic neuropathy affects the autonomic nervous system (blood pressure, bowel/bladder control), not the sensory ataxia and upper motor neuron pattern described here.",
@@ -173,7 +255,9 @@
         "E": "Correct. Subacute combined degeneration of the spinal cord is B12 deficiency's specific neurological complication — a demyelination of the dorsal columns and lateral corticospinal tracts that produces the characteristic combination of impaired proprioception/vibration sense (unsteady gait, numbness) and upper motor neuron signs. It is the mechanistic link between this patient's megaloblastic anaemia and her neurological symptoms."
       },
       "main_concept": "CON-HEM-666AF38E1A9F1C",
-      "concept_ids": ["CON-HEM-666AF38E1A9F1C"],
+      "concept_ids": [
+        "CON-HEM-666AF38E1A9F1C"
+      ],
       "contextual_concept_ids": [],
       "topic": "Pharmacology",
       "subtopic": "Haematinics — B12 deficiency vignettes",
@@ -183,15 +267,26 @@
       "reasoning_level": 3,
       "learning_objective": "Name subacute combined degeneration of the spinal cord as B12 deficiency's specific neurological complication.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.148 (continuation of the p.147 vignette)" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.148 (continuation of the p.147 vignette)"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-B12-SUBACUTE-COMBINED-DEGENERATION"
+      ]
     },
     {
       "key": "pernicious-anemia-atrophic-gastritis",
       "page": 148,
       "title": "Vignette of atrophic gastritis with hypersegmented neutrophils",
       "question": "A 60-year-old patient presented with anorexia, weakness, paresthesia and mental changes. His tongue was red, tendon reflexes were diminished, hemoglobin was 6 g% with large red cells and neutrophils had hypersegmented nuclei. Endoscopy revealed atrophic gastritis. Supplementation of which factor is likely to correct his condition?",
-      "options": { "A": "Folic acid", "B": "Vitamin B12", "C": "Pyridoxine", "D": "Riboflavin", "E": "Iron" },
+      "options": {
+        "A": "Folic acid",
+        "B": "Vitamin B12",
+        "C": "Pyridoxine",
+        "D": "Riboflavin",
+        "E": "Iron"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Folic acid would correct the anaemia but not the atrophic-gastritis mechanism or the neurological findings, and could mask ongoing B12-deficiency neurological damage if given alone.",
@@ -201,8 +296,12 @@
         "E": "Incorrect. Iron supplementation would not address this patient's macrocytic, hypersegmented-neutrophil, atrophic-gastritis presentation, which points to B12 deficiency rather than iron deficiency (which would instead show microcytic red cells)."
       },
       "main_concept": "CON-HEM-00676CD8A13120",
-      "concept_ids": ["CON-HEM-00676CD8A13120"],
-      "contextual_concept_ids": ["CON-HEM-666AF38E1A9F1C"],
+      "concept_ids": [
+        "CON-HEM-00676CD8A13120"
+      ],
+      "contextual_concept_ids": [
+        "CON-HEM-666AF38E1A9F1C"
+      ],
       "topic": "Pharmacology",
       "subtopic": "Haematinics — B12 deficiency vignettes",
       "difficulty": "Hard",
@@ -211,8 +310,13 @@
       "reasoning_level": 3,
       "learning_objective": "Recognise atrophic gastritis with hypersegmented neutrophils as the pernicious-anaemia vignette, corrected by vitamin B12.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer letter beside option, p.148" },
-      "author_notes": ""
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.148"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-HIS-PERNICIOUS-ANEMIA-VIGNETTE"
+      ]
     }
   ]
 }

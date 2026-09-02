@@ -121,6 +121,7 @@ MANS-HIS-203 > Physiology > Blood > Plasma proteins
 ## question_only_for
 
 ## library_ids
+ART-102-PHY-ERYTHROPOIESIS
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -266,6 +267,7 @@ MANS-HIS-203 > Physiology > Blood > Plasma proteins
 ## question_only_for
 
 ## library_ids
+ART-102-BIO-HEMOPROTEINS-MYOGLOBIN-HEMOGLOBIN-SUPPLEMENT
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -411,6 +413,7 @@ MANS-HIS-203 > Physiology > Blood > Plasma proteins
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -555,6 +558,7 @@ MANS-HIS-203 > Physiology > Blood > Plasma proteins
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -700,6 +704,7 @@ MANS-HIS-203 > Physiology > Blood > Plasma proteins
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -844,6 +849,7 @@ MANS-HIS-203 > Physiology > Blood > Plasma proteins
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-ACUTE-PHASE-ALPHA1-ANTITRYPSIN
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -988,6 +994,7 @@ MANS-HIS-203 > Physiology > Blood > Plasma proteins
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-ACUTE-PHASE-ALPHA1-ANTITRYPSIN
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4

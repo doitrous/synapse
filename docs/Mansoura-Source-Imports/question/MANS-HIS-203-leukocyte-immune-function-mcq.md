@@ -121,6 +121,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-NEUTROPHIL-FIRST-LINE-DEFENCE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -265,6 +266,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-NEUTROPHIL-FIRST-LINE-DEFENCE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -409,6 +411,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-NEUTROPHIL-FIRST-LINE-DEFENCE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -553,6 +556,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -698,6 +702,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-LEUKOCYTE-COUNT-DISORDERS
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -836,6 +841,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-LEUKOCYTE-COUNT-DISORDERS
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -974,6 +980,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-TISSUE-MACROPHAGE-NOMENCLATURE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1112,6 +1119,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-TISSUE-MACROPHAGE-NOMENCLATURE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1256,6 +1264,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-TISSUE-MACROPHAGE-NOMENCLATURE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1394,6 +1403,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-IMM-IMMUNOGLOBULIN-CLASSES | ART-IMM-TOP-35CFB732FE
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1533,6 +1543,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-LEUKOCYTE-LIFESPAN
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1672,6 +1683,7 @@ MANS-HIS-203 > Physiology > Blood > Leukocyte function
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-LEUKOCYTE-LIFESPAN
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4

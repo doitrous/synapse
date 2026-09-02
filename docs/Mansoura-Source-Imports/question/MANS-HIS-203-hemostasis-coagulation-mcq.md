@@ -121,6 +121,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-COAGULATION-CASCADE-EXTRINSIC-PATHWAY
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -265,6 +266,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-COAGULATION-CASCADE-EXTRINSIC-PATHWAY
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -409,6 +411,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-COAGULATION-CASCADE-EXTRINSIC-PATHWAY
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -553,6 +556,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-COAGULATION-CASCADE-EXTRINSIC-PATHWAY
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -697,6 +701,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-HEMOPHILIA-FACTOR-DEFICIENCY
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -841,6 +846,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-HEMOPHILIA-FACTOR-DEFICIENCY
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -985,6 +991,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-PLATELET-ADHESION-VASOCONSTRICTION
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1129,6 +1136,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-PLATELET-ADHESION-VASOCONSTRICTION
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1273,6 +1281,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-HEMOSTASIS-SEQUENCE-CLOT-RETRACTION
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1417,6 +1426,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-HEMOSTASIS-SEQUENCE-CLOT-RETRACTION
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1561,6 +1571,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-MANS-HIS-HEMOSTASIS-SEQUENCE-CLOT-RETRACTION
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1705,6 +1716,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-102-PHY-ABNORMALITIES-OF-HAEMOSTASIS
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
@@ -1801,7 +1813,6 @@ CON-HEM-BC9F1F59205EC7
 CON-HEM-BC9F1F59205EC7
 
 ## contextual_concept_ids
-CON-HEM-22375197AEE80D
 
 ## difficulty
 Hard
@@ -1851,6 +1862,7 @@ MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
 ## question_only_for
 
 ## library_ids
+ART-102-PHY-ABNORMALITIES-OF-HAEMOSTASIS
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4
