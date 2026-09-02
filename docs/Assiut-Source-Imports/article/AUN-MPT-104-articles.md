@@ -4047,3 +4047,170 @@ Block: body
 ### definition_of · CON-FND-1AF0F29A09A2CA
 Quote: invasion through the basement membrane is the one that actually confirms malignancy, since the other four can each also occur in severe dysplasia
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-INTRO-ANTIMICROBIAL-THERAPY
+
+## title
+Introduction to antimicrobial therapy: beta-lactam prophylaxis, resistance, route nuance and allergy substitution
+
+## arabic_title
+مقدمة في العلاج المضاد للميكروبات: الوقاية ببيتا لاكتام، ومقاومتها، وفروق طريق الإعطاء، وبدائل الحساسية
+
+## aliases
+Introduction to Antimicrobial therapy
+Lecture 40
+
+## subject
+pharm
+
+## topic
+Introduction to Antimicrobial therapy
+
+## subtopic
+Beta-lactam prophylaxis, beta-lactamase inhibition, resistance mechanisms, vancomycin route, ampicillin adverse effects, penicillin-allergy substitution, cephalosporin pharmacology
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+11
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 40 opens the antimicrobial therapy block with beta-lactam pharmacology in specific clinical contexts. Benzathine penicillin's depot formulation makes it the standard long-term prophylaxis against Streptococcus haemolyticus; beta-lactam resistance arises from beta-lactamase production, altered porins and altered PBPs together, and sulbactam counters the first by inhibiting beta-lactamase itself. Vancomycin, first-choice for MRSA intravenously, must instead be given orally for pseudomembranous colitis, since IV dosing never reaches an effective gut-lumen concentration. Ampicillin's characteristic adverse effect is a maculopapular rash; a penicillin-allergic patient needing treatment for Streptococcus pneumoniae should receive a structurally unrelated agent such as erythromycin. Ceftriaxone is bactericidal via cell wall synthesis inhibition, given parenterally only. This is the last lecture cluster of this lane's dispatched Quiz 35-40 range.
+
+## sections
+### Definition
+Lecture 40 opens the antimicrobial therapy block with beta-lactam pharmacology and prescribing in specific clinical contexts: prophylaxis, beta-lactamase inhibition, resistance mechanisms, route-of-administration nuance, characteristic adverse effects, allergy-driven drug substitution, and a non-beta-lactam cephalosporin's own class-defining property.
+
+### Mechanism
+Benzathine penicillin, a long-acting depot form of penicillin G, maintains protective drug levels for weeks with a single injection, making it the standard long-term prophylactic choice against Streptococcus haemolyticus for rheumatic fever prevention. Bacteria resist penicillin and other beta-lactams through several coexisting mechanisms: beta-lactamase inactivation, altered porin structure limiting drug entry, and altered penicillin-binding proteins reducing target affinity; sulbactam specifically counters the first of these by inhibiting beta-lactamase when co-administered with a penicillin. Vancomycin inhibits bacterial cell wall synthesis and is first-choice for MRSA, but for pseudomembranous colitis it must be given orally, since intravenous dosing never reaches an effective luminal gut concentration. Ampicillin's characteristic adverse effect is a maculopapular rash, especially in infectious mononucleosis; a penicillin-allergic patient needing treatment for Streptococcus pneumoniae should receive a structurally unrelated agent such as erythromycin rather than another penicillin or a cross-reactive cephalosporin. Ceftriaxone, a third-generation cephalosporin, is bactericidal via cell wall synthesis inhibition, given parenterally only.
+
+### Key determinants
+Benzathine penicillin's depot formulation, not its spectrum, is what makes it suited to long-term streptococcal prophylaxis. Sulbactam protects a penicillin from beta-lactamase; it is not itself an antibiotic. Beta-lactam resistance in a given organism can combine beta-lactamase production, porin changes and PBP alteration simultaneously. Oral vancomycin, not intravenous, treats pseudomembranous colitis, the opposite of vancomycin's usual systemic (IV) route for MRSA. Ampicillin's rash, erythromycin's role in penicillin allergy, and ceftriaxone's bactericidal, parenteral-only, cell-wall-targeting profile are each specific, examinable facts rather than generalisable class rules.
+
+### Clinical significance
+Recognising when a beta-lactam's route of administration itself is the safety-relevant fact, oral vancomycin for gut-lumen infection versus IV vancomycin for systemic infection, or ceftriaxone's parenteral-only status, prevents a genuinely dangerous prescribing error. Substituting erythromycin, not another beta-lactam, for a penicillin-allergic patient avoids a cross-reactivity reaction. Recognising ampicillin's rash as usually non-allergic, especially in mononucleosis, avoids mislabeling a patient as penicillin-allergic on that basis alone.
+
+### Common misconceptions
+Assuming any depot antibiotic, rather than specifically benzathine penicillin, is used for rheumatic fever prophylaxis. Confusing a beta-lactamase inhibitor (sulbactam) with a beta-lactam antibiotic itself. Selecting only one beta-lactam resistance mechanism instead of recognising that several coexist. Assuming vancomycin's IV route, correct for MRSA, also applies to pseudomembranous colitis. Choosing another beta-lactam, rather than a macrolide, for a penicillin-allergic patient. Assuming ceftriaxone is orally bioavailable or acts by inhibiting protein synthesis.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Benzathine penicillin is the depot-formulation prophylaxis of choice against Streptococcus haemolyticus (rheumatic fever).
+Beta-lactam resistance combines beta-lactamase inactivation, altered porins and altered PBPs; sulbactam inhibits beta-lactamase to protect a co-administered penicillin.
+Vancomycin treats pseudomembranous colitis orally (not IV); it remains IV first-choice for MRSA.
+Ampicillin's characteristic rash is maculopapular; erythromycin substitutes for a penicillin in penicillin-allergic patients; ceftriaxone is bactericidal, parenteral-only, and inhibits cell wall (not protein) synthesis.
+
+## lose_the_mark
+Naming a non-depot antibiotic for long-term streptococcal prophylaxis.
+Confusing sulbactam (a beta-lactamase inhibitor) with a beta-lactam antibiotic, or naming only one beta-lactam resistance mechanism.
+Assuming vancomycin's IV route applies to pseudomembranous colitis.
+Choosing another beta-lactam for a penicillin-allergic patient, or misattributing ceftriaxone's mechanism, route or main side effect.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-C24474B6240E60
+CON-FND-9285259B9D2045
+CON-FND-DC92909C41BEA8
+CON-FND-6334736B849C6D
+CON-FND-9CBD045C91CA64
+CON-FND-739E0D80DC4F2A
+CON-FND-A64FEC0DBC4146
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 40 (Introduction to Antimicrobial therapy) -- no department slide deck exists in the corpus past Lecture 8, so all seven new mints cite the quiz bank's own printed-answer text instead. This is the last lecture cluster of this lane's dispatched Quiz 35-40 range.
+
+## annotations
+### definition_of · CON-FND-C24474B6240E60
+Quote: Benzathine penicillin, a long-acting depot form of penicillin G, maintains protective drug levels for weeks with a single injection, making it the standard long-term prophylactic choice against Streptococcus haemolyticus
+Block: body
+
+### definition_of · CON-FND-9285259B9D2045
+Quote: sulbactam specifically counters the first of these by inhibiting beta-lactamase when co-administered with a penicillin
+Block: body
+
+### definition_of · CON-FND-DC92909C41BEA8
+Quote: Bacteria resist penicillin and other beta-lactams through several coexisting mechanisms: beta-lactamase inactivation, altered porin structure limiting drug entry, and altered penicillin-binding proteins reducing target affinity
+Block: body
+
+### definition_of · CON-FND-6334736B849C6D
+Quote: for pseudomembranous colitis it must be given orally, since intravenous dosing never reaches an effective luminal gut concentration
+Block: body
+
+### definition_of · CON-FND-9CBD045C91CA64
+Quote: Ampicillin's characteristic adverse effect is a maculopapular rash, especially in infectious mononucleosis
+Block: body
+
+### definition_of · CON-FND-739E0D80DC4F2A
+Quote: a penicillin-allergic patient needing treatment for Streptococcus pneumoniae should receive a structurally unrelated agent such as erythromycin rather than another penicillin or a cross-reactive cephalosporin
+Block: body
+
+### definition_of · CON-FND-A64FEC0DBC4146
+Quote: Ceftriaxone, a third-generation cephalosporin, is bactericidal via cell wall synthesis inhibition, given parenterally only
+Block: body

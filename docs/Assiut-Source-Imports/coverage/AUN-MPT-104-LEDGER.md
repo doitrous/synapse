@@ -49,7 +49,7 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 271 | 12 | 158 | 441 |
+| quizzes-2022 | 316 | 19 | 106 | 441 |
 
 ## Held
 - quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
@@ -63,6 +63,13 @@
 - quizzes-2022-q276 — True/False-formatted question (Quiz 33 Q19, p134: 'Embolism means circulation of an embolus in a blood vessel.' -- printed answer 'False', since the standard definition of embolism requires the embolus to lodge/obstruct at a distant site, not merely circulate). Held as format-incompatible, same reasoning as q273. This is a genuinely new idea not duplicated elsewhere in this lane's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong definitions the source never tested -- not resolvable without fabricating content.
 - quizzes-2022-q277 — True/False-formatted question (Quiz 33 Q20, p134: 'Septic thrombophlebitis plays an important role in the pathogenesis of pyaemic abscesses' -- printed answer 'True'). Held as format-incompatible, same reasoning as q273. This is a genuinely new idea not duplicated elsewhere in this lane's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong mechanisms the source never tested -- not resolvable without fabricating content.
 - quizzes-2022-q278 — Printed key names Meclizine as the indicated allergy drug for a 43-year-old ship's captain with seasonal allergies (Quiz 34 Q1: 'Which one of the following would be indicated? ... The correct answer is: Miclizine' [Meclizine]). This is a printed-key/pharmacology conflict: meclizine is a first-generation, sedating antihistamine primarily indicated for motion sickness/vertigo, not first-line for seasonal allergic rhinitis, and its sedating property is specifically unsuited to a ship's captain, who must remain alert while operating a vessel -- the same reasoning that makes a sedating antihistamine a poor choice for a driver (Q19, Q25 in this lane's earlier clusters; and this same Quiz 34's own Q6/q283, which correctly identifies a sedating first-generation antihistamine, diphenhydramine, as the one that impairs a driver's ability). The obviously intended answer given the stem's own logic is Fexofenadine (option D), a non-sedating second-generation antihistamine, but the printed key does not mark it. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47, Q166, Q204, Q224, Q238, Q7/q251 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q298 — True/False-formatted question (Quiz 35 Q15, p145: 'Frequent loss of small amount of blood for long period has no effect' -- printed answer 'False'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed (same reasoning as the q046 match-type hold and the Quiz 33 True/False block). The underlying fact (chronic small blood loss DOES have an effect -- it causes anemia) is already covered by this same lecture's authored Q7 (q290) -- not a coverage gap.
+- quizzes-2022-q299 — True/False-formatted question (Quiz 35 Q16, p145: 'The prognosis of wet gangrene is worse than that of dry gangrene' -- printed answer 'True'). Held as format-incompatible, same reasoning as q298. This prognosis-comparison fact is not itself restated by another authored row in this lecture (q292's reused concept covers moist gangrene's lack of a line of demarcation, a related but distinct fact), so it is a genuinely new idea, but converting it to a real 4-5-option MCQ would require inventing three additional wrong prognosis comparisons the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q300 — True/False-formatted question (Quiz 35 Q17, p145: 'Gangrene means necrosis with putrefaction' -- printed answer 'True'). Held as format-incompatible, same reasoning as q298. This definitional fact is related to, but not restated by, this same lecture's authored Q11 (q294, hydrogen sulphide as gangrene's odour-producing putrefaction product); converting it to a real MCQ would require inventing three wrong definitions the source never tested.
+- quizzes-2022-q301 — True/False-formatted question (Quiz 35 Q18, p146: 'Cardiac oedema is a localised type of oedema' -- printed answer 'False'). Held as format-incompatible, same reasoning as q298. The underlying fact (cardiac oedema is generalized, not localised) is already covered by this same lecture's authored Q4 (q287, lymphatic obstruction as the example of local oedema, implicitly excluding cardiac) and Q10 (q293, malnutrition as a generalized-oedema cause) -- not a coverage gap.
+- quizzes-2022-q302 — True/False-formatted question (Quiz 35 Q19, p146: 'Gangrene of the lower limbs is of the dry type due to evaporation of fluid' -- printed answer 'True'). Held as format-incompatible, same reasoning as q298. This dry-gangrene-mechanism fact is not restated by another authored row in this lecture (this lecture's own authored Q14/q297 covers the opposite case, moist gangrene from volvulus), so it is a genuinely new idea, but converting it to a real MCQ would require inventing three wrong mechanisms the source never tested.
+- quizzes-2022-q303 — Match-type question (Quiz 35 Q20, p146: match Moist gangrene / Dry gangrene / Haemorrhage / Fat embolism to intussusception / atheroma / aneurysm / bone fracture respectively). Held as format-incompatible: not translatable to this platform's single-answer 4-5-option MCQ format without inventing wrong pairings the source never tested, the same reasoning as the q046 match-type hold in an earlier cluster. The four underlying facts are scattered examples (intussusception causing moist gangrene, atheroma causing dry gangrene, aneurysm causing haemorrhage, bone fracture causing fat embolism), none of which duplicate this lecture's own authored rows.
+- quizzes-2022-q304 — Match-type question (Quiz 35 Q21, p147: match Thrombus / Haemorrhage / Venous congestion / Edema to infarction / melena / varices / ascites respectively). Held as format-incompatible, same reasoning as q303. The four underlying facts are scattered examples (thrombus causing infarction, haemorrhage presenting as melena, venous congestion causing varices, oedema causing ascites); the ascites/oedema pairing is related to, but not identical to, this lecture's authored Q1/Q8 (q284/q291, hepatic and cardiac oedema and ascites), so this is not a coverage gap for that specific fact, but the other three pairings are genuinely new and equally untranslatable without fabricating a distractor set.
 - quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
@@ -111,58 +118,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q284
-- quizzes-2022-q285
-- quizzes-2022-q286
-- quizzes-2022-q287
-- quizzes-2022-q288
-- quizzes-2022-q289
-- quizzes-2022-q290
-- quizzes-2022-q291
-- quizzes-2022-q292
-- quizzes-2022-q293
-- quizzes-2022-q294
-- quizzes-2022-q295
-- quizzes-2022-q296
-- quizzes-2022-q297
-- quizzes-2022-q298
-- quizzes-2022-q299
-- quizzes-2022-q300
-- quizzes-2022-q301
-- quizzes-2022-q302
-- quizzes-2022-q303
-- quizzes-2022-q304
-- quizzes-2022-q305
-- quizzes-2022-q306
-- quizzes-2022-q307
-- quizzes-2022-q308
-- quizzes-2022-q309
-- quizzes-2022-q310
-- quizzes-2022-q311
-- quizzes-2022-q312
-- quizzes-2022-q313
-- quizzes-2022-q314
-- quizzes-2022-q315
-- quizzes-2022-q316
-- quizzes-2022-q317
-- quizzes-2022-q318
-- quizzes-2022-q319
-- quizzes-2022-q320
-- quizzes-2022-q321
-- quizzes-2022-q322
-- quizzes-2022-q323
-- quizzes-2022-q324
-- quizzes-2022-q325
-- quizzes-2022-q326
-- quizzes-2022-q327
-- quizzes-2022-q328
-- quizzes-2022-q329
-- quizzes-2022-q330
-- quizzes-2022-q331
-- quizzes-2022-q332
-- quizzes-2022-q333
-- quizzes-2022-q334
-- quizzes-2022-q335
 - quizzes-2022-q336
 - quizzes-2022-q337
 - quizzes-2022-q338

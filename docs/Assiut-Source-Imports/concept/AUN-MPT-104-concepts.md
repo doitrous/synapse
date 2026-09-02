@@ -19498,3 +19498,1000 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "invasion malignancy criterion" -- 0 hits. New concept.
 relationships: related to CON-FND-535DC0C5E33E73 (this same lecture's Q2, malignant infiltrative growth) -- invasion is the microscopic diagnostic criterion behind that gross/behavioural growth-pattern fact.
+
+---
+
+# Item
+
+## id
+CON-FND-C24474B6240E60
+
+## label
+Benzathine penicillin is the best prophylactic drug against Streptococcus haemolyticus
+
+## canonical_key
+antimicrobial.benzathine-penicillin.strep-prophylaxis
+
+## aliases
+Rheumatic fever prophylaxis
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Benzathine penicillin, a long-acting depot form of penicillin G, is the best prophylactic drug against Streptococcus haemolyticus (group A beta-haemolytic streptococcus), maintaining protective drug levels for weeks with a single injection -- the basis for long-term rheumatic fever prophylaxis. Doxycycline, flucloxacillin and ceftriaxone are not the standard prophylactic choice for this organism.
+
+## explicit_objective
+State that benzathine penicillin is the best prophylactic drug against Streptococcus haemolyticus, owing to its long-acting depot formulation.
+
+## pitfalls
+Selecting a short-acting or non-penicillin antibacterial (doxycycline, flucloxacillin, ceftriaxone) for long-term streptococcal prophylaxis, where benzathine penicillin's depot, weeks-long action is specifically what is needed.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Antimicrobial therapy
+
+## subtopic
+Antibacterial prophylaxis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-INTRO-ANTIMICROBIAL-THERAPY
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The best effective prophylactic drug in streptococcus haemolyticus is: ... Benzathine penicillin" (Quiz 40 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 40 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "benzathine penicillin prophylaxis streptococcus" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-9285259B9D2045
+
+## label
+Sulbactam is a beta-lactamase inhibitor co-administered with penicillins
+
+## canonical_key
+antimicrobial.sulbactam.beta-lactamase-inhibitor
+
+## aliases
+Beta-lactamase inhibitors
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sulbactam is a beta-lactamase inhibitor, co-administered with a penicillin (as in ampicillin/sulbactam) to protect the antibiotic from bacterial beta-lactamase inactivation and restore its activity against beta-lactamase-producing organisms. Ethacrynic acid (a loop diuretic), monobactam (a distinct beta-lactam antibiotic class, e.g. aztreonam) and moxalactam (a cephalosporin-class antibiotic) are not beta-lactamase inhibitors.
+
+## explicit_objective
+Identify sulbactam as a beta-lactamase inhibitor used to protect a co-administered penicillin from bacterial beta-lactamase inactivation.
+
+## pitfalls
+Confusing sulbactam, a beta-lactamase inhibitor, with a beta-lactam antibiotic itself (monobactam, moxalactam) or an unrelated drug class (ethacrynic acid, a diuretic).
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Antimicrobial therapy
+
+## subtopic
+Beta-lactamase inhibitors
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-INTRO-ANTIMICROBIAL-THERAPY
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-DC92909C41BEA8
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pick out the β-lactamase inhibitor for co-administration with penicillins: ... Sulbactum" (Quiz 40 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 40 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "sulbactam beta-lactamase inhibitor" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-DC92909C41BEA8
+
+## label
+Resistance to penicillin and other beta-lactams arises from multiple, coexisting mechanisms
+
+## canonical_key
+antimicrobial.beta-lactam-resistance.multiple-mechanisms
+
+## aliases
+Beta-lactam resistance mechanisms
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bacteria can resist penicillin and other beta-lactam antibiotics through several distinct mechanisms that are not mutually exclusive: inactivation by beta-lactamase enzymes, altered porin structure reducing drug entry into gram-negative organisms, and altered penicillin-binding proteins (PBPs) reducing the drug's target affinity. Because all three mechanisms genuinely contribute to beta-lactam resistance, "all of the above" is the correct, most complete answer.
+
+## explicit_objective
+State that resistance to penicillin and other beta-lactams can arise from beta-lactamase inactivation, altered porin structure and altered PBPs together, not from any single mechanism alone.
+
+## pitfalls
+Selecting only one resistance mechanism (beta-lactamase inactivation, porin change, or PBP alteration) when the question in fact tests that all three genuinely contribute to beta-lactam resistance.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Antimicrobial therapy
+
+## subtopic
+Antibiotic resistance mechanisms
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-INTRO-ANTIMICROBIAL-THERAPY
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-9285259B9D2045
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Resistance to Penicillin and other β-lactams is due to: ... All of the above" (Quiz 40 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 40 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "beta-lactamase resistance mechanisms penicillin" -- 0 hits. New concept.
+relationships: sibling of CON-FND-9285259B9D2045 (this same lecture's Q2, sulbactam).
+
+---
+
+# Item
+
+## id
+CON-FND-6334736B849C6D
+
+## label
+Oral (not intravenous) vancomycin treats pseudomembranous colitis
+
+## canonical_key
+antimicrobial.vancomycin.oral-route-for-c-diff-colitis
+
+## aliases
+Vancomycin route for C. difficile colitis
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vancomycin inhibits bacterial cell wall synthesis, causes histamine release (red man syndrome) as an adverse effect, and is a first-choice drug for MRSA -- but for pseudomembranous colitis (typically Clostridioides difficile), it must be given orally, not intravenously, since intravenous vancomycin does not reach an effective concentration within the gut lumen where the infection occurs; oral vancomycin acts locally within the colon instead.
+
+## explicit_objective
+State that vancomycin's use in pseudomembranous colitis requires the oral route, not the intravenous route, since only oral dosing reaches an effective luminal gut concentration.
+
+## pitfalls
+Assuming vancomycin's intravenous route, appropriate for systemic infections such as MRSA, also applies to pseudomembranous colitis -- that specific indication requires the oral route instead, to act locally within the gut lumen.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Antimicrobial therapy
+
+## subtopic
+Vancomycin
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-INTRO-ANTIMICROBIAL-THERAPY
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Concerning vancomycin, the following is correct EXCEPT: ... It is used intravenously in the treatment of pseudomembranous colitis" (Quiz 40 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 40 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "vancomycin oral pseudomembranous colitis" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-9CBD045C91CA64
+
+## label
+Maculopapular rash is a characteristic adverse effect of ampicillin
+
+## canonical_key
+antimicrobial.ampicillin.maculopapular-rash
+
+## aliases
+Ampicillin rash
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A maculopapular (morbilliform) skin rash is a characteristic adverse effect of ampicillin, occurring in a substantial minority of patients and especially common (and non-allergic in mechanism) when ampicillin is given during infectious mononucleosis (EBV infection) -- distinct from acute haemolytic anemia, agranulocytosis or phototoxicity, none of which is ampicillin's characteristic reaction.
+
+## explicit_objective
+State that a maculopapular rash, not acute haemolytic anemia, agranulocytosis or phototoxicity, is ampicillin's characteristic adverse effect.
+
+## pitfalls
+Attributing a different drug class's characteristic adverse effect (haemolytic anemia, agranulocytosis, phototoxicity) to ampicillin, whose own signature reaction is a maculopapular rash.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Antimicrobial therapy
+
+## subtopic
+Aminopenicillin adverse effects
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-INTRO-ANTIMICROBIAL-THERAPY
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A characteristic adverse effect associated with the use of Ampicillin is: ... Maculpapular rash" (Quiz 40 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 40 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "ampicillin maculopapular rash" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-739E0D80DC4F2A
+
+## label
+Erythromycin is the appropriate alternative for a penicillin-allergic patient with Streptococcus pneumoniae infection
+
+## canonical_key
+antimicrobial.erythromycin.alternative-for-penicillin-allergy
+
+## aliases
+Macrolide for penicillin allergy
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In a patient with true hypersensitivity to penicillin V who develops a Streptococcus pneumoniae infection, erythromycin (a macrolide) is the appropriate alternative, since it belongs to a structurally unrelated antibiotic class with no cross-reactivity risk -- unlike amoxicillin/clavulanate, ampicillin (both penicillins) or cefaclor (a cephalosporin, which carries some cross-reactivity risk with penicillin allergy).
+
+## explicit_objective
+Select erythromycin as the appropriate antibiotic for a penicillin-allergic patient with a Streptococcus pneumoniae infection, avoiding amoxicillin/clavulanate, ampicillin and cefaclor.
+
+## pitfalls
+Choosing a beta-lactam alternative (a different penicillin, or a cephalosporin such as cefaclor) for a penicillin-allergic patient -- a macrolide such as erythromycin, from a structurally unrelated class, is the safer choice.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Antimicrobial therapy
+
+## subtopic
+Antibiotic selection in penicillin allergy
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-INTRO-ANTIMICROBIAL-THERAPY
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...which of the following antimicrobials would be the best choice for that patient? ... Erythromycin" (Quiz 40 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 40 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "erythromycin penicillin allergy alternative" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-A64FEC0DBC4146
+
+## label
+Ceftriaxone is bactericidal
+
+## canonical_key
+antimicrobial.ceftriaxone.bactericidal
+
+## aliases
+Ceftriaxone pharmacology
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ceftriaxone, a third-generation cephalosporin, is bactericidal, inhibiting bacterial cell wall synthesis (not protein synthesis) and killing susceptible bacteria outright -- it is not effective orally (requiring parenteral administration only), and hepatic toxicity is not its main recognised side effect (biliary sludging is a more specific, better-known concern).
+
+## explicit_objective
+State that ceftriaxone is bactericidal (via cell wall synthesis inhibition), and reject the claims that it is orally effective, acts by inhibiting protein synthesis, or causes hepatic toxicity as its main side effect.
+
+## pitfalls
+Assuming ceftriaxone is available orally, or that it inhibits protein synthesis rather than cell wall synthesis -- ceftriaxone is a parenteral-only beta-lactam and, like other cephalosporins, is bactericidal via cell wall synthesis inhibition.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Introduction to Antimicrobial therapy
+
+## subtopic
+Cephalosporin pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-INTRO-ANTIMICROBIAL-THERAPY
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following about ceftriaxone is correct: ... It is bactericidal" (Quiz 40 Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 40 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "ceftriaxone bactericidal" -- 0 hits. New concept.
