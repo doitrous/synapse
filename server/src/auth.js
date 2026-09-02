@@ -143,6 +143,10 @@ export async function apiAuthGate(req, res, next) {
   // the failure this list exists to prevent.
   if (
     req.path === '/api/health'
+    // The voice deployment check: what a browser would dial, minus every
+    // credential. Public so the media path can be verified from outside the
+    // host; see the route in index.js.
+    || (req.method === 'GET' && req.path === '/api/rooms/voice')
     || req.path === '/api/webhooks/resend/inbound'
     || req.path === '/api/unsubscribe'
     || req.path === '/api/accounts/exists'
