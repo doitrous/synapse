@@ -1,0 +1,43 @@
+# MANS-PPPM — recovered answer keys, Pharmacology section p.1-6 (Q1-30 of 218 in the full bank)
+# Source: PPPM Exam Bank ( 61, 60, 59, 58).pdf (src_111bbd078054dc30d3af), Pharmacology section (p.1-16 of 44)
+# Format: <seed key> — matches this pass's seed file keys exactly (pppmbank-qNN),
+#         one per line, so ledger.mjs's authored/held/remaining counts are accurate
+#         for this pass rather than polluted by free-text stem descriptions.
+# Method: printed red-text bold key in a right-margin key column, one column per
+#         5-question page block — NOT aligned line-by-line with the option text.
+#         pagetext.mjs keys mis-attributed several keys on this layout (confirmed
+#         by comparing its output against a full-page render of p.1-2); every key
+#         used below was verified by rendering p.1-6 and reading the key column
+#         directly, not by trusting pagetext.mjs keys' output. See
+#         MANS-PPPM-triage.md for the full trap writeup.
+
+pppmbank-q01
+pppmbank-q02
+pppmbank-q03
+pppmbank-q04
+pppmbank-q05
+pppmbank-q06
+pppmbank-q07
+pppmbank-q08
+pppmbank-q09
+pppmbank-q10
+pppmbank-q11
+pppmbank-q12
+pppmbank-q13
+pppmbank-q14
+pppmbank-q15
+pppmbank-q16
+pppmbank-q17
+pppmbank-q18
+pppmbank-q19
+pppmbank-q20
+pppmbank-q21
+pppmbank-q22
+pppmbank-q23
+pppmbank-q24
+pppmbank-q25
+pppmbank-q26
+pppmbank-q27
+pppmbank-q28
+pppmbank-q29
+pppmbank-q30
