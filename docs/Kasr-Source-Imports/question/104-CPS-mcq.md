@@ -49,11 +49,11 @@
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
     Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
+    Physiology Cardiovascular System — Cardiac Function — 42 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 41 questions, 10 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  184 questions were excluded and 0 held back for having no
+  186 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -48059,6 +48059,282 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-BA7570FD3983
+## title
+Diacrotic notch is due to: |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Diacrotic notch is due to: |
+## answer_a
+sudden closure of AV valves
+## explanation_a
+Closure of the AV valves produces the first heart sound at the start of ventricular systole, an entirely different event from the dicrotic notch, which sits on the aortic pressure curve at the end of systole.
+## answer_b
+sudden closure of aortic valve
+## explanation_b
+Correct. The dicrotic notch is the sharp drop on the descending (catacrotic) limb of the aortic pressure curve caused by the sudden closure of the aortic valve at the end of ejection, once ventricular pressure has fallen below aortic pressure.
+
+Why this is right:
+- On the aortic pressure curve, the dicrotic notch is a sharp drop in pressure caused by closure of the aortic valve at the end of systole, and is followed by the dicrotic wave, a small rise caused by backwardly moving blood bouncing against the closed elastic aortic valve during isovolumetric relaxation.
+## answer_c
+sudden decrease in aortic pressure. ‏ظ‎
+## explanation_c
+A decrease in aortic pressure is what is observed around the notch, but the direct mechanical cause of the notch itself is the aortic valve slamming shut, not the pressure fall in isolation.
+## answer_d
+marked decrease in ventricular pressure.
+## explanation_d
+A marked decrease in ventricular pressure is a related, concurrent event on the other side of the now-closed aortic valve, but the dicrotic notch is specifically a feature of the aortic pressure trace, directly caused by aortic valve closure.
+## correct_answer
+B
+## main_concept
+CON-CVS-F8BD2261B8CBDA
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the dicrotic notch is caused by sudden closure of the aortic valve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q52. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7545D7AA89B9
+## title
+During the reduced ejection phase, which one of the following is true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During the reduced ejection phase, which one of the following is true:
+## answer_a
+left atrial pressure is falling.
+## explanation_a
+Left atrial pressure is rising, not falling, during reduced ejection: the AV valves are shut, so venous blood returning to the atrium accumulates there with nowhere else to go, building the v wave of the atrial pressure curve.
+## answer_b
+aortic pressure is falling below left ventricular pressure.
+## explanation_b
+Aortic pressure has not yet fallen below left ventricular pressure during reduced ejection — the two remain close, with a small forward pressure gradient still driving the tail of ejection; aortic pressure only clearly overtakes ventricular pressure at the transition into isovolumetric relaxation, ending ejection.
+## answer_c
+the A-V valves are closed.
+## explanation_c
+Correct. The AV valves are held shut throughout both ejection phases (rapid and reduced), since ventricular pressure remains above atrial pressure the whole time — they only reopen once ventricular pressure falls below atrial pressure during rapid filling.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_d
+left ventricular pressure is constant.
+## explanation_d
+Left ventricular pressure is not constant during reduced ejection; it has already passed its peak (reached during rapid ejection) and is beginning to fall as the rate of ejection slows.
+## correct_answer
+C
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the AV valves stay closed throughout the reduced ejection phase, along with the rest of ventricular systole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q75. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-03D1A49A48C7
+## title
+The atrial component of ventricular filling is
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The atrial component of ventricular filling is
+## answer_a
+10% ,
+## explanation_a
+10% understates the atrial contribution; atrial systole normally tops up roughly 30% of end-diastolic volume, not a tenth of it.
+## answer_b
+30%
+## explanation_b
+Correct. Atrial systole is an active top-up of ventricular filling that normally contributes roughly the last 30% of end-diastolic volume, on top of the passive filling (rapid and reduced filling phases) that fills the rest.
+
+Why this is right:
+- The atria have three functions beyond acting as a simple entry chamber.
+## answer_c
+50%
+## explanation_c
+50% overstates the atrial contribution; the larger share of ventricular filling happens passively, before atrial systole ever begins, chiefly during the rapid filling phase.
+## answer_d
+80% |
+## explanation_d
+80% overstates the atrial contribution even further; passive filling, not atrial systole, is responsible for most of ventricular filling.
+## correct_answer
+B
+## main_concept
+CON-CVS-60749EA9A6B0A5
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that atrial systole normally contributes roughly 30% of ventricular filling.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q49. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-F175091CC11D
 ## title
 Digitalis has positive inotropic effect through the following mechanism:
@@ -50363,6 +50639,466 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-368C003B2FAC
+## title
+Cardiac output is: |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Cardiac output is: |
+## answer_a
+Amount of blood moving into the aorta each minute
+## explanation_a
+Blood moving into the aorta each minute is close to the concept of cardiac output but does not itself state the formula the question is testing (stroke volume x beats per minute); it also describes left-ventricular output alone, not "the amount of blood ejected from a ventricle" generically.
+## answer_b
+Amount of blood ejected from a ventricle in each systole times beats per minute
+## explanation_b
+Correct. Cardiac output is the amount of blood ejected from a ventricle in each systole (stroke volume) multiplied by the number of beats per minute (heart rate): CO = SV x HR.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_c
+Amount of blood ejected from both ventricles in each systole. °
+## explanation_c
+The amount of blood ejected from BOTH ventricles in one systole double-counts what a single ventricle ejects (the two ventricles in series eject essentially equal stroke volumes) and, like the other wrong options, omits the per-minute (heart-rate) component entirely.
+## answer_d
+Amount of blood ejected from the left ventricle in each systole
+## explanation_d
+The amount of blood ejected from the left ventricle in one systole is stroke volume, a per-beat quantity — cardiac output additionally requires multiplying by heart rate to reach a per-minute quantity.
+## correct_answer
+B
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State the formula CO = stroke volume x heart rate as the correct definition of cardiac output.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p14 q104. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C2026C9525AC
+## title
+What's the correct definition of cardiac output?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+What's the correct definition of cardiac output?
+## answer_a
+Amount of blood delivered through both vena cava per minute
+## explanation_a
+The amount of blood delivered through both venae cavae per minute describes venous return, which equals cardiac output only at haemodynamic steady state — it is not the definition of cardiac output itself.
+## answer_b
+Amount of blood ejected from a ventricle in each systole times beats per
+## explanation_b
+Correct. Cardiac output is the amount of blood ejected from a ventricle in each systole (stroke volume) multiplied by the number of beats per minute (heart rate): CO = SV x HR.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_c
+Amount of blood ejected from both ventricles in each systole
+## explanation_c
+The amount of blood ejected from both ventricles in one systole describes a single beat's total output, missing the essential "per minute" (heart-rate) component of the true definition.
+## answer_d
+Amount of blood ejected frorn the left ventricle in each systole
+## explanation_d
+The amount of blood ejected from the left ventricle in one systole is stroke volume, a per-beat quantity, not cardiac output's per-minute quantity.
+## correct_answer
+B
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State the formula CO = stroke volume x heart rate as the correct definition of cardiac output.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p7 q23. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D5E30C293D12
+## title
+The left ventricle has a thicker wall than the right ventricle because a, itis richer i…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The left ventricle has a thicker wall than the right ventricle because a, itis richer in blood supply
+## answer_a
+itis richer in blood supply
+## explanation_a
+A richer blood supply is not the reason for a thicker wall; a thicker, harder-working muscle needs more perfusion as a consequence of its greater workload, not as the cause of that thickness.
+## answer_b
+it ejects blood through a narrower orifice
+## explanation_b
+The left ventricle does not eject through a narrower orifice than the right; aortic and pulmonary valve orifices are comparable in size, so orifice narrowing is not what drives the wall-thickness difference.
+## answer_c
+it ejects a greater cardiac output .
+## explanation_c
+The left and right ventricles eject essentially equal stroke volumes in series at steady state, so a greater cardiac output is not the left ventricle's distinguishing feature or the reason for its thicker wall.
+## answer_d
+it ejects blood against a higher pressure
+## explanation_d
+Correct. The left ventricle ejects against systemic arterial pressure (~120-130 mmHg), roughly five to six times the right ventricle's pulmonary afterload (~25 mmHg); this higher afterload is the causal driver of greater workload, and the thicker wall is the structural (hypertrophic) adaptation to that chronic extra work.
+
+Why this is right:
+- The right and left ventricles eject the same stroke volume in series, but against very different loads.
+## correct_answer
+D
+## main_concept
+CON-CVS-CFB335FDD7B477
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the left ventricle's thicker wall is caused by it ejecting against a higher pressure (afterload) than the right ventricle, not by blood supply, orifice size or output volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p1 q7. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-67F59B84EBC8
+## title
+The systolic pressure in the left ventricle is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The systolic pressure in the left ventricle is:
+## answer_a
+130 mmHg
+## explanation_a
+Correct. Normal left ventricular systolic pressure is approximately 120-130 mmHg, matching the systemic arterial systolic pressure it must generate to eject blood into the aorta — roughly five to six times the right ventricle's pulmonary systolic pressure.
+
+Why this is right:
+- The right and left ventricles eject the same stroke volume in series, but against very different loads.
+## answer_b
+110 mmHg
+## explanation_b
+110 mmHg understates normal left ventricular systolic pressure, which needs to at least match systemic arterial systolic pressure for the aortic valve to open and ejection to occur.
+## answer_c
+150 mmHg
+## explanation_c
+150 mmHg overstates normal resting left ventricular systolic pressure; a value this high would suggest hypertension rather than a normal resting figure.
+## answer_d
+80 mmHg
+## explanation_d
+80 mmHg is close to normal systemic diastolic pressure, not left ventricular systolic pressure — the ventricle must exceed aortic diastolic pressure substantially before the aortic valve opens at all.
+## correct_answer
+A
+## main_concept
+CON-CVS-CFB335FDD7B477
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that normal left ventricular systolic pressure is approximately 120-130 mmHg, matching systemic arterial systolic pressure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q79. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-209B833933A4
+## title
+The work performed by left ventricle is greater than that performed by right ventricle …
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The work performed by left ventricle is greater than that performed by right ventricle because a, The wall is thicker
+## answer_a
+The wall is thicker
+## explanation_a
+Wall thickness is a structural adaptation resulting from the left ventricle's greater workload over time, not the cause of that greater work — reasoning from wall thickness reverses cause and effect.
+## answer_b
+The stroke volume is greater
+## explanation_b
+In series circulation, right and left ventricular stroke volumes are essentially equal at steady state, so a greater stroke volume does not explain the work difference between the two ventricles.
+## answer_c
+The preload is greater
+## explanation_c
+Preload (end-diastolic volume, filling) is similar for both ventricles in a normal series circulation and is not the source of the work disparity between them.
+## answer_d
+The afterload is greater
+## explanation_d
+Correct. Cardiac work per beat is proportional to afterload (the pressure the ventricle must generate) multiplied by the volume ejected; since stroke volumes are essentially equal, the left ventricle's far higher afterload — systemic arterial pressure, roughly five to six times the right ventricle's pulmonary arterial pressure — is what makes its work per beat greater.
+
+Why this is right:
+- The right and left ventricles eject the same stroke volume in series, but against very different loads.
+## correct_answer
+D
+## main_concept
+CON-CVS-CFB335FDD7B477
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the left ventricle's greater work, relative to the right ventricle's, is caused by its greater afterload, not by wall thickness, stroke volume or preload.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q123. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-30851052ECE6
 ## title
 All about cardiac preload is true, EXCEPT:
@@ -51273,6 +52009,190 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p6 q44. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-30EDE96DF248
+## title
+If the EDV is increased (within limits):
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+If the EDV is increased (within limits):
+## answer_a
+COP would be decreased 1
+## explanation_a
+By Frank-Starling's law, a higher end-diastolic volume raises stroke volume, and cardiac output (CO = SV x HR) would rise with it at an unchanged heart rate, not decrease.
+## answer_b
+The force of cardiac contraction would be decreased
+## explanation_b
+Frank-Starling's law states the opposite: a greater stretch (higher preload) increases, not decreases, the force of cardiac contraction.
+## answer_c
+The output of the right ventricle would exceed the output of the left ventricle
+## explanation_c
+The right and left ventricles operate in series and eject essentially equal outputs at steady state; a rising end-diastolic volume does not make one ventricle's output exceed the other's.
+## answer_d
+The stroke volume would be increased
+## explanation_d
+Correct. By Frank-Starling's law, a higher end-diastolic volume stretches the ventricle further before contraction, raising the degree of shortening and so the stroke volume it ejects.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## correct_answer
+D
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a higher end-diastolic volume (preload) raises stroke volume, by Frank-Starling's law.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p15 q111. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7A05FE5019D4
+## title
+If the EDV is increased (within limits), which of the following will occur?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+If the EDV is increased (within limits), which of the following will occur?
+## answer_a
+COP would be decreased
+## explanation_a
+By Frank-Starling's law, a higher end-diastolic volume raises stroke volume, and cardiac output (CO = SV x HR) would rise with it at an unchanged heart rate, not decrease.
+## answer_b
+The force of cardiac contraction would be decreased
+## explanation_b
+Frank-Starling's law states the opposite: a greater stretch (higher preload) increases, not decreases, the force of cardiac contraction.
+## answer_c
+The output of the right ventricle would exceed the output of the left
+## explanation_c
+The right and left ventricles operate in series and eject essentially equal outputs at steady state; a rising end-diastolic volume does not make one ventricle's output exceed the other's.
+## answer_d
+The stroke volume would be increased
+## explanation_d
+Correct. By Frank-Starling's law, a higher end-diastolic volume stretches the ventricle further before contraction, raising the degree of shortening and so the stroke volume it ejects — the same fact this file's own if-the-edv-is-increased-within-limits-1a718833 question tests from a second, independent source occurrence.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## correct_answer
+D
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a higher end-diastolic volume (preload) raises stroke volume, by Frank-Starling's law.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p8 q31. Manifest src_ab84e963639b236e0951.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

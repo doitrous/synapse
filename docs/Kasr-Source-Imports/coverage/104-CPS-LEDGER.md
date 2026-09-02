@@ -4,13 +4,13 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 831 | excluded: 181 | remaining: 140
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 837 | excluded: 184 | remaining: 131
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 831
+- authored (by key, this ledger): 837
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 831
+- authored minus held-back = build-style "kept": 837
 
 ## By cluster (leaf tag)
 
@@ -21,7 +21,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Vascular Function | 44 | 27 | 5 | 12 |
 | Gas Transport by the Blood | 35 | 23 | 1 | 11 |
 | Control of Respiration | 25 | 9 | 6 | 10 |
-| Lung Volumes and Capacities | 9 | 0 | 0 | 9 |
 | Mechanical Properties of Cardiac Muscle | 42 | 26 | 8 | 8 |
 | A-V Connections | 54 | 40 | 7 | 7 |
 | Arteries | 62 | 45 | 10 | 7 |
@@ -43,6 +42,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Electrical Activity of the Heart | 82 | 57 | 25 | 0 |
 | Gas exchange in the lung | 21 | 18 | 3 | 0 |
 | Human Chromosome | 48 | 43 | 4 | 0 |
+| Lung Volumes and Capacities | 9 | 6 | 3 | 0 |
 | Lungs — Gross Anatomy | 21 | 16 | 5 | 0 |
 | Mechanics of Breathing | 22 | 18 | 4 | 0 |
 | Mediastinum | 41 | 30 | 11 | 0 |
@@ -131,18 +131,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-of-the-following-discharge-spontaneously-during-quiet-b30226e7` — Which of the following discharge spontaneously during quiet breathing? ‏ا‎ ‎a- S…
 - `which-of-the-following-discharge-spontaneously-during-quist-89974900` — Which of the following discharge spontaneously during quist breathing?
 - `which-of-the-following-discharges-spontaneously-during-quiet-20ea9248` — Which of the following discharges spontaneously during quiet breathing?
-
-### Lung Volumes and Capacities (9)
-
-- `a-72-kg-woman-would-have-approximately-how-much-dead-space-i-055268e0` — A 72 kg woman would have approximately how much dead space in her lungs?
-- `how-do-you-calculate-how-much-inspired-air-actually-ventilat-91ab164f` — How do you calculate how much inspired air actually ventilates the alveoli durin…
-- `the-residual-volume-37dc4b1c` — The residual volume: :
-- `tidal-volume-is-air-66461af4` — Tidal volume is air:
-- `vital-capacity-e6eee7c9` — Vital capacity:
-- `vital-capacity-is-reduced-by-all-except-75ee187f` — Vital capacity is reduced by all except:
-- `which-of-the-following-concerning-average-lung-volumes-and-c-ade8fafa` — Which of the following concerning average lung volumes and capacities of a perso…
-- `which-one-of-the-following-components-of-a-pulmonary-functio-1aeacf86` — Which one of the following components of a pulmonary function test will be norma…
-- `which-volume-remains-in-the-lungs-after-a-maximal-expiration-1d4cbfd2` — Which volume remains in the lungs after a maximal expiration?
 
 ### Mechanical Properties of Cardiac Muscle (8)
 
