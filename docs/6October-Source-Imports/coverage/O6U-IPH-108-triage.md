@@ -92,19 +92,33 @@ slide, not content). Breakdown by answer format:
   is no adjacent block of related printed facts).
 
 34/44 sampled items (77%) are keyed with real, usable stems -- **well above
-the 60% floor.** All 34 keys read from the plain `The correct answer(s)
-is/are:` text line, never from which option carries a `*` (that mark is the
+the 60% floor.** All keys read from the plain `The correct answer(s) is/are:`
+text line, never from which option carries a `*` (that mark is the
 respondent's own answer, frequently wrong -- e.g. Q29, respondent picked
 "Morphine", printed key is "Dopamine"; Q31, respondent picked "Ouabain",
 printed key is "Insulin"). Cross-checked every key against standard
-pharmacology/pharmaceutics fact before authoring; none contradicted fact,
-though a few printed keys use loose or dated phrasing (Q11 "the dose should
-be written alphabetically" for narcotic prescriptions -- read as "written out
-in words," a real anti-forgery convention, kept as printed and flagged in
-`author_notes`).
+pharmacology/pharmaceutics fact before authoring; one printed key uses loose
+phrasing kept as-is (Q11 "the dose should be written alphabetically" for
+narcotic prescriptions -- read as "written out in words," a real anti-forgery
+convention, flagged in `author_notes`).
 
-**Verdict: TRIAGE APPROVED.** Authored 34 questions from this source (below;
-see `coverage/seeds/O6U-IPH-108/drg-practical.md`, emitted batch, ledger).
+One of the 34, **Q35, was held rather than authored** on a closer render-based
+check (p71-72): the question asks which statement about alkaloids is the
+false EXCEPT-item, and its printed "correct answer" is "Alkaloid's name ends
+with in" -- but the same review page's own explanatory paragraph, printed
+directly beneath the options, affirms in full "Their names end with 'ine' e.g.
+atropine, morphine" as a true fact. The printed key contradicts the source's
+own printed explanation on the same page. Held per the standing rule
+(contradictory items are held, not re-keyed by inference or fact-checked into
+agreement) -- see `concept/O6U-IPH-108-new-concepts.md`'s alkaloid concept
+`field_notes` for the full note. The underlying naming-convention fact
+(alkaloid names end in "-ine") remains valid, independently well-established
+pharmacology corroborated by that same paragraph; only Q35's own answer key
+is unusable.
+
+**Verdict: TRIAGE APPROVED.** Authored 33 questions from this source, held 1
+(Q35, contradictory key) -- see `coverage/seeds/O6U-IPH-108/drg-practical.json`,
+emitted batch, ledger.
 
 ## Source 3+4 -- department books (`فارما د عبد المتعال 1.pdf` / `2.pdf`)
 
