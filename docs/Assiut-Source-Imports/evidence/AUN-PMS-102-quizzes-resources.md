@@ -47,10 +47,15 @@ question prints "The correct answer is: <text>" regardless of whether the
 respondent's own answer was right or wrong, confirming this is a genuine
 keyed export, not a single respondent's own marks. This source backs the
 embryology cluster authored from pp.34-64 (Quiz51, Quiz52, Quiz53,
-Quiz54-57, Quiz55, Quiz58-60): 314 "Question N" instances across the
-clean range, 310 carrying a printed key (98.7%), 4 image-dependent
-("Label the diagram", unusable without the image). Full method:
-coverage/AUN-PMS-102-triage.md, coverage/AUN-PMS-102-triage-keys.txt.
+Quiz54-57, Quiz55, Quiz58-60) and the nervous system/general histology/
+cardiovascular-lymphatic/urinary/genital cluster authored from pp.65-107
+(QUIZ21&22, Quiz23, Quiz24, QUIZ 25, Quiz26, Quiz27, Quiz28, the on-topic
+item from "Quiz for organ systems", Quiz29's second occurrence): 314
+"Question N" instances across the clean range, 310 carrying a printed
+key (98.7%), 4 image-dependent ("Label the diagram", unusable without
+the image). pp.108-169 (Quiz30, chromosome theory) remain keyed but not
+yet authored. Full method: coverage/AUN-PMS-102-triage.md,
+coverage/AUN-PMS-102-triage-keys.txt.
 
 ## confidence
 0.95

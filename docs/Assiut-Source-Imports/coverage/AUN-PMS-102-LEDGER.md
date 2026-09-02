@@ -34,7 +34,46 @@
 | pms-quiz-q032 p61 key=C  teratogenic viruses = rubella, varicella, CMV (all of the above) -- new CON-DEV-DF6237EB0D4E49 | 0 | 0 | 1 | 1 |
 | pms-quiz-q033 p62 key=B  cri du chat syndrome = partial deletion of chromosome 5 -- new CON-DEV-140D5FF96E07A2 | 0 | 0 | 1 | 1 |
 | pms-quiz-q034 p62 key=C  prenatal diagnosis of birth defects = amniocentesis -- new CON-DEV-B988E7933351E1 | 0 | 0 | 1 | 1 |
+| pms-quiz-q035 p65 key=A  spinal nerve count = 31 pairs -- new CON-NEU-E98BD7E9D4CC9A | 0 | 0 | 1 | 1 |
+| pms-quiz-q036 p65 key=A  structural/functional unit of nervous system = neurons -- new CON-NEU-4027FFDDA9C52F | 0 | 0 | 1 | 1 |
+| pms-quiz-q037 p66 key=C  CNS subdivided into brain and spinal cord -- new CON-NEU-64ECDE7104294C | 0 | 0 | 1 | 1 |
+| pms-quiz-q038 p66 key=B  gray matter = bodies of nerve cells embedded in neuroglia -- new CON-NEU-CDF7D84493E7AA | 0 | 0 | 1 | 1 |
+| pms-quiz-q039 p66 key=C  nerves carrying impulses brain->body = efferent -- new CON-NEU-412B68B5906A03 | 0 | 0 | 1 | 1 |
+| pms-quiz-q040 p68 key=C  epithelial cells rest on a basement membrane -- reuse CON-FND-49350AB867CB5A (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q041 p69 key=B  epithelial tissues have closely aggregated cells -- reuse CON-FND-49350AB867CB5A (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q042 p69 key=A  basement membrane function = molecular filtering -- reuse CON-FND-47743DDD3ED7A0 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q043 p69 key=A  basement membrane serves = all of the above (support+attachment+barrier) -- reuse CON-FND-47743DDD3ED7A0 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q044 p70 key=A  basement membrane stained with PAS reaction -- reuse CON-FND-05C930A781CE55 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q045 p75 key=D  strong intercellular adhesion needs desmosomes -- reuse CON-FND-59E3FDA20F54AD (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q046 p75 key=D  intercellular ionic exchange = gap junction -- reuse CON-FND-ACB35745EC9A5D (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q047 p76 key=C  intercellular sealing = zonula occludens -- reuse CON-FND-2EAD7BC676C215 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q048 p81 key=C  base of the heart formed mainly by left atrium -- new CON-CVS-686BD8735B1B39 | 0 | 0 | 1 | 1 |
+| pms-quiz-q049 p82 key=C  arterioles = final distributing vessels, deliver oxygenated blood to capillaries -- new CON-CVS-B8931C7FD43608 | 0 | 0 | 1 | 1 |
+| pms-quiz-q050 p82 key=B  pulmonary artery = example of anatomic end artery -- new CON-CVS-4FCE28FE696AD7 | 0 | 0 | 1 | 1 |
+| pms-quiz-q051 p82 key=A  veins do not pulsate/spurt blood when severed -- new CON-CVS-47E2C76B40E318 | 0 | 0 | 1 | 1 |
+| pms-quiz-q052 p83 key=D  lymph vessels have a beaded appearance -- new CON-CVS-A456DDC4FE9E77 | 0 | 0 | 1 | 1 |
+| pms-quiz-q053 p85 key=D  simple squamous epithelium provides smooth surfaces -- reuse CON-FND-E51851DAB2DD13 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q054 p85 key=C  absorptive membranes lined by columnar cells with microvilli -- reuse CON-FND-5114283D5309E5 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q055 p86 key=C  stratified squamous epithelium: superficial layer flattened -- reuse CON-FND-8FEBD5195DCED2 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q056 p86 key=A  pleura lined with simple squamous epithelium -- reuse CON-FND-E51851DAB2DD13 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q057 p89 key=C  simple tubular gland example = intestinal glands -- reuse CON-FND-677595D34287F6 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q058 p89 key=B  glandular epithelium secreting into blood = endocrine -- reuse CON-FND-0A988681FF1ABF (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q059 p90 key=B  merocrine glands discharge secretion by exocytosis -- reuse CON-FND-D9E83D81037173 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q060 p90 key=E  myoepithelial cell function = contractility -- reuse CON-FND-38ABCC4E4E4E68 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q061 p90 key=E  epithelium naming criterion = number of cell layers -- reuse CON-FND-28D12B544C3BA3 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q062 p91 key=E  release of sebum = holocrine -- reuse CON-FND-D9E83D81037173 (101-ISK) | 0 | 0 | 1 | 1 |
+| pms-quiz-q063 p93 key=B  kidneys extend from T12 to L3 -- new CON-REN-B1523793F26852 | 0 | 0 | 1 | 1 |
+| pms-quiz-q064 p93 key=D  narrowest part of male urethra = membranous -- new CON-REN-50D97BAC2FE0D6 | 0 | 0 | 1 | 1 |
+| pms-quiz-q065 p94 key=A  anterior relation of right kidney = liver -- new CON-REN-2B7CC1982D4B1E | 0 | 0 | 1 | 1 |
+| pms-quiz-q066 p94 key=D  urethral part surrounded by internal urethral sphincter = intramural -- new CON-REN-3995B4987178E0 | 0 | 0 | 1 | 1 |
+| pms-quiz-q067 p94 key=A  ureters continuous superiorly with renal pelvis -- new CON-REN-C5A7E3203D2EA4 | 0 | 0 | 1 | 1 |
+| pms-quiz-q068 p101 key=B  kidney anatomy: pyramids lie in the renal cortex is the INCORRECT statement (pyramids are medullary) -- new CON-REN-F9CC30F9279CD6 | 0 | 0 | 1 | 1 |
+| pms-quiz-q069 p105 key=B  ovary suspended by suspensory ligament of the ovary from the pelvic wall -- new CON-GYN-B9B8FC632784DB | 0 | 0 | 1 | 1 |
+| pms-quiz-q070 p105 key=A  testis: posterior border of tunica albuginea thickened = mediastinum testis -- new CON-AND-484A544CA03AE9 | 0 | 0 | 1 | 1 |
+| pms-quiz-q071 p105 key=D  normal position of uterus = anteverted and anteflexed -- new CON-GYN-D6C92DF7A6CD5E | 0 | 0 | 1 | 1 |
+| pms-quiz-q072 p106 key=A  length of the vas deferens = 45 cm -- new CON-AND-BF59EEBCE1D05B | 0 | 0 | 1 | 1 |
 | quiz-embryology | 34 | 0 | 0 | 34 |
+| quiz-nervous-histology-urogenital | 38 | 0 | 0 | 38 |
 
 ## Held
 (none)
@@ -74,3 +113,41 @@
 - pms-quiz-q032 p61 key=C  teratogenic viruses = rubella, varicella, CMV (all of the above) -- new CON-DEV-DF6237EB0D4E49
 - pms-quiz-q033 p62 key=B  cri du chat syndrome = partial deletion of chromosome 5 -- new CON-DEV-140D5FF96E07A2
 - pms-quiz-q034 p62 key=C  prenatal diagnosis of birth defects = amniocentesis -- new CON-DEV-B988E7933351E1
+- pms-quiz-q035 p65 key=A  spinal nerve count = 31 pairs -- new CON-NEU-E98BD7E9D4CC9A
+- pms-quiz-q036 p65 key=A  structural/functional unit of nervous system = neurons -- new CON-NEU-4027FFDDA9C52F
+- pms-quiz-q037 p66 key=C  CNS subdivided into brain and spinal cord -- new CON-NEU-64ECDE7104294C
+- pms-quiz-q038 p66 key=B  gray matter = bodies of nerve cells embedded in neuroglia -- new CON-NEU-CDF7D84493E7AA
+- pms-quiz-q039 p66 key=C  nerves carrying impulses brain->body = efferent -- new CON-NEU-412B68B5906A03
+- pms-quiz-q040 p68 key=C  epithelial cells rest on a basement membrane -- reuse CON-FND-49350AB867CB5A (101-ISK)
+- pms-quiz-q041 p69 key=B  epithelial tissues have closely aggregated cells -- reuse CON-FND-49350AB867CB5A (101-ISK)
+- pms-quiz-q042 p69 key=A  basement membrane function = molecular filtering -- reuse CON-FND-47743DDD3ED7A0 (101-ISK)
+- pms-quiz-q043 p69 key=A  basement membrane serves = all of the above (support+attachment+barrier) -- reuse CON-FND-47743DDD3ED7A0 (101-ISK)
+- pms-quiz-q044 p70 key=A  basement membrane stained with PAS reaction -- reuse CON-FND-05C930A781CE55 (101-ISK)
+- pms-quiz-q045 p75 key=D  strong intercellular adhesion needs desmosomes -- reuse CON-FND-59E3FDA20F54AD (101-ISK)
+- pms-quiz-q046 p75 key=D  intercellular ionic exchange = gap junction -- reuse CON-FND-ACB35745EC9A5D (101-ISK)
+- pms-quiz-q047 p76 key=C  intercellular sealing = zonula occludens -- reuse CON-FND-2EAD7BC676C215 (101-ISK)
+- pms-quiz-q048 p81 key=C  base of the heart formed mainly by left atrium -- new CON-CVS-686BD8735B1B39
+- pms-quiz-q049 p82 key=C  arterioles = final distributing vessels, deliver oxygenated blood to capillaries -- new CON-CVS-B8931C7FD43608
+- pms-quiz-q050 p82 key=B  pulmonary artery = example of anatomic end artery -- new CON-CVS-4FCE28FE696AD7
+- pms-quiz-q051 p82 key=A  veins do not pulsate/spurt blood when severed -- new CON-CVS-47E2C76B40E318
+- pms-quiz-q052 p83 key=D  lymph vessels have a beaded appearance -- new CON-CVS-A456DDC4FE9E77
+- pms-quiz-q053 p85 key=D  simple squamous epithelium provides smooth surfaces -- reuse CON-FND-E51851DAB2DD13 (101-ISK)
+- pms-quiz-q054 p85 key=C  absorptive membranes lined by columnar cells with microvilli -- reuse CON-FND-5114283D5309E5 (101-ISK)
+- pms-quiz-q055 p86 key=C  stratified squamous epithelium: superficial layer flattened -- reuse CON-FND-8FEBD5195DCED2 (101-ISK)
+- pms-quiz-q056 p86 key=A  pleura lined with simple squamous epithelium -- reuse CON-FND-E51851DAB2DD13 (101-ISK)
+- pms-quiz-q057 p89 key=C  simple tubular gland example = intestinal glands -- reuse CON-FND-677595D34287F6 (101-ISK)
+- pms-quiz-q058 p89 key=B  glandular epithelium secreting into blood = endocrine -- reuse CON-FND-0A988681FF1ABF (101-ISK)
+- pms-quiz-q059 p90 key=B  merocrine glands discharge secretion by exocytosis -- reuse CON-FND-D9E83D81037173 (101-ISK)
+- pms-quiz-q060 p90 key=E  myoepithelial cell function = contractility -- reuse CON-FND-38ABCC4E4E4E68 (101-ISK)
+- pms-quiz-q061 p90 key=E  epithelium naming criterion = number of cell layers -- reuse CON-FND-28D12B544C3BA3 (101-ISK)
+- pms-quiz-q062 p91 key=E  release of sebum = holocrine -- reuse CON-FND-D9E83D81037173 (101-ISK)
+- pms-quiz-q063 p93 key=B  kidneys extend from T12 to L3 -- new CON-REN-B1523793F26852
+- pms-quiz-q064 p93 key=D  narrowest part of male urethra = membranous -- new CON-REN-50D97BAC2FE0D6
+- pms-quiz-q065 p94 key=A  anterior relation of right kidney = liver -- new CON-REN-2B7CC1982D4B1E
+- pms-quiz-q066 p94 key=D  urethral part surrounded by internal urethral sphincter = intramural -- new CON-REN-3995B4987178E0
+- pms-quiz-q067 p94 key=A  ureters continuous superiorly with renal pelvis -- new CON-REN-C5A7E3203D2EA4
+- pms-quiz-q068 p101 key=B  kidney anatomy: pyramids lie in the renal cortex is the INCORRECT statement (pyramids are medullary) -- new CON-REN-F9CC30F9279CD6
+- pms-quiz-q069 p105 key=B  ovary suspended by suspensory ligament of the ovary from the pelvic wall -- new CON-GYN-B9B8FC632784DB
+- pms-quiz-q070 p105 key=A  testis: posterior border of tunica albuginea thickened = mediastinum testis -- new CON-AND-484A544CA03AE9
+- pms-quiz-q071 p105 key=D  normal position of uterus = anteverted and anteflexed -- new CON-GYN-D6C92DF7A6CD5E
+- pms-quiz-q072 p106 key=A  length of the vas deferens = 45 cm -- new CON-AND-BF59EEBCE1D05B

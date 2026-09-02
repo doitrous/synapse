@@ -64,3 +64,121 @@ pms-quiz-q034 p62 key=C  prenatal diagnosis of birth defects = amniocentesis -- 
 # p52 Quiz54-57 Q6: decidual reaction = trophoblast invasion response -- True.
 # p52 Quiz54-57 Q7: stem villi are the main-exchange region in intervillous
 #   spaces -- False (describes terminal/tertiary villi, not stem villi).
+
+# ============================================================================
+# pp.65-107 cluster (lane 2): nervous system (QUIZ21&22), general histology
+# (Quiz23, Quiz24, Quiz26, Quiz27), cardiovascular/lymphatic (QUIZ 25),
+# urinary system (Quiz28 + one on-topic item from the mixed "Quiz for organ
+# systems" interlude), genital system (Quiz29, second occurrence p104-107).
+# Same key-reading method as above. General histology (Quiz23/24/26/27)
+# reuses existing docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md
+# concepts via docs/Assiut-Source-Imports/pending-live/AUN-PMS-102-histology-
+# overlay.md (search-before-mint: general histology is saturated) rather than
+# minting new concepts. Stop point: p107 (end of Quiz29's second occurrence),
+# a clean topic boundary immediately before Quiz30 (Chromosome Theory of
+# Inheritance, p108-169) -- queued for the next AUN-PMS-102 lane.
+# ============================================================================
+
+pms-quiz-q035 p65 key=A  spinal nerve count = 31 pairs -- new CON-NEU-E98BD7E9D4CC9A
+pms-quiz-q036 p65 key=A  structural/functional unit of nervous system = neurons -- new CON-NEU-4027FFDDA9C52F
+pms-quiz-q037 p66 key=C  CNS subdivided into brain and spinal cord -- new CON-NEU-64ECDE7104294C
+pms-quiz-q038 p66 key=B  gray matter = bodies of nerve cells embedded in neuroglia -- new CON-NEU-CDF7D84493E7AA
+pms-quiz-q039 p66 key=C  nerves carrying impulses brain->body = efferent -- new CON-NEU-412B68B5906A03
+
+pms-quiz-q040 p68 key=C  epithelial cells rest on a basement membrane -- reuse CON-FND-49350AB867CB5A (101-ISK)
+pms-quiz-q041 p69 key=B  epithelial tissues have closely aggregated cells -- reuse CON-FND-49350AB867CB5A (101-ISK)
+pms-quiz-q042 p69 key=A  basement membrane function = molecular filtering -- reuse CON-FND-47743DDD3ED7A0 (101-ISK)
+pms-quiz-q043 p69 key=A  basement membrane serves = all of the above (support+attachment+barrier) -- reuse CON-FND-47743DDD3ED7A0 (101-ISK)
+pms-quiz-q044 p70 key=A  basement membrane stained with PAS reaction -- reuse CON-FND-05C930A781CE55 (101-ISK)
+# Quiz23 Q6-17 (p70-73): fill-in-the-blank, no options -- logged only, not authored.
+
+pms-quiz-q045 p75 key=D  strong intercellular adhesion needs desmosomes -- reuse CON-FND-59E3FDA20F54AD (101-ISK)
+pms-quiz-q046 p75 key=D  intercellular ionic exchange = gap junction -- reuse CON-FND-ACB35745EC9A5D (101-ISK)
+# Quiz24 Q4 (p76): "Intercellular ionic exchange is achieved by" key=D "Nexus" --
+#   duplicate-of pms-quiz-q046 (same stem/fact, synonym answer), not authored twice.
+pms-quiz-q047 p76 key=C  intercellular sealing = zonula occludens -- reuse CON-FND-2EAD7BC676C215 (101-ISK)
+# Quiz24 Q5 (p76): "Intercellular ionic exchange is achieved by" key=D "Tight
+#   junction" -- CONTRADICTS Q2 and Q4's printed key (Gap junction / Nexus) for
+#   the identical stem, and contradicts the real fact (gap junctions, not tight
+#   junctions, mediate ionic exchange). Held per the standing rule that a
+#   printed-key conflict is held, not resolved by inference.
+# Quiz24 Q6-15 (p77-79): fill-in-the-blank, no options -- logged only. (Q13
+#   duplicates Q12 verbatim.)
+
+pms-quiz-q048 p81 key=C  base of the heart formed mainly by left atrium -- new CON-CVS-686BD8735B1B39
+pms-quiz-q049 p82 key=C  arterioles = final distributing vessels, deliver oxygenated blood to capillaries -- new CON-CVS-B8931C7FD43608
+pms-quiz-q050 p82 key=B  pulmonary artery = example of anatomic end artery -- new CON-CVS-4FCE28FE696AD7
+pms-quiz-q051 p82 key=A  veins do not pulsate/spurt blood when severed -- new CON-CVS-47E2C76B40E318
+# QUIZ 25 Q5 (p83): restates Q4's stem/answer with a different option order --
+#   duplicate-of pms-quiz-q051, not authored twice.
+pms-quiz-q052 p83 key=D  lymph vessels have a beaded appearance -- new CON-CVS-A456DDC4FE9E77
+
+pms-quiz-q053 p85 key=D  simple squamous epithelium provides smooth surfaces -- reuse CON-FND-E51851DAB2DD13 (101-ISK)
+pms-quiz-q054 p85 key=C  absorptive membranes lined by columnar cells with microvilli -- reuse CON-FND-5114283D5309E5 (101-ISK)
+# Quiz26 Q3 (p86): restates Q2's stem/options/answer verbatim -- duplicate-of
+#   pms-quiz-q054, not authored twice.
+pms-quiz-q055 p86 key=C  stratified squamous epithelium: superficial layer flattened -- reuse CON-FND-8FEBD5195DCED2 (101-ISK)
+pms-quiz-q056 p86 key=A  pleura lined with simple squamous epithelium -- reuse CON-FND-E51851DAB2DD13 (101-ISK)
+# Quiz26 Q6-8 (p87): fill-in-the-blank, no options -- logged only.
+
+pms-quiz-q057 p89 key=C  simple tubular gland example = intestinal glands -- reuse CON-FND-677595D34287F6 (101-ISK)
+pms-quiz-q058 p89 key=B  glandular epithelium secreting into blood = endocrine -- reuse CON-FND-0A988681FF1ABF (101-ISK)
+pms-quiz-q059 p90 key=B  merocrine glands discharge secretion by exocytosis -- reuse CON-FND-D9E83D81037173 (101-ISK)
+pms-quiz-q060 p90 key=E  myoepithelial cell function = contractility -- reuse CON-FND-38ABCC4E4E4E68 (101-ISK)
+pms-quiz-q061 p90 key=E  epithelium naming criterion = number of cell layers -- reuse CON-FND-28D12B544C3BA3 (101-ISK)
+pms-quiz-q062 p91 key=E  release of sebum = holocrine -- reuse CON-FND-D9E83D81037173 (101-ISK)
+# Quiz27 Q7-9 (p91): fill-in-the-blank, no options -- logged only. (Q8=Q9 dup.)
+
+pms-quiz-q063 p93 key=B  kidneys extend from T12 to L3 -- new CON-REN-B1523793F26852
+pms-quiz-q064 p93 key=D  narrowest part of male urethra = membranous -- new CON-REN-50D97BAC2FE0D6
+pms-quiz-q065 p94 key=A  anterior relation of right kidney = liver -- new CON-REN-2B7CC1982D4B1E
+pms-quiz-q066 p94 key=D  urethral part surrounded by internal urethral sphincter = intramural -- new CON-REN-3995B4987178E0
+pms-quiz-q067 p94 key=A  ureters continuous superiorly with renal pelvis -- new CON-REN-C5A7E3203D2EA4
+
+# p96-98 Quiz29 (first occurrence, genital): Q1 (match/drag-drop diagram) --
+#   image-dependent, no printed options, not authored. Q2 (match testicles/
+#   epididymis/prostate/scrotum to function) -- matching format, no discrete
+#   options to select from, not authored (format-dependent, same class as
+#   lane 1's "Label the diagram" exclusions). Q3-5 -- fill-in-the-blank, no
+#   options, logged only.
+
+# p100-102 "Quiz for organ systems" (mixed-topic interlude, mislabeled under
+#   "Lecture 29: Genital system" but actually spans GI/urinary/skeletal/
+#   respiratory topics, not genital): Q1 (oesophagus), Q4 (bone ossification),
+#   Q5-6 (trachea) fall outside this dispatch's nervous/histology/urogenital/
+#   chromosome cluster -- not authored, flagged for the lane covering those
+#   systems. Q3 (kidney anatomy, on-topic) is authored below.
+pms-quiz-q068 p101 key=B  kidney anatomy: pyramids lie in the renal cortex is the INCORRECT statement (pyramids are medullary) -- new CON-REN-F9CC30F9279CD6
+
+# p104-107 Quiz29 (second occurrence, genital): Q1 duplicate-option defect --
+#   options A and D are both printed as "The infundibulum" (only 3 distinct
+#   options) -- held per LANE-CARD S2's floor rule.
+pms-quiz-q069 p105 key=B  ovary suspended by suspensory ligament of the ovary from the pelvic wall -- new CON-GYN-B9B8FC632784DB
+pms-quiz-q070 p105 key=A  testis: posterior border of tunica albuginea thickened = mediastinum testis -- new CON-AND-484A544CA03AE9
+pms-quiz-q071 p105 key=D  normal position of uterus = anteverted and anteflexed -- new CON-GYN-D6C92DF7A6CD5E
+pms-quiz-q072 p106 key=A  length of the vas deferens = 45 cm -- new CON-AND-BF59EEBCE1D05B
+
+# HELD (pp.65-107 cluster)
+# p76 Quiz24 Q5: "Intercellular ionic exchange is achieved by" key="Tight
+#   junction" -- contradicts Q2/Q4's own printed key ("Gap junction"/"Nexus")
+#   for the identical stem, and contradicts the real fact. Held (key conflict
+#   within the same source, MPT Q47 / Quiz54-57 Q9-Q19 precedent).
+# p104 Quiz29 [2nd] Q1: "The widest part of the uterine tube" -- options A and
+#   D both printed as "The infundibulum" (duplicate option, <4 distinct
+#   options). Held per LANE-CARD S2's floor rule (Quiz54-57 Q16/Q26
+#   precedent), independent of the fact itself being correct (ampulla is
+#   genuinely the widest part).
+
+# LOGGED ONLY -- pp.65-107 (fill-in-the-blank / matching / image-dependent /
+# duplicate / out-of-cluster, not authored)
+# Quiz23 Q6-17 (12 items, fill-in-the-blank).
+# Quiz24 Q4 (duplicate-of q046), Q5 (held above), Q6-15 (10 items, fill-in-
+#   the-blank, Q13 duplicates Q12).
+# QUIZ 25 Q5 (duplicate-of q051).
+# Quiz26 Q3 (duplicate-of q054), Q6-8 (3 items, fill-in-the-blank).
+# Quiz27 Q7-9 (3 items, fill-in-the-blank, Q8=Q9 duplicate).
+# Quiz29 [1st occurrence, p96-98] Q1 (image-dependent match), Q2 (matching,
+#   no discrete options), Q3-5 (fill-in-the-blank).
+# "Quiz for organ systems" [p100-102] Q1 (oesophagus), Q4 (bone ossification),
+#   Q5-6 (trachea) -- out of this dispatch's cluster, not authored.
+# Quiz29 [2nd occurrence, p104-107] Q1 (held above, duplicate options).
