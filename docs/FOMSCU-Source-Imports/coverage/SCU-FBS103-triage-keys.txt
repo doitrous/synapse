@@ -2,21 +2,21 @@
 # Foundation 2 (SCU-FBS103), S3 first-module triage. Generated from 105 distinct
 # questions (138 raw, exact-text deduped) across 4 own-source keyed MCQ papers.
 # --- Anatomy ---
-anatomy-buccal-branch-of-the-mandibular-nerve  # new · Q: An emergency physician used local anesthesia for surgery to drain an a
-anatomy-external-occipital-protuberance  # new · Q: Which of the following bony landmarks lies midway between the lambda a
+# anatomy-buccal-branch-of-the-mandibular-nerve  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: An emergency physician used local anesthesia for surgery to drain an a
+# anatomy-external-occipital-protuberance  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: Which of the following bony landmarks lies midway between the lambda a
 # anatomy-facial-vein  # authored-in SCU-FBS103-questions.md (was: live)  · Q: The primary venous drainage of the superficial structures of the face 
-anatomy-frontalis  # pending · Q: Which of the following muscles is responsible for elevating the eyebro
-anatomy-glabella  # new · Q: What is the name of the bony elevation located between the two superci
-anatomy-lateral-pterygoid  # pending · Q: Which of the following muscles of mastication is primarily responsible
-anatomy-lateral-surface-of-the-ramus-and-angle  # new · Q: The masseter muscle primarily inserts into which part of the mandible?
+# anatomy-frontalis  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: pending; automated hit re-verified as false positive, minted fresh)  · Q: Which of the following muscles is responsible for elevating the eyebro
+# anatomy-glabella  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: What is the name of the bony elevation located between the two superci
+# anatomy-lateral-pterygoid  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: pending)  · Q: Which of the following muscles of mastication is primarily responsible
+# anatomy-lateral-surface-of-the-ramus-and-angle  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: The masseter muscle primarily inserts into which part of the mandible?
 anatomy-mandibular-nerve  # pending · Q: The muscles of mastication receive their motor innervation from which 
-anatomy-medial-surface-of-the-mandible  # new · Q: The submandibular gland is located in the submandibular fossa, which i
-anatomy-medial-surface-of-the-mandibular-angle  # new · Q: What is the insertion site of the medial pterygoid muscle?
-anatomy-primary-cartilaginous-joint  # pending · Q: What kind of joint is typically seen in the epiphyseal growth plate of
-anatomy-sartorius-muscle  # live · Q: Which of the following muscles is anatomically classified as a strap-l
-anatomy-supraorbital-artery  # new · Q: Which of the following arteries is a direct branch of the ophthalmic a
-anatomy-temporalis-muscle  # new · Q: Which of the following muscles of mastication is responsible for the r
-anatomy-trigeminal-nerve  # live · Q: Which of the following nerves provides sensory innervation primarily t
+# anatomy-medial-surface-of-the-mandible  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: The submandibular gland is located in the submandibular fossa, which i
+# anatomy-medial-surface-of-the-mandibular-angle  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: What is the insertion site of the medial pterygoid muscle?
+# anatomy-primary-cartilaginous-joint  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: pending)  · Q: What kind of joint is typically seen in the epiphyseal growth plate of
+# anatomy-sartorius-muscle  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: Which of the following muscles is anatomically classified as a strap-l
+# anatomy-supraorbital-artery  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: Which of the following arteries is a direct branch of the ophthalmic a
+# anatomy-temporalis-muscle  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: Which of the following muscles of mastication is responsible for the r
+# anatomy-trigeminal-nerve  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: Which of the following nerves provides sensory innervation primarily t
 # --- Biochemistry ---
 biochemistry-20  # live · Q: If a double-stranded DNA molecule contains 30% thymine, what is the am
 biochemistry-5-to-3-polymerase-and-3-to-5-exonuclease-acti  # new · Q: DNA polymerase III holoenzyme possesses which of the following activit

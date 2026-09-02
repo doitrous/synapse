@@ -1,19 +1,7 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
-| anatomy-buccal-branch-of-the-mandibular-nerve | 0 | 0 | 1 | 1 |
-| anatomy-external-occipital-protuberance | 0 | 0 | 1 | 1 |
-| anatomy-frontalis | 0 | 0 | 1 | 1 |
-| anatomy-glabella | 0 | 0 | 1 | 1 |
-| anatomy-lateral-pterygoid | 0 | 0 | 1 | 1 |
-| anatomy-lateral-surface-of-the-ramus-and-angle | 0 | 0 | 1 | 1 |
 | anatomy-mandibular-nerve | 0 | 0 | 1 | 1 |
-| anatomy-medial-surface-of-the-mandible | 0 | 0 | 1 | 1 |
-| anatomy-medial-surface-of-the-mandibular-angle | 0 | 0 | 1 | 1 |
-| anatomy-primary-cartilaginous-joint | 0 | 0 | 1 | 1 |
-| anatomy-sartorius-muscle | 0 | 0 | 1 | 1 |
-| anatomy-supraorbital-artery | 0 | 0 | 1 | 1 |
-| anatomy-temporalis-muscle | 0 | 0 | 1 | 1 |
-| anatomy-trigeminal-nerve | 0 | 0 | 1 | 1 |
+| anatomy-mastication-and-skull-mints | 13 | 0 | 0 | 13 |
 | biochemistry-20 | 0 | 0 | 1 | 1 |
 | biochemistry-5-to-3-polymerase-and-3-to-5-exonuclease-acti | 0 | 0 | 1 | 1 |
 | biochemistry-a-nitrogenous-base-a-pentose-sugar-and-a-phos | 0 | 0 | 1 | 1 |
@@ -95,20 +83,7 @@
 (none)
 
 ## Remaining
-- anatomy-buccal-branch-of-the-mandibular-nerve
-- anatomy-external-occipital-protuberance
-- anatomy-frontalis
-- anatomy-glabella
-- anatomy-lateral-pterygoid
-- anatomy-lateral-surface-of-the-ramus-and-angle
 - anatomy-mandibular-nerve
-- anatomy-medial-surface-of-the-mandible
-- anatomy-medial-surface-of-the-mandibular-angle
-- anatomy-primary-cartilaginous-joint
-- anatomy-sartorius-muscle
-- anatomy-supraorbital-artery
-- anatomy-temporalis-muscle
-- anatomy-trigeminal-nerve
 - biochemistry-20
 - biochemistry-5-to-3-polymerase-and-3-to-5-exonuclease-acti
 - biochemistry-a-nitrogenous-base-a-pentose-sugar-and-a-phos

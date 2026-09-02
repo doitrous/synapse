@@ -375,3 +375,42 @@ The resting membrane potential is the polarised, un-stimulated potential differe
 
 ## field_notes
 scu: FOMSCU Foundation 2 QBank, EOM MID 2026 Q38 — tests the typical (medium-sized) neuron's resting membrane potential as about -70 mV. Target — apply after docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md.
+
+---
+
+<!--
+  BATCH 2 (same author lane, scu-fbs103-author1) — appended below the batch-1
+  divider above. Covers the 1 reuse question in the sibling
+  SCU-FBS103-s2-anatomy-questions.md (the batch's other 12 questions mint
+  fresh concepts instead, in docs/FOMSCU-Source-Imports/concept/
+  SCU-FBS103-s2-mint-concepts.md). PENDING (1) — exists only in Kasr's own
+  unimported batch (checked directly against the live JSON: not in it).
+
+  Gate together with:
+  node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-s2-anatomy-questions.md \
+    --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-overlay-concepts.md \
+    --with docs/FOMSCU-Source-Imports/concept/SCU-FBS103-s2-mint-concepts.md \
+    --with docs/FOMSCU-Source-Imports/article/SCU-FBS103-s2-mint-articles.md \
+    --with docs/Kasr-Source-Imports/concept/101-ISK-concepts.md \
+    --with docs/Kasr-Source-Imports/article/101-ISK-anatomy.md
+-->
+
+# Item
+
+## id
+CON-MSK-8863ACD7E8D790
+
+## label
+Primary cartilaginous joints are hyaline and temporary; secondary ones are fibrocartilaginous and midline
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, Formative 2025 Q7 — tests the epiphyseal growth plate as the textbook example of a primary (hyaline, temporary) cartilaginous joint. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-concepts.md.
