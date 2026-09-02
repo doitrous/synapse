@@ -1,0 +1,604 @@
+{
+  "lane": "MANS-MSS-202",
+  "cluster": "anatomy2-mint",
+  "header": "MANS-MSS-202 · Upper and Lower Limb anatomy authored from MSS Past Years.pdf pp.7-19, mixing eight items that reuse concepts already live or pending in Kasr's 101-ISK/103-BMS or Alexandria's AU-MED-105 (found by broadened find-existing.mjs plus targeted corpus greps after narrow queries under-hit) with six items minting new concepts (each with its own article) after a genuine search-before-mint found no matching record for any of them.",
+  "defaults": {
+    "subject": "msk",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "mans"
+    ],
+    "years": [
+      "MANS_Y1"
+    ],
+    "module": "MANS-MSS-202",
+    "resource_ids": [
+      "src_5cef175343fd761b8c9f"
+    ],
+    "source_citation": "MSS Past Years.pdf",
+    "setting": "Clinical",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "am-q01",
+      "page": 7,
+      "title": "Artery auscultated for blood pressure at the cubital fossa",
+      "question": "A 20-year-old male came to clinic and the doctor asked for blood pressure measurement. The nurse measured blood pressure over the cubital fossa via placing a stethoscope over which artery?",
+      "options": {
+        "A": "Axillary artery",
+        "B": "Brachial artery",
+        "C": "Median artery",
+        "D": "Radial artery",
+        "E": "Ulnar artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The axillary artery lies proximal to the arm, under cover of pectoralis major, well above the cubital fossa where the cuff and stethoscope are placed.",
+        "B": "Correct. The brachial artery terminates in the cubital fossa, medial to the biceps tendon, exactly where a stethoscope diaphragm is placed under the lower edge of the cuff to auscultate the Korotkoff sounds during a manual blood pressure reading. Any other named artery in the answer options would be either too proximal (axillary) or too distal (radial, ulnar) for this specific auscultation point.",
+        "C": "Incorrect. There is no named \"median artery\" as a standard named upper-limb vessel in this context; it is a distractor, not a real auscultation site.",
+        "D": "Incorrect. The radial artery is used for the palpatory pulse and for the palpatory pre-estimate of systolic pressure, not for the auscultatory reading itself, and it lies distal to the cubital fossa at the wrist.",
+        "E": "Incorrect. The ulnar artery, like the radial, is a forearm/wrist-level vessel distal to the cubital fossa, not the artery auscultated for blood pressure."
+      },
+      "main_concept": "CON-MSK-B4C13BE6A17539",
+      "concept_ids": [
+        "CON-MSK-B4C13BE6A17539"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the brachial artery, at the cubital fossa, as the vessel auscultated for a manual blood pressure reading.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.7, \"MSS Final 62\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-BRACHIAL-ARTERY-CUBITAL-FOSSA"
+      ]
+    },
+    {
+      "key": "am-q02",
+      "page": 7,
+      "title": "Medial thigh muscle that can extend the hip",
+      "question": "Which muscle on the medial aspect of the thigh can extend the hip joint?",
+      "options": {
+        "A": "Pectineus",
+        "B": "Adductor longus",
+        "C": "Adductor brevis",
+        "D": "Adductor magnus",
+        "E": "Gracilis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Pectineus flexes and adducts the hip; it has no hip-extension action.",
+        "B": "Incorrect. Adductor longus is purely a hip adductor and weak flexor, with no extensor action.",
+        "C": "Incorrect. Adductor brevis, like adductor longus, adducts and flexes the hip, without an extensor component.",
+        "D": "Correct. Adductor magnus has two functionally distinct parts: an adductor part (obturator-nerve-supplied) and a hamstring (ischial) part arising from the ischial tuberosity, supplied by the tibial division of the sciatic nerve, which acts with the true hamstrings to extend the hip — making it the one medial-thigh muscle that can both adduct and extend. This dual action is the reason adductor magnus is sometimes called a \"third hamstring,\" despite being grouped anatomically with the adductor compartment.",
+        "E": "Incorrect. Gracilis adducts the hip and flexes the knee; it has no hip-extension action."
+      },
+      "main_concept": "CON-MSK-C5E778D9F8E701",
+      "concept_ids": [
+        "CON-MSK-C5E778D9F8E701"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Lower Limb",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify adductor magnus's hamstring (ischial) part as the reason it can extend, as well as adduct, the hip.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.7, \"MSS Final 62\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE"
+      ]
+    },
+    {
+      "key": "am-q03",
+      "page": 7,
+      "title": "Nerve injured by a fracture of the neck of the fibula",
+      "question": "Which nerve can be injured if neck of fibula was fractured?",
+      "options": {
+        "A": "Sciatic",
+        "B": "Sural",
+        "C": "Tibial",
+        "D": "Saphenous",
+        "E": "Common peroneal"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The sciatic nerve has already divided into its tibial and common peroneal divisions well above the knee, so a fibular neck fracture does not injure the sciatic trunk itself.",
+        "B": "Incorrect. The sural nerve is a small cutaneous branch running down the back of the calf; it is not wrapped around the fibular neck.",
+        "C": "Incorrect. The tibial nerve runs deep in the posterior compartment of the leg, well away from the subcutaneous fibular neck.",
+        "D": "Incorrect. The saphenous nerve is a cutaneous branch of the femoral nerve running down the medial leg, unrelated to the fibula.",
+        "E": "Correct. The common peroneal nerve winds superficially and subcutaneously around the neck of the fibula before dividing into its superficial and deep branches, which is exactly why a fracture there so commonly injures it, producing foot drop. This subcutaneous, superficial course is exactly why the nerve is also vulnerable to tight casts, prolonged leg-crossing and direct blows at this site, not only to fractures."
+      },
+      "main_concept": "CON-MSK-AB5318A9255811",
+      "concept_ids": [
+        "CON-MSK-AB5318A9255811"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Lower Limb",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the common peroneal nerve as the nerve at risk from a fracture of the fibular neck, where it winds subcutaneously around the bone.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.7, \"MSS Final 62\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-103-ANA-COMMON-PERONEAL-NERVE"
+      ]
+    },
+    {
+      "key": "am-q04",
+      "page": 8,
+      "title": "Termination of the cephalic vein",
+      "question": "The cephalic vein drains its venous blood into ...............",
+      "options": {
+        "A": "The brachial vein",
+        "B": "The basilic vein.",
+        "C": "The subclavian vein",
+        "D": "The axillary vein",
+        "E": "The median vein of the forearm"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The brachial vein(s) are deep venae comitantes of the brachial artery; the cephalic vein is superficial and does not drain into them.",
+        "B": "Incorrect. The basilic vein is the cephalic vein's sibling superficial vein, running up the medial side of the arm; it joins the venae comitantes of the brachial artery to form the axillary vein, but the cephalic vein does not drain into the basilic.",
+        "C": "Incorrect. The subclavian vein is more proximal, continuing on from the axillary vein at the outer border of the first rib; the cephalic vein ends before this point.",
+        "D": "Correct. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand, ascends the lateral side of the forearm and arm, runs in the deltopectoral groove, pierces the clavipectoral fascia, and ends by draining into the axillary vein. The basilic vein, by contrast, joins the brachial venae comitantes to form the axillary vein from the opposite (medial) side, a frequently tested point of comparison.",
+        "E": "Incorrect. The median cubital vein (connecting cephalic and basilic in the cubital fossa) is a tributary the cephalic vein passes, not its point of termination."
+      },
+      "main_concept": "CON-MSK-66A2E56C00F3A7",
+      "concept_ids": [
+        "CON-MSK-66A2E56C00F3A7"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the cephalic vein terminates in the axillary vein after piercing the clavipectoral fascia.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.8, \"Final MSS Summer 62\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-VEINS-OF-UPPER-LIMB"
+      ]
+    },
+    {
+      "key": "am-q05",
+      "page": 8,
+      "title": "Anterior thigh muscle innervated high in the abdomen",
+      "question": "Which muscle in the front of thigh receives its innervation high in the abdomen?",
+      "options": {
+        "A": "Quadriceps femoris muscle.",
+        "B": "Sartorius muscle.",
+        "C": "Articularis genu muscle.",
+        "D": "Psoas major muscle.",
+        "E": "Iliacus muscle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Quadriceps femoris is supplied by the femoral nerve after it has already descended into the thigh, not by roots high in the abdomen.",
+        "B": "Incorrect. Sartorius is likewise femoral-nerve-supplied in the thigh.",
+        "C": "Incorrect. Articularis genu, a small slip of vastus intermedius, is also femoral-nerve-supplied in the thigh.",
+        "D": "Correct. Psoas major is supplied directly by small branches from the ventral rami of L1-L3, given off while these roots are still high in the abdomen and before the femoral nerve has formed as a distinct trunk — unlike the other anterior thigh muscles, which all wait for the femoral nerve to reach them in the thigh. This distinction is commonly tested by asking which anterior-thigh muscle would be spared by an isolated femoral nerve block or injury.",
+        "E": "Incorrect. Iliacus is supplied by the femoral nerve in the iliac fossa/thigh region, not by direct high-abdominal root branches the way psoas major is."
+      },
+      "main_concept": "CON-MSK-66A6EB44872F6C",
+      "concept_ids": [
+        "CON-MSK-66A6EB44872F6C"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Lower Limb",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify psoas major as the anterior thigh muscle innervated directly and high in the abdomen, by lumbar plexus roots rather than the femoral nerve.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.8, \"Final MSS Summer 62\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-PSOAS-MAJOR-LUMBAR-PLEXUS"
+      ]
+    },
+    {
+      "key": "am-q06",
+      "page": 9,
+      "title": "Deformity from a mid-shaft humeral fracture",
+      "question": "Fracture of the mid shaft of the humerus usually causes the following deformity!",
+      "options": {
+        "A": "Paralysis of all muscles of the hand",
+        "B": "Partial claw hand",
+        "C": "Wrist drop",
+        "D": "Ape like hand",
+        "E": "Waiter's tip position"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Complete paralysis of all hand muscles would need a more extensive brachial plexus injury, not an isolated humeral shaft fracture.",
+        "B": "Incorrect. Partial claw hand follows an ulnar nerve lesion, not a radial nerve injury at the spiral groove.",
+        "C": "Correct. The radial nerve runs in the spiral groove on the posterior surface of the humeral shaft, and a fracture there commonly injures it, paralysing the wrist and finger extensors and producing wrist drop. This deformity, combined with sensory loss over the first dorsal web space, is the classic bedside sign taught for a radial nerve injury at this level.",
+        "D": "Incorrect. An ape-hand deformity follows a median nerve lesion (loss of thenar opposition/abduction), not a radial nerve injury.",
+        "E": "Incorrect. A waiter's tip position follows an upper brachial plexus (Erb's palsy) injury at the roots/trunks, a different level of injury from a mid-humeral-shaft fracture."
+      },
+      "main_concept": "CON-MSK-712EBE5936F7E4",
+      "concept_ids": [
+        "CON-MSK-712EBE5936F7E4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify wrist drop as the deformity from a mid-shaft humeral fracture injuring the radial nerve in the spiral groove.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.9, \"Formative Past years\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-RADIAL-NERVE"
+      ]
+    },
+    {
+      "key": "am-q07",
+      "page": 9,
+      "title": "Artery mainly forming the superficial palmar arch",
+      "question": "Regarding the arterial blood supply of the hand, the superficial palmar arch is made mainly by",
+      "options": {
+        "A": "The ulnar artery.",
+        "B": "The radial artery.",
+        "C": "The median artery.",
+        "D": "The axillary artery .",
+        "E": "The profunda brachii artery."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The superficial palmar arch is mainly the direct continuation of the ulnar artery across the palm, completed on its lateral side by the superficial palmar branch of the radial artery. This division of labour, ulnar-dominant superficial arch and radial-dominant deep arch, is a frequently tested point of contrast between the two palmar arches.",
+        "B": "Incorrect. The radial artery mainly forms the deep palmar arch instead, completed by the deep branch of the ulnar artery; its contribution to the superficial arch is only the small completing branch.",
+        "C": "Incorrect. There is no separate \"median artery\" forming either palmar arch in normal anatomy; it is a distractor.",
+        "D": "Incorrect. The axillary artery is a much more proximal vessel, continuing as the brachial artery long before the level of the palmar arches.",
+        "E": "Incorrect. Profunda brachii supplies the posterior arm compartment (triceps) and takes no part in forming either palmar arch."
+      },
+      "main_concept": "CON-MSK-BC95DAE3531583",
+      "concept_ids": [
+        "CON-MSK-BC95DAE3531583"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the superficial palmar arch is formed mainly by the ulnar artery, completed by the radial artery's superficial branch.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.9, \"Formative Past years\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-HAND-ARTERIES"
+      ]
+    },
+    {
+      "key": "am-q08",
+      "page": 9,
+      "title": "Artery of neurovascular concern in a distal radius plus scaphoid fracture",
+      "question": "A 56 years old female patient admitted to Mansoura Emergency Hospital after falling on her outstretched right hand. Her right hand X-ray showed the presence of fractures involving both the distal end of the radius and the scaphoid bones. Which artery will you be concerned about during your neurovascular evaluation of this case?",
+      "options": {
+        "A": "Ulnar artery.",
+        "B": "Radial artery.",
+        "C": "Median artery.",
+        "D": "Brachial artery .",
+        "E": "Axillary artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The ulnar artery runs on the medial side of the wrist through Guyon's canal, away from the distal radius and the anatomical snuffbox, so it is not the vessel most directly threatened by this fracture pattern.",
+        "B": "Correct. The radial artery crosses the floor of the anatomical snuffbox, immediately adjacent to the distal radius and the scaphoid (which forms part of the snuffbox floor), so a fracture through both bones directly threatens it; the scaphoid's own blood supply, entering mainly through its distal pole, is also put at risk of avascular necrosis by this same injury. This is why a scaphoid fracture in particular raises two separate concerns together: the bone's own risk of avascular necrosis, and the adjacent radial artery's risk of injury.",
+        "C": "Incorrect. There is no named \"median artery\" at the wrist; it is a distractor.",
+        "D": "Incorrect. The brachial artery has already ended in the cubital fossa, well proximal to the wrist, and is not at direct risk from a distal radius/scaphoid fracture.",
+        "E": "Incorrect. The axillary artery is even more proximal than the brachial, in the axilla, far from this injury."
+      },
+      "main_concept": "CON-MSK-1424177E093253",
+      "concept_ids": [
+        "CON-MSK-1424177E093253"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-77C8DFCB26299F"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Hard",
+      "question_type": "Clinical vignette",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify the radial artery, crossing the snuffbox floored by the scaphoid, as the vessel to evaluate in a combined distal radius and scaphoid fracture.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.9, \"Formative Past years\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-HAND-ARTERIES"
+      ]
+    },
+    {
+      "key": "am-q09",
+      "page": 16,
+      "title": "Structure damaged by a destructive injury of the anatomic snuffbox",
+      "question": "A construction worker suffers a destructive injury of the structures related to the anatomic snuffbox. Which of the following structures would most likely be damaged?",
+      "options": {
+        "A": "Triquetral bone.",
+        "B": "Trapezoid bone.",
+        "C": "Extensor indicis tendon.",
+        "D": "Abductor pollicis brevis tendon.",
+        "E": "Radial artery."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The triquetral bone lies on the ulnar side of the carpus, not within the anatomical snuffbox's floor or boundaries.",
+        "B": "Incorrect. The trapezoid bone lies deeper in the distal carpal row and is not one of the snuffbox's floor bones (scaphoid and trapezium are).",
+        "C": "Incorrect. Extensor indicis is not one of the three tendons (abductor pollicis longus, extensor pollicis brevis anteriorly; extensor pollicis longus posteriorly) that border the snuffbox.",
+        "D": "Incorrect. Abductor pollicis brevis is a thenar muscle acting on the thumb but does not form a boundary of the snuffbox; abductor pollicis longus (a different, tendon-forming muscle) does.",
+        "E": "Correct. The radial artery is a direct content of the anatomical snuffbox, crossing its floor (formed by the scaphoid and trapezium) on its way to the dorsum of the hand, which is exactly why a destructive injury there most likely damages it. This is why penetrating or crush injuries at the base of the thumb are treated as a vascular as well as a skeletal emergency."
+      },
+      "main_concept": "CON-MSK-1424177E093253",
+      "concept_ids": [
+        "CON-MSK-1424177E093253"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the radial artery as the structure most at risk in a destructive injury of the anatomical snuffbox.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.16"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-HAND-ARTERIES"
+      ]
+    },
+    {
+      "key": "am-q10",
+      "page": 10,
+      "title": "Classification of the elbow joint",
+      "question": "The type of elbow joint is",
+      "options": {
+        "A": "Fibrousjoint",
+        "B": "Synovial ball and socket",
+        "C": "Synovial condylar",
+        "D": "Synovial hinge",
+        "E": "Synovial ellipsoid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The elbow is a synovial joint, not a fibrous one; fibrous joints (like sutures) permit little or no movement.",
+        "B": "Incorrect. A ball-and-socket joint (like the shoulder or hip) is triaxial, permitting rotation in all planes, which the elbow does not do.",
+        "C": "Incorrect. Condyloid (ellipsoid-like) joints such as the metacarpophalangeal joints are biaxial; the elbow is uniaxial.",
+        "D": "Correct. The elbow, like the interphalangeal joints, is a uniaxial hinge joint, permitting flexion and extension only, never abduction or adduction. This uniaxial hinge action is what distinguishes the elbow from the biaxial wrist and the triaxial shoulder in questions comparing joint types across the upper limb.",
+        "E": "Incorrect. An ellipsoid joint (like the wrist) is biaxial, permitting flexion, extension, abduction and adduction; the elbow permits only flexion and extension."
+      },
+      "main_concept": "CON-MSK-B88F413E4536F9",
+      "concept_ids": [
+        "CON-MSK-B88F413E4536F9"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify the elbow as a uniaxial synovial hinge joint, permitting flexion and extension only.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.10"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-ELBOW-JOINT"
+      ]
+    },
+    {
+      "key": "am-q11",
+      "page": 10,
+      "title": "Structure damaged in a pulled elbow",
+      "question": "A 3 years old boy complained of pain in his right elbow. His mother reported that he developed that pain immediately after being pulled off the ground from his right hand. On examination, his elbow was flexed and pronated. What structure is most likely damaged?",
+      "options": {
+        "A": "Interosseous membrane of forearm",
+        "B": "Quadrate ligament",
+        "C": "Radial collateral ligament of elbow",
+        "D": "Ulnar collateral ligament of elbow",
+        "E": "Annular ligament of radius"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The interosseous membrane connects the radius and ulna shafts and is not the structure stressed by axial traction on an extended, pronated arm at the elbow.",
+        "B": "Incorrect. The quadrate ligament is a small band from the ulna to the radial neck that limits extreme pronation/supination; it is not the structure classically implicated in this traction injury.",
+        "C": "Incorrect. The radial collateral ligament reinforces the lateral side of the elbow against varus stress, not the injury mechanism described here.",
+        "D": "Incorrect. The ulnar collateral ligament reinforces the medial elbow against valgus stress, again not the mechanism in this vignette.",
+        "E": "Correct. This is the classic \"nursemaid's elbow\" vignette: longitudinal traction on the extended, pronated arm of a young child pulls the radial head partly out through the annular ligament, which is thinner and more loosely attached in young children, producing a painful pseudo-paralysis with a normal X-ray. This is a frequently tested pediatric orthopaedic vignette precisely because the normal X-ray can otherwise mislead an examiner away from the correct diagnosis."
+      },
+      "main_concept": "CON-MSK-FCAF65C79B5507",
+      "concept_ids": [
+        "CON-MSK-FCAF65C79B5507"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-879B4239272078"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Moderate",
+      "question_type": "Clinical vignette",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise the pulled-elbow vignette (traction on an extended, pronated arm in a young child) as radial head subluxation through the annular ligament.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.10"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-NURSEMAID-ELBOW-ANNULAR-LIGAMENT"
+      ]
+    },
+    {
+      "key": "am-q12",
+      "page": 11,
+      "title": "Muscle affected in tennis elbow (lateral epicondylitis)",
+      "question": "A 29 years old tennis player complained of burning pain in the lateral side of his forearm that increases by physical activity. The doctor told him that he has (tennis elbow) or lateral epicondylitis. Which of the following muscles may be affected?",
+      "options": {
+        "A": "Pronator teres muscle",
+        "B": "Flexor carpi radialis muscle",
+        "C": "Flexor carpi ulnaris muscle",
+        "D": "Extensor carpi radialis longus muscle",
+        "E": "Abductor pollicis longus muscle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Pronator teres arises from the common flexor origin on the medial epicondyle, the site of golfer's elbow (medial epicondylitis), not tennis elbow.",
+        "B": "Incorrect. Flexor carpi radialis is likewise a common flexor origin (medial epicondyle) muscle, unrelated to lateral epicondylitis.",
+        "C": "Incorrect. Flexor carpi ulnaris is also a medial (common flexor origin) muscle, not implicated in tennis elbow.",
+        "D": "Correct as keyed. The extensor group of the lateral forearm is implicated in lateral epicondylitis; this source's printed key names extensor carpi radialis longus specifically, although standard teaching more precisely implicates extensor carpi radialis brevis (part of the common extensor origin proper), since longus arises higher, from the supracondylar ridge above the epicondyle itself. Recognising this distinction between the two extensor carpi radialis muscles, one bone apart in their insertions and different in their origin relative to the epicondyle, is the deeper teaching point behind this style of question.",
+        "E": "Incorrect. Abductor pollicis longus is a deep extensor-compartment muscle acting on the thumb, not part of the common extensor origin implicated in tennis elbow."
+      },
+      "main_concept": "CON-MSK-2E570F9E976708",
+      "concept_ids": [
+        "CON-MSK-2E570F9E976708"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Hard",
+      "question_type": "Clinical vignette",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify lateral epicondylitis (tennis elbow) as extensor-group tendinopathy at the lateral elbow, per the source's printed key naming extensor carpi radialis longus.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.11"
+      },
+      "author_notes": "Printed key = D (extensor carpi radialis longus). Standard teaching more precisely implicates extensor carpi radialis brevis, part of the common extensor origin proper; longus arises higher, from the supracondylar ridge above the epicondyle. Printed key stands per this lane's rule; the discrepancy is flagged, not silently corrected.",
+      "library_ids": [
+        "ART-MANS-MSS-LATERAL-EPICONDYLITIS-ECRL"
+      ]
+    },
+    {
+      "key": "am-q13",
+      "page": 11,
+      "title": "Structure superficial to the flexor retinaculum",
+      "question": "Which of the following structures runs superficial to the flexor retinaculum?",
+      "options": {
+        "A": "Tendon of flexor pollicis longus",
+        "B": "Ulnar nerve",
+        "C": "Radial nerve",
+        "D": "Radial artery",
+        "E": "Median nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Flexor pollicis longus's tendon passes deep to the flexor retinaculum, through the carpal tunnel, to reach the thumb.",
+        "B": "Correct. The ulnar nerve (with the ulnar artery) crosses the wrist superficial to the flexor retinaculum, through Guyon's canal, rather than through the carpal tunnel beneath it. This superficial course is exactly why Guyon's canal syndrome (ulnar nerve compression at the wrist) is a distinct clinical entity from carpal tunnel syndrome.",
+        "C": "Incorrect. The radial nerve's superficial branch has already become purely cutaneous on the dorsum of the wrist by this level and does not run under or over the flexor retinaculum on the palmar side in the way this question tests.",
+        "D": "Incorrect. The radial artery passes through the anatomical snuffbox on the radial side of the wrist, not over the flexor retinaculum.",
+        "E": "Incorrect. The median nerve passes deep to the flexor retinaculum, through the carpal tunnel, alongside the long flexor tendons — the opposite of superficial."
+      },
+      "main_concept": "CON-MSK-9641ED5F251A49",
+      "concept_ids": [
+        "CON-MSK-9641ED5F251A49"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the ulnar nerve as the structure crossing the wrist superficial to the flexor retinaculum, through Guyon's canal.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.11"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-ULNAR-NERVE-GUYON-CANAL"
+      ]
+    },
+    {
+      "key": "am-q14",
+      "page": 11,
+      "title": "Muscle tested by the paper test",
+      "question": "As part of a physical examination to evaluate muscle function in the hand, a physician asks the patient to hold a piece of paper between his adducted fingers. What muscle(s) is/are the doctor testing?",
+      "options": {
+        "A": "Lumbrical muscles",
+        "B": "Palmar interosseous muscles",
+        "C": "Dorsal interosseous muscles",
+        "D": "Flexor digitorum superficialis",
+        "E": "Flexor digitorum profundus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The lumbricals flex the metacarpophalangeal joints while extending the interphalangeal joints; they are not the prime movers of finger adduction tested here.",
+        "B": "Correct. Holding paper between adducted fingers against a pulling force is a test of finger adduction, the palmar interossei's own action (\"PAD\" — palmar adduct), and so tests the ulnar nerve deep branch that supplies them. This test is a standard bedside manoeuvre for screening ulnar nerve deep-branch function in the hand.",
+        "C": "Incorrect. The dorsal interossei abduct the fingers (\"DAB\"), the opposite action to what this test examines.",
+        "D": "Incorrect. Flexor digitorum superficialis flexes the proximal interphalangeal joints, unrelated to finger adduction.",
+        "E": "Incorrect. Flexor digitorum profundus flexes the distal interphalangeal joints, also unrelated to finger adduction."
+      },
+      "main_concept": "CON-MSK-5A6C42E089BE7E",
+      "concept_ids": [
+        "CON-MSK-5A6C42E089BE7E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Upper Limb",
+      "difficulty": "Moderate",
+      "question_type": "Clinical reasoning",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the palmar interossei as the muscles tested by the paper (finger-adduction) test.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned at right margin beside question number, p.11"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-PALMAR-INTEROSSEI-PAPER-TEST"
+      ]
+    }
+  ]
+}
