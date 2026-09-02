@@ -3735,7 +3735,7 @@ migrate()
         if (!realtime) return
         console.log(
           realtime.sfu.available
-            ? 'Study room signalling ready, voice ready'
+            ? `Study room signalling ready, voice ready (${realtime.sfu.describe?.() ?? 'no config'})`
             : `Study room signalling ready, voice unavailable (${realtime.sfu.reason})`,
         )
       })

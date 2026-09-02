@@ -85,6 +85,26 @@ export function iceServersFrom(env = process.env) {
 }
 
 /**
+ * One line that says what this deployment's voice actually is.
+ *
+ * Printed at boot beside "voice ready". A worker that starts is not a room
+ * that connects: the address other browsers dial, the port range they dial it
+ * on and whether there is a relay for the ones that cannot are all invisible
+ * from inside the process, and every one of them has been misconfigured
+ * silently. Credentials are never part of the line.
+ */
+export function describeConfig(config) {
+  const turn = config.iceServers
+    .filter((server) => server.username)
+    .flatMap((server) => server.urls)
+  return [
+    `announced ${config.announcedAddress ?? 'UNSET'}`,
+    `udp/tcp ${config.rtcMinPort}-${config.rtcMaxPort}`,
+    `turn ${turn.length ? turn.join(' ') : 'none'}`,
+  ].join(', ')
+}
+
+/**
  * How many transports one member may hold: one to send, one to receive.
  *
  * Each `createWebRtcTransport` binds a UDP and a TCP port out of a range shared
@@ -145,7 +165,7 @@ async function startEngine(env) {
     }
   }
 
-  if (!config.announcedAddress && process.env.NODE_ENV === 'production') {
+  if (!config.announcedAddress) {
     console.warn(
       'SFU_ANNOUNCED_IP is unset. Study room voice will only connect from the server host itself — '
       + 'set it to the public IP of this machine and open UDP '
@@ -262,6 +282,10 @@ async function startEngine(env) {
 
     iceServers() {
       return config.iceServers
+    },
+
+    describe() {
+      return describeConfig(config)
     },
 
     async createTransport(roomId, userId, direction) {
