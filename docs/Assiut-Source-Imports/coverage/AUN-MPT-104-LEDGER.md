@@ -49,10 +49,11 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 180 | 2 | 259 | 441 |
+| quizzes-2022 | 191 | 3 | 247 | 441 |
 
 ## Held
 - quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q204 — Printed key names neutrophils as the cell whose fusion forms Langhans' giant cells (Quiz 25 Q7: 'Langhans' giant cells result from fusion of: ... The correct answer is: neutrophils'), but this is pathologically wrong -- Langhans giant cells form from the fusion of activated epithelioid macrophages, not neutrophils, a fact this same lecture's own Q3/Q5 rows (macrophage as the key granuloma cell; epithelioid cells as modified macrophages) directly contradict. Held per the printed-key-vs-pathology-fact conflict rule (same handling as Q19, Q25, Q47, Q166 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
@@ -101,9 +102,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q183
-- quizzes-2022-q184
-- quizzes-2022-q185
 - quizzes-2022-q186
 - quizzes-2022-q187
 - quizzes-2022-q188
@@ -116,15 +114,6 @@
 - quizzes-2022-q195
 - quizzes-2022-q196
 - quizzes-2022-q197
-- quizzes-2022-q198
-- quizzes-2022-q199
-- quizzes-2022-q200
-- quizzes-2022-q201
-- quizzes-2022-q202
-- quizzes-2022-q203
-- quizzes-2022-q204
-- quizzes-2022-q205
-- quizzes-2022-q206
 - quizzes-2022-q207
 - quizzes-2022-q208
 - quizzes-2022-q209

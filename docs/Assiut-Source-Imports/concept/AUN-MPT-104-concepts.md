@@ -5062,3 +5062,892 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for xerostomia/sialagogue terms -- 0 hits, new concept.
 relationships: closing concept of the Quiz 20/22 cholinergic-pharmacology gap-fill set.
+
+---
+
+# Item
+
+## id
+CON-FND-F184539AFF3F44
+
+## label
+Endarteritis obliterans is chronic intimal thickening producing thick-walled arteries with a narrowed lumen
+
+## canonical_key
+teaching.mpt104.pathology.endarteritis-obliterans
+
+## aliases
+Obliterative endarteritis
+Chronic arterial intimal thickening
+
+## arabic_label
+التهاب الشريان الطامس
+
+## arabic_aliases
+سماكة البطانة الشريانية المزمنة
+
+## definition
+Endarteritis obliterans is a chronic vascular lesion in which the intima (inner lining) of small and medium arteries thickens progressively, narrowing the lumen while the wall itself becomes thicker -- the resulting vessel is thick-walled with a narrow lumen, not the thin-walled, wide-lumen picture of a healthy or dilated artery. It is a chronic reaction pattern in its own right, distinct from simple obliteration (complete closure) of the lumen and from the fact that arteries are end-arteries (a separate anatomical property), and it is classically seen accompanying chronic granulomatous and chronic infective processes such as tuberculosis and tertiary syphilis.
+
+## explicit_objective
+State that endarteritis obliterans means thick-walled arteries with a narrowed lumen, from chronic intimal thickening.
+
+## pitfalls
+Choosing "thin-walled arteries with wide lumen" or "arteries are end arteries" -- the first is the opposite finding, and the second is an unrelated anatomical fact about arterial supply, not a description of endarteritis obliterans itself. "Obliteration of the arterial lumen" overstates a narrowing process as complete closure.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Chronic inflammation definition and types
+
+## subtopic
+Chronic vascular lesions
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHRONIC-INFLAMMATION-GRANULOMA
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-8AF636D3C0F420
+CON-FND-24818D28E4A753
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Endarteritis obliterans means: ... The correct answer is: Thick-walled arteries with narrow lumen" (Quiz 23, Q1, `All Quizzes MPT 2022.pdf` p.85).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 23 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "endarteritis obliterans" -- 0 hits, new concept.
+relationships: opens the Lecture 23/25 chronic-inflammation-and-granuloma set; related to CON-FND-24818D28E4A753 (Ghon focus, a tuberculous lesion that can show a similar chronic vascular pattern in the department's teaching tradition).
+
+---
+
+# Item
+
+## id
+CON-FND-8AF636D3C0F420
+
+## label
+Epithelioid macrophages are the central, key cell of granuloma formation
+
+## canonical_key
+teaching.mpt104.pathology.granuloma-epithelioid-macrophage-key-cell
+
+## aliases
+Epithelioid cells
+Key cell of granuloma
+Granuloma macrophage transformation
+
+## arabic_label
+الخلايا الظهارانية الشبه (الماكروفاج المتحول)
+
+## arabic_aliases
+الخلية الأساسية في الورم الحبيبي
+
+## definition
+When a macrophage is persistently activated by an antigen it cannot fully degrade, it enlarges, flattens its nucleus and gains abundant pink (eosinophilic) cytoplasm that resembles epithelium under the microscope -- this transformed cell is called an epithelioid cell, and epithelioid macrophages are the key, central cell of every granuloma, whatever its underlying cause. Several epithelioid cells can further fuse into a multinucleated giant cell. The macrophage's central role in granuloma formation is why it, rather than the neutrophil, mast cell or fibroblast, is named the most important cell in the development of a granuloma, and why "epithelioid cells" are correctly described as modified macrophages rather than modified epithelial cells, lymphocytes or plasma cells.
+
+## explicit_objective
+Identify the (epithelioid) macrophage as the central cell of granuloma formation and state that epithelioid cells are macrophages transformed by persistent antigenic stimulation.
+
+## pitfalls
+Selecting neutrophil, mast cell or fibroblast as the key granuloma cell -- neutrophils dominate acute, not granulomatous, inflammation, mast cells drive immediate hypersensitivity, and fibroblasts belong to the later fibrotic/healing response, not the granuloma's defining cell. Assuming "epithelioid" implies an epithelial-cell origin rather than a macrophage transformed to resemble epithelium.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Granuloma: types and mechanisms
+
+## subtopic
+Granuloma cell types
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHRONIC-INFLAMMATION-GRANULOMA
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-91B1F37DD27AB0
+CON-FND-24818D28E4A753
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The most important cell in the development of a granuloma is a: ... The correct answer is: Macrophage" (Quiz 23, Q3, `All Quizzes MPT 2022.pdf` p.86); "Epithelioid cells are modified: ... The correct answer is: Macrophages" (Quiz 25, Q5, p.93).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lectures 23 or 25 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "epithelioid" -- live hit CON-INF-8658F6CDBBB685 (title-only KAU concept, reused separately for the Lecture 25 Q8 caseating-granuloma row, not this cell-identity grain) and two thin Helwan HU-BMS-102 pending rows (label-only, no definition prose to safely cite for a 3+ sentence explanation) -- neither is an exact-grain match, so a fresh AUN-MPT-104 record was minted, collapsing Quiz 23 Q3 and Quiz 25 Q5 (same underlying fact) onto one concept.
+relationships: paired with CON-FND-91B1F37DD27AB0 (lymphokine-mediated pathogenesis that activates this cell) and CON-FND-24818D28E4A753 (Ghon focus, the primary-TB counterpart lesion).
+
+---
+
+# Item
+
+## id
+CON-FND-8F94E784317AC6
+
+## label
+An indigestible foreign material (suture, silicone) triggers a foreign-body giant-cell granulomatous reaction
+
+## canonical_key
+teaching.mpt104.pathology.foreign-body-giant-cell-reaction
+
+## aliases
+Foreign-body granuloma
+Foreign-body giant cell
+
+## arabic_label
+تفاعل الخلايا العملاقة للجسم الغريب
+
+## arabic_aliases
+الورم الحبيبي حول جسم غريب
+
+## definition
+An indigestible foreign material that a macrophage cannot break down -- retained suture, leaked breast-implant silicone, talc -- triggers the same macrophage-driven, granuloma-forming response as a persistent antigen, producing a foreign-body giant-cell reaction around the material itself. On histology this appears as macrophages, collagen deposition, lymphocytes and multinucleated giant cells surrounding a refractile foreign particle, which is why a leaking silicone breast implant produces giant cells as its most characteristic accompanying inflammatory cell type, and why a firm nodule found weeks after a surgical incision, showing this same picture on biopsy, is read as granuloma formation around retained suture material rather than a new infection or a neoplasm.
+
+## explicit_objective
+Recognise a foreign-body giant-cell/granulomatous reaction (around silicone or retained suture) from its histological picture and clinical setting.
+
+## pitfalls
+Reading a post-surgical nodule with macrophages, giant cells and refractile material as exuberant granulation tissue, hyaline degeneration or an abscess -- each of those lacks the combination of giant cells plus visible foreign material that specifically signals a foreign-body granulomatous reaction.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Tissue repair: types and mechanisms
+
+## subtopic
+Foreign-body granulomatous reaction
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHRONIC-INFLAMMATION-GRANULOMA
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-E2DF384CA54530
+CON-FND-9AC85DE2741A38
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following cell types would be most characteristic of the inflammatory response accompanying a leaking silicone breast implant: ... The correct answer is: Giant cell" (Quiz 25, Q2, `All Quizzes MPT 2022.pdf` p.92).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 25 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "foreign body giant cell" and "silicone breast implant giant cell" -- 0 hits, new concept.
+relationships: paired with CON-FND-E2DF384CA54530 (silicosis, the inhaled-particle non-infective-granuloma counterpart) and CON-FND-9AC85DE2741A38 (the Lecture 27 suture-material granuloma row, same mechanism applied to a different clinical vignette).
+
+---
+
+# Item
+
+## id
+CON-FND-E2DF384CA54530
+
+## label
+Silicosis is a cause of non-infective granuloma
+
+## canonical_key
+teaching.mpt104.pathology.silicosis-noninfective-granuloma
+
+## aliases
+Non-infective granuloma causes
+Silicotic nodule
+
+## arabic_label
+الورم الحبيبي غير المعدي (السحار السيليسي)
+
+## arabic_aliases
+داء السحار
+
+## definition
+Granulomas are grouped by cause into infective (tuberculosis, bilharziasis, leprosy, syphilis) and non-infective. Silicosis -- chronic inhalation of crystalline silica particles that macrophages cannot fully digest -- is a standard example of a non-infective granuloma, distinguishing it from bilharziasis, tuberculosis and leprosy, which are all infective causes of granulomatous inflammation on the same list.
+
+## explicit_objective
+Classify silicosis as a non-infective cause of granuloma, distinct from the infective causes (tuberculosis, bilharziasis, leprosy) on the same list.
+
+## pitfalls
+Grouping silicosis with the infective granuloma causes because it shares their epithelioid-macrophage histology -- the epithelioid-cell pattern is shared across infective and non-infective granulomas alike; only the trigger (an organism versus an inert inhaled particle) differs.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Granuloma: types and mechanisms
+
+## subtopic
+Infective versus non-infective granuloma
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHRONIC-INFLAMMATION-GRANULOMA
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-8F94E784317AC6
+CON-FND-8AF636D3C0F420
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is a cause of non infective granuloma: ... The correct answer is: silicosis" (Quiz 25, Q3, `All Quizzes MPT 2022.pdf` p.93).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 25 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "silicosis non infective granuloma" -- 0 hits, new concept.
+relationships: paired with CON-FND-8F94E784317AC6 (foreign-body giant-cell reaction, the other non-infective granuloma mechanism this cluster tests).
+
+---
+
+# Item
+
+## id
+CON-FND-24818D28E4A753
+
+## label
+The Ghon focus is the tuberculous lesion of primary tuberculosis infection
+
+## canonical_key
+teaching.mpt104.pathology.ghons-focus-primary-tb
+
+## aliases
+Ghon focus
+Primary tuberculosis lesion
+Ghon complex
+
+## arabic_label
+بؤرة غون
+
+## arabic_aliases
+المركب الأولي لمرض السل
+
+## definition
+The Ghon focus is the small, typically subpleural, area of tuberculous granulomatous inflammation that forms at the site of the initial (primary) tuberculosis infection in the lung -- a tuberculous reaction, not a foreign-body, bilharzial or otherwise non-specific inflammatory reaction. Together with the draining hilar/mediastinal lymph nodes it also affects, it forms the primary (Ghon) complex, the hallmark of primary pulmonary tuberculosis before any reactivation or reinfection (secondary tuberculosis) occurs.
+
+## explicit_objective
+State that the Ghon focus is a tuberculous reaction, the lesion of primary tuberculosis infection.
+
+## pitfalls
+Classing the Ghon focus as a foreign-body, bilharzial or generic non-specific inflammatory reaction -- these are the distractor categories offered against the correct, tuberculous-reaction answer, and each names an unrelated granuloma-forming or inflammatory process.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Granuloma: types and mechanisms
+
+## subtopic
+Tuberculosis worked examples
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHRONIC-INFLAMMATION-GRANULOMA
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-8AF636D3C0F420
+CON-FND-F184539AFF3F44
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Ghon's focus consists of: ... The correct answer is: Tuberculous reaction" (Quiz 25, Q6, `All Quizzes MPT 2022.pdf` p.94).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 25 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "Ghon focus tuberculous" -- 0 hits, new concept.
+relationships: paired with CON-FND-8AF636D3C0F420 (the epithelioid-macrophage cell this lesion is built from) and CON-FND-F184539AFF3F44 (endarteritis obliterans, a chronic vascular lesion in the same department teaching tradition).
+
+---
+
+# Item
+
+## id
+CON-FND-91B1F37DD27AB0
+
+## label
+Lymphokines mediate the chronic inflammation of a delayed (type IV) hypersensitivity reaction
+
+## canonical_key
+teaching.mpt104.pathology.lymphokines-mediate-dth-chronic-inflammation
+
+## aliases
+Delayed hypersensitivity mediators
+Lymphokine-mediated chronic inflammation
+
+## arabic_label
+اللمفوكينات ووساطة الالتهاب المزمن في فرط الحساسية المتأخر
+
+## arabic_aliases
+وسطاء فرط الحساسية من النوع الرابع
+
+## definition
+The chronic inflammation seen in a delayed (type IV) hypersensitivity reaction -- including granuloma formation -- is mediated by lymphokines, the cytokines released by activated T lymphocytes, which recruit and activate macrophages at the reaction site. This is distinct from the mediators of acute inflammation and immediate hypersensitivity: complement, bradykinin and histamine act mainly in those faster, antibody- or plasma-cascade-driven pathways, not in the T-cell-driven chronic inflammation of a delayed hypersensitivity reaction; polymorphs (neutrophils) are cells, not mediators, and belong to acute rather than chronic inflammation.
+
+## explicit_objective
+State that lymphokines, not complement, bradykinin, histamine or polymorphs, mediate the chronic inflammation of a delayed hypersensitivity reaction.
+
+## pitfalls
+Selecting complement, bradykinin or histamine -- these mediate acute inflammation or immediate (type I) hypersensitivity, not the T-cell/lymphokine-driven chronic inflammation of a delayed (type IV) reaction. Selecting polymorphs mistakes a cell type for a chemical mediator.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Granuloma: types and mechanisms
+
+## subtopic
+Mediators of delayed hypersensitivity
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CHRONIC-INFLAMMATION-GRANULOMA
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-8AF636D3C0F420
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The chronic inflammation of a delayed hypersensitivity reaction is mediated by ... The correct answer is: Lymphokines" (Quiz 25, Q9, `All Quizzes MPT 2022.pdf` p.95).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 25 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "lymphokines delayed hypersensitivity" -- 0 hits, new concept.
+relationships: closes the Lecture 23/25 chronic-inflammation-and-granuloma set; related to CON-FND-8AF636D3C0F420 (the macrophage these lymphokines activate).

@@ -1389,3 +1389,178 @@ Block: body
 ### definition_of · CON-FND-3D217227A6222C
 Quote: Muscarinic antagonists reduce, rather than improve, salivary secretion, and would worsen radiation-induced xerostomia
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-CHRONIC-INFLAMMATION-GRANULOMA
+
+## title
+Chronic inflammation and granuloma: cell types, pathogenesis and worked examples
+
+## arabic_title
+الالتهاب المزمن والورم الحبيبي: أنواع الخلايا والآلية المرضية وأمثلة توضيحية
+
+## aliases
+Chronic inflammation definition and types
+Granuloma types and mechanisms
+Lecture 23
+Lecture 25
+
+## subject
+fnd
+
+## topic
+Chronic inflammation and granuloma
+
+## subtopic
+Cell types, pathogenesis and worked diagnoses
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lectures 23 and 25 build the vocabulary of chronic inflammation and the granuloma, its most organised form. Chronic inflammation is dominated by mononuclear cells -- macrophages, lymphocytes and plasma cells -- rather than the neutrophils of acute inflammation, and its vessels can themselves become chronically diseased, narrowing under endarteritis obliterans. A granuloma is a special, compact pattern of chronic inflammation in which activated macrophages transform into epithelioid cells, driven by a type IV (delayed) hypersensitivity reaction and the lymphokines it releases. Granulomas are grouped by cause -- infective (tuberculosis, bilharziasis) versus non-infective (silicosis, a foreign body such as suture material or silicone) -- and tuberculosis supplies the two worked examples every learner is expected to recognise on sight: the Ghon focus of primary infection, and the caseating, Langhans-giant-cell granuloma of active disease.
+
+## sections
+### Definition
+Chronic inflammation is inflammation of prolonged duration in which continuing tissue injury and attempted healing proceed together; its defining infiltrate is macrophages, lymphocytes and plasma cells, not the polymorphs (neutrophils) that mark acute inflammation. A granuloma is a compact, organised collection of these activated macrophages -- once transformed they are called epithelioid cells, and epithelioid macrophages are the key, central cell of every granuloma, whatever its cause. Endarteritis obliterans is a chronic vascular lesion in which the intima thickens, producing thick-walled arteries with a narrowed lumen -- a chronic reaction pattern distinct from an ordinary chronic inflammatory infiltrate.
+
+### Mechanism
+Granuloma formation is a type IV (delayed) hypersensitivity reaction: a macrophage first processes and presents a persistent, poorly-degradable antigen, and the T lymphocytes it activates release lymphokines that recruit and activate further macrophages, driving their transformation into epithelioid cells and, when several epithelioid cells fuse, into multinucleated giant cells. The chronic inflammation of a delayed hypersensitivity reaction is mediated by these T-cell-derived lymphokines, not by complement, bradykinin or histamine, which belong to acute-inflammatory or immediate-hypersensitivity pathways instead. Not every granuloma has an infective cause: silicosis forms a non-infective granuloma when inhaled silica particles resist macrophage digestion and trigger the same persistent-antigen response, and an indigestible foreign material such as retained suture or leaked silicone triggers an analogous foreign-body giant-cell reaction around the material itself.
+
+### Key determinants
+Tuberculosis supplies this lecture's two worked diagnostic pictures. The Ghon focus is the small subpleural lesion of primary tuberculosis -- a tuberculous, not a non-specific or foreign-body, reaction -- and together with the draining hilar lymph nodes it forms the primary (Ghon) complex. Active tuberculous disease instead shows the fully developed granuloma: epithelioid cells, Langhans giant cells (formed by the fusion of epithelioid macrophages, arranged with peripherally placed nuclei) and central caseous necrosis, a combination specific enough that Langhans giant cells with caseation in a patient with fever, night sweats, weight loss and cough points to Mycobacterium tuberculosis over the other infectious causes on a typical exam list.
+
+### Clinical significance
+Recognising the granuloma pattern on histology narrows the differential immediately: an infective granuloma (tuberculosis, bilharziasis, leprosy, syphilis) needs a different work-up from a non-infective one (silicosis, a retained foreign body), even though both share the same epithelioid-macrophage architecture. A firm nodule appearing weeks after a surgical incision, showing macrophages, giant cells and refractile foreign material on biopsy, is a foreign-body granuloma around retained suture, not a new infection or a true neoplasm -- the same reasoning applies to a granulomatous reaction around leaked silicone breast-implant material. Endarteritis obliterans, by narrowing the vessel lumen, is the vascular lesion underlying the tissue ischaemia seen in some chronic granulomatous and chronic infective processes.
+
+### Common misconceptions
+Treating neutrophils (polymorphs) as chronic inflammatory cells, when the neutrophil is instead the hallmark of acute inflammation and is specifically excluded from the chronic-inflammation triad of macrophages, lymphocytes and plasma cells. Assuming any multinucleated giant cell in tissue implies tuberculosis -- a foreign-body giant cell (haphazardly arranged nuclei, around indigestible material) and a Langhans giant cell (peripherally arranged nuclei, from antigen-driven macrophage fusion in a granuloma) are different cells with different implications. Assuming all granulomas are infective, when silicosis and a retained foreign body are standard non-infective causes on the same exam list as tuberculosis and bilharziasis.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Chronic inflammation's defining cells are macrophages, lymphocytes and plasma cells; polymorphs (neutrophils) are the acute-inflammation cell, not a chronic one.
+Epithelioid macrophages are the key, central cell of every granuloma; a granuloma is macrophage-driven organised chronic inflammation.
+Granuloma pathogenesis is a type IV (delayed) hypersensitivity reaction, and its chronic inflammation is mediated by T-cell lymphokines.
+Non-infective granulomas (silicosis, foreign-body/suture, leaked silicone) exist alongside infective ones (tuberculosis, bilharziasis) -- the epithelioid-macrophage pattern is shared, the cause is not.
+The Ghon focus is the tuberculous primary-infection lesion; active tuberculosis shows Langhans giant cells (from epithelioid-macrophage fusion) with caseation.
+Endarteritis obliterans means thick-walled arteries with a narrowed lumen, from chronic intimal thickening.
+
+## lose_the_mark
+Naming polymorphs/neutrophils among the chronic inflammatory cells.
+Naming any cell other than the (epithelioid) macrophage as the central cell of granuloma formation.
+Attributing granuloma pathogenesis or its chronic inflammation to an antibody-mediated or immediate-hypersensitivity mechanism instead of type IV/lymphokine-mediated delayed hypersensitivity.
+Assuming a granuloma must be infective, missing silicosis or a foreign-body reaction as valid non-infective causes.
+Confusing the Ghon focus (primary infection) with the caseating giant-cell granuloma of active disease, or crediting Langhans giant cells to fusion of any cell other than macrophages.
+Defining endarteritis obliterans as arterial dilation or thin-walled vessels rather than narrowing from wall thickening.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-F184539AFF3F44
+CON-FND-8AF636D3C0F420
+CON-FND-8F94E784317AC6
+CON-FND-E2DF384CA54530
+CON-FND-24818D28E4A753
+CON-FND-91B1F37DD27AB0
+CON-FND-685D424733A1DB
+CON-INF-F3A31EB59340B9
+CON-INF-8658F6CDBBB685
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lectures 23 (Chronic inflammation definition and types) and 25 (Granuloma: types and mechanisms) -- no department slide deck exists in the corpus past Lecture 8, so these six mints cite the quiz bank's own printed-answer text instead. Two further Lecture 23/25 grains (chronic-inflammation cell types; granuloma pathogenesis as type IV hypersensitivity, reused for both the Lecture 25 and the bilharzial-granuloma rows) reuse pending Kasr 208-INT and Helwan HU-BMS-102 concepts instead of a fresh mint here; one further Lecture 25 grain (Langhans giant cells "result from fusion of neutrophils") reuses the live KAU tuberculosis-granuloma concept; Lecture 25 Q7 (Langhans giant cells) is held, its printed key contradicting the fact that Langhans giant cells form from macrophage fusion, not neutrophils.
+
+## annotations
+### definition_of · CON-FND-F184539AFF3F44
+Quote: Endarteritis obliterans is a chronic vascular lesion in which the intima thickens, producing thick-walled arteries with a narrowed lumen
+Block: body
+
+### definition_of · CON-FND-8AF636D3C0F420
+Quote: epithelioid macrophages are the key, central cell of every granuloma, whatever its cause
+Block: body
+
+### definition_of · CON-FND-8F94E784317AC6
+Quote: an indigestible foreign material such as retained suture or leaked silicone triggers an analogous foreign-body giant-cell reaction around the material itself
+Block: body
+
+### definition_of · CON-FND-E2DF384CA54530
+Quote: silicosis forms a non-infective granuloma when inhaled silica particles resist macrophage digestion and trigger the same persistent-antigen response
+Block: body
+
+### definition_of · CON-FND-24818D28E4A753
+Quote: The Ghon focus is the small subpleural lesion of primary tuberculosis -- a tuberculous, not a non-specific or foreign-body, reaction
+Block: body
+
+### definition_of · CON-FND-91B1F37DD27AB0
+Quote: The chronic inflammation of a delayed hypersensitivity reaction is mediated by these T-cell-derived lymphokines, not by complement, bradykinin or histamine
+Block: body
+
+### definition_of · CON-INF-F3A31EB59340B9
+Quote: Granuloma formation is a type IV (delayed) hypersensitivity reaction
+Block: body
