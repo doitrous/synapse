@@ -1,5 +1,7 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
+| anatomy2-mint | 14 | 0 | 0 | 14 |
+| anatomy2-reuse | 10 | 0 | 0 | 10 |
 | lower-limb-mint | 12 | 0 | 0 | 12 |
 | mip-q1 :: A :: UV protection in skin = melanin | 0 | 0 | 1 | 1 |
 | mip-q10 :: B :: average total skin surface area (adult) = 1.5-2.0 m2 | 0 | 0 | 1 | 1 |
@@ -85,6 +87,8 @@
 | p6-q24 :: C :: intracapsular knee structure = cruciate ligaments | 0 | 0 | 1 | 1 |
 | pharma-mint | 11 | 0 | 0 | 11 |
 | physio-mint | 5 | 0 | 0 | 5 |
+| physio2-mint | 11 | 0 | 0 | 11 |
+| physio3-mint | 11 | 0 | 0 | 11 |
 | upper-limb-mint | 9 | 0 | 0 | 9 |
 | upper-limb-reuse | 8 | 0 | 0 | 8 |
 
