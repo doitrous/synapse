@@ -83,6 +83,8 @@ export const AR_ROOMS: Record<string, string> = {
   'Voice needs the connected server.': 'الصوت يحتاج إلى الخادم المتصل.',
   'Voice could not connect, so nobody can hear you in this room.':
     'تعذّر الاتصال بالصوت، فلا أحد يسمعك في هذه الغرفة.',
+  'Voice could not reach the media server, so nobody can hear you in this room.':
+    'تعذّر على الصوت الوصول إلى خادم الوسائط، فلا أحد يسمعك في هذه الغرفة.',
   'You are in the room\u2019s voice. Everyone here can hear you unless you mute.':
     'أنت داخل صوت الغرفة. كل من هنا يسمعك ما لم تكتم الميكروفون.',
   'Everyone here is live: their desk, their furniture and whether they are working. Your own desk is the one with the crimson cushion — click it to change your furniture.':
