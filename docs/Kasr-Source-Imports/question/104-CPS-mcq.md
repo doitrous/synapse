@@ -20,7 +20,7 @@
     The Trachea, Bronchi and Thoracic Oesophagus — 10 questions, 3 concepts
     The Typical Intercostal Nerve — 6 questions, 1 concepts
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
+    Histology Cardiovascular System — Artery Classification — 38 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 36 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 8 questions, 2 concepts
@@ -54,7 +54,7 @@
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 14 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 43 questions, 11 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 45 questions, 11 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 26 questions, 5 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  202 questions were excluded and 0 held back for having no
+  204 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -14229,6 +14229,190 @@ Claude
 Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q30. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-6476C3FB1B47
+## title
+All characters of Coronary artery except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of Coronary artery except
+## answer_a
+thickened by smooth muscle fiber increase with age
+## explanation_a
+Not established as the exception here — the coronary artery's tunica media, like any muscular artery's, is dominated by circularly arranged smooth muscle, consistent with the general muscular-artery pattern this leaf's own classification concept describes.
+## answer_b
+has clear EEL
+## explanation_b
+True of a muscular artery, so not the exception — coronary arteries, like muscular arteries generally, may carry a recognisable external elastic lamina at the media-adventitia boundary.
+## answer_c
+has no IEL
+## explanation_c
+The exception, and the answer. As a medium-sized muscular artery, the coronary artery carries a prominent, well-defined internal elastic lamina separating intima from media — that prominent IEL is exactly what identifies a muscular artery on a slide, the opposite of having none. A common trap: using the presence of an internal elastic lamina alone to separate arterial classes, rather than checking how prominent it is.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_d
+thin T-adventitia
+## explanation_d
+True of a muscular artery's adventitia, so not the exception — a thin, loose connective-tissue coat relative to the thick, muscle-dominated media is exactly the muscular-artery pattern this leaf's own concept states.
+## correct_answer
+C
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a coronary artery, as a muscular artery, carries a prominent internal elastic lamina rather than none, against three statements consistent with the general muscular-artery pattern.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q34. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-5C88AC3C48D9
+## title
+Specialized types of medium sized artery include the following:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Specialized types of medium sized artery include the following:
+## answer_a
+Coronary artery
+## explanation_a
+The coronary artery is one of the medium-sized muscular arteries' own named, specialized examples — a muscle-dominated-media vessel supplying an organ (the heart), matching this leaf's own classification of the medium/muscular class.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_b
+Vasa vasora
+## explanation_b
+Vasa vasorum are small nutrient vessels within a large vessel's own wall, not a type of artery in this three-way classification at all.
+## answer_c
+Muscular artery
+## explanation_c
+'Muscular artery' is the generic category name for the medium-sized class itself, not a specialized type within it — the stem asks for a named specialized example, which the coronary artery supplies.
+## answer_d
+Aorta
+## explanation_d
+The aorta is the archetypal large elastic artery, the opposite class from the medium-sized muscular arteries this question asks about.
+## correct_answer
+A
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the coronary artery as a specialized, named example of the medium-sized muscular-artery class, against the generic category name, a vessel-wall accessory structure and the elastic-artery class.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p1 q11; Histo MCQ by Dr.Kandeel [104].pdf p18 q11; DPT HISTO MCQ [Cardiovascular].pdf p2 q41. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9, src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -53581,6 +53765,191 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
+
+---
+
+# Item
+## id
+QM-104-07C4EB6D7B5A
+## title
+Stimulation of arterial baroreceptors causes all, Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stimulation of arterial baroreceptors causes all, Except:
+## answer_a
+Vasoconstriction of arterioles
+## explanation_a
+The exception, and the answer. A rise in arterial pressure raises baroreceptor discharge, which inhibits the vasomotor area, lowering sympathetic drive to the vessels and producing vasodilatation of arterioles — the opposite of constriction. A common trap: answering with the atrial volume receptors, whose reflex is about volume, not arterial pressure.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## answer_b
+Bradycardia
+## explanation_b
+True, so not the exception. Increased baroreceptor discharge excites the cardiac inhibitory area, raising vagal tone and producing bradycardia.
+## answer_c
+Decrease in ABP
+## explanation_c
+True, so not the exception. The combined fall in heart rate, stroke volume, cardiac output and vascular resistance that increased baroreceptor discharge produces is what lowers arterial blood pressure back towards normal.
+## answer_d
+Inhibition of vasomotor tone
+## explanation_d
+True, so not the exception. Increased baroreceptor discharge inhibits the vasomotor area, lowering sympathetic (vasomotor) tone to the vessels.
+## correct_answer
+A
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that a rise in baroreceptor discharge causes vasodilatation, not vasoconstriction of arterioles, against three genuine effects of the same reflex.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p11 q77. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-EC47F0F52580
+## title
+Stimulation of atrial stretch receptors produce
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stimulation of atrial stretch receptors produce
+## answer_a
+Vasodilation of arterioles and fall in arterial blood pressure
+## explanation_a
+By elimination, once B, C and D are each ruled out against this leaf's own sourced facts, vasodilatation of arterioles and a fall in arterial blood pressure is the surviving option — consistent with the same withdrawal of sympathetic outflow that this reflex's tachycardia and ADH suppression both already reflect.
+
+Why this is right:
+- The atria have three functions beyond acting as a simple entry chamber.
+## answer_b
+Increased secretion of ADH from hypothalamus
+## explanation_b
+Reversed. This leaf's own hemorrhagic-shock concept states vasopressin (ADH) rises from DECREASED discharge of the atrial low-pressure receptors — so stimulating (increasing the discharge of) those same receptors would lower, not raise, ADH secretion.
+## answer_c
+Decreased secretion of atrial natriuretic peptide ANP
+## explanation_c
+Reversed. Atrial natriuretic peptide is secreted when atrial stretch rises with an expanded extracellular fluid volume, per this leaf's own sourced concept — stimulating the atrial stretch receptors raises, not lowers, ANP secretion.
+## answer_d
+Decreased heart rate
+## explanation_d
+Reversed. This leaf's own sourced concept credits the atria's stretch receptors with triggering the Bainbridge reflex — reflex tachycardia when atrial filling rises — the opposite direction to a decreased heart rate.
+## correct_answer
+A
+## main_concept
+CON-CVS-60749EA9A6B0A5
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+Eliminate three options that each reverse an established atrial-receptor fact (ADH, ANP, heart rate direction) to identify reflex vasodilatation and a fall in arterial pressure as the remaining, consistent answer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p5 q32. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 

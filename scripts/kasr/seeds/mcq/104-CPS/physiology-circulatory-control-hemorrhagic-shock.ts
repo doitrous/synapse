@@ -423,6 +423,49 @@ export const LEAF: McqLeafSeed = {
       // Bank-tagged leaf: "Vascular Function" — genuinely this leaf's own
       // baroreceptor-reflex content (bank leaf tags are unreliable
       // throughout this branch), routed onto the concept above.
+      // kasr-104-author-run45: Arteries cluster (bank-tagged "Arteries",
+      // genuinely this leaf's own baroreceptor-reflex content). A rise in
+      // arterial pressure raises baroreceptor discharge, which this leaf's
+      // own sourced concept states inhibits the vasomotor area and excites
+      // the cardiac inhibitory area — vasodilatation and bradycardia, not
+      // vasoconstriction.
+      key: "stimulation-of-arterial-baroreceptors-causes-all-except-aafa1ea1",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that a rise in baroreceptor discharge causes vasodilatation, not vasoconstriction of arterioles, against three genuine effects of the same reflex.",
+      explanations: {
+        A: "The exception, and the answer. A rise in arterial pressure raises baroreceptor discharge, which inhibits the vasomotor area, lowering sympathetic drive to the vessels and producing vasodilatation of arterioles — the opposite of constriction. A common trap: answering with the atrial volume receptors, whose reflex is about volume, not arterial pressure.",
+        B: "True, so not the exception. Increased baroreceptor discharge excites the cardiac inhibitory area, raising vagal tone and producing bradycardia.",
+        C: "True, so not the exception. The combined fall in heart rate, stroke volume, cardiac output and vascular resistance that increased baroreceptor discharge produces is what lowers arterial blood pressure back towards normal.",
+        D: "True, so not the exception. Increased baroreceptor discharge inhibits the vasomotor area, lowering sympathetic (vasomotor) tone to the vessels.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Arteries cluster (bank-tagged "Arteries",
+      // genuinely this leaf's own atrial-receptor content). Options B, C
+      // and D are each the direct logical reverse of a fact this leaf's own
+      // sourced concepts already establish for atrial stretch: decreased
+      // (not increased) atrial receptor discharge is what raises
+      // vasopressin/ADH; sustained atrial stretch raises (not lowers) ANP;
+      // and rising atrial filling produces the Bainbridge reflex's
+      // tachycardia, not bradycardia. By elimination, A is the surviving,
+      // uncontradicted option, consistent with the same reduction in
+      // sympathetic outflow that reflex tachycardia and ADH suppression
+      // both already imply.
+      key: "stimulation-of-atrial-stretch-receptors-produce-ecf90d1b",
+      conceptKey: "atria.functions-beyond-pumping",
+      difficulty: "Hard",
+      questionType: "Mechanism",
+      learningObjective: "Eliminate three options that each reverse an established atrial-receptor fact (ADH, ANP, heart rate direction) to identify reflex vasodilatation and a fall in arterial pressure as the remaining, consistent answer.",
+      explanations: {
+        A: "By elimination, once B, C and D are each ruled out against this leaf's own sourced facts, vasodilatation of arterioles and a fall in arterial blood pressure is the surviving option — consistent with the same withdrawal of sympathetic outflow that this reflex's tachycardia and ADH suppression both already reflect.",
+        B: "Reversed. This leaf's own hemorrhagic-shock concept states vasopressin (ADH) rises from DECREASED discharge of the atrial low-pressure receptors — so stimulating (increasing the discharge of) those same receptors would lower, not raise, ADH secretion.",
+        C: "Reversed. Atrial natriuretic peptide is secreted when atrial stretch rises with an expanded extracellular fluid volume, per this leaf's own sourced concept — stimulating the atrial stretch receptors raises, not lowers, ANP secretion.",
+        D: "Reversed. This leaf's own sourced concept credits the atria's stretch receptors with triggering the Bainbridge reflex — reflex tachycardia when atrial filling rises — the opposite direction to a decreased heart rate.",
+      },
+    },
+    {
       key: "baroreceptors-060d2015",
       conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
       difficulty: "Easy",
