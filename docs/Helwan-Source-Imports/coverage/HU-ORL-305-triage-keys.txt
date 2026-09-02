@@ -1,0 +1,980 @@
+ophth-q0001	joined	ch1-q1	Brief anatomy of the eye and its adnexa, item #1
+ophth-q0002	joined	ch1-q2	Brief anatomy of the eye and its adnexa, item #2
+ophth-q0003	joined	ch1-q3	Brief anatomy of the eye and its adnexa, item #3
+ophth-q0004	joined	ch1-q4	Brief anatomy of the eye and its adnexa, item #4
+ophth-q0005	joined	ch1-q5	Brief anatomy of the eye and its adnexa, item #5
+ophth-q0006	joined	ch1-q6	Brief anatomy of the eye and its adnexa, item #6
+ophth-q0007	joined	ch1-q7	Brief anatomy of the eye and its adnexa, item #7
+ophth-q0008	joined	ch1-q8	Brief anatomy of the eye and its adnexa, item #8
+ophth-q0009	joined	ch1-q9	Brief anatomy of the eye and its adnexa, item #9
+ophth-q0010	joined	ch1-q10	Brief anatomy of the eye and its adnexa, item #10
+ophth-q0011	joined	ch1-q11	Brief anatomy of the eye and its adnexa, item #11
+ophth-q0012	joined	ch1-q12	Brief anatomy of the eye and its adnexa, item #12
+ophth-q0013	joined	ch1-q13	Brief anatomy of the eye and its adnexa, item #13
+ophth-q0014	joined	ch1-q14	Brief anatomy of the eye and its adnexa, item #14
+ophth-q0015	joined	ch1-q15	Brief anatomy of the eye and its adnexa, item #15
+ophth-q0016	joined	ch1-q16	Brief anatomy of the eye and its adnexa, item #16
+ophth-q0017	joined	ch1-q17	Brief anatomy of the eye and its adnexa, item #17
+ophth-q0018	joined	ch1-q18	Brief anatomy of the eye and its adnexa, item #18
+ophth-q0019	joined	ch1-q19	Brief anatomy of the eye and its adnexa, item #19
+ophth-q0020	joined	ch1-q20	Brief anatomy of the eye and its adnexa, item #20
+ophth-q0021	joined	ch1-q21	Brief anatomy of the eye and its adnexa, item #21
+ophth-q0022	joined	ch1-q22	Brief anatomy of the eye and its adnexa, item #22
+ophth-q0023	joined	ch1-q23	Brief anatomy of the eye and its adnexa, item #23
+ophth-q0024	joined	ch1-q24	Brief anatomy of the eye and its adnexa, item #24
+ophth-q0025	joined	ch1-q25	Brief anatomy of the eye and its adnexa, item #25
+ophth-q0026	joined	ch1-q26	Brief anatomy of the eye and its adnexa, item #26
+ophth-q0027	joined	ch2-q1	Clinical examination of the eye, item #1
+ophth-q0028	joined	ch2-q2	Clinical examination of the eye, item #2
+ophth-q0029	joined	ch2-q3	Clinical examination of the eye, item #3
+ophth-q0030	joined	ch2-q4	Clinical examination of the eye, item #4
+ophth-q0031	joined	ch2-q5	Clinical examination of the eye, item #5
+ophth-q0032	joined	ch2-q6	Clinical examination of the eye, item #6
+ophth-q0033	joined	ch2-q7	Clinical examination of the eye, item #7
+ophth-q0034	joined	ch2-q8	Clinical examination of the eye, item #8
+ophth-q0035	joined	ch2-q9	Clinical examination of the eye, item #9
+ophth-q0036	joined	ch2-q10	Clinical examination of the eye, item #10
+ophth-q0037	joined	ch2-q11	Clinical examination of the eye, item #11
+ophth-q0038	joined	ch2-q12	Clinical examination of the eye, item #12
+ophth-q0039	joined	ch2-q13	Clinical examination of the eye, item #13
+ophth-q0040	joined	ch3-q1	The protective system of the eye, item #1
+ophth-q0041	joined	ch3-q2	The protective system of the eye, item #2
+ophth-q0042	joined	ch3-q3	The protective system of the eye, item #3
+ophth-q0043	joined	ch3-q4	The protective system of the eye, item #4
+ophth-q0044	joined	ch3-q5	The protective system of the eye, item #5
+ophth-q0045	joined	ch3-q6	The protective system of the eye, item #6
+ophth-q0046	joined	ch3-q7	The protective system of the eye, item #7
+ophth-q0047	joined	ch3-q8	The protective system of the eye, item #8
+ophth-q0048	joined	ch3-q9	The protective system of the eye, item #9
+ophth-q0049	joined	ch3-q10	The protective system of the eye, item #10
+ophth-q0050	joined	ch3-q11	The protective system of the eye, item #11
+ophth-q0051	joined	ch3-q12	The protective system of the eye, item #12
+ophth-q0052	joined	ch3-q13	The protective system of the eye, item #13
+ophth-q0053	joined	ch3-q14	The protective system of the eye, item #14
+ophth-q0054	joined	ch3-q15	The protective system of the eye, item #15
+ophth-q0055	joined	ch3-q16	The protective system of the eye, item #16
+ophth-q0056	joined	ch3-q17	The protective system of the eye, item #17
+ophth-q0057	joined	ch3-q18	The protective system of the eye, item #18
+ophth-q0058	joined	ch3-q19	The protective system of the eye, item #19
+ophth-q0059	joined	ch3-q20	The protective system of the eye, item #20
+ophth-q0060	joined	ch3-q21	The protective system of the eye, item #21
+ophth-q0061	joined	ch3-q22	The protective system of the eye, item #22
+ophth-q0062	joined	ch3-q23	The protective system of the eye, item #23
+ophth-q0063	joined	ch3-q24	The protective system of the eye, item #24
+ophth-q0064	joined	ch3-q25	The protective system of the eye, item #25
+ophth-q0065	joined	ch3-q26	The protective system of the eye, item #26
+ophth-q0066	joined	ch3-q27	The protective system of the eye, item #27
+ophth-q0067	joined	ch3-q28	The protective system of the eye, item #28
+ophth-q0068	joined	ch3-q29	The protective system of the eye, item #29
+ophth-q0069	joined	ch3-q30	The protective system of the eye, item #30
+ophth-q0070	joined	ch3-q31	The protective system of the eye, item #31
+ophth-q0071	unjoined-no-key	ch3-q32	The protective system of the eye, item #32
+ophth-q0072	joined	ch3-q33	The protective system of the eye, item #33
+ophth-q0073	joined	ch3-q34	The protective system of the eye, item #34
+ophth-q0074	joined	ch3-q35	The protective system of the eye, item #35
+ophth-q0075	unjoined-no-key	ch3-q36	The protective system of the eye, item #36
+ophth-q0076	joined	ch3-q37	The protective system of the eye, item #37
+ophth-q0077	joined	ch3-q38	The protective system of the eye, item #38
+ophth-q0078	joined	ch3-q39	The protective system of the eye, item #39
+ophth-q0079	joined	ch3-q40	The protective system of the eye, item #40
+ophth-q0080	joined	ch3-q41	The protective system of the eye, item #41
+ophth-q0081	joined	ch3-q42	The protective system of the eye, item #42
+ophth-q0082	joined	ch3-q43	The protective system of the eye, item #43
+ophth-q0083	joined	ch3-q44	The protective system of the eye, item #44
+ophth-q0084	joined	ch3-q45	The protective system of the eye, item #45
+ophth-q0085	joined	ch3-q46	The protective system of the eye, item #46
+ophth-q0086	unjoined-no-key	ch3-q47	The protective system of the eye, item #47
+ophth-q0087	joined	ch3-q48	The protective system of the eye, item #48
+ophth-q0088	joined	ch3-q49	The protective system of the eye, item #49
+ophth-q0089	unjoined-no-key	ch3-q50	The protective system of the eye, item #50
+ophth-q0090	joined	ch3-q51	The protective system of the eye, item #51
+ophth-q0091	joined	ch3-q52	The protective system of the eye, item #52
+ophth-q0092	unjoined-no-key	ch3-q53	The protective system of the eye, item #53
+ophth-q0093	joined	ch3-q54	The protective system of the eye, item #54
+ophth-q0094	joined	ch3-q55	The protective system of the eye, item #55
+ophth-q0095	joined	ch3-q56	The protective system of the eye, item #56
+ophth-q0096	joined	ch3-q57	The protective system of the eye, item #57
+ophth-q0097	joined	ch3-q58	The protective system of the eye, item #58
+ophth-q0098	joined	ch3-q59	The protective system of the eye, item #59
+ophth-q0099	joined	ch3-q60	The protective system of the eye, item #60
+ophth-q0100	joined	ch3-q61	The protective system of the eye, item #61
+ophth-q0101	joined	ch3-q62	The protective system of the eye, item #62
+ophth-q0102	joined	ch3-q63	The protective system of the eye, item #63
+ophth-q0103	joined	ch3-q64	The protective system of the eye, item #64
+ophth-q0104	joined	ch3-q65	The protective system of the eye, item #65
+ophth-q0105	joined	ch3-q66	The protective system of the eye, item #66
+ophth-q0106	joined	ch3-q67	The protective system of the eye, item #67
+ophth-q0107	joined	ch3-q68	The protective system of the eye, item #68
+ophth-q0108	joined	ch3-q69	The protective system of the eye, item #69
+ophth-q0109	joined	ch3-q70	The protective system of the eye, item #70
+ophth-q0110	joined	ch3-q71	The protective system of the eye, item #71
+ophth-q0111	joined	ch3-q72	The protective system of the eye, item #72
+ophth-q0112	joined	ch3-q73	The protective system of the eye, item #73
+ophth-q0113	joined	ch3-q74	The protective system of the eye, item #74
+ophth-q0114	joined	ch3-q75	The protective system of the eye, item #75
+ophth-q0115	joined	ch3-q76	The protective system of the eye, item #76
+ophth-q0116	joined	ch3-q77	The protective system of the eye, item #77
+ophth-q0117	joined	ch3-q78	The protective system of the eye, item #78
+ophth-q0118	joined	ch3-q79	The protective system of the eye, item #79
+ophth-q0119	joined	ch3-q80	The protective system of the eye, item #80
+ophth-q0120	joined	ch3-q81	The protective system of the eye, item #81
+ophth-q0121	joined	ch3-q82	The protective system of the eye, item #82
+ophth-q0122	joined	ch3-q83	The protective system of the eye, item #83
+ophth-q0123	joined	ch3-q84	The protective system of the eye, item #84
+ophth-q0124	joined	ch3-q85	The protective system of the eye, item #85
+ophth-q0125	joined	ch3-q86	The protective system of the eye, item #86
+ophth-q0126	joined	ch3-q87	The protective system of the eye, item #87
+ophth-q0127	joined	ch3-q88	The protective system of the eye, item #88
+ophth-q0128	joined	ch3-q89	The protective system of the eye, item #89
+ophth-q0129	joined	ch3-q90	The protective system of the eye, item #90
+ophth-q0130	joined	ch3-q91	The protective system of the eye, item #91
+ophth-q0131	joined	ch3-q92	The protective system of the eye, item #92
+ophth-q0132	joined	ch3-q93	The protective system of the eye, item #93
+ophth-q0133	joined	ch3-q94	The protective system of the eye, item #94
+ophth-q0134	joined	ch3-q95	The protective system of the eye, item #95
+ophth-q0135	joined	ch3-q96	The protective system of the eye, item #96
+ophth-q0136	joined	ch4-q1	Normal and abnormal image capture, item #1
+ophth-q0137	joined	ch4-q2	Normal and abnormal image capture, item #2
+ophth-q0138	joined	ch4-q3	Normal and abnormal image capture, item #3
+ophth-q0139	joined	ch4-q4	Normal and abnormal image capture, item #4
+ophth-q0140	joined	ch4-q5	Normal and abnormal image capture, item #5
+ophth-q0141	joined	ch4-q6	Normal and abnormal image capture, item #6
+ophth-q0142	joined	ch4-q7	Normal and abnormal image capture, item #7
+ophth-q0143	joined	ch4-q8	Normal and abnormal image capture, item #8
+ophth-q0144	joined	ch4-q9	Normal and abnormal image capture, item #9
+ophth-q0145	joined	ch4-q10	Normal and abnormal image capture, item #10
+ophth-q0146	joined	ch4-q11	Normal and abnormal image capture, item #11
+ophth-q0147	joined	ch4-q12	Normal and abnormal image capture, item #12
+ophth-q0148	joined	ch4-q13	Normal and abnormal image capture, item #13
+ophth-q0149	joined	ch4-q14	Normal and abnormal image capture, item #14
+ophth-q0150	joined	ch4-q15	Normal and abnormal image capture, item #15
+ophth-q0151	joined	ch4-q16	Normal and abnormal image capture, item #16
+ophth-q0152	joined	ch4-q17	Normal and abnormal image capture, item #17
+ophth-q0153	joined	ch4-q18	Normal and abnormal image capture, item #18
+ophth-q0154	joined	ch4-q19	Normal and abnormal image capture, item #19
+ophth-q0155	joined	ch4-q20	Normal and abnormal image capture, item #20
+ophth-q0156	joined	ch4-q21	Normal and abnormal image capture, item #21
+ophth-q0157	joined	ch4-q22	Normal and abnormal image capture, item #22
+ophth-q0158	joined	ch4-q23	Normal and abnormal image capture, item #23
+ophth-q0159	joined	ch4-q24	Normal and abnormal image capture, item #24
+ophth-q0160	joined	ch4-q25	Normal and abnormal image capture, item #25
+ophth-q0161	joined	ch4-q26	Normal and abnormal image capture, item #26
+ophth-q0162	joined	ch4-q27	Normal and abnormal image capture, item #27
+ophth-q0163	joined	ch4-q28	Normal and abnormal image capture, item #28
+ophth-q0164	joined	ch4-q29	Normal and abnormal image capture, item #29
+ophth-q0165	joined	ch4-q30	Normal and abnormal image capture, item #30
+ophth-q0166	joined	ch4-q31	Normal and abnormal image capture, item #31
+ophth-q0167	joined	ch4-q32	Normal and abnormal image capture, item #32
+ophth-q0168	joined	ch4-q33	Normal and abnormal image capture, item #33
+ophth-q0169	joined	ch4-q34	Normal and abnormal image capture, item #34
+ophth-q0170	joined	ch4-q35	Normal and abnormal image capture, item #35
+ophth-q0171	joined	ch4-q36	Normal and abnormal image capture, item #36
+ophth-q0172	joined	ch4-q37	Normal and abnormal image capture, item #37
+ophth-q0173	joined	ch4-q38	Normal and abnormal image capture, item #38
+ophth-q0174	joined	ch4-q39	Normal and abnormal image capture, item #39
+ophth-q0175	joined	ch4-q40	Normal and abnormal image capture, item #40
+ophth-q0176	joined	ch4-q41	Normal and abnormal image capture, item #41
+ophth-q0177	joined	ch4-q42	Normal and abnormal image capture, item #42
+ophth-q0178	joined	ch4-q43	Normal and abnormal image capture, item #43
+ophth-q0179	joined	ch4-q44	Normal and abnormal image capture, item #44
+ophth-q0180	joined	ch4-q45	Normal and abnormal image capture, item #45
+ophth-q0181	joined	ch4-q46	Normal and abnormal image capture, item #46
+ophth-q0182	joined	ch4-q47	Normal and abnormal image capture, item #47
+ophth-q0183	joined	ch4-q48	Normal and abnormal image capture, item #48
+ophth-q0184	joined	ch4-q49	Normal and abnormal image capture, item #49
+ophth-q0185	joined	ch4-q50	Normal and abnormal image capture, item #50
+ophth-q0186	joined	ch4-q51	Normal and abnormal image capture, item #51
+ophth-q0187	joined	ch4-q52	Normal and abnormal image capture, item #52
+ophth-q0188	joined	ch4-q53	Normal and abnormal image capture, item #53
+ophth-q0189	joined	ch4-q54	Normal and abnormal image capture, item #54
+ophth-q0190	joined	ch4-q55	Normal and abnormal image capture, item #55
+ophth-q0191	joined	ch4-q56	Normal and abnormal image capture, item #56
+ophth-q0192	joined	ch4-q57	Normal and abnormal image capture, item #57
+ophth-q0193	joined	ch4-q58	Normal and abnormal image capture, item #58
+ophth-q0194	joined	ch4-q59	Normal and abnormal image capture, item #59
+ophth-q0195	joined	ch4-q60	Normal and abnormal image capture, item #60
+ophth-q0196	joined	ch4-q61	Normal and abnormal image capture, item #61
+ophth-q0197	joined	ch4-q62	Normal and abnormal image capture, item #62
+ophth-q0198	joined	ch4-q63	Normal and abnormal image capture, item #63
+ophth-q0199	joined	ch4-q64	Normal and abnormal image capture, item #64
+ophth-q0200	joined	ch4-q65	Normal and abnormal image capture, item #65
+ophth-q0201	joined	ch4-q66	Normal and abnormal image capture, item #66
+ophth-q0202	joined	ch4-q67	Normal and abnormal image capture, item #67
+ophth-q0203	joined	ch4-q68	Normal and abnormal image capture, item #68
+ophth-q0204	joined	ch4-q69	Normal and abnormal image capture, item #69
+ophth-q0205	joined	ch4-q70	Normal and abnormal image capture, item #70
+ophth-q0206	joined	ch4-q71	Normal and abnormal image capture, item #71
+ophth-q0207	joined	ch4-q72	Normal and abnormal image capture, item #72
+ophth-q0208	joined	ch4-q73	Normal and abnormal image capture, item #73
+ophth-q0209	joined	ch4-q74	Normal and abnormal image capture, item #74
+ophth-q0210	joined	ch4-q75	Normal and abnormal image capture, item #75
+ophth-q0211	joined	ch4-q76	Normal and abnormal image capture, item #76
+ophth-q0212	joined	ch4-q77	Normal and abnormal image capture, item #77
+ophth-q0213	joined	ch4-q78	Normal and abnormal image capture, item #78
+ophth-q0214	joined	ch4-q79	Normal and abnormal image capture, item #79
+ophth-q0215	joined	ch4-q80	Normal and abnormal image capture, item #80
+ophth-q0216	joined	ch4-q81	Normal and abnormal image capture, item #81
+ophth-q0217	joined	ch4-q82	Normal and abnormal image capture, item #82
+ophth-q0218	joined	ch4-q83	Normal and abnormal image capture, item #83
+ophth-q0219	joined	ch4-q84	Normal and abnormal image capture, item #84
+ophth-q0220	joined	ch4-q85	Normal and abnormal image capture, item #85
+ophth-q0221	joined	ch4-q86	Normal and abnormal image capture, item #86
+ophth-q0222	joined	ch4-q87	Normal and abnormal image capture, item #87
+ophth-q0223	joined	ch4-q88	Normal and abnormal image capture, item #88
+ophth-q0224	joined	ch4-q89	Normal and abnormal image capture, item #89
+ophth-q0225	joined	ch4-q90	Normal and abnormal image capture, item #90
+ophth-q0226	joined	ch4-q91	Normal and abnormal image capture, item #91
+ophth-q0227	joined	ch5-q1	Ocular motility in health and disease, item #1
+ophth-q0228	joined	ch5-q2	Ocular motility in health and disease, item #2
+ophth-q0229	joined	ch5-q3	Ocular motility in health and disease, item #3
+ophth-q0230	joined	ch5-q4	Ocular motility in health and disease, item #4
+ophth-q0231	joined	ch5-q5	Ocular motility in health and disease, item #5
+ophth-q0232	joined	ch5-q6	Ocular motility in health and disease, item #6
+ophth-q0233	joined	ch5-q7	Ocular motility in health and disease, item #7
+ophth-q0234	joined	ch5-q8	Ocular motility in health and disease, item #8
+ophth-q0235	joined	ch5-q9	Ocular motility in health and disease, item #9
+ophth-q0236	joined	ch5-q10	Ocular motility in health and disease, item #10
+ophth-q0237	joined	ch5-q11	Ocular motility in health and disease, item #11
+ophth-q0238	joined	ch5-q12	Ocular motility in health and disease, item #12
+ophth-q0239	joined	ch5-q13	Ocular motility in health and disease, item #13
+ophth-q0240	joined	ch5-q14	Ocular motility in health and disease, item #14
+ophth-q0241	joined	ch5-q15	Ocular motility in health and disease, item #15
+ophth-q0242	joined	ch5-q16	Ocular motility in health and disease, item #16
+ophth-q0243	joined	ch5-q17	Ocular motility in health and disease, item #17
+ophth-q0244	joined	ch5-q18	Ocular motility in health and disease, item #18
+ophth-q0245	joined	ch5-q19	Ocular motility in health and disease, item #19
+ophth-q0246	joined	ch5-q20	Ocular motility in health and disease, item #20
+ophth-q0247	joined	ch5-q21	Ocular motility in health and disease, item #21
+ophth-q0248	joined	ch5-q22	Ocular motility in health and disease, item #22
+ophth-q0249	joined	ch5-q23	Ocular motility in health and disease, item #23
+ophth-q0250	joined	ch5-q24	Ocular motility in health and disease, item #24
+ophth-q0251	joined	ch5-q25	Ocular motility in health and disease, item #25
+ophth-q0252	joined	ch5-q26	Ocular motility in health and disease, item #26
+ophth-q0253	joined	ch5-q27	Ocular motility in health and disease, item #27
+ophth-q0254	joined	ch5-q28	Ocular motility in health and disease, item #28
+ophth-q0255	joined	ch5-q29	Ocular motility in health and disease, item #29
+ophth-q0256	joined	ch5-q30	Ocular motility in health and disease, item #30
+ophth-q0257	joined	ch5-q31	Ocular motility in health and disease, item #31
+ophth-q0258	joined	ch5-q32	Ocular motility in health and disease, item #32
+ophth-q0259	joined	ch5-q33	Ocular motility in health and disease, item #33
+ophth-q0260	joined	ch5-q34	Ocular motility in health and disease, item #34
+ophth-q0261	joined	ch5-q35	Ocular motility in health and disease, item #35
+ophth-q0262	joined	ch5-q36	Ocular motility in health and disease, item #36
+ophth-q0263	joined	ch5-q37	Ocular motility in health and disease, item #37
+ophth-q0264	joined	ch5-q38	Ocular motility in health and disease, item #38
+ophth-q0265	joined	ch5-q39	Ocular motility in health and disease, item #39
+ophth-q0266	joined	ch5-q40	Ocular motility in health and disease, item #40
+ophth-q0267	joined	ch5-q41	Ocular motility in health and disease, item #41
+ophth-q0268	joined	ch5-q42	Ocular motility in health and disease, item #42
+ophth-q0269	joined	ch5-q43	Ocular motility in health and disease, item #43
+ophth-q0270	joined	ch5-q44	Ocular motility in health and disease, item #44
+ophth-q0271	joined	ch5-q45	Ocular motility in health and disease, item #45
+ophth-q0272	joined	ch5-q46	Ocular motility in health and disease, item #46
+ophth-q0273	joined	ch5-q47	Ocular motility in health and disease, item #47
+ophth-q0274	joined	ch5-q48	Ocular motility in health and disease, item #48
+ophth-q0275	joined	ch5-q49	Ocular motility in health and disease, item #49
+ophth-q0276	joined	ch5-q50	Ocular motility in health and disease, item #50
+ophth-q0277	joined	ch5-q51	Ocular motility in health and disease, item #51
+ophth-q0278	joined	ch5-q52	Ocular motility in health and disease, item #52
+ophth-q0279	joined	ch5-q53	Ocular motility in health and disease, item #53
+ophth-q0280	joined	ch5-q54	Ocular motility in health and disease, item #54
+ophth-q0281	joined	ch5-q55	Ocular motility in health and disease, item #55
+ophth-q0282	joined	ch5-q56	Ocular motility in health and disease, item #56
+ophth-q0283	joined	ch5-q57	Ocular motility in health and disease, item #57
+ophth-q0284	joined	ch5-q58	Ocular motility in health and disease, item #58
+ophth-q0285	joined	ch5-q59	Ocular motility in health and disease, item #59
+ophth-q0286	joined	ch5-q60	Ocular motility in health and disease, item #60
+ophth-q0287	joined	ch5-q61	Ocular motility in health and disease, item #61
+ophth-q0288	joined	ch5-q62	Ocular motility in health and disease, item #62
+ophth-q0289	joined	ch5-q63	Ocular motility in health and disease, item #63
+ophth-q0290	joined	ch6-q1	The Glaucomas, item #1
+ophth-q0291	joined	ch6-q2	The Glaucomas, item #2
+ophth-q0292	joined	ch6-q3	The Glaucomas, item #3
+ophth-q0293	joined	ch6-q4	The Glaucomas, item #4
+ophth-q0294	joined	ch6-q5	The Glaucomas, item #5
+ophth-q0295	joined	ch6-q6	The Glaucomas, item #6
+ophth-q0296	joined	ch6-q7	The Glaucomas, item #7
+ophth-q0297	joined	ch6-q8	The Glaucomas, item #8
+ophth-q0298	joined	ch6-q9	The Glaucomas, item #9
+ophth-q0299	joined	ch6-q10	The Glaucomas, item #10
+ophth-q0300	joined	ch6-q11	The Glaucomas, item #11
+ophth-q0301	joined	ch6-q12	The Glaucomas, item #12
+ophth-q0302	joined	ch6-q13	The Glaucomas, item #13
+ophth-q0303	joined	ch6-q14	The Glaucomas, item #14
+ophth-q0304	joined	ch6-q15	The Glaucomas, item #15
+ophth-q0305	joined	ch6-q16	The Glaucomas, item #16
+ophth-q0306	joined	ch6-q17	The Glaucomas, item #17
+ophth-q0307	joined	ch6-q18	The Glaucomas, item #18
+ophth-q0308	joined	ch6-q19	The Glaucomas, item #19
+ophth-q0309	joined	ch6-q20	The Glaucomas, item #20
+ophth-q0310	joined	ch6-q21	The Glaucomas, item #21
+ophth-q0311	joined	ch6-q22	The Glaucomas, item #22
+ophth-q0312	joined	ch6-q23	The Glaucomas, item #23
+ophth-q0313	joined	ch6-q24	The Glaucomas, item #24
+ophth-q0314	joined	ch6-q25	The Glaucomas, item #25
+ophth-q0315	joined	ch6-q26	The Glaucomas, item #26
+ophth-q0316	joined	ch6-q27	The Glaucomas, item #27
+ophth-q0317	joined	ch6-q28	The Glaucomas, item #28
+ophth-q0318	joined	ch6-q29	The Glaucomas, item #29
+ophth-q0319	joined	ch6-q30	The Glaucomas, item #30
+ophth-q0320	joined	ch6-q31	The Glaucomas, item #31
+ophth-q0321	joined	ch6-q32	The Glaucomas, item #32
+ophth-q0322	joined	ch6-q33	The Glaucomas, item #33
+ophth-q0323	joined	ch6-q34	The Glaucomas, item #34
+ophth-q0324	joined	ch6-q35	The Glaucomas, item #35
+ophth-q0325	unjoined-no-key	ch6-q36	The Glaucomas, item #36
+ophth-q0326	joined	ch6-q37	The Glaucomas, item #37
+ophth-q0327	joined	ch6-q38	The Glaucomas, item #38
+ophth-q0328	joined	ch6-q39	The Glaucomas, item #39
+ophth-q0329	joined	ch6-q40	The Glaucomas, item #40
+ophth-q0330	joined	ch6-q41	The Glaucomas, item #41
+ophth-q0331	joined	ch6-q42	The Glaucomas, item #42
+ophth-q0332	joined	ch6-q43	The Glaucomas, item #43
+ophth-q0333	joined	ch6-q44	The Glaucomas, item #44
+ophth-q0334	joined	ch6-q45	The Glaucomas, item #45
+ophth-q0335	joined	ch6-q46	The Glaucomas, item #46
+ophth-q0336	joined	ch6-q47	The Glaucomas, item #47
+ophth-q0337	joined	ch6-q48	The Glaucomas, item #48
+ophth-q0338	joined	ch6-q49	The Glaucomas, item #49
+ophth-q0339	joined	ch6-q50	The Glaucomas, item #50
+ophth-q0340	joined	ch6-q51	The Glaucomas, item #51
+ophth-q0341	joined	ch6-q52	The Glaucomas, item #52
+ophth-q0342	joined	ch6-q53	The Glaucomas, item #53
+ophth-q0343	joined	ch6-q54	The Glaucomas, item #54
+ophth-q0344	joined	ch6-q55	The Glaucomas, item #55
+ophth-q0345	joined	ch6-q56	The Glaucomas, item #56
+ophth-q0346	joined	ch6-q57	The Glaucomas, item #57
+ophth-q0347	joined	ch6-q58	The Glaucomas, item #58
+ophth-q0348	joined	ch6-q59	The Glaucomas, item #59
+ophth-q0349	joined	ch6-q60	The Glaucomas, item #60
+ophth-q0350	joined	ch6-q61	The Glaucomas, item #61
+ophth-q0351	joined	ch6-q62	The Glaucomas, item #62
+ophth-q0352	joined	ch6-q63	The Glaucomas, item #63
+ophth-q0353	joined	ch6-q64	The Glaucomas, item #64
+ophth-q0354	joined	ch6-q65	The Glaucomas, item #65
+ophth-q0355	joined	ch6-q66	The Glaucomas, item #66
+ophth-q0356	joined	ch6-q67	The Glaucomas, item #67
+ophth-q0357	joined	ch6-q68	The Glaucomas, item #68
+ophth-q0358	joined	ch6-q69	The Glaucomas, item #69
+ophth-q0359	joined	ch6-q70	The Glaucomas, item #70
+ophth-q0360	joined	ch6-q71	The Glaucomas, item #71
+ophth-q0361	joined	ch7-q1	The red eye, item #1
+ophth-q0362	joined	ch7-q2	The red eye, item #2
+ophth-q0363	joined	ch7-q3	The red eye, item #3
+ophth-q0364	joined	ch7-q4	The red eye, item #4
+ophth-q0365	joined	ch7-q5	The red eye, item #5
+ophth-q0366	joined	ch7-q6	The red eye, item #6
+ophth-q0367	joined	ch7-q7	The red eye, item #7
+ophth-q0368	joined	ch7-q8	The red eye, item #8
+ophth-q0369	joined	ch7-q9	The red eye, item #9
+ophth-q0370	joined	ch7-q10	The red eye, item #10
+ophth-q0371	joined	ch7-q11	The red eye, item #11
+ophth-q0372	joined	ch7-q12	The red eye, item #12
+ophth-q0373	joined	ch7-q13	The red eye, item #13
+ophth-q0374	joined	ch7-q14	The red eye, item #14
+ophth-q0375	joined	ch7-q15	The red eye, item #15
+ophth-q0376	joined	ch7-q16	The red eye, item #16
+ophth-q0377	joined	ch7-q17	The red eye, item #17
+ophth-q0378	joined	ch7-q18	The red eye, item #18
+ophth-q0379	joined	ch7-q19	The red eye, item #19
+ophth-q0380	joined	ch7-q20	The red eye, item #20
+ophth-q0381	joined	ch7-q21	The red eye, item #21
+ophth-q0382	joined	ch7-q22	The red eye, item #22
+ophth-q0383	joined	ch7-q23	The red eye, item #23
+ophth-q0384	joined	ch7-q24	The red eye, item #24
+ophth-q0385	joined	ch7-q25	The red eye, item #25
+ophth-q0386	joined	ch7-q26	The red eye, item #26
+ophth-q0387	joined	ch7-q27	The red eye, item #27
+ophth-q0388	joined	ch7-q28	The red eye, item #28
+ophth-q0389	joined	ch7-q29	The red eye, item #29
+ophth-q0390	joined	ch7-q30	The red eye, item #30
+ophth-q0391	joined	ch7-q31	The red eye, item #31
+ophth-q0392	joined	ch7-q32	The red eye, item #32
+ophth-q0393	joined	ch7-q33	The red eye, item #33
+ophth-q0394	joined	ch7-q34	The red eye, item #34
+ophth-q0395	joined	ch7-q35	The red eye, item #35
+ophth-q0396	joined	ch7-q36	The red eye, item #36
+ophth-q0397	joined	ch7-q37	The red eye, item #37
+ophth-q0398	joined	ch7-q38	The red eye, item #38
+ophth-q0399	joined	ch7-q39	The red eye, item #39
+ophth-q0400	joined	ch7-q40	The red eye, item #40
+ophth-q0401	joined	ch7-q41	The red eye, item #41
+ophth-q0402	joined	ch7-q42	The red eye, item #42
+ophth-q0403	joined	ch7-q43	The red eye, item #43
+ophth-q0404	joined	ch7-q44	The red eye, item #44
+ophth-q0405	joined	ch7-q45	The red eye, item #45
+ophth-q0406	joined	ch7-q46	The red eye, item #46
+ophth-q0407	joined	ch7-q47	The red eye, item #47
+ophth-q0408	joined	ch7-q48	The red eye, item #48
+ophth-q0409	joined	ch7-q49	The red eye, item #49
+ophth-q0410	joined	ch7-q50	The red eye, item #50
+ophth-q0411	joined	ch7-q51	The red eye, item #51
+ophth-q0412	joined	ch7-q52	The red eye, item #52
+ophth-q0413	joined	ch7-q53	The red eye, item #53
+ophth-q0414	joined	ch7-q54	The red eye, item #54
+ophth-q0415	joined	ch7-q55	The red eye, item #55
+ophth-q0416	joined	ch7-q56	The red eye, item #56
+ophth-q0417	joined	ch7-q57	The red eye, item #57
+ophth-q0418	joined	ch7-q58	The red eye, item #58
+ophth-q0419	unjoined-no-key	ch7-q59	The red eye, item #59
+ophth-q0420	joined	ch7-q60	The red eye, item #60
+ophth-q0421	joined	ch7-q61	The red eye, item #61
+ophth-q0422	joined	ch7-q62	The red eye, item #62
+ophth-q0423	unjoined-no-key	ch7-q63	The red eye, item #63
+ophth-q0424	joined	ch7-q64	The red eye, item #64
+ophth-q0425	joined	ch7-q65	The red eye, item #65
+ophth-q0426	joined	ch7-q66	The red eye, item #66
+ophth-q0427	joined	ch7-q67	The red eye, item #67
+ophth-q0428	joined	ch7-q68	The red eye, item #68
+ophth-q0429	joined	ch7-q69	The red eye, item #69
+ophth-q0430	joined	ch7-q70	The red eye, item #70
+ophth-q0431	joined	ch7-q71	The red eye, item #71
+ophth-q0432	unjoined-no-key	ch7-q72	The red eye, item #72
+ophth-q0433	joined	ch7-q73	The red eye, item #73
+ophth-q0434	joined	ch7-q74	The red eye, item #74
+ophth-q0435	joined	ch7-q75	The red eye, item #75
+ophth-q0436	unjoined-no-key	ch7-q76	The red eye, item #76
+ophth-q0437	joined	ch7-q77	The red eye, item #77
+ophth-q0438	joined	ch7-q78	The red eye, item #78
+ophth-q0439	joined	ch7-q79	The red eye, item #79
+ophth-q0440	joined	ch7-q80	The red eye, item #80
+ophth-q0441	joined	ch7-q81	The red eye, item #81
+ophth-q0442	joined	ch7-q82	The red eye, item #82
+ophth-q0443	joined	ch7-q83	The red eye, item #83
+ophth-q0444	joined	ch7-q85	The red eye, item #85
+ophth-q0445	joined	ch7-q86	The red eye, item #86
+ophth-q0446	joined	ch7-q87	The red eye, item #87
+ophth-q0447	joined	ch7-q88	The red eye, item #88
+ophth-q0448	joined	ch7-q89	The red eye, item #89
+ophth-q0449	joined	ch7-q90	The red eye, item #90
+ophth-q0450	joined	ch7-q91	The red eye, item #91
+ophth-q0451	joined	ch7-q92	The red eye, item #92
+ophth-q0452	joined	ch7-q93	The red eye, item #93
+ophth-q0453	joined	ch7-q94	The red eye, item #94
+ophth-q0454	joined	ch7-q95	The red eye, item #95
+ophth-q0455	joined	ch7-q96	The red eye, item #96
+ophth-q0456	joined	ch7-q97	The red eye, item #97
+ophth-q0457	joined	ch7-q98	The red eye, item #98
+ophth-q0458	joined	ch7-q99	The red eye, item #99
+ophth-q0459	joined	ch7-q100	The red eye, item #100
+ophth-q0460	joined	ch7-q101	The red eye, item #101
+ophth-q0461	joined	ch7-q102	The red eye, item #102
+ophth-q0462	joined	ch7-q103	The red eye, item #103
+ophth-q0463	joined	ch7-q104	The red eye, item #104
+ophth-q0464	joined	ch7-q105	The red eye, item #105
+ophth-q0465	joined	ch7-q106	The red eye, item #106
+ophth-q0466	joined	ch7-q107	The red eye, item #107
+ophth-q0467	joined	ch7-q108	The red eye, item #108
+ophth-q0468	joined	ch7-q109	The red eye, item #109
+ophth-q0469	joined	ch7-q110	The red eye, item #110
+ophth-q0470	joined	ch7-q111	The red eye, item #111
+ophth-q0471	joined	ch7-q112	The red eye, item #112
+ophth-q0472	joined	ch7-q113	The red eye, item #113
+ophth-q0473	joined	ch7-q114	The red eye, item #114
+ophth-q0474	joined	ch7-q115	The red eye, item #115
+ophth-q0475	joined	ch7-q116	The red eye, item #116
+ophth-q0476	joined	ch7-q117	The red eye, item #117
+ophth-q0477	joined	ch7-q118	The red eye, item #118
+ophth-q0478	joined	ch7-q119	The red eye, item #119
+ophth-q0479	joined	ch7-q120	The red eye, item #120
+ophth-q0480	joined	ch7-q121	The red eye, item #121
+ophth-q0481	joined	ch7-q122	The red eye, item #122
+ophth-q0482	joined	ch7-q123	The red eye, item #123
+ophth-q0483	joined	ch7-q124	The red eye, item #124
+ophth-q0484	joined	ch7-q125	The red eye, item #125
+ophth-q0485	joined	ch7-q126	The red eye, item #126
+ophth-q0486	joined	ch7-q127	The red eye, item #127
+ophth-q0487	joined	ch7-q128	The red eye, item #128
+ophth-q0488	joined	ch7-q129	The red eye, item #129
+ophth-q0489	joined	ch7-q130	The red eye, item #130
+ophth-q0490	joined	ch7-q131	The red eye, item #131
+ophth-q0491	joined	ch7-q132	The red eye, item #132
+ophth-q0492	joined	ch7-q133	The red eye, item #133
+ophth-q0493	joined	ch7-q134	The red eye, item #134
+ophth-q0494	joined	ch7-q135	The red eye, item #135
+ophth-q0495	joined	ch7-q136	The red eye, item #136
+ophth-q0496	joined	ch7-q137	The red eye, item #137
+ophth-q0497	joined	ch7-q138	The red eye, item #138
+ophth-q0498	joined	ch7-q139	The red eye, item #139
+ophth-q0499	joined	ch7-q140	The red eye, item #140
+ophth-q0500	joined	ch7-q141	The red eye, item #141
+ophth-q0501	joined	ch7-q142	The red eye, item #142
+ophth-q0502	joined	ch7-q143	The red eye, item #143
+ophth-q0503	joined	ch7-q144	The red eye, item #144
+ophth-q0504	joined	ch7-q145	The red eye, item #145
+ophth-q0505	joined	ch7-q146	The red eye, item #146
+ophth-q0506	joined	ch7-q147	The red eye, item #147
+ophth-q0507	joined	ch7-q148	The red eye, item #148
+ophth-q0508	joined	ch7-q149	The red eye, item #149
+ophth-q0509	joined	ch7-q150	The red eye, item #150
+ophth-q0510	joined	ch7-q151	The red eye, item #151
+ophth-q0511	joined	ch7-q152	The red eye, item #152
+ophth-q0512	joined	ch7-q153	The red eye, item #153
+ophth-q0513	joined	ch7-q154	The red eye, item #154
+ophth-q0514	joined	ch7-q155	The red eye, item #155
+ophth-q0515	joined	ch7-q156	The red eye, item #156
+ophth-q0516	joined	ch7-q157	The red eye, item #157
+ophth-q0517	joined	ch7-q158	The red eye, item #158
+ophth-q0518	joined	ch7-q159	The red eye, item #159
+ophth-q0519	joined	ch7-q160	The red eye, item #160
+ophth-q0520	joined	ch7-q161	The red eye, item #161
+ophth-q0521	joined	ch7-q162	The red eye, item #162
+ophth-q0522	joined	ch7-q163	The red eye, item #163
+ophth-q0523	joined	ch7-q164	The red eye, item #164
+ophth-q0524	joined	ch7-q165	The red eye, item #165
+ophth-q0525	joined	ch7-q166	The red eye, item #166
+ophth-q0526	joined	ch7-q167	The red eye, item #167
+ophth-q0527	joined	ch7-q168	The red eye, item #168
+ophth-q0528	joined	ch7-q169	The red eye, item #169
+ophth-q0529	joined	ch7-q170	The red eye, item #170
+ophth-q0530	joined	ch7-q171	The red eye, item #171
+ophth-q0531	unjoined-no-key	ch7-q172	The red eye, item #172
+ophth-q0532	joined	ch7-q173	The red eye, item #173
+ophth-q0533	joined	ch7-q174	The red eye, item #174
+ophth-q0534	joined	ch7-q175	The red eye, item #175
+ophth-q0535	joined	ch7-q176	The red eye, item #176
+ophth-q0536	joined	ch7-q177	The red eye, item #177
+ophth-q0537	joined	ch7-q178	The red eye, item #178
+ophth-q0538	joined	ch7-q179	The red eye, item #179
+ophth-q0539	joined	ch7-q180	The red eye, item #180
+ophth-q0540	joined	ch7-q181	The red eye, item #181
+ophth-q0541	joined	ch7-q182	The red eye, item #182
+ophth-q0542	joined	ch7-q183	The red eye, item #183
+ophth-q0543	joined	ch7-q184	The red eye, item #184
+ophth-q0544	joined	ch7-q185	The red eye, item #185
+ophth-q0545	joined	ch7-q186	The red eye, item #186
+ophth-q0546	joined	ch7-q187	The red eye, item #187
+ophth-q0547	joined	ch7-q188	The red eye, item #188
+ophth-q0548	joined	ch7-q189	The red eye, item #189
+ophth-q0549	joined	ch7-q190	The red eye, item #190
+ophth-q0550	joined	ch7-q191	The red eye, item #191
+ophth-q0551	joined	ch7-q192	The red eye, item #192
+ophth-q0552	joined	ch7-q193	The red eye, item #193
+ophth-q0553	joined	ch7-q194	The red eye, item #194
+ophth-q0554	joined	ch7-q195	The red eye, item #195
+ophth-q0555	joined	ch7-q196	The red eye, item #196
+ophth-q0556	joined	ch7-q197	The red eye, item #197
+ophth-q0557	joined	ch7-q198	The red eye, item #198
+ophth-q0558	joined	ch7-q199	The red eye, item #199
+ophth-q0559	joined	ch7-q200	The red eye, item #200
+ophth-q0560	joined	ch7-q201	The red eye, item #201
+ophth-q0561	joined	ch7-q202	The red eye, item #202
+ophth-q0562	joined	ch7-q203	The red eye, item #203
+ophth-q0563	joined	ch7-q204	The red eye, item #204
+ophth-q0564	joined	ch8-q1	The retina: function and diseases, item #1
+ophth-q0565	joined	ch8-q2	The retina: function and diseases, item #2
+ophth-q0566	joined	ch8-q3	The retina: function and diseases, item #3
+ophth-q0567	joined	ch8-q4	The retina: function and diseases, item #4
+ophth-q0568	joined	ch8-q5	The retina: function and diseases, item #5
+ophth-q0569	joined	ch8-q6	The retina: function and diseases, item #6
+ophth-q0570	joined	ch8-q7	The retina: function and diseases, item #7
+ophth-q0571	joined	ch8-q8	The retina: function and diseases, item #8
+ophth-q0572	joined	ch8-q9	The retina: function and diseases, item #9
+ophth-q0573	joined	ch8-q10	The retina: function and diseases, item #10
+ophth-q0574	joined	ch8-q11	The retina: function and diseases, item #11
+ophth-q0575	joined	ch8-q12	The retina: function and diseases, item #12
+ophth-q0576	joined	ch8-q13	The retina: function and diseases, item #13
+ophth-q0577	unjoined-no-key	ch8-q14	The retina: function and diseases, item #14
+ophth-q0578	joined	ch8-q15	The retina: function and diseases, item #15
+ophth-q0579	joined	ch8-q16	The retina: function and diseases, item #16
+ophth-q0580	joined	ch8-q17	The retina: function and diseases, item #17
+ophth-q0581	joined	ch8-q18	The retina: function and diseases, item #18
+ophth-q0582	joined	ch8-q19	The retina: function and diseases, item #19
+ophth-q0583	joined	ch8-q20	The retina: function and diseases, item #20
+ophth-q0584	joined	ch8-q21	The retina: function and diseases, item #21
+ophth-q0585	joined	ch8-q22	The retina: function and diseases, item #22
+ophth-q0586	joined	ch8-q23	The retina: function and diseases, item #23
+ophth-q0587	joined	ch8-q24	The retina: function and diseases, item #24
+ophth-q0588	joined	ch8-q25	The retina: function and diseases, item #25
+ophth-q0589	joined	ch8-q26	The retina: function and diseases, item #26
+ophth-q0590	joined	ch8-q27	The retina: function and diseases, item #27
+ophth-q0591	joined	ch8-q28	The retina: function and diseases, item #28
+ophth-q0592	joined	ch8-q29	The retina: function and diseases, item #29
+ophth-q0593	joined	ch8-q30	The retina: function and diseases, item #30
+ophth-q0594	joined	ch8-q31	The retina: function and diseases, item #31
+ophth-q0595	joined	ch8-q32	The retina: function and diseases, item #32
+ophth-q0596	joined	ch8-q33	The retina: function and diseases, item #33
+ophth-q0597	joined	ch8-q34	The retina: function and diseases, item #34
+ophth-q0598	joined	ch8-q35	The retina: function and diseases, item #35
+ophth-q0599	joined	ch8-q36	The retina: function and diseases, item #36
+ophth-q0600	joined	ch8-q37	The retina: function and diseases, item #37
+ophth-q0601	joined	ch8-q38	The retina: function and diseases, item #38
+ophth-q0602	unjoined-no-key	ch8-q39	The retina: function and diseases, item #39
+ophth-q0603	joined	ch8-q40	The retina: function and diseases, item #40
+ophth-q0604	joined	ch8-q41	The retina: function and diseases, item #41
+ophth-q0605	joined	ch8-q42	The retina: function and diseases, item #42
+ophth-q0606	joined	ch8-q43	The retina: function and diseases, item #43
+ophth-q0607	joined	ch8-q44	The retina: function and diseases, item #44
+ophth-q0608	joined	ch8-q45	The retina: function and diseases, item #45
+ophth-q0609	joined	ch8-q46	The retina: function and diseases, item #46
+ophth-q0610	joined	ch8-q47	The retina: function and diseases, item #47
+ophth-q0611	joined	ch8-q48	The retina: function and diseases, item #48
+ophth-q0612	joined	ch8-q49	The retina: function and diseases, item #49
+ophth-q0613	joined	ch8-q50	The retina: function and diseases, item #50
+ophth-q0614	joined	ch8-q51	The retina: function and diseases, item #51
+ophth-q0615	joined	ch8-q52	The retina: function and diseases, item #52
+ophth-q0616	joined	ch8-q53	The retina: function and diseases, item #53
+ophth-q0617	joined	ch8-q54	The retina: function and diseases, item #54
+ophth-q0618	joined	ch8-q55	The retina: function and diseases, item #55
+ophth-q0619	joined	ch8-q56	The retina: function and diseases, item #56
+ophth-q0620	joined	ch8-q57	The retina: function and diseases, item #57
+ophth-q0621	joined	ch8-q58	The retina: function and diseases, item #58
+ophth-q0622	joined	ch8-q59	The retina: function and diseases, item #59
+ophth-q0623	joined	ch8-q60	The retina: function and diseases, item #60
+ophth-q0624	joined	ch8-q61	The retina: function and diseases, item #61
+ophth-q0625	joined	ch8-q62	The retina: function and diseases, item #62
+ophth-q0626	joined	ch8-q63	The retina: function and diseases, item #63
+ophth-q0627	joined	ch8-q64	The retina: function and diseases, item #64
+ophth-q0628	joined	ch8-q65	The retina: function and diseases, item #65
+ophth-q0629	joined	ch8-q66	The retina: function and diseases, item #66
+ophth-q0630	joined	ch8-q67	The retina: function and diseases, item #67
+ophth-q0631	joined	ch8-q68	The retina: function and diseases, item #68
+ophth-q0632	joined	ch8-q69	The retina: function and diseases, item #69
+ophth-q0633	joined	ch8-q70	The retina: function and diseases, item #70
+ophth-q0634	joined	ch8-q71	The retina: function and diseases, item #71
+ophth-q0635	joined	ch8-q72	The retina: function and diseases, item #72
+ophth-q0636	joined	ch8-q73	The retina: function and diseases, item #73
+ophth-q0637	joined	ch8-q74	The retina: function and diseases, item #74
+ophth-q0638	joined	ch8-q75	The retina: function and diseases, item #75
+ophth-q0639	joined	ch8-q76	The retina: function and diseases, item #76
+ophth-q0640	joined	ch8-q77	The retina: function and diseases, item #77
+ophth-q0641	joined	ch8-q78	The retina: function and diseases, item #78
+ophth-q0642	joined	ch8-q79	The retina: function and diseases, item #79
+ophth-q0643	joined	ch8-q80	The retina: function and diseases, item #80
+ophth-q0644	joined	ch8-q81	The retina: function and diseases, item #81
+ophth-q0645	joined	ch8-q82	The retina: function and diseases, item #82
+ophth-q0646	joined	ch8-q83	The retina: function and diseases, item #83
+ophth-q0647	joined	ch8-q84	The retina: function and diseases, item #84
+ophth-q0648	joined	ch8-q85	The retina: function and diseases, item #85
+ophth-q0649	joined	ch8-q86	The retina: function and diseases, item #86
+ophth-q0650	joined	ch8-q87	The retina: function and diseases, item #87
+ophth-q0651	joined	ch8-q88	The retina: function and diseases, item #88
+ophth-q0652	joined	ch8-q89	The retina: function and diseases, item #89
+ophth-q0653	joined	ch8-q90	The retina: function and diseases, item #90
+ophth-q0654	joined	ch9-q1	The eye and the brain, item #1
+ophth-q0655	joined	ch9-q2	The eye and the brain, item #2
+ophth-q0656	joined	ch9-q3	The eye and the brain, item #3
+ophth-q0657	joined	ch9-q4	The eye and the brain, item #4
+ophth-q0658	joined	ch9-q5	The eye and the brain, item #5
+ophth-q0659	joined	ch9-q6	The eye and the brain, item #6
+ophth-q0660	joined	ch9-q7	The eye and the brain, item #7
+ophth-q0661	joined	ch9-q8	The eye and the brain, item #8
+ophth-q0662	joined	ch9-q9	The eye and the brain, item #9
+ophth-q0663	joined	ch9-q10	The eye and the brain, item #10
+ophth-q0664	joined	ch9-q11	The eye and the brain, item #11
+ophth-q0665	joined	ch9-q12	The eye and the brain, item #12
+ophth-q0666	joined	ch9-q13	The eye and the brain, item #13
+ophth-q0667	joined	ch9-q14	The eye and the brain, item #14
+ophth-q0668	joined	ch9-q15	The eye and the brain, item #15
+ophth-q0669	joined	ch9-q16	The eye and the brain, item #16
+ophth-q0670	joined	ch9-q17	The eye and the brain, item #17
+ophth-q0671	joined	ch9-q18	The eye and the brain, item #18
+ophth-q0672	joined	ch9-q19	The eye and the brain, item #19
+ophth-q0673	joined	ch9-q20	The eye and the brain, item #20
+ophth-q0674	joined	ch9-q21	The eye and the brain, item #21
+ophth-q0675	joined	ch9-q22	The eye and the brain, item #22
+ophth-q0676	joined	ch9-q23	The eye and the brain, item #23
+ophth-q0677	joined	ch9-q24	The eye and the brain, item #24
+ophth-q0678	joined	ch9-q25	The eye and the brain, item #25
+ophth-q0679	joined	ch9-q26	The eye and the brain, item #26
+ophth-q0680	joined	ch9-q27	The eye and the brain, item #27
+ophth-q0681	joined	ch9-q28	The eye and the brain, item #28
+ophth-q0682	joined	ch9-q29	The eye and the brain, item #29
+ophth-q0683	joined	ch9-q30	The eye and the brain, item #30
+ophth-q0684	joined	ch9-q31	The eye and the brain, item #31
+ophth-q0685	joined	ch9-q32	The eye and the brain, item #32
+ophth-q0686	joined	ch9-q33	The eye and the brain, item #33
+ophth-q0687	joined	ch9-q34	The eye and the brain, item #34
+ophth-q0688	joined	ch9-q35	The eye and the brain, item #35
+ophth-q0689	joined	ch9-q36	The eye and the brain, item #36
+ophth-q0690	joined	ch9-q37	The eye and the brain, item #37
+ophth-q0691	joined	ch9-q38	The eye and the brain, item #38
+ophth-q0692	joined	ch9-q39	The eye and the brain, item #39
+ophth-q0693	joined	ch9-q40	The eye and the brain, item #40
+ophth-q0694	joined	ch9-q41	The eye and the brain, item #41
+ophth-q0695	joined	ch9-q42	The eye and the brain, item #42
+ophth-q0696	joined	ch9-q43	The eye and the brain, item #43
+ophth-q0697	joined	ch9-q44	The eye and the brain, item #44
+ophth-q0698	unjoined-no-key	ch9-q45	The eye and the brain, item #45
+ophth-q0699	joined	ch9-q46	The eye and the brain, item #46
+ophth-q0700	joined	ch9-q47	The eye and the brain, item #47
+ophth-q0701	joined	ch9-q48	The eye and the brain, item #48
+ophth-q0702	joined	ch9-q49	The eye and the brain, item #49
+ophth-q0703	joined	ch9-q50	The eye and the brain, item #50
+ophth-q0704	joined	ch9-q51	The eye and the brain, item #51
+ophth-q0705	joined	ch9-q52	The eye and the brain, item #52
+ophth-q0706	joined	ch9-q53	The eye and the brain, item #53
+ophth-q0707	joined	ch9-q54	The eye and the brain, item #54
+ophth-q0708	joined	ch9-q55	The eye and the brain, item #55
+ophth-q0709	joined	ch9-q56	The eye and the brain, item #56
+ophth-q0710	joined	ch9-q57	The eye and the brain, item #57
+ophth-q0711	joined	ch9-q58	The eye and the brain, item #58
+ophth-q0712	joined	ch9-q59	The eye and the brain, item #59
+ophth-q0713	joined	ch9-q60	The eye and the brain, item #60
+ophth-q0714	joined	ch9-q61	The eye and the brain, item #61
+ophth-q0715	joined	ch9-q62	The eye and the brain, item #62
+ophth-q0716	joined	ch9-q63	The eye and the brain, item #63
+ophth-q0717	joined	ch9-q64	The eye and the brain, item #64
+ophth-q0718	joined	ch9-q65	The eye and the brain, item #65
+ophth-q0719	joined	ch9-q66	The eye and the brain, item #66
+ophth-q0720	joined	ch9-q67	The eye and the brain, item #67
+ophth-q0721	joined	ch9-q68	The eye and the brain, item #68
+ophth-q0722	joined	ch9-q69	The eye and the brain, item #69
+ophth-q0723	joined	ch9-q70	The eye and the brain, item #70
+ophth-q0724	joined	ch9-q71	The eye and the brain, item #71
+ophth-q0725	joined	ch9-q72	The eye and the brain, item #72
+ophth-q0726	joined	ch9-q73	The eye and the brain, item #73
+ophth-q0727	joined	ch10-q1	Eye diseases in infancy and early childhood, item #1
+ophth-q0728	joined	ch10-q2	Eye diseases in infancy and early childhood, item #2
+ophth-q0729	joined	ch10-q3	Eye diseases in infancy and early childhood, item #3
+ophth-q0730	joined	ch10-q4	Eye diseases in infancy and early childhood, item #4
+ophth-q0731	joined	ch10-q5	Eye diseases in infancy and early childhood, item #5
+ophth-q0732	joined	ch10-q6	Eye diseases in infancy and early childhood, item #6
+ophth-q0733	joined	ch10-q7	Eye diseases in infancy and early childhood, item #7
+ophth-q0734	joined	ch10-q8	Eye diseases in infancy and early childhood, item #8
+ophth-q0735	joined	ch10-q9	Eye diseases in infancy and early childhood, item #9
+ophth-q0736	joined	ch10-q10	Eye diseases in infancy and early childhood, item #10
+ophth-q0737	joined	ch10-q11	Eye diseases in infancy and early childhood, item #11
+ophth-q0738	joined	ch10-q12	Eye diseases in infancy and early childhood, item #12
+ophth-q0739	joined	ch10-q13	Eye diseases in infancy and early childhood, item #13
+ophth-q0740	joined	ch10-q14	Eye diseases in infancy and early childhood, item #14
+ophth-q0741	joined	ch10-q15	Eye diseases in infancy and early childhood, item #15
+ophth-q0742	joined	ch10-q16	Eye diseases in infancy and early childhood, item #16
+ophth-q0743	joined	ch10-q17	Eye diseases in infancy and early childhood, item #17
+ophth-q0744	unjoined-no-key	ch10-q18	Eye diseases in infancy and early childhood, item #18
+ophth-q0745	joined	ch10-q19	Eye diseases in infancy and early childhood, item #19
+ophth-q0746	joined	ch10-q20	Eye diseases in infancy and early childhood, item #20
+ophth-q0747	joined	ch10-q21	Eye diseases in infancy and early childhood, item #21
+ophth-q0748	joined	ch10-q22	Eye diseases in infancy and early childhood, item #22
+ophth-q0749	joined	ch10-q23	Eye diseases in infancy and early childhood, item #23
+ophth-q0750	joined	ch10-q24	Eye diseases in infancy and early childhood, item #24
+ophth-q0751	joined	ch10-q25	Eye diseases in infancy and early childhood, item #25
+ophth-q0752	joined	ch10-q26	Eye diseases in infancy and early childhood, item #26
+ophth-q0753	joined	ch10-q27	Eye diseases in infancy and early childhood, item #27
+ophth-q0754	joined	ch10-q28	Eye diseases in infancy and early childhood, item #28
+ophth-q0755	joined	ch10-q29	Eye diseases in infancy and early childhood, item #29
+ophth-q0756	joined	ch10-q30	Eye diseases in infancy and early childhood, item #30
+ophth-q0757	joined	ch10-q31	Eye diseases in infancy and early childhood, item #31
+ophth-q0758	joined	ch10-q32	Eye diseases in infancy and early childhood, item #32
+ophth-q0759	joined	ch10-q33	Eye diseases in infancy and early childhood, item #33
+ophth-q0760	joined	ch10-q34	Eye diseases in infancy and early childhood, item #34
+ophth-q0761	joined	ch10-q35	Eye diseases in infancy and early childhood, item #35
+ophth-q0762	joined	ch10-q36	Eye diseases in infancy and early childhood, item #36
+ophth-q0763	joined	ch10-q37	Eye diseases in infancy and early childhood, item #37
+ophth-q0764	joined	ch10-q38	Eye diseases in infancy and early childhood, item #38
+ophth-q0765	joined	ch10-q39	Eye diseases in infancy and early childhood, item #39
+ophth-q0766	joined	ch10-q40	Eye diseases in infancy and early childhood, item #40
+ophth-q0767	unjoined-no-key	ch10-q41	Eye diseases in infancy and early childhood, item #41
+ophth-q0768	joined	ch10-q42	Eye diseases in infancy and early childhood, item #42
+ophth-q0769	joined	ch10-q43	Eye diseases in infancy and early childhood, item #43
+ophth-q0770	joined	ch10-q44	Eye diseases in infancy and early childhood, item #44
+ophth-q0771	joined	ch10-q45	Eye diseases in infancy and early childhood, item #45
+ophth-q0772	joined	ch10-q46	Eye diseases in infancy and early childhood, item #46
+ophth-q0773	joined	ch10-q47	Eye diseases in infancy and early childhood, item #47
+ophth-q0774	joined	ch10-q48	Eye diseases in infancy and early childhood, item #48
+ophth-q0775	joined	ch10-q49	Eye diseases in infancy and early childhood, item #49
+ophth-q0776	joined	ch10-q50	Eye diseases in infancy and early childhood, item #50
+ophth-q0777	joined	ch10-q51	Eye diseases in infancy and early childhood, item #51
+ophth-q0778	unjoined-no-key	ch10-q52	Eye diseases in infancy and early childhood, item #52
+ophth-q0779	joined	ch10-q53	Eye diseases in infancy and early childhood, item #53
+ophth-q0780	joined	ch10-q54	Eye diseases in infancy and early childhood, item #54
+ophth-q0781	joined	ch10-q55	Eye diseases in infancy and early childhood, item #55
+ophth-q0782	joined	ch10-q56	Eye diseases in infancy and early childhood, item #56
+ophth-q0783	joined	ch10-q57	Eye diseases in infancy and early childhood, item #57
+ophth-q0784	joined	ch10-q58	Eye diseases in infancy and early childhood, item #58
+ophth-q0785	joined	ch10-q59	Eye diseases in infancy and early childhood, item #59
+ophth-q0786	joined	ch10-q60	Eye diseases in infancy and early childhood, item #60
+ophth-q0787	joined	ch11-q1	The eye in systemic diseases, item #1
+ophth-q0788	joined	ch11-q2	The eye in systemic diseases, item #2
+ophth-q0789	joined	ch11-q3	The eye in systemic diseases, item #3
+ophth-q0790	joined	ch11-q4	The eye in systemic diseases, item #4
+ophth-q0791	joined	ch11-q6	The eye in systemic diseases, item #6
+ophth-q0792	joined	ch11-q7	The eye in systemic diseases, item #7
+ophth-q0793	joined	ch11-q8	The eye in systemic diseases, item #8
+ophth-q0794	joined	ch11-q9	The eye in systemic diseases, item #9
+ophth-q0795	joined	ch11-q10	The eye in systemic diseases, item #10
+ophth-q0796	joined	ch11-q11	The eye in systemic diseases, item #11
+ophth-q0797	joined	ch11-q12	The eye in systemic diseases, item #12
+ophth-q0798	joined	ch11-q13	The eye in systemic diseases, item #13
+ophth-q0799	joined	ch11-q14	The eye in systemic diseases, item #14
+ophth-q0800	joined	ch11-q15	The eye in systemic diseases, item #15
+ophth-q0801	joined	ch11-q16	The eye in systemic diseases, item #16
+ophth-q0802	joined	ch11-q17	The eye in systemic diseases, item #17
+ophth-q0803	joined	ch11-q18	The eye in systemic diseases, item #18
+ophth-q0804	joined	ch11-q19	The eye in systemic diseases, item #19
+ophth-q0805	joined	ch11-q20	The eye in systemic diseases, item #20
+ophth-q0806	joined	ch11-q21	The eye in systemic diseases, item #21
+ophth-q0807	joined	ch11-q22	The eye in systemic diseases, item #22
+ophth-q0808	joined	ch11-q23	The eye in systemic diseases, item #23
+ophth-q0809	joined	ch11-q24	The eye in systemic diseases, item #24
+ophth-q0810	joined	ch11-q25	The eye in systemic diseases, item #25
+ophth-q0811	joined	ch11-q26	The eye in systemic diseases, item #26
+ophth-q0812	joined	ch11-q27	The eye in systemic diseases, item #27
+ophth-q0813	joined	ch11-q28	The eye in systemic diseases, item #28
+ophth-q0814	joined	ch11-q29	The eye in systemic diseases, item #29
+ophth-q0815	joined	ch11-q30	The eye in systemic diseases, item #30
+ophth-q0816	joined	ch11-q31	The eye in systemic diseases, item #31
+ophth-q0817	joined	ch11-q32	The eye in systemic diseases, item #32
+ophth-q0818	joined	ch11-q33	The eye in systemic diseases, item #33
+ophth-q0819	joined	ch11-q34	The eye in systemic diseases, item #34
+ophth-q0820	joined	ch11-q35	The eye in systemic diseases, item #35
+ophth-q0821	joined	ch11-q36	The eye in systemic diseases, item #36
+ophth-q0822	joined	ch11-q37	The eye in systemic diseases, item #37
+ophth-q0823	joined	ch11-q38	The eye in systemic diseases, item #38
+ophth-q0824	unjoined-no-key	ch11-q39	The eye in systemic diseases, item #39
+ophth-q0825	joined	ch11-q40	The eye in systemic diseases, item #40
+ophth-q0826	joined	ch11-q41	The eye in systemic diseases, item #41
+ophth-q0827	unjoined-no-key	ch11-q42	The eye in systemic diseases, item #42
+ophth-q0828	joined	ch11-q43	The eye in systemic diseases, item #43
+ophth-q0829	unjoined-no-key	ch11-q44	The eye in systemic diseases, item #44
+ophth-q0830	joined	ch12-q1	Ocular and orbital injuries, item #1
+ophth-q0831	joined	ch12-q2	Ocular and orbital injuries, item #2
+ophth-q0832	joined	ch12-q3	Ocular and orbital injuries, item #3
+ophth-q0833	joined	ch12-q4	Ocular and orbital injuries, item #4
+ophth-q0834	joined	ch12-q5	Ocular and orbital injuries, item #5
+ophth-q0835	joined	ch12-q6	Ocular and orbital injuries, item #6
+ophth-q0836	joined	ch12-q7	Ocular and orbital injuries, item #7
+ophth-q0837	joined	ch12-q8	Ocular and orbital injuries, item #8
+ophth-q0838	joined	ch12-q9	Ocular and orbital injuries, item #9
+ophth-q0839	joined	ch12-q10	Ocular and orbital injuries, item #10
+ophth-q0840	joined	ch12-q11	Ocular and orbital injuries, item #11
+ophth-q0841	joined	ch12-q12	Ocular and orbital injuries, item #12
+ophth-q0842	joined	ch12-q13	Ocular and orbital injuries, item #13
+ophth-q0843	joined	ch12-q14	Ocular and orbital injuries, item #14
+ophth-q0844	joined	ch12-q15	Ocular and orbital injuries, item #15
+ophth-q0845	joined	ch12-q16	Ocular and orbital injuries, item #16
+ophth-q0846	joined	ch12-q17	Ocular and orbital injuries, item #17
+ophth-q0847	joined	ch12-q18	Ocular and orbital injuries, item #18
+ophth-q0848	joined	ch12-q19	Ocular and orbital injuries, item #19
+ophth-q0849	joined	ch12-q20	Ocular and orbital injuries, item #20
+ophth-q0850	joined	ch12-q21	Ocular and orbital injuries, item #21
+ophth-q0851	joined	ch12-q22	Ocular and orbital injuries, item #22
+ophth-q0852	joined	ch12-q23	Ocular and orbital injuries, item #23
+ophth-q0853	joined	ch12-q24	Ocular and orbital injuries, item #24
+ophth-q0854	joined	ch12-q25	Ocular and orbital injuries, item #25
+ophth-q0855	joined	ch12-q26	Ocular and orbital injuries, item #26
+ophth-q0856	joined	ch12-q27	Ocular and orbital injuries, item #27
+ophth-q0857	joined	ch12-q28	Ocular and orbital injuries, item #28
+ophth-q0858	joined	ch12-q29	Ocular and orbital injuries, item #29
+ophth-q0859	joined	ch12-q30	Ocular and orbital injuries, item #30
+ophth-q0860	joined	ch12-q31	Ocular and orbital injuries, item #31
+ophth-q0861	joined	ch12-q32	Ocular and orbital injuries, item #32
+ophth-q0862	joined	ch12-q33	Ocular and orbital injuries, item #33
+ophth-q0863	joined	ch12-q34	Ocular and orbital injuries, item #34
+ophth-q0864	joined	ch12-q35	Ocular and orbital injuries, item #35
+ophth-q0865	joined	ch12-q36	Ocular and orbital injuries, item #36
+ophth-q0866	joined	ch12-q37	Ocular and orbital injuries, item #37
+ophth-q0867	joined	ch12-q38	Ocular and orbital injuries, item #38
+ophth-q0868	joined	ch12-q39	Ocular and orbital injuries, item #39
+ophth-q0869	joined	ch12-q40	Ocular and orbital injuries, item #40
+ophth-q0870	joined	ch12-q41	Ocular and orbital injuries, item #41
+ophth-q0871	joined	ch12-q42	Ocular and orbital injuries, item #42
+ophth-q0872	joined	ch12-q43	Ocular and orbital injuries, item #43
+ophth-q0873	joined	ch12-q44	Ocular and orbital injuries, item #44
+ophth-q0874	joined	ch12-q45	Ocular and orbital injuries, item #45
+ophth-q0875	joined	ch12-q46	Ocular and orbital injuries, item #46
+ophth-q0876	joined	ch12-q47	Ocular and orbital injuries, item #47
+ophth-q0877	joined	ch12-q48	Ocular and orbital injuries, item #48
+ophth-q0878	joined	ch12-q49	Ocular and orbital injuries, item #49
+ophth-q0879	joined	ch12-q50	Ocular and orbital injuries, item #50
+ophth-q0880	joined	ch12-q51	Ocular and orbital injuries, item #51
+ophth-q0881	joined	ch12-q52	Ocular and orbital injuries, item #52
+ophth-q0882	joined	ch12-q53	Ocular and orbital injuries, item #53
+ophth-q0883	joined	ch12-q54	Ocular and orbital injuries, item #54
+ophth-q0884	joined	ch12-q55	Ocular and orbital injuries, item #55
+ophth-q0885	joined	ch12-q56	Ocular and orbital injuries, item #56
+ophth-q0886	joined	ch12-q57	Ocular and orbital injuries, item #57
+ophth-q0887	joined	ch12-q58	Ocular and orbital injuries, item #58
+ophth-q0888	joined	ch12-q59	Ocular and orbital injuries, item #59
+ophth-q0889	joined	ch12-q60	Ocular and orbital injuries, item #60
+ophth-q0890	joined	ch12-q61	Ocular and orbital injuries, item #61
+ophth-q0891	joined	ch12-q62	Ocular and orbital injuries, item #62
+ophth-q0892	joined	ch12-q63	Ocular and orbital injuries, item #63
+ophth-q0893	joined	ch12-q64	Ocular and orbital injuries, item #64
+ophth-q0894	joined	ch12-q65	Ocular and orbital injuries, item #65
+ophth-q0895	joined	ch12-q66	Ocular and orbital injuries, item #66
+ophth-q0896	joined	ch12-q67	Ocular and orbital injuries, item #67
+ophth-q0897	joined	ch12-q68	Ocular and orbital injuries, item #68
+ophth-q0898	joined	ch12-q69	Ocular and orbital injuries, item #69
+ophth-q0899	joined	ch12-q70	Ocular and orbital injuries, item #70
+ophth-q0900	joined	ch12-q71	Ocular and orbital injuries, item #71
+ophth-q0901	joined	ch12-q72	Ocular and orbital injuries, item #72
+ophth-q0902	joined	ch12-q73	Ocular and orbital injuries, item #73
+ophth-q0903	unjoined-no-key	ch12-q74	Ocular and orbital injuries, item #74
+ophth-q0904	joined	ch12-q75	Ocular and orbital injuries, item #75
+ophth-q0905	joined	ch12-q76	Ocular and orbital injuries, item #76
+ophth-q0906	joined	ch12-q77	Ocular and orbital injuries, item #77
+ophth-q0907	joined	ch12-q78	Ocular and orbital injuries, item #78
+ophth-q0908	joined	ch12-q79	Ocular and orbital injuries, item #79
+ophth-q0909	joined	ch12-q80	Ocular and orbital injuries, item #80
+ophth-q0910	joined	ch12-q81	Ocular and orbital injuries, item #81
+ophth-q0911	joined	ch13-q1	Medications and the eye, item #1
+ophth-q0912	joined	ch13-q2	Medications and the eye, item #2
+ophth-q0913	joined	ch13-q3	Medications and the eye, item #3
+ophth-q0914	joined	ch13-q4	Medications and the eye, item #4
+ophth-q0915	joined	ch13-q5	Medications and the eye, item #5
+ophth-q0916	joined	ch13-q6	Medications and the eye, item #6
+ophth-q0917	joined	ch13-q7	Medications and the eye, item #7
+ophth-q0918	joined	ch13-q8	Medications and the eye, item #8
+ophth-q0919	joined	ch13-q9	Medications and the eye, item #9
+ophth-q0920	joined	ch13-q10	Medications and the eye, item #10
+ophth-q0921	joined	ch13-q11	Medications and the eye, item #11
+ophth-q0922	joined	ch13-q12	Medications and the eye, item #12
+ophth-q0923	joined	ch13-q13	Medications and the eye, item #13
+ophth-q0924	joined	ch13-q14	Medications and the eye, item #14
+ophth-q0925	joined	ch13-q15	Medications and the eye, item #15
+ophth-q0926	joined	ch13-q16	Medications and the eye, item #16
+ophth-q0927	joined	ch13-q17	Medications and the eye, item #17
+ophth-q0928	joined	ch13-q18	Medications and the eye, item #18
+ophth-q0929	joined	ch13-q19	Medications and the eye, item #19
+ophth-q0930	joined	ch13-q20	Medications and the eye, item #20
+ophth-q0931	joined	ch13-q21	Medications and the eye, item #21
+ophth-q0932	joined	ch13-q22	Medications and the eye, item #22
+ophth-q0933	joined	ch13-q23	Medications and the eye, item #23
+ophth-q0934	joined	ch13-q24	Medications and the eye, item #24
+ophth-q0935	joined	ch13-q25	Medications and the eye, item #25
+ophth-q0936	joined	ch13-q26	Medications and the eye, item #26
+ophth-q0937	joined	ch13-q27	Medications and the eye, item #27
+ophth-q0938	joined	ch13-q28	Medications and the eye, item #28
+ophth-q0939	joined	ch13-q29	Medications and the eye, item #29
+ophth-q0940	joined	ch13-q30	Medications and the eye, item #30
+ophth-q0941	joined	ch13-q31	Medications and the eye, item #31
+ophth-q0942	joined	ch13-q32	Medications and the eye, item #32
+ophth-q0943	joined	ch13-q33	Medications and the eye, item #33
+ophth-q0944	joined	ch13-q34	Medications and the eye, item #34
+ophth-q0945	joined	ch13-q35	Medications and the eye, item #35
+ophth-q0946	joined	ch13-q36	Medications and the eye, item #36
+ophth-q0947	joined	ch13-q37	Medications and the eye, item #37
+ophth-q0948	joined	ch13-q38	Medications and the eye, item #38
+ophth-q0949	joined	ch13-q39	Medications and the eye, item #39
+ophth-q0950	joined	ch13-q40	Medications and the eye, item #40
+ophth-q0951	joined	ch13-q41	Medications and the eye, item #41
+ophth-q0952	joined	ch13-q42	Medications and the eye, item #42
+ophth-q0953	joined	ch13-q43	Medications and the eye, item #43
+ophth-q0954	joined	ch14-q1	Lasers in ophthalmology, item #1
+ophth-q0955	joined	ch14-q2	Lasers in ophthalmology, item #2
+ophth-q0956	joined	ch14-q3	Lasers in ophthalmology, item #3
+ophth-q0957	joined	ch14-q4	Lasers in ophthalmology, item #4
+ophth-q0958	joined	ch14-q5	Lasers in ophthalmology, item #5
+ophth-q0959	joined	ch14-q6	Lasers in ophthalmology, item #6
+ophth-q0960	joined	ch14-q7	Lasers in ophthalmology, item #7
+ophth-q0961	joined	ch14-q8	Lasers in ophthalmology, item #8
+ophth-q0962	joined	ch14-q9	Lasers in ophthalmology, item #9
+ophth-q0963	joined	ch14-q10	Lasers in ophthalmology, item #10
+ophth-q0964	joined	ch14-q11	Lasers in ophthalmology, item #11
+ophth-q0965	joined	ch14-q12	Lasers in ophthalmology, item #12
+ophth-q0966	joined	ch14-q13	Lasers in ophthalmology, item #13
+ophth-q0967	joined	ch14-q14	Lasers in ophthalmology, item #14
+ophth-q0968	joined	ch14-q15	Lasers in ophthalmology, item #15
+ophth-q0969	joined	ch14-q16	Lasers in ophthalmology, item #16
+ophth-q0970	joined	ch14-q17	Lasers in ophthalmology, item #17
+ophth-q0971	joined	ch14-q18	Lasers in ophthalmology, item #18
+ophth-q0972	joined	ch14-q19	Lasers in ophthalmology, item #19
+ophth-q0973	joined	ch14-q20	Lasers in ophthalmology, item #20
+ophth-q0974	joined	ch14-q21	Lasers in ophthalmology, item #21
+ophth-q0975	joined	ch14-q22	Lasers in ophthalmology, item #22
+ophth-q0976	joined	ch14-q23	Lasers in ophthalmology, item #23
+ophth-q0977	joined	ch15-q1	Some related topics, item #1
+ophth-q0978	joined	ch15-q2	Some related topics, item #2
+ophth-q0979	joined	ch15-q3	Some related topics, item #3
+ophth-q0980	joined	ch15-q4	Some related topics, item #4

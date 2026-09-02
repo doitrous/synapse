@@ -1,0 +1,839 @@
+{
+  "bank": "MCQs - Ophthalmology_question_bank_Dr_Ahmed_Kamal_3r_260612_153055.pdf",
+  "keyBank": "Ophthalmology - Answer Key . Dr. Kamal.pdf",
+  "sourceId": "src_c30b94e296cd15ba86c2",
+  "keySourceId": "src_da00e151bc67cfc81468",
+  "subject": "ophthalmology",
+  "note": "Full item extraction covers Chapters 1-2 (all items) and Chapter 3 items #1-20 of 96 (the lane-1 authoring cluster, bank order). The remaining bank (chapters 3 items 21-96, and chapters 4-15) is triaged structurally only in HU-ORL-305-triage-keys.txt (per-chapter item counts, joined/unjoined-no-key status) -- full stem/option text was not transcribed for that remainder in this pass. Answer keys read from the dedicated printed key file (pp.1-9), a chapter-and-question-number-indexed table, not OCR'd (OCR was not needed -- both PDFs are native text, 0 garbled pages).",
+  "count": 59,
+  "items": [
+    {
+      "num": 1,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 3,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Aqueous humour is secreted by:",
+      "options": {
+        "a": "Angle of the anterior chamber.",
+        "b": "The ciliary body.",
+        "c": "Posterior surface of iris.",
+        "d": "Lens."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 2,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 3,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Aqueous humor is drained through:",
+      "options": {
+        "a": "Angle of the anterior chamber.",
+        "b": "The ciliary body.",
+        "c": "Posterior surface of iris.",
+        "d": "Lens."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 3,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 3,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Aqueous humour is produced in which chamber of the eye:",
+      "options": {
+        "a": "Anterior chamber",
+        "b": "Posterior chamber",
+        "c": "Vitreous cavity",
+        "d": "Trabecular meshwork."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 4,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 3,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The outer coat of the eye:",
+      "options": {
+        "a": "Formed of cornea, sclera and iris.",
+        "b": "Is only protective in function.",
+        "c": "Cornea does not have refractive function.",
+        "d": "Protects against the invasion of micro-organisms."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 5,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 3,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The middle coat of the eye:",
+      "options": {
+        "a": "Is the vascular coat.",
+        "b": "May be pigmented.",
+        "c": "Consists of the iris, ciliary body and retina.",
+        "d": "Is also called the neurosensory coat."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 6,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 3,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Nasolacrimal duct opens in:",
+      "options": {
+        "a": "Superior nasal meatus.",
+        "b": "Inferior nasal meatus.",
+        "c": "Middle nasal meatus.",
+        "d": "Nasopharynx."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 7,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 4,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The cornea is covered by:",
+      "options": {
+        "a": "Keratinized stratified squamous epithelium.",
+        "b": "Non-keratinized stratified squamous epithelium.",
+        "c": "Pseudo-stratified columnar epithelium.",
+        "d": "Stratified columnar epithelium"
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 8,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 4,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "corneal transparency is due to all of the following factors EXCEPT:",
+      "options": {
+        "a": "compact arrangement of corneal stromal fibers",
+        "b": "Lack of blood vessels",
+        "c": "Myelinated nerve fibers",
+        "d": "Non - keratinized stratified squamous epithelium"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 9,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 4,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The cornea has:",
+      "options": {
+        "a": "3 layers",
+        "b": "Rich vasculature",
+        "c": "Active endothelial pumps",
+        "d": "Irregularly arranged fibers.",
+        "e": "Rich water content"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 10,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 4,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The refractive power of the eye lens is about… in diopters:",
+      "options": {
+        "a": "10",
+        "b": "20",
+        "c": "30",
+        "d": "40"
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 11,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 4,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The cornea is made of the following layers EXCEPT:",
+      "options": {
+        "a": "Bowman membrane.",
+        "b": "Corneal stroma.",
+        "c": "Bruch's membrane.",
+        "d": "Endothelium."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 12,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 4,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Factors affecting the corneal transparency include the following EXCEPT:",
+      "options": {
+        "a": "Cornel avascularity.",
+        "b": "Endothelial pump.",
+        "c": "Arrangement of stroma lamellae.",
+        "d": "Keratinized epithelium."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 13,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 4,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The uveal tract is composed of the following EXCEPT:",
+      "options": {
+        "a": "Iris.",
+        "b": "Ciliary body.",
+        "c": "Retina.",
+        "d": "Choroid."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 14,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 4,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The posterior chamber is the space between:",
+      "options": {
+        "a": "The crystalline lens and the iris.",
+        "b": "The crystalline lens and the vitreous.",
+        "c": "The iris and the cornea.",
+        "d": "The ciliary body and the crystalline lens."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 15,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 5,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The conjunctiva is formed of the following parts EXCEPT:",
+      "options": {
+        "a": "Palpebral part.",
+        "b": "Bulbar part.",
+        "c": "Fornices.",
+        "d": "Tarsus."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 16,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 5,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The following is an investigation not a part of the ophthalmic examination:",
+      "options": {
+        "a": "Autorefractometer.",
+        "b": "Indirect ophthalmoscopy.",
+        "c": "Optical coherence tomography.",
+        "d": "Tonometry."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 17,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 5,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "One of the following statements is false:",
+      "options": {
+        "a": "A white reflex may indicate mature cataract.",
+        "b": "A blue reflex indicates glaucoma.",
+        "c": "A black reflex is seen in vitreous haemorrhage.",
+        "d": "A yellow reflex points to endophthalmitis."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 18,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 5,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The orbit:",
+      "options": {
+        "a": "The orbit is a 3- walled cone.",
+        "b": "The orbit is closely related to paranasal sinuses.",
+        "c": "The orbit communicates with the skull via 4 main ports.",
+        "d": "The commonest cause of orbital cellulitis is conjunctivitis."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 19,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 5,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regarding the anatomy of the cornea:",
+      "options": {
+        "a": "Cornea is made up of 7 layers.",
+        "b": "The stroma is made of collagen fibers arranged in lamellae.",
+        "c": "Corneal transparency is due to vascularity.",
+        "d": "Active endothelial pump plays a minor role in transparency of cornea."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 20,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 5,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "If the corneal light reflex is 2mm temporal to the pupil in the right eye, the deviation is estimated to be:",
+      "options": {
+        "a": "10 diopters esotropia.",
+        "b": "20 diopters esotropia.",
+        "c": "30 diopters esotropia.",
+        "d": "40 diopters esotropia."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 21,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 5,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Methods of fundus examination include the following EXCEPT:",
+      "options": {
+        "a": "Slit lamp biomicroscopy.",
+        "b": "Direct ophthalmoscopy.",
+        "c": "Indirect ophthalmoscopy.",
+        "d": "Retinoscopy."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 22,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 6,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Visual field-testing using confrontation method can diagnose:",
+      "options": {
+        "a": "Enlarged blind spot.",
+        "b": "Paracentral scotoma.",
+        "c": "Hemianopia.",
+        "d": "Nasal stepping."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 23,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 6,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regarding the paranasal sinuses the following is true EXCEPT:",
+      "options": {
+        "a": "The ethmoid sinus is located medially.",
+        "b": "The roof of the orbit separates the orbit from the frontal sinus.",
+        "c": "The lateral wall separates the orbit from the sphenoid sinus.",
+        "d": "The floor separates the orbit from the maxillary sinus."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 24,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 6,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The crystalline lens is suspended from ciliary body processes by:",
+      "options": {
+        "a": "Sutures.",
+        "b": "Zonules.",
+        "c": "Lens capsule.",
+        "d": "Lens fibres."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 25,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 6,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The following is not a structure of anterior chamber angle:",
+      "options": {
+        "a": "Trabecular meshwork.",
+        "b": "Scleral spur.",
+        "c": "Retinal pigment epithelium.",
+        "d": "Schwalbe line."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 26,
+      "chapter": "Brief anatomy of the eye and its adnexa",
+      "page": 6,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The superior orbital fissure transmits:",
+      "options": {
+        "a": "Ophthalmic artery.",
+        "b": "Ophthalmic branch of trigeminal nerve.",
+        "c": "Optic nerve.",
+        "d": "Central retinal artery."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 1,
+      "chapter": "Clinical examination of the eye",
+      "page": 7,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The normal horizontal diameter of the cornea in adults is about:",
+      "options": {
+        "a": "8 mm.",
+        "b": "10 mm.",
+        "c": "12 mm.",
+        "d": "14 mm."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 2,
+      "chapter": "Clinical examination of the eye",
+      "page": 7,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The method of examination of anterior chamber angle is called:",
+      "options": {
+        "a": "Direct Ophthalmoscopy",
+        "b": "Retinoscopy",
+        "c": "Gonioscopy",
+        "d": "Indirect Ophthalmoscopy"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 3,
+      "chapter": "Clinical examination of the eye",
+      "page": 7,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regarding slit lamp examination:",
+      "options": {
+        "a": "It is rarely used in routine examination of the eye.",
+        "b": "With accessory lenses can be used for fundus examination.",
+        "c": "It can be used for fundus examination in the presence of dense vitreous hemorrhage.",
+        "d": "Without accessory lenses can be used for anterior chamber angle examination."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 4,
+      "chapter": "Clinical examination of the eye",
+      "page": 7,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regarding fundus examination:",
+      "options": {
+        "a": "Is essential for diagnosis of diabetic retinopathy.",
+        "b": "Sit lamp alone can be used for fundus examination.",
+        "c": "It can be easily done in the presence of mature cataract.",
+        "d": "It is rarely used in routine examination of the eye."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 5,
+      "chapter": "Clinical examination of the eye",
+      "page": 7,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The normal vertical diameter of the cornea in adults is about:",
+      "options": {
+        "a": "8 mm.",
+        "b": "13 mm.",
+        "c": "11 mm.",
+        "d": "14 mm."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 6,
+      "chapter": "Clinical examination of the eye",
+      "page": 7,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regarding fundus examination:",
+      "options": {
+        "a": "Slit lamp needs accessory lenses for fundus examination.",
+        "b": "Slit lamp alone can be used for fundus examination.",
+        "c": "It is rarely used in routine examination of the eye.",
+        "d": "It can be easily done in the presence of dense vitreous hemorrhage."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 7,
+      "chapter": "Clinical examination of the eye",
+      "page": 8,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "On testing visual acuity, if the patient is unable to identify any letters on the Snellen chart you should next test for the ability to:",
+      "options": {
+        "a": "Count fingers.",
+        "b": "Identify direction of hand movements.",
+        "c": "Identify position of a light.",
+        "d": "Identify presence of a light."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 8,
+      "chapter": "Clinical examination of the eye",
+      "page": 8,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "On eye examination all the following is correct EXCEPT:",
+      "options": {
+        "a": "Visual acuity assessment is mandatory.",
+        "b": "Examination of the pupillary reflexes is important.",
+        "c": "Fundus examination is performed by ophthalmoscopy.",
+        "d": "Automated field testing is done in all patients."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 9,
+      "chapter": "Clinical examination of the eye",
+      "page": 8,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "One of the following is true about ultrasound examination of the eye:",
+      "options": {
+        "a": "b-scan is used mainly for biometry",
+        "b": "Used for fundus examination in retinal detachment without media opacity",
+        "c": "can evaluate posterior segment tumors",
+        "d": "Uses very low frequency sound waves"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 10,
+      "chapter": "Clinical examination of the eye",
+      "page": 8,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regarding slit lamp examination, which answer is wrong:",
+      "options": {
+        "a": "Is the most important examination system for the eye",
+        "b": "With accessory lenses can be used for fundus examination",
+        "c": "Without accessory lenses can be used for ac angle examination",
+        "d": "Has several filters for enhancing examination techniques"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 11,
+      "chapter": "Clinical examination of the eye",
+      "page": 8,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In cases of retinal detachment the red reflex becomes:",
+      "options": {
+        "a": "Greyish",
+        "b": "Whitish",
+        "c": "Yellowish",
+        "d": "black"
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 12,
+      "chapter": "Clinical examination of the eye",
+      "page": 8,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Retinoscopy is done for:",
+      "options": {
+        "a": "Examination of the retina",
+        "b": "Degree of strabismus",
+        "c": "Refractive power of eye",
+        "d": "Axial length of eye",
+        "e": "Assessment of visual acuity"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 13,
+      "chapter": "Clinical examination of the eye",
+      "page": 8,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Detailed examination of the anterior segment of the eye is done using:",
+      "options": {
+        "a": "Slit lamp",
+        "b": "Retinoscopy",
+        "c": "Prisms",
+        "d": "Ophthalmoscopy",
+        "e": "Exophthalmometer"
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 1,
+      "chapter": "The protective system of the eye",
+      "page": 9,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The most common cause of bilateral proptosis in adults is:",
+      "options": {
+        "a": "Thyroid orbitopathy",
+        "b": "Orbital metastasis",
+        "c": "Lymphoma",
+        "d": "Frontal lobe meningioma"
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 2,
+      "chapter": "The protective system of the eye",
+      "page": 9,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Lagophthalmos can occur in all of the following EXCEPT:",
+      "options": {
+        "a": "7th cranial nerve paralysis",
+        "b": "5th cranial nerve paralysis",
+        "c": "Thyrotoxic exophthalmos",
+        "d": "Parotid tumor"
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 3,
+      "chapter": "The protective system of the eye",
+      "page": 10,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 50-year-old female complains of an acute painful swelling at the medial canthus. The patient gives a history of being treated for chronic dacryocystitis, but was reluctant to undergo surgery. What would be the most appropriate current management?",
+      "options": {
+        "a": "Surgery connecting the sac to the nose",
+        "b": "Probing of the lacrimal sac",
+        "c": "Intubation of the lacrimal sac",
+        "d": "Systemic antibiotics"
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 4,
+      "chapter": "The protective system of the eye",
+      "page": 10,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Upper eyelid ptosis can be caused by:",
+      "options": {
+        "a": "Paralysis of orbicularis muscle.",
+        "b": "Levator palapbrae superioris muscle malfunction.",
+        "c": "Levator palapbrae superioris muscle overaction.",
+        "d": "Superior rectus muscle malfunction."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 5,
+      "chapter": "The protective system of the eye",
+      "page": 10,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Ectropion means:",
+      "options": {
+        "a": "Rolling in of the eyelid margin.",
+        "b": "Rolling out of the eyelid margin.",
+        "c": "Rubbing eyelashes to the cornea.",
+        "d": "Drooping of the upper eyelid."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 6,
+      "chapter": "The protective system of the eye",
+      "page": 10,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Thyroid Ophthalmopathy can present with all EXCEPT:",
+      "options": {
+        "a": "Diplopia.",
+        "b": "Proptosis.",
+        "c": "Corneal ulcer.",
+        "d": "Ptosis."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 7,
+      "chapter": "The protective system of the eye",
+      "page": 10,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Facial nerve palsy:",
+      "options": {
+        "a": "Causes lagophthalmos and corneal exposure.",
+        "b": "Causes Ptosis and exotropia.",
+        "c": "Causes Miosis and loss of eye sensation.",
+        "d": "Causes loss of vision."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 8,
+      "chapter": "The protective system of the eye",
+      "page": 10,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Entropion is:",
+      "options": {
+        "a": "Rolling in of the lid margin.",
+        "b": "Accessory row of eyelashes.",
+        "c": "Downward drooping of upper lid.",
+        "d": "Outward protrusion of lower lid."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 9,
+      "chapter": "The protective system of the eye",
+      "page": 10,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The standard procedure for treatment of chronic dacryocystitis in adults is:",
+      "options": {
+        "a": "Probing.",
+        "b": "Intubation.",
+        "c": "Dacryocystorhinostomy.",
+        "d": "Massaging."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 10,
+      "chapter": "The protective system of the eye",
+      "page": 11,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Incomplete closure of the palpebral fissure when the eye lids are shut is called:",
+      "options": {
+        "a": "Lagophthalmos.",
+        "b": "Ptosis.",
+        "c": "Bell's phenomenon.",
+        "d": "Blepharochalasis."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 11,
+      "chapter": "The protective system of the eye",
+      "page": 11,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In ulcerative Blepharitis:",
+      "options": {
+        "a": "Lid margin is not inflamed.",
+        "b": "Scaly dandruff like material is seen between cilia.",
+        "c": "Treatment is by antifungal drugs.",
+        "d": "There are yellow crusts and ulcers on lid margin."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 12,
+      "chapter": "The protective system of the eye",
+      "page": 11,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The well-known causes of ptosis include the following EXCEPT:",
+      "options": {
+        "a": "Blunt trauma to the eyelid.",
+        "b": "Hypertension.",
+        "c": "Myasthenia gravis.",
+        "d": "Horner's syndrome."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 13,
+      "chapter": "The protective system of the eye",
+      "page": 11,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The following are signs of Dysthyroid eye disease EXCEPT:",
+      "options": {
+        "a": "Upper lid retraction.",
+        "b": "Uveitis.",
+        "c": "Unilateral or bilateral proptosis.",
+        "d": "Lid lag."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 14,
+      "chapter": "The protective system of the eye",
+      "page": 11,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Forms of dry eye include the following (EXCEPT):",
+      "options": {
+        "a": "Deficiency of aqueous tears (Keratoconjunctivitis sicca).",
+        "b": "Mucin deficiency due to wide spread loss goblet cell.",
+        "c": "Dryness secondary to eye lid disease.",
+        "d": "Dryness due to lid edema."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 15,
+      "chapter": "The protective system of the eye",
+      "page": 11,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Hordeolum externum (stye) is an acute inflammation of:",
+      "options": {
+        "a": "Hair follicle.",
+        "b": "Zeis' gland.",
+        "c": "Sweat gland.",
+        "d": "Wolfring's gland."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 16,
+      "chapter": "The protective system of the eye",
+      "page": 11,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Ptosis in Horner's syndrome, is due to paralysis of:",
+      "options": {
+        "a": "Riolan's muscle.",
+        "b": "Horner's muscle.",
+        "c": "Muller's muscle.",
+        "d": "The levator palpebral muscle."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 17,
+      "chapter": "The protective system of the eye",
+      "page": 11,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In squamous Blepharitis:",
+      "options": {
+        "a": "Lid margin is not inflamed.",
+        "b": "Scaly dandruff like material is seen between cilia.",
+        "c": "Treatment is by antifungal drugs.",
+        "d": "Causes ulcers on lid margin."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 18,
+      "chapter": "The protective system of the eye",
+      "page": 12,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Congenital ptosis is due to:",
+      "options": {
+        "a": "Increased weight of the upper lid.",
+        "b": "Levator tendon injury.",
+        "c": "3rd nerve palsy.",
+        "d": "Dystrophy of the levator muscle."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 19,
+      "chapter": "The protective system of the eye",
+      "page": 12,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Proptosis is present in the following EXCEPT:",
+      "options": {
+        "a": "Orbital cellulitis.",
+        "b": "Cavernous sinus thrombosis.",
+        "c": "Thyroid eye disease.",
+        "d": "Acute angle closure glaucoma."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 20,
+      "chapter": "The protective system of the eye",
+      "page": 12,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Incomplete closure of the palpebral fissure when the eye lids are shut can cause:",
+      "options": {
+        "a": "Corneal ulceration due to exposure.",
+        "b": "Diplopia.",
+        "c": "Anisometropia."
+      },
+      "recovered_key": "A"
+    }
+  ]
+}
