@@ -18921,3 +18921,580 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "leukotriene biosynthesis 5-lipoxygenase enzyme" -- 0 hits. New concept.
 relationships: sibling of CON-FND-0D4DD74432DAD3 (this same lecture's Q1, zileuton).
+
+---
+
+# Item
+
+## id
+CON-FND-0BE8A63694384F
+
+## label
+Benign tumours grow by expansion
+
+## canonical_key
+neoplasia.benign.growth-by-expansion
+
+## aliases
+Benign tumour growth pattern
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Benign tumours grow by expansion: they enlarge as a cohesive mass that pushes aside, rather than invades, surrounding tissue, and do not spread to lymph nodes, recur after adequate removal, or grow at a rapid rate -- features instead associated with malignant tumours.
+
+## explicit_objective
+State that benign tumours grow by expansion, pushing aside surrounding tissue, distinguishing this from lymphatic spread, recurrence and rapid growth.
+
+## pitfalls
+Attributing a malignant growth feature (lymph node spread, recurrence, rapid growth) to a benign tumour, whose defining growth pattern is instead expansion.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: characters of benign and malignant
+
+## subtopic
+Growth pattern
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-CHARACTERS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-535DC0C5E33E73
+CON-FND-962C19CA6C839B
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Benign tumours show: ... growth by expansion" (Quiz 39 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 39 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "benign tumour growth by expansion" -- 0 hits. New concept.
+relationships: sibling/contrast pair with CON-FND-535DC0C5E33E73 (this same lecture's Q2, malignant infiltrative growth); related to CON-FND-962C19CA6C839B (Lecture 37's benign mature-cell-population concept).
+
+---
+
+# Item
+
+## id
+CON-FND-535DC0C5E33E73
+
+## label
+Malignant tumours grow by infiltration
+
+## canonical_key
+neoplasia.malignant.growth-by-infiltration
+
+## aliases
+Malignant tumour growth pattern
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Malignant tumours grow by infiltration: they invade and destroy surrounding tissue rather than merely pushing it aside, and characteristically show a rapid (not slow) rate of growth, are not localized, and do recur after removal -- the opposite growth pattern from a benign tumour's expansile growth.
+
+## explicit_objective
+State that malignant tumours grow by infiltration, distinguishing this from a slow growth rate, localization and non-recurrence.
+
+## pitfalls
+Attributing a benign tumour's features (slow growth, being localized, not recurring after removal) to a malignant tumour, whose defining growth pattern is instead infiltration.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: characters of benign and malignant
+
+## subtopic
+Growth pattern
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-CHARACTERS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-0BE8A63694384F
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Malignat tumours characterized by: ... Grow by infiltration" (Quiz 39 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 39 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "malignant tumour growth by infiltration" -- 0 hits. New concept.
+relationships: sibling/contrast pair with CON-FND-0BE8A63694384F (this same lecture's Q1, benign expansile growth).
+
+---
+
+# Item
+
+## id
+CON-FND-4EB925D64C4FF3
+
+## label
+Tumour stage is the most important prognostic factor in malignant tumours
+
+## canonical_key
+neoplasia.prognosis.stage-most-important-factor
+
+## aliases
+Prognostic factor ranking
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Among the factors that inform a malignant tumour's prognosis -- grade, size, stage and cell shape -- tumour stage (its anatomic extent of spread, captured by the TNM system's tumour size, nodal involvement and distant metastasis axes) is the single most important, since a widely spread cancer carries a substantially worse prognosis regardless of how differentiated its cells appear.
+
+## explicit_objective
+State that tumour stage is the most important prognostic factor in malignant tumours, ranking above tumour grade, raw size and cell shape.
+
+## pitfalls
+Assuming tumour grade (differentiation) is the most important prognostic factor -- stage (anatomic extent of spread) outweighs grade as the dominant determinant of prognosis.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: characters of benign and malignant
+
+## subtopic
+Prognostic factors
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-CHARACTERS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-9FF27DE891DFBE
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The most important factor in prognosis of malignant tumours is: ... Tumour stage" (Quiz 39 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 39 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "tumour stage most important prognostic factor" -- 0 hits; grep for "tumor stage"/"tumour stage" found 0 hits. New concept.
+relationships: directly related to the reused CON-FND-9FF27DE891DFBE (Kasr 208-INT TNM-staging-vs-grading concept, this same lecture's Q3/Q5) -- this record supplies the prognostic-ranking fact, that one the TNM-system-definition fact.
+
+---
+
+# Item
+
+## id
+CON-FND-1AF0F29A09A2CA
+
+## label
+Invasion is the most important microscopic feature confirming malignancy
+
+## canonical_key
+neoplasia.malignancy-criterion.invasion
+
+## aliases
+Malignancy diagnostic criterion
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Among pleomorphism, necrosis, an increased nuclear/cytoplasmic ratio, invasion and atypia, invasion -- histological evidence that tumour cells have breached the basement membrane and infiltrated surrounding tissue -- is the most important feature confirming malignancy, since the other four (pleomorphism, necrosis, raised N/C ratio, atypia) can each also be seen in severe dysplasia without invasion, which by definition is not yet malignant.
+
+## explicit_objective
+State that invasion (breach of the basement membrane) is the most important microscopic feature confirming malignancy, distinguishing it from pleomorphism, necrosis, raised N/C ratio and atypia, each of which can occur in severe dysplasia without invasion.
+
+## pitfalls
+Treating pleomorphism, necrosis, a raised N/C ratio or atypia as sufficient on their own to confirm malignancy -- each can be seen in severe dysplasia; only invasion through the basement membrane is the defining, confirmatory criterion.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: characters of benign and malignant
+
+## subtopic
+Malignancy criteria
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-CHARACTERS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-535DC0C5E33E73
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...which is most important feature to indicate that the neoplasm is malignant? ... Invasion" (Quiz 39 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 39 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "invasion malignancy criterion" -- 0 hits. New concept.
+relationships: related to CON-FND-535DC0C5E33E73 (this same lecture's Q2, malignant infiltrative growth) -- invasion is the microscopic diagnostic criterion behind that gross/behavioural growth-pattern fact.

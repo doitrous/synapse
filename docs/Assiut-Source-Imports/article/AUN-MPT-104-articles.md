@@ -3897,3 +3897,153 @@ Block: body
 ### definition_of · CON-FND-69AECAECBCA67F
 Quote: Zileuton's target (5-lipoxygenase) is the same enzyme leukotriene biosynthesis itself requires
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-NEOPLASIA-CHARACTERS
+
+## title
+Characters of benign and malignant tumours: growth pattern, prognosis and the invasion criterion
+
+## arabic_title
+سمات الأورام الحميدة والخبيثة: نمط النمو، الإنذار، ومعيار الغزو
+
+## aliases
+Neoplasia: characters of benign and malignant
+Lecture 39
+
+## subject
+fnd
+
+## topic
+Neoplasia: characters of benign and malignant
+
+## subtopic
+Growth pattern, prognostic factors, malignancy criteria
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 39 extends the neoplasia block from definitions (Lecture 37) to how benign and malignant tumours differ in growth pattern, prognosis and the microscopic criterion that confirms malignancy. Benign tumours grow by expansion, pushing aside surrounding tissue; malignant tumours grow by infiltration, invading and destroying it, growing rapidly and recurring after removal. Among grade, size, stage and cell shape, tumour stage is the single most important prognostic factor. Among pleomorphism, necrosis, a raised nuclear/cytoplasmic ratio, invasion and atypia, invasion through the basement membrane is the one feature that actually confirms malignancy, since the others can occur in severe dysplasia that has not yet invaded. Q3 and Q5 of this quiz reuse a pending Kasr 208-INT TNM-staging concept rather than minting duplicates.
+
+## sections
+### Definition
+Lecture 39 extends the neoplasia block from definitions to how benign and malignant tumours differ in growth pattern, prognosis and the microscopic criterion that confirms malignancy. Benign tumours grow by expansion; malignant tumours grow by infiltration. Tumour stage, not grade, size or cell shape, is the most important prognostic factor, and invasion through the basement membrane is the most important microscopic feature confirming malignancy.
+
+### Mechanism
+A benign tumour's expansile growth pushes aside surrounding tissue as a cohesive mass, without lymph node spread, recurrence after removal, or a rapid growth rate. A malignant tumour's infiltrative growth instead invades and destroys surrounding tissue, characteristically grows rapidly, is not localized, and does recur after removal. Tumour stage, the TNM system's anatomic-extent-of-spread axis, outweighs grade (differentiation), raw size or cell shape as the dominant prognostic determinant, since a widely spread cancer carries a substantially worse prognosis regardless of how differentiated its cells appear. Among the histological features associated with malignancy -- pleomorphism, necrosis, a raised nuclear/cytoplasmic ratio, invasion and atypia -- invasion through the basement membrane is the one that actually confirms malignancy, since the other four can each also occur in severe dysplasia, which by definition has not yet invaded.
+
+### Key determinants
+Benign tumours grow by expansion; malignant tumours grow by infiltration -- opposite growth patterns tested against the same distractor set (spread, recurrence, growth rate). Among grade, size, stage and cell shape, stage is the single most important prognostic factor in a malignant tumour. Among pleomorphism, necrosis, raised N/C ratio, invasion and atypia, only invasion through the basement membrane confirms malignancy; the other four can occur in severe dysplasia without it.
+
+### Clinical significance
+Recognising a mass's growth pattern, expansile versus infiltrative, on examination or imaging is an early clue to its likely benign or malignant nature. Staging a cancer, not just grading it, is what actually drives treatment planning and prognosis discussions with a patient, since stage is the dominant prognostic factor. A pathologist confirms malignancy on biopsy specifically by identifying invasion through the basement membrane, not merely by seeing pleomorphism, necrosis, a raised N/C ratio or atypia, any of which can appear in a pre-invasive (dysplastic) lesion.
+
+### Common misconceptions
+Attributing an infiltrative-growth feature to a benign tumour, or an expansile-growth feature to a malignant one. Assuming tumour grade, rather than stage, is the most important prognostic factor. Assuming pleomorphism, necrosis, a raised N/C ratio or atypia alone is sufficient to confirm malignancy without invasion.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Benign tumours grow by expansion (push aside tissue); malignant tumours grow by infiltration (invade and destroy tissue, grow rapidly, recur after removal).
+Tumour stage, not grade, size or cell shape, is the most important prognostic factor in a malignant tumour.
+Invasion through the basement membrane, not pleomorphism, necrosis, raised N/C ratio or atypia alone, is the feature that confirms malignancy.
+
+## lose_the_mark
+Reversing benign (expansile) and malignant (infiltrative) growth-pattern features.
+Naming grade, size or cell shape, instead of stage, as the most important prognostic factor.
+Treating pleomorphism, necrosis, raised N/C ratio or atypia alone as sufficient to confirm malignancy without invasion.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-0BE8A63694384F
+CON-FND-535DC0C5E33E73
+CON-FND-4EB925D64C4FF3
+CON-FND-1AF0F29A09A2CA
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 39 (Neoplasia: characters of benign and malignant) -- no department slide deck exists in the corpus past Lecture 8, so all four new mints cite the quiz bank's own printed-answer text instead. Quiz 39 Q3 and Q5 (q325, q327) reuse a pending Kasr 208-INT TNM-staging concept (CON-FND-9FF27DE891DFBE) rather than minting duplicates; their questions cite the existing Kasr article ART-FND-208INT-NEOPLASIA-BASICS instead of this one.
+
+## annotations
+### definition_of · CON-FND-0BE8A63694384F
+Quote: A benign tumour's expansile growth pushes aside surrounding tissue as a cohesive mass, without lymph node spread, recurrence after removal, or a rapid growth rate
+Block: body
+
+### definition_of · CON-FND-535DC0C5E33E73
+Quote: A malignant tumour's infiltrative growth instead invades and destroys surrounding tissue, characteristically grows rapidly, is not localized, and does recur after removal
+Block: body
+
+### definition_of · CON-FND-4EB925D64C4FF3
+Quote: Tumour stage, the TNM system's anatomic-extent-of-spread axis, outweighs grade (differentiation), raw size or cell shape as the dominant prognostic determinant
+Block: body
+
+### definition_of · CON-FND-1AF0F29A09A2CA
+Quote: invasion through the basement membrane is the one that actually confirms malignancy, since the other four can each also occur in severe dysplasia
+Block: body
