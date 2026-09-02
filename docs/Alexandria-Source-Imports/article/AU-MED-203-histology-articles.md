@@ -98,6 +98,8 @@ Workshop Quiz 3 and 4 extend this histology material with the eye, ear and cereb
 
 Two cerebellar cortex facts, and one cross-cutting neurohistology definition, complete the Quiz 3-4 set. Granule cell DENDRITES, unlike their own parallel-fiber AXONS, are confined to the granular layer and are not found in the molecular layer, where those axons instead ascend and bifurcate; and while basket, stellate and granule cells all form direct synapses onto Purkinje cells, the Golgi cell instead synapses chiefly on granule cell dendrites within the granular layer's glomeruli, a feedback loop that does not directly involve the Purkinje cell — though this source's own Workshop Quiz 4 key marks the stellate cell, rather than the Golgi cell, as the one NOT attached to Purkinje cells (see that concept's field_notes). Finally, a ganglion is defined as a group of closely-packed neuron CELL BODIES sharing a function, located OUTSIDE the CNS — an intra-CNS cell-body cluster is instead a nucleus, and a fiber bundle (inside or outside the CNS) is a tract or nerve, not a ganglion.
 
+The Week 1 EOM Final adds five further histology facts, all concerning the muscle spindle and the craniospinal (sensory) ganglion. A muscle spindle's nuclear BAG intrafusal fiber has a central, non-contractile equatorial region that is characteristically EXPANDED into a gelatinous, nucleus-packed 'bag' — not left un-widened, which instead describes the nuclear CHAIN fiber's equatorial region. The Golgi tendon organ, in contrast to the muscle spindle, has NO motor nerve endings at all: it is purely sensory (group Ib afferent), its collagen-fascicle capsule receiving no gamma-efferent-style modulation. The craniospinal (sensory) ganglion's pseudounipolar neuron cell bodies are OVAL in shape, held within a THICK connective-tissue capsule with septa, their central and peripheral processes MYELINATED — and each cell's large, round nucleus is CENTRALLY, not eccentrically, placed, together distinguishing this sensory-ganglion histology from the irregular, thin-capsuled, more variably-nucleated picture of an autonomic (multipolar) ganglion. Finally, the Pacinian corpuscle's onion-like lamellae are built from two cell populations: SCHWANN CELLS forming the inner-core layers immediately around the single unmyelinated nerve terminal, and FIBROBLASTS forming the outer capsular layers and their collagenous matrix.
+
 ## published_summary
 
 
@@ -121,6 +123,10 @@ Crista ampullaris detects angular acceleration/deceleration, distinct from the u
 Granule cell dendrites (unlike their parallel-fiber axons) stay in the granular layer, absent from the molecular layer.
 Basket, stellate and granule cells synapse directly on Purkinje cells; the Golgi cell instead targets granule cell dendrites.
 A ganglion = neuron cell bodies OUTSIDE the CNS; an intra-CNS cell-body cluster is a nucleus, a fiber bundle is a tract/nerve.
+Nuclear bag fiber's equatorial region is EXPANDED (gelatinous, nucleus-packed); the nuclear chain fiber's is not.
+Golgi tendon organ has NO motor nerve endings — purely sensory (Ib afferent), unlike the dually-innervated muscle spindle.
+Craniospinal (sensory) ganglion: oval pseudounipolar cell bodies, thick capsule with septa, myelinated fibers, centrally placed nucleus.
+Pacinian corpuscle lamellae = Schwann cells (inner core) + fibroblasts (outer capsule).
 
 ## lose_the_mark
 Naming the plexiform (layer I, most superficial) layer as the deepest/broadest instead of the multiform (layer VI) layer.
@@ -139,6 +145,10 @@ Confusing the crista ampullaris (angular acceleration) with the maculae (linear 
 Placing granule cell dendrites in the molecular layer by confusing them with their own parallel-fiber axons.
 Assuming every cerebellar cortex interneuron synapses directly on Purkinje cells, when the Golgi cell instead targets granule cell dendrites.
 Defining a ganglion as a fiber bundle or an intra-CNS cell cluster rather than an extra-CNS neuron-cell-body cluster.
+Describing the nuclear bag fiber's equatorial region as un-expanded, or confusing it with the nuclear chain fiber.
+Assuming the Golgi tendon organ shares the muscle spindle's dual (sensory + motor) innervation.
+Describing craniospinal ganglion cells as multipolar with an eccentric nucleus (an autonomic-ganglion picture) rather than pseudounipolar with a central nucleus.
+Naming an unrelated cell type (e.g. the interstitial cells of Cajal) as part of the Pacinian corpuscle instead of Schwann cells and fibroblasts.
 
 ## related_concepts
 CON-NEU-42FC49D1399303
@@ -160,6 +170,11 @@ CON-NEU-2C8D6B68556079
 CON-NEU-202406B79BDF20
 CON-NEU-C2DE1B6CF49B52
 CON-NEU-F346B9ED001561
+CON-NEU-05FF149DC51874
+CON-NEU-198D75A4CF7391
+CON-NEU-1AD4F150B33953
+CON-NEU-1BC546A68F8A0F
+CON-NEU-1E38BF0DCBA0E5
 
 ## related_articles
 
@@ -171,12 +186,14 @@ Extended for Workshop Quiz 2 (src_e0ce8dbbc37fcf3b12e9): 4 further histology fac
 
 Extended for Workshop Quiz 3 (src_b016b1b1c534c724e141, 6 facts) and Workshop Quiz 4 (src_caec6d06d9d48d9aaaa2, 6 facts), 12 histology concepts total, minted after the same per-item search discipline via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch; no hit found for any of the 12. Five of the twelve are image-labelling items (Quiz 3: hair cells, pillar cells, rhodopsin synthesis site; Quiz 4: hair-cell degeneration, crista ampullaris) whose source figures are absent from the corpus — each is minted around the underlying histological fact the source's own printed key is consistent with, per LANE-CARD §4, with `media_recommendations: Priority: required` on the question itself. Two facts are minted with the source's own printed answer key even though it diverges from the more commonly taught answer, per LANE-CARD's "printed keys stand, note doubts" rule: Quiz 3 Q11 (outer plexiform layer synapses) and Quiz 4 Q20 (Golgi cell/Purkinje attachment); each concept's own field_notes flags the discrepancy.
 
+Extended for the Week 1 EOM Final (src_f5698c4e06db91539a01, question/AU-MED-203-week1a-mcq.md, chief-of-staff STEP2 dispatch, lane 4, 2026-09-02): 5 further histology facts (nuclear bag fiber, Golgi tendon organ innervation, craniospinal ganglion shape/capsule/myelination, craniospinal ganglion cell-nucleus position, Pacinian corpuscle cell composition) minted after the same per-item find-existing.mjs search discipline against live state and every docs/*-Source-Imports pending batch; no hit found for any of the 5.
+
 ## field_notes
 arabicTitle: No standard Arabic term for this chapter is in undergraduate use separate from the English technical vocabulary.
 subtopicId: No SUB_ identifier exists for this module in the curriculum overlay; module_subject carries the department's own chapter position instead.
 microtopicId: The canonical placement (DIS-HIS-T03) and module_subject are already as fine as the department's own materials distinguish.
 nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than anything examined.
-questionIds: question/AU-MED-203-quiz1-mcq.md and question/AU-MED-203-quiz2-mcq.md carry the reciprocal question-to-concept links for this article's concepts.
+questionIds: question/AU-MED-203-quiz1-mcq.md, question/AU-MED-203-quiz2-mcq.md and question/AU-MED-203-week1a-mcq.md carry the reciprocal question-to-concept links for this article's concepts.
 media: No medical image exists in this repository for the labelling questions this module's Workshop Quizzes test (4 in Quiz 1, 6 in Quiz 2); each is filed as a media request (media_recommendations: Priority: required) rather than left unexplained.
 module: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
 moduleIds: Same reason — `docs/import-ready/academic/au-modules.md` has not been imported yet.

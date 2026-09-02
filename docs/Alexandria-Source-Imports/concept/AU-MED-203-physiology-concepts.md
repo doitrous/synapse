@@ -7693,3 +7693,3591 @@ relationships: Walked the AU-MED-203 concepts minted alongside this one in the s
 au: Workshop Quiz 4, p10 q34
 
 ---
+
+---
+
+# Item
+
+## id
+CON-NEU-2715335837C410
+
+## label
+Nociceptors (free nerve endings) are densely distributed in the buccal mucosa
+
+## canonical_key
+physiology.nociceptor.buccal-mucosa-distribution
+
+## definition
+Nociceptors are the simplest, least specialised class of sensory receptor — bare (free) nerve endings without an accessory capsule — and are correspondingly the most widely distributed receptor type in the body, present wherever pain must be sensed. The buccal (cheek) mucosa is one of the more densely innervated free-nerve-ending sites tested in this list, in contrast to hair follicles (served chiefly by specialised peritrichial mechanoreceptors rather than nociceptors) and visceral connective tissue, which is comparatively sparsely supplied with nociceptive endings — a large part of why cutting or clamping solid viscera does not itself provoke sharp somatic-type pain.
+
+## explicit_objective
+State that nociceptors (free nerve endings) are densely present in the buccal mucosa, among the options given.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Nociceptor distribution
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Nociceptor distribution|Free nerve ending location|Buccal mucosa pain receptors
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming any richly-touch-innervated area is equally rich in nociceptors — hair follicles are supplied chiefly by specialised mechanoreceptors (peritrichial endings), not nociceptors, and visceral connective tissue is comparatively sparsely supplied with pain endings.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p2 q1 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2715335837C410
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Nociceptors are found in: A- Ct of viscera. B- Buccal mucosa. C- Hair follicles. D- Skin of lips. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p2, q1
+
+
+---
+
+# Item
+
+## id
+CON-NEU-282B6D07348734
+
+## label
+Ruffini's corpuscle functions as a pressure (sustained-touch/stretch) receptor
+
+## canonical_key
+physiology.ruffini-corpuscle.pressure-receptor-role
+
+## definition
+Ruffini's corpuscle is a slowly-adapting cutaneous mechanoreceptor, embedded among dermal collagen bundles, that signals sustained skin stretch and deep pressure for as long as the stimulus is maintained. This slow-adapting, sustained-firing profile is what qualifies it functionally as a pressure receptor, in contrast to the rapidly-adapting Meissner's corpuscle (light flutter/touch) and the two classical proprioceptors (muscle spindle for length, tendon organ for tension), neither of which signals cutaneous pressure.
+
+## explicit_objective
+Identify Ruffini's corpuscle as the pressure receptor among a muscle spindle, tendon spindle and Meissner's corpuscle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Pressure receptor identification
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Ruffini corpuscle|Pressure receptor|Slow-adapting cutaneous receptor
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing Ruffini's corpuscle (slow-adapting cutaneous pressure/stretch receptor) with Meissner's corpuscle (rapidly-adapting light-touch/flutter receptor) — both are cutaneous mechanoreceptors, but only Ruffini's sustained firing profile suits it to signalling pressure.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p2 q3 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-282B6D07348734
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following receptors is a pressure receptor? A- Ruffini's corpuscles. B- Muscle spindle. C- Tendon spindle. D- Meissner's corpuscle. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p2, q3
+
+
+---
+
+# Item
+
+## id
+CON-NEU-297CD94A406286
+
+## label
+Modality discrimination depends on the specificity of the receptor (law of specific nerve energies)
+
+## canonical_key
+physiology.sensory-coding.modality-depends-on-receptor-specificity
+
+## definition
+Modality discrimination — the ability to tell that a stimulus is, say, touch rather than pain or temperature — depends on the specificity of the receptor being activated, not on the particular pathway it projects along or the frequency/magnitude of its signal. Each receptor type is tuned (by its specialised transduction machinery) to respond preferentially to one form of energy, so whichever receptor is activated determines the modality the brain perceives, a principle historically formalised as the law of specific nerve energies.
+
+## explicit_objective
+State that modality discrimination depends on receptor specificity (the law of specific nerve energies).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Modality coding
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Modality discrimination|Law of specific nerve energies|Receptor specificity
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing 'modality' coding (which depends on receptor specificity — which type of receptor fired) with 'locality' coding (which depends on specific projection — where in the CNS the signal arrives).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p3 q6 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-297CD94A406286
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The modality discrimination depends on the property of: A- Specifity of receptors. B- Specific projection. C- Frequency of action potential. D- Magnitude of receptor potential. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p3, q6
+
+
+---
+
+# Item
+
+## id
+CON-NEU-2F41EBE598F2DE
+
+## label
+Sensory receptors can adapt (show a declining response) to a constant maintained stimulus
+
+## canonical_key
+physiology.sensory-receptor.adaptation-to-constant-stimulus
+
+## definition
+Adaptation is the property by which a sensory receptor's response (its firing rate) declines over time despite a constant, maintained stimulus, ranging from rapidly-adapting receptors (e.g. Pacinian, Meissner's corpuscles, which fall almost silent within a fraction of a second) to slowly-adapting ones (e.g. Ruffini's corpuscle, muscle spindle, baroreceptors, which continue firing for as long as the stimulus persists, only gradually declining). This is a general, defining property of sensory receptors as a class, distinguishing them from other statements sometimes wrongly attributed to receptors, such as lacking any stimulus specificity or carrying an implausible resting membrane potential.
+
+## explicit_objective
+State that sensory receptors can adapt (show a declining response) to a constant, maintained stimulus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+General receptor properties — adaptation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Receptor adaptation|Sensory adaptation|Constant stimulus response decline
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming all receptors adapt at the same rate — adaptation exists on a spectrum from rapidly-adapting (Pacinian, Meissner's) to slowly-adapting (Ruffini's, muscle spindle, baroreceptors), but the property of adaptation itself is general to sensory receptors.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p3 q7 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2F41EBE598F2DE
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following is true regarding the receptors? A- It is not specific to certain stimuli. B- RMP=+70mv. C- It can be adapted by constant maintained stimuli. D- RMP=-60mv. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p3, q7
+
+
+---
+
+# Item
+
+## id
+CON-NEU-2FD9DE9D533B4C
+
+## label
+The receptor (generator) potential, unlike the action potential, has no refractory period
+
+## canonical_key
+physiology.receptor-potential.no-refractory-period
+
+## definition
+The receptor (generator) potential is a graded, local, non-propagated depolarisation produced by transduction channels at a sensory ending, and it shares the general properties of graded potentials: it does not obey the all-or-none rule, it can be summated (spatially and temporally), and — because it is not itself a regenerative, voltage-gated event — it has NO refractory period, unlike the action potentials it triggers once it reaches threshold. This absence of a refractory period is exactly what allows receptor potentials from successive or overlapping stimuli to summate and grade the generator response before an action potential is ever fired.
+
+## explicit_objective
+State that the receptor (generator) potential, unlike the action potential, has no refractory period.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Receptor (generator) potential properties
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Receptor potential properties|Generator potential|Refractory period exception
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming the receptor potential shares all the properties of the action potential it eventually triggers — the receptor potential is a graded, local potential (obeys none of the all-or-none rule, summates, no refractory period), fundamentally different from the propagated, all-or-none action potential (which does have a refractory period).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p3 q8 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2FD9DE9D533B4C
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following is true regarding receptor potential except: A- It doesn't obey “all or non-rule”. B- It has a refractory period. C- It can be summated. D- It cannot be blocked by local anesthetics. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p3, q8
+
+
+---
+
+# Item
+
+## id
+CON-NEU-3216CACCF7AD97
+
+## label
+Touch receptors are phasic (rapidly adapting), unlike pain receptors, muscle spindles and baroreceptors, which are tonic
+
+## canonical_key
+physiology.sensory-receptor.touch-receptors-are-phasic-not-tonic
+
+## definition
+Tonic (slowly-adapting) receptors continue to fire, at a rate roughly proportional to stimulus strength, for as long as a stimulus is maintained — pain receptors, muscle spindles and baroreceptors are classic examples, all needing continuous monitoring of an ongoing condition (tissue damage, muscle length, blood pressure). Touch receptors such as Meissner's and Pacinian corpuscles, by contrast, are characteristically PHASIC (rapidly adapting): they fire briskly at the onset (and often offset) of a stimulus but fall silent despite its continuation, making them well suited to detecting change or movement rather than sustained state.
+
+## explicit_objective
+State that touch receptors are phasic (rapidly adapting), unlike the tonic pain receptor, muscle spindle and baroreceptor.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Tonic vs phasic receptors
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Tonic receptor|Phasic receptor|Touch receptor adaptation
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming all mechanoreceptors adapt the same way — touch receptors (Meissner's, Pacinian) are characteristically phasic/rapidly-adapting, while other mechanoreceptors such as the muscle spindle and baroreceptor are tonic/slowly-adapting.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p3 q9 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-3216CACCF7AD97
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following are tonic receptors except: A- Pain receptors. B- Muscle spindles. C- Baroreceptors. D- Touch receptors. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p3, q9
+
+
+---
+
+# Item
+
+## id
+CON-NEU-3B13F6D23380A6
+
+## label
+Locality discrimination depends on the specific (point-to-point) projection of a pathway to the cortex
+
+## canonical_key
+physiology.sensory-coding.locality-depends-on-specific-projection
+
+## definition
+Locality discrimination — the ability to tell WHERE on the body a stimulus occurred — depends on the specific (point-to-point, topographically-organised) projection of the sensory pathway from receptor to cortex, not on receptor specificity (which instead determines modality). Because each patch of skin projects, via a preserved topographic map, to its own dedicated cortical territory (the sensory homunculus), activity arriving at a particular cortical location is interpreted as coming from the corresponding body location — the basis of the 'line-labelled' principle of somatotopic localisation.
+
+## explicit_objective
+State that locality discrimination depends on the specific (topographic) projection of a pathway, complementing modality discrimination's dependence on receptor specificity.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Locality coding
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Locality discrimination|Somatotopic projection|Sensory homunculus mapping
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing locality coding (specific projection — WHERE a signal arrives in the CNS) with modality coding (receptor specificity — WHICH type of receptor fired).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p3 q10 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-3B13F6D23380A6
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Locality discrimination depends on: A- Specifity. B- Specific projection. C- Magnitude. D- Frequency of action potential. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p3, q10
+
+
+---
+
+# Item
+
+## id
+CON-NEU-48876D379A97FC
+
+## label
+Cold receptors are thermoreceptors, not mechanoreceptors, unlike baroreceptors, proprioceptors and atrial stretch receptors
+
+## canonical_key
+physiology.receptor-classification.cold-receptor-is-thermoreceptor-not-mechanoreceptor
+
+## definition
+Mechanoreceptors are transducers activated by mechanical deformation (stretch, pressure, vibration) — baroreceptors (activated by vessel-wall stretch), proprioceptors (activated by muscle/joint deformation) and the stretch receptors in the wall of the right atrium (activated by atrial distension, signalling venous return/blood volume) are all classic examples. Cold receptors, by contrast, are THERMORECEPTORS, transducing a fall in temperature via temperature-sensitive ion channels rather than mechanical deformation, and so do not belong in the mechanoreceptor category with the other three.
+
+## explicit_objective
+State that cold receptors are thermoreceptors, not mechanoreceptors, distinguishing them from baroreceptors, proprioceptors and atrial receptors.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Mechanoreceptor classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Mechanoreceptor classification|Cold receptor|Thermoreceptor vs mechanoreceptor
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Grouping all classical sensory receptors together by 'location' rather than by transduction mechanism — cold receptors are specifically thermoreceptors and do not belong in a mechanoreceptor classification alongside baroreceptors, proprioceptors and atrial stretch receptors.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p4 q11 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-48876D379A97FC
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following are mechanoreceptors except: A- Baroreceptors. B- Proprioceptors. C- Cold receptors. D- Receptors in the right atrium. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p4, q11
+
+
+---
+
+# Item
+
+## id
+CON-NEU-49A26EC61651FE
+
+## label
+Peripheral chemoreceptors are conceptually paired with the lumen (blood composition), while baroreceptors sense the vessel wall
+
+## canonical_key
+physiology.chemoreceptor.lumen-blood-composition-vs-baroreceptor-wall-stretch
+
+## definition
+Peripheral chemoreceptors (the carotid and aortic bodies) are small, richly-vascularised glomus-cell clusters that sample the composition of the blood flowing past them — arterial PO2 chiefly, with lesser sensitivity to PCO2 and pH — functionally probing what is carried in the vessel LUMEN, in contrast to baroreceptors, which are mechanoreceptors physically embedded in the vessel WALL responding to its stretch. This lumen (chemical content) versus wall (mechanical stretch) contrast is a simplified teaching pairing distinguishing the two great carotid/aortic sinus reflex receptor families by what each one is functionally sampling.
+
+## explicit_objective
+State that peripheral chemoreceptors are functionally paired with sampling the vessel lumen's blood composition, contrasting with the baroreceptor's wall-stretch sensing.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Cardiovascular reflex receptors
+
+## subtopic
+Peripheral chemoreceptor localisation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Peripheral chemoreceptor|Carotid body|Aortic body location
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Reading 'lumen' here as a literal statement that chemoreceptor cell bodies float inside the vessel lumen — anatomically the carotid/aortic bodies are small organs attached near the vessel wall; 'lumen' in this pairing refers to what they functionally sample (the blood's chemical composition), not their physical location.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p4 q12 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-49A26EC61651FE
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Peripheral chemoreceptors are found in: A- Wall of great vessels. B- Lumen of great vessels. C- Both are true. D- None of the above. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p4, q12
+
+
+---
+
+# Item
+
+## id
+CON-NEU-4A48E0B1B6B45E
+
+## label
+Baroreceptors are mechanoreceptors situated in the wall of the great vessels
+
+## canonical_key
+physiology.baroreceptor.wall-of-great-vessels-location
+
+## definition
+Baroreceptors — most importantly the carotid sinus and aortic arch baroreceptors — are stretch-sensitive mechanoreceptor nerve endings embedded within the WALL of the great vessels, where they transduce the degree of vessel-wall stretch produced by arterial pressure into a firing rate that rises and falls with each pressure change, forming the afferent limb of the baroreceptor reflex.
+
+## explicit_objective
+State that baroreceptors are located in the wall of the great vessels, sensing wall stretch.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Cardiovascular reflex receptors
+
+## subtopic
+Baroreceptor localisation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Baroreceptor location|Carotid sinus baroreceptor|Aortic arch baroreceptor
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the baroreceptor's wall-stretch mechanism with the peripheral chemoreceptor's blood-composition sampling — the two are commonly paired/contrasted (wall vs lumen) in teaching, but only the baroreceptor is a true wall mechanoreceptor.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p4 q13 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4A48E0B1B6B45E
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Baroreceptors are found in: A- Wall of great vessels. B- Lumen of great vessels. C- Both are true. D- None of the above. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p4, q13
+
+
+---
+
+# Item
+
+## id
+CON-NEU-4F2FAFD0D5642F
+
+## label
+Osmoreceptors that drive thirst and ADH release are located in the hypothalamus
+
+## canonical_key
+physiology.osmoreceptor.hypothalamic-location
+
+## definition
+Osmoreceptors — specialised cells sensitive to changes in plasma osmolality (chiefly via cell shrinkage/swelling as water moves osmotically) — are located in the HYPOTHALAMUS, concentrated around the organum vasculosum of the lamina terminalis (OVLT) and the supraoptic nucleus, from where they drive both the sensation of thirst and the release of antidiuretic hormone (ADH/vasopressin) from the posterior pituitary when plasma osmolality rises.
+
+## explicit_objective
+State that osmoreceptors are located in the hypothalamus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Fluid balance
+
+## subtopic
+Osmoreceptor localisation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Osmoreceptor location|Hypothalamic osmoreceptor|ADH release trigger
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the hypothalamic osmoreceptors that regulate ADH/thirst with unrelated brainstem structures (pons, medulla) that host cardiorespiratory, not osmotic, regulatory centres.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p4 q14 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4F2FAFD0D5642F
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Osmoreceptors are found in: A- Cerebellum. B- Hypothalamus. C- Pons. D- Medulla. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p4, q14
+
+
+---
+
+# Item
+
+## id
+CON-NEU-51C61562F85559
+
+## label
+The receptor potential is generated by stimulus-gated channels, not voltage-gated channels
+
+## canonical_key
+physiology.receptor-potential.not-generated-by-voltage-gated-channels
+
+## definition
+The receptor (generator) potential arises from stimulus-gated transduction channels — commonly mechanically-gated (as in mechanoreceptors) or ligand-gated (as in chemoreceptors) — that open directly in response to the physical or chemical stimulus itself. VOLTAGE-gated channels, by contrast, are what generate and propagate the action potential once threshold is reached further along the axon; they are not the channels responsible for the initial receptor potential, which (like other graded potentials) also lacks a refractory period.
+
+## explicit_objective
+State that the receptor potential is generated by stimulus-gated (e.g. mechanically-gated) channels, not by voltage-gated channels.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Receptor (generator) potential transduction channels
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Receptor potential transduction|Mechanically-gated channel|Voltage-gated channel exception
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming the same voltage-gated channels generate both the receptor potential and the action potential — the receptor potential arises from stimulus-gated transduction channels; voltage-gated channels are specifically responsible for the propagated action potential.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p4 q15 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-51C61562F85559
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Receptor potential is specialized by all the following except: A- Being activated by mechanically gated channels. B- Not blocked by local anesthetics. C- Being activated by voltage gated channels. D- Has no refractory period. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p4, q15
+
+
+---
+
+# Item
+
+## id
+CON-NEU-5E6E2CC64D34D1
+
+## label
+Muscle tissue contains pain receptors, Pacinian-type receptors and nociceptors, among other receptor types
+
+## canonical_key
+physiology.muscle-receptors.pain-pacinian-nociceptor-all-present
+
+## definition
+Beyond its classical proprioceptors (the muscle spindle and Golgi tendon organ), skeletal muscle also carries free nerve endings that function as pain receptors/nociceptors (activated by ischaemia, excessive stretch or chemical mediators of muscle injury/fatigue) and Pacinian-type corpuscles near fascial planes and tendons (sensitive to vibration and deep pressure) — so muscle tissue as a whole houses all three receptor types listed, not any single one exclusively.
+
+## explicit_objective
+State that muscle tissue contains pain receptors, Pacinian-type receptors and nociceptors, not any one of these exclusively.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Receptor types found within muscle
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Muscle receptor types|Muscle nociceptor|Intramuscular Pacinian receptor
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming muscle receptors are limited to the classical proprioceptors (spindle, tendon organ) — muscle tissue also carries nociceptive free nerve endings and Pacinian-type pressure/vibration receptors.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p5 q17 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-5E6E2CC64D34D1
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Types of receptors found in muscles: A- Pain receptor. B- Pacinian receptor. C- Nociceptor. D- All of the above. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p5, q17
+
+
+---
+
+# Item
+
+## id
+CON-NEU-63261E1F45420D
+
+## label
+The Pacinian corpuscle is the deep-pressure/vibration receptor of the hypodermis (subcutaneous tissue)
+
+## canonical_key
+physiology.pacinian-corpuscle.hypodermis-location
+
+## definition
+Among the skin's mechanoreceptors, the Pacinian corpuscle sits deepest — in the hypodermis (subcutaneous tissue) rather than the papillary or reticular dermis — where its large, layered capsule is well positioned to detect deep pressure and vibration transmitted through the tissue. Meissner's corpuscle (superficial, papillary dermis) and Ruffini's corpuscle (deeper reticular dermis) sit at progressively more superficial levels than the hypodermal Pacinian corpuscle.
+
+## explicit_objective
+State that the Pacinian corpuscle is the mechanoreceptor located in the hypodermis, among the options given.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Hypodermal receptor identification
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Pacinian corpuscle location|Hypodermis receptor|Deep pressure receptor
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the depth ordering of cutaneous mechanoreceptors — Meissner's corpuscle sits most superficially (papillary dermis), Ruffini's corpuscle deeper (reticular dermis), and the Pacinian corpuscle deepest of all, in the hypodermis.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p5 q19 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-63261E1F45420D
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Receptors found in the hypodermis is: A- Plexus of bounet. B- Meissner’s corpuscle. C- Ruffini’s corpuscle. D- Pacinian corpuscle. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p5, q19
+
+
+---
+
+# Item
+
+## id
+CON-NEU-68C4791563358D
+
+## label
+Intrafusal fibers' equatorial region is filled with a gelatinous substance, unlike ordinary extrafusal muscle
+
+## canonical_key
+physiology.intrafusal-fiber.gelatinous-equatorial-region
+
+## definition
+Intrafusal fibers inside the muscle spindle capsule are specialised skeletal muscle fibers whose central (equatorial) region departs from ordinary (extrafusal) muscle structure: rather than being filled with regularly-arranged contractile sarcomeres, this central region is packed with a gelatinous, sarcomere-poor sarcoplasm (most pronounced in the nuclear bag fiber), while only the polar ends retain contractile filaments. This — together with dual (afferent AND efferent, not afferent-only) innervation and their location strictly INSIDE the spindle capsule, not exterior to it — is what specialises intrafusal fibers from ordinary extrafusal skeletal muscle.
+
+## explicit_objective
+State that the intrafusal fiber's equatorial region is filled with a gelatinous substance, distinguishing it from ordinary extrafusal muscle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Intrafusal fiber specialisation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Intrafusal fiber structure|Muscle spindle equatorial region|Gelatinous sarcoplasm
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming intrafusal fibers are innervated by afferent fibers only — they receive BOTH sensory (Ia/II afferent) and motor (gamma efferent) innervation, and they lie inside, not exterior to, the spindle's own capsule.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p5 q20 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-68C4791563358D
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Intrafusal fibers present in a muscle spindle are specialized by: A- Like ordinary extrafusal skeletal muscles. B- Being filled with a gelatinous substance. C- Found exterior to the spindles cavity. D- They are supplied by the afferent only. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p5, q20
+
+
+---
+
+# Item
+
+## id
+CON-NEU-6FED0EB1B850B2
+
+## label
+Ruffini's corpuscle is stimulated by displacement of the collagen fibers it is embedded within
+
+## canonical_key
+physiology.ruffini-corpuscle.collagen-fiber-displacement-stimulus
+
+## definition
+Ruffini's corpuscle is embedded within bundles of dermal collagen fibers, and its nerve terminal is mechanically activated by DISPLACEMENT of those collagen fibers as the skin is stretched or deep pressure is applied — not by an increase or decrease in collagen fiber number, but by the mechanical movement of the fibers already present around the ending.
+
+## explicit_objective
+State that Ruffini's corpuscle is stimulated by displacement (mechanical movement) of the collagen fibers it is embedded within.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Ruffini's corpuscle stimulus mechanism
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Ruffini corpuscle stimulus|Collagen fiber displacement|Dermal stretch receptor
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing 'displacement of collagen fibers' (the actual mechanical stimulus for Ruffini's corpuscle) with a change in the AMOUNT of collagen (increased or decreased fiber number), which is not the transduction mechanism being tested.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p6 q21 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-6FED0EB1B850B2
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Ruffini’s corpuscle is stimulated by: A- Touch. B- Increased collagen fibers. C- Decreased collagen fibers. D- Displacement of collagen fibers. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p6, q21
+
+
+---
+
+# Item
+
+## id
+CON-NEU-79A3B378728C71
+
+## label
+The muscle spindle is the only receptor with both sensory and motor (gamma efferent) innervation
+
+## canonical_key
+physiology.muscle-spindle.only-receptor-with-motor-and-sensory-innervation
+
+## definition
+The muscle spindle is unique among the classical sensory receptors in receiving BOTH sensory innervation (Ia primary and II secondary afferents wrapping its intrafusal fibers) AND motor innervation (gamma efferent fibers, which adjust intrafusal fiber tension and thereby the spindle's own sensitivity). No other cutaneous or proprioceptive receptor listed — the Golgi tendon organ, Ruffini's corpuscle, Meissner's corpuscle — receives efferent (motor) innervation; each is purely sensory.
+
+## explicit_objective
+State that the muscle spindle is the only receptor with both sensory and motor innervation.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Dual (sensory and motor) receptor innervation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Muscle spindle dual innervation|Gamma efferent|Sensory and motor receptor
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming any proprioceptor might have dual innervation — the Golgi tendon organ, despite also being a proprioceptor, is purely sensory (Ib afferent only, no motor innervation), unlike the muscle spindle.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p6 q22 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-79A3B378728C71
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The only receptor that has motor and sensory innervation is: A- Golgi tendon. B- Muscle spindle. C- Ruffini. D- Meissner’s corpuscle. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p6, q22
+
+
+---
+
+# Item
+
+## id
+CON-NEU-83627178F0367C
+
+## label
+The muscle spindle receives motor innervation from myelinated gamma efferent fibers
+
+## canonical_key
+physiology.muscle-spindle.myelinated-gamma-efferent-motor-supply
+
+## definition
+The intrafusal fibers of the muscle spindle receive their motor innervation from gamma motor neurons, whose axons are MYELINATED (thin A-gamma type fibers), distinct from the larger, also-myelinated alpha motor neurons that supply ordinary extrafusal skeletal muscle fibers, not the intrafusal fibers. Gamma efferent activity adjusts intrafusal fiber tension, keeping the spindle's sensory endings sensitive to stretch across a wide range of overall muscle lengths.
+
+## explicit_objective
+State that the muscle spindle's motor innervation is via myelinated gamma efferent fibers.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Motor innervation of the muscle spindle
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Gamma motor neuron|Gamma efferent fiber|Muscle spindle motor supply
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing gamma efferent fibers (myelinated, supply intrafusal fibers) with alpha efferent fibers (also myelinated, but supply extrafusal, not intrafusal, muscle fibers) — both are myelinated, but only gamma efferents innervate the spindle's own intrafusal fibers.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p6 q23 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-83627178F0367C
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Motor innervation of the muscle spindle is formed of: A- Unmyelinated gamma efferent fibers. B- Myelinated alpha efferent fibers. C- Myelinated gamma efferent fibers. D- Unmyelinated alpha efferent fibers. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p6, q23
+
+
+---
+
+# Item
+
+## id
+CON-NEU-837A04FFAD5A95
+
+## label
+The muscle spindle monitors the degree of muscle stretch, while the Golgi tendon organ monitors force of contraction
+
+## canonical_key
+physiology.muscle-spindle-vs-tendon-organ.stretch-vs-force-function
+
+## definition
+The muscle spindle, lying in parallel with extrafusal fibers, monitors the DEGREE OF STRETCH (length and rate of change of length) of the muscle it sits within, forming the afferent limb of the stretch reflex. The Golgi tendon organ, lying in series at the musculotendinous junction, instead monitors the FORCE (tension) generated by muscle contraction, protecting the muscle-tendon unit from excessive force via the inverse myotatic (Golgi tendon) reflex — a clean functional division between a length detector and a tension detector.
+
+## explicit_objective
+State that the muscle spindle monitors degree of stretch while the Golgi tendon organ monitors force of muscle contraction.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Muscle spindle vs Golgi tendon organ function
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Muscle spindle function|Golgi tendon organ function|Stretch vs tension detector
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Conflating the muscle spindle's LENGTH/stretch-detecting role with the Golgi tendon organ's TENSION/force-detecting role — the two proprioceptors are functionally complementary, not interchangeable, and answer options phrased with similar-sounding wording ('length'/'tension' vs 'stretch'/'force') can obscure which pairing the question intends.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p6 q24 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-837A04FFAD5A95
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The function of muscle spindle is ….. while that of tendon spindle is …. A- Monitoring changes in force muscle contraction/monitoring changes in pressure on the muscle. B- Monitoring changes in the length of stretched muscle/monitoring changes in tension of the muscle. C- Monitoring changes in the degree of stretch of the muscle/monitoring changes in force of muscle contraction. D- monitoring changes in force of muscle contraction/monitoring changes in pressure on the muscle. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p6, q24
+
+
+---
+
+# Item
+
+## id
+CON-NEU-88F95673CA38E8
+
+## label
+Flower-spray (secondary) nerve endings encircle the peripheral part of the nuclear chain fiber
+
+## canonical_key
+physiology.muscle-spindle.flower-spray-ending-nuclear-chain-fiber
+
+## definition
+The muscle spindle carries two types of sensory nerve ending: the primary (annulospiral, group Ia) ending, which winds tightly around the central/equatorial region of both nuclear bag and nuclear chain fibers, and the secondary (flower-spray, group II) ending, which characteristically encircles the more PERIPHERAL part of the nuclear region, chiefly on nuclear chain fibers, just to either side of where the primary ending sits.
+
+## explicit_objective
+State that the flower-spray (secondary) nerve ending encircles the peripheral part of the nuclear chain fiber's nuclear region.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Muscle spindle sensory nerve endings
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Flower-spray ending|Secondary sensory ending|Nuclear chain fiber innervation
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the annulospiral (primary, Ia) ending — which wraps the CENTRAL/equatorial region — with the flower-spray (secondary, II) ending, which sits more peripherally, chiefly on nuclear chain fibers.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p6 q25 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-88F95673CA38E8
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the fibers encircle peripheral part of the nuclear region of the nuclear chain? A- Annulospiral nerve endings. B- Flower spray nerve endings. C- Gamma motor nerve endings. D- Alpha motor nerve endings. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p6, q25
+
+
+---
+
+# Item
+
+## id
+CON-NEU-8B02B0EFEE96F5
+
+## label
+The muscle spindle is the receptor responsible for the (myotatic) stretch reflex
+
+## canonical_key
+physiology.stretch-reflex.muscle-spindle-receptor
+
+## definition
+The stretch (myotatic) reflex — the monosynaptic reflex exemplified by the knee-jerk — is initiated when the MUSCLE SPINDLE's primary (Ia) sensory ending detects a sudden stretch of the muscle, sending an afferent signal that synapses directly onto the alpha motor neurons supplying the same (extrafusal) muscle, producing a rapid reflex contraction that resists the stretch. Neither the Pacinian corpuscle, Meissner's corpuscle nor the tendon (Golgi) organ initiates this reflex — the Golgi tendon organ instead drives the opposite (inverse myotatic/inhibitory) reflex in response to excessive tension.
+
+## explicit_objective
+State that the muscle spindle is the receptor responsible for the stretch (myotatic) reflex.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Spinal reflexes
+
+## subtopic
+Stretch reflex receptor
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Stretch reflex|Myotatic reflex receptor|Knee-jerk reflex
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the muscle spindle's role in the (excitatory) stretch reflex with the Golgi tendon organ's role in the (inhibitory) inverse myotatic reflex — the two proprioceptors drive opposite reflex actions.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p7 q26 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8B02B0EFEE96F5
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which receptor is responsible for the stretch reflex receptor? A- Muscle spindle. B- Pacinian’s corpuscle. C- Meissner’s corpuscle. D- Tendon spindle. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p7, q26
+
+
+---
+
+# Item
+
+## id
+CON-NEU-8B5B9FAD59E176
+
+## label
+The action potential is caused by activation of voltage-gated channels
+
+## canonical_key
+physiology.action-potential.caused-by-voltage-gated-channels
+
+## definition
+The action potential is generated by the sequential opening of VOLTAGE-GATED sodium (and then potassium) channels once a stimulus depolarises the membrane to threshold — a regenerative, propagated, all-or-none event that (unlike the graded receptor potential) does not summate and is not a purely local, unpropagated phenomenon. Mechanically-gated channels, by contrast, generate the initial local receptor potential in a mechanoreceptor, not the action potential itself.
+
+## explicit_objective
+State that the action potential is caused by activation of voltage-gated channels.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Nerve physiology
+
+## subtopic
+Action potential properties
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Action potential mechanism|Voltage-gated channel|All-or-none impulse
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the properties of the action potential (propagated, all-or-none, voltage-gated-channel-driven, no summation) with those of the graded receptor potential (local, graded/summating, stimulus-gated-channel-driven).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p7 q27 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8B5B9FAD59E176
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following is correct according to properties of action potential? A- Local, unpropagated. B- Can be summated. C- Caused by activation of voltage gated channels. D- Caused by activation of mechanically gated channels. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p7, q27
+
+
+---
+
+# Item
+
+## id
+CON-NEU-8B7331C065515B
+
+## label
+An increase in stimulus intensity is coded as an increase in action potential FREQUENCY, not amplitude
+
+## canonical_key
+physiology.sensory-coding.stimulus-intensity-coded-by-ap-frequency
+
+## definition
+Because the action potential is all-or-none, its AMPLITUDE cannot vary with stimulus strength; instead, stronger stimuli are coded by an increase in the FREQUENCY of action potentials fired (and by recruiting additional, higher-threshold afferent fibers) — a principle sometimes attributed to Adrian's early work on sensory coding, and the basis by which the nervous system represents a graded range of stimulus intensities using an intrinsically all-or-none signal.
+
+## explicit_objective
+State that an increase in stimulus intensity is coded by an increase in action potential frequency, not amplitude.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Nerve physiology
+
+## subtopic
+Intensity coding
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Intensity coding|Action potential frequency coding|Adrian's law
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming stronger stimuli produce a 'bigger' action potential (increased amplitude) — the action potential is all-or-none and cannot vary in amplitude; intensity is instead coded by firing frequency (and afferent recruitment).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > General sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p7 q28 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8B7331C065515B
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+An increase in stimulus intensity causes: A- An increase in action potential amplitude. B- An increase in action potential frequency. C- A decrease in action potential frequency. D- A decrease in action potential amplitude. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p7, q28
+

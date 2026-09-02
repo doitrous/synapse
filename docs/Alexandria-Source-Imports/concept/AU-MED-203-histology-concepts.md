@@ -3246,3 +3246,783 @@ relationships: Walked the AU-MED-203 concepts minted alongside this one in the s
 au: Workshop Quiz 4, p8 q27
 
 ---
+
+---
+
+# Item
+
+## id
+CON-NEU-05FF149DC51874
+
+## label
+Nuclear bag intrafusal fibers have an expanded, not a non-expanded, non-contractile equatorial region
+
+## canonical_key
+histology.muscle-spindle.nuclear-bag-fiber-expanded-equatorial-region
+
+## definition
+Nuclear bag intrafusal fibers, one of the two intrafusal fibre types inside a muscle spindle capsule (with nuclear chain fibers), are named for the way their nuclei cluster in a distended, sarcomere-poor equatorial (central) region — the 'bag'. This central non-contractile region is characteristically EXPANDED/dilated in bag fibers, not merely un-widened as in chain fibers, and is filled with a gelatinous, nucleus-rich sarcoplasm; 2-4 bag fibers, thicker than chain fibers, run the length of a typical spindle.
+
+## explicit_objective
+State that the nuclear bag intrafusal fiber's central non-contractile region is expanded (not un-expanded), distinguishing it from the nuclear chain fiber.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Muscle spindle histology
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Nuclear bag fiber|Intrafusal fiber equatorial region|Muscle spindle bag fiber
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming nuclear bag and nuclear chain fibers share the same equatorial morphology — only the bag fiber's central region is expanded/dilated; the chain fiber's nuclei are arranged in a single row without that expansion.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Sensory receptor and ganglion histology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p2 q2 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-05FF149DC51874
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following characterize the nuclear bag fibers except: A- They are 2-4 in number. B- Each has a central non contractile region. C- Non contractile region is not expanded. D- Contains many aggregated nuclei. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p2, q2
+
+
+---
+
+# Item
+
+## id
+CON-NEU-198D75A4CF7391
+
+## label
+Craniospinal (sensory) ganglion cell bodies are oval, pseudounipolar, with a thick capsule and myelinated fibers
+
+## canonical_key
+histology.craniospinal-ganglion.oval-shape-thick-capsule-pseudounipolar
+
+## definition
+Craniospinal (cranial and spinal dorsal root) sensory ganglia are swellings on the posterior root/cranial nerve containing pseudounipolar neuron cell bodies, each with a large, round, centrally placed nucleus and surrounded by a ring of satellite (capsule) cells and a thick connective-tissue capsule with septa. The neuron cell bodies themselves are characteristically OVAL in shape, clustered at the periphery of the ganglion with the myelinated central and peripheral processes running through its centre — distinct from autonomic (multipolar) ganglia, whose cells are irregular/stellate and whose fibers are unmyelinated.
+
+## explicit_objective
+State that craniospinal (sensory) ganglion cell bodies are oval in shape, distinguishing this from autonomic ganglion morphology.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+## topic
+Peripheral nervous system histology
+
+## subtopic
+Craniospinal (sensory) ganglion structure
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Craniospinal ganglion|Dorsal root ganglion histology|Sensory ganglion shape
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing craniospinal (sensory, pseudounipolar) ganglion histology with autonomic (multipolar) ganglion histology — the sensory ganglion has a thick capsule, oval cell bodies and myelinated fibers, while the autonomic ganglion has multipolar cells, a thin/absent capsule and predominantly unmyelinated postganglionic fibers.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Sensory receptor and ganglion histology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p2 q4 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-198D75A4CF7391
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following characterize the craniospinal ganglia except: A- They have a thin capsule with thin septa. B- Ganglion cells are multipolar neurons with eccentric nuclei. C- The nerve fibers are unmyelinated. D- They are oval in shape. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p2, q4
+
+
+---
+
+# Item
+
+## id
+CON-NEU-1AD4F150B33953
+
+## label
+The tendon (Golgi) spindle has no motor nerve endings — it is a purely sensory receptor
+
+## canonical_key
+histology.golgi-tendon-organ.no-motor-innervation
+
+## definition
+The tendon (Golgi) spindle, or Golgi tendon organ, is a fusiform capsulated proprioceptor located in series with skeletal muscle fibers at the musculotendinous junction, formed of braided collagen fascicles interwoven with sensory (group Ib afferent) nerve terminals. Unlike the muscle spindle, the Golgi tendon organ receives NO motor nerve endings at all — it is a purely sensory structure, signalling the muscle's tension/force of contraction, without any efferent (motor) innervation to modulate its sensitivity.
+
+## explicit_objective
+State that the Golgi tendon organ (tendon spindle) has no motor nerve endings, unlike the muscle spindle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Golgi tendon organ histology
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Golgi tendon organ|Tendon spindle|Tendon organ innervation
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming the tendon organ, like the muscle spindle, receives efferent (gamma motor) innervation — only the muscle spindle has both sensory and motor innervation; the tendon organ is purely sensory (Ib afferent only).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Sensory receptor and ganglion histology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p2 q5 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-1AD4F150B33953
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Tendon spindle is characterized by: A- It has no motor nerve endings. B- It is found between the skeletal muscle fibers. C- It is a fusiform structure. D- It has small modified muscle fibers called intrafusal muscle fibers. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p2, q5
+
+
+---
+
+# Item
+
+## id
+CON-NEU-1BC546A68F8A0F
+
+## label
+Craniospinal ganglion neurons are pseudounipolar with a centrally placed nucleus
+
+## canonical_key
+histology.craniospinal-ganglion.pseudounipolar-central-nucleus
+
+## definition
+The neuron cell bodies of a craniospinal (sensory, dorsal root/cranial) ganglion are pseudounipolar, round-to-oval, with a large, spherical, CENTRALLY placed nucleus and a prominent nucleolus, each surrounded by a ring of flattened satellite (capsule) cells. This central nuclear position, together with the pseudounipolar cell shape, distinguishes sensory ganglion neurons from autonomic (multipolar) ganglion neurons, whose more irregular cell bodies more often show an eccentrically placed nucleus.
+
+## explicit_objective
+State that craniospinal ganglion neurons are pseudounipolar with a centrally, not eccentrically, placed nucleus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+## topic
+Peripheral nervous system histology
+
+## subtopic
+Craniospinal ganglion cell nucleus position
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Craniospinal ganglion cell type|Pseudounipolar neuron nucleus|Dorsal root ganglion cell
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming the pseudounipolar sensory-ganglion neuron has an eccentric nucleus by analogy with autonomic ganglion cells — the sensory ganglion neuron's large, round nucleus is centrally, not eccentrically, placed.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Sensory receptor and ganglion histology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p5 q16 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-1BC546A68F8A0F
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The type of cells found in craniospinal ganglion: A- Pseudounipolar with a central nucleus. B- Stellate with a central nucleus. C- Stellate with an eccentric nucleus. D- Pseudounipolar with an eccentric nucleus. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p5, q16
+
+
+---
+
+# Item
+
+## id
+CON-NEU-1E38BF0DCBA0E5
+
+## label
+The Pacinian corpuscle's lamellae are formed of Schwann cells (inner core) and fibroblasts (outer capsule)
+
+## canonical_key
+histology.pacinian-corpuscle.schwann-and-fibroblast-lamellae
+
+## definition
+The Pacinian corpuscle is a large, ovoid, encapsulated mechanoreceptor built from concentric onion-like lamellae surrounding a single unmyelinated nerve terminal at its core. The inner-core lamellae are formed of modified SCHWANN CELLS, while the outer capsular lamellae are formed of FIBROBLASTS and their collagenous connective-tissue product, together giving the corpuscle its layered, fluid-filled structure that mechanically filters sustained pressure and favours transient, rapidly-changing (vibratory) stimuli.
+
+## explicit_objective
+State that the Pacinian corpuscle's lamellae are composed of Schwann cells and fibroblasts.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+## topic
+Sensory receptors
+
+## subtopic
+Pacinian corpuscle histology
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Pacinian corpuscle cells|Pacinian lamellae|Vibration receptor histology
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the Pacinian corpuscle's Schwann-cell/fibroblast lamellae with unrelated cell types such as the interstitial cells of Cajal, which are gastrointestinal pacemaker cells with no role in cutaneous mechanoreception.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Sensory receptor and ganglion histology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p5 q18 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-1E38BF0DCBA0E5
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Cells found in Pacinian corpuscles are: A- Schwann cells. B- Cajal cells. C- Fibroblast. D- A and C. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p5, q18
+

@@ -10090,3 +10090,2967 @@ relationships: Walked the AU-MED-203 concepts minted alongside this one in the s
 au: Workshop Quiz 4, p9 q33
 
 ---
+
+---
+
+# Item
+
+## id
+CON-NEU-8FABD01DF54147
+
+## label
+Occipitalis has a bony attachment and is supplied by the posterior auricular branch of the facial nerve
+
+## canonical_key
+anatomy.occipitofrontalis.occipital-belly-bony-attachment-posterior-auricular
+
+## definition
+Occipitofrontalis is a single muscle with two bellies joined by the galea aponeurotica: the frontal belly (frontalis) has NO bony attachment, blending into the skin/eyebrow superiorly and supplied by the TEMPORAL branch of the facial nerve, while the occipital belly (occipitalis) DOES have a bony attachment — arising from the highest nuchal line of the occipital bone and the mastoid part of the temporal bone — and is supplied by the POSTERIOR AURICULAR branch of the facial nerve.
+
+## explicit_objective
+Distinguish the frontal belly (no bony attachment, temporal branch) from the occipital belly (bony attachment, posterior auricular branch) of occipitofrontalis.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Scalp and face
+
+## subtopic
+Occipitofrontalis innervation and attachment
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Occipitofrontalis muscle|Occipitalis nerve supply|Frontalis vs occipitalis
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming both bellies of occipitofrontalis share the same attachment pattern — only the occipital belly has a bony origin (occipital bone/mastoid); the frontal belly has none, ending in skin and the orbicularis oculi/eyebrow region instead.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Scalp and facial nerve
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p9 q31 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8FABD01DF54147
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+To distinguish frontal belly of occipitofrontalis muscle from occipital belly of occipitofrontalis muscle: A- Frontalis has bony attachment and supplied by the temporal branch. B- Occipitalis has bony attachment and supplied by the posterior auricular branch. C- Frontalis has no bony attachment and supplied by the posterior auricular branch. D- Occipitalis has no bony attachment and supplied by the posterior auricular branch. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p9, q31
+
+
+---
+
+# Item
+
+## id
+CON-NEU-8FD623568F7735
+
+## label
+Loss of forehead wrinkling points to injury of the temporal branch of the facial nerve
+
+## canonical_key
+anatomy.facial-nerve.temporal-branch-forehead-wrinkling-loss
+
+## definition
+The frontal belly of occipitofrontalis (frontalis), responsible for wrinkling the forehead skin and raising the eyebrows, is supplied by the TEMPORAL branch of the facial nerve (CN VII). Injury to this branch — as from trauma along its superficial course over the zygomatic arch — paralyses frontalis, producing a smooth, unwrinkled forehead and inability to raise the eyebrow on the affected side, a classic peripheral (lower motor neuron) facial nerve finding.
+
+## explicit_objective
+State that inability to wrinkle the forehead localises to injury of the temporal branch of the facial nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Cranial nerves
+
+## subtopic
+Facial nerve — temporal branch and forehead wrinkling
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Temporal branch facial nerve|Frontalis paralysis|Forehead wrinkling loss
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing which facial nerve branch supplies frontalis (temporal branch) with other named branches (zygomatic, buccal, marginal mandibular, cervical) that supply different facial muscle groups.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Scalp and facial nerve
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p9 q32 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8FD623568F7735
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Mr. Ahmed had a car accident and now he can't wrinkle the skin of forehead which nerve is probably injured: A- Supratrochlear nerve of the Opthalmic nerve. B- auriculotemporal n. of the mandibular. C- Temporal branch of the fascial nerve. D- Posterior auricular of the fascial nerve. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p9, q32
+
+
+---
+
+# Item
+
+## id
+CON-NEU-971BBB6832830A
+
+## label
+Scalp avulsion classically separates through the fourth (loose areolar) layer
+
+## canonical_key
+anatomy.scalp.avulsion-plane-fourth-loose-areolar-layer
+
+## definition
+The scalp has five layers, remembered by the mnemonic SCALP: Skin, dense subcutaneous Connective tissue, galea Aponeurotica, Loose areolar tissue, and Pericranium. The loose areolar (fourth) layer is a plane of easy cleavage between the aponeurosis above and the pericranium below, which is exactly why traumatic scalp avulsion ('scalping') injuries classically separate through this fourth layer, tearing the first three layers away as a relatively clean unit.
+
+## explicit_objective
+State that traumatic scalp separation (avulsion) classically occurs through the fourth (loose areolar) layer.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Scalp and face
+
+## subtopic
+Scalp layer of surgical/traumatic separation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Scalp avulsion|Loose areolar layer|SCALP mnemonic layers
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the loose areolar (danger) layer, the classic plane of scalp avulsion, with the dense connective tissue (second) layer, which is instead the classic site of profuse bleeding when injured because it firmly binds blood vessels open.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Scalp and facial nerve
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p9 q33 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-971BBB6832830A
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Alex and Kris had a fight that cause separation of the scalp of Alex, at which layer do u think this separation happened? A- First layer. B- Second layer. C- Third layer. D- Fourth layer. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p9, q33
+
+
+---
+
+# Item
+
+## id
+CON-NEU-9AE148EB72A3CA
+
+## label
+The tentorium cerebelli is the intermediate dural fold between falx cerebri and falx cerebelli
+
+## canonical_key
+anatomy.dural-folds.tentorium-cerebelli-intermediate-fold
+
+## definition
+The dura mater forms four major reflected folds: falx cerebri (in the midline sagittal plane, between the cerebral hemispheres), falx cerebelli (in the midline, between the cerebellar hemispheres), tentorium cerebelli (a roughly horizontal fold separating the cerebrum above from the cerebellum below), and diaphragma sellae (roofing the pituitary fossa). Of these, the tentorium cerebelli sits anatomically and functionally between the two vertical falx folds — falx cerebri attaches to its upper surface anteriorly and falx cerebelli to its lower surface posteriorly — making it the intermediate fold linking the two.
+
+## explicit_objective
+State that the tentorium cerebelli is the intermediate dural fold between falx cerebri and falx cerebelli.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Meninges
+
+## subtopic
+Dural folds — tentorium cerebelli as the intermediate fold
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Tentorium cerebelli|Dural fold arrangement|Intermediate dural septum
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the four dural folds' relative positions — only the tentorium cerebelli is horizontally oriented and interposed between the two vertical midline folds (falx cerebri above, falx cerebelli below).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p9 q34 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-9AE148EB72A3CA
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which one of these Dural folds is considered as an intermediate (separation) between other two Dural folds? A- Falx cerebri. B- Falx cerebelli. C- Tentorium cerebelli. D- Diaphragma sellae. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p9, q34
+
+
+---
+
+# Item
+
+## id
+CON-NEU-9E8165F7FCF947
+
+## label
+The free margin of the tentorium cerebelli attaches anteriorly to the anterior clinoid processes
+
+## canonical_key
+anatomy.tentorium-cerebelli.free-margin-anterior-clinoid-process-attachment
+
+## definition
+The tentorium cerebelli has two margins: a peripheral (attached, convex) margin fixed to the skull along the transverse sulcus, petrous ridge and posterior clinoid processes, and a free (concave) margin that bounds the tentorial notch (incisura) through which the midbrain passes. This free margin attaches ANTERIORLY, on each side, to the ANTERIOR CLINOID PROCESS of the sphenoid bone.
+
+## explicit_objective
+State that the free margin of the tentorium cerebelli attaches anteriorly to the anterior clinoid process.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Meninges
+
+## subtopic
+Tentorium cerebelli free margin attachment
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Tentorial free margin|Anterior clinoid process|Tentorial notch boundary
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the tentorium's free (concave) margin's anterior attachment (anterior clinoid process) with its attached (peripheral) margin's posterior attachments (posterior clinoid process, petrous ridge, occipital bone).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p9 q35 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-9E8165F7FCF947
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+the free margin of tentorium cerebelli is attached anteriorly to: A- Anterior clinoid process. B- Posterior clinoid process. C- Superior border of petrous temporal bone. D- Transverse sulcus. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p9, q35
+
+
+---
+
+# Item
+
+## id
+CON-NEU-A0CEFFF40ECCF9
+
+## label
+The straight sinus is formed by union of the inferior sagittal sinus and the great cerebral vein
+
+## canonical_key
+anatomy.straight-sinus.formed-by-iss-and-great-cerebral-vein
+
+## definition
+The straight sinus runs along the line where falx cerebri meets the upper surface of the tentorium cerebelli, formed at its anterior end by the union of the INFERIOR SAGITTAL SINUS (draining the falx cerebri and medial cerebral surfaces) with the GREAT CEREBRAL VEIN OF GALEN (draining the deep structures of the brain); it then runs posteriorly to drain into the confluence of sinuses.
+
+## explicit_objective
+State that the straight sinus is formed by the union of the inferior sagittal sinus and the great cerebral vein.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Dural venous sinuses
+
+## subtopic
+Straight sinus formation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Straight sinus formation|Great cerebral vein of Galen|Inferior sagittal sinus union
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the straight sinus's formation (inferior sagittal sinus + great cerebral vein) with the superior sagittal sinus's separate drainage into the confluence of sinuses.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p10 q36 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-A0CEFFF40ECCF9
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+straight sinus is formed by: A- SSS only. B- ISS only. C- ISS and SSS. D- ISS and great cerebral vein. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p10, q36
+
+
+---
+
+# Item
+
+## id
+CON-NEU-A2EC1AA72BE7CF
+
+## label
+Cavernous sinus thrombosis classically produces squint, exophthalmos and can progress to death
+
+## canonical_key
+anatomy.cavernous-sinus-thrombosis.squint-exophthalmos-death-triad
+
+## definition
+Cavernous sinus thrombosis is a life-threatening condition, most often arising from spread of facial or paranasal sinus infection via the valveless veins draining into the cavernous sinus. Its classic features include ophthalmoplegia/SQUINT (from compression of the oculomotor, trochlear and abducent nerves in the lateral wall/body of the sinus), proptosis/EXOPHTHALMOS and chemosis (from impaired venous drainage of the orbit via the ophthalmic veins), fever, and — if untreated — progression to intracranial spread, meningitis and DEATH.
+
+## explicit_objective
+List squint, exophthalmos and death among the recognised features/outcomes of cavernous sinus thrombosis.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Dural venous sinuses
+
+## subtopic
+Cavernous sinus thrombosis complications
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Cavernous sinus thrombosis|CST complications|Septic cavernous sinus thrombosis
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Treating this exam item's exclusion of 'blindness' as a claim that visual loss never occurs in cavernous sinus thrombosis — clinically, visual impairment IS a recognised (though typically later or less emphasised in this exam's framing) complication, via optic nerve/retinal venous congestion; the printed key is kept as authored, with this divergence flagged.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p10 q37 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-A2EC1AA72BE7CF
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+In case of cavernous sinus thrombosis all of the following could happen except: A- Squint. B- Exophthalmos. C- Blindness. D- Death. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p10, q37
+
+
+---
+
+# Item
+
+## id
+CON-NEU-A5A90309AED2E6
+
+## label
+The transverse sinus runs along the tentorium cerebelli’s attachment to the occipital bone
+
+## canonical_key
+anatomy.tentorium-cerebelli.transverse-sinus-at-occipital-attachment
+
+## definition
+Along its attached (peripheral) margin, the tentorium cerebelli carries different named venous sinuses depending on which bone it is fixed to: where it attaches to the occipital bone (along the transverse sulcus/groove), it carries the TRANSVERSE SINUS, while where it attaches to the superior border of the petrous temporal bone it instead carries the superior petrosal sinus.
+
+## explicit_objective
+State that the transverse sinus runs in the tentorium cerebelli's attachment to the occipital bone.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Dural venous sinuses
+
+## subtopic
+Tentorium cerebelli occipital bone attachment sinus
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Transverse sinus|Tentorium occipital attachment|Dural venous sinus groove
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the transverse sinus (tentorium's attachment to the occipital bone) with the superior petrosal sinus (tentorium's attachment to the petrous temporal bone) — both run within the tentorium's attached margin, but to different bones.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p10 q38 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-A5A90309AED2E6
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The cavernous sinus of tentorium cerebelli along its attachmed to occipital bone is: A- Superior petrosal sinus. B- Occipital sinus. C- Transverse sinus. D- Sigmoid sinus. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p10, q38
+
+
+---
+
+# Item
+
+## id
+CON-NEU-ABA48C0650255E
+
+## label
+The trochlear nerve pierces the dura at the point where the tentorium’s free and attached margins cross
+
+## canonical_key
+anatomy.trochlear-nerve.dural-entry-at-free-attached-margin-crossing
+
+## definition
+The trochlear nerve (CN IV), after emerging from the dorsal midbrain and winding around the cerebral peduncle, is the only cranial nerve classically taught to pierce the dura mater specifically at the point where the tentorium cerebelli's FREE margin crosses its ATTACHED (peripheral) margin, posterolateral to the posterior clinoid process, before running forward within the lateral wall of the cavernous sinus.
+
+## explicit_objective
+State that the trochlear nerve pierces the dura at the point where the tentorium's free and attached margins cross.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Cranial nerves
+
+## subtopic
+Trochlear nerve dural entry point
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Trochlear nerve dural entry|Tentorium margin crossing|CN IV course
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming any of the other cavernous-sinus-related cranial nerves (III, V1, V2) share this specific dural entry point — the crossing of the tentorium's free and attached margins is a landmark specifically associated with the trochlear nerve's course.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p11 q39 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-ABA48C0650255E
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+the nerve that pierces the Dura at the point of crossing of free and attached margin is: A- Oculomotor n. B- Opthalmic n. C- Maxillary n. D- Trochlear n. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p11, q39
+
+
+---
+
+# Item
+
+## id
+CON-NEU-ACA5AD215D874E
+
+## label
+The facial nerve is not a content of the cavernous sinus, unlike the oculomotor nerve
+
+## canonical_key
+anatomy.cavernous-sinus.facial-nerve-not-a-content
+
+## definition
+The cavernous sinus's lateral wall carries, from superior to inferior, the oculomotor (III), trochlear (IV), ophthalmic (V1) and maxillary (V2) nerves, while the abducent nerve (VI) runs freely within the body of the sinus alongside the internal carotid artery. The facial nerve (CN VII) takes an entirely different course — through the internal acoustic meatus and facial canal to the stylomastoid foramen — and is NOT a content of the cavernous sinus at all.
+
+## explicit_objective
+State that the facial nerve, unlike the oculomotor nerve, is not a content of the cavernous sinus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Dural venous sinuses
+
+## subtopic
+Cavernous sinus contents
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Cavernous sinus contents|Facial nerve exclusion|Cranial nerves III-VI cavernous sinus
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming all cranial nerves running near the base of the skull pass through the cavernous sinus — only III, IV, V1, V2 (lateral wall) and VI (within the sinus body) do; VII takes a separate course through the temporal bone.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p11 q40 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-ACA5AD215D874E
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following nerves are the contents of the cavernous sinus except: A- III, VII. B- III, IV. C- V1, V2. D- III, VI. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p11, q40
+
+
+---
+
+# Item
+
+## id
+CON-NEU-AD3B1F5D56C906
+
+## label
+Dural venous sinuses lack muscle fibers in their walls, unlike ordinary veins
+
+## canonical_key
+anatomy.dural-venous-sinus.no-muscle-fibers-in-wall
+
+## definition
+Dural venous sinuses are endothelium-lined channels running between the two layers of the dura mater (the periosteal and meningeal layers), receiving venous blood from the brain, meninges, skull bones (diploic veins) and scalp (via emissary veins). Unlike ordinary veins, their rigid dural walls contain NO SMOOTH MUSCLE FIBERS, and they also have no valves — features that keep them permanently patent, non-collapsible conduits for cerebral venous drainage.
+
+## explicit_objective
+State that dural venous sinuses lack muscle fibers in their walls, unlike ordinary veins.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Dural venous sinuses
+
+## subtopic
+General dural venous sinus features
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Dural venous sinus wall|No muscle fibers|No valves feature
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming dural venous sinuses share the same wall structure as peripheral veins — their rigid, dura-derived walls have no smooth muscle and no valves, unlike ordinary veins elsewhere in the body.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p11 q41 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-AD3B1F5D56C906
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following is correct about Dural venous sinuses except: A- Have no valves. B- Present between two layers of dura. C- Receive blood from bones. D- Have muscle fibers. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p11, q41
+
+
+---
+
+# Item
+
+## id
+CON-NEU-ADBB66E6E97DFF
+
+## label
+The oculomotor nerve is anterior to the trochlear nerve at the tentorium cerebelli
+
+## canonical_key
+anatomy.tentorium-cerebelli.oculomotor-anterior-to-trochlear
+
+## definition
+As the oculomotor nerve (III) pierces the dura near the posterior clinoid process (through the oculomotor trigone between the tentorium's free margins) and the trochlear nerve (IV) pierces the dura more posterolaterally, at the crossing of the tentorium's free and attached margins, the OCULOMOTOR nerve's dural entry point — and its subsequent course in the lateral wall of the cavernous sinus — lies ANTERIOR to that of the trochlear nerve.
+
+## explicit_objective
+State that the oculomotor nerve is anterior to the trochlear nerve at the tentorium cerebelli.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Cranial nerves
+
+## subtopic
+Oculomotor and trochlear nerve relation at the tentorium
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Oculomotor vs trochlear nerve position|Tentorial notch nerves|Cranial nerve III and IV relation
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the tentorium's free (concave) margin, which bounds the tentorial notch, with its peripheral (attached) margin — and confusing which nerve (III vs IV) enters more anteriorly at the tentorium.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p11 q42 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-ADBB66E6E97DFF
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following is incorrect about tentorium cerbelli except: A- It has attached central margin and free margin. B- The occulomotor nerve is anterior to the trochlear nerve. C- The peripheral margin forms tentorial notch. D- It has straight sinus in its lower surface. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p11, q42
+
+
+---
+
+# Item
+
+## id
+CON-NEU-AE7060FCD707AB
+
+## label
+The straight sinus is an unpaired (midline) dural venous sinus, unlike the sphenoparietal, cavernous and transverse sinuses
+
+## canonical_key
+anatomy.dural-venous-sinus.straight-sinus-is-unpaired
+
+## definition
+Several dural venous sinuses are PAIRED (bilateral, one on each side): the sphenoparietal, cavernous, superior petrosal, inferior petrosal, transverse and sigmoid sinuses. The straight sinus, by contrast, is a single, UNPAIRED, midline channel — running along the midline junction of falx cerebri and the tentorium cerebelli — like the superior sagittal and occipital sinuses.
+
+## explicit_objective
+State that the straight sinus is unpaired, unlike the sphenoparietal, cavernous and transverse sinuses.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Dural venous sinuses
+
+## subtopic
+Paired vs unpaired dural venous sinuses
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Unpaired dural venous sinus|Straight sinus midline course|Paired venous sinuses
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming all dural venous sinuses are paired structures — the midline sinuses (superior sagittal, inferior sagittal, straight, occipital) are unpaired, while sinuses running along the paired dural folds' lateral attachments (sphenoparietal, cavernous, petrosal, transverse, sigmoid) are paired.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p11 q43 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-AE7060FCD707AB
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following is paired venous sinus except: A- Sphenoparital. B- Cavernous. C- Straight. D- Transverse. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p11, q43
+
+
+---
+
+# Item
+
+## id
+CON-NEU-B0B3385AF7F14D
+
+## label
+The inferior sagittal sinus unites with the great cerebral vein to form the straight sinus
+
+## canonical_key
+anatomy.inferior-sagittal-sinus.unites-with-great-cerebral-vein
+
+## definition
+The inferior sagittal sinus runs within the free (lower) margin of falx cerebri, receiving venous drainage from the medial surfaces of the cerebral hemispheres, and increases in calibre as it passes POSTERIORLY (not anteriorly), before uniting at the back of the falx with the great cerebral vein of Galen to form the straight sinus. It is a single, UNPAIRED midline sinus, not a paired one.
+
+## explicit_objective
+State that the inferior sagittal sinus unites with the great cerebral vein to form the straight sinus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Dural venous sinuses
+
+## subtopic
+Inferior sagittal sinus
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Inferior sagittal sinus|Falx cerebri free margin sinus|Straight sinus tributary
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming the inferior sagittal sinus increases in size as it runs anteriorly, or that it is a paired sinus — it in fact enlarges posteriorly and is an unpaired midline structure.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p11 q44 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-B0B3385AF7F14D
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Inferior sagittal sinus: A- Runs along the anterior half of free margin of cerebral falx. B- It increases in size as it passes forward. C- Unit with great cerebral vein to form straight sinus. D- Is a paired venous sinus. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p11, q44
+
+
+---
+
+# Item
+
+## id
+CON-NEU-B123D909CFF636
+
+## label
+The anterior and posterior intercavernous sinuses are not themselves bilaterally paired structures
+
+## canonical_key
+anatomy.intercavernous-sinus.not-a-bilaterally-paired-structure
+
+## definition
+The anterior and posterior intercavernous sinuses are two midline venous channels running within the anterior and posterior borders of the diaphragma sellae, connecting the right and left cavernous sinuses to one another and, together with them, forming a venous ring around the pituitary gland called the circular sinus. Although there are two intercavernous sinuses (anterior and posterior), each is itself a single midline channel, not a bilaterally (left-right) PAIRED structure the way the cavernous sinuses themselves are.
+
+## explicit_objective
+State that the intercavernous sinuses are not themselves bilaterally paired structures, despite existing as anterior and posterior channels.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Dural venous sinuses
+
+## subtopic
+Intercavernous sinuses
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Intercavernous sinus|Circular sinus|Diaphragma sellae venous connection
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Equating 'there are two of them' (anterior and posterior intercavernous sinuses) with being a bilaterally 'paired' (left-right) structure — the intercavernous sinuses are midline connectors, not lateral pairs, unlike the cavernous sinuses they link.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p11 q45 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-B123D909CFF636
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following is correct concerning intercavernous sinus except: A- They are anterior and postetrior. B- They are paired. C- They form circular sinus with cavernous sinus. D- They pass in borders of diaphragma sellae. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p11, q45
+
+
+---
+
+# Item
+
+## id
+CON-NEU-B1C6C40BD3A509
+
+## label
+The cavernous sinus is related to the internal carotid artery, and to the sphenoid bone/air sinus inferiorly and medially
+
+## canonical_key
+anatomy.cavernous-sinus.relations-ica-sphenoid-inferior-medial
+
+## definition
+The cavernous sinus, on either side of the pituitary fossa, has the internal carotid artery (with its sympathetic plexus and the abducent nerve) coursing through its body, and its inferior and medial relations are formed by the body of the sphenoid bone and its contained sphenoid air sinus — so all three named relations (ICA, inferior sphenoid bone/sinus, medial sphenoid bone/sinus) are individually correct descriptions of the cavernous sinus's surroundings.
+
+## explicit_objective
+State that the cavernous sinus is related to the internal carotid artery and, inferiorly and medially, to the sphenoid bone and its air sinus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Dural venous sinuses
+
+## subtopic
+Cavernous sinus relations
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Cavernous sinus relations|Internal carotid artery in cavernous sinus|Sphenoid air sinus relation
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Treating the cavernous sinus's relation to the internal carotid artery as merely an adjacent, external 'superior' relation — the ICA in fact courses THROUGH the body of the sinus itself, alongside the abducent nerve, while III, IV, V1 and V2 run in its lateral wall.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dural folds and venous sinuses
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p12 q46 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-B1C6C40BD3A509
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Concerning the relations of the cavernous sinuses all is true except: A- Related to internal carotid artery superiorly. B- Related to sphenoid bone and air sinus inferiorly. C- Related to sphenoid bone and air sinus medially. D- All is true. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p12, q46
+
+
+---
+
+# Item
+
+## id
+CON-NEU-BCEB5307771256
+
+## label
+Emissary veins pass through the foramen ovale and foramen lacerum, among other skull foramina
+
+## canonical_key
+anatomy.emissary-veins.foramen-ovale-and-lacerum-pathways
+
+## definition
+Emissary veins are valveless veins connecting the extracranial (scalp/face) venous system to the intracranial dural venous sinuses, providing a potential route for extracranial infection to spread intracranially. Among the several skull foramina they traverse (including the parietal and mastoid foramina and the condylar canal), an emissary vein accompanies the mandibular nerve through the FORAMEN OVALE, and a further emissary channel is described passing through the FORAMEN LACERUM, connecting the cavernous sinus region to the pterygoid venous plexus.
+
+## explicit_objective
+State that emissary veins pass through the foramen ovale and foramen lacerum, among other skull foramina.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Scalp and face
+
+## subtopic
+Emissary vein foramina
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Emissary vein|Foramen ovale emissary vein|Foramen lacerum emissary vein
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming emissary veins pass through only a single named foramen — multiple skull foramina (including but not limited to the foramen ovale and foramen lacerum) carry emissary veins connecting extracranial and intracranial venous systems.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Scalp and facial nerve
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p12 q48 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-BCEB5307771256
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The emissary veins pass through: A- Foramen oval. B- Foramen lacerum. C- Foramen magnum. D- A and B are true. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p12, q48
+
+
+---
+
+# Item
+
+## id
+CON-NEU-C4B0A8489B265C
+
+## label
+This source keys the fourth (loose areolar) scalp layer as the vascular layer
+
+## canonical_key
+anatomy.scalp.fourth-layer-keyed-as-vascular-layer
+
+## definition
+Standard teaching describes the SECOND scalp layer (dense subcutaneous connective tissue) as the vascular layer, since it binds the scalp's numerous blood vessels open within its fibrous septa, producing profuse bleeding when this layer is injured; the fourth (loose areolar) layer is instead classically taught as the 'danger area', where blood or pus can track and spread to the eyelids via the frontalis/orbital connection, rather than being itself specifically named 'the vascular layer'. This item's printed key nonetheless selects the fourth layer as the vascular layer, a divergence from that standard framing that is kept per LANE-CARD and flagged here rather than silently resolved.
+
+## explicit_objective
+State this source's printed answer regarding which scalp layer is described as the vascular layer, while flagging the divergence from standard teaching.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Scalp and face
+
+## subtopic
+Scalp layer vascularity (per this source)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Scalp vascular layer|Loose areolar layer bleeding|Scalp layer divergent key
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Treating this item's printed key (fourth layer = vascular layer) as standard teaching without qualification — most anatomy texts instead describe the SECOND (dense connective tissue) layer as the vascular layer, with the fourth (loose areolar) layer known instead as the danger area for infection/haematoma tracking.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Scalp and facial nerve
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p12 q49 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C4B0A8489B265C
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All of the following is true about the layers of the scalp except: A- The second layer is the vascular layer. B- The fourth layer is the vascular layer. C- Injured 2nd layer causes perfuse bleeding. D- Injured 4th layer causes massive bleeding till eye lids. Key: B (kept as 'true' by this source's key, i.e. the exception it selects is one of A/C/D as false — this source's answer line marks option B as the keyed answer to the item, read here as the intended 'true' statement per its own key).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p12, q49
+
+
+---
+
+# Item
+
+## id
+CON-NEU-C867DCBD689779
+
+## label
+The supratrochlear and supraorbital nerves supply the scalp anterior to the auricle
+
+## canonical_key
+anatomy.scalp.supratrochlear-supraorbital-anterior-to-auricle-supply
+
+## definition
+Sensory innervation of the scalp is divided by a line roughly through the vertex: the region ANTERIOR to the auricle (forehead and anterior scalp) is supplied chiefly by branches of the ophthalmic (V1) division of the trigeminal nerve — the SUPRATROCHLEAR and SUPRAORBITAL nerves — together with the zygomaticotemporal nerve (V2) more laterally, while the region POSTERIOR to the auricle is supplied by cervical plexus branches (greater and lesser occipital, great auricular nerves), not by the trigeminal nerve.
+
+## explicit_objective
+State that the supratrochlear and supraorbital nerves supply the scalp anterior to the auricle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+## topic
+Scalp and face
+
+## subtopic
+Nerve supply of the scalp
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Supratrochlear nerve|Supraorbital nerve|Scalp sensory innervation
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming the trigeminal nerve supplies the scalp POSTERIOR to the auricle — that region is instead supplied by cervical plexus branches (occipital and great auricular nerves); the trigeminal nerve's supratrochlear/supraorbital branches supply the scalp ANTERIOR to the auricle.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Scalp and facial nerve
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p12 q50 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C867DCBD689779
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Concerning the nerve supply of the scalp which of the following is true: A- The facial nerve supplies occipitofrontalis muscle directly. B- The trigeminal nerve supplies the scalp posterior to the auricle. C- Supratrochlear and supraorbital nerves supply the scalp anterior to the auricle. D- None of the above is true. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr, ASU-CNS-3, AU-105/106, 101/102/103) and Helwan Year 1 content for this canonical key and its distinctive terms via find-existing.mjs before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p12, q50
+

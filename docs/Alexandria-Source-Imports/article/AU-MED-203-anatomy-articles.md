@@ -110,6 +110,12 @@ Vascular and skull-base anatomy contribute a further cluster. The middle cerebra
 
 Three further clusters complete the Workshop Quiz 3-4 anatomy set. In the spinal cord, the lateral horn (T1-L2, S2-4) houses the sympathetic/sacral-parasympathetic preganglionic column, while the LATERAL motor nucleus of the anterior horn — the limb-muscle motor column — is confined to the cervical and lumbosacral enlargements and essentially absent from thoracic segments, which retain only the medial (trunk) motor nucleus, the sympathetic nucleus and Clark's nucleus. In the thalamus, the internal medullary lamina is the Y-shaped fiber sheet that partitions its grey matter into anterior, medial and lateral nuclear groups — a different structure from the stria medullaris thalami or the lamina terminalis. In pharyngeal-arch and pouch embryology, the muscles of facial expression are second-arch (facial nerve) derivatives; the sixth arch cartilage forms the arytenoid, cricoid and corniculate cartilages (the fourth arch instead giving the thyroid cartilage, the third arch the hyoid's greater horn); the palatine tonsil develops from the second pharyngeal pouch; and oligodendrocytes — unlike Schwann cells, the pia mater, or pharyngeal-arch mesenchyme — are NOT neural-crest derivatives, arising instead from the neuroepithelium of the neural tube. Finally, the ciliary body/ciliary muscle, via the zonular fibers, regulates lens accommodation, a distinct anterior-segment function from the trabecular meshwork's aqueous outflow role or the ciliary epithelium's aqueous-production role, and the substantia nigra spans the midbrain (mesencephalon), not the pons or medulla.
 
+The Week 1 EOM Final adds a facial-nerve/scalp cluster and a dural-fold/venous-sinus cluster that together extend the cranial-nerve and dural-sinus grids above. Occipitofrontalis is a single muscle with two bellies answering to different facial-nerve branches: occipitalis HAS a bony attachment (to the occipital bone and mastoid part of the temporal bone) and is supplied by the posterior auricular branch, while frontalis has NO bony attachment and is supplied by the TEMPORAL branch instead — the branch whose injury produces loss of forehead wrinkling on the affected side, a classic peripheral facial nerve finding. The scalp's five layers (SCALP: Skin, dense Connective tissue, galea Aponeurotica, Loose areolar tissue, Pericranium) include the fourth (loose areolar) layer as the classic plane of traumatic scalp avulsion, a loose plane of cleavage between the aponeurosis and pericranium; sensory supply of the scalp divides at the auricle, with the ophthalmic (V1) division's supratrochlear and supraorbital nerves serving the region anterior to it and cervical plexus branches serving posterior to it.
+
+Among the dural folds, the tentorium cerebelli is the intermediate fold between falx cerebri (attaching to its upper surface anteriorly) and falx cerebelli (attaching to its lower surface posteriorly); its free (concave) margin, bounding the tentorial notch, attaches anteriorly to the anterior clinoid process, while its peripheral (attached) margin carries the transverse sinus where it meets the occipital bone and the superior petrosal sinus where it meets the petrous temporal bone. The oculomotor nerve pierces the dura and enters the cavernous sinus's lateral wall ANTERIOR to the trochlear nerve, which instead pierces the dura specifically at the point where the tentorium's free and attached margins cross. Within the dural venous system, the straight sinus forms from the union of the inferior sagittal sinus (which itself enlarges POSTERIORLY, not forward) with the great cerebral vein of Galen; both the straight sinus and the inferior sagittal sinus are UNPAIRED midline structures, unlike the paired sphenoparietal, cavernous and transverse sinuses. Dural venous sinus walls, formed from the dura itself, carry no smooth muscle fibers and no valves, receiving tributaries including diploic veins from the skull bones and, via valveless emissary veins passing through foramina such as the foramen ovale and foramen lacerum, from the extracranial scalp circulation.
+
+The cavernous sinus itself receives a fuller anatomical treatment. Its lateral wall carries the oculomotor, trochlear, ophthalmic and maxillary nerves (but NOT the facial nerve, which takes an entirely separate course through the temporal bone), while the abducens nerve and internal carotid artery run freely within its body; inferiorly and medially it is related to the sphenoid bone and its air sinus. The anterior and posterior intercavernous sinuses connect the two cavernous sinuses across the midline, running within the borders of the diaphragma sellae and forming, together with the cavernous sinuses, a venous ring called the circular sinus — though, unlike the cavernous sinuses themselves, the intercavernous sinuses are not bilaterally paired structures. Cavernous sinus thrombosis, most often from spread of facial/paranasal infection, classically produces ophthalmoplegia (squint), proptosis (exophthalmos), and can progress to death if untreated.
+
 ## published_summary
 
 
@@ -153,6 +159,15 @@ Lateral horn = sympathetic/sacral parasympathetic preganglionic nuclei; the LATE
 Internal medullary lamina = Y-shaped sheet dividing the thalamus into anterior/medial/lateral nuclear groups.
 Muscles of facial expression = second arch; sixth arch cartilage = arytenoid/cricoid/corniculate; palatine tonsil = second pharyngeal pouch; oligodendrocytes are NOT neural-crest derivatives (Schwann cells and pia mater are).
 Ciliary body/muscle regulates accommodation (not aqueous outflow or production); substantia nigra spans the midbrain, not the pons/medulla.
+Occipitalis has a bony attachment (posterior auricular branch); frontalis has none (temporal branch) — temporal branch injury abolishes forehead wrinkling.
+Scalp avulsion classically separates through the 4th (loose areolar) layer; supratrochlear/supraorbital nerves (V1) supply the scalp anterior to the auricle.
+Tentorium cerebelli is the intermediate dural fold between falx cerebri and falx cerebelli; its free margin attaches anteriorly to the anterior clinoid process.
+Tentorium's attached margin carries the transverse sinus (at the occipital bone) and superior petrosal sinus (at the petrous temporal bone); oculomotor nerve is anterior to trochlear nerve, which pierces the dura at the free/attached margin crossing.
+Straight sinus = inferior sagittal sinus + great cerebral vein, both unpaired midline structures (unlike the paired sphenoparietal/cavernous/transverse sinuses).
+Dural venous sinuses have no muscle fibers and no valves; emissary veins (foramen ovale, foramen lacerum, among others) connect them to extracranial scalp veins.
+Cavernous sinus lateral wall = III, IV, V1, V2 (NOT VII); VI and the ICA run freely within its body; inferior/medial relations = sphenoid bone and air sinus.
+Intercavernous sinuses (anterior + posterior) connect the two cavernous sinuses via the diaphragma sellae, forming the circular sinus, but are not themselves a bilaterally paired structure.
+Cavernous sinus thrombosis: squint (ophthalmoplegia), exophthalmos, can progress to death (this source's own key excludes blindness from its list — see field_notes on that concept).
 
 ## lose_the_mark
 Assigning the lesser cornu of the hyoid or the stapes to the third arch — both are second-arch derivatives.
@@ -191,6 +206,15 @@ Assuming the lateral (limb) motor nucleus is present at every cord level, or mis
 Confusing the internal medullary lamina with the stria medullaris thalami or lamina terminalis.
 Assigning the muscles of facial expression, sixth-arch cartilages, or palatine tonsil to the wrong arch/pouch, or treating oligodendrocytes as neural-crest derivatives.
 Conflating the ciliary body's accommodation role with the trabecular meshwork's outflow role, or misplacing the substantia nigra outside the midbrain.
+Reversing which belly of occipitofrontalis has a bony attachment, or which facial-nerve branch (temporal vs posterior auricular) supplies each.
+Attributing scalp avulsion to the 2nd (vascular) layer instead of the 4th, or trigeminal/V1 innervation to the scalp posterior to the auricle.
+Confusing the tentorium's free (concave, notch-forming) margin with its peripheral (attached) margin's own separate attachments.
+Placing the trochlear nerve's dural entry at the tentorium's free margin near the posterior clinoid process — that is the oculomotor nerve's entry point.
+Attributing the straight sinus's formation to the superior, rather than inferior, sagittal sinus, or describing either sinus as paired.
+Attributing smooth muscle or valves to dural venous sinus walls, or omitting emissary veins as a route of extracranial-to-intracranial spread.
+Including the facial nerve among the cavernous sinus's lateral-wall contents, or misplacing the abducens nerve in the lateral wall rather than the sinus body.
+Describing the intercavernous sinuses as a bilaterally paired (left-right) structure like the cavernous sinuses they connect.
+Assuming cavernous sinus thrombosis cannot cause visual disturbance at all — this source's own key excludes 'blindness' from its list, a divergence from some clinical teaching, flagged rather than silently resolved.
 
 ## related_concepts
 CON-FND-4C5290971D40D1
@@ -252,6 +276,25 @@ CON-NEU-5829C2A51C495F
 CON-NEU-7E62EDEAA1FAAA
 CON-NEU-27210A54963FBF
 CON-NEU-3D4ADCAFC8B82E
+CON-NEU-8FABD01DF54147
+CON-NEU-8FD623568F7735
+CON-NEU-971BBB6832830A
+CON-NEU-9AE148EB72A3CA
+CON-NEU-9E8165F7FCF947
+CON-NEU-A0CEFFF40ECCF9
+CON-NEU-A2EC1AA72BE7CF
+CON-NEU-A5A90309AED2E6
+CON-NEU-ABA48C0650255E
+CON-NEU-ACA5AD215D874E
+CON-NEU-AD3B1F5D56C906
+CON-NEU-ADBB66E6E97DFF
+CON-NEU-AE7060FCD707AB
+CON-NEU-B0B3385AF7F14D
+CON-NEU-B123D909CFF636
+CON-NEU-B1C6C40BD3A509
+CON-NEU-BCEB5307771256
+CON-NEU-C4B0A8489B265C
+CON-NEU-C867DCBD689779
 
 ## related_articles
 
@@ -263,12 +306,14 @@ Extended for Workshop Quiz 2 (src_e0ce8dbbc37fcf3b12e9): 16 further anatomy fact
 
 Extended for Workshop Quiz 3 (src_b016b1b1c534c724e141, 13 facts) and Workshop Quiz 4 (src_caec6d06d9d48d9aaaa2, 13 facts), 26 anatomy concepts total, minted after the same per-item search discipline: each canonical key and its distinctive terms was checked via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch (including the ASU-CNS-3 and Kasr 102-INT batches already cited above) before minting; no hit found for any of the 26. Two Workshop Quiz 4 facts reuse concepts minted elsewhere rather than being repeated here: Q4 (abducens nerve first affected in internal carotid aneurysm) reuses the same live Kasr concept (CON-FND-0D9D7A5BD1305F) as Quiz 1 Q9, and Q31 (dentate nucleus as the most lateral deep cerebellar nucleus) reuses a live cross-university concept (CON-NEU-2F4980F4507C06, article ART-NEU-TOP-D2516BCC85) — both cited directly in their own questions, not minted again. Two Workshop Quiz 3 facts (olfactory nerve functional component, Q3; lacrimal gland parasympathetic nucleus, Q22) and one Workshop Quiz 4 fact (Golgi cell/Purkinje attachment, histology file Q20) are minted with the source's own printed answer key even though it diverges from the more commonly taught answer, per LANE-CARD's "printed keys stand, note doubts" rule — each concept's label and field_notes flag the discrepancy explicitly.
 
+Extended for the Week 1 EOM Final (src_f5698c4e06db91539a01, question/AU-MED-203-week1a-mcq.md, chief-of-staff STEP2 dispatch, lane 4, 2026-09-02): 19 further anatomy facts (facial nerve/occipitofrontalis/scalp cluster, dural fold and venous sinus cluster) minted after the same per-item find-existing.mjs search discipline against live state and every docs/*-Source-Imports pending batch (including the ASU-CNS-3 batch already cited above, still not yet imported); no hit found for any of the 19. One item (Q47, cavernous sinus lateral-wall contents III/IV/V1/V2) verified an exact hit against ASU-CNS-3's own live-pending concept and question and was HELD as duplicate-of that not-yet-imported source, not authored here — see coverage/AU-MED-203-LEDGER.md. This same source's Q101-151 (the module's biochemistry/pharmacology/professionalism-adjacent tail) remain untriaged for a future pass.
+
 ## field_notes
 arabicTitle: No standard Arabic term for this chapter is in undergraduate use separate from the English technical vocabulary.
 subtopicId: No SUB_ identifier exists for this module in the curriculum overlay; module_subject carries the department's own chapter position instead.
 microtopicId: The canonical placement (DIS-ANA-T07) and module_subject are already as fine as the department's own materials distinguish.
 nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than anything examined.
-questionIds: question/AU-MED-203-quiz1-mcq.md and question/AU-MED-203-quiz2-mcq.md carry the reciprocal question-to-concept links for this article's concepts.
+questionIds: question/AU-MED-203-quiz1-mcq.md, question/AU-MED-203-quiz2-mcq.md and question/AU-MED-203-week1a-mcq.md carry the reciprocal question-to-concept links for this article's concepts.
 media: No medical image exists in this repository for the labelling questions this module's Workshop Quizzes test (4 in Quiz 1, 6 in Quiz 2); each is filed as a media request (media_recommendations: Priority: required) rather than left unexplained.
 module: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
 moduleIds: Same reason — `docs/import-ready/academic/au-modules.md` has not been imported yet.

@@ -115,6 +115,30 @@ specific artery-origin facts, sleep-stage EEG details, receptor-adaptation physi
 | Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
 |---|--:|--:|--:|--:|--:|--:|---|
 | AU-MED-203 (Quizzes 1-4 only) | 134 | 134 | ~121 | 4 (confirmed) | 2 (confirmed) | ~115 (49 confirmed + ~66 not yet individually searched) | TBD — see field_notes; concepts split roughly Anatomy (cranial nerves, pharyngeal arch derivatives, cerebellar/thalamic nuclei), Physiology (reflexes, receptor physiology, sleep, pain pathways), Histology (retina layers, cerebellar cortex layers) |
+| AU-MED-203 Week 1 EOM Final (first 50 of 151) | 48 | 48 | 47 | 0 | 1 (confirmed) | 47 confirmed NEW, all minted | Anatomy 19 (facial nerve/scalp, dural folds/venous sinuses), Physiology 23 (general sensory receptor physiology, muscle spindle/Golgi tendon organ), Histology 5 (muscle spindle, craniospinal ganglion, Pacinian corpuscle) |
+
+## Week 1 EOM Final — chief-of-staff STEP2 dispatch, lane 4, 2026-09-02
+
+`EOM MCQs - CNS- week 1 final.pdf` (`src_f5698c4e06db91539a01`, twinPreferred=true over the
+`[from Alexandria University Updated]` copy per manifest) — `Nervous System/General/
+Questions/Alpha team/`, `textLayer: native`, 37 pages, no OCR needed. Filed under manifest
+`category: Department Questions` (the §4 categorizer-gap bug — this is a real dated weekly
+EOM final, `EOM MCQs -` prefix not recognised as `EOM -`). 151 numbered MCQs total, each
+page self-contained: 5 questions with their own inline per-page answer line (not one
+end-of-file table like the Workshop Quizzes) — read `status` → `show` ≤3 pages/call per
+LANE-CARD §3, no `keys` render needed (native per-page text keys, cross-checked against
+basic anatomy/physiology on a sample before trusting the rest).
+
+This pass read and triaged the first 50 numbered questions: Q1-28 (physiology/histology,
+dated "Sun 9th Feb" on p2) and Q31-50 (anatomy, dated "Mon 10th Feb" on p9). Q29-30 do not
+exist in the source (the numbering jumps 28→31); 4 short-answer/discuss items on p8 and p36
+are essay questions, not MCQs, and were excluded, not counted as triaged. All 48 keyed MCQs
+were searched via `find-existing.mjs` before minting; 47 confirmed NEW (no live or pending
+hit for any of them, incl. against ASU-CNS-3's concept files and Kasr). One (Q47, cavernous
+sinus lateral-wall contents III/IV/V1/V2 except mandibular) was an exact hit against a live
+ASU-CNS-3 concept + question pair (not yet imported to production) and was HELD as
+duplicate-of, not re-authored — see `AU-MED-203-LEDGER.md`'s Held section. Q101-151 (past
+this pass's first-50 read) remain untriaged for a future pass.
 
 ## Not triaged this module (queued, see priority-sources doc for the full list)
 
@@ -122,7 +146,8 @@ specific artery-origin facts, sleep-stage EEG details, receptor-adaptation physi
 - Mock 2027 question+answer pair (43pg each)
 - `EOM MCQs - Previous Years CNS MCQ with answers.pdf` (87pg — largest single keyed source
   in the module)
-- 4 weekly EOM finals (`CNS- week 1/2/3/4+5 Final`, 27-48pg each)
+- Week 1 EOM Final's own Q101-151 tail (see section above — first 50 of 151 triaged)
+- 3 further weekly EOM finals (`CNS- week 2/3/4+5 Final`, 27-48pg each)
 - 5 further Mock variants (`CNS mock`, `MOCK 1 CNS`, `cns mock exam`, `Mock CNS answers`,
   `mock CNS with answers`)
 - `MCQs - CNS bank by MCQs team.pdf` (280pg) and `MCQs - CNS MCQs.pdf` (182pg) — the two
@@ -134,5 +159,6 @@ specific artery-origin facts, sleep-stage EEG details, receptor-adaptation physi
 - 259 lecture-slide files, 62 practical files, 33 department-book files (not exam
   material — module content, read at S2 when authoring the module's articles)
 
-`ledger.mjs` triage-keys file: `coverage/AU-MED-203-triage-keys.txt` (134 keys, one per
-triaged question, `quiz1-q01`…`quiz4-q34`).
+`ledger.mjs` triage-keys file: `coverage/AU-MED-203-triage-keys.txt` (182 keys, one per
+triaged question, `quiz1-q01`…`quiz4-q34` plus `week1-q01`…`week1-q28`,`week1-q31`…
+`week1-q50`).
