@@ -1,0 +1,333 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch5",
+  "header": "AUN-INI-105 -- pending-live overlay questions from the INI MCQ .pdf, Chapter 5 \"Antimicrobial chemotherapy & Pathogenesis of bacterial infections\" triage (pp.51-62, 74 MCQ), 7 of 74 questions whose tested idea reuses pending Ain-Shams ASU-INF-microbiology-concepts.md concepts: Mycoplasma/L-forms' intrinsic penicillin resistance and the toxoid definition (both newly overlaid for AUN-INI-105 by this chapter's own AUN-INI-105-ch5-asuinf-overlay-concepts.md), plus the exotoxin/endotoxin concept and the growth-curve/antibiotic-sensitivity concept, both already overlaid for AUN-INI-105 by chapter 1 and chapter 2's own overlay files respectively. Omar applies this batch only after: 1) docs/import-ready/concept/ASU-INF-microbiology-concepts.md (the Ain-Shams concept batch itself), 2) AUN-INI-105-ch1-asuinf-overlay-concepts.md (already applied by chapter 1, covers the exotoxin/endotoxin concept), 3) AUN-INI-105-ch2-asuinf-overlay-concepts.md (already applied by chapter 2, covers the growth-curve/antibiotic-sensitivity concept), 4) AUN-INI-105-ch5-asuinf-overlay-concepts.md (this chapter's own sparse overlay on the Mycoplasma/L-forms and toxoid concepts, same directory). Import order: 1 then 2 then 3 then 4 then this file, each via Admin > Bulk import -> question (concepts 2-4 via Admin > Concepts import).",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "aun"
+    ],
+    "years": [
+      "AUN_Y1"
+    ],
+    "module": "AUN-INI-105",
+    "module_subject": "AUN-INI-105 > Antimicrobial chemotherapy & pathogenesis of bacterial infections",
+    "exam_weight_by_year": {
+      "AUN_Y1": "high"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_6f2f4188bb0cbf848733"
+    ],
+    "source_citation": "INI MCQ .pdf, Antimicrobial chemotherapy & pathogenesis, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true,
+    "topic": "Antimicrobial chemotherapy & pathogenesis of bacterial infections"
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch5-q003",
+      "id": "QST-AUNINI105-INI-MCQ-CH5-Q003",
+      "page": 51,
+      "title": "L-forms' resistance to penicillin is intrinsic (no cell wall)",
+      "question": "Resistance of L forms to penicillin is due to?",
+      "options": {
+        "A": "Absence of cell wall",
+        "B": "Production of enzymes that inactivate the drug",
+        "C": "Metabolic inactivity of the organism",
+        "D": "All of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Penicillin's target is peptidoglycan cell-wall synthesis. L-forms are bacteria that have lost their cell wall (induced by an inducing agent), so there is simply no target for penicillin to act on -- an intrinsic, not acquired, resistance, the same logic that makes Mycoplasma naturally penicillin-resistant.",
+        "B": "Incorrect. Enzymatic drug inactivation (e.g. beta-lactamase) is the mechanism behind acquired resistance in organisms such as penicillinase-producing Staphylococcus aureus, not the mechanism behind L-forms' resistance, which is intrinsic due to the absent target.",
+        "C": "Incorrect. L-forms are not metabolically inactive; they remain viable and can still replicate despite lacking a cell wall, so metabolic inactivity is not the basis of their penicillin resistance.",
+        "D": "Incorrect. Only the absence of a cell wall (option A) explains L-forms' resistance; options B and C do not apply to this organism, so \"all of the above\" incorrectly includes mechanisms that are not actually at play here."
+      },
+      "main_concept": "CON-INF-DCD82D2A1D396C",
+      "concept_ids": [
+        "CON-INF-DCD82D2A1D396C"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Antimicrobial chemotherapy & pathogenesis of bacterial infections",
+      "subtopic": "Mechanisms of antibiotic resistance",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that L-forms' resistance to penicillin is intrinsic, due to the absence of a cell wall, the same basis as Mycoplasma's natural penicillin resistance.",
+      "library_ids": [
+        "ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS"
+      ],
+      "source_citation": "INI MCQ .pdf, Antimicrobial chemotherapy & pathogenesis, p51",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-DCD82D2A1D396C is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md, canonical_key antibiotic-resistance.acquired-vs-intrinsic-genetic -- this question and its +aun overlay apply only after Omar imports that Ain-Shams batch and AUN-INI-105-ch5-asuinf-overlay-concepts.md."
+      },
+      "author_notes": "A second bank instance of this same stem (Q61, held) tests the identical fact for Mycoplasma specifically, with an identical option set and key."
+    },
+    {
+      "key": "ini-mcq-ch5-q006",
+      "id": "QST-AUNINI105-INI-MCQ-CH5-Q006",
+      "page": 51,
+      "title": "Toxoid: a toxin that has lost toxicity but retains antigenicity",
+      "question": "Toxoid is?",
+      "options": {
+        "A": "Toxin lost its antigenicity but not toxicity",
+        "B": "None of the above",
+        "C": "Toxin lost toxicity and antigenicity",
+        "D": "Toxin lost its toxicity but still antigenic"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A toxoid retains its antigenicity (that is the whole point, so it can still be used as a vaccine); losing antigenicity while keeping toxicity would be both dangerous and useless as a vaccine, the opposite of what a toxoid is.",
+        "B": "Incorrect. Option D correctly defines toxoid, so \"none of the above\" is factually wrong.",
+        "C": "Incorrect. A toxoid specifically retains antigenicity even as toxicity is destroyed; losing both properties would leave nothing capable of provoking a protective immune response, defeating the purpose of a toxoid vaccine.",
+        "D": "Correct. A toxoid is a toxin -- classically an AB-subunit exotoxin such as diphtheria toxin -- that has been treated, typically with formalin, to destroy its toxicity. Its antigenicity is preserved even as its toxicity is destroyed. This lets it be used safely as a vaccine that still provokes protective antibodies."
+      },
+      "main_concept": "CON-INF-F6DC0E99178186",
+      "concept_ids": [
+        "CON-INF-F6DC0E99178186"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Antimicrobial chemotherapy & pathogenesis of bacterial infections",
+      "subtopic": "Toxins and toxoids",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define a toxoid as a toxin that has lost its toxicity while retaining its antigenicity.",
+      "library_ids": [
+        "ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK"
+      ],
+      "source_citation": "INI MCQ .pdf, Antimicrobial chemotherapy & pathogenesis, p51",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-F6DC0E99178186 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.toxoid.formalin-inactivation -- this question and its +aun overlay apply only after Omar imports that Ain-Shams batch and AUN-INI-105-ch5-asuinf-overlay-concepts.md."
+      },
+      "author_notes": "A second bank instance of this same stem (Q30, held) tests the identical fact with a differently-ordered option set."
+    },
+    {
+      "key": "ini-mcq-ch5-q031",
+      "id": "QST-AUNINI105-INI-MCQ-CH5-Q031",
+      "page": 55,
+      "title": "Exotoxins are usually thermolabile",
+      "question": "The exotoxins are usually?",
+      "options": {
+        "A": "Thermolabile",
+        "B": "Thermostable",
+        "C": "Not affected by formalin",
+        "D": "Neurotoxins",
+        "E": "Enterotoxins"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Exotoxins, being secreted proteins, are usually thermolabile, or heat-labile. Their protein structure denatures on heating, destroying their toxic activity. This contrasts with endotoxin (lipopolysaccharide), which is heat stable.",
+        "B": "Incorrect. Thermostability characterises endotoxin, not exotoxins; describing exotoxins as thermostable reverses the two toxin classes' defining property.",
+        "C": "Incorrect. Exotoxins are, in fact, affected by formalin -- formalin treatment is exactly what converts an exotoxin into an antigenic but non-toxic toxoid, so \"not affected by formalin\" is the opposite of a defining exotoxin property.",
+        "D": "Incorrect. \"Neurotoxin\" describes the target/effect of certain specific exotoxins (e.g. tetanus, botulinum toxin), not a property shared by exotoxins in general.",
+        "E": "Incorrect. \"Enterotoxin\" likewise describes the target/effect of certain specific exotoxins (e.g. cholera toxin), not a general property of exotoxins as a class."
+      },
+      "main_concept": "CON-INF-C87DF729E2ADDF",
+      "concept_ids": [
+        "CON-INF-C87DF729E2ADDF"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Antimicrobial chemotherapy & pathogenesis of bacterial infections",
+      "subtopic": "Bacterial toxins",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that exotoxins are usually thermolabile, in contrast to the heat-stable endotoxin.",
+      "library_ids": [
+        "ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK"
+      ],
+      "source_citation": "INI MCQ .pdf, Antimicrobial chemotherapy & pathogenesis, p55",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-C87DF729E2ADDF is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.toxins.exotoxin-vs-endotoxin -- already overlaid for AUN-INI-105 by AUN-INI-105-ch1-asuinf-overlay-concepts.md; this question applies once that overlay chain (ASU-INF batch, then the ch1 overlay) is live -- no further overlay row is needed for chapter 5."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch5-q032",
+      "id": "QST-AUNINI105-INI-MCQ-CH5-Q032",
+      "page": 56,
+      "title": "Endotoxin: an LPS-protein complex, heat and formalin stable",
+      "question": "A toxic material within the bacterial cell, non-diffusible usually lipopolysaccharide-protein complex, heat and formalin stable and poorly antigenic. This material is?",
+      "options": {
+        "A": "Endopigment",
+        "B": "Endotoxin",
+        "C": "Endogenous pyrogen",
+        "D": "Exotoxin",
+        "E": "B & C are correct"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. \"Endopigment\" is not a recognised bacterial toxin category; it does not describe the LPS-protein structural material this stem defines.",
+        "B": "Correct. Endotoxin is the lipopolysaccharide-protein complex forming part of the Gram-negative outer membrane. It is non-diffusible, since it is structurally bound to the cell rather than secreted, and it is heat and formalin stable. It is also only poorly antigenic, matching every property listed in this stem.",
+        "C": "Incorrect. Endogenous pyrogen (e.g. IL-1) is a host-derived signalling molecule released in response to endotoxin, not the bacterial LPS-protein complex itself that this stem describes.",
+        "D": "Incorrect. Exotoxin is, by definition, a secreted polypeptide/protein -- diffusible, typically heat-labile, and strongly antigenic -- the opposite profile from the non-diffusible, heat-stable, poorly antigenic material this stem describes.",
+        "E": "Incorrect. Endogenous pyrogen (C) is a separate, host-derived entity from the bacterial structural material the stem defines, so \"B & C\" incorrectly folds in a substance this stem is not describing."
+      },
+      "main_concept": "CON-INF-C87DF729E2ADDF",
+      "concept_ids": [
+        "CON-INF-C87DF729E2ADDF"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-0DD46C0FD80938"
+      ],
+      "topic": "Antimicrobial chemotherapy & pathogenesis of bacterial infections",
+      "subtopic": "Bacterial toxins",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify endotoxin from its defining properties: a non-diffusible, heat- and formalin-stable, poorly antigenic lipopolysaccharide-protein complex.",
+      "library_ids": [
+        "ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK"
+      ],
+      "source_citation": "INI MCQ .pdf, Antimicrobial chemotherapy & pathogenesis, p56",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-C87DF729E2ADDF is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md -- already overlaid for AUN-INI-105 by AUN-INI-105-ch1-asuinf-overlay-concepts.md; contextual concept CON-INF-0DD46C0FD80938 (gram-negative cell wall/LPS composition) was overlaid for AUN-INI-105 by the same chapter-1 file. No further overlay row is needed for chapter 5."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch5-q033",
+      "id": "QST-AUNINI105-INI-MCQ-CH5-Q033",
+      "page": 56,
+      "title": "Endotoxin is not enzymatic in action",
+      "question": "All of the following are characters of endotoxin EXCEPT?",
+      "options": {
+        "A": "Heat stable",
+        "B": "Polysaccharide lipid complex",
+        "C": "Action is often enzymatic",
+        "D": "Produced by gram negative bacteria",
+        "E": "Poorly immunogenic"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect as the exception (a true statement). Endotoxin genuinely is heat stable, unlike the typically thermolabile exotoxins.",
+        "B": "Incorrect as the exception (a true statement). Endotoxin is genuinely a lipopolysaccharide (polysaccharide-lipid) complex, part of the Gram-negative outer membrane.",
+        "C": "Correct (the exception). Endotoxin's action is not enzymatic. Its toxicity instead comes from the lipid A component triggering host immune and inflammatory pathways, such as cytokine release, rather than from any catalytic activity. Enzymatic action is instead a property associated more with certain exotoxins, making this statement the false one and the answer to the EXCEPT.",
+        "D": "Incorrect as the exception (a true statement). Endotoxin is genuinely produced by (structurally part of) Gram-negative bacteria specifically.",
+        "E": "Incorrect as the exception (a true statement). Endotoxin genuinely is poorly immunogenic compared with the strongly antigenic exotoxins."
+      },
+      "main_concept": "CON-INF-C87DF729E2ADDF",
+      "concept_ids": [
+        "CON-INF-C87DF729E2ADDF"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Antimicrobial chemotherapy & pathogenesis of bacterial infections",
+      "subtopic": "Bacterial toxins",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that endotoxin's action is not enzymatic, distinguishing it from its genuine properties (heat stable, LPS complex, Gram-negative origin, poorly immunogenic).",
+      "library_ids": [
+        "ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK"
+      ],
+      "source_citation": "INI MCQ .pdf, Antimicrobial chemotherapy & pathogenesis, p56",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-C87DF729E2ADDF is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md -- already overlaid for AUN-INI-105 by AUN-INI-105-ch1-asuinf-overlay-concepts.md. No further overlay row is needed for chapter 5."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch5-q034",
+      "id": "QST-AUNINI105-INI-MCQ-CH5-Q034",
+      "page": 56,
+      "title": "Exotoxins are not polysaccharide-lipid in nature",
+      "question": "Exotoxins have all of the following characters EXCEPT?",
+      "options": {
+        "A": "Enzymatic action",
+        "B": "Specific tissue affinity",
+        "C": "Active in minute dose",
+        "D": "Polysaccharide lipid in nature",
+        "E": "Strong immunogen"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the exception (a true statement). Many exotoxins genuinely do have enzymatic action (for example, diphtheria toxin's ADP-ribosyltransferase activity).",
+        "B": "Incorrect as the exception (a true statement). Exotoxins often show specific tissue affinity (for example, tetanus toxin's affinity for neural tissue).",
+        "C": "Incorrect as the exception (a true statement). Exotoxins are typically potent, active in minute doses -- one of their defining features.",
+        "D": "Correct (the exception). Exotoxins are, by definition, secreted polypeptides or proteins, not polysaccharide-lipid complexes. That structural description belongs to endotoxin instead. This makes the statement false, and the answer to the EXCEPT.",
+        "E": "Incorrect as the exception (a true statement). Exotoxins are genuinely strong immunogens, unlike the poorly immunogenic endotoxin -- this antigenicity is exactly what makes toxoid vaccines against exotoxins possible."
+      },
+      "main_concept": "CON-INF-C87DF729E2ADDF",
+      "concept_ids": [
+        "CON-INF-C87DF729E2ADDF"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-F6DC0E99178186"
+      ],
+      "topic": "Antimicrobial chemotherapy & pathogenesis of bacterial infections",
+      "subtopic": "Bacterial toxins",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that exotoxins are not polysaccharide-lipid in nature (that describes endotoxin), distinguishing this from exotoxins' genuine properties.",
+      "library_ids": [
+        "ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK"
+      ],
+      "source_citation": "INI MCQ .pdf, Antimicrobial chemotherapy & pathogenesis, p56",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-C87DF729E2ADDF is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md -- already overlaid for AUN-INI-105 by AUN-INI-105-ch1-asuinf-overlay-concepts.md. Contextual concept CON-INF-F6DC0E99178186 (toxoid) is overlaid by this chapter's own AUN-INI-105-ch5-asuinf-overlay-concepts.md. No further overlay row is needed for the main concept."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch5-q058",
+      "id": "QST-AUNINI105-INI-MCQ-CH5-Q058",
+      "page": 59,
+      "title": "Gentamycin's bactericidal effect is maximal in the log phase",
+      "question": "Gentamycin would have maximal bactericidal effect in the following phase of bacterial growth curve?",
+      "options": {
+        "A": "Log",
+        "B": "Lag",
+        "C": "Stationary",
+        "D": "Death"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. During the logarithmic (exponential) phase, bacteria are dividing at their maximal rate and are metabolically most active. Aminoglycosides such as Gentamycin depend on active protein synthesis for their ribosomal binding and killing action. This is why the log phase is when Gentamycin achieves its maximal bactericidal effect.",
+        "B": "Incorrect. In the lag phase, bacteria are adapting to their environment with no net division and comparatively low metabolic activity, giving an aminoglycoside far less of the active target process it needs to act maximally.",
+        "C": "Incorrect. In the stationary phase, new-cell formation is balanced by cell death and net growth has plateaued, reducing the active division/protein-synthesis target Gentamycin's mechanism depends on for maximal effect.",
+        "D": "Incorrect. In the death (decline) phase, cells are dying faster than new ones form and metabolic activity is winding down, well past the point of maximal target availability for an aminoglycoside."
+      },
+      "main_concept": "CON-INF-2E629B81136A05",
+      "concept_ids": [
+        "CON-INF-2E629B81136A05"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-282B6D07348734"
+      ],
+      "topic": "Antimicrobial chemotherapy & pathogenesis of bacterial infections",
+      "subtopic": "Growth curve correlation with antibiotic sensitivity",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Gentamycin's bactericidal effect is maximal in the logarithmic (exponential) phase of bacterial growth, when division and metabolic activity are highest.",
+      "library_ids": [
+        "ART-INF-GROWTH-CURVE"
+      ],
+      "source_citation": "INI MCQ .pdf, Antimicrobial chemotherapy & pathogenesis, p59",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-2E629B81136A05 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.growth-curve.phase-antibiotic-sensitivity -- already overlaid for AUN-INI-105 by AUN-INI-105-ch2-asuinf-overlay-concepts.md; this question applies once that overlay chain (ASU-INF batch, then the ch2 overlay) is live -- no further overlay row is needed for chapter 5."
+      },
+      "author_notes": ""
+    }
+  ]
+}

@@ -261,3 +261,88 @@ ini-mcq-ch4-q055  # -- transformation involves taking up DNA from environment --
 ini-mcq-ch4-q056  # -- transduction: DNA portion transfer via bacteriophage -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
 ini-mcq-ch4-q057  # -- E. coli most used in genetic engineering -- new (CON-INF-E8E46BFEBB25EE)
 ini-mcq-ch4-q058  # -- HELD, literal duplicate of chapter 1's ini-mcq-q001
+
+# AUN-INI-105 -- Chapter 5 "Antimicrobial chemotherapy & Pathogenesis of
+# bacterial infections" triage keys (source: INI MCQ .pdf, pp.51-62, 74 MCQ +
+# 10 True/False, answer table p62). Key format ini-mcq-ch5-qNNN
+# (chapter-5-scoped). The True/False block (source Q75-84, 10 items) is a
+# different question shape (2-valued, no lettered options) and is out of
+# format for this seed schema per the lane dispatch -- logged here, never
+# authored, and deliberately NOT listed as triage keys below (a bare key line
+# would show as permanently "remaining" in ledger.mjs's reconciliation for a
+# question type this schema cannot represent).
+
+ini-mcq-ch5-q001  # -- bactericidal kills leading to cell lysis -- live (CON-INF-1249475C90F47B)
+ini-mcq-ch5-q002  # -- tetracyclines identical mechanism to aminoglycosides (30S) -- new
+ini-mcq-ch5-q003  # -- L forms resistance to penicillin: absence of cell wall -- pending (ASU-INF CON-INF-DCD82D2A1D396C)
+ini-mcq-ch5-q004  # -- cell wall synthesis inhibitors most selective (unique bacterial structure) -- new
+ini-mcq-ch5-q005  # -- aminoglycoside mechanism: bind 30S ribosomal subunit -- new
+ini-mcq-ch5-q006  # -- toxoid: toxin lost toxicity but still antigenic -- pending (ASU-INF CON-INF-F6DC0E99178186)
+ini-mcq-ch5-q007  # -- vertical transmission: mother to child during pregnancy -- new
+ini-mcq-ch5-q008  # -- phage therapy alternative: virulent phages -- new
+ini-mcq-ch5-q009  # -- virulence reduced by attenuation -- new
+ini-mcq-ch5-q010  # -- viable bacteria in blood stream: bacteraemia -- new
+ini-mcq-ch5-q011  # -- bacterial disease diagnosis: finding bacteria and culture isolation -- new
+ini-mcq-ch5-q012  # -- common airborne epidemic disease: influenza -- new
+ini-mcq-ch5-q013  # -- HELD, duplicate-of ini-mcq-ch5-q002
+ini-mcq-ch5-q014  # -- resistance mechanism: mutation and R plasmid acquisition -- new
+ini-mcq-ch5-q015  # -- bacterial flora mainly affected by broad spectrum antibiotics -- new
+ini-mcq-ch5-q016  # -- sulfonamides act by competitive antagonism -- new
+ini-mcq-ch5-q017  # -- gentamycin acts by inhibition of protein synthesis -- new
+ini-mcq-ch5-q018  # -- sulfonamide synergistic with trimethoprim -- new
+ini-mcq-ch5-q019  # -- main side effect of penicillin: anaphylactic shock -- new
+ini-mcq-ch5-q020  # -- antibiotic-associated pseudomembranous colitis: C. difficile -- new
+ini-mcq-ch5-q021  # -- beta lactamase production: example of drug inactivation -- new
+ini-mcq-ch5-q022  # -- aminoglycosides function by inhibiting protein synthesis (30S) -- new
+ini-mcq-ch5-q023  # -- bacteria absorbing exogenous folic acid resistant to sulfamethoxazole -- new
+ini-mcq-ch5-q024  # -- tetracycline considered bacteriostatic agent -- new
+ini-mcq-ch5-q025  # -- chloramphenicol functions by inhibition of protein synthesis (marrow failure) -- new
+ini-mcq-ch5-q026  # -- multiple drug resistance spreads between bacteria by conjugation -- new
+ini-mcq-ch5-q027  # -- aminoglycosides inhibit protein synthesis (class identification) -- new
+ini-mcq-ch5-q028  # -- ability to inhibit/kill without harming host: selective toxicity -- new
+ini-mcq-ch5-q029  # -- rifampicin functions through inhibition of RNA polymerase -- new
+ini-mcq-ch5-q030  # -- HELD, duplicate-of ini-mcq-ch5-q006
+ini-mcq-ch5-q031  # -- exotoxins usually thermolabile -- pending (ASU-INF CON-INF-C87DF729E2ADDF, already overlaid ch1)
+ini-mcq-ch5-q032  # -- endotoxin: LPS-protein complex, heat and formalin stable -- pending (ASU-INF CON-INF-C87DF729E2ADDF, already overlaid ch1)
+ini-mcq-ch5-q033  # -- endotoxin characters EXCEPT enzymatic action -- pending (ASU-INF CON-INF-C87DF729E2ADDF, already overlaid ch1)
+ini-mcq-ch5-q034  # -- exotoxin characters EXCEPT polysaccharide lipid nature -- pending (ASU-INF CON-INF-C87DF729E2ADDF, already overlaid ch1)
+ini-mcq-ch5-q035  # -- HELD, printed double answer B,D (Glycocalyx and Ordinary pili mediate adherence)
+ini-mcq-ch5-q036  # -- carriers are apparently healthy -- new
+ini-mcq-ch5-q037  # -- quantitative measure for pathogenicity: virulence -- new
+ini-mcq-ch5-q038  # -- microbe persists for years, minimal disease, can reactivate: latent infection -- new
+ini-mcq-ch5-q039  # -- opportunistic pathogens EXCEPT frequently infect healthy subjects -- new
+ini-mcq-ch5-q040  # -- virulence genes EXCEPT cannot be transmitted between bacteria -- new
+ini-mcq-ch5-q041  # -- invasiveness facilitated by collagenase enzyme -- new
+ini-mcq-ch5-q042  # -- antibiotic resistance frequently mediated by R factor plasmid -- new
+ini-mcq-ch5-q043  # -- selective toxicity: toxic to microorganism but not host -- new
+ini-mcq-ch5-q044  # -- quinolones inhibit DNA synthesis in bacteria -- new
+ini-mcq-ch5-q045  # -- rifampicin inhibits RNA polymerase -- new
+ini-mcq-ch5-q046  # -- quinolone inhibits DNA gyrase -- new
+ini-mcq-ch5-q047  # -- Candida treated by Nystatin -- new
+ini-mcq-ch5-q048  # -- bacterial enzyme inactivating penicillin: beta lactamase -- new
+ini-mcq-ch5-q049  # -- vancomycin acts on cell wall -- new
+ini-mcq-ch5-q050  # -- penicillin non-toxic because target site unique in bacteria -- new
+ini-mcq-ch5-q051  # -- resistance to beta lactams mediated by plasmid -- new
+ini-mcq-ch5-q052  # -- HELD, only 3 printed options (short of 4-option floor)
+ini-mcq-ch5-q053  # -- aminoglycosides act on protein synthesis -- new
+ini-mcq-ch5-q054  # -- does not interfere with protein synthesis: cephalosporins -- new
+ini-mcq-ch5-q055  # -- resistance mechanisms: enzyme/altered receptor/permeability (all of above) -- new
+ini-mcq-ch5-q056  # -- inhibits bacterial cell membrane function: Polymyxin -- new
+ini-mcq-ch5-q057  # -- HELD, only 3 printed options (short of 4-option floor)
+ini-mcq-ch5-q058  # -- gentamycin maximal bactericidal effect in log phase -- pending (ASU-INF CON-INF-2E629B81136A05, already overlaid ch2)
+ini-mcq-ch5-q059  # -- surgical antimicrobial prophylaxis indicated for catastrophic infection risk -- new
+ini-mcq-ch5-q060  # -- Nystatin inhibits cell membrane function -- new
+ini-mcq-ch5-q061  # -- HELD, duplicate-of ini-mcq-ch5-q003
+ini-mcq-ch5-q062  # -- penicillin + gentamycin for enterococcal endocarditis: synergism -- new
+ini-mcq-ch5-q063  # -- penicillin + tetracycline for pneumococcal pneumonia: antagonism -- new
+ini-mcq-ch5-q064  # -- HELD, printed key conflicts with expected answer (renal impairment / gentamycin)
+ini-mcq-ch5-q065  # -- resistance to sulfonamides mediated by pre-formed folic acid use -- new
+ini-mcq-ch5-q066  # -- HELD, ambiguous EXCEPT (Cyclosporine/Cycloserine)
+ini-mcq-ch5-q067  # -- HELD, only 3 printed options (short of 4-option floor)
+ini-mcq-ch5-q068  # -- antimicrobial agent acting upon cell wall: penicillin -- new
+ini-mcq-ch5-q069  # -- mechanism of action of penicillin: inhibition of cell wall synthesis -- new
+ini-mcq-ch5-q070  # -- synthetic substance that can kill bacteria: chemotherapeutic agent -- new
+ini-mcq-ch5-q071  # -- narrow spectrum antibiotics EXCEPT Levofloxacin -- new
+ini-mcq-ch5-q072  # -- drugs inhibiting cell wall synthesis: Monobactams -- new
+ini-mcq-ch5-q073  # -- chloramphenicol destroys bacteria by binding 50S ribosomal subunit -- new
+ini-mcq-ch5-q074  # -- most serious disadvantage of chloramphenicol: bone marrow suppression -- new
