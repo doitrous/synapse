@@ -54,10 +54,11 @@
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 41 questions, 10 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 43 questions, 11 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
-    Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
+    Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
+    Physiology Cardiovascular System — Endothelium and Vasoactive Hormones — 12 questions, 5 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 30 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
@@ -83,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  191 questions were excluded and 0 held back for having no
+  193 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -9872,6 +9873,24 @@ canonical_key "cushing-reflex.trigger-and-triad" already has a pinned id in this
 ---
 
 # Item
+## id
+CON-CVS-56A68328FD03C7
+## label
+Local blood flow is matched to tissue metabolism by two mechanisms — active hyperaemia driven by vasodilator metabolites and hypoxia, and myogenic/metabolic autoregulation that returns flow toward normal after a change in perfusion pressure
+## canonical_key
+local-blood-flow-regulation.myogenic-and-metabolic-autoregulation
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
+## article_ids
++ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL | +ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## field_notes
+canonical_key "local-blood-flow-regulation.myogenic-and-metabolic-autoregulation" already has a pinned id in this module (CON-CVS-56A68328FD03C7); mintConceptId derives the same id fresh (CON-CVS-56A68328FD03C7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
 ## label
 Non-chemical (nervous) regulation of respiration works through reflex afferents from higher centres, the upper airway, the lungs, the chest wall, proprioceptors and the cardiovascular system, distinct from the chemical (PCO2/pH/PO2) drive
 ## id
@@ -10075,6 +10094,137 @@ src_e569449acf8dc2af471e | question_book | | p24 | 104 CPS
 +ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION
 ## field_notes
 canonical_key "coronary-circulation.phasic-flow-and-autoregulation" already has a pinned id in this module (CON-CVS-B29600F656A34B); mintConceptId derives the same id fresh (CON-CVS-B29600F656A34B) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Coronary vessels carry both α1 (vasoconstrictor) and β1 (vasodilator) adrenergic receptors, and sympathetic stimulation's net effect is vasodilation because the rise in heart rate and contractility it also produces releases vasodilator metabolites that reinforce the direct β1 effect
+## id
+CON-CVS-0D7C8EBBF90AFC
+## canonical_key
+coronary-circulation.sympathetic-regulation-and-beta-blockade
+## definition
+Coronary vessels contain both α and β adrenergic receptors: α1 receptor stimulation causes vasoconstriction, while β1 receptor stimulation causes vasodilation. Sympathetic stimulation of the heart also raises heart rate and contractility, which raises myocardial metabolic rate and so releases vasodilator metabolites (adenosine, CO2, H+, prostaglandins) — the dominant, metabolic-autoregulation route to coronary vasodilation this leaf's own phasic-flow concept already establishes. Because that indirect metabolic vasodilator effect reinforces the direct β1 vasodilator effect, the overall, net effect of sympathetic stimulation on coronary vessels is vasodilation and increased coronary blood flow, even though a direct α1 vasoconstrictor pathway also exists. Parasympathetic stimulation, by contrast, produces only slight direct coronary vasodilation via cholinergic receptors, but net coronary vasoconstriction indirectly, because vagally-driven bradycardia lowers cardiac metabolism and so removes the metabolic vasodilator drive.
+## explicit_objective
+State that coronary vessels carry both α1 (constrictor) and β1 (dilator) receptors, and that the net effect of intact sympathetic stimulation is vasodilation because the β1-driven rise in myocardial metabolism reinforces direct β1 vasodilation through the dominant metabolic-autoregulation pathway.
+## pitfalls
+Assuming sympathetic stimulation of the heart must net vasoconstrict the coronaries because α1 receptors are present. The book's own account is that the net effect is vasodilation, since the metabolic drive from increased heart rate/contractility (via β1) dominates; removing β1 (as with a β-blocker) removes both the direct β1 vasodilator effect and this metabolic reinforcement, leaving the direct α1 constrictor effect roughly balanced by an unchanged metabolic demand — a subtly different question from intact, unblocked sympathetic stimulation.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Special Circulation
+## universities
+kau
+## learner_years
+1
+## exam_signal
+
+## weight_confidence
+0.6
+## blueprint_weight
+0.15
+## exam_weight_by_year
+KAU_Y1=0.15
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Coronary adrenergic receptors | Sympathetic effect on coronary flow
+## article_ids
+ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] It the noradrenergic nerves to the heart are stimulated after giving a B-blocker, then ‘what would be the effect on coronary blood flow?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
@@ -10419,6 +10569,666 @@ direct_statement
 [clear]
 ## related_article_ids
 ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Endothelial nitric oxide, synthesised from L-arginine by eNOS and acting through smooth-muscle cGMP, is a short-lived local vasodilator whose deficiency contributes to chronic hypertension
+## id
+CON-CVS-73B5BC1B2AB1FD
+## canonical_key
+nitric-oxide.production-mechanism-and-hypertension-link
+## definition
+Nitric oxide (NO) is produced continuously by endothelial cells, via the action of endothelial nitric oxide synthase (eNOS) on the amino acid L-arginine. Its half-life is short (about 6 seconds) and it is rapidly inactivated by haemoglobin in blood, so it acts mainly locally, near its site of release. Shear stress from increased blood flow, acetylcholine (itself released by endothelial cells in response to shear stress), and the inflammatory mediators bradykinin and histamine all raise NO secretion; some vasoconstrictors such as angiotensin II also raise NO release, blunting their own vasoconstriction. NO acts on vascular smooth muscle in a paracrine fashion, activating guanylate cyclase to convert GTP to cyclic GMP; cGMP activates protein kinase G, which relaxes the myocyte. cGMP is degraded by phosphodiesterase-5 (PDE-5) — the target of PDE-5 inhibitors such as sildenafil, which prolong NO's vasodilator effect and are used both for penile erectile dysfunction (NO being the mediator of penile arteriolar vasodilation) and, by extension, illustrate how disrupting NO's degradation raises vasodilation. NO also inhibits platelet aggregation and contributes to coronary, cerebral and pulmonary flow regulation. Chronic hypertension and atherosclerosis can damage the endothelium and impair NO synthesis, worsening vasoconstriction and hypertension further; conversely, a primary deficiency of NO synthesis (eNOS knockout animals become hypertensive) can itself cause chronic hypertension, since a vasodilator tone is lost from the vasculature.
+## explicit_objective
+State how NO is synthesised (eNOS on L-arginine), its short half-life and paracrine, cGMP-mediated mechanism, its physiological stimuli (shear stress, acetylcholine, bradykinin, histamine), and that a deficiency of NO synthesis contributes to chronic hypertension.
+## pitfalls
+Confusing NO's second messenger (cGMP, via guanylate cyclase) with cAMP, or its substrate (L-arginine) with another amino acid such as leucine — both substitutions appear as distractors in this leaf's own bank. Also assuming adrenaline/catecholamines stimulate NO synthase directly — the book's own listed stimuli are shear stress, acetylcholine, bradykinin and histamine, not circulating catecholamines.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p21 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Nitric oxide | Endothelium-derived relaxing factor | eNOS | NO and hypertension
+## article_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Concerning nitric oxide NO, the following are true, except
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The circulating hormones acting on the vasculature split into vasoconstrictors — angiotensin II, epinephrine, norepinephrine and vasopressin — and vasodilators — kinins and natriuretic peptide
+## id
+CON-CVS-2BE3EA659D177B
+## canonical_key
+vasoactive-hormones.circulating-vasoconstrictor-and-vasodilator-classification
+## definition
+Beyond the local (metabolic) and nervous mechanisms controlling arteriolar diameter, a systemic humoral mechanism uses circulating hormones with opposite vascular actions. The vasoconstrictor hormones are angiotensin II, epinephrine, norepinephrine and vasopressin. The vasodilator hormones are kinins (such as bradykinin) and natriuretic peptides (such as atrial natriuretic peptide). This classification sits alongside — and explains the same overall balance as — the local vasodilator metabolites (CO2, H+, adenosine) this module's own active-hyperaemia/autoregulation concept teaches, and the vasoconstrictor action of angiotensin II specifically underlies why a local rise in its concentration produces systemic arteriolar constriction.
+## explicit_objective
+Sort angiotensin II, epinephrine, norepinephrine and vasopressin as circulating vasoconstrictor hormones, and kinins and natriuretic peptide as circulating vasodilator hormones.
+## pitfalls
+Assuming every circulating mediator with a vascular role is a vasoconstrictor, or misclassifying kinins (vasodilator, not vasoconstrictor) the way this leaf's own bank tests directly.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p22 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Vasoconstrictor hormones | Vasodilator hormones | Humoral regulation of vascular tone
+## article_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] About mediators and vasoactive substances, all of the following are true Except:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Renin from the juxtaglomerular apparatus cleaves hepatic angiotensinogen to angiotensin I, which ACE converts to angiotensin II, and renin secretion — raised by hypovolaemia, renal ischaemia, reduced distal Na+ delivery and sympathetic stimulation, not by hypertension — makes the RAS a major long-term regulator of arterial pressure
+## id
+CON-CVS-F7ACE802080250
+## canonical_key
+renin-angiotensin-system.formation-secretion-triggers-and-long-term-role
+## definition
+Renin is secreted by the juxtaglomerular apparatus of the kidney, a proteolytic enzyme that acts on angiotensinogen (secreted by the liver, not the juxtaglomerular apparatus itself) to form the decapeptide angiotensin I; angiotensin-converting enzyme (ACE), found in vascular endothelial cells especially of the lung, then converts angiotensin I to the octapeptide angiotensin II. Renin secretion rises with hypovolaemia and hypotension, renal ischaemia (e.g. renal artery stenosis), decreased Na+ delivery to the distal tubule, and sympathetic stimulation via β1 receptors — not with hypertension, which instead suppresses it through the same feedback logic in reverse. Angiotensin II raises arterial pressure acutely by direct vasoconstriction and increased sympathetic discharge, and its downstream effect on aldosterone secretion (from the adrenal cortex) reduces renal Na+ and water excretion; because that renal fluid-retaining action takes minutes to hours to develop and persists for as long as the stimulus does, angiotensin II — unlike the baroreceptor and chemoreceptor reflexes, which act within seconds — is one of the mechanisms responsible for intermediate-to-long-term regulation of arterial blood pressure.
+## explicit_objective
+State the RAS cascade (renin on hepatic angiotensinogen to angiotensin I; ACE to angiotensin II), the stimuli that raise renin secretion, and why angiotensin II is classed with the long-term rather than the immediate-reflex mechanisms of blood pressure regulation.
+## pitfalls
+Swapping which organ secretes which precursor — angiotensinogen is hepatic, renin is renal (juxtaglomerular). Also assuming hypertension itself raises renin secretion, when the book's own list of triggers is hypovolaemia/hypotension, renal ischaemia, reduced distal Na+ delivery and sympathetic stimulation — the opposite direction.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p21 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p23 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Renin-angiotensin system | RAS | Renin secretion triggers | Long-term blood pressure regulation
+## article_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All about renin-angiotensin system is correct, except:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+AT1 receptors, widespread in adult tissue, mediate angiotensin II's vasoconstriction, aldosterone secretion and Na+/water retention, while the more limited AT2 receptors counterbalance AT1 with vasodilatation, diuresis and natriuresis
+## id
+CON-CVS-C2245AA65D468B
+## canonical_key
+angiotensin-ii-receptors.at1-and-at2-actions
+## definition
+Angiotensin II acts through two receptor types. AT1 receptors have a widespread adult tissue distribution and mediate most of angiotensin II's actions: peripheral vasoconstriction of arterioles and veins, aldosterone secretion from the adrenal cortex (which increases distal tubular Na+ reabsorption), direct stimulation of renal tubular Na+ reabsorption, inhibition of renin secretion (negative feedback), increased sympathetic discharge and catecholamine secretion, vasopressin secretion, stimulation of thirst, and cardiac/vascular hypertrophy. AT2 receptors are much more limited in adult tissue and mediate effects that counterbalance AT1: vasodilatation, diuresis (increased renal water excretion), natriuresis (increased renal Na+ excretion) and apoptosis. So stimulating AT1 does everything except promote diuresis and natriuresis — that is what AT2 stimulation does instead.
+## explicit_objective
+Contrast the AT1 receptor's actions (vasoconstriction, aldosterone/Na+ retention, sympathetic and vasopressin drive, thirst, hypertrophy) against the AT2 receptor's opposing actions (vasodilatation, diuresis, natriuresis, apoptosis).
+## pitfalls
+Assuming AT1 and AT2 share the same direction of effect because they are both angiotensin II receptors. AT2 is specifically described as counterbalancing AT1 — diuresis and natriuresis are AT2 actions, the opposite of AT1's Na+/water-retaining, vasoconstrictor profile.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p21 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p5 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+AT1 receptor | AT2 receptor | Angiotensin II receptor subtypes
+## article_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Stimalation of angiotensin II receptors AT1 produce all, except
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Carotid sinus syndrome is an acquired hypersensitivity of the carotid sinus baroreceptors, not a normal finding in young people, in which mild external pressure triggers marked bradycardia and hypotension that can require denervation or a pacemaker
+## id
+CON-CVS-A1E3D54120275D
+## canonical_key
+carotid-sinus-syndrome.mechanism-and-management
+## definition
+In carotid sinus syndrome, the carotid sinus baroreceptors are abnormally sensitive, so external pressure that would be trivial in a normal person — a tight collar, or the pressure of shaving — activates the baroreceptor reflex strongly enough to produce marked bradycardia and a fall in arterial pressure, which can cause cerebral ischaemia and fainting. This is an acquired hypersensitivity, not a normal variant seen especially in young adults; severe or recurrent cases may need denervation of the hypersensitive carotid sinus or implantation of a permanent artificial cardiac pacemaker to manage the resulting bradycardia.
+## explicit_objective
+State that carotid sinus syndrome is abnormal baroreceptor hypersensitivity (not a normal young-adult finding), that trivial external pressure triggers bradycardia/hypotension/syncope through the same baroreceptor reflex arc, and that management can require denervation or a pacemaker.
+## pitfalls
+Treating carotid sinus syndrome as a normal physiological variant seen especially in young, healthy people — it is an acquired abnormal sensitivity, and the book's own account frames it as a condition, one severe enough to sometimes need denervation or a permanent pacemaker.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p16 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Carotid sinus syndrome | Carotid sinus hypersensitivity
+## article_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] As regard carotid sinus syndrome all of the following is correct except;
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -12517,24 +13327,6 @@ src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
 +ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
 ## field_notes
 canonical_key "arterial-blood-pressure.systolic-diastolic-map-and-pulse-pressure" already has a pinned id in this module (CON-CVS-A0579343614BCD); mintConceptId derives the same id fresh (CON-CVS-A0579343614BCD) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
-
-
----
-
-# Item
-## id
-CON-CVS-56A68328FD03C7
-## label
-Local blood flow is matched to tissue metabolism by two mechanisms — active hyperaemia driven by vasodilator metabolites and hypoxia, and myogenic/metabolic autoregulation that returns flow toward normal after a change in perfusion pressure
-## canonical_key
-local-blood-flow-regulation.myogenic-and-metabolic-autoregulation
-## exam_signal
-src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
-src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
-## article_ids
-+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
-## field_notes
-canonical_key "local-blood-flow-regulation.myogenic-and-metabolic-autoregulation" already has a pinned id in this module (CON-CVS-56A68328FD03C7); mintConceptId derives the same id fresh (CON-CVS-56A68328FD03C7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

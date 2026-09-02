@@ -4,19 +4,18 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 865 | excluded: 191 | remaining: 96
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 878 | excluded: 193 | remaining: 81
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 865
+- authored (by key, this ledger): 878
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 865
+- authored minus held-back = build-style "kept": 878
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| Basic Mechanisms of Circulatory Control | 36 | 13 | 6 | 17 |
 | Control of Respiration | 25 | 9 | 6 | 10 |
 | Mechanical Properties of Cardiac Muscle | 42 | 26 | 8 | 8 |
 | A-V Connections | 54 | 40 | 7 | 7 |
@@ -31,6 +30,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Macrophage system | 5 | 1 | 1 | 3 |
 | Organization of the Respiratory System | 12 | 6 | 3 | 3 |
 | Spleen | 27 | 19 | 5 | 3 |
+| Basic Mechanisms of Circulatory Control | 36 | 26 | 8 | 2 |
 | out-of-module | 1 | 0 | 0 | 1 |
 | Tonsils | 18 | 10 | 4 | 1 |
 | (untagged) | 219 | 88 | 4 | 0 |
@@ -54,26 +54,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### Basic Mechanisms of Circulatory Control (17)
-
-- `a-decrease-in-which-would-cause-chronic-hypertension-f762e6fe` — A decrease in which would cause chronic hypertension
-- `about-mediators-and-vasoactive-substances-all-of-the-followi-ac96f885` — About mediators and vasoactive substances, all of the following are true Except:
-- `all-about-renin-angiotensin-system-is-correct-except-28636919` — All about renin-angiotensin system is correct, except:
-- `as-regard-carotid-sinus-syndrome-all-of-the-following-is-cor-11f1b928` — As regard carotid sinus syndrome all of the following is correct except;
-- `concerning-nitric-oxide-no-the-following-are-true-except-a9c985aa` — Concerning nitric oxide NO, the following are true, except
-- `epistaxis-mean-6a48dc85` — Epistaxis mean:
-- `it-is-correct-to-say-8f7e9d38` — It is correct to say
-- `it-the-noradrenergic-nerves-to-the-heart-are-stimulated-afte-65f9cb1e` — It the noradrenergic nerves to the heart are stimulated after giving a B-blocker…
-- `long-term-regulation-of-arterial-blood-pressure-is-done-by-4e2ec8e0` — Long term regulation of arterial blood pressure is done by
-- `mean-systemic-filling-pressure-is-decreased-by-d3f1a38e` — Mean systemic filling pressure is decreased by:
-- `nitric-oxide-25204420` — Nitric oxide
-- `renhin-is-released-in-the-following-conditions-except-1690beb3` — Renhin is released in the following conditions, except
-- `stimalation-of-angiotensin-ii-receptors-at1-produce-all-exce-7cf8d5ad` — Stimalation of angiotensin II receptors AT1 produce all, except
-- `stimulation-of-angiotensin-ii-receptors-at-2-produce-a2994df9` — Stimulation of angiotensin II receptors AT-2 produce:
-- `systemic-arteriolar-constriction-may-result-from-an-increase-fdd3c641` — Systemic arteriolar constriction may result from an increase in local concentrat…
-- `the-following-are-true-regarding-no-except-870b8ec2` — The following are true, regarding NO, except
-- `which-of-the-following-is-not-a-vasodilator-metabolite-8da91769` — Which of the following is not a vasodilator metabolite?
 
 ### Control of Respiration (10)
 
@@ -193,6 +173,11 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `irregular-barrel-shape-that-lined-by-fenestrated-cells-non-c-43d8f714` — ……..... irregular barrel shape that lined by fenestrated cells, non Contineuos b…
 - `the-lymphatic-organ-containing-littoral-macrophage-cells-is-00df2662` — The lymphatic organ containing Littoral macrophage cells is: |
 - `trabeculae-divide-spleen-into-024bb379` — trabeculae divide spleen into
+
+### Basic Mechanisms of Circulatory Control (2)
+
+- `epistaxis-mean-6a48dc85` — Epistaxis mean:
+- `mean-systemic-filling-pressure-is-decreased-by-d3f1a38e` — Mean systemic filling pressure is decreased by:
 
 ### out-of-module (1)
 

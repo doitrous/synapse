@@ -54,10 +54,11 @@
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 41 questions, 10 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 43 questions, 11 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
-    Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
+    Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
+    Physiology Cardiovascular System — Endothelium and Vasoactive Hormones — 12 questions, 5 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 30 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
@@ -83,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  191 questions were excluded and 0 held back for having no
+  193 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -52479,6 +52480,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-215AD165EE1B
+## title
+Which of the following is not a vasodilator metabolite?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is not a vasodilator metabolite?
+## answer_a
+Adenosine
+## explanation_a
+Adenosine is a vasodilator metabolite — a breakdown product of ATP that is especially important in cardiac muscle, one of the department book's own named examples.
+## answer_b
+Potassium ions
+## explanation_b
+Potassium ions are a vasodilator metabolite — the department book's vasomotion section names potassium ions, alongside O2 lack, CO2 excess and lactic acid, among the metabolites that relax metarterioles and precapillary sphincters.
+## answer_c
+Hydrogen ions
+## explanation_c
+Hydrogen ions (low pH from acidic metabolites such as lactic acid) are a vasodilator metabolite, one of the department book's own named examples of active hyperaemia's vasodilator metabolites.
+## answer_d
+Endothelin-1
+## explanation_d
+This is the correct answer. Endothelin-1 is not a vasodilator metabolite — it is described as the most potent vasoconstrictor yet known, secreted by the endothelium itself, the opposite direction from adenosine, potassium ions and hydrogen ions.
+
+Why this is right:
+- In the myogenic mechanism of autoregulation, arteriolar stretch from a pressure rise stimulates calcium entry into smooth muscle fibres, which contract with greater force, producing vasoconstriction.
+## correct_answer
+D
+## main_concept
+CON-CVS-56A68328FD03C7
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify endothelin-1, not adenosine, potassium ions or hydrogen ions, as the option that is not a vasodilator metabolite.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p9 q67. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-40ACDB21FA56
 ## title
 Asa rapid compensatory reaction to hemorrhagic shock, the secretion of the following ho…
@@ -56446,6 +56539,1110 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-49BFC6813B9D
+## title
+Concerning nitric oxide NO, the following are true, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning nitric oxide NO, the following are true, except
+## answer_a
+Formed from L-arginine by the action of NO synthase
+## explanation_a
+True, so not the exception. NO is formed from L-arginine by the action of endothelial NO synthase (eNOS).
+## answer_b
+Causes vascular smooth muscle relaxation by activating guanyl cyclase
+## explanation_b
+True, so not the exception. NO causes vascular smooth muscle relaxation by activating guanylate cyclase, which raises cGMP.
+## answer_c
+Synthesis is stimulated by adrenaline
+## explanation_c
+The exception, and the answer. The book's own list of stimuli that activate eNOS and raise NO production is shear stress, acetylcholine, and bradykinin/histamine — adrenaline is not among them; some vasoconstrictors including angiotensin II do raise NO release, but that is a separate point from adrenaline specifically stimulating synthesis.
+
+Why this is right:
+- Nitric oxide (NO) is produced continuously by endothelial cells, via the action of endothelial nitric oxide synthase (eNOS) on the amino acid L-arginine.
+## answer_d
+Acetylcholine and shear stress increase the activity of NO synthase |
+## explanation_d
+True, so not the exception. Acetylcholine (released by endothelial cells in response to shear stress) and shear stress itself both increase NO synthase activity.
+## correct_answer
+C
+## main_concept
+CON-CVS-73B5BC1B2AB1FD
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify that NO synthase is stimulated by shear stress and acetylcholine, not by adrenaline, alongside its L-arginine substrate and cGMP-mediated mechanism.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p20 q153. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-48E6AE3F1B52
+## title
+Nitric oxide
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Nitric oxide
+## answer_a
+Is synthesized in vascular endothelium from amino acid leucine
+## explanation_a
+NO is synthesised in vascular endothelium from the amino acid L-arginine, not leucine.
+## answer_b
+Produces vascular smooth muscle relaxation via cAMP 1
+## explanation_b
+NO produces vascular smooth muscle relaxation via cGMP (through guanylate cyclase), not cAMP.
+## answer_c
+Released from vascular smooth muscle during stress
+## explanation_c
+NO is released from vascular endothelial cells, not from vascular smooth muscle itself.
+## answer_d
+Failure of its synthesis leads to development of hypertension
+## explanation_d
+This is the correct answer. Chronic hypertension and atherosclerosis can damage the endothelium and impair NO synthesis, and a primary deficiency of NO synthesis itself can cause hypertension — animals lacking the eNOS enzyme become hypertensive, since a vasodilator tone the vasculature depends on is lost.
+
+Why this is right:
+- Nitric oxide (NO) is produced continuously by endothelial cells, via the action of endothelial nitric oxide synthase (eNOS) on the amino acid L-arginine.
+## correct_answer
+D
+## main_concept
+CON-CVS-73B5BC1B2AB1FD
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that a failure of NO synthesis contributes to the development of hypertension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q155. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6DC15C606C23
+## title
+The following are true, regarding NO, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following are true, regarding NO, except
+## answer_a
+Produced by the action of NO synthase on L-arginine in endothelial cells
+## explanation_a
+True, so not the exception. NO is produced by the action of NO synthase on L-arginine in endothelial cells.
+## answer_b
+Acetylcholine activate the NO synthase enzyme
+## explanation_b
+True, so not the exception. Acetylcholine activates the NO synthase enzyme (via shear-stress-triggered endothelial acetylcholine release).
+## answer_c
+NO induces VD of blood vessels by increasing c-AMP
+## explanation_c
+The exception, and the answer. NO induces vasodilation of blood vessels by activating guanylate cyclase and raising cGMP, not cAMP — the same substitution this leaf's own nitric-oxide concept flags as a common distractor.
+
+Why this is right:
+- Nitric oxide (NO) is produced continuously by endothelial cells, via the action of endothelial nitric oxide synthase (eNOS) on the amino acid L-arginine.
+## answer_d
+Shear stress increases the NO production
+## explanation_d
+True, so not the exception. Shear stress increases NO production (flow-induced vasodilatation).
+## correct_answer
+C
+## main_concept
+CON-CVS-73B5BC1B2AB1FD
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify that NO induces vasodilation by raising cGMP, not cAMP, alongside its production pathway and its acetylcholine/shear-stress stimuli.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q154. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3A52D35EA3E5
+## title
+A decrease in which would cause chronic hypertension
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+A decrease in which would cause chronic hypertension
+## answer_a
+Renal sympathetic nerve activity
+## explanation_a
+A decrease in renal sympathetic nerve activity would lower, not raise, sympathetically driven vasoconstriction and renin release — it would tend to lower arterial pressure, not cause hypertension.
+## answer_b
+Aldosterone
+## explanation_b
+A decrease in aldosterone would increase renal Na+ and water loss, lowering blood volume and arterial pressure — the opposite of causing hypertension.
+## answer_c
+Angiotensin II
+## explanation_c
+A decrease in angiotensin II would remove a vasoconstrictor and reduce aldosterone-driven Na+/water retention, lowering arterial pressure rather than raising it.
+## answer_d
+Nitric oxide
+## explanation_d
+This is the correct answer. Nitric oxide is a vasodilator; a decrease in its synthesis removes that vasodilator tone, permitting excessive vasoconstriction. The department book states this directly: deficiency of NO can cause hypertension, and animals lacking the eNOS enzyme become hypertensive.
+
+Why this is right:
+- Nitric oxide (NO) is produced continuously by endothelial cells, via the action of endothelial nitric oxide synthase (eNOS) on the amino acid L-arginine.
+## correct_answer
+D
+## main_concept
+CON-CVS-73B5BC1B2AB1FD
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify that a decrease in nitric oxide, unlike a decrease in renal sympathetic activity, aldosterone or angiotensin II, causes chronic hypertension because it removes a vasodilator tone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p4 q22. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-31BB3C571FDC
+## title
+About mediators and vasoactive substances, all of the following are true Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+About mediators and vasoactive substances, all of the following are true Except:
+## answer_a
+Norepinephrine is a hormone for arteriolar vasoconstriction
+## explanation_a
+True, so not the exception. Norepinephrine is one of the book's own listed circulating vasoconstrictor hormones.
+## answer_b
+Kinins are hormones for arteriolar vasoconstriction
+## explanation_b
+The exception, and the answer. Kinins are listed among the vasodilator hormones, not the vasoconstrictors — the opposite of this statement.
+
+Why this is right:
+- Beyond the local (metabolic) and nervous mechanisms controlling arteriolar diameter, a systemic humoral mechanism uses circulating hormones with opposite vascular actions.
+## answer_c
+Angiotensin II produces arteriolar vasoconstriction
+## explanation_c
+True, so not the exception. Angiotensin II is one of the listed circulating vasoconstrictor hormones.
+## answer_d
+Catecholamines and vasopressin are circulating vasoconstrictor substances
+## explanation_d
+True, so not the exception. Catecholamines (epinephrine, norepinephrine) and vasopressin are all listed as circulating vasoconstrictor substances.
+## correct_answer
+B
+## main_concept
+CON-CVS-2BE3EA659D177B
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Sort norepinephrine, angiotensin II and vasopressin as circulating vasoconstrictors and kinins as a vasodilator, not a vasoconstrictor.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p11 q78. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A96C5D9F228C
+## title
+Systemic arteriolar constriction may result from an increase in local concentration of:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Systemic arteriolar constriction may result from an increase in local concentration of:
+## answer_a
+Nitric oxide
+## explanation_a
+Nitric oxide is a vasodilator, produced locally by the endothelium — a rise in its local concentration causes vasodilation, not constriction.
+## answer_b
+Angiotensin II
+## explanation_b
+This is the correct answer. Angiotensin II is one of the book's own listed circulating vasoconstrictor hormones, producing peripheral vasoconstriction of arterioles and veins via AT1 receptors.
+
+Why this is right:
+- Beyond the local (metabolic) and nervous mechanisms controlling arteriolar diameter, a systemic humoral mechanism uses circulating hormones with opposite vascular actions.
+## answer_c
+Atrial natriuretic peptide
+## explanation_c
+Atrial natriuretic peptide is one of the listed vasodilator hormones — a rise in its concentration lowers, not raises, vascular resistance.
+## answer_d
+Hydrogen ions
+## explanation_d
+Hydrogen ions are a vasodilator metabolite of active tissue (part of active hyperaemia), not a vasoconstrictor — a local rise dilates, rather than constricts, the arterioles.
+## correct_answer
+B
+## main_concept
+CON-CVS-2BE3EA659D177B
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify angiotensin II, not nitric oxide, atrial natriuretic peptide or hydrogen ions, as a substance whose rise causes systemic arteriolar constriction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p22 q162. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C278650B3660
+## title
+All about renin-angiotensin system is correct, except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All about renin-angiotensin system is correct, except:
+## answer_a
+Is stimulated following blood loss
+## explanation_a
+True, so not the exception. The RAS is stimulated following blood loss, since hypovolaemia and hypotension raise renin secretion.
+## answer_b
+Depends on angiotensinogen secretion from the juxtaglomerular apparatus
+## explanation_b
+The exception, and the answer. Angiotensinogen is secreted by the liver, not the juxtaglomerular apparatus — the juxtaglomerular apparatus secretes renin, the enzyme that then acts on hepatic angiotensinogen.
+
+Why this is right:
+- Renin is secreted by the juxtaglomerular apparatus of the kidney, a proteolytic enzyme that acts on angiotensinogen (secreted by the liver, not the juxtaglomerular apparatus itself) to form the decapeptide angiotensin I; angiotensin-converting enzyme (ACE), found in vascular endothelial cells especially of the lung, then converts angiotensin I to the octapeptide angiotensin II.
+## answer_c
+Promotes aldosterone secretion from the adrenal cortex
+## explanation_c
+True, so not the exception. Angiotensin II promotes aldosterone secretion from the adrenal cortex via AT1 receptors.
+## answer_d
+Can stimulate vasoconstriction
+## explanation_d
+True, so not the exception. Angiotensin II can stimulate vasoconstriction via AT1 receptors.
+## correct_answer
+B
+## main_concept
+CON-CVS-F7ACE802080250
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify that angiotensinogen is secreted by the liver, not the juxtaglomerular apparatus, which instead secretes renin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q160. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-76A1CA9B087A
+## title
+Renhin is released in the following conditions, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Renhin is released in the following conditions, except
+## answer_a
+Salt restriction ,
+## explanation_a
+True, so not the exception. Salt restriction lowers Na+ delivery to the distal tubule, one of the book's own listed triggers that raises renin secretion.
+## answer_b
+Dehydration
+## explanation_b
+True, so not the exception. Dehydration causes hypovolaemia and hypotension, one of the book's own listed triggers that raises renin secretion.
+## answer_c
+Sympathetic stimulation
+## explanation_c
+True, so not the exception. Sympathetic stimulation raises renin secretion via β1 adrenoceptors, as the book states directly.
+## answer_d
+Hypertension
+## explanation_d
+The exception, and the answer. Hypertension is not one of the book's listed renin-raising triggers — a raised, not lowered, arterial pressure and renal perfusion instead suppresses renin secretion through the same feedback logic in reverse.
+
+Why this is right:
+- Renin is secreted by the juxtaglomerular apparatus of the kidney, a proteolytic enzyme that acts on angiotensinogen (secreted by the liver, not the juxtaglomerular apparatus itself) to form the decapeptide angiotensin I; angiotensin-converting enzyme (ACE), found in vascular endothelial cells especially of the lung, then converts angiotensin I to the octapeptide angiotensin II.
+## correct_answer
+D
+## main_concept
+CON-CVS-F7ACE802080250
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify hypertension, not salt restriction, dehydration or sympathetic stimulation, as the condition that does not raise renin secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q159. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F9880720D9EB
+## title
+Long term regulation of arterial blood pressure is done by
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Long term regulation of arterial blood pressure is done by
+## answer_a
+Baroreceptors
+## explanation_a
+Baroreceptors are a rapid, second-to-second reflex mechanism, not a long-term one — their discharge itself resets (adapts) over one to two days of a sustained pressure change, so they are not the book's own long-term regulator.
+## answer_b
+Chemoreceptors
+## explanation_b
+Chemoreceptors, like baroreceptors, are a rapid reflex mechanism engaging within seconds, not a long-term regulator of arterial pressure.
+## answer_c
+Rennin-angiotensin system
+## explanation_c
+This is the correct answer. The department book states directly that angiotensin II has an important role in long-term regulation of arterial blood pressure, acting by decreasing renal Na+/water excretion and increasing aldosterone secretion — effects that build and persist over minutes to days, unlike the immediate baroreceptor and chemoreceptor reflexes.
+
+Why this is right:
+- Renin is secreted by the juxtaglomerular apparatus of the kidney, a proteolytic enzyme that acts on angiotensinogen (secreted by the liver, not the juxtaglomerular apparatus itself) to form the decapeptide angiotensin I; angiotensin-converting enzyme (ACE), found in vascular endothelial cells especially of the lung, then converts angiotensin I to the octapeptide angiotensin II.
+## answer_d
+All of the above
+## explanation_d
+Not correct, since baroreceptors and chemoreceptors are rapid reflexes, not long-term regulators — only the renin-angiotensin system among the three options fits the book's own long-term classification.
+## correct_answer
+C
+## main_concept
+CON-CVS-F7ACE802080250
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify the renin-angiotensin system, not the baroreceptor or chemoreceptor reflexes, as the mechanism responsible for long-term arterial pressure regulation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p23 q175. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8734594B1AC8
+## title
+Stimalation of angiotensin II receptors AT1 produce all, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stimalation of angiotensin II receptors AT1 produce all, except
+## answer_a
+Vasoconstriction
+## explanation_a
+True, so not the exception. AT1 receptor stimulation causes peripheral vasoconstriction of arterioles and veins.
+## answer_b
+Renal Na and water reabsorption
+## explanation_b
+True, so not the exception. AT1 receptor stimulation stimulates renal tubular Na+ and water reabsorption directly.
+## answer_c
+Aldosterone secretion
+## explanation_c
+True, so not the exception. AT1 receptor stimulation causes aldosterone secretion from the adrenal cortex.
+## answer_d
+Diuresis and natriuresis
+## explanation_d
+The exception, and the answer. Diuresis and natriuresis are AT2 receptor actions, which counterbalance AT1 — AT1 stimulation instead promotes Na+/water retention, the opposite direction.
+
+Why this is right:
+- Angiotensin II acts through two receptor types.
+## correct_answer
+D
+## main_concept
+CON-CVS-C2245AA65D468B
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify diuresis and natriuresis as AT2, not AT1, receptor actions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q157. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-407521726690
+## title
+Stimulation of angiotensin II receptors AT-2 produce:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stimulation of angiotensin II receptors AT-2 produce:
+## answer_a
+Vasoconstriction
+## explanation_a
+Vasoconstriction is an AT1, not AT2, receptor action — AT2 stimulation instead produces vasodilatation.
+## answer_b
+Renal Na and water reabsorption
+## explanation_b
+Renal Na+ and water reabsorption is an AT1, not AT2, receptor action — AT2 stimulation instead produces diuresis, the opposite direction.
+## answer_c
+Aldosterone secretion
+## explanation_c
+Aldosterone secretion is an AT1, not AT2, receptor action.
+## answer_d
+Diuresis and natriuresis
+## explanation_d
+This is the correct answer. AT2 receptor stimulation produces diuresis (increased renal water excretion) and natriuresis (increased renal Na+ excretion), counterbalancing AT1's vasoconstrictor, Na+/water-retaining profile.
+
+Why this is right:
+- Angiotensin II acts through two receptor types.
+## correct_answer
+D
+## main_concept
+CON-CVS-C2245AA65D468B
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that AT2 receptor stimulation produces diuresis and natriuresis, the actions that counterbalance AT1.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p5 q30. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7501F8E026D8
+## title
+As regard carotid sinus syndrome all of the following is correct except;
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+As regard carotid sinus syndrome all of the following is correct except;
+## answer_a
+It occurs in normal subject especially young adults
+## explanation_a
+The exception, and the answer. Carotid sinus syndrome is not a normal finding especially in young adults — it is an acquired hypersensitivity of the carotid sinus baroreceptors, treated in the book as an abnormal condition.
+
+Why this is right:
+- In carotid sinus syndrome, the carotid sinus baroreceptors are abnormally sensitive, so external pressure that would be trivial in a normal person — a tight collar, or the pressure of shaving — activates the baroreceptor reflex strongly enough to produce marked bradycardia and a fall in arterial pressure, which can cause cerebral ischaemia and fainting.
+## answer_b
+Slight pressure on carotid sinus leads to a bradycardia, hypotension andloss of consciousness
+## explanation_b
+True, so not the exception. Slight pressure on the hypersensitive carotid sinus (e.g. a tight collar or shaving) leads to marked bradycardia, hypotension and can cause loss of consciousness through cerebral ischaemia.
+## answer_c
+Dennervation of the hypersensitive carotid sinus cure the condition
+## explanation_c
+True, so not the exception. Denervation of the hypersensitive carotid sinus is one of the treatments the book names for severe or recurrent cases.
+## answer_d
+The carotid sinus is abnormally sensitive
+## explanation_d
+True, so not the exception. The defining feature of the syndrome is that the carotid sinus is abnormally sensitive to pressure.
+## correct_answer
+A
+## main_concept
+CON-CVS-A1E3D54120275D
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify that carotid sinus syndrome is an acquired hypersensitivity, not a normal finding especially in young adults.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q121. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
