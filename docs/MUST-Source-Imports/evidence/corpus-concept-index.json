@@ -1,0 +1,211 @@
+{
+ "note": "Minimal exact raw-candidate index for the governed FHB-102-2 authoring records; entries are copied from the repository corpus index and remain rejected merge provenance, not import-ready records.",
+ "candidates": {
+  "concept_25930191933ec8ce06dbcc36": {
+   "labels": [
+    "Colonization is bacterial multiplication on a body surface without disease"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain colonization is bacterial multiplication on a body surface without disease as taught by the source."
+   ]
+  },
+  "concept_a2b4b11a538e270f6ec8c386": {
+   "labels": [
+    "carrier state"
+   ],
+   "sources": [
+    "10. MTI Uni Books/FINAL GIT 220 THEORITICAL BOOK 2022.pdf"
+   ],
+   "statements": []
+  },
+  "concept_392ea19120acaefcbc4900f1": {
+   "labels": [
+    "Virulence is the quantitative degree of pathogenicity"
+   ],
+   "sources": [
+    "5. Beni Suef Uni Books/micro.pdf"
+   ],
+   "statements": [
+    "Explain or identify virulence is the quantitative degree of pathogenicity from the cited general microbiology evidence."
+   ]
+  },
+  "concept_b346ddd4b96640338b4ed62b": {
+   "labels": [
+    "Virulence factors mediate adherence invasion immune evasion injury and persistence"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain virulence factors mediate adherence invasion immune evasion injury and persistence as taught by the source."
+   ]
+  },
+  "concept_ef140fbdea83f0ad8f632b5e": {
+   "labels": [
+    "Bacteria compete for iron by siderophores"
+   ],
+   "sources": [
+    "10. MTI Uni Books/Final HIM 110 theoretical 2022.pdf"
+   ],
+   "statements": []
+  },
+  "concept_7e50394238ac7cb476935db2": {
+   "labels": [
+    "It converts fibrinogen into fibrin."
+   ],
+   "sources": [
+    "6. Fayoum Uni Books/ميكرو القسم.pdf"
+   ],
+   "statements": []
+  },
+  "concept_94077f144bd452aeaa123adf": {
+   "labels": [
+    "Beta-lactam antibiotics inhibit bacterial cell-wall synthesis and are bactericidal"
+   ],
+   "sources": [
+    "8. Tanta Uni Books/a14786de-78b8-42e5-a3e3-26b231151b4e.pdf"
+   ],
+   "statements": []
+  },
+  "concept_2702d2a68f2fa4a8f84067f4": {
+   "labels": [
+    "Beta-lactamase inhibitors protect partner beta-lactams from enzymatic destruction"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain beta-lactamase inhibitors protect partner beta-lactams from enzymatic destruction as taught by the source."
+   ]
+  },
+  "concept_37b12448aaf7607dcef25f69": {
+   "labels": [
+    "Long-acting penicillin applied for chemoprophylaxis of rheumatic fever"
+   ],
+   "sources": [
+    "10. MTI Uni Books/PHA 109 II.pdf"
+   ],
+   "statements": []
+  },
+  "concept_550a06f2f8cdb1283f34bc9b": {
+   "labels": [
+    "Co-amoxiclav combines amoxicillin with clavulanic acid"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Pharma practical ID1 2022.pdf"
+   ],
+   "statements": [
+    "Explain co-amoxiclav combines amoxicillin with clavulanic acid as taught by the source."
+   ]
+  },
+  "concept_ac6dc41e45d23db7b00bcdc0": {
+   "labels": [
+    "Ampicillin-Sulbactam"
+   ],
+   "sources": [
+    "9. Zagazig Uni Books/Renal Practical.pdf"
+   ],
+   "statements": []
+  },
+  "concept_b63d87129941d4e1074248e5": {
+   "labels": [
+    "Beta-lactams are bactericidal time-dependent cell-wall inhibitors"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain beta-lactams are bactericidal time-dependent cell-wall inhibitors as taught by the source."
+   ]
+  },
+  "concept_3dac886699724745f861bfc5": {
+   "labels": [
+    "Ceftaroline is a fifth-generation cephalosporin active against MRSA"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain ceftaroline is a fifth-generation cephalosporin active against MRSA as taught by the source."
+   ]
+  },
+  "concept_be9951c4f6e42dcf27a24b85": {
+   "labels": [
+    "The spectrum guide lists aztreonam as a monobactam"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Pharma practical ID1 2022.pdf"
+   ],
+   "statements": [
+    "Interpret the spectrum guide lists aztreonam as a monobactam from the cited prepared-Corpus structure."
+   ]
+  },
+  "concept_7eb8fe997f9e9511d2e86baa": {
+   "labels": [
+    "Aztreonam targets aerobic Gram-negative bacilli without penicillin cross-sensitivity"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain aztreonam targets aerobic Gram-negative bacilli without penicillin cross-sensitivity as taught by the source."
+   ]
+  },
+  "concept_99b7d0d51903a771d753f386": {
+   "labels": [
+    "Imipenem renal degradation and cilastatin combination"
+   ],
+   "sources": [
+    "8. Tanta Uni Books/Tanta pharmacology book.pdf"
+   ],
+   "statements": []
+  },
+  "concept_58a1f480f0d4d45284eec26d": {
+   "labels": [
+    "Carbapenems cover broad Gram-negative Gram-positive and anaerobic organisms"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain carbapenems cover broad Gram-negative Gram-positive and anaerobic organisms as taught by the source."
+   ]
+  },
+  "concept_2f8f468f2f638b724ef53978": {
+   "labels": [
+    "Rapid vancomycin infusion can cause histamine-mediated red-man syndrome"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain rapid vancomycin infusion can cause histamine-mediated red-man syndrome as taught by the source."
+   ]
+  },
+  "concept_28446335a5e8351d0759ed23": {
+   "labels": [
+    "Vancomycin is a renal-eliminated Gram-positive agent active against MRSA"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain vancomycin is a renal-eliminated Gram-positive agent active against MRSA as taught by the source."
+   ]
+  },
+  "concept_77cf288624b1c088ade0ab9d": {
+   "labels": [
+    "Beta-lactams inhibit bacterial cell-wall synthesis"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain beta-lactams inhibit bacterial cell-wall synthesis as taught by the source."
+   ]
+  }
+ }
+}

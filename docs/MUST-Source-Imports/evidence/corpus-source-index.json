@@ -1,18 +1,355 @@
 {
- "note": "Minimal MUST-CVS-201 corpus source index for tranche-1 authoring — the two written EOM papers this batch cites. Values copied from manifest/y2-sources.json (S0 intake).",
+ "note": "Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.",
  "generatedFrom": [
-  "docs/MUST-Source-Imports/manifest/y2-sources.json"
+  "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
- "manifestGeneratedOn": "2026-09-02",
- "count": 2,
+ "manifestGeneratedOn": "2026-08-31",
+ "count": 30,
  "sources": {
-  "src_240262ce3fe62cc799c0": {
-   "sourceRelativePath": "Semester 201/CVS 201/00 Module-wide/06 EOM Exams/EOM MCQs - CVS201 Written Questions (Final) Fall 2024.pdf",
+  "src_b9989e9ef3c314f6c771": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
    "sourceRelativePaths": [
-    "Semester 201/CVS 201/00 Module-wide/06 EOM Exams/EOM MCQs - CVS201 Written Questions (Final) Fall 2024.pdf"
+    "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf"
    ],
-   "sha256": "240262ce3fe62cc799c0515a883bcbf4e86c4358671d1c7fd7fd4e4164edbc69",
-   "processingStatus": "visually_read_native_text",
+   "sha256": "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
+   "processingStatus": "fully_governed",
+   "pageCount": 6,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "MCQs"
+   ]
+  },
+  "src_5c62279de4964083aecb": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Fhb para (answers & notes).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Fhb para (answers & notes).pdf"
+   ],
+   "sha256": "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
+   "processingStatus": "fully_governed",
+   "pageCount": 10,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "MCQs",
+    "Teaching notes"
+   ]
+  },
+  "src_6fb474b2c5871480abef": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Myiasis) Midterm Notes.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Myiasis) Midterm Notes.pdf"
+   ],
+   "sha256": "6fb474b2c5871480abefa3a6e738373c226ccb790af54bb01709f3bb833941d5",
+   "processingStatus": "fully_governed",
+   "pageCount": 6,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "Teaching notes"
+   ]
+  },
+  "src_08be9a1018b73dcd7c3": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/6.Ticks.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/6.Ticks.pdf"
+   ],
+   "sha256": "08be9a1018b73dcd7c3d97ef1e0502bcfa2c401d81aec2672c3e1a8e226cb955",
+   "processingStatus": "fully_governed",
+   "pageCount": 40,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_62dda2ba1dad2602f5db": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/4.Lice, Fleas & Bugs.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/4.Lice, Fleas & Bugs.pdf"
+   ],
+   "sha256": "62dda2ba1dad2602f5db3d4401fe589b853357b3a1105d39ce6c6f57356d53df",
+   "processingStatus": "fully_governed",
+   "pageCount": 79,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_b75f65f2298d0fcbc5f3": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/3 - Mosquitoes.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/3 - Mosquitoes.pdf"
+   ],
+   "sha256": "b75f65f2298d0fcbc5f3a95d74b10caa96b314adada37f04fb78285f12f02247",
+   "processingStatus": "fully_governed",
+   "pageCount": 47,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_a82c32271ee38d0b2cad": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/7.Sandfly.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/7.Sandfly.pdf"
+   ],
+   "sha256": "a82c32271ee38d0b2cadb2f976a6eff205ab27693fab5f3906ea85798fc99bbd",
+   "processingStatus": "fully_governed",
+   "pageCount": 34,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_2c1e04372fbb8b2607f7": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/2.Flies & Myiasis.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/2.Flies & Myiasis.pdf"
+   ],
+   "sha256": "2c1e04372fbb8b2607f73de38b26d4667d7f7408bcbd39ffc156aaea253dcd79",
+   "processingStatus": "fully_governed",
+   "pageCount": 58,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_51157599ec58c9f98c28": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/6.Anti-Tuberculous Drugs.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/6.Anti-Tuberculous Drugs.pdf"
+   ],
+   "sha256": "51157599ec58c9f98c28c085904d33e04803556d3154da417376d987d91e811d",
+   "processingStatus": "fully_governed",
+   "pageCount": 25,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_e059ca4507cf3177b362": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/3.Protein Synthesis Inhibitors (30S).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/3.Protein Synthesis Inhibitors (30S).pdf"
+   ],
+   "sha256": "e059ca4507cf3177b36253ec15d510c14512bda3adcf17fd671f6fe9376b9f6c",
+   "processingStatus": "fully_governed",
+   "pageCount": 22,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_3a69ab072e403a68f287": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 3. Antimicrbial Protein inhibitors.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 3. Antimicrbial Protein inhibitors.pdf",
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/Antimicrbial Protein inhibitors.pdf"
+   ],
+   "sha256": "3a69ab072e403a68f2876542ad6511dfa2dec9395a5cd0af0141e4bafb4792c5",
+   "processingStatus": "fully_governed",
+   "pageCount": 49,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_57dd6426a8e11335031c": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/4.Protein Synthesis Inhibitors (50S).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/4.Protein Synthesis Inhibitors (50S).pdf"
+   ],
+   "sha256": "57dd6426a8e11335031cbf486af522a93482fc0fc68f55ab98f1553da2adfb87",
+   "processingStatus": "fully_governed",
+   "pageCount": 17,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_5dfd7701d995629e7c36": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/Antimicrbial Nucleopotein (DNA and RNA) Inhibitors.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/Antimicrbial Nucleopotein (DNA and RNA) Inhibitors.pdf",
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 4. Antimicrbial Nucleopotein (DNA and RNA) Inhibitors.pdf"
+   ],
+   "sha256": "5dfd7701d995629e7c36c7967736e21927c28a3a5e89272f8c40e20cacbac952",
+   "processingStatus": "fully_governed",
+   "pageCount": 23,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_875c205531a585cd5b91": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/2. B-Lactam & Vancomycin.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/2. B-Lactam & Vancomycin.pdf",
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/B-Lactam & Vancomycin.pdf"
+   ],
+   "sha256": "875c205531a585cd5b91b7bd05257ca4f8a0052c7e6cfa32ddd8156c6a5c91fb",
+   "processingStatus": "fully_governed",
+   "pageCount": 40,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_b500ffe881ed0f4ace5c": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/102 Basic Virology.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/102 Basic Virology.pdf"
+   ],
+   "sha256": "b500ffe881ed0f4ace5cd836ae43696fa19d41db18bd61e2899e0de1a8eff20c",
+   "processingStatus": "fully_governed",
    "pageCount": 3,
    "languages": [
     "en"
@@ -20,38 +357,424 @@
    "exclusionReason": null,
    "universityId": "must",
    "yearIds": [
-    "MUST_Y2"
+    "MUST_Y1"
    ],
    "moduleIds": [
-    "MUST-CVS-201"
+    "MUST-FHB-102-2"
    ],
    "categories": [
-    "Written Questions",
-    "EOM Exam"
+    "University Material",
+    "Teaching"
    ]
   },
-  "src_7e15214661e511773a7a": {
-   "sourceRelativePath": "Semester 201/CVS 201/Pathology/06 EOM Exams/EOM MCQs - written pathology final by dr.maria.pdf",
+  "src_72a4c07c4877d4b58c3f": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/2.General mycology (Ch 7).pdf",
    "sourceRelativePaths": [
-    "Semester 201/CVS 201/Pathology/06 EOM Exams/EOM MCQs - written pathology final by dr.maria.pdf"
+    "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/2.General mycology (Ch 7).pdf"
    ],
-   "sha256": "7e15214661e511773a7a607ab4fbae248bb64a7f8aefb9a85be9ea2a4c2c6bb0",
-   "processingStatus": "visually_read_native_text",
-   "pageCount": 2,
+   "sha256": "72a4c07c4877d4b58c3f378249ec654d9a889849a1eeb71394ff18a93c330162",
+   "processingStatus": "fully_governed",
+   "pageCount": 34,
+   "languages": [
+    "en",
+    "ar"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_09b0450fc24387f25049": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/3.General virology (Ch 8).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/3.General virology (Ch 8).pdf"
+   ],
+   "sha256": "09b0450fc24387f2504910346d8b5471c1221af9274d4e6101cd27684ba687ac",
+   "processingStatus": "fully_governed",
+   "pageCount": 60,
    "languages": [
     "en"
    ],
    "exclusionReason": null,
    "universityId": "must",
    "yearIds": [
-    "MUST_Y2"
+    "MUST_Y1"
    ],
    "moduleIds": [
-    "MUST-CVS-201"
+    "MUST-FHB-102-2"
    ],
    "categories": [
-    "Written Questions",
-    "EOM Exam"
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_e2832d7aebaad9c7b1fe": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/5.General characteristics of medically relevant bacteria (Ch 10).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/5.General characteristics of medically relevant bacteria (Ch 10).pdf"
+   ],
+   "sha256": "e2832d7aebaad9c7b1fefa847658799131875ed8ac508ca90f5380d69a8aa5f4",
+   "processingStatus": "fully_governed",
+   "pageCount": 25,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_060e284322ddf8fdf92c": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/2.Cell Wall & Cell Membrane Inhibitors.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/2.Cell Wall & Cell Membrane Inhibitors.pdf"
+   ],
+   "sha256": "060e284322ddf8fdf92c49f28659b04afe98b1128fdd34a4d948da38e9ed3a38",
+   "processingStatus": "fully_governed",
+   "pageCount": 36,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_a3d71ccbc276ec903213": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/7.Bacterial genetics (Ch 5).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/7.Bacterial genetics (Ch 5).pdf"
+   ],
+   "sha256": "a3d71ccbc276ec9032139e5e3dd914098fe589223320777a8df7d7051e21738e",
+   "processingStatus": "partially_governed_selected_pages",
+   "pageCount": 53,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_bbf7f72f08ce85032b4d": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/7. Antifungal_Drugs.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/7. Antifungal_Drugs.pdf"
+   ],
+   "sha256": "bbf7f72f08ce85032b4d64e013a499d0846398d04b970d9248198ad5c141be32",
+   "processingStatus": "partially_governed_selected_pages",
+   "pageCount": 26,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_da7cc51e7ac1ee22c68a": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 4 - Bacterial Growth 2024.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 4 - Bacterial Growth 2024.pdf"
+   ],
+   "sha256": "da7cc51e7ac1ee22c68a6d16a89b5975e98a1274d6edaa6e046e5c99b072f7bc",
+   "processingStatus": "partially_governed_selected_pages",
+   "pageCount": 40,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_88ddfa49fe01adee5444": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 1,2,3 INTRODUCTION_TO_MICROBIOLOGY_&_BACTERIAL_CELL_STRUCTURE.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 1,2,3 INTRODUCTION_TO_MICROBIOLOGY_&_BACTERIAL_CELL_STRUCTURE.pdf"
+   ],
+   "sha256": "88ddfa49fe01adee544433ce1dce313110c9dc622debf1dc3d6ef85a7606d674",
+   "processingStatus": "partially_governed_selected_pages",
+   "pageCount": 42,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_4bd3b78f762673d7eb7f": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf"
+   ],
+   "sha256": "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
+   "processingStatus": "fully_governed",
+   "pageCount": 45,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "Midterm Exams",
+    "MCQs"
+   ]
+  },
+  "src_8bd3b772b3b32db59726": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf"
+   ],
+   "sha256": "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
+   "processingStatus": "fully_governed",
+   "pageCount": 56,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "Midterm Exams",
+    "MCQs"
+   ]
+  },
+  "src_352f47c6e866e76a9d8b": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf"
+   ],
+   "sha256": "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
+   "processingStatus": "fully_governed",
+   "pageCount": 47,
+   "languages": [
+    "en",
+    "ar"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "Midterm Exams",
+    "MCQs"
+   ]
+  },
+  "src_e4b2f7ce3e55fad37c9a": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/4.Host-Microbe relationship (Ch 6).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/4.Host-Microbe relationship (Ch 6).pdf"
+   ],
+   "sha256": "e4b2f7ce3e55fad37c9a588f1b1c0f015b1d261369ed59d45a3715c9ffe02f2d",
+   "processingStatus": "fully_governed",
+   "pageCount": 41,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_ee1fb7a716a473eb2d98": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf"
+   ],
+   "sha256": "ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3",
+   "processingStatus": "fully_governed",
+   "pageCount": 46,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "Midterm Exams",
+    "Teaching"
+   ]
+  },
+  "src_0e91f1d10838d0af56f5": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf"
+   ],
+   "sha256": "0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648",
+   "processingStatus": "fully_governed",
+   "pageCount": 14,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "Midterm Exams",
+    "Teaching"
+   ]
+  },
+  "src_197fdef8ba580aa5e7ba": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/1.Penicillins.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/1.Penicillins.pdf"
+   ],
+   "sha256": "197fdef8ba580aa5e7ba00933d6e7d674a38f2bfc240b89582ee49270d42a896",
+   "processingStatus": "fully_governed",
+   "pageCount": 38,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_f65b3872022ca0b42a79": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf"
+   ],
+   "sha256": "f65b3872022ca0b42a79e67c7cf1013a1b5f687b2362c2aa9e0c3fd132605149",
+   "processingStatus": "fully_governed",
+   "pageCount": 48,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_9a16b2156717527bf0ab": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/general antibacterial 2.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/general antibacterial 2.pdf"
+   ],
+   "sha256": "9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a",
+   "processingStatus": "fully_governed",
+   "pageCount": 15,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
    ]
   }
  }
