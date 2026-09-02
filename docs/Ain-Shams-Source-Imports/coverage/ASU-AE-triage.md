@@ -215,6 +215,57 @@ onward" (gastrulation/neurulation/somite/folding) returned very high existing-re
 34, somite 51) — so even Embryo3's richest block is probably majority live-hit, not new. Generic anatomy
 terminology (langer's lines, twinning) is more likely genuinely new.
 
+## F — Embryo 1 per-question pass (lane 9 dispatch: Embryo 1/2/3 series)
+
+`MCQs - Embryo 1.pdf` (44-question estimate in block B above; actual count on a full read is **45**,
+Q1-Q45) is now triaged and authored in full: **all 45 questions authored**, seed
+`coverage/seeds/ASU-AE/embryo1.json`, batch `question/ASU-AE-embryo1-mcq.md`, triage-keys
+`embryo1-q01` … `embryo1-q45`.
+
+**Answer-key recovery.** OCR (`pagetext.mjs ocr`) succeeded technically (137-246 words/page) but the
+text was too scrambled to trust for the stems on pp.1-5 and for the printed "Answers of MCQs" key
+table (pp.8-9) throughout — this file's CamScanner curvature warps the table's row-number column out
+of vertical alignment with its letter/remark columns badly enough that reading the printed row labels
+directly produces a false off-by-one reading for the first ~8 rows (confirmed by a zoomed re-crop of
+the scan and by cross-checking every remark's own wording against each stem's own option text, which
+is unambiguous and self-consistent across all 45 rows). Pages 1-9 were rendered and read by eye
+(7 render calls total for this one 9-page file — well past the usual "≤2 renders per file" budget,
+logged here as a quality note specific to this source's unusually bad curvature/scan quality rather
+than a process violation). One genuine key/remark mismatch survived this cross-check: row 28's printed
+letter is "c" (Capacitation) but its own remark text reads "Acrosome formation" (option D's wording) —
+resolved in favour of the letter per standard embryology teaching (capacitation, not acrosome
+formation which happens earlier in the testis, is the fact "before fertilization the sperm must
+undergo" is built to test); flagged in the question's own `author_notes` for a human key check.
+
+**Search-before-mint.** A four-query `find-existing.mjs` pass per concept cluster found substantial
+reuse, matching block B's prediction that embryology is heavily pre-covered: **10 concepts reused**
+as sparse pending-live overlays — 6 onto live `CON-AND`/`CON-DEV`/`CON-GYN`/`CON-OBS` records (abnormal
+sperm forms, azoospermia, hCG/corpus luteum, acrosomal cap, cumulus oophorus, zona+corona at
+ovulation), 2 onto Alexandria's pending `AU-MED-102-embryology-concepts.md` (capacitation, zona
+pellucida acellularity), and 2 onto Kasr's pending `101-ISK-mcq-concepts.md` (the broad haploid
+gamete-formula record, reused as `main_concept` for 8 of this file's chromosome-formula questions;
+gametogenesis timing in male vs female). **17 concepts newly minted** after all four queries came back
+empty for each, covering necrospermia, sperm viability duration, largest spermatogenic cell,
+spermatogenesis phases/duration, spermatid non-division, spermiogenesis structural transformations,
+diploid germ cells, meiotic division timing, oocyte prophase arrest, somatic chromosome count,
+ovulation-releases-secondary-oocyte, corpus luteum fate (menstruation vs pregnancy duration/
+progesterone sources), ovulation accompaniments, contraceptive-pill mechanism, follicular-phase FSH
+control, and secretory-phase spiral arteries — grouped under 3 new articles by subject
+(`ART-AND-ASU-AE-EMBRYO1-GAMETOGENESIS-BASICS`, `ART-DEV-ASU-AE-EMBRYO1-OOGENESIS-BASICS`,
+`ART-GYN-ASU-AE-EMBRYO1-CYCLE-BASICS`). `gate.mjs batch` (question + both new files + all three
+overlays + every source concept/article file each overlay depends on) and `gate.mjs simulate` (11
+files, apply order: Kasr 101-ISK concept+article, Alexandria AU-MED-102 concept+article, all 3
+overlays, the 2 new files, the resource file, the question file) both clean (errors=0/rejected=0),
+independently re-confirmed via `scripts/validate-content-batch.mjs` directly per the known
+gate-crash-masking bug.
+
+**`Bg Embryology Mcq.pdf` and youssef1/youssef2 gametogenesis-tail duplicates.** Not individually
+cross-checked question-by-question in this pass (per dispatch scope, these tails are dispositioned as
+duplicate-of-Embryo1 on topic match, not authored) — every Embryo1 concept above (abnormal-sperm-%,
+sperm viability, necrospermia/azoospermia, corpus luteum duration, acrosome-from-Golgi, meiotic
+timing, chromosome formulas, spermiogenesis events) is a topic already flagged as tested in both
+`Bg Embryology Mcq` and the youssef1/youssef2 tails per block B/§E above.
+
 ## Totals
 
 - **Papers read:** 6 MCQ/mixed sources, all triaged; 16 written (non-MCQ) prompts identified separately.
