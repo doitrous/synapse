@@ -524,3 +524,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — MENOUFIA MED105 lane 3 (Final 43 Paper 1) LANDED (3637c1ff, 66e82dc3, b77efe51)
 - 37 MCQs: 30 authored, 7 held (3 image-dependent, Q27 double-highlight, 3 dups of end43-cvs). 11 renders (yellow highlight authoritative; two "red-text" tool guesses wrong). 28 mints in 6 articles, 1 Kasr 104 overlay, 1 own reuse. Validator errors=[]; batch items=30 errors=0; 32-file simulate rejected=0. ≈3k tok/q. MED105 ledger: end43-cvs 70/4, final43-p1 30/7; final43-p2 3 remaining (too small for a lane — folded into the next Menoufia dispatch).
 - NOTE: `docs/Menoufia-Source-Imports/LANE-CARD.md` is a stale Phase-0 triage card ("mint nothing until TRIAGE APPROVED") — needs a rewrite to the module state; lanes are governed by the per-module triage/ledger docs meanwhile.
+
+### 2026-09-02 — ALEXANDRIA AU-MED-203 lane 6 LANDED (808c942c, d7e2e02f, ae03ae8e, e222729e) · Week 1 EOM Final COMPLETE (145/4/0/149)
+- Q101-151: 49 authored, 2 held (Q130 two options; Q149 reused via overlay onto ASU-CNS-3 cavernous-sinus concept). 47 mints, 2 collapses, 1 cross-university overlay. 4 printed keys diverge from standard teaching (Q112/Q124/Q126-127/Q129) kept with doubts. Validator errors=[]; batch errors=0 ×3; 12-file simulate rejected=0. ≈2.4k tok/q.
+- Week 2 EOM Final (`src_70b2ac8853db17b047ea`, 120 MCQs) sampled 100% keyed, inline answer lines → lane 7 dispatched on Q1-60 (Y2 slot). Fleet 20/20.
