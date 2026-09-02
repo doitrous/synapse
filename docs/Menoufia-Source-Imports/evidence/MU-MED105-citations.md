@@ -966,3 +966,523 @@ The MED105 Cardiovascular system department book states this directly in its own
 
 ## counts_as_claim_evidence
 no
+
+---
+
+# Item
+
+## id
+CIT-CVS-D1BDCD9C7A28E4
+
+## claim_id
+CLM-CVS-D1BDCD9C7A28E4
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Amrinone inhibits phosphodiesterase III, raising intracellular cAMP to produce a positive inotropic and vasodilator effect), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-2BECFB3079BFE1
+
+## claim_id
+CLM-CVS-2BECFB3079BFE1
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Enalapril decreases cardiac remodeling in heart failure by blocking angiotensin II-driven myocardial hypertrophy and fibrosis), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-30FFECEA12AEB8
+
+## claim_id
+CLM-CVS-30FFECEA12AEB8
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Ventricular fibrillation is a contraindication to digoxin, since digoxin raises automaticity and can worsen an already-present ventricular arrhythmia), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-B7466D954A0B3B
+
+## claim_id
+CLM-CVS-B7466D954A0B3B
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Furosemide is the diuretic preferred in acute renal failure, because unlike thiazides it remains effective at low glomerular filtration rates), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-C396B72F394432
+
+## claim_id
+CLM-CVS-C396B72F394432
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Thiazide diuretics are the most common drug-induced cause of hyponatremia), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-99B1A014E318DA
+
+## claim_id
+CLM-CVS-99B1A014E318DA
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (Mac Callum's patch is a sign of chronic rheumatic mural endocarditis, a patch of thickened, wrinkled endocardium on the posterior left atrial wall), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-AE821D7F644263
+
+## claim_id
+CLM-CVS-AE821D7F644263
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (Milk spots are focal areas of fibrous thickening of the visceral pericardium from chronic friction), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-CA4A15EBB014FE
+
+## claim_id
+CLM-CVS-CA4A15EBB014FE
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (Aschoff cells are large activated histiocytes with caterpillar-shaped nuclei, found within the Aschoff bodies of rheumatic myocarditis), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-10947BC0F5E769
+
+## claim_id
+CLM-CVS-10947BC0F5E769
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (The posterior wall of the left atrium is the most common site affected in acute rheumatic myocarditis), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-6701FC6B3EF9B6
+
+## claim_id
+CLM-CVS-6701FC6B3EF9B6
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (Massive pulmonary embolism causes acute heart failure by suddenly raising right ventricular afterload beyond what the unprepared right ventricle can overcome), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-58677CDDB27828
+
+## claim_id
+CLM-CVS-58677CDDB27828
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pathology fact (Amniotic fluid embolism is amniotic fluid and fetal debris entering the maternal pulmonary circulation during labour or delivery, causing sudden dyspnoea, cyanosis, hypotension and DIC), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-A1107778AE9E3B
+
+## claim_id
+CLM-CVS-A1107778AE9E3B
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular physiology fact (Sympathetic stimulation raises the mean systemic filling pressure by venoconstriction, shifting blood from the venous reservoir toward the heart), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Physiology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-DEBDF72E55A483
+
+## claim_id
+CLM-CVS-DEBDF72E55A483
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiovascular pharmacology fact (Spironolactone causes gynecomastia (via anti-androgenic/progestogenic activity) and hyperkalemia (via its aldosterone-antagonist, potassium-sparing action)), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book for this specific pharmacology/pathology point.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate cardiovascular teaching, tested directly by the module's own End Module 43 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no

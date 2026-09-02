@@ -1066,3 +1066,575 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Menoufia MED105 Cardiovascular system department book
+
+---
+
+# Item
+
+## id
+CLM-CVS-D1BDCD9C7A28E4
+
+## concept_id
+CON-CVS-D1BDCD9C7A28E4
+
+## subject
+Amrinone
+
+## predicate
+inhibits
+
+## object
+phosphodiesterase III, raising intracellular cAMP to produce a positive inotropic and vasodilator effect
+
+## display_text
+Amrinone inhibits phosphodiesterase III, raising intracellular cAMP to produce a positive inotropic and vasodilator effect.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-2BECFB3079BFE1
+
+## concept_id
+CON-CVS-2BECFB3079BFE1
+
+## subject
+Enalapril
+
+## predicate
+decreases
+
+## object
+cardiac remodeling in heart failure by blocking angiotensin II-driven myocardial hypertrophy and fibrosis
+
+## display_text
+Enalapril decreases cardiac remodeling in heart failure by blocking angiotensin II-driven myocardial hypertrophy and fibrosis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-30FFECEA12AEB8
+
+## concept_id
+CON-CVS-30FFECEA12AEB8
+
+## subject
+Ventricular fibrillation
+
+## predicate
+is
+
+## object
+a contraindication to digoxin, since digoxin raises automaticity and can worsen an already-present ventricular arrhythmia
+
+## display_text
+Ventricular fibrillation is a contraindication to digoxin, since digoxin raises automaticity and can worsen an already-present ventricular arrhythmia.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-B7466D954A0B3B
+
+## concept_id
+CON-CVS-B7466D954A0B3B
+
+## subject
+Furosemide
+
+## predicate
+is
+
+## object
+the diuretic preferred in acute renal failure, because unlike thiazides it remains effective at low glomerular filtration rates
+
+## display_text
+Furosemide is the diuretic preferred in acute renal failure, because unlike thiazides it remains effective at low glomerular filtration rates.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-C396B72F394432
+
+## concept_id
+CON-CVS-C396B72F394432
+
+## subject
+Thiazide diuretics
+
+## predicate
+are
+
+## object
+the most common drug-induced cause of hyponatremia
+
+## display_text
+Thiazide diuretics are the most common drug-induced cause of hyponatremia.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-99B1A014E318DA
+
+## concept_id
+CON-CVS-99B1A014E318DA
+
+## subject
+Mac Callum's patch
+
+## predicate
+is a sign of
+
+## object
+chronic rheumatic mural endocarditis, a patch of thickened, wrinkled endocardium on the posterior left atrial wall
+
+## display_text
+Mac Callum's patch is a sign of chronic rheumatic mural endocarditis, a patch of thickened, wrinkled endocardium on the posterior left atrial wall.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-AE821D7F644263
+
+## concept_id
+CON-CVS-AE821D7F644263
+
+## subject
+Milk spots
+
+## predicate
+are
+
+## object
+focal areas of fibrous thickening of the visceral pericardium from chronic friction
+
+## display_text
+Milk spots are focal areas of fibrous thickening of the visceral pericardium from chronic friction.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-CA4A15EBB014FE
+
+## concept_id
+CON-CVS-CA4A15EBB014FE
+
+## subject
+Aschoff cells
+
+## predicate
+are
+
+## object
+large activated histiocytes with caterpillar-shaped nuclei, found within the Aschoff bodies of rheumatic myocarditis
+
+## display_text
+Aschoff cells are large activated histiocytes with caterpillar-shaped nuclei, found within the Aschoff bodies of rheumatic myocarditis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-10947BC0F5E769
+
+## concept_id
+CON-CVS-10947BC0F5E769
+
+## subject
+The posterior wall of the left atrium
+
+## predicate
+is
+
+## object
+the most common site affected in acute rheumatic myocarditis
+
+## display_text
+The posterior wall of the left atrium is the most common site affected in acute rheumatic myocarditis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-6701FC6B3EF9B6
+
+## concept_id
+CON-CVS-6701FC6B3EF9B6
+
+## subject
+Massive pulmonary embolism
+
+## predicate
+causes
+
+## object
+acute heart failure by suddenly raising right ventricular afterload beyond what the unprepared right ventricle can overcome
+
+## display_text
+Massive pulmonary embolism causes acute heart failure by suddenly raising right ventricular afterload beyond what the unprepared right ventricle can overcome.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-58677CDDB27828
+
+## concept_id
+CON-CVS-58677CDDB27828
+
+## subject
+Amniotic fluid embolism
+
+## predicate
+is
+
+## object
+amniotic fluid and fetal debris entering the maternal pulmonary circulation during labour or delivery, causing sudden dyspnoea, cyanosis, hypotension and DIC
+
+## display_text
+Amniotic fluid embolism is amniotic fluid and fetal debris entering the maternal pulmonary circulation during labour or delivery, causing sudden dyspnoea, cyanosis, hypotension and DIC.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-A1107778AE9E3B
+
+## concept_id
+CON-CVS-A1107778AE9E3B
+
+## subject
+Sympathetic stimulation
+
+## predicate
+raises
+
+## object
+the mean systemic filling pressure by venoconstriction, shifting blood from the venous reservoir toward the heart
+
+## display_text
+Sympathetic stimulation raises the mean systemic filling pressure by venoconstriction, shifting blood from the venous reservoir toward the heart.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-DEBDF72E55A483
+
+## concept_id
+CON-CVS-DEBDF72E55A483
+
+## subject
+Spironolactone
+
+## predicate
+causes
+
+## object
+gynecomastia (via anti-androgenic/progestogenic activity) and hyperkalemia (via its aldosterone-antagonist, potassium-sparing action)
+
+## display_text
+Spironolactone causes gynecomastia (via anti-androgenic/progestogenic activity) and hyperkalemia (via its aldosterone-antagonist, potassium-sparing action).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching

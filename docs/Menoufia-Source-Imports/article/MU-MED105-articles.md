@@ -655,28 +655,224 @@ SYS-CVS-T01-S01
 CON-CVS-E0AB698D1EFEBE
 CON-CVS-2493448DCCA3E8
 CON-CVS-029134937E8FF0
+CON-CVS-A1107778AE9E3B
 
 ## related_articles
 
 
 ## aliases
-Preload determinant | Mean systemic filling pressure | Right atrial pressure venous return
+Preload determinant | Mean systemic filling pressure | Right atrial pressure venous return | Sympathetic effect on MSFP
 
 ## reading_time
-7
+8
 
 ## summary
-Three related facts governing how much blood fills the heart: venous return as preload's primary determinant; the mean systemic filling pressure that drives venous return against right atrial pressure; and the progressive fall in venous return as right atrial pressure rises above zero.
+Four related facts governing how much blood fills the heart: venous return as preload's primary determinant; the mean systemic filling pressure that drives venous return against right atrial pressure; the progressive fall in venous return as right atrial pressure rises above zero; and sympathetic stimulation's own role in raising MSFP through venoconstriction.
 
 ## sections
 ### Definition
-Preload — the degree of ventricular stretch just before contraction — is primarily determined by venous return, the volume of blood flowing back to the heart. Venous return itself is driven by the pressure gradient between the mean systemic filling pressure (MSFP, the pressure that would exist throughout the circulation if the heart stopped) and right atrial pressure. Right atrial pressure normally sits close to zero; as it rises above zero, venous return falls progressively, reaching zero around +7 mmHg.
+Preload — the degree of ventricular stretch just before contraction — is primarily determined by venous return, the volume of blood flowing back to the heart. Venous return itself is driven by the pressure gradient between the mean systemic filling pressure (MSFP, the pressure that would exist throughout the circulation if the heart stopped) and right atrial pressure. Right atrial pressure normally sits close to zero; as it rises above zero, venous return falls progressively, reaching zero around +7 mmHg. Sympathetic stimulation raises MSFP itself by constricting the systemic veins (venoconstriction), shifting blood out of the low-pressure venous reservoir toward the heart.
 
 ### Mechanism
-Venous return fills the ventricle during diastole, setting end-diastolic volume and, through it, preload; a rise in venous return therefore raises preload and, via the Frank-Starling mechanism, contraction force. MSFP itself depends mainly on total blood volume and venous tone — venoconstriction raises MSFP by shifting blood from the high-capacitance venous reservoir toward the arterial side — and it is the gradient between MSFP and right atrial pressure, not either pressure alone, that drives venous return forward. As right atrial pressure climbs above zero, the MSFP-to-RAP gradient narrows and venous return falls in step, until the gradient is abolished around +7 mmHg; below zero, by contrast, the large thoracic veins tend to collapse, capping any further rise in venous return rather than letting it increase indefinitely.
+Venous return fills the ventricle during diastole, setting end-diastolic volume and, through it, preload; a rise in venous return therefore raises preload and, via the Frank-Starling mechanism, contraction force. MSFP itself depends mainly on total blood volume and venous tone — venoconstriction raises MSFP by shifting blood from the high-capacitance venous reservoir toward the arterial side — and it is the gradient between MSFP and right atrial pressure, not either pressure alone, that drives venous return forward. As right atrial pressure climbs above zero, the MSFP-to-RAP gradient narrows and venous return falls in step, until the gradient is abolished around +7 mmHg; below zero, by contrast, the large thoracic veins tend to collapse, capping any further rise in venous return rather than letting it increase indefinitely. Sympathetic activation is one of the two levers (alongside total blood volume) that can raise MSFP: by constricting systemic veins it reduces their capacitance, so the same blood volume now exerts a higher filling pressure throughout the circulation, without any change in blood volume itself.
 
 ### Key determinants
-What determines preload's primary driver is venous return specifically (an inflow quantity), distinct from afterload's own determinant, vascular resistance (an outflow-opposing quantity) — a distinction commonly tested as a paired pair of questions. What determines MSFP is blood volume and venous tone, both independent of cardiac function itself (MSFP is, by definition, measured with the heart stopped). What determines whether a change in right atrial pressure raises or lowers venous return is which side of zero it starts from: above zero, rising RAP steadily reduces venous return; below zero, falling RAP has a capped, plateauing effect because of venous collapse.
+What determines preload's primary driver is venous return specifically (an inflow quantity), distinct from afterload's own determinant, vascular resistance (an outflow-opposing quantity) — a distinction commonly tested as a paired pair of questions. What determines MSFP is blood volume and venous tone, both independent of cardiac function itself (MSFP is, by definition, measured with the heart stopped) — sympathetic stimulation raises MSFP specifically through the venous-tone route, not by adding blood volume. What determines whether a change in right atrial pressure raises or lowers venous return is which side of zero it starts from: above zero, rising RAP steadily reduces venous return; below zero, falling RAP has a capped, plateauing effect because of venous collapse.
 
 ### Clinical significance
-Because venous return sets preload, manoeuvres and pathologies that alter it (fluid administration, haemorrhage, positive-pressure ventilation, venoconstriction) directly change ventricular filling and, through Frank-Starling, cardiac output — the physiological basis of fluid resuscitation in shock. MSFP is used clinically (and in Guyton venous-return-curve reasoning) to understand why raising blood volume or venous tone (vasopressors) increases venous return and cardiac output even before any change in cardiac function itself. Right heart failure or tricuspid regurgitation raises right atrial pressure chronically, which — per the RAP/venous-return relationship — itself becomes a further obstacle to venous return and a contributor to the systemic venous congestion these conditions produce.
+Because venous return sets preload, manoeuvres and pathologies that alter it (fluid administration, haemorrhage, positive-pressure ventilation, venoconstriction) directly change ventricular filling and, through Frank-Starling, cardiac output — the physiological basis of fluid resuscitation in shock. MSFP is used clinically (and in Guyton venous-return-curve reasoning) to understand why raising blood volume or venous tone (vasopressors) increases venous return and cardiac output even before any change in cardiac function itself. Right heart failure or tricuspid regurgitation raises right atrial pressure chronically, which — per the RAP/venous-return relationship — itself becomes a further obstacle to venous return and a contributor to the systemic venous congestion these conditions produce. Sympathetically-mediated venoconstriction (physiological stress response, or drugs such as noradrenaline) is exploited clinically to raise venous return and cardiac output acutely, for example in the initial management of hypotension.
+
+---
+
+# Item
+
+## id
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## title
+Heart failure pharmacology: inotropes, ACE inhibitors and diuretics
+
+## arabic_title
+أدوية فشل القلب: مقويات الانقباض ومثبطات الإنزيم المحول ومدرات البول
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Cardiovascular System
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## related_concepts
+CON-CVS-D1BDCD9C7A28E4
+CON-CVS-2BECFB3079BFE1
+CON-CVS-30FFECEA12AEB8
+CON-CVS-B7466D954A0B3B
+CON-CVS-C396B72F394432
+CON-CVS-DEBDF72E55A483
+
+## related_articles
+
+
+## aliases
+Amrinone | Enalapril remodeling | Digoxin and ventricular fibrillation | Furosemide in renal failure | Thiazide hyponatremia | Spironolactone side effects
+
+## reading_time
+10
+
+## summary
+Six End-Module-43 pharmacology facts about drugs used in heart failure and its diuretic management: amrinone's phosphodiesterase III-inhibition/cAMP mechanism; enalapril's anti-remodeling effect as an ACE inhibitor; ventricular fibrillation as a digoxin contraindication; furosemide as the diuretic of choice in acute renal failure; thiazide diuretics as the leading drug cause of hyponatremia; and spironolactone's gynecomastia/hyperkalemia side-effect pair.
+
+## sections
+### Definition
+Amrinone inhibits phosphodiesterase III, raising cAMP to produce a combined positive inotropic and vasodilator effect. Enalapril, an ACE inhibitor, decreases pathological cardiac remodeling by suppressing angiotensin II. Ventricular fibrillation is a contraindication to digoxin, since digoxin's calcium-raising mechanism increases automaticity and can worsen a ventricular arrhythmia rather than treat it. Furosemide is the diuretic preferred in acute renal failure because, unlike thiazides, it remains effective at low glomerular filtration rates. Thiazide diuretics are the most common drug-induced cause of hyponatremia. Spironolactone characteristically causes both gynecomastia and hyperkalemia, through two separate mechanisms.
+
+### Mechanism
+Amrinone's PDE III inhibition raises cAMP in both cardiac myocytes (more L-type Ca2+ entry, stronger contraction) and vascular smooth muscle (relaxation, lower preload/afterload) — an inodilator effect distinct from digoxin's Na+/K+ ATPase-based mechanism or a beta agonist's receptor-based one. Enalapril's anti-remodeling benefit follows from angiotensin II's own direct pro-hypertrophic, pro-fibrotic action on the myocardium, independent of its haemodynamic afterload-lowering effect — which is why ACE inhibitors, unlike pure inotropes, improve heart-failure survival rather than only symptoms. Digoxin's Na+/K+ ATPase inhibition raises intracellular calcium and automaticity everywhere in the heart; in atrial fibrillation this is channelled usefully through vagally-slowed AV conduction, but in already-fibrillating ventricular tissue the same pro-automaticity effect has no beneficial target and is purely proarrhythmic. Furosemide acts at the thick ascending limb of the loop of Henle, a site that stays accessible even at severely reduced GFR, unlike the distal convoluted tubule site thiazides depend on adequate filtered sodium load to reach. Thiazides impair the distal nephron's ability to dilute urine (generate free water) while also promoting salt loss and ADH release, letting water intake outstrip excretion and dilute plasma sodium — a defect loop diuretics largely avoid because they blunt the medullary concentrating gradient instead. Spironolactone blocks the aldosterone receptor at the collecting tubule (causing potassium retention and hyperkalemia) but also cross-reacts at androgen and progesterone receptors (causing gynecomastia) — two independent receptor actions of the same molecule.
+
+### Key determinants
+What determines whether a heart-failure drug is classed as an inotrope, an anti-remodeling agent or a diuretic is its primary target — cAMP/calcium handling for amrinone and dobutamine, the renin-angiotensin system for enalapril, or a specific nephron segment for the diuretics — and this target is what predicts both efficacy and adverse-effect profile. What determines whether digoxin helps or harms a given arrhythmia is whether an AV node exists to slow (supraventricular, helped) or not (ventricular, harmed). What determines a diuretic's usefulness in renal failure is its site of action relative to how filtration-dependent that site is — furosemide's loop site remains usable at low GFR, thiazide's distal site does not. What determines spironolactone's two hallmark side effects is which of its two receptor actions (aldosterone-receptor antagonism versus androgen/progesterone cross-reactivity) is responsible for each.
+
+### Clinical significance
+Amrinone (and related PDE III inhibitors such as milrinone) are reserved for short-term use in refractory acute decompensated heart failure because of thrombocytopenia and arrhythmia risk on prolonged dosing. ACE inhibitors such as enalapril are first-line, guideline-directed heart-failure therapy specifically because of their anti-remodeling, survival benefit. Digoxin remains useful for rate control in atrial fibrillation with heart failure, but is avoided or actively dangerous in ventricular arrhythmias. Furosemide's continued efficacy in renal impairment makes it the default diuretic in acute kidney injury and in advanced chronic kidney disease generally. Recognising thiazides as the classic drug cause of hyponatremia matters directly at the bedside when a patient on a thiazide develops confusion or seizures from severe hyponatremia. Spironolactone's gynecomastia is a common reason for switching a male patient to a more selective aldosterone antagonist (eplerenone), while its hyperkalemia risk demands potassium monitoring, especially when combined with ACE inhibitors.
+
+---
+
+# Item
+
+## id
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## title
+Rheumatic heart disease pathology and embolic causes of acute heart failure
+
+## arabic_title
+باثولوجيا المرض الروماتيزمي القلبي وأسباب الانصمام لفشل القلب الحاد
+
+## subject
+cvs
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Cardiovascular System
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## related_concepts
+CON-CVS-99B1A014E318DA
+CON-CVS-AE821D7F644263
+CON-CVS-CA4A15EBB014FE
+CON-CVS-10947BC0F5E769
+CON-CVS-6701FC6B3EF9B6
+CON-CVS-58677CDDB27828
+CON-FND-7E61964BE1D637
+
+## related_articles
+
+
+## aliases
+Mac Callum's patch | Milk spots | Aschoff cells | Rheumatic myocarditis site | Massive pulmonary embolism | Amniotic fluid embolism | Lines of Zahn
+
+## reading_time
+11
+
+## summary
+Seven End-Module-43 pathology facts spanning rheumatic heart disease, thrombosis and embolic causes of acute heart failure: Mac Callum's patch as chronic mural endocarditis; milk spots as pericardial fibrosis; Aschoff cells as the histiocyte of rheumatic myocarditis; the posterior left atrial wall as rheumatic myocarditis' preferred site; massive pulmonary embolism as a cause of acute heart failure; amniotic fluid embolism's classic peripartum presentation; and lines of Zahn as the flowing-blood lamination that identifies an antemortem thrombus, most grossly visible in a fast-flowing arterial one.
+
+## sections
+### Definition
+Mac Callum's patch is a patch of thickened, wrinkled endocardium on the posterior left atrial wall, a sign of chronic rheumatic mural endocarditis. Milk spots are focal fibrous thickenings of the visceral pericardium from chronic friction. Aschoff cells are large activated histiocytes with caterpillar-shaped nuclei, found within the Aschoff bodies of rheumatic myocarditis. The posterior wall of the left atrium is the most common site of acute rheumatic myocarditis. Massive pulmonary embolism is a cause of acute heart failure through sudden right ventricular strain. Amniotic fluid embolism is amniotic/fetal debris entering the maternal pulmonary circulation peripartum, causing sudden dyspnoea, cyanosis and hypotension. Lines of Zahn are alternating pale platelet-fibrin and darker erythrocyte-rich layers formed in flowing blood, a lamination that identifies a thrombus as having formed during life (antemortem), not after death.
+
+### Mechanism
+Mac Callum's patch forms from the repeated trauma of a posteriorly-directed regurgitant mitral jet against the atrial endocardium — the same posterior left atrial region where Aschoff bodies preferentially form in the adjacent myocardium during acute rheumatic myocarditis, both findings reflecting one shared anatomical predilection of rheumatic carditis. Aschoff cells are macrophages activated within these myocardial lesions, recognised by their distinctive nuclear morphology. Milk spots, in contrast, are an unrelated, non-rheumatic finding: simple mechanical friction between pericardial layers over years produces focal fibrosis with no inflammatory or infective cause. Massive pulmonary embolism causes acute (not chronic) heart failure specifically because the rise in right ventricular afterload happens over minutes, giving the thin-walled right ventricle no time to hypertrophy and compensate the way it does against a slowly progressive pressure load. Amniotic fluid embolism follows a breach in uterine veins or the placental bed during labour or delivery, letting fetal squamous cells and other amniotic debris embolise to the maternal pulmonary arteries, where they are identified histologically and where the amniotic material also triggers disseminated intravascular coagulation. Lines of Zahn form because a thrombus growing inside flowing blood accretes alternating layers — a pale layer of platelets and fibrin, then a darker layer trapping red cells — as the current keeps depositing fresh material in bands; a clot that forms only after blood flow has stopped (a postmortem clot) has no such flow-driven lamination and instead just settles under gravity into a dark, cell-rich layer and a paler, cell-poor one.
+
+### Key determinants
+What determines whether a rheumatic endocardial/myocardial finding is Mac Callum's patch or an Aschoff body is tissue layer — endocardium (Mac Callum's patch) versus myocardium (Aschoff body) — even though both cluster around the same posterior left atrial region. What determines whether a pericardial fibrous patch reflects rheumatic disease or simple chronic friction is the clinical and pathological context; milk spots carry no rheumatic or inflammatory significance of their own. What determines whether a rise in right heart pressure causes acute or chronic heart failure is the speed of onset — a massive embolism's suddenness versus a slowly progressive pulmonary hypertension's gradual course. What determines the diagnosis of amniotic fluid embolism specifically is the identification of fetal/amniotic debris in the maternal pulmonary circulation in a peripartum patient, distinguishing it from fat, air or thrombotic emboli. What determines how grossly conspicuous a thrombus's lines of Zahn are is the speed and pressure of the flow it formed in — an arterial thrombus, formed under fast, high-pressure flow, shows the most distinct lamination, while a slower-flowing venous thrombus shows it less clearly and a postmortem clot shows none at all.
+
+### Clinical significance
+Recognising Mac Callum's patch and the posterior left atrial predilection of rheumatic carditis helps explain why rheumatic mitral regurgitation's jet is classically posteriorly directed on echocardiography. Aschoff bodies (and their Aschoff cells) remain the pathognomonic histological marker used to confirm active rheumatic carditis. Milk spots are clinically silent and mainly relevant as an incidental autopsy or surgical finding not to be mistaken for active disease. Massive pulmonary embolism causing acute cor pulmonale is a medical emergency requiring urgent recognition, since untreated it can rapidly progress to cardiogenic shock and death. Amniotic fluid embolism is a rare but often catastrophic peripartum emergency, and its combination of sudden respiratory/cardiovascular collapse with coagulopathy in a labouring or recently delivered woman should prompt immediate consideration of the diagnosis. At autopsy or on gross pathology, identifying lines of Zahn is one of the ways a pathologist distinguishes an antemortem thrombus (a genuine clinical finding, relevant to the cause of death) from a postmortem clot (an artefact of blood settling after death, of no clinical significance).

@@ -4406,3 +4406,2467 @@ CON-CVS-A99309543A270D
 ## field_notes
 never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-3732E943D2A4D6 (cardiac reserve definition), flagging in its own ## uncertainty field that it was "close in scope" to this Kasr 104-CPS concept — confirmed the same fact on read (this department book's own text at p85-86 matches this concept's definition almost verbatim per lane-1's own note) and merged. Deleted the twin record and its sentences/alias from article/MU-MED105-articles.md's ART-CVS-MU105-VENOUS-RETURN-RESERVE section; repointed q44's main_concept/concept_ids to this id.
 mu: Tested as "CVS End Module 43.pdf" Q44 ("What is cardiac reserve?" / The ability of the heart to increase its output above baseline levels in response to physiological demands), yellow-highlight key, rendered p10. Full record is in docs/Kasr-Source-Imports/concept/104-CPS-concepts.md; simulate with that file as a dependency (its own article_ids, ART-104-PHY-CARDIAC-PUMP-FUNCTION, resolves from docs/Kasr-Source-Imports/article/104-CPS-articles.md).
+
+---
+
+# Item
+
+## label
+Amrinone (inamrinone) inhibits phosphodiesterase III, raising intracellular cAMP to produce a positive inotropic and vasodilator effect in heart failure
+
+## id
+CON-CVS-D1BDCD9C7A28E4
+
+## canonical_key
+cvs.pharmacology.amrinone-pde3-inhibition-camp
+
+## aliases
+Amrinone mechanism
+Inamrinone
+Phosphodiesterase III inhibitor
+
+## arabic_label
+أمرينون يثبط الفوسفودايستريز الثالث
+
+## arabic_aliases
+
+
+## definition
+Amrinone (inamrinone) is a bipyridine inotrope that inhibits phosphodiesterase III (PDE III), the enzyme that normally breaks down cyclic AMP (cAMP) inside cardiac and vascular smooth muscle cells. Blocking PDE III lets intracellular cAMP accumulate; in cardiac myocytes this raises calcium entry through L-type channels, producing a positive inotropic effect independent of beta-adrenergic receptors, while in vascular smooth muscle the same cAMP rise causes vasodilation, lowering both preload and afterload. This combined inotrope-plus-vasodilator (inodilator) action makes amrinone useful for short-term treatment of severe, refractory heart failure, though its use is limited by thrombocytopenia and arrhythmia risk on prolonged dosing.
+
+## explicit_objective
+State that amrinone's mechanism is phosphodiesterase III inhibition, which raises intracellular cAMP to produce a combined positive inotropic and vasodilator (inodilator) effect.
+
+## pitfalls
+Confusing amrinone's mechanism with a drug that activates phosphodiesterase or decreases cAMP -- amrinone specifically inhibits PDE III, which raises (not lowers) cAMP; a drug that activated phosphodiesterase would instead lower cAMP and be a negative, not positive, inotrope.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Positive inotropic agents
+
+## microtopic
+Amrinone / PDE III inhibitors
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-D1BDCD9C7A28E4
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q46: see question record for stem/options (End Module 43, p10).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p10 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q46, yellow-highlight key, rendered p10 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Enalapril, an ACE inhibitor, decreases cardiac remodeling in heart failure by blocking angiotensin II-driven myocardial hypertrophy and fibrosis
+
+## id
+CON-CVS-2BECFB3079BFE1
+
+## canonical_key
+cvs.pharmacology.enalapril-ace-inhibitor-remodeling
+
+## aliases
+Enalapril remodeling
+ACE inhibitor cardiac remodeling
+Angiotensin II myocardial hypertrophy
+
+## arabic_label
+إنالابريل يقلل من إعادة تشكل عضلة القلب
+
+## arabic_aliases
+
+
+## definition
+Enalapril is an angiotensin-converting enzyme (ACE) inhibitor that blocks the conversion of angiotensin I to angiotensin II. Beyond its haemodynamic effect of lowering afterload, angiotensin II itself drives pathological cardiac remodeling directly -- it stimulates myocyte hypertrophy, interstitial fibrosis and progressive chamber dilation in the failing heart. By suppressing angiotensin II formation, enalapril and other ACE inhibitors slow or partially reverse this remodeling process, which is why ACE inhibitors improve long-term survival in heart failure rather than only providing short-term symptomatic relief.
+
+## explicit_objective
+State that enalapril decreases cardiac remodeling in heart failure by suppressing angiotensin II, the mediator that otherwise drives myocyte hypertrophy and fibrosis.
+
+## pitfalls
+Assuming any heart-failure drug that improves symptoms also improves remodeling and survival -- positive inotropes like digoxin and amrinone raise contractility without slowing remodeling, which is why ACE inhibitors (and not inotropes) are the drug class specifically credited with an anti-remodeling, survival benefit.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+ACE inhibitors
+
+## microtopic
+Enalapril / cardiac remodeling
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-2BECFB3079BFE1
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q48: see question record for stem/options (End Module 43, p10).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p10 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q48, yellow-highlight key, rendered p10 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Ventricular fibrillation is a contraindication to digoxin, since digoxin raises automaticity and can worsen a ventricular arrhythmia already in progress
+
+## id
+CON-CVS-30FFECEA12AEB8
+
+## canonical_key
+cvs.pharmacology.digoxin-contraindication-ventricular-fibrillation
+
+## aliases
+Digoxin contraindications
+Digoxin and ventricular arrhythmia
+
+## arabic_label
+الرجفان البطيني من موانع استخدام الديجوكسين
+
+## arabic_aliases
+
+
+## definition
+Digoxin is contraindicated in ventricular fibrillation and other ventricular arrhythmias. By inhibiting the cardiac Na+/K+ ATPase, digoxin raises intracellular calcium and, at toxic or inappropriate levels, increases automaticity and ectopic pacemaker activity in ventricular tissue -- exactly the property that can precipitate or worsen ventricular fibrillation rather than treat it. This is the opposite of digoxin's useful, rate-controlling role in supraventricular arrhythmias such as atrial fibrillation, where its vagally-mediated slowing of AV conduction is beneficial; in ventricular fibrillation there is no AV node to slow and its pro-automaticity effect is purely harmful.
+
+## explicit_objective
+State that ventricular fibrillation is a contraindication to digoxin because digoxin's pro-automaticity effect can worsen, not treat, a ventricular arrhythmia.
+
+## pitfalls
+Assuming digoxin is broadly antiarrhythmic because it is useful in atrial fibrillation -- digoxin only helps supraventricular arrhythmias by slowing AV conduction; in ventricular arrhythmias its calcium-raising, automaticity-increasing effect is dangerous, not therapeutic.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Digoxin
+
+## microtopic
+Digoxin contraindications
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-30FFECEA12AEB8
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q50: see question record for stem/options (End Module 43, p11).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p11 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q50, yellow-highlight key, rendered p11 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Furosemide is the diuretic preferred in acute renal failure because, unlike thiazides, it remains effective at low glomerular filtration rates
+
+## id
+CON-CVS-B7466D954A0B3B
+
+## canonical_key
+cvs.pharmacology.furosemide-preferred-acute-renal-failure
+
+## aliases
+Furosemide acute renal failure
+Loop diuretic in renal impairment
+
+## arabic_label
+فروسيميد هو المدر المفضل في الفشل الكلوي الحاد
+
+## arabic_aliases
+
+
+## definition
+Furosemide, a loop diuretic, is the diuretic of choice in acute renal failure. Loop diuretics act at the thick ascending limb of the loop of Henle, a site that remains accessible even when glomerular filtration rate (GFR) is markedly reduced, and furosemide can still produce a meaningful diuresis at a GFR too low for thiazide diuretics (which act at the distal convoluted tubule and depend on adequate filtered load) to be effective. In acute renal failure, furosemide is used both to manage volume overload and, by increasing urine output, to attempt conversion of oliguric to non-oliguric renal failure, which is easier to manage clinically even though it does not itself improve renal recovery or survival.
+
+## explicit_objective
+State that furosemide is preferred over thiazide diuretics in acute renal failure because it remains effective at low GFR, unlike thiazides.
+
+## pitfalls
+Assuming any diuretic works equally well regardless of renal function -- thiazide diuretics lose efficacy as GFR falls because they depend on adequate filtered sodium load reaching the distal tubule, while furosemide's site of action (the thick ascending limb) keeps it effective even in significant renal impairment.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Diuretics
+
+## microtopic
+Furosemide in renal failure
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-B7466D954A0B3B
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q54: see question record for stem/options (End Module 43, p12).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p12 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q54, yellow-highlight key, rendered p12 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Thiazide diuretics are the most common drug-induced cause of hyponatremia
+
+## id
+CON-CVS-C396B72F394432
+
+## canonical_key
+cvs.pharmacology.thiazide-most-common-drug-cause-hyponatremia
+
+## aliases
+Thiazide-induced hyponatremia
+Drug-induced hyponatremia
+
+## arabic_label
+مدرات الثيازيد هي السبب الدوائي الأكثر شيوعًا لنقص صوديوم الدم
+
+## arabic_aliases
+
+
+## definition
+Thiazide diuretics are the most common drug class responsible for hyponatremia. They block the Na+/Cl- cotransporter in the distal convoluted tubule, a segment of the nephron that is normally water-impermeable and dilutes urine; blocking sodium reabsorption there impairs the kidney's ability to generate free water for excretion, while sodium loss also stimulates thirst and ADH release. The combined effect -- salt loss plus impaired free-water excretion -- lets water intake outstrip excretion, diluting plasma sodium. Loop diuretics carry much lower hyponatremia risk because they act upstream, at the loop of Henle, where they blunt the medullary concentration gradient the kidney would otherwise use to dilute urine maximally, so the water-excretion defect thiazides cause is largely avoided.
+
+## explicit_objective
+State that thiazide diuretics are the most common drug-induced cause of hyponatremia, and explain why loop diuretics carry much less of this risk.
+
+## pitfalls
+Assuming all diuretics cause hyponatremia by the same mechanism or to the same degree -- thiazides specifically impair free-water excretion at the distal convoluted tubule, while loop diuretics act upstream and blunt the medullary concentrating gradient instead, which is why thiazides (not loop diuretics) are the classic drug cause of hyponatremia.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Diuretics
+
+## microtopic
+Thiazide adverse effects
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-C396B72F394432
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q57: see question record for stem/options (End Module 43, p13).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p13 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q57, yellow-highlight key, rendered p13 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Mac Callum's patch is a sign of chronic rheumatic mural endocarditis -- a patch of thickened, wrinkled endocardium on the posterior left atrial wall
+
+## id
+CON-CVS-99B1A014E318DA
+
+## canonical_key
+cvs.pathology.mac-callum-patch-chronic-mural-endocarditis
+
+## aliases
+MacCallum's patch
+Rheumatic mural endocarditis
+
+## arabic_label
+لطخة ماك كالوم علامة التهاب الشغاف الجداري الروماتيزمي المزمن
+
+## arabic_aliases
+
+
+## definition
+Mac Callum's patch is an area of thickened, wrinkled, grey-white mural endocardium found on the posterior wall of the left atrium in chronic rheumatic heart disease. It results from the repeated trauma of a regurgitant mitral jet striking the posterior atrial wall, producing localised endocardial fibrous thickening -- a form of chronic mural (as opposed to valvular) rheumatic endocarditis. Its presence and location are a useful reminder that rheumatic mitral regurgitation classically directs its jet posteriorly, in contrast to the anterior-directed jet more typical of other causes of mitral regurgitation.
+
+## explicit_objective
+State that Mac Callum's patch is a sign of chronic mural (not valvular) rheumatic endocarditis, located on the posterior left atrial wall from a regurgitant mitral jet.
+
+## pitfalls
+Confusing Mac Callum's patch (mural endocarditis on the posterior left atrial wall, from jet trauma) with valvular endocarditis or with the Aschoff body (a myocardial, not endocardial, lesion) -- Mac Callum's patch is specifically an endocardial finding on the atrial wall itself, not on a valve leaflet or in the myocardium.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Rheumatic heart disease
+
+## microtopic
+Mac Callum's patch
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-99B1A014E318DA
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q58: see question record for stem/options (End Module 43, p13).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p13 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q58, yellow-highlight key, rendered p13 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Milk spots (soldier's patches) are focal areas of fibrous thickening of the visceral pericardium, a sign of chronic fibrosis from repeated friction
+
+## id
+CON-CVS-AE821D7F644263
+
+## canonical_key
+cvs.pathology.milk-spots-pericardial-fibrosis
+
+## aliases
+Milk spots
+Soldier's patches
+Tache laiteuse
+
+## arabic_label
+البقع اللبنية علامة تليف التامور الحشوي
+
+## arabic_aliases
+
+
+## definition
+Milk spots (also called soldier's patches or tache laiteuse) are focal, opaque, white-grey patches of fibrous thickening on the visceral pericardium, most often overlying the right ventricle. They represent chronic fibrosis produced by repeated low-grade friction or mechanical irritation between the visceral and parietal pericardial layers over years, rather than an active inflammatory or infective process, and they are frequently an incidental finding at autopsy or cardiac surgery with no clinical significance of their own.
+
+## explicit_objective
+Identify milk spots as fibrosis of the visceral pericardium from chronic mechanical friction, not congestion, inflammation or necrosis.
+
+## pitfalls
+Assuming any white patch on the pericardium signals active inflammation -- milk spots are old, fibrous and clinically silent, the endpoint of chronic friction rather than an acute or ongoing pericarditis.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Pericardial disease
+
+## microtopic
+Milk spots
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-AE821D7F644263
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q59: see question record for stem/options (End Module 43, p13).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p13 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q59, yellow-highlight key, rendered p13 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Aschoff cells (Anitschkow cells) are large activated histiocytes with caterpillar-shaped nuclei, found within the Aschoff bodies of rheumatic myocarditis
+
+## id
+CON-CVS-CA4A15EBB014FE
+
+## canonical_key
+cvs.pathology.aschoff-cells-large-histiocytes
+
+## aliases
+Aschoff giant cells
+Anitschkow cells
+Aschoff bodies
+
+## arabic_label
+خلايا أشوف هي منسجات كبيرة داخل الأجسام الأشوفية
+
+## arabic_aliases
+
+
+## definition
+Aschoff cells (also called Anitschkow cells or Aschoff giant cells) are large, activated histiocytes (macrophages) with abundant cytoplasm and a distinctive nucleus that shows a central, slender ribbon of chromatin -- classically described as caterpillar-shaped when seen in longitudinal section, or owl's-eye when seen in cross-section. They are the characteristic cell of the Aschoff body, the pathognomonic granuloma-like lesion of acute rheumatic myocarditis, which also contains fibrinoid necrosis, lymphocytes and plasma cells within the myocardial interstitium.
+
+## explicit_objective
+Identify Aschoff cells as large activated histiocytes with a caterpillar-shaped nucleus, the characteristic cell within the Aschoff body of rheumatic myocarditis.
+
+## pitfalls
+Mistaking Aschoff cells for lymphocytes, plasma cells or mast cells -- those other cell types can also be present within an Aschoff body's inflammatory infiltrate, but the Aschoff (Anitschkow) cell itself is specifically a large activated histiocyte with its distinctive caterpillar-nucleus appearance.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Rheumatic heart disease
+
+## microtopic
+Aschoff cells
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-CA4A15EBB014FE
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q60: see question record for stem/options (End Module 43, p13).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p13 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q60, yellow-highlight key, rendered p13 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+The most common site affected in acute rheumatic myocarditis is the posterior wall of the left atrium
+
+## id
+CON-CVS-10947BC0F5E769
+
+## canonical_key
+cvs.pathology.rheumatic-myocarditis-posterior-left-atrial-wall
+
+## aliases
+Rheumatic myocarditis site
+Rheumatic pancarditis distribution
+
+## arabic_label
+أكثر موضع إصابة في التهاب عضلة القلب الروماتيزمي الحاد هو الجدار الخلفي للأذين الأيسر
+
+## arabic_aliases
+
+
+## definition
+Acute rheumatic fever produces a pancarditis affecting the endocardium, myocardium and pericardium together, but within the myocardium the Aschoff bodies of acute rheumatic myocarditis most commonly affect the posterior wall of the left atrium. This distribution sits close to where Mac Callum's patch forms on the adjacent endocardium, both findings reflecting the same posterior left atrial region that is preferentially involved in rheumatic carditis, alongside the valve apparatus itself (chiefly the mitral valve).
+
+## explicit_objective
+State that the posterior wall of the left atrium is the site most commonly affected in acute rheumatic myocarditis.
+
+## pitfalls
+Assuming rheumatic myocarditis distributes evenly across all four chambers -- it preferentially involves the posterior left atrial wall, the same general region where the mitral valve apparatus and Mac Callum's patch are also affected in rheumatic heart disease.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Rheumatic heart disease
+
+## microtopic
+Rheumatic myocarditis distribution
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-10947BC0F5E769
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q61: see question record for stem/options (End Module 43, p13).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p13 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q61, yellow-highlight key, rendered p13 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Massive pulmonary embolism causes acute heart failure by suddenly raising right ventricular afterload beyond what the unprepared right ventricle can overcome
+
+## id
+CON-CVS-6701FC6B3EF9B6
+
+## canonical_key
+cvs.pathology.massive-pulmonary-embolism-acute-heart-failure
+
+## aliases
+Massive pulmonary embolism acute heart failure
+Acute cor pulmonale
+
+## arabic_label
+الانسداد الرئوي الضخم يسبب فشلًا قلبيًا حادًا
+
+## arabic_aliases
+
+
+## definition
+Massive pulmonary embolism is a cause of acute heart failure. A large embolus obstructing the pulmonary arterial circulation abruptly raises pulmonary vascular resistance and, with it, the afterload the right ventricle must pump against; because this rise happens over minutes rather than the months a chronically hypertrophying right ventricle would have to adapt, the thin-walled right ventricle acutely dilates and fails (acute cor pulmonale), producing sudden right heart failure, a fall in left ventricular filling and cardiac output, and often cardiogenic shock or sudden death. This is distinct from the chronic, gradually compensated right ventricular hypertrophy seen with slowly progressive causes of pulmonary hypertension.
+
+## explicit_objective
+State that massive pulmonary embolism causes acute heart failure through a sudden rise in right ventricular afterload that the unprepared right ventricle cannot overcome.
+
+## pitfalls
+Assuming any cause of chronically raised right heart pressure has the same acute effect as a massive pulmonary embolism -- conditions like systemic hypertension, mitral stenosis or coarctation of the aorta raise pressures gradually, giving the heart time to hypertrophy and compensate, while a massive embolism's suddenness is exactly what makes it a cause of ACUTE, not chronic, heart failure.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Heart failure
+
+## microtopic
+Massive pulmonary embolism
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-6701FC6B3EF9B6
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q65: see question record for stem/options (End Module 43, p14).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p14 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q65, yellow-highlight key, rendered p14 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Amniotic fluid embolism is amniotic fluid and fetal debris entering the maternal pulmonary circulation during labour or delivery, causing sudden dyspnoea, cyanosis, hypotension and DIC
+
+## id
+CON-CVS-58677CDDB27828
+
+## canonical_key
+cvs.pathology.amniotic-fluid-embolism-peripartum
+
+## aliases
+Amniotic fluid embolism
+Peripartum embolism
+
+## arabic_label
+الانصمام بالسائل الأمنيوسي
+
+## arabic_aliases
+
+
+## definition
+Amniotic fluid embolism occurs when amniotic fluid, fetal squamous cells, lanugo hair and other fetal debris enter the maternal circulation, typically through tears in uterine veins or the placental implantation site during labour, delivery or the immediate postpartum period, and embolise to the maternal pulmonary arterial circulation. Clinically it presents with the sudden onset of dyspnoea, cyanosis and hypotension, often progressing rapidly to cardiovascular collapse; the amniotic material also activates the coagulation cascade, frequently triggering disseminated intravascular coagulation (DIC) as a life-threatening complication. Histologically, fetal squamous cells and other amniotic debris are identified within the small peripheral pulmonary arteries.
+
+## explicit_objective
+Recognise amniotic fluid embolism from its classic peripartum presentation of sudden dyspnoea, cyanosis and hypotension, and identify fetal/amniotic debris in the peripheral pulmonary arteries as its defining histological finding.
+
+## pitfalls
+Confusing amniotic fluid embolism with fat embolism (fat globules, classically after long-bone fracture), air embolism (gas bubbles) or thromboembolism (aggregated red blood cells/fibrin) -- amniotic fluid embolism is specifically identified by fetal squamous cells and other amniotic debris within the pulmonary arteries of a peripartum patient.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Embolism
+
+## microtopic
+Amniotic fluid embolism
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-58677CDDB27828
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q68: see question record for stem/options (End Module 43, p15).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p15 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q68, yellow-highlight key, rendered p15 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Sympathetic stimulation raises the mean systemic filling pressure by venoconstriction, shifting blood from the venous reservoir toward the heart
+
+## id
+CON-CVS-A1107778AE9E3B
+
+## canonical_key
+cvs.physiology.sympathetic-stimulation-raises-msfp
+
+## aliases
+Sympathetic venoconstriction
+Sympathetic effect on mean systemic filling pressure
+
+## arabic_label
+التنبيه الودي يرفع متوسط ضغط الامتلاء الجهازي
+
+## arabic_aliases
+
+
+## definition
+Sympathetic stimulation of the heart and vasculature raises the mean systemic filling pressure (MSFP). The systemic veins normally hold the majority of total blood volume at low pressure, acting as a high-capacitance reservoir; sympathetic activation constricts these veins (venoconstriction), reducing their capacitance and effectively shifting blood out of the venous reservoir toward the heart. Because MSFP is set by the total blood volume relative to the vasculature's capacitance, this venoconstriction raises MSFP even though total blood volume itself has not changed, which in turn increases the pressure gradient driving venous return back to the heart.
+
+## explicit_objective
+State that sympathetic stimulation raises mean systemic filling pressure through venoconstriction, which shifts blood out of the venous reservoir without changing total blood volume.
+
+## pitfalls
+Assuming mean systemic filling pressure can only rise if total blood volume rises -- MSFP is a function of volume relative to vascular capacitance, so sympathetic venoconstriction raises MSFP by reducing venous capacitance alone, with blood volume unchanged.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHY-T02
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Physiology
+
+## subtopic
+Venous return
+
+## microtopic
+Sympathetic effect on MSFP
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
+
+## article_ids
+ART-CVS-MU105-VENOUS-RETURN-RESERVE
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-A1107778AE9E3B
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q72: see question record for stem/options (End Module 43, p16).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p16 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q72, yellow-highlight key, rendered p16 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Spironolactone characteristically causes gynecomastia (via its anti-androgenic/progestogenic activity) and hyperkalemia (via its aldosterone-antagonist, potassium-sparing action)
+
+## id
+CON-CVS-DEBDF72E55A483
+
+## canonical_key
+cvs.pharmacology.spironolactone-gynecomastia-hyperkalemia
+
+## aliases
+Spironolactone side effects
+Spironolactone gynecomastia
+
+## arabic_label
+سبيرونولاكتون يسبب تثدي الرجال وفرط بوتاسيوم الدم
+
+## arabic_aliases
+
+
+## definition
+Spironolactone is an aldosterone-receptor antagonist used as a potassium-sparing diuretic. Because it blocks aldosterone's action at the collecting-tubule mineralocorticoid receptor, it reduces urinary potassium excretion, and this potassium-sparing effect can produce clinically significant hyperkalemia, especially when combined with other potassium-retaining drugs (ACE inhibitors, potassium supplements) or in renal impairment. Spironolactone also has off-target anti-androgenic and progestogenic activity at steroid receptors -- it partially blocks androgen receptors and weakly activates progesterone receptors -- and this hormonal cross-reactivity is what causes gynecomastia (and, in some patients, menstrual irregularities or decreased libido) as a characteristic side effect distinct from its diuretic mechanism.
+
+## explicit_objective
+State that spironolactone causes hyperkalemia through its potassium-sparing, aldosterone-antagonist mechanism, and gynecomastia through separate anti-androgenic/progestogenic receptor activity.
+
+## pitfalls
+Assuming gynecomastia and hyperkalemia share one mechanism -- hyperkalemia follows directly from spironolactone's aldosterone-antagonist diuretic action, while gynecomastia is an unrelated, off-target hormonal effect at androgen and progesterone receptors, not a consequence of its diuretic mechanism.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Diuretics
+
+## microtopic
+Spironolactone adverse effects
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-DEBDF72E55A483
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q73: see question record for stem/options (End Module 43, p11).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p11 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q73, yellow-highlight key, rendered p11 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Dobutamine's selective beta1 agonism gives it a strong inotropic, minimally chronotropic action, making it first-line for cardiogenic shock and acute decompensated heart failure
+
+## id
+CON-FND-1F4B558BD69110
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q47; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q47 ("Which one of the following drugs is associated with clinically useful or physiologically important positive inotropic effect?" / Dobutamine), yellow-highlight key, rendered p10-11. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Digitalis controls ventricular rate in atrial fibrillation by decreasing AV nodal conduction (vagally mediated), not by restoring rhythm or reducing atrial excitability
+
+## id
+CON-FND-C058332F0BFD90
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q49; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q49 ("In which of the following cases digoxin is a drug of choice?" / Heart failure with Atrial Fibrillation), yellow-highlight key, rendered p11. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Digoxin inhibits the Na+/K+ ATPase enzyme, raising intracellular sodium and, via the Na+/Ca2+ exchanger, intracellular calcium -- its positive inotropic mechanism
+
+## id
+CON-FND-2379F34ADE2AB1
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q51, q52; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q51 ("Digoxin can cause which of the following actions in therapeutic dose" / Positive inotropic effect) and Q52 ("The Mechanism of action of Digoxin is:" / Inhibition of cardiac Na+-K+ ATPase), yellow-highlight key, rendered p11-12. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Hypokalemia (alongside renal impairment, hypomagnesemia and hypercalcemia) increases digitalis toxicity, because digoxin and potassium compete for the same Na+/K+ ATPase binding site
+
+## id
+CON-FND-B929F5B301F1E1
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q53; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q53 ("Digoxin toxicity is increased by all EXCEPT:" / Hyperkalemia -- not a risk factor per this concept's own risk-factor list, which is why it is the EXCEPT), yellow-highlight key, rendered p12. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Loop diuretics such as furosemide carry an ototoxicity risk, especially in renal insufficiency or with concurrent ototoxic drugs
+
+## id
+CON-FND-8CDAE2FC566F9E
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q55; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q55 ("Concomitant administration of furosemide with the following agent can induce severe ototoxicity:" / Gentamicin), yellow-highlight key, rendered p12. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Thiazide diuretics block the Na+/Cl- transporter in the distal convoluted tubule
+
+## id
+CON-FND-B8F8442BE9266F
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q56; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q56 ("Thiazide diuretic is prescribed for:" / Essential Hypertension), yellow-highlight key, rendered p12. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Infective endocarditis requires a surface to settle on and organisms to settle there
+
+## id
+CON-CVS-45B20CE90AF6EE
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q62, q63; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q62 ("Vegetation develop as a result of:" / endothelial cell injury) and Q63 (gross features of acute infective endocarditis vegetations / friable), yellow-highlight key, rendered p13-14. Full record is in docs/import-ready/concept/SYS-CVS-CONCEPT-T08.md; simulate with that file (and its own article, docs/import-ready/article/SYS-CVS-ARTICLE-T08.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Restrictive cardiomyopathy impairs filling without dilating the ventricle
+
+## id
+CON-CVS-4A41D59159ED61
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q64; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q64 ("Which is a cause of restrictive cardiomyopathy?" / Sarcoidosis), yellow-highlight key, rendered p14. Full record is in docs/import-ready/concept/SYS-CVS-CONCEPT-T04.md; simulate with that file (and its own article, docs/import-ready/article/SYS-CVS-ARTICLE-T04.md) as a dependency.
+
+---
+
+# Item
+
+## label
+A rigid pericardium makes the ventricles compete for a fixed volume
+
+## id
+CON-CVS-268E5C530580B6
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q66; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q66 ("Which of the following produces a combination of right-sided venous distention and low cardiac output?" / Constrictive pericarditis), yellow-highlight key, rendered p14. Full record is in docs/import-ready/concept/SYS-CVS-CONCEPT-T06.md; simulate with that file (and its own article, docs/import-ready/article/SYS-CVS-ARTICLE-T06.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Deep vein thrombosis follows Virchow's triad (stasis, hypercoagulability, endothelial injury); inflamed clot is thrombophlebitis
+
+## id
+CON-CVS-92BB03F3D57E33
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q67, q69; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q67 ("Thrombophlebitis is defined as:" / thrombosis in inflamed vein) and Q69 (elderly-fracture vignette, leg pain/tenderness / Deep venous thrombosis), yellow-highlight key, rendered p15. Full record is in docs/MUST-Source-Imports/concept/MUST-CVS-201-concepts.md; simulate with that file (and its own article, docs/MUST-Source-Imports/article/MUST-CVS-201-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+The superior gluteal artery is the principal branch of the posterior division of the internal iliac artery
+
+## id
+CON-MSK-7F7CF4EEB4DA70
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q71; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q71 ("The superior and inferior gluteal arteries are branches of which of the following?" / Internal iliac artery), yellow-highlight key, rendered p16. This sibling names the superior gluteal artery specifically (posterior division); the inferior gluteal artery is the anterior division's own parietal branch of the same internal iliac artery, taught in this question's own explanation from general anatomy rather than duplicated here. Full record is in docs/Ain-Shams-Source-Imports/concept/ASU-UG-eom-ug-final2-collection-concepts.md; simulate with that file (and its own article, docs/Ain-Shams-Source-Imports/article/ASU-UG-eom-ug-final2-collection-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Lines of Zahn are alternating platelet-fibrin and erythrocyte-rich layers in an antemortem thrombus
+
+## id
+CON-FND-7E61964BE1D637
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q74; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q74 ("Which of the following is most likely to have grossly identifiable lines of Zahn:" / arterial Thrombus), yellow-highlight key, rendered p16. Full record is in docs/Helwan-Source-Imports/concept/HU-BMS-102-pathology-family118-part1-concepts.md; simulate with that file as a dependency (its own ## article_ids, ART-HU-BMS102-PAT-THROMBI, has no defining article file yet in this corpus -- a pre-existing gap in the Helwan lane, not fixed here).
