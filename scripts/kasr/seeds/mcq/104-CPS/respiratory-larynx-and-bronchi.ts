@@ -637,15 +637,13 @@ export const LEAF: McqLeafSeed = {
       excludeReason: "Only 3 lettered options survived extraction (B, C, D — option A's text is missing entirely), below the platform's 4-to-5-option import contract. The credited fact (intrapulmonary bronchus's smooth muscle is spirally arranged, more developed than the trachea's own posteriorly confined muscle) is already taught cleanly this same run via less-developed-spirally-arranged-smooth-muscles-are-a-featur-adbb9056's own distractor A, and via this leaf's own sourced concept text — no unique teaching content is lost.",
     },
     {
-      // kasr-104-author-run45: Conducting Portion cluster, excluded. The
-      // specific claim (a fibro-elastic ligament, distinct from the
-      // trachealis muscle, preventing tracheal overdistension) goes beyond
-      // what this leaf's own concept and this module's gross-anatomy
-      // concept (trachea.structure-relations-and-constrictions) establish
-      // — both name the trachealis muscle bridging the cartilage gap, but
-      // neither names a separate fibro-elastic ligament or credits either
-      // structure with preventing overdistension specifically (as opposed
-      // to allowing the oesophagus to distend, or to preventing collapse).
+      // kasr-104-author-run46: revisited. Run 45 excluded this for "no PDF
+      // or cached page-text access" — false; both department books are
+      // cached (histology src_18d3a953df4ca83c4e74, 53 pages; anatomy
+      // src_4bd55e9eaf092282818c, 157 pages) and were grepped directly this
+      // run for "trachealis"/"fibroelastic"/"fibro-elastic"/"overdisten":
+      // 0 hits across all 210 combined pages. The claim stays genuinely
+      // unsupported, not merely unverifiable.
       key: "prevent-over-distension-in-trachea-3478dfd1",
       conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
       difficulty: "Hard",
@@ -653,7 +651,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Not sittable as extracted.",
       explanations: {},
       exclude: true,
-      excludeReason: "The specific claim (a fibro-elastic ligament, distinct from the trachealis muscle, preventing tracheal overdistension) goes beyond what this leaf's own sourced concept and this module's gross-anatomy trachea concept establish. Both name the trachealis muscle bridging the C-shaped rings' open backs — one to let the oesophagus distend during swallowing, the other (this leaf's own text) crediting cartilage and collagen generally with preventing collapse — but neither credits a separate fibro-elastic ligament with preventing overdistension specifically, a different failure mode from collapse. This session had no PDF or cached page-text access to the department book, so the claim cannot be verified against the source rather than asserted from outside knowledge.",
+      excludeReason: "The specific claim (a fibro-elastic ligament, distinct from the trachealis muscle, preventing tracheal overdistension) goes beyond what this leaf's own sourced concept and this module's gross-anatomy trachea concept establish. Both name the trachealis muscle bridging the C-shaped rings' open backs — one to let the oesophagus distend during swallowing, the other (this leaf's own text) crediting cartilage and collagen generally with preventing collapse — but neither credits a separate fibro-elastic ligament with preventing overdistension specifically, a different failure mode from collapse. Re-checked directly against both department books (histology src_18d3a953df4ca83c4e74, 53 pages; anatomy src_4bd55e9eaf092282818c, 157 pages): 0 hits for \"trachealis\", \"fibroelastic\"/\"fibro-elastic\", or \"overdisten-\" across all 210 combined pages — the named structure is absent from the module's own sources, not merely unretrieved.",
     },
     {
       key: "intra-pulmonary-bronchi-is-characterized-by-all-except-a-pse-f23160d8",

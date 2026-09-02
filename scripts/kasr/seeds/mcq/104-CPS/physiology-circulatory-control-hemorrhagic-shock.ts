@@ -466,15 +466,12 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
-      // kasr-104-author-run45: Veins cluster, excluded. The mechanism by
-      // which progressive (decompensated) hemorrhagic shock becomes self-
-      // worsening — increased capillary permeability from prolonged
-      // hypoperfusion — is not stated by this leaf's own sourced
-      // hemorrhagic-shock concept, which covers the rapid compensatory
-      // hormone response, not this later decompensation mechanism. This
-      // session has no PDF or cached page-text access to the department
-      // physiology book, so the claim cannot be verified against the
-      // source.
+      // kasr-104-author-run46: revisited. Run 45 excluded this for "no PDF
+      // or cached page-text access" — false; the department physiology book
+      // is cached (src_a11a7faed67c95e2d636, 160 pages) and was grepped
+      // directly this run for "permeability"/"decompensat"/"progressive
+      // shock"/"irreversible shock": 0 hits across all 160 pages. The claim
+      // stays genuinely unsupported, not merely unverifiable.
       key: "in-progressive-hemorrhagic-shock-which-of-the-following-occu-649d7c04",
       conceptKey: "hemorrhagic-shock.rapid-compensatory-hormone-response",
       difficulty: "Hard",
@@ -482,7 +479,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Not sittable as extracted.",
       explanations: {},
       exclude: true,
-      excludeReason: "The mechanism by which progressive (decompensated) hemorrhagic shock becomes self-worsening — increased capillary permeability from prolonged hypoperfusion — is not stated by this leaf's own sourced concept, which covers the rapid compensatory hormone response (catecholamines, angiotensin II, vasopressin) rather than this later decompensation mechanism. This session had no PDF or cached page-text access to the department physiology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source rather than asserted from outside knowledge.",
+      excludeReason: "The mechanism by which progressive (decompensated) hemorrhagic shock becomes self-worsening — increased capillary permeability from prolonged hypoperfusion — is not stated by this leaf's own sourced concept, which covers the rapid compensatory hormone response (catecholamines, angiotensin II, vasopressin) rather than this later decompensation mechanism. Re-checked directly against the department physiology book (src_a11a7faed67c95e2d636, all 160 cached pages): 0 hits for \"permeability\", \"decompensat-\", or \"progressive/irreversible shock\" anywhere in the book — the module's own source stops at the rapid compensatory response and never reaches decompensated-shock pathophysiology, so the claim is absent from the source, not merely unretrieved.",
     },
     {
       key: "baroreceptors-060d2015",

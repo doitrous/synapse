@@ -44,10 +44,10 @@
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 28 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 18 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
-    Lymphatic and Macrophage System — Lymph Node — 22 questions, 8 concepts
+    Lymphatic and Macrophage System — Lymph Node — 26 questions, 8 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 19 questions, 3 concepts
-    Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
+    Lymphatic and Macrophage System — Tonsils — 17 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  214 questions were excluded and 0 held back for having no
+  220 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -6898,6 +6898,7 @@ The palatine tonsil is stratified squamous epithelium dipping in as crypts, nodu
 tonsil.palatine-epithelium-crypts-and-deep-capsule
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-LYMPHOID-ORGANS
 ## field_notes

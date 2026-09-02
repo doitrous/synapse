@@ -44,10 +44,10 @@
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 28 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 18 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
-    Lymphatic and Macrophage System — Lymph Node — 22 questions, 8 concepts
+    Lymphatic and Macrophage System — Lymph Node — 26 questions, 8 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 19 questions, 3 concepts
-    Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
+    Lymphatic and Macrophage System — Tonsils — 17 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  214 questions were excluded and 0 held back for having no
+  220 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -46308,6 +46308,98 @@ Asked 1 time across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-6FBE35E3DC52
+## title
+The palatine tonsil is characterized by:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The palatine tonsil is characterized by:
+## answer_a
+Covered by pseudostratified columnar epithelium
+## explanation_a
+Reversed: the department book states the palatine tonsil's free surface is covered by non-keratinized stratified squamous epithelium (p.22), the pharyngeal tonsil's own site (nasopharynx) that carries pseudostratified columnar epithelium instead.
+## answer_b
+Hypertrophy results in adenoids
+## explanation_b
+Wrong tonsil: hypertrophy producing adenoids is specifically a PHARYNGEAL-tonsil finding, stated by this leaf's own pharyngeal-tonsil concept — the palatine tonsil's own clinical correlate is tonsillitis and tonsillectomy, not adenoids.
+## answer_c
+Having no C.T. capsule
+## explanation_c
+Reversed: the department book states the palatine tonsil has an incomplete connective-tissue capsule deep to its lymphatic tissue (p.22, also shown in the book's own labelled diagram) — it is the LINGUAL tonsil that has no capsule at all.
+## answer_d
+Ducts of mucus glands open on the surface
+## explanation_d
+Correct. The department book states plainly (p.22): 'Mucous glands are present in the C.T., their ducts open on the surface and not in the base of tonsillar crypts, so inflammation of crypts is common' — the opposite of the lingual tonsil's crypt-flushing arrangement, and exactly why the palatine tonsil is the one that inflames often.
+
+Why this is right:
+- The palatine tonsil is covered on its free surface by non-keratinized stratified squamous epithelium dipping down as tonsillar crypts, with lymphatic nodules arranged around the crypts and diffuse lymphatic tissue between them, and dense connective tissue deep to the lymphatic tissue forming an incomplete capsule; its mucous gland ducts open on the surface rather than at the base of the crypts, so inflammation of the crypts is common.
+## correct_answer
+D
+## main_concept
+CON-HEM-093013026B640A
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Tonsils
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that the palatine tonsil's mucous-gland ducts open on the free surface, not into the crypt bases — the opposite of the lingual tonsil's arrangement — and identify this as why palatine tonsillitis is common.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q104. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists in the bank (answerConfidence: none). Re-verified directly against the department histology book (src_18d3a953df4ca83c4e74, p.22, 'Histological Structure of palatine tonsil', point 4): 'Mucous glands are present in the C.T., their ducts open on the surface and not in the base of tonsillar crypts' — matching option D verbatim. The other three options are each independently contradicted by the same page and this leaf's own sourced concepts (A: wrong epithelium type, that of the pharyngeal tonsil; B: wrong tonsil for adenoids; C: the palatine tonsil does have an incomplete capsule, unlike the lingual tonsil). All four options resolve cleanly against the book with no ambiguity.
+
 
 ---
 
