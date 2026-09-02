@@ -544,3 +544,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - INI-105 ledger sum: authored=665, held=211, total=876.
 
 ### 2026-09-02 — DISPATCHED Alexandria AU-MED-202 (GIT & Nutrition) lane 1, triage-first (Y2 slot; fleet recount showed 19 running). Running now (20): Assiut MPT-104 l8 / CBF-103 l2 / PMS-102 l4; Ain Shams UG l5 / AE l11; Alexandria 203 l7 / 202 l1; Zagazig 105 l3 / 108 l2; Mansoura HBG l2 / PPPM l2 / MSS l3 / AEP l3; FOMSCU MS105 l2 / FBS103 l3; Menoufia MED101 l1; 6 October IPH-108 l1; Kasr 208 l5; MUST CVS-201 t7; Helwan ORL-305 l3.
+
+### 2026-09-02 — 6 OCTOBER O6U-IPH-108 Pharmacology lane 1 LANDED (b5ac955b)
+- `all Practical pharma questions` (Moodle attempt+review pairs, "The correct answer is:" text key): pp.1-90 sampled Q1-44, 77% keyed → 33 authored, 1 held (Q35 internally contradictory EXCEPT key). `pharma MCQs bank` pp.1-40: 100% keyed via green checkmark (7 render-confirmed) → APPROVED, reserved. 14 mints + 4 articles + 1 catalogue resource; 3 Kasr 108-INT overlays. Validator errors=[] ×6; batch errors=0 ×6; 8-file simulate rejected=0. ≈1.85k tok/q. Flag: O6U-IPA-107's overlay-articles file has the same missing-arabic-title gap (not touched).
+- Lane 2 dispatched on `pharma MCQs bank` (checkmark key, 216 pp unsampled). Fleet 20/20.
