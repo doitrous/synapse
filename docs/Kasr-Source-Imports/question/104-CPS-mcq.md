@@ -46,7 +46,7 @@
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 22 questions, 8 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
-    Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
+    Lymphatic and Macrophage System — Thymus — 19 questions, 3 concepts
     Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
@@ -44008,6 +44008,466 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-104-433545BB543F
+## title
+Concerning thymus gland, the nursing cells are:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning thymus gland, the nursing cells are:
+## answer_a
+T-Lymphocytes
+## explanation_a
+T-lymphocytes are the developing cells being nursed, not the nursing cells themselves.
+## answer_b
+Lymphoblasts in the outer cortex
+## explanation_b
+Lymphoblasts in the outer cortex are, likewise, developing lymphocytes under the epithelial reticular cells' care, not the nursing cells doing the caring.
+## answer_c
+Macrophages in cortex and medulla
+## explanation_c
+Macrophages sit within the cortex, intercepting blood-borne antigen as part of the blood-thymic barrier, but nursing the developing lymphocytes is this leaf's own concept's named epithelial-reticular-cell function, not a macrophage one.
+## answer_d
+Epithelial reticular cells in cortex and medulla
+## explanation_d
+Epithelial reticular cells, present in both cortex and medulla, act as nursing cells for the developing lymphocytes — one of the three functions this leaf's own concept credits them with, alongside secreting thymic hormones and sheathing the septa and blood vessels.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## correct_answer
+D
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the epithelial reticular cell, in both cortex and medulla, as the thymus's nursing cell for its developing lymphocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p3 q3. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7B39D8F6DCB5
+## title
+outer part of thymus cortex Contain - - - - while inner part contain
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+outer part of thymus cortex Contain - - - - while inner part contain
+## answer_a
+lymphoblast, T-lymph
+## explanation_a
+This leaf's own concept states the cortex is densely populated with lymphocytes — lymphoblasts in its outer part, thymocytes in its inner part — exactly this progression from less to more mature T-lineage cells as they move inward toward the medulla.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## answer_b
+T-lymph, lymphoblast
+## explanation_b
+Reversed — this leaf's own concept places lymphoblasts outward and thymocytes inward, not the other way round.
+## answer_c
+lymphoblast, B-lymph
+## explanation_c
+The thymus has no B-lymphocytes at all, in either cortex zone — its lymphocyte population is entirely T-lineage, so a B-lymphocyte-based pairing does not describe the cortex's own outer-to-inner progression.
+## answer_d
+B-lymph, lymphoblast
+## explanation_d
+The thymus has no B-lymphocytes at all, so this pairing is doubly wrong — B-lymph does not belong in the inner cortex, and lymphoblast-to-B-lymph is not this leaf's own stated outer-to-inner progression.
+## correct_answer
+A
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the thymic cortex holds lymphoblasts in its outer part and thymocytes (T-lineage cells) in its inner part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q23. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-BC9FA8724982
+## title
+Regarding thymus gland, It is: i
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding thymus gland, It is: i
+## answer_a
+The site of antibody production. i
+## explanation_a
+Antibody production is a secondary (peripheral) lymphoid organ function, carried out by plasma cells — and this leaf's own concept states the thymus has no plasma cells at all.
+## answer_b
+A major site of red blood cell degradation and bilirubin recycling. i
+## explanation_b
+Red blood cell degradation and bilirubin recycling is a spleen function, not a function of the thymus, a primary lymphoid organ that produces and matures T-lymphocytes rather than processing blood cells.
+## answer_c
+Having both afferent & efferent lymphatic vessels. i
+## explanation_c
+Reversed. This leaf's own concept states the thymus has no afferent lymphatic vessels at all — only efferent ones, carrying mature cells onward — the opposite of 'having both'.
+## answer_d
+The site of production of T- cells
+## explanation_d
+The thymus is a primary (central) lymphoid organ whose cortex and medulla complete T-lymphocyte production and maturation before these cells seed the secondary organs — exactly the classification concept's own stated thymic role.
+
+Why this is right:
+- Restated here only to satisfy the seed type; the pinned record's own wording (declared in lymphatic-lymph-node.ts) governs.
+## correct_answer
+D
+## main_concept
+CON-HEM-CF6A9A48ADA3AC
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the thymus is the site of T-cell production, against antibody production (a secondary-organ function), a spleen function, and this leaf's own no-afferent-lymphatics fact.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p2 q18. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-59337AB40D49
+## title
+Where do T-lymphocytes acquire their immunocompetence?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Where do T-lymphocytes acquire their immunocompetence?
+## answer_a
+Thymus
+## explanation_a
+The thymus is where T-lymphocytes acquire their immunocompetence — its epithelial reticular cells secrete thymic hormones that promote T-lymphocyte differentiation and maturation before these cells seed the peripheral (secondary) lymphoid organs.
+
+Why this is right:
+- The thymus is a primary lymphoid organ with an endocrine function, and unlike the lymph node and spleen it has a double origin: its lymphocytes (the thymocytes) are mesodermal, while its epithelial reticular cells are endodermal.
+## answer_b
+Thyrcid
+## explanation_b
+The thyroid is an endocrine gland producing thyroid hormones; it plays no part in lymphocyte maturation.
+## answer_c
+Bone marrow
+## explanation_c
+Bone marrow is the other primary lymphoid organ, and the source of T-lymphocyte precursors, but the classification concept's own thymus-specific role is what completes their maturation into immunocompetent T-cells — T-lymphocyte precursors still require the thymic environment to finish that process.
+## answer_d
+Lymph node
+## explanation_d
+The lymph node is a secondary (peripheral) lymphoid organ, where already-mature lymphocytes encounter antigen — not where T-lymphocytes acquire their immunocompetence in the first place.
+## correct_answer
+A
+## main_concept
+CON-HEM-817D336693039E
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the thymus as the site where T-lymphocytes complete their maturation into immunocompetent cells, against the thyroid, bone marrow and lymph node.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic System].pdf p2 q8. Manifest src_b0c5c0d32e396511ae20.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-995F4DAFAF18
+## title
+Which of the following is considered a central lymphatic organ:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is considered a central lymphatic organ:
+## answer_a
+Thymus
+## explanation_a
+The thymus is, with bone marrow, one of the two primary (central) lymphatic organs — the classification concept's own stated pairing.
+
+Why this is right:
+- Restated here only to satisfy the seed type; the pinned record's own wording (declared in lymphatic-lymph-node.ts) governs.
+## answer_b
+Lymph nodes
+## explanation_b
+Lymph nodes are a secondary (peripheral) lymphatic organ, where already-produced lymphocytes mount immune responses, not a central one.
+## answer_c
+Spleen
+## explanation_c
+The spleen is likewise a secondary (peripheral) lymphatic organ, filtering blood and mounting immune responses rather than producing lymphocytes.
+## answer_d
+tonsils
+## explanation_d
+Tonsils are a secondary (peripheral) lymphatic organ too, protecting the digestive and respiratory systems' entry points rather than producing lymphocytes centrally.
+## correct_answer
+A
+## main_concept
+CON-HEM-CF6A9A48ADA3AC
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the thymus as a central (primary) lymphatic organ, against the peripheral (secondary) lymph node, spleen and tonsils.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p1 q4; Histo MCQ by Dr.Kandeel [104].pdf p7 q5. Manifest src_2b531af1f3f6eace5974, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 

@@ -46,7 +46,7 @@
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 22 questions, 8 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
-    Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
+    Lymphatic and Macrophage System — Thymus — 19 questions, 3 concepts
     Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
@@ -6034,13 +6034,16 @@ kau
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p9 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p2 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p7 | 104 CPS
 src_2b531af1f3f6eace5974 | question_book | | p3 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -6058,7 +6061,7 @@ ART-104-HIS-LYMPHOID-ORGANS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Identify the following organ & choose the correct statement:
+[asked 2x across the question books] Which of the following is considered a central lymphatic organ:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6648,20 +6651,21 @@ kau
 ## learner_years
 1
 ## exam_signal
+src_b0c5c0d32e396511ae20 | question_book | | p2 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p6 | 104 CPS
 src_2b531af1f3f6eace5974 | question_book | | p2 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -6673,7 +6677,7 @@ ART-104-HIS-LYMPHOID-ORGANS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] origin of epithelial reticular cell
+[asked 1x across the question books] Where do T-lymphocytes acquire their immunocompetence?
 ## conflicts
 [clear]
 ## uncertainty
@@ -6780,18 +6784,19 @@ kau
 ## learner_years
 1
 ## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p6 | 104 CPS
 src_2b531af1f3f6eace5974 | question_book | | p2 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p8 | 104 CPS
-src_9cf32ada2b25fa54f0e9 | question_book | | p6 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p9 | 104 CPS
 src_5465875dc14a998b7b21 | question_book | | p13 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -6809,7 +6814,7 @@ ART-104-HIS-LYMPHOID-ORGANS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Concerning the thymus, which of the following is correct? 1
+[asked 1x across the question books] Concerning thymus gland, the nursing cells are:
 ## conflicts
 [clear]
 ## uncertainty
