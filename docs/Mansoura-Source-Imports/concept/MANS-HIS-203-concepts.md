@@ -1823,3 +1823,731 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 
 ---
+
+# Item
+
+## label
+The extrinsic coagulation pathway begins when tissue thromboplastin released from damaged tissue activates factor X to Xa, which converts prothrombin to thrombin, and thrombin — helped by calcium ions throughout the cascade — converts fibrinogen to fibrin
+
+## id
+CON-HEM-D2DD281A978DBD
+
+## canonical_key
+coagulation-cascade-extrinsic-pathway-thrombin-generation
+
+## aliases
+Extrinsic pathway
+Tissue thromboplastin
+Factor Xa
+Thrombin converts fibrinogen to fibrin
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The extrinsic coagulation pathway is triggered by tissue thromboplastin (tissue factor, factor III), a substance released from damaged tissue at the site of vessel injury rather than generated from blood components alone (the intrinsic pathway's route). Tissue thromboplastin activates factor X to its active form, Xa, and factor Xa is the step that directly converts prothrombin into active thrombin. Thrombin then converts soluble fibrinogen into insoluble fibrin strands, the meshwork that stabilises the platelet plug into a definitive clot. Calcium ions (Ca++) are required as a cofactor at multiple steps of this cascade, including the conversion of prothrombin to thrombin — without calcium the cascade cannot proceed even when every clotting factor is present.
+## explicit_objective
+State the extrinsic pathway's trigger (tissue thromboplastin, released from damaged tissue) and trace the sequence from factor Xa activation through thrombin generation to fibrin formation, including calcium's role as a required cofactor.
+
+## pitfalls
+Confusing "the factor released from damaged tissue that starts the cascade" (tissue thromboplastin / tissue factor / factor III) with "the factor that directly converts prothrombin to thrombin" (factor Xa) — the department's bank tests both as separate fill-in-the-blank facts on the same cascade. Forgetting that thrombin's own product-generating role (fibrinogen to fibrin) is a separate step from its own formation (prothrombin to thrombin via factor Xa).
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — coagulation cascade
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p116-118 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-COAGULATION-CASCADE-EXTRINSIC-PATHWAY
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MANS_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which chemical initiates the extrinsic phase of clotting? [answer: Thromboplastin]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the cascade sequence is standard textbook material.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: CON-HEM-BC9F1F59205EC7 (pending, 102-INT, vitamin-K-dependent factors II/VII/IX/X) is the same-cascade neighbour reused directly elsewhere in this batch rather than folded in here, which is specifically about the extrinsic trigger and thrombin-generation steps.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "extrinsic pathway tissue thromboplastin" / "factor Xa prothrombin thrombin" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Haemophilia is a hereditary deficiency of a coagulation factor, classically factor VIII (haemophilia A), producing a lifelong bleeding tendency
+
+## id
+CON-HEM-DC8364E8254011
+
+## canonical_key
+hemophilia-hereditary-factor-deficiency
+
+## aliases
+Haemophilia
+Factor VIII deficiency
+Haemophilia A
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Haemophilia is the general name for a hereditary (inherited) deficiency of a specific coagulation factor, producing a lifelong tendency to bleed excessively from otherwise minor injury or spontaneously into joints and soft tissue. The classic and most common form, haemophilia A, is caused specifically by deficiency of factor VIII; a rarer form, haemophilia B (Christmas disease), is caused by deficiency of factor IX. Both are X-linked recessive conditions, which is why haemophilia overwhelmingly affects males.
+## explicit_objective
+Define haemophilia as a hereditary coagulation-factor deficiency and identify factor VIII as the factor deficient in the classic, most commonly tested form (haemophilia A).
+
+## pitfalls
+Treating "haemophilia" as naming only one specific factor deficiency rather than recognising it as a category (haemophilia A = factor VIII, haemophilia B = factor IX) — the department's bank tests both the general term and the specific factor-VIII fact as separate questions on the same underlying condition.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — coagulation disorders
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p117 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-HEMOPHILIA-FACTOR-DEFICIENCY
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+A condition of heredity deficiency of coagulation is called: [answer: Hemophilia]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent haematology reference not yet cross-checked against this department-book framing; the factor identity is standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "hemophilia factor VIII" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Von Willebrand factor potentiates platelet adhesion to an injured vessel wall, while thromboxane A2 released from activated platelets causes local vasoconstriction
+
+## id
+CON-HEM-761D9E818B8285
+
+## canonical_key
+platelet-adhesion-vwf-and-thromboxane-vasoconstriction
+
+## aliases
+Von Willebrand factor
+Thromboxane A2 vasoconstriction
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Primary haemostasis begins with platelet adhesion to exposed subendothelial collagen at an injury site, a step potentiated (strengthened) by von Willebrand factor, a plasma glycoprotein that bridges platelet surface receptors to collagen. Activated platelets in turn release thromboxane A2, a potent vasoconstrictor that narrows the injured vessel to reduce blood flow and blood loss while the platelet plug and coagulation cascade complete the job. Thromboxane A2 also promotes further platelet aggregation, which is why aspirin's inhibition of its synthesis (via COX) both prolongs bleeding time and reduces platelet-driven vasoconstriction.
+## explicit_objective
+State that von Willebrand factor potentiates platelet adhesion to the injured vessel wall, and that thromboxane A2, released from activated platelets, produces vasoconstriction of the injured vessel.
+
+## pitfalls
+Confusing von Willebrand factor's adhesion-potentiating role with ADP's aggregation-promoting role — both are platelet-pathway molecules the department's bank asks about as "what potentiates platelet adhesion", with von Willebrand factor as the correct answer among ADP/fibrin stabilising factor/tissue factor distractors. Assuming thromboxane A2 only aggregates platelets and missing its distinct vasoconstrictor action on the vessel itself.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — primary haemostasis
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p118 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-PLATELET-ADHESION-VASOCONSTRICTION
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which factor potentiates (increases) platelet adhesion? [answer: Von Willebrand factor]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the mechanisms are standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "von Willebrand factor platelet adhesion" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Normal haemostasis follows a fixed sequence — blood vessel spasm, then platelet plug formation, then blood coagulation — and activated platelets release ADP while platelets themselves are necessary for clot retraction
+
+## id
+CON-HEM-7704DD963194EC
+
+## canonical_key
+hemostasis-sequence-and-platelet-clot-retraction
+
+## aliases
+Hemostasis steps
+Platelet ADP release
+Clot retraction
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The normal physiological response to vascular injury (haemostasis) proceeds through a fixed sequence: first, blood vessel spasm (vasoconstriction) narrows the injured vessel to reduce blood flow; second, platelet plug formation seals the breach as platelets adhere, activate and aggregate at the site; third, blood coagulation lays down a fibrin meshwork that stabilises the platelet plug into a definitive clot. Activated platelets release ADP as one of their granule contents, which recruits and activates further platelets to reinforce the aggregating plug. After the clot has formed, platelets are also necessary for clot retraction — the platelet cytoskeleton contracts, pulling the fibrin meshwork tighter and squeezing out serum, which draws the wound edges together and makes the clot more effective at sealing the vessel.
+## explicit_objective
+State the correct order of the three haemostasis steps (vessel spasm, platelet plug formation, coagulation), and identify ADP as a platelet-activation product and platelets as necessary for clot retraction.
+
+## pitfalls
+Reordering the three haemostasis steps — the department's bank tests the correct sequence directly as a multi-option ordering question, and vessel spasm (the fastest, most immediate response) is often wrongly placed after platelet plug formation instead of before it. Confusing ADP (a platelet activation/recruitment signal) with thromboxane A2 (the vasoconstrictor) as "what activated platelets release" — both are correct but test different platelet-release facts.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — haemostasis sequence
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p120 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-HEMOSTASIS-SEQUENCE-CLOT-RETRACTION
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MANS_Y1=0.35
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Choose the correct order for the steps of hemostasis: [answer: Blood vessel spasm, platelet plug formation, blood coagulation]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the sequence is standard textbook material.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: CON-HEM-761D9E818B8285 (this batch, platelet adhesion/thromboxane) is the same-process neighbour this concept's sequence-and-retraction angle complements; no typed edge authored this batch.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "hemostasis steps vessel spasm platelet plug coagulation" / "clot retraction platelets" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
