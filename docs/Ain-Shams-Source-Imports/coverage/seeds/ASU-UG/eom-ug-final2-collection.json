@@ -1,7 +1,7 @@
 {
   "lane": "ASU-UG",
   "cluster": "eom-ug-final2-collection",
-  "header": "ASU-UG · Anatomy + Pharma — authored from the EOM MCQs - UG Final 2 MCQ Collection.pdf compilation (127 items across 7 subject blocks; this cluster covers the Anatomy and Pharma blocks, 40 of those items), keys read as printed (embedded answer with/adjacent to the stem); distractors authored by this lane.",
+  "header": "ASU-UG · Anatomy + Pharma — authored from the EOM MCQs - UG Final 2 MCQ Collection.pdf compilation (127 items across 7 subject blocks; this cluster covers the Anatomy and Pharma blocks, 40 of those items), keys read as printed (embedded answer with/adjacent to the stem); distractors authored by this lane. Lane asu-ug-author5 closed out the file's last 3 real gaps: Anatomy Q18/Q23 (previously overlaid onto live concepts CON-AND-974243C7B0B300/CON-OBS-8CFC18F068B267 but never questioned) and Micro Q15 (parvovirus B19/hydrops fetalis, p.12, the one item never captured under any earlier q-slot). The old q126-q128 placeholders in the triage-keys ledger were stale: this file's real item count is 125, not ~128 (Histo's and Physio's printed numbering each skip a couple of item numbers that were never actually printed, not unread content) — see coverage/ASU-UG-triage-keys.txt's 2026-09-02 correction note.",
   "defaults": {
     "subject": "androl",
     "status": "Draft",
@@ -5081,6 +5081,135 @@
     {
       "key": "eom-ug-final2-collection-q112",
       "hold": "doubtful key — Patho Q16 asks which statement is true regarding prostatic carcinoma and keys \"corpora amylacea in lumen\"; standard prostate pathology teaching (reinforced by this same source's own Patho Q21, authored as eom-ug-final2-collection-q117, which correctly keys corpora amylacea as a normal, age-related finding in *benign* prostatic acini) holds that corpora amylacea are a feature of benign glands and are characteristically *absent* from malignant glands — their presence is used as one histologic clue *against* cancer. This reverses, rather than merely debates, an accepted diagnostic teaching point, so it is held rather than authored with a doubt note per the \"printed keys stand unless unrecoverable\" rule; flagged to chief-of-staff / Omar for a ruling."
+    },
+    {
+      "key": "eom-ug-final2-collection-q018",
+      "id": "QST-ASUUG-EOMCOLL-Q018",
+      "page": 18,
+      "title": "The bulbourethral (Cowper's) glands are located within which anatomical compartment?",
+      "question": "The bulbourethral (Cowper's) glands are located within which anatomical compartment?",
+      "options": {
+        "A": "The deep perineal pouch",
+        "B": "The superficial perineal pouch",
+        "C": "The ischiorectal (ischioanal) fossa",
+        "D": "The retropubic (Retzius) space"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paired bulbourethral (Cowper's) glands lie within the deep perineal pouch, embedded in the external urethral sphincter, and their ducts pass through the perineal membrane to open into the proximal (bulbar) part of the spongy urethra. This location, deep to the perineal membrane and between the two layers of the urogenital diaphragm, is what distinguishes them from the greater vestibular (Bartholin's) glands, their female homologue, which instead lie in the superficial perineal pouch. Their secretion, released during sexual arousal, helps lubricate and neutralize residual acidity in the urethra before ejaculation.",
+        "B": "Incorrect. The superficial perineal pouch contains structures such as the crura of the penis/clitoris, the bulb of the penis/vestibule, and the greater vestibular (Bartholin's) glands in females, not the bulbourethral glands.",
+        "C": "Incorrect. The ischiorectal (ischioanal) fossa is a fat-filled space lateral to the anal canal, unrelated to the bulbourethral glands' location within the urogenital diaphragm.",
+        "D": "Incorrect. The retropubic (Retzius) space lies anterior to the bladder and posterior to the pubic symphysis, a separate anatomical compartment from the perineum where the bulbourethral glands sit."
+      },
+      "main_concept": "CON-AND-974243C7B0B300",
+      "concept_ids": [
+        "CON-AND-974243C7B0B300"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-AND-TOP-FA9022EB1F"
+      ],
+      "subject": "androl",
+      "topic": "Anatomy",
+      "subtopic": "Perineum and pelvic floor",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Bulbourethral glands are paired compound tubuloalveolar glands in the urogenital diaphragm draining into the proximal penile urethra",
+      "module_subject": "ASU-UG > Anatomy > Perineum and pelvic floor",
+      "source_citation": "Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection (\"EOM MCQs - UG Final 2 MCQ Collection.pdf\", 2018/19/20 sitting), Anatomy Q18.",
+      "field_notes": {
+        "keySource": "printed key, Anatomy Q18",
+        "asu": "ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Anatomy Q18; concept reused via overlay, not minted — see docs/Ain-Shams-Source-Imports/pending-live/ASU-UG-eom-ug-final2-collection-overlay-concepts.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "eom-ug-final2-collection-q023",
+      "id": "QST-ASUUG-EOMCOLL-Q023",
+      "page": 23,
+      "title": "The internal os of the uterus marks the anatomical junction between which two structures?",
+      "question": "The internal os of the uterus marks the anatomical junction between which two structures?",
+      "options": {
+        "A": "The body and the cervix of the uterus",
+        "B": "The cervix and the vagina",
+        "C": "The uterine cavity and the fallopian tube (uterotubal junction)",
+        "D": "The endometrium and the myometrium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The internal os is the inner opening of the cervical canal, marking the anatomical and histological junction between the body (corpus) of the uterus above and the cervix below. It is a key landmark in obstetrics because its integrity (cervical competence) determines the risk of second-trimester pregnancy loss or preterm birth, and its effacement and dilation are staged during labor. It is distinguished from the external os, which is the opening of the cervical canal into the vagina at the opposite end of the cervix.",
+        "B": "Incorrect. The junction between the cervix and the vagina is marked by the external os (and the vaginal fornices surrounding the cervix), not the internal os.",
+        "C": "Incorrect. The uterotubal junction, where the fallopian tube opens into the uterine cavity, is an entirely separate landmark at the opposite, superior lateral, end of the uterus from the internal os.",
+        "D": "Incorrect. The endometrium and myometrium are the two tissue layers of the uterine wall, a histological rather than a topographic cervical landmark, and unrelated to the internal os."
+      },
+      "main_concept": "CON-OBS-8CFC18F068B267",
+      "concept_ids": [
+        "CON-OBS-8CFC18F068B267"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-OBS-TOP-495EAEF520"
+      ],
+      "subject": "gyn",
+      "topic": "Anatomy",
+      "subtopic": "Uterus and vagina",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "The internal os is the inner opening of the uterine cervical canal, the junction between the body and the cervix of the uterus",
+      "module_subject": "ASU-UG > Anatomy > Uterus and vagina",
+      "source_citation": "Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection (\"EOM MCQs - UG Final 2 MCQ Collection.pdf\", 2018/19/20 sitting), Anatomy Q23.",
+      "field_notes": {
+        "keySource": "printed key, Anatomy Q23",
+        "asu": "ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Anatomy Q23; concept reused via overlay, not minted — see docs/Ain-Shams-Source-Imports/pending-live/ASU-UG-eom-ug-final2-collection-overlay-concepts.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "eom-ug-final2-collection-q125",
+      "id": "QST-ASUUG-EOMCOLL-Q125",
+      "page": 125,
+      "title": "Which of the following organisms is a classic cause of non-immune fetal hydrops when a pregnant woman is infected in the first half of pregnancy?",
+      "question": "Which of the following organisms is a classic cause of non-immune fetal hydrops when a pregnant woman is infected in the first half of pregnancy?",
+      "options": {
+        "A": "Parvovirus B19",
+        "B": "Rubella virus",
+        "C": "Cytomegalovirus",
+        "D": "Varicella-zoster virus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Maternal parvovirus B19 infection, particularly when acquired in the first half of pregnancy, is a classic cause of non-immune fetal hydrops: the virus infects and suppresses fetal erythroid progenitor cells, producing severe fetal anemia that in turn leads to high-output cardiac failure and generalized fluid accumulation (hydrops). Because the fetal marrow has limited reserve capacity earlier in gestation, the anemia and resulting hydrops are most severe with earlier infection. Serial fetal ultrasound monitoring and, when indicated, intrauterine transfusion are used to manage this risk.",
+        "B": "Incorrect. Congenital rubella infection classically causes a triad of cardiac defects, cataracts, and sensorineural deafness (congenital rubella syndrome) rather than being the classic cause of non-immune hydrops from fetal anemia.",
+        "C": "Incorrect. Congenital cytomegalovirus infection classically causes periventricular calcifications, microcephaly, and sensorineural hearing loss; it can rarely contribute to hydrops but is not the classic teaching association for it.",
+        "D": "Incorrect. Congenital varicella syndrome classically causes limb hypoplasia, cutaneous scarring, and CNS/eye abnormalities, not the classic teaching cause of non-immune fetal hydrops."
+      },
+      "main_concept": "CON-INF-0DECACE4000EC0",
+      "concept_ids": [
+        "CON-INF-0DECACE4000EC0"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-INF-ASU-UG-MATERNAL-PARVOVIRUS-B19-INFECTION-CAUSES-NON-IMMUNE-FETAL-HYDROPS-VIA-ERYTHROID-SUPPRESSION"
+      ],
+      "subject": "inf",
+      "topic": "Medical microbiology",
+      "subtopic": "Perinatal infection",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Maternal parvovirus B19 infection in the first half of pregnancy is a classic cause of non-immune fetal hydrops via suppression of fetal erythropoiesis",
+      "module_subject": "ASU-UG > Microbiology > Perinatal infection",
+      "source_citation": "Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection (\"EOM MCQs - UG Final 2 MCQ Collection.pdf\", 2018/19/20 sitting), Micro Q15.",
+      "field_notes": {
+        "keySource": "printed key, Micro Q15",
+        "asu": "ASU-UG EOM MCQs - UG Final 2 MCQ Collection, Micro Q15"
+      },
+      "author_notes": ""
     }
   ]
 }

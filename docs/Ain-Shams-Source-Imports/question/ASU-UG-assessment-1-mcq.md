@@ -1,5 +1,5 @@
 <!--
-  ASU-UG · Physiology/Pathology — authored from the MCQs - Urogenital Assessment 1 MCQ.pdf compilation (~110-120 items across subject blocks). First batch (20 items) covered the Physiology block pp.7-9, Physio Q2-Q25. This batch (34 items) covers the remainder of the Physiology block, pp.9-10, Physio Q26-Q45 (20 items; Physio Q46 and Q47 held as within-file duplicates of Q10 and Q28 respectively), and the Pathology block, pp.10-12, Patho Q1-Q16 (14 items; Patho Q6 and Q15 held as within-file duplicates of Patho Q1 and Q3 respectively). Keys read as printed (embedded answer with/adjacent to the stem); distractors authored by this lane.
+  ASU-UG · Physiology/Pathology/Microbiology — authored from the MCQs - Urogenital Assessment 1 MCQ.pdf compilation. First batch (20 items) covered the Physiology block pp.7-9, Physio Q2-Q25. Second batch (34 items) covered the remainder of the Physiology block, pp.9-10, Physio Q26-Q45 (Physio Q46/Q47 held as within-file duplicates of Q10/Q28), and the Pathology block, pp.10-12, Patho Q1-Q16 (Patho Q6/Q15 held as within-file duplicates of Patho Q1/Q3). This batch (lane asu-ug-author5, 9 items) closes out the file: the 5 stray Physio items skipped by earlier batches (Physio Q1, Q4, Q8, Q23, Q24, pp.6-8) and the file's final Micro block (p.12, Micro Q1-Q4; Micro Q5 held as a cross-paper duplicate of a germ-tube-test/candidiasis concept already minted in eom-ug-final2-collection). Keys read as printed (embedded answer with/adjacent to the stem); distractors authored by this lane.
 
   Import: Admin › Bulk import → question.
 -->
@@ -7563,3 +7563,1263 @@ yes
 ## author_notes
 keySource: printed key, Patho Q16
 asu: ASU-UG MCQs - Urogenital Assessment 1 MCQ, Patho Q16
+
+---
+
+# Item
+
+## id
+QST-ASUUG-ASS1MCQ-Q01
+
+## title
+Renal blood flow (RBF) remains relatively constant (autoregulated) across which range of mean arterial pressure (MAP)?
+
+## question
+Renal blood flow (RBF) remains relatively constant (autoregulated) across which range of mean arterial pressure (MAP)?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Approximately 80 to 180 mmHg
+
+## explanation_a
+Correct. Renal blood flow and GFR are autoregulated to remain relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg, mainly through myogenic and tubuloglomerular feedback mechanisms acting on the afferent arteriole. Within this range, a rise in perfusion pressure triggers afferent arteriolar constriction (and a fall triggers dilation), keeping glomerular capillary pressure and flow nearly steady despite the swings in systemic pressure. This protects the kidney's filtration function from ordinary fluctuations in blood pressure during daily activity.
+
+## answer_b
+Approximately 40 to 80 mmHg
+
+## explanation_b
+Incorrect. A range of 40 to 80 mmHg lies mostly below the lower limit of renal autoregulation; below approximately 80 mmHg, autoregulatory mechanisms are exhausted and renal blood flow begins to fall in parallel with pressure.
+
+## answer_c
+Approximately 180 to 220 mmHg
+
+## explanation_c
+Incorrect. A range of 180 to 220 mmHg lies mostly above the upper limit of autoregulation; sustained pressures this high exceed the myogenic mechanism's compensatory capacity and can instead damage the renal vasculature.
+
+## answer_d
+Only a single fixed pressure value, not a range
+
+## explanation_d
+Incorrect. Autoregulation operates across a range of pressures, not at one fixed value; that is precisely what allows the kidney to maintain stable flow despite everyday variation in systemic blood pressure.
+
+## topic
+Renal physiology
+
+## subtopic
+Renal autoregulation
+
+## main_concept
+CON-REN-8FFFA00C8526BF
+
+## concept_ids
+CON-REN-8FFFA00C8526BF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Renal autoregulation
+
+## question_only_for
+
+## library_ids
+ART-REN-ASU-UG-RENAL-BLOOD-FLOW-AUTOREGULATION-KEEPS-FLOW-RELATIVELY-CONSTANT-80-180-MMHG
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## learning_objective
+Renal blood flow autoregulation keeps flow relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg
+
+## source_citation
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ ("MCQs - Urogenital Assessment 1 MCQ.pdf"), Physio Q1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q1
+asu: ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q1
+
+---
+
+# Item
+
+## id
+QST-ASUUG-ASS1MCQ-Q04
+
+## title
+Which of the following is completely reabsorbed in the proximal convoluted tubule (PCT) under normal physiological conditions?
+
+## question
+Which of the following is completely reabsorbed in the proximal convoluted tubule (PCT) under normal physiological conditions?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Glucose, amino acids, and filtered protein
+
+## explanation_a
+Correct. Under normal filtered loads, the proximal convoluted tubule reabsorbs essentially all filtered glucose and amino acids via specific sodium-coupled cotransporters, and it also reclaims virtually all of the small amount of protein that is filtered, through receptor-mediated endocytosis. This near-complete reabsorption is why glucose and amino acids are normally absent from the final urine despite being freely filtered at the glomerulus. It also explains why even modest glomerular or tubular protein leak is clinically significant, since the PCT's endocytic capacity for protein is a finite, saturable process.
+
+## answer_b
+Urea
+
+## explanation_b
+Incorrect. Urea is only partially reabsorbed passively along the nephron (roughly half of the filtered load in the proximal tubule, with more complex handling in the medullary collecting duct); it is not completely reabsorbed.
+
+## answer_c
+Creatinine
+
+## explanation_c
+Incorrect. Creatinine is freely filtered and not meaningfully reabsorbed; a small amount is even secreted, which is why creatinine clearance is used clinically to estimate GFR.
+
+## answer_d
+Inulin
+
+## explanation_d
+Incorrect. Inulin is the classic marker that is freely filtered and neither reabsorbed nor secreted at all, which is exactly why its clearance is used as the gold-standard measure of GFR.
+
+## topic
+Renal physiology
+
+## subtopic
+Tubular transport
+
+## main_concept
+CON-REN-BD2B91AB53E5B6
+
+## concept_ids
+CON-REN-BD2B91AB53E5B6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Tubular transport
+
+## question_only_for
+
+## library_ids
+ART-REN-ASU-UG-PCT-COMPLETELY-REABSORBS-GLUCOSE-AMINO-ACIDS-AND-FILTERED-PROTEIN-UNDER-NORMAL-LOADS
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## learning_objective
+The proximal convoluted tubule normally reabsorbs essentially all filtered glucose and amino acids, and virtually all filtered protein via receptor-mediated endocytosis
+
+## source_citation
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ ("MCQs - Urogenital Assessment 1 MCQ.pdf"), Physio Q4.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q4
+asu: ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q4
+
+---
+
+# Item
+
+## id
+QST-ASUUG-ASS1MCQ-Q08
+
+## title
+An extracellular fluid (ECF) osmolarity of approximately 300 mOsm/L indicates which of the following?
+
+## question
+An extracellular fluid (ECF) osmolarity of approximately 300 mOsm/L indicates which of the following?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Osmotic equilibrium between the extracellular and intracellular fluid compartments
+
+## explanation_a
+Correct. Because cell membranes are freely permeable to water, water moves rapidly across them until osmotic equilibrium is reached; at steady state the osmolarity of the extracellular fluid and intracellular fluid are equal, both approximately 275 to 295 (commonly rounded to ~300) mOsm/L. An ECF osmolarity in this normal range therefore reflects an intracellular fluid that is in osmotic equilibrium with it, not a state of active fluid shift. This is the baseline against which clinical disturbances such as hyponatremia, hypernatremia, and dehydration are recognized as deviations.
+
+## answer_b
+Severe extracellular fluid hypertonicity relative to the intracellular compartment
+
+## explanation_b
+Incorrect. An ECF osmolarity of about 300 mOsm/L is within the normal physiological range, not a hypertonic state; hypertonicity would be reflected by osmolarity values well above this normal range with a corresponding transcellular water shift.
+
+## answer_c
+Ongoing net water movement from the intracellular to the extracellular compartment
+
+## explanation_c
+Incorrect. Net water movement between compartments occurs only when there is an osmotic gradient between them; at 300 mOsm/L with the two compartments in equilibrium, there is no net driving force for water shift in either direction.
+
+## answer_d
+A laboratory error, since normal plasma osmolarity is far lower than 300 mOsm/L
+
+## explanation_d
+Incorrect. Approximately 275 to 295, often rounded to 300, mOsm/L is the accepted normal range for plasma/ECF osmolarity, not an erroneous value.
+
+## topic
+Renal physiology
+
+## subtopic
+Water balance
+
+## main_concept
+CON-REN-8762DE8DDC1433
+
+## concept_ids
+CON-REN-8762DE8DDC1433
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Water balance
+
+## question_only_for
+
+## library_ids
+ART-REN-ASU-UG-ECF-OSMOLARITY-300-REFLECTS-OSMOTIC-EQUILIBRIUM-BETWEEN-ECF-AND-ICF
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## learning_objective
+An extracellular fluid osmolarity of approximately 300 mOsm/L reflects osmotic equilibrium between the extracellular and intracellular fluid compartments
+
+## source_citation
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ ("MCQs - Urogenital Assessment 1 MCQ.pdf"), Physio Q8.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q8
+asu: ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q8
+
+---
+
+# Item
+
+## id
+QST-ASUUG-ASS1MCQ-Q23
+
+## title
+Which functional role is most characteristic of cortical nephrons, as distinct from juxtamedullary nephrons?
+
+## question
+Which functional role is most characteristic of cortical nephrons, as distinct from juxtamedullary nephrons?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+They are chiefly responsible for renal autoregulation of blood flow and GFR
+
+## explanation_a
+Correct. Cortical nephrons, which have short loops of Henle that barely dip into the outer medulla, make up about 85 percent of nephrons and are the ones chiefly credited with renal autoregulation of blood flow and GFR via their well-developed juxtaglomerular apparatus and myogenic/tubuloglomerular feedback responses. Their glomeruli and juxtaglomerular apparatus sit near the corticomedullary junction, where autoregulatory feedback signaling is most active. This functional division of labor contrasts with juxtamedullary nephrons, whose long loops instead specialize in generating the medullary concentration gradient.
+
+## answer_b
+They are chiefly responsible for generating the medullary osmotic gradient that concentrates urine
+
+## explanation_b
+Incorrect. Generating the medullary osmotic gradient that concentrates urine is the specialized role of juxtamedullary nephrons, with their long loops of Henle and closely associated vasa recta, not of cortical nephrons.
+
+## answer_c
+They possess the longest loops of Henle in the kidney
+
+## explanation_c
+Incorrect. Juxtamedullary nephrons, not cortical nephrons, have the longest loops of Henle, penetrating deep into the medulla; cortical nephron loops are short.
+
+## answer_d
+They are the only nephrons that contain a glomerulus
+
+## explanation_d
+Incorrect. Every nephron, cortical or juxtamedullary, contains a glomerulus; the distinction between the two nephron types is based on the location of the glomerulus and the length of the loop of Henle, not the presence of a glomerulus.
+
+## topic
+Renal physiology
+
+## subtopic
+Renal autoregulation
+
+## main_concept
+CON-REN-37C6FBF5017607
+
+## concept_ids
+CON-REN-37C6FBF5017607
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Renal autoregulation
+
+## question_only_for
+
+## library_ids
+ART-REN-ASU-UG-CORTICAL-NEPHRONS-ARE-CHIEFLY-RESPONSIBLE-FOR-RENAL-AUTOREGULATION-OF-BLOOD-FLOW-AND-GFR
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## learning_objective
+Cortical nephrons, with their short loops of Henle, are chiefly responsible for renal autoregulation of blood flow and GFR
+
+## source_citation
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ ("MCQs - Urogenital Assessment 1 MCQ.pdf"), Physio Q23.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q23
+asu: ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q23
+
+---
+
+# Item
+
+## id
+QST-ASUUG-ASS1MCQ-Q24
+
+## title
+Which of the following is a characteristic feature of the renal medullary circulation?
+
+## question
+Which of the following is a characteristic feature of the renal medullary circulation?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Sluggish (slow) blood flow through the vasa recta
+
+## explanation_a
+Correct. The vasa recta, the specialized peritubular capillaries that dip alongside the loops of Henle into the medulla, carry a deliberately sluggish, low blood flow, only a small fraction of total renal blood flow. This slow flow, combined with their hairpin countercurrent arrangement, is exactly what allows them to act as passive countercurrent exchangers, taking up water and solute without washing out the hyperosmotic medullary interstitium. Faster flow would progressively dissipate the gradient that the loop of Henle works to establish.
+
+## answer_b
+The vasa recta receive the majority (about 90 percent) of total renal blood flow
+
+## explanation_b
+Incorrect. The vasa recta receive only a small fraction, not the majority, of total renal blood flow; the bulk of renal blood flow perfuses the cortex, which needs high flow to support glomerular filtration.
+
+## answer_c
+Vasa recta blood flow is driven by active pumping of the medullary capillary walls
+
+## explanation_c
+Incorrect. Vasa recta exchange is entirely passive, driven by diffusion and osmotic/hydrostatic gradients between the descending and ascending limbs, not active pumping by the capillary wall.
+
+## answer_d
+Vasa recta flow rate has no bearing on the medullary concentration gradient
+
+## explanation_d
+Incorrect. The vasa recta's sluggish flow is directly responsible for preserving the medullary concentration gradient; faster flow would wash out the gradient and impair the kidney's ability to concentrate urine.
+
+## topic
+Renal physiology
+
+## subtopic
+Urine concentration
+
+## main_concept
+CON-REN-28020ABF058699
+
+## concept_ids
+CON-REN-28020ABF058699
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physio > Urine concentration
+
+## question_only_for
+
+## library_ids
+ART-REN-ASU-UG-VASA-RECTA-CARRY-A-SLUGGISH-LOW-BLOOD-FLOW-PRESERVING-THE-MEDULLARY-OSMOTIC-GRADIENT
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## learning_objective
+The vasa recta carry a sluggish, low blood flow, which helps preserve the medullary interstitial osmotic gradient
+
+## source_citation
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ ("MCQs - Urogenital Assessment 1 MCQ.pdf"), Physio Q24.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Physio Q24
+asu: ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q24
+
+---
+
+# Item
+
+## id
+QST-ASUUG-ASS1MCQ-MICRO-Q01
+
+## title
+In which of the following patient groups is treatment of asymptomatic bacteriuria specifically indicated?
+
+## question
+In which of the following patient groups is treatment of asymptomatic bacteriuria specifically indicated?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Neutropenic patients
+
+## explanation_a
+Correct. Treatment of asymptomatic bacteriuria is reserved for specific high-risk groups in whom untreated bacteriuria carries a meaningful risk of progressing to serious infection, including pregnant women, patients undergoing an invasive urologic procedure, and neutropenic or otherwise significantly immunosuppressed patients, who lack the normal inflammatory response needed to contain a urinary infection. In neutropenic patients, an unaddressed bacteriuria can progress rapidly to bacteremia and sepsis because of the impaired neutrophil-mediated defense. Screening and treating asymptomatic bacteriuria in this group is therefore standard practice, unlike in the general population.
+
+## answer_b
+Healthy premenopausal, non-pregnant women
+
+## explanation_b
+Incorrect. Asymptomatic bacteriuria in healthy, non-pregnant premenopausal women is not treated; screening and treatment in this group provides no benefit and only promotes antibiotic resistance and side effects.
+
+## answer_c
+Elderly patients with long-term indwelling catheters who are otherwise asymptomatic
+
+## explanation_c
+Incorrect. Asymptomatic bacteriuria is expected and near-universal in long-term catheterized patients; guidelines specifically recommend against screening or treating it in this group unless the patient becomes symptomatic.
+
+## answer_d
+Diabetic patients with well-controlled blood glucose and no urinary symptoms
+
+## explanation_d
+Incorrect. Diabetes alone, without pregnancy, immunosuppression, or an upcoming urologic procedure, is not by itself an indication to treat asymptomatic bacteriuria in current guidelines.
+
+## topic
+Medical microbiology
+
+## subtopic
+Urinary tract infection
+
+## main_concept
+CON-INF-9013811BFECF82
+
+## concept_ids
+CON-INF-9013811BFECF82
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Urinary tract infection
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-ASYMPTOMATIC-BACTERIURIA-TREATMENT-IS-INDICATED-IN-NEUTROPENIC-PATIENTS
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## learning_objective
+Treatment of asymptomatic bacteriuria is indicated in neutropenic patients, unlike the general non-pregnant population
+
+## source_citation
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ ("MCQs - Urogenital Assessment 1 MCQ.pdf"), Micro Q1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q1
+asu: ASU-UG MCQs - Urogenital Assessment 1 MCQ, Micro Q1
+
+---
+
+# Item
+
+## id
+QST-ASUUG-ASS1MCQ-MICRO-Q02
+
+## title
+Which of the following pigments is characteristically produced by Pseudomonas aeruginosa in culture?
+
+## question
+Which of the following pigments is characteristically produced by Pseudomonas aeruginosa in culture?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Pyocyanin (a blue-green pigment)
+
+## explanation_a
+Correct. Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green, water-soluble pigment (along with the yellow-green fluorescent pigment pyoverdine), which diffuses into the surrounding culture medium and gives infected wounds, sputum, or urine a distinctive blue-green color. This pigment production, together with a grape-like or corn-tortilla-like odor and oxidase positivity, is a classic bedside and laboratory clue to Pseudomonas infection. Pyocyanin also has redox activity that contributes to the organism's virulence by generating reactive oxygen species in host tissue.
+
+## answer_b
+Prodigiosin (a red pigment produced by Serratia marcescens)
+
+## explanation_b
+Incorrect. Prodigiosin is the characteristic red pigment of Serratia marcescens, an unrelated gram-negative organism, not Pseudomonas.
+
+## answer_c
+Violacein (a purple pigment produced by Chromobacterium violaceum)
+
+## explanation_c
+Incorrect. Violacein is a purple pigment produced by Chromobacterium violaceum, a distinct and much rarer gram-negative organism, not Pseudomonas.
+
+## answer_d
+Bilirubin-derived brown pigmentation
+
+## explanation_d
+Incorrect. Brown pigmentation from bilirubin breakdown is not a recognized culture characteristic of Pseudomonas aeruginosa.
+
+## topic
+Medical microbiology
+
+## subtopic
+Gram-negative organism identification
+
+## main_concept
+CON-INF-B1C5AF91290C33
+
+## concept_ids
+CON-INF-B1C5AF91290C33
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Gram-negative organism identification
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-PSEUDOMONAS-AERUGINOSA-CHARACTERISTICALLY-PRODUCES-PYOCYANIN-A-BLUE-GREEN-PIGMENT
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## learning_objective
+Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture
+
+## source_citation
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ ("MCQs - Urogenital Assessment 1 MCQ.pdf"), Micro Q2.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q2
+asu: ASU-UG MCQs - Urogenital Assessment 1 MCQ, Micro Q2
+
+---
+
+# Item
+
+## id
+QST-ASUUG-ASS1MCQ-MICRO-Q03
+
+## title
+"Honeymoon cystitis" (acute cystitis related to recent sexual intercourse) caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to which organism?
+
+## question
+"Honeymoon cystitis" (acute cystitis related to recent sexual intercourse) caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to which organism?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Escherichia coli
+
+## explanation_a
+Correct. "Honeymoon cystitis" refers to acute uncomplicated cystitis precipitated by sexual intercourse, which can introduce periurethral bacteria into the bladder; Escherichia coli, a gram-negative, lactose-fermenting bacillus that is intrinsically resistant to penicillin via beta-lactamase and outer-membrane permeability barriers, is by far the leading cause of this presentation, as it is for uncomplicated UTI generally. Its fimbriae allow it to adhere to uroepithelium, and its lactose-fermenting, gram-negative morphology on culture is a standard identifying feature distinguishing it from other uropathogens. This combination of clinical context and organism characteristics is a classic exam pairing.
+
+## answer_b
+Staphylococcus saprophyticus
+
+## explanation_b
+Incorrect. Staphylococcus saprophyticus is a gram-positive coccus, not a gram-negative, lactose-fermenting bacillus, even though it is also a recognized cause of cystitis in young sexually active women.
+
+## answer_c
+Enterococcus faecalis
+
+## explanation_c
+Incorrect. Enterococcus faecalis is a gram-positive coccus, not a gram-negative bacillus, so it does not match the described organism morphology.
+
+## answer_d
+Neisseria gonorrhoeae
+
+## explanation_d
+Incorrect. Neisseria gonorrhoeae is a gram-negative diplococcus, not a bacillus, and does not ferment lactose; it causes urethritis/cervicitis rather than this classic cystitis picture.
+
+## topic
+Medical microbiology
+
+## subtopic
+Urinary tract infection
+
+## main_concept
+CON-INF-F1F329D64ACDD3
+
+## concept_ids
+CON-INF-F1F329D64ACDD3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Urinary tract infection
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-HONEYMOON-CYSTITIS-GRAM-NEGATIVE-LACTOSE-FERMENTING-PENICILLIN-RESISTANT-BACILLUS-IS-E-COLI
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## learning_objective
+Honeymoon cystitis caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to Escherichia coli
+
+## source_citation
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ ("MCQs - Urogenital Assessment 1 MCQ.pdf"), Micro Q3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q3
+asu: ASU-UG MCQs - Urogenital Assessment 1 MCQ, Micro Q3
+
+---
+
+# Item
+
+## id
+QST-ASUUG-ASS1MCQ-MICRO-Q04
+
+## title
+Which of the following correctly characterizes Proteus vulgaris, in contrast to Proteus mirabilis?
+
+## question
+Which of the following correctly characterizes Proteus vulgaris, in contrast to Proteus mirabilis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It is indole-positive and tends to be more antibiotic-resistant
+
+## explanation_a
+Correct. Proteus vulgaris is indole-positive, which distinguishes it biochemically from the far more common Proteus mirabilis (indole-negative), and it also tends to be more broadly antibiotic-resistant than P. mirabilis. Like other Proteus species it is strongly urease-positive, predisposing to struvite (infection) stone formation and alkaline urine, and displays swarming motility on culture. Correctly separating P. vulgaris from P. mirabilis by the indole test is a classic microbiology identification point.
+
+## answer_b
+It is indole-negative and uniformly antibiotic-susceptible
+
+## explanation_b
+Incorrect. Indole-negative is the characteristic of Proteus mirabilis, not Proteus vulgaris, which is indole-positive; and P. vulgaris is not uniformly antibiotic-susceptible.
+
+## answer_c
+It is a gram-positive organism, unlike Proteus mirabilis
+
+## explanation_c
+Incorrect. Proteus vulgaris is a gram-negative bacillus, like all Proteus species, not gram-positive.
+
+## answer_d
+It does not cause urinary tract infection or produce urease
+
+## explanation_d
+Incorrect. Proteus vulgaris is a recognized, urease-producing cause of urinary tract infection, notably associated with struvite stone formation, not an organism unrelated to the urinary tract.
+
+## topic
+Medical microbiology
+
+## subtopic
+Gram-negative organism identification
+
+## main_concept
+CON-INF-9C655838ACE8D6
+
+## concept_ids
+CON-INF-9C655838ACE8D6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Gram-negative organism identification
+
+## question_only_for
+
+## library_ids
+ART-INF-ASU-UG-PROTEUS-VULGARIS-IS-INDOLE-POSITIVE-AND-MORE-ANTIBIOTIC-RESISTANT-THAN-P-MIRABILIS
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## learning_objective
+Proteus vulgaris is indole-positive and tends to be more antibiotic-resistant than Proteus mirabilis
+
+## source_citation
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ ("MCQs - Urogenital Assessment 1 MCQ.pdf"), Micro Q4.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed key, Micro Q4
+asu: ASU-UG MCQs - Urogenital Assessment 1 MCQ, Micro Q4

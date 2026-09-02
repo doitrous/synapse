@@ -84,6 +84,7 @@ CON-FND-1BDE17C32CCA90
 CON-FND-1279B32B88E95E
 CON-FND-5EB3B72491F48A
 CON-FND-9C85BB5B7D191A
+CON-INF-0DECACE4000EC0
 
 ## included_articles
 ART-AND-ASU-UG-DEEP-PERINEAL-POUCH-CONTENTS-BULB-EXCLUSION
@@ -126,6 +127,7 @@ ART-FND-ASU-UG-PDE5-INHIBITOR-PDE6-VISUAL-DISTURBANCE
 ART-FND-ASU-UG-RALOXIFENE-SERM-POSTMENOPAUSAL-OSTEOPOROSIS
 ART-FND-ASU-UG-TADALAFIL-NITRATE-CONTRAINDICATION
 ART-FND-ASU-UG-OCP-ESTROGEN-COMPONENT-BREAST-CANCER-RISK
+ART-INF-ASU-UG-MATERNAL-PARVOVIRUS-B19-INFECTION-CAUSES-NON-IMMUNE-FETAL-HYDROPS-VIA-ERYTHROID-SUPPRESSION
 
 ## concept_locations
 CON-AND-9FD7AADA004CB0 | page | 1
@@ -168,6 +170,7 @@ CON-FND-1BDE17C32CCA90 | page | pharma-5
 CON-FND-1279B32B88E95E | page | pharma-6
 CON-FND-5EB3B72491F48A | page | pharma-7
 CON-FND-9C85BB5B7D191A | page | pharma-8
+CON-INF-0DECACE4000EC0 | page | Micro Q15
 
 ## universities
 asu
@@ -176,4 +179,4 @@ asu
 ASU_Y3
 
 ## description
-Native-text, undated (2018/19/20 sitting) 13-page ASU Year 3 Urogenital EOM Final 2 MCQ compilation (127 items across 7 subject blocks: Anatomy, Pharma, Histo, Physio, Patho, Micro, Para; embedded-answer format, no printed distractors). This resource row covers the 40 items minted from the Anatomy (31) and Pharma (9) blocks; this batch authors its own distractors. Two further Anatomy-block facts (Q18, Q23) duplicate existing live concepts and are covered by a pending-live overlay instead. This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.
+Native-text, undated (2018/19/20 sitting) 13-page ASU Year 3 Urogenital EOM Final 2 MCQ compilation. Real item count is 125, not the ~127-128 earlier estimated (Histo's and Physio's printed numbering each skip a couple of item numbers that were never printed at all, not unread content — see coverage/ASU-UG-triage-keys.txt's 2026-09-02 correction note), across 7 subject blocks: Anatomy (33), Pharma (9), Histo (11), Physio (19), Micro (21), Para (4), Patho (28). This resource row's `included_concepts`/`included_articles` lists were only ever populated for the 41-item Anatomy+Pharma slice minted by the first cluster batch (this batch authors its own distractors); later batches (Histo/Physio/Patho/Micro/Para, and this lane's Anatomy Q18/Q23 questions plus the Micro Q15 concept CON-INF-0DECACE4000EC0/ART-INF-...-ERYTHROID-SUPPRESSION added here) exist in the paired question/concept/article files but were never backfilled into this row's own lists — flagged for chief-of-staff, out of this lane's scope to fully reconcile. Two Anatomy-block facts (Q18, Q23) duplicate existing live concepts and are covered by a pending-live overlay instead of a mint; this lane (asu-ug-author5) authored the two corresponding questions, which had never been written despite the overlay existing. This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.

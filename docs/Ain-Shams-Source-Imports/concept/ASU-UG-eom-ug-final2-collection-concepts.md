@@ -19247,3 +19247,160 @@ authored_from_local_exam_bank_needs_independent_evidence
 arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
 arabicAliases: No reviewed Arabic aliases were supplied.
 asu: Tested as Patho Q28 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Maternal parvovirus B19 infection in the first half of pregnancy is a classic cause of non-immune fetal hydrops via suppression of fetal erythropoiesis
+
+## id
+CON-INF-0DECACE4000EC0
+
+## canonical_key
+maternal-parvovirus-b19-infection-in-the-first-half-of-pregnancy-is-a-classic-cause-of-non-immune-fetal-hydrop
+
+## definition
+Maternal parvovirus B19 infection in the first half of pregnancy is a classic cause of non-immune fetal hydrops via suppression of fetal erythropoiesis.
+
+## explicit_objective
+State that maternal parvovirus B19 infection in the first half of pregnancy is a classic cause of non-immune fetal hydrops via suppression of fetal erythropoiesis.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+inf
+
+## primary_node_id
+SYS-OBS-T06-S02-M03
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Perinatal infection
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## confidence
+0.85
+
+## topic
+Medical microbiology
+
+## subtopic
+Perinatal infection
+
+## microtopic
+
+## nanotopic
+
+## aliases
+Which of the following organisms is a classic cause of non-immune fetal hydrops when a pregnant woman is infected in the first half of pregnancy?
+
+## pitfalls
+Attributing non-immune fetal hydrops to congenital rubella or CMV, whose classic teaching associations are structural/neurologic defects (cardiac defects, cataracts, deafness for rubella; periventricular calcifications and microcephaly for CMV) rather than anemia-driven hydrops.
+
+## article_ids
+ART-INF-ASU-UG-MATERNAL-PARVOVIRUS-B19-INFECTION-CAUSES-NON-IMMUNE-FETAL-HYDROPS-VIA-ERYTHROID-SUPPRESSION
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Micro Q15, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent microbiology/obstetrics textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+## related_article_ids
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-INF-ASU-UG-MATERNAL-PARVOVIRUS-B19-INFECTION-CAUSES-NON-IMMUNE-FETAL-HYDROPS-VIA-ERYTHROID-SUPPRESSION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Micro Q15 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff, 2018/19/20 sitting), embedded-answer format, no printed distractors — this batch authors its own.

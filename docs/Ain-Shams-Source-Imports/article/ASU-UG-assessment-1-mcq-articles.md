@@ -8311,3 +8311,1515 @@ src_fe15375a2ac623537954
 
 ## article_source_ids
 src_fe15375a2ac623537954
+
+---
+
+# Item
+
+## id
+ART-REN-ASU-UG-RENAL-BLOOD-FLOW-AUTOREGULATION-KEEPS-FLOW-RELATIVELY-CONSTANT-80-180-MMHG
+
+## title
+Renal blood flow autoregulation keeps flow relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg
+
+## arabic_title
+
+## aliases
+Renal blood flow remains relatively constant (autoregulated) across which range of mean arterial pressure (MAP)?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Renal physiology
+
+## subtopic
+Renal autoregulation
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+SYS-REN-T01-S02-M01
+
+## secondary_node_ids
+DIS-PHY-T04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Renal autoregulation
+
+## summary
+Renal blood flow autoregulation keeps flow relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg.
+
+## sections
+### Definition
+Renal blood flow autoregulation keeps flow relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg.
+
+### Mechanism
+Renal blood flow and GFR are autoregulated to remain relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg, mainly through myogenic and tubuloglomerular feedback mechanisms acting on the afferent arteriole. Within this range, a rise in perfusion pressure triggers afferent arteriolar constriction (and a fall triggers dilation), keeping glomerular capillary pressure and flow nearly steady despite swings in systemic pressure. This protects the kidney's filtration function from ordinary fluctuations in blood pressure during daily activity.
+
+### Key determinants
+Below approximately 80 mmHg, autoregulatory mechanisms are exhausted and renal blood flow begins to fall in parallel with pressure; above approximately 180 mmHg, sustained pressure exceeds the myogenic mechanism's compensatory capacity.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming autoregulation holds at any blood pressure rather than only within its bounded 80-180 mmHg range, or that it operates through a single fixed pressure rather than a range.
+
+## hold_these
+Renal blood flow autoregulation keeps flow relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg.
+
+## lose_the_mark
+Assuming autoregulation holds at any blood pressure rather than only within its bounded 80-180 mmHg range, or that it operates through a single fixed pressure rather than a range.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ, native-text PDF, source id src_fe15375a2ac623537954, Physio Q1.
+
+## evidence_gaps
+Independent physiology textbook reference (e.g. Guyton and Hall Textbook of Medical Physiology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## notes
+ASU-UG batch (lane asu-ug-author5). No OCR, web source, or outside fact was used beyond standard teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+## related_articles
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## article_source_ids
+src_fe15375a2ac623537954
+
+## claim_ids
+CLM-REN-ASU-UG-RENAL-BLOOD-FLOW-AUTOREGULATION-KEEPS-FLOW-RELATIVELY-CONSTANT-80-180-MMHG-01
+
+## span_ids
+SPN-REN-ASU-UG-RENAL-BLOOD-FLOW-AUTOREGULATION-KEEPS-FLOW-RELATIVELY-CONSTANT-80-180-MMHG-01
+
+## annotations
+### definition_of · CON-REN-8FFFA00C8526BF
+Quote: Renal blood flow autoregulation keeps flow relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg.
+Block: body
+Id: ann-renal-asu-ug-renal-blood-flow-autoregulation-keeps-flow-relatively-constant-80-180-mmhg-001
+
+## callout_evidence
+
+## question_ids
+
+## media
+
+## published_summary
+
+## published_sections
+
+## conflicts
+
+## university_notes
+asu: Tested as Physio Q1 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+
+## id
+ART-REN-ASU-UG-PCT-COMPLETELY-REABSORBS-GLUCOSE-AMINO-ACIDS-AND-FILTERED-PROTEIN-UNDER-NORMAL-LOADS
+
+## title
+The proximal convoluted tubule normally reabsorbs essentially all filtered glucose and amino acids, and virtually all filtered protein via receptor-mediated endocytosis
+
+## arabic_title
+
+## aliases
+Which of the following is completely reabsorbed in the proximal convoluted tubule (PCT) under normal physiological conditions?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Renal physiology
+
+## subtopic
+Tubular transport
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+SYS-REN-T01-S02-M02
+
+## secondary_node_ids
+DIS-PHY-T04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Tubular transport
+
+## summary
+The proximal convoluted tubule normally reabsorbs essentially all filtered glucose and amino acids, and virtually all filtered protein via receptor-mediated endocytosis.
+
+## sections
+### Definition
+The proximal convoluted tubule normally reabsorbs essentially all filtered glucose and amino acids, and virtually all filtered protein via receptor-mediated endocytosis.
+
+### Mechanism
+Under normal filtered loads, the proximal convoluted tubule reabsorbs essentially all filtered glucose and amino acids via specific sodium-coupled cotransporters, and it also reclaims virtually all of the small amount of protein that is filtered, through receptor-mediated endocytosis. This near-complete reabsorption is why glucose and amino acids are normally absent from the final urine despite being freely filtered at the glomerulus. It also explains why even modest glomerular or tubular protein leak is clinically significant, since the PCT's endocytic capacity for protein is a finite, saturable process.
+
+### Key determinants
+Glucose and amino acid reabsorption depend on adequate Na+-coupled transporter expression and a filtered load below the renal threshold; protein reabsorption depends on an intact, non-saturated endocytic pathway in proximal tubule cells.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming filtered protein is reabsorbed the same way as glucose and amino acids (Na+-coupled cotransport) rather than by a separate, saturable receptor-mediated endocytic pathway.
+
+## hold_these
+The proximal convoluted tubule normally reabsorbs essentially all filtered glucose and amino acids, and virtually all filtered protein via receptor-mediated endocytosis.
+
+## lose_the_mark
+Assuming filtered protein is reabsorbed the same way as glucose and amino acids (Na+-coupled cotransport) rather than by a separate, saturable receptor-mediated endocytic pathway.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ, native-text PDF, source id src_fe15375a2ac623537954, Physio Q4.
+
+## evidence_gaps
+Independent physiology textbook reference (e.g. Guyton and Hall Textbook of Medical Physiology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## notes
+ASU-UG batch (lane asu-ug-author5). No OCR, web source, or outside fact was used beyond standard teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+## related_articles
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## article_source_ids
+src_fe15375a2ac623537954
+
+## claim_ids
+CLM-REN-ASU-UG-PCT-COMPLETELY-REABSORBS-GLUCOSE-AMINO-ACIDS-AND-FILTERED-PROTEIN-UNDER-NORMAL-LOADS-01
+
+## span_ids
+SPN-REN-ASU-UG-PCT-COMPLETELY-REABSORBS-GLUCOSE-AMINO-ACIDS-AND-FILTERED-PROTEIN-UNDER-NORMAL-LOADS-01
+
+## annotations
+### definition_of · CON-REN-BD2B91AB53E5B6
+Quote: The proximal convoluted tubule normally reabsorbs essentially all filtered glucose and amino acids, and virtually all filtered protein via receptor-mediated endocytosis.
+Block: body
+Id: ann-renal-asu-ug-pct-completely-reabsorbs-glucose-amino-acids-and-filtered-protein-under-normal-loads-001
+
+## callout_evidence
+
+## question_ids
+
+## media
+
+## published_summary
+
+## published_sections
+
+## conflicts
+
+## university_notes
+asu: Tested as Physio Q4 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+
+## id
+ART-REN-ASU-UG-ECF-OSMOLARITY-300-REFLECTS-OSMOTIC-EQUILIBRIUM-BETWEEN-ECF-AND-ICF
+
+## title
+An extracellular fluid osmolarity of approximately 300 mOsm/L reflects osmotic equilibrium between the extracellular and intracellular fluid compartments
+
+## arabic_title
+
+## aliases
+An extracellular fluid (ECF) osmolarity of approximately 300 mOsm/L indicates which of the following?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Renal physiology
+
+## subtopic
+Water balance
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+SYS-REN-T01-S02-M03
+
+## secondary_node_ids
+DIS-PHY-T04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Water balance
+
+## summary
+An extracellular fluid osmolarity of approximately 300 mOsm/L reflects osmotic equilibrium between the extracellular and intracellular fluid compartments.
+
+## sections
+### Definition
+An extracellular fluid osmolarity of approximately 300 mOsm/L reflects osmotic equilibrium between the extracellular and intracellular fluid compartments.
+
+### Mechanism
+Because cell membranes are freely permeable to water, water moves rapidly across them until osmotic equilibrium is reached; at steady state the osmolarity of the extracellular fluid and intracellular fluid are equal, both approximately 275 to 295 (commonly rounded to ~300) mOsm/L. An ECF osmolarity in this normal range therefore reflects an intracellular fluid that is in osmotic equilibrium with it, not a state of active fluid shift. This is the baseline against which clinical disturbances such as hyponatremia, hypernatremia, and dehydration are recognized as deviations.
+
+### Key determinants
+Osmotic equilibrium requires free water permeability across cell membranes and normally-functioning osmoreceptor/ADH regulation to keep the two compartments' osmolarities matched.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Mistaking a normal ECF osmolarity value (~275-295, commonly rounded to ~300 mOsm/L) for a hypertonic or pathological state, rather than recognizing it as the normal equilibrium value shared with the intracellular compartment.
+
+## hold_these
+An extracellular fluid osmolarity of approximately 300 mOsm/L reflects osmotic equilibrium between the extracellular and intracellular fluid compartments.
+
+## lose_the_mark
+Mistaking a normal ECF osmolarity value (~275-295, commonly rounded to ~300 mOsm/L) for a hypertonic or pathological state, rather than recognizing it as the normal equilibrium value shared with the intracellular compartment.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ, native-text PDF, source id src_fe15375a2ac623537954, Physio Q8.
+
+## evidence_gaps
+Independent physiology textbook reference (e.g. Guyton and Hall Textbook of Medical Physiology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## notes
+ASU-UG batch (lane asu-ug-author5). No OCR, web source, or outside fact was used beyond standard teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+## related_articles
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## article_source_ids
+src_fe15375a2ac623537954
+
+## claim_ids
+CLM-REN-ASU-UG-ECF-OSMOLARITY-300-REFLECTS-OSMOTIC-EQUILIBRIUM-BETWEEN-ECF-AND-ICF-01
+
+## span_ids
+SPN-REN-ASU-UG-ECF-OSMOLARITY-300-REFLECTS-OSMOTIC-EQUILIBRIUM-BETWEEN-ECF-AND-ICF-01
+
+## annotations
+### definition_of · CON-REN-8762DE8DDC1433
+Quote: An extracellular fluid osmolarity of approximately 300 mOsm/L reflects osmotic equilibrium between the extracellular and intracellular fluid compartments.
+Block: body
+Id: ann-renal-asu-ug-ecf-osmolarity-300-reflects-osmotic-equilibrium-between-ecf-and-icf-001
+
+## callout_evidence
+
+## question_ids
+
+## media
+
+## published_summary
+
+## published_sections
+
+## conflicts
+
+## university_notes
+asu: Tested as Physio Q8 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+
+## id
+ART-REN-ASU-UG-CORTICAL-NEPHRONS-ARE-CHIEFLY-RESPONSIBLE-FOR-RENAL-AUTOREGULATION-OF-BLOOD-FLOW-AND-GFR
+
+## title
+Cortical nephrons, with their short loops of Henle, are chiefly responsible for renal autoregulation of blood flow and GFR
+
+## arabic_title
+
+## aliases
+Which functional role is most characteristic of cortical nephrons, as distinct from juxtamedullary nephrons?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Renal physiology
+
+## subtopic
+Renal autoregulation
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+SYS-REN-T01-S02-M01
+
+## secondary_node_ids
+DIS-PHY-T04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Renal autoregulation
+
+## summary
+Cortical nephrons, with their short loops of Henle, are chiefly responsible for renal autoregulation of blood flow and GFR.
+
+## sections
+### Definition
+Cortical nephrons, with their short loops of Henle, are chiefly responsible for renal autoregulation of blood flow and GFR.
+
+### Mechanism
+Cortical nephrons, which have short loops of Henle that barely dip into the outer medulla, make up about 85 percent of nephrons and are the ones chiefly credited with renal autoregulation of blood flow and GFR via their well-developed juxtaglomerular apparatus and myogenic/tubuloglomerular feedback responses. Their glomeruli and juxtaglomerular apparatus sit near the corticomedullary junction, where autoregulatory feedback signaling is most active. This functional division of labor contrasts with juxtamedullary nephrons, whose long loops instead specialize in generating the medullary concentration gradient.
+
+### Key determinants
+The short loop of Henle and cortically-located juxtaglomerular apparatus give cortical nephrons ready access to the afferent arteriole and macula densa signaling needed for autoregulatory feedback.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Confusing the functional roles of cortical nephrons (autoregulation, via their juxtaglomerular apparatus near the corticomedullary junction) and juxtamedullary nephrons (urine concentration, via their long loops of Henle and vasa recta).
+
+## hold_these
+Cortical nephrons, with their short loops of Henle, are chiefly responsible for renal autoregulation of blood flow and GFR.
+
+## lose_the_mark
+Confusing the functional roles of cortical nephrons (autoregulation, via their juxtaglomerular apparatus near the corticomedullary junction) and juxtamedullary nephrons (urine concentration, via their long loops of Henle and vasa recta).
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ, native-text PDF, source id src_fe15375a2ac623537954, Physio Q23.
+
+## evidence_gaps
+Independent physiology textbook reference (e.g. Guyton and Hall Textbook of Medical Physiology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## notes
+ASU-UG batch (lane asu-ug-author5). No OCR, web source, or outside fact was used beyond standard teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+## related_articles
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## article_source_ids
+src_fe15375a2ac623537954
+
+## claim_ids
+CLM-REN-ASU-UG-CORTICAL-NEPHRONS-ARE-CHIEFLY-RESPONSIBLE-FOR-RENAL-AUTOREGULATION-OF-BLOOD-FLOW-AND-GFR-01
+
+## span_ids
+SPN-REN-ASU-UG-CORTICAL-NEPHRONS-ARE-CHIEFLY-RESPONSIBLE-FOR-RENAL-AUTOREGULATION-OF-BLOOD-FLOW-AND-GFR-01
+
+## annotations
+### definition_of · CON-REN-37C6FBF5017607
+Quote: Cortical nephrons, with their short loops of Henle, are chiefly responsible for renal autoregulation of blood flow and GFR.
+Block: body
+Id: ann-renal-asu-ug-cortical-nephrons-are-chiefly-responsible-for-renal-autoregulation-of-blood-flow-and-gfr-001
+
+## callout_evidence
+
+## question_ids
+
+## media
+
+## published_summary
+
+## published_sections
+
+## conflicts
+
+## university_notes
+asu: Tested as Physio Q23 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+
+## id
+ART-REN-ASU-UG-VASA-RECTA-CARRY-A-SLUGGISH-LOW-BLOOD-FLOW-PRESERVING-THE-MEDULLARY-OSMOTIC-GRADIENT
+
+## title
+The vasa recta carry a sluggish, low blood flow, which helps preserve the medullary interstitial osmotic gradient
+
+## arabic_title
+
+## aliases
+Which of the following is a characteristic feature of the renal medullary circulation?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Renal physiology
+
+## subtopic
+Urine concentration
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+SYS-REN-T01-S02-M03
+
+## secondary_node_ids
+DIS-PHY-T04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Physio > Urine concentration
+
+## summary
+The vasa recta carry a sluggish, low blood flow, which helps preserve the medullary interstitial osmotic gradient.
+
+## sections
+### Definition
+The vasa recta carry a sluggish, low blood flow, which helps preserve the medullary interstitial osmotic gradient.
+
+### Mechanism
+The vasa recta, the specialized peritubular capillaries that dip alongside the loops of Henle into the medulla, carry a deliberately sluggish, low blood flow, only a small fraction of total renal blood flow. This slow flow, combined with their hairpin countercurrent arrangement, is exactly what allows them to act as passive countercurrent exchangers, taking up water and solute without washing out the hyperosmotic medullary interstitium. Faster flow would progressively dissipate the gradient that the loop of Henle works to establish.
+
+### Key determinants
+The countercurrent hairpin arrangement of descending and ascending vasa recta limbs, combined with low flow, is what limits net solute washout from the medullary interstitium.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming faster vasa recta flow would be more efficient, when in fact the deliberately sluggish flow is what protects the medullary gradient from being washed out.
+
+## hold_these
+The vasa recta carry a sluggish, low blood flow, which helps preserve the medullary interstitial osmotic gradient.
+
+## lose_the_mark
+Assuming faster vasa recta flow would be more efficient, when in fact the deliberately sluggish flow is what protects the medullary gradient from being washed out.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ, native-text PDF, source id src_fe15375a2ac623537954, Physio Q24.
+
+## evidence_gaps
+Independent physiology textbook reference (e.g. Guyton and Hall Textbook of Medical Physiology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## notes
+ASU-UG batch (lane asu-ug-author5). No OCR, web source, or outside fact was used beyond standard teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+## related_articles
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## article_source_ids
+src_fe15375a2ac623537954
+
+## claim_ids
+CLM-REN-ASU-UG-VASA-RECTA-CARRY-A-SLUGGISH-LOW-BLOOD-FLOW-PRESERVING-THE-MEDULLARY-OSMOTIC-GRADIENT-01
+
+## span_ids
+SPN-REN-ASU-UG-VASA-RECTA-CARRY-A-SLUGGISH-LOW-BLOOD-FLOW-PRESERVING-THE-MEDULLARY-OSMOTIC-GRADIENT-01
+
+## annotations
+### definition_of · CON-REN-28020ABF058699
+Quote: The vasa recta carry a sluggish, low blood flow, which helps preserve the medullary interstitial osmotic gradient.
+Block: body
+Id: ann-renal-asu-ug-vasa-recta-carry-a-sluggish-low-blood-flow-preserving-the-medullary-osmotic-gradient-001
+
+## callout_evidence
+
+## question_ids
+
+## media
+
+## published_summary
+
+## published_sections
+
+## conflicts
+
+## university_notes
+asu: Tested as Physio Q24 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+
+## id
+ART-INF-ASU-UG-ASYMPTOMATIC-BACTERIURIA-TREATMENT-IS-INDICATED-IN-NEUTROPENIC-PATIENTS
+
+## title
+Treatment of asymptomatic bacteriuria is indicated in neutropenic patients, unlike the general non-pregnant population
+
+## arabic_title
+
+## aliases
+In which of the following patient groups is treatment of asymptomatic bacteriuria specifically indicated?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Medical microbiology
+
+## subtopic
+Urinary tract infection
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+SYS-INF-T05-S02-M05
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Urinary tract infection
+
+## summary
+Treatment of asymptomatic bacteriuria is indicated in neutropenic patients, unlike the general non-pregnant population.
+
+## sections
+### Definition
+Treatment of asymptomatic bacteriuria is indicated in neutropenic patients, unlike the general non-pregnant population.
+
+### Mechanism
+Treatment of asymptomatic bacteriuria is reserved for specific high-risk groups in whom untreated bacteriuria carries a meaningful risk of progressing to serious infection, including pregnant women, patients undergoing an invasive urologic procedure, and neutropenic or otherwise significantly immunosuppressed patients, who lack the normal inflammatory response needed to contain a urinary infection. In neutropenic patients, an unaddressed bacteriuria can progress rapidly to bacteremia and sepsis because of the impaired neutrophil-mediated defense. Screening and treating asymptomatic bacteriuria in this group is therefore standard practice, unlike in the general population.
+
+### Key determinants
+The decision to treat asymptomatic bacteriuria depends on the patient's specific risk category (pregnancy, pre-urologic-procedure, or significant immunosuppression such as neutropenia), not on the presence of bacteriuria alone.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming asymptomatic bacteriuria should be treated in every patient (e.g. healthy non-pregnant women or long-term catheterized patients), rather than reserving treatment for specific high-risk groups such as pregnancy, pre-urologic-procedure, and significant immunosuppression.
+
+## hold_these
+Treatment of asymptomatic bacteriuria is indicated in neutropenic patients, unlike the general non-pregnant population.
+
+## lose_the_mark
+Assuming asymptomatic bacteriuria should be treated in every patient (e.g. healthy non-pregnant women or long-term catheterized patients), rather than reserving treatment for specific high-risk groups such as pregnancy, pre-urologic-procedure, and significant immunosuppression.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ, native-text PDF, source id src_fe15375a2ac623537954, Micro Q1.
+
+## evidence_gaps
+Independent microbiology/infectious disease textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## notes
+ASU-UG batch (lane asu-ug-author5). No OCR, web source, or outside fact was used beyond standard teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+## related_articles
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## article_source_ids
+src_fe15375a2ac623537954
+
+## claim_ids
+CLM-INF-ASU-UG-ASYMPTOMATIC-BACTERIURIA-TREATMENT-IS-INDICATED-IN-NEUTROPENIC-PATIENTS-01
+
+## span_ids
+SPN-INF-ASU-UG-ASYMPTOMATIC-BACTERIURIA-TREATMENT-IS-INDICATED-IN-NEUTROPENIC-PATIENTS-01
+
+## annotations
+### definition_of · CON-INF-9013811BFECF82
+Quote: Treatment of asymptomatic bacteriuria is indicated in neutropenic patients, unlike the general non-pregnant population.
+Block: body
+Id: ann-inf-asu-ug-asymptomatic-bacteriuria-treatment-is-indicated-in-neutropenic-patients-001
+
+## callout_evidence
+
+## question_ids
+
+## media
+
+## published_summary
+
+## published_sections
+
+## conflicts
+
+## university_notes
+asu: Tested as Micro Q1 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+
+## id
+ART-INF-ASU-UG-PSEUDOMONAS-AERUGINOSA-CHARACTERISTICALLY-PRODUCES-PYOCYANIN-A-BLUE-GREEN-PIGMENT
+
+## title
+Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture
+
+## arabic_title
+
+## aliases
+Which of the following pigments is characteristically produced by Pseudomonas aeruginosa in culture?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Medical microbiology
+
+## subtopic
+Gram-negative organism identification
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+SYS-INF-T05-S02-M05
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Gram-negative organism identification
+
+## summary
+Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture.
+
+## sections
+### Definition
+Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture.
+
+### Mechanism
+Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green, water-soluble pigment (along with the yellow-green fluorescent pigment pyoverdine), which diffuses into the surrounding culture medium and gives infected wounds, sputum, or urine a distinctive blue-green color. This pigment production, together with a grape-like or corn-tortilla-like odor and oxidase positivity, is a classic bedside and laboratory clue to Pseudomonas infection. Pyocyanin also has redox activity that contributes to the organism's virulence by generating reactive oxygen species in host tissue.
+
+### Key determinants
+Pigment production (pyocyanin, pyoverdine), oxidase positivity, and a characteristic odor together identify Pseudomonas aeruginosa on culture.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Confusing pyocyanin (blue-green, Pseudomonas aeruginosa) with the pigments of unrelated organisms, such as prodigiosin (red, Serratia marcescens) or violacein (purple, Chromobacterium violaceum).
+
+## hold_these
+Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture.
+
+## lose_the_mark
+Confusing pyocyanin (blue-green, Pseudomonas aeruginosa) with the pigments of unrelated organisms, such as prodigiosin (red, Serratia marcescens) or violacein (purple, Chromobacterium violaceum).
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ, native-text PDF, source id src_fe15375a2ac623537954, Micro Q2.
+
+## evidence_gaps
+Independent microbiology textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## notes
+ASU-UG batch (lane asu-ug-author5). No OCR, web source, or outside fact was used beyond standard teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+## related_articles
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## article_source_ids
+src_fe15375a2ac623537954
+
+## claim_ids
+CLM-INF-ASU-UG-PSEUDOMONAS-AERUGINOSA-CHARACTERISTICALLY-PRODUCES-PYOCYANIN-A-BLUE-GREEN-PIGMENT-01
+
+## span_ids
+SPN-INF-ASU-UG-PSEUDOMONAS-AERUGINOSA-CHARACTERISTICALLY-PRODUCES-PYOCYANIN-A-BLUE-GREEN-PIGMENT-01
+
+## annotations
+### definition_of · CON-INF-B1C5AF91290C33
+Quote: Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture.
+Block: body
+Id: ann-inf-asu-ug-pseudomonas-aeruginosa-characteristically-produces-pyocyanin-a-blue-green-pigment-001
+
+## callout_evidence
+
+## question_ids
+
+## media
+
+## published_summary
+
+## published_sections
+
+## conflicts
+
+## university_notes
+asu: Tested as Micro Q2 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+
+## id
+ART-INF-ASU-UG-HONEYMOON-CYSTITIS-GRAM-NEGATIVE-LACTOSE-FERMENTING-PENICILLIN-RESISTANT-BACILLUS-IS-E-COLI
+
+## title
+Honeymoon cystitis (acute cystitis related to recent intercourse) caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to Escherichia coli
+
+## arabic_title
+
+## aliases
+"Honeymoon cystitis" caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to which organism?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Medical microbiology
+
+## subtopic
+Urinary tract infection
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+SYS-INF-T05-S02-M05
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Urinary tract infection
+
+## summary
+Honeymoon cystitis (acute cystitis related to recent intercourse) caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to Escherichia coli.
+
+## sections
+### Definition
+Honeymoon cystitis (acute cystitis related to recent intercourse) caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to Escherichia coli.
+
+### Mechanism
+"Honeymoon cystitis" refers to acute uncomplicated cystitis precipitated by sexual intercourse, which can introduce periurethral bacteria into the bladder; Escherichia coli, a gram-negative, lactose-fermenting bacillus that is intrinsically resistant to penicillin via beta-lactamase and outer-membrane permeability barriers, is by far the leading cause of this presentation, as it is for uncomplicated UTI generally. Its fimbriae allow it to adhere to uroepithelium, and its lactose-fermenting, gram-negative morphology on culture is a standard identifying feature distinguishing it from other uropathogens. This combination of clinical context and organism characteristics is a classic exam pairing.
+
+### Key determinants
+Gram-negative morphology, lactose fermentation on culture media, and intrinsic penicillin resistance together point to E. coli over gram-positive uropathogens such as S. saprophyticus or E. faecalis.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Attributing this classic gram-negative, lactose-fermenting bacillus presentation to a gram-positive organism such as Staphylococcus saprophyticus or Enterococcus faecalis, which are also recognized causes of cystitis but do not match the described morphology.
+
+## hold_these
+Honeymoon cystitis (acute cystitis related to recent intercourse) caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to Escherichia coli.
+
+## lose_the_mark
+Attributing this classic gram-negative, lactose-fermenting bacillus presentation to a gram-positive organism such as Staphylococcus saprophyticus or Enterococcus faecalis, which are also recognized causes of cystitis but do not match the described morphology.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ, native-text PDF, source id src_fe15375a2ac623537954, Micro Q3.
+
+## evidence_gaps
+Independent microbiology textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## notes
+ASU-UG batch (lane asu-ug-author5). No OCR, web source, or outside fact was used beyond standard teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+## related_articles
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## article_source_ids
+src_fe15375a2ac623537954
+
+## claim_ids
+CLM-INF-ASU-UG-HONEYMOON-CYSTITIS-GRAM-NEGATIVE-LACTOSE-FERMENTING-PENICILLIN-RESISTANT-BACILLUS-IS-E-COLI-01
+
+## span_ids
+SPN-INF-ASU-UG-HONEYMOON-CYSTITIS-GRAM-NEGATIVE-LACTOSE-FERMENTING-PENICILLIN-RESISTANT-BACILLUS-IS-E-COLI-01
+
+## annotations
+### definition_of · CON-INF-F1F329D64ACDD3
+Quote: Honeymoon cystitis (acute cystitis related to recent intercourse) caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to Escherichia coli.
+Block: body
+Id: ann-inf-asu-ug-honeymoon-cystitis-gram-negative-lactose-fermenting-penicillin-resistant-bacillus-is-e-coli-001
+
+## callout_evidence
+
+## question_ids
+
+## media
+
+## published_summary
+
+## published_sections
+
+## conflicts
+
+## university_notes
+asu: Tested as Micro Q3 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+
+## id
+ART-INF-ASU-UG-PROTEUS-VULGARIS-IS-INDOLE-POSITIVE-AND-MORE-ANTIBIOTIC-RESISTANT-THAN-P-MIRABILIS
+
+## title
+Proteus vulgaris is indole-positive and tends to be more antibiotic-resistant than Proteus mirabilis
+
+## arabic_title
+
+## aliases
+Which of the following correctly characterizes Proteus vulgaris, in contrast to Proteus mirabilis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Medical microbiology
+
+## subtopic
+Gram-negative organism identification
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+SYS-INF-T05-S02-M05
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Gram-negative organism identification
+
+## summary
+Proteus vulgaris is indole-positive and tends to be more antibiotic-resistant than Proteus mirabilis.
+
+## sections
+### Definition
+Proteus vulgaris is indole-positive and tends to be more antibiotic-resistant than Proteus mirabilis.
+
+### Mechanism
+Proteus vulgaris is indole-positive, which distinguishes it biochemically from the far more common Proteus mirabilis (indole-negative), and it also tends to be more broadly antibiotic-resistant than P. mirabilis. Like other Proteus species it is strongly urease-positive, predisposing to struvite (infection) stone formation and alkaline urine, and displays swarming motility on culture. Correctly separating P. vulgaris from P. mirabilis by the indole test is a classic microbiology identification point.
+
+### Key determinants
+The indole test (positive for P. vulgaris, negative for P. mirabilis) is the standard biochemical discriminator between these two urease-producing Proteus species.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Reversing the indole result between the two Proteus species — Proteus mirabilis is indole-negative and Proteus vulgaris is indole-positive, the opposite of the more common assumption.
+
+## hold_these
+Proteus vulgaris is indole-positive and tends to be more antibiotic-resistant than Proteus mirabilis.
+
+## lose_the_mark
+Reversing the indole result between the two Proteus species — Proteus mirabilis is indole-negative and Proteus vulgaris is indole-positive, the opposite of the more common assumption.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ, native-text PDF, source id src_fe15375a2ac623537954, Micro Q4.
+
+## evidence_gaps
+Independent microbiology textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## notes
+ASU-UG batch (lane asu-ug-author5). No OCR, web source, or outside fact was used beyond standard teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+## related_articles
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## article_source_ids
+src_fe15375a2ac623537954
+
+## claim_ids
+CLM-INF-ASU-UG-PROTEUS-VULGARIS-IS-INDOLE-POSITIVE-AND-MORE-ANTIBIOTIC-RESISTANT-THAN-P-MIRABILIS-01
+
+## span_ids
+SPN-INF-ASU-UG-PROTEUS-VULGARIS-IS-INDOLE-POSITIVE-AND-MORE-ANTIBIOTIC-RESISTANT-THAN-P-MIRABILIS-01
+
+## annotations
+### definition_of · CON-INF-9C655838ACE8D6
+Quote: Proteus vulgaris is indole-positive and tends to be more antibiotic-resistant than Proteus mirabilis.
+Block: body
+Id: ann-inf-asu-ug-proteus-vulgaris-is-indole-positive-and-more-antibiotic-resistant-than-p-mirabilis-001
+
+## callout_evidence
+
+## question_ids
+
+## media
+
+## published_summary
+
+## published_sections
+
+## conflicts
+
+## university_notes
+asu: Tested as Micro Q4 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+## last_reviewed
+
+## review_due
