@@ -5849,3 +5849,1029 @@ resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ..
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: Sibling of the other cholinergic/organophosphorus-poisoning concepts minted from the same two sources.
+
+---
+
+# Item
+## id
+CON-FND-C640750314D655
+## label
+Phenylephrine is a selective alpha1 agonist whose vasoconstriction raises blood pressure, often with reflex bradycardia rather than tachycardia
+## canonical_key
+phenylephrine.alpha1-agonist.vasopressor-action
+## aliases
+Phenylephrine mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Phenylephrine is a synthetic, selective alpha1-adrenergic agonist, effective orally, with minimal CNS effect. Stimulating alpha1 (Gq-coupled) receptors on vascular smooth muscle raises intracellular calcium and produces powerful vasoconstriction, which raises total peripheral resistance and blood pressure. Because it has no direct action on the heart, the resulting rise in blood pressure classically triggers a baroreceptor-mediated reflex bradycardia rather than a rise in heart rate.
+## explicit_objective
+Identify phenylephrine's alpha1-agonist vasopressor mechanism as the source of its rise in blood pressure, distinguishing it from muscarinic or beta-adrenergic actions.
+## pitfalls
+Assuming any adrenergic agonist raises heart rate directly -- phenylephrine's own vasopressor action instead tends to slow the heart reflexively, via the baroreceptor response to its rise in blood pressure.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Agonists
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-PHENYLEPHRINE-ALPHA1-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is considered a pharmacological action of phenylephrine? a. Blocking muscarinic receptors b. Increasing the blood pressure C. Blocking B-adrenergic receptors d. Increasing the heart rate" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("phenylephrine alpha1 agonist blood pressure") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.3 -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer on every page checked), so this readable secondary instructor source grounds the adrenergic pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other adrenergic-agonist concepts (dobutamine, dopamine) minted from the same source.
+
+---
+
+# Item
+## id
+CON-FND-1F4B558BD69110
+## label
+Dobutamine's selective beta1 agonism gives it a strong inotropic, minimally chronotropic action, making it first-line for cardiogenic shock and acute decompensated heart failure
+## canonical_key
+dobutamine.beta1-agonist.cardiogenic-shock
+## aliases
+Dobutamine mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dobutamine is a synthetic, selective beta1 agonist. It has a strong positive inotropic effect with minimal chronotropic effect, increasing cardiac output with little to no change in peripheral resistance, and its arrhythmia potential is lower than dopamine's. This combination -- more contractile force without a large rise in afterload or heart rate -- makes it first-line for acute decompensated heart failure and cardiogenic shock.
+## explicit_objective
+Explain why dobutamine's selective beta1, strongly inotropic/minimally chronotropic profile makes it the therapeutic choice for cardiogenic shock and acute decompensated heart failure.
+## pitfalls
+Confusing dobutamine's minimally chronotropic profile with isoproterenol's, which is both strongly inotropic and strongly chronotropic and therefore more arrhythmogenic.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Agonists
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-C640750314D655
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-DOBUTAMINE-CARDIOGENIC-SHOCK-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following conditions is considered a therapeutic indication for using dobutamine? a. Hypertension b. Cardiogenic shock C. Glaucoma d. Arrhythmia" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("dobutamine cardiogenic shock") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.3 -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer), so this readable secondary instructor source grounds the adrenergic pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other adrenergic-agonist concepts minted from the same source.
+
+---
+
+# Item
+## id
+CON-FND-EA0D1633BF0130
+## label
+Dopamine's receptor selectivity is dose-dependent: D1 (renal vasodilation) at low dose, beta1 (cardiac output) at intermediate dose, alpha1 (vasoconstriction) at high dose
+## canonical_key
+dopamine.dose-dependent-receptor-selectivity
+## aliases
+Dopamine dose-response
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dopamine's receptor selectivity shifts with dose: at a low, "renal dose" infusion rate (2-5 mcg/kg/min), it selectively stimulates dopaminergic D1 receptors, producing renal vasodilation that increases renal blood flow and urine output. At an intermediate dose (5-10 mcg/kg/min), it has a positive inotropic effect at beta1 receptors, increasing cardiac output. At a high dose (>10 mcg/kg/min), it acts at alpha1 receptors, causing potent generalized vasoconstriction that raises blood pressure in severe shock.
+## explicit_objective
+Sequence dopamine's dose-dependent receptor selectivity -- D1 (renal) at low dose, beta1 (cardiac output) at intermediate dose, alpha1 (vasoconstriction) at high dose -- and the effect each dose band produces.
+## pitfalls
+Assuming any single dose of dopamine produces all three effects at once, rather than recognising that each receptor family dominates at its own dose band.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Agonists
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-1F4B558BD69110
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-DOPAMINE-DOSE-SELECTIVITY-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Dopamine used in low infusion rate (2-3 microgram/kg/min) to: a. Decrease heart rate b. Elevate blood pressure c. Increase cardiac output d. Increase renal blood flow" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("dopamine renal blood flow") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.3 -- the [1st priority] pharmacology department book and bank are both garbled (0-word native text layer), so this readable secondary instructor source grounds the adrenergic pharmacology cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other adrenergic-agonist concepts minted from the same source.
+
+---
+
+# Item
+## id
+CON-FND-91A85DFAA9DC2F
+## label
+Atenolol, metoprolol and bisoprolol are cardioselective beta1 blockers, preferentially sparing beta2 receptors on bronchial and vascular smooth muscle
+## canonical_key
+atenolol.cardioselective-beta1-blocker
+## aliases
+Cardioselective beta-blockers
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atenolol, along with metoprolol, bisoprolol and esmolol, is a cardioselective beta1-blocker, preferentially blocking beta1 receptors on the heart over beta2 receptors on bronchial and vascular smooth muscle -- unlike the non-selective agents propranolol, nadolol and timolol, which block both. This relative beta1-selectivity is why cardioselective agents are considered comparatively safer, at low doses, in patients with diabetes or asthma, where beta2 blockade would be more likely to mask hypoglycemia or precipitate bronchospasm.
+## explicit_objective
+Name atenolol, metoprolol and bisoprolol as cardioselective beta1 blockers, and explain why that selectivity makes them relatively safer than non-selective agents in diabetes and asthma.
+## pitfalls
+Assuming cardioselectivity is absolute -- at higher doses, "cardioselective" beta1 blockers lose selectivity and can still affect beta2 receptors.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Beta-Adrenergic Blockers
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-823AF5B67E1393
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ATENOLOL-CARDIOSELECTIVE-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is a selective β1 adrenoreceptor blocker? a. Propranolol b. Timolol c. Atenolol d. Nadolol" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("atenolol beta1 selective") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.4. The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer), so this readable secondary instructor source grounds the beta-blocker cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other beta-blocker concepts minted from the same source.
+
+---
+
+# Item
+## id
+CON-FND-B24E5EAE09A3C0
+## label
+Carvedilol's combined alpha/beta-blockade gives it vasodilator properties, and it is evidence-based mortality-reducing therapy for heart failure with reduced ejection fraction
+## canonical_key
+carvedilol.vasodilating-beta-blocker.heart-failure
+## aliases
+Vasodilating beta-blockers
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Carvedilol combines beta-blockade with alpha1-receptor blockade, which gives it added vasodilatory activity beyond a plain beta-blocker's effects -- the same dual mechanism shared with labetalol. Together with bisoprolol and metoprolol succinate, carvedilol is evidence-based therapy for heart failure with reduced ejection fraction, reducing mortality and hospitalizations, and it must be initiated at very low doses, only once the patient is euvolemic.
+## explicit_objective
+Explain that carvedilol's added vasodilator activity comes from alpha1-blockade layered onto beta-blockade, and that this profile underlies its evidence-based use in heart failure with reduced ejection fraction.
+## pitfalls
+Assuming any beta-blocker is safe or beneficial in acute decompensated heart failure -- only specific agents (carvedilol, bisoprolol, metoprolol succinate), started once euvolemic, carry this evidence, and beta-blockers can precipitate cardiogenic shock in decompensated patients.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Beta-Adrenergic Blockers
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-91A85DFAA9DC2F
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-CARVEDILOL-VASODILATOR-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following β-blocker has vasodilator properties and can be used in patients with heart failure: a. carvedilol b. Propranolol c. clonidine d. sotalol" ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("carvedilol vasodilator beta-blocker") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.4. The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer), so this readable secondary instructor source grounds the beta-blocker cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other beta-blocker concepts minted from the same source.
+
+---
+
+# Item
+## id
+CON-FND-823AF5B67E1393
+## label
+Beta-blockers mask the adrenergic (tachycardia, tremor) warning symptoms of hypoglycemia in treated diabetic patients
+## canonical_key
+beta-blockers.mask-hypoglycemia-symptoms
+## aliases
+Beta-blocker hypoglycemia masking
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Beta-blockers mask the tachycardia associated with hypoglycemia in diabetic therapy: the adrenergic warning symptoms that normally alert a patient to developing hypoglycemia (tremor, tachycardia) are themselves generated by sympathetic beta-receptor activation, and blocking those receptors removes the warning sign without preventing the hypoglycemia itself. Beta2 blockade in the liver and skeletal muscle also inhibits glycogenolysis, which can blunt the counter-regulatory glucose mobilization that would otherwise help recovery.
+## explicit_objective
+Explain that beta-blockers mask hypoglycemia's adrenergic warning symptoms by blocking the same beta-receptor activation that generates them, and can additionally blunt glycogenolysis-driven recovery.
+## pitfalls
+Assuming this is only a theoretical risk -- it is a genuine prescribing hazard specifically in diabetics on insulin or sulfonylureas, since the warning sign is removed while nothing prevents the hypoglycemia.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Beta-Adrenergic Blockers
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-91A85DFAA9DC2F
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-BETABLOCKER-HYPOGLYCEMIA-MASK-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following drugs may mask the hypoglycemia in treated diabetic patients? a. β-agonists b. β-blockers c. α-agonists d. α-Blockers" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("beta-blockers mask hypoglycemia") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.4. The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer), so this readable secondary instructor source grounds the beta-blocker cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other beta-blocker concepts minted from the same source.
+
+---
+
+# Item
+## id
+CON-FND-B34D0C571C3D02
+## label
+First-dose postural hypotension is the characteristic early adverse effect of selective alpha1-blockers such as prazosin
+## canonical_key
+prazosin.first-dose-postural-hypotension
+## aliases
+Alpha1-blocker first-dose phenomenon
+## arabic_label
+
+## arabic_aliases
+
+## definition
+First-dose hypotension is a common toxic effect associated with selective alpha1-blockers, including prazosin, terazosin and doxazosin. Prazosin induces vasodilation primarily by blocking postsynaptic alpha1 receptors, giving "balanced dilatation" of both the arterial and venous systems, and this is most pronounced with the first few doses, before the patient's compensatory reflexes adjust -- managed by starting at a low bedtime dose and titrating gradually.
+## explicit_objective
+Identify first-dose postural hypotension as the characteristic early adverse effect of selective alpha1-blockers such as prazosin, and explain the balanced arterial/venous dilation behind it.
+## pitfalls
+Assuming an alpha1-blocker's adverse effects come from impaired micturition or bronchoconstriction -- alpha1-blockade instead relaxes bladder outflow smooth muscle (useful in BPH) and has no established bronchoconstrictor action.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Blockers
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-PRAZOSIN-FIRST-DOSE-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient was prescribed the alpha blocker prazosin. Which of the following adverse effects would be most likely to occur during the first days of therapy? a. Impaired micturition b. Pale and cold skin c. Bronchoconstriction d. Postural hypotension" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("prazosin postural hypotension") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.3. The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer), so this readable secondary instructor source grounds the adrenergic-blocker cluster instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other adrenergic-blocker concepts minted from the same source.
+
+---
+
+# Item
+## id
+CON-FND-8F7613BF9B3306
+## label
+Ondansetron, a 5-HT3 receptor antagonist, blocks serotonin at the chemoreceptor trigger zone and gut vagal afferents to control chemotherapy-induced nausea and vomiting
+## canonical_key
+ondansetron.5ht3-antagonist.chemotherapy-antiemetic
+## aliases
+5-HT3 antagonist antiemetics
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Nausea and vomiting are triggered by serotonin acting at 5-HT3 receptors, found both at the chemoreceptor trigger zone (CTZ) and in the gut, where highly emetogenic chemotherapy provokes serotonin release from enterochromaffin cells. Ondansetron is a 5-HT3 receptor antagonist that blocks this signal at both sites, making it the standard antiemetic backbone for chemotherapy regimens, distinct from first-generation antihistamines (used for motion sickness) or dopamine agonists/antagonists.
+## explicit_objective
+Explain ondansetron's 5-HT3 antagonist mechanism, acting at both the CTZ and gut vagal afferents, as the basis for its use in chemotherapy-induced nausea and vomiting.
+## pitfalls
+Confusing a 5-HT3 antagonist (ondansetron, for chemotherapy nausea) with a 5-HT4 agonist (tegaserod, for GI prokinesis) -- the two serotonin receptor subtypes drive opposite clinical uses.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autacoid and antiemetic pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autacoids > H1 Antihistamines and Antiemetics
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-DA4E563A4E5C48
+## resource_ids
+src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.55
+## confidence
+0.8
+## atomic_claim_ids
+CLM-FND-208INT-ONDANSETRON-5HT3-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 40-year-old patient is about to undergo cancer chemotherapy with a drug combination that produced severe nausea and vomiting. The antiemetic drug most likely to be included in her regimen is: a. Bromocriptine b. Cetirizine c. Cimetidine d. Ondansetron" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+The MCQS pharma bank (p.48) grounds 5-HT3 receptors' role in nausea/vomiting via the CTZ and GI tract directly, but does not name ondansetron alongside a chemotherapy indication verbatim on the same page -- the drug-to-indication link here is the standard identity of ondansetron as the class's own named example, not a separate source claim.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("ondansetron chemotherapy antiemetic") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da), p.48 ("Nausea and vomiting are triggered by serotonin at... 5-HT3 receptors... Explanation: 5-HT3 receptors in CTZ and GI tract").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-DA4E563A4E5C48 (diphenhydramine), the other antiemetic/antihistamine concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-DA4E563A4E5C48
+## label
+Diphenhydramine, a first-generation H1-antihistamine, crosses the blood-brain barrier and causes marked sedation, unlike the second-generation agents
+## canonical_key
+diphenhydramine.first-generation-antihistamine.sedation
+## aliases
+First-generation H1-blockers
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diphenhydramine, dimenhydrinate, chlorpheniramine, promethazine and cyproheptadine are first-generation H1-blockers. They are lipophilic and cross the blood-brain barrier, resulting in marked sedation, and they also possess antimuscarinic (atropine-like) effects (dry mouth, blurred vision, urinary retention) -- unlike second-generation agents (fexofenadine, loratadine, cetirizine), which have poor blood-brain-barrier penetration, minimal to no sedation, and no anticholinergic effects.
+## explicit_objective
+Explain that diphenhydramine's sedation comes from first-generation H1-blockers' lipophilic crossing of the blood-brain barrier, and list its antimuscarinic side effects, contrasting both with second-generation agents.
+## pitfalls
+Predicting antimuscarinic side effects in the wrong direction -- diphenhydramine's antimuscarinic action causes mydriasis (not miosis), tachycardia (not bradycardia), and dry mouth (not increased salivation).
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autacoid and antiemetic pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autacoids > H1 Antihistamines and Antiemetics
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-8F7613BF9B3306
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.6
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-DIPHENHYDRAMINE-SEDATION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 20-year-old woman is taking diphenhydramine for severe hay fever. Which of the following adverse effects is she most likely to report? a. Miosis b. Sedation C. Bradycardia d. Increased salivary secretion" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("diphenhydramine sedation") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.5.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-8F7613BF9B3306 (ondansetron), the other antiemetic/antihistamine concept in this batch.

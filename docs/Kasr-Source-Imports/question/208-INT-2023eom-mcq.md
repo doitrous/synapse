@@ -9180,3 +9180,1254 @@ yes
 
 ## author_notes
 keySource: printed answer table p.21 ("75.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q76
+
+## title
+Pharmacological action of phenylephrine
+
+## question
+Which of the following is considered a pharmacological action of phenylephrine?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Blocking muscarinic receptors
+
+## explanation_a
+Incorrect. Phenylephrine is a selective alpha1 adrenergic agonist, not an antimuscarinic; it has no action on muscarinic acetylcholine receptors at all.
+
+## answer_b
+Increasing the blood pressure
+
+## explanation_b
+Correct. Phenylephrine directly stimulates alpha1 (Gq-coupled) receptors on vascular smooth muscle, causing powerful vasoconstriction that raises total peripheral resistance and, with it, blood pressure. This is exactly why phenylephrine is the point-form reference's example vasopressor for hypotension, and why it is also used as a nasal decongestant and for fundoscopy, where the same alpha1-mediated vasoconstriction shrinks nasal mucosa or dilates the pupil without a cycloplegic (muscarinic) effect.
+
+## answer_c
+Blocking B-adrenergic receptors
+
+## explanation_c
+Incorrect. Phenylephrine is an adrenergic agonist, not an antagonist — it stimulates alpha1 receptors rather than blocking any beta receptor.
+
+## answer_d
+Increasing the heart rate
+
+## explanation_d
+Incorrect. Phenylephrine's alpha1-mediated rise in blood pressure classically triggers a baroreceptor-mediated reflex bradycardia, not an increase in heart rate — the opposite direction from this option.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-C640750314D655
+
+## concept_ids
+CON-FND-C640750314D655
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Agonists
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify phenylephrine's alpha1-agonist vasopressor action as the source of its rise in blood pressure, and rule out muscarinic blockade, beta-blockade and a rise in heart rate.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("76.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q77
+
+## title
+Therapeutic indication for dobutamine
+
+## question
+Which of the following conditions is considered a therapeutic indication for using dobutamine?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Hypertension
+
+## explanation_a
+Incorrect. Dobutamine is a positive inotrope that raises cardiac output; it is not used to lower blood pressure, and its cardiac-stimulant action runs against a hypertension indication.
+
+## answer_b
+Cardiogenic shock
+
+## explanation_b
+Correct. Dobutamine is a synthetic, selective beta1 agonist with a strong positive inotropic effect and only minimal chronotropic effect, increasing cardiac output with little change in peripheral resistance — this combination makes it first-line for acute decompensated heart failure and cardiogenic shock, where the failing heart needs more contractile force without a large rise in afterload. Its arrhythmia potential is lower than dopamine's, which is part of why it is favoured in this exact clinical setting over other inotropic vasopressors.
+
+## answer_c
+Glaucoma
+
+## explanation_c
+Incorrect. Dobutamine has no recognised ophthalmic indication; drugs used for glaucoma act locally on aqueous humour dynamics (beta-blockers, prostaglandin analogues, carbonic anhydrase inhibitors), not as systemic inotropes.
+
+## answer_d
+Arrhythmia
+
+## explanation_d
+Incorrect. Dobutamine is not an antiarrhythmic — as a beta1 agonist it can itself provoke arrhythmias at higher doses, which is the opposite of a therapeutic use for treating one.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-1F4B558BD69110
+
+## concept_ids
+CON-FND-1F4B558BD69110
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Agonists
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Name cardiogenic shock (and acute decompensated heart failure) as dobutamine's therapeutic indication, driven by its selective beta1 inotropic action with minimal chronotropy.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("77.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q78
+
+## title
+Low-dose dopamine infusion effect
+
+## question
+Dopamine used in low infusion rate (2-3 microgram/kg/min) to:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Decrease heart rate
+
+## explanation_a
+Incorrect. Low-dose dopamine does not act on the heart's rate-controlling receptors at this dose range; its selective action at this dose is on dopaminergic D1 receptors in the renal vasculature, not on the SA node.
+
+## answer_b
+Elevate blood pressure
+
+## explanation_b
+Incorrect. Elevating blood pressure through generalized vasoconstriction is the effect of high-dose dopamine acting at alpha1 receptors (>10 mcg/kg/min), not the low, dopaminergic-dose range this question specifies.
+
+## answer_c
+Increase cardiac output
+
+## explanation_c
+Incorrect. Increasing cardiac output through a positive inotropic effect is the action of intermediate-dose dopamine (5-10 mcg/kg/min) acting at beta1 receptors, a different dose band from the low, dopaminergic range asked about here.
+
+## answer_d
+Increase renal blood flow
+
+## explanation_d
+Correct. At this low, "renal dose" range, dopamine selectively stimulates dopaminergic D1 receptors, producing renal vasodilation that increases renal blood flow and urine output, distinct from the beta1-mediated cardiac output effect at intermediate doses and the alpha1-mediated vasoconstriction at high doses. This dose-dependent receptor selectivity — D1 low, beta1 intermediate, alpha1 high — is the organizing fact behind every dopamine-dosing question, and it is the same logic that explains why an infusion accidentally run too fast can flip a patient from renal vasodilation to systemic vasoconstriction.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-EA0D1633BF0130
+
+## concept_ids
+CON-FND-EA0D1633BF0130
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Agonists
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+State that low-dose ("renal dose") dopamine acts on D1 receptors to increase renal blood flow, distinct from the beta1 (cardiac output) and alpha1 (vasoconstriction) effects seen at higher doses.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("78.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q79
+
+## title
+Selective beta1 adrenoreceptor blocker
+
+## question
+Which of the following is a selective β1 adrenoreceptor blocker?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Propranolol
+
+## explanation_a
+Incorrect. Propranolol is the prototypical non-selective beta-blocker, affecting both beta1 and beta2 receptors, not a cardioselective agent.
+
+## answer_b
+Timolol
+
+## explanation_b
+Incorrect. Timolol is a non-selective beta-blocker, used systemically and as a topical antiglaucoma agent (decreasing aqueous humour production), but it blocks both beta1 and beta2 receptors.
+
+## answer_c
+Atenolol
+
+## explanation_c
+Correct. Atenolol, along with metoprolol and bisoprolol, is a cardioselective beta1 blocker, preferentially blocking beta1 receptors on the heart over beta2 receptors on bronchial and vascular smooth muscle. This relative beta1-selectivity is exactly why cardioselective agents such as atenolol are considered comparatively safer than non-selective beta-blockers in patients with diabetes or asthma, where beta2 blockade would be more likely to mask hypoglycemia or precipitate bronchospasm.
+
+## answer_d
+Nadolol
+
+## explanation_d
+Incorrect. Nadolol is a non-selective beta-blocker affecting both beta1 and beta2 receptors, grouped with propranolol and timolol rather than with the cardioselective agents.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-91A85DFAA9DC2F
+
+## concept_ids
+CON-FND-91A85DFAA9DC2F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Beta-Adrenergic Blockers
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Name atenolol as a cardioselective beta1 blocker, distinct from the non-selective beta-blockers propranolol, timolol and nadolol.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("79.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q80
+
+## title
+Vasodilator beta-blocker used in heart failure
+
+## question
+The following β-blocker has vasodilator properties and can be used in patients with heart failure:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+carvedilol
+
+## explanation_a
+Correct. Carvedilol combines beta-blockade with alpha1-receptor blockade, which gives it added vasodilatory activity on top of the usual beta-blocker effects, and — together with bisoprolol and metoprolol succinate — it is evidence-based, mortality-reducing therapy in heart failure with reduced ejection fraction, started at very low doses only once the patient is euvolemic. This dual alpha/beta mechanism, shared with labetalol, is what distinguishes carvedilol from a plain beta-blocker and is exactly why it is singled out for a heart-failure population that needs the added afterload reduction from vasodilation.
+
+## answer_b
+Propranolol
+
+## explanation_b
+Incorrect. Propranolol is a non-selective beta-blocker with no alpha-blocking or vasodilator activity, and its negative inotropic effect makes it more likely to worsen than help acute decompensated heart failure.
+
+## answer_c
+clonidine
+
+## explanation_c
+Incorrect. Clonidine is a centrally acting alpha2 agonist that lowers sympathetic outflow — it is not a beta-blocker at all, and it is not among the drugs used for heart failure with reduced ejection fraction.
+
+## answer_d
+sotalol
+
+## explanation_d
+Incorrect. Sotalol is a non-selective beta-blocker with additional Class III antiarrhythmic (potassium-channel) activity, not vasodilator activity, and it carries its own proarrhythmic (torsades de pointes) risk rather than a heart-failure-mortality benefit.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-B24E5EAE09A3C0
+
+## concept_ids
+CON-FND-B24E5EAE09A3C0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Beta-Adrenergic Blockers
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify carvedilol's combined alpha/beta-blockade as the mechanism behind its vasodilator properties and its evidence-based use in heart failure with reduced ejection fraction.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("80.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q81
+
+## title
+Drugs that mask hypoglycemia in diabetic patients
+
+## question
+Which of the following drugs may mask the hypoglycemia in treated diabetic patients?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+β-agonists
+
+## explanation_a
+Incorrect. Beta-agonists would tend to reproduce, not mask, the adrenergic warning signs of hypoglycemia (tremor, tachycardia), since those signs are themselves driven by sympathetic (beta-adrenergic) activation.
+
+## answer_b
+β-blockers
+
+## explanation_b
+Correct. Beta-blockers mask the tachycardia and other adrenergic warning symptoms that normally alert a diabetic patient to developing hypoglycemia, because those symptoms are generated by the same sympathetic beta-receptor activation that the drug is blocking. This is a genuine prescribing hazard specifically in diabetics on insulin or sulfonylureas, since it removes an early warning sign without doing anything to prevent the hypoglycemia itself, and beta-2 blockade in the liver and muscle can also blunt the glycogenolysis that would otherwise help recovery.
+
+## answer_c
+α-agonists
+
+## explanation_c
+Incorrect. Alpha-agonists are not linked to masking hypoglycemia; that effect is specifically tied to blocking, not stimulating, adrenergic receptors that generate the warning symptoms.
+
+## answer_d
+α- Blockers
+
+## explanation_d
+Incorrect. Alpha-blockers act on a different receptor family from the one generating hypoglycemia's adrenergic warning signs (tachycardia, tremor are beta-mediated), so they are not associated with masking it.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-823AF5B67E1393
+
+## concept_ids
+CON-FND-823AF5B67E1393
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Beta-Adrenergic Blockers
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+State that beta-blockers mask the adrenergic (tachycardia, tremor) warning symptoms of hypoglycemia in treated diabetic patients.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.14
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("81.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q82
+
+## title
+Prazosin adverse effect in early therapy
+
+## question
+A patient was prescribed the alpha blocker prazosin. Which of the following adverse effects would be most likely to occur during the first days of therapy?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Impaired micturition
+
+## explanation_a
+Incorrect. Prazosin, a selective alpha1-blocker, relaxes rather than impairs bladder outflow smooth muscle (why alpha1-blockers are first-line for benign prostatic hyperplasia) — impaired micturition is not its characteristic early adverse effect.
+
+## answer_b
+Pale and cold skin
+
+## explanation_b
+Incorrect. Prazosin causes vasodilation, which would tend to produce warm, flushed skin from increased peripheral blood flow, not pale, cold skin, which would suggest vasoconstriction.
+
+## answer_c
+Bronchoconstriction
+
+## explanation_c
+Incorrect. Prazosin's antagonism is selective for alpha1 receptors, with no established bronchoconstrictor action; bronchospasm is instead a risk of non-selective beta-blockers.
+
+## answer_d
+Postural hypotension
+
+## explanation_d
+Correct. First-dose hypotension — a common toxic effect of selective alpha1-blockers, including postural (orthostatic) hypotension with syncope — is most pronounced with the first few doses, because blocking postsynaptic alpha1 receptors produces balanced arterial and venous dilation before the patient's compensatory reflexes adjust. Starting at a low bedtime dose and gradually titrating up is the standard way to manage this risk, which is greatest specifically in the first days of therapy rather than later, once tolerance to the hypotensive effect develops.
+
+## topic
+Pharmacology
+
+## subtopic
+Autonomic nervous system pharmacology
+
+## main_concept
+CON-FND-B34D0C571C3D02
+
+## concept_ids
+CON-FND-B34D0C571C3D02
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Blockers
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify first-dose postural hypotension as the characteristic early adverse effect of the selective alpha1-blocker prazosin.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.14
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("82.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q83
+
+## title
+Antiemetic for chemotherapy-induced nausea and vomiting
+
+## question
+A 40-year-old patient is about to undergo cancer chemotherapy with a drug combination that produced severe nausea and vomiting. The antiemetic drug most likely to be included in her regimen is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Bromocriptine
+
+## explanation_a
+Incorrect. Bromocriptine is a dopamine agonist used for conditions such as hyperprolactinemia and Parkinson's disease, not a chemotherapy antiemetic; if anything, dopaminergic activation can itself provoke nausea.
+
+## answer_b
+Cetirizine
+
+## explanation_b
+Incorrect. Cetirizine is a second-generation H1-antihistamine used for allergic conditions, with minimal to no sedative or antiemetic effect — it is not a chemotherapy-induced-nausea agent.
+
+## answer_c
+Cimetidine
+
+## explanation_c
+Incorrect. Cimetidine is an H2-receptor antagonist used to reduce gastric acid secretion, not an antiemetic used to control chemotherapy-induced nausea and vomiting.
+
+## answer_d
+Ondansetron
+
+## explanation_d
+Correct. Ondansetron is a serotonin 5-HT3 receptor antagonist, the class specifically used to control the severe nausea and vomiting produced by highly emetogenic chemotherapy, by blocking 5-HT3 receptors both peripherally (vagal afferents in the gut, where chemotherapy triggers serotonin release from enterochromaffin cells) and centrally at the chemoreceptor trigger zone. This dual peripheral-and-central site of action is exactly why 5-HT3 antagonists are the standard antiemetic backbone for chemotherapy regimens, unlike the first-generation antihistamines used for motion sickness.
+
+## topic
+Pharmacology
+
+## subtopic
+Autacoid and antiemetic pharmacology
+
+## main_concept
+CON-FND-8F7613BF9B3306
+
+## concept_ids
+CON-FND-8F7613BF9B3306
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autacoids > H1 Antihistamines and Antiemetics
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify ondansetron (a 5-HT3 antagonist) as the antiemetic used for severe chemotherapy-induced nausea and vomiting, distinct from a dopamine agonist, an H1-antihistamine or an H2-blocker.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.14
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("83.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q84
+
+## title
+Diphenhydramine adverse effect
+
+## question
+A 20-year-old woman is taking diphenhydramine for severe hay fever. Which of the following adverse effects is she most likely to report?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Miosis
+
+## explanation_a
+Incorrect. Diphenhydramine has antimuscarinic activity, which would tend to dilate rather than constrict the pupil (mydriasis, not miosis) — the opposite of this option.
+
+## answer_b
+Sedation
+
+## explanation_b
+Correct. Diphenhydramine is a first-generation H1-antihistamine, which is lipophilic and crosses the blood-brain barrier readily, producing marked sedation — this is precisely why first-generation agents are also used as sleep aids and antiemetics for motion sickness, unlike the second-generation antihistamines (fexofenadine, loratadine, cetirizine), which have poor CNS penetration and cause minimal to no sedation. Sedation is the single most characteristic and clinically reported adverse effect distinguishing first-generation from second-generation H1-blockers.
+
+## answer_c
+Bradycardia
+
+## explanation_c
+Incorrect. Diphenhydramine's antimuscarinic (atropine-like) activity would tend to raise, not lower, heart rate by blocking vagal M2 tone, so bradycardia is not its expected effect.
+
+## answer_d
+Increased salivary secretion
+
+## explanation_d
+Incorrect. Diphenhydramine's antimuscarinic effects reduce, not increase, secretions — dry mouth (not increased salivation) is the antimuscarinic side effect it shares with other first-generation antihistamines.
+
+## topic
+Pharmacology
+
+## subtopic
+Autacoid and antiemetic pharmacology
+
+## main_concept
+CON-FND-DA4E563A4E5C48
+
+## concept_ids
+CON-FND-DA4E563A4E5C48
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autacoids > H1 Antihistamines and Antiemetics
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify sedation as the characteristic adverse effect of the first-generation H1-antihistamine diphenhydramine, driven by its lipophilic crossing of the blood-brain barrier, and rule out effects that contradict its antimuscarinic profile.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.14
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("84.B")

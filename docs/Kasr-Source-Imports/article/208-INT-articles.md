@@ -782,3 +782,98 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead.
 ## reading_time
 13
+
+
+---
+
+# Item
+## id
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## title
+Adrenergic pharmacology: sympathomimetic agonists, beta-blockers, alpha-blockers, and autacoid antiemetics/antihistamines
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Adrenergic pharmacology turns on receptor selectivity: alpha1 agonists (phenylephrine) vasoconstrict and raise blood pressure with reflex bradycardia; beta1 agonists (dobutamine) raise cardiac output with minimal chronotropy, making them first-line inotropes for cardiogenic shock; and dopamine's own receptor selectivity is dose-dependent, moving from D1 (renal) through beta1 (cardiac) to alpha1 (vasoconstrictor) as the infusion rate climbs. On the antagonist side, cardioselective beta1-blockers (atenolol) spare beta2 receptors, vasodilating beta-blockers (carvedilol) add alpha1-blockade for a heart-failure indication, and selective alpha1-blockers (prazosin) carry a first-dose hypotension risk; beta-blockade as a class also masks the adrenergic warning signs of hypoglycemia. A short autacoid section covers the two non-adrenergic drug classes tested alongside these -- the 5-HT3 antagonist ondansetron for chemotherapy-induced nausea, and the first-generation, sedating antihistamine diphenhydramine.
+## sections
+### Definition
+Sympathomimetic agonists act directly on adrenergic receptors, each subtype driving a distinct downstream effect: alpha1 (Gq-coupled) raises intracellular calcium and causes vasoconstriction; beta1 (Gs-coupled) raises cAMP and drives cardiac inotropy/chronotropy; beta2 (Gs-coupled) relaxes bronchial and vascular smooth muscle and drives glycogenolysis; and dopaminergic D1 receptors cause renal vasodilation. Phenylephrine is a selective alpha1 agonist used as a vasopressor, nasal decongestant and for fundoscopy. Dobutamine is a selective beta1 agonist, strongly inotropic with only minimal chronotropic effect, making it a preferred inotrope over less selective agents. Dopamine is unusual among the agonists in that a single drug's receptor selectivity itself shifts with dose -- D1 at low dose, beta1 at intermediate dose, alpha1 at high dose. On the antagonist side, beta-blockers divide into non-selective (propranolol, nadolol, timolol) and cardioselective beta1 agents (atenolol, metoprolol, bisoprolol, esmolol), plus a smaller group with added alpha1-blocking vasodilator activity (carvedilol, labetalol). Alpha1-blockers (prazosin, terazosin, doxazosin) act at the same postsynaptic receptor phenylephrine stimulates, but in the opposite direction.
+### Mechanism
+Dopamine's dose-dependent receptor selectivity is the clearest worked example of how one drug can produce three different effects: at 2-5 mcg/kg/min it is essentially a D1 agonist, dilating renal vasculature; at 5-10 mcg/kg/min, beta1 stimulation dominates, raising cardiac output; above 10 mcg/kg/min, alpha1-mediated vasoconstriction dominates and raises blood pressure at the cost of renal and splanchnic flow. Dobutamine, by contrast, is engineered for beta1 selectivity across its clinical dose range, which is why it increases cardiac output with comparatively little change in heart rate or peripheral resistance -- the profile a cardiogenic-shock patient needs. Phenylephrine's alpha1 agonism raises blood pressure by vasoconstriction alone, with no direct cardiac action, so the baroreceptor reflex response to that pressure rise is what actually slows the heart. On the blocker side, cardioselectivity is a matter of degree, not absolute separation: atenolol-class agents preferentially spare beta2 receptors at ordinary doses, which is why they are relatively (not absolutely) safer in asthma and diabetes, where beta2 blockade would provoke bronchospasm or mask hypoglycemia's adrenergic warning signs. Carvedilol and labetalol add postsynaptic alpha1-blockade on top of beta-blockade, producing genuine vasodilation that a plain beta-blocker lacks, which is the mechanistic basis for carvedilol's specific heart-failure indication. Prazosin's alpha1-blockade produces balanced arterial and venous dilation; because the compensatory reflexes that normally offset this take time to engage, the hypotensive effect is largest with the very first doses.
+### Key determinants
+Every adrenergic pharmacology question here turns on naming the specific receptor subtype in play (alpha1, beta1, beta2, D1) and reading the clinical picture -- dose, indication, or adverse effect -- back to that subtype's known downstream action, rather than treating "adrenergic drug" as one undifferentiated category. For dopamine specifically, the dose band given in the stem is the deciding variable, since the same drug's receptor selectivity moves through all three families as the infusion rate rises. For the antihistamine/antiemetic pair, the deciding variable is whether the drug's effect (sedation vs antiemesis) depends on crossing the blood-brain barrier (diphenhydramine, a first-generation H1-blocker) or on peripheral/central 5-HT3 blockade specific to the chemoreceptor trigger zone and gut (ondansetron).
+### Clinical significance
+Recognising phenylephrine's pure vasopressor, non-inotropic action is why it is chosen when a clinician wants to raise blood pressure without adding heart rate or cardiac stimulation, unlike dobutamine or dopamine. Titrating dopamine by dose band is a bedside skill in shock management, since running an infusion faster than intended can flip a patient from beneficial renal vasodilation to harmful systemic vasoconstriction. Choosing a cardioselective beta-blocker over a non-selective one is a genuine prescribing decision in a diabetic or asthmatic patient, and warning a patient starting prazosin to take the first dose at bedtime, seated, is a direct application of the first-dose hypotension mechanism. Choosing ondansetron specifically (rather than a first-generation antihistamine) for chemotherapy nausea reflects that the emetic drive in that setting is serotonin-mediated, not histamine-mediated.
+### Common misconceptions
+Assuming any adrenergic agonist raises heart rate -- phenylephrine's pure alpha1 vasopressor action instead tends to slow it reflexively. Assuming dopamine has one fixed pharmacological profile rather than a dose-dependent one. Treating cardioselective beta-blockade as an absolute, rather than relative and dose-dependent, protection from beta2-mediated bronchospasm or hypoglycemia masking. Assuming prazosin's main risk is on the bladder or airway rather than on blood pressure -- alpha1-blockade instead relaxes bladder outflow (useful in BPH) and has no established bronchoconstrictor action. Grouping ondansetron with the antihistamines rather than recognising it as a distinct, serotonin-receptor-targeted antiemetic class.
+## universities
+kau
+## years
+KAU_Y2
+## module
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## related_concepts
+CON-FND-C640750314D655
+CON-FND-1F4B558BD69110
+CON-FND-EA0D1633BF0130
+CON-FND-91A85DFAA9DC2F
+CON-FND-B24E5EAE09A3C0
+CON-FND-823AF5B67E1393
+CON-FND-B34D0C571C3D02
+CON-FND-8F7613BF9B3306
+CON-FND-DA4E563A4E5C48
+## related_articles
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead, same as the cholinergic-pharmacology article.
+## reading_time
+11

@@ -491,3 +491,283 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Kasr Al Ainy 208 INT — Chapter 1, Cellular events, leukocyte recruitment
+
+
+---
+
+# Item
+## id
+CLM-FND-208INT-PHENYLEPHRINE-ALPHA1-01
+## concept_id
+CON-FND-C640750314D655
+## subject
+Phenylephrine
+## predicate
+is a selective alpha1 agonist that raises blood pressure by
+## object
+direct vasoconstriction, with effective oral absorption and minimal CNS effect, typically producing reflex bradycardia rather than tachycardia
+## display_text
+Phenylephrine is a selective alpha1 agonist that raises blood pressure by vasoconstriction, not by any direct cardiac or muscarinic action.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Adrenergic Agonists
+
+---
+
+# Item
+## id
+CLM-FND-208INT-DOBUTAMINE-CARDIOGENIC-SHOCK-01
+## concept_id
+CON-FND-1F4B558BD69110
+## subject
+Dobutamine
+## predicate
+is a selective beta1 agonist used first-line for
+## object
+acute decompensated heart failure and cardiogenic shock, owing to a strong inotropic effect with minimal chronotropic effect and lower arrhythmia potential than dopamine
+## display_text
+Dobutamine, a selective beta1 agonist, is first-line for cardiogenic shock because it raises cardiac output with minimal change in heart rate.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Adrenergic Agonists
+
+---
+
+# Item
+## id
+CLM-FND-208INT-DOPAMINE-DOSE-SELECTIVITY-01
+## concept_id
+CON-FND-EA0D1633BF0130
+## subject
+Dopamine
+## predicate
+shifts receptor selectivity by dose from
+## object
+D1 (renal vasodilation, low dose 2-5 mcg/kg/min) to beta1 (increased cardiac output, intermediate dose) to alpha1 (generalized vasoconstriction, high dose above 10 mcg/kg/min)
+## display_text
+Low-dose ("renal dose") dopamine acts on D1 receptors to increase renal blood flow, a different effect from the beta1 and alpha1 actions seen at higher doses.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Adrenergic Agonists
+
+---
+
+# Item
+## id
+CLM-FND-208INT-ATENOLOL-CARDIOSELECTIVE-01
+## concept_id
+CON-FND-91A85DFAA9DC2F
+## subject
+Atenolol, metoprolol and bisoprolol
+## predicate
+are cardioselective beta1 blockers that
+## object
+preferentially spare beta2 receptors on bronchial and vascular smooth muscle, unlike the non-selective propranolol, nadolol and timolol
+## display_text
+Atenolol, metoprolol and bisoprolol are cardioselective beta1 blockers, distinct from non-selective agents such as propranolol.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Beta-Adrenergic Blockers
+
+---
+
+# Item
+## id
+CLM-FND-208INT-CARVEDILOL-VASODILATOR-01
+## concept_id
+CON-FND-B24E5EAE09A3C0
+## subject
+Carvedilol
+## predicate
+combines beta-blockade with alpha1-blockade, giving it
+## object
+vasodilator properties and evidence-based, mortality-reducing use in heart failure with reduced ejection fraction, alongside bisoprolol and metoprolol succinate
+## display_text
+Carvedilol's added alpha1-blockade gives it vasodilator properties and an evidence-based heart-failure indication that plain beta-blockers lack.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Beta-Adrenergic Blockers
+
+---
+
+# Item
+## id
+CLM-FND-208INT-BETABLOCKER-HYPOGLYCEMIA-MASK-01
+## concept_id
+CON-FND-823AF5B67E1393
+## subject
+Beta-blockers
+## predicate
+mask the adrenergic warning symptoms of
+## object
+hypoglycemia (tachycardia, tremor) in treated diabetic patients, by blocking the same beta-receptor activation that generates those symptoms
+## display_text
+Beta-blockers mask the tachycardia and tremor that normally warn a diabetic patient of developing hypoglycemia.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Beta-Adrenergic Blockers
+
+---
+
+# Item
+## id
+CLM-FND-208INT-PRAZOSIN-FIRST-DOSE-01
+## concept_id
+CON-FND-B34D0C571C3D02
+## subject
+Prazosin
+## predicate
+carries a risk of, most pronounced in the first days of therapy,
+## object
+first-dose (postural) hypotension, from balanced arterial and venous dilation via postsynaptic alpha1-receptor blockade
+## display_text
+First-dose postural hypotension is prazosin's characteristic early adverse effect, from balanced arterial/venous alpha1-blockade.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Adrenergic Blockers
+
+---
+
+# Item
+## id
+CLM-FND-208INT-ONDANSETRON-5HT3-01
+## concept_id
+CON-FND-8F7613BF9B3306
+## subject
+Nausea and vomiting
+## predicate
+are triggered by serotonin acting at
+## object
+5-HT3 receptors in the chemoreceptor trigger zone and gut, which ondansetron blocks to control chemotherapy-induced nausea and vomiting
+## display_text
+5-HT3 receptors in the CTZ and gut mediate nausea and vomiting; ondansetron, a 5-HT3 antagonist, blocks this to control chemotherapy-induced emesis.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Autacoids and Antiemetics
+
+---
+
+# Item
+## id
+CLM-FND-208INT-DIPHENHYDRAMINE-SEDATION-01
+## concept_id
+CON-FND-DA4E563A4E5C48
+## subject
+Diphenhydramine and other first-generation H1-blockers
+## predicate
+are lipophilic and cross the blood-brain barrier, causing
+## object
+marked sedation, unlike second-generation H1-blockers, which have poor blood-brain-barrier penetration and cause minimal to no sedation
+## display_text
+First-generation H1-antihistamines such as diphenhydramine cross the blood-brain barrier and cause marked sedation.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Autacoids and Antiemetics

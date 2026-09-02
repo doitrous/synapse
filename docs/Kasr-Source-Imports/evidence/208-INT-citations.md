@@ -443,3 +443,256 @@ Kasr Al Ainy 208 INT Pathology Department Book.
 0.9
 ## counts_as_claim_evidence
 yes
+
+
+---
+
+# Item
+## id
+CIT-FND-208INT-PHENYLEPHRINE-ALPHA1-01
+## claim_id
+CLM-FND-208INT-PHENYLEPHRINE-ALPHA1-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Phenylephrine is a selective α1 agonist, effective orally, minimal CNS effect. Phenylephrine uses: Hypotension, nasal decongestant, fundoscopy.
+## locator_type
+printed_page
+## locator_page
+3
+## locator_section
+Adrenergic agonists — synthetic direct agonists
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference, used because the 1st-priority department pharmacology book and bank are both garbled (0-word native text layer).
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-DOBUTAMINE-CARDIOGENIC-SHOCK-01
+## claim_id
+CLM-FND-208INT-DOBUTAMINE-CARDIOGENIC-SHOCK-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Dobutamine is first-line for acute decompensated heart failure and cardiogenic shock. Dobutamine has a strong positive inotropic effect with minimal chronotropic effect. Dobutamine arrhythmia potential is lower than dopamine.
+## locator_type
+printed_page
+## locator_page
+3
+## locator_section
+Adrenergic agonists — catecholamine pharmacokinetics and dobutamine
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-DOPAMINE-DOSE-SELECTIVITY-01
+## claim_id
+CLM-FND-208INT-DOPAMINE-DOSE-SELECTIVITY-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Dopaminergic (D1) low dose (2-5 μg) causes renal vasodilation. Low dose Dopamine increases renal blood flow and urine output. β1-Adrenergic intermediate dose Dopamine (5-10 μg) has a positive inotropic effect. α1-Adrenergic high dose Dopamine (>10 μg) causes potent generalized vasoconstriction.
+## locator_type
+printed_page
+## locator_page
+3
+## locator_section
+Adrenergic agonists — dopamine dose bands
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-ATENOLOL-CARDIOSELECTIVE-01
+## claim_id
+CLM-FND-208INT-ATENOLOL-CARDIOSELECTIVE-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Atenolol, Metoprolol, Bisoprolol, and Esmolol are Cardio-selective Beta-1 blockers. Cardio-selective agents are safer in patients with Diabetes and Asthma when used at low doses.
+## locator_type
+printed_page
+## locator_page
+4
+## locator_section
+Beta-adrenergic blockers — selectivity
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-CARVEDILOL-VASODILATOR-01
+## claim_id
+CLM-FND-208INT-CARVEDILOL-VASODILATOR-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Labetalol and Carvedilol have added Vasodilatory activity due to Alpha receptor blockade. Bisoprolol and Carvedilol are evidence-based for Heart Failure with reduced Ejection Fraction.
+## locator_type
+printed_page
+## locator_page
+4
+## locator_section
+Beta-adrenergic blockers — vasodilating agents and heart failure
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-BETABLOCKER-HYPOGLYCEMIA-MASK-01
+## claim_id
+CLM-FND-208INT-BETABLOCKER-HYPOGLYCEMIA-MASK-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Beta Blockers mask the tachycardia associated with hypoglycemia in diabetic therapy.
+## locator_type
+printed_page
+## locator_page
+4
+## locator_section
+Beta-adrenergic blockers — metabolic effects
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-PRAZOSIN-FIRST-DOSE-01
+## claim_id
+CLM-FND-208INT-PRAZOSIN-FIRST-DOSE-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+First-dose hypotension is a common toxic effect associated with Selective Alpha-1 Blockers. Prazosin induces Vasodilation primarily via the blockade of postsynaptic Alpha-1 receptors. Prazosin provides Balanced Dilatation, affecting both the arterial and venous systems.
+## locator_type
+printed_page
+## locator_page
+3
+## locator_section
+Adrenergic blockers — selective alpha-1 blockers
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-ONDANSETRON-5HT3-01
+## claim_id
+CLM-FND-208INT-ONDANSETRON-5HT3-01
+## resource_id
+src_fc27447d6751a9bab6da
+## evidence_role
+local_curriculum
+## support_span
+Nausea and vomiting are triggered by serotonin at: b. 5-HT3 receptors. Explanation: 5-HT3 receptors in CTZ and GI tract.
+## locator_type
+printed_page
+## locator_page
+48
+## locator_section
+Serotonin (5-HT) pharmacology — receptor subtypes and antiemesis
+## locator_detail
+Read via node scripts/content/pagetext.mjs grep "ondansetron" then show; native text layer, no OCR.
+## context_note
+MCQS pharma bank (Dr Abdallah Salah, 2026), 2nd-priority instructor material with worked explanations.
+## confidence
+0.7
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-DIPHENHYDRAMINE-SEDATION-01
+## claim_id
+CLM-FND-208INT-DIPHENHYDRAMINE-SEDATION-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Diphenhydramine, Dimenhydrinate, Chlorpheniramine, Promethazine, and Cyproheptadine are First-Generation H1-Blockers. First-Generation H1-Blockers are lipophilic and cross the Blood-Brain Barrier, resulting in marked sedation. Second-Generation H1-Blockers have poor Blood-Brain Barrier penetration and cause minimal to no sedation.
+## locator_type
+printed_page
+## locator_page
+5
+## locator_section
+Autacoids — H1 antihistamines
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
