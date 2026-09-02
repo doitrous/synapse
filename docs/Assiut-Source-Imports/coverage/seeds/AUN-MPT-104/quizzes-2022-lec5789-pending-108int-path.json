@@ -36,6 +36,10 @@
   },
   "questions": [
     {
+      "key": "quizzes-2022-q046",
+      "hold": "Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045)."
+    },
+    {
       "key": "quizzes-2022-q037",
       "id": "QST-AUNMPT104-QUIZZES2022-Q037",
       "page": 20,

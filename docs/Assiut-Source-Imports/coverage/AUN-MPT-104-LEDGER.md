@@ -48,10 +48,11 @@
 | final-2022-q10-irreversible-antagonist | 1 | 0 | 0 | 1 |
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 36 | 0 | 405 | 441 |
+| final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
+| quizzes-2022 | 90 | 1 | 350 | 441 |
 
 ## Held
-(none)
+- quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
 - Q1  IV route for emergency antidote administration -- new
@@ -99,61 +100,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q037
-- quizzes-2022-q038
-- quizzes-2022-q039
-- quizzes-2022-q040
-- quizzes-2022-q041
-- quizzes-2022-q042
-- quizzes-2022-q043
-- quizzes-2022-q044
-- quizzes-2022-q045
-- quizzes-2022-q046
-- quizzes-2022-q047
-- quizzes-2022-q048
-- quizzes-2022-q049
-- quizzes-2022-q050
-- quizzes-2022-q051
-- quizzes-2022-q052
-- quizzes-2022-q053
-- quizzes-2022-q054
-- quizzes-2022-q055
-- quizzes-2022-q056
-- quizzes-2022-q057
-- quizzes-2022-q058
-- quizzes-2022-q059
-- quizzes-2022-q060
-- quizzes-2022-q061
-- quizzes-2022-q062
-- quizzes-2022-q063
-- quizzes-2022-q064
-- quizzes-2022-q065
-- quizzes-2022-q066
-- quizzes-2022-q067
-- quizzes-2022-q068
-- quizzes-2022-q069
-- quizzes-2022-q070
-- quizzes-2022-q071
-- quizzes-2022-q072
-- quizzes-2022-q073
-- quizzes-2022-q074
-- quizzes-2022-q075
-- quizzes-2022-q076
-- quizzes-2022-q077
-- quizzes-2022-q078
-- quizzes-2022-q079
-- quizzes-2022-q080
-- quizzes-2022-q081
-- quizzes-2022-q082
-- quizzes-2022-q083
-- quizzes-2022-q084
-- quizzes-2022-q085
-- quizzes-2022-q086
-- quizzes-2022-q087
-- quizzes-2022-q088
-- quizzes-2022-q089
-- quizzes-2022-q090
-- quizzes-2022-q091
 - quizzes-2022-q092
 - quizzes-2022-q093
 - quizzes-2022-q094
