@@ -1,0 +1,1354 @@
+{
+  "lane": "ZU-MED-105",
+  "cluster": "pp1-cluster1",
+  "header": "ZU-MED-105 · Professional Practice I — 40 single-best-answer questions authored from three tier-1 sources (Zag P.P1 Final 2024.pdf, 12 SBA, printed key line; Fakous P.P1 Final 2024.pdf, 7 SBA, light-blue highlight; امتحانات سابقه.pdf pages 1-4, 21 SBA, gray fill-rectangle key). See coverage/ZU-MED-105-triage.md for the full key-recovery method on each source and coverage/ZU-MED-105-triage-keys.txt for the per-question map, including the 2 held items (Q14 two-mark conflict, Q24 malformed 2-option source) not in this seed.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["zu"],
+    "years": ["ZU_Y1"],
+    "module": "ZU-MED-105",
+    "subject": "pop",
+    "exam_weight_by_year": { "ZU_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": [],
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true,
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "question_type": "Recall"
+  },
+  "questions": [
+    {
+      "key": "pp1-zag24-q01-checklist-tool-student-satisfaction",
+      "page": 1,
+      "title": "What a checklist tool assesses",
+      "question": "The checklist tool can be used to assess:",
+      "options": {
+        "A": "Annual student survey",
+        "B": "Student attendance rate",
+        "C": "Student graduation rate",
+        "D": "Student satisfaction"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. An annual student survey is a separate, standalone data-collection instrument in its own right, not something a checklist (a real-time, item-by-item observation tool) is used to conduct.",
+        "B": "Incorrect. Attendance rate is a longitudinal administrative metric tracked by a separate record system over time, not something captured by a single-encounter checklist.",
+        "C": "Incorrect. Graduation rate is an institution-level outcome measured across a student's entire programme, far removed from the scope of a point-of-encounter checklist.",
+        "D": "Correct. A checklist records whether specific, predefined criteria were met during an observed encounter, which suits capturing a satisfaction rating at that point in time. This is the answer both this module's Zagazig-campus and Fakous-campus Final papers mark for the identical question, confirming it is not a source-specific quirk. Among the four options, satisfaction is the only one that is itself an item-level, in-the-moment judgment rather than a longitudinal administrative record."
+      },
+      "main_concept": "CON-POP-34609C72D29B49",
+      "concept_ids": ["CON-POP-34609C72D29B49"],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Assessment and feedback tools",
+      "difficulty": "Easy",
+      "learning_objective": "State that a checklist tool is used to assess student satisfaction, not attendance or graduation rate.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Assessment and feedback tools",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"1) D\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus"
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-zag24-q02-physician-patient-trust-communication",
+      "page": 1,
+      "title": "Foundation of the physician-patient relationship",
+      "question": "A strong physician-patient relationship is built on:",
+      "options": {
+        "A": "Financial obligations",
+        "B": "Trust and communication",
+        "C": "Personal opinions and views",
+        "D": "Social connections"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Billing and financial arrangements are administrative consequences of a relationship that already exists; they do not themselves generate the trust the relationship depends on.",
+        "B": "Correct. Trust and open communication are what allow a patient to disclose sensitive information and follow a physician's advice, and what allow a physician to make sound decisions on incomplete information volunteered honestly. This is the foundation the relationship's therapeutic value rests on, distinguishing it from the merely transactional or incidental elements offered as distractors. Every other option describes something that can exist alongside the relationship without being what sustains it.",
+        "C": "Incorrect. A physician's unshared personal opinions and views play no defined role in building patient trust, and asserting them inappropriately can actively damage the relationship.",
+        "D": "Incorrect. Social connections between physician and patient are neither necessary nor sufficient for a strong clinical relationship, which must function even between strangers meeting for the first time."
+      },
+      "main_concept": "CON-POP-CB4F8F21622C78",
+      "concept_ids": ["CON-POP-CB4F8F21622C78"],
+      "contextual_concept_ids": ["CON-POP-9989FDD0F11529"],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Professional duties",
+      "difficulty": "Easy",
+      "learning_objective": "State that a strong physician-patient relationship is built on trust and communication, not financial obligations or personal opinions.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Physician-patient relationship",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"2) B\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus"
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-zag24-q03-accountability-model-base-ability",
+      "page": 1,
+      "title": "Base of the accountability preconditions model",
+      "question": "In the model of the preconditions leading to accountability, the base of this model is:",
+      "options": {
+        "A": "Authority",
+        "B": "Professionalism",
+        "C": "Ability",
+        "D": "Responsibility"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Authority (the sanctioned power to act) is a separate precondition from the capacity to actually carry a task out, and is not the model's base layer as tested here.",
+        "B": "Incorrect. Professionalism is a broader orientation that shapes how accountability is exercised, not the specific foundational precondition this model names as its base.",
+        "C": "Correct. Ability is the base of the model because a person cannot be meaningfully held accountable for a task they lack the capacity to perform — every later precondition (authority, responsibility) presupposes that the underlying ability already exists. This ordering reflects a common structure in accountability frameworks, where capability must precede the assignment of responsibility for a task to be fair or meaningful. Placing ability first is what makes the rest of the model coherent.",
+        "D": "Incorrect. Responsibility (being assigned or accepting a task) itself presupposes the ability to carry it out, making ability the more fundamental, earlier precondition, not the model's base."
+      },
+      "main_concept": "CON-POP-C5AF15AA02250C",
+      "concept_ids": ["CON-POP-C5AF15AA02250C"],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Professional duties",
+      "difficulty": "Moderate",
+      "learning_objective": "State that ability is the base precondition in the model leading to accountability.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Accountability",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"3) C\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus",
+        "uncertainty": "The source paper does not name which specific accountability-model framework this question draws from; the fact stands as printed (LANE-CARD.md §7)."
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-zag24-q04-storming-stage-team-development",
+      "page": 1,
+      "title": "Storming stage of team development",
+      "question": "Conflict between team members and some rebellion uprising against the assigned tasks occur in:",
+      "options": {
+        "A": "Performing",
+        "B": "Forming",
+        "C": "Storming",
+        "D": "Norming"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Performing is the stage where the team functions smoothly and productively, the opposite of the friction this stem describes.",
+        "B": "Incorrect. Forming is the initial orientation stage, before roles and authority have been contested enough to produce real conflict.",
+        "C": "Correct. Storming is the stage in the standard forming-storming-norming-performing-adjourning model defined by conflict between team members and resistance to assigned tasks, as members test roles, authority and the group's working norms. It is an expected, not pathological, stage every functioning team model predicts a team will pass through. The stem's own language — conflict and rebellion against assigned tasks — maps directly onto storming's defining feature.",
+        "D": "Incorrect. Norming is the stage where the team settles on agreed working conventions after the earlier conflict has been resolved, not while it is still occurring."
+      },
+      "main_concept": "CON-POP-80EF60232916AF",
+      "concept_ids": ["CON-POP-80EF60232916AF"],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "Identify storming as the team-development stage marked by conflict and resistance to assigned tasks.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"4) C\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus"
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TEAM-LEADERSHIP"]
+    },
+    {
+      "key": "pp1-zag24-q05-justice-fair-distribution-healthcare",
+      "page": 2,
+      "title": "Justice and fair distribution of resources",
+      "question": "A bioethical principle requires fair distribution of healthcare resources:",
+      "options": {
+        "A": "Respect for cultural diversity",
+        "B": "Non stigmatization",
+        "C": "Justice",
+        "D": "Human dignity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Respect for cultural diversity is a distinct ethical value concerned with honouring differing beliefs and practices, not with how scarce resources are allocated.",
+        "B": "Incorrect. Non-stigmatization concerns avoiding unfair labelling or discrimination against a patient group, a related but separate concern from resource distribution itself.",
+        "C": "Correct. Justice is one of the four core bioethical principles (alongside autonomy, beneficence and non-maleficence) and specifically concerns the fair distribution of scarce resources. It is invoked whenever a scenario is about who gets access to something limited, which is exactly what this stem describes. The other three options are each real ethical values, but none of them specifically governs distribution/allocation questions.",
+        "D": "Incorrect. Human dignity is a foundational value underlying all ethical practice broadly, but it does not specifically name the distribution-of-resources principle this stem asks about."
+      },
+      "main_concept": "CON-POP-BED479E0FA27CA",
+      "concept_ids": ["CON-POP-BED479E0FA27CA"],
+      "contextual_concept_ids": ["CON-POP-10BB8CF5072B5A"],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "Identify justice as the bioethical principle requiring fair distribution of healthcare resources.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Bioethical principles",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"5) C\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus"
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-BIOETHICS-PRINCIPLES"]
+    },
+    {
+      "key": "pp1-zag24-q06-self-assessment-constructive-feedback",
+      "page": 2,
+      "title": "Self-assessment and constructive feedback",
+      "question": "A medical student receives feedback from their peers on a recent group project, highlighting areas for improvement in teamwork and communication. This scenario best illustrates which component of professionalism?",
+      "options": {
+        "A": "Scientific knowledge",
+        "B": "Clinical skills",
+        "C": "Self-assessment and constructive feedback",
+        "D": "Time management"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Scientific knowledge concerns the factual/theoretical content a student has mastered, not the act of receiving and using feedback about performance.",
+        "B": "Incorrect. Clinical skills refers to the underlying competence being demonstrated, not the process of self-assessment and improvement the stem specifically emphasises.",
+        "C": "Correct. Receiving peer feedback and using it to identify areas for improvement is a direct illustration of professionalism's self-assessment-and-constructive-feedback component. This component is specifically about how a learner engages with evaluation of their own performance, which is exactly what the stem describes. The scenario is not primarily about what was learned or done, but about how the student responds to being assessed.",
+        "D": "Incorrect. Time management concerns organising tasks and deadlines, unrelated to the peer-feedback process this stem describes."
+      },
+      "main_concept": "CON-POP-57938398EC5C2F",
+      "concept_ids": ["CON-POP-57938398EC5C2F"],
+      "contextual_concept_ids": ["CON-POP-C1662B63DDA48A"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Assessment and feedback tools",
+      "difficulty": "Moderate",
+      "learning_objective": "Identify a peer-feedback scenario as illustrating professionalism's self-assessment and constructive-feedback component.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Assessment and feedback tools",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"6) C\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus"
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-zag24-q07-compassion-empathy-patients",
+      "page": 2,
+      "title": "Definition of compassion in professionalism",
+      "question": "Compassion in medical professionalism is best described as:",
+      "options": {
+        "A": "Maintaining a strict professional distance",
+        "B": "Showing empathy and care towards patients",
+        "C": "Focusing on administrative duties",
+        "D": "Prioritizing clinical task"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Maintaining professional distance describes an appropriate boundary, not compassion itself — the two are not mutually exclusive, but distance alone does not define compassion.",
+        "B": "Correct. Compassion is showing empathy and care towards patients, engaging with their experience of illness rather than treating the encounter as purely transactional or task-focused. This is the value that most directly captures what compassion means in a clinical context. Each distractor instead names something that can coexist with compassion but is not itself the definition of it.",
+        "C": "Incorrect. Focusing on administrative duties describes a task orientation unrelated to, and potentially in tension with, showing care towards a patient.",
+        "D": "Incorrect. Prioritizing clinical tasks over the patient's emotional experience is closer to the opposite of compassionate care than a description of it."
+      },
+      "main_concept": "CON-POP-74579735DA0CFE",
+      "concept_ids": ["CON-POP-74579735DA0CFE"],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Professional duties",
+      "difficulty": "Easy",
+      "learning_objective": "State that compassion in medical professionalism means showing empathy and care towards patients.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Professional duties",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"7) B\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus"
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-zag24-q08-early-professionalism-education-purpose",
+      "page": 2,
+      "title": "Purpose of early professionalism education",
+      "question": "Early education on professional standards is important for medical students to:",
+      "options": {
+        "A": "Prevent disciplinary actions",
+        "B": "Avoid patient contact",
+        "C": "Encourage cheating behaviour",
+        "D": "Delay graduation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Early education on professional standards establishes expectations and norms before lapses occur, which is why it helps prevent later disciplinary action. Introducing professionalism training early in the curriculum, rather than only after a violation, is the preventive logic behind why medical schools teach it from Year 1. This is the one option that describes a genuine, positive purpose of the education.",
+        "B": "Incorrect. Professionalism education aims to prepare students for appropriate patient contact, not to avoid it.",
+        "C": "Incorrect. Professionalism training actively discourages cheating and other integrity violations; it does not encourage them.",
+        "D": "Incorrect. There is no purpose or mechanism by which early professionalism education would delay graduation — if anything, it supports timely progression by reducing disciplinary interruptions."
+      },
+      "main_concept": "CON-POP-52B2729E9560DC",
+      "concept_ids": ["CON-POP-52B2729E9560DC"],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Professional duties",
+      "difficulty": "Easy",
+      "learning_objective": "State that early professionalism education is important chiefly to prevent later disciplinary action.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Professional duties",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"8) A\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus"
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-zag24-q09-emergency-consent-exception-lifesaving",
+      "page": 3,
+      "title": "Emergency exception to informed consent",
+      "question": "The consent is not necessary in emergency cases for:",
+      "options": {
+        "A": "Lifesaving operations",
+        "B": "Any medical procedure",
+        "C": "Non-life-threatening operations",
+        "D": "Cosmetic surgeries"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The emergency exception to informed consent is narrowly scoped to lifesaving operations, where the patient cannot consent and withholding treatment would cost life; the presumption is that a reasonable patient would want the care. This narrow scope is exactly what distinguishes the true emergency exception from a much broader (and incorrect) claim that any urgent-feeling situation dispenses with consent. It applies to genuinely life-or-death situations only.",
+        "B": "Incorrect. \"Any medical procedure\" over-generalises the exception far beyond its actual scope — consent is still required for the overwhelming majority of medical procedures, even urgent ones that are not life-threatening.",
+        "C": "Incorrect. Non-life-threatening operations still require consent even under time pressure, since the emergency exception's justification (imminent death without treatment) does not apply.",
+        "D": "Incorrect. Cosmetic surgery is elective by definition and always requires consent; it is never the kind of situation the emergency exception was designed for."
+      },
+      "main_concept": "CON-POP-0933BE06626CF2",
+      "concept_ids": ["CON-POP-0933BE06626CF2"],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that the emergency exception to informed consent applies specifically to lifesaving operations.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Informed consent",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"9) A\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus"
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-BIOETHICS-PRINCIPLES"]
+    },
+    {
+      "key": "pp1-zag24-q10-conflict-resolution-compromising",
+      "page": 3,
+      "title": "Short-term-fix conflict-resolution strategy",
+      "question": "A conflict-resolution strategy which allows you to resolve a problem in the short-term while working toward a long-term solution:",
+      "options": {
+        "A": "Competing",
+        "B": "Compromising",
+        "C": "Accommodating",
+        "D": "Avoiding"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Competing describes one side winning outright, an approach that resolves nothing collaboratively and is not oriented toward any long-term solution.",
+        "B": "Incorrect textbook-wise, but this is the source's own printed key of \"C\" mapped to the third-listed option, Accommodating — note that the stem's own definition (short-term fix while working toward a longer-term solution) is the standard definition of compromising, not accommodating. This mismatch is flagged in the concept's own uncertainty field; the printed key stands as printed per LANE-CARD.md §7, but the module's teaching content documents the textbook-correct fact rather than silently reproducing the mismatch as if uncontested.",
+        "C": "Correct as printed (source key). The page's own printed key line reads \"10) C\", indexing this position, labelled \"Accommodating\" in this paper's option list. Textbook conflict-resolution theory instead defines this short-term-fix-while-working-toward-a-long-term-solution description as compromising (a mutual, partial concession), not accommodating (fully yielding to the other party) — flagged for reviewer attention rather than silently resolved.",
+        "D": "Incorrect. Avoiding means not engaging with the conflict at all, which resolves nothing, whether short- or long-term."
+      },
+      "main_concept": "CON-POP-1F313AC6F67599",
+      "concept_ids": ["CON-POP-1F313AC6F67599"],
+      "contextual_concept_ids": ["CON-POP-0116DF677ECEEF"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Moderate",
+      "learning_objective": "State the textbook definition of compromising as a short-term fix pursued alongside a longer-term solution, and recognise this source's printed-key/textbook-definition mismatch.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"10) C\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus",
+        "uncertainty": "Printed key indexes option C (\"Accommodating\") by position, but the stem's own definition matches the textbook definition of compromising (option B), not accommodating. Printed keys stand as printed per LANE-CARD.md §7; flagged for reviewer/department-book cross-check."
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TEAM-LEADERSHIP"]
+    },
+    {
+      "key": "pp1-zag24-q11-professionalism-public-trust",
+      "page": 3,
+      "title": "Why professionalism matters",
+      "question": "Maintaining professionalism is important for medical students and doctors to:",
+      "options": {
+        "A": "Create a competitive environment among colleagues",
+        "B": "Challenge the authority of senior healthcare professionals",
+        "C": "Support the trust the public has in doctors",
+        "D": "Prioritize personal interests over patient care"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Professionalism norms discourage inter-colleague competitiveness in favour of collaboration; fostering competition is not a purpose professionalism serves.",
+        "B": "Incorrect. Professionalism does not exist to challenge senior authority — appropriate escalation of concerns is different from generalised challenge to authority as a professionalism goal.",
+        "C": "Correct. Maintaining professionalism is important because it supports the trust the public places in doctors as a group — patients and society rely on the profession collectively upholding standards for that trust to be warranted. This public-trust rationale is professionalism's outward-facing purpose, distinguishing it from the internally-focused, and actively discouraged, behaviours in the other options. It is the answer that describes a genuine positive function of professionalism.",
+        "D": "Incorrect. Prioritizing personal interests over patient care is precisely what professionalism norms are designed to prevent, not something professionalism serves."
+      },
+      "main_concept": "CON-POP-BA335133348060",
+      "concept_ids": ["CON-POP-BA335133348060"],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Professional duties",
+      "difficulty": "Easy",
+      "learning_objective": "State that maintaining professionalism supports the public's trust in doctors.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Professional duties",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"11) C\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus"
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-zag24-q12-self-assessment-best-method-reflective",
+      "page": 3,
+      "title": "Best method for self-assessment",
+      "question": "The best method for self-assessment:",
+      "options": {
+        "A": "Reflective practices",
+        "B": "Ignoring mistakes",
+        "C": "Peer evaluations",
+        "D": "External evaluations"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Reflective practice — deliberately reviewing one's own performance and reasoning after an event — is the best method for self-assessment because it is the learner's own structured self-reflection, matching the definition of self-assessment itself. Peer and external evaluation are valuable feedback sources, but they rely on someone else's judgment rather than the learner assessing their own performance. Reflective practice is the method that keeps the assessment genuinely self-directed.",
+        "B": "Incorrect. Ignoring mistakes is not a method of assessment at all — it is the absence of assessment.",
+        "C": "Incorrect. Peer evaluation is a valuable feedback source, but it is assessment by someone else, not self-assessment.",
+        "D": "Incorrect. External evaluation, like peer evaluation, is judgment from outside the learner, not the learner's own self-assessment process."
+      },
+      "main_concept": "CON-POP-C1662B63DDA48A",
+      "concept_ids": ["CON-POP-C1662B63DDA48A"],
+      "contextual_concept_ids": ["CON-POP-57938398EC5C2F"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Assessment and feedback tools",
+      "difficulty": "Easy",
+      "learning_objective": "State that reflective practice is the best method for self-assessment.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Assessment and feedback tools",
+      "field_notes": {
+        "keySource": "printed key line at bottom of page (\"12) A\"), Zag P.P1 Final 2024.pdf",
+        "sourceProvenance": "Zagazig main campus"
+      },
+      "source_citation": "Zag P.P1 Final 2024.pdf (Zagazig University, main campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-fakous24-q01-physician-patient-relationship-onset",
+      "page": 1,
+      "title": "Onset of the physician-patient relationship",
+      "question": "The relationship between the physician and the patient starts when the patient:",
+      "options": {
+        "A": "Goes to the physician for care.",
+        "B": "Receives a bill for treatment.",
+        "C": "Diagnosed for the illness.",
+        "D": "Selects the physician."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Going for care is typically the first clinical encounter, a milestone that is close in time to, but conceptually distinct from, the relationship's formal onset.",
+        "B": "Incorrect. Receiving a bill is an administrative consequence that occurs well after the relationship has already begun, not its starting point.",
+        "C": "Incorrect. Being diagnosed happens even later in the clinical process, after the relationship and the encounter that produced the diagnosis have both already started.",
+        "D": "Correct. The physician-patient relationship is formally considered to begin at the point the patient selects the physician, since selection/acceptance is the moment both parties enter into the relationship, even before any clinical activity has occurred. This distinguishes the relationship's legal and ethical onset from its later clinical or administrative milestones. Selecting the physician is the earliest of the four options in the actual sequence of events."
+      },
+      "main_concept": "CON-POP-9989FDD0F11529",
+      "concept_ids": ["CON-POP-9989FDD0F11529"],
+      "contextual_concept_ids": ["CON-POP-CB4F8F21622C78"],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Professional duties",
+      "difficulty": "Moderate",
+      "learning_objective": "State that the physician-patient relationship begins when the patient selects the physician.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Physician-patient relationship",
+      "field_notes": {
+        "keySource": "light-blue background highlight over option d, OCR p1 + render — force confirmed, Fakous P.P1 Final 2024.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "Fakous P.P1 Final 2024.pdf (Zagazig University, Fakous campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-fakous24-q02-vertical-equity-definition",
+      "page": 1,
+      "title": "Definition of vertical equity",
+      "question": "Working based on need and the fact that different social groups have different health needs and some of which require more health care than others is called:",
+      "options": {
+        "A": "Equality.",
+        "B": "Horizontal equity.",
+        "C": "Vertical equity.",
+        "D": "Integrity."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Equality means identical treatment regardless of differing need, the opposite of the need-based differentiation this stem describes.",
+        "B": "Incorrect. Horizontal equity means equal treatment for people with equal need, a related but distinct principle from allocating differently across groups with different needs.",
+        "C": "Correct. Vertical equity is the principle of allocating health resources according to differing need, recognising that different social groups require different amounts of healthcare and providing proportionally rather than identically. This is exactly the need-based differentiation the stem describes. It is distinguished from horizontal equity by operating across groups with unequal needs, not within a group of equal need.",
+        "D": "Incorrect. Integrity is an unrelated professional value about honesty and consistency, not a resource-allocation principle."
+      },
+      "main_concept": "CON-POP-D35A58688EE0E0",
+      "concept_ids": ["CON-POP-D35A58688EE0E0"],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "Define vertical equity as need-based differential care, distinguishing it from horizontal equity and equality.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Bioethical principles",
+      "field_notes": {
+        "keySource": "light-blue background highlight over option c, OCR p1 + render — force confirmed, Fakous P.P1 Final 2024.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "Fakous P.P1 Final 2024.pdf (Zagazig University, Fakous campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-BIOETHICS-PRINCIPLES"]
+    },
+    {
+      "key": "pp1-fakous24-q03-justice-organ-transplant-allocation",
+      "page": 1,
+      "title": "Justice in organ transplant allocation",
+      "question": "The medical ethic related to allocating limited organ transplants without discrimination based on race, gender, socioeconomic status, ethnicity, religion, or any other social category, is .......",
+      "options": {
+        "A": "Autonomy",
+        "B": "Beneficence",
+        "C": "Non-maleficence",
+        "D": "Justice"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Autonomy concerns respecting a patient's own informed choices, not how a scarce resource is allocated across a population.",
+        "B": "Incorrect. Beneficence concerns acting for a specific patient's benefit, not the fairness of a distribution rule applied across candidates.",
+        "C": "Incorrect. Non-maleficence concerns avoiding harm to a patient, a different concern from allocation fairness.",
+        "D": "Correct. Justice is the bioethical principle governing fair, non-discriminatory allocation of scarce resources such as organ transplants — exactly the allocation-without-discrimination scenario the stem describes. Among the four core bioethical principles, only justice specifically addresses distribution/allocation dilemmas of this kind. The other three each concern a different ethical dimension of care that does not match this stem."
+      },
+      "main_concept": "CON-POP-10BB8CF5072B5A",
+      "concept_ids": ["CON-POP-10BB8CF5072B5A"],
+      "contextual_concept_ids": ["CON-POP-BED479E0FA27CA"],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "Identify justice as the bioethical principle behind non-discriminatory allocation of limited organ transplants.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Bioethical principles",
+      "field_notes": {
+        "keySource": "light-blue background highlight over option d, OCR p1 + render — force confirmed, Fakous P.P1 Final 2024.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "Fakous P.P1 Final 2024.pdf (Zagazig University, Fakous campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-BIOETHICS-PRINCIPLES"]
+    },
+    {
+      "key": "pp1-fakous24-q04-mental-capacity-consent-proxy-physician",
+      "page": 1,
+      "title": "Consent proxy in mental incapacity",
+      "question": "In mental disease which of the following has the right to give permission on behalf of that patient:",
+      "options": {
+        "A": "Friends.",
+        "B": "His physician.",
+        "C": "Legally authority",
+        "D": "Neighbors."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Friends have no formal standing to consent on a patient's behalf regardless of the closeness of the relationship.",
+        "B": "Correct as marked in this source. The highlighted key names the patient's own treating physician as holding the right to consent on the patient's behalf in mental disease, reflecting the physician's direct clinical relationship and duty of care. Note this is flagged for reviewer attention: many medical-ethics curricula instead expect a court-appointed or other legal authority as the proxy for an incapacitated patient's consent, so this fact is worth a department-book cross-check before publication rather than being treated as beyond question.",
+        "C": "Not selected in this source (see the correct-answer explanation for why this option is worth a second look) — \"legally authority\" (a court-appointed guardian or similar legal proxy) is the answer many medical-ethics curricula would expect for incapacitated-patient consent.",
+        "D": "Incorrect. Neighbors, like friends, have no formal standing to consent on a patient's behalf."
+      },
+      "main_concept": "CON-POP-BCB8B02BF5DBA2",
+      "concept_ids": ["CON-POP-BCB8B02BF5DBA2"],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State, with reviewer-flagged uncertainty, that this source names the patient's own physician as the consent proxy in mental incapacity.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Consent and capacity",
+      "field_notes": {
+        "keySource": "light-blue background highlight over option b, OCR p1 + render — force confirmed, Fakous P.P1 Final 2024.pdf",
+        "sourceProvenance": "Fakous campus",
+        "uncertainty": "\"Legally authority\" (option c) is the answer many medical-ethics curricula would expect; this source's single, unambiguous highlight instead names the treating physician. Printed/highlighted keys stand per LANE-CARD.md §7, flagged for department-book cross-check."
+      },
+      "source_citation": "Fakous P.P1 Final 2024.pdf (Zagazig University, Fakous campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-BIOETHICS-PRINCIPLES"]
+    },
+    {
+      "key": "pp1-fakous24-q05-checklist-tool-student-satisfaction",
+      "page": 1,
+      "title": "What a checklist tool assesses (Fakous)",
+      "question": "Checklist tool can be used to assess:",
+      "options": {
+        "A": "Annual student survey",
+        "B": "Student attendance rate",
+        "C": "Student satisfaction",
+        "D": "Student graduation rate"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. An annual student survey is a separate, standalone data-collection instrument, not something a checklist is used to conduct.",
+        "B": "Incorrect. Attendance rate is a longitudinal administrative metric tracked by a separate record system, not a checklist's purpose.",
+        "C": "Correct. A checklist records whether specific, predefined criteria were met during an observed encounter, suiting a point-of-encounter satisfaction rating. This is the same fact this module's Zagazig main-campus Final paper also marks, with the options reordered, confirming it is a genuinely shared, stable fact rather than a one-paper quirk. Satisfaction is the only option here that is itself an item-level judgment rather than a longitudinal administrative record.",
+        "D": "Incorrect. Graduation rate is an institution-level outcome measured across an entire programme, far removed from a checklist's point-of-encounter scope."
+      },
+      "main_concept": "CON-POP-34609C72D29B49",
+      "concept_ids": ["CON-POP-34609C72D29B49"],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Assessment and feedback tools",
+      "difficulty": "Easy",
+      "learning_objective": "State that a checklist tool is used to assess student satisfaction, not attendance or graduation rate.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Assessment and feedback tools",
+      "field_notes": {
+        "keySource": "light-blue background highlight over option c, OCR p1 + render — force confirmed, Fakous P.P1 Final 2024.pdf",
+        "sourceProvenance": "Fakous campus",
+        "overlay": "same fact as pp1-zag24-q01, options reordered — shared concept CON-POP-34609C72D29B49"
+      },
+      "source_citation": "Fakous P.P1 Final 2024.pdf (Zagazig University, Fakous campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-fakous24-q06-leadership-negotiation-conflicting-interests",
+      "page": 2,
+      "title": "Negotiation as a leadership skill",
+      "question": "Regarding leadership skills, understanding the interests of all involved parties and working to reach a solution that satisfies each one is referred to:",
+      "options": {
+        "A": "Conflict-resolution",
+        "B": "Communication",
+        "C": "Negotiation",
+        "D": "Reliability"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. \"Conflict-resolution\" is the broader category this specific skill belongs to, but the stem names a more specific process than the general category alone.",
+        "B": "Incorrect. Communication is the means by which interests are exchanged, but the stem describes a goal-directed process of reaching a mutually satisfying solution, which is more specific than communication alone.",
+        "C": "Correct. Negotiation is specifically the leadership skill of understanding all parties' interests and working toward a solution that satisfies each one. This goal-directed, multi-party-interest-satisfying process is precisely what negotiation names, distinguishing it from the broader category (conflict-resolution) and from the means (communication) that supports it.",
+        "D": "Incorrect. Reliability is an unrelated personal trait about consistency and dependability, not a process for reconciling multiple parties' interests."
+      },
+      "main_concept": "CON-POP-0116DF677ECEEF",
+      "concept_ids": ["CON-POP-0116DF677ECEEF"],
+      "contextual_concept_ids": ["CON-POP-1F313AC6F67599"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Moderate",
+      "learning_objective": "Identify negotiation as the leadership skill of understanding all parties' interests and reaching a mutually satisfying solution.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "light-blue background highlight over option c, OCR p1 + render — force confirmed, Fakous P.P1 Final 2024.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "Fakous P.P1 Final 2024.pdf (Zagazig University, Fakous campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TEAM-LEADERSHIP"]
+    },
+    {
+      "key": "pp1-fakous24-q07-storming-stage-team-development",
+      "page": 2,
+      "title": "Storming stage of team development (Fakous)",
+      "question": "Conflict between team members and some uprising against the assigned tasks occur in:",
+      "options": {
+        "A": "Adjourning",
+        "B": "Forming",
+        "C": "Performing",
+        "D": "Storming"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Adjourning is the final stage where the team disbands after its task is complete, not the conflict stage.",
+        "B": "Incorrect. Forming is the initial orientation stage, before roles and authority have been contested enough to produce real conflict.",
+        "C": "Incorrect. Performing is the stage where the team functions smoothly and productively, the opposite of the friction this stem describes.",
+        "D": "Correct. Storming is the stage defined by conflict between team members and resistance to assigned tasks, as members test roles, authority and working norms. This is the same fact this module's Zagazig main-campus Final paper also marks, with a different distractor set, confirming it as a stable, shared fact. The stem's own language of conflict and uprising against assigned tasks maps directly onto storming's defining feature."
+      },
+      "main_concept": "CON-POP-80EF60232916AF",
+      "concept_ids": ["CON-POP-80EF60232916AF"],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "Identify storming as the team-development stage marked by conflict and resistance to assigned tasks.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "light-blue background highlight over option d, OCR p1 + render — force confirmed, Fakous P.P1 Final 2024.pdf",
+        "sourceProvenance": "Fakous campus",
+        "overlay": "same fact as pp1-zag24-q04, different distractor set — shared concept CON-POP-80EF60232916AF"
+      },
+      "source_citation": "Fakous P.P1 Final 2024.pdf (Zagazig University, Fakous campus, Faculty of Medicine), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TEAM-LEADERSHIP"]
+    },
+    {
+      "key": "pp1-past-q01-self-awareness-decision-quality",
+      "page": 1,
+      "title": "Remedy for a pattern of wrong decisions",
+      "question": "Mona is a medical student, she usually makes wrong decisions, does not have the ability to understand her motivations preferences, or personality. What does the need to do?",
+      "options": {
+        "A": "To spend more hours in studying her lessons",
+        "B": "To increase her level of self-awareness",
+        "C": "To stop having fun with her friends",
+        "D": "To ignore this problem"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Studying more hours addresses a knowledge gap, not the self-understanding gap the stem specifically describes.",
+        "B": "Correct. A person who habitually makes wrong decisions because they cannot understand their own motivations, preferences or personality needs to increase their self-awareness — the deficit described is specifically about self-understanding, and self-awareness is the construct that names it. Increasing self-awareness addresses the actual gap, unlike the other options, which either misdiagnose the problem or avoid it entirely. This is why self-awareness, not general study effort, is the targeted remedy.",
+        "C": "Incorrect. Withdrawing from friends does not address a self-understanding deficit and has no established link to improving decision-making of this kind.",
+        "D": "Incorrect. Ignoring the problem addresses nothing and would leave the underlying pattern of wrong decisions unchanged."
+      },
+      "main_concept": "CON-POP-78B3B7230B06FB",
+      "concept_ids": ["CON-POP-78B3B7230B06FB"],
+      "contextual_concept_ids": ["CON-POP-E6469CF6638E93"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Self-awareness and emotional intelligence",
+      "difficulty": "Easy",
+      "learning_objective": "State that increasing self-awareness is the remedy for a pattern of wrong decisions rooted in not understanding one's own motivations.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Self-awareness and emotional intelligence",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option B, ad hoc PyMuPDF detection + render — force confirmed p1, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-SELF-AWARENESS-EQ"]
+    },
+    {
+      "key": "pp1-past-q02-self-awareness-goal-setting-outcome",
+      "page": 1,
+      "title": "Outcome of good self-awareness",
+      "question": "Good level of self-awareness leads to:",
+      "options": {
+        "A": "Failure in relationships with others",
+        "B": "Refusing diversity",
+        "C": "Making wrong decisions",
+        "D": "Setting appropriate life and career goals"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Failure in relationships is a negative outcome that contrasts with, rather than results from, a good level of self-awareness.",
+        "B": "Incorrect. Refusing diversity is an unrelated negative behaviour with no established link to good self-awareness.",
+        "C": "Incorrect. Making wrong decisions is the outcome more associated with a lack of self-awareness, the opposite of what a good level produces.",
+        "D": "Correct. A good level of self-awareness leads to setting appropriate life and career goals, since understanding one's own motivations, values and abilities is what allows a person to set goals that genuinely fit them. This is the one positive, plausible consequence among the four options, and it directly follows from what self-awareness enables a person to do."
+      },
+      "main_concept": "CON-POP-54C99E23E2EEE9",
+      "concept_ids": ["CON-POP-54C99E23E2EEE9"],
+      "contextual_concept_ids": ["CON-POP-6C0835DD447EE8"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Self-awareness and emotional intelligence",
+      "difficulty": "Easy",
+      "learning_objective": "State that a good level of self-awareness leads to setting appropriate life and career goals.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Self-awareness and emotional intelligence",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option D, ad hoc PyMuPDF detection + render — force confirmed p1, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-SELF-AWARENESS-EQ"]
+    },
+    {
+      "key": "pp1-past-q03-self-awareness-sources-behavior-perception",
+      "page": 1,
+      "title": "What affects self-awareness",
+      "question": "We can gain self-awareness from different sources, which of the following statements describes these sources correctly?",
+      "options": {
+        "A": "Negative situations don't help us to gain self-awareness",
+        "B": "All people have the same level of self-awareness",
+        "C": "Self-awareness is affected by behavior and perception",
+        "D": "You cannot improve your level of self-awareness"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Negative situations are, in fact, a real source people draw self-awareness from, contradicting this option's absolute claim.",
+        "B": "Incorrect. Self-awareness varies considerably between individuals; it is not uniform across all people.",
+        "C": "Correct. Self-awareness is affected by, and can be gained from, one's own behaviour and perception — both how a person acts and how they perceive themselves and situations shape their self-understanding. This is the correctly-hedged, affirmative statement among four options, three of which are false absolutes (\"don't help\", \"same level\", \"cannot improve\"). Note the source itself prints this option's letter as \"E\" in an A/B/E/C sequence, a labeling slip in the original exam rather than a fifth real option.",
+        "D": "Incorrect. Self-awareness is described as buildable and improvable (for example, through self-analysis), directly contradicting this option's claim that it cannot be changed."
+      },
+      "main_concept": "CON-POP-04C8461A94B246",
+      "concept_ids": ["CON-POP-04C8461A94B246"],
+      "contextual_concept_ids": ["CON-POP-2605D6A5A4AAD8"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Self-awareness and emotional intelligence",
+      "difficulty": "Moderate",
+      "learning_objective": "State that self-awareness is affected by behaviour and perception, rejecting false-absolute distractors about it.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Self-awareness and emotional intelligence",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over the option reading \"Self-awareness is affected by behavior and perception\" (printed letter \"E\" in the source's own A/B/E/C sequence), ad hoc PyMuPDF detection + render — force confirmed p1, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus",
+        "uncertainty": "Source labels the correct option \"E\" instead of the expected \"C\" in its own A/B/_/C sequence — a labeling defect in the original exam, not a key ambiguity."
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-SELF-AWARENESS-EQ"]
+    },
+    {
+      "key": "pp1-past-q04-emotional-intelligence-definition",
+      "page": 1,
+      "title": "Definition of emotional intelligence",
+      "question": "\"Ability to understand and manage you own emotions, and those of the People around you\" this is the definition of:",
+      "options": {
+        "A": "Time management",
+        "B": "Self-awareness",
+        "C": "Emotional intelligence",
+        "D": "Leadership"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Time management concerns organising tasks and time, unrelated to understanding or managing emotions.",
+        "B": "Incorrect. Self-awareness concerns understanding one's own motivations and personality, a narrower component of emotional intelligence, not the same as managing both one's own and others' emotions.",
+        "C": "Correct. Emotional intelligence is defined as the ability to understand and manage one's own emotions, and those of the people around oneself. This definition's inclusion of both self- and other-directed emotional understanding is exactly what distinguishes emotional intelligence from the narrower construct of self-awareness. The stem's explicit mention of \"those of the people around you\" is the key phrase pointing to EQ rather than self-awareness alone.",
+        "D": "Incorrect. Leadership concerns mobilising and influencing a group toward results, a related but distinct skill from understanding and managing emotions."
+      },
+      "main_concept": "CON-POP-4F509DABFFC4B1",
+      "concept_ids": ["CON-POP-4F509DABFFC4B1"],
+      "contextual_concept_ids": ["CON-POP-04C8461A94B246"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Self-awareness and emotional intelligence",
+      "difficulty": "Moderate",
+      "learning_objective": "State the definition of emotional intelligence as understanding and managing one's own and others' emotions.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Self-awareness and emotional intelligence",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option C, ad hoc PyMuPDF detection + render — force confirmed p1, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-SELF-AWARENESS-EQ"]
+    },
+    {
+      "key": "pp1-past-q05-goal-setting-definition",
+      "page": 1,
+      "title": "Definition of goal setting",
+      "question": "\"A mean to identify out priorities (life, work) and develop strategies to attain personal and professional objectives\", this is the definition of:",
+      "options": {
+        "A": "Leadership",
+        "B": "Goal setting",
+        "C": "Emotional intelligence",
+        "D": "Management"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Leadership concerns mobilising and influencing a group toward results, not identifying one's own priorities and strategies.",
+        "B": "Correct. Goal setting is defined as a means to identify one's priorities in life and work, and to develop strategies to attain those personal and professional objectives. The stem's own language — identifying priorities and developing strategies to attain objectives — maps directly onto the standard definition of goal setting. This is a narrower, earlier step than the broader coordination that \"management\" implies.",
+        "C": "Incorrect. Emotional intelligence concerns understanding and managing emotions, not identifying priorities or objectives.",
+        "D": "Incorrect. Management is a broader coordination function over resources/processes, not the specific priority-identification-and-strategy process this stem describes."
+      },
+      "main_concept": "CON-POP-6C0835DD447EE8",
+      "concept_ids": ["CON-POP-6C0835DD447EE8"],
+      "contextual_concept_ids": ["CON-POP-54C99E23E2EEE9"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Self-awareness and emotional intelligence",
+      "difficulty": "Moderate",
+      "learning_objective": "State the definition of goal setting as identifying priorities and developing strategies to attain objectives.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Self-awareness and emotional intelligence",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option B, ad hoc PyMuPDF detection + render — force confirmed p1, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-SELF-AWARENESS-EQ"]
+    },
+    {
+      "key": "pp1-past-q11-time-management-definition",
+      "page": 2,
+      "title": "Definition of time management",
+      "question": "Time management, means to:",
+      "options": {
+        "A": "Stop have fun and work all of the day",
+        "B": "Spend the time available to you much more effectively",
+        "C": "Do everything for yourselves and never delegate",
+        "D": "Do your tasks quickly"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Eliminating all leisure to work constantly is not what time management means, and is not an effective or sustainable strategy.",
+        "B": "Correct. Time management means spending the time available to you much more effectively — using time well, which can include delegating tasks and preserving rest, not maximising hours worked. This is the correctly-hedged definition among four options that each describe a common misconception about time management. Effective use of time, not more time or faster work, is the core idea.",
+        "C": "Incorrect. Refusing to delegate is a common time-management mistake, not the definition of managing time well.",
+        "D": "Incorrect. Doing tasks quickly conflates speed with effectiveness; time management is about prioritisation, not simply working faster."
+      },
+      "main_concept": "CON-POP-CB0D0B3F25B6A3",
+      "concept_ids": ["CON-POP-CB0D0B3F25B6A3"],
+      "contextual_concept_ids": ["CON-POP-D28ED0B42AA58D"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Time and stress management",
+      "difficulty": "Easy",
+      "learning_objective": "State that time management means using available time more effectively, not eliminating leisure or refusing delegation.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Time and stress management",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option B, ad hoc PyMuPDF detection + render — force confirmed p2, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TIME-STRESS-MANAGEMENT"]
+    },
+    {
+      "key": "pp1-past-q12-time-management-prioritization",
+      "page": 2,
+      "title": "Time management prioritization principle",
+      "question": "Regarding time management, which of the followings is correct?",
+      "options": {
+        "A": "You need to decide what is really important and what can wait to effectively manage your time",
+        "B": "Effective persons do everything for themselves and never delegate",
+        "C": "Time management is an inborn skill that can't be acquired or improved",
+        "D": "It is preferred to spend most of your time in the low value activities"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Effective time management requires deciding what is really important and what can wait — a deliberate prioritization process, not an inborn trait or a habit of refusing delegation. This is the correctly-hedged statement among four options, three of which are false claims about time management. Prioritization is the mechanism that makes time management actionable day to day.",
+        "B": "Incorrect. Effective people commonly delegate tasks rather than doing everything themselves; refusing to delegate is a common time-management failure.",
+        "C": "Incorrect. Time management is a learnable, improvable skill, not a fixed inborn trait.",
+        "D": "Incorrect. Effective time management means minimising, not maximising, time spent on low-value activities."
+      },
+      "main_concept": "CON-POP-D28ED0B42AA58D",
+      "concept_ids": ["CON-POP-D28ED0B42AA58D"],
+      "contextual_concept_ids": ["CON-POP-CB0D0B3F25B6A3"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Time and stress management",
+      "difficulty": "Easy",
+      "learning_objective": "State that effective time management means deciding what is important versus what can wait.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Time and stress management",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option A, ad hoc PyMuPDF detection + render — force confirmed p2, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TIME-STRESS-MANAGEMENT"]
+    },
+    {
+      "key": "pp1-past-q13-stress-definition-expectation-reality-gap",
+      "page": 2,
+      "title": "Definition of stress",
+      "question": "Which is correct about stress?",
+      "options": {
+        "A": "All people will respond exactly the same way to stress",
+        "B": "Stress is the gap between our expectations and reality, it is a normal part of life",
+        "C": "Stress is not affected by time management",
+        "D": "There is only one source of stress"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Stress responses vary considerably between individuals; there is no uniform response.",
+        "B": "Correct. Stress is defined as the gap between our expectations and reality, and is described as a normal part of life. This definition explains why stress is both universal (everyone has expectations) and individually variable (everyone's reality and expectations differ), unlike the false-absolute claims in the other three options.",
+        "C": "Incorrect. Time management is one of the factors that can widen or narrow the gap between expectations and reality, so stress is affected by it, not independent of it.",
+        "D": "Incorrect. Stress has many possible sources (academic, personal, occupational, and more), not just one."
+      },
+      "main_concept": "CON-POP-24340652786086",
+      "concept_ids": ["CON-POP-24340652786086"],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Time and stress management",
+      "difficulty": "Easy",
+      "learning_objective": "State that stress is the gap between expectations and reality, and a normal part of life.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Time and stress management",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option B, ad hoc PyMuPDF detection + render — force confirmed p2, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TIME-STRESS-MANAGEMENT"]
+    },
+    {
+      "key": "pp1-past-q15-self-awareness-lack-consequence",
+      "page": 2,
+      "title": "Consequence of lacking self-awareness",
+      "question": "Lack of self-awareness can result in:",
+      "options": {
+        "A": "Wrong decisions that lead to negative consequences",
+        "B": "Success in life",
+        "C": "Good relationships",
+        "D": "Knowing what you are good at"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Lack of self-awareness can result in wrong decisions that lead to negative consequences — without understanding one's own motivations and abilities, decision-making suffers, producing outcomes the person did not intend. This is the one negative, plausible consequence among the four options, matching the stem's own negative framing (\"lack ... result in\"). The other three options each describe a positive outcome, the opposite of what a deficit would produce.",
+        "B": "Incorrect. Success in life is a positive outcome more associated with good, not lacking, self-awareness.",
+        "C": "Incorrect. Good relationships are likewise a positive outcome that lacking self-awareness would tend to undermine, not produce.",
+        "D": "Incorrect. Knowing what one is good at is itself a component of self-awareness, not a consequence of lacking it."
+      },
+      "main_concept": "CON-POP-E6469CF6638E93",
+      "concept_ids": ["CON-POP-E6469CF6638E93"],
+      "contextual_concept_ids": ["CON-POP-78B3B7230B06FB"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Self-awareness and emotional intelligence",
+      "difficulty": "Easy",
+      "learning_objective": "State that a lack of self-awareness can result in wrong decisions leading to negative consequences.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Self-awareness and emotional intelligence",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option A, ad hoc PyMuPDF detection + render — force confirmed p2, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-SELF-AWARENESS-EQ"]
+    },
+    {
+      "key": "pp1-past-q16-todo-list-prioritization-tool",
+      "page": 2,
+      "title": "To-do list as a prioritization tool",
+      "question": "A tool that helps you decide what is really important to get done today, and what can wait:",
+      "options": {
+        "A": "Goal",
+        "B": "To do list",
+        "C": "Delegation",
+        "D": "Patriot rule"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A goal is a broader life/career target operating at a longer time horizon than a single day's task list.",
+        "B": "Correct. A to-do list is the tool named for helping decide what is really important to get done today versus what can wait — a daily-prioritization tool, distinct from a longer-term goal, the skill of delegation, or an implausible distractor. The stem's own emphasis on \"today\" and \"what can wait\" points specifically to a daily prioritization tool.",
+        "C": "Incorrect. Delegation is the skill of assigning tasks to others, not a tool for prioritizing one's own tasks.",
+        "D": "Incorrect. \"Patriot rule\" has no standard meaning as a time-management concept in this context."
+      },
+      "main_concept": "CON-POP-BE022D3804274C",
+      "concept_ids": ["CON-POP-BE022D3804274C"],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Time and stress management",
+      "difficulty": "Easy",
+      "learning_objective": "Identify a to-do list as the tool for daily prioritization of what is important versus what can wait.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Time and stress management",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option B, ad hoc PyMuPDF detection + render — force confirmed p2, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TIME-STRESS-MANAGEMENT"]
+    },
+    {
+      "key": "pp1-past-q17-time-management-productive-use",
+      "page": 3,
+      "title": "Definition of time management (productive use)",
+      "question": "Time management, means to:",
+      "options": {
+        "A": "Stop having fun and work all of the day",
+        "B": "Do everything for yourselves and never delegate",
+        "C": "Spend the time available to you much more productively",
+        "D": "Do your tasks quickly"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Eliminating all leisure to work constantly is not what time management means.",
+        "B": "Incorrect. Refusing to delegate is a common time-management mistake, not its definition.",
+        "C": "Correct. Time management means spending the time available to you much more productively — the same underlying fact this bank's own Q11 tests with \"effectively\" instead of \"productively\", confirming it is a stable, repeated fact within the same source rather than a wording coincidence. Productive use of time, not more time or faster work, is the core idea.",
+        "D": "Incorrect. Doing tasks quickly conflates speed with effectiveness; time management is about prioritisation, not simply working faster."
+      },
+      "main_concept": "CON-POP-CB0D0B3F25B6A3",
+      "concept_ids": ["CON-POP-CB0D0B3F25B6A3"],
+      "contextual_concept_ids": ["CON-POP-D28ED0B42AA58D"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Time and stress management",
+      "difficulty": "Easy",
+      "learning_objective": "State that time management means using available time more productively, not eliminating leisure or refusing delegation.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Time and stress management",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option C, ad hoc PyMuPDF detection + render — force confirmed p3, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus",
+        "overlay": "same fact as pp1-past-q11, \"productively\" not \"effectively\" — shared concept CON-POP-CB0D0B3F25B6A3"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TIME-STRESS-MANAGEMENT"]
+    },
+    {
+      "key": "pp1-past-q19-democratic-leadership-style",
+      "page": 3,
+      "title": "Democratic leadership style",
+      "question": "In democratic leadership style, the leader:",
+      "options": {
+        "A": "Does not ask for a vote to get an important decision",
+        "B": "Encourages others to volunteer for responsibilities and confirms commitments",
+        "C": "Hogs all of the jobs and responsibilities",
+        "D": "Uses silence and non-verbal expression rather than conversation and speaking"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Withholding a vote on important decisions describes an autocratic, not democratic, style.",
+        "B": "Correct. Democratic leadership style is defined by the leader encouraging others to volunteer for responsibilities and confirming their commitments — an actively participatory approach that seeks buy-in from the group. This active solicitation of votes/commitments is exactly what distinguishes democratic from autocratic leadership behaviours.",
+        "C": "Incorrect. Hoarding all jobs and responsibilities describes an autocratic style, the opposite of democratic delegation and participation.",
+        "D": "Incorrect. Relying on silence and non-verbal cues instead of open discussion describes a laissez-faire or withdrawn style, not the actively participatory democratic style."
+      },
+      "main_concept": "CON-POP-81EC3F32942A5A",
+      "concept_ids": ["CON-POP-81EC3F32942A5A"],
+      "contextual_concept_ids": ["CON-POP-061AD45B48F65F"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Moderate",
+      "learning_objective": "Describe democratic leadership style as encouraging volunteering and confirming commitments.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option B, ad hoc PyMuPDF detection + render — force confirmed p3, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TEAM-LEADERSHIP"]
+    },
+    {
+      "key": "pp1-past-q20-leadership-definition-mobilize-influence",
+      "page": 3,
+      "title": "Definition of leadership",
+      "question": "The ability of a person to mobilize and/or influence group of Individuals to achievers the results, this refers to:",
+      "options": {
+        "A": "Management",
+        "B": "Membership",
+        "C": "Administration",
+        "D": "Leadership"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Management is a broader coordination function over resources and processes, distinct from the specific mobilize-and-influence-people function the stem describes.",
+        "B": "Incorrect. Membership means belonging to a group, without necessarily directing or influencing it.",
+        "C": "Incorrect. Administration concerns organisational and operational oversight, not specifically mobilizing/influencing people toward results.",
+        "D": "Correct. Leadership is defined as the ability of a person to mobilize and/or influence a group of individuals to achieve results. This mobilize-and-influence definition is what distinguishes leadership from management, membership and administration — a person can hold any of those roles without necessarily being a leader in this specific sense."
+      },
+      "main_concept": "CON-POP-061AD45B48F65F",
+      "concept_ids": ["CON-POP-061AD45B48F65F"],
+      "contextual_concept_ids": ["CON-POP-81EC3F32942A5A"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State the definition of leadership as mobilizing and/or influencing a group to achieve results.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option D, ad hoc PyMuPDF detection + render — force confirmed p3, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TEAM-LEADERSHIP"]
+    },
+    {
+      "key": "pp1-past-q21-core-team-definition",
+      "page": 3,
+      "title": "Definition of the core team",
+      "question": "Core team is …………………….",
+      "options": {
+        "A": "The group responsible for day to day operational management",
+        "B": "Formed for emerged or specific events",
+        "C": "Formed of members who are directly involved in caring for patients",
+        "D": "Formed of individuals such as cleaners or domestic staff"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Day-to-day operational management is a separate administrative function from direct clinical care, and describes a different tier of the care organisation.",
+        "B": "Incorrect. A group formed only for specific events describes an ad-hoc team, not the core team.",
+        "C": "Correct. The core team is the group of members directly involved in caring for patients — a clinical-involvement criterion, distinct from administrative, event-specific, or support-staff groupings. This is what defines a team as \"core\" rather than peripheral to patient care.",
+        "D": "Incorrect. Support staff such as cleaners or domestic staff, while part of the wider care organisation, are not directly involved in caring for patients and so fall outside the core team as defined here."
+      },
+      "main_concept": "CON-POP-F442216AEE9CF5",
+      "concept_ids": ["CON-POP-F442216AEE9CF5"],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Moderate",
+      "learning_objective": "Define the core team as the members directly involved in patient care.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option C, ad hoc PyMuPDF detection + render — force confirmed p3, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-TEAM-LEADERSHIP"]
+    },
+    {
+      "key": "pp1-past-q22-goal-setting-definition-2",
+      "page": 3,
+      "title": "Definition of goal setting (repeat)",
+      "question": "\"A mean to identify our priorities (life, work) and develop strategies to attain personal and professional objectives\", this is the definition of:",
+      "options": {
+        "A": "Self-awareness",
+        "B": "Emotional intelligence",
+        "C": "Goal setting",
+        "D": "Management"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Self-awareness concerns understanding one's own motivations and personality, not identifying priorities/objectives specifically.",
+        "B": "Incorrect. Emotional intelligence concerns understanding and managing emotions, not identifying priorities or objectives.",
+        "C": "Correct. This is the identical fact this bank's own Q5 already tests with a nearly identical stem: goal setting is defined as a means to identify one's priorities and develop strategies to attain personal/professional objectives. The stem's own language maps directly onto this standard definition, distinguishing goal setting from the broader coordination function of management.",
+        "D": "Incorrect. Management is a broader coordination function over resources/processes, not the specific priority-identification process described here."
+      },
+      "main_concept": "CON-POP-6C0835DD447EE8",
+      "concept_ids": ["CON-POP-6C0835DD447EE8"],
+      "contextual_concept_ids": ["CON-POP-54C99E23E2EEE9"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Self-awareness and emotional intelligence",
+      "difficulty": "Moderate",
+      "learning_objective": "State the definition of goal setting as identifying priorities and developing strategies to attain objectives.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Self-awareness and emotional intelligence",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option C, ad hoc PyMuPDF detection + render — force confirmed p3, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus",
+        "overlay": "same fact as pp1-past-q05, options reordered — shared concept CON-POP-6C0835DD447EE8"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-SELF-AWARENESS-EQ"]
+    },
+    {
+      "key": "pp1-past-q23-student-patient-contact-conduct",
+      "page": 3,
+      "title": "Proper conduct on contact with patients",
+      "question": "On contact with patients, students should:",
+      "options": {
+        "A": "Seek permission from the responsible medical staff",
+        "B": "Explain that they are students",
+        "C": "Obtain consent to take a history",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Not sufficient alone. Seeking staff permission is one required element, but the stem's own best answer requires all three listed behaviours together.",
+        "B": "Not sufficient alone. Disclosing student status is likewise one required element among three, not the complete answer by itself.",
+        "C": "Not sufficient alone. Obtaining consent to take a history is also required, but again only one of the three elements the complete answer requires.",
+        "D": "Correct. Proper student-patient contact requires seeking permission from the responsible medical staff, disclosing that one is a student, and obtaining consent before taking a history — all three together, not any single one alone. Each of the three individual options is independently a correct behaviour, which is exactly why \"all of the above\" is the best answer rather than any one of them in isolation."
+      },
+      "main_concept": "CON-POP-030DEA3D6246D2",
+      "concept_ids": ["CON-POP-030DEA3D6246D2"],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Professional duties",
+      "difficulty": "Easy",
+      "learning_objective": "State that proper student-patient contact requires staff permission, disclosure of student status, and consent, together.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Professional duties",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option D, ad hoc PyMuPDF detection + render — force confirmed p3, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-BIOETHICS-PRINCIPLES"]
+    },
+    {
+      "key": "pp1-past-q25-confidentiality-breach-justified-exception",
+      "page": 4,
+      "title": "Justified breaches of confidentiality (exception)",
+      "question": "Conditions of justified breaches of confidentiality are all the followings EXCEPT:",
+      "options": {
+        "A": "With the patient consent",
+        "B": "For the public good in cases of infectious diseases like HIV",
+        "C": "For present the physician's knowledge and skills",
+        "D": "In courts of law as forensic experts"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Not the exception. Patient consent is a genuine, recognised justification for breaching confidentiality, so it is not the answer to an EXCEPT question.",
+        "B": "Not the exception. Public-good infectious-disease reporting (e.g. HIV) is a genuine, recognised justification, so it is not the answer either.",
+        "C": "Correct. Presenting the physician's own knowledge and skills is NOT a justified condition for breaching confidentiality — disclosing patient information to showcase expertise serves the physician's own interest, not any recognised public-good or legal justification. This is the one option, among four, that does not belong to the genuine justified-breach list, making it the correct answer to an EXCEPT question.",
+        "D": "Not the exception. Testimony in courts of law as a forensic expert is a genuine, recognised legal justification, so it is not the answer either."
+      },
+      "main_concept": "CON-POP-DAB775A3A5B37C",
+      "concept_ids": ["CON-POP-DAB775A3A5B37C"],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "Identify \"presenting the physician's own knowledge and skills\" as not a justified condition for breaching confidentiality.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Confidentiality",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option C, ad hoc PyMuPDF detection + render — force confirmed p4, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-BIOETHICS-PRINCIPLES"]
+    },
+    {
+      "key": "pp1-past-q26-physician-duty-to-colleagues",
+      "page": 4,
+      "title": "Physician duty towards colleagues",
+      "question": "One of the most important physician duties towards his colleagues is to:",
+      "options": {
+        "A": "Improve the standard of health through health education",
+        "B": "Educate his colleagues and transfer recent skills and knowledge to them",
+        "C": "Maintenance of health resources",
+        "D": "Report any infectious diseases that may harm the community"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Improving health standards through public health education is a duty owed to the community, not specifically to colleagues.",
+        "B": "Correct. One of the most important physician duties towards colleagues is to educate them and transfer recent skills and knowledge to them — a peer-directed duty distinct from duties owed to the wider community or health system. This is the one option specifically framed around the colleague relationship rather than the community or system level.",
+        "C": "Incorrect. Maintaining health resources is a system-level stewardship duty, not a duty specifically towards colleagues.",
+        "D": "Incorrect. Reporting infectious disease is a public-health/legal duty towards the community, not specifically towards colleagues."
+      },
+      "main_concept": "CON-POP-B8E59B7F92842B",
+      "concept_ids": ["CON-POP-B8E59B7F92842B"],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Professional duties",
+      "difficulty": "Moderate",
+      "learning_objective": "State that a physician's key duty to colleagues is to educate them and transfer skills/knowledge.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Professional duties",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option B, ad hoc PyMuPDF detection + render — force confirmed p4, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-PROFESSIONALISM-CORE"]
+    },
+    {
+      "key": "pp1-past-q27-self-awareness-decision-quality-2",
+      "page": 4,
+      "title": "Remedy for a pattern of wrong decisions (repeat)",
+      "question": "Mohamed is a medical student, he usually makes wrong decisions, does not have the ability to understand his motivations, preferences, or personality. What does he need to do?",
+      "options": {
+        "A": "To spend more hours in studying his lessons",
+        "B": "To stop having fun with his friends",
+        "C": "To increase his level of self-awareness",
+        "D": "To ignore this problem"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Studying more hours addresses a knowledge gap, not the self-understanding gap the stem specifically describes.",
+        "B": "Incorrect. Withdrawing from friends does not address a self-understanding deficit and has no established link to improving decision-making of this kind.",
+        "C": "Correct. This is the identical fact this bank's own Q1 already tests, with the stem's name and gender swapped and the options reordered: a person who habitually makes wrong decisions because they cannot understand their own motivations, preferences or personality needs to increase their self-awareness. The repetition across a gender-swapped stem confirms this is a stable, deliberately-repeated fact within the source bank.",
+        "D": "Incorrect. Ignoring the problem addresses nothing and would leave the underlying pattern of wrong decisions unchanged."
+      },
+      "main_concept": "CON-POP-78B3B7230B06FB",
+      "concept_ids": ["CON-POP-78B3B7230B06FB"],
+      "contextual_concept_ids": ["CON-POP-E6469CF6638E93"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Self-awareness and emotional intelligence",
+      "difficulty": "Easy",
+      "learning_objective": "State that increasing self-awareness is the remedy for a pattern of wrong decisions rooted in not understanding one's own motivations.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Self-awareness and emotional intelligence",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option C, ad hoc PyMuPDF detection + render — force confirmed p4, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus",
+        "overlay": "same fact as pp1-past-q01, gender-swapped stem, options reordered — shared concept CON-POP-78B3B7230B06FB"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-SELF-AWARENESS-EQ"]
+    },
+    {
+      "key": "pp1-past-q28-self-awareness-lack-consequence-2",
+      "page": 4,
+      "title": "Consequence of lacking self-awareness (repeat)",
+      "question": "Lack of self-awareness can result in:",
+      "options": {
+        "A": "Wrong decisions that lead to negative consequences",
+        "B": "Success in life",
+        "C": "Good relationships",
+        "D": "Knowing what you are good at"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This is the identical fact this bank's own Q15 already tests, with an identical stem and option set: lack of self-awareness can result in wrong decisions that lead to negative consequences. The exact repetition confirms this is a deliberately-repeated fact within the source bank, not a coincidence of wording.",
+        "B": "Incorrect. Success in life is a positive outcome more associated with good, not lacking, self-awareness.",
+        "C": "Incorrect. Good relationships are likewise a positive outcome that lacking self-awareness would tend to undermine, not produce.",
+        "D": "Incorrect. Knowing what one is good at is itself a component of self-awareness, not a consequence of lacking it."
+      },
+      "main_concept": "CON-POP-E6469CF6638E93",
+      "concept_ids": ["CON-POP-E6469CF6638E93"],
+      "contextual_concept_ids": ["CON-POP-78B3B7230B06FB"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Self-awareness and emotional intelligence",
+      "difficulty": "Easy",
+      "learning_objective": "State that a lack of self-awareness can result in wrong decisions leading to negative consequences.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Self-awareness and emotional intelligence",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option A, ad hoc PyMuPDF detection + render — force confirmed p4, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus",
+        "overlay": "identical stem/options to pp1-past-q15 — shared concept CON-POP-E6469CF6638E93"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-SELF-AWARENESS-EQ"]
+    },
+    {
+      "key": "pp1-past-q29-self-awareness-sources-self-analysis",
+      "page": 4,
+      "title": "Self-analysis as a source of self-awareness",
+      "question": "We can gain self-awareness from different sources, which of the following statements describes sources correctly?",
+      "options": {
+        "A": "Negative situations don't help us to gain self-awareness",
+        "B": "Self-analysis is an important source of self- awareness",
+        "C": "Self-awareness is not affected by behavior or perception",
+        "D": "The level of self-awareness cannot be changed"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Negative situations are, in fact, a real source people draw self-awareness from, contradicting this option's absolute claim.",
+        "B": "Correct. Self-analysis is an important source of self-awareness — deliberately examining one's own thoughts, actions and reactions is a genuine, active way to build self-understanding. This is the correctly-hedged, affirmative statement among four options, three of which are false absolutes. Note this is a distinct tested fact from this same bank's own Q3, which tests that self-awareness is affected by behaviour and perception — both are true, but they are two separate items, not one repeated.",
+        "C": "Incorrect. Self-awareness is, in fact, affected by behaviour and perception, directly contradicting this option's claim.",
+        "D": "Incorrect. Self-awareness is described as buildable and improvable, directly contradicting this option's claim that it cannot be changed."
+      },
+      "main_concept": "CON-POP-2605D6A5A4AAD8",
+      "concept_ids": ["CON-POP-2605D6A5A4AAD8"],
+      "contextual_concept_ids": ["CON-POP-04C8461A94B246"],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Self-awareness and emotional intelligence",
+      "difficulty": "Moderate",
+      "learning_objective": "State that self-analysis is an important source of self-awareness.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Self-awareness and emotional intelligence",
+      "field_notes": {
+        "keySource": "gray fill-rectangle over option B, ad hoc PyMuPDF detection + render — force confirmed p4, امتحانات سابقه.pdf",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "امتحانات سابقه.pdf (Zagazig University, Fakous campus, Faculty of Medicine, past-exam compilation), Q{page}",
+      "library_ids": ["ART-POP-ZU105-SELF-AWARENESS-EQ"]
+    }
+  ]
+}
