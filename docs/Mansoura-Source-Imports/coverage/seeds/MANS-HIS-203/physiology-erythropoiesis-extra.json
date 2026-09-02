@@ -1,0 +1,161 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "physiology-erythropoiesis-extra",
+  "header": "MANS-HIS-203 · Physiology — bone marrow depression, pernicious anaemia and erythropoietin regulation, authored from the His Continuous Berlin Book 2026 (Physiology Important MCQ, \"Physio HIS 1\" past-exam block, p.104-119), printed keys. Matches existing pending Kasr concepts.",
+  "defaults": {
+    "subject": "haem",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "module_subject": "MANS-HIS-203 > Physiology > Blood > Erythropoiesis regulation and marrow failure",
+    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, Physiology Important MCQ, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "marrow-depression-aplastic",
+      "page": 114,
+      "title": "Result of severe bone marrow depression",
+      "question": "Severe depression of the bone marrow may result in:",
+      "options": {
+        "A": "Microcytic hypochromic anaemia",
+        "B": "Increased number of granulocytes",
+        "C": "Increased coagulability of the blood",
+        "D": "Aplastic anaemia, leucopenia, and thrombocytopenia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Microcytic hypochromic anaemia follows from iron deficiency limiting haemoglobin synthesis in an otherwise functioning marrow, not from the marrow itself being suppressed.",
+        "B": "Incorrect. Marrow depression reduces the output of every cell line, including granulocytes, so a fall (leucopenia), not a rise, is what follows.",
+        "C": "Incorrect. Marrow depression reduces platelet output (thrombocytopenia), which impairs clotting rather than increasing coagulability.",
+        "D": "Correct. Severe bone marrow depression fails every cell line at once, producing aplastic anaemia together with leucopenia and thrombocytopenia — a pancytopenia. This is distinct from anaemias caused by a specific nutrient deficiency or a haemoglobin defect, where the marrow itself is intact and only one line (or one product of it) is short."
+      },
+      "main_concept": "CON-HEM-C79EA8644C0C9C",
+      "concept_ids": ["CON-HEM-C79EA8644C0C9C"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-101-HIS-RED-BLOOD-CORPUSCLES"],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Erythropoiesis regulation and marrow failure",
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify severe bone marrow depression as producing a pancytopenia (aplastic anaemia + leucopenia + thrombocytopenia), as distinct from single-line or single-nutrient anaemias.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.114 (Physio HIS 1 past-exam block, Q4)" },
+      "author_notes": ""
+    },
+    {
+      "key": "pernicious-anaemia-b12",
+      "page": 115,
+      "title": "Cause of improper RBC maturation",
+      "question": "Improper maturation of the red blood corpuscles can be caused by:",
+      "options": {
+        "A": "Bone marrow aplasia",
+        "B": "Hypoxia",
+        "C": "Iron deficiency",
+        "D": "Vitamin B12 deficiency",
+        "E": "Vitamin C deficiency"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Bone marrow aplasia reduces the NUMBER of red cells produced (and every other line with them); it does not by itself cause the maturation defect this question describes.",
+        "B": "Incorrect. Hypoxia is the physiological stimulus that increases erythropoietin and drives MORE erythropoiesis, not a cause of impaired maturation.",
+        "C": "Incorrect. Iron deficiency impairs haemoglobin synthesis, producing microcytic hypochromic cells, which is a different maturation defect from the one caused by vitamin B12 deficiency (megaloblastic change).",
+        "D": "Correct. Vitamin B12 deficiency — classically from pernicious anaemia, where the stomach fails to produce intrinsic factor needed for B12 absorption — impairs DNA synthesis in the developing erythroblast, producing large, immature-looking (megaloblastic) cells that mature improperly. Hydroxocobalamin injection is the treatment, bypassing the absorption defect intrinsic factor deficiency causes.",
+        "E": "Incorrect. Vitamin C deficiency (scurvy) affects collagen synthesis and wound healing; it is not a recognised cause of impaired red cell maturation."
+      },
+      "main_concept": "CON-HEM-C79EA8644C0C9C",
+      "concept_ids": ["CON-HEM-C79EA8644C0C9C"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-101-HIS-RED-BLOOD-CORPUSCLES"],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Erythropoiesis regulation and marrow failure",
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify vitamin B12 deficiency (pernicious anaemia) as a cause of impaired RBC maturation, as distinct from marrow aplasia and iron deficiency's own maturation defect.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.115 (Physio HIS 1 past-exam block, Q7); paired with Q8 on the same page (best treatment of pernicious anaemia = hydroxocobalamin injection, keyed D, same fact, not separately authored)" },
+      "author_notes": ""
+    },
+    {
+      "key": "epo-stimulated-stage",
+      "page": 115,
+      "title": "RBC development stage mainly stimulated by erythropoietin",
+      "question": "Which stage of RBC development is mainly stimulated by erythropoietin?",
+      "options": {
+        "A": "Proerythroblasts",
+        "B": "Normoblasts",
+        "C": "Reticulocytes",
+        "D": "Hemocytoblasts",
+        "E": "Erythrocyte"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Erythropoietin acts mainly on the proerythroblast, the earliest committed cell of the erythroid series, stimulating its proliferation and differentiation and so setting the pace at which the whole erythroid line is produced. This is consistent with erythropoietin stimulating every step of erythropoiesis but exerting its main regulatory action at this earliest committed stage.",
+        "B": "Incorrect. The normoblast is a later stage in the series, already committed and progressing toward enucleation; erythropoietin's main site of action is earlier, at the proerythroblast.",
+        "C": "Incorrect. The reticulocyte is the last precursor stage before the mature erythrocyte, well past the point erythropoietin exerts its main proliferative stimulus.",
+        "D": "Incorrect. The haemocytoblast is the pluripotent stem cell that gives rise to all blood cell lines, not a stage specific to (or mainly stimulated by) erythropoietin.",
+        "E": "Incorrect. The mature erythrocyte no longer divides or responds to erythropoietin at all; erythropoietin's action is on the developing precursor stages, not the end product."
+      },
+      "main_concept": "CON-HEM-6DBD73A50D2AD4",
+      "concept_ids": ["CON-HEM-6DBD73A50D2AD4"],
+      "contextual_concept_ids": ["CON-HEM-2D18E46BA15483"],
+      "library_ids": ["ART-102-PHY-ERYTHROPOIESIS"],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Erythropoiesis regulation and marrow failure",
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the proerythroblast as the erythroid stage erythropoietin acts on mainly.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.115 (Physio HIS 1 past-exam block, Q9)" },
+      "author_notes": ""
+    },
+    {
+      "key": "epo-renal-source",
+      "page": 117,
+      "title": "Main site of erythropoietin formation in adult life",
+      "question": "What is the main site of erythropoietin hormone formation in adult life?",
+      "options": {
+        "A": "Adrenal gland",
+        "B": "Bone marrow",
+        "C": "Kidney",
+        "D": "Liver",
+        "E": "Pituitary gland"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The adrenal gland produces corticosteroids and catecholamines; it is not a site of erythropoietin production.",
+        "B": "Incorrect. The bone marrow is where erythropoietin acts (on the proerythroblast and later stages), not where it is made.",
+        "C": "Correct. In adult life, the kidney (mainly the peritubular interstitial cells) is the main site of erythropoietin production, accounting for about 85% of it, released in response to tissue hypoxia. The liver contributes the remaining minority (about 15%) and becomes relatively more important as an erythropoietin source before birth.",
+        "D": "Incorrect. The liver is erythropoietin's main source before birth and a minor secondary source in adult life, but the kidney, not the liver, is the main adult site.",
+        "E": "Incorrect. The pituitary gland secretes trophic hormones controlling other endocrine glands; it plays no role in erythropoietin production."
+      },
+      "main_concept": "CON-HEM-6DBD73A50D2AD4",
+      "concept_ids": ["CON-HEM-6DBD73A50D2AD4"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-102-PHY-ERYTHROPOIESIS"],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Erythropoiesis regulation and marrow failure",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the kidney as the main adult source of erythropoietin, with the liver as a minor secondary source.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.117 (Physio HIS 1 past-exam block, Q22); same fact repeated at p.119 Q35 (\"kidney mainly\")" },
+      "author_notes": ""
+    }
+  ]
+}
