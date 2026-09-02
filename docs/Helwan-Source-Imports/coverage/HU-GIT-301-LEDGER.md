@@ -109,6 +109,35 @@
   matched keys, a `parasitology-part3 | 31 | 0 | 0 | 31` summary row is
   added beside the other cluster rows, and `## Remaining` is rewritten to
   the true 23 biochemistry keys left in the 281-key triage.
+
+  True count, biochemistry (this commit, both chapters -- the module's
+  last block): 24 items authored (17 "Biochemistry of Digestion and
+  Absorption" + 7 "Liver Metabolism and Fatty Liver") against all 23
+  remaining keys, 0 unexpected -- chapter-1 items #14 and #15 share one
+  key (trypsin.substrate-specificity-arginine-lysine), so 24 items map to
+  23 keys. 21 new concepts were minted; 2 items reuse concept ids from
+  outside this chunk rather than being minted twins: item 9
+  (dietary-lipid-transport.chylomicrons) reuses a pending Kasr 103-BMS
+  concept via a sparse pending-live overlay row (docs/Helwan-Source-Imports/
+  pending-live/HU-GIT-301-biochemistry-questions.md), and Liver-chapter
+  item 5 (liver-function-tests.afp-in-liver-cancer) reuses this lane's own
+  HU-GIT-301-pathology-ch2-concepts.md AFP concept directly (same module
+  already). find-existing.mjs, run against the Kasr 206-DIG/GIT
+  biochemistry reuse family flagged for this lane, surfaced 6 further real
+  near-misses (three pepsin concepts, two trypsin concepts, one
+  nucleoprotein concept, two fatty-liver-cause concepts, two
+  lipotropic-factor concepts, one apo-C-II concept, one
+  hormone-sensitive-lipase concept -- some items had more than one
+  near-miss), all at a different scope/altitude from this chunk's specific
+  tested facts (mostly the "except"/exception framing), documented in
+  rejected_merge_candidate_ids rather than merged. A direct set-diff of
+  `HU-GIT-301-triage-keys.txt` (281 keys) against every `question[].key`
+  actually present across all seven `coverage/seeds/HU-GIT-301/*.json`
+  files confirms all 281 keys now used, 0 remaining -- HU-GIT-301's entire
+  authored-content backlog is closed. Individual rows are hand-flipped to
+  1 authored / 0 remaining for the 23 matched keys, a
+  `biochemistry | 24 | 0 | 0 | 24` summary row is added beside the other
+  cluster rows, and `## Remaining` is emptied to `(none)`.
 -->
 
 | cluster | authored | held | remaining | total |
@@ -123,7 +152,7 @@
 | acute-intestinal-obstruction.functional-vs-mechanical | 0 | 0 | 1 | 1 |
 | acute-oesophagitis.infective-causes | 0 | 0 | 1 | 1 |
 | alcoholic-cirrhosis.gross-features | 1 | 0 | 0 | 1 |
-| alcoholic-fatty-liver.increased-nadh-nad-ratio | 0 | 0 | 1 | 1 |
+| alcoholic-fatty-liver.increased-nadh-nad-ratio | 1 | 0 | 0 | 1 |
 | alcoholic-steatosis.mechanisms | 1 | 0 | 0 | 1 |
 | aluminium-hydroxide.phosphate-binding-in-renal-failure | 1 | 0 | 0 | 1 |
 | amoebic-dysentery.flask-shaped-ulcers | 0 | 0 | 1 | 1 |
@@ -168,7 +197,7 @@
 | cimetidine.gynaecomastia-side-effect | 1 | 0 | 0 | 1 |
 | cimetidine.mechanism-and-adverse-effects | 1 | 0 | 0 | 1 |
 | cirrhosis.regeneration-nodule-architecture | 1 | 0 | 0 | 1 |
-| coeliac-disease.gluten-trigger | 0 | 0 | 1 | 1 |
+| coeliac-disease.gluten-trigger | 1 | 0 | 0 | 1 |
 | colloidal-bismuth.black-staining-side-effect | 1 | 0 | 0 | 1 |
 | colonic-adenoma.malignant-potential | 0 | 0 | 1 | 1 |
 | colonic-polyps.non-neoplastic-vs-neoplastic | 0 | 0 | 1 | 1 |
@@ -176,7 +205,7 @@
 | cryptosporidium.differential-diarrhoea-in-immunosuppressed | 1 | 0 | 0 | 1 |
 | cryptosporidium.infective-stage.oocyst | 1 | 0 | 0 | 1 |
 | diarrhoea-treatment.muscarinic-agonists-not-used | 1 | 0 | 0 | 1 |
-| dietary-lipid-transport.chylomicrons | 0 | 0 | 1 | 1 |
+| dietary-lipid-transport.chylomicrons | 1 | 0 | 0 | 1 |
 | diphyllobothrium-latum.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
 | diphyllobothrium-latum.complication.b12-deficiency-anemia | 1 | 0 | 0 | 1 |
 | diphyllobothrium-latum.diagnostic-stage | 1 | 0 | 0 | 1 |
@@ -188,7 +217,7 @@
 | diphyllobothrium-latum.treatment.praziquantel | 1 | 0 | 0 | 1 |
 | dipylidium-caninum.control.flea-vector | 1 | 0 | 0 | 1 |
 | dipylidium-caninum.diagnostic-stage | 1 | 0 | 0 | 1 |
-| disaccharide-digestion.pancreatic-enzymes | 0 | 0 | 1 | 1 |
+| disaccharide-digestion.pancreatic-enzymes | 1 | 0 | 0 | 1 |
 | diverticular-disease-colon.epidemiology | 0 | 0 | 1 | 1 |
 | diverticular-disease-colon.pathology | 0 | 0 | 1 | 1 |
 | diverticular-disease-colon.site | 0 | 0 | 1 | 1 |
@@ -230,14 +259,14 @@
 | fasciola.spurious-vs-false-infection | 1 | 0 | 0 | 1 |
 | fasciola.treatment.triclabendazole | 1 | 0 | 0 | 1 |
 | fasciolopsis-buski.reservoir-host.pig | 1 | 0 | 0 | 1 |
-| fatty-liver.causes-vs-increased-fatty-acid-oxidation | 0 | 0 | 1 | 1 |
+| fatty-liver.causes-vs-increased-fatty-acid-oxidation | 1 | 0 | 0 | 1 |
 | fish-borne-helminths | 1 | 0 | 0 | 1 |
-| fructose-absorption.glut-5 | 0 | 0 | 1 | 1 |
+| fructose-absorption.glut-5 | 1 | 0 | 0 | 1 |
 | gallstones.cholesterol-vs-pigment-risk-factors | 1 | 0 | 0 | 1 |
 | gallstones.pigment-stones-haemolysis | 1 | 0 | 0 | 1 |
 | gallstones.secondary-biliary-cirrhosis | 1 | 0 | 0 | 1 |
 | gastric-carcinoma.risk-factors | 0 | 0 | 1 | 1 |
-| gastric-lipase.significance-in-infants | 0 | 0 | 1 | 1 |
+| gastric-lipase.significance-in-infants | 1 | 0 | 0 | 1 |
 | gastric-lymphoma.h-pylori-association | 0 | 0 | 1 | 1 |
 | gastric-polyps.malignant-potential.adenomatous | 0 | 0 | 1 | 1 |
 | gastric-tumours.benign-mesenchymal-vs-epithelial | 0 | 0 | 1 | 1 |
@@ -247,8 +276,8 @@
 | gist.c-kit-mutation | 0 | 0 | 1 | 1 |
 | gist.commonest-abdominal-mesenchymal-tumour | 0 | 0 | 1 | 1 |
 | git-lymphoma.commonest-site | 0 | 0 | 1 | 1 |
-| glucose-transporters.intestinal-scglt1-glut2-glut5 | 0 | 0 | 1 | 1 |
-| glut-2.basolateral-sugar-exit | 0 | 0 | 1 | 1 |
+| glucose-transporters.intestinal-scglt1-glut2-glut5 | 1 | 0 | 0 | 1 |
+| glut-2.basolateral-sugar-exit | 1 | 0 | 0 | 1 |
 | granisetron.mechanism.5ht3-receptor-antagonist | 1 | 0 | 0 | 1 |
 | granulomatous-liver-disease.exclusion-nash | 1 | 0 | 0 | 1 |
 | h-pylori-eradication.antibiotic-regimen | 1 | 0 | 0 | 1 |
@@ -292,20 +321,20 @@
 | intestinal-parasites.complication.appendicitis | 1 | 0 | 0 | 1 |
 | irritant-purgatives.mechanism | 1 | 0 | 0 | 1 |
 | juvenile-polyp.features | 0 | 0 | 1 | 1 |
-| lactase.hydrolysis-products | 0 | 0 | 1 | 1 |
-| lactose-intolerance.lactase-deficiency | 0 | 0 | 1 | 1 |
+| lactase.hydrolysis-products | 1 | 0 | 0 | 1 |
+| lactose-intolerance.lactase-deficiency | 1 | 0 | 0 | 1 |
 | lactulose.hepatic-encephalopathy-treatment | 1 | 0 | 0 | 1 |
 | laxatives.diphenoxylate-is-antidiarrhoeal | 1 | 0 | 0 | 1 |
 | leukoplakia.malignant-transformation-is-to-scc-not-adenocarcinoma | 0 | 0 | 1 | 1 |
-| lipotropic-factors.chloroform-is-hepatotoxic | 0 | 0 | 1 | 1 |
+| lipotropic-factors.chloroform-is-hepatotoxic | 1 | 0 | 0 | 1 |
 | liquid-paraffin.fat-soluble-vitamin-malabsorption | 1 | 0 | 0 | 1 |
 | liver-abscess.multiple-vs-solitary-causes | 1 | 0 | 0 | 1 |
 | liver-biopsy.parasitic-diagnosis | 1 | 0 | 0 | 1 |
 | liver-cell-adenoma.oral-contraceptive-association | 1 | 0 | 0 | 1 |
-| liver-function-tests.afp-in-liver-cancer | 0 | 0 | 1 | 1 |
-| liver-function-tests.prothrombin-time-synthetic-function | 0 | 0 | 1 | 1 |
-| liver-function-tests.transaminases-hepatocellular-damage | 0 | 0 | 1 | 1 |
-| liver-metabolism.gamma-globulins-not-hepatic-synthesis | 0 | 0 | 1 | 1 |
+| liver-function-tests.afp-in-liver-cancer | 1 | 0 | 0 | 1 |
+| liver-function-tests.prothrombin-time-synthetic-function | 1 | 0 | 0 | 1 |
+| liver-function-tests.transaminases-hepatocellular-damage | 1 | 0 | 0 | 1 |
+| liver-metabolism.gamma-globulins-not-hepatic-synthesis | 1 | 0 | 0 | 1 |
 | liver-zonation.zone-3-ischaemic-vulnerability | 1 | 0 | 0 | 1 |
 | loperamide.drug-class | 1 | 0 | 0 | 1 |
 | loperamide.opioid-derivative-otc-status | 1 | 0 | 0 | 1 |
@@ -319,14 +348,14 @@
 | metoclopramide.mechanism.d2-receptor-antagonist | 1 | 0 | 0 | 1 |
 | misoprostol.nsaid-ulcer-prophylaxis | 1 | 0 | 0 | 1 |
 | nematodes.large-intestine-habitat | 1 | 0 | 0 | 1 |
-| nucleoprotein-digestion.poor-absorption-of-purines-and-pyrimidines | 0 | 0 | 1 | 1 |
+| nucleoprotein-digestion.poor-absorption-of-purines-and-pyrimidines | 1 | 0 | 0 | 1 |
 | oesophageal-squamous-papilloma.hpv-association | 0 | 0 | 1 | 1 |
 | ondansetron.indication.chemotherapy-induced-vomiting | 1 | 0 | 0 | 1 |
 | ondansetron.mechanism.5ht3-receptor-blockade | 1 | 0 | 0 | 1 |
 | paediatric-diarrhoea.fluid-electrolyte-correction | 1 | 0 | 0 | 1 |
 | pancreatic-carcinoma.clinical-presentation | 1 | 0 | 0 | 1 |
 | pancreatic-carcinoma.commonest-site-head | 1 | 0 | 0 | 1 |
-| pancreatic-lipase.cofactors | 0 | 0 | 1 | 1 |
+| pancreatic-lipase.cofactors | 1 | 0 | 0 | 1 |
 | pancreatic-pseudocyst.no-epithelial-lining | 1 | 0 | 0 | 1 |
 | pathology-ch1 | 47 | 0 | 0 | 47 |
 | pathology-ch2 | 32 | 0 | 0 | 32 |
@@ -334,7 +363,8 @@
 | parasitology-part1 | 57 | 0 | 0 | 57 |
 | parasitology-part2 | 44 | 0 | 0 | 44 |
 | parasitology-part3 | 31 | 0 | 0 | 31 |
-| pepsin.endopeptidase-not-exopeptidase | 0 | 0 | 1 | 1 |
+| biochemistry | 24 | 0 | 0 | 24 |
+| pepsin.endopeptidase-not-exopeptidase | 1 | 0 | 0 | 1 |
 | peptic-ulcer-disease.common-sites | 0 | 0 | 1 | 1 |
 | peptic-ulcer-disease.gross-site | 0 | 0 | 1 | 1 |
 | peptic-ulcer-disease.h-pylori-risk-factor | 1 | 0 | 0 | 1 |
@@ -352,12 +382,12 @@
 | ranitidine.mechanism.h2-receptor-blockade | 1 | 0 | 0 | 1 |
 | salivary-gland-tumours.commonest-malignant.mucoepidermoid | 0 | 0 | 1 | 1 |
 | salivary-gland-tumours.site.parotid | 0 | 0 | 1 | 1 |
-| sglt-1.tissue-distribution-intestine-and-kidney-not-muscle | 0 | 0 | 1 | 1 |
+| sglt-1.tissue-distribution-intestine-and-kidney-not-muscle | 1 | 0 | 0 | 1 |
 | sialadenitis.sjogren-syndrome-aetiology | 0 | 0 | 1 | 1 |
 | sialadenitis.viral-aetiology.mumps | 0 | 0 | 1 | 1 |
 | sodium-bicarbonate.systemic-antacid-rebound-and-bleeding-risk | 1 | 0 | 0 | 1 |
 | soil-transmitted-helminths.sanitation-control | 1 | 0 | 0 | 1 |
-| steatorrhoea.causes-vs-hormone-sensitive-lipase | 0 | 0 | 1 | 1 |
+| steatorrhoea.causes-vs-hormone-sensitive-lipase | 1 | 0 | 0 | 1 |
 | stool-examination.helminth-scope | 1 | 0 | 0 | 1 |
 | strongyloides-stercoralis.corticosteroid-hyperinfection-risk | 1 | 0 | 0 | 1 |
 | strongyloides-stercoralis.diagnosis.duodenal-aspiration | 1 | 0 | 0 | 1 |
@@ -394,8 +424,8 @@
 | trichuris-trichiura.egg-morphology.bipolar-plugs | 1 | 0 | 0 | 1 |
 | trichuris-trichiura.mucosal-attachment | 1 | 0 | 0 | 1 |
 | trichuris-trichiura.no-migratory-phase | 1 | 0 | 0 | 1 |
-| trypsin.endopeptidase-not-exopeptidase | 0 | 0 | 1 | 1 |
-| trypsin.substrate-specificity-arginine-lysine | 0 | 0 | 1 | 1 |
+| trypsin.endopeptidase-not-exopeptidase | 1 | 0 | 0 | 1 |
+| trypsin.substrate-specificity-arginine-lysine | 1 | 0 | 0 | 1 |
 | viral-hepatitis.hbv-hdv-coinfection | 1 | 0 | 0 | 1 |
 | viral-hepatitis.hdv-can-cause-chronic-disease | 1 | 0 | 0 | 1 |
 | zollinger-ellison-syndrome.proton-pump-inhibitor-treatment | 1 | 0 | 0 | 1 |
@@ -405,26 +435,8 @@
 (none)
 
 ## Remaining
-- alcoholic-fatty-liver.increased-nadh-nad-ratio
-- coeliac-disease.gluten-trigger
-- dietary-lipid-transport.chylomicrons
-- disaccharide-digestion.pancreatic-enzymes
-- fatty-liver.causes-vs-increased-fatty-acid-oxidation
-- fructose-absorption.glut-5
-- gastric-lipase.significance-in-infants
-- glucose-transporters.intestinal-scglt1-glut2-glut5
-- glut-2.basolateral-sugar-exit
-- lactase.hydrolysis-products
-- lactose-intolerance.lactase-deficiency
-- lipotropic-factors.chloroform-is-hepatotoxic
-- liver-function-tests.afp-in-liver-cancer
-- liver-function-tests.prothrombin-time-synthetic-function
-- liver-function-tests.transaminases-hepatocellular-damage
-- liver-metabolism.gamma-globulins-not-hepatic-synthesis
-- nucleoprotein-digestion.poor-absorption-of-purines-and-pyrimidines
-- pancreatic-lipase.cofactors
-- pepsin.endopeptidase-not-exopeptidase
-- sglt-1.tissue-distribution-intestine-and-kidney-not-muscle
-- steatorrhoea.causes-vs-hormone-sensitive-lipase
-- trypsin.endopeptidase-not-exopeptidase
-- trypsin.substrate-specificity-arginine-lysine
+(none) -- HU-GIT-301's entire 281-key triage is now authored across the
+pathology-ch1/ch2, pharmacology, parasitology-part1/part2/part3 and
+biochemistry chunks. See HU-GIT-301-triage.md for the module's own
+lane-A (Anatomy/Histology/Physiology, narrative-only, not machine-triaged)
+caveat, which this 281-key lane-B triage does not cover.
