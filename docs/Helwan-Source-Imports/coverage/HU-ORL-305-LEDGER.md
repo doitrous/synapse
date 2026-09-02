@@ -141,16 +141,90 @@ orbicularis oculi sustained-closure anatomy) were each a different specific
 fact from a different subject, never real merge candidates, so none are
 listed as `rejected_merge_candidate_ids`.
 
-## Remaining (852 keys)
+## Lane-3 pass (this commit)
+
+Authored ophth-q0136 through ophth-q0226 (Chapter 4, "Normal and abnormal
+image capture," all 91 bank items — the chapter is fully joined, 91/91
+keyed, 0 unjoined, per `HU-ORL-305-triage.md`'s join table):
+
+- Chapter 4 (Normal and abnormal image capture): ophth-q0136..q0226 —
+  91/91 authored, 0 held.
+
+91 keys authored, direct set-diff of the full 91-item Chapter 4 key range
+against every `question[].key` present in `coverage/seeds/HU-ORL-305/ch4.json`
+— all 91 match exactly, `ophth-ch4-qNN` form. Extraction cross-check: every
+one of the 91 transcribed stems/options/keys was independently verified by a
+second, from-scratch regex parse of the cached `pdftotext -layout` text of
+the answer key's Chapter 4 block (`Q(\d+)\s+([A-E])` pattern over p.2 of the
+answer key PDF) — 0 mismatches against the hand-transcribed
+`scripts/helwan/extract/HU-ORL-305/mcq-bank-ophthalmology-ch4.json`. 761
+keys remain in the 980-key triage after this pass (Chapter 3's 7 held items
+plus the whole of Chapters 5-15).
+
+| cluster | authored | held | remaining | total |
+|---|---:|---:|---:|---:|
+| ch1-ch3 (lanes 1-2, unchanged) | 128 | 7 | 0 | 135 |
+| ch4 (Normal and abnormal image capture) | 91 | 0 | 0 | 91 |
+| **subtotal all lanes to date** | **219** | **7** | **0** | **226** |
+| ch5 (Ocular motility in health and disease) | 0 | 0 | 63 | 63 |
+| ch6 (The Glaucomas) | 0 | 0 | 71 | 71 |
+| ch7 (The red eye) | 0 | 0 | 203 | 203 |
+| ch8 (The retina: function and diseases) | 0 | 0 | 90 | 90 |
+| ch9 (The eye and the brain) | 0 | 0 | 73 | 73 |
+| ch10 (Eye diseases in infancy and early childhood) | 0 | 0 | 60 | 60 |
+| ch11 (The eye in systemic diseases) | 0 | 0 | 43 | 43 |
+| ch12 (Ocular and orbital injuries) | 0 | 0 | 81 | 81 |
+| ch13 (Medications and the eye) | 0 | 0 | 43 | 43 |
+| ch14 (Lasers in ophthalmology) | 0 | 0 | 23 | 23 |
+| ch15 (Some related topics) | 0 | 0 | 4 | 4 |
+| **total (bank)** | **219** | **7** | **754** | **980** |
+
+## Concepts / overlay this pass
+
+34 new concepts minted this pass (`CON-OPH-*`, continuing lanes 1-2's
+ophthalmology reuse family): 16 covering refraction/optics/keratoconus
+(article `ART-HU-ORL305-OPH-IMGCAP-REFRACTION`) and 18 covering
+cataract/lens/cornea/vitreous (article
+`ART-HU-ORL305-OPH-IMGCAP-CATARACT-LENS`). No lane-1/lane-2 concept reuse
+this pass (Chapter 4's optics/cataract/lens/keratoconus content did not
+overlap the eyelid/lacrimal/orbit and basic-anatomy facts those lanes
+already minted). No new pending-live overlay this pass (lane-1's
+`CON-NEU-3FF95D30CD5825` overlay is untouched). `find-existing.mjs` plus a
+`docs/*/concept|pending-live` grep were run for every new concept's
+shortest distinctive term before minting (keratoconus, cataract,
+presbyopia, myopia, hypermetropia, aphakia, lens subluxation, vitreous
+hemorrhage, arcus senilis, keratoplasty, accommodation, astigmatism,
+corneal dystrophy, pemphigoid, contact lens, corneal transparency — see
+`HU-ORL-305-ophthalmology-data-3.mjs`'s header for the full search-result
+summary). One real near-duplicate was found (`CON-NEU-3FF95D30CD5825`,
+Alexandria's pending AU-MED-203 corneal-transparency-factors concept,
+already overlaid by lane-1) but is deliberately NOT reused a second time
+this pass: running `validate-content-batch.mjs` against the already-
+committed lane-1 batch (which uses this id as `main_concept` for its Ch1
+Q8/Q9/Q12) reproduces a live "main concept ... is not covered by any
+article in library_ids" error, since lane-1's pending-live overlay never
+added the AU-MED-203 article to those questions' `library_ids` and lane-1's
+own article never claims this concept as covered. Reusing the id here would import that same defect into this otherwise-clean
+batch, so `trachomaCornealOpacityMechanism` mints an HU-owned concept
+covering the equivalent fact from its own clinical-mechanism angle instead,
+fully covered by this pass's own article. Not listed as a
+`rejected_merge_candidate_id` (it was a real reuse
+candidate, not a rejected one) — the lane-1 coverage gap itself is flagged
+separately via a spawned out-of-scope task, since it lives in a different
+chapter's already-committed file, outside this lane's Chapter-4 scope. 0
+other rejected-merge-candidate near-misses recorded this pass — the
+"accommodation" and "cataract" hits found (Kasr/Assiut pharmacology-angle
+accommodation concepts; this lane's own lane-1 red-reflex-colour cataract
+concept) were each a different specific fact from a different subject,
+never real merge candidates.
+
+## Remaining (754 keys)
 
 Chapter 3's 7 held items (Q32, Q36, Q47, Q48, Q49, Q50, Q53) plus the whole
-of Chapters 4-15 (845 keys) — see `HU-ORL-305-triage-keys.txt` for the full
-sequential list (`ophth-q0136` through `ophth-q0980`, plus the 7 held Ch3
-keys interspersed at q0071/q0075/q0086/q0087/q0088/q0089/q0092). Bank order,
-ready for the next cluster/lane pass; no further triage beyond the
-structural join was performed on this remainder (see
-`HU-ORL-305-triage.md`'s own scope note).
+of Chapters 5-15 (754 keys) — see `HU-ORL-305-triage-keys.txt` for the full
+sequential list. Bank order, ready for the next cluster/lane pass; no
+further triage beyond the structural join was performed on this remainder
+(see `HU-ORL-305-triage.md`'s own scope note).
 
-HANDOFF: next chapter/item = Chapter 4 (Normal and abnormal image capture),
-item #1 of 91 (`ophth-q0136`, all 91 items joined, no unjoined gaps in this
-chapter per the triage table).
+HANDOFF: next chapter/item = Chapter 5 (Ocular motility in health and
+disease), item #1 of 63 (`ophth-q0227`).
