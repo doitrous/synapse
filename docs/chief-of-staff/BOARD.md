@@ -493,3 +493,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - Past Years pp.7-19 + Most important pp.4-23: 46 authored, 0 held. 10 mints + 10 articles; 36 reuses (26 from Kasr 101/103/104 + AU-105) — narrow find-existing queries missed the whole Kasr NMJ/muscle-physiology family, broadened greps converted ~28 planned mints into reuses. 16 sparse overlays. Simulate 28 files rejected=0; ≈1k tok/q of emitted content. Module ledger 91 authored / 0 held.
 - TOOL NOTE: `gate.mjs batch` reports errors=N on every Mansoura question file — all `resource_ids … not a resource that exists` (the standalone corpus-source lookup, identical on lane 1's already-landed files); simulate is the gate for these. Same class as the Kasr Y2 corpus-source-index gap.
 - Lane 3 dispatched on Past Years pp.20-42 + Most important pp.24-48. Fleet 20/20.
+
+### 2026-09-02 — ASSIUT INI-105 lane 14 (ch1 Q101-161) LANDED (d366f77d) · chapter 1 CLOSED
+- 61 read: 47 authored, 14 held (5 option floor, Q133 double answer, 8 dups). 6 mints, 41 reuses (12 ASU-INF overlays, MUST saprophyte/opportunist). Wall: lane 10's twin repair had deleted this lane's ch5 mint CON-INF-8B02B0EFEE96F5 under it (no textual conflict) — caught by re-running gate post-rebase, Q101 repointed to the MUST sibling. batch errors=0 ×3; 15-file simulate rejected=0. ≈3.5k tok/q. Chapter 1: 136/25/0/161.
+- INI-105 bank status: chapters 1-10 closed; chapter 11 Q57-110 with lane 15. The 886-item bank closes on lane 15's landing. Slot → Assiut queue (see next entry). Fleet 20/20.
