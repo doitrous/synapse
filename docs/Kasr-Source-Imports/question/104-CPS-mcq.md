@@ -62,7 +62,7 @@
     Physiology Respiratory System — Gas Transport by the Blood — 18 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
-    Pulmonary Compliance — 20 questions, 3 concepts
+    Pulmonary Compliance — 29 questions, 3 concepts
     Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  181 questions were excluded and 0 held back for having no
+  184 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -61127,6 +61127,558 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p7 q47. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C3404E394048
+## title
+The residual volume: :
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The residual volume: :
+## answer_a
+Cannot be measured directly with a spirometer
+## explanation_a
+Correct. Residual volume is the air remaining in the lungs after a maximal forced expiration, and because it can never be exhaled, a spirometer — which measures only volumes of air actually moved in and out — cannot record it directly; it must instead be inferred indirectly, for example by helium dilution, nitrogen washout or body plethysmography.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_b
+Is part of vital capacity
+## explanation_b
+Residual volume is specifically excluded from vital capacity: VC = IRV + TV + ERV deliberately leaves RV out, since RV is by definition the air that no maximal expiratory effort can remove.
+## answer_c
+Is part of the expiratory reserve volume
+## explanation_c
+Residual volume is not part of expiratory reserve volume; the two are separate, non-overlapping volumes that together make up functional residual capacity (FRC = ERV + RV), with RV lying beyond the point ERV can reach.
+## answer_d
+Is the volume at which the lungs tend to recoil outwards
+## explanation_d
+The lung's own elastic tissue always recoils inward, tending to collapse it, at every lung volume from TLC down to RV; residual volume is reached only because further expiration is limited by the chest wall's growing outward recoil and the limits of expiratory muscle strength, not because the lung itself starts recoiling outward.
+## correct_answer
+A
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State that residual volume cannot be measured directly by spirometry and is excluded from vital capacity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p34 q70. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4095DBBDC86C
+## title
+Tidal volume is air:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Tidal volume is air:
+## answer_a
+Remaining in the lungs after forced expiration ‏ا‎
+## explanation_a
+Air remaining in the lungs after a forced expiration describes residual volume, not tidal volume — tidal volume is the air actually moved during a breath, not what is left behind afterward.
+## answer_b
+Exchanged during normal breathing ْ
+## explanation_b
+Correct. Tidal volume is the volume of air moved into and out of the lungs during one normal, quiet breathing cycle — the air genuinely exchanged in ordinary resting breathing, before any reserve volume is called on.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_c
+Inhaled after quiet inspiration 1 ‏ا‎
+## explanation_c
+Air inhaled beyond a normal quiet inspiration describes inspiratory reserve volume, the extra volume available above tidal volume, not tidal volume itself.
+## answer_d
+Forcibly expelled after normal expiration
+## explanation_d
+Air forcibly expelled after a normal expiration describes expiratory reserve volume, not tidal volume; tidal volume is exchanged passively during quiet breathing, not by an additional forced effort.
+## correct_answer
+B
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define tidal volume as the air exchanged during normal quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q56. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BAB76EF84990
+## title
+Vital capacity is reduced by all except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Vital capacity is reduced by all except:
+## answer_a
+Lung fibrosis
+## explanation_a
+Reduces vital capacity — not the exception. Lung fibrosis stiffens the lung, lowering its compliance, and this restrictive pattern reduces all lung volumes together, including vital capacity.
+## answer_b
+Kyphosis
+## explanation_b
+Reduces vital capacity — not the exception. A deformed, stiffened chest wall lowers overall thoracic compliance by the same restrictive mechanism as lung fibrosis, shrinking vital capacity along with the other lung volumes.
+## answer_c
+Atheletes
+## explanation_c
+Correct. Athletes typically have a normal or even increased vital capacity, reflecting greater respiratory muscle strength and often larger lung and thoracic volumes from training, rather than any process that stiffens the lung or chest wall — the exception, and the answer.
+
+Why this is right:
+- Obstructive disease (e.g.
+## answer_d
+Decreased secretion of surfactant
+## explanation_d
+Reduces vital capacity — not the exception. Less surfactant raises alveolar surface tension, stiffening the lung and lowering its compliance, the same restrictive mechanism by which fibrosis and chest-wall deformity shrink vital capacity.
+## correct_answer
+C
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify normal athletic training, rather than a restrictive process, as not reducing vital capacity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q59. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-250EBCA54ADF
+## title
+Which of the following concerning average lung volumes and capacities of a person at re…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following concerning average lung volumes and capacities of a person at rest is correct?
+## answer_a
+TLC>VC>TV>FRC
+## explanation_a
+TLC > VC > TV > FRC is not correct: functional residual capacity (about 2300 mL, ERV + RV) is larger than tidal volume (about 500 mL) in a resting adult, so this ordering places FRC too low relative to TV.
+## answer_b
+TLC>FRC>VC>TV
+## explanation_b
+TLC > FRC > VC > TV is not correct: vital capacity (about 4600 mL) is larger than functional residual capacity (about 2300 mL) — VC sums IRV, TV and ERV, while FRC is only ERV + RV, so VC must exceed FRC, not the reverse.
+## answer_c
+TLC>VC>FRC>TV
+## explanation_c
+Correct. Using typical resting adult values, total lung capacity (about 6000 mL) exceeds vital capacity (about 4600 mL), which exceeds functional residual capacity (about 2300 mL), which exceeds tidal volume (about 500 mL): TLC > VC > FRC > TV.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_d
+TLC>FRC>TV>VC
+## explanation_d
+TLC > FRC > TV > VC reverses the relationship between vital capacity and both functional residual capacity and tidal volume: vital capacity (about 4600 mL) is by far the largest of the three, not the smallest.
+## correct_answer
+C
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Rank total lung capacity, vital capacity, functional residual capacity and tidal volume by typical resting size.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p35 q77. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7EFAB11B5A67
+## title
+Which one of the following components of a pulmonary function test will be normal or in…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following components of a pulmonary function test will be normal or increased in a patient with restrictive lung disease?
+## answer_a
+FEV1
+## explanation_a
+FEV1 falls in restrictive lung disease, since the stiffened lung has an overall smaller volume to expire from in the first second, even though it empties that smaller volume quickly.
+## answer_b
+FVC
+## explanation_b
+FVC falls in restrictive lung disease: a stiffened lung or chest wall reduces all lung volumes together, including the maximum volume that can be forcibly exhaled.
+## answer_c
+TLC
+## explanation_c
+TLC falls in restrictive lung disease, since reduced compliance shrinks all the lung volumes and capacities that sum into it — unlike in obstructive disease, and especially emphysema, where TLC is preserved or increased.
+## answer_d
+FEV 1/FVC
+## explanation_d
+Correct. In restrictive lung disease the stiffened lung still empties quickly relative to its now-smaller volume, so the FEV1/FVC ratio is preserved or even increased, the opposite of obstructive disease, where airway narrowing lowers the ratio.
+
+Why this is right:
+- Obstructive disease (e.g.
+## correct_answer
+D
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify a preserved or increased FEV1/FVC ratio as the defining PFT signature of restrictive lung disease.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q55. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-33B1DB12E27B
+## title
+Which volume remains in the lungs after a maximal expiration?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which volume remains in the lungs after a maximal expiration?
+## answer_a
+Tidal volume (VT)
+## explanation_a
+Tidal volume is the air moved during a normal quiet breath, not what remains after a maximal forced expiration.
+## answer_b
+Vital capacity (VC)
+## explanation_b
+Vital capacity is the volume that CAN be expired by a maximal effort, not what is left behind afterward — the two describe opposite ends of the same manoeuvre.
+## answer_c
+Expiratory reserve volume (ERV) :
+## explanation_c
+Expiratory reserve volume is the extra air that can still be forcibly expired beyond a normal tidal expiration; by definition it has already been expelled once expiration is maximal, so it is not what remains afterward.
+## answer_d
+Residual volume (RV)
+## explanation_d
+Correct. Residual volume is the air that remains in the lungs after even a maximal forced expiration — it can never be exhaled by any voluntary effort, which is also why it cannot be measured directly by spirometry.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## correct_answer
+D
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Identify residual volume as what remains in the lungs after a maximal forced expiration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p34 q64. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

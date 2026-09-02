@@ -62,7 +62,7 @@
     Physiology Respiratory System — Gas Transport by the Blood — 18 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
-    Pulmonary Compliance — 20 questions, 3 concepts
+    Pulmonary Compliance — 29 questions, 3 concepts
     Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  181 questions were excluded and 0 held back for having no
+  184 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -11142,12 +11142,13 @@ src_e569449acf8dc2af471e | question_book | | p33 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p34 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p40 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p35 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -11408,12 +11409,13 @@ src_e569449acf8dc2af471e | question_book | | p35 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p6 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p33 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
