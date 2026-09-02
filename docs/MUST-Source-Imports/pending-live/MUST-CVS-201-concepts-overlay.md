@@ -118,6 +118,7 @@ MUST_Y2=0.6
 
 ## field_notes
 must: Tested as MW-Q3, "Define edema and state two factors that can lead to its formation" — printed answer: excessive accumulation of tissue fluid; causes: increased hydrostatic pressure, decreased colloidal osmotic pressure, increased capillary permeability, lymphatic obstruction, salt & water retention. src_240262ce3fe62cc799c0 p2.
+must-tranche8: Tested six more times in the Physiology paper's own Capillary Circulation & Oedema section (src_165188e079f0f475e54d p.26) — physcap-q01 (generalised oedema with low plasma albumin, key C, decreased plasma colloidal osmotic pressure), physcap-q04 (edema can be caused by, key A, increased capillary hydrostatic pressure), physcap-q08 (DVT-associated pitting oedema, key C, increased capillary hydrostatic pressure via venous obstruction), physcap-q13 (nephrotic-syndrome oedema, key C, decreased plasma colloidal osmotic pressure), physcap-q16 (elephantiasis, key C, lymphatic obstruction) and physcap-q19 (oedema from increased capillary hydrostatic pressure, key B, right-sided heart failure) — every fact this record's own four-mechanism definition (raised filtration pressure incl. venous obstruction and heart failure; decreased osmotic gradient incl. nephrotic syndrome; increased permeability; inadequate lymph flow incl. elephantiasis) already covers directly.
 
 ---
 

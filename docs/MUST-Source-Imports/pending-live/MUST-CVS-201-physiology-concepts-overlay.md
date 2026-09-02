@@ -335,6 +335,7 @@ MUST_Y2=0.7
 
 ## field_notes
 must: Tested five times this tranche -- phys-q08 ("The ability of a tissue to regulate its own blood flow according to its metabolic needs is called:", key B, Autoregulation), phys-q10 ("An increase in blood flow to a tissue following a period of occlusion is known as:", key C, Reactive hyperemia -- this record's own "returns flow toward normal after a change in perfusion pressure" phrasing is the general autoregulatory mechanism reactive hyperaemia is a specific instance of), phys-q17 ("Which of the following metabolites accumulates during tissue activity and causes vasodilation?", key C, Adenosine -- one of this record's own "vasodilator metabolites"), phys-q22 ("The Myogenic theory of autoregulation states that an increase in blood flow causes:", key B, Contraction of muscles -- the myogenic half of this record's own two-mechanism definition) and phys-q26 ("A decrease in oxygen tension (O2) in a tissue will typically lead to:", key B, Vasodilation -- hypoxia is named directly in this record's own "active hyperaemia driven by vasodilator metabolites and hypoxia"). This file carries no module_subject field for this record (a sparse mintConceptId row, per this file's own field_notes on every such row), so only MUST-CVS-201's own module_subject line is written, nothing to restate. src_165188e079f0f475e54d p.9.
+must-tranche8: Tested once more in the Capillary Circulation & Oedema section -- physcap-q03 ("The precapillary sphincters at the beginning of capillaries relax primarily in response to:", key B, Accumulation of metabolites) -- this record's own "produced by arteriolar and precapillary-sphincter dilation from local hypoxia, vasodilator metabolites (CO2, H+, adenosine)" phrasing covers the fact directly. src_165188e079f0f475e54d p.26.
 
 ---
 
@@ -504,3 +505,78 @@ MUST_Y2=0.5
 
 ## field_notes
 must: Tested as phys-q30, "What is the primary trigger for the secretion of Vasopressin (ADH) from the posterior pituitary?" -- printed key C, Increased plasma osmolality. This record's own definition states osmoreceptors drive ADH release "when plasma osmolality rises," covering the fact directly -- a distinct trigger-mechanism fact from CON-CVS-A531FD56A171D7 (this lane's own live in-lane "long-term ABP regulation" concept, tranche 1), whose vasopressin account is the volume/atrial-low-pressure-receptor mechanism, not the osmoreceptor one abp-q40 and phys-q30 test separately. This file (AU-MED-203-physiology-concepts.md) carries no module_subject field for any record (uses topic/subtopic instead, and `modules` is empty for this record), so only MUST-CVS-201's own module_subject line is written. src_165188e079f0f475e54d p.9.
+
+---
+
+# Item
+
+## id
+CON-CVS-5419DA4CEFDBB6
+
+## label
+The Bainbridge (atrial) reflex: distension of the right atrium by increased venous return stretches the SA node and raises heart rate
+
+## modules
++MUST-CVS-201
+
+## universities
++must
+
+## learner_years
++2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## field_notes
+must-tranche8: First MUST-CVS-201 tag for this Menoufia MU-MED105 concept. Tested as physabp2-q06, "Stimulation of atrial receptors (volume receptors) by high central venous pressure leads to:" -- printed key C, "Vasodilation and tachycardia." This record's own definition (right-atrial/SA-node stretch from raised venous return raises heart rate via the Bainbridge reflex) covers the tachycardia half of the printed answer directly; the source's own paired "vasodilation" is the accompanying vascular component of the same atrial-stretch reflex, not a separate fact this record needs to restate to serve the question. `## module_subject` intentionally omitted (not restated from MU-MED105-concepts.md, whose own module_subject is `MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology`) -- overlay rows carry no module_subject per the current gate.mjs batch check, which rejects a sparse row (modules `+MUST-CVS-201`) whose module_subject first segment does not literally match that `+`-prefixed value. src_165188e079f0f475e54d p.20.
+
+---
+
+# Item
+
+## id
+CON-CVS-98657F1E7D300D
+
+## label
+Trans-capillary filtration is set by the Starling forces, and along a muscle capillary this produces net outward filtration at the arteriolar end and net absorption at the venular end
+
+## modules
++MUST-CVS-201
+
+## universities
++must
+
+## learner_years
++2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## field_notes
+must-tranche8: First MUST-CVS-201 tag for this Kasr 104-CPS-physiology-concepts.md concept. Tested four times in the Capillary Circulation & Oedema section (src_165188e079f0f475e54d p.26) -- physcap-q07 ("What is the primary force responsible for the absorption of fluid into the capillaries at the venous end?", key C, Colloidal osmotic pressure of plasma proteins), physcap-q09 ("Filtration at the arterial end of capillary occurs mainly due to:", key A, Hydrostatic pressure in capillaries), physcap-q10 ("Which of the following tends to decrease capillary filtration rate?", key D, Decreased capillary water permeability -- the filtration-coefficient term of this record's own fluid-movement equation) and physcap-q17 ("Which force...decreases significantly from the arterial end (35 mmHg) to the venous end (15 mmHg)?", key C, Hydrostatic capillary pressure -- this record's own worked muscle-capillary numbers are different but the general Starling-forces fact of falling hydrostatic pressure along the capillary is the same one tested here). `## module_subject` intentionally omitted, per this file's own new standing note above (CON-CVS-5419DA4CEFDBB6) on the current gate.mjs batch check.
+
+---
+
+# Item
+
+## id
+CON-CVS-D3D1AF25EFA406
+
+## label
+Diffusion is the dominant mechanism of capillary exchange and depends on capillary permeability type and concentration gradient, while vesicular transport carries large lipid-insoluble molecules across the endothelium
+
+## modules
++MUST-CVS-201
+
+## universities
++must
+
+## learner_years
++2
+
+## exam_weight_by_year
+MUST_Y2=0.5
+
+## field_notes
+must-tranche8: First MUST-CVS-201 tag for this Kasr 104-CPS-physiology-concepts.md concept. Tested twice in the Capillary Circulation & Oedema section (src_165188e079f0f475e54d p.26) -- physcap-q11 ("Which of the following mechanisms is most important for the exchange of electrolytes across capillaries?", key A, Diffusion) and physcap-q14 ("Vesicular transport across the capillary wall is primarily concerned with the movement of:", key C, Large molecules like proteins) -- both facts are this record's own two named mechanisms, diffusion for small solutes and vesicular transport for large lipid-insoluble molecules. `## module_subject` intentionally omitted, per this file's own new standing note above (CON-CVS-5419DA4CEFDBB6) on the current gate.mjs batch check.

@@ -1453,3 +1453,25 @@ CLM-CVS-MEDULLARY-CARDIOVASCULAR-CENTERS-01
 
 ## citation_ids
 CIT-MEDULLARY-CARDIOVASCULAR-CENTERS-01
+
+---
+
+# Item
+
+## id
+SPN-TRIPLE-RESPONSE-HISTAMINE-WHEAL-01
+
+## article_id
+ART-CVS-FLARE-REACTION-AXON-REFLEX
+
+## section_id
+art-cvs-flare-reaction-axon-reflex-wheal-formation
+
+## text
+The wheal, the localised swelling seen after a sting, is mediated by histamine released locally from mast cells, which directly increases capillary permeability — a mechanism separate from the axon-reflex vasodilation that produces the flare.
+
+## claim_ids
+CLM-CVS-TRIPLE-RESPONSE-HISTAMINE-WHEAL-01
+
+## citation_ids
+CIT-TRIPLE-RESPONSE-HISTAMINE-WHEAL-01
