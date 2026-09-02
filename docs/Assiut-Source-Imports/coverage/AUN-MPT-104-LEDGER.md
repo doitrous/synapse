@@ -49,11 +49,12 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 203 | 3 | 235 | 441 |
+| quizzes-2022 | 224 | 4 | 213 | 441 |
 
 ## Held
 - quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q204 — Printed key names neutrophils as the cell whose fusion forms Langhans' giant cells (Quiz 25 Q7: 'Langhans' giant cells result from fusion of: ... The correct answer is: neutrophils'), but this is pathologically wrong -- Langhans giant cells form from the fusion of activated epithelioid macrophages, not neutrophils, a fact this same lecture's own Q3/Q5 rows (macrophage as the key granuloma cell; epithelioid cells as modified macrophages) directly contradict. Held per the printed-key-vs-pathology-fact conflict rule (same handling as Q19, Q25, Q47, Q166 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q224 — Printed key names Norepinephrine as least likely to cause tachycardia in a recent heart-transplant patient (Quiz 28 Q3: 'Which one of the following drugs is least likely to cause tachycardia in this patient? ... The correct answer is: Norepinephrine'). This is a printed-key/pharmacology conflict: in a normally innervated patient, norepinephrine's alpha1-mediated pressor effect triggers baroreceptor-mediated reflex (vagal) bradycardia that partially offsets its own direct beta1 chronotropic effect, making its net heart-rate effect comparatively small -- but the standard teaching point about a denervated transplanted heart is that this vagal reflex arc to the heart is severed and does not return, so the compensatory bradycardia cannot occur and norepinephrine's direct chronotropic effect would be unopposed, if anything producing MORE tachycardia in a transplant patient than in a normally innervated one, not less. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47, Q166, Q204 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
@@ -102,28 +103,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q207
-- quizzes-2022-q208
-- quizzes-2022-q209
-- quizzes-2022-q210
-- quizzes-2022-q211
-- quizzes-2022-q212
-- quizzes-2022-q213
-- quizzes-2022-q214
-- quizzes-2022-q215
-- quizzes-2022-q216
-- quizzes-2022-q217
-- quizzes-2022-q218
-- quizzes-2022-q219
-- quizzes-2022-q220
-- quizzes-2022-q221
-- quizzes-2022-q222
-- quizzes-2022-q223
-- quizzes-2022-q224
-- quizzes-2022-q225
-- quizzes-2022-q226
-- quizzes-2022-q227
-- quizzes-2022-q228
 - quizzes-2022-q229
 - quizzes-2022-q230
 - quizzes-2022-q231

@@ -6837,3 +6837,2358 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "trimethaphan ganglion blocker" -- 0 hits, new concept.
 relationships: closes the Lecture 24 antimuscarinic-pharmacology set; contrasted with CON-FND-568AAC30667942 (scopolamine, a true muscarinic antagonist) to keep the ganglion-blocker mechanism distinct.
+
+---
+
+# Item
+
+## id
+CON-FND-286EC65D65A4AB
+
+## label
+Prejunctional alpha2 receptor activation inhibits noradrenaline release
+
+## canonical_key
+teaching.mpt104.pharmacology.alpha2-autoreceptor-negative-feedback
+
+## aliases
+Alpha2 autoreceptor feedback
+Presynaptic alpha2 inhibition
+
+## arabic_label
+تثبيط تحرر النورأدرينالين عبر مستقبلات ألفا-2 قبل المشبكية
+
+## arabic_aliases
+التغذية الراجعة السلبية للنورأدرينالين
+
+## definition
+Noradrenaline released at a sympathetic nerve ending acts back on prejunctional (presynaptic) alpha2 autoreceptors on the same terminal. Activating these receptors inhibits further noradrenaline release -- a negative-feedback loop that limits how much transmitter a single nerve impulse releases, rather than stimulating further release or acting through an IP3/DAG (Gq) pathway.
+
+## explicit_objective
+State that activation of prejunctional alpha2 receptors inhibits, rather than stimulates, further noradrenaline release.
+
+## pitfalls
+Reversing the feedback direction (assuming alpha2 activation stimulates NEP/noradrenaline synthesis or release) or assigning it a Gq-type IP3/DAG signalling pathway -- alpha2 receptors are Gi-coupled and inhibitory on transmitter release.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 1
+
+## subtopic
+Alpha2 autoreceptor feedback
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-0F6EF6BCF447E9
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Activation of prejunctional α2 receptors on sympathetic nerve endings is associated with: ... The correct answer is: Inhibition of NEP release" (Quiz 26, Q1, `All Quizzes MPT 2022.pdf` p.97).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 26 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "prejunctional alpha2 receptor noradrenaline release" -- 0 hits, new concept.
+relationships: opens the Lecture 26 sympathetic-agonists-1 set; paired with CON-FND-0F6EF6BCF447E9 (axonal reuptake, the other noradrenaline-clearance mechanism this lecture tests).
+
+---
+
+# Item
+
+## id
+CON-FND-9B1963638789A3
+
+## label
+Epinephrine's real clinical uses are cardiac arrest, anaphylactic shock and complete heart block, not heart failure
+
+## canonical_key
+teaching.mpt104.pharmacology.epinephrine-clinical-uses
+
+## aliases
+Epinephrine clinical uses
+Adrenaline indications
+
+## arabic_label
+الاستطبابات السريرية للإبينفرين
+
+## arabic_aliases
+دواعي استعمال الأدرينالين
+
+## definition
+Epinephrine's department-tested clinical uses are cardiac arrest, anaphylactic shock and complete heart block. Heart failure is specifically excluded from this list: despite epinephrine's inotropic and chronotropic effects, it is not standard therapy for heart failure, where its arrhythmogenic potential and afterload-raising alpha-mediated vasoconstriction outweigh any short-term inotropic benefit.
+
+## explicit_objective
+State that epinephrine's tested clinical uses are cardiac arrest, anaphylactic shock and complete heart block, and that heart failure is not among them.
+
+## pitfalls
+Assuming heart failure is a standard epinephrine indication simply because epinephrine increases cardiac contractility -- inotropic potential alone does not make a drug a standard heart-failure therapy, and epinephrine's other effects make it unsuitable there.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 1
+
+## subtopic
+Epinephrine clinical uses
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-0366B2635DE9A6
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Epinephrine is used in the treatment of all the following conditions EXCEPT: ... The correct answer is: Heart failure" (Quiz 26, Q2, `All Quizzes MPT 2022.pdf` p.97).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 26 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "epinephrine uses cardiac arrest anaphylaxis" -- 0 hits, new concept.
+relationships: paired with CON-FND-0366B2635DE9A6 (the receptor-selectivity fact that partly explains epinephrine's broader effect profile vs. noradrenaline).
+
+---
+
+# Item
+
+## id
+CON-FND-59669D8913F88C
+
+## label
+Norepinephrine is given only by IV infusion, never SC, IM or oral
+
+## canonical_key
+teaching.mpt104.pharmacology.norepinephrine-iv-infusion-route
+
+## aliases
+Norepinephrine administration route
+IV-only vasopressor administration
+
+## arabic_label
+طريق إعطاء النورإبينفرين بالتسريب الوريدي فقط
+
+## arabic_aliases
+إعطاء النورأدرينالين عن طريق الوريد
+
+## definition
+Norepinephrine is used only by IV infusion. Its severe local vasoconstrictive potency makes subcutaneous or intramuscular injection a tissue-necrosis risk at the injection site, and it is inactivated by first-pass gut and liver metabolism if given orally -- ruling out every route except a continuous, carefully monitored IV infusion, typically through a central line to further reduce extravasation risk.
+
+## explicit_objective
+State that norepinephrine is administered only by IV infusion, and why the SC, IM and oral routes are unsuitable for it.
+
+## pitfalls
+Assuming norepinephrine can be given SC or IM like many other drugs -- its vasoconstrictive potency specifically makes this a tissue-necrosis risk. Assuming oral norepinephrine would work systemically, when first-pass metabolism inactivates it.
+
+## concept_type
+application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 1
+
+## subtopic
+Norepinephrine administration route
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-9B1963638789A3
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Norepinephrine is used by: ... The correct answer is: I.V. infusion route" (Quiz 26, Q3, `All Quizzes MPT 2022.pdf` p.98).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 26 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "norepinephrine iv infusion route" -- 0 hits, new concept.
+relationships: paired with CON-FND-9B1963638789A3 (epinephrine's own clinical-use profile, the parallel fact for the sister catecholamine).
+
+---
+
+# Item
+
+## id
+CON-FND-0366B2635DE9A6
+
+## label
+Noradrenaline is an agonist at alpha1, alpha2 and beta1 receptors, but not beta2
+
+## canonical_key
+teaching.mpt104.pharmacology.catecholamine-receptor-selectivity
+
+## aliases
+Catecholamine receptor selectivity
+Noradrenaline receptor profile
+
+## arabic_label
+انتقائية مستقبلات النورأدرينالين
+
+## arabic_aliases
+ملف مستقبلات الكاتيكولامينات
+
+## definition
+Noradrenaline's receptor profile is agonist activity at alpha1, alpha2 and beta1 (and beta3) adrenoceptors, but not at beta2 -- distinguishing it from adrenaline, which is an agonist at all four subtypes (alpha1, alpha2, beta1 and beta2), and from isoprenaline, a synthetic agonist essentially selective for beta1/beta2 with negligible alpha activity. This selectivity pattern is why noradrenaline produces potent vasoconstriction (alpha1) with less beta2-mediated vasodilation than adrenaline.
+
+## explicit_objective
+State noradrenaline's receptor-selectivity profile (alpha1, alpha2, beta1, not beta2) and contrast it with adrenaline and isoprenaline.
+
+## pitfalls
+Including beta2 in noradrenaline's receptor profile, or confusing its profile with adrenaline's (all four subtypes) or isoprenaline's (beta-selective, minimal alpha activity).
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 1
+
+## subtopic
+Catecholamine receptor selectivity
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-9B1963638789A3
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following sympathomimetic amine has agonistic action on alpha1 + alpha 2+ beta 1 + beta 3 adrenoceptors, but not on beta 2 receptors: ... The correct answer is: Noradrenaline" (Quiz 26, Q4, `All Quizzes MPT 2022.pdf` p.98).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 26 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "dopamine cardiogenic shock" and adjacent catecholamine terms -- 0 hits for this receptor-selectivity grain, new concept.
+relationships: paired with CON-FND-9B1963638789A3 (epinephrine's clinical uses, contrasted receptor profile).
+
+---
+
+# Item
+
+## id
+CON-FND-0F6EF6BCF447E9
+
+## label
+Noradrenaline's synaptic action is terminated principally by axonal (neuronal) reuptake
+
+## canonical_key
+teaching.mpt104.pharmacology.noradrenaline-termination-axonal-uptake
+
+## aliases
+Neuronal reuptake (Uptake-1)
+Noradrenaline termination mechanism
+
+## arabic_label
+إنهاء فعل النورأدرينالين عبر إعادة الامتصاص العصبي المحوري
+
+## arabic_aliases
+آلية إعادة امتصاص النورأدرينالين
+
+## definition
+The principal process terminating noradrenaline's action at the synapse, after release from an adrenergic nerve ending, is axonal (neuronal) uptake back into the presynaptic terminal -- often called Uptake-1. Extraneuronal uptake, methylation by catechol-O-methyltransferase (COMT) and degradation by monoamine oxidase (MAO) all contribute to clearing noradrenaline, but axonal reuptake is the principal, quantitatively dominant route.
+
+## explicit_objective
+State that axonal (neuronal) reuptake, not extraneuronal uptake, COMT methylation or MAO degradation, is the principal process terminating noradrenaline's synaptic action.
+
+## pitfalls
+Naming extraneuronal uptake, COMT or MAO as the principal termination mechanism -- these are real but secondary clearance pathways, not the principal one.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 1
+
+## subtopic
+Noradrenaline termination mechanism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-286EC65D65A4AB
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The principal process which terminates the action of noradrenaline released from adrenergic nerve ending is: ... The correct answer is: Axonal uptake" (Quiz 26, Q5, `All Quizzes MPT 2022.pdf` p.98).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 26 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "axonal uptake noradrenaline termination" -- 0 hits, new concept.
+relationships: paired with CON-FND-286EC65D65A4AB (the alpha2-autoreceptor feedback loop that limits release upstream of this reuptake step).
+
+---
+
+# Item
+
+## id
+CON-FND-080E1103BD8969
+
+## label
+Ephedrine is a noncatecholamine sympathomimetic
+
+## canonical_key
+teaching.mpt104.pharmacology.ephedrine-noncatecholamine-sympathomimetic
+
+## aliases
+Ephedrine chemistry
+Noncatecholamine sympathomimetic
+
+## arabic_label
+الإفدرين كودي غير كاتيكولاميني
+
+## arabic_aliases
+الفرق بين الكاتيكولامينات وغير الكاتيكولامينات
+
+## definition
+Ephedrine, unlike adrenaline, noradrenaline, dopamine and isoprenaline, is a noncatecholamine sympathomimetic -- it lacks the catechol (dihydroxybenzene) ring structure that defines a true catecholamine. This structural difference is part of why ephedrine, unlike the catecholamines, survives first-pass gut and liver metabolism well enough to be given orally.
+
+## explicit_objective
+Identify ephedrine as a noncatecholamine sympathomimetic, distinct from the catecholamine agonists (adrenaline, noradrenaline, dopamine, isoprenaline).
+
+## pitfalls
+Classing ephedrine as a catecholamine because it is a sympathomimetic amine -- being a sympathomimetic does not require the catechol ring structure that specifically defines a catecholamine.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 1
+
+## subtopic
+Catecholamine versus noncatecholamine sympathomimetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-0366B2635DE9A6
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is a noncatecholamine sympathomimetic: ... The correct answer is: Ephedrine" (Quiz 26, Q6, `All Quizzes MPT 2022.pdf` p.99).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 26 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ephedrine noncatecholamine" -- 0 hits, new concept.
+relationships: paired with CON-FND-0366B2635DE9A6 (the receptor-selectivity concept this structural classification sits alongside).
+
+---
+
+# Item
+
+## id
+CON-FND-6DA49885F762FE
+
+## label
+Sympathetic postganglionic fibres are the site of adrenergic transmission
+
+## canonical_key
+teaching.mpt104.pharmacology.sympathetic-postganglionic-adrenergic-transmission
+
+## aliases
+Adrenergic transmission site
+Sympathetic postganglionic neurotransmission
+
+## arabic_label
+موقع الانتقال الأدريناليني عند الألياف الودية بعد العقدية
+
+## arabic_aliases
+الألياف الودية بعد العقدية والنورأدرينالين
+
+## definition
+Adrenergic transmission -- release of noradrenaline as the neurotransmitter -- is the property of sympathetic postganglionic fibres specifically. This distinguishes that site from parasympathetic preganglionic fibres (cholinergic, acting on nicotinic receptors at the ganglion) and from the sympathetic fibres innervating the adrenal medulla, which are themselves preganglionic and cholinergic even though the medulla they stimulate secretes catecholamines into the bloodstream as a hormone rather than a synaptic neurotransmitter.
+
+## explicit_objective
+State that sympathetic postganglionic fibres are the site of adrenergic (noradrenaline-releasing) transmission, distinct from cholinergic sites including the fibres innervating the adrenal medulla.
+
+## pitfalls
+Assuming the sympathetic fibres to the adrenal medulla are themselves adrenergic transmission sites, since they are cholinergic (preganglionic) fibres that stimulate the medulla to secrete catecholamines as a hormone, not synaptic adrenergic transmission at that site itself.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 1
+
+## subtopic
+Sites of adrenergic transmission
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-1
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-080E1103BD8969
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which one of the following sites is characterized by adrenergic transmission? ... The correct answer is: Sympathetic postganglionic fibers" (Quiz 26, Q7, `All Quizzes MPT 2022.pdf` p.99).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 26 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "adrenergic transmission postganglionic sympathetic fiber" -- 0 hits, new concept.
+relationships: closes the Lecture 26 sympathetic-agonists-1 set; paired with CON-FND-080E1103BD8969 (ephedrine's noncatecholamine chemistry).
+
+---
+
+# Item
+
+## id
+CON-FND-EF9B8220E32D3F
+
+## label
+Regeneration replaces damaged tissue with the same type; organization replaces it with fibrous tissue
+
+## canonical_key
+teaching.mpt104.pathology.regeneration-vs-organization
+
+## aliases
+Regeneration versus organization
+Tissue repair outcomes
+
+## arabic_label
+التجدد مقابل التنظيم في إصلاح الأنسجة
+
+## arabic_aliases
+نتائج إصلاح الأنسجة
+
+## definition
+Regeneration means replacement of the damaged tissue by new tissue of the same type, restoring normal structure and function. Organization, by contrast, means replacement of the damaged tissue by fibrous tissue -- a scar that fills the defect but does not restore the original tissue type or function. Which outcome occurs depends on the regenerative capacity of the tissue's own cells (labile, stable or permanent).
+
+## explicit_objective
+State that regeneration replaces damaged tissue with the same tissue type, while organization replaces it with fibrous tissue.
+
+## pitfalls
+Swapping the two definitions -- describing organization as replacement by the same tissue type, or regeneration as replacement by fibrous or granulation tissue. Confusing either with calcification or replacement by neural tissue, which are not standard tissue-repair outcomes.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Tissue repair: types and mechanisms
+
+## subtopic
+Regeneration versus organization
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-TISSUE-REPAIR
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-F4AA1A02CDAEF6
+CON-FND-9DEA5636D2473B
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"8- Organization means replacement of the damaged tissue by: ... The correct answer is: Fibrous tissue" (Quiz 27, Q1, `All Quizzes MPT 2022.pdf` p.101); "Regeneration means: ... The correct answer is: Replacement of the damaged tissue by new one of the same type" (Q6, p.103).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 27 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "regeneration organization fibrous tissue" -- 0 hits, new concept.
+relationships: opens the Lecture 27 tissue-repair set; collapses Quiz 27 Q1 and Q6 (organization and regeneration, the paired definitions) onto one concept.
+
+---
+
+# Item
+
+## id
+CON-FND-9AC85DE2741A38
+
+## label
+A post-surgical nodule with macrophages, giant cells and foreign material is a granuloma around retained suture
+
+## canonical_key
+teaching.mpt104.pathology.foreign-body-granuloma-suture-material
+
+## aliases
+Foreign-body granuloma (suture)
+Post-surgical granuloma
+
+## arabic_label
+الورم الحبيبي حول خيوط الجراحة المتبقية
+
+## arabic_aliases
+تفاعل الجسم الغريب بعد الجراحة
+
+## definition
+A nodule found weeks after a surgical incision, showing macrophages, collagen deposition, lymphocytes, multinucleated giant cells and a foreign refractile material on biopsy, is a foreign-body granuloma forming around retained suture material -- the indigestible suture provokes the same persistent-antigen, macrophage-driven response as any other foreign-body reaction, rather than representing exuberant granulation tissue, hyaline degeneration or an abscess.
+
+## explicit_objective
+Recognise a post-surgical nodule with macrophages, giant cells, collagen and refractile foreign material as a foreign-body granuloma around retained suture material.
+
+## pitfalls
+Misreading this histological picture as exuberant granulation tissue (excess vascular/fibroblastic proliferation, no giant cells or foreign material), hyaline degeneration (extracellular protein deposition, not a cellular granulomatous reaction), or an abscess (neutrophilic, pus-forming, not giant-cell-and-macrophage-based).
+
+## concept_type
+application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Tissue repair: types and mechanisms
+
+## subtopic
+Foreign-body granuloma after surgery
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-TISSUE-REPAIR
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-8F94E784317AC6
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 25-year-old has an appendectomy, one month later she palpates a small nodule beneath the skin at the site of the healed sutured incision. The nodule is excised, and microscopic examination shows macrophages, collagen deposition, small lymphocytes, and multinucleated giant cells. A foreign refractile material is seen in the nodule. Which of the following complications of the surgery best accounts for these findings? ... The correct answer is: Granuloma formation" (Quiz 27, Q2, `All Quizzes MPT 2022.pdf` p.102).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 27 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "granuloma foreign body suture material" -- 0 hits, new concept.
+relationships: paired with CON-FND-8F94E784317AC6 (the Lecture 25 silicone-implant foreign-body granuloma row, same mechanism in a different clinical vignette).
+
+---
+
+# Item
+
+## id
+CON-FND-9DEA5636D2473B
+
+## label
+A month-old myocardial infarction shows fibrous scar, since cardiac myocytes are permanent cells
+
+## canonical_key
+teaching.mpt104.pathology.mi-healing-fibrous-scar-timeline
+
+## aliases
+Myocardial infarction healing
+Cardiac scar formation
+
+## arabic_label
+الشفاء الليفي بعد احتشاء عضلة القلب
+
+## arabic_aliases
+الندبة الليفية بعد شهر من الاحتشاء
+
+## definition
+A 58-year-old man's myocardial infarction, examined one month after the event, is expected to show a fibrous scar rather than any form of ongoing necrosis or true regeneration. Cardiac myocytes are permanent cells, so the only possible repair outcome for necrotic myocardium is organization; by one month, the acute necrotic phase (initially coagulative necrosis) has already been replaced by mature fibrous scar tissue.
+
+## explicit_objective
+State that a myocardial infarction examined one month later shows fibrous scar, because cardiac myocytes are permanent cells that heal only by organization.
+
+## pitfalls
+Selecting liquefactive necrosis, coagulative necrosis or regeneration for a month-old infarct -- coagulative necrosis is the acute-phase finding (days, not a month, later), liquefactive necrosis does not describe myocardial infarction healing, and true regeneration is impossible because cardiac myocytes are permanent cells.
+
+## concept_type
+application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Tissue repair: types and mechanisms
+
+## subtopic
+Myocardial infarction healing
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-TISSUE-REPAIR
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-F4AA1A02CDAEF6
+CON-FND-EF9B8220E32D3F
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 58-year-old man had chest pain persisting for 4 hours. A radiographic imaging procedure showed area of necrosis involving a 4-cm a of the posterior left ventricular free wall. Which of the following pathologic findings would most likely be seen in the left ventricular lesion 1 month later? ... The correct answer is: Fibrous scar" (Quiz 27, Q3, `All Quizzes MPT 2022.pdf` p.102).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 27 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "regeneration organization fibrous tissue" and MI-healing terms -- 0 hits, new concept.
+relationships: paired with CON-FND-F4AA1A02CDAEF6 (permanent cells, the fact this application depends on) and CON-FND-EF9B8220E32D3F (organization, the repair outcome this case demonstrates).
+
+---
+
+# Item
+
+## id
+CON-FND-F4AA1A02CDAEF6
+
+## label
+Labile cells regenerate continuously, stable cells regenerate when stimulated, permanent cells never regenerate
+
+## canonical_key
+teaching.mpt104.pathology.labile-stable-permanent-cells
+
+## aliases
+Cell regenerative capacity
+Labile stable permanent cell classification
+
+## arabic_label
+تصنيف الخلايا حسب القدرة التجددية
+
+## arabic_aliases
+الخلايا اللاعمة والمستقرة والدائمة
+
+## definition
+Cell regenerative capacity is graded into three classes. Labile cells are cells which regenerate continuously during adult life, replacing themselves on an ongoing basis without needing a stimulus (surface epithelium, haematopoietic cells). Stable cells are cells which multiply only when stimulated -- normally quiescent (in the G0 phase), but capable of re-entering the cell cycle after injury (many glandular and parenchymal cells). Permanent cells are cells which never regenerate once mature, of which nerve cells are the standard example -- cardiac and skeletal muscle are the other classic permanent-cell tissues.
+
+## explicit_objective
+Classify a tissue's cells as labile (continuous regeneration), stable (regenerates only when stimulated) or permanent (never regenerates, e.g. nerve cells), and state a correct example for each.
+
+## pitfalls
+Confusing labile cells (regenerate continuously, no stimulus needed) with stable cells (require a stimulus to regenerate) -- the distinguishing fact is whether ongoing turnover happens by default. Naming a labile-cell tissue (mucous membranes, epidermis, haematopoietic cells) as an example of permanent cells, when nerve cells (along with cardiac and skeletal muscle) are the correct permanent-cell examples.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Tissue repair: types and mechanisms
+
+## subtopic
+Cell regenerative capacity
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-TISSUE-REPAIR
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-EF9B8220E32D3F
+CON-FND-9DEA5636D2473B
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Cells which never regenerate are called: ... The correct answer is: Permanent cells" (Quiz 27, Q4, `All Quizzes MPT 2022.pdf` p.102); "Labile cells are: ... The correct answer is: Cells which regenerate continuously during adult life" (Q5, p.103); "Stable cells are: ... The correct answer is: Cells which multiply only when stimulated" (Q7, p.103); "Which of the following is an Examples of permanent cells? ... The correct answer is: Nerve cells" (Q8, p.104).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 27 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "labile cells stable cells permanent cells" -- 0 hits, new concept.
+relationships: closes the Lecture 27 tissue-repair set; collapses Quiz 27 Q4, Q5, Q7 and Q8 (all testing the same labile/stable/permanent classification) onto one concept; paired with CON-FND-9DEA5636D2473B (the MI-healing application of the permanent-cell fact).
+
+---
+
+# Item
+
+## id
+CON-FND-0F673BB3BBD326
+
+## label
+Dopamine activates dopaminergic D1/D2 and adrenergic receptors, and may be used in cardiogenic shock
+
+## canonical_key
+teaching.mpt104.pharmacology.dopamine-dose-dependent-receptor-pharmacology
+
+## aliases
+Dopamine receptor pharmacology
+Dopamine in cardiogenic shock
+
+## arabic_label
+مستقبلات الدوبامين واستخدامه في الصدمة القلبية
+
+## arabic_aliases
+الدوبامين وعلاج صدمة القلب
+
+## definition
+Dopamine activates dopaminergic D1 and D2 receptors together with adrenergic alpha and beta receptors -- a multi-receptor profile broader than any other endogenous catecholamine discussed in this course. This multi-receptor activity, including a beta1-mediated inotropic effect, is why dopamine may be used in cardiogenic shock, providing cardiac inotropic support alongside its distinctive dopaminergic action.
+
+## explicit_objective
+State that dopamine activates dopaminergic D1/D2 receptors together with adrenergic alpha and beta receptors, and that this profile supports its use in cardiogenic shock.
+
+## pitfalls
+Assuming dopamine acts on only dopaminergic receptors or only adrenergic receptors, rather than both families together -- this combined activity is what distinguishes it from a more receptor-restricted catecholamine like isoprenaline or phenylephrine.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 2
+
+## subtopic
+Dopamine receptor pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-0366B2635DE9A6
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following statements is TRUE regarding sympathomimetics: ... The correct answer is: Dopamine may be used in cardiogenic shock." (Quiz 28, Q1, `All Quizzes MPT 2022.pdf` p.106); "Dopaminergic D1 and D2 as well as adrenergic alpha and beta receptors are activated by: ... The correct answer is: Dopamine" (Q6, p.108).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 28 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "dopamine cardiogenic shock" and "dopamine d1 d2 alpha beta receptors dose" -- 0 hits, new concept.
+relationships: opens the Lecture 28 sympathetic-agonists-2 set; collapses Quiz 28 Q1 and Q6 (both testing dopamine's multi-receptor profile) onto one concept; paired with CON-FND-0366B2635DE9A6 (noradrenaline's own, narrower receptor profile from Lecture 26).
+
+---
+
+# Item
+
+## id
+CON-FND-4CED62D934193E
+
+## label
+Tyramine acts almost exclusively by releasing noradrenaline from nerve endings
+
+## canonical_key
+teaching.mpt104.pharmacology.tyramine-indirect-sympathomimetic
+
+## aliases
+Tyramine mechanism
+Indirect-acting sympathomimetic
+
+## arabic_label
+آلية عمل التيرامين بتحرير النورأدرينالين
+
+## arabic_aliases
+منبه ودي غير مباشر
+
+## definition
+Tyramine is a sympathomimetic amine that acts almost exclusively by releasing noradrenaline from the nerve endings, an indirect mechanism rather than direct receptor agonism. This distinguishes it from direct-acting agonists such as isoprenaline, dopamine and epinephrine, which act on adrenoceptors themselves rather than displacing stored transmitter.
+
+## explicit_objective
+State that tyramine acts almost exclusively by releasing noradrenaline from nerve endings, an indirect rather than direct sympathomimetic mechanism.
+
+## pitfalls
+Classing tyramine as a direct-acting receptor agonist like a catecholamine, when its action instead depends on displacing noradrenaline already stored in the nerve terminal.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 2
+
+## subtopic
+Indirect-acting sympathomimetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-080E1103BD8969
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A sympathomimetic amine that acts almost exclusively by releasing noradrenaline from the nerve endings is: ... The correct answer is: Tyramine" (Quiz 28, Q2, `All Quizzes MPT 2022.pdf` p.106).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 28 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "tyramine releases noradrenaline" -- 0 hits, new concept.
+relationships: paired with CON-FND-080E1103BD8969 (ephedrine, another noncatecholamine sympathomimetic with partial indirect action).
+
+---
+
+# Item
+
+## id
+CON-FND-67CAF7C656F6C5
+
+## label
+Phenylephrine produces mydriasis but no cycloplegia, since accommodation is muscarinic-controlled
+
+## canonical_key
+teaching.mpt104.pharmacology.phenylephrine-alpha1-mydriasis-no-cycloplegia
+
+## aliases
+Phenylephrine ocular effect
+Mydriasis without cycloplegia
+
+## arabic_label
+توسع الحدقة دون شلل التكيف بالفينيليفرين
+
+## arabic_aliases
+تأثير الفينيليفرين على العين
+
+## definition
+Phenylephrine, instilled in the eye, produces mydriasis but no cycloplegia. As a selective alpha1 agonist it contracts the iris dilator muscle (alpha1-mediated), producing pupil dilation, but has no action on the ciliary muscle, which is under muscarinic, not adrenergic, control. Accommodation for near vision is therefore unaffected -- unlike an antimuscarinic such as scopolamine, which paralyses the ciliary muscle and produces cycloplegia alongside its mydriasis.
+
+## explicit_objective
+State that phenylephrine produces mydriasis without cycloplegia, contrasted with an antimuscarinic's mydriasis-with-cycloplegia.
+
+## pitfalls
+Assuming phenylephrine's mydriasis must come with cycloplegia the way an antimuscarinic's does -- the two drugs dilate the pupil through entirely different receptor mechanisms (alpha1 versus muscarinic blockade), and only the muscarinic mechanism also paralyses the ciliary muscle.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 2
+
+## subtopic
+Phenylephrine ocular pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-568AAC30667942
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Phenylephrine instilled in the eye produces: ... The correct answer is: Mydriasis but no cycloplegia" (Quiz 28, Q4, `All Quizzes MPT 2022.pdf` p.107).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 28 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "phenylephrine mydriasis cycloplegia" -- 0 hits, new concept.
+relationships: paired with CON-FND-568AAC30667942 (scopolamine's mydriasis-with-cycloplegia, the contrasting antimuscarinic mechanism from Lecture 24).
+
+---
+
+# Item
+
+## id
+CON-FND-BF63B93BB2E9B6
+
+## label
+Amphetamine is used clinically in ADHD
+
+## canonical_key
+teaching.mpt104.pharmacology.amphetamine-adhd-narcolepsy-use
+
+## aliases
+Amphetamine clinical use
+ADHD pharmacotherapy
+
+## arabic_label
+استخدام الأمفيتامين في علاج فرط الحركة ونقص الانتباه
+
+## arabic_aliases
+دواعي استعمال الأمفيتامين
+
+## definition
+Amphetamine is used in ADHD, among its established clinical uses. It acts by a dual (direct and indirect) sympathomimetic mechanism, has real abuse potential, and is a CNS stimulant rather than a depressant -- properties that together explain both its therapeutic use and the need for careful prescribing.
+
+## explicit_objective
+State that amphetamine's established clinical uses include ADHD, and that it is a CNS stimulant with real abuse potential.
+
+## pitfalls
+Assuming amphetamine has no abuse potential, is a CNS depressant, or acts by only a direct or only an indirect mechanism -- amphetamine is a CNS stimulant with genuine abuse potential and a dual direct/indirect mechanism.
+
+## concept_type
+application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 2
+
+## subtopic
+Amphetamine clinical pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-4CED62D934193E
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding Amphetamine, one of the following sttaments is TRUE: ... The correct answer is: It is used in ADHD" (Quiz 28, Q5, `All Quizzes MPT 2022.pdf` p.107).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 28 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "amphetamine ADHD" -- 0 hits, new concept.
+relationships: paired with CON-FND-4CED62D934193E (tyramine, the other indirect/dual-mechanism sympathomimetic in this cluster).
+
+---
+
+# Item
+
+## id
+CON-FND-D7B70CF66505F4
+
+## label
+Selective beta2-adrenomimetics can still produce tachycardia as a side effect
+
+## canonical_key
+teaching.mpt104.pharmacology.beta2-agonist-tachycardia-side-effect
+
+## aliases
+Beta2 agonist side effects
+Selective beta2 agonist tachycardia
+
+## arabic_label
+تسارع ضربات القلب كأثر جانبي لمنبهات بيتا-2 الانتقائية
+
+## arabic_aliases
+الآثار الجانبية لمنبهات بيتا-2
+
+## definition
+Selective beta2-adrenomimetics, despite their receptor selectivity, can still produce tachycardia as a side effect -- from some cross-reactivity at beta1 receptors at higher doses, reflex responses to beta2-mediated vasodilation, or direct beta2 effects on the atria. Dry mouth, peripheral vasoconstriction and depression of the breathing centre are not characteristic beta2-agonist effects; if anything, beta2 agonists cause vasodilation and bronchodilation, the opposite of vasoconstriction and respiratory depression.
+
+## explicit_objective
+State that tachycardia, not dry mouth, peripheral vasoconstriction or breathing-centre depression, is the characteristic side effect of a selective beta2 agonist.
+
+## pitfalls
+Assuming a "selective" beta2 agonist must be free of cardiac side effects, or attributing an antimuscarinic-type effect (dry mouth) or a vasoconstrictive/depressant effect to a beta2 agonist, which instead vasodilates and stimulates rather than depresses.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sympathetic nervous system (agonists) 2
+
+## subtopic
+Beta2 agonist side effects
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-50FB4649C59276
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Select the side-effect characteristic for selective beta2-adrenomimics: ... The correct answer is: Tachycardia" (Quiz 28, Q7, `All Quizzes MPT 2022.pdf` p.108).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 28 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "beta2 adrenomimetic tachycardia side effect" -- 0 hits, new concept.
+relationships: closes the Lecture 28 sympathetic-agonists-2 set and the whole Quiz 23-28 cluster; paired with CON-FND-50FB4649C59276 (ipratropium, the other airway-adrenoceptor-adjacent concept in this lane).

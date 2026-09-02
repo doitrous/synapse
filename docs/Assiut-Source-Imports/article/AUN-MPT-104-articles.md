@@ -1732,3 +1732,488 @@ Block: body
 ### definition_of · CON-FND-84207418D30CBB
 Quote: Trimethaphan, by contrast, is a ganglion blocker: it acts on nicotinic (not muscarinic) receptors at the autonomic ganglia, blocking both sympathetic and parasympathetic transmission at that single site
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-1
+
+## title
+Sympathetic agonists 1: receptor selectivity, clinical uses and termination of action
+
+## arabic_title
+منبهات الجهاز الودي 1: انتقائية المستقبلات والاستخدامات السريرية وإنهاء الفعل
+
+## aliases
+Sympathetic nervous system (agonists) 1
+Lecture 26
+Adrenergic agonists
+
+## subject
+fnd
+
+## topic
+Sympathetic nervous system (agonists) 1
+
+## subtopic
+Catecholamine receptor selectivity and pharmacokinetics
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 26 opens the sympathetic (adrenergic) agonists with the machinery around noradrenaline: a prejunctional alpha2 autoreceptor that throttles its own release, the neuronal (axonal) reuptake that is the principal way its synaptic action ends, and the specific receptor subtypes it activates -- alpha1, alpha2 and beta1, but not beta2, the property that also sets it apart from adrenaline (all four subtypes) and isoprenaline (beta1/beta2 only). Clinically, epinephrine's genuine uses (cardiac arrest, anaphylactic shock, complete heart block) are contrasted with heart failure, where it is not a standard treatment; and norepinephrine's severe local vasoconstriction and oral inactivation confine it to IV infusion, never subcutaneous, intramuscular or oral routes. The lecture closes on two structural/anatomical facts: ephedrine's noncatecholamine chemistry (letting it survive oral dosing, unlike the catecholamines) and sympathetic postganglionic fibres as the anatomical site of adrenergic transmission.
+
+## sections
+### Definition
+Noradrenaline released at a sympathetic nerve ending acts on prejunctional alpha2 autoreceptors on the same terminal; activating them inhibits further noradrenaline release, a negative-feedback loop that limits how much transmitter a single impulse releases. Once released, the noradrenaline in the synapse is cleared principally by axonal (neuronal) uptake back into the presynaptic terminal -- not by extraneuronal uptake, methylation by COMT or degradation by MAO, which are all secondary or intracellular routes rather than the principal termination mechanism.
+
+### Mechanism
+Noradrenaline's receptor profile is agonist activity at alpha1, alpha2 and beta1 (and beta3) adrenoceptors, but not at beta2 -- distinguishing it from adrenaline (agonist at all four subtypes, alpha1/alpha2/beta1/beta2) and from isoprenaline (a synthetic agonist essentially selective for beta1/beta2, with negligible alpha activity). Ephedrine, unlike adrenaline, noradrenaline, dopamine and isoprenaline, is a noncatecholamine sympathomimetic -- lacking the catechol ring structure that makes the true catecholamines vulnerable to first-pass COMT metabolism, which is part of why ephedrine survives oral administration where the catecholamines do not. Anatomically, adrenergic transmission -- release of noradrenaline as the neurotransmitter -- is the property of sympathetic postganglionic fibres specifically, distinguishing this site from parasympathetic preganglionic fibres (cholinergic) and from the sympathetic fibres innervating the adrenal medulla (which are themselves preganglionic and cholinergic, even though the medulla they stimulate secretes catecholamines into the blood).
+
+### Key determinants
+Epinephrine's real, department-tested clinical uses are cardiac arrest, anaphylactic shock and complete heart block -- but not heart failure, where it is not standard therapy despite its inotropic and chronotropic effects, because the arrhythmogenic and afterload-raising risks outweigh the benefit in that chronic setting. Norepinephrine, given its severe local vasoconstrictive potential (tissue necrosis risk with extravasation) and inactivation by first-pass gut/liver metabolism if swallowed, is used only by IV infusion -- never subcutaneous, intramuscular or oral routes, all of which are ruled out by these same properties.
+
+### Clinical significance
+Recognising which catecholamine a clinical scenario needs depends on this receptor-selectivity and route knowledge together: reaching for norepinephrine specifically because a case needs strong alpha1-mediated vasopressor effect with less beta2-mediated vasodilation than epinephrine would give, and reaching for the IV route because no other route is safe or effective for it. Distinguishing epinephrine's true indications (cardiac arrest, anaphylaxis, heart block) from heart failure protects against a dangerous prescribing error in a chronic cardiac patient.
+
+### Common misconceptions
+Assuming heart failure is a standard epinephrine indication because epinephrine increases cardiac contractility -- the department's own tested list specifically excludes it. Assuming norepinephrine could be given IM or SC like many other drugs, when its vasoconstrictive potency makes this a tissue-necrosis risk specific to this drug. Confusing which catecholamine terminates chiefly by axonal reuptake (all of them, principally) with the minor/secondary roles of extraneuronal uptake, COMT and MAO. Assuming the adrenal medulla itself is "adrenergic transmission" in the classic neuroanatomical sense, when the fibres innervating it are cholinergic (preganglionic), even though the medulla's secretory output is catecholamine.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Prejunctional alpha2 receptor activation inhibits noradrenaline release (negative feedback).
+Noradrenaline's synaptic action is terminated principally by axonal (neuronal) reuptake.
+Noradrenaline: agonist at alpha1, alpha2, beta1 (and beta3), not beta2. Adrenaline: agonist at all four (alpha1/alpha2/beta1/beta2). Isoprenaline: beta1/beta2 selective.
+Epinephrine's real uses: cardiac arrest, anaphylactic shock, complete heart block -- not heart failure.
+Norepinephrine is given only by IV infusion, never SC/IM/oral, due to local vasoconstriction risk and oral inactivation.
+Ephedrine is a noncatecholamine sympathomimetic.
+Sympathetic postganglionic fibres are the site of adrenergic transmission.
+
+## lose_the_mark
+Reversing the alpha2-autoreceptor feedback direction (stimulation, not inhibition, of release).
+Naming extraneuronal uptake, COMT or MAO as the principal (rather than a secondary) termination route for noradrenaline.
+Including beta2 in noradrenaline's receptor profile, or omitting alpha1/alpha2/beta1 from it.
+Listing heart failure among epinephrine's tested clinical uses.
+Choosing any route other than IV infusion for norepinephrine.
+Classing ephedrine as a catecholamine, or classing the sympathetic fibres to the adrenal medulla as the adrenergic-transmission site instead of sympathetic postganglionic fibres generally.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-286EC65D65A4AB
+CON-FND-9B1963638789A3
+CON-FND-59669D8913F88C
+CON-FND-0366B2635DE9A6
+CON-FND-0F6EF6BCF447E9
+CON-FND-080E1103BD8969
+CON-FND-6DA49885F762FE
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 26 (Sympathetic nervous system, agonists 1) -- no department slide deck exists in the corpus past Lecture 8, so these seven mints cite the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-286EC65D65A4AB
+Quote: activating them inhibits further noradrenaline release, a negative-feedback loop that limits how much transmitter a single impulse releases
+Block: body
+
+### definition_of · CON-FND-9B1963638789A3
+Quote: Epinephrine's real, department-tested clinical uses are cardiac arrest, anaphylactic shock and complete heart block -- but not heart failure, where it is not standard therapy
+Block: body
+
+### definition_of · CON-FND-59669D8913F88C
+Quote: Norepinephrine, given its severe local vasoconstrictive potential (tissue necrosis risk with extravasation) and inactivation by first-pass gut/liver metabolism if swallowed, is used only by IV infusion
+Block: body
+
+### definition_of · CON-FND-0366B2635DE9A6
+Quote: Noradrenaline's receptor profile is agonist activity at alpha1, alpha2 and beta1 (and beta3) adrenoceptors, but not at beta2
+Block: body
+
+### definition_of · CON-FND-0F6EF6BCF447E9
+Quote: the noradrenaline in the synapse is cleared principally by axonal (neuronal) uptake back into the presynaptic terminal
+Block: body
+
+### definition_of · CON-FND-080E1103BD8969
+Quote: Ephedrine, unlike adrenaline, noradrenaline, dopamine and isoprenaline, is a noncatecholamine sympathomimetic
+Block: body
+
+### definition_of · CON-FND-6DA49885F762FE
+Quote: adrenergic transmission -- release of noradrenaline as the neurotransmitter -- is the property of sympathetic postganglionic fibres specifically
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-TISSUE-REPAIR
+
+## title
+Tissue repair: regeneration, organization and cell regenerative capacity
+
+## arabic_title
+إصلاح الأنسجة: التجدد والتنظيم والقدرة التجددية للخلايا
+
+## aliases
+Tissue repair: types and mechanisms
+Lecture 27
+Labile stable permanent cells
+
+## subject
+fnd
+
+## topic
+Tissue repair: types and mechanisms
+
+## subtopic
+Regeneration, organization and cell regenerative capacity
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 27 names the two possible outcomes of tissue repair -- regeneration, replacement by new tissue of the same type, and organization, replacement by fibrous tissue -- and ties each to which outcome a given tissue's cells are capable of. That capacity is graded into three classes: labile cells that regenerate continuously throughout adult life, stable cells that multiply only when stimulated, and permanent cells that never regenerate at all, exemplified by nerve cells. A myocardial infarction, whose cardiac myocytes are permanent cells, heals only by organization into a fibrous scar over about a month, never by true regeneration. A firm nodule appearing weeks after a surgical incision, showing macrophages, giant cells and refractile foreign material on biopsy, is instead a foreign-body granuloma around retained suture material -- a different repair-adjacent process from either regeneration or organization.
+
+## sections
+### Definition
+Regeneration means replacement of the damaged tissue by new tissue of the same type, restoring normal structure and function. Organization, by contrast, means replacement of the damaged tissue by fibrous tissue -- a scar that fills the defect but does not restore the original tissue type or function. Which of these two outcomes occurs after injury depends on the regenerative capacity of the tissue's own cells.
+
+### Mechanism
+Cell regenerative capacity is graded into three classes. Labile cells are cells which regenerate continuously during adult life, replacing themselves on an ongoing basis (epithelium, haematopoietic cells). Stable cells are cells which multiply only when stimulated -- normally quiescent, but capable of re-entering the cell cycle after injury (many glandular and parenchymal cells). Permanent cells are cells which never regenerate once mature, of which nerve cells are the standard example -- along with cardiac and skeletal muscle -- meaning any significant damage to permanent-cell tissue can only be repaired by organization (fibrous scarring), never by regeneration.
+
+### Key determinants
+A 58-year-old man's myocardial infarction, one month after the event, is expected to show a fibrous scar rather than any form of necrosis or regeneration -- because cardiac myocytes are permanent cells, the only possible repair outcome for the necrotic muscle is organization, and by one month the acute necrosis (initially coagulative) has already been replaced by mature fibrous tissue. A nodule found weeks after an appendectomy, showing macrophages, collagen deposition, lymphocytes, multinucleated giant cells and a foreign refractile material on biopsy, is a foreign-body granuloma forming around retained suture material -- a distinct, antigen-persistence-driven process rather than either straightforward regeneration or organization.
+
+### Clinical significance
+Recognising that a tissue is built from permanent cells (nerve, cardiac and skeletal muscle) predicts that any significant injury there will heal by scarring, not restoration of function -- the pathological basis for why a large myocardial infarction leaves permanent contractile deficit, and why significant CNS injury does not regenerate the way liver or epithelium can. Distinguishing a foreign-body granuloma (giant cells plus visible foreign material) from exuberant granulation tissue, hyaline degeneration or an abscess on a post-surgical biopsy changes the clinical read from "infection" or "new growth" to "reaction to retained material."
+
+### Common misconceptions
+Assuming labile and stable cells are interchangeable categories -- labile cells regenerate continuously without needing a stimulus, while stable cells are normally quiescent and require one. Assuming any tissue can regenerate given enough time, when permanent-cell tissue specifically cannot, however much time passes. Expecting liquefactive necrosis or ongoing coagulative necrosis, rather than fibrous scar, on a month-old myocardial infarction biopsy -- by that point the acute necrotic phase has already resolved into organized scar tissue.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Regeneration = replacement by new tissue of the same type; organization = replacement by fibrous tissue.
+Labile cells regenerate continuously during adult life; stable cells multiply only when stimulated; permanent cells never regenerate (nerve cells are the standard example).
+A month-old myocardial infarction shows fibrous scar, not necrosis or regeneration, because cardiac myocytes are permanent cells.
+A post-surgical nodule with macrophages, giant cells, collagen and visible foreign (refractile) material is a foreign-body granuloma around retained suture, not exuberant granulation tissue, hyaline degeneration or an abscess.
+
+## lose_the_mark
+Swapping regeneration and organization's definitions.
+Confusing labile (continuous, unstimulated regeneration) with stable (regenerates only when stimulated) cells, or naming any tissue other than nerve/cardiac/skeletal muscle as a permanent-cell example.
+Choosing liquefactive or ongoing coagulative necrosis, or "regeneration," for a month-old MI, instead of fibrous scar.
+Misreading a foreign-body granuloma (giant cells + foreign material on biopsy) as exuberant granulation tissue, hyaline degeneration or an abscess.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-EF9B8220E32D3F
+CON-FND-9AC85DE2741A38
+CON-FND-9DEA5636D2473B
+CON-FND-F4AA1A02CDAEF6
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 27 (Tissue repair: types and mechanisms) -- no department slide deck exists in the corpus past Lecture 8, so these four mints cite the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-EF9B8220E32D3F
+Quote: Regeneration means replacement of the damaged tissue by new tissue of the same type, restoring normal structure and function. Organization, by contrast, means replacement of the damaged tissue by fibrous tissue
+Block: body
+
+### definition_of · CON-FND-9AC85DE2741A38
+Quote: A nodule found weeks after an appendectomy, showing macrophages, collagen deposition, lymphocytes, multinucleated giant cells and a foreign refractile material on biopsy, is a foreign-body granuloma forming around retained suture material
+Block: body
+
+### definition_of · CON-FND-9DEA5636D2473B
+Quote: A 58-year-old man's myocardial infarction, one month after the event, is expected to show a fibrous scar rather than any form of necrosis or regeneration -- because cardiac myocytes are permanent cells, the only possible repair outcome for the necrotic muscle is organization
+Block: body
+
+### definition_of · CON-FND-F4AA1A02CDAEF6
+Quote: Labile cells are cells which regenerate continuously during adult life, replacing themselves on an ongoing basis (epithelium, haematopoietic cells). Stable cells are cells which multiply only when stimulated -- normally quiescent, but capable of re-entering the cell cycle after injury (many glandular and parenchymal cells). Permanent cells are cells which never regenerate once mature, of which nerve cells are the standard example
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-SYMPATHETIC-AGONISTS-2
+
+## title
+Sympathetic agonists 2: dopamine's dose-dependent receptors, tyramine, phenylephrine and amphetamine
+
+## arabic_title
+منبهات الجهاز الودي 2: مستقبلات الدوبامين المعتمدة على الجرعة والتيرامين والفينيليفرين والأمفيتامين
+
+## aliases
+Sympathetic nervous system (agonists) 2
+Lecture 28
+
+## subject
+fnd
+
+## topic
+Sympathetic nervous system (agonists) 2
+
+## subtopic
+Dopamine, tyramine, phenylephrine and amphetamine pharmacology
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 28 closes the sympathetic-agonist pair with four more sympathomimetics, each defined by a distinct mechanism. Dopamine activates its own D1/D2 dopaminergic receptors alongside the classic adrenergic alpha and beta receptors, making it useful in cardiogenic shock; tyramine, unlike a direct-acting catecholamine, works almost exclusively by releasing stored noradrenaline from the nerve ending, an indirect mechanism. Phenylephrine, a selective alpha1 agonist, produces mydriasis in the eye without cycloplegia, since accommodation is under muscarinic, not alpha1, control -- distinguishing its ocular effect from an antimuscarinic's mydriasis-with-cycloplegia. Amphetamine is used clinically in ADHD, and selective beta2 agonists, despite their receptor selectivity, can still produce tachycardia as a side effect.
+
+## sections
+### Definition
+Dopamine, at higher doses, activates dopaminergic D1 and D2 receptors together with adrenergic alpha and beta receptors -- this multi-receptor activity, including a beta1-mediated inotropic effect, is why dopamine may be used in cardiogenic shock. Tyramine is a sympathomimetic amine that acts almost exclusively by releasing noradrenaline from the nerve endings, an indirect mechanism rather than direct receptor agonism -- distinguishing it from a directly-acting catecholamine like isoprenaline, dopamine or epinephrine.
+
+### Mechanism
+Phenylephrine, instilled in the eye, produces mydriasis but no cycloplegia: as a selective alpha1 agonist it contracts the iris dilator muscle (alpha1-mediated), producing pupil dilation, but has no action on the ciliary muscle, which is under muscarinic (not adrenergic) control -- so accommodation for near vision is unaffected, unlike an antimuscarinic such as scopolamine, which paralyses the ciliary muscle and produces cycloplegia alongside its mydriasis. Amphetamine is used in ADHD, among its established clinical uses. Selective beta2-adrenomimetics, despite their receptor selectivity, can still produce tachycardia as a side-effect -- from some cross-reactivity at beta1 receptors at higher doses, reflex responses to beta2-mediated vasodilation, or direct beta2 effects on the atria.
+
+### Key determinants
+Dopamine's dose-dependent, multi-receptor profile (dopaminergic at low dose, increasingly beta1 and then alpha1 at higher doses) is what makes it a rational choice in cardiogenic shock, where both inotropic support and, at need, vasopressor effect are wanted from a single agent. Tyramine's indirect, noradrenaline-releasing mechanism depends on intact noradrenaline stores in the nerve terminal -- a property that becomes clinically important in patients on MAO inhibitors, where accumulated stores can be released in a dangerously exaggerated surge (not itself tested in this lecture's questions, but the reason tyramine's mechanism is taught as indirect rather than direct).
+
+### Clinical significance
+Choosing phenylephrine specifically when mydriasis without cycloplegia is wanted (for example when near vision needs to be preserved during part of an eye exam) depends on knowing its alpha1-selective, muscarinic-sparing mechanism. Recognising that a selective beta2 agonist can still cause tachycardia as a side effect matters for monitoring a patient using one for bronchodilation, since "selective" does not mean "free of cardiac effect."
+
+### Common misconceptions
+Assuming tyramine acts as a direct receptor agonist like the catecholamines, when its action is almost exclusively indirect (releasing stored noradrenaline). Assuming phenylephrine's mydriasis must come with cycloplegia, the way an antimuscarinic's does -- an alpha1 agonist's mydriasis and an antimuscarinic's mydriasis-with-cycloplegia arise from different receptor mechanisms with different accompanying effects. Assuming a "selective" beta2 agonist is free of cardiac (tachycardic) side effects.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Dopamine activates dopaminergic D1/D2 receptors together with adrenergic alpha and beta receptors, and may be used in cardiogenic shock.
+Tyramine acts almost exclusively by releasing noradrenaline from the nerve endings (an indirect mechanism).
+Phenylephrine (a selective alpha1 agonist) produces mydriasis but no cycloplegia, since accommodation is muscarinic-, not alpha1-, controlled.
+Amphetamine is used in ADHD.
+Selective beta2-adrenomimetics can still produce tachycardia as a side effect.
+
+## lose_the_mark
+Naming dopamine as acting on only one receptor family (dopaminergic-only, or adrenergic-only) instead of both.
+Classing tyramine as a direct-acting agonist rather than an indirect, noradrenaline-releasing one.
+Assuming phenylephrine's mydriasis comes with cycloplegia, the way an antimuscarinic's does.
+Missing amphetamine's ADHD indication among its uses.
+Assuming a selective beta2 agonist cannot cause tachycardia.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-0F673BB3BBD326
+CON-FND-4CED62D934193E
+CON-FND-67CAF7C656F6C5
+CON-FND-BF63B93BB2E9B6
+CON-FND-D7B70CF66505F4
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 28 (Sympathetic nervous system, agonists 2) -- no department slide deck exists in the corpus past Lecture 8, so these five mints cite the quiz bank's own printed-answer text instead. Quiz 28 Q3 (q224, heart-transplant patient and norepinephrine tachycardia) is held: a denervated transplanted heart lacks the vagal-reflex bradycardia that normally offsets norepinephrine's direct chronotropic effect in an innervated patient, so norepinephrine would be expected to cause more, not less, tachycardia in this setting -- a printed-key/pharmacology conflict, not resolved by inference.
+
+## annotations
+### definition_of · CON-FND-0F673BB3BBD326
+Quote: Dopamine, at higher doses, activates dopaminergic D1 and D2 receptors together with adrenergic alpha and beta receptors -- this multi-receptor activity, including a beta1-mediated inotropic effect, is why dopamine may be used in cardiogenic shock
+Block: body
+
+### definition_of · CON-FND-4CED62D934193E
+Quote: Tyramine is a sympathomimetic amine that acts almost exclusively by releasing noradrenaline from the nerve endings, an indirect mechanism rather than direct receptor agonism
+Block: body
+
+### definition_of · CON-FND-67CAF7C656F6C5
+Quote: Phenylephrine, instilled in the eye, produces mydriasis but no cycloplegia: as a selective alpha1 agonist it contracts the iris dilator muscle (alpha1-mediated), producing pupil dilation, but has no action on the ciliary muscle, which is under muscarinic (not adrenergic) control
+Block: body
+
+### definition_of · CON-FND-BF63B93BB2E9B6
+Quote: Amphetamine is used in ADHD, among its established clinical uses
+Block: body
+
+### definition_of · CON-FND-D7B70CF66505F4
+Quote: Selective beta2-adrenomimetics, despite their receptor selectivity, can still produce tachycardia as a side-effect
+Block: body
