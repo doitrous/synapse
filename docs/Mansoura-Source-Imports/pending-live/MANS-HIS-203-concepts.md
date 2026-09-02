@@ -383,3 +383,89 @@ MANS-HIS-203 > Histology > Blood > Lymphocytes
 
 ## field_notes
 universityNotes: mans: The His Continuous Berlin Book 2026 (HIS 203) tests B- and T-lymphocyte function as two separate questions (Q51, "B-lymphocytes...", keyed C, important in humoral immunity; Q52, "T-lymphocytes...", keyed D, important in cellular immunity) — the same functional-classification concept this record already carries. No module_subject existed on this concept's own target file (docs/Alexandria-Source-Imports/concept/AU-MED-103-histology.md notes it has no Kasr article naming it yet), so nothing existing is restated here; MANS-HIS-203's own path is written fresh.
+
+---
+
+# Item
+
+## id
+CON-HEM-D76C58506E52B7
+
+## canonical_key
+vitamin-b12-absorption-intrinsic-factor
+
+## label
+Vitamin B12 is absorbed only after intrinsic factor from the gastric parietal cells binds it and carries it to a receptor in the lower ileum
+
+## universities
++mans
+
+## modules
++MANS-HIS-203
+
+## module_subject
+102 INT > Physiology > Blood > Vitamin B12 and folic acid
+MANS-HIS-203 > Physiology > Blood > Leukocyte and gut physiology
+
+## learner_years
++1
+
+## field_notes
+universityNotes: mans: The His Continuous Berlin Book 2026 (HIS 203) "Physio HIS 2" past-exam block tests intrinsic factor's source directly (Q36, "The intrinsic factor:", keyed B, "Is produced by the gastric parietal cells") — the same mechanism this record already carries (author3, MANS-HIS-203-questions-author3.md).
+
+---
+
+# Item
+
+## id
+CON-HEM-3B1C5DBC2DB666
+
+## canonical_key
+hemoglobinopathies-examples
+
+## label
+Hemoglobinopathies are disorders caused either by structurally abnormal globin chains, e.g. sickle cell anemia (HbS, from a point mutation replacing glutamate with valine at position 6 of the beta chain), or by an abnormally reduced amount of alpha or beta globin chains, e.g. the thalassaemias
+
+## universities
++mans
+
+## modules
++MANS-HIS-203
+
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+MANS-HIS-203 > Biochemistry > Hemoglobin structure
+
+## learner_years
++1
+
+## field_notes
+universityNotes: mans: The His Continuous Berlin Book 2026 (HIS 203) Biochemistry "Bio HIS 2" past-exam block tests the sickle-cell mutation directly and with more detail than the physiology section's parallel question (Q23, "Sickle cell anemia may be caused by:", keyed B, "Mutation 6th Codon of B globin gene where glutamic acid is replaced by valine") — the same mechanism this record already carries. The physiology section's own parallel question (Q43, "In sickle cell disease... Due to mutation in β-globin gene") is a literal duplicate of this fact and was not separately authored (see MANS-HIS-203-triage-keys.txt author3 addendum).
+
+---
+
+# Item
+
+## id
+CON-HEM-BC9F1F59205EC7
+
+## canonical_key
+vitamin-k-deficiency-bleeding-disorder
+
+## label
+Vitamin K deficiency lowers hepatic formation of factors II, VII, IX, X and proteins C and S, prolonging coagulation time
+
+## universities
++mans
+
+## modules
++MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
+
+## learner_years
++1
+
+## field_notes
+universityNotes: mans: The His Continuous Berlin Book 2026 (HIS 203) "Physio HIS 3" past-exam block tests this concept twice — Q79 ("Vitamin K dependent coagulation factors are:", keyed A, "Factor II, VII, IX and X") and, as a distinct clinical application, Q81 (hemorrhagic tendency in obstructive jaundice, keyed D, "Lack of factors II, VII, IX and X", from bile-salt-driven vitamin K malabsorption) — the same underlying deficiency mechanism this record already carries. Q84 and Q92 restate the same vitamin-K-dependent-factors fact as Q79 in different wording and were logged as near-duplicates, not separately authored. No module_subject existed on this concept's own target file (docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md's own row for this id carries no module_subject), so nothing existing is restated here; MANS-HIS-203's own path is written fresh.
