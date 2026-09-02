@@ -102,6 +102,56 @@ Alhoda).pdf`, is scanned/garbled on every page (`pagetext.mjs status`:
 `words=0`) — will need `pagetext.mjs ocr`, not a plain `show`, when its turn
 comes.
 
+## S2 — tranche 1 authored (2026-09-02)
+
+TRIAGE APPROVED WITH CONDITIONS reached this module (chief-of-staff dispatch,
+branch `must-cvs201-author1`). Both conditions ran before minting: (1) the 11
+"pending" hits were re-searched against Kasr 104-CPS, the Year-3 SYS-CVS
+catalogue and Alexandria AU-MED-106 per the dispatch's named targets; (2) a
+second, mechanism/synonym search ran on the 6 "new" candidates before minting
+— using `find-existing.mjs` fresh rather than trusting this file's original
+query log, which had moved on since (Kasr 104-CPS's CVS clusters landed on
+`main` this week, at `ce09de10`).
+
+Two reclassifications came out of that second pass, both **narrowing** what
+needs new minting, not widening it:
+
+- **Rheumatic fever (row 2) is LIVE**, not pending — `CON-INF-311E67B2C55A90`
+  (`teaching.microv3.arf.pathogenesis`, subject `pharm` as filed, despite the
+  placement rule's own `inf` steer for Microbiology/Parasitology — not a field
+  this sparse update touches) states the exact molecular-mimicry mechanism
+  MW-Q2 asks for. `find-existing.mjs "rheumatic fever"` returned it directly;
+  this file's original query log ran a narrower phrase and missed it.
+- **Left coronary artery origin (row 10) folds into row 1's own concept** —
+  `CON-CVS-1F1AB4B70AB06D`'s definition already states the aortic-sinus
+  origin MW-Q10 asks for, so it is one concept serving two source questions,
+  not two. Likewise **secondary hypertension (row 17) folds into row 16's own
+  concept** — Alexandria's `CON-CVS-F4BBA78E076D30` already names endocrine
+  and kidney disease as its two secondary-cause categories.
+- **Malignant hypertension (row 8) is confirmed new**, not the pending hit
+  this file originally recorded — that hit was an article alias only
+  (`SYS-CVS-ARTICLE-T07.md`'s "Malignant hypertension" alias points at the
+  *hypertensive-emergency* concept, a different, coarser clinical idea; a
+  fresh search on "fibrinoid necrosis" / "onion skin" for the specific kidney
+  lesion and mortality-order fact returned no better hit).
+
+Net: of the 17 candidates, **1 live sparse update, 7 pending sparse updates
+(9 rows collapsed to 7 distinct concepts), 7 new mints** (the original "new"
+6 minus LCA-origin, which folded in, plus malignant hypertension and
+long-term-ABP-regulation, both re-confirmed new on the second pass — this
+file's original tally undercounted the "new" set at 6 for the same reason
+the rheumatic-fever/LCA-origin/secondary-HTN misses ran the other way).
+
+All 19 tranche-1 questions are now authored: 10 in
+`question/MUST-CVS-201-eom-written.md` (concepts live or minted this same
+batch) + 9 in `pending-live/MUST-CVS-201-questions.md` (concepts pending in
+another lane, per `pending-live/INDEX.md`'s apply order). 7 new concepts, 7
+articles, 7 claims, 9 citations (2 concepts are dual-sourced across both
+papers), 7 evidence spans, 2 resource records (catalogue + evidence-source)
+for the two EOM written papers, all in `concept/`, `article/`, `evidence/`
+and `resource/MUST-CVS-201-*`. 0 questions held — both sources printed a key
+for every question.
+
 ## Files
 
 - `MUST-CVS-201-triage-keys.txt` — one line per triaged question (source,

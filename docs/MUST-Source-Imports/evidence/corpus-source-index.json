@@ -1,0 +1,58 @@
+{
+ "note": "Minimal MUST-CVS-201 corpus source index for tranche-1 authoring — the two written EOM papers this batch cites. Values copied from manifest/y2-sources.json (S0 intake).",
+ "generatedFrom": [
+  "docs/MUST-Source-Imports/manifest/y2-sources.json"
+ ],
+ "manifestGeneratedOn": "2026-09-02",
+ "count": 2,
+ "sources": {
+  "src_240262ce3fe62cc799c0": {
+   "sourceRelativePath": "Semester 201/CVS 201/00 Module-wide/06 EOM Exams/EOM MCQs - CVS201 Written Questions (Final) Fall 2024.pdf",
+   "sourceRelativePaths": [
+    "Semester 201/CVS 201/00 Module-wide/06 EOM Exams/EOM MCQs - CVS201 Written Questions (Final) Fall 2024.pdf"
+   ],
+   "sha256": "240262ce3fe62cc799c0515a883bcbf4e86c4358671d1c7fd7fd4e4164edbc69",
+   "processingStatus": "visually_read_native_text",
+   "pageCount": 3,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y2"
+   ],
+   "moduleIds": [
+    "MUST-CVS-201"
+   ],
+   "categories": [
+    "Written Questions",
+    "EOM Exam"
+   ]
+  },
+  "src_7e15214661e511773a7a": {
+   "sourceRelativePath": "Semester 201/CVS 201/Pathology/06 EOM Exams/EOM MCQs - written pathology final by dr.maria.pdf",
+   "sourceRelativePaths": [
+    "Semester 201/CVS 201/Pathology/06 EOM Exams/EOM MCQs - written pathology final by dr.maria.pdf"
+   ],
+   "sha256": "7e15214661e511773a7a607ab4fbae248bb64a7f8aefb9a85be9ea2a4c2c6bb0",
+   "processingStatus": "visually_read_native_text",
+   "pageCount": 2,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y2"
+   ],
+   "moduleIds": [
+    "MUST-CVS-201"
+   ],
+   "categories": [
+    "Written Questions",
+    "EOM Exam"
+   ]
+  }
+ }
+}
