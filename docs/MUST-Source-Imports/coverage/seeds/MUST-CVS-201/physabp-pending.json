@@ -1,0 +1,524 @@
+{
+  "lane": "MUST-CVS201",
+  "cluster": "physabp-pending",
+  "header": "MUST-CVS-201 - Physiology tranche (author7) - Arterial Blood Pressure pending MCQs (main_concept pending in Kasr 104-CPS-mcq-concepts.md, per pending-live/MUST-CVS-201-physiology-concepts-overlay.md) - from the Physiology CVS201 EOM Final paper, keys read from the paper's own printed Arterial Blood Pressure answer key (p.20).",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["must"],
+    "years": ["MUST_Y2"],
+    "module": "MUST-CVS-201",
+    "exam_weight_by_year": { "MUST_Y2": "moderate" },
+    "question_only_for": "",
+    "topic": "Physiology",
+    "subtopic": "Arterial Blood Pressure Regulation",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "resource_ids": ["src_165188e079f0f475e54d"],
+    "source_citation": "Physiology CVS201 Questions (Final), Arterial Blood Pressure section, key p.20."
+  },
+  "questions": [
+    {
+      "key": "physabp-q01",
+      "id": "QST-MUSTCVS201-PHYSABP-Q01",
+      "page": 10,
+      "title": "Definition of arterial blood pressure",
+      "question": "What is the definition of arterial blood pressure?",
+      "options": {
+        "A": "The pressure in the veins during diastole",
+        "B": "The lateral pressure of blood on the wall of arteries",
+        "C": "The maximum pressure reached in the aorta",
+        "D": "The average pressure throughout the cardiac cycle"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Venous pressure during diastole describes a different, low-pressure part of the circulation, not the definition of arterial blood pressure.",
+        "B": "Correct. Arterial blood pressure is defined as the lateral pressure exerted by blood on the wall of the arteries. Systolic, diastolic and mean arterial pressure are distinct quantities describing different aspects of this lateral wall pressure across the cardiac cycle, but the underlying definition in every case is the force blood exerts sideways against the arterial wall. This lateral-pressure definition is what pressure-measuring devices such as a sphygmomanometer actually detect, via the vessel wall, rather than measuring blood pressure directly inside the lumen.",
+        "C": "Incorrect. The maximum pressure reached in the aorta describes systolic pressure specifically, one component of arterial blood pressure, not the general definition of arterial blood pressure itself.",
+        "D": "Incorrect. The average pressure throughout the cardiac cycle describes mean arterial pressure specifically, one derived quantity, not the general definition of what arterial blood pressure is."
+      },
+      "main_concept": "CON-CVS-A0579343614BCD",
+      "concept_ids": ["CON-CVS-A0579343614BCD"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Pressure Components and Determinants",
+      "library_ids": ["ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"],
+      "learning_objective": "Define arterial blood pressure as the lateral pressure of blood on the arterial wall."
+    },
+    {
+      "key": "physabp-q02",
+      "id": "QST-MUSTCVS201-PHYSABP-Q02",
+      "page": 10,
+      "title": "Normal systolic blood pressure range",
+      "question": "What is the normal range for systolic blood pressure?",
+      "options": {
+        "A": "60-90 mmHg",
+        "B": "30-50 mmHg",
+        "C": "90-150 mmHg",
+        "D": "60-90 mmHg"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. 60-90 mmHg is the normal diastolic pressure range, not systolic; the source paper prints this same figure for both options A and D, a duplication in the source rather than a genuine second distractor, but the printed key still points to option C.",
+        "B": "Incorrect. 30-50 mmHg is far below the normal range for either systolic or diastolic arterial pressure and does not correspond to a recognised physiological value here.",
+        "C": "Correct. Normal systolic blood pressure, the peak pressure reached in the arteries during ventricular ejection, falls in the range of roughly 90 to 150 mmHg. This range sits above the normal diastolic range (roughly 60-90 mmHg), and the difference between the two, the pulse pressure, is itself an important derived quantity in arterial pressure physiology.",
+        "D": "Incorrect. 60-90 mmHg is the normal diastolic pressure range, not systolic; this option duplicates option A verbatim in the source paper, a printed inconsistency rather than a genuine distinct distractor."
+      },
+      "main_concept": "CON-CVS-A0579343614BCD",
+      "concept_ids": ["CON-CVS-A0579343614BCD"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Pressure Components and Determinants",
+      "library_ids": ["ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"],
+      "author_notes": "Source prints identical text (\"60-90 mmHg\") for both options A and D, a duplication rather than a genuine fourth distractor; the printed key (C) stands per LANE-CARD.md rule 2, flagged here rather than silently corrected.",
+      "learning_objective": "State the normal range for systolic blood pressure as roughly 90-150 mmHg."
+    },
+    {
+      "key": "physabp-q03",
+      "id": "QST-MUSTCVS201-PHYSABP-Q03",
+      "page": 10,
+      "title": "Pulse pressure definition",
+      "question": "Pulse pressure is defined as:",
+      "options": {
+        "A": "Diastolic pressure + 1/3 systolic pressure",
+        "B": "The average pressure in the arteries",
+        "C": "The difference between systolic and diastolic pressures",
+        "D": "The maximum pressure during ventricular ejection"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. \"Diastolic pressure plus one-third systolic pressure\" is not the formula for pulse pressure; a formula close to this shape (diastolic plus one-third pulse pressure) instead defines mean arterial pressure.",
+        "B": "Incorrect. The average pressure in the arteries describes mean arterial pressure, a separate derived quantity from pulse pressure.",
+        "C": "Correct. Systolic, diastolic and mean arterial pressure are distinct quantities, and pulse pressure is defined as the difference between the systolic and diastolic pressures. Because pulse pressure widens when arterial compliance falls, for example as arteries stiffen with age or atherosclerosis, it is a useful clinical indicator of arterial elasticity, not merely an arithmetic curiosity.",
+        "D": "Incorrect. The maximum pressure during ventricular ejection describes systolic pressure alone, one of the two pressures pulse pressure is the difference between, not pulse pressure itself."
+      },
+      "main_concept": "CON-CVS-A0579343614BCD",
+      "concept_ids": ["CON-CVS-A0579343614BCD"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Pressure Components and Determinants",
+      "library_ids": ["ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"],
+      "learning_objective": "Define pulse pressure as the difference between systolic and diastolic pressure."
+    },
+    {
+      "key": "physabp-q04",
+      "id": "QST-MUSTCVS201-PHYSABP-Q04",
+      "page": 10,
+      "title": "Mean arterial pressure calculation",
+      "question": "How is mean systemic arterial pressure calculated?",
+      "options": {
+        "A": "Systolic pressure - Diastolic pressure",
+        "B": "(Systolic pressure + Diastolic pressure) / 2",
+        "C": "Diastolic pressure + 1/3 Pulse pressure",
+        "D": "Systolic pressure + 1/2 Pulse pressure"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Systolic minus diastolic pressure is the formula for pulse pressure, a different quantity from mean arterial pressure.",
+        "B": "Incorrect. The simple average of systolic and diastolic pressure is a common approximation but not the physiologically correct formula, since it does not account for diastole lasting longer than systole.",
+        "C": "Correct. Mean arterial pressure sits nearer diastolic pressure than the midpoint between systolic and diastolic, because diastole outlasts systole in the cardiac cycle, spending proportionally more time at the lower, diastolic pressure. This is captured by the formula diastolic pressure plus one-third of the pulse pressure, which weights the average toward diastole rather than splitting the difference evenly as a simple average would.",
+        "D": "Incorrect. \"Systolic pressure plus one-half pulse pressure\" is not the standard formula for mean arterial pressure; it does not correctly weight the longer diastolic phase of the cardiac cycle."
+      },
+      "main_concept": "CON-CVS-A0579343614BCD",
+      "concept_ids": ["CON-CVS-A0579343614BCD"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Pressure Components and Determinants",
+      "library_ids": ["ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"],
+      "learning_objective": "State that mean arterial pressure is calculated as diastolic pressure plus one-third of pulse pressure, because diastole outlasts systole."
+    },
+    {
+      "key": "physabp-q06",
+      "id": "QST-MUSTCVS201-PHYSABP-Q06",
+      "page": 11,
+      "title": "Nerves carrying baroreceptor impulses",
+      "question": "Which of the following carries the impulses from the arterial baroreceptors?",
+      "options": {
+        "A": "Aortic nerve",
+        "B": "Carotid sinus nerve",
+        "C": "A & B",
+        "D": "None of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is a genuine route, but not the complete answer). The aortic nerve carries impulses from the aortic-arch baroreceptors, but it is not the only nerve involved.",
+        "B": "Incorrect (this is a genuine route, but not the complete answer). The carotid sinus (Hering's) nerve carries impulses from the carotid-sinus baroreceptors, but it is not the only nerve involved.",
+        "C": "Correct. Arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch, reporting to the nucleus of the tractus solitarius through both the carotid sinus (Hering's) nerve and the aortic nerve. Because baroreceptors sit at two distinct anatomical sites, the carotid sinus and the aortic arch, both afferent pathways are needed to carry the full baroreceptor signal centrally, which is why the complete answer requires naming both nerves together rather than either alone.",
+        "D": "Incorrect. Both the aortic nerve and the carotid sinus nerve do carry baroreceptor impulses, so \"none of the above\" is incorrect."
+      },
+      "main_concept": "CON-CVS-C3E60AC7A9EDB1",
+      "concept_ids": ["CON-CVS-C3E60AC7A9EDB1"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Baroreceptor Reflex",
+      "library_ids": ["ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL"],
+      "learning_objective": "Name both the aortic nerve and the carotid sinus nerve as the afferent pathways carrying arterial baroreceptor impulses."
+    },
+    {
+      "key": "physabp-q13",
+      "id": "QST-MUSTCVS201-PHYSABP-Q13",
+      "page": 13,
+      "title": "Formula for arterial blood pressure",
+      "question": "The formula for Arterial Blood Pressure is:",
+      "options": {
+        "A": "Stroke Volume × Heart Rate",
+        "B": "Cardiac Output × Total Peripheral Resistance",
+        "C": "Mean Arterial Pressure × Heart Rate",
+        "D": "Pulse Pressure × Stroke Volume"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Stroke volume multiplied by heart rate gives cardiac output, one component of the arterial-pressure formula, not arterial blood pressure itself.",
+        "B": "Correct. Blood flow equals the pressure gradient divided by resistance, and applied to the whole systemic circulation this same relationship, rearranged, gives arterial blood pressure as cardiac output multiplied by total peripheral resistance. Cardiac output is itself the product of stroke volume and heart rate, so this formula ties arterial pressure directly to how much blood the heart pumps per minute and how much resistance the arterioles offer to that flow, the two variables the rest of this section's questions explore individually.",
+        "C": "Incorrect. Mean arterial pressure multiplied by heart rate is not a recognised formula for arterial blood pressure; mean arterial pressure is itself one of the pressure quantities being defined, not a multiplier of heart rate.",
+        "D": "Incorrect. Pulse pressure multiplied by stroke volume is not the standard formula for arterial blood pressure; pulse pressure and stroke volume are related but this particular product is not the recognised relationship."
+      },
+      "main_concept": "CON-CVS-FA5FB57963DDF7",
+      "concept_ids": ["CON-CVS-FA5FB57963DDF7"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Pressure Components and Determinants",
+      "library_ids": ["ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"],
+      "learning_objective": "State that arterial blood pressure equals cardiac output multiplied by total peripheral resistance."
+    },
+    {
+      "key": "physabp-q14",
+      "id": "QST-MUSTCVS201-PHYSABP-Q14",
+      "page": 13,
+      "title": "Effect of increased stroke volume",
+      "question": "An increase in stroke volume primarily increases:",
+      "options": {
+        "A": "Diastolic pressure",
+        "B": "Heart rate",
+        "C": "Systolic pressure and pulse pressure",
+        "D": "Peripheral resistance"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Diastolic pressure is set mainly by peripheral resistance and the rate of runoff between beats, not primarily by the volume ejected in a single beat.",
+        "B": "Incorrect. Stroke volume and heart rate are two separate determinants of cardiac output; an increase in stroke volume does not itself define or primarily increase heart rate.",
+        "C": "Correct. A larger stroke volume ejects more blood into the arterial tree during systole, raising the peak (systolic) pressure reached; because diastolic pressure is comparatively unaffected, the gap between systolic and diastolic pressure, the pulse pressure, widens as well. This is why an increased stroke volume is taught as primarily raising both systolic pressure and pulse pressure together, rather than diastolic pressure or peripheral resistance.",
+        "D": "Incorrect. Peripheral resistance is determined mainly by arteriolar tone, an independent variable from how much blood is ejected per beat, not something stroke volume itself primarily increases."
+      },
+      "main_concept": "CON-CVS-A0579343614BCD",
+      "concept_ids": ["CON-CVS-A0579343614BCD"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Pressure Components and Determinants",
+      "library_ids": ["ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"],
+      "learning_objective": "State that an increase in stroke volume primarily raises systolic pressure and pulse pressure."
+    },
+    {
+      "key": "physabp-q15",
+      "id": "QST-MUSTCVS201-PHYSABP-Q15",
+      "page": 13,
+      "title": "Effect of increased heart rate",
+      "question": "An increase in heart rate will:",
+      "options": {
+        "A": "Increase diastolic pressure and decrease pulse pressure",
+        "B": "Decrease diastolic pressure and increase pulse pressure",
+        "C": "Increase systolic pressure only",
+        "D": "Decrease systolic pressure only"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A faster heart rate shortens diastole (the filling and run-off period) proportionally more than it shortens systole, leaving less time between beats for arterial pressure to fall before the next ejection. This raises diastolic pressure, and because diastolic pressure rises while systolic pressure changes comparatively little, the difference between them, the pulse pressure, narrows rather than widens. This time-dependent effect on diastole is distinct from stroke volume's effect, which instead acts mainly on systolic pressure and pulse pressure.",
+        "B": "Incorrect. Increased heart rate raises, rather than decreases, diastolic pressure by shortening the time available for pressure to fall between beats, and correspondingly narrows, rather than widens, pulse pressure.",
+        "C": "Incorrect. Increased heart rate's principal effect is on diastolic pressure and pulse pressure via shortened diastole, not an isolated rise in systolic pressure alone.",
+        "D": "Incorrect. Increased heart rate does not primarily decrease systolic pressure; its characteristic effect is to raise diastolic pressure and narrow pulse pressure."
+      },
+      "main_concept": "CON-CVS-A0579343614BCD",
+      "concept_ids": ["CON-CVS-A0579343614BCD"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Pressure Components and Determinants",
+      "library_ids": ["ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"],
+      "learning_objective": "State that an increase in heart rate raises diastolic pressure and narrows pulse pressure by shortening diastole."
+    },
+    {
+      "key": "physabp-q16",
+      "id": "QST-MUSTCVS201-PHYSABP-Q16",
+      "page": 13,
+      "title": "Effect of increased peripheral resistance",
+      "question": "Increased peripheral resistance elevates which pressure the most?",
+      "options": {
+        "A": "Systolic Pressure",
+        "B": "Pulse Pressure",
+        "C": "Mean Arterial Pressure",
+        "D": "Diastolic Pressure"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Systolic pressure is raised somewhat by increased peripheral resistance, but it is not the pressure component this specific effect elevates the most.",
+        "B": "Incorrect. Pulse pressure is set mainly by stroke volume and arterial compliance, not primarily by peripheral resistance; increased resistance tends to raise both systolic and diastolic pressure together rather than widening the gap between them.",
+        "C": "Incorrect. Mean arterial pressure does rise overall with increased peripheral resistance, but as a composite of systolic and diastolic pressure, it is not itself the single pressure component elevated the most.",
+        "D": "Correct. Because arterioles are the principal resistance vessels, raising total peripheral resistance impedes the runoff of blood from the arteries into the capillary bed during diastole, so pressure falls less between beats and diastolic pressure rises accordingly, more than systolic pressure does. This is why increased peripheral resistance is taught as elevating diastolic pressure most among the individual pressure components, distinguishing its effect from stroke volume's effect on systolic pressure and pulse pressure."
+      },
+      "main_concept": "CON-CVS-A0579343614BCD",
+      "concept_ids": ["CON-CVS-A0579343614BCD"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Pressure Components and Determinants",
+      "library_ids": ["ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"],
+      "learning_objective": "State that increased peripheral resistance elevates diastolic pressure the most among the individual pressure components."
+    },
+    {
+      "key": "physabp-q17",
+      "id": "QST-MUSTCVS201-PHYSABP-Q17",
+      "page": 14,
+      "title": "Atherosclerosis and arterial elasticity",
+      "question": "In atherosclerosis, decreased arterial elasticity leads to:",
+      "options": {
+        "A": "Decreased systolic and increased diastolic pressure",
+        "B": "Increased systolic and decreased diastolic pressure",
+        "C": "Decreased pulse pressure",
+        "D": "No change in pressures"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Reduced arterial elasticity raises, rather than lowers, systolic pressure, and lowers, rather than raises, diastolic pressure, the opposite of this option's direction.",
+        "B": "Correct. Pulse pressure widens when arterial compliance falls, and atherosclerosis is a classic cause of reduced arterial compliance (decreased elasticity) from stiffened, less distensible arterial walls. A stiffer arterial tree cannot buffer the ejected stroke volume as effectively, so systolic pressure rises higher than normal, while the stiff walls also recoil less well during diastole, letting diastolic pressure fall lower than normal; the combined effect is a widened pulse pressure with systolic pressure up and diastolic pressure down.",
+        "C": "Incorrect. Reduced arterial compliance widens, rather than decreases, pulse pressure, since systolic pressure rises and diastolic pressure falls together.",
+        "D": "Incorrect. Reduced arterial elasticity does produce a clear, characteristic change in pressures, a widened pulse pressure with systolic up and diastolic down, not an absence of change."
+      },
+      "main_concept": "CON-CVS-A0579343614BCD",
+      "concept_ids": ["CON-CVS-A0579343614BCD"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Pressure Components and Determinants",
+      "library_ids": ["ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"],
+      "learning_objective": "State that reduced arterial compliance, as in atherosclerosis, raises systolic pressure and lowers diastolic pressure, widening pulse pressure."
+    },
+    {
+      "key": "physabp-q18",
+      "id": "QST-MUSTCVS201-PHYSABP-Q18",
+      "page": 14,
+      "title": "Rapid mechanism of blood pressure regulation",
+      "question": "Which of the following is the rapid mechanism for regulating arterial blood pressure?",
+      "options": {
+        "A": "Renal Mechanism",
+        "B": "Capillary Fluid Shift",
+        "C": "Nervous Regulation",
+        "D": "Endocrine Mechanism"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The renal mechanism, which controls extracellular fluid volume via sodium and water excretion, acts over hours to days and is the most important long-term, not rapid, regulator of arterial pressure.",
+        "B": "Incorrect. The capillary fluid shift mechanism buffers pressure changes over minutes, an intermediate timescale, not the fastest, second-to-second mechanism.",
+        "C": "Correct. Nervous regulation, via the baroreceptor and chemoreceptor reflexes, is the rapid, second-to-second mechanism for regulating arterial blood pressure: baroreceptor discharge rises and falls with arterial pressure and, through the nucleus of the tractus solitarius, opposes whichever change caused it almost instantly. This is in contrast to angiotensin II and the renin-angiotensin system, which act over an intermediate-to-long timescale of minutes to days, making the nervous reflexes specifically the mechanism this question's \"rapid\" framing is pointing to.",
+        "D": "Incorrect. Endocrine mechanisms, such as the renin-angiotensin system, act over an intermediate-to-long timescale of minutes to days, not the rapid, second-to-second timescale of the nervous reflexes."
+      },
+      "main_concept": "CON-CVS-F7ACE802080250",
+      "concept_ids": ["CON-CVS-F7ACE802080250"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Renin-Angiotensin System",
+      "library_ids": ["ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"],
+      "learning_objective": "State that nervous (baroreceptor/chemoreceptor) regulation is the rapid mechanism of arterial blood pressure control, contrasted with the slower renal and endocrine mechanisms."
+    },
+    {
+      "key": "physabp-q21",
+      "id": "QST-MUSTCVS201-PHYSABP-Q21",
+      "page": 15,
+      "title": "Location of arterial baroreceptors",
+      "question": "The arterial baroreceptors are located in the:",
+      "options": {
+        "A": "Left ventricle and right atrium",
+        "B": "Aortic arch and carotid sinus",
+        "C": "Pulmonary veins and vena cava",
+        "D": "Coronary arteries and cerebral vessels"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The left ventricle houses the ventricular mechano/chemoreceptors of the Bezold-Jarisch reflex, and the right atrium houses the low-pressure volume receptors; neither is the site of the arterial baroreceptors.",
+        "B": "Correct. Arterial baroreceptors are stretch receptors located specifically in the carotid sinus and the aortic arch, reporting to the nucleus of the tractus solitarius through the carotid sinus (Hering's) nerve and the aortic nerve. Their placement at these two high-pressure arterial sites, rather than in low-pressure venous or atrial locations, is exactly what makes them sensitive detectors of arterial, rather than venous or atrial, pressure changes.",
+        "C": "Incorrect. The pulmonary veins and vena cava are low-pressure venous structures, not the sites of the arterial (high-pressure) baroreceptors.",
+        "D": "Incorrect. Coronary arteries and cerebral vessels are not the classic sites of the arterial baroreceptor reflex, which is specifically located in the carotid sinus and aortic arch."
+      },
+      "main_concept": "CON-CVS-C3E60AC7A9EDB1",
+      "concept_ids": ["CON-CVS-C3E60AC7A9EDB1"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Baroreceptor Reflex",
+      "library_ids": ["ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL"],
+      "learning_objective": "Name the aortic arch and carotid sinus as the locations of the arterial baroreceptors."
+    },
+    {
+      "key": "physabp-q22",
+      "id": "QST-MUSTCVS201-PHYSABP-Q22",
+      "page": 15,
+      "title": "Baroreceptor stimulus",
+      "question": "Baroreceptors are stimulated by:",
+      "options": {
+        "A": "Low oxygen levels in the blood",
+        "B": "Stretching of the arterial wall",
+        "C": "High carbon dioxide levels",
+        "D": "Changes in blood pH"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Low oxygen levels stimulate the peripheral chemoreceptors, not the baroreceptors, which are purely mechanoreceptors rather than chemical sensors.",
+        "B": "Correct. Arterial baroreceptors are stretch receptors, and their discharge rises and falls directly with arterial pressure because a rise in pressure stretches the vessel wall at the carotid sinus and aortic arch where the receptors sit. This mechanical stretch is the direct stimulus that increases baroreceptor firing, which the nucleus of the tractus solitarius then uses to oppose whichever pressure change caused it, distinguishing baroreceptors sharply from the chemically-sensitive peripheral chemoreceptors.",
+        "C": "Incorrect. High carbon dioxide levels are a stimulus for the chemoreceptors (both peripheral and central), not for the purely mechanical baroreceptors.",
+        "D": "Incorrect. Changes in blood pH are a chemoreceptor stimulus, not a baroreceptor one; baroreceptors respond to mechanical stretch, not chemical composition."
+      },
+      "main_concept": "CON-CVS-C3E60AC7A9EDB1",
+      "concept_ids": ["CON-CVS-C3E60AC7A9EDB1"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Baroreceptor Reflex",
+      "library_ids": ["ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL"],
+      "learning_objective": "State that stretching of the arterial wall is the mechanical stimulus for baroreceptor activation."
+    },
+    {
+      "key": "physabp-q23",
+      "id": "QST-MUSTCVS201-PHYSABP-Q23",
+      "page": 15,
+      "title": "Baroreceptor reflex response to raised pressure",
+      "question": "When arterial blood pressure increases, the baroreceptor reflex causes:",
+      "options": {
+        "A": "Vasoconstriction and increased heart rate",
+        "B": "Vasodilation and decreased heart rate",
+        "C": "Increased cardiac output",
+        "D": "Increased peripheral resistance"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Vasoconstriction and increased heart rate would raise, not oppose, an already-elevated pressure, the opposite of what the baroreceptor reflex does when pressure rises.",
+        "B": "Correct. When arterial pressure rises, baroreceptor discharge increases, and through the nucleus of the tractus solitarius this inhibits the vasomotor area more strongly, so sympathetic drive to the heart and vessels falls, giving a lower heart rate, stroke volume and cardiac output together with vasodilatation; the cardiac inhibitory area is also excited more, raising vagal tone and slowing the heart further. This combination, vasodilation and decreased heart rate, is exactly the corrective, pressure-lowering response the reflex produces when it detects a rise in pressure.",
+        "C": "Incorrect. The baroreceptor reflex reduces, rather than increases, cardiac output when pressure rises, since heart rate and stroke volume both fall as sympathetic drive is withdrawn.",
+        "D": "Incorrect. The baroreceptor reflex reduces, rather than increases, peripheral resistance when pressure rises, producing vasodilation via reduced sympathetic vasoconstrictor tone."
+      },
+      "main_concept": "CON-CVS-C3E60AC7A9EDB1",
+      "concept_ids": ["CON-CVS-C3E60AC7A9EDB1"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Baroreceptor Reflex",
+      "library_ids": ["ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL"],
+      "learning_objective": "State that the baroreceptor reflex responds to a rise in arterial pressure with vasodilation and decreased heart rate."
+    },
+    {
+      "key": "physabp-q24",
+      "id": "QST-MUSTCVS201-PHYSABP-Q24",
+      "page": 15,
+      "title": "Carotid sinus syndrome and fainting",
+      "question": "Carotid Sinus Syndrome can lead to fainting because:",
+      "options": {
+        "A": "It causes a severe headache.",
+        "B": "Pressure on the sinus causes a marked reflex drop in blood pressure.",
+        "C": "It increases heart rate excessively.",
+        "D": "It blocks blood flow to the coronary arteries."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A severe headache is not the mechanism by which carotid sinus syndrome produces fainting; the mechanism is haemodynamic, via the baroreceptor reflex, not a pain-related process.",
+        "B": "Correct. Carotid sinus syndrome is an acquired hypersensitivity of the carotid sinus baroreceptors, so mild external pressure, such as a tight collar or the pressure of shaving, that would be trivial in a normal person instead activates the baroreceptor reflex strongly enough to produce marked bradycardia and a fall in arterial pressure. This exaggerated reflex drop in blood pressure can cause cerebral ischaemia and fainting, and severe or recurrent cases may need denervation of the hypersensitive carotid sinus or a permanent pacemaker to manage it.",
+        "C": "Incorrect. Carotid sinus syndrome causes bradycardia, a marked decrease rather than an excessive increase in heart rate, as part of its exaggerated baroreceptor reflex.",
+        "D": "Incorrect. Carotid sinus syndrome does not act by blocking coronary blood flow; its mechanism is an exaggerated baroreceptor reflex producing systemic bradycardia and hypotension, not localised coronary obstruction."
+      },
+      "main_concept": "CON-CVS-A1E3D54120275D",
+      "concept_ids": ["CON-CVS-A1E3D54120275D"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Baroreceptor Reflex",
+      "library_ids": ["ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"],
+      "learning_objective": "State that carotid sinus syndrome causes fainting via an exaggerated baroreceptor reflex producing a marked drop in blood pressure."
+    },
+    {
+      "key": "physabp-q25",
+      "id": "QST-MUSTCVS201-PHYSABP-Q25",
+      "page": 16,
+      "title": "Peripheral chemoreceptor stimuli - the exception",
+      "question": "Peripheral chemoreceptors are stimulated by all of the following EXCEPT:",
+      "options": {
+        "A": "Decreased O₂ tension (hypoxia)",
+        "B": "Increased CO₂ tension",
+        "C": "High blood pressure",
+        "D": "Increased H⁺ concentration"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is a genuine stimulus). The peripheral chemoreceptor reflex, in the carotid and aortic bodies, is driven by low arterial oxygen tension, one of its established stimuli.",
+        "B": "Incorrect (this is a genuine stimulus). A rise in carbon dioxide tension is also a recognised stimulus of the peripheral chemoreceptors, alongside their more dominant response to hypoxia.",
+        "C": "Correct. The peripheral chemoreceptor reflex, in the carotid and aortic bodies, is driven by low arterial oxygen tension and raises sympathetic discharge to correct a markedly low arterial pressure. High blood pressure, by contrast, is sensed by the arterial baroreceptors, a mechanically-, not chemically-, sensitive system, so it is not a stimulus of the chemically-sensitive peripheral chemoreceptors, making it the exception among the four options.",
+        "D": "Incorrect (this is a genuine stimulus). Increased hydrogen ion concentration (acidosis) is also a recognised stimulus of the peripheral chemoreceptors, alongside hypoxia and hypercapnia."
+      },
+      "main_concept": "CON-CVS-131F06D46D3B84",
+      "concept_ids": ["CON-CVS-131F06D46D3B84"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Chemoreceptor Reflex",
+      "library_ids": ["ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL"],
+      "learning_objective": "State that high blood pressure, a baroreceptor rather than chemoreceptor stimulus, is not among the peripheral chemoreceptors' own stimuli."
+    },
+    {
+      "key": "physabp-q31",
+      "id": "QST-MUSTCVS201-PHYSABP-Q31",
+      "page": 17,
+      "title": "Cushing reflex characterisation",
+      "question": "The Cushing's reflex is characterized by:",
+      "options": {
+        "A": "Hypotension and tachycardia",
+        "B": "Hypertension and bradycardia",
+        "C": "Hypotension and bradycardia",
+        "D": "Hypertension and tachycardia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hypotension and tachycardia describe a very different picture, closer to a compensatory sympathetic response to blood loss, not the Cushing reflex.",
+        "B": "Correct. The Cushing reflex, raised arterial pressure with bradycardia, is triggered by raised intracranial pressure compressing the cerebral vessels and making the vasomotor area ischaemic. The resulting local ischaemia of the vasomotor centre drives an intense sympathetic pressor response, raising arterial pressure sharply (hypertension) in an attempt to restore cerebral perfusion, while a secondary baroreceptor-mediated reflex bradycardia develops in response to that very high pressure, giving the classic hypertension-with-bradycardia pairing.",
+        "C": "Incorrect. Hypotension and bradycardia describe the opposite pressure direction from the Cushing reflex, which is characterised by hypertension, not hypotension.",
+        "D": "Incorrect. Hypertension and tachycardia is not the Cushing reflex's characteristic pairing; the reflex specifically produces bradycardia, not tachycardia, alongside its hypertension."
+      },
+      "main_concept": "CON-CVS-BBAEB2E1A51102",
+      "concept_ids": ["CON-CVS-BBAEB2E1A51102"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Cushing Reflex",
+      "library_ids": ["ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL"],
+      "learning_objective": "State that the Cushing reflex is characterised by hypertension with bradycardia, triggered by raised intracranial pressure."
+    },
+    {
+      "key": "physabp-q35",
+      "id": "QST-MUSTCVS201-PHYSABP-Q35",
+      "page": 18,
+      "title": "Renin secretion triggers - the exception",
+      "question": "Renin secretion is increased by all of the following EXCEPT:",
+      "options": {
+        "A": "Hypovolemia and hypotension",
+        "B": "Renal ischemia",
+        "C": "Increased Na⁺ delivery to the distal tubule",
+        "D": "Sympathetic stimulation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is a genuine trigger). Renin secretion rises with hypovolaemia and hypotension, one of its established triggers.",
+        "B": "Incorrect (this is a genuine trigger). Renal ischaemia, such as from renal artery stenosis, is also a recognised trigger of renin secretion.",
+        "C": "Correct. Renin secretion rises with hypovolaemia and hypotension, renal ischaemia, decreased, not increased, sodium delivery to the distal tubule, and sympathetic stimulation via beta1 receptors, but it is suppressed, not raised, by hypertension through the same feedback logic in reverse. Because it is decreased distal sodium delivery, sensed by the macula densa, that signals reduced renal perfusion and raises renin, an increase in distal sodium delivery instead signals adequate perfusion and lowers renin secretion, making this the exception among the four options.",
+        "D": "Incorrect (this is a genuine trigger). Sympathetic stimulation, acting via beta1 receptors on the juxtaglomerular apparatus, is also a recognised trigger of renin secretion."
+      },
+      "main_concept": "CON-CVS-F7ACE802080250",
+      "concept_ids": ["CON-CVS-F7ACE802080250"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Renin-Angiotensin System",
+      "library_ids": ["ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"],
+      "learning_objective": "State that decreased, not increased, sodium delivery to the distal tubule is the trigger that raises renin secretion."
+    },
+    {
+      "key": "physabp-q36",
+      "id": "QST-MUSTCVS201-PHYSABP-Q36",
+      "page": 18,
+      "title": "ACE and angiotensin conversion",
+      "question": "Angiotensin I is converted to Angiotensin II primarily by:",
+      "options": {
+        "A": "Renin in the liver",
+        "B": "Angiotensinogen in the blood",
+        "C": "ACE in the lung endothelium",
+        "D": "Aldosterone in the adrenal cortex"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Renin is secreted by the kidney's juxtaglomerular apparatus, not produced in the liver, and it acts on angiotensinogen to form angiotensin I, a step before the conversion this question asks about.",
+        "B": "Incorrect. Angiotensinogen is the hepatic precursor protein that renin acts on to form angiotensin I; it is not itself the enzyme that converts angiotensin I to angiotensin II.",
+        "C": "Correct. Renin from the juxtaglomerular apparatus cleaves hepatic angiotensinogen to angiotensin I, which angiotensin-converting enzyme (ACE), found in vascular endothelial cells especially of the lung, then converts to the octapeptide angiotensin II. The lung's enormous pulmonary capillary endothelial surface area, through which essentially the entire cardiac output passes, makes it the primary site of this conversion step.",
+        "D": "Incorrect. Aldosterone is secreted by the adrenal cortex in response to angiotensin II, a downstream effect of the conversion, not the enzyme that performs the conversion itself."
+      },
+      "main_concept": "CON-CVS-F7ACE802080250",
+      "concept_ids": ["CON-CVS-F7ACE802080250"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Renin-Angiotensin System",
+      "library_ids": ["ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"],
+      "learning_objective": "State that ACE in the lung's vascular endothelium primarily converts angiotensin I to angiotensin II."
+    },
+    { "key": "physabp-q07-held", "hold": "Q7 (location of peripheral chemoreceptors): the printed option D reads \"C & D\", a self-referential garbled option (should read something like \"B & C\" for carotid bifurcation and aortic arch together) -- the source paper's own printed key is D, which cannot be rendered as a clean, self-consistent option set. Held rather than silently repaired; the underlying fact (peripheral chemoreceptors sit at the bifurcation of the common carotid artery and in the aortic arch) is queued for the next tranche once a clean option set can be constructed or the source re-checked." }
+  ]
+}
