@@ -511,3 +511,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ASSIUT PMS-102 lane 3 (pp.108-169) LANDED (1895ba1a)
 - The range is ten quizzes (30, 41-50), not one: 50 authored, 4 held (numeral corruption, 2 key conflicts, duplicate option), 53 excluded (fill-in, T/F, image, dups). 21 mints + 6 articles; 29 reuses across Kasr 103-BMS histology, Kasr 101-ISK, 2 live OB/GYN, 2 own. Simulate 11 files rejected=0; validator/batch show the known `resource_ids … not a resource` noise (50) only. ≈1.7k tok/q. Fixed the triage-keys format that had broken lanes 1-2's ledger (bare key + `#` comment).
 - PMS-102 native range now exhausted; pp.1-33 + 170-217 need OCR → lane 4 dispatched on the OCR ranges. Fleet 20/20.
+
+### 2026-09-02 — ZAGAZIG ZU-MED-105 PP I lane 2 LANDED (32f4d392)
+- امتحانات سابقه pp.5-13 (Q30-76): 22 authored, 21 held (13 dups of lane 1, 7 unmarked, 1 three-option), 4 out of format. Gray-fill key method reused with a fixed x-overlap bug; 5 renders (module total 11/14), 0 mismatches. 21 mints, 0 overlays (professionalism is new territory). 4 keys diverge from conventional teaching, recorded as doubt with the mark standing. batch errors=0 ×3; simulate rejected=0. ≈1.8k tok/q. Source exhausted.
+- Remaining: `mcq شامل.pdf` (44 pp native, unkeyed status) → lane 3 dispatched to triage it. Fleet 20/20.
