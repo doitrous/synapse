@@ -12,7 +12,9 @@ year's clinical concepts are likely to overlap). Question id
 `QST-MUST-<MODULE-SLUG>-<TOPIC>-Q<N>`. Files:
 `docs/MUST-Source-Imports/{concept,article,question,evidence,coverage,academic,manifest}/`.
 **MUST is local-only Draft — never import into production, never run the importer.**
-Pushing this branch (`must-y5-phase0`) to origin is backup, not upload.
+Chief-of-staff override 2026-09-02: lanes push straight to `main` (docs/seed files
+landing on `main` are not an import — the no-import-into-production/no-DB rule above
+is untouched; this only changes where the branch's commits end up).
 
 ## 2. What Phase-0 produced
 - `manifest/y5-sources.json` + `.md` — 772 files, sha256/size/ext/module-kind-tier
