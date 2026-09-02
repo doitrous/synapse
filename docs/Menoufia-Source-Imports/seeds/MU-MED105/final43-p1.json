@@ -1,0 +1,1090 @@
+{
+  "lane": "MU-MED105",
+  "cluster": "med105-final43-p1",
+  "header": "MU-MED105 (Cardiovascular system) lane-3 authored batch. Source: 'CVS Final 43 - Paper 1 Answered.pdf' (mu_b2fc082f072c18432ad3), twin of 'CVS Final 43 - Paper 1 Unanswered.pdf' (mu_a3aa1fdea67779294c75, stems-only, not double-counted). 37 continuous true-MCQ items (Q1-Q37; the p12+ second block and essay/SAQ tail are out of MCQ scope). 30 authored, 7 held: Q5/Q11/Q19 image-dependent (rule 3/9 -- Q11's X-ray-with-circled-fracture stem is a new find beyond the triage doc's original 2-item keyword-scan count), Q27 double-marked key (both A and C carry the yellow highlight, rule 1/10), Q6/Q10/Q13 duplicate of already-authored end43-cvs facts (cardiac-muscle-fibre character Q1, SA-node site Q10, gluteal-artery origin Q71 -- named in each hold reason below). Key convention: yellow highlight, not detected by pagetext.mjs keys -- recovered by rendering p1-p11 of the Answered PDF (11 renders, this dispatch's budget; the tool's own 'red-text' guesses on Q18/Q29/Q37/p12-block were checked against the render and found wrong on Q18 and Q29 -- highlight is authoritative, matching lane-2's own p16 finding). Q35/Q36 are a match-style pair sharing one 5-item option bank (printed with its own literal answer letters E/B plus red text on Q37); read directly, no render needed for those three. Search-before-mint: every concept searched via find-existing.mjs first; 1 reuse of a Kasr 104-CPS concept (metarterioles, sparse overlay), 1 reuse of this module's own already-minted abdominal-aorta-branches concept (no new dependency), 28 new concepts minted (Kasr 104-CPS, Alexandria AU-MED-105, MUST-CVS-201, Helwan HU-BMS-102 and the ASU/SYS-CVS families all searched, no close match found for these 28 specific facts). Apply after concept/MU-MED105-concepts.md, article/MU-MED105-articles.md, evidence/MU-MED105-{resources,claims,citations}.md and docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md + docs/Kasr-Source-Imports/article/104-CPS-histology.md (the metarterioles overlay's dependency) are live.",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED105",
+    "exam_weight_by_year": { "MU_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_5ca028d96bdca72569d0"],
+    "source_citation": "CVS Final 43 - Paper 1 Answered.pdf, Q{page} (Menoufia MED105 CVS end-module exam)",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Moderate",
+    "reasoning_level": 2,
+    "exam_relevance": 5
+  },
+  "questions": [
+    {
+      "key": "med105-final43-p1-q01",
+      "id": "QST-MUMED105-FINAL43P1-Q01",
+      "page": 1,
+      "title": "Vessel that regulates blood flow into the capillary bed",
+      "question": "Which vessels regulate the amount of blood going into the capillary bed?",
+      "options": {
+        "A": "Capillary",
+        "B": "Metarterioles",
+        "C": "Venules",
+        "D": "Muscular arteries",
+        "E": "Blood sinusoids"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The capillary is the downstream vessel being regulated, not the regulator -- it has no smooth muscle of its own to control the flow entering it.",
+        "B": "Correct. Metarterioles are the arteriole's own terminal segment draining directly into the capillary bed; their smooth muscle thickens into a precapillary sphincter that opens and closes the entrance to that bed. This precapillary-sphincter action is the last point of active flow control before blood reaches the true capillaries, letting a tissue divert blood toward or away from a given capillary bed on demand.",
+        "C": "Incorrect. Venules collect blood leaving the capillary bed on the downstream side; they do not control how much blood enters it.",
+        "D": "Incorrect. Muscular arteries regulate flow further upstream, at the level of whole organs and tissue beds, not the fine, bed-by-bed control exercised by the metarteriole's precapillary sphincter.",
+        "E": "Incorrect. Blood sinusoids are wide, slow-flow vessels found in specific organs (spleen, liver, bone marrow); they are a capillary variant, not a regulator of flow into capillary beds elsewhere."
+      },
+      "topic": "Histology",
+      "subtopic": "Microcirculation",
+      "main_concept": "CON-CVS-EFDC2163E84213",
+      "concept_ids": ["CON-CVS-EFDC2163E84213"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the metarteriole's precapillary sphincter is the last point of active control over blood flow into a capillary bed.",
+      "library_ids": ["ART-104-HIS-ARTERIES-AND-VEINS"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Histology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p1, Q1",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q1",
+        "reuse": "CON-CVS-EFDC2163E84213 (Kasr 104-CPS) already teaches this exact fact as one sentence within its arteriolar-resistance definition; sparse overlay, no new mint."
+      }
+    },
+    {
+      "key": "med105-final43-p1-q02",
+      "id": "QST-MUMED105-FINAL43P1-Q02",
+      "page": 2,
+      "title": "Site of slow-flow blood sinusoids",
+      "question": "Blood Sinusoids are type of blood vessels where slow circulation occurs, at which sites it can be seen?",
+      "options": {
+        "A": "Tip of nose",
+        "B": "Fingertips and nail bed",
+        "C": "Spleen",
+        "D": "Kidney",
+        "E": "Nail bed"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The tip of the nose is a site of cutaneous arteriovenous anastomoses (glomus bodies) for thermoregulation, not sinusoidal circulation.",
+        "B": "Incorrect. Fingertips and nail bed also carry arteriovenous anastomoses for thermoregulation, a different specialised circulation from the wide, slow-flow sinusoids.",
+        "C": "Correct. Blood sinusoids are wide-calibre, irregular vessels with a thin, often fenestrated or discontinuous wall that let blood flow slowly past the surrounding tissue. The spleen's red pulp is a classic sinusoidal bed, built this way so blood lingers long enough for splenic macrophages to screen and remove aged or defective red cells.",
+        "D": "Incorrect. The kidney's peritubular capillaries and vasa recta are true capillaries adapted for filtration and countercurrent exchange, not sinusoids.",
+        "E": "Incorrect. The nail bed, like the fingertip, is an arteriovenous-anastomosis site for heat regulation, not a sinusoidal bed."
+      },
+      "topic": "Histology",
+      "subtopic": "Vessel wall variants",
+      "main_concept": "CON-CVS-426BDAEDF23FF3",
+      "concept_ids": ["CON-CVS-426BDAEDF23FF3"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify the spleen's red pulp as a classic site of slow-flow blood sinusoids.",
+      "library_ids": ["ART-CVS-MU105-P1-VESSEL-HISTOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Histology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p1, Q2",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q2"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q03",
+      "id": "QST-MUMED105-FINAL43P1-Q03",
+      "page": 3,
+      "title": "Vessel with a prominent wavy internal elastic lamina",
+      "question": "A prominent internal elastic lamina appearing in cross section as wavy line, is characteristic of which of the following?",
+      "options": {
+        "A": "Small veins",
+        "B": "Basilar artery",
+        "C": "Large veins",
+        "D": "Aorta",
+        "E": "Capillaries"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Small veins have thin walls with little elastic tissue and no prominent internal elastic lamina to speak of.",
+        "B": "Correct. The basilar artery is a medium-sized muscular artery, and muscular arteries carry a thick, well-developed internal elastic lamina between the intima and media. Because the vessel wall relaxes after death and during fixation, this lamina buckles into the characteristic wavy line seen in cross-section, a feature used histologically to identify a muscular artery like the basilar artery.",
+        "C": "Incorrect. Large veins have only a thin, often incomplete internal elastic lamina, nowhere near as prominent as a muscular artery's.",
+        "D": "Incorrect. The aorta is an elastic artery whose wall is dominated by concentric elastic lamellae throughout the media, not a single prominent internal elastic lamina at the intima-media junction.",
+        "E": "Incorrect. Capillaries are a single layer of endothelium with no elastic lamina at all."
+      },
+      "topic": "Histology",
+      "subtopic": "Artery wall classification",
+      "main_concept": "CON-CVS-A1CABEF78F7DC3",
+      "concept_ids": ["CON-CVS-A1CABEF78F7DC3"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify a prominent wavy internal elastic lamina as the histological hallmark of a muscular artery such as the basilar artery.",
+      "library_ids": ["ART-CVS-MU105-P1-VESSEL-HISTOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Histology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p1, Q3",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q3"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q04",
+      "id": "QST-MUMED105-FINAL43P1-Q04",
+      "page": 4,
+      "title": "Structural feature of the inferior vena cava",
+      "question": "Which of the following represents a characteristic finding in the structure of Inferior vena cava (large vein)?",
+      "options": {
+        "A": "Smooth muscle fibers in the tunica intima",
+        "B": "Thin adventitia",
+        "C": "No vasa vasorum in the tunica adventitia",
+        "D": "No valves that bulge from intima",
+        "E": "Smooth muscle fibers in the adventitia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Smooth muscle in a vein wall sits in the media and adventitia, not the intima, which is simply endothelium on a thin basement membrane.",
+        "B": "Incorrect. A large vein such as the IVC has a thick, not thin, tunica adventitia -- it is in fact the vein's thickest layer, the reverse of the relationship seen in arteries.",
+        "C": "Incorrect. Large veins, including the IVC, do have vasa vasorum in their thick adventitia, supplying the wall's own nutrition since diffusion from the lumen is insufficient across such a thick layer.",
+        "D": "Incorrect. Large veins below the diaphragm, including tributaries of the IVC, do carry valves that bulge from the intima to prevent retrograde flow; the IVC itself is largely valveless, but the option's blanket claim about large veins is wrong.",
+        "E": "Correct. A defining histological feature of large veins like the IVC is longitudinally-arranged smooth muscle bundles within the thick tunica adventitia, on top of the usual circular muscle in the thin media. This is the opposite pattern from arteries, where the muscle is concentrated in the media, not the outer coat. Its practical role is mechanical: the longitudinal fibres help the wall resist the collapse and stretch that a large, low-pressure vein is otherwise prone to."
+      },
+      "topic": "Histology",
+      "subtopic": "Vein wall classification",
+      "main_concept": "CON-CVS-93386C33A22083",
+      "concept_ids": ["CON-CVS-93386C33A22083"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify smooth muscle bundles within the thick tunica adventitia as the defining histological feature of a large vein such as the IVC.",
+      "library_ids": ["ART-CVS-MU105-P1-VESSEL-HISTOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Histology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p2, Q4",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q4"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q05",
+      "hold": "image-dependent -- stem asks 'which one is a characteristic of the structure marked by arrow' over an embedded histology micrograph; the correct option cannot be determined from text alone. Held per rule 3/9 (same convention as end43-cvs q06/q18/q70)."
+    },
+    {
+      "key": "med105-final43-p1-q06",
+      "hold": "duplicate of already-authored QST-MUMED105-END43-Q01 ('Character of cardiac muscle fibres', concept CON-CVS-541BCC4EDBF23B) -- that item already tests the identical fact set (single central nucleus vs multiple peripheral, high mitochondrial content, no satellite-cell regeneration) with central nucleus/few mitochondria/satellite-cell regeneration as three of its five options; this item restates the same three facts with central nucleus promoted to the keyed answer."
+    },
+    {
+      "key": "med105-final43-p1-q07",
+      "id": "QST-MUMED105-FINAL43P1-Q07",
+      "page": 7,
+      "title": "Origin of the main tonsillar artery",
+      "question": "An 11-year-old boy with swollen palatine tonsils was prepared for a tonsillectomy operation. From which of the following arteries, the main tonsillar artery arises?",
+      "options": {
+        "A": "Ascending pharyngeal",
+        "B": "Facial",
+        "C": "Lingual",
+        "D": "Descending palatine",
+        "E": "Superior thyroid"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The ascending pharyngeal artery contributes a minor twig to the tonsillar bed but is not the main tonsillar artery relied on surgically.",
+        "B": "Correct. The main tonsillar artery is a branch of the facial artery, arising as it curves over the superior constrictor muscle to pierce it and reach the palatine tonsil's lower pole. This is the vessel a surgeon must control during tonsillectomy to avoid significant haemorrhage.",
+        "C": "Incorrect. The lingual artery supplies the tongue; it gives no significant branch to the palatine tonsil.",
+        "D": "Incorrect. The descending palatine artery, a branch of the maxillary artery, supplies the hard and soft palate, not the tonsillar bed directly.",
+        "E": "Incorrect. The superior thyroid artery supplies the thyroid gland and adjacent infrahyoid muscles, well below the tonsillar region."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Head and neck arterial supply",
+      "main_concept": "CON-CVS-7D3B6519AF9A70",
+      "concept_ids": ["CON-CVS-7D3B6519AF9A70"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the main tonsillar artery is a branch of the facial artery.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-ANATOMY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p2, Q7",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q7"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q08",
+      "id": "QST-MUMED105-FINAL43P1-Q08",
+      "page": 8,
+      "title": "Arterial formation of the superficial palmar arch",
+      "question": "Which of the following is the artery which forms the superficial palmar arch?",
+      "options": {
+        "A": "The anterior interosseous",
+        "B": "The posterior interosseous",
+        "C": "The ulnar with a branch from the radial",
+        "D": "The radial with a branch from the ulnar",
+        "E": "The brachial"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The anterior interosseous artery runs deep in the forearm and terminates by piercing the interosseous membrane; it does not form the superficial palmar arch.",
+        "B": "Incorrect. The posterior interosseous artery supplies the posterior forearm compartment and does not contribute to the superficial palmar arch.",
+        "C": "Correct. The superficial palmar arch is formed mainly by the ulnar artery, completed on its lateral side by the superficial palmar branch of the radial artery. This arch lies just deep to the palmar aponeurosis and gives the common palmar digital arteries to the fingers.",
+        "D": "Incorrect. This describes the deep, not superficial, palmar arch: the deep arch is formed mainly by the radial artery, completed by the deep branch of the ulnar artery -- the reverse dominant vessel from the superficial arch.",
+        "E": "Incorrect. The brachial artery ends at the elbow by dividing into the radial and ulnar arteries; it does not itself reach the palm to form an arch."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Upper limb arterial supply",
+      "main_concept": "CON-CVS-F98FC7061B98E2",
+      "concept_ids": ["CON-CVS-F98FC7061B98E2"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the superficial palmar arch is formed mainly by the ulnar artery, completed by the radial artery's superficial palmar branch.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-ANATOMY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p3, Q8",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q8"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q09",
+      "id": "QST-MUMED105-FINAL43P1-Q09",
+      "page": 9,
+      "title": "Drainage of the superior thyroid vein",
+      "question": "32-year-old woman is undergoing a thyroidectomy operation. The superior thyroid vein was torn during the operation. Into which of the following veins the injured vein drains?",
+      "options": {
+        "A": "Right brachiocephalic",
+        "B": "Left brachiocephalic",
+        "C": "Internal jugular",
+        "D": "Subclavian",
+        "E": "Superior vena cava"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The right brachiocephalic vein receives the internal jugular and subclavian veins directly, not the superior thyroid vein itself, which drains one level upstream of that confluence.",
+        "B": "Incorrect. The left brachiocephalic vein likewise receives the internal jugular and subclavian veins, not the superior thyroid vein directly.",
+        "C": "Correct. The superior thyroid vein accompanies the superior thyroid artery upward from the thyroid gland and drains into the internal jugular vein, directly or via a common trunk with the facial vein. The middle thyroid vein takes the same route, draining directly into the internal jugular a little lower down. Both veins are therefore at risk of injury near the internal jugular during thyroid surgery, which is exactly the scenario this vignette describes.",
+        "D": "Incorrect. The subclavian vein drains the upper limb and joins the internal jugular vein to form the brachiocephalic vein; it does not receive the superior thyroid vein.",
+        "E": "Incorrect. The superior vena cava is formed by the union of both brachiocephalic veins, well downstream of the superior thyroid vein's own drainage into the internal jugular."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Neck venous drainage",
+      "main_concept": "CON-CVS-1D4229601F06C4",
+      "concept_ids": ["CON-CVS-1D4229601F06C4"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the superior thyroid vein drains into the internal jugular vein.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-ANATOMY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p3, Q9",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q9"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q10",
+      "hold": "duplicate of already-authored QST-MUMED105-END43-Q10 ('Anatomical site of the SA node', concept CON-CVS-1BAC795EE1ECE7) -- both items test the identical single fact (the SA node sits at the SVC/right-atrium junction), this one via a pathology-tear vignette instead of a direct-recall vignette."
+    },
+    {
+      "key": "med105-final43-p1-q11",
+      "hold": "image-dependent -- stem reads 'the given X-ray reveals a fracture of the humerus, indicated by the black circle; given the location of the fracture, which artery is most likely damaged', and different fracture sites along the humeral shaft/surgical neck put different arteries at risk, so the correct option cannot be recovered from the text alone. New find beyond the triage doc's original 2-item image-dependency count (its keyword scan for arrow/figure/diagram/shown/labeled did not catch this X-ray-with-circled-fracture phrasing). Held per rule 3/9."
+    },
+    {
+      "key": "med105-final43-p1-q12",
+      "id": "QST-MUMED105-FINAL43P1-Q12",
+      "page": 12,
+      "title": "Artery accompanying the radial nerve in the spiral groove",
+      "question": "Examination of a 21-year-old female athlete revealed an injury of the radial nerve in the spiral groove with bleeding from an artery that accompanied the nerve in this groove. Which of the following arteries was most likely injured?",
+      "options": {
+        "A": "Profunda brachii",
+        "B": "Radial",
+        "C": "Superior ulnar collateral",
+        "D": "Inferior ulnar collateral",
+        "E": "Radial recurrent"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The profunda brachii (deep brachial) artery runs with the radial nerve through the spiral (radial) groove on the posterior surface of the humerus, supplying the triceps along the way. Because the two structures travel together in this groove, a fracture or injury there classically damages both the radial nerve and the profunda brachii artery.",
+        "B": "Incorrect. The radial artery lies in the forearm, distal to the spiral groove, and does not accompany the radial nerve at that level.",
+        "C": "Incorrect. The superior ulnar collateral artery accompanies the ulnar nerve, not the radial nerve, and runs posterior to the medial epicondyle, not the spiral groove.",
+        "D": "Incorrect. The inferior ulnar collateral artery likewise travels with structures near the elbow on the ulnar side, unrelated to the radial nerve's course through the spiral groove.",
+        "E": "Incorrect. The radial recurrent artery is a forearm branch that ascends anterior to the elbow, distal and anterior to the spiral groove, not the vessel accompanying the nerve within it."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Upper limb neurovascular relations",
+      "main_concept": "CON-CVS-9542708C49288F",
+      "concept_ids": ["CON-CVS-9542708C49288F"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the profunda brachii artery accompanies the radial nerve through the spiral groove of the humerus.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-ANATOMY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p4, Q12",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q12"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q13",
+      "hold": "duplicate of already-authored QST-MUMED105-END43-Q71 ('Origin of the gluteal arteries', concept CON-MSK-7F7CF4EEB4DA70) -- both items test the identical single fact (the superior and inferior gluteal arteries branch from the internal iliac artery), this one via an atherosclerotic-claudication vignette instead of a direct-recall vignette."
+    },
+    {
+      "key": "med105-final43-p1-q14",
+      "id": "QST-MUMED105-FINAL43P1-Q14",
+      "page": 14,
+      "title": "Vessel superficial to scalenus anterior at the root of the neck",
+      "question": "A 17-year-old boy receives a knife wound in the root of the neck. He suffered from bleeding from a vessel that lies superficial to the scalenus anterior muscle. Which of the following vessels would be injured?",
+      "options": {
+        "A": "Subclavian artery",
+        "B": "Subclavian vein",
+        "C": "Internal thoracic artery",
+        "D": "Internal thoracic vein",
+        "E": "Vertebral artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The subclavian artery passes posterior to scalenus anterior (between it and scalenus medius), not superficial to it.",
+        "B": "Correct. The subclavian vein crosses the root of the neck anterior to (superficial to) scalenus anterior, while the subclavian artery passes posterior to the same muscle -- the muscle physically separates the two vessels at this level. This anterior position is exactly what makes the vein vulnerable to a superficial penetrating wound at the root of the neck.",
+        "C": "Incorrect. The internal thoracic artery arises from the subclavian artery and descends into the thorax behind the costal cartilages, well away from scalenus anterior.",
+        "D": "Incorrect. The internal thoracic vein accompanies its artery into the thorax, not superficial to scalenus anterior in the neck.",
+        "E": "Incorrect. The vertebral artery passes posterior to scalenus anterior, ascending through the foramina transversaria of the cervical vertebrae, not superficial to the muscle."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Root of the neck",
+      "main_concept": "CON-CVS-812D4C41C85A2F",
+      "concept_ids": ["CON-CVS-812D4C41C85A2F"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the subclavian vein lies anterior (superficial) to scalenus anterior while the subclavian artery lies posterior to it.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-ANATOMY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p5, Q14",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q14"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q15",
+      "id": "QST-MUMED105-FINAL43P1-Q15",
+      "page": 15,
+      "title": "Termination of the right superior intercostal vein",
+      "question": "The right superior intercostal vein ends in which of the following veins?",
+      "options": {
+        "A": "Right brachiocephalic",
+        "B": "Arch of azygos",
+        "C": "Azygos",
+        "D": "Superior hemiazygos",
+        "E": "Inferior hemiazygos"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The right brachiocephalic vein receives veins from the head, neck and upper limb, not the right superior intercostal vein, which drains into the azygos system instead.",
+        "B": "Correct. The right superior intercostal vein drains the 2nd-4th right intercostal spaces. It ends in the arch of the azygos vein, the point where the azygos vein hooks anteriorly over the root of the right lung before joining the superior vena cava. This is the mirror-image relationship of the left superior intercostal vein, which drains into the arch of the aorta's neighbour, the left brachiocephalic vein, instead.",
+        "C": "Incorrect. The azygos vein's own body receives the lower right intercostal veins directly; the right superior intercostal vein specifically drains into the azygos arch, its terminal hook, not its straight ascending body.",
+        "D": "Incorrect. The superior hemiazygos vein is a left-sided structure draining the upper left intercostal spaces, unrelated to the right side's drainage.",
+        "E": "Incorrect. The inferior hemiazygos vein likewise drains the left lower intercostal spaces, not the right superior intercostal vein."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Thoracic venous drainage",
+      "main_concept": "CON-CVS-FD3AF3387766EC",
+      "concept_ids": ["CON-CVS-FD3AF3387766EC"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the right superior intercostal vein drains into the arch of the azygos vein.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-ANATOMY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p5, Q15",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q15"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q16",
+      "id": "QST-MUMED105-FINAL43P1-Q16",
+      "page": 16,
+      "title": "Exception among the unpaired branches of the abdominal aorta",
+      "question": "All the following are unpaired branches of the abdominal aorta EXCEPT:",
+      "options": {
+        "A": "Coeliac trunk",
+        "B": "superior mesenteric artery",
+        "C": "Inferior mesenteric artery",
+        "D": "Renal artery",
+        "E": "Median sacral artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS an unpaired branch). The coeliac trunk is a midline, unpaired branch of the abdominal aorta supplying foregut derivatives, correctly grouped with the other unpaired vessels.",
+        "B": "Incorrect (this IS an unpaired branch). The superior mesenteric artery is a midline, unpaired branch supplying midgut derivatives.",
+        "C": "Incorrect (this IS an unpaired branch). The inferior mesenteric artery is a midline, unpaired branch supplying hindgut derivatives.",
+        "D": "Correct -- this is the exception. The renal arteries are paired, bilateral branches of the abdominal aorta supplying the paired kidneys, unlike the coeliac trunk, superior mesenteric, inferior mesenteric and median sacral arteries, which are all midline, unpaired branches. Being paired rather than midline is exactly what the question's EXCEPT is asking for.",
+        "E": "Incorrect (this IS an unpaired branch). The median sacral artery is the aorta's own midline terminal continuation, an unpaired branch."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Abdominal aorta",
+      "main_concept": "CON-CVS-D6166DE26FC349",
+      "concept_ids": ["CON-CVS-D6166DE26FC349"],
+      "contextual_concept_ids": [],
+      "learning_objective": "List the abdominal aorta's unpaired branches and identify the renal artery as paired, not unpaired.",
+      "library_ids": ["ART-CVS-MU105-PERIPHERAL-VESSELS"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p5, Q16",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q16",
+        "reuse": "CON-CVS-D6166DE26FC349 already exists in this module's own concept file (lane-1/2, end43-cvs q14) and its ## definition already states the renal artery is paired -- reused directly, no new concept, no overlay row needed (already tagged +mu/+MU-MED105 in this same file)."
+      }
+    },
+    {
+      "key": "med105-final43-p1-q17",
+      "id": "QST-MUMED105-FINAL43P1-Q17",
+      "page": 17,
+      "title": "Course of the greater saphenous vein at the ankle",
+      "question": "A thoracic surgeon is going to collect a portion of the greater saphenous vein for coronary bypass surgery. He observed that this vein runs in which of the following sites?",
+      "options": {
+        "A": "Posterior to the medial malleolus",
+        "B": "Anterior to the lateral malleolus",
+        "C": "Anterior to the medial malleolus",
+        "D": "Posterior to the lateral malleolus",
+        "E": "Midway between the two malleoli"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Posterior to the medial malleolus is where the posterior tibial artery and tibial nerve pass, not the great saphenous vein.",
+        "B": "Incorrect. The great saphenous vein runs on the medial, not lateral, side of the ankle.",
+        "C": "Correct. The great saphenous vein arises from the medial end of the dorsal venous arch of the foot and passes anterior to the medial malleolus as it ascends the leg. This position is a superficial and constant surface landmark, which is why the vein is easy to locate there for cannulation. The same superficial, easily-harvested course through the leg and thigh is what makes it the classic conduit for coronary artery bypass grafting.",
+        "D": "Incorrect. The great saphenous vein is medial, not lateral; the small (short) saphenous vein instead runs posterior to the lateral malleolus.",
+        "E": "Incorrect. Midway between the two malleoli, anteriorly, is where the anterior tibial artery becomes the dorsalis pedis artery, not the course of the great saphenous vein."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Lower limb venous anatomy",
+      "main_concept": "CON-CVS-D4AD9E80701217",
+      "concept_ids": ["CON-CVS-D4AD9E80701217"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the great saphenous vein passes anterior to the medial malleolus.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-ANATOMY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p6, Q17",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q17"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q18",
+      "id": "QST-MUMED105-FINAL43P1-Q18",
+      "page": 18,
+      "title": "Structure preventing mitral cusp prolapse during systole",
+      "question": "A 42-year-old female is admitted to the hospital with dyspnea. Imaging reveals severe mitral valve regurgitation. Which of the following structures prevents regurgitation of the mitral valve cusps into the left atrium during systole?",
+      "options": {
+        "A": "Crista terminalis",
+        "B": "Sulcus terminalis",
+        "C": "Pectinate muscles",
+        "D": "Chordae tendineae",
+        "E": "Trabeculae carneae"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The crista terminalis is a smooth muscular ridge inside the right atrium marking the junction of the sinus venosus and true atrium; it plays no part in mitral valve support.",
+        "B": "Incorrect. The sulcus terminalis is the crista terminalis's external groove on the right atrial surface, again unrelated to the mitral valve.",
+        "C": "Incorrect. Pectinate muscles are the ridged muscle bundles lining the right atrial appendage; they do not attach to or support the mitral valve cusps.",
+        "D": "Correct. The chordae tendineae are tendinous cords running from the free edges of the mitral (and tricuspid) valve cusps to the papillary muscles of the ventricular wall. When the ventricle contracts, the papillary muscles contract with it, pulling on the chordae to hold the cusps taut and prevent them from ballooning (prolapsing) back into the atrium against the high systolic pressure -- exactly the mechanism that fails in regurgitation from a ruptured chord or papillary muscle.",
+        "E": "Incorrect. Trabeculae carneae are the irregular muscular ridges on the inner ventricular wall; they give rise to the papillary muscles but are not themselves what restrains the valve cusps."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Cardiac valve support apparatus",
+      "main_concept": "CON-CVS-9065C501E85979",
+      "concept_ids": ["CON-CVS-9065C501E85979"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the chordae tendineae, anchored to the papillary muscles, prevent AV valve cusps from prolapsing into the atrium during ventricular systole.",
+      "library_ids": ["ART-CVS-MU105-P1-VALVES-PERICARDIUM"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p6, Q18",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q18 -- pagetext.mjs keys guessed a red-text 'E' here, but the render shows a clean yellow highlight on D (Chordae tendineae) only; highlight is authoritative, matching lane-2's own finding that the tool's red-text guesses can be wrong."
+      }
+    },
+    {
+      "key": "med105-final43-p1-q19",
+      "hold": "image-dependent -- stem asks 'at which vertebral level does the arrowed artery terminate', over an embedded angiogram/vessel diagram with an arrow; the correct option depends on which vessel the arrow marks and cannot be recovered from text alone. Held per rule 3/9 (matches the triage doc's own flag)."
+    },
+    {
+      "key": "med105-final43-p1-q20",
+      "id": "QST-MUMED105-FINAL43P1-Q20",
+      "page": 20,
+      "title": "Vessels clamped via the transverse pericardial sinus",
+      "question": "During cardiac surgery of a 45-year-old male the cardiac Surgeon can place her fingers in the transverse pericardial sinus, if necessary. This allows the surgeon to easily place a vascular clamp upon which of the following vessels?",
+      "options": {
+        "A": "Right and left pulmonary veins",
+        "B": "Superior and inferior vena cava",
+        "C": "Right and left coronary arteries",
+        "D": "Pulmonary trunk and ascending aorta",
+        "E": "Pulmonary trunk and inferior vena cava"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The pulmonary veins lie posterior to the transverse sinus, bounding the separate oblique sinus, not accessible for clamping via the transverse sinus.",
+        "B": "Incorrect. The venae cavae also lie posterior, bounding the oblique sinus region, not the transverse sinus.",
+        "C": "Incorrect. The coronary arteries are epicardial vessels running in the interventricular and atrioventricular grooves, not vessels a hand in the transverse sinus passes behind.",
+        "D": "Correct. The transverse pericardial sinus is a passage within the fibrous pericardium that lies behind the ascending aorta and pulmonary trunk (the arterial mesocardium) and in front of the atria and venae cavae. A surgeon can pass a finger or clamp through this sinus to encircle and cross-clamp the ascending aorta and pulmonary trunk together, a manoeuvre used during cardiopulmonary bypass.",
+        "E": "Incorrect. This mixes an artery correctly bounding the sinus (pulmonary trunk) with a vein that does not (inferior vena cava, which lies posterior with the other great veins)."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Pericardium",
+      "main_concept": "CON-CVS-CA0E298E19CEAD",
+      "concept_ids": ["CON-CVS-CA0E298E19CEAD"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the transverse pericardial sinus lies behind the ascending aorta and pulmonary trunk, allowing them to be clamped together.",
+      "library_ids": ["ART-CVS-MU105-P1-VALVES-PERICARDIUM"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p6, Q20",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q20"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q21",
+      "id": "QST-MUMED105-FINAL43P1-Q21",
+      "page": 21,
+      "title": "Cardiac structure at the apex-beat landmark",
+      "question": "A 59-year-old man is admitted to the hospital with severe chest pain. During examination, a slight rhythmic pulsation was noted at the left fifth intercostal space in the midclavicular line. What part of the heart is present at this point?",
+      "options": {
+        "A": "Right atrium",
+        "B": "Left atrium",
+        "C": "Aortic valve",
+        "D": "Apex of the heart",
+        "E": "Pulmonary valve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The right atrium forms the heart's right border, projected at the right sternal edge, not the left fifth intercostal space.",
+        "B": "Incorrect. The left atrium is a mostly posterior structure and does not reach the anterior chest wall at this landmark.",
+        "C": "Incorrect. The aortic valve's surface projection is behind the sternum at the level of the third intercostal space, not the apex landmark.",
+        "D": "Correct. The apex of the heart, formed by the left ventricle, projects to the left fifth intercostal space in the midclavicular line. This is the classic surface landmark for palpating and auscultating the apex beat, the point of maximal cardiac impulse.",
+        "E": "Incorrect. The pulmonary valve projects at the left second intercostal space near the sternal edge, not at the apex landmark."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Surface anatomy of the heart",
+      "main_concept": "CON-CVS-D0EBC976A8D99F",
+      "concept_ids": ["CON-CVS-D0EBC976A8D99F"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the cardiac apex projects to the left fifth intercostal space in the midclavicular line.",
+      "library_ids": ["ART-CVS-MU105-P1-VALVES-PERICARDIUM"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p7, Q21",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q21"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q22",
+      "id": "QST-MUMED105-FINAL43P1-Q22",
+      "page": 22,
+      "title": "Mediastinal location of the superior vena cava",
+      "question": "The superior vena cava lies in which of the following mediastinal divisions?",
+      "options": {
+        "A": "Superior",
+        "B": "Middle",
+        "C": "Superior and middle",
+        "D": "Superior and posterior",
+        "E": "Middle and posterior"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (incomplete). The SVC does pass through the superior mediastinum on its way down, but this option omits where it actually terminates.",
+        "B": "Incorrect (incomplete). The SVC's lower, pericardium-enclosed segment does lie in the middle mediastinum, but this option omits its upper course through the superior mediastinum.",
+        "C": "Correct. The superior vena cava begins behind the first right costal cartilage, in the superior mediastinum. It then descends to enter the pericardial sac and drain into the right atrium within the middle mediastinum. It therefore spans both divisions rather than sitting wholly within either one, which is why the mediastinal boundary between the two runs directly across its lower course.",
+        "D": "Incorrect. The posterior mediastinum lies behind the pericardium, containing the oesophagus, descending aorta and azygos system, not the SVC.",
+        "E": "Incorrect. The SVC's upper part lies in the superior, not posterior, mediastinum; the posterior mediastinum is not one of the divisions it occupies."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Mediastinum",
+      "main_concept": "CON-CVS-1CD0584522E8BC",
+      "concept_ids": ["CON-CVS-1CD0584522E8BC"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the superior vena cava spans the superior and middle mediastinum.",
+      "library_ids": ["ART-CVS-MU105-P1-VALVES-PERICARDIUM"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy",
+      "resource_ids": ["src_876c2bd15d1bf71629c5"],
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p7, Q22",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q22"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q23",
+      "id": "QST-MUMED105-FINAL43P1-Q23",
+      "page": 23,
+      "title": "Cause of sterile cardiac valve vegetations in a debilitated cancer patient",
+      "question": "Post-mortem examination of a 70-year-old debilitating cancer patient revealed multiple small sterile loosely adherent vegetations over the cardiac valves. What is the most probable type (cause) of this vegetations?",
+      "options": {
+        "A": "Acute infective endocarditis",
+        "B": "non-bacterial thrombotic endocarditis",
+        "C": "Rheumatic endocarditis",
+        "D": "Subacute infective endocarditis",
+        "E": "Verrucous endocarditis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Acute infective endocarditis produces large, bulky, destructive and organism-laden (not sterile) vegetations, typically with an identifiable virulent organism.",
+        "B": "Correct. Non-bacterial thrombotic (marantic) endocarditis produces small, sterile, loosely attached fibrin-and-platelet vegetations along the line of valve closure, classically in debilitated or cachectic patients with an underlying hypercoagulable state such as advanced malignancy. Because no organism is involved, the vegetations remain sterile, distinguishing this entity from any infective endocarditis.",
+        "C": "Incorrect. Rheumatic endocarditis follows acute rheumatic fever and produces small, warty vegetations along the line of valve closure due to immune-mediated valve damage, not simple debility -- a different mechanism from marantic endocarditis even though both can be small and sterile.",
+        "D": "Incorrect. Subacute infective endocarditis, though it produces smaller and less destructive vegetations than the acute form, is still caused by a (typically low-virulence) organism, making the vegetations infected, not sterile.",
+        "E": "Incorrect. Verrucous endocarditis is the descriptive term for the small warty vegetations of rheumatic fever, not a distinct cause from cancer-associated debility."
+      },
+      "topic": "Pathology",
+      "subtopic": "Endocarditis",
+      "main_concept": "CON-CVS-11A1CED5230C0D",
+      "concept_ids": ["CON-CVS-11A1CED5230C0D"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify non-bacterial thrombotic (marantic) endocarditis as the cause of small, sterile, loosely adherent valve vegetations in a debilitated cancer patient.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-PATHOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p7, Q23",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q23"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q24",
+      "id": "QST-MUMED105-FINAL43P1-Q24",
+      "page": 24,
+      "title": "Cause of left-sided heart failure",
+      "question": "Which one of the following is a cause of left sided heart failure?",
+      "options": {
+        "A": "Emphysema",
+        "B": "Pulmonary fibrosis",
+        "C": "Aortic valve stenosis (AS)",
+        "D": "Mitral valve stenosis (MS)",
+        "E": "Pulmonary valve stenosis (PS)"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Emphysema raises pulmonary vascular resistance and produces cor pulmonale, a cause of right-, not left-sided, heart failure.",
+        "B": "Incorrect. Pulmonary fibrosis likewise raises pulmonary vascular resistance and causes right-sided (cor pulmonale), not left-sided, heart failure.",
+        "C": "Correct. Aortic valve stenosis imposes a chronic pressure overload directly on the left ventricle, which must generate higher pressure to eject blood across the narrowed valve. Over time this drives concentric left ventricular hypertrophy as the chamber compensates for the added workload. Once this compensation is exhausted, the overloaded left ventricle dilates and fails, producing left-sided heart failure.",
+        "D": "Incorrect. Mitral stenosis obstructs flow into the left ventricle, so it raises left atrial and pulmonary pressures and produces right-sided failure over time, without the left ventricle itself being overloaded.",
+        "E": "Incorrect. Pulmonary valve stenosis imposes a pressure overload on the right ventricle, a cause of right-, not left-sided, heart failure."
+      },
+      "topic": "Pathology",
+      "subtopic": "Heart failure",
+      "main_concept": "CON-CVS-4A6B6FAE038355",
+      "concept_ids": ["CON-CVS-4A6B6FAE038355"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that aortic valve stenosis, via chronic left-ventricular pressure overload, is a cause of left-sided heart failure.",
+      "library_ids": ["ART-CVS-MU105-P1-HEART-FAILURE-RHEUMATIC"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p8, Q24",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q24"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q25",
+      "id": "QST-MUMED105-FINAL43P1-Q25",
+      "page": 25,
+      "title": "Joint feature of acute rheumatic (fever) arthritis",
+      "question": "Which one of the following is a characteristic feature of Rheumatic arthritis?",
+      "options": {
+        "A": "Destructed articular cartilage",
+        "B": "Granuloma formation",
+        "C": "Hyaline degeneration",
+        "D": "Painless swelling",
+        "E": "Preserved articular cartilage"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Articular cartilage destruction is a feature of erosive joint disease such as rheumatoid arthritis or septic arthritis, not the migratory arthritis of acute rheumatic fever.",
+        "B": "Incorrect. Granuloma formation (Aschoff bodies) is a feature of rheumatic carditis in the heart, not the joint arthritis component of acute rheumatic fever.",
+        "C": "Incorrect. Fibrinoid/hyaline degeneration of collagen is part of the underlying rheumatic inflammatory process but is not the defining descriptive feature of the joint findings being asked for here.",
+        "D": "Incorrect. The arthritis of acute rheumatic fever is classically painful (migratory, tender, swollen joints), not painless.",
+        "E": "Correct. The arthritis of acute rheumatic fever is a non-erosive, migratory polyarthritis. The synovium is inflamed and the joint is painful and swollen, but the articular cartilage itself is preserved throughout the attack. Because the cartilage is spared, the arthritis resolves completely without any residual joint damage, unlike the heart, which can be left permanently scarred by the same illness."
+      },
+      "topic": "Pathology",
+      "subtopic": "Rheumatic fever",
+      "main_concept": "CON-CVS-5777FDF4C26257",
+      "concept_ids": ["CON-CVS-5777FDF4C26257"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the arthritis of acute rheumatic fever is non-erosive, leaving the articular cartilage preserved.",
+      "library_ids": ["ART-CVS-MU105-P1-HEART-FAILURE-RHEUMATIC"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p8, Q25",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q25"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q26",
+      "id": "QST-MUMED105-FINAL43P1-Q26",
+      "page": 26,
+      "title": "Diagnosis of hard, rigid muscular arteries with a patent lumen",
+      "question": "60-year-old female presented with hard and rigid medium sized muscular arteries of her lower limb with patent lumen. Which one of the following is the diagnosis of this condition?",
+      "options": {
+        "A": "Atherosclerosis",
+        "B": "Arteriolosclerosis",
+        "C": "Benign hypertension",
+        "D": "Malignant hypertension",
+        "E": "Monkeberg medial calcific sclerosis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Atherosclerosis produces intimal plaques that narrow or occlude the lumen, not a patent lumen with a hard, calcified media.",
+        "B": "Incorrect. Arteriolosclerosis affects small arterioles, not medium-sized muscular arteries, and is associated with hypertension or diabetes, not simple age-related calcification.",
+        "C": "Incorrect. Benign hypertension produces arteriolosclerosis (hyaline thickening of arterioles), not calcification of medium muscular arteries with a preserved lumen.",
+        "D": "Incorrect. Malignant hypertension produces fibrinoid necrosis and hyperplastic ('onion-skin') changes in arterioles, an acute and different lesion from medial calcification.",
+        "E": "Correct. Monckeberg medial calcific sclerosis is calcification of the muscular media of medium-sized arteries (classically in the lower limb), typically seen in older patients. Because the calcification is confined to the media and does not involve the intima, the vessel becomes hard and rigid ('pipe-stem') on palpation while the lumen itself stays patent and blood flow is not obstructed."
+      },
+      "topic": "Pathology",
+      "subtopic": "Arteriosclerosis",
+      "main_concept": "CON-CVS-E0F8E645000740",
+      "concept_ids": ["CON-CVS-E0F8E645000740"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify Monckeberg medial calcific sclerosis as calcification of a medium muscular artery's media with a preserved, patent lumen.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-PATHOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p8, Q26",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q26"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q27",
+      "hold": "double-marked key -- both option A ('Fibrinoid necrosis of the vessel wall') and option C ('Hyperplasia of smooth muscles of the media') carry the yellow highlight on render (p8; option E confirmed unmarked on p9). No tiebreak available in the source; held per rule 1/10 rather than guessed."
+    },
+    {
+      "key": "med105-final43-p1-q28",
+      "id": "QST-MUMED105-FINAL43P1-Q28",
+      "page": 28,
+      "title": "Definition of thrombus propagation",
+      "question": "The outcome of thrombosis in which thrombi tend to grow due to deposition of additional platelets, fibrin & RBCs towards the heart is:",
+      "options": {
+        "A": "Infection",
+        "B": "Organization",
+        "C": "Propagation",
+        "D": "Resolution",
+        "E": "Recanalization"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Infection of a thrombus is a distinct complication (a septic/infected thrombus), not the process of layered growth described here.",
+        "B": "Incorrect. Organization is the fate in which granulation tissue and fibroblasts invade and replace the thrombus over time, not the accumulation of new platelets and fibrin onto its surface.",
+        "C": "Correct. Propagation is the fate in which a thrombus keeps growing by the ongoing deposition of additional platelets and fibrin, trapping more red cells as it extends along the vessel. For a venous thrombus this means extension proximally, towards the heart, lengthening the original clot rather than replacing it. It is exactly this growing, loosely attached column of clot that risks fragmenting off as an embolus.",
+        "D": "Incorrect. Resolution is the fate in which the body's own fibrinolytic system dissolves the thrombus completely, restoring the vessel, the opposite of continued growth.",
+        "E": "Incorrect. Recanalization is the fate in which new capillary channels form through an organized thrombus, partially restoring flow, a late event distinct from propagation's active growth phase."
+      },
+      "topic": "Pathology",
+      "subtopic": "Thrombosis",
+      "main_concept": "CON-CVS-AF2F860A9D43D5",
+      "concept_ids": ["CON-CVS-AF2F860A9D43D5"],
+      "contextual_concept_ids": ["CON-FND-2F4E0092DCAF16"],
+      "learning_objective": "Define propagation as a thrombus's continued growth by ongoing platelet/fibrin/RBC deposition, extending toward the heart.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-PATHOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p9, Q28",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q28",
+        "related": "CON-FND-2F4E0092DCAF16 (Kasr 208-INT, 'site of thrombus propagation') tests a different fact (WHERE propagation happens -- leg veins) about the same process this concept DEFINES; not a duplicate, listed as contextual only."
+      }
+    },
+    {
+      "key": "med105-final43-p1-q29",
+      "id": "QST-MUMED105-FINAL43P1-Q29",
+      "page": 29,
+      "title": "Mechanism of bilateral leg edema late in pregnancy",
+      "question": "A 30-year-old pregnant female in her 9th month of pregnancy observed bilateral lower limb edema. She asked medical advice, and no abnormality was detected as regards her blood pressure and urine examination. Which one of the following mechanisms explains her condition?",
+      "options": {
+        "A": "Decreased osmotic pressure",
+        "B": "Increased hydrostatic pressure",
+        "C": "increased capillary permeability",
+        "D": "Increased aldosterone level",
+        "E": "Salt and water retention"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Decreased plasma osmotic (oncotic) pressure occurs with hypoalbuminaemia (e.g. nephrotic syndrome, liver failure), which does not fit a patient with a normal urine examination.",
+        "B": "Correct. Late in pregnancy, the enlarged gravid uterus compresses the inferior vena cava and pelvic veins, raising venous hydrostatic pressure in the lower limbs. This simple mechanical rise in hydrostatic pressure pushes fluid out of the capillaries into the interstitium, producing bilateral leg edema even with entirely normal blood pressure and urine findings -- distinguishing it from pre-eclampsia, which would show hypertension and proteinuria.",
+        "C": "Incorrect. Increased capillary permeability is the mechanism in inflammation or allergic reactions, not the mechanical venous compression of late pregnancy.",
+        "D": "Incorrect. Increased aldosterone would produce salt and water retention with likely blood pressure changes, not fitting a patient with a normal examination.",
+        "E": "Incorrect. Salt and water retention (as in heart failure or renal disease) would be expected to show other systemic signs and is not the specific mechanism of simple late-pregnancy leg edema with a normal work-up."
+      },
+      "topic": "Pathology",
+      "subtopic": "Oedema mechanisms",
+      "main_concept": "CON-CVS-7EC2094D5081A6",
+      "concept_ids": ["CON-CVS-7EC2094D5081A6"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that late-pregnancy bilateral leg oedema with a normal blood pressure and urine exam reflects mechanical compression of the pelvic veins raising venous hydrostatic pressure.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-PATHOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p9, Q29",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q29 -- pagetext.mjs keys guessed a red-text 'E' here, but the render shows a clean yellow highlight on B (Increased hydrostatic pressure) only; highlight is authoritative."
+      }
+    },
+    {
+      "key": "med105-final43-p1-q30",
+      "id": "QST-MUMED105-FINAL43P1-Q30",
+      "page": 30,
+      "title": "Pigment responsible for liver cirrhosis in chronic right heart failure",
+      "question": "A 60-year-old male attends cardiology clinic for follow up because he suffered from pulmonary hypertension and compensated right sided heart failure. Enlarged tender liver was detected during abdominal examination. Which one of the following materials is responsible for the development of liver cirrhosis in this patient?",
+      "options": {
+        "A": "Bilirubin",
+        "B": "Biliverdin",
+        "C": "Copper",
+        "D": "Hemosiderin",
+        "E": "Hematin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Bilirubin accumulation causes jaundice, not the fibrotic cardiac cirrhosis of chronic passive venous congestion.",
+        "B": "Incorrect. Biliverdin is a transient bile pigment intermediate, not the pigment implicated in chronic hepatic congestion.",
+        "C": "Incorrect. Copper accumulation is the mechanism in Wilson disease, an unrelated inherited disorder of copper metabolism.",
+        "D": "Correct. Chronic right-sided heart failure raises central venous pressure, producing chronic passive congestion of the liver: centrilobular sinusoids become engorged, hepatocytes there undergo hypoxic atrophy and haemorrhage, and macrophages break down the extravasated red cells, depositing haemosiderin in the centrilobular zone. Long-standing congestion of this kind drives centrilobular fibrosis and eventually cardiac ('nutmeg') cirrhosis.",
+        "E": "Incorrect. Hematin is a haem-derived pigment associated with conditions like malaria or blackwater fever, not chronic passive hepatic congestion."
+      },
+      "topic": "Pathology",
+      "subtopic": "Chronic venous congestion",
+      "main_concept": "CON-CVS-2C57180475285E",
+      "concept_ids": ["CON-CVS-2C57180475285E"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that haemosiderin deposition from centrilobular haemorrhage underlies cardiac (nutmeg) liver cirrhosis in chronic right heart failure.",
+      "library_ids": ["ART-CVS-MU105-P1-HEART-FAILURE-RHEUMATIC"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p10, Q30",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q30"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q31",
+      "id": "QST-MUMED105-FINAL43P1-Q31",
+      "page": 31,
+      "title": "Vascular mechanism of gangrene in a strangulated hernia",
+      "question": "A 55-year-old man presented to emergency with acute intestinal obstruction; exploration revealed strangulated umbilical hernia with development of black spots. Which one of the following etiological factors explain the patient condition?",
+      "options": {
+        "A": "arterial obstruction",
+        "B": "arterial and venous obstruction",
+        "C": "lymphatic obstruction",
+        "D": "venous obstruction",
+        "E": "capillary obstruction"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Pure arterial obstruction alone produces pale, dry (anaemic) infarction, not the haemorrhagic black discolouration seen with strangulation.",
+        "B": "Correct. In a strangulated hernia, the tight neck of the hernial sac compresses both the artery and vein of the trapped bowel loop. The thinner-walled vein occludes first, causing blood to pool and haemorrhage into the tissue; as swelling progresses, arterial inflow is also cut off, and the combined arterial and venous obstruction produces haemorrhagic (black, gangrenous) infarction of the strangulated segment.",
+        "C": "Incorrect. Lymphatic obstruction alone produces lymphoedema, not the acute black discolouration of strangulation gangrene.",
+        "D": "Incorrect. Venous obstruction alone can cause congestion and haemorrhagic infarction, but the classic strangulated-hernia picture involves both vessels, since the tight neck compresses artery and vein together as swelling progresses.",
+        "E": "Incorrect. Capillary obstruction is not the primary mechanism; the constriction acts at the level of the named artery and vein at the hernial neck, not diffusely at the capillary bed."
+      },
+      "topic": "Pathology",
+      "subtopic": "Infarction and gangrene",
+      "main_concept": "CON-CVS-DCD446F801232F",
+      "concept_ids": ["CON-CVS-DCD446F801232F"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that strangulated-hernia gangrene results from combined arterial and venous obstruction at the constricted hernial neck.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-PATHOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p10, Q31",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q31"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q32",
+      "id": "QST-MUMED105-FINAL43P1-Q32",
+      "page": 32,
+      "title": "Why early infarct architecture is preserved",
+      "question": "The architecture of infarcted tissue is preserved in early phases due to preserved",
+      "options": {
+        "A": "lymphatics",
+        "B": "nerves",
+        "C": "parenchyma",
+        "D": "supporting connective tissue",
+        "E": "vasculature"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Lymphatic channels are not what maintains the tissue's structural outline after infarction.",
+        "B": "Incorrect. Nerve fibres, like the parenchymal cells, die along with the rest of the infarcted tissue and do not preserve its architecture.",
+        "C": "Incorrect. The parenchyma (the functional cells) is exactly what dies by coagulative necrosis in an infarct; it is not what is preserved.",
+        "D": "Correct. In coagulative necrosis, the classic pattern of most solid-organ infarcts, the basic outline of the tissue is preserved for several days because the supporting connective tissue framework (the collagen and reticulin stroma) survives even though the parenchymal cells themselves die. This is what allows a pathologist to recognise a coagulative infarct's ghost outlines microscopically before the tissue is eventually digested and remodelled.",
+        "E": "Incorrect. The vasculature is typically the site of the initiating occlusion and is not itself what preserves the surrounding tissue's architecture."
+      },
+      "topic": "Pathology",
+      "subtopic": "Infarction and coagulative necrosis",
+      "main_concept": "CON-CVS-9C2C53AAE415CF",
+      "concept_ids": ["CON-CVS-9C2C53AAE415CF"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that the supporting connective tissue framework, not the parenchyma, preserves an infarct's architecture in its early phase (coagulative necrosis).",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-PATHOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p10, Q32",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q32"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q33",
+      "id": "QST-MUMED105-FINAL43P1-Q33",
+      "page": 33,
+      "title": "Class I anti-arrhythmic drug",
+      "question": "Which of the following drugs are Class I anti-arrhythmic drugs?",
+      "options": {
+        "A": "Amiodarone",
+        "B": "Quinidine",
+        "C": "Atenolol",
+        "D": "Verapamil",
+        "E": "Propranolol"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Amiodarone is the classic Class III agent (potassium channel blocker), though it carries some effects on other classes too.",
+        "B": "Correct. Quinidine is a Class I anti-arrhythmic. It blocks fast voltage-gated sodium channels in cardiac myocytes, slowing the rate of the action potential's phase 0 upstroke. This membrane-stabilising action slows conduction through the myocardium, the shared mechanism that defines the whole Class I family.",
+        "C": "Incorrect. Atenolol is a Class II agent, a beta-adrenergic blocker, not a sodium-channel blocker.",
+        "D": "Incorrect. Verapamil is a Class IV agent, a calcium-channel blocker acting mainly on the AV node.",
+        "E": "Incorrect. Propranolol, like atenolol, is a Class II beta-blocker, not a Class I sodium-channel blocker."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Anti-arrhythmic drug classification",
+      "main_concept": "CON-CVS-136EF337EB578B",
+      "concept_ids": ["CON-CVS-136EF337EB578B"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify quinidine as a Class I (sodium-channel blocking) anti-arrhythmic drug.",
+      "library_ids": ["ART-CVS-MU105-P1-ANTIARRHYTHMIC-PHARM"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p10, Q33",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q33"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q34",
+      "id": "QST-MUMED105-FINAL43P1-Q34",
+      "page": 34,
+      "title": "Drug that does not decrease AV nodal conduction",
+      "question": "All of the following drugs decrease AV conduction EXCEPT:",
+      "options": {
+        "A": "Esmolol",
+        "B": "Digitalis",
+        "C": "Lidocaine",
+        "D": "Verapamil",
+        "E": "Propranolol"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this DOES decrease AV conduction). Esmolol, a beta-blocker, slows AV nodal conduction via reduced sympathetic drive to the node.",
+        "B": "Incorrect (this DOES decrease AV conduction). Digitalis increases vagal tone on the AV node, slowing conduction through it -- the basis of its use for ventricular rate control in atrial fibrillation.",
+        "C": "Correct -- this is the exception. Lidocaine is a Class IB sodium-channel blocker that acts preferentially on depolarised ventricular, especially ischaemic, tissue. It has little effect on the AV node's own calcium-dependent conduction, which is a different electrical mechanism from the fast sodium channels lidocaine targets. This sets it apart from the other four drugs listed, which all act, via beta-blockade, vagal tone, or calcium-channel blockade, to slow AV nodal conduction directly.",
+        "D": "Incorrect (this DOES decrease AV conduction). Verapamil, a calcium-channel blocker, acts directly on the AV node's calcium-dependent action potential to slow conduction.",
+        "E": "Incorrect (this DOES decrease AV conduction). Propranolol, like esmolol, is a beta-blocker that slows AV nodal conduction."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "AV nodal conduction pharmacology",
+      "main_concept": "CON-CVS-E5510D2D844FDB",
+      "concept_ids": ["CON-CVS-E5510D2D844FDB"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that lidocaine, unlike beta-blockers, digitalis and verapamil, does not significantly decrease AV nodal conduction.",
+      "library_ids": ["ART-CVS-MU105-P1-ANTIARRHYTHMIC-PHARM"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pharmacology",
+      "field_notes": {
+        "keySource": "yellow-highlight, rendered p11, Q34",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q34"
+      }
+    },
+    {
+      "key": "med105-final43-p1-q35",
+      "id": "QST-MUMED105-FINAL43P1-Q35",
+      "page": 35,
+      "title": "Feature of an aneurysmal varix",
+      "question": "Match: Aneurysmal varix is best described by which of the following?",
+      "options": {
+        "A": "Fibrous capsule surrounds aneurysm",
+        "B": "Hypertension",
+        "C": "Inflammatory",
+        "D": "Caused mainly by atherosclerosis",
+        "E": "Aneurysmal dilatation is part of venous wall"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. A fibrous capsule surrounding the aneurysm describes a false (pseudo-) aneurysm, not an aneurysmal varix.",
+        "B": "Incorrect. Hypertension is the classic driver of a dissecting aneurysm, not an aneurysmal varix, which is a direct arteriovenous communication rather than a hypertension-driven wall lesion.",
+        "C": "Incorrect. 'Inflammatory' describes a distinct aneurysm subtype (inflammatory aortic aneurysm), not the arteriovenous defect of an aneurysmal varix.",
+        "D": "Incorrect. Atherosclerosis is the classic cause of a true (fusiform/saccular) aneurysm of a large artery, not an aneurysmal varix.",
+        "E": "Correct. An aneurysmal varix is an abnormal direct communication between an artery and an adjacent vein, typically post-traumatic, through which arterial pressure is transmitted into the vein. The vein wall, not built to withstand arterial pressure, responds by dilating into a pulsatile sac. That dilatation is therefore an aneurysmal change that forms as part of the venous wall itself, not the arterial wall."
+      },
+      "topic": "Pathology",
+      "subtopic": "Aneurysm classification",
+      "main_concept": "CON-CVS-A6A1D83DD74BC0",
+      "concept_ids": ["CON-CVS-A6A1D83DD74BC0"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify an aneurysmal varix as an arteriovenous communication whose aneurysmal dilatation is part of the venous, not arterial, wall.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-PATHOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "printed answer key (literal letter 'E' beside the stem in the source's own match table), p11, Q35",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, matching item 35 -- printed as a match-the-column pair sharing one 5-item option bank with Q36; converted to two independent single-best-answer items, each keeping the full option bank, per the same-format convention used elsewhere in this batch."
+      }
+    },
+    {
+      "key": "med105-final43-p1-q36",
+      "id": "QST-MUMED105-FINAL43P1-Q36",
+      "page": 36,
+      "title": "Cause of a dissecting aneurysm",
+      "question": "Match: Dissecting aneurysm is best described by which of the following?",
+      "options": {
+        "A": "Fibrous capsule surrounds aneurysm",
+        "B": "Hypertension",
+        "C": "Inflammatory",
+        "D": "Caused mainly by atherosclerosis",
+        "E": "Aneurysmal dilatation is part of venous wall"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A surrounding fibrous capsule describes a false (pseudo-) aneurysm, not a dissecting aneurysm, which tracks within the arterial wall itself rather than being contained by a capsule.",
+        "B": "Correct. A dissecting aneurysm arises when blood tracks into a tear in the aortic intima and dissects along a plane within the weakened media. Chronic hypertension is the classic driver of this process, since the sustained high pressure both predisposes to the underlying medial degeneration and supplies the force that drives the dissection along the wall. This hypertension-driven mechanism is what distinguishes a dissecting aneurysm from an atherosclerosis-driven true aneurysm.",
+        "C": "Incorrect. 'Inflammatory' describes a distinct aneurysm subtype, not the hypertension-driven medial dissection of a dissecting aneurysm.",
+        "D": "Incorrect. Atherosclerosis is the classic cause of a true fusiform or saccular aneurysm of a large artery, not the mechanism of dissection along the media.",
+        "E": "Incorrect. An aneurysmal dilatation that is part of the venous wall describes an aneurysmal varix, not a dissecting aneurysm, which occurs in the arterial (aortic) wall."
+      },
+      "topic": "Pathology",
+      "subtopic": "Aneurysm classification",
+      "main_concept": "CON-CVS-CE2E5976F7BFBF",
+      "concept_ids": ["CON-CVS-CE2E5976F7BFBF"],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that hypertension-driven medial degeneration is the classic cause of a dissecting aneurysm.",
+      "library_ids": ["ART-CVS-MU105-P1-VASCULAR-PATHOLOGY"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology",
+      "field_notes": {
+        "keySource": "printed answer key (literal letter 'B' beside the stem in the source's own match table), p11, Q36",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, matching item 36 -- see Q35's field_notes for the match-to-MCQ conversion note."
+      }
+    },
+    {
+      "key": "med105-final43-p1-q37",
+      "id": "QST-MUMED105-FINAL43P1-Q37",
+      "page": 37,
+      "title": "Drug that can cause cinchonism",
+      "question": "Which of the following drugs can induce cinchonism as an adverse effect?",
+      "options": {
+        "A": "Amiodarone",
+        "B": "Quinidine",
+        "C": "Atenolol",
+        "D": "Verapamil",
+        "E": "Propranolol"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Amiodarone's classic adverse effects are pulmonary fibrosis, thyroid dysfunction, corneal deposits and skin discolouration, not cinchonism.",
+        "B": "Correct. Quinidine, like its parent compound quinine, can produce cinchonism, a dose-related toxicity syndrome. Its features are tinnitus, headache, dizziness, blurred vision and gastrointestinal upset. The syndrome is named for cinchona bark, the original source of quinine-family drugs, and it is one of the classic adverse-effect associations tested for this drug class.",
+        "C": "Incorrect. Atenolol's adverse effects relate to beta-blockade (bradycardia, fatigue, bronchospasm), not cinchonism.",
+        "D": "Incorrect. Verapamil's adverse effects relate to calcium-channel blockade (constipation, bradycardia, AV block), not cinchonism.",
+        "E": "Incorrect. Propranolol's adverse effects, like atenolol's, relate to beta-blockade, not cinchonism."
+      },
+      "topic": "Pharmacology",
+      "subtopic": "Anti-arrhythmic drug adverse effects",
+      "main_concept": "CON-CVS-DC7789864C39B9",
+      "concept_ids": ["CON-CVS-DC7789864C39B9"],
+      "contextual_concept_ids": ["CON-CVS-136EF337EB578B"],
+      "learning_objective": "State that quinidine can cause cinchonism (tinnitus, headache, dizziness, blurred vision, GI upset).",
+      "library_ids": ["ART-CVS-MU105-P1-ANTIARRHYTHMIC-PHARM"],
+      "module_subject": "MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pharmacology",
+      "field_notes": {
+        "keySource": "red text (printed, no highlight needed), p11, Q37",
+        "mu": "CVS Final 43 - Paper 1 Answered.pdf, Q37"
+      }
+    }
+  ]
+}
