@@ -418,3 +418,9 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ASSIUT PMS-102 lane 2 LANDED (ab89a9d8)
 - `All quizzes PMS.pdf` pp.65-107 (Quiz 21-29): 38 authored, 2 held (Quiz24 Q5 self-contradicting key; Quiz29 Q1 duplicate option), 35 excluded/logged (fill-in-the-blank blocks, image/matching Quiz29 first occurrence, 5 off-cluster organ-system items for a later lane). 20 mints + 5 articles; 14 Kasr 101-ISK histology concepts reused via sparse overlay. Validator errors=[]; simulate 10 files rejected=0. ≈1.7k tok/q.
 - Remaining: Quiz 30 chromosome theory pp.108-169 (lane 3 dispatched); pp.1-33 and 170-217 need OCR (queued). Fleet 20/20.
+
+### 2026-09-02 — CORRECTION: PMS-102 lane 2 had pushed its branch only; CoS merged `aun-pms102-author2`@ab89a9d8 into main by hand (docs-only, 9 files, tests 31/31). Now verified on main.
+
+### 2026-09-02 — MENOUFIA MED105 lane 2 LANDED (ad35ebe2) · end43-cvs cluster CLOSED
+- Twin repair: 12 twins (not 15) — all confirmed same-concept, all overlaid onto Kasr CVS / Alexandria CVS+MSK ids, 0 rejected; also removed a stray `module_subject` from the q42 live overlay. Q46-74: 28 authored, 1 held (Q70 hand-drawn diagram). 13 mints, 15 reuses across Kasr 208, MUST CVS-201, Helwan, Ain Shams, SYS-CVS. 7 renders; the "red-text" triage note on Q71-73 was wrong (clean yellow highlight) → released. Simulate rejected=0 ×2; validator errors=[]. Ledger end43-cvs 70/4/0/74. Wall: Helwan `ART-HU-BMS102-PAT-THROMBI` has no defining file (dangling-article audit chip).
+- Dispatched: MED105 lane 3 on Final 43 Paper 1 (36 remaining); PMS-102 lane 3 on Quiz 30 pp.108-169. Fleet 20/20.
