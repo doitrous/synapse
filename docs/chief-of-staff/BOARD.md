@@ -627,3 +627,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ASSIUT PMS-102 lane 4 LANDED (5f2c04ba triage, d2d3d1b1 pmsfront, 337a79b7 pmstail) · OCR ranges
 - Killed once before any commit; rebuilt in a fresh worktree (OCR cache + deterministic mint ids meant only file-writing redone). OCR'd pp.1-33 and pp.170-217 in the foreground, clean key lines on every page. pmsfront 44 usable SBA 100% keyed → 26 authored; pmstail 57 raw → 23 authored; 2 held. 27 mints, 21 reuses (mostly 101-ISK overlays). validate real errors=0 ×2 (resource_ids noise only); batch noise only; 15-file simulate created=467 updated=69 rejected=0. ≈7.3k tok/q.
 - Scope note: this range is gross anatomy + cytology (module's full name covers it). Remaining: pmsfront p23-30 (18), pmstail QUIZ 11-12 (5), p201-217 render-recoverable pool (two-column layout blanks stems). Lane 5 queued behind Menoufia; slot → ASU-AE lane 12 (Y1).
+
+### 2026-09-02 — 6 OCTOBER IPH-108 lane 2 LANDED (c7f138de) · pharma bank pp.7-100
+- Session reset before any file was written; rebuilt from origin/main, OCR cache intact. 42/42 candidates keyed by printed checkmark / highlighted feedback (0 renders; lane 1's heuristic held). 42 authored, cluster `pharmabank`; skipped garbled/multi-select/match/6-option pages, all listed. 9 mints, 10 reuses (8 from Assiut MPT-104). validate items=42 errors=[]; batch items=42 errors=0; 6-file simulate created=75 rejected=0. Very low tok/q.
+- Remaining: pp.101-223 unopened. Lane 3 dispatched on pp.101-160. PMS-102 lane 5 and AE lane 12 queued.
