@@ -554,9 +554,11 @@ The cloacal membrane is derived from both ectoderm and endoderm, at the site whe
 
 ## modules
 +SCU-FBS103
++SCU-FBS102
 
 ## field_notes
 scu: FOMSCU Foundation 2 QBank, EOM MID 2026 Q31 — tests the cloacal membrane as the bilaminar (ectoderm+endoderm, no mesoderm) area at the caudal end of the embryonic disc. Target — apply after docs/Assiut-Source-Imports/concept/AUN-PMS-102-concepts.md.
+scu2: (lane 3, scu-fbs103-author3, FBS102 leftovers pass) FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q62 (also 2022 Q42) — same concept, different question: tests the cloacal membrane as the structure that closes the distal end of the developing hindgut during folding, rather than its bilaminar ectoderm+endoderm composition. Same apply-after target as above.
 
 ---
 
@@ -667,3 +669,166 @@ A single primary spermatocyte gives rise to four spermatids (and ultimately four
 
 ## field_notes
 scu: FOMSCU Foundation 2 QBank, Formative 2025 Q8 — tests the 1-primary-spermatocyte-to-4-sperm yield ratio (10 primary spermatocytes -> 40 sperm). Already universities:scu / learner_years:1 from this lane's own SCU-FBS102 pass (docs/FOMSCU-Source-Imports/concept/SCU-FBS102-s2-author5-mint-concepts.md, module SCU-FBS102 only) — the +scu/+1 additions here are idempotent no-ops on those two fields; only the SCU-FBS103 module tag is a genuine addition. Target — apply after docs/FOMSCU-Source-Imports/concept/SCU-FBS102-s2-author5-mint-concepts.md.
+
+---
+
+<!--
+  BATCH 5 (third author lane, scu-fbs103-author3) — cluster 'fbs103c', the
+  19 remaining FBS103 (Foundation 2) triage keys minus the medical-ethics
+  item. Covers 6 of the 8 reuse questions in the sibling
+  pending-live/SCU-FBS103-s2-author3-reuse-questions.md (the other 2 reuse
+  CON-FND-405BB5EA3C359E and CON-FND-9EA7F8E2898EB7, both already overlaid
+  +scu in docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md
+  by an earlier FBS102 pass — extended there with a new field_note and the
+  +SCU-FBS103 module tag rather than duplicated here). This lane's other 11
+  questions mint fresh concepts instead, in
+  docs/FOMSCU-Source-Imports/concept/SCU-FBS103-concepts-3.md.
+
+  SIX (6) — pending (exist only in other lanes' own unimported batches;
+  checked directly against the live JSON: none of the 6 ids below are in it):
+
+    A. docs/Kasr-Source-Imports/concept/208-INT-concepts.md                       (aflatoxin/Aspergillus)
+    B. docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md     (exoenzymes/invasion factors)
+    C. docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md     (heterotrophs, same file as B)
+    D. docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md     (Gram-negative outer membrane, same file as B)
+    E. docs/Kasr-Source-Imports/concept/108-INT-concepts-pharmacology.md          (plasma half-life / first-order kinetics)
+    F. docs/Kasr-Source-Imports/concept/108-INT-concepts-pharmacology.md          (pharmacokinetics vs pharmacodynamics scope, same file as E)
+
+  Gate together with:
+  node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-s2-author3-reuse-questions.md \
+    --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-overlay-concepts.md \
+    --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/208-INT-concepts.md \
+    --with docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/108-INT-concepts-pharmacology.md
+-->
+
+# Item
+
+## id
+CON-FND-D1D48A5564E978
+
+## label
+Aflatoxin, a chemical carcinogen from Aspergillus flavus, causes hepatocellular carcinoma
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOM MID 2026 Q20 (also EOY Final 2026 Q20) — tests that aflatoxin is primarily produced by Aspergillus species (fungal source ID among Cryptococcus/Candida/dermatophyte distractors), the same aflatoxin-from-Aspergillus-flavus fact this concept's own label states, from a different angle (source-fungus naming rather than the cancer it causes). Target — apply after docs/Kasr-Source-Imports/concept/208-INT-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-INF-1EAFF70A6FC769
+
+## label
+Collagenase, hyaluronidase and invasins promote invasion; ordinary pili and flagella do not
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOM MID 2026 Q49 — tests that the tissue-degrading enzymes bacteria produce to spread deeper into host tissue are called exoenzymes (invasion factors), the same invasion-promoting-enzyme fact this concept's own definition names (collagenase, hyaluronidase, invasins), against simpler distractors (capsules, endotoxins, siderophores) rather than the concept's own pili/flagella contrast. Target — apply after docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-INF-841FAB7F11BA18
+
+## label
+Autotrophic bacteria use CO2 as their carbon source, while heterotrophic bacteria — including all pathogens — use organic carbon
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOY Final 2025 Q28 — tests that bacteria requiring preformed organic carbon compounds are called heterotrophs, an exact match for this concept's own definition. Target — apply after docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md (same file as the row above).
+
+---
+
+# Item
+
+## id
+CON-INF-BF26D7E563FB78
+
+## label
+The Gram-negative outer membrane carries toxic lipid A and porins that admit only small solutes, not amino acids
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOY Final 2025 Q2 — tests that the outer membrane is the structure characteristically present in Gram-negative but absent in Gram-positive cell walls, the same fact this concept's own definition states explicitly ("the outer membrane occurs only in Gram-negative bacteria, not in Gram-positive ones"). Found via find-existing.mjs "gram-negative outer membrane" — a direct hit. Target — apply after docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md (same file as the two rows above).
+
+---
+
+# Item
+
+## id
+CON-FND-955AD7B6FE6F03
+
+## label
+Plasma half-life is the time taken for the plasma concentration to fall by half, and it is fixed only in first-order elimination
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOY Final 2025 Q11 — tests that ampicillin's first-order elimination kinetics means its elimination half-life is constant, the same fixed-half-life-in-first-order fact this concept's own definition states. Target — apply after docs/Kasr-Source-Imports/concept/108-INT-concepts-pharmacology.md.
+
+---
+
+# Item
+
+## id
+CON-FND-6BB35F11EBD54B
+
+## label
+Pharmacokinetics is what the body does to the drug; pharmacodynamics is what the drug does to the body
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOY Final 2025 Q22 — tests that pharmacokinetics is correctly represented as the study of absorption, distribution, metabolism and excretion of drugs, the same ADME-scope fact this concept's own definition states, against pharmacodynamics-flavoured distractors (biological/therapeutic effects, mechanisms of action) and an unrelated one (methods of new drug development). Target — apply after docs/Kasr-Source-Imports/concept/108-INT-concepts-pharmacology.md (same file as the row above).

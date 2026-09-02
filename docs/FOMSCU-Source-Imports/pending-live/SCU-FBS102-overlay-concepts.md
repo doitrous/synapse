@@ -1001,6 +1001,7 @@ The Golgi is a stack of flat saccules with an entry and an exit face, and everyt
 
 ## modules
 +SCU-FBS102
++SCU-FBS103
 
 ## module_subject
 SCU-FBS102 > Histology > Cytology > Cytoplasmic Organelles
@@ -1008,6 +1009,7 @@ SCU-FBS102 > Histology > Cytology > Cytoplasmic Organelles
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, EOM 2026 Q10 and EOY 2026 Q23 — same Golgi packaging/modification function, asked from two source papers. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
 scu2: (lane 3, scu-fbs102-author3) EOM Mid 2026 Q15 — same concept, different question: tests the Golgi's stacked-saccule EM structure directly, rather than its packaging function.
+scu3: (lane 3, scu-fbs103-author3, cluster 'fbs103c') FOMSCU Foundation 2 QBank, Formative 2025 Q2 — same Golgi packaging-of-proteins fact, tested from a Foundation 2 (not Foundation 1) paper against RER/SER/peroxisome distractors. Same apply-after target as above; the SCU-FBS103 module tag is the only genuine addition.
 
 ---
 
@@ -1417,12 +1419,14 @@ The active fibroblast comes from the mesenchymal cell and is built to synthesise
 
 ## modules
 +SCU-FBS102
++SCU-FBS103
 
 ## module_subject
 SCU-FBS102 > Histology > Connective Tissue > Cells of Connective Tissue
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q33 — tests the fibroblast as the cell that forms ground substance. The Kasr concept's own evidence_gaps note names ground substance as one of the products its definition should be widened to list explicitly (not yet done); this overlay cites the concept as the correct home for the fact rather than minting a rival fibroblast key, per that note's own instruction. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+scu2: (lane 3, scu-fbs103-author3, cluster 'fbs103c') FOMSCU Foundation 2 QBank, Formative 2025 Q12 — same mesenchymal-cell-differentiates-into-fibroblast origin fact, tested from a Foundation 2 (not Foundation 1) paper. Same apply-after target as above; the SCU-FBS103 module tag is the only genuine addition. Note: this concept's own id is CON-FND-9EA7F8E2898EB7, referenced under docs/Kasr-Source-Imports/concept/101-ISK-concepts.md (not the -mcq- file).
 
 ---
 
@@ -1573,3 +1577,51 @@ SCU-FBS102 > Biochemistry > Lipids of Biological Importance
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q45 (also 2022 Q25) — tests cholesterol as a derived lipid (steroids are this concept's own named derived-lipid example). Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+<!--
+  BATCH 4 (fifth author lane, scu-fbs103-author3 — FBS102 leftovers pass,
+  cluster 'fbs102d'). Covers 2 of the 3 reuse questions in the sibling
+  pending-live/SCU-FBS102-s2-author3-reuse-questions.md (the third,
+  cloacal membrane, extends CON-DEV-1AAC12ECDA6AE2's existing +scu row in
+  docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-overlay-concepts.md
+  instead of appearing here). This lane's other 6 FBS102 questions mint
+  fresh concepts instead.
+
+  ONE (1) — pending (exists only in another lane's own unimported batch;
+  checked directly against the live JSON: not in it):
+
+    A. docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md (amniotic cavity: epiblast forms its floor, amnioblast its roof)
+
+  Both reuse questions below cite the same concept (two different FOMSCU
+  papers asking the same fact from opposite phrasing — "roofed by epiblast"
+  vs "epiblast forms the floor" — the second phrasing matches this concept's
+  own definition precisely; the first is honoured as printed since the
+  answer, Amniotic cavity, is correct either way).
+
+  Gate together with:
+  node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-s2-author3-reuse-questions.md \
+    --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md
+-->
+
+# Item
+
+## id
+CON-DEV-59DB99C028C33F
+
+## label
+The embryoblast splits into epiblast and hypoblast, and the cavity that opens above the epiblast is roofed by amnioblast
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q1 and Q34 (also repeated in 2022 Q14 and 2023 Q1) — two phrasings of the same fact, which cavity the epiblast bounds. Q1's "roofed by the epiblast" phrasing is loose; Q34's "epiblast... forms the floor" phrasing matches this concept's own definition exactly (amnioblast is the roof, epiblast the floor). The printed answer, Amniotic cavity, is correct under either phrasing, so both questions are authored and both keep the printed key; the explanation for each is written to state the accurate floor/roof assignment rather than repeat Q1's imprecise "roofed by" wording. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
