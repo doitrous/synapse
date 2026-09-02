@@ -2,6 +2,7 @@
 |---|---:|---:|---:|---:|
 | anatomy2-mint | 14 | 0 | 0 | 14 |
 | anatomy2-reuse | 10 | 0 | 0 | 10 |
+| dmard3-mint | 7 | 0 | 0 | 7 |
 | lower-limb-mint | 12 | 0 | 0 | 12 |
 | mip-q1 :: A :: UV protection in skin = melanin | 0 | 0 | 1 | 1 |
 | mip-q10 :: B :: average total skin surface area (adult) = 1.5-2.0 m2 | 0 | 0 | 1 | 1 |
@@ -39,6 +40,9 @@
 | mip-q7 :: C :: vitamin synthesised in skin on UVB exposure = vitamin D | 0 | 0 | 1 | 1 |
 | mip-q8 :: C :: substance penetrating intact skin most readily = lipid-soluble molecules | 0 | 0 | 1 | 1 |
 | mip-q9 :: C :: keratinocyte enzyme function = activation of steroid hormones | 0 | 0 | 1 | 1 |
+| msspast3-reuse | 20 | 0 | 0 | 20 |
+| nsaid3-mint | 13 | 0 | 0 | 13 |
+| opioid3-mint | 14 | 0 | 0 | 14 |
 | p2-q1 :: E :: main extensor of hip joint = gluteus maximus | 0 | 0 | 1 | 1 |
 | p2-q2 :: A :: mastectomy + winging of scapula = long thoracic nerve | 0 | 0 | 1 | 1 |
 | p2-q3 :: C :: protractor of scapula = serratus anterior | 0 | 0 | 1 | 1 |
