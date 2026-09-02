@@ -508,4 +508,415 @@ Block: body
 
 ### definition_of · CON-FND-3FA9935F6B0949
 Quote: MRP excretes some drugs into urine at the renal tubule, and SLC transporters take up some neurotransmitters at nerve terminals
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-CELLULAR-ADAPTATION-GAPS
+
+## title
+Agenesis and the boundary of cellular adaptation
+
+## arabic_title
+انعدام التخلق وحدود التكيف الخلوي
+
+## aliases
+Cellular adaptation 1
+AUN-MPT-104 Lecture 11
+
+## subject
+fnd
+
+## topic
+Cellular adaptation 1
+
+## subtopic
+Developmental anomalies vs adaptive responses
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+One teaching point from AUN-MPT-104's Lecture 11 quiz not already covered by the pending Kasr 108-INT cell-adaptation concept reused elsewhere in this course: agenesis, the complete congenital absence of an organ, which sits outside the department's own four-item list of adaptive cellular responses (hypertrophy, hyperplasia, atrophy, metaplasia).
+
+## sections
+### Definition
+Agenesis is the complete congenital failure of an organ to form during development, leaving the organ entirely absent at birth. It is a developmental anomaly, not an adaptive change of an already-formed cell population.
+
+### Mechanism
+The department's own textbook list of adaptive cellular responses is fixed at four items -- hypertrophy, hyperplasia, atrophy and metaplasia -- each describing a change an already-formed tissue undergoes under a stressor. Agenesis happens earlier, during organogenesis itself, so the "cell" or tissue that would adapt never exists to begin with. Aplasia (a primordium forms but develops no further) and hypoplasia (the organ forms but stays underdeveloped) describe lesser degrees of the same developmental failure, closer to but still short of full organ formation.
+
+### Key determinants
+Whether the organ ever began to form at all separates agenesis (never formed), aplasia (a rudimentary primordium only) and hypoplasia (formed but undersized) from atrophy, which always starts from a fully formed, previously normal-sized organ that later shrinks.
+
+### Clinical significance
+Unilateral renal agenesis, for instance, is frequently an incidental finding because the single remaining kidney compensates functionally -- recognising it as a developmental anomaly rather than an acquired disease shapes how such a finding is worked up and counselled.
+
+### Common misconceptions
+Describing agenesis as a severe form of atrophy, when the two differ in kind, not degree: atrophy always presupposes an organ that formed and grew normally before shrinking.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Agenesis = complete congenital absence of an organ; NOT one of the four adaptive responses (hypertrophy, hyperplasia, atrophy, metaplasia).
+Aplasia = primordium only, no further development. Hypoplasia = formed but underdeveloped/smaller than normal.
+
+## lose_the_mark
+Calling agenesis a form of atrophy or another of the four adaptive responses.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-8E5F8C2923A89F
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 11 -- no separate department slide deck exists in the corpus for Lecture 11 (only Lectures 1-8 do), so this gap-fill concept cites the quiz bank's own printed-answer text instead, the same handling already used for the Lecture 9-10 concepts elsewhere in this course.
+
+## annotations
+### definition_of · CON-FND-8E5F8C2923A89F
+Quote: Agenesis is the complete congenital failure of an organ to form during development, so the organ is entirely absent at birth
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-PREGNANCY-DRUG-CATEGORIES
+
+## title
+FDA pregnancy risk categories and the prescribing decision they carry
+
+## arabic_title
+فئات مخاطر الحمل حسب إدارة الغذاء والدواء وقرار الوصف المرتبط بها
+
+## aliases
+Pharmacokinetics variables 1
+AUN-MPT-104 Lecture 14
+
+## subject
+pharm
+
+## topic
+Pharmacokinetics variables 1
+
+## subtopic
+Pregnancy risk classification
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+One teaching point from AUN-MPT-104's Lecture 14 quiz not already covered by the module's existing concepts or the pending Kasr 108-INT pharmacology batch reused elsewhere in this course: the FDA's A-X pregnancy risk category system, focused on what distinguishes category D (may be used if benefit outweighs risk) from category X (never justified in pregnancy).
+
+## sections
+### Definition
+The FDA's letter system (A, B, C, D, X) classifies a drug by the balance between its documented fetal risk and its potential clinical benefit to the mother, ranked from least to most concerning.
+
+### Mechanism
+Category D drugs have demonstrated fetal risk from animal studies, human studies, or post-marketing experience, but remain usable in certain circumstances -- typically a serious maternal illness with no safer alternative -- because the potential benefit may outweigh that known risk. Category X drugs also have demonstrated fetal risk, but by definition that risk outweighs any possible benefit under any circumstance, so category X is an absolute contraindication in pregnancy, not a judgement call.
+
+### Key determinants
+The practical difference is the prescribing decision, not merely "how severe" the risk sounds: D leaves room for a risk-benefit judgement, X removes that judgement entirely.
+
+### Clinical significance
+Recognising a drug's pregnancy category before prescribing to a woman of childbearing potential -- and specifically recognising that "risk demonstrated" alone (true of both D and X) does not settle whether the drug can be used -- prevents both unjustified withholding of a category D drug a patient genuinely needs and inadvertent use of a category X drug.
+
+### Common misconceptions
+Assuming category D and category X differ only in degree of risk, rather than in whether use can ever be justified.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Category D: fetal risk demonstrated, but usable in certain circumstances if benefit outweighs risk.
+Category X: fetal risk demonstrated, risk always outweighs benefit -- contraindicated in pregnancy.
+
+## lose_the_mark
+Answering category X's consequence with the category D wording ("benefit could outweigh risk"), or vice versa.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-27A9BC30BFB2C2
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 14 -- no separate department slide deck exists in the corpus for Lecture 14, so this gap-fill concept cites the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-27A9BC30BFB2C2
+Quote: Category D means fetal risk has been demonstrated ... but the drug may still be justified in certain circumstances because its potential benefit could outweigh that risk
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ACUTE-INFLAMMATION-VASCULAR-MEDIATORS
+
+## title
+Acute inflammation: the vascular response, its chemical mediators, and chemotaxis
+
+## arabic_title
+الالتهاب الحاد: الاستجابة الوعائية ووسائطها الكيميائية والانجذاب الكيميائي
+
+## aliases
+Inflammation: definition and causes
+Acute inflammation: mechanisms and formation of fluid exudate
+AUN-MPT-104 Lectures 15, 17
+
+## subject
+fnd
+
+## topic
+Inflammation: definition and causes
+
+## subtopic
+Vascular response, chemical mediators, chemotaxis
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Three teaching points from AUN-MPT-104's Lecture 15 and 17 quizzes, no department slide deck for either lecture existing in the corpus and no pending Kasr 108-INT concept reaching this far into general pathology: the vascular response sequence of acute inflammation (brief vasoconstriction, then vasodilatation and increased permeability, producing a protein-rich exudate), which substances count as chemical mediators of that response, and the definition of chemotaxis.
+
+## sections
+### Definition
+Acute inflammation begins with a brief vasoconstriction of the arterioles supplying the injured tissue, immediately followed by histamine-mediated vasodilatation and increased capillary/venule permeability, which together produce hyperaemia, localised oedema and a protein-rich fluid exudate. Histamine, bradykinin and other vasoactive amines are the chemical mediators driving this response; growth factors are not among them. Chemotaxis is the directed movement of leukocytes along a chemical gradient toward the site of injury or infection.
+
+### Mechanism
+The transient vasoconstriction is a brief neurogenic/reflex response lasting only seconds. Vasodilatation that follows increases blood flow (hyperaemia, producing redness and heat) and, together with increased vascular permeability, lets protein-rich plasma escape into the interstitium as an exudate -- distinguished from a low-protein transudate by that permeability-driven protein content, not by breakdown of tissue cells. Chemical mediators such as histamine and bradykinin are released from cells or generated from plasma proteins at the injury site and are responsible for the vasodilatation, the permeability increase, and the chemotaxis that draws leukocytes to the site; growth factors instead belong to the later tissue-repair phase. Chemotaxis itself follows margination and emigration of leukocytes through the vessel wall, directing them the rest of the way to the actual site of injury.
+
+### Key determinants
+Sequence (vasoconstriction first, vasodilatation second) and mechanism (permeability, not cell breakdown, explains the exudate's protein content) are what distinguish the correct answer from plausible-sounding distractors in this lecture's quiz questions. Growth factors belong to repair, not to the acute mediator list.
+
+### Clinical significance
+Recognising increased vascular permeability as the driver of a protein-rich exudate (versus a low-protein transudate from hydrostatic-pressure imbalance alone) is the same reasoning used at the bedside to distinguish an inflammatory effusion from one caused by heart failure or hypoalbuminaemia.
+
+### Common misconceptions
+Treating vasodilatation as the first vascular event in acute inflammation, when a brief vasoconstriction precedes it. Counting growth factors among the acute chemical mediators, when they act later in repair. Confusing chemotaxis with margination or with fluid movement (exudation/transudation).
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Vascular sequence: transient VASOCONSTRICTION first, then vasodilatation (histamine) + increased permeability -> exudate.
+Exudate is protein-rich because of increased capillary permeability, NOT because of tissue-cell breakdown.
+Chemical mediators: histamine, bradykinin, vasoactive amines. Growth factors are NOT acute mediators (they belong to repair).
+Chemotaxis = directed leukocyte movement toward an irritant/organism.
+
+## lose_the_mark
+Answering that vasodilatation is the first arteriolar response to injury.
+Attributing the exudate's high protein content to tissue-cell breakdown rather than permeability.
+Counting growth factors as a chemical mediator of acute inflammation.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-BA06C8C3B76102
+CON-FND-11BD591A50EB8E
+CON-FND-01FE2E5920BF31
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lectures 15 and 17 -- no separate department slide deck exists in the corpus for either lecture, so these three gap-fill concepts cite the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-BA06C8C3B76102
+Quote: a brief, transient vasoconstriction ... immediately followed by vasodilatation ... increased permeability of the capillary and venule walls
+Block: body
+
+### definition_of · CON-FND-11BD591A50EB8E
+Quote: histamine, bradykinin and other vasoactive amines chief among them ... Growth factors ... are not counted among the chemical mediators of acute inflammation
+Block: body
+
+### definition_of · CON-FND-01FE2E5920BF31
+Quote: the directed (unidirectional) locomotion of leukocytes along a chemical gradient, toward a particular organism or irritant
+Block: body
 Block: body

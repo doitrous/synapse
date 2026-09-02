@@ -2277,3 +2277,750 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "MRP transporter", "SLC transporter", "filtration aqueous pores" -- 0 hits each; "pinocytosis" returned only the unrelated 101-ISK cell-biology concept (general membrane transport, not pharmacokinetic drug absorption), documented above as not a merge candidate.
 relationships: related to CON-FND-584FCF6897C35E (simple diffusion) and CON-FND-9D7D3A5B015805 (carrier-mediated transport), same lecture's absorption-mechanism teaching. No typed-edge relations batch written this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-8E5F8C2923A89F
+
+## label
+Agenesis is the complete congenital absence of an organ, distinct from the four adaptive cellular responses
+
+## canonical_key
+pathology.congenital.agenesis-complete-organ-absence
+
+## aliases
+Agenesis
+Aplasia (developmental, contrast)
+Hypoplasia (developmental, contrast)
+
+## arabic_label
+انعدام التخلق (الغياب الخلقي التام للعضو)
+
+## arabic_aliases
+انعدام التخلق
+قلة التنسج
+
+## definition
+Agenesis is the complete congenital failure of an organ to form during development, so the organ is entirely absent at birth. It is a developmental anomaly, not one of the four adaptive cellular responses (hypertrophy, hyperplasia, atrophy, metaplasia) that an already-formed cell population undergoes in response to a physiological or pathological stressor -- an organ that never formed cannot be described as having "adapted." Agenesis is distinguished from aplasia (the organ's primordium forms but fails to develop further, leaving only a rudimentary remnant) and hypoplasia (the organ forms but remains underdeveloped and smaller than normal), which are lesser degrees along the same developmental-failure spectrum.
+
+## explicit_objective
+Identify agenesis as complete congenital absence of an organ, and distinguish it from the four adaptive cellular responses and from aplasia/hypoplasia.
+
+## pitfalls
+Confusing agenesis with atrophy -- atrophy is shrinkage of an organ/tissue that had previously formed and grown normally, in response to disuse, reduced workload, or reduced hormonal/nervous stimulation, while agenesis means the organ never formed at all. Also treating agenesis, aplasia and hypoplasia as synonyms, when they name different degrees of developmental failure (complete absence; primordium only; underdevelopment).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cellular adaptation 1
+
+## subtopic
+Developmental anomalies of organ formation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CELLULAR-ADAPTATION-GAPS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-DF726F864C8BC3
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Complete absence of an organ is called: ... Agenesis" (Quiz 11, Q1, `All Quizzes MPT 2022.pdf` p.46).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-FND-DF726F864C8BC3 (pending Kasr 108-INT, "Adaptation takes four forms: hypertrophy, hyperplasia, atrophy and metaplasia") names the department's own textbook list of adaptive responses, which explicitly does not include agenesis -- agenesis is complete failure of organ formation during development, not an adaptive change of an already-formed cell population; related, not merged.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 11 in the corpus (only Lectures 1-8 exist as separate slide decks) -- the quiz bank's own printed-answer text is this concept's only available source, the same gap already documented for the Lecture 9-10 concepts above.
+
+## evidence_gaps
+Evidence must be attached before publication. No department lecture-deck source for Lecture 11 exists in the corpus -- worth flagging to Omar in case one exists outside the scanned material.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "agenesis" -- 0 true hits (the only match was a false-positive substring inside "mutagenesis"); safe to create.
+relationships: related to CON-FND-DF726F864C8BC3 (pending Kasr 108-INT cell-adaptation concept), same Lecture 11 quiz. No typed-edge relations batch written this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-27A9BC30BFB2C2
+
+## label
+FDA pregnancy risk categories (A-X) rank a drug's fetal risk against its clinical benefit, from no demonstrated risk to risk that always outweighs benefit
+
+## canonical_key
+teaching.pharma.posology.fda-pregnancy-categories
+
+## aliases
+FDA pregnancy category
+Pregnancy category D
+Pregnancy category X
+Teratogenic risk classification
+
+## arabic_label
+تصنيف إدارة الغذاء والدواء الأمريكية لمخاطر الحمل
+
+## arabic_aliases
+فئة الحمل D
+فئة الحمل X
+
+## definition
+The FDA's letter system (A, B, C, D, X) classifies a drug by the balance between its documented risk to the fetus and its potential clinical benefit to the mother, ranked from least to most concerning. Category D means fetal risk has been demonstrated (from animal studies, human studies, or post-marketing experience), but the drug may still be justified in certain circumstances because its potential benefit could outweigh that risk -- for example, a serious maternal illness with no safer alternative. Category X means fetal risk has been demonstrated and that risk outweighs any possible benefit to the mother under any circumstance, so category X drugs are contraindicated in pregnancy. Categories A, B and C progressively describe less certain or less severe risk, without either D's justified-use exception or X's absolute contraindication.
+
+## explicit_objective
+State the practical prescribing consequence of FDA pregnancy category D (may be used if benefit outweighs risk in certain circumstances) versus category X (contraindicated; risk always outweighs benefit).
+
+## pitfalls
+Treating D and X as differing only in "how bad" the demonstrated risk is, when the real distinction that matters clinically is the prescribing decision: category D still permits use in some circumstances, while category X is an absolute contraindication in pregnancy.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Pharmacokinetics variables 1
+
+## subtopic
+Pregnancy risk classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-PREGNANCY-DRUG-CATEGORIES
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A drug has been classified under \"D\" in FDA pregnancy categories? What would be the consequences of using that drug? ... Fetal risk has been demonstrated, in certain circumstances benefits could outweighs the risk." (Quiz 14, Q1, `All Quizzes MPT 2022.pdf` p.54); "A drug has been classified under \"X\" in FDA pregnancy categories? ... Fetal risk has been demonstrated, the risk outweighs any possible benefit to the mother." (Quiz 14, Q10, p.57).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 14 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "FDA pregnancy category" and "pregnancy category D" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-FND-BA06C8C3B76102
+
+## label
+Acute inflammation's vascular response is a brief vasoconstriction followed by vasodilatation and increased capillary permeability, producing the protein-rich fluid exudate
+
+## canonical_key
+teaching.pathology.inflammation.vascular-response-sequence
+
+## aliases
+Vascular response in acute inflammation
+Increased vascular permeability
+Fluid exudate formation
+Hyperaemia of acute inflammation
+
+## arabic_label
+الاستجابة الوعائية في الالتهاب الحاد
+
+## arabic_aliases
+زيادة النفاذية الوعائية
+الإفراز الالتهابي
+
+## definition
+When tissue is injured, the arterioles supplying it first undergo a brief, transient vasoconstriction -- the very first vascular response, lasting only seconds. This is immediately followed by vasodilatation (mediated chemically, chiefly by histamine), which increases blood flow to the area (hyperaemia) and produces the redness and heat of acute inflammation. Vasodilatation is accompanied by increased permeability of the capillary and venule walls, which lets protein-rich plasma leak into the interstitial tissue as an inflammatory exudate -- distinguished from a low-protein transudate precisely by that higher protein content, since normal, less-permeable capillary walls do not let plasma protein through in the same way. The net clinical picture of this vascular phase is hyperaemia together with localised oedema.
+
+## explicit_objective
+Sequence the vascular response of acute inflammation (transient vasoconstriction, then vasodilatation, then increased permeability with exudation) and state histamine's role and the reason the exudate is protein-rich.
+
+## pitfalls
+Assuming vasodilatation is the very first vascular event in acute inflammation -- a brief vasoconstriction precedes it. Also assuming the exudate's high protein content comes from breakdown of tissue cells, when it is explained instead by increased capillary-wall permeability letting plasma protein escape.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Inflammation: definition and causes
+
+## subtopic
+Vascular events of acute inflammation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ACUTE-INFLAMMATION-VASCULAR-MEDIATORS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-11BD591A50EB8E
+CON-FND-01FE2E5920BF31
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Histamine is: ... Is the cause of increased vascular permeability" (Quiz 15, Q1, `All Quizzes MPT 2022.pdf` p.58); "In acute inflammation the exudate has a higher protein content than normal tissue fluid chiefly because: ... Capillary walls are more permeable" (Q2); "What is the first response of arterioles to injury in acute inflammation? ... Vasoconstriction" (Q3, p.59); "Which factor is involved in the formation of inflammatory fluid exudate: ... Increased vascular permeability" (Q4); "Which of the following is a feature of acute inflammation? ... Hyperaemia and localized oedema" (Q5); "Which is Not an effect of chemical mediator: ... Vasoconstriction" (Quiz 17, Q1, p.64).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-IMM-0F12EDB7C7CC8E (live, "Inflammation produces vasodilation, increased vascular permeability, and leukocyte migration") is a general microbiology-course statement of the same three events, university kau, not yet published and carrying no vasoconstriction step or exudate-versus-transudate reasoning; related but pitched at a different course's grain, so a new AUN-MPT-104 record was minted instead of overlaying onto it.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lectures 15 or 17 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "vascular permeability" (live hit CON-IMM-0F12EDB7C7CC8E, documented above as not merged) and "acute inflammation vasoconstriction" -- 0 further hits.
+relationships: related to CON-FND-11BD591A50EB8E (chemical mediators) and CON-FND-01FE2E5920BF31 (chemotaxis), same Lecture 15/17 quizzes. No typed-edge relations batch written this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-11BD591A50EB8E
+
+## label
+Histamine, bradykinin and vasoactive amines are chemical mediators of acute inflammation; growth factors are not one of them
+
+## canonical_key
+teaching.pathology.inflammation.chemical-mediators
+
+## aliases
+Chemical mediators of inflammation
+Vasoactive amines
+
+## arabic_label
+الوسائط الكيميائية للالتهاب
+
+## arabic_aliases
+الوسائط الكيميائية للالتهاب
+
+## definition
+Acute inflammation is driven by a defined set of chemical mediators released from cells or generated from plasma proteins at the site of injury -- histamine, bradykinin and other vasoactive amines chief among them. These mediators cause vasodilatation, increased vascular permeability and chemotaxis of leukocytes toward the injured area. Growth factors, by contrast, are proteins that stimulate cell proliferation and are central to the later repair phase that follows inflammation, not to the acute mediator cascade itself -- they are not counted among the chemical mediators of acute inflammation.
+
+## explicit_objective
+List histamine, bradykinin and vasoactive amines as chemical mediators of acute inflammation, and exclude growth factors from that list.
+
+## pitfalls
+Assuming every substance active anywhere in the injury-inflammation-repair continuum is a "chemical mediator" of acute inflammation -- growth factors act later, in tissue repair, and are not part of the acute mediator group.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Acute inflammation: mechanisms and formation of fluid exudate
+
+## subtopic
+Chemical mediators
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ACUTE-INFLAMMATION-VASCULAR-MEDIATORS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-BA06C8C3B76102
+CON-FND-01FE2E5920BF31
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of The following is not a chemical mediator: ... Growth factors" (Quiz 17, Q2, `All Quizzes MPT 2022.pdf` p.64).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 17 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "chemical mediators of inflammation" and "growth factors inflammation" -- no exact-fact hits beyond the general CON-IMM-0F12EDB7C7CC8E record already documented on the vascular-response concept above.
+relationships: related to CON-FND-BA06C8C3B76102 (vascular response) and CON-FND-01FE2E5920BF31 (chemotaxis), same Lecture 15/17 quizzes. No typed-edge relations batch written this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-01FE2E5920BF31
+
+## label
+Chemotaxis is the directed movement of leukocytes toward a chemical stimulus at the site of injury or infection
+
+## canonical_key
+teaching.pathology.inflammation.chemotaxis-definition
+
+## aliases
+Chemotaxis
+Directed leukocyte migration
+
+## arabic_label
+الانجذاب الكيميائي (الكيموتاكسيس)
+
+## arabic_aliases
+الانجذاب الكيميائي
+
+## definition
+Chemotaxis is the directed (unidirectional) locomotion of leukocytes along a chemical gradient, toward a particular organism or irritant at the site of tissue injury or infection. It is what brings phagocytic cells from the vasculature to the actual site of injury after they have already marginated along and emigrated through the vessel wall, and it is triggered by chemotactic chemical mediators released at that site.
+
+## explicit_objective
+Define chemotaxis as the directed movement of leukocytes toward an irritant/organism, distinct from margination, exudation and transudation.
+
+## pitfalls
+Confusing chemotaxis (directed leukocyte movement toward a chemical stimulus) with margination (leukocytes lining up along the vessel wall, an earlier step) or with exudation/transudation (fluid movement, not cell movement).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Acute inflammation: mechanisms and formation of fluid exudate
+
+## subtopic
+Leukocyte recruitment
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ACUTE-INFLAMMATION-VASCULAR-MEDIATORS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-BA06C8C3B76102
+CON-FND-11BD591A50EB8E
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In acute inflammation, the directed movement of leukocytes towards a particular organism (irritant) is called: ... Chemotaxis" (Quiz 17, Q3, `All Quizzes MPT 2022.pdf` p.65).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+docs/Kasr-Source-Imports/concept/208-INT-concepts.md carries a pending, more detailed leukocyte-recruitment-sequence concept (margination/rolling, pavementing/adhesion, emigration, chemotaxis) for a different module (208-INT); that record teaches the full multi-step sequence, this one teaches only the chemotaxis definition step tested by this quiz item -- different grain, and chaining a third pending module's apply-order into this lane was judged not worth it for one definitional fact; not merged.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 17 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "chemotaxis" -- hits documented above (208-INT pending, not merged); "directed leukocyte migration" -- 0 further hits.
+relationships: related to CON-FND-BA06C8C3B76102 (vascular response) and CON-FND-11BD591A50EB8E (chemical mediators), same Lecture 15/17 quizzes. No typed-edge relations batch written this pass.
