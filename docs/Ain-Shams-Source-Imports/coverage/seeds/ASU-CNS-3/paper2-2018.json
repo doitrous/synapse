@@ -1,0 +1,1930 @@
+{
+  "lane": "ASU-CNS-3",
+  "cluster": "paper2-2018",
+  "header": "ASU-CNS-3 · EOM - CNS paper 2 2018.pdf (cluster 6/author6) — 46-item embedded-answer MCQ block (\"N.answer\", no printed distractors) plus one item (q26b) from a repeated page-3 item number. Keys read as printed / stated; distractors authored by this lane, cited to standard neuroanatomy/physiology/pharmacology/pathology teaching.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y3"
+    ],
+    "module": "ASU-CNS-3",
+    "exam_weight_by_year": {
+      "ASU_Y3": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_85504e7525d793760af2"
+    ],
+    "source_citation": "Ain Shams Year 3 CNS EOM Paper 2 2018 (\"EOM - CNS paper 2 2018.pdf\"), item {page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "paper2-2018-q01",
+      "id": "QST-ASUCNS3P2-18-Q01",
+      "page": "1",
+      "title": "Which nucleus lies in the floor of the fourth ventricle and is vulnerable to a fourth-ventricle tumour?",
+      "question": "A tumour expanding within the fourth ventricle classically affects which cranial nerve nucleus first, because of its location in the ventricular floor?",
+      "options": {
+        "A": "The abducens (CN VI) nucleus",
+        "B": "The oculomotor (CN III) nucleus",
+        "C": "The trochlear (CN IV) nucleus",
+        "D": "The hypoglossal (CN XII) nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The abducens nucleus lies in the caudal pons, directly beneath the facial colliculus in the floor of the fourth ventricle. This superficial position makes it especially vulnerable to compression by an expanding fourth-ventricle mass, producing an ipsilateral lateral rectus palsy, sometimes with associated facial weakness from the adjacent facial nerve genu.",
+        "B": "Incorrect. The oculomotor nucleus lies in the midbrain tegmentum, at the level of the superior colliculus, well away from the fourth ventricle floor.",
+        "C": "Incorrect. The trochlear nucleus lies in the midbrain, at the inferior collicular level, not in the fourth ventricle floor.",
+        "D": "Incorrect. The hypoglossal nucleus does lie near the floor of the fourth ventricle but more caudally, in the medulla; the classically taught landmark directly beneath the facial colliculus is the abducens nucleus."
+      },
+      "main_concept": "CON-NEU-4F62305369E632",
+      "concept_ids": [
+        "CON-NEU-4F62305369E632"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-ABDUCENS-NUCLEUS-LIES-IN-THE-FLOOR-OF-THE-FOURTH"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem cranial nerve nuclei",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the abducens nucleus sits in the floor of the fourth ventricle and is therefore vulnerable to fourth-ventricle tumours.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Brainstem cranial nerve nuclei",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 1",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 1 (\"Tumor in 4th ventricle affects the Abducent nucleus\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q02",
+      "id": "QST-ASUCNS3P2-18-Q02",
+      "page": "1",
+      "title": "Which cortical area is classically described as formulating thoughts prior to their conversion into speech?",
+      "question": "Which cortical language area is classically described as the site where thoughts are formulated, before being relayed to Broca's area for conversion into speech?",
+      "options": {
+        "A": "Wernicke's area",
+        "B": "Broca's area",
+        "C": "The angular gyrus",
+        "D": "The primary motor cortex"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Wernicke's area, in the posterior superior temporal gyrus of the dominant hemisphere, is classically described as the general interpretative (gnostic) area where language content is analysed for meaning and coherent thoughts are formulated, before being relayed via the arcuate fasciculus to Broca's area for conversion into articulate speech. A lesion here produces fluent but meaningless (receptive) aphasia.",
+        "B": "Incorrect. Broca's area converts already-formulated thoughts into the motor programme for speech articulation; it does not itself formulate the thought content.",
+        "C": "Incorrect. The angular gyrus is a parietal association area involved in reading and cross-modal language association, not primary thought formulation.",
+        "D": "Incorrect. The primary motor cortex executes the motor commands for speech muscles; it plays no role in formulating linguistic thought content."
+      },
+      "main_concept": "CON-NEU-E4ADCC3D2D56EC",
+      "concept_ids": [
+        "CON-NEU-E4ADCC3D2D56EC"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-WERNICKE-S-AREA-FORMULATES-THE-THOUGHTS-THAT-ARE-THEN"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Language and higher cortical function",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Wernicke's area is responsible for formulating thoughts prior to their conversion into speech by Broca's area.",
+      "module_subject": "ASU-CNS-3 > Physiology > Language and higher cortical function",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 2",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 2 (\"Formation of thoughts in Wernicke's area\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q04",
+      "id": "QST-ASUCNS3P2-18-Q04",
+      "page": "1",
+      "title": "Which drug is used to abort an acute panic attack?",
+      "question": "A patient presents with an acute panic attack. Which drug is used to rapidly abort the episode?",
+      "options": {
+        "A": "Alprazolam",
+        "B": "Sertraline",
+        "C": "Propranolol",
+        "D": "Buspirone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Alprazolam, a short-acting, high-potency benzodiazepine, rapidly potentiates GABA-A receptor-mediated inhibition and has a fast enough onset to abort an acute panic attack, unlike the delayed-onset agents used for chronic panic-disorder prophylaxis. This rapid onset is the key advantage over slower-acting agents in this acute setting.",
+        "B": "Incorrect. Sertraline (an SSRI) is used for long-term panic disorder prophylaxis but has a delayed onset of action (weeks), making it unsuitable for aborting an acute attack.",
+        "C": "Incorrect. Propranolol can blunt the somatic (autonomic) symptoms of anxiety but is not the rapid-onset agent of choice for terminating an acute panic attack.",
+        "D": "Incorrect. Buspirone is a non-benzodiazepine anxiolytic with a slow onset of action over one to two weeks, unsuitable for acute panic attacks."
+      },
+      "main_concept": "CON-NEU-DF63F6A5F149BE",
+      "concept_ids": [
+        "CON-NEU-DF63F6A5F149BE"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-ALPRAZOLAM-A-RAPID-ONSET-BENZODIAZEPINE-IS-USED-TO-ABORT-AN"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Anxiolytic pharmacology",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify alprazolam as the benzodiazepine used to abort an acute panic attack.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Anxiolytic pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 4",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 4 (\"Panic attack>alprazolam\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q05",
+      "id": "QST-ASUCNS3P2-18-Q05",
+      "page": "1",
+      "title": "The great cerebral vein of Galen is formed by the union of which two veins?",
+      "question": "The great cerebral vein (of Galen) is formed beneath the splenium of the corpus callosum by the union of which pair of veins?",
+      "options": {
+        "A": "The two internal cerebral veins",
+        "B": "The two basal veins of Rosenthal",
+        "C": "The two superior cerebral veins",
+        "D": "The two inferior cerebral veins"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The great cerebral vein of Galen is formed beneath the splenium of the corpus callosum by the union of the two internal cerebral veins, which drain the deep structures of the cerebral hemispheres; it also receives the paired basal veins of Rosenthal before joining the inferior sagittal sinus to form the straight sinus. This deep venous confluence is clinically important because thrombosis here has serious consequences distinct from superficial cortical vein pathology.",
+        "B": "Incorrect. The basal veins of Rosenthal drain into the great cerebral vein as tributaries; they are not the pair of veins whose union directly forms it.",
+        "C": "Incorrect. The superior cerebral veins are superficial cortical veins that drain into the superior sagittal sinus, unrelated to the deep venous system forming the vein of Galen.",
+        "D": "Incorrect. There is no paired \"inferior cerebral vein\" that forms the great cerebral vein; deep cerebral venous drainage is via the internal cerebral veins."
+      },
+      "main_concept": "CON-NEU-0194226FF010B6",
+      "concept_ids": [
+        "CON-NEU-0194226FF010B6"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-GREAT-CEREBRAL-VEIN-OF-GALEN-IS-FORMED-BY-THE-UNION-OF"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous drainage of the head and neck",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the great cerebral vein of Galen is formed by the union of the two internal cerebral veins.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Venous drainage of the head and neck",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 5",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 5 (\"Great cerebral vein>2 internal cerebral veins\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q06",
+      "id": "QST-ASUCNS3P2-18-Q06",
+      "page": "1",
+      "title": "Which white-matter tract completes the Papez circuit by connecting the cingulate gyrus back to the hippocampal formation?",
+      "question": "Which white-matter bundle, running within the cingulate gyrus, closes the Papez circuit by carrying fibres back down toward the parahippocampal gyrus and hippocampal formation?",
+      "options": {
+        "A": "The cingulum",
+        "B": "The fornix",
+        "C": "The mammillothalamic tract",
+        "D": "The stria terminalis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The cingulum is a white-matter bundle running within the cingulate gyrus that projects fibres from the cingulate cortex back down to the parahippocampal gyrus and hippocampal formation, anatomically closing the Papez circuit loop and allowing it to recirculate and sustain emotional tone. This closure is what allows the circuit to recirculate and sustain emotional tone over time.",
+        "B": "Incorrect. The fornix carries fibres from the hippocampus forward to the mammillary bodies, an earlier segment of the circuit, not the return connection from the cingulate gyrus.",
+        "C": "Incorrect. The mammillothalamic tract carries fibres from the mammillary bodies to the anterior thalamic nucleus, a different segment of the circuit.",
+        "D": "Incorrect. The stria terminalis connects the amygdala to the hypothalamus and septal area; it is not part of the Papez circuit's cingulate-to-hippocampus return pathway."
+      },
+      "main_concept": "CON-NEU-04148FFC06FDC2",
+      "concept_ids": [
+        "CON-NEU-04148FFC06FDC2"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-CINGULUM-DEEP-TO-THE-CINGULATE-GYRUS-COMPLETES-THE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Limbic system and emotion",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the cingulum as the white-matter tract that completes the Papez circuit by connecting the cingulate gyrus back toward the hippocampal formation.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Limbic system and emotion",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 6",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 6 (\"Papez circuit>cingulum\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q07",
+      "id": "QST-ASUCNS3P2-18-Q07",
+      "page": "1",
+      "title": "Which vascular lesion, caused by chronic hypertension, classically ruptures to cause deep hypertensive intracerebral haemorrhage?",
+      "question": "Chronic, poorly controlled hypertension classically produces which microscopic vascular lesion on the small penetrating arteries of the basal ganglia, thalamus and pons, whose rupture causes deep hypertensive intracerebral haemorrhage?",
+      "options": {
+        "A": "Charcot-Bouchard microaneurysms",
+        "B": "Berry (saccular) aneurysms",
+        "C": "Cerebral amyloid angiopathy",
+        "D": "Arteriovenous malformation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Charcot-Bouchard microaneurysms are tiny aneurysmal dilatations of the small penetrating (lenticulostriate and other perforating) arteries, caused directly by chronic hypertension weakening the vessel media; their rupture is the classic mechanism of primary hypertensive intracerebral haemorrhage, typically deep in the basal ganglia, thalamus, pons or cerebellum. Their characteristic basal ganglia/thalamic distribution is why hypertensive bleeds are classically described as deep haemorrhages.",
+        "B": "Incorrect. Berry (saccular) aneurysms occur at arterial branch points of the circle of Willis and classically cause subarachnoid haemorrhage, not deep hypertensive intraparenchymal bleeding.",
+        "C": "Incorrect. Cerebral amyloid angiopathy causes lobar (peripheral cortical) haemorrhage in normotensive elderly patients, a distinct mechanism and distribution from hypertensive deep haemorrhage.",
+        "D": "Incorrect. Arteriovenous malformations are congenital vascular anomalies that can bleed at any age, unrelated to chronic hypertensive vessel injury."
+      },
+      "main_concept": "CON-NEU-B1EAB07D643ED7",
+      "concept_ids": [
+        "CON-NEU-B1EAB07D643ED7"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-CHARCOT-BOUCHARD-MICROANEURYSMS-A-CONSEQUENCE-OF-CHRONIC"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Cerebrovascular pathology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Charcot-Bouchard microaneurysms, caused by chronic hypertension, are the classic mechanism of deep hypertensive intracerebral haemorrhage.",
+      "module_subject": "ASU-CNS-3 > Pathology > Cerebrovascular pathology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 7",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 7 (\"Hypertension >Charcot aneurysm\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q08",
+      "id": "QST-ASUCNS3P2-18-Q08",
+      "page": "1-2",
+      "title": "Sleepwalking (somnambulism) arises out of which sleep stage?",
+      "question": "Sleepwalking (somnambulism) is a disorder of arousal that classically arises out of which stage of sleep?",
+      "options": {
+        "A": "Non-REM (slow-wave, N3) sleep",
+        "B": "REM sleep",
+        "C": "Stage N1 sleep",
+        "D": "Stage N2 sleep"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Sleepwalking is a disorder of arousal that arises out of slow-wave (stage N3) non-REM sleep, typically in the first third of the night when slow-wave sleep predominates, with motor tone preserved and impaired consciousness during the episode. Motor tone is preserved throughout the episode, unlike the atonia expected during REM sleep.",
+        "B": "Incorrect. REM sleep is normally accompanied by near-total skeletal muscle atonia; complex ambulatory behaviour during REM instead characterises REM sleep behaviour disorder, a distinct condition from NREM sleepwalking.",
+        "C": "Incorrect. Stage N1 is the lightest stage of non-REM sleep and is not the classic stage from which sleepwalking arises.",
+        "D": "Incorrect. Stage N2 is an intermediate non-REM stage; sleepwalking is specifically linked to deep slow-wave (N3) sleep."
+      },
+      "main_concept": "CON-NEU-C319AA08978E23",
+      "concept_ids": [
+        "CON-NEU-C319AA08978E23"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-SLEEPWALKING-SOMNAMBULISM-IS-A-PARASOMNIA-OF-NON-REM-SLOW"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Sleep physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that sleepwalking is a disorder of non-REM (slow-wave) sleep, not REM sleep.",
+      "module_subject": "ASU-CNS-3 > Physiology > Sleep physiology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 8",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 8 (\"Non Rem :walking during sleep\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q09",
+      "id": "QST-ASUCNS3P2-18-Q09",
+      "page": "1",
+      "title": "Which artery passes deep to hyoglossus muscle?",
+      "question": "Which artery passes deep to (medial to) hyoglossus muscle on its way to supply the tongue?",
+      "options": {
+        "A": "The lingual artery",
+        "B": "The facial artery",
+        "C": "The maxillary artery",
+        "D": "The occipital artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The lingual artery, a branch of the external carotid artery, passes deep to hyoglossus muscle within the digastric triangle before continuing forward to supply the tongue — a key surgical landmark, since retracting hyoglossus is the standard step to expose and ligate the lingual artery. This deep relation is a key surgical landmark, since retracting hyoglossus is the standard step to expose and ligate the artery.",
+        "B": "Incorrect. The facial artery passes superficial to (or grooves) the submandibular gland and crosses the mandible at the anterior border of masseter; it does not pass deep to hyoglossus.",
+        "C": "Incorrect. The maxillary artery passes through the infratemporal fossa, unrelated to the hyoglossus muscle in the neck.",
+        "D": "Incorrect. The occipital artery courses deep to the posterior belly of digastric toward the scalp, not deep to hyoglossus."
+      },
+      "main_concept": "CON-NEU-867C09F8377BAB",
+      "concept_ids": [
+        "CON-NEU-867C09F8377BAB"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-LINGUAL-ARTERY-PASSES-DEEP-TO-HYOGLOSSUS-MUSCLE-ON-ITS"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cranial nerve motor supply",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the lingual artery runs deep to hyoglossus muscle.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Neck triangle anatomy",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 9",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 9 (\"Deep to hypoglossus:lingual artery\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q18",
+      "id": "QST-ASUCNS3P2-18-Q18",
+      "page": "2",
+      "title": "Which CNS tumour classically shows a clear perinuclear halo (\"fried-egg\" appearance) on formalin-fixed sections?",
+      "question": "Tumour cells showing a clear perinuclear halo (\"fried-egg\" appearance) on routine formalin-fixed histology are characteristic of which CNS neoplasm?",
+      "options": {
+        "A": "Oligodendroglioma",
+        "B": "Glioblastoma",
+        "C": "Medulloblastoma",
+        "D": "Meningioma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Oligodendroglioma cells show round, regular nuclei surrounded by a clear cytoplasmic halo on formalin-fixed sections, the classic \"fried-egg\" appearance — a fixation artefact from cytoplasmic swelling/clearing, characteristically absent on frozen section, and often accompanied by a \"chicken-wire\" capillary pattern. This halo is a fixation artefact from cytoplasmic swelling during processing, and is characteristically absent on frozen section.",
+        "B": "Incorrect. Glioblastoma shows necrosis and microvascular proliferation as its histologic hallmarks, not a perinuclear halo.",
+        "C": "Incorrect. Medulloblastoma shows sheets of small, densely packed primitive (embryonal) cells, not the fried-egg halo pattern.",
+        "D": "Incorrect. Meningioma shows whorled cell arrangements and psammoma bodies, a distinct histological picture from the oligodendroglioma halo."
+      },
+      "main_concept": "CON-NEU-089861D7AEEFB9",
+      "concept_ids": [
+        "CON-NEU-089861D7AEEFB9"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-OLIGODENDROGLIOMA-CELLS-CHARACTERISTICALLY-SHOW-A-CLEAR"
+      ],
+      "topic": "Pathology",
+      "subtopic": "CNS neoplasia",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the clear perinuclear halo (\"fried-egg\" appearance) as the classic histological feature of oligodendroglioma on formalin-fixed sections.",
+      "module_subject": "ASU-CNS-3 > Pathology > CNS neoplasia",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 18",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 18 (\"Tumor cell with clear halo :oligodendroglioma\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q19",
+      "id": "QST-ASUCNS3P2-18-Q19",
+      "page": "2",
+      "title": "Haemorrhagic necrosis of the temporal lobe is classically caused by which CNS infection?",
+      "question": "Haemorrhagic necrosis localised to the medial temporal lobes is the classic imaging/pathology finding of which CNS infection?",
+      "options": {
+        "A": "Herpes simplex virus encephalitis",
+        "B": "Bacterial meningitis",
+        "C": "Progressive multifocal leukoencephalopathy",
+        "D": "Rabies encephalitis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Herpes simplex virus type 1 encephalitis has a strong predilection for the medial temporal lobes, insula and orbitofrontal cortex, producing characteristic asymmetric haemorrhagic necrosis of these regions, explaining the classic presentation of temporal-lobe features such as olfactory hallucinations, personality change and seizures; empirical IV aciclovir is started immediately on suspicion because of its otherwise very high mortality. This localisation explains the classic presentation of fever, altered consciousness and temporal-lobe features such as olfactory hallucinations.",
+        "B": "Incorrect. Bacterial meningitis produces diffuse leptomeningeal inflammation and purulent exudate, not focal temporal-lobe haemorrhagic necrosis.",
+        "C": "Incorrect. Progressive multifocal leukoencephalopathy causes multifocal white-matter demyelination, not haemorrhagic necrosis localised to the temporal lobes.",
+        "D": "Incorrect. Rabies encephalitis affects the brainstem and limbic system diffusely (Negri bodies in neurons) without the characteristic temporal-lobe haemorrhagic necrosis pattern of HSV encephalitis."
+      },
+      "main_concept": "CON-NEU-0006B0C2A0D7F7",
+      "concept_ids": [
+        "CON-NEU-0006B0C2A0D7F7"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-HERPES-SIMPLEX-VIRUS-ENCEPHALITIS-CLASSICALLY-CAUSES"
+      ],
+      "topic": "Pathology",
+      "subtopic": "CNS infection CSF findings",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that herpes simplex encephalitis classically produces haemorrhagic necrosis localised to the temporal lobes.",
+      "module_subject": "ASU-CNS-3 > Pathology > CNS infection pathology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 19",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 19 (\"Necrosis at Temporal lobe : Herpes simplex virus\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q20",
+      "id": "QST-ASUCNS3P2-18-Q20",
+      "page": "2",
+      "title": "Which virus causes progressive multifocal leukoencephalopathy in immunocompromised patients?",
+      "question": "Progressive multifocal leukoencephalopathy, an oligodendrocyte-destroying demyelinating disease of immunocompromised patients, is caused by reactivation of which virus?",
+      "options": {
+        "A": "JC virus (a polyomavirus)",
+        "B": "Cytomegalovirus",
+        "C": "Varicella-zoster virus",
+        "D": "Measles virus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Progressive multifocal leukoencephalopathy is caused by reactivation of JC virus, a human polyomavirus, in severely immunocompromised patients (e.g. advanced HIV/AIDS, or on drugs such as natalizumab); the virus lytically infects oligodendrocytes, producing multifocal demyelination with progressive focal deficits and no fever.",
+        "B": "Incorrect. Cytomegalovirus causes a different opportunistic CNS picture (e.g. CMV encephalitis/ventriculitis), not the oligodendrocyte-specific demyelination of PML.",
+        "C": "Incorrect. Varicella-zoster virus can cause vasculopathy or encephalitis in immunocompromised patients but is not the cause of PML.",
+        "D": "Incorrect. Measles virus (in its persistent form) causes subacute sclerosing panencephalitis, a different demyelinating condition, not PML."
+      },
+      "main_concept": "CON-NEU-B76D80FB6E5F4E",
+      "concept_ids": [
+        "CON-NEU-B76D80FB6E5F4E"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-PROGRESSIVE-MULTIFOCAL-LEUKOENCEPHALOPATHY-IS-CAUSED-BY"
+      ],
+      "topic": "Pathology",
+      "subtopic": "CNS infection CSF findings",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify JC virus, a polyomavirus, as the cause of progressive multifocal leukoencephalopathy in immunocompromised patients.",
+      "module_subject": "ASU-CNS-3 > Pathology > CNS infection pathology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 20",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 20 (\"Progressive multifocal leukoencephalopathy : Papo virus\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q21",
+      "id": "QST-ASUCNS3P2-18-Q21",
+      "page": "2",
+      "title": "Which structure forms the lateral wall of the third ventricle?",
+      "question": "Above the hypothalamic sulcus, which structure forms the lateral wall of the third ventricle?",
+      "options": {
+        "A": "The thalamus",
+        "B": "The hypothalamus",
+        "C": "The caudate nucleus",
+        "D": "The internal capsule"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The medial surface of the thalamus forms the lateral wall of the third ventricle above the hypothalamic sulcus, with the two thalami often joined across the ventricle by the interthalamic adhesion; this is why thalamic pathology can obstruct the third ventricle and cause hydrocephalus. The roof of the third ventricle, by contrast, is formed separately by the tela choroidea and its choroid plexus.",
+        "B": "Incorrect. The hypothalamus forms the lower part of the lateral wall, below the hypothalamic sulcus, not the greater (upper) part attributed to the thalamus.",
+        "C": "Incorrect. The caudate nucleus lies lateral to the lateral ventricle, not forming the third ventricle's wall.",
+        "D": "Incorrect. The internal capsule is a deep white-matter structure lateral to the thalamus and basal ganglia; it does not form the third ventricle's wall."
+      },
+      "main_concept": "CON-NEU-CD0412AEBBA442",
+      "concept_ids": [
+        "CON-NEU-CD0412AEBBA442"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-THALAMUS-FORMS-THE-GREATER-PART-OF-THE-LATERAL-WALL-OF"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Ventricular system",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the thalamus forms the lateral wall of the third ventricle (above the hypothalamic sulcus).",
+      "module_subject": "ASU-CNS-3 > Anatomy > Ventricular system",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 21",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 21 (\"Lateral wall of third ventricle:Thalamus\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q23",
+      "id": "QST-ASUCNS3P2-18-Q23",
+      "page": "2",
+      "title": "The choroid plexus is composed of which two layers?",
+      "question": "The choroid plexus develops from, and is histologically composed of, which two layers?",
+      "options": {
+        "A": "Vascular pia mater (tela choroidea) covered by ependymal epithelium",
+        "B": "Arachnoid mater covered by dura mater",
+        "C": "Vascular pia mater covered by dura mater",
+        "D": "Ependymal epithelium covered by arachnoid mater"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The choroid plexus develops where vascular pia mater (the tela choroidea) invaginates into the ventricle and becomes covered by a single layer of specialised ependymal (choroidal epithelial) cells; each villus therefore has a pia-derived vascular core wrapped in ependymal-derived epithelium, which together allow active CSF secretion. This dual composition is what allows the choroidal epithelium to actively secrete cerebrospinal fluid from the plexus capillaries' filtrate.",
+        "B": "Incorrect. The arachnoid and dura mater are not the tissue layers forming the choroid plexus; the plexus is specifically pia-plus-ependyma.",
+        "C": "Incorrect. Dura mater is not part of the choroid plexus; the epithelial covering is ependymal, not dural.",
+        "D": "Incorrect. Arachnoid mater is not part of the choroid plexus; the vascular core is pial, not arachnoid."
+      },
+      "main_concept": "CON-NEU-73CE04EA36EF98",
+      "concept_ids": [
+        "CON-NEU-73CE04EA36EF98"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-CHOROID-PLEXUS-IS-FORMED-BY-VASCULAR-PIA-MATER-TELA"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Ventricular system",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the choroid plexus is composed of vascularised pia mater (tela choroidea) covered by ependymal epithelium.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Ventricular system",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 23",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 23 (\"Choroid plexus :vascularized pia and ependyma\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q25",
+      "id": "QST-ASUCNS3P2-18-Q25",
+      "page": "2",
+      "title": "The medial geniculate body receives its main auditory input from which structure?",
+      "question": "In the auditory pathway, the medial geniculate body of the thalamus receives its principal ascending input via the brachium of which structure?",
+      "options": {
+        "A": "The inferior colliculus",
+        "B": "The superior colliculus",
+        "C": "The lateral geniculate body",
+        "D": "The nucleus of the lateral lemniscus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Ascending auditory fibres from the inferior colliculus of the midbrain leave via the brachium of the inferior colliculus and terminate in the medial geniculate body, the thalamic auditory relay nucleus, which then relays via the auditory radiation (through the sublentiform internal capsule) to the primary auditory cortex. From the medial geniculate body, third-order fibres form the auditory radiation en route to the primary auditory cortex.",
+        "B": "Incorrect. The superior colliculus is a visual/oculomotor midbrain relay, not the source of the medial geniculate body's main auditory input.",
+        "C": "Incorrect. The lateral geniculate body is the visual thalamic relay, fed by the optic tract, functionally parallel to but distinct from the auditory medial geniculate body.",
+        "D": "Incorrect. The nucleus of the lateral lemniscus is an earlier brainstem relay in the ascending auditory pathway, upstream of the inferior colliculus, not the direct input to the medial geniculate body."
+      },
+      "main_concept": "CON-NEU-D8A896F1FF95EC",
+      "concept_ids": [
+        "CON-NEU-D8A896F1FF95EC"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-MEDIAL-GENICULATE-BODY-RECEIVES-ITS-MAIN-INPUT-FROM-THE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Auditory pathway",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the medial geniculate body receives its principal input from the inferior colliculus via its brachium.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Auditory pathway",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 25",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 25 (\"Medial Geniculate Body:inferior colliculus\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q26",
+      "id": "QST-ASUCNS3P2-18-Q26A",
+      "page": "2",
+      "title": "The auditory radiation passes through which part of the internal capsule?",
+      "question": "The auditory radiation, carrying fibres from the medial geniculate body to the primary auditory cortex, passes through which part of the internal capsule?",
+      "options": {
+        "A": "The sublentiform part",
+        "B": "The retrolentiform part",
+        "C": "The genu",
+        "D": "The anterior limb"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The auditory radiation passes through the sublentiform part of the internal capsule, below the lentiform nucleus, on its way to the primary auditory cortex (Heschl's gyrus) — distinct from the mostly retrolentiform course of the optic radiation. This is classically contrasted with the mostly retrolentiform course of the optic radiation in the same internal capsule.",
+        "B": "Incorrect. The retrolentiform part, behind the lentiform nucleus, carries most of the optic radiation, not the auditory radiation.",
+        "C": "Incorrect. The genu of the internal capsule carries corticobulbar (corticonuclear) fibres for the face, not the auditory radiation.",
+        "D": "Incorrect. The anterior limb carries frontopontine and thalamocortical fibres, not the auditory radiation."
+      },
+      "main_concept": "CON-NEU-3DD82B23FD72DF",
+      "concept_ids": [
+        "CON-NEU-3DD82B23FD72DF"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-AUDITORY-RADIATION-PASSES-THROUGH-THE-SUBLENTIFORM-PART"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Auditory pathway",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the auditory radiation passes through the sublentiform part of the internal capsule.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Auditory pathway",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 26",
+        "asu": "EOM - CNS paper 2 2018.pdf, p2 item 26 (\"SUblentiform: AUditory radiation\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q75",
+      "id": "QST-ASUCNS3P2-18-Q26B",
+      "page": "3",
+      "title": "Which cell type is found in the cerebellar cortex, not the cerebral cortex?",
+      "question": "Which large, GABAergic neuron type, forming the sole output of the cerebellar cortex, is found in the cerebellar cortex and NOT in the cerebral cortex?",
+      "options": {
+        "A": "Purkinje cells",
+        "B": "Pyramidal cells",
+        "C": "Stellate cells",
+        "D": "Granule cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Purkinje cells are large, flask-shaped GABAergic neurons confined to the molecular/Purkinje cell layer of the cerebellar cortex, forming its sole output to the deep cerebellar nuclei; they are not present in the cerebral cortex. They are not present in the cerebral cortex, whose principal projection neurons are instead pyramidal cells.",
+        "B": "Incorrect. Pyramidal cells are the principal projection neurons of the cerebral cortex, present in multiple cortical layers, unlike Purkinje cells which are cerebellum-specific.",
+        "C": "Incorrect. Stellate cells occur in both cerebral and cerebellar cortex as interneurons, so they are not the answer to a \"cerebellum-only\" cell-type question.",
+        "D": "Incorrect. Granule cells occur in both the cerebellar cortex (granular layer) and parts of the cerebral cortex (e.g. dentate gyrus, some sensory areas), so they are not exclusive to the cerebellum."
+      },
+      "main_concept": "CON-NEU-6E55B8280AAB97",
+      "concept_ids": [
+        "CON-NEU-6E55B8280AAB97"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-PURKINJE-CELLS-ARE-FOUND-IN-THE-CEREBELLAR-CORTEX-NOT-THE"
+      ],
+      "topic": "Histology",
+      "subtopic": "Cerebellar histology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Purkinje cells are a cerebellar cortex cell type, not a cerebral cortex cell type.",
+      "module_subject": "ASU-CNS-3 > Histology > Cerebellar histology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, p3 item 26",
+        "asu": "EOM - CNS paper 2 2018.pdf, p3 item 26 (\"cells not in cerebral cortex :purkinje fibers (In cerebellum)\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q27",
+      "id": "QST-ASUCNS3P2-18-Q27",
+      "page": "3",
+      "title": "Which aphasia is characterised by an inability to repeat words despite fluent speech and preserved comprehension?",
+      "question": "A lesion of the arcuate fasciculus, disconnecting Wernicke's from Broca's area, produces which aphasia — fluent speech and intact comprehension, but a striking inability to repeat spoken words?",
+      "options": {
+        "A": "Conduction aphasia",
+        "B": "Broca's aphasia",
+        "C": "Wernicke's aphasia",
+        "D": "Global aphasia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Conduction aphasia results from an arcuate fasciculus lesion disconnecting Wernicke's from Broca's area; patients have fluent speech and largely preserved comprehension but a striking, disproportionate inability to repeat spoken words, because comprehended content cannot be relayed for direct repetition. This selective repetition deficit, out of proportion to otherwise near-normal language function, is the hallmark distinguishing it from Broca's and Wernicke's aphasia.",
+        "B": "Incorrect. Broca's aphasia is non-fluent, effortful speech with relatively preserved comprehension, from a lesion of Broca's area itself, not primarily a repetition-specific deficit.",
+        "C": "Incorrect. Wernicke's aphasia is fluent but meaningless (paraphasic) speech with poor comprehension, from a lesion of Wernicke's area — a broader deficit than the isolated repetition failure of conduction aphasia.",
+        "D": "Incorrect. Global aphasia involves severe impairment of both comprehension and production from a large dominant-hemisphere lesion, not the selective fluency-plus-comprehension-intact-but-repetition-impaired pattern of conduction aphasia."
+      },
+      "main_concept": "CON-NEU-F3F7BE9274F02E",
+      "concept_ids": [
+        "CON-NEU-F3F7BE9274F02E"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-CONDUCTION-APHASIA-IS-CHARACTERISED-BY-AN-INABILITY-TO"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Language and higher cortical function",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify impaired repetition, with preserved fluency and comprehension, as the hallmark of conduction aphasia.",
+      "module_subject": "ASU-CNS-3 > Physiology > Language and higher cortical function",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 27",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 27 (\"Cannot Repeat words: Conductive aphasia\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q28",
+      "id": "QST-ASUCNS3P2-18-Q28",
+      "page": "3",
+      "title": "The excitatory reticular formation maintains cortical arousal chiefly through which property?",
+      "question": "The excitatory (ascending activating) component of the reticular formation maintains a baseline level of cortical arousal chiefly through which property?",
+      "options": {
+        "A": "Intrinsic, spontaneous (pacemaker-like) neuronal activity independent of sensory input",
+        "B": "Activity entirely dependent on continuous incoming sensory input",
+        "C": "Direct action potential conduction from the spinal cord dorsal columns",
+        "D": "Rhythmic activity driven exclusively by the suprachiasmatic nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The excitatory reticular formation, the core of the ascending reticular activating system, shows intrinsic, spontaneous pacemaker-like firing that does not require continuous sensory input, allowing it to maintain baseline cortical arousal even with reduced external stimulation — and explaining why anaesthetic/sedative agents can modulate arousal by acting directly on these neurons. This intrinsic excitability allows the reticular formation to maintain a baseline level of cortical arousal even with reduced external stimulation.",
+        "B": "Incorrect. If arousal depended entirely on ongoing sensory input, arousal would fail whenever sensory input was reduced, which is not the case; the reticular formation's intrinsic activity sustains a baseline level independent of input.",
+        "C": "Incorrect. The reticular formation's arousal-maintaining activity is not simply relayed action potentials from the dorsal columns; it reflects the reticular neurons' own intrinsic excitability.",
+        "D": "Incorrect. The suprachiasmatic nucleus governs circadian rhythm timing, not the reticular formation's moment-to-moment intrinsic excitatory activity."
+      },
+      "main_concept": "CON-NEU-1171FBFFC13C27",
+      "concept_ids": [
+        "CON-NEU-1171FBFFC13C27"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-EXCITATORY-ASCENDING-ACTIVATING-RETICULAR-FORMATION"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Motor cortex function",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the excitatory reticular formation has intrinsic, spontaneous activity independent of sensory input.",
+      "module_subject": "ASU-CNS-3 > Physiology > Reticular formation and consciousness",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 28",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 28 (\"Reticular excitatory : has intrinsic activity\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q30",
+      "id": "QST-ASUCNS3P2-18-Q30",
+      "page": "3",
+      "title": "Which structure forms the anterior wall of the third ventricle?",
+      "question": "Which thin sheet of grey matter, extending from the anterior commissure to the optic chiasm, forms the anterior wall of the third ventricle?",
+      "options": {
+        "A": "The lamina terminalis",
+        "B": "The tela choroidea",
+        "C": "The septum pellucidum",
+        "D": "The interthalamic adhesion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The lamina terminalis is a thin sheet of grey matter extending from the anterior commissure above to the optic chiasm below, forming the anterior wall of the third ventricle and closing off the rostral end of the neural tube at this level. It is functionally important as a boundary structure adjacent to the vascular organ of the lamina terminalis, a circumventricular organ.",
+        "B": "Incorrect. The tela choroidea forms the roof, not the anterior wall, of the third ventricle.",
+        "C": "Incorrect. The septum pellucidum separates the two lateral ventricles, not the third ventricle's anterior wall.",
+        "D": "Incorrect. The interthalamic adhesion (massa intermedia) joins the two thalami across the third ventricle's lateral walls, not its anterior wall."
+      },
+      "main_concept": "CON-NEU-CB2C9EE5A8A838",
+      "concept_ids": [
+        "CON-NEU-CB2C9EE5A8A838"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-LAMINA-TERMINALIS-FORMS-THE-ANTERIOR-WALL-OF-THE-THIRD"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Ventricular system",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the lamina terminalis forms the anterior wall of the third ventricle.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Ventricular system",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 30",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 30 (\"Anterior of 3rd ventricle:Lamina Terminalis\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q32",
+      "id": "QST-ASUCNS3P2-18-Q32",
+      "page": "3",
+      "title": "Which antibiotic class is given intrathecally for CNS infection because it penetrates the blood-brain barrier poorly by the IV route?",
+      "question": "Which antibiotic class, given for resistant Gram-negative CNS infection, is administered intrathecally because it penetrates the blood-brain barrier poorly when given intravenously?",
+      "options": {
+        "A": "Aminoglycosides",
+        "B": "Third-generation cephalosporins",
+        "C": "Penicillins",
+        "D": "Macrolides"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Aminoglycosides are highly polar and cross the blood-brain barrier poorly even when meninges are inflamed, so for resistant Gram-negative CNS infection they are given intrathecally or intraventricularly, bypassing the barrier and achieving high local CSF concentrations while limiting systemic nephro-/ototoxicity. This bypasses the barrier entirely, achieving high local CSF concentrations while limiting systemic nephro- and ototoxicity.",
+        "B": "Incorrect. Third-generation cephalosporins achieve adequate CSF concentrations via the IV route alone when meninges are inflamed, and do not require the intrathecal route.",
+        "C": "Incorrect. Penicillins, particularly at high IV doses, achieve therapeutic CSF levels in meningitis without requiring intrathecal administration.",
+        "D": "Incorrect. Macrolides are not the antibiotic class classically singled out for poor blood-brain barrier penetration requiring intrathecal dosing in CNS infection."
+      },
+      "main_concept": "CON-NEU-20137CA9E2FBAC",
+      "concept_ids": [
+        "CON-NEU-20137CA9E2FBAC"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-AMINOGLYCOSIDES-ARE-GIVEN-INTRATHECALLY-TO-TREAT-CNS"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Meningitis chemoprophylaxis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that aminoglycosides are given intrathecally for CNS infection because of poor blood-brain barrier penetration by the IV route.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > CNS infection pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 32",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 32 (\"Antibiotic taken intrathecal: Aminoglycoside\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q33",
+      "id": "QST-ASUCNS3P2-18-Q33",
+      "page": "3",
+      "title": "The EEG chiefly reflects which type of electrical activity?",
+      "question": "The scalp-recorded electroencephalogram (EEG) chiefly reflects which type of underlying neuronal electrical activity?",
+      "options": {
+        "A": "Summated, spontaneous postsynaptic potentials of cortical pyramidal neurons",
+        "B": "Individual axonal action potentials of cortical neurons",
+        "C": "Muscle fibre action potentials from the scalp musculature",
+        "D": "Direct current flow from the choroid plexus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The EEG reflects the summation of spontaneous excitatory and inhibitory postsynaptic potentials generated synchronously in the aligned apical dendrites of large populations of cortical pyramidal neurons; this synchronised graded synaptic activity, not individual spikes, produces the detectable scalp waveform. Individual axonal action potentials are too brief and poorly aligned to summate into a detectable scalp signal on their own.",
+        "B": "Incorrect. Individual axonal action potentials are too brief and too asynchronous/poorly aligned to summate into a detectable scalp EEG signal.",
+        "C": "Incorrect. Scalp muscle activity is a recognised EEG artefact to be filtered out, not the intended physiological signal the EEG measures.",
+        "D": "Incorrect. The choroid plexus produces CSF, not the electrical signal recorded by scalp EEG electrodes."
+      },
+      "main_concept": "CON-NEU-E9AA56067F5F22",
+      "concept_ids": [
+        "CON-NEU-E9AA56067F5F22"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-EEG-RECORDS-THE-SUMMATED-SPONTANEOUS-POSTSYNAPTIC"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "EEG and cortical electrophysiology",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the EEG reflects summated, spontaneous postsynaptic potentials of cortical pyramidal neurons rather than action potentials.",
+      "module_subject": "ASU-CNS-3 > Physiology > EEG and cortical electrophysiology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 33",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 33 (\"EEG: spontaneous potential\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q34",
+      "id": "QST-ASUCNS3P2-18-Q34",
+      "page": "3",
+      "title": "Which hypnotic drug is a non-benzodiazepine agonist at the GABA-A receptor?",
+      "question": "Which imidazopyridine hypnotic drug acts as a positive allosteric modulator (agonist) at the benzodiazepine site of the GABA-A receptor, with relative selectivity for the alpha-1 subunit?",
+      "options": {
+        "A": "Zolpidem",
+        "B": "Diazepam",
+        "C": "Phenobarbital",
+        "D": "Buspirone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Zolpidem is a non-benzodiazepine, imidazopyridine hypnotic that acts as a GABA-A receptor agonist with relative alpha-1 subunit selectivity, giving it strong sedative-hypnotic potency with comparatively less anxiolytic, myorelaxant and anticonvulsant activity than classic benzodiazepines (its anticonvulsant use, unlike that of the benzodiazepines, is not well established, a point worth noting when this pairing appears in older exam sources). This alpha-1 selectivity gives it strong hypnotic potency with comparatively less anxiolytic, myorelaxant and anticonvulsant activity than classic benzodiazepines.",
+        "B": "Incorrect. Diazepam is a classic benzodiazepine, acting more broadly across GABA-A alpha subunit subtypes, not the alpha-1-selective non-benzodiazepine described.",
+        "C": "Incorrect. Phenobarbital is a barbiturate acting at a distinct GABA-A receptor site, prolonging channel opening rather than acting as the alpha-1-selective benzodiazepine-site agonist described.",
+        "D": "Incorrect. Buspirone is a serotonin 5-HT1A partial agonist anxiolytic, unrelated to the GABA-A receptor mechanism described."
+      },
+      "main_concept": "CON-NEU-DE56071366920E",
+      "concept_ids": [
+        "CON-NEU-DE56071366920E"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-ZOLPIDEM-IS-A-NON-BENZODIAZEPINE-GABA-A-RECEPTOR-AGONIST"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Sedative-hypnotic pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify zolpidem as a non-benzodiazepine GABA-A receptor agonist used for its hypnotic effect.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Sedative-hypnotic pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 34",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 34 (\"GABA agonist+Anticonvulsant:Zolpidem\")"
+      },
+      "author_notes": "Printed key pairs zolpidem with \"anticonvulsant\"; standard teaching emphasises its alpha-1-selective hypnotic action, with dedicated anticonvulsant use far less established than for classic benzodiazepines — the stem/options here test the well-supported GABA-A-agonist-hypnotic identity rather than asserting the anticonvulsant claim."
+    },
+    {
+      "key": "paper2-2018-q35",
+      "id": "QST-ASUCNS3P2-18-Q35",
+      "page": "3",
+      "title": "Which induction anaesthetic is preferred in hypotensive or haemodynamically unstable patients?",
+      "question": "In a hypotensive or haemodynamically unstable patient requiring emergency anaesthesia, which induction agent is preferred because it raises or maintains blood pressure?",
+      "options": {
+        "A": "Ketamine",
+        "B": "Propofol",
+        "C": "Thiopental",
+        "D": "Halothane"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Ketamine, an NMDA receptor antagonist, stimulates the sympathetic nervous system by inhibiting neuronal catecholamine reuptake, raising heart rate, blood pressure and cardiac output — the opposite of the myocardial-depressant, hypotensive effect of most other induction agents — making it the preferred choice in hypotensive, hypovolaemic or shocked patients. This sympathomimetic profile makes it the preferred induction agent in hypotensive, hypovolaemic or haemodynamically unstable patients.",
+        "B": "Incorrect. Propofol causes dose-dependent myocardial depression and vasodilation, worsening hypotension, so it is generally avoided as first choice in haemodynamically unstable patients.",
+        "C": "Incorrect. Thiopental similarly causes myocardial depression and vasodilation, making it a poor choice in hypotensive patients.",
+        "D": "Incorrect. Halothane is a volatile inhalational agent that causes dose-dependent myocardial depression and hypotension, unlike ketamine's sympathomimetic profile."
+      },
+      "main_concept": "CON-NEU-A6243FB5586661",
+      "concept_ids": [
+        "CON-NEU-A6243FB5586661"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-KETAMINE-IS-THE-PREFERRED-INDUCTION-ANAESTHETIC-FOR"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Sedative-hypnotic pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that ketamine is favoured for anaesthesia in hypotensive patients because of its sympathomimetic, blood-pressure-supporting effect.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > General anaesthetic pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 35",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 35 (\"Anesthesia for HypOtension:Ketamine\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q36",
+      "id": "QST-ASUCNS3P2-18-Q36",
+      "page": "3",
+      "title": "Which drug is used to treat ventricular arrhythmias occurring under anaesthesia?",
+      "question": "Which class Ib antiarrhythmic, also a local anaesthetic, is used IV to treat ventricular arrhythmias arising during anaesthesia?",
+      "options": {
+        "A": "Lidocaine",
+        "B": "Amiodarone",
+        "C": "Verapamil",
+        "D": "Adenosine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Lidocaine, a class Ib antiarrhythmic, preferentially blocks fast sodium channels in ischaemic/depolarised myocardium, suppressing ventricular ectopic activity, and is used IV to treat ventricular arrhythmias arising during anaesthesia (e.g. triggered by laryngoscopy or catecholamine surges), sharing its underlying sodium-channel mechanism with its familiar local anaesthetic use.",
+        "B": "Incorrect. Amiodarone is a broad-spectrum (class III-predominant) antiarrhythmic but is not the agent classically paired with local anaesthetic action and anaesthesia-related ventricular ectopy in this context.",
+        "C": "Incorrect. Verapamil is a calcium channel blocker chiefly used for supraventricular, not ventricular, arrhythmias.",
+        "D": "Incorrect. Adenosine is used specifically to terminate supraventricular (AV-nodal re-entrant) tachycardias, not ventricular arrhythmias."
+      },
+      "main_concept": "CON-NEU-B943C56ABC10DA",
+      "concept_ids": [
+        "CON-NEU-B943C56ABC10DA"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-LIDOCAINE-A-CLASS-IB-ANTIARRHYTHMIC-IS-USED-TO-TREAT"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Local anaesthetic pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that lidocaine's class Ib antiarrhythmic action is used to treat ventricular arrhythmias occurring during anaesthesia.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Local anaesthetic pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 36",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 36 (\"Cardiac arrhythmia anesthesia:Lidocaine\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q37",
+      "id": "QST-ASUCNS3P2-18-Q37",
+      "page": "3",
+      "title": "Which antiepileptic causes dilutional hyponatraemia through an SIADH-like effect?",
+      "question": "Which antiepileptic drug causes dilutional hyponatraemia through a syndrome of inappropriate antidiuretic hormone secretion (SIADH)-like effect?",
+      "options": {
+        "A": "Carbamazepine",
+        "B": "Valproate",
+        "C": "Phenytoin",
+        "D": "Levetiracetam"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Carbamazepine characteristically produces an SIADH-like effect, potentiating or directly stimulating antidiuretic hormone action at the renal collecting duct, causing excessive free-water retention and dilutional hyponatraemia — a well-recognised, dose-related adverse effect needing periodic sodium monitoring. This dose-related effect requires periodic serum sodium monitoring during carbamazepine therapy, particularly in elderly patients.",
+        "B": "Incorrect. Valproate's characteristic adverse effects are teratogenicity and a PCOS-like syndrome, not SIADH-driven hyponatraemia.",
+        "C": "Incorrect. Phenytoin's characteristic adverse effect is gingival hyperplasia (along with hirsutism and acne), not SIADH-driven hyponatraemia.",
+        "D": "Incorrect. Levetiracetam's characteristic adverse effects relate to behavioural/mood change, not SIADH-driven hyponatraemia."
+      },
+      "main_concept": "CON-NEU-DF01F2B9FECE08",
+      "concept_ids": [
+        "CON-NEU-DF01F2B9FECE08"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-CARBAMAZEPINE-CAUSES-DILUTIONAL-HYPONATRAEMIA-BY-INDUCING-A"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Antiepileptic adverse effects",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that carbamazepine causes dilutional hyponatraemia through an SIADH-like mechanism.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Antiepileptic adverse effects",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 37",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 37 (\"Dilutional hyponateremia :Carbamazepine\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q41",
+      "id": "QST-ASUCNS3P2-18-Q41",
+      "page": "4",
+      "title": "The categorical (dominant) hemisphere specialises in which type of processing?",
+      "question": "The categorical (dominant, usually left) cerebral hemisphere specialises in language and which other type of cognitive processing?",
+      "options": {
+        "A": "Mathematical (analytic, sequential) operations",
+        "B": "Facial recognition",
+        "C": "Spatial construction and drawing",
+        "D": "Musical and artistic perception"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The categorical (dominant) hemisphere specialises in sequential, analytic, rule-based processing, which encompasses both language and mathematical/calculation operations; damage to its parietal association cortex (e.g. angular gyrus) can impair calculation (acalculia) alongside language deficits, as in Gerstmann syndrome.",
+        "B": "Incorrect. Facial recognition is a function of the representational (non-dominant) hemisphere's holistic processing, not the categorical hemisphere.",
+        "C": "Incorrect. Spatial construction and drawing are representational (non-dominant) hemisphere functions.",
+        "D": "Incorrect. Musical and artistic perception are classically attributed to the representational (non-dominant) hemisphere, not the categorical hemisphere."
+      },
+      "main_concept": "CON-NEU-EFEE42973D7A01",
+      "concept_ids": [
+        "CON-NEU-EFEE42973D7A01"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-CATEGORICAL-DOMINANT-HEMISPHERE-SPECIALISES-IN-LANGUAGE"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Cerebral hemisphere lateralisation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the categorical (dominant) hemisphere specialises in mathematical/analytic operations, alongside language.",
+      "module_subject": "ASU-CNS-3 > Physiology > Cerebral hemisphere lateralisation",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 41",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 41 (\"Categorical hemisphere:Mathematical operations\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q42",
+      "id": "QST-ASUCNS3P2-18-Q42",
+      "page": "4",
+      "title": "A lower motor neuron (bulbar) lesion produces which type of dysarthria?",
+      "question": "A lower motor neuron lesion of the bulbar musculature (e.g. bulbar palsy) produces which type of dysarthria, characterised by weak, hypernasal speech?",
+      "options": {
+        "A": "Flaccid dysarthria",
+        "B": "Spastic dysarthria",
+        "C": "Ataxic dysarthria",
+        "D": "Hypokinetic dysarthria"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Flaccid dysarthria results from a lower motor neuron lesion of the speech musculature, producing weak, breathy, hypernasal speech because of weakness of the soft palate and pharyngeal muscles that fail to seal off the nasal cavity, distinct from the strained, harsh spastic pattern of an upper motor neuron lesion. This LMN, hypernasal, weak pattern contrasts with the strained, harsh quality of spastic dysarthria from an upper motor neuron lesion.",
+        "B": "Incorrect. Spastic dysarthria results from an upper motor neuron (pseudobulbar) lesion, producing a strained, harsh voice quality from hypertonic (not flaccid) muscles.",
+        "C": "Incorrect. Ataxic dysarthria results from cerebellar dysfunction, producing irregular, scanning speech, not the weak, hypernasal pattern of an LMN lesion.",
+        "D": "Incorrect. Hypokinetic dysarthria results from basal ganglia dysfunction (e.g. Parkinson disease), producing soft, monotone speech, not the LMN, hypernasal pattern described."
+      },
+      "main_concept": "CON-NEU-3A47C6E97E9878",
+      "concept_ids": [
+        "CON-NEU-3A47C6E97E9878"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-FLACCID-DYSARTHRIA-FROM-A-LOWER-MOTOR-NEURON-LESION"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Motor pathway organisation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that flaccid (LMN) dysarthria produces weak, hypernasal speech, distinct from spastic (UMN) dysarthria.",
+      "module_subject": "ASU-CNS-3 > Physiology > Motor pathway organisation",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 42",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 42 (\"Flaccid dysarthria:weak nasal speech\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q43",
+      "id": "QST-ASUCNS3P2-18-Q43",
+      "page": "4",
+      "title": "Which of the following is NOT a core limbic system function?",
+      "question": "Which of the following is NOT considered a core function of the limbic system?",
+      "options": {
+        "A": "Temperature regulation",
+        "B": "Emotion",
+        "C": "Memory formation",
+        "D": "Motivation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Temperature regulation is chiefly a hypothalamic homeostatic function (preoptic/anterior region for heat loss, posterior region for heat conservation), not one of the limbic system's core emotion/memory/motivation roles, even though the hypothalamus is anatomically linked to the broader limbic circuitry. While the hypothalamus is anatomically linked to the broader limbic circuitry, thermoregulation itself is attributed to its dedicated thermoregulatory centres.",
+        "B": "Incorrect. Emotion is a core, defining function of the limbic system (amygdala, cingulate gyrus and connected structures).",
+        "C": "Incorrect. Memory formation is a core limbic function, chiefly mediated by the hippocampus and Papez circuit.",
+        "D": "Incorrect. Motivation and drive states are core limbic functions, mediated by structures such as the septal area and connected reward/punishment circuitry."
+      },
+      "main_concept": "CON-NEU-15063BD46D3948",
+      "concept_ids": [
+        "CON-NEU-15063BD46D3948"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-TEMPERATURE-REGULATION-IS-NOT-A-CORE-LIMBIC-SYSTEM-FUNCTION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Limbic system and emotion",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that temperature regulation is a hypothalamic homeostatic function, not a core limbic system (emotion/memory) function.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Limbic system and emotion",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 43",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 43 (\"Function not related to Limbic:Temperature regulation\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q44",
+      "id": "QST-ASUCNS3P2-18-Q44",
+      "page": "4",
+      "title": "Stimulation of which hypothalamic region produces aversive, punishment-type responses?",
+      "question": "Electrical self-stimulation studies show that stimulation of which hypothalamic region produces aversive, fear-like (\"punishment-centre\") behavioural responses, in contrast to the lateral hypothalamic reward system?",
+      "options": {
+        "A": "The periventricular (medial hypothalamic) region",
+        "B": "The lateral hypothalamus",
+        "C": "The medial forebrain bundle",
+        "D": "The supraoptic nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Stimulation of the periventricular zone and medial hypothalamic region produces avoidance, fear and aversive (\"punishment-centre\") responses, in classic contrast to the lateral hypothalamus/medial forebrain bundle, whose stimulation produces pleasurable, reward-seeking self-stimulation behaviour. This punishment system is thought to interact with the amygdala's fear-related circuitry, part of the broader limbic apparatus.",
+        "B": "Incorrect. The lateral hypothalamus is part of the reward (pleasure), not punishment, system, the opposite of what the question describes.",
+        "C": "Incorrect. The medial forebrain bundle is the pathway through which the lateral hypothalamic reward system is stimulated, again the opposite (reward, not punishment) system.",
+        "D": "Incorrect. The supraoptic nucleus produces antidiuretic hormone and oxytocin; it is not the hypothalamic punishment centre described."
+      },
+      "main_concept": "CON-NEU-71438F5C488527",
+      "concept_ids": [
+        "CON-NEU-71438F5C488527"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-STIMULATION-OF-THE-PERIVENTRICULAR-MEDIAL-HYPOTHALAMIC"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Limbic system and emotion",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the periventricular (medial) hypothalamic region mediates aversive, punishment-type responses, contrasted with the lateral hypothalamic reward system.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Limbic system and emotion",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 44",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 44 (\"Periventricular nucleus :Aversion (Punishment)\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q45",
+      "id": "QST-ASUCNS3P2-18-Q45",
+      "page": "4",
+      "title": "Which memory system stores general facts and \"basic knowledge\" about the world?",
+      "question": "Which declarative long-term memory system stores general facts and \"basic knowledge\" about the world, without reference to when or where it was learned?",
+      "options": {
+        "A": "Semantic memory",
+        "B": "Episodic memory",
+        "C": "Procedural memory",
+        "D": "Working memory"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Semantic memory is the declarative long-term memory store for general facts and \"basic knowledge\" (e.g. that Cairo is the capital of Egypt), held without reference to a specific personal learning event, and is relatively resistant to normal ageing and to some amnesias that preferentially disrupt episodic recall.",
+        "B": "Incorrect. Episodic memory stores personally experienced events tied to a specific time and place, distinct from general factual knowledge.",
+        "C": "Incorrect. Procedural memory stores learned motor skills and habits (e.g. riding a bicycle), a non-declarative memory system, not general factual knowledge.",
+        "D": "Incorrect. Working memory is a short-term, limited-capacity system for actively holding and manipulating information, not the long-term store of general knowledge."
+      },
+      "main_concept": "CON-NEU-5B06E8AEE5F822",
+      "concept_ids": [
+        "CON-NEU-5B06E8AEE5F822"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-SEMANTIC-MEMORY-IS-THE-LONG-TERM-MEMORY-SYSTEM-FOR-GENERAL"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Memory systems",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that semantic memory is the declarative memory system for general factual (\"basic\") knowledge, distinct from episodic memory.",
+      "module_subject": "ASU-CNS-3 > Physiology > Memory systems",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 45",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 45 (\"Basic knowledge:Semantic memory\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q46",
+      "id": "QST-ASUCNS3P2-18-Q46",
+      "page": "4",
+      "title": "What is the term for the loss of memories formed before a brain injury?",
+      "question": "The loss of memories that were formed before a brain injury (e.g. head trauma), with a temporal gradient sparing more remote memories, is called what?",
+      "options": {
+        "A": "Retrograde amnesia",
+        "B": "Anterograde amnesia",
+        "C": "Transient global amnesia",
+        "D": "Dissociative amnesia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Retrograde amnesia is the inability to recall memories formed before the injury, reflecting disruption of previously consolidated (or still-consolidating) memory traces, and classically shows a temporal gradient in which more remote memories are better preserved than memories from just before the injury. Many amnestic syndromes after significant head trauma in fact produce a mixed picture with both retrograde and anterograde components.",
+        "B": "Incorrect. Anterograde amnesia is the inability to form new memories after the injury, reflecting failure of ongoing consolidation rather than loss of pre-injury memories.",
+        "C": "Incorrect. Transient global amnesia is a distinct, self-limited clinical syndrome of sudden, temporary anterograde (and some retrograde) amnesia, not the general term for pre-injury memory loss.",
+        "D": "Incorrect. Dissociative amnesia is a psychiatric condition related to psychological trauma, not the physical-injury-related loss of pre-injury memories described."
+      },
+      "main_concept": "CON-NEU-EE2FB83271F9DD",
+      "concept_ids": [
+        "CON-NEU-EE2FB83271F9DD"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-RETROGRADE-AMNESIA-IS-THE-LOSS-OF-MEMORIES-FORMED-BEFORE"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Memory systems",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that retrograde amnesia is the loss of memories formed before an injury, distinct from anterograde amnesia.",
+      "module_subject": "ASU-CNS-3 > Physiology > Memory systems",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 46",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 46 (\"Injury then lost memory: Retrograde amnesia\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q48",
+      "id": "QST-ASUCNS3P2-18-Q48",
+      "page": "4",
+      "title": "Which antidepressant, distinct in mechanism from SSRIs such as sertraline, is a NaSSA?",
+      "question": "Which antidepressant works as a noradrenergic and specific serotonergic antidepressant (NaSSA), by alpha-2 autoreceptor antagonism and 5-HT2/5-HT3 blockade, distinct from SSRIs such as sertraline?",
+      "options": {
+        "A": "Mirtazapine",
+        "B": "Fluoxetine",
+        "C": "Sertraline",
+        "D": "Citalopram"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Mirtazapine is a NaSSA that antagonises presynaptic alpha-2 adrenergic autoreceptors (increasing noradrenaline and serotonin release) and blocks postsynaptic 5-HT2/5-HT3 receptors, a mechanism entirely distinct from SSRI serotonin-reuptake inhibition; its sedating, appetite-stimulating profile suits depressed patients with insomnia or weight loss. Its sedating, appetite-stimulating profile via histamine H1 antagonism suits depressed patients with insomnia or weight loss.",
+        "B": "Incorrect. Fluoxetine is an SSRI, working by serotonin reuptake inhibition, not the NaSSA mechanism described.",
+        "C": "Incorrect. Sertraline is itself the SSRI named in the question as the comparator, not the non-SSRI answer being sought.",
+        "D": "Incorrect. Citalopram is also an SSRI, sharing sertraline's reuptake-inhibition mechanism rather than the distinct NaSSA mechanism described."
+      },
+      "main_concept": "CON-NEU-BB0D7CD7131450",
+      "concept_ids": [
+        "CON-NEU-BB0D7CD7131450"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-MIRTAZAPINE-IS-AN-ANTIDEPRESSANT-WITH-A-DISTINCT-NASSA"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Non-psychiatric uses of antidepressants",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify mirtazapine as a non-SSRI (NaSSA) antidepressant used as an alternative to SSRIs such as sertraline.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Antidepressant pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 48",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 48 (\"Antidepressants other than sertaline (SSRI): Mertazapine\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q49",
+      "id": "QST-ASUCNS3P2-18-Q49",
+      "page": "4",
+      "title": "Which antidepressant is also approved for smoking cessation?",
+      "question": "Which norepinephrine-dopamine reuptake inhibitor (NDRI) antidepressant is also approved, under a separate brand, for smoking cessation?",
+      "options": {
+        "A": "Bupropion",
+        "B": "Varenicline",
+        "C": "Nortriptyline",
+        "D": "Venlafaxine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Bupropion, an NDRI antidepressant, is separately approved (marketed as Zyban for this indication) for smoking cessation, where it reduces nicotine craving and withdrawal, likely through dopaminergic/noradrenergic activity mimicking some of nicotine's reward-pathway effects; it lowers seizure threshold, so it is used cautiously in patients with a seizure history. It carries a lower risk of sexual dysfunction and weight gain than SSRIs, though it lowers seizure threshold and is used cautiously in patients with a seizure history.",
+        "B": "Incorrect. Varenicline is also used for smoking cessation but works as a partial nicotinic receptor agonist and is not an antidepressant.",
+        "C": "Incorrect. Nortriptyline is a tricyclic antidepressant without an approved smoking-cessation indication comparable to bupropion's.",
+        "D": "Incorrect. Venlafaxine is an SNRI antidepressant without the dual antidepressant/smoking-cessation approval that distinguishes bupropion."
+      },
+      "main_concept": "CON-NEU-BE1B1ABAA6E17D",
+      "concept_ids": [
+        "CON-NEU-BE1B1ABAA6E17D"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-BUPROPION-AN-ANTIDEPRESSANT-IS-ALSO-APPROVED-FOR-SMOKING"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Addiction pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that bupropion is used for smoking cessation, in addition to its antidepressant indication.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Addiction pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 49",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 49 (\"Antidepressants +Smoking Cessation:Bupropion\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q50",
+      "id": "QST-ASUCNS3P2-18-Q50",
+      "page": "4",
+      "title": "The sensory (dorsal horn) part of the developing spinal cord arises from which part of the neural tube?",
+      "question": "Embryologically, the sensory (dorsal horn, afferent) part of the developing spinal cord arises from which part of the neural tube?",
+      "options": {
+        "A": "The alar lamina",
+        "B": "The basal lamina",
+        "C": "The floor plate",
+        "D": "The neural crest alone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The alar lamina, the dorsal division of the neural tube (separated from the ventral basal lamina by the sulcus limitans), gives rise to the sensory (afferent) dorsal horn neurons of the mature spinal cord, establishing the adult dorsal-sensory organisation. This dorsal-sensory, ventral-motor organisation established here is the developmental basis for the adult spinal cord's horn arrangement.",
+        "B": "Incorrect. The basal lamina, the ventral division, gives rise to the motor (efferent) ventral horn neurons, not the sensory dorsal horn.",
+        "C": "Incorrect. The floor plate is a midline signalling structure at the ventral neural tube, not the source of sensory dorsal horn neurons.",
+        "D": "Incorrect. While neural crest contributes to dorsal root ganglion (peripheral sensory neuron) cell bodies, the intrinsic dorsal horn neurons of the spinal cord itself arise from the alar lamina of the neural tube."
+      },
+      "main_concept": "CON-NEU-3D77529D7C1369",
+      "concept_ids": [
+        "CON-NEU-3D77529D7C1369"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-SENSORY-DORSAL-HORN-PART-OF-THE-DEVELOPING-SPINAL-CORD"
+      ],
+      "topic": "Embryology",
+      "subtopic": "Spinal cord development",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the sensory (dorsal horn) part of the spinal cord derives embryologically from the alar lamina of the neural tube.",
+      "module_subject": "ASU-CNS-3 > Embryology > Spinal cord development",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 50",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 50 (\"Sensory part of spinal cord is made from Alar lamina (embryology)\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q51",
+      "id": "QST-ASUCNS3P2-18-Q51",
+      "page": "4",
+      "title": "CSF is absorbed into venous blood through which structure?",
+      "question": "Cerebrospinal fluid is reabsorbed into the venous blood of the dural sinuses (chiefly the superior sagittal sinus) through which structure?",
+      "options": {
+        "A": "The arachnoid villi",
+        "B": "The choroid plexus",
+        "C": "The ependymal lining",
+        "D": "The dural border cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. CSF is reabsorbed into the venous circulation through arachnoid villi (and their larger clusters, arachnoid granulations), finger-like projections of the arachnoid mater into the venous sinuses (chiefly superior sagittal), which act as one-way pressure-sensitive valves; their obstruction is a classic cause of communicating hydrocephalus. These villi act as one-way pressure-sensitive valves, allowing CSF into venous blood while preventing back-flow.",
+        "B": "Incorrect. The choroid plexus is the site of CSF production, not absorption — the opposite end of CSF circulation.",
+        "C": "Incorrect. The ependymal lining lines the ventricles and central canal but is not the specific site of CSF venous absorption.",
+        "D": "Incorrect. Dural border cells are a layer within the dura mater, not the structure through which CSF drains into venous blood."
+      },
+      "main_concept": "CON-NEU-34260DBEECC746",
+      "concept_ids": [
+        "CON-NEU-34260DBEECC746"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-CEREBROSPINAL-FLUID-IS-ABSORBED-INTO-THE-VENOUS-BLOOD-OF"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Ventricular system",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that CSF drains into the venous sinuses (chiefly the superior sagittal sinus) through the arachnoid villi.",
+      "module_subject": "ASU-CNS-3 > Anatomy > CSF circulation",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 51",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 51 (\"CSF is drained in blood through:Arachnoid villi\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q52",
+      "id": "QST-ASUCNS3P2-18-Q52",
+      "page": "4-5",
+      "title": "Tetanus toxin (tetanospasmin) produces spastic paralysis by blocking release of which neurotransmitters?",
+      "question": "Tetanus toxin (tetanospasmin) cleaves synaptobrevin in spinal inhibitory interneurons, blocking release of which neurotransmitters and thereby producing spastic (not flaccid) paralysis?",
+      "options": {
+        "A": "Glycine and GABA",
+        "B": "Acetylcholine at the neuromuscular junction",
+        "C": "Glutamate and aspartate",
+        "D": "Dopamine and serotonin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Tetanospasmin travels retrogradely into inhibitory interneurons (including Renshaw cells) and cleaves synaptobrevin, blocking release of the inhibitory neurotransmitters glycine and GABA; loss of this inhibitory restraint on motor neurons causes uncontrolled, simultaneous agonist/antagonist contraction — the sustained spasms of tetanus. This mechanism mirrors botulinum toxin's cleavage of similar vesicle-fusion proteins, though botulinum instead blocks excitatory transmission at the neuromuscular junction, producing flaccid rather than spastic paralysis.",
+        "B": "Incorrect. Blocking acetylcholine release at the neuromuscular junction is botulinum toxin's mechanism, producing flaccid (not spastic) paralysis, the opposite clinical picture from tetanus.",
+        "C": "Incorrect. Glutamate and aspartate are excitatory neurotransmitters; tetanus toxin's mechanism specifically blocks inhibitory transmitter release, not excitatory transmitters.",
+        "D": "Incorrect. Dopamine and serotonin are not the neurotransmitters whose blockade explains tetanus's spinal inhibitory-synapse mechanism."
+      },
+      "main_concept": "CON-NEU-9DD86B25AB5D19",
+      "concept_ids": [
+        "CON-NEU-9DD86B25AB5D19"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-TETANUS-TOXIN-TETANOSPASMIN-BLOCKS-THE-RELEASE-OF"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Muscle and reflex physiology",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that tetanus toxin blocks release of the inhibitory neurotransmitters glycine and GABA at spinal inhibitory synapses.",
+      "module_subject": "ASU-CNS-3 > Physiology > Neurotoxin mechanisms",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 52",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 52 (\"Clostridia Tetanai mechanism: Block inhibitory synapse\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q53",
+      "id": "QST-ASUCNS3P2-18-Q53",
+      "page": "5",
+      "title": "What does post-exposure rabies prophylaxis require in a previously unvaccinated person?",
+      "question": "A previously unvaccinated person exposed to a potentially rabid animal requires which combination for post-exposure prophylaxis?",
+      "options": {
+        "A": "Both rabies immunoglobulin and rabies vaccine",
+        "B": "Rabies vaccine alone, no immunoglobulin",
+        "C": "Rabies immunoglobulin alone, no vaccine",
+        "D": "Oral antiviral therapy alone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. An unvaccinated person needs both passive immunisation with rabies immunoglobulin (infiltrated around the wound and given IM, providing immediate neutralising antibody) and active immunisation with a full vaccine course (stimulating the person's own long-lasting antibody response); rabies encephalitis is essentially always fatal once symptomatic, making this combined, time-sensitive prophylaxis critical. Rabies immunoglobulin is specifically omitted in previously vaccinated individuals, who only require booster vaccine doses.",
+        "B": "Incorrect. Vaccine alone, without immunoglobulin, is the protocol for a previously vaccinated person, not an unvaccinated one.",
+        "C": "Incorrect. Immunoglobulin alone would provide only short-term passive protection without stimulating the person's own durable antibody response from the vaccine course.",
+        "D": "Incorrect. There is no oral antiviral treatment for rabies exposure; prophylaxis relies on immunoglobulin and vaccine, not oral antivirals."
+      },
+      "main_concept": "CON-NEU-6F137F49F495FE",
+      "concept_ids": [
+        "CON-NEU-6F137F49F495FE"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-AN-UNVACCINATED-PERSON-EXPOSED-TO-RABIES-REQUIRES-BOTH"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Meningitis chemoprophylaxis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that an unvaccinated person exposed to rabies needs both rabies immunoglobulin and rabies vaccine.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > CNS infection pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 53",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 53 (\"Rabies+UnVaccinated= Rabies immunoglobulins &vaccine\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q54",
+      "id": "QST-ASUCNS3P2-18-Q54",
+      "page": "5",
+      "title": "Acute attacks of multiple sclerosis are treated with which drug?",
+      "question": "An acute relapse of multiple sclerosis is treated with a short course of which drug, to hasten recovery from the inflammatory episode?",
+      "options": {
+        "A": "High-dose intravenous methylprednisolone",
+        "B": "Interferon-beta",
+        "C": "Natalizumab",
+        "D": "Oral prednisolone taper over months"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. An acute MS relapse is treated with a short course of high-dose IV methylprednisolone, a potent glucocorticoid that reduces the acute CNS inflammation and oedema underlying the new deficit, shortening the relapse's duration and severity, though it does not itself alter the long-term disease course. Because corticosteroids do not reverse the underlying demyelinating pathology, their role is specifically to hasten recovery from the acute episode.",
+        "B": "Incorrect. Interferon-beta is a disease-modifying therapy for long-term relapse prevention, not the acute-relapse treatment.",
+        "C": "Incorrect. Natalizumab is likewise a disease-modifying therapy for relapse prevention, not the acute-treatment agent.",
+        "D": "Incorrect. Acute MS relapse is treated with a short, high-dose IV course, not a prolonged oral prednisolone taper over months."
+      },
+      "main_concept": "CON-NEU-E5B67FF069A8DA",
+      "concept_ids": [
+        "CON-NEU-E5B67FF069A8DA"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-ACUTE-ATTACKS-OF-MULTIPLE-SCLEROSIS-ARE-TREATED-WITH-HIGH"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Dementia pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that acute attacks of multiple sclerosis are treated with high-dose IV methylprednisolone.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Demyelinating disease pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 54",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 54 (\"Acute Attacks of Multiple sclerosis:Methylpredinisone(IV)\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q56",
+      "id": "QST-ASUCNS3P2-18-Q56",
+      "page": "5",
+      "title": "Which drug is used for maintenance therapy of CNS cryptococcal infection after initial induction treatment?",
+      "question": "After induction treatment of cryptococcal meningitis with amphotericin B (plus flucytosine), which oral antifungal is used for long-term maintenance (suppressive) therapy?",
+      "options": {
+        "A": "Fluconazole",
+        "B": "Amphotericin B (continued IV)",
+        "C": "Voriconazole",
+        "D": "Nystatin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Following induction with amphotericin B plus flucytosine, oral fluconazole is used for long-term maintenance (suppressive) therapy of cryptococcal meningitis — well tolerated and CNS-penetrant enough for prolonged use — continued until immune recovery (e.g. sustained CD4 rise on antiretroviral therapy) to prevent relapse.",
+        "B": "Incorrect. Amphotericin B is the potent but toxic induction agent; it is not continued long-term for maintenance therapy because of its toxicity and IV-only administration.",
+        "C": "Incorrect. Voriconazole is not the standard maintenance agent for cryptococcal meningitis; fluconazole is the established oral maintenance choice.",
+        "D": "Incorrect. Nystatin is used for superficial mucocutaneous candidiasis and is not CNS-penetrant, making it unsuitable for cryptococcal meningitis maintenance."
+      },
+      "main_concept": "CON-NEU-1D2F1432B774F0",
+      "concept_ids": [
+        "CON-NEU-1D2F1432B774F0"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-FLUCONAZOLE-IS-USED-FOR-MAINTENANCE-SUPPRESSIVE-THERAPY-OF"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Meningitis chemoprophylaxis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that fluconazole is used for maintenance/suppressive therapy of CNS cryptococcal infection after amphotericin-based induction treatment.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > CNS infection pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 56",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 56 (\"Maintained drug for Fungal infection:Fluconazole\")"
+      },
+      "author_notes": "Printed key does not name the specific fungal infection; this question frames it as CNS cryptococcal meningitis maintenance therapy, the standard exam context for this fact."
+    },
+    {
+      "key": "paper2-2018-q61",
+      "id": "QST-ASUCNS3P2-18-Q61",
+      "page": "5",
+      "title": "Subdural haemorrhage results from tearing of which vessels?",
+      "question": "Subdural haemorrhage classically results from tearing of which vessels crossing the subdural space?",
+      "options": {
+        "A": "The bridging (cortical) veins",
+        "B": "The middle meningeal artery",
+        "C": "The internal carotid artery",
+        "D": "The great cerebral vein"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Bridging (cortical) veins cross the subdural space largely unsupported on their way to the dural venous sinuses; shearing forces during head trauma, especially rapid deceleration, tear them, producing subdural haemorrhage — elderly/alcoholic patients with cerebral atrophy stretching these veins are especially predisposed. Elderly and alcoholic patients, whose cerebral atrophy stretches these veins, are especially predisposed even after minor trauma.",
+        "B": "Incorrect. Tearing of the middle meningeal artery, typically after a temporal bone fracture, causes epidural (extradural), not subdural, haemorrhage.",
+        "C": "Incorrect. The internal carotid artery is not the vessel implicated in subdural haemorrhage's classic mechanism.",
+        "D": "Incorrect. The great cerebral vein is a deep venous structure; its involvement is not the classic mechanism of subdural haemorrhage, which involves the more superficial bridging veins."
+      },
+      "main_concept": "CON-NEU-8807C94729254A",
+      "concept_ids": [
+        "CON-NEU-8807C94729254A"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-SUBDURAL-HAEMORRHAGE-RESULTS-FROM-TEARING-OF-THE-BRIDGING"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous drainage of the head and neck",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that subdural haemorrhage results from tearing of the bridging veins crossing the subdural space.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Venous drainage of the head and neck",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 61",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 61 (\"Subdural hge: Tear of bridging veins\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q62",
+      "id": "QST-ASUCNS3P2-18-Q62",
+      "page": "5",
+      "title": "A patient with renal cell carcinoma and a positive family history should raise suspicion for which syndrome?",
+      "question": "A patient presenting with renal cell carcinoma and a positive family history should raise suspicion for which autosomal dominant syndrome, which also causes CNS haemangioblastomas?",
+      "options": {
+        "A": "Von Hippel-Lindau disease",
+        "B": "Neurofibromatosis type 1",
+        "C": "Tuberous sclerosis",
+        "D": "Li-Fraumeni syndrome"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Von Hippel-Lindau disease is an autosomal dominant tumour-suppressor syndrome (VHL gene, chromosome 3p) predisposing to clear-cell renal cell carcinoma together with CNS/retinal haemangioblastomas and phaeochromocytoma; renal cell carcinoma with a positive family history should prompt screening for these other manifestations rather than treating it as an isolated sporadic tumour. Because of its autosomal dominant inheritance, a positive family history should prompt screening for the syndrome's other manifestations.",
+        "B": "Incorrect. Neurofibromatosis type 1 is associated with neurofibromas, optic gliomas and café-au-lait spots, not the classic renal cell carcinoma/haemangioblastoma pairing of VHL.",
+        "C": "Incorrect. Tuberous sclerosis is associated with renal angiomyolipomas (not renal cell carcinoma), cortical tubers and cardiac rhabdomyomas.",
+        "D": "Incorrect. Li-Fraumeni syndrome (TP53 mutation) predisposes to sarcomas, breast cancer and other malignancies, not the specific renal cell carcinoma/CNS haemangioblastoma pairing of VHL."
+      },
+      "main_concept": "CON-NEU-F04DFD1621EA2F",
+      "concept_ids": [
+        "CON-NEU-F04DFD1621EA2F"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-VON-HIPPEL-LINDAU-DISEASE-AN-AUTOSOMAL-DOMINANT-SYNDROME"
+      ],
+      "topic": "Pathology",
+      "subtopic": "CNS neoplasia",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that von Hippel-Lindau disease, an autosomal dominant syndrome causing CNS haemangioblastomas, is associated with renal cell carcinoma, especially with a positive family history.",
+      "module_subject": "ASU-CNS-3 > Pathology > CNS neoplasia",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 62",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 62 (\"Renal cell carcinoma +Family history:VHL von hippel ds\")"
+      },
+      "author_notes": "Printed item does not itself name a CNS lesion; this question frames the fact through VHL's defining CNS haemangioblastoma association, the standard reason this item appears in a CNS paper."
+    },
+    {
+      "key": "paper2-2018-q65",
+      "id": "QST-ASUCNS3P2-18-Q65",
+      "page": "5",
+      "title": "Which antipsychotic carries a risk of life-threatening agranulocytosis?",
+      "question": "Which atypical antipsychotic, reserved for treatment-resistant schizophrenia, carries a risk of life-threatening agranulocytosis requiring regular blood count monitoring?",
+      "options": {
+        "A": "Clozapine",
+        "B": "Risperidone",
+        "C": "Olanzapine",
+        "D": "Haloperidol"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Clozapine, reserved for treatment-resistant schizophrenia because of its superior efficacy, carries a well-known risk of agranulocytosis (severe neutropenia), mandating regular absolute neutrophil count monitoring with dose interruption/discontinuation if counts fall below defined thresholds; this risk is why it is not first-line despite strong efficacy. The exact mechanism is thought to involve toxic or immune-mediated injury to bone marrow granulocyte precursors.",
+        "B": "Incorrect. Risperidone does not carry the defining agranulocytosis risk that mandates the specific monitoring protocol required for clozapine.",
+        "C": "Incorrect. Olanzapine, another atypical antipsychotic, is not the agent classically singled out for agranulocytosis risk and mandatory blood count monitoring.",
+        "D": "Incorrect. Haloperidol, a typical antipsychotic, is more associated with extrapyramidal side effects than with the defining agranulocytosis risk of clozapine."
+      },
+      "main_concept": "CON-NEU-7DE2C9647BEF2A",
+      "concept_ids": [
+        "CON-NEU-7DE2C9647BEF2A"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-CLOZAPINE-AN-ATYPICAL-ANTIPSYCHOTIC-CARRIES-A-RISK-OF-LIFE"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Antipsychotic pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that clozapine carries a risk of agranulocytosis, requiring regular neutrophil count monitoring.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Antipsychotic pharmacology",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 65",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 65 (\"Agranulocytosis:Clonazpine (antipsychotic)\")"
+      },
+      "author_notes": "Printed key spells the drug \"Clonazpine\"; agranulocytosis is the classic adverse effect of clozapine (an antipsychotic), not clonazepam (a benzodiazepine) — the source's own \"(antipsychotic)\" annotation confirms clozapine was intended."
+    },
+    {
+      "key": "paper2-2018-q67",
+      "id": "QST-ASUCNS3P2-18-Q67",
+      "page": "6",
+      "title": "Which cranial nerve supplies motor innervation to the muscles of the tongue?",
+      "question": "Which cranial nerve supplies motor innervation to nearly all the intrinsic and extrinsic muscles of the tongue, with palatoglossus as the single exception?",
+      "options": {
+        "A": "The hypoglossal nerve (CN XII)",
+        "B": "The glossopharyngeal nerve (CN IX)",
+        "C": "The vagus nerve (CN X)",
+        "D": "The facial nerve (CN VII)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The hypoglossal nerve (CN XII) supplies motor innervation to nearly all intrinsic and extrinsic tongue muscles (genioglossus, hyoglossus, styloglossus and intrinsic muscles); the single exception is palatoglossus, supplied instead by the vagus via the pharyngeal plexus. A unilateral hypoglossal lesion causes ipsilateral tongue weakness with deviation toward the lesioned side on protrusion.",
+        "B": "Incorrect. The glossopharyngeal nerve supplies taste and general sensation to the posterior third of the tongue and motor to stylopharyngeus, not the tongue's own musculature.",
+        "C": "Incorrect. The vagus nerve supplies only palatoglossus among the tongue muscles (via the pharyngeal plexus), not the majority of tongue musculature.",
+        "D": "Incorrect. The facial nerve supplies taste to the anterior two-thirds of the tongue (via chorda tympani) and facial expression muscles, not the tongue's intrinsic/extrinsic musculature."
+      },
+      "main_concept": "CON-NEU-39100249140F8C",
+      "concept_ids": [
+        "CON-NEU-39100249140F8C"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-HYPOGLOSSAL-NERVE-SUPPLIES-MOTOR-INNERVATION-TO-THE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cranial nerve motor supply",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the hypoglossal nerve supplies motor innervation to the muscles of the tongue, with palatoglossus as the exception.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Cranial nerve motor supply",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 67",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 67 (\"Hypoglossal nerves supply tongue ms\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q69",
+      "id": "QST-ASUCNS3P2-18-Q69",
+      "page": "6",
+      "title": "Which nerve carries preganglionic parasympathetic fibres to the submandibular ganglion?",
+      "question": "Which branch of the facial nerve joins the lingual nerve and carries preganglionic parasympathetic fibres to the submandibular ganglion, supplying the submandibular and sublingual glands?",
+      "options": {
+        "A": "The chorda tympani",
+        "B": "The greater petrosal nerve",
+        "C": "The lesser petrosal nerve",
+        "D": "The auriculotemporal nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The chorda tympani, a branch of the facial nerve carrying preganglionic parasympathetic fibres from the superior salivatory nucleus, joins the lingual nerve and travels with it to the submandibular ganglion, where it synapses; postganglionic fibres then supply the submandibular and sublingual glands. It also carries taste fibres from the anterior two-thirds of the tongue.",
+        "B": "Incorrect. The greater petrosal nerve carries preganglionic parasympathetic fibres to the pterygopalatine ganglion, supplying the lacrimal and nasal glands, not the submandibular ganglion.",
+        "C": "Incorrect. The lesser petrosal nerve carries preganglionic parasympathetic fibres (from the glossopharyngeal, inferior salivatory nucleus) to the otic ganglion, supplying the parotid gland, not the submandibular ganglion.",
+        "D": "Incorrect. The auriculotemporal nerve carries postganglionic parasympathetic fibres from the otic ganglion to the parotid gland; it is not the nerve reaching the submandibular ganglion."
+      },
+      "main_concept": "CON-NEU-D6E9C31386D6B0",
+      "concept_ids": [
+        "CON-NEU-D6E9C31386D6B0"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-CHORDA-TYMPANI-CARRIES-PREGANGLIONIC-PARASYMPATHETIC"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Parasympathetic pathways of the head",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the chorda tympani carries preganglionic parasympathetic fibres to the submandibular ganglion, supplying the submandibular and sublingual glands.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Parasympathetic pathways of the head",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 69",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 69 (\"Preganglionic to submandibular gland: Chorda tympanai\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q72",
+      "id": "QST-ASUCNS3P2-18-Q72",
+      "page": "6",
+      "title": "Which glial cell type functions as the resident macrophage of the CNS?",
+      "question": "Which neuroectoderm-independent (mesodermal, monocyte-lineage) glial cell type functions as the resident phagocytic macrophage of the CNS?",
+      "options": {
+        "A": "Microglia",
+        "B": "Astrocytes",
+        "C": "Oligodendrocytes",
+        "D": "Ependymal cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Microglia derive from mesodermal yolk-sac myeloid progenitors, giving them a monocyte/macrophage lineage distinct from the other, neuroectoderm-derived glia; in their resting (ramified) state they survey the CNS, and on injury or infection they become phagocytic, clearing debris and pathogens and mounting an immune response. In their resting (ramified) state they continually survey the CNS parenchyma before becoming activated by injury or infection.",
+        "B": "Incorrect. Astrocytes are neuroectoderm-derived cells providing structural support, blood-brain barrier maintenance and metabolic support to neurons, not macrophage-lineage phagocytes.",
+        "C": "Incorrect. Oligodendrocytes are neuroectoderm-derived cells that myelinate CNS axons, not the CNS's resident macrophages.",
+        "D": "Incorrect. Ependymal cells are neuroectoderm-derived cells lining the ventricles, involved in CSF-brain exchange, not phagocytic immune surveillance."
+      },
+      "main_concept": "CON-NEU-C138DA128EB7AD",
+      "concept_ids": [
+        "CON-NEU-C138DA128EB7AD"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-MICROGLIA-ARE-THE-RESIDENT-MACROPHAGES-OF-THE-CENTRAL"
+      ],
+      "topic": "Histology",
+      "subtopic": "Neuroglia and blood-brain barrier",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that microglia are the CNS-resident macrophages, functionally and developmentally distinct from the neuroectoderm-derived glia.",
+      "module_subject": "ASU-CNS-3 > Histology > Neuroglia and blood-brain barrier",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 72",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 72 (\"Microglia functionally as macrophages\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q73",
+      "id": "QST-ASUCNS3P2-18-Q73",
+      "page": "6",
+      "title": "The anterior nucleus of the thalamus receives input from which structure, via the mammillothalamic tract?",
+      "question": "As part of the Papez circuit, the anterior nucleus of the thalamus receives a major direct input via the mammillothalamic tract from which structure?",
+      "options": {
+        "A": "The mammillary bodies",
+        "B": "The hippocampus directly",
+        "C": "The amygdala",
+        "D": "The septal nuclei"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The anterior nucleus of the thalamus receives a major direct input from the mammillary bodies of the hypothalamus via the mammillothalamic tract (tract of Vicq d'Azyr), one link of the Papez circuit; the anterior nucleus then projects onward to the cingulate gyrus. Lesions here (e.g. in Wernicke-Korsakoff syndrome, which damages the mammillary bodies) disrupt this relay and contribute to anterograde amnesia.",
+        "B": "Incorrect. The hippocampus connects to the mammillary bodies via the fornix, not directly to the anterior thalamic nucleus; the mammillothalamic tract is a separate, later link in the circuit.",
+        "C": "Incorrect. The amygdala connects to the hypothalamus and septal area chiefly via the stria terminalis, not via the mammillothalamic tract to the anterior thalamic nucleus.",
+        "D": "Incorrect. The septal nuclei are connected to the hippocampus and hypothalamus via the fornix and other pathways, not via the mammillothalamic tract to the anterior thalamic nucleus."
+      },
+      "main_concept": "CON-NEU-4C4E8F5FE9452A",
+      "concept_ids": [
+        "CON-NEU-4C4E8F5FE9452A"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P2-18-THE-ANTERIOR-NUCLEUS-OF-THE-THALAMUS-IS-CONNECTED-TO-THE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Limbic system and emotion",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the anterior thalamic nucleus receives input from the mammillary bodies via the mammillothalamic tract, as part of the Papez circuit.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Limbic system and emotion",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, item 73",
+        "asu": "EOM - CNS paper 2 2018.pdf, item 73 (\"Anterior nucleus of thalamus connected with Mammillary Bodies\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper2-2018-q14",
+      "hold": "duplicate of this lane's own existing concept CON-NEU-113 (final2024-mcq batch) \"The Edinger-Westphal nucleus is a general visceral efferent (GVE) column nucleus\" — item 14 (\"Nucleus GVE at midbrain:Edenger wesphal nucleus\") restates the identical fact"
+    },
+    {
+      "key": "paper2-2018-q17",
+      "hold": "ambiguous printed key — item 17 (\"Muscle weakness and loss of sensation: oligodendrocytes\") does not correspond to a coherent, standard teaching point (oligodendrocytes are myelinating glia, not a cause of weakness/sensory loss on their own); held for Omar/source verification rather than guessed at"
+    },
+    {
+      "key": "paper2-2018-q22",
+      "hold": "cross-paper duplicate of this lane's own cluster 1 anatomy concept (\"Occlusion of the posterior inferior cerebellar artery (PICA) produces lateral medullary (Wallenberg) syndrome, with contralateral loss of pain and temperature over the body\") — item 22 (\"Post inf cerebellar PICA lesion :contralateral loss of pain and temperature\") restates the identical fact"
+    },
+    {
+      "key": "paper2-2018-q24",
+      "hold": "duplicate of this lane's own existing concept (\"The cerebral aqueduct (of Sylvius) is the narrow midbrain channel connecting the third and fourth ventricles\") — item 24 (\"Aqueduct of Sylvius from 3rd to 4th ventricle\") restates the identical fact"
+    },
+    {
+      "key": "paper2-2018-q29",
+      "hold": "ambiguous printed key, student-flagged in the source itself (\"مش متاكدة منهم\" / \"not sure about these\", referencing items 29 and 31) — item 29 (\"Amygdaloid nucleus :pleasure\") is not a standard, confidently citable claim (the classic \"pleasure centre\" is the septal area/nucleus accumbens, not the amygdala, which is more classically linked to fear/aggression); held for Omar/source verification rather than authored as printed"
+    },
+    {
+      "key": "paper2-2018-q31",
+      "hold": "ambiguous printed key, student-flagged in the source itself (\"مش متاكدة منهم\" / \"not sure about these\", referencing items 29 and 31) — item 31 (\"Sleep not related to : muscle tone\") contradicts standard sleep physiology (REM sleep is classically characterised by skeletal muscle atonia, i.e. sleep IS closely related to muscle tone); held for Omar/source verification rather than authored as a medically inaccurate fact"
+    },
+    {
+      "key": "paper2-2018-q38",
+      "hold": "duplicate of this lane's own existing concept (\"Phenytoin is not recommended for females of reproductive age because of hirsutism, acne and gingival hyperplasia\") — item 38 (\"Gingival hyperplasia:Phenytoin\") restates the identical fact"
+    },
+    {
+      "key": "paper2-2018-q39",
+      "hold": "duplicate-adjacent to this lane's own existing concept (\"Amitriptyline is used for migraine prophylaxis and also improves insomnia, unlike propranolol\") which already names propranolol as the comparator migraine-prophylaxis agent — item 39 (\"Migraine prophylaxis: Propranolol\") restates the same embedded fact rather than a new one"
+    },
+    {
+      "key": "paper2-2018-q40",
+      "hold": "duplicate of this lane's own existing concept (\"In the internal capsule, corticospinal fibres for the upper limb run in the anterior limb, the lower limb in the posterior limb, and the face at the genu\") which already states face fibres run at the genu — item 40 (\"CorticoNUclear tract:GeNU of internal capsule\") restates the same fact"
+    },
+    {
+      "key": "paper2-2018-q47",
+      "hold": "internally disputed printed key, flagged by the source's own students (\"كان عليها خلاف\" / \"there was disagreement about this\") — item 47 (\"Alzheimer Ds: Male with Down syndrome//Muscle weakness\") combines two candidate answers without a clear resolution; held for Omar/source verification rather than guessed at"
+    },
+    {
+      "key": "paper2-2018-q66",
+      "hold": "duplicate of this lane's own existing concept (\"Disulfiram inhibits aldehyde dehydrogenase, used in the management of alcohol use disorder\") — item 66 (\"Alcoholic +Nausea &vomiting: Disulfuran (Drug abuse)\") restates the identical fact"
+    },
+    {
+      "key": "paper2-2018-q68",
+      "hold": "duplicate of this lane's own existing concept (\"The spinal root of the accessory nerve is the motor supply to sternocleidomastoid, so its injury causes sternomastoid paralysis\") — item 68 (\"Lesion in spinal accessory nerve: Paralysis to sternomastoid\") restates the identical fact"
+    },
+    {
+      "key": "paper2-2018-q70",
+      "hold": "cross-paper duplicate of this lane's own cluster 1 anatomy concept (\"The inferior petrosal sinus is a paired dural venous sinus draining the cavernous sinus directly into the internal jugular vein\"), also already held once as final2024-mcq-q26 — item 70 (\"Inferior petrosal vein: IjV\") restates the identical fact"
+    },
+    {
+      "key": "paper2-2018-q71",
+      "hold": "duplicate of this lane's own existing concept (\"The posterior (horizontal) fibres of temporalis retract the mandible\") — item 71 (\"Posterior fibers of Temporalis ms\") restates the identical fact"
+    },
+    {
+      "key": "paper2-2018-q74",
+      "hold": "factually doubtful printed key — item 74 (\"Medullary reticular formation has no role in REM sleep\") contradicts standard physiology teaching, under which the medullary reticulospinal tract mediates the skeletal-muscle atonia of REM sleep; held for Omar/source verification rather than authored as a medically inaccurate fact"
+    }
+  ]
+}

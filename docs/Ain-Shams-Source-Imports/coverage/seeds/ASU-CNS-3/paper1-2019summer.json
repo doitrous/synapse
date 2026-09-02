@@ -1,0 +1,562 @@
+{
+  "lane": "ASU-CNS-3",
+  "cluster": "paper1-2019summer",
+  "header": "ASU-CNS-3 · EOM - paper 1 CNS 2019 summer.pdf (cluster 6/author6) — 9-item question-then-answer format (\"N-question?\\n*answer.\", no printed distractors) surviving from a 52-item compilation after 37 items were held as cross-paper duplicates of this lane's own clusters 1-5 and this cluster's own paper2-2018 batch, 4 more excluded as biochemistry, 1 excluded as an unrelated body system (carcinoid/5-HIAA), and 1 held as an ambiguous printed key. Keys read as printed / stated; distractors authored by this lane.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y3"
+    ],
+    "module": "ASU-CNS-3",
+    "exam_weight_by_year": {
+      "ASU_Y3": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_a7ba195b4a4d50c06da3"
+    ],
+    "source_citation": "Ain Shams Year 3 CNS EOM Paper 1 2019 Summer (\"EOM - paper 1 CNS 2019 summer.pdf\"), item {page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "paper1-2019summer-q02",
+      "id": "QST-ASUCNS3P1-19S-Q02",
+      "page": "1",
+      "title": "The inferior salivatory nucleus supplies parasympathetic innervation to which gland?",
+      "question": "The inferior salivatory nucleus, via the glossopharyngeal nerve, lesser petrosal nerve and otic ganglion, supplies preganglionic parasympathetic innervation to which gland?",
+      "options": {
+        "A": "The parotid gland",
+        "B": "The submandibular gland",
+        "C": "The lacrimal gland",
+        "D": "The sublingual gland"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The inferior salivatory nucleus gives rise to preganglionic parasympathetic fibres travelling with the glossopharyngeal nerve, then via its tympanic branch and the lesser petrosal nerve, to synapse in the otic ganglion; postganglionic fibres join the auriculotemporal nerve to supply the parotid gland. This is a distinctive single-target parasympathetic route, contrasted with the superior salivatory nucleus, which supplies the other salivary and lacrimal glands via the facial nerve.",
+        "B": "Incorrect. The submandibular gland is supplied by the superior salivatory nucleus via the facial nerve, chorda tympani and submandibular ganglion, not the inferior salivatory nucleus.",
+        "C": "Incorrect. The lacrimal gland is supplied by the superior salivatory nucleus via the facial nerve, greater petrosal nerve and pterygopalatine ganglion, not the inferior salivatory nucleus.",
+        "D": "Incorrect. The sublingual gland, like the submandibular gland, is supplied by the superior salivatory nucleus via the facial nerve and submandibular ganglion, not the inferior salivatory nucleus."
+      },
+      "main_concept": "CON-NEU-BE9B3000C07F58",
+      "concept_ids": [
+        "CON-NEU-BE9B3000C07F58"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19S-THE-INFERIOR-SALIVATORY-NUCLEUS-PROVIDES-PREGANGLIONIC"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Parasympathetic pathways of the head",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the inferior salivatory nucleus supplies parasympathetic innervation to the parotid gland via the glossopharyngeal nerve and otic ganglion.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Parasympathetic pathways of the head",
+      "field_notes": {
+        "keySource": "printed question-then-answer, item 2",
+        "asu": "EOM - paper 1 CNS 2019 summer.pdf, item 2 (\"inferior salivatory nucleus supplies? *parotid.\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019summer-q03",
+      "id": "QST-ASUCNS3P1-19S-Q03",
+      "page": "1",
+      "title": "Which anticholinergic drug is used to treat drug-induced (extrapyramidal) tremor?",
+      "question": "A patient develops drug-induced extrapyramidal tremor after starting a typical antipsychotic. Which anticholinergic drug is used to treat it?",
+      "options": {
+        "A": "Benztropine",
+        "B": "Levodopa",
+        "C": "Propranolol",
+        "D": "Amantadine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Benztropine is a centrally acting anticholinergic (muscarinic antagonist) that restores the normal dopamine-acetylcholine balance in the basal ganglia when disrupted by dopamine-receptor-blocking drugs, treating the resulting extrapyramidal tremor, rigidity and acute dystonic reactions. Its mechanism works by reducing the relative cholinergic excess from pharmacological dopamine blockade, rather than by directly restoring dopamine.",
+        "B": "Incorrect. Levodopa restores dopamine itself and is used for idiopathic Parkinson disease; it is not the treatment of choice for drug-induced tremor from dopamine-receptor blockade, since it would counteract the offending antipsychotic's mechanism.",
+        "C": "Incorrect. Propranolol is used for essential tremor and for the somatic symptoms of anxiety, not specifically for drug-induced extrapyramidal tremor.",
+        "D": "Incorrect. Amantadine has some antiparkinsonian activity via dopamine release but is not the classic anticholinergic first-line agent for acute drug-induced extrapyramidal symptoms."
+      },
+      "main_concept": "CON-NEU-FDCC38EE8142A2",
+      "concept_ids": [
+        "CON-NEU-FDCC38EE8142A2"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19S-BENZTROPINE-AN-ANTICHOLINERGIC-IS-USED-TO-TREAT-DRUG"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Movement disorders",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that benztropine, an anticholinergic, is used to treat drug-induced (extrapyramidal) tremor by rebalancing basal ganglia dopamine-acetylcholine tone.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Movement disorder pharmacology",
+      "field_notes": {
+        "keySource": "printed question-then-answer, item 3",
+        "asu": "EOM - paper 1 CNS 2019 summer.pdf, item 3 (\"drug x used for tremors? *benztropine.\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019summer-q07",
+      "id": "QST-ASUCNS3P1-19S-Q07",
+      "page": "1",
+      "title": "Which glucose transporter do astrocytes use to take up glucose from cerebral capillary blood?",
+      "question": "Astrocytes, whose end-feet envelop cerebral capillaries as part of the blood-brain barrier, take up glucose from the capillary blood using which facilitative glucose transporter?",
+      "options": {
+        "A": "GLUT1",
+        "B": "GLUT3",
+        "C": "GLUT4",
+        "D": "SGLT1"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Astrocytes express the insulin-independent facilitative glucose transporter GLUT1 at high density on their perivascular end-feet and on the capillary endothelium, supporting the astrocyte-neuron lactate shuttle model in which astrocytes metabolise glucose glycolytically to lactate and export it to neurons as an additional fuel source. GLUT1 is distinct from GLUT3, the transporter that predominates on neurons themselves.",
+        "B": "Incorrect. GLUT3 is the high-affinity glucose transporter that predominates on neurons themselves, not on astrocytes/endothelium.",
+        "C": "Incorrect. GLUT4 is the insulin-dependent glucose transporter of skeletal muscle and adipose tissue, not the astrocyte/blood-brain barrier transporter.",
+        "D": "Incorrect. SGLT1 is a sodium-glucose cotransporter found chiefly in intestinal epithelium and renal tubules, not the facilitative transporter used by astrocytes for capillary glucose uptake."
+      },
+      "main_concept": "CON-NEU-F2CA1D324B6D86",
+      "concept_ids": [
+        "CON-NEU-F2CA1D324B6D86"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19S-ASTROCYTES-TAKE-UP-GLUCOSE-FROM-CEREBRAL-CAPILLARIES-VIA"
+      ],
+      "topic": "Histology",
+      "subtopic": "Neuroglia and blood-brain barrier",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that astrocytes take up glucose from cerebral capillary blood via the GLUT1 transporter.",
+      "module_subject": "ASU-CNS-3 > Histology > Neuroglia and blood-brain barrier",
+      "field_notes": {
+        "keySource": "printed question-then-answer, item 7",
+        "asu": "EOM - paper 1 CNS 2019 summer.pdf, item 7 (\"astrocyte glucose receptor? *glut1.\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019summer-q09",
+      "id": "QST-ASUCNS3P1-19S-Q09",
+      "page": "1",
+      "title": "Sympathetic (thoracolumbar) outflow from the spinal cord extends caudally as far as which level?",
+      "question": "The sympathetic (thoracolumbar) preganglionic outflow, arising from the lateral horn of the spinal cord, extends caudally as far as which spinal segment?",
+      "options": {
+        "A": "L2 (second lumbar)",
+        "B": "S2 (second sacral)",
+        "C": "L5 (fifth lumbar)",
+        "D": "T12 (twelfth thoracic)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Sympathetic (thoracolumbar) outflow arises from preganglionic neurons in the lateral horn from T1 down to L2, the caudal limit of this column; no further preganglionic sympathetic cell bodies are found in the spinal cord below L2. This fixed T1-L2 extent underlies the paravertebral sympathetic chain's own longer cranial and caudal extensions, since ascending and descending fibres within the chain redistribute this output to targets at other levels.",
+        "B": "Incorrect. S2 marks part of the sacral (parasympathetic) outflow, not the caudal limit of the sympathetic thoracolumbar column.",
+        "C": "Incorrect. L5 is caudal to the true limit of sympathetic outflow, which ends at L2.",
+        "D": "Incorrect. T12 is within the sympathetic outflow range but is not its caudal limit, which extends two further segments to L2."
+      },
+      "main_concept": "CON-NEU-D62D80FC034511",
+      "concept_ids": [
+        "CON-NEU-D62D80FC034511"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19S-THE-SYMPATHETIC-OUTFLOW-OF-THE-SPINAL-CORD-EXTENDS-CAUDALLY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Spinal nerve roots and rami",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that spinal sympathetic (thoracolumbar) outflow extends from T1 to L2.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Autonomic outflow levels",
+      "field_notes": {
+        "keySource": "printed question-then-answer, item 9",
+        "asu": "EOM - paper 1 CNS 2019 summer.pdf, item 9 (\"pre gangilion sympathetic? *L2.\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019summer-q17",
+      "id": "QST-ASUCNS3P1-19S-Q17",
+      "page": "2",
+      "title": "What type of sensory receptor is found in the cornea?",
+      "question": "The cornea, densely innervated by the ophthalmic division of the trigeminal nerve, is supplied almost exclusively by which type of sensory receptor?",
+      "options": {
+        "A": "Free nerve endings",
+        "B": "Pacinian corpuscles",
+        "C": "Meissner's corpuscles",
+        "D": "Merkel discs"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The cornea's sensory endings consist almost exclusively of bare (free) nerve endings rather than the encapsulated, specialised mechanoreceptors found in the skin. Because free nerve endings are predominantly nociceptors, the cornea is one of the most pain-sensitive tissues in the body, and even light touch is chiefly perceived as pain, which is the physiological basis of the protective corneal (blink) reflex.",
+        "B": "Incorrect. Pacinian corpuscles are encapsulated mechanoreceptors detecting vibration and deep pressure in the skin and deep tissues, not the receptor type found in the cornea.",
+        "C": "Incorrect. Meissner's corpuscles are encapsulated mechanoreceptors detecting light touch in glabrous skin, not present in the cornea.",
+        "D": "Incorrect. Merkel discs are encapsulated mechanoreceptors detecting sustained pressure/texture in the skin, not the cornea's exclusively free-nerve-ending innervation."
+      },
+      "main_concept": "CON-NEU-4A1FD396E72DDC",
+      "concept_ids": [
+        "CON-NEU-4A1FD396E72DDC"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19S-THE-CORNEA-S-SENSORY-RECEPTORS-ARE-FREE-NERVE-ENDINGS"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Sensory receptor physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the cornea's sensory receptors are free nerve endings, explaining its high pain sensitivity.",
+      "module_subject": "ASU-CNS-3 > Physiology > Sensory receptor physiology",
+      "field_notes": {
+        "keySource": "printed question-then-answer, item 17",
+        "asu": "EOM - paper 1 CNS 2019 summer.pdf, item 17 (\"receptors in cornea? *free nerve endings\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019summer-q20",
+      "id": "QST-ASUCNS3P1-19S-Q20",
+      "page": "2",
+      "title": "Wernicke-Korsakoff syndrome, classically in chronic alcoholics, results from deficiency of which vitamin?",
+      "question": "Wernicke-Korsakoff syndrome, classically occurring in chronic alcoholics, results from deficiency of which vitamin?",
+      "options": {
+        "A": "Thiamine (vitamin B1)",
+        "B": "Cobalamin (vitamin B12)",
+        "C": "Niacin (vitamin B3)",
+        "D": "Folate (vitamin B9)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Wernicke-Korsakoff syndrome results from thiamine (vitamin B1) deficiency, most classically in chronic alcoholics because of poor intake, impaired absorption and reduced hepatic storage. The acute phase (Wernicke encephalopathy) presents with confusion, ophthalmoplegia/nystagmus and ataxia from injury concentrated in the mammillary bodies and medial thalamus, and can progress to the amnestic Korsakoff psychosis if untreated; because thiamine is a required cofactor for glucose metabolism, it must be given before or with IV glucose to avoid precipitating or worsening the encephalopathy.",
+        "B": "Incorrect. Cobalamin (B12) deficiency classically causes subacute combined degeneration of the spinal cord and megaloblastic anaemia, not the Wernicke-Korsakoff triad.",
+        "C": "Incorrect. Niacin (B3) deficiency causes pellagra (dermatitis, diarrhoea, dementia), a distinct clinical picture from Wernicke-Korsakoff syndrome.",
+        "D": "Incorrect. Folate (B9) deficiency causes megaloblastic anaemia and neural tube defects in pregnancy, not the Wernicke-Korsakoff syndrome."
+      },
+      "main_concept": "CON-NEU-DE2F08E8ED9580",
+      "concept_ids": [
+        "CON-NEU-DE2F08E8ED9580"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19S-WERNICKE-KORSAKOFF-SYNDROME-RESULTS-FROM-THIAMINE-VITAMIN"
+      ],
+      "topic": "Pathology",
+      "subtopic": "CNS infection CSF findings",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Wernicke-Korsakoff syndrome results from thiamine deficiency, classically in chronic alcoholics.",
+      "module_subject": "ASU-CNS-3 > Pathology > Nutritional CNS disease",
+      "field_notes": {
+        "keySource": "printed question-then-answer, item 20",
+        "asu": "EOM - paper 1 CNS 2019 summer.pdf, item 20 (\"thiamine deficiency in chronic alcoholic ? * Wernick korsakoff\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019summer-q38",
+      "id": "QST-ASUCNS3P1-19S-Q38",
+      "page": "4",
+      "title": "The oculomotor nucleus is located in the midbrain at the level of which structure?",
+      "question": "The oculomotor (CN III) nucleus lies in the midbrain tegmentum at the level of which paired dorsal midbrain structure?",
+      "options": {
+        "A": "The superior colliculus",
+        "B": "The inferior colliculus",
+        "C": "The red nucleus alone (no collicular level)",
+        "D": "The pontine tegmentum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The oculomotor nucleus and the adjacent Edinger-Westphal nucleus lie in the midbrain tegmentum at the level of the superior colliculus, with emerging fibres passing ventrally through the red nucleus and out through the interpeduncular fossa. This is classically contrasted with the trochlear nucleus, which lies more caudally at the level of the inferior colliculus, giving the two extraocular cranial nerve nuclei distinct midbrain levels.",
+        "B": "Incorrect. The inferior colliculus level is where the trochlear (CN IV) nucleus lies, not the oculomotor nucleus.",
+        "C": "Incorrect. The oculomotor fibres do pass through the red nucleus on their way out, but the nucleus itself is still classified at the superior collicular level, not defined as having no collicular level.",
+        "D": "Incorrect. The oculomotor nucleus is a midbrain, not a pontine, structure."
+      },
+      "main_concept": "CON-NEU-07348837E0ED44",
+      "concept_ids": [
+        "CON-NEU-07348837E0ED44"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19S-THE-OCULOMOTOR-NUCLEUS-LIES-IN-THE-MIDBRAIN-AT-THE-LEVEL-OF"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem cranial nerve nuclei",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the oculomotor nucleus is located in the midbrain at the level of the superior colliculus.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Brainstem cranial nerve nuclei",
+      "field_notes": {
+        "keySource": "printed question-then-answer, item 38",
+        "asu": "EOM - paper 1 CNS 2019 summer.pdf, item 38 (\"occulomotor? *present at the level of superior colliculus.\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019summer-q42",
+      "id": "QST-ASUCNS3P1-19S-Q42",
+      "page": "4",
+      "title": "Which structure is NOT present at the level of the motor (pyramidal) decussation in the medulla?",
+      "question": "On a cross-section of the medulla at the level of the motor (pyramidal) decussation, which of the following structures is characteristically absent?",
+      "options": {
+        "A": "The accessory olivary nuclei",
+        "B": "The pyramids",
+        "C": "The spinal trigeminal nucleus and tract",
+        "D": "The fasciculus gracilis and cuneatus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The inferior olivary nuclear complex, including its accessory olivary nuclei, is absent at the low level of the motor (pyramidal) decussation, only appearing more rostrally at the level of the sensory decussation and above. This absence is one of the standard identifying features used to recognise the pyramidal-decussation level on a medullary cross-section.",
+        "B": "Incorrect. The pyramids (with their decussating corticospinal fibres) are, by definition, present and indeed the defining feature at this level.",
+        "C": "Incorrect. The spinal trigeminal nucleus and tract run the length of the medulla and are present at the pyramidal decussation level.",
+        "D": "Incorrect. The fasciculus gracilis and cuneatus (and their nuclei, just rostral to this level) are present in the lower medulla including near the pyramidal decussation level."
+      },
+      "main_concept": "CON-NEU-F9265FDB9FD8C6",
+      "concept_ids": [
+        "CON-NEU-F9265FDB9FD8C6"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19S-THE-ACCESSORY-OLIVARY-NUCLEI-ARE-NOT-PRESENT-AT-THE-LEVEL"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem surface anatomy",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the accessory olivary nuclei are absent at the level of the motor (pyramidal) decussation in the medulla.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Brainstem cross-sectional anatomy",
+      "field_notes": {
+        "keySource": "printed question-then-answer, item 42",
+        "asu": "EOM - paper 1 CNS 2019 summer.pdf, item 42 (\"not present at the level of motor decussation? *accessory olivary\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019summer-q46",
+      "id": "QST-ASUCNS3P1-19S-Q46",
+      "page": "5",
+      "title": "Which Rexed lamina is the posteromarginal nucleus, chiefly relaying pain and temperature?",
+      "question": "In the Rexed lamination of the spinal cord dorsal horn, the posteromarginal nucleus, the most dorsal layer chiefly relaying pain and temperature afferents, corresponds to which lamina?",
+      "options": {
+        "A": "Lamina I",
+        "B": "Lamina II",
+        "C": "Lamina IV",
+        "D": "Lamina IX"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Lamina I, the posteromarginal nucleus, is the thin, most dorsal layer capping the dorsal horn, receiving predominantly nociceptive and thermal primary afferent input (chiefly A-delta and C fibres) before relaying it onward into the ascending spinothalamic pathway. Its dorsal-most position, immediately beneath the dorsolateral tract of Lissauer through which these afferents first enter, is a key identifying feature.",
+        "B": "Incorrect. Lamina II is the substantia gelatinosa, immediately deep to lamina I, which modulates pain transmission via interneurons rather than directly relaying it onward.",
+        "C": "Incorrect. Lamina IV lies deeper in the dorsal horn and relays touch/proprioceptive information more than the dorsal-most nociceptive relay of lamina I.",
+        "D": "Incorrect. Lamina IX is in the ventral horn, containing motor neuron pools, unrelated to the dorsal horn's pain-relay laminae."
+      },
+      "main_concept": "CON-NEU-601C4B778CF344",
+      "concept_ids": [
+        "CON-NEU-601C4B778CF344"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19S-LAMINA-I-OF-THE-SPINAL-CORD-GREY-MATTER-THE-POSTEROMARGINAL"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Pain pathways",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify lamina I (the posteromarginal nucleus) as the dorsal-most Rexed lamina, chiefly relaying pain and temperature afferents.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Pain pathways",
+      "field_notes": {
+        "keySource": "printed question-then-answer, item 46",
+        "asu": "EOM - paper 1 CNS 2019 summer.pdf, item 46 (\"lamina 1? *Presents in Postmarginalis.\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019summer-q01",
+      "hold": "duplicate of this lane's own existing concept (\"The motor nucleus of the trigeminal nerve belongs to the special visceral efferent (SVE, branchiomotor) functional column\") — item 1 (\"SVE Nucleus? *motor nucleus of trigmenal.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q04",
+      "hold": "duplicate of this lane's own existing concept (\"Naltrexone, an opioid receptor antagonist, is used to help prevent relapse in opioid and alcohol addiction\") — item 4 (\"to prevent relapse of alcohol abuse? *naltrexone.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q05",
+      "hold": "duplicate of this lane's own existing concept (\"Carbidopa, a peripheral dopa-decarboxylase inhibitor, reduces the dose of L-dopa needed to treat Parkinson disease\") — item 5 (\"prevent the conversion of l-dopa peripherally? *carbidopa.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q06",
+      "hold": "duplicate of this lane's own existing concept (\"The flocculonodular lobe (vestibulocerebellum) is the cerebellar division principally concerned with equilibrium and balance\") — item 6 (\"folliculonodular function? *equilibrium.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q08",
+      "hold": "duplicate of this lane's own existing concept (\"The corticostriatal projection from cortex to striatum is glutamatergic\") — item 8 (\"glutamate is secreted by? *Cortex to striatum.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q10",
+      "hold": "duplicate of this lane's own existing concept (\"The inferior petrosal sinus is a paired dural venous sinus draining the cavernous sinus directly into the internal jugular vein\") which already states it is paired — item 10 (\"paired sinus? *Inferior pertosal.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q11",
+      "hold": "duplicate of this lane's own existing concept (\"Emissary veins are valveless connections between the dural venous sinuses and the extracranial scalp veins\") — item 11 (\"dural sinuses are connected with scalp veins by ? *Emissary veins.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q12",
+      "hold": "duplicate of this lane's own existing concept (\"The rubrospinal tract, from the red nucleus, is described as an alternative (accessory) descending motor pathway to the corticospinal tract\") — item 12 (\"alternative for corticospinal? *red nucleus.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q13",
+      "hold": "duplicate of this lane's own existing concept (\"Sensory supply to the upper eyelid is carried by the ophthalmic division (V1) of the trigeminal nerve\") — item 13 (\"sensory of trigeminal is from ? *upper eyelid.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q14",
+      "hold": "duplicate of this lane's own existing concept (\"The spinal root of the accessory nerve is the motor supply to sternocleidomastoid, so its injury causes sternomastoid paralysis\"), also duplicate of this cluster's own paper2-2018-q68 hold — item 14 (\"trauma in spinal accessory nerve? *sternomastoid paralysis.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q15",
+      "hold": "duplicate of this lane's own existing concept (\"The posterior (horizontal) fibres of temporalis retract the mandible\"), also duplicate of this cluster's own paper2-2018-q71 hold — item 15 (\"retractor of mandible? *posterior fibers of temporalis.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q16",
+      "hold": "duplicate of this lane's own existing pending-live question (\"The retromandibular vein is formed within the parotid gland by the union of the superficial temporal vein and which other vein?\", question/ASU-CNS-3-anatomy-mcq.md) confirmed via find-existing.mjs — item 16 (\"retromandibular is formed by maxillary and ? *superfecial temporal vein\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q18",
+      "hold": "biochemistry, out of this lane's neuro subject scope (excluded like the rest of this lane's papers) — item 18 (\"rate limiting enzyme in catecholamine synthesis? *tyrosine hydroxylase\")"
+    },
+    {
+      "key": "paper1-2019summer-q19",
+      "hold": "biochemistry, out of this lane's neuro subject scope — item 19 (\"the final disposal of amino group is ? *Urea\")"
+    },
+    {
+      "key": "paper1-2019summer-q21",
+      "hold": "duplicate of this lane's own existing concept (\"GABA acting on a postsynaptic GABA-A receptor increases chloride ion permeability\") — item 21 (\"GABA in postsynaptic nerve increases permiability of? *Cl-\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q22",
+      "hold": "biochemistry, out of this lane's neuro subject scope — item 22 (\"methyl-THF used in synthesis of? *Homocysteine methionine\")"
+    },
+    {
+      "key": "paper1-2019summer-q23",
+      "hold": "duplicate of this lane's own existing concept (\"Extracranial headache is a form of referred pain from pain-sensitive extracranial structures\") — item 23 (\"extracranial headach is? *Referred pain headache\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q24",
+      "hold": "duplicate of this lane's own existing concept (\"The periaqueductal gray produces analgesia via enkephalinergic neurons\") — item 24 (\"pain analgesic system include? *periaqueductal which secret enkephalin.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q25",
+      "hold": "duplicate of this lane's own existing concept (\"The spinocerebellum dampens oscillation during ongoing movement\") — item 25 (\"damping action is the function of ? - spinocerebellum\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q26",
+      "hold": "duplicate of this lane's own existing concept (\"Hemiballismus results from a lesion of the contralateral subthalamic nucleus\") — item 26 (\"hemibalasmus is due to? *subthalamus nucleus is affected.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q27",
+      "hold": "duplicate of this lane's own existing concept (\"Pain and temperature sensation from the face has its first-order neuron in the trigeminal ganglion and its second-order neuron in the spinal trigeminal nucleus\") — item 27 (\"second order neuron of pain from face is? *spinal nucleus.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q28",
+      "hold": "duplicate of this lane's own existing concept (\"CSF leaves the fourth ventricle for the subarachnoid space through the paired lateral foramina of Luschka and the single median foramen of Magendie\") — item 28 (\"4th ventricle is connected to subarachnoid space by? *foramen of magendi.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q29",
+      "hold": "duplicate of this lane's own existing concept (\"The primary motor cortex (Brodmann area 4), in the precentral gyrus, converts motor plans into executed movement\") — item 29 (\"function of primary (area 4)? *converts plan to order.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q30",
+      "hold": "duplicate of this lane's own existing concept (\"The stretch (myotatic) reflex is monosynaptic\") — item 30 (\"the following is correct about muscle tone? *stretch reflex is monosynaptic\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q31",
+      "hold": "duplicate of this lane's own existing concept (\"Spinal cord hemisection (Brown-Sequard syndrome) causes ipsilateral dorsal column loss and contralateral pain/temperature loss below the lesion\") — item 31 (\"hemisection? loss of dorsal column sensation below the level of lesion in the same side.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q32",
+      "hold": "duplicate of this lane's own existing concept (\"The infraorbital nerve is a branch of the third (infraorbital, pterygopalatine-fossa-exiting) part of the maxillary nerve\") — item 32 (\"branch from 3rd part of maxillary? *infraorbital\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q33",
+      "hold": "duplicate of this lane's own existing concept (\"Syringomyelia causes a dissociated sensory loss (pain and temperature lost, touch preserved) in a cape/jacket distribution\") — item 33 (\"dissociated sensory loss of syringomyelia? *pain and temp loss and preservation of touch.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q34",
+      "hold": "biochemistry, out of this lane's neuro subject scope — item 34 (\"common aminoacid acceptor in all transaminations? *alpha ketoglutarate\")"
+    },
+    {
+      "key": "paper1-2019summer-q35",
+      "hold": "out of this lane's neuro subject scope (carcinoid syndrome/5-HIAA is a general GI/endocrine pathology fact unrelated to the CNS) — item 35 (\"in carcinoid tumor? *5-HIAA presents in urine.\")"
+    },
+    {
+      "key": "paper1-2019summer-q36",
+      "hold": "duplicate of this lane's own existing concept (\"Taste sensation from the region behind the vallate papillae, over the epiglottis, is carried by the vagus nerve\") — item 36 (\"taste sensation behind vallicule is by? *vagus\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q37",
+      "hold": "duplicate of this lane's own existing concept (\"The carotid sheath contains the common/internal carotid artery, internal jugular vein and vagus nerve, with the vagus lying posteriorly between the vessels\") — item 37 (\"content of carotid sheeth? *vagus\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q39",
+      "hold": "duplicate of this lane's own existing concept (\"The corticobulbar tract is classified as a pyramidal (not extrapyramidal) tract\") — item 39 (\"non extrapyramidal tract? *corticobulber\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q40",
+      "hold": "duplicate of this lane's own existing concept (\"Kinesthetic (conscious proprioceptive) sensation ascends via the gracile and cuneate fasciculi\") — item 40 (\"related to kinesthetic? *transmitted by gracile and cuneate.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q41",
+      "hold": "duplicate of this lane's own existing concept (\"Acupuncture relieves pain through both gate-control and psychogenic (descending) mechanisms\") — item 41 (\"aquapuncture relive the pain by? *gate theory and psychogenic exitaion.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q43",
+      "hold": "duplicate of this lane's own existing concept (\"The primary somatosensory representation of the leg and foot lies in the posterior part of the paracentral lobule\") — item 43 (\"primary sensory is present in? *Post part of paracentral lobule.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q44",
+      "hold": "duplicate of this lane's own existing concept (\"Deep pain is poorly localised\") — item 44 (\"related to deep pain? *poorly localized.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q45",
+      "hold": "duplicate of this lane's own existing concept (crude touch carried by A-delta fibres, already fully captured per this lane's own physio-mcq-q59 hold precedent) — item 45 (\"related to crude touch? *transmited by A-delta.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q47",
+      "hold": "duplicate of this lane's own existing concept (\"The dorsal external arcuate fibres are afferents that enter the cerebellum through the inferior cerebellar peduncle\") — item 47 (\"Affernt to ICP? *External Arcuate fibers.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q48",
+      "hold": "ambiguous printed key — item 48 (\"the following is motor nucleus? *antromedial nucleus.\") does not identify a recognisable, standard-named brainstem/thalamic nucleus with confidence; held for Omar/source verification rather than guessed at"
+    },
+    {
+      "key": "paper1-2019summer-q49",
+      "hold": "duplicate of this lane's own existing concept (\"The lateral wall of the cavernous sinus contains cranial nerves III, IV, V1 and V2 — the mandibular nerve (V3) is not among them\") — item 49 (\"all of the following are in lateral side of the cavernous sinus except? *Mandibular.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q50",
+      "hold": "cross-paper duplicate of this lane's own cluster 1 anatomy concept (PICA/Wallenberg, contralateral pain/temperature loss), also duplicate of this cluster's own paper2-2018-q22 hold — item 50 (\"PICA occlusion? *Contralateral loss of pain and tem of body.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q51",
+      "hold": "duplicate of this lane's own existing concept (\"The (uncrossed) anterior corticospinal tract supplies the axial (trunk) musculature\") — item 51 (\"related to anterior corticospinal ? *Supplies the muscles of trunk.\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019summer-q52",
+      "hold": "duplicate of this lane's own existing concept (\"The inferior colliculus, part of the auditory pathway, is seen on the dorsal surface of the midbrain\") — item 52 (\"the following is present in the dorsal surface of midbrain? *inferior colliculus\") restates the identical fact"
+    }
+  ]
+}

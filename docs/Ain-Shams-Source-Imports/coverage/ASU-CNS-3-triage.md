@@ -277,6 +277,93 @@ errors) across all 7 files in apply order (Kasr 108-INT concept + article,
 this cluster's own resource/concept/article/overlay/question files).
 `validate-content-batch.mjs` clean (0 errors) on every file individually.
 
+## Addendum (cluster 6, author6: EOM - CNS paper 2 2018 + EOM - paper 1 CNS 2019 summer)
+
+Opened the next paper per `coverage/ASU-Y3-priority-sources.md` §ASU-CNS-3:
+`EOM - CNS paper 2 2018.pdf` (src_85504e7525d793760af2, 6 pages, native
+text, 0 garbled). A 74-item embedded-answer compilation ("N.answer" format,
+two items marked cancelled by the source itself — ملغي). Of the 72 real
+items: 11 (Taenia solium x2, Neisseria factor H/diplococci, Sabin vaccine
+herd immunity/immunocompromised, pneumococcus virulence factor, Naegleria
+fowleri, granulomatous amoeba, 3ry-prevention/rehabilitation explicitly
+labelled "(community)" in the source) are Micro/Parasitology/Community,
+out of this lane's neuro subject scope, excluded like biochemistry; 5 are
+ambiguous or factually doubtful printed keys — two of them (items 29 and
+31) are explicitly flagged by the source's own students ("مش متاكدة منهم" —
+"not sure about these"), one (item 47) is explicitly flagged as disputed
+("كان عليها خلاف"), one (item 74, medullary reticular formation "has no
+role in REM sleep") contradicts standard physiology (the medullary
+reticulospinal tract mediates REM atonia), one (item 17) does not cohere
+into a recognisable teaching point — all held for Omar rather than guessed
+at; 10 are cross-paper duplicates of this lane's own clusters 1-5 (Edinger-
+Westphal GVE, PICA/Wallenberg, aqueduct of Sylvius, phenytoin gingival
+hyperplasia, propranolol migraine [duplicate-adjacent to the existing
+amitriptyline-vs-propranolol concept], corticonuclear genu of internal
+capsule, disulfiram, sternomastoid paralysis, inferior petrosal sinus to
+IJV [already held once as final2024-mcq-q26], posterior temporalis
+retraction); 1 (Alzheimer's disease treated with rivastigmine) duplicates
+an existing pending Kasr 208-INT concept (CON-FND-AE3618871E840B) and is
+reused via overlay (`pending-live/ASU-CNS-3-paper2-2018-overlay-concepts.md`)
+rather than re-minted. The remaining 46 items are new mints, spanning
+anatomy, embryology, physiology, pharmacology, pathology and histology.
+Per-item `find-existing.mjs` search-before-mint was run for every new-mint
+candidate; three hits were investigated and found non-duplicate on close
+reading (choroid plexus vs AU-MED-203's distinct "choroid plexus transport"
+physiology concept; chorda tympani-to-submandibular-ganglion vs this
+lane's own existing "cranial nerve VII parasympathetic to submandibular
+gland" overlay stub, a more specific fact not already captured; Papez
+circuit's cingulum component vs this lane's own existing Papez-circuit-
+function concept, a distinct anatomical-component fact). `paper2-2018`
+cluster: 46 authored (45 new mints + 1 overlay reuse) / 15 held / 0
+remaining / 61 total.
+
+Second source per the same priority list: the next dated final/assessment
+paper after paper2-2018 in the list turned out to need a substitution.
+`EOM - FINAL CNS( PAPER 1 ) 2024.pdf` (line immediately following
+paper2-2018 in `ASU-Y3-priority-sources.md`) was opened and read in full —
+it is confirmed to be a second scan/compilation of the *same* exam sitting
+as cluster 3's already-authored `EOM - CNS FINAL PAPER 1 2024.pdf`
+(identical MCQ block items — e.g. the TMJ-ligament and inferior-petrosal-
+sinus facts match verbatim — and identical essay block: glossopharyngeal
+branches, pyramidal-tract lamination, pterygoid venous plexus, all already
+converted to questions by cluster 3's `final2024-mcq` batch); logged as a
+duplicate source, not authored from. `EOM - cns 2nd ass from paper 1
+18-19-20.pdf` (next in the list) was also opened and found to be a student
+"greatest hits" recompilation explicitly stating it collects prior papers'
+Anatomy questions ("جمعت الاسئلة اللي كلها اناتومي... عدا سؤال باثو يتيم
+وس فسيو مشكوك فيه") — most items are labelled "paper 2" in-line and
+verbatim match items already read in this cluster's own paper2-2018 batch;
+this is exactly the "cross-file content recycling" trap named in
+LANE-CARD-Y2-3.md §4 — also logged as a duplicate source, not authored
+from, and not opened further. Selected instead: `EOM - paper 1 CNS 2019
+summer.pdf` (src_a7ba195b4a4d50c06da3, 5 pages, native text, 0 garbled), a
+genuinely distinct dated paper not yet touched by any cluster. Format is
+question-then-answer ("N-question?\n*answer.", no printed distractors),
+52 items. Of these: 4 (rate-limiting enzyme of catecholamine synthesis,
+urea as final disposal of the amino group, methyl-THF/homocysteine, common
+transamination amino-acid acceptor) are biochemistry, excluded like the
+rest of this lane's papers; 1 (carcinoid tumour/5-HIAA) is an unrelated
+body system, not CNS-specific, excluded; 1 (item 48, "the following is
+motor nucleus? *antromedial nucleus") is an unrecoverably ambiguous printed
+key, held for Omar; 37 are cross-paper duplicates of this lane's own
+clusters 1-5 and/or this cluster's own paper2-2018 batch (confirmed
+individually against the lane's existing concept corpus and, for the
+retromandibular-vein item, against an existing pending-live question via
+`find-existing.mjs`); the remaining 9 are new mints. `paper1-2019summer`
+cluster: 9 authored / 43 held / 0 remaining / 52 total.
+
+This cluster's combined output: 55 authored (54 new mints + 1 overlay
+reuse), 58 held (15 ambiguous/duplicate + 43 ambiguous/duplicate/excluded,
+across both papers; excluded Micro/Para/Community/Biochemistry items are
+tracked as held rows in this cluster's own seed files, unlike prior
+clusters which left them undocumented in the seed — a deliberate change for
+fuller ledger accounting) — see `coverage/ASU-CNS-3-LEDGER.md`.
+`coverage/ASU-CNS-3-triage-keys.txt` extended with all `paper2-2018-q01`..
+`q75` and `paper1-2019summer-q01`..`q52` keys. `gate.mjs simulate` clean
+(0 rejected, 0 errors) across all 10 files in apply order (2 resource + 2
+concept + 2 article + Kasr 208-INT concept + 1 overlay + 2 question files).
+`validate-content-batch.mjs` clean (0 errors) on every file individually.
+
 ## Needs Omar
 
 - None yet identified specific to CNS-3 (unlike ASU-IBM/Fayoum). The corpus is source-rich; no
@@ -287,3 +374,11 @@ this cluster's own resource/concept/article/overlay/question files).
 - Three cluster-5 items from `EOM - CNS final paper 2 2024.pdf` held as not medically defensible or
   incoherent from the printed text (see addendum above) — worth a source re-check by Omar in case the
   scan/OCR dropped or garbled a line, rather than the examiner's own error.
+- Cluster 6: two duplicate-source papers identified in `ASU-Y3-priority-sources.md` §ASU-CNS-3 —
+  `EOM - FINAL CNS( PAPER 1 ) 2024.pdf` (same exam sitting as cluster 3's already-authored
+  `EOM - CNS FINAL PAPER 1 2024.pdf`) and `EOM - cns 2nd ass from paper 1 18-19-20.pdf` (a student
+  recompilation of prior papers' Anatomy questions) — worth flagging in the priority-source list
+  itself so the next cluster does not re-open them expecting fresh material.
+- Cluster 6: five items held as ambiguous/disputed printed keys, two of them explicitly flagged by
+  the source's own students and one explicitly flagged as disputed — worth a source re-check by Omar
+  (see `paper2-2018-q17`, `-q29`, `-q31`, `-q47`, `-q74`, `paper1-2019summer-q48` in the ledger).
