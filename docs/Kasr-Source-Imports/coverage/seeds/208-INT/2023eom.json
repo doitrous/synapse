@@ -1,0 +1,1022 @@
+{
+  "lane": "KASR-208INT",
+  "cluster": "2023-eom-general-pathology",
+  "header": "Kasr Al Ainy 208 INT · General pathology, healing and neoplasia basics — authored from the 208 INT EOM 2023 exam paper (120 MCQs, tranche 1 of the module's S1 paper), keys read from the printed answer table p.21, concept content grounded in the 208 INT Pathology Department Book.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "kau"
+    ],
+    "years": [
+      "KAU_Y2"
+    ],
+    "module": "208 INT",
+    "exam_weight_by_year": {
+      "KAU_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-FND-208INT-NEOPLASIA-BASICS"
+    ],
+    "resource_ids": [
+      "src_5c065efcd90b4ef24136"
+    ],
+    "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, Q{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pathology",
+    "subtopic": "Neoplasia"
+  },
+  "questions": [
+    {
+      "key": "2023eom-q01",
+      "id": "QST-KASR208INT-2023EOM-Q01",
+      "page": 1,
+      "title": "Chemotaxis definition",
+      "question": "Chemotaxis is:",
+      "options": {
+        "A": "Phagocytosis of infective agent",
+        "B": "Rolling of leukocytes on endothelial surface",
+        "C": "Adhesion of leukocytes to endothelium",
+        "D": "Movement of extravasated neutrophils toward infective agent"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Phagocytosis is the recognition, engulfment and killing of a particle once a leukocyte has already reached it — a separate step of leukocyte activation, not the movement that gets the leukocyte there in the first place.",
+        "B": "Incorrect. Rolling is the loose, tumbling adhesion of leukocytes to activated endothelium, mediated by selectins, and it happens while the leukocyte is still inside the vessel — chemotaxis happens afterwards, once the leukocyte is already in the tissue.",
+        "C": "Incorrect. Adhesion to endothelium (pavementing) is the firm attachment step mediated by integrins, occurring before emigration — it describes a leukocyte still at the vessel wall, not one already moving through extravascular tissue.",
+        "D": "Correct. After extravasating from the blood, leukocytes move toward sites of infection or injury along a chemical gradient — this directed movement is chemotaxis, driven by bacterial products, chemokines, complement C5a and leukotriene B4. This ordered handoff — margination and rolling, then firm adhesion, then emigration, then chemotaxis — is what actually delivers a leukocyte to the site of injury, and chemotaxis is specifically its final, directional step."
+      },
+      "main_concept": "CON-IMM-96D7626B256F92",
+      "concept_ids": [
+        "CON-IMM-96D7626B256F92",
+        "CON-IMM-6047D47CEF7FE2"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define chemotaxis as the post-extravasation, chemical-gradient-directed movement of leukocytes, distinct from rolling, adhesion and phagocytosis.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "module_subject": "208 INT > Chapter 1 Inflammation > Cellular Events",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.2",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"1.D\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q02",
+      "id": "QST-KASR208INT-2023EOM-Q02",
+      "page": 2,
+      "title": "Macrophage fate after inflammation",
+      "question": "Which is FALSE about macrophages:",
+      "options": {
+        "A": "They influence process of repair",
+        "B": "After the end of inflammation they die and wander off into blood stream",
+        "C": "They are derived from monocytes",
+        "D": "Capable of phagocytosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this is true, not the FALSE option). Macrophages secrete growth factors — epidermal growth factor, fibroblast growth factor, transforming growth factor beta — that are important in the process of repair, so they genuinely influence healing.",
+        "B": "Correct — this is the FALSE statement. Once the initiating stimulus is eliminated and the inflammatory reaction ends, macrophages die or wander off into the lymphatics, not into the blood stream; only in chronic inflammatory sites, where the stimulus persists, does macrophage accumulation continue through ongoing recruitment and local proliferation. The distractor swaps \"lymphatics\" for \"blood stream,\" which reverses the correct route macrophages actually take once their job is done.",
+        "C": "Incorrect (this is true, not the FALSE option). Macrophages are derived from blood monocytes, which leave the vessels at the site of inflammation and transform into active, motile, phagocytic macrophages.",
+        "D": "Incorrect (this is true, not the FALSE option). Macrophages are capable of phagocytosis, although in most acute inflammation they play a lesser phagocytic role than neutrophils until later stages, when they predominate."
+      },
+      "main_concept": "CON-FND-772C8ED8D14A6D",
+      "concept_ids": [
+        "CON-FND-772C8ED8D14A6D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that macrophages die or migrate into the lymphatics, not the blood stream, once an inflammatory stimulus resolves.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "module_subject": "208 INT > Chapter 1 Inflammation > Chronic Inflammation",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.2",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"2.B\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q03",
+      "id": "QST-KASR208INT-2023EOM-Q03",
+      "page": 2,
+      "title": "Diffuse suppurative inflammation example",
+      "question": "One of the following is an example of diffuse suppurative inflammation:",
+      "options": {
+        "A": "Carbuncle",
+        "B": "Cellulitis",
+        "C": "Boil",
+        "D": "Abscess"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A carbuncle is multiple communicating deep subcutaneous abscesses opening by multiple sinuses, caused by Staphylococcus aureus's coagulase, which walls the infection off — it is a localized, not diffuse, suppurative pattern.",
+        "B": "Correct. Cellulitis is diffuse suppurative inflammation occurring in loose tissues (subcutaneous tissue, orbit, scrotum), commonly caused by Streptococcus pyogenes, whose fibrinolysin dissolves fibrin and lets the infection spread rather than being walled off. Recognising the streptococcal-fibrinolysin mechanism behind cellulitis is what explains why it spreads through tissue planes rather than staying contained like a staphylococcal abscess.",
+        "C": "Incorrect. A boil (furuncle) is staphylococcal infection of a hair follicle, walled off by coagulase in the same way as an abscess or carbuncle — a localized, not diffuse, pattern.",
+        "D": "Incorrect. An abscess is the defining example of localized suppurative inflammation — a discrete, walled-off collection of pus, the opposite of a spreading, diffuse process."
+      },
+      "main_concept": "CON-FND-342EB8A955CCAE",
+      "concept_ids": [
+        "CON-FND-342EB8A955CCAE"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify cellulitis as diffuse (streptococcal fibrinolysin-driven) suppurative inflammation, as opposed to the staphylococcal, coagulase-walled localized forms (abscess, boil, carbuncle).",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "module_subject": "208 INT > Chapter 1 Inflammation > Types of Acute Inflammation",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.2",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"3.B\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q04",
+      "id": "QST-KASR208INT-2023EOM-Q04",
+      "page": 2,
+      "title": "Pseudomembranous inflammation",
+      "question": "Pseudomembranous inflammation is:",
+      "options": {
+        "A": "Mild form of acute suppurative inflammation",
+        "B": "Caused by toxin producing bacteria",
+        "C": "Seen in serous cavities",
+        "D": "Caused by pyogenic bacteria"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Pseudomembranous inflammation is a severe form of acute inflammation of mucous membranes, not mild — a necrotizing toxin kills the surface epithelium outright, which is a more destructive process than ordinary suppuration.",
+        "B": "Correct. It is caused by bacteria that produce a powerful necrotizing toxin — diphtheria bacilli in the throat and larynx, and shigella bacilli in the large intestine causing bacillary dysentery — and the mucosa becomes covered by a false membrane of precipitated fibrin, necrotic epithelium and leukocytes. This toxin-driven necrosis of the surface epithelium, not simple pus formation, is what makes pseudomembranous inflammation a severe pattern in its own right.",
+        "C": "Incorrect. Involvement of serous cavities (pleura, pericardium, peritoneum) with a fibrin coating giving a 'bread and butter' appearance describes fibrinous inflammation, a different pattern from pseudomembranous inflammation, which affects mucous membranes.",
+        "D": "Incorrect. Pyogenic (pus-forming) bacteria such as staphylococci and streptococci cause suppurative inflammation; pseudomembranous inflammation is driven by a specific necrotizing toxin, not simply by pus formation."
+      },
+      "main_concept": "CON-FND-342EB8A955CCAE",
+      "concept_ids": [
+        "CON-FND-342EB8A955CCAE"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that pseudomembranous inflammation is a severe, toxin-mediated mucosal pattern (diphtheria, bacillary dysentery), not a mild or pyogenic suppurative variant.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "module_subject": "208 INT > Chapter 1 Inflammation > Types of Acute Inflammation",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.2",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"4.B\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q06",
+      "id": "QST-KASR208INT-2023EOM-Q06",
+      "page": 2,
+      "title": "Granulation tissue",
+      "question": "Granulation tissue is:",
+      "options": {
+        "A": "Avascular scar tissue",
+        "B": "Occurs during early healing by regeneration",
+        "C": "Pale and dry",
+        "D": "Formed of fibroblasts and proliferating new capillaries"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Avascular scar tissue describes the late, remodelled scar, which granulation tissue matures into — granulation tissue itself is actively vascular, not avascular.",
+        "B": "Incorrect. Granulation tissue is the early stage of healing by fibrosis (scar formation), not regeneration — regeneration replaces cells with the same cell type and does not require new granulation tissue.",
+        "C": "Incorrect. Granulation tissue is moist, red and bleeds easily, the opposite of pale and dry, which describes the mature scar after remodelling.",
+        "D": "Correct. Granulation tissue is formed of proliferated capillaries and fibroblasts (some transformed into myofibroblasts) — the granular appearance of the new capillaries at the base of a healing wound gives the tissue its name. This composition is also why granulation tissue bleeds so readily on contact, a bedside sign clinicians use to recognise it in a healing wound bed."
+      },
+      "main_concept": "CON-FND-9853F779478D1A",
+      "concept_ids": [
+        "CON-FND-9853F779478D1A"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that granulation tissue is vascular, moist, red tissue formed of proliferating capillaries and fibroblasts during early healing by fibrosis.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-HEALING-AND-REPAIR"
+      ],
+      "module_subject": "208 INT > Chapter 2 Healing and Repair > Healing by Fibrosis",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.2",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"6.D\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q07",
+      "id": "QST-KASR208INT-2023EOM-Q07",
+      "page": 3,
+      "title": "Tissues that do not heal by regeneration",
+      "question": "All of the following can heal by regeneration EXCEPT:",
+      "options": {
+        "A": "Liver cells",
+        "B": "Endometrial lining",
+        "C": "Nerve cells",
+        "D": "Hematopoietic cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this tissue DOES regenerate, making it not the exception). Hepatocytes are a stable population with strong regenerative capacity — injury confined to the parenchymal cells alone is followed by regeneration and complete restitution.",
+        "B": "Incorrect (this tissue DOES regenerate, making it not the exception). Endometrial lining is labile surface epithelium with continuous replicating activity, so it regenerates readily — it is shed and rebuilt every cycle.",
+        "C": "Correct. Nerve cells (neurons) are permanent, terminally differentiated cells that are irreversibly post-mitotic in postnatal life — the department book states plainly that neurons do not effectively regenerate, so injury to them results in a scar rather than restitution. This is exactly why central nervous system injury, unlike injury to labile epithelium or bone marrow, always heals by scar rather than by restoring functioning neurons.",
+        "D": "Incorrect (this tissue DOES regenerate, making it not the exception). Hematopoietic cells are classic labile tissue with continuous mitotic division, giving them strong regenerative capacity."
+      },
+      "main_concept": "CON-FND-434E7A6D0A5BF3",
+      "concept_ids": [
+        "CON-FND-434E7A6D0A5BF3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify neurons as permanent, non-regenerating cells, as opposed to labile (hematopoietic, endometrial) and regeneration-capable stable (hepatocyte) tissue.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-HEALING-AND-REPAIR"
+      ],
+      "module_subject": "208 INT > Chapter 2 Healing and Repair > Tissue Proliferative Activity",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.3",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"7.C\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q08",
+      "id": "QST-KASR208INT-2023EOM-Q08",
+      "page": 3,
+      "title": "Liver cirrhosis mechanism",
+      "question": "In liver healing by fibrosis (liver cirrhosis) occurs if:",
+      "options": {
+        "A": "Injury affects parenchymal cells only",
+        "B": "Injury affects portal tracts only",
+        "C": "Injury affects the peritoneal covering",
+        "D": "Injury affects liver cells and the framework"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Injury confined to the parenchymal (hepatocyte) cells alone is followed by regeneration and complete restitution — the department book states this explicitly as the case that heals without scarring.",
+        "B": "Incorrect. Portal tract involvement alone is not the department book's stated cirrhosis mechanism — cirrhosis requires destruction of both the hepatocytes and the surrounding connective-tissue architecture together, not the portal tracts in isolation.",
+        "C": "Incorrect. The peritoneal (serosal) covering of the liver is not the site the department book names for the cirrhosis mechanism — the relevant structures are the hepatocytes and the internal tissue framework, not the outer covering.",
+        "D": "Correct. When chronic injury destroys both the hepatocytes and the connective-tissue architecture — as in chronic hepatitis — the hepatocytes regenerate but fail to reconstruct the original architecture, forming nodules surrounded by fibrous scarring: cirrhosis. This is the mechanistic reason cirrhosis is irreversible once established — the regenerated nodules can restore cell mass but never the original architecture."
+      },
+      "main_concept": "CON-FND-434E7A6D0A5BF3",
+      "concept_ids": [
+        "CON-FND-434E7A6D0A5BF3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain that liver cirrhosis results from injury destroying both hepatocytes and the tissue framework together, not hepatocyte injury alone.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-HEALING-AND-REPAIR"
+      ],
+      "module_subject": "208 INT > Chapter 2 Healing and Repair > Tissue Proliferative Activity",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.3",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"8.D\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q09",
+      "hold": "Printed key marks (a) Cosmetic deformity as the EXCEPT answer to 'All of the following are complications of wound healing EXCEPT: a. Cosmetic deformity b. Carcinoma c. Dermoid cyst d. Chronic sinus', but the department book's own complications list (p.27) names cosmetic deformity as complication #1, alongside carcinoma (Marjolin's ulcer), dermoid cyst (implantation epidermal cyst) and chronic sinus as items #6, #4 and #5 respectively -- all four are recognised complications in the source text, so no option is source-supported as the genuine exception. Held per the book-is-the-source rule rather than authored against a key the book's own text contradicts; flagging for a second source (e.g. a different sitting's key) before this item can be authored."
+    },
+    {
+      "key": "2023eom-q11",
+      "id": "QST-KASR208INT-2023EOM-Q11",
+      "page": 2,
+      "title": "Chemotactic factors",
+      "question": "Chemotactic factors include the following:",
+      "options": {
+        "A": "Histamine",
+        "B": "Prostaglandins",
+        "C": "C5a",
+        "D": "Lysosomal enzymes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Histamine is a vasoactive amine that causes arteriolar dilation and rapidly increases vascular permeability — it is a mediator of the vascular phase of inflammation, not a chemotactic factor that directs leukocyte movement.",
+        "B": "Incorrect. Prostaglandins potentiate the effect of histamine and contribute to pain and fever — they are arachidonic acid metabolites with vascular and systemic effects, not chemotactic agents.",
+        "C": "Correct. Chemotactic factors named in the department book are bacterial products, chemokines, complement components (particularly C5a), and products of arachidonic acid metabolism (particularly leukotriene B4) — C5a is specifically listed as mediating leukocyte activation, adhesion and chemotaxis. Recognising C5a specifically (rather than histamine or prostaglandins) as chemotactic is what separates the vascular mediators of inflammation from the ones that actually summon leukocytes to the site.",
+        "D": "Incorrect. Lysosomal enzymes (collagenase, cathepsin) destroy phagocytosed material and can cause tissue damage once released — they act after a leukocyte has already arrived, not as a signal that draws it there."
+      },
+      "main_concept": "CON-IMM-96D7626B256F92",
+      "concept_ids": [
+        "CON-IMM-96D7626B256F92"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Name C5a among the chemotactic factors for leukocytes, as distinct from vasoactive/pain mediators (histamine, prostaglandins) and post-arrival digestive enzymes.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "module_subject": "208 INT > Chapter 1 Inflammation > Cellular Events",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.2",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"11.C\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q12",
+      "id": "QST-KASR208INT-2023EOM-Q12",
+      "page": 2,
+      "title": "Cellular events of acute inflammation",
+      "question": "As regard the cellular events of acute inflammation:",
+      "options": {
+        "A": "Neutrophils then monocytes accumulate within the extravascular space",
+        "B": "The adhesion of neutrophils to the vascular endothelium at the sites of acute inflammation is called 'rolling'",
+        "C": "Integrin play a role in margination",
+        "D": "Emigration of leucocytes is followed by leucopenia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Leukocyte recruitment proceeds neutrophils first, then monocytes, accumulating within the extravascular space — this order (not the reverse) is stated directly in the department book's account of cellular events. Getting this order right also explains why a blood film taken early in acute inflammation is neutrophil-predominant, with monocytes rising only later as the reaction matures.",
+        "B": "Incorrect. The firm adhesion of leukocytes to the endothelium is called pavementing, mediated by integrins; rolling is the earlier, loose, tumbling adhesion mediated by selectins — the two terms name different steps, and this option applies the wrong one.",
+        "C": "Incorrect. Margination is the physical shift of neutrophils out of the axial blood stream into the peripheral plasmatic zone, caused by slowed flow and increased plasma viscosity — it precedes any adhesion molecule engagement; integrins act at the later pavementing (firm adhesion) step, not margination.",
+        "D": "Incorrect. Emigration of leukocytes out of the vessel depletes the local marginating pool, not the total circulating white cell count — the systemic response to acute inflammation is typically leukocytosis (driven by cytokine-stimulated colony-stimulating factors), not leucopenia."
+      },
+      "main_concept": "CON-FND-759929134FF959",
+      "concept_ids": [
+        "CON-FND-759929134FF959"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Hard",
+      "question_type": "Mechanism",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Sequence the cellular events of acute inflammation correctly (neutrophils before monocytes; selectins for rolling, integrins for pavementing) and reject the leucopenia distractor.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "module_subject": "208 INT > Chapter 1 Inflammation > Cellular Events",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.2",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"12.A\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q13",
+      "id": "QST-KASR208INT-2023EOM-Q13",
+      "page": 3,
+      "title": "Key cells of chronic inflammation",
+      "question": "The key cells in chronic inflammation:",
+      "options": {
+        "A": "Lymphocytes",
+        "B": "Plasma cells",
+        "C": "Macrophages",
+        "D": "Eosinophils"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This is also textbook-correct (the department book's own formative-assessment answer names lymphocytes, plasma cells and macrophages together as the chronic-inflammation cell types), but the paper's own printed key marks (c) as the answer, and macrophages are singled out as THE key cell because they drive both the tissue damage and the fibrotic repair that define the chronic picture.",
+        "B": "This is also textbook-correct for the same reason as (a) — plasma cells (activated B lymphocytes) are named among the chronic inflammation cell types — but the keyed answer is macrophages specifically, the cell the department book calls 'a key cell in chronic inflammation' in its own dedicated subsection.",
+        "C": "Correct. The macrophage is the key cell in chronic inflammation: it is activated by microbial products or T-cell cytokines to proliferate, persist at the site, and secrete both the proteolytic enzymes that cause ongoing tissue damage and the growth factors that drive fibrotic repair. Recognising macrophages as the single defining cell — rather than any one of the several mononuclear types present — is what lets a student distinguish chronic inflammation from the neutrophil-dominated picture of an acute process.",
+        "D": "Incorrect. Eosinophils are characteristically found in parasitic infections and IgE-mediated allergic reactions, not as the general key cell of chronic inflammation, which is dominated by macrophages, lymphocytes and plasma cells."
+      },
+      "main_concept": "CON-FND-685D424733A1DB",
+      "concept_ids": [
+        "CON-FND-685D424733A1DB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the macrophage as the key cell of chronic inflammation, distinct from eosinophils, and recognise lymphocytes/plasma cells as fellow mononuclear cells rather than wrong answers.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "module_subject": "208 INT > Chapter 1 Inflammation > Chronic Inflammation",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.3",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"13.C\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q14",
+      "id": "QST-KASR208INT-2023EOM-Q14",
+      "page": 3,
+      "title": "Sinus definition",
+      "question": "A sinus is:",
+      "options": {
+        "A": "A local defect within a surface",
+        "B": "A blind-ended tract",
+        "C": "A tract communicating between two surfaces",
+        "D": "Overdone repair"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A local defect within a surface, from separation of inflammatory necrotic tissue, describes an ulcer — a sinus is a tract, not a surface defect.",
+        "B": "Correct. A sinus is a blind-ended tract between a deep-seated focus (typically an abscess) and the body surface — for example a peritoneal abscess tracking to the abdominal wall — with exactly one open end. This single-open-end anatomy is exactly why a chronic sinus, unlike a fistula, only ever needs one external opening explored on examination.",
+        "C": "Incorrect. A tract communicating between two surfaces or hollow organs is a fistula, which has two open ends, not one — an ano-rectal fistula from a perianal abscess is the worked example.",
+        "D": "Incorrect. Overdone repair — excessive fibroblast proliferation and collagen production after dermal injury — describes a keloid, a genetically determined complication unrelated to tract formation."
+      },
+      "main_concept": "CON-FND-D798D9598473F6",
+      "concept_ids": [
+        "CON-FND-D798D9598473F6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define a sinus as a blind-ended tract, distinguishing it from an ulcer (surface defect), a fistula (double-ended tract) and a keloid (overdone repair).",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "module_subject": "208 INT > Chapter 1 Inflammation > Complications of Abscess",
+      "source_citation": "Kasr Al Ainy 208 INT EOM 2023 exam paper, p.3",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"14.B\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q15",
+      "id": "QST-KASR208INT-2023EOM-Q15",
+      "page": 4,
+      "title": "PSA tumor marker",
+      "question": "PSA is a marker of:",
+      "options": {
+        "A": "Nephroblastoma",
+        "B": "Squamous cell carcinoma",
+        "C": "Prostatic carcinoma",
+        "D": "Granulosa cell tumour of ovary"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Nephroblastoma (Wilms tumor) is an embryonic tumor of the kidney, not marked by PSA.",
+        "B": "Incorrect. Squamous cell carcinoma is not tracked by PSA; on immunohistochemistry it is marked instead by cytokeratin, a general carcinoma marker.",
+        "C": "Correct. Prostatic specific antigen (PSA) is the department book's named antigen-class tumor marker for cancer of the prostate, used to help detect it and monitor treatment response or recurrence. PSA is elevated by benign prostatic hyperplasia too, which is why it screens for but cannot alone diagnose prostate cancer.",
+        "D": "Incorrect. Granulosa cell tumour of the ovary is not the tumor PSA marks; the department book's table assigns PSA specifically to prostate cancer."
+      },
+      "main_concept": "CON-FND-B56A1400847F2D",
+      "concept_ids": [
+        "CON-FND-B56A1400847F2D"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name PSA as the tumor marker for prostatic carcinoma.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Laboratory Diagnosis of Cancer",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"15.C\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q16",
+      "id": "QST-KASR208INT-2023EOM-Q16",
+      "page": 4,
+      "title": "Aflatoxin and hepatocellular carcinoma",
+      "question": "Aflatoxins are carcinogen for:",
+      "options": {
+        "A": "Bronchogenic carcinoma",
+        "B": "Renal cell carcinoma",
+        "C": "Hepatocellular carcinoma",
+        "D": "Urothelial carcinoma of the bladder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Bronchogenic carcinoma is linked instead to aromatic hydrocarbons such as 3,4-benzpyrene in cigarette smoke, not to aflatoxin.",
+        "B": "Incorrect. Renal cell carcinoma is not the department book's named target of aflatoxin exposure.",
+        "C": "Correct. Aflatoxins, produced by the fungus Aspergillus flavus (a food/grain contaminant), cause hepatic (hepatocellular) carcinoma — a distinct chemical route from hepatitis B virus's viral one to the same organ. Aflatoxin exposure is a recognised co-factor with chronic hepatitis B infection in regions where hepatocellular carcinoma incidence is highest.",
+        "D": "Incorrect. Urothelial (bladder) carcinoma is linked instead to aromatic amines such as beta-naphthylamine, not to aflatoxin."
+      },
+      "main_concept": "CON-FND-D1D48A5564E978",
+      "concept_ids": [
+        "CON-FND-D1D48A5564E978"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Name aflatoxin (Aspergillus flavus) as a chemical carcinogen for hepatocellular carcinoma, distinct from other named carcinogen-tumor pairs.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Carcinogenic Agents",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"16.C\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q17",
+      "id": "QST-KASR208INT-2023EOM-Q17",
+      "page": 4,
+      "title": "Epstein-Barr virus and Burkitt's lymphoma",
+      "question": "Epstein-Barr virus is a cause the following tumor:",
+      "options": {
+        "A": "Burkitt's lymphoma",
+        "B": "Lung carcinoma",
+        "C": "T cell lymphoma",
+        "D": "Basal cell carcinoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Epstein-Barr virus (EBV) is implicated in Burkitt's lymphoma, nasopharyngeal carcinoma, other B-cell lymphomas, and some Hodgkin's lymphoma. The same virus’s differing tumor associations by geography — Burkitt’s lymphoma in endemic malaria regions, nasopharyngeal carcinoma in parts of East Asia — is a well-recognised teaching point built on this same viral mechanism.",
+        "B": "Incorrect. Lung carcinoma is linked to physical/chemical carcinogens (ionizing radiation, aromatic hydrocarbons), not EBV.",
+        "C": "Incorrect. T-cell leukemia/lymphoma is the department book's named tumor for HTLV-1, a different virus from EBV.",
+        "D": "Incorrect. Basal cell carcinoma is linked to ultraviolet radiation exposure as a physical carcinogen, not to EBV."
+      },
+      "main_concept": "CON-FND-4BA8E4B11685CA",
+      "concept_ids": [
+        "CON-FND-4BA8E4B11685CA"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Name Burkitt's lymphoma among the tumors caused by Epstein-Barr virus, distinguishing it from tumors caused by other named carcinogens.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Carcinogenic Agents",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"17.A\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q18",
+      "id": "QST-KASR208INT-2023EOM-Q18",
+      "page": 4,
+      "title": "Guardian of the genome",
+      "question": "The following is the guardian of the genome:",
+      "options": {
+        "A": "TP53 gene",
+        "B": "RB gene",
+        "C": "Bcl2 gene",
+        "D": "MYC gene"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. TP53 is the prototypic 'guardian' tumor suppressor gene, sensing genomic damage and arresting the cycle for repair or triggering apoptosis if the damage cannot be repaired; its mutation does not directly transform cells but permits and accelerates further mutation. Because TP53 loss only accelerates further mutation rather than directly transforming a cell, its guardian role is functionally distinct from a governor gene like RB, even though both are tumor suppressors.",
+        "B": "Incorrect. RB is a 'governor' tumor suppressor gene, whose product directly stops cell proliferation — a different functional class from the guardian TP53, even though both are tumor suppressors.",
+        "C": "Incorrect. BCL2 is an anti-apoptotic gene, not a guardian of the genome — its overexpression (e.g. in follicular lymphoma) prevents cell death rather than sensing DNA damage.",
+        "D": "Incorrect. MYC is a proto-oncogene encoding a DNA transcription factor; its amplification drives cancer (e.g. in neuroblastoma) rather than guarding genomic integrity."
+      },
+      "main_concept": "CON-FND-C9F89672B04076",
+      "concept_ids": [
+        "CON-FND-C9F89672B04076"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify TP53 as the guardian of the genome, distinct from the governor tumor suppressor RB and the oncogenes BCL2/MYC.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Molecular Basis of Cancer",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"18.A\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q19",
+      "id": "QST-KASR208INT-2023EOM-Q19",
+      "page": 4,
+      "title": "Categories of oncogenes",
+      "question": "The following are groups of oncogenes EXCEPT:",
+      "options": {
+        "A": "Genes which produce growth factors",
+        "B": "Genes which produce the growth factor receptors",
+        "C": "Genes which encode signal transduction",
+        "D": "Genes which encode products stop cell proliferation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS a genuine oncogene category, making it not the exception). Genes producing growth factors are one of the department book's four named oncogene categories.",
+        "B": "Incorrect (this IS a genuine oncogene category, making it not the exception). Genes producing growth factor receptors (e.g. erbB2/HER2) are a named oncogene category.",
+        "C": "Incorrect (this IS a genuine oncogene category, making it not the exception). Genes encoding signal transduction proteins (e.g. RAS) are a named oncogene category.",
+        "D": "Correct. Genes whose products stop cell proliferation describe tumor suppressor genes, the functional opposite of oncogenes — an oncogene by definition drives proliferation, so this category cannot belong among the oncogene groups. Every genuine oncogene category instead promotes proliferation in some way — producing a growth factor, its receptor, a signal-transduction protein, or a transcription factor — which is the opposite function from stopping it."
+      },
+      "main_concept": "CON-FND-C9F89672B04076",
+      "concept_ids": [
+        "CON-FND-C9F89672B04076"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise that 'genes that stop proliferation' describes tumor suppressor genes, not one of the four oncogene categories.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Molecular Basis of Cancer",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"19.D\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q20",
+      "id": "QST-KASR208INT-2023EOM-Q20",
+      "page": 4,
+      "title": "Disordered proliferation term",
+      "question": "Disordered proliferation of cells is known as:",
+      "options": {
+        "A": "Metaplasia",
+        "B": "Hyperplasia",
+        "C": "Dysplasia",
+        "D": "Atrophy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Metaplasia is replacement of one mature differentiated cell type by another, not disordered proliferation of a single cell type.",
+        "B": "Incorrect. Hyperplasia is increased cell number by division, but the cells remain normally organised and shaped — it is ordered, reversible growth, not disordered proliferation.",
+        "C": "Correct. Dysplasia is non-neoplastic disordered proliferation of cells, usually induced by prolonged irritation, and is characterised by loss of normal orderly arrangement (polarity), cellular pleomorphism and nuclear hyperchromasia, and increased mitosis. Dysplasia’s hallmark loss of polarity and increased mitotic activity is also what makes it gradable as low- or high-grade, with high-grade dysplasia sitting immediately before carcinoma in situ.",
+        "D": "Incorrect. Atrophy is a decrease in organ size and weight from decreased cell size, the opposite of a proliferative process."
+      },
+      "main_concept": "CON-FND-31B9E6BCCD93E4",
+      "concept_ids": [
+        "CON-FND-31B9E6BCCD93E4"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name dysplasia as disordered, non-neoplastic cellular proliferation with loss of polarity, distinct from metaplasia, hyperplasia and atrophy.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Disorders of Growth",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"20.C\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q21",
+      "id": "QST-KASR208INT-2023EOM-Q21",
+      "page": 4,
+      "title": "Sites of squamous metaplasia",
+      "question": "Squamous metaplasia does not occur in the following site:",
+      "options": {
+        "A": "Bronchial epithelium in cigarette smokers",
+        "B": "Gall bladder due to gall stones",
+        "C": "Lower end of esophagus",
+        "D": "Urinary bladder epithelium in association with Bilharziasis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (squamous metaplasia DOES occur here, making it not the exception). In heavy cigarette smokers, the pseudostratified columnar ciliated epithelium of the bronchi transforms into stratified squamous epithelium, protective but without cilia, so the mucociliary escalator stops working.",
+        "B": "Incorrect (squamous metaplasia DOES occur here, making it not the exception). The department book names columnar epithelium of the bile duct and gall bladder undergoing squamous metaplasia due to gall stones as one of its worked examples.",
+        "C": "Correct. The lower esophagus undergoes the opposite change: normal squamous epithelium is replaced by columnar epithelium (Barrett's esophagus), which is glandular/intestinal metaplasia, not squamous metaplasia — so this is the site where squamous metaplasia does NOT occur. Recognising this direction of change also explains why Barrett’s esophagus is grouped with intestinal, not squamous, metaplasia in this teaching, even though both are adaptive responses to chronic irritation.",
+        "D": "Incorrect (squamous metaplasia DOES occur here, making it not the exception). Transitional bladder epithelium converts to squamous epithelium in the presence of Schistosoma haematobium ova, the same mechanism reused from the Year-1 concept on this metaplasia."
+      },
+      "main_concept": "CON-FND-5AD09BF9FC2420",
+      "concept_ids": [
+        "CON-FND-5AD09BF9FC2420"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Distinguish sites of squamous metaplasia (bronchus, gallbladder, bladder) from Barrett's esophagus, where the metaplastic change runs the opposite direction (squamous to columnar).",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-FND-208INT-NEOPLASIA-BASICS"
+      ],
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ],
+      "source_citation": "Kasr Al Ainy 208 INT Pathology Department Book, p.36 (Epithelial Metaplasia); Kasr Al Ainy 208 INT EOM 2023 exam paper, Q21",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Metaplasia",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"21.C\")",
+        "conceptReuse": "Main concept CON-FND-5AD09BF9FC2420 is a Kasr Year-1 (101 ISK) id whose own body covers only the bronchus/bladder examples; the gallbladder and esophagus reasoning above is sourced from the 208 INT department book directly (p.36), not from editing the reused Year-1 record."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q22",
+      "id": "QST-KASR208INT-2023EOM-Q22",
+      "page": 5,
+      "title": "Malignant cachexia mechanism",
+      "question": "Which of the following is FALSE about malignant cachexia:",
+      "options": {
+        "A": "Marked decrease of body fat and lean body mass",
+        "B": "Marked weakness and anemia",
+        "C": "Cachexia results due to nutritional demands of the tumor",
+        "D": "Cachexia results from action of cytokines produced by tumor and host macrophages"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is true, not the FALSE option). Marked decrease in body fat and lean body mass is a defining feature of cachexia.",
+        "B": "Incorrect (this is true, not the FALSE option). Marked weakness and anemia accompany the wasting of malignant cachexia.",
+        "C": "Correct — this is the FALSE statement. Cachexia does NOT result from the tumor's nutritional demands on the host, even though there is some correlation between tumor size/spread and its severity; the department book states this exclusion explicitly. This distinction matters clinically because feeding a cachectic cancer patient more aggressively does not reverse the wasting, since the process is cytokine-driven rather than a simple calorie deficit.",
+        "D": "Incorrect (this is true, not the FALSE option). Cachexia results from the action of soluble factors — cytokines such as TNF, produced by both the tumor and host macrophages — acting on host metabolism."
+      },
+      "main_concept": "CON-FND-AA08F4558D39DB",
+      "concept_ids": [
+        "CON-FND-AA08F4558D39DB"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that malignant cachexia results from cytokine action, not from the tumor's own nutritional demands.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Clinical Aspects of Neoplasia",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"22.C\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q23",
+      "id": "QST-KASR208INT-2023EOM-Q23",
+      "page": 5,
+      "title": "Proto-oncogenes definition",
+      "question": "Normal cellular genes that encode proteins that drive cell proliferation are:",
+      "options": {
+        "A": "Proto-oncogenes",
+        "B": "Oncogenes",
+        "C": "Tumor suppressor genes",
+        "D": "Apoptotic genes"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Proto-oncogenes are normal cellular genes whose products drive cell proliferation — they are present and functioning in every healthy cell, before any mutation. It is only after a gain-of-function change — point mutation, translocation or amplification — that a proto-oncogene becomes the pathological oncogene form.",
+        "B": "Incorrect. Oncogenes are the mutated, cancer-causing form a proto-oncogene becomes after a gain-of-function change; they are not the normal, unmutated gene.",
+        "C": "Incorrect. Tumor suppressor genes normally restrain proliferation or sense DNA damage — the functional opposite of driving it.",
+        "D": "Incorrect. Genes that control apoptosis regulate programmed cell death, a distinct process from proliferation."
+      },
+      "main_concept": "CON-FND-C9F89672B04076",
+      "concept_ids": [
+        "CON-FND-C9F89672B04076"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define proto-oncogenes as the normal, unmutated genes driving cell proliferation, distinct from their mutated oncogene form.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Molecular Basis of Cancer",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"23.A\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q24",
+      "hold": "Printed key marks (c) 'Carcinoma in situ of squamous epithelium' as the definition of leukoplakia, but the department book's own definition (p.36) explicitly calls leukoplakia 'a precursor lesion to squamous cell carcinoma' -- i.e. a step BEFORE carcinoma in situ, not the same entity -- and separately defines carcinoma in situ (p.37) as a distinct, more advanced full-thickness-atypia lesion. This is a key-vs-source contradiction (kasr-pdf-extraction-traps); held rather than authored against a key the department book itself contradicts."
+    },
+    {
+      "key": "2023eom-q25",
+      "id": "QST-KASR208INT-2023EOM-Q25",
+      "page": 5,
+      "title": "Histological differentiation of malignant tumors",
+      "question": "As regard the histological differentiation of malignant tumors:",
+      "options": {
+        "A": "Anaplastic cells show normal polarity",
+        "B": "Anaplastic cells show cytologic abnormalities",
+        "C": "Sarcomas may be graded as well differentiated, moderately differentiated, poorly differentiated and undifferentiated",
+        "D": "Better differentiated tumors tend to show great cellular anaplasia and grow faster"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Loss of normal polarity (architectural orientation) is a defining feature of anaplasia, not something anaplastic cells retain — this is the reverse of the true relationship.",
+        "B": "This statement is also textbook-true — anaplastic cells do show cytologic abnormalities (pleomorphism, hyperchromatism, abnormal mitoses), which is what anaplasia means — but the paper's own printed key marks (c) as the intended answer, and grading by differentiation is the more specific fact this question is built to test.",
+        "C": "Correct. Malignant mesenchymal tumors (sarcomas) are, like carcinomas, graded across the same well differentiated / moderately differentiated / poorly differentiated / undifferentiated spectrum, tracking how closely the tumor still resembles its tissue of origin. This grading-by-differentiation principle applies across both major malignant tumor families, giving sarcomas the same four-tier prognostic language pathologists already use for carcinomas.",
+        "D": "Incorrect. The relationship runs the opposite way — better-differentiated tumors show LESS cellular anaplasia and grow SLOWER, while undifferentiated tumors show the greatest anaplasia and grow fastest."
+      },
+      "main_concept": "CON-FND-D75B95517F50CF",
+      "concept_ids": [
+        "CON-FND-D75B95517F50CF"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that sarcomas, like carcinomas, are graded across a well-to-undifferentiated spectrum, and recognise that (b) is a true but non-keyed distractor while (a) and (d) invert the real anaplasia-grade relationship.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Characteristics of Malignant Tumors",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"25.C\")"
+      },
+      "author_notes": "Option (b) is independently true per the department book's own definition of anaplasia (p.40-41), which makes this item a true-statement question with two textbook-correct options; authored on the printed key (c) as the intended answer, with (b) explained as correct-but-not-keyed rather than as a wrong distractor."
+    },
+    {
+      "key": "2023eom-q27",
+      "id": "QST-KASR208INT-2023EOM-Q27",
+      "page": 5,
+      "title": "Squamous cell carcinoma immunohistochemistry marker",
+      "question": "Immunohistochemical study of squamous cell carcinoma show strong expression of which of the following tumor markers:",
+      "options": {
+        "A": "Vimentin",
+        "B": "Cytokeratin",
+        "C": "Alpha feto-protein",
+        "D": "Calcitonin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Vimentin is the department book's named immunohistochemical marker for sarcomas (mesenchymal tumors), not carcinomas.",
+        "B": "Correct. Cytokeratins (CK) are present in carcinomas — squamous cell carcinoma, an epithelial malignancy, is expected to stain strongly positive for cytokeratin on immunohistochemistry. A cytokeratin-negative, vimentin-positive result on the same specimen would instead point away from carcinoma and toward a sarcoma, which is exactly why this marker pair is used to resolve ambiguous poorly differentiated tumors.",
+        "C": "Incorrect. Alpha-fetoprotein is the oncofetal-antigen marker for hepatocellular carcinoma, not for squamous cell carcinoma.",
+        "D": "Incorrect. Calcitonin is the hormone marker for medullary carcinoma of the thyroid, not for squamous cell carcinoma."
+      },
+      "main_concept": "CON-FND-B56A1400847F2D",
+      "concept_ids": [
+        "CON-FND-B56A1400847F2D"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Name cytokeratin as the immunohistochemical marker expressed by carcinomas, including squamous cell carcinoma, versus vimentin (sarcomas), AFP (hepatocellular) and calcitonin (medullary thyroid).",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Laboratory Diagnosis of Cancer",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"27.B\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q29",
+      "id": "QST-KASR208INT-2023EOM-Q29",
+      "page": 6,
+      "title": "Hypertrophy definition",
+      "question": "Hypertrophy is:",
+      "options": {
+        "A": "Disordered atypical non-neoplastic cellular proliferation",
+        "B": "Increase in the size of the cells",
+        "C": "Uncontrolled autonomous cell growth",
+        "D": "Increase in the number of the cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Disordered, atypical, non-neoplastic cellular proliferation describes dysplasia, not hypertrophy.",
+        "B": "Correct. Hypertrophy is increased size and weight of an organ due to increase in the size of its cells, from synthesis and assembly of additional intracellular structural components — without cell division. Because no new cells are made, hypertrophy can only increase organ mass up to the limit of how much each existing cell can enlarge, which is why sustained pathological hypertrophy (e.g. in hypertensive heart disease) eventually fails.",
+        "C": "Incorrect. Uncontrolled, autonomous cell growth describes neoplasia, which is irreversible and independent of any ongoing stimulus, unlike hypertrophy, which is reversible and stimulus-dependent.",
+        "D": "Incorrect. An increase in the number of cells by division describes hyperplasia, the companion adaptation to hypertrophy but mechanistically distinct from it."
+      },
+      "main_concept": "CON-FND-31B9E6BCCD93E4",
+      "concept_ids": [
+        "CON-FND-31B9E6BCCD93E4"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define hypertrophy as increased cell size without division, distinct from hyperplasia (increased cell number), dysplasia and neoplasia.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Disorders of Growth",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"29.B\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q30",
+      "id": "QST-KASR208INT-2023EOM-Q30",
+      "page": 6,
+      "title": "Metaplasia as a precancerous condition",
+      "question": "Metaplasia may be a precancerous condition in all EXCEPT:",
+      "options": {
+        "A": "Squamous metaplasia of the urinary bladder epithelium",
+        "B": "Squamous metaplasia of the bronchial epithelium",
+        "C": "Intestinal metaplasia of the gastric mucosa",
+        "D": "Apocrine metaplasia in fibrocystic disease of the breast"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS linked to malignancy risk, making it not the exception). Squamous metaplasia of the bladder in bilharziasis is directly named as a site where squamous cell carcinoma develops on top of the metaplastic change.",
+        "B": "Incorrect (this IS linked to malignancy risk, making it not the exception). Squamous metaplasia of bronchial epithelium in smokers is associated with squamous cell carcinoma risk.",
+        "C": "Incorrect (this IS linked to malignancy risk, making it not the exception). Intestinal metaplasia of the gastric mucosa is one of the named hyperplastic/metaplastic/dysplastic precancerous lesions in the department book's non-hereditary preneoplastic disorders list.",
+        "D": "Correct. Apocrine metaplasia in fibrocystic disease of the breast does not carry the same premalignant association in this teaching — of the four sites tested, it is the one the department book's preneoplastic list does not name. This is why apocrine metaplasia in fibrocystic breast disease is generally treated as a benign finding on biopsy, unlike squamous or intestinal metaplasia at the other three sites, which prompt closer surveillance."
+      },
+      "main_concept": "CON-FND-7F1B5B78F0DF85",
+      "concept_ids": [
+        "CON-FND-7F1B5B78F0DF85"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify apocrine breast metaplasia as not carrying the premalignant association that bladder, bronchial and gastric metaplasia carry in this teaching.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Metaplasia",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"30.D\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q32",
+      "id": "QST-KASR208INT-2023EOM-Q32",
+      "page": 6,
+      "title": "Microscopic features of tumors",
+      "question": "As regard the microscopic Features of tumors:",
+      "options": {
+        "A": "The benign tumors are undifferentiated",
+        "B": "Histologic differentiation means the degree of resemblance of the structural pattern of the tumor to that of the normal tissue",
+        "C": "Malignant cells always show low grade (mild) of cellular anaplasia",
+        "D": "All the malignant tumors are well differentiated"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Benign tumors are well (perfectly) differentiated, closely mimicking the normal tissue they arose from — the opposite of undifferentiated.",
+        "B": "Correct. Histologic differentiation is defined as the degree to which a tumor's structural pattern resembles the normal tissue it arose from — this is the department book's own working definition of the term. This resemblance-to-normal-tissue framing is exactly why a well-differentiated adenocarcinoma still forms recognisable glandular structures, while a poorly differentiated one grows as featureless sheets of cells.",
+        "C": "Incorrect. Malignant cells show grades of anaplasia ranging from mild to marked, not always low grade — grade tracks with aggressiveness across a real range, not a fixed mild level.",
+        "D": "Incorrect. Malignant tumors range from well differentiated (grade I) to undifferentiated (grade IV) — they are not all well differentiated, and undifferentiated tumors are in fact the most aggressive."
+      },
+      "main_concept": "CON-FND-D75B95517F50CF",
+      "concept_ids": [
+        "CON-FND-D75B95517F50CF"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Define histologic differentiation as structural resemblance to normal tissue, and reject the claims that benign tumors are undifferentiated or that malignant tumors are uniformly low-grade or well differentiated.",
+      "media_recommendations": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Characteristics of Malignant Tumors",
+      "field_notes": {
+        "keySource": "printed answer table p.21 (\"32.B\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "2023eom-q54",
+      "hold": "The department book's readable pages (61, Carcinogenic Agents > Viruses) support only 'Human papilloma virus causes cervical carcinoma and some forms of carcinoma of skin cancers' -- no strain-specific detail (HPV 6/11 vs 16/18) and no mention of Kaposi's sarcoma either way. Q54 asks which statement about HPV is FALSE, including a Kaposi's-sarcoma-exclusion distractor and a strain-typing distractor, neither of which this source supports well enough to write a book-grounded 3+ sentence explanation for every option (LANE-BRIEF rule 1: a definition/answer not in the cached page text is left blank, never filled from model knowledge). A second, more specific source (e.g. the 208 INT microbiology/oncology bank, or a render of a different HPV-focused page) is needed before this item can be authored."
+    }
+  ]
+}
