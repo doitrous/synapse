@@ -2,6 +2,12 @@
 # (source: mid module BOS 101 module 1 october.pdf [M1] + mid module BOS 101 module 2.pdf [M2])
 # One tested idea per line. Q-numbers refer to the source papers; keys recovered by
 # matching the printed Moodle respondent-count to an answer option, not by inference.
+#
+# `BOS final exam 20-21 (o6u bot).PDF` (29p) was OCR'd and triaged 2026-09-02: NO PRINTED
+# KEY -- it is one respondent's own MS-Forms exam submission (not a graded key), with
+# demonstrable errors in the respondent's own marked answers. Chief-of-staff ruling: held,
+# do not author, do not invent editorial keys. No keys added below. Full inventory in
+# coverage/O6U-IBS-IBF-triage.md, "BOS final exam" section.
 
 M1-1  epithelium derives from the three germ layers -- pending (101-ISK-mcq-concepts)
 M1-2  compound gland = branched duct -- pending (101-ISK-mcq-concepts)

@@ -19,7 +19,7 @@ pool sitting behind these files on Desktop.
 |--:|---|---|
 | 1 | `mid module BOS 101 module 1 october.pdf` | 9p / 1106 words, 0 garbled -- **fully native, fully keyed**: Moodle quiz-export format states "`<pct>`% of respondents (`<n>` of `<total>`) answered this question correctly" per question, and one answer option's printed vote count equals `<n>` -- see `coverage/O6U-IBS-IBF-triage.md`. 25 questions, all recoverable. |
 | 1 | `mid module BOS 101 module 2.pdf` | 9p / 1142 words, 0 garbled -- same Moodle-export format, 25 questions (largely the same question pool re-sat by a different cohort; one printed-key conflict at Q6, see triage doc). |
-| 1 | `BOS final exam 20-21 (o6u bot).PDF` | 29p, fully garbled (0 words) -- needs OCR, not yet triaged. |
+| 1 | `BOS final exam 20-21 (o6u bot).PDF` | 29p, fully garbled (0 words) -- OCR'd in full, triaged 2026-09-02: **no printed key**. It is one respondent's ("Ahmed's") own completed MS-Forms exam attempt, not a graded/official key -- at least 3 of the respondent's own marked answers are demonstrably wrong (primary-structure bond, mast-cell/anaphylaxis, phagocytosis-vs-facilitated-diffusion). Chief-of-staff ruling: do not author from it, do not invent editorial keys. Full inventory: `coverage/O6U-IBS-IBF-triage.md` §"BOS final exam". |
 | 1 | `mid module BOS 4.pdf` | 5p, fully garbled (0 words) -- needs OCR, not yet triaged. |
 
 ## O6U-IPA-107 (`GMD` folder)
