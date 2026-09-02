@@ -147,3 +147,41 @@ Instructor-authored MCQ bank with worked explanations (Dr Abdallah Salah, 2nd pr
 0.75
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_3cd975bf1e54eb95af19
+## title
+Symphony of Pink & Purple — General Pathology Book Part 1
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+208 INT/EOM/EOM - SYMPHONY OF PINK & PURPLE GENERAL PATHOLOGY BOOK PART 1.pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+158
+## sha256
+3cd975bf1e54eb95af1955d73f61216d491d60c259477ccd332ec06c8b026f9e
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it.
+## qualification
+Student-compiled general pathology revision notes (tier 6, sits in the EOM folder but reads as exam-section revision material, not a sat paper — manifest sourceTier 6, sourceCategory "Exam-section revision material", instructor field "SYMPHONY OF PINK & PURPLE"). Used only to ground the "fate of tumor emboli" fact (most destroyed by immune mechanisms, survivors protected by platelet adherence) that the [1st priority] department book's own hematogenous-spread section does not state explicitly. Native text layer, quotable verbatim. Local curriculum, lower-confidence than the department book — not independent medical authority.
+## confidence
+0.6
+## is_assessment
+false

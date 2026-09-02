@@ -1653,3 +1653,143 @@ Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
 0.75
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-GRANULOMA-DEFINITION-01
+## claim_id
+CLM-FND-208INT-GRANULOMA-DEFINITION-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+2. Granulomatous inflammation (granuloma): Definition: Granulomatous inflammation is a specific pattern of chronic inflammation characterized by the localized aggregation of activated macrophages (granuloma). Morphology of granuloma: These aggregates form tiny granules which fuse to form a tumor like mass hence the suffix -oma. It is formed of a localized aggregate of macrophages, which are activated and transformed into so-called epithelioid cells surrounded by a cuff of lymphocytes.
+## locator_type
+printed_page
+## locator_page
+17
+## locator_section
+Types of chronic inflammation — Granulomatous inflammation (granuloma)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-TNF-ADHESION-MOLECULES-01
+## claim_id
+CLM-FND-208INT-TNF-ADHESION-MOLECULES-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Two of the most important cytokines mediating inflammation and produced by macrophages are: Tumor necrosis factor (TNF) and interleukin-1, which enhance the expression of adhesion molecules on endothelium and inflammatory cells, activating fibroblasts for later healing and induce systemic response such as fever, lethargy, neutrophilia. [Table] Vasodilation — Histamine and Prostaglandins. Increased vascular permeability — Histamine, C3a, C5a and Leukotrienes. Chemotaxis, leukocyte recruitment & activation — TNF, IL-1, C3a, C5a and Leukotrienes. Fever — IL-1, TNF and Prostaglandins. Pain — Prostaglandins & Bradykinin.
+## locator_type
+printed_page
+## locator_page
+9
+## locator_section
+Chemical Mediators and Regulators of Inflammation — Cytokines; Table, Role of Mediators in Different Reactions of Inflammation (p.10)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-EMBRYONIC-TUMORS-01
+## claim_id
+CLM-FND-208INT-EMBRYONIC-TUMORS-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+II. EMBRYONIC TUMORS: Definition, origin and age: Embryonic tumors are malignant tumors derived from embryonic cell remnants in infants and young children... Examples: 1. Neuroblastoma of adrenal medulla & sympathetic ganglia. 2. Retinoblastoma of eye. 3. Nephroblastoma of kidney. 4. Hepatoblastoma of liver. 5. Medulloblastoma of brain. [Table 3.5] Human Chorionic Gonadotrophin — Trophoblastic tumors.
+## locator_type
+printed_page
+## locator_page
+55
+## locator_section
+Embryonic Tumors; Table 3.5 tumor markers (p.64, hCG/trophoblastic tumors row)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-CARCINOMA-IN-SITU-01
+## claim_id
+CLM-FND-208INT-CARCINOMA-IN-SITU-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Carcinoma In Situ (CIS): Definition: Carcinoma in situ (CIS) represents a pre-invasive stage of carcinoma involving the full thickness of the epithelium and is characterized by severe epithelial atypia (severe dysplasia) without invasion of the basement membrane... Microscopic features: Diffuse cellular atypia involving the whole thickness of the affected epithelium. The cells are pleomorphic with dark nuclei and numerous mitoses. Their architectural orientation (polarity) is disturbed. No invasion of basement membrane.
+## locator_type
+printed_page
+## locator_page
+37
+## locator_section
+Carcinoma In Situ (CIS)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-HEMATOGENOUS-SPREAD-01
+## claim_id
+CLM-FND-208INT-HEMATOGENOUS-SPREAD-01
+## resource_id
+src_3cd975bf1e54eb95af19
+## evidence_role
+local_curriculum
+## support_span
+Fate of emboli (tumor emboli): 3) Tumor cells enter circulation as emboli. Most are destroyed by immune mechanisms. Surviving tumor cells adhere to platelets which protects them from antitumor host immune cells. Finally surviving tumor cell emboli get impacted in small vessels where they adhere to endothelium, cross basement membrane and settle in new site (homing) where tumor cells proliferate forming metastatic deposits (2ry tumors).
+## locator_type
+printed_page
+## locator_page
+102
+## locator_section
+Fate of emboli (tumor emboli)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR. Cross-checked against the 208 INT Pathology Department Book's own hematogenous-spread section (src_71e9056fb934dc28806a, p.42-44) for the routes/sites facts (options a, c, d); that section does not itself state the immune-destruction fact this claim/citation covers.
+## context_note
+"Symphony of Pink & Purple — General Pathology Book Part 1", tier-6 student-compiled revision notes (208 INT/EOM folder) — lower-confidence than the department book; used only because the department book does not state this specific fact.
+## confidence
+0.6
+## counts_as_claim_evidence
+yes

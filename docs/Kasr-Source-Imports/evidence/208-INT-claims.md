@@ -1830,3 +1830,158 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Kasr Al Ainy 208 INT — Pharmacology, Anticoagulant Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-GRANULOMA-DEFINITION-01
+## concept_id
+CON-FND-2129BD0D77EC62
+## subject
+Granulomatous inflammation
+## predicate
+is defined as
+## object
+a specific pattern of chronic inflammation characterized by the localized aggregation of activated macrophages (epithelioid cells), which may fuse into multinucleated giant cells
+## display_text
+A granuloma is a localized aggregate of activated macrophages (epithelioid cells), the defining feature of granulomatous inflammation.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 1, Granulomatous Inflammation
+
+---
+
+# Item
+## id
+CLM-FND-208INT-TNF-ADHESION-MOLECULES-01
+## concept_id
+CON-FND-1ACF7810E53576
+## subject
+TNF and IL-1
+## predicate
+enhance
+## object
+the expression of adhesion molecules on endothelium and inflammatory cells, distinct from the mediators driving vasodilation, vascular permeability and pain
+## display_text
+TNF and IL-1 enhance adhesion-molecule expression on endothelium and inflammatory cells, not vasodilation, vascular permeability or pain.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 1, Chemical Mediators of Inflammation
+
+---
+
+# Item
+## id
+CLM-FND-208INT-EMBRYONIC-TUMORS-01
+## concept_id
+CON-FND-7A8E6E9B14047B
+## subject
+Embryonic tumors
+## predicate
+include
+## object
+neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma and medulloblastoma, but not choriocarcinoma, which is a trophoblastic tumor of a different lineage
+## display_text
+The department book's embryonic tumors are neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma and medulloblastoma; choriocarcinoma is a trophoblastic tumor, not one of them.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Embryonic Tumors
+
+---
+
+# Item
+## id
+CLM-FND-208INT-CARCINOMA-IN-SITU-01
+## concept_id
+CON-FND-91B66B24922754
+## subject
+Carcinoma in situ
+## predicate
+is characterized by
+## object
+full-thickness epithelial atypia with disturbed cellular polarity, but no invasion of the basement membrane
+## display_text
+Carcinoma in situ shows full-thickness cellular atypia and disturbed polarity, without basement-membrane invasion.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Carcinoma In Situ
+
+---
+
+# Item
+## id
+CLM-FND-208INT-HEMATOGENOUS-SPREAD-01
+## concept_id
+CON-FND-E795DC3D0573A3
+## subject
+Tumor emboli in hematogenous spread
+## predicate
+are mostly
+## object
+destroyed by host immune mechanisms, with only the surviving, platelet-protected emboli going on to seed metastases at the common sites (liver, lungs, bones, brain)
+## display_text
+Most tumor emboli in hematogenous spread are destroyed by host immune mechanisms before they can seed a metastasis.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.75
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Routes of Spread of Malignant Tumors

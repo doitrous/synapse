@@ -15297,3 +15297,704 @@ yes
 
 ## author_notes
 keySource: printed answer table p.21 ("120.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q05
+
+## title
+Definition of a granuloma
+
+## question
+By definition, granulomas are composed of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Cholesterol clefts
+
+## explanation_a
+Incorrect. Cholesterol clefts are a feature of lipid-rich lesions such as atherosclerotic plaques, not the defining composition of a granuloma.
+
+## answer_b
+Endothelial cells and fibroblasts
+
+## explanation_b
+Incorrect. Endothelial cells and proliferating fibroblasts, together with new capillaries, compose granulation tissue, the vascular tissue of early wound healing -- a different process from a granuloma despite the similar-sounding name.
+
+## answer_c
+Localized aggregation of activated macrophages
+
+## explanation_c
+Correct. Granulomatous inflammation is a specific pattern of chronic inflammation defined by the localized aggregation of activated macrophages, which fuse into tiny granules (hence the "-oma" suffix) and transform into epithelioid cells surrounded by a cuff of lymphocytes. Multiple macrophages may further fuse into multinucleated giant cells -- Langhans' type in tuberculous granulomas, foreign-body type around inert material -- and, with certain infectious organisms, a central zone of caseous necrosis can develop from hypoxia and free-radical injury. This localized, activated-macrophage aggregate is the one feature every granuloma shares, regardless of its underlying cause.
+
+## answer_d
+Hemosiderin-laden macrophages
+
+## explanation_d
+Incorrect. Hemosiderin-laden macrophages are seen where there has been chronic hemorrhage or congestion, such as "heart failure cells" in the lungs of patients with chronic pulmonary congestion -- a pigment-laden macrophage pattern unrelated to the definition of a granuloma.
+
+## topic
+Pathology
+
+## subtopic
+Inflammation and repair
+
+## main_concept
+CON-FND-2129BD0D77EC62
+
+## concept_ids
+CON-FND-2129BD0D77EC62
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 1 Inflammation > Chronic Inflammation > Granulomatous Inflammation
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Define a granuloma as a localized aggregation of activated macrophages, distinguishing it from granulation tissue, cholesterol clefts and hemosiderin pigmentation.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.2
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("5.C")
+gapClosing: Lane 1's original 56-cluster triage flagged this cluster 'pending' against a TB-specific granuloma hit (CON-INF-8658F6CDBBB685); on inspection that concept covers tuberculous granuloma formation specifically, not this general chronic-inflammation definition, so a new concept was minted. Authored in the lane-4 gap-closing pass (2023 EOM Q05, Q10, Q26, Q28, Q31 were neither authored nor held by lane 3).
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q10
+
+## title
+TNF effects in acute inflammation
+
+## question
+In acute inflammation TNF enhances:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Redness and hotness
+
+## explanation_a
+Incorrect. Redness and hotness reflect vasodilation, which the department book's own mediator table assigns to histamine and prostaglandins, not to TNF.
+
+## answer_b
+Expression of adhesion molecules on endothelium and inflammatory cells
+
+## explanation_b
+Correct. TNF and interleukin-1, the two principal cytokines mediating inflammation and produced by macrophages, enhance the expression of adhesion molecules on endothelium and inflammatory cells. This same cytokine pair also activates fibroblasts for later healing and induces the systemic response of fever, lethargy and neutrophilia. The department book's own mediator-to-effect table confirms adhesion-molecule expression (grouped with chemotaxis and leukocyte recruitment/activation) as a TNF/IL-1 effect, separate from the mediators driving vasodilation, permeability and pain.
+
+## answer_c
+Increase of vascular permeability
+
+## explanation_c
+Incorrect. Increased vascular permeability is attributed by the department book's mediator table to histamine, C3a, C5a and leukotrienes, not to TNF.
+
+## answer_d
+Pain
+
+## explanation_d
+Incorrect. Pain is attributed by the department book's mediator table to prostaglandins and bradykinin, not to TNF.
+
+## topic
+Pathology
+
+## subtopic
+Inflammation and repair
+
+## main_concept
+CON-FND-1ACF7810E53576
+
+## concept_ids
+CON-FND-1ACF7810E53576
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 1 Inflammation > Chemical Mediators > Cytokines (TNF and IL-1)
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+State that TNF (with IL-1) enhances adhesion-molecule expression on endothelium and inflammatory cells, and place that effect against the department book's own mediator-to-effect table rather than against vasodilation, permeability or pain.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.3
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("10.B")
+gapClosing: Not present in lane 1's original 56-cluster triage table (that pass did not separately flag this cytokine-effects question). Authored in the lane-4 gap-closing pass.
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q26
+
+## title
+Embryonic tumors -- the exception
+
+## question
+Embryonic Tumors include the following EXCEPT.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Neuroblastoma
+
+## explanation_a
+Incorrect (this IS an embryonic tumor, so it is not the EXCEPT answer). Neuroblastoma, arising from the adrenal medulla and sympathetic ganglia, is one of the department book's five named embryonic tumors.
+
+## answer_b
+Retinoblastoma
+
+## explanation_b
+Incorrect (this IS an embryonic tumor, so it is not the EXCEPT answer). Retinoblastoma of the eye is another of the department book's five named embryonic tumors.
+
+## answer_c
+Nephroblastoma
+
+## explanation_c
+Incorrect (this IS an embryonic tumor, so it is not the EXCEPT answer). Nephroblastoma of the kidney (Wilms tumor) is another of the department book's five named embryonic tumors.
+
+## answer_d
+Choriocarcinoma
+
+## explanation_d
+Correct -- this is the EXCEPT answer. Choriocarcinoma is not among the department book's five embryonic tumors (neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma, medulloblastoma), which are defined as malignant tumors of primitive, undifferentiated cells derived from embryonic remnants in infants and young children. The book's own tumor-marker table instead places choriocarcinoma's marker, human chorionic gonadotrophin, under a separate category, trophoblastic tumors -- a germ-cell/placental-tissue malignancy that typically presents in young adults, not the pediatric embryonic-cell-remnant family this question tests.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-7A8E6E9B14047B
+
+## concept_ids
+CON-FND-7A8E6E9B14047B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Embryonic Tumors
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Name neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma and medulloblastoma as the department book's embryonic tumors, and recognise choriocarcinoma as a trophoblastic tumor outside this family.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("26.D")
+gapClosing: Cluster 15 of lane 1's original 56-cluster triage table (flagged 'new', questions '26') -- triaged but never authored by lanes 1-3. Authored in the lane-4 gap-closing pass.
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q28
+
+## title
+Characteristic of carcinoma in situ
+
+## question
+The following is a characteristic of carcinoma in situ:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The architectural orientation (polarity) is not disturbed
+
+## explanation_a
+Incorrect. The department book's own microscopic description of carcinoma in situ states the opposite -- the cells' architectural orientation (polarity) IS disturbed, not preserved.
+
+## answer_b
+There is invasion of basement membrane
+
+## explanation_b
+Incorrect. Carcinoma in situ is specifically defined by the ABSENCE of basement-membrane invasion; once the basement membrane is invaded, the CIS phase ends and an actual invasive malignant tumor begins.
+
+## answer_c
+It is a benign condition
+
+## explanation_c
+Incorrect. Carcinoma in situ is a pre-invasive stage of carcinoma -- malignant-lineage tissue that has simply not yet crossed the basement membrane -- not a benign condition.
+
+## answer_d
+There is full thickness cellular atypia
+
+## explanation_d
+Correct. Carcinoma in situ represents a pre-invasive stage of carcinoma involving the full thickness of the epithelium, characterized by severe epithelial atypia (severe dysplasia) without invasion of the basement membrane. Microscopically it shows diffuse cellular atypia through the whole thickness of the affected epithelium, with pleomorphic cells, dark nuclei and numerous mitoses, and disturbed architectural polarity. High-grade dysplasia is the step that precedes and passes into carcinoma in situ, which is itself the last pre-invasive step before an actual, basement-membrane-crossing malignant tumor.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-91B66B24922754
+
+## concept_ids
+CON-FND-91B66B24922754
+
+## contextual_concept_ids
+CON-FND-B7FE536D59F695
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Carcinoma In Situ
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+State that carcinoma in situ shows full-thickness epithelial atypia with disturbed polarity but no basement-membrane invasion, and is a pre-invasive (not benign) malignant-lineage lesion.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("28.D")
+gapClosing: Cluster 16 of lane 1's original 56-cluster triage table (flagged 'new', question '28') -- triaged but never authored by lanes 1-3; the CIS definition this item grounds is the same department-book passage (p.37) the held Q24 note (leukoplakia-vs-CIS key contradiction) referenced but did not itself mint a concept from. Authored in the lane-4 gap-closing pass.
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q31
+
+## title
+Hematogenous spread of tumors
+
+## question
+What is true about the Hematogenous Spread of the tumors:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Occurs more commonly with carcinomas than sarcomas
+
+## explanation_a
+Incorrect. The department book states this carcinoma-over-sarcoma frequency specifically for LYMPHATIC spread, not hematogenous (blood) spread -- the two routes are not interchangeable in this teaching, and this option misapplies a fact from the wrong route.
+
+## answer_b
+Most tumor emboli are destroyed by immune mechanisms
+
+## explanation_b
+Correct. Not every tumor cell that enters the circulation as an embolus survives to seed a metastasis: most tumor emboli are destroyed by host immune mechanisms. The survivors are protected in part by adhering to platelets, which shields them from antitumor host immune cells, and only these survivors go on to become impacted in small vessels, cross the endothelium and basement membrane, and "home" into a new site to form a secondary (metastatic) deposit. This immune-clearance step is why blood-borne tumor cell entry into the circulation, which happens constantly once a tumor invades a vessel wall, does not translate into metastasis anywhere near as often as the raw number of circulating tumor cells would suggest.
+
+## answer_c
+The most common sites of metastases include the muscles, spleen, pancreas & intestine
+
+## explanation_c
+Incorrect. The department book states the opposite: the most common sites of metastases are the liver, lungs, bones and brain, while metastases are specifically RARE in muscles, spleen, pancreas and intestine.
+
+## answer_d
+Prostatic carcinoma preferentially spreads to brain
+
+## explanation_d
+Incorrect. The department book's paravertebral-venous-plexus mechanism explains why prostatic (and thyroid) carcinoma shows frequent VERTEBRAL metastases, not preferential spread to the brain.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-E795DC3D0573A3
+
+## concept_ids
+CON-FND-E795DC3D0573A3
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Routes of Spread of Malignant Tumors > Hematogenous Spread
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_71e9056fb934dc28806a | src_3cd975bf1e54eb95af19
+
+## learning_objective
+State that most tumor emboli in hematogenous spread are destroyed by host immune mechanisms, and correctly separate hematogenous-spread facts (common sites: liver/lungs/bones/brain; prostate/thyroid to vertebrae) from the lymphatic-spread fact (carcinoma more than sarcoma) this question's distractor misapplies.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("31.B")
+gapClosing: Cluster 17 of lane 1's original 56-cluster triage table (flagged 'pending', questions '31,33') -- triaged but never authored by lanes 1-3. Authored in the lane-4 gap-closing pass; the correct answer (option b) is grounded in a second, lower-confidence source (src_3cd975bf1e54eb95af19, a tier-6 student revision book) because the department book's own hematogenous-spread section does not state the immune-destruction fact explicitly, though it fully grounds options a, c and d.

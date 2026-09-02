@@ -10760,3 +10760,578 @@ resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ..
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: Sibling of CON-FND-19A501F4C73B41 (argatroban), the other anticoagulant-drug concept in this batch. This is the final concept of the 208 INT 2023 EOM Q76-120 cluster.
+
+---
+
+# Item
+## id
+CON-FND-2129BD0D77EC62
+## label
+A granuloma is a specific pattern of chronic inflammation defined by a localized aggregation of activated macrophages (epithelioid cells), not by cholesterol clefts, endothelial-fibroblast proliferation, or hemosiderin pigment
+## canonical_key
+granuloma.definition.macrophage-aggregate
+## aliases
+Granulomatous inflammation definition
+Epithelioid cell aggregate
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Granulomatous inflammation is a specific pattern of chronic inflammation characterized by the localized aggregation of activated macrophages (a granuloma) -- these aggregates form tiny granules that fuse into a tumor-like mass, hence the "-oma" suffix. The activated macrophages transform into epithelioid cells surrounded by a cuff of lymphocytes, with abundant pale eosinophilic cytoplasm and indistinct cell boundaries on H&E stain; multiple macrophages may fuse into a multinucleated giant cell (Langhans' type, with nuclei in a peripheral horse-shoe pattern, in tuberculous granulomas, or foreign-body type, with nuclei scattered through the cell centre, around inert material). In granulomas associated with certain infectious organisms, most classically the tubercle bacillus, hypoxia and free-radical injury produce a central zone of caseous necrosis, grossly granular and cheesy. Healing of granulomas is accompanied by fibrosis that may be extensive.
+## explicit_objective
+Define granulomatous inflammation as a localized aggregate of activated (epithelioid) macrophages, distinguishing it from unrelated macrophage-containing patterns such as granulation tissue, cholesterol-cleft-bearing lesions and hemosiderin pigmentation.
+## pitfalls
+Confusing "granuloma" (a chronic-inflammation aggregate of activated macrophages) with "granulation tissue" (the vascular, fibroblast-and-capillary tissue of early wound healing) -- the two "granul-" terms sound alike but name different processes at different stages of different pathological events.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S02
+## topic
+Pathology
+## subtopic
+Inflammation and repair
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 1 Inflammation > Chronic Inflammation > Granulomatous Inflammation
+## article_ids
+ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.75
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-GRANULOMA-DEFINITION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"By definition, granulomas are composed of: a. Cholesterol clefts. b. Endothelial cells and fibroblasts. c. Localized aggregation of activated macrophages. d. Hemosiderin-laden macrophages." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-INF-8658F6CDBBB685
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("granuloma", "granuloma definition", "aggregation of activated macrophages") -- the only hits were CON-INF-8658F6CDBBB685 (Epithelioid macrophage and giant-cell granuloma formation in tuberculosis, a narrower infection-specific concept) and two other infection-specific granuloma concepts (actinomycosis, chronic granulomatous disease); none states the general chronic-inflammation definition this EOM item tests. New concept, rejected-merge-noted against the closest hit.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.17 ("Types of chronic inflammation" > "2. Granulomatous inflammation (granuloma)").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Closes the 2023 EOM paper's Q5 gap (lane 1's triage originally flagged this cluster "pending" against the TB-specific granuloma hit above; on inspection it is a different, more general concept). Sibling of CON-FND-1ACF7810E53576 (TNF/adhesion molecules), authored in the same gap-closing pass.
+
+---
+
+# Item
+## id
+CON-FND-1ACF7810E53576
+## label
+TNF and IL-1, the two principal macrophage-derived cytokines mediating inflammation, enhance adhesion-molecule expression on endothelium and inflammatory cells -- a distinct effect from the mediators driving vasodilation, vascular permeability and pain
+## canonical_key
+inflammation.tnf-il1.adhesion-molecule-expression
+## aliases
+TNF effects in acute inflammation
+Role of mediators table
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cytokines are proteins produced mainly by activated lymphocytes and macrophages that modulate other cell types' function. Two of the most important cytokines mediating inflammation, produced by macrophages, are tumor necrosis factor (TNF) and interleukin-1 (IL-1); together they enhance the expression of adhesion molecules on endothelium and inflammatory cells, activate fibroblasts for later healing, and induce systemic responses such as fever, lethargy and neutrophilia. The department book's own "Role of Mediators" table assigns each inflammatory effect to a distinct mediator set: vasodilation to histamine and prostaglandins; increased vascular permeability to histamine, C3a, C5a and leukotrienes; chemotaxis and leukocyte recruitment/activation to TNF, IL-1, C3a, C5a and leukotrienes; fever to IL-1, TNF and prostaglandins; pain to prostaglandins and bradykinin; and tissue damage to lysosomal enzymes and reactive oxygen species.
+## explicit_objective
+State that TNF and IL-1 enhance adhesion-molecule expression on endothelium and inflammatory cells (plus fibroblast activation and systemic fever/neutrophilia), and place that effect correctly against the department book's mediator-to-effect table rather than against vasodilation, vascular permeability or pain, which are driven by other mediators.
+## pitfalls
+Assuming TNF drives every listed inflammatory effect because it is "the" inflammatory cytokine -- the department book's own table assigns vasodilation to histamine/prostaglandins, vascular permeability to histamine/C3a/C5a/leukotrienes, and pain to prostaglandins/bradykinin, none of which name TNF, while adhesion-molecule expression, fever and chemotaxis/leukocyte activation do.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S02
+## topic
+Pathology
+## subtopic
+Inflammation and repair
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 1 Inflammation > Chemical Mediators > Cytokines (TNF and IL-1)
+## article_ids
+ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.45
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-TNF-ADHESION-MOLECULES-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In acute inflammation TNF enhances: a. Redness and hotness. b. Expression of adhesion molecules on endothelium and inflammatory cells. c. Increase of vascular permeability. d. Pain." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("TNF adhesion molecules") -- no hit in live state or docs/*-Source-Imports concept files. New concept; not in the original 56-cluster Phase-0 triage table, which did not separately flag this cytokine-effects question.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.9 (Chemical Mediators and Regulators of Inflammation > Cytokines) and p.10 (Table, "Role of Mediators in Different Reactions of Inflammation").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Closes the 2023 EOM paper's Q10 gap. Sibling of CON-FND-2129BD0D77EC62 (granuloma definition), authored in the same gap-closing pass.
+
+---
+
+# Item
+## id
+CON-FND-7A8E6E9B14047B
+## label
+Embryonic tumors -- neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma and medulloblastoma -- are malignant tumors of primitive undifferentiated cells derived from embryonic remnants in infants and young children, distinct from adult trophoblastic tumors such as choriocarcinoma
+## canonical_key
+neoplasia.embryonic-tumors.classification
+## aliases
+Embryonic tumors of infancy and childhood
+Tumors of embryonic cell remnants
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Embryonic tumors are malignant tumors derived from embryonic cell remnants, occurring in infants and young children; the cells may occasionally show some differentiation towards the tissue their embryonic cell type would normally have given rise to. Microscopically they consist of primitive, undifferentiated malignant small round cells. The department book names five examples: neuroblastoma (adrenal medulla and sympathetic ganglia), retinoblastoma (eye), nephroblastoma (kidney, also known as Wilms tumor), hepatoblastoma (liver) and medulloblastoma (brain). Choriocarcinoma is not among them -- the book's own tumor-marker table places choriocarcinoma's marker, human chorionic gonadotrophin, under "trophoblastic tumors," a separate category of adult germ-cell/placental-tissue malignancy, not the pediatric embryonic-remnant tumor family this list defines.
+## explicit_objective
+Name neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma and medulloblastoma as the department book's embryonic tumors of infancy and childhood, and recognise choriocarcinoma as a trophoblastic tumor outside this family rather than a member of it.
+## pitfalls
+Assuming any malignancy arising early in life, or any tumor with an embryonic-sounding name, belongs to this specific five-member list -- choriocarcinoma is a germ-cell/trophoblastic tumor of a different lineage and typically presents in young adults, not the pediatric embryonic-cell-remnant tumors this classification covers.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Embryonic Tumors
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-EMBRYONIC-TUMORS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Embryonic Tumors include the following EXCEPT. a. Neuroblastoma. b. Retinoblastoma. c. Nephroblastoma. d. Choriocarcinoma." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("embryonic tumors", "Wilms tumor nephroblastoma") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.55 ("II. Embryonic Tumors" definition and examples list) and p.64 (Table 3.5, tumor markers, hCG/trophoblastic tumors row).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Closes the 2023 EOM paper's Q26 gap. Sibling of CON-FND-91B66B24922754 (carcinoma in situ) and CON-FND-E795DC3D0573A3 (hematogenous spread), authored in the same gap-closing pass.
+
+---
+
+# Item
+## id
+CON-FND-91B66B24922754
+## label
+Carcinoma in situ is a pre-invasive stage of carcinoma with full-thickness epithelial atypia and disturbed cellular polarity but no invasion of the basement membrane, distinguishing it from both dysplasia and frankly invasive carcinoma
+## canonical_key
+neoplasia.carcinoma-in-situ.definition
+## aliases
+CIS definition
+Pre-invasive carcinoma
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Carcinoma in situ (CIS) represents a pre-invasive stage of carcinoma, involving the full thickness of the epithelium and characterized by severe epithelial atypia (severe dysplasia), without invasion of the basement membrane -- the membrane separates it from its potential routes of metastasis, blood vessels and lymphatics. Microscopically, CIS shows diffuse cellular atypia involving the whole thickness of the affected epithelium; the cells are pleomorphic with dark nuclei and numerous mitoses, and their architectural orientation (polarity) is disturbed. High-grade dysplasia is the step that precedes and passes into carcinoma in situ; once the basement membrane is invaded, the CIS phase ends and an actual (invasive) malignant tumor starts.
+## explicit_objective
+State that carcinoma in situ shows full-thickness epithelial atypia with disturbed polarity but no basement-membrane invasion, and place it correctly between high-grade dysplasia (its precursor) and invasive carcinoma (what it becomes once the basement membrane is breached).
+## pitfalls
+Assuming carcinoma in situ retains normal polarity because it has not yet invaded -- the book's own microscopic description states polarity IS disturbed in CIS; the basement membrane, not polarity, is the feature that stays intact. Also confusing "pre-invasive" with "benign" -- CIS is a malignant-lineage lesion that has simply not yet crossed the basement membrane, not a benign condition.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Carcinoma In Situ
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-B7FE536D59F695
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.45
+## exam_weight_by_year
+KAU_Y2=0.45
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-CARCINOMA-IN-SITU-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following is a characteristic of carcinoma in situ: a. The architectural orientation (polarity) is not disturbed. b. There is invasion of basement membrane. c. It is a benign condition. d. There is full thickness cellular atypia." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("carcinoma in situ", "carcinoma in situ full thickness atypia") -- the only hit was CON-FND-B7FE536D59F695 (leukoplakia, which mentions CIS only to distinguish itself from it, and carries no independent CIS definition). New concept, cross-linked to the leukoplakia concept it was checked against.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.37 ("Carcinoma In Situ (CIS)" definition and microscopic-features list).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Closes the 2023 EOM paper's Q28 gap; this is also the source the LEDGER's held Q24 note (leukoplakia-vs-CIS key contradiction) pointed to for CIS's own definition, now minted separately rather than folded into the leukoplakia record. Sibling of CON-FND-7A8E6E9B14047B (embryonic tumors) and CON-FND-E795DC3D0573A3 (hematogenous spread), authored in the same gap-closing pass.
+
+---
+
+# Item
+## id
+CON-FND-E795DC3D0573A3
+## label
+Hematogenous spread of malignant tumors follows an organ-specific route by venous drainage, and most tumor-cell emboli are destroyed by host immune mechanisms before completing metastasis
+## canonical_key
+neoplasia.hematogenous-spread.tumor-emboli-fate
+## aliases
+Fate of tumor emboli
+Blood-borne metastasis routes
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In hematogenous (blood) spread, emboli derived from primary tumors of organs drained by systemic veins (e.g. breast, kidney) reach the right side of the heart via the vena cava and then the lungs via the pulmonary arteries, causing lung metastases. Emboli from lung tumors (primary or metastatic) are carried through the pulmonary veins to the left side of the heart and the systemic arterial circulation, causing metastases in organs such as liver, bones and brain. Emboli from organs drained by the portal vein (gastrointestinal tract) give rise to liver metastases, and tumors near the vertebral column (notably thyroid and prostate carcinoma) can embolize through the paravertebral venous plexus, explaining their frequent vertebral metastases. Grossly, the most common sites of metastasis are the liver, lungs, bones and brain; metastases are rare in muscles, spleen, pancreas and intestine. Not every tumor cell that enters the circulation as an embolus survives to seed a metastasis: most tumor emboli are destroyed by host immune mechanisms, and only the survivors, protected in part by adhering to platelets (which shields them from antitumor immune cells), go on to become impacted in small vessels, cross the endothelium and basement membrane, and "home" to a new site to form a secondary deposit.
+## explicit_objective
+State that most tumor emboli are destroyed by host immune mechanisms before completing metastasis, and place the liver/lungs/bones/brain as the common hematogenous metastatic sites (not muscle/spleen/pancreas/intestine, which are rare sites), distinguishing hematogenous spread's own carcinoma-versus-sarcoma frequency from the department book's carcinoma-more-than-sarcoma fact, which it states specifically for lymphatic spread.
+## pitfalls
+Assuming "occurs more commonly with carcinomas than sarcomas" describes hematogenous spread -- the department book states this fact specifically for LYMPHATIC spread, not hematogenous (blood) spread; the two routes are not interchangeable in this teaching. Assuming muscle, spleen, pancreas and intestine are common metastatic sites because they are richly vascular -- the book explicitly lists them as RARE sites, with liver, lungs, bone and brain as the common ones. Assuming prostatic carcinoma preferentially spreads to brain -- the book's paravertebral-plexus mechanism instead explains prostate's (and thyroid's) preference for vertebral/bone metastases.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Routes of Spread of Malignant Tumors > Hematogenous Spread
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a | src_3cd975bf1e54eb95af19
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.45
+## exam_weight_by_year
+KAU_Y2=0.45
+## clinical_relevance
+0.6
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.8
+## atomic_claim_ids
+CLM-FND-208INT-HEMATOGENOUS-SPREAD-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"What is true about the Hematogenous Spread of the tumors: a. Occurs more commonly with carcinomas than sarcomas. b. Most tumor emboli are destroyed by immune mechanisms. c. The most common sites of metastases include the muscles, spleen, pancreas & intestine. d. Prostatic carcinoma preferentially spreads to brain." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("hematogenous spread tumor emboli") -- no hit in live state or docs/*-Source-Imports concept files; nearest prior hit noted in the original triage (108-INT-practical.md renal infarction) was an unrelated vascular-pathology concept, not tumor spread. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book (src_71e9056fb934dc28806a), p.42-44 (routes of spread, sites of metastasis) for options a, c and d, and from "Symphony of Pink & Purple — General Pathology Book Part 1" (src_3cd975bf1e54eb95af19, tier-6 student revision notes, 208 INT/EOM folder), p.102 ("Fate of emboli (tumor emboli)"), for the printed key's own fact (option b) -- the department book's hematogenous-spread section does not state the immune-destruction fact explicitly, so a second, lower-confidence source was used rather than the correct answer going ungrounded.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Closes the 2023 EOM paper's Q31 gap, the last of the five-item gap this pass closes. Sibling of CON-FND-7A8E6E9B14047B (embryonic tumors) and CON-FND-91B66B24922754 (carcinoma in situ), authored in the same gap-closing pass. This is the final concept minted for the 2023 EOM gap-closing cluster.
