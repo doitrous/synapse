@@ -49,7 +49,7 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 90 | 1 | 350 | 441 |
+| quizzes-2022 | 136 | 1 | 304 | 441 |
 
 ## Held
 - quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
@@ -100,52 +100,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q092
-- quizzes-2022-q093
-- quizzes-2022-q094
-- quizzes-2022-q095
-- quizzes-2022-q096
-- quizzes-2022-q097
-- quizzes-2022-q098
-- quizzes-2022-q099
-- quizzes-2022-q100
-- quizzes-2022-q101
-- quizzes-2022-q102
-- quizzes-2022-q103
-- quizzes-2022-q104
-- quizzes-2022-q105
-- quizzes-2022-q106
-- quizzes-2022-q107
-- quizzes-2022-q108
-- quizzes-2022-q109
-- quizzes-2022-q110
-- quizzes-2022-q111
-- quizzes-2022-q112
-- quizzes-2022-q113
-- quizzes-2022-q114
-- quizzes-2022-q115
-- quizzes-2022-q116
-- quizzes-2022-q117
-- quizzes-2022-q118
-- quizzes-2022-q119
-- quizzes-2022-q120
-- quizzes-2022-q121
-- quizzes-2022-q122
-- quizzes-2022-q123
-- quizzes-2022-q124
-- quizzes-2022-q125
-- quizzes-2022-q126
-- quizzes-2022-q127
-- quizzes-2022-q128
-- quizzes-2022-q129
-- quizzes-2022-q130
-- quizzes-2022-q131
-- quizzes-2022-q132
-- quizzes-2022-q133
-- quizzes-2022-q134
-- quizzes-2022-q135
-- quizzes-2022-q136
-- quizzes-2022-q137
 - quizzes-2022-q138
 - quizzes-2022-q139
 - quizzes-2022-q140
