@@ -221,3 +221,133 @@ pending
 
 ## rights
 Local university teaching file; no republication rights asserted.
+
+---
+
+# Item
+
+## id
+src_1ba3e4e486a175cba06f
+
+## title
+MSK1 Anatomy 4th Edition 2023-2024 (Anatomy department book, Musculoskeletal module)
+
+## institution
+Faculty of Medicine, Menoufia University
+
+## collection_id
+mu-y1-med104-musculoskeletal
+
+## source_relative_path
+Year 1/Semester 2/MED 104 - Musculoskeletal/Anatomy/02 Department Books/Telegram 11709 - MSK1 ANATOMY 4th EDITION 2023-2024.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2023-2024
+
+## accessed_at
+
+## page_count
+129
+
+## sha256
+1ba3e4e486a175cba06f5bc5e492f7f9ea0dc83d7413a5f45b5cf22693c0b0e1
+
+## processing_status
+pending
+
+## rights
+Local university teaching file; no republication rights asserted.
+
+---
+
+# Item
+
+## id
+src_28963e11df2847487705
+
+## title
+MSK1 Histology department book (Musculoskeletal module)
+
+## institution
+Faculty of Medicine, Menoufia University
+
+## collection_id
+mu-y1-med104-musculoskeletal
+
+## source_relative_path
+Year 1/Semester 2/MED 104 - Musculoskeletal/Histology/02 Department Books/Telegram 11717 - file.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+## accessed_at
+
+## page_count
+79
+
+## sha256
+28963e11df28474877056105ae94d9b70f2d8c66a67dbef479045400943b80ee
+
+## processing_status
+pending
+
+## rights
+Local university teaching file; no republication rights asserted.
+
+---
+
+# Item
+
+## id
+src_c021a40ea9f6f8937c6d
+
+## title
+Muscle book (Physiology department book, Musculoskeletal module)
+
+## institution
+Faculty of Medicine, Menoufia University
+
+## collection_id
+mu-y1-med104-musculoskeletal
+
+## source_relative_path
+Year 1/Semester 2/MED 104 - Musculoskeletal/Physiology/02 Department Books/Telegram 11725 - Muscle book.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+## accessed_at
+
+## page_count
+60
+
+## sha256
+c021a40ea9f6f8937c6d51c8c09e2f11379065d4fb65c9819654bb6fb1c71b63
+
+## processing_status
+pending
+
+## rights
+Local university teaching file; no republication rights asserted.
