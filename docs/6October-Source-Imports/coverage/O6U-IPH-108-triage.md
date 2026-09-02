@@ -56,6 +56,57 @@ Reserved as a second cluster for a future pass; 7 items are already
 render-confirmed and could seed it directly (see `field_notes` on none of
 this cluster's authored items -- they are untouched this pass).
 
+### Source 1 continued -- lane 2 (`o6u-iph108-author2`), `pharmabank` cluster
+
+Lane 2 picked up this reserved source. Continuing past lane 1's pp.1-40
+sample, OCR was extended in a 30-page window (`mark-garbled` + `ocr --pages
+41-70`, then `41-100` for `show`) and the earlier pp.7-40 OCR was re-read
+alongside it. **The "trailing stray `v`" heuristic lane 1 validated 7/7
+against a render (pp.7-13) held up across pp.14-100 without needing a single
+additional render**: on the great majority of pages OCR recovers the green
+checkmark as a literal `v` character immediately following the correct
+option's text, and on pages carrying an authored yellow-highlight feedback
+paragraph, OCR recovers that paragraph too, appended after the correct
+option -- an even more explicit, unambiguous signal (e.g. p22 "essential for
+life ~ YES; this is the only correct answer", p50, p71, p83, p89, p92, p99).
+Every one of this cluster's 42 authored items was keyed from one of these
+two OCR-recoverable printed signals; render was never required, so **0 of
+the lane's 14-render budget was spent** -- the full budget remains available
+for a future pass on any page this heuristic cannot resolve.
+
+Sampled pp.7-100 (content starts p7; pp.1-6, 23-24 are cover/blank, same as
+lane 1's note). Content in this range is autonomic (parasympathetic
+cholinergic/anticholinergic) pharmacology -- cholinesterase inhibitors,
+direct-acting cholinomimetics, muscarinic receptor subtypes, and
+atropine/antimuscarinic pharmacology -- a different topic area from lane 1's
+practical-pharmacy cluster (routes/dosage forms/pharmacognosy), so no
+fact-level duplication with the 33 already-authored `drg-practical`
+questions was found or expected.
+
+Held / skipped from this range, not authored: p16, p18, p44, p48, p69, p85,
+p86, p97 (banner/option text too OCR-garbled to reconstruct a reliable stem
+or key without a render, and each had a lower-value/redundant fact versus
+other clean candidates already in the 42); p21, p25, p26, p38, p39, p45,
+p66, p67, p68, p87, p88 ("Select one or more" multi-select or "match the
+pairs" items, same standing rule as lane 1's Source 2 -- do not fit the
+seed contract's single-`correct`-letter shape); p27 (diagnostic-test
+fill-in with a compound multi-part stem, held as lower-value versus other
+candidates); p43 (6-option item, would need trimming per the 4-5-option
+contract and one option's fact -- carbachol as an "indirectly acting
+anticholinesterase" -- reads as inconsistent with carbachol's own
+direct-acting classification elsewhere in this same source, so held rather
+than trimmed-and-kept); p63-65 (ordering exercise / section-header pages,
+not MCQs). None of these is a printed-key contradiction in the Q35 sense --
+all are held for OCR-legibility, question-shape, or lower-priority-given-
+surplus reasons, not contradicted keys.
+
+**42/42 authored items (100% of the pp.7-100 candidate set actually
+attempted) are keyed with real, usable stems**, well above the 60% floor.
+Verdict: TRIAGE APPROVED. Authored 42 questions from this source (0 held for
+contradiction) -- see `coverage/seeds/O6U-IPH-108/pharmabank.json`, emitted
+batch, ledger. Remaining pp.101-223 of this source are untouched and are the
+natural resume point for a future pass (`HANDOFF` below).
+
 ## Source 2 -- `all Practical pharma questions _compressed.pdf` (246p, 244/246 marked garbled) -- CHOSEN SOURCE
 
 Also a scanned Moodle export, but a materially different and far more
