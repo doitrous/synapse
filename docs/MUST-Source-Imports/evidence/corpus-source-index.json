@@ -5,7 +5,7 @@
     "docs/MUST-Source-Imports/manifest/y2-sources.json"
   ],
   "manifestGeneratedOn": "2026-09-02",
-  "count": 39,
+  "count": 40,
   "sources": {
     "src_b9989e9ef3c314f6c771": {
       "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -930,6 +930,30 @@
       "sha256": "67efbd148b42c6593611e30ae4117f31edfea2d095b7c6e962f7d47cd7cdba83",
       "processingStatus": "visually_read_native_text",
       "pageCount": 19,
+      "languages": [
+        "en"
+      ],
+      "exclusionReason": null,
+      "universityId": "must",
+      "yearIds": [
+        "MUST_Y2"
+      ],
+      "moduleIds": [
+        "MUST-CVS-201"
+      ],
+      "categories": [
+        "MCQ",
+        "EOM Exam"
+      ]
+    },
+    "src_165188e079f0f475e54d": {
+      "sourceRelativePath": "Semester 201/CVS 201/Physiology/06 EOM Exams/EOM MCQs - Physiology CVS201 Questions (Final).pdf",
+      "sourceRelativePaths": [
+        "Semester 201/CVS 201/Physiology/06 EOM Exams/EOM MCQs - Physiology CVS201 Questions (Final).pdf"
+      ],
+      "sha256": "165188e079f0f475e54d51e225f9a0c8e6a660ba273bb9d06b8b27637cae218f",
+      "processingStatus": "visually_read_native_text",
+      "pageCount": 46,
       "languages": [
         "en"
       ],
