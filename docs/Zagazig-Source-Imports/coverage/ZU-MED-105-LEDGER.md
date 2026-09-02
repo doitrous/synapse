@@ -1,97 +1,117 @@
-# ZU-MED-105 (Professional Practice I) — pp1-cluster1 ledger
+# ZU-MED-105 (Professional Practice I) — pp1-cluster1 + pp1-cluster2 ledger
 
-**Tool note (same wall as ZU-MED-106's author1 pass):** `node scripts/content/ledger.mjs
-docs/Zagazig-Source-Imports/coverage/seeds/ZU-MED-105 --triage coverage/ZU-MED-105-triage-keys.txt`
-reports every one of `pp1-cluster1`'s 40 authored keys as "remaining" under a synthetic
-one-key "cluster" equal to each triage-keys.txt slug — `clusterForKey()` only strips a
-trailing `-qNN` suffix, and this lane's `ZU-MED-105-triage-keys.txt` uses full descriptive
-slugs (`pp1-zag24-q01-checklist-tool-student-satisfaction`, not `pp1-zag24-q01`), so the
-authored-keys set and the remaining-keys lookup never intersect. **Correctly reported by
-the tool**: `pp1-cluster1 | 40 | 0 | 0 | 40` and `pp1-held | 0 | 2 | 0 | 2` (the 2 held
-items were seeded separately in `coverage/seeds/ZU-MED-105/pp1-held.json` specifically so
-the tool would count the hold, following the same fix the ZU-MED-106 author2 pass used).
-This table is hand-verified against the seed and the gate-clean batch for everything else.
+**Tool note (same wall as pp1-cluster1's own note, and ZU-MED-106's author1 pass):**
+`node scripts/content/ledger.mjs docs/Zagazig-Source-Imports/coverage/seeds/ZU-MED-105
+--triage coverage/ZU-MED-105-triage-keys.txt` reports every authored/held key as
+"remaining" under a synthetic one-key "cluster" equal to each triage-keys.txt slug —
+`clusterForKey()` only strips a trailing `-qNN` suffix, and this lane's
+`ZU-MED-105-triage-keys.txt` uses full descriptive slugs (e.g.
+`pp1-past-q39-leadership-style-selection-factors`, not `pp1-past-q39`), so the
+authored-keys set and the remaining-keys lookup never intersect. **Correctly reported
+by the tool**: `pp1-cluster1 | 40 | 0 | 0 | 40`, `pp1-cluster2 | 22 | 21 | 0 | 43`, and
+`pp1-held | 0 | 2 | 0 | 2` (all seed-declared clusters, matching real `cluster` fields
+in the seed JSON). The ~90 one-row-per-key "remaining" lines the raw tool output also
+produces are the known false-positive artefact described above — omitted from this
+hand-verified table; every one of them is actually accounted for as authored, held, or
+out-of-scope-non-SBA below.
 
-## Cluster: pp1-cluster1
+## Clusters
 
 | cluster | authored | held | remaining | total |
 |---|--:|--:|--:|--:|
 | pp1-cluster1 | 40 | 0 | 0 | 40 |
+| pp1-cluster2 | 22 | 21 | 0 | 43 |
 | pp1-held | 0 | 2 | 0 | 2 |
 
-40 of 76 keyed SBA items across the three tier-1 sources authored this pass
-(`docs/Zagazig-Source-Imports/coverage/seeds/ZU-MED-105/pp1-cluster1.json`, emitted to
-`question/ZU-MED-105-pp1-cluster1-mcq.md`, `gate.mjs batch` clean — 0 errors). 36 keyed
-items remain untouched on `امتحانات سابقه.pdf` pages 5-13 for a follow-up pass (the
-key-recovery method was validated across that range but individual questions were not
-read/authored this pass); the `mcq شامل.pdf` tier-2 bank (44 pages) is also untouched.
-See coverage/ZU-MED-105-triage.md's "Needs Omar / next-pass flags" for both.
+pp1-cluster1 (landed 341ff01c): 40 of 76 keyed SBA items across the three tier-1
+sources, pages 1-4 of امتحانات سابقه.pdf plus both Final papers in full. See this
+file's prior revision (git history) or `coverage/ZU-MED-105-triage.md` for its own
+concept table.
 
-## Held
+pp1-cluster2 (this pass): 22 of the ~36 keyed items on امتحانات سابقه.pdf pages 5-13
+(Q30-76) authored; 21 held (13 duplicates of pp1-cluster1's 40, 7 unmarked, 1
+malformed); 4 further items (Q65-67, Q76 — definitions/enumerate/fill-in-the-blank)
+are out of scope, not single-best-answer format, not counted in either total. This
+exhausts امتحانات سابقه.pdf; `mcq شامل.pdf` (tier-2 bank, 44 pages) remains
+status-checked only, not opened, real remaining scope for a future pass.
+
+## Held — pp1-cluster1 (unchanged from its own landed pass)
 
 - pp1-past-q14-team-development-stages-exception — held-indefensible-key — two gray-fill marks disagree (C "Adjuring" and D "Co-coordination"), render-confirmed p2, امتحانات سابقه.pdf
 - pp1-past-q24-equity-definition — held-malformed-source — only 2 options (A/B) printed in source, C/D missing, امتحانات سابقه.pdf
 
-## Out of scope this pass (not "held" — never routed to this cluster)
+## Held — pp1-cluster2 (this pass, 21 items)
 
-- pp1-past-q31-unmarked, pp1-past-q33-unmarked — held-no-printed-key, page 5, beyond this pass's Q1-29 scope of امتحانات سابقه.pdf
-- Fakous P.P1 Final 2024.pdf's 4-blank fill-in-the-blank section (definitions 1-2, list items 2i-iii, spectrum-of-health enumerate 3) — legible and keyed but not SBA format, not authored
-- امتحانات سابقه.pdf pages 5-13 (Q30-Q76, ~36 more keyed items per coverage/ZU-MED-105-triage.md) — triaged (keys recovered, method validated), not yet authored
-- mcq شامل.pdf (tier 2, 44 pages) — status-checked only, not opened this pass
+Duplicates of pp1-cluster1's 40 (named twin, not re-authored — 13 items):
 
-## Concept resolution for the 34 concepts backing the 40 authored questions
+- pp1-past-q30-time-management-productive-duplicate — dup of pp1-past-q17 (identical stem/options)
+- pp1-past-q32-self-awareness-remedy-duplicate — dup of pp1-past-q01/pp1-past-q27
+- pp1-past-q34-self-awareness-sources-duplicate — dup of pp1-past-q29
+- pp1-past-q37-leadership-definition-duplicate — dup of pp1-past-q20 (options reordered, same fact)
+- pp1-past-q38-democratic-leadership-duplicate — dup of pp1-past-q19 (identical stem/options)
+- pp1-past-q42-self-awareness-sources-duplicate-2 — dup of pp1-past-q29 (third copy)
+- pp1-past-q61-vertical-equity-duplicate — dup of pp1-fakous24-q02
+- pp1-past-q69-vertical-equity-duplicate-2 — dup of pp1-fakous24-q02 (second copy)
+- pp1-past-q70-justice-organ-transplant-duplicate — dup of pp1-fakous24-q03 (identical stem/options)
+- pp1-past-q71-mental-capacity-conflicting-key — dup of pp1-fakous24-q04 (identical stem/options), but this compilation bank marks C "Legally authority" while Fakous P.P1 Final 2024.pdf marks B "His physician" for the same item — cross-source key disagreement, held rather than re-authored or arbitrarily picking one source's mark
+- pp1-past-q72-checklist-tool-duplicate — third copy of pp1-zag24-q01/pp1-fakous24-q05
+- pp1-past-q74-negotiation-duplicate — dup of pp1-fakous24-q06 (identical stem/options)
+- pp1-past-q75-storming-duplicate — dup of pp1-fakous24-q07 (identical stem/options; two-column layout, gray fill confirmed on D only after fixing an x-overlap bug in the detection script, render-confirmed p.13)
 
-Every concept this pass is a **fresh mint** — `find-existing.mjs` (short single-word
-queries) plus direct greps of the Kasr/Helwan/MUST/FOMSCU/Mansoura pending trees found 0
-reusable hits for any professionalism/ethics/soft-skills term (see
-coverage/ZU-MED-105-triage.md's concept-search-sample section). 6 concepts are each shared
-by 2 near-identical questions (2 cross-paper duplicates, 4 within-source duplicates in the
-same compiled bank); the other 28 back exactly 1 question each.
+Unmarked, held-no-printed-key (7 items):
 
-| Concept id | Canonical key | Questions backed | Article |
-|---|---|---|---|
-| CON-POP-34609C72D29B49 | checklisttool.assesses-student-satisfaction | pp1-zag24-q01, pp1-fakous24-q05 | ART-POP-ZU105-PROFESSIONALISM-CORE |
-| CON-POP-CB4F8F21622C78 | physicianpatientrelationship.built-on-trust-and-communication | pp1-zag24-q02 | ART-POP-ZU105-PROFESSIONALISM-CORE |
-| CON-POP-C5AF15AA02250C | accountabilitymodel.precondition-base-is-ability | pp1-zag24-q03 | ART-POP-ZU105-PROFESSIONALISM-CORE |
-| CON-POP-80EF60232916AF | teamdevelopment.storming-stage-is-conflict-and-rebellion | pp1-zag24-q04, pp1-fakous24-q07 | ART-POP-ZU105-TEAM-LEADERSHIP |
-| CON-POP-BED479E0FA27CA | justiceprinciple.fair-distribution-of-healthcare-resources | pp1-zag24-q05 | ART-POP-ZU105-BIOETHICS-PRINCIPLES |
-| CON-POP-57938398EC5C2F | professionalism.self-assessment-and-constructive-feedback-component | pp1-zag24-q06 | ART-POP-ZU105-PROFESSIONALISM-CORE |
-| CON-POP-74579735DA0CFE | compassion.is-empathy-and-care-towards-patients | pp1-zag24-q07 | ART-POP-ZU105-PROFESSIONALISM-CORE |
-| CON-POP-52B2729E9560DC | professionalismeducation.early-education-prevents-disciplinary-actions | pp1-zag24-q08 | ART-POP-ZU105-PROFESSIONALISM-CORE |
-| CON-POP-0933BE06626CF2 | informedconsent.emergency-exception-for-lifesaving-operations | pp1-zag24-q09 | ART-POP-ZU105-BIOETHICS-PRINCIPLES |
-| CON-POP-1F313AC6F67599 | conflictresolution.compromising-is-short-term-fix-toward-long-term-solution | pp1-zag24-q10 | ART-POP-ZU105-TEAM-LEADERSHIP |
-| CON-POP-BA335133348060 | professionalism.supports-public-trust-in-doctors | pp1-zag24-q11 | ART-POP-ZU105-PROFESSIONALISM-CORE |
-| CON-POP-C1662B63DDA48A | selfassessment.best-method-is-reflective-practice | pp1-zag24-q12 | ART-POP-ZU105-PROFESSIONALISM-CORE |
-| CON-POP-9989FDD0F11529 | physicianpatientrelationship.onset-is-when-patient-selects-physician | pp1-fakous24-q01 | ART-POP-ZU105-PROFESSIONALISM-CORE |
-| CON-POP-D35A58688EE0E0 | verticalequity.definition-is-need-based-differential-care | pp1-fakous24-q02 | ART-POP-ZU105-BIOETHICS-PRINCIPLES |
-| CON-POP-10BB8CF5072B5A | justiceprinciple.organ-transplant-allocation-without-discrimination | pp1-fakous24-q03 | ART-POP-ZU105-BIOETHICS-PRINCIPLES |
-| CON-POP-BCB8B02BF5DBA2 | mentalcapacity.consent-proxy-is-the-patients-physician | pp1-fakous24-q04 | ART-POP-ZU105-BIOETHICS-PRINCIPLES |
-| CON-POP-0116DF677ECEEF | leadership.negotiation-is-understanding-interests-and-reaching-solution | pp1-fakous24-q06 | ART-POP-ZU105-TEAM-LEADERSHIP |
-| CON-POP-78B3B7230B06FB | selfawareness.remedy-for-a-pattern-of-wrong-decisions | pp1-past-q01, pp1-past-q27 | ART-POP-ZU105-SELF-AWARENESS-EQ |
-| CON-POP-54C99E23E2EEE9 | selfawareness.good-level-leads-to-appropriate-goals | pp1-past-q02 | ART-POP-ZU105-SELF-AWARENESS-EQ |
-| CON-POP-04C8461A94B246 | selfawareness.affected-by-behavior-and-perception | pp1-past-q03 | ART-POP-ZU105-SELF-AWARENESS-EQ |
-| CON-POP-4F509DABFFC4B1 | emotionalintelligence.definition-is-understanding-and-managing-emotions | pp1-past-q04 | ART-POP-ZU105-SELF-AWARENESS-EQ |
-| CON-POP-6C0835DD447EE8 | goalsetting.definition-is-identifying-priorities-and-strategies | pp1-past-q05, pp1-past-q22 | ART-POP-ZU105-SELF-AWARENESS-EQ |
-| CON-POP-CB0D0B3F25B6A3 | timemanagement.definition-is-using-available-time-effectively | pp1-past-q11, pp1-past-q17 | ART-POP-ZU105-TIME-STRESS-MANAGEMENT |
-| CON-POP-D28ED0B42AA58D | timemanagement.prioritization-decide-what-is-important-vs-what-can-wait | pp1-past-q12 | ART-POP-ZU105-TIME-STRESS-MANAGEMENT |
-| CON-POP-24340652786086 | stress.definition-is-gap-between-expectations-and-reality | pp1-past-q13 | ART-POP-ZU105-TIME-STRESS-MANAGEMENT |
-| CON-POP-E6469CF6638E93 | selfawareness.low-level-leads-to-wrong-decisions | pp1-past-q15, pp1-past-q28 | ART-POP-ZU105-SELF-AWARENESS-EQ |
-| CON-POP-BE022D3804274C | todolist.tool-decides-what-is-important-to-do-today | pp1-past-q16 | ART-POP-ZU105-TIME-STRESS-MANAGEMENT |
-| CON-POP-81EC3F32942A5A | leadershipstyle.democratic-encourages-volunteering-and-commitment | pp1-past-q19 | ART-POP-ZU105-TEAM-LEADERSHIP |
-| CON-POP-061AD45B48F65F | leadership.definition-is-mobilizing-and-influencing-a-group | pp1-past-q20 | ART-POP-ZU105-TEAM-LEADERSHIP |
-| CON-POP-F442216AEE9CF5 | coreteam.definition-is-members-directly-caring-for-patients | pp1-past-q21 | ART-POP-ZU105-TEAM-LEADERSHIP |
-| CON-POP-030DEA3D6246D2 | studentpatientcontact.conduct-requires-permission-disclosure-and-consent | pp1-past-q23 | ART-POP-ZU105-BIOETHICS-PRINCIPLES |
-| CON-POP-DAB775A3A5B37C | confidentiality.breach-not-justified-by-showcasing-physician-skill | pp1-past-q25 | ART-POP-ZU105-BIOETHICS-PRINCIPLES |
-| CON-POP-B8E59B7F92842B | physicianduty.to-colleagues-is-educate-and-transfer-skills | pp1-past-q26 | ART-POP-ZU105-PROFESSIONALISM-CORE |
-| CON-POP-2605D6A5A4AAD8 | selfawareness.source-is-self-analysis | pp1-past-q29 | ART-POP-ZU105-SELF-AWARENESS-EQ |
+- pp1-past-q31-unmarked, pp1-past-q33-unmarked, pp1-past-q36-time-management-unmarked, pp1-past-q43-unmarked, pp1-past-q44-unmarked, pp1-past-q68-unmarked, pp1-past-q73-unmarked
 
-Totals: **34 new concepts minted**, **0 overlays** (0 live, 0 pending — genuinely new
-territory, see triage's concept-search-sample), **5 new articles**
-(`article/ZU-MED-105-pp1-articles.md`). 6 concepts each back 2 questions (2 cross-paper
-literal duplicates, 4 within-`امتحانات سابقه.pdf` duplicates); the other 28 back exactly 1
-question. 34 distinct concepts back 40 authored questions.
+Malformed source (1 item):
 
-## Gate summary
+- pp1-past-q35-sources-of-self-awareness-malformed — only 3 options (A/B/C) printed, no D; also unmarked
+
+## Out of scope this pass (not "held" — never SBA format)
+
+- pp1-past-q65-define-terms, pp1-past-q66-list-items, pp1-past-q67-spectrum-of-health-enumerate, pp1-past-q76-complete-statements — definitions/list/enumerate/fill-in-the-blank, not single-best-answer format, matching pp1-cluster1's own treatment of Fakous P.P1's non-SBA section
+- `mcq شامل.pdf` (tier 2, 44 pages) — status-checked only, not opened this pass, real remaining scope for a future pass
+
+## Concept resolution for the 21 concepts backing pp1-cluster2's 22 authored questions
+
+Every concept this pass is a **fresh mint** — `find-existing.mjs` (short single-word/
+phrase queries: group dynamics, double effect, altruism, informal communication,
+learning needs, interpersonal skills, competence, implied consent, genetic factors,
+self-directed learner, chaperone, genital examination, dress professionally, leadership
+style) found 0 reusable hits for any of them (the "competence"/"chaperone" hits
+returned were unrelated domains — immunocompetence/bacterial competence, molecular
+chaperones). `docs/Zagazig-Source-Imports/concept/ZU-MED-108-*` does not exist yet
+(PP II lane has not landed any concepts), so no cross-lane reuse check was possible
+there. 1 concept (`CON-POP-6A53546B82C5B1`, self-awareness as a professionalism
+attribute) is shared by 2 near-identical questions (Q53/Q55, a within-source
+duplicate, professional-development vs emotional-intelligence wording) — the other 20
+back exactly 1 question each. 21 distinct concepts back 22 authored questions.
+
+3 marked keys in this cluster disagree with more conventional professionalism/ethics
+teaching and are flagged with an `uncertainty` field rather than silently corrected or
+held (each is a single, unambiguous, render-confirmed mark, not a two-mark conflict):
+"Ethics" over "Professionalism" (Q51), "Autonomy" over "Beneficence" for altruism
+(Q52), and "Interpersonal skills" over "Altruism" for a conflict-of-interest violation
+(Q56). A 4th, "implied consent must be signed by the patient" (Q62), conflicts more
+sharply with standard consent doctrine (implied consent specifically does not require
+a signature) and is flagged as the strongest single-mark doubt in this cluster.
+
+## Gate summary — pp1-cluster2 (this pass)
+
+```
+GATE batch concept/ZU-MED-105-pp1-cluster2-concepts.md: items=21 errors=0
+GATE batch article/ZU-MED-105-pp1-cluster2-articles.md: items=3 errors=0
+GATE batch question/ZU-MED-105-pp1-cluster2-mcq.md (--with cluster2 concept/article, --with pp1-cluster1 concept/article): items=22 errors=0
+GATE simulate 5 file(s) (pp1-cluster1 concept, pp1-cluster1 article, pp1-cluster2 concept, pp1-cluster2 article, pp1-cluster2 question, applied in order): batches=5 created=85 updated=0 rejected=0 skipped=0 errors=0
+```
+
+`validate-content-batch.mjs` run directly on all three pp1-cluster2 files (the
+gate.mjs clean-summary caveat this lane card names) confirms the same: concept 0
+errors, article 0 errors, question 0 errors (22 items, 21 concepts tested, all
+`needs_evidence` as expected for fresh mints; one warning noting the correct-answer
+explanations run 253-364 characters median, all ≥3 sentences, 0% under the 200-char/
+3-sentence floor).
+
+## Gate summary — pp1-cluster1 (unchanged, from its own landed pass)
 
 ```
 GATE batch concept/ZU-MED-105-pp1-concepts.md: items=34 errors=0
@@ -99,8 +119,3 @@ GATE batch article/ZU-MED-105-pp1-articles.md: items=5 errors=0
 GATE batch question/ZU-MED-105-pp1-cluster1-mcq.md (--with concept, --with article): items=40 errors=0
 GATE simulate 3 file(s) (concept, article, question, applied in order): batches=3 created=79 updated=0 rejected=0 skipped=0 errors=0
 ```
-
-`validate-content-batch.mjs` run directly on all three files (the gate.mjs clean-summary
-caveat this lane card names) confirms the same: concept 0 errors, article 0 errors,
-question 0 errors (40 items, 34 concepts tested, all `needs_evidence` as expected for
-fresh mints).
