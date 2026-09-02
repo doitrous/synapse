@@ -528,3 +528,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ALEXANDRIA AU-MED-203 lane 6 LANDED (808c942c, d7e2e02f, ae03ae8e, e222729e) · Week 1 EOM Final COMPLETE (145/4/0/149)
 - Q101-151: 49 authored, 2 held (Q130 two options; Q149 reused via overlay onto ASU-CNS-3 cavernous-sinus concept). 47 mints, 2 collapses, 1 cross-university overlay. 4 printed keys diverge from standard teaching (Q112/Q124/Q126-127/Q129) kept with doubts. Validator errors=[]; batch errors=0 ×3; 12-file simulate rejected=0. ≈2.4k tok/q.
 - Week 2 EOM Final (`src_70b2ac8853db17b047ea`, 120 MCQs) sampled 100% keyed, inline answer lines → lane 7 dispatched on Q1-60 (Y2 slot). Fleet 20/20.
+
+### 2026-09-02 — MANSOURA AEP lane 2 LANDED (657f8459, 390a629f)
+- Joints (p.17-21) + Embryology 2nd week (p.98-102): 40 authored, 39 held (14 restate lane 1's bones, 24 cross-sitting dups, 1 numeric, 1 terminology doubt, 1 malformed), 7 enumerate items skipped. 5 mints, 14 reuses (Kasr 101/103, ASU-AE embryo2, 2 LIVE CON-OBS placenta-previa records). Validator errors=[]; batch items=40 errors=0; 13-file simulate rejected=2 = lane 1's rows 25/29 citing `ART-101-HIS-HAEMOPOIESIS` / `CON-MSK-88ABD88C19073F` outside the chain (dependency class; lane 3 told to include the Kasr/AU files and confirm). Knee shape classification conflict (condylar per key vs modified-hinge in corpus) recorded in `conflicts`. ≈4-5k tok/q.
+- Lane 3 dispatched on CNS Lectures 4-5 (p.23-77). Fleet 20/20.
