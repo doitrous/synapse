@@ -1,0 +1,1272 @@
+{
+  "lane": "AU-MED-203",
+  "cluster": "quiz2",
+  "header": "AU-MED-203 · Nervous System — Workshop Quiz 2, authored from the fully-keyed 35-question workshop bank (src_e0ce8dbbc37fcf3b12e9), printed answer table p10, coverage/AU-MED-203-triage.md.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "au"
+    ],
+    "years": [
+      "AU_Y2"
+    ],
+    "module": "AU-MED-203",
+    "module_subject": "AU-MED-203 > Nervous System > Workshop Quiz 2",
+    "exam_weight_by_year": {
+      "AU_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_e0ce8dbbc37fcf3b12e9"
+    ],
+    "source_citation": "AU-MED-203 Workshop Quiz 2, {page}, answer table p10",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quiz2-q01",
+      "page": 2,
+      "title": "Fourth pharyngeal pouch dorsal wing derivative",
+      "question": "Which of the following arises from the dorsal wing of the 4th pharyngeal pouch?",
+      "options": {
+        "A": "Superior parathyroid gland",
+        "B": "Thymus",
+        "C": "Ultimobranchial body",
+        "D": "Inferior parathyroid gland"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. In this department's pouch-by-pouch, wing-by-wing grid, the superior parathyroid gland is the fourth pouch's VENTRAL-wing derivative, not the dorsal-wing derivative being asked about here.",
+        "B": "Incorrect. The thymus derives from the THIRD pharyngeal pouch's ventral wing, not the fourth pouch at all; the third pouch's dorsal wing instead gives the inferior parathyroid gland.",
+        "C": "Correct. The ultimobranchial body is the dorsal-wing derivative of the fourth pharyngeal pouch; it migrates to fuse with the developing thyroid gland and contributes the parafollicular (C) cells, which secrete calcitonin. This pairs with the third pouch's own dorsal/ventral split (inferior parathyroid, thymus) as a commonly confused four-way grid worth memorising by pouch and wing rather than as a flat list.",
+        "D": "Incorrect. The inferior parathyroid gland is a THIRD pouch (dorsal wing) derivative, not a fourth-pouch derivative; despite its dorsal-wing origin it ends up lower than the superior parathyroid because it travels a shorter migratory distance than the thymus, its third-pouch ventral-wing partner."
+      },
+      "main_concept": "CON-FND-7453A240F7D729",
+      "concept_ids": [
+        "CON-FND-7453A240F7D729"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharyngeal pouch embryology",
+      "subtopic": "Fourth pouch derivatives",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the ultimobranchial body is the fourth pharyngeal pouch's dorsal-wing derivative, distinct from the pouch's ventral-wing parathyroid derivative and the third pouch's thymus/inferior-parathyroid pair.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p2, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q02",
+      "page": 2,
+      "title": "Hypoglossal nerve crossing the carotid and lingual arteries",
+      "question": "Which of the following nerves crosses the internal carotid artery and the first part of the lingual artery during its course?",
+      "options": {
+        "A": "Vagus",
+        "B": "Glossopharyngeal",
+        "C": "Accessory",
+        "D": "Hypoglossal"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The vagus nerve runs WITHIN the carotid sheath, in the groove between the internal jugular vein and the carotid artery, rather than crossing superficial to the carotid vessels and the lingual artery on the way to the tongue.",
+        "B": "Incorrect. The glossopharyngeal nerve passes between the internal and external carotid arteries higher in the neck, on its way to the pharynx and tongue base, a different relationship from crossing the carotid and first-part lingual artery.",
+        "C": "Incorrect. The accessory nerve exits the carotid sheath early, crossing the internal jugular vein en route to the posterior triangle and sternocleidomastoid/trapezius, unrelated to the carotid/lingual artery crossing being described.",
+        "D": "Correct. The hypoglossal nerve (CN XII) descends in the neck and, on its way to the tongue, crosses superficial to the internal carotid artery and the first (proximal) part of the lingual artery, before looping over the lingual artery's later course and passing deep to the posterior belly of digastric to reach the tongue's musculature. Surgeons rely on this constant crossing relationship to identify the nerve during neck dissections, such as carotid endarterectomy or submandibular gland surgery."
+      },
+      "main_concept": "CON-NEU-0F72ABE1CDF46D",
+      "concept_ids": [
+        "CON-NEU-0F72ABE1CDF46D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cranial nerves",
+      "subtopic": "Hypoglossal nerve cervical course",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the hypoglossal nerve crosses superficial to the internal carotid artery and the first part of the lingual artery during its cervical course.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p2, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q03",
+      "hold": "HIT-PENDING concept (Edinger-Westphal nucleus / near-response pathway, Kasr 102-INT batch not yet imported) — authored now in pending-live/AU-MED-203-questions.md alongside the sibling Quiz 1 Q4 question, per LANE-BRIEF §21 and coverage/AU-MED-203-triage.md's 'Confirmed HIT-PENDING (2)' note, not emitted into this batch."
+    },
+    {
+      "key": "quiz2-q04",
+      "page": 2,
+      "title": "Argyll-Robertson pupil — the incorrect statement",
+      "question": "Which of the following statements about Argyll-Robertson pupil is INCORRECT?",
+      "options": {
+        "A": "Light reflex is absent",
+        "B": "Accommodation reflex is present",
+        "C": "The lesion is in the Edinger-Westphal nucleus",
+        "D": "It occurs in neurosyphilis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This statement is TRUE, so it is not the answer being asked for: the pupillary light reflex is indeed absent in Argyll-Robertson pupil, the defining half of its light-near dissociation.",
+        "B": "This statement is TRUE, so it is not the answer: the near (accommodation) reflex is preserved in Argyll-Robertson pupil, the other half of the dissociation that gives the sign its diagnostic value.",
+        "C": "Correct — this is the FALSE statement being asked for. The lesion is not considered to sit within the Edinger-Westphal nucleus itself, because a true nuclear lesion there would knock out the efferent limb shared by both the light reflex AND the near reflex, abolishing accommodation as well. Instead, the lesion is thought to interrupt the light-reflex pathway further upstream, near the pretectal region, while sparing the separate route by which the cortically-mediated near response reaches the Edinger-Westphal nucleus — which is exactly why accommodation survives while the light reflex does not.",
+        "D": "This statement is TRUE, so it is not the answer: Argyll-Robertson pupil is a classic sign of neurosyphilis (tabes dorsalis), historically one of its most recognisable ocular findings."
+      },
+      "main_concept": "CON-NEU-16E1FDD95745B6",
+      "concept_ids": [
+        "CON-NEU-16E1FDD95745B6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pupillary reflexes",
+      "subtopic": "Light-near dissociation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that Argyll-Robertson pupil's lesion does not localise to the Edinger-Westphal nucleus itself, since that would abolish the preserved near reflex as well as the absent light reflex.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p2, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q05",
+      "page": 2,
+      "title": "Area 22 in the superior temporal gyrus",
+      "question": "Area 22 of the cerebral cortex is present in:",
+      "options": {
+        "A": "Middle frontal gyrus",
+        "B": "Superior temporal gyrus",
+        "C": "Cuneus",
+        "D": "Superior parietal lobule"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The middle frontal gyrus lies within the frontal lobe; Brodmann area 22 is a temporal lobe area, unrelated to this frontal gyrus.",
+        "B": "Correct. Brodmann area 22 occupies the superior temporal gyrus, largely overlapping Wernicke's area in the dominant (usually left) hemisphere, where it supports receptive language comprehension. Its lateral-fissure-adjacent position, opposite Broca's area (areas 44/45) across the fissure in the frontal lobe, is why the two are so often paired and contrasted in exam questions on language localisation.",
+        "C": "Incorrect. The cuneus is an occipital lobe gyrus involved in visual processing, well away from the temporal lobe's area 22.",
+        "D": "Incorrect. The superior parietal lobule is a parietal lobe association area (sensory integration, spatial orientation), not the temporal lobe location of area 22."
+      },
+      "main_concept": "CON-NEU-4DF9D89BF9F4FC",
+      "concept_ids": [
+        "CON-NEU-4DF9D89BF9F4FC"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cerebral cortex",
+      "subtopic": "Brodmann area localisation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Locate Brodmann area 22 in the superior temporal gyrus, overlapping Wernicke's area.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p2, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q06",
+      "page": 3,
+      "title": "Dopamine — the unrelated statement",
+      "question": "Which of the following is NOT related to dopamine?",
+      "options": {
+        "A": "It is important in the treatment of renal failure",
+        "B": "It is important for working memory",
+        "C": "Its deficiency causes schizophrenia",
+        "D": "Its main metabolite is HVA"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct — this is the unrelated statement. Low-dose ('renal-dose') dopamine infusion was once used in critically ill patients in an attempt to protect renal perfusion by dilating renal vasculature. However, controlled trials found no meaningful renal protective benefit and the practice is now considered outdated, so it is not an established, evidence-based treatment for renal failure and this claim does not hold up as a genuine dopamine relationship.",
+        "B": "This statement IS related to dopamine, so it is not the answer: dopamine is central to prefrontal cortical circuits supporting working memory, and both excess and deficient dopaminergic tone can impair it.",
+        "C": "This statement IS related to dopamine, so it is not the answer: dysregulated dopaminergic transmission underlies schizophrenia's pathophysiology — mesolimbic dopamine excess drives positive symptoms, while mesocortical dopamine deficiency contributes to negative symptoms, so a deficiency-linked mechanism genuinely exists.",
+        "D": "This statement IS related to dopamine, so it is not the answer: homovanillic acid (HVA) is dopamine's principal metabolite, formed via monoamine oxidase and catechol-O-methyltransferase, and is used clinically/in research as a marker of dopamine turnover."
+      },
+      "main_concept": "CON-NEU-065F3D64518C82",
+      "concept_ids": [
+        "CON-NEU-065F3D64518C82"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Neuropharmacology",
+      "subtopic": "Dopamine physiology and clinical relevance",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that dopamine's genuine roles include working memory and schizophrenia pathophysiology, with HVA as its main metabolite, but exclude an established treatment role in renal failure.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p3, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q07",
+      "page": 3,
+      "title": "Internal capsule arterial supply — the exception",
+      "question": "The internal capsule is NOT supplied by which of the following arteries?",
+      "options": {
+        "A": "Posterior cerebral artery",
+        "B": "Anterior choroidal artery",
+        "C": "Anterior cerebral artery",
+        "D": "Middle cerebral artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The posterior cerebral artery chiefly supplies the occipital lobe and, via separate thalamoperforating branches, the thalamus, but it is not counted among the internal capsule's named supplying vessels — despite the thalamus's proximity, the internal capsule and thalamus have distinct arterial suppliers. This is a classically tested exam point precisely because the thalamus and internal capsule sit side by side yet draw on different named vessels.",
+        "B": "Incorrect (it DOES supply the capsule). The anterior choroidal artery supplies the retrolenticular and posterior parts of the posterior limb of the internal capsule, among other structures, so it is one of the capsule's genuine suppliers.",
+        "C": "Incorrect (it DOES supply the capsule). The anterior cerebral artery, via its recurrent artery of Heubner, supplies the anterior limb of the internal capsule and the head of the caudate nucleus.",
+        "D": "Incorrect (it DOES supply the capsule). Lenticulostriate branches of the middle cerebral artery supply the genu and much of the posterior limb of the internal capsule, and are the vessels most often implicated in hypertensive internal capsule ('lacunar') strokes."
+      },
+      "main_concept": "CON-NEU-7FC23ED37C7C8B",
+      "concept_ids": [
+        "CON-NEU-7FC23ED37C7C8B"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cerebral vasculature",
+      "subtopic": "Internal capsule arterial supply",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the internal capsule is supplied by the anterior choroidal, middle cerebral (lenticulostriate) and anterior cerebral (Heubner) arteries, but not by the posterior cerebral artery.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p3, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q08",
+      "page": 3,
+      "title": "The near response and Argyll-Robertson pupil",
+      "question": "Concerning the near response, which of the following is correct?",
+      "options": {
+        "A": "It is abolished in lesions of the pretectal nucleus",
+        "B": "It is normal (preserved) in Argyll-Robertson pupil",
+        "C": "Convergence is important to increase depth of focus",
+        "D": "Accommodation occurs by increasing the curvature of the posterior surface of the cornea"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The near response survives a pretectal-region lesion — that is precisely the light-near dissociation seen in Argyll-Robertson pupil, where the light reflex (which does depend on the pretectal relay) is lost while the near response is spared.",
+        "B": "Correct. The near (triad) response — convergence, accommodation and pupillary constriction — remains normal in Argyll-Robertson pupil even though the separate pupillary light reflex is lost, which is exactly the light-near dissociation that makes the sign clinically useful for localising neurosyphilis. Recognising this preserved near response, contrasted with the absent light reflex, is exactly what makes the sign diagnostically useful at the bedside.",
+        "C": "Incorrect. It is pupillary CONSTRICTION (miosis), the third component of the near triad, that increases depth of focus by narrowing the aperture, not convergence, whose role is to align both visual axes on the near target.",
+        "D": "Incorrect. Accommodation increases the curvature of the ANTERIOR surface of the lens (via ciliary muscle contraction relaxing the lens's zonular tension), not the posterior surface of the cornea, which does not change shape during accommodation."
+      },
+      "main_concept": "CON-NEU-7B9104552A6CB5",
+      "concept_ids": [
+        "CON-NEU-7B9104552A6CB5"
+      ],
+      "contextual_concept_ids": [
+        "CON-NEU-16E1FDD95745B6"
+      ],
+      "topic": "Pupillary reflexes",
+      "subtopic": "Near (accommodation) response components",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the near response's accommodation component works by increased anterior lens curvature, that pupillary constriction (not convergence) increases depth of focus, and that the near response is preserved in Argyll-Robertson pupil.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p3, answer table p10",
+      "field_notes": {
+        "keySource": "printed answer table p10",
+        "au": "Workshop Quiz 2, p3 q8",
+        "extractionNote": "The native-text extraction of this question's options carries a column-merge artifact (a stray duplicate 'A-' glyph before the true option B, and every following label consequently shifted one letter). Options were reconstructed to four coherent statements (A-D) matching the printed correct letter B, cross-checked against standard near-response physiology; see field_notes for the raw extracted text preserved for audit."
+      },
+      "author_notes": "Raw extracted text (for audit): 'A- is abolished in lesions of pretectal nucleus / A- B-It is normal in Argyl Robertson pupil / B- Convergence is important to increase depth of focus / C- Accommodation occurs by increasing curvature of the posterior surface of cornea.' Reconstructed as A/B/C/D above; printed key letter B maps to the reconstructed option B."
+    },
+    {
+      "key": "quiz2-q09",
+      "page": 3,
+      "title": "Tuberculum impar and bifid tongue",
+      "question": "Which of the following occurs due to abnormal development of the tuberculum impar?",
+      "options": {
+        "A": "Bifid uvula",
+        "B": "Ankyloglossia",
+        "C": "Trifid (bifid/cleft) tongue",
+        "D": "Hemiglossia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A bifid uvula results from failure of fusion of the two palatine shelves in the midline posteriorly, a palate development anomaly unrelated to the tuberculum impar or tongue development.",
+        "B": "Incorrect. Ankyloglossia (tongue-tie) is a short, tight lingual frenulum restricting tongue movement, unrelated to fusion of the lateral lingual swellings over the tuberculum impar.",
+        "C": "Correct. The anterior two-thirds of the tongue develops from paired lateral lingual swellings and a small midline tuberculum impar, all first-arch derivatives; normally the lateral swellings overgrow and fuse in the midline, burying the tuberculum impar. Failure of this fusion over the tuberculum impar leaves a persistent midline groove, producing a bifid (cleft, sometimes described as trifid) tongue.",
+        "D": "Incorrect. Hemiglossia (a hypoplastic or absent half of the tongue) is a much rarer, more severe developmental field defect, not the classic consequence of isolated tuberculum impar fusion failure."
+      },
+      "main_concept": "CON-FND-6FABEEDE721203",
+      "concept_ids": [
+        "CON-FND-6FABEEDE721203"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Tongue embryology",
+      "subtopic": "Anterior tongue development anomalies",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that failure of the lateral lingual swellings to fuse over the tuberculum impar produces a bifid tongue.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p3, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q10",
+      "page": 3,
+      "title": "Optic tract lesion and homonymous hemianopia",
+      "question": "Which of the following conditions is caused by a lesion of the optic tract?",
+      "options": {
+        "A": "Bitemporal hemianopia",
+        "B": "Blindness of both eyes",
+        "C": "Contralateral homonymous hemianopia",
+        "D": "Ipsilateral homonymous hemianopia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Bitemporal hemianopia results from a lesion at the optic CHIASM, which selectively damages the crossing nasal retinal fibers from both eyes, not from an optic tract lesion further downstream.",
+        "B": "Incorrect. Bilateral blindness would require damage to both optic nerves (or both post-chiasmal pathways, or the visual cortex bilaterally); a unilateral optic tract lesion does not blind both eyes completely.",
+        "C": "Correct. The optic tract carries fibers representing the CONTRALATERAL visual field from both eyes (the temporal, uncrossed fibers from the ipsilateral retina plus the nasal, crossed fibers from the contralateral retina), running from the chiasm to the lateral geniculate body. A lesion here therefore produces a contralateral homonymous hemianopia — loss of the same half of the visual field in both eyes, on the side opposite the lesion.",
+        "D": "Incorrect. Optic tract lesions produce a CONTRALATERAL, not ipsilateral, homonymous hemianopia, because the tract already carries a mixed (partially crossed) representation of the opposite visual field by the time it reaches this level."
+      },
+      "main_concept": "CON-NEU-7E6D7C2D861193",
+      "concept_ids": [
+        "CON-NEU-7E6D7C2D861193"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Visual pathway",
+      "subtopic": "Optic tract lesion localisation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that an optic tract lesion produces contralateral homonymous hemianopia, distinct from chiasmal (bitemporal) and optic nerve (monocular) visual field defects.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p3, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q11",
+      "page": 4,
+      "title": "Corpus callosum is commissural, not a long association fiber",
+      "question": "One of the following does NOT belong to the long association fibers:",
+      "options": {
+        "A": "Corpus callosum",
+        "B": "Superior longitudinal bundle",
+        "C": "Uncinate fasciculus",
+        "D": "Inferior longitudinal bundle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The corpus callosum is a COMMISSURAL fiber bundle, connecting the two cerebral hemispheres across the midline, not an association fiber bundle (which connects cortical areas within the SAME hemisphere) — its length and prominence do not change this fundamental classification. This distinction — inter-hemispheric commissural fibers versus intra-hemispheric association fibers — is the organising principle the question is testing, not simply which tracts happen to be long.",
+        "B": "Incorrect (it IS a long association fiber). The superior longitudinal (arcuate) bundle connects frontal, parietal, occipital and temporal cortex within one hemisphere, a genuine long association tract.",
+        "C": "Incorrect (it IS a long association fiber). The uncinate fasciculus connects the anterior temporal lobe with the orbitofrontal cortex within one hemisphere.",
+        "D": "Incorrect (it IS a long association fiber). The inferior longitudinal fasciculus connects the occipital and temporal lobes within one hemisphere, contributing to visual object and facial recognition pathways."
+      },
+      "main_concept": "CON-NEU-A86CE6A9203C1E",
+      "concept_ids": [
+        "CON-NEU-A86CE6A9203C1E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cerebral white matter",
+      "subtopic": "Association vs commissural fiber classification",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the corpus callosum is a commissural fiber bundle, distinct from the long association fibers (superior longitudinal, uncinate and inferior longitudinal fasciculi).",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p4, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q12",
+      "page": 4,
+      "title": "Basilar membrane tonotopy",
+      "question": "Concerning the basilar membrane, which of the following is correct?",
+      "options": {
+        "A": "The apex responds better to low frequencies than the base does",
+        "B": "The base is wider than the apex",
+        "C": "High-frequency sounds produce maximal displacement of the basilar membrane near the apex",
+        "D": "The apex is relatively stiff compared to the base"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The basilar membrane is tonotopically organised along its length: near the base it is narrow and stiff (favouring high-frequency displacement), while toward the apex it becomes progressively wider and more compliant, giving it maximal displacement and better sensitivity to LOW-frequency sounds. This base-to-apex, high-to-low frequency gradient (tonotopy) is the physical basis for frequency discrimination along the cochlear duct, preserved centrally as tonotopic maps up to the auditory cortex.",
+        "B": "Incorrect. It is the APEX, not the base, that is wider; the base is narrow (and stiff), a reversal of what this option states.",
+        "C": "Incorrect. High-frequency sounds produce maximal displacement near the BASE (narrow, stiff), not the apex — the apex is where low-frequency sounds displace the membrane maximally.",
+        "D": "Incorrect. It is the BASE that is relatively stiff, not the apex; the apex is comparatively compliant (less stiff), which is what allows it to resonate with low frequencies."
+      },
+      "main_concept": "CON-NEU-8C357105B31049",
+      "concept_ids": [
+        "CON-NEU-8C357105B31049"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cochlea histology",
+      "subtopic": "Basilar membrane tonotopy",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the basilar membrane's apex is wider and less stiff than its base, giving it better sensitivity to low frequencies while the base favours high frequencies.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p4, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q13",
+      "page": 4,
+      "title": "Corticobulbar fibers at the internal capsule genu",
+      "question": "Which of the following fibers are found in the area referred to by the red arrow?",
+      "options": {
+        "A": "Frontopontine fibers",
+        "B": "Corticospinal tract",
+        "C": "Superior thalamic radiation",
+        "D": "Corticobulbar tract"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Frontopontine fibers travel in the ANTERIOR LIMB of the internal capsule, not the genu marked by the arrow.",
+        "B": "Incorrect. The corticospinal tract runs chiefly in the anterior part of the POSTERIOR LIMB of the internal capsule, a different region from the genu.",
+        "C": "Incorrect. The superior thalamic radiation (sensory fibers to the postcentral gyrus) also runs in the posterior limb, not the genu.",
+        "D": "Correct. The genu of the internal capsule, the bend between its anterior and posterior limbs, chiefly carries corticobulbar fibers descending to the cranial nerve motor nuclei of the brainstem — a distinct regional compartment from the anterior limb's frontopontine fibers and the posterior limb's corticospinal and sensory radiation fibers. This regional organisation is why a small, precisely placed lesion at the genu can selectively affect lower-face, tongue or palate motor function without necessarily producing the limb weakness of a posterior-limb corticospinal lesion."
+      },
+      "main_concept": "CON-NEU-4E02E346391C78",
+      "concept_ids": [
+        "CON-NEU-4E02E346391C78"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Internal capsule",
+      "subtopic": "Regional fiber content",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Locate the corticobulbar tract within the genu of the internal capsule, distinct from the anterior limb's frontopontine fibers and the posterior limb's corticospinal and sensory radiation fibers.",
+      "media_recommendations": "### anatomy plate · Question stem\nBrief: Coronal or axial brain section showing the internal capsule, with a red-arrow pointer on the genu (the bend between the anterior and posterior limbs)\nPurpose: This is a labelling item transcribed from the Workshop Quiz 2 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image there is nothing to point at, so the item cannot be shown to a student until a rights-cleared replacement is supplied.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p4, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q14",
+      "page": 4,
+      "title": "The dorsal horn nucleus relaying pain",
+      "question": "The nucleus at number 2 is responsible for transmission of which of the following sensations?",
+      "options": {
+        "A": "Unconscious proprioception",
+        "B": "Conscious proprioception",
+        "C": "Pain",
+        "D": "Touch"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Unconscious proprioception is relayed by Clarke's nucleus (nucleus thoracicus) to the dorsal spinocerebellar tract, a different dorsal horn structure from the one marked.",
+        "B": "Incorrect. Conscious proprioception ascends via the dorsal columns to the cuneate and gracile nuclei in the medulla, not via this spinal grey matter nucleus.",
+        "C": "Correct. The substantia gelatinosa (Rexed lamina II, at the tip of the dorsal horn) is the first major site where nociceptive (pain) afferents synapse and are modulated before their signal ascends in the spinothalamic tract — the structure being pointed to here. This modulatory role at the substantia gelatinosa is also the anatomical site targeted by the gate-control mechanism, where large-diameter touch afferents inhibit onward pain transmission.",
+        "D": "Incorrect. Fine touch travels via the dorsal columns (cuneate/gracile nuclei), while crude touch travels in the anterior spinothalamic tract; neither relays primarily through this specific nucleus, whose defining role is pain."
+      },
+      "main_concept": "CON-NEU-8D5A807ABB9609",
+      "concept_ids": [
+        "CON-NEU-8D5A807ABB9609"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Spinal cord grey matter",
+      "subtopic": "Dorsal horn pain relay nuclei",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the substantia gelatinosa of the dorsal horn as the spinal grey matter nucleus responsible for pain signal transmission and modulation.",
+      "media_recommendations": "### anatomy plate · Question stem\nBrief: Spinal cord cross-section diagram with numbered dorsal horn grey matter nuclei, pointer on the nucleus labelled '2'\nPurpose: This is a labelling item transcribed from the Workshop Quiz 2 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image there is nothing to point at, so the item cannot be shown to a student until a rights-cleared replacement is supplied.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p4, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q15",
+      "page": 5,
+      "title": "Corticospinal tract lesion and loss of fine movement",
+      "question": "A lesion at the structure labelled number 5 leads to which of the following?",
+      "options": {
+        "A": "Sensory ataxia",
+        "B": "Imbalance",
+        "C": "Loss of fine movement",
+        "D": "Loss of protective reflex"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Sensory ataxia results from a DORSAL COLUMN (proprioceptive) lesion, a different white matter tract from the one marked here.",
+        "B": "Incorrect. Imbalance is more characteristic of a spinocerebellar tract or cerebellar lesion, not the tract marked in this cross-section.",
+        "C": "Correct. The lateral corticospinal tract, the largest and most clinically important descending motor pathway, chiefly controls fine, discrete voluntary movements of the distal limbs. A lesion here characteristically causes loss of this fine, skilled voluntary movement (accompanied by other upper motor neuron signs), which is the structure and function being tested.",
+        "D": "Incorrect. Loss of a protective (withdrawal) reflex reflects damage to a segmental spinal reflex arc, not to the descending motor tract marked here."
+      },
+      "main_concept": "CON-NEU-F5E118F9279F4A",
+      "concept_ids": [
+        "CON-NEU-F5E118F9279F4A"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Spinal cord white matter tracts",
+      "subtopic": "Corticospinal tract lesion syndrome",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a lateral corticospinal tract lesion produces loss of fine, discrete voluntary movement, distinguishing it from dorsal column and spinocerebellar tract lesion syndromes.",
+      "media_recommendations": "### anatomy plate · Question stem\nBrief: Spinal cord cross-section diagram with numbered white matter tracts, pointer on the tract labelled '5'\nPurpose: This is a labelling item transcribed from the Workshop Quiz 2 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image there is nothing to point at, so the item cannot be shown to a student until a rights-cleared replacement is supplied.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p5, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q16",
+      "page": 5,
+      "title": "What does not form a cerebellar glomerulus",
+      "question": "Which of the following does NOT share in the formation of cerebellar glomeruli?",
+      "options": {
+        "A": "Mossy fibers",
+        "B": "Dendrites of Golgi cells",
+        "C": "Axon of Golgi cells",
+        "D": "Dendrites of granule cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it DOES share in formation). The mossy fiber terminal (rosette) forms the excitatory centre of the glomerulus.",
+        "B": "Correct. Golgi cell DENDRITES extend upward out of the granular layer into the overlying molecular layer, where they receive parallel fiber input — they do not participate in glomerulus formation, even though the Golgi cell's own axon does. Only the Golgi cell's axon terminal, providing inhibitory feedback onto the same granule cell dendrites the mossy fiber excites, is a true glomerulus component.",
+        "C": "Incorrect (it DOES share in formation). The Golgi cell's axon terminal provides inhibitory feedback within the glomerulus onto the same granule cell dendrites that the mossy fiber excites.",
+        "D": "Incorrect (it DOES share in formation). Granule cell dendrites surround the mossy fiber rosette within the glomerulus, receiving its excitatory input."
+      },
+      "main_concept": "CON-NEU-A190160C46FE72",
+      "concept_ids": [
+        "CON-NEU-A190160C46FE72"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cerebellar histology",
+      "subtopic": "Cerebellar glomerulus composition",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that cerebellar glomeruli are formed by mossy fiber terminals, granule cell dendrites and Golgi cell axon terminals, while Golgi cell dendrites lie outside the glomerulus in the molecular layer.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p5, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q17",
+      "page": 5,
+      "title": "Paracentral lobule and the perineum",
+      "question": "The paracentral lobule contains motor and sensory areas for one of the following parts:",
+      "options": {
+        "A": "Head and neck",
+        "B": "Trunk",
+        "C": "Upper limb",
+        "D": "Perineum"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Head and neck are represented most laterally/inferiorly on the hemispheric convexity near the lateral fissure, not on the medial paracentral lobule.",
+        "B": "Incorrect. The trunk is represented at the mid-convexity of the pre/postcentral gyri, not specifically on the paracentral lobule.",
+        "C": "Incorrect. The upper limb (including the hand) is represented on the lateral convexity, well away from the medial paracentral lobule.",
+        "D": "Correct. The paracentral lobule is the medial-surface continuation of the pre- and postcentral gyri; in the sensorimotor homunculus it carries the representation for the leg, foot, and — continuing further medially — the perineum, including voluntary control relevant to bladder and bowel sphincters. This is why lesions here (e.g. anterior cerebral artery territory infarction) classically produce contralateral leg weakness together with urinary/bowel disturbance."
+      },
+      "main_concept": "CON-NEU-21B8B66BE5A8FA",
+      "concept_ids": [
+        "CON-NEU-21B8B66BE5A8FA"
+      ],
+      "contextual_concept_ids": [
+        "CON-NEU-168E2C67CB6BA7"
+      ],
+      "topic": "Cerebral cortex",
+      "subtopic": "Paracentral lobule somatotopy",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the paracentral lobule represents the leg/foot and, further medially, the perineum in the sensorimotor homunculus.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p5, answer table p10",
+      "field_notes": {
+        "nearMiss": "Topically adjacent to ASU-CNS-3's CON-NEU-168E2C67CB6BA7 (paracentral lobule leg/foot representation), but tests a distinct fact (perineal, not leg/foot, representation) — minted separately, linked via contextual_concept_ids per LANE-BRIEF's near-miss convention, not overlaid."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q18",
+      "page": 5,
+      "title": "Stria vascularis and endolymph formation",
+      "question": "Which of the following is responsible for the formation of endolymph?",
+      "options": {
+        "A": "Basilar membrane",
+        "B": "Tectorial membrane",
+        "C": "Otolithic membrane",
+        "D": "Stria vascularis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The basilar membrane is a mechanical, vibration-transmitting structure whose tonotopic stiffness/width gradient encodes frequency; it does not secrete endolymph.",
+        "B": "Incorrect. The tectorial membrane is a gelatinous structure overlying the organ of Corti's hair cell stereocilia, mechanically coupling sound-induced vibration to hair cell deflection, not a secretory structure.",
+        "C": "Incorrect. The otolithic membrane belongs to the VESTIBULAR apparatus (utricle/saccule maculae), not the cochlear duct, and is not the source of cochlear endolymph.",
+        "D": "Correct. The stria vascularis, a specialised, highly vascular epithelium on the lateral wall of the cochlear duct, actively secretes and maintains endolymph's distinctive high-potassium, low-sodium ionic composition and generates the endocochlear potential, both essential for normal hair cell mechanotransduction. This ionic gradient and endocochlear potential are what power the hair cells' mechanotransduction current once their stereocilia are deflected by sound."
+      },
+      "main_concept": "CON-NEU-C48EB9743E7E97",
+      "concept_ids": [
+        "CON-NEU-C48EB9743E7E97"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cochlea histology",
+      "subtopic": "Endolymph formation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the stria vascularis produces endolymph's characteristic high-potassium, low-sodium ionic composition and the endocochlear potential.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p5, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q19",
+      "page": 6,
+      "title": "Parkinsonian rigidity — lead-pipe or cog-wheel",
+      "question": "Which of the following is true regarding rigidity associated with Parkinsonism?",
+      "options": {
+        "A": "Accompanied with hyperkinesia",
+        "B": "Lead-pipe or cog-wheel rigidity",
+        "C": "Clasp-knife rigidity",
+        "D": "Associated with increased tendon jerks"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Parkinson disease is a HYPOkinetic (not hyperkinetic) movement disorder — bradykinesia, not excess movement, is its defining motor feature alongside rigidity.",
+        "B": "Correct. Parkinsonian rigidity is present throughout the full range of passive movement in both flexor and extensor groups, classically described as lead-pipe (uniform resistance) or, when a resting tremor is superimposed, cog-wheel (a ratchet-like, interrupted quality). Tendon reflexes remain essentially normal in isolated Parkinsonian rigidity, a further point distinguishing it from spasticity.",
+        "C": "Incorrect. Clasp-knife rigidity is the velocity-dependent resistance that suddenly gives way, characteristic of upper motor neuron SPASTICITY, a different hypertonia pattern from basal ganglia rigidity.",
+        "D": "Incorrect. Increased (exaggerated) tendon jerks are a spasticity/upper motor neuron sign; tendon reflexes are typically normal in isolated Parkinsonian rigidity."
+      },
+      "main_concept": "CON-NEU-8B2CD3A5921966",
+      "concept_ids": [
+        "CON-NEU-8B2CD3A5921966"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Basal ganglia disorders",
+      "subtopic": "Parkinsonian rigidity features",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Parkinsonian rigidity is lead-pipe or cog-wheel, distinct from spasticity's clasp-knife quality and exaggerated tendon jerks, and that Parkinson disease is hypokinetic, not hyperkinetic.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p6, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q20",
+      "page": 6,
+      "title": "Digastric's two cranial nerves",
+      "question": "The following muscle receives its motor supply from two cranial nerves:",
+      "options": {
+        "A": "Buccinator",
+        "B": "Trapezius",
+        "C": "Digastric",
+        "D": "Omohyoid"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Buccinator is supplied entirely by the facial nerve (CN VII, buccal branches), a single cranial nerve.",
+        "B": "Incorrect. Trapezius's motor supply is the accessory nerve (CN XI) alone; cervical plexus (C3-C4) fibers it also receives are proprioceptive, not an additional motor cranial nerve.",
+        "C": "Correct. Digastric has two bellies of different pharyngeal arch origin: the anterior belly (first arch) is supplied by the mylohyoid nerve, a branch of the mandibular division of the trigeminal nerve (V3), while the posterior belly (second arch) is supplied directly by the facial nerve (CN VII) — making digastric unusual among named muscles for receiving motor supply from two separate cranial nerves. This muscle-by-muscle exception is worth memorising by name, since almost every other named muscle in the head and neck answers to a single cranial nerve.",
+        "D": "Incorrect. Omohyoid, an infrahyoid strap muscle, is supplied by the ansa cervicalis (a spinal, not cranial, nerve loop) alone."
+      },
+      "main_concept": "CON-NEU-733999202B4B81",
+      "concept_ids": [
+        "CON-NEU-733999202B4B81"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Muscles of the floor of the mouth",
+      "subtopic": "Digastric dual innervation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that digastric is innervated by two cranial nerves — the mandibular nerve (V3) for its anterior belly, the facial nerve (VII) for its posterior belly.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p6, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q21",
+      "page": 6,
+      "title": "Muscle atonia during REM sleep",
+      "question": "Concerning sleep, which of the following is correct?",
+      "options": {
+        "A": "Dreams are typically remembered during Non-REM sleep",
+        "B": "Individuals rarely awake spontaneously from REM sleep",
+        "C": "Muscle tone is markedly suppressed during REM sleep",
+        "D": "Heart rate and respiratory rate typically decrease during REM sleep"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Vivid dreams with good recall on waking are chiefly a REM-sleep phenomenon, not Non-REM, which by contrast is associated with sparser, less vivid mentation.",
+        "B": "Incorrect. Spontaneous awakening from REM sleep is common, not rare — REM periods lengthen toward the end of the night and people frequently wake directly from a REM episode.",
+        "C": "Correct. REM sleep features near-total skeletal muscle atonia — active inhibition of spinal motor neurons, sparing the diaphragm and extraocular muscles — which prevents the body from physically acting out dream content; its failure underlies REM sleep behaviour disorder. This atonia is also clinically important because its failure underlies REM sleep behaviour disorder, in which patients physically act out dream content.",
+        "D": "Incorrect. Heart rate and respiratory rate typically INCREASE and become more irregular during REM sleep, alongside the rapid eye movements that give the stage its name, not decrease as this option states."
+      },
+      "main_concept": "CON-NEU-C8CB4E3E4ADF78",
+      "concept_ids": [
+        "CON-NEU-C8CB4E3E4ADF78"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sleep physiology",
+      "subtopic": "REM sleep features",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that REM sleep is characterised by marked skeletal muscle atonia, alongside increased (not decreased) heart and respiratory rate and typically good dream recall.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p6, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q22",
+      "page": 6,
+      "title": "The ionic composition of endolymph (labelled structure)",
+      "question": "In the structure shown below, the structure labelled D is responsible for which of the following?",
+      "options": {
+        "A": "Support of the organ of Corti",
+        "B": "The characteristic ionic composition of the perilymph",
+        "C": "Transduction of the sound to a nerve impulse",
+        "D": "The characteristic ionic composition of the endolymph"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Support of the organ of Corti is chiefly the role of the basilar membrane and surrounding supporting cells, not the structure labelled D.",
+        "B": "Incorrect. Perilymph's ionic composition (similar to typical extracellular fluid) is not maintained by this structure; the structure labelled D instead maintains ENDOLYMPH's distinctive composition, the opposite fluid compartment.",
+        "C": "Incorrect. Sound transduction into a nerve impulse occurs at the hair cells of the organ of Corti, not at the structure labelled D.",
+        "D": "Correct. The structure labelled D is the stria vascularis, the lateral-wall epithelium of the cochlear duct that actively secretes and maintains endolymph's characteristic high-potassium, low-sodium ionic composition and generates the endocochlear potential — the same fact tested directly (without a figure) earlier in this quiz. Recognising the same fact in both its plain and image-labelled forms is exactly what this pairing of questions is testing."
+      },
+      "main_concept": "CON-NEU-C48EB9743E7E97",
+      "concept_ids": [
+        "CON-NEU-C48EB9743E7E97"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cochlea histology",
+      "subtopic": "Endolymph formation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the stria vascularis as the labelled cochlear duct structure responsible for endolymph's characteristic ionic composition.",
+      "media_recommendations": "### histology plate · Question stem\nBrief: Cross-section of the cochlear duct (scala media)/organ of Corti with lettered structures A-D, pointer on structure 'D' (the lateral wall stria vascularis)\nPurpose: This is a labelling item transcribed from the Workshop Quiz 2 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image there is nothing to point at, so the item cannot be shown to a student until a rights-cleared replacement is supplied.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p6, answer table p10",
+      "field_notes": {
+        "duplicateAngle": "Same underlying fact as quiz2-q18 (stria vascularis/endolymph), tested here via an image-labelling variant; shares main_concept rather than minting a twin, per coverage/AU-MED-203-triage.md's near-duplicate-angle collapsing note."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q23",
+      "page": 7,
+      "title": "Synaptic knobs synthesize neurotransmitters",
+      "question": "Which of the following is related to synaptic knobs?",
+      "options": {
+        "A": "Synthesize different types of neurotransmitters",
+        "B": "Release neurotransmitters by diffusion across their membranes",
+        "C": "Have ligand-gated Ca2+ channels",
+        "D": "Are located at the terminal end of dendrites"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The synaptic knob (bouton), the terminal expansion of an axon, contains the machinery to synthesise (or package) different types of neurotransmitters and store them in synaptic vesicles ready for release. Release itself then occurs by calcium-triggered vesicular exocytosis when an arriving action potential opens voltage-gated calcium channels at the knob.",
+        "B": "Incorrect. Neurotransmitters are released by calcium-triggered vesicular EXOCYTOSIS, a regulated, energy-dependent process, not by simple diffusion across the presynaptic membrane.",
+        "C": "Incorrect. The calcium channels that trigger neurotransmitter release at the synaptic knob are VOLTAGE-gated (opened by the depolarisation of an arriving action potential), not ligand-gated.",
+        "D": "Incorrect. Synaptic knobs are located at the terminal end of AXONS, not dendrites; dendrites are the postsynaptic, receiving side of a typical chemical synapse."
+      },
+      "main_concept": "CON-NEU-3E30EC988602D8",
+      "concept_ids": [
+        "CON-NEU-3E30EC988602D8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "General neurohistology",
+      "subtopic": "Synaptic knob (bouton) structure and function",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that synaptic knobs, located at axon terminals, synthesize varied neurotransmitters and release them by calcium-triggered exocytosis rather than diffusion.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p7, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q24",
+      "hold": "HIT-PENDING concept (prefrontal cortex / frontal lobe personality change, CON-NEU-B0F7899B8DFF50) reuses an ASU-CNS-3 concept not yet imported to production (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md) — authored as a sparse-overlay pending-live question per LANE-CARD-Y2's 'check CNS-3 first, reuse via sparse overlay' instruction, not emitted into this batch."
+    },
+    {
+      "key": "quiz2-q25",
+      "page": 7,
+      "title": "Gate theory of pain and A-beta fibers",
+      "question": "Inhibition of pain signals by tactile stimulation of a skin surface involves:",
+      "options": {
+        "A": "Type A-alpha fibers in peripheral nerves",
+        "B": "Type A-beta fibers in peripheral nerves",
+        "C": "Type A-delta fibers in peripheral nerves",
+        "D": "Type B fibers in peripheral nerves"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Type A-alpha fibers are the largest, fastest peripheral fibers, chiefly proprioceptive/motor (e.g. muscle spindle afferents), not the tactile fibers responsible for gate-theory pain inhibition.",
+        "B": "Correct. The gate-control theory of pain proposes that large-diameter, fast-conducting type A-beta tactile afferents inhibit onward pain transmission from smaller A-delta/C fibers, by activating inhibitory interneurons in the substantia gelatinosa that 'close the gate' on nociceptive transmission cells — the physiological basis for why rubbing a painful area, or techniques like TENS, relieve pain. This is the physiological basis for why rubbing or stimulating the skin near an area of pain, and techniques such as transcutaneous electrical nerve stimulation, provide pain relief.",
+        "C": "Incorrect. Type A-delta fibers are themselves PAIN-carrying (fast, sharp pain) afferents, the type being inhibited by this mechanism, not the tactile fiber doing the inhibiting.",
+        "D": "Incorrect. Type B fibers are preganglionic autonomic fibers, unrelated to cutaneous tactile pain-gating."
+      },
+      "main_concept": "CON-NEU-04F9C773D465DB",
+      "concept_ids": [
+        "CON-NEU-04F9C773D465DB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pain physiology",
+      "subtopic": "Gate theory of pain",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that large-diameter type A-beta tactile afferents inhibit pain transmission at the dorsal horn, the physiological basis of the gate theory of pain.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p7, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q26",
+      "page": 7,
+      "title": "Auriculotemporal nerve and the external auditory meatus",
+      "question": "The auriculotemporal nerve supplies one of the following areas:",
+      "options": {
+        "A": "Nose and nasal septum",
+        "B": "Inner surface of the ear drum",
+        "C": "External auditory meatus",
+        "D": "Chin and lower lip"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The nose and nasal septum are supplied by other trigeminal branches (e.g. the nasociliary and its branches), not the auriculotemporal nerve.",
+        "B": "Incorrect. The INNER (medial) surface of the tympanic membrane is supplied by the glossopharyngeal nerve's tympanic branch (Jacobson's nerve), not the auriculotemporal nerve, which instead supplies the outer surface.",
+        "C": "Correct. The auriculotemporal nerve, a branch of the mandibular division of the trigeminal nerve (V3), runs close to the temporomandibular joint and parotid gland to supply cutaneous sensation to the temporal region, the outer surface of the tympanic membrane, and the external auditory meatus. Its close relationship to the temporomandibular joint and parotid gland is also why it can be involved in Frey's syndrome after parotid surgery.",
+        "D": "Incorrect. The chin and lower lip are supplied by the mental nerve, a different V3 branch, not the auriculotemporal nerve."
+      },
+      "main_concept": "CON-NEU-4FB3397E4619F3",
+      "concept_ids": [
+        "CON-NEU-4FB3397E4619F3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cranial nerves",
+      "subtopic": "Auriculotemporal nerve sensory territory",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the auriculotemporal nerve supplies sensation to the external auditory meatus, distinct from the nasal septum, inner eardrum surface, or chin/lower lip.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p7, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q27",
+      "page": 8,
+      "title": "Otolith organs and head position",
+      "question": "Otolith organs (utricle and saccule) are responsible for:",
+      "options": {
+        "A": "Detecting angular acceleration",
+        "B": "Detecting the position of the head in space",
+        "C": "Producing the stretch reflex",
+        "D": "Producing vertigo"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Angular (rotational) acceleration is detected by the cristae ampullares of the SEMICIRCULAR CANALS, not the otolith organs.",
+        "B": "Correct. The utricle and saccule each contain a macula whose hair-cell stereocilia are embedded in an otolithic membrane weighted with calcium carbonate crystals (otoconia); gravitational pull and linear acceleration displace this membrane, allowing the otolith organs to detect the static position of the head in space and linear acceleration. This directional sensitivity arises because the otoconia-weighted membrane lags behind head movement under inertia, shearing the underlying hair-cell stereocilia.",
+        "C": "Incorrect. The stretch reflex is a spinal, muscle-spindle-mediated proprioceptive reflex, unrelated to otolith organ function.",
+        "D": "Incorrect. Vertigo is a SYMPTOM of vestibular dysfunction, not the otolith organs' normal function; producing vertigo is not what they are 'responsible for' physiologically."
+      },
+      "main_concept": "CON-NEU-AB405AC4B0A49F",
+      "concept_ids": [
+        "CON-NEU-AB405AC4B0A49F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Vestibular physiology",
+      "subtopic": "Otolith organ function",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the otolith organs (utricle, saccule) detect head position in space via gravity and linear acceleration, distinct from the semicircular canals' angular acceleration detection.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p8, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q28",
+      "hold": "HIT-PENDING concept (inferior petrosal sinus draining to the internal jugular vein, CON-NEU-D479D9227D90F9) reuses an ASU-CNS-3 concept not yet imported to production (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md) — authored as a sparse-overlay pending-live question per LANE-CARD-Y2's 'check CNS-3 first, reuse via sparse overlay' instruction, not emitted into this batch."
+    },
+    {
+      "key": "quiz2-q29",
+      "page": 8,
+      "title": "Dorsal spinocerebellar tract origin",
+      "question": "Which of the following nuclei is responsible for formation of the dorsal spinocerebellar tract?",
+      "options": {
+        "A": "Substantia gelatinosa of Rolando",
+        "B": "Nucleus proprius",
+        "C": "Cuneate nucleus",
+        "D": "Nucleus thoracicus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The substantia gelatinosa of Rolando modulates pain transmission in the dorsal horn, not the origin of the dorsal spinocerebellar tract.",
+        "B": "Incorrect. The nucleus proprius is a general dorsal horn sensory relay nucleus, not specifically the origin of the dorsal spinocerebellar tract.",
+        "C": "Incorrect. The cuneate nucleus is a MEDULLARY (not spinal) relay for CONSCIOUS proprioception from the upper limb via the dorsal columns, a different pathway from the unconscious dorsal spinocerebellar tract.",
+        "D": "Correct. The dorsal (posterior) spinocerebellar tract, carrying unconscious proprioceptive information from the lower limb and trunk to the cerebellum, originates from second-order neurons in the nucleus thoracicus (Clarke's column), present at spinal levels T1-L2. This is distinct from the substantia gelatinosa (pain modulation) and nucleus proprius (general sensory relay), which are separate dorsal horn structures with different destinations."
+      },
+      "main_concept": "CON-NEU-6BDDD009FFC55C",
+      "concept_ids": [
+        "CON-NEU-6BDDD009FFC55C"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Spinal cord white matter tracts",
+      "subtopic": "Dorsal spinocerebellar tract origin",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the dorsal spinocerebellar tract originates from the nucleus thoracicus (Clarke's column) at spinal levels T1-L2.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p8, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q30",
+      "page": 8,
+      "title": "Internal capsule lesion and contralateral spastic paralysis",
+      "question": "Lesion of the internal capsule results in:",
+      "options": {
+        "A": "Spastic paralysis of the contralateral side of the body",
+        "B": "Flaccid paralysis of both sides of the body",
+        "C": "Reaction of degeneration on the affected side",
+        "D": "Exaggerated tendon jerk on the same side of the lesion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Because corticospinal/corticobulbar fibers running through the internal capsule have not yet decussated, a unilateral internal capsule lesion produces an upper motor neuron syndrome — spastic paralysis, exaggerated tendon jerks and an extensor plantar response — on the CONTRALATERAL side of the body. This upper motor neuron pattern — spastic, contralateral, with exaggerated reflexes — is the clinical signature that distinguishes an internal capsule lesion from a lower motor neuron process.",
+        "B": "Incorrect. Internal capsule lesions produce unilateral (not bilateral), and spastic (not flaccid), paralysis; flaccid paralysis is a lower motor neuron pattern.",
+        "C": "Incorrect. A reaction of degeneration is a lower motor neuron/peripheral nerve finding, not seen in an upper motor neuron internal capsule lesion.",
+        "D": "Incorrect. Exaggerated tendon jerks occur on the CONTRALATERAL side, matching the paralysis, not the same side as the lesion."
+      },
+      "main_concept": "CON-NEU-152993798822B6",
+      "concept_ids": [
+        "CON-NEU-152993798822B6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Internal capsule",
+      "subtopic": "Internal capsule lesion syndrome",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that an internal capsule lesion produces contralateral spastic hemiplegia, an upper motor neuron syndrome, not ipsilateral or flaccid paralysis.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p8, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q31",
+      "page": 9,
+      "title": "Hippocampus and memory (labelled structure)",
+      "question": "What is the function of the area referred to by the green arrow?",
+      "options": {
+        "A": "Behaviour",
+        "B": "Memory",
+        "C": "Vision",
+        "D": "Fine movement"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Behaviour regulation is more characteristic of the prefrontal/orbitofrontal cortex, not the medial temporal lobe structure marked here.",
+        "B": "Correct. The hippocampus, a medial temporal lobe structure and part of the limbic system, is essential for consolidating new declarative (explicit) memories and for spatial navigation — its principal, most heavily tested function. Bilateral hippocampal damage, as in the classic case of patient H.M., produces severe anterograde amnesia while sparing procedural memory and personality.",
+        "C": "Incorrect. Primary visual processing occurs in the occipital lobe, well away from the medial temporal lobe structure marked by the green arrow.",
+        "D": "Incorrect. Fine motor control is a function of the motor cortex and cerebellum, not the medial temporal lobe structure being pointed to."
+      },
+      "main_concept": "CON-NEU-66798D048B0506",
+      "concept_ids": [
+        "CON-NEU-66798D048B0506"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Temporal lobe and limbic system",
+      "subtopic": "Hippocampal function",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the hippocampus's principal function is memory (declarative memory consolidation and spatial navigation), distinct from behaviour, vision or fine movement.",
+      "media_recommendations": "### anatomy plate · Question stem\nBrief: Coronal or sagittal brain section with a green-arrow pointer on a medial temporal lobe (hippocampal) structure\nPurpose: This is a labelling item transcribed from the Workshop Quiz 2 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image there is nothing to point at, so the item cannot be shown to a student until a rights-cleared replacement is supplied.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p9, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q32",
+      "page": 9,
+      "title": "Basilar artery occlusion and brainstem ischemia",
+      "question": "Ischemia in the area referred to by the red arrow is due to occlusion of which of the following arteries?",
+      "options": {
+        "A": "Internal carotid artery",
+        "B": "External carotid artery",
+        "C": "Basilar artery",
+        "D": "Lingual artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The internal carotid artery supplies the cerebral hemispheres (anterior circulation), not the brainstem territory marked here.",
+        "B": "Incorrect. The external carotid artery supplies extracranial structures of the face, scalp and neck, not the brainstem.",
+        "C": "Correct. The basilar artery, formed by the union of the two vertebral arteries, runs along the ventral pons giving off paramedian and circumferential branches supplying the pons and midbrain; occlusion of the basilar artery or its branches produces brainstem ischemia, with a range of syndromes from isolated cranial nerve/long tract signs up to locked-in syndrome from complete occlusion. The severity of the resulting deficit depends heavily on the level and specific branch occluded, ranging from isolated cranial nerve signs to devastating locked-in syndrome.",
+        "D": "Incorrect. The lingual artery supplies the tongue and floor of the mouth, an extracranial territory unrelated to the brainstem structure marked by the arrow."
+      },
+      "main_concept": "CON-NEU-04F7F764A6D679",
+      "concept_ids": [
+        "CON-NEU-04F7F764A6D679"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cerebral and brainstem vasculature",
+      "subtopic": "Basilar artery territory",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the basilar artery supplies the brainstem (pons and midbrain), so its occlusion produces brainstem ischemia.",
+      "media_recommendations": "### anatomy plate · Question stem\nBrief: Basal view or vascular diagram of the brainstem with a red-arrow pointer on a pontine/midbrain structure supplied by the basilar artery\nPurpose: This is a labelling item transcribed from the Workshop Quiz 2 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image there is nothing to point at, so the item cannot be shown to a student until a rights-cleared replacement is supplied.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p9, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q33",
+      "page": 9,
+      "title": "Neocerebellar syndrome and dysdiadochokinesia",
+      "question": "Neocerebellar syndrome is characterized by:",
+      "options": {
+        "A": "Hypertonia",
+        "B": "Mask face",
+        "C": "Dysdiadochokinesia",
+        "D": "Static (resting) tremor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cerebellar disease produces HYPOtonia (decreased tone), not hypertonia — hypertonia is instead a basal ganglia (Parkinsonian) or upper motor neuron feature.",
+        "B": "Incorrect. A mask-like face is a classic Parkinsonism (basal ganglia) feature, not a cerebellar sign.",
+        "C": "Correct. The neocerebellum (lateral cerebellar hemispheres) coordinates the planning and fine timing of skilled voluntary movement; its dysfunction produces the classic limb ataxia syndrome, including dysdiadochokinesia (impaired rapid alternating movements), hypotonia, and intention tremor. This is essentially the opposite tonal and tremor pattern from Parkinsonism's rigidity and resting tremor, and it lacks Parkinsonism's mask-like face.",
+        "D": "Incorrect. A static (resting) tremor is the Parkinsonian tremor pattern; cerebellar disease instead produces an INTENTION tremor, which worsens as the limb approaches its target — the opposite tremor pattern."
+      },
+      "main_concept": "CON-NEU-41634A83FE4C96",
+      "concept_ids": [
+        "CON-NEU-41634A83FE4C96"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cerebellar physiology",
+      "subtopic": "Neocerebellar syndrome features",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that neocerebellar syndrome is characterized by dysdiadochokinesia, hypotonia and intention tremor, contrasting with Parkinsonism's rigidity, resting tremor and mask face.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p9, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q34",
+      "page": 9,
+      "title": "Low CSF chloride and meningitis",
+      "question": "A low level of chloride in CSF indicates the presence of which of the following diseases?",
+      "options": {
+        "A": "Syphilis",
+        "B": "Meningitis",
+        "C": "Encephalitis",
+        "D": "Tumor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Neurosyphilis is not classically associated with low CSF chloride; its CSF findings (when active) are chiefly a lymphocytic pleocytosis and reactive VDRL, not this chloride pattern.",
+        "B": "Correct. CSF chloride characteristically falls in bacterial (and tuberculous) meningitis, alongside low CSF glucose and elevated protein and white cell count, reflecting bacterial glucose consumption and altered blood-CSF-barrier transport. This low-chloride, low-glucose pattern is used together with the rest of the CSF profile to distinguish bacterial meningitis from viral encephalitis, where chloride is typically normal.",
+        "C": "Incorrect. CSF chloride is typically normal in viral encephalitis, which instead shows a lymphocytic pleocytosis with normal glucose, distinguishing it from bacterial meningitis's low-chloride, low-glucose profile.",
+        "D": "Incorrect. A CNS tumour does not classically produce this low-chloride CSF pattern; it may instead raise CSF protein without the glucose/chloride derangements of bacterial meningitis."
+      },
+      "main_concept": "CON-NEU-50501B21A7377C",
+      "concept_ids": [
+        "CON-NEU-50501B21A7377C"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "CSF physiology and pathology",
+      "subtopic": "CSF chloride changes in meningitis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that low CSF chloride is a feature of bacterial meningitis, part of the CSF profile used to distinguish it from viral encephalitis or a non-infective cause.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p9, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    },
+    {
+      "key": "quiz2-q35",
+      "page": 9,
+      "title": "Spinal shock and decreased venous return",
+      "question": "Which of the following would occur during the stage of spinal shock?",
+      "options": {
+        "A": "Marked rise in arterial blood pressure",
+        "B": "Plantar reflex showing a positive Babinski's sign",
+        "C": "Mass reflex is present",
+        "D": "Marked decrease in venous return"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Spinal shock causes HYPOtension, not a rise in arterial pressure, from loss of descending sympathetic vasomotor tone below the lesion.",
+        "B": "Incorrect. Reflexes, including the plantar response, are typically ABSENT during acute spinal shock; a positive Babinski sign more classically re-emerges as spinal shock RESOLVES, not during its acute phase.",
+        "C": "Incorrect. The mass reflex is a later, exaggerated flexor withdrawal response that only appears once spinal shock has resolved, not during the acute shock phase itself.",
+        "D": "Correct. Loss of sympathetic vasomotor tone below a complete spinal cord transection causes marked venous pooling in the now-unopposed capacitance vessels, producing a marked decrease in venous return and consequent hypotension. During this acute phase, tendon and cutaneous reflexes (including the plantar response) are also typically absent, only returning — and eventually becoming exaggerated — once spinal shock resolves."
+      },
+      "main_concept": "CON-NEU-D9BBAF2099E8AA",
+      "concept_ids": [
+        "CON-NEU-D9BBAF2099E8AA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Spinal cord physiology",
+      "subtopic": "Spinal shock features",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that spinal shock causes a marked decrease in venous return from loss of sympathetic vasomotor tone, with absent (not exaggerated) reflexes during the acute phase.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 2, p9, answer table p10",
+      "field_notes": {},
+      "author_notes": ""
+    }
+  ]
+}

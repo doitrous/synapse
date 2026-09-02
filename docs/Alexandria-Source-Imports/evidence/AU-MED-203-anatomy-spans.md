@@ -370,3 +370,355 @@ CLM-NEU-C0C75BD01BFD82
 ## citation_ids
 CIT-NEU-C0C75BD01BFD82
 
+
+# Item
+
+## id
+SPN-FND-7453A240F7D729
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The fourth pharyngeal pouch has a dorsal and a ventral wing, each with its own derivative. In this department's teaching, the dorsal wing continues as the ultimobranchial body, which migrates to fuse with the developing thyroid gland and contributes the parafo
+
+## claim_ids
+CLM-FND-7453A240F7D729
+
+## citation_ids
+CIT-FND-7453A240F7D729
+
+---
+
+# Item
+
+## id
+SPN-NEU-0F72ABE1CDF46D
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The hypoglossal nerve (CN XII) emerges from the preolivary sulcus of the medulla, exits the skull through the hypoglossal canal, and descends in the neck lateral to the vagus nerve and internal/external carotid arteries before curving forward. On its way to th
+
+## claim_ids
+CLM-NEU-0F72ABE1CDF46D
+
+## citation_ids
+CIT-NEU-0F72ABE1CDF46D
+
+---
+
+# Item
+
+## id
+SPN-NEU-4DF9D89BF9F4FC
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+Brodmann area 22 occupies the superior temporal gyrus, largely overlapping Wernicke's area in the dominant (usually left) hemisphere, where it participates in receptive language comprehension. It sits within the primary/association auditory cortical territory 
+
+## claim_ids
+CLM-NEU-4DF9D89BF9F4FC
+
+## citation_ids
+CIT-NEU-4DF9D89BF9F4FC
+
+---
+
+# Item
+
+## id
+SPN-NEU-7FC23ED37C7C8B
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The internal capsule receives its arterial supply from several sources acting on different parts: lenticulostriate branches of the middle cerebral artery supply the genu and much of the posterior limb, the recurrent artery of Heubner (from the anterior cerebra
+
+## claim_ids
+CLM-NEU-7FC23ED37C7C8B
+
+## citation_ids
+CIT-NEU-7FC23ED37C7C8B
+
+---
+
+# Item
+
+## id
+SPN-FND-6FABEEDE721203
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The anterior two-thirds of the tongue develops from two lateral lingual swellings and a small midline tuberculum impar, all first-arch derivatives; normally the lateral swellings overgrow and fuse across the midline, burying the tuberculum impar. Failure of th
+
+## claim_ids
+CLM-FND-6FABEEDE721203
+
+## citation_ids
+CIT-FND-6FABEEDE721203
+
+---
+
+# Item
+
+## id
+SPN-NEU-7E6D7C2D861193
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The optic tract carries fibers from the temporal (uncrossed) half of the ipsilateral retina and the nasal (crossed) half of the contralateral retina — that is, fibers representing the contralateral visual field from both eyes — from the optic chiasm to the lat
+
+## claim_ids
+CLM-NEU-7E6D7C2D861193
+
+## citation_ids
+CIT-NEU-7E6D7C2D861193
+
+---
+
+# Item
+
+## id
+SPN-NEU-A86CE6A9203C1E
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+Cerebral white matter fibers are classed by what they connect: association fibers link cortical areas within the SAME hemisphere (short, arcuate/U-fibers, or long, such as the superior longitudinal bundle, uncinate fasciculus and inferior longitudinal fascicul
+
+## claim_ids
+CLM-NEU-A86CE6A9203C1E
+
+## citation_ids
+CIT-NEU-A86CE6A9203C1E
+
+---
+
+# Item
+
+## id
+SPN-NEU-4E02E346391C78
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The internal capsule's genu (the bend between its anterior and posterior limbs) chiefly carries corticobulbar fibers descending to the cranial nerve motor nuclei of the brainstem, distinct from the anterior limb (frontopontine and anterior thalamic radiation f
+
+## claim_ids
+CLM-NEU-4E02E346391C78
+
+## citation_ids
+CIT-NEU-4E02E346391C78
+
+---
+
+# Item
+
+## id
+SPN-NEU-8D5A807ABB9609
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The substantia gelatinosa (Rexed lamina II, with lamina I) sits at the tip of the dorsal horn and is the first major site where nociceptive (pain) afferents synapse and are modulated before their signal ascends in the spinothalamic tract, distinct from nucleus
+
+## claim_ids
+CLM-NEU-8D5A807ABB9609
+
+## citation_ids
+CIT-NEU-8D5A807ABB9609
+
+---
+
+# Item
+
+## id
+SPN-NEU-F5E118F9279F4A
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The lateral corticospinal tract, the largest and most clinically important descending motor pathway, chiefly controls fine, discrete voluntary movements of the distal limbs (especially the digits), having crossed in the medullary pyramidal decussation before d
+
+## claim_ids
+CLM-NEU-F5E118F9279F4A
+
+## citation_ids
+CIT-NEU-F5E118F9279F4A
+
+---
+
+# Item
+
+## id
+SPN-NEU-21B8B66BE5A8FA
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The paracentral lobule is the medial-surface continuation of the pre- and postcentral gyri, and in the sensorimotor homunculus it carries the representation for the leg, foot, and — continuing further onto the medial surface — the perineum, including voluntary
+
+## claim_ids
+CLM-NEU-21B8B66BE5A8FA
+
+## citation_ids
+CIT-NEU-21B8B66BE5A8FA
+
+---
+
+# Item
+
+## id
+SPN-NEU-733999202B4B81
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The digastric muscle has two bellies of different embryological (pharyngeal arch) origin joined by an intermediate tendon: the anterior belly is a first-arch derivative innervated by the mylohyoid nerve, a branch of the mandibular division of the trigeminal ne
+
+## claim_ids
+CLM-NEU-733999202B4B81
+
+## citation_ids
+CIT-NEU-733999202B4B81
+
+---
+
+# Item
+
+## id
+SPN-NEU-4FB3397E4619F3
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The auriculotemporal nerve, a branch of the mandibular division of the trigeminal nerve (V3), runs close to the temporomandibular joint and parotid gland to supply cutaneous sensation to the temporal region, the outer surface of the tympanic membrane and, nota
+
+## claim_ids
+CLM-NEU-4FB3397E4619F3
+
+## citation_ids
+CIT-NEU-4FB3397E4619F3
+
+---
+
+# Item
+
+## id
+SPN-NEU-6BDDD009FFC55C
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The dorsal (posterior) spinocerebellar tract carries unconscious proprioceptive information from the lower limb and trunk to the cerebellum, originating from second-order neurons in the nucleus thoracicus (Clarke's column, or Clarke's nucleus), present at spin
+
+## claim_ids
+CLM-NEU-6BDDD009FFC55C
+
+## citation_ids
+CIT-NEU-6BDDD009FFC55C
+
+---
+
+# Item
+
+## id
+SPN-NEU-152993798822B6
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+Because the corticospinal and corticobulbar fibers running through the internal capsule have not yet decussated (they cross later, at the medullary pyramids and at each cranial nerve motor nucleus respectively), a unilateral internal capsule lesion produces an
+
+## claim_ids
+CLM-NEU-152993798822B6
+
+## citation_ids
+CIT-NEU-152993798822B6
+
+---
+
+# Item
+
+## id
+SPN-NEU-04F7F764A6D679
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## section_id
+art-neu-au-med-203-quiz1-anatomy
+
+## text
+The basilar artery, formed by the union of the two vertebral arteries at the pontomedullary junction, runs along the ventral surface of the pons giving off paramedian and circumferential branches that supply the pons and midbrain, before terminating as the two
+
+## claim_ids
+CLM-NEU-04F7F764A6D679
+
+## citation_ids
+CIT-NEU-04F7F764A6D679
+
+---

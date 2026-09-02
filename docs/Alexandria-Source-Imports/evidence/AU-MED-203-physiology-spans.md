@@ -216,3 +216,245 @@ CLM-NEU-DB40FB9CF05B91
 ## citation_ids
 CIT-NEU-DB40FB9CF05B91
 
+
+# Item
+
+## id
+SPN-NEU-16E1FDD95745B6
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+The Argyll-Robertson pupil is a classic light-near dissociation: the pupillary light reflex is lost while the accommodation (near) reflex is preserved, and pupils are typically small and irregular. It is a hallmark of neurosyphilis (tabes dorsalis), attributed
+
+## claim_ids
+CLM-NEU-16E1FDD95745B6
+
+## citation_ids
+CIT-NEU-16E1FDD95745B6
+
+---
+
+# Item
+
+## id
+SPN-NEU-065F3D64518C82
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+Dopamine is a catecholamine neurotransmitter central to prefrontal working memory, reward and motor control; its principal metabolite, formed via monoamine oxidase and catechol-O-methyltransferase, is homovanillic acid (HVA). Dysregulated dopaminergic transmis
+
+## claim_ids
+CLM-NEU-065F3D64518C82
+
+## citation_ids
+CIT-NEU-065F3D64518C82
+
+---
+
+# Item
+
+## id
+SPN-NEU-7B9104552A6CB5
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+The near (triad) response to looking at a near object has three components: convergence of the eyes, accommodation (increased lens power via ciliary muscle contraction, which increases the curvature of the lens's anterior surface, not the cornea's posterior su
+
+## claim_ids
+CLM-NEU-7B9104552A6CB5
+
+## citation_ids
+CIT-NEU-7B9104552A6CB5
+
+---
+
+# Item
+
+## id
+SPN-NEU-8B2CD3A5921966
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+Parkinsonian rigidity is a form of hypertonia present throughout the full range of passive movement, in both flexor and extensor muscle groups, classically described as lead-pipe (uniform resistance) or, when a resting tremor is superimposed, cog-wheel (a ratc
+
+## claim_ids
+CLM-NEU-8B2CD3A5921966
+
+## citation_ids
+CIT-NEU-8B2CD3A5921966
+
+---
+
+# Item
+
+## id
+SPN-NEU-C8CB4E3E4ADF78
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+REM (rapid eye movement) sleep is characterised by near-total skeletal muscle atonia (active inhibition of spinal motor neurons, sparing the diaphragm and extraocular muscles), vivid dreaming with typically good dream recall on waking, and an increase (not dec
+
+## claim_ids
+CLM-NEU-C8CB4E3E4ADF78
+
+## citation_ids
+CIT-NEU-C8CB4E3E4ADF78
+
+---
+
+# Item
+
+## id
+SPN-NEU-04F9C773D465DB
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+The gate-control theory of pain proposes that activity in large-diameter, fast-conducting type A-beta tactile afferents can inhibit the onward transmission of pain signals carried by smaller A-delta and C fibers, by activating inhibitory interneurons in the su
+
+## claim_ids
+CLM-NEU-04F9C773D465DB
+
+## citation_ids
+CIT-NEU-04F9C773D465DB
+
+---
+
+# Item
+
+## id
+SPN-NEU-AB405AC4B0A49F
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+The utricle and saccule, the two otolith organs of the vestibular labyrinth, contain a macula whose hair-cell stereocilia are embedded in an otolithic membrane weighted with calcium carbonate crystals (otoconia); gravitational pull and linear acceleration disp
+
+## claim_ids
+CLM-NEU-AB405AC4B0A49F
+
+## citation_ids
+CIT-NEU-AB405AC4B0A49F
+
+---
+
+# Item
+
+## id
+SPN-NEU-66798D048B0506
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+The hippocampus, a medial temporal lobe structure forming part of the limbic system, is essential for the consolidation of new declarative (explicit) memories — converting short-term into long-term memory — and for spatial navigation, distinct from behaviour r
+
+## claim_ids
+CLM-NEU-66798D048B0506
+
+## citation_ids
+CIT-NEU-66798D048B0506
+
+---
+
+# Item
+
+## id
+SPN-NEU-41634A83FE4C96
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+The neocerebellum (lateral cerebellar hemispheres, the phylogenetically newest cerebellar division) coordinates the planning and fine timing of skilled voluntary movement; its dysfunction produces the classic neocerebellar (limb ataxia) syndrome, including dys
+
+## claim_ids
+CLM-NEU-41634A83FE4C96
+
+## citation_ids
+CIT-NEU-41634A83FE4C96
+
+---
+
+# Item
+
+## id
+SPN-NEU-50501B21A7377C
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+Cerebrospinal fluid chloride, normally similar to or slightly higher than plasma chloride, characteristically falls in bacterial (and tuberculous) meningitis, alongside low CSF glucose and elevated protein and white cell count, reflecting bacterial glucose con
+
+## claim_ids
+CLM-NEU-50501B21A7377C
+
+## citation_ids
+CIT-NEU-50501B21A7377C
+
+---
+
+# Item
+
+## id
+SPN-NEU-D9BBAF2099E8AA
+
+## article_id
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## section_id
+art-neu-au-med-203-quiz1-physiology
+
+## text
+Spinal shock is the acute, transient loss of all spinal cord reflex activity (and of descending autonomic control) below a complete spinal cord transection, with hypotension (not a rise in arterial blood pressure) from loss of sympathetic vasomotor tone, marke
+
+## claim_ids
+CLM-NEU-D9BBAF2099E8AA
+
+## citation_ids
+CIT-NEU-D9BBAF2099E8AA
+
+---
