@@ -831,9 +831,11 @@
       "options": {
         "a": "Corneal ulceration due to exposure.",
         "b": "Diplopia.",
-        "c": "Anisometropia."
+        "c": "Anisometropia.",
+        "d": "Improved tear film distribution"
       },
-      "recovered_key": "A"
+      "recovered_key": "A",
+      "field_notes_build": "Source bank item printed only 3 lettered options (a-c); a 4th option (d) was added at build time per lane policy (a 3-option source item gets a 4th option, noted) — d is a clearly incorrect distractor (the opposite of the true exposure effect), not drawn from the source."
     }
   ]
 }
