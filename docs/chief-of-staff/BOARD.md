@@ -566,3 +566,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ASSIUT CBF-103 lane 2 LANDED (198be7d5) · `All quizzes CBF .pdf` TRIAGE APPROVED
 - 259-pp scan is a Moodle attempt-review export with "The correct answer is:" keys; OCR pp.1-30 → 65/65 keyed (100%, good OCR). 40 authored, 6 held, 2 T/F excluded; ~19 keyed items on pp.1-30 still unauthored; pp.31-259 untouched. 12 mints, heavy reuse (Kasr 103-BMS ×21q, ASU-IBM ×1q via overlays). batch errors=0 ×4; 16-file simulate rejected=0. ≈2.5k tok/q.
 - Lane 3 dispatched on pp.31-90 + the pp.1-30 leftovers. Fleet 20/20.
+
+### 2026-09-02 — FOMSCU SCU-MS105 lane 2 LANDED (d4787844) · MS105 keyed sources EXHAUSTED
+- Axilla & Shoulder 15/16 (1 stem/option mismatch held), Arm 9 (bank now 17/17), Khanfour 11/11. 9 mints, 21 reuses (14 Kasr 101-ISK overlay rows, live CON-DER nerve concepts). Validator/batch errors=0 ×6; explicit-chain simulate rejected=0. Module totals: 66 authored, 1 held, 0 remaining. ≈1.85k tok/q.
+- Whole-tree FOMSCU simulate rejected=106 fully explained: 78 = seven landed FBS102/FBS103 pending-live files citing Kasr `ART-101-*`/`ART-103-*` articles outside the tree; 28 = MS105's own cross-university deps. All resolve in the explicit chain. Not a defect; a CoS-run simulate of FOMSCU must include the Kasr article files.
+- FOMSCU Year 1 now: FBS102/103 leftovers (lane 3 running), FBS104 needs Omar, MS105 done. Slot → Menoufia MED102 Foundation 2 lane 1 (Y1). Fleet 20/20.
