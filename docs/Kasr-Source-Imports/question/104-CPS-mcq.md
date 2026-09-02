@@ -51,7 +51,7 @@
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
+    Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 14 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 43 questions, 11 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  193 questions were excluded and 0 held back for having no
+  197 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -49623,6 +49623,374 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-CC2400E4F9E9
+## title
+The low-resistance pathways between myocardial cells that allow for the spread of AP are
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The low-resistance pathways between myocardial cells that allow for the spread of AP are
+## answer_a
+gap junctions
+## explanation_a
+This is the correct answer. Gap junctions are the specific low-resistance channels, clustered within the intercalated discs, whose very low electrical resistance lets an action potential spread rapidly from cell to cell — the structural basis of cardiac muscle's functional-syncytium behaviour.
+
+Why this is right:
+- Cardiac muscle fibres are individual, striated cells, each with its own nucleus, separated from their neighbours by intercalated discs — unlike skeletal muscle's true syncytium of fused, multinucleated fibres.
+## answer_b
+T tubules
+## explanation_b
+T tubules are invaginations of the sarcolemma that carry the action potential into the cell's interior to trigger calcium release; they are not the low-resistance pathway between separate myocardial cells.
+## answer_c
+sarcoplasmic reticulum (SR)
+## explanation_c
+The sarcoplasmic reticulum is an intracellular calcium store within a single myocyte; it plays no part in conducting current between separate cells.
+## answer_d
+intercalated disks sisi cc a ents asada 1010# ee EE tise,
+## explanation_d
+The intercalated disc is the structure that houses the gap junctions (along with desmosomes and fascia adherens for mechanical attachment), but it is the gap junctions specifically, not the disc as a whole, that form the actual low-resistance electrical pathway.
+## correct_answer
+A
+## main_concept
+CON-CVS-7FC4E8F3FBEFFE
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify gap junctions, not T tubules, sarcoplasmic reticulum, or intercalated discs generally, as the specific low-resistance pathway that lets an action potential spread between myocardial cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p4 q31. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A2ABD91EBB89
+## title
+Which of the following events of cardiac myocyte action potential is correctly describe…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following events of cardiac myocyte action potential is correctly described? . : : 1
+## answer_a
+Phase [0] shows increased K* conductance through inward rectifying
+## explanation_a
+Phase 0 shows a DECREASE, not an increase, in K+ conductance through inwardly rectifying K+ channels — their inactivation, alongside fast Na+ channel activation, is what permits the rapid upstroke.
+## answer_b
+In phase [2] the Ca?" influx through T- type channels is balanced by the
+## explanation_b
+The sustained inward Ca++ current of phase 2 (the plateau) flows through L-type ("long-lasting"), not T-type, Ca++ channels — this leaf's own plateau concept names the L-type channel specifically.
+## answer_c
+During phase [0] fast sodium channels are inactivated
+## explanation_c
+Fast Na+ channels are ACTIVATED, not inactivated, during phase 0 — they drive the rapid upstroke itself; they inactivate afterward, during phase 1, not during phase 0.
+## answer_d
+During phase [3] delayed rectifier Ky channels are maximally activated
+## explanation_d
+This is the correct answer. During phase 3 (repolarization), the outward K+ current continues and delayed rectifier K+ channels become maximally activated, while the L-type Ca++ channels that sustained the plateau close — once that inward current stops, the now-dominant outward K+ current repolarizes the membrane back toward its resting value, exactly the mechanism this leaf's own plateau concept describes for the phase 2-to-3 transition.
+
+Why this is right:
+- The plateau (phase 2) of a working myocyte's action potential is held near 0 mV by a near-balance between a sustained inward Ca++ current, carried by voltage-gated L-type ('long-lasting') Ca++ channels that open during the upstroke and inactivate slowly (over roughly 200-300 ms), and an outward K+ current.
+## correct_answer
+D
+## main_concept
+CON-CVS-D0CD4A234205EF
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that delayed rectifier K+ channels become maximally activated during phase 3 (repolarization) of the working cardiac myocyte action potential, as opposed to misdescribing phases 0, 1 or 2.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p3 q1. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B94B91F24FF4
+## title
+Which of the following is correct as regards Na+ - Ca++ exchanger?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is correct as regards Na+ - Ca++ exchanger?
+## answer_a
+Presents in the sarcoplasm of cardiac myocytes
+## explanation_a
+The Na+-Ca++ exchanger is a sarcolemmal (membrane) transporter, not a sarcoplasmic (cytoplasmic) one — it sits in the cell membrane, exchanging ions across it.
+## answer_b
+Consumes high amount of ATP
+## explanation_b
+The Na+-Ca++ exchanger is not itself ATP-dependent; it is a secondary active transporter that uses the Na+ electrochemical gradient (built up by the separate, ATP-dependent Na+-K+ ATPase) rather than consuming ATP directly.
+## answer_c
+Can operate in both directions
+## explanation_c
+This is the correct answer. The Na+-Ca++ exchanger can operate in both directions depending on the membrane potential and the ionic concentration gradients: normally it moves Ca++ out and Na+ in, but when intracellular Na+ rises (e.g. Na+-K+ ATPase inhibition by digitalis) it reverses, moving Na+ out and Ca++ in.
+
+Why this is right:
+- The Na+-K+ ATPase (3 Na+ out for 2 K+ in, electrogenic), a Ca++-ATPase, and the Na+-Ca++ exchanger (normally 3 Na+ in for 1 Ca++ out) together maintain the cardiac myocyte's resting ionic gradients, and the exchanger reverses direction — moving Na+ out and Ca++ in — whenever intracellular Na+ rises, as when digitalis inhibits the Na+-K+ ATPase.
+## answer_d
+It is called funny current
+## explanation_d
+The "funny current" (If) is carried by HCN (funny) channels in pacemaker cells, a completely separate current from the Na+-Ca++ exchanger.
+## correct_answer
+C
+## main_concept
+CON-CVS-7A8A04F61D44D1
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the Na+-Ca++ exchanger can operate in both directions, not that it sits in the sarcoplasm, consumes large amounts of ATP, or is the funny current.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p5 q37. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3676384A6F3B
+## title
+Which of the following maintain the ionic concentrations across the sarcolemma of cardi…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following maintain the ionic concentrations across the sarcolemma of cardiac myocytes?
+## answer_a
+Na+ - Ca++ exchanger
+## explanation_a
+True, but incomplete on its own — the Na+-Ca++ exchanger is one of three transporters that together maintain ionic concentrations across the sarcolemma, alongside the Na+-K+ pump and the Ca++ ATPase pump.
+## answer_b
+Na+ - K+ pump
+## explanation_b
+True, but incomplete on its own — the Na+-K+ pump (Na+-K+ ATPase) is one of three transporters, alongside the Na+-Ca++ exchanger and the Ca++ ATPase pump.
+## answer_c
+Ca++ ATPase pump
+## explanation_c
+True, but incomplete on its own — the Ca++ ATPase pump is one of three transporters, alongside the Na+-K+ pump and the Na+-Ca++ exchanger.
+## answer_d
+All of the above are correct
+## explanation_d
+This is the correct answer. All three — the Na+-Ca++ exchanger, the Na+-K+ pump, and the Ca++ ATPase pump — sit in the cardiac sarcolemma and together maintain the myocyte's resting ionic concentration gradients against the continuous ion leaks that would otherwise disturb them.
+
+Why this is right:
+- The Na+-K+ ATPase (3 Na+ out for 2 K+ in, electrogenic), a Ca++-ATPase, and the Na+-Ca++ exchanger (normally 3 Na+ in for 1 Ca++ out) together maintain the cardiac myocyte's resting ionic gradients, and the exchanger reverses direction — moving Na+ out and Ca++ in — whenever intracellular Na+ rises, as when digitalis inhibits the Na+-K+ ATPase.
+## correct_answer
+D
+## main_concept
+CON-CVS-7A8A04F61D44D1
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the Na-Ca exchanger, the Na-K pump and the Ca ATPase pump together maintain the ionic concentrations across the cardiac sarcolemma.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p5 q35. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
 
 ---
 
