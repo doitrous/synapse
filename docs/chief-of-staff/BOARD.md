@@ -583,3 +583,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — AIN SHAMS ASU-UG lane 5 LANDED (6dbed553, 1377494c) · both original clusters CLOSED
 - Assessment 1 closed 63/5/0 (the q48-62 placeholders were stale; real tail = 5-item Micro block); Collection closed 120/5/0 (real total 125, not 128). Assessment 2 MCQ-1 triaged: ~85% recycled from the two closed clusters → 11 authored, 1 held. Lane totals 23 authored, 20 mints, 3 reuses. batch errors=0 ×3; simulate rejected=0 ×3; duplicate-keys 0.
 - Tool notes: ledger.mjs shows cosmetic phantom "all-remaining" rows when a triage key's stripped prefix differs from the seed's cluster field; a shared scratchpad helper was clobbered by a concurrent session (use unique file names). UG remaining papers are dup-heavy (expect ≤15% yield). Slot → Helwan HU-URS-303 lane 1 (Y3, keyed JSON bank expected). Fleet 20/20.
+
+### 2026-09-02 — ZAGAZIG ZU-MED-105 PP I lane 3 LANDED (147312c0) · `mcq شامل` TRIAGE APPROVED
+- 142 items, 133 keyed (94%) by a yellow fill rectangle behind the correct option (another new key pattern; PyMuPDF detection, 2 renders, 0 mismatches). SDL section pp.2-11: 32 authored, 6 held. 31 mints, 3 articles, 0 reuses. batch errors=0 ×3; simulate rejected=0. ≈1.7k tok/q. ~101 keyed items left on pp.12-40 (bioethics, consent, leadership, health determinants) needing per-item dup review against lanes 1-2.
+- Lane 4 dispatched on pp.12-40. Fleet 20/20.
