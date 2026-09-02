@@ -12,25 +12,33 @@
   triage and is not rewritten here. A direct set-diff against the seed
   (below the tool's own table) is the true count for this pass.
 
-  True count, pathology Chapter 1 (this commit): 47/47 seed keys matched
+  True count, pathology Chapter 1 (that commit): 47/47 seed keys matched
   against the 281-key triage list, 0 unexpected, 234 keys remain in the
   281-key triage after this chunk.
+
+  True count, pathology Chapter 2 (this commit): 32/32 seed keys matched
+  against the 281-key triage list, 0 unexpected, 202 keys remain in the
+  281-key triage after this chunk. Individual rows below are hand-flipped to
+  1 authored / 0 remaining for the 32 matched keys (same manual method as
+  Chapter 1, since ledger.mjs still misreads these dot-notation keys), and a
+  `pathology-ch2 | 32 | 0 | 0 | 32` summary row is added beside the existing
+  `pathology-ch1` row.
 -->
 
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | achalasia.definition | 0 | 0 | 1 | 1 |
 | acute-appendicitis.predisposing-factors | 0 | 0 | 1 | 1 |
-| acute-cholangitic-abscess.multiplicity | 0 | 0 | 1 | 1 |
+| acute-cholangitic-abscess.multiplicity | 1 | 0 | 0 | 1 |
 | acute-gastric-ulceration.causes | 0 | 0 | 1 | 1 |
 | acute-gastritis.causes | 0 | 0 | 1 | 1 |
 | acute-gastritis.commonest-cause | 0 | 0 | 1 | 1 |
 | acute-gastritis.pathogenesis | 0 | 0 | 1 | 1 |
 | acute-intestinal-obstruction.functional-vs-mechanical | 0 | 0 | 1 | 1 |
 | acute-oesophagitis.infective-causes | 0 | 0 | 1 | 1 |
-| alcoholic-cirrhosis.gross-features | 0 | 0 | 1 | 1 |
+| alcoholic-cirrhosis.gross-features | 1 | 0 | 0 | 1 |
 | alcoholic-fatty-liver.increased-nadh-nad-ratio | 0 | 0 | 1 | 1 |
-| alcoholic-steatosis.mechanisms | 0 | 0 | 1 | 1 |
+| alcoholic-steatosis.mechanisms | 1 | 0 | 0 | 1 |
 | aluminium-hydroxide.phosphate-binding-in-renal-failure | 0 | 0 | 1 | 1 |
 | amoebic-dysentery.flask-shaped-ulcers | 0 | 0 | 1 | 1 |
 | amoebic-liver-abscess.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
@@ -54,26 +62,26 @@
 | autoinfection.parasite-scope | 0 | 0 | 1 | 1 |
 | bacillary-dysentery.causative-organism | 0 | 0 | 1 | 1 |
 | bacillary-dysentery.inflammation-type | 0 | 0 | 1 | 1 |
-| budd-chiari-syndrome.hepatic-vein-thrombosis | 0 | 0 | 1 | 1 |
+| budd-chiari-syndrome.hepatic-vein-thrombosis | 1 | 0 | 0 | 1 |
 | capillaria-philippinensis.mode-of-infection | 0 | 0 | 1 | 1 |
 | carcinoid-tumour.commonest-site.appendix | 0 | 0 | 1 | 1 |
 | castor-oil.classification.irritant-laxative | 0 | 0 | 1 | 1 |
 | cestoda.infective-stage.eggs | 0 | 0 | 1 | 1 |
 | chemotherapy-induced-nausea.corticosteroid-adjunct | 0 | 0 | 1 | 1 |
 | chenodeoxycholic-acid.gallstone-dissolution | 0 | 0 | 1 | 1 |
-| cholangiocarcinoma.afp-not-a-marker | 0 | 0 | 1 | 1 |
-| chronic-hepatitis.commonest-cause-viral | 0 | 0 | 1 | 1 |
-| chronic-hepatitis.metabolic-causes | 0 | 0 | 1 | 1 |
+| cholangiocarcinoma.afp-not-a-marker | 1 | 0 | 0 | 1 |
+| chronic-hepatitis.commonest-cause-viral | 1 | 0 | 0 | 1 |
+| chronic-hepatitis.metabolic-causes | 1 | 0 | 0 | 1 |
 | chronic-intestinal-obstruction.causes | 0 | 0 | 1 | 1 |
 | chronic-intestinal-obstruction.pathology | 0 | 0 | 1 | 1 |
-| chronic-liver-failure.causes | 0 | 0 | 1 | 1 |
-| chronic-pancreatitis.commonest-cause-alcohol | 0 | 0 | 1 | 1 |
-| chronic-pancreatitis.complications | 0 | 0 | 1 | 1 |
-| chronic-pancreatitis.pathogenesis | 0 | 0 | 1 | 1 |
+| chronic-liver-failure.causes | 1 | 0 | 0 | 1 |
+| chronic-pancreatitis.commonest-cause-alcohol | 1 | 0 | 0 | 1 |
+| chronic-pancreatitis.complications | 1 | 0 | 0 | 1 |
+| chronic-pancreatitis.pathogenesis | 1 | 0 | 0 | 1 |
 | cimetidine.cytochrome-p450-drug-interactions | 0 | 0 | 1 | 1 |
 | cimetidine.gynaecomastia-side-effect | 0 | 0 | 1 | 1 |
 | cimetidine.mechanism-and-adverse-effects | 0 | 0 | 1 | 1 |
-| cirrhosis.regeneration-nodule-architecture | 0 | 0 | 1 | 1 |
+| cirrhosis.regeneration-nodule-architecture | 1 | 0 | 0 | 1 |
 | coeliac-disease.gluten-trigger | 0 | 0 | 1 | 1 |
 | colloidal-bismuth.black-staining-side-effect | 0 | 0 | 1 | 1 |
 | colonic-adenoma.malignant-potential | 0 | 0 | 1 | 1 |
@@ -139,9 +147,9 @@
 | fatty-liver.causes-vs-increased-fatty-acid-oxidation | 0 | 0 | 1 | 1 |
 | fish-borne-helminths | 0 | 0 | 1 | 1 |
 | fructose-absorption.glut-5 | 0 | 0 | 1 | 1 |
-| gallstones.cholesterol-vs-pigment-risk-factors | 0 | 0 | 1 | 1 |
-| gallstones.pigment-stones-haemolysis | 0 | 0 | 1 | 1 |
-| gallstones.secondary-biliary-cirrhosis | 0 | 0 | 1 | 1 |
+| gallstones.cholesterol-vs-pigment-risk-factors | 1 | 0 | 0 | 1 |
+| gallstones.pigment-stones-haemolysis | 1 | 0 | 0 | 1 |
+| gallstones.secondary-biliary-cirrhosis | 1 | 0 | 0 | 1 |
 | gastric-carcinoma.risk-factors | 0 | 0 | 1 | 1 |
 | gastric-lipase.significance-in-infants | 0 | 0 | 1 | 1 |
 | gastric-lymphoma.h-pylori-association | 0 | 0 | 1 | 1 |
@@ -156,17 +164,17 @@
 | glucose-transporters.intestinal-scglt1-glut2-glut5 | 0 | 0 | 1 | 1 |
 | glut-2.basolateral-sugar-exit | 0 | 0 | 1 | 1 |
 | granisetron.mechanism.5ht3-receptor-antagonist | 0 | 0 | 1 | 1 |
-| granulomatous-liver-disease.exclusion-nash | 0 | 0 | 1 | 1 |
+| granulomatous-liver-disease.exclusion-nash | 1 | 0 | 0 | 1 |
 | h-pylori-eradication.antibiotic-regimen | 0 | 0 | 1 | 1 |
 | h-pylori-eradication.clarithromycin | 0 | 0 | 1 | 1 |
 | h-pylori-eradication.triple-therapy | 0 | 0 | 1 | 1 |
 | h-pylori-gastritis.pathogenesis | 0 | 0 | 1 | 1 |
 | h2-blockers.famotidine-ulcer-healing | 0 | 0 | 1 | 1 |
 | h2-blockers.maintenance-therapy-ulcer-relapse | 0 | 0 | 1 | 1 |
-| haemochromatosis.pigmented-cirrhosis | 0 | 0 | 1 | 1 |
+| haemochromatosis.pigmented-cirrhosis | 1 | 0 | 0 | 1 |
 | hepatic-parasites | 0 | 0 | 1 | 1 |
-| hepatoblastoma.angiosarcoma-vs-hepatoblastoma-risk-factors | 0 | 0 | 1 | 1 |
-| hepatocellular-carcinoma.afp-marker | 0 | 0 | 1 | 1 |
+| hepatoblastoma.angiosarcoma-vs-hepatoblastoma-risk-factors | 1 | 0 | 0 | 1 |
+| hepatocellular-carcinoma.afp-marker | 1 | 0 | 0 | 1 |
 | heterophyes.complication.ectopic-egg-emboli | 0 | 0 | 1 | 1 |
 | heterophyes.complication.egg-emboli | 0 | 0 | 1 | 1 |
 | heterophyes.complication.myocarditis | 0 | 0 | 1 | 1 |
@@ -177,8 +185,8 @@
 | heterophyes.life-cycle.lophocercous-cercaria | 0 | 0 | 1 | 1 |
 | heterophyes.second-intermediate-host.fish | 0 | 0 | 1 | 1 |
 | heterophyes.treatment.praziquantel | 0 | 0 | 1 | 1 |
-| hev.fulminant-hepatitis-in-pregnancy | 0 | 0 | 1 | 1 |
-| hev.transmission.faecal-oral | 0 | 0 | 1 | 1 |
+| hev.fulminant-hepatitis-in-pregnancy | 1 | 0 | 0 | 1 |
+| hev.transmission.faecal-oral | 1 | 0 | 0 | 1 |
 | hiatus-hernia.pathogenesis | 0 | 0 | 1 | 1 |
 | hirschsprung-disease.clinical-features | 0 | 0 | 1 | 1 |
 | hookworm-group.iron-deficiency-anemia | 0 | 0 | 1 | 1 |
@@ -205,14 +213,14 @@
 | leukoplakia.malignant-transformation-is-to-scc-not-adenocarcinoma | 0 | 0 | 1 | 1 |
 | lipotropic-factors.chloroform-is-hepatotoxic | 0 | 0 | 1 | 1 |
 | liquid-paraffin.fat-soluble-vitamin-malabsorption | 0 | 0 | 1 | 1 |
-| liver-abscess.multiple-vs-solitary-causes | 0 | 0 | 1 | 1 |
+| liver-abscess.multiple-vs-solitary-causes | 1 | 0 | 0 | 1 |
 | liver-biopsy.parasitic-diagnosis | 0 | 0 | 1 | 1 |
-| liver-cell-adenoma.oral-contraceptive-association | 0 | 0 | 1 | 1 |
+| liver-cell-adenoma.oral-contraceptive-association | 1 | 0 | 0 | 1 |
 | liver-function-tests.afp-in-liver-cancer | 0 | 0 | 1 | 1 |
 | liver-function-tests.prothrombin-time-synthetic-function | 0 | 0 | 1 | 1 |
 | liver-function-tests.transaminases-hepatocellular-damage | 0 | 0 | 1 | 1 |
 | liver-metabolism.gamma-globulins-not-hepatic-synthesis | 0 | 0 | 1 | 1 |
-| liver-zonation.zone-3-ischaemic-vulnerability | 0 | 0 | 1 | 1 |
+| liver-zonation.zone-3-ischaemic-vulnerability | 1 | 0 | 0 | 1 |
 | loperamide.drug-class | 0 | 0 | 1 | 1 |
 | loperamide.opioid-derivative-otc-status | 0 | 0 | 1 | 1 |
 | loperamide.travellers-diarrhoea | 0 | 0 | 1 | 1 |
@@ -230,23 +238,24 @@
 | ondansetron.indication.chemotherapy-induced-vomiting | 0 | 0 | 1 | 1 |
 | ondansetron.mechanism.5ht3-receptor-blockade | 0 | 0 | 1 | 1 |
 | paediatric-diarrhoea.fluid-electrolyte-correction | 0 | 0 | 1 | 1 |
-| pancreatic-carcinoma.clinical-presentation | 0 | 0 | 1 | 1 |
-| pancreatic-carcinoma.commonest-site-head | 0 | 0 | 1 | 1 |
+| pancreatic-carcinoma.clinical-presentation | 1 | 0 | 0 | 1 |
+| pancreatic-carcinoma.commonest-site-head | 1 | 0 | 0 | 1 |
 | pancreatic-lipase.cofactors | 0 | 0 | 1 | 1 |
-| pancreatic-pseudocyst.no-epithelial-lining | 0 | 0 | 1 | 1 |
+| pancreatic-pseudocyst.no-epithelial-lining | 1 | 0 | 0 | 1 |
 | pathology-ch1 | 47 | 0 | 0 | 47 |
+| pathology-ch2 | 32 | 0 | 0 | 32 |
 | pepsin.endopeptidase-not-exopeptidase | 0 | 0 | 1 | 1 |
 | peptic-ulcer-disease.common-sites | 0 | 0 | 1 | 1 |
 | peptic-ulcer-disease.gross-site | 0 | 0 | 1 | 1 |
 | peptic-ulcer-disease.h-pylori-risk-factor | 0 | 0 | 1 | 1 |
 | peptic-ulcer-disease.pathogenesis-gastric-vs-duodenal | 0 | 0 | 1 | 1 |
 | peptic-ulcer-drugs.corticosteroids-not-used | 0 | 0 | 1 | 1 |
-| peritoneal-carcinomatosis.commonest-primary | 0 | 0 | 1 | 1 |
+| peritoneal-carcinomatosis.commonest-primary | 1 | 0 | 0 | 1 |
 | pirenella-conica.habitat.brackish-water | 0 | 0 | 1 | 1 |
 | pirenella-conica.molluscicide-resistance | 0 | 0 | 1 | 1 |
-| portal-hypertension.presinusoidal-cause-schistosomiasis | 0 | 0 | 1 | 1 |
+| portal-hypertension.presinusoidal-cause-schistosomiasis | 1 | 0 | 0 | 1 |
 | praziquantel.spectrum.cestodes-and-trematodes | 0 | 0 | 1 | 1 |
-| primary-biliary-cirrhosis.female-predominance | 0 | 0 | 1 | 1 |
+| primary-biliary-cirrhosis.female-predominance | 1 | 0 | 0 | 1 |
 | proton-pump-inhibitors.omeprazole | 0 | 0 | 1 | 1 |
 | purgatives.indications-vs-contraindication-gastroenteritis | 0 | 0 | 1 | 1 |
 | purgatives.physical-vs-irritant-classification | 0 | 0 | 1 | 1 |
@@ -297,8 +306,8 @@
 | trichuris-trichiura.no-migratory-phase | 0 | 0 | 1 | 1 |
 | trypsin.endopeptidase-not-exopeptidase | 0 | 0 | 1 | 1 |
 | trypsin.substrate-specificity-arginine-lysine | 0 | 0 | 1 | 1 |
-| viral-hepatitis.hbv-hdv-coinfection | 0 | 0 | 1 | 1 |
-| viral-hepatitis.hdv-can-cause-chronic-disease | 0 | 0 | 1 | 1 |
+| viral-hepatitis.hbv-hdv-coinfection | 1 | 0 | 0 | 1 |
+| viral-hepatitis.hdv-can-cause-chronic-disease | 1 | 0 | 0 | 1 |
 | zollinger-ellison-syndrome.proton-pump-inhibitor-treatment | 0 | 0 | 1 | 1 |
 | zoonotic-dog-transmitted-parasites | 0 | 0 | 1 | 1 |
 
@@ -308,16 +317,13 @@
 ## Remaining
 - achalasia.definition
 - acute-appendicitis.predisposing-factors
-- acute-cholangitic-abscess.multiplicity
 - acute-gastric-ulceration.causes
 - acute-gastritis.causes
 - acute-gastritis.commonest-cause
 - acute-gastritis.pathogenesis
 - acute-intestinal-obstruction.functional-vs-mechanical
 - acute-oesophagitis.infective-causes
-- alcoholic-cirrhosis.gross-features
 - alcoholic-fatty-liver.increased-nadh-nad-ratio
-- alcoholic-steatosis.mechanisms
 - aluminium-hydroxide.phosphate-binding-in-renal-failure
 - amoebic-dysentery.flask-shaped-ulcers
 - amoebic-liver-abscess.clinical-vignette-diagnosis
@@ -341,26 +347,17 @@
 - autoinfection.parasite-scope
 - bacillary-dysentery.causative-organism
 - bacillary-dysentery.inflammation-type
-- budd-chiari-syndrome.hepatic-vein-thrombosis
 - capillaria-philippinensis.mode-of-infection
 - carcinoid-tumour.commonest-site.appendix
 - castor-oil.classification.irritant-laxative
 - cestoda.infective-stage.eggs
 - chemotherapy-induced-nausea.corticosteroid-adjunct
 - chenodeoxycholic-acid.gallstone-dissolution
-- cholangiocarcinoma.afp-not-a-marker
-- chronic-hepatitis.commonest-cause-viral
-- chronic-hepatitis.metabolic-causes
 - chronic-intestinal-obstruction.causes
 - chronic-intestinal-obstruction.pathology
-- chronic-liver-failure.causes
-- chronic-pancreatitis.commonest-cause-alcohol
-- chronic-pancreatitis.complications
-- chronic-pancreatitis.pathogenesis
 - cimetidine.cytochrome-p450-drug-interactions
 - cimetidine.gynaecomastia-side-effect
 - cimetidine.mechanism-and-adverse-effects
-- cirrhosis.regeneration-nodule-architecture
 - coeliac-disease.gluten-trigger
 - colloidal-bismuth.black-staining-side-effect
 - colonic-adenoma.malignant-potential
@@ -426,9 +423,6 @@
 - fatty-liver.causes-vs-increased-fatty-acid-oxidation
 - fish-borne-helminths
 - fructose-absorption.glut-5
-- gallstones.cholesterol-vs-pigment-risk-factors
-- gallstones.pigment-stones-haemolysis
-- gallstones.secondary-biliary-cirrhosis
 - gastric-carcinoma.risk-factors
 - gastric-lipase.significance-in-infants
 - gastric-lymphoma.h-pylori-association
@@ -443,17 +437,13 @@
 - glucose-transporters.intestinal-scglt1-glut2-glut5
 - glut-2.basolateral-sugar-exit
 - granisetron.mechanism.5ht3-receptor-antagonist
-- granulomatous-liver-disease.exclusion-nash
 - h-pylori-eradication.antibiotic-regimen
 - h-pylori-eradication.clarithromycin
 - h-pylori-eradication.triple-therapy
 - h-pylori-gastritis.pathogenesis
 - h2-blockers.famotidine-ulcer-healing
 - h2-blockers.maintenance-therapy-ulcer-relapse
-- haemochromatosis.pigmented-cirrhosis
 - hepatic-parasites
-- hepatoblastoma.angiosarcoma-vs-hepatoblastoma-risk-factors
-- hepatocellular-carcinoma.afp-marker
 - heterophyes.complication.ectopic-egg-emboli
 - heterophyes.complication.egg-emboli
 - heterophyes.complication.myocarditis
@@ -464,8 +454,6 @@
 - heterophyes.life-cycle.lophocercous-cercaria
 - heterophyes.second-intermediate-host.fish
 - heterophyes.treatment.praziquantel
-- hev.fulminant-hepatitis-in-pregnancy
-- hev.transmission.faecal-oral
 - hiatus-hernia.pathogenesis
 - hirschsprung-disease.clinical-features
 - hookworm-group.iron-deficiency-anemia
@@ -492,14 +480,11 @@
 - leukoplakia.malignant-transformation-is-to-scc-not-adenocarcinoma
 - lipotropic-factors.chloroform-is-hepatotoxic
 - liquid-paraffin.fat-soluble-vitamin-malabsorption
-- liver-abscess.multiple-vs-solitary-causes
 - liver-biopsy.parasitic-diagnosis
-- liver-cell-adenoma.oral-contraceptive-association
 - liver-function-tests.afp-in-liver-cancer
 - liver-function-tests.prothrombin-time-synthetic-function
 - liver-function-tests.transaminases-hepatocellular-damage
 - liver-metabolism.gamma-globulins-not-hepatic-synthesis
-- liver-zonation.zone-3-ischaemic-vulnerability
 - loperamide.drug-class
 - loperamide.opioid-derivative-otc-status
 - loperamide.travellers-diarrhoea
@@ -517,22 +502,16 @@
 - ondansetron.indication.chemotherapy-induced-vomiting
 - ondansetron.mechanism.5ht3-receptor-blockade
 - paediatric-diarrhoea.fluid-electrolyte-correction
-- pancreatic-carcinoma.clinical-presentation
-- pancreatic-carcinoma.commonest-site-head
 - pancreatic-lipase.cofactors
-- pancreatic-pseudocyst.no-epithelial-lining
 - pepsin.endopeptidase-not-exopeptidase
 - peptic-ulcer-disease.common-sites
 - peptic-ulcer-disease.gross-site
 - peptic-ulcer-disease.h-pylori-risk-factor
 - peptic-ulcer-disease.pathogenesis-gastric-vs-duodenal
 - peptic-ulcer-drugs.corticosteroids-not-used
-- peritoneal-carcinomatosis.commonest-primary
 - pirenella-conica.habitat.brackish-water
 - pirenella-conica.molluscicide-resistance
-- portal-hypertension.presinusoidal-cause-schistosomiasis
 - praziquantel.spectrum.cestodes-and-trematodes
-- primary-biliary-cirrhosis.female-predominance
 - proton-pump-inhibitors.omeprazole
 - purgatives.indications-vs-contraindication-gastroenteritis
 - purgatives.physical-vs-irritant-classification
@@ -583,7 +562,5 @@
 - trichuris-trichiura.no-migratory-phase
 - trypsin.endopeptidase-not-exopeptidase
 - trypsin.substrate-specificity-arginine-lysine
-- viral-hepatitis.hbv-hdv-coinfection
-- viral-hepatitis.hdv-can-cause-chronic-disease
 - zollinger-ellison-syndrome.proton-pump-inhibitor-treatment
 - zoonotic-dog-transmitted-parasites

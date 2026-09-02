@@ -226,3 +226,215 @@ CLM-GIT-MELENA-01
 
 ## field_notes
 relationships: Covers every concept minted in this cluster; cross-article links deferred to a later pass — see WANTED.
+
+---
+
+# Item
+
+## id
+ART-HU-GIT301-PATH-LIVER-PANCREAS
+
+## title
+GIT 301 pathology: liver, gall bladder and pancreas
+
+## arabic_title
+باثولوجيا الجهاز الهضمي: الكبد والمرارة والبنكرياس
+
+## aliases
+
+
+## subject
+gi
+
+## topic
+Gastrointestinal pathology
+
+## subtopic
+Liver, gall bladder and pancreas
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAT-T07
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+16
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Helwan Year-3 authoring lane
+
+## reviewer
+Medical team, Helwan Pathology faculty
+
+## final_publisher
+Admin team
+
+## summary
+A survey of the liver, gall bladder and pancreatic pathology tested by the HU-GIT-301 department pathology MCQ bank’s second chapter, from hepatic zonation and viral hepatitis through cirrhosis, hepatobiliary neoplasms and gallstone disease to chronic pancreatitis and pancreatic carcinoma.
+
+## sections
+### Definition
+The second GIT 301 pathology chapter covers the liver, gall bladder and pancreas: hepatic zonation and its ischaemic and toxic vulnerability, viral hepatitis, chronic hepatitis, liver abscess, granulomatous liver disease, alcoholic and metabolic liver disease, cirrhosis and its complications, hepatic and biliary neoplasms, gallstone disease, and chronic pancreatitis and pancreatic carcinoma.
+
+### Mechanism
+### Liver zonation and viral hepatitis
+Hepatic zone 3, farthest from the portal blood supply, is the zone most vulnerable to ischaemic injury. Among the hepatitis viruses, HDV is defective and requires HBV coinfection to replicate; HEV spreads enterically and carries a distinctive fulminant hepatitis risk in pregnancy; and HDV, unlike HAV, is capable of causing chronic disease, particularly through HBV superinfection. Viral infection is the commonest cause of chronic hepatitis overall, ahead of the named metabolic causes (alpha-1 antitrypsin deficiency, haemochromatosis, Wilson disease) — "cryptogenic" is a diagnosis of exclusion, not a metabolic cause in its own right.
+
+### Liver abscess and granulomatous disease
+Pyaemic (haematogenous) seeding produces multiple liver abscesses; acute cholangitic abscesses are themselves multiple small portal-tract abscesses. Tuberculosis, primary biliary cirrhosis and sarcoidosis are granulomatous liver diseases; NASH is not.
+
+### Alcoholic and metabolic liver disease
+Alcohol drives hepatic steatosis by decreasing fatty acid oxidation, increasing triglyceride synthesis, and impairing lipoprotein secretion (never by increasing oxidation). Haemochromatosis produces pigmented cirrhosis from progressive iron deposition. Budd-Chiari syndrome is hepatic vein thrombosis progressing through congestion and fibrosis to cirrhosis, a postsinusoidal cause of portal hypertension, distinct from the presinusoidal mechanism of schistosomal portal fibrosis and the sinusoidal mechanism of cirrhosis itself.
+
+### Cirrhosis, portal hypertension and hepatobiliary neoplasms
+A cirrhotic regeneration nodule shows disordered architecture, not the normal liver's regular, one-cell-thick radiating plate; alcoholic cirrhosis spans micronodular through mixed patterns. Primary biliary cirrhosis predominantly affects middle-aged women. Liver cell adenoma is a benign hepatocyte tumour linked to oral contraceptive use. Hepatocellular carcinoma is marked by AFP; cholangiocarcinoma, arising from the biliary tree and linked to primary sclerosing cholangitis, HCV and thorotrast, is not, and carries CA19-9 instead. Hepatoblastoma is an embryonic hepatocyte tumour that can secrete AFP; vinyl chloride and arsenic are linked to angiosarcoma, not hepatoblastoma. Chronic biliary obstruction, liver tumours and liver granulomas cause chronic liver failure; Reye's syndrome is an acute, unrelated process.
+
+### Gall bladder and pancreas
+Cholesterol gallstones follow obesity, diabetes and pregnancy; pigment stones follow haemolytic anaemia; either can be complicated by secondary biliary cirrhosis. Alcohol is the commonest cause of chronic pancreatitis, acting by increasing (not decreasing) ductal protein secretion to form calcifying plugs, and its complications are malabsorption, diabetes mellitus and pseudocyst formation. Most pancreatic carcinomas arise in the head of the gland, presenting with jaundice, weight loss and back pain. A pancreatic pseudocyst, unlike a true cystic neoplasm, has no true epithelial lining. Peritoneal carcinomatosis is commonly derived from ovarian and pancreatic adenocarcinoma.
+
+### Key determinants
+As in Chapter 1, separate an "except"/"not true" stem's true statements from its one false one before answering. Track which specific classification or mechanism each item tests — cirrhosis type, portal hypertension level, tumour marker, or complication category — since the bank often pairs a genuinely true fact with one deliberately swapped detail (a wrong marker, a wrong sex predominance, a wrong direction of a mechanism).
+
+### Clinical significance
+These liver, biliary and pancreatic patterns underlie jaundice, chronic liver disease, portal hypertension, gallstone disease and the pancreatic causes of abdominal pain and malabsorption that a Year-3 student will meet on the ward. Every linked record remains Draft pending independent review.
+
+### Exam approach
+For a 'not true'/'incorrect' stem, identify the three genuinely true statements first, then confirm the remaining option by checking it against the specific fact (marker, sex, mechanism direction, classification level) it swaps. The printed bank key stands as printed throughout this cluster; no key was overridden.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+
+
+## lose_the_mark
+
+
+## related_concepts
+CON-GIT-37FAA76C62AA7A
+CON-GIT-EC33259BDED4C0
+CON-GIT-5AB213EBD752FC
+CON-GIT-0DCD5FDFB2F268
+CON-GIT-31B12984BA100D
+CON-GIT-ACA94E671B96AA
+CON-GIT-33EA73205E1DB4
+CON-GIT-BAA581552697A7
+CON-GIT-BC0275FBF83417
+CON-GIT-2A304391D21909
+CON-GIT-8CDFF4B518D3B0
+CON-GIT-32BEC60C00CAFA
+CON-GIT-2FA306EC2F7D04
+CON-GIT-A71F14D56CE891
+CON-GIT-A162570BB3E7A6
+CON-GIT-FA65769D66EDFF
+CON-GIT-0C3603E0F5D50B
+CON-GIT-2CF40AAD617CF2
+CON-GIT-0C830047DB4947
+CON-GIT-742B5877CEED88
+CON-GIT-23126DC050F76F
+CON-GIT-4E9839EAC4210E
+CON-FND-A0BC07E35554B1
+CON-FND-B9A3C8B28B1443
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+
+
+## universities
+hu
+
+## years
+HU_Y3
+
+## module
+HU-GIT-301
+
+## module_subject
+HU-GIT-301 > Pathology > Liver, GB and Pancreas
+
+## university_notes
+hu: Restricted to HU-GIT-301 Year 3. Sourced from the department pathology MCQ bank triage (scripts/helwan/extract/HU-GIT-301/mcq-bank-pathology.json); no official past-paper key is involved.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## callout_evidence
+
+
+## claim_ids
+CLM-GIT-LIVER-ZONATION-01
+CLM-GIT-VIRAL-HEPATITIS-COINFECT-01
+CLM-GIT-HEPATITIS-E-VIRUS-01
+CLM-GIT-VIRAL-HEPATITIS-CLINICOP-01
+CLM-GIT-CHRONIC-HEPATITIS-CAUSES-01
+CLM-GIT-LIVER-ABSCESS-01
+CLM-GIT-GRANULOMATOUS-LIVER-DISE-01
+CLM-GIT-BUDD-CHIARI-SYNDROME-01
+CLM-GIT-GALLSTONES-01
+CLM-GIT-CIRRHOSIS-PATHOLOGICAL-F-01
+CLM-GIT-PRIMARY-BILIARY-CIRRHOSI-01
+CLM-GIT-PORTAL-HYPERTENSION-CLAS-01
+CLM-GIT-LIVER-CELL-ADENOMA-01
+CLM-GIT-HEPATOCELLULAR-CARCINOMA-01
+CLM-GIT-CHRONIC-LIVER-FAILURE-CA-01
+CLM-GIT-HEPATOBLASTOMA-01
+CLM-GIT-CHOLANGIOCARCINOMA-01
+CLM-GIT-CHRONIC-PANCREATITIS-ALC-01
+CLM-GIT-CHRONIC-PANCREATITIS-COM-01
+CLM-GIT-PANCREATIC-CARCINOMA-01
+CLM-GIT-PANCREATIC-PSEUDOCYST-01
+CLM-GIT-PERITONEAL-CARCINOMATOSI-01
+
+## span_ids
+
+
+## evidence_gaps
+[clear]
+
+## notes
+
+
+## field_notes
+relationships: Covers every concept minted in this cluster; cross-article links deferred to a later pass — see WANTED.
