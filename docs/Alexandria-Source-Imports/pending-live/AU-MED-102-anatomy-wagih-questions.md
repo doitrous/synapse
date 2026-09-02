@@ -2803,3 +2803,703 @@ yes
 ## author_notes
 keySource: rendered page image, printed answer table (1/2/3/4 = e/c/c/c) at the foot of p.8
 au: Third question this batch on the three-muscle-types concept, isolating site (myocardium vs. viscera/vessels) as the feature separating cardiac from smooth muscle.
+
+---
+
+# Item
+
+## id
+QST-MSK-UPPER-LIMB-BONE-LIST-EXCEPT-01
+
+## title
+Which of the following is NOT a bone of the upper extremities?
+
+## question
+Which of the following is NOT a bone of the upper extremities?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Humerus
+
+## explanation_a
+Incorrect. The humerus is the single bone of the arm, between the shoulder and the elbow, and is genuinely a bone of the upper extremity.
+
+## answer_b
+Femur
+
+## explanation_b
+Correct. The femur is the thigh bone of the lower limb, not the upper limb — the upper limb's own skeleton is the shoulder girdle (clavicle, scapula), the arm (humerus), the forearm (radius, ulna) and the hand (carpals, metacarpals, phalanges). The femur is easy to mistake for an upper-limb bone because it is, like the humerus, a proximal long bone of a limb with the same general shape and role; the two are analogous bones of different limbs, not the same bone under different names. Naming the region a bone belongs to, not only recognising its general shape as a long bone, is exactly what this exception item is built to test.
+
+## answer_c
+Radius
+
+## explanation_c
+Incorrect. The radius is one of the two forearm bones (with the ulna), on the thumb side, and is genuinely a bone of the upper extremity.
+
+## answer_d
+Clavicle
+
+## explanation_d
+Incorrect. The clavicle is one of the two bones of the shoulder girdle (with the scapula), attaching the upper limb to the trunk, and is genuinely a bone of the upper extremity.
+
+## topic
+Anatomy
+
+## subtopic
+Skeletal System
+
+## main_concept
+CON-MSK-8EA49C739942E9
+
+## concept_ids
+CON-MSK-8EA49C739942E9
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Anatomy > Skeletal System
+
+## question_only_for
+
+## library_ids
+ART-MSK-UPPER-LIMB-BONE-LIST
+
+## resource_ids
+src_84b91e011582f2b53494
+
+## learning_objective
+List the bones of the upper limb by region and recognise the femur as a lower-limb, not upper-limb, bone.
+
+## source_citation
+Alexandria University AU-MED-102 Anatomy department bank, MCQs - Dr. Wagih Anatomy MCQ (1-7), p.4 (General Anatomy Q1, keyed b).
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered page image, printed answer table (1/2/3/4 = b/b/d/a) at the foot of p.4
+au: Held by the anatomy-owed lane pending a fresh concept mint; minted this pass as CON-MSK-8EA49C739942E9 (canonical key bone.upper-limb.list) after a clean find-existing.mjs + grep search, with a covering article (ART-MSK-UPPER-LIMB-BONE-LIST) and evidence chain.
+
+---
+
+# Item
+
+## id
+QST-MSK-BONE-FUNCTIONS-EXCEPT-01
+
+## title
+Which of the following is NOT a function of bones?
+
+## question
+Which of the following is NOT a function of bones?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Support
+
+## explanation_a
+Incorrect. Supporting the body's soft tissues is a genuine function of bone, not the exception.
+
+## answer_b
+Breakdown of proteins into amino acids
+
+## explanation_b
+Correct. Breaking proteins down into amino acids is a digestive function, carried out by enzymes in the stomach and small intestine and by the liver's own protein metabolism, not by bone. Bone's own general functions are support, acting as a lever the muscles crossing a joint pull against to produce movement, storing minerals such as calcium and phosphorus, and forming blood cells in its marrow — none of which involves breaking down dietary or tissue protein. This is exactly the kind of exception item that tests whether a student can separate a genuine bone function from a plausible-sounding function of a different organ system.
+
+## answer_c
+Movement
+
+## explanation_c
+Incorrect. Acting as a lever for the muscles that produce movement is a genuine function of bone, not the exception.
+
+## answer_d
+Storage of minerals
+
+## explanation_d
+Incorrect. Storing minerals such as calcium and phosphorus is a genuine function of bone, not the exception.
+
+## topic
+Anatomy
+
+## subtopic
+Skeletal System
+
+## main_concept
+CON-MSK-88ABD88C19073F
+
+## concept_ids
+CON-MSK-88ABD88C19073F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Anatomy > Skeletal System
+
+## question_only_for
+
+## library_ids
+ART-MSK-BONE-FUNCTIONS-PROPERTIES
+
+## resource_ids
+src_84b91e011582f2b53494
+
+## learning_objective
+Name the general functions of bone (support, movement, mineral storage, blood-cell formation) and recognise protein breakdown as not one of them.
+
+## source_citation
+Alexandria University AU-MED-102 Anatomy department bank, MCQs - Dr. Wagih Anatomy MCQ (1-7), p.4 (General Anatomy Q2, keyed b).
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered page image, printed answer table (1/2/3/4 = b/b/d/a) at the foot of p.4
+au: Held by the anatomy-owed lane pending a fresh concept mint (shares CON-MSK-88ABD88C19073F with the p5 Q2 false-statement item below); minted this pass after a clean find-existing.mjs + grep search, with a covering article (ART-MSK-BONE-FUNCTIONS-PROPERTIES) and evidence chain.
+
+---
+
+# Item
+
+## id
+QST-MSK-BONE-PROPERTIES-FALSE-01
+
+## title
+Which of the following statements about bones is false?
+
+## question
+Which of the following statements about bones is false?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It's the site of blood cell formation
+
+## explanation_a
+Incorrect. Blood-cell formation in the marrow is a genuine function of bone, not the false statement.
+
+## answer_b
+It's rich in lymphatics
+
+## explanation_b
+Correct. Bone is a richly vascularised tissue — it carries nutrient arteries, periosteal vessels, and, in a long bone, separate epiphyseal and metaphyseal blood supplies — but it is poorly, not richly, supplied by lymphatics. This is the opposite of what bone's rich blood supply might suggest, which is exactly why the department bank pairs the two properties against each other in a false-statement item: a student who assumes 'well-vascularised' also means 'lymphatic-rich' picks the wrong option. The other three statements are all genuine properties of bone — blood-cell formation in its marrow, mineral storage of calcium and phosphorus, and acting as a lever for the muscles crossing a joint — which is why the false one has to be spotted among three true statements.
+
+## answer_c
+It stores minerals as calcium and phosphorus
+
+## explanation_c
+Incorrect. Storing minerals such as calcium and phosphorus is a genuine function of bone, not the false statement.
+
+## answer_d
+It provides lever action for the muscles at the joints
+
+## explanation_d
+Incorrect. Providing lever action for the muscles acting at a joint is a genuine function of bone, not the false statement.
+
+## topic
+Anatomy
+
+## subtopic
+Skeletal System
+
+## main_concept
+CON-MSK-88ABD88C19073F
+
+## concept_ids
+CON-MSK-88ABD88C19073F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Anatomy > Skeletal System
+
+## question_only_for
+
+## library_ids
+ART-MSK-BONE-FUNCTIONS-PROPERTIES
+
+## resource_ids
+src_84b91e011582f2b53494
+
+## learning_objective
+Recognise that bone, despite its rich blood supply, is poorly supplied by lymphatics, unlike its genuine functions of blood-cell formation, mineral storage and lever action.
+
+## source_citation
+Alexandria University AU-MED-102 Anatomy department bank, MCQs - Dr. Wagih Anatomy MCQ (1-7), p.5 (General Anatomy Q2, keyed b).
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered page image, printed answer table (1/2/3/4/5 = a/b/b/a/b) at the foot of p.5
+au: Held by the anatomy-owed lane pending a fresh concept mint (shares CON-MSK-88ABD88C19073F with the p4 Q2 exception item above); minted this pass after a clean find-existing.mjs + grep search, with a covering article (ART-MSK-BONE-FUNCTIONS-PROPERTIES) and evidence chain.
+
+---
+
+# Item
+
+## id
+QST-MSK-FOOT-INVERSION-DEFINITION-01
+
+## title
+Twisting motion of the foot that turns the sole inward is termed:
+
+## question
+Twisting motion of the foot that turns the sole inward is termed:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Eversion
+
+## explanation_a
+Incorrect. Eversion is the opposite movement, turning the sole to face laterally (outward), not inward.
+
+## answer_b
+Protraction
+
+## explanation_b
+Incorrect. Protraction is a forward-gliding movement (for example of the mandible or the scapula), not a twisting movement of the foot.
+
+## answer_c
+Plantar flexion
+
+## explanation_c
+Incorrect. Plantar flexion points the foot downward at the ankle joint itself; it does not turn the sole inward or outward.
+
+## answer_d
+Inversion
+
+## explanation_d
+Correct. Inversion and eversion are the named pair of twisting movements of the foot, produced mainly at the subtalar and transverse tarsal joints rather than at the ankle joint proper, and inversion is the one that turns the sole to face medially — inward, toward the opposite foot. The definition is stated in terms of which way the sole itself comes to face, which is what keeps it correct however the limb as a whole happens to be positioned. Naming the movement from the sole's own direction, rather than guessing from which way the leg appears to lean, is exactly what this definitional item is testing.
+
+## topic
+Anatomy
+
+## subtopic
+Basis of Anatomy
+
+## main_concept
+CON-MSK-23DC6DF78D6A35
+
+## concept_ids
+CON-MSK-23DC6DF78D6A35
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Anatomy > Basis of Anatomy
+
+## question_only_for
+
+## library_ids
+ART-MSK-INVERSION-EVERSION
+
+## resource_ids
+src_84b91e011582f2b53494
+
+## learning_objective
+Name inversion as the foot movement that turns the sole medially, and distinguish it from eversion, protraction and plantar flexion.
+
+## source_citation
+Alexandria University AU-MED-102 Anatomy department bank, MCQs - Dr. Wagih Anatomy MCQ (1-7), p.7 (General Anatomy Q2, keyed d).
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered page image, printed answer table (1/2/3/4 = d/d/d/b) at the foot of p.7
+au: Held by the anatomy-owed lane pending a fresh concept mint; minted this pass as CON-MSK-23DC6DF78D6A35 (canonical key movement.inversion-eversion) after a clean find-existing.mjs + grep search (including a check of docs/FOMSCU-Source-Imports/ for a concurrent mint by another lane's module — none found), with a covering article (ART-MSK-INVERSION-EVERSION) and evidence chain.
+
+---
+
+# Item
+
+## id
+QST-MSK-AURICLE-CARTILAGE-TYPE-01
+
+## title
+The cartilage present at the auricle is called ...
+
+## question
+The cartilage which present at auricle is called ...
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Hyaline
+
+## explanation_a
+Incorrect. Hyaline cartilage is smooth and rigid, covering joint surfaces and forming costal cartilage; it is not built to bend and recoil the way the auricle's cartilage does.
+
+## answer_b
+Elastic
+
+## explanation_b
+Correct. Cartilage falls into three types by structure and function — hyaline, elastic and fibrocartilage — and the auricle (pinna) of the external ear is a named worked example of elastic cartilage: its matrix carries a dense meshwork of elastic fibres in addition to collagen, which lets it bend under pressure and spring back to shape rather than crack or stay deformed. That recoil is exactly the property the auricle needs and exactly what separates elastic cartilage from the other two types. Elastic cartilage is also found at the epiglottis, another structure that must bend repeatedly and return to shape.
+
+## answer_c
+Fibro-cartilage
+
+## explanation_c
+Incorrect. Fibrocartilage is tough and fibrous, forming structures such as the intervertebral disc and pubic symphysis that need tensile strength, not the auricle's flexible recoil.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Elastic cartilage is exactly the correct answer, so 'none of the above' is not correct.
+
+## topic
+Anatomy
+
+## subtopic
+Skeletal System
+
+## main_concept
+CON-MSK-52169F26686E92
+
+## concept_ids
+CON-MSK-52169F26686E92
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Anatomy > Skeletal System
+
+## question_only_for
+
+## library_ids
+ART-MSK-AURICLE-CARTILAGE
+
+## resource_ids
+src_84b91e011582f2b53494
+
+## learning_objective
+Name elastic cartilage as the cartilage type of the auricle, distinct from hyaline cartilage and fibrocartilage.
+
+## source_citation
+Alexandria University AU-MED-102 Anatomy department bank, MCQs - Dr. Wagih Anatomy MCQ (1-7), p.7 (General Anatomy Q4, keyed b).
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered page image, printed answer table (1/2/3/4 = d/d/d/b) at the foot of p.7
+au: Held by the anatomy-owed lane pending a fresh concept mint; minted this pass as CON-MSK-52169F26686E92 (canonical key cartilage.auricle-elastic) after a clean find-existing.mjs + grep search (every 'elastic cartilage' hit inspected — all histology-grain, a different grain per this lane's own skin/dermis precedent), with a covering article (ART-MSK-AURICLE-CARTILAGE) and evidence chain.
