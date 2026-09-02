@@ -16634,3 +16634,575 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "volvulus venous gangrene" -- 0 hits. New concept.
 relationships: directly related to the reused CON-FND-116B0060AF7B6B (Kasr 208-INT dry-vs-moist-gangrene demarcation concept, this same lecture's Q9/q292) -- this record supplies the volvulus-specific mechanism example, that one the general dry-vs-moist demarcation contrast.
+
+---
+
+# Item
+
+## id
+CON-FND-C68CFB507DC0C8
+
+## label
+Losartan's chief advantage over enalapril is a lower incidence of angioedema
+
+## canonical_key
+arb.losartan.advantage-over-acei-less-angioedema
+
+## aliases
+Losartan vs enalapril
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Angiotensin receptor blockers (ARBs) such as losartan do not affect bradykinin metabolism, since they act downstream at the angiotensin II receptor rather than inhibiting the ACE enzyme that also degrades bradykinin. This gives losartan a lower incidence of angioedema than an ACE inhibitor such as enalapril, even though the two classes are otherwise comparable in efficacy for lowering blood pressure and cost, and losartan has not been shown to be better than an ACE inhibitor at preventing secondary myocardial events.
+
+## explicit_objective
+State that losartan's chief advantage over enalapril is a lower incidence of angioedema, because ARBs do not inhibit bradykinin degradation the way ACE inhibitors do.
+
+## pitfalls
+Assuming an ARB's advantage over an ACE inhibitor lies in superior blood-pressure efficacy, cardioprotection or cost -- the well-established advantage is a lower angioedema (and cough) risk, from sparing bradykinin degradation.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 2
+
+## subtopic
+ARB vs ACE inhibitor
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-F63798C7FE1A68
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is an advantage of losartan over enalapril? ... Less incidence of angioedema" (Quiz 36 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 36 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "losartan less angioedema than ace inhibitor" -- 0 hits; grep for "angioedema" found the reused CON-FND-F63798C7FE1A68 (ACE inhibitor adverse effects), a related but distinct fact (this record is about the ARB's comparative advantage, not the ACE inhibitor's own adverse-effect list). New concept.
+relationships: direct contrast pairing with the reused CON-FND-F63798C7FE1A68 (this same lecture's Q1/Q2, fosinopril/lisinopril adverse effects).
+
+---
+
+# Item
+
+## id
+CON-FND-C06E663F2F7DE7
+
+## label
+ACE inhibitors (e.g. lisinopril) enhance bradykinin's effects by blocking its degradation
+
+## canonical_key
+acei.mechanism.bradykinin-degradation-blocked
+
+## aliases
+ACE inhibitor bradykinin mechanism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Angiotensin-converting enzyme (ACE) normally degrades bradykinin in addition to converting angiotensin I to angiotensin II. ACE inhibitors such as lisinopril block this degradation, so bradykinin accumulates and its effects (vasodilation, and the drug class's characteristic dry cough and angioedema) are enhanced -- an effect not shared by losartan (an ARB acting downstream of ACE), propranolol (a beta-blocker) or clonidine (a central alpha2 agonist), none of which inhibit ACE.
+
+## explicit_objective
+State that ACE inhibitors such as lisinopril enhance bradykinin's effects by blocking its ACE-mediated degradation, unlike losartan, propranolol or clonidine.
+
+## pitfalls
+Assuming any antihypertensive drug class enhances bradykinin -- only an ACE inhibitor, by blocking the enzyme that degrades it, does so.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 2
+
+## subtopic
+ACE inhibitor mechanism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-F63798C7FE1A68
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Enhancement of the effects of bradykinin is most with one of the following drugs ... Lisinopril" (Quiz 36 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 36 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "ace inhibitor dry cough bradykinin" -- 0 hits. New concept -- this record's mechanism is the direct pharmacology-fact basis for the reused CON-FND-F63798C7FE1A68 concept's cough/angioedema adverse effects, but tests the mechanism itself rather than an adverse-effect recognition fact, so kept as its own record rather than folded in.
+
+---
+
+# Item
+
+## id
+CON-FND-7708CA90015B1D
+
+## label
+Captopril is the appropriate ACE inhibitor for a woman with diabetic nephropathy
+
+## canonical_key
+acei.captopril.diabetic-nephropathy-renoprotection
+
+## aliases
+ACE inhibitor renoprotection
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+ACE inhibitors such as captopril reduce intraglomerular pressure by preferentially dilating the efferent glomerular arteriole, slowing the progression of diabetic nephropathy -- making captopril the appropriate choice for a woman with diabetic nephropathy among four drug-patient pairings tested together. A beta-blocker such as propranolol is relatively contraindicated in peripheral vascular disease, captopril itself would worsen rather than suit a hyperkalemic patient, and any ACE inhibitor (including enalapril) is contraindicated in pregnancy.
+
+## explicit_objective
+Identify captopril as the appropriate choice for a woman with diabetic nephropathy, because ACE inhibitors are renoprotective by reducing intraglomerular pressure, and reject drug-patient pairings that are inappropriate or contraindicated for other stated patient factors.
+
+## pitfalls
+Overlooking that ACE inhibitors are specifically renoprotective in diabetic nephropathy while also being contraindicated in pregnancy and in patients prone to hyperkalemia -- the same drug class can be the right or wrong choice depending on the specific patient factor named.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 2
+
+## subtopic
+ACE inhibitor indications and cautions
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-F63798C7FE1A68
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which one of the following is the most appropriate drug to use for the patient described in parentheses? ... Captopril (woman with diabetic nephropathy)" (Quiz 36 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 36 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "captopril diabetic nephropathy" -- 0 hits; grep for "diabetic nephropathy" found unrelated biochemistry hits (Alexandria/Kasr lipid/nitrogen metabolism records, not this ACE-inhibitor-indication fact). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-DAD9DC4AEE2456
+
+## label
+Aliskiren is a direct renin inhibitor
+
+## canonical_key
+antihypertensive.aliskiren.direct-renin-inhibitor
+
+## aliases
+Direct renin inhibitor
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Aliskiren directly inhibits renin, the enzyme that initiates the renin-angiotensin-aldosterone cascade by cleaving angiotensinogen to angiotensin I -- acting one step upstream of an ACE inhibitor (which blocks angiotensin I to angiotensin II conversion) and an ARB such as losartan or valsartan (which blocks the angiotensin II receptor). This distinguishes aliskiren as the direct renin inhibitor among these four antihypertensive options.
+
+## explicit_objective
+Identify aliskiren as a direct renin inhibitor, acting upstream of ACE inhibitors and ARBs in the renin-angiotensin-aldosterone cascade.
+
+## pitfalls
+Confusing a direct renin inhibitor (aliskiren) with an ARB (losartan, valsartan) or an ACE inhibitor (lisinopril) -- each acts at a different, sequential step of the same cascade.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 2
+
+## subtopic
+Renin-angiotensin system drug classes
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A woman with high blood pressure is given a drug that is considered a direct renin inhibitor. Which one of these drugs? ... Aliskiren" (Quiz 36 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 36 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "aliskiren direct renin inhibitor" -- 0 hits; grep for "aliskiren"/"renin inhibitor" found 0 hits across docs/*-Source-Imports concept dirs. New concept.

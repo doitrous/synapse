@@ -3421,3 +3421,155 @@ Block: body
 ### definition_of · CON-FND-A24E254A253910
 Quote: An intestinal volvulus, by occluding venous as well as arterial supply, produces moist rather than dry gangrene
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-AUTACOIDS-2
+
+## title
+Autacoids 2: the renin-angiotensin cascade, ACE inhibitor bradykinin effects and renoprotection
+
+## arabic_title
+الأوتاكويدات 2: سلسلة الرينين-أنجيوتنسين، وتأثيرات البراديكينين لمثبطات الإنزيم المحول، والحماية الكلوية
+
+## aliases
+Autacoids 2 (renin-angiotensin-aldosterone system)
+Lecture 36
+
+## subject
+pharm
+
+## topic
+Autacoids 2
+
+## subtopic
+Renin-angiotensin-aldosterone system pharmacology
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+10
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 36, despite its "Autacoids 2" label in the source quiz bank, covers renin-angiotensin-aldosterone system (RAAS) pharmacology: aliskiren directly inhibits renin (the cascade's first step), an ACE inhibitor such as lisinopril or captopril blocks angiotensin II formation one step downstream while also blocking bradykinin degradation, and an ARB such as losartan blocks the angiotensin II receptor at the final step without affecting bradykinin. Because ACE also normally degrades bradykinin, ACE inhibitors carry two bradykinin-driven, class-wide adverse effects -- a persistent dry cough and, less commonly, angioedema -- that an ARB largely avoids, giving losartan its chief practical advantage over an ACE inhibitor such as enalapril. ACE inhibitors are also renoprotective in diabetic nephropathy but are contraindicated in pregnancy and caution-flagged in hyperkalemia.
+
+## sections
+### Definition
+Renin-angiotensin-aldosterone system (RAAS) drugs act at sequential steps: aliskiren directly inhibits renin (the first, rate-limiting step, cleaving angiotensinogen to angiotensin I); an ACE inhibitor such as lisinopril, enalapril or captopril blocks the next step, angiotensin I to angiotensin II conversion, while also blocking bradykinin degradation; and an ARB such as losartan or valsartan blocks the final step, the angiotensin II receptor itself, without affecting bradykinin.
+
+### Mechanism
+Because ACE also degrades bradykinin, an ACE inhibitor's blockade of that enzyme causes bradykinin to accumulate, enhancing its vasodilator effects and producing the drug class's two signature adverse effects: a persistent dry cough, from bradykinin and substance P accumulation in the airways, and, less commonly, angioedema. An ARB such as losartan, acting downstream at the angiotensin II receptor rather than at ACE, does not share this bradykinin-driven liability, giving it a lower incidence of both cough and angioedema than an ACE inhibitor -- its chief practical advantage over a drug such as enalapril. ACE inhibitors are also renoprotective in diabetic nephropathy, since they preferentially dilate the efferent glomerular arteriole and so reduce intraglomerular pressure, but they raise serum potassium (contraindicated with hyperkalemia) and are teratogenic (contraindicated in pregnancy). Aliskiren, by directly inhibiting renin itself, acts one step further upstream than either an ACE inhibitor or an ARB.
+
+### Key determinants
+Fosinopril and lisinopril, both ACE inhibitors, can cause angioedema and a persistent dry cough respectively through bradykinin accumulation; nifedipine, losartan and atenolol, acting through unrelated mechanisms, do not share this liability. Losartan's chief advantage over enalapril is a lower incidence of angioedema, not superior blood-pressure efficacy or cost. Captopril is the appropriate ACE inhibitor for a woman with diabetic nephropathy, but is inappropriate for a hyperkalemic patient, just as any ACE inhibitor (including enalapril) is contraindicated in a pregnant patient. Aliskiren, not losartan, valsartan or lisinopril, is the direct renin inhibitor among typical antihypertensive options.
+
+### Clinical significance
+Recognising ACE inhibitor cough and angioedema as bradykinin-mediated, class-wide effects, not idiosyncratic to one drug, guides the switch to an ARB when either occurs. Knowing ACE inhibitors' renoprotective effect in diabetic nephropathy, alongside their hyperkalemia risk and pregnancy contraindication, is essential for safe antihypertensive prescribing in patients with these specific comorbidities. Aliskiren's upstream renin-inhibiting mechanism is the basis for why it is generally not combined with an ACE inhibitor or ARB, since dual RAAS blockade raises hyperkalemia and renal-injury risk without added benefit.
+
+### Common misconceptions
+Assuming an ARB's advantage over an ACE inhibitor is better blood-pressure control rather than a lower angioedema/cough risk from sparing bradykinin degradation. Assuming any antihypertensive, rather than specifically an ACE inhibitor, enhances bradykinin. Selecting an ACE inhibitor for a hyperkalemic or pregnant patient, or overlooking its renoprotective role in diabetic nephropathy. Confusing a direct renin inhibitor (aliskiren) with an ARB or ACE inhibitor, which act at different, later steps of the same cascade.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+RAAS drugs act sequentially: aliskiren inhibits renin, an ACE inhibitor blocks angiotensin II formation (and bradykinin degradation), an ARB blocks the angiotensin II receptor.
+ACE inhibitors cause dry cough and angioedema through bradykinin accumulation; an ARB such as losartan largely avoids both, its chief advantage over an ACE inhibitor.
+ACE inhibitors are renoprotective in diabetic nephropathy (efferent arteriolar dilation) but contraindicated in pregnancy and cautioned in hyperkalemia.
+Aliskiren is a direct renin inhibitor, acting upstream of both ACE inhibitors and ARBs.
+
+## lose_the_mark
+Attributing ACE inhibitor cough/angioedema to a mechanism other than bradykinin accumulation, or assuming an ARB shares this liability.
+Naming a non-bradykinin-related advantage (blood pressure, cost) for an ARB over an ACE inhibitor.
+Choosing an ACE inhibitor for a hyperkalemic or pregnant patient, or missing its renoprotective indication in diabetic nephropathy.
+Confusing aliskiren's direct-renin-inhibitor mechanism with an ARB's or ACE inhibitor's later-step mechanism.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-C68CFB507DC0C8
+CON-FND-C06E663F2F7DE7
+CON-FND-7708CA90015B1D
+CON-FND-DAD9DC4AEE2456
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 36 (labelled "Autacoids 2" in the source quiz bank, though its actual content is renin-angiotensin-aldosterone system antihypertensive pharmacology, kept as printed) -- no department slide deck exists in the corpus past Lecture 8, so all four new mints cite the quiz bank's own printed-answer text instead. Quiz 36 Q1-Q2 (q305-q306, fosinopril/angioedema and lisinopril/dry cough) reuse a pending Kasr 208-INT ACE-inhibitor-adverse-effects concept (CON-FND-F63798C7FE1A68) rather than minting duplicates; their questions cite the existing Kasr article ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY instead of this one.
+
+## annotations
+### definition_of · CON-FND-C68CFB507DC0C8
+Quote: Losartan's chief advantage over enalapril is a lower incidence of angioedema, not superior blood-pressure efficacy or cost
+Block: body
+
+### definition_of · CON-FND-C06E663F2F7DE7
+Quote: Because ACE also degrades bradykinin, an ACE inhibitor's blockade of that enzyme causes bradykinin to accumulate, enhancing its vasodilator effects
+Block: body
+
+### definition_of · CON-FND-7708CA90015B1D
+Quote: Captopril is the appropriate ACE inhibitor for a woman with diabetic nephropathy, but is inappropriate for a hyperkalemic patient
+Block: body
+
+### definition_of · CON-FND-DAD9DC4AEE2456
+Quote: aliskiren directly inhibits renin (the first, rate-limiting step, cleaving angiotensinogen to angiotensin I)
+Block: body
