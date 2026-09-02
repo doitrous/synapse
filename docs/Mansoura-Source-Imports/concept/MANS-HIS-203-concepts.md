@@ -2551,3 +2551,1093 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 
 ---
+
+# Item
+
+## label
+Albumin is synthesised in the liver, transferrin carries iron in the plasma, and transcobalamin is the plasma protein that carries vitamin B12
+
+## id
+CON-HEM-44F2891C156669
+
+## canonical_key
+plasma-protein-synthesis-site-and-carrier-roles
+
+## aliases
+Albumin synthesis
+Transferrin
+Transcobalamin
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Albumin, the most abundant plasma protein, is synthesised in the liver, which is why chronic liver disease characteristically lowers plasma albumin. Two other plasma proteins carry out named transport roles distinct from albumin's own broad carrier function: transferrin binds and carries iron through the plasma (as opposed to ferritin, which stores iron intracellularly, or apoferritin, its iron-free storage form), and transcobalamin (specifically transcobalamin II) is the plasma protein that carries vitamin B12 in the blood after its absorption via intrinsic factor in the terminal ileum.
+## explicit_objective
+State that albumin is synthesised in the liver, and identify transferrin and transcobalamin as the named plasma-protein carriers of iron and vitamin B12 respectively.
+
+## pitfalls
+Confusing transferrin (the plasma iron-carrier) with ferritin/apoferritin (intracellular iron-storage proteins) — a repeated distractor pattern in this bank's plasma-protein questions. Assuming any deficiency of a specific plasma carrier protein is the same as a deficiency of the substance it carries.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Plasma proteins
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p129-130 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Albumin is synthesized in: [answer: Liver]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the facts are standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "albumin synthesis liver" / "transferrin iron transport plasma" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+C-reactive protein is a classic acute-phase plasma protein that rises with inflammation, while deficiency of alpha-1 antitrypsin (an alpha globulin) causes early-onset emphysema by leaving neutrophil elastase unchecked in the lung
+
+## id
+CON-HEM-AF93A39D16FB9F
+
+## canonical_key
+acute-phase-response-and-alpha1-antitrypsin-deficiency
+
+## aliases
+C-reactive protein
+Acute phase protein
+Alpha-1 antitrypsin deficiency
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Acute-phase proteins are plasma proteins whose concentration rises sharply during inflammation, infection or tissue injury, driven mainly by liver synthesis under cytokine (especially IL-6) stimulation; C-reactive protein (CRP) is the classic example, used clinically as a marker of active inflammation. Alpha-1 antitrypsin is a different alpha globulin whose normal job is to inhibit neutrophil elastase, an enzyme that would otherwise digest lung elastin during normal neutrophil activity; when alpha-1 antitrypsin is deficient (a hereditary condition), unchecked elastase activity destroys lung elastin over time, producing early-onset emphysema even in non-smokers, and more severe, earlier disease in smokers.
+## explicit_objective
+Identify C-reactive protein as a classic acute-phase plasma protein, and explain that alpha-1 antitrypsin deficiency causes emphysema through unchecked neutrophil elastase activity in the lung.
+
+## pitfalls
+Treating "acute phase protein" as synonymous with "any plasma protein whose level changes in disease" rather than specifically a protein whose synthesis rises with the inflammatory response, of which CRP is the textbook example among several named alternatives (transferrin and albumin are, by contrast, negative acute-phase proteins that fall). Missing the mechanism link in alpha-1 antitrypsin deficiency — the disease is not from the missing protein directly but from the resulting unchecked elastase destroying lung tissue.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Plasma proteins
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p129 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-ACUTE-PHASE-ALPHA1-ANTITRYPSIN
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.65
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Example of acute phase proteins: [answer: C-reactive protein]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology/pathology reference not yet cross-checked against this department-book framing; both facts are standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "alpha-1-antitrypsin deficiency emphysema" / "C-reactive protein acute phase" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+The four pyrrole rings of a porphyrin are joined into a ring by methylene (=CH-) bridges, the structural link that underlies haem's own tetrapyrrole ring
+
+## id
+CON-HEM-84A5209FED7044
+
+## canonical_key
+porphyrin-ring-methylene-bridges
+
+## aliases
+Porphyrin structure
+Methylene bridges
+Pyrrole rings
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A porphyrin is a cyclic structure built from four pyrrole rings (five-membered, nitrogen-containing rings) joined together into a larger ring by four methylene (=CH-) bridges connecting the alpha-carbons of adjacent pyrrole rings. This tetrapyrrole ring, with its central nitrogen atoms able to chelate a metal ion, is the structural scaffold that becomes haem once ferrous iron is inserted by ferrochelatase at protoporphyrin IX, the final step of haem synthesis.
+## explicit_objective
+Identify methylene groups as the chemical bridge joining the four pyrrole rings of a porphyrin into its ring structure.
+
+## pitfalls
+Confusing "methylene group" (the specific two-carbon-and-hydrogen bridge linking pyrrole rings) with other named chemical linkages (methyl, methenyl) offered as distractors in this bank's structural-chemistry question.
+
+## concept_type
+directly_taught_biochemistry_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+[clear]
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Heme synthesis
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Biochemistry > Heme synthesis > Porphyrin ring structure
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p140 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-PORPHYRIN-RING-STRUCTURE
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+CON-HEM-8F2329AD7AF440
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MANS_Y1=0.2
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.45
+
+## confidence
+0.65
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The 4 pyrrole rings in porphyrin are united together by: [answer: Methylene group]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent biochemistry reference not yet cross-checked against this department-book framing; the structural fact is standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: CON-HEM-8F2329AD7AF440 (this module, ALA synthase / heme synthesis pathway) is the same-pathway neighbour this structural fact complements.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for the porphyrin ring/pyrrole/methylene structural fact (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Oxidation of haemoglobin's iron from the ferrous (Fe2+, oxygen-binding) to the ferric (Fe3+) state produces methemoglobin, which cannot bind oxygen — the ferrous state is the actual oxygen-binding site of haem
+
+## id
+CON-HEM-B48945E328456B
+
+## canonical_key
+hemoglobin-iron-oxidation-state-and-methemoglobinemia
+
+## aliases
+Methemoglobinemia
+Ferrous vs ferric iron
+Oxygen binding site of hemoglobin
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The oxygen-binding site of haemoglobin is the ferrous (Fe2+) iron atom held at the centre of each haem group's porphyrin ring. If that iron is oxidised from the ferrous to the ferric (Fe3+) state, the resulting molecule is methemoglobin, which cannot bind oxygen at all — unlike normal oxyhaemoglobin's reversible, non-oxidative binding of O2 to ferrous iron. A build-up of methemoglobin (methemoglobinemia) therefore reduces the blood's effective oxygen-carrying capacity even though total haemoglobin and iron content are unchanged, distinguishing it mechanistically from anaemia (reduced haemoglobin quantity) and from carbon monoxide poisoning (competitive binding at the same ferrous site without oxidising it).
+## explicit_objective
+Identify the ferrous (Fe2+) iron of haem as haemoglobin's oxygen-binding site, and state that oxidation of that iron to the ferric (Fe3+) state produces methemoglobin, which cannot carry oxygen.
+
+## pitfalls
+Confusing methemoglobinemia's mechanism (iron oxidation, Fe2+ to Fe3+, no oxygen binding at all) with carbon monoxide poisoning's mechanism (competitive binding at the still-ferrous iron, with higher affinity than oxygen but no change in oxidation state) — both are haemoglobin-dysfunction conditions this bank tests as a discriminating pair. Assuming the oxygen-binding site is a residue of the globin chain rather than the ferrous iron of the haem prosthetic group itself.
+
+## concept_type
+directly_taught_biochemistry_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+[clear]
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Hemoglobin structure and function
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Hemoglobin structure
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p110,143 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-HEMOGLOBIN-IRON-OXIDATION-METHEMOGLOBINEMIA
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+If iron in hemoglobin is oxidized. What disease may occur? [answer: Methemoglobinemia]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent biochemistry reference not yet cross-checked against this department-book framing; the mechanism is standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found for either the methemoglobinemia fact or the oxygen-binding-site fact it was bundled with.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "methemoglobinemia" / "methemoglobin" (glossary-term-only hit, no concept) beyond a bare glossary term (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Hemoglobin is a conjugated protein — a globin (simple protein) portion combined with a non-protein haem prosthetic group, not a simple, derived, or lipoprotein molecule on its own
+
+## id
+CON-HEM-18D2F687975B5F
+
+## canonical_key
+hemoglobin-as-conjugated-protein
+
+## aliases
+Hemoglobin protein classification
+Conjugated protein
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Proteins are classified as simple (composed only of amino acids), conjugated (a protein combined with a non-protein prosthetic group), or derived (products of protein degradation or denaturation). Haemoglobin is a conjugated protein: its globin portion is a simple protein (four polypeptide chains), but each chain is combined with a haem prosthetic group — a non-protein, iron-containing porphyrin — that is essential to the molecule's oxygen-carrying function. Neither the globin chains alone nor the haem groups alone constitute functional haemoglobin.
+## explicit_objective
+Classify haemoglobin as a conjugated protein (globin plus haem prosthetic group), as distinct from a simple, derived, or lipoprotein classification.
+
+## pitfalls
+Treating "haemoglobin is a protein" as sufficient without specifying which category — this bank tests the specific conjugated-protein classification against simple/derived/lipoprotein distractors, testing whether the haem prosthetic group's non-protein nature is understood.
+
+## concept_type
+directly_taught_biochemistry_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+[clear]
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Hemoglobin structure and function
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Hemoglobin structure
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p143 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-HEMOGLOBIN-CONJUGATED-PROTEIN
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MANS_Y1=0.2
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.45
+
+## confidence
+0.65
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Hemoglobin is a: [answer: Conjugated protein]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent biochemistry reference not yet cross-checked against this department-book framing; the classification is standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for the hemoglobin-as-conjugated-protein classification fact (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Hepatocellular jaundice is the pattern that elevates both conjugated and unconjugated bilirubin together, unlike haemolytic jaundice (unconjugated predominates) or obstructive jaundice (conjugated predominates)
+
+## id
+CON-HEM-364A4A59515E8A
+
+## canonical_key
+hepatocellular-jaundice-mixed-bilirubin-pattern
+
+## aliases
+Hepatocellular jaundice
+Mixed hyperbilirubinemia
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Jaundice is classified by mechanism into three patterns with characteristic bilirubin fractions. Haemolytic jaundice, from excess red cell breakdown, raises unconjugated bilirubin predominantly (the liver's conjugating capacity is overwhelmed by the extra load). Obstructive jaundice, from blocked bile flow, raises conjugated (direct) bilirubin predominantly, since the liver conjugates normally but cannot excrete it into the gut. Hepatocellular jaundice, from damaged liver cells (as in hepatitis), is distinct from both: because the liver cell itself is both taking up unconjugated bilirubin and trying to conjugate and excrete it, damage impairs all three functions at once, elevating both conjugated and unconjugated bilirubin together, a mixed pattern that distinguishes it from the two single-fraction-predominant patterns.
+## explicit_objective
+Identify hepatocellular jaundice as the pattern that elevates both conjugated and unconjugated bilirubin together, as distinct from haemolytic jaundice (unconjugated-predominant) and obstructive jaundice (conjugated-predominant).
+
+## pitfalls
+Assuming any bilirubin elevation is one of only two patterns (haemolytic vs obstructive) and missing hepatocellular jaundice's distinct mixed-fraction signature — the department's bank tests this discrimination directly by asking which jaundice type raises both fractions together.
+
+## concept_type
+directly_taught_biochemistry_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+[clear]
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Heme metabolism
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Biochemistry > Heme metabolism
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p142 | MANS-HIS-203
+
+## article_ids
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+CON-HEM-22375197AEE80D
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.65
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which type of jaundice is associated with elevation of both conjugated and unconjugated forms of bilirubin? [answer: Hepatocellular jaundice]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent clinical biochemistry reference not yet cross-checked against this department-book framing; the classification is standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The article teaching bilirubin metabolism generally (ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN, reused directly) covers this pattern too; no separate further-reading article authored.
+relatedConceptIds: CON-HEM-22375197AEE80D (this module, haemolytic jaundice urobilinogen pattern) is the same-differential neighbour this concept's hepatocellular angle completes the three-way classification with.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for the hepatocellular/mixed-bilirubin jaundice pattern specifically (obstructive and haemolytic jaundice concepts already exist in this batch and were reused/cross-referenced, not duplicated — see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
