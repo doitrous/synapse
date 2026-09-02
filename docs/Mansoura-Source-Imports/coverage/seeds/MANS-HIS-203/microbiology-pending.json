@@ -1,0 +1,58 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "microbiology-pending",
+  "header": "MANS-HIS-203 · Microbiology — Rh incompatibility as a worked type-II hypersensitivity example, authored from the His Continuous Berlin Book 2026 (Microbiology L1 revision, p.46), printed key. Main concept is a pending Kasr hit.",
+  "defaults": {
+    "subject": "imm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "module_subject": "MANS-HIS-203 > Microbiology > Immunology > Hypersensitivity reactions",
+    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-102-PHY-BLOOD-GROUPS-AND-BLOOD-TRANSFUSION", "ART-MANS-HIS-HYPERSENSITIVITY-CLASSIFICATION"],
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, Microbiology L1 revision, p.46",
+    "setting": "Clinical",
+    "estimated_seconds": 65,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "m5",
+      "page": 46,
+      "title": "Rh incompatibility as a hypersensitivity type",
+      "question": "An Rh-negative mother gives birth to an Rh-positive child who is completely normal. At the birth of her 2nd child (also Rh-positive), he shows jaundice and anaemia. His lesion is caused by:",
+      "options": {
+        "A": "Type I hypersensitivity",
+        "B": "Type II hypersensitivity",
+        "C": "Type III hypersensitivity",
+        "D": "Type VI hypersensitivity",
+        "E": "Viral infection"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Type I is IgE bound to mast cells producing an immediate reaction to a re-encountered antigen; this scenario is IgG-mediated destruction of the fetus's own red cells, not a mast-cell degranulation reaction.",
+        "B": "Correct. This is a type II (cytotoxic) hypersensitivity reaction — erythroblastosis fetalis. The first Rh-positive pregnancy sensitised the Rh-negative mother, producing anti-D IgG antibody. That antibody crosses the placenta in a subsequent Rh-positive pregnancy and binds directly to the D antigen fixed on the fetal red cell surface, and complement-mediated destruction of those antibody-coated cells causes the newborn's jaundice (from the haemoglobin breakdown product bilirubin) and anaemia.",
+        "C": "Incorrect. Type III is antibody bound to soluble circulating antigen forming immune complexes that deposit in tissue; here the antibody binds directly to a fixed antigen on the red cell surface, which is the type II mechanism, not immune-complex deposition.",
+        "D": "Incorrect. The Gell and Coombs classification runs only from type I to type IV; there is no \"type VI\" hypersensitivity.",
+        "E": "Incorrect. The scenario describes an immune-mediated destruction of the newborn's red cells driven by maternal antibody, not an infectious process; no viral trigger is described or needed to explain the findings."
+      },
+      "main_concept": "CON-HEM-6C81E4B3EB30DE",
+      "concept_ids": ["CON-HEM-6C81E4B3EB30DE"],
+      "contextual_concept_ids": ["CON-IMM-64B2E67A0AAF07"],
+      "topic": "Immunology",
+      "subtopic": "Hypersensitivity reactions",
+      "difficulty": "Hard",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Classify erythroblastosis fetalis (Rh incompatibility) as a type II (cytotoxic) hypersensitivity reaction, distinguishing it from type I and type III mechanisms.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.46" },
+      "author_notes": ""
+    }
+  ]
+}
