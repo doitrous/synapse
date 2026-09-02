@@ -121,7 +121,7 @@ MANS-HIS-203 > Physiology > Blood > Plasma proteins
 ## question_only_for
 
 ## library_ids
-ART-102-PHY-ERYTHROPOIESIS
+ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID
 
 ## resource_ids
 src_c4ee1e63536c22ca52d4

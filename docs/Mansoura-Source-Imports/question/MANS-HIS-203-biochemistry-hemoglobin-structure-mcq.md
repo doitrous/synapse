@@ -653,7 +653,6 @@ CON-HEM-364A4A59515E8A
 CON-HEM-364A4A59515E8A
 
 ## contextual_concept_ids
-CON-HEM-22375197AEE80D
 
 ## difficulty
 Hard
