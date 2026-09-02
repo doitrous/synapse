@@ -260,6 +260,12 @@ eom-ug-final2-collection-q124
 eom-ug-final2-collection-q125
 eom-ug-final2-collection-q126
 eom-ug-final2-collection-q127
+# NOTE (recount): the Pharma block's printed numbering repeats "2" once (Q2
+# fenestride MOA and a distinct second "Q2" on parenteral testosterone
+# hepatotoxicity are both real, separate items), so this file actually holds
+# ~128 items, one more than the q001-q127 slots above account for. Added
+# below rather than renumbering the range and breaking already-authored keys.
+eom-ug-final2-collection-q128
 
 # assessment-1-mcq = MCQs - Urogenital Assessment 1 MCQ.pdf — only pp.1-6 of 12 sampled so
 # far (Anatomy 24, Pharma 10, Bio 14, Histo 14); pp.7-12 NOT yet triaged, do not author past q62
