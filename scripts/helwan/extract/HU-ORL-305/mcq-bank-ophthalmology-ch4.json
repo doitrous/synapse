@@ -1,0 +1,1289 @@
+{
+  "bank": "MCQs - Ophthalmology_question_bank_Dr_Ahmed_Kamal_3r_260612_153055.pdf",
+  "keyBank": "Ophthalmology - Answer Key . Dr. Kamal.pdf",
+  "sourceId": "src_c30b94e296cd15ba86c2",
+  "keySourceId": "src_da00e151bc67cfc81468",
+  "subject": "ophthalmology",
+  "note": "Full item extraction for Chapter 4 (Normal and abnormal image capture), items #1-91 of 91, all joined (bank pp.24-40 for the MCQs section; triage table shows 91/91 keyed, 0 unjoined). Every stem/option was read via pagetext.mjs show (bank pp.26-40) and cross-checked against a second, independent regex parse of the cached pdftotext -layout text of the answer key's Chapter 4 block (Q(\\d+) [A-E] pattern over p.2) -- 0 mismatches. Answer key read from the dedicated printed key file (p.2), a chapter-and-question-number-indexed table, not OCR'd (OCR was not needed -- both PDFs are native text, 0 garbled pages). Q43, Q48, Q49 are the bank's rare 5-option items (a-e).",
+  "count": 91,
+  "held": [],
+  "items": [
+    {
+      "num": 1,
+      "chapter": "Normal and abnormal image capture",
+      "page": 26,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A patient corrected with a minus 2 diopter cylinder axis 180 has:",
+      "options": {
+        "a": "Simple hypermetropic astigmatism",
+        "b": "Simple myopic astigmatism",
+        "c": "Compound myopic astigmatism",
+        "d": "Simple myopia"
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 2,
+      "chapter": "Normal and abnormal image capture",
+      "page": 26,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In keratoconus, all the following statements are true EXCEPT:",
+      "options": {
+        "a": "Munson sign is positive",
+        "b": "Corneal opacity may be seen",
+        "c": "Corneal topography is diagnostic",
+        "d": "Kayser Fleisher ring is present."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 3,
+      "chapter": "Normal and abnormal image capture",
+      "page": 26,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Early senile nuclear cataract is accompanied by:",
+      "options": {
+        "a": "Myopic shift of refraction.",
+        "b": "Hyperopic shift of refraction.",
+        "c": "Night blindness.",
+        "d": "Ocular pain."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 4,
+      "chapter": "Normal and abnormal image capture",
+      "page": 26,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Which refractive error is characteristic of keratoconus?",
+      "options": {
+        "a": "Regular astigmatism",
+        "b": "Hypermetropia",
+        "c": "Irregular astigmatism",
+        "d": "Emmetropia"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 5,
+      "chapter": "Normal and abnormal image capture",
+      "page": 27,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Hypermetropia means that the refractive system of the eye is:",
+      "options": {
+        "a": "Weaker than the emmetrope.",
+        "b": "Stronger than the emmetrope.",
+        "c": "The cornea is very steep.",
+        "d": "The eye has long axial length."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 6,
+      "chapter": "Normal and abnormal image capture",
+      "page": 27,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Presbyopia causes:",
+      "options": {
+        "a": "Difficulty in seeing far.",
+        "b": "Difficulty in reading.",
+        "c": "Unocular diplopia.",
+        "d": "Subluxation of crystalline lens."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 7,
+      "chapter": "Normal and abnormal image capture",
+      "page": 27,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The simplest treatment of astigmatism is:",
+      "options": {
+        "a": "Cycloplegia.",
+        "b": "Cylindrical lenses glass prescription.",
+        "c": "Laser surgery.",
+        "d": "Keratoplasty."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 8,
+      "chapter": "Normal and abnormal image capture",
+      "page": 27,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Keratoconus:",
+      "options": {
+        "a": "Can be diagnosed by ultrasound.",
+        "b": "Can cause astigmatism.",
+        "c": "Is best treated by eye drops.",
+        "d": "Is not a progressive disease."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 9,
+      "chapter": "Normal and abnormal image capture",
+      "page": 27,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Keratoplasty means:",
+      "options": {
+        "a": "Intra-ocular lens implantation.",
+        "b": "Transplantation of a cornea from eye bank.",
+        "c": "Excimer laser treatment of the cornea.",
+        "d": "Plastic surgery of the eyelids."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 10,
+      "chapter": "Normal and abnormal image capture",
+      "page": 27,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Mature intumescent cataract can be associated with:",
+      "options": {
+        "a": "Visual acuity better than 2/60.",
+        "b": "Secondary angle closure glaucoma.",
+        "c": "Good red reflex on retinoscopy.",
+        "d": "Can be treated medically."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 11,
+      "chapter": "Normal and abnormal image capture",
+      "page": 27,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The current treatment of cataract is:",
+      "options": {
+        "a": "Intracapsular cataract surgery with IOL implantation.",
+        "b": "Phacoemulsification without intraocular lens implantation.",
+        "c": "Phacoemulsification with intraocular lens implantation.",
+        "d": "Excimer laser corneal ablation."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 12,
+      "chapter": "Normal and abnormal image capture",
+      "page": 27,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A Subluxated lens whether clear or cataractous:",
+      "options": {
+        "a": "Is always unocular.",
+        "b": "Is never hereditary.",
+        "c": "Treatment is only conservative.",
+        "d": "It can be associated with other ocular or non-ocular manifestations."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 13,
+      "chapter": "Normal and abnormal image capture",
+      "page": 28,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Myopic eye focuses images (With complete relaxation of accommodation):",
+      "options": {
+        "a": "In front of the lens.",
+        "b": "In front of the retina.",
+        "c": "Behind the retina.",
+        "d": "Behind the cornea."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 14,
+      "chapter": "Normal and abnormal image capture",
+      "page": 28,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Hypermetropia can be corrected by:",
+      "options": {
+        "a": "A convex lens.",
+        "b": "A concave lens.",
+        "c": "A Sphero-cylindrical lens.",
+        "d": "A + 2 D lens for reading."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 15,
+      "chapter": "Normal and abnormal image capture",
+      "page": 28,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The current standard technique for cataract extraction in adults is:",
+      "options": {
+        "a": "LASIK.",
+        "b": "Extracapsular cataract extraction with hard PMMA intraocular lens (IOL).",
+        "c": "Removal of the lens matter by laser.",
+        "d": "Phacoemulsification with posterior chamber foldable IOL."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 16,
+      "chapter": "Normal and abnormal image capture",
+      "page": 28,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A superficial corneal opacity is best treated by:",
+      "options": {
+        "a": "LASIK.",
+        "b": "Iridectomy.",
+        "c": "Phacoemulsification.",
+        "d": "Lamellar keratoplasty."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 17,
+      "chapter": "Normal and abnormal image capture",
+      "page": 28,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Cataract typically presents as:",
+      "options": {
+        "a": "Rapid diminution of vision",
+        "b": "Visual field defect",
+        "c": "Slow progressive gradual diminution of vision.",
+        "d": "Limitation of ocular motility"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 18,
+      "chapter": "Normal and abnormal image capture",
+      "page": 28,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Different Types of keratoplasties include the following EXCEPT:",
+      "options": {
+        "a": "Penetrating keratoplasty PKP.",
+        "b": "Deep lamellar keratoplasty.",
+        "c": "Descemet's membrane endothelial keratoplasty.",
+        "d": "Application of intrastromal rings."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 19,
+      "chapter": "Normal and abnormal image capture",
+      "page": 28,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Opacity of the crystalline lens is known as:",
+      "options": {
+        "a": "Leucoma.",
+        "b": "Cataract.",
+        "c": "Ciliary staphyloma.",
+        "d": "Iris bombe."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 20,
+      "chapter": "Normal and abnormal image capture",
+      "page": 28,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A deep corneal opacity can be treated by:",
+      "options": {
+        "a": "LASIK.",
+        "b": "Penetrating keratoplasty.",
+        "c": "Iridectomy.",
+        "d": "Phacoemulsification."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 21,
+      "chapter": "Normal and abnormal image capture",
+      "page": 29,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Complications of high myopia include the following EXCEPT:",
+      "options": {
+        "a": "Retinal detachment.",
+        "b": "Macular hole.",
+        "c": "Corneal ulcer.",
+        "d": "Choroidal neovascular membrane."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 22,
+      "chapter": "Normal and abnormal image capture",
+      "page": 29,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regular astigmatism is characterized by:",
+      "options": {
+        "a": "The steep and flat axes are perpendicular.",
+        "b": "The transition between the steep and flat meridian is acute.",
+        "c": "Cannot be corrected by cylindrical lenses.",
+        "d": "Associates corneal opacities."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 23,
+      "chapter": "Normal and abnormal image capture",
+      "page": 29,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "One of the following surgeries is considered refractive surgery:",
+      "options": {
+        "a": "Trabeculectomy.",
+        "b": "Posterior capsulotomy.",
+        "c": "Laser in situ assisted keratomileusis (LASIK).",
+        "d": "Vitrectomy."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 24,
+      "chapter": "Normal and abnormal image capture",
+      "page": 29,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regarding keratoconus, choose the WRONG answer:",
+      "options": {
+        "a": "It is conical thinning and protrusion of the cornea.",
+        "b": "It causes progressively increasing myopia and myopic astigmatism.",
+        "c": "It can be diagnosed by corneal topography.",
+        "d": "It presents in old age."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 25,
+      "chapter": "Normal and abnormal image capture",
+      "page": 29,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Causes of vitreous hemorrhage include the following (EXCEPT):",
+      "options": {
+        "a": "Trauma.",
+        "b": "Posterior vitreous detachment causing retinal tear.",
+        "c": "Extracapsular cataract extraction.",
+        "d": "Ruptured neovascularization at the disc or elsewhere in retina in proliferative diabetic retinopathy."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 26,
+      "chapter": "Normal and abnormal image capture",
+      "page": 29,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regarding facts about Cataract:",
+      "options": {
+        "a": "Mature cataract alone can cause no perception of light.",
+        "b": "Intumescent cataract can cause 2ndary glaucoma.",
+        "c": "Complicated cataract can be caused by Astigmatism.",
+        "d": "Medical treatment is possible."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 27,
+      "chapter": "Normal and abnormal image capture",
+      "page": 29,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Symptoms of early senile nuclear cataract may include:",
+      "options": {
+        "a": "Pain and headache",
+        "b": "Improvement of near vision.",
+        "c": "Transient diminution of vision",
+        "d": "Floating opacities."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 28,
+      "chapter": "Normal and abnormal image capture",
+      "page": 30,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A thirty three year old man presented with total cataract in his left eye. The right eye is normal with 6/6 vision. The following may be the cause of the condition except:",
+      "options": {
+        "a": "Longstanding retinal detachment.",
+        "b": "Hypermetropia.",
+        "c": "Chronic iridocyclitis in left eye.",
+        "d": "Old trauma to the eye."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 29,
+      "chapter": "Normal and abnormal image capture",
+      "page": 30,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The commonest cause of cataract is:",
+      "options": {
+        "a": "Trauma.",
+        "b": "Diabetes.",
+        "c": "Hypo-parathyroidism.",
+        "d": "Old age."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 30,
+      "chapter": "Normal and abnormal image capture",
+      "page": 30,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Myopia is a condition which is:",
+      "options": {
+        "a": "Corrected with concave lens",
+        "b": "Corrected with convex lens",
+        "c": "Image formed behind the retina",
+        "d": "Eye ball is small"
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 31,
+      "chapter": "Normal and abnormal image capture",
+      "page": 30,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Band shaped keratopathy is commonly caused by deposition of:",
+      "options": {
+        "a": "Magnesium salt",
+        "b": "Calcium salt",
+        "c": "Ferrous salt",
+        "d": "Copper salt"
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 32,
+      "chapter": "Normal and abnormal image capture",
+      "page": 30,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Best option for management of anisometropia in unilateral aphakia:",
+      "options": {
+        "a": "Glasses",
+        "b": "IOL implantation",
+        "c": "Contact lens",
+        "d": "Radial keratotomy"
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 33,
+      "chapter": "Normal and abnormal image capture",
+      "page": 30,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Posterior dislocation of the lens is characterized by:",
+      "options": {
+        "a": "Loss of two Purkinje-Sanson image",
+        "b": "Uveitis may occur as complication",
+        "c": "Neovascular glaucoma is a frequent complication",
+        "d": "The ocular refraction shifts towards myopia."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 34,
+      "chapter": "Normal and abnormal image capture",
+      "page": 30,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Causes of visual impairment in keratoconus include all the following except:",
+      "options": {
+        "a": "Myopia",
+        "b": "Corneal opacity",
+        "c": "Hyperopia",
+        "d": "Irregular astigmatism"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 35,
+      "chapter": "Normal and abnormal image capture",
+      "page": 30,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Arcus senilis is characterized by:",
+      "options": {
+        "a": "It is formed of calcium deposits",
+        "b": "It starts in the temporal and nasal corneal periphery and spreads circumferentially",
+        "c": "It is formed of lipid deposits",
+        "d": "It becomes indistinguishable from the limbus by the age of 60"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 36,
+      "chapter": "Normal and abnormal image capture",
+      "page": 31,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Correction of unilateral aphakia with glasses will result in:",
+      "options": {
+        "a": "Astigmatism.",
+        "b": "Glaucoma.",
+        "c": "Hypermetropia.",
+        "d": "Anisokonia."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 37,
+      "chapter": "Normal and abnormal image capture",
+      "page": 31,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Astigmatism can be diagnosed with:",
+      "options": {
+        "a": "Placido disc.",
+        "b": "Corneal topography.",
+        "c": "Astigmatic fan.",
+        "d": "All of the above"
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 38,
+      "chapter": "Normal and abnormal image capture",
+      "page": 31,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Recession of the near point with ageing, making near vision uncomfortable, is termed:",
+      "options": {
+        "a": "Presbyopia.",
+        "b": "Asthenopia.",
+        "c": "Hyperopia.",
+        "d": "None of the above."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 39,
+      "chapter": "Normal and abnormal image capture",
+      "page": 31,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Disadvantages of contact lenses include:",
+      "options": {
+        "a": "Risk of infection",
+        "b": "Giant papillary conjunctivitis",
+        "c": "Traumatic corneal abrasions.",
+        "d": "All of the above"
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 40,
+      "chapter": "Normal and abnormal image capture",
+      "page": 31,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Loss of accommodation may be found in:",
+      "options": {
+        "a": "Third nerve palsy.",
+        "b": "Presbyopia",
+        "c": "Tropicamide eye drops instillation.",
+        "d": "All of the above."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 41,
+      "chapter": "Normal and abnormal image capture",
+      "page": 31,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Retinal changes in myopes include all of the following except:",
+      "options": {
+        "a": "Temporal crescent.",
+        "b": "Tigroid fundus.",
+        "c": "Lacquer cracks.",
+        "d": "Choroidal folds"
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 42,
+      "chapter": "Normal and abnormal image capture",
+      "page": 31,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Myopia can be corrected by:",
+      "options": {
+        "a": "Concave lenses",
+        "b": "Convex lenses",
+        "c": "Cylindrical lenses",
+        "d": "Spherocylindrical lenses"
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 43,
+      "chapter": "Normal and abnormal image capture",
+      "page": 31,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Keratoconus is diagnosed by:",
+      "options": {
+        "a": "Fluorescein test",
+        "b": "Auto-refractometer",
+        "c": "Ultrasonography",
+        "d": "Placido's disc",
+        "e": "Fluorescein angiography"
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 44,
+      "chapter": "Normal and abnormal image capture",
+      "page": 31,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Symptoms of early senile cataract include:",
+      "options": {
+        "a": "Pain and headache",
+        "b": "Unicolar diplopia",
+        "c": "Transient diminution of vision",
+        "d": "Floating opacities"
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 45,
+      "chapter": "Normal and abnormal image capture",
+      "page": 32,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "All the following are signs of keratoconus EXCEPT:",
+      "options": {
+        "a": "Vogt striae",
+        "b": "Munson sign",
+        "c": "Kayser Fleisher ring",
+        "d": "Oil droplet sign on direct ophthalmoscopy"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 46,
+      "chapter": "Normal and abnormal image capture",
+      "page": 32,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Diminution of vision in lens subluxation is caused by:",
+      "options": {
+        "a": "Myopia.",
+        "b": "Astigmatism.",
+        "c": "Complications.",
+        "d": "All of the above."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 47,
+      "chapter": "Normal and abnormal image capture",
+      "page": 32,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "On cycloplegic refraction, when one meridian is hyperopic and the other is myopic:",
+      "options": {
+        "a": "Simple astigmatism.",
+        "b": "Compound astigmatism.",
+        "c": "Mixed astigmatism.",
+        "d": "None of the above"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 48,
+      "chapter": "Normal and abnormal image capture",
+      "page": 32,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Complications of hypermetropia include:",
+      "options": {
+        "a": "Angle closure glaucoma",
+        "b": "Iridocyclitis",
+        "c": "Exotropia",
+        "d": "Choroidal neovascular membrane.",
+        "e": "Posterior staphyloma"
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 49,
+      "chapter": "Normal and abnormal image capture",
+      "page": 32,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Cylindrical lenses are prescribed for:",
+      "options": {
+        "a": "Myopia",
+        "b": "Hypermetropia",
+        "c": "Astigmatism",
+        "d": "Asthenopia",
+        "e": "Cataract"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 50,
+      "chapter": "Normal and abnormal image capture",
+      "page": 32,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 36-year-old female patient came to the ophthalmology clinic for her annual eye examination. She complained of headache, blurring of vision and strain of the eyes during close work. Vision was bilaterally 6/6 without correction. Examination revealed shallow anterior chamber with narrow angle.",
+      "options": {
+        "a": "The patient may be myopic.",
+        "b": "The patient may be hypermetropic.",
+        "c": "This eye is predisposed to angle closure glaucoma.",
+        "d": "Correction of this patient is with concave lens."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 51,
+      "chapter": "Normal and abnormal image capture",
+      "page": 33,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 7-year-old boy presented with eye strain especially after reading. His mother noticed convergent squint especially on holding his mobile. Examination using cycloplegic revealed +5.0 sphere refraction both eyes. Visual acuity both eyes was 6/6.",
+      "options": {
+        "a": "In this child parallel rays come to focus behind the retina if he does not accommodate.",
+        "b": "Divergent squint may occur.",
+        "c": "Treating the child with convex lens is essential.",
+        "d": "Eye strain may be due to accommodative asthenopia."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 52,
+      "chapter": "Normal and abnormal image capture",
+      "page": 33,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 14-year-old boy presented with difficulty seeing the board in classroom. A year before he got same symptoms and eyeglasses were prescribed but he did not use them. His father was wearing myopic glasses.",
+      "options": {
+        "a": "In this boy parallel rays come to focus behind the retina with no accommodation.",
+        "b": "In this boy parallel rays come to focus in front of the retina with no accommodation.",
+        "c": "Convex lenses are used for treatment.",
+        "d": "Sometimes this boy squeezes his eyes to get pin hole effect."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 53,
+      "chapter": "Normal and abnormal image capture",
+      "page": 33,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 22-year-old male came to ophthalmology clinic complaining of blurring of vision when looking at far objects although wearing his myopic glasses since he was 7 years old. He said that the power of his glasses is increasing every year. His old glasses were -12.0 diopters bilaterally.",
+      "options": {
+        "a": "Your provisional diagnosis is pathological or degenerative myopia.",
+        "b": "Short axial length of the globe is expected in this patient.",
+        "c": "Retinal complications may occur.",
+        "d": "Open angle glaucoma is easy to diagnose in high myopic eyes."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 54,
+      "chapter": "Normal and abnormal image capture",
+      "page": 33,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 25-year-old female came to the clinic complaining of defective blurry vision for distant and near work with eye strain, fatigue and headache. Refraction revealed unequal values in different axes. On examination the patient can see some signs and miss others in same line.",
+      "options": {
+        "a": "Corneal topography may be used in diagnosis.",
+        "b": "Retinoscopy and keratometry may be used in diagnosis.",
+        "c": "In regular astigmatism the steep and flat axes are not perpendicular to each other.",
+        "d": "Correction of this condition is by cylindrical lenses."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 55,
+      "chapter": "Normal and abnormal image capture",
+      "page": 34,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 45-year-old emmetropic female patient who never had to wear eyeglasses before, presented with inability to read small letters and blurred vision for near objects as sewing. Examination revealed vision for far is 6/6.",
+      "options": {
+        "a": "This condition is known as hypermetropia.",
+        "b": "This is due to weakness of the ability to accommodate.",
+        "c": "In this patient correction with concave lenses is advised.",
+        "d": "This condition is known as presbyopia."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 56,
+      "chapter": "Normal and abnormal image capture",
+      "page": 34,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 68-year-old male came to outpatient clinic complaining of blurred vision in right eye and inability to see clearly. History of cataract operation right eye and IOL implantation 2 days before. Examination revealed corneal edema (increase in corneal thickness and haziness). Left cornea was clear.",
+      "options": {
+        "a": "Corneal edema may be due to damage of endothelial cells of cornea.",
+        "b": "Corneal edema in this patient may be due to herpetic eye disease.",
+        "c": "Fuch's dystrophy is the cause of corneal edema in this patient.",
+        "d": "Pumping of ions and fluids out of the cornea is mostly done by epithelial cells."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 57,
+      "chapter": "Normal and abnormal image capture",
+      "page": 34,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 34-year-old female came to outpatient clinic complaining of decreased vision in left eye. The patient also complained of foreign body sensation and lacrimation of same eye. Examination revealed entropion and lashes rubbing against cornea and corneal opacity. The patient stated she got before several attacks of red eye.",
+      "options": {
+        "a": "Trachoma may lead to corneal opacities through repeated trauma.",
+        "b": "Disturbance of regular stromal collagen fibers is the cause of corneal opacity.",
+        "c": "Regular collagen fibers cause scattering of light rays.",
+        "d": "The cause of opacity in this patient is penetrating corneal trauma."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 58,
+      "chapter": "Normal and abnormal image capture",
+      "page": 34,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 62-year-old female patient presented complaining of a red, watery eye for the past two days with stitching pain and photophobia. Her vision has dropped to 6/24. She had history of diabetes for 10 years and was taking drops for dry eye but was otherwise healthy. Slit lamp examination revealed a corneal epithelial defect with positive fluorescein staining.",
+      "options": {
+        "a": "Diabetes may predispose to altering corneal epithelium and Bowman's membrane.",
+        "b": "Stem cells are important for epithelial regeneration.",
+        "c": "Chemical injuries never affect stem cells.",
+        "d": "Decrease vision in this patient is due to endothelial cell loss."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 59,
+      "chapter": "Normal and abnormal image capture",
+      "page": 35,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 52-year-old female patient came to outpatient clinic complaining of gradual diminution of vision both eyes specially left eye. She said that she had severe dry eye with burning sensation and was diagnosed pemphigoid. Corneal opacities were detected.",
+      "options": {
+        "a": "A normal tear film is essential for corneal transparency.",
+        "b": "Surface keratinization of cornea can occur in pemphigoid.",
+        "c": "Prolonged and severe dry eyes never cause corneal opacities.",
+        "d": "Decrease mucin layer of tears occurs in Sjogren's syndrome."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 60,
+      "chapter": "Normal and abnormal image capture",
+      "page": 35,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 30-year-old male patient came to ophthalmology clinic complaining of bilateral blurred vision. Examination revealed bilateral symmetrical corneal opacities. He stated that his father also had poor vision.",
+      "options": {
+        "a": "The cause of diminution of vision in this patient is deposition of red blood cells.",
+        "b": "The cause of diminution of vision is calcium deposition.",
+        "c": "Corneal dystrophies affect vision depending on the layer of cornea involved.",
+        "d": "Treatment of most corneal opacities is mainly surgical."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 61,
+      "chapter": "Normal and abnormal image capture",
+      "page": 35,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 19-year-old male was complaining of frequent changing his glasses, his refraction was -7.0 sphere -5.0 cylinder. Central corneal linear striae were seen at posterior corneal stroma. Scissoring of red reflex on retinoscopy was detected.",
+      "options": {
+        "a": "Soft contact lenses are the main line of treating this condition.",
+        "b": "The vertical striae are called Vogt striae.",
+        "c": "Vernal conjunctivitis is a common association.",
+        "d": "Down syndrome and Marfan syndrome are never an association."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 62,
+      "chapter": "Normal and abnormal image capture",
+      "page": 35,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 28-year-old male came to emergency room complaining of acute drop of vision in his left eye. Examination revealed left corneal edema and right eye shows Munson sign. The patient stated he was previously diagnosed as keratoconus.",
+      "options": {
+        "a": "Refractive corneal surgery is indicated.",
+        "b": "The cause of acute drop of vision is due to excess stretching of Descemet's membrane.",
+        "c": "Corneal collagen cross linking is used in treatment of keratoconus.",
+        "d": "Keratoplasty is never used in management of keratoconus."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 63,
+      "chapter": "Normal and abnormal image capture",
+      "page": 36,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 73-year-old female came complaining of glare and gradual painless decrease in vision of her right eye. She gave no history of systemic or local diseases in eye. Examination revealed clear cornea. The red reflex showed black sectors and vision of right eye was 5/60 and 6/18 left eye.",
+      "options": {
+        "a": "The patient may have immature senile cataract.",
+        "b": "Most common cause of cataract is congenital cataract.",
+        "c": "The patient may be diagnosed as mature cataract.",
+        "d": "Uveitis is the cause of decreased vision in this patient."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 64,
+      "chapter": "Normal and abnormal image capture",
+      "page": 36,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 78-year-old male patient came to ophthalmology clinic. The patient complaint was gradual painless progressive diminution of vision in his left eye for 2 years. The patient gave no history of local or systemic disease. Examination revealed vision was hand movement in left eye compared to 4/60 right eye. The left red reflex appeared white. The left capsule was glistening, and the anterior chamber was shallow.",
+      "options": {
+        "a": "The most probable diagnosis is left nuclear cataract.",
+        "b": "The most probable diagnosis is left intumescent cataract.",
+        "c": "The IOP intraocular pressure may become acutely elevated.",
+        "d": "Cataract surgery may be postponed for one year."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 65,
+      "chapter": "Normal and abnormal image capture",
+      "page": 36,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 45-year-old male was referred from dermatology clinic to ophthalmology clinic because of diminution of vision in both eyes. He was diagnosed as Behcet's disease and got recurrent attacks of iritis. Examination revealed iris pigments on anterior capsule of partially opaque lens. The pupil was festooned due to posterior synechia. Vision was hand movement in right eye and 3/60 in left eye.",
+      "options": {
+        "a": "Iritis may cause cataract.",
+        "b": "Prolonged topical use of steroids never causes cataract.",
+        "c": "Ultrasonography in this patient is essential.",
+        "d": "Light projection and discrimination of colors are of no value."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 66,
+      "chapter": "Normal and abnormal image capture",
+      "page": 36,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 19-year-old boy came to the ophthalmic clinic due to rapid drop of vision of his right eye after being hit by squash ball 2 weeks before. Examination revealed vision 2/60 in right eye and 6/6 in left eye. The lens was partially opaque. The globe was intact with no signs of rupture.",
+      "options": {
+        "a": "Blunt trauma never causes cataract.",
+        "b": "Fundus examination and ultrasound are essential.",
+        "c": "Medical treatment is the main line for treatment.",
+        "d": "Complete systematic eye examination is essential."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 67,
+      "chapter": "Normal and abnormal image capture",
+      "page": 37,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 17-year-old man came to causality complaining of seeing double picture (monocular diplopia) with his left eye and decreased vision. He gave a history of trauma with a tennis ball to his eye. Examination revealed irregular depth of anterior chamber. The edge of the lens is seen across the pupil.",
+      "options": {
+        "a": "Most probable diagnosis is posterior dislocation of lens.",
+        "b": "Most probable diagnosis is lens subluxation.",
+        "c": "Astigmatism may be present.",
+        "d": "This condition may also be found with Marfan syndrome."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 68,
+      "chapter": "Normal and abnormal image capture",
+      "page": 37,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In subluxation and dislocation of the lens the following is true EXCEPT:",
+      "options": {
+        "a": "In posterior dislocation the anterior chamber is shallow.",
+        "b": "In posterior dislocation there is loss of Purkinje-Sanson images.",
+        "c": "Subluxation and dislocation are complicated with cataract.",
+        "d": "Subluxation and dislocation may be complicated by uveitis and glaucoma."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 69,
+      "chapter": "Normal and abnormal image capture",
+      "page": 37,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Retinal changes in myopes include all the following EXCEPT:",
+      "options": {
+        "a": "Tigroid fundus.",
+        "b": "Choroidal folds.",
+        "c": "Chorioretinal degenerations.",
+        "d": "Posterior staphyloma."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 70,
+      "chapter": "Normal and abnormal image capture",
+      "page": 37,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In pathological myopia patient is susceptible to the following EXCEPT:",
+      "options": {
+        "a": "Retinal breaks.",
+        "b": "Retinal detachment.",
+        "c": "Foveal choroidal neovascular membrane.",
+        "d": "Cupping of the optic discs."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 71,
+      "chapter": "Normal and abnormal image capture",
+      "page": 37,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Loss of accommodation may be found in all EXCEPT:",
+      "options": {
+        "a": "Third nerve palsy.",
+        "b": "Presbyopia.",
+        "c": "Hypermetropia.",
+        "d": "Tropicamide eye drops (parasympatholytic mydriatic)."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 72,
+      "chapter": "Normal and abnormal image capture",
+      "page": 37,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The following are methods for correction of refractive errors EXCEPT:",
+      "options": {
+        "a": "Contact lenses.",
+        "b": "Telescopes.",
+        "c": "Spectacles.",
+        "d": "Refractive surgeries."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 73,
+      "chapter": "Normal and abnormal image capture",
+      "page": 38,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Significant difference in refractive error between the two eyes is:",
+      "options": {
+        "a": "Asthenopia.",
+        "b": "Ametropia.",
+        "c": "Anisometropia.",
+        "d": "Anisokonia."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 74,
+      "chapter": "Normal and abnormal image capture",
+      "page": 38,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In simple myopic astigmatism, the prescribed spectacles are:",
+      "options": {
+        "a": "Convex spherical lenses.",
+        "b": "Concave spherical lenses.",
+        "c": "Concave cylindrical lenses.",
+        "d": "Convex cylindrical lenses."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 75,
+      "chapter": "Normal and abnormal image capture",
+      "page": 38,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In hypermetropia:",
+      "options": {
+        "a": "Accommodation is relaxed.",
+        "b": "Corrected by concave lenses.",
+        "c": "Patient is predisposed to angle closure glaucoma.",
+        "d": "Exophoria is common."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 76,
+      "chapter": "Normal and abnormal image capture",
+      "page": 38,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In aphakia:",
+      "options": {
+        "a": "Accommodation is in excess.",
+        "b": "The expected refraction is myopia.",
+        "c": "Patients can see well for near.",
+        "d": "Parallel rays are focused behind the retina."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 77,
+      "chapter": "Normal and abnormal image capture",
+      "page": 38,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In accommodation:",
+      "options": {
+        "a": "The refractive power of the eye decreases.",
+        "b": "The ciliary muscle relaxes.",
+        "c": "The sympathetic tone increases.",
+        "d": "Decreases with age."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 78,
+      "chapter": "Normal and abnormal image capture",
+      "page": 38,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Emmetropia is state of refraction with relaxed accommodation:",
+      "options": {
+        "a": "Parallel rays are focused behind the retina.",
+        "b": "Parallel rays are focused on the retina.",
+        "c": "Parallel rays are focused before the retina.",
+        "d": "Parallel rays are multi-focused the retina."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 79,
+      "chapter": "Normal and abnormal image capture",
+      "page": 38,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "All the following are used in diagnosis of keratoconus EXCEPT:",
+      "options": {
+        "a": "Retinoscopy.",
+        "b": "Indirect ophthalmoscopy.",
+        "c": "Slit lamp.",
+        "d": "Corneal topography."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 80,
+      "chapter": "Normal and abnormal image capture",
+      "page": 39,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Corneal dehydration is a responsibility of:",
+      "options": {
+        "a": "Epithelium.",
+        "b": "Stroma.",
+        "c": "Endothelium.",
+        "d": "Bowman's membrane."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 81,
+      "chapter": "Normal and abnormal image capture",
+      "page": 39,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In keratoconus:",
+      "options": {
+        "a": "Progressive disease in old age.",
+        "b": "Munson sign on down gaze.",
+        "c": "Expected refraction is hypermetropia.",
+        "d": "Associated with Haab's striae of the cornea."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 82,
+      "chapter": "Normal and abnormal image capture",
+      "page": 39,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Keratoconus:",
+      "options": {
+        "a": "Usually unilateral.",
+        "b": "Progressive disease in old age.",
+        "c": "With flat cornea on keratometry.",
+        "d": "Acute hydrops may occur."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 83,
+      "chapter": "Normal and abnormal image capture",
+      "page": 39,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "One of the clinical signs that is characteristic to keratoconus is:",
+      "options": {
+        "a": "Haab's striae.",
+        "b": "Vogt striae.",
+        "c": "Corneal double stain.",
+        "d": "Herbert's pits."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 84,
+      "chapter": "Normal and abnormal image capture",
+      "page": 39,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The most expected refraction in a case of keratoconus is:",
+      "options": {
+        "a": "High hypermetropia.",
+        "b": "High myopia.",
+        "c": "Against the rule astigmatism.",
+        "d": "Myopic astigmatism."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 85,
+      "chapter": "Normal and abnormal image capture",
+      "page": 39,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "In posterior dislocation, the pupil is:",
+      "options": {
+        "a": "Jet black pupil.",
+        "b": "Peaked.",
+        "c": "Festooned.",
+        "d": "Irregular."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 86,
+      "chapter": "Normal and abnormal image capture",
+      "page": 40,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Severe lens subluxation may cause:",
+      "options": {
+        "a": "Binocular diplopia.",
+        "b": "Monocular diplopia.",
+        "c": "Myopia.",
+        "d": "Anisokonia."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 87,
+      "chapter": "Normal and abnormal image capture",
+      "page": 40,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Commonest causes of vitreous hemorrhage are the following EXCEPT:",
+      "options": {
+        "a": "Diabetic retinopathy.",
+        "b": "Trauma.",
+        "c": "Uveitis.",
+        "d": "Posterior vitreous detachment causing retinal tear."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 88,
+      "chapter": "Normal and abnormal image capture",
+      "page": 40,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Complications of anterior lens dislocation include the following EXCEPT:",
+      "options": {
+        "a": "Corneal perforation.",
+        "b": "Glaucoma.",
+        "c": "Iridocyclitis.",
+        "d": "Cataract."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 89,
+      "chapter": "Normal and abnormal image capture",
+      "page": 40,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Lens subluxation:",
+      "options": {
+        "a": "Patient may complain of binocular diplopia.",
+        "b": "There is loss of Purkinje-Sanson images.",
+        "c": "Surgery is the only treatment.",
+        "d": "Astigmatism is always present."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 90,
+      "chapter": "Normal and abnormal image capture",
+      "page": 40,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Subluxated lens is found in all the following EXCEPT:",
+      "options": {
+        "a": "Marfan syndrome.",
+        "b": "Homocystinuria.",
+        "c": "Trauma.",
+        "d": "Behcet's disease."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 91,
+      "chapter": "Normal and abnormal image capture",
+      "page": 40,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The following test is done to determine visual prognosis after surgery:",
+      "options": {
+        "a": "Projection of light.",
+        "b": "Fluorescein angiography.",
+        "c": "Field of vision.",
+        "d": "Corneal topography."
+      },
+      "recovered_key": "A"
+    }
+  ]
+}
