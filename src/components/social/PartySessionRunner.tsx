@@ -209,7 +209,7 @@ export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; o
   /* ---- Scheduled ------------------------------------------------------- */
   if (session.state === 'scheduled') {
     return (
-      <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
+      <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
         <Panel>
           <PanelHeader title={session.name} icon={Hash} action={<Badge tone="primary">{t('Not started yet')}</Badge>} />
           <div className="p-5">
@@ -237,7 +237,7 @@ export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; o
   if (session.state === 'closed' || allDone) {
     const mine = tallyOf(session.myAnswers)
     return (
-      <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
+      <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
         <Panel>
           <PanelHeader title={t('Your result')} icon={Trophy} hint={session.name} />
           <div className="p-6 text-center">
@@ -330,7 +330,7 @@ export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; o
       )
     }
     return (
-      <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
+      <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
         <Panel>
           <PanelHeader title={session.name} icon={Hash} hint={`${answeredCount + 1} / ${session.itemRefs.length}`} />
           <div className="p-5">
@@ -376,7 +376,7 @@ export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; o
     const surface = data ? PRACTICAL_SURFACE[data.format] : 'station'
     const conceptIds = data ? [...data.conceptTags.mainConceptIds, ...data.conceptTags.conceptIds] : []
     return (
-      <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
+      <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
         <Panel>
           <PanelHeader title={session.name} icon={Hash} hint={`${answeredCount + 1} / ${session.itemRefs.length}`} />
           <div className="p-5">
@@ -418,7 +418,7 @@ export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; o
     )
   }
   return (
-    <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
+    <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
       <Panel>
         <PanelHeader title={session.name} icon={Hash} hint={`${answeredCount + 1} / ${session.itemRefs.length}`} />
         <div className="p-5">

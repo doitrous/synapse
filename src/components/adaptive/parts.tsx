@@ -14,6 +14,7 @@ import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Panel } from '@/components/ui/Panel'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 import { CONCEPT_STATUS_LABEL, type ConceptStatus } from '@/data/adaptive/masteryModel'
 import { STATUS_EXPLANATION } from '@/data/adaptive/explain'
 
@@ -35,12 +36,13 @@ const STATUS_TONE: Record<ConceptStatus, 'neutral' | 'primary' | 'success' | 'wa
 }
 
 export function StatusBadge({ status }: { status: ConceptStatus }) {
+  const t = useT()
   // The explanation sits on a wrapper rather than the badge: `Badge` is a
   // presentational primitive with a closed prop list, and widening it for one
   // caller's tooltip is how a design-system component starts drifting.
   return (
-    <span title={STATUS_EXPLANATION[status]} className="inline-flex">
-      <Badge tone={STATUS_TONE[status]} dot>{CONCEPT_STATUS_LABEL[status]}</Badge>
+    <span title={t(STATUS_EXPLANATION[status])} className="inline-flex">
+      <Badge tone={STATUS_TONE[status]} dot>{t(CONCEPT_STATUS_LABEL[status])}</Badge>
     </span>
   )
 }
@@ -75,9 +77,13 @@ export function RangeBar({
   marker?: number
   className?: string
 }) {
+  const t = useT()
   const left = Math.max(0, Math.min(100, lower * 100))
   const width = Math.max(1.5, Math.min(100 - left, (upper - lower) * 100))
   const fill = { primary: 'bg-primary', success: 'bg-success', warning: 'bg-warning', danger: 'bg-danger' }[tone]
+  const ariaLabel = t('Between {lower} and {upper} percent')
+    .replace('{lower}', String(Math.round(lower * 100)))
+    .replace('{upper}', String(Math.round(upper * 100)))
 
   return (
     <div
@@ -86,7 +92,7 @@ export function RangeBar({
       aria-valuenow={Math.round(((lower + upper) / 2) * 100)}
       aria-valuemin={0}
       aria-valuemax={100}
-      aria-label={`Between ${Math.round(lower * 100)} and ${Math.round(upper * 100)} percent`}
+      aria-label={ariaLabel}
     >
       {/* Quartile ticks make it read as a calibrated scale rather than a bar. */}
       {[25, 50, 75].map((tick) => (
@@ -123,6 +129,7 @@ export function Figure({
   unavailable?: boolean
   unavailableNote?: string
 }) {
+  const t = useT()
   return (
     <Panel className="p-4">
       <div className="flex items-center justify-between gap-2">
@@ -131,7 +138,7 @@ export function Figure({
       </div>
       {unavailable ? (
         <>
-          <p className="mt-2 font-serif text-[19px] font-semibold leading-none text-ink-3">Not yet</p>
+          <p className="mt-2 font-serif text-[19px] font-semibold leading-none text-ink-3">{t('Not yet')}</p>
           {unavailableNote && <p className="mt-2 text-[11.5px] leading-relaxed text-ink-3">{unavailableNote}</p>}
         </>
       ) : (

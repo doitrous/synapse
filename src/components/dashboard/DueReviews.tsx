@@ -29,7 +29,7 @@ function accuracyTone(pct: number): 'danger' | 'warning' | 'success' {
 
 function DueBadge({ dueInDays }: { dueInDays: number }) {
   const t = useT()
-  if (dueInDays < 0) return <Badge tone="danger">{t('Overdue')} {Math.abs(dueInDays)}{t('d')}</Badge>
+  if (dueInDays < 0) return <Badge tone="danger">{t('Overdue {count}d').replace('{count}', String(Math.abs(dueInDays)))}</Badge>
   return <Badge tone="warning">{t('Due today')}</Badge>
 }
 

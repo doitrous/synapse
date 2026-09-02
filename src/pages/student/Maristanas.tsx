@@ -38,6 +38,7 @@ function duration(minutes: number): string {
 /** ArrowLeft to the previous screen, falling back to the dashboard when this
  * is the first entry in the tab's history (a fresh tab, a bookmark, a deep link). */
 function BackButton() {
+  const t = useT()
   const navigate = useNavigate()
   const handleBack = useCallback(() => {
     const historyIndex = (window.history.state as { idx?: number } | null)?.idx
@@ -48,23 +49,24 @@ function BackButton() {
     <button
       type="button"
       onClick={handleBack}
-      className="mb-3 inline-flex min-h-9 items-center gap-1.5 rounded-md px-2 -ms-2 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+      className="mb-3 inline-flex min-h-11 items-center gap-1.5 rounded-md px-2 -ms-2 sm:min-h-9 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
     >
       <Icon icon={ArrowLeft} size={15} className="rtl:-scale-x-100" />
-      Back
+      {t('Back')}
     </button>
   )
 }
 
 function ProgressSteps({ stage }: { stage: number }) {
+  const t = useT()
   return (
-    <ol className="grid grid-cols-[repeat(25,minmax(0,1fr))] gap-1" aria-label={`${stage} of ${MARISTANA_STEPS} construction steps complete`}>
+    <ol className="grid grid-cols-[repeat(25,minmax(0,1fr))] gap-1" aria-label={t('{done} of {total} construction steps complete').replace('{done}', String(stage)).replace('{total}', String(MARISTANA_STEPS))}>
       {Array.from({ length: MARISTANA_STEPS }, (_, index) => {
         const number = index + 1
         return (
           <li
             key={number}
-            title={`Step ${number}${number <= stage ? ' complete' : ''}`}
+            title={number <= stage ? t('Step {n} complete').replace('{n}', String(number)) : t('Step {n}').replace('{n}', String(number))}
             className={cn(
               'h-2 min-w-0 rounded-[2px]',
               number <= stage ? 'bg-primary' : number === stage + 1 ? 'bg-primary-soft/55' : 'bg-inset',
@@ -77,14 +79,17 @@ function ProgressSteps({ stage }: { stage: number }) {
 }
 
 function BuildLedger({ hospital, creditsPerStep }: { hospital: MaristanaHospital; creditsPerStep: number }) {
+  const t = useT()
   const step = Math.min(MARISTANA_STEPS, hospital.stage + (hospital.completed ? 0 : 1))
   return (
     <div className="rounded-xl border border-line bg-surface p-4 shadow-panel sm:p-5">
       <div className="flex items-start justify-between gap-4">
         <div>
-          <p className="text-[10.5px] font-bold uppercase tracking-[0.085em] text-primary-strong">Current build</p>
+          <p className="text-[10.5px] font-bold uppercase tracking-[0.085em] text-primary-strong">{t('Current build')}</p>
           <p className="mt-1 font-serif text-[22px] font-semibold tracking-[-0.02em] text-ink">
-            {hospital.completed ? 'Hospital complete' : `Step ${step} of ${MARISTANA_STEPS}`}
+            {hospital.completed
+              ? t('Hospital complete')
+              : t('Step {n} of {total}').replace('{n}', String(step)).replace('{total}', String(MARISTANA_STEPS))}
           </p>
         </div>
         <span className={cn(
@@ -97,19 +102,19 @@ function BuildLedger({ hospital, creditsPerStep }: { hospital: MaristanaHospital
       <div className="mt-5">
         <ProgressSteps stage={hospital.stage} />
         <div className="mt-2 flex items-center justify-between text-[11px] text-ink-3">
-          <span>Foundation</span><span>Courtyard</span><span>Complete</span>
+          <span>{t('Foundation')}</span><span>{t('Courtyard')}</span><span>{t('Complete')}</span>
         </div>
       </div>
       {!hospital.completed && (
         <div className="mt-5 rounded-lg bg-surface-2/60 p-3.5">
           <div className="flex items-center justify-between gap-3 text-[12px]">
-            <span className="font-medium text-ink-2">To place the next part</span>
-            <span className="tnum font-mono font-semibold text-ink">{credit(hospital.creditsToNextStep)} credits</span>
+            <span className="font-medium text-ink-2">{t('To place the next part')}</span>
+            <span className="tnum font-mono font-semibold text-ink">{credit(hospital.creditsToNextStep)} {t('credits')}</span>
           </div>
           <div className="mt-2.5 h-1.5 overflow-hidden rounded-full bg-inset">
             <div className="h-full rounded-full bg-primary transition-[width] duration-500 ease-[var(--ease-out-quint)] motion-reduce:transition-none" style={{ width: `${hospital.stepProgress * 100}%` }} />
           </div>
-          <p className="mt-2 text-[10.5px] text-ink-3">Each part requires {credit(creditsPerStep)} construction credits.</p>
+          <p className="mt-2 text-[10.5px] text-ink-3">{t('Each part requires {n} construction credits.').replace('{n}', credit(creditsPerStep))}</p>
         </div>
       )}
     </div>
@@ -117,6 +122,7 @@ function BuildLedger({ hospital, creditsPerStep }: { hospital: MaristanaHospital
 }
 
 function RenameHospital({ hospital, onSave }: { hospital: MaristanaHospital; onSave: (name: string) => Promise<void> }) {
+  const t = useT()
   const [editing, setEditing] = useState(false)
   const [name, setName] = useState(hospital.name)
   const [saving, setSaving] = useState(false)
@@ -141,14 +147,15 @@ function RenameHospital({ hospital, onSave }: { hospital: MaristanaHospital; onS
 
   return (
     <form className="flex max-w-lg items-center gap-2" onSubmit={(event) => { event.preventDefault(); void save() }}>
-      <TextInput value={name} maxLength={80} onChange={(event) => setName(event.target.value)} autoFocus aria-label="Hospital name" className="font-serif text-[17px] font-semibold" />
-      <Button type="submit" variant="primary" loading={saving}>Save</Button>
-      <Button type="button" variant="ghost" onClick={() => { setName(hospital.name); setEditing(false) }}>Cancel</Button>
+      <TextInput value={name} maxLength={80} onChange={(event) => setName(event.target.value)} autoFocus aria-label={t('Hospital name')} className="font-serif text-[17px] font-semibold" />
+      <Button type="submit" variant="primary" loading={saving}>{t('Save')}</Button>
+      <Button type="button" variant="ghost" onClick={() => { setName(hospital.name); setEditing(false) }}>{t('Cancel')}</Button>
     </form>
   )
 }
 
 function HospitalCard({ hospital, selected, onSelect }: { hospital: MaristanaHospital; selected: boolean; onSelect: () => void }) {
+  const t = useT()
   return (
     <button
       type="button"
@@ -165,7 +172,7 @@ function HospitalCard({ hospital, selected, onSelect }: { hospital: MaristanaHos
           <p className="truncate text-[13px] font-semibold text-ink">{hospital.name}</p>
           {hospital.completed && <Icon icon={Check} size={14} className="shrink-0 text-success" />}
         </div>
-        <p className="mt-1 font-mono text-[10.5px] text-ink-3">{hospital.completed ? 'Built · 25/25' : `${hospital.stage}/25 parts placed`}</p>
+        <p className="mt-1 font-mono text-[10.5px] text-ink-3">{hospital.completed ? t('Built · 25/25') : t('{n}/25 parts placed').replace('{n}', String(hospital.stage))}</p>
       </div>
     </button>
   )
@@ -216,7 +223,7 @@ export function Maristanas() {
 
   if (loading && !data) {
     return (
-      <PageContainer className="space-y-4" aria-label="Loading Build Maristanas">
+      <PageContainer className="space-y-4" aria-label={t('Loading Build Maristanas')}>
         <div className="h-20 animate-pulse rounded-xl bg-inset motion-reduce:animate-none" />
         <div className="grid gap-4 lg:grid-cols-[1.6fr_0.8fr]"><div className="h-[520px] animate-pulse rounded-xl bg-inset motion-reduce:animate-none" /><div className="h-[520px] animate-pulse rounded-xl bg-inset motion-reduce:animate-none" /></div>
       </PageContainer>
@@ -224,11 +231,11 @@ export function Maristanas() {
   }
 
   if (error || !data || !selected) {
-    return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title="Construction ledger unavailable" description="Your progress could not be loaded. No construction credit has been changed." action={<Button onClick={() => void refresh()}>Try again</Button>} /></Panel></PageContainer>
+    return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title={t('Construction ledger unavailable')} description={t('Your progress could not be loaded. No construction credit has been changed.')} action={<Button onClick={() => void refresh()}>{t('Try again')}</Button>} /></Panel></PageContainer>
   }
 
   if (!data.enabled) {
-    return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title="Build Maristanas is resting" description="Your administrators have temporarily paused the construction experience. Your learning evidence is still safe." /></Panel></PageContainer>
+    return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title={t('Build Maristanas is resting')} description={t('Your administrators have temporarily paused the construction experience. Your learning evidence is still safe.')} /></Panel></PageContainer>
   }
 
   const accuracy = data.questionsAnswered ? Math.round((data.correctAnswers / data.questionsAnswered) * 100) : null
@@ -243,16 +250,16 @@ export function Maristanas() {
         <div className="max-w-2xl">
           <div className="flex items-center gap-2 text-primary-strong">
             <Icon icon={Hammer} size={15} />
-            <p className="text-[10.5px] font-bold uppercase tracking-[0.09em]">Build Maristanas</p>
+            <p className="text-[10.5px] font-bold uppercase tracking-[0.09em]">{t('Build Maristanas')}</p>
           </div>
-          <h1 className="mt-2 text-balance font-serif text-[30px] font-semibold leading-tight tracking-[-0.03em] text-ink sm:text-[39px]">Knowledge becomes a place of healing.</h1>
-          <p className="mt-2 max-w-xl text-[13.5px] leading-relaxed text-ink-2">Focused study and scored performance place every part. Build carefully; every hospital is a record of work you actually completed.</p>
+          <h1 className="mt-2 text-balance font-serif text-[30px] font-semibold leading-tight tracking-[-0.03em] text-ink sm:text-[39px]">{t('Knowledge becomes a place of healing.')}</h1>
+          <p className="mt-2 max-w-xl text-[13.5px] leading-relaxed text-ink-2">{t('Focused study and scored performance place every part. Build carefully; every hospital is a record of work you actually completed.')}</p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
-          <Button variant="secondary" iconLeft={CircleHelp} onClick={() => setHowItWorksOpen(true)} className="active:scale-[0.96]">How it works</Button>
+          <Button variant="secondary" iconLeft={CircleHelp} onClick={() => setHowItWorksOpen(true)} className="active:scale-[0.96]">{t('How it works')}</Button>
           <div className="flex items-center gap-3 rounded-lg border border-line bg-surface px-3.5 py-2.5 shadow-panel">
             <span className="grid size-9 place-items-center rounded-md bg-primary-tint text-primary-strong"><Icon icon={Trophy} size={17} /></span>
-            <div><p className="tnum font-mono text-[17px] font-semibold leading-none text-ink">{data.completedHospitals}</p><p className="mt-1 text-[10.5px] text-ink-3">hospitals completed</p></div>
+            <div><p className="tnum font-mono text-[17px] font-semibold leading-none text-ink">{data.completedHospitals}</p><p className="mt-1 text-[10.5px] text-ink-3">{t('hospitals completed')}</p></div>
           </div>
         </div>
       </header>
@@ -262,10 +269,10 @@ export function Maristanas() {
           <div className="flex min-h-[76px] items-center justify-between gap-4 border-b border-line px-4 py-3 sm:px-5">
             <div className="min-w-0">
               <RenameHospital hospital={selected} onSave={(name) => rename(selected.slot, name)} />
-              <p className="mt-0.5 text-[11.5px] text-ink-3">Hospital {String(selected.slot).padStart(2, '0')} · {selected.completed ? 'Ready to serve' : 'Construction in progress'}</p>
+              <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Hospital')} {String(selected.slot).padStart(2, '0')} · {selected.completed ? t('Ready to serve') : t('Construction in progress')}</p>
             </div>
             <span className={cn('hidden rounded-md border px-2.5 py-1.5 text-[11px] font-semibold sm:inline-flex', selected.completed ? 'border-success/25 bg-success-tint text-success' : 'border-primary-line bg-primary-tint text-primary-strong')}>
-              {selected.completed ? 'Complete' : `${selected.stage} of 25`}
+              {selected.completed ? t('Complete') : t('{n} of 25').replace('{n}', String(selected.stage))}
             </span>
           </div>
           <MaristanaModel stage={selected.stage} name={selected.name} />
@@ -278,19 +285,19 @@ export function Maristanas() {
             <Panel className="p-4">
               <div className="flex items-start gap-3">
                 <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Clock3} size={17} /></span>
-                <div className="min-w-0 flex-1"><p className="text-[12.5px] font-semibold text-ink">This week</p><p className="mt-1 text-[11.5px] leading-relaxed text-ink-2">{duration(data.thisWeek.studyMinutes)} active study · {data.thisWeek.questionsAnswered} questions</p><p className="tnum mt-2 font-mono text-[17px] font-semibold text-primary-strong">+{credit(data.thisWeek.credits)} credits</p></div>
+                <div className="min-w-0 flex-1"><p className="text-[12.5px] font-semibold text-ink">{t('This week')}</p><p className="mt-1 text-[11.5px] leading-relaxed text-ink-2">{duration(data.thisWeek.studyMinutes)} {t('active study')} · {data.thisWeek.questionsAnswered} {t('questions')}</p><p className="tnum mt-2 font-mono text-[17px] font-semibold text-primary-strong">+{credit(data.thisWeek.credits)} {t('credits')}</p></div>
               </div>
             </Panel>
           </div>
 
           <Panel>
-            <PanelHeader title="Construction ledger" icon={BookOpenCheck} hint={`${credit(data.totalCredits)} total`} />
+            <PanelHeader title={t('Construction ledger')} icon={BookOpenCheck} hint={`${credit(data.totalCredits)} ${t('total')}`} />
             <div className="divide-y divide-line">
               {[
-                [Clock3, 'Focused study', `${duration(data.studyMinutes)} recorded`, data.breakdown.study],
-                [ListChecks, 'Questions answered', `${data.questionsAnswered.toLocaleString()} attempts`, data.breakdown.questions],
-                [Award, 'Correct-answer credit', accuracy == null ? 'No marked answers yet' : `${accuracy}% accuracy`, data.breakdown.accuracy],
-                [Sparkles, 'Assessment scores', data.averageAssessmentScore == null ? 'No assessment session yet' : `${data.assessmentSessions} sessions · ${data.averageAssessmentScore}% avg`, data.breakdown.assessments],
+                [Clock3, t('Focused study'), `${duration(data.studyMinutes)} ${t('recorded')}`, data.breakdown.study],
+                [ListChecks, t('Questions answered'), `${data.questionsAnswered.toLocaleString()} ${t('attempts')}`, data.breakdown.questions],
+                [Award, t('Correct-answer credit'), accuracy == null ? t('No marked answers yet') : t('{n}% accuracy').replace('{n}', String(accuracy)), data.breakdown.accuracy],
+                [Sparkles, t('Assessment scores'), data.averageAssessmentScore == null ? t('No assessment session yet') : t('{sessions} sessions · {score}% avg').replace('{sessions}', String(data.assessmentSessions)).replace('{score}', String(data.averageAssessmentScore)), data.breakdown.assessments],
               ].map(([Glyph, label, detail, value]) => (
                 <div key={String(label)} className="flex items-center gap-3 px-4 py-3.5">
                   <span className="grid size-8 shrink-0 place-items-center rounded-md bg-surface-2 text-ink-2"><Icon icon={Glyph as typeof Clock3} size={15} /></span>
@@ -307,8 +314,8 @@ export function Maristanas() {
 
       <section className="mt-6" aria-labelledby="collection-title">
         <div className="mb-3 flex items-end justify-between gap-4">
-          <div><p className="text-[10.5px] font-bold uppercase tracking-[0.085em] text-ink-3">Your collection</p><h2 id="collection-title" className="mt-1 font-serif text-[22px] font-semibold tracking-[-0.02em] text-ink">The healing quarter</h2></div>
-          <p className="hidden text-[11.5px] text-ink-3 sm:block">Select a hospital to inspect or rename it.</p>
+          <div><p className="text-[10.5px] font-bold uppercase tracking-[0.085em] text-ink-3">{t('Your collection')}</p><h2 id="collection-title" className="mt-1 font-serif text-[22px] font-semibold tracking-[-0.02em] text-ink">{t('The healing quarter')}</h2></div>
+          <p className="hidden text-[11.5px] text-ink-3 sm:block">{t('Select a hospital to inspect or rename it.')}</p>
         </div>
         <div className="-mx-3 flex snap-x gap-3 overflow-x-auto px-3 pb-2 sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 lg:grid-cols-4">
           {data.hospitals.map((hospital) => <HospitalCard key={hospital.slot} hospital={hospital} selected={hospital.slot === selected.slot} onSelect={() => setSelectedSlot(hospital.slot)} />)}
@@ -317,7 +324,7 @@ export function Maristanas() {
 
       <div className="mt-6 grid gap-4 lg:grid-cols-[1.15fr_0.85fr]">
         <Panel>
-          <PanelHeader title="Recent construction credit" icon={Hammer} hint="Every credit has a source" />
+          <PanelHeader title={t('Recent construction credit')} icon={Hammer} hint={t('Every credit has a source')} />
           {data.recentActivity.length ? (
             <ol className="divide-y divide-line">
               {data.recentActivity.map((activity) => (
@@ -328,14 +335,14 @@ export function Maristanas() {
                 </li>
               ))}
             </ol>
-          ) : <div className="p-8"><EmptyState icon={Hammer} title="The site is ready" description="Open a study surface or answer scored questions to place the first part." /></div>}
+          ) : <div className="p-8"><EmptyState icon={Hammer} title={t('The site is ready')} description={t('Open a study surface or answer scored questions to place the first part.')} /></div>}
         </Panel>
 
         <Panel className="overflow-hidden">
           <div className="grid-chart-major p-5 sm:p-6">
             <span className="grid size-10 place-items-center rounded-lg border border-line bg-surface text-primary-strong shadow-panel"><Icon icon={Building2} size={19} /></span>
-            <h2 className="mt-5 font-serif text-[23px] font-semibold tracking-[-0.02em] text-ink">Build the next part</h2>
-            <p className="mt-2 max-w-md text-[12.5px] leading-relaxed text-ink-2">Study pages count while you are actively using them. Scored questions add credit for the attempt and a larger credit when correct; assessment-length sessions also add their final score.</p>
+            <h2 className="mt-5 font-serif text-[23px] font-semibold tracking-[-0.02em] text-ink">{t('Build the next part')}</h2>
+            <p className="mt-2 max-w-md text-[12.5px] leading-relaxed text-ink-2">{t('Study pages count while you are actively using them. Scored questions add credit for the attempt and a larger credit when correct; assessment-length sessions also add their final score.')}</p>
             <div className="mt-5 flex flex-wrap gap-2">
               <ButtonLink to="/app/adaptive" variant="primary" iconRight={ArrowRight}>{t('Continue studying')}</ButtonLink>
               <ButtonLink to="/app/qbank" variant="secondary" iconRight={ArrowRight}>{t('Open Question Bank')}</ButtonLink>

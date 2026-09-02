@@ -1,4 +1,4 @@
-import { getSubject } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { cn } from '@/lib/cn'
 
@@ -12,11 +12,11 @@ export function SubjectDot({ id, className }: { id: string; className?: string }
 }
 
 export function SubjectTag({ id, className }: { id: string; className?: string }) {
-  const s = getSubject(id)
+  const subjectName = useSubjectName()
   return (
     <span className={cn('inline-flex items-center gap-1.5 text-[12px] font-medium text-ink-2', className)}>
       <SystemMark subjectId={id} size="sm" />
-      {s.name}
+      {subjectName(id)}
     </span>
   )
 }

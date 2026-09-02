@@ -40,11 +40,13 @@ import {
 import type { Confidence } from '@/data/adaptive/evidenceLedger'
 import { useAnswerDistribution } from '@/lib/useAnswerDistribution'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 
 const SIZES = [20, 25, 30, 35, 40]
 
 /** What the block will contain, built from the same plan the builder will use. */
 function AllocationPreview({ study, size }: { study: AdaptiveStudy; size: number }) {
+  const t = useT()
   const plan = useMemo(
     () => planAllocation(size, study.shares, study.debt, study.config),
     [size, study.shares, study.debt, study.config],
@@ -55,17 +57,19 @@ function AllocationPreview({ study, size }: { study: AdaptiveStudy; size: number
       {ALLOCATION_NEEDS.map((need) => (
         <ShareRow
           key={need}
-          label={NEED_LABEL[need]}
+          label={t(NEED_LABEL[need])}
           value={plan.targets[need]}
           max={size}
-          right={`${plan.targets[need]} of ${size}`}
+          right={`${plan.targets[need]} ${t('of')} ${size}`}
           tone={need === 'weakness' ? 'primary' : 'neutral'}
         />
       ))}
       {plan.debtRepaid > 0 && (
         <Caveat>
-          <span className="tnum font-mono">{plan.debtRepaid}</span> extra slot
-          {plan.debtRepaid === 1 ? ' is' : 's are'} going to blueprint coverage to repay a shortfall from earlier blocks.
+          <span className="tnum font-mono">{plan.debtRepaid}</span>{' '}
+          {plan.debtRepaid === 1
+            ? t('extra slot is going to blueprint coverage to repay a shortfall from earlier blocks.')
+            : t('extra slots are going to blueprint coverage to repay a shortfall from earlier blocks.')}
         </Caveat>
       )}
     </div>
@@ -73,11 +77,15 @@ function AllocationPreview({ study, size }: { study: AdaptiveStudy; size: number
 }
 
 /** Reduce a freshly built block to what the session needs to keep. */
-function storeDiagnostics(block: AdaptiveBlock, config: AdaptiveStudy['config']): StoredDiagnostics {
+function storeDiagnostics(
+  block: AdaptiveBlock,
+  config: AdaptiveStudy['config'],
+  t: (en: string) => string,
+): StoredDiagnostics {
   return {
     reasons: Object.fromEntries(block.slots.map((slot) => [slot.item.id, slot.reason])),
-    summary: blockSummary(block),
-    notice: shortageNotice(block),
+    summary: blockSummary(block, t),
+    notice: shortageNotice(block, t),
     relaxed: block.relaxed.map((rule) => RELAXABLE_CONSTRAINT_LABEL[rule]),
     redistributed: block.redistributions.map((entry) => ({ need: NEED_LABEL[entry.from], slots: entry.slots })),
     targets: { ...block.targets },
@@ -91,22 +99,23 @@ function storeDiagnostics(block: AdaptiveBlock, config: AdaptiveStudy['config'])
 
 /** What the builder actually managed, including anything it could not. */
 function BlockDiagnostics({ diagnostics, tolerance }: { diagnostics: StoredDiagnostics; tolerance: number }) {
+  const t = useT()
   return (
     <div className="space-y-4">
       <p className="text-[13.5px] leading-relaxed text-ink-2">{diagnostics.summary}</p>
 
       <div className="space-y-3">
-        <SubHeading>Slots filled</SubHeading>
+        <SubHeading>{t('Slots filled')}</SubHeading>
         {ALLOCATION_NEEDS.map((need) => {
           const target = diagnostics.targets[need] ?? 0
           const served = diagnostics.served[need] ?? 0
           return (
             <ShareRow
               key={need}
-              label={NEED_LABEL[need]}
+              label={t(NEED_LABEL[need])}
               value={served}
               max={Math.max(1, target)}
-              right={`${served} of ${target}`}
+              right={`${served} ${t('of')} ${target}`}
               tone={Math.abs(target - served) <= tolerance ? 'neutral' : 'warning'}
             />
           )
@@ -114,17 +123,17 @@ function BlockDiagnostics({ diagnostics, tolerance }: { diagnostics: StoredDiagn
       </div>
 
       <div className="flex flex-wrap gap-2">
-        <Badge tone="outline">{percent(diagnostics.unseenShare)} new to you</Badge>
-        <Badge tone="outline">{percent(diagnostics.demandingShare)} demanding</Badge>
-        <Badge tone="outline">Config v{diagnostics.configVersion}</Badge>
+        <Badge tone="outline">{percent(diagnostics.unseenShare)} {t('new to you')}</Badge>
+        <Badge tone="outline">{percent(diagnostics.demandingShare)} {t('demanding')}</Badge>
+        <Badge tone="outline">{t('Config v{version}').replace('{version}', String(diagnostics.configVersion))}</Badge>
       </div>
 
       {diagnostics.redistributed.length > 0 && (
         <Caveat>
           {diagnostics.redistributed.map((entry) => (
             <span key={entry.need} className="block">
-              Nothing in the bank could serve {entry.need.toLowerCase()} right now, so its{' '}
-              <span className="tnum font-mono">{entry.slots}</span> slots went to the needs that could.
+              {t('Nothing in the bank could serve {need} right now, so its').replace('{need}', t(entry.need).toLowerCase())}{' '}
+              <span className="tnum font-mono">{entry.slots}</span> {t('slots went to the needs that could.')}
             </span>
           ))}
         </Caveat>
@@ -134,7 +143,7 @@ function BlockDiagnostics({ diagnostics, tolerance }: { diagnostics: StoredDiagn
         <Caveat>
           {diagnostics.notice}
           {diagnostics.relaxed.length > 0 && (
-            <span className="mt-1 block">Relaxed, in order: {diagnostics.relaxed.join(', ')}.</span>
+            <span className="mt-1 block">{t('Relaxed, in order:')} {diagnostics.relaxed.map((rule) => t(rule)).join(', ')}.</span>
           )}
         </Caveat>
       )}
@@ -144,6 +153,7 @@ function BlockDiagnostics({ diagnostics, tolerance }: { diagnostics: StoredDiagn
 
 /** The per-slot disclosure: why this question, in the student's words. */
 function WhyThis({ reason, expanded, onToggle }: { reason: string; expanded: boolean; onToggle: () => void }) {
+  const t = useT()
   return (
     <div className="rounded-lg border border-line bg-surface-2 px-3 py-2.5">
       <button
@@ -152,7 +162,7 @@ function WhyThis({ reason, expanded, onToggle }: { reason: string; expanded: boo
         className="flex w-full items-center gap-2 text-start text-[12.5px] font-medium text-ink-2 hover:text-ink"
       >
         <Icon icon={Sparkles} size={14} className="shrink-0 text-primary" />
-        <span className="min-w-0 flex-1 truncate">{expanded ? 'Why this question' : reason}</span>
+        <span className="min-w-0 flex-1 truncate">{expanded ? t('Why this question') : reason}</span>
       </button>
       {expanded && <p className="mt-2 text-[12.5px] leading-relaxed text-ink-2">{reason}</p>}
     </div>
@@ -160,6 +170,7 @@ function WhyThis({ reason, expanded, onToggle }: { reason: string; expanded: boo
 }
 
 export function Practice({ study }: { study: AdaptiveStudy }) {
+  const t = useT()
   const [size, setSize] = useState(20)
   const [mode, setMode] = useState<'tutor' | 'exam'>('tutor')
   const [expandedReason, setExpandedReason] = useState(false)
@@ -221,7 +232,7 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
       debtAfter: study.debt.slots,
       blueprintVersion: study.blueprint.stored?.version ?? null,
       createdAt: new Date().toISOString(),
-    }))
+    }), t)
 
     if (block.slots.length > 0) {
       setEmptyBuild(null)
@@ -229,12 +240,12 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
         blockId,
         itemIds: block.slots.map((slot) => slot.item.id),
         mode,
-        diagnostics: storeDiagnostics(block, study.config),
+        diagnostics: storeDiagnostics(block, study.config, t),
       })
     } else {
       setEmptyBuild(block)
     }
-  }, [size, mode, study, start])
+  }, [size, mode, study, start, t])
 
   const commit = useCallback(() => {
     if (!session) return
@@ -267,8 +278,8 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
       <Panel>
         <EmptyState
           icon={CircleHelp}
-          title="No approved questions in scope"
-          description="Adaptive practice reads the same published question bank as everything else. Nothing yet matches your university, year and modules."
+          title={t('No approved questions in scope')}
+          description={t('Adaptive practice reads the same published question bank as everything else. Nothing yet matches your university, year and modules.')}
         />
       </Panel>
     )
@@ -277,45 +288,44 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
   // ---- setup ---------------------------------------------------------------
   if (!session) {
     return (
-      <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_320px]">
         <Panel>
-          <PanelHeader title="Build an adaptive block" icon={PlayCircle} />
+          <PanelHeader title={t('Build an adaptive block')} icon={PlayCircle} />
           <div className="space-y-5 p-5">
-            <Field label="Questions">
+            <Field label={t('Questions')}>
               <Select value={String(size)} onChange={(event) => setSize(Number(event.target.value))}>
-                {SIZES.map((option) => <option key={option} value={option}>{option} questions</option>)}
+                {SIZES.map((option) => <option key={option} value={option}>{option} {t('questions')}</option>)}
               </Select>
             </Field>
 
             <div>
-              <p className="mb-2 text-[12.5px] font-medium text-ink-2">Presentation</p>
+              <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Presentation')}</p>
               <Segmented
                 value={mode}
                 onChange={(next) => setMode(next as typeof mode)}
-                items={[{ value: 'tutor', label: 'Tutor' }, { value: 'exam', label: 'Exam' }]}
+                items={[{ value: 'tutor', label: t('Tutor') }, { value: 'exam', label: t('Exam') }]}
               />
               <p className="mt-2 text-[12px] leading-relaxed text-ink-3">
                 {mode === 'tutor'
-                  ? 'The answer and explanation appear as soon as you respond to each question.'
-                  : 'Feedback is withheld until you submit the whole block. The questions themselves are identical.'}
+                  ? t('The answer and explanation appear as soon as you respond to each question.')
+                  : t('Feedback is withheld until you submit the whole block. The questions themselves are identical.')}
               </p>
             </div>
 
             <Button variant="primary" iconLeft={PlayCircle} onClick={build} className="w-full">
-              Build the block
+              {t('Build the block')}
             </Button>
 
             {emptyBuild && emptyBuild.slots.length === 0 && (
               <Caveat>
-                The bank could not supply a single question that satisfies your scope and the selection rules. This is a
-                content shortage and has been recorded.
+                {t('The bank could not supply a single question that satisfies your scope and the selection rules. This is a content shortage and has been recorded.')}
               </Caveat>
             )}
           </div>
         </Panel>
 
         <Panel>
-          <PanelHeader title="What it will contain" icon={Sparkles} hint={`${size} slots`} />
+          <PanelHeader title={t('What it will contain')} icon={Sparkles} hint={`${size} ${t('slots')}`} />
           <div className="p-5"><AllocationPreview study={study} size={size} /></div>
         </Panel>
       </div>
@@ -335,9 +345,9 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
       <Panel>
         <EmptyState
           icon={CircleHelp}
-          title="This block could not be restored"
-          description="The questions it referred to are no longer in your scope, so it cannot be shown."
-          action={<Button onClick={discard}>Start again</Button>}
+          title={t('This block could not be restored')}
+          description={t('The questions it referred to are no longer in your scope, so it cannot be shown.')}
+          action={<Button onClick={discard}>{t('Start again')}</Button>}
         />
       </Panel>
     )
@@ -366,7 +376,7 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
   }
 
   return (
-    <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_300px]">
+    <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_300px]">
       {/* `min-w-0` on the grid items, not just the grid: a grid child defaults to
           `min-width: auto`, so a truncating label widens the whole column rather
           than ellipsing, and the page scrolls sideways on a phone. */}
@@ -386,12 +396,12 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
 
         <Panel>
           <PanelHeader
-            title={`Question ${index + 1} of ${activeItems.length}`}
+            title={t('Question {index} of {total}').replace('{index}', String(index + 1)).replace('{total}', String(activeItems.length))}
             icon={Timer}
-            hint={session.mode === 'tutor' ? 'Tutor — feedback now' : 'Exam — feedback on submit'}
+            hint={session.mode === 'tutor' ? t('Tutor — feedback now') : t('Exam — feedback on submit')}
             action={
               <Badge tone={session.submittedAt ? 'success' : 'outline'}>
-                {session.submittedAt ? 'Submitted' : `${answered}/${activeItems.length} answered`}
+                {session.submittedAt ? t('Submitted') : `${answered}/${activeItems.length} ${t('answered')}`}
               </Badge>
             }
           />
@@ -419,7 +429,7 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
 
             {!given?.committed && (
               <div className="flex flex-wrap items-center gap-2 rounded-lg border border-line bg-surface-2 px-3 py-2.5">
-                <span className="text-[12.5px] text-ink-2">How sure are you?</span>
+                <span className="text-[12.5px] text-ink-2">{t('How sure are you?')}</span>
                 {(['sure', 'unsure'] as Confidence[]).map((level) => (
                   <button
                     key={level}
@@ -436,7 +446,7 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
                         : 'border-line text-ink-2 hover:border-line-2 hover:text-ink',
                     )}
                   >
-                    {level === 'sure' ? 'Sure' : 'Not sure'}
+                    {level === 'sure' ? t('Sure') : t('Not sure')}
                   </button>
                 ))}
               </div>
@@ -446,21 +456,21 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
 
         <div className="flex flex-wrap items-center justify-between gap-2">
           <Button iconLeft={ChevronLeft} onClick={() => goTo(Math.max(0, index - 1))} disabled={index === 0}>
-            Previous
+            {t('Previous')}
           </Button>
           <div className="flex gap-2">
             {!session.submittedAt && (
               <Button variant="primary" iconLeft={CheckCircle2} onClick={commit}>
-                Submit block
+                {t('Submit block')}
               </Button>
             )}
-            {session.submittedAt && <Button onClick={discard}>Finish</Button>}
+            {session.submittedAt && <Button onClick={discard}>{t('Finish')}</Button>}
             <Button
               iconRight={ChevronRight}
               onClick={() => goTo(Math.min(activeItems.length - 1, index + 1))}
               disabled={index >= activeItems.length - 1}
             >
-              Next
+              {t('Next')}
             </Button>
           </div>
         </div>
@@ -468,7 +478,7 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
 
       <div className="min-w-0 space-y-4">
         <Panel>
-          <PanelHeader title="How this block was built" icon={Sparkles} />
+          <PanelHeader title={t('How this block was built')} icon={Sparkles} />
           <div className="p-5">
             <BlockDiagnostics
               diagnostics={session.diagnostics}

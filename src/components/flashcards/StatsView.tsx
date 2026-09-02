@@ -105,7 +105,7 @@ export function StatsView({ api }: { api: FlashcardsApi }) {
         <PanelHeader title={t('Today')} />
         <div className="grid grid-cols-2 gap-3 p-4 sm:grid-cols-3 lg:grid-cols-5">
           <StatFigure label={t('Studied today')} value={summary.studiedToday} sub={`${summary.newAnswersToday} ${t('new')} · ${summary.reviewAnswersToday} ${t('review')}`} />
-          <StatFigure label={t('Pass rate')} value={summary.passRateToday === null ? '—' : pct(summary.passRateToday * 100)} sub={`${summary.againToday} ${t('Again')}`} />
+          <StatFigure label={t('Pass rate')} value={summary.passRateToday === null ? '—' : pct(summary.passRateToday * 100)} sub={`${summary.againToday} ${t('graded Again')}`} />
           <StatFigure label={t('Review time')} value={formatMinutes(Math.round(summary.reviewTimeTodayMs / 60000))} />
           <StatFigure label={t('Streak')} value={`${summary.currentStreakDays} ${t('d')}`} sub={`${summary.activeDays} ${t('active days')}`} />
           <StatFigure label={t('Learning today')} value={summary.learningAnswersToday + summary.relearningAnswersToday} />

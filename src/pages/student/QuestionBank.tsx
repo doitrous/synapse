@@ -13,11 +13,9 @@ import {
   ChevronDown,
   RotateCcw,
   Trophy,
-  GraduationCap,
   Siren,
   Flame,
   Shuffle,
-  Flag,
   History,
   TrendingDown,
   MoreHorizontal,
@@ -32,19 +30,30 @@ import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
 import type { AttemptRecord } from '@/data/attempts'
 import { bySession, sessionDetail, type SessionDetail, type SessionSummary } from '@/data/attemptStats'
 import { formatLongDate } from '@/lib/format'
-import { getSubject } from '@/data/subjects'
-import { accuracyOf, bySubject as accuracyBySubject, currentStreak, dailyCounts, distinctItems, weakest } from '@/data/attemptStats'
+import { useSubjectName } from '@/lib/useSubjectName'
+import { bySubject as accuracyBySubject, weakest } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
 import {
-  incorrectIds, omittedIds, pruneManifests, questionsById, scopeFromQuestions,
+  incorrectIds, omittedIds, pruneManifests, questionsById,
   type SessionManifests,
 } from '@/data/qbankCollections'
 import {
   clearsStoredSitting, finishedManifests, liveSittingId, pendingAttempts, persistsSitting,
   restorableQuestions, selectClearsStrike, timedClock, type Phase,
 } from '@/data/qbankSession'
-import { COLLECTION_ICONS, QuestionCollections, type Collection } from '@/components/qbank/QuestionCollections'
-import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, useRecordAttempts, type AttemptHistory } from '@/lib/useAttemptLog'
+import { QbankHub, type QbankBank, type QbankHubTab } from '@/components/qbank/hub/QbankHub'
+import { YourProgress } from '@/components/qbank/hub/YourProgress'
+import { TestBuilder, type TestBuilderPreset } from '@/components/qbank/hub/TestBuilder'
+import { UnifiedBuilder } from '@/components/qbank/unified/UnifiedBuilder'
+import { MixedRunner } from '@/components/qbank/unified/MixedRunner'
+import { MixedSummary } from '@/components/qbank/unified/MixedSummary'
+import { useMixedSession } from '@/lib/useMixedSession'
+import { mixedClosed, mixedFinished } from '@/data/mixedSession'
+import { PreviousTestsTab, type PreviousFilter } from '@/components/qbank/hub/PreviousTestsTab'
+import { SittingKindBadge, SittingRows } from '@/components/qbank/unified/SittingRows'
+import { useSittings } from '@/lib/useSittings'
+import { sittingsOfKind, type SittingKind } from '@/data/sittings'
+import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, useRecordAttempts } from '@/lib/useAttemptLog'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { EndSessionDialog } from '@/components/qbank/EndSessionDialog'
 import { ContinueCard } from '@/components/qbank/ContinueCard'
@@ -54,12 +63,10 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Meter } from '@/components/ui/Meter'
-import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { TextInput } from '@/components/ui/Field'
 import { IconButton } from '@/components/ui/IconButton'
 import { ContextMenu } from '@/components/ui/ContextMenu'
 import { Dialog } from '@/components/ui/Dialog'
-import { Tooltip } from '@/components/ui/Tooltip'
 import { SubjectDot } from '@/components/ui/Subject'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { cn } from '@/lib/cn'
@@ -68,7 +75,6 @@ import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
-import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
 import { StudyRail } from '@/components/qbank/StudyRail'
 import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
@@ -105,8 +111,6 @@ function diffTone(d: Question['difficulty']): 'success' | 'warning' | 'danger' {
   return d === 'Easy' ? 'success' : d === 'Moderate' ? 'warning' : 'danger'
 }
 
-const MAX_QUESTIONS = 40
-
 type PresetKind = 'weak' | 'emergency' | 'demanding' | 'everything'
 
 /** How many marked answers a subject needs before it can be called a weakness. */
@@ -120,115 +124,6 @@ const QBANK_MARKED_STORAGE_KEY = 'nishany.qbank.marked.v1'
 
 function newSessionId(): string {
   return `qb-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
-}
-
-const WEEKDAY_INITIALS = ['S', 'M', 'T', 'W', 'T', 'F', 'S']
-
-/**
- * The student's own standing in the bank.
- *
- * Every figure here was a literal: a 58% ring, "1,842 / 3,200", 72% accuracy, a
- * nine-day streak, a seven-bar chart of `[12, 20, 8, 24, 18, 30, 16]`, and five
- * per-subject accuracies — all shown identically to a student who had answered
- * nothing. They now come from the attempt log and the published bank, and the
- * panel says so plainly when there is nothing to report.
- */
-function YourQbank({ questions, history }: { questions: Question[]; history: AttemptHistory }) {
-  const t = useT()
-  const qbankRecords = useMemo(
-    () => history.records.filter((record) => record.surface === 'qbank' || record.surface === 'room'),
-    [history.records],
-  )
-  const seen = distinctItems(qbankRecords)
-  const total = questions.length
-  const completedPct = total ? Math.round((Math.min(seen, total) / total) * 100) : 0
-  const accuracy = accuracyOf(qbankRecords)
-  const week = dailyCounts(qbankRecords, 7)
-  const weekTotal = week.reduce((sum, day) => sum + day.attempts, 0)
-  const peak = Math.max(1, ...week.map((day) => day.attempts))
-  const streak = currentStreak(qbankRecords)
-  const subjectRows = useMemo(
-    () => accuracyBySubject(qbankRecords).filter((row) => row.marked >= WEAKNESS_EVIDENCE).slice(0, 6),
-    [qbankRecords],
-  )
-
-  return (
-    <Panel className="h-fit">
-      <PanelHeader title={t('Your Qbank')} icon={ListChecks} />
-      <div className="space-y-5 p-5">
-        {/* Completion ring + headline */}
-        <div className="flex items-center gap-4">
-          <div className="relative grid size-[76px] shrink-0 place-items-center">
-            <svg viewBox="0 0 36 36" className="size-full -rotate-90">
-              <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-inset)" strokeWidth="3.2" />
-              <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-primary)" strokeWidth="3.2" strokeLinecap="round" strokeDasharray={`${completedPct * 0.9739} 100`} pathLength={100} />
-            </svg>
-            <span className="absolute tnum font-mono text-[16px] font-semibold text-ink">{completedPct}%</span>
-          </div>
-          <div className="min-w-0">
-            <p className="text-[12px] text-ink-3">{t('Bank completed')}</p>
-            <p className="tnum font-mono text-[17px] font-semibold text-ink">{seen.toLocaleString()} / {total.toLocaleString()}</p>
-            <p className="mt-0.5 text-[11.5px] text-ink-3">{Math.max(0, total - seen).toLocaleString()} {t('remaining')}</p>
-          </div>
-        </div>
-
-        {/* Stat trio */}
-        <div className="grid grid-cols-3 gap-2 border-t border-line pt-4">
-          {[
-            { value: accuracy === null ? '—' : `${Math.round(accuracy * 100)}%`, label: t('Accuracy'), tone: 'text-success' },
-            { value: String(weekTotal), label: t('This week'), tone: 'text-ink' },
-            { value: String(streak), label: t('Day streak'), tone: 'text-primary' },
-          ].map((s) => (
-            <div key={s.label} className="rounded-lg border border-line bg-surface-2/40 p-2.5 text-center">
-              <p className={cn('tnum font-mono text-[19px] font-semibold', s.tone)}>{s.value}</p>
-              <p className="mt-0.5 text-[10.5px] leading-tight text-ink-3">{s.label}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* Weekly activity */}
-        <div className="border-t border-line pt-4">
-          <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Last 7 days')}</p>
-          <div className="flex items-end justify-between gap-1.5" aria-hidden>
-            {week.map((day) => (
-              <div key={day.date} className="flex flex-1 flex-col items-center gap-1" title={`${day.attempts} · ${day.date}`}>
-                <div className="flex h-16 w-full items-end rounded-sm bg-inset/60">
-                  <div className="w-full rounded-sm bg-primary-soft" style={{ height: `${(day.attempts / peak) * 100}%` }} />
-                </div>
-                <span className="text-[9px] text-ink-3">{WEEKDAY_INITIALS[new Date(`${day.date}T00:00:00`).getDay()]}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Accuracy by subject */}
-        <div className="border-t border-line pt-4">
-          <p className="mb-2.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Accuracy by subject')}</p>
-          {subjectRows.length === 0 ? (
-            <p className="text-[12px] leading-relaxed text-ink-3">
-              {t('Answer a few questions in a subject and its accuracy appears here.')}
-            </p>
-          ) : (
-            <div className="space-y-2.5">
-              {subjectRows.map((row) => {
-                const subject = getSubject(row.key)
-                const acc = Math.round((row.accuracy ?? 0) * 100)
-                return (
-                  <div key={row.key} className="flex items-center gap-2.5">
-                    {/* The marker carries the code, so repeating it as text
-                        beside itself was saying the same word twice. */}
-                    <span className="inline-flex w-24 shrink-0 items-center gap-1.5 truncate text-[11.5px] text-ink-2" title={subject.name}><SubjectDot id={row.key} /></span>
-                    <Meter value={acc} tone={acc >= 75 ? 'success' : acc >= 60 ? 'primary' : 'warning'} className="flex-1" />
-                    <span className="tnum w-9 text-end font-mono text-[11px] text-ink-2">{acc}%</span>
-                  </div>
-                )
-              })}
-            </div>
-          )}
-        </div>
-      </div>
-    </Panel>
-  )
 }
 
 /** Everything needed to put a half-finished sitting back on screen. */
@@ -257,6 +152,21 @@ interface LiveSession {
 const ACTIVE_SESSION_STORAGE_KEY = 'nishany.qbank.activeSession.v1'
 const SESSION_NAMES_STORAGE_KEY = 'nishany.qbank.sessionNames.v1'
 
+/**
+ * The bank and tab named in the URL, or the defaults.
+ *
+ * Read through a guard rather than cast: `?bank=osce` is a link someone will
+ * eventually write, and it must land on the MCQ bank rather than on a hub with
+ * no content under any branch.
+ */
+function readBank(value: string | null): QbankBank {
+  return value === 'practical' || value === 'essay' || value === 'mixed' ? value : 'mcq'
+}
+
+function readTab(value: string | null): QbankHubTab {
+  return value === 'previous' ? 'previous' : 'new'
+}
+
 /** One number with its name under it, for the row of figures on a sitting. */
 function DetailStat({ label, value, tone }: { label: string; value: string; tone?: 'good' | 'bad' }) {
   return (
@@ -265,7 +175,7 @@ function DetailStat({ label, value, tone }: { label: string; value: string; tone
         'tnum font-mono text-[17px] font-semibold leading-none',
         tone === 'good' ? 'text-success' : tone === 'bad' ? 'text-danger' : 'text-ink',
       )}>{value}</p>
-      <p className="mt-1 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{label}</p>
+      <p className="mt-1 text-[11.5px] text-ink-3">{label}</p>
     </div>
   )
 }
@@ -298,6 +208,7 @@ function SessionDetailPanel({
   total?: number
   t: (key: string) => string
 }) {
+  const subjectName = useSubjectName()
   const minutes = Math.round(detail.durationSeconds / 60)
   const omitted = Math.max(0, (total ?? detail.answered) - detail.answered)
   const pace = [
@@ -334,7 +245,7 @@ function SessionDetailPanel({
 
       {paced > 0 && (
         <div className="mt-5 border-t border-line pt-4">
-          <p className="mb-2 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Pace distribution')}</p>
+          <p className="mb-2 text-[13px] font-semibold text-ink">{t('Pace distribution')}</p>
           <div className="flex h-2.5 overflow-hidden rounded-full bg-inset" aria-hidden>
             {pace.map((band) => detail.pace[band.key] > 0 && (
               <span key={band.key} className={band.color} style={{ width: `${(detail.pace[band.key] / paced) * 100}%` }} />
@@ -354,13 +265,13 @@ function SessionDetailPanel({
 
       {detail.subjects.length > 1 && (
         <div className="mt-4">
-          <p className="mb-2 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('By subject')}</p>
+          <p className="mb-2 text-[13px] font-semibold text-ink">{t('By subject')}</p>
           <ul className="space-y-1.5">
             {detail.subjects.map((subject) => (
               <li key={subject.key} className="flex items-center gap-2.5 text-[12px]">
                 <span className="inline-flex min-w-0 flex-1 items-center gap-1.5 text-ink-2">
                   <SubjectDot id={subject.key} />
-                  <span className="truncate">{getSubject(subject.key).name}</span>
+                  <span className="truncate">{subjectName(subject.key)}</span>
                 </span>
                 <Meter value={subject.accuracy == null ? 0 : Math.round(subject.accuracy * 100)} className="w-24 shrink-0" />
                 <span className="tnum w-16 shrink-0 text-end font-mono text-ink-3">
@@ -374,7 +285,7 @@ function SessionDetailPanel({
 
       {detail.missed.length > 0 && (
         <div className="mt-4">
-          <p className="mb-2 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Where you lost marks')}</p>
+          <p className="mb-2 text-[13px] font-semibold text-ink">{t('Where you lost marks')}</p>
           <ul className="flex flex-wrap gap-1.5">
             {detail.missed.map((topic) => (
               <li
@@ -416,7 +327,7 @@ function SessionDetailPanel({
 
       {detail.answers.length > 0 && (
         <div className="mt-5 border-t border-line pt-4">
-          <p className="mb-2 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Answer review')}</p>
+          <p className="mb-2 text-[13px] font-semibold text-ink">{t('Answer review')}</p>
           <ol className="space-y-2">
             {detail.answers.map((answer, index) => {
               const question = questions.find((item) => item.id === answer.itemId)
@@ -453,7 +364,7 @@ function SessionDetailPanel({
       )}
 
       <div className="mt-5 rounded-lg border border-primary-line bg-primary-tint/35 px-3.5 py-3">
-        <p className="text-[10.5px] font-semibold uppercase tracking-[0.06em] text-primary-strong">{t('Next action')}</p>
+        <p className="text-[12.5px] font-medium text-primary-strong">{t('Next action')}</p>
         <p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">{nextAction}</p>
       </div>
     </div>
@@ -508,6 +419,7 @@ function PreviousTests({
   canRetakeSame: (sessionId: string) => boolean
   t: (key: string) => string
 }) {
+  const subjectName = useSubjectName()
   const [editing, setEditing] = useState<string | null>(null)
   const [draft, setDraft] = useState('')
   const [expanded, setExpanded] = useState<string | null>(null)
@@ -542,7 +454,7 @@ function PreviousTests({
                   onClick={() => setExpanded(isOpen ? null : entry.sessionId)}
                   aria-expanded={isOpen}
                   aria-label={`${isOpen ? t('Hide') : t('Show')} ${name}`}
-                  className="grid size-7 shrink-0 place-items-center rounded-md text-ink-3 transition-colors hover:bg-inset hover:text-ink"
+                  className="grid size-11 shrink-0 place-items-center rounded-md text-ink-3 transition-colors hover:bg-inset hover:text-ink sm:size-7"
                 >
                   <Icon icon={ChevronDown} size={15} className={cn('transition-transform duration-150', !isOpen && '-rotate-90 rtl:rotate-90')} />
                 </button>
@@ -565,10 +477,10 @@ function PreviousTests({
                     <button
                       type="button"
                       onClick={() => { setDraft(names[entry.sessionId] ?? ''); setEditing(entry.sessionId) }}
-                      className="block max-w-full truncate text-start text-[13.5px] font-semibold text-ink hover:text-primary-strong"
+                      className="flex min-h-11 max-w-full items-center text-start text-[13.5px] font-semibold text-ink hover:text-primary-strong sm:min-h-0"
                       title={t('Rename')}
                     >
-                      {name}
+                      <span className="min-w-0 truncate">{name}</span>
                     </button>
                   )}
                   {/* `min-w-0` and a truncating subject: wrapping alone cannot
@@ -582,11 +494,15 @@ function PreviousTests({
                     {entry.subjectIds.slice(0, 2).map((subjectId) => (
                       <span key={subjectId} className="inline-flex min-w-0 max-w-full items-center gap-1">
                         <SubjectDot id={subjectId} />
-                        <span className="truncate">{getSubject(subjectId).name}</span>
+                        <span className="truncate">{subjectName(subjectId)}</span>
                       </span>
                     ))}
                   </p>
                 </div>
+                {/* Every row in this list says what kind of test it was, because
+                    the list now holds four kinds and "11 questions" and "11
+                    items" are not the same sitting. */}
+                <SittingKindBadge kind="mcq" />
                 {live && <Badge tone="warning">{t('In progress')}</Badge>}
                 {/* An unmarked sitting shows a dash, not a nought: nobody scored it. */}
                 <span className="tnum shrink-0 font-mono text-[15px] font-semibold text-ink">
@@ -713,19 +629,21 @@ function PreviousTests({
 
 export function QuestionBank() {
   const t = useT()
+  const subjectName = useSubjectName()
   const location = useLocation()
   const questions = usePublishedQuestions()
   const availability = useCatalogueAvailability(questions.length)
-  const [params] = useSearchParams()
+  const [params, setParams] = useSearchParams()
   const articleFilter = params.get('article')
   const [phase, setPhase] = useState<Phase>('setup')
   const [scope, setScope] = useState<Scope>(() => new Set())
   const [mode, setMode] = useState<Mode>('tutor')
   const [source, setSource] = useState<Source>('all')
-  const [sourceSel, setSourceSel] = useState<Set<SourceBucket>>(() => new Set())
-  const [lenChoice, setLenChoice] = useState<'5' | '10' | '20' | '40' | 'custom'>('5')
-  const [customLen, setCustomLen] = useState(15)
-  const count = lenChoice === 'custom' ? Math.min(MAX_QUESTIONS, Math.max(1, customLen || 1)) : Number(lenChoice)
+  // Read-only for now: the composer renders the source cards inert until the
+  // next content release, and this stays wired so `available` and the chapter
+  // tree keep computing exactly as they did.
+  const [sourceSel] = useState<Set<SourceBucket>>(() => new Set())
+  const [count, setCount] = useState(5)
 
   const [session, setSession] = useState<Question[]>([])
   const [idx, setIdx] = useState(0)
@@ -747,13 +665,57 @@ export function QuestionBank() {
     session[idx]?.id ?? null,
     reviewing || (mode === 'tutor' && Boolean(checked[session[idx]?.id ?? ''])),
   )
+  /**
+   * Direction 2's sitting: one queue drawn from the MCQ, practical and essay
+   * banks. It is deliberately separate from the MCQ session state above — the
+   * runner below the hub, its timer, its navigator and its report are
+   * untouched, and a mixed sitting is a different thing that happens to start
+   * from the same tab.
+   *
+   * Declared here, above the immersion and navigation guards, because a mixed
+   * sitting is a sitting: it takes the screen and it warns before it is left,
+   * exactly as an MCQ paper does.
+   */
+  const mixed = useMixedSession()
+  // Stamped when the queue runs out rather than read at render, so the report's
+  // "Time" is the time the sitting took and not the time the page has been open.
+  const [mixedEndedAt, setMixedEndedAt] = useState<number | null>(null)
+  /** A mixed queue is open and not yet finished — the runner is on screen. */
+  const mixedRunning = Boolean(mixed.session) && !mixedFinished(mixed.session!)
+  /** The student is being asked whether to leave a mixed sitting. */
+  const [mixedLeaveOpen, setMixedLeaveOpen] = useState(false)
+
+  /**
+   * Clear a mixed sitting that is already over.
+   *
+   * This is the one thing standing between a student and a Question Bank they
+   * cannot open. The document is written on a debounce, so a tab closed on the
+   * report — or a render that throws before the write flushes — leaves a
+   * finished sitting in `nishany.qbank.mixedSession.v1`; every later visit then
+   * rendered that sitting's report instead of the hub, and the only control on
+   * that screen was the one whose write had already failed to land. Sweeping it
+   * here means the key is cleared on the next persisted write however the
+   * previous visit ended, so nothing has to be deleted by hand.
+   *
+   * `mixedEndedAt` is component state and is null on every fresh mount, so this
+   * can never fire on a report the student is actually reading.
+   */
+  const endMixed = mixed.end
+  const mixedSession = mixed.session
+  useEffect(() => {
+    if (!mixedSession || mixedEndedAt != null) return
+    if (mixedClosed(mixedSession) || mixedFinished(mixedSession)) endMixed()
+  }, [mixedSession, endMixed, mixedEndedAt])
+
   // Sitting a test is the one thing here that wants the width, and the one
-  // thing a student should not have to tidy the screen for first.
+  // thing a student should not have to tidy the screen for first. A mixed
+  // sitting is one too: it used to leave the sidebar up while an OSCE station
+  // ran, which is the one screen that needs the width most.
   const { setImmersive } = useImmersion()
   useEffect(() => {
-    setImmersive(phase === 'running')
+    setImmersive(phase === 'running' || (phase === 'setup' && mixedRunning))
     return () => setImmersive(false)
-  }, [phase, setImmersive])
+  }, [phase, mixedRunning, setImmersive])
   const { record } = useMastery()
   const logAttempt = useRecordAttempt()
   const logAttempts = useRecordAttempts()
@@ -809,7 +771,38 @@ export function QuestionBank() {
   }, [])
   /** What the student called this sitting, if anything. */
   const [sessionName, setSessionName] = useState('')
-  const [hubTab, setHubTab] = useState<'new' | 'collections' | 'previous'>('new')
+  /**
+   * Which bank the page is about, and what is being done with it.
+   *
+   * Both are mirrored into the URL, so a link to `?bank=practical&tab=previous`
+   * opens on the practical bank's ledger rather than on the MCQ composer — and
+   * a reload does not silently move a student back to a different bank than
+   * the one they were reading.
+   */
+  const [bank, setBankState] = useState<QbankBank>(() => readBank(params.get('bank')))
+  const [hubTab, setHubTabState] = useState<QbankHubTab>(() => readTab(params.get('tab')))
+  /** Which kinds of sitting the Previous tests list is showing. */
+  const [previousFilter, setPreviousFilter] = useState<PreviousFilter>(() => readBank(params.get('bank')))
+  const setBank = useCallback((next: QbankBank) => {
+    setBankState(next)
+    // The filter follows the bank on a switch, because "Previous tests" under
+    // the practical tab meaning "all tests" is the confusion this package is
+    // fixing. It is still a filter: the chips can widen it again.
+    setPreviousFilter(next)
+    setParams((current) => {
+      const draft = new URLSearchParams(current)
+      draft.set('bank', next)
+      return draft
+    }, { replace: true })
+  }, [setParams])
+  const setHubTab = useCallback((next: QbankHubTab) => {
+    setHubTabState(next)
+    setParams((current) => {
+      const draft = new URLSearchParams(current)
+      draft.set('tab', next)
+      return draft
+    }, { replace: true })
+  }, [setParams])
   /**
    * What each finished sitting is called.
    *
@@ -818,6 +811,15 @@ export function QuestionBank() {
    * covered, so nothing is ever nameless.
    */
   const [savedNames, setSavedNames] = usePersistentState<Record<string, string>>(SESSION_NAMES_STORAGE_KEY, {})
+  /**
+   * The ledger of every test sat, of every kind.
+   *
+   * The MCQ ledger above is names keyed by session id; this one is the sitting
+   * itself — what kind it was, what it held, what it came to. MCQ sittings are
+   * filed here under the *same* id, so the two never disagree about which test
+   * a name belongs to.
+   */
+  const sittingsLedger = useSittings()
   const [sessionQuestions, setSessionQuestions] = usePersistentState<SessionManifests>(SESSION_QUESTIONS_STORAGE_KEY, {})
 
   /**
@@ -951,15 +953,26 @@ export function QuestionBank() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, session, idx, answers, checked, mode, sessionId, elapsed, visited, struck, reviewing, submitted, sessionName, savedStatus.hydrated, setSaved])
 
-  const guardActive = phase === 'running' && !reviewing && !submitted
+  /**
+   * Something is open that should not be walked out of by accident.
+   *
+   * A mixed sitting counts. It persists, so nothing is lost by leaving — but a
+   * student halfway through a station has not decided to leave, and the MCQ
+   * paper has warned them for as long as it has existed. One blocker, not two:
+   * the router supports exactly one, and which dialog it opens is decided here.
+   */
+  const mixedGuardActive = phase === 'setup' && mixedRunning
+  const guardActive = (phase === 'running' && !reviewing && !submitted) || mixedGuardActive
   const blocker = useBlocker(useCallback(({ currentLocation, nextLocation }) => (
     guardActive && `${currentLocation.pathname}${currentLocation.search}` !== `${nextLocation.pathname}${nextLocation.search}`
   ), [guardActive]))
 
   /** Internal links use the same deliberate exit choice as the End control. */
   useEffect(() => {
-    if (blocker.state === 'blocked') setEndOpen(true)
-  }, [blocker.state])
+    if (blocker.state !== 'blocked') return
+    if (mixedGuardActive) setMixedLeaveOpen(true)
+    else setEndOpen(true)
+  }, [blocker.state, mixedGuardActive])
 
   /** Browser close, reload, and external navigation can only use the native warning. */
   useEffect(() => {
@@ -977,7 +990,10 @@ export function QuestionBank() {
    * while hidden, then require the same choice before the clock can resume.
    */
   useEffect(() => {
-    if (!guardActive || mode !== 'timed') return
+    // `mode` belongs to the MCQ composer, and a mixed sitting has no timer of
+    // its own — pausing one against a setting it does not use would open the
+    // MCQ end dialog over a station.
+    if (!guardActive || mode !== 'timed' || mixedGuardActive) return
     const onVisibility = () => {
       if (document.visibilityState === 'hidden') {
         setVisibilityPaused(true)
@@ -987,7 +1003,7 @@ export function QuestionBank() {
     }
     document.addEventListener('visibilitychange', onVisibility)
     return () => document.removeEventListener('visibilitychange', onVisibility)
-  }, [guardActive, mode])
+  }, [guardActive, mode, mixedGuardActive])
 
   const articleQuestions = useMemo(
     () => (articleFilter ? questions.filter((question) => question.libraryRefs.some((ref) => ref.id === articleFilter)) : questions),
@@ -1059,23 +1075,29 @@ export function QuestionBank() {
     [sourcePool, effectiveSources],
   )
 
-  const collections: Collection[] = useMemo(() => [
-    {
-      key: 'flagged', title: t('Flagged'), icon: COLLECTION_ICONS.flagged,
-      empty: t('Flag a question while you are sitting a test and it waits here.'),
-      questions: flaggedQuestions,
-    },
-    {
-      key: 'incorrect', title: t('Got wrong'), icon: COLLECTION_ICONS.incorrect,
-      empty: t('Questions you answered wrongly collect here, and leave once you get them right.'),
-      questions: incorrectQuestions,
-    },
-    {
-      key: 'omitted', title: t('Omitted'), icon: COLLECTION_ICONS.omitted,
-      empty: t('Questions a test served you but you never answered collect here.'),
-      questions: omittedQuestions,
-    },
-  ], [flaggedQuestions, incorrectQuestions, omittedQuestions, t])
+  /**
+   * The MCQs this student has singled out, each of them once.
+   *
+   * These three lists used to be a tab of their own. They are the composer's
+   * first step now — and, together, the pool a mixed sitting draws its MCQ
+   * share from when it is asked for "flagged and missed".
+   */
+  const collectionQuestions = useMemo(() => {
+    const seen = new Set<string>()
+    return [...flaggedQuestions, ...incorrectQuestions, ...omittedQuestions].filter((question) => {
+      if (seen.has(question.id)) return false
+      seen.add(question.id)
+      return true
+    })
+  }, [flaggedQuestions, incorrectQuestions, omittedQuestions])
+
+  /** What each chip in the composer's first step stands for. */
+  const sourceCounts = useMemo(() => ({
+    all: articleQuestions.length,
+    flagged: flaggedQuestions.length,
+    incorrect: incorrectQuestions.length,
+    omitted: omittedQuestions.length,
+  }), [articleQuestions.length, flaggedQuestions.length, incorrectQuestions.length, omittedQuestions.length])
 
   /**
    * The subjects this student is actually weakest in.
@@ -1263,6 +1285,32 @@ export function QuestionBank() {
   const sessionSummaries = useMemo(() => bySession(history.records), [history.records])
 
   /**
+   * Sittings that are not MCQ papers, under whichever filter is on.
+   *
+   * MCQ rows still come from the attempt log rather than from the ledger: that
+   * grouping is what every MCQ sitting a student has ever sat is recorded as,
+   * including the ones from before this ledger existed. Reading them out of the
+   * ledger instead would have quietly emptied the list for everyone already
+   * using the app.
+   */
+  const otherSittings = useMemo(() => {
+    const others = sittingsLedger.sittings.filter((sitting) => sitting.kind !== 'mcq')
+    return previousFilter === 'all' ? others : others.filter((sitting) => sitting.kind === previousFilter)
+  }, [sittingsLedger.sittings, previousFilter])
+
+  /** What each filter chip stands for, and what the hub's tab counts. */
+  const previousCounts = useMemo(() => {
+    const doc = { version: 1 as const, sittings: sittingsLedger.sittings }
+    const counts: Record<SittingKind, number> = {
+      mcq: sessionSummaries.length,
+      practical: sittingsOfKind(doc, 'practical').length,
+      essay: sittingsOfKind(doc, 'essay').length,
+      mixed: sittingsOfKind(doc, 'mixed').length,
+    }
+    return { ...counts, all: counts.mcq + counts.practical + counts.essay + counts.mixed }
+  }, [sittingsLedger.sittings, sessionSummaries.length])
+
+  /**
    * The questions a finished sitting can be reopened with.
    *
    * Rebuilt from the attempt log, which has always recorded which item each
@@ -1286,34 +1334,6 @@ export function QuestionBank() {
    * sat as a sitting — so it returns to the hub instead.
    */
   const [reviewReturn, setReviewReturn] = useState<'setup' | 'results'>('results')
-
-  /** Read a collection, answers and explanations shown. */
-  function viewCollection(items: Question[]) {
-    if (!items.length) return
-    mirroredSittingId.current = null
-    setSession(items)
-    setSessionId(newSessionId())
-    setAnswers({})
-    setChecked({})
-    setStruck({})
-    setVisited(new Set(items.map((_, index) => index)))
-    setIdx(0)
-    setSubmitted(false)
-    setReviewing(true)
-    setReviewReturn('setup')
-    setPhase('running')
-  }
-
-  function testTheseQuestions(items: Question[], title: string) {
-    requestSession(shuffle(items).slice(0, Math.min(count, items.length)), title)
-  }
-
-  /** Same topics, fresh questions — including ones the student has not seen. */
-  function testScopeOf(items: Question[], title: string) {
-    const derived = scopeFromQuestions(items, libraryTopics)
-    const pool = questionsInScope(questions, derived, libraryTopics)
-    requestSession(shuffle(pool).slice(0, Math.min(count, pool.length)), `${title} · ${t('same scope')}`)
-  }
 
   /**
    * Sit the same questions again, as a new test.
@@ -1344,7 +1364,7 @@ export function QuestionBank() {
     const wanted = new Set(entry.subjectIds)
     const pool = questions.filter((question) => wanted.has(question.subjectId))
     if (!pool.length) return
-    const scopeName = entry.subjectIds.length === 1 ? getSubject(entry.subjectIds[0]).name : t('Mixed')
+    const scopeName = entry.subjectIds.length === 1 ? subjectName(entry.subjectIds[0]) : t('Mixed')
     requestSession(
       shuffle(pool).slice(0, Math.min(Math.max(entry.answered, 1), pool.length)),
       `${scopeName} · ${t('Test')} ${sessionSummaries.length + 1}`,
@@ -1446,7 +1466,31 @@ export function QuestionBank() {
     setEndOpen(false)
     setVisibilityPaused(false)
     setPhase('results')
+    // Filed here, where the sitting actually ends, and under the same id its
+    // records and its name already carry — so "Previous tests" can show an MCQ
+    // paper beside a practical and a mixed sitting without three lists.
+    recordMcqSitting()
     if (blocker.state === 'blocked') blocker.proceed()
+  }
+
+  /** File the MCQ sitting on screen into the unified ledger. */
+  function recordMcqSitting() {
+    if (!session.length) return
+    const answered = session.filter((question) => answers[question.id] != null).length
+    sittingsLedger.record({
+      id: sessionId,
+      kind: 'mcq',
+      startedAt: startedAt.current ?? new Date().toISOString(),
+      finishedAt: new Date().toISOString(),
+      name: savedNames[sessionId]?.trim() || sessionName.trim() || undefined,
+      itemCount: session.length,
+      result: {
+        total: session.length,
+        covered: answered,
+        correct: session.filter((question) => question.options[answers[question.id]]?.correct).length,
+      },
+      itemIds: session.map((question) => question.id),
+    })
   }
 
   function closeEndDialog() {
@@ -1469,12 +1513,15 @@ export function QuestionBank() {
       return next
     })
     if (clearsStoredSitting(saved, sessionId)) setSaved(null)
+    // Both ledgers, or a deleted test would keep its row under Previous tests
+    // with nothing behind it.
+    sittingsLedger.forget(sessionId)
   }
 
   const scopeSubjectName = useMemo(() => {
     const subjectIds = new Set(available.map((question) => question.subjectId))
-    return subjectIds.size === 1 ? getSubject([...subjectIds][0]).name : t('Mixed')
-  }, [available, t])
+    return subjectIds.size === 1 ? subjectName([...subjectIds][0]) : t('Mixed')
+  }, [available, t, subjectName])
   const autoSessionName = useMemo(() => {
     const used = sessionSummaries.filter((summary: SessionSummary) => (savedNames[summary.sessionId] ?? '').startsWith(scopeSubjectName)).length
     return `${scopeSubjectName} · ${t('Test')} ${used + 1}`
@@ -1500,10 +1547,76 @@ export function QuestionBank() {
     requestSession(shuffle(presetPool(kind)).slice(0, count), labels[kind])
   }
 
+  // The composer renders the chips; the pools, counts and names stay here with
+  // the rest of the session state, exactly as `startPreset` needs them.
+  const builderPresets: TestBuilderPreset[] = [
+    { id: 'weak', label: t('Your weakest topics'), icon: TrendingDown, count: presetCounts.weak, description: t('Questions from subjects where your marked answers show the lowest accuracy, once there is enough evidence.'), apply: () => startPreset('weak') },
+    { id: 'emergency', label: t('Emergencies only'), icon: Siren, count: presetCounts.emergency, description: t('Acute and emergency-care questions selected from their authored topics and tags.'), apply: () => startPreset('emergency') },
+    { id: 'demanding', label: t('Demanding questions'), icon: Flame, count: presetCounts.demanding, description: t('Questions authored as moderate, hard, or challenging for focused reasoning practice.'), apply: () => startPreset('demanding') },
+    { id: 'everything', label: t('Everything, shuffled'), icon: Shuffle, count: presetCounts.everything, description: t('Every question available to your university and year, mixed into a new random order.'), apply: () => startPreset('everything') },
+  ]
+
   const stats = useMemo(() => {
     const correct = session.filter((q) => q.options[answers[q.id]]?.correct).length
     return { correct }
   }, [session, answers])
+
+  /* ---- Mixed sitting (direction 2) ------------------------------------ */
+  // Ahead of the catalogue guard below: a mixed sitting can be all essays and
+  // all practicals, and an empty MCQ catalogue must not swallow it.
+  if (phase === 'setup' && mixed.session && !mixedFinished(mixed.session)) {
+    return (
+      <>
+        <MixedRunner
+          session={mixed.session}
+          questions={questions}
+          onMark={mixed.mark}
+          onNext={() => {
+            if (mixed.session && mixed.session.cursor >= mixed.session.items.length - 1) setMixedEndedAt(Date.now())
+            mixed.next()
+          }}
+          onEnd={() => { setMixedEndedAt(Date.now()); mixed.finish() }}
+        />
+        {mixedLeaveOpen && (
+          <Dialog onClose={() => { setMixedLeaveOpen(false); if (blocker.state === 'blocked') blocker.reset() }} label={t('Leave this test?')} size="sm">
+            <PanelHeader title={t('Leave this test?')} icon={AlertTriangle} />
+            <div className="space-y-4 p-5">
+              <p className="text-[13.5px] leading-relaxed text-ink-2">
+                {t('The sitting is kept where it is — everything you have already done is recorded, and coming back opens the same item.')}
+              </p>
+              <div className="flex flex-col gap-2">
+                <Button variant="secondary" size="md" onClick={() => { setMixedLeaveOpen(false); if (blocker.state === 'blocked') blocker.reset() }}>
+                  {t('Stay in the test')}
+                </Button>
+                <Button variant="primary" size="md" onClick={() => { setMixedLeaveOpen(false); if (blocker.state === 'blocked') blocker.proceed() }}>
+                  {t('Leave, and keep it')}
+                </Button>
+                <Button variant="ghost" size="md" onClick={() => { setMixedLeaveOpen(false); setMixedEndedAt(Date.now()); mixed.finish(); if (blocker.state === 'blocked') blocker.reset() }}>
+                  {t('End the test and see the report')}
+                </Button>
+              </div>
+            </div>
+          </Dialog>
+        )}
+      </>
+    )
+  }
+
+  // Only the sitting that ended *in this visit* shows its report. A finished
+  // document found in storage belongs to a visit that is over — the tab was
+  // closed on the report, or the write that cleared it never flushed — and
+  // rendering it again put the student in front of a screen whose only exit was
+  // the button they had already pressed. The sweep effect clears it instead;
+  // the sitting itself is still in Previous tests. See `mixedClosed`.
+  if (phase === 'setup' && mixed.session && mixedEndedAt != null) {
+    return (
+      <MixedSummary
+        session={mixed.session}
+        endedAt={mixedEndedAt}
+        onDone={() => { setMixedEndedAt(null); mixed.end() }}
+      />
+    )
+  }
 
   /* ---- Setup --------------------------------------------------------- */
   if (phase === 'setup' && availability.kind !== 'ready') {
@@ -1524,18 +1637,6 @@ export function QuestionBank() {
   if (phase === 'setup') {
     return (
       <PageContainer>
-        <PageHeader title={t('Question Bank')} />
-
-        {saved && !saved.submitted && saved.questionIds.length > 0 && (
-          <ContinueCard
-            name={savedNames[saved.sessionId]?.trim() || t('Untitled test')}
-            answered={Object.keys(saved.answers).length}
-            total={saved.questionIds.length}
-            onContinue={resumeSaved}
-            onDiscard={discardSaved}
-          />
-        )}
-
         {pendingStart && (
           <Dialog onClose={() => setPendingStart(null)} label={t('Replace the open test?')} size="sm">
             <PanelHeader title={t('Replace the open test?')} icon={AlertTriangle} />
@@ -1556,245 +1657,93 @@ export function QuestionBank() {
           </Dialog>
         )}
 
-        <section className="mb-4 sm:mb-5" aria-labelledby="quick-start-title">
-          <h2 id="quick-start-title" className="mb-2 text-[11px] font-bold uppercase tracking-[0.09em] text-ink-3">{t('Quick start')}</h2>
-          {/* One compact row. These were four tall cards carrying a sentence of
-              explanation each, which took the whole first screen to say what a
-              label and a count already say. */}
-          <div className="flex flex-wrap gap-2">
-            {[
-              { id: 'weak' as const, title: t('Your weakest topics'), icon: TrendingDown, count: presetCounts.weak, description: t('Questions from subjects where your marked answers show the lowest accuracy, once there is enough evidence.') },
-              { id: 'emergency' as const, title: t('Emergencies only'), icon: Siren, count: presetCounts.emergency, description: t('Acute and emergency-care questions selected from their authored topics and tags.') },
-              { id: 'demanding' as const, title: t('Demanding questions'), icon: Flame, count: presetCounts.demanding, description: t('Questions authored as moderate, hard, or challenging for focused reasoning practice.') },
-              { id: 'everything' as const, title: t('Everything, shuffled'), icon: Shuffle, count: presetCounts.everything, description: t('Every question available to your university and year, mixed into a new random order.') },
-            ].map((preset) => (
-              <Tooltip key={preset.id} label={preset.description}>
-                <button
-                  type="button"
-                  onClick={() => { if (preset.count > 0) startPreset(preset.id) }}
-                  aria-disabled={preset.count === 0}
-                  title={preset.count === 0 ? t('No questions match this yet') : undefined}
-                  className={cn('group inline-flex min-h-11 items-center gap-2 rounded-lg border border-line bg-surface px-3 text-[13px] font-medium text-ink shadow-panel transition-colors hover:border-primary-line hover:bg-primary-tint/20 sm:min-h-9', preset.count === 0 && 'cursor-not-allowed opacity-55 hover:border-line hover:bg-surface')}
-                >
-                  <Icon icon={preset.icon} size={15} className={preset.count === 0 ? 'text-ink-3' : 'text-primary'} />
-                  {preset.title}
-                  <span className="tnum rounded-full bg-inset px-1.5 font-mono text-[11px] text-ink-2">{preset.count}</span>
-                </button>
-              </Tooltip>
-            ))}
-          </div>
-        </section>
-
-        <Tabs
-          className="mb-4"
-          value={hubTab}
-          onChange={(next) => setHubTab(next as 'new' | 'collections' | 'previous')}
-          items={[
-            { value: 'new', label: t('New session'), icon: GraduationCap },
-            { value: 'collections', label: t('Flagged & missed'), icon: Flag, count: flaggedQuestions.length + incorrectQuestions.length + omittedQuestions.length },
-            { value: 'previous', label: t('Previous tests'), icon: History, count: sessionSummaries.length },
-          ]}
-        />
-
-        {hubTab === 'collections' ? (
-          <QuestionCollections
-            collections={collections}
-            onView={viewCollection}
-            onTestThese={testTheseQuestions}
-            onTestScope={testScopeOf}
-          />
-        ) : hubTab === 'previous' ? (
-          <PreviousTests
-            sessions={sessionSummaries}
-            names={savedNames}
-            // `liveSittingId`, not `saved?.sessionId`: a submitted sitting is
-            // still stored, and calling that one "in progress" put Resume on a
-            // test that was already finished.
-            liveSessionId={liveSittingId(saved)}
-            records={history.records}
-            questions={questions}
-            onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
-            onResume={resumeSaved}
-            onTerminate={discardSaved}
-            onReview={reviewSession}
-            onRetakeSame={retakeSameQuestions}
-            onRetakeScope={retakeSameScope}
-            onDelete={deleteSession}
-            canReview={(sessionId) => reviewableQuestions(sessionId).length > 0}
-            canRetakeSame={(sessionId) => reviewableQuestions(sessionId).length > 0}
-            t={t}
-          />
-        ) : (
-        <div className="grid items-start gap-4 lg:grid-cols-[1.4fr_1fr]">
-          <Panel>
-            <PanelHeader title={t('New session')} icon={GraduationCap} />
-            <div className="space-y-6 p-5">
-              <div>
-                <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Draw from')}</p>
-                <Segmented
-                  value={source}
-                  onChange={(value) => setSource(value as Source)}
-                  items={[
-                    { value: 'all', label: t('All questions') },
-                    { value: 'flagged', label: t('Flagged') },
-                    { value: 'incorrect', label: t('Got wrong') },
-                    { value: 'omitted', label: t('Omitted') },
-                  ]}
-                />
-                {/* The count below already reads from this pool, so the two
-                    choices are visibly one decision rather than two. */}
-                <p className="mt-2 text-[11.5px] text-ink-3">
-                  {source === 'all'
-                    ? t('Every published question you have access to.')
-                    : t('Narrowed to one of your lists — combine it with a topic below.')}
-                </p>
-              </div>
-              <div>
-                <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Question source')}</p>
-                <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-                  {sourceCards.map((opt) => {
-                    const SourceIcon = opt.bucket === 'dept-book' ? BookOpen
-                      : opt.bucket === 'dept-mcq' ? ListChecks
-                      : opt.bucket === 'past-paper' ? GraduationCap
-                      : MoreHorizontal
-                    const active = effectiveSources.has(opt.bucket)
-                    const empty = opt.count === 0
-                    return (
-                      <button
-                        key={opt.bucket}
-                        type="button"
-                        aria-pressed={active}
-                        disabled={empty}
-                        onClick={() => setSourceSel((cur) => {
-                          const next = new Set(cur)
-                          if (next.has(opt.bucket)) next.delete(opt.bucket)
-                          else next.add(opt.bucket)
-                          return next
-                        })}
-                        className={cn(
-                          'flex min-h-[44px] flex-col items-start gap-1 rounded-lg border px-3 py-2.5 text-left transition-colors',
-                          active
-                            ? 'border-primary-line bg-primary-tint'
-                            : 'border-line-2 bg-surface',
-                          empty ? 'opacity-45' : !active && 'hover:border-ink-3/45',
-                        )}
-                      >
-                        <Icon icon={SourceIcon} size={16} className={active ? 'text-primary-strong' : 'text-accent'} />
-                        <span className={cn('text-[12.5px] font-semibold leading-tight', active ? 'text-primary-strong' : 'text-ink')}>
-                          {t(opt.label)}
-                        </span>
-                        <span className="tnum font-mono text-[11px] text-ink-3">
-                          {empty ? t('none yet') : `${opt.count} ${t('questions')}`}
-                        </span>
-                      </button>
-                    )
-                  })}
-                </div>
-                <p className="mt-2 text-[11.5px] text-ink-3">
-                  {sourceCards.every((c) => c.count === 0)
-                    ? t('Nothing is tagged with a source yet — every question counts under all sources for now.')
-                    : effectiveSources.size === 0
-                      ? t('All sources. Pick one or more to narrow the test.')
-                      : t('Only the selected sources are drawn from.')}
-                </p>
-              </div>
-              <div>
-                <div className="mb-2 flex items-center justify-between">
-                  <p className="text-[12.5px] font-medium text-ink-2">{t('Choose a topic or subtopic')}</p>
-                  {scope.size > 0 && (
-                    <button onClick={() => setScope(new Set())} className="text-[12px] font-medium text-primary hover:text-primary-strong">
-                      {t('Clear')}
-                    </button>
-                  )}
-                </div>
-                {/* `pool` keeps the chapter tree stable across sources; `countPool`
-                    is the exact set `available` below draws from, so every
-                    number in the tree matches what starting a session would
-                    actually contain. */}
-                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} countPool={treeCountPool} />
-                <p className="mt-2 text-[11.5px] text-ink-3">
-                  {scope.size === 0
-                    ? t('Nothing selected — questions are drawn from the whole bank.')
-                    : t('Pick a whole chapter, or expand it to choose individual subtopics.')}
-                </p>
-              </div>
-
-              <div>
-                <label htmlFor="session-name" className="mb-2 block text-[12.5px] font-medium text-ink-2">{t('Name this test')}</label>
-                <TextInput
-                  id="session-name"
-                  value={sessionName}
-                  onChange={(event) => setSessionName(event.target.value)}
-                  placeholder={autoSessionName}
-                  maxLength={60}
-                />
-                <p className="mt-1.5 text-[11.5px] text-ink-3">{t('Optional. Left blank, it is named for what it covers.')}</p>
-              </div>
-
-              <div className="flex flex-wrap gap-x-10 gap-y-5">
-                <div>
-                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Mode')}</p>
-                  <Segmented
-                    value={mode}
-                    onChange={(v) => setMode(v as Mode)}
-                    items={[
-                      { value: 'tutor', label: t('Tutor') },
-                      { value: 'timed', label: t('Timed') },
-                    ]}
-                  />
-                  <p className="mt-2 max-w-xs text-[12px] text-ink-3">
-                    {mode === 'tutor'
-                      ? t('Explanations shown after each question.')
-                      : t('Explanations shown at the end, with a timer.')}
-                  </p>
-                </div>
-                <div>
-                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Number of questions')}</p>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <Segmented
-                      value={lenChoice}
-                      onChange={(v) => setLenChoice(v as typeof lenChoice)}
-                      items={[
-                        { value: '5', label: '5' },
-                        { value: '10', label: '10' },
-                        { value: '20', label: '20' },
-                        { value: '40', label: '40' },
-                        { value: 'custom', label: t('Custom') },
-                      ]}
-                    />
-                    {lenChoice === 'custom' && (
-                      <input
-                        type="number"
-                        min={1}
-                        max={MAX_QUESTIONS}
-                        value={customLen}
-                        onChange={(e) => setCustomLen(Math.min(MAX_QUESTIONS, Math.max(1, Number(e.target.value) || 1)))}
-                        className="h-9 w-20 rounded-md border border-line bg-surface px-2.5 text-[13.5px] text-ink focus:border-primary focus:outline-none"
-                        aria-label={t('Number of questions')}
-                      />
-                    )}
-                  </div>
-                  <p className="mt-2 text-[12px] text-ink-3">{t('Up to 40 questions per block.')}</p>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap items-center justify-between gap-3 border-t border-line pt-4">
-                <span className="text-[13px] text-ink-3">
-                  <span className="tnum font-mono font-medium text-ink">
-                    {Math.min(count, available.length)}
-                  </span>{' '}
-                  {t('of')} {available.length} {t('available questions')}
-                </span>
-                <Button variant="primary" size="md" iconLeft={Play} onClick={start} disabled={available.length === 0}>
-                  {t('Start session')}
-                </Button>
-              </div>
+        <QbankHub
+          bank={bank}
+          onBankChange={setBank}
+          tab={hubTab}
+          onTabChange={setHubTab}
+          previousCount={previousCounts[bank]}
+          banner={saved && !saved.submitted && saved.questionIds.length > 0 ? (
+            <div className="mb-5">
+              <ContinueCard
+                name={savedNames[saved.sessionId]?.trim() || t('Untitled test')}
+                answered={Object.keys(saved.answers).length}
+                total={saved.questionIds.length}
+                onContinue={resumeSaved}
+                onDiscard={discardSaved}
+              />
             </div>
-          </Panel>
-
-          <YourQbank questions={questions} history={history} />
-        </div>
-        )}
+          ) : undefined}
+        >
+          {hubTab === 'previous' ? (
+            <PreviousTestsTab
+              filter={previousFilter}
+              onFilterChange={setPreviousFilter}
+              counts={previousCounts}
+              showMcq={previousFilter === 'all' || previousFilter === 'mcq'}
+              showOthers={previousFilter !== 'mcq'}
+              others={<SittingRows sittings={otherSittings} onDelete={sittingsLedger.forget} />}
+              mcq={(
+                <PreviousTests
+                  sessions={sessionSummaries}
+                  names={savedNames}
+                  // `liveSittingId`, not `saved?.sessionId`: a submitted sitting is
+                  // still stored, and calling that one "in progress" put Resume on a
+                  // test that was already finished.
+                  liveSessionId={liveSittingId(saved)}
+                  records={history.records}
+                  questions={questions}
+                  onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
+                  onResume={resumeSaved}
+                  onTerminate={discardSaved}
+                  onReview={reviewSession}
+                  onRetakeSame={retakeSameQuestions}
+                  onRetakeScope={retakeSameScope}
+                  onDelete={deleteSession}
+                  canReview={(sessionId) => reviewableQuestions(sessionId).length > 0}
+                  canRetakeSame={(sessionId) => reviewableQuestions(sessionId).length > 0}
+                  t={t}
+                />
+              )}
+            />
+          ) : (
+            <UnifiedBuilder
+              bank={bank}
+              questions={questions}
+              collections={collectionQuestions}
+              onStart={(pools, split) => mixed.start(pools, split)}
+              // One node, handed to the MCQ composer and to the other three
+              // banks, so "Your progress" sits in the same place whichever
+              // bank is open. Its filter preselects to `bank`.
+              stats={<YourProgress bank={bank} questions={questions} history={history} />}
+              mcq={(
+                <TestBuilder
+                  source={source}
+                  setSource={setSource}
+                  sourceCounts={sourceCounts}
+                  sourceSel={sourceSel}
+                  sourceCards={sourceCards}
+                  scope={scope}
+                  setScope={setScope}
+                  scopePool={articleQuestions}
+                  scopeCountPool={treeCountPool}
+                  count={count}
+                  setCount={setCount}
+                  mode={mode}
+                  setMode={setMode}
+                  sessionName={sessionName}
+                  setSessionName={setSessionName}
+                  autoSessionName={autoSessionName}
+                  matching={available.length}
+                  pool={articleQuestions.length}
+                  onStart={start}
+                  presets={builderPresets}
+                  stats={<YourProgress bank={bank} questions={questions} history={history} />}
+                />
+              )}
+            />
+          )}
+        </QbankHub>
       </PageContainer>
     )
   }
@@ -1847,12 +1796,12 @@ export function QuestionBank() {
             <Icon icon={Trophy} size={24} />
           </div>
           <h1 className="font-serif text-[28px] font-semibold tracking-[-0.02em] text-ink">
-            Session complete
+            {t('Session complete')}
           </h1>
           <p className="mt-1 text-[14px] text-ink-2">
-            You scored{' '}
+            {t('You scored')}{' '}
             <span className="font-medium text-ink">
-              {stats.correct} of {session.length}
+              {stats.correct} {t('of')} {session.length}
             </span>{' '}
             ({pct}%){mode === 'timed' && <>{' '}{t('in')} {clock(elapsed)}{resultClock.overtime > 0 ? ` · +${clock(resultClock.overtime)} ${t('overtime')}` : ''}</>}.
           </p>
@@ -1881,10 +1830,10 @@ export function QuestionBank() {
               setPhase('running')
             }}
           >
-            Review answers
+            {t('Review answers')}
           </Button>
           <Button variant="primary" size="md" iconLeft={RotateCcw} onClick={discardSession}>
-            New session
+            {t('New session')}
           </Button>
         </div>
       </PageContainer>
@@ -2147,7 +2096,7 @@ export function QuestionBank() {
             <div className="flex flex-wrap items-center gap-2">
               <span className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-ink">
                 <SubjectDot id={q.subjectId} />
-                {getSubject(q.subjectId).name}
+                {subjectName(q.subjectId)}
               </span>
               <span className="text-ink-3">·</span>
               <span className="text-[12.5px] text-ink-3">{q.topic}</span>
@@ -2161,7 +2110,7 @@ export function QuestionBank() {
 
             {q.attachedImage && (
               <div className="mt-4 overflow-hidden rounded-xl border border-line bg-inset p-2">
-                <ZoomableImage src={q.attachedImage} alt="Question attachment" className="max-h-80 w-full rounded-lg object-contain" />
+                <ZoomableImage src={q.attachedImage} alt={t('Question attachment')} className="max-h-80 w-full rounded-lg object-contain" />
               </div>
             )}
             {q.attachments && q.attachments.length > 0 && (
@@ -2283,7 +2232,7 @@ export function QuestionBank() {
                           aria-label={`${ruledOut ? t('Rule back in') : t('Rule out')}: ${opt.text}`}
                           title={ruledOut ? t('Include this answer again') : t('Exclude this answer')}
                           className={cn(
-                            'absolute end-2 top-1/2 grid size-8 -translate-y-1/2 place-items-center rounded-md border transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
+                            'absolute end-2 top-1/2 grid size-11 -translate-y-1/2 place-items-center rounded-md border transition-colors sm:size-8 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
                             ruledOut
                               ? 'border-danger/30 bg-danger-tint text-danger'
                               : 'border-transparent text-ink-3 hover:border-line hover:bg-inset hover:text-ink',
@@ -2303,7 +2252,7 @@ export function QuestionBank() {
                 <button
                   type="button"
                   onClick={() => { const correct = q.options.find((option) => option.correct); setFlashcardSeed({ front: q.stem, back: correct ? correct.text : q.explanation }) }}
-                  className="inline-flex items-center gap-1.5 rounded-md border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 transition-colors hover:bg-surface-2 hover:text-ink"
+                  className="inline-flex min-h-11 items-center gap-1.5 rounded-md border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 transition-colors hover:bg-surface-2 hover:text-ink sm:min-h-0"
                 >
                   <Icon icon={Sparkles} size={14} /> {t('Create flashcard')}
                 </button>
@@ -2316,7 +2265,7 @@ export function QuestionBank() {
                 twice. */}
             {revealed && !splitActive && hasSeparateExplanation && (
               <div className="mt-6 rounded-xl border border-line bg-surface-2 p-4">
-                <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Explanation')}</p>
+                <p className="mb-1.5 text-[13px] font-semibold text-ink">{t('Explanation')}</p>
                 <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={q.explanation} enabled blockId="explanation" highlights={highlights} /></p>
               </div>
             )}
@@ -2327,7 +2276,7 @@ export function QuestionBank() {
               instead of under each option, never in addition to it. */}
           {revealed && splitActive && (
             <div className="mt-6 space-y-2.5 lg:mt-0">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Answer explanations')}</p>
+              <p className="text-[13px] font-semibold text-ink">{t('Answer explanations')}</p>
               {q.options.map((opt, i) => {
                 const rationaleText = opt.rationale.trim()
                 if (!rationaleText) return null
@@ -2364,7 +2313,7 @@ export function QuestionBank() {
               })}
               {hasSeparateExplanation && (
                 <div className="rounded-xl border border-line bg-surface-2 p-4">
-                  <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Explanation')}</p>
+                  <p className="mb-1.5 text-[13px] font-semibold text-ink">{t('Explanation')}</p>
                   <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={q.explanation} enabled blockId="explanation" highlights={highlights} /></p>
                 </div>
               )}
@@ -2381,7 +2330,7 @@ export function QuestionBank() {
             onClick={() => setIdx((i) => Math.max(0, i - 1))}
             disabled={idx === 0}
           >
-            Previous
+            {t('Previous')}
           </Button>
 
           {!reviewing && mode === 'tutor' && !checked[q.id] ? (
@@ -2391,7 +2340,7 @@ export function QuestionBank() {
               disabled={chosen == null}
               onClick={checkAnswer}
             >
-              Check answer
+              {t('Check answer')}
             </Button>
           ) : last ? (
             <Button
@@ -2410,11 +2359,11 @@ export function QuestionBank() {
                 setPhase(reviewing ? reviewReturn : 'results')
               }}
             >
-              {reviewing ? 'Finish review' : 'See results'}
+              {reviewing ? t('Finish review') : t('See results')}
             </Button>
           ) : (
             <Button variant="primary" size="md" iconRight={ArrowRight} onClick={() => setIdx((i) => i + 1)}>
-              Next
+              {t('Next')}
             </Button>
           )}
         </div>

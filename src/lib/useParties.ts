@@ -45,11 +45,26 @@ export interface OpenParty {
   members: number
 }
 
+/** A member's seat as the server stores it. Every piece may be unchosen. */
+export interface PartyMemberSeat {
+  desk: 'plain' | 'drawer' | 'corner' | null
+  device: 'laptop' | 'desktop' | 'tablet' | 'iphone' | 'android' | null
+  chair: 'stool' | 'office' | null
+  /** Which of the room's twenty desks, or null for "here, nowhere in particular". */
+  seatIndex: number | null
+}
+
 export interface PartyMember {
   userId: string
   displayName: string
   role: 'host' | 'member'
   joinedAt: string
+  /** Null until this member has chosen anything. Absent from a server that predates seats. */
+  seat?: PartyMemberSeat | null
+  /** The last heartbeat, ISO. Null for a member who has never sent one. */
+  lastActiveAt?: string | null
+  /** What that heartbeat claimed, expired by the server against its own clock. */
+  activity?: 'studying' | 'idle'
 }
 
 export interface Party {
@@ -182,10 +197,27 @@ export function useOpenParties() {
  * Polling stops once the party is archived: there is nothing further to
  * learn, the same reasoning `useRoom` applies to a closed room.
  */
-export function useParty(partyId: string | null) {
+/** A backgrounded read still watches, at a fifteenth of the rate. */
+const SLOW_POLL_MS = POLL_MS * 15
+
+/**
+ * One party, re-read while it is still active — slowly, when something better
+ * is watching it.
+ *
+ * `background` stands the four-second poll down to one a minute rather than
+ * stopping it: a study room with an open WebSocket already learns about every
+ * membership and seat change the instant it happens, and polling underneath it
+ * would be a query a minute per member for news the room already has. But the
+ * socket carries members and nothing else — `archivedAt`, `visibility`, the
+ * name and the host all come from this read, and stopping it outright left a
+ * member of an archived room with a fully interactive room until they navigated
+ * away.
+ */
+export function useParty(partyId: string | null, options?: { background?: boolean }) {
   const [party, setParty] = useState<Party | null>(null)
   const [error, setError] = useState('')
   const archivedRef = useRef(false)
+  const background = Boolean(options?.background)
 
   const load = useCallback(async () => {
     if (!partyId || !API_MODE) return
@@ -205,9 +237,9 @@ export function useParty(partyId: string | null) {
     const timer = window.setInterval(() => {
       if (archivedRef.current) return
       void load()
-    }, POLL_MS)
+    }, background ? SLOW_POLL_MS : POLL_MS)
     return () => window.clearInterval(timer)
-  }, [load, partyId])
+  }, [load, partyId, background])
 
   return { party, error, reload: load, setParty }
 }

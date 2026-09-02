@@ -1,4 +1,5 @@
 import { getSubject } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import { useSystemColor } from '@/data/systemColors'
 import { cn } from '@/lib/cn'
 
@@ -41,6 +42,8 @@ export function SystemMark({
 }) {
   const subject = getSubject(subjectId ?? '')
   const resolved = useSystemColor(subjectId ?? '')
+  const subjectName = useSubjectName()
+  const label = subjectName(subjectId ?? '')
 
   const parsed = moduleId ? moduleId.trim().match(/^(.*?)[\s·-]*(\d+)$/) : null
   const rawCode = moduleId
@@ -71,7 +74,7 @@ export function SystemMark({
         width,
         className,
       )}
-      title={title ?? (number ? `${subject.name} ${number}` : subject.name)}
+      title={title ?? (number ? `${label} ${number}` : label)}
       aria-hidden
     >
       <span style={{ backgroundColor: color ?? resolved }} aria-hidden />

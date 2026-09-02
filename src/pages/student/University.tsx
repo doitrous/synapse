@@ -10,12 +10,14 @@ import { Badge } from '@/components/ui/Badge'
 import { ButtonLink } from '@/components/ui/Button'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Icon } from '@/components/ui/Icon'
+import { NishanyLoader } from '@/components/ui/NishanyLoader'
 import { Meter } from '@/components/ui/Meter'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { API_MODE } from '@/lib/api'
 import { formatClock, formatLongDate } from '@/lib/format'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 import {
   normalizeStudentUniversityProjection,
   type StudentAssessmentMap,
@@ -26,8 +28,8 @@ import {
 } from './universityModel'
 import { useDemoUniversityProjection, useLiveUniversityProjection } from './useStudentCurriculum'
 
-function n(value: number | null): string {
-  if (value === null) return 'unavailable'
+function n(value: number | null, t: (en: string) => string = (en) => en): string {
+  if (value === null) return t('unavailable')
   return new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(value)
 }
 
@@ -55,17 +57,19 @@ function friendlyState(label: string) {
 }
 
 function FriendlyBadges({ labels, limit = 2 }: { labels: string[]; limit?: number }) {
+  const t = useT()
   const resolved = labels.map(friendlyState).filter((entry): entry is NonNullable<typeof entry> => Boolean(entry)).slice(0, limit)
   if (resolved.length === 0) return null
   return (
     <>
-      {resolved.map((entry) => <Badge key={entry.text} tone={entry.tone}>{entry.text}</Badge>)}
+      {resolved.map((entry) => <Badge key={entry.text} tone={entry.tone}>{t(entry.text)}</Badge>)}
     </>
   )
 }
 
 function SubjectTree({ subjects, depth = 0 }: { subjects: StudentSubjectMap[]; depth?: number }) {
-  if (subjects.length === 0) return <p className="text-[12.5px] text-ink-3">Your faculty hasn&apos;t published a topic breakdown for this module yet.</p>
+  const t = useT()
+  if (subjects.length === 0) return <p className="text-[12.5px] text-ink-3">{t("Your faculty hasn't published a topic breakdown for this module yet.")}</p>
   return (
     <ul className={cn(depth === 0 && 'space-y-1.5')}>
       {subjects.map((subject) => (
@@ -74,7 +78,7 @@ function SubjectTree({ subjects, depth = 0 }: { subjects: StudentSubjectMap[]; d
             <span className={cn('size-1.5 shrink-0 rounded-full', depth === 0 ? 'bg-primary/55' : 'bg-accent/45')} />
             <span className="truncate text-[12.5px] text-ink-2">{subject.name}</span>
             {subject.coverageCount > 0 && (
-              <span className="hidden shrink-0 text-[11px] text-ink-3 sm:inline">{subject.coverageCount} resources</span>
+              <span className="hidden shrink-0 text-[11px] text-ink-3 sm:inline">{subject.coverageCount} {t('resources')}</span>
             )}
             <span className="hidden shrink-0 gap-1 sm:inline-flex">
               <FriendlyBadges labels={subject.labels} />
@@ -88,15 +92,17 @@ function SubjectTree({ subjects, depth = 0 }: { subjects: StudentSubjectMap[]; d
 }
 
 function ModuleBadge({ badge }: { badge: StudentModuleMap['badges'][number] }) {
-  if (badge === 'verified') return <Badge tone="success" dot>Marks confirmed</Badge>
-  if (badge === 'carried-forward') return <Badge tone="neutral" dot>Continued from last year</Badge>
-  if (badge === 'inferred') return <Badge tone="accent" dot>Estimated</Badge>
-  if (badge === 'being-verified') return <Badge tone="warning" dot>Being confirmed</Badge>
-  if (badge === 'needs-marks') return <Badge tone="warning" dot>Marks coming soon</Badge>
-  return <Badge tone="warning" dot>Schedule coming soon</Badge>
+  const t = useT()
+  if (badge === 'verified') return <Badge tone="success" dot>{t('Marks confirmed')}</Badge>
+  if (badge === 'carried-forward') return <Badge tone="neutral" dot>{t('Continued from last year')}</Badge>
+  if (badge === 'inferred') return <Badge tone="accent" dot>{t('Estimated')}</Badge>
+  if (badge === 'being-verified') return <Badge tone="warning" dot>{t('Being confirmed')}</Badge>
+  if (badge === 'needs-marks') return <Badge tone="warning" dot>{t('Marks coming soon')}</Badge>
+  return <Badge tone="warning" dot>{t('Schedule coming soon')}</Badge>
 }
 
 function AssessmentPanel({ assessment }: { assessment: StudentAssessmentMap }) {
+  const t = useT()
   const visibleComponents = assessment.components.filter((component) => component.marks !== null)
   const maxComponent = Math.max(1, ...visibleComponents.map((component) => component.marks ?? 0))
   const status = friendlyState(assessment.status)
@@ -104,18 +110,18 @@ function AssessmentPanel({ assessment }: { assessment: StudentAssessmentMap }) {
     <div className="rounded-lg border border-line bg-surface-2 p-3">
       <div className="mb-3 flex items-end justify-between gap-3">
         <div>
-          <p className="text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">Total marks</p>
-          <p className="tnum mt-1 font-serif text-[26px] font-semibold leading-none text-ink">{assessment.displayTotal === 'unavailable' ? 'Not published yet' : assessment.displayTotal}</p>
+          <p className="text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Total marks')}</p>
+          <p className="tnum mt-1 font-serif text-[26px] font-semibold leading-none text-ink">{assessment.displayTotal === 'unavailable' ? t('Not published yet') : assessment.displayTotal}</p>
         </div>
         <Icon icon={Scale} size={18} className="text-ink-3" />
       </div>
       <div className="mb-3 flex flex-wrap gap-1.5">
-        {status && <Badge tone={status.tone} dot>{status.text}</Badge>}
-        {assessment.credits !== null && <Badge tone="outline">{assessment.credits} credits</Badge>}
+        {status && <Badge tone={status.tone} dot>{t(status.text)}</Badge>}
+        {assessment.credits !== null && <Badge tone="outline">{assessment.credits} {t('credit hours')}</Badge>}
         {assessment.passRule && <Badge tone="outline">{assessment.passRule}</Badge>}
       </div>
       {visibleComponents.length === 0 ? (
-        <p className="text-[12.5px] leading-relaxed text-ink-3">Your faculty hasn&apos;t published how this module&apos;s marks break down yet.</p>
+        <p className="text-[12.5px] leading-relaxed text-ink-3">{t("Your faculty hasn't published how this module's marks break down yet.")}</p>
       ) : (
         <div className="space-y-2">
           {visibleComponents.map((component) => (
@@ -143,8 +149,9 @@ function AssessmentPanel({ assessment }: { assessment: StudentAssessmentMap }) {
 }
 
 function ScheduleList({ rows, compact = false }: { rows: StudentScheduleMap[]; compact?: boolean }) {
+  const t = useT()
   if (rows.length === 0) {
-    return <p className="text-[12.5px] leading-relaxed text-ink-3">Schedule coming soon — your faculty hasn&apos;t published this module&apos;s timetable yet.</p>
+    return <p className="text-[12.5px] leading-relaxed text-ink-3">{t("Schedule coming soon — your faculty hasn't published this module's timetable yet.")}</p>
   }
   const visible = compact ? rows.slice(0, 3) : rows
   return (
@@ -155,7 +162,7 @@ function ScheduleList({ rows, compact = false }: { rows: StudentScheduleMap[]; c
             <div className="min-w-0">
               <p className="truncate text-[12.5px] font-semibold text-ink">{row.title}</p>
               <p className="mt-0.5 text-[11.5px] text-ink-3">
-                {row.start ? `${formatLongDate(row.start)} · ${formatClock(row.start)}` : row.date ?? 'Date to be announced'}
+                {row.start ? `${formatLongDate(row.start)} · ${formatClock(row.start)}` : row.date ?? t('Date to be announced')}
                 {row.location ? ` · ${row.location}` : ''}
               </p>
             </div>
@@ -164,7 +171,7 @@ function ScheduleList({ rows, compact = false }: { rows: StudentScheduleMap[]; c
           {(row.labels.some((label) => friendlyState(label)) || row.linkCount > 0) && (
             <div className="mt-2 flex flex-wrap gap-1">
               <FriendlyBadges labels={row.labels} limit={row.labels.length} />
-              {row.linkCount > 0 && <Badge tone="accent"><Icon icon={Link2} size={11} /> {row.linkCount} resources linked</Badge>}
+              {row.linkCount > 0 && <Badge tone="accent"><Icon icon={Link2} size={11} /> {row.linkCount} {t('resources linked')}</Badge>}
             </div>
           )}
         </li>
@@ -174,6 +181,7 @@ function ScheduleList({ rows, compact = false }: { rows: StudentScheduleMap[]; c
 }
 
 function ModuleCard({ module }: { module: StudentModuleMap }) {
+  const t = useT()
   return (
     <Panel className="relative overflow-hidden">
       <div className="absolute start-[-1px] top-0 h-full w-1 bg-primary/45" aria-hidden />
@@ -184,7 +192,7 @@ function ModuleCard({ module }: { module: StudentModuleMap }) {
             <div className="min-w-0">
               <h3 className="truncate font-serif text-[19px] font-semibold tracking-[-0.02em] text-ink">{module.name}</h3>
               <p className="mt-0.5 text-[12.5px] text-ink-3">
-                {module.moduleId} · {module.subjectCount} {module.subjectCount === 1 ? 'topic' : 'topics'} · {module.schedule.length} {module.schedule.length === 1 ? 'session' : 'sessions'}
+                {module.moduleId} · {module.subjectCount} {module.subjectCount === 1 ? t('topic') : t('topics')} · {module.schedule.length} {module.schedule.length === 1 ? t('session') : t('sessions')}
               </p>
             </div>
           </div>
@@ -198,14 +206,14 @@ function ModuleCard({ module }: { module: StudentModuleMap }) {
             <div className="rounded-lg border border-line bg-surface-2 p-3">
               <div className="mb-2 flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">
                 <Icon icon={Microscope} size={14} />
-                Topics covered
+                {t('Topics covered')}
               </div>
               <SubjectTree subjects={module.subjects} />
             </div>
             <div className="rounded-lg border border-line bg-surface-2 p-3">
               <div className="mb-2 flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">
                 <Icon icon={CalendarDays} size={14} />
-                Timetable
+                {t('Timetable')}
               </div>
               <ScheduleList rows={module.schedule} compact />
             </div>
@@ -221,6 +229,7 @@ function ModuleCard({ module }: { module: StudentModuleMap }) {
 /** ArrowLeft to the previous screen, falling back to the dashboard when this
  * is the first entry in the tab's history (a fresh tab, a bookmark, a deep link). */
 function BackButton() {
+  const t = useT()
   const navigate = useNavigate()
   const handleBack = useCallback(() => {
     const historyIndex = (window.history.state as { idx?: number } | null)?.idx
@@ -231,10 +240,10 @@ function BackButton() {
     <button
       type="button"
       onClick={handleBack}
-      className="mb-3 inline-flex min-h-9 items-center gap-1.5 rounded-md px-2 -ms-2 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+      className="mb-3 inline-flex min-h-11 items-center gap-1.5 rounded-md px-2 -ms-2 sm:min-h-9 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
     >
       <Icon icon={ArrowLeft} size={15} className="rtl:-scale-x-100" />
-      Back
+      {t('Back')}
     </button>
   )
 }
@@ -252,20 +261,21 @@ function CurriculumView({
   demo?: boolean
   onRetry?: () => void
 }) {
+  const t = useT()
   const totalMarks = map?.totals.marks ?? null
-  const yearLabel = map?.year?.year ?? 'your year'
+  const yearLabel = map?.year?.year ?? t('your year')
   return (
     <PageContainer>
       <BackButton />
       <PageHeader
-        title="Your University"
-        description="Your own year, laid out clearly: modules and terms, how each is marked, and the timetable your faculty has published so far."
+        title={t('Your University')}
+        description={t('Your own year, laid out clearly: modules and terms, how each is marked, and the timetable your faculty has published so far.')}
         actions={
           <>
-            <ButtonLink to="/app/library" variant="secondary" iconLeft={BookOpen}>Library</ButtonLink>
-            <ButtonLink to="/app/qbank" variant="secondary" iconLeft={FileQuestion}>Qbank</ButtonLink>
-            <ButtonLink to="/app/practical" variant="secondary" iconLeft={Stethoscope}>Practical</ButtonLink>
-            <ButtonLink to="/app/calendar" variant="primary" iconLeft={CalendarDays}>Calendar</ButtonLink>
+            <ButtonLink to="/app/library" variant="secondary" iconLeft={BookOpen}>{t('Library')}</ButtonLink>
+            <ButtonLink to="/app/qbank" variant="secondary" iconLeft={FileQuestion}>{t('Qbank')}</ButtonLink>
+            <ButtonLink to="/app/practical" variant="secondary" iconLeft={Stethoscope}>{t('Practical')}</ButtonLink>
+            <ButtonLink to="/app/calendar" variant="primary" iconLeft={CalendarDays}>{t('Calendar')}</ButtonLink>
           </>
         }
       />
@@ -274,10 +284,10 @@ function CurriculumView({
         <Panel className="mb-4 flex flex-wrap items-center justify-between gap-3 border-danger/35 bg-danger-tint p-4 text-[13px] text-ink-2">
           {/* The specific reason is intentionally not shown here — only ever
               logged to the console — so nothing technical reaches the page. */}
-          <span>Something went wrong loading your university page. Please try again in a moment.</span>
+          <span>{t('Something went wrong loading your university page. Please try again in a moment.')}</span>
           {onRetry && (
             <button type="button" onClick={onRetry} className="inline-flex items-center gap-1.5 rounded-md border border-line bg-surface px-2.5 py-1 text-[12.5px] font-semibold text-ink hover:bg-surface-2">
-              <Icon icon={RotateCw} size={13} /> Try again
+              <Icon icon={RotateCw} size={13} /> {t('Try again')}
             </button>
           )}
         </Panel>
@@ -285,23 +295,26 @@ function CurriculumView({
 
       {loading ? (
         <Panel>
-          <EmptyState icon={GraduationCap} title="Loading your university page" description="Just a moment while we bring in your modules, timetable and marks." />
+          <div className="grid min-h-52 place-items-center gap-3 px-6 py-12 text-center">
+            <NishanyLoader size={44} label={t('Loading your university page')} />
+            <p className="text-[13px] text-ink-2">{t('Just a moment while we bring in your modules, timetable and marks.')}</p>
+          </div>
         </Panel>
       ) : !map || map.status === 'missing_profile' ? (
         <Panel>
           <EmptyState
             icon={MapPinned}
-            title="Tell Nishany where you study"
-            description="Add your university and year to your account, and this page will fill in with your own modules and timetable."
-            action={<ButtonLink to="/app/account" variant="primary">Open account settings</ButtonLink>}
+            title={t('Tell Nishany where you study')}
+            description={t('Add your university and year to your account, and this page will fill in with your own modules and timetable.')}
+            action={<ButtonLink to="/app/account" variant="primary">{t('Open account settings')}</ButtonLink>}
           />
         </Panel>
       ) : map.status === 'being_verified' || !map.university || !map.year ? (
         <Panel>
           <EmptyState
             icon={TriangleAlert}
-            title="This year is being set up"
-            description="You're enrolled, but your faculty's curriculum for this year hasn't been published yet. Check back soon."
+            title={t('This year is being set up')}
+            description={t("You're enrolled, but your faculty's curriculum for this year hasn't been published yet. Check back soon.")}
           />
         </Panel>
       ) : (
@@ -312,7 +325,7 @@ function CurriculumView({
                 <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-line bg-surface-2 px-2.5 py-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">
                   <Icon icon={GraduationCap} size={13} />
                   {map.university.short} · {map.year.year}
-                  {demo && <span className="ms-1 rounded-full bg-primary-tint px-2 text-primary-strong">preview data</span>}
+                  {demo && <span className="ms-1 rounded-full bg-primary-tint px-2 text-primary-strong">{t('preview data')}</span>}
                 </div>
                 <h2 className="text-balance font-serif text-[30px] font-semibold tracking-[-0.03em] text-ink">{map.university.name}</h2>
                 <p className="mt-1.5 flex items-center gap-1.5 text-[13px] text-ink-3">
@@ -321,22 +334,22 @@ function CurriculumView({
                 </p>
                 <p className="mt-2 max-w-2xl text-pretty text-[14px] leading-relaxed text-ink-2">
                   {demo
-                    ? 'This is sample data so you can see how your university page will look and feel.'
-                    : `This page shows only what's yours — ${yearLabel} at ${map.university.name}, nothing from any other university or year.`}
+                    ? t('This is sample data so you can see how your university page will look and feel.')
+                    : t("This page shows only what's yours — {year} at {university}, nothing from any other university or year.").replace('{year}', yearLabel).replace('{university}', map.university.name)}
                 </p>
               </div>
               <div className="grid grid-cols-3 border-t border-line bg-surface-2 md:border-s md:border-t-0">
                 <div className="p-4">
-                  <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Terms</p>
+                  <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">{t('Academic terms')}</p>
                   <p className="tnum mt-2 font-serif text-[26px] font-semibold text-ink">{map.totals.terms}</p>
                 </div>
                 <div className="border-s border-line p-4">
-                  <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Modules</p>
+                  <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">{t('Modules')}</p>
                   <p className="tnum mt-2 font-serif text-[26px] font-semibold text-ink">{map.totals.modules}</p>
                 </div>
                 <div className="border-s border-line p-4">
-                  <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Total marks</p>
-                  <p className="tnum mt-2 font-serif text-[26px] font-semibold text-ink">{n(totalMarks)}</p>
+                  <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">{t('Total marks')}</p>
+                  <p className="tnum mt-2 font-serif text-[26px] font-semibold text-ink">{n(totalMarks, t)}</p>
                 </div>
               </div>
             </div>
@@ -346,7 +359,7 @@ function CurriculumView({
             <div className="min-w-0 space-y-5">
               {map.terms.length === 0 || map.totals.modules === 0 ? (
                 <Panel>
-                  <EmptyState icon={History} title="No modules published for your year yet" description="Once your faculty's modules are published, they'll appear here, organised by term. Library and Qbank still work in the meantime." />
+                  <EmptyState icon={History} title={t('No modules published for your year yet')} description={t("Once your faculty's modules are published, they'll appear here, organised by term. Library and Qbank still work in the meantime.")} />
                 </Panel>
               ) : map.terms.map((term, index) => (
                 <section key={term.term} className="relative ps-7">
@@ -356,10 +369,10 @@ function CurriculumView({
                   </span>
                   <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
                     <div>
-                      <p className="text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-3">Term {index + 1}</p>
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-3">{t('Term {n}').replace('{n}', String(index + 1))}</p>
                       <h2 className="font-serif text-[23px] font-semibold tracking-[-0.025em] text-ink">{term.term}</h2>
                     </div>
-                    <Badge tone="outline">{term.modules.length} modules · {n(term.marks)} marks</Badge>
+                    <Badge tone="outline">{t('{modules} modules · {marks} marks').replace('{modules}', String(term.modules.length)).replace('{marks}', n(term.marks, t))}</Badge>
                   </div>
                   <div className="space-y-3">
                     {term.modules.map((module) => <ModuleCard key={module.id} module={module} />)}
@@ -370,10 +383,10 @@ function CurriculumView({
 
             <aside className="space-y-4 xl:sticky xl:top-4 xl:self-start">
               <Panel className="overflow-hidden">
-                <PanelHeader title="Coming up" icon={CalendarDays} hint={map.upcoming.length > 0 ? `next ${Math.min(map.upcoming.length, 4)}` : undefined} />
+                <PanelHeader title={t('Coming up')} icon={CalendarDays} hint={map.upcoming.length > 0 ? t('next {n}').replace('{n}', String(Math.min(map.upcoming.length, 4))) : undefined} />
                 {map.upcoming.length === 0 ? (
                   <div className="p-4 text-[13px] leading-relaxed text-ink-2">
-                    Nothing upcoming yet — your faculty hasn&apos;t published future timetable dates for this year. Past sessions may still show on a module as "from last year".
+                    {t('Nothing upcoming yet — your faculty hasn\'t published future timetable dates for this year. Past sessions may still show on a module as "from last year".')}
                   </div>
                 ) : (
                   <ul className="divide-y divide-line">
@@ -386,7 +399,7 @@ function CurriculumView({
                           <div className="min-w-0">
                             <p className="truncate text-[13px] font-semibold text-ink">{session.title}</p>
                             <p className="mt-0.5 text-[12px] text-ink-3">{session.moduleName}</p>
-                            <p className="mt-1 text-[12px] text-ink-2">{session.start ? `${formatLongDate(session.start)} · ${formatClock(session.start)}` : session.date ?? 'Date to be announced'}</p>
+                            <p className="mt-1 text-[12px] text-ink-2">{session.start ? `${formatLongDate(session.start)} · ${formatClock(session.start)}` : session.date ?? t('Date to be announced')}</p>
                             {session.labels.some((label) => friendlyState(label)) && (
                               <div className="mt-2 flex flex-wrap gap-1">
                                 <FriendlyBadges labels={session.labels} limit={session.labels.length} />
@@ -403,31 +416,31 @@ function CurriculumView({
               <Panel className="p-4">
                 <div className="mb-3 flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">
                   <Icon icon={GraduationCap} size={14} />
-                  Your enrolment
+                  {t('Your enrolment')}
                 </div>
                 <p className="text-[13px] leading-relaxed text-ink-2">
-                  You&apos;re set up as a <span className="font-semibold text-ink">{map.year.year}</span> student at <span className="font-semibold text-ink">{map.university.name}</span>. Wrong university or year?
+                  {t("You're set up as a")} <span className="font-semibold text-ink">{map.year.year}</span> {t('student at')} <span className="font-semibold text-ink">{map.university.name}</span>{t('. Wrong university or year?')}
                 </p>
-                <Link to="/app/account" className="mt-3 inline-flex text-[13px] font-semibold text-primary-strong hover:text-primary">Update in account settings</Link>
+                <Link to="/app/account" className="mt-3 inline-flex min-h-11 items-center text-[13px] font-semibold text-primary-strong hover:text-primary sm:min-h-0">{t('Update in account settings')}</Link>
               </Panel>
 
               <Panel className="p-4">
                 <div className="mb-3 flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">
                   <Icon icon={ListChecks} size={14} />
-                  This year at a glance
+                  {t('This year at a glance')}
                 </div>
                 <div className="grid grid-cols-2 gap-3">
                   <div>
-                    <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Topics</p>
+                    <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">{t('Topics')}</p>
                     <p className="tnum mt-1 font-serif text-[22px] font-semibold text-ink">{map.totals.subjects}</p>
                   </div>
                   <div>
-                    <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Timetable sessions</p>
+                    <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">{t('Timetable sessions')}</p>
                     <p className="tnum mt-1 font-serif text-[22px] font-semibold text-ink">{map.totals.scheduleRows}</p>
                   </div>
                 </div>
                 {map.totals.marksUnavailable && (
-                  <p className="mt-3 text-[12.5px] leading-relaxed text-ink-3">Some modules&apos; marks haven&apos;t been published yet — check back closer to exams.</p>
+                  <p className="mt-3 text-[12.5px] leading-relaxed text-ink-3">{t("Some modules' marks haven't been published yet — check back closer to exams.")}</p>
                 )}
               </Panel>
             </aside>

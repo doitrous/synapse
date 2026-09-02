@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { escapeHtml, isRichEmpty, richToPlainText, sanitizeRich } from './richText.ts'
+import { escapeHtml, isLegacyPlainText, isRichEmpty, richToPlainText, sanitizeRich } from './richText.ts'
 
 test('allowed inline formatting survives', () => {
   assert.equal(sanitizeRich('<b>bold</b> and <i>italic</i>'), '<b>bold</b> and <i>italic</i>')
@@ -55,6 +55,36 @@ test('lists survive', () => {
 test('escapeHtml and plain text round-trip visibly', () => {
   assert.equal(escapeHtml('a & <b>'), 'a &amp; &lt;b&gt;')
   assert.equal(richToPlainText('<b>Aorta</b> &amp; vein'), 'Aorta & vein')
+})
+
+test('escaping is idempotent, so a field never gains an &amp; layer', () => {
+  // sanitizeRich runs on the way in AND on the way out (RichHtml re-sanitizes),
+  // so a blanket & -> &amp; grew one layer per save and per render.
+  assert.equal(escapeHtml(escapeHtml('a & b')), escapeHtml('a & b'))
+  assert.equal(sanitizeRich(sanitizeRich('a < b && c > d')), sanitizeRich('a < b && c > d'))
+  assert.equal(sanitizeRich('a &amp; b'), 'a &amp; b')
+  assert.equal(sanitizeRich('<b>x</b> &amp; y'), '<b>x</b> &amp; y')
+  // …and what the reader sees is still the characters that were typed.
+  assert.equal(richToPlainText(sanitizeRich(sanitizeRich('a < b && c > d'))), 'a < b && c > d')
+})
+
+test('a preserved entity is still inert text, never markup', () => {
+  const escaped = '&lt;script&gt;alert(1)&lt;/script&gt;'
+  assert.equal(sanitizeRich(escaped), escaped)
+  assert.equal(richToPlainText(sanitizeRich(escaped)), '<script>alert(1)</script>')
+  // A real tag is still dropped, content and all.
+  assert.equal(sanitizeRich('<script>alert(1)</script>hi'), 'hi')
+  assert.equal(escapeHtml('<img src=x onerror=y>'), '&lt;img src=x onerror=y&gt;')
+})
+
+test('legacy plain text is told apart from stored HTML', () => {
+  assert.equal(isLegacyPlainText('a < b && c > d'), true)
+  assert.equal(isLegacyPlainText('The {{c1::mitral}} valve'), true)
+  assert.equal(isLegacyPlainText(''), true)
+  assert.equal(isLegacyPlainText('Q & A, 5 < 6'), true)
+  assert.equal(isLegacyPlainText('<b>bold</b>'), false)
+  assert.equal(isLegacyPlainText('a &amp; b'), false)
+  assert.equal(isLegacyPlainText('<br>'), false)
 })
 
 test('emptiness ignores markup but respects real content', () => {

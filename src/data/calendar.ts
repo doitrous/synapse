@@ -27,4 +27,6 @@ export interface CalEvent {
   location?: string
   /** True for an exam block, which is worth marking differently. */
   isExam?: boolean
+  /** For a task (`kind: 'task'`): whether it has been ticked off. */
+  isDone?: boolean
 }

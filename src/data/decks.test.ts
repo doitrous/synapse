@@ -65,3 +65,11 @@ test('a deck built from taxonomy terms is stable across two runs', () => {
   assert.deepEqual(first.cards.map((card) => card.id), second.cards.map((card) => card.id))
   assert.equal(first.cards[0].front, 'Aorta')
 })
+
+test('the whole-glossary deck keeps its pre-rename id while category decks slug from their name', () => {
+  const terms = [{ id: 'anterior', term: 'Anterior', def: 'Toward the front.' }]
+  const whole = deckFromTerms('Medical Terminology', terms)
+  assert.equal(whole.id, 'deck-taxonomy-medical-taxonomy')
+  assert.equal(whole.title, 'Medical Terminology')
+  assert.equal(deckFromTerms('Word parts', terms).id, 'deck-taxonomy-word-parts')
+})

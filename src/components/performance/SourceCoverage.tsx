@@ -4,6 +4,7 @@ import { Meter } from '@/components/ui/Meter'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 import { sourceCoverage } from '@/data/sourceCoverage'
 import type { AttemptRecord } from '@/data/attempts'
+import { useT } from '@/lib/i18n'
 
 function tone(pct: number): 'danger' | 'warning' | 'success' {
   return pct < 34 ? 'danger' : pct < 67 ? 'warning' : 'success'
@@ -17,6 +18,7 @@ function tone(pct: number): 'danger' | 'warning' | 'success' {
  * what is left. Hidden entirely until some source-tagged questions exist.
  */
 export function SourceCoveragePanel({ records }: { records: AttemptRecord[] }) {
+  const t = useT()
   const questions = usePublishedQuestions()
   const answered = new Set(records.map((r) => r.itemId))
   const rows = sourceCoverage(questions, answered)
@@ -26,9 +28,9 @@ export function SourceCoveragePanel({ records }: { records: AttemptRecord[] }) {
   return (
     <Panel>
       <PanelHeader
-        title="Coverage by source"
+        title={t('Coverage by source')}
         icon={Layers}
-        hint="Questions and concepts you have seen, by source"
+        hint={t('Questions and concepts you have seen, by source')}
       />
       <div className="space-y-5 p-5">
         {rows.map((row) => {
@@ -40,14 +42,14 @@ export function SourceCoveragePanel({ records }: { records: AttemptRecord[] }) {
               <div className="space-y-2">
                 <div>
                   <div className="flex items-baseline justify-between">
-                    <span className="text-[11.5px] text-ink-3">Questions</span>
+                    <span className="text-[11.5px] text-ink-3">{t('Questions')}</span>
                     <span className="font-mono text-[12px] text-ink-2">{row.questionsAnswered}/{row.questionsAvailable}</span>
                   </div>
                   <Meter value={qPct} tone={tone(qPct)} className="mt-1" />
                 </div>
                 <div>
                   <div className="flex items-baseline justify-between">
-                    <span className="text-[11.5px] text-ink-3">Concepts</span>
+                    <span className="text-[11.5px] text-ink-3">{t('Concepts')}</span>
                     <span className="font-mono text-[12px] text-ink-2">{row.conceptsSeen}/{row.conceptsAvailable}</span>
                   </div>
                   <Meter value={cPct} tone={tone(cPct)} className="mt-1" />

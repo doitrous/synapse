@@ -110,6 +110,67 @@ export function chooserTopics(pool: Question[], libraryTopics: LibTopic[]): LibT
   return [...libraryTopics, ...extra.values()]
 }
 
+/**
+ * Does a title answer to a search box? Case- and whitespace-insensitive
+ * substring, which is what a student typing "heart" into a chapter list means.
+ * An empty query matches everything, so "no search" needs no special case.
+ */
+export function matchesQuery(title: string, query: string): boolean {
+  const q = query.trim().toLowerCase()
+  if (!q) return true
+  return title.toLowerCase().includes(q)
+}
+
+/**
+ * Narrow a chapter tree to what a search names, in place.
+ *
+ * A chapter whose own title matches is kept whole — its subtopics come with
+ * it, because the student asked for the chapter. A chapter that does not match
+ * survives only through its subtopics, and then only the matching ones are
+ * kept, so the tree shows the hits rather than the haystack around them. A
+ * chapter with neither is dropped.
+ *
+ * Purely derived: it never touches the scope, and the caller keeps its own
+ * open/closed state untouched, so clearing the search restores the tree the
+ * student had.
+ */
+export function filterTopicsByQuery(topics: LibTopic[], query: string): LibTopic[] {
+  const q = query.trim().toLowerCase()
+  if (!q) return topics
+  const kept: LibTopic[] = []
+  for (const topic of topics) {
+    if (matchesQuery(topic.title, q)) {
+      kept.push(topic)
+      continue
+    }
+    const subtopics = topic.subtopics.filter((sub) => matchesQuery(sub.title, q))
+    if (subtopics.length > 0) kept.push({ ...topic, subtopics })
+  }
+  return kept
+}
+
+/**
+ * Narrow a chapter tree to a search, honouring a hit on what the chapters sit
+ * under.
+ *
+ * `containerNames` are the names of the things above these chapters — the
+ * system, and in module view its module as well. If any of them answers the
+ * query the container is itself the hit, so every chapter under it stays
+ * whole: typing "renal" keeps the entire Renal & urinary system rather than
+ * reporting no matches because no chapter happens to be called "renal", and a
+ * module's own name keeps everything filed under it. Only when no container
+ * matches does the search fall through to chapter and subtopic titles.
+ */
+export function filterTopicsInContainer(
+  containerNames: string[],
+  topics: LibTopic[],
+  query: string,
+): LibTopic[] {
+  if (!query.trim()) return topics
+  if (containerNames.some((name) => matchesQuery(name, query))) return topics
+  return filterTopicsByQuery(topics, query)
+}
+
 /** Count questions available per topic / subtopic within a pool, for badges. */
 export function scopeCounts(pool: Question[], libraryTopics: LibTopic[]): { topics: Record<string, number>; subtopics: Record<string, number> } {
   const subtopics: Record<string, number> = {}

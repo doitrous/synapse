@@ -1,6 +1,13 @@
 export interface Subject {
   id: string
   name: string
+  /**
+   * The system's name in Arabic. Same taxonomy, same `id` — only the label
+   * changes, so nothing that references a subject has to know about language.
+   * Optional because a subject can arrive from outside the catalogue (an
+   * import, a renamed system), and those fall back to `name`.
+   */
+  ar?: string
   short: string
   color: string
 }

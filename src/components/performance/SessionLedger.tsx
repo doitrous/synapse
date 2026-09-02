@@ -3,7 +3,7 @@ import { ChevronDown, History, Repeat, Sparkles, Target } from 'lucide-react'
 import { bySession, sessionDetail, type SessionDetail, type SessionSummary } from '@/data/attemptStats'
 import type { AttemptRecord } from '@/data/attempts'
 import type { PaceBand } from '@/data/qbankSession'
-import { getSubject } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import { SubjectDot } from '@/components/ui/Subject'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Icon } from '@/components/ui/Icon'
@@ -45,10 +45,10 @@ function clock(seconds: number): string {
   return `${m}:${String(s).padStart(2, '0')}`
 }
 
-function sessionTitle(session: SessionSummary): string {
+function sessionTitle(session: SessionSummary, subjectName: (id: string) => string): string {
   const surface = SURFACE_LABEL[session.surface] ?? session.surface
   if (!session.subjectIds.length) return surface
-  const first = getSubject(session.subjectIds[0]).name
+  const first = subjectName(session.subjectIds[0])
   return session.subjectIds.length > 1 ? `${first} + ${session.subjectIds.length - 1}` : first
 }
 
@@ -146,6 +146,7 @@ function ExpandedRow({ detail }: { detail: SessionDetail }) {
  */
 export function SessionLedgerPanel({ records }: { records: AttemptRecord[] }) {
   const t = useT()
+  const subjectName = useSubjectName()
   const [expanded, setExpanded] = useState<string | null>(null)
 
   const summaries = useMemo(() => bySession(records), [records])
@@ -189,7 +190,7 @@ export function SessionLedgerPanel({ records }: { records: AttemptRecord[] }) {
                   >
                     <Icon icon={ChevronDown} size={15} className={cn('shrink-0 chevron-turn text-ink-3')} open={isOpen} />
                     <div className="min-w-0 flex-1">
-                      <p className="truncate text-[13px] font-semibold text-ink">{sessionTitle(session)}</p>
+                      <p className="truncate text-[13px] font-semibold text-ink">{sessionTitle(session, subjectName)}</p>
                       <p className="mt-0.5 flex flex-wrap items-center gap-x-2 text-[11px] text-ink-3">
                         <span className="font-mono">{shortDate(session.startedAt)}</span>
                         <span aria-hidden>·</span>

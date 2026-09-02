@@ -115,3 +115,30 @@ test('empty deckIds or no matching notes yields an empty body after headers', ()
   assert.equal(exportDecksToText(collection, [], 'csv'), 'front,back,tags')
   assert.equal(exportDecksToText(collection, [], 'anki-tsv'), '#separator:tab\n#html:true')
 })
+
+test('a rich cloze note exports its plain projection to the plain-text formats', () => {
+  // Cloze text is sanitized HTML now, so the two read-anywhere formats must
+  // emit the words and not the tags. The `{{c1::…}}` markers stay: they are the
+  // note, and a re-import has to rebuild the same cards from them.
+  const collection = collectionOf([
+    clozeNote('n1', 'd1', 'The {{c1::<b>mitral</b>}} valve &amp; friends', '<i>between the chambers</i>'),
+  ])
+  assert.equal(
+    exportDecksToText(collection, ['d1'], 'pipe'),
+    'The {{c1::mitral}} valve & friends | between the chambers',
+  )
+  assert.equal(
+    exportDecksToText(collection, ['d1'], 'csv'),
+    'front,back,tags\nThe {{c1::mitral}} valve & friends,between the chambers,',
+  )
+})
+
+test('anki-tsv keeps a rich cloze note as HTML, because it declares #html:true', () => {
+  // The one format that must NOT be stripped: Anki reads these fields as HTML,
+  // so the bold survives the import instead of being flattened on the way out.
+  const collection = collectionOf([clozeNote('n1', 'd1', 'The {{c1::<b>mitral</b>}} valve', '<i>extra</i>')])
+  assert.equal(
+    exportDecksToText(collection, ['d1'], 'anki-tsv'),
+    '#separator:tab\n#html:true\nThe {{c1::<b>mitral</b>}} valve\t<i>extra</i>\t',
+  )
+})

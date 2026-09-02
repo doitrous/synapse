@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { chooserTopics, isQuestionTopic, questionsInScope, questionsInSources, scopeCounts, topicKey } from './qbankScope.ts'
+import { chooserTopics, filterTopicsByQuery, filterTopicsInContainer, isQuestionTopic, matchesQuery, questionsInScope, questionsInSources, scopeCounts, topicKey } from './qbankScope.ts'
 import type { Question } from './qbank.ts'
 import type { LibTopic } from './library.ts'
 import type { QuestionSource, SourceBucket } from './questionSource.ts'
@@ -121,4 +121,90 @@ test('questionsInSources: untagged questions match only when unspecified is sele
   const qs = [sourced('a', 'dept-mcq'), sourced('c', undefined)]
   assert.deepEqual(questionsInSources(qs, new Set(['unspecified'])).map((q) => q.id), ['c'])
   assert.deepEqual(questionsInSources(qs, new Set(['dept-mcq'])).map((q) => q.id), ['a'])
+})
+
+/* ---- Search filter (the chooser's toolbar) ------------------------------ */
+
+const SEARCH_TREE: LibTopic[] = [
+  {
+    id: 'hf',
+    title: 'Heart failure',
+    subjectId: 'cvs',
+    subtopics: [
+      { id: 'hf-acute', title: 'Acute decompensation' },
+      { id: 'hf-chronic', title: 'Chronic management' },
+    ] as LibTopic['subtopics'],
+  },
+  {
+    id: 'arr',
+    title: 'Arrhythmias',
+    subjectId: 'cvs',
+    subtopics: [{ id: 'arr-af', title: 'Atrial fibrillation' }] as LibTopic['subtopics'],
+  },
+]
+
+test('filterTopicsByQuery: an empty query returns the tree untouched', () => {
+  assert.equal(filterTopicsByQuery(SEARCH_TREE, ''), SEARCH_TREE)
+  assert.equal(filterTopicsByQuery(SEARCH_TREE, '   '), SEARCH_TREE)
+})
+
+test('filterTopicsByQuery: a chapter whose title matches is kept whole', () => {
+  const hit = filterTopicsByQuery(SEARCH_TREE, 'heart')
+  assert.deepEqual(hit.map((topic) => topic.id), ['hf'])
+  assert.equal(hit[0].subtopics.length, 2)
+})
+
+test('filterTopicsByQuery: a chapter surviving on a subtopic keeps only the matches', () => {
+  const hit = filterTopicsByQuery(SEARCH_TREE, 'chronic')
+  assert.deepEqual(hit.map((topic) => topic.id), ['hf'])
+  assert.deepEqual(hit[0].subtopics.map((sub) => sub.id), ['hf-chronic'])
+  // The source tree is never mutated — the chooser re-derives from it on every keystroke.
+  assert.equal(SEARCH_TREE[0].subtopics.length, 2)
+})
+
+test('filterTopicsByQuery: case and surrounding spaces do not matter', () => {
+  assert.deepEqual(filterTopicsByQuery(SEARCH_TREE, '  ATRIAL ').map((t) => t.id), ['arr'])
+})
+
+test('filterTopicsByQuery: nothing matching returns an empty list', () => {
+  assert.deepEqual(filterTopicsByQuery(SEARCH_TREE, 'renal'), [])
+})
+
+test('matchesQuery: an empty query matches everything', () => {
+  assert.equal(matchesQuery('Heart failure', ''), true)
+  assert.equal(matchesQuery('Heart failure', 'fail'), true)
+  assert.equal(matchesQuery('Heart failure', 'renal'), false)
+})
+
+/* ---- Search: a hit on the container itself ------------------------------ */
+
+test('filterTopicsInContainer: a system whose own name matches keeps every chapter', () => {
+  // "renal" names no chapter in this tree — the system is the hit.
+  const hit = filterTopicsInContainer(['Renal & urinary'], SEARCH_TREE, 'renal')
+  assert.equal(hit, SEARCH_TREE)
+  assert.deepEqual(hit.map((topic) => topic.id), ['hf', 'arr'])
+  assert.equal(hit[0].subtopics.length, 2)
+})
+
+test('filterTopicsInContainer: a module name matches the same way a system name does', () => {
+  const hit = filterTopicsInContainer(['104 · Cardiopulmonary system', 'Cardiovascular'], SEARCH_TREE, '104')
+  assert.deepEqual(hit.map((topic) => topic.id), ['hf', 'arr'])
+})
+
+test('filterTopicsInContainer: a container hit is case-insensitive and trimmed', () => {
+  assert.equal(filterTopicsInContainer(['Renal & urinary'], SEARCH_TREE, '  RENAL '), SEARCH_TREE)
+})
+
+test('filterTopicsInContainer: no container hit falls through to chapter and subtopic titles', () => {
+  const hit = filterTopicsInContainer(['Renal & urinary', 'Cardiovascular'], SEARCH_TREE, 'chronic')
+  assert.deepEqual(hit.map((topic) => topic.id), ['hf'])
+  assert.deepEqual(hit[0].subtopics.map((sub) => sub.id), ['hf-chronic'])
+})
+
+test('filterTopicsInContainer: nothing matching anywhere returns an empty list', () => {
+  assert.deepEqual(filterTopicsInContainer(['Cardiovascular'], SEARCH_TREE, 'histology'), [])
+})
+
+test('filterTopicsInContainer: an empty query returns the tree untouched', () => {
+  assert.equal(filterTopicsInContainer(['Cardiovascular'], SEARCH_TREE, '   '), SEARCH_TREE)
 })

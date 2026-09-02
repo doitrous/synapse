@@ -1,37 +1,23 @@
 import { useEffect, useRef, useState, type RefObject } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, Maximize2, Maximize, Minimize, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, LogOut } from 'lucide-react'
+import { Menu, Bell, CalendarClock, BookOpen, BellRing, X, ArrowRight, Maximize, Minimize } from 'lucide-react'
 import type { Portal } from './nav'
-import { navFor } from './nav'
+import { titleForPath } from './nav'
 import { Icon } from '@/components/ui/Icon'
-import { IconButton } from '@/components/ui/IconButton'
-import { Kbd } from '@/components/ui/Kbd'
 import { Tooltip } from '@/components/ui/Tooltip'
-import { useFullscreen } from '@/lib/useFullscreen'
-import { PomodoroTimer } from './PomodoroTimer'
-import { FocusAudioPlayer } from './FocusAudioPlayer'
+import { TopbarAccount, TopbarTools } from './TopbarTools'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
 import { initialNotificationCampaigns, notificationAllowedByPrefs, notificationIsDue, notificationMatchesStudent, NOTIFICATION_READ_STORAGE_KEY, NOTIFICATION_STORAGE_KEY, type NotificationCampaign } from '@/data/notifications'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
+import { useFullscreen } from '@/lib/useFullscreen'
 import { hasConsoleAccess } from '@/data/adminRoles'
 import { API_MODE, apiGet, apiPost } from '@/lib/api'
 
-function currentTitle(portal: Portal, pathname: string, tabs: readonly string[]): string {
-  const items = navFor(portal, tabs).flatMap((g) => g.items)
-  const exact = items.find((i) => i.to === pathname)
-  if (exact) return exact.label
-  const root = portal === 'admin' ? '/admin' : '/app'
-  const nested = items
-    .filter((i) => i.to !== root && pathname.startsWith(i.to))
-    .sort((a, b) => b.to.length - a.to.length)[0]
-  return nested?.label ?? (portal === 'admin' ? 'Control Dashboard' : 'Dashboard')
-}
-
 const iconBtn =
-  'inline-flex size-11 items-center justify-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] lg:size-9'
+  'inline-flex size-11 shrink-0 items-center justify-center rounded-lg border border-transparent text-ink-2 transition-colors hover:border-line hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] sm:size-9'
 
 export function Topbar({
   portal,
@@ -50,8 +36,8 @@ export function Topbar({
 }) {
   const { pathname } = useLocation()
   const { t } = useI18n()
-  const { isFullscreen, toggle: toggleFullscreen } = useFullscreen()
   const { audience, role, tabs } = useIdentity()
+  const { isFullscreen, toggle: toggleFullscreen } = useFullscreen()
   const [notificationsOpen, setNotificationsOpen] = useState(false)
   const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, API_MODE ? [] : initialNotificationCampaigns)
   const [sharedNotifications, setSharedNotifications] = useState<NotificationCampaign[]>([])
@@ -71,9 +57,7 @@ export function Topbar({
   ].sort((a, b) => new Date(b.sentAt ?? b.scheduledAt).getTime() - new Date(a.sentAt ?? a.scheduledAt).getTime())
   const [popupId, setPopupId] = useState<string | null>(null)
   const popoverRef = useRef<HTMLDivElement>(null)
-  const title = currentTitle(portal, pathname, tabs)
-  const other = portal === 'admin' ? '/app' : '/admin'
-  const otherLabel = portal === 'admin' ? t('Student app') : t('Admin console')
+  const title = titleForPath(pathname, portal, tabs)
   // Only an admin has somewhere to switch to. Showing a student a route that
   // exists solely to bounce them off its guard advertises a door with no key.
   // The demo has no backend and therefore no roles, so nothing is being
@@ -128,92 +112,76 @@ export function Topbar({
     <header className="sticky top-0 z-30 flex h-[calc(3.5rem+env(safe-area-inset-top))] min-w-0 items-center gap-1.5 border-b border-line bg-paper px-2.5 pt-[env(safe-area-inset-top)] sm:gap-2 sm:px-4">
       {/* The desktop collapse control now lives in the sidebar, with the menu it
           opens. This one stays: on a phone there is no sidebar to put it in. */}
-      <button ref={mobileButtonRef} type="button" className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
-        <Icon icon={Menu} size={18} />
-      </button>
+      <Tooltip content={t('Open navigation')} placement="bottom">
+        <button ref={mobileButtonRef} type="button" className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
+          <Icon icon={Menu} size={18} />
+        </button>
+      </Tooltip>
 
-      <nav className="flex min-w-0 flex-1 items-center gap-2" aria-label="Breadcrumb">
-        <span className="hidden text-[12.5px] text-ink-3 sm:inline">
+      <nav className="flex min-w-0 flex-1 items-center gap-1.5" aria-label={t('Breadcrumb')}>
+        {/* The portal word is context, not the destination: it only earns a
+            place once the window is wide enough that the title is not the
+            thing being crowded. */}
+        <span className="hidden text-[13px] text-ink-3 lg:inline">
           {portal === 'admin' ? t('Admin console') : t('Student')}
         </span>
-        <span className="hidden text-ink-3 sm:inline">/</span>
-        <span className="truncate text-[13.5px] font-medium text-ink">{t(title)}</span>
+        <span className="hidden text-ink-3 lg:inline">/</span>
+        <span className="truncate text-[14px] font-semibold text-ink">{t(title)}</span>
       </nav>
 
-      <div className="ms-auto flex shrink-0 items-center gap-0.5 sm:gap-1.5">
-        <button
-          type="button"
-          onClick={onOpenSearch}
-          className="hidden h-9 w-60 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] text-ink-3 transition-colors hover:border-line-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] sm:flex"
-          aria-label={t('Search')}
-        >
-          <Icon icon={Search} size={16} />
-          <span className="flex-1 text-start">{t('Search…')}</span>
-          <Kbd>⌘K</Kbd>
-        </button>
-
-        {portal === 'student' && <PomodoroTimer />}
-        {portal === 'student' && <FocusAudioPlayer />}
-
-        <button type="button" onClick={onOpenSearch} className={cn(iconBtn, 'sm:hidden')} aria-label={t('Search')}>
-          <Icon icon={Search} size={18} />
-        </button>
-
-        <Tooltip content={t('Hide menus')}>
-          <button
-            type="button"
-            onClick={onToggleFocusMode}
-            className={cn(iconBtn, 'max-lg:hidden')}
-            aria-label={t('Hide menus')}
-          >
-            <Icon icon={Maximize2} size={17} />
-          </button>
-        </Tooltip>
-
-        <IconButton
-          icon={isFullscreen ? Minimize : Maximize}
-          label={t(isFullscreen ? 'Exit fullscreen' : 'Enter fullscreen')}
-          onClick={toggleFullscreen}
+      <div className="ms-auto flex shrink-0 items-center gap-2">
+        {/* Pomodoro · Focus audio · Tools. Search is the Tools menu's first row
+            now: the bar was giving width to a box nobody typed into — the
+            palette it opens is the field — and the two study tools earn the
+            permanent slots instead, because a countdown behind a menu is a
+            countdown you cannot see. ⌘K still works from anywhere. */}
+        {/* Fullscreen rides inside the tools cluster, just before the dropdown:
+            one press, no menu, and the icon says which way it will go. Not on
+            phones — the bar is full there and iOS ignores the fullscreen API. */}
+        <TopbarTools
+          portal={portal}
+          focusMode={focusMode}
+          onToggleFocusMode={onToggleFocusMode}
+          onOpenSearch={onOpenSearch}
+          beforeMenu={(
+            <div className="hidden sm:block">
+            <Tooltip content={isFullscreen ? t('Exit fullscreen') : t('Fullscreen')} placement="bottom">
+              <button
+                type="button"
+                className={iconBtn}
+                onClick={toggleFullscreen}
+                aria-label={isFullscreen ? t('Exit fullscreen') : t('Fullscreen')}
+                aria-pressed={isFullscreen}
+              >
+                <Icon icon={isFullscreen ? Minimize : Maximize} size={18} />
+              </button>
+            </Tooltip>
+            </div>
+          )}
         />
 
-        {/* Appearance and language live in the sidebar footer, above the
-            student's own name — one home each, reachable at every width. */}
-
-        {canSwitchPortal && (
-          <Link
-            to={other}
-            className="hidden h-9 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] font-medium text-ink-2 transition-colors hover:border-line-2 hover:text-ink md:inline-flex"
-          >
-            <Icon icon={ArrowLeftRight} size={15} />
-            {otherLabel}
-          </Link>
-        )}
-
-        <Tooltip content={t('Sign out')}>
-          <Link to="/logout" className={iconBtn} aria-label={t('Sign out')}>
-            <Icon icon={LogOut} size={17} />
-          </Link>
-        </Tooltip>
 
         <div className="relative" ref={popoverRef}>
-          <button
-            type="button"
-            className={cn(iconBtn, 'relative')}
-            aria-label={t('Notifications')}
-            aria-haspopup="dialog"
-            aria-expanded={notificationsOpen}
-            onClick={() => setNotificationsOpen((open) => !open)}
-          >
-            <Icon icon={Bell} size={18} />
-            {unreadCount > 0 && (
-              <span className="absolute end-2 top-2 size-1.5 rounded-full bg-primary ring-2 ring-paper" />
-            )}
-          </button>
+          <Tooltip content={t('Notifications')} placement="bottom">
+            <button
+              type="button"
+              className={cn(iconBtn, 'relative')}
+              aria-label={t('Notifications')}
+              aria-haspopup="dialog"
+              aria-expanded={notificationsOpen}
+              onClick={() => setNotificationsOpen((open) => !open)}
+            >
+              <Icon icon={Bell} size={18} />
+              {unreadCount > 0 && (
+                <span className="absolute end-2 top-2 size-1.5 rounded-full bg-primary ring-2 ring-paper" />
+              )}
+            </button>
+          </Tooltip>
           {notificationsOpen && (
             <div
               role="dialog"
               aria-label={t('Latest notifications')}
-              className="animate-pop absolute end-0 top-[calc(100%+0.5rem)] z-50 max-h-[min(36rem,calc(100dvh-5rem-env(safe-area-inset-top)))] w-[min(23rem,calc(100vw-1rem))] overflow-y-auto overscroll-contain rounded-xl border border-line bg-surface shadow-pop"
+              className="animate-pop fixed inset-x-2 top-[calc(3.5rem+env(safe-area-inset-top)+0.5rem)] z-50 max-h-[min(36rem,calc(100dvh-5rem-env(safe-area-inset-top)))] overflow-y-auto overscroll-contain rounded-xl border border-line bg-surface shadow-pop sm:absolute sm:inset-x-auto sm:end-0 sm:top-[calc(100%+0.5rem)] sm:w-[23rem]"
             >
               <div className="flex items-center justify-between border-b border-line px-4 py-3">
                 <div>
@@ -222,7 +190,7 @@ export function Topbar({
                 </div>
                 <button
                   type="button"
-                  className="min-h-9 rounded-md px-2 text-[12px] font-medium text-primary hover:bg-primary-tint hover:text-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+                  className="min-h-11 rounded-md px-2 text-[12px] font-medium text-primary hover:bg-primary-tint sm:min-h-9 hover:text-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
                   onClick={() => markRead(notifications.map((notification) => notification.id))}
                 >
                   {t('Mark all read')}
@@ -257,6 +225,8 @@ export function Topbar({
             </div>
           )}
         </div>
+
+        <TopbarAccount portal={portal} canSwitchPortal={canSwitchPortal} />
       </div>
       {portal === 'student' && popupNotification && (
         <div className="fixed inset-0 z-[65] grid items-end bg-ink/25 p-3 animate-fade sm:place-items-center sm:p-6" role="dialog" aria-modal="true" aria-labelledby="notification-popup-title">

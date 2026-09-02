@@ -432,6 +432,44 @@ export async function migrate() {
       )
       if (!found.length) await conn.query(`ALTER TABLE device_tokens ADD COLUMN ${column} ${definition}`)
     }
+
+    // A study room shows the room, not just you: where each member sits, what
+    // their desk looks like, and whether they are working right now. Added by
+    // lookup like every column above, so a database restored from a dump that
+    // already has them still boots.
+    for (const [column, definition] of [
+      ['seat_desk', 'VARCHAR(16) NULL'],
+      ['seat_device', 'VARCHAR(16) NULL'],
+      ['seat_chair', 'VARCHAR(16) NULL'],
+      ['seat_index', 'TINYINT NULL'],
+      ['last_active_at', 'DATETIME NULL'],
+      ['activity', 'VARCHAR(16) NULL'],
+    ]) {
+      const [found] = await conn.query(
+        `SELECT 1 FROM information_schema.columns
+          WHERE table_schema = DATABASE() AND table_name = 'study_party_members' AND column_name = ?`,
+        [column],
+      )
+      if (!found.length) await conn.query(`ALTER TABLE study_party_members ADD COLUMN ${column} ${definition}`)
+    }
+
+    // Two people cannot sit at one desk, and a read-then-write cannot promise
+    // that — the index can. MariaDB allows any number of NULLs in a unique
+    // index, so "in the room, nowhere in particular" stays available to
+    // everyone while a genuine race for desk 3 fails loudly as ER_DUP_ENTRY.
+    // Separate from the columns, as the `students_phone_unique` note explains:
+    // creating it can fail on data that already holds duplicates, and that has
+    // to be an operator's problem rather than a column quietly unconstrained.
+    const [seatIndexUnique] = await conn.query(
+      `SELECT 1 FROM information_schema.statistics
+        WHERE table_schema = DATABASE() AND table_name = 'study_party_members'
+          AND index_name = 'study_party_members_seat_unique'`,
+    )
+    if (!seatIndexUnique.length) {
+      await conn.query(
+        'CREATE UNIQUE INDEX study_party_members_seat_unique ON study_party_members (party_id, seat_index)',
+      )
+    }
   } finally {
     conn.release()
   }

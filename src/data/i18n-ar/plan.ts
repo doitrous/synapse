@@ -1,0 +1,94 @@
+/**
+ * Arabic for the Plan hub and the calendar's task list (WP1).
+ *
+ * Owned by that package alone — every package writes only its own file, so two
+ * agents adding strings on the same day cannot collide in `i18n-ar.ts`.
+ */
+export const AR_PLAN: Record<string, string> = {
+  // hub
+  '01 · PLAN': '٠١ · الخطة',
+  'Where your weeks are going.': 'إلى أين تمضي أسابيعك.',
+  'Next exam': 'الامتحان القادم',
+  'day away': 'يوم متبقٍ',
+  'days away': 'أيام متبقية',
+  'Open tasks': 'مهام مفتوحة',
+  'thing to do': 'مهمة',
+  'things to do': 'مهام',
+  'Your timetable, the blocks you plan, and the tasks you still owe the week.': 'جدولك، والحصص التي تخططها، والمهام التي ما زلت مدينًا بها للأسبوع.',
+  "today's blocks": 'حصص اليوم',
+  'Today': 'اليوم',
+  'Your modules, timetable and marks, exactly as your faculty publishes them.': 'موادك وجدولك ودرجاتك كما تنشرها كليتك تمامًا.',
+  'The University view will follow your faculty’s published curriculum: every module, its sessions, and the marks as they are released. It opens once your year’s curriculum is published; until then the preview shows the structure with whatever has been shared so far.': 'ستتبع صفحة الجامعة المنهج الذي تنشره كليتك: كل مادة وجلساتها والدرجات عند صدورها. تُفتح عندما يُنشر منهج سنتك؛ وحتى ذلك الحين تعرض المعاينة الهيكل بما شورك حتى الآن.',
+  'How your accuracy is moving, where it slips, and when you actually study.': 'كيف تتحرك دقتك، وأين تتراجع، ومتى تذاكر فعلًا.',
+  'first attempt': 'من أول محاولة',
+  'This week': 'هذا الأسبوع',
+  'answered': 'إجابة',
+  'Sessions': 'جلسات',
+
+  // task list
+  'Tasks': 'المهام',
+  'open': 'مفتوحة',
+  'all clear': 'لا شيء متبقٍ',
+  'Group': 'مجموعة',
+  'New group name': 'اسم المجموعة الجديدة',
+  'Add': 'إضافة',
+  'Cancel': 'إلغاء',
+  'Show completed': 'إظهار المنجزة',
+  'Add a task…': 'أضف مهمة…',
+  'New task': 'مهمة جديدة',
+  'More options': 'خيارات أكثر',
+  'Add task': 'إضافة مهمة',
+  'Task details': 'تفاصيل المهمة',
+  'Title': 'العنوان',
+  'What needs doing?': 'ما الذي يجب إنجازه؟',
+  'Details': 'التفاصيل',
+  'Anything you need to remember': 'أي شيء تحتاج أن تتذكره',
+  'Schedule': 'الموعد',
+  'No date': 'بدون تاريخ',
+  'Tomorrow': 'غدًا',
+  'Pick a date': 'اختر تاريخًا',
+  'Date': 'التاريخ',
+  'Time (optional)': 'الوقت (اختياري)',
+  'Overdue': 'متأخرة',
+  'Mark as done': 'تحديد كمنجزة',
+  'Mark as not done': 'إلغاء الإنجاز',
+  'Clear date': 'مسح التاريخ',
+  'Save': 'حفظ',
+  'Edit': 'تعديل',
+  'Delete': 'حذف',
+  'Add a subtask…': 'أضف مهمة فرعية…',
+  'New subtask': 'مهمة فرعية جديدة',
+  'Add subtask': 'إضافة مهمة فرعية',
+  'Remove subtask': 'إزالة المهمة الفرعية',
+  'Group name': 'اسم المجموعة',
+  'Group options': 'خيارات المجموعة',
+  'Rename': 'إعادة تسمية',
+  'Delete group': 'حذف المجموعة',
+  'All done here.': 'كل شيء هنا منجز.',
+  'Nothing in this group yet.': 'لا شيء في هذه المجموعة بعد.',
+  'My tasks': 'مهامي',
+  'Task': 'مهمة',
+  'Add a task': 'إضافة مهمة',
+  'Next': 'التالي',
+  'Deadline': 'موعد نهائي',
+  'Calendar': 'التقويم',
+
+  // ---- Calendar empty states and units (WP15 Arabic sweep)
+  'Edit study block': 'تعديل فترة المذاكرة',
+  'Nothing scheduled this day.': 'لا شيء مجدول في هذا اليوم.',
+  'No university timetable yet': 'لا يوجد جدول جامعي بعد',
+  'Your university hasn\'t published a schedule for your year, so only the blocks you plan yourself appear here.':
+    'لم تنشر جامعتك جدولًا لسنتك الدراسية، لذا لا تظهر هنا إلا الفترات التي تخطّطها بنفسك.',
+  'Your year has no published sessions yet. Blocks you plan yourself still appear on this calendar.':
+    'لا توجد محاضرات منشورة لسنتك الدراسية بعد. ومع ذلك تظهر الفترات التي تخطّطها بنفسك على هذا التقويم.',
+  'day': 'يوم',
+  'event': 'موعد',
+  'events': 'مواعيد',
+  // ---- Calendar toolbar layers (WP16) ----------------------------------
+  'Layers': 'الطبقات',
+  'hidden': 'مخفية',
+  'Choose what this calendar draws.': 'اختر ما يرسمه هذا التقويم.',
+  // ---- Performance marked coming soon: one body, card and page banner (WP22)
+  'Performance will report your whole record against your year’s blueprint — every surface, every subject, and where the next mark is most likely to come from. Until then it is a preview: the figures are computed from your own attempts, and they fill in as you answer.':
+    'سيعرض الأداء سجلّك كاملًا مقابل مخطّط سنتك الدراسية — كل سطح، وكل مادة، ومن أين تأتي الدرجة التالية على الأرجح. وإلى أن يحدث ذلك فهو معاينة: تُحسب الأرقام من محاولاتك أنت، وتكتمل كلما أجبت.',
+}

@@ -7,7 +7,7 @@ import { Dialog } from '@/components/ui/Dialog'
 import { Segmented } from '@/components/ui/Tabs'
 import { useScope } from '@/lib/shortcuts/useShortcuts'
 import { cn } from '@/lib/cn'
-import { useT } from '@/lib/i18n'
+import { useI18n, useT } from '@/lib/i18n'
 import { formatMinutes } from '@/lib/format'
 import type { FlashcardsApi } from '@/lib/useFlashcards'
 import type { RhythmSettingsApi } from '@/lib/useRhythmSettings'
@@ -38,6 +38,32 @@ const MODE_LABEL: Record<RhythmCalendarMode, string> = {
   weekly: 'Weekly', monthly: 'Monthly', yearly: 'Yearly', continuous: 'Continuous',
 }
 const WEEKDAY_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+
+/**
+ * One cell size and gap per mode, so every mode draws the *same* small square
+ * in the *same* stage and only the count of squares changes. Weekly and Monthly
+ * grow by two or three pixels, never into a full calendar — a month of 16 px
+ * cells is still a block you take in at a glance, which is the whole point of a
+ * heatmap. Fixed widths (not `w-full`) are what keeps that true: a percentage
+ * cell balloons to fill whatever the panel is wide.
+ */
+const CELL_METRICS: Record<RhythmCalendarMode, { cell: string; gap: string; columns: string }> = {
+  weekly: { cell: 'size-[18px]', gap: 'gap-1', columns: 'grid-cols-[repeat(7,18px)]' },
+  monthly: { cell: 'size-4', gap: 'gap-[3px]', columns: 'grid-cols-[repeat(7,16px)]' },
+  yearly: { cell: 'size-[13px]', gap: 'gap-[3px]', columns: 'grid-cols-[repeat(7,13px)]' },
+  continuous: { cell: 'size-[13px]', gap: 'gap-[3px]', columns: 'grid-cols-[repeat(7,13px)]' },
+}
+
+/**
+ * Monday-first single-letter column heads, in the reader's own language, from
+ * `Intl` rather than seven more translation keys — the English initials collide
+ * (Tue/Thu, Sat/Sun) and so cannot be keyed by their own text. 2024-01-01 was a
+ * Monday; noon keeps the date away from any DST edge.
+ */
+function weekdayInitials(lang: string): string[] {
+  const format = new Intl.DateTimeFormat(lang, { weekday: 'narrow' })
+  return Array.from({ length: 7 }, (_, i) => format.format(new Date(2024, 0, 1 + i, 12)))
+}
 
 export function StudyRhythm({
   api, scope, settingsApi, className,
@@ -108,7 +134,10 @@ export function StudyRhythm({
         title={t('Study Rhythm')}
         icon={CalendarDays}
         action={
-          <div className="flex items-center gap-1.5">
+          /* The header's own wrap cannot reach inside a single child, so this
+             row wraps too: on a phone the segmented control takes the first
+             line and the two icon actions follow it. */
+          <div className="flex items-center gap-1.5 max-sm:flex-wrap max-sm:justify-end">
             <Segmented
               items={RHYTHM_CALENDAR_MODES.map((m) => ({ value: m, label: t(MODE_LABEL[m]) }))}
               value={mode}
@@ -120,7 +149,7 @@ export function StudyRhythm({
         }
       />
 
-      <div className="space-y-3 p-4">
+      <div className="p-4">
         {/* Navigation */}
         <div className="flex items-center justify-between gap-2">
           <p className="tnum text-[12.5px] font-medium text-ink-2">{layout.rangeLabel}</p>
@@ -135,34 +164,39 @@ export function StudyRhythm({
           </div>
         </div>
 
-        {/* The calendar */}
-        {dataset.isEmpty ? (
-          <p className="rounded-lg border border-dashed border-line-2 bg-surface-2 px-4 py-10 text-center text-[12.5px] text-ink-3">
-            {t('No study activity in this range yet. Study some cards and your rhythm will appear here.')}
-          </p>
-        ) : (
-          <RhythmCalendar
-            layout={layout}
-            scheme={settings.colorScheme}
-            orientation={orientation}
-            now={now}
-            selectedDay={selectedDay}
-            onSelect={setSelectedDay}
-            onMove={onMove}
-          />
-        )}
+        {/* The stage: one centred block of the same vertical rhythm in every
+            mode, so switching Weekly → Continuous never moves the panel around
+            the reader. Only the number of squares inside it changes. */}
+        <div className="flex justify-center py-3.5">
+          {dataset.isEmpty ? (
+            <p className="rounded-lg border border-dashed border-line-2 bg-surface-2 px-4 py-6 text-center text-[12.5px] text-ink-3">
+              {t('No study activity in this range yet. Study some cards and your rhythm will appear here.')}
+            </p>
+          ) : (
+            <RhythmCalendar
+              layout={layout}
+              mode={mode}
+              scheme={settings.colorScheme}
+              orientation={orientation}
+              now={now}
+              anchor={anchor}
+              selectedDay={selectedDay}
+              onSelect={setSelectedDay}
+              onMove={onMove}
+            />
+          )}
+        </div>
 
-        {/* Day detail */}
+        {/* Day detail, centred under the stage */}
         <DayDetail cell={selected} day={selectedDay} hasReviewTime={dataset.stats.hasReviewTime} />
 
         {/* Legend */}
         <Legend scheme={settings.colorScheme} showForecast={settings.forecastLimit !== 'off'} />
       </div>
 
-      {/* Statistics, from the same filtered dataset */}
-      <div className="border-t border-line p-4">
-        <RhythmStats stats={dataset.stats} settings={settings} />
-      </div>
+      {/* Statistics, from the same filtered dataset — the panel's last row, so
+          they read as a footer to the heatmap rather than a separate object. */}
+      <RhythmStats stats={dataset.stats} settings={settings} />
 
       {settingsOpen && (
         <RhythmSettingsDialog
@@ -198,21 +232,26 @@ export function StudyRhythm({
 
 /** The calendar grid itself, orientation-aware, with roving keyboard focus. */
 function RhythmCalendar({
-  layout, scheme, orientation, now, selectedDay, onSelect, onMove,
+  layout, mode, scheme, orientation, now, anchor, selectedDay, onSelect, onMove,
 }: {
   layout: CalendarLayout
+  mode: RhythmCalendarMode
   scheme: RhythmColorScheme
   orientation: 'rows' | 'columns'
   now: Date
+  anchor: string
   selectedDay: string | null
   onSelect: (day: string) => void
   onMove: (day: string) => void
 }) {
-  const t = useT()
+  const { t, lang } = useI18n()
   const ramp = useMemo(() => rhythmRampVars(scheme), [scheme])
+  const initials = useMemo(() => weekdayInitials(lang), [lang])
+  const metrics = CELL_METRICS[mode]
   const today = localDay(now)
   const focusDay = selectedDay ?? today
   const gridRef = useRef<HTMLDivElement>(null)
+  const scrollerRef = useRef<HTMLDivElement>(null)
   const navPending = useRef(false)
 
   // After a keyboard move, follow DOM focus to the newly-active cell (the parent
@@ -238,8 +277,20 @@ function RhythmCalendar({
     onMove(addLocalDays(day, delta))
   }, [orientation, onMove])
 
+  // Keep today in view when the grid is wider than the stage. Only the columns
+  // orientation can be — a week or a month is always narrower than the panel —
+  // and the scroller is the stage's own child, never the panel, so a wide
+  // Continuous range never turns the whole card into a scroll box.
+  useEffect(() => {
+    const scroller = scrollerRef.current
+    if (!scroller) return
+    const target = scroller.querySelector<HTMLElement>(`[data-day="${today}"]`)
+    // `block: 'nearest'` so bringing a column into view never scrolls the page.
+    target?.scrollIntoView({ inline: 'center', block: 'nearest' })
+  }, [today, anchor, mode])
+
   const cellFor = (cd: CalendarDay | null, key: string) => {
-    if (!cd) return <div key={key} className="size-[13px]" aria-hidden />
+    if (!cd) return <div key={key} className={metrics.cell} aria-hidden />
     const c = cd.cell
     const level = c?.level ?? 0
     const isForecast = cd.isForecast
@@ -262,7 +313,7 @@ function RhythmCalendar({
         title={label}
         className={cn(
           'relative rounded-[2px] border outline-none transition-[box-shadow] focus-visible:ring-2 focus-visible:ring-[var(--color-primary)]',
-          orientation === 'columns' ? 'size-[13px]' : 'aspect-square w-full min-w-[26px]',
+          metrics.cell,
           cd.muted && 'opacity-40',
           cd.isToday ? 'border-[var(--color-ink)]' : 'border-line',
           isForecast && 'border-dashed',
@@ -285,14 +336,21 @@ function RhythmCalendar({
   }
 
   if (orientation === 'rows') {
-    // Weekly / Monthly: weeks stacked, weekday columns.
+    // Weekly / Monthly: weeks stacked, weekday columns — the same squares as
+    // the other two modes, in a 7-column block sized to the cell, not to the
+    // panel. Weekly is that block one row deep.
     return (
-      <div ref={gridRef} className="space-y-1.5" role="grid" aria-label={t('Study Rhythm calendar')}>
-        <div className="grid grid-cols-7 gap-1 text-center text-[10.5px] font-medium text-ink-3" aria-hidden>
-          {WEEKDAY_LABELS.map((w) => <span key={w}>{t(w)}</span>)}
+      <div
+        ref={gridRef}
+        className={cn('flex flex-col items-center', metrics.gap)}
+        role="grid"
+        aria-label={t('Study Rhythm calendar')}
+      >
+        <div className={cn('grid text-center text-[9.5px] text-ink-3', metrics.columns, metrics.gap)} aria-hidden>
+          {initials.map((initial, i) => <span key={WEEKDAY_LABELS[i]}>{initial}</span>)}
         </div>
         {layout.weeks.map((week, wi) => (
-          <div key={wi} role="row" className="grid grid-cols-7 gap-1">
+          <div key={wi} role="row" className={cn('grid', metrics.columns, metrics.gap)}>
             {week.days.map((cd, di) => cellFor(cd, `${wi}-${di}`))}
           </div>
         ))}
@@ -300,18 +358,20 @@ function RhythmCalendar({
     )
   }
 
-  // Yearly / Continuous: weeks as columns, weekday rows. Today divider on the column.
+  // Yearly / Continuous: weeks as columns, weekday rows. Today divider on the
+  // column. The scroll box is here, inside the stage — a wide range scrolls
+  // itself and leaves the panel (and its tooltips and focus rings) alone.
   return (
-    <div ref={gridRef} className="overflow-x-auto" role="grid" aria-label={t('Study Rhythm calendar')}>
-      <div className="flex gap-[3px]">
+    <div ref={scrollerRef} className="max-w-full overflow-x-auto">
+      <div ref={gridRef} className={cn('flex', metrics.gap)} role="grid" aria-label={t('Study Rhythm calendar')}>
         {layout.weeks.map((week, wi) => (
           <div
             key={wi}
             role="row"
-            className={cn('flex flex-col gap-[3px]', wi === layout.todayWeekIndex && 'relative')}
+            className={cn('flex flex-col', metrics.gap, wi === layout.todayWeekIndex && 'relative')}
           >
             {wi === layout.todayWeekIndex && (
-              <span className="absolute -left-[2px] top-0 h-full w-[1.5px] bg-[var(--color-primary)]" aria-hidden />
+              <span className="absolute -start-[2px] top-0 h-full w-[1.5px] bg-[var(--color-primary)]" aria-hidden />
             )}
             {week.days.map((cd, di) => cellFor(cd, `${wi}-${di}`))}
           </div>
@@ -335,11 +395,11 @@ function cellLabel(cd: CalendarDay, t: (s: string) => string): string {
 
 function DayDetail({ cell, day, hasReviewTime }: { cell: RhythmDayCell | null; day: string | null; hasReviewTime: boolean }) {
   const t = useT()
-  if (!day) return <p className="min-h-[1.25rem] text-[11.5px] text-ink-3">{t('Hover or focus a day for details.')}</p>
+  if (!day) return <p className="min-h-[1.25rem] text-center text-[11.5px] text-ink-3">{t('Hover or focus a day for details.')}</p>
   const isForecast = cell?.kind === 'forecast'
   const mins = Math.round((cell?.timeMs ?? 0) / 60000)
   return (
-    <p className="min-h-[1.25rem] text-[11.5px] text-ink-2">
+    <p className="min-h-[1.25rem] text-center text-[11.5px] text-ink-2">
       <span className="tnum font-medium text-ink">{day}</span>
       {' · '}
       {isForecast ? (
@@ -360,7 +420,7 @@ function Legend({ scheme, showForecast }: { scheme: import('@/data/flashcards/rh
   const t = useT()
   const ramp = rhythmRampVars(scheme)
   return (
-    <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1.5 text-[11px] text-ink-3">
+    <div className="mt-2.5 flex flex-wrap items-center justify-between gap-x-4 gap-y-1.5 text-[11px] text-ink-3">
       <div className="flex items-center gap-1.5">
         <span>{t('Less')}</span>
         {ramp.map((c, i) => <span key={i} className="size-[10px] rounded-[2px] border border-line" style={{ backgroundColor: c }} aria-hidden />)}

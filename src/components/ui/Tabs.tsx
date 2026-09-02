@@ -1,4 +1,3 @@
-import { useCallback, useLayoutEffect, useRef, useState } from 'react'
 import type { LucideIcon } from 'lucide-react'
 import { Icon } from './Icon'
 import { cn } from '@/lib/cn'
@@ -10,19 +9,15 @@ export interface TabItem {
   count?: number
 }
 
-/** The rule is inset from each edge of its tab, so it reads as a mark under the
- *  label rather than a full-width divider. */
-const RULE_INSET = 8
-
 /**
- * Underline tabs for switching sections within a surface.
+ * Tabs for switching sections within a surface, drawn as a row of buttons.
  *
- * One rule that *slides* between tabs, rather than one rule per tab appearing
- * and disappearing: the movement is what tells you where the selection went.
- * Its position is measured from the active button, so it stays correct at any
- * label length, in either writing direction, and while the strip is scrolled —
- * the indicator and the buttons share an offset parent, so scrolling moves both
- * together.
+ * They used to be underline tabs with a sliding rule. Omar asked for the
+ * sections to read as obvious controls — the way the Flag button reads while
+ * solving a question — so each tab is now a bordered button and the selected
+ * one carries the same crimson tint, hairline and text step that "Flagged"
+ * does. State is still announced through `aria-selected`, never colour alone:
+ * the tint, the border and the icon colour move together.
  */
 export function Tabs({
   items,
@@ -35,81 +30,40 @@ export function Tabs({
   onChange: (value: string) => void
   className?: string
 }) {
-  const listRef = useRef<HTMLDivElement>(null)
-  const activeRef = useRef<HTMLButtonElement>(null)
-  const [rule, setRule] = useState<{ left: number; width: number } | null>(null)
-  // The first measurement must not animate: on mount there is no previous
-  // place to travel from, and sliding in from the left edge reads as a glitch.
-  const measured = useRef(false)
-
-  const measure = useCallback(() => {
-    const button = activeRef.current
-    if (!button) return
-    setRule({ left: button.offsetLeft + RULE_INSET, width: Math.max(0, button.offsetWidth - RULE_INSET * 2) })
-  }, [])
-
-  useLayoutEffect(() => {
-    measure()
-    // Labels reflow when a webfont lands or the strip is resized, and the rule
-    // has to follow. Observing the list covers both without a resize listener.
-    const list = listRef.current
-    if (!list || typeof ResizeObserver === 'undefined') return
-    const observer = new ResizeObserver(measure)
-    observer.observe(list)
-    for (const child of Array.from(list.children)) observer.observe(child)
-    return () => observer.disconnect()
-  }, [measure, items, value])
-
-  useLayoutEffect(() => {
-    if (rule) {
-      const id = requestAnimationFrame(() => { measured.current = true })
-      return () => cancelAnimationFrame(id)
-    }
-  }, [rule])
-
   return (
     <div
-      ref={listRef}
       role="tablist"
-      className={cn('relative flex max-w-full items-center gap-1 overflow-x-auto overscroll-x-contain border-b border-line [scrollbar-width:none] [&::-webkit-scrollbar]:hidden', className)}
+      className={cn('flex max-w-full flex-wrap items-center gap-1.5', className)}
     >
       {items.map((t) => {
         const active = t.value === value
         return (
           <button
             key={t.value}
-            ref={active ? activeRef : undefined}
+            type="button"
             role="tab"
             aria-selected={active}
             onClick={() => onChange(t.value)}
             className={cn(
-              'relative flex h-11 shrink-0 items-center gap-2 px-3 text-[13.5px] font-medium whitespace-nowrap transition-colors sm:h-9',
-              active ? 'text-ink' : 'text-ink-2 hover:text-ink',
+              'inline-flex min-h-11 shrink-0 items-center gap-1.5 rounded-md border px-3 text-[13px] font-semibold whitespace-nowrap transition-colors sm:min-h-9',
+              'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
+              active
+                ? 'border-primary-line bg-primary-tint text-primary-strong'
+                : 'border-line bg-surface text-ink-2 hover:bg-inset hover:text-ink',
             )}
           >
             {t.icon && (
-              <Icon icon={t.icon} size={16} className={active ? 'text-primary' : 'text-ink-3'} />
+              <Icon icon={t.icon} size={14} className={active ? 'text-primary' : 'text-ink-3'} />
             )}
             {t.label}
             {t.count != null && (
-              <span className="tnum rounded-full bg-inset px-1.5 text-[11px] font-medium text-ink-2">
+              <span className={cn('tnum rounded-full px-1.5 text-[11px] font-medium', active ? 'bg-primary-line/60 text-primary-strong' : 'bg-inset text-ink-2')}>
                 {t.count}
               </span>
             )}
           </button>
         )
       })}
-      {rule && (
-        <span
-          aria-hidden
-          className="nishany-tab-indicator left-0"
-          style={{
-            width: rule.width,
-            transform: `translateX(${rule.left}px)`,
-            transition: measured.current ? undefined : 'none',
-          }}
-        />
-      )}
     </div>
   )
 }
@@ -134,7 +88,11 @@ export function Segmented({
   return (
     <div
       className={cn(
-        'inline-flex items-center gap-0.5 rounded-lg border border-line bg-surface-2 p-0.5',
+        // Wraps below `sm` rather than running off the panel: a four- or
+        // five-way switch with real labels ("Lab & imaging") is wider than a
+        // phone, and `html` carries `overflow-x: clip`, so what runs off is
+        // gone rather than scrollable. Nothing changes from `sm` up.
+        'inline-flex items-center gap-0.5 rounded-lg border border-line bg-surface-2 p-0.5 max-sm:flex-wrap',
         className,
       )}
     >
@@ -146,7 +104,7 @@ export function Segmented({
             onClick={() => onChange(t.value)}
             aria-pressed={active}
             className={cn(
-              'h-10 rounded-md px-3 text-[12.5px] font-medium transition-colors sm:h-7',
+              'h-11 min-w-11 whitespace-nowrap rounded-md px-3 text-[12.5px] font-medium transition-colors sm:h-7 sm:min-w-0',
               active ? 'bg-surface text-ink shadow-panel' : 'text-ink-2 hover:text-ink',
             )}
           >

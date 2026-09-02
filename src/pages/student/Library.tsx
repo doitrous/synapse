@@ -34,6 +34,7 @@ import type { LibBlock } from '@/data/library'
 import type { ArticleMediaRecord } from '@/data/contentControl'
 import { useLiveLibrary, type LiveSubtopic } from '@/lib/useLiveLibrary'
 import { getSubject } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import { Button, ButtonLink } from '@/components/ui/Button'
 import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { Icon } from '@/components/ui/Icon'
@@ -212,6 +213,7 @@ function ReaderText({
 
 /** The media itself, sized to its container. */
 function MediaFrame({ item, className }: { item: ArticleMediaRecord; className?: string }) {
+  const t = useT()
   const mediaRecords = useMediaRecords()
   // An admin can release an item before its alt text is written, so fall back
   // to the caption rather than shipping an unlabelled element.
@@ -220,7 +222,7 @@ function MediaFrame({ item, className }: { item: ArticleMediaRecord; className?:
     const record = mediaRecords.get(item.sourceId)
     return record
       ? <PlacedAsset record={record} caption={item.caption} className={className} />
-      : <p role="alert" className="p-3 text-[11.5px] text-danger">This managed media record is unavailable.</p>
+      : <p role="alert" className="p-3 text-[11.5px] text-danger">{t('This managed media record is unavailable.')}</p>
   }
   if (item.type === 'image') return <img src={item.url} alt={label} className={cn('w-full rounded-lg object-contain', className)} />
   if (item.type === 'video') return <video src={item.url} controls aria-label={label} className={cn('w-full rounded-lg', className)} />
@@ -236,6 +238,7 @@ function MediaCredit({ item }: { item: ArticleMediaRecord }) {
 
 /** Full-size view, opened by pressing an anchored phrase or a media thumbnail. */
 function MediaLightbox({ item, onClose }: { item: ArticleMediaRecord; onClose: () => void }) {
+  const t = useT()
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => { if (event.key === 'Escape') onClose() }
     window.addEventListener('keydown', onKey)
@@ -244,18 +247,18 @@ function MediaLightbox({ item, onClose }: { item: ArticleMediaRecord; onClose: (
 
   return overlayPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="media-lightbox-title">
-      <button type="button" className="absolute inset-0 bg-ink/60" onClick={onClose} aria-label="Close media" />
+      <button type="button" className="absolute inset-0 bg-ink/60" onClick={onClose} aria-label={t('Close media')} />
       <figure className="relative flex max-h-full w-full max-w-3xl flex-col overflow-hidden rounded-xl border border-line bg-paper shadow-pop">
         <header className="flex items-start gap-3 border-b border-line bg-surface px-4 py-3">
           <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={MEDIA_ICON[item.type]} size={16} /></span>
           <div className="min-w-0 flex-1">
             <h2 id="media-lightbox-title" className="text-[13.5px] font-semibold leading-snug text-ink">{item.caption || MEDIA_LABEL[item.type]}</h2>
-            {item.anchor?.quote && <p className="mt-0.5 truncate text-[11.5px] text-ink-3">Explains “{item.anchor.quote}”</p>}
+            {item.anchor?.quote && <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{t('Explains')} “{item.anchor.quote}”</p>}
           </div>
-          <button type="button" onClick={onClose} className="grid size-8 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close media"><Icon icon={X} size={17} /></button>
+          <button type="button" onClick={onClose} className="grid size-8 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label={t('Close media')}><Icon icon={X} size={17} /></button>
         </header>
         <div className="min-h-0 flex-1 overflow-y-auto bg-inset/40 p-4">
-          <MediaFrame item={item} className="max-h-[65vh]" />
+          <MediaFrame item={item} className="max-h-[65dvh]" />
           <figcaption className="mt-3">
             {item.caption && <p className="text-[13px] leading-relaxed text-ink-2">{item.caption}</p>}
             <MediaCredit item={item} />
@@ -431,6 +434,7 @@ function Blocks({
   marks?: ArticleMarks
   onOpenMark?: (mark: LibraryMark, anchor: HTMLElement) => void
 }) {
+  const t = useT()
   return (
     <>
       {blocks.map((b, i) => {
@@ -462,10 +466,10 @@ function Blocks({
             <div key={i} className="mt-10 border-t border-line pt-5">
               <div className="flex items-center gap-2">
                 <Icon icon={Database} size={16} className="text-primary" />
-                <h2 className="font-serif text-[19px] font-semibold tracking-[-0.01em] text-ink">Sources</h2>
+                <h2 className="font-serif text-[19px] font-semibold tracking-[-0.01em] text-ink">{t('Sources')}</h2>
               </div>
               <p className="mt-1 text-[12px] text-ink-3">
-                {b.count ?? 0} verified fact{b.count === 1 ? '' : 's'} behind this article. Select one to see its exact source pages.
+                {b.count ?? 0} {t('verified facts behind this article')}. {t('Select one to see its exact source pages.')}
               </p>
             </div>
           )
@@ -529,6 +533,7 @@ function citationPage(locator: EvidenceLocator | string): string {
 }
 
 function EvidenceDrawer({ span, evidence, onClose }: { span: ArticleSpan; evidence: MedicalEvidenceStore; onClose: () => void }) {
+  const t = useT()
   const citations = span.citationIds.map((id) => evidence.citations.find((citation) => citation.id === id)).filter(Boolean) as CitationLink[]
   const claims = span.claimIds.map((id) => evidence.claims.find((claim) => claim.id === id)).filter(Boolean)
 
@@ -544,15 +549,15 @@ function EvidenceDrawer({ span, evidence, onClose }: { span: ArticleSpan; eviden
 
   return overlayPortal(
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-labelledby="evidence-drawer-title">
-      <button type="button" className="absolute inset-0 bg-ink/25" onClick={onClose} aria-label="Close sources" />
+      <button type="button" className="absolute inset-0 bg-ink/25" onClick={onClose} aria-label={t('Close sources')} />
       <aside className="absolute inset-y-0 end-0 flex w-full max-w-lg flex-col border-s border-line bg-paper shadow-pop">
         <header className="flex items-start gap-3 border-b border-line bg-surface px-5 py-4">
           <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={Database} size={17} /></span>
           <div className="min-w-0 flex-1">
-            <h2 id="evidence-drawer-title" className="font-serif text-[18px] font-semibold text-ink">Sources for this fact</h2>
-            <p className="mt-0.5 text-[11.5px] text-ink-3">{citations.length} exact source link{citations.length === 1 ? '' : 's'} · stable fact ID {span.id}</p>
+            <h2 id="evidence-drawer-title" className="font-serif text-[18px] font-semibold text-ink">{t('Sources for this fact')}</h2>
+            <p className="mt-0.5 text-[11.5px] text-ink-3">{citations.length} {t('exact source links')} · {t('stable fact ID')} {span.id}</p>
           </div>
-          <button type="button" onClick={onClose} className="grid size-9 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close sources"><Icon icon={X} size={18} /></button>
+          <button type="button" onClick={onClose} className="grid size-9 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label={t('Close sources')}><Icon icon={X} size={18} /></button>
         </header>
         <div className="min-h-0 flex-1 overflow-y-auto p-5">
           <div className="rounded-xl border border-line bg-surface p-4">
@@ -573,8 +578,8 @@ function EvidenceDrawer({ span, evidence, onClose }: { span: ArticleSpan; eviden
                   </div>
                   {citation.supportSpan && <p className="mt-3 border-s-2 border-accent-line ps-3 text-[12.5px] leading-relaxed text-ink-2">{citation.supportSpan}</p>}
                   <div className="mt-3 flex items-center justify-between gap-3">
-                    <span className="text-[10.5px] text-ink-3">{citation.countsAsClaimEvidence ? 'Counts as claim evidence' : 'Article-level context'}</span>
-                    <Button size="sm" variant="secondary" iconLeft={ExternalLink} onClick={() => void openCitation(citation)}>Go to exact source</Button>
+                    <span className="text-[10.5px] text-ink-3">{citation.countsAsClaimEvidence ? t('Counts as claim evidence') : t('Article-level context')}</span>
+                    <Button size="sm" variant="secondary" iconLeft={ExternalLink} onClick={() => void openCitation(citation)}>{t('Go to exact source')}</Button>
                   </div>
                 </section>
               )
@@ -692,6 +697,7 @@ function Reader({
   onToggleHeld: (articleId: string) => void
 }) {
   const t = useT()
+  const subjectName = useSubjectName()
   const location = useLocation()
   const [universityCatalogue] = useUniversityCatalogue()
   const { topics: libraryTopics, subtopics: allSubtopics, updatedAtFor } = useLiveLibrary()
@@ -798,12 +804,12 @@ function Reader({
             className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface py-1 pe-2.5 ps-1 font-medium text-ink-2 shadow-panel transition-colors hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
           >
             <SystemMark subjectId={subject.id} index={chapterIndex + 1} />
-            {subject.name}
+            {subjectName(subject.id)}
           </button>
         ) : (
           <span className="inline-flex items-center gap-1.5 py-1 pe-2.5 ps-1 font-medium text-ink-2">
             <SystemMark subjectId={subject.id} index={chapterIndex + 1} />
-            {subject.name}
+            {subjectName(subject.id)}
           </span>
         )}
         <Icon icon={ArrowRight} size={12} className="rtl:-scale-x-100" />
@@ -1061,6 +1067,7 @@ function UserReader({
   query: string
 }) {
   const t = useT()
+  const subjectName = useSubjectName()
   const subject = getSubject(article.subjectId)
   return (
     <div className="mx-auto max-w-[46rem] px-5 py-8 sm:px-8 lg:py-10">
@@ -1068,7 +1075,7 @@ function UserReader({
         <nav className="flex items-center gap-2 text-[12.5px] text-ink-3">
           <span className="inline-flex items-center gap-1.5 font-medium text-ink-2">
             <SystemMark subjectId={subject.id} index={1} />
-            {subject.name}
+            {subjectName(subject.id)}
           </span>
           <Icon icon={ArrowRight} size={12} className="rtl:-scale-x-100" />
           <span className="inline-flex items-center gap-1 text-primary-strong"><Icon icon={PenLine} size={12} /> {t('My articles')}</span>
@@ -1357,7 +1364,7 @@ export function Library() {
           <div className="animate-slide-x absolute inset-y-0 start-0 flex w-[min(22rem,90vw)] flex-col bg-surface shadow-pop">
             <div className="flex h-12 items-center justify-between border-b border-line px-4">
               <span className="font-serif text-[16px] font-semibold text-ink">{t('Your modules')}</span>
-              <button type="button" onClick={() => setTreeOpen(false)} className="grid size-9 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close library navigation">
+              <button type="button" onClick={() => setTreeOpen(false)} className="grid size-9 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label={t('Close library navigation')}>
                 <Icon icon={X} size={18} />
               </button>
             </div>

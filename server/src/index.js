@@ -21,7 +21,7 @@ import {
   markShareNotificationsRead, readShare, readShareAsset, setShareFollow, setShareStar,
   shareRevisionHistory, updateShare,
 } from './shares.js'
-import { apiAuthGate, heldTabs, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
+import { apiAuthGate, heldTabs, identityFromToken, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
 import { hasConsoleAccess } from './roles.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
 import { mediaMeta } from './mediaMeta.js'
@@ -91,7 +91,10 @@ import {
 import {
   createParty, joinByCode, setVisibility, myParties, openParties, partyFor, leaveParty,
   createSession, sessionsFor, sessionFor, answerItem, closeSession,
+  ensureSeated, partyMembers, recordActivity, resolvePartyId, roomSnapshot, setSeat,
 } from './parties.js'
+import { attachRoomsRealtime, notifyRoomPresence } from './roomsRealtime.js'
+import { loadSfu } from './roomsSfu.js'
 import {
   actOnPartyGame, createPartyGame, partyGameFor, partyGamesFor, streamPartyGameEvents,
 } from './partyGames.js'
@@ -976,6 +979,66 @@ app.post('/api/parties/:id/leave', requireAuthenticated, wrap(async (req, res) =
   res.json(await leaveParty(req.identity.id, req.params.id))
 }))
 
+/* ── Study room seats and activity ───────────────────────────────────────── */
+
+/**
+ * Where this member sits, and what their desk looks like.
+ *
+ * `:code` is the room code the browser has in its address bar, but a party id
+ * is accepted too — every route above this one is addressed by id, and making
+ * the caller translate between the two would be a translation that can be got
+ * wrong. `resolvePartyId` takes either.
+ *
+ * A refused seat is 409, not 400: asking for a desk somebody is sitting at is
+ * a race, not a malformed request, and the client's answer is to try another
+ * desk rather than to fix its code.
+ */
+app.patch('/api/parties/:code/seat', requireAuthenticated, wrap(async (req, res) => {
+  const result = await setSeat(req.identity.id, req.params.code, req.body ?? {})
+  if (!result.ok) {
+    const status = result.reason === 'seat_taken' ? 409
+      : result.reason === 'not_found' || result.reason === 'not_a_member' ? 404
+        : 400
+    return res.status(status).json(result)
+  }
+  // Everybody watching the hall sees the seat move now rather than in four
+  // seconds. A room with no open sockets pays nothing for this.
+  notifyRoomPresence(result.partyId)
+  return res.json(result)
+}))
+
+/**
+ * Seat a member who has just opened a room without a desk of their own.
+ *
+ * Idempotent: a member who already has a desk keeps it, and a full room
+ * answers `seatIndex: null` rather than inventing a twenty-first desk.
+ */
+app.post('/api/parties/:code/seat/claim', requireAuthenticated, wrap(async (req, res) => {
+  const partyId = await resolvePartyId(req.params.code)
+  if (!partyId) return res.status(404).json({ ok: false, reason: 'not_found' })
+  const members = await partyMembers(partyId, req.identity.id)
+  if (!members) return res.status(404).json({ ok: false, reason: 'not_a_member' })
+  const seatIndex = await ensureSeated(req.identity.id, partyId)
+  notifyRoomPresence(partyId)
+  return res.json({ ok: true, seatIndex, party: await partyFor(req.identity.id, partyId) })
+}))
+
+/** "I am still here, and this is what I am doing." Thirty seconds apart, from the room. */
+app.post('/api/parties/:code/heartbeat', requireAuthenticated, wrap(async (req, res) => {
+  const result = await recordActivity(req.identity.id, req.params.code, req.body?.activity)
+  if (!result.ok) return res.status(404).json(result)
+  notifyRoomPresence(result.partyId)
+  return res.json(result)
+}))
+
+/** The room's members, seats and activity — the same list the socket broadcasts. */
+app.get('/api/parties/:code/members', requireAuthenticated, wrap(async (req, res) => {
+  const partyId = await resolvePartyId(req.params.code)
+  const members = partyId ? await partyMembers(partyId, req.identity.id) : null
+  if (!members) return res.status(404).json({ error: 'party not found' })
+  return res.json({ members })
+}))
+
 /* ── Study party games ───────────────────────────────────────────────────── */
 
 app.post('/api/parties/:id/games', requireAuthenticated, wrap(async (req, res) => {
@@ -1274,6 +1337,11 @@ const STUDENT_READABLE_STATE = new Set([
   // Alt text and dimensions for every image a student may be shown. The bytes
   // are a separate, individually authenticated request.
   MEDIA_STATE_KEY,
+  // The admin's edits to Terms, Privacy, Refund Policy and Contact. The most
+  // public documents the platform has: they are read from the marketing footer
+  // by somebody who has not signed up yet, so this one is readable with no
+  // session at all. Only the `legal` tab may write it.
+  'nishany-legal-pages-v1',
   // The faculty's own by-module and by-year structures. Students browse them.
   'nishany-library-trees-v1',
   'nishany-academic-universities-v1',
@@ -3644,12 +3712,34 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
 const port = Number(process.env.PORT) || 8080
 migrate()
   .then(async () => {
-    app.listen(port, () => {
+    const httpServer = app.listen(port, () => {
       console.log(`Nishany on :${port}`)
       void medicalResourceRecords()
         .then((resources) => console.log(`Medical resource index ready (${resources.length} records)`))
         .catch((error) => console.error('Medical resource index warm-up failed:', error.message))
     })
+
+    // The study-room signalling channel shares this HTTP server rather than
+    // binding a second port: one origin, one TLS certificate, one thing for
+    // Coolify to route. Attached after `listen` and never awaited into the boot
+    // path — a host that cannot run the SFU still serves the whole product, and
+    // the room says voice is unavailable rather than the process failing to
+    // start. See docs/rooms-voice.md.
+    void attachRoomsRealtime(httpServer, {
+      identityFromToken,
+      resolveRoom: resolvePartyId,
+      readRoom: roomSnapshot,
+      loadSfu,
+    })
+      .then((realtime) => {
+        if (!realtime) return
+        console.log(
+          realtime.sfu.available
+            ? 'Study room signalling ready, voice ready'
+            : `Study room signalling ready, voice unavailable (${realtime.sfu.reason})`,
+        )
+      })
+      .catch((error) => console.error('Study room signalling failed to attach:', error.message))
     setMailer(sendMail) // inject the email sender the reminder dispatcher uses
     startQotdReminderScheduler()
     // Recovery-point creation must never prevent the HTTP server from coming

@@ -143,7 +143,10 @@ export function Sidebar({
                             </span>
                           )
                         )}
-                        {item.to === '/app/qotd' && qotdUnanswered && (
+                        {/* Question of the Day is no longer its own nav item,
+                            so the unanswered signal moves to the Dashboard —
+                            which is where the card that answers it now lives. */}
+                        {item.to === '/app' && qotdUnanswered && (
                           collapsed ? (
                             <span className="absolute end-1.5 top-1.5 h-2 w-2 rounded-full bg-primary" aria-hidden="true" />
                           ) : (

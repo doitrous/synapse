@@ -62,7 +62,7 @@ function OcclusionImage({ note, askedIds, showAnswer }: { note: ImageOcclusionNo
   return (
     <svg
       viewBox={`0 0 ${note.imageWidth} ${note.imageHeight}`}
-      className="mx-auto block max-h-[52vh] w-full rounded-lg border border-line"
+      className="mx-auto block max-h-[52dvh] w-full rounded-lg border border-line"
       style={{ aspectRatio: `${note.imageWidth} / ${note.imageHeight}` }}
       role="img"
       aria-label={showAnswer ? t('Image with the answer revealed') : t('Image with a hidden region to identify')}

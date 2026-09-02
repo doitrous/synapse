@@ -55,6 +55,25 @@ function OtherLanguageOffer({ c, otherHref }: { c: LandingContent; otherHref: st
   )
 }
 
+/**
+ * The footer's second row: terms, privacy, refunds, contact.
+ *
+ * Written out here rather than imported from `pages/legal/content.ts` so the
+ * marketing bundle does not carry the full text of four documents just to draw
+ * four links. The Arabic shell keeps the same URLs and adds `?lang=ar`, which
+ * mirrors the page's chrome and shows the "translation pending" notice.
+ */
+function legalLinks(lang: 'ar' | 'en'): [string, string][] {
+  const suffix = lang === 'ar' ? '?lang=ar' : ''
+  const labels: Record<'ar' | 'en', string[]> = {
+    en: ['Terms and Conditions', 'Privacy Policy', 'Refund Policy', 'Contact Us'],
+    ar: ['الشروط والأحكام', 'سياسة الخصوصية', 'سياسة الاسترداد', 'تواصل معنا'],
+  }
+  return (['/terms', '/privacy', '/refund-policy', '/contact'] as const).map(
+    (path, index) => [`${path}${suffix}`, labels[lang][index]],
+  )
+}
+
 export function MarketingShell({
   c,
   otherHref,
@@ -162,13 +181,27 @@ export function MarketingShell({
       <main className="mx-auto max-w-[1160px] px-5 sm:px-8">{children}</main>
 
       <footer className="border-t border-line">
-        <div className="mx-auto flex max-w-[1160px] flex-col items-start justify-between gap-4 px-5 py-7 text-[12.5px] text-ink-3 sm:flex-row sm:items-center sm:px-8">
-          <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
-            <Wordmark textSize={17} />
-            <Link to={pricing.path} className="font-medium transition-colors hover:text-ink">{pricing.navLabel}</Link>
-            <Link to={toOtherAtPlace} lang={c.lang === 'ar' ? 'en' : 'ar'} className="font-medium transition-colors hover:text-ink">{c.otherLabel}</Link>
+        <div className="mx-auto max-w-[1160px] px-5 sm:px-8">
+          <div className="flex flex-col items-start justify-between gap-4 py-7 text-[12.5px] text-ink-3 sm:flex-row sm:items-center">
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+              <Wordmark textSize={17} />
+              <Link to={pricing.path} className="inline-flex min-h-11 items-center font-medium transition-colors hover:text-ink sm:min-h-0">{pricing.navLabel}</Link>
+              <Link to={toOtherAtPlace} lang={c.lang === 'ar' ? 'en' : 'ar'} className="inline-flex min-h-11 items-center font-medium transition-colors hover:text-ink sm:min-h-0">{c.otherLabel}</Link>
+            </div>
+            <p className="max-w-md text-start sm:text-end">{m.footer}</p>
           </div>
-          <p className="max-w-md text-start sm:text-end">{m.footer}</p>
+
+          {/* The four documents. One English copy of each serves both shells —
+              the Arabic labels lead to the same pages, which say for themselves
+              that the Arabic translation is still under review. */}
+          <nav
+            aria-label={c.lang === 'ar' ? 'روابط قانونية' : 'Legal and support'}
+            className="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-line py-4 text-[12.5px] text-ink-3"
+          >
+            {legalLinks(c.lang).map(([href, label]) => (
+              <Link key={href} to={href} className="inline-flex min-h-11 items-center font-medium transition-colors hover:text-ink sm:min-h-0">{label}</Link>
+            ))}
+          </nav>
         </div>
       </footer>
     </div>

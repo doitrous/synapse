@@ -49,7 +49,10 @@ const POSITIVE_TERMS: Array<keyof PriorityTerms> = [
  * A block where every item says "included for coverage" is a block that has
  * stopped explaining itself.
  */
-export function slotReason(slot: Pick<BlockSlot, 'score' | 'credits'>): string {
+export function slotReason(
+  slot: Pick<BlockSlot, 'score' | 'credits'>,
+  t: (en: string) => string = (en) => en,
+): string {
   const { contributions } = slot.score
 
   const dominant = POSITIVE_TERMS
@@ -57,22 +60,25 @@ export function slotReason(slot: Pick<BlockSlot, 'score' | 'credits'>): string {
     .sort((a, b) => contributions[b] - contributions[a])[0]
 
   if (dominant) {
-    const base = REASON_BY_TERM[dominant]
+    const base = t(REASON_BY_TERM[dominant])
     // A boost is a fact about the student's history, not about this question,
     // so it is appended rather than allowed to replace the actual reason.
     return slot.score.boostMultiplier > 1
-      ? `${base} It is also being prioritised after a recent error.`
+      ? `${base} ${t('It is also being prioritised after a recent error.')}`
       : base
   }
 
   // No positive term at all means the item was a filler once every quota was
   // met. Saying so is more useful than inventing a pedagogical justification.
-  return 'Included to complete the block once every other target was met.'
+  return t('Included to complete the block once every other target was met.')
 }
 
 /** Attach reasons to a freshly built block. */
-export function explainBlock(block: AdaptiveBlock): AdaptiveBlock {
-  return { ...block, slots: block.slots.map((slot) => ({ ...slot, reason: slotReason(slot) })) }
+export function explainBlock(
+  block: AdaptiveBlock,
+  t: (en: string) => string = (en) => en,
+): AdaptiveBlock {
+  return { ...block, slots: block.slots.map((slot) => ({ ...slot, reason: slotReason(slot, t) })) }
 }
 
 /**
@@ -81,14 +87,17 @@ export function explainBlock(block: AdaptiveBlock): AdaptiveBlock {
  * Built from what the block actually served, not from what was targeted. A block
  * that aimed for eight weakness items and found three should say three.
  */
-export function blockSummary(block: AdaptiveBlock): string {
+export function blockSummary(
+  block: AdaptiveBlock,
+  t: (en: string) => string = (en) => en,
+): string {
   const parts: string[] = []
   const order: AllocationNeed[] = ['weakness', 'coverage', 'review', 'uncertainty']
   const phrasing: Record<AllocationNeed, (n: number) => string> = {
-    weakness: (n) => `${n} on concepts you have struggled with`,
-    coverage: (n) => `${n} covering exam blueprint areas`,
-    review: (n) => `${n} due for review`,
-    uncertainty: (n) => `${n} on concepts not yet measured`,
+    weakness: (n) => t('{n} on concepts you have struggled with').replace('{n}', String(n)),
+    coverage: (n) => t('{n} covering exam blueprint areas').replace('{n}', String(n)),
+    review: (n) => t('{n} due for review').replace('{n}', String(n)),
+    uncertainty: (n) => t('{n} on concepts not yet measured').replace('{n}', String(n)),
   }
 
   for (const need of order) {
@@ -96,9 +105,13 @@ export function blockSummary(block: AdaptiveBlock): string {
     if (served > 0) parts.push(phrasing[need](served))
   }
 
-  if (!parts.length) return `${block.size} questions.`
-  if (parts.length === 1) return `${block.size} questions: ${parts[0]}.`
-  return `${block.size} questions: ${parts.slice(0, -1).join(', ')} and ${parts[parts.length - 1]}.`
+  if (!parts.length) return t('{n} questions.').replace('{n}', String(block.size))
+  const joined = parts.length === 1
+    ? parts[0]
+    : t('{list} and {last}')
+      .replace('{list}', parts.slice(0, -1).join(', '))
+      .replace('{last}', parts[parts.length - 1])
+  return t('{n} questions: {parts}.').replace('{n}', String(block.size)).replace('{parts}', joined)
 }
 
 /**
@@ -108,7 +121,10 @@ export function blockSummary(block: AdaptiveBlock): string {
  * with fewer new questions than usual deserves to know the bank ran short rather
  * than concluding the app is repeating itself at random.
  */
-export function shortageNotice(block: AdaptiveBlock): string | null {
+export function shortageNotice(
+  block: AdaptiveBlock,
+  t: (en: string) => string = (en) => en,
+): string | null {
   const relaxed = block.relaxed.length
   const requested = block.targets.weakness + block.targets.coverage + block.targets.review + block.targets.uncertainty
   const short = block.size < requested
@@ -119,12 +135,12 @@ export function shortageNotice(block: AdaptiveBlock): string | null {
   if (!relaxed && !short) return null
 
   if (!relaxed) {
-    return 'The question bank could not fill this block completely. The shortage has been reported.'
+    return t('The question bank could not fill this block completely. The shortage has been reported.')
   }
-  const rules = `${relaxed} selection rule${relaxed === 1 ? '' : 's'}`
+  const rules = `${relaxed} ${relaxed === 1 ? t('selection rule') : t('selection rules')}`
   return short
-    ? `The question bank could not fill this block completely. ${rules} had to be relaxed, and the shortage has been reported.`
-    : `The question bank was tight here, so ${rules} had to be relaxed. The shortage has been reported.`
+    ? t('The question bank could not fill this block completely. {rules} had to be relaxed, and the shortage has been reported.').replace('{rules}', rules)
+    : t('The question bank was tight here, so {rules} had to be relaxed. The shortage has been reported.').replace('{rules}', rules)
 }
 
 /**

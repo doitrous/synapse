@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { ArrowLeft, Layers, Play, Plus, Pencil, Trash2, Settings2, Undo2, FileUp, Download } from 'lucide-react'
+import { useMemo, useState, type ReactNode } from 'react'
+import { ArrowLeft, CalendarDays, Layers, Play, Plus, Pencil, Trash2, Settings2, Undo2, FileUp, Download } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { IconButton } from '@/components/ui/IconButton'
@@ -10,8 +10,10 @@ import { Dialog } from '@/components/ui/Dialog'
 import { Tooltip } from '@/components/ui/Tooltip'
 import { Field, TextInput } from '@/components/ui/Field'
 import { SubjectTag } from '@/components/ui/Subject'
+import { ComingSoonDialog } from '@/components/hub'
 import { useT } from '@/lib/i18n'
-import { pct, formatRelativeTime } from '@/lib/format'
+import { pct } from '@/lib/format'
+import { useRelativeTime } from '@/lib/useRelativeTime'
 import type { DeckView, FlashcardsApi } from '@/lib/useFlashcards'
 import { DeckOptionsDialog } from './DeckOptionsDialog'
 import { ImportDeckDialog } from './ImportDeckDialog'
@@ -96,7 +98,9 @@ export function DeckDashboard({
   return (
     <div className="space-y-5">
       {rhythm.settings.showOnMain && (
-        <StudyRhythm api={api} scope={ALL_SCOPE} settingsApi={rhythm} />
+        <StudyRhythmGate>
+          <StudyRhythm api={api} scope={ALL_SCOPE} settingsApi={rhythm} />
+        </StudyRhythmGate>
       )}
       <Panel>
         <PanelHeader
@@ -138,6 +142,72 @@ export function DeckDashboard({
       {importing && <ImportDeckDialog api={api} onClose={() => setImporting(false)} />}
       {exporting && <ExportDeckDialog api={api} onClose={() => setExporting(false)} />}
     </div>
+  )
+}
+
+/**
+ * Study Rhythm is not finished, so it is not advertised as if it were.
+ *
+ * The same coming-soon contract the hubs use (`ComingSoonDialog`, and a card
+ * that says what the surface will do rather than hiding it): a compact card
+ * states the fact, the card itself opens the explanation, and a *separate*
+ * Preview control opens the real panel in place. Two sibling controls, never a
+ * button inside a button — which is also why this is not a `FeatureCard`, whose
+ * whole surface is the control and whose preview is a route, not a panel that
+ * lives on this page.
+ */
+function StudyRhythmGate({ children }: { children: ReactNode }) {
+  const t = useT()
+  const [explaining, setExplaining] = useState(false)
+  const [previewing, setPreviewing] = useState(false)
+
+  if (previewing) {
+    return (
+      <div className="space-y-2">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <p className="flex items-center gap-2 text-[12.5px] text-ink-3">
+            <Badge tone="outline">{t('Coming soon')}</Badge>
+            {t('A preview — these numbers are still settling.')}
+          </p>
+          <Button size="sm" variant="ghost" onClick={() => setPreviewing(false)}>{t('Hide preview')}</Button>
+        </div>
+        {children}
+      </div>
+    )
+  }
+
+  return (
+    <>
+      <Panel className="flex flex-wrap items-center gap-x-4 gap-y-3 p-4">
+        <button
+          type="button"
+          onClick={() => setExplaining(true)}
+          className="flex min-w-0 flex-1 items-center gap-3 text-start max-sm:min-h-11"
+        >
+          <span className="grid size-10 shrink-0 place-items-center rounded-lg border border-line bg-surface-2 text-ink-3">
+            <Icon icon={CalendarDays} size={18} />
+          </span>
+          <span className="min-w-0">
+            <span className="flex flex-wrap items-center gap-2">
+              <span className="text-[14px] font-medium text-ink">{t('Study rhythm')}</span>
+              <Badge tone="outline">{t('Coming soon')}</Badge>
+            </span>
+            <span className="mt-0.5 block text-[12.5px] text-ink-3">
+              {t('Your review history and forecast, day by day, with the figures underneath.')}
+            </span>
+          </span>
+        </button>
+        <Button size="sm" variant="secondary" onClick={() => setPreviewing(true)}>{t('Preview')}</Button>
+      </Panel>
+      {explaining && (
+        <ComingSoonDialog
+          title="Study rhythm"
+          body="It will show every day you studied, what is due next, and the streaks and averages that come out of both. The calendar and the figures already work on your real history — they are being checked against it before this becomes part of the page."
+          icon={CalendarDays}
+          onClose={() => setExplaining(false)}
+        />
+      )}
+    </>
   )
 }
 
@@ -190,6 +260,7 @@ function DeckDetail({
   onAddToDeck: () => void
 }) {
   const t = useT()
+  const relativeTime = useRelativeTime()
   const now = useMemo(() => new Date(), [])
   const [optionsOpen, setOptionsOpen] = useState(false)
   const [deleting, setDeleting] = useState(false)
@@ -236,7 +307,7 @@ function DeckDetail({
             </Button>
             <p className="text-[12px] text-ink-3">
               {sessionSize > 0
-                ? <>{t('About')} <span className="tnum font-medium text-ink-2">{sessionSize}</span> {t('cards this session')}</>
+                ? <>{t('Around')} <span className="tnum font-medium text-ink-2">{sessionSize}</span> {t('cards this session')}</>
                 : t('Nothing due right now.')}
             </p>
           </div>
@@ -247,13 +318,15 @@ function DeckDetail({
             <ExtraStat label={t('Studied today')} value={stats.studiedToday} />
             <ExtraStat label={t('Pass rate today')} value={stats.passRateToday === null ? '—' : pct(stats.passRateToday * 100)} />
             <ExtraStat label={t('New / day')} value={deck.config.newPerDay} />
-            <ExtraStat label={t('Last studied')} value={stats.lastStudied ? formatRelativeTime(stats.lastStudied, now) : t('never')} />
+            <ExtraStat label={t('Last studied')} value={stats.lastStudied ? relativeTime(stats.lastStudied, now) : t('never')} />
           </dl>
         </div>
       </Panel>
 
       {rhythm.settings.showOnDeck && (
-        <StudyRhythm api={api} scope={deckScope} settingsApi={rhythm} />
+        <StudyRhythmGate>
+          <StudyRhythm api={api} scope={deckScope} settingsApi={rhythm} />
+        </StudyRhythmGate>
       )}
 
       <Panel>

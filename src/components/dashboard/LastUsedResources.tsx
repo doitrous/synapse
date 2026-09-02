@@ -10,14 +10,14 @@ import {
   FolderOpen,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
-import { getSubject } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { ButtonLink } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SubjectDot } from '@/components/ui/Subject'
 import { useRecentResources } from '@/lib/useRecentResources'
-import { formatRelativeTime } from '@/lib/format'
+import { useRelativeTime } from '@/lib/useRelativeTime'
 import { useT } from '@/lib/i18n'
 
 const TYPE_ICON: Record<string, LucideIcon> = {
@@ -30,6 +30,8 @@ const TYPE_ICON: Record<string, LucideIcon> = {
 
 export function LastUsedResources() {
   const t = useT()
+  const relativeTime = useRelativeTime()
+  const subjectName = useSubjectName()
   const { recent } = useRecentResources()
 
   return (
@@ -71,11 +73,11 @@ export function LastUsedResources() {
                     <span className="mt-0.5 flex items-center gap-1.5 text-[12px] text-ink-3">
                       <SubjectDot id={r.subjectId} />
                       <span className="truncate">
-                        {getSubject(r.subjectId).name}{r.meta ? ` · ${r.meta}` : ''}
+                        {subjectName(r.subjectId)}{r.meta ? ` · ${r.meta}` : ''}
                       </span>
                     </span>
                   </span>
-                  <span className="tnum shrink-0 text-[11.5px] text-ink-3">{formatRelativeTime(r.openedAt)}</span>
+                  <span className="tnum shrink-0 text-[11.5px] text-ink-3">{relativeTime(r.openedAt)}</span>
                 </Link>
               </li>
             ))}

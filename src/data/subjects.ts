@@ -27,3 +27,18 @@ export const subjectsById: Record<string, Subject> = Object.fromEntries(
 export function getSubject(id: string): Subject {
   return subjectsById[id] ?? { id, name: id, short: id.toUpperCase(), color: '#6d7688' }
 }
+
+/**
+ * A system's display name in the language the interface is in.
+ *
+ * System names are authored taxonomy, not translatable copy, so they never went
+ * through `t()` and read as English islands inside an Arabic page. The Arabic
+ * label rides on the subject itself (`ar`), the same way the glossary's
+ * categories carry theirs, and this is the one place that chooses between them.
+ * `id` and `short` are untouched: content, filters and imports keep matching on
+ * the codes they always did.
+ */
+export function subjectName(id: string, lang: 'en' | 'ar'): string {
+  const subject = getSubject(id)
+  return lang === 'ar' ? (subject.ar ?? subject.name) : subject.name
+}

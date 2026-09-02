@@ -11,7 +11,7 @@
 import type { LucideIcon } from 'lucide-react'
 import {
   Gauge, Network, Languages, GraduationCap, Scale, Library, FileQuestion, Compass,
-  Stethoscope, Braces, GitFork, Clapperboard, ImagePlus, Flag, MonitorPlay, Mail, Inbox, BellRing,
+  Stethoscope, Braces, GitFork, Clapperboard, ImagePlus, Flag, MonitorPlay, FileText, Mail, Inbox, BellRing,
   Layers, PenLine, Microscope, Siren,
   UserCog, Users, Banknote, TicketPercent, Bot, LifeBuoy, Settings, ShieldCheck, KeyRound,
 } from 'lucide-react'
@@ -75,6 +75,8 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
     stateKeys: ['nishany-content-reports-v1'], apiPrefixes: [] },
   { id: 'tutorial', label: 'Tutorial Videos', to: '/admin/tutorial', icon: MonitorPlay, group: 'Content',
     stateKeys: ['nishany-tutorial-videos-v1'], apiPrefixes: [] },
+  { id: 'legal', label: 'Legal pages', to: '/admin/legal', icon: FileText, group: 'Content',
+    stateKeys: ['nishany-legal-pages-v1'], apiPrefixes: [] },
 
   { id: 'email', label: 'Email & Automations', to: '/admin/email', icon: Mail, group: 'Operations',
     stateKeys: ['nishany-email-automations-v1'], apiPrefixes: [] },
@@ -112,6 +114,11 @@ export const DEFAULT_ROLE_TABS: Record<string, string[]> = {
   admin: [
     'dashboard', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
+    // The public documents. Not content authoring — an admin who runs billing
+    // and support is the person who is told the company's registered name and
+    // the refund window, so they should not need a super admin to write them
+    // down. `editor` holds it too, by way of the computed default above.
+    'legal',
   ],
   // Exactly two surfaces — Media Requests and Content Reports. Mirror of the
   // server default in server/src/tabs.js; the parity test holds them together.

@@ -1,4 +1,4 @@
-import { AlertTriangle, Crosshair, Grid3x3, ListOrdered, Shuffle } from 'lucide-react'
+import { AlertTriangle, Building2, Crosshair, Grid3x3, ListOrdered, Shuffle } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
@@ -49,6 +49,15 @@ const games = [
     href: '/app/red-flag-sort',
     icon: AlertTriangle,
     badge: 'Authored pack',
+  },
+  // Not a quiz like the other six, and kept here so it stays reachable: the
+  // hospital builder is the one game with nothing to score against a pack.
+  {
+    title: 'Build Maristanas',
+    description: 'Build and run a teaching hospital, ward by ward.',
+    href: '/app/maristanas',
+    icon: Building2,
+    badge: 'Simulation',
   },
 ] as const
 

@@ -36,7 +36,7 @@ import { ContextMenu, type ContextMenuItem } from '@/components/ui/ContextMenu'
 import { Tooltip } from '@/components/ui/Tooltip'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
-import { formatRelativeTime, relativeDay } from '@/lib/format'
+import { useRelativeDay, useRelativeTime } from '@/lib/useRelativeTime'
 import { isoDay } from '@/data/studyBlocks'
 import type { CardWithMeta, FlashcardsApi } from '@/lib/useFlashcards'
 import { FLAG_META, FLAGS } from '@/data/flashcards/flag'
@@ -412,6 +412,8 @@ function BrowseRow({
   onAskSetDue: () => void
 }) {
   const t = useT()
+  const relativeTime = useRelativeTime()
+  const relativeDayLabel = useRelativeDay()
   const [menu, setMenu] = useState<{ x: number; y: number } | null>(null)
   const { card, meta } = entry
   const status = exclusiveStatus(meta, now)
@@ -465,9 +467,9 @@ function BrowseRow({
         <Badge tone={STATE_META[status].tone}>{t(STATE_META[status].label)}</Badge>
       </Td>
       <Td align="end" className="whitespace-nowrap">
-        <span className="tnum block font-mono text-[12.5px] text-ink-2">{relativeDay(new Date(s.due), now)}</span>
+        <span className="tnum block font-mono text-[12.5px] text-ink-2">{relativeDayLabel(new Date(s.due), now)}</span>
         <span className="tnum block text-[11px] text-ink-3">
-          {s.state === 'review' ? <>{s.interval}{t('d interval')}</> : formatRelativeTime(s.due, now)}
+          {s.state === 'review' ? <>{s.interval}{t('d interval')}</> : relativeTime(s.due, now)}
         </span>
       </Td>
       <Td className="align-top">

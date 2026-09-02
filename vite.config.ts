@@ -2,9 +2,28 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'node:path'
+import fs from 'node:fs'
+
+/**
+ * Where `node_modules` really lives. A git worktree borrows the main
+ * checkout's dependencies through a symlink, and Vite's dev server refuses to
+ * serve files (fonts, most visibly) from outside the project root unless the
+ * real location is allowed explicitly.
+ */
+function realNodeModules(): string {
+  try {
+    return fs.realpathSync(path.resolve(import.meta.dirname, 'node_modules'))
+  } catch {
+    return path.resolve(import.meta.dirname, 'node_modules')
+  }
+}
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Normally the app is served from the origin root. A preview host can mount
+  // a build under a path (`VITE_BASE_PATH=/some-preview/`); the router reads
+  // the same value back through `import.meta.env.BASE_URL`.
+  base: process.env.VITE_BASE_PATH || '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -37,5 +56,8 @@ export default defineConfig({
   // falls back to Vite's default when run directly.
   server: {
     port: Number(process.env.PORT) || 5173,
+    fs: {
+      allow: [import.meta.dirname, realNodeModules()],
+    },
   },
 })

@@ -1,5 +1,6 @@
 import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
+import { NishanyLoader } from '@/components/ui/NishanyLoader'
 import { ImagePlus,
   BookOpenText,
   CircleCheck,
@@ -702,7 +703,7 @@ export function ControlDashboard({
       )}
       {API_MODE && saveStatus.pending && (
         <div role="status" className="mb-4 inline-flex items-center gap-2 rounded-lg border border-warning/30 bg-warning-tint/55 px-3 py-1.5 text-[12.5px] font-medium text-ink-2">
-          <span className="size-3.5 animate-spin rounded-full border-2 border-warning/40 border-t-warning" aria-hidden />
+          <NishanyLoader mini decorative />
           Saving your changes…
         </div>
       )}

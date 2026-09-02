@@ -8,11 +8,12 @@ import { ZoomableImage, MediaAttachmentView } from '@/components/ui/MediaAttachm
 import { PlacedMedia } from '@/components/ui/PlacedMedia'
 import { placementsFor } from '@/data/mediaPlacement'
 import { useMediaRecords } from '@/lib/useMediaRecords'
-import { getSubject } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import { cn } from '@/lib/cn'
 import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
 import { AnswerStatBar } from '@/components/qbank/AnswerStatBar'
 import { answerPercentages, type AnswerDistribution } from '@/data/answerDistribution'
+import { useT } from '@/lib/i18n'
 
 /**
  * A question as it is put to a student — the same one everywhere.
@@ -62,7 +63,9 @@ export function QuestionView({
    */
   distribution?: AnswerDistribution | null
 }) {
+  const t = useT()
   const mediaRecords = useMediaRecords()
+  const subjectName = useSubjectName()
   const answer = correctIndex ?? question.options.findIndex((option) => option.correct)
   const highlights = useQuestionHighlights(question.id)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -89,7 +92,7 @@ export function QuestionView({
       <div className="flex flex-wrap items-center gap-2">
         <span className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-ink">
           <SubjectDot id={question.subjectId} />
-          {getSubject(question.subjectId).name}
+          {subjectName(question.subjectId)}
         </span>
         <span className="text-ink-3">·</span>
         <span className="text-[12.5px] text-ink-3">{question.topic}</span>
@@ -105,7 +108,7 @@ export function QuestionView({
 
       {question.attachedImage && (
         <div className="mt-4 overflow-hidden rounded-xl border border-line bg-inset p-2">
-          <ZoomableImage src={question.attachedImage} alt="Question attachment" className="max-h-80 w-full rounded-lg object-contain" />
+          <ZoomableImage src={question.attachedImage} alt={t('Question attachment')} className="max-h-80 w-full rounded-lg object-contain" />
         </div>
       )}
       {question.attachments && question.attachments.length > 0 && (

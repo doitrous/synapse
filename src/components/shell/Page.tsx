@@ -53,7 +53,7 @@ export function PageHeader({
         <button
           type="button"
           onClick={handleBack}
-          className="mb-3 -ms-2 inline-flex min-h-9 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+          className="mb-3 -ms-2 inline-flex min-h-11 items-center gap-1.5 rounded-md px-2 sm:min-h-9 text-[12.5px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
         >
           <Icon icon={ArrowLeft} size={15} className="rtl:-scale-x-100" />
           {back.label || t('Back')}

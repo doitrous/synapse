@@ -13,7 +13,7 @@ import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import type { Question } from '@/data/qbank'
 import type { FriendProfile } from '@/lib/useFriends'
 import { CHALLENGE_REFUSALS, type Challenge, type ChallengeSummary } from '@/lib/useChallenges'
-import { formatRelativeTime } from '@/lib/format'
+import { useRelativeTime } from '@/lib/useRelativeTime'
 import { useT } from '@/lib/i18n'
 
 /** Shown in place of a server reason this map does not know, or a network failure. */
@@ -51,6 +51,7 @@ export function ChallengePanel({
   onOpen: (challengeId: string) => void
 }) {
   const t = useT()
+  const relativeTime = useRelativeTime()
   const [actingIds, setActingIds] = useState<Set<string>>(new Set())
   const [message, setMessage] = useState('')
 
@@ -166,7 +167,7 @@ export function ChallengePanel({
                     <Avatar name={opponentName(challenge, friends, t)} size="sm" />
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-[13.5px] text-ink-2">{opponentName(challenge, friends, t)}</span>
-                      <span className="mt-0.5 block text-[12px] text-ink-3">{challenge.scopeLabel} · {formatRelativeTime(challenge.createdAt)}</span>
+                      <span className="mt-0.5 block text-[12px] text-ink-3">{challenge.scopeLabel} · {relativeTime(challenge.createdAt)}</span>
                     </span>
                     <Badge tone="neutral">{t('Declined')}</Badge>
                   </div>
@@ -182,7 +183,7 @@ export function ChallengePanel({
                     <Avatar name={opponentName(challenge, friends, t)} size="sm" />
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-[13.5px] font-medium text-ink">{opponentName(challenge, friends, t)}</span>
-                      <span className="mt-0.5 block text-[12px] text-ink-3">{challenge.scopeLabel} · {formatRelativeTime(challenge.createdAt)}</span>
+                      <span className="mt-0.5 block text-[12px] text-ink-3">{challenge.scopeLabel} · {relativeTime(challenge.createdAt)}</span>
                     </span>
                     {challenge.result ? (
                       <span className="shrink-0 text-[13px] font-medium text-ink tabular-nums">

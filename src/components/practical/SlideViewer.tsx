@@ -6,6 +6,7 @@ import { resolveMediaSource } from '@/lib/mediaStorage'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 import { IconButton } from '@/components/ui/IconButton'
+import { NishanyLoader } from '@/components/ui/NishanyLoader'
 import { Badge } from '@/components/ui/Badge'
 import { Toggle } from '@/components/ui/Toggle'
 import { Panel } from '@/components/ui/Panel'
@@ -595,14 +596,14 @@ export function SlideViewer({
             >
               <div className="pointer-events-none absolute end-3 top-3 z-20 flex items-center gap-2" aria-hidden>
                 <span className="rounded-md border border-white/15 bg-black/60 px-2 py-1 font-mono text-[10px] font-semibold tracking-[0.08em] text-white/85 shadow-control">
-                  {objective === null ? '—' : `${objective}×`} OBJECTIVE
+                  {objective === null ? '—' : `${objective}×`} {t('OBJECTIVE')}
                 </span>
                 <span className="hidden rounded-md border border-white/15 bg-black/60 px-2 py-1 font-mono text-[10px] text-white/60 sm:inline">{zoomLabel}</span>
               </div>
               <div className="pointer-events-none absolute bottom-3 start-3 z-20 hidden items-center gap-2 rounded-md border border-white/10 bg-black/60 px-2 py-1 text-[10.5px] text-white/60 sm:flex" aria-hidden>
                 <span>{t('Drag to pan')}</span><span className="text-white/25">·</span><span>{t('Scroll to zoom')}</span>
               </div>
-        {imageLoading && <p className="absolute inset-0 grid place-items-center px-8 text-center text-[12px] text-ink-3">{t('Loading…')}</p>}
+        {imageLoading && <span className="absolute inset-0 grid place-items-center px-8 text-center"><NishanyLoader size={40} label={t('Loading')} /></span>}
         {!imageLoading && imageError && (
           <p role="alert" className="absolute inset-0 grid place-items-center px-8 text-center text-[12px] text-[#ffb4b9]">
             {imageError}

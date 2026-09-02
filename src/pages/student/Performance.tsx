@@ -3,7 +3,7 @@ import {
   Award, BarChart3, Brain, ClipboardCheck, Clock3, Highlighter, Hourglass, Layers, ListChecks, Medal,
   Percent, RotateCcw, ShieldQuestion, Table2, Timer, TrendingDown, TrendingUp, Users,
 } from 'lucide-react'
-import { getSubject } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import {
   accuracyOf, byDifficulty, bySubject, bySurface, currentStreak, distinctItems,
   firstAttemptSplit, hourHistogram, marked, medianSeconds, weakest,
@@ -24,6 +24,7 @@ import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Badge } from '@/components/ui/Badge'
 import { ButtonLink } from '@/components/ui/Button'
+import { ComingSoonBanner } from '@/components/hub'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { useT } from '@/lib/i18n'
 import { Segmented, Tabs } from '@/components/ui/Tabs'
@@ -306,7 +307,7 @@ function TopPerformers({ records }: { records: AttemptRecord[] }) {
           )}
         />
         <div className="border-b border-line bg-surface-2/40 px-4 py-3 text-[12px] leading-relaxed text-ink-2 sm:px-5">
-          {!API_MODE && <Badge tone="primary" dot className="mb-2">Demo cohort preview</Badge>}
+          {!API_MODE && <Badge tone="primary" dot className="mb-2">{t('Demo cohort preview')}</Badge>}
           {data?.scope && (
             <p className="mb-1 font-medium text-ink">
               {[data.scope.university, data.scope.year, data.scope.term].filter(Boolean).join(' · ')}
@@ -598,6 +599,7 @@ function StudyTimePanel() {
  */
 export function Performance() {
   const t = useT()
+  const subjectName = useSubjectName()
   const [view, setView] = useState<PerformanceView>('personal')
   const { records, loading } = useAttemptHistory()
 
@@ -616,6 +618,12 @@ export function Performance() {
   const header = (
     <>
       <PageHeader title={t('Performance')} description={t('Your progress, curriculum coverage, and verified peer rankings.')} back={{ fallback: '/app' }} />
+      {/* Inside `header`, so every branch below — leaders, loading, too few
+          answers, the full page — says the same thing about being a preview. */}
+      <ComingSoonBanner
+        icon={TrendingUp}
+        body="Performance will report your whole record against your year’s blueprint — every surface, every subject, and where the next mark is most likely to come from. Until then it is a preview: the figures are computed from your own attempts, and they fill in as you answer."
+      />
       <Tabs
         className="mb-4"
         value={view}
@@ -731,11 +739,10 @@ export function Performance() {
               <thead><Tr><Th>{t('Subject')}</Th><Th align="end">{t('Attempts')}</Th><Th align="end">{t('Marked')}</Th><Th align="end">{t('Correct')}</Th><Th align="end" className="pr-4">{t('Accuracy')}</Th></Tr></thead>
               <tbody>
                 {[...subjects].sort((a, b) => (b.accuracy ?? 0) - (a.accuracy ?? 0)).map((row) => {
-                  const subject = getSubject(row.key)
                   const pct = row.accuracy === null ? null : Math.round(row.accuracy * 100)
                   return (
                     <Tr key={row.key} hover>
-                      <Td><span className="inline-flex items-center gap-2"><SubjectDot id={row.key} />{subject.name}</span></Td>
+                      <Td><span className="inline-flex items-center gap-2"><SubjectDot id={row.key} />{subjectName(row.key)}</span></Td>
                       <Td align="end" className="font-mono text-ink-2">{row.attempts}</Td>
                       <Td align="end" className="font-mono text-ink-2">{row.marked}</Td>
                       <Td align="end" className="font-mono text-ink-2">{row.correct}</Td>
@@ -762,7 +769,7 @@ export function Performance() {
                     value: pct,
                     valueLabel: `${pct}%`,
                     color: pct < 62 ? 'var(--color-danger)' : 'var(--color-warning)',
-                    label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.key} />{getSubject(row.key).name}</span>,
+                    label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.key} />{subjectName(row.key)}</span>,
                   }
                 })} />
               )}
@@ -793,7 +800,7 @@ export function Performance() {
                 value: row.attempts,
                 valueLabel: String(row.attempts),
                 color: 'var(--color-primary)',
-                label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.key} />{getSubject(row.key).name}</span>,
+                label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.key} />{subjectName(row.key)}</span>,
               }))} />
             </div>
           </Panel>

@@ -1,5 +1,6 @@
 import { authAccessToken, authUserId } from './supabase'
 import { ApiError, errorKind, type StateErrorKind } from './apiErrors'
+import { AR } from '@/data/i18n-ar'
 
 export { ApiError, errorKind, isRetryable } from './apiErrors'
 export type { StateErrorKind } from './apiErrors'
@@ -139,8 +140,12 @@ export async function apiOpenFile(path: string, fragment = ''): Promise<void> {
   const popup = window.open('about:blank', '_blank')
   if (popup) {
     popup.opener = null
-    popup.document.title = 'Opening source…'
-    popup.document.body.textContent = 'Opening the cited source…'
+    // The popup is a detached document with no React tree, so it reads the
+    // language `I18nProvider` stamps onto `<html lang>` rather than `useT()`.
+    const lang = document.documentElement.lang
+    const say = (en: string) => (lang === 'ar' ? AR[en] ?? en : en)
+    popup.document.title = say('Opening source…')
+    popup.document.body.textContent = say('Opening the cited source…')
   }
   try {
     const res = await fetch(`${BASE}${path}`, { headers: await headers() })

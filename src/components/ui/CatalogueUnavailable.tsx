@@ -1,6 +1,7 @@
 import { BookOpen, CircleAlert } from 'lucide-react'
 import { EmptyState } from './EmptyState'
 import { Button } from './Button'
+import { NishanyLoader } from './NishanyLoader'
 import { useT } from '@/lib/i18n'
 import type { CatalogueAvailability } from '@/lib/catalogueAvailability'
 import type { StateErrorKind } from '@/lib/apiErrors'
@@ -28,7 +29,15 @@ export function CatalogueUnavailable({
   const t = useT()
 
   if (availability.kind === 'loading') {
-    return <EmptyState icon={BookOpen} title={t('Loading…')} description={t('Fetching the reviewed catalogue.')} />
+    // An EmptyState here claimed the catalogue *was* empty for the second or
+    // two before it arrived — icon, title and all. The loader says the one
+    // thing that is true at that moment and nothing more.
+    return (
+      <div className="grid min-h-52 place-items-center gap-3 py-10 text-center">
+        <NishanyLoader size={44} label={t('Loading…')} />
+        <p className="text-[13px] text-ink-2">{t('Fetching the reviewed catalogue.')}</p>
+      </div>
+    )
   }
 
   if (availability.kind === 'error') {

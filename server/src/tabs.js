@@ -71,6 +71,12 @@ export const ADMIN_TABS = [
     stateKeys: ['nishany-content-reports-v1'], apiPrefixes: [] },
   { id: 'tutorial', to: '/admin/tutorial', group: 'Content',
     stateKeys: ['nishany-tutorial-videos-v1'], apiPrefixes: [] },
+  // The four public documents — Terms, Privacy, Refund Policy, Contact — as an
+  // override laid over the drafts that ship with the code. Holding this tab is
+  // what permits writing that document, so it is also the answer to "who may
+  // change the terms students agreed to".
+  { id: 'legal', to: '/admin/legal', group: 'Content',
+    stateKeys: ['nishany-legal-pages-v1'], apiPrefixes: [] },
 
   { id: 'email', to: '/admin/email', group: 'Operations',
     stateKeys: ['nishany-email-automations-v1'], apiPrefixes: [] },
@@ -108,6 +114,11 @@ export const DEFAULT_ROLE_TABS = {
   admin: [
     'dashboard', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
+    // The public documents. Not content authoring — an admin who runs billing
+    // and support is the person who is told the company's registered name and
+    // the refund window, so they should not need a super admin to write them
+    // down. `editor` holds it too, by way of the computed default above.
+    'legal',
   ],
   // A reviewer holds exactly two surfaces: Media Requests, where they supply and
   // escalate teaching media, and Content Reports, where they raise problems. Both

@@ -26,8 +26,8 @@ import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { Kbd } from '@/components/ui/Kbd'
 import { useT } from '@/lib/i18n'
 import { resolveMediaSource } from '@/lib/mediaStorage'
-import { sanitizeRich, isRichEmpty } from '@/data/flashcards/richText'
-import { insertCloze } from '@/data/flashcards/cloze'
+import { sanitizeRich, isRichEmpty, isLegacyPlainText, escapeHtml } from '@/data/flashcards/richText'
+import { nextClozeNumber } from '@/data/flashcards/cloze'
 import { useCommands, useScope } from '@/lib/shortcuts/useShortcuts'
 import type { Command } from '@/lib/shortcuts/registry'
 
@@ -89,15 +89,37 @@ function resolveMediaImages(container: HTMLElement): () => void {
 }
 
 /**
+ * What actually goes into `innerHTML` when the field is seeded.
+ *
+ * A stored value is normally sanitized HTML and is seeded verbatim. A *legacy*
+ * value — a cloze note from before this field was rich, or a plain-text import
+ * — is raw text, and handing raw text to `innerHTML` loses characters: `a <b c`
+ * is eaten as a tag, and `a < b && c > d` loses ` b && c ` the same way. So a
+ * legacy value is escaped first, which is exactly the HTML that renders those
+ * characters back.
+ *
+ * Deliberately no `\n` → `<br>`: the old cloze textarea kept newlines, but the
+ * card never showed them — `StudyCardFace` renders cells inside a normal
+ * (non-`pre`) container, where a newline has always collapsed to a space. Every
+ * `\n` survives as a character in the text node and in the stored HTML; turning
+ * one into a `<br>` would *add* a line break the card never had.
+ */
+function seedHtml(value: string): string {
+  return isLegacyPlainText(value) ? escapeHtml(value) : value
+}
+
+/**
  * A rich-text field whose stored value is always sanitized HTML.
  *
- * In `rich` mode it is a `contentEditable` surface with a formatting toolbar;
- * every edit reads `innerHTML`, runs it through `sanitizeRich`, and reports the
- * clean string, so nothing outside the allowlist can ever reach storage. In
- * `cloze` mode it is a plain `<textarea>` (the `{{c1::…}}` markup is plain text,
- * not HTML) with a cloze-insert button. Editor shortcuts register in the
- * `'editor'` scope with `allowInEditable`, guarded so only the focused field
- * acts, so Bold-while-typing works and never collides with study or global keys.
+ * It is a `contentEditable` surface with a formatting toolbar; every edit reads
+ * `innerHTML`, runs it through `sanitizeRich`, and reports the clean string, so
+ * nothing outside the allowlist can ever reach storage. `cloze` mode is the same
+ * surface with the same toolbar plus a cloze button (⌘⇧C): the `{{cN::…}}`
+ * markers go in as *text nodes* around the selection, which is why they survive
+ * `sanitizeRich` untouched and why a deletion can hold formatting. Editor
+ * shortcuts register in the `'editor'` scope with `allowInEditable`, guarded so
+ * only the focused field acts, so Bold-while-typing works and never collides
+ * with study or global keys.
  */
 export const RichField = forwardRef<RichFieldHandle, {
   value: string
@@ -113,7 +135,6 @@ export const RichField = forwardRef<RichFieldHandle, {
   ref,
 ) {
   const editorRef = useRef<HTMLDivElement>(null)
-  const textareaRef = useRef<HTMLTextAreaElement>(null)
   const focusedRef = useRef(false)
   const emittedRef = useRef(value)
   const valueRef = useRef(value)
@@ -124,12 +145,11 @@ export const RichField = forwardRef<RichFieldHandle, {
 
   useImperativeHandle(ref, () => ({
     focus() {
-      if (mode === 'cloze') textareaRef.current?.focus()
-      else editorRef.current?.focus()
+      editorRef.current?.focus()
     },
-  }), [mode])
+  }), [])
 
-  // ---- rich (contentEditable) plumbing -------------------------------------
+  // ---- contentEditable plumbing --------------------------------------------
 
   function emitFromDom() {
     const el = editorRef.current
@@ -150,20 +170,18 @@ export const RichField = forwardRef<RichFieldHandle, {
   // Seed the editor once, and re-seed only on an *external* value change (a form
   // reset), never on our own echo — so the caret is never yanked mid-type.
   useEffect(() => {
-    if (mode !== 'rich') return
     const el = editorRef.current
     if (!el) return
     if (value === emittedRef.current) return
-    el.innerHTML = value
+    el.innerHTML = seedHtml(value)
     emittedRef.current = value
     return resolveMediaImages(el)
-  }, [value, mode])
+  }, [value])
 
   useEffect(() => {
-    if (mode !== 'rich') return
     const el = editorRef.current
     if (el && value) {
-      el.innerHTML = value
+      el.innerHTML = seedHtml(value)
       emittedRef.current = value
       return resolveMediaImages(el)
     }
@@ -206,40 +224,56 @@ export const RichField = forwardRef<RichFieldHandle, {
   }
 
   function insertChar(char: string) {
-    if (mode === 'cloze') {
-      insertIntoTextarea(char)
-      return
-    }
     exec('insertText', char)
   }
 
-  // ---- cloze (textarea) plumbing -------------------------------------------
+  // ---- cloze plumbing ------------------------------------------------------
 
-  function insertIntoTextarea(text: string) {
-    const el = textareaRef.current
-    if (!el) return
-    const start = el.selectionStart ?? el.value.length
-    const end = el.selectionEnd ?? el.value.length
-    const next = el.value.slice(0, start) + text + el.value.slice(end)
-    onChangeRef.current(next)
-    requestAnimationFrame(() => {
-      el.focus()
-      const caret = start + text.length
-      el.setSelectionRange(caret, caret)
-    })
-  }
-
+  /**
+   * Wrap the DOM selection in `{{cN::…}}`, or drop an empty deletion at the
+   * caret. The two markers go in as **text nodes**, never as markup: that is
+   * what lets a deletion keep the formatting inside it (`extractContents`
+   * carries the selected nodes across intact) and what lets `sanitizeRich`
+   * leave the markers alone on the way to storage.
+   */
   function doInsertCloze() {
-    const el = textareaRef.current
+    const el = editorRef.current
     if (!el) return
-    const start = el.selectionStart ?? el.value.length
-    const end = el.selectionEnd ?? el.value.length
-    const result = insertCloze(el.value, start, end)
-    onChangeRef.current(result.text)
-    requestAnimationFrame(() => {
-      el.focus()
-      el.setSelectionRange(result.caret, result.caret)
-    })
+    el.focus()
+    const selection = window.getSelection()
+    if (!selection || selection.rangeCount === 0) return
+    const range = selection.getRangeAt(0)
+    if (!el.contains(range.commonAncestorContainer)) return
+
+    const number = nextClozeNumber(sanitizeRich(el.innerHTML))
+    const open = document.createTextNode(`{{c${number}::`)
+    const close = document.createTextNode('}}')
+    // Read before inserting: `insertNode` grows the range around what it added.
+    const wasCollapsed = range.collapsed
+    try {
+      if (wasCollapsed) {
+        // insertNode always inserts at the range start, so the second call
+        // lands the opening marker *before* the closing one.
+        range.insertNode(close)
+        range.insertNode(open)
+      } else {
+        const selected = range.extractContents()
+        const fragment = document.createDocumentFragment()
+        fragment.append(open, selected, close)
+        range.insertNode(fragment)
+      }
+      // Caret inside an empty deletion (type straight into it), or after a
+      // wrapped one so the student carries on where they left off.
+      const caretNode = wasCollapsed ? open : close
+      const after = document.createRange()
+      after.setStart(caretNode, caretNode.length)
+      after.collapse(true)
+      selection.removeAllRanges()
+      selection.addRange(after)
+    } catch {
+      /* selection spanned unwrappable boundaries; leave the text untouched. */
+    }
+    emitFromDom()
   }
 
   // ---- shortcuts -----------------------------------------------------------
@@ -248,25 +282,24 @@ export const RichField = forwardRef<RichFieldHandle, {
   const commands = useMemo<Command[]>(() => {
     const when = () => focusedRef.current
     const list: Command[] = []
-    if (mode === 'rich') {
-      list.push(
-        { id: `${commandPrefix}.bold`, title: 'Bold', group: 'Editor', scopes: ['editor'], keys: 'Mod+B', allowInEditable: true, when, run: () => exec('bold') },
-        { id: `${commandPrefix}.italic`, title: 'Italic', group: 'Editor', scopes: ['editor'], keys: 'Mod+I', allowInEditable: true, when, run: () => exec('italic') },
-        { id: `${commandPrefix}.underline`, title: 'Underline', group: 'Editor', scopes: ['editor'], keys: 'Mod+U', allowInEditable: true, when, run: () => exec('underline') },
-      )
-      PRESETS.forEach((preset, index) => {
-        list.push({
-          id: `${commandPrefix}.preset.${preset.id}`,
-          title: `Style: ${preset.label}`,
-          group: 'Editor',
-          scopes: ['editor'],
-          keys: `Mod+Option+${index + 1}`,
-          allowInEditable: true,
-          when,
-          run: () => applyStyle(preset.style),
-        })
+    list.push(
+      { id: `${commandPrefix}.bold`, title: 'Bold', group: 'Editor', scopes: ['editor'], keys: 'Mod+B', allowInEditable: true, when, run: () => exec('bold') },
+      { id: `${commandPrefix}.italic`, title: 'Italic', group: 'Editor', scopes: ['editor'], keys: 'Mod+I', allowInEditable: true, when, run: () => exec('italic') },
+      { id: `${commandPrefix}.underline`, title: 'Underline', group: 'Editor', scopes: ['editor'], keys: 'Mod+U', allowInEditable: true, when, run: () => exec('underline') },
+    )
+    PRESETS.forEach((preset, index) => {
+      list.push({
+        id: `${commandPrefix}.preset.${preset.id}`,
+        title: `Style: ${preset.label}`,
+        group: 'Editor',
+        scopes: ['editor'],
+        keys: `Mod+Option+${index + 1}`,
+        allowInEditable: true,
+        when,
+        run: () => applyStyle(preset.style),
       })
-    } else {
+    })
+    if (mode === 'cloze') {
       list.push({
         id: `${commandPrefix}.cloze`,
         title: 'Wrap selection as cloze',
@@ -284,7 +317,7 @@ export const RichField = forwardRef<RichFieldHandle, {
   }, [mode, commandPrefix])
   useCommands(commands)
 
-  const showPlaceholder = mode === 'rich' ? isRichEmpty(value) && !focused : value === '' && !focused
+  const showPlaceholder = isRichEmpty(value) && !focused
 
   // ---- render --------------------------------------------------------------
 
@@ -300,51 +333,29 @@ export const RichField = forwardRef<RichFieldHandle, {
         onCloze={doInsertCloze}
       />
       <div className="relative">
-        {mode === 'rich' ? (
-          <div
-            ref={editorRef}
-            id={id}
-            role="textbox"
-            aria-multiline="true"
-            aria-label={ariaLabel}
-            contentEditable
-            suppressContentEditableWarning
-            spellCheck
-            dir="auto"
-            className="fc-rich w-full px-3 py-2.5 text-[14px] leading-relaxed text-ink focus:outline-none"
-            style={{ minHeight }}
-            onInput={emitFromDom}
-            onBlur={() => {
-              focusedRef.current = false
-              setFocused(false)
-              emitFromDom()
-            }}
-            onFocus={() => {
-              focusedRef.current = true
-              setFocused(true)
-            }}
-          />
-        ) : (
-          <textarea
-            ref={textareaRef}
-            id={id}
-            aria-label={ariaLabel}
-            dir="auto"
-            spellCheck
-            className="w-full resize-y bg-transparent px-3 py-2.5 font-mono text-[13.5px] leading-relaxed text-ink focus:outline-none"
-            style={{ minHeight }}
-            value={value}
-            onChange={(event) => onChange(event.target.value)}
-            onFocus={() => {
-              focusedRef.current = true
-              setFocused(true)
-            }}
-            onBlur={() => {
-              focusedRef.current = false
-              setFocused(false)
-            }}
-          />
-        )}
+        <div
+          ref={editorRef}
+          id={id}
+          role="textbox"
+          aria-multiline="true"
+          aria-label={ariaLabel}
+          contentEditable
+          suppressContentEditableWarning
+          spellCheck
+          dir="auto"
+          className="fc-rich w-full px-3 py-2.5 text-[14px] leading-relaxed text-ink focus:outline-none"
+          style={{ minHeight }}
+          onInput={emitFromDom}
+          onBlur={() => {
+            focusedRef.current = false
+            setFocused(false)
+            emitFromDom()
+          }}
+          onFocus={() => {
+            focusedRef.current = true
+            setFocused(true)
+          }}
+        />
         {showPlaceholder && placeholder && (
           <p className="pointer-events-none absolute inset-x-0 top-0 px-3 py-2.5 text-[14px] leading-relaxed text-ink-3">
             {placeholder}
@@ -377,26 +388,29 @@ function Toolbar({
   const t = useT()
   return (
     <div className="flex flex-wrap items-center gap-0.5 border-b border-line bg-surface-2 px-1.5 py-1">
-      {mode === 'cloze' ? (
-        <ToolBtn icon={SquareDashedBottomCode} label={t('Make cloze deletion')} keyHint="Mod+Shift+C" onClick={onCloze} />
-      ) : (
+      {/* Cloze text is a rich field like any other, so it carries the same
+          toolbar — with the cloze button first, because that is the one control
+          the field exists for. */}
+      {mode === 'cloze' && (
         <>
-          <ToolBtn icon={Bold} label={t('Bold')} keyHint="Mod+B" onClick={() => onExec('bold')} />
-          <ToolBtn icon={Italic} label={t('Italic')} keyHint="Mod+I" onClick={() => onExec('italic')} />
-          <ToolBtn icon={Underline} label={t('Underline')} keyHint="Mod+U" onClick={() => onExec('underline')} />
-          <ToolBtn icon={Superscript} label={t('Superscript')} onClick={() => onExec('superscript')} />
-          <ToolBtn icon={Subscript} label={t('Subscript')} onClick={() => onExec('subscript')} />
-          <Divider />
-          <ColorMenu label={t('Text colour')} icon={Baseline} colors={TEXT_COLORS} onPick={onColor} />
-          <ColorMenu label={t('Highlight')} icon={Highlighter} colors={HIGHLIGHTS} onPick={onHighlight} />
-          <PresetMenu onApply={onApplyStyle} />
-          <Divider />
-          <ToolBtn icon={List} label={t('Bulleted list')} onClick={() => onExec('insertUnorderedList')} />
-          <ToolBtn icon={ListOrdered} label={t('Numbered list')} onClick={() => onExec('insertOrderedList')} />
-          <ToolBtn icon={RemoveFormatting} label={t('Clear formatting')} onClick={() => onExec('removeFormat')} />
+          <ToolBtn icon={SquareDashedBottomCode} label={t('Make cloze deletion')} keyHint="Mod+Shift+C" onClick={onCloze} />
           <Divider />
         </>
       )}
+      <ToolBtn icon={Bold} label={t('Bold')} keyHint="Mod+B" onClick={() => onExec('bold')} />
+      <ToolBtn icon={Italic} label={t('Italic')} keyHint="Mod+I" onClick={() => onExec('italic')} />
+      <ToolBtn icon={Underline} label={t('Underline')} keyHint="Mod+U" onClick={() => onExec('underline')} />
+      <ToolBtn icon={Superscript} label={t('Superscript')} onClick={() => onExec('superscript')} />
+      <ToolBtn icon={Subscript} label={t('Subscript')} onClick={() => onExec('subscript')} />
+      <Divider />
+      <ColorMenu label={t('Text colour')} icon={Baseline} colors={TEXT_COLORS} onPick={onColor} />
+      <ColorMenu label={t('Highlight')} icon={Highlighter} colors={HIGHLIGHTS} onPick={onHighlight} />
+      <PresetMenu onApply={onApplyStyle} />
+      <Divider />
+      <ToolBtn icon={List} label={t('Bulleted list')} onClick={() => onExec('insertUnorderedList')} />
+      <ToolBtn icon={ListOrdered} label={t('Numbered list')} onClick={() => onExec('insertOrderedList')} />
+      <ToolBtn icon={RemoveFormatting} label={t('Clear formatting')} onClick={() => onExec('removeFormat')} />
+      <Divider />
       {INSERTS.map((char) => (
         <button
           key={char}

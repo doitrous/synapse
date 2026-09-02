@@ -27,6 +27,7 @@ import type { AdaptiveStudy } from '@/lib/adaptive/useAdaptiveStudy'
 import { useConceptOverrides, type ConceptOverride } from '@/lib/adaptive/useConceptOverrides'
 import { useConceptLabels } from '@/lib/adaptive/useAdaptiveConfig'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 
 /** Filter chips, in the order they read best: worst standing first. */
 const FILTERS: Array<{ value: 'all' | ConceptStatus; label: string }> = [
@@ -60,15 +61,20 @@ function formatDate(iso: string | null): string {
  * Only concepts with actual evidence carry a `nextReviewAt` at all, so this is
  * never called for an unmeasured concept — there is nothing yet to schedule.
  */
-function reviewLine(nextReviewAt: string | null, now: Date): { text: string; tone: 'danger' | 'warning' | 'neutral' } | null {
+function reviewLine(
+  nextReviewAt: string | null,
+  now: Date,
+  t: (en: string) => string,
+): { text: string; tone: 'danger' | 'warning' | 'neutral' } | null {
   if (!nextReviewAt) return null
   const diffDays = Math.round((new Date(nextReviewAt).getTime() - now.getTime()) / 86_400_000)
-  if (diffDays < 0) return { text: `overdue ${Math.abs(diffDays)}d`, tone: 'danger' }
-  if (diffDays === 0) return { text: 'due today', tone: 'warning' }
-  return { text: `review ${formatDate(nextReviewAt)}`, tone: 'neutral' }
+  if (diffDays < 0) return { text: t('overdue {n}d').replace('{n}', String(Math.abs(diffDays))), tone: 'danger' }
+  if (diffDays === 0) return { text: t('due today'), tone: 'warning' }
+  return { text: `${t('review')} ${formatDate(nextReviewAt)}`, tone: 'neutral' }
 }
 
 export function Concepts({ study }: { study: AdaptiveStudy }) {
+  const t = useT()
   const [query, setQuery] = useState('')
   const [filter, setFilter] = useState<'all' | ConceptStatus>('all')
   const [overrides, setOverride] = useConceptOverrides()
@@ -127,8 +133,8 @@ export function Concepts({ study }: { study: AdaptiveStudy }) {
       <Panel>
         <EmptyState
           icon={Braces}
-          title="No concepts in scope"
-          description="Nothing is scoped to your university and year yet, so there is nothing to measure. An administrator sets the blueprint up."
+          title={t('No concepts in scope')}
+          description={t('Nothing is scoped to your university and year yet, so there is nothing to measure. An administrator sets the blueprint up.')}
         />
       </Panel>
     )
@@ -136,33 +142,33 @@ export function Concepts({ study }: { study: AdaptiveStudy }) {
 
   return (
     <div className="space-y-5">
-      <Caveat>{WRONG_ATTEMPTS_VS_WEAK_CONCEPTS.body}</Caveat>
+      <Caveat>{t(WRONG_ATTEMPTS_VS_WEAK_CONCEPTS.body)}</Caveat>
 
       {/* Filters, in rank order, each carrying its own count so a student can
           see the shape of their standing before opening a single card. */}
       <div className="flex flex-wrap items-center gap-2">
         {FILTERS.map((entry) => (
           <FilterChip key={entry.value} active={filter === entry.value} onClick={() => setFilter(entry.value)}>
-            {entry.label} · <span className="tnum font-mono">{counts[entry.value]}</span>
+            {t(entry.label)} · <span className="tnum font-mono">{counts[entry.value]}</span>
           </FilterChip>
         ))}
         <SearchInput
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Search concepts…"
+          placeholder={t('Search concepts…')}
           className="ms-auto w-full sm:w-64"
         />
       </div>
 
       {rows.length === 0 ? (
         <Panel>
-          <EmptyState icon={Search} title="Nothing matches" description="No concept matches this filter and search." />
+          <EmptyState icon={Search} title={t('Nothing matches')} description={t('No concept matches this filter and search.')} />
         </Panel>
       ) : (
         <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
           {rows.map((row) => {
             const measured = row.state && row.status !== 'unmeasured'
-            const review = row.state ? reviewLine(row.state.nextReviewAt, now) : null
+            const review = row.state ? reviewLine(row.state.nextReviewAt, now, t) : null
             const reviewTone = review
               ? { danger: 'text-danger', warning: 'text-warning', neutral: 'text-ink-3' }[review.tone]
               : null
@@ -180,8 +186,8 @@ export function Concepts({ study }: { study: AdaptiveStudy }) {
                   <StatusBadge status={row.status} />
                 </div>
                 <p className="mt-0.5 truncate text-[11px] text-ink-3">
-                  {row.group} · {percent(row.weight)} of blueprint
-                  {row.misconceptions > 0 && ` · ${row.misconceptions} misconception${row.misconceptions === 1 ? '' : 's'}`}
+                  {row.group} · {percent(row.weight)} {t('of blueprint')}
+                  {row.misconceptions > 0 && ` · ${row.misconceptions} ${row.misconceptions === 1 ? t('misconception') : t('misconceptions')}`}
                 </p>
 
                 {measured && row.state ? (
@@ -194,13 +200,13 @@ export function Concepts({ study }: { study: AdaptiveStudy }) {
                   />
                 ) : (
                   <p className="mt-2.5 text-[11px] italic text-ink-3">
-                    Not enough evidence — will be drawn into your next block.
+                    {t('Not enough evidence — will be drawn into your next block.')}
                   </p>
                 )}
 
                 {row.state && (
                   <div className="mt-2 flex items-center justify-between gap-2 text-[11px] text-ink-3">
-                    <span className="tnum font-mono">{row.state.distinctItems} items · {row.state.rawWrong} wrong</span>
+                    <span className="tnum font-mono">{row.state.distinctItems} {t('items')} · {row.state.rawWrong} {t('wrong')}</span>
                     {review && (
                       <span className={reviewTone ?? undefined}>
                         {review.tone === 'neutral' ? review.text : <span className="font-semibold">{review.text}</span>}
@@ -213,11 +219,11 @@ export function Concepts({ study }: { study: AdaptiveStudy }) {
                   value={row.override?.mode ?? 'normal'}
                   onChange={(event) => setOverride(row.conceptId, event.target.value as ConceptOverride['mode'])}
                   className="mt-2.5 h-7 text-[11px]"
-                  aria-label={`Scope for ${row.label}`}
+                  aria-label={t('Scope for {concept}').replace('{concept}', row.label)}
                 >
-                  <option value="normal">Normal</option>
-                  <option value="snoozed">Snoozed</option>
-                  <option value="out-of-scope">Out of scope</option>
+                  <option value="normal">{t('Normal')}</option>
+                  <option value="snoozed">{t('Snoozed')}</option>
+                  <option value="out-of-scope">{t('Out of scope')}</option>
                 </Select>
               </Panel>
             )
@@ -227,43 +233,42 @@ export function Concepts({ study }: { study: AdaptiveStudy }) {
 
       {/* Legend, echoing the colours every card just used. */}
       <Panel className="flex flex-wrap items-center gap-x-5 gap-y-2 p-3.5">
-        <span className="text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Status</span>
+        <span className="text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Status')}</span>
         {(['weak', 'attention', 'developing', 'secure'] as ConceptStatus[]).map((status) => (
           <span key={status} className="inline-flex items-center gap-1.5 text-[11.5px] text-ink-2">
             <span className="size-2 rounded-sm" style={{ backgroundColor: ACCENT_VAR[status] }} />
-            {CONCEPT_STATUS_LABEL[status]} — {STATUS_EXPLANATION[status]}
+            {t(CONCEPT_STATUS_LABEL[status])} — {t(STATUS_EXPLANATION[status])}
           </span>
         ))}
         <span className="text-[11px] text-ink-3 sm:ms-auto">
-          Marker = best estimate · band = uncertainty · snooze or scope out any concept from its card
+          {t('Marker = best estimate · band = uncertainty · snooze or scope out any concept from its card')}
         </span>
       </Panel>
 
       <Panel>
-        <PanelHeader title="What your overrides do" icon={SlidersHorizontal} />
+        <PanelHeader title={t('What your overrides do')} icon={SlidersHorizontal} />
         <div className="space-y-2.5 p-5 text-[13px] leading-relaxed text-ink-2">
           <p>
-            <Badge tone="outline">Snoozed</Badge> keeps the concept measured and keeps its evidence, but stops selection
-            offering it for two weeks. Use it when you have decided to come back to something later.
+            <Badge tone="outline">{t('Snoozed')}</Badge>{' '}
+            {t('keeps the concept measured and keeps its evidence, but stops selection offering it for two weeks. Use it when you have decided to come back to something later.')}
           </p>
           <p>
-            <Badge tone="outline">Out of scope</Badge> removes the concept from your blueprint entirely, so it stops
-            counting toward coverage and stops being selected. Use it when a concept genuinely is not on your exam.
+            <Badge tone="outline">{t('Out of scope')}</Badge>{' '}
+            {t('removes the concept from your blueprint entirely, so it stops counting toward coverage and stops being selected. Use it when a concept genuinely is not on your exam.')}
           </p>
           <p className="text-ink-3">
-            Neither deletes anything. Your answers stay in the record, and setting a concept back to Normal restores its
-            state exactly as it was.
+            {t('Neither deletes anything. Your answers stay in the record, and setting a concept back to Normal restores its state exactly as it was.')}
           </p>
         </div>
       </Panel>
 
       <Panel>
-        <PanelHeader title="Status meanings" icon={Braces} />
+        <PanelHeader title={t('Status meanings')} icon={Braces} />
         <div className="grid gap-4 p-5 sm:grid-cols-2">
           {(Object.keys(CONCEPT_STATUS_LABEL) as ConceptStatus[]).map((status) => (
             <div key={status} className="min-w-0">
               <StatusBadge status={status} />
-              <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-2">{STATUS_EXPLANATION[status]}</p>
+              <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-2">{t(STATUS_EXPLANATION[status])}</p>
             </div>
           ))}
         </div>

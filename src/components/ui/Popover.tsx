@@ -2,6 +2,7 @@ import { useCallback, useEffect, useId, useLayoutEffect, useRef, useState, type 
 import { createPortal } from 'react-dom'
 import { placeAtAnchor, placeAtPoint, type Placement } from '@/lib/popoverPosition'
 import { isTopOverlay, popOverlay, pushOverlay } from '@/lib/overlayStack'
+import { focusFirstWithin, wrapTab } from '@/lib/focusTrap'
 import { cn } from '@/lib/cn'
 
 /**
@@ -18,6 +19,14 @@ import { cn } from '@/lib/cn'
  *
  * The anchor is passed as an element rather than a ref object so that a render
  * which changes the trigger re-measures — a ref would mutate silently.
+ *
+ * Keyboard, from the same helpers `Dialog` uses: opening moves focus into the
+ * surface, Tab wraps inside it, and closing hands focus back to whatever had it.
+ * Focus is claimed only when the trigger itself held it — which is always true
+ * of keyboard activation, and deliberately false for a toolbar menu that keeps
+ * focus in an editor, or a surface anchored to a text selection. A combobox
+ * `listbox` never claims: it is driven from its field. `autoFocus` forces the
+ * question either way; `focusKey` re-runs it for a surface that swaps views.
  */
 export function Popover({
   anchor,
@@ -29,6 +38,8 @@ export function Popover({
   matchAnchorWidth = false,
   role = 'dialog',
   label,
+  autoFocus,
+  focusKey,
   className,
   children,
 }: {
@@ -42,15 +53,24 @@ export function Popover({
   matchAnchorWidth?: boolean
   role?: 'dialog' | 'menu' | 'listbox'
   label?: string
+  /** Defaults to true for `dialog`/`menu`, false for a combobox `listbox`. */
+  autoFocus?: boolean
+  /** Changing this re-runs the initial focus, for a surface that swaps views. */
+  focusKey?: string | number
   className?: string
   children: ReactNode
 }) {
   const id = useId()
   const surfaceRef = useRef<HTMLDivElement>(null)
+  // Whether this surface has taken focus — see the focus effect below.
+  const focusClaimed = useRef(false)
   const [position, setPosition] = useState({ left: 0, top: 0, ready: false })
   const [minWidth, setMinWidth] = useState<number>()
   const pointX = point?.x
   const pointY = point?.y
+  // A combobox drives its list from the field; everything else is a surface the
+  // keyboard is meant to enter.
+  const shouldFocus = autoFocus ?? role !== 'listbox'
 
   const reposition = useCallback(() => {
     const surface = surfaceRef.current
@@ -107,10 +127,19 @@ export function Popover({
       onClose()
     }
     const onKey = (event: KeyboardEvent) => {
-      if (event.key !== 'Escape' || !isTopOverlay(id)) return
-      event.preventDefault()
-      event.stopPropagation()
-      onClose()
+      if (event.key === 'Escape') {
+        if (!isTopOverlay(id)) return
+        event.preventDefault()
+        event.stopPropagation()
+        onClose()
+        return
+      }
+      // Trap Tab only once focus is genuinely inside the surface. A combobox
+      // keeps focus in its field while its list is open, and Tab from there
+      // has to go on to the next field rather than fall into the list.
+      const surface = surfaceRef.current
+      if (!surface?.contains(document.activeElement)) return
+      wrapTab(event, surface)
     }
     document.addEventListener('pointerdown', closeIfOutside, true)
     document.addEventListener('keydown', onKey, true)
@@ -129,15 +158,56 @@ export function Popover({
     }
   }, [anchor, id, onClose, pointX, reposition])
 
+  // Split from the focus-in effect below so a `focusKey` change can move focus
+  // within the surface without handing it back to the trigger on the way.
+  useEffect(() => {
+    const surface = surfaceRef.current
+    const previous = document.activeElement as HTMLElement | null
+    return () => {
+      // Only take focus back if it is still ours to give. If the reader has
+      // moved on — clicked a field behind, followed a link — yanking focus to
+      // the trigger would undo a deliberate choice. A removed node leaves focus
+      // on `body`, which is the ordinary case on close.
+      const active = document.activeElement
+      if (active === document.body || active === null || surface?.contains(active)) previous?.focus?.()
+    }
+  }, [])
+
+  useEffect(() => {
+    // Not before the surface has been placed: until then it is painted
+    // `invisible`, and `focus()` on a `visibility: hidden` element is a no-op
+    // that would leave the reader on the trigger with the menu open.
+    if (!position.ready) return
+    const surface = surfaceRef.current
+    const active = document.activeElement
+    // Take focus on open only if the trigger held it. A formatting menu whose
+    // trigger deliberately keeps focus in the editor (`onMouseDown` +
+    // `preventDefault`) must leave it there, or the live selection — and with
+    // it `execCommand` — is lost. Keyboard activation always focuses the
+    // trigger, so the keyboard path always claims. `contains` rather than
+    // equality: a trigger that needs a badge on its corner is wrapped in a
+    // positioning span, and it is the span that anchors.
+    const fromTrigger = active != null && (anchor?.contains(active) ?? false)
+    // Once claimed, the surface keeps focus across a view swap, so a sub-view
+    // cannot drop the reader on `<body>` when its rows unmount. The trigger
+    // counts as ours too: StrictMode's simulated remount runs the restore
+    // below and hands focus back there between the two mounts.
+    const held = active === document.body || active === null || (surface?.contains(active) ?? false)
+    if (!(focusClaimed.current ? held || fromTrigger : shouldFocus && fromTrigger)) return
+    focusClaimed.current = true
+    focusFirstWithin(surface)
+  }, [anchor, shouldFocus, focusKey, position.ready])
+
   return createPortal(
     <div
       ref={surfaceRef}
       role={role}
       aria-label={label}
+      tabIndex={-1}
       onContextMenu={(event) => event.preventDefault()}
       style={{ left: position.left, top: position.top, minWidth }}
       className={cn(
-        'fixed z-[80] overflow-hidden rounded-xl border border-line bg-surface shadow-pop',
+        'fixed z-[80] overflow-hidden rounded-xl border border-line bg-surface shadow-pop focus:outline-none',
         position.ready ? 'animate-pop' : 'invisible',
         className,
       )}

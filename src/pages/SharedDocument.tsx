@@ -8,7 +8,7 @@ import { NoteEditor } from '@/components/notebook/NoteEditor'
 import { SharedBoardView } from '@/components/share/SharedBoardView'
 import { updateShare, useSharedDocument } from '@/lib/useShares'
 import { useIdentity } from '@/lib/useIdentity'
-import { formatRelativeTime } from '@/lib/format'
+import { useRelativeTime } from '@/lib/useRelativeTime'
 import type { BoardState } from '@/data/whiteboard'
 import { useT } from '@/lib/i18n'
 import { editorJsonToPlainText, plainTextToEditorJson, type NotebookEditorJson } from '@/data/notebook'
@@ -44,6 +44,7 @@ interface NoteDraft {
 
 export function SharedDocument() {
   const t = useT()
+  const relativeTime = useRelativeTime()
   const { id } = useParams()
   const { status } = useIdentity()
   const { share, loading, error, setShare } = useSharedDocument<SharedNote | BoardState>(id)
@@ -89,7 +90,7 @@ export function SharedDocument() {
     <div className="min-h-dvh bg-paper">
       <header className="border-b border-line bg-surface/70">
         <div className="mx-auto flex min-h-16 max-w-5xl items-center gap-3 px-4 sm:px-6">
-          <Link to="/" aria-label="Maristana home"><Wordmark /></Link>
+          <Link to="/" aria-label={t('Maristana home')}><Wordmark /></Link>
           <span className="ms-auto text-[12.5px] text-ink-3">{t('Shared with you')}</span>
         </div>
       </header>
@@ -127,7 +128,7 @@ export function SharedDocument() {
                     <Icon icon={share.access === 'edit' ? PencilLine : Eye} size={13} />
                     {share.access === 'edit' ? t('Classmates in your university and year can edit') : t('Read only for your university and year')}
                   </span>
-                  <span>{t('Updated')} {formatRelativeTime(share.updatedAt)}</span>
+                  <span>{t('Updated')} {relativeTime(share.updatedAt)}</span>
                 </p>
               </div>
 
@@ -202,6 +203,7 @@ function SharedNotePreview({ note, shareId }: { note: SharedNote; shareId: strin
 }
 
 function SharedNoteImage({ shareId, documentId, legacySource }: { shareId: string; documentId?: string; legacySource?: string }) {
+  const t = useT()
   const [source, setSource] = useState(legacySource ?? '')
   useEffect(() => {
     if (legacySource || !documentId) return
@@ -212,5 +214,5 @@ function SharedNoteImage({ shareId, documentId, legacySource }: { shareId: strin
       .catch(() => undefined)
     return () => { active = false; if (url) URL.revokeObjectURL(url) }
   }, [documentId, legacySource, shareId])
-  return source ? <img src={source} alt="Shared notebook attachment" className="max-h-96 w-full rounded-lg object-contain" /> : null
+  return source ? <img src={source} alt={t('Shared notebook attachment')} className="max-h-96 w-full rounded-lg object-contain" /> : null
 }

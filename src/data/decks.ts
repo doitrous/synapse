@@ -7,7 +7,7 @@
  *
  * A deck reaches a student from one of two places. `managedDeckToStudentDeck`
  * takes an admin-authored deck off the content ledger. `deckFromTerms` builds
- * one on the fly from a filtered set of Medical Taxonomy terms, for "study
+ * one on the fly from a filtered set of Medical Terminology terms, for "study
  * these as flashcards" off a glossary view. Both land on the same shape.
  */
 
@@ -105,7 +105,7 @@ export function managedDeckToStudentDeck(item: ManagedContentItem): StudentDeck 
   }
 }
 
-/** The shape of a Medical Taxonomy term, as consumed by `deckFromTerms`. */
+/** The shape of a Medical Terminology term, as consumed by `deckFromTerms`. */
 interface TaxonomyTerm {
   id: string
   term: string
@@ -118,7 +118,7 @@ function slugify(value: string): string {
 }
 
 /**
- * Build a deck from a named filter over the Medical Taxonomy.
+ * Build a deck from a named filter over Medical Terminology.
  *
  * A student re-running "study these as flashcards" on the same filter should
  * update that deck, not spawn a second one — so the deck id comes from the
@@ -126,13 +126,22 @@ function slugify(value: string): string {
  * from a counter or the clock. Two runs over the same inputs land on exactly
  * the same ids.
  */
+export const TERMINOLOGY_DEFAULT_FILTER = 'Medical Terminology'
+/**
+ * The page was called "Medical Taxonomy" when the first decks were minted, so
+ * the whole-glossary deck keeps that slug: renaming the page must not orphan
+ * the deck (and its review schedule) a student already has.
+ */
+const LEGACY_DEFAULT_SLUG = 'medical-taxonomy'
+
 export function deckFromTerms(filterName: string, terms: TaxonomyTerm[]): StudentDeck {
-  const id = `deck-taxonomy-${slugify(filterName)}`
+  const slug = filterName === TERMINOLOGY_DEFAULT_FILTER ? LEGACY_DEFAULT_SLUG : slugify(filterName)
+  const id = `deck-taxonomy-${slug}`
   return {
     id,
     title: filterName,
-    subjectId: slugify(filterName),
-    description: `Flashcards from the Medical Taxonomy: ${filterName}`,
+    subjectId: slug,
+    description: `Flashcards from Medical Terminology: ${filterName}`,
     cards: terms.map((term) => ({ id: `${id}-${term.id}`, front: term.term, back: term.def })),
   }
 }

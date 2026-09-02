@@ -388,14 +388,18 @@ export function calibrationError(
 }
 
 /** A readiness range in words. Never a single number, never a promise. */
-export function readinessSentence(result: ReadinessResult | null): string {
+export function readinessSentence(
+  result: ReadinessResult | null,
+  t: (en: string) => string = (en) => en,
+): string {
   if (!result || result.answered === 0) {
-    return 'No readiness assessment yet. Practice accuracy is not a substitute — adaptive blocks deliberately oversample your weak areas.'
+    return t('No readiness assessment yet. Practice accuracy is not a substitute — adaptive blocks deliberately oversample your weak areas.')
   }
   const lower = Math.round(result.lower * 100)
   const upper = Math.round(result.upper * 100)
-  const caveat = result.underRepresented.length
-    ? ` ${result.underRepresented.length} blueprint area${result.underRepresented.length === 1 ? '' : 's'} could not be fully represented, so treat this as provisional.`
+  const areas = result.underRepresented.length
+  const caveat = areas
+    ? ` ${areas} ${t(areas === 1 ? 'blueprint area could not be fully represented, so treat this as provisional.' : 'blueprint areas could not be fully represented, so treat this as provisional.')}`
     : ''
-  return `On blueprint-balanced questions held back from your practice, your performance is between ${lower}% and ${upper}%.${caveat}`
+  return `${t('On blueprint-balanced questions held back from your practice, your performance is between {lower}% and {upper}%.').replace('{lower}', String(lower)).replace('{upper}', String(upper))}${caveat}`
 }

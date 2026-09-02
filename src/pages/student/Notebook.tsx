@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useSearchParams } from 'react-router-dom'
-import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Link2, Star, Bell, Users, ArrowLeft } from 'lucide-react'
+import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Link2, Star, Bell, Users, ArrowLeft, StickyNote } from 'lucide-react'
 import { ensureNotebookEditor, initialNotes, notePlainText, plainTextToEditorJson } from '@/data/notebook'
 import type { Note } from '@/data/notebook'
 import { Button } from '@/components/ui/Button'
@@ -15,7 +15,7 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import { NoteEditor } from '@/components/notebook/NoteEditor'
 import { DocumentRefs } from '@/components/notebook/DocumentRefs'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
-import { formatRelativeTime } from '@/lib/format'
+import { useRelativeTime } from '@/lib/useRelativeTime'
 import { resolveMediaSource } from '@/lib/mediaStorage'
 import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { ShareDialog } from '@/components/share/ShareDialog'
@@ -24,8 +24,16 @@ import { overlayPortal } from '@/lib/overlayPortal'
 import { API_MODE, apiFetchBlob } from '@/lib/api'
 import { setShareFollow, setShareStar, useSharedDocuments, type ShareSummary } from '@/lib/useShares'
 import { useMyDocuments, type MyDocument } from '@/lib/useMyDocuments'
+import { QuestionNotesPanel } from '@/components/notebook/QuestionNotesPanel'
+import { QBANK_NOTES_STORAGE_KEY } from '@/components/qbank/StudyRail'
 
-type NotebookTab = 'your' | 'shared'
+type NotebookTab = 'your' | 'shared' | 'questions'
+
+const NOTEBOOK_TABS: readonly NotebookTab[] = ['your', 'shared', 'questions']
+
+function readTab(value: string | null): NotebookTab {
+  return NOTEBOOK_TABS.includes(value as NotebookTab) ? (value as NotebookTab) : 'your'
+}
 
 // Keyed on the ShareAccess enum — never render its raw values to a student.
 const SHARE_ACCESS_LABEL: Record<string, string> = {
@@ -44,7 +52,8 @@ interface NoteCapturePayload {
 
 export function Notebook() {
   const t = useT()
-  const [params] = useSearchParams()
+  const relativeTime = useRelativeTime()
+  const [params, setParams] = useSearchParams()
   const location = useLocation()
   const linkedArticle = params.get('article')
   const createFromArticle = params.get('new') === '1'
@@ -54,7 +63,18 @@ export function Notebook() {
   // include it opened on "No note selected" even with notes in the list.
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [query, setQuery] = useState('')
-  const [tab, setTab] = useState<NotebookTab>('your')
+  // The tab is read from the URL rather than held beside it: `?tab=questions`
+  // is what `/app/question-notes` redirects to, and a tab that were state with
+  // the URL merely mirroring it would need a sync effect in both directions.
+  const tab = readTab(params.get('tab'))
+  const setTab = useCallback((next: NotebookTab) => {
+    setParams((current) => {
+      const nextParams = new URLSearchParams(current)
+      if (next === 'your') nextParams.delete('tab')
+      else nextParams.set('tab', next)
+      return nextParams
+    }, { replace: true })
+  }, [setParams])
   const [listOpen, setListOpen] = useState(false)
   const [tagOpen, setTagOpen] = useState(false)
   const [newTag, setNewTag] = useState('')
@@ -64,6 +84,11 @@ export function Notebook() {
   const [pendingCapture, setPendingCapture] = useState<NoteCapturePayload | null>(null)
   const [captureTarget, setCaptureTarget] = useState('')
   const sharedNotes = useSharedDocuments('note')
+  const [questionNotes] = usePersistentState<Record<string, string>>(QBANK_NOTES_STORAGE_KEY, {})
+  const questionNoteCount = useMemo(
+    () => Object.values(questionNotes).filter((text) => text.trim().length > 0).length,
+    [questionNotes],
+  )
   const documents = useMyDocuments()
   const uploadDocument = documents.upload
   const handledArticle = useRef<string | null>(null)
@@ -222,31 +247,42 @@ export function Notebook() {
     setCaptureTarget('')
   }
 
+  // Focus mode belongs to the editor. On the questions tab there is no editor
+  // to be focused on, and honouring a focus mode left on from a previous visit
+  // would hide both ways back out of the tab.
+  const chromeHidden = focusMode && tab !== 'questions'
+
   const listPane = (
     <>
       <div className="space-y-2 p-3">
-        <div className="grid grid-cols-2 rounded-lg border border-line bg-surface-2 p-0.5">
-          {(['your', 'shared'] as const).map((value) => (
+        <div className="grid grid-cols-3 rounded-lg border border-line bg-surface-2 p-0.5">
+          {NOTEBOOK_TABS.map((value) => (
             <button
               key={value}
               type="button"
               onClick={() => setTab(value)}
               className={cn('rounded-md px-2 py-1.5 text-[12px] font-semibold transition-colors', tab === value ? 'bg-surface text-primary-strong shadow-panel' : 'text-ink-3 hover:text-ink')}
             >
-              {value === 'your' ? t('Your') : t('Shared')}
+              {value === 'your' ? t('Your') : value === 'shared' ? t('Shared') : t('Questions')}
             </button>
           ))}
         </div>
-        <div className="flex items-center gap-2">
-          <SearchInput
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder={tab === 'shared' ? t('Search shared notes…') : t('Search notes…')}
-          />
-          {tab === 'your' && <IconButton icon={Plus} label={t('New note')} variant="surface" onClick={newNote} />}
-        </div>
+        {tab === 'questions' ? (
+          <p className="px-1 pb-1 text-[11.5px] leading-relaxed text-ink-3">
+            {t('Notes you wrote beside Question Bank items. Search and filter them in the panel.')}
+          </p>
+        ) : (
+          <div className="flex items-center gap-2">
+            <SearchInput
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={tab === 'shared' ? t('Search shared notes…') : t('Search notes…')}
+            />
+            {tab === 'your' && <IconButton icon={Plus} label={t('New note')} variant="surface" onClick={newNote} />}
+          </div>
+        )}
       </div>
-      {tab === 'your' ? (
+      {tab === 'questions' ? null : tab === 'your' ? (
         <ul className="flex-1 overflow-y-auto px-2 pb-3">
           {filtered.length === 0 && (
             <li className="px-2.5 py-6 text-center text-[12.5px] leading-relaxed text-ink-3">
@@ -271,7 +307,7 @@ export function Notebook() {
                 <p className="mt-0.5 truncate text-[12px] text-ink-3">
                   {notePlainText(n).split('\n')[0] || 'No content yet'}
                 </p>
-                <p className="mt-1 text-[11px] text-ink-3">{formatRelativeTime(n.updatedAt)}</p>
+                <p className="mt-1 text-[11px] text-ink-3">{relativeTime(n.updatedAt)}</p>
               </button>
             </li>
           ))}
@@ -284,11 +320,11 @@ export function Notebook() {
 
   return (
     <div className="flex h-[calc(100dvh-3.5rem-env(safe-area-inset-top))]">
-      {!focusMode && (
+      {!chromeHidden && (
         <aside className="hidden w-72 shrink-0 flex-col border-r border-line bg-surface lg:flex">
           <div className="flex h-12 items-center gap-2 border-b border-line px-4">
             <Icon icon={NotebookIcon} size={16} className="text-primary" />
-            <span className="font-serif text-[16px] font-semibold text-ink">Notebook</span>
+            <span className="font-serif text-[16px] font-semibold text-ink">{t('Notebook')}</span>
             <span className="tnum ml-auto font-mono text-[12px] text-ink-3">{notes.length}</span>
           </div>
           {listPane}
@@ -296,18 +332,37 @@ export function Notebook() {
       )}
 
       <div className="flex-1 overflow-y-auto">
-        {!focusMode && (
-          <div className="flex items-center gap-2 border-b border-line px-4 py-2 lg:hidden">
-            <Button variant="secondary" size="sm" iconLeft={NotebookIcon} onClick={() => setListOpen(true)}>
-              All notes
+        {!chromeHidden && (
+          <div className="flex items-center gap-2 border-b border-line px-4 py-2">
+            <Button className="lg:hidden" variant="secondary" size="sm" iconLeft={NotebookIcon} onClick={() => setListOpen(true)}>
+              {t('All notes')}
             </Button>
-            <Button variant="secondary" size="sm" iconLeft={Plus} onClick={newNote}>
-              New
+            {tab !== 'questions' && (
+              <Button className="lg:hidden" variant="secondary" size="sm" iconLeft={Plus} onClick={newNote}>
+                {t('New note')}
+              </Button>
+            )}
+            {/* The one door to the question notes from anywhere in the Notebook:
+                on a wide screen the list pane's three-way switch is off to the
+                side, and this says how many there are before you go looking. */}
+            <Button
+              className="ms-auto"
+              variant={tab === 'questions' ? 'primary' : 'secondary'}
+              size="sm"
+              iconLeft={StickyNote}
+              aria-pressed={tab === 'questions'}
+              onClick={() => setTab('questions')}
+            >
+              {t('Question notes')} · {questionNoteCount}
             </Button>
           </div>
         )}
 
-        {editorNote && note ? (
+        {tab === 'questions' ? (
+          <div className="mx-auto max-w-6xl px-5 py-6 sm:px-8">
+            <QuestionNotesPanel />
+          </div>
+        ) : editorNote && note ? (
           <div className="mx-auto max-w-[46rem] px-5 py-8 sm:px-8">
             <div className="mb-3 lg:hidden">
               <button
@@ -329,10 +384,10 @@ export function Notebook() {
                   {editorNote.subtopicTitle}
                 </Link>
               ) : (
-                <span className="text-[12px] text-ink-3">Not linked to the library</span>
+                <span className="text-[12px] text-ink-3">{t('Not linked to the library')}</span>
               )}
               <div className="flex items-center gap-2">
-                <span className="text-[12px] text-ink-3">{t('Edited')} {formatRelativeTime(editorNote.updatedAt)} · r{editorNote.revision ?? 1}</span>
+                <span className="text-[12px] text-ink-3">{t('Edited')} {relativeTime(editorNote.updatedAt)} · r{editorNote.revision ?? 1}</span>
                 <IconButton icon={Link2} label={t('Share this note')} size="sm" onClick={() => setSharing(true)} />
                 <IconButton icon={Trash2} label={t('Delete note')} size="sm" onClick={() => remove(editorNote.id)} />
               </div>
@@ -346,16 +401,16 @@ export function Notebook() {
             />
 
             <div className="relative mt-4 flex flex-wrap items-center gap-1.5 border-y border-line py-3">
-              <span className="mr-1 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Tags</span>
-              {editorNote.tags.map((tag) => <span key={tag} className="inline-flex items-center gap-1 rounded-md border border-line-2 bg-surface-2 py-1 pl-2.5 pr-1.5 text-[11.5px] font-medium text-ink-2">{tag}<button type="button" onClick={() => removeTag(tag)} aria-label={`Remove ${tag}`} className="rounded-md p-0.5 text-ink-3 hover:bg-inset hover:text-ink"><Icon icon={X} size={11} /></button></span>)}
-              <button type="button" onClick={() => setTagOpen((open) => !open)} className="grid size-11 place-items-center rounded-md border border-dashed border-line-2 text-ink-3 transition-colors hover:border-primary hover:bg-primary-tint hover:text-primary sm:size-7" aria-label="Add a tag"><Icon icon={Plus} size={14} strokeWidth={2.4} /></button>
+              <span className="mr-1 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">{t('Tags')}</span>
+              {editorNote.tags.map((tag) => <span key={tag} className="inline-flex items-center gap-1 rounded-md border border-line-2 bg-surface-2 py-1 pl-2.5 pr-1.5 text-[11.5px] font-medium text-ink-2">{tag}<button type="button" onClick={() => removeTag(tag)} aria-label={t('Remove {tag}').replace('{tag}', tag)} className="rounded-md p-0.5 text-ink-3 hover:bg-inset hover:text-ink"><Icon icon={X} size={11} /></button></span>)}
+              <button type="button" onClick={() => setTagOpen((open) => !open)} className="grid size-11 place-items-center rounded-md border border-dashed border-line-2 text-ink-3 transition-colors hover:border-primary hover:bg-primary-tint hover:text-primary sm:size-7" aria-label={t('Add a tag')}><Icon icon={Plus} size={14} strokeWidth={2.4} /></button>
               {tagOpen && <div className="absolute left-10 top-[calc(100%+0.4rem)] z-20 w-72 rounded-xl border border-line bg-surface p-3 shadow-pop">
-                <p className="text-[11.5px] font-bold text-ink">Tag a subject or create your own</p>
+                <p className="text-[11.5px] font-bold text-ink">{t('Tag a subject or create your own')}</p>
                 <div className="mt-2 flex flex-wrap gap-1.5">{subjects.filter((subject) => !editorNote.tags.includes(subject.name)).map((subject) => <button type="button" key={subject.id} onClick={() => addTag(subject.name)} className="rounded-md border border-line bg-surface-2 px-2.5 py-1 text-[11px] font-medium text-ink-2 hover:border-primary-line hover:text-ink">{subject.name}</button>)}</div>
-                <div className="mt-3 flex gap-1.5"><input value={newTag} onChange={(event) => setNewTag(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter') addTag(newTag) }} placeholder="New tag…" className="h-11 min-w-0 flex-1 rounded-lg border border-line-2 bg-surface px-2.5 text-[12px] text-ink outline-none focus:border-primary sm:h-8" /><Button size="sm" variant="primary" onClick={() => addTag(newTag)} disabled={!newTag.trim()}>Add</Button></div>
+                <div className="mt-3 flex gap-1.5"><input value={newTag} onChange={(event) => setNewTag(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter') addTag(newTag) }} placeholder={t('New tag…')} className="h-11 min-w-0 flex-1 rounded-lg border border-line-2 bg-surface px-2.5 text-[12px] text-ink outline-none focus:border-primary sm:h-8" /><Button size="sm" variant="primary" onClick={() => addTag(newTag)} disabled={!newTag.trim()}>{t('Add')}</Button></div>
                 <div className="mt-3 flex justify-end border-t border-line pt-3"><Button size="sm" variant="secondary" onClick={() => setTagOpen(false)}>{t('Done')}</Button></div>
               </div>}
-              <label className="ml-auto flex min-w-56 items-center gap-2 text-[11.5px] text-ink-3"><span className="shrink-0">Related article</span><Select className="h-11 sm:h-8" value={editorNote.subtopicId ?? ''} onChange={(event) => { const article = allSubtopics.find((item) => item.id === event.target.value); update(editorNote.id, { subtopicId: article?.id, subtopicTitle: article ? `${article.topicTitle} · ${article.title}` : undefined, subjectId: article?.subjectId ?? editorNote.subjectId }) }}><option value="">None</option>{allSubtopics.map((article) => <option key={article.id} value={article.id}>{article.title}</option>)}</Select></label>
+              <label className="ml-auto flex min-w-56 items-center gap-2 text-[11.5px] text-ink-3"><span className="shrink-0">{t('Related article')}</span><Select className="h-11 sm:h-8" value={editorNote.subtopicId ?? ''} onChange={(event) => { const article = allSubtopics.find((item) => item.id === event.target.value); update(editorNote.id, { subtopicId: article?.id, subtopicTitle: article ? `${article.topicTitle} · ${article.title}` : undefined, subjectId: article?.subjectId ?? editorNote.subjectId }) }}><option value="">{t('None')}</option>{allSubtopics.map((article) => <option key={article.id} value={article.id}>{article.title}</option>)}</Select></label>
             </div>
 
             {/* The documents this note is about — the library's and the
@@ -368,7 +423,7 @@ export function Notebook() {
               />
             </div>
 
-            {(editorNote.imageDocumentId || editorNote.imageData) && <div className="relative mt-4 overflow-hidden rounded-lg border border-line bg-surface"><ManagedNotebookImage document={documents.items.find((item) => item.id === editorNote.imageDocumentId)} documentId={editorNote.imageDocumentId} legacySource={editorNote.imageData} /><IconButton icon={X} label="Remove image" size="sm" className="absolute right-2 top-2 bg-surface shadow-panel" onClick={() => update(editorNote.id, { imageDocumentId: undefined, imageData: undefined })} /></div>}
+            {(editorNote.imageDocumentId || editorNote.imageData) && <div className="relative mt-4 overflow-hidden rounded-lg border border-line bg-surface"><ManagedNotebookImage document={documents.items.find((item) => item.id === editorNote.imageDocumentId)} documentId={editorNote.imageDocumentId} legacySource={editorNote.imageData} /><IconButton icon={X} label={t('Remove image')} size="sm" className="absolute right-2 top-2 bg-surface shadow-panel" onClick={() => update(editorNote.id, { imageDocumentId: undefined, imageData: undefined })} /></div>}
 
             <div className="mt-5">
               <NoteEditor
@@ -409,7 +464,7 @@ export function Notebook() {
             description={t('Pick a note from the list or create a new one.')}
             action={
               <Button variant="primary" size="sm" iconLeft={Plus} onClick={newNote}>
-                New note
+                {t('New note')}
               </Button>
             }
           />
@@ -447,10 +502,10 @@ export function Notebook() {
 
       {listOpen && overlayPortal(
         <div className="fixed inset-0 z-40 lg:hidden">
-          <button type="button" aria-label="Close notes list" className="absolute inset-0 size-full cursor-default bg-ink/30 animate-fade" onClick={() => setListOpen(false)} />
+          <button type="button" aria-label={t('Close notes list')} className="absolute inset-0 size-full cursor-default bg-ink/30 animate-fade" onClick={() => setListOpen(false)} />
           <div className="animate-slide-x absolute inset-y-0 left-0 flex w-[min(17rem,calc(100vw-3rem))] flex-col bg-surface pb-[env(safe-area-inset-bottom)] shadow-pop">
             <div className="flex h-12 items-center justify-between border-b border-line px-4">
-              <span className="font-serif text-[16px] font-semibold text-ink">Notebook</span>
+              <span className="font-serif text-[16px] font-semibold text-ink">{t('Notebook')}</span>
               <button onClick={() => setListOpen(false)} className="text-ink-3 hover:text-ink">
                 <Icon icon={X} size={18} />
               </button>
@@ -522,6 +577,7 @@ function parseCapture(raw: string): NoteCapturePayload {
 }
 
 function DemoSharedNotesList({ query }: { query: string }) {
+  const t = useT()
   const needle = query.trim().toLowerCase()
   const items = [
     { title: 'Cranial nerve localisation', owner: '@neuro-nora', topic: 'Neurology', stars: 18, following: true, collaborators: 3 },
@@ -531,22 +587,22 @@ function DemoSharedNotesList({ query }: { query: string }) {
 
   return (
     <div className="flex-1 overflow-y-auto px-2 pb-3">
-      <p className="mx-2 mb-2 rounded-md bg-primary-tint px-2.5 py-2 text-[11px] font-medium text-primary-strong">Demo shared library · live access stays server-enforced</p>
+      <p className="mx-2 mb-2 rounded-md bg-primary-tint px-2.5 py-2 text-[11px] font-medium text-primary-strong">{t('Demo shared library · live access stays server-enforced')}</p>
       {items.map((item) => (
         <section key={item.title} className="mb-3">
           <p className="px-2.5 py-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{item.topic}</p>
           <div className="rounded-lg border border-line bg-surface p-2">
             <p className="truncate text-[13px] font-semibold text-ink">{item.title}</p>
-            <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{item.owner} · View and collaborate</p>
+            <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{item.owner} · {t('View and collaborate')}</p>
             <div className="mt-2 flex items-center gap-2 text-[11px] text-ink-3">
               <span className="inline-flex items-center gap-1"><Icon icon={Star} size={12} />{item.stars}</span>
               <span className="inline-flex items-center gap-1"><Icon icon={Users} size={12} />{item.collaborators}</span>
-              <span className="ms-auto inline-flex items-center gap-1 font-medium text-ink-2"><Icon icon={Bell} size={12} />{item.following ? 'Following' : 'Follow'}</span>
+              <span className="ms-auto inline-flex items-center gap-1 font-medium text-ink-2"><Icon icon={Bell} size={12} />{item.following ? t('Following') : t('Follow')}</span>
             </div>
           </div>
         </section>
       ))}
-      {!items.length && <p className="px-3 py-6 text-center text-[12px] text-ink-3">No demo shared note matches.</p>}
+      {!items.length && <p className="px-3 py-6 text-center text-[12px] text-ink-3">{t('No demo shared note matches.')}</p>}
     </div>
   )
 }

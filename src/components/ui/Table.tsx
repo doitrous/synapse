@@ -1,9 +1,11 @@
 import type { ReactNode, ThHTMLAttributes, TdHTMLAttributes } from 'react'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 
 export function Table({ children, className }: { children: ReactNode; className?: string }) {
+  const t = useT()
   return (
-    <div className="max-w-full overflow-x-auto overscroll-x-contain" role="region" aria-label="Scrollable data table" tabIndex={0}>
+    <div className="max-w-full overflow-x-auto overscroll-x-contain" role="region" aria-label={t('Scrollable data table')} tabIndex={0}>
       <table className={cn('w-full border-collapse text-[13.5px]', className)}>{children}</table>
     </div>
   )

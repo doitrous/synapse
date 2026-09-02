@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Building2, Box, Check } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 import { MARISTANA_BUILD_STEPS, MARISTANA_STEPS, maristanaStageAsset } from '@/data/maristanas'
 
 /**
@@ -12,6 +13,7 @@ import { MARISTANA_BUILD_STEPS, MARISTANA_STEPS, maristanaStageAsset } from '@/d
  * schematic construction elevation, not a fake final hospital model.
  */
 function BlueprintHospital({ stage }: { stage: number }) {
+  const t = useT()
   const visible = (part: number) => part <= stage
   const part = (number: number, className: string) => cn(
     'transition-[opacity,transform] duration-500 ease-[var(--ease-out-quint)] motion-reduce:transition-none',
@@ -19,7 +21,7 @@ function BlueprintHospital({ stage }: { stage: number }) {
     className,
   )
   return (
-    <svg viewBox="0 0 760 420" className="h-full w-full" role="img" aria-label={`Schematic hospital at construction stage ${stage} of 25`}>
+    <svg viewBox="0 0 760 420" className="h-full w-full" role="img" aria-label={t('Schematic hospital at construction stage {n} of 25').replace('{n}', String(stage))}>
       <g fill="none" stroke="currentColor" strokeWidth="3" strokeLinejoin="round" className="text-accent/70">
         <path d="M72 354H688" strokeDasharray="5 8" className="text-line-2" />
         <path d="M155 352V303H605V352" className={part(1, '')} />
@@ -55,7 +57,7 @@ function BlueprintHospital({ stage }: { stage: number }) {
       {stage === 0 && (
         <g className="text-ink-3">
           <path d="M130 350L630 350M220 280L540 280M380 70V350" stroke="currentColor" strokeWidth="2" strokeDasharray="7 9" />
-          <text x="380" y="205" textAnchor="middle" fill="currentColor" fontSize="18" fontFamily="var(--font-mono)">SITE 01 · READY</text>
+          <text x="380" y="205" textAnchor="middle" fill="currentColor" fontSize="18" fontFamily="var(--font-mono)">{t('SITE 01 · READY')}</text>
         </g>
       )}
     </svg>
@@ -63,6 +65,7 @@ function BlueprintHospital({ stage }: { stage: number }) {
 }
 
 function BuildRoadmap({ stage }: { stage: number }) {
+  const t = useT()
   const scroller = useRef<HTMLDivElement>(null)
   const currentStep = useRef<HTMLLIElement>(null)
   const mounted = useRef(false)
@@ -81,10 +84,10 @@ function BuildRoadmap({ stage }: { stage: number }) {
   }, [activeStep])
 
   return (
-    <aside className="flex min-h-0 flex-col border-e border-line bg-surface" aria-label="Maristana construction roadmap">
+    <aside className="flex min-h-0 flex-col border-e border-line bg-surface" aria-label={t('Maristana construction roadmap')}>
       <div className="shrink-0 border-b border-line px-3 py-3 sm:px-4">
-        <p className="text-[9.5px] font-bold uppercase tracking-[0.09em] text-ink-3">Build roadmap</p>
-        <p className="tnum mt-1 font-mono text-[10.5px] font-semibold text-ink">{stage} / {MARISTANA_STEPS} placed</p>
+        <p className="text-[9.5px] font-bold uppercase tracking-[0.09em] text-ink-3">{t('Build roadmap')}</p>
+        <p className="tnum mt-1 font-mono text-[10.5px] font-semibold text-ink">{stage} / {MARISTANA_STEPS} {t('placed')}</p>
       </div>
       <div ref={scroller} className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-2 py-2 sm:px-3" tabIndex={0}>
         <ol className="relative">
@@ -122,8 +125,8 @@ function BuildRoadmap({ stage }: { stage: number }) {
                   <span className={cn(
                     'block text-[9.5px] font-semibold leading-[1.25] sm:text-[10.5px]',
                     current ? 'text-primary-strong' : complete ? 'text-ink-2' : 'text-ink-3',
-                  )}>{label}</span>
-                  {current && <span className="mt-0.5 block text-[8.5px] font-medium text-primary sm:text-[9px]">In progress</span>}
+                  )}>{t(label)}</span>
+                  {current && <span className="mt-0.5 block text-[8.5px] font-medium text-primary sm:text-[9px]">{t('In progress')}</span>}
                 </span>
               </li>
             )
@@ -135,6 +138,7 @@ function BuildRoadmap({ stage }: { stage: number }) {
 }
 
 export function MaristanaModel({ stage, name, compact = false }: { stage: number; name: string; compact?: boolean }) {
+  const t = useT()
   const [assetAvailable, setAssetAvailable] = useState(true)
   useEffect(() => setAssetAvailable(true), [stage])
 
@@ -144,7 +148,7 @@ export function MaristanaModel({ stage, name, compact = false }: { stage: number
         {assetAvailable && stage > 0 ? (
           <img
             src={maristanaStageAsset(stage)}
-            alt={`${name}, construction stage ${stage} of 25`}
+            alt={t('{name}, construction stage {n} of 25').replace('{name}', name).replace('{n}', String(stage))}
             className="size-full object-cover"
             onError={() => setAssetAvailable(false)}
           />
@@ -163,7 +167,7 @@ export function MaristanaModel({ stage, name, compact = false }: { stage: number
       <div className="relative h-full min-w-0 overflow-hidden bg-surface-2/45">
         <div className="absolute inset-x-0 top-0 z-10 flex items-center justify-between gap-3 p-3 sm:p-4">
           <span className="inline-flex items-center gap-2 rounded-md border border-line bg-surface/90 px-2.5 py-1.5 text-[10px] font-semibold text-ink-2 shadow-panel backdrop-blur-sm sm:text-[11px]">
-            <Icon icon={Box} size={13} /> Stage {String(stage).padStart(2, '0')}/25
+            <Icon icon={Box} size={13} /> {t('Stage')} {String(stage).padStart(2, '0')}/25
           </span>
           <span className="hidden max-w-[42%] truncate rounded-md bg-surface/75 px-2 py-1 font-mono text-[9.5px] text-ink-3 backdrop-blur-sm sm:block">{name}</span>
         </div>
@@ -172,7 +176,7 @@ export function MaristanaModel({ stage, name, compact = false }: { stage: number
           <img
             key={stage}
             src={maristanaStageAsset(stage)}
-            alt={`${name}, construction stage ${stage} of 25`}
+            alt={t('{name}, construction stage {n} of 25').replace('{name}', name).replace('{n}', String(stage))}
             className="absolute inset-0 size-full object-contain"
             onError={() => setAssetAvailable(false)}
           />
@@ -184,7 +188,7 @@ export function MaristanaModel({ stage, name, compact = false }: { stage: number
 
         {!assetAvailable && (
           <div className="absolute bottom-3 start-3 rounded-md border border-line bg-surface/90 px-2.5 py-1.5 text-[10.5px] text-ink-3 shadow-panel backdrop-blur-sm">
-            Blueprint preview · 3D asset pending
+            {t('Blueprint preview · 3D asset pending')}
           </div>
         )}
       </div>

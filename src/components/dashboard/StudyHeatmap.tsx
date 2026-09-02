@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, type ReactNode } from 'react'
 import { Activity } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -69,7 +69,13 @@ function buildColumns(cells: Cell[]): (Cell | null)[][] {
 
 const DAY_LABELS = ['Mon', '', 'Wed', '', 'Fri', '', '']
 
-export function StudyHeatmap() {
+/**
+ * `aside` is the dashboard's Question of the Day, rendered in the panel's own
+ * end column rather than as a second panel beside it. The daily question is
+ * part of the same statement as the streak record, and giving it its own
+ * chrome made the dashboard say the same thing twice.
+ */
+export function StudyHeatmap({ aside }: { aside?: ReactNode }) {
   const t = useT()
   const { records } = useAttemptHistory()
 
@@ -116,61 +122,66 @@ export function StudyHeatmap() {
         }
       />
       <div className="p-4 sm:p-5">
-        <div className="overflow-x-auto pb-1">
-          <div className="mx-auto flex w-max gap-2">
-            {/* weekday rail */}
-            <div className="flex shrink-0 flex-col gap-[3px] pt-[1px]">
-              {DAY_LABELS.map((d, i) => (
-                <span key={i} className="h-[13px] text-[9px] leading-[13px] text-ink-3" style={{ width: 22 }}>
-                  {d}
-                </span>
-              ))}
-            </div>
-            {/* week columns */}
-            <div className="flex gap-[3px]">
-              {columns.map((col, ci) => (
-                <div key={ci} className="flex flex-col gap-[3px]">
-                  {Array.from({ length: 7 }).map((_, ri) => {
-                    const cell = col[ri]
-                    if (!cell) return <span key={ri} className="size-[13px]" />
-                    return (
-                      <span
-                        key={ri}
-                        className="size-[13px] rounded-[3px] ring-1 ring-inset ring-black/[0.04] transition-transform duration-100 hover:scale-[1.35]"
-                        style={{ backgroundColor: SCALE[level(cell.attempts)] }}
-                        title={
-                          cell.attempts > 0
-                            ? `${cell.attempts} ${cell.attempts === 1 ? t('answer') : t('answers')} · ${formatDayLabel(cell.day)}`
-                            : `${t('Nothing answered')} · ${formatDayLabel(cell.day)}`
-                        }
-                      />
-                    )
-                  })}
+        <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_15rem]">
+          <div className="min-w-0">
+            <div className="overflow-x-auto pb-1">
+              <div className="mx-auto flex w-max gap-2">
+                {/* weekday rail */}
+                <div className="flex shrink-0 flex-col gap-[3px] pt-[1px]">
+                  {DAY_LABELS.map((d, i) => (
+                    <span key={i} className="h-[13px] text-[9px] leading-[13px] text-ink-3" style={{ width: 22 }}>
+                      {d}
+                    </span>
+                  ))}
                 </div>
-              ))}
+                {/* week columns */}
+                <div className="flex gap-[3px]">
+                  {columns.map((col, ci) => (
+                    <div key={ci} className="flex flex-col gap-[3px]">
+                      {Array.from({ length: 7 }).map((_, ri) => {
+                        const cell = col[ri]
+                        if (!cell) return <span key={ri} className="size-[13px]" />
+                        return (
+                          <span
+                            key={ri}
+                            className="size-[13px] rounded-[3px] ring-1 ring-inset ring-black/[0.04] transition-transform duration-100 hover:scale-[1.35]"
+                            style={{ backgroundColor: SCALE[level(cell.attempts)] }}
+                            title={
+                              cell.attempts > 0
+                                ? `${cell.attempts} ${cell.attempts === 1 ? t('answer') : t('answers')} · ${formatDayLabel(cell.day)}`
+                                : `${t('Nothing answered')} · ${formatDayLabel(cell.day)}`
+                            }
+                          />
+                        )
+                      })}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-4 flex items-center justify-between">
+              <p className="text-[12px] text-ink-3">
+                {totalAnswered > 0 ? (
+                  <>
+                    {t("You've answered")}{' '}
+                    <span className="tnum font-mono font-medium text-ink-2">{totalAnswered} {t('questions')}</span>{' '}
+                    {t('over this block.')}
+                  </>
+                ) : (
+                  t('Nothing answered yet — every question you work through fills a square.')
+                )}
+              </p>
+              <div className="flex items-center gap-1.5 text-[11px] text-ink-3">
+                <span>{t('Less')}</span>
+                {SCALE.map((c) => (
+                  <span key={c} className="size-[11px] rounded-[3px] ring-1 ring-inset ring-black/[0.04]" style={{ backgroundColor: c }} />
+                ))}
+                <span>{t('More')}</span>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className="mt-4 flex items-center justify-between">
-          <p className="text-[12px] text-ink-3">
-            {totalAnswered > 0 ? (
-              <>
-                {t("You've answered")}{' '}
-                <span className="tnum font-mono font-medium text-ink-2">{totalAnswered} {t('questions')}</span>{' '}
-                {t('over this block.')}
-              </>
-            ) : (
-              t('Nothing answered yet — every question you work through fills a square.')
-            )}
-          </p>
-          <div className="flex items-center gap-1.5 text-[11px] text-ink-3">
-            <span>{t('Less')}</span>
-            {SCALE.map((c) => (
-              <span key={c} className="size-[11px] rounded-[3px] ring-1 ring-inset ring-black/[0.04]" style={{ backgroundColor: c }} />
-            ))}
-            <span>{t('More')}</span>
-          </div>
+          {aside}
         </div>
         <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-3 lg:grid-cols-5">
           {[

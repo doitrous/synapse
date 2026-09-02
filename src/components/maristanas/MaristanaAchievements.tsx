@@ -5,18 +5,20 @@ import { Icon } from '@/components/ui/Icon'
 import { Panel } from '@/components/ui/Panel'
 import { MARISTANA_MILESTONES, maristanaStageAsset, type MaristanaMilestone } from '@/data/maristanas'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 
 export function MaristanaAchievementRail({ stage }: { stage: number }) {
+  const t = useT()
   const earned = MARISTANA_MILESTONES.filter((milestone) => milestone.stage <= stage).length
 
   return (
     <section className="mt-6" aria-labelledby="maristana-achievements-title">
       <div className="mb-3 flex items-end justify-between gap-4">
         <div>
-          <p className="text-[10.5px] font-bold uppercase tracking-[0.085em] text-ink-3">Visible progress</p>
-          <h2 id="maristana-achievements-title" className="mt-1 font-serif text-[22px] font-semibold tracking-[-0.02em] text-ink">Construction achievements</h2>
+          <p className="text-[10.5px] font-bold uppercase tracking-[0.085em] text-ink-3">{t('Visible progress')}</p>
+          <h2 id="maristana-achievements-title" className="mt-1 font-serif text-[22px] font-semibold tracking-[-0.02em] text-ink">{t('Construction achievements')}</h2>
         </div>
-        <p className="tnum font-mono text-[11px] text-ink-3">{earned} / {MARISTANA_MILESTONES.length} earned</p>
+        <p className="tnum font-mono text-[11px] text-ink-3">{earned} / {MARISTANA_MILESTONES.length} {t('earned')}</p>
       </div>
 
       <Panel className="overflow-hidden">
@@ -27,7 +29,7 @@ export function MaristanaAchievementRail({ stage }: { stage: number }) {
             return (
               <li
                 key={milestone.stage}
-                aria-label={`${milestone.title}, ${unlocked ? 'earned' : `unlocks at stage ${milestone.stage}`}`}
+                aria-label={`${t(milestone.title)}, ${unlocked ? t('earned') : t('unlocks at stage {n}').replace('{n}', String(milestone.stage))}`}
                 className={cn(
                   'min-w-[172px] snap-start border-line md:min-w-0',
                   index > 0 && 'border-s',
@@ -54,9 +56,9 @@ export function MaristanaAchievementRail({ stage }: { stage: number }) {
                 <div className="p-3.5">
                   <div className="flex items-center gap-2">
                     <Icon icon={unlocked ? Award : LockKeyhole} size={14} className={unlocked ? 'text-primary-strong' : 'text-ink-3'} />
-                    <p className="truncate text-[12px] font-semibold text-ink">{milestone.title}</p>
+                    <p className="truncate text-[12px] font-semibold text-ink">{t(milestone.title)}</p>
                   </div>
-                  <p className="mt-1.5 text-pretty text-[10.5px] leading-relaxed text-ink-3">{milestone.description}</p>
+                  <p className="mt-1.5 text-pretty text-[10.5px] leading-relaxed text-ink-3">{t(milestone.description)}</p>
                 </div>
               </li>
             )
@@ -76,6 +78,7 @@ export function MaristanaAchievementToast({
   hospitalName: string
   onClose: () => void
 }) {
+  const t = useT()
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
@@ -105,11 +108,11 @@ export function MaristanaAchievementToast({
           </span>
           <div className="min-w-0 flex-1">
             <div className="flex items-center justify-between gap-3">
-              <p className="text-[10px] font-bold uppercase tracking-[0.085em] text-primary-strong">Achievement earned</p>
-              <span className="tnum font-mono text-[10px] text-ink-3">Stage {milestone.stage}/25</span>
+              <p className="text-[10px] font-bold uppercase tracking-[0.085em] text-primary-strong">{t('Achievement earned')}</p>
+              <span className="tnum font-mono text-[10px] text-ink-3">{t('Stage')} {milestone.stage}/25</span>
             </div>
-            <p className="mt-1 font-serif text-[18px] font-semibold tracking-[-0.015em] text-ink">{milestone.title}</p>
-            <p className="mt-0.5 truncate text-[11px] text-ink-2">{hospitalName} · {milestone.description}</p>
+            <p className="mt-1 font-serif text-[18px] font-semibold tracking-[-0.015em] text-ink">{t(milestone.title)}</p>
+            <p className="mt-0.5 truncate text-[11px] text-ink-2">{hospitalName} · {t(milestone.description)}</p>
           </div>
         </div>
         <div className="h-1 bg-primary" />

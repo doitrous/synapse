@@ -1,8 +1,8 @@
 import type { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from 'react'
 import { Link, type LinkProps } from 'react-router-dom'
 import type { LucideIcon } from 'lucide-react'
-import { Loader2 } from 'lucide-react'
 import { cn } from '@/lib/cn'
+import { NishanyLoader } from './NishanyLoader'
 
 type Variant = 'primary' | 'secondary' | 'ghost' | 'danger'
 type Size = 'sm' | 'md' | 'lg'
@@ -26,10 +26,19 @@ const VARIANT: Record<Variant, string> = {
   danger: 'border border-danger bg-danger text-on-danger shadow-control hover:brightness-[0.94]',
 }
 
+/**
+ * Height *and* a matching `min-height`: a button is a flex item too, and in a
+ * column that runs out of room `height` alone is shrunk away — a 44px control
+ * rendered 25px tall. `min-height` is the floor flex-shrink respects.
+ *
+ * `cn` is a plain joiner, not tailwind-merge, so a caller passing its own
+ * `h-*` would leave these in place and fight them. No caller does; anyone who
+ * needs a different height has to override `min-h-*` alongside it.
+ */
 const SIZE: Record<Size, string> = {
-  sm: 'h-11 gap-1.5 px-2.5 text-[13px] sm:h-8',
-  md: 'h-11 gap-2 px-3.5 text-[13.5px] sm:h-9',
-  lg: 'h-11 gap-2 px-5 text-[15px]',
+  sm: 'h-11 min-h-11 gap-1.5 px-2.5 text-[13px] sm:h-8 sm:min-h-8',
+  md: 'h-11 min-h-11 gap-2 px-3.5 text-[13.5px] sm:h-9 sm:min-h-9',
+  lg: 'h-11 min-h-11 gap-2 px-5 text-[15px]',
 }
 
 const ICON: Record<Size, number> = { sm: 15, md: 16, lg: 18 }
@@ -73,7 +82,9 @@ function buttonContent({
   return (
     <>
       {loading ? (
-        <Loader2 size={ICON[size]} strokeWidth={2} className="animate-spin" aria-hidden />
+        // The single-ring variant in `currentColor`, so a loading primary and
+        // a loading ghost each spin in their own label colour.
+        <NishanyLoader mini decorative className="shrink-0" />
       ) : (
         Left && <Left size={ICON[size]} strokeWidth={2.15} aria-hidden />
       )}

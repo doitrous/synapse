@@ -62,6 +62,17 @@
   --color-accent-line: #c4d9f7;
   --color-on-accent: #f8fbff;
 
+  /* ---- Mist · the accent ground ---------------------------------------
+     Field blue at about six percent over white: the paper, one step raised.
+     A band or a tile, never a whole page: hub header bands, icon tiles, the
+     study room floor, hero strips. Never carry the crimson tint on top of it
+     — two tints stacked read as a stain; on mist the selected state is a
+     hairline plus a crimson spine. */
+  --color-mist: #eff3fa;
+  --color-mist-2: #e6ecf7;
+  --color-mist-line: #d8e1f1;
+  --color-on-mist: #161920;
+
   /* ---- Signals ------------------------------------------------------- */
   --color-success: #1a6e56;
   --color-success-tint: #e3f2ec;
@@ -185,6 +196,10 @@
   --dur-screen: 260ms;
   --dur-collapse: 280ms;
   --dur-calibrate: 900ms;
+  /* A hub's header band and its card grid arriving as one movement. */
+  --dur-hub-enter: 420ms;
+  /* One full turn of the loader's chasing arc. */
+  --dur-loader: 1600ms;
   --stagger-step: 26ms;
 
   /* A focused field takes a soft crimson ring as well as a crimson border. */
@@ -231,6 +246,14 @@
 
   --color-accent-tint: #eef1f8;
   --color-accent-line: #cbd8ee;
+
+  /* Warm's paper is cream, so mist turns cream too: the hall floor and the
+     tinted panels must sit inside the page's own temperature, not import the
+     light theme's blue. */
+  --color-mist: #f1ebe0;
+  --color-mist-2: #e8e0d1;
+  --color-mist-line: #d9cdb9;
+  --color-on-mist: #1f1b16;
 
   --color-success-tint: #e8efdf;
   --color-warning-tint: #f7edd7;
@@ -333,6 +356,14 @@
   --color-accent-tint: #11203a;
   --color-accent-line: #24406b;
   --color-on-accent: #0a1120;      /* dark ink on a light-blue fill */
+
+  /* Ivory in the dark themes is a warm *lift* off the page rather than a
+     light ground: the same role — a band that is not the page — read at
+     night, with the ink inverted to a warm off-white. */
+  --color-mist: #131a26;
+  --color-mist-2: #182130;
+  --color-mist-line: #243044;
+  --color-on-mist: #e8ecf3;
 
   --color-success: #4dc79b;
   --color-success-tint: #0e2b23;
@@ -477,6 +508,13 @@
   --color-accent-tint: #11203a;
   --color-accent-line: #24406b;
   --color-on-accent: #0a1120;
+
+  /* Darker than Dark's, for the same reason every other surface here is:
+     paper is true black, so every lift above it starts lower. */
+  --color-mist: #0c1017;
+  --color-mist-2: #121823;
+  --color-mist-line: #1e2734;
+  --color-on-mist: #dfe2e8;
 
   --color-success: #4dc79b;
   --color-success-tint: #0e2b23;
@@ -852,6 +890,31 @@
   animation: nishany-calibrate-pop var(--dur-calibrate) var(--ease-out-quint) both;
 }
 
+/* ---- The Nishany loader -------------------------------------------------
+   Four concentric arcs that each fill and then empty around their ring while
+   the whole arc rotates a full turn, so the head keeps travelling while the
+   tail catches up. `--c` is the ring's circumference, set inline per arc;
+   the offset runs c → 0 → -c, which is "fill, then empty". The first and
+   last frames are visually identical — the arc is empty at both ends and the
+   rotation is a whole turn — so the loop has no seam. Each ring is delayed
+   by 120ms via `--phase`, which is what makes the stack read as one
+   instrument rather than four spinners. */
+@keyframes nishany-loader-sweep {
+  0%   { stroke-dashoffset: var(--c); transform: rotate(0deg); }
+  50%  { stroke-dashoffset: 0;        transform: rotate(180deg); }
+  100% { stroke-dashoffset: calc(var(--c) * -1); transform: rotate(360deg); }
+}
+.nishany-loader-arc {
+  transform-origin: 50% 50%;
+  animation: nishany-loader-sweep var(--dur-loader) cubic-bezier(0.55, 0, 0.85, 0.35) infinite;
+  animation-delay: var(--phase, 0ms);
+}
+/* Held rather than hidden: the arcs stop at a quarter, a half, three quarters
+   and full, which is the dashboard's own ring stack standing still. */
+@media (prefers-reduced-motion: reduce) {
+  .nishany-loader-arc { animation: none; }
+}
+
 /* Landing hero: the Noon Dot drawn as an aiming target. One orchestrated
    reveal on load — the bowl draws in, the dot settles, one pulse rings out.
    The global prefers-reduced-motion rule collapses all three to their end
@@ -945,5 +1008,38 @@
   .grid-chart,
   .grid-chart-major {
     background-image: none;
+  }
+}
+
+/* Deliberately outside every `@layer`, so these win over the field utilities.
+
+   The notebook's zoom rides here as a custom property rather than as an inline
+   `font-size`, which no stylesheet can reach. Desktop reads the property
+   straight through and renders exactly the size the inline value did. */
+.note-zoom {
+  font-size: var(--note-font-px, 15px);
+}
+
+/* iOS Safari zooms the page the moment a focused field's text is under 16px,
+   and it never zooms back out: the student is left on a page they have to
+   pinch their way around. The app's field scale is 13.5-15px, which is right
+   on a desktop and a trap on a phone, so below `sm` the editable surfaces —
+   and only those — step up to the size that stops the zoom. Checkboxes,
+   radios, ranges and colour wells carry no text and are left alone; the two
+   rich-text surfaces are `contenteditable` rather than `<textarea>`, and both
+   attribute forms are listed because a boolean `contentEditable` prop and an
+   explicit `"true"` do not serialise the same way. */
+@media (max-width: 639px) {
+  input:not([type='checkbox']):not([type='radio']):not([type='range']):not([type='color']),
+  select,
+  textarea,
+  [contenteditable='true'],
+  [contenteditable=''] {
+    font-size: 16px;
+  }
+
+  /* `max`, not a flat 16px: the note zoom still has to work upward. */
+  .note-zoom {
+    font-size: max(16px, var(--note-font-px, 15px));
   }
 }

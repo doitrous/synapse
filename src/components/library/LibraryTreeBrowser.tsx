@@ -75,7 +75,7 @@ export function LibraryTreeBrowser({ selectedArticleId, onArticleSelect }: {
             aria-selected={group.moduleId === active}
             onClick={() => setChosen(group.moduleId)}
             className={cn(
-              'flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-start text-[12px]',
+              'flex min-h-11 w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-start text-[12px] sm:min-h-0',
               group.moduleId === active ? 'bg-primary-tint font-semibold text-primary-strong' : 'text-ink-2 hover:bg-inset',
             )}
           >

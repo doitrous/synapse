@@ -1,8 +1,9 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
-import { AudioLines, CloudRain, Headphones, Music2, Pause, Play, Volume1, Volume2, VolumeX, Waves, Wind, X } from 'lucide-react'
+import { CloudRain, Headphones, Music2, Pause, Play, Volume1, Volume2, VolumeX, Waves, Wind } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { useLocalJsonPreference } from '@/lib/useLocalPreference'
+import { useT } from '@/lib/i18n'
 
 type SoundId = 'lofi' | 'soft' | 'rain' | 'brown' | 'white'
 
@@ -138,6 +139,8 @@ interface FocusAudioContextValue {
   pause: () => Promise<void>
   choose: (id: SoundId) => Promise<void>
   setVolume: (volume: number) => void
+  /** Silence and restore, remembering the level from before the mute. */
+  toggleMute: () => void
 }
 
 const FocusAudioContext = createContext<FocusAudioContextValue | null>(null)
@@ -147,6 +150,15 @@ export function FocusAudioProvider({ children }: { children: ReactNode }) {
   const [preference, setPreference] = useLocalJsonPreference('nishany.focusAudio.v1', { sound: 'lofi' as SoundId, volume: 0.32 })
   const [playing, setPlaying] = useState(false)
   const engine = useRef<AudioEngine | null>(null)
+  // Remembers the level from before a mute so unmuting restores it, instead of
+  // guessing one. It lives here rather than in the panel because the panel is
+  // now inside a popover: a ref there would forget the level every time the
+  // menu closed, and unmuting would snap back to the default.
+  const preMuteVolume = useRef(preference.volume > 0 ? preference.volume : 0.32)
+
+  useEffect(() => {
+    if (preference.volume > 0) preMuteVolume.current = preference.volume
+  }, [preference.volume])
 
   useEffect(() => () => { void stopEngine(engine.current) }, [])
 
@@ -176,109 +188,74 @@ export function FocusAudioProvider({ children }: { children: ReactNode }) {
     setPreference((current) => ({ ...current, volume }))
   }, [setPreference])
 
+  const toggleMute = useCallback(() => {
+    setPreference((current) => ({ ...current, volume: current.volume > 0 ? 0 : preMuteVolume.current }))
+  }, [setPreference])
+
   return (
-    <FocusAudioContext.Provider value={{ preference, playing, play, pause, choose, setVolume }}>
+    <FocusAudioContext.Provider value={{ preference, playing, play, pause, choose, setVolume, toggleMute }}>
       {children}
     </FocusAudioContext.Provider>
   )
 }
 
-export function FocusAudioPlayer() {
+/**
+ * The player state, for anything that needs to know sound is running — the
+ * Tools button in the top bar shows a dot while it is.
+ */
+export function useFocusAudio(): FocusAudioContextValue {
   const audio = useContext(FocusAudioContext)
-  if (!audio) throw new Error('FocusAudioPlayer must be rendered inside FocusAudioProvider')
-  const { preference, playing, play, pause, choose, setVolume } = audio
-  const [open, setOpen] = useState(false)
-  const root = useRef<HTMLDivElement>(null)
+  if (!audio) throw new Error('useFocusAudio must be called inside FocusAudioProvider')
+  return audio
+}
+
+/** The sound picker, with no chrome of its own — the host frames it. */
+export function FocusAudioPanel() {
+  const t = useT()
+  const { preference, playing, play, pause, choose, setVolume, toggleMute } = useFocusAudio()
   const selected = SOUNDS.find((sound) => sound.id === preference.sound) ?? SOUNDS[0]
   const muted = preference.volume <= 0
-  // Remembers the level from before a mute so unmuting restores it, instead
-  // of guessing a volume — a plain on/off mute needs somewhere to keep it.
-  const preMuteVolume = useRef(preference.volume > 0 ? preference.volume : 0.32)
   const volumeIcon = muted ? VolumeX : preference.volume < 0.35 ? Volume1 : Volume2
 
-  useEffect(() => {
-    if (preference.volume > 0) preMuteVolume.current = preference.volume
-  }, [preference.volume])
-
-  function toggleMute() {
-    setVolume(muted ? preMuteVolume.current : 0)
-  }
-
-  useEffect(() => {
-    function close(event: MouseEvent) {
-      if (!root.current?.contains(event.target as Node)) setOpen(false)
-    }
-    function key(event: KeyboardEvent) {
-      if (event.key === 'Escape') setOpen(false)
-    }
-    document.addEventListener('mousedown', close)
-    document.addEventListener('keydown', key)
-    return () => { document.removeEventListener('mousedown', close); document.removeEventListener('keydown', key) }
-  }, [])
-
   return (
-    <div ref={root} className="relative">
-      <button
-        type="button"
-        onClick={() => setOpen((current) => !current)}
-        aria-label="Focus sounds"
-        aria-haspopup="dialog"
-        aria-expanded={open}
-        className={cn(
-          'relative inline-flex size-11 items-center justify-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary lg:size-9',
-          open && 'bg-inset text-ink',
-        )}
-      >
-        <Icon icon={AudioLines} size={17} />
-        {playing && <span className="absolute end-1.5 top-1.5 size-1.5 rounded-full bg-primary ring-2 ring-paper" />}
-      </button>
+    <>
+      <div className="p-1.5">
+        {SOUNDS.map((sound) => (
+          <button
+            key={sound.id}
+            type="button"
+            aria-pressed={sound.id === selected.id}
+            onClick={() => void choose(sound.id)}
+            className={cn('flex min-h-12 w-full items-center gap-3 rounded-lg px-2.5 py-2 text-start transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-primary', sound.id === selected.id ? 'bg-primary-tint' : 'hover:bg-inset')}
+          >
+            <span className={cn('grid size-8 shrink-0 place-items-center rounded-md', sound.id === selected.id ? 'bg-primary text-on-primary' : 'bg-surface-2 text-ink-2')}><Icon icon={sound.icon} size={15} /></span>
+            <span className="min-w-0 flex-1"><span className="block text-[12.5px] font-semibold text-ink">{t(sound.label)}</span><span className="mt-0.5 block truncate text-[10.5px] text-ink-3">{t(sound.description)}</span></span>
+            {sound.id === selected.id && playing && <span className="flex h-4 items-end gap-0.5" aria-label={t('Playing')}><i className="h-2 w-0.5 animate-pulse rounded-full bg-primary motion-reduce:animate-none" /><i className="h-4 w-0.5 animate-pulse rounded-full bg-primary [animation-delay:120ms] motion-reduce:animate-none" /><i className="h-3 w-0.5 animate-pulse rounded-full bg-primary [animation-delay:240ms] motion-reduce:animate-none" /></span>}
+          </button>
+        ))}
+      </div>
 
-      {open && (
-        <div role="dialog" aria-label="Focus sounds" className="animate-pop fixed inset-x-2 top-[calc(3.75rem+env(safe-area-inset-top))] z-50 overflow-hidden rounded-xl border border-line bg-surface shadow-pop sm:absolute sm:inset-x-auto sm:end-0 sm:top-[calc(100%+0.5rem)] sm:w-[min(21rem,calc(100vw-1rem))]">
-          <div className="flex items-center justify-between border-b border-line px-4 py-3">
-            <div><p className="text-[13.5px] font-semibold text-ink">Focus sounds</p><p className="mt-0.5 text-[10.5px] text-ink-3">Generated on your device · no streaming</p></div>
-            <button type="button" className="grid size-9 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close focus sounds" onClick={() => setOpen(false)}><Icon icon={X} size={16} /></button>
-          </div>
-
-          <div className="p-1.5">
-            {SOUNDS.map((sound) => (
-              <button
-                key={sound.id}
-                type="button"
-                aria-pressed={sound.id === selected.id}
-                onClick={() => void choose(sound.id)}
-                className={cn('flex min-h-12 w-full items-center gap-3 rounded-lg px-2.5 py-2 text-start transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-primary', sound.id === selected.id ? 'bg-primary-tint' : 'hover:bg-inset')}
-              >
-                <span className={cn('grid size-8 shrink-0 place-items-center rounded-md', sound.id === selected.id ? 'bg-primary text-on-primary' : 'bg-surface-2 text-ink-2')}><Icon icon={sound.icon} size={15} /></span>
-                <span className="min-w-0 flex-1"><span className="block text-[12.5px] font-semibold text-ink">{sound.label}</span><span className="mt-0.5 block truncate text-[10.5px] text-ink-3">{sound.description}</span></span>
-                {sound.id === selected.id && playing && <span className="flex h-4 items-end gap-0.5" aria-label="Playing"><i className="h-2 w-0.5 animate-pulse rounded-full bg-primary motion-reduce:animate-none" /><i className="h-4 w-0.5 animate-pulse rounded-full bg-primary [animation-delay:120ms] motion-reduce:animate-none" /><i className="h-3 w-0.5 animate-pulse rounded-full bg-primary [animation-delay:240ms] motion-reduce:animate-none" /></span>}
-              </button>
-            ))}
-          </div>
-
-          <div className="border-t border-line bg-surface-2/40 p-3">
-            <div className="flex items-center gap-3">
-              <button
-                type="button"
-                onClick={toggleMute}
-                aria-label={muted ? 'Unmute' : 'Mute'}
-                aria-pressed={muted}
-                className="grid size-7 shrink-0 place-items-center rounded-md text-ink-3 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-primary"
-              >
-                <Icon icon={volumeIcon} size={15} />
-              </button>
-              <label className="flex min-w-0 flex-1 items-center gap-3">
-                <span className="sr-only">Volume</span>
-                <input type="range" min="0" max="0.75" step="0.01" value={preference.volume} onChange={(event) => setVolume(Number(event.target.value))} className="h-6 min-w-0 flex-1 accent-primary" />
-                <span className="tnum w-8 text-end font-mono text-[10.5px] text-ink-3">{Math.round(preference.volume * 100)}%</span>
-              </label>
-            </div>
-            <button type="button" onClick={() => void (playing ? pause() : play())} className="mt-2 inline-flex h-10 w-full items-center justify-center gap-2 rounded-lg border border-primary-strong/25 bg-primary text-[13px] font-semibold text-on-primary shadow-action transition-[background-color,transform] hover:bg-primary-hover active:scale-[0.96] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">
-              <Icon icon={playing ? Pause : Play} size={15} /> {playing ? 'Pause' : `Play ${selected.label}`}
-            </button>
-          </div>
+      <div className="border-t border-line bg-surface-2/40 p-3">
+        <div className="flex items-center gap-3">
+          <button
+            type="button"
+            onClick={toggleMute}
+            aria-label={muted ? t('Unmute') : t('Mute')}
+            aria-pressed={muted}
+            className="grid size-11 shrink-0 place-items-center rounded-md text-ink-3 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-primary sm:size-7"
+          >
+            <Icon icon={volumeIcon} size={15} />
+          </button>
+          <label className="flex min-w-0 flex-1 items-center gap-3">
+            <span className="sr-only">{t('Volume')}</span>
+            <input type="range" min="0" max="0.75" step="0.01" value={preference.volume} onChange={(event) => setVolume(Number(event.target.value))} className="h-6 min-w-0 flex-1 accent-primary" />
+            <span className="tnum w-8 text-end font-mono text-[10.5px] text-ink-3">{Math.round(preference.volume * 100)}%</span>
+          </label>
         </div>
-      )}
-    </div>
+        <button type="button" onClick={() => void (playing ? pause() : play())} className="mt-2 inline-flex h-11 w-full items-center justify-center gap-2 rounded-lg border border-primary-strong/25 bg-primary text-[13px] font-semibold text-on-primary shadow-action transition-[background-color,transform] hover:bg-primary-hover active:scale-[0.96] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:h-10">
+          <Icon icon={playing ? Pause : Play} size={15} /> {playing ? t('Pause') : `${t('Play')} ${t(selected.label)}`}
+        </button>
+      </div>
+    </>
   )
 }

@@ -18,7 +18,6 @@ export const LEAF: McqLeafSeed = {
       objective: 'State that an SBA question is authored through the MCQ bank/leaf route rather than the written-paper route.',
       pitfall: 'Treating this as a real Ain Shams concept — it is fixture-only.',
       subject: 'fnd',
-      system: 'FND',
       primary: 'SYS-FND-T01',
       secondary: [],
       modulePath: 'ASU-FIXTURE > Foundations > Fixture Topic',

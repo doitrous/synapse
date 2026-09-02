@@ -28,7 +28,7 @@ export function FlashcardsGuide({ onClose }: { onClose: () => void }) {
         icon={GraduationCap}
         action={<IconButton icon={X} label={t('Close')} size="sm" onClick={onClose} />}
       />
-      <div className="max-h-[75vh] space-y-7 overflow-y-auto p-5 sm:p-6">
+      <div className="max-h-[75dvh] space-y-7 overflow-y-auto p-5 sm:p-6">
         <p className="text-[13.5px] leading-relaxed text-ink-2">
           {t('Flashcards use spaced repetition: each card comes back right before you would forget it, so a few minutes a day is enough to hold a whole subject in memory. Here is how to get the best out of it.')}
         </p>

@@ -26,6 +26,7 @@ import { NEED_LABEL, ALLOCATION_NEEDS } from '@/data/adaptive/config'
 import { PREDICTION_CAVEAT, WRONG_ATTEMPTS_VS_WEAK_CONCEPTS } from '@/data/adaptive/explain'
 import { readinessSentence, type ReadinessResult } from '@/data/adaptive/readiness'
 import { rawWrongTotal, statusCounts, type AdaptiveStudy } from '@/lib/adaptive/useAdaptiveStudy'
+import { useT } from '@/lib/i18n'
 
 /**
  * What the student should do next, and why.
@@ -35,15 +36,15 @@ import { rawWrongTotal, statusCounts, type AdaptiveStudy } from '@/lib/adaptive/
  * that offers five equally-weighted options has not actually decided anything,
  * which is the work it exists to do.
  */
-function nextAction(study: AdaptiveStudy, readiness: ReadinessResult | null) {
+function nextAction(study: AdaptiveStudy, readiness: ReadinessResult | null, t: (en: string) => string) {
   const blueprintConcepts = study.blueprint.nodes.map((node) => node.conceptId)
   const counts = statusCounts(study.states, blueprintConcepts)
   const due = [...study.states.values()].filter((state) => state.status === 'review-due').length
 
   if (study.blueprint.empty) {
     return {
-      title: 'Nothing on your blueprint yet',
-      body: 'No concepts are in scope for your university and year, so there is nothing to select from. This is a content gap, not a gap in your work.',
+      title: t('Nothing on your blueprint yet'),
+      body: t('No concepts are in scope for your university and year, so there is nothing to select from. This is a content gap, not a gap in your work.'),
       cta: null,
       icon: AlertTriangle,
     }
@@ -51,8 +52,8 @@ function nextAction(study: AdaptiveStudy, readiness: ReadinessResult | null) {
 
   if (!study.items.length) {
     return {
-      title: 'No approved questions in scope',
-      body: 'Your blueprint exists, but no published questions match your university, year and modules yet.',
+      title: t('No approved questions in scope'),
+      body: t('Your blueprint exists, but no published questions match your university, year and modules yet.'),
       cta: null,
       icon: AlertTriangle,
     }
@@ -62,8 +63,8 @@ function nextAction(study: AdaptiveStudy, readiness: ReadinessResult | null) {
   // student practises something else.
   if (due > 0) {
     return {
-      title: `${due} concept${due === 1 ? '' : 's'} due for review`,
-      body: 'These were secure, and enough time has passed that they are worth checking before they fade.',
+      title: `${due} ${due === 1 ? t('concept due for review') : t('concepts due for review')}`,
+      body: t('These were secure, and enough time has passed that they are worth checking before they fade.'),
       cta: 'practice' as const,
       icon: RotateCcw,
     }
@@ -71,8 +72,8 @@ function nextAction(study: AdaptiveStudy, readiness: ReadinessResult | null) {
 
   if (counts.weak > 0) {
     return {
-      title: `${counts.weak} weak concept${counts.weak === 1 ? '' : 's'} to repair`,
-      body: 'Repeated evidence across different questions points to real gaps here. The next block will oversample them while still covering your blueprint.',
+      title: `${counts.weak} ${counts.weak === 1 ? t('weak concept to repair') : t('weak concepts to repair')}`,
+      body: t('Repeated evidence across different questions points to real gaps here. The next block will oversample them while still covering your blueprint.'),
       cta: 'practice' as const,
       icon: Target,
     }
@@ -80,8 +81,8 @@ function nextAction(study: AdaptiveStudy, readiness: ReadinessResult | null) {
 
   if (!readiness && study.events.length > 40) {
     return {
-      title: 'Time for a readiness assessment',
-      body: 'You have enough practice behind you to measure where you stand. Practice accuracy will not tell you — adaptive blocks deliberately oversample your weak areas.',
+      title: t('Time for a readiness assessment'),
+      body: t('You have enough practice behind you to measure where you stand. Practice accuracy will not tell you — adaptive blocks deliberately oversample your weak areas.'),
       cta: 'readiness' as const,
       icon: ClipboardCheck,
     }
@@ -89,16 +90,16 @@ function nextAction(study: AdaptiveStudy, readiness: ReadinessResult | null) {
 
   if (study.coverage.uncoveredWeight > 0.2) {
     return {
-      title: `${percent(study.coverage.uncoveredWeight)} of your blueprint is unpractised`,
-      body: 'The next block will weight coverage more heavily so the untouched areas start being measured.',
+      title: `${percent(study.coverage.uncoveredWeight)} ${t('of your blueprint is unpractised')}`,
+      body: t('The next block will weight coverage more heavily so the untouched areas start being measured.'),
       cta: 'practice' as const,
       icon: Compass,
     }
   }
 
   return {
-    title: 'Start a block',
-    body: 'Nothing is overdue and no confirmed weakness is outstanding. The next block will balance review with the parts of your blueprint that have the least evidence behind them.',
+    title: t('Start a block'),
+    body: t('Nothing is overdue and no confirmed weakness is outstanding. The next block will balance review with the parts of your blueprint that have the least evidence behind them.'),
     cta: 'practice' as const,
     icon: PlayCircle,
   }
@@ -115,13 +116,14 @@ export function Today({
   onPractice: () => void
   onReadiness: () => void
 }) {
+  const t = useT()
   const blueprintConcepts = useMemo(
     () => study.blueprint.nodes.map((node) => node.conceptId),
     [study.blueprint.nodes],
   )
   const counts = useMemo(() => statusCounts(study.states, blueprintConcepts), [study.states, blueprintConcepts])
   const rawWrong = useMemo(() => rawWrongTotal(study.events), [study.events])
-  const action = nextAction(study, readiness)
+  const action = nextAction(study, readiness, t)
 
   const measured = study.states.size
   const dueCount = [...study.states.values()].filter((state) => state.status === 'review-due').length
@@ -136,19 +138,19 @@ export function Today({
               <Icon icon={action.icon} size={19} />
             </div>
             <div className="min-w-0">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Recommended next</p>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Recommended next')}</p>
               <h2 className="mt-1 font-serif text-[20px] font-semibold tracking-[-0.015em] text-ink">{action.title}</h2>
               <p className="mt-1.5 max-w-xl text-[13.5px] leading-relaxed text-ink-2">{action.body}</p>
             </div>
           </div>
           {action.cta === 'practice' && (
             <Button variant="primary" iconLeft={PlayCircle} onClick={onPractice} className="shrink-0">
-              Build a block
+              {t('Build a block')}
             </Button>
           )}
           {action.cta === 'readiness' && (
             <Button variant="primary" iconLeft={ClipboardCheck} onClick={onReadiness} className="shrink-0">
-              Start assessment
+              {t('Start assessment')}
             </Button>
           )}
         </div>
@@ -157,9 +159,9 @@ export function Today({
           <div className="flex flex-wrap items-center gap-2 border-t border-line bg-surface-2 px-5 py-3">
             <Icon icon={CalendarClock} size={15} className="text-ink-3" />
             <p className="text-[12.5px] text-ink-2">
-              <span className="tnum font-mono font-semibold text-ink">{study.daysToExam}</span> days to{' '}
-              {study.examTitle ?? 'your next exam'}. Selection is weighting blueprint coverage at{' '}
-              <span className="tnum font-mono">{percent(study.shares.coverage)}</span> of each block.
+              <span className="tnum font-mono font-semibold text-ink">{study.daysToExam}</span> {t('days to')}{' '}
+              {study.examTitle ?? t('your next exam')}{t('. Selection is weighting blueprint coverage at')}{' '}
+              <span className="tnum font-mono">{percent(study.shares.coverage)}</span> {t('of each block.')}
             </p>
           </div>
         )}
@@ -167,33 +169,33 @@ export function Today({
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Figure
-          label="Readiness"
+          label={t('Readiness')}
           value={readiness ? rangeText(readiness.lower, readiness.upper) : ''}
           unavailable={!readiness}
-          unavailableNote="Measured separately from practice, on blueprint-balanced questions held back from your blocks."
-          sub={readiness ? `From ${readiness.answered} held-out questions` : undefined}
+          unavailableNote={t('Measured separately from practice, on blueprint-balanced questions held back from your blocks.')}
+          sub={readiness ? t('From {n} held-out questions').replace('{n}', String(readiness.answered)) : undefined}
           icon={ClipboardCheck}
         />
         <Figure
-          label="Blueprint covered"
+          label={t('Blueprint covered')}
           value={percent(study.coverage.coveredWeight)}
           unavailable={study.blueprint.empty}
-          unavailableNote="No concepts are in scope for your university and year yet."
-          sub={`${study.coverage.uncoveredConcepts.length} ${study.coverage.uncoveredConcepts.length === 1 ? 'concept' : 'concepts'} untouched`}
+          unavailableNote={t('No concepts are in scope for your university and year yet.')}
+          sub={`${study.coverage.uncoveredConcepts.length} ${study.coverage.uncoveredConcepts.length === 1 ? t('concept untouched') : t('concepts untouched')}`}
           icon={Layers}
         />
         <Figure
-          label="Weak concepts"
+          label={t('Weak concepts')}
           value={String(counts.weak)}
           // Both numbers, always. A student shown only the smaller one concludes
           // the app has lost their mistakes.
-          sub={`${rawWrong} wrong ${rawWrong === 1 ? 'answer' : 'answers'} recorded`}
+          sub={`${rawWrong} ${rawWrong === 1 ? t('wrong answer recorded') : t('wrong answers recorded')}`}
           icon={Target}
         />
         <Figure
-          label="Due for review"
+          label={t('Due for review')}
           value={String(dueCount)}
-          sub={`${measured} ${measured === 1 ? 'concept' : 'concepts'} measured`}
+          sub={`${measured} ${measured === 1 ? t('concept measured') : t('concepts measured')}`}
           icon={RotateCcw}
         />
       </div>
@@ -201,16 +203,16 @@ export function Today({
       <div className="grid gap-5 lg:grid-cols-2">
         <Panel>
           <PanelHeader
-            title="Blueprint coverage"
+            title={t('Blueprint coverage')}
             icon={Layers}
-            hint={study.blueprint.stored ? `Blueprint v${study.blueprint.stored.version}` : 'Derived weights'}
+            hint={study.blueprint.stored ? t('Blueprint v{version}').replace('{version}', String(study.blueprint.stored.version)) : t('Derived weights')}
           />
           <div className="p-5">
             {study.blueprint.empty ? (
               <EmptyState
                 icon={Layers}
-                title="No blueprint in scope"
-                description="No concepts are scoped to your university and year, so coverage cannot be measured. An administrator sets this up."
+                title={t('No blueprint in scope')}
+                description={t('No concepts are scoped to your university and year, so coverage cannot be measured. An administrator sets this up.')}
               />
             ) : (
               <div className="space-y-3">
@@ -220,15 +222,15 @@ export function Today({
                     label={group.groupLabel}
                     value={group.coveredWeight}
                     max={group.weight}
-                    right={`${percent(group.weight > 0 ? group.coveredWeight / group.weight : 0)} of ${percent(group.weight)}`}
+                    right={`${percent(group.weight > 0 ? group.coveredWeight / group.weight : 0)} ${t('of')} ${percent(group.weight)}`}
                     tone={group.coveredWeight / Math.max(group.weight, 1e-9) < 0.34 ? 'danger' : group.coveredWeight / Math.max(group.weight, 1e-9) < 0.67 ? 'warning' : 'success'}
                   />
                 ))}
                 {study.debt.slots >= 1 && (
                   <Caveat className="mt-4">
-                    Recent blocks under-served blueprint coverage by about{' '}
-                    <span className="tnum font-mono">{Math.round(study.debt.slots)}</span> questions. That shortfall is
-                    being repaid across the next few blocks rather than all at once.
+                    {t('Recent blocks under-served blueprint coverage by about')}{' '}
+                    <span className="tnum font-mono">{Math.round(study.debt.slots)}</span>{' '}
+                    {t('questions. That shortfall is being repaid across the next few blocks rather than all at once.')}
                   </Caveat>
                 )}
               </div>
@@ -237,12 +239,12 @@ export function Today({
         </Panel>
 
         <Panel>
-          <PanelHeader title="What your next block will contain" icon={Target} hint="Allocation targets" />
+          <PanelHeader title={t('What your next block will contain')} icon={Target} hint={t('Allocation targets')} />
           <div className="space-y-3 p-5">
             {ALLOCATION_NEEDS.map((need) => (
               <ProgressBlock
                 key={need}
-                label={NEED_LABEL[need]}
+                label={t(NEED_LABEL[need])}
                 value={study.shares[need]}
                 max={1}
                 right={percent(study.shares[need])}
@@ -250,17 +252,16 @@ export function Today({
               />
             ))}
             <Caveat className="mt-4">
-              These are allocation targets, not separate pools. One question often satisfies several of them at once
-              and takes a single slot.
+              {t('These are allocation targets, not separate pools. One question often satisfies several of them at once and takes a single slot.')}
             </Caveat>
           </div>
         </Panel>
       </div>
 
       <Panel>
-        <PanelHeader title="How your readiness is measured" icon={ClipboardCheck} />
+        <PanelHeader title={t('How your readiness is measured')} icon={ClipboardCheck} />
         <div className="space-y-4 p-5">
-          <p className="text-[13.5px] leading-relaxed text-ink-2">{readinessSentence(readiness)}</p>
+          <p className="text-[13.5px] leading-relaxed text-ink-2">{readinessSentence(readiness, t)}</p>
           {readiness && (
             <>
               <RangeBar lower={readiness.lower} upper={readiness.upper} />
@@ -273,13 +274,13 @@ export function Today({
               </div>
             </>
           )}
-          <Caveat>{PREDICTION_CAVEAT}</Caveat>
+          <Caveat>{t(PREDICTION_CAVEAT)}</Caveat>
         </div>
       </Panel>
 
       <Panel>
-        <PanelHeader title={WRONG_ATTEMPTS_VS_WEAK_CONCEPTS.heading} icon={AlertTriangle} />
-        <p className="p-5 text-[13.5px] leading-relaxed text-ink-2">{WRONG_ATTEMPTS_VS_WEAK_CONCEPTS.body}</p>
+        <PanelHeader title={t(WRONG_ATTEMPTS_VS_WEAK_CONCEPTS.heading)} icon={AlertTriangle} />
+        <p className="p-5 text-[13.5px] leading-relaxed text-ink-2">{t(WRONG_ATTEMPTS_VS_WEAK_CONCEPTS.body)}</p>
       </Panel>
     </div>
   )

@@ -54,7 +54,7 @@ export function CardBreakdown({ counts, className }: { counts: ExclusiveCounts; 
             <tr>
               <th scope="col">{t('Category')}</th>
               <th scope="col">{t('Count')}</th>
-              <th scope="col">{t('Share')}</th>
+              <th scope="col">{t('Share of total')}</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-line">

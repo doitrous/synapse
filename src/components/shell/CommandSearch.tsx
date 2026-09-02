@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { LucideIcon } from 'lucide-react'
-import { Search, CornerDownLeft } from 'lucide-react'
-import { studentNav, adminNavFor } from './nav'
+import { Search, CornerDownLeft, FileText } from 'lucide-react'
+import { ROUTE_TITLES, studentNav, adminNavFor } from './nav'
 import { useIdentity } from '@/lib/useIdentity'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 
 interface Cmd {
   label: string
@@ -17,7 +18,37 @@ interface Cmd {
 
 const STUDENT_COMMANDS: Cmd[] = studentNav.flatMap((g) => g.items.map((i) => ({ ...i, group: 'Student app' })))
 
+/**
+ * Paths that only exist to bounce somewhere else. They carry a `ROUTE_TITLES`
+ * entry so the breadcrumb reads correctly for the instant before the redirect
+ * lands, but offering one in the palette is offering a row that navigates
+ * twice and ends up somewhere the row did not name.
+ */
+const REDIRECT_ONLY = new Set(['/app/study-together', '/app/billing', '/app/question-notes'])
+
+/**
+ * The pages the sidebar stopped listing.
+ *
+ * The palette used to *be* the nav, which was fine while the nav was every
+ * route. It is nine items now, and a student typing "flashcards" has to reach
+ * flashcards — otherwise shrinking the sidebar quietly removed twenty routes
+ * from search.
+ *
+ * A label is offered once. The nav wins any tie — "Study Rooms" is a
+ * destination, not a page you find by searching for the old name — and among
+ * the remaining routes the first one declared is the canonical path, which is
+ * how the `/app/terminology` alias keeps `/app/taxonomy` out of the list.
+ */
+const NAV_LABELS = new Set(STUDENT_COMMANDS.map((command) => command.label))
+
+const STUDENT_PAGE_COMMANDS: Cmd[] = Object.entries(ROUTE_TITLES)
+  .filter(([to]) => !REDIRECT_ONLY.has(to))
+  .filter(([, label], index, all) =>
+    !NAV_LABELS.has(label) && all.findIndex(([, other]) => other === label) === index)
+  .map(([to, label]) => ({ label, to, icon: FileText, group: 'Student pages' }))
+
 export function CommandSearch({ open, onClose }: { open: boolean; onClose: () => void }) {
+  const t = useT()
   const navigate = useNavigate()
   // The palette used to be a module constant listing every console surface,
   // which would offer a reviewer the payments page and take them to a redirect.
@@ -25,6 +56,7 @@ export function CommandSearch({ open, onClose }: { open: boolean; onClose: () =>
   const { tabs } = useIdentity()
   const commands = useMemo<Cmd[]>(() => [
     ...STUDENT_COMMANDS,
+    ...STUDENT_PAGE_COMMANDS,
     ...adminNavFor(tabs).flatMap((g) => g.items.map((i) => ({ ...i, group: 'Admin console' }))),
   ], [tabs])
   const [query, setQuery] = useState('')
@@ -95,8 +127,8 @@ export function CommandSearch({ open, onClose }: { open: boolean; onClose: () =>
   }
 
   return (
-    <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label="Search Nishany">
-      <button type="button" aria-label="Close search" className="absolute inset-0 size-full cursor-default bg-ink/25 animate-fade" onClick={onClose} />
+    <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label={t('Search Nishany')}>
+      <button type="button" aria-label={t('Close search')} className="absolute inset-0 size-full cursor-default bg-ink/25 animate-fade" onClick={onClose} />
       <div className="absolute left-1/2 top-[calc(env(safe-area-inset-top)+0.75rem)] w-[min(94vw,560px)] -translate-x-1/2 sm:top-[12vh] sm:w-[min(92vw,560px)]">
         <div
           ref={panelRef}
@@ -107,13 +139,13 @@ export function CommandSearch({ open, onClose }: { open: boolean; onClose: () =>
             <Icon icon={Search} size={17} className="text-ink-3" />
             <input
               ref={inputRef}
-              aria-label="Search Nishany"
+              aria-label={t('Search Nishany')}
               name="command-search"
               autoComplete="off"
               spellCheck={false}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search topics, questions, resources, admin…"
+              placeholder={t('Search topics, questions, resources, admin…')}
               className="h-12 w-full bg-transparent text-[14px] text-ink outline-none placeholder:text-ink-3"
             />
             <Kbd>Esc</Kbd>
@@ -139,7 +171,7 @@ export function CommandSearch({ open, onClose }: { open: boolean; onClose: () =>
                       onClick={() => go(cmd.to)}
                       onMouseMove={() => setActive(i)}
                       className={cn(
-                        'flex w-full items-center gap-2.5 rounded-md px-2 py-2 text-start text-[13.5px] transition-colors',
+                        'flex min-h-11 w-full items-center gap-2.5 rounded-md px-2 py-2 text-start text-[13.5px] transition-colors sm:min-h-0',
                         i === active ? 'bg-primary-tint text-primary-strong' : 'text-ink hover:bg-inset',
                       )}
                     >

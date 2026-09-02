@@ -157,7 +157,7 @@ export function StackBar({
           </li>
         ))}
       </ul>
-      <DataTable caption={caption} columns={[t('Segment'), t('Count'), t('Share')]} rows={segments.map((s) => [s.label, s.value, `${Math.round((s.value / total) * 100)}%`])} />
+      <DataTable caption={caption} columns={[t('Segment'), t('Count'), t('Share of total')]} rows={segments.map((s) => [s.label, s.value, `${Math.round((s.value / total) * 100)}%`])} />
     </figure>
   )
 }

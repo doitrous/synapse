@@ -11,7 +11,11 @@
  */
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
+import { notifyRoomPresence } from './roomsRealtime.js'
 import { canJoin, visibleTo, sessionState, tally } from './partyRules.js'
+import {
+  activityAfter, firstFreeSeatIndex, normalizeActivity, normalizeSeatInput, seatFromRow, seatIndexTaken,
+} from './roomSeats.js'
 import { publishedQuestions } from './publishedQuestions.js'
 import { withContentCatalogueGate } from './contentCatalogueGate.js'
 import { MEDIA_STATE_KEY } from './mediaLibrary.js'
@@ -46,6 +50,119 @@ async function displayNamesFor(userIds) {
   const names = new Map()
   for (const row of rows) names.set(row.user_id, row.name ? String(row.name).split('@')[0] : 'Student')
   return names
+}
+
+/**
+ * Every member row of one party, seat columns included, in join order.
+ *
+ * One query in one place: the party read, the seat write and the realtime
+ * presence broadcast all show the same room, and a column added to the seat
+ * has one line to change rather than three that can drift apart.
+ */
+async function memberRows(partyId) {
+  const [rows] = await pool.query(
+    `SELECT user_id AS userId, role, joined_at AS joinedAt,
+            seat_desk AS seatDesk, seat_device AS seatDevice, seat_chair AS seatChair,
+            seat_index AS seatIndex, activity,
+            -- Measured by the database against its own clock, so a DATETIME
+            -- column, the driver and this process cannot disagree about what
+            -- timezone the heartbeat was in. See activityAfter in roomSeats.js.
+            TIMESTAMPDIFF(SECOND, last_active_at, NOW()) AS activeAgoSeconds
+       FROM study_party_members
+      WHERE party_id = ?
+      ORDER BY joined_at`,
+    [partyId],
+  )
+  return rows
+}
+
+/**
+ * One member as the room may see them.
+ *
+ * `activity` is what the row *means* now rather than what it last claimed —
+ * `activityAfter` expires a stale heartbeat against the database's own clock —
+ * while `lastActiveAt` is rebuilt as a UTC instant, so the browser can make the
+ * same judgement on its own clock rather than trusting ours.
+ */
+function memberView(row, names) {
+  const age = row.activeAgoSeconds
+  return {
+    userId: row.userId,
+    displayName: names.get(row.userId) ?? 'Student',
+    role: row.role,
+    joinedAt: row.joinedAt,
+    seat: seatFromRow(row),
+    // Rebuilt from the age rather than passed through from the column, so what
+    // the browser receives is an unambiguous UTC instant it can compare against
+    // its own clock — which is exactly what the hall does with it.
+    lastActiveAt: age === null || age === undefined
+      ? null
+      : new Date(Date.now() - Number(age) * 1000).toISOString(),
+    activity: activityAfter(row.activity, age),
+  }
+}
+
+/**
+ * The members of a party, for a caller who is one of them.
+ *
+ * Exported for `roomsRealtime.js`: a presence broadcast is the same list the
+ * party read returns, and building it twice is how two views of one room start
+ * disagreeing about who is in it. A non-member gets null, exactly as
+ * `partyFor` does — the socket refuses on that, and so does every route.
+ */
+export async function partyMembers(partyId, userId) {
+  const rows = await memberRows(partyId)
+  if (!rows.some((row) => row.userId === userId)) return null
+  const names = await displayNamesFor(rows.map((row) => row.userId))
+  return rows.map((row) => memberView(row, names))
+}
+
+/**
+ * The whole room, read on the server's own authority.
+ *
+ * No caller, and therefore no caller's identity: this is what the realtime hub
+ * uses to decide *who may still be here*, and reading it as one of the sockets
+ * would make the answer depend on which socket happened to be first in a Set —
+ * and a socket whose owner has since left the party returns null, which used to
+ * silence presence for the entire room.
+ *
+ * `archivedAt` comes back with the members because a socket has to be closed
+ * when the room is archived, and the party record is the only place that says
+ * so. Returns null for a party that does not exist.
+ */
+export async function roomSnapshot(partyId) {
+  const [parties] = await pool.query(
+    'SELECT id, code, name, archived_at AS archivedAt FROM study_parties WHERE id = ? LIMIT 1',
+    [partyId],
+  )
+  if (!parties.length) return null
+  const rows = await memberRows(partyId)
+  const names = await displayNamesFor(rows.map((row) => row.userId))
+  return {
+    id: parties[0].id,
+    code: parties[0].code,
+    name: parties[0].name,
+    archivedAt: parties[0].archivedAt ?? null,
+    members: rows.map((row) => memberView(row, names)),
+  }
+}
+
+/**
+ * The party id behind whatever the caller put in the path.
+ *
+ * A room is addressed by its code in the browser — a code is what a student
+ * reads aloud and types — and by its id in every route that existed before
+ * this one. Both are accepted here so neither has to be translated by the
+ * caller, and neither existing route changes. Returns null for a party nobody
+ * can name, which every caller answers exactly as it answers "not a member".
+ */
+export async function resolvePartyId(ref) {
+  const raw = String(ref ?? '').trim()
+  if (!raw) return null
+  const [byId] = await pool.query('SELECT id FROM study_parties WHERE id = ? LIMIT 1', [raw])
+  if (byId.length) return byId[0].id
+  const [byCode] = await pool.query('SELECT id FROM study_parties WHERE code = ? LIMIT 1', [raw.toUpperCase()])
+  return byCode.length ? byCode[0].id : null
 }
 
 /** Whether this user is standing in this party at all, host or member. */
@@ -192,10 +309,7 @@ export async function partyFor(userId, partyId) {
   if (!parties.length) return null
   const party = parties[0]
 
-  const [members] = await pool.query(
-    'SELECT user_id AS userId, role, joined_at AS joinedAt FROM study_party_members WHERE party_id = ? ORDER BY joined_at',
-    [partyId],
-  )
+  const members = await memberRows(partyId)
   const me = members.find((member) => member.userId === userId) ?? null
   if (!me) return null
 
@@ -212,12 +326,7 @@ export async function partyFor(userId, partyId) {
     visibility: party.visibility,
     createdAt: party.createdAt,
     archivedAt: party.archivedAt,
-    members: members.map((member) => ({
-      userId: member.userId,
-      displayName: names.get(member.userId) ?? 'Student',
-      role: member.role,
-      joinedAt: member.joinedAt,
-    })),
+    members: members.map((member) => memberView(member, names)),
   }
 }
 
@@ -299,6 +408,10 @@ export async function leaveParty(userId, partyId) {
   // later slice's concern) is the host's way out, not this.
   if (rows[0].hostUserId === userId) return { ok: false, reason: 'host_cannot_leave' }
   await pool.query('DELETE FROM study_party_members WHERE party_id = ? AND user_id = ?', [partyId, userId])
+  // The room finds out now, not on its next sweep. Without this a student who
+  // left keeps a socket that is still handed every roster, every seat change
+  // and every producer in a room they are no longer in.
+  notifyRoomPresence(partyId)
   return { ok: true }
 }
 
@@ -529,4 +642,130 @@ export async function closeSession(userId, sessionId) {
     )
   }
   return { ok: true, session: await sessionFor(userId, sessionId) }
+}
+
+/* ── Seats and activity ──────────────────────────────────────────────────── */
+
+/**
+ * Where a member sits, and what their desk looks like.
+ *
+ * Only a member of the party may move, and only within it — a party id from
+ * somebody else's room is answered the same way a party that does not exist
+ * is, so a guessed id cannot be used to learn that a room is real.
+ *
+ * A desk somebody else is already at is refused (409 at the route). The check
+ * is made twice on purpose: once by reading, so the common case has a clear
+ * refusal, and once by the unique index, because between the read and the
+ * write another student can sit down. The index is the one that is actually
+ * true; the read only makes the answer friendlier.
+ *
+ * `seatIndex: null` is a real request, not an omission — it unseats a member
+ * who is still in the room, which is what leaving the hall open in another tab
+ * amounts to.
+ */
+export async function setSeat(userId, partyRef, input) {
+  const partyId = await resolvePartyId(partyRef)
+  if (!partyId) return { ok: false, reason: 'not_found' }
+  if (!(await isPartyMember(partyId, userId))) return { ok: false, reason: 'not_a_member' }
+
+  const parsed = normalizeSeatInput(input)
+  if (!parsed.ok) return parsed
+
+  const seatIndex = parsed.seat.seatIndex
+  const moving = seatIndex !== undefined
+  if (moving) {
+    const members = await memberRows(partyId)
+    if (seatIndexTaken(members.map((row) => ({ userId: row.userId, seatIndex: row.seatIndex })), seatIndex, userId)) {
+      return { ok: false, reason: 'seat_taken' }
+    }
+  }
+
+  // Only the columns the caller actually named. An omitted piece is not a
+  // choice to erase one, so it does not appear in the SET list at all — which
+  // is the difference between "move me to desk 7" and "move me to desk 7 and
+  // throw away my furniture".
+  const sets = []
+  const values = []
+  for (const [column, value] of [
+    ['seat_desk', parsed.seat.desk],
+    ['seat_device', parsed.seat.device],
+    ['seat_chair', parsed.seat.chair],
+    ['seat_index', seatIndex],
+  ]) {
+    if (value === undefined) continue
+    sets.push(`${column} = ?`)
+    values.push(value)
+  }
+  // Nothing named at all is a no-op, not an UPDATE with an empty SET list.
+  if (!sets.length) return { ok: true, partyId, party: await partyFor(userId, partyId) }
+
+  try {
+    await pool.query(
+      `UPDATE study_party_members SET ${sets.join(', ')} WHERE party_id = ? AND user_id = ?`,
+      [...values, partyId, userId],
+    )
+  } catch (error) {
+    // Somebody sat down between the read above and this write.
+    if (error?.code === 'ER_DUP_ENTRY') return { ok: false, reason: 'seat_taken' }
+    throw error
+  }
+
+  return { ok: true, partyId, party: await partyFor(userId, partyId) }
+}
+
+/**
+ * Seat a member who has arrived without a desk.
+ *
+ * Called when somebody opens a room they are already in: they should appear
+ * somewhere rather than nowhere, and the desk they had last time is the one
+ * they keep. Returns the seat index they now hold, or null when the room is
+ * full — twenty desks is the room, and inventing a twenty-first would draw a
+ * person standing in the wall.
+ *
+ * Silent about a race: two students arriving at once may both aim at desk 4,
+ * and the loser is simply retried onto the next free desk rather than shown an
+ * error for something they did not ask for.
+ */
+export async function ensureSeated(userId, partyId) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const members = await memberRows(partyId)
+    const me = members.find((row) => row.userId === userId)
+    if (!me) return null
+    if (Number.isInteger(me.seatIndex)) return me.seatIndex
+
+    const free = firstFreeSeatIndex(
+      members.map((row) => ({ userId: row.userId, seatIndex: row.seatIndex })),
+      userId,
+    )
+    if (free === null) return null
+    try {
+      await pool.query(
+        'UPDATE study_party_members SET seat_index = ? WHERE party_id = ? AND user_id = ? AND seat_index IS NULL',
+        [free, partyId, userId],
+      )
+      return free
+    } catch (error) {
+      if (error?.code !== 'ER_DUP_ENTRY') throw error
+    }
+  }
+  return null
+}
+
+/**
+ * "I am still here, and this is what I am doing."
+ *
+ * Stores the moment as the server's own `NOW()` rather than anything the
+ * client sends: a browser with a wrong clock would otherwise be permanently
+ * idle or permanently studying, and every reader compares these stamps against
+ * each other.
+ */
+export async function recordActivity(userId, partyRef, activity) {
+  const partyId = await resolvePartyId(partyRef)
+  if (!partyId) return { ok: false, reason: 'not_found' }
+  const [result] = await pool.query(
+    'UPDATE study_party_members SET last_active_at = NOW(), activity = ? WHERE party_id = ? AND user_id = ?',
+    [normalizeActivity(activity), partyId, userId],
+  )
+  if (!result.affectedRows) return { ok: false, reason: 'not_a_member' }
+  return { ok: true, partyId, activity: normalizeActivity(activity) }
 }

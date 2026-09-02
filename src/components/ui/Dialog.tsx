@@ -2,6 +2,7 @@ import { useEffect, useId, useRef, type ReactNode } from 'react'
 import { createPortal } from 'react-dom'
 import { Panel } from './Panel'
 import { countOverlays, isTopOverlay, popOverlay, pushOverlay } from '@/lib/overlayStack'
+import { focusFirstWithin, wrapTab } from '@/lib/focusTrap'
 import { cn } from '@/lib/cn'
 
 /**
@@ -20,9 +21,6 @@ const SIZES = {
   lg: 'sm:max-w-2xl',
   xl: 'sm:max-w-4xl',
 }
-
-const FOCUSABLE =
-  'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])'
 
 export function Dialog({
   onClose,
@@ -49,9 +47,7 @@ export function Dialog({
 
     // Focus the first thing worth acting on, falling back to the panel so a
     // keyboard user is inside the dialog rather than still behind it.
-    const panel = panelRef.current
-    const first = panel?.querySelector<HTMLElement>(FOCUSABLE)
-    ;(first ?? panel)?.focus()
+    focusFirstWithin(panelRef.current)
 
     const onKey = (event: KeyboardEvent) => {
       // A popover opened inside this dialog is above it, and Escape belongs to
@@ -63,20 +59,7 @@ export function Dialog({
         onClose()
         return
       }
-      if (event.key !== 'Tab' || !panelRef.current) return
-      // Re-query on every Tab: a dialog's content changes as it is filled in.
-      const items = [...panelRef.current.querySelectorAll<HTMLElement>(FOCUSABLE)]
-        .filter((node) => node.offsetParent !== null || node === document.activeElement)
-      if (!items.length) return
-      const head = items[0]
-      const tail = items[items.length - 1]
-      if (event.shiftKey && document.activeElement === head) {
-        event.preventDefault()
-        tail.focus()
-      } else if (!event.shiftKey && document.activeElement === tail) {
-        event.preventDefault()
-        head.focus()
-      }
+      wrapTab(event, panelRef.current)
     }
 
     document.addEventListener('keydown', onKey, true)

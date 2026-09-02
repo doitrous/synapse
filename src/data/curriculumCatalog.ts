@@ -42,6 +42,8 @@ export interface CurriculumTopic {
 export interface CurriculumSystem {
   id: string
   name: string
+  /** The system's Arabic name, shown wherever the interface is in Arabic. */
+  ar?: string
   short: string
   color: string
   sysId: string
@@ -59,6 +61,7 @@ interface TopicSeed {
 interface SystemSeed {
   id: string
   name: string
+  ar: string
   short: string
   color: string
   topics: TopicSeed[]
@@ -81,7 +84,7 @@ const sub = (title: string, microtopics: Array<string | { title: string; nanotop
 
 const SYSTEM_SEEDS: SystemSeed[] = [
   {
-    id: 'cvs', name: 'Cardiovascular', short: 'CVS', color: '#b52230',
+    id: 'cvs', name: 'Cardiovascular', ar: 'القلب والأوعية الدموية', short: 'CVS', color: '#b52230',
     crossRefs: ['pharm-cardiovascular-pharmacology'],
     topics: [
       topic('Cardiac anatomy', [
@@ -135,7 +138,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'resp', name: 'Respiratory', short: 'RESP', color: '#1f6f8b',
+    id: 'resp', name: 'Respiratory', ar: 'الجهاز التنفسي', short: 'RESP', color: '#1f6f8b',
     crossRefs: ['pharm-respiratory-and-allergy-pharmacology'],
     topics: [
       topic('Respiratory anatomy', ['Upper airway', 'Larynx and trachea', 'Bronchial tree', 'Lungs and lobes', 'Pleura and thoracic cavity', 'Respiratory muscles', 'Pulmonary circulation']),
@@ -150,7 +153,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'renal', name: 'Renal & Urinary', short: 'RENAL', color: '#5a5b9a',
+    id: 'renal', name: 'Renal & Urinary', ar: 'الكلى والمسالك البولية', short: 'RENAL', color: '#5a5b9a',
     crossRefs: ['pharm-renal-and-endocrine-pharmacology', 'pharm-safe-prescribing-and-calculations'],
     topics: [
       topic('Renal and urinary anatomy', ['Kidneys and coverings', 'Renal blood supply', 'Ureters', 'Urinary bladder', 'Urethra', 'Pelvic relations']),
@@ -166,7 +169,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'gi', name: 'Gastrointestinal', short: 'GI', color: '#9a6a1f',
+    id: 'gi', name: 'Gastrointestinal', ar: 'الجهاز الهضمي', short: 'GI', color: '#9a6a1f',
     crossRefs: ['pharm-gastrointestinal-pharmacology'],
     topics: [
       topic('Gastrointestinal anatomy', ['Oral cavity and pharynx', 'Oesophagus', 'Stomach', 'Small intestine', 'Large intestine', 'Peritoneum and mesenteries', 'Abdominal blood supply and portal system']),
@@ -181,7 +184,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'neuro', name: 'Neurology', short: 'NEURO', color: '#2f6bc7',
+    id: 'neuro', name: 'Neurology', ar: 'الجهاز العصبي', short: 'NEURO', color: '#2f6bc7',
     crossRefs: ['pharm-neuropsychopharmacology'],
     topics: [
       topic('Neuroanatomy', ['Cerebral hemispheres and lobes', 'Basal ganglia', 'Thalamus and hypothalamus', 'Brainstem', 'Cerebellum', 'Spinal cord', 'Meninges and cerebrospinal fluid', 'Cerebral blood supply', 'Cranial nerves', 'Peripheral nerves']),
@@ -197,7 +200,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'endo', name: 'Endocrine', short: 'ENDO', color: '#8d4a72',
+    id: 'endo', name: 'Endocrine', ar: 'الغدد الصماء', short: 'ENDO', color: '#8d4a72',
     crossRefs: ['pharm-renal-and-endocrine-pharmacology'],
     topics: [
       topic('Endocrine anatomy and histology', ['Hypothalamus and pituitary', 'Thyroid and parathyroids', 'Adrenal glands', 'Endocrine pancreas', 'Gonads', 'Diffuse endocrine system']),
@@ -213,7 +216,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'msk', name: 'Musculoskeletal', short: 'MSK', color: '#6d7688',
+    id: 'msk', name: 'Musculoskeletal', ar: 'الجهاز العضلي الهيكلي', short: 'MSK', color: '#6d7688',
     crossRefs: ['pharm-inflammation-immunity-and-cancer-pharmacology', 'pharm-neuropsychopharmacology'],
     topics: [
       topic('Musculoskeletal foundations', ['Anatomical terminology and movement', 'Bones and joints', 'Skeletal muscle architecture', 'Fascia and compartments', 'Peripheral nerves and vessels']),
@@ -229,7 +232,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'pharm', name: 'Pharmacology', short: 'PHARM', color: '#c14a2e',
+    id: 'pharm', name: 'Pharmacology', ar: 'علم الأدوية', short: 'PHARM', color: '#c14a2e',
     topics: [
       topic('Pharmacokinetics', ['Routes of administration', 'Absorption and bioavailability', 'Distribution and protein binding', 'Metabolism', 'Elimination and clearance', 'Half-life and steady state', 'Compartment models']),
       topic('Pharmacodynamics', ['Drug targets and receptors', 'Dose–response relationships', 'Agonism and antagonism', 'Potency and efficacy', 'Therapeutic index', 'Tolerance and dependence']),
@@ -248,7 +251,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'fnd', name: 'Foundations', short: 'FND', color: '#5145a8',
+    id: 'fnd', name: 'Foundations', ar: 'الأساسيات', short: 'FND', color: '#5145a8',
     topics: [
       topic('Cell & molecular biology', [
         sub('Cell structure and organelles', ['Membranes', 'Cytoskeleton', 'Nucleus', 'Mitochondria']),
@@ -280,7 +283,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'dev', name: 'Human development', short: 'DEV', color: '#7f6a33',
+    id: 'dev', name: 'Human development', ar: 'النمو البشري', short: 'DEV', color: '#7f6a33',
     topics: [
       topic('Growth and development', [
         sub('Infancy and early childhood', ['Growth', 'Milestones', 'Nutrition', 'Screening']),
@@ -302,7 +305,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'haem', name: 'Blood and lymphoreticular', short: 'HAEM', color: '#9c2848',
+    id: 'haem', name: 'Blood and lymphoreticular', ar: 'الدم والجهاز اللمفاوي', short: 'HAEM', color: '#9c2848',
     topics: [
       topic('Haematopoiesis and blood science', [
         sub('Blood cell development', ['Erythropoiesis', 'Leukopoiesis', 'Platelets']),
@@ -332,7 +335,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'imm', name: 'Immune system', short: 'IMM', color: '#1f8a5a',
+    id: 'imm', name: 'Immune system', ar: 'الجهاز المناعي', short: 'IMM', color: '#1f8a5a',
     topics: [
       topic('Normal immune function', [
         sub('Innate immunity', ['Barriers', 'Complement', 'Phagocytes', 'Inflammation']),
@@ -357,7 +360,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'inf', name: 'Infection and tropical medicine', short: 'INF', color: '#6b8c1f',
+    id: 'inf', name: 'Infection and tropical medicine', ar: 'العدوى وطب المناطق الحارة', short: 'INF', color: '#6b8c1f',
     topics: [
       topic('Bacterial disease', [
         sub('Gram-positive infection', ['Staphylococci', 'Streptococci', 'Clostridia']),
@@ -393,7 +396,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'obs', name: 'Pregnancy and childbirth', short: 'OBS', color: '#b0417e',
+    id: 'obs', name: 'Pregnancy and childbirth', ar: 'الحمل والولادة', short: 'OBS', color: '#b0417e',
     topics: [
       topic('Normal pregnancy', [
         sub('Antenatal physiology and care', ['Maternal adaptation', 'Dating', 'Screening', 'Nutrition']),
@@ -422,7 +425,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'gyn', name: 'Female reproductive', short: 'GYN', color: '#7b3f9e',
+    id: 'gyn', name: 'Female reproductive', ar: 'الجهاز التناسلي الأنثوي', short: 'GYN', color: '#7b3f9e',
     topics: [
       topic('Structure and reproductive physiology', [
         sub('Pelvic and breast anatomy', ['Pelvic organs', 'Support', 'Breast']),
@@ -455,7 +458,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'androl', name: 'Male reproductive', short: 'AND', color: '#3a6d9e',
+    id: 'androl', name: 'Male reproductive', ar: 'الجهاز التناسلي الذكري', short: 'AND', color: '#3a6d9e',
     topics: [
       topic('Andrological structure and reproductive physiology', [
         sub('Male genital anatomy', ['Testis', 'Epididymis', 'Prostate', 'Penis']),
@@ -484,7 +487,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'psy', name: 'Behavioural health', short: 'PSY', color: '#6a6a4a',
+    id: 'psy', name: 'Behavioural health', ar: 'الصحة السلوكية', short: 'PSY', color: '#6a6a4a',
     topics: [
       topic('Psychiatric assessment', [
         sub('Mental-state examination', ['Appearance', 'Speech', 'Mood', 'Thought', 'Perception', 'Cognition']),
@@ -513,7 +516,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'derm', name: 'Skin', short: 'DERM', color: '#a85f3a',
+    id: 'derm', name: 'Skin', ar: 'الجلد', short: 'DERM', color: '#a85f3a',
     topics: [
       topic('Dermatologic assessment', [
         sub('Lesion morphology', ['Primary lesions', 'Secondary changes', 'Distribution']),
@@ -542,7 +545,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'mul', name: 'Multisystem and emergencies', short: 'MUL', color: '#8a2f22',
+    id: 'mul', name: 'Multisystem and emergencies', ar: 'الأجهزة المتعددة والطوارئ', short: 'MUL', color: '#8a2f22',
     topics: [
       topic('Acute deterioration', [
         sub('ABCDE assessment', ['Airway', 'Breathing', 'Circulation', 'Disability', 'Exposure']),
@@ -576,7 +579,7 @@ const SYSTEM_SEEDS: SystemSeed[] = [
     ],
   },
   {
-    id: 'pop', name: 'Population health', short: 'POP', color: '#14707d',
+    id: 'pop', name: 'Population health', ar: 'صحة السكان', short: 'POP', color: '#14707d',
     topics: [
       topic('Epidemiology', [
         sub('Disease frequency and association', ['Incidence', 'Prevalence', 'Risk', 'Odds']),
@@ -644,7 +647,7 @@ function buildSystem(seed: SystemSeed): CurriculumSystem {
 /** Immutable seed; callers must clone before editing. */
 export const CURRICULUM_CATALOG: CurriculumSystem[] = SYSTEM_SEEDS.map(buildSystem)
 
-export const CURRICULUM_SUBJECTS = CURRICULUM_CATALOG.map(({ id, name, short, color }) => ({ id, name, short, color }))
+export const CURRICULUM_SUBJECTS = CURRICULUM_CATALOG.map(({ id, name, ar, short, color }) => ({ id, name, ar, short, color }))
 
 export function freshCurriculumCatalog(): CurriculumSystem[] {
   return structuredClone(CURRICULUM_CATALOG)
