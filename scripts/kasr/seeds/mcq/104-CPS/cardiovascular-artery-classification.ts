@@ -581,6 +581,22 @@ export const LEAF: McqLeafSeed = {
       excludeReason: "Tests a coronary-artery-specific claim (longitudinal smooth muscle within the tunica intima) not stated by any of this leaf's own sourced concepts, which cover the general three-tunic plan and the general artery classification but not this named vessel's own intimal cushions. This session had no PDF or cached page-text access to the department histology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source rather than asserted from outside knowledge, per the rule that a fact absent from the cached page text is left unauthored rather than filled in.",
     },
     {
+      // kasr-104-author-run45: Arteries cluster, excluded. Only 3 options
+      // survived extraction (A, B, C — no D), below the platform's 4-to-5-
+      // option import contract. Recovered via a low-confidence fuzzy-OCR
+      // cross-book match, and the same fact this row would test (capillary
+      // share of total blood volume) is a physiology-book claim this
+      // session has no PDF or cached page-text access to verify.
+      key: "under-normal-conditions-the-capillaries-95f54ee9",
+      conceptKey: "arterioles.resistance-function-and-regulation",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 lettered options survived extraction (A, B, C — no D), below the platform's 4-to-5-option import contract. The row's own recovery method (fuzzy-OCR-optionset against a different exam book, meanOptionRatio 0.939) is this bank's lower-confidence recovery tier, and the underlying claim (capillaries hold about 15% of total blood volume) is not stated by any of this leaf's own sourced concepts. This session had no PDF or cached page-text access to the department physiology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source.",
+    },
+    {
       // Leaf-tag mismatch: tagged "A-V Connections" but genuinely tests this
       // concept's own metarteriole/precapillary-sphincter content.
       key: "regarding-the-metarterioles-the-following-are-correct-f3764004",
