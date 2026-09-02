@@ -4,19 +4,18 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 878 | excluded: 193 | remaining: 81
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 888 | excluded: 193 | remaining: 71
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 878
+- authored (by key, this ledger): 888
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 878
+- authored minus held-back = build-style "kept": 888
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| Control of Respiration | 25 | 9 | 6 | 10 |
 | Mechanical Properties of Cardiac Muscle | 42 | 26 | 8 | 8 |
 | A-V Connections | 54 | 40 | 7 | 7 |
 | Arteries | 62 | 45 | 10 | 7 |
@@ -37,6 +36,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
 | Cardiac Function | 80 | 54 | 26 | 0 |
 | Chromosomal Aberrations (Abnormalities) | 22 | 21 | 1 | 0 |
+| Control of Respiration | 25 | 19 | 6 | 0 |
 | Electrical Activity of the Heart | 82 | 57 | 25 | 0 |
 | Gas exchange in the lung | 21 | 18 | 3 | 0 |
 | Gas Transport by the Blood | 35 | 32 | 3 | 0 |
@@ -54,19 +54,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### Control of Respiration (10)
-
-- `immediate-stoppage-of-respiration-can-be-caused-by-transecti-82f47191` — Immediate stoppage of respiration can be caused by transection:
-- `in-normal-individual-respiration-is-regulated-by-all-except-7e8ddaae` — In normal individual respiration is regulated by all except:
-- `medullary-inspiratory-neurons-are-stimulated-by-370da678` — Medullary inspiratory neurons are stimulated by:
-- `spontaneous-respiration-ceases-after-7ab1a72f` — Spontaneous respiration ceases after:
-- `the-carotid-and-aortic-bodies-increase-their-rate-of-dischar-32d0556f` — The carotid and aortic bodies increase their rate of discharge in response to:
-- `transection-between-medulla-oblongata-and-upper-border-of-sp-d728ec2a` — Transection between medulla oblongata and upper border of spinal cord causes:
-- `which-of-the-following-conditions-causes-hypoventilation-6ee07624` — Which of the following conditions causes hypoventilation?
-- `which-of-the-following-discharge-spontaneously-during-quiet-b30226e7` — Which of the following discharge spontaneously during quiet breathing? ‏ا‎ ‎a- S…
-- `which-of-the-following-discharge-spontaneously-during-quist-89974900` — Which of the following discharge spontaneously during quist breathing?
-- `which-of-the-following-discharges-spontaneously-during-quiet-20ea9248` — Which of the following discharges spontaneously during quiet breathing?
 
 ### Mechanical Properties of Cardiac Muscle (8)
 

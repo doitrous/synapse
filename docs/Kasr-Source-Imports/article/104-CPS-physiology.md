@@ -2117,7 +2117,7 @@ en
 ## learner_stage
 Years 1–3 foundation
 ## reading_time
-9
+12
 ## high_yield
 Core
 ## time_sensitive
@@ -2131,24 +2131,28 @@ Medical team, Admin team
 ## final_publisher
 Admin team
 ## summary
-Breathing is generated automatically by a handful of medullary and pontine neuron groups, and tuned continuously by two chemoreceptor systems that between them account for essentially all of the resting drive to breathe. This article covers who does what in the brainstem, why CO2 dominates over O2 as the everyday stimulus while O2 takes over only in an emergency, and the one reflex that keeps an over-inflated lung from inflating further.
+Breathing is generated automatically by a handful of medullary and pontine neuron groups, and tuned continuously by two chemoreceptor systems that between them account for essentially all of the resting drive to breathe. This article covers who does what in the brainstem, why CO2 dominates over O2 as the everyday stimulus while O2 takes over only in an emergency, the one reflex that keeps an over-inflated lung from inflating further, and the classic experimental evidence for all of it — what transecting the brainstem at each of four levels does to breathing.
 ## sections
 ### Definition
-Breathing rhythm is generated in the brainstem by four functionally distinct neuron groups, and is continuously adjusted by central and peripheral chemoreceptors that monitor blood gases, plus a lung-stretch reflex that guards against over-inflation.
+Breathing rhythm is generated in the brainstem by four functionally distinct neuron groups, and is continuously adjusted by central and peripheral chemoreceptors that monitor blood gases, plus a lung-stretch reflex that guards against over-inflation. Transecting the brainstem at successively lower levels — and combining each cut with vagotomy — is the classic experimental evidence for how these pieces fit together.
 ### Mechanism
 The dorsal respiratory group (DRG, around the nucleus of the tractus solitarius) is the primary inspiratory centre, firing continuous rhythmic signals to the inspiratory muscles during normal quiet breathing on its own slow, irregular inherent rhythm, generated at root by pacemaker neurons in the medullary pre-Botzinger complex. The ventral respiratory group (VRG) is totally inactive at rest and switches on only for forced breathing. Two pontine centres tune the DRG: the apneustic centre sends it tonic excitatory drive (and, isolated from its own inhibitory input, produces apneusis — prolonged inspiratory gasps); the pneumotaxic centre inhibits the DRG and apneustic centre, switching off inspiration and so setting the rate and depth of breathing.
 
 Central chemoreceptors, just beneath the ventral medullary surface and protected by the blood-brain barrier, supply about 75-80% of resting drive; their direct stimulus is H+ in the CSF, which plasma H+ cannot reach, so CO2 — which crosses the barrier freely and acidifies the CSF — is the potent indirect stimulus, made highly sensitive by the CSF's weak protein buffering. Peripheral chemoreceptors (carotid body glomus cells via the glossopharyngeal/Hering's nerve, aortic bodies via the vagus) supply the remaining 20-25%; their very high blood flow lets them sense dissolved PO2 directly, so they are unaffected by anaemia or CO poisoning, and they stay almost silent as PO2 falls from 100 to 60 mmHg before responding steeply below it.
 
 The Hering-Breuer reflex: lung inflation stretches receptors in the bronchial walls, which send inhibitory signals through the vagus to the DRG and apneustic centre, stopping inspiration.
+
+Transection at four successively lower levels reveals what each structure contributes. Level 1 (upper border of the pons, above both pontine centres): respiration is unaffected, since every respiratory centre below the cut is intact; adding bilateral vagotomy at this level makes breathing slower and deeper, showing that vagal (Hering-Breuer) afferents normally help set tidal volume and rate. Level 2 (mid-pons, between the pneumotaxic and apneustic centres, removing pneumotaxic input): breathing becomes slightly slower and deeper, confirming the pneumotaxic centre's normal role in adjusting rate and depth; adding bilateral vagotomy at this level removes the apneustic centre's only remaining source of inhibition, and breathing stops in full inspiration — apneusis, continuous inspiratory stimulation. Level 3 (between pons and medulla, removing both pontine centres): respiration continues, but irregularly, on the DRG's own crude intrinsic rhythm alone. Level 4 (between medulla and the upper border of the spinal cord, disconnecting the DRG/VRG entirely from the phrenic and intercostal motor neurons that actually drive breathing): respiration stops completely, leading to death.
 ### Key determinants
-For CO2 specifically, about 70-80% of the ventilatory response runs through the central chemoreceptor route and 20-30% through the peripheral one — CO2 is the most potent everyday respiratory stimulus, and a 3% rise in arterial PCO2 can double ventilation, while a marked rise above about 70 mmHg instead depresses the respiratory centre (CO2 narcosis). O2 lack, by contrast, is sensed only peripherally: ventilation barely rises as PO2 falls from 100 to 60 mmHg, rises sharply from 60 down to 30 mmHg, and below about 20 mmHg the effect reverses to direct central depression from brain hypoxia. The Hering-Breuer reflex shapes every breath in the newborn but, in the human adult, only engages once tidal volume rises to more than three times normal, as in exercise.
+For CO2 specifically, about 70-80% of the ventilatory response runs through the central chemoreceptor route and 20-30% through the peripheral one — CO2 is the most potent everyday respiratory stimulus, and a 3% rise in arterial PCO2 can double ventilation, while a marked rise above about 70 mmHg instead depresses the respiratory centre (CO2 narcosis). O2 lack, by contrast, is sensed only peripherally: ventilation barely rises as PO2 falls from 100 to 60 mmHg, rises sharply from 60 down to 30 mmHg, and below about 20 mmHg the effect reverses to direct central depression from brain hypoxia. The Hering-Breuer reflex shapes every breath in the newborn but, in the human adult, only engages once tidal volume rises to more than three times normal, as in exercise. Level 4 transection is functionally equivalent to a clinical high cervical cord or brainstem injury above the phrenic outflow (C3-C5): with no surviving connection between the medullary respiratory centres and the muscles of breathing, immediate stoppage of respiration and death follow — a plane below the phrenic origin (e.g. below C7) instead leaves diaphragmatic breathing intact.
 ### Clinical significance
-Because central chemoreceptors respond to CO2 and not directly to O2, a patient who relies on hypoxic drive (peripheral chemoreceptors) — as in chronic CO2 retention — can have their only remaining respiratory stimulus blunted by giving high-flow O2, which is part of why controlled oxygen therapy is used in such patients. CO2 narcosis (respiratory centre depression above about 70 mmHg PCO2) is a real clinical danger of uncontrolled hypercapnia, and the transition from peripheral-chemoreceptor-driven hyperventilation to central depression below about 20 mmHg PO2 marks the point at which severe hypoxia stops stimulating breathing and starts suppressing it.
+Because central chemoreceptors respond to CO2 and not directly to O2, a patient who relies on hypoxic drive (peripheral chemoreceptors) — as in chronic CO2 retention — can have their only remaining respiratory stimulus blunted by giving high-flow O2, which is part of why controlled oxygen therapy is used in such patients. CO2 narcosis (respiratory centre depression above about 70 mmHg PCO2) is a real clinical danger of uncontrolled hypercapnia, and the transition from peripheral-chemoreceptor-driven hyperventilation to central depression below about 20 mmHg PO2 marks the point at which severe hypoxia stops stimulating breathing and starts suppressing it. COPD is the clearest clinical example of hypoventilation with a mechanism traceable to this same chemoreceptor system: longstanding CO2 retention lets the central chemoreceptors tolerate higher CO2 levels than normal, shifting these patients onto hypoxic (peripheral chemoreceptor) drive as their main stimulus to breathe — the same drive-shift that makes uncontrolled O2 therapy dangerous in them. Level 4 transection's clinical parallel — a high spinal cord or brainstem injury above the phrenic outflow — is why such injuries are immediately fatal without ventilatory support, while injuries below the phrenic segments (C3-C5) spare diaphragmatic breathing.
 ### Common misconceptions
 Assuming O2 lack is the everyday driver of breathing the way CO2 is. Under normal conditions CO2 (via central chemoreceptors) dominates; O2 lack only becomes the dominant peripheral drive once PO2 falls below about 60 mmHg.
 Assuming the ventral respiratory group contributes to every breath. It is silent at rest; only the DRG drives quiet breathing.
 Assuming the Hering-Breuer reflex meaningfully limits every adult breath. It is essentially dormant at normal tidal volumes in adults and only engages at markedly increased tidal volume.
+Assuming any brainstem transection stops breathing. Only a level 4 cut (between medulla and spinal cord) does; levels 1-3 leave breathing going, just increasingly irregular as more of the pontine tuning is removed.
+Assuming vagotomy alone, or a mid-pontine cut alone, stops breathing. It takes both together (removing pneumotaxic input AND vagal/Hering-Breuer input) to unmask the apneustic centre's unopposed excitatory drive and produce apneusis.
 ## published_summary
 
 ## published_sections
@@ -2160,10 +2164,14 @@ Central chemoreceptors: ~75-80% of resting drive, respond to CSF H+, driven indi
 Peripheral chemoreceptors: ~20-25% of drive, sense PO2 directly, minimal response until PO2 < 60 mmHg.
 CO2: 70-80% central / 20-30% peripheral route; 3% PCO2 rise can double ventilation; >70 mmHg causes CO2 narcosis.
 Hering-Breuer reflex: vagal, stretch-receptor-driven, shapes every newborn breath but only engages in adults at TV > 3× normal.
+Transection levels: L1 (top of pons) unaffected, +vagotomy = slower/deeper; L2 (mid-pons) slightly slower/deeper, +vagotomy = apneusis; L3 (pons-medulla) irregular; L4 (medulla-cord) stops, death.
+COPD's chronic CO2 retention shifts these patients onto hypoxic (peripheral chemoreceptor) drive — the same mechanism that makes uncontrolled O2 therapy dangerous for them.
 ## lose_the_mark
 Treating O2 lack as the everyday respiratory stimulus.
 Forgetting the VRG is silent during quiet breathing.
 Overstating the Hering-Breuer reflex's role in normal adult tidal breathing.
+Assuming any brainstem transection level stops breathing — only level 4 (medulla-to-spinal-cord) does.
+Assuming vagotomy or a mid-pontine cut alone (rather than both together) produces apneusis.
 ## callout_evidence
 
 ## related_concepts
@@ -2208,10 +2216,10 @@ Rights: must be CC-BY or public domain, or newly drawn for this product
 ## publication_gate
 needs_evidence
 ## evidence_basis
-Kasr Alainy physiology department book, "Cardiopulmonary (Respiration)", Chapter 5 ("Control of Respiration"), printed pages 136-147 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction.
+Kasr Alainy physiology department book, "Cardiopulmonary (Respiration)", Chapter 5 ("Control of Respiration"), printed pages 136-147 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction. run44 re-checked p.142 specifically (brainstem transection at four levels — "Experimental Evidence in Animals", Fig 34) after finding this leaf's own bank rows tested it directly; despite the prior evidence_gaps note that this material "was not reached", it sits squarely inside the already-cited 136-147 range and reads cleanly, so it is now covered.
 ## evidence_gaps
 No independent citation has been attached to any figure here; every number is traceable to one department book.
-The chapter continues past page 147 into the integrated ventilatory response to exercise/altitude and brainstem-transection experimental evidence; that material was not reached in this lane's reading pass and is not covered by this article — see the lane report.
+The chapter's own integrated ventilatory response to exercise/altitude (a separate subsection, not yet located in this reading pass) is still not covered by this article.
 ## conflicts
 [clear]
 ## last_reviewed
@@ -2219,7 +2227,7 @@ The chapter continues past page 147 into the integrated ventilatory response to 
 ## review_due
 
 ## notes
-Written from the department book only, pages 136-147; the chapter's remaining pages (exercise/altitude integration, brainstem-transection evidence) were not reached and are not covered here.
+Written from the department book only, pages 136-147. run44 added the four-level brainstem-transection experimental evidence (p.142, within the already-cited range) and the COPD drive-shift clinical fact (p.150, cited by the sibling non-chemical-control seed file's own bank row) after confirming both were tested by this leaf's own remaining bank rows; the exercise/altitude integration subsection is still not reached.
 
 ## field_notes
 lastReviewed: New record, not yet reviewed.

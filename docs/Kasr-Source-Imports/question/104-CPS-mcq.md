@@ -55,7 +55,7 @@
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 43 questions, 11 concepts
-    Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
+    Physiology Respiratory System — Non-Chemical Control of Respiration — 26 questions, 5 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Cardiovascular System — Endothelium and Vasoactive Hormones — 12 questions, 5 concepts
@@ -55891,6 +55891,933 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-646C691142F9
+## title
+Transection between medulla oblongata and upper border of spinal cord causes:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Transection between medulla oblongata and upper border of spinal cord causes:
+## answer_a
+Stoppage of breathing and death
+## explanation_a
+This is the correct answer. The department book's own level 4 transection — between the medulla and the upper border of the spinal cord — completely disconnects the DRG/VRG from the phrenic and intercostal motor neurons that actually drive breathing, so respiration stops entirely, leading to death, unlike levels 1-3, which all leave some form of breathing going.
+
+Why this is right:
+- Level 1 (upper border of the pons, above both pontine centres): respiration is unaffected, since every respiratory centre below the cut is intact; adding bilateral vagotomy at this level makes breathing slower and deeper, showing vagal (Hering-Breuer) afferents normally help set tidal volume and rate.
+## answer_b
+Irregular respiration
+## explanation_b
+Irregular respiration is what level 3 (between pons and medulla) produces, not level 4 — at level 4 breathing stops completely rather than merely becoming irregular.
+## answer_c
+Slower and deeper respiration
+## explanation_c
+Slower and deeper respiration is what level 1 (top of the pons) plus vagotomy produces; level 4 stops breathing entirely rather than slowing and deepening it.
+## answer_d
+Rapid shallow respiration
+## explanation_d
+Rapid shallow respiration is not a pattern any of the four classic transection levels produces; level 4 specifically abolishes breathing rather than making it rapid and shallow.
+## correct_answer
+A
+## main_concept
+CON-RES-59CCF474F362ED
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that transection between the medulla and the upper border of the spinal cord (level 4) causes complete stoppage of breathing and death.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p13 q93. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AE7E8675729E
+## title
+Immediate stoppage of respiration can be caused by transection:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Immediate stoppage of respiration can be caused by transection:
+## answer_a
+between pons and medulla,
+## explanation_a
+A transection between pons and medulla (level 3) leaves respiration continuing, only irregularly, on the DRG's own intrinsic rhythm — not an immediate stoppage.
+## answer_b
+of both vagi
+## explanation_b
+Cutting both vagi alone does not stop breathing; it only removes the Hering-Breuer reflex's contribution to tidal volume and rate, leaving the DRG's own rhythm intact.
+## answer_c
+below 7" cervical vertebra
+## explanation_c
+A transection below the 7th cervical vertebra sits below the phrenic nerve's spinal origin (C3-C5), so diaphragmatic breathing driven by the phrenic nerve continues even though thoracic outflow below the cut is lost.
+## answer_d
+Above 2™ cervical vertebra
+## explanation_d
+This is the correct answer. A transection above the 2nd cervical vertebra severs every descending pathway from the medullary respiratory centres to the phrenic (C3-C5) and intercostal motor neurons — functionally the same disconnection as the department book's own level 4 (medulla-to-spinal-cord) transection — so breathing stops immediately.
+
+Why this is right:
+- Level 1 (upper border of the pons, above both pontine centres): respiration is unaffected, since every respiratory centre below the cut is intact; adding bilateral vagotomy at this level makes breathing slower and deeper, showing vagal (Hering-Breuer) afferents normally help set tidal volume and rate.
+## correct_answer
+D
+## main_concept
+CON-RES-59CCF474F362ED
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Applied recall
+## learning_objective
+Identify a transection above the second cervical vertebra as equivalent to level 4 brainstem transection, disconnecting the respiratory centres from the phrenic outflow entirely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p44 q146. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-266761AAB21F
+## title
+Spontaneous respiration ceases after:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Spontaneous respiration ceases after:
+## answer_a
+bilateral vagotomy
+## explanation_a
+Bilateral vagotomy alone does not abolish normal rhythmic breathing — the department book's own level 1 experiment shows vagotomy alone only makes breathing slower and deeper, since the pneumotaxic centre still supplies its own independent inhibitory input to the apneustic centre and DRG.
+## answer_b
+bilateral vagotomy combined with transection of brain stem at the superior border of the pons
+## explanation_b
+This is the correct answer. The department book's own level 2 transection (removing pneumotaxic input to the apneustic centre and DRG) combined with bilateral vagotomy removes the apneustic centre's only two sources of inhibition at once, so it fires unopposed — normal rhythmic breathing ceases and is replaced by apneusis, breathing held in full inspiration.
+
+Why this is right:
+- Level 1 (upper border of the pons, above both pontine centres): respiration is unaffected, since every respiratory centre below the cut is intact; adding bilateral vagotomy at this level makes breathing slower and deeper, showing vagal (Hering-Breuer) afferents normally help set tidal volume and rate.
+## answer_c
+Trachea
+## explanation_c
+Transection of the spinal cord at the first thoracic segment leaves the phrenic nerve (C3-C5) and its brainstem connections intact, so normal rhythmic diaphragmatic breathing continues; it does not by itself abolish spontaneous respiration.
+## answer_d
+transection of the spinal cord at the level of the first thoracic segment
+## explanation_d
+'Trachea' names an airway structure, not a transection level or manoeuvre that could abolish the brainstem's own respiratory rhythm.
+## correct_answer
+B
+## main_concept
+CON-RES-59CCF474F362ED
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Applied mechanism
+## learning_objective
+State that combining bilateral vagotomy with a pontine transection that removes pneumotaxic input abolishes normal rhythmic breathing and replaces it with apneusis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p9 q63. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-D89CF708FA94
+## title
+Medullary inspiratory neurons are stimulated by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Medullary inspiratory neurons are stimulated by:
+## answer_a
+Afferent impulses from proprioceptors
+## explanation_a
+This is the correct answer. Afferent impulses from proprioceptors are one of this leaf's own non-chemical afferent sources, driving the ventilation rise of exercise by stimulating the medullary inspiratory neurons.
+
+Why this is right:
+- Alongside the chemical control of breathing by PCO2, pH and PO2, the respiratory centre is regulated by nervous reflexes that are independent of blood gases.
+## answer_b
+Vagal afferent from lung stretch receptors
+## explanation_b
+Vagal afferents from lung stretch receptors are inhibitory, not stimulatory, to the medullary inspiratory neurons — this is the Hering-Breuer reflex, which switches inspiration off, the opposite direction from stimulation.
+## answer_c
+Increased hydrogen ion concentration in arterial blood
+## explanation_c
+Arterial (plasma) H+ does not directly stimulate the medullary inspiratory neurons — the central chemoreceptors respond to CSF H+, which plasma H+ cannot reach because of the blood-brain barrier.
+## answer_d
+Afferent impulses from arterial baroreceptors
+## explanation_d
+Afferent impulses from arterial baroreceptors inhibit, not stimulate, the respiratory centre — a rise in arterial pressure raising baroreceptor discharge reflexly inhibits respiration.
+## correct_answer
+A
+## main_concept
+CON-RES-3A3D4A2919FA80
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify proprioceptive afferents as a genuine stimulatory input to the medullary inspiratory neurons, unlike vagal stretch afferents, arterial H+ or baroreceptor afferents, which do not directly stimulate them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p22 q44. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-704FE84A89C1
+## title
+In normal individual respiration is regulated by all except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In normal individual respiration is regulated by all except:
+## answer_a
+central chemorecptors responding to changes in PO,
+## explanation_a
+The exception, and the answer. Central chemoreceptors do not respond to changes in PO2 at all — they are protected from arterial blood by the blood-brain barrier and respond only to CSF H+, generated indirectly when CO2 crosses that barrier. Sensing PO2 directly is a peripheral, not central, chemoreceptor function.
+
+Why this is right:
+- Central chemoreceptors are responsible for 75-80% of respiratory drive at rest.
+- Peripheral chemoreceptors are almost insensitive to changes of PO2 from 100 down to 60 mmHg; below 60 mmHg there is a steep increase in the rate of impulse discharge to the respiratory centres.
+## answer_b
+Peripheral chemorecptors responding to changes in PCO,
+## explanation_b
+True, so not the exception. Peripheral chemoreceptors do respond to changes in PCO2, contributing roughly 20-30% of the overall CO2 ventilatory response alongside the dominant central route.
+## answer_c
+Peripheral chemorecptors responding to changes in PO2
+## explanation_c
+True, so not the exception. Peripheral chemoreceptors are the ones that sense PO2 directly, thanks to their exceptionally high blood flow per gram of tissue.
+## answer_d
+Central chemorecptors responding to changes in PCO
+## explanation_d
+True, so not the exception. Central chemoreceptors respond to changes in PCO2, indirectly, via the CSF acidification CO2 produces once it crosses the blood-brain barrier.
+## correct_answer
+A
+## main_concept
+CON-RES-C6F65BAAC06FAA
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify that central chemoreceptors respond to CSF H+/PCO2, not directly to PO2, which the peripheral chemoreceptors alone sense.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p42 q127. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-62D9F6168033
+## title
+The carotid and aortic bodies increase their rate of discharge in response to:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The carotid and aortic bodies increase their rate of discharge in response to:
+## answer_a
+Decreased blood H" concentration
+## explanation_a
+A decrease in blood H+ concentration means more alkaline blood, which would reduce, not increase, chemoreceptor discharge — the opposite direction.
+## answer_b
+Decreased blood O} content
+## explanation_b
+The peripheral chemoreceptors' very high blood flow per gram of tissue lets them sense dissolved PO2 directly rather than total O2 content, so a fall in O2 content alone (as in anaemia, with normal PO2) does not markedly raise their discharge.
+## answer_c
+Decreased partial pressure of blood oxygen
+## explanation_c
+This is the correct answer. The carotid and aortic bodies sense dissolved arterial PO2 directly, and increase their rate of discharge as PO2 falls, becoming markedly more active once PO2 drops below about 60 mmHg.
+
+Why this is right:
+- Central chemoreceptors are responsible for 75-80% of respiratory drive at rest.
+- Peripheral chemoreceptors are almost insensitive to changes of PO2 from 100 down to 60 mmHg; below 60 mmHg there is a steep increase in the rate of impulse discharge to the respiratory centres.
+## answer_d
+Decreased dissolved oxygen in CSF
+## explanation_d
+The peripheral chemoreceptors are stimulated by arterial blood, not CSF, and their location (carotid bifurcation, aortic arch) and blood supply have nothing to do with dissolved oxygen in CSF, which is instead what the (unaffected-by-O2) central chemoreceptors are bathed in.
+## correct_answer
+C
+## main_concept
+CON-RES-C6F65BAAC06FAA
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the carotid and aortic bodies (peripheral chemoreceptors) increase their discharge in response to a decreased partial pressure of blood oxygen, not decreased H+, O2 content, or CSF dissolved oxygen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q61. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-49E776F227C5
+## title
+Which of the following discharge spontaneously during quiet breathing? ‏ا‎ ‎a- Stretch …
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following discharge spontaneously during quiet breathing? ‏ا‎ ‎a- Stretch receptors ‏ا 18 ا‎
+## answer_a
+Stretch receptors ‏ا 18 ا‎
+## explanation_a
+Stretch receptors in the lung do not discharge spontaneously — they fire in response to lung inflation, driving the Hering-Breuer reflex, not generating rhythm on their own.
+## answer_b
+Motor neurons of respiratory muscles
+## explanation_b
+Motor neurons of the respiratory muscles fire in response to the DRG's own descending drive; they do not spontaneously generate the rhythm themselves.
+## answer_c
+Dorsal respiratory group of neurons
+## explanation_c
+This is the correct answer. The dorsal respiratory group has its own slow, irregular inherent rhythmicity and fires spontaneously during quiet breathing, generating the basic inspiratory drive that the pontine centres only tune.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_d
+Ventral respiratory group of neurons
+## explanation_d
+The ventral respiratory group is totally inactive during quiet breathing, activating only for forced breathing — the opposite of discharging spontaneously at rest.
+## correct_answer
+C
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify the dorsal respiratory group, not stretch receptors, respiratory motor neurons, or the ventral respiratory group, as the structure that discharges spontaneously during quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p41 q119. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B008BA88E263
+## title
+Which of the following discharge spontaneously during quist breathing?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following discharge spontaneously during quist breathing?
+## answer_a
+Stretch receptors in lung
+## explanation_a
+Stretch receptors in the lung fire in response to lung inflation (the Hering-Breuer reflex); they do not spontaneously generate rhythm on their own.
+## answer_b
+Motor neurons of respiratory muscles
+## explanation_b
+Motor neurons of the respiratory muscles fire in response to the DRG's own descending drive rather than generating the rhythm themselves.
+## answer_c
+Dorsal respiratory group of neurons
+## explanation_c
+This is the correct answer. The dorsal respiratory group has its own slow, irregular inherent rhythmicity and fires spontaneously during quiet breathing.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_d
+Ventral respiratory group of neurons
+## explanation_d
+The ventral respiratory group is totally inactive during quiet breathing, activating only for forced breathing.
+## correct_answer
+C
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify the dorsal respiratory group, not stretch receptors, respiratory motor neurons, or the ventral respiratory group, as the structure that discharges spontaneously during quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p21 q34. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DED675DF91C2
+## title
+Which of the following discharges spontaneously during quiet breathing?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following discharges spontaneously during quiet breathing?
+## answer_a
+Stretch receptors in lung
+## explanation_a
+Stretch receptors in the lung fire in response to lung inflation (the Hering-Breuer reflex); they do not spontaneously generate rhythm on their own.
+## answer_b
+Motor neurons of respiratory muscles
+## explanation_b
+Motor neurons of the respiratory muscles fire in response to the DRG's own descending drive rather than generating the rhythm themselves.
+## answer_c
+Dorsal respiratory group of neurons
+## explanation_c
+This is the correct answer. The dorsal respiratory group has its own slow, irregular inherent rhythmicity and fires spontaneously during quiet breathing.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_d
+Ventral respiratory group of neurons
+## explanation_d
+The ventral respiratory group is totally inactive during quiet breathing, activating only for forced breathing.
+## correct_answer
+C
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify the dorsal respiratory group, not stretch receptors, respiratory motor neurons, or the ventral respiratory group, as the structure that discharges spontaneously during quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p13 q91. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3A62B8EA371C
+## title
+Which of the following conditions causes hypoventilation?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following conditions causes hypoventilation?
+## answer_a
+Strenuous exercise
+## explanation_a
+Strenuous exercise raises ventilation to match the sharp rise in CO2 production and O2 consumption — hyperventilation relative to rest, not hypoventilation.
+## answer_b
+Ascent to high altitude
+## explanation_b
+Ascent to high altitude lowers arterial PO2, stimulating the peripheral chemoreceptors and driving hyperventilation, not hypoventilation.
+## answer_c
+Anemia
+## explanation_c
+Anaemia lowers O2 content but leaves PO2 normal, so it does not stimulate or depress the chemoreceptor drive to ventilation; it is not a cause of hypoventilation.
+## answer_d
+Diabetic ketoacidosis
+## explanation_d
+Diabetic ketoacidosis produces a metabolic acidosis that drives compensatory hyperventilation (Kussmaul breathing) via the peripheral and central chemoreceptors, not hypoventilation.
+## answer_e
+Chronic obstructive pulmonary disease (COPD)
+## explanation_e
+This is the correct answer. In chronic lung disease such as COPD, longstanding CO2 retention lets the central chemoreceptors tolerate higher CO2 levels than normal, shifting these patients onto hypoxic (peripheral chemoreceptor) drive as their main stimulus to breathe — the underlying mechanism is chronic hypoventilation relative to CO2 production, with the central chemoreceptor response blunted.
+
+Why this is right:
+- Central chemoreceptors are responsible for 75-80% of respiratory drive at rest.
+- Peripheral chemoreceptors are almost insensitive to changes of PO2 from 100 down to 60 mmHg; below 60 mmHg there is a steep increase in the rate of impulse discharge to the respiratory centres.
+## correct_answer
+E
+## main_concept
+CON-RES-C6F65BAAC06FAA
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify COPD, not strenuous exercise, high-altitude ascent, anaemia or diabetic ketoacidosis, as a cause of hypoventilation, via the chronic CO2-retention drive-shift mechanism.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p45 q152. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
