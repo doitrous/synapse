@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-fibroblasts",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'histology-fibroblasts'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Connective Tissue > Cells of Connective Tissue"
+  },
+  "questions": [
+    {
+      "key": "histology-fibroblasts",
+      "id": "QST-SCUFBS102-S2-PENDING-HISTOLOGY-FIBROBLASTS",
+      "title": "The cell that forms ground substance",
+      "question": "Which specific cells are responsible for the formation of the ground substance in connective tissue?",
+      "options": {
+        "A": "Macrophages",
+        "B": "Fibroblasts",
+        "C": "Adipocytes",
+        "D": "Plasma cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Macrophages are the connective tissue's phagocytic cell, derived from monocytes; their role is defence and clearance, not matrix production.",
+        "B": "Correct. The fibroblast is the commonest cell of connective tissue proper, arising from the undifferentiated mesenchymal cell. In its active state it is a branched, protein-synthesising cell — deeply basophilic cytoplasm with well-developed rough endoplasmic reticulum and Golgi apparatus on electron microscopy — that lays down the connective tissue fibres (collagen, elastin and fibrillin, reticular fibres). It also secretes the amorphous ground substance those fibres sit in, so both the fibrous and non-fibrous components of the extracellular matrix trace back to this one cell.",
+        "C": "Incorrect. Adipocytes (fat cells) store neutral fat as their primary role; they do not synthesise the fibres or ground substance of connective tissue.",
+        "D": "Incorrect. Plasma cells are terminally differentiated B lymphocytes that secrete antibodies for immune defence, not structural matrix components."
+      },
+      "topic": "Histology",
+      "subtopic": "Connective tissue: cells",
+      "main_concept": "CON-FND-9EA7F8E2898EB7",
+      "concept_ids": ["CON-FND-9EA7F8E2898EB7"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 62,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-101-HIS-CONNECTIVE-TISSUE-CELLS"],
+      "learning_objective": "Name the fibroblast as the connective tissue cell that synthesises both the fibres and the ground substance.",
+      "source_citation": "FOMSCU Foundation 1, EOY Final 2026 Q33",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q33; source-JSON extraction.",
+        "reclassification": "find-existing.mjs's multi-word query 'fibroblasts secrete ground substance connective tissue' returned no existing record. A direct grep for 'ground substance' + 'fibroblast' inside docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md found CON-FND-9EA7F8E2898EB7, whose own evidence_gaps note explicitly names ground substance as a product the definition should be widened to list and instructs against minting 'a second fibroblast key'. Overlaid per that note. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md."
+      }
+    }
+  ]
+}

@@ -38,22 +38,22 @@
 | anatomy-ventral | 0 | 0 | 1 | 1 |
 | biochemistry-active-site-fits | 1 | 0 | 0 | 1 |
 | biochemistry-acyl-coa-synthetase | 1 | 0 | 0 | 1 |
-| biochemistry-adenosine-triphosphate | 0 | 0 | 2 | 2 |
+| biochemistry-adenosine-triphosphate | 1 | 0 | 0 | 1 |
 | biochemistry-alpha-glucose | 1 | 0 | 0 | 1 |
 | biochemistry-arginine | 0 | 0 | 1 | 1 |
-| biochemistry-cholesterol | 0 | 0 | 1 | 1 |
+| biochemistry-cholesterol | 1 | 0 | 0 | 1 |
 | biochemistry-compound-lipids | 0 | 0 | 1 | 1 |
-| biochemistry-essential-fatty-acids | 0 | 0 | 1 | 1 |
+| biochemistry-essential-fatty-acids | 1 | 0 | 0 | 1 |
 | biochemistry-five-sugars | 1 | 0 | 0 | 1 |
 | biochemistry-glucose-alpha-linkages | 1 | 0 | 0 | 1 |
 | biochemistry-glyceraldehyde | 0 | 0 | 1 | 1 |
 | biochemistry-glyceraldehyde-3-phosphate | 0 | 0 | 1 | 1 |
-| biochemistry-glycine | 0 | 0 | 2 | 2 |
+| biochemistry-glycine | 1 | 0 | 0 | 1 |
 | biochemistry-hydrogen-bonds | 0 | 0 | 1 | 1 |
 | biochemistry-hydrolysis-of-gtp | 1 | 0 | 0 | 1 |
 | biochemistry-intracellular-receptors | 1 | 0 | 0 | 1 |
-| biochemistry-irreversible-inhibition | 0 | 0 | 2 | 2 |
-| biochemistry-l-amino-acids | 0 | 0 | 1 | 1 |
+| biochemistry-irreversible-inhibition | 1 | 0 | 0 | 1 |
+| biochemistry-l-amino-acids | 1 | 0 | 0 | 1 |
 | biochemistry-monosaccharides | 1 | 0 | 0 | 1 |
 | biochemistry-operator | 0 | 0 | 1 | 1 |
 | biochemistry-phospholipids | 0 | 0 | 1 | 1 |
@@ -65,7 +65,7 @@
 | biochemistry-the-hydrogen-bond | 0 | 0 | 1 | 1 |
 | biochemistry-the-substrate-concentration-at-half-vmax | 1 | 0 | 0 | 1 |
 | biochemistry-three-point-six | 1 | 0 | 0 | 1 |
-| biochemistry-vitamin-c | 0 | 0 | 1 | 1 |
+| biochemistry-vitamin-c | 1 | 0 | 0 | 1 |
 | community-medicine-preventing-population-diseases | 0 | 0 | 1 | 1 |
 | embryology-amniotic-cavity | 0 | 0 | 2 | 2 |
 | embryology-cloacal-membrane | 0 | 0 | 1 | 1 |
@@ -97,18 +97,18 @@
 | genetics-two-identical-daughter-cells | 0 | 0 | 1 | 1 |
 | genetics-x-chromosome-only | 0 | 0 | 1 | 1 |
 | histology-absorption-and-secretion | 1 | 0 | 0 | 1 |
-| histology-cristae | 0 | 0 | 1 | 1 |
+| histology-cristae | 1 | 0 | 0 | 1 |
 | histology-dark-parts | 0 | 0 | 1 | 1 |
 | histology-endomysium | 0 | 0 | 1 | 1 |
 | histology-epineurium | 1 | 0 | 0 | 1 |
-| histology-exocrine-glands | 0 | 0 | 1 | 1 |
-| histology-fibroblasts | 0 | 0 | 1 | 1 |
-| histology-filaments | 0 | 0 | 1 | 1 |
+| histology-exocrine-glands | 1 | 0 | 0 | 1 |
+| histology-fibroblasts | 1 | 0 | 0 | 1 |
+| histology-filaments | 1 | 0 | 0 | 1 |
 | histology-golgi-apparatus | 0 | 0 | 1 | 1 |
 | histology-golgi-complex | 0 | 0 | 1 | 1 |
 | histology-in-the-nucleolus | 0 | 0 | 1 | 1 |
 | histology-lung-and-adipose-tissue | 1 | 0 | 0 | 1 |
-| histology-lysosomes | 0 | 0 | 1 | 1 |
+| histology-lysosomes | 1 | 0 | 0 | 1 |
 | histology-mast-cells | 0 | 0 | 1 | 1 |
 | histology-multipolar | 0 | 0 | 1 | 1 |
 | histology-perineurium | 0 | 0 | 1 | 1 |
@@ -117,14 +117,14 @@
 | histology-presence-of-stacked-saccules | 1 | 0 | 0 | 1 |
 | histology-regulating-calcium-concentration-inside- | 1 | 0 | 0 | 1 |
 | histology-reticular-connective-tissue | 0 | 0 | 1 | 1 |
-| histology-rounded | 0 | 0 | 1 | 1 |
+| histology-rounded | 1 | 0 | 0 | 1 |
 | histology-rrna | 0 | 0 | 1 | 1 |
 | histology-serous-acini | 1 | 0 | 0 | 1 |
-| histology-silver-stain | 0 | 0 | 1 | 1 |
-| histology-smooth-muscle | 0 | 0 | 1 | 1 |
+| histology-silver-stain | 1 | 0 | 0 | 1 |
+| histology-smooth-muscle | 1 | 0 | 0 | 1 |
 | histology-stratified-squamous-keratinized | 0 | 0 | 1 | 1 |
 | histology-synthesizing-proteins-that-secreted-outs | 1 | 0 | 0 | 1 |
-| histology-tight-junction | 0 | 0 | 1 | 1 |
+| histology-tight-junction | 1 | 0 | 0 | 1 |
 | histology-unicellular-exocrine-glands | 1 | 0 | 0 | 1 |
 | histology-yellow-elastic-ct | 0 | 0 | 1 | 1 |
 | medical-ethics-a-judge-or-legal-guardian | 0 | 0 | 1 | 1 |
@@ -184,27 +184,17 @@
 - anatomy-synaptic-cleft
 - anatomy-synergist
 - anatomy-ventral
-- biochemistry-adenosine-triphosphate
-- biochemistry-adenosine-triphosphate
 - biochemistry-arginine
-- biochemistry-cholesterol
 - biochemistry-compound-lipids
-- biochemistry-essential-fatty-acids
 - biochemistry-glyceraldehyde
 - biochemistry-glyceraldehyde-3-phosphate
-- biochemistry-glycine
-- biochemistry-glycine
 - biochemistry-hydrogen-bonds
-- biochemistry-irreversible-inhibition
-- biochemistry-irreversible-inhibition
-- biochemistry-l-amino-acids
 - biochemistry-operator
 - biochemistry-phospholipids
 - biochemistry-purine-base
 - biochemistry-ribitol
 - biochemistry-tertiary-structure
 - biochemistry-the-hydrogen-bond
-- biochemistry-vitamin-c
 - community-medicine-preventing-population-diseases
 - embryology-amniotic-cavity
 - embryology-amniotic-cavity
@@ -236,27 +226,18 @@
 - genetics-two
 - genetics-two-identical-daughter-cells
 - genetics-x-chromosome-only
-- histology-cristae
 - histology-dark-parts
 - histology-endomysium
-- histology-exocrine-glands
-- histology-fibroblasts
-- histology-filaments
 - histology-golgi-apparatus
 - histology-golgi-complex
 - histology-in-the-nucleolus
-- histology-lysosomes
 - histology-mast-cells
 - histology-multipolar
 - histology-perineurium
 - histology-plasma-cells
 - histology-reticular-connective-tissue
-- histology-rounded
 - histology-rrna
-- histology-silver-stain
-- histology-smooth-muscle
 - histology-stratified-squamous-keratinized
-- histology-tight-junction
 - histology-yellow-elastic-ct
 - medical-ethics-a-judge-or-legal-guardian
 - medical-ethics-a-unique-professional-bond-for-effective

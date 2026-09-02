@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-smooth-muscle",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'histology-smooth-muscle'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Muscle Tissue > Smooth Muscle"
+  },
+  "questions": [
+    {
+      "key": "histology-smooth-muscle",
+      "id": "QST-SCUFBS102-S2-PENDING-HISTOLOGY-SMOOTH-MUSCLE",
+      "title": "The non-striated, involuntary muscle type",
+      "question": "Which of the following is an involuntary muscle type that is characterized by having completely non striated muscle fibers?",
+      "options": {
+        "A": "Cardiac heart muscle",
+        "B": "Skeletal voluntary muscle",
+        "C": "Smooth muscle",
+        "D": "A highly organised, pennate-structured muscle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cardiac muscle is involuntary, but it does show striation (a non-clear striation, per the department's own comparison table) — it is not non-striated.",
+        "B": "Incorrect. Skeletal muscle is striated and voluntary, the opposite of both features this question asks for.",
+        "C": "Correct. The department's own three-way comparison table lists striation and action side by side for all three muscle types: skeletal muscle is striated and voluntary; cardiac muscle shows non-clear striation and is involuntary; smooth muscle is non-striated and involuntary. Smooth muscle is the only one of the three that is both involuntary and completely non-striated, because its thick and thin filaments are irregularly arranged rather than organised into sarcomeres.",
+        "D": "Incorrect. Pennate structuring describes a skeletal-muscle fibre architecture (fibres angled onto a central tendon), which is a voluntary, striated category, not smooth muscle."
+      },
+      "topic": "Histology",
+      "subtopic": "Muscle tissue: three-type comparison",
+      "main_concept": "CON-MSK-B080975D6171CF",
+      "concept_ids": ["CON-MSK-B080975D6171CF"],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.15,
+      "reasoning_level": 1,
+      "inferred_difficulty": 72,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-103-HIS-MUSCLE-COMPARISON-TABLE"],
+      "learning_objective": "Identify smooth muscle as the non-striated, involuntary muscle type among the three muscle types.",
+      "source_citation": "FOMSCU Foundation 1, Formative and Past Exams 2021 Q56 (also 2022 Q36)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative and Past Exams 2021 Q56 (also 2022 Q36); source-JSON extraction.",
+        "reclassification": "find-existing.mjs's multi-word query 'smooth muscle non striated involuntary fibers' returned no existing record. A direct grep for 'non-striated' inside docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md found CON-MSK-B080975D6171CF, a three-muscle-type comparison table whose own definition states smooth muscle's striation and action rows directly. Overlaid rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md."
+      }
+    }
+  ]
+}

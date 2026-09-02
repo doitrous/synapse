@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-lysosomes",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'histology-lysosomes'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Cytoplasmic Organelles"
+  },
+  "questions": [
+    {
+      "key": "histology-lysosomes",
+      "id": "QST-SCUFBS102-S2-PENDING-HISTOLOGY-LYSOSOMES",
+      "title": "The organelle the Golgi apparatus forms",
+      "question": "Which of the following functional cellular organelles is structurally and directly formed by the Golgi apparatus?",
+      "options": {
+        "A": "Ribosomes",
+        "B": "Lysosomes",
+        "C": "Peroxisomes",
+        "D": "Mitochondria"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ribosomes are formed in the nucleolus, where ribosomal RNA is transcribed and combines with protein into the large and small subunits; the Golgi apparatus plays no part in their formation.",
+        "B": "Correct. A lysosome is a single-membrane bag of hydrolytic enzymes. Those enzymes are synthesised on the rough endoplasmic reticulum, carried by transfer vesicles to the Golgi apparatus, and released from the Golgi's trans face packaged inside lysosomes — so the lysosome, as a discrete membrane-bound organelle, is directly formed and released by the Golgi.",
+        "C": "Incorrect. Peroxisomes self-replicate by budding from pre-existing peroxisomes and import their enzymes post-translationally from the cytosol; they are not a Golgi product.",
+        "D": "Incorrect. Mitochondria arise by division of pre-existing mitochondria and carry their own DNA; they are not formed by the Golgi apparatus."
+      },
+      "topic": "Histology",
+      "subtopic": "Cytoplasmic organelles: Golgi apparatus and lysosomes",
+      "main_concept": "CON-FND-1ACE68A9080772",
+      "concept_ids": ["CON-FND-1ACE68A9080772"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 60,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.15,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-101-HIS-CYTOPLASMIC-ORGANELLES"],
+      "learning_objective": "State that lysosomes are packaged and released by the Golgi apparatus from enzymes made on the rough ER.",
+      "source_citation": "FOMSCU Foundation 1, Formative and Past Exams 2021 Q79 (also 2022 Q58)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative and Past Exams 2021 Q79 (also 2022 Q58); source-JSON extraction.",
+        "reclassification": "find-existing.mjs's multi-word query 'lysosomes formed by golgi apparatus digestive enzymes' returned no existing record. A direct grep for 'lysosome' + 'golgi' inside docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md found CON-FND-1ACE68A9080772, whose own definition states the enzymes are 'carried by transfer vesicles to the Golgi apparatus and released from it in lysosomes'. Overlaid rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md."
+      }
+    }
+  ]
+}

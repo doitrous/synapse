@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-irreversible-inhibition",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'biochemistry-irreversible-inhibition'. Second FOMSCU exam-year citation on a concept already tagged +scu by an earlier lane (CON-FND-42EE1863F04920) — same fact, reworded between the 2021 and 2023 papers ('forming strong bonds' vs 'forming strong covalent bonds').",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Enzymes"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-irreversible-inhibition",
+      "id": "QST-SCUFBS102-S2-PENDING-BIOCHEMISTRY-IRREVERSIBLE-INHIBITION-2023",
+      "title": "Covalent enzyme inhibition type (2023 printing)",
+      "question": "Certain toxic compounds inhibit the acetylcholinesterase enzyme by forming strong covalent bonds. What type of inhibition is this?",
+      "options": {
+        "A": "Reversible competitive blockage",
+        "B": "Irreversible inhibition",
+        "C": "Reversible allosteric activation",
+        "D": "Simple negative feedback inhibition"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A reversible competitive inhibitor binds the active site non-covalently, resembling the substrate, and can be displaced by raising substrate concentration; a compound forming a strong covalent bond is by definition not competing reversibly for the site.",
+        "B": "Correct. Irreversible inhibition permanently disables an enzyme, unlike competitive or allosteric inhibition, which are reversible. It works either by blocking a required cofactor or, as here, by chemically (covalently) modifying part of the apoenzyme itself — organophosphate-type compounds are classic examples that combine covalently and essentially permanently with a catalytically important group on acetylcholinesterase, which is exactly the 'strong covalent bond' the question describes.",
+        "C": "Incorrect. Allosteric activation increases enzyme activity by binding a site other than the active site; it is neither inhibitory nor covalent, and it is reversible.",
+        "D": "Incorrect. Negative feedback inhibition is a reversible, non-covalent regulatory mechanism (typically the pathway's own end-product binding an early enzyme), not a description of a toxic compound forming a strong covalent bond."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Enzymes: inhibition types",
+      "main_concept": "CON-FND-42EE1863F04920",
+      "concept_ids": ["CON-FND-42EE1863F04920"],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "cognitive_effort_score": 0.25,
+      "reasoning_level": 2,
+      "inferred_difficulty": 55,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.35,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-102-BIO-ENZYMES"],
+      "learning_objective": "Identify covalent, essentially permanent enzyme blockage as irreversible inhibition, distinct from reversible competitive/allosteric mechanisms.",
+      "source_citation": "FOMSCU Foundation 1, Formative and Past Exams 2023 Q14",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative and Past Exams 2023 Q14 (2021 Q14's near-duplicate, already covered by pending-live-reuse-batch2's biochemistry-irreversible-inhibition question). Same concept (CON-FND-42EE1863F04920, already tagged +scu in pending-live/SCU-FBS102-overlay-concepts.md) answers both exam years' printing of this question, per the field_notes edit made alongside this seed. Apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md."
+      }
+    }
+  ]
+}

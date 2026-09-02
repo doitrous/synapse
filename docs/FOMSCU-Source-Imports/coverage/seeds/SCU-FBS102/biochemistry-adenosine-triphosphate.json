@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-adenosine-triphosphate",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'biochemistry-adenosine-triphosphate'. Second FOMSCU exam-year citation on a concept already tagged +scu by an earlier lane (CON-FND-D10E79C01B3345) — same fact, reworded between the 2021 and 2023 papers ('directly derived' vs 'directly synthesized').",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Enzymes and Cell Signalling"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-adenosine-triphosphate",
+      "id": "QST-SCUFBS102-S2-PENDING-BIOCHEMISTRY-ADENOSINE-TRIPHOSPHATE-2023",
+      "title": "Precursor molecule of cyclic AMP (2023 printing)",
+      "question": "During the activation of the G protein signaling pathway from which specific precursor molecule is cyclic AMP directly synthesized?",
+      "options": {
+        "A": "Guanosine triphosphate",
+        "B": "Adenosine diphosphate",
+        "C": "Adenosine triphosphate",
+        "D": "Guanosine diphosphate"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Guanosine triphosphate (GTP) activates the G protein itself — the Gα subunit exchanges its bound GDP for GTP — but GTP is not adenylate cyclase's substrate.",
+        "B": "Incorrect. Adenosine diphosphate is a lower-energy relative of ATP; adenylate cyclase acts on the triphosphate form, not the diphosphate.",
+        "C": "Correct. Once a hormone binds its receptor and activates the G protein, the Gα-GTP subunit stimulates the membrane enzyme adenylate cyclase, which converts ATP into cyclic AMP (cAMP) with the release of pyrophosphate. Phosphodiesterase later degrades cAMP back down, so the balance of the two enzymes sets the second messenger's intracellular level.",
+        "D": "Incorrect. Guanosine diphosphate is the resting (inactive) form the Gα subunit carries before exchange for GTP; it is not the precursor cAMP is made from."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Cell signalling: cAMP second messenger",
+      "main_concept": "CON-FND-D10E79C01B3345",
+      "concept_ids": ["CON-FND-D10E79C01B3345"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 58,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.25,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-FND-CELL-SIGNALING-RECEPTORS"],
+      "learning_objective": "State that adenylate cyclase synthesises cAMP from ATP.",
+      "source_citation": "FOMSCU Foundation 1, Formative and Past Exams 2023 Q12",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative and Past Exams 2023 Q12 (2021 Q12's near-duplicate, already covered by pending-live-reuse-batch2's biochemistry-adenosine-triphosphate question). Same concept (CON-FND-D10E79C01B3345, already tagged +scu in pending-live/SCU-FBS102-overlay-concepts.md) answers both exam years' printing of this question, per the field_notes edit made alongside this seed. Apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md."
+      }
+    }
+  ]
+}

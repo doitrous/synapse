@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-tight-junction",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'histology-tight-junction'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Epithelial Tissue"
+  },
+  "questions": [
+    {
+      "key": "histology-tight-junction",
+      "id": "QST-SCUFBS102-S2-PENDING-HISTOLOGY-TIGHT-JUNCTION",
+      "title": "The junction that barriers diffusion between cells",
+      "question": "Which of the following structures acts as a barrier to diffusion between adjacent cells?",
+      "options": {
+        "A": "Gap junction",
+        "B": "Desmosome",
+        "C": "Tight junction",
+        "D": "Hemidesmosome"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The gap junction (nexus) leaves a narrow gap bridged by channel proteins that let ions and small molecules pass between cells — it is a communication route, not a diffusion barrier.",
+        "B": "Incorrect. The desmosome (macula adherens) is an adhesion spot anchoring intermediate filaments between cells; it holds cells together mechanically but leaves the intercellular space open, so it does not seal against diffusion.",
+        "C": "Correct. The tight (occluding) junction, the zonula occludens, is the most apical of the lateral junctions. Its adjacent plasma membranes actually fuse at points through transmembrane proteins, obliterating the intercellular space at those points and encircling the apex of the cell like a belt. This makes the epithelium a barrier rather than a sieve, forcing anything crossing it to pass through the cells rather than between them.",
+        "D": "Incorrect. The hemidesmosome anchors a cell's basal surface to the underlying basement membrane, not to an adjacent cell, so it plays no role in sealing the space between neighbouring cells."
+      },
+      "topic": "Histology",
+      "subtopic": "Epithelial tissue: cell junctions",
+      "main_concept": "CON-FND-2EAD7BC676C215",
+      "concept_ids": ["CON-FND-2EAD7BC676C215"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 58,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-101-HIS-MEMBRANOUS-SPECIALISATIONS"],
+      "learning_objective": "Identify the tight junction (zonula occludens) as the epithelial diffusion barrier, distinct from the gap junction, desmosome and hemidesmosome.",
+      "source_citation": "FOMSCU Foundation 1, EOY Final 2026 Q31",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q31; source-JSON extraction.",
+        "reclassification": "find-existing.mjs's multi-word query 'tight junction zonula occludens barrier diffusion' returned no existing record. A direct grep for 'zonula occludens' inside docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md found CON-FND-2EAD7BC676C215, a generic (non-Sertoli-specific) tight-junction concept whose own definition states it 'makes the epithelium a barrier rather than a sieve' — distinct from the AU-MED-105 Sertoli-cell-specific tight-junction concept the triage's automated pass originally (falsely) matched on the bare word 'tight junction'. Overlaid rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md."
+      }
+    }
+  ]
+}

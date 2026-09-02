@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-l-amino-acids",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'biochemistry-l-amino-acids'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": ["ART-SCU-FBS102-BIO-LIPIDS-AMINOACIDS-VITAMINS"],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Amino Acids and Proteins"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-l-amino-acids",
+      "id": "QST-SCUFBS102-S2-BIOCHEMISTRY-L-AMINO-ACIDS",
+      "title": "The naturally occurring amino acid isomer",
+      "question": "What is the specific isomeric type of amino acids that is naturally found in human proteins?",
+      "options": {
+        "A": "D amino acids",
+        "B": "Both L and D amino acids",
+        "C": "L amino acids",
+        "D": "Unspecified racemic mixtures"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. D-amino acids do occur in nature — in some bacterial cell walls and a few peptide antibiotics — but they are not incorporated into human protein.",
+        "B": "Incorrect. Human protein synthesis is stereospecific: only one isomer is used, not a mixture of both.",
+        "C": "Correct. Every standard amino acid except glycine has a chiral alpha-carbon and so exists as D- and L-stereoisomers, mirror images of one another. Only the L-isomer is incorporated into the proteins of the human body — the selectivity comes from the stereospecificity of the ribosomal protein-synthesis machinery, not from any difference in chemical stability between the two forms.",
+        "D": "Incorrect. A racemic mixture is an equal blend of D- and L-forms with no stereochemical preference; human protein synthesis is the opposite of racemic — it selects the L-form specifically."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Amino acids: stereochemistry",
+      "main_concept": "CON-FND-555E4A38A269A6",
+      "concept_ids": ["CON-FND-555E4A38A269A6"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 60,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.15,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-SCU-FBS102-BIO-LIPIDS-AMINOACIDS-VITAMINS"],
+      "learning_objective": "State that human protein is built exclusively from L-amino acids.",
+      "source_citation": "FOMSCU Foundation 1, EOY Final 2026 Q48",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q48; source-JSON extraction.",
+        "reclassification": "The triage's automated pass called this a 'live' hit on the phrase 'L amino acids', which the lane's manual QA pass reclassified as a false positive (not individually verified). find-existing.mjs's multi-word query 'L amino acids naturally occurring in human proteins' returned no existing record, and a direct grep for 'L-amino'/'L amino acid'/'L-isomer'/'levorotatory' across every docs/*-Source-Imports/concept and pending-live directory found no hit. Minted new."
+      }
+    }
+  ]
+}

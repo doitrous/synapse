@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-silver-stain",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'histology-silver-stain'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Connective Tissue > Types of Connective Tissue Proper"
+  },
+  "questions": [
+    {
+      "key": "histology-silver-stain",
+      "id": "QST-SCUFBS102-S2-PENDING-HISTOLOGY-SILVER-STAIN",
+      "title": "The stain that demonstrates reticular fibres",
+      "question": "Which of the following stains is specifically used to demonstrate reticular tissue?",
+      "options": {
+        "A": "Periodic acid Schiff",
+        "B": "Hematoxylin and Eosin",
+        "C": "Silver stain",
+        "D": "Masson trichrome"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Periodic acid Schiff (PAS) does stain reticular fibres red because of their high sugar content, but it is not the stain specifically named for demonstrating them — silver is.",
+        "B": "Incorrect. Reticular fibres are not visible in a routine haematoxylin and eosin section at all, which is precisely why a special stain is needed to show them.",
+        "C": "Correct. Reticular fibres are not visible in a routine H&E section at all. Silver stains them brown — the reason they are called argyrophilic ('silver-loving') — and this is the classic, specifically-named stain for demonstrating them. Collagen and elastic fibres each have their own distinguishing stains instead (collagen: pink with eosin, blue with Mallory's trichrome, red with van Gieson; elastic: pink with eosin, brown with orcein, yellow with van Gieson), so silver is the one reserved for the reticular fibre specifically.",
+        "D": "Incorrect. Masson trichrome differentiates collagen from muscle and other tissue by colour but is not the stain specifically used to demonstrate reticular fibres."
+      },
+      "topic": "Histology",
+      "subtopic": "Connective tissue: fibre stains",
+      "main_concept": "CON-FND-CE178A6B5707B1",
+      "concept_ids": ["CON-FND-CE178A6B5707B1"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 58,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-101-HIS-CONNECTIVE-TISSUE-CELLS"],
+      "learning_objective": "Name silver stain as the classic demonstration stain for reticular fibres (argyrophilic).",
+      "source_citation": "FOMSCU Foundation 1, EOY Final 2026 Q21",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q21; source-JSON extraction.",
+        "reclassification": "find-existing.mjs's multi-word query 'silver stain demonstrates reticular fibers' returned no existing record. A direct grep for 'silver stain' inside docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md found CON-FND-CE178A6B5707B1, whose own definition states 'silver stains them [reticular fibres] brown — the reason they are called argyrophilic'. Overlaid rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md."
+      }
+    }
+  ]
+}

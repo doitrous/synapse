@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-essential-fatty-acids",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'biochemistry-essential-fatty-acids'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": ["ART-SCU-FBS102-BIO-LIPIDS-AMINOACIDS-VITAMINS"],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Lipids of Biological Importance"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-essential-fatty-acids",
+      "id": "QST-SCUFBS102-S2-BIOCHEMISTRY-ESSENTIAL-FATTY-ACIDS",
+      "title": "Which class PUFA generally belongs to",
+      "question": "Polyunsaturated fatty acids are generally considered to belong to which of the following groups?",
+      "options": {
+        "A": "Non essential fatty acids",
+        "B": "Essential fatty acids",
+        "C": "Simple structural phospholipids",
+        "D": "Complex derived steroids"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Non-essential fatty acids are those the body readily synthesises, mainly from carbohydrate — the opposite of what defines an essential fatty acid, and not the group polyunsaturated fatty acids fall into.",
+        "B": "Correct. The two unconditionally essential fatty acids — linoleic acid (omega-6) and alpha-linolenic acid (omega-3) — are both polyunsaturated, so polyunsaturated fatty acids as a class are generally classed as the essential fatty acids. Saturated fatty acids, by contrast, are freely made from carbohydrate and are never essential. (Arachidonic acid, a further omega-6 PUFA, is normally synthesised from linoleic acid and becomes essential only when linoleic acid is deficient — a conditional exception that does not change the general class-level association.)",
+        "C": "Incorrect. Phospholipids are a compound-lipid class defined by their fatty-acid-plus-alcohol-plus-phosphate-group composition, not by degree of saturation — 'polyunsaturated' describes a fatty acid's bonding, not a phospholipid's structural category.",
+        "D": "Incorrect. Steroids (e.g. cholesterol) are a derived-lipid class structurally unrelated to fatty acid chains; polyunsaturation is a fatty-acid property, not a steroid one."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Lipids: fatty acid classification",
+      "main_concept": "CON-FND-C8A3D8D970AF9F",
+      "concept_ids": ["CON-FND-C8A3D8D970AF9F"],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "cognitive_effort_score": 0.25,
+      "reasoning_level": 2,
+      "inferred_difficulty": 55,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.3,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-SCU-FBS102-BIO-LIPIDS-AMINOACIDS-VITAMINS"],
+      "learning_objective": "State that polyunsaturated fatty acids, as a class, are generally classed as the essential fatty acids.",
+      "source_citation": "FOMSCU Foundation 1, EOY Final 2026 Q52",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q52; source-JSON extraction.",
+        "reclassification": "The triage's automated pass called this a 'live' hit on the phrase 'essential fatty acids', which the lane's manual QA pass reclassified as a false positive (not individually verified). find-existing.mjs's multi-word query 'polyunsaturated fatty acids essential' returned no existing record. Kasr's docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md carries both a PUFA-class concept and a named-essential-fatty-acids concept, but neither states the class-level equivalence this question tests — read in full and judged a different fact, so minted new rather than overlaid."
+      }
+    }
+  ]
+}

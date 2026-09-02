@@ -629,7 +629,7 @@ Adenylate cyclase synthesises cAMP from ATP, and phosphodiesterase degrades cAMP
 SCU-FBS102 > Biochemistry > Enzymes and Cell Signalling
 
 ## field_notes
-scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q12 — tests ATP as cAMP's precursor. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md.
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q12 (also 2023 Q12) — one concept covers ATP as cAMP's precursor, asked from both exam years with "directly derived"/"directly synthesized" phrasing; lane 4 (scu-fbs102-author4) adds the second question citing this row. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md.
 
 ---
 
@@ -704,7 +704,7 @@ Glycine is the one amino acid with no asymmetric carbon, making it optically ina
 SCU-FBS102 > Biochemistry > Amino Acids and Proteins
 
 ## field_notes
-scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q5 — tests glycine as optically inactive. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md.
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q5 (also 2023 Q5) — one concept covers glycine as optically inactive, asked from both exam years with "chiral carbon center"/"chiral center" phrasing; lane 4 (scu-fbs102-author4) adds the second question citing this row. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md.
 
 ---
 
@@ -754,7 +754,7 @@ Irreversible inhibitors permanently disable an enzyme, either by blocking its co
 SCU-FBS102 > Biochemistry > Enzymes
 
 ## field_notes
-scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q14 — tests irreversible (covalent) enzyme inhibition. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q14 (also 2023 Q14) — one concept covers irreversible (covalent) enzyme inhibition, asked from both exam years with "forming strong bonds"/"forming strong covalent bonds" phrasing; lane 4 (scu-fbs102-author4) adds the second question citing this row. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
 
 ---
 
@@ -1315,3 +1315,260 @@ SCU-FBS102 > Histology > Cytoplasmic Organelles
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q25 — tests rough ER's role in synthesising protein for export directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---------------------------------------------------------------------------
+BATCH 3 (fourth author lane, scu-fbs102-author4) — histology + biochemistry
+cluster. Nine new sparse SCU-tag overlay rows below, for the nine of this
+lane's sixteen authored questions that reuse an existing concept found only
+after a closer grep pass (find-existing.mjs's multi-word phrase queries
+returned "no existing record" for all nine — the exact substring the tool
+requires was never present — but a direct grep for each candidate's most
+distinctive single term inside `docs/*-Source-Imports/concept/` found a
+genuine match; every hit was read in full before treating it as one). All
+nine ids are checked directly against server/data/medical-library-v1.json's
+concept graph: none of the nine are live, all nine are PENDING against
+Kasr's own unimported batches (apply-after file named per row below). The
+other seven of this lane's sixteen questions are either newly minted
+(sibling concept/SCU-FBS102-s2-author4-mint-concepts.md, four concepts) or a
+second FOMSCU-exam-year citation on a concept already tagged `+scu` above
+(the three field_notes edits just above this divider — ATP, glycine,
+irreversible-inhibition).
+
+Same rule as batches 1 and 2: this file only adds SCU's own tags onto an id
+that already exists elsewhere, never a full record, so it can never evict
+another university's data.
+
+Gate batch 3 together with every file named in this batch's field_notes:
+node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-s2-author4-questions.md \
+  --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md \
+  --with docs/FOMSCU-Source-Imports/concept/SCU-FBS102-s2-author4-mint-concepts.md \
+  --with docs/FOMSCU-Source-Imports/article/SCU-FBS102-s2-author4-mint-articles.md \
+  --with docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md \
+  --with docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md \
+  --with docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md \
+  --with docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md \
+  --with docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md
+---------------------------------------------------------------------------
+
+# Item
+
+## id
+CON-FND-29AD7E837E1E1E
+
+## label
+A mitochondrion is two membranes — a smooth outer one with porins and an inner one folded into cristae — around a matrix that holds its own DNA
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytoplasmic Organelles
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q22 — tests cristae as the mitochondrion's folded inner membrane directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-38ABCC4E4E4E68
+
+## label
+Myo-epithelial cells lie between the base of the secretory cells and the basement membrane, and contract to squeeze secretion into the duct
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Glandular Epithelium
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q30 — tests myoepithelial cells as found around exocrine-gland acini (salivary, mammary, sweat) directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-9EA7F8E2898EB7
+
+## label
+The active fibroblast comes from the mesenchymal cell and is built to synthesise protein
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Connective Tissue > Cells of Connective Tissue
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q33 — tests the fibroblast as the cell that forms ground substance. The Kasr concept's own evidence_gaps note names ground substance as one of the products its definition should be widened to list explicitly (not yet done); this overlay cites the concept as the correct home for the fact rather than minting a rival fibroblast key, per that note's own instruction. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-2560DB7970AF40
+
+## label
+Organelles are living and essential, inclusions are not, and organelles divide into membranous and non-membranous
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytoplasmic Organelles
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOM 2026 Q11 — tests filaments (cytoskeleton) as a non-membranous organelle, among lysosome/mitochondria/peroxisome as membranous distractors. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-1ACE68A9080772
+
+## label
+A lysosome is a single-membrane bag of hydrolytic enzymes made in the rER, packed by the Golgi, and shown only by histochemistry
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytoplasmic Organelles
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOM 2026 Q10-area (asked as "which organelle is formed by the Golgi apparatus") — tests that the lysosome's enzymes are packed and released by the Golgi. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-CE178A6B5707B1
+
+## label
+Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q21 — tests silver stain as the stain that demonstrates reticular fibres directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-MSK-B080975D6171CF
+
+## label
+Skeletal, cardiac and smooth muscle differ across site, size, fibre composition, shape, branching, sarcolemma, striation, nuclei, sarcomeres, tubular system, cell junctions, regeneration, action and innervation
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Muscle Tissue > Smooth Muscle
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q56 (also 2022 Q36) — tests smooth muscle as the involuntary, non-striated muscle type, drawn from this comparison table's striation and action rows. Target — apply after docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-2EAD7BC676C215
+
+## label
+The zonula occludens fuses adjacent membranes at points, encircles the apex of the cell, and seals the space between cells
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Epithelial Tissue
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q31 — tests the tight junction (zonula occludens) as the diffusion barrier between adjacent cells, a generic-epithelium question, distinct from AU-MED-105's Sertoli-cell-specific tight-junction concept the triage's automated pass originally (falsely) matched. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-30D2E317144DDF
+
+## label
+Lipids are classified by composition into simple lipids (fatty acid + alcohol only, e.g. triacylglycerol), compound lipids (fatty acid + alcohol + another group), and derived lipids (hydrolysis products such as free fatty acids and steroids, or substances associated with lipids in nature)
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Lipids of Biological Importance
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q45 (also 2022 Q25) — tests cholesterol as a derived lipid (steroids are this concept's own named derived-lipid example). Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.

@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-filaments",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'histology-filaments'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Cytoplasmic Organelles"
+  },
+  "questions": [
+    {
+      "key": "histology-filaments",
+      "id": "QST-SCUFBS102-S2-PENDING-HISTOLOGY-FILAMENTS",
+      "title": "The non-membranous organelle",
+      "question": "Which of the following structures is classified as a non membranous organelle?",
+      "options": {
+        "A": "Lysosome",
+        "B": "Active cellular mitochondria",
+        "C": "Peroxisome",
+        "D": "Filaments"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The lysosome is bounded by a single limiting membrane, so it is classified among the membranous organelles.",
+        "B": "Incorrect. The mitochondrion is bounded by two unit membranes (outer and inner, folded into cristae), so it too is membranous.",
+        "C": "Incorrect. The peroxisome, like the lysosome, is a single-membrane-bound organelle and is classed as membranous.",
+        "D": "Correct. Organelles are classified by whether they have a limiting membrane. The membranous organelles are the plasma membrane, mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes and peroxisomes; the non-membranous organelles are the ribosomes and the cytoskeleton — the microtubules, microfilaments and intermediate filaments — together with the centrioles, cilia and flagella the cytoskeleton builds. Filaments have no limiting membrane of their own, so they fall in the non-membranous group."
+      },
+      "topic": "Histology",
+      "subtopic": "Cytoplasmic organelles: classification",
+      "main_concept": "CON-FND-2560DB7970AF40",
+      "concept_ids": ["CON-FND-2560DB7970AF40"],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 60,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.1,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-101-HIS-CYTOPLASMIC-ORGANELLES"],
+      "learning_objective": "Sort filaments (cytoskeleton) as non-membranous versus lysosome/mitochondria/peroxisome as membranous organelles.",
+      "source_citation": "FOMSCU Foundation 1, EOM 2026 Q11",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOM 2026 Q11; source-JSON extraction.",
+        "reclassification": "find-existing.mjs's multi-word query 'non membranous cytoplasmic filaments organelle' returned no existing record. A direct grep for 'non-membranous' inside docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md found CON-FND-2560DB7970AF40, whose own definition explicitly sorts every option in this question's option set (lysosome, mitochondria, peroxisome as membranous; ribosomes and cytoskeleton/filaments as non-membranous). Overlaid rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md."
+      }
+    }
+  ]
+}
