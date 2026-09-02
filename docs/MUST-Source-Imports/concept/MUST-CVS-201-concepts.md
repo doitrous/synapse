@@ -10382,3 +10382,1633 @@ uncertainty: Nothing about this concept is genuinely unsettled at undergraduate 
 lastReviewed: New record; no reviewer has seen it yet.
 reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
 exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+
+---
+
+# Item
+
+## label
+Continuous partial vasoconstriction of blood vessels (vasomotor tone) is maintained by ongoing sympathetic discharge
+
+## id
+CON-CVS-511A10F77151BC
+
+## canonical_key
+vasomotortone.basal-sympathetic-maintenance
+
+## definition
+Blood vessels, particularly arterioles, are held in a state of continuous partial constriction called vasomotor tone, produced by ongoing, baseline tonic discharge from sympathetic vasoconstrictor (adrenergic) fibres to vascular smooth muscle, releasing norepinephrine onto alpha-adrenergic receptors even at rest. This resting sympathetic outflow gives arterioles a baseline degree of constriction that can be increased (further sympathetic discharge, raising resistance and pressure) or decreased (withdrawal of sympathetic tone, allowing vasodilation) as a way of regulating vascular resistance and blood pressure. Parasympathetic fibres, by contrast, supply only a limited set of vascular beds and are not the source of this generalised basal tone.
+
+## explicit_objective
+State that basal vasomotor tone is maintained by continuous (tonic) sympathetic vasoconstrictor discharge, not by parasympathetic activity, autoregulation or basal metabolic rate alone.
+
+## pitfalls
+Attributing baseline vessel tone to parasympathetic activity. Parasympathetic vasodilator fibres supply only a few vascular beds (e.g. salivary glands, genital erectile tissue); the generalised, continuous partial constriction of arterioles throughout the body is a sympathetic, not parasympathetic, phenomenon.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Vasomotor tone | Basal sympathetic vasoconstrictor tone
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-VASOMOTOR-TONE
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-VASOMOTOR-TONE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Physiology > Blood Flow > Vasomotor Tone
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.9
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Physiology CVS201 Questions (Final), Q5, key p.9] The continuous, partial vasoconstriction of blood vessels is maintained by: B) Sympathetic tone.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 7; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Epinephrine from the adrenal medulla acts on both alpha- and beta-adrenergic receptors, constricting most vascular beds but dilating skeletal-muscle vessels
+
+## id
+CON-CVS-8EE3B5EE80F342
+
+## canonical_key
+epinephrine.dual-adrenoceptor-vascular-action
+
+## definition
+Epinephrine, released from the adrenal medulla, is unusual among circulating vasoactive hormones because its net vascular effect depends on which adrenergic receptor subtype predominates in a given vascular bed. Acting on alpha-adrenergic receptors, which predominate in skin, splanchnic and renal vessels, epinephrine causes vasoconstriction, the same effect norepinephrine produces almost everywhere. In skeletal muscle, however, where beta2-adrenergic receptors predominate over alpha receptors, epinephrine instead binds beta2 receptors and causes vasodilation, increasing blood flow to muscle during a "fight or flight" response, precisely when the body needs to shunt blood away from the skin and splanchnic circulation and toward the muscles that will do the fighting or fleeing. Norepinephrine, by contrast, acts almost exclusively on alpha receptors and is a vasoconstrictor in essentially every vascular bed it reaches.
+
+## explicit_objective
+State that epinephrine's vascular action is receptor-bed-dependent — vasoconstriction via alpha receptors in most beds, vasodilation via beta2 receptors in skeletal muscle — and contrast this with norepinephrine's near-universal alpha-mediated vasoconstriction.
+
+## pitfalls
+Treating epinephrine as a pure vasoconstrictor like norepinephrine. Epinephrine's affinity for beta2 receptors, which predominate in skeletal-muscle vasculature, makes it the one circulating catecholamine capable of vasodilation in a specific vascular bed, not just vasoconstriction everywhere.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Epinephrine vascular effects | Adrenal medulla vasoactive hormone | Beta-2 skeletal muscle vasodilation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-EPINEPHRINE-DUAL-ACTION
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-EPINEPHRINE-DUAL-ACTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Physiology CVS201 Questions (Final), Q7 & Q23, key p.9] During a "fight or flight" response, epinephrine causes vasodilation in skeletal muscle by acting on: B) Beta-adrenergic receptors. Which hormone is released from the adrenal medulla and can cause both vasoconstriction and vasodilation? C) Epinephrine.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 7; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Kinins (bradykinin) are potent vasodilators that also increase capillary permeability and directly stimulate pain nerve endings
+
+## id
+CON-CVS-AD0D8E768C2018
+
+## canonical_key
+kinins.pain-and-permeability-actions
+
+## definition
+Kinins, of which bradykinin is the prototype, are short-lived peptides formed locally from plasma kininogen by the enzyme kallikrein. Beyond their well-established action as potent local vasodilators, kinins act directly on capillary and venular endothelium to increase capillary permeability, contributing to the fluid exudation seen in acute inflammation, and they directly stimulate free nerve endings that carry pain sensation, producing pain in inflamed or injured tissue — the source paper's own teaching compares this pain-stimulating action to that of insulin, which can similarly excite pain endings when introduced into tissue. This combination of vasodilation, increased capillary permeability and pain generation makes kinins one of the classic local mediators of inflammation, alongside histamine.
+
+## explicit_objective
+State that kinins (bradykinin) both increase capillary permeability and directly stimulate pain sensation, in addition to their vasodilator action.
+
+## pitfalls
+Recalling kinins only as vasodilators and missing their independent pain-stimulating and permeability-increasing actions, which this source's bank tests as separate facts from the vasodilation itself.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Kinins | Bradykinin | Kinin pain stimulation | Kinin capillary permeability
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-KININS-PAIN-PERMEABILITY
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-KININS-PAIN-PERMEABILITY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+The source's own comparison of kinin-induced pain to insulin's pain-stimulating action is stated as fact without further qualification; recorded as the source's own teaching point rather than independently re-derived.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.65
+
+## original_wording
+[EOM MCQs - Physiology CVS201 Questions (Final), Q15 & Q25, key p.9] Which of following helps in stimulation of pain sensation like Insulin: A) Kinins. Which of the following is a direct effect of Kinins? C) Increased capillary permeability.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 7; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: The source's own comparison of kinin-induced pain to insulin's pain-stimulating action is stated as fact without further qualification; recorded as the source's own teaching point rather than independently re-derived.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+The skin flare reaction is vasodilation via the axon reflex, in which antidromic impulses in sensory nerve branches release local vasodilator peptides
+
+## id
+CON-CVS-7F05227FE0970F
+
+## canonical_key
+flarereaction.antidromic-vasodilator-fibers
+
+## definition
+When skin is injured or firmly stimulated, the red "flare" that spreads beyond the directly stimulated site is produced by the axon reflex: an impulse travelling centrally along one branch of a sensory (nociceptive) afferent fibre from the stimulated site can also travel antidromically — backwards, away from the spinal cord — down neighbouring branches of that same afferent neuron that innervate adjacent skin, triggering the local release of vasodilator neuropeptides from the nerve terminals themselves. This local, peripherally-generated vasodilation, driven by antidromic conduction in sensory ("vasodilator") fibres rather than by any efferent autonomic outflow, is what gives the flare its characteristic spread beyond the point of direct injury, and it forms part of the classic "triple response" of the skin (red line, flare, wheal).
+
+## explicit_objective
+State that the skin flare reaction is mediated by antidromic conduction in sensory nerve branches (the axon reflex), not by autonomic efferent vasodilator outflow.
+
+## pitfalls
+Assuming the flare reflects ordinary efferent parasympathetic vasodilation. The flare's mechanism is antidromic — impulses running backward along collateral branches of the same sensory afferent that carries the stimulus centrally — not a centrally-driven autonomic reflex.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Flare reaction | Axon reflex | Antidromic vasodilator fibres | Triple response of the skin
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-FLARE-REACTION-AXON-REFLEX
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-FLARE-REACTION-AXON-REFLEX-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Physiology > Blood Flow > Local Vasodilator Mechanisms
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Physiology CVS201 Questions (Final), Q16, key p.9] The "flare reaction" in the skin is an example of vasodilation mediated by: B) Antidromic vasodilator fibers.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 7; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Endothelin, released by endothelial cells in response to vessel stretch, is the most potent vasoconstrictor known
+
+## id
+CON-CVS-7D26B65DA355A1
+
+## canonical_key
+endothelin.stretch-induced-vasoconstrictor
+
+## definition
+Endothelin (endothelin-1 being the principal vascular isoform) is a peptide synthesised and released by vascular endothelial cells in response to mechanical stimuli such as stretch of the vessel wall, as well as tissue injury, hypoxia and several circulating hormones (angiotensin II, vasopressin). It acts on endothelin-A receptors on vascular smooth muscle to produce intense, prolonged vasoconstriction, making it one of the most potent vasoconstrictor substances identified, considerably more potent on a molar basis than angiotensin II or norepinephrine. This stretch-triggered release places endothelin alongside nitric oxide as one of the endothelium's own local paracrine signals, but acting in the opposite direction: whereas shear stress and stretch stimulate endothelial nitric oxide release to vasodilate, the same mechanical stimuli can also trigger endothelin release to vasoconstrict, and the balance between the two contributes to local vascular tone regulation.
+
+## explicit_objective
+Identify endothelin as an endothelium-derived, stretch-triggered peptide and the most potent vasoconstrictor known, contrasting its release stimulus and direction of action with endothelial nitric oxide.
+
+## pitfalls
+Confusing endothelin's stimulus (vessel-wall stretch and shear-related injury) or its direction of action (vasoconstriction) with nitric oxide or prostacyclin, the endothelium's other stretch/shear-responsive but vasodilator signals.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Endothelin | Endothelin-1 | ET-1
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-ENDOTHELIN-VASOCONSTRICTOR
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-ENDOTHELIN-VASOCONSTRICTOR-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.9
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Physiology CVS201 Questions (Final), Q19, key p.9] Which endothelial substance is a potent vasoconstrictor released in response to vessel stretch? C) Endothelin.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 7; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Blood vessels are classified functionally as resistance vessels (arterioles), exchange vessels (capillaries) or capacitance vessels (veins)
+
+## id
+CON-CVS-3E68C888B95668
+
+## canonical_key
+vascularsegments.functional-classification-exchange
+
+## definition
+Beyond their conducting role, the segments of the vascular tree are classified by their principal physiological function. Arterioles are the resistance vessels: their small lumen and thick smooth-muscle wall let them actively regulate vascular resistance and so control both local blood flow and total peripheral resistance. Capillaries are the exchange vessels: their wall is a single layer of endothelium, thin enough and with a large enough total surface area to allow diffusion of gases, nutrients and waste products between blood and interstitial fluid, which is their primary physiological function; they have no smooth muscle of their own and cannot actively change diameter. Veins are the capacitance vessels: their thin, highly distensible wall and large lumen let them hold a large proportion of total blood volume (roughly 60-70% at rest) with only a small rise in pressure, buffering venous return rather than doing the active flow-control work of arterioles or the exchange work of capillaries.
+
+## explicit_objective
+Name capillaries as the exchange vessels of the circulation, and distinguish this functional role from the resistance role of arterioles and the capacitance role of veins.
+
+## pitfalls
+Confusing the vessel segment named for a given functional role — assigning "resistance" to capillaries or "exchange" to arterioles, rather than keeping arteriole=resistance, capillary=exchange, vein=capacitance as three distinct, non-overlapping functional labels.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Exchange vessels | Resistance vessels | Capacitance vessels | Functional vessel classification
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-VASCULAR-FUNCTIONAL-CLASSIFICATION
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-VASCULAR-FUNCTIONAL-CLASSIFICATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Physiology > Blood Flow > Vessel Function
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.9
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.75
+
+## original_wording
+[EOM MCQs - Physiology CVS201 Questions (Final), Q20, key p.9] The primary function of the capillaries is: C) Exchange.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 7; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Prostacyclin (PGI2), synthesised by endothelium from arachidonic acid via cyclooxygenase, is a local vasodilator as well as a platelet-aggregation inhibitor
+
+## id
+CON-CVS-487BC301A49AE2
+
+## canonical_key
+prostacyclin.endothelial-vasodilator
+
+## definition
+Prostacyclin (prostaglandin I2, PGI2) is synthesised by vascular endothelial cells from arachidonic acid via the cyclooxygenase (COX) pathway, the same enzymatic route platelets use to make the opposing eicosanoid thromboxane A2. In the vasculature, prostacyclin acts on vascular smooth muscle to raise intracellular cAMP, relaxing the muscle and producing local vasodilation, an action distinct from — though it works alongside — its better-known role of inhibiting platelet aggregation to keep circulating platelets from adhering to intact endothelium. Because prostacyclin and thromboxane A2 come from the same substrate and the same enzyme family but act in opposite directions — prostacyclin vasodilates and inhibits platelets, thromboxane A2 vasoconstricts and promotes platelet aggregation — the balance between the two contributes both to local vascular tone and to normal haemostatic balance at the vessel wall.
+
+## explicit_objective
+Identify prostacyclin as an arachidonic-acid-derived, endothelium-produced local vasodilator, distinct from (though related to) its anti-platelet-aggregation role.
+
+## pitfalls
+Recalling prostacyclin only for its anti-platelet action and missing its independent local vasodilator action on vascular smooth muscle, which is the specific fact this source's bank tests.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Prostacyclin | PGI2 | Prostaglandin I2
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-PROSTACYCLIN-VASODILATOR
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-PROSTACYCLIN-VASODILATOR-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+CON-HEM-2A74F18E1AA1CF (live, "Aspirin inhibits cyclooxygenase and reduces thromboxane A2 and prostacyclin") and the pending 102-INT thromboxane–prostacyclin haemostasis-balance concept were both checked — both state prostacyclin's anti-platelet role via COX inhibition, not its direct vasodilator action on vascular smooth muscle, which is the specific fact this source's bank tests. Judged a different facet, not a duplicate, the same call made elsewhere in this lane for closely related but distinct depths of the same substance.
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Physiology CVS201 Questions (Final), Q28, key p.9] Which substance, derived from arachidonic acid, is a vasodilator produced by the endothelium? C) Prostacyclin.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 7; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+Left ventricular receptors act as both mechanoreceptors and chemoreceptors, and their stimulation (the Bezold-Jarisch reflex) causes bradycardia and hypotension
+
+## id
+CON-CVS-E48F6E57CCBB2F
+
+## canonical_key
+ventricularreceptors.mechano-chemo-bezold-jarisch
+
+## definition
+Unlike the arterial baroreceptors (pure mechanoreceptors, stretch-sensitive only) and the peripheral chemoreceptors (pure chemoreceptors, sensitive to blood gases and pH), sensory receptors in the wall of the left ventricle are unusual in responding to both mechanical stimuli (distension or stretch of the ventricular wall) and chemical stimuli (local accumulation of metabolites, or exogenous substances reaching the coronary circulation during myocardial ischaemia). Vagal afferent stimulation of these ventricular receptors produces the Bezold-Jarisch reflex, also called the coronary chemoreflex: a triad of bradycardia, hypotension and coronary vasodilation — the opposite of the usual sympathetic response to a fall in pressure — mediated by a sudden surge of parasympathetic (vagal) outflow to the heart and withdrawal of sympathetic vasoconstrictor tone. Clinically this reflex is invoked to explain the bradycardia and hypotension that can accompany inferior myocardial infarction or reperfusion of an ischaemic coronary territory.
+
+## explicit_objective
+Identify left ventricular receptors as both mechano- and chemoreceptors, and state that their reflex (Bezold-Jarisch) produces bradycardia and hypotension via increased vagal outflow.
+
+## pitfalls
+Confusing left ventricular receptors with the purely-mechanoreceptor arterial baroreceptors, or assuming the Bezold-Jarisch reflex raises, rather than lowers, heart rate and pressure — it is a paradoxical bradycardic, hypotensive reflex, the opposite of the usual pressor response to a falling pressure.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Bezold-Jarisch reflex | Coronary chemoreflex | Left ventricular receptors
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Arterial Blood Pressure Regulation
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-BEZOLD-JARISCH-REFLEX
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-BEZOLD-JARISCH-REFLEX-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Reflex Control
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Physiology CVS201 Questions (Final), Q5 & Q27, key p.20] Which of the following is both mechano-receptor & chemo-receptor? A) Left ventricular receptors. The Bazold-Jarish reflex (coronary chemoreflex) results in: B) Bradycardia and hypotension.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 7; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
+
+---
+
+# Item
+
+## label
+The medullary vasomotor centre has pressor (vasoconstrictor) and depressor (vasodilator) areas, and a separate cardiac inhibitory centre slows the heart via the vagus
+
+## id
+CON-CVS-595DFC43B96D7D
+
+## canonical_key
+medullarycenters.pressor-and-cardiac-areas
+
+## definition
+Cardiovascular control originates in a set of interconnected centres in the reticular formation of the medulla oblongata (and lower pons). The vasomotor centre is divided into a pressor area, which contains the vasoconstrictor centre (VCC) and generates the tonic sympathetic discharge that maintains vasomotor tone and raises arterial pressure when activated, and a depressor area, which inhibits the pressor area's output and so produces vasodilation when activated (rather than actively vasodilating by its own efferent output). A separate cardiac inhibitory centre (CIC), closely linked to the vasomotor centre and to the nucleus of the tractus solitarius (which relays baroreceptor and chemoreceptor afferents into these centres), sends parasympathetic (vagal) efferent impulses to the heart's sinoatrial node, slowing heart rate when activated; a cardiac stimulatory (accelerator) centre conversely raises heart rate and contractility via sympathetic outflow. These centres integrate baroreceptor, chemoreceptor and higher-centre input to set the moment-to-moment balance of heart rate, contractility and vascular resistance.
+
+## explicit_objective
+Name the pressor area (containing the vasoconstrictor centre) and the depressor area as the two divisions of the medullary vasomotor centre, and identify the cardiac inhibitory centre as the source of vagal, heart-rate-slowing outflow.
+
+## pitfalls
+Confusing the depressor area's mechanism (inhibiting the pressor area's tonic output) with an active vasodilator efferent output of its own, or misattributing the vagal, heart-rate-slowing outflow to the pressor/vasoconstrictor area rather than to the separate cardiac inhibitory centre.
+
+## concept_type
+structural_description
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## aliases
+Vasomotor centre | Pressor area | Depressor area | Cardiac inhibitory centre | Vasoconstrictor centre
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Arterial Blood Pressure Regulation
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## article_ids
+ART-CVS-MEDULLARY-CARDIOVASCULAR-CENTERS
+
+## related_article_ids
+
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-CVS-MEDULLARY-CARDIOVASCULAR-CENTERS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+The source paper states this without qualification; nothing was found to record.
+
+## uncertainty
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## modules
+MUST-CVS-201
+
+## module_subject
+MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Medullary Centres
+
+## universities
+must
+
+## learner_years
+2
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+MUST_Y2=0.6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.9
+
+## exam_signal
+
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## original_wording
+[EOM MCQs - Physiology CVS201 Questions (Final), Q19 & Q20, key p.20] The Vasoconstrictor Center (VCC) is part of which medullary area? C) Pressor Area. Which center sends impulses via the vagus nerve to decrease heart rate? D) Cardiac Inhibitory Center (CIC).
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
+microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
+nanotopicId: The microtopic level is unused here; a nanotopic beneath it would be finer than anything the source distinguishes.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module corpus holds no video for this fact.
+atomicClaimIds: This lane is limited to concept/article/evidence records for tranche 7; see evidence/MUST-CVS-201-claims.md for the claim minted alongside this concept.
+resourceOccurrenceIds: Read from the printed answer key by hand rather than by an extraction pipeline, so no corpus occurrence record exists to point at.
+sourceCandidateIds: The source is known exactly, not a candidate — it is the printed MCQ paper named on resource_ids.
+mergeIds: Nothing has been merged into this concept.
+moduleIds: MUST-CVS-201 is this concept's first module tag; no other lane has claimed it yet.
+conflicts: The source paper states this without qualification; nothing was found to record.
+uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.

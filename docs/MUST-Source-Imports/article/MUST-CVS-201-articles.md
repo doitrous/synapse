@@ -9299,3 +9299,1119 @@ src_67efbd148b42c6593611
 
 ## field_notes
 arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+
+
+---
+
+# Item
+
+## id
+ART-CVS-VASOMOTOR-TONE
+
+## title
+Vasomotor Tone
+
+## arabic_title
+
+
+## aliases
+
+
+## subject
+cvs
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Blood vessels, particularly arterioles, are held in a state of continuous partial constriction called vasomotor tone, produced by ongoing, baseline tonic discharge from sympathetic vasoconstrictor fibres to vascular smooth muscle, releasing norepinephrine onto alpha-adrenergic receptors even at rest.
+
+## sections
+### Definition
+Blood vessels, particularly arterioles, are held in a state of continuous partial constriction called vasomotor tone, produced by ongoing, baseline tonic discharge from sympathetic vasoconstrictor (adrenergic) fibres to vascular smooth muscle, releasing norepinephrine onto alpha-adrenergic receptors even at rest.
+
+### Mechanism
+This resting sympathetic outflow gives arterioles a baseline degree of constriction that can be increased (further sympathetic discharge, raising resistance and pressure) or decreased (withdrawal of sympathetic tone, allowing vasodilation) as a way of regulating vascular resistance and blood pressure.
+
+### Key determinants
+Attributing baseline vessel tone to parasympathetic activity. Parasympathetic vasodilator fibres supply only a few vascular beds; the generalised, continuous partial constriction of arterioles throughout the body is a sympathetic, not parasympathetic, phenomenon.
+
+### Clinical significance
+[EOM MCQs - Physiology CVS201 Questions (Final), Q5, key p.9] The continuous, partial vasoconstriction of blood vessels is maintained by: B) Sympathetic tone.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Continuous partial vasoconstriction of blood vessels (vasomotor tone) is maintained by ongoing sympathetic discharge
+
+## lose_the_mark
+Attributing baseline vessel tone to parasympathetic activity. Parasympathetic vasodilator fibres supply only a few vascular beds; the generalised, continuous partial constriction of arterioles throughout the body is a sympathetic, not parasympathetic, phenomenon.
+
+## callout_evidence
+### Continuous partial vasoconstriction of blood vessels (vasomotor tone) is maintained by ongoing sympathetic discharge
+Claims: CLM-CVS-VASOMOTOR-TONE-01
+Citations: CIT-VASOMOTOR-TONE-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-511A10F77151BC
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## article_source_ids
+src_165188e079f0f475e54d
+
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+
+---
+
+# Item
+
+## id
+ART-CVS-EPINEPHRINE-DUAL-ACTION
+
+## title
+Epinephrine's Dual Adrenoceptor Vascular Action
+
+## arabic_title
+
+
+## aliases
+
+
+## subject
+cvs
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+4
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Epinephrine's net vascular effect depends on which adrenergic receptor subtype predominates in a given vascular bed: alpha-mediated vasoconstriction in most beds, but beta2-mediated vasodilation in skeletal muscle.
+
+## sections
+### Definition
+Epinephrine, released from the adrenal medulla, is unusual among circulating vasoactive hormones because its net vascular effect depends on which adrenergic receptor subtype predominates in a given vascular bed.
+
+### Mechanism
+Acting on alpha-adrenergic receptors, which predominate in skin, splanchnic and renal vessels, epinephrine causes vasoconstriction, the same effect norepinephrine produces almost everywhere. In skeletal muscle, where beta2-adrenergic receptors predominate over alpha receptors, epinephrine instead binds beta2 receptors and causes vasodilation, increasing blood flow to muscle during a "fight or flight" response.
+
+### Key determinants
+Treating epinephrine as a pure vasoconstrictor like norepinephrine. Epinephrine's affinity for beta2 receptors, which predominate in skeletal-muscle vasculature, makes it the one circulating catecholamine capable of vasodilation in a specific vascular bed.
+
+### Clinical significance
+[EOM MCQs - Physiology CVS201 Questions (Final), Q7 & Q23, key p.9] During a "fight or flight" response, epinephrine causes vasodilation in skeletal muscle by acting on: B) Beta-adrenergic receptors. Which hormone is released from the adrenal medulla and can cause both vasoconstriction and vasodilation? C) Epinephrine.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Epinephrine from the adrenal medulla acts on both alpha- and beta-adrenergic receptors, constricting most vascular beds but dilating skeletal-muscle vessels
+
+## lose_the_mark
+Treating epinephrine as a pure vasoconstrictor like norepinephrine. Epinephrine's affinity for beta2 receptors, which predominate in skeletal-muscle vasculature, makes it the one circulating catecholamine capable of vasodilation in a specific vascular bed.
+
+## callout_evidence
+### Epinephrine from the adrenal medulla acts on both alpha- and beta-adrenergic receptors, constricting most vascular beds but dilating skeletal-muscle vessels
+Claims: CLM-CVS-EPINEPHRINE-DUAL-ACTION-01
+Citations: CIT-EPINEPHRINE-DUAL-ACTION-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-8EE3B5EE80F342
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## article_source_ids
+src_165188e079f0f475e54d
+
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+
+---
+
+# Item
+
+## id
+ART-CVS-KININS-PAIN-PERMEABILITY
+
+## title
+Kinins — Pain and Permeability Actions
+
+## arabic_title
+
+
+## aliases
+
+
+## subject
+cvs
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Kinins (bradykinin) are potent local vasodilators that also increase capillary permeability and directly stimulate pain nerve endings, alongside histamine one of the classic mediators of local inflammation.
+
+## sections
+### Definition
+Kinins, of which bradykinin is the prototype, are short-lived peptides formed locally from plasma kininogen by the enzyme kallikrein.
+
+### Mechanism
+Beyond their action as potent local vasodilators, kinins act directly on capillary and venular endothelium to increase capillary permeability, and they directly stimulate free nerve endings that carry pain sensation, producing pain in inflamed or injured tissue.
+
+### Key determinants
+Recalling kinins only as vasodilators and missing their independent pain-stimulating and permeability-increasing actions, which this source's bank tests as separate facts from the vasodilation itself.
+
+### Clinical significance
+[EOM MCQs - Physiology CVS201 Questions (Final), Q15 & Q25, key p.9] Which of following helps in stimulation of pain sensation like Insulin: A) Kinins. Which of the following is a direct effect of Kinins? C) Increased capillary permeability.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Kinins (bradykinin) are potent vasodilators that also increase capillary permeability and directly stimulate pain nerve endings
+
+## lose_the_mark
+Recalling kinins only as vasodilators and missing their independent pain-stimulating and permeability-increasing actions, which this source's bank tests as separate facts from the vasodilation itself.
+
+## callout_evidence
+### Kinins (bradykinin) are potent vasodilators that also increase capillary permeability and directly stimulate pain nerve endings
+Claims: CLM-CVS-KININS-PAIN-PERMEABILITY-01
+Citations: CIT-KININS-PAIN-PERMEABILITY-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-AD0D8E768C2018
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## article_source_ids
+src_165188e079f0f475e54d
+
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+
+---
+
+# Item
+
+## id
+ART-CVS-FLARE-REACTION-AXON-REFLEX
+
+## title
+Flare Reaction and the Axon Reflex
+
+## arabic_title
+
+
+## aliases
+
+
+## subject
+cvs
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+3
+
+## high_yield
+Supplementary
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+The skin flare reaction is vasodilation via the axon reflex, in which antidromic impulses in sensory nerve branches release local vasodilator peptides, part of the classic triple response of the skin.
+
+## sections
+### Definition
+When skin is injured or firmly stimulated, the red "flare" that spreads beyond the directly stimulated site is produced by the axon reflex.
+
+### Mechanism
+An impulse travelling centrally along one branch of a sensory afferent fibre from the stimulated site can also travel antidromically down neighbouring branches of that same afferent neuron that innervate adjacent skin, triggering local release of vasodilator neuropeptides from the nerve terminals themselves.
+
+### Key determinants
+Assuming the flare reflects ordinary efferent parasympathetic vasodilation. The flare's mechanism is antidromic conduction in sensory fibres, not a centrally-driven autonomic reflex.
+
+### Clinical significance
+[EOM MCQs - Physiology CVS201 Questions (Final), Q16, key p.9] The "flare reaction" in the skin is an example of vasodilation mediated by: B) Antidromic vasodilator fibers.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+The skin flare reaction is vasodilation via the axon reflex, in which antidromic impulses in sensory nerve branches release local vasodilator peptides
+
+## lose_the_mark
+Assuming the flare reflects ordinary efferent parasympathetic vasodilation. The flare's mechanism is antidromic conduction in sensory fibres, not a centrally-driven autonomic reflex.
+
+## callout_evidence
+### The skin flare reaction is vasodilation via the axon reflex, in which antidromic impulses in sensory nerve branches release local vasodilator peptides
+Claims: CLM-CVS-FLARE-REACTION-AXON-REFLEX-01
+Citations: CIT-FLARE-REACTION-AXON-REFLEX-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-7F05227FE0970F
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## article_source_ids
+src_165188e079f0f475e54d
+
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+
+---
+
+# Item
+
+## id
+ART-CVS-ENDOTHELIN-VASOCONSTRICTOR
+
+## title
+Endothelin
+
+## arabic_title
+
+
+## aliases
+
+
+## subject
+cvs
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Endothelin, released by endothelial cells in response to vessel stretch and injury, is the most potent vasoconstrictor known, acting opposite to endothelial nitric oxide.
+
+## sections
+### Definition
+Endothelin (endothelin-1) is a peptide synthesised and released by vascular endothelial cells in response to mechanical stimuli such as stretch of the vessel wall, tissue injury, hypoxia and several circulating hormones.
+
+### Mechanism
+It acts on endothelin-A receptors on vascular smooth muscle to produce intense, prolonged vasoconstriction, considerably more potent on a molar basis than angiotensin II or norepinephrine.
+
+### Key determinants
+Confusing endothelin's stimulus or direction of action with nitric oxide or prostacyclin, the endothelium's other stretch/shear-responsive but vasodilator signals.
+
+### Clinical significance
+[EOM MCQs - Physiology CVS201 Questions (Final), Q19, key p.9] Which endothelial substance is a potent vasoconstrictor released in response to vessel stretch? C) Endothelin.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Endothelin, released by endothelial cells in response to vessel stretch, is the most potent vasoconstrictor known
+
+## lose_the_mark
+Confusing endothelin's stimulus or direction of action with nitric oxide or prostacyclin, the endothelium's other stretch/shear-responsive but vasodilator signals.
+
+## callout_evidence
+### Endothelin, released by endothelial cells in response to vessel stretch, is the most potent vasoconstrictor known
+Claims: CLM-CVS-ENDOTHELIN-VASOCONSTRICTOR-01
+Citations: CIT-ENDOTHELIN-VASOCONSTRICTOR-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-7D26B65DA355A1
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## article_source_ids
+src_165188e079f0f475e54d
+
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+
+---
+
+# Item
+
+## id
+ART-CVS-VASCULAR-FUNCTIONAL-CLASSIFICATION
+
+## title
+Functional Classification of Blood Vessels
+
+## arabic_title
+
+
+## aliases
+
+
+## subject
+cvs
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Blood vessels are classified functionally as resistance vessels (arterioles), exchange vessels (capillaries) or capacitance vessels (veins).
+
+## sections
+### Definition
+Arterioles are the resistance vessels, capillaries the exchange vessels, and veins the capacitance vessels of the circulation.
+
+### Mechanism
+Capillaries are a single layer of endothelium, thin enough and with a large enough total surface area to allow diffusion of gases, nutrients and waste products between blood and interstitial fluid, which is their primary physiological function; they have no smooth muscle and cannot actively change diameter.
+
+### Key determinants
+Confusing the vessel segment named for a given functional role — keep arteriole=resistance, capillary=exchange, vein=capacitance as three distinct labels.
+
+### Clinical significance
+[EOM MCQs - Physiology CVS201 Questions (Final), Q20, key p.9] The primary function of the capillaries is: C) Exchange.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Blood vessels are classified functionally as resistance vessels (arterioles), exchange vessels (capillaries) or capacitance vessels (veins)
+
+## lose_the_mark
+Confusing the vessel segment named for a given functional role — keep arteriole=resistance, capillary=exchange, vein=capacitance as three distinct labels.
+
+## callout_evidence
+### Blood vessels are classified functionally as resistance vessels (arterioles), exchange vessels (capillaries) or capacitance vessels (veins)
+Claims: CLM-CVS-VASCULAR-FUNCTIONAL-CLASSIFICATION-01
+Citations: CIT-VASCULAR-FUNCTIONAL-CLASSIFICATION-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-3E68C888B95668
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## article_source_ids
+src_165188e079f0f475e54d
+
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+
+---
+
+# Item
+
+## id
+ART-CVS-PROSTACYCLIN-VASODILATOR
+
+## title
+Prostacyclin as a Vasodilator
+
+## arabic_title
+
+
+## aliases
+
+
+## subject
+cvs
+
+## topic
+Physiology
+
+## subtopic
+Blood Flow
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Prostacyclin (PGI2), synthesised by endothelium from arachidonic acid via cyclooxygenase, is a local vasodilator as well as a platelet-aggregation inhibitor.
+
+## sections
+### Definition
+Prostacyclin is synthesised by vascular endothelial cells from arachidonic acid via the cyclooxygenase pathway, the same route platelets use to make the opposing eicosanoid thromboxane A2.
+
+### Mechanism
+Prostacyclin acts on vascular smooth muscle to raise intracellular cAMP, relaxing the muscle and producing local vasodilation, distinct from its better-known anti-platelet-aggregation role.
+
+### Key determinants
+Recalling prostacyclin only for its anti-platelet action and missing its independent local vasodilator action on vascular smooth muscle.
+
+### Clinical significance
+[EOM MCQs - Physiology CVS201 Questions (Final), Q28, key p.9] Which substance, derived from arachidonic acid, is a vasodilator produced by the endothelium? C) Prostacyclin.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Prostacyclin (PGI2), synthesised by endothelium from arachidonic acid via cyclooxygenase, is a local vasodilator as well as a platelet-aggregation inhibitor
+
+## lose_the_mark
+Recalling prostacyclin only for its anti-platelet action and missing its independent local vasodilator action on vascular smooth muscle.
+
+## callout_evidence
+### Prostacyclin (PGI2), synthesised by endothelium from arachidonic acid via cyclooxygenase, is a local vasodilator as well as a platelet-aggregation inhibitor
+Claims: CLM-CVS-PROSTACYCLIN-VASODILATOR-01
+Citations: CIT-PROSTACYCLIN-VASODILATOR-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-487BC301A49AE2
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## article_source_ids
+src_165188e079f0f475e54d
+
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+
+---
+
+# Item
+
+## id
+ART-CVS-BEZOLD-JARISCH-REFLEX
+
+## title
+Bezold-Jarisch Reflex
+
+## arabic_title
+
+
+## aliases
+
+
+## subject
+cvs
+
+## topic
+Physiology
+
+## subtopic
+Arterial Blood Pressure Regulation
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+4
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Left ventricular receptors act as both mechanoreceptors and chemoreceptors, and their stimulation (the Bezold-Jarisch reflex) causes bradycardia and hypotension.
+
+## sections
+### Definition
+Sensory receptors in the wall of the left ventricle respond to both mechanical stimuli (wall stretch) and chemical stimuli (local metabolites, coronary ischaemia), unlike the purely mechanical arterial baroreceptors.
+
+### Mechanism
+Vagal afferent stimulation of these ventricular receptors produces the Bezold-Jarisch reflex (coronary chemoreflex): bradycardia, hypotension and coronary vasodilation, mediated by a surge of parasympathetic outflow and withdrawal of sympathetic vasoconstrictor tone.
+
+### Key determinants
+Confusing left ventricular receptors with the purely mechanoreceptor arterial baroreceptors, or assuming the reflex raises rather than lowers heart rate and pressure.
+
+### Clinical significance
+[EOM MCQs - Physiology CVS201 Questions (Final), Q5 & Q27, key p.20] Which of the following is both mechano-receptor & chemo-receptor? A) Left ventricular receptors. The Bazold-Jarish reflex (coronary chemoreflex) results in: B) Bradycardia and hypotension.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Left ventricular receptors act as both mechanoreceptors and chemoreceptors, and their stimulation (the Bezold-Jarisch reflex) causes bradycardia and hypotension
+
+## lose_the_mark
+Confusing left ventricular receptors with the purely mechanoreceptor arterial baroreceptors, or assuming the reflex raises rather than lowers heart rate and pressure.
+
+## callout_evidence
+### Left ventricular receptors act as both mechanoreceptors and chemoreceptors, and their stimulation (the Bezold-Jarisch reflex) causes bradycardia and hypotension
+Claims: CLM-CVS-BEZOLD-JARISCH-REFLEX-01
+Citations: CIT-BEZOLD-JARISCH-REFLEX-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-E48F6E57CCBB2F
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## article_source_ids
+src_165188e079f0f475e54d
+
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
+
+---
+
+# Item
+
+## id
+ART-CVS-MEDULLARY-CARDIOVASCULAR-CENTERS
+
+## title
+Medullary Cardiovascular Centres
+
+## arabic_title
+
+
+## aliases
+
+
+## subject
+cvs
+
+## topic
+Physiology
+
+## subtopic
+Arterial Blood Pressure Regulation
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 2 systems
+
+## reading_time
+4
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+The medullary vasomotor centre has pressor (vasoconstrictor) and depressor (vasodilator) areas, and a separate cardiac inhibitory centre slows the heart via the vagus.
+
+## sections
+### Definition
+Cardiovascular control originates in interconnected centres in the medulla oblongata: the vasomotor centre (pressor and depressor areas) and the cardiac inhibitory and stimulatory centres.
+
+### Mechanism
+The pressor area contains the vasoconstrictor centre and generates tonic sympathetic discharge; the depressor area inhibits the pressor area's output rather than vasodilating on its own. The cardiac inhibitory centre sends vagal efferents to the SA node, slowing heart rate.
+
+### Key determinants
+Confusing the depressor area's inhibitory mechanism with an active vasodilator output, or misattributing vagal, heart-rate-slowing outflow to the pressor area rather than the separate cardiac inhibitory centre.
+
+### Clinical significance
+[EOM MCQs - Physiology CVS201 Questions (Final), Q19 & Q20, key p.20] The Vasoconstrictor Center (VCC) is part of which medullary area? C) Pressor Area. Which center sends impulses via the vagus nerve to decrease heart rate? D) Cardiac Inhibitory Center (CIC).
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+The medullary vasomotor centre has pressor (vasoconstrictor) and depressor (vasodilator) areas, and a separate cardiac inhibitory centre slows the heart via the vagus
+
+## lose_the_mark
+Confusing the depressor area's inhibitory mechanism with an active vasodilator output, or misattributing vagal, heart-rate-slowing outflow to the pressor area rather than the separate cardiac inhibitory centre.
+
+## callout_evidence
+### The medullary vasomotor centre has pressor (vasoconstrictor) and depressor (vasodilator) areas, and a separate cardiac inhibitory centre slows the heart via the vagus
+Claims: CLM-CVS-MEDULLARY-CARDIOVASCULAR-CENTERS-01
+Citations: CIT-MEDULLARY-CARDIOVASCULAR-CENTERS-01
+Reviewed by: Claude
+Reviewed at: 
+
+## related_concepts
+CON-CVS-595DFC43B96D7D
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_165188e079f0f475e54d
+
+## article_source_ids
+src_165188e079f0f475e54d
+
+## field_notes
+arabicTitle: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
