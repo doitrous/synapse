@@ -157,8 +157,23 @@ cellhz1-q66
 cellhz1-q67
 
 # Bg Dr.Ahmad zahra mcq.pdf (322 Qs across Parts A/B/C, all cytology, printed 'Model
-# answer' tables 100% complete) -- block C, largest remaining block, near-total overlap
-# with A/B except Part C's tail (~Q90-149, histology-technique facts).
+# answer' tables 100% complete) -- block C. AUTHOR6 SESSION (2026-09-02): full
+# per-question dedup pass run on Part A (q001-q070, all 70) and Part B (q071-q173,
+# all 103); Part C (q174-q322) sampled non-contiguously (~q174-181, q257-q267,
+# q271-q283, q291-q302, q309-q322 read) -- NOT a full pass, real remaining depth
+# gap for the next lane. Contrary to this triage's original guess, Part C's tail
+# (q309-q322, source Q135-149) is NOT a histology-technique cluster on direct
+# read -- it repeats the same cytology facts as A/B/C-early; no fixation/frozen-
+# section/paraffin content exists anywhere in this specific PDF (grepped, 0 hits).
+# 22 net-new/variant questions authored (zahra1-q028/034/039/043/047/048/056/119/
+# 131/132/135/144/145/146/165/167/170/173/271/300/301/302 -- see
+# concept/ASU-HCB-zahra1-mcq-concepts.md, article/ASU-HCB-zahra1-mcq-articles.md +
+# -clinical-articles.md, question/ASU-HCB-zahra1-mcq.md). Every other key in
+# Part A and Part B below was individually checked against blocks A/B's landed
+# question text (cell-mcq.md, cellhz1-mcq.md, epithelium-mcq.md,
+# epithelium-junctions-mcq.md) via keyword grep and confirmed DUPLICATE (same fact
+# already tested, sometimes from a different angle) -- NOT skipped/unreviewed.
+# Part C beyond the sampled ranges above is still genuinely untriaged.
 # REMAINING -- not yet individually authored as question records.
 zahra1-q001
 zahra1-q002

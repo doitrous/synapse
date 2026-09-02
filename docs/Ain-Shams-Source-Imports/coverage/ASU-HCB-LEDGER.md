@@ -3,7 +3,7 @@
 | cell | 46 | 0 | 0 | 46 |
 | cellhz1 | 67 | 0 | 0 | 67 |
 | epith | 33 | 0 | 0 | 33 |
-| zahra1 | 0 | 0 | 322 | 322 |
+| zahra1 | 22 | 0 | 300 | 322 |
 | zahra2 | 0 | 0 | 36 | 36 |
 
 ## Held
@@ -37,27 +37,21 @@
 - zahra1-q025
 - zahra1-q026
 - zahra1-q027
-- zahra1-q028
 - zahra1-q029
 - zahra1-q030
 - zahra1-q031
 - zahra1-q032
 - zahra1-q033
-- zahra1-q034
 - zahra1-q035
 - zahra1-q036
 - zahra1-q037
 - zahra1-q038
-- zahra1-q039
 - zahra1-q040
 - zahra1-q041
 - zahra1-q042
-- zahra1-q043
 - zahra1-q044
 - zahra1-q045
 - zahra1-q046
-- zahra1-q047
-- zahra1-q048
 - zahra1-q049
 - zahra1-q050
 - zahra1-q051
@@ -65,7 +59,6 @@
 - zahra1-q053
 - zahra1-q054
 - zahra1-q055
-- zahra1-q056
 - zahra1-q057
 - zahra1-q058
 - zahra1-q059
@@ -128,7 +121,6 @@
 - zahra1-q116
 - zahra1-q117
 - zahra1-q118
-- zahra1-q119
 - zahra1-q120
 - zahra1-q121
 - zahra1-q122
@@ -140,11 +132,8 @@
 - zahra1-q128
 - zahra1-q129
 - zahra1-q130
-- zahra1-q131
-- zahra1-q132
 - zahra1-q133
 - zahra1-q134
-- zahra1-q135
 - zahra1-q136
 - zahra1-q137
 - zahra1-q138
@@ -153,9 +142,6 @@
 - zahra1-q141
 - zahra1-q142
 - zahra1-q143
-- zahra1-q144
-- zahra1-q145
-- zahra1-q146
 - zahra1-q147
 - zahra1-q148
 - zahra1-q149
@@ -174,15 +160,11 @@
 - zahra1-q162
 - zahra1-q163
 - zahra1-q164
-- zahra1-q165
 - zahra1-q166
-- zahra1-q167
 - zahra1-q168
 - zahra1-q169
-- zahra1-q170
 - zahra1-q171
 - zahra1-q172
-- zahra1-q173
 - zahra1-q174
 - zahra1-q175
 - zahra1-q176
@@ -280,7 +262,6 @@
 - zahra1-q268
 - zahra1-q269
 - zahra1-q270
-- zahra1-q271
 - zahra1-q272
 - zahra1-q273
 - zahra1-q274
@@ -309,9 +290,6 @@
 - zahra1-q297
 - zahra1-q298
 - zahra1-q299
-- zahra1-q300
-- zahra1-q301
-- zahra1-q302
 - zahra1-q303
 - zahra1-q304
 - zahra1-q305
