@@ -638,7 +638,7 @@ AUN: taught in Assiut University's Mechanisms and Principles of Diseases and The
 
 ## annotations
 ### definition_of · CON-FND-8E5F8C2923A89F
-Quote: Agenesis is the complete congenital failure of an organ to form during development, so the organ is entirely absent at birth
+Quote: Agenesis is the complete congenital failure of an organ to form during development, leaving the organ entirely absent at birth
 Block: body
 
 ---
@@ -770,7 +770,7 @@ AUN: taught in Assiut University's Mechanisms and Principles of Diseases and The
 
 ## annotations
 ### definition_of · CON-FND-27A9BC30BFB2C2
-Quote: Category D means fetal risk has been demonstrated ... but the drug may still be justified in certain circumstances because its potential benefit could outweigh that risk
+Quote: Category D drugs have demonstrated fetal risk from animal studies, human studies, or post-marketing experience, but remain usable in certain circumstances
 Block: body
 
 ---
@@ -909,14 +909,14 @@ AUN: taught in Assiut University's Mechanisms and Principles of Diseases and The
 
 ## annotations
 ### definition_of · CON-FND-BA06C8C3B76102
-Quote: a brief, transient vasoconstriction ... immediately followed by vasodilatation ... increased permeability of the capillary and venule walls
+Quote: Acute inflammation begins with a brief vasoconstriction of the arterioles supplying the injured tissue, immediately followed by histamine-mediated vasodilatation and increased capillary/venule permeability
 Block: body
 
 ### definition_of · CON-FND-11BD591A50EB8E
-Quote: histamine, bradykinin and other vasoactive amines chief among them ... Growth factors ... are not counted among the chemical mediators of acute inflammation
+Quote: Histamine, bradykinin and other vasoactive amines are the chemical mediators driving this response; growth factors are not among them
 Block: body
 
 ### definition_of · CON-FND-01FE2E5920BF31
-Quote: the directed (unidirectional) locomotion of leukocytes along a chemical gradient, toward a particular organism or irritant
+Quote: Chemotaxis is the directed movement of leukocytes along a chemical gradient toward the site of injury or infection
 Block: body
 Block: body
