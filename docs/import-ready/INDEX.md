@@ -1198,6 +1198,167 @@ concepts.md` for histology). Nothing in `pending-live/` is staged here or anywhe
 
 ---
 
+### AU-MED-105 anatomy delta (Thigh/Leg/Foot + Upper Limb family) — verify-and-stage pass, 2026-09-02
+
+Staged by a chief-of-staff verify-and-stage subagent, independently re-verifying every gate.
+Since the 2026-08-28 pass above, the anatomy sub-lane authored ~400 more questions (Thigh,
+Lower Limb parts 2–3, and the whole Upper Limb MCQ-bank family) on branches
+`au-105-anatomy-ll2-ll3` / `au-105-anatomy-ul`, landed on main at `5c959733`. This pass's job
+was to verify, gate-fix and stage that delta — not author new content.
+
+**Apply in this order**, after the 2026-08-28 AU-MED-105 files above (`academic/au-modules.md`
+must already be applied):
+
+| # | File(s) | Admin page | Records | "Update matching items" |
+|---|---|--:|---|---|
+| 1 | `resource/AU-MED-105-anatomy-{ll,ul}-resources.md` (2 files, new) | Bulk import → resource | 4 | On |
+| 2 | `article/AU-MED-105-anatomy-articles.md` (updated: 7 → 10) | Bulk import → article | 10 | On |
+| 3 | `concept/AU-MED-105-anatomy-concepts.md` (updated: 27 → 35) | Concepts › Import | 35 (8 new + 27 already-live from the prior pass) | On |
+| 4 | `evidence/AU-MED-105-anatomy-claims.md` (updated: 83 → 85) | Bulk import evidence · Claim | 85 | On |
+| 5 | `evidence/AU-MED-105-anatomy-spans.md` (updated: 6 → 7) | Bulk import evidence · Span | 7 | On |
+| 6 | `question/AU-MED-105-anatomy-mcq.md` (updated: 15 → 55) | Bulk import → question | 55 | On |
+| 7 | `question/AU-MED-105-anatomy-mcq-{ll,ul,ul-c,eom-ul}.md` (4 files, new) | Bulk import → question | 84 + 10 + 9 + 2 = 105 | On |
+| 8 | `question/AU-MED-105-anatomy-questions{,-ll,-ul,-ul-b,-ul-c,-eom-ul}.md` (6 files, promoted from `pending-live/`, see below) | Bulk import → question | 7 + 15 + 35 + 50 + 51 + 90 = 248 | On |
+
+`evidence/AU-MED-105-anatomy-{sources,citations}.md` are unchanged this pass (no new
+resources or citations added) and need no re-import.
+
+**Pending-live promotion.** The task naming this pass noted that six `pending-live/
+AU-MED-105-anatomy-questions*.md` files sit on Kasr `101-ISK`/`103-BMS` concept ids that went
+live in production 2026-08-27 (the 5-module DB import) — verified directly: every concept and
+article file each promoted question file's own apply-after header names
+(`101-ISK-concepts.md`, `101-ISK-mcq-concepts.md`, `101-ISK-anatomy.md`, `101-ISK-anatomy-
+2.md`, `103-BMS-anatomy-concepts.md`, `103-BMS-anatomy.md`) is already staged in
+`docs/import-ready/`. Per the lane's own instruction, they are copied verbatim into
+`docs/import-ready/question/` here (row 8 above), keeping their original filenames (`-questions`
+naming, distinct from the sibling `-mcq` files, preserved for traceability). Row-8 provenance,
+per-file authoring detail, and each file's own original gate run are recorded in full in
+`pending-live/INDEX.md` (ids `W1-105-ANAT-Q2`, `W1-105-ANAT-LL2-LL3`, `W1-105-ANAT-UL-A/B/C`,
+`W1-105-ANAT-EOM-UL`); a one-line promotion-status row was appended there (append-only, per
+LANE-CARD §5) rather than rewriting those historical rows.
+
+**Concept overlay NOT promoted, by design.** `pending-live/AU-MED-105-anatomy.md` (38 rows —
+37 original + 1 added this pass, see below) is a sparse-update overlay onto the same
+already-live Kasr concept ids, not a Bulk-import batch file — a targeted field update applied
+directly against the live/staged concept records, not a re-stageable full record. It stays in
+`pending-live/`, matching the exact convention the ASU-MBG section above documents for its own
+"all dependencies already live" concept overlay. Dependency table:
+
+| File | Applies after | Records |
+|---|---|---|
+| `pending-live/AU-MED-105-anatomy.md` | `docs/import-ready/concept/101-ISK-concepts.md`, `101-ISK-mcq-concepts.md`, `103-BMS-anatomy-concepts.md` (all live) | 38 sparse updates (`+au`, `+1` learner_years, `+AU-MED-105`) onto Kasr `CON-MSK-*` ids — `universities`/`learner_years`/`modules` all use the `+`-append form throughout (never full-replacement); the file touches `module_subject`/`exam_signal` on none of its 38 rows, the safe omitted-key form |
+
+**QA pass on the delta (before staging).**
+- *Reviewer/publisher.* All 10 article records (3 new) already carried `reviewer: Medical
+  team, Admin team` / `final_publisher: Admin team` — no fix needed.
+- *Law of voice — 9 fixes.* 9 `explanation_<correct>`/`explanation_<distractor>` fields across
+  `question/AU-MED-105-anatomy-mcq-ll.md` (7), `-mcq-ul.md` (1) and
+  `pending-live/AU-MED-105-anatomy-questions-ul.md` (2, one file also getting a distinct
+  second fix) cited "the printed key"/"this bank" as the reason an option was
+  correct/incorrect instead of stating the anatomy directly (e.g. "does not match the printed
+  key's tested pairing" → the actual vein/artery/nerve relation named directly). ~40 other
+  "this bank tests X" instances across the same files were left as-is — genuine exam-strategy
+  meta-commentary with the medical fact already stated independently in the same sentence,
+  matching the precedent the 2026-08-28 pass above established (`this diagram` self-reference
+  is not an external-authority citation; `this bank's convention treats X as standard` is the
+  sanctioned convention-clash phrasing).
+- *Two-sided coverage — 1 gap closed.* `QST-AU105-UL-UL-Q48` tested a freshly-minted concept
+  (`CON-MSK-B16E86E4EA39D9`) that was never written as a concept record anywhere in the tree —
+  tested but literally unteachable. The fact it tests (posterior circumflex humeral artery
+  travelling with the axillary nerve through the quadrangular space at the surgical neck) is
+  already taught by an existing live Kasr concept, `CON-MSK-8533FCB18D819B`
+  ("intermuscular spaces… boundaries and contents", `101-ISK-mcq-concepts.md`), named in
+  `related_concepts` by two Kasr articles (`ART-101-ANA-SHOULDER-SPACES-ROTATION`,
+  `ART-101-ANA-SHOULDER-REGION`) — confirmed by direct grep. The question was repointed to the
+  existing id (not re-minted); an overlay row for it was added to
+  `pending-live/AU-MED-105-anatomy.md`; the source seed
+  (`coverage/seeds/AU-MED-105/ul-a.json`) was updated to match.
+  95 distinct `main_concept` ids are tested across the delta's 408 questions; all 95 now
+  resolve to a concept named in some article's `related_concepts`.
+- *`related_article_ids` — 1 gap closed.* `CON-MSK-8E4BB62A579068` (clavicle/scapula
+  osteology) had a blank `related_article_ids` with no `field_notes` excuse — filled with
+  `ART-MSK-AU105-FOREARM-NERVES`, drawn from its own teaching article's `related_articles`
+  set, the same single-bare-id convention the ASU-MBG section above established.
+- *Explanation bar (≥3 sentences).* 0 violations across all 408 scored questions, re-verified
+  against the toolchain's own `sentenceCount` function after the law-of-voice edits (one edit
+  had trimmed an explanation to 2 sentences; restored to 3+).
+- *`medical:duplicate-keys`.* 0 canonical-key collisions; 1 pre-existing label collision
+  (Kasr aspirin/`102-INT`, documented in `docs/chief-of-staff/duplicate-keys.md`), unrelated
+  to this module.
+
+**Gate-driven fixes, found only once `medical:batch --with` was run per file (not caught by
+the QA pass above).**
+- `question/AU-MED-105-anatomy-mcq-ul.md`'s retargeted Q48 needed the concept's own teaching
+  article (`ART-101-ANA-SHOULDER-REGION`) added to its `library_ids` — the validator checks a
+  question's `library_ids` against its main concept's own `article_ids`, not just
+  `related_concepts`.
+- `pending-live/AU-MED-105-anatomy-questions-ul-c.md` and `-eom-ul.md`: 4 items testing 3
+  further Kasr concepts (superior ulnar collateral artery anastomosis ×2, profunda brachii
+  anastomosis, triceps/lymphatics) were missing `ART-101-ANA-ARM` / `ART-101-ANA-LYMPHATIC-
+  SYSTEM` in their own `library_ids`, same class of gap.
+- `pending-live/AU-MED-105-anatomy-questions-ul-c.md`: 8 nerve-supply/sensation recall items
+  (Q17/18/19/25/28/29/42/45) had a blank `## learning_objective` — filled from each item's own
+  correct-answer explanation, no new medicine introduced.
+- `article/AU-MED-105-anatomy-articles.md`'s new `ART-MSK-AU105-CARPAL-BONES` (and its concept,
+  `CON-MSK-77C8DFCB26299F`) both already declared `claim_ids`/`atomic_claim_ids`
+  `CLM-A6E0F27C9B4D`/`CLM-2F9C8E1B5A03` and `span_ids` `SPN-AU105-CARPAL-BONES-01` — but
+  neither claim nor the span was ever written into `evidence/AU-MED-105-anatomy-
+  {claims,spans}.md`, a dangling-reference bug `medical:audit` (not `medical:batch`, which does
+  not check across evidence files) caught. Hand-authored both claims + the span from the
+  concept's/article's own already-written content (verbatim facts, no new medicine) using the
+  exact ids already referenced, so neither the concept nor the article needed editing — same
+  class of gap as the ASU-MBG gene-therapy evidence pair the section above documents.
+
+**Gate status, independently re-run against this staged copy.**
+- `medical:batch` per file: concept `items 35, errors 0`; article `items 10, errors 0`; both
+  resource files `items 2, errors 0` each; evidence claims (`--with` the concept file)
+  `items 85, errors 0`; evidence spans (`--with` the article + claims + citations files)
+  `items 7, errors 0`. All 11 question files, each run with its own module's concept/article/
+  evidence-sources/resource files plus the Kasr `101-ISK-{concepts,mcq-concepts}.md` and
+  `103-BMS-anatomy-concepts.md` / `101-ISK-anatomy{,-2}.md` / `103-BMS-anatomy.md` companions
+  the pending-live headers name: `mcq.md items=55 errors=0`, `mcq-ll.md items=84 errors=0`,
+  `mcq-ul.md items=10 errors=0`, `mcq-ul-c.md items=9 errors=0`, `mcq-eom-ul.md items=2
+  errors=0`, `questions.md items=7 errors=0`, `questions-ll.md items=15 errors=0`,
+  `questions-ul.md items=35 errors=0`, `questions-ul-b.md items=50 errors=0`, `questions-ul-c.md
+  items=51 errors=0`, `questions-eom-ul.md items=90 errors=0`.
+- `medical:simulate`, all 384 files under `docs/import-ready/` positionally (resource →
+  evidence-source → article → concept → claim → citation → span → question → practical →
+  relation → glossary → academic, the same order every module's own table above uses,
+  reconstructed programmatically per file via the shared `detectBatchKind()` rather than by
+  directory/filename guessing): `batches=382 created=13261 updated=334 rejected=53 skipped=2
+  errors=53` — **29 the documented AU-105 image-gap lines (`question/AU-MED-105-anatomy-
+  practical-mcq.md`, all `status: Draft`, pre-existing from the 2026-08-28 pass, unchanged this
+  pass), 24 the pre-existing Kasr-104-CPS-not-staged gap the ASU-MBG section above documents
+  (`ASU-MBG-chromosomal-aberrations-mcq.md`) — 0 errors trace to this delta, 0 regressions to
+  any already-staged module.** `skipped=2` is the 2 `academic/*.md` files, expected.
+- `medical:audit --source <emit.json>`: 350 errors matched `--ids 'AU-MED-105|QST-AU105|CON-
+  MSK-8533FCB18D819B|ART-MSK-AU105'` before the evidence fix — all but the 3
+  `ART-MSK-AU105-CARPAL-BONES references unknown claim/span` lines traced to the same
+  library-wide "field missing across every article" checks the ASU-MBG section documents
+  (re-stringified with this module's ids appended, not a regression). After authoring the
+  missing claims + span: `errors=0` for `--ids 'CARPAL-BONES'`; the whole-tree audit total is
+  347 (down from the pre-fix 350, matching the drop exactly) with only 2 lines mentioning
+  `AU-MED-105`/`AU105` at all, both the same pre-existing systemic "claimIds/spanIds missing"
+  lines the two new blank-with-no-field_notes-excuse articles (`ART-MSK-AU105-LEG-NERVES-
+  CUTANEOUS`, `ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS`) now also sit inside, alongside ~150
+  other pre-existing articles library-wide — left as-is, matching the precedent that a staging
+  pass does not close every field-completeness gap outside its own scope, only broken
+  references.
+
+**Media / status.** All new question and article records carry `status: Draft`, consistent
+with the rest of this module; no new `Priority: required` media recommendation was introduced
+this pass (the practical-mcq image gap above is unchanged).
+
+**Not included.** `question/AU-MED-105-anatomy-practical-mcq.md`'s 29 image-blocked labelling
+questions remain excluded, unchanged since the 2026-08-28 pass (hard image gate, not a
+staging omission). Two fully-triaged source pools also carry held (deliberately not authored)
+duplicates: the Upper Limb MCQ-bank family, 247 authored + 33 held = 280/280, and Lower Limb
+parts 2–3, 99 authored (84 AU-native + 15 Kasr-overlay) + 1 held = 100/100 (both counts and
+hold reasons in `coverage/AU-MED-105-LEDGER.md`). Held items were never authored as separate
+records by design — not staged because they do not exist as question records.
+
+---
+
 ### Ain Shams University ASU-IBM (Introduction to Medical Biochemistry — Protein/Carbohydrate/Lipid chemistry) — 9 files across 4 folders
 
 Staged from the completed authoring branch `asu-ibm-author13` (HEAD `b5a528d5`), continuing a
