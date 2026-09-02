@@ -447,3 +447,12 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ZAGAZIG ZU-MED-105 PP I lane 1 LANDED (341ff01c)
 - Zag P.P1 Final 2024 (12/12 printed key), Fakous P.P1 Final 2024 (7/7 light-blue highlight, 2 renders), امتحانات سابقه (70 items, 57 keyed by GRAY FILL RECTANGLES — new corpus trap, `pagetext keys` misses it; recovered by a read-only PyMuPDF pass, 4 renders, 0 mismatches). 40 authored, 4 held. 34 mints, 0 overlays (professionalism/ethics is new territory; `subject: pop` used — no professionalism code in the catalogue). batch errors=0 ×3; simulate rejected=0. ≈2.1k tok/q. Format notes documented inline: `---` between `# Item` blocks in article/concept templates; articles need `## field_notes` with `arabicTitle:`.
 - Remaining: امتحانات سابقه pp.5-13 (~36 keyed) + mcq شامل (44 pp). Lane 2 dispatched on pp.5-13. Third freed slot → Alexandria AU-203 lane 6 (Y2, Week 1 Q101-151). Fleet 20/20.
+
+### 2026-09-02 — ZAGAZIG ZU-MED-102 Medical Terminology lane 1 LANDED (b8f29ab6, f7243101) · module EXHAUSTED
+- Fakous Terminology Final 2024: 20/20 keyed by a clean digital highlight box (invisible to `pagetext keys`; OCR + 2 renders). 20 authored, 0 held. 9 mints (term families), 5 articles, 1 live overlay (CON-REN-5D60B4B43BCCC3). `Medical_terms MCQ.pdf` (~96 items, 61 pp) has NO key anywhere → not authored (ZU-106 precedent). batch errors=0 ×4; simulate rejected=0.
+- NEEDS OMAR: ruling on authoring the unmarked terminology bank (answers are definitional) or new ZU-MED-102 sources.
+
+### 2026-09-02 — MANSOURA AEP lane 1 LANDED (4714be17, 69a0d678, 87ee915e)
+- `AEP Full Exams (VIP)`: 49/49 sampled keyed by a PRINTED RIGHT-MARGIN ANSWER COLUMN (third key pattern; `pagetext keys` misses ~82% of it, plain `show` recovers it). Anatomy Lecture 1 terms + Lecture 2 bones: 38 authored, 11 held (8 cross-sitting dups, 2 no-concept). 9 reuses (Kasr 101-ISK ×8, AU-102 ×1), 7 mints (movement-term pairs). Validator errors=[]; batch items=38 errors=0; simulate 9-file chain rejected=0. Well under baseline.
+- Notes: `gate.mjs simulate` takes explicit files, not a directory (LANE-CARD shorthand); `module_subject` first segment must equal `module` exactly; `library_ids` is enforced. Module id: `MANS-AEP` used (LANE-CARD leaves the PAEHC/PPP split open — needs Omar or a card fix).
+- Lane 2 dispatched on Lecture 3+ (Muscles/Joints, ~p.14) then Embryology p.100+. Second freed slot → 6 October IPH-108 lane 1 (Y1, OCR triage). Fleet 20/20.
