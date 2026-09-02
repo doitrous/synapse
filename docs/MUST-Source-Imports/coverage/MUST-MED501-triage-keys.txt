@@ -1,0 +1,87 @@
+MUST-MED501 triage keys
+Source A: MCQs - MUST MCQ 501محلول.pdf (05 MCQs) -- keys recovered by VISUAL read (yellow-highlight answer, invisible to pagetext.mjs text extraction)
+A01 Anti-CCP antibodies most associated with -> a) Rheumatoid arthritis
+A02 Typical feature of RA -> b) Prolonged morning stiffness
+A03 True about RF except -> c) Seronegative excluded from RA
+A04 Anemia type caused by RA -> e) All of the above
+A05 ARA 1987 criteria for RA except -> d) Asymmetrical arthritis
+A06 30yo male thiazide+smoker, foot pain, likely diagnosis -> e) Acute gout arthritis
+A07 Best investigation to confirm (gout) -> a) S. uric acid
+A08 Best advice for this patient (gout) -> b) Stop thiazide diuretic
+A09 Most diagnostic investigation of gout -> b) Joint aspiration + polarized microscope
+A10 Buttonhole (boutonniere) deformity -> b) Flexion of proximal & hyperextension of distal
+A11 Young male, AM back pain relieved by activity, +ve FHx -> a) Ankylosing spondylitis
+A12 Bouchard's nodes location -> c) Proximal interphalangeal joint
+A13 Heberden nodules seen in -> b) Osteoarthritis
+A14 20yo man, AM back+hip+shoulder stiffness improved by activity -> a) Ankylosing spondylitis
+A15 Terminal (distal) interphalangeal joint classically involved in -> d) Psoriatic arthritis
+A16 30yo woman DVT + recurrent abortion Hx, low platelets -> b) Antiphospholipid antibodies
+A17 HLA-B27 NOT associated with -> D) Behcet syndrome
+A18 Nodal osteoarthritis common in -> B) Postmenopausal females
+A19 62yo hypertensive, acute monoarthritis knee -> C) Joint aspiration
+A20 Survival rate of limited scleroderma -> c) 70%
+A21 Considered bad prognosis (RA) -> F) All of the above (female, slow course, +veRF, anemia<3mo, HLA-DR4)
+A22 Pseudogout (chondrocalcinosis) crystal -> D) Calcium pyrophosphate dihydrate
+A23 NOT used to treat acute gouty arthritis -> Allopurinol
+A24 Infliximab directed against -> D) Tumour necrosis factor-alpha
+A25 NOT a DMARD -> D) Naproxen
+A26 RF classically formed against -> IgG (source-printed; standard teaching is usually
+    IgM -- HELD, flagged as a possible source error, not silently corrected)
+
+Source B: 1- MED previous Questions mid & fin.pdf (08 Midterm Exams) -- student recall
+list; page 1 items 1-12 have a usable stem fragment + answer, extracted natively
+(no highlight/garble issue). Items 13-30 (Medicine 501 final section) are answer-only
+fragments with NO recoverable question stem in the source -- triaged (read) but NOT
+keyable as authorable MCQs; several individual fragments are themselves uninterpretable
+("12-58 1", "13-58 1"). Listed as read/triaged, not authored.
+
+Rheumatology midterm section (usable, stem+answer both present):
+B01 RA variant that is NOT one -> Congenital
+B02 Most common form of arthritis -> Osteoarthritis
+B03 NOT part of septic arthritis management -> Blood transfusion
+B04 NOT a feature/association of scleroderma -> Reiter's disease
+B05 CREST syndrome prognosis -> 70% survival at 10 years (same fact as A20)
+B06 Drug to avoid (Raynaud's phenomenon context) -> Beta blocker
+B07 Morning back pain -> Ankylosing spondylitis (duplicate concept of A11/A14)
+B08 Male, thiazide, high meat/purine intake -> Acute gout arthritis (duplicate of A06)
+B09 Gout investigation -> Serum uric acid (duplicate of A07)
+B10 Gout management -> Withdrawal of thiazide (duplicate of A08)
+B11 Seronegative arthritis characterized by -> Negative rheumatoid factor
+B12 Rheumatic factor exception -> IgA against IgM (garbled bilingual note; printed
+    answer conflicts with A26's "IgG" -- BOTH held as printed, not reconciled)
+
+Medicine 501 final section (30 items, 1 mark each) -- items 1-12 answer-only, no stem:
+1 Temporal [arteritis, inferred from list context, stem absent]
+2 Reactive [arthritis, inferred, stem absent]
+3 Polyarteritis nodosa [stem absent]
+4 SLE [stem absent]
+5 anti DNA [stem absent]
+6 IM adrenaline [stem absent]
+7 Tryptase [stem absent]
+8 TLR6 [stem absent]
+9 Interleukin 6 [stem absent]
+10 C136 [uninterpretable fragment, stem absent]
+11 20 UTI [uninterpretable fragment, stem absent]
+12 58 1 [uninterpretable fragment, stem absent]
+13 58 1 [uninterpretable fragment, stem absent]
+14 Hla b [stem absent]
+15 Hla b [stem absent]
+16 Positive kit [stem absent]
+17 Except CPK [stem absent]
+18 Milk and eggs [stem absent]
+19 Radio contrast media [stem absent]
+20 purpuric eruption [stem absent]
+21 constipation [stem absent]
+22 corticosteroids [stem absent]
+23 more in males [stem absent]
+24 traumatic [stem absent]
+25 Vancomycin infusion [stem absent]
+26 Urticaria [stem absent]
+27 B CELL Lymphoma [stem absent]
+28 2 hours after digestion [stem absent]
+29 Lupus vasculitis [stem absent]
+30 Doesn't progress to anaphylaxis [stem absent]
+-- BLOCKED: no full-text version of the "Medicine 501 final" exam paper was found
+   anywhere else in the Year 5 tree. These 18 items need the original exam PDF/photos
+   (student's own recall notes only capture answers, not questions) -- logged as
+   "needs Omar sources" (Telegram fetching is retired, so this cannot be chased there).
