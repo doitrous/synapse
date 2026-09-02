@@ -127,6 +127,37 @@ twice, on the hepatocellular-jaundice and obstructive-jaundice-hemorrhagic-tende
 questions, both fixed by dropping the reference rather than fixing the gap). Flagged for
 whichever session next touches `biochemistry-heme.json`.
 
+**RESOLVED 2026-09-02 by MANS-HIS-203-author4** (10-minute integrity check at the start of
+this pass): `grep -n "CON-HEM-22375197AEE80D" concept/MANS-HIS-203-concepts.md` at line
+~3545 was only a `related_concept_ids` mention inside the *hepatocellular*-jaundice record
+(`CON-HEM-364A4A59515E8A`) — no standalone Item existed for the id itself, confirming
+author3's finding. Added the missing record (label: "In haemolytic jaundice, excess red
+cell breakdown delivers more bilirubin to the gut than normal, so both urine and faecal
+urobilinogen rise together"; `canonical_key`
+`haemolytic-jaundice-urobilinogen-pattern`; same `DIS-BIO-T07` node, same `haem` subject
+as its differential neighbour) plus a matching article,
+`ART-MANS-HIS-HEMOLYTIC-JAUNDICE-UROBILINOGEN-PATTERN`, both keyed off the id already in
+circulation (no re-mint). `find-existing.mjs "haemolytic jaundice urobilinogen"` still
+returned "safe to create one" before authoring; a broader `"urobilinogen"` query surfaced
+only this id's own existing downstream uses, not a rival record. Verified two ways: (1)
+`node scripts/validate-content-batch.mjs pending-live/MANS-HIS-203-questions-author2-biochem-pharm.md
+--with concept/MANS-HIS-203-concepts.md --with article/MANS-HIS-203-articles.md --with
+resource/MANS-HIS-203-resources.md --with Kasr-Source-Imports/article/103-BMS-mcq-heme.md
+--with Kasr-Source-Imports/concept/103-BMS-mcq-heme-concepts.md --with
+Kasr-Source-Imports/concept/102-INT-mcq-concepts.md --with
+Kasr-Source-Imports/concept/102-INT-physiology-concepts.md --with
+Alexandria-Source-Imports/concept/AU-MED-102-biochem-nitrogen-blood-concepts.md --with
+Alexandria-Source-Imports/concept/AU-MED-103-physiology-concepts.md` (the direct validator,
+run to sidestep `gate.mjs`'s known errors=0-on-crash bug) returned `"errors": []` for all 9
+items in that overlay file, including
+`QST-MANSHIS203-BIOCHEMISTRY-HEME-HEMOLYTIC-JAUNDICE-UROBILINOGEN`, which now shows the
+same "main concept has not passed the evidence gate (needs_evidence)" note as its 5
+siblings — no longer a special-case failure. (2) `gate.mjs simulate` over the full
+10-file dependency chain (those same concept/article/resource files plus the questions
+overlay, apply order) returned `batches=10 created=260 updated=61 rejected=0 skipped=0
+errors=0`. The id was never re-minted — the fix only fills the record that was already
+being referenced.
+
 `Keys recovered` = 40 (Continuous Book, Histology Lecture 1&2 + past-exam blocks) + 5
 (Continuous Book, Histology Lecture 3&4) + 5 (Continuous Book, Microbiology) + 2 solid
 (`HIS 1- MCQ-scan.pdf`) = 52, against 66 distinct questions triaged. The 13 unrecovered
