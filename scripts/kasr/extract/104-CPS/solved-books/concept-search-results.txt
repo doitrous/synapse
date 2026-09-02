@@ -1,0 +1,41 @@
+TERM: Histology-general | live=0 pending=0
+TERM: Lungs | live=20 pending=14
+TERM: Conducting Portion | live=0 pending=4
+TERM: Cardiac Function | live=0 pending=0
+TERM: Heart | live=48 pending=175
+TERM: Human Chromosome | live=0 pending=1
+TERM: Arteries | live=41 pending=59
+TERM: A-V Connections | live=0 pending=1
+TERM: Cell Division | live=3 pending=3
+TERM: Respiratory Portion | live=0 pending=2
+TERM: Pulmonary Compliance | live=0 pending=1
+TERM: Electrical Activity of the Heart | live=0 pending=0
+TERM: Mechanical Properties of Cardiac Muscle | live=0 pending=0
+TERM: Gas Transport by the Blood | live=0 pending=0
+TERM: Vascular Function | live=0 pending=0
+TERM: Veins | live=49 pending=51
+TERM: Spleen | live=5 pending=55
+TERM: Mediastinum | live=4 pending=31
+TERM: Thoracic Cage | live=0 pending=2
+TERM: Intercostal Spaces | live=0 pending=0
+TERM: Chromosomal Aberrations | live=0 pending=5
+TERM: Tonsils | live=0 pending=10
+TERM: Lymph node | live=23 pending=42
+TERM: Basic Mechanisms of Circulatory Control | live=0 pending=0
+TERM: Large Tubes of the Thorax | live=0 pending=0
+TERM: Control of Respiration | live=0 pending=0
+TERM: Large Veins of the Thorax | live=0 pending=0
+TERM: The Diaphragm | live=1 pending=14
+TERM: Thymus | live=2 pending=46
+TERM: Thoracic Cavity | live=0 pending=0
+TERM: Large Arteries of the Thorax | live=0 pending=0
+TERM: Gas exchange in the lung | live=0 pending=0
+TERM: Organization of the Respiratory System | live=0 pending=0
+TERM: The Cell Cycle | live=0 pending=25
+TERM: Pericardium | live=12 pending=20
+TERM: Cytogenetics | live=0 pending=6
+TERM: Alveolar Phagocytes | live=0 pending=1
+TERM: Large Nerves of the Thorax | live=0 pending=0
+TERM: Development of the Heart | live=0 pending=0
+TERM: Lymphatics of the Thorax | live=0 pending=0
+TERM: Macrophage system | live=0 pending=1

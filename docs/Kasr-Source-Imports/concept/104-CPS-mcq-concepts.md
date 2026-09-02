@@ -1,27 +1,77 @@
 <!--
   Multiple-choice questions for 104 CPS, from the departmental question books.
 
-    Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
-    Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
-    Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
+    Aortic Arch Relations and Cardiac Plexuses — 13 questions, 2 concepts
+    Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
+    Anatomy Cardiovascular System — The Heart's Conducting System (components) — 6 questions, 1 concepts
+    Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings — 15 questions, 6 concepts
+    Development of the Heart — 2 questions, 2 concepts
+    The Diaphragm — 4 questions, 2 concepts
+    The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
+    The Intercostal Muscles — 4 questions, 1 concepts
+    Large Nerves of the Thorax — 3 questions, 1 concepts
+    The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
+    Anatomy Respiratory System — Lungs, Gross Anatomy — 21 questions, 10 concepts
+    Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
+    Lymphatics of the Thorax — 4 questions, 1 concepts
+    Subdivisions of the Mediastinum — 14 questions, 4 concepts
+    Pericardium — 10 questions, 3 concepts
+    Thoracic Cavity — Pleura — 2 questions, 2 concepts
+    The Trachea, Bronchi and Thoracic Oesophagus — 10 questions, 3 concepts
+    The Typical Intercostal Nerve — 6 questions, 1 concepts
+    The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
+    Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
+    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
+    Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
+    Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
+    Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
+    Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
+    Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
+    Physiology Cardiovascular System — Pacemaker Electrophysiology — 17 questions, 4 concepts
+    Histology Cardiovascular System — Veins — 19 questions, 2 concepts
+    Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
+    Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
+    Physiology Cardiovascular System — Working Myocyte Action Potential — 8 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
-    Cytogenetics — Cell Cycle Phase Details — 7 questions, 1 concepts
+    Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
-    Cytogenetics — Cell Renewal Classification — 1 questions, 1 concepts
-    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 14 questions, 4 concepts
-    Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 15 questions, 3 concepts
+    Cytogenetics — Cell Renewal Classification — 3 questions, 1 concepts
+    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 26 questions, 4 concepts
+    Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
-    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
+    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 21 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
-    Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
-    Lymphatic and Macrophage System — Thymus — 1 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
-    Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
-    Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 13 questions, 3 concepts
-    Respiratory System — Larynx and Airway Wall — 4 questions, 2 concepts
-    Respiratory System — Respiratory Portion Pneumocytes — 1 questions, 1 concepts
+    Macrophage system — 5 questions, 1 concepts
+    Lymphatic and Macrophage System — Lymph Node — 20 questions, 8 concepts
+    Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
+    Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
+    Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
+    Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
+    Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 41 questions, 10 concepts
+    Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
+    Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
+    Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
+    Physiology Respiratory System — Gas Exchange in the Lung — 6 questions, 2 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 17 questions, 4 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
+    Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
+    Pulmonary Compliance — 20 questions, 3 concepts
+    Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
+    Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
+    Pulmonary Compliance — 4 questions, 2 concepts
+    Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 18 questions, 5 concepts
+    Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
+    Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 49 questions, 6 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -33,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  0 questions were excluded and 0 held back for having no
+  178 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -41,6 +91,1999 @@
 
   Generated by scripts/kasr/build-batches.ts.
 -->
+
+# Item
+## id
+CON-CVS-9C60987F3CB5A1
+## label
+The arch of the aorta passes over the left bronchus and gives the brachiocephalic, left common carotid and left subclavian arteries from its convexity, with the trachea and oesophagus behind it
+## canonical_key
+arch-of-aorta.relations-and-branches
+## exam_signal
+src_f1905b4b83def7d5642b | question_book | | p4 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p26 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p14 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p12 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+## article_ids
++ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
+## field_notes
+canonical_key "arch-of-aorta.relations-and-branches" already has a pinned id in this module (CON-CVS-9C60987F3CB5A1); mintConceptId derives the same id fresh (CON-CVS-9C60987F3CB5A1) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-EEA29FB47CBB71
+## label
+The descending thoracic aorta runs from T4/T5 to T12, giving nine pairs of posterior intercostal arteries, a subcostal pair, two left bronchial arteries and oesophageal branches
+## canonical_key
+descending-thoracic-aorta.course-relations-and-branches
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p2 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p16 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p28 | 104 CPS
+## article_ids
++ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
+## field_notes
+canonical_key "descending-thoracic-aorta.course-relations-and-branches" already has a pinned id in this module (CON-CVS-EEA29FB47CBB71); mintConceptId derives the same id fresh (CON-CVS-EEA29FB47CBB71) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The azygos vein runs directly behind the root of the right lung in the posterior mediastinum, then arches forward just above it to end in the superior vena cava
+## id
+CON-CVS-09E48983DF8E7C
+## canonical_key
+azygos-vein.arch-and-relation-to-right-lung-root
+## definition
+In the posterior mediastinum, the azygos vein has the oesophagus and the root of the right lung immediately in front of it, the lower eight thoracic vertebrae behind (separated from them by the right posterior intercostal arteries), the right pleura and lung and the greater splanchnic nerve on its right, and the thoracic duct and the descending aorta on its left. At the level of the T4/T5 disc it turns forward as the arch of the azygos vein, passing through the superior mediastinum with the root of the right lung below it, the right pleura and lung on its right, and the oesophagus, trachea and right vagus nerve on its left, to end in the middle of the back of the superior vena cava — opposite the second right costal cartilage, just before that vein pierces the pericardium.
+## explicit_objective
+State that the azygos vein lies directly behind the root of the right lung in the posterior mediastinum before its arch turns forward to pass above (not behind) that same root on its way to the superior vena cava, and name what lies on each side of both the vein and its arch.
+## pitfalls
+Assuming the azygos vein's only relation to the right lung root is the arch passing above it. Before it arches forward, the vein itself runs immediately behind the lung root in the posterior mediastinum — the relation this leaf's own exam question tests — and only afterwards turns to pass above the root on its way to the superior vena cava.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+SYS-RES-T01-S01-M04
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > Azygos System
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p13 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p15 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p16 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p7 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Cardiovascular System
+## aliases
+Arch of the azygos vein | Root of the right lung
+## article_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which vessel passes directly behind the right hilum:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-6799821893D6D2
+## label
+The conducting system runs SA node to AV node to AV bundle to right and left bundle branches to Purkinje fibres, arranged so each ventricle contracts from the apex upwards
+## canonical_key
+conducting-system-of-heart.components
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p26 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p11 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p7 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p10 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## field_notes
+canonical_key "conducting-system-of-heart.components" already has a pinned id in this module (CON-CVS-6799821893D6D2); mintConceptId derives the same id fresh (CON-CVS-6799821893D6D2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-2A21F1B4F30B61
+## label
+The right coronary artery runs the coronary sulcus to give the marginal and posterior interventricular arteries, supplying the whole right side of the heart and, in most people, the whole conducting system
+## canonical_key
+right-coronary-artery.course-and-distribution
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p11 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p11 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## field_notes
+canonical_key "right-coronary-artery.course-and-distribution" already has a pinned id in this module (CON-CVS-2A21F1B4F30B61); mintConceptId derives the same id fresh (CON-CVS-2A21F1B4F30B61) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-1F1AB4B70AB06D
+## label
+The left coronary artery divides into the anterior interventricular and circumflex arteries, together supplying the left atrium, most of the left ventricle and the anterior two thirds of the septum
+## canonical_key
+left-coronary-artery.branches-and-distribution
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p10 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## field_notes
+canonical_key "left-coronary-artery.branches-and-distribution" already has a pinned id in this module (CON-CVS-1F1AB4B70AB06D); mintConceptId derives the same id fresh (CON-CVS-1F1AB4B70AB06D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-929D9DDCB95482
+## label
+Most cardiac veins end in the coronary sinus, which lies in the posterior coronary sulcus and receives the great, middle and small cardiac veins and the oblique vein of the left atrium
+## canonical_key
+coronary-venous-drainage.coronary-sinus-and-cardiac-veins
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## field_notes
+canonical_key "coronary-venous-drainage.coronary-sinus-and-cardiac-veins" already has a pinned id in this module (CON-CVS-929D9DDCB95482); mintConceptId derives the same id fresh (CON-CVS-929D9DDCB95482) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-A723ADE6F4E726
+## label
+The pulmonary trunk runs entirely within the fibrous pericardium and ends at the sternal angle level by dividing into right and left pulmonary arteries, joined to the aortic arch by the ligamentum arteriosum
+## canonical_key
+pulmonary-trunk.origin-course-and-ligamentum-arteriosum
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p23 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## field_notes
+canonical_key "pulmonary-trunk.origin-course-and-ligamentum-arteriosum" already has a pinned id in this module (CON-CVS-A723ADE6F4E726); mintConceptId derives the same id fresh (CON-CVS-A723ADE6F4E726) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-B12EDEA332E53F
+## label
+The heart's autonomic supply is parasympathetic from the two vagi and sympathetic from the upper five thoracic segments, meeting in superficial and deep cardiac plexuses that only modulate rate, never initiate it
+## canonical_key
+heart.nerve-supply-and-cardiac-plexuses
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## field_notes
+canonical_key "heart.nerve-supply-and-cardiac-plexuses" already has a pinned id in this module (CON-CVS-B12EDEA332E53F); mintConceptId derives the same id fresh (CON-CVS-B12EDEA332E53F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The four heart valves' surface markings run PAMT from above downwards behind the coronary sulcus, each has three cusps except the two-cusped mitral valve, and each valve's sound is heard best at a separate auscultatory area, not its own anatomical projection
+## id
+CON-CVS-521D893B2D1374
+## canonical_key
+cardiac-valve.surface-markings-cusp-counts-and-auscultatory-areas
+## definition
+The surface markings of the four cardiac valves are arranged, from above downwards and to the right, in the order Pulmonary, Aortic, Mitral, Tricuspid (PAMT), all lying on or below and to the left of the coronary sulcus: the pulmonary valve behind the third left costal cartilage at its sternal junction; the aortic valve behind the left margin of the sternum opposite the third left intercostal space; the mitral valve behind the left half of the sternal body opposite the fourth left sternocostal junction; and the tricuspid valve behind the centre of the sternum opposite the fourth intercostal space. Each valve has three cusps except the mitral, which has two: the tricuspid has anterior, posterior and septal cusps; the pulmonary has two anterior and one posterior cusp; the aortic has one anterior and two posterior cusps. Because of how heart sounds physically propagate, none of the four valves is heard best over its own anatomical projection — clinically, the pulmonary valve is heard best at the second left sternocostal junction, the aortic valve at the second right sternocostal junction, the mitral valve at the apex of the heart, and the tricuspid valve at the xiphisternal junction.
+## explicit_objective
+State the PAMT order and costal-cartilage level of each valve's surface projection, each valve's cusp count and naming, and each valve's separate auscultatory area.
+## pitfalls
+Assuming a valve's surface (anatomical) projection is where its sound is best heard. The department book states this explicitly is not so: sound propagation carries each valve's closure sound to a separate auscultatory area, distinct from its own surface marking — most strikingly for the pulmonary valve, whose projection (3rd left costal cartilage) and auscultatory area (2nd left sternocostal junction) sit one full space apart.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+SYS-CVS-T01-S01-M02
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p13 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Cardiovascular System
+## aliases
+PAMT mnemonic | Valve surface markings | Valve auscultatory areas | Pulmonary valve projection
+## article_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding the heart valves, which of the followings is correct?
+## conflicts
+CON-CVS-CD77400CEDD059 (live, cross-catalogue, no 104-CPS module) states the pulmonary valve's own surface projection alone, sourced from the same department-book page (CIT-124A496DEA7B9E). Not reused: existingConceptIds() for module '104 CPS' only scans docs/Kasr-Source-Imports/concept/104-CPS-*.md, so a live record outside that scope is invisible to this build, and mintConceptId under this canonical_key would not reproduce that record's own id in any case — the same 'different pipeline, no safe sparse-update path' situation documented repeatedly elsewhere in this branch. Minted fresh under 104 CPS instead, as the full four-valve PAMT/cusp-count/auscultatory-area synthesis this leaf's own bank rows need, not a duplicate of the single pulmonary-valve fact alone.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-CORONARY-ARTERIES | ART-104-ANA-HEART-CHAMBERS | ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-DEV-67A96150DDAFD9
+## label
+Septum primum, septum secundum and the atrioventricular cushions together partition the primitive atrium, leaving the foramen ovale as the one right-to-left shunt that survives to birth
+## canonical_key
+interatrial-septum.formation-septum-primum-and-secundum
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p13 | 104 CPS
+## article_ids
++ART-104-ANA-DEV-HEART-SEPTATION
+## field_notes
+canonical_key "interatrial-septum.formation-septum-primum-and-secundum" already has a pinned id in this module (CON-DEV-67A96150DDAFD9); mintConceptId derives the same id fresh (CON-DEV-67A96150DDAFD9) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The adult right atrium derives from the right half of the primitive atrium plus the absorbed sinus venosus and right atrioventricular canal; the adult left atrium derives from the left half of the primitive atrium plus the absorbed pulmonary veins
+## id
+CON-DEV-9A5BB2C1A18743
+## canonical_key
+primitive-atrium.fate-of-right-and-left-halves
+## definition
+The right atrium's adult components are the right half of the primitive atrium (forming the anterior rough part and the auricle) plus the absorbed sinus venosus and the absorbed right atrioventricular canal. The left atrium's adult components are the left half of the primitive atrium (forming the auricle only) plus the absorbed pulmonary veins — a single pulmonary vein that divides into right and left branches, each further dividing, before the stem and its branches are absorbed into the left atrial wall so that four pulmonary veins come to open separately.
+## explicit_objective
+State which embryonic structure the anterior rough part of the adult right atrium derives from, and contrast it with the left atrium's derivation.
+## pitfalls
+Assuming the whole adult right atrium is one embryonic derivative — the rough part (with the auricle) comes from the primitive atrium's right half, while the smooth sinus venarum is a separate later addition from the absorbed sinus venosus.
+## concept_type
+structural_description
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T03
+## secondary_node_ids
+SYS-CVS-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Development of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Development of the Heart
+## aliases
+Right atrium embryological origin | Fate of the primitive atrium
+## article_ids
+ART-104-ANA-DEV-HEART-SEPTATION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The anterior rough part of right atrium developmentally, arises from:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-HEART-CHAMBERS | ART-104-ANA-DEV-HEART-OUTFLOW-AND-CIRCULATION
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-449B5BD0266989
+## label
+The phrenic nerve is the sole motor supply of the diaphragm, arising in the neck from C3, 4 and 5 and supplying the abdominal surface because the embryo folds
+## canonical_key
+diaphragm.nerve-supply-and-action
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-ANA-DIAPHRAGM
+## field_notes
+canonical_key "diaphragm.nerve-supply-and-action" already has a pinned id in this module (CON-RES-449B5BD0266989); mintConceptId derives the same id fresh (CON-RES-449B5BD0266989) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-80C9B9E43B459B
+## label
+The diaphragm has three major openings — aortic at T12, oesophageal at T10, caval at T8 — plus named minor openings for the musculophrenic artery, splanchnic nerves and phrenic nerves
+## canonical_key
+diaphragm.major-openings
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p5 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p14 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-ANA-DIAPHRAGM
+## field_notes
+canonical_key "diaphragm.major-openings" already has a pinned id in this module (CON-RES-80C9B9E43B459B); mintConceptId derives the same id fresh (CON-RES-80C9B9E43B459B) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-1861B888CFF02D
+## label
+The internal thoracic artery descends behind the upper six costal cartilages to end opposite the sixth space as the musculophrenic and superior epigastric arteries
+## canonical_key
+internal-thoracic-artery.origin-course-and-branches
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p7 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## field_notes
+canonical_key "internal-thoracic-artery.origin-course-and-branches" already has a pinned id in this module (CON-CVS-1861B888CFF02D); mintConceptId derives the same id fresh (CON-CVS-1861B888CFF02D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Posterior intercostal arteries come from two sources by space — the superior intercostal artery (1st-2nd) and the descending thoracic aorta (3rd-11th) — while anterior intercostal arteries come from the internal thoracic artery directly (upper six spaces) or its musculophrenic branch (7th-9th)
+## id
+CON-CVS-DC039A1BEF31B1
+## canonical_key
+intercostal-arteries.sources-by-space-and-side
+## definition
+The eleven posterior intercostal arteries on each side come from two different sources by space: the first and second arise from the superior intercostal artery, itself an indirect (costocervical-trunk) branch of the subclavian artery, while the third to eleventh arise directly from the descending thoracic aorta, which also gives a subcostal pair below the last space. The anterior intercostal arteries instead come from the internal thoracic system: the upper six spaces receive them directly from the internal thoracic artery itself, while the seventh to ninth receive them from its terminal musculophrenic branch — so no single vessel supplies every anterior intercostal space directly. The right third posterior intercostal artery additionally gives off the right bronchial artery, supplying the bronchial tree and lung stroma on that side.
+## explicit_objective
+State which posterior intercostal arteries come from the superior intercostal artery and which from the descending thoracic aorta, and name the vessel that supplies the anterior intercostal arteries of the seventh to ninth spaces.
+## pitfalls
+Crediting the descending thoracic aorta with ALL eleven posterior intercostal arteries, or the internal thoracic artery with ALL nine anterior ones. The first two posterior arteries come from the superior intercostal artery instead, and the seventh to ninth anterior arteries come from the internal thoracic artery's musculophrenic branch rather than the parent vessel itself.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p27 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p1 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p1 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Intercostal Spaces
+## aliases
+Superior intercostal artery | Posterior intercostal artery origin | Costocervical trunk | Right bronchial artery
+## article_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] ١ Concerning the external intercostal muscle; choose the incorrect answer:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-THORACIC-WALL-VEINS | ART-104-ANA-THORACIC-CAGE
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-671ABF9D60BE19
+## label
+The intercostal space has three muscle layers — external, internal and innermost — of which the external is the main inspiratory elevator of the rib
+## canonical_key
+intercostal-muscles.layers-and-action
+## exam_signal
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p13 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p48 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p30 | 104 CPS
+## article_ids
++ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## field_notes
+canonical_key "intercostal-muscles.layers-and-action" already has a pinned id in this module (CON-RES-671ABF9D60BE19); mintConceptId derives the same id fresh (CON-RES-671ABF9D60BE19) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-AFCED19BA66ED2
+## label
+The phrenic nerve enters the thorax on the venous side (right) or arterial side (left) of the mediastinum and leaves through the diaphragm it alone supplies motor to
+## canonical_key
+phrenic-nerve.course-and-distribution
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p15 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p26 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-NERVES
+## field_notes
+canonical_key "phrenic-nerve.course-and-distribution" already has a pinned id in this module (CON-RES-AFCED19BA66ED2); mintConceptId derives the same id fresh (CON-RES-AFCED19BA66ED2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-9CDFD3C60A2550
+## label
+The two brachiocephalic veins drain the head, neck, upper limbs and thoracic wall, uniting behind the first right costal cartilage to form the superior vena cava
+## canonical_key
+brachiocephalic-veins.formation-and-course
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p14 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-WALL-VEINS
+## field_notes
+canonical_key "brachiocephalic-veins.formation-and-course" already has a pinned id in this module (CON-CVS-9CDFD3C60A2550); mintConceptId derives the same id fresh (CON-CVS-9CDFD3C60A2550) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-D2307B39C55336
+## label
+The superior vena cava drains the upper half of the body, has the azygos vein as its only tributary, and enters the right atrium behind the third right costal cartilage
+## canonical_key
+superior-vena-cava.formation-course-and-tributaries
+## exam_signal
+src_b2b20b3b22954ea7843a | question_book | | p46 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-WALL-VEINS
+## field_notes
+canonical_key "superior-vena-cava.formation-course-and-tributaries" already has a pinned id in this module (CON-CVS-D2307B39C55336); mintConceptId derives the same id fresh (CON-CVS-D2307B39C55336) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The right superior intercostal vein (2nd-4th spaces) ends in the azygos arch; the left superior intercostal vein (2nd-4th spaces) instead ends in the left brachiocephalic vein — the two sides do not mirror each other
+## id
+CON-CVS-19E63D8A8E7EDA
+## canonical_key
+posterior-intercostal-and-subcostal-veins.termination
+## definition
+There are eleven posterior intercostal veins and a subcostal vein on each side. On the right the first ends in the right brachiocephalic vein; the second, third and fourth unite as the right superior intercostal vein, which ends in the arch of the azygos vein; and the fifth to eleventh, with the subcostal vein, open separately into the azygos vein. On the left the first ends in the left brachiocephalic vein; the second, third and fourth unite as the left superior intercostal vein, which also ends in the left brachiocephalic vein — not in an azygos arch, since the left side has none; the fifth to eighth open into the superior hemiazygos vein, which begins as the continuation of the fifth; and the ninth, tenth and eleventh, with the subcostal vein, open into the inferior hemiazygos vein. Both hemiazygos veins cross the midline to end in the azygos vein.
+## explicit_objective
+Give the termination of the right and the left superior intercostal vein, and explain why the two sides do not mirror each other.
+## pitfalls
+Mirroring the right-sided pattern onto the left. The left superior intercostal vein ends in the left brachiocephalic vein, not in an azygos arch — there is no left-sided azygos vein to receive it.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p5 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Large Veins of the Thorax
+## aliases
+Right superior intercostal vein | Left superior intercostal vein
+## article_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The Left superior intercostal vein drains usually into the:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The anterior intercostal veins drain forwards into the internal thoracic vein or its tributaries, with the pattern changing by space: upper three direct, middle three via the internal thoracic artery's venae comitantes, lower three via the musculophrenic vein
+## id
+CON-CVS-262233E97CFB7E
+## canonical_key
+anterior-intercostal-veins.drainage-pattern
+## definition
+The anterior intercostal veins accompany the anterior intercostal arteries — nine pairs, two in each of the upper nine spaces — and drain into the internal thoracic vein or its tributaries. The first, second and third spaces drain directly into the internal thoracic vein itself; the fourth, fifth and sixth into the venae comitantes of the internal thoracic artery; and the seventh, eighth and ninth into the venae comitantes of the musculophrenic artery, the internal thoracic artery's own terminal branch. Every group ultimately reaches the internal thoracic vein, but only the upper three spaces do so directly.
+## explicit_objective
+State which anterior intercostal veins drain directly into the internal thoracic vein and which reach it only indirectly.
+## pitfalls
+Treating all nine pairs of anterior intercostal veins as draining directly into the internal thoracic vein. Only the upper three (first to third space) do; the middle three and lower three reach it only indirectly, via the venae comitantes of the internal thoracic and musculophrenic arteries respectively.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Large Veins of the Thorax
+## aliases
+Anterior intercostal vein drainage | Internal mammary vein
+## article_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding intercostal blood vessels, one is true:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-9E5D1C2A67CB5D
+## label
+The root of the lung is enclosed in a pleural sleeve and its structures are arranged with the superior pulmonary vein most anterior, the principal bronchus most posterior and the artery in front of the bronchus
+## canonical_key
+lung.hilum-and-root
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p19 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "lung.hilum-and-root" already has a pinned id in this module (CON-RES-9E5D1C2A67CB5D); mintConceptId derives the same id fresh (CON-RES-9E5D1C2A67CB5D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-DC7CC9CC4757BE
+## label
+The oblique fissure is present in both lungs; only the right lung also has a horizontal fissure, which separates its upper and middle lobes
+## canonical_key
+lung.fissures-and-lobes
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "lung.fissures-and-lobes" already has a pinned id in this module (CON-RES-DC7CC9CC4757BE); mintConceptId derives the same id fresh (CON-RES-DC7CC9CC4757BE) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-2A560C53F8E712
+## label
+A bronchopulmonary segment is a wedge-shaped, functionally independent unit supplied by its own segmental bronchus and pulmonary artery branch, ten on the right and eight on the left
+## canonical_key
+bronchopulmonary-segment.definition-and-distribution
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p20 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "bronchopulmonary-segment.definition-and-distribution" already has a pinned id in this module (CON-RES-2A560C53F8E712); mintConceptId derives the same id fresh (CON-RES-2A560C53F8E712) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-CF9852282948CD
+## label
+The lung has a dual blood supply: pulmonary vessels carry blood to be oxygenated, and bronchial vessels nourish the lung tissue itself
+## canonical_key
+lung.dual-blood-supply
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p21 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "lung.dual-blood-supply" already has a pinned id in this module (CON-RES-CF9852282948CD); mintConceptId derives the same id fresh (CON-RES-CF9852282948CD) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-491F7739C10120
+## label
+The right lung is shorter, broader and heavier than the left, has three lobes and two fissures against the left's two lobes and one, and ten bronchopulmonary segments against eight
+## canonical_key
+right-vs-left-lung.differences
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p29 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "right-vs-left-lung.differences" already has a pinned id in this module (CON-RES-491F7739C10120); mintConceptId derives the same id fresh (CON-RES-491F7739C10120) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-DC1111DA6DD151
+## label
+The mediastinal surfaces of the two lungs carry different impressions: the right is grooved by the SVC and azygos arch, the left by the aortic arch and its two great branches
+## canonical_key
+lung.mediastinal-surface-impressions
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p19 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p8 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p5 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "lung.mediastinal-surface-impressions" already has a pinned id in this module (CON-RES-DC1111DA6DD151); mintConceptId derives the same id fresh (CON-RES-DC1111DA6DD151) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-69F499B794713C
+## label
+Each lung is half a cone with an apex, a base, costal and medial surfaces, and anterior, posterior and inferior borders
+## canonical_key
+lung.external-features
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p29 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "lung.external-features" already has a pinned id in this module (CON-RES-69F499B794713C); mintConceptId derives the same id fresh (CON-RES-69F499B794713C) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-CED26421AF8B39
+## label
+The parietal pleura is named cervical, costal, mediastinal and diaphragmatic by the wall it lines, and each pleural sac has a costomediastinal and a costodiaphragmatic recess
+## canonical_key
+pleura.divisions-and-recesses
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p29 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p26 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES | +ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
+## field_notes
+canonical_key "pleura.divisions-and-recesses" already has a pinned id in this module (CON-RES-CED26421AF8B39); mintConceptId derives the same id fresh (CON-RES-CED26421AF8B39) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-B833146BBFCB26
+## label
+The cervical pleura rises 3 cm above the medial third of the clavicle, and the two anterior pleural borders diverge below the fourth costal cartilage for the cardiac notch
+## canonical_key
+pleura.surface-anatomy
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p19 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES | +ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
+## field_notes
+canonical_key "pleura.surface-anatomy" already has a pinned id in this module (CON-RES-B833146BBFCB26); mintConceptId derives the same id fresh (CON-RES-B833146BBFCB26) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Visceral pleura takes autonomic fibres from the pulmonary plexuses and feels no pain; parietal pleura takes the somatic nerve of the wall it lines, not the pulmonary plexuses
+## id
+CON-RES-3AB5ED388161A2
+## canonical_key
+pleura.nerve-supply
+## definition
+The visceral (pulmonary) pleura is supplied by the same autonomic innervation as the lung, through the anterior and posterior pulmonary plexuses, and is not sensitive to somatic stimuli such as pain and temperature. The parietal pleura takes the somatic innervation of the structure it lines: the cervical pleura from the first intercostal nerve, the costal pleura segmentally from the corresponding intercostal nerve, the mediastinal pleura and the central part of the diaphragmatic pleura from the phrenic nerve, and the peripheral part of the diaphragmatic pleura from the lower intercostal nerves.
+## explicit_objective
+Give the nerve supply of visceral and parietal pleura, naming the nerve for each part of the parietal pleura, and state that the pulmonary plexuses supply the VISCERAL, not the parietal, pleura.
+## pitfalls
+Giving the phrenic nerve the whole diaphragmatic pleura, or crediting the pulmonary plexuses with the parietal pleura's own supply. Only the diaphragmatic pleura's central part is phrenic (the periphery is intercostal), and the pulmonary plexuses supply the VISCERAL pleura alone — the parietal pleura is somatically, not autonomically, innervated throughout.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p20 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Respiratory System
+## aliases
+Nerve supply of the pleura | Visceral pleura innervation | Parietal pleura innervation
+## article_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding the lungs, mark the wrong statement: ; :
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-LUNG-SEGMENTS-AND-BLOOD-SUPPLY | ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-HEM-9123D4493320A7
+## label
+The thoracic duct crosses from right to left behind the oesophagus at T5 and drains the whole body except the right upper quadrant into the left brachiocephalic vein
+## canonical_key
+thoracic-duct.course-tributaries-and-termination
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p25 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p18 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p12 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-LYMPHATICS
+## field_notes
+canonical_key "thoracic-duct.course-tributaries-and-termination" already has a pinned id in this module (CON-HEM-9123D4493320A7); mintConceptId derives the same id fresh (CON-HEM-9123D4493320A7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-F78FBA0BF1E673
+## label
+A plane from the sternal angle to the T4/T5 disc divides the mediastinum into superior and inferior parts, and the inferior part into anterior, middle and posterior
+## canonical_key
+mediastinum.subdivisions-and-boundaries
+## exam_signal
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p26 | 104 CPS
+## article_ids
++ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## field_notes
+canonical_key "mediastinum.subdivisions-and-boundaries" already has a pinned id in this module (CON-RES-F78FBA0BF1E673); mintConceptId derives the same id fresh (CON-RES-F78FBA0BF1E673) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-F360EFDEA84D58
+## label
+The superior mediastinum holds the great veins and thymus in front, the aortic arch and its three branches in the middle, and the trachea, oesophagus and thoracic duct behind
+## canonical_key
+superior-mediastinum.contents
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p11 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p23 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+## article_ids
++ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## field_notes
+canonical_key "superior-mediastinum.contents" already has a pinned id in this module (CON-RES-F360EFDEA84D58); mintConceptId derives the same id fresh (CON-RES-F360EFDEA84D58) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The posterior mediastinum lies between the pericardium/diaphragm in front and T5-T12 behind, and its contents fall into five groups: the descending aorta, the azygos/hemiazygos veins, the vagi with the sympathetic trunks, the oesophagus with the thoracic duct, and the posterior mediastinal lymph nodes
+## id
+CON-RES-03AB23DA654BAF
+## canonical_key
+posterior-mediastinum.boundaries-and-contents
+## definition
+Its boundaries are the pericardium above and the diaphragm below in front, and the lower eight thoracic vertebrae, T5 to T12, behind. Its contents are five groups: the descending thoracic aorta and its branches; the azygos and hemiazygos venous system; the two vagi, which form the oesophageal plexuses, together with the sympathetic trunks and their splanchnic branches; the oesophagus and the thoracic duct, which runs along its right side; and the posterior mediastinal lymph nodes.
+## explicit_objective
+Give the boundaries of the posterior mediastinum and list its contents by group.
+## pitfalls
+Stopping at four groups. The posterior mediastinal lymph nodes are the fifth, and they are the group the solved copy of this paper loses.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p24 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p13 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Mediastinum
+## aliases
+Contents of the posterior mediastinum | Internal thoracic artery not a posterior mediastinum content
+## article_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The following are the contents of the posterior mediastinum, EXCEPT:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM | ART-104-ANA-PERICARDIUM-SINUSES | ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The sternal angle marks the second costal cartilage, the plane dividing superior from inferior mediastinum, the tracheal bifurcation and the beginning/end of the aortic arch — but not the origin of the SVC or the articulation of the first rib
+## id
+CON-RES-69FF90DE1AC263
+## canonical_key
+sternal-angle.surface-and-vertebral-correlations
+## definition
+The sternal angle (the manubriosternal joint) is where the second costal cartilage articulates with the sternum — not the first rib, which articulates with the manubrium above the angle. Because the plane through the sternal angle continues backwards to the T4/T5 disc, everything the department book places at that oblique plane is read off the same landmark: it is the plane separating the superior from the inferior mediastinum; it is where the trachea bifurcates into the two principal bronchi; it is where the ascending aorta ends and the arch of the aorta begins, opposite the second right sternocostal junction, and where the arch itself ends on the left, opposite the same T4/T5 level; and it is where the azygos vein's arch turns forward to enter the superior vena cava, opposite the second right costal cartilage. The superior vena cava itself is not formed at this level — the two brachiocephalic veins unite behind the first right costal cartilage, one space higher, close to the manubrium rather than at the angle.
+## explicit_objective
+List every structure or event the department book places at the sternal-angle plane, and name the one large-vein event that instead happens one space higher, at the first costal cartilage.
+## pitfalls
+Crediting the sternal angle with the formation of the superior vena cava, or with the first rib's articulation. Both belong one level higher, at the first costal cartilage/manubrium — the sternal angle itself is the SECOND costal cartilage's level.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p27 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Mediastinum
+## aliases
+Manubriosternal joint | Angle of Louis | Landmarks at the sternal angle
+## article_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] At the level of the sternal angle the following features are present, EXCEPT:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM | ART-104-ANA-PERICARDIUM-SINUSES | ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-3706498A4F8F97
+## label
+The transverse sinus of the pericardium passes between the arterial and venous ends of the heart; the oblique sinus is a blind recess behind the left atrium
+## canonical_key
+pericardium.transverse-and-oblique-sinuses
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p21 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p13 | 104 CPS
+## article_ids
++ART-104-ANA-PERICARDIUM-SINUSES
+## field_notes
+canonical_key "pericardium.transverse-and-oblique-sinuses" already has a pinned id in this module (CON-CVS-3706498A4F8F97); mintConceptId derives the same id fresh (CON-CVS-3706498A4F8F97) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-2DB020EDD28EB7
+## label
+The fibrous and parietal serous pericardium are somatically sensitive to pain via the phrenic nerve, while the visceral layer shares the heart's autonomic supply and its coronary blood supply
+## canonical_key
+pericardium.nerve-and-blood-supply
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p11 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+## article_ids
++ART-104-ANA-PERICARDIUM-SINUSES
+## field_notes
+canonical_key "pericardium.nerve-and-blood-supply" already has a pinned id in this module (CON-CVS-2DB020EDD28EB7); mintConceptId derives the same id fresh (CON-CVS-2DB020EDD28EB7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The fibrous pericardium is a conical sac fixed to the sternum by the sternopericardial ligaments; its parietal serous layer lines it internally and reflects onto the heart as the visceral layer (epicardium)
+## id
+CON-CVS-0420EB34A2E424
+## canonical_key
+pericardium.fibrous-and-serous-layers
+## definition
+The pericardium has two coats. The fibrous pericardium is a strong, conical sac with an apex directed upwards, blending at the level of the sternal angle with the outer coats of the great vessels, and a base directed downwards, adherent to the central tendon of the diaphragm — the reverse orientation of the heart itself; its anterior surface is fixed to the sternum by the superior and inferior sternopericardial ligaments. The serous pericardium is a closed sac invaginated from above and behind by the heart and the roots of its great vessels: a parietal layer lines the fibrous pericardium, and a visceral layer covers the heart as the epicardium, the two separated by the pericardial cavity, a potential space holding only a thin film of fluid.
+## explicit_objective
+Name the two coats of the pericardium and state which layer of the serous pericardium lines the fibrous pericardium versus which one covers the heart itself.
+## pitfalls
+Assuming the visceral layer lines the fibrous pericardium — it is the parietal layer that lines the fibrous pericardium; the visceral layer instead covers the heart directly as the epicardium.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p28 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p17 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Pericardium
+## aliases
+Fibrous pericardium | Serous pericardium | Sternopericardial ligaments
+## article_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] is fused to fibrous pericardium XXX
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-CORONARY-ARTERIES | ART-104-ANA-DEV-HEART-SEPTATION
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-A6B5E6793B2E5E
+## label
+The trachea is a 10-12 cm tube of 16-20 C-shaped cartilage rings, constricted by the thyroid gland above, the brachiocephalic artery on the right and the aortic arch on the left
+## canonical_key
+trachea.structure-relations-and-constrictions
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p18 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p23 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p12 | 104 CPS
+## article_ids
++ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## field_notes
+canonical_key "trachea.structure-relations-and-constrictions" already has a pinned id in this module (CON-RES-A6B5E6793B2E5E); mintConceptId derives the same id fresh (CON-RES-A6B5E6793B2E5E) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-16C7132ECAA7BF
+## label
+The right principal bronchus is shorter, wider and more vertical than the left, which is why an inhaled foreign body most often lodges on the right
+## canonical_key
+principal-bronchi.right-vs-left-differences
+## exam_signal
+src_5465875dc14a998b7b21 | question_book | | p1 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p18 | 104 CPS
+## article_ids
++ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## field_notes
+canonical_key "principal-bronchi.right-vs-left-differences" already has a pinned id in this module (CON-RES-16C7132ECAA7BF); mintConceptId derives the same id fresh (CON-RES-16C7132ECAA7BF) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-GIT-4E4EC465826CF2
+## label
+The oesophagus enters the thorax as the most posterior structure of the superior mediastinum and has four constrictions, one where the aortic arch and left bronchus each cross it
+## canonical_key
+oesophagus.thoracic-course-and-constrictions
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+## article_ids
++ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## field_notes
+canonical_key "oesophagus.thoracic-course-and-constrictions" already has a pinned id in this module (CON-GIT-4E4EC465826CF2); mintConceptId derives the same id fresh (CON-GIT-4E4EC465826CF2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-0BB6BDDB3E4413
+## label
+A typical intercostal nerve runs in the neurovascular bundle below the vein and artery, and ends as the anterior cutaneous branch
+## canonical_key
+typical-intercostal-nerve.course-and-branches
+## exam_signal
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p11 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p5 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p6 | 104 CPS
+## article_ids
++ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## field_notes
+canonical_key "typical-intercostal-nerve.course-and-branches" already has a pinned id in this module (CON-RES-0BB6BDDB3E4413); mintConceptId derives the same id fresh (CON-RES-0BB6BDDB3E4413) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-E9CF510CBD01BC
+## label
+The right and left vagus nerves take different paths through the superior mediastinum before both break up behind their lung roots into the pulmonary and oesophageal plexuses
+## canonical_key
+vagus-nerve.thoracic-course-and-plexuses
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p17 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-NERVES
+## field_notes
+canonical_key "vagus-nerve.thoracic-course-and-plexuses" already has a pinned id in this module (CON-CVS-E9CF510CBD01BC); mintConceptId derives the same id fresh (CON-CVS-E9CF510CBD01BC) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-E9BA4A6C0E8392
+## label
+The left recurrent laryngeal nerve leaves the vagus on the aortic arch and hooks beneath it beside the ligamentum arteriosum before ascending in the tracheo-oesophageal groove
+## canonical_key
+left-recurrent-laryngeal-nerve.origin-and-course
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-NERVES
+## field_notes
+canonical_key "left-recurrent-laryngeal-nerve.origin-and-course" already has a pinned id in this module (CON-CVS-E9BA4A6C0E8392); mintConceptId derives the same id fresh (CON-CVS-E9BA4A6C0E8392) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
 
 # Item
 ## id
@@ -52,10 +2095,1957 @@ artery-classification.elastic-muscular-and-arteriolar-types
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
+src_375227d5b7c819636151 | question_book | | p14 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p32 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p69 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p17 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p16 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
 ## article_ids
 +ART-104-HIS-ARTERIES-AND-VEINS
 ## field_notes
 canonical_key "artery-classification.elastic-muscular-and-arteriolar-types" already has a pinned id in this module (CON-CVS-712BA581C8AF88); mintConceptId derives the same id fresh (CON-CVS-712BA581C8AF88) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The aorta's tunica media is packed with 40-70 fenestrated elastic membranes with smooth muscle between them, so its internal elastic lamina cannot be told apart from these same membranes
+## id
+CON-CVS-D68E630AF7B901
+## canonical_key
+elastic-artery.aortic-tunica-media-structure
+## definition
+The aorta, the archetypal large elastic artery, has a tunica media formed of 40 to 70 concentric, fenestrated elastic membranes (laminae), increasing in number with age, with smooth muscle fibres, collagen and proteoglycan filling the spaces between them. This dense elastic media lets the wall stretch during systole and recoil during diastole, smoothing the heart's pulsatile output into steadier downstream flow. Because the media itself is already built from ring upon ring of elastic tissue, the internal elastic lamina — the specific boundary sheet that so clearly separates intima from media in a muscular artery — cannot be told apart as a separate structure from the many other elastic laminae surrounding it: it is present, not absent, thin or unstainable, but indistinguishable by contrast.
+## explicit_objective
+State that the aorta's tunica media is dominated by 40-70 fenestrated elastic membranes with smooth muscle between them, and explain why its internal elastic lamina is not a clearly visible boundary the way it is in a muscular artery.
+## pitfalls
+Assuming an unclear internal elastic lamina means it is absent, thin, or fails to stain. In the aorta it is present and does take elastic stains — it simply cannot be distinguished from the many other elastic laminae of the same media that surround it.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_437b45e5de1d97a26dc6 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p17 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p1 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p15 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Aorta histology | Elastic artery tunica media | Aortic internal elastic lamina
+## article_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Tunica media of aorta is characterized by the following:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL | ART-104-ANA-THORACIC-WALL-VEINS | ART-104-ANA-CORONARY-ARTERIES
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The basilar artery is histologically a muscular artery, identified by its unusually prominent, thick internal elastic lamina rather than by concentric elastic membranes
+## id
+CON-CVS-523BFBFD316FBF
+## canonical_key
+basilar-artery.muscular-type-despite-cranial-location
+## definition
+The basilar artery, formed by the union of the two vertebral arteries in the posterior cerebral circulation, is classified histologically as a muscular (medium-sized) artery rather than an elastic one, despite supplying a major cranial territory. Its signature identifying feature on a microscope slide is an unusually prominent, thick internal elastic lamina — a wavy, corrugated boundary sheet standing out clearly against a media built mainly of circular smooth muscle, not against 40-70 concentric elastic membranes as an elastic artery's media would be.
+## explicit_objective
+Classify the basilar artery as a muscular, not elastic, artery, identified by its prominent internal elastic lamina.
+## pitfalls
+Assuming a named artery's size or clinical importance dictates its histological class. The basilar artery is classed by what its tunica media is built of — smooth muscle with a prominent internal elastic lamina — not by how large a territory it supplies.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p1 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Basilar artery histology
+## article_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The main feature of basilar artery is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The covering article teaches the general elastic-vs-muscular classification rule (internal elastic lamina prominence marks a muscular artery) but does not name the basilar artery specifically as a worked example; this question applies the general rule to a named vessel the article does not itself mention.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL | ART-104-ANA-THORACIC-WALL-VEINS | ART-104-ANA-CORONARY-ARTERIES
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Arterioles are the principal resistance vessels of the systemic circulation, and Poiseuille's law — resistance and flow varying with the fourth power of radius — explains why their smooth-muscle tone has such a powerful effect on local blood flow and total peripheral resistance
+## id
+CON-CVS-EFDC2163E84213
+## canonical_key
+arterioles.resistance-function-and-regulation
+## definition
+Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed. This control ends at the metarteriole, the arteriole's own terminal segment draining directly into the capillary bed, whose smooth muscle thickens into a precapillary sphincter that opens and closes the entrance to that bed. The physical basis is Poiseuille's law: flow is proportional to the pressure gradient and to the radius raised to the fourth power, so a vessel doubling its radius increases flow sixteen-fold from that change alone — which is why small changes in arteriolar diameter dominate local blood flow and resistance far more than comparable changes in driving pressure, and why a blood vessel that displays pressure autoregulation responds to a fall in perfusion pressure with a fall in its own vascular resistance (arteriolar dilation) to defend flow. Arterioles are also more compliant than an elastic artery wall but far less compliant than a vein, whose thin wall and large capacitance make it, not the arteriole, the most compliant vessel type; an arteriole's own constriction instead raises both arterial and capillary pressure downstream.
+## explicit_objective
+Identify arterioles as the principal resistance vessels, explain their role via Poiseuille's fourth-power radius relationship, and distinguish their function (active resistance and flow control) from a vein's (passive capacitance).
+## pitfalls
+Calling arterioles the most compliant vessel type. Veins, not arterioles, are the body's capacitance vessels with the greatest compliance; an arteriole's own smooth muscle instead makes it the vessel best able to actively raise or lower resistance.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_437b45e5de1d97a26dc6 | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p18 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p22 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p19 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p47 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Arteriole resistance vessels | Metarteriole | Precapillary sphincter | Poiseuille's law | Pressure autoregulation
+## article_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 3x across the question books] Regarding metarteriole:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL | ART-104-ANA-THORACIC-WALL-VEINS | ART-104-ANA-CORONARY-ARTERIES
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-AAAD34C16F9880
+## label
+Sympathetic activity raises heart rate and conduction velocity while parasympathetic activity lowers both, and a dominant resting vagal tone keeps heart rate below the SA node's own intrinsic rate
+## canonical_key
+autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p10 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-CONDUCTION
+## field_notes
+canonical_key "autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy" already has a pinned id in this module (CON-CVS-AAAD34C16F9880); mintConceptId derives the same id fresh (CON-CVS-AAAD34C16F9880) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-11E581298A0B95
+## label
+Conduction velocity is slowest through the AV node and fastest through the Purkinje fibres, and the slow AV nodal delay gives the atria time to empty before ventricular contraction begins
+## canonical_key
+cardiac-conduction-system.regional-velocity.av-nodal-delay
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p3 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p2 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-CONDUCTION
+## field_notes
+canonical_key "cardiac-conduction-system.regional-velocity.av-nodal-delay" already has a pinned id in this module (CON-CVS-11E581298A0B95); mintConceptId derives the same id fresh (CON-CVS-11E581298A0B95) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-5288011D93888B
+## label
+The absolute and relative refractory periods of the cardiac myocyte action potential span almost the whole of contraction, which prevents the sustained tetanic contractions seen in skeletal muscle
+## canonical_key
+cardiac-myocyte-action-potential.refractory-periods.arp-rrp-supernormal
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p4 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p6 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-CONDUCTION
+## field_notes
+canonical_key "cardiac-myocyte-action-potential.refractory-periods.arp-rrp-supernormal" already has a pinned id in this module (CON-CVS-5288011D93888B); mintConceptId derives the same id fresh (CON-CVS-5288011D93888B) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-132A76916FEC05
+## label
+A fenestrated (visceral) capillary has pores covered by diaphragms and a continuous basal lamina, sited wherever fluid crosses fast
+## canonical_key
+fenestrated-capillary.structure-junctions-and-sites
+## exam_signal
+src_375227d5b7c819636151 | question_book | | p27 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p15 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p3 | 104 CPS
+## article_ids
++ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## field_notes
+canonical_key "fenestrated-capillary.structure-junctions-and-sites" already has a pinned id in this module (CON-CVS-132A76916FEC05); mintConceptId derives the same id fresh (CON-CVS-132A76916FEC05) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+A continuous (somatic) capillary is a sealed tube for small-solute exchange; a sinusoidal capillary is wide-open for whole-cell and plasma-protein traffic
+## id
+CON-CVS-E1894F649030DE
+## canonical_key
+capillary-types.continuous-and-sinusoidal-structure-and-sites
+## definition
+Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier. Sinusoidal capillaries (blood sinusoids) sit at the opposite end of the same three-way classification: a wide, irregular lumen, endothelial pores without diaphragms, cells separated by wide intercellular gaps rather than sealed by tight junctions, and a discontinuous basal lamina, built wherever whole cells or plasma proteins — not just small solutes — need to cross, as in the liver, spleen and bone marrow.
+## explicit_objective
+Contrast continuous and sinusoidal capillaries by endothelium, intercellular junctions and basal lamina, and give one site for each.
+## pitfalls
+Confusing a sinusoid with a fenestrated capillary. Both have pores, but the fenestrated capillary's pores are covered by diaphragms and its basal lamina stays continuous, where the sinusoid's pores are open and its basal lamina is discontinuous.
+## concept_type
+classification
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p18 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p2 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.79
+## exam_weight_by_year
+KAU_Y1=0.79
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Somatic capillary | Blood sinusoid | Continuous capillary | Sinusoidal capillary
+## article_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] One of the following is a type of blood capillaries:
+## conflicts
+CON-CVS-9585A65D9EDA4D (pending, docs/Kasr-Source-Imports/concept/104-CPS-concepts.md, GENERATED_BY-blind to this pipeline) teaches the same continuous-versus-sinusoidal comparison from the original hand-picked 40-question MCQ batch; not reused because that file is this pipeline's own generated-output skip-list, so a matching canonical_key would emit a full overwrite rather than a sparse update. CON-CVS-2A37D5DDEB19DB and CON-CVS-047FC0A529AFBA (live, cross-university Systems-view catalogue, pinned to ART-CVS-CARDIAC-HISTOLOGY, no 104-CPS module) are single-sentence site-only facts for the same two types, from a different pipeline this module's own existingConceptIds() cannot see at all.
+## uncertainty
+[clear]
+## evidence_gaps
+The covering article's own Mechanism section states that a continuous capillary's sealed, tight-junctioned, unbroken-basal-lamina wall suits small-solute and gas exchange, and that a sinusoid's wide, irregular, discontinuous-basal-lamina wall suits whole-cell and plasma-protein traffic in the liver, spleen and bone marrow — but it does not itself state that continuous capillaries are the commonest capillary type, that endocrine glands also carry sinusoidal capillaries, that macrophages sit within or beside the sinusoidal wall, or that sinusoids carry markedly fewer pericytes than a continuous or fenestrated capillary. These four facts are standard histology and are tested directly by this leaf's own bank, but are not yet written into this article's prose. Flagging for the article-authoring lane.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-HEART-AND-VESSEL-WALL
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The pericyte is a contractile cell wrapped around the capillary endothelium that regulates local blood flow and can differentiate into a fibroblast
+## id
+CON-CVS-AF9C427AABAEF0
+## canonical_key
+capillary-pericyte.contractile-function-differentiation-and-position
+## definition
+The pericyte is a contractile, mesenchymal-lineage cell that wraps around the capillary endothelium, sitting within a split of the endothelial cell's own basal lamina — occupying, structurally, the position a tunica media would occupy in a larger vessel, since the capillary wall itself has no true media of its own. Contraction of the pericyte narrows the capillary lumen and so regulates local capillary blood flow, a point of flow control distinct from the arteriole's and metarteriole's own upstream regulation. Being of mesenchymal rather than haematopoietic or mesothelial lineage, the pericyte retains the capacity to differentiate into other mesenchymal derivatives — chiefly fibroblasts, and smooth muscle cells — particularly during tissue repair and vascular remodelling. A capillary itself, at roughly the same calibre as an erythrocyte, is not larger in diameter than the red cells that must deform to pass through it in single file.
+## explicit_objective
+State where the pericyte sits on the capillary wall, what its contraction does to local blood flow, and what mesenchymal cell type it can differentiate into.
+## pitfalls
+Assuming the pericyte is a fixed, purely structural cell. It is contractile (regulating capillary blood flow directly) and retains mesenchymal differentiation potential, most notably into a fibroblast, unlike a fully committed lineage such as a macrophage (haematopoietic) or a mesothelial cell (coelomic epithelium).
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p19 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p15 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p18 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Pericyte | Capillary tunica media equivalent | Rouget cell
+## article_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Pericytes of blood capillaries perform the following function:
+## conflicts
+CON-CVS-CC810A201244F0 ("Pericyte regulation of capillary flow") and CON-CVS-5D4C49C48AA325 ("Pericytes around capillary endothelium") are live, single-sentence facts from the same cross-university Systems-view catalogue as the capillary-types concept above (pinned to ART-CVS-CARDIAC-HISTOLOGY, no 104-CPS module, GENERATED_BY-blind to this pipeline) — not reused for the same reason. CON-CVS-08AA7F26A9BD28 (postcapillary venule wall) and the 101-ISK pericyte-and-undifferentiated-mesenchymal-cell concept are different structures/modules entirely, not this one.
+## uncertainty
+[clear]
+## evidence_gaps
+This leaf's own covering article names pericytes only in passing, as a feature the fenestrated capillary shares with the continuous type; it does not itself teach the pericyte's contractile flow-regulating function, its mesenchymal differentiation potential, or its structural position within the capillary's basal lamina — all standard histology, tested directly by this leaf's own bank, but not yet written into this article's own prose. Flagging for the article-authoring lane.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-HEART-AND-VESSEL-WALL
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-E8964EBC8F2357
+## label
+Lymphatic capillaries begin blind, are wider and more permeable than blood capillaries, and remove what blood capillaries cannot carry
+## canonical_key
+blood-vs-lymphatic-capillary.structural-and-functional-comparison
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p16 | 104 CPS
+src_b0c5c0d32e396511ae20 | question_book | | p1 | 104 CPS
+## article_ids
++ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## field_notes
+canonical_key "blood-vs-lymphatic-capillary.structural-and-functional-comparison" already has a pinned id in this module (CON-CVS-E8964EBC8F2357); mintConceptId derives the same id fresh (CON-CVS-E8964EBC8F2357) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+An arteriovenous anastomosis is a direct, sympathetically innervated, muscular-sphinctered shunt between an arteriole and a venule that bypasses the capillary bed
+## id
+CON-CVS-4BE9D0F74D4377
+## canonical_key
+arteriovenous-anastomosis.direct-shunt-sites-and-innervation
+## definition
+An arteriovenous anastomosis (shunt) is a direct connection between an arteriole and a venule that bypasses the capillary bed entirely. It sits in exposed body parts — the fingertips, toes, external ears, nose and lips — and in organs such as the gastrointestinal tract, placenta, penis and uterus. Its arterial and venous ends resemble an arteriole and a venule respectively, while the intermediate segment carries a relatively thick smooth-muscle sphincter, enclosed in a connective-tissue capsule and richly innervated by the sympathetic nervous system. When the sphincter is closed, blood passes through the capillary bed as usual; when it opens, a large volume of blood runs through the shunt in a short, rapid circuit instead, directly increasing venous return, and the same mechanism regulates flow to the genital organs and to the organs of digestion, absorption and secretion.
+## explicit_objective
+Name where arteriovenous anastomoses are sited, describe their sphincter and innervation, and state what opening one does to venous return.
+## pitfalls
+Treating an arteriovenous shunt as a pathological structure. It is a normal, richly innervated, muscular-sphinctered structure present in named body sites for named physiological reasons — the pathology is in a shunt failing to close, not in the shunt's existence.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p19 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p3 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Arteriovenous shunt | AV anastomosis | Glomus body
+## article_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Arterio-venous anastomoses are:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-HEART-AND-VESSEL-WALL
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-D3D1AF25EFA406
+## label
+Diffusion is the dominant mechanism of capillary exchange and depends on capillary permeability type and concentration gradient, while vesicular transport carries large lipid-insoluble molecules across the endothelium
+## canonical_key
+capillary-exchange.diffusion-permeability-and-vesicular-transport
+## exam_signal
+src_437b45e5de1d97a26dc6 | question_book | | p2 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## field_notes
+canonical_key "capillary-exchange.diffusion-permeability-and-vesicular-transport" already has a pinned id in this module (CON-CVS-D3D1AF25EFA406); mintConceptId derives the same id fresh (CON-CVS-D3D1AF25EFA406) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-98657F1E7D300D
+## label
+Trans-capillary filtration is set by the Starling forces, and along a muscle capillary this produces net outward filtration at the arteriolar end and net absorption at the venular end
+## canonical_key
+capillary-exchange.starling-forces-and-trans-capillary-filtration
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p5 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p19 | 104 CPS
+## article_ids
++ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## field_notes
+canonical_key "capillary-exchange.starling-forces-and-trans-capillary-filtration" already has a pinned id in this module (CON-CVS-98657F1E7D300D); mintConceptId derives the same id fresh (CON-CVS-98657F1E7D300D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Purkinje fibres are large, pale, vacuolated cardiac muscle fibres of the AV bundle's branches that conduct fast via gap junctions and carry no intercalated discs
+## id
+CON-CVS-3A8240E7E48C00
+## canonical_key
+cardiac-conducting-system.purkinje-fibre-site-and-histological-characteristics
+## definition
+Purkinje fibres are the terminal, specialised cardiac muscle fibres of the heart's conducting system — the right and left branches of the atrioventricular (AV) bundle, reaching the ventricular myocardium via the moderator band on the right, then running beneath the subendocardium to encircle the papillary-muscle bases before ascending towards the ventricular base. Because their job is rapid, uniform impulse spread rather than force generation, they are built differently from an ordinary cardiac myocyte: larger in diameter, with an eccentrically placed nucleus and a pale, vacuolated sarcoplasm (from abundant glycogen), few myofibrils lying peripherally so the fibre shows no clear striations, and gap junctions connecting fibre to fibre for fast conduction without any intercalated discs at all — the mechanical anchorage an intercalated disc gives ordinary contracting myocardium is not what a fibre built purely for signal speed needs. Bundles of Purkinje fibres are surrounded by a connective-tissue sheath.
+## explicit_objective
+State where Purkinje fibres sit in the conducting system (AV bundle branches, reached via the moderator band on the right) and list the histological features — diameter, nucleus position, sarcoplasm, striations, intercalated discs — that distinguish them from an ordinary cardiac myocyte.
+## pitfalls
+Assuming a specialised conducting cardiac fibre must still carry intercalated discs because it is cardiac muscle. Purkinje fibres carry gap junctions, which give the speed, but no intercalated discs at all — the fastest-conducting cardiac fibre is the one built for signal speed rather than the mechanical anchorage ordinary myocardium needs to contract as one.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01-M04
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > The heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p3 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Purkinje fibre histology | Conducting system muscle fibres | Moderator band fibres
+## article_ids
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All characters of Purkinje fibers except: XXX
+## conflicts
+CON-MSK-5EA95D36121EF8 (docs/import-ready/concept/103-BMS-histology-concepts.md, canonical_key cardiac-muscle.purkinje-fibres.histological-characteristics, pending) states this same idea in full, with real evidence (department histology book, cited claims/citations). Outside this pipeline's 104-CPS-scoped existingConceptIds() scan (different module, different root) and mintConceptId would not reproduce its id (different subject/system prefix), so no safe sparse-update path exists from this seed file — recorded here for a future consolidation ruling rather than silently duplicated.
+## uncertainty
+[clear]
+## evidence_gaps
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION states that the conducting system is specialised cardiac muscle (not nerve tissue), names the AV bundle's right and left branches, the moderator band link and Purkinje fibres as their terminal expression — but it does not itself state the cellular-level LM picture (larger diameter, eccentric nucleus, pale vacuolated sarcoplasm from glycogen, absent striations, absent intercalated discs, connective-tissue sheath around bundles) this leaf's own bank question tests. That histological detail is standard, undisputed cardiac histology, already fully evidenced in the sibling 103-BMS record noted above; flagged for the 104 CPS histology-article-authoring lane to add explicitly rather than leaving the citation to stand in for content the article does not yet carry.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-HEART-CHAMBERS | ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The ECG's P wave records atrial depolarization, the QRS complex records ventricular depolarization, and the T wave records ventricular repolarization, while atrial repolarization has no visible wave of its own because it is buried inside the QRS complex
+## id
+CON-CVS-E546F6AC415A6E
+## canonical_key
+ecg.waveform-electrophysiological-correlates.p-qrs-t
+## definition
+Each deflection on a normal ECG tracing corresponds to a specific electrical event of the cardiac cycle. The P wave is produced by atrial depolarization. The QRS complex is produced by ventricular depolarization; because the ventricular mass is far larger than the atrial mass, it is also the largest deflection on the tracing. The T wave is produced by ventricular repolarization. Atrial repolarization does occur, but it produces no visible wave of its own: its small electrical signal happens at the same time as — and is completely masked by — the much larger QRS complex.
+## explicit_objective
+Match each ECG wave (P, QRS, T) to the electrical event it records, and state that atrial repolarization has no visible wave because it coincides with, and is masked by, the QRS complex.
+## pitfalls
+Assuming every phase of the cardiac cycle's electrical activity has its own visible ECG wave. Atrial repolarization genuinely happens but produces no wave a reader can see, because its small signal is swamped by the much larger, simultaneously occurring QRS complex.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p9 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p10 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+P wave | QRS complex | T wave | Atrial repolarization (hidden)
+## article_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] P wave is due to:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+This leaf's own articleId (ART-104-PHY-CARDIAC-CONDUCTION) does not itself state the P/QRS/T-to-event correlation or the atrial-repolarization-masking fact; it covers autonomic control, conduction velocity and refractoriness instead. No 104-CPS-scoped article currently teaches ECG waveform interpretation directly — flagged for a future 104 CPS physiology-article-authoring pass, same class of gap as the Purkinje-fibre histology concept documented in cardiovascular-conducting-system-histology.ts.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The PR segment marks the AV nodal delay between atrial and ventricular depolarization, the QT interval spans the whole of ventricular depolarization and repolarization, and the ST segment marks the fully depolarized, isoelectric plateau of the ventricles
+## id
+CON-CVS-14B716A64FA68C
+## canonical_key
+ecg.intervals-and-segments.pr-qt-st-timing
+## definition
+Three named intervals/segments on the ECG mark specific timing relationships. The PR segment is the isoelectric stretch after the P wave ends and before the QRS complex begins — it represents the delay between atrial depolarization finishing and ventricular depolarization starting, produced mainly by the slow conduction through the AV node. The QT interval runs from the start of the Q wave to the end of the T wave, representing the total time taken for both depolarization and repolarization of the ventricular muscle. The ST segment runs from the end of the QRS complex to the start of the T wave; it is normally isoelectric (flat at baseline) because the ventricles are, at that moment, completely and uniformly depolarized, corresponding to the plateau phase of the ventricular myocyte action potential.
+## explicit_objective
+Define the PR segment, QT interval and ST segment by their start/end points and the electrical event each one represents, and state that the ST segment is normally isoelectric because the ventricles are fully depolarized at that point.
+## pitfalls
+Confusing the PR SEGMENT (isoelectric gap between P and QRS, representing the AV delay alone) with the PR INTERVAL (start of P to start of QRS, which also includes the P wave's own duration) — the two are not the same measurement, and a question asking for the time between atrial and ventricular depolarization specifically wants the segment, not the interval.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p9 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+PR segment | QT interval | ST segment | AV nodal delay (ECG correlate)
+## article_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] In an ECG recording, the time between atria! depolarization & ventricular depolarization is represented by which part?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+Same gap as the waveform-correlates concept above: no 104-CPS-scoped article yet states these ECG interval/segment definitions explicitly; ART-104-PHY-CARDIAC-CONDUCTION is used as the closest live-module article because it does cover the AV nodal delay the PR segment records.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Standard ECG paper runs at 25 mm/sec so each horizontal millimetre represents 0.04 seconds, and standard limb lead II records the potential difference between the left leg and the right arm
+## id
+CON-CVS-B1BD95D51903F8
+## canonical_key
+ecg.recording-technique.paper-speed-and-limb-leads
+## definition
+Two technical facts govern how a standard ECG tracing is read. First, ECG paper is calibrated to a standard recording speed of 25 mm/sec, so each 1 mm along the horizontal (time) axis represents 0.04 seconds — this calibration is what lets interval and segment durations be read directly off the paper's own grid. Second, the three standard (bipolar) limb leads defined by Einthoven's triangle each record the potential difference between two limbs: lead I is left arm minus right arm, lead II is left leg minus right arm, and lead III is left leg minus left arm.
+## explicit_objective
+State that 1 mm on the horizontal axis of standard ECG paper represents 0.04 seconds, and that standard limb lead II records the potential difference between the left leg and the right arm.
+## pitfalls
+Mixing up which two limbs a given standard lead compares. Lead II is left leg (positive) versus right arm (negative) — not left leg versus left arm (that is lead III), and not left arm versus right arm (that is lead I).
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p11 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+ECG paper speed | Standard limb leads | Einthoven's triangle | Lead II
+## article_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] At the horizontal axis of ECG paper, cach millimeter represents:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+Same gap as the two concepts above: no 104-CPS-scoped article currently states ECG paper calibration or the standard limb lead definitions; ART-104-PHY-CARDIAC-CONDUCTION is the closest live-module article available.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Myocardial ischemia depletes ATP and inhibits the Na+-K+ ATPase, letting intracellular Na+ and extracellular K+ rise, which disturbs the electrical activity of the affected myocardium and predisposes to arrhythmia
+## id
+CON-CVS-025163EABF1FF0
+## canonical_key
+myocardial-ischemia.electrical-effects.na-k-atpase-inhibition
+## definition
+Ischemic myocardium is starved of the oxygen needed for oxidative ATP production. Because the Na+-K+ ATPase depends on a continuous ATP supply to keep pumping 3 Na+ out for every 2 K+ it pumps in, falling ATP levels inhibit the pump's activity. Inhibiting the Na+-K+ ATPase lets intracellular Na+ rise and extracellular K+ accumulate around the ischemic cells (rather than being pumped back in), which alters the myocyte's resting membrane potential and its action potential's excitability and conduction — a well-recognised electrical disturbance that predisposes ischemic tissue to arrhythmia.
+## explicit_objective
+Trace the causal chain from myocardial ischemia through ATP depletion to Na+-K+ ATPase inhibition, and state the resulting ionic disturbance (intracellular Na+ rises, extracellular K+ rises around the ischemic tissue) and its electrical consequence.
+## pitfalls
+Assuming ischemia causes extracellular hypokalemia. The opposite occurs locally: pump inhibition traps K+ outside the ischemic cells (they cannot be pumped back in as fast as they leak out), raising local extracellular K+, not lowering it.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p7 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Myocardial ischemia | Na-K ATPase inhibition | Ischemic hyperkalemia
+## article_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] An effect of myocardial ischemia on the electrical activity of the heart is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS-scoped article currently covers the clinical/pathophysiological electrical effects of myocardial ischemia; this leaf's articleId (ART-104-PHY-CARDIAC-CONDUCTION) covers the normal autonomic/conduction physiology this concept builds on but not the ischemic disease state itself. Flagged for a future clinical-correlate article-authoring pass.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The exploring electrode of the unipolar chest lead V1 is placed at the fourth intercostal space at the right sternal border
+## id
+CON-CVS-74F2BC8D5993BF
+## canonical_key
+ecg.precordial-chest-leads.v1-placement
+## definition
+The six unipolar precordial (chest) leads, V1 through V6, each record the potential at one exploring electrode on the chest wall against a zero reference formed by combining the three limb electrodes (Wilson's central terminal). V1's exploring electrode sits at the fourth intercostal space at the right sternal border, immediately across the sternum from its mirror-image partner V2 (fourth intercostal space, left sternal border). Because V1 and V2 sit closest to the right ventricle and the interventricular septum, they are the standard leads used to assess right heart forces and the terminal (left atrial) component of the P wave. The remaining precordial leads continue laterally and downward across the same horizontal plane: V3 midway between V2 and V4, V4 at the fifth intercostal space in the midclavicular line, V5 at the anterior axillary line level with V4, and V6 at the midaxillary line, also level with V4.
+## explicit_objective
+State that the V1 exploring electrode is placed at the fourth intercostal space at the right sternal border, and locate it relative to its mirror-image partner V2 and the rest of the precordial lead sequence.
+## pitfalls
+Confusing V1's placement with V2's. V1 sits at the RIGHT sternal border, fourth intercostal space; V2 is its mirror image at the LEFT sternal border, same intercostal space — swapping the two is the single most common precordial-lead placement error.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p3 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p11 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+V1 chest lead | Precordial leads | Unipolar chest leads
+## article_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The exploring electrode of V1 of unipolar chest leads of ECG is placed at: a
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+Same gap as this file's other three concepts: no 104-CPS-scoped article currently states the precordial (unipolar chest) lead placements; ART-104-PHY-CARDIAC-CONDUCTION is used as the closest live-module article because it does cover the conduction physiology the ECG records, though not lead placement itself.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+An ECG reveals cardiac rhythm and conduction disturbances, relative chamber size and myocardial ischemic changes, but it does not itself measure cardiac output
+## id
+CON-CVS-18196D00EBCA00
+## canonical_key
+ecg.diagnostic-scope-and-limitations
+## definition
+The ECG is a record of the heart's electrical activity, not its mechanical performance. It gives valuable, direct information about disturbances of rhythm and conduction (arrhythmias, heart block), the relative size of the cardiac chambers (via characteristic voltage and axis changes in hypertrophy), and ischemic changes of the myocardium (ST-segment and T-wave abnormalities). What it cannot measure directly is cardiac output: a normal-looking ECG can accompany a failing pump, and a grossly abnormal ECG (an ectopic beat, for instance) may barely change stroke volume — because cardiac output is a mechanical, pressure-and-volume quantity that has to be assessed by other means (echocardiography, the Fick principle, thermodilution), not read off the electrical tracing itself.
+## explicit_objective
+List the three categories of information an ECG genuinely provides (rhythm/conduction, relative chamber size, ischemic change), and state that cardiac output is not one of them.
+## pitfalls
+Assuming a normal or abnormal ECG tracing tells you how much blood the heart is pumping. The ECG records electrical, not mechanical, events; cardiac output must be assessed by a separate method entirely, and a heart can be failing mechanically while its electrical tracing still looks reasonable.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p11 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+What an ECG shows | ECG diagnostic scope | Cardiac output not shown by ECG
+## article_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] ECG record gives valuable information about all of the following except: - ‏ظ‎ ‎a. disturbance of rhythm and conduction. |
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+Same gap as this file's other concepts: no 104-CPS-scoped article currently states the ECG's own diagnostic scope in one place; ART-104-PHY-CARDIAC-CONDUCTION is used as the closest live-module article.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-74C0F9BB0D3490
+## label
+The heart lies obliquely in the middle mediastinum, one third to the right and two thirds to the left of the median plane, with a base, an apex, two surfaces and four borders
+## canonical_key
+heart.external-features
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p28 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-CHAMBERS
+## field_notes
+canonical_key "heart.external-features" already has a pinned id in this module (CON-CVS-74C0F9BB0D3490); mintConceptId derives the same id fresh (CON-CVS-74C0F9BB0D3490) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-42C907CE4749DC
+## label
+The right atrium is split by the crista terminalis into a rough atrium proper and a smooth sinus venarum; the right ventricle has an inflow part with three papillary muscles and a smooth infundibulum
+## canonical_key
+heart.right-chambers-interior
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p14 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p27 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-CHAMBERS
+## field_notes
+canonical_key "heart.right-chambers-interior" already has a pinned id in this module (CON-CVS-42C907CE4749DC); mintConceptId derives the same id fresh (CON-CVS-42C907CE4749DC) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-ECDC97B24BB5DE
+## label
+The left atrium receives four pulmonary veins and is mostly smooth; the left ventricle's inflow part has two papillary muscles feeding the mitral valve and its outflow part is the fibrous aortic vestibule
+## canonical_key
+heart.left-chambers-interior
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p1 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-CHAMBERS
+## field_notes
+canonical_key "heart.left-chambers-interior" already has a pinned id in this module (CON-CVS-ECDC97B24BB5DE); mintConceptId derives the same id fresh (CON-CVS-ECDC97B24BB5DE) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -79,6 +4069,275 @@ canonical_key "cardiac-valve.histological-structure" already has a pinned id in 
 
 # Item
 ## id
+CON-CVS-CC8835108F512C
+## label
+The wall of the heart is three layers: epicardium, myocardium and endocardium
+## canonical_key
+heart-wall.three-layers-epicardium-myocardium-endocardium
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
+## article_ids
++ART-104-HIS-HEART-AND-VESSEL-WALL
+## field_notes
+canonical_key "heart-wall.three-layers-epicardium-myocardium-endocardium" already has a pinned id in this module (CON-CVS-CC8835108F512C); mintConceptId derives the same id fresh (CON-CVS-CC8835108F512C) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-34D3CB7F794801
+## label
+The pacemaker potential's phase 4 is a spontaneous depolarization carried by the funny current, T-type calcium channels and the sodium-calcium exchanger, unlike the stable phase 4 of working atrial and ventricular myocytes
+## canonical_key
+sa-node-pacemaker-potential.phase-4.ionic-basis
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
+## article_ids
++ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## field_notes
+canonical_key "sa-node-pacemaker-potential.phase-4.ionic-basis" already has a pinned id in this module (CON-CVS-34D3CB7F794801); mintConceptId derives the same id fresh (CON-CVS-34D3CB7F794801) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-0AD04EE46FD2C5
+## label
+Phase 0 of the pacemaker action potential is a slow upstroke through L-type calcium channels, which is why it is called the slow response action potential, and phase 3 is repolarization through delayed rectifier potassium channels
+## canonical_key
+sa-node-pacemaker-potential.phase-0-and-3.ionic-basis
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
+## article_ids
++ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## field_notes
+canonical_key "sa-node-pacemaker-potential.phase-0-and-3.ionic-basis" already has a pinned id in this module (CON-CVS-0AD04EE46FD2C5); mintConceptId derives the same id fresh (CON-CVS-0AD04EE46FD2C5) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-802E52B82883CD
+## label
+The SA node discharges faster than the AV node and Purkinje fibres, so it normally suppresses them, and a slower tissue only takes over as an escape pacemaker if the faster one above it fails
+## canonical_key
+cardiac-pacemaker-hierarchy.intrinsic-rates.sa-av-purkinje
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p2 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p5 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p3 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## field_notes
+canonical_key "cardiac-pacemaker-hierarchy.intrinsic-rates.sa-av-purkinje" already has a pinned id in this module (CON-CVS-802E52B82883CD); mintConceptId derives the same id fresh (CON-CVS-802E52B82883CD) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-7A8A04F61D44D1
+## label
+The Na+-K+ ATPase, the Ca++-ATPase and the Na+-Ca++ exchanger maintain cardiac myocyte ionic gradients, and the exchanger can reverse direction
+## canonical_key
+cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
+## article_ids
++ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY | +ART-104-PHY-CARDIAC-MECHANICS
+## field_notes
+canonical_key "cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance" already has a pinned id in this module (CON-CVS-7A8A04F61D44D1); mintConceptId derives the same id fresh (CON-CVS-7A8A04F61D44D1) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-B29610035B568D
+## label
+Veins are classed as small venules, medium-sized muscular veins or large veins, each thinner-walled than its arterial counterpart
+## canonical_key
+vein-classification.venule-medium-and-large-vein-histology
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p32 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p69 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p12 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
+## article_ids
++ART-104-HIS-ARTERIES-AND-VEINS
+## field_notes
+canonical_key "vein-classification.venule-medium-and-large-vein-histology" already has a pinned id in this module (CON-CVS-B29610035B568D); mintConceptId derives the same id fresh (CON-CVS-B29610035B568D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-3C04F2DED454C9
+## label
+A medium artery and a medium vein differ across every coat: thickness, lumen, valves and the three tunics
+## canonical_key
+artery-vs-vein.medium-sized-histological-comparison
+## exam_signal
+src_f0dc974eca83c51623bc | question_book | | p15 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p12 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p18 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-HIS-ARTERIES-AND-VEINS
+## field_notes
+canonical_key "artery-vs-vein.medium-sized-histological-comparison" already has a pinned id in this module (CON-CVS-3C04F2DED454C9); mintConceptId derives the same id fresh (CON-CVS-3C04F2DED454C9) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Veins are the circulation's capacitance vessels, holding the largest share of total blood volume and roughly eight to ten times the distensibility of arteries, so mean systemic filling pressure — the pressure left when the heart stops and flow is zero — depends mainly on venous capacity
+## id
+CON-CVS-750BF47E15DF61
+## canonical_key
+veins.capacitance-compliance-and-blood-volume-reservoir
+## definition
+Veins and venules are termed capacitance vessels because they hold the largest share of the body's total circulating blood volume of any vascular compartment — roughly 60-70% at rest — far more than arteries (roughly 10-15%) or capillaries (roughly 5%). This capacity comes from a compliance (distensibility) roughly eight to ten times greater than an artery of comparable size, so that within a vein's normal operating range a large increase in volume produces only a small rise in pressure — the shape of the venous pressure-volume curve, which flattens only once the vein wall approaches its own structural elastic limit at very high, excessive volumes. Mean systemic filling pressure is the pressure that would exist throughout the systemic circulation if the heart stopped pumping and flow fell to zero, at which point arterial and right atrial pressure have equalised; because the capacity of the whole circulation is mainly the capacity of its veins, mean systemic filling pressure is set chiefly by blood volume against venous capacity, not by any activity of the heart itself.
+## explicit_objective
+Name veins as the capacitance vessels holding the largest blood-volume share and greatest compliance, describe the shape of the venous pressure-volume curve, and define mean systemic filling pressure as the pressure when the heart has stopped and flow is zero.
+## pitfalls
+Confusing mean systemic filling pressure with a measurement that depends on the heart's own pumping action. It is defined by the opposite condition — the heart stopped, flow at zero — which is exactly why it isolates the venous system's own capacity and blood volume from anything the heart is doing.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p17 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p48 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Capacitance vessels | Venous compliance | Mean systemic filling pressure | MSFP | Venous pressure-volume curve
+## article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Mean systemic filling pressure is the systemic pressure expected
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+This leaf's covering article defines mean systemic filling pressure precisely (the pressure when the heart stops pumping and flow is zero, arterial and right atrial pressure equalised) and states that the capacity of the circulation is mainly the capacity of the veins, but it does not itself state the standard approximate figures this leaf's own bank tests directly: veins holding roughly 60-70% of total blood volume, a roughly eight-to-tenfold greater venous than arterial distensibility, or the shape of the vein's own pressure-volume (compliance) curve — a distinct curve from the venous-return-versus-right-atrial-pressure curve this article does teach in detail. These figures are standard, undisputed physiology, but are not yet written into this article's own prose. Flagging for the article-authoring lane.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
 CON-CVS-30053920BDC07F
 ## label
 Most blood vessel walls are three tunics: intima, media and adventitia, each adapted to the vessel's function
@@ -87,10 +4346,414 @@ blood-vessel-wall.general-three-tunic-plan
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p17 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p1 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p19 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-HEART-AND-VESSEL-WALL
 ## field_notes
 canonical_key "blood-vessel-wall.general-three-tunic-plan" already has a pinned id in this module (CON-CVS-30053920BDC07F); mintConceptId derives the same id fresh (CON-CVS-30053920BDC07F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The tunica adventitia's vasa vasorum — 'vessels of the vessels' — nourish the outer wall of large vessels, are more frequent in veins than arteries, and sit alongside longitudinal type I collagen that resists overdistension
+## id
+CON-CVS-E7CF1A3FFF700C
+## canonical_key
+tunica-adventitia.vasa-vasorum-and-composition
+## definition
+Vasa vasorum are small nutrient blood vessels, literally 'vessels of the vessels', that penetrate from the tunica adventitia to nourish the outer part of a large vessel's own wall — the adventitia and outer media — because that outer tissue is too far from the lumen for diffusion from the blood inside to reach it; the inner wall (intima, inner media) is nourished directly by luminal diffusion instead. This need is specific to large vessels: small arteries and veins have thin enough walls that diffusion from the lumen suffices for the whole thickness, so they carry no vasa vasorum at all. Vasa vasorum are more frequent and more deeply penetrating in the walls of veins than of arteries of comparable size, since less-oxygenated venous blood makes the venous wall rely more on this dedicated external supply. Alongside vasa vasorum, the tunica adventitia's other main constituent is longitudinal type I collagen fibres, which resist overdistension of the vessel, together with a few circular elastic fibres and nervi vasorum, the autonomic nerves driving the media's smooth muscle.
+## explicit_objective
+State what vasa vasorum are, why only large vessels need them, why they favour veins over arteries, and name type I collagen as the tunica adventitia's other defining constituent.
+## pitfalls
+Placing vasa vasorum in the tunica media or intima. Their defining location is the tunica adventitia (extending only partly into the outer media in large vessels); the inner wall is nourished by diffusion from the lumen directly, which is exactly why only the outer wall needs its own dedicated vessels.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_437b45e5de1d97a26dc6 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p17 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Vasa vasorum | Nervi vasorum | Tunica adventitia composition
+## article_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding vasa vasorum: 1
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-ARTERIES-AND-VEINS | ART-104-ANA-CORONARY-ARTERIES
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The working cardiac myocyte's action potential plateau (phase 2) is sustained by a balance between inward Ca++ current through L-type calcium channels and outward K+ current, prolonging depolarization well beyond a skeletal muscle fibre's brief spike
+## id
+CON-CVS-D0CD4A234205EF
+## canonical_key
+cardiac-action-potential.plateau-phase2.calcium-potassium-balance
+## definition
+After the rapid fast-Na+-channel-driven upstroke (phase 0) of a working atrial or ventricular myocyte's action potential, the membrane does not repolarize immediately as skeletal muscle's does. Instead it plateaus (phase 2) for roughly 200-300 ms, held near 0 mV by a near-balance between a sustained inward Ca++ current — carried by L-type ('long-lasting') Ca++ channels that open during the upstroke and close slowly — and an outward K+ current leaving through the cell's potassium channels. This inward Ca++ current is also the trigger for excitation-contraction coupling: the Ca++ entering through L-type channels triggers a much larger calcium-induced release of Ca++ from the sarcoplasmic reticulum. Only once the L-type Ca++ channels inactivate does the outward K+ current dominate, producing phase 3 repolarization.
+## explicit_objective
+State that the plateau (phase 2) of the working myocyte's action potential is maintained by a balance between L-type Ca++ channel influx and K+ efflux, and that this plateau — largely absent from skeletal muscle's action potential — is what gives cardiac muscle both its long action potential duration and its long refractory period.
+## pitfalls
+Assuming the cardiac plateau is simply 'a pause' with no ionic current flowing. Two opposing currents are active throughout it — inward Ca++ and outward K+ — and it is their near-balance, not their absence, that holds the membrane potential flat for hundreds of milliseconds.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p2 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Cardiac action potential plateau | Phase 2 | L-type calcium channels
+## article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-CARDIAC-MECHANICS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Action potential of the cardiac muscle is ‘characterized by the presence of plateau which: a
+## conflicts
+No conflicting record found; this canonical_key returned 'safe to create' from find-existing.mjs and no concept in 104-CPS-physiology-concepts.md carries ART-104-PHY-CARDIAC-ACTION-POTENTIAL as its own article_ids, so this is a genuine gap in that pre-staged concept file rather than a duplicate.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Cardiac muscle behaves as a functional, not a true, syncytium — individual myocytes stay anatomically separate but are electrically coupled through the low-resistance gap junctions of the intercalated discs
+## id
+CON-CVS-7FC4E8F3FBEFFE
+## canonical_key
+cardiac-muscle.functional-syncytium-and-intercalated-discs
+## definition
+Cardiac muscle fibres are individual cells, each with its own nucleus and plasma membrane, separated from their neighbours by intercalated discs. This distinguishes cardiac muscle from a true syncytium (such as skeletal muscle, formed by fusion of many cells into one multinucleated fibre), even though the tissue behaves electrically as if it were one continuous sheet. The intercalated discs carry gap junctions, whose channels have a very low electrical resistance, letting an action potential spread rapidly from cell to cell almost as though no membrane separated them — this 'functional syncytium' behaviour is what lets the whole atrial mass, and separately the whole ventricular mass, contract together as a single unit following the all-or-none law. Cardiac muscle is also richly supplied with capillaries, with almost one capillary per fibre, matching its continuous, high metabolic demand.
+## explicit_objective
+Distinguish a functional syncytium (cardiac muscle: separate cells, low-resistance electrical coupling via intercalated disc gap junctions) from a true syncytium (skeletal muscle: fused into one multinucleated fibre), and state that cardiac muscle obeys the all-or-none law and is densely capillarised.
+## pitfalls
+Calling cardiac muscle a 'true syncytium' because it behaves electrically as one unit. Anatomically its cells remain separate, joined only by the electrically-permissive intercalated discs — 'functional', not 'true', is the precise term this distinction turns on.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p1 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Functional syncytium | Intercalated discs | All-or-none law (cardiac)
+## article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-CARDIAC-MECHANICS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] About the cardiac muscle all the following are true except : a, It has low electric resistance of the membrane at the intercalated discs
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
@@ -235,9 +4898,9 @@ CON-DEV-E9C307421DE375
 ## canonical_key
 chromosomal-aberration.general-causes
 ## definition
-Before splitting into numerical and structural types, the book gives five general causes of chromosomal aberration. Radiation causes chromosomal damage and non-disjunction. Viral infections, such as German measles (rubella), cause fragmentation of the chromosome. Pregnancy at an advanced maternal age increases the risk of non-disjunction, through a very long prophase. Drugs, such as the cytotoxic drug colchicine, inhibit formation of the mitotic spindle — which is why colchicine is used experimentally to arrest cells in metaphase, since without a spindle the chromatids cannot be pulled apart into anaphase. Autoimmune diseases are usually associated with non-disjunction as well.
+Before splitting into numerical and structural types, there are five general causes of chromosomal aberration. Radiation causes chromosomal damage and non-disjunction. Viral infections, such as German measles (rubella), cause fragmentation of the chromosome. Pregnancy at an advanced maternal age increases the risk of non-disjunction, through a very long prophase. Drugs, such as the cytotoxic drug colchicine, inhibit formation of the mitotic spindle — which is why colchicine is used experimentally to arrest cells in metaphase, since without a spindle the chromatids cannot be pulled apart into anaphase. Autoimmune diseases are usually associated with non-disjunction as well.
 ## explicit_objective
-List the book's five general causes of chromosomal aberration — radiation, viral infection, advanced maternal age, cytotoxic drugs, autoimmune disease — and state which mechanism each acts through.
+List the five general causes of chromosomal aberration — radiation, viral infection, advanced maternal age, cytotoxic drugs, autoimmune disease — and state which mechanism each acts through.
 ## pitfalls
 Confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss). Radiation and advanced maternal age are named here as things that increase the risk of non-disjunction happening; they are not alternative mechanisms to it.
 ## concept_type
@@ -370,6 +5033,8 @@ cell-cycle.phases-g1-s-g2-m-and-g0
 src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
 src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p11 | 104 CPS
 ## article_ids
 +ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## field_notes
@@ -446,18 +5111,21 @@ kau
 1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+src_be181ad1f0be0dab13c9 | question_book | | p1 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -469,7 +5137,7 @@ ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] sperms are example for
+[asked 3x across the question books] One of the following has a pluripotential stem cell:
 ## conflicts
 [clear]
 ## uncertainty
@@ -553,6 +5221,11 @@ A chromosome is DNA coiled on histones, its two chromatids joined at a centromer
 chromosome-structure.chromatid-centromere-kinetochore-and-telomere
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p31 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p68 | 104 CPS
+src_375227d5b7c819636151 | question_book | | p26 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
 ## field_notes
@@ -590,6 +5263,9 @@ chromosome-classification.by-gene-content-centromere-position-and-length
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p38 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p15 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
 ## field_notes
@@ -607,6 +5283,7 @@ The Barr body is the inactive, coiled X chromosome, present in normal females an
 sex-chromatin.barr-body-structure-and-clinical-significance
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
 ## article_ids
 +ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
 ## field_notes
@@ -624,6 +5301,7 @@ Mitosis is prophase, metaphase, anaphase and telophase, producing two geneticall
 mitosis.four-stages-prophase-to-telophase
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p12 | 104 CPS
 ## article_ids
 +ART-104-HIS-MITOSIS-AND-MEIOSIS
 ## field_notes
@@ -642,6 +5320,8 @@ meiosis.two-successive-divisions-and-crossing-over
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p31 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p68 | 104 CPS
 ## article_ids
 +ART-104-HIS-MITOSIS-AND-MEIOSIS
 ## field_notes
@@ -661,10 +5341,30 @@ mitosis-vs-meiosis.comparison
 src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
+src_be181ad1f0be0dab13c9 | question_book | | p1 | 104 CPS
+src_375227d5b7c819636151 | question_book | | p26 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-MITOSIS-AND-MEIOSIS
 ## field_notes
 canonical_key "mitosis-vs-meiosis.comparison" already has a pinned id in this module (CON-FND-AB1858FD6C0F61); mintConceptId derives the same id fresh (CON-FND-AB1858FD6C0F61) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-DEV-451A64C9445CAB
+## label
+A numerical chromosomal aberration is euploidy — an exact multiple of the haploid number beyond diploid — or aneuploidy — an addition or loss of one chromosome
+## canonical_key
+numerical-chromosomal-aberration.euploidy-and-aneuploidy-types
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+## article_ids
++ART-104-HIS-NUMERICAL-ABERRATIONS
+## field_notes
+canonical_key "numerical-chromosomal-aberration.euploidy-and-aneuploidy-types" already has a pinned id in this module (CON-DEV-451A64C9445CAB); mintConceptId derives the same id fresh (CON-DEV-451A64C9445CAB) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -682,6 +5382,7 @@ src_79af3b3857ba47239529 | question_book | | p3 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p37 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p38 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p2 | 104 CPS
 ## article_ids
 +ART-104-HIS-NUMERICAL-ABERRATIONS
 ## field_notes
@@ -703,6 +5404,8 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p41 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p37 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p39 | 104 CPS
 src_be181ad1f0be0dab13c9 | question_book | | p3 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
 ## article_ids
 +ART-104-HIS-NUMERICAL-ABERRATIONS
 ## field_notes
@@ -731,6 +5434,25 @@ canonical_key "structural-chromosomal-aberration.deletion-inversion-translocatio
 ---
 
 # Item
+## id
+CON-HEM-D1628423BE0844
+## label
+The mononuclear phagocyte system is monocyte-derived phagocytes distributed under different names across almost every organ
+## canonical_key
+mononuclear-phagocyte-system.definition-origin-and-distribution
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+## article_ids
++ART-104-HIS-MACROPHAGE-SYSTEM | +ART-104-HIS-LYMPHOID-ORGANS
+## field_notes
+canonical_key "mononuclear-phagocyte-system.definition-origin-and-distribution" already has a pinned id in this module (CON-HEM-D1628423BE0844); mintConceptId derives the same id fresh (CON-HEM-D1628423BE0844) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
 ## label
 The lymph node's cortex holds B-cell-dominant follicles and macrophage-lined sinuses around a T-cell-only paracortex, and its medulla holds B-lymphocyte cords and macrophage-lined medullary sinuses
 ## id
@@ -738,11 +5460,11 @@ CON-HEM-60C0AFCC9A1F88
 ## canonical_key
 lymph-node.cortex-medulla-zones-and-cell-distribution
 ## definition
-The lymph node is organised into a cortex and a medulla. The cortex's outer part carries lymphatic nodules (follicles) — primary follicles of mainly B-lymphocytes with a few T-lymphocytes, and, once antigen has driven some B-lymphocytes to enlarge and aggregate, secondary follicles with a peripheral dark region of small lymphocytes around a pale germinal centre of large activated B-lymphocytes, plasma cells and a few macrophages and T-lymphocytes. Cortical (subcapsular and trabecular) lymph sinuses separate the follicles from the capsule and trabeculae and are lined by endothelial cells and macrophages, carrying B-lymphocytes, plasma cells, macrophages and a few T-cells. Between the cortex and the medulla lies the paracortex, the thymus-dependent zone: unlike the follicles and sinuses around it, it holds only T-lymphocytes, which have migrated in from the thymus through post-capillary venules. The medulla is medullary cords — irregular branching cords of B-lymphocytes, plasma cells and macrophages, sometimes continuous with the cortical follicles — separated by medullary sinuses, which are lined by endothelium and macrophages and filter the lymph arriving from the cortical sinuses before it leaves at the hilum.
+The lymph node is organised into a cortex and a medulla. The cortex's outer part carries lymphatic nodules (follicles) — primary follicles of mainly B-lymphocytes with a few T-lymphocytes, and, once antigen has driven some B-lymphocytes to enlarge and aggregate, secondary follicles with a peripheral dark region of small lymphocytes around a pale germinal centre of large activated B-lymphocytes, plasma cells and a few macrophages and T-lymphocytes. Cortical (subcapsular and trabecular) lymph sinuses separate the follicles from the capsule and trabeculae and are lined by endothelial cells and macrophages, carrying B-lymphocytes, plasma cells, macrophages and a few T-cells. Between the cortex and the medulla lies the paracortex, the thymus-dependent zone: unlike the follicles and sinuses around it, it holds only T-lymphocytes, which have migrated in from the thymus through post-capillary venules lined with simple cubical epithelium (carrying receptors for T-lymphocyte homing). The medulla is medullary cords — irregular branching cords of B-lymphocytes, plasma cells and macrophages, sometimes continuous with the cortical follicles — separated by medullary sinuses, which are lined by endothelium and macrophages and filter the lymph arriving from the cortical sinuses before it leaves at the hilum.
 ## explicit_objective
 Place B-lymphocytes, T-lymphocytes, plasma cells and macrophages correctly among the lymph node's cortical follicles, cortical sinuses, paracortex and medullary cords/sinuses, and identify the paracortex as the one zone that is T-lymphocytes only.
 ## pitfalls
-Assuming every named cortical or medullary compartment is B-lymphocyte territory. The paracortex is the one exception the book states explicitly — it is the thymus-dependent zone, populated only by T-lymphocytes that have migrated from the thymus, with no follicle and no germinal centre of its own.
+Assuming every named cortical or medullary compartment is B-lymphocyte territory. The paracortex is the one exception explicitly — it is the thymus-dependent zone, populated only by T-lymphocytes that have migrated from the thymus, with no follicle and no germinal centre of its own.
 ## concept_type
 structural_description
 ## status
@@ -763,18 +5485,23 @@ kau
 1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+src_b0c5c0d32e396511ae20 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p8 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -863,6 +5590,1016 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
+The bean- or kidney-shaped, encapsulated lymph node has a thin capsule with smooth muscle at the hilum and adipose covering, pierced by afferent lymphatics at its convex surface, with trabeculae dividing the cortex regularly and the medulla irregularly
+## id
+CON-HEM-71A6919A0991FB
+## canonical_key
+lymph-node.capsule-trabeculae-and-stroma
+## definition
+The lymph node is a bean- or kidney-shaped encapsulated lymphatic organ, ranging from the size of a small bean up to an almond, found in groups along lymphatic vessels (axilla, groin, neck, thorax). It has a convex surface, which receives afferent lymphatics, and a concave surface (the hilum), where arteries enter and veins and efferent lymphatics leave. Its stroma has three components: the capsule, formed of dense irregular fibrous connective tissue and elastic fibres — thin, containing smooth muscle at the thickened hilum, covered with adipose tissue, and pierced by afferent lymphatic vessels at its convex surface; connective-tissue septa (trabeculae), extending from the capsule's deep surface, dividing the cortex into regular compartments and, on branching further into the medulla, dividing it into irregular compartments; and a reticular connective-tissue network of reticular cells and fibres forming the organ's background, more condensed where cell density is higher, staining brown with silver stain.
+## explicit_objective
+Describe the lymph node's shape and surfaces, list the three components of its stroma, and state which structure pierces the capsule where, and which part of the parenchyma the trabeculae divide regularly versus irregularly.
+## pitfalls
+Assuming the trabeculae divide both cortex and medulla the same way. They divide the cortex into regular compartments but branch further into the medulla to divide it into irregular compartments — reversing which part gets the regular division is a common trap.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Lymph node capsule | Lymph node shape | Lymph node trabeculae | Lymph node stroma
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All characters of lymph Node Capsule except
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The lymph node filters lymph, forms lymphocytes, and carries out both humoral immunity (B-lymphocytes to plasma cells to antibodies) and cell-mediated immunity (activated T-lymphocytes) — RBC destruction and blood-cell storage are spleen functions, not lymph node ones
+## id
+CON-HEM-5B40B8CAB70F24
+## canonical_key
+lymph-node.functions-filtration-lymphocytopoiesis-and-immunity
+## definition
+The lymph node's functions are filtration of lymph from microorganisms and foreign bodies; formation of lymphocytes; and immunological function in two forms — humoral immunity, the activation of B-lymphocytes into plasmablasts and then plasma cells that secrete immunoglobulins (antibodies), and cell-mediated immunity, in which activated T-lymphocytes directly destroy antigen. Destruction of old red blood cells and storage of blood cells and platelets are, by contrast, functions of the spleen, not the lymph node — the department book's own comparison table lists lymph node function as 'filter lymph, humoral and cell mediated immunity' against spleen function as 'filter blood, storage of blood and immunological functions'.
+## explicit_objective
+List the lymph node's three functions (filtration of lymph, lymphocyte formation, humoral and cell-mediated immunity) and distinguish them from the spleen's functions (filtration of blood, storage, destruction of old RBCs).
+## pitfalls
+Assigning a spleen function — destruction of old red blood cells, or storage of blood cells — to the lymph node. The lymph node filters lymph and mounts immune responses; it is the spleen that filters blood and destroys/stores blood cells.
+## concept_type
+mechanism
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p2 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Lymph node functions | Lymphadenitis | Humoral immunity | Cell-mediated immunity
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All functions of lymph Node except
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Regional lymph node enlargement follows infection of the area a node drains (lymphadenitis) or malignant spread through lymphatic vessels from that area — not a blood-borne route, and not the leukaemias, which the department book does not describe as regional-enlargement causes
+## id
+CON-HEM-F9536FBAB70634
+## canonical_key
+lymph-node.clinical-enlargement-lymphadenitis-and-metastasis
+## definition
+Infection in any part of the body can lead to enlarged and inflamed lymph nodes draining that area, called lymphadenitis. Malignant cells can also spread from their primary site through lymphatic vessels, causing enlargement of the regional lymph nodes; examining lymph nodes gives valuable information about the spread of the cancer. Both causes act through the local drainage relationship between a body region and its regional nodes, which is what makes the enlargement regional rather than generalised.
+## explicit_objective
+State the two causes of regional lymph node enlargement the department book names (local infection and lymphatic — not haematogenous — spread of malignancy) and why both are regional rather than generalised.
+## pitfalls
+Attributing regional node enlargement to spread of cancer via the blood stream, or to leukaemia. The department book specifies spread through lymphatic vessels, not the blood stream, as the malignant route to regional nodes, and does not discuss the leukaemias as a cause of regional (as opposed to generalised) lymphadenopathy at all.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p10 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Lymphadenitis | Regional lymph node enlargement | Metastasis to lymph nodes
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regional enlargement of lymph nodes may be due to:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Thymus and bone marrow are the primary (central) lymphatic organs, where lymphocytes are produced — the thymus specifically producing CD4+ and CD8+ T-lymphocytes — while lymph nodes, spleen and tonsils are secondary (peripheral) organs, where mature lymphocytes mount immune responses
+## id
+CON-HEM-CF6A9A48ADA3AC
+## canonical_key
+lymphatic-organs.primary-vs-secondary-classification
+## definition
+Lymphatic tissue is organised into primary (central) and secondary (peripheral) lymphatic organs. The primary organs are the thymus and bone marrow, the sites where lymphocytes are produced: the thymus is a primary lymphoid organ with an endocrine function, of double origin (mesodermal, giving lymphocytes; endodermal, giving epithelial reticular cells), whose cortex and medulla complete T-lymphocyte production and maturation, including the CD4+ and CD8+ T-lymphocyte populations, before they seed the peripheral organs. The secondary organs are the lymph nodes, spleen and tonsils, where those already-produced lymphocytes encounter antigen and mount the immune response — lymph nodes filtering lymph and carrying out humoral and cell-mediated immunity, the spleen filtering blood, and the tonsils protecting the digestive and respiratory systems' entry points.
+## explicit_objective
+Classify thymus and bone marrow as primary (central) lymphatic organs and lymph node, spleen and tonsil as secondary (peripheral) ones, and state that CD4+/CD8+ T-lymphocyte production is a primary-organ (thymic) function, not a secondary-organ one.
+## pitfalls
+Placing the spleen, lymph node or tonsil among the primary lymphatic organs, or attributing a primary-organ function (production of new lymphocytes, including CD4+/CD8+ T-cells) to a secondary organ. Secondary organs act on lymphocytes already produced elsewhere; they do not produce them.
+## concept_type
+classification
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p9 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p3 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Primary lymphatic organs | Secondary lymphatic organs | Central vs peripheral lymphoid organs
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Identify the following organ & choose the correct statement:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-HEM-594B1725902DAD
+## label
+Red pulp is Billroth cords and stave-cell sinusoids whose intercellular gaps let blood cells pass back into the circulation
+## canonical_key
+spleen.red-pulp-billroth-cords-and-stave-cell-sinusoids
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+src_375227d5b7c819636151 | question_book | | p26 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p14 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p8 | 104 CPS
+src_b0c5c0d32e396511ae20 | question_book | | p2 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
+## article_ids
++ART-104-HIS-LYMPHOID-ORGANS
+## field_notes
+canonical_key "spleen.red-pulp-billroth-cords-and-stave-cell-sinusoids" already has a pinned id in this module (CON-HEM-594B1725902DAD); mintConceptId would derive a different one (CON-HEM-5DC8E77A14E8C9) — minted outside mintConceptId and not this build's to re-mint; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-7C79F2D68F1003
+## label
+Cartilage, glands and goblet cells fall away from extrapulmonary bronchus to bronchiole, while smooth muscle becomes more developed and Clara cells appear
+## canonical_key
+bronchi-and-bronchioles.structural-progression-and-clara-cells
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p24 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p2 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-HIS-LYMPHOID-ORGANS | +ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## field_notes
+canonical_key "bronchi-and-bronchioles.structural-progression-and-clara-cells" already has a pinned id in this module (CON-RES-7C79F2D68F1003); mintConceptId derives the same id fresh (CON-RES-7C79F2D68F1003) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-HEM-2F3CB0082551D1
+## label
+The spleen is a thick muscular capsule with thick trabeculae radiating from the hilum, and white pulp scattered irregularly in red pulp
+## canonical_key
+spleen.capsule-trabeculae-white-pulp-and-red-pulp
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p9 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-HIS-LYMPHOID-ORGANS
+## field_notes
+canonical_key "spleen.capsule-trabeculae-white-pulp-and-red-pulp" already has a pinned id in this module (CON-HEM-2F3CB0082551D1); mintConceptId would derive a different one (CON-HEM-0FED5653346EA8) — minted outside mintConceptId and not this build's to re-mint; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Splenic white pulp is four zones arranged concentrically around the central arteriole
+## id
+CON-HEM-7B050DE7FE2B80
+## canonical_key
+splenic-white-pulp.zones-and-cellular-composition
+## definition
+Each Malpighian corpuscle of the white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole, in four zones from inside outwards. The thymus-dependent zone, the periarteriolar lymphatic sheath, holds T lymphocytes ensheathing the arteriole. The germinal centre is a pale central area of B lymphocytes, large activated lymphocytes, plasma cells and macrophages. The follicular zone is the darkly stained ring around the germinal centre, mainly B lymphocytes. The marginal zone forms the periphery and contains T and B lymphocytes, plasma cells and macrophages.
+## explicit_objective
+Name the four zones of splenic white pulp in order from the central arteriole outwards and give the cells of each.
+## pitfalls
+Taking the central arteriole to be central. It is eccentric in the corpuscle; the name describes the sheath wrapped around it, not its position.
+## concept_type
+definition
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p13 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p9 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p8 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Malpighian corpuscle | Periarteriolar lymphatic sheath | PALS | Germinal centre | Follicular zone | Marginal zone
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Regarding the white pulp of the spleen: | a. Contains a central arteriole at one side | b. Is lined by stave cells | c. Rich in numerous RBCs | d. Formed of blood sinusoids & splenic cord | 3- The paracortex of the lymph node is characterized by:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-HEM-4D47090A0B7561
+## label
+Open, closed and open-and-closed theories describe how blood crosses from the terminal capillaries into the splenic sinusoids
+## canonical_key
+spleen.open-closed-and-open-and-closed-circulation-theories
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-HIS-LYMPHOID-ORGANS
+## field_notes
+canonical_key "spleen.open-closed-and-open-and-closed-circulation-theories" already has a pinned id in this module (CON-HEM-4D47090A0B7561); mintConceptId would derive a different one (CON-HEM-1DA10DA549A0AE) — minted outside mintConceptId and not this build's to re-mint; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The spleen filters and stores blood, forms blood elements in fetal life, and destroys old red cells; it does not filter lymph — that is the lymph node's own job
+## id
+CON-HEM-259566CE981914
+## canonical_key
+spleen.functions-filtration-storage-and-destruction-of-old-rbcs
+## definition
+The spleen's functions are filtration of blood by macrophages, storage of blood cells and platelets (releasable into the circulation when the organ contracts, as in an emergency such as bleeding), formation of blood elements in fetal life and of lymphocytes throughout life, immunological function through T and B lymphocytes with the reticular cells trapping and presenting antigen, and destruction of old red cells — the haem iron is stored in macrophages, the non-iron part becomes bile pigments, and the globin is broken down to amino acids returned to the blood. The spleen has no afferent lymphatic vessels at all and filters blood, not lymph; filtering lymph of micro-organisms and foreign bodies is the lymph node's own function instead.
+## explicit_objective
+List the spleen's functions — blood filtration, storage, fetal/lifelong haematopoiesis, immunological function and destruction of old red cells — and state that it does not filter lymph.
+## pitfalls
+Assuming any lymphoid organ filters lymph. Only the lymph node does; the spleen has no afferent lymphatics to bring lymph to it in the first place, and filters blood instead.
+## concept_type
+mechanism
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p8 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Functions of the spleen | Spleen as a blood reservoir | Destruction of old red blood cells
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] which of the following is not a function of the spleen?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The penicillar arteriole runs pulp arteriole, then sheathed (ellipsoid) arteriole, then terminal arterial capillary, before opening into the red pulp
+## id
+CON-HEM-4F89686DD27397
+## canonical_key
+penicillar-arteriole.three-segments-pulp-sheathed-and-terminal
+## definition
+The penicillar arteriole is the continuation of the central (follicular) arteriole beyond the boundary of the white pulp, and it runs in three successive segments before ending in the red pulp: first the pulp arteriole, a short unsheathed segment; then the sheathed (ellipsoid) arteriole, surrounded by a periarterial macrophage sheath; and finally the terminal arterial capillary, which opens into the red pulp's blood sinusoids (the closed theory) or its cords (the open theory).
+## explicit_objective
+State the penicillar arteriole's three named segments in order — pulp arteriole, sheathed (ellipsoid) arteriole, terminal arterial capillary — from the white pulp boundary to the red pulp.
+## pitfalls
+Placing the terminal arterial capillary first or in the middle of the sequence. It is the LAST of the three segments, the point where the penicillar arteriole's own named course ends and the open/closed-theory question of how it reaches the sinusoid begins.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p6 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Pulp arteriole | Sheathed arteriole | Ellipsoid | Schweigger-Seidel sheath
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Penicillar arteriole is 3 parts
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+ART-104-HIS-LYMPHOID-ORGANS states the central arteriole 'branches into penicillar arterioles, ending in terminal arterial capillaries that open into the blood sinusoids of the red pulp', but does not itself name the intermediate pulp-arteriole and sheathed-arteriole segments this leaf's own bank tests — standard, undisputed histology, flagged for the article-authoring lane.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
 The thymus has a double embryological origin — mesodermal T-lymphocytes and endodermal epithelial reticular cells — and the epithelial reticular cells, not fibroblasts, form its reticular background and blood-thymic barrier
 ## id
 CON-HEM-817D336693039E
@@ -873,7 +6610,7 @@ The thymus is a primary lymphoid organ with an endocrine function, and unlike th
 ## explicit_objective
 State the thymus's double embryological origin and identify the epithelial reticular cell, not the fibroblast, as the endodermal cell that forms its reticular stroma and blood-thymic barrier.
 ## pitfalls
-Assuming the thymus's reticular framework is built the same way as the lymph node's or spleen's, by mesenchymal reticular cells and reticular fibres. The thymus is the one lymphoid organ where that framework is epithelial and endodermal, produces no reticular fibre, and doubles as part of the blood-thymic barrier — a structural difference the book states as one of the thymus's 'special features'.
+Assuming the thymus's reticular framework is built the same way as the lymph node's or spleen's, by mesenchymal reticular cells and reticular fibres. The thymus is the one lymphoid organ where that framework is epithelial and endodermal, produces no reticular fibre, and doubles as part of the blood-thymic barrier — a structural difference listed as one of the thymus's 'special features'.
 ## concept_type
 structural_description
 ## status
@@ -894,12 +6631,13 @@ kau
 1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p6 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p2 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -994,6 +6732,2134 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
+The thymic cortex stains darker (dense small lymphocytes) than the medulla, which alone holds the acidophilic, age-increasing Hassall's corpuscles; the thymus has no plasma cells, no afferent lymphatics and no lymphoid nodules
+## id
+CON-HEM-3F5E8C649251F1
+## canonical_key
+thymus.hassalls-corpuscles-cortex-medulla-contrast-and-reticular-cell-functions
+## definition
+Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla. The cortex is the outer zone and stains darker on histology because it is densely populated with lymphocytes — lymphoblasts in its outer part, thymocytes in its inner part — completely surrounded by epithelial reticular cells and macrophages; this is the same cortex the blood-thymic barrier protects. The medulla stains lighter, because lymphocytes are less abundant there and epithelial reticular cells more so, and it alone contains Hassall's corpuscles — small rounded structures whose number increases with age, formed of a central acidophilic (eosinophilic) mass of degenerating, keratinizing epithelial reticular cells surrounded by concentric layers of more epithelial reticular cells; they are not made of lymphocytes, which are merely interspersed around them, and they are not basophilic. The epithelial reticular cells themselves have three named functions: they secrete thymic hormones (thymosin, thymopoietin, thymic humoral factor, thymulin) that promote T-lymphocyte differentiation and proliferation; they form sheets deep to the capsule and around the septa and blood vessels, isolating cortical lymphocytes from blood-borne antigen; and they act as nursing cells for the developing lymphocytes. Four absences complete the thymus's picture: no lymphoid nodules, no B lymphocytes, no plasma cells, and no afferent lymphatic vessels — the last being the absence that protects developing thymocytes from circulating antigen (efferent lymphatics do exist, carrying mature cells onward).
+## explicit_objective
+Contrast the thymic cortex and medulla by staining intensity and lymphocyte density, place Hassall's corpuscles in the medulla and state their acidophilic, age-increasing, epithelial-cell composition, and list the epithelial reticular cell's three functions and the thymus's four defining absences.
+## pitfalls
+Assuming Hassall's corpuscles are basophilic lymphocyte aggregates, or that their number falls with age. They are acidophilic (eosinophilic) whorls of degenerating epithelial reticular cells, sited only in the medulla, and they become more numerous as the thymus involutes with age, even as its overall lymphocyte content declines.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p8 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p6 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p9 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p13 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Hassall's corpuscles | Thymic cortex and medulla | Thymus absences | Epithelial reticular cell functions
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Concerning the thymus, which of the following is correct? 1
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-HEM-093013026B640A
+## label
+The palatine tonsil is stratified squamous epithelium dipping in as crypts, nodules arranged around them, and dense connective tissue on the deep aspect only
+## canonical_key
+tonsil.palatine-epithelium-crypts-and-deep-capsule
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+## article_ids
++ART-104-HIS-LYMPHOID-ORGANS
+## field_notes
+canonical_key "tonsil.palatine-epithelium-crypts-and-deep-capsule" already has a pinned id in this module (CON-HEM-093013026B640A); mintConceptId would derive a different one (CON-HEM-D50158E9A0F2FB) — minted outside mintConceptId and not this build's to re-mint; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-HEM-23C119B7E783BD
+## label
+The pharyngeal tonsil is a single midline nasopharyngeal mass with folded respiratory epithelium and no crypts
+## canonical_key
+tonsil.pharyngeal-site-epithelium-and-absent-crypts
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+## article_ids
++ART-104-HIS-LYMPHOID-ORGANS
+## field_notes
+canonical_key "tonsil.pharyngeal-site-epithelium-and-absent-crypts" already has a pinned id in this module (CON-HEM-23C119B7E783BD); mintConceptId would derive a different one (CON-HEM-7C6AD76CC501ED) — minted outside mintConceptId and not this build's to re-mint; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The lingual tonsil is non-keratinized stratified squamous epithelium over multiple non-capsulated masses whose gland ducts open at the base of the crypts, continuously flushing them, so inflammation is uncommon
+## id
+CON-HEM-2E0E3962A69D21
+## canonical_key
+tonsil.lingual-crypts-no-capsule-and-continuous-flushing
+## definition
+The lingual tonsils are multiple masses of lymphoid tissue at the base of the tongue, covered with non-keratinized stratified squamous epithelium — the same epithelium type as the palatine tonsil, not the pseudostratified columnar epithelium of the pharyngeal tonsil — which dips down to form crypts. Each mass is formed of lymphatic nodules and diffuse lymphatic tissue, and, unlike the palatine tonsil, the lingual tonsil has no connective-tissue capsule at all. Its mucous gland ducts open into the bases of the crypts, giving continuous washing that keeps debris and organisms from accumulating, which is why lingual tonsillitis is the uncommon exception rather than the rule the palatine tonsil follows.
+## explicit_objective
+State the lingual tonsil's covering epithelium, its non-capsulated structure, and why its crypt-flushing duct arrangement makes it inflame less often than the palatine tonsil.
+## pitfalls
+Assigning the pharyngeal tonsil's pseudostratified columnar epithelium to the lingual tonsil, or assuming 'adenoid' hypertrophy applies to any enlarged tonsil rather than the pharyngeal tonsil specifically, which this book alone names as the source of adenoids.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p6 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Lingual tonsil | Tonsillar crypts (lingual)
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All characters of lingual tonsil except
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Palatine and lingual tonsils share non-keratinized stratified squamous epithelium with crypts; the pharyngeal tonsil alone, sited in the respiratory-epithelium-lined nasopharynx, has folded pseudostratified ciliated columnar epithelium with goblet cells and no crypts
+## id
+CON-HEM-81DED3B4C771AF
+## canonical_key
+tonsil.epithelium-comparison-across-the-three-types
+## definition
+Of the three tonsil types, the palatine and lingual tonsils are both covered by non-keratinized stratified squamous epithelium that dips down to form crypts, matching the general oropharyngeal lining around them. The pharyngeal tonsil is the exception: sited under the mucous membrane of the nasopharynx — the uppermost, first part of the pharynx, lined by respiratory (ciliated, mucus-secreting) epithelium — it shares that same folded pseudostratified columnar ciliated epithelium with goblet cells, and has no crypts at all, only folds.
+## explicit_objective
+State which two tonsil types share non-keratinized stratified squamous epithelium, and which one instead carries the nasopharynx's own pseudostratified ciliated columnar epithelium with goblet cells and no crypts.
+## pitfalls
+Assuming all three tonsil types share one epithelium. The pharyngeal tonsil's epithelium follows its nasopharyngeal site, not the oropharyngeal pattern the palatine and lingual tonsils share.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p14 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Tonsil epithelium comparison | Nasopharynx
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] nasopharynx:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Tonsillitis is a palatine-tonsil disease, treated surgically by removing the palatine tonsils, and, like any local infection, it can inflame the regional (draining) lymph nodes
+## id
+CON-HEM-3D8EC762B8577E
+## canonical_key
+tonsil.clinical-tonsillitis-and-regional-lymphadenitis
+## definition
+The palatine tonsil is often infected (tonsillitis), a common cause of sore throat; repeated infections lead to its enlargement and it becomes a focus of infection, for which tonsillectomy — surgical removal of the palatine tonsils — is the standard treatment. Because the palatine tonsils are open, crypt-bearing lymphoid tissue exposed to the oropharynx with mucous-gland ducts that do not flush their crypts, they trap bacteria and debris and inflame far more often than the lingual or pharyngeal tonsils. As with any local infection, tonsillitis can lead to lymphadenitis of the regional (draining) lymph nodes — the cervical nodes that drain the oropharynx — consistent with the general rule that infection in a body region enlarges and inflames the nodes that drain it.
+## explicit_objective
+State that 'tonsillectomy' means surgical removal of the palatine tonsils specifically, and that local infection such as tonsillitis can inflame the regional lymph nodes draining that area.
+## pitfalls
+Assuming tonsillectomy removes the lingual or pharyngeal tonsils, or that a child's acute (infectious) tonsillitis would produce metastatic lymph nodes — a finding that implies malignancy, not infection.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p10 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Tonsillitis | Tonsillectomy | Regional lymphadenitis
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] A 10 year old child had frequent acute tonsillitis & his mother was advised to consider tonsillectomy. Which of the following statements is correct about this case?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The ventricular pressure-volume loop's EDPVR traces the ventricle's passive tension as it fills, its ESPVR traces the maximal active tension the contracting ventricle can generate, and end-diastolic volume and end-systolic pressure are the loop's standard practical measures of preload and afterload
+## id
+CON-CVS-CDED5A71C2AEBA
+## canonical_key
+ventricular-pressure-volume-loop.landmarks.edpvr-espvr-preload-afterload
+## definition
+On a ventricular pressure-volume loop, the end-diastolic pressure-volume relationship (EDPVR) is the curve traced by the passive, non-contracting ventricular wall as it is stretched during filling — analogous to the passive length-tension curve of a resting isolated muscle. The end-systolic pressure-volume relationship (ESPVR) is the line on which the upper-left corner of loops at varying preload or afterload lies; its slope is used as a load-independent index of the ventricle's contractility because it isolates the maximal ACTIVE tension-generating capacity of the ventricle at end-systole, not a 'total' tension that would misleadingly combine the active and passive components together. Two of the loop's corners double as standard clinical and experimental proxies for the heart's own loading conditions: end-diastolic volume (EDV), the right-hand edge of the loop, is the standard measure of preload, and end-systolic pressure (ESP), the loop's peak pressure at the point of aortic valve closure, is the standard measure of afterload.
+## explicit_objective
+Distinguish the EDPVR (passive filling tension) from the ESPVR (maximal active tension / contractility) on a ventricular pressure-volume loop, and state that end-diastolic volume and end-systolic pressure are the loop's standard proxies for preload and afterload respectively.
+## pitfalls
+Describing the ESPVR as representing the ventricle's "total" tension. That phrasing wrongly implies it combines both active and passive components, when the ESPVR's entire value as a load-independent index of contractility depends on isolating the active component alone.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p12 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+EDPVR | ESPVR | Ventricular pressure-volume loop | End-systolic pressure-volume relationship
+## article_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Concerning the pressure volume loop of left ventricle, all EXCEPT:
+## conflicts
+No conflicting record found; find-existing.mjs returned 'safe to create', and the only related pending concept found by grep (ventricular-pressure-volume-loop.effect-of-increased-inotropy, 104-CPS-concepts.md) teaches a different fact — what shifts the ESPVR line — not what each loop landmark itself is.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Increased afterload decreases the velocity and degree of ventricular myocardial shortening, raises end-systolic volume and lowers stroke volume — a movement along the heart's fixed force-velocity curve, unlike increased inotropy, which shifts the whole curve and genuinely raises Vmax
+## id
+CON-CVS-EF660365382133
+## canonical_key
+ventricular-afterload.effect-on-shortening.force-velocity-relationship
+## definition
+The force-velocity relationship of cardiac muscle is an inverse curve: as afterload (the load the muscle must shorten against) rises, the velocity of shortening falls, extrapolating toward zero velocity — a fully isometric contraction — at a maximal afterload the muscle cannot overcome at all. Because a higher afterload also reduces the degree of shortening reached from a given preload, the ventricle empties less completely, raising end-systolic volume; at an unchanged end-diastolic volume (preload), this lowers stroke volume. This is a movement ALONG a fixed force-velocity curve, in contrast to increased inotropy, which shifts the entire curve up and to the right and genuinely raises Vmax, the curve's maximal, load-independent, zero-load velocity intercept — afterload on its own does not change Vmax.
+## explicit_objective
+State that increased afterload decreases the velocity of shortening, increases end-systolic volume and decreases stroke volume (a movement along the force-velocity curve), and contrast this against increased inotropy, which shifts the curve itself and raises Vmax.
+## pitfalls
+Confusing afterload's effect (moving along a fixed force-velocity curve; Vmax unchanged) with inotropy's effect (shifting the curve itself; Vmax genuinely increases), or assuming increased afterload decreases, rather than increases, end-systolic volume.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p12 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p3 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p3 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p8 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Afterload | Force-velocity relationship | End-systolic volume
+## article_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Increased afterload on the ventricle:
+## conflicts
+No conflicting record found; find-existing.mjs returned 'safe to create', and grepping the pending concept files for 'force-velocity' and 'Vmax' returned no hit — a genuine gap, not a duplicate.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-8D34A57C987227
+## label
+The cardiac cycle runs through a fixed order of seven phases starting with atrial systole, and a rising heart rate shortens the cycle mainly by shortening diastole, not systole
+## canonical_key
+cardiac-cycle.seven-phase-sequence-and-duration
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p10 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p17 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## field_notes
+canonical_key "cardiac-cycle.seven-phase-sequence-and-duration" already has a pinned id in this module (CON-CVS-8D34A57C987227); mintConceptId derives the same id fresh (CON-CVS-8D34A57C987227) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Every cardiac valve is briefly closed twice a cycle — during isovolumetric contraction (making the first heart sound) and isovolumetric relaxation (making the second) — while the AV valves stay open through atrial systole and both filling phases
+## id
+CON-CVS-F51E391CCECE6A
+## canonical_key
+cardiac-cycle.valve-states-and-heart-sounds-by-phase
+## definition
+Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases. In atrial systole the AV valves are already open (blood is being pushed from atria into ventricles) and the semilunar valves stay closed. Isovolumetric (isometric) ventricular contraction begins the instant rising ventricular pressure exceeds atrial pressure and slams the AV valves shut; the semilunar valves are not yet open because ventricular pressure has not yet exceeded aortic/pulmonary pressure, so for this one phase every valve is closed at once, and the AV valve closure produces the first heart sound. Once ventricular pressure exceeds the great-vessel pressure, the semilunar valves open and rapid then reduced ejection follow, with the AV valves held shut throughout. Isovolumetric (isometric) ventricular relaxation begins the instant falling ventricular pressure drops below aortic/pulmonary pressure and slams the semilunar valves shut, producing the second heart sound; the AV valves are not yet open because ventricular pressure is still above atrial pressure, so every valve is closed a second time in the cycle. Once ventricular pressure falls below atrial pressure, the AV valves open again and rapid then reduced ventricular filling follow, with the semilunar valves held shut throughout — so, across the whole cycle, the AV valves are open during atrial systole, rapid filling and reduced filling, and closed only during the two ejection phases and the two isovolumetric phases together with the semilunar valves.
+## explicit_objective
+State which two phases of the cardiac cycle have every cardiac valve closed at once, name the valve closure that produces each heart sound, and list the three phases during which the AV valves are open.
+## pitfalls
+Assuming a valve's opening or closing defines only one phase rather than the boundary between two. AV valve closure ends atrial systole and begins isovolumetric contraction (first heart sound); semilunar valve closure ends reduced ejection and begins isovolumetric relaxation (second heart sound) — each sound marks a phase transition, not a phase's whole duration.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p7 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p3 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p7 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+First heart sound | Second heart sound | AV valve timing | Semilunar valve timing | All valves closed phases
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] First heart sound occurs in: |
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-F8BD2261B8CBDA
+## label
+The aortic pressure curve rises on the ejection-driven anacrotic limb and falls on the catacrotic limb, whose dicrotic notch and dicrotic wave mark aortic valve closure
+## canonical_key
+aortic-pressure-curve.limbs-and-dicrotic-notch
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p9 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## field_notes
+canonical_key "aortic-pressure-curve.limbs-and-dicrotic-notch" already has a pinned id in this module (CON-CVS-F8BD2261B8CBDA); mintConceptId derives the same id fresh (CON-CVS-F8BD2261B8CBDA) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The atrial pressure curve rises to an a wave during atrial systole, a smaller c wave when the closed AV valve bulges back into the atrium at the start of isovolumetric ventricular contraction, and a v wave as venous blood fills the atrium against still-closed AV valves — so the a wave, not the c wave, precedes the first heart sound
+## id
+CON-CVS-B8AFC98120E132
+## canonical_key
+atrial-pressure-curve.a-c-v-waves
+## definition
+The atrial pressure curve traces right (or left) atrial pressure across one cardiac cycle and shows three positive waves. The a wave is the largest, produced directly by atrial systole itself; it peaks and is already falling by the time the AV valves slam shut to produce the first heart sound, so the a wave precedes S1, not the reverse. The c wave is a small secondary rise that follows shortly after: it is caused by the closed AV valve bulging backward into the atrium as ventricular pressure rises sharply at the start of isovolumetric ventricular contraction — so it falls just after, not during, atrial systole. The v wave is a third, later rise built up passively as venous blood returns and pools in the atrium while the AV valves are still shut during ventricular systole (isovolumetric contraction through ejection); it peaks around the time the AV valves reopen for filling.
+## explicit_objective
+Name the a, c and v waves of the atrial pressure curve in order, state what produces each one, and identify the a wave — not the c wave — as the wave that precedes the first heart sound.
+## pitfalls
+Assuming the c wave is simply part of atrial systole because it comes right after the a wave. The c wave is a ventricular event — AV valve closure bulging into the atrium — that happens once atrial systole has already ended and isovolumetric ventricular contraction has begun.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p11 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+a wave c wave v wave | Atrial pressure curve waves | Jugular venous pulse waves
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Concerning the atrial pressure curve a, c-wave occurs during atrial systole
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+A heart murmur is the audible sound of turbulent blood flow, most often produced by a stenotic or incompetent (regurgitant) cardiac valve
+## id
+CON-CVS-C033C2297C38B1
+## canonical_key
+heart-murmurs.turbulent-flow-and-valve-disease
+## definition
+Normal blood flow through the heart is laminar (smooth, silent). A murmur is heard when flow becomes turbulent, which happens when blood is forced through an abnormally narrowed opening (a stenotic valve) or leaks backward through a valve that fails to seal (an incompetent or regurgitant valve). Mild degrees of common physiological states — mild anemia, normal sleep, or a modestly reduced cardiac output on their own — do not generate turbulence of this kind and do not produce a murmur; a murmur points specifically to a mechanical disturbance of flow at a valve (or, less commonly, a large septal defect or vessel narrowing).
+## explicit_objective
+State that a heart murmur is produced by turbulent flow through a diseased (stenotic or regurgitant) valve, and distinguish this from states — mild anemia, sleep, a modest fall in cardiac output — that do not by themselves cause turbulence.
+## pitfalls
+Assuming any change in flow volume or rate is enough to cause a murmur. It is the disturbance of smooth (laminar) flow, typically by a narrowed or leaking valve, that generates the turbulence murmurs are made of — not the mere fact that flow has increased, decreased, or slowed.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p50 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Mechanism of heart murmurs | Turbulent flow and murmurs
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Murmur appears in the following condition:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Physiological splitting of the second heart sound widens during inspiration because the negative intrathoracic pressure of inspiration increases venous return to the right heart, delaying pulmonary valve closure relative to aortic valve closure
+## id
+CON-CVS-702BC9E7A37C51
+## canonical_key
+second-heart-sound.inspiratory-splitting-mechanism
+## definition
+The second heart sound is normally made of two closely spaced components: aortic valve closure (A2) followed very shortly by pulmonary valve closure (P2). During inspiration, the fall in intrathoracic pressure increases venous return into the right side of the heart, which increases right ventricular stroke volume and prolongs right ventricular ejection; this delays pulmonary valve closure and widens the gap between A2 and P2, producing audible physiological splitting. During expiration the two components move back together and the split narrows or disappears. The delay is on the pulmonary side (P2), not because aortic valve closure is brought forward or because left ventricular stroke volume changes.
+## explicit_objective
+Explain why physiological splitting of the second heart sound widens during inspiration, naming the delayed pulmonary valve closure (P2) as the mechanism, driven by increased right-heart venous return.
+## pitfalls
+Attributing inspiratory splitting to a change on the aortic (left-sided) side of the second heart sound. The delay is on the pulmonary side: inspiration selectively increases right ventricular filling and ejection time, delaying P2, while A2 timing changes comparatively little.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Physiological splitting of S2 | Inspiratory splitting of second heart sound
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Normal splitting of the second heart sound into two components is increased during inspiration because:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The atrioventricular (AV) node's relatively slow conduction delays the impulse just long enough for atrial systole to finish topping up ventricular filling before ventricular contraction begins
+## id
+CON-CVS-9B1C94AF064C3D
+## canonical_key
+av-node.conduction-delay-function
+## definition
+Conduction through the AV node is far slower than through atrial or ventricular muscle or the specialized conducting fibers, producing an AV nodal delay of roughly 0.1 second between atrial and ventricular excitation. This delay is physiologically purposeful: it holds back ventricular depolarisation just long enough for atrial systole — the final active phase of ventricular filling — to be completed and for that extra blood to be added to ventricular volume before the ventricles contract. Without this delay, the ventricles would begin contracting while the atria were still actively emptying into them, and the atrial contribution to filling would be lost rather than captured.
+## explicit_objective
+State that the physiologic function of the AV node’s slow conduction is to delay ventricular excitation long enough for atrial systole to complete ventricular filling before contraction begins.
+## pitfalls
+Treating the AV nodal delay as a mere transmission inefficiency rather than a timed, functional pause. Its slowness is exactly what synchronises the end of active ventricular filling (atrial systole) with the start of ventricular contraction.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p4 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+AV nodal delay function | Purpose of AV node conduction delay
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The physiologic function of the relatively slow conduction through the atrioventricular (AY) node is to allow sufficient time for
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The fourth heart sound is produced by atrial systole and is not normally heard in a healthy heart
+## id
+CON-CVS-49CD4F7DD8ED67
+## canonical_key
+fourth-heart-sound.atrial-systole-origin
+## definition
+The fourth heart sound (S4), when present, is a low-pitched sound produced by atrial systole — specifically, blood being forced by atrial contraction into a ventricle whose wall is stiffer or less compliant than normal. It is not a normal finding: a healthy, compliant ventricle accepts the atrial contribution to filling without generating an audible sound, so S4 is not normally clearly audible and its presence usually points to reduced ventricular compliance (for example from ventricular hypertrophy).
+## explicit_objective
+State that the fourth heart sound is produced by atrial systole and explain why it is not normally audible in a healthy heart.
+## pitfalls
+Confusing the fourth heart sound with the first heart sound because both relate to events around atrial systole and AV valve behaviour. S1 is produced by AV valve closure at the start of isovolumetric ventricular contraction; S4, when audible, is produced earlier, by atrial systole itself pushing blood into a stiff ventricle.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p15 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Fourth heart sound S4 | Origin of S4
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which of the following is responsible for the fourth heart sound;
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-BF82D6F52B72C9
+## label
+Beta-adrenergic stimulation raises cytoplasmic calcium through Protein Kinase A to increase both contractile force (positive inotropy) and the speed of relaxation (lusitropy), while hypoxia and ischaemia impair both
+## canonical_key
+cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p7 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-MECHANICS
+## field_notes
+canonical_key "cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms" already has a pinned id in this module (CON-CVS-BF82D6F52B72C9); mintConceptId derives the same id fresh (CON-CVS-BF82D6F52B72C9) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-D97F7FD5B9F824
+## label
+Cardiac output is the volume each ventricle pumps per minute, equals heart rate times stroke volume, and is corrected for body size as the cardiac index
+## canonical_key
+cardiac-output.definition-formula-and-index
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p14 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p15 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p8 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## field_notes
+canonical_key "cardiac-output.definition-formula-and-index" already has a pinned id in this module (CON-CVS-D97F7FD5B9F824); mintConceptId derives the same id fresh (CON-CVS-D97F7FD5B9F824) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Ejection fraction is the fraction of end-diastolic volume ejected per beat, normally about 55-60% at rest, and is characteristically reduced (around 40% or less) in heart failure
+## id
+CON-CVS-61012EFA26719E
+## canonical_key
+ventricular-ejection-fraction.normal-value-and-reduction-in-heart-failure
+## definition
+Ejection fraction (EF) is the stroke volume expressed as a fraction (percentage) of the end-diastolic volume: EF = stroke volume / end-diastolic volume x 100. In a resting healthy adult it is normally about 55-60% — a healthy ventricle ejects roughly three-fifths of the blood it holds at the end of filling, not all of it, leaving an end-systolic volume behind as a reserve. In systolic heart failure, when the ventricle's contractile performance falls, ejection fraction falls with it, characteristically to around 40% or less, and is used clinically as the chief marker of that reduced pumping performance.
+## explicit_objective
+State the ejection fraction formula (SV / EDV), its normal resting value (~55-60%), and that it falls characteristically to ~40% or below in heart failure.
+## pitfalls
+Confusing ejection fraction (the fraction of the filled ventricle that is ejected, ~55-60% normally) with stroke volume itself (an absolute volume, ~70 ml) — a normal heart never approaches 100% ejection fraction, because some blood always remains as the end-systolic volume.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p8 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Ejection fraction | EF in heart failure | EF = SV/EDV
+## article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] A patient with heart failure, the ejection fraction is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Cardiac output rises when preload (venous return, end-diastolic volume) or contractility rises, and falls when venous return is obstructed, because each acts through stroke volume
+## id
+CON-CVS-F6AB68107A726E
+## canonical_key
+cardiac-output.determinants-and-directional-effects
+## definition
+Cardiac output (CO = stroke volume x heart rate) moves in the same direction as any change that raises or lowers stroke volume at a constant heart rate. Anything that increases venous return and so raises end-diastolic volume — an increase in blood volume, for example — raises stroke volume by the Frank-Starling mechanism and so raises CO. An increase in myocardial contractility raises stroke volume directly, independent of preload, and so also raises CO. Venous obstruction works in the opposite direction: by impeding venous return to the heart, it lowers end-diastolic volume (preload), which lowers stroke volume by the Frank-Starling mechanism and so lowers cardiac output.
+## explicit_objective
+State that increased blood volume, increased end-diastolic volume and increased contractility each raise cardiac output, while venous obstruction lowers it by reducing preload.
+## pitfalls
+Assuming every change in the cardiovascular system that sounds like a "problem" lowers cardiac output. Venous obstruction lowers CO because it specifically reduces venous return and therefore preload; increased contractility and increased preload both raise CO, even though one might intuitively expect "more resistance to flow, somewhere" to always be a bad thing for output.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p8 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Determinants of cardiac output | What raises or lowers cardiac output
+## article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which of the following is associated with a decrease in cardiac output?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Sympathetic stimulation of the heart raises heart rate and contractility together, and because cardiac output equals heart rate times stroke volume, this combined rise in both determinants raises cardiac output
+## id
+CON-CVS-87EC1C2FC5D77D
+## canonical_key
+sympathetic-stimulation.cardiac-signature.rate-inotropy-and-cardiac-output
+## definition
+Sympathetic stimulation of the heart, acting mainly through beta1-adrenergic receptors, raises heart rate (a positive chronotropic effect, via a faster SA-node pacemaker current) and raises myocardial contractility (a positive inotropic effect, via increased cytoplasmic Ca++ availability) together, not as two independent, unrelated changes. Because cardiac output equals heart rate multiplied by stroke volume, and increased contractility itself raises stroke volume, both multiplicands of the cardiac output equation rise together under sympathetic drive, so cardiac output rises as well. This article's own account of dynamic exercise states the same three-part cardiac-side signature explicitly: heart rate up, inotropy up, total peripheral resistance down — the identical directional pattern applies to sympathetic stimulation of the heart considered on its own.
+## explicit_objective
+State that sympathetic stimulation of the heart raises heart rate, contractility and (via both) cardiac output together, as a single coordinated cardiac-side signature rather than three unrelated effects.
+## pitfalls
+Treating heart rate, contractility and cardiac output as three separate facts to memorise independently, rather than recognising that a coordinated rise in the first two, under the CO = HR x SV relationship, is exactly what produces the third.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Sympathetic effects on the heart | Cardiac-side signature of sympathetic stimulation
+## article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Sympathetic stimulation has the following effect(s) on the heart:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-CEB3B0EC313DC9
+## label
+Frank-Starling's law states that isometric tension rises in direct proportion to the muscle's stretch (its preload), and in isolated cardiac muscle a higher preload increases both the degree and the velocity of shortening
+## canonical_key
+cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p8 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p14 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p12 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p8 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p3 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p7 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p6 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-MECHANICS
+## field_notes
+canonical_key "cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening" already has a pinned id in this module (CON-CVS-CEB3B0EC313DC9); mintConceptId derives the same id fresh (CON-CVS-CEB3B0EC313DC9) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
 The rapid humoral response to hemorrhagic shock raises catecholamines, angiotensin II and vasopressin, not atrial natriuretic peptide, which needs the atrial stretch that hypovolaemia removes
 ## id
 CON-CVS-419F030679CA1F
@@ -1025,12 +8891,13 @@ kau
 1
 ## exam_signal
 src_5465875dc14a998b7b21 | question_book | | p10 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1125,6 +8992,740 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
+Beyond pumping blood into the ventricles, the atria act as venous reservoirs during ventricular systole, contribute roughly 30% of ventricular filling through atrial systole, and carry stretch receptors that trigger cardiac reflexes
+## id
+CON-CVS-60749EA9A6B0A5
+## canonical_key
+atria.functions-beyond-pumping
+## definition
+The atria have three functions beyond acting as a simple entry chamber. First, while the AV valves are shut throughout ventricular systole, venous blood returning from the body has nowhere to go but the atria, which act as a reservoir that accumulates it until the AV valves reopen. Second, atrial systole is an active top-up of ventricular filling, normally contributing roughly the last 30% of end-diastolic volume on top of the passive filling that came before it. Third, the atria — especially the right atrium — carry stretch (low-pressure) receptors that trigger cardiac reflexes, including reflex tachycardia when atrial filling rises (the Bainbridge reflex) and secretion of atrial natriuretic peptide when atrial stretch is sustained.
+## explicit_objective
+State the three functions of the atria beyond receiving venous blood: acting as a reservoir during ventricular systole, contributing roughly 30% of ventricular filling via atrial systole, and carrying stretch receptors for cardiac reflexes.
+## pitfalls
+Treating the atria as passive holding chambers with no active role. Atrial systole is an active contraction contributing a real fraction of ventricular filling, and atrial stretch receptors actively drive reflexes rather than merely sensing pressure for no functional purpose.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Functions of the atria | Atrial reservoir function | Atrial stretch receptors
+## article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Functions of atria :
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Venous return is driven by the pressure gradient from mean systemic filling pressure to right atrial pressure and opposed by resistance to venous flow, so increased resistance to venous blood — not increased cardiac output, filling pressure or blood volume — is what lowers it
+## id
+CON-CVS-E98E1592907B3C
+## canonical_key
+venous-return.determinants-and-equation
+## definition
+Venous return is governed by venous return = (mean systemic filling pressure - right atrial pressure) / resistance to venous return. Anything that raises mean systemic filling pressure (for example, an increase in blood volume, or increased venous tone) raises venous return by widening the driving pressure gradient. An increase in cardiac output likewise raises venous return, because a more effectively emptying heart keeps right atrial pressure low, widening the same gradient from the other end. An increase in resistance to venous blood flow works in the opposite direction: for the same pressure gradient, higher resistance in the venous pathway back to the heart reduces the flow that gradient can drive, so it is resistance — not the gradient's two pressures — whose increase lowers venous return.
+## explicit_objective
+State the venous return equation (driving pressure gradient over resistance) and identify increased resistance to venous flow, not increased cardiac output, filling pressure or blood volume, as what lowers venous return.
+## pitfalls
+Assuming every listed cardiovascular variable moves venous return the same direction when increased. Cardiac output, mean systemic filling pressure and blood volume all raise venous return when increased — only a rise in resistance to venous flow lowers it, because resistance sits in the denominator of the venous return relationship rather than in the pressure gradient that drives it.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p10 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Venous return equation | Determinants of venous return
+## article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Increases in which of the following variables would be expected to decrease the venous return?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Exercise enhances venous return through the skeletal-muscle pump, the respiratory pump from deeper breathing, and sympathetically driven venoconstriction — not through increased arteriolar resistance, which would oppose it
+## id
+CON-CVS-4744FF1A0C4727
+## canonical_key
+venous-return.exercise-enhancing-mechanisms
+## definition
+During dynamic exercise, venous return rises through three cooperating mechanisms. The skeletal-muscle pump: rhythmic contraction of exercising muscles squeezes the veins running through them, and one-way venous valves direct that squeezed blood back toward the heart. The respiratory pump: the deeper, faster breathing of exercise produces larger swings in intrathoracic pressure, drawing more venous blood into the chest with each inspiration. Sympathetically driven venoconstriction: increased sympathetic outflow during exercise constricts the veins, which are highly compliant capacitance vessels, mobilising blood that would otherwise pool there and redirecting it toward the heart. Arteriolar resistance moves in the opposite direction during exercise — it falls in active skeletal muscle to allow increased flow — and a rise in arteriolar resistance would if anything oppose, not enhance, venous return.
+## explicit_objective
+Name the skeletal-muscle pump, the respiratory pump and venoconstriction as the three mechanisms enhancing venous return during exercise, and state that increased arteriolar resistance is not one of them.
+## pitfalls
+Assuming that anything mobilising the cardiovascular system harder during exercise must enhance venous return. Arteriolar resistance actually falls, not rises, in exercising muscle, since vasodilation there is what allows the required increase in local blood flow.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Venous return during exercise | Skeletal muscle pump | Respiratory pump
+## article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Venous return is enhanced during exercise by all of the following, except
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Chronic endurance training enlarges the heart and raises resting stroke volume while lowering resting heart rate (training bradycardia), leaving resting cardiac output essentially unchanged
+## id
+CON-CVS-166951BEF6407F
+## canonical_key
+athletic-heart.chronic-training-adaptations
+## definition
+Sustained endurance training produces a set of chronic cardiovascular adaptations known collectively as the athletic heart. The heart itself enlarges (physiological hypertrophy with chamber dilation), which lets it fill with and eject a larger volume each beat — a higher resting stroke volume than an untrained person's. At the same time, increased resting vagal tone lowers resting heart rate (training bradycardia). Because stroke volume rises while heart rate falls, resting cardiac output in a trained athlete is essentially the same as in an untrained person; what has changed is how that same output is achieved — with a slower, more powerful, more efficient heartbeat.
+## explicit_objective
+State that endurance training enlarges the heart and raises resting stroke volume while lowering resting heart rate, so that resting cardiac output is little changed.
+## pitfalls
+Assuming a trained athlete's resting cardiac output must be higher because their heart clearly does more work overall. At rest, the higher stroke volume and lower heart rate largely offset each other, so it is the heart's efficiency and its capacity during exertion — not its resting output — that training chiefly changes.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p12 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Athletic heart syndrome | Training bradycardia | Effects of endurance training on the heart
+## article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] When compared to normal subject, trained athletes have a; a, smaller stroke volume
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Baroreceptor discharge rises and falls with arterial pressure and, through the nucleus of the tractus solitarius, opposes whichever change caused it
+## id
+CON-CVS-C3E60AC7A9EDB1
+## canonical_key
+arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure
+## definition
+Arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch, reporting to the nucleus of the tractus solitarius through the carotid sinus (Hering's) nerve and the aortic nerve. When arterial pressure rises their discharge increases: the vasomotor area is inhibited more, so sympathetic drive to heart and vessels falls, giving a lower heart rate, stroke volume and cardiac output with vasodilatation; and the cardiac inhibitory area is excited more, so vagal tone rises and the rate falls further. When arterial pressure falls the discharge decreases and every one of those changes reverses, raising the pressure back towards normal.
+## explicit_objective
+State where the arterial baroreceptors sit, which nerves they use, and what each limb of the reflex does when arterial pressure rises and when it falls.
+## pitfalls
+Answering with the atrial volume receptors. Those are low-pressure receptors whose reflex is about volume, not arterial pressure.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S02-M03
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p23 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p24 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p19 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p16 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Baroreceptor reflex | Carotid sinus reflex | Buffer reflex
+## article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] A reduction of carotid sinus pressure would cause a decrease in a, Heart rate b, Myocardial contractility
+## conflicts
+No conflicting record found; find-existing.mjs returned this concept as the only hit for 'carotid sinus baroreceptor' and 'baroreceptor reflex', confirming reuse rather than a fresh mint.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-131F06D46D3B84
+## label
+The peripheral chemoreceptor reflex, driven by low arterial PO2 in the carotid and aortic bodies, raises sympathetic discharge to correct a markedly low arterial pressure
+## canonical_key
+peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p23 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p41 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p23 | 104 CPS
+## article_ids
++ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## field_notes
+canonical_key "peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies" already has a pinned id in this module (CON-CVS-131F06D46D3B84); mintConceptId derives the same id fresh (CON-CVS-131F06D46D3B84) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-230096C97EAB11
+## label
+Central chemoreceptors near the medulla, protected by the blood-brain barrier and bathed by CSF, are driven mainly by rising PCO2 rather than by arterial hypoxia directly
+## canonical_key
+central-chemoreceptors.location-stimulus-and-blood-brain-barrier
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p42 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p21 | 104 CPS
+## article_ids
++ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## field_notes
+canonical_key "central-chemoreceptors.location-stimulus-and-blood-brain-barrier" already has a pinned id in this module (CON-CVS-230096C97EAB11); mintConceptId derives the same id fresh (CON-CVS-230096C97EAB11) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-8E2C7AEC68C4CB
+## label
+The CNS ischaemic response, triggered when arterial pressure falls below about 50 mmHg, is the most powerful activator of the sympathetic nervous system
+## canonical_key
+cns-ischemic-response.trigger-and-effect
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p24 | 104 CPS
+## article_ids
++ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## field_notes
+canonical_key "cns-ischemic-response.trigger-and-effect" already has a pinned id in this module (CON-CVS-8E2C7AEC68C4CB); mintConceptId derives the same id fresh (CON-CVS-8E2C7AEC68C4CB) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-BBAEB2E1A51102
+## label
+The Cushing reflex — raised arterial pressure with bradycardia — is triggered by raised intracranial pressure compressing the cerebral vessels and making the vasomotor area ischaemic
+## canonical_key
+cushing-reflex.trigger-and-triad
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p16 | 104 CPS
+## article_ids
++ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## field_notes
+canonical_key "cushing-reflex.trigger-and-triad" already has a pinned id in this module (CON-CVS-BBAEB2E1A51102); mintConceptId derives the same id fresh (CON-CVS-BBAEB2E1A51102) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
 Non-chemical (nervous) regulation of respiration works through reflex afferents from higher centres, the upper airway, the lungs, the chest wall, proprioceptors and the cardiovascular system, distinct from the chemical (PCO2/pH/PO2) drive
 ## id
 CON-RES-3A3D4A2919FA80
@@ -1135,7 +9736,7 @@ Alongside the chemical control of breathing by PCO2, pH and PO2, the respiratory
 ## explicit_objective
 List the non-chemical (nervous) sources of respiratory drive by their afferent pathway — higher centres, upper airway, lung, chest wall, proprioceptors, cardiovascular system, visceral reflexes — and distinguish each from the chemical (PCO2/pH/PO2) control of breathing.
 ## pitfalls
-Treating hypercapnia (a rise in arterial PCO2) as one item on the non-chemical list. PCO2 is the book's own major controller of respiration through central and peripheral chemoreceptors — the chemical route — and it sits in a separate section from 'Non-Chemical (Nervous) Regulation of Respiratory Activity'. Coughing, swallowing and pain, by contrast, are genuinely nervous reflexes the book files under the non-chemical heading.
+Treating hypercapnia (a rise in arterial PCO2) as one item on the non-chemical list. PCO2 is the major controller of respiration through central and peripheral chemoreceptors — the chemical route — and it sits in a separate section from 'Non-Chemical (Nervous) Regulation of Respiratory Activity'. Coughing, swallowing and pain, by contrast, are genuinely nervous reflexes filed under the non-chemical heading.
 ## concept_type
 mechanism
 ## status
@@ -1157,18 +9758,20 @@ kau
 ## exam_signal
 src_5465875dc14a998b7b21 | question_book | | p12 | 104 CPS
 src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p23 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p45 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Physiology
 ## subtopic
@@ -1176,7 +9779,7 @@ Respiratory System
 ## aliases
 Nervous regulation of respiration | Non-chemical control of breathing
 ## article_ids
-ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS | ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
 ## support_mode
 direct_statement
 ## original_wording
@@ -1198,7 +9801,2489 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT | ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-A54FECB95CBEBC
+## label
+The dorsal respiratory group drives normal quiet breathing alone, the ventral respiratory group activates only for forced breathing, and the pontine apneustic and pneumotaxic centres tune the medullary rhythm rather than generating it
+## canonical_key
+respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p23 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p44 | 104 CPS
+## article_ids
++ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## field_notes
+canonical_key "respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation" already has a pinned id in this module (CON-RES-A54FECB95CBEBC); mintConceptId derives the same id fresh (CON-RES-A54FECB95CBEBC) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-C6F65BAAC06FAA
+## label
+Central chemoreceptors provide 75-80% of resting respiratory drive, responding to CSF H+ generated when CO2 (not H+ itself) crosses the blood-brain barrier, while peripheral chemoreceptors provide the remaining 20-25%, monitoring arterial PO2 directly and switching on sharply only once PO2 falls below about 60 mmHg
+## canonical_key
+chemoreceptors-respiratory.central-and-peripheral-drive-contributions
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p44 | 104 CPS
+## article_ids
++ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## field_notes
+canonical_key "chemoreceptors-respiratory.central-and-peripheral-drive-contributions" already has a pinned id in this module (CON-RES-C6F65BAAC06FAA); mintConceptId derives the same id fresh (CON-RES-C6F65BAAC06FAA) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-B68E39C6B4178F
+## label
+The Hering-Breuer reflex — lung stretch receptors signalling through the vagus to inhibit the DRG and apneustic centre and switch off inspiration — matters little in resting adult breathing but engages once tidal volume triples, as in exercise
+## canonical_key
+hering-breuer-reflex.pulmonary-stretch-receptors
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+## article_ids
++ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## field_notes
+canonical_key "hering-breuer-reflex.pulmonary-stretch-receptors" already has a pinned id in this module (CON-RES-B68E39C6B4178F); mintConceptId derives the same id fresh (CON-RES-B68E39C6B4178F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-B29600F656A34B
+## label
+Coronary blood flow falls to a minimum during systole because ventricular contraction compresses the vessels within the wall, and is matched to myocardial O2 demand mainly by metabolic autoregulation since the myocardium already extracts 70-80% of delivered oxygen at rest
+## canonical_key
+coronary-circulation.phasic-flow-and-autoregulation
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p25 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p24 | 104 CPS
+## article_ids
++ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION
+## field_notes
+canonical_key "coronary-circulation.phasic-flow-and-autoregulation" already has a pinned id in this module (CON-CVS-B29600F656A34B); mintConceptId derives the same id fresh (CON-CVS-B29600F656A34B) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The anatomical dead space (conducting airways) warms and humidifies inspired air, filters particulate matter and bacteria from it, and conducts it to the respiratory membrane, but takes no part in warming already-warm expired air
+## id
+CON-RES-8C8374CB4E632E
+## canonical_key
+dead-space.conducting-airway-functions
+## definition
+The anatomical dead space is the volume of the conducting airways (from the nose down to the terminal bronchioles) that takes no part in gas exchange. Its functions all concern preparing inspired air on the way in: warming it to body temperature, saturating it with water vapour, filtering out bacteria and other particulate matter, and simply conducting the now-warmed, humidified, filtered air onward to the respiratory membrane where gas exchange happens. Expired air arrives at the conducting airways already at body temperature and already saturated from its time in the alveoli, so warming expired air is not one of the dead space's functions — there is nothing left for it to do on the way out that it has not already done on the way in.
+## explicit_objective
+List the functions of the anatomical dead space on inspired air (warming, humidifying, filtering, conducting) and state that warming expired air is not one of them, since expired air is already warm and saturated.
+## pitfalls
+Assuming the conducting airways do the same conditioning work in both directions. Their warming and humidifying function only matters for air moving inward, since air moving outward from the alveoli is already at body temperature and already saturated with water vapour.
+## concept_type
+definition
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p36 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Functions of dead space | Conducting airway functions
+## article_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] One of the following is NOT a function of dead space?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Alveolar ventilation, the air per minute actually reaching gas-exchanging surfaces, equals (tidal volume minus dead space volume) times respiratory rate, unlike minute ventilation, which uses tidal volume alone
+## id
+CON-RES-7EEDA8B6F0B402
+## canonical_key
+alveolar-ventilation.calculation-formula
+## definition
+Of each breath's tidal volume, only the portion beyond the anatomical dead space reaches alveoli that can exchange gas; the dead space's own share is rebreathed without ever taking part in exchange. Alveolar ventilation per minute is therefore (tidal volume - dead space volume) x respiratory rate, not tidal volume x respiratory rate (which instead gives total minute ventilation, an overestimate of what is actually available for gas exchange). A change in breathing pattern that keeps minute ventilation constant can still change alveolar ventilation substantially, because the dead space's volume does not scale down with a smaller tidal volume — rapid, shallow breathing wastes a larger fraction of each breath on dead space and so lowers alveolar ventilation even at an unchanged minute ventilation.
+## explicit_objective
+State and apply the formula alveolar ventilation = (tidal volume - dead space volume) x respiratory rate, distinguishing it from minute ventilation (tidal volume x respiratory rate).
+## pitfalls
+Multiplying tidal volume directly by respiratory rate and calling the result alveolar ventilation. That calculation gives minute ventilation; dead space volume must be subtracted from tidal volume first to isolate the portion that actually reaches gas-exchanging alveoli.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p42 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Alveolar ventilation formula | VA = (TV - VD) x RR
+## article_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] A 25- year-old min is under water in the swimming pool and breathing through a snorkel, He has a respiratory rate of 10/min, a tidal volume of 550 ml and an effective anatomical dead space of 250 ml. What is the alveolar ventilation of this man?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Physiologic dead space is anatomical dead space (conducting-airway air) plus alveolar dead space (air reaching ventilated but unperfused alveoli), and normally equals the anatomical figure alone
+## id
+CON-RES-343F3DA67B85A6
+## canonical_key
+dead-space.physiologic-equals-anatomical-plus-alveolar
+## definition
+Physiologic dead space is the total volume of each breath that takes no part in gas exchange. It has two components: anatomical dead space, the air that never reaches an alveolus at all because it sits in the conducting airways, and alveolar dead space, the air that does reach an alveolus but cannot exchange gas there because that alveolus is diseased or under-perfused. In a healthy lung essentially every ventilated alveolus is also perfused, so alveolar dead space is negligible and physiologic dead space is essentially equal to the anatomical figure; alveolar disease that ventilates alveoli without perfusing them (e.g. a pulmonary embolus) is what makes physiologic dead space rise above the anatomical figure.
+## explicit_objective
+Define physiologic dead space as anatomical dead space plus alveolar dead space, and state that it normally equals the anatomical figure because alveolar dead space is negligible in health.
+## pitfalls
+Treating anatomical dead space and physiologic dead space as always identical. They are equal only when every ventilated alveolus is also perfused; alveolar disease that ventilates without perfusing (raising alveolar dead space) is exactly what makes the two figures diverge.
+## concept_type
+definition
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Physiologic dead space | Anatomical vs physiologic dead space | Alveolar dead space
+## article_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The total amount of air that does not undergo gas exchange because of alveolar disease in addition to the air that cannot reach the alveoli is termed:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-C323EEF5DA30FF
+## label
+Gas diffuses through the respiratory membrane fastest with a large pressure gradient, large surface area, high temperature and solubility, and slowest with a thick membrane or a large molecular weight — and CO2 diffuses about 20 times faster than O2 despite O2's larger pressure gradient, because CO2 is so much more soluble
+## canonical_key
+alveolar-capillary-diffusion.factors-determining-rate
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p36 | 104 CPS
+## article_ids
++ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## field_notes
+canonical_key "alveolar-capillary-diffusion.factors-determining-rate" already has a pinned id in this module (CON-RES-C323EEF5DA30FF); mintConceptId derives the same id fresh (CON-RES-C323EEF5DA30FF) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Hypoxaemia (a low arterial PO2) has four classic causes — hypoventilation, diffusion impairment, ventilation-perfusion mismatch and right-to-left shunt — and is distinct from anaemic, stagnant and histotoxic hypoxia, which reduce tissue oxygen delivery or use without lowering arterial PO2 itself
+## id
+CON-RES-59FB00D6B96AE0
+## canonical_key
+hypoxemia.causes-and-distinction-from-non-hypoxemic-hypoxia
+## definition
+Hypoxaemia is a fall in arterial PO2, and it has four classic mechanisms: hypoventilation lowers alveolar PO2 (and so arterial PO2) while raising PCO2; a diffusion defect (a thickened or reduced-area respiratory membrane) slows O2 transfer more than CO2 elimination, so PaO2 falls while PaCO2 may stay normal; ventilation-perfusion mismatch lets poorly ventilated but well-perfused lung units contribute desaturated blood to the pulmonary veins; and a right-to-left shunt (an anatomical bypass of ventilated alveoli) mixes fully deoxygenated blood directly into the arterial circulation, so PaO2 falls despite an entirely normal alveolar PO2. High altitude reduces the inspired and so alveolar partial pressure of oxygen, acting through the same route as hypoventilation. None of these four mechanisms is shared by anaemic hypoxia (reduced haemoglobin available to carry oxygen), stagnant/circulatory hypoxia (reduced blood flow) or histotoxic hypoxia (tissue cells unable to use delivered oxygen) — arterial and alveolar PO2 are both normal in all three, since the defect lies downstream of gas exchange in the lung. A left-to-right shunt, unlike a right-to-left one, recirculates already-oxygenated blood and causes no hypoxaemia at all.
+## explicit_objective
+List the four mechanisms of hypoxaemia (hypoventilation, diffusion impairment, V/Q mismatch, right-to-left shunt) and state which of arterial and alveolar PO2 each one changes; distinguish a right-to-left shunt (causes hypoxaemia) from a left-to-right shunt (does not); and explain why anaemic, stagnant and histotoxic hypoxia do not lower arterial PO2.
+## pitfalls
+Confusing a left-to-right shunt (recirculates oxygenated blood, no hypoxaemia) with a right-to-left shunt (bypasses the lungs entirely, genuine hypoxaemia) — the direction of shunting, not the mere presence of one, decides the outcome. A second common trap is treating anaemia or carbon monoxide poisoning as causes of a decreased arterial PO2: both reduce the oxygen actually delivered to or usable by tissue, but arterial and alveolar PO2 are both unaffected because the defect lies entirely downstream of the lung's own gas exchange.
+## concept_type
+classification
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Causes of hypoxaemia | Mechanisms of hypoxaemia | Hypoxic vs anaemic vs stagnant vs histotoxic hypoxia | Right-to-left vs left-to-right shunt
+## article_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Hypoxemia is caused by all of the following Except:
+## conflicts
+Related-but-distinct live topic catalogue: ART-RES-TOP-265990F7BD ("Hypoxia", In review, Year 3, no 104 CPS module tag) and its 12 linked concepts (CON-RES-22FEB4F22E7D79 anaemic hypoxia, CON-RES-654A12F4B21CC0 stagnant hypoxia, CON-RES-A0F793A4A37DC0 histotoxic mechanism, CON-RES-723332CA1E127F cyanotic shunt, several carbon-monoxide-poisoning concepts) classify hypoxia BY TYPE for a topic overview from a different textbook. This concept classifies hypoxaemia BY MECHANISM (arterial-vs-alveolar PO2 pattern) for the 104 CPS Year-1 gas-exchange chapter. Genuinely distinct teaching objectives — kept separate rather than force-merged, and not reachable by resolveConceptId's sparse-update path regardless, since existingConceptIds() only scans docs/Kasr-Source-Imports/concept/104-CPS-*.md, never live production state.
+## uncertainty
+[clear]
+## evidence_gaps
+The covering article (ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING) already teaches diffusion impairment and V/Q-mismatch/shunt as hypoxaemia mechanisms in its Clinical Significance section, but its prose does not yet explicitly enumerate hypoventilation or altitude as causes, contrast right-to-left against left-to-right shunt, or state that anaemia/CO poisoning/histotoxic hypoxia leave PaO2 unchanged. Disclosed two-sided coverage gap, not silently assumed taught — see PROGRESS.md.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The Hb-O2 dissociation curve shifts right (easier O2 unloading) with raised temperature, PCO2/acidosis or 2,3-DPG, and left (harder unloading) with the opposite of each plus CO poisoning and fetal haemoglobin
+## id
+CON-RES-9A7E8EA47079D0
+## canonical_key
+gas-transport.hb-o2-dissociation-curve-shifts
+## definition
+P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits. A rightward shift (higher P50, lower affinity) makes Hb give up O2 more readily at a given PO2, and is produced by a rise in temperature, PCO2 or 2,3-DPG, or a fall in pH (the Bohr effect: CO2 and H+ bind sites on Hb that change its configuration and favour O2 release) — this is exactly the pattern of active tissue, so more O2 is delivered where it is needed most. 2,3-DPG is a red-cell metabolic end product that binds deoxygenated Hb (HbO2 + 2,3-DPG → Hb-2,3-DPG + O2) and rises in hypoxia or exercise. A leftward shift (lower P50, higher affinity) makes Hb hold O2 more tightly and is produced by the opposite changes — falling temperature, PCO2 or 2,3-DPG, or rising pH — plus two named exceptions: carbon monoxide, which binds Hb at the same site as O2 with roughly 200-210 times O2's affinity and, once bound, keeps the other O2 molecules already attached from releasing easily; and fetal haemoglobin, whose gamma chains (unlike adult beta chains) cannot bind 2,3-DPG, giving it a higher O2 affinity suited to extracting O2 across the placenta.
+## explicit_objective
+State which four physiological changes shift the Hb-O2 dissociation curve right versus left, name the Bohr effect and the mechanism of 2,3-DPG, and explain why CO poisoning and fetal haemoglobin both shift the curve left despite acting by different mechanisms.
+## pitfalls
+Assuming every leftward-curve influence works by the same Bohr/DPG mechanism. CO shifts the curve left by occupying Hb's O2-binding site directly and interfering with the release of the O2 that is still bound, not by changing temperature, pH or 2,3-DPG — a genuinely separate mechanism from the four paired factors.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p42 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p22 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p40 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p39 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Bohr effect | P50 | 2,3-DPG | Oxygen unloading | Hb-O2 dissociation curve shifts
+## article_ids
 ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Factors that cause shift of oxygen dissociation curve to the right are:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+CO2 travels mostly as bicarbonate (42 of 48 ml/100 ml arterial blood), made in RBCs by carbonic anhydrase and exported by the chloride shift, with the Haldane effect linking CO2 carriage to Hb's own O2 saturation
+## id
+CON-RES-5FAC73A8BFC7DD
+## canonical_key
+gas-transport.co2-forms-and-chloride-shift
+## definition
+CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase. As HCO3- accumulates in the RBC it diffuses out to plasma down its gradient; because the RBC membrane favours anion over cation movement, chloride moves from plasma into the RBC to preserve electrical neutrality — the chloride shift. This raises RBC chloride and osmotic pressure (drawing water in, so RBCs swell and venous haematocrit rises) while lowering plasma chloride, and it very slightly acidifies blood (pH about 7.4 to 7.37) because some of the H+ from carbonic acid dissociation is buffered by deoxyhaemoglobin rather than removed. At the lungs the whole sequence reverses: O2 binding releases H+ from oxyhaemoglobin (a poorer buffer than reduced Hb), H+ combines with HCO3- to regenerate CO2 for exhalation, HCO3- re-enters the RBC from plasma, and Cl- returns to plasma. The Haldane effect is the rule that ties CO2 carriage to O2 saturation: at any given PCO2, reduced (deoxygenated) Hb carries more CO2 than oxygenated Hb, because O2 binding lowers Hb's affinity for CO2 — the mirror image of the Bohr effect, in which CO2/H+ lowers Hb's affinity for O2.
+## explicit_objective
+State the three forms of CO2 transport and their approximate proportions, explain why carbonic anhydrase makes bicarbonate formation an RBC event rather than a plasma one, describe the direction and purpose of the chloride shift at the tissues and its reversal at the lungs, and state the Haldane effect and how it differs from the Bohr effect.
+## pitfalls
+Confusing carbamino-haemoglobin (CO2 bound to Hb's amine groups, the true CO2-carrying compound) with carboxyhaemoglobin (CO bound to Hb's haem O2 site) — they sound alike but are chemically unrelated complexes of two different gases. Also confusing the Haldane effect (O2 saturation changes Hb's CO2 affinity) with the Bohr effect (CO2/H+ changes Hb's O2 affinity): they are reciprocal but distinct statements.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p39 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p43 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p42 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+CO2 transport | Chloride shift | Carbonic anhydrase | Haldane effect | Carbamino compounds
+## article_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Most CO, is transported in the blood in the form of:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-76412894FAD01C
+## label
+Pulmonary vascular resistance, lowest at functional residual capacity, rises toward both total lung capacity and residual volume, and pulmonary arterioles uniquely constrict (rather than dilate) in response to local hypoxia
+## canonical_key
+pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
+## article_ids
++ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## field_notes
+canonical_key "pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr" already has a pinned id in this module (CON-CVS-76412894FAD01C); mintConceptId derives the same id fresh (CON-CVS-76412894FAD01C) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Hypoxia is classified by where the defect sits — hypoxic, anaemic, stagnant or histotoxic — and only the types with a normal total haemoglobin sitting unsaturated (hypoxic, stagnant) classically produce cyanosis; CO poisoning produces neither a fall in arterial PO2 nor cyanosis
+## id
+CON-RES-94F216A2FDD9E5
+## canonical_key
+hypoxia.classification-cyanosis-and-carbon-monoxide-poisoning
+## definition
+Hypoxia is classified by mechanism. Hypoxic hypoxia is a fall in arterial PO2 itself (hypoventilation, diffusion defect, ventilation-perfusion mismatch, right-to-left shunt, or high altitude); arterial saturation falls with it. Anaemic hypoxia (too little haemoglobin) and histotoxic hypoxia (cells unable to use delivered oxygen) both leave arterial PO2 and % saturation normal. Stagnant (circulatory) hypoxia, from reduced blood flow, lets tissues extract more O2 per unit of blood that does pass. Cyanosis — bluish discolouration of skin and mucous membranes — classically appears once capillary blood contains more than 5 g of reduced (deoxygenated) haemoglobin per 100 ml, an absolute quantity rather than a percentage or saturation figure; this is why it is classically seen in hypoxic hypoxia and stagnant hypoxia (normal total haemoglobin, enough of it sitting unsaturated to cross the 5 g/dL threshold) but classically absent in anaemic hypoxia (too little total haemoglobin to reach that absolute threshold even fully desaturated) and in histotoxic hypoxia (blood remains normally saturated). Carbon monoxide poisoning produces neither a fall in arterial PO2 (so it is not itself hypoxic hypoxia) nor cyanosis: CO's roughly 200-fold greater affinity for haemoglobin than O2 means carboxyhaemoglobin, not reduced haemoglobin, accumulates, giving the classic cherry-red rather than blue skin colour. Oxygen therapy is correspondingly of limited value in stagnant hypoxia (a flow problem, not an oxygen-content one) and in histotoxic hypoxia such as cyanide poisoning (a cellular-use problem): supplemental O2 raises dissolved and Hb-bound O2 further, which cannot compensate for a pump or a poisoned enzyme.
+## explicit_objective
+Name the four mechanisms of hypoxia, state the absolute (not percentage) threshold for cyanosis, and explain why carbon monoxide poisoning produces neither a fall in arterial PO2 nor cyanosis.
+## pitfalls
+Assuming any severe hypoxia produces cyanosis. Cyanosis depends on an ABSOLUTE quantity of reduced haemoglobin (>5 g/dL) being present, which is why profound anaemic hypoxia and CO poisoning — both of which leave too little reduced (as opposed to carboxy-) haemoglobin to cross that threshold — can be severely hypoxic without ever appearing cyanosed.
+## concept_type
+classification
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p42 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p22 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Types of hypoxia | Cyanosis threshold | Carbon monoxide poisoning | Cherry-red skin | Stagnant hypoxia | Histotoxic hypoxia
+## article_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Cyanosis: 1
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The department book's own Gas Transport chapter does not teach this classification; sourced instead to a standard physiology textbook (Guyton & Hall) at minimal, exam-matched scope — see the article's own evidence_gaps field.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-97B778DE471E7E
+## label
+Transpulmonary pressure (intra-alveolar minus intrapleural) is the force expanding the lungs, and intrapleural pressure swings from about -30 to -40 cmH2O in a maximal forced inspiration against a closed glottis to about +50 cmH2O in a forced expiration against one
+## canonical_key
+transpulmonary-pressure.definition-and-intrapleural-pressure-extremes
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p15 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p6 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p17 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p33 | 104 CPS
+## article_ids
++ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## field_notes
+canonical_key "transpulmonary-pressure.definition-and-intrapleural-pressure-extremes" already has a pinned id in this module (CON-RES-97B778DE471E7E); mintConceptId derives the same id fresh (CON-RES-97B778DE471E7E) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The four non-overlapping lung volumes (TV, IRV, ERV, RV) combine into four capacities — IC = TV+IRV, FRC = ERV+RV, VC = IRV+TV+ERV, TLC = VC+RV
+## id
+CON-RES-C233E747065BC1
+## canonical_key
+lung-volumes-and-capacities.definitions-and-relationships
+## definition
+The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry). Two or more volumes combine into four capacities: inspiratory capacity (IC = TV + IRV, the total air that can be inspired starting from the end of a normal tidal expiration); functional residual capacity (FRC = ERV + RV, the air remaining in the lungs at the end of a normal tidal expiration); vital capacity (VC = IRV + TV + ERV, the maximum air that can be expired after a maximum inspiration, and so the one capacity that excludes RV); and total lung capacity (TLC = VC + RV, all the air the lungs can hold). Any volume or capacity not directly measured can be found from the others by this arithmetic, provided enough of the surrounding figures are known.
+## explicit_objective
+State the four lung volumes and four capacities, the formula relating each capacity to the volumes that compose it, and calculate an unmeasured volume or capacity from the others when enough of them are given.
+## pitfalls
+Trying to calculate inspiratory reserve volume from vital capacity and tidal volume alone. VC = IRV + TV + ERV still has ERV unknown once IRV is asked for, so IRV cannot be isolated without also knowing ERV (or an equivalent, such as FRC and RV) — a question that gives only VC and TV is testing whether a student notices the calculation cannot be done, not asking for the arithmetic itself.
+## concept_type
+definition
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p33 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p34 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p40 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Lung volumes | Lung capacities | TV IRV ERV RV | Spirometry volumes | FRC formula | Vital capacity formula
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] A 35-year-old man has a vital capacity (VC) of 5 L, a tidal volume (VT) of 0.5 L, an inspiratory capacity of 3.5 L, and a functional residual capacity (FRC) of 2.5 L. What is his expiratory reserve yolume (ERV)?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+In normal quiet breathing, elastic resistance of the lung and chest wall is the largest component of the work of breathing; airway (frictional) resistance dominates only once pathologically raised
+## id
+CON-RES-90B75FE43DC190
+## canonical_key
+work-of-breathing.elastic-vs-frictional-resistance
+## definition
+The work of breathing is spent against three loads: the elastic resistance of the lung and chest wall (stretching them to change volume), the frictional (viscous) resistance of gas flowing through the airways, and the much smaller inertia of the moving tissues and gas. In a normally breathing, healthy individual at rest, elastic resistance is by far the largest of the three, so most of the work of quiet breathing overcomes elastic resistance, not airway friction or inertia; airway resistance becomes the dominant load only once it is pathologically raised, as in bronchial asthma. Because pulmonary surfactant lowers the surface tension that makes up the larger share of the lung's elastic resistance, a normal amount of surfactant reduces the work of breathing rather than adding to it; any process that stiffens the lung or chest wall (fibrosis, a surfactant deficiency, or a skeletal deformity such as kyphoscoliosis) or narrows the airways (bronchial asthma) raises the work of breathing above normal.
+## explicit_objective
+Identify elastic resistance as the dominant load in the work of breathing during normal quiet breathing, and recognise which conditions raise the work of breathing (airway narrowing, a stiffened lung or chest wall, a surfactant deficiency) versus which do not (a normal amount of surfactant).
+## pitfalls
+Assuming whatever raises airway resistance always dominates the work of breathing. In normal quiet breathing, elastic resistance — stretching the lung and chest wall — is the largest component; airway resistance only becomes the dominant load once it is pathologically increased, as in obstructive airway disease.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p7 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Work of breathing | Elastic vs airway resistance work | Load of quiet breathing
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All of the following increase the work of breathing Except:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Obstructive disease lowers FEV1/FVC and raises RV, FRC and (in emphysema) TLC and compliance; restrictive disease lowers all lung volumes together while preserving or raising FEV1/FVC
+## id
+CON-RES-AE456F22F85B5F
+## canonical_key
+obstructive-vs-restrictive-lung-disease.pft-pattern-changes
+## definition
+Obstructive disease (e.g. bronchial asthma, emphysema) narrows the airways and raises airway resistance, so forced expiration is slowed: FEV1 falls more than FVC, giving a reduced FEV1/FVC ratio, while air trapping raises residual volume and functional residual capacity — and, in emphysema specifically, where destroyed elastic fibres also raise lung compliance, total lung capacity rises too. Restrictive disease (e.g. pulmonary fibrosis, kyphoscoliosis) instead stiffens the lung or chest wall and lowers compliance, so all lung volumes and capacities fall together, including vital capacity, total lung capacity and functional residual capacity, while the FEV1/FVC ratio is preserved or even increased because the stiffened lung still empties quickly relative to its now-smaller volume. Functional residual capacity is a useful discriminator between the two patterns: it rises in obstructive disease (air trapping) but falls in restrictive disease (a stiffer, smaller lung) — a genuine reversal, unlike vital capacity, which falls in both.
+## explicit_objective
+Contrast the obstructive and restrictive patterns of lung disease by their effect on the FEV1/FVC ratio, residual volume, total lung capacity and functional residual capacity, and identify emphysema's increased lung compliance and total lung capacity as findings that distinguish it from a restrictive process such as pulmonary oedema.
+## pitfalls
+Assuming every lung volume and capacity moves in the same direction in obstructive disease as in restrictive disease. Functional residual capacity is the clearest counterexample: it rises with air trapping in obstructive disease but falls with a stiffened, smaller lung in restrictive disease — the two patterns are genuinely opposite on this measurement, not merely different in degree.
+## concept_type
+comparison
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p35 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p6 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p7 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Obstructive vs restrictive lung disease | PFT pattern | FEV1/FVC ratio | Emphysema physiology
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] In an asthmatic patient which of the following abnormalities is most likely to be seen?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Quiet inspiration uses the diaphragm and external intercostals alone; quiet expiration is passive; forced inspiration adds accessory muscles and forced expiration recruits the internal intercostals and abdominal muscles
+## id
+CON-RES-D11C71AADB4DB2
+## canonical_key
+muscles-of-breathing.quiet-vs-forced-inspiration-and-expiration
+## definition
+Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter. Quiet expiration takes no muscle contraction at all — it is passive, driven once the inspiratory muscles relax by the lung's own elastic and surface-tension recoil pulling the chest back to its resting (functional residual capacity) volume. Forced (deep) inspiration recruits accessory muscles on top of the diaphragm and external intercostals — chiefly the sternocleidomastoid and scalene muscles, which further elevate the upper ribs and sternum. Forced expiration is active, recruiting the internal intercostal muscles, which depress the ribs, and the abdominal muscles, which contract to push the relaxed diaphragm further upward, both reducing thoracic volume below its resting value.
+## explicit_objective
+Name the diaphragm and external intercostals as the sole muscles of quiet inspiration, state that quiet expiration is passive, and name the accessory muscles recruited for forced inspiration (sternocleidomastoid, scalenii) and forced expiration (internal intercostals, abdominal muscles).
+## pitfalls
+Assuming the internal intercostals assist inspiration because they are 'the other' intercostal layer. The internal intercostals are expiratory, not inspiratory — only the external intercostals raise the ribs; the internal intercostals depress them, which is why they are recruited for forced, active expiration instead.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p27 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p16 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p25 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p19 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Muscles of inspiration | Muscles of expiration | Accessory muscles of respiration
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] During forced expiration:
+## conflicts
+A live, cross-year catalogue (CON-RES-69811F39EAEB45, 'Diaphragm contraction flattens it and increases thoracic longitudinal diameter'; CON-RES-58E46604D5D495, 'Expiratory muscles act during exercise and voluntary forced expiration') states overlapping facts from a different textbook (Year 3 pulmonology, DIS-PHY-T03). GENERATED_BY-blind to existingConceptIds() for module "104 CPS" — build-batches.ts only scans docs/Kasr-Source-Imports/concept/104-CPS-*.md — the same reasoning documented repeatedly elsewhere in this branch for cross-catalogue overlaps. Not reused; recorded for a future consolidation pass.
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS respiratory article currently states this muscle-of-breathing sequence in its own prose — ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT's own notes explicitly defer it to the cross-year catalogue above. Standard, undisputed physiology; flagged for a future 104-CPS mechanics-of-breathing article.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Intra-alveolar pressure equals atmospheric during the pause between breaths, falls to about 1 mmHg below atmospheric during inspiration, and rises to about 1 mmHg above atmospheric during expiration
+## id
+CON-RES-42BC699422FFFA
+## canonical_key
+intra-alveolar-pressure.changes-through-the-quiet-breathing-cycle
+## definition
+Intra-alveolar (intrapulmonary) pressure oscillates by only about 1 mmHg around atmospheric pressure across the quiet breathing cycle — a small swing compared with intrapleural pressure's own larger, more negative excursion. During the momentary pause between breaths, with no airflow, intra-alveolar pressure equals atmospheric pressure exactly. As inspiration begins, thoracic expansion lowers intra-alveolar pressure to about 1 mmHg below (negative to) atmospheric, and this small pressure gradient is what drives air down into the alveoli; by the end of inspiration, once airflow has equalised the pressures again, it returns to atmospheric. During expiration the reverse occurs: intra-alveolar pressure rises to about 1 mmHg above (positive to) atmospheric, driving air back out, before returning to atmospheric at the next pause.
+## explicit_objective
+State that intra-alveolar pressure is atmospheric at the pause between breaths, about 1 mmHg negative during inspiration and about 1 mmHg positive during expiration — a much smaller swing than intrapleural pressure's own range.
+## pitfalls
+Confusing intra-alveolar pressure's small, roughly 1 mmHg swing with intrapleural pressure's own larger, more negative range (about -3 cmH2O at end-expiration to -6 to -8 cmH2O at end-inspiration). The two are different pressures at different sites: intrapleural pressure is always negative in quiet breathing, while intra-alveolar pressure swings on both sides of, and returns to, atmospheric with every breath.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p17 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p28 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Intra-alveolar pressure | Intrapulmonary pressure | Alveolar pressure during breathing
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Inira-alveolar pressure during normal inspiration:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS respiratory article currently states this specific pressure sequence in its own prose, for the same reason as the muscles-of-breathing concept above — deferred by ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT's own notes to a cross-year catalogue. Standard, undisputed physiology; flagged for the same future article.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The lung recoils inward from its elastic tissue and alveolar surface tension; the chest wall springs outward from its own elasticity, and these two opposing pulls keep intrapleural pressure negative
+## id
+CON-RES-1BA6BE714676EC
+## canonical_key
+respiratory-mechanics.causes-of-lung-recoil-and-chest-wall-expansion
+## definition
+The lung's inward recoil has two sources: its collagen and elastin fibres, which account for about one third, and the surface tension of the fluid lining the alveoli, which accounts for about two thirds. The chest wall's outward tendency comes from the elasticity of its muscles, tendons and ligaments. Each has a relaxation volume of its own, about 1 litre for the lungs and 5 litres for the thorax, and at the end of a quiet expiration their combined volume is about 2.3 litres — so the lungs are partially stretched and pulling in while the thorax is partially compressed and pushing out. These two opposing pulls are what keep intrapleural pressure negative. Opening the pleural space (pneumothorax) lets each structure spring to its own relaxation volume: the lung collapses towards 1 litre while the chest wall on the affected side springs outward towards 5 litres, and the intrapleural pressure's normal negativity is lost as the space equalises with atmospheric pressure.
+## explicit_objective
+Give the causes of the lung's recoil tendency and the chest wall's expansion tendency, and predict what happens to each, and to intrapleural pressure, when the pleural space is opened.
+## pitfalls
+Giving elastic tissue alone as the cause of lung recoil — surface tension is the larger of the two contributions, which is why surfactant matters so much to the work of breathing; and assuming pneumothorax makes the affected side of the chest look smaller, when the chest wall's own outward spring in fact makes it look larger.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+SYS-RES-T01-S02-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p15 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p27 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p34 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p30 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p19 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.79
+## exam_weight_by_year
+KAU_Y1=0.79
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Lung recoil and chest wall expansion | Pneumothorax mechanism
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Inspiration occurs when: 1 ١
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Pulmonary surfactant, secreted by type II pneumocytes, lowers alveolar surface tension and thereby increases pulmonary compliance; its deficiency increases surface tension and decreases compliance
+## id
+CON-RES-07849135906FBD
+## canonical_key
+surfactant.reduces-surface-tension-and-increases-compliance
+## definition
+Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension. Because surface tension is the larger of the two forces resisting lung expansion (the smaller being the elastic recoil of collagen and elastin), lowering it makes the lung easier to inflate for a given pressure change — surfactant increases pulmonary compliance, rather than the alveolar surface tension itself, which it reduces. A surfactant deficiency reverses this: alveolar surface tension rises, the lung becomes stiffer, and pulmonary compliance falls. This is exactly what happens in a preterm infant born before adequate surfactant production (respiratory distress syndrome of prematurity): increased surface tension collapses alveoli at the end of each expiration, and decreased compliance means far greater inspiratory pressure is needed to reinflate them, together driving progressive respiratory failure.
+## explicit_objective
+State that surfactant lowers alveolar surface tension and thereby increases pulmonary compliance, and predict the opposite pair of changes (increased surface tension, decreased compliance) in a surfactant-deficient lung such as in respiratory distress syndrome of prematurity.
+## pitfalls
+Saying that surfactant's major function is to increase surface tension. It is the reverse: surfactant lowers surface tension, and it is that reduction which increases compliance, prevents end-expiratory alveolar collapse, and eases the work of breathing.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p30 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p22 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p15 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p6 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p18 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.87
+## exam_weight_by_year
+KAU_Y1=0.87
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Pulmonary surfactant function | Surfactant and pulmonary compliance | Respiratory distress syndrome of prematurity | Type II pneumocyte secretion
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT | ART-104-HIS-RESPIRATORY-PORTION
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Surfactant:
+## conflicts
+Overlaps with the live concept CON-RES-4D4CBF3BB8AF1E (canonical_key `pulmonary-surfactant.functions-and-causes-of-deficiency`), authored by the written-paper pipeline into the generated `104-CPS-concepts.md`. Not merged: that file carries the pipeline's own GENERATED_BY marker, so `existingConceptIds()` cannot see it as pinned, and re-minting the same key here would silently full-overwrite an already-scored, under-review live record rather than issue a safe sparse update. Minted as a distinct concept instead; flagged for a chief-of-staff ruling on cross-pipeline concept consolidation for 104 CPS.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM | ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Pulmonary compliance rises when the lung's elastic recoil is lost, as in emphysema, and falls whenever the lung is stiffened by fibrosis, pulmonary oedema or a surfactant deficiency
+## id
+CON-RES-AA4C2193995295
+## canonical_key
+pulmonary-compliance.rises-in-emphysema-falls-in-fibrosis-oedema-and-surfactant-deficiency
+## definition
+Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch. It rises whenever the lung's elastic recoil is reduced: in emphysema, destruction of the alveolar walls and their elastin and collagen fibres leaves the lung with less tissue resisting expansion, producing the classic abnormally compliant, 'floppy' lung of that disease. Compliance falls, by contrast, whenever something stiffens the lung: pulmonary fibrosis lays down excess fibrous tissue; acute pulmonary oedema fills the interstitium and alveoli with fluid; and a surfactant deficiency leaves alveolar surface tension abnormally high. All three of these opposite-direction conditions raise, rather than lower, the elastic resistance the respiratory muscles must overcome, and so make the lung harder — not easier — to inflate.
+## explicit_objective
+State that pulmonary compliance is increased in emphysema (lost elastic recoil) and decreased in pulmonary fibrosis, acute pulmonary oedema and surfactant deficiency (all of which stiffen the lung), and explain the mechanism behind each direction of change.
+## pitfalls
+Assuming any lung disease affects compliance the same way. Emphysema is the one common condition that increases compliance, by destroying elastic tissue; fibrosis, oedema and surfactant deficiency all decrease it, by stiffening the lung through three different mechanisms (excess fibrous tissue, fluid-filled airspaces, and raised surface tension respectively).
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p49 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Lung compliance in emphysema | Compliance in restrictive lung disease | Floppy lung of emphysema
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Lung compliance is'increased in:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-6D8E2D62A9F51E
+## label
+Interstitial fluid volume depends on capillary hydrostatic and osmotic pressure, the filtration coefficient, the number of open capillaries, and lymph flow, and oedema follows when any of these shifts toward filtration
+## canonical_key
+interstitial-fluid.volume-determinants-and-causes-of-oedema
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
+## article_ids
++ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## field_notes
+canonical_key "interstitial-fluid.volume-determinants-and-causes-of-oedema" already has a pinned id in this module (CON-CVS-6D8E2D62A9F51E); mintConceptId derives the same id fresh (CON-CVS-6D8E2D62A9F51E) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-FA5FB57963DDF7
+## label
+Blood flow equals the pressure gradient divided by resistance, and applied to the whole circulation this gives a systemic resistance of about 18 mmHg/L/min against a pulmonary resistance of only about 1.4 mmHg/L/min
+## canonical_key
+hemodynamics.flow-pressure-resistance-relationship
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p16 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+## article_ids
++ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## field_notes
+canonical_key "hemodynamics.flow-pressure-resistance-relationship" already has a pinned id in this module (CON-CVS-FA5FB57963DDF7); mintConceptId derives the same id fresh (CON-CVS-FA5FB57963DDF7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-A0579343614BCD
+## label
+Systolic, diastolic and mean arterial pressure are distinct quantities, mean arterial pressure sits nearer diastolic because diastole outlasts systole, and pulse pressure widens when arterial compliance falls
+## canonical_key
+arterial-blood-pressure.systolic-diastolic-map-and-pulse-pressure
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p19 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p17 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## field_notes
+canonical_key "arterial-blood-pressure.systolic-diastolic-map-and-pulse-pressure" already has a pinned id in this module (CON-CVS-A0579343614BCD); mintConceptId derives the same id fresh (CON-CVS-A0579343614BCD) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-56A68328FD03C7
+## label
+Local blood flow is matched to tissue metabolism by two mechanisms — active hyperaemia driven by vasodilator metabolites and hypoxia, and myogenic/metabolic autoregulation that returns flow toward normal after a change in perfusion pressure
+## canonical_key
+local-blood-flow-regulation.myogenic-and-metabolic-autoregulation
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
+## article_ids
++ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## field_notes
+canonical_key "local-blood-flow-regulation.myogenic-and-metabolic-autoregulation" already has a pinned id in this module (CON-CVS-56A68328FD03C7); mintConceptId derives the same id fresh (CON-CVS-56A68328FD03C7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Blood flow becomes turbulent, rather than laminar, when its Reynolds number rises — driven up by higher velocity or vessel diameter and DOWN by higher viscosity — and partial vessel occlusion promotes turbulence locally by raising velocity through the narrowed segment
+## id
+CON-CVS-BE644093FBBA69
+## canonical_key
+turbulent-blood-flow.reynolds-number-determinants
+## definition
+Whether blood flow is smooth (laminar) or turbulent is predicted by the Reynolds number, which rises with blood velocity, vessel diameter and blood density, and falls as blood viscosity rises. A higher Reynolds number means a greater tendency toward turbulence; a decrease in blood viscosity therefore increases the tendency toward turbulence, the opposite of what raising viscosity does. Partial occlusion (stenosis or narrowing) of a blood vessel forces the same volume of blood through a smaller cross-sectional area, sharply increasing local flow velocity at and just beyond the narrowed segment, which promotes turbulence there even if flow elsewhere in the vessel remains laminar — the physical basis of vascular murmurs and bruits.
+## explicit_objective
+State that the tendency of blood flow to become turbulent rises with velocity, vessel diameter and blood density, falls with blood viscosity, and that partial vessel occlusion promotes local turbulence by raising local velocity.
+## pitfalls
+Assuming turbulence tendency rises with viscosity, by analogy with resistance (which does rise with viscosity). The Reynolds number places viscosity in its denominator, so turbulence tendency runs the OPPOSITE direction from resistance as viscosity changes.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p15 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Reynolds number | Turbulent vs laminar flow | Vascular murmurs and bruits
+## article_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The tendency for blood flow to be turbulent is increased by 1
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS article states the Reynolds-number relationship explicitly; this is standard, undisputed haemodynamics (the same physics underlying auscultatory blood-pressure measurement and vascular bruits), flagged for the article-authoring lane rather than invented without any source at all.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Critical closing pressure is the transmural pressure below which a blood vessel with active smooth-muscle tone collapses completely and flow abruptly ceases, rather than simply falling in proportion to the declining pressure
+## id
+CON-CVS-CF72E21EE3FCEF
+## canonical_key
+critical-closing-pressure.definition-and-mechanism
+## definition
+In a vessel with active vascular smooth-muscle tone, flow does not fall smoothly to zero as distending (transmural) pressure is lowered. Below a specific pressure — the critical closing pressure — the vessel wall's own tension exceeds the distending pressure trying to keep it open, and the vessel collapses completely, so flow ceases abruptly rather than tapering off gradually. This is distinct from mean arterial pressure (the average pressure across the cardiac cycle), pulse pressure (the systolic-diastolic difference) and perfusion pressure (the pressure gradient actually driving flow through an organ) — critical closing pressure is specifically the threshold transmural pressure at which a vessel with tone snaps shut.
+## explicit_objective
+Define critical closing pressure as the transmural pressure at which a toned blood vessel collapses and flow abruptly ceases, and distinguish it from mean arterial, pulse and perfusion pressure.
+## pitfalls
+Assuming blood flow simply approaches zero smoothly as vessel pressure falls, the way it would in a rigid tube. A vessel with active smooth-muscle tone instead collapses abruptly at its own critical closing pressure, a genuinely different behaviour from a passive conduit.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p47 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Critical closing pressure | Vessel collapse pressure
+## article_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The pressure in a blood vessel at which flow ceases is called:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS article names critical closing pressure; standard, undisputed vascular physiology (the behaviour of a collapsible tube with active wall tension), flagged for the article-authoring lane rather than invented without any source at all.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -1265,7 +12350,7 @@ emphysema.destruction-of-alveolar-septa-by-dust-cell-enzymes
 ## definition
 Emphysema is an abnormal, permanent enlargement of the alveoli. It results from destruction of the inter-alveolar septa by proteases and elastases secreted by dust cells (alveolar phagocytes that engulf inhaled dust). It is mainly caused by cigarette smoking, which inhibits the protein that normally restrains this protease and elastase destruction, so the septa-destroying enzyme activity goes unchecked.
 ## explicit_objective
-Name the two enzyme classes dust cells secrete that destroy the inter-alveolar septa in emphysema, and state cigarette smoking as the book's stated chief cause, acting by disabling the protein that would otherwise inhibit them.
+Name the two enzyme classes dust cells secrete that destroy the inter-alveolar septa in emphysema, and state cigarette smoking as the stated chief cause, acting by disabling the protein that would otherwise inhibit them.
 ## pitfalls
 Attributing emphysema's septal destruction to the dust particles themselves rather than to the phagocyte's own digestive enzymes. It is the dust cell's protease and elastase, released while it processes what it has engulfed, that breaks down the septa — the inhaled dust is the trigger for the cell's response, not the destructive agent itself.
 ## concept_type
@@ -1388,6 +12473,23 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## id
+CON-RES-D8B1BE3C6CFABD
+## label
+Alveolar phagocytes are blood-monocyte-derived dust cells engulfing dust and heart-failure cells engulfing red cells, cleared by three routes
+## canonical_key
+alveolar-phagocytes.dust-cells-and-heart-failure-cells
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+## article_ids
++ART-104-HIS-RESPIRATORY-PORTION
+## field_notes
+canonical_key "alveolar-phagocytes.dust-cells-and-heart-failure-cells" already has a pinned id in this module (CON-RES-D8B1BE3C6CFABD); mintConceptId derives the same id fresh (CON-RES-D8B1BE3C6CFABD) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
 CON-RES-38BA83C42FBE02
 ## label
 The conducting portion's epithelium has five cell types: ciliated, goblet, brush, basal and small granule cells
@@ -1396,6 +12498,11 @@ conducting-portion-epithelium.five-cell-types
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p22 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p15 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p1 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p16 | 104 CPS
 ## article_ids
 +ART-104-HIS-NASAL-MUCOSA
 ## field_notes
@@ -1430,10 +12537,152 @@ Olfactory epithelium has three cell types — olfactory neurons, sustentacular c
 olfactory-mucosa.cell-types-and-lamina-propria
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p2 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
 ## article_ids
 +ART-104-HIS-NASAL-MUCOSA
 ## field_notes
 canonical_key "olfactory-mucosa.cell-types-and-lamina-propria" already has a pinned id in this module (CON-RES-58840F56FB3A36); mintConceptId derives the same id fresh (CON-RES-58840F56FB3A36) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The paranasal sinuses are lined by a thin pseudostratified ciliated columnar epithelium with few goblet cells, continuous with the nasal cavity's own mucociliary clearance
+## id
+CON-RES-E55C5360CC116B
+## canonical_key
+paranasal-sinuses.lining-epithelium
+## definition
+The paranasal sinuses — the frontal, maxillary, ethmoidal and sphenoidal air cavities within the skull bones surrounding the nose — communicate with the nasal cavity through small openings (ostia) and carry the same family of lining as the nasal fossae: pseudostratified ciliated columnar epithelium. It is, however, a thinner version of that lining, with fewer goblet cells and a less vascular, thinner lamina propria than the nasal mucosa proper. Coordinated ciliary beating drives the thin mucus layer, with any trapped particles, out through each sinus's ostium into the nasal cavity, so the sinuses share in the nose's own mucociliary clearance route rather than running an independent one.
+## explicit_objective
+State that the paranasal sinuses carry a thinner version of respiratory epithelium — pseudostratified ciliated columnar with few goblet cells — clearing via the nasal cavity's own mucociliary route.
+## pitfalls
+Assuming the sinuses are lined by simple or stratified epithelium because they are 'just' hollow bone cavities. They keep the conducting portion's own ciliated, mucus-producing lining, only thinner and less richly supplied — a smaller-scale copy of the nasal fossae's mucosa, not a different tissue type.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-RES-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Paranasal sinus lining | Sinus mucosa | Sinus ostia
+## article_ids
+ART-104-HIS-NASAL-MUCOSA
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] What type of tissues lines the paranasal sinuses:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LYMPHOID-ORGANS | ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
@@ -1448,6 +12697,9 @@ larynx.vocal-cords-and-cartilages
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p24 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
 ## article_ids
 +ART-104-HIS-LARYNX-TRACHEA-BRONCHI
 ## field_notes
@@ -1468,7 +12720,7 @@ The conducting portion of the respiratory system conducts and conditions inspire
 ## explicit_objective
 Pair the conducting portion's structural components with their function: cartilage and collagen against collapse, elastic fibres and smooth muscle for flexibility and extensibility, epithelium and glands for conditioning the air.
 ## pitfalls
-Swapping the two pairings — crediting cartilage with flexibility or elastic fibre/smooth muscle with preventing collapse. The book pairs them the other way: the rigid components (cartilage, collagen) resist collapse, and the compliant components (elastic fibre, smooth muscle) supply flexibility and extensibility.
+Swapping the two pairings — crediting cartilage with flexibility or elastic fibre/smooth muscle with preventing collapse. It pairs the other way: the rigid components (cartilage, collagen) resist collapse, and the compliant components (elastic fibre, smooth muscle) supply flexibility and extensibility.
 ## concept_type
 structure_function_relationship
 ## status
@@ -1596,8 +12848,438 @@ Type I pneumocytes are flat cells covering 97% of the alveolar surface for gas e
 pneumocyte-type-i-vs-type-ii.structure-and-function
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p16 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p3 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
 ## article_ids
 +ART-104-HIS-RESPIRATORY-PORTION
 ## field_notes
 canonical_key "pneumocyte-type-i-vs-type-ii.structure-and-function" already has a pinned id in this module (CON-RES-94F66D51DB5B4D); mintConceptId derives the same id fresh (CON-RES-94F66D51DB5B4D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The respiratory portion runs respiratory bronchiole -> alveolar duct -> alveolar sac -> alveolus; the respiratory bronchiole, not the alveolar duct, is the true conducting-to-respiratory transition, and pores of Kohn give collateral air circulation
+## id
+CON-RES-38BCE7439DEBC9
+## canonical_key
+respiratory-portion.structural-sequence-and-pores-of-kohn
+## definition
+The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus. Respiratory bronchioles are the transition from the conducting portion — the first part of the respiratory tree where gas exchange can occur, since some alveoli already open directly from their wall — while keeping a cuboidal, ciliated (Clara-cell-bearing) epithelium that still looks like conducting-portion lining; the true conducting-to-respiratory boundary sits here, not at the alveolar duct, and terminal bronchioles (purely conducting) are never part of the respiratory zone. Alveolar ducts are the free terminations of the respiratory bronchioles, lined completely by alveolar openings, with smooth muscle only at those openings; alveolar sacs are groups of adjacent alveoli sharing a central space, and both ducts and sacs are lined by alveolar epithelium alone, with the alveolar duct's mouth-sphincter smooth muscle disappearing by the level of the sacs and individual alveoli. Alveolar pores (of Kohn) connect adjoining alveolar walls, equalising pressure between alveoli and providing collateral air circulation when a bronchiole is obstructed.
+## explicit_objective
+State the respiratory portion's four-part sequence (respiratory bronchiole, alveolar duct, alveolar sac, alveolus), identify the respiratory bronchiole -- not the alveolar duct or a terminal bronchiole -- as the true conducting-to-respiratory transition, and state the function of the pores of Kohn.
+## pitfalls
+Placing the conducting-to-respiratory transition at the alveolar duct, or including the terminal bronchiole in the respiratory zone. The respiratory bronchiole is already gas-exchanging tissue -- its wall is interrupted by the first alveolar openings -- while the terminal bronchiole, one step upstream, is purely conducting and never part of the respiratory zone.
+## concept_type
+definition
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-RES-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p24 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p28 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p32 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p2 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p1 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p3 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Respiratory portion sequence | Pores of Kohn | Respiratory bronchiole transition | Alveolar duct and sac
+## article_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Gas exchange occurs in:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-ED5ADFB428C5BF
+## label
+The blood-air barrier is four layers: surfactant film, pneumocyte type I, fused basal lamina, and capillary endothelium
+## canonical_key
+blood-air-barrier.four-layers
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p16 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p7 | 104 CPS
+## article_ids
++ART-104-HIS-RESPIRATORY-PORTION
+## field_notes
+canonical_key "blood-air-barrier.four-layers" already has a pinned id in this module (CON-RES-ED5ADFB428C5BF); mintConceptId derives the same id fresh (CON-RES-ED5ADFB428C5BF) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Interalveolar septa are delicate, capillary-rich connective-tissue partitions with elastic and reticular fibres and resident phagocytes -- not smooth muscle, not collagen-supported, and not avascular
+## id
+CON-RES-4903189C8DA93C
+## canonical_key
+interalveolar-septum.composition
+## definition
+The interalveolar septum is the delicate connective-tissue partition separating adjacent alveoli. It carries the richest capillary network in the body, elastic fibres that assist lung expansion, reticular fibres that prevent overexpansion from injuring the capillaries, and extravasated monocytes that become the septum's own resident alveolar phagocytes (dust cells and heart-failure cells). It is not smooth-muscle tissue, not supported chiefly by collagen, and not avascular -- describing it that way reverses its actual composition.
+## explicit_objective
+State that interalveolar septa are delicate connective-tissue partitions carrying a dense capillary network, elastic and reticular fibres, and resident phagocytes -- not smooth muscle, not collagen-supported, and not avascular.
+## pitfalls
+Assuming the interalveolar septum is supported the way a conducting airway wall is, with smooth muscle or collagen as the main structural element. It is instead a delicate, capillary-rich connective-tissue partition whose fibre content (elastic and reticular) serves lung mechanics and capillary protection, not structural rigidity.
+## concept_type
+definition
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-RES-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Interalveolar septum | Alveolar septum composition
+## article_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Interalveolar septa are:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Emphysema is permanent alveolar enlargement from interalveolar-septal destruction by dust-cell protease/elastase, unleashed by smoking; a congenital anomaly can instead present as alveolar dilatation from birth
+## id
+CON-RES-1C25BE837B7E1D
+## canonical_key
+respiratory-portion.clinical-correlations
+## definition
+Two disease processes trace directly to the respiratory portion's normal structure. Emphysema is permanent, abnormal enlargement of the air spaces from destruction of the interalveolar septa, driven by protease and elastase enzymes secreted by dust cells -- normally kept in check by protective proteins that cigarette smoking inhibits, unleashing the same dust cell that ordinarily just clears inhaled particles. A congenital anomaly presenting as dilatation of the terminal or larger alveoli is a form of congenital cystic disease of the lung, distinct from a chest-wall or gas-exchange functional problem -- a structural malformation of the respiratory portion itself, present from birth, rather than an acquired destructive process like emphysema.
+## explicit_objective
+Identify emphysema as permanent alveolar enlargement from interalveolar-septal destruction by dust-cell protease/elastase (unleashed by smoking), and distinguish a congenital cystic malformation of the lung -- present from birth -- from that acquired, adult-onset process.
+## pitfalls
+Treating every case of enlarged or dilated air spaces as emphysema. A congenital anomaly presenting as dilatation of the terminal or larger alveoli is a structural malformation present from birth, not the acquired, smoking-driven septal destruction that defines emphysema.
+## concept_type
+comparison
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-RES-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Emphysema mechanism | Congenital cystic disease of the lung | Dust cell protease and elastase
+## article_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] abnormal permanent enlargement of alveoli
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 

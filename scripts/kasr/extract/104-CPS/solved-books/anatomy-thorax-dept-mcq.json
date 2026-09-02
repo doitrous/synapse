@@ -1,0 +1,362 @@
+{
+  "sourceId": "src_2fa479a7b16d675c5d73",
+  "sha256": "2fa479a7b16d675c5d73d7211689f13e0a6a0cca10414ec2eec2f5cee75c0006",
+  "file": "Anatomy MCQ [Thorax] (Solved).pdf",
+  "corpusRelativePath": "y1/104 CPS/Department Questions/Anatomy MCQ [Thorax] (Solved).pdf",
+  "book": "Department Question Bank - Anatomy MCQ [Thorax] (Solved)",
+  "subject": "Anatomy",
+  "module": "104 CPS",
+  "pages": 9,
+  "markConvention": "TRAP CONFIRMED: pdftotext text layer has no answer marker despite the '(Solved)' filename. Rendered page images (p1-3, 150dpi) show the correct option's text highlighted yellow. page.annots() returns 0 -- this is not a PDF highlight annotation but a yellow-filled vector rectangle painted into the content stream (content-stream grep confirms '1 1 0 rg ... re f*' immediately preceding the option's text-showing operators). Detected via PyMuPDF get_drawings() fill-color match, not OCR.",
+  "extractionMethod": "PyMuPDF get_text('dict') + get_drawings(), positional match of yellow rect to option line (scripts/kasr/extract/104-CPS/solved-books/extract_anatomy_thorax_dept.py)",
+  "stats": {
+    "questionsExtracted": 23,
+    "keysRecovered": 23,
+    "pagesSkipped": []
+  },
+  "questions": [
+    {
+      "q": 1,
+      "page": 1,
+      "stem": "The Internal Mammary artery arises from:",
+      "options": {
+        "A": "Costocervical trunk.",
+        "B": "Vertebral artery.",
+        "C": "Transverse Cervical artery.",
+        "D": "Brachiocephalic artery.",
+        "E": "Subclavian artery."
+      },
+      "answer": "E",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 2,
+      "page": 1,
+      "stem": "Regarding intercostal arteries, all following statements are true, EXCEPT:",
+      "options": {
+        "A": "The anterior intercostal arteries give branches to the medial half of the breast.",
+        "B": "upper two posterior intercostal arteries are branches of the costocervical trunk.",
+        "C": "The posterior intercostal arteries give branches to the spinal cord.",
+        "D": "In the costal groove, the intercostal artery runs above the accompanying vein.",
+        "E": "Upper 9 intercostal spaces contains two anterior intercostals arteries."
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 3,
+      "page": 1,
+      "stem": "Regarding intercostal nerves, following statements are correct, EXCEPT:",
+      "options": {
+        "A": "The first intercostal has no anterior cutaneous branch.",
+        "B": "lower five intercostal nerves supply the muscles of the anterior abdominal wall.",
+        "C": "In the costal groove, the intercostals nerve lies above the accompanying vessels.",
+        "D": "The typical intercostals nerves are the 3rd to 6th nerves"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 4,
+      "page": 1,
+      "stem": "Regarding the internal mammary artery, all are correct, EXCEPT:",
+      "options": {
+        "A": "It is a branch of the first part of the subclavian artery.",
+        "B": "During its course, the artery is crossed by the intercostals nerves.",
+        "C": "The internal mammary vein ascends on the lateral side of the artery.",
+        "D": "It shares in the arterial supply of the breast.",
+        "E": "It ends at the level of the 6th intercostals space."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 5,
+      "page": 1,
+      "stem": "Regarding vessels of thoracic wall, are correct, EXCEPT:",
+      "options": {
+        "A": "1st and 2nd posterior intercostal arteries are branches of the costocervical trunk.",
+        "B": "The 1st posterior intercostals veins drain into the brachiocephalic veins.",
+        "C": "The inferior hemiazygos vein arises usually from the right renal vein.",
+        "D": "The lymph vessels of the thoracic wall drain into the intercostal lymph nodes.",
+        "E": "The hemiazygos veins cross behind the descending thoracic aorta."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 6,
+      "page": 2,
+      "stem": "Regarding the external intercostal muscle, the following statements are true, EXCEPT:",
+      "options": {
+        "A": "It is a muscle of inspiration.",
+        "B": "Its fibers are directed downward and forward.",
+        "C": "It continues backwards as the posterior intercostal membrane.",
+        "D": "It extends from the rib tubercle to the costochondral junction.",
+        "E": "It is supplied by the corresponding intercostal nerve."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 7,
+      "page": 2,
+      "stem": "The following are the contents of superior mediastinum, EXCEPT:",
+      "options": {
+        "A": "Left brachiocephalic vein.",
+        "B": "Inferior vena cava.",
+        "C": "Arch of aorta.",
+        "D": "Esophagus.",
+        "E": "Thoracic duct."
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 8,
+      "page": 2,
+      "stem": "Which of the following structures lies in the anterior mediastinum?",
+      "options": {
+        "A": "Sternopericardial ligaments.",
+        "B": "Pericardial sac.",
+        "C": "Trachea.",
+        "D": "Heart.",
+        "E": "Esophagus."
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 9,
+      "page": 2,
+      "stem": "The following are contents of the posterior mediastinum, except:",
+      "options": {
+        "A": "Descending aorta.",
+        "B": "Esophagus.",
+        "C": "Thoracic duct.",
+        "D": "Azygos vein.",
+        "E": "Internal thoracic artery."
+      },
+      "answer": "E",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 10,
+      "page": 2,
+      "stem": "Regarding the external intercostal muscle, the following statements are correct, EXCEPT:",
+      "options": {
+        "A": "Its fibers are directed downward and forward.",
+        "B": "It takes origin from the inferior border of the rib above.",
+        "C": "It is inserted into the superior border of the rib below.",
+        "D": "It extends posteriorly to the angle of the rib.",
+        "E": "In front it is replaced by the anterior intercostal membrane."
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 11,
+      "page": 3,
+      "stem": "Concerning the heart; mark the correct statement:",
+      "options": {
+        "A": "The aortic valve is secured to the walls of the ventricles by the chordae tendinae and papillary muscles.",
+        "B": "The tricuspid valve prevents blood returning to the ventricles from the aorta.",
+        "C": "The coronary arteries arise from the left and right aortic sinuses.",
+        "D": "The pulmonary valve prevents oxygenated blood from returning to the right ventricle.",
+        "E": "The coronary sinus and the inferior and superior venae cavae all return deoxygenated blood to the right atrium."
+      },
+      "answer": "E",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 12,
+      "page": 3,
+      "stem": "Concerning the heart; mark the correct statement:",
+      "options": {
+        "A": "It has an inherent beat.",
+        "B": "Cutting the vagus nerve would slow down the heart beat.",
+        "C": "The sino-atrial node lies in the left atrium.",
+        "D": "Purkinje fibres are modified cardiac muscle cells that rapidly conduct electrical impulses to the apex of the heart.",
+        "E": "eight pulmonary veins drain into the left atrium."
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 13,
+      "page": 3,
+      "stem": "Regarding the left ventricle, the following statements are correct, EXCEPT:",
+      "options": {
+        "A": "It is three times thicker than the right ventricle.",
+        "B": "The trabeculae carneae are more than those of the right ventricle.",
+        "C": "The two limbs of the U-shaped passage of blood are separated by a supraventricular crest.",
+        "D": "The upper part of the interventricular septum is membranous.",
+        "E": "The left coronary artery supplies the major part of the interventricular septum."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 14,
+      "page": 3,
+      "stem": "Which of the following structures opens into the left atrium?",
+      "options": {
+        "A": "Coronary sinus.",
+        "B": "Superior vena cava.",
+        "C": "Inferior vena cava.",
+        "D": "Four pulmonary veins.",
+        "E": "Pulmonary arteries."
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 15,
+      "page": 4,
+      "stem": "The pulmonary valve sound is best heard at; choose the correct answer:",
+      "options": {
+        "A": "The third left sternocostal junction.",
+        "B": "The second left sternocostal junction.",
+        "C": "The second right sternocostal junction",
+        "D": "The apex of the heart.",
+        "E": "The right half of the lower end of the sternum."
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 16,
+      "page": 4,
+      "stem": "Regarding the anatomy of the heart, the following statements are correct, EXCEPT:",
+      "options": {
+        "A": "The sternocostal surface is formed mainly by the right ventricle.",
+        "B": "The base is formed mainly by the left atrium.",
+        "C": "The apex is formed of both ventricles.",
+        "D": "The Left ventricular wall is usually three times thicker than that of the right ventricle.",
+        "E": "The Left atrium of the heart receives pulmonary veins."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 17,
+      "page": 4,
+      "stem": "Regarding the arterial supply of the heart, the following statements are true, EXCEPT:",
+      "options": {
+        "A": "The right coronary artery arises from the anterior aortic sinus.",
+        "B": "The right coronary artery gives the anterior interventricular artery.",
+        "C": "The left marginal artery is a branch of the circumflex artery.",
+        "D": "The right marginal artery runs along the inferior border of the heart.",
+        "E": "The coronary arteries are considered as end-arteries."
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 18,
+      "page": 4,
+      "stem": "Regarding the coronary arteries, the following statements are correct, EXCEPT:",
+      "options": {
+        "A": "They are branches of the ascending aorta.",
+        "B": "They are considered as end arteries.",
+        "C": "Coronary filling occurs during diastole.",
+        "D": "The left coronary artery is the usual source of blood supply to the sinoatrial node.",
+        "E": "The right marginal artery gives branches to the anterior and posterior walls of the right ventricle."
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 19,
+      "page": 5,
+      "stem": "The following statements concerning root of right lung are true EXCEPT:",
+      "options": {
+        "A": "The right phrenic nerve passes anterior to the lung root.",
+        "B": "The azygos vein arches over superior margin of the lung root.",
+        "C": "The right pulmonary artery lies posterior to the principal bronchus.",
+        "D": "The right vagus nerve passes posterior to the lung root.",
+        "E": "The vessels and nerves forming the lung root are enclosed by a cuff of pleura."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 20,
+      "page": 5,
+      "stem": "Regarding the root of the lung all true except:",
+      "options": {
+        "A": "It lie opposite the bodies of the T5, 6, 7 vertebrae",
+        "B": "It includes bronchial arteries",
+        "C": "That of right lung lies behind the inferior vena cava",
+        "D": "That of left lung lies anterior to the descending aorta",
+        "E": "Cardiac impression lie anterior and below it"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 21,
+      "page": 5,
+      "stem": "Following statements regarding lungs are true, EXCEPT:",
+      "options": {
+        "A": "ascending aorta makes an impression on the mediastinal surface of the left lung.",
+        "B": "The trachea bifurcates at the level of the sternal angle into two bronchi.",
+        "C": "Each lung receives non-oxygenated blood through a pulmonary artery.",
+        "D": "The horizontal fissure of the right lung lies at the level of the 4th costal cartilage.",
+        "E": "The intersegmental parts of the pulmonary veins run in the septa between the brochopulmonary segments."
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 22,
+      "page": 5,
+      "stem": "Which of the following are the bronchopulmonary segments of the lingula of the left lung?",
+      "options": {
+        "A": "Anterior and posterior.",
+        "B": "Medial and lateral.",
+        "C": "Superior and inferior.",
+        "D": "Anterior basal and posterior basal."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    },
+    {
+      "q": 23,
+      "page": 5,
+      "stem": "Regarding the right lung, all the following statements are true, EXCEPT:",
+      "options": {
+        "A": "It is larger than the left lung.",
+        "B": "Its horizontal fissure runs at the level of the 6th costal cartilage.",
+        "C": "Its upper lobe has three bronchopulmonary segments.",
+        "D": "Its anterior border is vertical down to the 6th costal cartilage.",
+        "E": "It is related to the right atrium."
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "yellow highlight rect (vector fill 1,1,0), not a PDF annotation"
+    }
+  ]
+}

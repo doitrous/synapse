@@ -1,0 +1,2392 @@
+{
+  "sourceId": "src_9e89b394f2675e3c721b",
+  "sha256": "9e89b394f2675e3c721ba3510be4825770ce5f1c5ad23f4844e7e4c18b50171f",
+  "file": "Histo MCQ by Dr.Zahra [104].pdf",
+  "corpusRelativePath": "y1/104 CPS/Doctors/Dr. Zahra Histology/Histo MCQ by Dr.Zahra [104].pdf",
+  "book": "Histology MCQ by Dr. Ahmed Zahra [104]",
+  "subject": "Histology",
+  "module": "104 CPS",
+  "pages": 29,
+  "markConvention": "typed 'answer x' (or 'Answer x') line, right-aligned after each question's options, native text layer. Verified against pdftoppm renders of pages 1-3: no highlight/pen marks -- the printed answer line is the sole key.",
+  "extractionMethod": "PyMuPDF get_text('text'), regex block parse (scripts/kasr/extract/104-CPS/solved-books/extract_zahra.py)",
+  "stats": {
+    "questionsExtracted": 160,
+    "keysRecovered": 160,
+    "pagesSkipped": [
+      {
+        "page": 4,
+        "q": 22,
+        "stem": "All of the following statements are true of the human spleen except",
+        "options": {
+          "A": "its connective tissue capsule has a mesothelial coating",
+          "B": "its sinuses are continuous capillaries",
+          "C": "the white pulp contains T cells and B cells",
+          "D": "T cells are concentrated in the peri-arterial lymphatic sheath (PALS) EXCEPT b"
+        },
+        "reason": "no 'answer x' line found before next question start"
+      },
+      {
+        "page": 6,
+        "q": 39,
+        "stem": "Each of the following statements concerning the thymus is true except",
+        "options": {
+          "A": "it contains Hassall 's (thymic) corpuscles",
+          "B": "it has T-lymphocytes",
+          "C": "it has no lymphoid nodules",
+          "D": "it has a red pulp EXCEPT d"
+        },
+        "reason": "no 'answer x' line found before next question start"
+      },
+      {
+        "page": 7,
+        "q": 42,
+        "stem": "The unique features of the thymus are the following except",
+        "options": {
+          "A": "it contains Hassall 's (thymic) corpuscles",
+          "B": "it has no T-lymphocytes",
+          "C": "it has no lymphoid nodules",
+          "D": "it has no plasma cells",
+          "E": "its reticular cells are endodermal EXCEPT b"
+        },
+        "reason": "no 'answer x' line found before next question start"
+      },
+      {
+        "page": 12,
+        "q": 72,
+        "stem": "One of the following is not true concerning the pharyngeal tonsil",
+        "options": {
+          "A": "it is composed mostly of lymphoid aggregates",
+          "B": "it is covered by stratified squamous epithelium",
+          "C": "it is covered by pseudo stratified columnar epithelium",
+          "D": "it does not possess deep tonsillar crypts EXCEPT b"
+        },
+        "reason": "no 'answer x' line found before next question start"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "q": 1,
+      "page": 1,
+      "stem": "Primary lymphoid organs",
+      "options": {
+        "A": "Bone marrow",
+        "B": "Thymus",
+        "C": "A& B",
+        "D": "Spleen"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "1.Primary lymphoid organs a) Bone marrow b) Thymus c) A& B d) Spleen answer c"
+    },
+    {
+      "q": 2,
+      "page": 1,
+      "stem": "The followings are secondary lymphoid organs EXCEPT",
+      "options": {
+        "A": "Spleen",
+        "B": "Lymph nodes",
+        "C": "Thymus gland",
+        "D": "Tonsils"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "2.The followings are secondary lymphoid organs EXCEPT a) Spleen b) Lymph nodes c) Thymus gland d) Tonsils answer c"
+    },
+    {
+      "q": 3,
+      "page": 1,
+      "stem": "The thymus characterized histologically by the followings EXCEPT",
+      "options": {
+        "A": "Has no capsule",
+        "B": "Consists of two lobes",
+        "C": "Formed of cortex and medulla",
+        "D": "Has lymphoid component and epithelial component"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "3.The thymus characterized histologically by the followings EXCEPT a) Has no capsule b) Consists of two lobes c) Formed of cortex and medulla d) Has lymphoid component and epithelial component answer a"
+    },
+    {
+      "q": 4,
+      "page": 1,
+      "stem": "The thymus characterized by the followings EXCEPT",
+      "options": {
+        "A": "It is a primary lymphoid organ",
+        "B": "Undergoes involution at the puberty.",
+        "C": "The site for B-lymphocytes maturation.",
+        "D": "The site for T-lymphocytes maturation."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "4.The thymus characterized by the followings EXCEPT a) It is a primary lymphoid organ b) Undergoes involution at the puberty. c) The site for B-lymphocytes maturation. d) The site for T-lymphocytes maturation. answer c"
+    },
+    {
+      "q": 5,
+      "page": 1,
+      "stem": "The cortex of the thymus contains the following cells EXCEPT",
+      "options": {
+        "A": "T-lymphocytes",
+        "B": "Macrophages",
+        "C": "Chondroblasts",
+        "D": "Epithelial reticular cells"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "5.The cortex of the thymus contains the following cells EXCEPT a) T-lymphocytes b) Macrophages c) Chondroblasts d) Epithelial reticular cells answer c"
+    },
+    {
+      "q": 6,
+      "page": 1,
+      "stem": "T-lymphocytes which programmed in the cortex of the thymus",
+      "options": {
+        "A": "Will die in the medulla",
+        "B": "Migrate to bone marrow for more differentiation",
+        "C": "Migrate to the medulla and enter the blood stream",
+        "D": "Transforms to B-lymphocytes"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "6.T-lymphocytes which programmed in the cortex of the thymus a) Will die in the medulla b) Migrate to bone marrow for more differentiation c) Migrate to the medulla and enter the blood stream d) Transforms to B-lymphocytes answer c"
+    },
+    {
+      "q": 7,
+      "page": 2,
+      "stem": "The medulla of the thymus stain lighter than the cortex because",
+      "options": {
+        "A": "The number of the lymphocytes in the medulla is much less in cortex",
+        "B": "It contains a large number of epithelial reticular cells",
+        "C": "A&B",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "7.The medulla of the thymus stain lighter than the cortex because a) The number of the lymphocytes in the medulla is much less in cortex b) It contains a large number of epithelial reticular cells c) A&B d) None of the above answer c"
+    },
+    {
+      "q": 8,
+      "page": 2,
+      "stem": "Hassall's corpuscle",
+      "options": {
+        "A": "Concentric aggregation of white blood corpuscles",
+        "B": "Concentric aggregation of red blood corpuscles",
+        "C": "Concentric aggregation of epithelial reticular cells",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "8.Hassall's corpuscle a) Concentric aggregation of white blood corpuscles b) Concentric aggregation of red blood corpuscles c) Concentric aggregation of epithelial reticular cells d) None of the above answer c"
+    },
+    {
+      "q": 9,
+      "page": 2,
+      "stem": "One statement is correct",
+      "options": {
+        "A": "Blood thymus barrier separate the blood from the medulla",
+        "B": "The thymus does not filter lymph",
+        "C": "The thymus capillaries are of fenestrated type",
+        "D": "Hassall's corpuscle is one of mononuclear phagocytic system"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "9.One statement is correct a) Blood thymus barrier separate the blood from the medulla b) The thymus does not filter lymph c) The thymus capillaries are of fenestrated type d) Hassall's corpuscle is one of mononuclear phagocytic system answer b"
+    },
+    {
+      "q": 10,
+      "page": 2,
+      "stem": "Blood thymus barrier has the following characteristics EXCEPT",
+      "options": {
+        "A": "It separates the blood from the cortex",
+        "B": "It protects the developing T-lymphocytes from circulating antigens",
+        "C": "It has no direct or indirect role in the immune systems",
+        "D": "The blood capillaries are of continuous type"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "10.Blood thymus barrier has the following characteristics EXCEPT a) It separates the blood from the cortex b) It protects the developing T-lymphocytes from circulating antigens c) It has no direct or indirect role in the immune systems d) The blood capillaries are of continuous type answer c"
+    },
+    {
+      "q": 11,
+      "page": 2,
+      "stem": "The epithelial reticular cells in the thymus produce the followings EXCEPT",
+      "options": {
+        "A": "Prolactin",
+        "B": "Thymosin",
+        "C": "Thymopoietin",
+        "D": "None of the above"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "11.The epithelial reticular cells in the thymus produce the followings EXCEPT a) Prolactin b) Thymosin c) Thymopoietin d) None of the above answer a"
+    },
+    {
+      "q": 12,
+      "page": 2,
+      "stem": "The stroma of the lymph node consists of the followings",
+      "options": {
+        "A": "Connective tissue capsule",
+        "B": "Connective tissue trabeculae",
+        "C": "Network of reticular fibers",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "12.The stroma of the lymph node consists of the followings a) Connective tissue capsule b) Connective tissue trabeculae c) Network of reticular fibers d) All of the above answer d"
+    },
+    {
+      "q": 13,
+      "page": 2,
+      "stem": "ONE statement is NOT true",
+      "options": {
+        "A": "Primary lymphatic nodule has no plasma cells nor memory cells",
+        "B": "Secondary lymphatic nodules characterized by the germinal centers",
+        "C": "The germinal center is darker than the peripheral zone",
+        "D": "Secondary lymphatic nodules arise from the primary nodules"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "13.ONE statement is NOT true a) Primary lymphatic nodule has no plasma cells nor memory cells b) Secondary lymphatic nodules characterized by the germinal centers c) The germinal center is darker than the peripheral zone d) Secondary lymphatic nodules arise from the primary nodules answer c"
+    },
+    {
+      "q": 14,
+      "page": 3,
+      "stem": "The germinal center is more pale than the peripheral zone because",
+      "options": {
+        "A": "Its cells have heterochromatic nuclei",
+        "B": "It contains larger and less packed lymphocytes",
+        "C": "It contains smaller and packed lymphocytes",
+        "D": "Its cells have scanty cytoplasm"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "14.The germinal center is more pale than the peripheral zone because a) Its cells have heterochromatic nuclei b) It contains larger and less packed lymphocytes c) It contains smaller and packed lymphocytes d) Its cells have scanty cytoplasm answer b"
+    },
+    {
+      "q": 15,
+      "page": 3,
+      "stem": "Concerning lymph node, ONE statement is true",
+      "options": {
+        "A": "Secondary lymphatic nodules have no germinal centers",
+        "B": "Primary lymphatic nodules arise after exposure to the antigens",
+        "C": "Primary nodules are present in the medulla of the lymph nodes",
+        "D": "Secondary lymphatic nodules arise after exposure to the antigens"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "15.Concerning lymph node, ONE statement is true a) Secondary lymphatic nodules have no germinal centers b) Primary lymphatic nodules arise after exposure to the antigens c) Primary nodules are present in the medulla of the lymph nodes d) Secondary lymphatic nodules arise after exposure to the antigens answer d"
+    },
+    {
+      "q": 16,
+      "page": 3,
+      "stem": "Concerning lymph node, one statement is NOT correct",
+      "options": {
+        "A": "B-lymphocytes are abundant in the primary nodules",
+        "B": "T-lymphocytes are abundant in the outer cortex of the lymph nodes",
+        "C": "Secondary nodules are the site for B-cell differentiation",
+        "D": "No distinct boundaries between outer and inner cortex"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "16.Concerning lymph node, one statement is NOT correct a) B-lymphocytes are abundant in the primary nodules b) T-lymphocytes are abundant in the outer cortex of the lymph nodes c) Secondary nodules are the site for B-cell differentiation d) No distinct boundaries between outer and inner cortex answer b"
+    },
+    {
+      "q": 17,
+      "page": 3,
+      "stem": "Thymus dependent zones have the following characters EXCEPT",
+      "options": {
+        "A": "They are areas rich in T-lymphocytes",
+        "B": "They are present in the inner cortex of lymph nodes",
+        "C": "They are the sites for T-cell differentiation",
+        "D": "It forms the sheath of the lymphoid tissue in the spleen"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "17.Thymus dependent zones have the following characters EXCEPT a) They are areas rich in T-lymphocytes b) They are present in the inner cortex of lymph nodes c) They are the sites for T-cell differentiation d) It forms the sheath of the lymphoid tissue in the spleen answer c"
+    },
+    {
+      "q": 18,
+      "page": 3,
+      "stem": "The function/s of the lymph nodes is/are",
+      "options": {
+        "A": "Primary site for blood filtration",
+        "B": "Antigen recognition and B-lymphocyte differentiation",
+        "C": "T-lymphocytes differentiation",
+        "D": "All of the above"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "18.The function/s of the lymph nodes is/are a) Primary site for blood filtration b) Antigen recognition and B-lymphocyte differentiation c) T-lymphocytes differentiation d) All of the above answer b"
+    },
+    {
+      "q": 19,
+      "page": 3,
+      "stem": "Lymph nodes have",
+      "options": {
+        "A": "afferent lymphatic vessels that enter cortex of the node",
+        "B": "efferent lymphatic vessels that leave via the hilum.",
+        "C": "a cortical zone",
+        "D": "a medullary zone",
+        "E": "all of the above"
+      },
+      "answer": "E",
+      "confidence": "high",
+      "rawBlockText": "19.Lymph nodes have a) afferent lymphatic vessels that enter cortex of the node b) efferent lymphatic vessels that leave via the hilum. c) a cortical zone d) a medullary zone e) all of the above answer e"
+    },
+    {
+      "q": 20,
+      "page": 3,
+      "stem": "The cell mediated immune response is performed by",
+      "options": {
+        "A": "B lymphocytes.",
+        "B": "T lymphocytes.",
+        "C": "plasma cells.",
+        "D": "macrophages"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "20.The cell mediated immune response is performed by a) B lymphocytes. b) T lymphocytes. c) plasma cells. d) macrophages answer b"
+    },
+    {
+      "q": 21,
+      "page": 4,
+      "stem": "In the medullary zone of the lymph node",
+      "options": {
+        "A": "central arteriole",
+        "B": "Hassall 's bodies",
+        "C": "Lymphatic sinuses",
+        "D": "Lymphatic follicles"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "21.In the medullary zone of the lymph node a) central arteriole b) Hassall 's bodies c) Lymphatic sinuses d) Lymphatic follicles answer c"
+    },
+    {
+      "q": 23,
+      "page": 4,
+      "stem": "Histologically, the spleen has the following structures EXCEPT",
+      "options": {
+        "A": "Smooth muscle fibers",
+        "B": "Reticular cells and reticular fibers",
+        "C": "Outer cortex and inner medulla",
+        "D": "Thymus dependent zones"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "23.Histologically, the spleen has the following structures EXCEPT a) Smooth muscle fibers b) Reticular cells and reticular fibers c) Outer cortex and inner medulla d) Thymus dependent zones answer c"
+    },
+    {
+      "q": 24,
+      "page": 4,
+      "stem": "Which of the followings is NOT in the construction of the spleenic white pulp",
+      "options": {
+        "A": "Central arteriole",
+        "B": "Periarterial lymphatic sheath (PALS)",
+        "C": "Blood sinusoids",
+        "D": "Lymphatic nodules"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "24.Which of the followings is NOT in the construction of the spleenic white pulp a) Central arteriole b) Periarterial lymphatic sheath (PALS) c) Blood sinusoids d) Lymphatic nodules answer c"
+    },
+    {
+      "q": 25,
+      "page": 4,
+      "stem": "Marginal zone in the spleen",
+      "options": {
+        "A": "It is a thymus dependent zone",
+        "B": "It separates the lymphatic nodule from the Periarterial lymphatic sheath",
+        "C": "It separates the white pulp from the red pulp",
+        "D": "It is the blood thymus barrier"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "25.Marginal zone in the spleen a) It is a thymus dependent zone b) It separates the lymphatic nodule from the Periarterial lymphatic sheath c) It separates the white pulp from the red pulp d) It is the blood thymus barrier answer c"
+    },
+    {
+      "q": 26,
+      "page": 4,
+      "stem": "Marginal zone in the spleen consists of",
+      "options": {
+        "A": "Plasma cells",
+        "B": "B and T-lymphocytes",
+        "C": "Dendritic cells",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "26.Marginal zone in the spleen consists of a) Plasma cells b) B and T-lymphocytes c) Dendritic cells d) All of the above answer d"
+    },
+    {
+      "q": 27,
+      "page": 4,
+      "stem": "Cords of Billroth is another name for",
+      "options": {
+        "A": "Umbilical cord",
+        "B": "Spermatic cord",
+        "C": "Splenic cord",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "27.Cords of Billroth is another name for a) Umbilical cord b) Spermatic cord c) Splenic cord d) None of the above answer c"
+    },
+    {
+      "q": 28,
+      "page": 5,
+      "stem": "The splenic sinuses adapted for their function by the followings EXCEPT",
+      "options": {
+        "A": "The endothelial cells separated by narrow clefts",
+        "B": "Complete basal lamina around the sinus",
+        "C": "Littoral cells are present in & around wall of sinusoids",
+        "D": "They have wide lumen"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "28.The splenic sinuses adapted for their function by the followings EXCEPT a) The endothelial cells separated by narrow clefts b) Complete basal lamina around the sinus c) Littoral cells are present in & around wall of sinusoids d) They have wide lumen answer b"
+    },
+    {
+      "q": 29,
+      "page": 5,
+      "stem": "Closed circulation in the spleen means",
+      "options": {
+        "A": "Blood flow from the artery to the vein through the splenic sinuses",
+        "B": "Blood flow from the artery to the veins through the splenic cords",
+        "C": "Blood flow from the artery to the vein direct through blood capillaries",
+        "D": "None of the above"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "29.Closed circulation in the spleen means a) Blood flow from the artery to the vein through the splenic sinuses b) Blood flow from the artery to the veins through the splenic cords c) Blood flow from the artery to the vein direct through blood capillaries d) None of the above answer a"
+    },
+    {
+      "q": 30,
+      "page": 5,
+      "stem": "Open circulation in the spleen means",
+      "options": {
+        "A": "Blood flow from the artery to the vein through the splenic sinuses",
+        "B": "Blood flow from the artery to the veins through the splenic cords",
+        "C": "Blood flow from the artery to the vein direct through blood capillaries",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "30.Open circulation in the spleen means a) Blood flow from the artery to the vein through the splenic sinuses b) Blood flow from the artery to the veins through the splenic cords c) Blood flow from the artery to the vein direct through blood capillaries d) None of the above answer b"
+    },
+    {
+      "q": 31,
+      "page": 5,
+      "stem": "One of the followings is NOT a function of the spleen",
+      "options": {
+        "A": "Filtration of the lymph",
+        "B": "Filtration of the blood",
+        "C": "Recycling of the iron",
+        "D": "Hemopoiesis"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "31.One of the followings is NOT a function of the spleen a) Filtration of the lymph b) Filtration of the blood c) Recycling of the iron d) Hemopoiesis answer a"
+    },
+    {
+      "q": 32,
+      "page": 5,
+      "stem": "The function/s of the tonsils is/are",
+      "options": {
+        "A": "Filtration of the blood",
+        "B": "Filtration of the lymph",
+        "C": "Filtration of both the inspired air and the ingested food",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "32.The function/s of the tonsils is/are a) Filtration of the blood b) Filtration of the lymph c) Filtration of both the inspired air and the ingested food d) None of the above answer c"
+    },
+    {
+      "q": 33,
+      "page": 5,
+      "stem": "Palatine tonsils are covered with",
+      "options": {
+        "A": "Stratified squamous epithelium",
+        "B": "Stratified columnar epithelium",
+        "C": "Pseudo-stratified columnar ciliated epithelium",
+        "D": "None of the above"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "33.Palatine tonsils are covered with a) Stratified squamous epithelium b) Stratified columnar epithelium c) Pseudo-stratified columnar ciliated epithelium d) None of the above answer a"
+    },
+    {
+      "q": 34,
+      "page": 5,
+      "stem": "Palatine tonsils",
+      "options": {
+        "A": "are situated in the lateral wall of the oral pharynx",
+        "B": "possesses stratified epithelial invaginations in crypts",
+        "C": "are incompletely encapsulated by epithelium.",
+        "D": "are not divided into cortex and medulla",
+        "E": "all of the above"
+      },
+      "answer": "E",
+      "confidence": "high",
+      "rawBlockText": "34.Palatine tonsils a) are situated in the lateral wall of the oral pharynx b) possesses stratified epithelial invaginations in crypts c) are incompletely encapsulated by epithelium. d) are not divided into cortex and medulla e) all of the above answer e"
+    },
+    {
+      "q": 35,
+      "page": 6,
+      "stem": "Hassall 's (thymic) corpuscles",
+      "options": {
+        "A": "are found in the cortex of young individuals",
+        "B": "are found in the cortex of old individuals",
+        "C": "are found in the medulla of old individuals"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "35.Hassall 's (thymic) corpuscles a) are found in the cortex of young individuals b) are found in the cortex of old individuals c) are found in the medulla of old individuals answer c"
+    },
+    {
+      "q": 36,
+      "page": 6,
+      "stem": "In the medullary zone of the thymus you can find:",
+      "options": {
+        "A": "central arteriole",
+        "B": "Hassall 's bodies",
+        "C": "the site of thymus blood barrier",
+        "D": "lymphatic sinusoids",
+        "E": "lymphatic nodules"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "36.In the medullary zone of the thymus you can find: a) central arteriole b) Hassall 's bodies c) the site of thymus blood barrier d) lymphatic sinusoids e) lymphatic nodules answer b"
+    },
+    {
+      "q": 37,
+      "page": 6,
+      "stem": "T- lymphocytes:",
+      "options": {
+        "A": "are most numerous in blood.",
+        "B": "are most numerous in lymph",
+        "C": "are most numerous in the thymus.",
+        "D": "are most numerous in the lymph nodes.",
+        "E": "are most numerous in the spleen."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "37.T- lymphocytes: a) are most numerous in blood. b) are most numerous in lymph c) are most numerous in the thymus. d) are most numerous in the lymph nodes. e) are most numerous in the spleen. answer c"
+    },
+    {
+      "q": 38,
+      "page": 6,
+      "stem": "Hassall 's corpuscles",
+      "options": {
+        "A": "are found in the cortex of young individuals",
+        "B": "are found in the cortex of old individuals",
+        "C": "are derived from mesoderm",
+        "D": "are found in the medulla of old individuals",
+        "E": "are derived from ectoderm"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "38.Hassall 's corpuscles a) are found in the cortex of young individuals b) are found in the cortex of old individuals c) are derived from mesoderm d) are found in the medulla of old individuals e) are derived from ectoderm answer d"
+    },
+    {
+      "q": 40,
+      "page": 6,
+      "stem": "The human thymus:",
+      "options": {
+        "A": "after puberty typically shows gradual involution, accompanied by replacement of lymphoid tissue by connective and adipose tissues.",
+        "B": "contains thymic corpuscles consisting of concentric layers of epithelial reticular cells.",
+        "C": "contains widespread macrophages that can be seen to have engulfed degenerating cells.",
+        "D": "attains its greatest relative size by the time of birth.",
+        "E": "all of the above"
+      },
+      "answer": "E",
+      "confidence": "high",
+      "rawBlockText": "40.The human thymus: a) after puberty typically shows gradual involution, accompanied by replacement of lymphoid tissue by connective and adipose tissues. b) contains thymic corpuscles consisting of concentric layers of epithelial reticular cells. c) contains widespread macrophages that can be seen to have engulfed degenerating cells. d) attains its greatest relative size by the time of birth. e) all of the above answer e"
+    },
+    {
+      "q": 41,
+      "page": 7,
+      "stem": "The thymus possesses",
+      "options": {
+        "A": "afferent lymphatic vessels",
+        "B": "lymphatic nodules",
+        "C": "Hassall 's (thymic) corpuscles",
+        "D": "central arteriole",
+        "E": "All of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "41. The thymus possesses a) afferent lymphatic vessels b) lymphatic nodules c) Hassall 's (thymic) corpuscles d) central arteriole e) All of the above answer c"
+    },
+    {
+      "q": 43,
+      "page": 7,
+      "stem": "Epithelial reticular cells of the thymus",
+      "options": {
+        "A": "are found in the stroma of the thymus",
+        "B": "participate in the formation of blood-thymus barrier",
+        "C": "are derived from endoderm",
+        "D": "may secrete thymus hormones",
+        "E": "all of the above"
+      },
+      "answer": "E",
+      "confidence": "high",
+      "rawBlockText": "43. Epithelial reticular cells of the thymus a) are found in the stroma of the thymus b) participate in the formation of blood-thymus barrier c) are derived from endoderm d) may secrete thymus hormones e) all of the above answer e"
+    },
+    {
+      "q": 44,
+      "page": 7,
+      "stem": "Epithelial reticular cells of the thymus",
+      "options": {
+        "A": "are found in all lymphoid tissues",
+        "B": "are derived from mesoderm",
+        "C": "are derived from endoderm",
+        "D": "has no secretory function",
+        "E": "all of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "44. Epithelial reticular cells of the thymus a) are found in all lymphoid tissues b) are derived from mesoderm c) are derived from endoderm d) has no secretory function e) all of the above answer c"
+    },
+    {
+      "q": 45,
+      "page": 7,
+      "stem": "Thymus dependent zone is present in:",
+      "options": {
+        "A": "periarteriolar lymphatic sheath",
+        "B": "paracortex",
+        "C": "red pulp",
+        "D": "both a & b are correct"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "45.Thymus dependent zone is present in: a. periarteriolar lymphatic sheath b. paracortex c. red pulp d. both a & b are correct answer d"
+    },
+    {
+      "q": 56,
+      "page": 9,
+      "stem": "In the medullary zone of the lymph node",
+      "options": {
+        "A": "Blood sinuses",
+        "B": "Lymphatic sinuses",
+        "C": "Lymphatic cords",
+        "D": "both b & c"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "56.In the medullary zone of the lymph node a. Blood sinuses b. Lymphatic sinuses c. Lymphatic cords d. both b & c answer d"
+    },
+    {
+      "q": 57,
+      "page": 9,
+      "stem": "Cords of Billroth is formed of which of the following except:",
+      "options": {
+        "A": "RBCs & platelets",
+        "B": "macrophages",
+        "C": "reticular cells",
+        "D": "plasma cells",
+        "E": "lymphocytes"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "57.Cords of Billroth is formed of which of the following except: a. RBCs & platelets b. macrophages c. reticular cells d. plasma cells e. lymphocytes answer c"
+    },
+    {
+      "q": 58,
+      "page": 9,
+      "stem": "1ry lymphoid organs include:",
+      "options": {
+        "A": "Lymph node",
+        "B": "Tonsils",
+        "C": "Spleen",
+        "D": "Bone marrow & thymus"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "58. 1ry lymphoid organs include: a. Lymph node b. Tonsils c. Spleen d. Bone marrow & thymus answer d"
+    },
+    {
+      "q": 59,
+      "page": 9,
+      "stem": "2ry lymphoid follicles, all true except:",
+      "options": {
+        "A": "Contain germinal pale centre",
+        "B": "Contain B lymphocytes",
+        "C": "Inactive follicle",
+        "D": "Active follicle"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "59. 2ry lymphoid follicles, all true except: a. Contain germinal pale centre b. Contain B lymphocytes c. Inactive follicle d. Active follicle answer c"
+    },
+    {
+      "q": 60,
+      "page": 10,
+      "stem": "palatine tonsils are present in:",
+      "options": {
+        "A": "Oropharynx",
+        "B": "Base of tongue",
+        "C": "Soft palate",
+        "D": "Nasopharynx"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "60. palatine tonsils are present in: a. Oropharynx b. Base of tongue c. Soft palate d. Nasopharynx answer a"
+    },
+    {
+      "q": 61,
+      "page": 10,
+      "stem": "pharyngeal tonsil is present in:",
+      "options": {
+        "A": "Oropharynx",
+        "B": "Base of tongue",
+        "C": "Soft palate",
+        "D": "Nasopharynx"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "61. pharyngeal tonsil is present in: a. Oropharynx b. Base of tongue c. Soft palate d. Nasopharynx answer d"
+    },
+    {
+      "q": 62,
+      "page": 10,
+      "stem": "Lingual tonsils are present in:",
+      "options": {
+        "A": "Oropharynx",
+        "B": "Base of tongue",
+        "C": "Soft palate",
+        "D": "Nasopharynx"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "62. Lingual tonsils are present in: a. Oropharynx b. Base of tongue c. Soft palate d. Nasopharynx answer b"
+    },
+    {
+      "q": 63,
+      "page": 10,
+      "stem": "B lymphocytes are arranged in the cortex of lymph node in form of:",
+      "options": {
+        "A": "Cords",
+        "B": "Follicles",
+        "C": "Sinuses",
+        "D": "Reticulum"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "63. B lymphocytes are arranged in the cortex of lymph node in form of: a. Cords b. Follicles c. Sinuses d. Reticulum answer b"
+    },
+    {
+      "q": 65,
+      "page": 10,
+      "stem": "Thymus dependent zone in lymph node is:",
+      "options": {
+        "A": "Cortex",
+        "B": "Medulla",
+        "C": "Deep (para) cortex",
+        "D": "Corticomedullary junctions"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "65.Thymus dependent zone in lymph node is: a. Cortex b. Medulla c. Deep (para) cortex d. Corticomedullary junctions answer c"
+    },
+    {
+      "q": 66,
+      "page": 11,
+      "stem": "Post capillary venules are present in:",
+      "options": {
+        "A": "Cortex of lymph node",
+        "B": "Medulla of lymph node",
+        "C": "Deep (para) cortex",
+        "D": "Tonsils"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "66. Post capillary venules are present in: a. Cortex of lymph node b. Medulla of lymph node c. Deep (para) cortex d. Tonsils answer c"
+    },
+    {
+      "q": 67,
+      "page": 11,
+      "stem": "All the following are 2ry lymphatic organs except:",
+      "options": {
+        "A": "Palatine tonsils",
+        "B": "Spleen",
+        "C": "Lymph nodes",
+        "D": "Bone marrow"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "67.All the following are 2ry lymphatic organs except: a. Palatine tonsils b. Spleen c. Lymph nodes d. Bone marrow answer D"
+    },
+    {
+      "q": 69,
+      "page": 11,
+      "stem": "Choose the correct statement about lymph node functions:",
+      "options": {
+        "A": "Formation and recirculation of lymphocytes.",
+        "B": "Filtration of blood.",
+        "C": "Formation of blood platelets.",
+        "D": "Storage of blood cells."
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "69.Choose the correct statement about lymph node functions: a. Formation and recirculation of lymphocytes. b. Filtration of blood. c. Formation of blood platelets. d. Storage of blood cells. Answer a"
+    },
+    {
+      "q": 70,
+      "page": 11,
+      "stem": "Concerning the paracortex of lymph node, choose the correct statement:",
+      "options": {
+        "A": "Is the area between white pulp& the Billroth cords.",
+        "B": "Contains B-lymphocytes.",
+        "C": "Its post-capillary venules are lined with simple cubical epithelium.",
+        "D": "Is lined with plasma cells and macrophages"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "70.Concerning the paracortex of lymph node, choose the correct statement: a. Is the area between white pulp& the Billroth cords. b. Contains B-lymphocytes. c. Its post-capillary venules are lined with simple cubical epithelium. d. Is lined with plasma cells and macrophages Answer c"
+    },
+    {
+      "q": 71,
+      "page": 11,
+      "stem": "Adenoid is",
+      "options": {
+        "A": "Hypertrophy of lingual tonsil",
+        "B": "Hypertrophy of pharyngeal tonsil",
+        "C": "Hypertrophy of palatine tonsil",
+        "D": "Hypertrophy of Peyer's patch"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "71.Adenoid is a. Hypertrophy of lingual tonsil b. Hypertrophy of pharyngeal tonsil c. Hypertrophy of palatine tonsil d. Hypertrophy of Peyer's patch answer b"
+    },
+    {
+      "q": 73,
+      "page": 12,
+      "stem": "Palatine tonsils are covered with",
+      "options": {
+        "A": "Stratified squamous epithelium",
+        "B": "Stratified columnar epithelium",
+        "C": "Pseudo-stratified columnar ciliated epithelium",
+        "D": "None of the above"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "73.Palatine tonsils are covered with a. Stratified squamous epithelium b. Stratified columnar epithelium c. Pseudo-stratified columnar ciliated epithelium d. None of the above answer a"
+    },
+    {
+      "q": 74,
+      "page": 12,
+      "stem": "Palatine tonsils",
+      "options": {
+        "A": "are situated in the oral pharynx",
+        "B": "possesses stratified epithelial invaginations in crypts",
+        "C": "are not divided into cortex and medulla",
+        "D": "all of the above"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "74.Palatine tonsils a. are situated in the oral pharynx b. possesses stratified epithelial invaginations in crypts c. are not divided into cortex and medulla d. all of the above answer d"
+    },
+    {
+      "q": 75,
+      "page": 12,
+      "stem": "Choose the correct statement about pharyngeal tonsil:",
+      "options": {
+        "A": "Has tonsillar crypts.",
+        "B": "Covering epithelium Is pseudo-stratified columnar with goblet cells.",
+        "C": "Present in the lateral wall of oropharynx.",
+        "D": "Protects digestive system against foreign invaders."
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "75.Choose the correct statement about pharyngeal tonsil: a. Has tonsillar crypts. b. Covering epithelium Is pseudo-stratified columnar with goblet cells. c. Present in the lateral wall of oropharynx. d. Protects digestive system against foreign invaders. Answer b"
+    },
+    {
+      "q": 76,
+      "page": 12,
+      "stem": "Concerning palatine tonsils, which of the following is correct?",
+      "options": {
+        "A": "Present under the mucus membrane of the nasopharynx.",
+        "B": "Covered with keratinized stratified squamous epithelium.",
+        "C": "Mucous glands open into the bases of crypts.",
+        "D": "Lymphatic tissue is formed of lymphatic nodules and diffuse lymphatic tissue."
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "76.Concerning palatine tonsils, which of the following is correct? a. Present under the mucus membrane of the nasopharynx. b. Covered with keratinized stratified squamous epithelium. c. Mucous glands open into the bases of crypts. d. Lymphatic tissue is formed of lymphatic nodules and diffuse lymphatic tissue. Answer d"
+    },
+    {
+      "q": 77,
+      "page": 12,
+      "stem": "The lingual tonsils are not commonly Inflamed because",
+      "options": {
+        "A": "They are located at the base of the tongue away from microorganisms",
+        "B": "Their covering epithelium is protective",
+        "C": "Ducts of their mucous glands open at the surface epithelium to wash microorganisms",
+        "D": "Ducts of their mucous glands open at the base of the crypts"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "77.The lingual tonsils are not commonly Inflamed because a. They are located at the base of the tongue away from microorganisms b. Their covering epithelium is protective c. Ducts of their mucous glands open at the surface epithelium to wash microorganisms d. Ducts of their mucous glands open at the base of the crypts Answer d"
+    },
+    {
+      "q": 1,
+      "page": 13,
+      "stem": "The life cycle of the cell",
+      "options": {
+        "A": "includes an interphase and a complete cell division",
+        "B": "is the period between two cell divisions",
+        "C": "is divided into three phases G1, S & G2 phases",
+        "D": "includes prophase, metaphase, anaphase and telophase"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "1.The life cycle of the cell a) includes an interphase and a complete cell division b) is the period between two cell divisions c) is divided into three phases G1, S & G2 phases d) includes prophase, metaphase, anaphase and telophase answer a"
+    },
+    {
+      "q": 2,
+      "page": 13,
+      "stem": "The following statements concerning the apoptosis are true EXCEPT",
+      "options": {
+        "A": "Active cell death",
+        "B": "Programmed cell death",
+        "C": "Normal death in life spanned cells",
+        "D": "A form of necrosis"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "2. The following statements concerning the apoptosis are true EXCEPT a) Active cell death b) Programmed cell death c) Normal death in life spanned cells d) A form of necrosis answer d"
+    },
+    {
+      "q": 3,
+      "page": 13,
+      "stem": "The centrioles are duplicated during",
+      "options": {
+        "A": "synthesis (S) stage of interphase",
+        "B": "Gap two (G2) stage of interphase",
+        "C": "Gap one (G1) stage of interphase",
+        "D": "meiosis",
+        "E": "leptotene stage"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "3.The centrioles are duplicated during a)  synthesis (S) stage of interphase b)  Gap two (G2) stage of interphase c)  Gap one (G1) stage of interphase d)  meiosis e)  leptotene stage answer a"
+    },
+    {
+      "q": 4,
+      "page": 13,
+      "stem": "The cell undergoes duplication of its nuclear DNA at",
+      "options": {
+        "A": "synthesis (S) stage of interphase",
+        "B": "Gap two (G2) stage of interphase",
+        "C": "Gap one (G1) stage of interphase",
+        "D": "metaphase stage of mitosis",
+        "E": "meiosis"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "4. The cell undergoes duplication of its nuclear DNA at a)  synthesis (S) stage of interphase b)  Gap two (G2) stage of interphase c)  Gap one (G1) stage of interphase d)  metaphase stage of mitosis e) meiosis answer a"
+    },
+    {
+      "q": 5,
+      "page": 13,
+      "stem": "In normal conditions, highly specialized cells",
+      "options": {
+        "A": "can divide",
+        "B": "usually divide",
+        "C": "have no capacity for further proliferation",
+        "D": "are in G2 phase of the cell",
+        "E": "none of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "5.In normal conditions, highly specialized cells a)  can divide b)  usually divide c)  have no capacity for further proliferation d)  are in G2 phase of the cell e)  none of the above answer c"
+    },
+    {
+      "q": 6,
+      "page": 13,
+      "stem": "The number of autosomes in human somatic cell is",
+      "options": {
+        "A": "22 chromosomes",
+        "B": "22 pairs of identical chromosomes",
+        "C": "23 chromosomes",
+        "D": "23 pairs of identical chromosomes",
+        "E": "46 pairs of chromosomes"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "6. The number of autosomes in human somatic cell is a)  22 chromosomes b)  22 pairs of identical chromosomes c)  23 chromosomes d)  23 pairs of identical chromosomes e)  46 pairs of chromosomes answer b"
+    },
+    {
+      "q": 7,
+      "page": 14,
+      "stem": "Sub-metacentric chromosomes have",
+      "options": {
+        "A": "centromere located near the center",
+        "B": "centromere located median in position",
+        "C": "centromere located near one end",
+        "D": "none of the above"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "7. Sub-metacentric chromosomes have a)  centromere located near the center b)  centromere located median in position c)  centromere located near one end d)  none of the above answer a"
+    },
+    {
+      "q": 8,
+      "page": 14,
+      "stem": "In acrocentric chromosomes the centromere is",
+      "options": {
+        "A": "absent",
+        "B": "terminal",
+        "C": "median",
+        "D": "submedian",
+        "E": "subterminal"
+      },
+      "answer": "E",
+      "confidence": "high",
+      "rawBlockText": "8. In acrocentric chromosomes the centromere is a)  absent b)  terminal c)  median d)  submedian e)  subterminal answer e"
+    },
+    {
+      "q": 9,
+      "page": 14,
+      "stem": "In metacentric chromosomes the centromere is",
+      "options": {
+        "A": "absent",
+        "B": "terminal",
+        "C": "median",
+        "D": "submedian",
+        "E": "subterminal"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "9. In metacentric chromosomes the centromere is a)  absent b)  terminal c)  median d)  submedian e)  subterminal answer c"
+    },
+    {
+      "q": 10,
+      "page": 14,
+      "stem": "Duplication of DNA and centriole takes place in",
+      "options": {
+        "A": "G0 phase",
+        "B": "G1 phase",
+        "C": "G2 phase",
+        "D": "S phase"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "10.Duplication of DNA and centriole takes place in a) G0 phase b) G1 phase c) G2 phase d) S phase answer d"
+    },
+    {
+      "q": 11,
+      "page": 14,
+      "stem": "During G2",
+      "options": {
+        "A": "DNA duplication occur",
+        "B": "The chromosomes are formed of 2 chromatids",
+        "C": "The amount of DNA is 4 N",
+        "D": "The cells synthesize RNA and proteins essential for cell division"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "11. During G2 a) DNA duplication occur b) The chromosomes are formed of 2 chromatids c) The amount of DNA is 4 N d) The cells synthesize RNA and proteins essential for cell division answer d"
+    },
+    {
+      "q": 12,
+      "page": 14,
+      "stem": "In the metaphase stage",
+      "options": {
+        "A": "The nuclear membrane disappears",
+        "B": "The chromosomes arranged in equatorial plane",
+        "C": "The mitotic spindle elongated",
+        "D": "All of the above"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "12. In the metaphase stage a) The nuclear membrane disappears b) The chromosomes arranged in equatorial plane c) The mitotic spindle elongated d) All of the above answer b"
+    },
+    {
+      "q": 13,
+      "page": 14,
+      "stem": "Concerning prophase, all the following statements are true EXCEPT",
+      "options": {
+        "A": "Two centrioles pairs migrate to the opposite poles",
+        "B": "Mitotic spindle starts to appear",
+        "C": "Chromosomes start to condense",
+        "D": "Cytoplasmic furrow develops"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "13. Concerning prophase, all the following statements are true EXCEPT a) Two centrioles pairs migrate to the opposite poles b) Mitotic spindle starts to appear c) Chromosomes start to condense d) Cytoplasmic furrow develops answer d"
+    },
+    {
+      "q": 14,
+      "page": 15,
+      "stem": "Stem cells are cells that",
+      "options": {
+        "A": "Stay in G0",
+        "B": "Can return to the cell cycle",
+        "C": "Can differentiate to progenitor cells",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "14. Stem cells are cells that a) Stay in G0 b) Can return to the cell cycle c) Can differentiate to progenitor cells d) All of the above answer d"
+    },
+    {
+      "q": 15,
+      "page": 15,
+      "stem": "Heart muscle cells are",
+      "options": {
+        "A": "Potentially renewing cells",
+        "B": "Continually renewing cells",
+        "C": "Non renewing cells",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "15.Heart muscle cells are a) Potentially renewing cells b) Continually renewing cells c) Non renewing cells d) None of the above answer c"
+    },
+    {
+      "q": 16,
+      "page": 15,
+      "stem": "Diakinesis is",
+      "options": {
+        "A": "Last stage in prophase of the1st meiotic division",
+        "B": "Last stage in 2nd meiotic division",
+        "C": "Last stage of the prophase of mitosis"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "16.Diakinesis is a) Last stage in prophase of the1st meiotic division b) Last stage in 2nd meiotic division c) Last stage of the prophase of mitosis answer a"
+    },
+    {
+      "q": 17,
+      "page": 15,
+      "stem": "When liver partially removed",
+      "options": {
+        "A": "Stem cell restore the depleted cells",
+        "B": "Liver cells divide to restore the depleted cells",
+        "C": "It cannot restore its cells",
+        "D": "It is replaced by connective tissue"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "17. When liver partially removed a) Stem cell restore the depleted cells b) Liver cells divide to restore the depleted cells c) It cannot restore its cells d) It is replaced by connective tissue answer b"
+    },
+    {
+      "q": 18,
+      "page": 15,
+      "stem": "Following stem cells are multipotential EXCEPT",
+      "options": {
+        "A": "Blood stem cells",
+        "B": "Spermatogenic cells",
+        "C": "Small intestine stem cells",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "18. Following stem cells are multipotential EXCEPT a) Blood stem cells b) Spermatogenic cells c) Small intestine stem cells d) None of the above answer b"
+    },
+    {
+      "q": 19,
+      "page": 15,
+      "stem": "Pluripotential cells means",
+      "options": {
+        "A": "Cells that give one type of cells",
+        "B": "Cells that give all types of cells",
+        "C": "Cells that can give many types of cells",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "19. Pluripotential cells means a) Cells that give one type of cells b) Cells that give all types of cells c) Cells that can give many types of cells d) None of the above answer c"
+    },
+    {
+      "q": 20,
+      "page": 15,
+      "stem": "Chiasmata is",
+      "options": {
+        "A": "Crossing of homologous chromosomes over one another",
+        "B": "Breakage of chromosomes at certain sites",
+        "C": "A character of zygotene",
+        "D": "The exchange of genetic material"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "20. Chiasmata is a) Crossing of homologous chromosomes over one another b) Breakage of chromosomes at certain sites c) A character of zygotene d) The exchange of genetic material answer a"
+    },
+    {
+      "q": 21,
+      "page": 15,
+      "stem": "Nerve cells",
+      "options": {
+        "A": "Are highly differentiated cells",
+        "B": "Cannot divide",
+        "C": "Have no stem cells",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "21. Nerve cells a) Are highly differentiated cells b) Cannot divide c) Have no stem cells d) All of the above answer d"
+    },
+    {
+      "q": 22,
+      "page": 16,
+      "stem": "Gametes (sperms and ova) are",
+      "options": {
+        "A": "The end product of the mitotic division",
+        "B": "Cells which have diploid amount of DNA",
+        "C": "Cells which have diploid number of chromosomes",
+        "D": "None of the above"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "22. Gametes (sperms and ova) are a) The end product of the mitotic division b) Cells which have diploid amount of DNA c) Cells which have diploid number of chromosomes d) None of the above answer d"
+    },
+    {
+      "q": 23,
+      "page": 16,
+      "stem": "In all types of cell division, migration of chromosomes starts in",
+      "options": {
+        "A": "Prophase",
+        "B": "Metaphase",
+        "C": "Anaphase"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "23. In all types of cell division, migration of chromosomes starts in a) Prophase b) Metaphase c) Anaphase answer c"
+    },
+    {
+      "q": 24,
+      "page": 16,
+      "stem": "Nuclear envelope disappears in prophase and reconstituted in",
+      "options": {
+        "A": "Anaphase",
+        "B": "Prophase",
+        "C": "Telophase",
+        "D": "After the end of mitosis"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "24. Nuclear envelope disappears in prophase and reconstituted in a) Anaphase b) Prophase c) Telophase d) After the end of mitosis answer c"
+    },
+    {
+      "q": 25,
+      "page": 16,
+      "stem": "In all divisions the chromosome splits into two chromatids Except in",
+      "options": {
+        "A": "1st meiotic division",
+        "B": "2nd meiotic division",
+        "C": "Mitosis"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "25. In all divisions the chromosome splits into two chromatids Except in a) 1st meiotic division b) 2nd meiotic division c) Mitosis answer a"
+    },
+    {
+      "q": 26,
+      "page": 16,
+      "stem": "Meiosis produces haploid cells (23 chromosomes) because",
+      "options": {
+        "A": "It consists of two successive division",
+        "B": "One cell produces 4 cells",
+        "C": "It consists of two successive divisions without S phase",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "26. Meiosis produces haploid cells (23 chromosomes) because a) It consists of two successive division b) One cell produces 4 cells c) It consists of two successive divisions without S phase d) None of the above answer c"
+    },
+    {
+      "q": 27,
+      "page": 16,
+      "stem": "In meiosis exchange of genetic materials occurs in",
+      "options": {
+        "A": "Anaphase of 1st meiotic division",
+        "B": "Prophase of 2nd meiotic division",
+        "C": "Prophase of 1st meiotic division",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "27. In meiosis exchange of genetic materials occurs in a) Anaphase of 1st meiotic division b) Prophase of 2nd meiotic division c) Prophase of 1st meiotic division d) None of the above answer c"
+    },
+    {
+      "q": 28,
+      "page": 16,
+      "stem": "Human somatic cells have",
+      "options": {
+        "A": "22 autosomes and one pair of sex chromosomes",
+        "B": "22 pairs of autosomes and two sex chromosomes",
+        "C": "A or B",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "28. Human somatic cells have a) 22 autosomes and one pair of sex chromosomes b) 22 pairs of autosomes and two sex chromosomes c) A or B d) None of the above answer b"
+    },
+    {
+      "q": 29,
+      "page": 17,
+      "stem": "Triploidy is a form of",
+      "options": {
+        "A": "Euploidy",
+        "B": "Aneuploidy",
+        "C": "Trisomy",
+        "D": "Monosomy"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "29.Triploidy is a form of a) Euploidy b) Aneuploidy c) Trisomy d) Monosomy answer a"
+    },
+    {
+      "q": 30,
+      "page": 17,
+      "stem": "Tetraploidy is a form of",
+      "options": {
+        "A": "Trisomy",
+        "B": "Aneuploidy",
+        "C": "Euploidy",
+        "D": "Monosomy"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "30. Tetraploidy is a form of a) Trisomy b) Aneuploidy c) Euploidy d) Monosomy answer c"
+    },
+    {
+      "q": 31,
+      "page": 17,
+      "stem": "Monosomy is a form of",
+      "options": {
+        "A": "Euploidy",
+        "B": "Aneuploidy",
+        "C": "Trisomy",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "31. Monosomy is a form of a) Euploidy b) Aneuploidy c) Trisomy d) None of the above answer b"
+    },
+    {
+      "q": 32,
+      "page": 17,
+      "stem": "Trisomy is a form of",
+      "options": {
+        "A": "Polyploidy",
+        "B": "Aneuploidy",
+        "C": "Monosomy",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "32. Trisomy is a form of a) Polyploidy b) Aneuploidy c) Monosomy d) None of the above answer b"
+    },
+    {
+      "q": 33,
+      "page": 17,
+      "stem": "Trisomy of",
+      "options": {
+        "A": "Chromosome 21 = Down syndrome",
+        "B": "Chromosome Y = Klinefelter syndrome",
+        "C": "Chromosome 5 = cri du cat syndrome",
+        "D": "Chromosome X = Turner syndrome"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "33.Trisomy of a) Chromosome 21 = Down syndrome b) Chromosome Y = Klinefelter syndrome c) Chromosome 5 = cri du cat syndrome d) Chromosome X = Turner syndrome answer a"
+    },
+    {
+      "q": 9,
+      "page": 26,
+      "stem": "Concerning Medium sized veins, all are true except",
+      "options": {
+        "A": "have valves",
+        "B": "have well developed tunica media",
+        "C": "have well developed tunica adventitia",
+        "D": "contain collagen fibers"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": " 9.Concerning Medium sized veins, all are true except a. have valves b. have well developed tunica media c. have well developed tunica adventitia d. contain collagen fibers answer b"
+    },
+    {
+      "q": 12,
+      "page": 26,
+      "stem": "Blood Sinusoids characterized by the following except:",
+      "options": {
+        "A": "Dilated & irregular",
+        "B": "Endothelial cells are separated",
+        "C": "Discontinuous basement membrane.",
+        "D": "Present in skeletal muscle."
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "12. Blood Sinusoids characterized by the following except: a. Dilated & irregular b. Endothelial cells are separated c. Discontinuous basement membrane. d. Present in skeletal muscle. Answer d"
+    },
+    {
+      "q": 13,
+      "page": 26,
+      "stem": "The thickest layer in medium sized arteries:",
+      "options": {
+        "A": "Intima",
+        "B": "Media",
+        "C": "Adventitia",
+        "D": "Submucosa"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "13. The thickest layer in medium sized arteries: a. Intima b. Media c. Adventitia d. Submucosa Answer b"
+    },
+    {
+      "q": 14,
+      "page": 27,
+      "stem": "The thickest layer in medium sized veins:",
+      "options": {
+        "A": "Intima",
+        "B": "Media",
+        "C": "Adventitia",
+        "D": "Submucosa"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "14. The thickest layer in medium sized veins: a. Intima b. Media c. Adventitia d. Submucosa Answer c"
+    },
+    {
+      "q": 15,
+      "page": 27,
+      "stem": "Internal elastic lamina is present in:",
+      "options": {
+        "A": "Medium sized vein",
+        "B": "Medium sized artery",
+        "C": "Blood capillaries",
+        "D": "Blood sinusoids"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "15. Internal elastic lamina is present in: a. Medium sized vein b. Medium sized artery c. Blood capillaries d. Blood sinusoids Answer b"
+    },
+    {
+      "q": 16,
+      "page": 27,
+      "stem": "Fenestrated blood capillaries are present in:",
+      "options": {
+        "A": "Skin",
+        "B": "Brain",
+        "C": "Skeletal muscles",
+        "D": "Kidney, small intestine & endocrine glands"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "16. Fenestrated blood capillaries are present in: a. Skin b. Brain c. Skeletal muscles d. Kidney, small intestine & endocrine glands Answer d"
+    },
+    {
+      "q": 17,
+      "page": 27,
+      "stem": "Blood sinusoids are present in the following except:",
+      "options": {
+        "A": "Bone marrow",
+        "B": "Spleen",
+        "C": "Liver",
+        "D": "Small intestine"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "17. Blood sinusoids are present in the following except: a. Bone marrow b. Spleen c. Liver d. Small intestine Answer d"
+    },
+    {
+      "q": 18,
+      "page": 27,
+      "stem": "Blood sinusoids of bone marrow are characterized by which of the following:",
+      "options": {
+        "A": "Are regular blood channels.",
+        "B": "Are narrow blood channels.",
+        "C": "Lined with continuous endothelial cells.",
+        "D": "Have discontinuous basement membrane,",
+        "E": "Have continuous basement membrane."
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "18. Blood sinusoids of bone marrow are characterized by which of the following: a. Are regular blood channels. b. Are narrow blood channels. c. Lined with continuous endothelial cells. d. Have discontinuous basement membrane, e. Have continuous basement membrane. Answer d"
+    },
+    {
+      "q": 19,
+      "page": 27,
+      "stem": "Blood sinusoids are characterized by the following except:",
+      "options": {
+        "A": "Have fenestrated endothelium",
+        "B": "Show wide intercellular clefts",
+        "C": "Have continuous basement membrane",
+        "D": "Wider than capillaries"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "19.Blood sinusoids are characterized by the following except: a. Have fenestrated endothelium b. Show wide intercellular clefts c. Have continuous basement membrane d. Wider than capillaries Answer C"
+    },
+    {
+      "q": 20,
+      "page": 27,
+      "stem": "Skeletal muscles have the following type of blood capillaries:",
+      "options": {
+        "A": "Continuous",
+        "B": "Fenestrated",
+        "C": "Sinusoidal",
+        "D": "Discontinuous"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "20.Skeletal muscles have the following type of blood capillaries: a. Continuous b. Fenestrated c. Sinusoidal d. Discontinuous Answer A"
+    },
+    {
+      "q": 21,
+      "page": 28,
+      "stem": "Regarding glomerular capillaries, all true except:",
+      "options": {
+        "A": "Are fenestrated",
+        "B": "Have continuous thick basement membrane",
+        "C": "Fenestrae are closed by diaphragm",
+        "D": "Fenestrae are not closed by diaphragm"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "21.Regarding glomerular capillaries, all true except: a. Are fenestrated b. Have continuous thick basement membrane c. Fenestrae are closed by diaphragm d. Fenestrae are not closed by diaphragm Answer C"
+    },
+    {
+      "q": 22,
+      "page": 28,
+      "stem": "Longitudinal smooth muscle fibers are present in the adventitia of:",
+      "options": {
+        "A": "Medium sized artery",
+        "B": "Aorta",
+        "C": "Inferior vena cava",
+        "D": "Medium sized vein"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "22.Longitudinal smooth muscle fibers are present in the adventitia of: a. Medium sized artery b. Aorta c. Inferior vena cava d. Medium sized vein answer C"
+    },
+    {
+      "q": 23,
+      "page": 28,
+      "stem": "Vasa vasora are found in:",
+      "options": {
+        "A": "Tunica media of small blood vessels",
+        "B": "Tunica adventitia of large blood vessels",
+        "C": "Tunica intima of small blood vessels",
+        "D": "Tunica intima of large blood vessels"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "23.Vasa vasora are found in: a. Tunica media of small blood vessels b. Tunica adventitia of large blood vessels c. Tunica intima of small blood vessels d. Tunica intima of large blood vessels Answer B"
+    },
+    {
+      "q": 24,
+      "page": 28,
+      "stem": "Cell surround blood capillaries:",
+      "options": {
+        "A": "Pericyte",
+        "B": "Plasma cells",
+        "C": "Mast cells",
+        "D": "Fibroblasts"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "24.Cell surround blood capillaries: a. Pericyte b. Plasma cells c. Mast cells d. Fibroblasts answer A"
+    },
+    {
+      "q": 25,
+      "page": 28,
+      "stem": "In the heart tunica intima is called:",
+      "options": {
+        "A": "Epicardium",
+        "B": "Endocardium",
+        "C": "Pericardium",
+        "D": "Mesothelium"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "25.In the heart tunica intima is called: a. Epicardium b. Endocardium c. Pericardium d. Mesothelium answer B"
+    },
+    {
+      "q": 26,
+      "page": 28,
+      "stem": "thick media with prominent fenestrated elastic membranes are present in:",
+      "options": {
+        "A": "blood sinusoids",
+        "B": "inferior vena cava",
+        "C": "medium sized vein",
+        "D": "aorta"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "26.thick media with prominent fenestrated elastic membranes are present in: a. blood sinusoids b. inferior vena cava c. medium sized vein d. aorta Answer D"
+    },
+    {
+      "q": 27,
+      "page": 28,
+      "stem": "Vasa vasorum :",
+      "options": {
+        "A": "Blood supply of the of the blood vessels",
+        "B": "Blood supply of the cardiac muscle",
+        "C": "Blood supply of lymph node",
+        "D": "Blood supply of the brain and spinal cord"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "rawBlockText": "27.Vasa vasorum : a. Blood supply of the of the blood vessels b. Blood supply of the cardiac muscle c. Blood supply of lymph node d. Blood supply of the brain and spinal cord Answer A"
+    },
+    {
+      "q": 28,
+      "page": 29,
+      "stem": "Section in the aorta shows the following histological features EXCEPT:",
+      "options": {
+        "A": "Endothelium (simple squamous epithelium)",
+        "B": "Sub-endothelial layer of CT",
+        "C": "Little number of elastic laminae in the tunica media",
+        "D": "Smooth muscle fibers in the tunica media"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "28.Section in the aorta shows the following histological features EXCEPT: a. Endothelium (simple squamous epithelium) b. Sub-endothelial layer of CT c. Little number of elastic laminae in the tunica media d. Smooth muscle fibers in the tunica media Answer c"
+    },
+    {
+      "q": 29,
+      "page": 29,
+      "stem": "In comparison to the aorta one of the following statement is NOT correct:",
+      "options": {
+        "A": "Muscular arteries have more prominent internal elastic lamina",
+        "B": "Muscular arteries have distinct internal elastic lamina",
+        "C": "Muscular arteries have more smooth muscle in its tunica media",
+        "D": "Muscular arteries have indistinct external elastic lamina"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "29.In comparison to the aorta one of the following statement is NOT correct: a. Muscular arteries have more prominent internal elastic lamina b. Muscular arteries have distinct internal elastic lamina c. Muscular arteries have more smooth muscle in its tunica media d. Muscular arteries have indistinct external elastic lamina Answer d"
+    },
+    {
+      "q": 30,
+      "page": 29,
+      "stem": "Basilar artery :",
+      "options": {
+        "A": "It has no external elastic lamina",
+        "B": "It has thin media & adventitia",
+        "C": "It has prominent internal elastic lamina",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "30.Basilar artery : a. It has no external elastic lamina b. It has thin media & adventitia c. It has prominent internal elastic lamina d. All of the above Answer d"
+    },
+    {
+      "q": 31,
+      "page": 29,
+      "stem": "Coronary arteries",
+      "options": {
+        "A": "Have thick wall",
+        "B": "Smooth muscle fibers are present in tunica intima",
+        "C": "Have well developed external and internal elastic laminae",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "31.Coronary arteries a. Have thick wall b. Smooth muscle fibers are present in tunica intima c. Have well developed external and internal elastic laminae d. All of the above Answer d"
+    },
+    {
+      "q": 32,
+      "page": 29,
+      "stem": "Each of the following statements concerning the A-V anastomoses is true EXCEPT",
+      "options": {
+        "A": "They are connections between arterioles & venules",
+        "B": "They end in blood capillaries",
+        "C": "They regulate the blood pressure",
+        "D": "They regulate the body temperature"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "rawBlockText": "32.Each of the following statements concerning the A-V anastomoses is true EXCEPT a. They are connections between arterioles & venules b. They end in blood capillaries c. They regulate the blood pressure d. They regulate the body temperature Answer b"
+    },
+    {
+      "q": 33,
+      "page": 29,
+      "stem": "In comparison to medium sized arteries, the medium sized vein has",
+      "options": {
+        "A": "A narrower lumen",
+        "B": "A thicker tunica intima",
+        "C": "A thicker tunica media",
+        "D": "A thicker adventitia"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "rawBlockText": "33.In comparison to medium sized arteries, the medium sized vein has a. A narrower lumen b. A thicker tunica intima c. A thicker tunica media d. A thicker adventitia Answer d"
+    },
+    {
+      "q": 34,
+      "page": 29,
+      "stem": "The veins are adapted for their functions by the followings EXCEPT",
+      "options": {
+        "A": "They have wide lumen (blood reservoir)",
+        "B": "They have longitudinal smooth muscle fibers in their adventitia",
+        "C": "They have thick tunica media",
+        "D": "They have many valves"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "rawBlockText": "34.The veins are adapted for their functions by the followings EXCEPT a. They have wide lumen (blood reservoir) b. They have longitudinal smooth muscle fibers in their adventitia c. They have thick tunica media d. They have many valves Answer c"
+    },
+    {
+      "q": 1,
+      "page": 18,
+      "stem": "The olfactory mucosa differs from respiratory mucosa in having:",
+      "options": {
+        "A": "True cilia",
+        "B": "Goblet cells within the lining epithelium",
+        "C": "Pigmented mucosa",
+        "D": "Thinner lining epithelium",
+        "E": "Thicker basement membrane beneath the lining epithelium"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 2,
+      "page": 18,
+      "stem": "BALT are:",
+      "options": {
+        "A": "Lymphatic nodules found in the bronchi",
+        "B": "Small granule cells in respiratory epithelium",
+        "C": "mucoserous glands found in the bronchioles",
+        "D": "Alveolar macrophages",
+        "E": "Congested blood vessels"
+      },
+      "answer": "A",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 3,
+      "page": 18,
+      "stem": "Smokers suffer from disturbed ratio between:",
+      "options": {
+        "A": "Small granule cells & ciliated columnar cells",
+        "B": "Goblet cells & brush cells",
+        "C": "Ciliated cells & goblet cells",
+        "D": "Goblet cells & small granule cells",
+        "E": "Olfactory cells & supporting cells"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 4,
+      "page": 18,
+      "stem": "Sympathomimetic drugs would be effective in relieving bronchial asthma as they:",
+      "options": {
+        "A": "Decrease secretion of mucoserous glands",
+        "B": "Stimulate ciliary beating activity",
+        "C": "Relax the smooth muscles of the bronchioles",
+        "D": "Increase the diameter of the bronchi",
+        "E": "Stimulate activity of Clara cells"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 5,
+      "page": 18,
+      "stem": "Inflammation of the nasal sinuses which may persist for long time is probably the result of defect in the function of:",
+      "options": {
+        "A": "Cilia",
+        "B": "Smooth muscle contraction",
+        "C": "Glandular secretion",
+        "D": "Skeletal muscle contraction",
+        "E": "Nerve supply"
+      },
+      "answer": "A",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 6,
+      "page": 18,
+      "stem": "Neuroendocrine cells lining the respiratory epithelium:",
+      "options": {
+        "A": "Act as sensory receptors",
+        "B": "Have numerous apical mitochondria",
+        "C": "Have basal afferent nerve endings",
+        "D": "Regulate glandular secretion",
+        "E": "Act as stem cells for other cells"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 7,
+      "page": 18,
+      "stem": "The structural component which is not found in the bronchiole:",
+      "options": {
+        "A": "Goblet cells",
+        "B": "Smooth muscle",
+        "C": "Cilia",
+        "D": "Clara cells",
+        "E": "Elastic fibers"
+      },
+      "answer": "A",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 8,
+      "page": 19,
+      "stem": "Elastic cartilage provides structural support for the following respiratory airways:",
+      "options": {
+        "A": "Trachea",
+        "B": "Bronchi",
+        "C": "Bronchioles",
+        "D": "Larynx",
+        "E": "Nasal cavity"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 9,
+      "page": 19,
+      "stem": "Which of the following is made of elastic cartilage?",
+      "options": {
+        "A": "Thyroid cartilage",
+        "B": "C-shaped cartilage in trachea",
+        "C": "Cuneiform cartilage",
+        "D": "Cricoid cartilage",
+        "E": "Cartilage plates in bronchi"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 10,
+      "page": 19,
+      "stem": "The first part of the respiratory tract which does NOT contain cilia is:",
+      "options": {
+        "A": "Terminal bronchiole",
+        "B": "Respiratory bronchiole",
+        "C": "Trachea",
+        "D": "Alveolar duct",
+        "E": "Bronchi"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 11,
+      "page": 19,
+      "stem": "The part of the airway which is located at the transition between the conducting and respiratory portions is:",
+      "options": {
+        "A": "Bronchioles",
+        "B": "Secondary bronchi",
+        "C": "Terminal bronchioles",
+        "D": "Respiratory bronchioles",
+        "E": "Primary bronchi"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 12,
+      "page": 19,
+      "stem": "The inferior nasal concha is covered with:",
+      "options": {
+        "A": "Pseudostratified columnar ciliated epithelium with goblet cells",
+        "B": "Pseudostratified columnar ciliated epithelium",
+        "C": "Stratified squamous epithelium keratinized",
+        "D": "Columnar ciliated epithelium with goblet cells",
+        "E": "Stratified squamous epithelium non-keratinized"
+      },
+      "answer": "A",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 13,
+      "page": 19,
+      "stem": "Primary bronchi are characterized by:",
+      "options": {
+        "A": "Absent submucosa",
+        "B": "Highly folded mucosa",
+        "C": "C- shaped cartilage",
+        "D": "Spirally arranged smooth muscles encircling the lumen",
+        "E": "No elastic membrane between mucosa and submucosa"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 14,
+      "page": 19,
+      "stem": "What is the first portion of the respiratory tree where gas exchange can occur?",
+      "options": {
+        "A": "Alveolar duct",
+        "B": "Alveoli",
+        "C": "Alveolar sac",
+        "D": "Respiratory bronchiole",
+        "E": "Terminal bronchiole"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 15,
+      "page": 20,
+      "stem": "Respiratory distress syndrome is caused by deficiency of:",
+      "options": {
+        "A": "Goblet cells",
+        "B": "pulmonary surfactant",
+        "C": "Elastic fibers",
+        "D": "Mucoserous glands",
+        "E": "Cilia"
+      },
+      "answer": "B",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 16,
+      "page": 20,
+      "stem": "The main etiological factor in nasal epistaxis is:",
+      "options": {
+        "A": "Decrease caliber of blood vessels",
+        "B": "Damage of olfactory fibers",
+        "C": "Injury to the nasal blood vessels",
+        "D": "Decrease arterial pressure in the nasal septum",
+        "E": "Deficiency of cytochrome P-450 enzymes in SER"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 17,
+      "page": 20,
+      "stem": "Pulmonary surfactant:",
+      "options": {
+        "A": "produced by type II pneumocytes",
+        "B": "Produced by alveolar macrophages",
+        "C": "Increases surface tension of alveolar epithelium",
+        "D": "A component of the basement membrane of alveolar epithelium",
+        "E": "Produced by type I pneumocytes"
+      },
+      "answer": "A",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 18,
+      "page": 20,
+      "stem": "Bowman's glands are present in the lamina propria of:",
+      "options": {
+        "A": "Larynx",
+        "B": "Trachea",
+        "C": "Bronchi",
+        "D": "Olfactory mucosa",
+        "E": "Nasal cavity"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 19,
+      "page": 20,
+      "stem": "Clara cells are:",
+      "options": {
+        "A": "Dome shaped ciliated cells",
+        "B": "Present within the epithelium of intrapulmonary bronchi",
+        "C": "Act as stem cells for type I pneumocytes",
+        "D": "Their cytoplasm contains apical sER & basal rER",
+        "E": "Considered one of the neuroendocrine cells"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 20,
+      "page": 20,
+      "stem": "Which one of the following is NOT part of the blood gas barrier?",
+      "options": {
+        "A": "Cytoplasm of type I pneumocyte",
+        "B": "Cytoplasm of type II pneumocyte",
+        "C": "Basal lamina of endothelial cells",
+        "D": "Endothelium of continuous capillaries",
+        "E": "The film of pulmonary surfactant on the alveolar surface"
+      },
+      "answer": "B",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 21,
+      "page": 20,
+      "stem": "Which one of the following statements concerning respiratory bronchioles is true?",
+      "options": {
+        "A": "No gas exchange occurs in their walls",
+        "B": "Their walls contain a thin layer of smooth muscles",
+        "C": "They contain goblet cells in their lining epithelium",
+        "D": "They do not have alveoli in their walls",
+        "E": "They are lined by simple columnar ciliated epithelium"
+      },
+      "answer": "B",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 22,
+      "page": 21,
+      "stem": "A histological feature of the bronchiole is:",
+      "options": {
+        "A": "It has cartilage plates in its wall",
+        "B": "Its lining epithelium contains goblet cells",
+        "C": "It has well developed circular smooth muscles",
+        "D": "It has mucoserous glands in its wall",
+        "E": "It is lined with pseudostratified columnar ciliated epithelium"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 23,
+      "page": 21,
+      "stem": "Alveolar sacs are characterized by the following:",
+      "options": {
+        "A": "They are expanded irregular spaces at the distal ends of terminal bronchiole",
+        "B": "Lined by simple cubical epithelium",
+        "C": "They have smooth muscles in their walls",
+        "D": "Formed of group of alveoli with common central space",
+        "E": "Found at the distal ends of respiratory bronchiole"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 24,
+      "page": 21,
+      "stem": "Interalveolar septa:",
+      "options": {
+        "A": "Are delicate partitions separating alveoli",
+        "B": "Contain smooth muscle fibers",
+        "C": "Supported by cartilage plates",
+        "D": "Have no blood capillaries",
+        "E": "Contain Clara cells & CT cells"
+      },
+      "answer": "A",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 25,
+      "page": 21,
+      "stem": "Olfactory cells are:",
+      "options": {
+        "A": "Regenerative for all three cell types",
+        "B": "Provided with microvilli submerged in a fluid layer",
+        "C": "Bipolar nerve cells.",
+        "D": "Pyramidal in shape.",
+        "E": "Their cytoplasm contains yellow pigments"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 26,
+      "page": 21,
+      "stem": "Paranasal sinuses are lined by:",
+      "options": {
+        "A": "Simple squamous epithelium",
+        "B": "Simple columnar epithelium",
+        "C": "Stratified squamous epithelium",
+        "D": "Pseudostratified columnar ciliated epithelium with goblet cells",
+        "E": "Simple cubical epithelium"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 27,
+      "page": 21,
+      "stem": "Type I pneumocytes:",
+      "options": {
+        "A": "Are low cuboidal cells",
+        "B": "Have membrane limited multilamellar bodies",
+        "C": "Provide a thin membrane through which gaseous exchange occurs",
+        "D": "Secrete the pulmonary surfactant",
+        "E": "Can divide and act as stem cells"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 28,
+      "page": 21,
+      "stem": "Alveolar phagocytes:",
+      "options": {
+        "A": "Are present freely in alveolar air spaces but not in Interalveolar septa",
+        "B": "Are rich in rER and mitochondria",
+        "C": "Arise mainly from neutrophils escaping from blood capillaries",
+        "D": "Are macrophages that enter C.T from the blood",
+        "E": "Can be stained with silver"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 29,
+      "page": 22,
+      "stem": "All about nasal fossae is true except:",
+      "options": {
+        "A": "Posterior portion of nasal cavity",
+        "B": "It is divided into 2 areas, respiratory and olfactory areas",
+        "C": "Anterior portion of nasal cavity",
+        "D": "Its lateral wall contains 3 projections called conchae (superior, middle and inferior)"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 30,
+      "page": 22,
+      "stem": "Sustentacular (supporting) cells of Olfactory epithelium, all true except:",
+      "options": {
+        "A": "They have broad cylindrical apices and narrow bases",
+        "B": "Their free surfaces have cilia",
+        "C": "Their cytoplasm contains yellowish pigment",
+        "D": "They bind with adjacent olfactory cells by junctional complexes"
+      },
+      "answer": "B",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 31,
+      "page": 22,
+      "stem": "Olfactory (chemoreceptor) cells, all true except:",
+      "options": {
+        "A": "They are sensory – bipolar nerve cells",
+        "B": "Dendrites ending with vesicles (olfactory vesicles)",
+        "C": "Their axons directed to the olfactory bulb",
+        "D": "Olfactory vesicles bear long, tapering, motile cilia"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 32,
+      "page": 22,
+      "stem": "The only neurons that can be regenerated in postnatal life:",
+      "options": {
+        "A": "olfactory receptor cells by differentiation from basal cells",
+        "B": "gustatory cells of taste bud by differentiation from basal cells",
+        "C": "astroglial cells",
+        "D": "sympathetic ganglion cells"
+      },
+      "answer": "A",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 33,
+      "page": 22,
+      "stem": "Lamina propria of Olfactory epithelium, all true except:",
+      "options": {
+        "A": "Formed of dense fibro-elastic connective tissue.",
+        "B": "Contains serous Bowman’s glands",
+        "C": "Attached to the fibrous periosteum of underlying bone.",
+        "D": "Contains mucous Bowman’s glands"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 34,
+      "page": 22,
+      "stem": "Olfactory area, all true except:",
+      "options": {
+        "A": "present at the roof of the nasal cavity",
+        "B": "superior conchae are covered with olfactory epithelium",
+        "C": "sensory cells carry long microvilli",
+        "D": "sensory cells are bipolar nerve cells"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 35,
+      "page": 22,
+      "stem": "swell bodies, all true except:",
+      "options": {
+        "A": "venous plexus in the lamina propria of bony conchae",
+        "B": "They warm the incoming air.",
+        "C": "Could be engorged with allergic reaction, reducing air flow",
+        "D": "Swelling at the end of olfactory cells dendrites"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 36,
+      "page": 23,
+      "stem": "Trachea, all true except:",
+      "options": {
+        "A": "lumen is kept open by a series of 20 C-shaped rings of hyaline cartilages.",
+        "B": "bundles of smooth muscle (trachealis muscle) connect the posterior ends of the C- shaped rings.",
+        "C": "fibrocartilagenous coat is formed by dense CT containing 20 C shaped incomplete rings of hyaline cartilage .",
+        "D": "Fibrocartilaginous coat is formed of white fibrocartilage"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 37,
+      "page": 23,
+      "stem": "small granule cells, all true except:",
+      "options": {
+        "A": "neuroendocrine cells present throughout epithelium of conducting airway",
+        "B": "release serotonin & catecholamines",
+        "C": "dense cored secretory vesicles in their apical parts",
+        "D": "dense cored secretory vesicles in their basal parts"
+      },
+      "answer": "B",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 38,
+      "page": 23,
+      "stem": "Respiratory epithelium, all true except:",
+      "options": {
+        "A": "Brush cells: act as sensory receptors.",
+        "B": "goblet cells: secrete mucus.",
+        "C": "Basal cell: act as stem cells.",
+        "D": "K cells: neuroendocrine cells."
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 39,
+      "page": 23,
+      "stem": "Respiratory epithelium, all true except:",
+      "options": {
+        "A": "Lines most of conducting portion",
+        "B": "smoking results in the reversed ratio between ciliated & goblet cells",
+        "C": "normally goblet cells are the most abundant cells in respiratory epithelium",
+        "D": "normally columnar ciliated cells are the most abundant cells in respiratory epithelium"
+      },
+      "answer": "C",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 40,
+      "page": 23,
+      "stem": "Respiratory portion of respiratory system includes the following except:",
+      "options": {
+        "A": "Intrapulmonary bronchi",
+        "B": "Respiratory bronchioles.",
+        "C": "Alveolar ducts",
+        "D": "Alveoli & Alveolar sacs"
+      },
+      "answer": "A",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 41,
+      "page": 23,
+      "stem": "Type II pneumocytes, all true except:",
+      "options": {
+        "A": "Have apical microvilli.",
+        "B": "Contain lamellar bodies that contain pulmonary surfactant",
+        "C": "can divide and regenerate both types of pneumocytes",
+        "D": "flattened cells act in gas exchange"
+      },
+      "answer": "D",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    },
+    {
+      "q": 42,
+      "page": 24,
+      "stem": "Type I and Type II pneumocytes are joined by:",
+      "options": {
+        "A": "Tight junction",
+        "B": "Gap junctions",
+        "C": "Adherent junctions",
+        "D": "Junctional complex C D D C B 26 D D 36 D D A A A A C C A B A C D C D D 28 D D D C C D D 24 A 29 C 34 C C A D B 20 B C 30 B D 40 A"
+      },
+      "answer": "A",
+      "confidence": "medium",
+      "answerSource": "chapter-end grid answer key (e.g. '1 C  6 D  11 D ...'), not a per-question inline marker",
+      "rawBlockText": null
+    }
+  ]
+}

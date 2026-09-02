@@ -1,0 +1,1249 @@
+{
+  "sourceId": "src_df1d73279bc33befdafa",
+  "sha256": "df1d73279bc33befdafa6c55747b3a149c255ff4b048a07fd0b8852af89d0b02",
+  "file": "Physio MCQ Dr.Maher [Cardio] (Solved).pdf",
+  "corpusRelativePath": "y1/104 CPS/Doctors/Dr. Maher Physiology/Physio MCQ Dr.Maher [Cardio] (Solved).pdf",
+  "book": "Dr. Maher Physiology MCQ [Cardio] (Solved)",
+  "subject": "Physiology",
+  "module": "104 CPS",
+  "pages": 17,
+  "markConvention": "TRAP CONFIRMED: pdftotext text layer has no answer marker at all despite the '(Solved)' filename. Rendered page images (p1-3, 150dpi) show two overlapping conventions used inconsistently through the document: the correct option's line is either set in bold (Arial-BoldMT vs ArialMT, mostly page 1) or has a thin black underline bar drawn beneath it (a ~1.2pt-tall vector rect, most of the rest of the document). Both are real PDF content -- font name / vector graphics -- not a raster highlight or handwritten mark, so both are machine-detectable without OCR.",
+  "extractionMethod": "PyMuPDF get_text('dict') for text+font per line, get_drawings() for thin black underline bars, positional match of bar-to-line (scripts/kasr/extract/104-CPS/solved-books/extract_maher.py)",
+  "stats": {
+    "questionsExtracted": 80,
+    "keysRecovered": 80,
+    "pagesSkipped": [
+      {
+        "page": 4,
+        "q": 21,
+        "stem": "The low-resistance pathways between myocardial cells that allow for the",
+        "options": {
+          "A": "Gap junctions",
+          "B": "T–tubules",
+          "C": "Sarcoplasmic reticulum",
+          "D": "Intercalated disks",
+          "E": "Mitochondria"
+        },
+        "reason": "multiple marked options found (['A', 'B', 'C', 'D', 'E']) -- ambiguous, not auto-resolved"
+      },
+      {
+        "page": 6,
+        "q": 36,
+        "stem": "Regarding the ventricular action potential:",
+        "options": {
+          "A": "It lasts as long as the mechanical response.",
+          "B": "Rapid depolarization is due influx of Ca2+",
+          "C": "The resting membrane potential is -70 mV",
+          "D": "The plateau is due to inward Na+ current and outward K+ current",
+          "E": "The absolute refractory period coincides with phases 0, 1, 2, and early phase 3"
+        },
+        "reason": "multiple marked options found (['A', 'B', 'C', 'D', 'E']) -- ambiguous, not auto-resolved"
+      },
+      {
+        "page": 9,
+        "q": 49,
+        "stem": "Which of these is true about the cardiovascular system?",
+        "options": {
+          "A": "Pulmonary arteries carry oxygenated blood to the lungs from the right heart",
+          "B": "All heart muscle cells are capable of spontaneous contraction",
+          "C": "The SA node is the pacemaker of the heart because it has the fastest rate of",
+          "D": "In early diastole the ventricles begin to contract"
+        },
+        "reason": "multiple marked options found (['C', 'D']) -- ambiguous, not auto-resolved"
+      },
+      {
+        "page": 12,
+        "q": 68,
+        "stem": "Normal splitting of the second heart sound into two components is increased during",
+        "options": {
+          "A": "The closing of the aortic valve is delayed",
+          "B": "The opening of the mitral valve is delayed",
+          "C": "The closing of the pulmonary valve is delayed",
+          "D": "The stroke volume of the left ventricle is increased",
+          "E": "The heart rate is decreased"
+        },
+        "reason": "no bold/underline option found -- unanswered in source"
+      },
+      {
+        "page": 17,
+        "q": 102,
+        "stem": "Which of the following would cause the changes from curve A to curve B in heart",
+        "options": {
+          "A": "Norepinephrine",
+          "B": "Acetylcholine",
+          "C": "Intracellular acidosis",
+          "D": "Calcium channel blocker"
+        },
+        "reason": "multiple marked options found (['A', 'B', 'C', 'D']) -- ambiguous, not auto-resolved"
+      },
+      {
+        "page": 17,
+        "q": 103,
+        "stem": "When compared to normal subject, trained athletes have a;",
+        "options": {
+          "A": "smaller stroke volume.",
+          "B": "Faster resting heart rate.",
+          "C": "Larger heart.",
+          "D": "decrease in the number of mitochondria in skeletal muscle fibers"
+        },
+        "reason": "multiple marked options found (['A', 'B', 'C', 'D']) -- ambiguous, not auto-resolved"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "q": 1,
+      "page": 1,
+      "stem": "Which of the following is not a part of the specialized self-excitable conductive",
+      "options": {
+        "A": "SA node",
+        "B": "AV node",
+        "C": "Papillary muscle",
+        "D": "Bundle of His",
+        "E": "Purkinje fibers"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 2,
+      "page": 1,
+      "stem": "In the heart, cardiac muscle is not found in the:",
+      "options": {
+        "A": "interatrial septum.",
+        "B": "interventricular septum.",
+        "C": "SA node.",
+        "D": "Valve cusps"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 3,
+      "page": 1,
+      "stem": "The S.A node",
+      "options": {
+        "A": "but not the A.V node receives a parasympathetic nerve supply",
+        "B": "is connected by a thin band of purkinje fibers to the A.V node",
+        "C": "has a faster rate of diastolic depolarization during vagal activity",
+        "D": "has a faster rate of diastolic depolarization at 39 C than at 37 C",
+        "E": "is a secondary cardiac pacemaker"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 4,
+      "page": 1,
+      "stem": "The left vent . has a thicker wall than the right ventricle because",
+      "options": {
+        "A": "it is richer in blood supply",
+        "B": "it ejects blood through a narrower orifice",
+        "C": "it ejects a greater cardiac output .",
+        "D": "it ejects blood against a higher pressure",
+        "E": "it contracts at a higher rate"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 5,
+      "page": 1,
+      "stem": "The atrio-ventricular valves",
+      "options": {
+        "A": "have three cusps for each valve",
+        "B": "their closure is initiated when the ventricular pressure exceeds atrial pressure",
+        "C": "open by contraction of papillary muscles .",
+        "D": "none of the above"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 6,
+      "page": 1,
+      "stem": "Which of the following does not show initial rapid depolarization at the start",
+      "options": {
+        "A": "SA node",
+        "B": "Atrial muscles",
+        "C": "Purkinje fibers",
+        "D": "Ventricular muscles",
+        "E": "Bundle of His"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 7,
+      "page": 2,
+      "stem": "The SAN is the heart's normal pacemaker because:",
+      "options": {
+        "A": "It has the fastest rate of auto-rhythmicity.",
+        "B": "It has both sympathetic and parasympathetic innervation.",
+        "C": "It lies in the right atrium.",
+        "D": "Activation of K+ channels occurs more rapidly in this region than elsewhere in the heart.",
+        "E": "None of these answers."
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 8,
+      "page": 2,
+      "stem": "The SAN is the pacemaker for the heart because it:",
+      "options": {
+        "A": "has the highest rate of automatic discharge",
+        "B": "has the most stable resting membrane potential",
+        "C": "Is the most richly innervated structure in the heart",
+        "D": "Is the only structure in the heart capable of generating action potentials",
+        "E": "Is the cardiac cell least sensitive to catecholamines"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 9,
+      "page": 2,
+      "stem": "Regarding the S-A node",
+      "options": {
+        "A": "cells within the S-A node act as heart pace maker because their",
+        "B": "acetyl choline increases the slope of the pace - maker potential .",
+        "C": "sympathetic stimulation decreases the slope of the pace - maker potential .",
+        "D": "the pace - maker cells within the S-A node are neurons rather than myocytes"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 10,
+      "page": 2,
+      "stem": "If communication between the SA node and the AV node is blocked, which",
+      "options": {
+        "A": "The rate of ventricular contraction will decrease",
+        "B": "Afterload will increase",
+        "C": "The rate of atrial contraction will decrease",
+        "D": "Stroke volume will increase to 5L/beat",
+        "E": "All of the above"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 11,
+      "page": 2,
+      "stem": "The slowest conducting velocity occurs in:",
+      "options": {
+        "A": "Atrial muscles",
+        "B": "AV node",
+        "C": "Purkinje fibers",
+        "D": "Ventricular muscles"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 12,
+      "page": 2,
+      "stem": "The fibers of the A-V bundle & its branches",
+      "options": {
+        "A": "conduct impulses very slowly",
+        "B": "are highly contractile",
+        "C": "are modified muscle fibers",
+        "D": "are nerve fibers"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 13,
+      "page": 2,
+      "stem": "The cardiac tissue with the slowest rhythmicity is the",
+      "options": {
+        "A": "S.A node without vagal tone",
+        "B": "S.A node with vagal tome .",
+        "C": "ventricular muscle .",
+        "D": "AV node.",
+        "E": "purkinje fibers ."
+      },
+      "answer": "E",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 14,
+      "page": 3,
+      "stem": "The physiologic function of the relatively slow conduction through the AV",
+      "options": {
+        "A": "Runoff of blood from the aorta to the arteries",
+        "B": "Venous return to the heart",
+        "C": "Filling of the ventricles",
+        "D": "Repolarization of the ventricles"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 15,
+      "page": 3,
+      "stem": "In the heart all the following are true except :",
+      "options": {
+        "A": "the right ventricle is thicker than the left ventricle",
+        "B": "the excitation wave cannot spread directly from the atria to the  ventricles",
+        "C": "contraction normally begins in the right atrium",
+        "D": "the ventricles contract almost simultaneously",
+        "E": "the S.A node is the normal pacemaker ."
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 16,
+      "page": 3,
+      "stem": "The function of the AV node is to:",
+      "options": {
+        "A": "Excite the left and right atrium",
+        "B": "Prevent the atria and ventricles from contracting simultaneously",
+        "C": "Repolarize the heart after systole.",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 17,
+      "page": 3,
+      "stem": "The correct pathway of impulses through the conducting system of the heart is:",
+      "options": {
+        "A": "SA node, AV node, AV bundle, bundle branches, Purkinje fibers",
+        "B": "AV node, AV bundle, Purkinje fibers, bundle branches, SA node",
+        "C": "Purkinje fibers, AV node, bundle branches, SA node, AV bundle",
+        "D": "SA node, AV node, Purkinje fibers, bundle branches, AV bundle"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 18,
+      "page": 3,
+      "stem": "With respect to the conducting system of the heart:",
+      "options": {
+        "A": "The refractory period of the atrioventricular node is shorter than for normal cardiac",
+        "B": "The sinoatrial node has an intrinsic rhythmic rate of 40-60 per minute",
+        "C": "The atrioventricular node is the natural pacemaker",
+        "D": "The Purkinje fibres have an intrinsic rhythmic rate of 15-40 per minute",
+        "E": "Impulses are conducted from the right atrium to the left atrium by the purkinje fibres"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 19,
+      "page": 3,
+      "stem": "The main function of the cardiac purkinje system is to :",
+      "options": {
+        "A": "prevent premature ventricular beats .",
+        "B": "coordinate the valve movements with myocardial contraction",
+        "C": "enable all parts of the ventricle to contract simultaneously",
+        "D": "delay the systole until the ventricles fill"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 20,
+      "page": 3,
+      "stem": "Propagation of the action potential through the heart is  fastest in the :",
+      "options": {
+        "A": "SA node",
+        "B": "atrial muscle",
+        "C": "AV node",
+        "D": "purkinje fibers",
+        "E": "ventricular muscle"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 22,
+      "page": 4,
+      "stem": "About the cardiac conductivity, all the following are true except :",
+      "options": {
+        "A": "it is slowest in the A-v node",
+        "B": "it is maximal in the purkinje fibers .",
+        "C": "it is slowest in the ventricular ms.",
+        "D": "it is decreased by vagal stimulation",
+        "E": "it occurs through modified cardiac muscle fibers"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 23,
+      "page": 4,
+      "stem": "Concerning pacemaker potential:",
+      "options": {
+        "A": "Specialized cells depolarize during phase 4, but atrial and ventricular muscles do not",
+        "B": "Specialized cells depolarize during phase 3, but atrial and ventricular muscles do not",
+        "C": "Specialized cells repolarize during phase 4, but atrial and ventricular muscles do not",
+        "D": "Specialized cells repolarize during phase 3, but atrial and ventricular muscles do not",
+        "E": "None of the above is true"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 24,
+      "page": 4,
+      "stem": "Which changes in ionic conductance accompany the various phases of the",
+      "options": {
+        "A": "In phase 1, a decrease in K+ permeability and an increase in Na+ permeability while",
+        "B": "In phase 1, a decrease in K+ permeability and an increase in Ca2+ permeability while",
+        "C": "In phase 2, an increase in Na+ permeability while in phase 3, an increase  in K+"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 25,
+      "page": 5,
+      "stem": "With respect to action potential in the SA node:",
+      "options": {
+        "A": "The resting membrane potential is more negative than for non-conducting cardiac muscle",
+        "B": "Depolarization is caused by activation of fast voltage gated sodium channels",
+        "C": "There is dependence on vagal nerve stimulation for the generation of action potentials",
+        "D": "Repolarization is caused by increased potassium permeability"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 26,
+      "page": 5,
+      "stem": "Cardiac muscle:",
+      "options": {
+        "A": "Is striated, Cells are connected to other cardiac muscle cells by gap junctions",
+        "B": "Has myosin but not actin filaments",
+        "C": "Has multinucleated cells",
+        "E": "Depends on anaerobic oxidation of glucose for energy production"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 27,
+      "page": 5,
+      "stem": "Cardiac muscle:",
+      "options": {
+        "A": "Of the atria is continuous with that of the ventricles",
+        "B": "Forms a syncytium",
+        "C": "Stimulation of a single atrial cardiac muscle would cause an action potential to",
+        "D": "Have intercalated discs inside the muscle fiber",
+        "E": "B and C are correct"
+      },
+      "answer": "E",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 28,
+      "page": 5,
+      "stem": "The cardiac muscle is characterized by having all the following except :",
+      "options": {
+        "A": "intercalated disk connecting muscles.",
+        "B": "The same refractory period characteristics as the skeletal ms.",
+        "C": "Acts as a physiological syncytium"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 29,
+      "page": 5,
+      "stem": "About the cardiac muscle all the following are true except :",
+      "options": {
+        "A": "It has low electric resistance of the membrane at the intercalated discs",
+        "B": "It forms true syncytium .",
+        "C": "It obeys the all or none law ."
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 30,
+      "page": 5,
+      "stem": "The cardiac muscle fibers :",
+      "options": {
+        "A": "are unstriated muscle fibers",
+        "B": "form true syncytium",
+        "C": "are poor in mitochondria",
+        "D": "have low resistance bridges & tight gap junctions ."
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 31,
+      "page": 5,
+      "stem": "A functional syncytium of the cardiac muscle cells means that they:",
+      "options": {
+        "A": "Are striated.",
+        "B": "Are involuntary.",
+        "C": "Have a short refractory period.",
+        "D": "Lack the stimulation of a pace maker.",
+        "E": "Work as a unit mechanically and electrically"
+      },
+      "answer": "E",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 32,
+      "page": 6,
+      "stem": "The cardiac muscle:",
+      "options": {
+        "A": "Is made of the same type of tissue as the smooth muscle of the arteries",
+        "B": "Commonly undergoes prolonged tetanic contractions",
+        "C": "Does not contract unless stimulated by the nervous system",
+        "D": "Never undergoes tetanic contractions"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 33,
+      "page": 6,
+      "stem": "Which of the following is not true about parasympathetic supply to the heart?",
+      "options": {
+        "A": "It affects muscarinic receptors",
+        "B": "It decreases the heart rate via an action on SA node",
+        "C": "It decreases conduction velocity of AV node",
+        "D": "It can be blocked by beta blockers as propranolol"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 34,
+      "page": 6,
+      "stem": "Which changes in ionic channels accompany phase 2 of the following diagram:",
+      "options": {
+        "A": "Na+ channels are opened, Ca2+ channels are open, K+ channels are closed",
+        "B": "Na+ channels are closed, Ca2+ channels are closed, K+ channels are opened",
+        "C": "Na+ channels are closed, Ca2+ channels are open, K+ channels are opened",
+        "D": "Na+ channels are opened, Ca2+ channels are closed, K+ channels are opened"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 35,
+      "page": 6,
+      "stem": "In the previous diagram, which phase has the highest K+ permeability:",
+      "options": {
+        "A": "Phase 0",
+        "B": "Phase 1",
+        "C": "Phase 2",
+        "D": "Phase 3",
+        "E": "Phase 4"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 37,
+      "page": 7,
+      "stem": "Which of the ion channels is responsible for the inward current of plateau phase of",
+      "options": {
+        "A": "Cl- channels",
+        "B": "K+ channels",
+        "C": "Na+ channels",
+        "D": "L-type Ca2+ channels",
+        "E": "T- type Ca2+ channels"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 38,
+      "page": 7,
+      "stem": "Concerning L-type Ca2+ channels in cardiac muscle fibers, all the following is true,",
+      "options": {
+        "A": "Are voltage-gated channels.",
+        "B": "Are opened during the plateau.",
+        "C": "Conduct outward current.",
+        "D": "Are inactivated very slowly"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 39,
+      "page": 7,
+      "stem": "The action potential of the cardiac muscle is characterized by",
+      "options": {
+        "A": "in the ventricular muscle it reached 100 m sec",
+        "B": "in the artial muscle, it reached 300 m sec",
+        "C": "it result from a balance between Ca++ influx and K+ efflux .",
+        "D": "it result from an inflow of Cl- and outflow of bicarbonate ions"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 40,
+      "page": 7,
+      "stem": "Why can't tetany of the heart occur?",
+      "options": {
+        "A": "There are no distinct motor units in the heart.",
+        "B": "There is inadequate oxygen supply via the coronary circulation to metabolically",
+        "C": "The refractory period in cardiac muscle lasts almost as long as the duration of the",
+        "D": "The heart contracts with maximal force every beat so it is impossible to increase the",
+        "E": "Vagal stimulation slows down the heart rate to prevent summation of contractions."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 41,
+      "page": 7,
+      "stem": "The absolute refractory period in the ventricle :",
+      "options": {
+        "A": "increases during sympathetic stimulation .",
+        "B": "coincides with the phase of rapid depolarization and the plateau .",
+        "C": "corresponds with the whole duration of action potential .",
+        "D": "it is shorter than the ARP of skeletal muscle"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 42,
+      "page": 7,
+      "stem": "Myocardial contractility is best correlated with the  intracellular concentration of:",
+      "options": {
+        "A": "Na+",
+        "B": "K+",
+        "C": "Ca++",
+        "D": "Cl"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 43,
+      "page": 8,
+      "stem": "Myocardial contractility is increased by all of the following, except:",
+      "options": {
+        "A": "Catecholamines",
+        "B": "An increase in heart rate",
+        "C": "An increase in end diastolic volume",
+        "D": "An increase in parasympathetic nervous system activity",
+        "E": "Calcium ions"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 44,
+      "page": 8,
+      "stem": "Digitalis is a positive inotropic agent. Positive inotropism refers to:",
+      "options": {
+        "A": "Decreased stroke volume",
+        "B": "Decreased EDV",
+        "C": "Increased contractility of the heart",
+        "D": "Movement of blood elements related to a change in chemical gradient",
+        "E": "Repolarization of the SAN"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 45,
+      "page": 8,
+      "stem": "Digitalis has positive inotropic effect through the following mechanism:",
+      "options": {
+        "A": "An increase of intracellular cAMP",
+        "B": "Activation of voltage-gated calcium channels",
+        "C": "Inhibition of Na+-K+ pump in the cardiac muscle",
+        "D": "Inhibition of ATP-dependent Ca2+ pump in the sarcoplasmic reticulum"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 46,
+      "page": 8,
+      "stem": "Chronotropism refers to:",
+      "options": {
+        "A": "Rhythmicity.",
+        "B": "Conductivity.",
+        "C": "Excitability.",
+        "D": "Contractility"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 47,
+      "page": 8,
+      "stem": "Which of the following is not a method of removing cytosolic Ca2+ following",
+      "options": {
+        "A": "Na-Ca exchanger transports Ca2+ out of the cells",
+        "B": "ATP-dependent sarcolemmal Ca2+ pump removing Ca2+out of the cell",
+        "C": "Ca2+ diffuses passively out of the cells via calcium channels",
+        "D": "ATP-dependent sarcoplasmic reticulum (SR) Ca2+ pump removing Ca2+ into SR"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 48,
+      "page": 8,
+      "stem": "A 45-year-old male is given a drug that inhibits the influx of calcium into the",
+      "options": {
+        "A": "The amount of calcium bound to troponin during ventricular contraction will be",
+        "B": "The amount of calcium released from the sarcoplasmic reticulum during ventricular",
+        "C": "The force of ventricular contraction will be decreased",
+        "D": "This drug could be a muscarinic receptor blocker"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 50,
+      "page": 9,
+      "stem": "Sympathetic stimulation has the following effect(s) on the heart:",
+      "options": {
+        "A": "Increased heart rate",
+        "B": "Increased cardiac output",
+        "C": "Increased contractility",
+        "D": "Increased inflow of Ca2+ through the plasma membrane",
+        "E": "All of the above"
+      },
+      "answer": "E",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 51,
+      "page": 9,
+      "stem": "The effect of parasympathetic NS on the heart is:",
+      "options": {
+        "A": "Slowing of the heart",
+        "B": "Increased activity of the SAN",
+        "C": "Increased activity of the AVN",
+        "D": "Increased conduction velocity through bundle of His",
+        "E": "Increased force of contraction"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 52,
+      "page": 9,
+      "stem": "Concerning the effects of autonomic nervous activity on the cardiovascular system:",
+      "options": {
+        "A": "Inhibition of parasympathetic nerves increases heart rate",
+        "B": "Inhibition of parasympathetic nerves increases total peripheral resistance",
+        "C": "Inhibition of parasympathetic nerves decreases total peripheral resistance",
+        "D": "Stimulation of parasympathetic nerves decreases the strength of cardiac",
+        "E": "Stimulation of sympathetic nerves decreases the strength of cardiac ventricular"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 53,
+      "page": 9,
+      "stem": "the duration of cardiac cycle with a heart rate of 75 beat/minute is;",
+      "options": {
+        "A": "2.0 second.",
+        "B": "0.2 seconds.",
+        "C": "0.8",
+        "D": "1.5 second"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 54,
+      "page": 9,
+      "stem": "During isovolumetric ventricular contraction:",
+      "options": {
+        "A": "Rapid filling of the ventricles occurs.",
+        "B": "No blood enter or leave the ventricles.",
+        "C": "The maximum volume of blood is ejected.",
+        "D": "The maximum rate of ejection occurs.",
+        "E": "None of these answers."
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 55,
+      "page": 10,
+      "stem": "During ventricular ejection ,the smallest pressure difference is between the;",
+      "options": {
+        "A": "pulmonary artery and left atrium.",
+        "B": "right ventricle and right atrium.",
+        "C": "left ventricle and aorta.",
+        "D": "left ventricle and left atrium"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 56,
+      "page": 10,
+      "stem": "During the cardiac cycle:",
+      "options": {
+        "A": "Blood flows into the atria only during atrial diastole",
+        "B": "Atrial contraction contributes 70% to ventricular filling",
+        "C": "Blood flows from the atria into the ventricles during ventricular systole",
+        "D": "Ventricular ejection occurs during the period of isometric contraction",
+        "E": "None of the above"
+      },
+      "answer": "E",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 57,
+      "page": 10,
+      "stem": "The opening of the AV-valves occurs at about the same time in the cardiac cycle as the:",
+      "options": {
+        "A": "Beginning of diastole",
+        "B": "Beginning of systole",
+        "C": "End of isovolumetric contraction",
+        "D": "First heart sound",
+        "E": "QRS complex of the ECG"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 58,
+      "page": 10,
+      "stem": "The closure of the AV-valves occurs at about the same time in the cardiac cycle as the:",
+      "options": {
+        "A": "Beginning of diastole",
+        "B": "End of isovolumetric relaxation",
+        "C": "First heart sound",
+        "D": "Second heart sound",
+        "E": "T wave of the ECG"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 59,
+      "page": 10,
+      "stem": "the first heart sound coincides with;",
+      "options": {
+        "A": "isometric contraction phase.",
+        "B": "isometric relaxation phase.",
+        "C": "Ejection phase.",
+        "D": "Protodiastolic phase."
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 62,
+      "page": 11,
+      "stem": "When compared to the first heart sound, the second heart sound ;",
+      "options": {
+        "A": "is less loud.",
+        "B": "has a longer duration.",
+        "C": "has a higher pitch.",
+        "D": "is less likely to be split during inspiration"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 63,
+      "page": 11,
+      "stem": "Which of the following is responsible for the fourth heart sound;",
+      "options": {
+        "A": "Opening of mitral valve.",
+        "B": "Atrial systole .",
+        "C": "Opening of semilunar valve.",
+        "D": "Rapid ventricular filling."
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 64,
+      "page": 11,
+      "stem": "During ventricular ejection phase:",
+      "options": {
+        "A": "The atria are contracting",
+        "B": "The AV valves are closed",
+        "C": "The pressure inside the ventricles is less than inside the atria",
+        "D": "The semilunar valves are closed",
+        "E": "Blood is ejected into the atria"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 75,
+      "page": 13,
+      "stem": "All cardiac valves are opened in:",
+      "options": {
+        "A": "The aortic valve is opened",
+        "B": "The AV valves are opened",
+        "C": "The pressure inside the ventricles is less than the atria",
+        "D": "The ventricular volume is constant"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 82,
+      "page": 14,
+      "stem": "Which of the following is not seen during isovolumetric (isometric) ventricular",
+      "options": {
+        "A": "increase of intraventricular pressure.",
+        "B": "The semilunar valves remain closed.",
+        "C": "Ejection of blood from the ventricles.",
+        "D": "C wave of JVP."
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 83,
+      "page": 14,
+      "stem": "Which of the following is associated with the first heart sound?",
+      "options": {
+        "A": "Rushing of the blood into the ventricles due to atrial contraction",
+        "B": "Closing of the A-V valves",
+        "C": "Closing of the pulmonary valve",
+        "D": "Opening of the AV valves",
+        "E": "Rushing of blood into the ventricles in the early to middle part of diastole"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 84,
+      "page": 14,
+      "stem": "The \"C\" wave of atrial pressure curve is due to:",
+      "options": {
+        "A": "Atrial systole.",
+        "B": "Ventricular systole.",
+        "C": "Atrial diastole.",
+        "D": "ventricular diastole"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 85,
+      "page": 14,
+      "stem": "If the end-diastolic volume is increased:",
+      "options": {
+        "A": "The stroke volume would be increased",
+        "B": "The cardiac output would be decreased",
+        "C": "The force of cardiac contraction would be decreased",
+        "D": "The heart rate would be increased"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 86,
+      "page": 14,
+      "stem": "Cardiac output is:",
+      "options": {
+        "A": "Amount of blood ejected from a ventricle in each systole times beats per minute",
+        "B": "Amount of blood ejected from both ventricles in each systole.",
+        "C": "Amount of blood ejected from the left ventricle in each systole.",
+        "D": "Difference between the amount of blood moving through the heart at rest and at"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 87,
+      "page": 14,
+      "stem": "In a resting adult, the ventricular ejection fraction is:",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "40%",
+        "D": "60%",
+        "E": "80%"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 88,
+      "page": 14,
+      "stem": "Stroke volume is increased by which of the following?",
+      "options": {
+        "A": "An increase in venous capacity due to venous dilation",
+        "B": "A decrease in the extracellular Ca2+",
+        "C": "Increased arterial blood pressure",
+        "D": "An increase in the preload"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 89,
+      "page": 15,
+      "stem": "The following data are obtained from a patient: The end diastolic volume 130 ml, the end",
+      "options": {
+        "A": "70 beat/minute",
+        "B": "80 beat/minute",
+        "C": "90 beat/minute",
+        "D": "100 beat/minute"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 90,
+      "page": 15,
+      "stem": "The following are associated with a decrease in cardiac output:",
+      "options": {
+        "A": "Increased blood volume",
+        "B": "Increased end diastolic volume",
+        "C": "Venoconstriction",
+        "D": "Blood pressure of 160/100"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 91,
+      "page": 15,
+      "stem": "Under resting conditions a marathon runner compared to untrained people will have a higher:",
+      "options": {
+        "A": "Cardiac output",
+        "B": "Stroke volume",
+        "C": "Heart rate",
+        "D": "Oxygen consumption",
+        "E": "Respiratory rate"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 92,
+      "page": 15,
+      "stem": "Cardiac output is equal to:",
+      "options": {
+        "A": "Diastolic BP + 1/3 (Systolic BP – diastolic BP)",
+        "B": "Heart rate x stroke volume",
+        "C": "End diastolic volume – end systolic volume",
+        "D": "(End diastolic volume – stroke volume) x heart rate"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 93,
+      "page": 15,
+      "stem": "Regarding cardiac index the following is true, except:",
+      "options": {
+        "A": "It is the cardiac output per square meter of body surface area.",
+        "B": "It is about 5 liters/min in healthy adult.",
+        "C": "It is related to height and weight of the person.",
+        "D": "It depends upon contractility of the ventricles."
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 94,
+      "page": 15,
+      "stem": "During exercise:",
+      "options": {
+        "A": "Blood flow remains constant in the gastrointestinal tract",
+        "B": "Parasympathetic nerves dilate muscle arterioles",
+        "C": "Cardiac β-adrenoceptors are stimulated",
+        "D": "Diastolic blood pressure tends to rise more than systolic pressure"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 95,
+      "page": 15,
+      "stem": "All about cardiac preload is true, except:",
+      "options": {
+        "A": "Increases during exercise",
+        "B": "Is mainly dependent on venous return",
+        "C": "Tends to reduce the force of cardiac contraction as preload increases under normal conditions",
+        "D": "Is more important in determining cardiac output than is afterload",
+        "E": "Would be reduced following removal of 500 ml of blood from a patient"
+      },
+      "answer": "C",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 96,
+      "page": 16,
+      "stem": "If the EDV is increased (within limits):",
+      "options": {
+        "A": "COP would be decreased",
+        "B": "The force of cardiac contraction would be decreased",
+        "C": "The output of the right ventricle would exceed the output of the left ventricle",
+        "D": "The stroke volume would be increased",
+        "E": "Venous pressure would be decreased"
+      },
+      "answer": "D",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 97,
+      "page": 16,
+      "stem": "In healthy ventricles, the force of contraction :",
+      "options": {
+        "A": "Decreases with sympathetic stimulation.",
+        "B": "increases with increased end-diastolic volume within physiological limits.",
+        "C": "does not influence the cardiac output.",
+        "D": "Is always the same"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 98,
+      "page": 16,
+      "stem": "The cardiac output is equal to",
+      "options": {
+        "A": "The difference between the end-diastolic volume (EDV) and the end-systolic",
+        "B": "The product of heart rate and EDV.",
+        "C": "The difference between the stroke volume at rest and the stroke volume during",
+        "D": "The stroke volume x the end-systolic volume.",
+        "E": "The product of heart rate and blood pressure"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 99,
+      "page": 16,
+      "stem": "According to the Frank-Starling law of the heart:",
+      "options": {
+        "A": "The shorter the initial length of the cardiac muscle fibers prior to contraction the",
+        "B": "Increasing the venous return increases the end-diastolic volume, which leads to an",
+        "C": "As cardiac output is reduced, blood pools in the vasculature so that arterial blood",
+        "D": "The output of the left side of the heart must always exceed that of the right side of",
+        "E": "The greater the stroke volume, the smaller will be the subsequent end-diastolic"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 100,
+      "page": 16,
+      "stem": "Which of the following will not increase stroke volume?",
+      "options": {
+        "A": "Increased end-diastolic volume",
+        "B": "Increased contractility of the heart",
+        "C": "Increased end-systolic volume",
+        "D": "Increased stretch of the cardiac muscle fibers during ventricular filling",
+        "E": "Increased venous return"
+      },
+      "answer": "A",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    },
+    {
+      "q": 101,
+      "page": 17,
+      "stem": "In the figure below, Curve Y represents ventricular function in a normal heart under resting",
+      "options": {
+        "A": "Curve X represents the effect of increased preload",
+        "B": "Curve X represents the effect of increased sympathetic nerve activity",
+        "C": "Curve Z represents the effect of increased cytosolic Ca++ concentration",
+        "D": "Curve X represents the effect of heart failure",
+        "E": "Curve Z represents the effect of decreased sarcomere length"
+      },
+      "answer": "B",
+      "confidence": "high",
+      "answerSource": "bold-font or underline-bar option (font-name / vector-rect signal, not OCR)"
+    }
+  ]
+}

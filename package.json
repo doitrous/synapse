@@ -33,7 +33,8 @@
     "content:gate": "node scripts/content/gate.mjs",
     "content:pagetext": "node scripts/content/pagetext.mjs",
     "content:emit": "node scripts/content/emit-mcq.mjs",
-    "content:ledger": "node scripts/content/ledger.mjs"
+    "content:ledger": "node scripts/content/ledger.mjs",
+    "kasr:ledger-104": "node --experimental-strip-types scripts/kasr/ledger-104.ts"
   },
   "dependencies": {
     "@fontsource-variable/baloo-2": "^5.3.0",
