@@ -831,7 +831,7 @@ en
 ## learner_stage
 Years 1–3 foundation
 ## reading_time
-13
+15
 ## high_yield
 Core
 ## time_sensitive
@@ -845,7 +845,7 @@ Medical team, Admin team
 ## final_publisher
 Admin team
 ## summary
-Not every adjustment of blood flow is nervous. This article covers the local mechanisms that match a single tissue's flow to its own metabolism, the two catecholamines that pull the vasculature in opposite directions, what actually happens — and what can go wrong — when a person simply stands up, the endothelium's own vasoactive secretions (nitric oxide, endothelin, prostacyclin), the classification of circulating vasoconstrictor and vasodilator hormones, the renin-angiotensin system's formation cascade and AT1/AT2 receptor actions, and carotid sinus syndrome as a clinical extension of the baroreceptor reflex.
+Not every adjustment of blood flow is nervous. This article covers the local mechanisms that match a single tissue's flow to its own metabolism, the two catecholamines that pull the vasculature in opposite directions, what actually happens — and what can go wrong — when a person simply stands up, the endothelium's own vasoactive secretions (nitric oxide, endothelin, prostacyclin), the classification of circulating vasoconstrictor and vasodilator hormones, the renin-angiotensin system's formation cascade and AT1/AT2 receptor actions, carotid sinus syndrome as a clinical extension of the baroreceptor reflex, and the distinct causes of circulatory shock, including why some patients progress to refractory shock.
 ## sections
 ### Definition
 Blood flow is matched to local demand without any nervous or hormonal input by two local mechanisms, redirected regionally by two catecholamines that pull the vasculature in opposite directions, and — on simply standing up — challenged and then restored by gravity and the baroreflex. Beyond these, the vascular endothelium itself secretes vasoactive substances, a further set of circulating hormones acts on the vasculature systemically, and the renin-angiotensin system provides both an acute vasoconstrictor and the module's own account of long-term arterial pressure regulation.
@@ -863,6 +863,8 @@ The compensatory reflex to standing can fail — a slow or weak sympathetic resp
 
 Carotid sinus syndrome is a clinical extension of the same baroreceptor reflex driving the standing response above: in some people the carotid sinus baroreceptors become abnormally sensitive, so trivial external pressure (a tight collar, or the pressure of shaving) activates the reflex strongly enough to produce marked bradycardia and a fall in arterial pressure, which can cause cerebral ischaemia and fainting — an acquired hypersensitivity, not a normal finding especially in young adults. Severe or recurrent cases may need denervation of the hypersensitive carotid sinus or implantation of a permanent artificial cardiac pacemaker.
 
+Circulatory shock — inadequate tissue perfusion — has several distinct causes beyond haemorrhage. Anaphylactic shock follows an excessive allergic reaction releasing histamine, a strong vasodilator, producing marked vasodilation; septic shock follows severe infection releasing bacterial toxins that are themselves strong vasodilators; neurogenic shock follows loss of vasomotor tone (brain damage affecting the vasomotor area, deep general anaesthesia, or high spinal anaesthesia); cardiogenic shock follows pump failure itself. Vasopressor drugs are particularly useful in neurogenic and anaphylactic shock specifically because the underlying defect in both is inappropriate vasodilation rather than a primary pump or volume problem. Some patients with severe haemorrhage progress to refractory (irreversible) shock: it persists for hours, becomes resistant to treatment, and death follows even if blood volume is restored to normal, because cardiac output stays low regardless. Three mechanisms drive this: rising capillary hydrostatic pressure drives excessive fluid filtration, further lowering blood volume, while granulocytes adhering to injured capillary walls release free oxygen radicals that cause more tissue damage, and bacteria entering the blood through injured vessels release toxins that are themselves strong vasodilators; severe cerebral ischaemia, from the marked fall in arterial pressure, causes vasomotor centre failure, which lowers pressure further in a deadly positive-feedback loop; and severe cardiac ischaemia, from the same fall in pressure, further lowers cardiac output despite coronary vasodilation, again in a self-worsening loop.
+
 ### Endothelium-derived vasoactive substances
 The vascular endothelium is not a passive lining: it continuously secretes nitric oxide (NO), formed by endothelial NO synthase (eNOS) acting on L-arginine, with a short half-life (about 6 seconds) that keeps its action mainly local. Shear stress, acetylcholine, and the inflammatory mediators bradykinin and histamine all raise NO secretion; NO itself acts on vascular smooth muscle via guanylate cyclase, raising cGMP and relaxing the myocyte — the target of PDE-5 inhibitors such as sildenafil, which prolong this effect. A primary deficiency of NO synthesis contributes to chronic hypertension, since it removes a vasodilator tone the vasculature depends on. Endothelin-1, by contrast, is the most potent vasoconstrictor known, released in response to endothelial injury, thrombin and hypoxia, and reduced by NO, prostacyclin and atrial natriuretic peptide. Prostacyclin (PGI2), formed from arachidonic acid, is a vasodilator that also inhibits platelet aggregation and facilitates NO release, working alongside it rather than independently.
 
@@ -876,6 +878,7 @@ Confusing NO's second messenger (cGMP) with cAMP, or assuming adrenaline directl
 Assuming AT1 and AT2 share the same direction of effect because both are angiotensin II receptors — AT2 specifically counterbalances AT1, and diuresis/natriuresis are AT2, not AT1, actions.
 Assuming hypertension itself raises renin secretion — the reverse is true: hypovolaemia/hypotension, not hypertension, is what raises it.
 Treating carotid sinus syndrome as a normal finding in healthy young adults rather than an acquired abnormal hypersensitivity.
+Assuming refractory shock is simply severe hypoxaemia that restoring blood volume fixes — cardiac output stays low even after volume restoration, because self-worsening cerebral- and cardiac-ischaemia feedback loops, capillary damage and bacterial toxin release have taken over by that point.
 ## published_summary
 
 ## published_sections
@@ -890,6 +893,7 @@ Carotid sinus syndrome = acquired baroreceptor hypersensitivity, not a normal yo
 NO: eNOS on L-arginine, cGMP-mediated, short half-life; deficiency contributes to chronic hypertension. Endothelin-1 = most potent known vasoconstrictor. Prostacyclin = vasodilator, facilitates NO release.
 Vasoconstrictor hormones: angiotensin II, epinephrine, norepinephrine, vasopressin. Vasodilator hormones: kinins, natriuretic peptide.
 RAS: renin (JGA) on hepatic angiotensinogen → angiotensin I; ACE → angiotensin II. AT1 = vasoconstriction/Na+ retention; AT2 = vasodilatation/diuresis/natriuresis. RAS = long-term BP regulation.
+Shock causes: anaphylactic (histamine), septic (bacterial toxins), neurogenic (lost vasomotor tone) — all vasodilatory; cardiogenic (pump failure). Refractory shock: rising capillary hydrostatic pressure, granulocyte free radicals, bacterial toxin entry, cerebral- and cardiac-ischaemia feedback loops — cardiac output stays low even after volume restoration.
 ## lose_the_mark
 Conflating active hyperaemia with autoregulation.
 Assuming epinephrine always raises TPR like norepinephrine does.
@@ -941,10 +945,11 @@ Rights: must be CC-BY or public domain, or newly drawn for this product
 ## publication_gate
 needs_evidence
 ## evidence_basis
-Kasr Alainy physiology department book, "Cardiopulmonary (Cardiovascular)", Chapter 5 ("Basic Mechanisms of Circulatory Control"), printed pages 62-70, 78, 82-84, 90 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction. run44 extended this article's own page range (originally 62-70, 90) to include pp.78 and 82-84 after checking the department book directly for the endothelium/RAS/carotid-sinus-syndrome material this article's own evidence_gaps had previously scoped out — the book covers it in full at those pages, so the earlier scope call was about this article's own summary, not a source gap.
+Kasr Alainy physiology department book, "Cardiopulmonary (Cardiovascular)", Chapter 5 ("Basic Mechanisms of Circulatory Control"), printed pages 62-70, 78, 82-90 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction. run44 extended this article's own page range twice within the same run: first (originally 62-70, 90) to include pp.78 and 82-84 for endothelium/RAS/carotid-sinus-syndrome material this article's own evidence_gaps had previously scoped out; then to include pp.85-90 for circulatory-shock causes and refractory-shock mechanisms, tested by this module's own A-V Connections bank rows — the book covers both squarely, so both earlier scope calls were about this article's own summary, not a source gap.
 ## evidence_gaps
 No independent citation has been attached to any figure here; every number is traceable to one department book.
 Vasopressin (ADH) and natriuretic peptides are still not covered by this article — the book's own vasoconstrictor/vasodilator hormone classification names them, but their fuller physiology (osmoregulation, V1/V2 receptors; ANP/BNP/CNP receptor subtypes and actions) is out of scope for this pass and remains for a future run if the question banks demand it.
+The book's own rapid/long-term compensatory-reaction sections around pp.85-89 (catecholamines, angiotensin II, vasopressin secretion in hemorrhage; plasma-volume/protein/red-cell-mass restoration timelines) overlap with this leaf's own hemorrhagic-shock seed file and are not duplicated here — only the shock-type causes and refractory-shock mechanisms this article's own new section needed are drawn from that page range.
 ## conflicts
 [clear]
 ## last_reviewed
@@ -952,7 +957,7 @@ Vasopressin (ADH) and natriuretic peptides are still not covered by this article
 ## review_due
 
 ## notes
-Written from the department book only; no rival article on this exact scope was found in the module's existing batches. run44 extended the original local/hormonal-control scope with endothelium-derived substances (NO, endothelin, prostacyclin), the circulating vasoconstrictor/vasodilator hormone classification, the renin-angiotensin system (formation, AT1/AT2 receptors, long-term role), and carotid sinus syndrome — all confirmed present in this same department-book chapter, following the precedent set by the Gas Transport article's own hypoxia/cyanosis/CO-poisoning section addition (bdcb7e72).
+Written from the department book only; no rival article on this exact scope was found in the module's existing batches. run44 extended the original local/hormonal-control scope with endothelium-derived substances (NO, endothelin, prostacyclin), the circulating vasoconstrictor/vasodilator hormone classification, the renin-angiotensin system (formation, AT1/AT2 receptors, long-term role), carotid sinus syndrome, and the distinct causes of circulatory shock plus refractory-shock mechanisms — all confirmed present in this same department-book chapter, following the precedent set by the Gas Transport article's own hypoxia/cyanosis/CO-poisoning section addition (bdcb7e72).
 
 ## field_notes
 lastReviewed: New record, not yet reviewed.

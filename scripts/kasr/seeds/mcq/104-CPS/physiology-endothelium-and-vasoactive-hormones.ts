@@ -93,6 +93,40 @@ export const LEAF: McqLeafSeed = {
       type: "mechanism",
       aliases: ["Carotid sinus syndrome", "Carotid sinus hypersensitivity"],
     },
+    // run44 — leaf-mismatch reroute: these two bank rows are tagged "A-V
+    // Connections" (that leaf's ledger tag is known unreliable — see
+    // coverage/104-CPS-LEDGER.md's own note), but the fact each tests
+    // (shock-type causes, refractory-shock mechanisms) is squarely in this
+    // same department-book chapter and article (pp.85-90) already extended
+    // above with a new "Circulatory shock" clinical paragraph. find-
+    // existing.mjs "anaphylactic shock histamine vasodilation" / "refractory
+    // hemorrhagic shock mechanisms" — 0 hits each, fresh mints.
+    {
+      key: "circulatory-shock.types-and-etiology",
+      label: "Anaphylactic, septic and neurogenic shock share a vasodilatory mechanism — histamine, bacterial toxins, and lost vasomotor tone respectively — distinct from cardiogenic shock's primary pump failure",
+      definition: "Circulatory shock is inadequate tissue perfusion, and its causes fall into distinct mechanistic groups. Anaphylactic shock follows an excessive allergic reaction that releases histamine, a strong vasodilator, producing marked vasodilation. Septic shock follows severe infection releasing bacterial toxins that are themselves strong vasodilators. Neurogenic shock follows loss of vasomotor tone — from brain damage affecting the vasomotor area, deep general anaesthesia, or high spinal anaesthesia. Cardiogenic shock, by contrast, follows primary pump failure rather than inappropriate vasodilation. Because the underlying defect in anaphylactic and neurogenic shock specifically is inappropriate vasodilation, vasopressor drugs (which raise arterial pressure to maintain coronary and cerebral flow) are particularly useful in both.",
+      objective: "Name histamine (anaphylactic), bacterial toxins (septic), and lost vasomotor tone (neurogenic) as the three vasodilatory causes of shock, distinct from cardiogenic shock's primary pump failure, and state why vasopressors specifically suit the vasodilatory types.",
+      pitfall: "Treating all types of shock as sharing one mechanism. Anaphylactic, septic and neurogenic shock are all fundamentally vasodilatory (excess vasodilation lowering resistance and pressure), while cardiogenic shock is a primary pump problem — a distinction that determines which treatment (vasopressors versus inotropes/pump support) actually fits.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      type: "mechanism",
+      aliases: ["Anaphylactic shock", "Septic shock", "Neurogenic shock", "Types of circulatory shock"],
+    },
+    {
+      key: "refractory-hemorrhagic-shock.mechanisms-and-outcome",
+      label: "Refractory (irreversible) shock is a self-worsening state where cardiac output stays low even after blood volume is restored, driven by rising capillary filtration, granulocyte-released free radicals, bacterial toxin entry, and positive-feedback cerebral and cardiac ischaemia",
+      definition: "Some patients with severe haemorrhage progress to refractory (irreversible) shock: the shock state persists for hours, becomes resistant to treatment, and death eventually follows even if blood volume is fully restored to normal, because cardiac output stays low regardless. Three groups of mechanism drive this. First, rising capillary hydrostatic pressure drives excessive fluid filtration out of the vessels, further lowering blood volume, while granulocytes adhering to injured capillary walls release free oxygen radicals that cause more tissue damage, and bacteria entering the blood through injured vessels release toxins that are themselves strong vasodilators. Second, severe cerebral ischaemia, from the marked fall in arterial pressure, causes failure of the medullary vasomotor centre, which lowers arterial pressure further in a deadly positive-feedback loop. Third, severe cardiac ischaemia, from that same fall in pressure, further lowers cardiac output despite coronary vasodilation, again in a self-worsening loop — so the defect is no longer simply 'too little blood', which is why restoring volume alone cannot reverse it.",
+      objective: "State that refractory shock features persistently low cardiac output despite full volume restoration, and name its three mechanism groups: rising capillary filtration/granulocyte damage/bacterial toxin entry, cerebral-ischaemia vasomotor-centre failure, and cardiac-ischaemia output failure, each running as a positive-feedback loop.",
+      pitfall: "Assuming refractory shock is reversed once blood volume is restored to normal — cardiac output stays low regardless, because self-worsening cerebral- and cardiac-ischaemia feedback loops, capillary damage and bacterial toxin release have by then taken over as the dominant problem, not hypovolaemia itself.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      type: "mechanism",
+      aliases: ["Refractory shock", "Irreversible shock", "Progressive hemorrhagic shock"],
+    },
   ],
 
   questions: [
@@ -250,6 +284,32 @@ export const LEAF: McqLeafSeed = {
         B: "True, so not the exception. Slight pressure on the hypersensitive carotid sinus (e.g. a tight collar or shaving) leads to marked bradycardia, hypotension and can cause loss of consciousness through cerebral ischaemia.",
         C: "True, so not the exception. Denervation of the hypersensitive carotid sinus is one of the treatments the book names for severe or recurrent cases.",
         D: "True, so not the exception. The defining feature of the syndrome is that the carotid sinus is abnormally sensitive to pressure.",
+      },
+    },
+    {
+      key: "during-anaphylactic-shock-release-of-which-substance-causes-87214129",
+      conceptKey: "circulatory-shock.types-and-etiology",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "State that histamine, not bradykinin, nitric oxide or atrial natriuretic peptide, is the substance released in anaphylactic shock that causes vasodilation and increased capillary permeability.",
+      explanations: {
+        A: "This is the correct answer. Anaphylactic shock follows an excessive allergic reaction that releases histamine — a strong vasodilator — producing marked vasodilation; histamine is also well known to raise capillary permeability, the combination that drives anaphylaxis's characteristic hypotension and tissue swelling.",
+        B: "Bradykinin is a vasodilator kinin involved in inflammation and in raising NO secretion from the endothelium, but it is histamine, not bradykinin, that the department book names specifically as the mediator released in anaphylactic shock.",
+        C: "Nitric oxide is a vasodilator secreted continuously by the endothelium and raised further by shear stress, acetylcholine, bradykinin and histamine — it is a downstream/parallel mediator of vasodilation, not itself the substance whose release defines anaphylactic shock.",
+        D: "Atrial natriuretic peptide is a vasodilator hormone secreted in response to atrial stretch (raised blood volume), an entirely different trigger from the allergic reaction that defines anaphylactic shock.",
+      },
+    },
+    {
+      key: "which-of-the-following-is-characteristic-of-progressive-refr-ce2af6fc",
+      conceptKey: "refractory-hemorrhagic-shock.mechanisms-and-outcome",
+      difficulty: "Hard",
+      questionType: "Recall",
+      learningObjective: "Identify endotoxin (bacterial toxin) release as a genuine mechanism of progressive/refractory hemorrhagic shock, as opposed to increased contractility, decreased permeability, or increased active transport, all of which move the wrong direction.",
+      explanations: {
+        A: "The opposite happens: cardiac output stays low in refractory shock (myocardial ischaemia from the persistently low arterial pressure impairs, rather than increases, cardiac contractility), part of why the state is self-worsening and resistant to treatment.",
+        B: "The opposite happens: granulocytes adhering to injured capillary walls release free oxygen radicals that cause tissue damage, which tends to raise, not decrease, capillary permeability, compounding fluid loss from the vasculature.",
+        C: "This is the correct answer. Bacteria are able to enter the blood through injured vessels in refractory shock, and the bacterial toxins released are themselves strong vasodilators — endotoxin release is one of the department book's own named mechanisms driving the state's characteristic resistance to treatment and persistently low cardiac output.",
+        D: "The opposite happens: ischaemia from the low-flow state impairs ATP-dependent active transport (such as the Na+-K+ ATPase) rather than increasing it, since the ATP needed to drive these pumps is itself in short supply during ischaemia.",
       },
     },
   ],

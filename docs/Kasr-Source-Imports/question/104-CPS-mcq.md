@@ -58,7 +58,7 @@
     Physiology Respiratory System — Non-Chemical Control of Respiration — 26 questions, 5 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
-    Physiology Cardiovascular System — Endothelium and Vasoactive Hormones — 12 questions, 5 concepts
+    Physiology Cardiovascular System — Endothelium and Vasoactive Hormones — 14 questions, 7 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 30 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
@@ -67,7 +67,7 @@
     Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
-    Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
+    Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 7 questions, 1 concepts
     Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 26 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  197 questions were excluded and 0 held back for having no
+  202 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -58935,6 +58935,190 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q121. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EEE3092D4F3A
+## title
+During anaphylactic shock, release of which substance causes vasodilation and increased…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During anaphylactic shock, release of which substance causes vasodilation and increased capillary permeability?
+## answer_a
+Histamine
+## explanation_a
+This is the correct answer. Anaphylactic shock follows an excessive allergic reaction that releases histamine — a strong vasodilator — producing marked vasodilation; histamine is also well known to raise capillary permeability, the combination that drives anaphylaxis's characteristic hypotension and tissue swelling.
+
+Why this is right:
+- Circulatory shock is inadequate tissue perfusion, and its causes fall into distinct mechanistic groups.
+## answer_b
+Bradykinin
+## explanation_b
+Bradykinin is a vasodilator kinin involved in inflammation and in raising NO secretion from the endothelium, but it is histamine, not bradykinin, that the department book names specifically as the mediator released in anaphylactic shock.
+## answer_c
+Nitric oxide
+## explanation_c
+Nitric oxide is a vasodilator secreted continuously by the endothelium and raised further by shear stress, acetylcholine, bradykinin and histamine — it is a downstream/parallel mediator of vasodilation, not itself the substance whose release defines anaphylactic shock.
+## answer_d
+Atrial natriuretic peptide
+## explanation_d
+Atrial natriuretic peptide is a vasodilator hormone secreted in response to atrial stretch (raised blood volume), an entirely different trigger from the allergic reaction that defines anaphylactic shock.
+## correct_answer
+A
+## main_concept
+CON-CVS-007F7F1E3CCF7F
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that histamine, not bradykinin, nitric oxide or atrial natriuretic peptide, is the substance released in anaphylactic shock that causes vasodilation and increased capillary permeability.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p9 q38. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C2014B4B1C99
+## title
+Which of the following is characteristic of progressive (refractory) hemorrhagic shock?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is characteristic of progressive (refractory) hemorrhagic shock?
+## answer_a
+Increased cardiac contractility
+## explanation_a
+The opposite happens: cardiac output stays low in refractory shock (myocardial ischaemia from the persistently low arterial pressure impairs, rather than increases, cardiac contractility), part of why the state is self-worsening and resistant to treatment.
+## answer_b
+Endotoxin release
+## explanation_b
+The opposite happens: granulocytes adhering to injured capillary walls release free oxygen radicals that cause tissue damage, which tends to raise, not decrease, capillary permeability, compounding fluid loss from the vasculature.
+
+Why this is right:
+- Some patients with severe haemorrhage progress to refractory (irreversible) shock: the shock state persists for hours, becomes resistant to treatment, and death eventually follows even if blood volume is fully restored to normal, because cardiac output stays low regardless.
+## answer_c
+Decreased capillary permeability
+## explanation_c
+This is the correct answer. Bacteria are able to enter the blood through injured vessels in refractory shock, and the bacterial toxins released are themselves strong vasodilators — endotoxin release is one of the department book's own named mechanisms driving the state's characteristic resistance to treatment and persistently low cardiac output.
+## answer_d
+Increased cell membrane active transport of sodium 1
+## explanation_d
+The opposite happens: ischaemia from the low-flow state impairs ATP-dependent active transport (such as the Na+-K+ ATPase) rather than increasing it, since the ATP needed to drive these pumps is itself in short supply during ischaemia.
+## correct_answer
+B
+## main_concept
+CON-CVS-5043E4CA4BF614
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Identify endotoxin (bacterial toxin) release as a genuine mechanism of progressive/refractory hemorrhagic shock, as opposed to increased contractility, decreased permeability, or increased active transport, all of which move the wrong direction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p24 q178. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

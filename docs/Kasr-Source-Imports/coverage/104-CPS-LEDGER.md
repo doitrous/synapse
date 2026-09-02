@@ -4,19 +4,18 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 892 | excluded: 197 | remaining: 63
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 894 | excluded: 202 | remaining: 56
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 892
+- authored (by key, this ledger): 894
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 892
+- authored minus held-back = build-style "kept": 894
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| A-V Connections | 54 | 40 | 7 | 7 |
 | Arteries | 62 | 45 | 10 | 7 |
 | Conducting Portion | 74 | 60 | 7 | 7 |
 | Veins | 36 | 21 | 8 | 7 |
@@ -32,6 +31,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | out-of-module | 1 | 0 | 0 | 1 |
 | Tonsils | 18 | 10 | 4 | 1 |
 | (untagged) | 219 | 88 | 4 | 0 |
+| A-V Connections | 54 | 42 | 12 | 0 |
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
 | Cardiac Function | 80 | 54 | 26 | 0 |
 | Chromosomal Aberrations (Abnormalities) | 22 | 21 | 1 | 0 |
@@ -54,16 +54,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### A-V Connections (7)
-
-- `during-anaphylactic-shock-release-of-which-substance-causes-87214129` — During anaphylactic shock, release of which substance causes vasodilation and in…
-- `that-capillaries-can-withstand-high-internal-pressures-witho-57d4fc14` — That capillaries can withstand high internal pressures without bursting is expla…
-- `the-capillaries-can-withstand-high-internal-pressure-without-75f7a208` — The capillaries can withstand high internal pressure without bursting is explain…
-- `the-highest-pressure-inside-a-blood-vessel-is-present-in-a-p-cd85f021` — The highest pressure inside a blood vessel is present in: a Pulmonary vessels
-- `thin-walled-capillaries-donot-burst-when-intracapillary-pres-286420f9` — Thin walled capillaries donot burst. when intracapillary pressure is increased w…
-- `what-fraction-of-total-blood-volume-is-present-in-the-capill-f9b7cdfa` — What fraction of total blood volume is present in the capillaries at any given t…
-- `which-of-the-following-is-characteristic-of-progressive-refr-ce2af6fc` — Which of the following is characteristic of progressive (refractory) hemorrhagic…
 
 ### Arteries (7)
 
