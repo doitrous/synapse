@@ -88,6 +88,7 @@ both a narrow and a broadened query before being called pending/live.
 |---|--:|--:|--:|--:|--:|--:|---|
 | MANS-HIS-203 (Phase-0 sample, not exhaustive) | 66 | 52 (+1 low-confidence) | 19 (17 searched, 2 not yet searched) | 6 | 10 | 1 | `imm` — Gell-Coombs hypersensitivity classification |
 | MANS-HIS-203 (author3 pass, Physiology p.110-130 + Biochemistry p.139-143 + Pharmacology p.146-148) | 141 raw items (Q36-140, BI2-Q6-31, PH2-Q5-12) | 141, all printed keys | 19 new mints + 6 reuses (2 live: chemotaxis, opsonins; 4 pending: intrinsic factor, sickle cell/hemoglobinopathies, vitamin-K-dependent factors ×2 questions) | 2 | 4 | 19 | see §Author3 addendum below |
+| MANS-HIS-203 (author4 pass, Pharmacology p.149-159 anaemia-treatment continuation + "MCQ Lecture 2" p.160-163 anticoagulants) | 70 raw items (PH3-Q13-62, PH4-Q1-20) | 70, all printed keys (2 flagged doubts: PH3-Q24, PH4-Q20) | 35 new mints + 5 reuses (4 live Kasr 102-INT physiology concepts, 1 reuse question of a 2nd live concept, 1 pending intrinsic-factor reuse) | 5 | 1 | 35 | see §Author4 addendum below |
 
 ### Author3 addendum (2026-09-02) — Physiology p.110-130, Biochemistry p.139-143, Pharmacology p.146-148
 
@@ -163,6 +164,55 @@ being referenced.
 (`HIS 1- MCQ-scan.pdf`) = 52, against 66 distinct questions triaged. The 13 unrecovered
 are all in `HIS 1- MCQ-scan.pdf`, whose OCR lost the answer highlight entirely for those
 items (1 further item recovered at low confidence, flagged, not counted in the 52).
+
+### Author4 addendum (2026-09-02) — Pharmacology p.149-159 (anaemia continuation) + "MCQ Lecture 2" p.160-163 (anticoagulants)
+
+Started with a 10-minute integrity check (see the top of this file): `CON-HEM-22375197AEE80D`,
+minted by author2's `biochemistry-heme.json` as a question's `main_concept` and referenced
+by `CON-HEM-364A4A59515E8A`'s own `related_concept_ids`, had no standalone concept record
+anywhere in this module — confirmed, fixed (concept + article added, same id, no re-mint),
+and verified clean with `validate-content-batch.mjs` (errors=[]) and `gate.mjs simulate`
+(rejected=0 errors=0) before authoring began.
+
+Pharmacology p.149-159 (footer; PDF p.162-172) continues directly after author3's
+`pharmacology-anemia-vignettes.json` stopped at PH2-Q12 (footer p.148) — `Q13-Q62`, 50
+raw items, entirely anaemia-treatment pharmacology (folate/B12 mechanisms and deficiency
+causes, iron pharmacology, erythropoietin). This range is unusually duplicate-heavy: the
+"EPO indicated for anaemia of chronic renal failure" fact is printed 6 times (Q20, Q29,
+Q30, Q36, Q54, Q61) and "folinic acid for methotrexate-induced anaemia" 4 times (Q23, Q28,
+Q49, Q58, the last three literal duplicates of author3's already-authored fact) — both
+held after the first genuinely new angle. 27 distinct facts authored (26 new concept
+mints + reusing one of those mints — the EPO concept — for a second, differentiating-
+among-growth-factors question); 23 held (literal/near duplicates, one reference-value
+numeric-recall item at Q22). Two printed keys carried a doubt, noted in `author_notes`
+rather than silently corrected: Q24 ("homocysteine to methionine requires B12 but not
+folate" — the reaction is, strictly, jointly B12-and-folate dependent) and generally
+this section's habit of testing the same fact from many angles.
+
+The book's own printed heading changes from "Lecture 1&2" to "MCQ Lecture 2" exactly at
+PDF p.173 (footer p.160), moving to a fresh topic — anticoagulants (heparin, warfarin,
+LMWH) — not touched by any earlier pass. `find-existing.mjs` runs for this sub-section
+surfaced four **live** Kasr `102-INT` physiology concepts covering heparin's mechanism,
+heparin's dosing-and-antidote profile, warfarin's mechanism, and warfarin's dosing-and-
+antidote profile — reused directly as `main_concept` for 5 of the 15 authored questions
+(one concept, `CON-HEM-532BFAEE98CC39`, reused for two questions testing different facets
+— protamine antidote and injection route — of the same multi-fact live record), no overlay
+needed per this file's established live-target precedent. 10 new concepts minted for facts
+genuinely absent from the live/pending corpus (dose-dependent pathway selectivity, HIT/
+hirudin, LMWH's anti-Xa selectivity, placental non-crossing, rebound thrombosis on
+withdrawal, contraindications, drug interactions). Lecture 2 ends at Q20 (PDF p.176),
+exactly the end of this lane's assigned p.149-176 range. 15 distinct facts authored; 5
+held (2 literal duplicates — Q9 repeats Q2 verbatim — and 3 near-duplicates covered by a
+richer sibling question). One printed key (Q20, enoxaparin's advantage over heparin =
+"unlikely to cause bleeding") conflicts with the more standard pharmacology teaching
+(predictable dosing and lower HIT/osteoporosis risk are the usually-cited advantages,
+not reduced bleeding specifically) — printed key followed per the lane's rule, doubt
+flagged in `author_notes`.
+
+42 questions authored across the two clusters (27 + 15), inside the task's ~40-50 target
+without needing the plasma-protein-notes fallback, which remains untriaged and flagged
+below for a future pass. Full per-question detail (all 70 raw items, authored and held,
+with reasons) is in `MANS-HIS-203-triage-keys.txt`'s two new author4 source blocks.
 
 ## Hit-rate validates the task brief's prediction
 
