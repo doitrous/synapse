@@ -3028,5 +3028,532 @@ mans: Authored from Mansoura HIS 203's own Biochemistry Important MCQ (His Conti
 ## review_due
 
 
+---
+
+# Item
+
+## id
+ART-MANS-HIS-HEMOGLOBIN-IRON-OXIDATION-METHEMOGLOBINEMIA
+
+## title
+Hemoglobin's iron oxidation state and methemoglobinemia
+
+## arabic_title
+
+
+## aliases
+Methemoglobinemia
+Ferrous vs ferric iron
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Hemoglobin structure and function
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Hemoglobin structure
+
+## summary
+The ferrous (Fe2+) iron of haem is haemoglobin's oxygen-binding site; oxidising it to the ferric (Fe3+) state produces methemoglobin, which cannot bind oxygen at all.
+
+## sections
+### Definition
+Haemoglobin's oxygen-binding site is the ferrous (Fe2+) iron atom at the centre of each haem group's porphyrin ring.
+
+### Mechanism
+If that iron is oxidised to the ferric (Fe3+) state, the resulting molecule is methemoglobin, which cannot bind oxygen — unlike normal oxyhaemoglobin's reversible, non-oxidative binding of O2 to ferrous iron. Methemoglobinemia reduces effective oxygen-carrying capacity even though total haemoglobin and iron content are unchanged.
+
+### Key determinants
+Methemoglobinemia (iron oxidation, no O2 binding at all) is mechanistically distinct from carbon monoxide poisoning (competitive binding at the still-ferrous iron, no oxidation state change) — a discriminating pair this bank tests.
+
+### Clinical significance
+Methemoglobinemia can be congenital or acquired (oxidising drugs/toxins) and is treated with methylene blue, which reduces the iron back to the ferrous state.
+
+## hold_these
+Ferrous (Fe2+) iron = haemoglobin's oxygen-binding site. Oxidation to ferric (Fe3+) = methemoglobin, which cannot carry oxygen.
+
+## lose_the_mark
+Confusing methemoglobinemia's oxidation mechanism with carbon monoxide poisoning's competitive-binding mechanism.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology/Biochemistry Important MCQ blocks, His Continuous Berlin Book 2026.pdf, p.110,143, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent biochemistry reference not yet cross-checked against this department-book framing; the mechanism is standard.
+
+## notes
+Authored from Mansoura HIS 203's own Physiology and Biochemistry Important MCQ blocks (methemoglobinemia and O2-binding-site facts bundled as one concept).
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-B48945E328456B
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology/Biochemistry Important MCQ (His Continuous Berlin Book 2026.pdf, p.110,143, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-HEMOGLOBIN-CONJUGATED-PROTEIN
+
+## title
+Hemoglobin as a conjugated protein
+
+## arabic_title
+
+
+## aliases
+Conjugated protein classification
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Hemoglobin structure and function
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+2
+
+## high_yield
+Standard
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Hemoglobin structure
+
+## summary
+Hemoglobin is classified as a conjugated protein — globin (a simple protein) combined with a non-protein haem prosthetic group.
+
+## sections
+### Definition
+Proteins are classified as simple (amino acids only), conjugated (protein plus a non-protein prosthetic group), or derived (degradation/denaturation products).
+
+### Mechanism
+Haemoglobin's globin portion is a simple protein (four polypeptide chains), but each chain is combined with a haem prosthetic group — a non-protein, iron-containing porphyrin — essential to oxygen-carrying function, making the whole molecule a conjugated protein.
+
+### Key determinants
+Neither the globin chains alone nor the haem groups alone constitute functional haemoglobin; the conjugated classification captures that dependency.
+
+### Clinical significance
+Recognising haem as a non-protein prosthetic group clarifies why haem synthesis and globin synthesis are separate biochemical pathways that must be coordinated.
+
+## hold_these
+Hemoglobin is a conjugated protein (globin + haem prosthetic group), not simple, derived, or lipoprotein.
+
+## lose_the_mark
+Answering "hemoglobin is a protein" without specifying the conjugated classification the department's bank asks for.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Biochemistry Important MCQ "Bio HIS 2" past-exam block, His Continuous Berlin Book 2026.pdf, p.143, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent biochemistry reference not yet cross-checked against this department-book framing; the classification is standard.
+
+## notes
+Authored from Mansoura HIS 203's own Biochemistry Important MCQ block.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-18D2F687975B5F
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Biochemistry Important MCQ (His Continuous Berlin Book 2026.pdf, p.143, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-HEPATOCELLULAR-JAUNDICE-BILIRUBIN-PATTERN
+
+## title
+Hepatocellular jaundice: the mixed bilirubin pattern
+
+## arabic_title
+
+
+## aliases
+Mixed hyperbilirubinemia
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Heme metabolism
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Biochemistry > Heme metabolism
+
+## summary
+Hepatocellular jaundice elevates both conjugated and unconjugated bilirubin together, distinguishing it from haemolytic jaundice (unconjugated-predominant) and obstructive jaundice (conjugated-predominant).
+
+## sections
+### Definition
+Jaundice is classified by mechanism into three patterns, each with a characteristic bilirubin fraction profile.
+
+### Mechanism
+Haemolytic jaundice, from excess red cell breakdown, raises unconjugated bilirubin predominantly. Obstructive jaundice, from blocked bile flow, raises conjugated (direct) bilirubin predominantly. Hepatocellular jaundice, from damaged liver cells, impairs uptake, conjugation and excretion all at once, elevating both fractions together — a mixed pattern distinct from the other two.
+
+### Key determinants
+The mixed (both-fractions) pattern is the specific signature of hepatocellular jaundice, tested against the single-fraction-predominant patterns of the other two types.
+
+### Clinical significance
+Fractionating bilirubin (conjugated vs unconjugated) is a first-line clinical step in working out which of the three jaundice mechanisms is responsible.
+
+## hold_these
+Hepatocellular jaundice elevates both conjugated and unconjugated bilirubin together.
+
+## lose_the_mark
+Assuming jaundice only has two patterns (haemolytic vs obstructive) and missing hepatocellular jaundice's distinct mixed signature.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Biochemistry Important MCQ "Bio HIS 2" past-exam block, His Continuous Berlin Book 2026.pdf, p.142, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent clinical biochemistry reference not yet cross-checked against this department-book framing; the classification is standard.
+
+## notes
+Authored from Mansoura HIS 203's own Biochemistry Important MCQ block; the obstructive and haemolytic jaundice concepts this article's classification builds on are already authored elsewhere in this module (biochemistry-heme.json).
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-364A4A59515E8A
+
+## related_articles
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Biochemistry Important MCQ (His Continuous Berlin Book 2026.pdf, p.142, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+
 
 

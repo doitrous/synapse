@@ -3536,10 +3536,10 @@ mans
 src_c4ee1e63536c22ca52d4 | question_book | | p142 | MANS-HIS-203
 
 ## article_ids
-ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+ART-MANS-HIS-HEPATOCELLULAR-JAUNDICE-BILIRUBIN-PATTERN
 
 ## related_article_ids
-[clear]
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
 
 ## related_concept_ids
 CON-HEM-22375197AEE80D
@@ -3628,7 +3628,7 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 secondaryNodeIds: No second reviewed placement identified this pass.
-relatedArticleIds: The article teaching bilirubin metabolism generally (ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN, reused directly) covers this pattern too; no separate further-reading article authored.
+relatedArticleIds: A dedicated article was authored for this mint (ART-MANS-HIS-HEPATOCELLULAR-JAUNDICE-BILIRUBIN-PATTERN); ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN (bilirubin metabolism generally) is the further-reading neighbour.
 relatedConceptIds: CON-HEM-22375197AEE80D (this module, haemolytic jaundice urobilinogen pattern) is the same-differential neighbour this concept's hepatocellular angle completes the three-way classification with.
 resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
 sourceCandidateIds: Minted after find-existing.mjs returned no rival record for the hepatocellular/mixed-bilirubin jaundice pattern specifically (obstructive and haemolytic jaundice concepts already exist in this batch and were reused/cross-referenced, not duplicated — see MANS-HIS-203-triage.md author3 addendum).
