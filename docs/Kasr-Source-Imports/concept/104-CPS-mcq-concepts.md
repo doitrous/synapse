@@ -20,7 +20,7 @@
     The Trachea, Bronchi and Thoracic Oesophagus — 10 questions, 3 concepts
     The Typical Intercostal Nerve — 6 questions, 1 concepts
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 38 questions, 4 concepts
+    Histology Cardiovascular System — Artery Classification — 39 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 36 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 8 questions, 2 concepts
@@ -71,7 +71,7 @@
     Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 27 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 40 questions, 4 concepts
-    Respiratory System — Larynx and Airway Wall — 42 questions, 3 concepts
+    Respiratory System — Larynx and Airway Wall — 43 questions, 3 concepts
     Respiratory System — Respiratory Portion Pneumocytes — 49 questions, 6 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  212 questions were excluded and 0 held back for having no
+  214 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 

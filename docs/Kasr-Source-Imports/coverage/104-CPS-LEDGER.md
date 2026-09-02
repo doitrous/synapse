@@ -4,23 +4,18 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 894 | excluded: 202 | remaining: 56
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 913 | excluded: 214 | remaining: 25
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 894
+- authored (by key, this ledger): 913
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 894
+- authored minus held-back = build-style "kept": 913
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| Arteries | 62 | 45 | 10 | 7 |
-| Conducting Portion | 74 | 60 | 7 | 7 |
-| Veins | 36 | 21 | 8 | 7 |
-| Cell Division | 42 | 35 | 2 | 5 |
-| Thymus | 17 | 7 | 4 | 5 |
 | Lymph node | 25 | 17 | 0 | 4 |
 | Respiratory Portion | 34 | 28 | 2 | 4 |
 | Special Circulation | 5 | 1 | 0 | 4 |
@@ -33,8 +28,11 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | (untagged) | 219 | 88 | 4 | 0 |
 | A-V Connections | 54 | 42 | 12 | 0 |
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
+| Arteries | 62 | 49 | 13 | 0 |
 | Cardiac Function | 80 | 54 | 26 | 0 |
+| Cell Division | 42 | 39 | 3 | 0 |
 | Chromosomal Aberrations (Abnormalities) | 22 | 21 | 1 | 0 |
+| Conducting Portion | 74 | 64 | 10 | 0 |
 | Control of Respiration | 25 | 19 | 6 | 0 |
 | Electrical Activity of the Heart | 82 | 57 | 25 | 0 |
 | Gas exchange in the lung | 21 | 18 | 3 | 0 |
@@ -49,57 +47,13 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | The Cell Cycle | 5 | 5 | 0 | 0 |
 | The heart | 43 | 31 | 12 | 0 |
 | Thoracic Wall | 33 | 28 | 5 | 0 |
+| Thymus | 17 | 12 | 4 | 0 |
 | Vascular Function | 44 | 36 | 8 | 0 |
+| Veins | 36 | 23 | 13 | 0 |
 
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### Arteries (7)
-
-- `all-characters-of-coronary-artery-except-8aa6bb03` — All characters of Coronary artery except
-- `all-characters-of-t-intima-of-aorta-except-63c4ce7b` — All characters of T. intima of aorta except:
-- `specialized-types-of-medium-sized-artery-include-the-followi-82300128` — Specialized types of medium sized artery include the following:
-- `stimulation-of-arterial-baroreceptors-causes-all-except-aafa1ea1` — Stimulation of arterial baroreceptors causes all, Except:
-- `stimulation-of-atrial-stretch-receptors-produce-ecf90d1b` — Stimulation of atrial stretch receptors produce
-- `the-tunica-intima-of-coronary-artery-contains-8521e782` — The tunica intima of coronary artery contains:
-- `under-normal-conditions-the-capillaries-95f54ee9` — Under normal conditions , the capillaries :
-
-### Conducting Portion (7)
-
-- `all-characters-of-extra-pulmonary-bronchi-except-5edbbc7f` — All characters of extra pulmonary bronchi except:
-- `epithelium-of-trachea-lined-by-9cded545` — epithelium of trachea lined by
-- `intrapulmonary-bronchus-has-tepret-epithelial-lining-with-no-a0257a5b` — Intrapulmonary bronchus has: tePret ‏-م‎ Epithelial lining with no goblet celis
-- `prevent-over-distension-in-trachea-3478dfd1` — prevent over distension in trachea
-- `the-glandular-epithelium-of-the-trachea-exists-in-08025378` — The glandular epithelium of the trachea exists in:
-- `trachea-is-characterized-by-all-except-529d75ca` — trachea is characterized by All except
-- `venous-plexuses-swell-bodies-is-present-in-c13eea5d` — venous plexuses (swell bodies) is present in
-
-### Veins (7)
-
-- `choose-the-correct-statement-concerning-the-lymphatic-vessel-9d893940` — Choose the correct statement concerning the lymphatic vessels:
-- `greatest-total-cross-sectional-area-a-aorta-1242be79` — Greatest total cross sectional area | a, Aorta |
-- `in-progressive-hemorrhagic-shock-which-of-the-following-occu-649d7c04` — In progressive hemorrhagic shock, which of the following occurs? ~~’
-- `less-developed-spirally-arranged-smooth-muscles-are-a-featur-adbb9056` — Less developed spirally arranged smooth muscles are a feature of:
-- `longitudinal-smooth-muscle-fibers-are-present-in-adventitia-abc2ab0d` — Longitudinal smooth muscle fibers are present in adventitia of:
-- `regarding-brachiocephalic-veins-one-of-the-following-stateme-8aac4731` — Regarding brachiocephalic veins, one of the following statements is incorrect: ١
-- `surface-receive-lymph-from-afferent-vessel-while-surface-whe-cfcfeed1` — surface receive lymph from afferent vessel, while ……… surface where vein, effere…
-
-### Cell Division (5)
-
-- `apoptosis-is-characterized-by-the-following-d02e77f3` — Apoptosis is characterized by the following:
-- `cannot-divide-but-replaced-from-stem-cell-such-as-blood-cell-142667f7` — Cannot divide but replaced from stem cell such as blood cells
-- `concerning-apoptosis-25140e67` — Concerning apoptosis: |
-- `non-renewing-cells-are-characterized-by-all-the-following-ex-5836a5c6` — Non renewing cells are characterized by All the following except
-- `one-of-the-following-is-a-potentially-renewable-cell-04f21553` — One of the following is a potentially renewable cell:
-
-### Thymus (5)
-
-- `concerning-thymus-gland-the-nursing-cells-are-3e67d3a8` — Concerning thymus gland, the nursing cells are:
-- `outer-part-of-thymus-cortex-contain-while-inner-part-contain-e2cc156d` — outer part of thymus cortex Contain - - - - while inner part contain
-- `regarding-thymus-gland-it-is-i-16460019` — Regarding thymus gland, It is: i
-- `where-do-t-lymphocytes-acquire-their-immunocompetence-7eafb30a` — Where do T-lymphocytes acquire their immunocompetence?
-- `which-of-the-following-is-considered-a-central-lymphatic-org-81ba1e71` — Which of the following is considered a central lymphatic organ:
 
 ### Lymph node (4)
 
