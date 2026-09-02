@@ -22211,3 +22211,575 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "osteosclerotic bone metastasis prostate" -- 0 hits. A grep sweep for "osteosclerotic|osteoblastic" hit only unrelated Alexandria (alkaline phosphatase/osteoblast histology) and Menoufia (vitamin D bone mineralization) concepts -- different grain, not this tumour-specific metastasis-pattern fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-F551D7B7A61AB9
+
+## label
+Sulfasalazine treats inflammatory bowel disease
+
+## canonical_key
+antimicrobial.sulfasalazine.ibd-indication
+
+## aliases
+Sulfasalazine indication
+Sulfasalazine for IBD
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sulfasalazine is a standard treatment for inflammatory bowel disease, particularly ulcerative colitis, since gut bacteria cleave it into 5-aminosalicylic acid, which acts locally in the colon to reduce mucosal inflammation -- distinct from its role in pseudomembranous colitis, H. pylori infection or E. coli diarrhea, none of which it is a standard treatment for.
+
+## explicit_objective
+State that sulfasalazine is used to treat inflammatory bowel disease, not pseudomembranous colitis, H. pylori infection or E. coli diarrhea.
+
+## pitfalls
+Assuming a gastroenterology patient on sulfasalazine is being treated for an infectious diarrheal illness -- sulfasalazine's standard indication is inflammatory bowel disease, not an infectious cause.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 2
+
+## subtopic
+Sulfasalazine indication
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient admitted to the gastroenterology service is being treated with sulfasalazine. What is the most likely purpose for this drug to be given? ... Inflammatory bowel disease" (Quiz 44 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 44 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "sulfasalazine inflammatory bowel disease" -- 0 hits. A grep sweep for "sulfasalazine" hit a Mansoura MANS-MSS-202 concept about sulfasalazine's prodrug mechanism/DMARD role in rheumatoid arthritis -- a different grain (mechanism, not this IBD-indication fact). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-BD49F8DB0D8F05
+
+## label
+Sulfamethoxazole can cause crystalluria
+
+## canonical_key
+antimicrobial.sulfamethoxazole.crystalluria
+
+## aliases
+Sulfonamide crystalluria
+Sulfamethoxazole adverse effects
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sulfamethoxazole and other sulfonamides can precipitate out in acidic urine to form crystals in the renal tubules, a recognised adverse effect called crystalluria, reducible by adequate hydration and urine alkalinisation -- distinct from penicillin, doxycycline or gentamicin, none of which characteristically causes this specific adverse effect.
+
+## explicit_objective
+State that sulfamethoxazole can cause crystalluria, unlike penicillin, doxycycline or gentamicin.
+
+## pitfalls
+Attributing crystalluria to penicillin, doxycycline or gentamicin -- sulfonamides such as sulfamethoxazole are the class specifically associated with this adverse effect.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 2
+
+## subtopic
+Sulfonamide adverse effects
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which antibiotic produces crystalluria? ... Sulfamethoxazole" (Quiz 44 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 44 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "sulfamethoxazole crystalluria" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-FB5065BAC15156
+
+## label
+Pseudomembranous colitis may be treated with either vancomycin or metronidazole
+
+## canonical_key
+antimicrobial.pseudomembranous-colitis.vancomycin-metronidazole-treatment
+
+## aliases
+Pseudomembranous colitis treatment
+C difficile colitis treatment
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pseudomembranous colitis, typically caused by Clostridioides difficile overgrowth after gut flora disruption, may be treated with either oral vancomycin or metronidazole, both standard options depending on severity and local practice -- unlike clindamycin, which is not a treatment for this condition but is instead one of the antibiotics classically implicated in causing it.
+
+## explicit_objective
+State that pseudomembranous colitis may be treated with either oral vancomycin or metronidazole, not clindamycin.
+
+## pitfalls
+Confusing clindamycin's role as a cause of pseudomembranous colitis with a treatment for it -- the standard treatments are oral vancomycin or metronidazole.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 2
+
+## subtopic
+Pseudomembranous colitis treatment
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pseudomembranous colitis may be treated with: ... Both Vancomycin and Metronidazole" (Quiz 44 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 44 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "pseudomembranous colitis vancomycin metronidazole treatment" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-F9417E8EE7E655
+
+## label
+Tendonitis is a side effect of ciprofloxacin
+
+## canonical_key
+antimicrobial.ciprofloxacin.tendonitis
+
+## aliases
+Fluoroquinolone tendonitis
+Ciprofloxacin adverse effects
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tendonitis, and in more severe cases tendon rupture (especially of the Achilles tendon), is a recognised, characteristic adverse effect of ciprofloxacin and other fluoroquinolones, thought to relate to the drug class's effect on collagen and connective tissue -- a risk heightened in older patients and those on concurrent corticosteroids, distinct from teeth discolouration (tetracyclines) or ototoxicity (aminoglycosides).
+
+## explicit_objective
+State that tendonitis is a characteristic ciprofloxacin adverse effect, unlike teeth discolouration or ototoxicity.
+
+## pitfalls
+Attributing teeth discolouration or ototoxicity to ciprofloxacin -- these belong to tetracyclines and aminoglycosides respectively; ciprofloxacin's characteristic risk is tendonitis/tendon rupture.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 2
+
+## subtopic
+Fluoroquinolone adverse effects
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is a side effect of ciprofloxacin? ... Tendonitis" (Quiz 44 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 44 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "ciprofloxacin tendonitis" -- 0 hits. A grep sweep for "tendonitis" hit only an unrelated Zagazig orthopaedic Achilles-tendon-rupture concept -- different grain, not this fluoroquinolone drug-adverse-effect fact. New concept.
