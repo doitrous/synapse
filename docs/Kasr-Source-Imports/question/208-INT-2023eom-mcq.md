@@ -5007,3 +5007,2227 @@ yes
 
 ## author_notes
 keySource: printed answer table p.21 ("43.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q44
+
+## title
+Definition of septicemia
+
+## question
+The circulation and multiplication of large number of virulent bacteria and their toxins in blood is termed:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Septicemia
+
+## explanation_a
+Correct. The department book defines septicemia as the circulation of large numbers of multiplying bacteria in the blood stream together with their toxins, usually fatal. It arises either from severe, high-virulence infections (such as meningococcal meningitis) or from an ordinary infection in a host with lowered resistance (such as E. coli, an abscess, or cellulitis), and its manifestations include septic shock, septic inflammation of serous membranes, acute splenic swelling, hemorrhagic necrotic adrenals (Waterhouse-Friderichsen syndrome), toxic myocarditis and organ injury, diffuse alveolar damage, and disseminated intravascular coagulopathy.
+
+## answer_b
+Toxaemia
+
+## explanation_b
+Incorrect. Toxemia is organismal toxins circulating in the blood, without the bacteria themselves necessarily multiplying there in large numbers — the book's own examples (endotoxin from dying gram-negative bacteria, or exotoxins such as tetanus and diphtheria toxin acting at specific sites) are about the toxin's effect, not about bulk bacterial multiplication in the bloodstream.
+
+## answer_c
+Pyaemia
+
+## explanation_c
+Incorrect. Pyaemia is specifically the circulation of septic emboli, originating from septic thrombophlebitis, that impact in small vessels to form pyemic abscesses — a different mechanism from the free multiplication of bacteria in the blood that defines septicemia.
+
+## answer_d
+Bacteraemia
+
+## explanation_d
+Incorrect. Bacteraemia is the circulation of low doses or low-virulence organisms in the blood, which the book notes may cause no disease at all except fever, unless there is a pre-existing abnormality such as diseased heart valves — the opposite picture from the large-scale, usually fatal bacterial multiplication that defines septicemia.
+
+## topic
+Pathology
+
+## subtopic
+Bacterial infections
+
+## main_concept
+CON-INF-6E5B00C79396B9
+
+## concept_ids
+CON-INF-6E5B00C79396B9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Course and Fate of Infection
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Distinguish septicemia (multiplying bacteria plus toxins in blood) from bacteraemia, toxemia and pyemia by mechanism.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.8
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("44.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q45
+
+## title
+Site of primary tuberculosis
+
+## question
+The following is a site of primary tuberculosis:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Tongue
+
+## explanation_a
+Incorrect. The tongue is not among the department book's four listed sites of primary tuberculosis (lungs, intestine, tonsils, skin); it is, however, mentioned separately as a site of tertiary syphilitic gumma, a different disease the exam paper also tests.
+
+## answer_b
+Nose
+
+## explanation_b
+Incorrect. The nose is not among the book's listed sites of primary tuberculosis.
+
+## answer_c
+Liver
+
+## explanation_c
+Incorrect. The liver is not among the book's listed sites of primary tuberculosis; hepatic involvement in tuberculosis is instead a feature of hematogenous (miliary) spread once the disease has already been established, not a primary infection site.
+
+## answer_d
+Tonsils
+
+## explanation_d
+Correct. The department book lists the sites of primary tuberculosis as the lungs, intestine, tonsils and skin. Tonsillar infection follows ingestion of the organism, most often via infected unpasteurized milk from a diseased cow in children, producing a primary tonsillar complex of granuloma, tuberculous lymphangitis and cervical lymphadenitis, mirroring the same triad — tuberculous lesion, lymphangitis, lymphadenitis — that defines primary tuberculosis wherever it occurs.
+
+## topic
+Pathology
+
+## subtopic
+Bacterial infections
+
+## main_concept
+CON-INF-4FF695608AFC33
+
+## concept_ids
+CON-INF-4FF695608AFC33
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Tuberculosis
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+List the four sites of primary tuberculosis (lungs, intestine, tonsils, skin) and recognise the tonsil as a site reached by ingestion.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.8
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("45.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q46
+
+## title
+Manifestation of primary syphilis
+
+## question
+The following is a manifestation of primary syphilis:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Mucous patches
+
+## explanation_a
+Incorrect. Mucous patches are a secondary-stage lesion in the department book — skin-rash-like lesions on the mucous membranes of the mouth, pharynx, vagina and anus that may ulcerate into a snail-track pattern — appearing about two months after the primary stage, not at it.
+
+## answer_b
+Chancre
+
+## explanation_b
+Correct. The department book names the primary stage of syphilis the hard chancre, appearing about two weeks after infection at the site of bacterial entry (genital or extragenital, such as fingers, lip or tongue). It grossly is a single raised red papule that ulcerates within days into a rounded, superficial ulcer with flat edges, a clean floor and firm margin and base, painless yet very infective, healing by a thin atrophic scar, with painless, mobile, separately enlarged draining lymph nodes. Microscopically the covering epithelium is absent and the subepithelial tissue shows syphilitic granulation tissue — dense perivascular plasma cells, lymphocytes and occasional giant cells, with prominent early endarteritis obliterans, the tissue reaction the book treats as syphilis's histological signature at every stage.
+
+## answer_c
+Condyloma latum
+
+## explanation_c
+Incorrect. Condyloma latum (broad, bulky skin papules in moist areas such as the axilla or under the breast) is a secondary-stage lesion in the department book, appearing about two months after the primary stage.
+
+## answer_d
+Generalized skin rash
+
+## explanation_d
+Incorrect. A generalized skin rash of macules, papules and pustules is a secondary-stage manifestation in the book, appearing about two months after the primary chancre, not at the primary stage itself.
+
+## topic
+Pathology
+
+## subtopic
+Bacterial infections
+
+## main_concept
+CON-INF-9534D78BFE4A9C
+
+## concept_ids
+CON-INF-9534D78BFE4A9C
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Syphilis
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify the hard chancre as the primary-stage lesion of syphilis, distinct from the secondary-stage mucous patches, condyloma latum and skin rash.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.8
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("46.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q47
+
+## title
+Features of chronic fibrocaseous tuberculosis
+
+## question
+Chronic fibrocaseous tuberculosis is characterized by the following:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Primary lung tuberculosis
+
+## explanation_a
+Incorrect. Chronic fibrocaseous tuberculosis is a form of secondary pulmonary tuberculosis, occurring in adults from reinfection or reactivation of a dormant primary lesion, not a form of primary tuberculosis.
+
+## answer_b
+Apical cavitation
+
+## explanation_b
+Correct. The department book describes chronic fibrocaseous pulmonary tuberculosis, which arises with a moderate number of bacilli and moderate immunity, as progressing at the lung apex to an area of caseation surrounded by tuberculous granulation tissue and fibrosis; once caseation involves a bronchus, the caseous material is evacuated and an apical cavity is left, at first yellow and irregular but later smooth from fibrosis, with the fibrous wall progressively destroyed by caseation and reforming further out so the cavity gradually enlarges. Blood vessels and bronchi in the cavity wall are more resistant to caseation than the surrounding lung and so persist as thickened cords or ridges, while the endarteritis affecting them can erode and cause haemoptysis.
+
+## answer_c
+Prominent lymph node lesions
+
+## explanation_c
+Incorrect. The book states lymph node lesions are insignificant in chronic fibrocaseous (secondary) tuberculosis, precisely because immunity already developed from the earlier primary infection limits the number of bacilli reaching the nodes inside macrophages — the opposite of what happens in primary tuberculosis, where the tuberculous-lesion/lymphangitis/lymphadenitis triad is prominent.
+
+## answer_d
+No acinar lesions
+
+## explanation_d
+Incorrect. Acinar lesions do occur in chronic fibrocaseous tuberculosis: part of the caseous material is aspirated into distal bronchioles, producing small clover-leaf-shaped caseating lesions mainly at the lung base, and confluence of these acinar lesions can produce confluent pneumonia.
+
+## topic
+Pathology
+
+## subtopic
+Bacterial infections
+
+## main_concept
+CON-INF-B525A58C8119DE
+
+## concept_ids
+CON-INF-B525A58C8119DE
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Tuberculosis
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Describe chronic fibrocaseous (secondary) pulmonary tuberculosis: apical cavitation, insignificant lymph node lesions and acinar lesions from bronchial aspiration.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.8
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("47.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q48
+
+## title
+Presentation of primary intestinal tuberculosis
+
+## question
+Primary intestinal tuberculosis presents mainly by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Ulcers with undermined edges
+
+## explanation_a
+Incorrect. Ulcers with undermined edges — transverse, girdle-shaped ulcers from lymphatic spread along Peyer's patches and solitary follicles — are the book's description of secondary intestinal tuberculosis (from swallowed infected sputum or reactivation), not the primary intestinal complex.
+
+## answer_b
+Tabes mesenterica
+
+## explanation_b
+Correct. The department book describes the primary intestinal complex as a small intestinal tubercle forming in Peyer's patches of the terminal ileum, which may coalesce and ulcerate, together with tuberculous lymphangitis and mesenteric draining lymph nodes that become enlarged, caseous and adherent — a finding the book names directly as tabes mesenterica. This mirrors the same tuberculous-lesion/lymphangitis/lymphadenitis pattern the book uses to define primary tuberculosis at every site, with the mesenteric lymphadenitis being the dominant, book-named feature at this one.
+
+## answer_c
+Tuberculous peritonitis
+
+## explanation_c
+Incorrect. Tuberculous peritonitis is a complication of spread in a patient with low body resistance (progressive primary tuberculosis), not the main presentation of the primary intestinal complex itself.
+
+## answer_d
+Intestinal obstruction
+
+## explanation_d
+Incorrect. Intestinal obstruction is a complication the book attributes to fibrosis and stenosis in secondary intestinal tuberculosis, not a main presenting feature of the primary intestinal complex.
+
+## topic
+Pathology
+
+## subtopic
+Bacterial infections
+
+## main_concept
+CON-INF-420A4970289CE0
+
+## concept_ids
+CON-INF-420A4970289CE0
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Tuberculosis
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Describe the primary intestinal tuberculous complex (terminal ileal tubercle, lymphangitis, tabes mesenterica) and distinguish it from secondary intestinal tuberculosis's girdle ulcers.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.8
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("48.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q49
+
+## title
+Features of nodular leprosy
+
+## question
+Nodular leprosy is characterized by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Macrophages with vacuolated cytoplasm
+
+## explanation_a
+Correct. The department book states that in lepromatous (nodular) leprosy, which develops in patients with low TH1 cell-mediated immunity, the granuloma's macrophages engulf Mycobacterium leprae bacilli, which proliferate inside their cytoplasm; the cells become vacuolated and are specifically named lepra cells. This vacuolated-macrophage picture is the book's own histological signature of the lepromatous (nodular) form, in contrast to the epithelioid-cell, non-caseating granuloma the book assigns instead to tuberculoid leprosy.
+
+## answer_b
+Non caseating granuloma
+
+## explanation_b
+Incorrect. Non-caseating granulomas composed of epithelioid cells, giant cells and lymphocytes are the book's description of tuberculoid leprosy, the high-immunity form, not the nodular (lepromatous) form, whose granuloma is instead built from macrophages, lymphocytes, plasma cells and giant cells with vacuolated, bacilli-laden lepra cells.
+
+## answer_c
+Anesthetic patches
+
+## explanation_c
+Incorrect. Hypopigmented, anesthetic skin macules with impaired sensation are the book's description of tuberculoid leprosy, not nodular leprosy, whose skin lesions are instead multiple nodules that can give a leonine facies.
+
+## answer_d
+High Immunity
+
+## explanation_d
+Incorrect. Nodular (lepromatous) leprosy develops in patients with low, not high, TH1 cell-mediated immunity — the book explicitly attributes the strong, effective TH1/IFN-gamma response, and hence the low bacillary burden, to the tuberculoid form instead.
+
+## topic
+Pathology
+
+## subtopic
+Bacterial infections
+
+## main_concept
+CON-INF-C1BDF0DDE34498
+
+## concept_ids
+CON-INF-C1BDF0DDE34498
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Leprosy
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Attribute vacuolated macrophages (lepra cells) to low-immunity lepromatous (nodular) leprosy, and contrast this with the non-caseating granuloma and anesthetic patches of high-immunity tuberculoid leprosy.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("49.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q50
+
+## title
+Features of actinomycosis
+
+## question
+Actinomycosis:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Is a fungal infection
+
+## explanation_a
+Incorrect. Actinomycosis is caused by Actinomyces israelii, an anaerobic gram-positive bacterium (a commensal of the mouth, carious teeth and intestine that becomes pathogenic endogenously with lowered immunity), not a fungus, even though its clinical picture of draining sinuses and granules superficially resembles a fungal mycetoma.
+
+## answer_b
+Characterized by the presence of epithelioid granuloma
+
+## explanation_b
+Incorrect. The book describes each actinomycotic abscess as having three zones — a central zone of pus containing bacterial colonies (sulphur granules), a mid zone of inflammatory cells (polymorphs, pus cells, lymphocytes, plasma cells, macrophages and giant cells), and an outer zone of fibrosis — rather than the epithelioid-cell granuloma structure seen in tuberculosis or leprosy.
+
+## answer_c
+Shows multiple sinus formation
+
+## explanation_c
+Correct. The department book describes actinomycosis grossly as multiple intercommunicating abscesses opening to the surface through multiple sinuses, discharging pus and yellow bacterial colonies known as sulphur granules. Cervicofacial actinomycosis (60% of cases, around the angle of the mandible and neck) is the commonest site, entering through the buccal mucosa after minor trauma; intestinal (20%), pulmonary (15%) and skin (5%) forms make up the rest, and because the causative filaments are too large to enter lymphatics, spread when it occurs is by blood rather than lymphatic channels.
+
+## answer_d
+Is an acute disease
+
+## explanation_d
+Incorrect. Actinomycosis runs a chronic course, with the book describing multiple intercommunicating abscesses and sinuses forming over time, not an acute presentation.
+
+## topic
+Pathology
+
+## subtopic
+Bacterial infections
+
+## main_concept
+CON-INF-46951EC6118C17
+
+## concept_ids
+CON-INF-46951EC6118C17
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Actinomycosis
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Describe actinomycosis as a chronic, gram-positive bacterial disease with multiple sinuses discharging sulphur granules, not a fungal or acute condition.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("50.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q51
+
+## title
+Definition of pyemia
+
+## question
+Pyemia is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Circulating bacteria and toxins
+
+## explanation_a
+Incorrect. Circulating bacteria and their toxins together describes septicemia, the book's own definition, not pyemia — pyemia's defining feature is the emboli themselves, not free-circulating organisms.
+
+## answer_b
+Circulating highly virulent bacteria
+
+## explanation_b
+Incorrect. Circulating highly virulent bacteria alone, without emboli, better matches the book's account of the etiology of septicemia (severe infections with high-virulence organisms) rather than the emboli-based definition of pyemia.
+
+## answer_c
+Results from phlebothrombosis
+
+## explanation_c
+Incorrect. Phlebothrombosis is one cause the book lists for venous thrombosis in general — thrombosis initiated by factors other than inflammation, such as stasis in calf veins of cardiac patients — but it is not itself the definition of pyemia; septic thrombophlebitis, not phlebothrombosis, is the book's stated origin of the septic emboli that define pyemia.
+
+## answer_d
+Circulating septic emboli
+
+## explanation_d
+Correct. The department book defines pyemia as the circulation of septic emboli, originating from septic thrombophlebitis, in the blood; these emboli impact in vessels with a small lumen and form a pyemic abscess. Grossly, a pyemic abscess is multiple, small and yellow, surrounded by a zone of hyperemia related to a blood vessel at the organ's periphery, and microscopically shows a blood vessel with a nearby focus of suppuration surrounded by a pyogenic membrane — the book's own worked types (pulmonary, systemic and portal pyemia) each trace back to septic thrombophlebitis somewhere in the venous circuit feeding that organ.
+
+## topic
+Pathology
+
+## subtopic
+Bacterial infections
+
+## main_concept
+CON-INF-6E5B00C79396B9
+
+## concept_ids
+CON-INF-6E5B00C79396B9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Course and Fate of Infection
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Define pyemia as circulating septic emboli from septic thrombophlebitis, forming pyemic abscesses, and distinguish it from septicemia and bacteraemia.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("51.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q52
+
+## title
+Most common cause of death in AIDS
+
+## question
+Most common cause of death in AIDS infected patients is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Kaposi Sarcoma
+
+## explanation_a
+Incorrect. Kaposi's sarcoma is one of the malignant neoplasms the book lists as occurring in the final crisis phase of HIV infection, but the book names opportunistic infection, not a specific neoplasm, as the main cause of death.
+
+## answer_b
+Non Hodgkin Lymphoma
+
+## explanation_b
+Incorrect. Non-Hodgkin's lymphoma is likewise one of the AIDS-associated malignancies the book lists, but it is not what the book identifies as the leading cause of death.
+
+## answer_c
+Opportunistic infection
+
+## explanation_c
+Correct. The department book states directly that opportunistic infections are the main cause of death in AIDS, occurring in the final crisis phase once host defence breaks down and viral replication recrudesces. It lists protozoal and helminthic infections (strongyloidiasis, pneumocystis), fungal infections (candidiasis, histoplasmosis, cryptococcosis), bacterial infections (tuberculosis, atypical mycobacteriosis, salmonella and shigella) and viral infections (cytomegalovirus, herpes simplex virus, EBV) as the organisms responsible, reflecting the selective loss of CD4+ helper T cells and impaired function of the surviving ones that HIV, a retrovirus, produces.
+
+## answer_d
+Autoimmune diseases secondary to T-Helper cells dysfunction
+
+## explanation_d
+Incorrect. The book frames AIDS mortality around opportunistic infection and malignancy arising from the loss of CD4+ T-helper cell function, not around an autoimmune process; it does not describe autoimmune disease as the leading cause of death.
+
+## topic
+Pathology
+
+## subtopic
+Viral infections
+
+## main_concept
+CON-INF-324F03A30F7F5F
+
+## concept_ids
+CON-INF-324F03A30F7F5F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 6 Viral Infections > AIDS
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+State that opportunistic infection, not a specific neoplasm or autoimmune process, is the main cause of death in AIDS, and name the organism categories involved.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("52.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q53
+
+## title
+Neoplasm seen in AIDS
+
+## question
+One of the following neoplasms can be seen in AIDS:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Common warts
+
+## explanation_a
+Incorrect. Common warts are a benign HPV lesion in the department book's HPV section, not one of the malignant neoplasms the book lists under the AIDS crisis phase.
+
+## answer_b
+Cancer cervix
+
+## explanation_b
+Incorrect. Cancer cervix is discussed in the book under high-risk HPV strains (16 and 18), but it is not among the malignancies the book's own AIDS section names — non-Hodgkin's lymphoma, Burkitt's lymphoma, primary CNS lymphoma and Kaposi's sarcoma — as arising in the final crisis phase of HIV infection.
+
+## answer_c
+Primary CNS lymphoma
+
+## explanation_c
+Correct. The department book lists primary CNS lymphoma, alongside non-Hodgkin's lymphoma, Burkitt's lymphoma and Kaposi's sarcoma, as one of the malignant neoplasms that arise in the final crisis phase of AIDS, once breakdown of host defence lets both opportunistic infection and these tumours emerge. This same crisis-phase malignancy list also includes Kaposi's sarcoma and non-Hodgkin's lymphoma, so a question naming any one of these four tumours is drawing on the same book passage.
+
+## answer_d
+Genital warts
+
+## explanation_d
+Incorrect. Genital warts (condyloma acuminatum) are a benign, sexually transmitted HPV lesion in the book's HPV section, not a malignant neoplasm, and are not among the book's list of AIDS-associated tumours.
+
+## topic
+Pathology
+
+## subtopic
+Viral infections
+
+## main_concept
+CON-INF-324F03A30F7F5F
+
+## concept_ids
+CON-INF-324F03A30F7F5F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 6 Viral Infections > AIDS
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Name primary CNS lymphoma, non-Hodgkin's lymphoma, Burkitt's lymphoma and Kaposi's sarcoma as the book's AIDS-associated malignancies, and distinguish them from benign HPV lesions.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("53.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q55
+
+## title
+Hepatic bilharziasis
+
+## question
+Which is true about hepatic bilharziasis:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The portal tracts may show dilated vascular channels
+
+## explanation_a
+Correct. The department book describes angiomatoid formation in the portal tracts of hepatic bilharziasis: dilated, congested anastomotic collateral channels that open between branches of the hepatic artery and portal vein to bypass the fibrotic obstruction of the portal tracts caused by repeated ova emboli. This is one of the book's three named microscopic portal-tract findings, alongside widening by fibrosis and ova surrounded by granulomas, and it is part of the mechanism the book gives for how portal hypertension develops — angiomatoids convey the higher pressure of the hepatic artery directly to the portal veins.
+
+## answer_b
+At a late stage of the disease the liver appears markedly enlarged
+
+## explanation_b
+Incorrect. The book states the liver is enlarged only early, from reticuloendothelial cell hyperplasia; at a late stage, with progressive portal fibrosis, it becomes shrunken, firm, with an irregular surface and thickened capsule — the reverse of what this option claims.
+
+## answer_c
+The hepatic framework is markedly disturbed
+
+## explanation_c
+Incorrect. The book states explicitly that the liver cells and lobules are not affected in hepatic bilharziasis — only the portal tracts (fibrosis, ova granulomas, angiomatoids) and the sinusoids (increased hematin-laden Kupffer cells) are involved, so the hepatic parenchymal framework itself is preserved, not disturbed.
+
+## answer_d
+The Kupffer cells engulf bile pigment due to jaundice
+
+## explanation_d
+Incorrect. The book attributes the pigment in Kupffer cells to hematin taken up from bilharzial pigment, giving the cut liver surface its dark brown colour, not to bile pigment from jaundice; hepatic bilharziasis in the book's description is a portal fibrosing disease, not a cholestatic one.
+
+## topic
+Pathology
+
+## subtopic
+Parasitic infestations
+
+## main_concept
+CON-INF-92D5067ECA6A8D
+
+## concept_ids
+CON-INF-92D5067ECA6A8D
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 8 Parasitic Infestations > Bilharziasis of the Liver
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Describe hepatic bilharzial periportal fibrosis: preserved liver lobules, portal tract fibrosis and angiomatoid channels, and progression from early enlargement to late shrinkage.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("55.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q56
+
+## title
+Complications of rectal bilharziasis
+
+## question
+Bilharziasis of the rectum can lead to all of the following EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Hemorrhage
+
+## explanation_a
+Incorrect (this is a true complication, not the EXCEPT). The department book lists hemorrhage — fresh blood in the stool, since the lesions sit in the rectosigmoid region — as a complication of bilharzial colitis.
+
+## answer_b
+Bilharziasis of the liver
+
+## explanation_b
+Incorrect (this is a true complication, not the EXCEPT). The book states that ova from the colon are carried as emboli through the portal vein to the liver, so hepatic bilharziasis is itself a described route of spread from the colonic infection.
+
+## answer_c
+Dysentery
+
+## explanation_c
+Incorrect (this is a true complication, not the EXCEPT). The book lists secondary infection of the bilharzial ulcers resulting in dysentery — diarrhea, blood, mucus and tenesmus — as a complication of bilharzial colitis.
+
+## answer_d
+Cancer colon
+
+## explanation_d
+Correct — this is the EXCEPT. The book's list of complications for bilharziasis of the large intestine covers hemorrhage, secondary infection with dysentery, and (rarely) stenosis and intestinal obstruction; it does not name colon cancer as a complication of colonic bilharziasis. This is unlike the urinary bladder, where the book explicitly names cystitis glandularis and leukoplakia as precancerous lesions predisposing to malignant transformation — a distinction the exam is testing directly.
+
+## topic
+Pathology
+
+## subtopic
+Parasitic infestations
+
+## main_concept
+CON-INF-1A5FE3A93775E2
+
+## concept_ids
+CON-INF-1A5FE3A93775E2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 8 Parasitic Infestations > Bilharziasis of the Large Intestine
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+List the complications of colonic (rectosigmoid) bilharziasis (hemorrhage, dysentery, hepatic spread via the portal vein) and recognise that, unlike bladder bilharziasis, the book does not name colon cancer among them.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("56.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q57
+
+## title
+Pulmonary bilharziasis
+
+## question
+Which of the following is true about pulmonary bilharziasis:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Common complication of bilharzial cases
+
+## explanation_a
+Incorrect. The department book states that emboli of ova and worms reach the lung in only about 20% of bilharzial cases, which does not fit calling it a common complication of bilharzial disease generally.
+
+## answer_b
+The lesions are commonly caused by Schistosoma Mansoni
+
+## explanation_b
+Incorrect. The book attributes pulmonary lesions chiefly to Schistosoma hematobium, whose ova pass from the vesical plexus through the internal iliac veins and inferior vena cava to the lungs; Schistosoma mansoni ova reach the lung only in cases of bilharzial hepatosplenomegaly, via opened portal-systemic anastomoses — a less direct, less commonly described route than the hematobium pathway the book emphasizes.
+
+## answer_c
+Lesions are caused by ova and worms
+
+## explanation_c
+Correct. The department book gives two mechanisms for pulmonary bilharzial injury: trapped ova causing endarteritis and interstitial fibrosis, and dead worms causing necrosis and severe allergic inflammation of the lung tissue, termed verminous pneumonia. Both the ova and the worms themselves are named as causes of the lesions, which is exactly what this option states, distinguishing pulmonary bilharziasis from purely ova-driven lesions elsewhere in the body.
+
+## answer_d
+It may be complicated by squamous cell carcinoma
+
+## explanation_d
+Incorrect. The book does not describe squamous cell carcinoma as a complication of pulmonary bilharziasis; malignant transformation from squamous metaplasia is a complication the book reserves for the urinary bladder, where chronic ovum irritation drives leukoplakia and cystitis glandularis toward cancer, not for the lung.
+
+## topic
+Pathology
+
+## subtopic
+Parasitic infestations
+
+## main_concept
+CON-INF-6C300619B04AE3
+
+## concept_ids
+CON-INF-6C300619B04AE3
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 8 Parasitic Infestations > Pulmonary Bilharziasis
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Attribute pulmonary bilharzial lesions to both trapped ova (endarteritis, fibrosis) and dead worms (verminous pneumonia), and note the hematobium-dominant route via the vesical plexus.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("57.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q58
+
+## title
+Stain for cytology
+
+## question
+The perfect stain for cytology is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Hematoxylin and eosin stain
+
+## explanation_a
+Incorrect. Hematoxylin and eosin is the routine stain for tissue histology sections, but the department book names a different stain as ideal for cytology specimens specifically.
+
+## answer_b
+Alcian blue stain
+
+## explanation_b
+Incorrect. Alcian blue is one of the book's mucin stains used in cytohistochemistry to identify mucin-containing substances in tissue, not the stain the book calls perfect for cytology.
+
+## answer_c
+Papnicolaou stain (PAP)
+
+## explanation_c
+Correct. The department book states directly that the perfect stain for cytology is the Papanicolaou stain (PAP). Cytopathology is a rapid, inexpensive, non-invasive method of patient evaluation, used for screening (cervico-vaginal PAP smears for premalignant cervical lesions, urine screening in industrial carcinogen exposure), initial diagnosis, and follow-up; samples include fluids (effusions, ascitic fluid, urine, CSF), smears, sputum, fine needle aspiration cytology and discharge, and fluids are centrifuged with the sediment smeared and fixed in 95% ethanol before staining.
+
+## answer_d
+Prussian blue stain
+
+## explanation_d
+Incorrect. Prussian blue is the book's iron-detection stain (used to demonstrate hemosiderin, as in fibrosiderotic nodules), not the stain named for routine cytology preparations.
+
+## topic
+Pathology
+
+## subtopic
+Techniques used in pathology
+
+## main_concept
+CON-FND-615C9D19BED36F
+
+## concept_ids
+CON-FND-615C9D19BED36F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 11 Techniques Used in Pathology > Cytopathology
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Name the Papanicolaou (PAP) stain as the standard cytology stain and state cytopathology's main uses (screening, diagnosis, follow-up).
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("58.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q59
+
+## title
+Total body irradiation syndromes
+
+## question
+Total body irradiation result in all of the following EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Hematopoietic syndrome
+
+## explanation_a
+Incorrect (this is a true early effect, not the EXCEPT). The department book names the haemopoietic syndrome, from 200-600 rem, causing bone marrow depression, as one of the early/acute radiation syndromes of total body exposure.
+
+## answer_b
+Vascular syndrome
+
+## explanation_b
+Correct — this is the EXCEPT. The book's early radiation syndromes are radiation sickness (mild, 50-200 rem), haemopoietic syndrome (200-600 rem), gastrointestinal syndrome (300-1000 rem) and cerebral syndrome (over 1000 rem, ending in convulsions and coma). "Vascular syndrome" is not one of the book's four named acute-exposure syndromes — radiation vasculitis and thrombosis are listed among the book's other, non-syndromic late organ effects, not as one of the graded whole-body dose syndromes, which is exactly why the book's own formative-assessment question on this material carries this same answer.
+
+## answer_c
+Cerebral syndrome
+
+## explanation_c
+Incorrect (this is a true early effect, not the EXCEPT). The cerebral syndrome, at over 1000 rem and ending in convulsions and coma, is the most severe of the book's four named acute radiation syndromes.
+
+## answer_d
+Gastro-intestinal syndrome
+
+## explanation_d
+Incorrect (this is a true early effect, not the EXCEPT). The gastrointestinal syndrome, from 300-1000 rem, producing severe diarrhea, vomiting and GIT hemorrhage, is one of the book's four named acute radiation syndromes.
+
+## topic
+Pathology
+
+## subtopic
+Environmental pathology
+
+## main_concept
+CON-FND-85395A8500798E
+
+## concept_ids
+CON-FND-85395A8500798E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 9 Environmental Pathology > Radiation Injury
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Name the four graded acute total-body-irradiation syndromes (radiation sickness, haemopoietic, gastrointestinal, cerebral) by rising dose, and recognise 'vascular syndrome' as not one of them.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("59.B"); the department book's own formative-assessment MCQ on this exact stem carries the same answer (b), p.127.
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q60
+
+## title
+Features of pellagra
+
+## question
+Pellagra is characterized by all the following EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Dermatitis
+
+## explanation_a
+Incorrect (this is a true feature, not the EXCEPT). Dermatitis — red, thick, scaly, sharply demarcated, irregularly pigmented skin in sun-exposed regions, with a beefy red tongue — is the first of the book's "three D's" of niacin (vitamin B3) deficiency, pellagra.
+
+## answer_b
+Dementia
+
+## explanation_b
+Incorrect (this is a true feature, not the EXCEPT). Dementia — mental illness with loss of frontal-lobe neurons and demyelination of the lateral and posterior spinal columns — is the third of the book's "three D's" of pellagra (the book also notes a fourth, unlisted "D": death).
+
+## answer_c
+Diarrhea
+
+## explanation_c
+Incorrect (this is a true feature, not the EXCEPT). Diarrhea — a hyperaemic colon covered by pseudomembrane, with necrosis and mononuclear infiltration microscopically — is the second of the book's "three D's" of pellagra.
+
+## answer_d
+Long bones bowing
+
+## explanation_d
+Correct — this is the EXCEPT. Bowing of the long bones is a feature of rickets, the book's vitamin D deficiency chapter, not of pellagra, which is a niacin (vitamin B3) deficiency disease affecting skin, gut and brain rather than bone mineralization. This option tests whether the two nutritional-deficiency chapters — vitamin D (rickets/osteomalacia) and vitamin B3 (pellagra) — have been kept apart rather than merged into one generic 'vitamin deficiency' picture.
+
+## topic
+Pathology
+
+## subtopic
+Nutritional disorders
+
+## main_concept
+CON-FND-BFCED5D968B197
+
+## concept_ids
+CON-FND-BFCED5D968B197
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 9 Nutritional Disorders > Vitamin B3 Deficiency
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Name the 'three D's' of pellagra (dermatitis, diarrhea, dementia) and recognise long-bone bowing as a rickets feature, not a pellagra one.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("60.D")

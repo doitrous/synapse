@@ -399,3 +399,285 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
 ## reading_time
 11
+
+
+---
+
+# Item
+## id
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## title
+Bacterial infections: blood-stream spread, tuberculosis, syphilis, leprosy and actinomycosis
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Pathology
+## summary
+Once local infection breaks through the inflammatory barrier, it spreads by direct extension, lymphatics, or one of four blood-stream patterns (bacteraemia, toxemia, septicemia, pyemia). The module's four chronic bacterial diseases each show a distinct granulomatous signature driven by the host's own immune response: tuberculosis's caseating epithelioid granuloma, with primary disease (unsensitized host, four possible sites, prominent lymphadenitis) giving way to a very differently shaped secondary disease (apical cavitation, minimal nodal involvement); syphilis's time-staged chancre-rash-gumma sequence; leprosy's TH1-driven spectrum from non-caseating tuberculoid to vacuolated-macrophage lepromatous disease; and actinomycosis's sinus-forming, sulphur-granule abscess.
+## sections
+### Definition
+Once a local infection overwhelms the inflammatory and immune barriers meant to contain it, it spreads either by direct extension, by lymphatics (lymphangitis, then regional then generalized lymphadenitis, reaching blood via the thoracic duct), or by the blood stream itself, in one of four named patterns: bacteraemia (low-dose or low-virulence circulating organisms, usually silent unless a diseased heart valve is present), toxemia (circulating toxin — endotoxin from dying gram-negative organisms, or exotoxins such as tetanus and diphtheria toxin acting at specific distant sites), septicemia (large numbers of multiplying bacteria plus their toxins, usually fatal) and pyemia (circulating septic emboli from septic thrombophlebitis, forming pyemic abscesses). Chronic bacterial infections in this module each show a distinct granulomatous pattern: tuberculosis (caseating granulomas of epithelioid cells, Langhans giant cells and lymphocytes), syphilis (perivascular plasma-cell-rich granulation tissue with early endarteritis obliterans), leprosy (a spectrum from non-caseating tuberculoid to vacuolated-macrophage lepromatous granulomas) and actinomycosis (sulphur-granule abscesses with fibrous walling).
+
+### Mechanism
+Tuberculosis's immune choreography explains both its granuloma and its two clinical faces. Macrophages that first engulf Mycobacterium tuberculosis cannot immediately kill it — the organism blocks phagosome-lysosome fusion — so early bacteraemic seeding occurs before cell-mediated immunity develops; once TH1 cells arrive (about three weeks in), interferon-gamma-activated macrophages (epithelioid cells) wall the organism into a granuloma with central caseation, some epithelioid cells fusing into Langhans giant cells. Primary tuberculosis (an unsensitized host, exogenous source, at lung, intestine, tonsil or skin) is defined by the triad of tissue lesion, lymphangitis and lymphadenitis; secondary tuberculosis (reinfection or reactivation, pre-existing immunity) shows extensive caseation but minimal lymph node disease, because the migration inhibition factor keeps bacilli-laden macrophages from reaching the nodes in large numbers — which is exactly why chronic fibrocaseous pulmonary tuberculosis (apical cavity, acinar lesions) and the primary intestinal complex (tabes mesenterica) look so different from each other despite sharing an organism. Syphilis's three stages track how long Treponema pallidum has been established: the primary chancre appears about two weeks after inoculation at the entry site; the secondary stage, about two months later, is systemic (rash, condyloma lata, mucous patches, generalized lymphadenitis) as the organism disseminates via lymphatics and blood; and the tertiary stage, at about two years, is either a localized gumma (necrosis walled by fibrosis and granulation tissue) or diffuse fibrosing infiltration of an organ. Leprosy's two forms are opposite ends of the same TH1 spectrum: strong TH1/interferon-gamma response gives tuberculoid leprosy its low bacillary burden, non-caseating epithelioid granulomas and anesthetic patches, while weak TH1 response lets Mycobacterium leprae proliferate inside macrophages in lepromatous leprosy, producing vacuolated lepra cells and diffuse nodular disease. Actinomycosis behaves differently again: Actinomyces israelii is an endogenous commensal that becomes invasive with lowered local resistance, and because its filaments are too large to enter lymphatics, it spreads locally and by blood, walling off into abscesses that intercommunicate and drain through multiple sinuses.
+
+### Key determinants
+Every question here turns on placing a described lesion at the right point on one of four axes: which blood-spread pattern (bacteraemia/toxemia/septicemia/pyemia) a given clinical picture represents; whether a tuberculous lesion is primary (unsensitized, triad of lesion/lymphangitis/lymphadenitis, four possible sites) or secondary (pre-existing immunity, extensive caseation, minimal nodal disease, apex-of-lung or terminal-ileum location); which stage of syphilis a lesion belongs to, by its time course after infection; and which pole of the leprosy TH1 spectrum a granuloma or skin lesion describes.
+
+### Clinical significance
+Recognising pyemia (septic emboli from septic thrombophlebitis) as distinct from septicemia matters because their sources and hence their surgical targets differ — pyemia points to a focus of thrombophlebitis to drain or excise, while septicemia points to systemic antimicrobial and supportive therapy. Distinguishing primary from secondary tuberculosis guides both epidemiology (primary disease implies a new exposure, often in a child; secondary disease implies reactivation or reinfection, more often in an adult) and radiographic interpretation (apical cavitation is a secondary-disease finding). Recognising the two poles of leprosy matters for both prognosis and infectivity: the low-immunity lepromatous form carries the higher bacillary burden and is more transmissible, while the high-immunity tuberculoid form is more localized.
+
+### Common misconceptions
+Treating bacteraemia, toxemia, septicemia and pyemia as synonyms for "blood poisoning" rather than four mechanistically distinct entities. Assuming secondary tuberculosis reproduces primary disease's prominent lymphadenitis, when pre-existing immunity specifically limits nodal involvement in the secondary form. Assigning the girdle-shaped, undermined-edge intestinal ulcers to primary rather than secondary intestinal tuberculosis. Placing the generalized rash, condyloma latum or mucous patches at the primary stage of syphilis rather than the secondary stage that follows the chancre by about two months. Attaching the non-caseating-granuloma, anesthetic-patch picture of tuberculoid leprosy to the lepromatous (nodular) form instead. Calling actinomycosis a fungal disease because of its mycetoma-like sinus tracts, when the causative organism is a gram-positive bacterium.
+## universities
+kau
+## years
+KAU_Y2
+## module
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections
+## subtopic
+Bacterial infections
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T01
+## related_concepts
+CON-INF-6E5B00C79396B9
+CON-INF-4FF695608AFC33
+CON-INF-B525A58C8119DE
+CON-INF-420A4970289CE0
+CON-INF-9534D78BFE4A9C
+CON-INF-C1BDF0DDE34498
+CON-INF-46951EC6118C17
+## related_articles
+
+## resource_ids
+src_71e9056fb934dc28806a
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
+## reading_time
+12
+
+---
+
+# Item
+## id
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+## title
+AIDS and bilharziasis: HIV's crisis phase and schistosomal disease by organ
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Pathology
+## summary
+HIV's staged CD4-depletion course culminates in a crisis phase whose two faces the exam tests separately: opportunistic infection, the main cause of death, and a short list of characteristic malignancies. Bilharziasis is one parasite (Schistosoma) producing a shared ova-driven granuloma sequence -- sandy patch, polyp, ulcer -- wherever its eggs lodge, with the clinical picture and complication set determined entirely by which organ that turns out to be: bladder, colon, liver, or lung.
+## sections
+### Definition
+HIV is a retrovirus that selectively depletes CD4+ helper T cells, progressing through an early acute phase, a middle latent chronic phase, and a final crisis phase of opportunistic infection (the main cause of death) and characteristic malignancy (non-Hodgkin's lymphoma, Burkitt's lymphoma, primary CNS lymphoma, Kaposi's sarcoma). Bilharziasis (schistosomiasis) is a parasitic allergic granulomatous disease from Schistosoma mansoni (adult worms in rectal veins, ova reaching the colon) or Schistosoma hematobium (adult worms in bladder veins, ova reaching the urinary tract), with lesions driven by three separate insults — trapped ova (type IV hypersensitivity granuloma), cercarial skin penetration (acute allergic dermatitis) and dead worms (severe allergic inflammation and necrosis) — and organ-specific consequences wherever ova or worms end up: colon, liver (via the portal vein), bladder, or lung.
+
+### Mechanism
+AIDS's clinical staging follows the CD4 count: early acute infection has high viral replication with an antiviral response and nonspecific symptoms; the latent phase has low-level replication that can persist seven to ten years; and the final crisis phase begins once host defence collapses and replication recrudesces, opening the door to organisms the immune system normally suppresses without effort (Pneumocystis, atypical mycobacteria, CMV, Candida) and to the virus-driven or immune-surveillance-dependent tumours the book names. Bilharziasis's ova-driven lesions follow a shared three-stage granuloma sequence wherever they occur — cellular granuloma (macrophages, epithelioid cells, eosinophils, giant cells around the ovum), fibrocellular granuloma (granulation tissue forms around it), and fibrous (healed) granuloma — which is why sandy patches (calcified ova with mucosal atrophy), polyps (repeated small ova deposits raising the mucosa) and ulcers (mucosal damage by penetrating ova) appear in a strikingly similar form in the bladder, colon and elsewhere. Site determines the downstream consequence: hepatic bilharziasis (S. mansoni ova reaching the liver as portal-vein emboli) spares the hepatocytes but fibroses the portal tracts, and the resulting portal hypertension is compounded by angiomatoid collateral channels that carry hepatic-artery pressure directly into the portal veins; colonic bilharziasis stays largely a mucosal/submucosal disease with a low complication rate because the colon is wide and lesions superficial; and pulmonary bilharziasis, reached mainly via S. hematobium ova travelling from the vesical plexus through the inferior vena cava (with S. mansoni reaching the lung only via portal-systemic anastomoses in hepatosplenic disease), produces both ova-driven endarteritis/fibrosis and, from dead worms, a distinct necrotizing allergic pneumonia (verminous pneumonia).
+
+### Key determinants
+For AIDS, the exam turns on keeping "cause of death" (opportunistic infection) separate from "characteristic malignancy" (the four named tumours), and on not letting an HPV-related lesion (which belongs to a different viral section of the book) drift into the AIDS malignancy list. For bilharziasis, it turns on tracking which organ a given clinical vignette describes and matching that organ's specific complication set — the bladder's precancerous cystitis glandularis/leukoplakia has no colonic or pulmonary equivalent in the book's own text, and the lung's dual ova-plus-worm mechanism has no equivalent single mechanism at the other sites.
+
+### Clinical significance
+Recognising which opportunistic organisms cluster in the AIDS crisis phase shapes prophylaxis and empirical treatment in a newly diagnosed or poorly controlled patient. Recognising portal hypertension as the downstream consequence of hepatic bilharziasis — via portal tract fibrosis and angiomatoid shunting rather than hepatocellular failure — explains why bilharzial patients can have preserved synthetic liver function yet still bleed from esophageal varices, a pattern distinct from cirrhosis of other causes.
+
+### Common misconceptions
+Assuming any AIDS-era malignancy belongs on the book's own AIDS list, when the book names only non-Hodgkin's/Burkitt's/primary CNS lymphoma and Kaposi's sarcoma there, filing HPV-related tumours under the HPV section instead. Assuming hepatic bilharziasis behaves like cirrhosis, disturbing the liver lobules themselves, when the book states explicitly that the lobules are preserved and only the portal tracts and sinusoids are involved. Assuming colonic bilharziasis carries the same explicit cancer risk the book gives the bladder. Assuming Schistosoma mansoni is the dominant cause of pulmonary bilharziasis, when the book's more direct, more commonly described route is S. hematobium via the vesical plexus.
+## universities
+kau
+## years
+KAU_Y2
+## module
+208 INT
+## module_subject
+208 INT > Chapter 6 Viral Infections; Chapter 8 Parasitic Infestations
+## subtopic
+Viral and parasitic infections
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T02-S02
+## related_concepts
+CON-INF-324F03A30F7F5F
+CON-INF-92D5067ECA6A8D
+CON-INF-1A5FE3A93775E2
+CON-INF-6C300619B04AE3
+## related_articles
+
+## resource_ids
+src_71e9056fb934dc28806a
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
+## reading_time
+10
+
+---
+
+# Item
+## id
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+## title
+Cytopathology, radiation injury and pellagra
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## topic
+Pathology
+## summary
+Three late-chapter topics grouped by their shared position in the department book rather than by mechanism: the PAP stain that makes cytology screening possible, the four dose-graded acute syndromes of total body irradiation, and pellagra's dermatitis-diarrhea-dementia triad from niacin deficiency -- kept carefully apart from the neighbouring vitamin D deficiency chapter's bone disease.
+## sections
+### Definition
+This article groups three otherwise unrelated topics that share only their position late in the department book: cytopathology, a diagnostic technique; total body irradiation, an environmental/physical injury; and pellagra, a nutritional deficiency disease. Cytopathology is rapid, inexpensive, non-invasive evaluation of cells shed or aspirated from a lesion, stained for screening, diagnosis or treatment follow-up. Total body irradiation produces four acute, dose-graded syndromes (radiation sickness, haemopoietic, gastrointestinal, cerebral) plus separate late and organ-specific effects. Pellagra is niacin (vitamin B3) deficiency, producing the "three D's" — dermatitis, diarrhea, dementia — distinct from vitamin D deficiency's bone disease (rickets/osteomalacia), which sits in the same nutritional-disorders chapter but is a different vitamin and a different organ system entirely.
+
+### Mechanism
+Cytopathology's sample-to-diagnosis pathway starts with a fluid or smear (effusion, ascitic fluid, urine, CSF, cervico-vaginal smear, sputum, fine needle aspirate, or discharge); fluids are centrifuged and the sediment smeared like a blood film, then fixed in 95% ethanol before staining — the department book naming the Papanicolaou (PAP) stain as the ideal cytology stain, most familiar as the basis of cervical cancer screening. Total body irradiation's four acute syndromes track rising absorbed dose because different tissues have different radiosensitivity thresholds: at 50-200 rem only the fastest-turnover tissues (bone marrow, gut epithelium) show mild, largely subclinical injury (radiation sickness); at 200-600 rem bone marrow depression dominates (haemopoietic syndrome); at 300-1000 rem gut epithelial loss causes severe diarrhea, vomiting and haemorrhage (gastrointestinal syndrome); and above 1000 rem, direct CNS injury causes convulsions and coma (cerebral syndrome, uniformly lethal). Niacin deficiency produces pellagra's three-D triad because tryptophan, niacin's metabolic precursor, is both low in maize itself and poorly absorbed from it, so populations dependent on corn as a staple (or with alcohol-related malabsorption/intake failure) develop deficiency in the skin (photosensitive dermatitis), gut (mucosal necrosis and pseudomembranous colitis-like diarrhea) and CNS (frontal-lobe neuronal loss and posterior/lateral spinal column demyelination) simultaneously, because all three tissues depend heavily on niacin-requiring metabolic pathways.
+
+### Key determinants
+For total body irradiation, the exam turns on matching a described clinical picture (mild GI upset vs bone marrow failure vs severe GI haemorrhage vs coma) to its correct dose-graded syndrome name, and on not inventing syndromes the book does not name (there is no "vascular syndrome" among the four). For pellagra, it turns on keeping the three-D mnemonic (dermatitis, diarrhea, dementia) free of features that actually belong to the neighbouring vitamin D deficiency topic (bone bowing, rachitic rosary, craniotabes) in the same chapter.
+
+### Clinical significance
+The PAP smear's role in cervical cancer screening is the most widely applied piece of this article's content outside the pathology course itself. Recognising which acute radiation syndrome a patient's presentation fits guides both prognosis and the urgency of supportive care (bone marrow support for the haemopoietic syndrome, aggressive fluid and electrolyte management for the gastrointestinal syndrome). Recognising pellagra's dermatitis-diarrhea-dementia triad, and its association with alcoholism or a corn-dependent diet, points directly at niacin replacement as the corrective treatment.
+
+### Common misconceptions
+Naming H&E, Alcian blue or Prussian blue as the "perfect" cytology stain instead of PAP, when each of those has a different, more specific use (routine histology, mucin detection, iron detection) in the book's own text. Inventing a fifth acute radiation syndrome ("vascular syndrome") that the book does not list among its four dose-graded categories. Merging pellagra's soft-tissue triad with vitamin D deficiency's bone-mineralization disease because both sit in the same nutritional-disorders chapter.
+## universities
+kau
+## years
+KAU_Y2
+## module
+208 INT
+## module_subject
+208 INT > Chapter 9 Nutritional and Environmental Pathology; Chapter 11 Techniques Used in Pathology
+## subtopic
+Environmental pathology and cytology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## related_concepts
+CON-FND-615C9D19BED36F
+CON-FND-85395A8500798E
+CON-FND-BFCED5D968B197
+## related_articles
+
+## resource_ids
+src_71e9056fb934dc28806a
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
+## reading_time
+8

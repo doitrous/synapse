@@ -2969,3 +2969,1617 @@ resourceOccurrenceIds: Read by hand from the department book page 78 (Chapter 4,
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: Sibling of the chronic-ischemia and dry-gangrene concepts minted from the same department-book chapter; no typed relation authored yet.
+
+
+---
+
+# Item
+## id
+CON-INF-6E5B00C79396B9
+## label
+Septicemia is multiplying bacteria and toxins in the blood; pyemia is circulating septic emboli from septic thrombophlebitis
+## canonical_key
+sepsis.terminology.bacteremia-toxemia-septicemia-pyemia
+## aliases
+Bacteraemia vs toxemia vs septicemia vs pyemia
+Blood-stream spread of infection
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When local infection fails to stay contained, it spreads by the bloodstream in one of four patterns the department book keeps distinct. Bacteraemia is circulation of low-dose or low-virulence organisms, usually causing no disease unless there is a pre-existing abnormality such as diseased heart valves. Toxemia is organismal toxins in the circulation, from gram-negative endotoxin released on bacterial death, or gram-positive exotoxins acting at specific sites (tetanus, diphtheria, bacillary dysentery). Septicemia, usually fatal, is the circulation of large numbers of multiplying bacteria together with their toxins, from either a high-virulence organism or an ordinary infection in a low-resistance host, producing septic shock, serosal inflammation, splenic swelling, Waterhouse-Friderichsen adrenal necrosis, toxic organ injury and DIC. Pyemia is the circulation of septic emboli, arising from septic thrombophlebitis, which impact in small vessels to form pyemic abscesses (pulmonary, systemic or portal, depending on the venous route).
+## explicit_objective
+Distinguish bacteraemia, toxemia, septicemia and pyemia by mechanism (circulating low-virulence organisms; circulating toxin alone; multiplying bacteria plus toxin; circulating septic emboli) and typical outcome.
+## pitfalls
+Treating 'bacteria in the blood' as a single entity — the book separates whether it is few organisms causing little effect (bacteraemia), toxin without bulk organisms (toxemia), massive multiplying organisms with toxin (septicemia), or organized septic emboli (pyemia), each with a different source and consequence.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T05-S01
+## topic
+Pathology
+## subtopic
+Bacterial infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Course and Fate of Infection
+## article_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-SEPSIS-TERMINOLOGY-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The circulation and multiplication of large number of virulent bacteria and their toxins in blood is termed: a. Septicemia. b. Toxaemia. c. Pyaemia. d. Bacteraemia." ANSWER: a | "Pyemia is: a. Circulating bacteria and toxins. b. Circulating highly virulent bacteria. c. Results from phlebothrombosis. d. Circulating septic emboli." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "septicemia toxemia pyemia bacteremia" before minting -- no hit. New concept covers Q44 and Q51, which triage grouped in the same cluster.
+resourceOccurrenceIds: Read by hand from the department book pages 84-86 (Chapter 5, Course & fate of any infection: bacteremia, toxemia, septicemia, pyemia).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the tuberculosis, syphilis, leprosy and actinomycosis concepts minted from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-INF-4FF695608AFC33
+## label
+Primary tuberculosis develops at the lungs, intestine, tonsils or skin in an unsensitized host
+## canonical_key
+tuberculosis.primary.sites-of-first-infection
+## aliases
+Sites of primary tuberculosis
+Primary tuberculous complex
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Primary tuberculosis develops in an unexposed, unsensitized person, from an exogenous source, and is characterized by the triad of a tuberculous tissue lesion, lymphangitis and lymphadenitis. The department book lists four sites: the lungs (by inhalation of droplets, forming the primary pulmonary complex of Gohn's focus, lymphangitis and hilar lymphadenitis); the intestine (by ingestion of self-swallowed sputum or unpasteurized bovine milk, forming the primary intestinal complex with tabes mesenterica); the tonsils (also by ingestion, mainly in children); and the skin (rarely, by inoculation, in laboratory workers).
+## explicit_objective
+List the four sites of primary tuberculosis and connect each to its mode of infection (inhalation for lung, ingestion for intestine and tonsil, inoculation for skin).
+## pitfalls
+Confusing primary tuberculosis's sites with secondary tuberculosis's — secondary disease reactivates or reinfects the same organ systems (apex of lung, terminal ileum) but with a different immune and morphological picture (extensive caseation, minimal lymph node involvement), not a new site list.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T01-S03
+## topic
+Pathology
+## subtopic
+Bacterial infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Tuberculosis
+## article_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-TB-PRIMARY-SITES-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following is a site of primary tuberculosis: a. Tongue. b. Nose. c. Liver. d. Tonsils." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "primary tuberculosis sites lung intestine tonsil" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 87-91 (Chapter 5, Tuberculosis, Types of Tuberculous Disease).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the chronic-fibrocaseous and intestinal-tuberculosis concepts minted from the same department-book section; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-INF-B525A58C8119DE
+## label
+Chronic fibrocaseous pulmonary tuberculosis causes an apical cavity with acinar lesions but insignificant lymph node disease
+## canonical_key
+tuberculosis.secondary.chronic-fibrocaseous-pulmonary
+## aliases
+Secondary pulmonary tuberculosis
+Apical cavitation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Secondary pulmonary tuberculosis, from reinfection or reactivation, starts at the lung apex (less blood supply, more aeration). With moderate bacilli and moderate immunity it produces chronic fibrocaseous pulmonary tuberculosis: a slow course over years, repeated attempts to encapsulate the lesion by fibrosis, significant caseation, and — because prior infection has already built immunity — insignificant lymph node lesions. Grossly it forms an apical cavity (caseation evacuated through a bronchus, at first irregular and yellow, later smoothed by fibrosis, enlarging as its wall is destroyed by caseation and reforms further out) and clover-leaf-shaped acinar lesions at the lung base from aspirated caseous material, which can confluence into confluent pneumonia. Complications include hemoptysis, pneumothorax, direct and blood spread, lung fibrosis with right heart failure, bronchiectasis, aspergilloma and secondary amyloidosis.
+## explicit_objective
+Describe chronic fibrocaseous (secondary) pulmonary tuberculosis: apical cavitation, acinar lesions, and insignificant lymph node involvement, contrasted with primary tuberculosis's prominent lymphadenitis.
+## pitfalls
+Assuming secondary tuberculosis reproduces primary tuberculosis's prominent lymph node triad — pre-existing immunity from the earlier primary infection is exactly what limits lymph node involvement in the secondary disease, per the book's own reasoning (migration inhibition factor keeps bacilli-laden macrophages from reaching the nodes in large numbers).
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T01-S03
+## topic
+Pathology
+## subtopic
+Bacterial infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Tuberculosis
+## article_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-TB-FIBROCASEOUS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Chronic fibrocaseous tuberculosis is characterized by the following: a. Primary lung tuberculosis. b. Apical cavitation. c. Prominent lymph node lesions. d. No acinar lesions." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "chronic fibrocaseous pulmonary tuberculosis" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 92-95 (Chapter 5, Secondary Pulmonary Tuberculosis).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the primary-tuberculosis-sites and intestinal-tuberculosis concepts minted from the same department-book section; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-INF-420A4970289CE0
+## label
+The primary intestinal tuberculous complex presents mainly as tabes mesenterica, distinct from secondary intestinal tuberculosis's girdle ulcers
+## canonical_key
+tuberculosis.intestinal.primary-complex-and-tabes-mesenterica
+## aliases
+Tabes mesenterica
+Primary vs secondary intestinal tuberculosis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The primary intestinal tuberculous complex forms a small intestinal tubercle in Peyer's patches of the terminal ileum, which may ulcerate, together with tuberculous lymphangitis and mesenteric draining lymph nodes that become enlarged, caseous and adherent — the finding the book names tabes mesenterica. Secondary intestinal tuberculosis, by contrast, occurs in adults from swallowed infected sputum or reactivation, producing multiple transverse (girdle) ulcers with undermined edges mainly at the terminal ileum and caecum, healing by fibrosis, with only minimal mesenteric node involvement; its complications include hemorrhage, fistulae, perforation, fibrous stenosis or obstruction, spread to the peritoneum, and secondary amyloidosis.
+## explicit_objective
+State that the primary intestinal complex presents mainly as tabes mesenterica (mesenteric lymphadenitis), and distinguish it from secondary intestinal tuberculosis's girdle ulcers with undermined edges.
+## pitfalls
+Assigning the girdle-shaped, undermined-edge ulcers to primary intestinal tuberculosis — the book describes these specifically for the secondary disease, where transverse lymphatic spread along the bowel wall produces the girdle pattern.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T01-S03
+## topic
+Pathology
+## subtopic
+Bacterial infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Tuberculosis
+## article_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-TB-INTESTINAL-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Primary intestinal tuberculosis presents mainly by: a. Ulcers with undermined edges. b. Tabes mesenterica. c. Tuberculous peritonitis. d. Intestinal obstruction." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "intestinal tuberculosis tabes mesenterica" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book page 96 (Chapter 5, Intestinal Tuberculosis).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the primary-tuberculosis-sites and chronic-fibrocaseous concepts minted from the same department-book section; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-INF-9534D78BFE4A9C
+## label
+The hard chancre is the primary-stage lesion of syphilis; secondary-stage lesions (rash, condyloma latum, mucous patches) come later
+## canonical_key
+syphilis.primary.hard-chancre
+## aliases
+Primary syphilis
+Hard chancre
+Stages of syphilis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Syphilis is an infective granuloma caused by Treponema pallidum. Its primary stage, the hard chancre, appears about two weeks after infection at the entry site (genital or extragenital); it is a single raised red papule that ulcerates into a rounded, superficial, painless but very infective ulcer with flat edges, clean floor and firm margin/base, healing by a thin atrophic scar, with painless, mobile, separately enlarged draining nodes. Microscopically the subepithelial tissue shows syphilitic granulation tissue (dense perivascular plasma cells, lymphocytes, occasional giant cells) with prominent early endarteritis obliterans. The secondary stage follows about two months later, with a generalized macular/papular/pustular skin rash, condyloma lata, scaly desquamation, mucous patches and generalized lymphadenitis; the tertiary stage, at about two years, produces localized gumma or diffuse syphilitic infiltration in organs such as liver, heart, testis, skull and tongue.
+## explicit_objective
+Identify the hard chancre as syphilis's primary-stage lesion, and place the skin rash, condyloma latum and mucous patches at the later secondary stage.
+## pitfalls
+Assigning secondary-stage lesions (rash, condyloma latum, mucous patches) to the primary stage — the book's own timeline places the chancre first (about two weeks), with these other lesions appearing roughly two months after it.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T01
+## topic
+Pathology
+## subtopic
+Bacterial infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Syphilis
+## article_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-SYPHILIS-PRIMARY-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following is a manifestation of primary syphilis: a. Mucous patches. b. Chancre. c. Condyloma latum. d. Generalized skin rash." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "primary syphilis chancre" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 98-101 (Chapter 5, Syphilis, Stages & Lesions).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the leprosy and actinomycosis concepts minted from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-INF-C1BDF0DDE34498
+## label
+Nodular (lepromatous) leprosy shows vacuolated lepra cells and low immunity, unlike the non-caseating granuloma of tuberculoid leprosy
+## canonical_key
+leprosy.lepromatous.nodular-pattern
+## aliases
+Lepromatous leprosy
+Lepra cells
+Tuberculoid vs lepromatous leprosy
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Leprosy is an infective granuloma caused by Mycobacterium leprae, an acid-alcohol-fast bacillus, acquired by prolonged close contact and affecting skin and nerves. Its pattern depends on the host's TH1 response. Lepromatous (nodular) leprosy develops with low TH1 cell-mediated immunity: the granuloma is macrophages, lymphocytes, plasma cells and giant cells, and the macrophages engulf proliferating bacilli, becoming vacuolated lepra cells; skin nodules on the face give a leonine appearance, with nasal, nerve (ulnar, peroneal, facial — symmetric thickening) and trophic changes, and visceral spread. Tuberculoid leprosy, by contrast, develops with a strong TH1/interferon-gamma response and low bacillary burden, producing non-caseating granulomas of epithelioid cells, giant cells and lymphocytes around dermal nerve fibers, hypopigmented anesthetic skin macules, and asymmetric nerve thickening.
+## explicit_objective
+Attribute vacuolated lepra cells and low immunity to lepromatous (nodular) leprosy, and non-caseating granulomas with anesthetic patches and high immunity to tuberculoid leprosy.
+## pitfalls
+Attaching the non-caseating-granuloma / anesthetic-patch picture to lepromatous leprosy — the book assigns that combination, and the higher TH1 immunity that produces it, to the tuberculoid form instead.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T01-S03
+## topic
+Pathology
+## subtopic
+Bacterial infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Leprosy
+## article_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-LEPROSY-LEPROMATOUS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Nodular leprosy is characterized by: a. Macrophages with vacuolated cytoplasm. b. Non caseating granuloma. c. Anesthetic patches. d. High Immunity." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "lepromatous leprosy nodular" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 101-102 (Chapter 5, Leprosy).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the syphilis and actinomycosis concepts minted from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-INF-46951EC6118C17
+## label
+Actinomycosis is a chronic gram-positive bacterial disease with multiple sinuses discharging sulphur granules
+## canonical_key
+actinomycosis.features.sulphur-granules-and-sinuses
+## aliases
+Actinomyces israelii
+Sulphur granules
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Actinomycosis is an infective granuloma caused by Actinomyces israelii, an anaerobic gram-positive commensal of the mouth, carious teeth and intestine that turns pathogenic endogenously when immunity is lowered. Grossly it forms multiple intercommunicating abscesses opening to the surface through multiple sinuses, discharging pus and yellow bacterial colonies (sulphur granules); microscopically each abscess has a central zone of colonies with club-like filament swellings, a mid zone of mixed inflammatory cells, and an outer fibrous zone. Cervicofacial disease (60%, entering via buccal mucosa trauma) is commonest, followed by intestinal (20%), pulmonary (15%) and skin (5%) forms; because the causative filaments are too large for lymphatics, spread when it occurs is by blood, not lymphatic channels.
+## explicit_objective
+Describe actinomycosis as a chronic, gram-positive bacterial disease with multiple draining sinuses and sulphur granules, distinct from a fungal infection.
+## pitfalls
+Classifying actinomycosis as a fungal disease because of its mycetoma-like clinical picture — the causative organism, Actinomyces israelii, is a gram-positive bacterium, and its lesion shows inflammatory-cell and fibrous zones rather than an epithelioid granuloma.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T01
+## topic
+Pathology
+## subtopic
+Bacterial infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Actinomycosis
+## article_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-ACTINOMYCOSIS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Actinomycosis: a. Is a fungal infection. b. Characterized by the presence of epithelioid granuloma. c. Shows multiple sinus formation. d. Is an acute disease." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "actinomycosis sulphur granules" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book page 103 (Chapter 5, Actinomycosis).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the syphilis and leprosy concepts minted from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-INF-324F03A30F7F5F
+## label
+AIDS's crisis phase brings opportunistic infection, the main cause of death, and characteristic malignancies including primary CNS lymphoma
+## canonical_key
+aids.crisis-phase.opportunistic-infection-and-neoplasms
+## aliases
+AIDS cause of death
+AIDS-associated malignancies
+## arabic_label
+
+## arabic_aliases
+
+## definition
+HIV, a retrovirus causing selective loss of CD4+ helper T cells, progresses through an early acute phase, a middle latent chronic phase (low-level replication, possible generalized lymphadenopathy), and a final crisis phase once host defence breaks down and viral replication recrudesces. This crisis phase comprises opportunistic infections — protozoal/helminthic (strongyloidiasis, pneumocystis), fungal (candidiasis, histoplasmosis, cryptococcosis), bacterial (tuberculosis, atypical mycobacteriosis, salmonella, shigella) and viral (CMV, HSV, EBV) — which the department book names as the main cause of death, and malignant neoplasms: non-Hodgkin's lymphoma, Burkitt's lymphoma, primary CNS lymphoma and Kaposi's sarcoma.
+## explicit_objective
+State that opportunistic infection is the main cause of death in AIDS, and name the crisis-phase malignancies (non-Hodgkin's lymphoma, Burkitt's lymphoma, primary CNS lymphoma, Kaposi's sarcoma).
+## pitfalls
+Treating any HPV-related lesion (common or genital warts, cancer cervix) as one of the book's AIDS-associated malignancies — the book's own AIDS list names non-Hodgkin's/Burkitt's/primary CNS lymphoma and Kaposi's sarcoma specifically, and does not include HPV lesions in that list.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T02-S02
+## topic
+Pathology
+## subtopic
+Viral infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 6 Viral Infections > AIDS
+## article_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-AIDS-CRISIS-PHASE-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Most common cause of death in AIDS infected patients is: a. Kaposi Sarcoma. b. Non Hodgkin Lymphoma. c. Opportunistic infection. d. Autoimmune diseases secondary to T-Helper cells dysfunction." ANSWER: c | "One of the following neoplasms can be seen in AIDS: a. Common warts. b. Cancer cervix. c. Primary CNS lymphoma. d. Genital warts." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+The raw "AIDS" find-existing.mjs hit noted in the module's own triage (coverage/208-INT-triage.md, cluster 28) was an unrelated 102-INT mRNA concept -- a false positive, not real coverage, confirmed again here with a more specific search that returned nothing.
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "aids opportunistic infection death" before minting -- no hit (the module's own triage separately flagged a raw "AIDS" search as a false positive on an unrelated 102-INT mRNA concept, see rejected_merge_candidate_ids). New concept covers Q52 and Q53, which triage grouped in the same cluster.
+resourceOccurrenceIds: Read by hand from the department book page 106 (Chapter 6, Acquired Immuno-Deficiency Syndrome).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the hepatic/colonic/pulmonary bilharziasis concepts in the same article; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-INF-92D5067ECA6A8D
+## label
+Hepatic bilharziasis preserves the liver lobules but fibroses the portal tracts, with angiomatoid channels bypassing the obstruction
+## canonical_key
+bilharziasis.hepatic.periportal-fibrosis
+## aliases
+Bilharzial periportal fibrosis
+Pipe stem fibrosis
+Hepatic bilharziasis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hepatic bilharziasis (bilharzial periportal fibrosis) is caused by Schistosoma mansoni ova carried as emboli from the colon through the portal vein to the portal tracts, where a granulomatous reaction heals by fibrosis. The liver is early enlarged from reticuloendothelial hyperplasia, but late, with progressive portal fibrosis, becomes shrunken, firm and irregular with a thickened capsule; the cut surface is dark brown from hematin taken up by Kupffer cells, with portal tracts widened into thick white bands (pipe-stem fibrosis). Liver cells and lobules are not themselves affected — only the portal tracts (fibrosis, ova granulomas, and angiomatoid formation: dilated collateral channels between hepatic artery and portal vein branches, bypassing the fibrotic obstruction) and sinusoids (hematin-laden Kupffer cells). Portal fibrosis and angiomatoid high-pressure shunting together produce portal hypertension: splenomegaly, ascites, esophageal varices, piles, caput medusae, portal vein thrombosis, and, if hepatitis is superimposed, ammonia encephalopathy.
+## explicit_objective
+Describe hepatic bilharzial periportal fibrosis: preserved liver lobules, portal tract fibrosis with angiomatoid channels, and the shift from early enlargement to late shrinkage.
+## pitfalls
+Assuming hepatic bilharziasis disturbs the liver parenchyma itself, or stays enlarged at a late stage, or produces jaundice from Kupffer-cell bile pigment — the book states the lobules are unaffected, the liver shrinks late, and the Kupffer-cell pigment is hematin, not bile.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T04-S02
+## topic
+Pathology
+## subtopic
+Parasitic infestations
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 8 Parasitic Infestations > Bilharziasis of the Liver
+## article_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-BILHARZIA-HEPATIC-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which is true about hepatic bilharziasis: a. The portal tracts may show dilated vascular channels. b. At a late stage of the disease the liver appears markedly enlarged. c. The hepatic framework is markedly disturbed. d. The Kupffer cells engulf bile pigment due to jaundice." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "hepatic bilharziasis periportal fibrosis" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 116-118 (Chapter 8, Bilharziasis of the Liver).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the colonic and pulmonary bilharziasis concepts minted from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-INF-1A5FE3A93775E2
+## label
+Colonic bilharziasis causes hemorrhage, dysentery and hepatic spread via the portal vein, but the book does not name colon cancer among its complications
+## canonical_key
+bilharziasis.colonic.rectosigmoid-lesions
+## aliases
+Bilharzial colitis
+Rectal bilharziasis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bilharziasis of the large intestine (bilharzial colitis) affects mainly the rectosigmoid segment, with the same lesion spectrum as elsewhere — sandy patches, bilharzial polyps (much more common here than at other sites) and bilharzial ulcers — plus, in whole-wall fibrosis, a bilharzioma (a tumour-like mass of ova deposited outside the colonic wall, with no ova reaching the lumen, so-called closed intestinal bilharziasis). Its complications are hemorrhage (fresh blood in stool, from the rectosigmoid location), secondary infection producing dysentery (diarrhea, blood, mucus, tenesmus), and, rarely, stenosis and obstruction (uncommon because the colon is wide and lesions are usually superficial). Because ova are carried from the colon as emboli through the portal vein to the liver, hepatic bilharziasis is a described route of spread from colonic infection.
+## explicit_objective
+List the complications of colonic bilharziasis (hemorrhage, dysentery, hepatic spread) and recognise that, unlike the urinary bladder, the book does not name colon cancer among them.
+## pitfalls
+Assuming colonic bilharziasis carries the same explicit precancerous designation the book gives bladder bilharziasis (cystitis glandularis, leukoplakia) — the book's colonic complications list stops at hemorrhage, dysentery and (rarely) obstruction, without naming colon cancer.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T04-S02
+## topic
+Pathology
+## subtopic
+Parasitic infestations
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 8 Parasitic Infestations > Bilharziasis of the Large Intestine
+## article_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-BILHARZIA-COLONIC-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Bilharziasis of the rectum can lead to all of the following EXCEPT: a. Hemorrhage. b. Bilharziasis of the liver. c. Dysentery. d. Cancer colon." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "bilharziasis rectum dysentery" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book page 116 (Chapter 8, Bilharziasis of large intestine).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the hepatic and pulmonary bilharziasis concepts minted from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-INF-6C300619B04AE3
+## label
+Pulmonary bilharziasis lesions are caused by both trapped ova and dead worms, reaching the lung mainly via Schistosoma hematobium's vesical route
+## canonical_key
+bilharziasis.pulmonary.ova-emboli-and-verminous-pneumonia
+## aliases
+Verminous pneumonia
+Pulmonary bilharziasis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Emboli of ova and worms reach the lung in about 20% of bilharzial cases, most often via Schistosoma hematobium: ova pass from the vesical plexus through the internal iliac veins and inferior vena cava to the lungs. Schistosoma mansoni ova reach the lung less directly, only in cases of bilharzial hepatosplenomegaly, via opened portal-systemic anastomoses. Once there, trapped ova cause endarteritis and interstitial fibrosis, while dead worms cause necrosis and severe allergic inflammation of lung tissue, termed verminous pneumonia — so both the ova and the worms themselves are named causes of the pulmonary lesions.
+## explicit_objective
+Attribute pulmonary bilharzial lesions to both trapped ova (endarteritis, fibrosis) and dead worms (verminous pneumonia), and identify the hematobium-dominant vesical-plexus route to the lung.
+## pitfalls
+Assuming pulmonary bilharziasis is a common complication of bilharzial disease generally, or that Schistosoma mansoni is its main cause, or that it can be complicated by squamous cell carcinoma — the book gives it a 20% incidence, attributes it mainly to S. hematobium via the vesical plexus, and does not describe an SCC complication (that is reserved for the bladder).
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T04-S02
+## topic
+Pathology
+## subtopic
+Parasitic infestations
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 8 Parasitic Infestations > Pulmonary Bilharziasis
+## article_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-BILHARZIA-PULMONARY-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is true about pulmonary bilharziasis: a. Common complication of bilharzial cases. b. The lesions are commonly caused by Schistosoma Mansoni. c. Lesions are caused by ova and worms. d. It may be complicated by squamous cell carcinoma." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "pulmonary bilharziasis schistosoma" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 118-119 (Chapter 8, Pulmonary Bilharziasis).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the hepatic and colonic bilharziasis concepts minted from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-615C9D19BED36F
+## label
+The Papanicolaou (PAP) stain is the perfect stain for cytology specimens
+## canonical_key
+cytology.papanicolaou-stain.cervico-vaginal-screening
+## aliases
+PAP stain
+Cytopathology screening
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cytopathology is a rapid, inexpensive, non-invasive method of patient evaluation, used for screening (cervico-vaginal PAP smears for premalignant cervical lesions, urine screening after industrial carcinogen exposure), initial diagnosis, and treatment follow-up. Samples include fluids (effusions, ascitic fluid, urine, CSF), smears, sputum, fine needle aspiration cytology and discharge; fluids are centrifuged and the sediment smeared like a blood film, then fixed in 95% ethanol. The department book states directly that the perfect stain for cytology is the Papanicolaou stain (PAP).
+## explicit_objective
+Name the Papanicolaou (PAP) stain as the standard cytology stain and state the main uses of cytopathology (screening, diagnosis, follow-up).
+## pitfalls
+Confusing the PAP stain with H&E (routine tissue histology), Alcian blue (a mucin cytohistochemical stain) or Prussian blue (an iron/hemosiderin stain) — the book reserves 'the perfect stain for cytology' specifically for PAP.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Techniques used in pathology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 11 Techniques Used in Pathology > Cytopathology
+## article_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-PAP-STAIN-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The perfect stain for cytology is: a. Hematoxylin and eosin stain. b. Alcian blue stain. c. Papnicolaou stain (PAP). d. Prussian blue stain." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "papanicolaou stain cytology" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book page 129 (Chapter 11, Cytopathology).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the radiation and pellagra concepts in the same article; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-85395A8500798E
+## label
+Total body irradiation causes four dose-graded acute syndromes -- radiation sickness, haemopoietic, gastrointestinal and cerebral
+## canonical_key
+radiation.total-body.acute-syndromes
+## aliases
+Acute radiation syndrome
+Radiation sickness
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ionizing radiation causes chromosome breakage and other injury; total body exposure produces early (acute) syndromes graded by dose: radiation sickness (50-200 rem — fatigue, anorexia, nausea, transient mild blood count drop), haemopoietic syndrome (200-600 rem — bone marrow depression), gastrointestinal syndrome (300-1000 rem — severe diarrhea, vomiting, GIT haemorrhage) and cerebral syndrome (over 1000 rem — convulsions and coma, lethal). Late effects, from low-dose accident survivors or slow cumulative exposure, include malignancy (e.g. leukemia), genetic disorders, and infertility or fibrotic complications; specific organs also show their own patterns (GIT ulceration/colitis, germ-cell destruction and sterility, ARDS then pulmonary fibrosis, pancytopenia or aplasia, lymph node atrophy, bone osteomyelitis/necrosis/osteosarcoma, nephritis, vasculitis).
+## explicit_objective
+Name the four dose-graded acute total-body-irradiation syndromes (radiation sickness, haemopoietic, gastrointestinal, cerebral) in order of increasing dose and severity.
+## pitfalls
+Inventing a 'vascular syndrome' as a fifth acute-exposure category — the book names radiation vasculitis and thrombosis only as one of the separate organ-specific late effects, not as one of the four graded whole-body dose syndromes.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Environmental pathology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 9 Environmental Pathology > Radiation Injury
+## article_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-RADIATION-SYNDROMES-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Total body irradiation result in all of the following EXCEPT: a. Hematopoietic syndrome. b. Vascular syndrome. c. Cerebral syndrome. d. Gastro-intestinal syndrome." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "total body irradiation syndrome" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 125-127 (Chapter 9, Environmental Pathology, Effects of total body radiation; the book's own formative-assessment MCQ on this exact stem, p.127, carries the same answer).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the PAP-stain and pellagra concepts in the same article; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-BFCED5D968B197
+## label
+Pellagra's 'three D's' -- dermatitis, diarrhea, dementia -- come from niacin deficiency, not vitamin D deficiency
+## canonical_key
+pellagra.niacin-deficiency.three-ds
+## aliases
+Niacin deficiency
+Three D's of pellagra
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Niacin (vitamin B3) is formed from spare tryptophan; maize (corn) is low in tryptophan and its own niacin is poorly absorbed, so pellagra is endemic in corn-eating societies and in alcoholics. Pellagra produces the 'three D's': dermatitis (red, thick, scaly, sharply demarcated, irregularly pigmented skin in sun-exposed areas, with a beefy red tongue; microscopically acanthosis, confluent parakeratosis, hyperkeratosis and increased pigmentation); diarrhea (hyperaemic colon with pseudomembrane, necrosis and mononuclear infiltration); and dementia (mental illness, frontal-lobe neuron loss, demyelination of the lateral and posterior spinal columns — subacute combined degeneration); the book notes an unlisted fourth 'D', death. This is distinct from vitamin D deficiency (rickets/osteomalacia), which affects bone mineralization (bowing of long bones, rachitic rosary, craniotabes) rather than skin, gut and brain.
+## explicit_objective
+Name the 'three D's' of pellagra (dermatitis, diarrhea, dementia) as niacin deficiency's features, and distinguish them from vitamin D deficiency's bone changes (rickets/osteomalacia).
+## pitfalls
+Merging pellagra's clinical picture with rickets' — bowing of the long bones and other bone deformities belong to vitamin D deficiency, not to niacin deficiency, which the book keeps in a separate chapter with its own three-D mnemonic.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Nutritional disorders
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 9 Nutritional Disorders > Vitamin B3 Deficiency
+## article_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-PELLAGRA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pellagra is characterized by all the following EXCEPT: a. Dermatitis. b. Dementia. c. Diarrhea. d. Long bones bowing." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "pellagra niacin deficiency three ds" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 123-124 (Chapter 9, Nutritional Disorders, Vitamin B3 deficiency).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the PAP-stain and radiation concepts in the same article; no typed relation authored yet.
