@@ -1,0 +1,76 @@
+| cluster | authored | held | remaining | total |
+|---|---:|---:|---:|---:|
+| pms-quiz-q001 p34 key=C  endoderm derivative: epithelial lining of the respiratory tract -- new CON-DEV-10A1C9D550EE53 | 0 | 0 | 1 | 1 |
+| pms-quiz-q002 p34 key=B  endoderm derivatives EXCEPT: mammary gland (ectodermal) -- new CON-DEV-10A1C9D550EE53 | 0 | 0 | 1 | 1 |
+| pms-quiz-q003 p41 key=A  endoderm derivatives INCLUDES: parenchyma of the thyroid gland -- new CON-DEV-10A1C9D550EE53 | 0 | 0 | 1 | 1 |
+| pms-quiz-q004 p35 key=A  head folding: notochord does NOT turn ventral -- new CON-DEV-C84C4C680EF005 | 0 | 0 | 1 | 1 |
+| pms-quiz-q005 p35 key=B  cloacal membrane derived from both ectoderm and endoderm -- new CON-DEV-1AAC12ECDA6AE2 | 0 | 0 | 1 | 1 |
+| pms-quiz-q006 p39 key=D  folding of the embryo occurs during the fourth week -- new CON-DEV-377B4B783E3C64 | 0 | 0 | 1 | 1 |
+| pms-quiz-q007 p40 key=A  midgut communicates with yolk sac via the vitelline duct -- new CON-DEV-ACAFA620AE1F4B | 0 | 0 | 1 | 1 |
+| pms-quiz-q008 p40 key=C  primordial germ cell formation takes place in the yolk sac -- new CON-DEV-28D099E61F4987 | 0 | 0 | 1 | 1 |
+| pms-quiz-q009 p43 key=B  CRL 5-8mm -> approximate age = 5 weeks -- new CON-DEV-DBEF1D148AC818 | 0 | 0 | 1 | 1 |
+| pms-quiz-q010 p44 key=A  age expressed in somites during the first month -- new CON-DEV-DBEF1D148AC818 | 0 | 0 | 1 | 1 |
+| pms-quiz-q011 p44 key=D  limb buds start to appear during the second month -- new CON-DEV-22D59FC21AC990 | 0 | 0 | 1 | 1 |
+| pms-quiz-q012 p44 key=D  end of 4th week main external features = somites and pharyngeal arches -- new CON-DEV-22D59FC21AC990 | 0 | 0 | 1 | 1 |
+| pms-quiz-q013 p46 key=C  fetal period = beginning of 9th week to birth -- new CON-DEV-301A217B7D1EE1 | 0 | 0 | 1 | 1 |
+| pms-quiz-q014 p46 key=D  fetal length indicated as crown rump length -- new CON-DEV-301A217B7D1EE1 | 0 | 0 | 1 | 1 |
+| pms-quiz-q015 p47 key=A  beginning of 3rd month, head = half of CRL -- new CON-DEV-F40CAA89DEB932 | 0 | 0 | 1 | 1 |
+| pms-quiz-q016 p47 key=A  face becomes more human-looking during the third month -- new CON-DEV-F40CAA89DEB932 | 0 | 0 | 1 | 1 |
+| pms-quiz-q017 p47 key=C  fetal movements felt by mother (quickening) during the fifth month -- new CON-DEV-A7557C544AB2D2 | 0 | 0 | 1 | 1 |
+| pms-quiz-q018 p48 key=A  good chance of survival if born during/after the 7th month -- new CON-DEV-A7048F9E24C413 | 0 | 0 | 1 | 1 |
+| pms-quiz-q019 p50 key=C  portion of placenta contributed by embryo = chorion -- new CON-DEV-2B0DB1FCC7CFB7 | 0 | 0 | 1 | 1 |
+| pms-quiz-q020 p50 key=C  human placenta classified as haemochorial -- new CON-DEV-2B0DB1FCC7CFB7 | 0 | 0 | 1 | 1 |
+| pms-quiz-q021 p51 key=E  incorrect statement re placenta = fetal/maternal vessels attach directly (mixing) -- new CON-DEV-7F7F621593B7ED | 0 | 0 | 1 | 1 |
+| pms-quiz-q022 p52 key=E  hormone maintaining corpus luteum = hCG -- new CON-DEV-C6FF6D46FE030D | 0 | 0 | 1 | 1 |
+| pms-quiz-q023 p53 key=C  amnion characterized by all EXCEPT derived from the endoderm -- new CON-DEV-E40CA81B70CD27 | 0 | 0 | 1 | 1 |
+| pms-quiz-q024 p53 key=A  yolk sac disappears by the 5th month of pregnancy -- new CON-DEV-8646E4D9D5FACD | 0 | 0 | 1 | 1 |
+| pms-quiz-q025 p54 key=C  allantois shares in formation of the urinary bladder -- new CON-DEV-F20D8A8E49540E | 0 | 0 | 1 | 1 |
+| pms-quiz-q026 p54 key=B  umbilical cord contains all EXCEPT 2 umbilical veins (only 1 vein normal) -- new CON-DEV-7E2AFFEDE63022 | 0 | 0 | 1 | 1 |
+| pms-quiz-q027 p54 key=A  placenta developed from chorion frondosum and decidua basalis -- new CON-DEV-7B275BA12CE3D9 | 0 | 0 | 1 | 1 |
+| pms-quiz-q028 p55 key=A  blood vessels characteristic of tertiary villi -- new CON-DEV-A2E6A6AB3CDEED | 0 | 0 | 1 | 1 |
+| pms-quiz-q029 p55 key=A  full term placenta features EXCEPT attached at lower uterine segment (previa) -- new CON-DEV-7E4070852CA8D3 | 0 | 0 | 1 | 1 |
+| pms-quiz-q030 p56 key=C  placenta accreta = deeply penetrating into the uterine wall -- new CON-DEV-782538AF00F48E | 0 | 0 | 1 | 1 |
+| pms-quiz-q031 p60 key=D  twins joined at the head = craniopagus -- new CON-DEV-F65BCDF4CBAD5D | 0 | 0 | 1 | 1 |
+| pms-quiz-q032 p61 key=C  teratogenic viruses = rubella, varicella, CMV (all of the above) -- new CON-DEV-DF6237EB0D4E49 | 0 | 0 | 1 | 1 |
+| pms-quiz-q033 p62 key=B  cri du chat syndrome = partial deletion of chromosome 5 -- new CON-DEV-140D5FF96E07A2 | 0 | 0 | 1 | 1 |
+| pms-quiz-q034 p62 key=C  prenatal diagnosis of birth defects = amniocentesis -- new CON-DEV-B988E7933351E1 | 0 | 0 | 1 | 1 |
+| quiz-embryology | 34 | 0 | 0 | 34 |
+
+## Held
+(none)
+
+## Remaining
+- pms-quiz-q001 p34 key=C  endoderm derivative: epithelial lining of the respiratory tract -- new CON-DEV-10A1C9D550EE53
+- pms-quiz-q002 p34 key=B  endoderm derivatives EXCEPT: mammary gland (ectodermal) -- new CON-DEV-10A1C9D550EE53
+- pms-quiz-q003 p41 key=A  endoderm derivatives INCLUDES: parenchyma of the thyroid gland -- new CON-DEV-10A1C9D550EE53
+- pms-quiz-q004 p35 key=A  head folding: notochord does NOT turn ventral -- new CON-DEV-C84C4C680EF005
+- pms-quiz-q005 p35 key=B  cloacal membrane derived from both ectoderm and endoderm -- new CON-DEV-1AAC12ECDA6AE2
+- pms-quiz-q006 p39 key=D  folding of the embryo occurs during the fourth week -- new CON-DEV-377B4B783E3C64
+- pms-quiz-q007 p40 key=A  midgut communicates with yolk sac via the vitelline duct -- new CON-DEV-ACAFA620AE1F4B
+- pms-quiz-q008 p40 key=C  primordial germ cell formation takes place in the yolk sac -- new CON-DEV-28D099E61F4987
+- pms-quiz-q009 p43 key=B  CRL 5-8mm -> approximate age = 5 weeks -- new CON-DEV-DBEF1D148AC818
+- pms-quiz-q010 p44 key=A  age expressed in somites during the first month -- new CON-DEV-DBEF1D148AC818
+- pms-quiz-q011 p44 key=D  limb buds start to appear during the second month -- new CON-DEV-22D59FC21AC990
+- pms-quiz-q012 p44 key=D  end of 4th week main external features = somites and pharyngeal arches -- new CON-DEV-22D59FC21AC990
+- pms-quiz-q013 p46 key=C  fetal period = beginning of 9th week to birth -- new CON-DEV-301A217B7D1EE1
+- pms-quiz-q014 p46 key=D  fetal length indicated as crown rump length -- new CON-DEV-301A217B7D1EE1
+- pms-quiz-q015 p47 key=A  beginning of 3rd month, head = half of CRL -- new CON-DEV-F40CAA89DEB932
+- pms-quiz-q016 p47 key=A  face becomes more human-looking during the third month -- new CON-DEV-F40CAA89DEB932
+- pms-quiz-q017 p47 key=C  fetal movements felt by mother (quickening) during the fifth month -- new CON-DEV-A7557C544AB2D2
+- pms-quiz-q018 p48 key=A  good chance of survival if born during/after the 7th month -- new CON-DEV-A7048F9E24C413
+- pms-quiz-q019 p50 key=C  portion of placenta contributed by embryo = chorion -- new CON-DEV-2B0DB1FCC7CFB7
+- pms-quiz-q020 p50 key=C  human placenta classified as haemochorial -- new CON-DEV-2B0DB1FCC7CFB7
+- pms-quiz-q021 p51 key=E  incorrect statement re placenta = fetal/maternal vessels attach directly (mixing) -- new CON-DEV-7F7F621593B7ED
+- pms-quiz-q022 p52 key=E  hormone maintaining corpus luteum = hCG -- new CON-DEV-C6FF6D46FE030D
+- pms-quiz-q023 p53 key=C  amnion characterized by all EXCEPT derived from the endoderm -- new CON-DEV-E40CA81B70CD27
+- pms-quiz-q024 p53 key=A  yolk sac disappears by the 5th month of pregnancy -- new CON-DEV-8646E4D9D5FACD
+- pms-quiz-q025 p54 key=C  allantois shares in formation of the urinary bladder -- new CON-DEV-F20D8A8E49540E
+- pms-quiz-q026 p54 key=B  umbilical cord contains all EXCEPT 2 umbilical veins (only 1 vein normal) -- new CON-DEV-7E2AFFEDE63022
+- pms-quiz-q027 p54 key=A  placenta developed from chorion frondosum and decidua basalis -- new CON-DEV-7B275BA12CE3D9
+- pms-quiz-q028 p55 key=A  blood vessels characteristic of tertiary villi -- new CON-DEV-A2E6A6AB3CDEED
+- pms-quiz-q029 p55 key=A  full term placenta features EXCEPT attached at lower uterine segment (previa) -- new CON-DEV-7E4070852CA8D3
+- pms-quiz-q030 p56 key=C  placenta accreta = deeply penetrating into the uterine wall -- new CON-DEV-782538AF00F48E
+- pms-quiz-q031 p60 key=D  twins joined at the head = craniopagus -- new CON-DEV-F65BCDF4CBAD5D
+- pms-quiz-q032 p61 key=C  teratogenic viruses = rubella, varicella, CMV (all of the above) -- new CON-DEV-DF6237EB0D4E49
+- pms-quiz-q033 p62 key=B  cri du chat syndrome = partial deletion of chromosome 5 -- new CON-DEV-140D5FF96E07A2
+- pms-quiz-q034 p62 key=C  prenatal diagnosis of birth defects = amniocentesis -- new CON-DEV-B988E7933351E1
