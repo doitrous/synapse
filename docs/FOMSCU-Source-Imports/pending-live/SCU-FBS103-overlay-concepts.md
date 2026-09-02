@@ -478,3 +478,192 @@ Continuous cell culture used for viral isolation consists of immortalized cell l
 
 ## field_notes
 scu: FOMSCU Foundation 2 QBank, EOY 2025 Q24 — tests the continuous cell line as the immortalized culture type used for extended viral replication. Target — apply after docs/6October-Source-Imports/concept/O6U-IMP-106-new-concepts.md.
+
+---
+
+<!--
+  BATCH 4 (second author lane, scu-fbs103-author2) — appended below the
+  batch-3 divider above. Covers 7 of the 14 reuse questions in the sibling
+  pending-live/SCU-FBS103-s2-author2-reuse-questions.md (the other 7 reuse
+  CON-FND-4388E0D8A75FD4, already overlaid above in BATCH 1 — full/partial
+  agonist — and CON-FND-14D80DE53DE835, this batch's own new row, covers 5
+  of the 7 questions here). This lane's other 27 questions mint fresh
+  concepts instead, in
+  docs/FOMSCU-Source-Imports/concept/SCU-FBS103-s2-author2-mint-concepts.md.
+
+  ONE (1) — live (docs/../server/data/medical-library-v1.json, checked
+  directly, not just via find-existing.mjs's own label): CON-DEV-65C2AEF8C5DB47
+  (kau, universityIds does not currently include scu — first scu tag).
+
+  SIX (6) — pending (exist only in other lanes' or this same lane's own
+  unimported batches; checked directly against the live JSON: none of the
+  6 ids below are in it):
+
+    A. docs/Assiut-Source-Imports/concept/AUN-PMS-102-concepts.md                (cloacal membrane)
+    B. docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md                  (unipolar/bipolar/multipolar neuron classification)
+    C. docs/Alexandria-Source-Imports/concept/AU-MED-105-histology-concepts.md   (neuroglia cell functions incl. microglia phagocytosis)
+    D. docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-concepts.md    (fish-borne helminth transmission)
+    E. docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-concepts.md    (Hymenolepis nana direct cycle, same file as D)
+    F. docs/FOMSCU-Source-Imports/concept/SCU-FBS102-s2-author5-mint-concepts.md (spermatogenesis 1:4 yield; this lane's own FBS102 pass, already scu-tagged — only the SCU-FBS103 module tag is added)
+
+  Gate together with:
+  node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-s2-author2-reuse-questions.md \
+    --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-overlay-concepts.md \
+    --with docs/Assiut-Source-Imports/concept/AUN-PMS-102-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md \
+    --with docs/Alexandria-Source-Imports/concept/AU-MED-105-histology-concepts.md \
+    --with docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-concepts.md \
+    --with docs/FOMSCU-Source-Imports/concept/SCU-FBS102-s2-author5-mint-concepts.md
+-->
+
+# Item
+
+## id
+CON-DEV-65C2AEF8C5DB47
+
+## label
+Coelom splits lateral-plate mesoderm
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOY 2025 Q14 — tests that the lateral plate mesoderm splits to enclose the intraembryonic coelom. Target: live, no apply-after.
+
+---
+
+# Item
+
+## id
+CON-DEV-1AAC12ECDA6AE2
+
+## label
+The cloacal membrane is derived from both ectoderm and endoderm, at the site where these two layers meet without intervening mesoderm
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOM MID 2026 Q31 — tests the cloacal membrane as the bilaminar (ectoderm+endoderm, no mesoderm) area at the caudal end of the embryonic disc. Target — apply after docs/Assiut-Source-Imports/concept/AUN-PMS-102-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-14D80DE53DE835
+
+## label
+Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, Formative 2025 Q11 / EOM MID 2026 Q21 / EOY 2025 Q21 / EOY 2025 Q15 / EOM MID 2026 Q52 — reused for 5 questions in this batch: pseudounipolar neurons' dorsal-root-ganglion location (2 phrasings), multipolar neurons' autonomic-sympathetic-ganglia location (extends the concept's own worked-example set beyond the ventral-horn/Purkinje examples it names directly — recorded as a lower-confidence extension), and the multipolar neuron's single-axon count. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-NEU-93CD087BDE3F7B
+
+## label
+Astrocytes form the blood-brain barrier, microglia phagocytose as the CNS's resident monocyte-derived cell, oligodendrocytes myelinate CNS axons, and ependymal cells line the CSF-filled cavities
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOM MID 2026 Q22 / EOY 2025 Q13 — tests microglia's phagocytic role removing cellular debris (2 phrasings). Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-105-histology-concepts.md (also mirrored, unimported, in docs/import-ready/concept/AU-MED-105-histology-concepts.md).
+
+---
+
+# Item
+
+## id
+CON-GIT-E20B95815074E4
+
+## label
+Heterophyes heterophyes, Metagonimus yokogawi, Diphyllobothrium latum and Capillaria philippinensis are all acquired by eating fish
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOM MID 2026 Q36 — tests Heterophyes heterophyes's transmission by eating undercooked infected fish. Target — apply after docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-GIT-2FCF45AE17574F
+
+## label
+Hymenolepis nana can complete its life cycle directly in one host, without an obligate intermediate host, and is capable of autoinfection through its cysticercoid larval stage
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, EOM MID 2026 Q3 — tests that skin penetration by larva is NOT a valid infection route in Hymenolepis nana's direct cycle (ingestion and autoinfection are). Target — apply after docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-concepts.md (same file as the row above).
+
+---
+
+# Item
+
+## id
+CON-DEV-B8D22B244F1E15
+
+## label
+A single primary spermatocyte gives rise to four spermatids (and ultimately four sperm) after completing meiosis
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS103
+
+## field_notes
+scu: FOMSCU Foundation 2 QBank, Formative 2025 Q8 — tests the 1-primary-spermatocyte-to-4-sperm yield ratio (10 primary spermatocytes -> 40 sperm). Already universities:scu / learner_years:1 from this lane's own SCU-FBS102 pass (docs/FOMSCU-Source-Imports/concept/SCU-FBS102-s2-author5-mint-concepts.md, module SCU-FBS102 only) — the +scu/+1 additions here are idempotent no-ops on those two fields; only the SCU-FBS103 module tag is a genuine addition. Target — apply after docs/FOMSCU-Source-Imports/concept/SCU-FBS102-s2-author5-mint-concepts.md.
