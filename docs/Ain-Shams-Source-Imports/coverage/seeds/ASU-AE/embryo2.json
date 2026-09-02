@@ -1153,6 +1153,713 @@
         "keySource": "printed answer table p.14 row 30 = a",
         "asu": "Embryo2 p.6 Q30."
       }
+    },
+    {
+      "key": "embryo2-q31",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-PLACENTA-SECRETES-HCG-Q31",
+      "page": 6,
+      "subject": "obs",
+      "title": "Hormone secreted by the placenta",
+      "question": "Which of the following hormones is secreted by the placenta?",
+      "options": {
+        "A": "Testosterone",
+        "B": "Luteinizing hormone",
+        "C": "Chorionic gonadotrophines",
+        "D": "Follicle stimulating hormone",
+        "E": "Oocyte maturation inhibitor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Testosterone is a gonadal (testicular/adrenal) androgen; it is not a placental hormone.",
+        "B": "Incorrect. Luteinising hormone is secreted by the anterior pituitary, not the placenta.",
+        "C": "Correct. The placenta is an active endocrine organ. Among the hormones it secretes is human chorionic gonadotrophin (hCG), alongside progesterone, oestrogen and human placental lactogen. hCG substitutes functionally for pituitary LH in maintaining the corpus luteum during early pregnancy.",
+        "D": "Incorrect. Follicle stimulating hormone, like LH, is a pituitary gonadotrophin, not a placental hormone.",
+        "E": "Incorrect. Oocyte maturation inhibitor is a follicular-fluid factor involved in ovarian physiology, not a placental secretion."
+      },
+      "main_concept": "CON-OBS-D5E426FE1DB9EE",
+      "concept_ids": [
+        "CON-OBS-D5E426FE1DB9EE"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Placental hormone secretion",
+      "learning_objective": "Name chorionic gonadotrophin as a hormone secreted by the placenta.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 31 = c; stem confirmed by direct render (page 6)",
+        "asu": "Embryo2 p.6 Q31."
+      }
+    },
+    {
+      "key": "embryo2-q32",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-PRAEVIA-MARGINALIS-PARTIAL-OS-Q32",
+      "page": 6,
+      "subject": "obs",
+      "title": "Description of placenta praevia marginalis",
+      "question": "Placenta praevia marginalis:",
+      "options": {
+        "A": "Is formed of 2 or 3 parts",
+        "B": "Covers internal os partially",
+        "C": "Covers internal os completely",
+        "D": "Lies near fundus of uterus",
+        "E": "Has umbilical cord attached to its margin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Being formed of multiple parts describes a bilobed/bipartite placenta -- a shape abnormality unrelated to the marginalis grading of placenta praevia.",
+        "B": "Correct. Placenta praevia has graded subtypes based on internal-os coverage. In placenta praevia marginalis, the placental edge reaches the margin of the internal os and covers it only partially. This is a less severe grade than a praevia that covers the os completely (praevia centralis/totalis).",
+        "C": "Incorrect. Complete os coverage describes placenta praevia centralis/totalis, a more severe grade than marginalis, not marginalis itself.",
+        "D": "Incorrect. Placenta praevia by definition lies low in the uterus, near or over the internal os -- the opposite of lying near the fundus.",
+        "E": "Incorrect. Cord attachment to the placental margin describes battledore placenta, an unrelated cord-insertion abnormality, not placenta praevia marginalis."
+      },
+      "main_concept": "CON-OBS-3F268B10913632",
+      "concept_ids": [
+        "CON-OBS-3F268B10913632"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Placenta praevia subtypes",
+      "learning_objective": "State that placenta praevia marginalis covers the internal os only partially.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 32 = b; stem confirmed by direct render (page 6)",
+        "asu": "Embryo2 p.6 Q32."
+      }
+    },
+    {
+      "key": "embryo2-q33",
+      "hold": "duplicate of embryo2-q18 -- identical option concepts (testis/testes, urethra, ovum, embryo, female genital tract) asking where sperm capacitation takes place, differing only in option order (female genital tract moved to option e here rather than c) and minor wording (testis vs testes, urethra vs male urethra); both key to \"female genital tract.\""
+    },
+    {
+      "key": "embryo2-q34",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-SPERM-PENETRATION-LAYERS-EXCEPT-CUMULUS-Q34",
+      "page": 6,
+      "subject": "dev",
+      "title": "Layers the sperm penetrates to fertilise the ovum, except one",
+      "question": "The layers that the sperm has to penetrate in order to fertilize an ovum include the following EXCEPT:",
+      "options": {
+        "A": "Vitelline membrane",
+        "B": "Cummulus oophorus",
+        "C": "Corona radiata",
+        "D": "Zona pellucida",
+        "E": "Perivitelline space"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (i.e. this IS one of the layers/spaces crossed). The vitelline (oocyte) membrane is the final barrier the sperm fuses with to achieve fertilisation.",
+        "B": "Correct. The cumulus oophorus is the mass of granulosa cells surrounding the oocyte within the ovarian follicle before ovulation. By the time the oocyte is in the tube and encountering sperm, it has already been shed from the cumulus. This is therefore not a layer the fertilising sperm needs to penetrate at all.",
+        "C": "Incorrect (i.e. this IS one of the layers crossed). The corona radiata, the granulosa-cell layer still surrounding the ovulated oocyte, is penetrated by acrosome-reaction enzymes before the sperm reaches the zona.",
+        "D": "Incorrect (i.e. this IS one of the layers crossed). The zona pellucida, the acellular glycoprotein coat, is penetrated next, after the corona radiata.",
+        "E": "Incorrect (i.e. this IS one of the spaces crossed). The perivitelline space, between the zona pellucida and the oocyte membrane, is crossed just before the sperm fuses with the oocyte membrane itself."
+      },
+      "main_concept": "CON-DEV-CF8F3473690D7D",
+      "concept_ids": [
+        "CON-DEV-CF8F3473690D7D"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS"
+      ],
+      "topic": "Embryology - Fertilisation",
+      "subtopic": "Layers penetrated by the sperm",
+      "learning_objective": "State that the cumulus oophorus is not among the layers the sperm penetrates to fertilise the ovum.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 34 = b; stem confirmed by direct render (page 6)",
+        "asu": "Embryo2 p.6 Q34."
+      }
+    },
+    {
+      "key": "embryo2-q35",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-BARRIER-LATE-PREGNANCY-INCLUDES-Q35",
+      "page": 7,
+      "subject": "obs",
+      "title": "Placental barrier composition late in pregnancy",
+      "question": "Placental barrier late in pregnancy includes:",
+      "options": {
+        "A": "Cytotrophoblast + primary mesoderm",
+        "B": "Intraembryonic mesoderm + syncytiotrophoblast",
+        "C": "Extraembryonic mesoderm + fetal endothelium",
+        "D": "Cytotrophoblast + syncytiotrophoblast",
+        "E": "Syncytiotrophoblast + fetal endothelium"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Cytotrophoblast and primary mesoderm are exactly the two layers that thin and largely disappear in the second half of pregnancy -- the opposite of what \"late pregnancy\" composition should list.",
+        "B": "Incorrect. Intraembryonic mesoderm belongs to the embryo's own body, not the placental barrier at all; it has no place in this list regardless of gestational age.",
+        "C": "Incorrect. While fetal endothelium correctly persists, extraembryonic mesoderm (the primary mesoderm) is one of the layers that thins and becomes discontinuous late in pregnancy, not a component of the thinned late-pregnancy barrier.",
+        "D": "Incorrect. Cytotrophoblast becomes discontinuous late in pregnancy; pairing it with syncytiotrophoblast wrongly implies both persist unchanged.",
+        "E": "Correct. As the cytotrophoblast and primary mesoderm thin and become discontinuous in the second half of pregnancy, the barrier is effectively reduced to just two layers. Those two layers are syncytiotrophoblast and fetal capillary endothelium, now directly apposed. This thinner barrier shortens the diffusion distance as fetal demands for exchange increase."
+      },
+      "main_concept": "CON-OBS-3E68FFEED9F307",
+      "concept_ids": [
+        "CON-OBS-3E68FFEED9F307"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Placental barrier across pregnancy",
+      "learning_objective": "State that the placental barrier late in pregnancy consists of syncytiotrophoblast and fetal endothelium.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 35 = e; stem confirmed by direct render (page 7)",
+        "asu": "Embryo2 p.7 Q35."
+      }
+    },
+    {
+      "key": "embryo2-q36",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-MARGINAL-CORD-PLACENTA-NAME-Q36",
+      "page": 7,
+      "subject": "obs",
+      "title": "Name of placenta with marginal cord attachment (3rd asking)",
+      "question": "The name of placenta in which there is marginal attachment of the cord:",
+      "options": {
+        "A": "Accessory placenta",
+        "B": "Bilobed placenta",
+        "C": "Battledore placenta",
+        "D": "Bipartite placenta",
+        "E": "Placenta membranecea"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. An accessory placenta describes a separate, extra placental lobule (succenturiate lobe), a number abnormality unrelated to cord insertion site.",
+        "B": "Incorrect. A bilobed placenta is a shape abnormality with two roughly equal placental masses, not a description of cord insertion.",
+        "C": "Correct. Battledore placenta is the name given when the umbilical cord attaches at the margin (periphery) of the placental disc. This is the same fact tested a third time in this bank, this time from the \"name the condition\" angle. Its distinguishing feature from velamentous insertion is that the cord still reaches the disc itself, rather than inserting into the membranes beyond it.",
+        "D": "Incorrect. Bipartite placenta, like bilobed, describes a placenta divided into two discrete parts -- a shape/number abnormality, not a cord-insertion pattern.",
+        "E": "Incorrect. Placenta membranacea is an abnormally thin, diffuse placenta covering most of the uterine wall -- unrelated to marginal cord attachment."
+      },
+      "main_concept": "CON-OBS-C095B75A61EA4F",
+      "concept_ids": [
+        "CON-OBS-C095B75A61EA4F"
+      ],
+      "library_ids": [
+        "ART-OBS-TOP-B8C98ED8AA"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Cord insertion abnormalities",
+      "learning_objective": "Name battledore placenta as the placenta with marginal cord attachment.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 36 = c; stem confirmed by direct render (page 7)",
+        "asu": "Embryo2 p.7 Q36."
+      }
+    },
+    {
+      "key": "embryo2-q37",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-BLASTOCYST-IS-IMPLANTING-STAGE-Q37",
+      "page": 7,
+      "subject": "dev",
+      "title": "Stage of the conceptus that implants",
+      "question": "The stage that implants into the uterus is:",
+      "options": {
+        "A": "Morula",
+        "B": "Blastocyst",
+        "C": "2 cell stage",
+        "D": "4 cell stage",
+        "E": "Zygote"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The morula must first differentiate into a blastocyst (developing a trophoblast layer) before implantation can begin -- the morula itself does not implant.",
+        "B": "Correct. Of all the stages of the developing conceptus, it is specifically the blastocyst that implants into the endometrium. By this stage it has an inner cell mass, a fluid-filled blastocoele, and an outer trophoblast layer. It is this trophoblast that mediates attachment to, and invasion of, the endometrium.",
+        "C": "Incorrect. The 2-cell stage is an early cleavage stage, still within the uterine tube, far too immature to implant.",
+        "D": "Incorrect. The 4-cell stage, like the 2-cell stage, is an early tubal cleavage stage with no trophoblast yet formed for implantation.",
+        "E": "Incorrect. The zygote is the single-cell stage immediately after fertilisation, long before the trophoblast differentiation needed for implantation."
+      },
+      "main_concept": "CON-DEV-12B190FAB75133",
+      "concept_ids": [
+        "CON-DEV-12B190FAB75133"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS"
+      ],
+      "topic": "Embryology - Implantation",
+      "subtopic": "Identity of the implanting stage",
+      "learning_objective": "State that the blastocyst is the stage that implants into the uterus.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 37 = b; stem confirmed by direct render (page 7)",
+        "asu": "Embryo2 p.7 Q37."
+      }
+    },
+    {
+      "key": "embryo2-q38",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-FERTILIZATION-RESULTS-EXCEPT-Q38",
+      "page": 7,
+      "subject": "dev",
+      "title": "Results of fertilization, except one",
+      "question": "Results of fertilization include all the following EXCEPT:",
+      "options": {
+        "A": "Restoration of diploid number of chromosomes",
+        "B": "Initiation of cleavage",
+        "C": "Completion of 2nd meiotic division",
+        "D": "Extrusion of 2nd polar body",
+        "E": "Beginning of implantation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect (i.e. this IS a direct result of fertilisation). Combining the haploid paternal and maternal chromosome sets restores the diploid number, a direct and immediate consequence of sperm-oocyte fusion.",
+        "B": "Incorrect (i.e. this IS a direct result). Fertilisation triggers the zygote to begin cleaving, the first step of embryonic development.",
+        "C": "Incorrect (i.e. this IS a direct result). Sperm entry provides the calcium signal that drives completion of the oocyte's second meiotic division, arrested since ovulation.",
+        "D": "Incorrect (i.e. this IS a direct result). Completion of the second meiotic division is accompanied by extrusion of the second polar body, discarding the surplus chromosome set.",
+        "E": "Correct. The beginning of implantation is not a direct result of fertilisation. It is a separate, later event, occurring roughly six days afterward. By that point the blastocyst has already formed and reached the uterine cavity, in a chain of events downstream of, but not part of, fertilisation itself."
+      },
+      "main_concept": "CON-DEV-B80508AE3B5530",
+      "concept_ids": [
+        "CON-DEV-B80508AE3B5530"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS"
+      ],
+      "topic": "Embryology - Fertilisation",
+      "subtopic": "Direct results of fertilisation",
+      "learning_objective": "State that the beginning of implantation is not a direct result of fertilisation.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 38 = e (no remark); stem confirmed by direct render (page 7)",
+        "asu": "Embryo2 p.7 Q38."
+      }
+    },
+    {
+      "key": "embryo2-q39",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-MORULA-FIRST-IN-LUMEN-Q39",
+      "page": 7,
+      "subject": "dev",
+      "title": "First stage to reach the uterine lumen after fertilization",
+      "question": "The first stage that reaches the uterine lumen after fertilization is:",
+      "options": {
+        "A": "The zygote",
+        "B": "The 2-cell stage",
+        "C": "The 4-cell stage",
+        "D": "The morula",
+        "E": "The blastocyst"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The zygote is still within the uterine tube immediately after fertilisation, well before reaching the uterine lumen.",
+        "B": "Incorrect. The 2-cell stage is an early cleavage stage still undergoing tubal transport, not yet in the uterine lumen.",
+        "C": "Incorrect. The 4-cell stage, like the 2-cell stage, remains within the uterine tube during this window.",
+        "D": "Correct. The zygote, 2-cell, 4-cell and other early cleavage stages all occur within the uterine tube. The morula is the first stage to complete this tubal journey and reach the uterine lumen. It does so about 3-4 days after fertilisation, only later developing further into the blastocyst that will implant.",
+        "E": "Incorrect. The blastocyst forms only after the morula has already reached the uterine cavity and continued developing there -- it is not the first stage to arrive."
+      },
+      "main_concept": "CON-DEV-A09CE205CF4E91",
+      "concept_ids": [
+        "CON-DEV-A09CE205CF4E91"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS"
+      ],
+      "topic": "Embryology - Cleavage",
+      "subtopic": "Tubal transport timing",
+      "learning_objective": "Identify the morula as the first stage to reach the uterine lumen.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 39 = d; stem confirmed by direct render (page 7)",
+        "asu": "Embryo2 p.7 Q39."
+      }
+    },
+    {
+      "key": "embryo2-q40",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-SEX-DETERMINED-AT-FERTILIZATION-Q40",
+      "page": 7,
+      "subject": "dev",
+      "title": "When embryo sex is determined",
+      "question": "The sex of the embryo is determined at:",
+      "options": {
+        "A": "Fertilization",
+        "B": "Spermatogenesis",
+        "C": "Ovulation",
+        "D": "Development of gonads",
+        "E": "Development of external genitalia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The chromosomal sex of the embryo is fixed at the moment of fertilisation. It is decided by whether the fertilising sperm carries an X or a Y chromosome. Every subsequent step of sexual differentiation -- gonadal, then genital -- follows from this single moment.",
+        "B": "Incorrect. Spermatogenesis produces both X- and Y-bearing sperm but does not itself determine which one will go on to fertilise the oocyte.",
+        "C": "Incorrect. Ovulation releases the oocyte, which itself carries only an X chromosome; sex is decided by which sperm fertilises it, an event that has not yet occurred at ovulation.",
+        "D": "Incorrect. Gonadal development is a later, downstream consequence of the chromosomal sex already fixed at fertilisation, not the determining event itself.",
+        "E": "Incorrect. External genitalia development is an even later consequence, occurring after gonadal differentiation, itself downstream of the sex fixed at fertilisation."
+      },
+      "main_concept": "CON-DEV-56BA4B8C2889B9",
+      "concept_ids": [
+        "CON-DEV-56BA4B8C2889B9"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS"
+      ],
+      "topic": "Embryology - Fertilisation",
+      "subtopic": "Sex determination",
+      "learning_objective": "State that the sex of the embryo is determined at fertilisation.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 40 = a; stem confirmed by direct render (page 7)",
+        "asu": "Embryo2 p.7 Q40."
+      }
+    },
+    {
+      "key": "embryo2-q41",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-ONLY-ONE-SPERM-PENETRATE-DUE-TO-Q41",
+      "page": 8,
+      "subject": "dev",
+      "title": "Mechanism restricting entry to one sperm",
+      "question": "Only one sperm can penetrate the oocyte membrane due to:",
+      "options": {
+        "A": "The corona radiata",
+        "B": "The Zona reaction",
+        "C": "Hyaluronidase action",
+        "D": "Capacitation",
+        "E": "Formation of 2nd polar body"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The corona radiata is a layer the fertilising sperm itself must penetrate; it plays no role in blocking additional sperm after the first has fused.",
+        "B": "Correct. Once the first sperm fuses with the oocyte membrane, cortical granule release triggers the zona reaction. This alters the zona pellucida so that no further sperm can penetrate it. It is this mechanism, not any of the other listed options, that restricts fertilisation to a single sperm.",
+        "C": "Incorrect. Hyaluronidase is an acrosomal enzyme that helps the fertilising sperm itself disperse the corona radiata cells; it does not block subsequent sperm.",
+        "D": "Incorrect. Capacitation is a prerequisite the sperm must undergo before it can fertilise at all; it has no role in blocking additional sperm after fertilisation.",
+        "E": "Incorrect. Extrusion of the second polar body is a consequence of the oocyte completing meiosis after fertilisation, not the mechanism that excludes further sperm from entering."
+      },
+      "main_concept": "CON-DEV-F202CC422C987E",
+      "concept_ids": [
+        "CON-DEV-F202CC422C987E"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"
+      ],
+      "topic": "Embryology - Fertilisation",
+      "subtopic": "Block to polyspermy",
+      "learning_objective": "State that the zona reaction restricts oocyte penetration to a single sperm.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 41 = b; stem confirmed by direct render (page 8)",
+        "asu": "Embryo2 p.8 Q41."
+      }
+    },
+    {
+      "key": "embryo2-q42",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-FERTILIZATION-SITE-AMPULLA-Q42",
+      "page": 8,
+      "subject": "dev",
+      "title": "Normal site of fertilization",
+      "question": "Normal site of fertilization is:",
+      "options": {
+        "A": "Fundus of uterus",
+        "B": "Medial part of uterine tube",
+        "C": "Lateral part of uterine tube",
+        "D": "On surface of ovary",
+        "E": "Body of uterus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The fundus of the uterus is where the conceptus later implants (in its normal, non-praevia position), not where fertilisation itself occurs.",
+        "B": "Incorrect. The medial (isthmic) part of the uterine tube is closer to the uterus, downstream of the fertilisation site -- fertilisation happens more laterally, in the ampulla.",
+        "C": "Correct. The normal site of fertilisation is the ampulla, the lateral (wide) part of the uterine tube. It is here that the ovulated secondary oocyte meets capacitated sperm. The zygote then begins its several-day journey along the rest of the tube toward the uterine cavity.",
+        "D": "Incorrect. The ovary's surface is where ovulation releases the oocyte, but fertilisation itself occurs later, after the oocyte has been picked up by the tube.",
+        "E": "Incorrect. The body of the uterus is where implantation occurs, several days after fertilisation, which has already taken place in the tube."
+      },
+      "main_concept": "CON-DEV-B05855C98EDF8F",
+      "concept_ids": [
+        "CON-DEV-B05855C98EDF8F"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS"
+      ],
+      "topic": "Embryology - Fertilisation",
+      "subtopic": "Site of fertilisation",
+      "learning_objective": "State that fertilisation normally occurs in the lateral (ampullary) part of the uterine tube.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 42 = c; stem confirmed by direct render (page 8)",
+        "asu": "Embryo2 p.8 Q42."
+      }
+    },
+    {
+      "key": "embryo2-q43",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-IMPLANTATION-BEGINS-DAY6-Q43",
+      "page": 8,
+      "subject": "dev",
+      "title": "Day implantation begins",
+      "question": "Implantation of blastocyst begins in which post-fertilization day?",
+      "options": {
+        "A": "5th",
+        "B": "6th",
+        "C": "9th",
+        "D": "11th",
+        "E": "13th"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. On the 5th day the blastocyst is typically still free within the uterine cavity, hatching from its zona pellucida but not yet attached.",
+        "B": "Correct. Implantation is a process, not an instant. It begins around day 6-7 after fertilisation, when the hatched blastocyst attaches to and begins invading the endometrium. It then continues for several more days until the blastocyst is fully embedded.",
+        "C": "Incorrect. By the 9th day implantation is well underway, not just beginning.",
+        "D": "Incorrect. By about day 11-12, implantation is essentially completed, with the blastocyst fully embedded and the surface epithelium closed over it -- not the beginning of the process.",
+        "E": "Incorrect. By the 13th day implantation is complete and second-week events (bilaminar disc, extraembryonic mesoderm formation) are already underway."
+      },
+      "main_concept": "CON-DEV-14D17FFD9E6CA3",
+      "concept_ids": [
+        "CON-DEV-14D17FFD9E6CA3"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"
+      ],
+      "topic": "Embryology - Implantation",
+      "subtopic": "Implantation timing",
+      "learning_objective": "State that implantation begins around the 6th day after fertilisation.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 43 = b; stem confirmed by direct render (page 8)",
+        "asu": "Embryo2 p.8 Q43."
+      }
+    },
+    {
+      "key": "embryo2-q44",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-NORMAL-IMPLANTATION-SITE-POSTERIOR-WALL-Q44",
+      "page": 8,
+      "subject": "obs",
+      "title": "Normal site for implantation",
+      "question": "The normal site for implantation is:",
+      "options": {
+        "A": "Cervix of uterus",
+        "B": "Anterior wall of body of uterus",
+        "C": "Posterior wall of body of uterus",
+        "D": "Lower part of uterus",
+        "E": "Surface of ovary"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cervical implantation is a rare, abnormal (cervical ectopic) site, not the normal implantation location.",
+        "B": "Incorrect. The anterior wall is a plausible-sounding but incorrect distractor -- the normal site is specifically the posterior wall, not the anterior wall, of the uterine body.",
+        "C": "Correct. The normal site for implantation is the posterior wall of the body of the uterus. This is where the blastocyst most commonly attaches once it has hatched and reached the uterine cavity. Implantation elsewhere in the uterine body, or outside it entirely, is what produces the various placental and ectopic-pregnancy abnormalities tested elsewhere in this bank.",
+        "D": "Incorrect. Implantation in the lower part of the uterus is the abnormally low site that produces placenta praevia, not the normal implantation location.",
+        "E": "Incorrect. Implantation on the ovarian surface describes a rare ovarian ectopic pregnancy, an abnormal, extrauterine site."
+      },
+      "main_concept": "CON-OBS-555EDEA60FC1E1",
+      "concept_ids": [
+        "CON-OBS-555EDEA60FC1E1"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Implantation",
+      "subtopic": "Normal and ectopic implantation sites",
+      "learning_objective": "State that the posterior wall of the uterine body is the normal implantation site.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 44 = c; stem confirmed by direct render (page 8)",
+        "asu": "Embryo2 p.8 Q44."
+      }
+    },
+    {
+      "key": "embryo2-q45",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-NOT-ECTOPIC-LOWER-UTERUS-Q45",
+      "page": 8,
+      "subject": "obs",
+      "title": "Site that could not be an ectopic pregnancy location",
+      "question": "Which of the following could not be a place for ectopic pregnancy?",
+      "options": {
+        "A": "Uterine tube",
+        "B": "Lower part of body of uterus",
+        "C": "Ovary",
+        "D": "Peritoneum",
+        "E": "Abdominal cavity"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (i.e. this COULD be an ectopic site). The uterine tube, especially its ampulla, is the commonest site of ectopic pregnancy.",
+        "B": "Correct. Implantation in the lower part of the body of the uterus is still intrauterine, not ectopic. It instead produces placenta praevia, a site abnormality but still within the uterine cavity. Ectopic pregnancy is by definition extrauterine implantation, which this option does not describe.",
+        "C": "Incorrect (i.e. this COULD be an ectopic site). Ovarian ectopic pregnancy is rare but recognised.",
+        "D": "Incorrect (i.e. this COULD be an ectopic site). Peritoneal (abdominal) ectopic pregnancy is a recognised, if rare, form.",
+        "E": "Incorrect (i.e. this COULD be an ectopic site). The abdominal cavity, like the peritoneum, is a recognised (rare) ectopic implantation site."
+      },
+      "main_concept": "CON-OBS-555EDEA60FC1E1",
+      "concept_ids": [
+        "CON-OBS-555EDEA60FC1E1"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Implantation",
+      "subtopic": "Normal and ectopic implantation sites",
+      "learning_objective": "State that the lower part of the uterine body is not an ectopic pregnancy site, since it remains intrauterine.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 45 = b; stem confirmed by direct render (page 8)",
+        "asu": "Embryo2 p.8 Q45."
+      }
+    },
+    {
+      "key": "embryo2-q46",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-DECIDUA-BASALIS-EMBRYONIC-POLE-Q46",
+      "page": 8,
+      "subject": "obs",
+      "title": "Decidua lying between the embryonic pole and the endometrium",
+      "question": "Which part of the decidua that lies between the embryonic pole of the blastocyst & the endometrium?",
+      "options": {
+        "A": "Decidua basalis",
+        "B": "Decidua parietalis",
+        "C": "Decidua capsularis",
+        "D": "All of the above",
+        "E": "None of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The decidua immediately deep to the embryonic pole of the implanted blastocyst is named the decidua basalis. It is sandwiched between the embryonic pole and the rest of the endometrium/myometrium. This same tissue goes on to form the maternal part of the placenta.",
+        "B": "Incorrect. Decidua parietalis lines the rest of the uterine cavity, away from the implantation site entirely -- it does not lie at the embryonic pole.",
+        "C": "Incorrect. Decidua capsularis overlies the opposite (abembryonic) pole of the blastocyst, not the embryonic pole.",
+        "D": "Incorrect. Only decidua basalis matches the description given; parietalis and capsularis are both at different locations.",
+        "E": "Incorrect. Decidua basalis does match the description, so \"none of the above\" is wrong."
+      },
+      "main_concept": "CON-OBS-35C8BFBE5C76D7",
+      "concept_ids": [
+        "CON-OBS-35C8BFBE5C76D7"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Decidua",
+      "subtopic": "Decidua basalis position",
+      "learning_objective": "State that decidua basalis lies between the embryonic pole and the endometrium.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 46 = a; stem confirmed by direct render (page 8). Note: the original stem prints two options labelled \"d\" (d. All of the above / d. None of the above) -- a genuine printing typo; the last option is renumbered e (None of the above) here, matching the standard 5-option contract and this bank's own consistent lettering elsewhere.",
+        "asu": "Embryo2 p.8 Q46."
+      }
+    },
+    {
+      "key": "embryo2-q47",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-EXTRAEMBRYONIC-MESODERM-IS-PRIMARY-Q47",
+      "page": 8,
+      "subject": "dev",
+      "title": "Statement about extraembryonic mesoderm that is false",
+      "question": "As regards the extraembryonic mesoderm, all the following are true EXCEPT:",
+      "options": {
+        "A": "It is the secondary mesoderm",
+        "B": "It forms the connecting stalk",
+        "C": "It shares in formation of chorion",
+        "D": "It forms extraembryonic coelom",
+        "E": "It surrounds the yolk sac"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct (i.e. this statement is FALSE). Extraembryonic mesoderm is in fact the primary (1ry) mesoderm -- the first mesoderm to appear -- not the secondary mesoderm, which is the later, intraembryonic mesoderm formed during gastrulation.",
+        "B": "Incorrect (i.e. this statement is TRUE). Extraembryonic mesoderm does form the connecting stalk, which links the embryo to the developing placenta.",
+        "C": "Incorrect (i.e. this statement is TRUE). Extraembryonic mesoderm, underlying the trophoblast, does share in forming the chorion.",
+        "D": "Incorrect (i.e. this statement is TRUE). Coalescing lacunae within extraembryonic mesoderm do form the extraembryonic coelom.",
+        "E": "Incorrect (i.e. this statement is TRUE). Extraembryonic (splanchnic) mesoderm does surround/cover the yolk sac."
+      },
+      "main_concept": "CON-DEV-57097A1AE806FD",
+      "concept_ids": [
+        "CON-DEV-57097A1AE806FD"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-VILLUS-CHORION-STRUCTURE"
+      ],
+      "topic": "Embryology - Events of the second week",
+      "subtopic": "Extraembryonic mesoderm terminology",
+      "learning_objective": "State that extraembryonic mesoderm is the primary, not the secondary, mesoderm.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 47 = a; stem confirmed by direct render (page 8)",
+        "asu": "Embryo2 p.8 Q47."
+      }
+    },
+    {
+      "key": "embryo2-q48",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-INTERVILLOUS-SPACE-MATERNAL-BLOOD-Q48",
+      "page": 9,
+      "subject": "obs",
+      "title": "Contents of the intervillous spaces",
+      "question": "The intervillous spaces contain:",
+      "options": {
+        "A": "Foetal blood",
+        "B": "Maternal blood",
+        "C": "A mixture of foetal & maternal blood",
+        "D": "Blood with high CO2 content",
+        "E": "Blood with low O2 content"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Fetal blood stays confined within the fetal capillaries inside each villus, never entering the intervillous space itself.",
+        "B": "Correct. The intervillous space is fed directly by maternal spiral arteries. It is filled with maternal blood, which bathes the outer (syncytiotrophoblast) surface of the chorionic villi. Fetal blood, by contrast, stays confined within the fetal capillaries inside each villus.",
+        "C": "Incorrect. Fetal and maternal blood do not normally mix -- the fetal capillary endothelium keeps them separate even though both are close together within the placenta.",
+        "D": "Incorrect. This describes deoxygenated blood by one property rather than identifying whose blood (maternal) fills the space; it does not correctly answer what the space contains.",
+        "E": "Incorrect. Like option D, this describes a blood-gas property rather than identifying the space's content as maternal blood."
+      },
+      "main_concept": "CON-OBS-6B277FF13475CD",
+      "concept_ids": [
+        "CON-OBS-6B277FF13475CD"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Intervillous space",
+      "learning_objective": "State that the intervillous space contains maternal blood.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 48 = b",
+        "asu": "Embryo2 p.9 Q48."
+      }
+    },
+    {
+      "key": "embryo2-q49",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-PLACENTA-DOES-NOT-SECRETE-LH-Q49",
+      "page": 9,
+      "subject": "obs",
+      "title": "Hormone not secreted by the placenta",
+      "question": "Which one of the following hormones that is not secreted by the placenta?",
+      "options": {
+        "A": "Progesterone",
+        "B": "Estrogen",
+        "C": "Human placental lactogen",
+        "D": "Luteinizing hormone",
+        "E": "Chronic gonadotrophines"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this IS secreted by the placenta). Progesterone is a major placental steroid hormone, maintaining the pregnant endometrium.",
+        "B": "Incorrect (i.e. this IS secreted by the placenta). Oestrogen is likewise a major placental steroid hormone.",
+        "C": "Incorrect (i.e. this IS secreted by the placenta). Human placental lactogen is a placental protein hormone influencing maternal metabolism.",
+        "D": "Correct. Luteinising hormone is a pituitary gonadotrophin, secreted by the anterior pituitary, not by the placenta. The placenta instead secretes its own distinct hormone, hCG. hCG mimics LH's luteal-support action during early pregnancy without being the same molecule.",
+        "E": "Incorrect (i.e. this IS secreted by the placenta, as printed here). \"Chorionic gonadotrophines\" (hCG) is a placental hormone; this stem's printed spelling is a scanning artefact of \"chorionic.\""
+      },
+      "main_concept": "CON-OBS-D5E426FE1DB9EE",
+      "concept_ids": [
+        "CON-OBS-D5E426FE1DB9EE"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Placental hormone secretion",
+      "learning_objective": "State that luteinising hormone is not a placental hormone.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 49 = d (Luteinizing hormone)",
+        "asu": "Embryo2 p.9 Q49."
+      }
+    },
+    {
+      "key": "embryo2-q50",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-MATERNAL-PART-PLACENTA-Q50",
+      "page": 9,
+      "subject": "obs",
+      "title": "Origin of the maternal part of the placenta",
+      "question": "The maternal part of the placenta is derived from:",
+      "options": {
+        "A": "Decidua parietalis",
+        "B": "Decidua basalis",
+        "C": "Decidua capsularis",
+        "D": "Chorion frondosum",
+        "E": "Chorion leave"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Decidua parietalis lines the uterine cavity away from the implantation site; it does not contribute to the placenta.",
+        "B": "Correct. The decidua basalis is the endometrium underlying the implantation site. It is the maternal part of the placenta. It pairs with the chorion frondosum (fetal part) to form the definitive placenta together.",
+        "C": "Incorrect. Decidua capsularis regresses along with the chorion leave; it does not form the placenta.",
+        "D": "Incorrect. Chorion frondosum is the fetal, not maternal, contributor to the placenta.",
+        "E": "Incorrect. Chorion leave is a fetal (chorionic) structure, and moreover a regressed, non-placental one -- irrelevant to the maternal part of the placenta."
+      },
+      "main_concept": "CON-OBS-54773B9FA007C0",
+      "concept_ids": [
+        "CON-OBS-54773B9FA007C0"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Placental composition",
+      "learning_objective": "State that the maternal part of the placenta is derived from the decidua basalis.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 50 = b",
+        "asu": "Embryo2 p.9 Q50."
+      }
     }
   ]
 }
