@@ -3735,3 +3735,165 @@ Block: body
 ### definition_of · CON-FND-0FAB8FEEC08F4B
 Quote: angioma characteristically lacks this capsule, growing as an uncapsulated vascular proliferation
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-AUTACOIDS-3
+
+## title
+Autacoids 3: leukotriene inhibition, glucocorticoid PLA2 blockade and prostaglandin analog indications
+
+## arabic_title
+الأوتاكويدات 3: تثبيط الليكوترايين، وحصار الجلوكوكورتيكويد لإنزيم الفوسفوليباز A2، ودواعي نظائر البروستاجلاندين
+
+## aliases
+Autacoids 3
+Lecture 38
+
+## subject
+pharm
+
+## topic
+Autacoids 3
+
+## subtopic
+Leukotriene pathway drugs, glucocorticoid mechanism, prostaglandin analog therapeutics
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+10
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 38 covers eicosanoid pharmacology beyond the leukotriene-receptor and serotonin/histamine drugs of earlier lectures: zileuton inhibits 5-lipoxygenase, the enzyme leukotriene biosynthesis specifically requires, relieving asthma by blocking leukotriene production at its source. Glucocorticoids act one step further upstream, inducing lipocortin to inhibit phospholipase A2, the shared first step feeding both the cyclooxygenase and lipoxygenase pathways, giving them a broader anti-inflammatory reach than a single-receptor antagonist. Three prostaglandin analogs carry distinct, non-interchangeable indications: alprostadil (PGE1) keeps a neonate's ductus arteriosus open (indomethacin closes one), misoprostol (also PGE1) prevents NSAID-induced gastritis, and dinoprostone (PGE2) ripens the cervix near term.
+
+## sections
+### Definition
+Autacoids 3 covers eicosanoid pharmacology beyond the leukotriene-receptor and 5HT/histamine drugs of earlier lectures: 5-lipoxygenase inhibition (zileuton), glucocorticoid-mediated phospholipase A2 inhibition, and several distinct clinical uses of prostaglandin analogs (alprostadil/PGE1, misoprostol/PGE1, dinoprostone/PGE2).
+
+### Mechanism
+Zileuton inhibits 5-lipoxygenase, the enzyme leukotriene biosynthesis specifically requires, blocking bronchoconstricting leukotriene production at its source rather than antagonising the leukotriene receptor downstream, as montelukast does, or inhibiting cyclooxygenase, a separate, prostaglandin-generating branch. Glucocorticoids act one step further upstream still, inducing lipocortin to inhibit phospholipase A2, the shared first step feeding both the cyclooxygenase and lipoxygenase pathways, which is why a glucocorticoid can relieve allergic rhinitis broadly rather than through one narrow receptor. Prostaglandin analogs have distinct, non-interchangeable indications by which prostaglandin and which clinical context: alprostadil (PGE1) keeps a neonate's ductus arteriosus open, the opposite of indomethacin's ductus-closing effect; misoprostol (also PGE1) restores the gastroprotective prostaglandin tone an NSAID's cyclooxygenase inhibition removes, preventing NSAID-induced gastritis; and dinoprostone (PGE2) is approved for ripening an unfavourable cervix near term, a different obstetric indication from either PGE1 drug.
+
+### Key determinants
+Zileuton's target (5-lipoxygenase) is the same enzyme leukotriene biosynthesis itself requires -- a drug-mechanism and a pathway-requirement fact that reinforce each other. A glucocorticoid's phospholipase-A2-inhibiting mechanism explains why it blocks both leukotriene- and prostaglandin-mediated inflammation, unlike a single-receptor antagonist. Alprostadil opens a neonate's ductus arteriosus; indomethacin closes one; misoprostol protects the stomach from NSAID injury; dinoprostone ripens the cervix for labour induction -- four distinct prostaglandin-analog indications not to be interchanged.
+
+### Clinical significance
+Selecting zileuton, or a leukotriene-receptor antagonist, for a patient whose asthma is leukotriene-driven, and recognising a glucocorticoid's broader, upstream anti-inflammatory reach, both guide asthma and allergic-rhinitis step-up therapy. Using alprostadil, not indomethacin, when a ductus-dependent neonate needs its ductus kept open, and the reverse when a preterm infant's PDA needs closing, is a genuine bedside safety distinction. Co-prescribing misoprostol with a long-term NSAID in a patient at gastric-ulcer risk, and using dinoprostone rather than any other agent for cervical ripening, are both standard, examinable prescribing decisions.
+
+### Common misconceptions
+Confusing zileuton's enzyme-inhibition mechanism with a leukotriene-receptor antagonist's receptor-blocking mechanism. Assuming a glucocorticoid acts only on one eicosanoid pathway, lipoxygenase or cyclooxygenase alone, rather than upstream of both, via phospholipase A2. Reversing alprostadil's ductus-opening and indomethacin's ductus-closing indications. Substituting alprostadil for dinoprostone, or vice versa, as if the two PGE analogs' obstetric/neonatal indications were interchangeable.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Zileuton inhibits 5-lipoxygenase, the enzyme leukotriene biosynthesis requires, distinct from a leukotriene-receptor antagonist's mechanism.
+Glucocorticoids inhibit phospholipase A2 (via lipocortin), blocking both the cyclooxygenase and lipoxygenase pathways at their shared first step.
+Alprostadil (PGE1) keeps a ductus arteriosus open; indomethacin closes one.
+Misoprostol (PGE1) prevents NSAID-induced gastritis; dinoprostone (PGE2) ripens the cervix near term.
+
+## lose_the_mark
+Confusing 5-lipoxygenase inhibition with leukotriene-receptor antagonism.
+Naming a downstream, pathway-specific mechanism for a glucocorticoid instead of upstream phospholipase A2 inhibition.
+Reversing alprostadil's and indomethacin's opposite ductus-arteriosus effects.
+Interchanging alprostadil, misoprostol and dinoprostone's distinct indications.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-0D4DD74432DAD3
+CON-FND-5B8348A2C52406
+CON-FND-6D14E90AC8C478
+CON-FND-1705B37A2FA90C
+CON-FND-0B0F628EB67257
+CON-FND-69AECAECBCA67F
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 38 (Autacoids 3) -- no department slide deck exists in the corpus past Lecture 8, so all six new mints cite the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-0D4DD74432DAD3
+Quote: Zileuton inhibits 5-lipoxygenase, the enzyme leukotriene biosynthesis specifically requires, blocking bronchoconstricting leukotriene production at its source
+Block: body
+
+### definition_of · CON-FND-5B8348A2C52406
+Quote: alprostadil (PGE1) keeps a neonate's ductus arteriosus open, the opposite of indomethacin's ductus-closing effect
+Block: body
+
+### definition_of · CON-FND-6D14E90AC8C478
+Quote: Glucocorticoids act one step further upstream still, inducing lipocortin to inhibit phospholipase A2, the shared first step feeding both the cyclooxygenase and lipoxygenase pathways
+Block: body
+
+### definition_of · CON-FND-1705B37A2FA90C
+Quote: misoprostol (also PGE1) restores the gastroprotective prostaglandin tone an NSAID's cyclooxygenase inhibition removes, preventing NSAID-induced gastritis
+Block: body
+
+### definition_of · CON-FND-0B0F628EB67257
+Quote: dinoprostone (PGE2) is approved for ripening an unfavourable cervix near term, a different obstetric indication from either PGE1 drug
+Block: body
+
+### definition_of · CON-FND-69AECAECBCA67F
+Quote: Zileuton's target (5-lipoxygenase) is the same enzyme leukotriene biosynthesis itself requires
+Block: body

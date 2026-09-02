@@ -18063,3 +18063,861 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "angioma uncapsulated benign tumour" -- 0 hits; grep for "uncapsulated"/"capsulat" found only an unrelated hamartoma/choristoma distinction (Kasr 208-INT). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-0D4DD74432DAD3
+
+## label
+Zileuton relieves asthma by inhibiting 5-lipoxygenase
+
+## canonical_key
+autacoid.zileuton.5-lipoxygenase-inhibitor
+
+## aliases
+Zileuton mechanism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Zileuton relieves asthma by inhibiting 5-lipoxygenase, the enzyme that converts arachidonic acid into leukotrienes -- the bronchoconstricting, pro-inflammatory mediators central to asthma pathophysiology. This upstream enzyme-inhibition mechanism is distinct from inhibiting mast cell degranulation, antagonizing leukotriene receptors at their target (as montelukast does), or inhibiting cyclooxygenase (the prostaglandin pathway enzyme).
+
+## explicit_objective
+State that zileuton relieves asthma by inhibiting 5-lipoxygenase, blocking leukotriene synthesis at its source, distinct from leukotriene-receptor antagonism or cyclooxygenase inhibition.
+
+## pitfalls
+Confusing zileuton's 5-lipoxygenase-inhibiting mechanism with a leukotriene-receptor antagonist's mechanism (e.g. montelukast) -- one blocks synthesis, the other blocks the receptor.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 3
+
+## subtopic
+Leukotriene pathway drugs
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-3
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-69AECAECBCA67F
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Zileuton is effective in relieving asthma because it produces one of the following: ... Inhibits 5-lipoxygenase" (Quiz 38 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 38 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "zileuton 5-lipoxygenase inhibitor asthma" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-5B8348A2C52406
+
+## label
+Alprostadil (PGE1) is the drug of choice for temporary maintenance of a patent ductus arteriosus
+
+## canonical_key
+autacoid.alprostadil.pda-maintenance
+
+## aliases
+Alprostadil PDA maintenance
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Alprostadil (prostaglandin E1) keeps the ductus arteriosus open by maintaining the smooth-muscle-relaxing prostaglandin tone that closes physiologically after birth, making it the drug of choice for temporary maintenance of ductal patency in a neonate with ductus-dependent congenital heart disease -- the opposite therapeutic goal from indomethacin, a prostaglandin-synthesis inhibitor used instead to close a patent ductus arteriosus.
+
+## explicit_objective
+State that alprostadil (PGE1) is the drug of choice for temporarily maintaining a patent ductus arteriosus, contrasted with indomethacin, which is used to close one.
+
+## pitfalls
+Confusing alprostadil's ductus-opening indication with indomethacin's opposite, ductus-closing indication -- the same physiological pathway (prostaglandin tone) is exploited in opposite directions by the two drugs.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 3
+
+## subtopic
+Prostaglandin therapeutics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-3
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-0B0F628EB67257
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"For temporary maintenance of a patent ductus arteriosus, the drug of choice is: ... alprostadil" (Quiz 38 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 38 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "alprostadil patent ductus arteriosus" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-6D14E90AC8C478
+
+## label
+Glucocorticoids relieve allergic rhinitis by decreasing phospholipase A2 activity
+
+## canonical_key
+autacoid.glucocorticoid.pla2-inhibition-mechanism
+
+## aliases
+Glucocorticoid PLA2 mechanism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glucocorticoids relieve allergic conditions such as nasal congestion and rhinorrhea by inducing lipocortin (annexin-1), which inhibits phospholipase A2 -- the enzyme that liberates arachidonic acid from membrane phospholipids, the shared first step feeding both the cyclooxygenase (prostaglandin) and lipoxygenase (leukotriene) pathways. This single upstream mechanism, not direct leukotriene-receptor antagonism, lipoxygenase-pathway inhibition, or H2-receptor antagonism, is how a glucocorticoid blocks eicosanoid-driven inflammation broadly.
+
+## explicit_objective
+State that a glucocorticoid's mechanism in allergic rhinitis is decreased phospholipase A2 activity, blocking both the prostaglandin and leukotriene pathways at their shared first step.
+
+## pitfalls
+Attributing a glucocorticoid's anti-allergic action to a downstream, pathway-specific mechanism (leukotriene-receptor antagonism, lipoxygenase inhibition, H2-receptor blockade) rather than its actual upstream, phospholipase-A2-inhibiting mechanism.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 3
+
+## subtopic
+Eicosanoid synthesis inhibition
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-3
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...he was advised to take glucocorticoids, the mechanism of action of them is: ... down phospholipase A2 activity" (Quiz 38 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 38 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "glucocorticoid phospholipase a2 inhibition" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-1705B37A2FA90C
+
+## label
+A PGE1 analog (misoprostol) prevents NSAID-induced gastritis
+
+## canonical_key
+autacoid.pge1-analog.nsaid-gastritis-prevention
+
+## aliases
+Misoprostol NSAID gastroprotection
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+NSAIDs such as ibuprofen inhibit cyclooxygenase, reducing the gastroprotective prostaglandin PGE1/PGE2 that normally maintains gastric mucus and bicarbonate secretion; a PGE1 analog such as misoprostol restores this protective effect, preventing NSAID-induced gastritis. A PGE1-receptor antagonist, a PGE2 analog or a PGI2 analog do not describe this specific replacement-therapy mechanism.
+
+## explicit_objective
+State that a PGE1 analog (misoprostol) prevents NSAID-induced gastritis by restoring the gastroprotective prostaglandin tone that the NSAID's cyclooxygenase inhibition removed.
+
+## pitfalls
+Selecting a PGE1 antagonist, PGE2 analog or PGI2 analog instead of a PGE1 analog -- the therapeutic replacement for NSAID-suppressed gastric PGE1 specifically requires a PGE1 analog, not an antagonist or a different prostaglandin's analog.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 3
+
+## subtopic
+Prostaglandin therapeutics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-3
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...The physician prescribes a medication to prevent gastritis. Which of the following best describes the medication? ... PGE 1 analog" (Quiz 38 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 38 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "misoprostol pge1 analog nsaid gastritis prevention" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-0B0F628EB67257
+
+## label
+Dinoprostone is approved for cervical ripening near term
+
+## canonical_key
+autacoid.dinoprostone.cervical-ripening
+
+## aliases
+Dinoprostone cervical ripening
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dinoprostone (a PGE2 analog) is approved specifically for ripening an unfavourable cervix at or near term, softening and preparing it for labour induction -- unlike ergonovine (an ergot alkaloid used post-partum to prevent haemorrhage), terbutaline (a beta2 agonist tocolytic that delays labour) or alprostadil (PGE1, used for ductal patency, not cervical ripening).
+
+## explicit_objective
+State that dinoprostone is the agent approved for cervical ripening near term, distinguishing it from ergonovine, terbutaline and alprostadil.
+
+## pitfalls
+Substituting alprostadil (PGE1) for dinoprostone (PGE2) as the cervical-ripening agent -- the two prostaglandin analogs have distinct, non-interchangeable obstetric indications.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 3
+
+## subtopic
+Prostaglandin therapeutics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-3
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5B8348A2C52406
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which one of the following is approved for \"ripening\" of an unfavorable cervix at or near term in a pregnant patient? ... Dinoprostone" (Quiz 38 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 38 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "dinoprostone cervical ripening" -- 0 hits. New concept.
+relationships: contrast pairing with CON-FND-5B8348A2C52406 (this same lecture's Q2, alprostadil/PGE1 ductal patency) -- the two PGE analogs' distinct obstetric-vs-neonatal indications.
+
+---
+
+# Item
+
+## id
+CON-FND-69AECAECBCA67F
+
+## label
+Leukotriene biosynthesis requires 5-lipoxygenase
+
+## canonical_key
+autacoid.leukotriene.5-lipoxygenase-required-enzyme
+
+## aliases
+Leukotriene biosynthesis pathway
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Leukotrienes are synthesised from arachidonic acid via the 5-lipoxygenase pathway, not the 8-lipoxygenase (a non-human pathway), COX-1 or COX-2 pathways, which instead generate prostaglandins and thromboxane. 5-Lipoxygenase is therefore the required enzyme for leukotriene biosynthesis, and the target of a drug such as zileuton.
+
+## explicit_objective
+State that leukotriene biosynthesis requires 5-lipoxygenase, distinguishing this pathway from the COX-1/COX-2 prostaglandin/thromboxane pathway.
+
+## pitfalls
+Confusing the leukotriene-generating lipoxygenase pathway with the prostaglandin/thromboxane-generating cyclooxygenase (COX-1/COX-2) pathway -- both start from arachidonic acid but diverge at this branch point.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 3
+
+## subtopic
+Leukotriene pathway drugs
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-3
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-0D4DD74432DAD3
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following enzymes do leukotrienes require for their biosynthesis? ... 5-Lipoxygenase" (Quiz 38 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 38 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "leukotriene biosynthesis 5-lipoxygenase enzyme" -- 0 hits. New concept.
+relationships: sibling of CON-FND-0D4DD74432DAD3 (this same lecture's Q1, zileuton).
