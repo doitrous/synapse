@@ -1,0 +1,53 @@
+# ZU-MED-105 (Professional Practice I) triage keys — one per line, # comments allowed.
+# S3 first-pass triage, three tier-1 sources (see coverage/ZU-MED-105-triage.md).
+# Slug = kebab-case of the tested idea; status is find-existing.mjs result (new for
+# all — see triage's concept-search-sample, 0 hits for every professionalism/ethics
+# query tried); comment carries the recovered key and source id.
+# --- pp1-zag24 (Zag P.P1 Final 2024.pdf, 12 SBA, printed key line, native text) ---
+pp1-zag24-q01-checklist-tool-student-satisfaction  # new · key: D) Student satisfaction
+pp1-zag24-q02-physician-patient-trust-communication  # new · key: B) Trust and communication
+pp1-zag24-q03-accountability-model-base-ability  # new · key: C) Ability
+pp1-zag24-q04-storming-stage-team-development  # new · key: C) Storming
+pp1-zag24-q05-justice-fair-distribution-healthcare  # new · key: C) Justice
+pp1-zag24-q06-self-assessment-constructive-feedback  # new · key: C) Self-assessment and constructive feedback
+pp1-zag24-q07-compassion-empathy-patients  # new · key: B) Showing empathy and care towards patients
+pp1-zag24-q08-early-professionalism-education-purpose  # new · key: A) Prevent disciplinary actions
+pp1-zag24-q09-emergency-consent-exception-lifesaving  # new · key: A) Lifesaving operations
+pp1-zag24-q10-conflict-resolution-compromising  # new · key: C) Compromising
+pp1-zag24-q11-professionalism-public-trust  # new · key: C) Support the trust the public has in doctors
+pp1-zag24-q12-self-assessment-best-method-reflective  # new · key: A) Reflective practices
+# --- pp1-fakous24 (Fakous P.P1 Final 2024.pdf, 7 SBA, light-blue highlight, OCR p1 + render-confirmed both pages) ---
+pp1-fakous24-q01-physician-patient-relationship-onset  # new · key: d) Selects the physician
+pp1-fakous24-q02-vertical-equity-definition  # new · key: c) Vertical equity
+pp1-fakous24-q03-justice-organ-transplant-allocation  # new · key: d) Justice
+pp1-fakous24-q04-mental-capacity-consent-proxy-physician  # new · key: b) His physician
+pp1-fakous24-q05-checklist-tool-student-satisfaction  # new · key: c) Student satisfaction (duplicate-of pp1-zag24-q01, same fact, different paper)
+pp1-fakous24-q06-leadership-negotiation-conflicting-interests  # new · key: c) Negotiation
+pp1-fakous24-q07-storming-stage-team-development  # new · key: d) Storming (duplicate-of pp1-zag24-q04, same fact, different paper)
+# --- pp1-past (امتحانات سابقه.pdf, Q1-Q29 authored this pass, gray-fill key, ad hoc PyMuPDF detection + 3 render spot-checks) ---
+pp1-past-q01-self-awareness-decision-quality  # new · key: B) To increase her level of self-awareness
+pp1-past-q02-self-awareness-goal-setting-outcome  # new · key: D) Setting appropriate life and career goals
+pp1-past-q03-self-awareness-sources-behavior-perception  # new · key: E) Self-awareness is affected by behavior and perception (source prints option letter as "E" in an A/B/E/C order — a labeling slip in the source itself, not a key ambiguity; see seed field_notes)
+pp1-past-q04-emotional-intelligence-definition  # new · key: C) Emotional intelligence
+pp1-past-q05-goal-setting-definition  # new · key: B) Goal setting
+pp1-past-q11-time-management-definition  # new · key: B) Spend the time available to you much more effectively
+pp1-past-q12-time-management-prioritization  # new · key: A) You need to decide what is really important and what can wait to effectively manage your time
+pp1-past-q13-stress-definition-expectation-reality-gap  # new · key: B) Stress is the gap between our expectations and reality, it is a normal part of life
+pp1-past-q15-self-awareness-lack-consequence  # new · key: A) Wrong decisions that lead to negative consequences (duplicate-of pp1-past-q28, identical stem/options, same paper)
+pp1-past-q16-todo-list-prioritization-tool  # new · key: B) To do list
+pp1-past-q17-time-management-productive-use  # new · key: C) Spend the time available to you much more productively (duplicate-of pp1-past-q11, near-identical stem, same paper — this copy says "productively" not "effectively")
+pp1-past-q19-democratic-leadership-style  # new · key: B) Encourages others to volunteer for responsibilities and confirms commitments
+pp1-past-q20-leadership-definition-mobilize-influence  # new · key: D) Leadership
+pp1-past-q21-core-team-definition  # new · key: C) Formed of members who are directly involved in caring for patients
+pp1-past-q22-goal-setting-definition-2  # new · key: C) Goal setting (duplicate-of pp1-past-q05, identical stem/options, same paper)
+pp1-past-q23-student-patient-contact-conduct  # new · key: D) All of the above
+pp1-past-q25-confidentiality-breach-justified-exception  # new · key: C) For present the physician's knowledge and skills
+pp1-past-q26-physician-duty-to-colleagues  # new · key: B) Educate his colleagues and transfer recent skills and knowledge to them
+pp1-past-q27-self-awareness-decision-quality-2  # new · key: C) To increase his level of self-awareness (duplicate-of pp1-past-q01, identical fact/options, gender-swapped stem, same paper)
+pp1-past-q28-self-awareness-lack-consequence-2  # new · key: A) Wrong decisions that lead to negative consequences (duplicate-of pp1-past-q15, identical stem/options, same paper)
+pp1-past-q29-self-awareness-sources-self-analysis  # new · key: B) Self-analysis is an important source of self-awareness
+# --- held (not authored) ---
+pp1-past-q14-team-development-stages-exception  # held-indefensible-key · two gray-fill marks disagree (C "Adjuring" and D "Co-coordination" both marked, render-confirmed p2); Adjuring is a real Tuckman stage so C is not itself defensible as "not a stage", but the rule is two-marks-disagree = hold, not pick-the-more-defensible-one
+pp1-past-q24-equity-definition  # held-malformed-source · only 2 options (A/B) printed in source, C/D missing
+pp1-past-q31-unmarked  # held-no-printed-key (page 5, not authored — beyond this pass's Q1-29 scope, logged for next pass)
+pp1-past-q33-unmarked  # held-no-printed-key (page 5, not authored — beyond this pass's scope)
