@@ -8756,3 +8756,1418 @@ authored_from_local_exam_bank_needs_independent_evidence
 arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
 arabicAliases: No reviewed Arabic aliases were supplied.
 asu: Tested as Patho Q16 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Renal blood flow autoregulation keeps flow relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg
+
+## id
+CON-REN-8FFFA00C8526BF
+
+## canonical_key
+renal-blood-flow-autoregulation-keeps-flow-relatively-constant-across-a-mean-arterial-pressure-range-of-approx
+
+## definition
+Renal blood flow autoregulation keeps flow relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg.
+
+## explicit_objective
+State that renal blood flow autoregulation keeps flow relatively constant across a mean arterial pressure range of approximately 80 to 180 mmHg.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+renal
+
+## primary_node_id
+SYS-REN-T01-S02-M01
+
+## secondary_node_ids
+DIS-PHY-T04
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Renal autoregulation
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## confidence
+0.85
+
+## topic
+Renal physiology
+
+## subtopic
+Renal autoregulation
+
+## microtopic
+
+## nanotopic
+
+## aliases
+Renal blood flow remains relatively constant (autoregulated) across which range of mean arterial pressure (MAP)?
+
+## pitfalls
+Assuming autoregulation holds at any blood pressure rather than only within its bounded 80-180 mmHg range, or that it operates through a single fixed pressure rather than a range.
+
+## article_ids
+ART-REN-ASU-UG-RENAL-BLOOD-FLOW-AUTOREGULATION-KEEPS-FLOW-RELATIVELY-CONSTANT-80-180-MMHG
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Physio Q1, embedded-answer format (no printed distractors), read from MCQs - Urogenital Assessment 1 MCQ.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology textbook reference (e.g. Guyton and Hall Textbook of Medical Physiology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+## related_article_ids
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-REN-ASU-UG-RENAL-BLOOD-FLOW-AUTOREGULATION-KEEPS-FLOW-RELATIVELY-CONSTANT-80-180-MMHG-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Physio Q1 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+The proximal convoluted tubule normally reabsorbs essentially all filtered glucose and amino acids, and virtually all filtered protein via receptor-mediated endocytosis
+
+## id
+CON-REN-BD2B91AB53E5B6
+
+## canonical_key
+the-proximal-convoluted-tubule-normally-reabsorbs-essentially-all-filtered-glucose-and-amino-acids-and-virtual
+
+## definition
+The proximal convoluted tubule normally reabsorbs essentially all filtered glucose and amino acids, and virtually all filtered protein via receptor-mediated endocytosis.
+
+## explicit_objective
+State that the proximal convoluted tubule normally reabsorbs essentially all filtered glucose and amino acids, and virtually all filtered protein via receptor-mediated endocytosis.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+renal
+
+## primary_node_id
+SYS-REN-T01-S02-M02
+
+## secondary_node_ids
+DIS-PHY-T04
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Tubular transport
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## confidence
+0.85
+
+## topic
+Renal physiology
+
+## subtopic
+Tubular transport
+
+## microtopic
+
+## nanotopic
+
+## aliases
+Which of the following is completely reabsorbed in the proximal convoluted tubule (PCT) under normal physiological conditions?
+
+## pitfalls
+Assuming filtered protein is reabsorbed the same way as glucose and amino acids (Na+-coupled cotransport) rather than by a separate, saturable receptor-mediated endocytic pathway.
+
+## article_ids
+ART-REN-ASU-UG-PCT-COMPLETELY-REABSORBS-GLUCOSE-AMINO-ACIDS-AND-FILTERED-PROTEIN-UNDER-NORMAL-LOADS
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Physio Q4, embedded-answer format (no printed distractors), read from MCQs - Urogenital Assessment 1 MCQ.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology textbook reference (e.g. Guyton and Hall Textbook of Medical Physiology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+## related_article_ids
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-REN-ASU-UG-PCT-COMPLETELY-REABSORBS-GLUCOSE-AMINO-ACIDS-AND-FILTERED-PROTEIN-UNDER-NORMAL-LOADS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Physio Q4 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+An extracellular fluid osmolarity of approximately 300 mOsm/L reflects osmotic equilibrium between the extracellular and intracellular fluid compartments
+
+## id
+CON-REN-8762DE8DDC1433
+
+## canonical_key
+an-extracellular-fluid-osmolarity-of-approximately-300-mosm-l-reflects-osmotic-equilibrium-between-the-extrace
+
+## definition
+An extracellular fluid osmolarity of approximately 300 mOsm/L reflects osmotic equilibrium between the extracellular and intracellular fluid compartments.
+
+## explicit_objective
+State that an extracellular fluid osmolarity of approximately 300 mOsm/L reflects osmotic equilibrium between the extracellular and intracellular fluid compartments.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+renal
+
+## primary_node_id
+SYS-REN-T01-S02-M03
+
+## secondary_node_ids
+DIS-PHY-T04
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Water balance
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## confidence
+0.85
+
+## topic
+Renal physiology
+
+## subtopic
+Water balance
+
+## microtopic
+
+## nanotopic
+
+## aliases
+An extracellular fluid (ECF) osmolarity of approximately 300 mOsm/L indicates which of the following?
+
+## pitfalls
+Mistaking a normal ECF osmolarity value (~275-295, commonly rounded to ~300 mOsm/L) for a hypertonic or pathological state, rather than recognizing it as the normal equilibrium value shared with the intracellular compartment.
+
+## article_ids
+ART-REN-ASU-UG-ECF-OSMOLARITY-300-REFLECTS-OSMOTIC-EQUILIBRIUM-BETWEEN-ECF-AND-ICF
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Physio Q8, embedded-answer format (no printed distractors), read from MCQs - Urogenital Assessment 1 MCQ.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology textbook reference (e.g. Guyton and Hall Textbook of Medical Physiology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+## related_article_ids
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-REN-ASU-UG-ECF-OSMOLARITY-300-REFLECTS-OSMOTIC-EQUILIBRIUM-BETWEEN-ECF-AND-ICF-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Physio Q8 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Cortical nephrons, with their short loops of Henle, are chiefly responsible for renal autoregulation of blood flow and GFR
+
+## id
+CON-REN-37C6FBF5017607
+
+## canonical_key
+cortical-nephrons-with-their-short-loops-of-henle-are-chiefly-responsible-for-renal-autoregulation-of-blood-fl
+
+## definition
+Cortical nephrons, with their short loops of Henle, are chiefly responsible for renal autoregulation of blood flow and GFR.
+
+## explicit_objective
+State that cortical nephrons, with their short loops of Henle, are chiefly responsible for renal autoregulation of blood flow and GFR.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+renal
+
+## primary_node_id
+SYS-REN-T01-S02-M01
+
+## secondary_node_ids
+DIS-PHY-T04
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Physiology > Renal autoregulation
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## confidence
+0.85
+
+## topic
+Renal physiology
+
+## subtopic
+Renal autoregulation
+
+## microtopic
+
+## nanotopic
+
+## aliases
+Which functional role is most characteristic of cortical nephrons, as distinct from juxtamedullary nephrons?
+
+## pitfalls
+Confusing the functional roles of cortical nephrons (autoregulation, via their juxtaglomerular apparatus near the corticomedullary junction) and juxtamedullary nephrons (urine concentration, via their long loops of Henle and vasa recta).
+
+## article_ids
+ART-REN-ASU-UG-CORTICAL-NEPHRONS-ARE-CHIEFLY-RESPONSIBLE-FOR-RENAL-AUTOREGULATION-OF-BLOOD-FLOW-AND-GFR
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Physio Q23, embedded-answer format (no printed distractors), read from MCQs - Urogenital Assessment 1 MCQ.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology textbook reference (e.g. Guyton and Hall Textbook of Medical Physiology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+CON-REN-7592F22D6E3CB0 | CON-REN-1B344D6092B6DB
+
+## related_article_ids
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-REN-ASU-UG-CORTICAL-NEPHRONS-ARE-CHIEFLY-RESPONSIBLE-FOR-RENAL-AUTOREGULATION-OF-BLOOD-FLOW-AND-GFR-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Physio Q23 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+The vasa recta carry a sluggish, low blood flow, which helps preserve the medullary interstitial osmotic gradient
+
+## id
+CON-REN-28020ABF058699
+
+## canonical_key
+the-vasa-recta-carry-a-sluggish-low-blood-flow-which-helps-preserve-the-medullary-interstitial-osmotic-gradien
+
+## definition
+The vasa recta carry a sluggish, low blood flow, which helps preserve the medullary interstitial osmotic gradient.
+
+## explicit_objective
+State that the vasa recta carry a sluggish, low blood flow, which helps preserve the medullary interstitial osmotic gradient.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+renal
+
+## primary_node_id
+SYS-REN-T01-S02-M03
+
+## secondary_node_ids
+DIS-PHY-T04
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Physio > Urine concentration
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## confidence
+0.85
+
+## topic
+Renal physiology
+
+## subtopic
+Urine concentration
+
+## microtopic
+
+## nanotopic
+
+## aliases
+Which of the following is a characteristic feature of the renal medullary circulation?
+
+## pitfalls
+Assuming faster vasa recta flow would be more efficient, when in fact the deliberately sluggish flow is what protects the medullary gradient from being washed out.
+
+## article_ids
+ART-REN-ASU-UG-VASA-RECTA-CARRY-A-SLUGGISH-LOW-BLOOD-FLOW-PRESERVING-THE-MEDULLARY-OSMOTIC-GRADIENT
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Physio Q24, embedded-answer format (no printed distractors), read from MCQs - Urogenital Assessment 1 MCQ.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology textbook reference (e.g. Guyton and Hall Textbook of Medical Physiology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+CON-REN-0393CC617268D2 | CON-REN-ABC1F5F0507B0B | CON-REN-C3EB03304F6A83
+
+## related_article_ids
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-REN-ASU-UG-VASA-RECTA-CARRY-A-SLUGGISH-LOW-BLOOD-FLOW-PRESERVING-THE-MEDULLARY-OSMOTIC-GRADIENT-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Physio Q24 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Treatment of asymptomatic bacteriuria is indicated in neutropenic patients, unlike the general non-pregnant population
+
+## id
+CON-INF-9013811BFECF82
+
+## canonical_key
+treatment-of-asymptomatic-bacteriuria-is-indicated-in-neutropenic-patients-unlike-the-general-non-pregnant-pop
+
+## definition
+Treatment of asymptomatic bacteriuria is indicated in neutropenic patients, unlike the general non-pregnant population.
+
+## explicit_objective
+State that treatment of asymptomatic bacteriuria is indicated in neutropenic patients, unlike the general non-pregnant population.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+inf
+
+## primary_node_id
+SYS-INF-T05-S02-M05
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Urinary tract infection
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## confidence
+0.85
+
+## topic
+Medical microbiology
+
+## subtopic
+Urinary tract infection
+
+## microtopic
+
+## nanotopic
+
+## aliases
+In which of the following patient groups is treatment of asymptomatic bacteriuria specifically indicated?
+
+## pitfalls
+Assuming asymptomatic bacteriuria should be treated in every patient (e.g. healthy non-pregnant women or long-term catheterized patients), rather than reserving treatment for specific high-risk groups such as pregnancy, pre-urologic-procedure, and significant immunosuppression.
+
+## article_ids
+ART-INF-ASU-UG-ASYMPTOMATIC-BACTERIURIA-TREATMENT-IS-INDICATED-IN-NEUTROPENIC-PATIENTS
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Micro Q1, embedded-answer format (no printed distractors), read from MCQs - Urogenital Assessment 1 MCQ.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent microbiology/infectious disease textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+## related_article_ids
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-INF-ASU-UG-ASYMPTOMATIC-BACTERIURIA-TREATMENT-IS-INDICATED-IN-NEUTROPENIC-PATIENTS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Micro Q1 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture
+
+## id
+CON-INF-B1C5AF91290C33
+
+## canonical_key
+pseudomonas-aeruginosa-characteristically-produces-pyocyanin-a-blue-green-pigment-in-culture
+
+## definition
+Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture.
+
+## explicit_objective
+State that pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+inf
+
+## primary_node_id
+SYS-INF-T05-S02-M05
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Gram-negative organism identification
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## confidence
+0.85
+
+## topic
+Medical microbiology
+
+## subtopic
+Gram-negative organism identification
+
+## microtopic
+
+## nanotopic
+
+## aliases
+Which of the following pigments is characteristically produced by Pseudomonas aeruginosa in culture?
+
+## pitfalls
+Confusing pyocyanin (blue-green, Pseudomonas aeruginosa) with the pigments of unrelated organisms, such as prodigiosin (red, Serratia marcescens) or violacein (purple, Chromobacterium violaceum).
+
+## article_ids
+ART-INF-ASU-UG-PSEUDOMONAS-AERUGINOSA-CHARACTERISTICALLY-PRODUCES-PYOCYANIN-A-BLUE-GREEN-PIGMENT
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Micro Q2, embedded-answer format (no printed distractors), read from MCQs - Urogenital Assessment 1 MCQ.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent microbiology textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+## related_article_ids
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-INF-ASU-UG-PSEUDOMONAS-AERUGINOSA-CHARACTERISTICALLY-PRODUCES-PYOCYANIN-A-BLUE-GREEN-PIGMENT-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Micro Q2 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Honeymoon cystitis (acute cystitis related to recent intercourse) caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to Escherichia coli
+
+## id
+CON-INF-F1F329D64ACDD3
+
+## canonical_key
+honeymoon-cystitis-acute-cystitis-related-to-recent-intercourse-caused-by-a-gram-negative-lactose-fermenting-p
+
+## definition
+Honeymoon cystitis (acute cystitis related to recent intercourse) caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to Escherichia coli.
+
+## explicit_objective
+State that honeymoon cystitis (acute cystitis related to recent intercourse) caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to Escherichia coli.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+inf
+
+## primary_node_id
+SYS-INF-T05-S02-M05
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Urinary tract infection
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## confidence
+0.85
+
+## topic
+Medical microbiology
+
+## subtopic
+Urinary tract infection
+
+## microtopic
+
+## nanotopic
+
+## aliases
+"Honeymoon cystitis" caused by a gram-negative, lactose-fermenting, penicillin-resistant bacillus is most likely due to which organism?
+
+## pitfalls
+Attributing this classic gram-negative, lactose-fermenting bacillus presentation to a gram-positive organism such as Staphylococcus saprophyticus or Enterococcus faecalis, which are also recognized causes of cystitis but do not match the described morphology.
+
+## article_ids
+ART-INF-ASU-UG-HONEYMOON-CYSTITIS-GRAM-NEGATIVE-LACTOSE-FERMENTING-PENICILLIN-RESISTANT-BACILLUS-IS-E-COLI
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Micro Q3, embedded-answer format (no printed distractors), read from MCQs - Urogenital Assessment 1 MCQ.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent microbiology textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+## related_article_ids
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-INF-ASU-UG-HONEYMOON-CYSTITIS-GRAM-NEGATIVE-LACTOSE-FERMENTING-PENICILLIN-RESISTANT-BACILLUS-IS-E-COLI-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Micro Q3 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Proteus vulgaris is indole-positive and tends to be more antibiotic-resistant than Proteus mirabilis
+
+## id
+CON-INF-9C655838ACE8D6
+
+## canonical_key
+proteus-vulgaris-is-indole-positive-and-tends-to-be-more-antibiotic-resistant-than-proteus-mirabilis
+
+## definition
+Proteus vulgaris is indole-positive and tends to be more antibiotic-resistant than Proteus mirabilis.
+
+## explicit_objective
+State that proteus vulgaris is indole-positive and tends to be more antibiotic-resistant than Proteus mirabilis.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+inf
+
+## primary_node_id
+SYS-INF-T05-S02-M05
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Gram-negative organism identification
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## confidence
+0.85
+
+## topic
+Medical microbiology
+
+## subtopic
+Gram-negative organism identification
+
+## microtopic
+
+## nanotopic
+
+## aliases
+Which of the following correctly characterizes Proteus vulgaris, in contrast to Proteus mirabilis?
+
+## pitfalls
+Reversing the indole result between the two Proteus species — Proteus mirabilis is indole-negative and Proteus vulgaris is indole-positive, the opposite of the more common assumption.
+
+## article_ids
+ART-INF-ASU-UG-PROTEUS-VULGARIS-IS-INDOLE-POSITIVE-AND-MORE-ANTIBIOTIC-RESISTANT-THAN-P-MIRABILIS
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Micro Q4, embedded-answer format (no printed distractors), read from MCQs - Urogenital Assessment 1 MCQ.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent microbiology textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+## related_article_ids
+
+## resource_ids
+src_fe15375a2ac623537954
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-INF-ASU-UG-PROTEUS-VULGARIS-IS-INDOLE-POSITIVE-AND-MORE-ANTIBIOTIC-RESISTANT-THAN-P-MIRABILIS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Micro Q4 of the ASU-UG MCQs - Urogenital Assessment 1 MCQ compilation (src_fe15375a2ac623537954), embedded-answer format, no printed distractors — this batch authors its own.

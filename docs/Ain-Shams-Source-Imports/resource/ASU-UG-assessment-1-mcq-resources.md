@@ -38,13 +38,13 @@ Glomerular disease
 Nephrolithiasis and urinary tract obstruction
 
 ## chapter
-MCQs - Urogenital Assessment 1 MCQ — Physiology block, pp.7-10 (Physio Q2-Q45) and Pathology block, pp.10-12 (Patho Q1-Q16)
+MCQs - Urogenital Assessment 1 MCQ — Physiology block, pp.6-10 (Physio Q1-Q45), Pathology block, pp.10-12 (Patho Q1-Q16), and Micro block, p.12 (Micro Q1-Q4)
 
 ## module_ids
 ASU-UG
 
 ## module_subject
-ASU-UG > Physiology, Pathology
+ASU-UG > Physiology, Pathology, Microbiology
 
 ## included_concepts
 CON-REN-1D0F6664D6170C
@@ -100,6 +100,15 @@ CON-REN-00992111442A78
 CON-REN-9001E75024A85E
 CON-REN-EEF18FAD47C07F
 CON-REN-71A84932BCBBD8
+CON-REN-8FFFA00C8526BF
+CON-REN-BD2B91AB53E5B6
+CON-REN-8762DE8DDC1433
+CON-REN-37C6FBF5017607
+CON-REN-28020ABF058699
+CON-INF-9013811BFECF82
+CON-INF-B1C5AF91290C33
+CON-INF-F1F329D64ACDD3
+CON-INF-9C655838ACE8D6
 
 ## included_articles
 ART-REN-ASU-UG-A-DECREASE-IN-PLASMA-ONCOTIC-PRESSURE-INCREASES-GLOMERULAR-FILTRATION-RATE
@@ -155,6 +164,15 @@ ART-REN-ASU-UG-CHRONIC-BRONCHIECTASIS-IS-A-CLASSIC-CAUSE-OF-SECONDARY-AA-AMYLOID
 ART-REN-ASU-UG-THE-PELVIURETERIC-JUNCTION-THE-FIRST-SITE-OF-URETERIC-NARROWING-LIES-AT-APPROXIMATELY-THE-LEVEL-OF
 ART-REN-ASU-UG-GOUT-ASSOCIATED-URIC-ACID-STONES-ARE-SMOOTH-YELLOW-BROWN-AND-RADIOLUCENT-AND-CAN-OCCASIONALLY-FORM
 ART-REN-ASU-UG-CALCIUM-OXALATE-STONES-ARE-CHARACTERISTICALLY-ROUGH-AND-BROWNISH-BLACK-PIGMENTED-BY-INCORPORATED
+ART-REN-ASU-UG-RENAL-BLOOD-FLOW-AUTOREGULATION-KEEPS-FLOW-RELATIVELY-CONSTANT-80-180-MMHG
+ART-REN-ASU-UG-PCT-COMPLETELY-REABSORBS-GLUCOSE-AMINO-ACIDS-AND-FILTERED-PROTEIN-UNDER-NORMAL-LOADS
+ART-REN-ASU-UG-ECF-OSMOLARITY-300-REFLECTS-OSMOTIC-EQUILIBRIUM-BETWEEN-ECF-AND-ICF
+ART-REN-ASU-UG-CORTICAL-NEPHRONS-ARE-CHIEFLY-RESPONSIBLE-FOR-RENAL-AUTOREGULATION-OF-BLOOD-FLOW-AND-GFR
+ART-REN-ASU-UG-VASA-RECTA-CARRY-A-SLUGGISH-LOW-BLOOD-FLOW-PRESERVING-THE-MEDULLARY-OSMOTIC-GRADIENT
+ART-INF-ASU-UG-ASYMPTOMATIC-BACTERIURIA-TREATMENT-IS-INDICATED-IN-NEUTROPENIC-PATIENTS
+ART-INF-ASU-UG-PSEUDOMONAS-AERUGINOSA-CHARACTERISTICALLY-PRODUCES-PYOCYANIN-A-BLUE-GREEN-PIGMENT
+ART-INF-ASU-UG-HONEYMOON-CYSTITIS-GRAM-NEGATIVE-LACTOSE-FERMENTING-PENICILLIN-RESISTANT-BACILLUS-IS-E-COLI
+ART-INF-ASU-UG-PROTEUS-VULGARIS-IS-INDOLE-POSITIVE-AND-MORE-ANTIBIOTIC-RESISTANT-THAN-P-MIRABILIS
 
 ## concept_locations
 CON-REN-1D0F6664D6170C | page | 2
@@ -210,6 +228,15 @@ CON-REN-00992111442A78 | page | Patho Q12
 CON-REN-9001E75024A85E | page | Patho Q13
 CON-REN-EEF18FAD47C07F | page | Patho Q14
 CON-REN-71A84932BCBBD8 | page | Patho Q16
+CON-REN-8FFFA00C8526BF | page | Physio Q1
+CON-REN-BD2B91AB53E5B6 | page | Physio Q4
+CON-REN-8762DE8DDC1433 | page | Physio Q8
+CON-REN-37C6FBF5017607 | page | Physio Q23
+CON-REN-28020ABF058699 | page | Physio Q24
+CON-INF-9013811BFECF82 | page | Micro Q1
+CON-INF-B1C5AF91290C33 | page | Micro Q2
+CON-INF-F1F329D64ACDD3 | page | Micro Q3
+CON-INF-9C655838ACE8D6 | page | Micro Q4
 
 ## universities
 asu
@@ -218,4 +245,4 @@ asu
 ASU_Y3
 
 ## description
-Native-text, undated ASU Year 3 Urogenital "MCQs - Urogenital Assessment 1 MCQ.pdf" compilation (~110-120 items estimated across subject blocks: Anatomy/Pharma/Bio/Histo sampled pp.1-6 by an earlier lane at ~62 items; Physiology runs p.6-10 (Q1-Q47); Pathology runs p.10-12 (Q1-Q16), followed by an unsampled Micro block). This resource row now covers 54 items: the first 20 minted from the Physiology block (pp.7-9, Physio Q2-Q25); a second batch of 34 covering the remainder of Physiology (pp.9-10, Physio Q26-Q45; Physio Q46 and Q47 held as within-file duplicates of Q10 and Q28) and the full Pathology block (pp.10-12, Patho Q1-Q16; Patho Q6 and Q15 held as within-file duplicates of Patho Q1 and Q3). This batch authors its own distractors throughout. Physio Q1, Q4, Q8, Q23, Q24 (skipped by the first batch) and the Micro block (p.12) remain unsampled by this lane. This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.
+Native-text, undated ASU Year 3 Urogenital "MCQs - Urogenital Assessment 1 MCQ.pdf" compilation. Physiology runs p.6-10 (Q1-Q47); Pathology runs p.10-12 (Q1-Q16); a 5-item Micro block closes the file on p.12 (Q1-Q5). This resource row now covers 63 items across the whole Physiology/Pathology/Micro span: the first 20 minted from the Physiology block (pp.7-9, Physio Q2-Q25); a second batch of 34 covering the remainder of Physiology (pp.9-10, Physio Q26-Q45; Physio Q46 and Q47 held as within-file duplicates of Q10 and Q28) and the full Pathology block (pp.10-12, Patho Q1-Q16; Patho Q6 and Q15 held as within-file duplicates of Patho Q1 and Q3); and a closing batch (lane asu-ug-author5) of the 5 stray Physio items skipped earlier (Q1, Q4, Q8, Q23, Q24) and 4 of the 5 Micro items (Q1-Q4; Q5 held as a cross-paper duplicate of a germ-tube-test/candidiasis concept already minted in eom-ug-final2-collection). This batch authors its own distractors throughout. The file's pp.1-6 (a separate, still-unread slice this lane's triage-keys.txt correction flags as needing its own future triage pass, not the Physio/Patho/Micro content covered here) is out of scope for this row. This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.

@@ -21096,3 +21096,170 @@ asu: Authored from ASU-UG > Pathology > Gestational trophoblastic disease source
 
 ## review_due
 
+---
+
+# Item
+
+## id
+ART-INF-ASU-UG-MATERNAL-PARVOVIRUS-B19-INFECTION-CAUSES-NON-IMMUNE-FETAL-HYDROPS-VIA-ERYTHROID-SUPPRESSION
+
+## title
+Maternal parvovirus B19 infection in the first half of pregnancy is a classic cause of non-immune fetal hydrops via suppression of fetal erythropoiesis
+
+## arabic_title
+
+## aliases
+Which of the following organisms is a classic cause of non-immune fetal hydrops when a pregnant woman is infected in the first half of pregnancy?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Medical microbiology
+
+## subtopic
+Perinatal infection
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+SYS-OBS-T06-S02-M03
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Perinatal infection
+
+## summary
+Maternal parvovirus B19 infection in the first half of pregnancy is a classic cause of non-immune fetal hydrops via suppression of fetal erythropoiesis.
+
+## sections
+### Definition
+Maternal parvovirus B19 infection in the first half of pregnancy is a classic cause of non-immune fetal hydrops via suppression of fetal erythropoiesis.
+
+### Mechanism
+Maternal parvovirus B19 infection, particularly when acquired in the first half of pregnancy, is a classic cause of non-immune fetal hydrops: the virus infects and suppresses fetal erythroid progenitor cells, producing severe fetal anemia that in turn leads to high-output cardiac failure and generalized fluid accumulation (hydrops). Because the fetal marrow has limited reserve capacity earlier in gestation, the anemia and resulting hydrops are most severe with earlier infection. Serial fetal ultrasound monitoring and, when indicated, intrauterine transfusion are used to manage this risk.
+
+### Key determinants
+Timing of maternal infection (earlier gestation carries higher risk) and the degree of fetal erythroid suppression determine the severity of the resulting anemia and hydrops.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Attributing non-immune fetal hydrops to congenital rubella or CMV, whose classic teaching associations are structural/neurologic defects (cardiac defects, cataracts, deafness for rubella; periventricular calcifications and microcephaly for CMV) rather than anemia-driven hydrops.
+
+## hold_these
+Maternal parvovirus B19 infection in the first half of pregnancy is a classic cause of non-immune fetal hydrops via suppression of fetal erythropoiesis.
+
+## lose_the_mark
+Attributing non-immune fetal hydrops to congenital rubella or CMV, whose classic teaching associations are structural/neurologic defects (cardiac defects, cataracts, deafness for rubella; periventricular calcifications and microcephaly for CMV) rather than anemia-driven hydrops.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, 2018/19/20 sitting, Micro Q15.
+
+## evidence_gaps
+Independent microbiology/obstetrics textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## notes
+ASU-UG batch (lane asu-ug-author5). No OCR, web source, or outside fact was used beyond standard teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+## related_articles
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-INF-ASU-UG-MATERNAL-PARVOVIRUS-B19-INFECTION-CAUSES-NON-IMMUNE-FETAL-HYDROPS-VIA-ERYTHROID-SUPPRESSION-01
+
+## span_ids
+SPN-INF-ASU-UG-MATERNAL-PARVOVIRUS-B19-INFECTION-CAUSES-NON-IMMUNE-FETAL-HYDROPS-VIA-ERYTHROID-SUPPRESSION-01
+
+## annotations
+### definition_of · CON-INF-0DECACE4000EC0
+Quote: Maternal parvovirus B19 infection in the first half of pregnancy is a classic cause of non-immune fetal hydrops via suppression of fetal erythropoiesis.
+Block: body
+Id: ann-inf-asu-ug-maternal-parvovirus-b19-infection-causes-non-immune-fetal-hydrops-via-erythroid-suppression-001
+
+## callout_evidence
+
+## question_ids
+
+## media
+
+## published_summary
+
+## published_sections
+
+## conflicts
+
+## university_notes
+asu: Tested as Micro Q15 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff, 2018/19/20 sitting), embedded-answer format, no printed distractors — this batch authors its own.
+
+## last_reviewed
+
+## review_due

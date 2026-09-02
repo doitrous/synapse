@@ -257,19 +257,38 @@ eom-ug-final2-collection-q121
 eom-ug-final2-collection-q122
 eom-ug-final2-collection-q123
 eom-ug-final2-collection-q124
-eom-ug-final2-collection-q125
-eom-ug-final2-collection-q126
-eom-ug-final2-collection-q127
 # NOTE (recount): the Pharma block's printed numbering repeats "2" once (Q2
 # fenestride MOA and a distinct second "Q2" on parenteral testosterone
 # hepatotoxicity are both real, separate items), so this file actually holds
-# ~128 items, one more than the q001-q127 slots above account for. Added
+# ~128 items, one more than the q001-q124 slots above account for. Added
 # below rather than renumbering the range and breaking already-authored keys.
-eom-ug-final2-collection-q128
+# CORRECTED 2026-09-02 (lane 5, asu-ug-author5): q126/q127/q128 below were stale placeholders
+# with no real content — opened every page (pp.1-13) directly and cross-checked every already-
+# authored question's own source_citation against the printed item numbers. Histo's printed
+# numbering skips "7" (jumps 6 to 8: only 11 real Histo items, not the nominal 12) and Physio's
+# skips "7" and "8" (jumps 6 to 9: only 19 real Physio items, not the nominal 21) — both are
+# genuine gaps in the source's own printing (LANE-CARD-Y2-3's "a couple items skipped, not
+# blank"), already fully captured by the authored q043-q072 range, not additional remaining
+# work. The one real gap is Micro Q15 ("Hydrops fetalis in a pregnant woman in the first
+# trimester? -> Parvo virus", p.12) — every other Micro item (Q1-14, Q16-21) already has a
+# q0NN slot. True total real items = 33 (Anatomy) + 9 (Pharma) + 11 (Histo) + 19 (Physio) + 28
+# (Patho) + 21 (Micro) + 4 (Para) = 125, matching q001-q124 (122 authored/held + q018/q023
+# pending) + this one item exactly.
+eom-ug-final2-collection-q125
 
-# assessment-1-mcq = MCQs - Urogenital Assessment 1 MCQ.pdf — only pp.1-6 of 12 sampled so
-# far (Anatomy 24, Pharma 10, Bio 14, Histo 14); pp.7-12 NOT yet triaged, do not author past q62
-# without re-opening the file.
+# assessment-1-mcq = MCQs - Urogenital Assessment 1 MCQ.pdf. CORRECTED 2026-09-02 (lane 5,
+# asu-ug-author5): the "pp.1-6 of 12, Anatomy 24/Pharma 10/Bio 14/Histo 14" description below
+# this comment in prior revisions was never actually authored under these q01-q62 keys — every
+# item actually emitted under the bare `assessment-1-mcq-qNN` key is Physio QNN (pp.6-10 of 12,
+# Physio Q1-Q47; Q1 is on p.6, not p.7), and `assessment-1-mcq-patho-qNN` is Patho QNN (pp.10-12,
+# Patho Q1-Q16) — confirmed by opening every page and cross-checking every already-authored
+# question's own source_citation. Whether the file's pp.1-6 (a genuinely different, still-unread
+# slice, if "Anatomy 24/Pharma 10/Bio 14/Histo 14" describes real content elsewhere in this
+# corpus) needs its own triage pass is unresolved and out of this lane's scope — flag to
+# chief-of-staff before any future lane assumes q01-q62 means that slice again. The stale
+# `assessment-1-mcq-q48`..`q62` placeholders (assumed 15 more Physio/Patho-shaped items) are
+# corrected below: p.12 (pp.10-12 Patho block continues to p.12, then) holds a distinct 5-item
+# Micro block (Micro Q1-Q5), not 15 more items — read directly, see triage.md's Per-paper table.
 assessment-1-mcq-q01
 assessment-1-mcq-q02
 assessment-1-mcq-q03
@@ -317,21 +336,29 @@ assessment-1-mcq-q44
 assessment-1-mcq-q45
 assessment-1-mcq-q46
 assessment-1-mcq-q47
-assessment-1-mcq-q48
-assessment-1-mcq-q49
-assessment-1-mcq-q50
-assessment-1-mcq-q51
-assessment-1-mcq-q52
-assessment-1-mcq-q53
-assessment-1-mcq-q54
-assessment-1-mcq-q55
-assessment-1-mcq-q56
-assessment-1-mcq-q57
-assessment-1-mcq-q58
-assessment-1-mcq-q59
-assessment-1-mcq-q60
-assessment-1-mcq-q61
-assessment-1-mcq-q62
+assessment-1-mcq-patho-q01
+assessment-1-mcq-patho-q02
+assessment-1-mcq-patho-q03
+assessment-1-mcq-patho-q04
+assessment-1-mcq-patho-q05
+assessment-1-mcq-patho-q06
+assessment-1-mcq-patho-q07
+assessment-1-mcq-patho-q08
+assessment-1-mcq-patho-q09
+assessment-1-mcq-patho-q10
+assessment-1-mcq-patho-q11
+assessment-1-mcq-patho-q12
+assessment-1-mcq-patho-q13
+assessment-1-mcq-patho-q14
+assessment-1-mcq-patho-q15
+assessment-1-mcq-patho-q16
+# Micro block (p.12), corrected 2026-09-02 — real item count is 5, not the 15 the old q48-q62
+# placeholders assumed:
+assessment-1-mcq-micro-q01
+assessment-1-mcq-micro-q02
+assessment-1-mcq-micro-q03
+assessment-1-mcq-micro-q04
+assessment-1-mcq-micro-q05
 
 # assessment-2-mcq-1 = MCQs - Urogenital Assessment 2 MCQ-1.pdf — only pp.1-2 of 11 sampled
 # (Anatomy q01-q21), and that Anatomy block is VERBATIM-IDENTICAL to
