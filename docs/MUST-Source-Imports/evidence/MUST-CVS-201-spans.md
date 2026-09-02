@@ -1254,3 +1254,202 @@ CLM-CVS-POLYARTERITIS-NODOSA-01
 
 ## citation_ids
 CIT-POLYARTERITIS-NODOSA-01
+
+
+---
+
+# Item
+
+## id
+SPN-VASOMOTOR-TONE-01
+
+## article_id
+ART-CVS-VASOMOTOR-TONE
+
+## section_id
+art-cvs-vasomotor-tone-definition
+
+## text
+Blood vessels, particularly arterioles, are held in a state of continuous partial constriction called vasomotor tone, produced by ongoing, baseline tonic discharge from sympathetic vasoconstrictor (adrenergic) fibres to vascular smooth muscle, releasing norepinephrine onto alpha-adrenergic receptors even at rest.
+
+## claim_ids
+CLM-CVS-VASOMOTOR-TONE-01
+
+## citation_ids
+CIT-VASOMOTOR-TONE-01
+
+---
+
+# Item
+
+## id
+SPN-EPINEPHRINE-DUAL-ACTION-01
+
+## article_id
+ART-CVS-EPINEPHRINE-DUAL-ACTION
+
+## section_id
+art-cvs-epinephrine-dual-action-mechanism
+
+## text
+Acting on alpha-adrenergic receptors, which predominate in skin, splanchnic and renal vessels, epinephrine causes vasoconstriction. In skeletal muscle, where beta2-adrenergic receptors predominate over alpha receptors, epinephrine instead binds beta2 receptors and causes vasodilation.
+
+## claim_ids
+CLM-CVS-EPINEPHRINE-DUAL-ACTION-01
+
+## citation_ids
+CIT-EPINEPHRINE-DUAL-ACTION-01
+
+---
+
+# Item
+
+## id
+SPN-KININS-PAIN-PERMEABILITY-01
+
+## article_id
+ART-CVS-KININS-PAIN-PERMEABILITY
+
+## section_id
+art-cvs-kinins-pain-permeability-mechanism
+
+## text
+Beyond their action as potent local vasodilators, kinins act directly on capillary and venular endothelium to increase capillary permeability, and they directly stimulate free nerve endings that carry pain sensation, producing pain in inflamed or injured tissue.
+
+## claim_ids
+CLM-CVS-KININS-PAIN-PERMEABILITY-01
+
+## citation_ids
+CIT-KININS-PAIN-PERMEABILITY-01
+
+---
+
+# Item
+
+## id
+SPN-FLARE-REACTION-AXON-REFLEX-01
+
+## article_id
+ART-CVS-FLARE-REACTION-AXON-REFLEX
+
+## section_id
+art-cvs-flare-reaction-axon-reflex-mechanism
+
+## text
+An impulse travelling centrally along one branch of a sensory afferent fibre from the stimulated site can also travel antidromically down neighbouring branches of that same afferent neuron that innervate adjacent skin, triggering local release of vasodilator neuropeptides from the nerve terminals themselves.
+
+## claim_ids
+CLM-CVS-FLARE-REACTION-AXON-REFLEX-01
+
+## citation_ids
+CIT-FLARE-REACTION-AXON-REFLEX-01
+
+---
+
+# Item
+
+## id
+SPN-ENDOTHELIN-VASOCONSTRICTOR-01
+
+## article_id
+ART-CVS-ENDOTHELIN-VASOCONSTRICTOR
+
+## section_id
+art-cvs-endothelin-vasoconstrictor-mechanism
+
+## text
+Endothelin acts on endothelin-A receptors on vascular smooth muscle to produce intense, prolonged vasoconstriction, considerably more potent on a molar basis than angiotensin II or norepinephrine.
+
+## claim_ids
+CLM-CVS-ENDOTHELIN-VASOCONSTRICTOR-01
+
+## citation_ids
+CIT-ENDOTHELIN-VASOCONSTRICTOR-01
+
+---
+
+# Item
+
+## id
+SPN-VASCULAR-FUNCTIONAL-CLASSIFICATION-01
+
+## article_id
+ART-CVS-VASCULAR-FUNCTIONAL-CLASSIFICATION
+
+## section_id
+art-cvs-vascular-functional-classification-definition
+
+## text
+Arterioles are the resistance vessels, capillaries the exchange vessels, and veins the capacitance vessels of the circulation.
+
+## claim_ids
+CLM-CVS-VASCULAR-FUNCTIONAL-CLASSIFICATION-01
+
+## citation_ids
+CIT-VASCULAR-FUNCTIONAL-CLASSIFICATION-01
+
+---
+
+# Item
+
+## id
+SPN-PROSTACYCLIN-VASODILATOR-01
+
+## article_id
+ART-CVS-PROSTACYCLIN-VASODILATOR
+
+## section_id
+art-cvs-prostacyclin-vasodilator-mechanism
+
+## text
+Prostacyclin acts on vascular smooth muscle to raise intracellular cAMP, relaxing the muscle and producing local vasodilation, distinct from its better-known anti-platelet-aggregation role.
+
+## claim_ids
+CLM-CVS-PROSTACYCLIN-VASODILATOR-01
+
+## citation_ids
+CIT-PROSTACYCLIN-VASODILATOR-01
+
+---
+
+# Item
+
+## id
+SPN-BEZOLD-JARISCH-REFLEX-01
+
+## article_id
+ART-CVS-BEZOLD-JARISCH-REFLEX
+
+## section_id
+art-cvs-bezold-jarisch-reflex-mechanism
+
+## text
+Vagal afferent stimulation of these ventricular receptors produces the Bezold-Jarisch reflex (coronary chemoreflex): bradycardia, hypotension and coronary vasodilation, mediated by a surge of parasympathetic outflow and withdrawal of sympathetic vasoconstrictor tone.
+
+## claim_ids
+CLM-CVS-BEZOLD-JARISCH-REFLEX-01
+
+## citation_ids
+CIT-BEZOLD-JARISCH-REFLEX-01
+
+---
+
+# Item
+
+## id
+SPN-MEDULLARY-CARDIOVASCULAR-CENTERS-01
+
+## article_id
+ART-CVS-MEDULLARY-CARDIOVASCULAR-CENTERS
+
+## section_id
+art-cvs-medullary-cardiovascular-centers-mechanism
+
+## text
+The pressor area contains the vasoconstrictor centre and generates tonic sympathetic discharge; the depressor area inhibits the pressor area's output rather than vasodilating on its own. The cardiac inhibitory centre sends vagal efferents to the SA node, slowing heart rate.
+
+## claim_ids
+CLM-CVS-MEDULLARY-CARDIOVASCULAR-CENTERS-01
+
+## citation_ids
+CIT-MEDULLARY-CARDIOVASCULAR-CENTERS-01

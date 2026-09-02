@@ -2664,3 +2664,418 @@ no
 
 ## qualifiers
 population: MUST Year 2 medical students
+
+
+---
+
+# Item
+
+## id
+CLM-CVS-VASOMOTOR-TONE-01
+
+## concept_id
+CON-CVS-511A10F77151BC
+
+## subject
+Continuous partial vasoconstriction of blood vessels (vasomotor tone) is maintained by ongoing sympathetic discharge
+
+## predicate
+is
+
+## object
+Blood vessels, particularly arterioles, are held in a state of continuous partial constriction called vasomotor tone, produced by ongoing, baseline tonic discharge from sympathetic vasoconstrictor (adrenergic) fibres to vascular smooth muscle, releasing norepinephrine onto alpha-adrenergic receptors even at rest.
+
+## display_text
+Blood vessels, particularly arterioles, are held in a state of continuous partial constriction called vasomotor tone, produced by ongoing, baseline tonic discharge from sympathetic vasoconstrictor (adrenergic) fibres to vascular smooth muscle, releasing norepinephrine onto alpha-adrenergic receptors even at rest.
+
+## risk_class
+treatment_or_action
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-EPINEPHRINE-DUAL-ACTION-01
+
+## concept_id
+CON-CVS-8EE3B5EE80F342
+
+## subject
+Epinephrine from the adrenal medulla acts on both alpha- and beta-adrenergic receptors, constricting most vascular beds but dilating skeletal-muscle vessels
+
+## predicate
+is
+
+## object
+Epinephrine acts on alpha-adrenergic receptors (predominant in skin, splanchnic and renal vessels) to cause vasoconstriction, but on beta2-adrenergic receptors (predominant in skeletal muscle) to cause vasodilation, increasing blood flow to muscle during a "fight or flight" response.
+
+## display_text
+Epinephrine acts on alpha-adrenergic receptors (predominant in skin, splanchnic and renal vessels) to cause vasoconstriction, but on beta2-adrenergic receptors (predominant in skeletal muscle) to cause vasodilation, increasing blood flow to muscle during a "fight or flight" response.
+
+## risk_class
+treatment_or_action
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-KININS-PAIN-PERMEABILITY-01
+
+## concept_id
+CON-CVS-AD0D8E768C2018
+
+## subject
+Kinins (bradykinin) are potent vasodilators that also increase capillary permeability and directly stimulate pain nerve endings
+
+## predicate
+is
+
+## object
+Kinins act directly on capillary and venular endothelium to increase capillary permeability, contributing to the fluid exudation seen in acute inflammation, and directly stimulate free nerve endings that carry pain sensation, producing pain in inflamed or injured tissue.
+
+## display_text
+Kinins act directly on capillary and venular endothelium to increase capillary permeability, contributing to the fluid exudation seen in acute inflammation, and directly stimulate free nerve endings that carry pain sensation, producing pain in inflamed or injured tissue.
+
+## risk_class
+treatment_or_action
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.65
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-FLARE-REACTION-AXON-REFLEX-01
+
+## concept_id
+CON-CVS-7F05227FE0970F
+
+## subject
+The skin flare reaction is vasodilation via the axon reflex, in which antidromic impulses in sensory nerve branches release local vasodilator peptides
+
+## predicate
+is
+
+## object
+An impulse travelling centrally along one branch of a sensory afferent fibre from a stimulated skin site can also travel antidromically down neighbouring branches of that same afferent neuron that innervate adjacent skin, triggering local release of vasodilator neuropeptides from the nerve terminals and producing the flare's characteristic spread.
+
+## display_text
+An impulse travelling centrally along one branch of a sensory afferent fibre from a stimulated skin site can also travel antidromically down neighbouring branches of that same afferent neuron that innervate adjacent skin, triggering local release of vasodilator neuropeptides from the nerve terminals and producing the flare's characteristic spread.
+
+## risk_class
+treatment_or_action
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-ENDOTHELIN-VASOCONSTRICTOR-01
+
+## concept_id
+CON-CVS-7D26B65DA355A1
+
+## subject
+Endothelin, released by endothelial cells in response to vessel stretch, is the most potent vasoconstrictor known
+
+## predicate
+is
+
+## object
+Endothelin is a peptide released by vascular endothelial cells in response to stretch of the vessel wall, tissue injury and hypoxia, acting on endothelin-A receptors on vascular smooth muscle to produce intense, prolonged vasoconstriction more potent on a molar basis than angiotensin II or norepinephrine.
+
+## display_text
+Endothelin is a peptide released by vascular endothelial cells in response to stretch of the vessel wall, tissue injury and hypoxia, acting on endothelin-A receptors on vascular smooth muscle to produce intense, prolonged vasoconstriction more potent on a molar basis than angiotensin II or norepinephrine.
+
+## risk_class
+treatment_or_action
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-VASCULAR-FUNCTIONAL-CLASSIFICATION-01
+
+## concept_id
+CON-CVS-3E68C888B95668
+
+## subject
+Blood vessels are classified functionally as resistance vessels (arterioles), exchange vessels (capillaries) or capacitance vessels (veins)
+
+## predicate
+is
+
+## object
+Capillaries are the exchange vessels of the circulation: a single layer of endothelium with a large total surface area allows diffusion of gases, nutrients and waste between blood and interstitial fluid, distinct from the resistance role of arterioles and the capacitance role of veins.
+
+## display_text
+Capillaries are the exchange vessels of the circulation: a single layer of endothelium with a large total surface area allows diffusion of gases, nutrients and waste between blood and interstitial fluid, distinct from the resistance role of arterioles and the capacitance role of veins.
+
+## risk_class
+treatment_or_action
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.75
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-PROSTACYCLIN-VASODILATOR-01
+
+## concept_id
+CON-CVS-487BC301A49AE2
+
+## subject
+Prostacyclin (PGI2), synthesised by endothelium from arachidonic acid via cyclooxygenase, is a local vasodilator as well as a platelet-aggregation inhibitor
+
+## predicate
+is
+
+## object
+Prostacyclin, synthesised by vascular endothelial cells from arachidonic acid via cyclooxygenase, acts on vascular smooth muscle to raise intracellular cAMP and produce local vasodilation, distinct from its better-known anti-platelet-aggregation role.
+
+## display_text
+Prostacyclin, synthesised by vascular endothelial cells from arachidonic acid via cyclooxygenase, acts on vascular smooth muscle to raise intracellular cAMP and produce local vasodilation, distinct from its better-known anti-platelet-aggregation role.
+
+## risk_class
+treatment_or_action
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-BEZOLD-JARISCH-REFLEX-01
+
+## concept_id
+CON-CVS-E48F6E57CCBB2F
+
+## subject
+Left ventricular receptors act as both mechanoreceptors and chemoreceptors, and their stimulation (the Bezold-Jarisch reflex) causes bradycardia and hypotension
+
+## predicate
+is
+
+## object
+Vagal afferent stimulation of left ventricular mechano/chemoreceptors produces the Bezold-Jarisch reflex (coronary chemoreflex): bradycardia, hypotension and coronary vasodilation, mediated by a surge of parasympathetic outflow and withdrawal of sympathetic vasoconstrictor tone.
+
+## display_text
+Vagal afferent stimulation of left ventricular mechano/chemoreceptors produces the Bezold-Jarisch reflex (coronary chemoreflex): bradycardia, hypotension and coronary vasodilation, mediated by a surge of parasympathetic outflow and withdrawal of sympathetic vasoconstrictor tone.
+
+## risk_class
+treatment_or_action
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students
+
+---
+
+# Item
+
+## id
+CLM-CVS-MEDULLARY-CARDIOVASCULAR-CENTERS-01
+
+## concept_id
+CON-CVS-595DFC43B96D7D
+
+## subject
+The medullary vasomotor centre has pressor (vasoconstrictor) and depressor (vasodilator) areas, and a separate cardiac inhibitory centre slows the heart via the vagus
+
+## predicate
+is
+
+## object
+The medullary vasomotor centre's pressor area contains the vasoconstrictor centre and generates tonic sympathetic discharge, while a separate cardiac inhibitory centre sends vagal efferents to the SA node to slow heart rate.
+
+## display_text
+The medullary vasomotor centre's pressor area contains the vasoconstrictor centre and generates tonic sympathetic discharge, while a separate cardiac inhibitory centre sends vagal efferents to the SA node to slow heart rate.
+
+## risk_class
+treatment_or_action
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+population: MUST Year 2 medical students

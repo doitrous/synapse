@@ -2402,3 +2402,364 @@ Printed combined answer key on p.16 of the EOM MCQ paper.
 
 ## counts_as_claim_evidence
 yes
+
+
+---
+
+# Item
+
+## id
+CIT-VASOMOTOR-TONE-01
+
+## claim_id
+CLM-CVS-VASOMOTOR-TONE-01
+
+## resource_id
+src_165188e079f0f475e54d
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Physiology CVS201 Questions (Final), Q5, key p.9] The continuous, partial vasoconstriction of blood vessels is maintained by: B) Sympathetic tone.
+
+## locator_type
+printed_page
+
+## locator_page
+9
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed answer key on p.9 of the EOM MCQ paper (Blood Flow section, Q1-30).
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-EPINEPHRINE-DUAL-ACTION-01
+
+## claim_id
+CLM-CVS-EPINEPHRINE-DUAL-ACTION-01
+
+## resource_id
+src_165188e079f0f475e54d
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Physiology CVS201 Questions (Final), Q7 & Q23, key p.9] During a "fight or flight" response, epinephrine causes vasodilation in skeletal muscle by acting on: B) Beta-adrenergic receptors. Which hormone is released from the adrenal medulla and can cause both vasoconstriction and vasodilation? C) Epinephrine.
+
+## locator_type
+printed_page
+
+## locator_page
+9
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed answer key on p.9 of the EOM MCQ paper (Blood Flow section, Q1-30).
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-KININS-PAIN-PERMEABILITY-01
+
+## claim_id
+CLM-CVS-KININS-PAIN-PERMEABILITY-01
+
+## resource_id
+src_165188e079f0f475e54d
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Physiology CVS201 Questions (Final), Q15 & Q25, key p.9] Which of following helps in stimulation of pain sensation like Insulin: A) Kinins. Which of the following is a direct effect of Kinins? C) Increased capillary permeability.
+
+## locator_type
+printed_page
+
+## locator_page
+9
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed answer key on p.9 of the EOM MCQ paper (Blood Flow section, Q1-30).
+
+## confidence
+0.75
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FLARE-REACTION-AXON-REFLEX-01
+
+## claim_id
+CLM-CVS-FLARE-REACTION-AXON-REFLEX-01
+
+## resource_id
+src_165188e079f0f475e54d
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Physiology CVS201 Questions (Final), Q16, key p.9] The "flare reaction" in the skin is an example of vasodilation mediated by: B) Antidromic vasodilator fibers.
+
+## locator_type
+printed_page
+
+## locator_page
+9
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed answer key on p.9 of the EOM MCQ paper (Blood Flow section, Q1-30).
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-ENDOTHELIN-VASOCONSTRICTOR-01
+
+## claim_id
+CLM-CVS-ENDOTHELIN-VASOCONSTRICTOR-01
+
+## resource_id
+src_165188e079f0f475e54d
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Physiology CVS201 Questions (Final), Q19, key p.9] Which endothelial substance is a potent vasoconstrictor released in response to vessel stretch? C) Endothelin.
+
+## locator_type
+printed_page
+
+## locator_page
+9
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed answer key on p.9 of the EOM MCQ paper (Blood Flow section, Q1-30).
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-VASCULAR-FUNCTIONAL-CLASSIFICATION-01
+
+## claim_id
+CLM-CVS-VASCULAR-FUNCTIONAL-CLASSIFICATION-01
+
+## resource_id
+src_165188e079f0f475e54d
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Physiology CVS201 Questions (Final), Q20, key p.9] The primary function of the capillaries is: C) Exchange.
+
+## locator_type
+printed_page
+
+## locator_page
+9
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed answer key on p.9 of the EOM MCQ paper (Blood Flow section, Q1-30).
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-PROSTACYCLIN-VASODILATOR-01
+
+## claim_id
+CLM-CVS-PROSTACYCLIN-VASODILATOR-01
+
+## resource_id
+src_165188e079f0f475e54d
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Physiology CVS201 Questions (Final), Q28, key p.9] Which substance, derived from arachidonic acid, is a vasodilator produced by the endothelium? C) Prostacyclin.
+
+## locator_type
+printed_page
+
+## locator_page
+9
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed answer key on p.9 of the EOM MCQ paper (Blood Flow section, Q1-30).
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-BEZOLD-JARISCH-REFLEX-01
+
+## claim_id
+CLM-CVS-BEZOLD-JARISCH-REFLEX-01
+
+## resource_id
+src_165188e079f0f475e54d
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Physiology CVS201 Questions (Final), Q5 & Q27, key p.20] Which of the following is both mechano-receptor & chemo-receptor? A) Left ventricular receptors. The Bazold-Jarish reflex (coronary chemoreflex) results in: B) Bradycardia and hypotension.
+
+## locator_type
+printed_page
+
+## locator_page
+20
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed answer key on p.20 of the EOM MCQ paper (Arterial Blood Pressure section, Q1-40).
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-MEDULLARY-CARDIOVASCULAR-CENTERS-01
+
+## claim_id
+CLM-CVS-MEDULLARY-CARDIOVASCULAR-CENTERS-01
+
+## resource_id
+src_165188e079f0f475e54d
+
+## evidence_role
+local_curriculum
+
+## support_span
+[EOM MCQs - Physiology CVS201 Questions (Final), Q19 & Q20, key p.20] The Vasoconstrictor Center (VCC) is part of which medullary area? C) Pressor Area. Which center sends impulses via the vagus nerve to decrease heart rate? D) Cardiac Inhibitory Center (CIC).
+
+## locator_type
+printed_page
+
+## locator_page
+20
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Printed answer key on p.20 of the EOM MCQ paper (Arterial Blood Pressure section, Q1-40).
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+yes
