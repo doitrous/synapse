@@ -10941,13 +10941,13 @@ CON-CVS-7F05227FE0970F
 flarereaction.antidromic-vasodilator-fibers
 
 ## definition
-When skin is injured or firmly stimulated, the red "flare" that spreads beyond the directly stimulated site is produced by the axon reflex: an impulse travelling centrally along one branch of a sensory (nociceptive) afferent fibre from the stimulated site can also travel antidromically — backwards, away from the spinal cord — down neighbouring branches of that same afferent neuron that innervate adjacent skin, triggering the local release of vasodilator neuropeptides from the nerve terminals themselves. This local, peripherally-generated vasodilation, driven by antidromic conduction in sensory ("vasodilator") fibres rather than by any efferent autonomic outflow, is what gives the flare its characteristic spread beyond the point of direct injury, and it forms part of the classic "triple response" of the skin (red line, flare, wheal).
+When skin is injured or firmly stimulated, the red "flare" that spreads beyond the directly stimulated site is produced by the axon reflex: an impulse travelling centrally along one branch of a sensory (nociceptive) afferent fibre from the stimulated site can also travel antidromically — backwards, away from the spinal cord — down neighbouring branches of that same afferent neuron that innervate adjacent skin, triggering the local release of vasodilator neuropeptides from the nerve terminals themselves. This local, peripherally-generated vasodilation, driven by antidromic conduction in sensory ("vasodilator") fibres rather than by any efferent autonomic outflow, is what gives the flare its characteristic spread beyond the point of direct injury, and it forms part of the classic "triple response" of the skin (red line, flare, wheal). The third component, the wheal — the localised swelling seen, for example, after a bee sting or an allergen skin-prick — is driven by a separate mediator, histamine, released locally from mast cells; histamine directly increases capillary permeability, producing the swelling and contributing to the surrounding redness, distinct from the axon-reflex mechanism that produces the flare itself.
 
 ## explicit_objective
-State that the skin flare reaction is mediated by antidromic conduction in sensory nerve branches (the axon reflex), not by autonomic efferent vasodilator outflow.
+State that the skin flare reaction is mediated by antidromic conduction in sensory nerve branches (the axon reflex), not by autonomic efferent vasodilator outflow, and that the wheal component of the same triple response is instead mediated by histamine.
 
 ## pitfalls
-Assuming the flare reflects ordinary efferent parasympathetic vasodilation. The flare's mechanism is antidromic — impulses running backward along collateral branches of the same sensory afferent that carries the stimulus centrally — not a centrally-driven autonomic reflex.
+Assuming the flare reflects ordinary efferent parasympathetic vasodilation. The flare's mechanism is antidromic — impulses running backward along collateral branches of the same sensory afferent that carries the stimulus centrally — not a centrally-driven autonomic reflex. Also assuming the whole triple response shares one mechanism: the flare is axon-reflex vasodilation, but the wheal is a separate, histamine-driven increase in capillary permeability.
 
 ## concept_type
 mechanism
@@ -10968,7 +10968,7 @@ cvs
 
 
 ## aliases
-Flare reaction | Axon reflex | Antidromic vasodilator fibres | Triple response of the skin
+Flare reaction | Axon reflex | Antidromic vasodilator fibres | Triple response of the skin | Wheal | Histamine-mediated wheal
 
 ## arabic_label
 
@@ -11007,7 +11007,7 @@ src_165188e079f0f475e54d
 [clear]
 
 ## atomic_claim_ids
-CLM-CVS-FLARE-REACTION-AXON-REFLEX-01
+CLM-CVS-FLARE-REACTION-AXON-REFLEX-01 | CLM-CVS-TRIPLE-RESPONSE-HISTAMINE-WHEAL-01
 
 ## resource_occurrence_ids
 [clear]
@@ -11025,7 +11025,7 @@ CLM-CVS-FLARE-REACTION-AXON-REFLEX-01
 The source paper states this without qualification; nothing was found to record.
 
 ## uncertainty
-Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification.
+Nothing about this concept is genuinely unsettled at undergraduate level; the source paper states it without qualification. Tranche 8 extended this record's definition to cover the wheal's histamine mechanism (tested by Capillary Circulation & Oedema Q18) alongside the flare's own axon-reflex mechanism (Q6/Blood-Flow Q16), rather than minting a second concept for the same "triple response" source label — the source paper's own bank tests both components as the same named phenomenon.
 
 ## last_reviewed
 
@@ -11070,7 +11070,8 @@ MUST_Y2=0.5
 0.7
 
 ## original_wording
-[EOM MCQs - Physiology CVS201 Questions (Final), Q16, key p.9] The "flare reaction" in the skin is an example of vasodilation mediated by: B) Antidromic vasodilator fibers.
+[EOM MCQs - Physiology CVS201 Questions (Final), Blood Flow Q16, key p.9] The "flare reaction" in the skin is an example of vasodilation mediated by: B) Antidromic vasodilator fibers.
+[EOM MCQs - Physiology CVS201 Questions (Final), Capillary Circulation & Oedema Q18, key p.26] A patient presents after a bee sting with localized swelling, redness, and a pale central wheal. This "triple response" is primarily mediated by: C) Histamine.
 
 ## evidence_gaps
 Evidence must be attached before publication.
@@ -11091,6 +11092,7 @@ needs_evidence
 authored_needs_independent_evidence
 
 ## field_notes
+must-tranche8: Extended for physcap-q06 (spreading-flare mechanism, dual-sourced with this record's original Blood Flow Q16) and physcap-q18 ("triple response...mediated by:", key C, Histamine) — this record's definition now covers both the flare (axon reflex) and wheal (histamine) components tested by the source's Capillary Circulation & Oedema section. src_165188e079f0f475e54d p.26.
 arabicLabel: MUST teaching for this module is in English and the source paper prints no Arabic term; not transliterated, because a transliteration is not a reviewed term.
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
