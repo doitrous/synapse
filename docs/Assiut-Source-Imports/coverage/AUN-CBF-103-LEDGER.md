@@ -2,9 +2,11 @@
 |---|---:|---:|---:|---:|
 | cbf-bank-new | 18 | 0 | 0 | 18 |
 | cbf-bank-pending-102int | 7 | 0 | 0 | 7 |
+| cbf-bank-pending-102int-2 | 6 | 0 | 0 | 6 |
 | cbf-bank-pending-103bms | 4 | 0 | 0 | 4 |
 | cbf-bank-pending-103bms-2 | 14 | 0 | 0 | 14 |
 | cbf-bank-pending-103bms-physiology | 12 | 0 | 0 | 12 |
+| cbf-bank-pending-103bms-physiology-2 | 18 | 0 | 0 | 18 |
 | cbf-bank-q001 p1 key=b  total body water = 60% of adult body weight -- reused CON-HEM-428F8B432AF540 | 0 | 0 | 1 | 1 |
 | cbf-bank-q002 p1 key=a  total body water in 70kg adult = 42 L -- new | 0 | 0 | 1 | 1 |
 | cbf-bank-q003 p1 key=c  ICF = 40% of adult body weight -- reused CON-HEM-428F8B432AF540 | 0 | 0 | 1 | 1 |
@@ -138,6 +140,7 @@
 | cbf-bank-q131 p17 key=b  keeping the internal body environment constant = homeostasis | 0 | 0 | 1 | 1 |
 | cbf-bank-q132 p17 key=c  internal body environment refers to the ECF | 0 | 0 | 1 | 1 |
 | cbf-bank-q31-80-new | 23 | 0 | 0 | 23 |
+| cbf-bank-q81-132-new | 28 | 0 | 0 | 28 |
 
 ## Held
 (none)
