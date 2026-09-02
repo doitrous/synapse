@@ -150,7 +150,7 @@ Quote: run in the direction of the collagen fibre bundles of the reticular dermi
 Block: body
 
 ### definition_of · CON-MSK-ASU-AE-TOE-ADDUCTION-AXIS
-Quote: the foot's is the second toe, because the second toe ... lies on the long axis of the foot
+Quote: the foot's toe-movement axis is the second toe, not the middle toe
 Block: body
 
 ### definition_of · CON-MSK-ASU-AE-CARPAL-BONE-COUNT
