@@ -2,6 +2,8 @@
 |---|---:|---:|---:|---:|
 | ini-mcq | 89 | 11 | 0 | 100 |
 | ini-mcq-ch2 | 52 | 8 | 0 | 60 |
+| ini-mcq-ch3 | 21 | 3 | 0 | 24 |
+| ini-mcq-ch4 | 48 | 10 | 0 | 58 |
 | ini-mcq-ch6 | 55 | 3 | 0 | 58 |
 
 ## Held
@@ -24,6 +26,19 @@
 - ini-mcq-ch2-q056 — duplicate-of ini-mcq-ch2-q029 -- near-verbatim restatement of "recovery from infectious diseases correlates with" (Decline phase)
 - ini-mcq-ch2-q058 — duplicate-of ini-mcq-ch2-q025 -- near-verbatim restatement of "bacteria highly susceptible to antimicrobial agents when growth occurs in the" (Log/exponential phase)
 - ini-mcq-ch2-q060 — duplicate-of ini-mcq-ch2-q005 -- identical stem and options to Q5 ("The bacterial cells are at their metabolic peak during?", Log phase)
+- ini-mcq-ch3-q013 — source prints only 3 options (Virulent phage/Prophage/Temperate phage), short of the seed schema's 4-option floor; also a near-literal duplicate of ini-mcq-ch3-q004 ("Bacteriophage responsible for lysogenic cycle is called? -> Temperate phage" vs "Bacteriophage which undergoes a lysogenic cycle? -> Temperate phage") -- held on both grounds
+- ini-mcq-ch3-q016 — source prints only 3 options (Virulent phage/Temperate phage/Prophage), short of the seed schema's 4-option floor
+- ini-mcq-ch3-q015 — True/False item (2 printed options: True/False), short of the seed schema's 4-option floor
+- ini-mcq-ch4-q010 — True/False item (2 printed options: True/False), short of the seed schema's 4-option floor
+- ini-mcq-ch4-q013 — True/False item (2 printed options: True/False), short of the seed schema's 4-option floor
+- ini-mcq-ch4-q015 — source prints only 3 options (Bacitracins/Bacteriocins/R-Factors, D blank), short of the seed schema's 4-option floor; the printed key (B, Bacteriocins) is also debatable against the textbook example Bacitracin (A), a bacterially-produced antibiotic proper, so held on both grounds
+- ini-mcq-ch4-q020 — 2 printed options only (Coding DNA/Non-Coding DNA), short of the seed schema's 4-option floor
+- ini-mcq-ch4-q025 — 2 printed options only (Conservative replication/Semiconservative replication), short of the seed schema's 4-option floor
+- ini-mcq-ch4-q040 — near-literal duplicate of ini-mcq-ch4-q035 ("Short labeled single stranded sequences of DNA or RNA that can detect the presence of complementary sequences are known as? -> Probes" restates Q35's DNA-probe definition)
+- ini-mcq-ch4-q041 — near-literal duplicate of ini-mcq-ch4-q033 ("Enzymes that recognize a specific short nucleotide sequence on a double stranded DNA molecule and cleave DNA at this site are known as? -> Restriction endonucleases" restates Q33's definition)
+- ini-mcq-ch4-q044 — near-literal duplicate of ini-mcq-ch4-q022 ("It breaks hydrogen bonds between nucleotides leading to unwinding of double-stranded DNA? -> Helicase" restates Q22's fact)
+- ini-mcq-ch4-q052 — near-literal duplicate of ini-mcq-ch4-q003 ("Genetic information essential for bacterial life is a function of? -> Chromosome", same four terms reordered)
+- ini-mcq-ch4-q058 — literal duplicate of chapter 1's ini-mcq-q001 ("The functions of plasmid are?" -- identical stem, identical four options, identical key D "None of the above")
 - ini-mcq-ch6-q032 — source prints only 2 options (Need host cell / Reproduce by binary fission) for an EXCEPT stem, short of the seed schema's 4-option floor
 - ini-mcq-ch6-q038 — source prints only 2 options (Culture dish / Host cell), short of the seed schema's 4-option floor
 - ini-mcq-ch6-q052 — near-verbatim restatement of ini-mcq-ch6-q034 (capsomeres = individual units of capsid): "Capsomeres are?" vs Q34's "Which of the following statements are true about the capsomeres?", same four distractor concepts reordered, same correct fact -- duplicate-of ini-mcq-ch6-q034

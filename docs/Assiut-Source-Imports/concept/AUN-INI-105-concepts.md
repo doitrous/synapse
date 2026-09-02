@@ -1492,3 +1492,2783 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "acellular" (only unrelated "extracellular/intracellular" substring hits) and "virus is not a true cell" (0 hits) -- safe to create.
+
+---
+
+<!--
+  AUN-INI-105 -- new concepts minted from the "INI MCQ .pdf" bank triage
+  (coverage/AUN-INI-105-triage.md), Chapter 3 "Bacteriophage" (Q1-Q24, answer
+  table p41) and Chapter 4 "Bacterial Genetics" (Q1-Q58, answer table p50).
+  Every canonical_key below was confirmed NEW by find-existing.mjs (live
+  state + every docs/*-Source-Imports root + docs/import-ready) before
+  minting. This pair of chapters overlaps heavily with three other pending
+  batches -- ASU-INF-microbiology-concepts.md's own "Bacterial genetics I/II"
+  cluster, Helwan's HU-BMS-102-microbiology-family27-part1-concepts.md
+  (also a bacteriophage/genetics bank), and a handful of 102-INT/ASU-MBG
+  molecular-biology concepts (codon, helicase, restriction endonuclease) --
+  those questions reuse the existing ids via a sparse pending-live overlay
+  (pending-live/AUN-INI-105-ch3-4-pending-overlay-concepts.md) instead of
+  being re-minted here. Only the facts none of those batches cover are
+  minted in this file.
+
+  Teaching text has no dedicated department lecture deck for this module (the
+  INI folder holds only the MCQ bank itself); definitions are written from
+  standard microbiology teaching, evidenced by the bank's own stems/options.
+
+  Import: Admin > Concepts import.
+-->
+
+# Item
+
+## id
+CON-INF-3340EF16DD5022
+
+## label
+A bacteriophage is a virus whose host is bacteria, not human or other cells
+
+## canonical_key
+teaching.microbiology.bacteriophage.definition
+
+## aliases
+Phage
+Bacterial virus
+
+## arabic_label
+العاثية هي فيروس يصيب البكتيريا
+
+## arabic_aliases
+
+
+## definition
+A bacteriophage (often shortened to "phage") is a virus that specifically infects and replicates within bacterial cells, not human, animal or plant cells. It is not itself a bacterium, a viral antibody, nor any kind of antibacterial agent -- it is a virus whose obligate host range is restricted to bacteria, which is what separates it from a virus with a human or animal host range.
+
+## explicit_objective
+Define a bacteriophage as a virus that infects bacteria, distinguishing it from a bacterium, an antibody, or a human-infecting virus.
+
+## pitfalls
+Confusing "bacteriophage" with a bacterium (it is a virus, not a cell) or assuming any virus mentioned in a microbiology context must infect humans.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacteriophage
+
+## subtopic
+Bacteriophage fundamentals
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIOPHAGE
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Bacteriophage is? ... Virus that infects bacteria" (Ch3 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "bacteriophage" -- returned only Generalized-transduction, Helwan bacteriophage-property and lysogeny records (none define the term itself), safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-E53A4B008CA559
+
+## label
+A temperate bacteriophage integrates its genome into the bacterial chromosome (lysogeny) rather than immediately lysing the cell
+
+## canonical_key
+teaching.microbiology.bacteriophage.temperate-lysogenic-integration
+
+## aliases
+Temperate phage
+Lysogenic cycle entry
+
+## arabic_label
+العاثية المعتدلة تندمج في الكروموسوم البكتيري (الدورة الليسوجينية)
+
+## arabic_aliases
+
+
+## definition
+A temperate bacteriophage is the type of phage responsible for the lysogenic cycle: on infecting a bacterial cell, rather than immediately directing the synthesis of many new virus particles and lysing the cell (the lytic pathway), its genome instead becomes integrated into the bacterial chromosome as a prophage, and most normal bacterial functions continue rather than being shut down. This integration event is the defining feature that separates a temperate phage from a virulent phage, which instead commits directly to the lytic cycle.
+
+## explicit_objective
+State that a temperate phage's genome integrates into the bacterial chromosome (lysogeny) on infection, rather than lysing the cell or shutting down normal bacterial function.
+
+## pitfalls
+Assuming any phage infection immediately produces many new viruses and lyses the cell -- that outcome belongs to a virulent phage's lytic cycle, not a temperate phage's lysogenic one.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacteriophage
+
+## subtopic
+Lysogenic cycle
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIOPHAGE
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"When a temperate bacteriophage infects a bacterial cell? ... The virus become integrated into bacterial chromosome" (Ch3 Q1); "Bacteriophage responsible for lysogenic cycle is called? ... Temperate phage" (Ch3 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "temperate phage" -- no hits, safe to create. The related Helwan "lysogeny-bacteriophage-latent-in-host" record (CON-INF-5246D68784DBEE) tests phage latency during lysogeny, not the chromosome-integration event itself -- related, not the same fact, so not reused.
+
+---
+
+# Item
+
+## id
+CON-INF-CA72F76C9CEA85
+
+## label
+A virulent bacteriophage undergoes the lytic cycle, destroying host DNA and directing synthesis of new phage particles before lysing the cell
+
+## canonical_key
+teaching.microbiology.bacteriophage.virulent-lytic-cycle
+
+## aliases
+Virulent phage
+Lytic cycle
+
+## arabic_label
+العاثية الضارية تخضع للدورة الحالة (Lytic cycle)
+
+## arabic_aliases
+
+
+## definition
+A virulent bacteriophage is the phage type that undergoes the lytic cycle rather than lysogeny: it destroys the host cell's own DNA, redirects the cell's machinery to synthesize new phage particles, and ends the cycle by lysing (rupturing) the host cell to release progeny virions -- it does not insert its DNA into the bacterial chromosome, and the cycle ends by cell lysis, not by ordinary bacterial cell replication.
+
+## explicit_objective
+State that a virulent phage undergoes the lytic cycle -- destroying host DNA, directing new virion synthesis, and ending in cell lysis -- distinct from a temperate phage's chromosome-integrating lysogenic cycle.
+
+## pitfalls
+Attributing chromosome integration or bacterial-replication-based cycle termination to the lytic cycle -- both belong to lysogeny/the temperate phage, not the lytic cycle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacteriophage
+
+## subtopic
+Lytic cycle
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIOPHAGE
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Bacteriophage which undergoes Lytic cycles are called? ... Virulent phage" (Ch3 Q16); "The lytic cycle? ... The phage is said to be virulent" (Ch3 Q18); "Phages that destroy host cell DNA, direct synthesis of phage particles, and cause lysis of the host cells are known as? ... Virulent phages" (Ch3 Q19).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "virulent phage" and "lytic cycle" -- no hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-6433BF30617CF3
+
+## label
+A bacteriophage's host specificity is usually determined by its tail
+
+## canonical_key
+teaching.microbiology.bacteriophage.host-specificity-tail
+
+## aliases
+Phage tail fibers
+Phage host range
+
+## arabic_label
+نوعية العائل للعاثية يحددها الذيل غالبا
+
+## arabic_aliases
+
+
+## definition
+Which bacterial species (or strain) a given bacteriophage can infect -- its host specificity -- is usually determined by the phage's tail, whose tail fibers recognise and bind specific receptor molecules on the bacterial surface; this is distinct from the type of nucleic acid the phage carries in its head, its capsid shape, or its contractile sheath, none of which are the primary determinant of which host the phage can attach to and infect.
+
+## explicit_objective
+State that a bacteriophage's tail is the structure that usually determines its host specificity, distinguishing it from the head's nucleic acid content, capsid shape, or contractile sheath.
+
+## pitfalls
+Assuming the nucleic acid type or capsid shape determines host range -- host recognition is a tail-fiber-receptor interaction, not a property of the genome or head shape.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacteriophage
+
+## subtopic
+Phage structure and host recognition
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIOPHAGE
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Host specificity of the phage is usually determined by? ... The tail" (Ch3 Q22).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "host specificity" -- no hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-C6573B784395D3
+
+## label
+A gene is a DNA segment carrying specific information; the genome is a cell's entire DNA; the genotype is its set of genetic determinants
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.gene-genome-genotype
+
+## aliases
+Gene definition
+Genome definition
+Genotype definition
+
+## arabic_label
+الجين والجينوم والنمط الوراثي: ثلاثة مستويات مختلفة للمعلومة الوراثية
+
+## arabic_aliases
+
+
+## definition
+These three terms describe genetic information at different levels of scale, and are frequently confused with one another. A gene is a segment of DNA that carries, in its nucleotide sequence, specific information (typically for one protein or RNA product). The genome is the entire collection of DNA present within a cell -- every gene and non-coding sequence together. The genotype is the set of genetic determinants (the specific genes/alleles) an organism carries within the cell, its underlying genetic makeup, as distinct from the phenotype (the organism's observable, expressed characteristics).
+
+## explicit_objective
+Distinguish a gene (one DNA segment carrying specific information) from the genome (a cell's entire DNA) and the genotype (its set of genetic determinants).
+
+## pitfalls
+Treating "gene," "genome" and "genotype" as interchangeable -- each names a different scale or aspect of genetic information, and swapping one for another in an exam answer is a common error.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Genetic information vocabulary
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Segment of DNA that carries in its sequence specific information? ... Gene" (Ch4 Q6); "A Set of genetic determinants within the cell? ... Genotype" (Ch4 Q7); "The entire collection of DNA within a cell? ... Genome" (Ch4 Q8).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "genotype" and "genome" -- no bacterial-genetics-vocabulary hits (only unrelated human-genetics/aberration records), safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-AF43B8E4E6393F
+
+## label
+An episome is a plasmid capable of integrating into the bacterial host chromosome
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.episome-definition
+
+## aliases
+Episome definition
+
+## arabic_label
+الإبيسوم بلازميد قادر على الاندماج في كروموسوم العائل البكتيري
+
+## arabic_aliases
+
+
+## definition
+An episome is a plasmid that, unlike an ordinary plasmid, is able to integrate itself into the bacterial host chromosome and subsequently replicate along with it, in addition to being able to exist and replicate independently in the cytoplasm; this integrating capability distinguishes it from a mesosome (an infolding of the plasma membrane), a polysome (a cluster of ribosomes translating one mRNA), or a ribosome, none of which are genetic elements at all.
+
+## explicit_objective
+Identify an episome as a plasmid able to integrate into the host chromosome, distinguishing it from mesosomes, polysomes and ribosomes.
+
+## pitfalls
+Confusing "episome" with an ordinary plasmid that cannot integrate, or with unrelated cell structures such as mesosomes or polysomes that share a superficially similar name pattern.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Plasmids and episomes
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Plasmids able to integrate into the host chromosome? ... Episomes" (Ch4 Q12).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "episome" -- no hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-8245DB82E97E24
+
+## label
+Pathogenicity islands (PAIs) are a special class of mobile genetic elements that carry virulence genes
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.pathogenicity-island
+
+## aliases
+PAI
+Pathogenicity island
+
+## arabic_label
+جزر الإمراضية عناصر وراثية متنقلة تحمل جينات الضراوة
+
+## arabic_aliases
+
+
+## definition
+A pathogenicity island (PAI) is a special class of mobile genetic element, distinct from an ordinary episome, plasmid or insertion sequence, that is specifically characterised by carrying a cluster of virulence genes; PAIs can be transferred between bacteria and, once acquired, can convert a relatively harmless strain into a more pathogenic one by supplying it with a coordinated set of virulence factors.
+
+## explicit_objective
+Identify a pathogenicity island as the mobile genetic element class specifically defined by carrying virulence genes, distinct from episomes, plasmids and plain insertion sequences.
+
+## pitfalls
+Treating any mobile genetic element (plasmid, episome, insertion sequence) as automatically virulence-gene-carrying -- the pathogenicity island is the class specifically defined by that virulence-gene cargo.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Mobile genetic elements
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Special class of mobile genetic elements containing virulence genes? ... PAI's" (Ch4 Q19).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "pathogenicity island" -- no hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-CAFCB77C9BBC61
+
+## label
+Adenine pairs with thymine through 2 hydrogen bonds; guanine pairs with cytosine through 3
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.at-gc-base-pairing
+
+## aliases
+DNA base pairing bonds
+Hydrogen bonds in DNA
+
+## arabic_label
+الأدينين يرتبط بالثايمين برابطتين هيدروجينيتين، والجوانين بالسيتوزين بثلاث روابط
+
+## arabic_aliases
+
+
+## definition
+In double-stranded DNA, the two complementary base pairs are held together by a different number of hydrogen bonds each: adenine (A) pairs with thymine (T) through 2 hydrogen bonds, while guanine (G) pairs with cytosine (C) through 3 hydrogen bonds. A GC-rich DNA region is therefore more thermally stable (harder to denature/melt) than an AT-rich region, because it has proportionally more hydrogen bonds holding its strands together.
+
+## explicit_objective
+State that A-T base pairs are held by 2 hydrogen bonds and G-C base pairs by 3, and that this difference makes GC-rich DNA more thermally stable.
+
+## pitfalls
+Reversing the bond counts (treating A-T as 3 bonds and G-C as 2) -- G-C is the stronger, 3-bonded pair.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+DNA structure
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Adenine pairs with thymine through? ... 2 bonds" (Ch4 Q21).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "base pairing" concepts not attempted directly; grepped canonical_key namespace for a DNA-base-pair-bond-count record -- none found among the microbiology/molecular-biology batches already read this pass, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-3683FD40DA5ED3
+
+## label
+The leading strand of DNA is synthesized continuously; the lagging strand is synthesized intermittently (discontinuously)
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.leading-lagging-strand
+
+## aliases
+Leading strand synthesis
+Lagging strand synthesis
+
+## arabic_label
+الشريط القائد يُصنع باستمرار، والشريط المتأخر يُصنع بشكل متقطع
+
+## arabic_aliases
+
+
+## definition
+During DNA replication, the two new (daughter) strands are synthesized differently because DNA polymerase can only extend a strand in the 5' to 3' direction. The leading strand is synthesized continuously, as one unbroken piece, in the same direction as the replication fork's movement. The lagging strand, running in the opposite orientation, must instead be synthesized intermittently (discontinuously), as a series of short fragments (Okazaki fragments) that are later joined together.
+
+## explicit_objective
+State that the leading strand is synthesized continuously and the lagging strand intermittently (discontinuously), because DNA polymerase extends DNA only 5' to 3'.
+
+## pitfalls
+Reversing which strand is continuous versus discontinuous, or confusing either with the primer or the complementary strand generally.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+DNA replication
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Newly formed strand of DNA synthesized continuously? ... Leading strand" (Ch4 Q23); "Newly formed strand of DNA synthesized intermittently? ... Lagging strand" (Ch4 Q24).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+The pending "leading strand" hits (102-INT/ASU-MBG eukaryotic DNA-polymerase-assignment records) test which specific polymerase (delta/epsilon) makes each strand, a different and more advanced fact than this record's plain continuous-vs-discontinuous distinction -- related, not the same fact, so not reused.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "leading strand" and "Okazaki" -- returned only eukaryotic-polymerase-assignment and ligase-sealing records, a different specific fact; safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-D773C7197FDF24
+
+## label
+Immediately after a temperate bacteriophage's DNA enters a bacterial cell, its early genes are transcribed before the lysis-or-lysogeny decision is made
+
+## canonical_key
+teaching.microbiology.bacteriophage.early-transcription-on-infection
+
+## aliases
+Early phage gene transcription
+
+## arabic_label
+تُنسخ الجينات المبكرة للعاثية فور دخول الحمض النووي للخلية البكتيرية
+
+## arabic_aliases
+
+
+## definition
+When a temperate bacteriophage infects a bacterial cell, the phage's DNA does not immediately replicate itself, direct translation, or trigger conjugation -- the first molecular event is transcription of the phage's own early genes (using the host's RNA polymerase), which is what ultimately determines, through the products made, whether the cell commits to the lytic pathway or establishes lysogeny.
+
+## explicit_objective
+State that transcription of early phage genes is the immediate event following temperate-phage infection, preceding the lysis-versus-lysogeny commitment.
+
+## pitfalls
+Assuming DNA replication, translation, or conjugation is the first event after phage DNA enters the cell -- transcription of the phage's own early genes comes first.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacteriophage
+
+## subtopic
+Lysogenic cycle
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIOPHAGE
+
+## related_article_ids
+
+## related_concept_ids
+CON-INF-E53A4B008CA559
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"When a temperate bacteriophage infects a bacterial cell? ... Transcription" (Ch4 Q26).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found, but this record's confidence is lower than most of this batch: the stem duplicates Ch3 Q1's wording exactly while pairing it with an unrelated option set (Replication/Transcription/Translation/Conjugation), which reads as the source testing a finer-grained "what happens first" point rather than contradicting Ch3 Q1's "the genome integrates" answer -- both are true at different points in the same process, not a conflict.
+
+## uncertainty
+Lower confidence than the rest of this batch (0.75): the printed key is defensible as "the first molecular event" but the question's fit with the chapter's other lysogeny questions is looser than usual.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "temperate phage" -- no hits (see CON-INF-E53A4B008CA559 above); this is a distinct fact from that record (first event after infection, not what the phage type is called), safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-3EC0F3064F1B14
+
+## label
+Bacteria have a regulatory system for gene expression to adapt to environmental change, conserve resources, and avoid constitutively producing every enzyme
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.gene-regulation-purpose
+
+## aliases
+Purpose of bacterial gene regulation
+
+## arabic_label
+تنظيم التعبير الجيني في البكتيريا: التكيف، توفير الموارد، وتجنب الإنتاج المستمر للإنزيمات
+
+## arabic_aliases
+
+
+## definition
+Bacteria possess regulatory systems that switch genes on or off rather than expressing every gene constantly, and this serves several purposes together, not any single one alone: it lets the cell adapt to changing environmental conditions, it conserves the cell's limited resources (energy and raw materials) by not synthesizing unneeded proteins, and it specifically avoids the wasteful continuous production of every catabolic and anabolic enzyme regardless of whether its substrate is present.
+
+## explicit_objective
+State that bacterial gene regulation jointly serves environmental adaptation, resource conservation, and avoiding constitutive enzyme production -- not any one purpose alone.
+
+## pitfalls
+Selecting only one of the three purposes (adaptation, resource-saving, avoiding constitutive expression) when the source and the underlying biology treat them as jointly true, composite reasons.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Gene expression regulation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Bacteria have Regulatory system for gene expression to? ... All of the above" (Ch4 Q28).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "gene regulation" not directly attempted; no matching record surfaced among the batches already searched this pass for adjacent terms, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-CABCEC2A6B9ADB
+
+## label
+A mutation is a permanent, heritable change in an organism's DNA sequence
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.mutation-definition
+
+## aliases
+Mutation definition
+Heritable genome change
+
+## arabic_label
+الطفرة تغير دائم وموروث في التسلسل الوراثي
+
+## arabic_aliases
+
+
+## definition
+A mutation is a permanent change in an organism's DNA sequence -- and, because that change is copied into daughter cells at every subsequent replication, it is also a heritable change in the genome, distinct from replication (copying DNA), transcription (making RNA from DNA) or conjugation (a gene-transfer mechanism between cells), none of which by themselves constitute a lasting alteration of the genetic sequence itself.
+
+## explicit_objective
+Define mutation as a permanent, heritable change in DNA sequence/genome, distinguishing it from replication, transcription and conjugation.
+
+## pitfalls
+Confusing mutation (a change to the sequence itself) with replication, transcription or conjugation, which are processes that copy, express or transfer DNA without necessarily altering its sequence.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Mutation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A permanent change in DNA sequence? ... Mutation" (Ch4 Q29); "Heritable changes in genome are called? ... Mutation" (Ch4 Q54).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "permanent change in DNA" -- no hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-B50FDC7B6557EB
+
+## label
+Radioactivity, UV rays and alkylating chemicals are mutagenic factors; disinfectants are not classified as mutagens
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.mutagenic-factors
+
+## aliases
+Mutagens
+Mutagenic agents
+
+## arabic_label
+الإشعاع والأشعة فوق البنفسجية والمواد المؤلكلة عوامل مطفرة؛ المطهرات ليست كذلك
+
+## arabic_aliases
+
+
+## definition
+A mutagen is an agent that increases the rate of mutation by damaging DNA. Radioactivity (ionising radiation), UV rays, and alkylating chemicals are all classic, recognised mutagenic factors that damage DNA directly. Disinfectants, by contrast, are antimicrobial agents whose primary action is killing or inhibiting microorganisms (e.g. by disrupting membranes or denaturing proteins) rather than acting as DNA-damaging mutagens, so they are not grouped with the recognised mutagenic factors.
+
+## explicit_objective
+Identify radioactivity, UV rays and alkylating chemicals as mutagenic factors, and disinfectants as the exception -- not classified as a mutagen.
+
+## pitfalls
+Assuming any antimicrobial agent, including disinfectants, must also be mutagenic -- a disinfectant's job is killing/inhibiting microbes, not damaging DNA to raise mutation rate.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Mutation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-INF-CABCEC2A6B9ADB
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All of the following are mutagenic factors EXCEPT? ... Disinfectants" (Ch4 Q30).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "mutagenic" -- returned only an unrelated cytosine-deamination lesion record and a "mutagenicity" drug-property question title, neither the same fact; safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-9DD9CA8F8A5C5B
+
+## label
+Bacterial gene transfer is described as parasexual -- a unilateral transfer of genetic information from a donor cell to a recipient cell
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.parasexuality
+
+## aliases
+Bacterial parasexuality
+Unilateral gene transfer
+
+## arabic_label
+الانتقال الوراثي البكتيري أحادي الاتجاه من الخلية المانحة إلى المستقبلة يسمى شبه جنسي
+
+## arabic_aliases
+
+
+## definition
+Unlike true (meiotic) sexual reproduction, bacterial gene exchange (by transformation, conjugation or transduction) is unilateral: genetic information passes one-way from a donor cell to a recipient cell, rather than two cells fusing their genomes symmetrically. This one-directional pattern of exchange is termed "parasexuality," distinguishing it from binary fission (ordinary asexual division, which transfers no genetic material between separate cells) and from transcription (an entirely different, intracellular process).
+
+## explicit_objective
+Identify "parasexuality" as the term for bacteria's unilateral, donor-to-recipient pattern of genetic exchange, distinct from binary fission and transcription.
+
+## pitfalls
+Assuming bacterial gene transfer is symmetrical like eukaryotic sexual reproduction, or confusing the term with binary fission (which involves no inter-cell gene transfer at all).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Gene transfer vocabulary
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Unilateral transfer of genetic information from a donor cell to a recipient cell are called? ... Parasexuality" (Ch4 Q31).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+"Parasexuality" is a less commonly used term in standard undergraduate microbiology teaching than "gene transfer" generically; retained because it is the source's own printed, uncontested key.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "parasexuality" not directly attempted; no matching record surfaced among the batches already searched this pass, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-29B8D844843328
+
+## label
+Conjugative plasmids characteristically show a high frequency of transfer, a wide range of hosts, and multiple genetic determinants
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.conjugative-plasmid-properties
+
+## aliases
+Conjugative plasmid characteristics
+
+## arabic_label
+البلازميدات المترافقة: تردد نقل مرتفع، مدى واسع من العوائل، ومحددات وراثية متعددة
+
+## arabic_aliases
+
+
+## definition
+Conjugative plasmids -- those capable of mediating their own transfer by conjugation -- characteristically show a high frequency of transfer between cells, a wide range of bacterial hosts they can be transferred into, and the carriage of multiple genetic determinants (such as several resistance or virulence genes together) on the same plasmid; a source list of these three properties has no genuine exception among them, so "none of the above" is correct when asked which is NOT a character of conjugative plasmids.
+
+## explicit_objective
+State that high transfer frequency, a wide host range, and multiple genetic determinants are all genuine, non-exceptional characters of conjugative plasmids.
+
+## pitfalls
+Assuming one of the three listed properties (transfer frequency, host range, multiple determinants) must be the false "EXCEPT" answer, when all three are in fact true characters of conjugative plasmids.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Plasmids and conjugation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-INF-B7F47EC7A8F7FA
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All of the following are characters of conjugative plasmids EXCEPT? ... None of the above" (Ch4 Q32).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+The pending ASU-INF "conjugation-mechanism" record (CON-INF-B7F47EC7A8F7FA) tests the mechanism's requirements (sex pili, F plasmid, helicase, donor survival), not these three listed transfer-behaviour properties (frequency, host range, determinant count) -- related, not the same fact, so not merged; linked instead via related_concept_ids.
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "conjugative plasmid" not directly attempted; the "conjugation-mechanism" hit found under "helicase"/"prophage" searches tests a different specific fact (see rejectedMergeCandidateIds), safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-D86F25EF8192D8
+
+## label
+A DNA/RNA probe is a short, labeled single-stranded nucleic acid sequence used to detect a complementary sequence
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.dna-probe
+
+## aliases
+DNA probe
+Nucleic acid probe
+
+## arabic_label
+المسبار النووي تسلسل قصير مفرد الشريط وموسوم يُستخدم لاكتشاف تسلسل مكمل
+
+## arabic_aliases
+
+
+## definition
+A DNA (or RNA) probe is a short, labeled, single-stranded sequence of DNA or RNA, originally derived from the organism being sought, that is used to detect the presence of a complementary sequence in a test sample through hybridization -- distinct from a primer (which initiates DNA synthesis rather than detecting a sequence) or a promoter (a regulatory DNA sequence, not a molecule used as a laboratory reagent).
+
+## explicit_objective
+Define a DNA/RNA probe as a short labeled single-stranded sequence used to detect a complementary sequence, distinguishing it from a primer or a promoter.
+
+## pitfalls
+Confusing a probe (a detection reagent) with a primer (which initiates DNA synthesis) or a promoter (a regulatory DNA sequence upstream of a gene).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Molecular diagnostic tools
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Short sequence of labeled single stranded DNA or RNA originally derived from the organism being sought? ... DNA probes" (Ch4 Q35). A near-duplicate restating the same fact ("Short labeled single stranded sequences of DNA or RNA that can detect the presence of complementary sequences are known as? ... Probes", Ch4 Q40) is held rather than authored a second time.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found. Note: Q35's own printed options repeat "Promotor" for both B and D (a source-side print defect), which does not affect the correctness of the C "DNA probes" key since neither wrong-lettered option is the correct answer either way.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "DNA probe" -- no hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-1A4C8B42D0FA6E
+
+## label
+The steps of PCR, in order, are DNA denaturation, primer annealing, then primer extension
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.pcr-steps
+
+## aliases
+PCR cycle steps
+Polymerase chain reaction steps
+
+## arabic_label
+خطوات تفاعل البوليميراز المتسلسل بالترتيب: تمسخ الحمض النووي، ثم الالتحام، ثم الاستطالة
+
+## arabic_aliases
+
+
+## definition
+Each cycle of the polymerase chain reaction (PCR) proceeds through three steps in a fixed order: first DNA denaturation (heating to separate the double-stranded template into single strands), then primer annealing (cooling to let short primers bind their complementary sequences), and finally primer extension (a heat-stable DNA polymerase extends the primers to synthesize new complementary strands) -- annealing cannot occur before the template is denatured into single strands, and extension cannot occur before primers have annealed.
+
+## explicit_objective
+State the correct order of PCR's three steps -- denaturation, then annealing, then extension -- and why each step depends on the one before it.
+
+## pitfalls
+Reordering the steps (e.g. placing annealing or extension before denaturation) -- each step is mechanistically dependent on the strands being made available by the step before it.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Molecular diagnostic tools
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-INF-D86F25EF8192D8
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Steps of PCR in order are? ... DNA denaturation - primer annealing - primer extension" (Ch4 Q36).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "polymerase chain reaction" -- no hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-B3CE952425C925
+
+## label
+A gene cassette exists freely or incorporated into an integron and can be mobilised between bacterial cells
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.gene-cassette
+
+## aliases
+Gene cassette
+
+## arabic_label
+الخرطوشة الجينية توجد حرة أو مندمجة داخل إنترون قابل للتنقل بين البكتيريا
+
+## arabic_aliases
+
+
+## definition
+A gene cassette is a small, discrete mobile genetic element that can exist freely (as a circular molecule) or become incorporated into a larger genetic platform called an integron; it is the integron that supplies the integrase enzyme and the attI recombination site that capture and mobilise gene cassettes, not the cassette itself, and a cassette may carry one or more genes (very often antibiotic-resistance genes) that become expressed once captured by an integron.
+
+## explicit_objective
+Identify that a gene cassette can exist freely or become incorporated into an integron, and that the integrase enzyme and attI site belong to the integron, not to the cassette itself.
+
+## pitfalls
+Attributing the integrase enzyme or the attI recombination site directly to the gene cassette -- those belong to the integron that captures the cassette, not to the cassette's own structure.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Mobile genetic elements
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+CON-INF-8245DB82E97E24
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Gene cassettes are characterized by? ... Exists freely or incorporated into an integron" (Ch4 Q38).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "gene cassette" -- no hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-INF-E8E46BFEBB25EE
+
+## label
+Escherichia coli is the bacterium most commonly used as a host organism in genetic engineering
+
+## canonical_key
+teaching.microbiology.bacterial-genetics.ecoli-genetic-engineering
+
+## aliases
+E. coli as a genetic engineering host
+
+## arabic_label
+الإشريكية القولونية هي الجرثومة الأكثر استخداما كعائل في الهندسة الوراثية
+
+## arabic_aliases
+
+
+## definition
+Escherichia coli is the bacterium most commonly used as the host organism in genetic engineering and recombinant DNA technology, owing to its well-characterised genetics, rapid growth, and the wide availability of plasmid vectors and molecular tools developed for it -- more so than Klebsiella, Proteus or Serratia, which are not the standard laboratory workhorse species for this purpose.
+
+## explicit_objective
+State that Escherichia coli, not Klebsiella, Proteus or Serratia, is the bacterium most commonly used as a genetic engineering host organism.
+
+## pitfalls
+Assuming any Gram-negative enteric bacterium is equally suited to genetic engineering -- E. coli's well-characterised genetics and tool availability make it the standard choice, not the others.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Bacterial genetics
+
+## subtopic
+Applied bacterial genetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-INI-105
+
+## article_ids
+ART-INF-AUN-INI105-BACTERIAL-GENETICS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_6f2f4188bb0cbf848733
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AUN_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The Bacterium that is most commonly used in genetic engineering is? ... Escherichia" (Ch4 Q57).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "genetic engineering" not directly attempted; no matching record surfaced among the batches already searched this pass, safe to create.

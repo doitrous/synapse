@@ -174,73 +174,90 @@ ini-mcq-ch2-q058  # -- HELD, duplicate-of ini-mcq-ch2-q025
 ini-mcq-ch2-q059  # -- depends on organic sources for energy: heterotrophs -- pending (ASU-INF CON-INF-841FAB7F11BA18)
 ini-mcq-ch2-q060  # -- HELD, duplicate-of ini-mcq-ch2-q005
 
-# AUN-INI-105 -- Chapter 6 "General virology" triage keys (source: INI MCQ .pdf,
-# pp.63-77, 102 items, answer table p.77). Key format ini-mcq-ch6-qNNN (chapter-6-scoped).
-# This lane (author6) authored Q1-58 of 102, a self-contained "virus structure,
-# classification and genetics" run ending at Q58's exaltation item -- Q59 pivots
-# into retrovirus-replication-cycle specifics (penetration, uncoating, viral-DNA
-# replication site, antibody-mediated virus neutralization), the natural hand-off
-# point for the next lane (author7). STOP POINT FOR NEXT LANE: resume at Q59
-# ("Regarding the replication cycle of retrovirus, which sentence is wrong?"),
-# p.71. Q60-102 (44 more items) remain untriaged at per-question level; the
-# chapter's 100%-keyable-by-printed-table status (coverage/AUN-INI-105-triage.md)
-# holds for the whole chapter, confirmed by this lane's own read through the p.77
-# answer table.
-ini-mcq-ch6-q001  # -- antigenic drift caused by mutation -- new (mint)
-ini-mcq-ch6-q002  # -- naked virus = nucleocapsid only, no envelope -- new (mint)
-ini-mcq-ch6-q003  # -- Parvoviridae is the ssDNA exception among dsDNA families -- new (mint)
-ini-mcq-ch6-q004  # -- DNA viruses replicate in nucleus, RNA viruses in cytoplasm -- new (mint)
-ini-mcq-ch6-q005  # -- enveloped virus exit = budding or exocytosis -- pending (ASU-INF CON-INF-7952070C4BD8AF)
-ini-mcq-ch6-q006  # -- fungal cell membrane contains ergosterol -- new (mint)
-ini-mcq-ch6-q007  # -- opportunistic fungal infection risk factors EXCEPT anaerobic wound -- new (mint)
-ini-mcq-ch6-q008  # -- latent viral infection: occult, reactivating form -- pending (ASU-INF CON-INF-4EC402ABB55946)
-ini-mcq-ch6-q009  # -- first line of defense = type I interferon -- pending (ASU-IMM CON-IMM-E92EE28916590A)
-ini-mcq-ch6-q010  # -- protein particles which infect = prions -- new (mint)
-ini-mcq-ch6-q011  # -- herpesvirus: icosahedral, enveloped, dsDNA -- new (mint)
-ini-mcq-ch6-q012  # -- bacteriophage = virus parasitizing bacteria -- new (mint)
-ini-mcq-ch6-q013  # -- virus contains DNA or RNA -- new (mint)
-ini-mcq-ch6-q014  # -- poxvirus = largest virus -- new (mint)
-ini-mcq-ch6-q015  # -- parvovirus = smallest virus -- new (mint)
-ini-mcq-ch6-q016  # -- virion = extracellular infectious particle -- live (CON-INF-BBB25C0749A8D4)
-ini-mcq-ch6-q017  # -- virus in bloodstream = viraemia -- pending (ASU-INF CON-INF-46988C6D071F21)
-ini-mcq-ch6-q018  # -- HIV belongs to Retroviridae -- new (mint)
-ini-mcq-ch6-q019  # -- retrovirus special feature = reverse transcriptase = RNA-directed DNA polymerase -- new (mint)
-ini-mcq-ch6-q020  # -- AIDS virus = retrovirus -- new (mint)
-ini-mcq-ch6-q021  # -- HIV blood marker = reverse transcriptase -- new (mint)
-ini-mcq-ch6-q022  # -- Paramyxovirus is the RNA exception among DNA viruses -- new (mint)
-ini-mcq-ch6-q023  # -- plaque assay quantitates infectious virus titer -- new (mint)
-ini-mcq-ch6-q024  # -- viral surface proteins protect genome from nucleases -- new (mint)
-ini-mcq-ch6-q025  # -- prion contains no detectable nucleic acid -- new (mint)
-ini-mcq-ch6-q026  # -- virus size range 20-300 nm -- new (mint)
-ini-mcq-ch6-q027  # -- viral replication requires host cell macromolecules -- new (mint)
-ini-mcq-ch6-q028  # -- capsid = protein coat surrounding nucleic acid -- pending (ASU-INF CON-INF-5544B0DB9FAF82)
-ini-mcq-ch6-q029  # -- smallpox capsid symmetry = complex -- new (mint)
-ini-mcq-ch6-q030  # -- viruses do NOT multiply by binary fission -- new (mint)
-ini-mcq-ch6-q031  # -- envelope not made of "small protein subunits" (that is capsomeres) -- new (mint)
-ini-mcq-ch6-q032  # -- HELD, only 2 printed options (Need host cell / Reproduce by binary fission)
-ini-mcq-ch6-q033  # -- viroid = circular RNA, no protein or envelope -- pending (ASU-INF CON-INF-6EE705523FD61C)
-ini-mcq-ch6-q034  # -- capsomere = individual unit of capsid -- live (CON-INF-80960EC6FD48EC)
-ini-mcq-ch6-q035  # -- capsid does NOT absorb nutrients by active transport -- new (mint)
-ini-mcq-ch6-q036  # -- enveloped-virus serotypes vary by envelope protein, not capsid protein -- new (mint)
-ini-mcq-ch6-q037  # -- prions cannot "multiply" the way viruses do -- new (mint)
-ini-mcq-ch6-q038  # -- HELD, only 2 printed options (Culture dish / Host cell)
-ini-mcq-ch6-q039  # -- capsid composed of capsomers -- live (CON-INF-80960EC6FD48EC)
-ini-mcq-ch6-q040  # -- enveloped viruses obtain envelope by budding -- pending (ASU-INF CON-INF-7952070C4BD8AF)
-ini-mcq-ch6-q041  # -- virus multiplies in living tissue -- new (mint)
-ini-mcq-ch6-q042  # -- viruses use HOST tRNA/ribosomes, not viral -- new (mint)
-ini-mcq-ch6-q043  # -- naked viruses = non-enveloped -- new (AUN mint, same concept as q002)
-ini-mcq-ch6-q044  # -- prions = protein infectious particles, no nucleic acid -- new (mint)
-ini-mcq-ch6-q045  # -- envelope structures = lipoproteins -- pending (ASU-INF CON-INF-7952070C4BD8AF)
-ini-mcq-ch6-q046  # -- genetic material in virus = DNA or RNA -- new (AUN mint, same concept as q013)
-ini-mcq-ch6-q047  # -- poxvirus has complex symmetry -- new (AUN mint, same concept as q029)
-ini-mcq-ch6-q048  # -- capsid found in all viruses -- pending (ASU-INF CON-INF-5544B0DB9FAF82)
-ini-mcq-ch6-q049  # -- prions = infectious protein particles without nucleic acid -- new (AUN mint, same concept as q010)
-ini-mcq-ch6-q050  # -- defective viruses need helper virus to replicate -- new (mint)
-ini-mcq-ch6-q051  # -- virus made of protein coat and nucleic acid -- live (CON-INF-BBB25C0749A8D4)
-ini-mcq-ch6-q052  # -- HELD, duplicate-of ini-mcq-ch6-q034
-ini-mcq-ch6-q053  # -- genetic reassortment requires segmented genome -- new (mint)
-ini-mcq-ch6-q054  # -- phenotypic masking: genome packaged in another virus's capsid -- new (mint)
-ini-mcq-ch6-q055  # -- complementation allows defective viruses to replicate -- new (AUN mint, same concept as q050)
-ini-mcq-ch6-q056  # -- conditional-lethal mutants: permissive vs restrictive conditions -- new (mint)
-ini-mcq-ch6-q057  # -- plaque-size mutants alter lysis-zone diameter -- new (AUN mint, same concept as q056)
-ini-mcq-ch6-q058  # -- exaltation: one virus enhances another's growth -- new (mint)
+
+# AUN-INI-105 -- Chapter 3 "Bacteriophage" (Q1-Q24, answer table p41), lane 4.
+# Key format ini-mcq-ch3-qNNN per the chapter-1 triage's own disambiguation note.
+ini-mcq-ch3-q001  # -- temperate phage integrates into bacterial chromosome -- new (CON-INF-E53A4B008CA559)
+ini-mcq-ch3-q002  # -- transduction: phage containing host DNA -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q003  # -- bacteriophage definition -- new (CON-INF-3340EF16DD5022)
+ini-mcq-ch3-q004  # -- temperate phage responsible for lysogenic cycle -- new (CON-INF-E53A4B008CA559)
+ini-mcq-ch3-q005  # -- lysogenic conversion via prophage genes -- pending (ASU-INF CON-INF-BFFA74CFBB0B25)
+ini-mcq-ch3-q006  # -- NOT true about bacteriophage (does not infect humans) -- pending (Helwan CON-INF-E463F81B9370AE)
+ini-mcq-ch3-q007  # -- transformation: uptake of free naked DNA -- pending (ASU-INF CON-INF-42D77BF4AB3ADD)
+ini-mcq-ch3-q008  # -- transduction: DNA transfer with help of bacteriophage -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q009  # -- sex pilus role in conjugation -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch3-q010  # -- bacteriophage's role in transduction -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q011  # -- conjugation: transfer after cell-to-cell contact -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch3-q012  # -- transfer of specific DNA w/ temperate phage: none of above (specialized transduction not offered) -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q013  # -- HELD, only 3 printed options; also near-literal duplicate of ini-mcq-ch3-q004
+ini-mcq-ch3-q014  # -- prophage: integrated at specific site -- pending (Helwan CON-INF-C4B589DE952DCF)
+ini-mcq-ch3-q015  # -- HELD, True/False item, 2 printed options
+ini-mcq-ch3-q016  # -- HELD, only 3 printed options
+ini-mcq-ch3-q017  # -- generalized transduction via virulent phage -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q018  # -- lytic cycle properties -- new (CON-INF-CA72F76C9CEA85)
+ini-mcq-ch3-q019  # -- virulent phages destroy host DNA and cause lysis -- new (CON-INF-CA72F76C9CEA85)
+ini-mcq-ch3-q020  # -- transduction: donor DNA introduced by bacterial virus -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q021  # -- prophage: integrated viral genome -- pending (Helwan CON-INF-C4B589DE952DCF)
+ini-mcq-ch3-q022  # -- phage host specificity determined by tail -- new (CON-INF-6433BF30617CF3)
+ini-mcq-ch3-q023  # -- generalized transduction: random DNA segment transfer -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q024  # -- lysogenized cell contains prophage -- pending (Helwan CON-INF-C4B589DE952DCF)
+
+# AUN-INI-105 -- Chapter 4 "Bacterial Genetics" (Q1-Q58, answer table p50), lane 4.
+ini-mcq-ch4-q001  # -- transposons: mobile DNA, can carry toxin genes -- pending (ASU-INF CON-INF-D6A264E108B348)
+ini-mcq-ch4-q002  # -- transposons EXCEPT: do not autonomously replicate -- pending (ASU-INF CON-INF-D6A264E108B348)
+ini-mcq-ch4-q003  # -- genetic info essential for bacterial life = chromosome -- new (CON-INF-52E3C48A1A2AAA, ch1)
+ini-mcq-ch4-q004  # -- essential bacterial structure: nuclear body -- new (CON-INF-52E3C48A1A2AAA, ch1)
+ini-mcq-ch4-q005  # -- non-essential bacterial structure: fimbriae -- new (CON-INF-52E3C48A1A2AAA, ch1)
+ini-mcq-ch4-q006  # -- gene: DNA segment with specific info -- new (CON-INF-C6573B784395D3)
+ini-mcq-ch4-q007  # -- genotype: set of genetic determinants -- new (CON-INF-C6573B784395D3)
+ini-mcq-ch4-q008  # -- genome: entire DNA collection -- new (CON-INF-C6573B784395D3)
+ini-mcq-ch4-q009  # -- bacteria haploid, 1 chromosome -- new (CON-INF-52E3C48A1A2AAA, ch1)
+ini-mcq-ch4-q010  # -- HELD, True/False item, 2 printed options
+ini-mcq-ch4-q011  # -- plasmid: extrachromosomal DNA replicating independently -- live (CON-DEV-FE47A8F9B0768E)
+ini-mcq-ch4-q012  # -- episome: plasmid integrating into host chromosome -- new (CON-INF-AF43B8E4E6393F)
+ini-mcq-ch4-q013  # -- HELD, True/False item, 2 printed options
+ini-mcq-ch4-q014  # -- R plasmids carry antibiotic resistance genes -- pending (ASU-INF CON-INF-134BE2C9B827D5)
+ini-mcq-ch4-q015  # -- HELD, only 3 printed options; also debatable key (Bacteriocins vs Bacitracin)
+ini-mcq-ch4-q016  # -- F plasmids carry sex pilus genes -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q017  # -- fertility factor mediates conjugation -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q018  # -- transposons: mobile gene sequences -- pending (ASU-INF CON-INF-D6A264E108B348)
+ini-mcq-ch4-q019  # -- pathogenicity islands carry virulence genes -- new (CON-INF-8245DB82E97E24)
+ini-mcq-ch4-q020  # -- HELD, only 2 printed options
+ini-mcq-ch4-q021  # -- A-T base pairing = 2 hydrogen bonds -- new (CON-INF-CAFCB77C9BBC61)
+ini-mcq-ch4-q022  # -- helicase breaks hydrogen bonds -- pending (102-INT CON-FND-81A17C5BF7ED85)
+ini-mcq-ch4-q023  # -- leading strand: continuous synthesis -- new (CON-INF-3683FD40DA5ED3)
+ini-mcq-ch4-q024  # -- lagging strand: intermittent synthesis -- new (CON-INF-3683FD40DA5ED3)
+ini-mcq-ch4-q025  # -- HELD, only 2 printed options
+ini-mcq-ch4-q026  # -- temperate phage infection: transcription first -- new (CON-INF-D773C7197FDF24)
+ini-mcq-ch4-q027  # -- codon: 3 nucleotides in mRNA reading frame -- pending (102-INT CON-FND-FB99DCB7F61A0E)
+ini-mcq-ch4-q028  # -- gene regulation purposes (all of above) -- new (CON-INF-3EC0F3064F1B14)
+ini-mcq-ch4-q029  # -- mutation: permanent DNA sequence change -- new (CON-INF-CABCEC2A6B9ADB)
+ini-mcq-ch4-q030  # -- mutagenic factors EXCEPT disinfectants -- new (CON-INF-B50FDC7B6557EB)
+ini-mcq-ch4-q031  # -- parasexuality: unilateral gene transfer -- new (CON-INF-9DD9CA8F8A5C5B)
+ini-mcq-ch4-q032  # -- conjugative plasmid characters (none of above is exception) -- new (CON-INF-29B8D844843328)
+ini-mcq-ch4-q033  # -- restriction endonuclease: recognize + cleave -- pending (ASU-MBG CON-FND-C444D428BE3E1D)
+ini-mcq-ch4-q034  # -- gene therapy: replace mutated gene -- live (CON-OBS-594403B7D8C57E)
+ini-mcq-ch4-q035  # -- DNA probe: labeled seq from sought organism -- new (CON-INF-D86F25EF8192D8)
+ini-mcq-ch4-q036  # -- PCR steps in order -- new (CON-INF-1A4C8B42D0FA6E)
+ini-mcq-ch4-q037  # -- nucleic acid probe applications EXCEPT amplification -- new (CON-INF-D86F25EF8192D8)
+ini-mcq-ch4-q038  # -- gene cassette: free or in integron -- new (CON-INF-B3CE952425C925)
+ini-mcq-ch4-q039  # -- plasmid classification: genetic factor -- live (CON-DEV-FE47A8F9B0768E)
+ini-mcq-ch4-q040  # -- HELD, near-literal duplicate of ini-mcq-ch4-q035
+ini-mcq-ch4-q041  # -- HELD, near-literal duplicate of ini-mcq-ch4-q033
+ini-mcq-ch4-q042  # -- specialized transduction: transfer of specific bacterial DNA -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch4-q043  # -- conjugative plasmid EXCEPT: needs no cell contact (false) -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q044  # -- HELD, near-literal duplicate of ini-mcq-ch4-q022
+ini-mcq-ch4-q045  # -- F factor mediates conjugation -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q046  # -- process involving sex pilus: conjugation -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q047  # -- transformation susceptible to nuclease -- pending (ASU-INF CON-INF-42D77BF4AB3ADD)
+ini-mcq-ch4-q048  # -- mating pair formation requires sex pilus -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q049  # -- plasmid transmitted via conjugation -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q050  # -- transformation: naked DNA taken by recipient -- pending (ASU-INF CON-INF-42D77BF4AB3ADD)
+ini-mcq-ch4-q051  # -- R factor: main determinant of drug resistance -- pending (ASU-INF CON-INF-134BE2C9B827D5)
+ini-mcq-ch4-q052  # -- HELD, near-literal duplicate of ini-mcq-ch4-q003
+ini-mcq-ch4-q053  # -- plasmid governs EXCEPT endotoxin production -- pending (ASU-INF CON-INF-EB5758CBC71F57)
+ini-mcq-ch4-q054  # -- mutation: heritable change in genome -- new (CON-INF-CABCEC2A6B9ADB)
+ini-mcq-ch4-q055  # -- transformation involves taking up DNA from environment -- pending (ASU-INF CON-INF-42D77BF4AB3ADD)
+ini-mcq-ch4-q056  # -- transduction: DNA portion transfer via bacteriophage -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch4-q057  # -- E. coli most used in genetic engineering -- new (CON-INF-E8E46BFEBB25EE)
+ini-mcq-ch4-q058  # -- HELD, literal duplicate of chapter 1's ini-mcq-q001
